@@ -47,3 +47,20 @@ test('IMDb episode IDs contribute parent-series candidates for split-cour subjec
   })) as typeof fetch);
   assert.deepEqual(await client.find('tt15553038', 'imdb_id'), [{ type: 'tv', id: 94664 }]);
 });
+
+test('subject-only episode ranges verify every episode, including gaps between existing endpoints', async () => {
+  const row = mapping({ episodes: [], rules: [], targets: [
+    { type: 'tv', id: 100, season: 1, episode: 13, episodeEnd: 15 },
+    { type: 'tv', id: 100, season: 2 },
+  ] });
+  const client = (numbers: number[]) => new Tmdb('test', undefined, (async (url: string | URL | Request) => {
+    const match = String(url).match(/\/season\/(\d+)/);
+    if (!match) return Response.json({ id: 100 });
+    const season = Number(match[1]);
+    return Response.json({ id: 1000 + season, season_number: season, episodes: numbers.map(n => ({
+      id: 2000 + n, episode_number: n, season_number: season, name: String(n), air_date: null,
+    })) });
+  }) as typeof fetch);
+  assert.deepEqual(await verifyMapping(row, client([13, 14, 15]), catalog(row)), []);
+  await assert.rejects(verifyMapping(row, client([13, 15]), catalog(row)), /Missing TMDB episode in range/);
+});

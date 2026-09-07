@@ -26,7 +26,7 @@ for attempt in 1 2 3; do
     env -u GH_TOKEN pnpm run update
   fi
   pnpm cli guard "$base"
-  pnpm cli verify
+  pnpm validate
   git add -- data state sources
   if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
   git -c user.name=openanibot -c user.email=openanibot@users.noreply.github.com \

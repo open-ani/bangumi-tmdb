@@ -1,0 +1,25 @@
+{
+  "anidbId": 738,
+  "bangumiId": 38217,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 Bangumi subject 将京都动画的两部连续 OVA 合并为两话：第1话是2003年的《MUNTO》，对应 TMDB movie 63420；第2话是2005年的续篇《MUNTO ～時の壁を越えて～》（Munto 2: Beyond the Walls of Time），对应 TMDB movie 63422。因此需要返回两个电影目标。2009年的《空を見上げる少女の瞳に映る世界》加入新作画面并重新配音，属于重制兼续作 TV 版，不应代替这两部原版 OVA；2009年剧场版同样不是本 subject。\n\nhttps://www.kyotoanimation.co.jp/munto/ (page): 京都动画官方资料明确列出：2003年3月18日发行第1章 OVA《MUNTO》，2005年4月23日发行第2章 OVA《MUNTO ～時の壁を越えて～》；另说明2009年 TV 版是在前两作基础上增加新画面、重新配音并加入第3章的全9话作品。\n\nhttps://www.themoviedb.org/person/144672 (page): TMDB 官方西屋太志演职员页面分别列出2003年《Munto》和2005年《Munto 2: Beyond the Walls of Time》；对应条目的链接目标分别是 /movie/63420-munto 与 /movie/63422-munto，确认了两个 movie ID。\n\nhttps://letterboxd.com/film/munto/ (page): 该页面所列作品为木上益治执导、京都动画制作、2003年3月18日发行的《Munto》，剧情为魔导王寻找能看见天空浮岛的梦见；页面的 TMDB 外部链接指向 movie 63420。\n\nhttps://letterboxd.com/film/munto-2-beyond-the-walls-of-time/ (page): 该页面所列作品原名为《MUNTO 時の壁を越えて》，年份2005、发行日4月23日，剧情承接第一部两年后；页面的 TMDB 外部链接指向 movie 63422。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38217; https://www.kyotoanimation.co.jp/munto/; https://www.themoviedb.org/person/144672; https://letterboxd.com/film/munto/; https://letterboxd.com/film/munto-2-beyond-the-walls-of-time/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 63420,
+      "type": "movie"
+    },
+    {
+      "id": 63422,
+      "type": "movie"
+    }
+  ]
+}

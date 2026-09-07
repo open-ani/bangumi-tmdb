@@ -1,0 +1,27 @@
+{
+  "anidbId": 443,
+  "bangumiId": 3174,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 两份定位实际指向同一部1995年剧场版，而非真人版、合集或电视重剪版。TMDB电影条目45932对应《Macross 7: The Galaxy Is Calling Me!》；TMDB电视条目21735的特别篇季同时收录多部Macross 7特典，目标片位于第0季第13集，因此必须限定为第13集，不能将整个第0季等同于本 Bangumi subject。animeLists 的 offset=12与该第13集位置一致。\n\nhttps://macross.jp/pages/series?title=macross7-movie (page): Macross官方站将该作品列为《剧场版 Macross 7 银河在呼唤我》，明确说明是《Macross 7》的特别篇剧场版，全1话。\n\nhttps://www.shochiku.co.jp/cinema/database/04428/ (page): 松竹官方资料确认作品于1995年10月7日上映，片长约30分钟，内容和角色与目标subject一致。\n\nhttps://jephmann.com/movies/film.php?id=45932 (page): 页面URL中的影片ID为45932，标题为Macross 7: The Galaxy Is Calling Me!，原题与1995年10月7日发行日一致，并标明概要来源为TheMovieDB。\n\nhttps://www.themoviedb.org/tv/21735-macross-7/season/1 (search_snippet): TMDB搜索摘要确认21735是《Macross 7》电视条目，并显示该条目有49集的第1季及特别篇季入口。\n\nhttps://www.moviefone.com/tv-shows/macross-7/d8NhdMJz1nB12CollGyzZ3/seasons/0/ (page): Macross 7 Season 0页面列出20个特别篇；第13集标题为The Galaxy is Calling Me，日期为1995年10月7日，剧情为Basara与Emilia相遇，正是目标剧场版内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3174; https://macross.jp/pages/series?title=macross7-movie; https://www.shochiku.co.jp/cinema/database/04428/; https://jephmann.com/movies/film.php?id=45932; https://www.themoviedb.org/tv/21735-macross-7/season/1; https://www.moviefone.com/tv-shows/macross-7/d8NhdMJz1nB12CollGyzZ3/seasons/0/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45932,
+      "type": "movie"
+    },
+    {
+      "episode": 13,
+      "id": 21735,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

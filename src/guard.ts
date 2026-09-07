@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { Mapping } from './model.js';
 import { stable } from './io.js';
 
-export const allowedChange = (path: string): boolean => /^(data\/[1-9]\d*\.json|state\/progress\.json|sources\/(seed|import-report)\.json)$/.test(path);
+export const allowedChange = (path: string): boolean => /^(data\/[1-9]\d*\.json|state\/progress\.json|sources\/(seed|import-report|anidb-check)\.json)$/.test(path);
 export async function guard(root: string, base: string): Promise<void> {
   if (!/^[a-f0-9]{40}$/.test(base)) throw new Error('Guard requires an exact base SHA');
   const git = (args: string[]) => execFileSync('git', args, { cwd: root, encoding: 'utf8' });

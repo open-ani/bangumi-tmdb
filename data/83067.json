@@ -1,0 +1,27 @@
+{
+  "anidbId": 10066,
+  "bangumiId": 83067,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 两份定位均指向同一部 2015 年日本动画电影，但 TMDB 表示不同：BangumiExtLinker 的电影 ID 296917 是独立电影；AnimeLists 的 TV ID 43865 是《PSYCHO-PASS》系列合集，不能把整部 TV 合集当作本 subject。其 Specials 第 12 集才是《Psycho-Pass: The Movie》，对应本 Bangumi subject。AniDB 10066 也确认为该剧场版，关联本身没有发现错误。\n\nhttps://www.themoviedb.org/movie/296917-psycho-pass-movie (page): TMDB 将 296917 列为《Psycho-Pass: The Movie》，2015 年、动画、1 小时 53 分，原名为「劇場版 サイコパス」，剧情为常守朱前往 SEAUn 调查，与目标电影一致。\n\nhttps://www.fujitv.co.jp/movie/01movie/20150000_02_M00.html (page): 富士电视台官方页面将《劇場版 PSYCHO-PASS サイコパス》明确列为继 TV 第 2 期之后的新剧场版动画，故事涉及 2116 年 SEAUn 与常守朱调查。\n\nhttps://www.themoviedb.org/tv/43865-psycho-pass?language=tr-TR (page): TMDB 将 43865 列为 2012 年的《Psycho-Pass》TV 系列，页面显示该 TV 条目包含 41 集及后续季，属于合集型 TV 条目。\n\nhttps://bingebase.com/tv/psycho-pass-2012/season/0 (search_snippet): 该页面标注数据来源为 TMDB，并列出 Season 0 的 S0.E12 为《Psycho-Pass: The Movie》，日期为 2015-01-09，时长约 110 分，简介与电影剧情一致。\n\nhttps://www.wikidata.org/wiki/Q18578673 (page): 页面记录 AniDB anime ID 10066 对应标题「Gekijouban Psycho-Pass」，即该 2015 年剧场版。\n\nhttps://psycho-pass.com/archive/ (page): 官方系列档案将 TV 第 1 期、新编辑版、第 2 期与 The Movie 分开列示，确认电影不是 TV 正篇季本身。\n\n备注：TMDB Specials 季页面本身抓取受限，S0.E12 的集号依据 TMDB 索引摘要交叉确认；若 TMDB 后续调整 specials 编号，应重新核对该季页面。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/83067; https://www.themoviedb.org/movie/296917-psycho-pass-movie; https://www.fujitv.co.jp/movie/01movie/20150000_02_M00.html; https://www.themoviedb.org/tv/43865-psycho-pass?language=tr-TR; https://bingebase.com/tv/psycho-pass-2012/season/0; https://www.wikidata.org/wiki/Q18578673; https://psycho-pass.com/archive/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 296917,
+      "type": "movie"
+    },
+    {
+      "episode": 12,
+      "id": 43865,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 10744,
+  "bangumiId": 79229,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2014 年播出的 13 集动画正篇。TMDB 数据页面对应 ID 72699，明确列为 2014 年、1 季、13 集；其 Specials 另列为 14 集。因此 BangumiExtLinker 的 season=0 指向特典季，不是本主体正篇；AnimeLists 的 season=1 正确。未发现真人版或电影版混入。\n\nhttps://www.cukytv.com/title/lord-marksman-and-vanadis-2014-72699 (page): 页面 URL 与 TMDB 数据条目对应 72699；页面显示《Lord Marksman and Vanadis／魔弾の王と戦姫》为 2014 年动画，1 season、13 episodes；Season 1 为 13 集，Specials 单列 14 集，并注明数据来自 TMDB。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=11503 (page): 官方发行平台页面将该作品列为全 13 话电视动画，列出第 1 至第 13 话及 2014 年播出信息，内容与 Bangumi 正篇一致。\n\nhttps://www.imdb.com/title/tt3888026/ (page): IMDb 将 Madan no Ou to Vanadis 识别为 2014 年 TV Series，并标注 13 episodes，确认不是电影或真人版本。\n\n备注：TMDB 原站页面抓取受到 robots.txt 限制；72699 与季结构由明确标注 TMDB 数据的页面核对，并与独立的 13 集电视动画资料一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/79229; https://www.cukytv.com/title/lord-marksman-and-vanadis-2014-72699; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=11503; https://www.imdb.com/title/tt3888026/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 72699,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

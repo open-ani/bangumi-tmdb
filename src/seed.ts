@@ -1,5 +1,5 @@
-import { SeedRow, Seeds } from './model.js';
-import { hash, writeJson } from './io.js';
+import { Mapping, SeedRow, Seeds } from './model.js';
+import { hash, mappings, readJson, writeJson } from './io.js';
 import { request } from './http.js';
 import { join } from 'node:path';
 
@@ -22,12 +22,13 @@ export function cleanSeed(input: unknown): { rows: SeedRow[]; rejected: { index:
     try {
       const row = SeedRow.parse({
         bangumiId: Number(raw.bgm_id),
+        ...(raw.anidb_id ? { anidb: Number(raw.anidb_id) } : {}),
         ...(raw.tmdb_id ? { tmdb: parseLink(String(raw.tmdb_id)) } : {}),
         ...(raw.imdb_id ? { imdb: raw.imdb_id } : {}),
         ...(raw.tvdb_id ? { tvdb: Number(raw.tvdb_id) } : {}),
         ...(raw.wikidata_id ? { wikidata: raw.wikidata_id } : {}),
       });
-      if (!row.tmdb && !row.imdb && !row.tvdb && !row.wikidata) return;
+      if (!row.tmdb && !row.anidb && !row.imdb && !row.tvdb && !row.wikidata) return;
       if (conflicts.has(row.bangumiId)) throw new Error(`Conflicting subject ${row.bangumiId}`);
       const previous = rows.get(row.bangumiId);
       if (previous && JSON.stringify(previous) !== JSON.stringify(row)) {
@@ -48,5 +49,27 @@ export async function importSeed(root: string, commit = SEED_COMMIT): Promise<vo
   const seed = Seeds.parse({ schemaVersion: 1, repository: 'Rhilip/BangumiExtLinker', commit, sha256: hash(body), rows });
   await writeJson(join(root, 'sources/seed.json'), seed);
   await writeJson(join(root, 'sources/import-report.json'), { commit, candidates: rows.length, rejected });
-  console.log(`Imported ${rows.length} candidates (${rows.filter(r => r.tmdb).length} TMDB links); ${rejected.length} rejected. Not yet verified mappings.`);
+  console.log(`Imported ${rows.length} source records (${rows.filter(r => r.tmdb).length} TMDB links); ${rejected.length} rejected.`);
+  await importMappings(root, seed);
+}
+export function seedMapping(row: SeedRow, seed: Pick<Seeds, 'commit'>): Mapping | null {
+  if (!row.tmdb) return null;
+  return Mapping.parse({
+    schemaVersion: 1, bangumiId: row.bangumiId, ...(row.anidb ? { anidbId: row.anidb } : {}),
+    locked: false, episodes: [], targets: [row.tmdb], rules: [], overrides: [],
+    provenance: { method: 'seed', source: `https://github.com/Rhilip/BangumiExtLinker/blob/${seed.commit}/data/anime_map.json`,
+      evidence: 'Imported existing BangumiExtLinker correspondence.', verifiedAt: null },
+  });
+}
+export async function importMappings(root: string, seed?: Seeds): Promise<void> {
+  seed ??= await readJson(join(root, 'sources/seed.json'), Seeds);
+  const existing = new Set((await mappings(root)).map(row => row.bangumiId));
+  let created = 0;
+  for (const source of seed.rows) {
+    if (existing.has(source.bangumiId)) continue;
+    const row = seedMapping(source, seed);
+    if (!row) continue;
+    await writeJson(join(root, `data/${row.bangumiId}.json`), row); created++;
+  }
+  console.log(`Imported ${created} mappings into data/; preserved ${existing.size} existing mappings.`);
 }

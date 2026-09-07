@@ -38,3 +38,22 @@ test('movie targets remain movie locators and do not invent TV episodes', () => 
     overrides: [{ bangumiEpisodeId: 11, targets: [{ type: 'movie', id: 200 }] }] });
   assert.deepEqual(expand(row)[0]!.targets, [{ type: 'movie', id: 200 }]);
 });
+
+test('subject targets preserve multiple seasons and disjoint ranges without inventing episode mappings', () => {
+  const row = mapping({ episodes: [], rules: [], targets: [
+    { type: 'tv', id: 100, season: 0, episode: 1 },
+    { type: 'tv', id: 100, season: 0, episode: 5 },
+    { type: 'tv', id: 100, season: 1, episode: 13, episodeEnd: 24 },
+    { type: 'tv', id: 100, season: 2 },
+  ] });
+  assert.deepEqual(expand(row), []);
+  assert.throws(() => expand(mapping({ episodes: [], rules: [], targets: [
+    { type: 'tv', id: 100, season: 1, episode: 13, episodeEnd: 24 },
+    { type: 'tv', id: 100, season: 1, episode: 24 },
+  ] })), /Overlapping subject/);
+  for (const targets of [
+    [{ type: 'tv' as const, id: 100, season: 1, episodeEnd: 24 }],
+    [{ type: 'tv' as const, id: 100, episode: 13, episodeEnd: 24 }],
+    [{ type: 'tv' as const, id: 100, season: 1, episode: 24, episodeEnd: 13 }],
+  ]) assert.throws(() => expand(mapping({ targets })), /requires|Reversed/);
+});

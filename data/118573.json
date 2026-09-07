@@ -1,0 +1,27 @@
+{
+  "anidbId": 5104,
+  "bangumiId": 118573,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2007-04-28 上映的动画电影，正对应 TMDB 电影 114372。TMDB 还将同一部电影收录在《Fist of the North Star》TV 条目的 Specials（第 0 季）中，编号为 0x4；该集日期、片长和剧情均与本电影吻合。因此两种定位方向都可采用，但 AnimeLists 不能指向整个 TV 合集，必须限定为 S0E4。该条不是后来的电视重剪版证据，而是同一电影的 TV 特典式收录。\n\nhttps://bangumi.tv/subject/118573 (page): Bangumi 页面标注该作品为剧场版，1 话，2007 年 4 月 28 日上映，片长 90 分钟。\n\nhttps://hokuto-no-ken.jp/series/movie (page): 北斗之拳官方站称其为 2007 年 4 月剧场公开的系列第 3 弹，并说明是动画电影的再编辑版本。\n\nhttps://cinemo.to/details.php?id=114372&type=movie (page): 页面标题为《Fist of the North Star: Legend of Raoh - Chapter of Fierce Fighting (2007)》，URL 使用 id=114372&type=movie；页面显示 2007-04-28、95 分钟，并列出 TMDB Score，标题、年份和内容与 Bangumi 主体吻合。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d069205 (search_snippet): TMDB 搜索索引显示 TV 条目 56387 的 Specials 中，0x4 为《Legend of Raoh: Chapter of Fierce Fight》，日期为 2007-04-28、片长 1 小时 29 分，简介明确称其为讲述健四郎与拉奥最终决战的电影改编。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d069205 (search_snippet): 同一 TMDB Specials 索引还列出 0x2、0x3、0x5、0x6 等其他电影/OVA，说明 56387 是合集式 TV 容器，不能整体等同于本 Bangumi subject。\n\n备注：TMDB 电影详情页本轮受 robots.txt 限制未能直接抓取；114372 由带有该 ID 的 TMDB 数据页面及完全匹配的标题、日期、片长和剧情交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/118573; https://bangumi.tv/subject/118573; https://hokuto-no-ken.jp/series/movie; https://cinemo.to/details.php?id=114372&type=movie; https://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d069205",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 114372,
+      "type": "movie"
+    },
+    {
+      "episode": 4,
+      "id": 56387,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

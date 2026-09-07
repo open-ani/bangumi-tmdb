@@ -1,0 +1,27 @@
+{
+  "anidbId": 3431,
+  "bangumiId": 48745,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是2005年的161分钟《The Laughing Man》总集篇OVA。TMDB电影18839对应同名动画电影，年份、片长、剧情和制作方均吻合。TMDB电视条目1095本体是2002年开始、共52集的真人/动画误解不存在；其Season 0 Episode 3才是2005年的The Laughing Man。Season 0还包含Individual Eleven、Solid State Society等其他Bangumi主体，因此不能映射整个Season 0，必须限定第3集。两份来源的定位方向均成立，但AnimeLists原始映射缺少集数范围。\n\nhttps://bangumi.tv/subject/48745 (page): Bangumi页面将该条目标为OVA，发售日2005年10月23日，话数1，片长161分钟，并描述其为围绕笑面男事件的总集篇。\n\nhttps://www.themoviedb.org/tv/1095-ghost-in-the-shell-stand-alone-complex (page): TMDB电视主页面显示《Ghost in the Shell: Stand Alone Complex》为2002年动画电视系列，共52集，包含独立的2nd GIG季。\n\nhttps://www.popcorn.fyi/movies/18839 (page): 该页面明确标出电影ID 18839、同名《Ghost in the Shell: Stand Alone Complex - The Laughing Man》、2005年9月23日、160分钟，并声明数据来自TMDB API。\n\nhttps://best-episodes.com/Home/Program/2420/ghost-in-the-shell-stand-alone-complex (page): 页面关联TMDB节目，并明确列出The Laughing Man为Season 0 Episode 3，原始日期2005年9月23日，且说明它是第一季动画的OVA版本；同页将Solid State Society列为Season 0 Episode 5。\n\nhttps://theghostintheshell.jp/news/thelaughingman-screening-and-talkshow (page): 官方攻壳机动队网站称The Laughing Man是以TV系列笑面男事件为中心重构的2005年总集篇OVA。\n\n备注：TMDB电影主页面和Season 0 Episode 3页面本轮被robots限制，电影ID由使用TMDB API的页面核对，电视集数由明确关联TMDB的页面核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/48745; https://bangumi.tv/subject/48745; https://www.themoviedb.org/tv/1095-ghost-in-the-shell-stand-alone-complex; https://www.popcorn.fyi/movies/18839; https://best-episodes.com/Home/Program/2420/ghost-in-the-shell-stand-alone-complex; https://theghostintheshell.jp/news/thelaughingman-screening-and-talkshow",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 18839,
+      "type": "movie"
+    },
+    {
+      "episode": 3,
+      "id": 1095,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

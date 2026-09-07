@@ -1,0 +1,22 @@
+{
+  "anidbId": 12359,
+  "bangumiId": 191056,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 的 70468 是 2017 年动画电视特别篇《The Dragon Dentist》，与本 subject 的两集正篇完全对应：前篇《天狗虫編》、后篇《杀戮虫編》。TMDB 人物作品页将其列为 2017 年、2 episodes 的 TV 作品；IMDb 与 Apple TV 均明确列为 S1 的第 1、2 集。因此 AnimeLists 的 season=1 正确，BangumiExtLinker 的 season=0 不正确。无需拆分集数范围，因为该季两集均属于本 subject。TMDB 的 2014 年短篇则属于《Japan Animator Expo》中的另一条作品记录，不能与本 subject 的 2017 年电视版等同。\n\nhttps://www.themoviedb.org/person/77923?language=en-US (page): TMDB 页面在鶴巻和哉的导演作品中列出 2017 年《The Dragon Dentist》，并标注 2 episodes；该条链接解析为 TV ID 70468。\n\nhttps://www.themoviedb.org/tv/103927/season/1?language=en-US (page): TMDB 明确显示 2014 年短篇《The Dragon Dentist》是《Japan Animator Expo》Season 1 第 1 集，时长 8 分钟，说明它不同于 2017 年两集电视特别篇。\n\nhttps://www.imdb.com/title/tt6004864/episodes/ (page): 《The Dragon Dentist》2017 的剧集表明确列为 S1.E1 Tengumushi（2017-02-18）和 S1.E2 Satsurikumushi（2017-02-25）。\n\nhttps://tv.apple.com/jp/show/%E9%BE%8D%E3%81%AE%E6%AD%AF%E5%8C%9B/umc.cmc.rphorgwnbcsakasb9npemd74 (page): Apple TV 将 2017 年《龍の歯医者》列为 Season 1，并列出前篇、后篇两集及对应剧情。\n\nhttps://www.dlas.jp/works/the_dragon_dentist/ (page): 制作相关页面明确标注作品为 2017 年 TV 动画，前篇于 2017-02-18、后篇于 2017-02-25 播出。\n\n备注：AniDB 12359 的直接页面本轮无法取得，未能独立确认该 AniDB 关联是否把 2014 年短篇或 2017 年电视版作为主体；但这不影响 Bangumi subject 本身与 TMDB 70468 Season 1 的对应结论。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/191056; https://www.themoviedb.org/person/77923?language=en-US; https://www.themoviedb.org/tv/103927/season/1?language=en-US; https://www.imdb.com/title/tt6004864/episodes/; https://tv.apple.com/jp/show/%E9%BE%8D%E3%81%AE%E6%AD%AF%E5%8C%9B/umc.cmc.rphorgwnbcsakasb9npemd74; https://www.dlas.jp/works/the_dragon_dentist/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 70468,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

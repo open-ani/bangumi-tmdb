@@ -1,0 +1,29 @@
+{
+  "anidbId": 631,
+  "bangumiId": 44758,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 的《Initial D》TV 主体为 40424；其 Specials/Season 0 中，S00E01 是 Extra Stage 1 Part 1（Beyond Impact Blue），S00E05 是 Extra Stage 2（旅立ちのグリーン）。本 Bangumi subject 的两条实际条目正好是这两部分，因此需拆成同一 TMDB TV 季的第 1 集和第 5 集，不能填完整季，也不能视为电影。TMDB 季页抓取受限，但搜索索引明确显示了对应季 URL 与编号。AniDB/关联数据疑似把 2001 年 Extra Stage 1 与 2008 年 Extra Stage 2 合并；TMDB 方向仍可按 Bangumi 主体现有两条内容定位。TMDB movie ID 1390599 本轮没有可核验的作品身份证据，故不采纳。\n\nhttps://bangumi.tv/subject/44758 (page): Bangumi 页面将该主体列为 OVA、2 话，发售日为 2001-03-22，并显示结束日期为 2008-12-05；这与其两条实际条目分别对应早期 Extra Stage 与 2008 年 Green Departure 相符。\n\nhttps://www.themoviedb.org/tv/40424-initial-d?language=zh (page): TMDB 页面显示 40424 是《头文字D》TV 主体，包含多个 Stage，属于动画电视系列而非真人版或单部电影。\n\nhttps://www.reddit.com/r/PleX/comments/16f5xlc (search_snippet): 搜索摘要引用 TMDB 的 https://www.themoviedb.org/tv/40424-initial-d/season/0，并明确列出 S00E01 为 Extra Stage 1 Part 1 - Beyond Impact Blue；同一摘要明确列出 Extra Stage 2 为 S00E05。\n\nhttps://www.imdb.com/title/tt0400537 (page): IMDb 将 Initial D: Extra Stage 识别为 2001 年 TV Mini Series，共 2 集，简介说明其为聚焦 Mako 与 Sayuki 的 OAV 旁线故事。\n\nhttps://db.revanime.net/animes.php (search_snippet): 搜索摘要将 Initial D: Extra Stage 1 列为 2001 年、2 集，并将 Initial D: Extra Stage 2 单独列为 2008 年、1 集，支持现有 AniDB/Bangumi 关联存在合并问题。\n\n备注：TMDB 1390599 电影页在本轮无法从搜索索引确认其标题、类型或内容，因此未能完全判定该候选 ID 的具体身份；但没有证据表明它比 40424 的 Specials 定位更适合。；TMDB 官方 Season 0 页面抓取受 robots 限制，S00E01/S00E05 编号依据搜索索引中明确引用的 TMDB 季页摘要。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/44758; https://bangumi.tv/subject/44758; https://www.themoviedb.org/tv/40424-initial-d?language=zh; https://www.reddit.com/r/PleX/comments/16f5xlc; https://www.imdb.com/title/tt0400537; https://db.revanime.net/animes.php",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 40424,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 5,
+      "id": 40424,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

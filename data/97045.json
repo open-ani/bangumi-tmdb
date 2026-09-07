@@ -1,0 +1,31 @@
+{
+  "anidbId": 10452,
+  "bangumiId": 97045,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: AnimeLists 的 TMDB ID 61709 正确，但其 season=2 不是当前 TMDB 原生分季。TMDB 将该主体拆在 Dragon Ball Z Kai 的第5季（35集）和第6季（26集），合计61集；第5季首集就是 2014-04-06 的“那之后7年！今天开始悟饭是高中生”，第6季末集对应 2015-06-28 的完结内容。因此采用 anime_lists 的主体定位并补正为 TMDB S5E1–35、S6E1–26。269547 未检索到与该作品匹配的 TMDB 页面或摘要，不能作为独立支持。\n\nhttps://www.themoviedb.org/tv/61709-dragon-ball-z-kai/episode_group/60660aa203bf84005854add7/group/60660aacd036b60070c4a25f (page): TMDB 的 Absolute (Japan) 分组显示该剧共159集；2014年续篇的首集为绝对编号99、TMDB 5x1，最终两集显示为 6x25 和 6x26。\n\nhttps://www.themoviedb.org/tv/61709/season/5?language=ja&sort_by=first_air_date.asc (page): TMDB 第5季页面显示35集，首集标题为「あれから7年！今日から悟飯は高校生」，日期为2014年4月6日。\n\nhttps://www.themoviedb.org/tv/61709-dragon-ball-z-kai/episode_group/5e76a544357c0000194f2f67?language=en-US (page): TMDB 明确将 61709 识别为 Dragon Ball Z Kai，并列出其不同分组；该剧的日本版本与国际版本集数存在差异。\n\nhttps://theanimelist.net/anime/dragon-ball-kai-2014 (page): 该作品页面列为 Dragon Ball Z Kai: The Final Chapters，TV，61集，播出时间为2014-04-06至2015-06-28，简介为魔人布欧篇重制版。\n\nhttps://anidb.app/anime/dragon-ball-z-kai-the-final-chapters-1346 (search_snippet): AniDB 页面内容将其列为2014年的 TV 作品，播出范围为2014-04-06至2015-06-28，简介明确为魔人布欧篇重制版。\n\n备注：本次搜索未直接显示用户提供的 AniDB AID 10452 数字，只有与作品标题、日期和内容完全对应的 AniDB 页面摘要；这不影响 61709 的 TMDB 主体和分季范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/97045; https://www.themoviedb.org/tv/61709-dragon-ball-z-kai/episode_group/60660aa203bf84005854add7/group/60660aacd036b60070c4a25f; https://www.themoviedb.org/tv/61709/season/5?language=ja&sort_by=first_air_date.asc; https://www.themoviedb.org/tv/61709-dragon-ball-z-kai/episode_group/5e76a544357c0000194f2f67?language=en-US; https://theanimelist.net/anime/dragon-ball-kai-2014; https://anidb.app/anime/dragon-ball-z-kai-the-final-chapters-1346",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 35,
+      "id": 61709,
+      "season": 5,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 26,
+      "id": 61709,
+      "season": 6,
+      "type": "tv"
+    }
+  ]
+}

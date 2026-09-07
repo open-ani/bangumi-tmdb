@@ -49,6 +49,9 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm check && pnpm test && pnpm validate
       - run: pnpm archive
+      - name: Cross-check AniDB references
+        continue-on-error: true
+        run: pnpm cli check-anidb
       - name: Match and audit
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}

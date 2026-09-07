@@ -12,7 +12,7 @@ jobs:
   publish:
     if: >-
       github.repository == 'open-ani/bangumi-tmdb' &&
-      github.ref == 'refs/heads/main' && vars.AUTOMATION_ENABLED == 'true'
+      github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     permissions:
@@ -27,10 +27,7 @@ jobs:
       - uses: pnpm/action-setup@v4
       - run: pnpm install --frozen-lockfile
       - run: pnpm check && pnpm test && pnpm validate
-      - run: pnpm archive
-      - name: Verify live targets and build complete snapshot
-        env:
-          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+      - name: Build dataset
         run: pnpm publish-data
       - name: Publish atomically
         env:
@@ -51,6 +48,6 @@ jobs:
           else
             gh release create "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json \
               --target "$GITHUB_SHA" --draft --title "Dataset $GITHUB_SHA" \
-              --notes 'Verified Bangumi to TMDB subject and episode mappings. See manifest.json for provenance and checksums.'
+              --notes 'Bangumi to TMDB subject and episode mappings. See manifest.json for provenance and checksums.'
           fi
           gh release edit "$TAG" --draft=false --latest

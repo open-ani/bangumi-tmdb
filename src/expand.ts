@@ -5,8 +5,30 @@ export const targetKey = (t: EpisodeTarget): string => t.type === 'movie'
   ? `movie/${t.id}` : `tv/${t.id}/season/${t.season}/episode/${t.episode}`;
 
 export function expand(mapping: Mapping): ExpandedEpisode[] {
+  for (const target of mapping.targets) {
+    if (target.type === 'tv' && target.episode !== undefined && target.season === undefined)
+      throw new Error('A TV episode locator requires a season');
+    if (target.type === 'tv' && target.episodeEnd !== undefined) {
+      if (target.episode === undefined) throw new Error('A TV episode range requires a starting episode');
+      if (target.episodeEnd < target.episode) throw new Error('Reversed subject episode range');
+    }
+  }
   const workKeys = mapping.targets.map(t => `${t.type}/${t.id}`);
-  if (workKeys.length === 0 || new Set(workKeys).size !== workKeys.length) throw new Error('Missing or duplicate work targets');
+  if (workKeys.length === 0) throw new Error('Missing work targets');
+  for (let i = 0; i < mapping.targets.length; i++) {
+    const target = mapping.targets[i]!;
+    for (const other of mapping.targets.slice(0, i)) {
+      if (target.type !== other.type || target.id !== other.id) continue;
+      if (target.type === 'movie' || other.type === 'movie') throw new Error('Duplicate work targets');
+      if (target.season === undefined || other.season === undefined) throw new Error('Overlapping subject targets');
+      if (target.season !== other.season) continue;
+      const start = target.episode ?? 1;
+      const end = target.episodeEnd ?? target.episode ?? Infinity;
+      const otherStart = other.episode ?? 1;
+      const otherEnd = other.episodeEnd ?? other.episode ?? Infinity;
+      if (start <= otherEnd && otherStart <= end) throw new Error('Overlapping subject targets');
+    }
+  }
   const ids = new Set<number>();
   for (const ep of mapping.episodes) {
     if (ids.has(ep.id)) throw new Error(`Duplicate Bangumi episode ${ep.id}`);

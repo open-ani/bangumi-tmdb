@@ -1,0 +1,27 @@
+{
+  "anidbId": 548,
+  "bangumiId": 45392,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 1992-07-11 上映的动画电影《ドラゴンボールZ 極限バトル!!三大超サイヤ人》，与 TMDB 电影 39104 的原题、日期、46 分钟片长和三大人造人剧情完全对应。TMDB TV 12971 是《Dragon Ball Z》主系列；其 Season 0 的 E7 也收录同名、同日期、同片长和同剧情的完整电影内容，因此两种 TMDB 表示均可定位本 subject，但 TV 方向必须限定为 S0E7。没有把另一个独立的《夏休みスペシャル》特典纳入范围。AnimeLists 的 offset=8 不能直接当作 TMDB 集号；独立季表显示实际对应 E7。\n\nhttps://www.themoviedb.org/movie/39104 (search_snippet): TMDB 电影页面显示《Dragon Ball Z: Super Android 13!》，原题为「ドラゴンボールＺ 極限バトル！三大超サイヤ人」，上映日期 1992-07-11、片长 46m，剧情涉及 13、14、15 号人造人与悟空、特兰克斯、贝吉塔的战斗。\n\nhttps://www.themoviedb.org/tv/12971/titles (search_snippet): TMDB ID 12971 是 1989 年的 TV 系列《Dragon Ball Z》，不是独立电影条目。\n\nhttps://bingebase.com/tv/dragon-ball-z-1989/season/0 (search_snippet): Season 0 列出 S0.E7《Super Android 13!》，日期 1992-07-11、时长 46 分钟，简介与 TMDB 电影 39104 的完整电影剧情一致。\n\nhttps://anidb.app/anime/dragon-ball-z-1343 (search_snippet): AniDB 关联列表将《Dragon Ball Z: Super Android 13!》列为 Movie，支持其作为独立电影主体；这不是把 TV 主系列本身误当作该电影。\n\n备注：TMDB Season 0 官方页面本身抓取受限，E7 依据可访问的独立索引摘要核对；若要求 TMDB 官方季页的直接页面证据，需要解除该站点抓取限制。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/45392; https://www.themoviedb.org/movie/39104; https://www.themoviedb.org/tv/12971/titles; https://bingebase.com/tv/dragon-ball-z-1989/season/0; https://anidb.app/anime/dragon-ball-z-1343",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 39104,
+      "type": "movie"
+    },
+    {
+      "episode": 7,
+      "id": 12971,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

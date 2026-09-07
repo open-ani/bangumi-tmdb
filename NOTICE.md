@@ -6,11 +6,19 @@
 - Source: https://github.com/Rhilip/BangumiExtLinker
 - Pinned revision: `8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f`
 - License: Creative Commons Attribution 4.0 International (see LICENSE-DATA).
-- Changes: retained Bangumi IDs and TMDB/IMDb/TheTVDB/Wikidata identifiers;
+- Changes: retained Bangumi IDs and TMDB/AniDB/IMDb/TheTVDB/Wikidata identifiers;
   parsed TMDB paths into typed targets; removed unrelated fields; sorted and
   deduplicated candidates; conflicting records are excluded with an import report.
 - `sources/seed.json` includes the source commit and SHA-256 of the original input.
-  Imported links are candidates, not verified episode mappings.
+  Existing TMDB links are imported into `data/`, preserving the supplied scope.
+
+## AniDB cross-check
+
+- Official AniDB title dump: https://anidb.net/api/anime-titles.xml.gz
+- AniDB-to-TMDB correspondences: https://github.com/Anime-Lists/anime-lists
+- `sources/anidb-check.json` records the source revision, input checksums and
+  comparison results. Only identifier relationships and comparison statuses are
+  retained; AniDB title text is read at runtime.
 
 ## Bangumi
 

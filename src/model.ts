@@ -6,6 +6,10 @@ export const WorkTarget = z.discriminatedUnion('type', [
   z.strictObject({ type: z.literal('movie'), id: Id }),
   z.strictObject({ type: z.literal('tv'), id: Id }),
 ]);
+export const SubjectTarget = z.discriminatedUnion('type', [
+  z.strictObject({ type: z.literal('movie'), id: Id }),
+  z.strictObject({ type: z.literal('tv'), id: Id, season: Natural.optional(), episode: Id.optional(), episodeEnd: Id.optional() }),
+]);
 export const EpisodeTarget = z.discriminatedUnion('type', [
   z.strictObject({ type: z.literal('movie'), id: Id }),
   z.strictObject({ type: z.literal('tv'), id: Id, season: Natural, episode: Id }),
@@ -29,14 +33,16 @@ export const Provenance = z.strictObject({
   method: z.enum(['seed', 'deterministic', 'codex', 'community']),
   source: z.string().min(1),
   evidence: z.string().min(1).max(20000),
-  verifiedAt: z.iso.datetime(),
+  verifiedAt: z.iso.datetime().nullable(),
 });
 export const Mapping = z.strictObject({
   schemaVersion: z.literal(1),
   bangumiId: Id,
+  anidbId: Id.optional(),
   locked: z.boolean(),
   episodes: z.array(EpisodeRef),
   ...Proposal.shape,
+  targets: z.array(SubjectTarget),
   provenance: Provenance,
 });
 // Nullable properties are required: compatible with Codex strict structured output.
@@ -52,6 +58,7 @@ export const SeedLink = z.discriminatedUnion('type', [
 ]);
 export const SeedRow = z.strictObject({
   bangumiId: Id, tmdb: SeedLink.optional(),
+  anidb: Id.optional(),
   imdb: z.string().regex(/^tt\d+$/).optional(),
   tvdb: Id.optional(), wikidata: z.string().regex(/^Q\d+$/).optional(),
 });
@@ -81,7 +88,20 @@ export const Progress = z.strictObject({
     status: z.enum(['matched', 'pending', 'error', 'locked']), reason: z.string(),
   })),
 });
+export const AnidbCheck = z.strictObject({
+  bangumiId: Id, anidbId: Id,
+  titleStatus: z.enum(['matched', 'different', 'missing', 'unavailable']),
+  status: z.enum(['agree', 'partial', 'conflict', 'candidate', 'no-tmdb']),
+  targets: z.array(SubjectTarget), tmdbOffset: z.number().int().nullable(),
+});
+export const AnidbReport = z.strictObject({
+  schemaVersion: z.literal(1),
+  titles: z.strictObject({ url: z.string().url(), sha256: z.string(), lastModified: z.string().nullable() }),
+  mappings: z.strictObject({ url: z.string().url(), sha256: z.string(), commit: z.string() }),
+  rows: z.array(AnidbCheck),
+});
 export type WorkTarget = z.infer<typeof WorkTarget>;
+export type SubjectTarget = z.infer<typeof SubjectTarget>;
 export type EpisodeTarget = z.infer<typeof EpisodeTarget>;
 export type Proposal = z.infer<typeof Proposal>;
 export type Mapping = z.infer<typeof Mapping>;
@@ -92,3 +112,5 @@ export type Episode = z.infer<typeof Episode>;
 export type Catalog = z.infer<typeof Catalog>;
 export type Progress = z.infer<typeof Progress>;
 export type Decision = z.infer<typeof Decision>;
+export type AnidbCheck = z.infer<typeof AnidbCheck>;
+export type AnidbReport = z.infer<typeof AnidbReport>;

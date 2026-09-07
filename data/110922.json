@@ -1,0 +1,21 @@
+{
+  "anidbId": 2204,
+  "bangumiId": 110922,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 1966-07-21 上映、64 分钟的独立动画电影。AniDB 2204 明确标为 Movie、年份为 1966，并将 1968 年 26 集 TV 版列为另一个相关作品；东映官方也确认该片为 1966 年 7 月 21 日公开的剧场版。TMDB 数据行将 314090 对应为《Cyborg 009／サイボーグ００９》，1966 年、日本动画电影，导演芹川有吾，与目标主体一致。因此采用 BangumiExtLinker 的电影定位；AnimeLists 的 TV 候选不能仅凭同名或关联关系与该电影等同。\n\nhttps://anidb.net/anime/2204 (page): AniDB 页面标题为 Cyborg 009 (1966)，类型明确为 Movie，日期为 21.07.1966；相关作品中另列 1968 年 TV Series、26 集。\n\nhttps://lineup.toei-anim.co.jp/ja/movie/movie_cyborg009/story/ (page): 东映官方作品页确认《サイボーグ009》为 1966 年 7 月 21 日公开的剧场作品，并描述其独立电影剧情。\n\nhttps://huggingface.co/datasets/prateek-0-gupta/allaimovies (page): 页面中的 TMDB 数据行显示 ID 314090 对应 Cyborg 009／サイボーグ００９，IMDb tt0060926，1966 年、日本、Animation，运行时 65 分钟，导演 Yugo Serikawa。\n\n备注：TMDB 主页面本身被 robots 限制，314090 的具体字段通过公开页面中可见的 TMDB 数据行交叉核对；TMDB 数据行日期为 1966-07-20，与日本官方 1966-07-21 存在一天差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110922; https://anidb.net/anime/2204; https://lineup.toei-anim.co.jp/ja/movie/movie_cyborg009/story/; https://huggingface.co/datasets/prateek-0-gupta/allaimovies",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 314090,
+      "type": "movie"
+    }
+  ]
+}

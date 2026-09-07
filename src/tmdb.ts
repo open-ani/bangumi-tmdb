@@ -111,9 +111,23 @@ export function checkBangumi(mapping: Mapping, catalog: Catalog): void {
 }
 export async function verifyMapping(mapping: Mapping, tmdb: Tmdb, catalog: Catalog) {
   checkBangumi(mapping, catalog);
-  for (const target of mapping.targets) await tmdb.work(target);
+  const expanded = expand(mapping);
+  for (const target of mapping.targets) {
+    await tmdb.work(target);
+    if (target.type === 'tv' && target.season !== undefined) {
+      const season = await tmdb.season(target.id, target.season);
+      if (target.episode !== undefined) {
+        const start = target.episode;
+        const end = target.episodeEnd ?? start;
+        const numbers = [...new Set(season.episodes.map(e => e.episode_number)
+          .filter(n => n >= start && n <= end))].sort((a, b) => a - b);
+        if (numbers.length !== end - start + 1 || numbers.some((n, i) => n !== start + i))
+          throw new Error(`Missing TMDB episode in range: tv/${target.id}/${target.season}/${start}-${end}`);
+      }
+    }
+  }
   const resolved = [];
-  for (const entry of expand(mapping)) {
+  for (const entry of expanded) {
     const targets = [];
     for (const target of entry.targets) {
       if (target.type === 'movie') { targets.push(target); continue; }

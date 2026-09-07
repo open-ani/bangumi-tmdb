@@ -1,0 +1,22 @@
+{
+  "anidbId": 7432,
+  "bangumiId": 16235,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是2011年开播、26话的《未来日記》电视动画。TMDB ID 46671 的第1季标为2011年并包含26集；第1集于2011-10-09播出，第26集于2012-04-15播出，剧情与本主体一致。因此应采用 BangumiExtLinker 的 season=1。AnimeLists 的 season=0 实际包含2010年短OVA和2013年《未来日记リダイヤル》，不是本主体正篇。完整对应TMDB第1季1-26集，无需填写范围。\n\nhttps://bangumi.tv/subject/16235 (page): Bangumi 页面将该主体标为TV动画，话数26，放送开始于2011年10月9日，结束于2012年4月15日。\n\nhttps://www.themoviedb.org/tv/46671-mirai-nikki/season/1 (page): TMDB页面显示《The Future Diary: Season 1 (2011)》，共26集；第1集为2011年10月9日，第26集为2012年4月15日，剧情对应雪辉、由乃及未来日记生存游戏。\n\nhttps://www.themoviedb.org/tv/46671-mirai-nikki/episodes?credit_id=6377cfd4976e4800dcd8d136&language=ja-JP&person_id=53637ff00e0a261e060023e6 (page): TMDB剧集页区分0x1的2010年短OVA、1x1至1x26的电视正篇，以及0x2的2013年《未来日記リダイヤル》；因此season=0不是本Bangumi主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/16235; https://bangumi.tv/subject/16235; https://www.themoviedb.org/tv/46671-mirai-nikki/season/1; https://www.themoviedb.org/tv/46671-mirai-nikki/episodes?credit_id=6377cfd4976e4800dcd8d136&language=ja-JP&person_id=53637ff00e0a261e060023e6",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46671,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

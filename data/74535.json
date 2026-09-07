@@ -1,0 +1,27 @@
+{
+  "anidbId": 2814,
+  "bangumiId": 74535,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 48101 是1977年8月6日上映的动画电影《宇宙戦艦ヤマト》，与本 Bangumi subject 的年份、标题及剧场版定位一致。TMDB TV 13339 的 Specials（Season 0）也收录同一部1977年8月6日的剧场版，但该季包含15个不同特别篇，因此本 subject 仅对应第1集，不能指向整个 Season 0。AnimeLists 的 TV 定位和 BangumiExtLinker 的电影定位均成立；这不是把1974年原TV系列、2010真人电影或1978年《再见了宇宙战舰大和号》混入映射。AniDB 2814 的索引标题也对应《Uchuu Senkan Yamato (1977)》，关联本身未见明显错误。\n\nhttps://www.themoviedb.org/movie/48101?language=he-IL (search_snippet): TMDB 页面显示 ID 48101、原题《宇宙戦艦ヤマト》、年份1977、日语原声，定位为该作品的电影版本。\n\nhttps://www.themoviedb.org/tv/13339-space-battleship-yamato/seasons (search_snippet): TMDB Seasons 页面显示 TV ID 13339 的 Specials 为1977年、15集，Season 0 首播日期为1977年8月6日；同时列出1974年S1为26集。\n\nhttps://www.moviefone.com/tv-shows/space-battleship-yamato/AYAHQNTpYOJtVknqyC7VQ/seasons/0/ (search_snippet): Season 0 第1集标题为 Space Battleship Yamato，日期为1977年8月6日，并明确说明这是基于原动画的第一部剧场版合辑电影；第2集已是1978年的 Farewell to Space Battleship Yamato。\n\nhttps://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1977_film) (search_snippet): 1977年电影是日本动画电影，由1974年TV系列相关段落剪辑而成，属于独立的剧场版作品。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 该 AniDB 标题索引将 ID 2814 列为 Uchuu Senkan Yamato (1977)。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/74535; https://www.themoviedb.org/movie/48101?language=he-IL; https://www.themoviedb.org/tv/13339-space-battleship-yamato/seasons; https://www.moviefone.com/tv-shows/space-battleship-yamato/AYAHQNTpYOJtVknqyC7VQ/seasons/0/; https://en.wikipedia.org/wiki/Space_Battleship_Yamato_(1977_film); https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 48101,
+      "type": "movie"
+    },
+    {
+      "episode": 1,
+      "id": 13339,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

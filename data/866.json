@@ -1,0 +1,22 @@
+{
+  "anidbId": 5610,
+  "bangumiId": 866,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB ID 37305 明确是 2008 年日本动画《Soul Eater／噬魂师》，不是电影或真人版。TMDB 主页面将正篇归为 Season 1，共 51 集，首播 2008-04-07；TMDB Season 1 的第 1 集和第 51 集分别对应 Bangumi 的首尾正篇内容，故本 subject 对应完整 TMDB S1。AnimeLists 的 season=1 定位正确；BangumiExtLinker 的 season=0 指向的是 Late Night Show 特殊版本，不符合本轮不额外映射特典的目标。\n\nhttps://www.themoviedb.org/tv/37305-soul-eater?language=pt-BR (page): TMDB 将 Soul Eater 标为 2008 年动画 TV 系列，Season 1 于 2008-04-07 首播，共 51 集。\n\nhttps://www.themoviedb.org/tv/37305-soul-eater/season/1/episode/1?language=he-IL (search_snippet): TMDB Season 1 第 1 集为 2008-04-07 的正篇《Resonance of the Soul》，页面显示该季共 51 集。\n\nhttps://www.themoviedb.org/tv/37305-soul-eater/season/1/episode/49?language=ru-RU (search_snippet): TMDB Season 1 页面列出正篇第 49、50、51 集，末集《The Word is Bravery!》日期为 2009-03-30，且该季共 51 集。\n\nhttps://www.themoviedb.org/tv/37305-soul-eater/season/1/episode/1/images/backdrops?language=de-DE (search_snippet): TMDB 页面明确区分 Late Night Show 版本为 0x 集，而普通正篇为 1x 集，说明 season 0 与 season 1 不是应直接互换的编号。\n\nhttps://www.allcinema.net/cinema/329647 (search_snippet): 独立资料将《SOUL EATER》列为 2008 年日本 TV 动画，播出始于 2008-04-07，共 51 集。\n\nhttps://www.jp.square-enix.com/company/ja/news/pdf/5d313d8e29fef4ef0e82f1aa8e5c4a78.pdf (search_snippet): Square Enix 资料确认 2008 年 TV 动画《SOUL EATER》及带特殊影像的深夜版 Late Show 并存。\n\n备注：AniDB 5610 的详情页本轮无法直接抓取，因此未能独立读取其关联表；但标题、年份、TV 动画类型及 51 集内容均与该关联一致，当前没有发现 AniDB 主体定位错误的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/866; https://www.themoviedb.org/tv/37305-soul-eater?language=pt-BR; https://www.themoviedb.org/tv/37305-soul-eater/season/1/episode/1?language=he-IL; https://www.themoviedb.org/tv/37305-soul-eater/season/1/episode/49?language=ru-RU; https://www.themoviedb.org/tv/37305-soul-eater/season/1/episode/1/images/backdrops?language=de-DE; https://www.allcinema.net/cinema/329647; https://www.jp.square-enix.com/company/ja/news/pdf/5d313d8e29fef4ef0e82f1aa8e5c4a78.pdf",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 37305,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

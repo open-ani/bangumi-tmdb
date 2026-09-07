@@ -1,6 +1,6 @@
 import { join } from 'node:path';
 import { readFile } from 'node:fs/promises';
-import { Catalog, Mapping, Progress, Seeds, type Subject, type Episode, type Proposal } from './model.js';
+import { AnidbReport, Catalog, Mapping, Progress, Seeds, type Subject, type Episode, type Proposal, type AnidbCheck } from './model.js';
 import { hash, mappings, readJson, stable, writeJson } from './io.js';
 import { candidates, deterministic, extraCandidates } from './match.js';
 import { Tmdb, verifyMapping, type Candidate } from './tmdb.js';
@@ -14,7 +14,7 @@ export function fingerprint(subject: Subject, episodes: Episode[], relations: un
   return hash(stable({ subject, episodes, relations, seed, model, version: MATCHER_VERSION }));
 }
 export function orderQueue(catalog: Catalog, progress: Progress, rows: Mapping[], now: number): Subject[] {
-  const mapped = new Set(rows.map(r => r.bangumiId));
+  const mapped = new Set(rows.filter(r => r.provenance.verifiedAt !== null).map(r => r.bangumiId));
   const recent = (s: Subject) => Math.abs(Date.parse(s.date) - now) < 180 * DAY;
   const olderFirst = (a: Subject, b: Subject) =>
     (Date.parse(progress.subjects[String(a.id)]?.attemptedAt ?? '') || 0) -
@@ -53,6 +53,11 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   validateAll(existing);
   const rows = new Map(existing.map(r => [r.bangumiId, r]));
   const seedMap = new Map(seed.rows.map(s => [s.bangumiId, s]));
+  let anidbChecks = new Map<number, AnidbCheck>();
+  try {
+    const report = await readJson(join(root, 'sources/anidb-check.json'), AnidbReport);
+    anidbChecks = new Map(report.rows.map(row => [row.bangumiId, row]));
+  } catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
   const episodes = new Map<number, Episode[]>();
   for (const ep of catalog.episodes) { const list = episodes.get(ep.subject_id) ?? []; list.push(ep); episodes.set(ep.subject_id, list); }
   const relationMap = new Map<number, Catalog['relations']>();
@@ -70,7 +75,8 @@ export async function update(root: string, options: UpdateOptions): Promise<void
     const eps = episodes.get(subject.id) ?? [];
     const rels = (relationMap.get(subject.id) ?? []).map(r => ({ ...r, subject: subjectMap.get(r.related_subject_id) }));
     const hint = seedMap.get(subject.id);
-    const fp = fingerprint(subject, eps, rels, hint, options.model ?? 'default');
+    const anidb = anidbChecks.get(subject.id);
+    const fp = fingerprint(subject, eps, rels, { hint, anidb }, options.model ?? 'default');
     const previous = progress.subjects[String(subject.id)];
     const before = rows.get(subject.id);
     const fingerprintWithMapping = hash(fp + stable(before ?? null));
@@ -89,13 +95,17 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         continue;
       }
       let choices = await candidates(subject, hint, cached);
+      for (const target of anidb?.targets ?? []) {
+        if (choices.some(c => c.target.type === target.type && c.target.id === target.id)) continue;
+        choices.push(await cached.candidate(target, subject.date, target.type === 'tv' ? target.season : undefined));
+      }
       // Include existing targets in a review even if name search no longer returns them.
       if (before) for (const t of before.targets) {
         if (!choices.some(c => c.target.type === t.type && c.target.id === t.id)) {
           try { choices.push(await cached.candidate(t, subject.date)); } catch { /* Live verification still decides validity. */ }
         }
       }
-      let proposal = before ? null : deterministic(subject, eps, hint, choices);
+      let proposal = before && before.provenance.method !== 'seed' ? null : deterministic(subject, eps, hint, choices);
       let method: 'deterministic' | 'codex' = 'deterministic';
       let reason = 'Pinned seed identity corroborated by exact title/date or per-episode title/date comparisons.';
       if (!proposal) {
@@ -109,7 +119,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         for (let round = 0; round < 3; round++) {
           const remaining = deadline - Date.now();
           if (remaining < 15000) throw new Error('Update time budget exhausted');
-          decision = await runCodex({ subject, episodes: eps, relations: rels, seed: hint, existing: before,
+          decision = await runCodex({ subject, episodes: eps, relations: rels, seed: hint, anidb, existing: before,
             candidates: choices, ownership, queryRoundsRemaining: 2 - round }, Math.min(300000, remaining), options.model);
           if (decision.status !== 'query') break;
           if (round === 2) break;
@@ -122,6 +132,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       }
       requireEvidence(proposal, choices);
       const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false,
+        ...((before?.anidbId ?? hint?.anidb) ? { anidbId: before?.anidbId ?? hint?.anidb } : {}),
         episodes: eps.map(({ id, type, sort }) => ({ id, type, sort })), ...proposal,
         provenance: { method, source: `${catalog.snapshot.name}; BangumiExtLinker@${seed.commit}`, evidence: reason,
           verifiedAt: new Date(started).toISOString() } });
