@@ -1,0 +1,26 @@
+{
+  "name": "@open-ani/bangumi-tmdb",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "packageManager": "pnpm@12.3.4",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "cli": "tsx src/cli.ts",
+    "schemas": "tsx src/schemas.ts",
+    "validate": "tsx src/cli.ts validate",
+    "import-seed": "tsx src/cli.ts import-seed",
+    "archive": "tsx src/cli.ts archive",
+    "update": "tsx src/cli.ts update",
+    "publish-data": "tsx src/cli.ts publish"
+  },
+  "dependencies": { "zod": "4.5.4" },
+  "devDependencies": {
+    "@types/node": "24.13.3",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2"
+  }
+}

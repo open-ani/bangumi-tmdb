@@ -1,0 +1,67 @@
+name: Update mappings
+on:
+  schedule:
+    # UTC Tuesday/Saturday 23:17 = Wednesday/Sunday 07:17 in Asia/Shanghai.
+    - cron: '17 23 * * 2,6'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mapping-update
+  cancel-in-progress: false
+jobs:
+  update:
+    if: >-
+      github.repository == 'open-ani/bangumi-tmdb' &&
+      github.ref == 'refs/heads/main' &&
+      vars.AUTOMATION_ENABLED == 'true' &&
+      (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    runs-on: [self-hosted, macOS, ARM64]
+    timeout-minutes: 100
+    env:
+      CODEX_MAX_SUBJECTS: ${{ vars.CODEX_MAX_SUBJECTS || '100' }}
+      UPDATE_MAX_MINUTES: ${{ vars.UPDATE_MAX_MINUTES || '60' }}
+      CODEX_MODEL: ${{ vars.CODEX_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@v4
+      - name: Verify runner prerequisites
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          GH_TOKEN: ${{ secrets.OPENANI_BOT_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          command -v codex
+          command -v gh
+          command -v unzip
+          test -n "$TMDB_READ_TOKEN" || { echo '::error::TMDB_READ_TOKEN is missing'; exit 1; }
+          test -n "$GH_TOKEN" || { echo '::error::OPENANI_BOT_TOKEN is missing'; exit 1; }
+          test "$(gh api user --jq .login)" = openanibot
+          codex login status
+          echo "UPDATE_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check && pnpm test && pnpm validate
+      - run: pnpm archive
+      - name: Match and audit
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+        run: pnpm run update
+      - name: Validate and commit on the latest main
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+          GH_TOKEN: ${{ secrets.OPENANI_BOT_TOKEN }}
+        run: bash scripts/commit-update.sh
+      - name: Write summary
+        if: always()
+        shell: bash
+        run: |
+          if test -f .cache/update-report.json; then
+            node scripts/summary.mjs >> "$GITHUB_STEP_SUMMARY"
+          fi

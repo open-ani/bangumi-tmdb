@@ -1,0 +1,56 @@
+name: Publish dataset
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: dataset-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: >-
+      github.repository == 'open-ani/bangumi-tmdb' &&
+      github.ref == 'refs/heads/main' && vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: pnpm/action-setup@v4
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check && pnpm test && pnpm validate
+      - run: pnpm archive
+      - name: Verify live targets and build complete snapshot
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+        run: pnpm publish-data
+      - name: Publish atomically
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Do not let a queued run for an old commit move latest backwards.
+          CURRENT=$(gh api "repos/$GITHUB_REPOSITORY/commits/main" --jq .sha)
+          if test "$CURRENT" != "$GITHUB_SHA"; then
+            echo 'main advanced; a newer run will publish.'
+            exit 0
+          fi
+          TAG="data-$GITHUB_SHA"
+          if gh release view "$TAG" --json isDraft --jq .isDraft > .cache/release-draft; then
+            if test "$(cat .cache/release-draft)" = false; then exit 0; fi
+            gh release upload "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json --clobber
+          else
+            gh release create "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json \
+              --target "$GITHUB_SHA" --draft --title "Dataset $GITHUB_SHA" \
+              --notes 'Verified Bangumi to TMDB subject and episode mappings. See manifest.json for provenance and checksums.'
+          fi
+          gh release edit "$TAG" --draft=false --latest

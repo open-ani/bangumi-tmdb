@@ -1,0 +1,220 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "proposal": {
+      "anyOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "overrides": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "bangumiEpisodeId": {
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991,
+                    "type": "integer"
+                  },
+                  "targets": {
+                    "items": {
+                      "anyOf": [
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "id": {
+                              "exclusiveMinimum": 0,
+                              "maximum": 9007199254740991,
+                              "type": "integer"
+                            },
+                            "type": {
+                              "const": "movie",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "type",
+                            "id"
+                          ],
+                          "type": "object"
+                        },
+                        {
+                          "additionalProperties": false,
+                          "properties": {
+                            "episode": {
+                              "exclusiveMinimum": 0,
+                              "maximum": 9007199254740991,
+                              "type": "integer"
+                            },
+                            "id": {
+                              "exclusiveMinimum": 0,
+                              "maximum": 9007199254740991,
+                              "type": "integer"
+                            },
+                            "season": {
+                              "maximum": 9007199254740991,
+                              "minimum": 0,
+                              "type": "integer"
+                            },
+                            "type": {
+                              "const": "tv",
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "type",
+                            "id",
+                            "season",
+                            "episode"
+                          ],
+                          "type": "object"
+                        }
+                      ]
+                    },
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "bangumiEpisodeId",
+                  "targets"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "rules": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "bangumiType": {
+                    "maximum": 9007199254740991,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "end": {
+                    "maximum": 9007199254740991,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "episodeStart": {
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991,
+                    "type": "integer"
+                  },
+                  "season": {
+                    "maximum": 9007199254740991,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "start": {
+                    "maximum": 9007199254740991,
+                    "minimum": 0,
+                    "type": "integer"
+                  },
+                  "tmdbId": {
+                    "exclusiveMinimum": 0,
+                    "maximum": 9007199254740991,
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "bangumiType",
+                  "start",
+                  "end",
+                  "tmdbId",
+                  "season",
+                  "episodeStart"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            "targets": {
+              "items": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "id": {
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991,
+                        "type": "integer"
+                      },
+                      "type": {
+                        "const": "movie",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "id"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "id": {
+                        "exclusiveMinimum": 0,
+                        "maximum": 9007199254740991,
+                        "type": "integer"
+                      },
+                      "type": {
+                        "const": "tv",
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "id"
+                    ],
+                    "type": "object"
+                  }
+                ]
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "targets",
+            "rules",
+            "overrides"
+          ],
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "queries": {
+      "items": {
+        "maxLength": 200,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 3,
+      "type": "array"
+    },
+    "reason": {
+      "maxLength": 20000,
+      "minLength": 1,
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "matched",
+        "pending",
+        "query"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "reason",
+    "proposal",
+    "queries"
+  ],
+  "type": "object"
+}
