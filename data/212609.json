@@ -1,0 +1,22 @@
+{
+  "anidbId": 12944,
+  "bangumiId": 212609,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 2017 年开播的电视动画《おそ松さん》第2期正篇，共25话。TMDB 电视条目 71785 的第2季明确命名为“第2期”，同为25集；其第1集“ふっかつ おそ松さん”至第25集“地獄のおそ松さん”的标题、顺序及2017—2018年播出日期均与 Bangumi 正篇逐集对应。因此应映射到 TV 71785 第2季完整一季，不包含 TMDB 第0季收录的 Short Film Series2 等特典。\n\nhttps://www.themoviedb.org/tv/71785 (api_snapshot): TMDB API 快照显示电视条目71785原名为《おそ松さん》，第2季名为“第2期”，首播于2017年，集数为25；同一条目还把第1、3、4期分别列为其他季，证明这是系列本体而非同名电影或重剪版。\n\nhttps://www.themoviedb.org/tv/71785/season/2 (api_snapshot): TMDB API 快照显示第2季共25集，首集“ふっかつ おそ松さん”、末集“地獄のおそ松さん”，中间各集标题与 Bangumi 的25话正篇逐集吻合，足以确定具体季号及完整范围。\n\nhttps://www.themoviedb.org/tv/71785/season/0 (api_snapshot): TMDB API 快照把本期的“発表”“海女ちゃんのトト子”“銭湯クイズ2”“骨折したおそ松”“結局”“ファン感謝デー 2018”等短片列在第0季第17—22集；这些对应 Bangumi 的特别篇样本，不属于本 subject 要求映射的25话正篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/212609; https://www.themoviedb.org/tv/71785; https://www.themoviedb.org/tv/71785/season/2; https://www.themoviedb.org/tv/71785/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 71785,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

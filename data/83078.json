@@ -1,0 +1,22 @@
+{
+  "anidbId": 589,
+  "bangumiId": 83078,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 1999 年发行的 6 集 OVA，集数和每集日期分别为 1999-05-25、07-25、09-25、11-25、2000-01-25、04-25。TMDB TV 77365 的首播日、6 集总数及第 1 季的 6 个剧集日期与标题逐集对应，因此应映射为完整的第 1 季；没有证据表明需要拆分范围或排除其中集数。\n\nhttps://bgm.tv/subject/83078 (page): Bangumi subject《メルティランサー The Animation／银河少女警察》为 OVA，1999-05-25 开始、2000-04-25 结束，共 6 集；输入资料同时给出 AniDB ID 589。\n\nhttps://www.themoviedb.org/tv/77365 (api_snapshot): TMDB TV 77365 名称为《メルティランサー THE ANIMATION》，首播日 1999-05-25，共 6 集，只有第 1 季且该季共 6 集。\n\nhttps://www.themoviedb.org/tv/77365/season/1 (api_snapshot): TMDB 第 1 季 1–6 集的标题和日期逐条对应 Bangumi：1999-05-25、07-25、09-25、11-25、2000-01-25、04-25。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/83078; https://www.themoviedb.org/tv/77365; https://www.themoviedb.org/tv/77365/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 77365,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

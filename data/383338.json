@@ -1,0 +1,22 @@
+{
+  "anidbId": 17422,
+  "bangumiId": 383338,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确标为TV、10话，放送日期为2024-08-15，导演佐野隆史、动画制作Telecom Animation Film，并列出1至10话。Adult Swim官方页面将同一作品列为Season 1，完整列出10集，标题和剧情与Bangumi及TMDB快照逐集对应。TMDB作品ID 202282的原名、2024年首播年份和10集总数一致；TMDB第1季快照完整列出第1至10集，日期与Bangumi仅相差一天，属于时区/平台播出日期差异。因此应映射为该TV的完整第1季，不需要拆分集数。\n\nhttps://bgm.tv/subject/383338 (page): Bangumi页面确认作品类型为TV、话数10、首播2024-08-15、导演佐野隆史、动画制作Telecom Animation Film，并列出第1至10话。\n\nhttps://www.adultswim.com/videos/rick-and-morty-the-anime (page): Adult Swim官方页面将作品列为Season 1，Dub和Sub均完整列出EP 1至EP 10，标题和剧情与输入中的Bangumi剧集一致。\n\nhttps://www.themoviedb.org/tv/202282 (api_snapshot): TMDB作品快照确认ID 202282、原名Rick and Morty: The Anime、首播日期2024-08-16、总集数10，并包含season_number=1且episode_count=10。\n\nhttps://www.themoviedb.org/tv/202282/season/1 (api_snapshot): TMDB第1季快照完整列出第1至第10集；集名、日期和剧情分别与Bangumi及Adult Swim官方剧集信息对应。\n\n备注：AniDB页面本次访问返回403，未能独立读取AniDB 17422的条目内容；但Bangumi页面、Adult Swim官方页面及TMDB完整季/集快照已独立支持该具体作品、季号和完整集数范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/383338; https://www.adultswim.com/videos/rick-and-morty-the-anime; https://www.themoviedb.org/tv/202282; https://www.themoviedb.org/tv/202282/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 202282,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

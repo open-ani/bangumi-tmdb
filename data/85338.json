@@ -1,0 +1,28 @@
+{
+  "anidbId": 11964,
+  "bangumiId": 85338,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 为《ブレイブウィッチーズ/无畏魔女》TV 主体，AniDB ID 11964 及标题状态为 matched。Bangumi 记录的 12 集正篇标题、播出顺序与 TMDB 68102 第 1 季逐集标题和剧情高度对应；首播日期相差约 1 天，符合时区/日期记录差异。TMDB 第 1 季明确为 12 集，因此纳入完整第 1 季。Bangumi 同一 subject 还包含第 13 集特别篇《ペテルブルグ大戦略》（2017-05-13）；TMDB 68102 的第 0 季为 1 集特别篇、同日发行，故补充 S00E01。\n\nhttps://bgm.tv/subject/85338 (page): Bangumi 标题、2016-10-05 首播、12 集正篇、包含 2017-05-13《ペテルブルグ大戦略》特别篇，以及 AniDB ID 11964 关联。\n\nhttps://www.themoviedb.org/tv/68102 (api_snapshot): TMDB 68102 标题为《ブレイブウィッチーズ》，2016 年作品，共 12 集，并列出第 1 季 12 集及第 0 季 1 集特别篇。\n\nhttps://www.themoviedb.org/tv/68102/season/1 (api_snapshot): TMDB 第 1 季包含 12 集；逐集标题、剧情和播出日期与 Bangumi 的 12 集正篇相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85338; https://www.themoviedb.org/tv/68102; https://www.themoviedb.org/tv/68102/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68102,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 68102,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

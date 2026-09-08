@@ -1,0 +1,28 @@
+{
+  "anidbId": 9541,
+  "bangumiId": 55770,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 55770 与 AniDB 9541 的标题、年份和作品信息一致。TMDB TV 1429 第1季为2013年、25集，其完整标题、日期和剧情逐集对应 Bangumi 的25集正篇。Bangumi 另记录特别篇「从那一天开始」13.5（总话数26），TMDB 将其编为特别篇 season 0 episode 1（0x1，标题为「#13.5：从那一天开始」），日期也对应2013年7月播出。因此应包含第1季完整25集及第0季第1集；不纳入其他OVA、总集篇或衍生特别篇。\n\nhttps://bgm.tv/subject/55770 (api_snapshot): Bangumi subject 55770 为2013年4月播出的《進撃の巨人》TV正篇，常规25集，并记录特别篇13.5「从那一天开始」；AniDB ID为9541且标题状态为matched。\n\nhttps://www.themoviedb.org/tv/1429 (api_snapshot): TMDB TV 1429 为《進撃の巨人》，首播日期2013-04-07，第1季25集，另有特别篇季。\n\nhttps://www.themoviedb.org/tv/1429/season/1 (api_snapshot): TMDB第1季首播日期2013-04-07，共25集；输入快照中的25个剧集标题、日期和剧情与Bangumi正篇第1至25集逐集对应。\n\nhttps://waf.themoviedb.org/tv/1429/episodes?credit_id=590d9a959251414eca00c6fa&language=ko-KR&person_id=4bc8c6f4017a3c122d08a11e (search_snippet): TMDB剧集列表明确显示「#13.5：その日から（总集篇）」为0x1，日期为2013-07-07，与Bangumi特别篇13.5对应。\n\nhttps://www.themoviedb.org/tv/1429/seasons?language=zh-CN (search_snippet): TMDB季列表显示特别篇为season 0，2013年，共37集；该季是混合特别篇集合，不能按整季纳入。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/55770; https://www.themoviedb.org/tv/1429; https://www.themoviedb.org/tv/1429/season/1; https://waf.themoviedb.org/tv/1429/episodes?credit_id=590d9a959251414eca00c6fa&language=ko-KR&person_id=4bc8c6f4017a3c122d08a11e; https://www.themoviedb.org/tv/1429/seasons?language=zh-CN",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1429,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 1429,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "anidbId": 10548,
+  "bangumiId": 100511,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《黒執事 Book of Murder》两话 OVA，发行日为 2015-01-28 至 2015-02-25。官方资料和 A-1 Pictures 资料确认其为前后篇 OVA，并非电影或《Book of Circus》整季。TMDB TV 50712 的特别编第 0 季页面明确列出第 9 集《黒執事 Book of Murder 上巻》和第 10 集《黒執事 Book of Murder 下巻》，日期分别为 2014-10-25 和 2014-11-15；这两个日期是剧场先行上映日期，与 Bangumi 的 BD/OVA 发售日期差异符合版本发行顺序。故只纳入第 0 季第 9–10 集，不纳入该季其他 OVA 特别篇。输入 API 快照将特别编计为 8 集，与 TMDB 页面列出的 10 集冲突，但页面直接给出了目标两集的标题、编号和日期，因此采用已核实的 9–10 范围，并保留该 API 不一致作为复核事项。\n\nhttps://bgm.tv/subject/100511 (page): Bangumi 条目名称为《黒執事 Book of Murder》，类型为 OVA，共 2 话，前后篇日期为 2015-01-28 和 2015-02-25。\n\nhttps://anidb.app/anime/black-butler-book-of-murder-637 (search_snippet): 独立 AniDB 镜像资料将该作品标为《Black Butler: Book of Murder / Kuroshitsuji: Book of Murder》，类型 OVA，播出日期 2015-01-28 至 2015-02-25，制作公司为 A-1 Pictures，并关联《Book of Circus》和《Book of the Atlantic》。\n\nhttps://www.kuroshitsuji.tv/bom/ (search_snippet): 官方站确认《黒執事 Book of Murder》是由上巻（前篇）和下巻（後編）组成的两部 OVA，并分别于 2014-10-25、2014-11-15 剧场限定上映。\n\nhttps://a1p.jp/works/kuroshitsuji_bom/ (search_snippet): A-1 Pictures 官方作品页将其标为 OVA，列出阿部记之导演、枢やな原作及 A-1 Pictures 制作信息。\n\nhttps://www.themoviedb.org/tv/50712 (api_snapshot): 输入的 TMDB API 快照确认候选 TV ID 50712 为日语作品《黒執事》，并包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/50712/season/0/episode/6?language=ja-JP (search_snippet): TMDB 特别编页面的完整季列表明确列出第 9 集《黒執事 Book of Murder 上巻》（2014-10-25）和第 10 集《黒執事 Book of Murder 下巻》（2014-11-15）。\n\nhttps://www.wunschliste.de/serie/black-butler/episoden (search_snippet): 独立剧集列表将 Book of Murder 前篇、后篇对应为特别编第 8.08、9.09；其页面编号体系与 TMDB 不同，仅用于确认两集内容和顺序，未用于推导 TMDB 编号。\n\n备注：输入的 TMDB season 0 API 快照声称 episodeCount=8 且只列出第 1–8 集，但 TMDB 页面搜索结果列出 10 集并明确给出第 9–10 集；建议后续直接重新请求 /tv/50712/season/0 API，确认 API 数据是否已修复或存在区域/语言版本差异。；AniDB 官方站点本身无法在本次预算内读取；独立 AniDB 镜像与 Bangumi 提供的 AniDB 标题、日期、类型和制作信息一致，但未能独立显示数字 ID 10548。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/100511; https://anidb.app/anime/black-butler-book-of-murder-637; https://www.kuroshitsuji.tv/bom/; https://a1p.jp/works/kuroshitsuji_bom/; https://www.themoviedb.org/tv/50712; https://www.themoviedb.org/tv/50712/season/0/episode/6?language=ja-JP; https://www.wunschliste.de/serie/black-butler/episoden",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 9,
+      "episodeEnd": 10,
+      "id": 50712,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

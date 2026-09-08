@@ -1,0 +1,27 @@
+{
+  "anidbId": 2871,
+  "bangumiId": 81575,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《小さなアヒルの大きな愛の物語 あひるのクワック》TV 动画，共 52 集，播出时间为 1989-04-03 至 1990-03-29。TMDB 1887 使用同一日文标题和首播日，记录总计 52 集，分为第 1、2 季各 26 集；其第 1 季逐集日期从 1989-04-03 开始并覆盖 26 集。Anime-Lists 对 AniDB 2871 的映射明确将主体集数 1–26 对应 TMDB 第 1 季、27–52 对应 TMDB 第 2 季。Bangumi 的剧情、电视台及制作人员信息也与该电视动画版本一致。因此应采用 TMDB 1887 的两个完整季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/81575 (page): Bangumi 将该条目标为 TV，记录中文名“福星鸭小子”、52 集、1989-04-03 开始至 1990-03-29 结束，并列出与该动画一致的剧情、电视台和制作人员信息。\n\nhttps://www.themoviedb.org/tv/1887 (api_snapshot): 输入提供的 TMDB API 快照显示 ID 1887 使用同一日文标题，首播日为 1989-04-03，共 52 集，季列表为第 1 季 26 集和第 2 季 26 集。\n\nhttps://www.themoviedb.org/tv/1887/season/1 (api_snapshot): 输入提供的 TMDB 第 1 季快照包含完整 26 集，首集日期为 1989-04-03，末集日期为 1989-09-25，逐集标题和日期连续对应该版本的前半部分。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目 anidbid=2871、tmdbtv=1887；映射明确列出 AniDB 1–26→TMDB season 1 的 1–26，以及 AniDB 27–52→TMDB season 2 的 1–26。\n\nhttps://www.themoviedb.org/tv/1887-alfred-j-kwak (search_snippet): TMDB 搜索摘要将该作品描述为 52 集电视系列，并显示第 2 季为 26 集、季终集为 2x26。\n\n备注：TMDB 网页搜索摘要显示的第 2 季首播日期与输入 API 快照中的日期不一致，可能是 TMDB 不同语言页面或元数据版本差异；但不影响同一 TV 作品及两季各 26 集的识别。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/81575; https://www.themoviedb.org/tv/1887; https://www.themoviedb.org/tv/1887/season/1; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/1887-alfred-j-kwak",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1887,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 1887,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "anidbId": 7597,
+  "bangumiId": 334120,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是2010—2011年的3DCG电视短篇《ペンギンの問題MAX》，包含50话正篇，不是电影或重制版。东京电视台资料显示前作正篇止于第100话，2010年3月27日另播不计入正篇编号的总集篇；MAX 随后从本作第1话重新编号。逐话资料明确将 MAX 第1话对应系列总第101话、第50话对应总第150话。因此，在目前把整套系列合并为单一季度的 TMDB 104398 中，应映射至第1季第101—150集。旧候选第2季不存在，TMDB API 对该季返回404。Bangumi 本轮只含50话正篇，故不纳入 MAX 的额外特别篇。TMDB 快照把 S1E101、S1E102 的播出日期分别写成2010-03-27和2010-04-03，与官方正篇日期错开一集；这是 TMDB 日期元数据错误，系列总编号和50集边界仍明确对应101—150。\n\nhttps://www.themoviedb.org/tv/104398 (api_snapshot): TMDB API 快照确认电视条目104398原名为《ペンギンの問題》，目前只有第1季，共150集。\n\nhttps://www.themoviedb.org/tv/104398/season/1 (api_snapshot): TMDB API 快照确认第1季包含连续编号的第101—150集；集名采用“第101話”至“第150話”的系列总编号形式。\n\nhttps://www.themoviedb.org/tv/104398/season/2 (api_snapshot): TMDB API 快照对第2季返回HTTP 404，因此旧候选 season 2 已失效。\n\nhttps://www.tv-tokyo.co.jp/contents/pengin/episodes/episodes02/ (page): 东京电视台官方列表显示前作正篇为第1—100话，2010年3月27日的《リクエストの問題》单列为回顾篇，没有正篇话数。\n\nhttps://www.tv-tokyo.co.jp/contents/pengin/episodes/episodes03/ (page): 东京电视台官方列表确认《ペンギンの問題MAX》第1话《しゅうまいの問題》于2010年4月3日播出。\n\nhttps://www.tv-tokyo.co.jp/contents/pengin/episodes/episodes06/ (page): 东京电视台官方列表确认 MAX 第50话《超ヒーローの問題》于2011年3月26日播出，是50话正篇的终点。\n\nhttps://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E3%81%AE%E5%95%8F%E9%A1%8C (page): 逐话表同时列出本作话数与系列总话数：MAX第1话为总第101话，MAX第50话为总第150话；另将特别篇单独列出。\n\n备注：TMDB 的 S1E101、S1E102 播出日期存在一集偏移：其日期实际分别属于前作回顾篇和 MAX 第1话；但集名所用系列总编号及完整的101—150边界与50话正篇一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/334120; https://www.themoviedb.org/tv/104398; https://www.themoviedb.org/tv/104398/season/1; https://www.themoviedb.org/tv/104398/season/2; https://www.tv-tokyo.co.jp/contents/pengin/episodes/episodes02/; https://www.tv-tokyo.co.jp/contents/pengin/episodes/episodes03/; https://www.tv-tokyo.co.jp/contents/pengin/episodes/episodes06/; https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%B3%E3%82%AE%E3%83%B3%E3%81%AE%E5%95%8F%E9%A1%8C",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 101,
+      "episodeEnd": 150,
+      "id": 104398,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

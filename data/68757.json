@@ -1,0 +1,27 @@
+{
+  "anidbId": 9802,
+  "bangumiId": 68757,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《リコーダーとランドセル ミ☆》TV第3期：2013-07-08至2013-09-23、正篇12集；章节标题和日期与 TMDB 52873 第3季逐集对应。该 subject 还包含3个特别篇（SP0、SP1、SP13），而 TMDB 52873 的特别篇季（season 0）明确有3集，因此一并纳入。TMDB 第3季第11集日期为2013-10-07，与 Bangumi 的2013-09-16不一致，但标题、顺序、其余日期、年份、剧情设定及制作方均吻合，属于日期元数据差异，不影响作品/季对应。\n\nhttps://bgm.tv/subject/68757 (page): Bangumi 将该条目标为 TV，话数12，放送时间为2013年7月8日至9月23日，动画制作Seven，导演いまざきいつき；别名包含“竖笛与双肩书包3期”。\n\nhttps://bgm.tv/subject/68757/ep (page): Bangumi章节页列出12集正篇，标题和首播日期覆盖2013-07-08至2013-09-23；同一subject另列出SP0《夏とプール》、SP1《あつしとバーテンダー》、SP13《リコーダーとアカランドセル》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据片段将 AniDB ID 9802 映射为“Recorder to Ransel Mi”，与 Bangumi subject 的日文标题一致。\n\nhttps://anidb.app/anime/recorder-to-randoseru-mi-4376 (search_snippet): AniDB公开搜索摘要将《Recorder to Randoseru Mi☆》标为该系列第三季，2013年夏季播出，播出日期为2013-07-08至2013-09-23，时长约3分钟，制作公司为Seven。\n\nhttps://www.themoviedb.org/tv/52873 (api_snapshot): TMDB TV 52873 的标题为《リコーダーとランドセル》，剧情为身高反转姐弟的日常喜剧；季列表明确包含season 0特别篇3集，以及season 3《リコーダーとランドセル ミ☆》12集。\n\nhttps://www.themoviedb.org/tv/52873/season/3 (api_snapshot): TMDB season 3 明确列出12集，标题、剧情和大多数日期逐项对应 Bangumi 正篇；第11集日期记录为2013-10-07。\n\n备注：TMDB第3季第1集记录为2013-07-01、第11集记录为2013-10-07，与Bangumi正篇日期分别相差一周和三周；可能是特别篇/播出顺延或TMDB日期误录，需以官方播出记录进一步确认。；TMDB主季快照只提供season 0的3集数量，未提供特别篇逐集标题；season 0与Bangumi列出的3个特别篇按数量、系列和标题证据对应，但逐集TMDB标题仍可进一步复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68757; https://bgm.tv/subject/68757/ep; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anidb.app/anime/recorder-to-randoseru-mi-4376; https://www.themoviedb.org/tv/52873; https://www.themoviedb.org/tv/52873/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 52873,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "id": 52873,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

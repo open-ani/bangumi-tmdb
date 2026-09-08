@@ -1,0 +1,22 @@
+{
+  "anidbId": 85,
+  "bangumiId": 8378,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 是《STAR OCEAN EX／星之海洋》TV 动画，共 26 集，2001 年播出，由 Studio Deen 制作，剧情为 Claude 被时空传送至 Expel 并与 Rena 展开旅程。TMDB TV 34734 的日文标题、剧情、年份和 26 集数量均对应；其第 1 季明确为 26 集，集数连续覆盖 1—26，因此应映射为完整第 1 季。TMDB 与 Bangumi 的日期相差一天，符合日本播出日期与 TMDB 日期记录的时区差异，不影响作品及季范围判断。\n\nhttps://bgm.tv/subject/8378 (page): Bangumi 确认标题为 STAR OCEAN EX，类型为 TV，26 集，2001 年 4 月 3 日开播；剧情、Studio Deen 制作及主要制作人员与候选作品一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 标题映射 [85,\"Star Ocean Ex\"]，与输入中的 AniDB ID 85 和别名相符。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): 输入候选数据中的 Anime-Lists 关联将该 AniDB 作品指向 TMDB TV 34734 第 1 季；该关联作为线索，并由作品信息与 TMDB 季内容进一步核对。\n\nhttps://www.themoviedb.org/tv/34734 (api_snapshot): TMDB 快照显示作品名为「スターオーシャンEX」，首播年份为 2001，剧情为 Claude 经时空传送到 Expel 后与 Rena 开始旅程，共 26 集。\n\nhttps://www.themoviedb.org/tv/34734/season/1 (api_snapshot): TMDB 第 1 季快照明确 season_number=1、共 26 集，集数连续为 1—26。\n\n备注：TMDB 记录的首播日及各集日期比 Bangumi 日本日期早一天，具体是时区或数据库日期规范差异；不影响完整 26 集季映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8378; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/34734; https://www.themoviedb.org/tv/34734/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34734,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

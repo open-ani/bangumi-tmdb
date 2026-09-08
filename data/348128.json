@@ -1,0 +1,22 @@
+{
+  "anidbId": 16573,
+  "bangumiId": 348128,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《不滅のあなたへ Season 2》TV，20话，播出时间为2022-10-23至2023-03-12；官方资料确认同名第二季、导演/制作公司及开播日期一致。TMDB 主条目将 97525 的 2022 年季标为 season 2、共20集；TMDB season 2 快照列出完整第1至20集，标题和日期与 Bangumi 逐集对应。因此应映射为 TMDB TV 97525 的完整第二季，不包含 season 0 特别篇。\n\nhttps://bgm.tv/subject/348128 (page): Bangumi 将条目标为 TV《不滅のあなたへ Season 2》，话数20，首播2022-10-23，完结2023-03-12，并列出第01至20话；剧情、导演佐山聖子、动画制作Drive等信息与候选版本一致。\n\nhttps://www.aniplex.co.jp/lineup/fumetsu2/ (page): 官方页面确认这是 TV 动画《不滅のあなたへ》Season2，2022-10-23开播，原作大今良時、导演佐山聖子、动画制作Drive、制作NHK Enterprise。\n\nhttps://www.themoviedb.org/tv/97525 (api_snapshot): TMDB API 快照显示作品 ID 97525，主条目包含 season 0 特别编、season 1、season 2 和 season 3；season 2 的 air_date 为2022-10-23且 episode_count 为20。\n\nhttps://www.themoviedb.org/tv/97525/season/2 (api_snapshot): TMDB API 快照明确为 season_number 2，episodeCount 为20，完整列出 episode_number 1至20；各集标题和播出日期与 Bangumi 条目逐集对应。\n\n备注：AniDB 原站页面本次返回403，未能以 AniDB 页面独立读取方式复核 ID 16573；但 Bangumi 条目的名称、年份、剧情、制作信息及完整集数与官方资料和 TMDB season 2 均独立一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/348128; https://www.aniplex.co.jp/lineup/fumetsu2/; https://www.themoviedb.org/tv/97525; https://www.themoviedb.org/tv/97525/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 97525,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

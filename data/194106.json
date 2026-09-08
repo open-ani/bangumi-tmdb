@@ -1,0 +1,22 @@
+{
+  "anidbId": 11953,
+  "bangumiId": 194106,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2017年1月2日至3月27日播出的13集TV动画，制作方为DLE，且章节为1至13集。TMDB ID 69281 的主条目同名、首播日期相同、总集数为13；TMDB 第1季包含1至13集，逐集日期与 Bangumi 完全对应。因此主体应映射为该TV的完整第1季，不是电影或其他版本。\n\nhttps://bgm.tv/subject/194106 (page): Bangumi 将该条目标为TV，话数13，首播2017-01-02，制作方DLE，剧情与制作人员信息吻合。\n\nhttps://bgm.tv/subject/194106/ep (page): Bangumi章节列出正篇第1至13集，日期从2017-01-02连续至2017-03-27。\n\nhttps://www.themoviedb.org/tv/69281 (api_snapshot): TMDB TV 69281 同名，first_air_date为2017-01-02，number_of_episodes为13，且仅列有13集的第1季。\n\nhttps://www.themoviedb.org/tv/69281/season/1 (api_snapshot): TMDB第1季season_number为1、episodeCount为13；第1至13集日期分别与Bangumi章节日期对应。\n\n备注：AniDB 11953 原始页面本次无法读取，因此未将AniDB页面本身作为决定性证据；目标版本和范围由Bangumi与TMDB的独立标题、年份、制作信息及逐集日期交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/194106; https://bgm.tv/subject/194106/ep; https://www.themoviedb.org/tv/69281; https://www.themoviedb.org/tv/69281/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69281,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

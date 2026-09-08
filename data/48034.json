@@ -1,0 +1,27 @@
+{
+  "anidbId": 9394,
+  "bangumiId": 48034,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《琴浦さん》2013 年 12 集 TV 正篇，制作方、剧情、标题和逐集日期均与 TMDB 53594 第 1 季对应。Bangumi 还收录 6 个“春香の部屋”特别篇；官方资料确认其为全 6 回的放送前 WEB 动画，TMDB 53594 的第 0 季明确为 6 集“特別編”，因此应同时映射第 0 季和完整第 1 季。TMDB 日期比 Bangumi 晚一天，与日本电视台 26:00 播出记法一致。\n\nhttps://bgm.tv/subject/48034 (page): Bangumi 将条目标为 TV，话数 12，放送时间为 2013-01-10 至 2013-03-28；标题、剧情、AIC Classic 制作和逐集标题/日期与目标作品一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 ID 9394 映射为 Kotoura-san，与 Bangumi 的《琴浦さん》及别名一致。\n\nhttps://www.kotourasan.com/onair/ (page): 官方放送页记录 CBC 于 2013-01-10 26:00 开播，并列出主要电视台；该时间对应日本时间次日凌晨，解释了 TMDB 首播日期为 2013-01-11。\n\nhttps://www.kotourasan.com/whatsnew.html (search_snippet): 官方更新记录确认“春香の部屋”为全 6 回的特别 WEB 视频内容。\n\nhttps://www.themoviedb.org/tv/53594 (api_snapshot): TMDB TV 53594 的名称为琴浦さん，剧情、日语原名和制作背景吻合；包含第 0 季 6 集特别篇及第 1 季 12 集。\n\nhttps://www.themoviedb.org/tv/53594/season/1 (api_snapshot): TMDB 第 1 季为 12 集，逐集标题、剧情和日期与 Bangumi 的 12 集正篇对应。\n\n备注：AniDB 原站页面本次访问受 403 限制；ID 9394 的标题对应关系由可读取的 AniDB 标题索引及 Bangumi 标题/别名交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/48034; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.kotourasan.com/onair/; https://www.kotourasan.com/whatsnew.html; https://www.themoviedb.org/tv/53594; https://www.themoviedb.org/tv/53594/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 53594,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 53594,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

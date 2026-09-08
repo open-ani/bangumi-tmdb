@@ -1,0 +1,22 @@
+{
+  "anidbId": 13779,
+  "bangumiId": 236947,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目主体为2018年4月至6月播出的12集TV动画，输入数据中的 AniDB ID 13779 已标记为标题匹配。TMDB 78481 的标题、日文原名、剧情简介和制作/作品定位均对应；第1季明确包含12集，且完整剧集标题与 Bangumi 的1至12话逐一对应，因此采用TMDB第1季全季。Bangumi与TMDB首播日期相差约1天，但不影响标题、集数和后续播出日期的对应关系。\n\nhttps://bgm.tv/subject/236947 (page): Bangumi 条目记录名称为「ラストピリオド -終わりなき螺旋の物語-」、2018-04-11开始、共12话，并标记 AniDB ID 13779 与标题匹配。\n\nhttps://www.themoviedb.org/tv/78481 (api_snapshot): TMDB TV 78481 的日文标题和原名与 Bangumi 一致，剧情简介对应第8支部与Period设定，number_of_episodes为12，且包含season 1、episode_count为12。\n\nhttps://www.themoviedb.org/tv/78481/season/1 (api_snapshot): TMDB第1季明确为12集；第1至12集标题分别与 Bangumi 记录的「終了のお知らせ」至「ラストピリオド」逐一对应，播出日期序列和剧情简介也相符。\n\n备注：Bangumi首播日期为2018-04-11，而TMDB记录为2018-04-12，存在约一天的日期差异，可能与来源时区或记录口径有关。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/236947; https://www.themoviedb.org/tv/78481; https://www.themoviedb.org/tv/78481/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 78481,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

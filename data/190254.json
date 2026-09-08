@@ -1,0 +1,22 @@
+{
+  "anidbId": 12337,
+  "bangumiId": 190254,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认这是 2018 年 4 月 5 日开始、共 12 集的 TV 动画《されど罪人は竜と踊る》，制作人员、剧情和官方播出信息与该版本一致。AniDB ID 12337 对应同名作品；TMDB 78469 同名、首播日为 2018-04-05、日本 TV 动画，共 12 集。TMDB 第 1 季明确包含 12 集，且 1–12 集标题逐集对应 Bangumi 与 TBS 官方列出的正篇，因此应映射完整第 1 季。TMDB 快照中部分日期与 Bangumi/TBS 不一致，视为 TMDB 元数据日期错误，不足以否定标题、顺序和范围对应。\n\nhttps://bgm.tv/subject/190254 (page): Bangumi 将该主体标为 TV，名称为《されど罪人は竜と踊る》，共 12 集，放送开始于 2018-04-05，并列出 Seven Arcs、锦织博、花井宏和等制作信息。\n\nhttps://www.tbs.co.jp/tbs-ch/item/a0279/ (page): TBS 官方资料确认该动画制作于 2018 年、全 12 话，并逐集列出第 1 至第 12 话标题及对应剧情。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要显示 AniDB 条目 ID 12337 的标题为“Saredo Tsumibito wa Ryuu to Odoru: Dances with the Dragons”，与 Bangumi 主体及日文标题对应。\n\nhttps://www.themoviedb.org/tv/78469 (api_snapshot): TMDB TV 78469 的名称为《されど罪人は竜と踊る》，首播日期 2018-04-05，原语言为日语、原产国为日本，共 12 集。\n\nhttps://www.themoviedb.org/tv/78469/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、episodeCount=12；其第 1 至第 12 集标题与 Bangumi/TBS 官方列出的 12 集逐集对应。\n\n备注：TMDB 快照中第 5 至第 9 集的 air_date 与 Bangumi/TBS 官方播出日期不一致；但标题、集数、剧情和季结构一致，因此不影响本次完整季映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/190254; https://www.tbs.co.jp/tbs-ch/item/a0279/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/78469; https://www.themoviedb.org/tv/78469/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 78469,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

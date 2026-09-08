@@ -1,0 +1,24 @@
+{
+  "anidbId": 14553,
+  "bangumiId": 270060,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《この音とまれ！》第2クール，TV、13集，章节为14–26，2019-10-05开播并与前作关联。TMDB 85843 的第1季共26集，其中第14–26集标题与 Bangumi 章节及剧情逐集对应，制作班底、角色和作品简介也一致，因此应映射为同一 TV 的第1季第14–26集，而不是 TMDB 第2季。TMDB 日期整体晚一天可由日本电视台“10月5日（土）25:00”按日历记为10月6日解释；末集同理。\n\nhttps://bgm.tv/subject/270060 (page): Bangumi 页面确认该主体为 TV《この音とまれ！第2クール》，13集，2019-10-05开播，章节列表为14至26，并关联前作《この音とまれ！》。\n\nhttps://www.themoviedb.org/tv/85843 (api_snapshot): TMDB API 快照确认作品名为《この音とまれ！》，共26集，仅列出第1季且该季26集。\n\nhttps://www.themoviedb.org/tv/85843/season/1 (api_snapshot): TMDB 第1季快照完整返回26集；第14至26集标题依次为「一歩前へ」至「スタートライン」，与 Bangumi 第2クール的13个章节逐一对应，日期为2019-10-06至2019-12-29。\n\nhttps://www.animatetimes.com/news/details.php?id=1568363458 (search_snippet): 搜索摘要显示第2クール于2019年10月5日（周六）25时开始，并明确说明剧情承接第1クール邦楽祭结束处。\n\nhttps://thetv.jp/program/0000957312/ (search_snippet): 搜索摘要显示该第2クール于2019-10-05开始，末集为2019-12-28，剧情为第1クール之后的延续。\n\n备注：AniDB 原始页面 https://anidb.net/anime/14553 抓取时返回403，未能直接读取其页面内容；但 Bangumi 主体、官方播出资料和 TMDB 第14–26集的标题、剧情、制作与日期对应关系已足以确认目标 TMDB 版本及范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/270060; https://www.themoviedb.org/tv/85843; https://www.themoviedb.org/tv/85843/season/1; https://www.animatetimes.com/news/details.php?id=1568363458; https://thetv.jp/program/0000957312/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 26,
+      "id": 85843,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

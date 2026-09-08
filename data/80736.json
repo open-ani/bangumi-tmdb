@@ -1,0 +1,31 @@
+{
+  "anidbId": 10457,
+  "bangumiId": 80736,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 59181 是同一部日加合制电视动画：原名均为《テンカイナイト》，TMDB 所述四名少年经传送门成为展开骑士、对抗 Vilius 的剧情也相符，并非电影、重制版或衍生短篇。Bangumi subject 收录日本东京电视台播出的51话正篇；北美版在正篇第37话之后插入了仅在北美播出的回顾篇“Looking Forward, Looking Back”，形成52个播出槽位。TMDB 第1季恰收录52集，且前两集日期与北美播出顺序一致，因此该回顾篇对应其 S1E38；本 subject 的51话正篇应映射为 S1E1–37 与 S1E39–52，排除 S1E38。\n\nhttps://www.themoviedb.org/tv/59181 (api_snapshot): TMDB API 快照明确标识 TV 59181 的原名为《テンカイナイト》，首播日期为2013-08-24，制作来源含美国、日本和加拿大；全剧仅第1季，共52集。\n\nhttps://www.themoviedb.org/tv/59181/season/1 (api_snapshot): TMDB API 快照确认目标季为第1季并具有52个集位；E1、E2日期分别为2013-08-24和2013-08-31，与该作北美最初播出顺序一致。\n\nhttps://www.themoviedb.org/tv/59181-tenkai-knights/watch?language=ar-AE (page): 可访问的 TMDB 作品页索引显示 ID 59181 是2013年动画《テンカイナイト》，剧情为四名少年经传送门前往 Quarton、成为新一代 Tenkai Knights 并阻止 Vilius；页面同时标明第1季52集。\n\nhttps://bgm.tv/subject/80736 (page): Bangumi 80736 页面确认主体是TV动画《テンカイナイト／展开骑士》，日本版共51话，2014-04-05至2015-03-28在东京电视台播出，并注明美国于2013-08-24先行播出。\n\nhttps://www.tv-tokyo.co.jp/anime/tenkaiknight/episodes/index.html (page): 东京电视台官方分集页将2015-03-28播出的《そして、始まり》列为第51话，并列出与Bangumi一致的后段标题、日期和剧情，证明日本主体止于51话。\n\nhttps://en.wikipedia.org/wiki/List_of_Tenkai_Knights_episodes (page): 逐集资料把“Looking Forward, Looking Back”单列为位于正篇第37话与第38话之间的Recap，北美播出日为2014-05-31、日本播出日为N/A；其后正篇仍按日本编号38至51排列。由此结合TMDB的52集单季结构，可确定52槽位中的第38集是该北美独有回顾篇。\n\nhttps://www.tvmaze.com/episodes/1115333/tenkai-knights-1x38-looking-forward-looking-back (page): 独立节目资料亦将“Looking Forward, Looking Back”标为第1季第38集，日期为2014-05-31，佐证它在北美52槽位顺序中的位置。\n\n备注：TMDB API 快照中E3之后的air_date明显未采用实际的北美或日本首播日期，且集名仅为通用“第N話”；这些字段存在数据质量问题，但不影响作品ID、第1季以及由52槽位结构确定的回顾篇排除范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/80736; https://www.themoviedb.org/tv/59181; https://www.themoviedb.org/tv/59181/season/1; https://www.themoviedb.org/tv/59181-tenkai-knights/watch?language=ar-AE; https://www.tv-tokyo.co.jp/anime/tenkaiknight/episodes/index.html; https://en.wikipedia.org/wiki/List_of_Tenkai_Knights_episodes; https://www.tvmaze.com/episodes/1115333/tenkai-knights-1x38-looking-forward-looking-back",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 37,
+      "id": 59181,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 39,
+      "episodeEnd": 52,
+      "id": 59181,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

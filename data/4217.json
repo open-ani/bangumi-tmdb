@@ -1,0 +1,29 @@
+{
+  "anidbId": 2533,
+  "bangumiId": 4217,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是合田浩章执导、AIC 制作并于 2005 年开播的《ああっ女神さまっ》第一期，不是早期 OVA、剧场版或 2006 年第二期。其主体共 26 话：电视播出的第 1—24 话对应 TMDB 912 第 1 季全季；电视未播出的第 25、26 话《ああっウルドの小さな恋物語っ》《ああっドキドキって大人の味っ？》在 TMDB 被编入特别篇季第 2—3 集，因此需要第二条部分季映射。TMDB 特别篇季第 1 集《ああっ女神さまっとの交換日記っ?》是第 1—12 话摘要特编，官方资料将它列在 26 话之外，故不纳入本 subject 正篇；特别篇季第 4—7 集属于后续第二期或《闘う翼》，同样不纳入。\n\nhttps://www.themoviedb.org/tv/912 (api_snapshot): TMDB API 快照显示 TV 912 原名为《ああっ女神さまっ》，首播日期为 2005-01-06，剧情是森里螢一因误拨电话遇见女神ベルダンディー；其第 1 季名为《ああっ女神さまっ》且有 24 集，第 2 季则是另作《それぞれの翼》。\n\nhttps://www.themoviedb.org/tv/912/season/1 (api_snapshot): TMDB 第 1 季快照完整列出 24 集：从第 1 集《キミは女神さまっ？》到第 24 集《ああっいつもキミと共にっ？》，标题和剧情顺序与 Bangumi 本作前 24 话逐集吻合。\n\nhttps://www.themoviedb.org/tv/912/season/0 (api_snapshot): TMDB 特别篇季快照显示第 2、3 集分别为《ああっウルドの小さな恋物語っ》和《ああっドキドキって大人の味っ？》，准确对应 Bangumi 所列第 25、26 话；该季第 1 集是交换日记摘要，后面的第 4—7 集属于后续作品。\n\nhttps://www.tbscontents.com/en/program/ahmygoddess (page): TBS 官方节目目录确认 Series.1 的播出期为 2005-01-06 至 2005-07-07，并列为26集，另外单列一集涵盖第1—12话的摘要节目，证明交换日记摘要不属于26话主体。\n\nhttps://www.tbs.co.jp/tbs-ch/item/a0028/ (page): TBS 资料确认电视播出版为2005年制作、AIC动画制作、合田浩章执导的24话系列，并列出的首集、角色和剧情均与 Bangumi subject 4217 相符。\n\nhttps://av.watch.impress.co.jp/docs/20080125/bandai2.htm (page): DVD-BOX发行报道明确区分第一期电视系列24话、电视未播出的第25/26话，以及另行计算的特别编《ああっ女神さまっとの交換日記っ?》，从而支持将主体映射为24话正季加两话特别篇季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4217; https://www.themoviedb.org/tv/912; https://www.themoviedb.org/tv/912/season/1; https://www.themoviedb.org/tv/912/season/0; https://www.tbscontents.com/en/program/ahmygoddess; https://www.tbs.co.jp/tbs-ch/item/a0028/; https://av.watch.impress.co.jp/docs/20080125/bandai2.htm",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 912,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 3,
+      "id": 912,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

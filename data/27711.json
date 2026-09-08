@@ -1,0 +1,22 @@
+{
+  "anidbId": 1653,
+  "bangumiId": 27711,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2004-04-03 开播、共 26 集的 TV 动画《DAN DOH!!/ダンドー》，与 AniDB 1653 的标题及输入中的候选完全对应。官方东京电视台页面核对到同名作品及第 1—26 集、播出日期和剧情；TMDB 23282 的首播日期为 2004-04-03，唯一季为第 1 季且共 26 集，集标题和日期与 Bangumi/官方列表逐集一致。因此应映射为完整的 TMDB 第 1 季，不需缩小集数范围。\n\nhttps://bgm.tv/subject/27711 (page): 输入提供的 Bangumi 条目为 TV 动画《DAN DOH!!/弹道》，2004-04-03 开播，共 26 集，并记录 AniDB ID 1653。\n\nhttps://www.tv-tokyo.co.jp/anime/dandoh/story01_26_in.html (page): 东京电视台官方页面列出《ダンドー》的第 1—26 集；第 1 集为「ダンドーの夢」、2004-04-03 播出，最终回为「光の中で」、2004-09-25 播出，剧情与输入集表相符。\n\nhttps://www.tv-tokyo.co.jp/anime/dandoh/main_index.html (page): 东京电视台官方作品页显示《DANDOH!!》及其制作版权信息（坂田信弘、万乗大智、小学館、东京电视台，2004）。\n\nhttps://www.themoviedb.org/tv/23282 (api_snapshot): TMDB API 快照显示 TV ID 23282 名为「ダンドー」，首播日期 2004-04-03，共 26 集，且只有 season 1。\n\nhttps://www.themoviedb.org/tv/23282/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 26 集；第 1 集「ダンドーの夢」日期为 2004-04-03，后续集标题/日期与 Bangumi 和官方列表逐集对应，最终为第 26 集「光の中で」、2004-09-25。\n\n备注：AniDB 原站页面本次访问返回 403，未能直接读取 AniDB 1653 页面；但 Bangumi 提供的关联、标题别名、年份、TV 类型、制作信息及官方逐集资料均与该版本一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27711; https://www.tv-tokyo.co.jp/anime/dandoh/story01_26_in.html; https://www.tv-tokyo.co.jp/anime/dandoh/main_index.html; https://www.themoviedb.org/tv/23282; https://www.themoviedb.org/tv/23282/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 23282,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

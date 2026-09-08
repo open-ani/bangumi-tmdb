@@ -1,0 +1,21 @@
+{
+  "anidbId": 7748,
+  "bangumiId": 419280,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 电影 360597 的原题、1996年7月13日日本上映日期、30分钟片长、动画媒介、导演大賀俊二及“ばいきんトリオ”剧情均与 Bangumi subject 完整吻合。松竹进一步确认本作是与《空とぶ絵本とガラスの靴》同时上映、但身份独立的30分钟动画电影。因此应映射至语义直接的独立 movie 条目，而不是候选 TV 56389 的特别篇季；该季快照中的第19、20集只有日期和通用名称，也无法区分同日上映的正片与短片。\n\nhttps://www.themoviedb.org/movie/360597-soreike-anpanman-baikinman-to-3-bai-punch (page): TMDB 电影 ID 360597 的原题为《それいけ!アンパンマン ばいきんまんと3ばいパンチ》，标注1996年7月13日在日本上映、片长30分钟、类型为家庭与动画；剧情为ばいきんまん组成“ばいきんトリオ”对付アンパンマン，导演为Shunji Ôga（大賀俊二）。\n\nhttps://www.tms-e.co.jp/alltitles/anpanman/060313.html (page): 制作方TMS的作品页确认本作名称、1996年7月13日公开、片长30分钟、导演大賀俊二，并记载アカキンマン、アオキンマン协助ばいきんまん组成三人组发动“3ばいパンチ”的剧情。\n\nhttps://www.shochiku.co.jp/cinema/database/04454/ (page): 发行方松竹的资料确认本作是30分钟动画电影，1996年7月13日上映，是《それいけ！アンパンマン 空とぶ絵本とガラスの靴》的同时上映作品，并给出与Bangumi一致的导演及剧情。\n\nhttps://www.themoviedb.org/tv/56389/season/0 (api_snapshot): 输入的TMDB API快照显示候选TV 56389特别篇第19、20集均只有通用名称且同为1996年7月13日，无法据此确定哪集是本短片；已有身份明确的独立电影条目时不应采用这个含混表示。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/419280; https://www.themoviedb.org/movie/360597-soreike-anpanman-baikinman-to-3-bai-punch; https://www.tms-e.co.jp/alltitles/anpanman/060313.html; https://www.shochiku.co.jp/cinema/database/04454/; https://www.themoviedb.org/tv/56389/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 360597,
+      "type": "movie"
+    }
+  ]
+}

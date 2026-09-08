@@ -1,0 +1,22 @@
+{
+  "anidbId": 4476,
+  "bangumiId": 1788,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《FLAG》TV 动画，共13话，首播于2006-06-16，完结于2007-03-02；剧情与制作信息均对应该原创作品。关联的《FLAG 一千万のクフラの記録》是独立总集篇，不应并入本主体。TMDB 45047 同名、首播日期一致，共13集；第1季也明确为13集，且剧集日期从2006-06-16至2007-03-02，与 Bangumi 的13话主体完整对应，因此采用整季范围。\n\nhttps://bgm.tv/subject/1788 (page): Bangumi 将 FLAG 标为 TV，话数13，放送开始2006年6月16日、结束2007年3月2日；页面还列出独立的总集篇《FLAG 一千万のクフラの記録》，并给出对应剧情、导演和动画制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 AniDB ID 4476 对应为 Flag，支持输入中 Bangumi→AniDB 关联的作品身份核对。\n\nhttps://www.themoviedb.org/tv/45047 (api_snapshot): TMDB TV 45047 名称为 FLAG，首播日期为2006-06-16，共13集，唯一列出的季为第1季且包含13集。\n\nhttps://www.themoviedb.org/tv/45047/season/1 (api_snapshot): TMDB 第1季为13集；剧集日期覆盖2006-06-16至2007-03-02，和 Bangumi 的主体播出范围一致。\n\n备注：AniDB 原始条目页面本次访问返回403，未能直接读取其完整类型与制作字段；但 AniDB 标题索引、Bangumi 的作品信息及 TMDB 的名称、日期、集数均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1788; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/45047; https://www.themoviedb.org/tv/45047/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45047,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

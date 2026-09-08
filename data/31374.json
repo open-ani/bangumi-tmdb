@@ -1,0 +1,22 @@
+{
+  "anidbId": 8923,
+  "bangumiId": 31374,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2012年播出的《銀河へキックオフ!!》TV动画，共39话，放送期为2012-04-03至2013-02-26，章节完整列出01–39。Bangumi简介、角色、制作信息与TMDB作品简介一致；TMDB 44038第1季完整收录39集，集名与Bangumi 01–39逐条对应，剧情也连续覆盖从“出会い”到“銀河のワールドカップ”。TMDB主页面另有第0季2个特别篇，但Bangumi该subject的regularEpisodeCount与totalEpisodeCount均为39，且主体章节只有39话，因此不纳入该subject目标。TMDB部分日期为另一播出时段的日期（如4月7日），属于排播日期差异，不影响作品及集序对应。\n\nhttps://bgm.tv/subject/31374 (page): Bangumi页面标明类型为TV、话数39、放送开始2012年4月3日、放送结束2013年2月26日，并列出章节01至39；简介和制作信息与该作品相符。\n\nhttps://teichiku.co.jp/catalog/ginga/ (page): 官方音像资料按正篇集数发行，Vol.13明确收录第37话至第39话，并列出第39话《銀河のワールドカップ》及其剧情。\n\nhttps://www.themoviedb.org/tv/44038 (api_snapshot): TMDB API快照显示作品名为《銀河へキックオフ!!》，首播年份为2012年，总集数39，并列出season 0特别篇2集与season 1正篇39集。\n\nhttps://www.themoviedb.org/tv/44038/season/1 (api_snapshot): TMDB API快照显示season 1共39集，完整剧集标题、日期和剧情从第1集《出会い》连续至第39集《銀河のワールドカップ》，与Bangumi主体39集逐条对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB标题数据检索摘要将AniDB ID 8923对应为“Ginga e Kickoff!!”，与Bangumi日文标题及别名一致。\n\n备注：TMDB season 0的2个特别篇未在输入快照中提供具体标题和剧情，无法进一步判断其是否对应另一个Bangumi subject；但现有Bangumi subject明确只有39集正篇，故不纳入。；TMDB使用的部分播出日期与Bangumi日期不同，推测是不同频道或排播时段；作品、标题、剧情和集序均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/31374; https://teichiku.co.jp/catalog/ginga/; https://www.themoviedb.org/tv/44038; https://www.themoviedb.org/tv/44038/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44038,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

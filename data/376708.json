@@ -1,0 +1,23 @@
+{
+  "anidbId": 17300,
+  "bangumiId": 376708,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1 集、2022-11-22 放送的《トニカクカワイイ ～制服～》，并标为 OVA；其剧情、制作人员与官方资料一致。TMDB TV 100049 的特别编第 15 集标题正是「トニカクカワイイ ～制服～」，日期为 2022-11-22、时长 22 分钟。因此应映射到 TMDB season 0 episode 15，而不是纳入整个特别编季。\n\nhttps://bgm.tv/subject/376708 (page): Bangumi 条目名称为「トニカクカワイイ ～制服～」，话数 1，放送日期 2022-11-22；章节剧情与制服特别篇一致，制作团队为博史池畠、兵頭一歩、佐々木政勝、Seven Arcs。\n\nhttps://tonikawa.com/news/news-67/ (search_snippet): 官方资料称「トニカクカワイイ ～制服～」是新作特别篇，并给出与 Bangumi 相同的剧情：司在綾安排下穿制服。\n\nhttps://www.themoviedb.org/tv/100049/season/0 (api_snapshot): TMDB season 0 第 15 集标题为「トニカクカワイイ ～制服～」，air_date 为 2022-11-22，runtime 为 22 分钟；同季其他集是不同特别篇或总集篇，不能整季纳入。\n\nhttps://www.themoviedb.org/tv/100049 (api_snapshot): TMDB TV 100049 的主体名称为「トニカクカワイイ」，包含 season 0「特別編」及正篇第 1、2 季。\n\n备注：AniDB 原站页面访问受限，未能直接读取其条目页；但输入提供的 AniDB ID 17300 与标题别名匹配，且 Bangumi 条目、官方资料及 TMDB 集标题、日期、剧情和制作信息均相互吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/376708; https://tonikawa.com/news/news-67/; https://www.themoviedb.org/tv/100049/season/0; https://www.themoviedb.org/tv/100049",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 15,
+      "id": 100049,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

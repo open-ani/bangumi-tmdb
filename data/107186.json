@@ -1,0 +1,22 @@
+{
+  "anidbId": 10714,
+  "bangumiId": 107186,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2014 年播出的 13 集 TV 动画，首播日为 2014-10-06，末集为 2015-01-05；章节标题、日期和制作信息与《怪盗ジョーカー》第一季一致。AniDB ID 10714 的公开标题索引对应 Kaitou Joker。TMDB 61434 的第 1 季同为 13 集，首播日和 1—13 集标题整体对应，因此应映射为完整第 1 季。第 3 集 TMDB 日期记为 2014-10-20，与 Bangumi 的 2014-10-27 不一致，但标题、前后集顺序及整季范围均匹配，属于 TMDB 日期元数据差异，不影响目标季和范围判断。\n\nhttps://bgm.tv/subject/107186 (page): Bangumi 条目标注为 TV、13 集，放送时间为 2014-10-06 至 2015-01-05；章节 1—13 的标题和日期与 TMDB 第一季整体对应，并列出寺本幸代、佐藤大、シンエイ動画等制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): 公开 AniDB 标题索引将 ID 10714 对应为 Kaitou Joker，支持 Bangumi 条目与该 AniDB 作品的名称关联。\n\nhttps://www.themoviedb.org/tv/61434 (api_snapshot): TMDB 作品为《怪盗ジョーカー》，首播日 2014-10-06，共 52 集，分为四季，每季 13 集。\n\nhttps://www.themoviedb.org/tv/61434/season/1 (api_snapshot): TMDB 第 1 季首播日为 2014-10-06，共 13 集；剧集标题从“奇迹の怪盗あらわる”至“影と镜の迷宫”，与 Bangumi 主体的 13 集对应。\n\nhttps://s.mxtv.jp/joker/story/ (page): 官方简介描述 Joker 与 Hachi 周游世界盗取宝物、使用 Image Gum 和 Sky Joker 等设定，与该动画主体剧情一致。\n\nhttps://s.mxtv.jp/joker/staff/ (page): 官方资料列出原作高桥秀康、导演寺本幸代、系列构成佐藤大、动画制作シンエイ動画等，与 Bangumi 制作信息一致。\n\n备注：TMDB 第 3 集日期为 2014-10-20，而 Bangumi 及其他日本播出资料为 2014-10-27；该差异未改变剧集标题和季范围，但 TMDB 日期字段可能有误。；AniDB 原站页面本次无法直接读取，ID—标题核对使用了公开 AniDB 标题索引；如需更高强度验证，应补查 AniDB 原始条目。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/107186; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/61434; https://www.themoviedb.org/tv/61434/season/1; https://s.mxtv.jp/joker/story/; https://s.mxtv.jp/joker/staff/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61434,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

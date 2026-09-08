@@ -1,0 +1,27 @@
+{
+  "anidbId": 5276,
+  "bangumiId": 308,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 2007 年的《キミキス pure rouge》TV 动画，标为 25 话，并包含 24 集正篇、特别篇。TMDB 25365 的标题、日文原名、首播日 2007-10-06、简介、制作背景及第 1 季 24 集标题和日期均与 Bangumi 正篇逐集对应，因此第 1 季应收录完整一季。TMDB 主页面明确另有 season 0「特別編」且只有 1 集、日期为 2008-03-29；该日期与《Love Fighter》公开集数资料的播出日期一致，而 Bangumi/其他资料中的 2008-08-22 是 DVD 发行日期，因此 subject 内特别篇应映射到同一 TMDB 作品的第 0 季。Anime-Lists 的 AniDB 5276→TMDB 25365 仅作为线索，且其 before=1-25 不能覆盖 TMDB 实际季结构；实际 TMDB 季/集数据支持 24 集 season 1 加 1 集 season 0。\n\nhttps://bgm.tv/subject/308 (page): Bangumi 页面将该条目标为 TV《キミキス pure rouge》，放送开始于 2007-10-06，话数为 25，制作公司为 J.C.STAFF；章节列表显示 01–24、SP 和 25。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录 anidbid=5276、名称 KimiKiss Pure Rouge，并关联 tmdbtv=25365、tmdbseason=1；该记录是候选线索，不作为季集范围的唯一依据。\n\nhttps://www.themoviedb.org/tv/25365 (api_snapshot): TMDB API 快照确认作品名为 キミキス pure rouge，首播日为 2007-10-06，共 24 集；季列表明确包含 season 0「特別編」1 集和 season 1 24 集，season 0 日期为 2008-03-29。\n\nhttps://www.themoviedb.org/tv/25365/season/1 (api_snapshot): TMDB season 1 快照包含完整 24 集，标题从 meet again 到 ……and meet again，日期和 Bangumi 正篇逐集对应。\n\nhttps://next-episode.net/kimikiss-pure-rouge/season-1 (search_snippet): 搜索摘要将 Love Fighter 列为该作品的 Extra，日期为 2008-03-29，与 TMDB season 0 的唯一集日期一致。\n\nhttps://www.animesc.com/en/details/3Es2tx/kimikiss-pure-rouge-love-fighter (search_snippet): 搜索摘要确认 Love Fighter 是《キミキス pure rouge》的 DVD-only special，发行/首映日期为 2008-08-22，解释了 Bangumi 特别篇日期与 TMDB 2008-03-29 播出日期的差异。\n\n备注：AniDB 5276 详情页本次无法直接读取（访问受限）；其与 Bangumi subject 的关联由输入中的 matched 信息、Anime-Lists 映射以及标题、年份、制作信息和逐集内容交叉支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/308; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/25365; https://www.themoviedb.org/tv/25365/season/1; https://next-episode.net/kimikiss-pure-rouge/season-1; https://www.animesc.com/en/details/3Es2tx/kimikiss-pure-rouge-love-fighter",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 25365,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 25365,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

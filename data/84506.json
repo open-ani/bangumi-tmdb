@@ -1,0 +1,24 @@
+{
+  "anidbId": 10162,
+  "bangumiId": 84506,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 2014 年《君のいる町 OAD》，OVA、共 2 集，发行日为 2014-01-17 和 2014-03-17，制作人员为山内重保、吉田玲子、GONZO。AniDB ID 10162 与其标题、类型、集数及两端日期完全对应，并说明内容分别来自漫画第 26、27 卷限定版。TMDB TV 70228 的 season 0 为特别编，其中第 3、4 集日期正好对应这两集；因此应映射为 season 0 episodes 3–4，而不是整季或 TV season 1。\n\nhttps://bgm.tv/subject/84506 (page): Bangumi 将主体标为《君のいる町 OAD》OVA，共 2 话，发售日为 2014-01-17，结束于 2014-03-17；制作信息为山内重保、吉田玲子、GONZO，并注明对应漫画第 26、27 卷同捆 OAD。\n\nhttps://anidb.net/anime/10162 (page): AniDB 10162 的标题为 Kimi no Iru Machi (2014)，类型 OVA、2 episodes，日期为 2014-01-17 至 2014-03-17；主创、GONZO、角色及限定版第 26、27 卷说明均与 Bangumi 主体一致，并直接关联 2013 年 TV 主线。\n\nhttps://www.themoviedb.org/tv/70228 (api_snapshot): TMDB TV 70228《君のいる町》包含 season 0“特別編”和 season 1；season 0 共 4 集，TV 主线 season 1 共 12 集。\n\nhttps://www.themoviedb.org/tv/70228/season/0 (api_snapshot): TMDB season 0 的第 3 集日期为 2014-01-17、第 4 集日期为 2014-03-17，分别与 AniDB/Bangumi OAD 两集的发行日期对应；前两集日期为 2012 年，属于另一组特别篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/84506; https://anidb.net/anime/10162; https://www.themoviedb.org/tv/70228; https://www.themoviedb.org/tv/70228/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 3,
+      "episodeEnd": 4,
+      "id": 70228,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

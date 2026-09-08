@@ -1,0 +1,22 @@
+{
+  "anidbId": 2169,
+  "bangumiId": 1529,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2005 年东映动画制作的 6 话 OVA，发售期为 2005-02-25 至 2005-07-29，章节为“第三種接近遭遇”至“イリヤの空、UFOの夏”。BangumiExtLinker 的对应行将 bgm_id 1529 与 anidb_id 2169 关联；TMDB 98747 的标题、日文原名、首播日 2005-02-25、剧情简介、制作国与 6 集信息均匹配，TMDB 第 1 季完整列出同名的 6 集及对应日期，且第 6 集日期为 2005-07-29。因此应映射为 TV 98747 第 1 季完整范围，不是电影、重剪版或部分集数。\n\nhttps://bgm.tv/subject/1529 (page): Bangumi 条目标记为 OVA，共 6 话；发售日 2005-02-25，结束日 2005-07-29；制作公司为東映アニメーション；章节为 1 至 6 集。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/refs/heads/main/data/anime_map.json (page): 数据行明确记录 name=イリヤの空、UFOの夏、bgm_id=1529、date=2005-02、anidb_id=2169，核对了 Bangumi→AniDB 关联。\n\nhttps://lineup.toei-anim.co.jp/en/ova/iriya/ (search_snippet): 东映官方作品页将该作品标为 OVA，明确为 6 episodes，播出期为 2005 年 1 月至 7 月，并给出匹配的剧情简介。\n\nhttps://www.themoviedb.org/tv/98747 (api_snapshot): 所附 TMDB API 快照显示标题与原名均为イリヤの空、UFOの夏，first_air_date 为 2005-02-25，剧情、日文原语言、日本来源及总集数 6 均匹配。\n\nhttps://www.themoviedb.org/tv/98747/season/1 (api_snapshot): 所附 TMDB API 快照显示第 1 季共 6 集；六集标题依次对应 Bangumi 章节，日期从 2005-02-25 到 2005-07-29，episodesTruncated=false。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1529; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/refs/heads/main/data/anime_map.json; https://lineup.toei-anim.co.jp/en/ova/iriya/; https://www.themoviedb.org/tv/98747; https://www.themoviedb.org/tv/98747/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 98747,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

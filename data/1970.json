@@ -1,0 +1,22 @@
+{
+  "anidbId": 5586,
+  "bangumiId": 1970,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 1970 明确是《ヴァンパイア騎士》第一季：TV、13话、2008-04-07至2008-06-30，制作与剧情信息均对应第一季。AniDB ID 5586 的公开索引对应 Vampire Knight；TMDB 17149 将同一作品拆为第1季《ヴァンパイア騎士》和第2季《ヴァンパイア騎士Guilty》，第1季正好13集。TMDB 快照中的完整集标题、剧情和顺序与 Bangumi 的13集逐一对应，因此纳入完整第1季，不纳入特别编或第2季。日期相差一天符合日本电视台深夜时段记录差异。\n\nhttps://bgm.tv/subject/1970 (page): Bangumi 将该条目标为《ヴァンパイア騎士》TV，13话，2008年4月7日开始、6月30日结束；原作、导演佐山聖子、动画制作Studio Deen、制作NAS等信息与候选版本一致，并列出第1至13话及其剧情。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 ID 5586 映射为 Vampire Knight；同一索引将 Vampire Knight Guilty 映射为另一个 ID 6017，支持 5586 是第一季而非 Guilty。\n\nhttps://www.themoviedb.org/tv/17149 (api_snapshot): TMDB API 快照显示 TV 17149 的总集数为26，并分为特别编1集、第1季《ヴァンパイア騎士》13集和第2季《ヴァンパイア騎士Guilty》13集。\n\nhttps://www.themoviedb.org/tv/17149/season/1 (api_snapshot): TMDB API 快照显示第1季 season_number=1、episodeCount=13，完整剧集为1至13；标题、剧情和顺序与 Bangumi 13个章节逐一对应。\n\nhttps://en.wikipedia.org/wiki/List_of_Vampire_Knight_episodes (page): 公开剧集资料确认第一季为13集、2008-04-07至2008-06-30，第二季 Guilty 为另一组13集；并列出第一季的完整剧情与集数范围。\n\n备注：TMDB 快照将首播及各集日期记录为日本日期次日，但这属于深夜播出日期表示差异，不影响版本和季号判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1970; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/17149; https://www.themoviedb.org/tv/17149/season/1; https://en.wikipedia.org/wiki/List_of_Vampire_Knight_episodes",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 17149,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

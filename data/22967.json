@@ -1,0 +1,22 @@
+{
+  "anidbId": 684,
+  "bangumiId": 22967,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 22967 明确是《マスターモスキートン'99》TV动画，共26话，1997-09-30开播，制作人员与剧情信息均与候选版本一致。Anime-Lists 明确将 AniDB 684（Master Mosquiton '99）关联至 TMDB TV 37532 第1季；TMDB 快照显示该剧原名、首播日为1997-09-30、共26集，且第1季明确为season_number=1并列出第1至26集。因此主体对应整季，不应映射到其关联的1996年OVA《マスターモスキートン》。\n\nhttps://bgm.tv/subject/22967 (page): Bangumi 将该条目标为TV，话数26，放送开始1997-09-30；页面还给出剧情、制作人员及与《マスターモスキートン》的前传关系。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"684\"、名称 Master Mosquiton '99、tmdbtv=\"37532\"、tmdbseason=\"1\"；同文件另有 AniDB 1295 的 Master Mosquiton 条目，支持区分TV续作与OVA/前作。\n\nhttps://www.themoviedb.org/tv/37532 (api_snapshot): TMDB API快照显示ID 37532的原名为マスターモスキートン'99，first_air_date为1997-09-30，共26集，并包含第1季。\n\nhttps://www.themoviedb.org/tv/37532/season/1 (api_snapshot): TMDB API快照明确给出season_number=1、episodeCount=26，并逐集列出episode_number 1至26；首集日期为1997-09-30，末集日期为1998-03-31。\n\nhttps://en.wikipedia.org/wiki/Master_of_Mosquiton (search_snippet): 搜索摘要区分1996年6集OVA与1997年26集TV系列 Master of Mosquiton '99，支持不将前作OVA并入本主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/22967; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/37532; https://www.themoviedb.org/tv/37532/season/1; https://en.wikipedia.org/wiki/Master_of_Mosquiton",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 37532,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

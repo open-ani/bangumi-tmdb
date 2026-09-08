@@ -1,0 +1,22 @@
+{
+  "anidbId": 706,
+  "bangumiId": 78062,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2000-07-26 发售、4 话的 OVA《File-XX 乱战突破》，且与前作 File-X 分立。TMDB 99659 实际对应前作 File-X，仅有 3 话；TMDB 99666 的《Geobreeders: Breakthrough》则明确为第 1 季、4 话，首集日期为 2000-07-26，版本和完整范围均吻合。因此采用 TMDB 99666 第 1 季完整 4 话。\n\nhttps://bgm.tv/subject/78062 (page): Bangumi 将该条目标为 OVA，标题为「ジオブリーダーズ2 魍魎遊撃隊 File-XX 乱戦突破」，话数 4，发售日 2000-07-26，并关联前作 File-X。\n\nhttps://www.themoviedb.org/tv/99666/episodes?credit_id=633e9dfdfb8346007eb7eac2&person_id=4bc8ac51017a3c122d04f269 (page): TMDB 条目名称为 Geobreeders: Breakthrough，列出 4 集，编号为 1x1 至 1x4；第 1 集标题为 “BREAKTHROUGH ACT.1 FILE-XX”，日期为 2000-07-26。\n\nhttps://www.themoviedb.org/tv/99659 (api_snapshot): 输入的 TMDB API 快照显示 99659 名称为前作 File-X，首播日 1998-05-21，共 3 集；其 season/2 请求返回 404，不能据此作为 File-XX 的目标。\n\nhttps://en.wikipedia.org/wiki/Geobreeders (page): 资料将 2000-07-26 至 2001-03-23 的 4 话 OVA 识别为 Geobreeders 2: Breakthrough，并与 1998 年 3 话 OVA 区分。\n\n备注：AniDB 706 页面本身未能直接读取，AniDB ID 数字主要依赖输入快照中的 matched 标记；但 Bangumi 条目的标题、日期、话数及 TMDB 99666 的版本信息相互吻合。；TMDB 页面将第 2 至第 4 集日期统一显示为 2000-08-01，与其他资料的分批发售日期不完全一致；这不影响其 4 集季范围和作品版本识别。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/78062; https://www.themoviedb.org/tv/99666/episodes?credit_id=633e9dfdfb8346007eb7eac2&person_id=4bc8ac51017a3c122d04f269; https://www.themoviedb.org/tv/99659; https://en.wikipedia.org/wiki/Geobreeders",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 99666,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

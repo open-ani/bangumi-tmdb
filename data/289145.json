@@ -1,0 +1,28 @@
+{
+  "anidbId": 15023,
+  "bangumiId": 289145,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2019-10-04 开始的《ぬるぺた》，主体章节明确为正篇 1–12 集，另有 SP1《ドキッ♥ぬるぬるぺたぺた！ 水着だらけのお姉ちゃん大会！》，于 2020-01-31 首播。AniDB 15023 同名、同年份、同播出日期，类型为 Web、正篇 12 集，并具有相同剧情、导演、角色设定和制作公司信息。TMDB 91587 的第 1 季包含 12 集且标题、日期逐集对应；其第 0 季为 1 集、日期为 2020-01-31，对应 Bangumi 的 SP1。因此应映射完整 S1，并补充 S0E1。\n\nhttps://bgm.tv/subject/289145 (page): Bangumi 标记为 TV，话数 13，2019-10-04 开始，制作人员包括小倉宏文、はと、板倉健、シンエイ動画；章节区分正篇与特别篇。\n\nhttps://bgm.tv/subject/289145/ep (page): 正篇为第 1–12 集；特别篇为 SP1《ドキッ♥ぬるぬるぺたぺた！ 水着だらけのお姉ちゃん大会！》，首播 2020-01-31。\n\nhttps://anidb.net/anime/15023 (page): AniDB 15023 为 Null Peta／ぬるぺた，官方英文名 Null & Peta，类型 Web，正篇 12 集，播出期 2019-10-04 至 2019-12-20；剧情、导演、角色设定和制作公司与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/91587 (api_snapshot): TMDB TV 91587 名为 ぬるぺた，首播 2019-10-04，正篇 12 集；季列表显示 season 1 为 12 集、season 0 为 1 集且日期为 2020-01-31。\n\nhttps://www.themoviedb.org/tv/91587/season/1 (api_snapshot): TMDB season 1 的第 1–12 集标题和日期逐条对应 Bangumi 正篇第 1–12 集，播出期为 2019-10-04 至 2019-12-20。\n\n备注：输入的 TMDB API 快照未展开 season 0 的单集标题和简介；但该季明确只有 1 集且日期与 Bangumi SP1 的 2020-01-31 完全一致，故范围确定为 S0E1。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/289145; https://bgm.tv/subject/289145/ep; https://anidb.net/anime/15023; https://www.themoviedb.org/tv/91587; https://www.themoviedb.org/tv/91587/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 91587,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 91587,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

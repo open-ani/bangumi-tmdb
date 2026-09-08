@@ -1,0 +1,21 @@
+{
+  "anidbId": 7644,
+  "bangumiId": 378808,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是1970-12-19上映的剧场版；其页面标题、日期、剧情及与《アタックNo.1》主线故事的关联，与 AniDB 7644 的同名 Movie 条目完全对应。TMDB 的《Attack No.1 Collection》列出同名电影并链接至 movie/667830，因此应采用电影条目，不采用候选 TV 46348。TV 候选实际是104集的原版电视系列，season/0 请求也失败；将剧场版强行映射为TV季或集数范围缺乏必要证据。\n\nhttps://bgm.tv/subject/378808 (page): Bangumi 条目标题为「アタックNo.1 涙の世界選手権」，类型为剧场版，中文名和上映年度为1970-12-19，并关联主线《アタックNo.1》。\n\nhttps://anidb.net/anime/7644 (page): AniDB 7644 的主标题为 Attack No.1: Namida no Sekai Senshuken，官方日文标题相同，类型为 Movie，日期为19.12.1970，且记录为1集、55分钟；关联的主线是1969-1971年104集TV系列。\n\nhttps://www.tms-e.co.jp/alltitles/1970s/006303.html (page): TMS 官方资料确认该片原题为「アタックNo.1 涙の世界選手権」，1970年12月19日公开，片长51分钟，内容为世界青少年锦标赛及日本队对苏联队的故事。\n\nhttps://www.themoviedb.org/collection/786463-attack-no-1-collection (page): TMDB 的 Attack No. 1 Collection 列出同名电影 Attack No. 1 - World Championship of Tears（アタックNo.1 涙の世界選手権），日期为December 19, 1970；该集合成员链接解析为 https://www.themoviedb.org/movie/667830-no-1。\n\nhttps://www.themoviedb.org/tv/46348 (api_snapshot): 输入提供的 TMDB API 快照显示候选 TV 46348 是原版《アタックNo.1》TV系列，共104集，仅有season 1；/tv/46348/season/0 请求返回404，不能作为该剧场版的TV季证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/378808; https://anidb.net/anime/7644; https://www.tms-e.co.jp/alltitles/1970s/006303.html; https://www.themoviedb.org/collection/786463-attack-no-1-collection; https://www.themoviedb.org/tv/46348",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 667830,
+      "type": "movie"
+    }
+  ]
+}

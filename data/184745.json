@@ -1,0 +1,22 @@
+{
+  "anidbId": 12198,
+  "bangumiId": 184745,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《12歳。》第二季，首播 2016-10-03，共 12 集，集数对应 Bangumi sort 13–24。TMDB 65928 是同名 2016 年 TV 作品，且第 2 季首播日为 2016-10-03、共 12 集，因此应映射为完整 TMDB 第 2 季。Anime-Lists 将 AniDB 12198 指向 TMDB 第 1 季并设置 offset=12，这是跨季编号线索，不能据此把目标定为第 1 季；TMDB 自身季信息支持纠正为第 2 季。\n\nhttps://bgm.tv/subject/184745 (api_snapshot): Bangumi subject 名称为《12歳。～ちっちゃなムネのトキメキ～ セカンドシーズン》，首播 2016-10-03，共 12 集；其正篇集数为 sort 13–24。\n\nhttps://www.themoviedb.org/tv/65928 (api_snapshot): TMDB TV 65928 为同名作品，首播 2016-04-04，共 24 集；季列表显示第 1 季和第 2 季均为 12 集，第 2 季首播 2016-10-03。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 中 AniDB 12198（12-sai. Chicchana Mune no Tokimeki (2016)）指向 TMDB TV 65928 的 season 1，并带 episodeoffset/tmdboffset=12；这解释了候选季号与 TMDB 实际季号不一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/184745; https://www.themoviedb.org/tv/65928; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 65928,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

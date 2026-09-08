@@ -1,0 +1,24 @@
+{
+  "anidbId": 18205,
+  "bangumiId": 455626,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 455626 明确是 2025 年播出的第二期，共 13 话，章节编号为 14–26。TMDB 未将其单列为 season 2，而是把第一、二期合并为 season 1；TMDB season 1 的第 13 集于 2025-01-06 播出，标题为 Another Kudo Residence，对应 Bangumi 第 14 集，随后第 25 集于 2025-04-09 播出并对应 Bangumi 第 26 集。因此目标为 TMDB TV 196944 season 1 的第 13–25 集。TMDB 的 specials 不属于该 Bangumi subject。\n\nhttps://bgm.tv/subject/455626 (page): Bangumi subject 标题为 わたしの幸せな結婚 第二期，共 13 话，播出时间为 2025-01-06 至 2025-04-09，章节编号为 14–26；与第一期及特别篇分开关联。\n\nhttps://www.themoviedb.org/tv/196944/season/1 (page): TMDB season 1 共 25 集；第 12 集为 2023-09-20，第 13 集 Another Kudo Residence 于 2025-01-06 播出，第 25 集 Once Spring Has Come 于 2025-04-09 播出并标为季终。第 13–25 集的标题、日期和剧情均对应 Bangumi 第二期。\n\nhttps://www.themoviedb.org/tv/196944 (api_snapshot): TMDB 主条目原名为 わたしの幸せな結婚，共 25 集；season 1 名称为第一期～第二期，另有 season 0 特别编。输入 API 快照中的 /tv/196944/season/2 请求失败，不能据此推断不存在，但实际 season 1 完整剧集列表已确认第二期范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/455626; https://www.themoviedb.org/tv/196944/season/1; https://www.themoviedb.org/tv/196944",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 25,
+      "id": 196944,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

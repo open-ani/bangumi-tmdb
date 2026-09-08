@@ -1,0 +1,22 @@
+{
+  "anidbId": 11903,
+  "bangumiId": 167433,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2016 年 13 集 TV 动画《鬼斩》，放送时间为 2016-04-06 至 2016-06-29，且剧情、导演、系列构成、制作公司等信息与 TMDB 作品一致。TMDB 第1季明确有 13 集；其集标题从「鬼斬開幕」至「鬼斬閉幕」逐集与 Bangumi 的 13 个正篇标题对应，剧情简介也一致，因此应映射为 TMDB TV 66114 第1季完整季。TMDB 日期存在首播日相差一天及后续排期差异，但不足以推翻标题、剧情、集数和制作信息形成的版本对应。没有发现电影、OVA、总集篇、重剪版或其他主体内特典需要另列。\n\nhttps://bgm.tv/subject/167433 (page): Bangumi 条目为《鬼斩》TV，13 集，2016-04-06 开播、2016-06-29 结束；导演山本天志、系列构成鴻野貴光、动画制作 St.Signpost，并列出 01—13 全部正篇章节及作品剧情。\n\nhttps://www.themoviedb.org/tv/66114 (api_snapshot): TMDB API 快照显示作品名为「鬼斬」，日语、日本 TV 作品，2016 年，13 集；简介描述少女们在异国日本讨伐神喰，与 Bangumi 剧情一致，制作/版本不是电影或 OVA。\n\nhttps://www.themoviedb.org/tv/66114/season/1 (api_snapshot): TMDB API 快照明确为 season_number=1、episodeCount=13，且 episodesTruncated=false；第1—13集标题逐一对应 Bangumi 的「鬼斬開幕」「魍魎跋扈」至「鬼斬閉幕」，每集简介和 3 分钟短篇形式也相符。\n\nhttps://shikimori.io/animes/z32606-onigiri (page): 独立条目将 Onigiri 标为 TV Series、13 集、每集约 3 分钟，并列出 2016 年播出及第 13 集结束，进一步支持这是同一部短篇 TV 动画。\n\n备注：输入中的 AniDB ID 11903 与名称 Onigiri/鬼斩匹配，但 AniDB 详情页本次返回 403，无法从该页独立读取其作品类型和集数；因此 AniDB 仅作为候选线索，最终映射主要由 Bangumi 与 TMDB 的逐集、剧情和制作信息确认。；TMDB 快照中的首播日为 2016-04-07，且部分集日期与 Bangumi 的日本放送日期不同；这属于日期元数据差异，未影响 13 集标题和主体版本的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/167433; https://www.themoviedb.org/tv/66114; https://www.themoviedb.org/tv/66114/season/1; https://shikimori.io/animes/z32606-onigiri",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66114,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

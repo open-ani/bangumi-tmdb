@@ -1,0 +1,23 @@
+{
+  "anidbId": 2356,
+  "bangumiId": 112450,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 1983-07-09、8 分钟、1 话的《チョロQダグラム》，不是其母体 75 话 TV，也不是同日上映的《Document Taiyou no Kiba Dougram》。AniDB 2356 明确标为 Movie、1983-07-09、约 8 分钟，并与《太陽の牙ダグラム》建立母子关系。TMDB 8909 的第 0 季包含 3 个不同特别篇：第 1 集《チョロQダグラム》、第 2 集为 1987 年的《DOUGRAM vs ROUND-FACER》、第 3 集为 80 分钟总集篇《ドキュメント 太陽の牙ダグラム》。因此只应映射第 0 季第 1 集。\n\nhttps://bgm.tv/subject/112450 (page): 给定 Bangumi subject 数据显示标题为《チョロQダグラム》、日期为 1983-07-09、类型为 Movie、片长 8 分钟、话数 1，并关联 AniDB ID 2356。\n\nhttps://anidb.net/anime/2356 (page): AniDB 2356 明确显示 Choro Q Dougram，官方日文名为 チョロQダグラム，类型 Movie，日期 09.07.1983，运行时间约 8 分钟；其直接关联的母作是 1981-1983 年、75 话的 TV 系列。\n\nhttps://www.shochiku.co.jp/cinema/database/04140/ (page): 松竹官方作品数据库确认《チョロQダグラム》于 1983-07-09 公映，片长 8 分钟，制作方为日本サンライズ。\n\nhttps://www.themoviedb.org/tv/8909 (api_snapshot): TMDB API 快照显示 TV 8909 为《太陽の牙ダグラム》，首播年份为 1981，主体有 75 集；其 seasons 中 season 0 为 1983-07-09、3 集的特别编，season 1 为 75 集正篇。\n\nhttps://www.themoviedb.org/tv/8909/season/0 (api_snapshot): TMDB season 0 快照显示第 1 集名为《チョロQダグラム》，日期 1983-07-09、时长 8 分钟；第 2 集是 1987 年《DOUGRAM vs ROUND-FACER》，第 3 集是 80 分钟总集篇《ドキュメント 太陽の牙ダグラム》。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/112450; https://anidb.net/anime/2356; https://www.shochiku.co.jp/cinema/database/04140/; https://www.themoviedb.org/tv/8909; https://www.themoviedb.org/tv/8909/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 8909,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

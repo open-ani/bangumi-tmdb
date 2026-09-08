@@ -1,0 +1,22 @@
+{
+  "anidbId": 480,
+  "bangumiId": 39305,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 的标题、别名、2002-07-02 开播日期、制作信息及 14 集列表对应《G-on Riders／G-onらいだーす》。输入资料明确为 TVA 13 集加 1 集 OVA；TMDB 34764 第 1 季正好收录 14 集，第 1–13 集对应 2002 年电视播出，第 14 集日期为 2003-03-21，与《アンドロ白書》OVA 相符。因此应纳入完整第 1 季，不能遗漏 subject 内的第 14 集。\n\nhttps://www.themoviedb.org/tv/34764 (api_snapshot): TMDB API 快照显示作品名为 G-on らいだーす，首播日期 2002-07-02，共 14 集，包含 1 个季。\n\nhttps://www.themoviedb.org/tv/34764/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、共 14 集；第 1–13 集日期覆盖 2002-07-02 至 2002-10-01，第 14 集为 2003-03-21。\n\nhttps://animeguides.com/guides/gonriders.html (search_snippet): 搜索摘要将作品区分为 2002 年 TV 版 13 集和 2003 年 OAV 第 14 集，并列出 TNK、Studio Shaft 及导演 Shin'ichirô Kimura。\n\nhttps://www.imdb.com/title/tt0872175/episodes/?season=1 (search_snippet): 搜索摘要列出第 13 集为 2002-10-01、第 14 集 Andro White Paper 为 2003-03-21，与 TMDB 季快照逐集日期一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引的搜索摘要将 AniDB ID 480 映射为 G-on Riders，与输入的 Bangumi→AniDB 关联及作品别名一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/39305; https://www.themoviedb.org/tv/34764; https://www.themoviedb.org/tv/34764/season/1; https://animeguides.com/guides/gonriders.html; https://www.imdb.com/title/tt0872175/episodes/?season=1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34764,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 1908,
+  "bangumiId": 81585,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1992 年版《カリメロ》，共 52 话；AniDB 1908 同样确认其为 1992 年 TV 系列、52 集，并列出相同别名、播出时间及制作信息。TMDB 20959 快照实际对应 1974 年、90 集的旧系列，season 2 请求失败，因此候选 20959 不适用。TMDB 关联页面指向 TV ID 93504，并列出 1992 年版、1 季、52 话及对应剧集资料，故采用完整第 1 季。\n\nhttps://bgm.tv/subject/81585 (page): Bangumi 条目标注《カリメロ(1992)》、52 话，放送开始于 1992-10-15，结束于 1993-12-31，并说明这是 1974 年旧系列后的重制版。\n\nhttps://anidb.net/anime/1908 (page): AniDB 1908 明确为 Calimero (1992)，类型为 TV Series、52 episodes，播出时间为 1992-10-15 至 1993-12-31；别名包含 Shin Calimero、カリメロ (1992)，制作信息与 Bangumi 条目相符。\n\nhttps://movie.best-item.co.jp/tv/93504 (page): 该页面明确标注数据源为 TMDB，并链接到 TMDB TV ID 93504；页面资料为 1992-10-15 至 1993-12-31、1 季、52 话，并列出第 1 至第 6 集的日文标题和日期。\n\nhttps://www.themoviedb.org/tv/20959 (api_snapshot): 输入提供的 TMDB API 快照显示 ID 20959 的主体首播于 1974-10-15，共 90 集，只有 season 1，属于旧系列而非 Bangumi 的 1992 年版。\n\nhttps://www.themoviedb.org/tv/20959/season/2 (api_snapshot): 输入提供的 TMDB API 快照显示对 20959 season 2 的请求返回 HTTP 404；这不能证明 1992 年版不存在，但足以说明候选季不能直接采用。\n\n备注：TMDB 原页面本身在本次抓取中受限，ID 93504及其季集资料由明确标注 TMDB 数据源、且直接链接至该 TMDB ID 的页面提供；后续可用 TMDB API 直接复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/81585; https://anidb.net/anime/1908; https://movie.best-item.co.jp/tv/93504; https://www.themoviedb.org/tv/20959; https://www.themoviedb.org/tv/20959/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 93504,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

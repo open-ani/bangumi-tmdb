@@ -1,0 +1,29 @@
+{
+  "anidbId": 1214,
+  "bangumiId": 13607,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 2001 年开播、川越淳执导的电视动画《サイボーグ009 THE CYBORG SOLDIER》，对应 TMDB TV 69113。TMDB 将编号第1—48话完整收在第1季，却将正式编号第49—51话放在特别篇季第2—4集，因此主体需要两个 target。特别篇季第1集《黄泉の群像》是插在第47与48话之间的额外总集篇，不属于官方编号的51话正篇，故排除。\n\nhttps://www.themoviedb.org/tv/69113 (api_snapshot): TMDB API 快照显示 TV 69113 的原名为《サイボーグ009 THE CYBORG SOLDIER》，首播日期为2001-10-14；岛村ジョー从黑色幽灵团设施逃脱的剧情也与目标作品一致。\n\nhttps://www.themoviedb.org/tv/69113/season/1 (api_snapshot): TMDB API 快照确认第1季共有48集，集名从第1集《誕生》连续到第48集《地上より永遠に》，对应本作正式编号第1—48话。\n\nhttps://www.themoviedb.org/tv/69113/season/0 (api_snapshot): TMDB API 快照显示特别篇季第2—4集依次为《女神の陰謀》《光の羽音》《宇宙の産声》，正好对应本作正式编号第49—51话；同季第1集《黄泉の群像》则是地下帝国篇总集篇。\n\nhttps://ishimoripro.com/cyborg009/ (page): 石森プロ官方作品页将《サイボーグ009 THE CYBORG SOLDIER》明确列为2001年电视动画、全51话，并与1968年版、1979年版及后续电影分别列示。\n\nhttps://ishimoripro.com/2024/10/13/2001%E5%B9%B4tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0009-the-cyborg-soldier%E3%80%8D%E5%85%A8%E8%A9%B1%E3%80%81youtube%E3%81%A7%E9%85%8D%E4%BF%A1%EF%BC%81/ (page): 石森プロ官方配信公告明确把该2001年电视系列按第1—51话发布，日程中单列第46—48话和第49—51话；导演川越淳、音乐小室哲哉等资料也与 Bangumi 条目一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/13607; https://www.themoviedb.org/tv/69113; https://www.themoviedb.org/tv/69113/season/1; https://www.themoviedb.org/tv/69113/season/0; https://ishimoripro.com/cyborg009/; https://ishimoripro.com/2024/10/13/2001%E5%B9%B4tv%E3%82%A2%E3%83%8B%E3%83%A1%E3%80%8C%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0009-the-cyborg-soldier%E3%80%8D%E5%85%A8%E8%A9%B1%E3%80%81youtube%E3%81%A7%E9%85%8D%E4%BF%A1%EF%BC%81/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69113,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 4,
+      "id": 69113,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 11886,
+  "bangumiId": 166121,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2016-04-23 开播、共 47 集的 TV《カミワザ・ワンダ》，制作人员、剧情和播出结束日均与官方资料一致。AniDB 11886 对应同名《Kamiwaza Wanda》；TMDB 128862 的首播日、日文标题和 47 集总数一致，第 1 季明确为 47 集，因此对应完整第 1 季，无需拆分集数。\n\nhttps://bgm.tv/subject/166121 (page): Bangumi 标明该主体为 TV《カミワザ・ワンダ》，47 集，2016-04-23 开播、2017-03-25 结束；列出的剧情、导演、系列构成、角色设定和 TMS 动画制作与该版本一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 ID 11886 对应为 Kamiwaza Wanda。\n\nhttps://www.tbs.co.jp/anime/kamiwaza_wanda/cast_staff/ (search_snippet): TBS 官方资料列出《カミワザ・ワンダ》的导演、系列构成、角色设计和 TMS Entertainment 动画制作。\n\nhttps://www.tbs.co.jp/kamiwaza_wanda/ (search_snippet): TBS 官方门户显示第 47 话于 2017-03-25 播出，确认该 TV 主体的末集和播出时间线。\n\nhttps://www.themoviedb.org/tv/128862 (api_snapshot): TMDB API 快照显示 TV 128862 为《カミワザ・ワンダ》，首播日 2016-04-23，共 47 集。\n\nhttps://www.themoviedb.org/tv/128862/season/1 (api_snapshot): TMDB API 快照明确显示第 1 季，首播日 2016-04-23，共 47 集，集号覆盖 1–47。\n\n备注：TMDB 快照中的剧情简介为空，剧集标题为通用“第X话”，因此未能进行逐集标题级剧情比对；但季号、首播日和完整集数均有直接季级数据支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/166121; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.tbs.co.jp/anime/kamiwaza_wanda/cast_staff/; https://www.tbs.co.jp/kamiwaza_wanda/; https://www.themoviedb.org/tv/128862; https://www.themoviedb.org/tv/128862/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 128862,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

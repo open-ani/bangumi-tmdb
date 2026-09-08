@@ -1,0 +1,24 @@
+{
+  "anidbId": 17958,
+  "bangumiId": 426531,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将本条目标为 TV、12 话，2023-07-03 开播，别名含 Malevolent Spirits: Mononogatari Season2；其章节为总编号 13–24，且制作、剧情与《もののがたり》系列一致。TMDB 将第一章和第二章合并为同一 TV 条目的第 1 季共 24 集；TMDB 第 1 季的第 13–24 集标题、日期和剧情对应第二章。因此应映射为 TMDB 138948 第 1 季第 13–24 集，而不是不存在或未确认的第 2 季。\n\nhttps://bgm.tv/subject/426531 (page): Bangumi 页面确认标题为「もののがたり 第二章」、类型为 TV、12 话、2023-07-03 开播，别名含 Mononogatari (2023)、Malevolent Spirits: Mononogatari Season2；章节列表为 13–24，制作公司为 BN Pictures。\n\nhttps://www.themoviedb.org/tv/138948/season/1/episode/7?language=en-US (search_snippet): TMDB 第 1 季页面显示共 24 集；第 13–24 集分别对应第二章的 Entrance、Duet、Specter、Draconic、Moonset、Vow、Turbulence、Unseasonal、Advent、Dance、Sparks、Fluttering，播出时间集中在 2023 年 7–9 月。\n\nhttps://www.themoviedb.org/tv/138948 (api_snapshot): 所附 TMDB API 快照确认 TV ID 138948、日文标题「もののがたり」、首播日期 2023-01-10、总集数 24，并且 seasons 仅列出 season 1、24 集。\n\nhttps://www.themoviedb.org/tv/138948/season/2 (api_snapshot): 所附 TMDB API 快照中对第 2 季的请求返回 HTTP 404；该失败未被单独当作不存在，而是与 TMDB 第 1 季实际包含第 13–24 集的页面共同判断。\n\nhttps://www.reddit.com/r/ThePosterDB/comments/14st2ss (search_snippet): 搜索摘要明确指出 AniDB 条目 17958 是该作品的 Season 2，并指出 TMDB 将两部分合并在一个季中；与输入提供的 BangumiExtLinker AniDB ID 17958 及标题别名相互印证。\n\n备注：TMDB 页面日期比 Bangumi 日本播出日期显示晚一天，属于日期显示时区或元数据差异，不影响第 13–24 集范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/426531; https://www.themoviedb.org/tv/138948/season/1/episode/7?language=en-US; https://www.themoviedb.org/tv/138948; https://www.themoviedb.org/tv/138948/season/2; https://www.reddit.com/r/ThePosterDB/comments/14st2ss",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 138948,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

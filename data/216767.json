@@ -1,0 +1,22 @@
+{
+  "anidbId": 13219,
+  "bangumiId": 216767,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《闇芝居》第5期 TV，13话，放送期为2017-07-02至2017-10-01；章节页列出的13个标题、日期和主体均与东京电视台官方第5期页面一致。TMDB TV 56559 的第5季明确为13集，季日期为2017年，13集日期连续对应该期（TMDB日期整体比日本播出日期晚一天），因此应映射为完整第5季，无需缩小集数范围。\n\nhttps://bgm.tv/subject/216767 (page): Bangumi 将条目标为《闇芝居 第5期》TV，13话，2017年7月2日开始、10月1日结束，制作/播放信息与第5期相符。\n\nhttps://bgm.tv/subject/216767/ep (page): Bangumi 章节页列出主体第1至第13话，标题从「間違い電話」至「妖婦」，日期为2017-07-02至2017-10-01。\n\nhttps://www.tv-tokyo.co.jp/anime/yamishibai5/densetsu/ (page): 东京电视台官方页面列出第5期第1至第13话及剧情、日期；第1话为2017-07-02，第13话为2017-10-01，标题与Bangumi章节一致。\n\nhttps://www.themoviedb.org/tv/56559 (api_snapshot): TMDB TV 56559《闇芝居》包含第5季，season_number为5，air_date为2017-07-03，episode_count为13。\n\nhttps://www.themoviedb.org/tv/56559/season/5 (api_snapshot): TMDB第5季快照明确为13集，episode_number为1至13，日期连续覆盖2017-07-03至2017-10-02，与该期13个主体剧集对应。\n\n备注：TMDB记录的播出日期相对日本官方日期整体晚一天，但不影响季号、版本或13集范围的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/216767; https://bgm.tv/subject/216767/ep; https://www.tv-tokyo.co.jp/anime/yamishibai5/densetsu/; https://www.themoviedb.org/tv/56559; https://www.themoviedb.org/tv/56559/season/5",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 56559,
+      "season": 5,
+      "type": "tv"
+    }
+  ]
+}

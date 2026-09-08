@@ -1,0 +1,27 @@
+{
+  "anidbId": 10069,
+  "bangumiId": 89485,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2014-04-06 至 2014-06-29 播出的 13 集 TV，制作公司为 ARMS；章节列表另含主体内特别篇 11.5。TMDB 60805 的名称、首播日期、剧情、制作与 13 集主季完全对应，Season 1 的 13 个标题和日期逐集吻合。TMDB 还列出 Season 0 的 1 集特别篇，日期为 2014-09-24；AniDB 公开摘要将 Kara Sawagi 确认为未播出的第 11.5 集并关联该 TV，因此应同时映射 Season 0。\n\nhttps://bgm.tv/subject/89485 (page): Bangumi 条目为《極黒のブリュンヒルデ》TV，13 话，放送日期 2014-04-06 至 2014-06-29，动画制作 ARMS；章节列表含 01–13、SP 和 11.5。\n\nhttps://www.themoviedb.org/tv/60805 (api_snapshot): TMDB TV 60805 名称为「極黒のブリュンヒルデ」，首播日期 2014-04-06，主剧集数 13；Season 0 为 1 集、日期 2014-09-24，Season 1 为 13 集、日期 2014-04-06。\n\nhttps://www.themoviedb.org/tv/60805/season/1 (api_snapshot): TMDB Season 1 的第 1–13 集标题、播出日期与 Bangumi 章节逐集对应，范围应为完整 Season 1。\n\nhttps://anidb.app/anime/brynhildr-in-the-darkness-special-779 (search_snippet): AniDB 摘要确认《Brynhildr in the Darkness Special》为 2014-09-24 的特别篇，别名为 Gokukoku no Brynhildr: Kara Sawagi，内容说明为未播出的第 11.5 集，并与该 TV 关联。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/89485; https://www.themoviedb.org/tv/60805; https://www.themoviedb.org/tv/60805/season/1; https://anidb.app/anime/brynhildr-in-the-darkness-special-779",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 60805,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 60805,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

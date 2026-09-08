@@ -1,0 +1,22 @@
+{
+  "anidbId": 8719,
+  "bangumiId": 24508,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2012-04-09 开播、12 集的 TV 版，制作人员与剧情对应 XEBEC 制作的《這いよれ！ニャル子さん》。TMDB 45254 的主条目同名、首播日相同，且第1季明确为 12 集；季内 1—12 集标题、播出日期和剧情均与 Bangumi 及东京电视台官方剧集页逐集对应。因此纳入 TMDB TV 45254 第1季完整一季。Bangumi 的 SP、续作 W、OVA 和不同演绎均不属于本 subject 主体。\n\nhttps://bgm.tv/subject/24508 (page): Bangumi 将条目标为 TV，话数 12，放送开始 2012-04-09、结束 2012-06-25，并列出 XEBEC、导演長澤剛及对应制作信息；章节为 01—12，另有独立 SP。\n\nhttps://www.tv-tokyo.co.jp/anime/nyaruko/episodes/episodes01/ (page): 东京电视台官方页面逐集列出第1—12话；第1话为 2012-04-09，第12话为 2012-06-25，标题和剧情与输入的 Bangumi 集数一致。\n\nhttps://www.themoviedb.org/tv/45254 (api_snapshot): TMDB TV 45254 名称为「這いよれ！ニャル子さん」，原名相同，首播日为 2012-04-09；第1季名称相同且 episode_count 为 12，另有独立的第2季 W。\n\nhttps://www.themoviedb.org/tv/45254/season/1 (api_snapshot): TMDB 第1季 season_number=1，episodeCount=12，完整剧集列表为第1—12集；各集标题与官方页面逐集对应，日期范围为 2012-04-09 至 2012-06-25。\n\nhttps://github.com/Rhilip/BangumiExtLinker (page): BangumiExtLinker 说明其数据用于将 Bangumi 条目与 AniDB、TMDB 等信息站关联，并明确不同信息站可能拆分同一作品；这支持将 AniDB/TMDB 结果作为交叉核对线索，而非单独决定范围。\n\n备注：AniDB 8719 的页面本次无法读取，未能直接引用 AniDB 条目内容；但 Bangumi 条目资料、官方逐集页面及 TMDB 第1季的同名、日期、剧情和完整集标题已形成独立版本核验。；TMDB 快照中第10集日期为 2012-06-12，而东京电视台官方页为 2012-06-11；标题和剧情完全对应，且不影响季号或完整 1—12 集范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/24508; https://www.tv-tokyo.co.jp/anime/nyaruko/episodes/episodes01/; https://www.themoviedb.org/tv/45254; https://www.themoviedb.org/tv/45254/season/1; https://github.com/Rhilip/BangumiExtLinker",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45254,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

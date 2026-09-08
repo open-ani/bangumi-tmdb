@@ -1,0 +1,24 @@
+{
+  "anidbId": 15429,
+  "bangumiId": 303880,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是电视动画《おしりたんてい》在2020年播出的第4系列，共13话，并非电影或独立重制版。官方故事页沿用全系列连续编号；第三方节目资料也明确将第4期13话对应为总第40—52话。TMDB TV 96117 正是同名日本动画，并把全部正篇集中编入 season 1；其 S1E40—S1E52 的标题、日期和剧情与该 subject 逐话吻合。因此应映射到 TV 96117 第1季第40—52集，而不是不存在的 TMDB season 4。\n\nhttps://www.themoviedb.org/tv/96117 (api_snapshot): TMDB API 快照确认 TV 96117 名称及原名均为《おしりたんてい》，原始语言为日语、首播日期为2018年5月3日，并且季列表仅有 season 1。\n\nhttps://www.themoviedb.org/tv/96117/season/1 (api_snapshot): TMDB API 快照显示 season 1 的第40—52集从2020年4月4日至6月27日播出；13集标题与 Bangumi subject 303880 的13话完整逐一对应。\n\nhttps://oshiri-tantei.com/story/story40.html (page): 动画官方网站将本期首篇《ププッ ゆきやまのしろいかいぶつ！？ 前編》明确标为全系列第40话，剧情也与 TMDB S1E40 快照一致。\n\nhttps://oshiri-tantei.com/story/story52.html (page): 动画官方网站将本期末篇《ププッ おおぺらざのかいとう》明确标为全系列第52话，剧情也与 TMDB S1E52 快照一致。\n\nhttps://www.tvguide.or.jp/db/anime/oshiri_tantei/season4/ (page): TV Guide 的第4期资料列出2020年春播出的13话，并明确对应全系列第40—52话，首尾标题与 Bangumi 记录一致。\n\nhttps://www.themoviedb.org/tv/96117/season/4 (api_snapshot): 所给 TMDB API 快照请求 TV 96117 的 season 4 时返回 HTTP 404，表明日方所称“第4系列”不是 TMDB 的第4季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/303880; https://www.themoviedb.org/tv/96117; https://www.themoviedb.org/tv/96117/season/1; https://oshiri-tantei.com/story/story40.html; https://oshiri-tantei.com/story/story52.html; https://www.tvguide.or.jp/db/anime/oshiri_tantei/season4/; https://www.themoviedb.org/tv/96117/season/4",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 40,
+      "episodeEnd": 52,
+      "id": 96117,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

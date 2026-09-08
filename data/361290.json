@@ -1,0 +1,24 @@
+{
+  "anidbId": 17027,
+  "bangumiId": 361290,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《メガトン級ムサシ》第二季，共15话，正篇编号为14–28。官方动画网站逐条将第14–28话标为“シーズン2”，与 Bangumi 的集数、标题和播出时间一致。TMDB 129553 是同一系列，主条目记录总共28集且唯一正片季为 season 1（28集）；其 season 2 请求失败，因此应映射到 TMDB season 1 的第14–28集，而不是采用候选的 season 2。\n\nhttps://bgm.tv/subject/361290 (page): Bangumi 条目标为《メガトン級ムサシ シーズン2》，共15话，章节编号为14–28，并记录2022-10-07至2023-03-17播出。\n\nhttps://www.megaton-musashi.jp/portal/anime/episode/ (search_snippet): 官方页面逐条列出“シーズン2”第14话至第28话，标题与 Bangumi 集数对应。\n\nhttps://www.megaton-musashi.jp/portal/topics/preview2/ (search_snippet): 官方资料说明《シーズン2》从第14话、第15话开始，并明确其为电视动画第二季。\n\nhttps://www.themoviedb.org/tv/129553 (api_snapshot): TMDB API 快照显示作品名为《メガトン級ムサシ》，首播日2021-10-01，总集数28；季列表包含 season 0 和 season 1，其中 season 1 为28集。\n\nhttps://www.themoviedb.org/tv/129553/season/2 (api_snapshot): TMDB API 快照中的 season 2 请求返回 HTTP 404；该失败本身未被当作不存在，而是结合主条目明确的 season 1=28集信息判断映射。\n\n备注：提供的 TMDB 快照未包含 season 1 的逐集标题和日期，因此未能逐集对照 TMDB 元数据；范围由官方第二季集数编号14–28与 TMDB season 1共28集共同支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/361290; https://www.megaton-musashi.jp/portal/anime/episode/; https://www.megaton-musashi.jp/portal/topics/preview2/; https://www.themoviedb.org/tv/129553; https://www.themoviedb.org/tv/129553/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 28,
+      "id": 129553,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

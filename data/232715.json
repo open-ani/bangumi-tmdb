@@ -1,0 +1,29 @@
+{
+  "anidbId": 12484,
+  "bangumiId": 232715,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 232715 是由三卷正篇组成的重制动画项目，TMDB 将三卷分别表示为电影，因此需同时映射三个 movie：747979 对应第1卷《手塚 VS 跡部》；1075164 对应第2卷《乾・海堂 vs 宍戸・鳳／大石・菊丸 vs 仁王・柳生》；747977 对应第3卷《不二 VS 切原》。第2卷虽然包含两场比赛，但属于同一部约45分钟的电影条目。未采用 TMDB 900058：其主标题写成《不二 vs 切原》，但别名和韩国上映资料却指向双打特别篇，版本语义冲突，不如上述三个条目直接明确。\n\nhttps://www.themoviedb.org/movie/747979 (api_snapshot): TMDB API 快照显示 movie 747979 的原名为《テニスの王子様 BEST GAMES!! 手塚 VS 跡部》，日本作品，发行日期2018-08-24，片长45分钟，与第1卷一致。\n\nhttps://www.shochiku.co.jp/cinema/database/04930/ (page): 松竹作品资料确认《手塚 vs 跡部》为 BEST GAMES 第1战，是将既有名比赛重新动画化的作品；日本公开日为2018-08-24，片长46分钟。\n\nhttps://www.themoviedb.org/movie/1075164 (search_snippet): 精确对应第2卷的电影资料所附 TMDB 链接解析为 movie 1075164。\n\nhttps://letterboxd.com/film/the-prince-of-tennis-best-games-inui-kaido/ (page): 该电影页完整列出第2卷原名《乾・海堂 vs 宍戸・鳳／大石・菊丸 vs 仁王・柳生》、日本上映日2019-04-05、片长45分钟及导演川口敬一郎，并链接到 TMDB 1075164。\n\nhttps://www.shochiku.co.jp/entertainment/goods/cinema-pamphlet/20190405_01/ (page): 松竹将《乾・海堂 vs 宍戸・鳳／大石・菊丸 vs 仁王・柳生》明确称为 BEST GAMES 第2弹，证明两场双打共同组成第2卷正篇。\n\nhttps://www.themoviedb.org/movie/747977 (api_snapshot): TMDB API 快照显示 movie 747977 的原名为《テニスの王子様 BEST GAMES!! 不二 VS 切原》，日本动画电影，片长45分钟，与第3卷标题和媒介一致。\n\nhttps://www.shochiku.co.jp/cinema/database/04967/ (search_snippet): 松竹作品资料确认《不二vs切原》于2019-11-15公开，片长42分钟，由川口敬一郎执导，M.S.C与手塚Production制作。\n\nhttps://www.youtube.com/watch?v=CYIFKocHh6Y (search_snippet): 官方影碟告知资料明确说明：继第1弹《手塚 vs 跡部》和第2弹两场双打之后，第3弹是关东大会决赛《不二 vs 切原》，验证三部电影共同覆盖该 Bangumi subject。\n\n备注：TMDB 747977 快照中的发行日期为2019-09-09，与松竹确认的日本公开日2019-11-15不一致；这是 TMDB 日期元数据偏差，但其原名、片长和作品版本仍明确指向第3卷。；TMDB 900058 的标题与别名/韩国发行资料相互冲突，疑似重复或错名条目，故不推荐。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/232715; https://www.themoviedb.org/movie/747979; https://www.shochiku.co.jp/cinema/database/04930/; https://www.themoviedb.org/movie/1075164; https://letterboxd.com/film/the-prince-of-tennis-best-games-inui-kaido/; https://www.shochiku.co.jp/entertainment/goods/cinema-pamphlet/20190405_01/; https://www.themoviedb.org/movie/747977; https://www.shochiku.co.jp/cinema/database/04967/; https://www.youtube.com/watch?v=CYIFKocHh6Y",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 747979,
+      "type": "movie"
+    },
+    {
+      "id": 1075164,
+      "type": "movie"
+    },
+    {
+      "id": 747977,
+      "type": "movie"
+    }
+  ]
+}

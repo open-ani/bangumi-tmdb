@@ -1,0 +1,22 @@
+{
+  "anidbId": 167,
+  "bangumiId": 3390,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 3390 明确是1992—1994年发售的旧OVA，共6话，名称、日期、OVA类型、制作人员和剧情均与TMDB 74957一致。TMDB 74957收录为1季、6集，因此应映射完整第1季。候选TMDB 29152实际是1998年TV版，12集，属于不同版本，不应采用。\n\nhttps://bgm.tv/subject/3390 (page): Bangumi将该条目标为OVA，发售日期为1992-10-21至1994-05-25，共6话，并标注“万能文化猫娘・旧OVA”。\n\nhttps://www.themoviedb.org/tv/74957 (search_snippet): TMDB条目74957对应1992年版《万能文化猫娘》，与旧OVA版本的名称和年份相符。\n\nhttps://jephmann.com/movies/tv.php?id=74957 (search_snippet): 该页面标注其数据来源为TMDB，并显示TMDB 74957为1992—1994年、1季、6集；简介及制作人员与旧OVA相符。\n\nhttps://www.themoviedb.org/tv/29152 (api_snapshot): 输入提供的TMDB API快照显示29152首播于1998-01-07，共12集，简介和季名明确为1998年TV版。\n\nhttps://www.themoviedb.org/tv/29152/season/1 (api_snapshot): 输入提供的TMDB API快照显示29152第1季为“万能文化猫娘・TV版”，包含1998-01-07至1998-03-25的12集，非1992年旧OVA。\n\n备注：未能直接读取AniDB 167页面本身；但Bangumi页面的OVA类型、6话、1992—1994日期及旧OVA别名，与该关联和TMDB 74957的版本信息一致。；TMDB 74957的公开页面搜索结果未提供逐集标题和日期；由于该季明确完整收录6集，范围采用整季而非推导部分集数。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3390; https://www.themoviedb.org/tv/74957; https://jephmann.com/movies/tv.php?id=74957; https://www.themoviedb.org/tv/29152; https://www.themoviedb.org/tv/29152/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 74957,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

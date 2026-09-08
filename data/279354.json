@@ -1,0 +1,22 @@
+{
+  "anidbId": 5894,
+  "bangumiId": 279354,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2008-08-29 起发售、共 4 集的《コブラ ザ・サイコガン》OVA，AniDB ID 5894 的标题也对应 Cobra The Animation: The Psychogun。TMDB 126273 明确对应同名 2008 年 OVA，标注为 Season 1、共 4 集，剧情、角色阵容和 OVA 类型均一致，因此应纳入完整第 1 季。候选 TMDB 35460 是 2010 年、13 集的电视系列，不是本 Bangumi subject。\n\nhttps://bgm.tv/subject/279354 (page): 输入的 Bangumi 条目数据表明该条目为《コブラ ザ・サイコガン》，发售日 2008-08-29，共 4 集，并关联 AniDB ID 5894。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将 AniDB ID 5894 标为 Cobra The Animation: The Psychogun。\n\nhttps://www.themoviedb.org/tv/126273-cobra-the-animation?language=en-US (page): TMDB 126273 的标题为 Cobra The Animation: The Psycho-Gun，年份为 2008；页面说明其剧情围绕 Cobra、Utopia More 与 Pirate Guild 展开，关键词含 original video animation (ova)，并明确显示 Season 1 为 4 Episodes。\n\nhttps://www.imdb.com/title/tt16360606/episodes/ (search_snippet): 该 OVA 的 4 集标题和日期为 The Psychogun Part 1（2008-08-29）、Part 2（2008-10-24）、Part 3（2008-12-21）、Part 4（2009-02-27），与 Bangumi 的起止日期及四集主体一致。\n\nhttps://www.themoviedb.org/tv/35460 (api_snapshot): 候选 TMDB 35460 的快照显示为 COBRA THE ANIMATION，首播 2010-01-02，共 13 集，只有 season 1；与 2008 年四集 Psychogun OVA 不同。\n\nhttps://www.themoviedb.org/tv/35460/season/0 (api_snapshot): 候选 season 0 请求返回 HTTP 404；该失败不能证明 season 0 不存在，但候选本身的年份和 13 集信息已足以表明它不是本条目的 2008 年四集 OVA。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/279354; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/126273-cobra-the-animation?language=en-US; https://www.imdb.com/title/tt16360606/episodes/; https://www.themoviedb.org/tv/35460; https://www.themoviedb.org/tv/35460/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 126273,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 1459,
+  "bangumiId": 37290,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是1984年10月5日开播、共25集的 TV 动画；官方 Sunrise 资料确认同一标题、日期、25集、剧情与制作人员，并将1986年的3集OVA明确列为相关独立作品。TMDB 90414 的主条目首播日、剧情和25集数吻合；其第1季完整列出与本主体对应的25个日文集标题，episodesTruncated=false。因此应映射为 TMDB TV 90414 第1季完整范围。TMDB 主条目的第0季“特別編”不纳入，因为它对应独立OVA而非 Bangumi subject 37290 主体。\n\nhttps://bgm.tv/subject/37290 (page): 输入所附 Bangumi 条目元数据显示主体为 TV、25集、1984-10-05开播，并与独立的“機甲界ガリアン OVA”条目75876关联。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=47 (page): Sunrise 官方资料确认《機甲界ガリアン》于1984-10-05至1985-03-29播出，共25话；剧情、工作人员及第1至25话标题与输入主体吻合，并将Part I/II/III列为1986年独立OVA。\n\nhttps://www.battling.jp/galient/info.htm (page): 作品资料确认这是日本电视台播出的25话电视系列，列出完整第1至25话标题和制作人员；同时记录1985-01-04停播，因此1月11日播出第14话，解释了TMDB自第14话起日期提前一周的差异。\n\nhttps://www.themoviedb.org/tv/90414 (api_snapshot): TMDB API快照显示条目名为“機甲界 ガリアン”，首播日1984-10-05，剧情为乔乔寻找铁巨人加利安并对抗马达尔，number_of_episodes为25；季列表显示第1季25集及另有第0季3集特別編。\n\nhttps://www.themoviedb.org/tv/90414/season/1 (api_snapshot): TMDB API快照显示第1季首播日1984-10-05、episodeCount=25、episodesTruncated=false；完整集列表的标题与输入 Bangumi 第1至25集逐一对应。\n\n备注：TMDB 第1至25集的部分 air_date 比官方实际播出日期早一周，但官方资料显示1985-01-04停播，这属于日期记录差异，不影响标题、剧情、制作和25集主体的版本对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/37290; https://www.sunrise-inc.co.jp/work/detail.php?cid=47; https://www.battling.jp/galient/info.htm; https://www.themoviedb.org/tv/90414; https://www.themoviedb.org/tv/90414/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 90414,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

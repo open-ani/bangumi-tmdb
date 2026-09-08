@@ -1,0 +1,22 @@
+{
+  "anidbId": 18894,
+  "bangumiId": 516227,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体是 2025 年 4 月 7 日开播、共 12 话的 TV 动画。TMDB TV 275623 的日文标题、首播日期、剧情设定和总集数均一致；其 season 1 快照完整且未截断，12 个剧集的标题与日期逐一对应 Bangumi 第 1–12 话（包括第 10 话的双标题）。因此应对应 TMDB TV 275623 的完整第 1 季，不需要缩小集数范围。TMDB 的 season 0“特别编”没有被纳入，因为主体的 12 话正篇已由 season 1 完整覆盖。\n\nhttps://bgm.tv/subject/516227 (page): Bangumi 将该条目标为 TV，记录 12 话、2025 年 4 月 7 日开播，并显示与输入一致的日文标题、剧情和制作人员。\n\nhttps://www.themoviedb.org/tv/275623 (api_snapshot): TMDB 条目 275623 的日文标题与 Bangumi 一致，首播日期为 2025-04-07，共 12 集；简介中的人物、时代和校园怪异设定也一致。\n\nhttps://www.themoviedb.org/tv/275623/season/1 (api_snapshot): TMDB 第 1 季为 12 集，首播日期为 2025-04-07，episodesTruncated=false；完整剧集标题和日期与 Bangumi 第 1–12 话逐一匹配。\n\nhttps://www.tv-tokyo.co.jp/anime/chuzenji-anime/ (page): 东京电视台官方页面确认同名 TV 动画及其制作委员会版权信息。\n\n备注：AniDB 页面本身的直接请求返回错误，未能从 AniDB 页面独立读取 ID 18894；但 Bangumi 页面与 TMDB 条目的标题、类型、日期、剧情及完整 12 集列表均已独立对应。；TMDB TV 摘要列出 season 0“特别编”且显示 12 集，但输入未提供其剧集明细，无法将其视为本主体正篇；season 1 已完整覆盖 Bangumi 的 12 话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/516227; https://www.themoviedb.org/tv/275623; https://www.themoviedb.org/tv/275623/season/1; https://www.tv-tokyo.co.jp/anime/chuzenji-anime/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 275623,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

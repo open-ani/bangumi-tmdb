@@ -1,0 +1,22 @@
+{
+  "anidbId": 19029,
+  "bangumiId": 526979,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 TV 动画，共12集，标题、简介、角色和制作信息与 TMDB TV 280049 的主体完全对应。TMDB 明确将其拆为第1季和第2季各12集；第1季完整12集的标题、剧情顺序与 Bangumi 逐集一致，因此应映射为第1季完整季。Bangumi 显示首播为2026-01-09，TMDB 为2026-01-10，属于日期记录差异，不影响作品和季的对应。\n\nhttps://bgm.tv/subject/526979 (page): Bangumi 条目标为 TV，共12话，放送时间为2026年1月9日至3月27日；标题、简介、导演、人物设定、动画制作等信息与候选作品一致。\n\nhttps://bgm.tv/subject/526979/relations (page): Bangumi 将“2nd Season”作为独立续集条目关联，说明本 subject 对应首季而非第二季。\n\nhttps://www.themoviedb.org/tv/280049 (api_snapshot): TMDB TV 280049 的日文原名对应本作，总集数24；第1季和第2季均为12集。\n\nhttps://www.themoviedb.org/tv/280049/season/1 (api_snapshot): TMDB 第1季完整列出12集，集名、剧情和顺序与 Bangumi 的12个正篇逐集对应。\n\n备注：Bangumi 页面关联的 AniDB 19029 页面本次访问返回403，未能直接读取其页面内容；但不影响基于 Bangumi 本体与 TMDB 完整季/集信息作出的直接匹配。；Bangumi 与 TMDB 的集播日期整体相差一天，具体时区或播出日记录规则未在已读证据中说明。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/526979; https://bgm.tv/subject/526979/relations; https://www.themoviedb.org/tv/280049; https://www.themoviedb.org/tv/280049/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 280049,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

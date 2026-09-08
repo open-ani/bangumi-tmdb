@@ -1,0 +1,22 @@
+{
+  "anidbId": 7443,
+  "bangumiId": 10462,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 10462 明确是 2012 年播出的《モーレツ宇宙海賊》TV 动画，共 26 话；其关联的 AniDB 7443 也是同名、同为 TV Series、26 集、2012 年作品，并具有一致的导演、原作和制作公司信息。TMDB 42501 的主条目与第 1 季均显示同名作品、2012 年、26 集；提供的完整季快照中，1—26 集标题与 Bangumi 章节逐一对应。因此主体应映射为 TMDB TV 42501 第 1 季完整范围。Bangumi 另列的《ABYSS OF HYPERSPACE》是续集电影，不属于本 subject；没有证据表明本 subject 是电影、OVA、总集篇或重剪版。TMDB 与 Bangumi 的日期存在约一天差异，符合播出日期记录口径差异，未改变标题、剧情、集数和制作信息的一致性。\n\nhttps://bgm.tv/subject/10462 (page): Bangumi 将该条目标为 TV，中文名为《暴力宇宙海贼》，共 26 话，放送开始于 2012-01-07；章节为 1—26，关联条目中的 ABYSS OF HYPERSPACE 被标为续集。\n\nhttps://anidb.net/anime/7443 (page): AniDB 7443 的主标题为 Mouretsu Pirates，官方英文名 Bodacious Space Pirates，类型为 TV Series、26 episodes，年份为 2012-01-08 至 2012-07-01；原作、导演、系列构成、角色设定和 Satelight 制作信息与 Bangumi 一致。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (search_snippet): BangumiExtLinker 数据中明确记录 bgm_id 10462、名称 モーレツ宇宙海賊、anidb_id 7443，核实了候选 AniDB 关联。\n\nhttps://www.themoviedb.org/tv/42501 (api_snapshot): 所附 TMDB API 快照显示 TV 42501 名称及原名均为 モーレツ宇宙海賊，首播日期为 2012-01-08，简介讲述茉莉香继承弁天丸船长并成为宇宙海贼，全集数为 26，唯一列出的季为第 1 季且有 26 集。\n\nhttps://www.themoviedb.org/tv/42501/season/1 (api_snapshot): 所附 TMDB 第 1 季 API 快照显示 season_number=1、episodeCount=26、episodesTruncated=false；第 1—26 集标题与 Bangumi 提供的 26 个章节标题逐一对应，剧情简介也对应同一 TV 作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10462; https://anidb.net/anime/7443; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://www.themoviedb.org/tv/42501; https://www.themoviedb.org/tv/42501/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42501,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

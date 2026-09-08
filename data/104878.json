@@ -1,0 +1,22 @@
+{
+  "anidbId": 10727,
+  "bangumiId": 104878,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将本条目标为2014年10月6日开始、60话的 TV 动画；官方发行资料确认同名短篇系列、2014年制作及相同剧情/制作信息。TMDB TV 76645 同名、首播日期相同，共60集；第1季完整剧集标题覆盖 Bangumi 的60个章节，包括其中的回顾篇，因此应映射整季。TMDB 个别回顾篇的内部编号和日期与 Bangumi 播出顺序不同，但不影响整季范围判断。\n\nhttps://bangumi.tv/subject/104878 (page): Bangumi 页面标为 TV，话数60，放送开始2014年10月6日、结束2014年12月26日，并列出01至60章及制作信息。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=11517001&workId=11517 (page): 官方发行平台确认《愛・天地無用！》的剧情为天地进入女子高中实习、2014年制作，动画制作公司为 AIC PLUS+，并列出前六话标题。\n\nhttps://raw.githubusercontent.com/adminy/anidb_titles_parser/master/title.json (page): AniDB 标题数据将 AniDB ID 10727 对应为 Ai Tenchi Muyou!，与 Bangumi 提供的关联及作品名称一致。\n\nhttps://www.themoviedb.org/tv/76645 (api_snapshot): TMDB TV 快照显示作品名为《愛・天地無用！》，原名相同，首播日期2014-10-06，总集数60，剧情为天地进入女子高中实习。\n\nhttps://www.themoviedb.org/tv/76645/season/1 (api_snapshot): TMDB 第1季快照显示 season_number=1、episodeCount=60，并提供完整60集标题列表，覆盖 Bangumi 的正篇与回顾篇标题。\n\n备注：TMDB 对若干回顾篇使用了与 Bangumi 不同的内部集数/日期顺序；若需要逐集而非整季映射，应按标题进一步对齐。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/104878; https://bangumi.tv/subject/104878; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=11517001&workId=11517; https://raw.githubusercontent.com/adminy/anidb_titles_parser/master/title.json; https://www.themoviedb.org/tv/76645; https://www.themoviedb.org/tv/76645/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 76645,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

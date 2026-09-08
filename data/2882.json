@@ -1,0 +1,22 @@
+{
+  "anidbId": 7056,
+  "bangumiId": 2882,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 61289 与 Bangumi subject 2882 是同一部《青之文学》TV 本篇：名称、首播日期 2009-10-10、12 集数一致；TMDB 第 1 季的 12 个剧集标题和日期逐项对应 Bangumi 正篇。Bangumi 另将《人間失格 ディレクターズカット版》作为独立总集篇关联，因此不应纳入本映射。\n\nhttps://bgm.tv/subject/2882 (page): Bangumi 页面标明《青い文学シリーズ》为 TV、12 集、2009-10-10 开播，并列出六部作品、制作人员及 01–12 正篇章节；关联条目另有《人間失格 ディレクターズカット版》。\n\nhttps://wiki.anidb.net/HTTP_API_Definition (search_snippet): AniDB API 文档示例明确将 anime ID 7056 与主标题 Aoi Bungaku Series 关联，支持输入中的 Bangumi→AniDB 线索。\n\nhttps://www.themoviedb.org/tv/61289 (api_snapshot): TMDB 快照显示作品名为「青い文学シリーズ」、首播日期为 2009-10-10、共 12 集，简介列出与 Bangumi 相同的六部文学作品。\n\nhttps://www.themoviedb.org/tv/61289/season/1 (api_snapshot): TMDB 第 1 季快照显示 season_number=1、首播日期 2009-10-10、共 12 集；剧集 1–12 的标题和日期与 Bangumi 正篇逐项对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2882; https://wiki.anidb.net/HTTP_API_Definition; https://www.themoviedb.org/tv/61289; https://www.themoviedb.org/tv/61289/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61289,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

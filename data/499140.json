@@ -1,0 +1,22 @@
+{
+  "anidbId": 18689,
+  "bangumiId": 499140,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 499140 明确是 TV 动画《GUILTY GEAR STRIVE: DUAL RULERS》，2025-04-05 开播，共 8 集。Bangumi 页面、官方站点与 TMDB 的标题、首播日期、剧情、角色及制作信息一致；Bangumi 和官方站点均列出第 1 至第 8 集。TMDB 第 1 季明确为 season 1、8 集，逐集内容与 Bangumi 记录对应，因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/499140 (page): Bangumi 将该主体标为 TV，列出 8 个章节（01–08）、2025 年 4 月及 SANZIGEN 等制作信息；剧情涉及 Sin、Ky、Dizzy、Unika 等角色。\n\nhttps://www.guiltygear.com/ggstdr/jp/?sp=1 (page): 官方站点确认 2025 年 4 月 5 日开播，剧情与角色设定一致，并列出 Ep.1 至 Ep.8；制作信息包括导演森川滋、系列构成海法纪光、脚本重信康、动画制作 SANZIGEN。\n\nhttps://www.themoviedb.org/tv/282666 (api_snapshot): TMDB TV 282666 的标题为 GUILTY GEAR STRIVE: DUAL RULERS，首播日为 2025-04-05，共 8 集；简介与 Bangumi/官方剧情一致。\n\nhttps://www.themoviedb.org/tv/282666/season/1 (api_snapshot): TMDB 明确记录 season_number=1、episodeCount=8、首播日 2025-04-05，并完整列出第 1 至第 8 集；标题和日期与 Bangumi 记录逐项对应。\n\n备注：AniDB 页面本次访问返回 403，未能直接读取 AniDB 18689 的页面内容；但该 AniDB 线索对应的作品名称、年份、剧情、制作信息及 8 集范围均已由 Bangumi、官方站点和 TMDB 独立交叉核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/499140; https://www.guiltygear.com/ggstdr/jp/?sp=1; https://www.themoviedb.org/tv/282666; https://www.themoviedb.org/tv/282666/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 282666,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

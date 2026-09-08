@@ -1,0 +1,22 @@
+{
+  "anidbId": 807,
+  "bangumiId": 28288,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2003 年播出的《ASTRO BOY 鉄腕アトム》，主体为 50 集 TV 动画；提供的 AniDB 关联为 807，标题明确对应 Astro Boy (2003)。TMDB ID 12050 的首播日期、日文标题、简介中的角色与剧情，以及第 1 季的 50 个剧集标题和日期均与 Bangumi 主体逐集对应。因此应映射为 TMDB TV 12050 第 1 季完整一季。Bangumi 关联的特别篇是独立 subject，不属于本主体，故不额外纳入。\n\nhttps://bgm.tv/subject/28288 (page): Bangumi 主体标题为 ASTRO BOY 鉄腕アトム，首播日期为 2003-04-06，共 50 集；提供的剧集列表覆盖第 1 至第 50 集。\n\nhttps://www.themoviedb.org/tv/12050 (api_snapshot): TMDB TV 12050 的原名为 ASTROBOY 鉄腕アトム，首播日期为 2003-04-06，共 50 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/12050/season/1 (api_snapshot): TMDB 第 1 季包含 50 集；剧集标题与 Bangumi 第 1 至第 50 集逐项对应，首播日期也一致或可对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28288; https://www.themoviedb.org/tv/12050; https://www.themoviedb.org/tv/12050/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 12050,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

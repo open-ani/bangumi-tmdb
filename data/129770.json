@@ -1,0 +1,35 @@
+{
+  "anidbId": 11138,
+  "bangumiId": 129770,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是 3 话 OAD，分别对应单行本第15、16、34卷同捆作品。独立资料确认三部 OAD 的发行日及标题：外伝 バンデット・バン（2015-06-17）、英雄たちの戯れ〜番外編集〜（2015-08-12）、英雄たちは燥ぐ（2018-11-16）。TMDB 62104 特别篇季的 API 快照中，第2、3集标题分别与前两部完全对应；第10集标题及简介明确列出“戦え！！残飯処理騎士団長／ハダカのココロ／ハーレクインとヘルブラム／大罪Vacation”，与 Bangumi 第3话标题完全对应，因此采用 S0E2、S0E3、S0E10。S0E9虽有2018-11-16日期，但标题仅为“第9話”，且外部剧集资料显示其为同一 OAD 的另一条重复/替代元数据，内容描述与 Bangumi 四段标题不如 E10 精确匹配，故不纳入。\n\nhttps://bgm.tv/subject/129770 (page): Bangumi 条目为 OVA，3话，发售日2015-06-17，结束日2018-11-16；章节为01、02、03，并注明分别同捆单行本第15、16、34卷。\n\nhttps://www.themoviedb.org/tv/62104/season/0 (api_snapshot): TMDB 特别篇季 API 快照：S0E2 为“外伝 バンデット・バン”，S0E3 为“英雄たちの戯れ 〜番外編集〜”；S0E10 为“英雄たちは燥ぐ”，简介列出四个与 Bangumi 第3话相同的番外作品。\n\nhttps://www.themoviedb.org/tv/62104 (api_snapshot): TMDB TV 62104 为《七つの大罪》，日本动画，包含特别篇 season 0。\n\nhttps://please.untaint.us/?url=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA_%28%E6%BC%AB%E7%94%BB%29%23%E3%82%B2%E3%83%BC%E3%83%A0 (search_snippet): 剧集/作品表列出三部 OAD 的标题和日期，并列出第三部的四个短篇：戦え!!残飯処理騎士団長、ハダカのココロ、ハーレクインとヘルブラム、大罪Vacation。\n\nhttps://watch.plex.tv/ja/show/the-seven-deadly-sins/season/0/episode/10 (search_snippet): 独立剧集资料将“英雄たちは燥ぐ”列为特别篇第10话，并明确简介为四个番外短篇合集，与 Bangumi 第3话标题一致。\n\n备注：TMDB S0E3 的 API 日期为2016-09-11，与 OAD 实际发行日2015-08-12不一致；但标题及内容类型完全对应，疑为季元数据日期错误。；TMDB S0E9 与 S0E10存在重复或替代元数据；S0E10的标题和四段简介与 Bangumi 主体直接匹配，因此仅推荐S0E10。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/129770; https://www.themoviedb.org/tv/62104/season/0; https://www.themoviedb.org/tv/62104; https://please.untaint.us/?url=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA_%28%E6%BC%AB%E7%94%BB%29%23%E3%82%B2%E3%83%BC%E3%83%A0; https://watch.plex.tv/ja/show/the-seven-deadly-sins/season/0/episode/10",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 62104,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "id": 62104,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 10,
+      "id": 62104,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

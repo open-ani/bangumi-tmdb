@@ -1,0 +1,22 @@
+{
+  "anidbId": 2096,
+  "bangumiId": 76800,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 76800 明确是《GS美神》TV主体，1993-04-11开播、共45话，并列出东映动画及原作等制作信息。TMDB 46390 的名称、日文原名、首播日期、简介和45集数量均与该主体吻合；TMDB第1季明确包含第1至45集，因此应映射为完整第1季。TMDB的第0季只有1个特别篇，而Bangumi主体无特别篇且另有独立关联主体76805；76805被Bangumi明确标为1994年的60分钟剧场版，故不并入本TV主体。\n\nhttps://bgm.tv/subject/76800 (page): Bangumi将76800标为《GS美神》TV，话数45，放送期为1993-04-11至1994-03-06，并列出原作椎名高志、系列监督梅澤淳稔、动画制作東映アニメーション。\n\nhttps://bgm.tv/subject/76805 (page): 关联的76805是独立的《GS美神 極楽大作戦!!》剧场版，1话、60分钟、上映于1994-08-20，不是76800的TV正篇。\n\nhttps://www.themoviedb.org/tv/46390 (api_snapshot): TMDB API快照显示作品名和原名均为GS美神，首播日期1993-04-11，简介与美神令子、横岛和おキヌ的TV设定吻合，共45集；另列出第1季45集和第0季1个特别篇。\n\nhttps://www.themoviedb.org/tv/46390/season/1 (api_snapshot): TMDB API快照明确显示第1季episodeCount为45，并提供第1至第45集的完整剧集记录；前四集标题与Bangumi主体记录相符。\n\n备注：TMDB第1季第4集的air_date为1993-02-05，与整体播出时间线及Bangumi记录不一致，属于TMDB单集日期元数据异常；不影响作品身份和完整45集季范围的判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/76800; https://bgm.tv/subject/76805; https://www.themoviedb.org/tv/46390; https://www.themoviedb.org/tv/46390/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46390,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

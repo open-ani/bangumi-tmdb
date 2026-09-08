@@ -1,0 +1,27 @@
+{
+  "anidbId": 4968,
+  "bangumiId": 11210,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目与候选 TMDB TV 作品均为《鋼鉄三国志》，日文标题、2007-04-05 首播日期、制作信息相符。Bangumi 记录主体共 26 集；其中前 25 集是 2007 年电视播出的正篇，第 26 集《深紅の魂、生ける志士どもを走らす》为电视未播放、收录于 2008-03-26 发售的 DVD。TMDB 快照显示作品 34706 的第 1 季有 25 集，日期和 Bangumi 前 25 集对应；另有第 0 季 1 集，日期为 2008-03-26，对应该 DVD 特别篇。因此需同时纳入第 1 季完整一季和第 0 季完整一季。\n\nhttps://bgm.tv/subject/11210 (page): Bangumi 条目标为 TV《鋼鉄三国志》，记录 26 集、2007-04-05 开始、2007-09-27 结束，制作公司为 Picture Magic，且章节列表包含 ep.01 至 ep.26。\n\nhttps://bgm.tv/ep/241164 (page): Bangumi 明确存在该主体的 ep.26。\n\nhttps://www.adkem.jp/works-en/koutetsu-sangokushi/ (search_snippet): 制作方资料将《Koutetsu Sangokushi》列为 TV Animation，播出开始 2007-04-05、结束 2007-09-27、共 26 集、制作公司 PictureMagic。\n\nhttps://gigazine.net/news/20080314-koutetsu-sangokushi/ (search_snippet): 资料明确说明第 25 话是电视播出的最终回，第 26 话《深紅の魂、生ける志士どもを走らす》为电视未播放、收录于 DVD 最终卷，DVD 于 2008-03-26 发售。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): 输入提供的候选来源将 AniDB 关联线索指向 TMDB TV 34706；该来源仅作候选线索。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): 独立 AniDB 标题索引将 AniDB ID 4968 映射为 Koutetsu Sangokushi，与 Bangumi 日文标题一致。\n\nhttps://www.themoviedb.org/tv/34706 (api_snapshot): 输入提供的 TMDB API 快照显示 ID 34706 的日文标题为鋼鉄三国志，首播日期为 2007-04-05，共 25 集，并有 season 0 一集、season 1 二十五集。\n\nhttps://www.themoviedb.org/tv/34706/season/1 (api_snapshot): 输入提供的 TMDB season 1 快照显示第 1 至第 25 集完整存在，日期从 2007-04-05 至 2007-09-27，与电视正篇对应。\n\n备注：TMDB 输入快照未单独展开 season 0 的剧集标题，但其一集数量和 2008-03-26 日期与电视未播放、DVD 收录的第 26 集一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/11210; https://bgm.tv/ep/241164; https://www.adkem.jp/works-en/koutetsu-sangokushi/; https://gigazine.net/news/20080314-koutetsu-sangokushi/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34706; https://www.themoviedb.org/tv/34706/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34706,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 34706,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

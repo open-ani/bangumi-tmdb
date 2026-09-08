@@ -1,0 +1,22 @@
+{
+  "anidbId": 4585,
+  "bangumiId": 4240,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2006 年 TV 动画《Gift ～ギフト～ eternal rainbow》，正篇 12 话，原作 MOONSTONE、导演きみやしげる、OLM 制作；TMDB 36582 的标题、简介、制作背景、首播年份及 12 话季 1 均吻合。TMDB 季 1 的 12 个剧集标题与 Bangumi 正篇逐话对应，日期整体仅相差一天（时区/播出日记录差异），因此采用完整第 1 季。Bangumi 另有 2007-06-22 的 OVA 特别篇，但属于额外特典；TMDB 主条目虽列有特别篇季，输入未提供其完整集目，故不将其并入 TV 正篇范围。\n\nhttps://bgm.tv/subject/4240 (page): Bangumi 标记为 TV，话数 12，放送时间为 2006-10-05 至 2006-12-21，原作 MOONSTONE、导演きみやしげる、动画制作 OLM；简介与 TMDB 简介中的 Gift、永恒彩虹及春彦/莉子/霧乃关系一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可交叉核对 AniDB ID 4585 对应标题为 Gift: Eternal Rainbow，与 Bangumi 条目标题及候选作品一致。\n\nhttps://www.themoviedb.org/tv/36582 (api_snapshot): TMDB TV 36582 的名称为 Gift 〜eternal rainbow〜，原名 Gift ~eternal rainbow~，首播日期为 2006-10-06，主条目记录 12 集并列出第 1 季 12 集。\n\nhttps://www.themoviedb.org/tv/36582/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1、12 集；完整剧集标题从「虹が宿る街」至「永遠の虹」与 Bangumi 正篇 1-12 逐话相符，日期均与 Bangumi 相差一天。\n\nhttps://bgm.tv/ep/41632 (page): Bangumi 的额外章节为 SP.1「木之坂旅館 危機一髪！！」，首播 2007-06-22，属于独立 OVA 特别篇而非 12 集 TV 正篇。\n\n备注：TMDB 主条目显示有 3 个特别篇，但输入未提供 season 0 的完整剧集标题和编号，无法据此安全映射 Bangumi 的 OVA 到具体 TMDB 特别篇编号；本次按任务范围排除额外特典。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4240; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/36582; https://www.themoviedb.org/tv/36582/season/1; https://bgm.tv/ep/41632",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36582,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

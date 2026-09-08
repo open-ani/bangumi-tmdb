@@ -1,0 +1,32 @@
+{
+  "anidbId": 10896,
+  "bangumiId": 116370,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi主体为2014-11-07至2015-10-09播出的35话WEB短篇合集。TMDB 103927同名且首播日一致；第1季12集、第2季13集与Bangumi前24话按标题和日期对应，其中第2季第8、9集共同对应Bangumi合并记录的第20话。第3季11集覆盖2015-07-31至2015-10-09，对应Bangumi第25至35话。TMDB第0季为额外特别篇，不属于该主体的35个正篇，因此排除。\n\nhttps://bgm.tv/subject/116370 (page): Bangumi主体为WEB动画，话数35，放送开始2014-11-07、结束2015-10-09；第20话合并记录「ME!ME!ME! CHRONIC / (Making of) evangelion:Another Impact」。\n\nhttps://www.themoviedb.org/tv/103927 (api_snapshot): TMDB 103927与Bangumi同名，首播日为2014-11-07；季列表为第1季12集、第2季13集、第3季11集及第0季特别篇1集。\n\nhttps://www.themoviedb.org/tv/103927/season/1 (api_snapshot): TMDB第1季12集标题和日期与Bangumi第1至12话逐一对应。\n\nhttps://www.themoviedb.org/tv/103927/season/2 (page): TMDB第2季为13集；其标题和日期对应Bangumi第13至24话，第8、9集分别为ME!ME!ME! CHRONIC与(Making of)evangelion: Another Impact。\n\nhttps://episoderatings.com/show/103927 (search_snippet): 公开剧集索引将Hammerhead列为S3E1、Cassette Girl列为S3E11，并确认该节目共36集。\n\nhttps://www.tvmaze.com/shows/10574/japan-animator-expo/episodes (search_snippet): 公开剧集索引列出第3季11集，S3E1为Hammerhead（2015-07-31），S3E11为Cassette Girl（2015-10-09），中间标题和日期与Bangumi第25至35话一致。\n\n备注：TMDB第3季页面本次直接读取受限；第3季季号与11集数量来自TMDB主体API快照，剧集标题和日期由独立剧集索引交叉核对。；AniDB ID与Anime-Lists关联作为候选线索使用，最终判定依据是Bangumi与TMDB主体、年份、日期及剧集内容的一致性。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/116370; https://www.themoviedb.org/tv/103927; https://www.themoviedb.org/tv/103927/season/1; https://www.themoviedb.org/tv/103927/season/2; https://episoderatings.com/show/103927; https://www.tvmaze.com/shows/10574/japan-animator-expo/episodes",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 103927,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 103927,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "id": 103927,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

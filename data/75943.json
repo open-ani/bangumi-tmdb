@@ -1,0 +1,22 @@
+{
+  "anidbId": 4296,
+  "bangumiId": 75943,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 候选同名、同为日本 TV 动画且首播日均为 2006-04-05。Bangumi 的 40 个条目每条包含两个短篇；独立资料明确说明本作共 80 个短篇，并以每次播出两个短篇的方式分 40 次播出。因此应对应 TMDB 201611 第 1 季完整 80 集，而不是仅取 40 集或按日期截断。\n\nhttps://bgm.tv/subject/75943 (page): Bangumi 条目标为 TV，话数 40，首播 2006-04-05，完播记录 2007-03-14；每个章节标题均由两个短篇组成。\n\nhttps://ja.wikid.org/しばわんこの和のこころ (page): 资料记载动画全 80 话；NHK 教育频道以每次两话、共 40 次播出的形式播出，并列出了与 Bangumi 相同的双短篇标题及制作信息。\n\nhttps://www.themoviedb.org/tv/201611 (api_snapshot): TMDB TV 条目名称为 しばわんこの和のこころ，首播日 2006-04-05，日本作品，第 1 季共 80 集。\n\nhttps://www.themoviedb.org/tv/201611/season/1 (api_snapshot): TMDB 第 1 季 season_number=1，episodeCount=80，剧集编号完整列至第 80 集；因此应纳入完整一季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/75943; https://ja.wikid.org/しばわんこの和のこころ; https://www.themoviedb.org/tv/201611; https://www.themoviedb.org/tv/201611/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 201611,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

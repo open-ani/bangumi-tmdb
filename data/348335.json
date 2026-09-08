@@ -1,0 +1,22 @@
+{
+  "anidbId": 16601,
+  "bangumiId": 348335,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《平家物語》TV 动画，11 话，2022 年播出，导演山田尚子、动画制作 Science SARU；其剧情简介、制作人员和章节标题与 TMDB 132664 完全对应。TMDB 第 1 季明确有 11 集且剧集列表完整，因此应映射为整季。Bangumi 的 sort=0 特别篇是放送直前特番，不属于主体正篇，TMDB 季的 11 集已覆盖主体。首播日期存在日本播出与 TMDB 记录相差一天、末两集日期记录差异，但标题、剧情和总集数均一致，不构成版本差异证据。\n\nhttps://bgm.tv/subject/348335 (page): Bangumi 条目标为 TV，话数 11，放送开始 2022-01-12，放送结束 2022-03-23；导演山田尚子，动画制作 Science SARU，并列出主体 11 个章节及相应剧情。\n\nhttps://www.wikidata.org/wiki/Q108393516 (search_snippet): 同一 The Heike Story 条目同时列出 AniDB anime ID 16601 与 Bangumi subject ID 348335，支持 AniDB 关联与作品身份对应。\n\nhttps://sciencesaru.com/en/works/TheHeikeStory (search_snippet): Science SARU 官方作品页确认 The Heike Story 为 2022 年 TV Series，导演 Naoko Yamada，原作改编自 Hideo Furukawa 的 THE TALE OF THE HEIKE，动画制作 Science SARU。\n\nhttps://www.fujitv.com/animation/the_heike_story/ (search_snippet): 富士电视台官方资料确认作品于 2021-09-15 起 FOD 配信、2022-01-12 起 +Ultra 播出，并给出与 Bangumi 一致的平家灭亡主线简介。\n\nhttps://www.themoviedb.org/tv/132664 (api_snapshot): TMDB API 快照显示 ID 132664 的原名为平家物語，首播年份为 2022，剧情简介与平家、平重盛、琵琶及 15 年历史变迁相符，总集数 11，只有第 1 季且季集数为 11。\n\nhttps://www.themoviedb.org/tv/132664/season/1 (api_snapshot): TMDB 第 1 季 API 快照明确 season_number=1、episodeCount=11、episodesTruncated=false，完整列出第 1 至第 11 集；标题和剧情依次对应 Bangumi 主体章节。\n\n备注：AniDB 官方页面抓取返回 403，未能直接读取 AniDB 条目正文；AniDB ID 16601 由独立的 Wikidata 交叉标识及输入中的已匹配名称支持。；TMDB 的首播日期及第 10、11 集日期与 Bangumi 日本电视播出日期有一天或数天差异，可能反映配信/时区或数据库录入差异；不影响作品、季号和 11 集主体范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/348335; https://www.wikidata.org/wiki/Q108393516; https://sciencesaru.com/en/works/TheHeikeStory; https://www.fujitv.com/animation/the_heike_story/; https://www.themoviedb.org/tv/132664; https://www.themoviedb.org/tv/132664/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 132664,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

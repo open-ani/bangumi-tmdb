@@ -1,0 +1,24 @@
+{
+  "anidbId": 17629,
+  "bangumiId": 401783,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《彼女、お借りします》第3期，共12集，AniDB 关联为17629。TMDB TV 96316 的第1季中，第25至36集的标题与该 subject 的12集逐一对应；日期整体相差约1天，符合播出时区差异。因此应映射为 TMDB 96316 第1季第25–36集，而不是整季。\n\nhttps://bgm.tv/subject/401783 (page): Bangumi subject 标题为《彼女、お借りします 第3期》，播出日期为2023-07-07，共12集，并关联 AniDB ID 17629。\n\nhttps://www.themoviedb.org/tv/96316 (api_snapshot): TMDB TV 96316 为《彼女、お借りします》，属于连续剧条目，包含第1季。\n\nhttps://www.themoviedb.org/tv/96316/season/1 (api_snapshot): TMDB 第1季第25至36集的标题依次对应 Bangumi 第3期12集：从「手料理と彼女」至「理想の彼女と彼女」；剧集日期与 Bangumi 日期整体相差约1天。\n\n备注：TMDB 当前快照将多季内容聚合在同一季号下，因此第3期只能通过完整标题与日期逐集定位为第25–36集；该聚合方式不影响本次具体范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/401783; https://www.themoviedb.org/tv/96316; https://www.themoviedb.org/tv/96316/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 25,
+      "episodeEnd": 36,
+      "id": 96316,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

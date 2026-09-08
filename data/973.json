@@ -1,0 +1,30 @@
+{
+  "anidbId": 2478,
+  "bangumiId": 973,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 973 是 SHAFT 制作的2004年电视动画《月詠～MOON PHASE～》，并非电影、重制或重剪版。TMDB 27813 的日文标题、年份、叶月与摄影师森丘耕平的剧情，以及逐集标题均与该作品吻合。东京电视台资料表明电视播出部分以第25话为最终回，对应 TMDB 第1季第1—25集；Bangumi 同一 subject 收录的第26话则是后来发行的 TV 未放映篇，其标题、剧情和日期与 TMDB 特别篇 S0E1 完全对应。因此该 subject 的26话范围需拆成两个 TMDB target。\n\nhttps://www.themoviedb.org/tv/27813 (api_snapshot): TMDB API 快照显示 TV 27813 原名为《月詠～MOON PHASE～》，首播于2004年，剧情是摄影师森丘耕平在德国古堡遇见吸血鬼少女叶月；这些身份信息与 Bangumi 973 一致。该记录包含25集正季和1集特别篇。\n\nhttps://www.themoviedb.org/tv/27813/season/1 (api_snapshot): TMDB API 快照显示第1季共有25集；第1集至第25集的日文标题和剧情依次对应 Bangumi 的前25话。\n\nhttps://www.tv-tokyo.co.jp/anime/tsukuyomi/story_in_14-.html (page): 东京电视台官方故事页把第25话《おにいさま、最終回だそうですよ♥…》明确标为最终回，并列出的节目范围为第14—25话，证明电视正篇止于第25话。\n\nhttps://www.themoviedb.org/tv/27813/season/0 (api_snapshot): TMDB API 快照显示特别篇 S0E1 标题为《おにいさま、ゆらゆらきらきらどんぶらこ これって、なーんだ?》，日期为2006-02-22；标题和剧情与 Bangumi 第26话完全相同。\n\nhttps://www.b-ch.com/titles/404/026 (search_snippet): Bandai Channel 的检索摘要将同名第26话明确标为“TV未放映エピソード”，并给出与 TMDB S0E1 相同的早餐骚动剧情，证明它是本作后发未播篇而非电视第1季中的一集。\n\nhttps://bangumi.tv/subject/973 (page): Bangumi 页面将该条目标为26话，并在同一章节列表中收录第1—26话，因此映射该 subject 时需要同时覆盖电视正篇25话和后发第26话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/973; https://www.themoviedb.org/tv/27813; https://www.themoviedb.org/tv/27813/season/1; https://www.tv-tokyo.co.jp/anime/tsukuyomi/story_in_14-.html; https://www.themoviedb.org/tv/27813/season/0; https://www.b-ch.com/titles/404/026; https://bangumi.tv/subject/973",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 25,
+      "id": 27813,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 27813,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

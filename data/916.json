@@ -1,0 +1,28 @@
+{
+  "anidbId": 6047,
+  "bangumiId": 916,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 916 明确是 2008 年播出的 TV 动画，共 13 集；其 1–13 集标题、剧情、制作人员和播出日期与 TMDB TV 42960 第 1 季逐集对应，仅存在统一的日期偏移一天。TMDB 42960 的简介、日文原名、年份和日本制作信息也一致。Bangumi 章节中另有主体内特别篇《中禅寺敦子の事件簿 箱の幽霊の事》，日期为 2009-05-22；TMDB 同一 TV 的第 0 季明确只有 1 集且日期同为 2009-05-22，因此纳入 S00E01。未选择同名真人电影版本。\n\nhttps://bgm.tv/subject/916 (page): Bangumi 将该条目标为 TV，话数 13，放送时间为 2008-10-07 至 2008-12-30，并列出导演中村亮介、原作京極夏彦、动画制作 MADHOUSE 等信息；章节包含正篇 1–13 集及 2009-05-22 的主体内特别篇。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 6047 对应为 Mouryou no Hako，与 Bangumi 916 的日文标题魍魎の匣一致。\n\nhttps://www.themoviedb.org/tv/42960 (api_snapshot): TMDB TV 42960 的日文原名为魍魎の匣，首播年份为 2008，简介、日语、日本来源和制作类型均与该 TV 动画一致；全剧 14 集由第 1 季 13 集和第 0 季 1 集组成。\n\nhttps://www.themoviedb.org/tv/42960/season/1 (api_snapshot): TMDB 第 1 季为 13 集，集标题按顺序完整对应 Bangumi 正篇 1–13 集，日期均与 Bangumi 日期相差一天，属于日期表示偏移而非版本差异。\n\nhttps://www.themoviedb.org/tv/42960 (api_snapshot): TMDB 季列表明确记录第 0 季为 1 集，日期为 2009-05-22，与 Bangumi 主体内特别篇日期一致。\n\nhttps://bangumi.tv/subject/58433 (search_snippet): 同名但不同的 Bangumi 条目是 2007-12-22 上映的真人电影，因此不应映射为本题 TV subject 916。\n\n备注：TMDB 提供的第 0 季快照未展开该唯一特别篇的单集标题；其 S00E01 映射依据是同一 TV、唯一集数和 2009-05-22 日期一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/916; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/42960; https://www.themoviedb.org/tv/42960/season/1; https://bangumi.tv/subject/58433",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42960,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 42960,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 17341,
+  "bangumiId": 379687,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目标记为 TV、12 话，标题、2023 年 1 月开播日期、原作与制作信息均与该动画一致。TMDB 200777 的主条目明确为同名作品并列出第 1 季共 12 话；第 1 季页面的 1—12 集标题、剧情和播出日期与 Bangumi 逐集对应，日期仅整体相差一天（日本播出日与 TMDB 记录时区差异）。因此应映射为 TV 200777 第 1 季完整范围。\n\nhttps://bgm.tv/subject/379687 (page): Bangumi 条目为《冰剣の魔術師が世界を統べる》TV，12 话，2023 年 1 月 5 日开始；原作、导演、系列构成和动画制作信息与候选作品吻合。\n\nhttps://www.tbs.co.jp/anime/hyouken/ (page): 官方 TBS 页面确认该作品为 2023 年 1 月播出的 TV 动画，并发布第 1—12 话内容更新。\n\nhttps://www.themoviedb.org/tv/200777 (api_snapshot): TMDB 主条目标题为《冰剣の魔術師が世界を統べる》，首播日期为 2023-01-06，共 12 集，季列表包含第 1 季。\n\nhttps://www.themoviedb.org/tv/200777/season/1 (api_snapshot): TMDB 第 1 季明确为 12 集，完整列出第 1—12 集；集标题、剧情和日期与 Bangumi 记录逐项对应，末集为第 12 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/379687; https://www.tbs.co.jp/anime/hyouken/; https://www.themoviedb.org/tv/200777; https://www.themoviedb.org/tv/200777/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 200777,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

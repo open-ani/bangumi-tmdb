@@ -1,0 +1,24 @@
+{
+  "anidbId": 17814,
+  "bangumiId": 414969,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是动画《夜は猫といっしょ》的 2023 年第二季正篇，共 30 话；官方将其连续编号为第 31～60 夜。TMDB 并未建立 Season 2，而是把全系列正篇连续收录在 TV 199928 的 Season 1：其中第 31～60 集的标题和播出日期与本 subject 逐集吻合。因此应映射到 TV 199928、Season 1、第 31～60 集。TMDB Season 0 的《大怪獣ガメニャ襲来》是特别篇，不属于本轮正篇范围。\n\nhttps://yoruneko-pr.com/news/?id=20250130&mode=detail (page): 作品官网明确列出 Season 2 为“#31～60”，属于 2023 年配信作品，共 30 话；同时把 Season 1 列为 #1～30。\n\nhttps://yoruneko-pr.com/news/?id=season2&mode=detail (page): 作品官网确认《夜は猫といっしょ》在第一季结束后另行决定制作并配信 Season 2，证明目标是续作季度而非重制、合集或电影。\n\nhttps://www.themoviedb.org/tv/199928 (api_snapshot): TMDB API 快照显示 TV 199928 的原名为《夜は猫といっしょ》，首播于 2022-08-03，剧情人物为フータ与猫キュルガ，并且数据库仅设一个含 100 集的正篇季 Season 1。\n\nhttps://www.themoviedb.org/tv/199928/season/1 (api_snapshot): TMDB API 快照中 Season 1 第31集《教えてない言葉しかしゃべらない》于2023-03-08播出，第60集《シーツを敷くとやってくる》于2023-11-15播出；第31～60集的全部标题、日期与该 Bangumi subject 的30话正篇逐一吻合。\n\nhttps://www.themoviedb.org/tv/199928/season/2 (api_snapshot): 提供的 TMDB API 实际请求对 Season 2 返回 HTTP 404，说明旧候选中的 season=2 在当前 TMDB 编排下不存在。\n\nhttps://www.themoviedb.org/tv/199928/season/0 (api_snapshot): TMDB API 快照把《大怪獣ガメニャ襲来》列在 Season 0 第1集；它对应 Bangumi 的特别篇样本，而非第31～60集正篇，因此不纳入映射范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/414969; https://yoruneko-pr.com/news/?id=20250130&mode=detail; https://yoruneko-pr.com/news/?id=season2&mode=detail; https://www.themoviedb.org/tv/199928; https://www.themoviedb.org/tv/199928/season/1; https://www.themoviedb.org/tv/199928/season/2; https://www.themoviedb.org/tv/199928/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 31,
+      "episodeEnd": 60,
+      "id": 199928,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

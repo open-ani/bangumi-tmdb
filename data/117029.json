@@ -1,0 +1,22 @@
+{
+  "anidbId": 10913,
+  "bangumiId": 117029,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 2015 年播出的《戦国無双》TV 动画，共 12 集；其标题、剧情（真田信之/幸村从小田原到大坂之阵）和制作信息与 TMDB TV 80474 完全对应。TMDB 第 1 季明确包含 12 集，且完整剧集标题与 Bangumi 的第 1–12 集逐一匹配，因此应纳入完整第 1 季。Bangumi 另将《戦国無双SP 真田の章》列为前传关联主体，不应并入本 subject；官方资料也将该特别篇与 12 集 TV 系列分开标为 SP1+12。TMDB 比 Bangumi 的日期整体晚一天，属于日期表示/时区差异，不影响版本对应。\n\nhttps://bgm.tv/subject/117029 (page): Bangumi 将该主体标为《戦国無双》TV，话数 12，放送时间为 2015-01-11 至 2015-03-29，原作为《戦国無双4》，制作包括 TYO Animations、手塚プロダクション；章节为 01–12。页面还将《戦国無双SP 真田の章》列为独立前传关联。\n\nhttps://www.adkem.jp/works-en/samurai-warriors-sengoku-musou/ (page): 官方作品页确认《Samurai Warriors (Sengoku Musou)》为 TV Animation，2015-01-11 开播，长度 24 分钟，标示 SP1+12，并以《戦国無双4》为原作。\n\nhttps://www.themoviedb.org/tv/80474 (api_snapshot): TMDB API 快照确认 TV 80474 原名《戦国無双》，首播日期 2015-01-12，共 12 集，仅有第 1 季且该季 12 集；简介描述真田兄弟及从小田原城到大坂相关的同一故事。\n\nhttps://www.themoviedb.org/tv/80474/season/1 (api_snapshot): TMDB 第 1 季快照明确为 season_number=1、episodeCount=12；第 1–12 集标题依次对应 Bangumi 的「天下一の桜」「犬伏の別れ」「上田城の嵐」「関ヶ原の落日」「命の行先」「心の檻」「紅蓮の刃」「帰らずの道」「大坂の風」「無双の砦」「孤高の城」「日本一の兵」，日期顺序也与 2015 年 1 月至 3 月播出相符。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 10913 对应为 Sengoku Musou，支持输入中的 Bangumi→AniDB 标识。\n\nhttps://listrr.pro/Lists/ShowShowList/6627049273262893bb0a40b7?page=92 (search_snippet): 搜索摘要同时列出 Samurai Warriors 的 AniDB 10913 与 TMDb 80474，可作为交叉关联线索；最终季和范围由 Bangumi 与 TMDB 实际剧集内容核定。\n\n备注：TMDB 的首播及各集日期比 Bangumi 整体晚一天；这不影响标题、集数、剧情和制作信息的版本对应，但具体原因未进一步核实。；AniDB 原站页面访问受限，AniDB ID 与标题的直接页面证据不可读取；目前由公开 AniDB 标题索引及与 TMDB/Bangumi 的完整内容匹配交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/117029; https://www.adkem.jp/works-en/samurai-warriors-sengoku-musou/; https://www.themoviedb.org/tv/80474; https://www.themoviedb.org/tv/80474/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://listrr.pro/Lists/ShowShowList/6627049273262893bb0a40b7?page=92",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80474,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

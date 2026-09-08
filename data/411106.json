@@ -1,0 +1,27 @@
+{
+  "anidbId": 17771,
+  "bangumiId": 411106,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 223780 的日文标题、首播日期、剧情和 23 集正篇逐集标题/日期完全对应。TMDB 明确列出第 1 季 23 集；Bangumi 的 SP12.5「陽はまた昇る」与 SP17.5「三人の縁」对应该剧 TMDB 特别篇季的 2 集，因此补列 season 0。SP12.7 是声优年终谈话/回顾节目，属于额外宣传特典，不纳入主体映射。未发现电影、OVA、总集篇或重剪版主体。\n\nhttps://bangumi.tv/subject/411106/ep (page): Bangumi 将该条目标为 TV，列出正篇第 1–23 集，并列出 SP12.5「陽はまた昇る」、SP12.7 年终谈话节目、SP17.5「三人の縁」。\n\nhttps://prtimes.jp/main/html/rd/p/000005949.000001719.html (page): 讲谈社公告确认该 TV 动画于 2023 年 9 月起播出，主体共 23 集，内容围绕十朱大吾、斧田骏和中村雪三名消防员成长。\n\nhttps://www.themoviedb.org/tv/223780 (api_snapshot): TMDB API 快照显示 ID 223780、日文标题、首播日 2023-09-30、23 集，并明确列出 season 0（2 集）和 season 1（23 集）。\n\nhttps://www.themoviedb.org/tv/223780/season/1 (api_snapshot): TMDB season 1 快照完整列出第 1–23 集；标题和日期与 Bangumi 正篇逐集对应，范围应为完整 season 1。\n\nhttps://watch.plex.tv/ja/show/firefighter-daigo-rescuer-in-orange/season/0 (page): 同名作品的特别篇季列出 2 集，标题为「陽はまた昇る」和「三人の縁（えにし）」，与 Bangumi 的 SP12.5、SP17.5 对应；此处仅用于内容交叉核对，季号依据 TMDB 快照。\n\nhttps://bgm.tv/ep/1287186 (search_snippet): SP12.7 的标题和简介显示其为三名声优参与的年终回顾/谈话节目，不是主体剧情特别篇。\n\n备注：AniDB 17771 详情页本次访问受限，未能独立读取其页面；但 Bangumi 条目自身、TMDB 标题/剧情/日期及逐集内容已足以确认该 TV 版本和目标范围。；TMDB season 0 的输入快照提供了季号和 2 集计数，特别篇标题通过同名作品的独立页面交叉核对；未将 Plex 的编号当作 TMDB 编号依据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/411106; https://bangumi.tv/subject/411106/ep; https://prtimes.jp/main/html/rd/p/000005949.000001719.html; https://www.themoviedb.org/tv/223780; https://www.themoviedb.org/tv/223780/season/1; https://watch.plex.tv/ja/show/firefighter-daigo-rescuer-in-orange/season/0; https://bgm.tv/ep/1287186",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 223780,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 223780,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

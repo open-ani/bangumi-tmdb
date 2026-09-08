@@ -1,0 +1,22 @@
+{
+  "anidbId": 13838,
+  "bangumiId": 240459,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 数据显示该 subject 为第3系列，2018-04-03 开始，共32集；TMDB 66999 的第3季同样于2018-04-03播出且为32集，季号、年份和集数一致，应对应整季。候选第5季请求失败，不能据此判定不存在，但第5季与已确认的第3系列信息不符。\n\nhttps://www.themoviedb.org/tv/66999 (api_snapshot): 随附 TMDB API 快照显示该剧第3季 air_date 为 2018-04-03、episode_count 为32；同时列出第1至第4季，不含第5季。\n\nhttps://www.themoviedb.org/tv/66999/season/5 (api_snapshot): 随附 API 快照记录第5季请求返回 HTTP 404；这只是请求失败，不能作为该季不存在的证明。\n\nhttps://bgm.tv/subject/240459 (page): 随附 Bangumi 数据显示标题为《少年アシベ GO!GO!ゴマちゃん 第3シリーズ》，首播日期为2018-04-03，共32集，并提供了完整正篇集目。\n\n备注：AniDB 13838 页面访问受限，未能独立核验 Bangumi→AniDB 关联；但该关联不是决定 TMDB 季号的唯一依据，Bangumi 与 TMDB 第3季的日期及集数已直接对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/240459; https://www.themoviedb.org/tv/66999; https://www.themoviedb.org/tv/66999/season/5",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66999,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

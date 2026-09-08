@@ -1,0 +1,28 @@
+{
+  "anidbId": 258,
+  "bangumiId": 18150,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 18150 是 2002—2004 年发行的原版 OVA《ナースウィッチ小麦ちゃんマジカルて》，全六话：KARTE.1、2、2.5、3、4、5。TMDB 35976 的第 1 季完整收录五个整数编号的 KARTE，第 0 季第 1 集则以完全相同的标题收录 KARTE.2.5，因此必须用两个目标覆盖本 subject。第 0 季第 2 集没有可与这六话对应的标题或内容，不能纳入。TMDB 第 2 季是另一个 Bangumi subject 对应的续作《マジカルてZ》，2016 年《R》则是更换角色和设定的重制 TV 动画，均不属于本 subject。\n\nhttps://www.themoviedb.org/tv/35976 (api_snapshot): TMDB API 快照确认 TV 35976 的原名为《ナースウィッチ小麦ちゃんマジカルて》，首播年份为 2002；剧情中的中原小麦、ムギまる、まじかるメイドこより和病毒首领あんぐら～也与原版 OVA 一致。快照还将《マジカルてZ》单独列为第 2 季。\n\nhttps://www.themoviedb.org/tv/35976/season/1 (api_snapshot): TMDB API 快照显示第 1 季共五集，标题依次对应 KARTE.1、KARTE.2、KARTE.3、KARTE.4、KARTE.5，与目标六话中除 KARTE.2.5 外的全部正篇逐一吻合。\n\nhttps://www.themoviedb.org/tv/35976/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 1 集为《閑話休題すぺしゃる 〜再び祭りの予感でワッショイ！〜》，日期为 2003-06-06，标题和内容均与 Bangumi 的 KARTE.2.5 相同；第 0 季第 2 集只有泛称“第2話”和空白简介，无法对应本 subject 的任何一话，故不纳入。\n\nhttps://tatsunoko.co.jp/works/nurse-witch-komugi/ (search_snippet): 制作方龙之子官方资料将本作明确记载为 OVA、全六卷，发行期为 2002 年8月至2004年4月，并说明它是以《The SoulTaker》中原小麦为主角、重新设定的衍生作品。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10199003&workId=10199 (search_snippet): d动画商店将《ナースウィッチ小麦ちゃんマジカルて》列为全六话，并明确列出 KARTE.1、2、2.5、3、4、5；这证明 KARTE.2.5 属于该 Bangumi subject 的六话主体，而非续作 Z。\n\nhttps://tatsunoko.co.jp/en/works/nurse-witch-komugi-z/ (search_snippet): 龙之子官方将《NURSE WITCH KOMUGI Z》明确列为 2004 年制作的两话 OVA 续作，支持排除 TMDB 35976 第 2 季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/18150; https://www.themoviedb.org/tv/35976; https://www.themoviedb.org/tv/35976/season/1; https://www.themoviedb.org/tv/35976/season/0; https://tatsunoko.co.jp/works/nurse-witch-komugi/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10199003&workId=10199; https://tatsunoko.co.jp/en/works/nurse-witch-komugi-z/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35976,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 35976,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

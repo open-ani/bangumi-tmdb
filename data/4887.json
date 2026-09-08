@@ -1,0 +1,22 @@
+{
+  "anidbId": 4556,
+  "bangumiId": 4887,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该主体明确标为 TV、13 集，首播于 2006-11-01，制作方为 Studio Fantasia。TMDB TV 31715 的原名、首播日、剧情、制作背景均对应；第 1 季明确为 13 集，逐集标题和剧情与 Bangumi 的 1–13 集对应。因此应映射为 TMDB 31715 第 1 季完整范围，不是电影、OVA、总集篇或重剪版。\n\nhttps://bgm.tv/subject/4887 (page): Bangumi 条目显示标题为「奏光のストレイン」、类型为 TV、共 13 集，放送开始于 2006-11-01，结束于 2007-02-14；并列出 Studio Fantasia、导演渡邊哲哉等制作信息。\n\nhttps://www.themoviedb.org/tv/31715 (api_snapshot): TMDB TV 31715 的原名为「奏光のストレイン」，首播日为 2006-11-01，简介中的世界观、角色和事件与该 Bangumi 主体一致，并标记总集数为 13。\n\nhttps://www.themoviedb.org/tv/31715/season/1 (api_snapshot): TMDB 第 1 季明确为 13 集，日期覆盖 2006-11-01 至 2007-02-14；第 1–13 集标题和逐集剧情与输入中的 Bangumi 正篇集数逐一对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据快照将 AniDB ID 4556 映射为「Soukou no Strain」，与 Bangumi 主体的日文标题及输入中的 matched 关联一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4887; https://www.themoviedb.org/tv/31715; https://www.themoviedb.org/tv/31715/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 31715,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 15330,
+  "bangumiId": 297224,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《BEASTARS 2nd Season》TV 动画，共12话，播出时间为2021-01-06至2021-03-24，制作方、剧情和角色信息与 BEASTARS 系列第二季一致。TMDB 90937 的第2季明确标为12话，季简介与该条目剧情一致，且12个集标题按顺序与 Bangumi 话数13至24逐一对应；因此应映射为完整的 TMDB 第2季。TMDB 日期整体比日本播出日期晚约1天，不足以否定版本对应关系。\n\nhttps://bgm.tv/subject/297224 (page): Bangumi 页面确认条目名称、TV 类型、12话、2021年1月6日开播、2021年3月24日完结，以及 Orange 制作和 BEASTARS 第二季剧情。\n\nhttps://www.themoviedb.org/tv/90937 (api_snapshot): TMDB TV 90937 为 BEASTARS，包含第1、2、3季；第2季播出于2021年，标记为12集。\n\nhttps://www.themoviedb.org/tv/90937/season/2 (api_snapshot): TMDB 第2季 season_number=2，包含完整12集；集标题、顺序、日期和剧情分别对应 Bangumi 的12个主体话数。\n\n备注：AniDB 官方页面无法直接读取；输入提供的 AniDB ID 15330 及其 matched 标记与版本名称一致，但未能独立读取 AniDB 原始页面。；TMDB 集播出日期相较 Bangumi 日本日期整体晚约1天，可能是平台或时区记录差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/297224; https://www.themoviedb.org/tv/90937; https://www.themoviedb.org/tv/90937/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 90937,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

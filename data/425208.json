@@ -1,0 +1,22 @@
+{
+  "anidbId": 17919,
+  "bangumiId": 425208,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将本作标为 TV，12 集，播出期为 2025-10-06 至 2025-12-22；简介、原作、导演及 BN Pictures 制作信息与候选条目一致。官方页面确认日本时间 10 月 6 日起每周一 24:00 播出，因此 TMDB 记录统一显示为次日日期并非版本冲突。TMDB 主条目为同名作品、12 集；season/1 明确为第 1 季且完整列出 12 集，标题和剧情均与 Bangumi 逐集对应。因此应映射为 TMDB 222624 第 1 季完整范围。\n\nhttps://bgm.tv/subject/425208 (page): Bangumi 页面显示作品类型为 TV、共 12 集，播出开始于 2025-10-06，结束于 2025-12-22；简介、原作空知英秋/大崎知仁及 BN Pictures 制作信息与候选作品相符。\n\nhttps://www.anime-gintama.com/ginpachi/ (page): 官方页面确认《3年Z組銀八先生》自 10 月 6 日起每周一 24:00 在东京电视台系列播出。\n\nhttps://www.themoviedb.org/tv/222624 (api_snapshot): TMDB API 快照显示 ID 222624、同名日文标题、2025-10-07 首播、12 集、日本动画喜剧及与银魂高校 3年Z组一致的简介。\n\nhttps://www.themoviedb.org/tv/222624/season/1 (api_snapshot): TMDB API 快照明确 season_number=1、episodeCount=12、episodesTruncated=false，并完整列出第 1 至第 12 集；逐集标题和剧情与 Bangumi 章节对应，日期均稳定相差一天。\n\n备注：AniDB 页面本次访问返回 403，无法用 AniDB 原页面独立复核 ID 17919；但 Bangumi 条目、官方资料与 TMDB 条目的版本、剧情、制作信息及逐集内容均已相互吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/425208; https://www.anime-gintama.com/ginpachi/; https://www.themoviedb.org/tv/222624; https://www.themoviedb.org/tv/222624/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 222624,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

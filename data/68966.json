@@ -1,0 +1,21 @@
+{
+  "anidbId": 7764,
+  "bangumiId": 68966,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi 条目是1999年3月6日上映、约16分钟的独立短篇电影，而不是《哆啦A梦》TV系列中的一集。候选 TV 57912 实际为1973年开始的《ドラえもん》，提供的 TMDB 第0季请求返回404，不能用于映射。Wikidata 将同名1999年电影明确关联至 TMDB movie ID 326919；电影资料的上映日期、时长、剧情和制作信息也与该 Bangumi 条目一致，因此采用电影目标。\n\nhttps://www.themoviedb.org/tv/57912 (api_snapshot): 提供的 TMDB API 快照显示候选57912是《ドラえもん》TV作品，首播日期为1973-04-01，共26集；/tv/57912/season/0 请求失败，不能作为本条目的季映射。\n\nhttps://www.themoviedb.org/tv/57912/season/0 (api_snapshot): 提供的 TMDB API 快照记录该第0季请求为HTTP 404；请求失败不被当作不存在，但该候选没有可核对的季内容。\n\nhttps://eiga.com/movie/57628/ (page): 资料显示《ザ☆ドラえもんズ おかしなお菓子なオカシナナ？》为1999年3月6日上映的日本动画短篇电影，片长16分钟，并记载其剧情、导演米谷良知及与《宇宙漂流记》《结婚前夜》同场上映信息。\n\nhttps://www.wikidata.org/wiki/Q7986270 (page): 同名1999年电影条目的结构化标识符明确列出 TMDB movie ID 326919，并列出发行日期1999-03-06、电影类型、导演和16分钟时长。\n\nhttps://www.allcinema.net/cinema/pdf/161754 (search_snippet): 资料将该作品列为1999年日本动画电影，初映日1999年3月6日、片长16分钟，并记载其为《哆啦A梦》剧场版同场上映的哆啦A梦七小子短篇及制作人员。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68966; https://www.themoviedb.org/tv/57912; https://www.themoviedb.org/tv/57912/season/0; https://eiga.com/movie/57628/; https://www.wikidata.org/wiki/Q7986270; https://www.allcinema.net/cinema/pdf/161754",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 326919,
+      "type": "movie"
+    }
+  ]
+}

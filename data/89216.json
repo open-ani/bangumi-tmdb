@@ -1,0 +1,30 @@
+{
+  "anidbId": 10288,
+  "bangumiId": 89216,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 89216 是宫原るり原作、Brain's Base 制作的 2014 年电视动画《僕らはみんな河合荘》，共收录 13 个正篇章节：电视播出的第1—12话，以及2015年发行的未放送正篇第13话《初めての》。TMDB 60812 的原名、年份、剧情和角色设定均吻合；其第1季完整收录同名同顺序的电视正篇第1—12话，而《初めての》被编为特别篇 S0E15。因此必须跨季映射为 S1E1—12 加 S0E15。TMDB S0E1—14 是每卷附带的约1分钟映像特典，不属于本轮目标正篇，故不纳入。Bangumi 与 TMDB 首播日期相差一天源于日本深夜档跨午夜记法，不代表不同版本。\n\nhttps://bgm.tv/subject/89216 (page): Bangumi 页面确认该条目是2014年电视动画《僕らはみんな河合荘》，中文名《我们大家的河合庄》，标注13话、2014年4月3日开播，原作宫原るり、导演宫繁之、动画制作 Brain's Base；剧情为宇佐入住河合庄并与河合律等住客共同生活。\n\nhttps://www.themoviedb.org/tv/60812 (api_snapshot): TMDB API 快照确认 TV 60812 的原名为《僕らはみんな河合荘》，首播于2014年，日语日本动画；宇佐因父母调职入住河合庄、遇到河合律及城崎、麻弓、彩花等人的剧情与 Bangumi 条目一致。该记录列出12集的第1季以及特别篇季。\n\nhttps://www.themoviedb.org/tv/60812/season/1 (api_snapshot): TMDB API 快照显示第1季共有12集；E1—E12依次为《たとえば》《これって》《どうして》《とりあえず》《やっぱり》《もしかして》《おすすめの》《うれしぬ》《禁断の》《ほっとけばいいのに》《友達なんかいないって》《近づきたくて》，与 Bangumi 的电视正篇第1—12话逐集一致。\n\nhttps://bgm.tv/ep/410972 (page): Bangumi 将《初めての》明确列为本条目的 ep.13，时长23分40秒、日期2015年1月30日，并说明它是电视未放送、收录于 Blu-ray/DVD 第7卷的特别回。\n\nhttps://www.tbs.co.jp/anime/kawaisou/disc/ (page): 动画官方 TBS 页面确认 Blu-ray/DVD 第7卷于2015年1月30日发行，正篇收录内容为特别篇《初めての》；同时把《その頃ふたりは》等另列为映像特典，从作品层级上佐证《初めての》是未放送正篇而非短篇附属特典。\n\nhttps://www.themoviedb.org/tv/60812/season/0 (api_snapshot): TMDB API 快照将《初めての》编为 S0E15，日期2015年1月30日、时长24分钟，并注明为电视未放送特别篇；S0E1—14则均为约1分钟的 Blu-ray/DVD 映像特典。因此 Bangumi ep.13 精确对应 S0E15，不能映射整个第0季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/89216; https://www.themoviedb.org/tv/60812; https://www.themoviedb.org/tv/60812/season/1; https://bgm.tv/ep/410972; https://www.tbs.co.jp/anime/kawaisou/disc/; https://www.themoviedb.org/tv/60812/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 60812,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 15,
+      "id": 60812,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

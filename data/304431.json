@@ -1,0 +1,22 @@
+{
+  "anidbId": 15480,
+  "bangumiId": 304431,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 25 集 TV 动画，放送期为 2020-05-30 至 2020-11-28，章节完整列出 1—25。公开资料中的日文标题、剧情、OLM 制作信息、首播日期和总集数均与该作品一致；TMDB 101562 的第 1 季也明确包含 25 集，且集标题与 Bangumi 1—25 集逐集对应。因此应采用 TV 101562 第 1 季完整范围。TMDB 的首播日期及部分集日期存在错误，但不影响通过标题、剧情、制作信息和完整集标题序列确认同一作品。\n\nhttps://bgm.tv/subject/304431 (page): Bangumi 页面将作品标为 TV，记载 25 集、2020-05-30 开播、2020-11-28 完结，动画制作公司为 OLM，并列出第 1—25 集。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/episodes/ (page): 电视爱知官方页面列出该作品的连续剧集及播出日期，确认第 20—25 集，最终集为 2020-11-28 的「みんなの心をコネクテッド」。\n\nhttps://animeschedule.net/anime/cardfight-vanguard-gaiden-if (page): 独立资料将日文标题对应为 Cardfight!! Vanguard Gaiden: If，类型为 TV，首播 2020-05-30，集数 25，制作公司 OLM，剧情为 IF 世界历史扭曲后伊吹、翠子、惠美和修香恢复历史。页面还提供 AniDB 外部链接。\n\nhttps://www.themoviedb.org/tv/101562 (api_snapshot): TMDB API 快照显示 TV 101562 的日文标题与 Bangumi 完全一致，剧情、日语原声、日本来源和 25 集总数均匹配。\n\nhttps://www.themoviedb.org/tv/101562/season/1 (api_snapshot): TMDB API 快照明确为 season_number=1，episodeCount=25，且完整提供第 1—25 集标题；标题序列与 Bangumi 集标题逐集对应。\n\n备注：TMDB 主页面将 first_air_date 记为 2020-04-30，且部分集播出日期与 Bangumi及官方日期不一致，属于 TMDB 日期元数据疑点。；AniDB 页面本身无法直接读取（403），但 AnimeSchedule 页面中的 AniDB 链接解析到 anime/15480，且其标题、类型、日期、集数和制作信息与 Bangumi 主体一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/304431; https://tv-aichi.co.jp/cf-vanguard/if/episodes/; https://animeschedule.net/anime/cardfight-vanguard-gaiden-if; https://www.themoviedb.org/tv/101562; https://www.themoviedb.org/tv/101562/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 101562,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

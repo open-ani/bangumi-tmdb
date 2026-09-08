@@ -1,0 +1,22 @@
+{
+  "anidbId": 3669,
+  "bangumiId": 31698,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 31698 明确是 1986 年日本 TV 动画《オズの魔法使い》，共 52 话，首播 1986-10-06，并列出 Panmedia、原作 Lyman Frank Baum 等制作信息。AniDB 3669 同样明确为《Oz no Mahou Tsukai (1986)》TV、52 集、1986-10-06 至 1987-09-28，并将 1982 年电影和 1992-1993 年《Space Oz no Bouken》列为不同版本。TMDB 66081 的名称、原名、首播日期、日本来源和总集数均吻合；其 Season 1 明确有 52 集，快照完整列出第 1 至 52 集。因此主体应映射为 TMDB TV 66081 的完整 Season 1，无需拆分范围。\n\nhttps://bgm.tv/subject/31698 (page): Bangumi 条目为 TV《オズの魔法使い》/《绿野仙踪》，52 话，1986-10-06 开播、1987-09-28 完结，并列出原作、演出、人物设定和制作信息。\n\nhttps://anidb.net/anime/3669 (page): AniDB 3669 为《Oz no Mahou Tsukai (1986)》，官方日文名《オズの魔法使い (1986)》，TV Series、52 episodes，日期为 1986-10-06 至 1987-09-28；页面还明确区分 1982 年电影和 1992-1993 年 TV 作品。\n\nhttps://www.themoviedb.org/tv/66081 (api_snapshot): TMDB API 快照显示 TV 66081 名为《オズの魔法使い》，原名相同，first_air_date 为 1986-10-06，原语言日语、来源国日本，总集数 52，Season 1 为 52 集。\n\nhttps://www.themoviedb.org/tv/66081/season/1 (api_snapshot): TMDB Season 1 API 快照显示 season_number 为 1、episodeCount 为 52，且完整列出 episode_number 1 至 52，未截断。\n\n备注：TMDB 快照中的剧集标题均为通用的“第N話”，且剧集日期只排到 1986-12-16，与 Bangumi/AniDB 的系列完结日 1987-09-28 不一致；这属于 TMDB 集级播出日期元数据差异，但不影响其作品身份、Season 1 和完整 52 集范围的匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/31698; https://anidb.net/anime/3669; https://www.themoviedb.org/tv/66081; https://www.themoviedb.org/tv/66081/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66081,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

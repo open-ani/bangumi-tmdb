@@ -1,0 +1,24 @@
+{
+  "anidbId": 18329,
+  "bangumiId": 470874,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《SHY 東京奪還編》第二期，明确包含总集数12、章节13至24，且标题、日期、剧情和制作信息均与2024年第二期吻合。TMDB 211709 的主条目快照仅有第1季且共24集；因此该 Bangumi subject 在 TMDB 中应映射为第1季的第13至24集，而不是候选的 TMDB 第2季。\n\nhttps://bangumi.tv/subject/470874 (page): Bangumi 将该条目标为 TV，话数12，章节为13至24；各集标题、2024-07-01至2024-09-23日期、东京夺还篇剧情及制作团队均与第二期一致。\n\nhttps://www.shy-anime.com/ (page): 官方站点明确使用“東京奪還編”，并列出第13至23话回顾及第23、24话播出通知，支持其为第二期主体。\n\nhttps://www.themoviedb.org/tv/211709 (api_snapshot): 输入提供的 TMDB API 快照显示条目 SHY（ID 211709）共24集，seasons 仅有 season_number=1 且 episode_count=24，首播日期为2023-10-03。\n\nhttps://www.themoviedb.org/tv/211709/season/2 (api_snapshot): 输入提供的 TMDB 第2季请求返回 HTTP 404；这本身不证明不存在，但与主条目仅列第1季的快照一致，不能采用候选 season=2。\n\nhttps://smartv-streaming.com/serie/shy-2023-haruhito-nakayoshi (search_snippet): 搜索摘要中展示的 TMDB 派生数据明确记录 211709 为1季24集，且最后一集为 season_number=1、episode_number=24，可与 Bangumi 的第13至24集范围对齐。\n\n备注：AniDB 18329 的实时页面本次无法直接读取；但输入中已标记该 AniDB 名称集合与《SHY 東京奪還編》匹配，且 Bangumi、官方资料与 TMDB 作品及制作信息交叉一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/470874; https://bangumi.tv/subject/470874; https://www.shy-anime.com/; https://www.themoviedb.org/tv/211709; https://www.themoviedb.org/tv/211709/season/2; https://smartv-streaming.com/serie/shy-2023-haruhito-nakayoshi",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 211709,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

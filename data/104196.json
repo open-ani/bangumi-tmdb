@@ -1,0 +1,30 @@
+{
+  "anidbId": 10638,
+  "bangumiId": 104196,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是4话《ニセコイ OAD》，日期为2014-10-03至2016-01-04。AniDB公开标题数据将10638对应为“Nisekoi OAD”，与Bangumi名称和OVA类型一致。TMDB TV 62640的第0季包含5项：第1、2、3、5集分别与该subject的四话标题和日期对应；第4集是2015-04-03的放送前特番，不属于该subject，因此排除。\n\nhttps://bgm.tv/subject/104196 (page): Bangumi将该条目标为OVA，共4话，发售/开始日期为2014-10-03，结束日期为2016-01-04；章节为4话，制作与作品信息也与SHAFT制作的Nisekoi OAD一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题数据片段将AniDB ID 10638映射为“Nisekoi OAD”。\n\nhttps://www.themoviedb.org/tv/62640 (api_snapshot): TMDB TV ID 62640为《ニセコイ》，原名为ニセコイ，日语制作，包含第0季“特別編”。\n\nhttps://www.themoviedb.org/tv/62640/season/0 (api_snapshot): TMDB第0季第1、2、3、5集标题和日期分别对应フンシツ／ミコサン（2014-10-03）、オシゴト／ヘンボウ（2015-02-04）、セントウ／サービス（2015-04-03）、シンコン／マジカルパティシエ小咲ちゃん!!（2016-01-04），且第1、2、3、5集标注为漫画限定版OVA；第4集是放送前特番。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/104196; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/62640; https://www.themoviedb.org/tv/62640/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 62640,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 5,
+      "id": 62640,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

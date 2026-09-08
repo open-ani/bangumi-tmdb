@@ -1,0 +1,30 @@
+{
+  "anidbId": 18424,
+  "bangumiId": 475354,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是2024年配信的动画《〈物語〉シリーズ オフ＆モンスターシーズン》，包含编号01—14的14集，以及夹在第6与第7集之间、官方标作“ex”的《残酷童話 うつくし姫》，合计15话。TMDB 将01—14收录在剧集46195的第5季第1—14集，将“ex”收录为特别篇第48集，因此必须返回两个范围。旧候选的第6季不存在；正确季号是第5季。第5季快照中的第15集没有标题、日期或内容，且不属于这个已于2024年完结的 Bangumi subject，故不纳入。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): TMDB API 快照显示剧集46195原名为《化物語》，其第5季名称正是《〈物語〉シリーズ オフ&モンスターシーズン》，首播日期为2024-07-06；快照中不存在第6季。\n\nhttps://www.themoviedb.org/tv/46195/season/5 (api_snapshot): TMDB API 快照明确列出第5季第1—14集：从《愚物語 つきひアンドゥ》到《忍物語 しのぶマスタード 其ノ陸》，标题、顺序及2024-07-06至2024-10-19的日期均与目标作品吻合；第15集只是无标题、无日期、无简介的空白记录。\n\nhttps://www.themoviedb.org/tv/46195/season/0 (api_snapshot): TMDB API 快照把《残酷童話 うつくし姫》列为第0季第48集，日期为2024-08-17、片长13分钟，内容讲述约六百年前美丽公主的故事。\n\nhttps://www.monogatari-series.com/oms/2024/story/ (page): 作品官方故事页的完整导航为01—06、ex、07—14，并确认第14集是《忍物語 しのぶマスタード 其ノ陸》，证明主体正篇编号止于14。\n\nhttps://www.monogatari-series.com/oms/2024/story/?id=ex (page): 官方将《残酷童話 うつくし姫》明确标作本作的“#ex”，其剧情与TMDB第0季第48集一致。\n\nhttps://bgm.tv/subject/475354 (page): Bangumi 475354标注15话，并列出01—06、06.5、07—14；其中06.5对应官方的“ex”，与TMDB拆分为第5季14集加特别篇1集的结构一致。\n\n备注：TMDB第5季第15集目前仅为空白占位，未来可能用于另行制作的新篇章；在其缺少标题、日期和内容且Bangumi已另设后续篇目 subject 的情况下，本映射明确排除该占位集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/475354; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/5; https://www.themoviedb.org/tv/46195/season/0; https://www.monogatari-series.com/oms/2024/story/; https://www.monogatari-series.com/oms/2024/story/?id=ex",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 14,
+      "id": 46195,
+      "season": 5,
+      "type": "tv"
+    },
+    {
+      "episode": 48,
+      "id": 46195,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 791,
+  "bangumiId": 5425,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 5425 并非只收录同名的 1992 年 OVA，而是把《絶愛-1989-》（1992）、音乐录像 OVA《BRONZE KOJI NANJO cathexis》（1994）和续篇《BRONZE ZETSUAI since 1989》（1996）列为三话正篇。TMDB 的 TV 表示 209219 将同样三部作品按相同名称、日期和顺序完整收录于第 1 季，故应映射 TV 209219 第 1 季全季，无需限定部分集数。候选 movie 456994 仅对应第一部 1992 年、46 分钟的《絶愛-1989-》，会遗漏本 subject 的第 2、3 话，因此不作为主体映射。TV ID 209219 是根据明确标示数据来自 TMDB 的索引镜像确定；同一镜像的电影编号 456994 与所附 TMDB API 快照完全一致，亦验证了其编号沿用 TMDB ID。\n\nhttps://bgm.tv/subject/5425 (page): Bangumi 页面将本条目标为三话 OVA，并同时列出 MADHOUSE、Production I.G 以及三位导演，表明其主体覆盖三个时期的动画作品，而非单独的 1992 年影片。\n\nhttps://bgm.tv/ep/36538 (page): Bangumi 第 1 话为《絶愛-1989-》，日期 1992-07-29、时长约45分钟。\n\nhttps://bgm.tv/ep/36539 (page): Bangumi 第 2 话为《BRONZE KOJI NANJO cathexis》，日期 1994-07-06。\n\nhttps://bgm.tv/ep/36540 (page): Bangumi 第 3 话为《BRONZE ZETSUAI since 1989》，日期 1996-12-04。\n\nhttps://www.moviefone.com/tv-shows/zetsuai-1989/fEAu7uXGEfdFlOMmazHJ9/seasons/1/ (page): 该 TMDB 数据使用方的第 1 季页面依次列出三集：1992-07-29《Zetsuai 1989》、1994-07-06《Bronze: Kouji Nanjo Cathexis》、1996-12-04《Bronze: Zetsuai Since 1989》，与 Bangumi 三话逐一吻合；页面注明使用 TMDb API。\n\nhttps://jephmann.com/movies/tv.php?id=209219 (search_snippet): 搜索索引中的 TMDB 数据镜像把《Zetsuai 1989（1992–1996）》列为一季三集的 TV 作品，页面编号为 209219，并明确标示数据来源为 The Movie Database。\n\nhttps://www.themoviedb.org/person/221758 (search_snippet): TMDB 的浦畑达彦人物页搜索摘要同时出现“Zetsuai 1989 3 episodes”和单独电影《Desperate Love 1989》，印证 TMDB 存在三集 TV 表示与单部电影表示两种不同收录。\n\nhttps://www.themoviedb.org/movie/456994 (api_snapshot): 输入所附 TMDB API 快照显示 movie 456994 原名《絶愛-1989-》，上映日 1992-07-29、片长46分钟，只对应本 subject 的第1话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5425; https://bgm.tv/ep/36538; https://bgm.tv/ep/36539; https://bgm.tv/ep/36540; https://www.moviefone.com/tv-shows/zetsuai-1989/fEAu7uXGEfdFlOMmazHJ9/seasons/1/; https://jephmann.com/movies/tv.php?id=209219; https://www.themoviedb.org/person/221758; https://www.themoviedb.org/movie/456994",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 209219,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

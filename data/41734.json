@@ -1,0 +1,24 @@
+{
+  "anidbId": 7279,
+  "bangumiId": 41734,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是2010年发行的全6话原创OVA续篇《装甲騎兵ボトムズ 幻影篇》，不是1983年TV正篇、电影重剪版或《孤影再び》。TMDB 将其合并收录在 TV 32377 的特别篇（第0季）中：S00E26–S00E31依次为「ウド」「クメン」「サンサ」「ヌルゲラント」「コクーン」「インファンティ」，标题、发行日期、剧情和全6话范围均与官方资料及 Bangumi 数据逐项一致。该季还收录其他VOTOMS作品，因此必须限定为第26–31集。旧候选所写的第4季在TMDB API中返回404，不能采用。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=287 (page): 制作方サンライズ的作品页确认《装甲騎兵ボトムズ 幻影篇》为系列正统续篇，共6话，发行期为2010年3月26日至10月27日，并列出六话标题「ウド」「クメン」「サンサ」「ヌルゲラント」「コクーン」「インファンティ」。\n\nhttps://www.themoviedb.org/tv/32377 (api_snapshot): TMDB API快照确认TV作品ID 32377为《装甲騎兵ボトムズ》，当前仅有第1季和第0季特别篇；不存在可承载本作的第4季。\n\nhttps://www.themoviedb.org/tv/32377/season/0 (api_snapshot): TMDB API快照显示S00E26–S00E31标为「幻影編」第1至第6话，六集标题、2010年发行日期及剧情分别与《幻影篇》六话完全对应；S00E25和S00E32则是其他作品，证明边界应精确限定为26–31。\n\nhttps://www.themoviedb.org/tv/32377/season/4 (api_snapshot): 提供的TMDB API快照对第4季请求返回HTTP 404，因此旧候选的season=4不是当前TMDB季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/41734; https://www.sunrise-inc.co.jp/work/detail.php?cid=287; https://www.themoviedb.org/tv/32377; https://www.themoviedb.org/tv/32377/season/0; https://www.themoviedb.org/tv/32377/season/4",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 26,
+      "episodeEnd": 31,
+      "id": 32377,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 8406,
+  "bangumiId": 16996,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2011年7月5日开播、13话的 TV 版，导演林直孝、原作佐野妙、动画制作 Seven；并将 OVA 与续作《森田さんは無口。2》分开关联。TMDB 44680 的第1季同名、2011年播出、13集，简介、制作主体和逐话标题/日期与该13话主体对应。Bangumi 与 TMDB 日期相差一天，符合跨日播出记录；第4话标题虽有差异，但外部剧集表也采用 TMDB 的“夏は暑くて当たり前”，其余标题和日期序列连续一致。Bangumi 单列的“もっと愛しあいましょ”是第1至13话使用的片头曲，不是应追加的正篇集数，因此采用 TMDB 第1季完整13集。\n\nhttps://bgm.tv/subject/16996 (page): Bangumi 将条目标为 TV、13话，放送期为2011年7月5日至9月27日，原作佐野妙、导演林直孝、动画制作Seven；关联中将《森田さんは無口。2》列为续集、OVA列为不同演绎。\n\nhttps://www.themoviedb.org/tv/44680 (api_snapshot): TMDB TV 44680 为同名作品，共26集，分为特別編、season 1（13集）和 season 2（13集）；season 1 的首播日期为2011-07-06。\n\nhttps://www.themoviedb.org/tv/44680/season/1 (api_snapshot): TMDB season 1 明确为13集，逐话日期从2011-07-06至2011-09-28；第1、2、3、5至13话标题与 Bangumi 主体逐话对应，第4话为“夏は暑くて当たり前”。\n\nhttps://en.wikipedia.org/wiki/Morita-san_wa_Mukuchi (page): 剧集表确认 TV 版第1至13话的标题和日期，包括第4话“夏は暑くて当たり前”；同时说明 OVA 是独立版本、TV 版由 Seven 制作，并将第1至13话片头曲列为“もっと愛しあいましょ”。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题表将 AniDB ID 8406 映射为“Morita-san wa Mukuchi.”，与 Bangumi 条目的日文名和候选关联一致。\n\n备注：Bangumi 第4话标题与 TMDB/外部剧集表不同，无法仅凭标题断言是版本差异还是 Bangumi 标题录入差异；但日期、其余逐话标题、作品简介和制作信息均支持属于同一TV季。；AniDB 原站页面本次无法读取，因此 AniDB 关联的独立字段核验依赖 Bangumi 提供的 matched 结果及可读取的 AniDB 标题映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/16996; https://www.themoviedb.org/tv/44680; https://www.themoviedb.org/tv/44680/season/1; https://en.wikipedia.org/wiki/Morita-san_wa_Mukuchi; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44680,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "anidbId": 569,
+  "bangumiId": 27213,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 27213 是1985—1986年《エリア88》三集OVA，主体集数为 ACT I、ACT II、ACT III。候选 TV 34823 明确是2004年、12集的另一版本，不应采用。TheTVDB 的同名日本动画电影条目为1985年发行、201分钟、由 Studio Pierrot 制作，并链接到 TMDB movie/499540；201分钟也与三部OVA合并后的完整版本相符。因此采用 TMDB 电影 499540，不使用季或集数范围。\n\nhttps://www.themoviedb.org/tv/34823 (api_snapshot): 输入的 TMDB API 快照显示该条目首播于2004-01-09，只有1季12集；与 Bangumi 的1985年三集OVA不符。\n\nhttps://pierrot.jp/archive/ova/title03.html (page): Studio Pierrot 官方资料将《エリア88》明确列为OVA；ACT I发行于1985-02-05，ACT II发行于1985-08-05，ACT III发行于1986-08-15，并给出对应剧情与制作信息。\n\nhttps://thetvdb.com/movies/area-88 (page): 同名日本动画电影条目显示全球发行日为1985-02-05、片长201分钟、制作公司包括Pierrot，并在“On Other Sites”提供指向 TMDB 的链接；该链接解析为 https://www.themoviedb.org/movie/499540。\n\nhttps://en.wikipedia.org/wiki/Area_88 (page): 资料区分了1985—1986年的三集OVA与2004年的12集TV版，并说明OVA三部曲及其发行时间。\n\n备注：Bangumi输入中的OVA结束日期为1986-06-15，而Studio Pierrot官方资料给出的ACT III发行日期为1986-08-15；这不影响三集OVA与TMDB电影版本的对应判断。；TMDB电影详情页受到抓取限制，未能取得该条目的完整API字段；TMDB ID来自同名电影条目的外部链接解析，后续可用TMDB API补充核对标题、上映日和片长。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27213; https://www.themoviedb.org/tv/34823; https://pierrot.jp/archive/ova/title03.html; https://thetvdb.com/movies/area-88; https://en.wikipedia.org/wiki/Area_88",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 499540,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 2820,
+  "bangumiId": 3059,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 3059 明确是2005年OVA《撲殺天使ドクロちゃん》，共8话，发行日期为2005-03-25至2005-09-22；其剧情、角色和制作信息与候选 TMDB 作品一致。TMDB 第1季正好收录8集，标题、剧情和日期顺序均与 Bangumi 的8个正篇逐集对应，因此应映射为完整第1季。TMDB 第2季属于 Bangumi 关联的续集《撲殺天使ドクロちゃん2》，不应纳入本 subject。\n\nhttps://bgm.tv/subject/3059 (page): Bangumi 将该条目标为OVA，共8话，制作人为水島努、Hal Film Maker，章节为01至08，并关联续集《撲殺天使ドクロちゃん2》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB ID 2820 对应标题 Bokusatsu Tenshi Dokuro-chan，支持输入中的 AniDB 关联标题核对。\n\nhttps://www.themoviedb.org/tv/42870 (api_snapshot): TMDB TV 42870 标题为撲殺天使ドクロちゃん，作品简介、日语原名和日本来源与该OVA相符；第1季有8集，第2季有4集。\n\nhttps://www.themoviedb.org/tv/42870/season/1 (api_snapshot): TMDB 第1季共8集，逐集标题对应「撲殺天使だよ！ドクロちゃん！」至「さようならだよ！ドクロちゃん！」，剧情简介也与 Bangumi 8个正篇一致。\n\n备注：TMDB 作品/季的首播日期为2005-03-13，而 Bangumi 记录的是OVA发售起始日2005-03-25；这是发行日期与播出/平台日期的语义差异，不影响8集主体对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3059; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/42870; https://www.themoviedb.org/tv/42870/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42870,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

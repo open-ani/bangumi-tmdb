@@ -1,0 +1,22 @@
+{
+  "anidbId": 2579,
+  "bangumiId": 209557,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2004年10月6日开始、共12话的 TV 动画《リングにかけろ1》，并列出东映动画、车田正美等制作信息及完整12集标题。TMDB TV 35876 的第1季同名、首播日期为2004-10-06、共12集；季内12集标题、剧情和日期与该 Bangumi 主体逐一对应。因此应映射为 TMDB 35876 第1季完整范围，不包含后续日美决战篇等其他季。\n\nhttps://bgm.tv/subject/209557 (page): Bangumi 条目标为《リングにかけろ1》TV，12话，放送开始于2004年10月6日；制作/原作信息及第1至12话标题均与该主体吻合，并明确关联后续《日美决战篇》。\n\nhttps://www.themoviedb.org/tv/35876 (api_snapshot): TMDB TV 35876 为《リングにかけろ》，首播日期2004-10-06；其季列表显示第1季名为《リングにかけろ1》，日期同为2004-10-06且有12集，另有后续独立季。\n\nhttps://www.themoviedb.org/tv/35876/season/1 (api_snapshot): TMDB 第1季包含12集；完整剧集标题、剧情简介和播出日期与 Bangumi 提供的12集主体逐项对应。\n\nhttps://www.anime.gen.tr/animetanitim.php?id=1102 (search_snippet): 独立资料将《Ring ni Kakero 1》列为2004年播出的TV系列，共12集，播出区间为2004-10-06至2004-12-15，制作方包括东映动画。\n\n备注：AniDB 页面本身访问返回403，未能直接读取 AniDB 2579 页面；但 Bangumi 主体信息、独立作品资料与 TMDB 季/集快照已足以确认具体版本及范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/209557; https://www.themoviedb.org/tv/35876; https://www.themoviedb.org/tv/35876/season/1; https://www.anime.gen.tr/animetanitim.php?id=1102",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35876,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

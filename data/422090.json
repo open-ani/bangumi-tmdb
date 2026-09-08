@@ -1,0 +1,23 @@
+{
+  "anidbId": 7553,
+  "bangumiId": 422090,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2006-07-15 上映、51 分钟的独立电影《いのちの星のドーリィ》。AniDB 7553 明确标为 Movie，并匹配片名、日期、导演矢野博之及制作信息。TMDB 候选 56389 的特别篇季中，第39集日期为 2006-07-15；独立剧集目录将第39集对应本电影，而第40集是同场上映的另一部《コキンちゃんとあおいなみだ》，且该作品在 Bangumi 中是另一个 subject。因此只纳入 season 0 episode 39，不纳入 episode 40。\n\nhttps://bgm.tv/subject/422090 (page): 输入的 Bangumi 条目名称、日期、电影类型、51分钟片长及与《コキンちゃんとあおいなみだ》的独立关联。\n\nhttps://anidb.net/anime/7553 (page): AniDB 7553 的官方日文标题匹配，类型为 Movie，日期为 2006-07-15；导演、原作、动画制作等信息与 Bangumi 输入一致，并注明与《Kokin-chan to Aoi Namida》为双片联映。\n\nhttps://www.tms-e.co.jp/alltitles/anpanman/060333.html (page): TMS 官方资料确认该片为第18部《アンパンマン》电影，51分钟，2006年7月15日上映，剧情围绕获得生命的玩偶ドーリィ展开。\n\nhttps://www.themoviedb.org/tv/56389 (api_snapshot): TMDB API 快照显示候选 TV ID 56389 存在 season 0 特别篇季。\n\nhttps://www.themoviedb.org/tv/56389/season/0 (api_snapshot): TMDB API 快照显示 season 0 episode 39 与 40 均为 2006-07-15；episode 39/40 需要结合独立剧集目录区分两部同场上映作品。\n\nhttps://watch.plex.tv/ja/show/lets-go-anpanman/season/0 (search_snippet): 该特别篇季目录明确将第39话列为《それいけ！アンパンマン いのちの星のドーリィ》，第40话列为同场上映的《コキンちゃんとあおいなみだ》。\n\nhttps://watch.plex.tv/ja/show/lets-go-anpanman/season/0/episode/39 (search_snippet): 第39话页面显示片名、2006-07-15日期、25分钟及与ドーリィ电影一致的剧情摘要。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/422090; https://anidb.net/anime/7553; https://www.tms-e.co.jp/alltitles/anpanman/060333.html; https://www.themoviedb.org/tv/56389; https://www.themoviedb.org/tv/56389/season/0; https://watch.plex.tv/ja/show/lets-go-anpanman/season/0; https://watch.plex.tv/ja/show/lets-go-anpanman/season/0/episode/39",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 39,
+      "id": 56389,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

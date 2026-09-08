@@ -1,0 +1,24 @@
+{
+  "anidbId": 18105,
+  "bangumiId": 444634,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2023 年播出的 12 集电视动画；输入中的 AniDB 关联标题与 Bangumi 标题、别名一致。TMDB TV 230288 的标题、日文原名、剧情、制作国家与播出年份均匹配；第 1 季明确包含 12 集，且其完整剧集标题与 Bangumi 的 1—12 集逐集对应。TMDB 的首播日期晚一天属于时区/播出日期记录差异，不影响版本判断。TMDB 的第 0 季为特别编，不属于该 Bangumi 主体的正篇，因此不纳入。\n\nhttps://www.themoviedb.org/tv/230288 (api_snapshot): TMDB 条目标题为「僕らの雨いろプロトコル」，首播年份为 2023，剧情与日本电视动画主体匹配，并记录第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/230288/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、episodeCount=12；第 1—12 集标题与 Bangumi 所列 12 集标题逐集对应，播出日期连续对应。\n\nhttps://bgm.tv/subject/444634 (page): Bangumi 主体为《僕らの雨いろプロトコル／我们的雨色协议》，2023-10-07 开播，共 12 集；输入数据标记其 AniDB 关联为已匹配，AniDB ID 为 18105。\n\n备注：TMDB 首播日期为 2023-10-08，而 Bangumi 为 2023-10-07，存在日本深夜播出与日期记录方式差异；剧集标题、顺序和剧情均一致。；TMDB 第 0 季标为「特別編」并含 13 集，但输入的 Bangumi 主体没有特别篇，且其正篇明确为 12 集，因此未纳入。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/444634; https://www.themoviedb.org/tv/230288; https://www.themoviedb.org/tv/230288/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 230288,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

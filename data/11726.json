@@ -1,0 +1,22 @@
+{
+  "anidbId": 8254,
+  "bangumiId": 11726,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为2011年播出的13集 TV 动画，标题、首播/完播日期、剧情、角色与制作信息均与 TMDB TV 38313 一致。TMDB 第1季明确为13集，完整标题和剧情顺序逐集对应 Bangumi 第1至13话，因此采用整季范围；未发现电影、OVA、总集篇或重剪版需要单独映射。Bangumi记载首播为2011-04-04，而TMDB记录为2011-04-05，属于日本深夜播出日期表示差异，不影响作品和季的对应判断。\n\nhttps://bgm.tv/subject/11726 (page): Bangumi将该条目标为TV，记载13话、2011年4月4日至6月27日播出，导演岡本英樹、动画制作トムス・エンタテインメント，并列出第1至第13话标题。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB ID 8254 对应标题“Sengoku Otome: Momoiro Paradox”，与 Bangumi主体日文标题及输入提供的 AniDB 关联一致。\n\nhttps://www.themoviedb.org/tv/38313 (api_snapshot): TMDB TV 38313 的原名为戦国乙女～桃色パラドックス～，首播年份为2011，简介为现代女中学生穿越到女性战国世界并协助收集深红甲胄，且主条目记录13集。\n\nhttps://www.themoviedb.org/tv/38313/season/1 (api_snapshot): TMDB第1季明确为season 1、13集；第1至第13集标题依次为転送乙女、困惑乙女、天空乙女、対決乙女、怪談乙女、想出乙女、演劇乙女、微熱乙女、西国乙女、心中乙女、強奪乙女、戦国乙女、陽光乙女，均与Bangumi主体章节对应。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=21903012&workId=21903 (search_snippet): 官方配信页面将该作品标为全13话，列出与Bangumi及TMDB相同的13个集标题，并记载2011年、岡本英樹导演及トムス・エンタテインメント制作。\n\n备注：Bangumi按日本播出日记为2011-04-04，TMDB按2011-04-05记录首播；这是日期表示差异，未发现导致版本不一致的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/11726; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/38313; https://www.themoviedb.org/tv/38313/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=21903012&workId=21903",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 38313,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 2539,
+  "bangumiId": 5428,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 TV、43 话，章节为系列总编号 47–89；标题、播出年份、制作方东映动画及剧情均对应《美少女戦士セーラームーンR》。TMDB TV 3570 的第 2 季明确命名为《美少女戦士セーラームーンR》，共 43 集；其完整剧集标题、剧情和日期与 Bangumi 的 43 个正篇逐一对应。因此采用 TMDB 3570 第 2 季完整范围。剧场版是 Bangumi 的独立番外条目，不纳入本 subject。\n\nhttps://bgm.tv/subject/5428 (page): Bangumi 条目类型为 TV，话数 43，播出始于 1993-03-06，章节为第 47–89 话；制作方为东映动画，并关联独立的《剧场版 美少女戦士セーラームーンR》。\n\nhttps://lineup.toei.co.jp/ja/tv/sailor_moon_r/story/ (search_snippet): 东映官方资料称《美少女戦士セーラームーンR》为第二期、全 43 话，对应系列第 47–89 话，并分为魔界树篇和黑月篇。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 2539 对应为 Bishoujo Senshi Sailor Moon R，与输入提供的 Bangumi→AniDB 关联一致。\n\nhttps://www.themoviedb.org/tv/3570 (api_snapshot): TMDB TV 3570 的季列表将第 2 季命名为美少女戦士セーラームーンR，播出年份为 1993，共 43 集。\n\nhttps://www.themoviedb.org/tv/3570/season/2 (api_snapshot): TMDB 第 2 季明确列出 43 集；第 1–43 集的标题、剧情和日期与 Bangumi 条目的 43 个正篇对应，覆盖该 subject 的全部主体内容。\n\n备注：Bangumi 与 TMDB 的首播日期存在一天差异（Bangumi 1993-03-06，TMDB API 1993-03-05），但标题、完整剧集标题、剧情、制作信息和 43 集数量均一致，足以判断为日期记录时区/口径差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5428; https://lineup.toei.co.jp/ja/tv/sailor_moon_r/story/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/3570; https://www.themoviedb.org/tv/3570/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 3570,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

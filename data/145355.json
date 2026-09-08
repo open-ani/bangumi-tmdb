@@ -1,0 +1,22 @@
+{
+  "anidbId": 11543,
+  "bangumiId": 145355,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 145355 是乙橘原作、山本裕介执导、8bit 制作的 2016 年 TV 动画《少年メイド》。Bangumi 的章节页将内容明确列为正篇第 1—12 话及单独的 SP 8.5；TBS 官方页也只列出第 1—12 话。TMDB TV 66112 的标题、年份、人物与剧情均相符，其第 1 季完整收录同名同序的 12 话，因此应映射到 TV 66112 第 1 季全季。TMDB 第 0 季的《女は度胸、男は愛嬌？》对应 Bangumi 的 SP 8.5，不属于本轮要求的正篇，故不纳入目标。\n\nhttps://bgm.tv/subject/145355 (page): Bangumi 页面确认该条目为 2016 年 TV 动画《少年メイド》，原作乙橘、导演山本裕介、动画制作 8bit；章节列表明确区分正篇 01—12 与 SP 08.5。\n\nhttps://www.tbs.co.jp/anime/meido/story/ (page): TBS 官方剧情页列出第 1—12 话；最终话为第 12 话《終わり良ければすべて良し》，与 Bangumi 正篇及 TMDB 第 1 季末集一致。\n\nhttps://www.themoviedb.org/tv/66112 (api_snapshot): TMDB API 快照确认 TV 66112 的原名为《少年メイド》，首播于 2016 年，剧情为小宫千寻在母亲去世后住进舅舅鹰取圆家并以家务换取生活环境，与目标作品身份及内容一致；该条目共有 12 集正季内容。\n\nhttps://www.themoviedb.org/tv/66112/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 12 集，集名从《はたらかざるもの食うべからず！》到《終わり良ければすべて良し》，逐集对应 Bangumi 的 12 集正篇。\n\nhttps://www.themoviedb.org/tv/66112/season/0 (api_snapshot): TMDB API 快照显示第 0 季仅有《女は度胸、男は愛嬌？》一集；该标题对应 Bangumi 单列的 SP 08.5，因此应从正篇映射中排除。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/145355; https://www.tbs.co.jp/anime/meido/story/; https://www.themoviedb.org/tv/66112; https://www.themoviedb.org/tv/66112/season/1; https://www.themoviedb.org/tv/66112/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66112,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

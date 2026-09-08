@@ -1,0 +1,22 @@
+{
+  "anidbId": 6769,
+  "bangumiId": 2610,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 2610 明确是《アスラクライン2》TV续作，13集，播出时间为2009-10-01至2009-12-24；章节编号为14至26。TMDB TV 42425 的第2季明确标为2009-10-01、13集，且完整13集的标题与日期逐一对应 Bangumi 章节（TMDB季内集数1至13对应 Bangumi总编号14至26）。因此应映射为该剧第2季完整一季，不需要拆分范围。\n\nhttps://bangumi.tv/subject/2610 (page): Bangumi 将 subject 2610 标为《アスラクライン2》TV，13集，首播2009-10-01，完播2009-12-24；章节列表为总编号14至26，制作组为 Seven Arcs。\n\nhttps://www.themoviedb.org/tv/42425 (api_snapshot): TMDB TV 42425 标题为《アスラクライン》，总计26集，包含第1季和第2季，各13集；第2季首播日期为2009-10-01。\n\nhttps://www.themoviedb.org/tv/42425/season/2 (api_snapshot): TMDB第2季为13集，首播2009-10-01；集1至13的标题和日期分别与 Bangumi 的总编号14至26逐一匹配，末集日期为2009-12-24。\n\nhttps://en.wikipedia.org/wiki/List_of_Asura_Cryin%27_episodes (search_snippet): 搜索结果摘要显示《Asura Cryin'》第二季于2009-10-01播出，共13集，且首集使用跨季连续编号14，与 Bangumi 和 TMDB 的编号对应。\n\n备注：AniDB 页面 https://anidb.net/anime/6769 直接访问返回403，AniDB ID 6769 与本 subject 的关联主要依据输入提供的 matched 数据；但 Bangumi 的标题、年份、制作信息及全部13集内容已与 TMDB 第2季独立逐项吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2610; https://bangumi.tv/subject/2610; https://www.themoviedb.org/tv/42425; https://www.themoviedb.org/tv/42425/season/2; https://en.wikipedia.org/wiki/List_of_Asura_Cryin%27_episodes",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42425,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

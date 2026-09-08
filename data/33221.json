@@ -1,0 +1,22 @@
+{
+  "anidbId": 699,
+  "bangumiId": 33221,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 电视剧 36666 第1季与 Bangumi subject 是同一部1998年日本电视动画：日文原名、1998年1月5日开播时间及48话短篇结构一致。TBS 官方目录确认电视正篇为48话；Bangumi 页面进一步说明共制作“正篇48话＋摘要2话”。TMDB 第1季完整收录48集，正好对应电视正篇，因此推荐整季，不设集数范围。Bangumi 所列第49、50话属于两话摘要，并非缺失的正篇；本轮按规则不额外映射特典或摘要内容。\n\nhttps://www.themoviedb.org/tv/36666 (api_snapshot): TMDB API 快照显示 TV 36666 原名为《セクシーコマンドー外伝 すごいよ!! マサルさん》，首播日期为1998-01-05，共48集且仅有第1季。\n\nhttps://www.themoviedb.org/tv/36666/season/1 (api_snapshot): TMDB API 快照显示第1季包含第1至48集，每集约10分钟；第1集日期为1998-01-05，第48集日期为1998-03-31。\n\nhttps://www.tbscontents.com/en/program/sexycommandomasarusan (page): TBS 官方节目目录列出完全相同的日文标题，播出期为1998-01-05至1998-04-03，规格为48集、每集8分30秒，并描述马沙鲁创建 Sexy Commandos 社团的剧情。\n\nhttps://bgm.tv/subject/33221 (page): Bangumi 该 subject 标为TV动画，并说明实际制作内容是48话正篇加2话摘要；其原作、播出时期及内容与TBS和TMDB条目相符。\n\n备注：TMDB 当前没有收录两话摘要；由于它们不是正篇，本次未将其纳入目标。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/33221; https://www.themoviedb.org/tv/36666; https://www.themoviedb.org/tv/36666/season/1; https://www.tbscontents.com/en/program/sexycommandomasarusan",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36666,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

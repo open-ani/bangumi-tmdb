@@ -1,0 +1,22 @@
+{
+  "anidbId": 2824,
+  "bangumiId": 2696,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《だめっこどうぶつ》TV动画，共26话，2005-01-17开播、2005-02-21结束，制作公司为Magic Bus，剧情与角色信息均与候选作品一致。AniDB 标题数据将 ID 2824 对应为 Damekko Doubutsu；TMDB 34064 同名、同首播日期、同为日本作品且总计26集，仅有第1季。TMDB 第1季快照完整列出第1至26集，日期从2005-01-17至2005-02-21，与Bangumi的主体范围和逐日播出节奏一致，因此应映射为完整第1季。\n\nhttps://bgm.tv/subject/2696 (page): Bangumi 条目标为TV动画《だめっこどうぶつ》，共26话，放送开始于2005年1月17日、结束于2005年2月21日；导演四分一節子、动画制作Magic Bus，并列出1至26话章节及相应剧情简介。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索的AniDB标题数据片段将 AniDB ID 2824 对应为 Damekko Doubutsu，与Bangumi日文标题一致。\n\nhttps://www.themoviedb.org/tv/34064 (api_snapshot): TMDB API快照显示作品名及原名均为だめっこどうぶつ，首播日期为2005-01-17，共26集，仅包含season 1且该季为26集。\n\nhttps://www.themoviedb.org/tv/34064/season/1 (api_snapshot): TMDB第1季API快照未截断，完整列出第1至第26集；集数日期从2005-01-17连续对应至2005-02-21，季集数为26。\n\nhttps://www.tvtime.com/ko/show/79593 (search_snippet): 搜索摘要列出该作品第1至第26集的标题和日期，标题顺序与Bangumi章节标题及TMDB第1季的日期范围相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2696; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34064; https://www.themoviedb.org/tv/34064/season/1; https://www.tvtime.com/ko/show/79593",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34064,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

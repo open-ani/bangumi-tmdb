@@ -1,0 +1,30 @@
+{
+  "anidbId": 14483,
+  "bangumiId": 266301,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2020 年 TV 正篇，共 12 集，标题、日期、剧情与 TMDB 94404 第 1 季 1–12 集逐集对应。该条目另含一个 2020-06-17 的 SP，内容是六个 OVA 短篇合并后的单集；TMDB 94404 的特别篇为第 0 季，共 7 集，其中第 7 集标为 Episode 13 (OVA)，与 Bangumi SP 的标题和时长对应。因此主体应映射为第 1 季 1–12 集及第 0 季第 7 集；不纳入第 0 季 1–6 集的拆分短篇。\n\nhttps://bgm.tv/subject/266301 (page): Bangumi 确认该主体为《ドロヘドロ》TV，12 集，2020-01-12 开始、2020-03-29 结束，制作公司为 MAPPA，并列出与输入一致的导演、原作和制作信息。\n\nhttps://bgm.tv/subject/266301/ep (page): Bangumi 章节列表逐集列出正篇 1–12，日期为 2020-01-12 至 2020-03-29，并另列一个特别篇 SP.1。\n\nhttps://bgm.tv/ep/943307 (page): Bangumi SP.1 的标题包含「仮面格差」「店舗for you」「下っ端青春グラフィティー」「あなたの知らないギョーザの怪」「オドル魔ノウタゲ」「夜風に吹かれて大葉記念日」，时长 25:28，首播 2020-06-17。\n\nhttps://www.themoviedb.org/tv/94404 (api_snapshot): TMDB API 快照确认 TV ID 94404、原名 ドロヘドロ，共 23 集；第 1 季 12 集、第 0 季特别篇 7 集，整体简介与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/94404/season/1 (api_snapshot): TMDB API 快照逐集列出第 1 季 1–12 集；标题和日期与 Bangumi 正篇逐集对应，TMDB 日期仅因平台时区显示为次日。\n\nhttps://www.themoviedb.org/tv/94404/seasons (search_snippet): TMDB 搜索摘要确认 94404 的 Season 0 为 2020-06-17、7 集，Season 1 为 2020 年、12 集。\n\nhttps://netflix.originals.watch/media/1285/dorohedoro/season/0 (search_snippet): 特别篇列表将第 0 季第 7 集标为 Episode 13 (OVA)，并说明其包含六个 OVA 短篇；与 Bangumi SP.1 的六段标题和发布日期一致。\n\nhttps://www.wikidata.org/wiki/Q96516868 (search_snippet): 搜索摘要将 Dorohedoro 的 AniDB anime ID 标为 14483，并记载其为 12 集作品；与 Bangumi 提供的 AniDB ID、标题和集数相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/266301; https://bgm.tv/subject/266301/ep; https://bgm.tv/ep/943307; https://www.themoviedb.org/tv/94404; https://www.themoviedb.org/tv/94404/season/1; https://www.themoviedb.org/tv/94404/seasons; https://netflix.originals.watch/media/1285/dorohedoro/season/0; https://www.wikidata.org/wiki/Q96516868",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 94404,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 7,
+      "id": 94404,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

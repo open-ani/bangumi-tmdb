@@ -1,0 +1,28 @@
+{
+  "anidbId": 12226,
+  "bangumiId": 185420,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 的 AniDB 标题与 ID 12226 匹配，且 Bangumi 主体包含 12 集正篇及第 13 集特别篇「おふろ読書」。TMDB TV 68165 的日文原名完全一致；第 1 季有 12 集，标题与正篇逐集对应，因此采用完整第 1 季。TMDB 第 0 季包含标题相同的「おふろ読書」，应纳入主体特别篇。Bangumi 日期比 TMDB 及其剧集日期早一天，属于日期记录差异，不影响作品及逐集对应判断。\n\nhttps://bgm.tv/subject/185420 (page): Bangumi subject 标题为「バーナード嬢曰く。」；2016-10-06 开播，主体有 12 集正篇及排序第 13 的特别篇「おふろ読書」。\n\nhttps://www.themoviedb.org/tv/68165 (api_snapshot): TMDB TV 68165 的日文名称和原名均为「バーナード嬢曰く。」，共 12 集正篇；第 0 季为 1 集特别篇，第 1 季为 12 集。\n\nhttps://www.themoviedb.org/tv/68165/season/1 (api_snapshot): TMDB 第 1 季的 12 集标题依次与 Bangumi 正篇第 1 至 12 集对应，包括「バーナード嬢、曰く」「図書室」「村上春樹とかSFとか」至「ひとり旅」。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/185420; https://www.themoviedb.org/tv/68165; https://www.themoviedb.org/tv/68165/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68165,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 68165,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

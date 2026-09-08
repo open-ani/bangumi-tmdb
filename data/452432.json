@@ -1,0 +1,21 @@
+{
+  "anidbId": 17273,
+  "bangumiId": 452432,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 2024-05-24 上映、1 话的《後章》剧场版。TMDB 1172229 的标题、日期和剧情均完全对应；1172228 是同系列但上映更早的《前章》，不应采用。电影无需填写季或集数范围。\n\nhttps://bgm.tv/subject/452432 (page): Bangumi 页面标为剧场版，标题为「デッドデッドデーモンズデデデデデストラクション 後章」，话数 1，上映年度为 2024 年 5 月 24 日；章节简介明确写为两部电影的后篇。\n\nhttps://www.themoviedb.org/movie/1172229 (api_snapshot): TMDB API 快照显示 ID 1172229 标题为「デッドデッドデーモンズデデデデデストラクション 後章」，上映日期为 2024-05-24，剧情承接前章并描述门出与凰兰进入大学后的故事。\n\nhttps://www.themoviedb.org/movie/1172228 (api_snapshot): TMDB API 快照显示 ID 1172228 为「デッドデッドデーモンズデデデデデストラクション 前章」，上映日期为 2024-03-22，属于前篇。\n\n备注：AniDB 页面本身无法直接抓取，但给定 Bangumi 关联数据中的 AniDB ID 17273 与作品别名能够作为线索；最终映射由 Bangumi subject 的版本信息与 TMDB 电影标题、日期、剧情直接确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/452432; https://www.themoviedb.org/movie/1172229; https://www.themoviedb.org/movie/1172228",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1172229,
+      "type": "movie"
+    }
+  ]
+}

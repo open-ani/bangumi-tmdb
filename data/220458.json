@@ -1,0 +1,22 @@
+{
+  "anidbId": 13300,
+  "bangumiId": 220458,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是《ダメプリ ANIME CARAVAN／废柴王子》的 TV 动画，共12话，2018-01-10开播；Bangumi 的标题、年份、剧情、制作信息与官方资料及 TMDB TV 作品一致。TMDB 76120 明确为同名作品，首播日期相同，共12集；TMDB 第1季列出1至12集，标题和日期与 Bangumi 章节逐集对应。因此应映射为 TMDB TV 76120 第1季完整一季。\n\nhttps://bgm.tv/subject/220458 (page): Bangumi 条目标记为 TV，标题为ダメプリ ANIME CARAVAN，中文名废柴王子，12话，2018-01-10开播，2018-03-28结束，并列出 Studio Flad 等制作信息。\n\nhttps://damepri-anime.jp/ (page): 官方资料说明作品改编自 DAME×PRINCE，采用动画原创故事，并确认2018年1月开始播出。\n\nhttps://damepri-anime.jp/story/storylist.html (page): 官方故事列表明确列出第1话至第12话，标题顺序与 Bangumi 章节一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 13300 对应为 Dame x Prince Anime Caravan，与 Bangumi 条目标题相符。\n\nhttps://www.themoviedb.org/tv/76120 (api_snapshot): TMDB API 快照显示 ID 76120 的日文原名为ダメプリ ANIME CARAVAN，首播日期为2018-01-10，共12集，仅有第1季且该季为12集。\n\nhttps://www.themoviedb.org/tv/76120/season/1 (api_snapshot): TMDB 第1季快照列出第1至第12集，播出日期从2018-01-10至2018-03-28；标题与 Bangumi 的12个正篇章节逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220458; https://damepri-anime.jp/; https://damepri-anime.jp/story/storylist.html; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/76120; https://www.themoviedb.org/tv/76120/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 76120,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

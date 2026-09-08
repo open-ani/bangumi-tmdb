@@ -1,0 +1,22 @@
+{
+  "anidbId": 12322,
+  "bangumiId": 189659,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目标为 TV，13 话，放送期为 2016-10-02 至 2017-01-08；东京电视台官方页面逐话列出的 13 个标题、剧情和日期均与其一致。AniDB 12322 的标题对应本 TV 动画；相邻的电影条目是另一版本，不应并入本 subject。TMDB 68137 名称、日语原名、原产国和 13 集总数吻合，其第 1 季明确为 13 集，完整剧集标题逐一对应 Bangumi/官方列表，因此采用第 1 季全集范围。TMDB 日期整体比日本官方日期晚一天，但不影响标题、顺序、数量和版本对应。\n\nhttps://bangumi.tv/subject/189659 (search_snippet): Bangumi 页面将条目标为 TV，列出 13 话、2016-10-02 开播、2017-01-08 完结，并给出 noprops、Studio DEEN、东京电视台等信息及对应剧情。\n\nhttps://www.tv-tokyo.co.jp/anime/aooni/episodes/ (page): 东京电视台官方页面逐一列出第 1 至第 13 话；标题与 Bangumi 及 TMDB 第 1 季完全对应，第 1 话为 2016-10-02、第 13 话为 2017-01-08。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 标题索引将 ID 12322 标为 “Ao Oni: The Animation”；相邻 ID 12323 为另一条 “Ao Oni the Animation” 记录。\n\nhttps://www.themoviedb.org/tv/68137 (api_snapshot): TMDB API 快照显示 TV 68137 的日语名称和原名均为「​​あおおに ～じ・あにめぇしょん～」，日本作品，共 13 集，仅有第 1 季且该季为 13 集。\n\nhttps://www.themoviedb.org/tv/68137/season/1 (api_snapshot): TMDB API 快照显示第 1 季包含 1–13 集；完整剧集标题与官方及 Bangumi 的 13 个标题逐一对应。\n\n备注：AniDB 原始页面访问受限，ID 类型与关联主要由输入中的已匹配 AniDB 数据、公开标题索引及 TV/电影标题和内容交叉核对。；TMDB 各集日期整体比日本官方播出日期晚一天，可能是日期口径差异；标题、顺序、数量和剧情对应关系明确。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/189659; https://bangumi.tv/subject/189659; https://www.tv-tokyo.co.jp/anime/aooni/episodes/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/68137; https://www.themoviedb.org/tv/68137/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68137,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

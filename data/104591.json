@@ -1,0 +1,30 @@
+{
+  "anidbId": 10761,
+  "bangumiId": 104591,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 9 集 OVA，章节为 2#14、2#16、2#17、2#18、2#19、2#22、2#23、2#24、2#25，且制作方为 GoHands、导演为金澤洪充。TMDB TV 36697 的特别篇第 0 季中，集 9、11–18 分别对应这些 2 期 OAD；第 10 集是 2#15 的另一部 OVA，不属于本 Bangumi 条目，因此不能整季纳入。\n\nhttps://bgm.tv/subject/104591 (page): Bangumi 将条目标为 OVA，共 9 集；章节列表明确列出 14、16、17、18、19、22、23、24、25，并给出 2014-05-16 至 2020-09-17 的发售日期、导演金澤洪充及动画制作 GoHands。\n\nhttps://www.themoviedb.org/tv/36697 (api_snapshot): TMDB TV 36697 为《生徒会役員共》，包含特别篇 season 0；其剧集快照显示该季共有 18 集。\n\nhttps://www.themoviedb.org/tv/36697/season/0 (api_snapshot): TMDB season 0 的第 9 集标为第 2 期 14 话，第 11–18 集依次对应第 2 期 16、17、18、19、22、23、24、25 话，日期与 Bangumi 章节一致；第 10 集为第 2 期 15 话，日期为 2014-10-22，未列入该 Bangumi 条目。\n\nhttps://zh.wikipedia.org/wiki/%E5%A6%84%E6%83%B3%E5%AD%B8%E7%94%9F%E6%9C%83 (search_snippet): 搜索摘要独立区分第 2 期 OAD 与 2#15 OVA，并将 2#20–21 归为剧场版，支持不把相关特别篇整季混入本条目。\n\n备注：AniDB 原站页面本轮抓取受 403 限制；不过 TMDB 映射由 Bangumi 的完整章节、日期、OVA 类型及 TMDB season 0 的标题和日期直接交叉确认，不依赖 AniDB ID 单独推导。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/104591; https://www.themoviedb.org/tv/36697; https://www.themoviedb.org/tv/36697/season/0; https://zh.wikipedia.org/wiki/%E5%A6%84%E6%83%B3%E5%AD%B8%E7%94%9F%E6%9C%83",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 9,
+      "id": 36697,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 11,
+      "episodeEnd": 18,
+      "id": 36697,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

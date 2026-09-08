@@ -1,0 +1,37 @@
+{
+  "anidbId": 7949,
+  "bangumiId": 8474,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 8474 是 2011 年由青木英执导、AIC Classic 制作的 TV 动画《放浪息子》（《放浪男孩》/Wandering Son），对应 TMDB TV 43926。作品制作了 12 话，但电视播出时把原制作版第 10、11 话剪辑为一话“10+11 ～Better half～”。Bangumi 将两话完整制作版列为正篇第 10、11 话，将合并播出版单列为特别篇；TMDB 则将合并版编为 S1E10，把两个完整制作版编为 S0E1–2。因此本 subject 的正篇范围是 TMDB S1E1–9、S0E1–2、S1E11；不能映射第 1 季全季，因为 S1E10 是本轮不应纳入的合并重剪版。\n\nhttps://bgm.tv/subject/8474 (page): Bangumi 页面确认 subject 8474 是《放浪息子》TV 动画，中文名《放浪男孩》，共 12 话，2011-01-13 开播，导演青木英，动画制作 AIC Classic，并列出别名 Hourou Musuko、Wandering Son。\n\nhttps://www.themoviedb.org/tv/43926 (api_snapshot): TMDB API 快照确认 TV 43926 原名《放浪息子》，2011 年首播；简介中的二鸟修一、高槻佳乃及两人的性别认同困境与该 Bangumi 动画一致。条目包含第 1 季 11 集和第 0 季特别篇 2 集。\n\nhttps://www.themoviedb.org/tv/43926/season/1 (api_snapshot): TMDB API 快照逐集显示，S1E1–9 的标题对应 Bangumi 正篇第 1–9 话；S1E10 是“10+11 ～Better half～”；S1E11 是“放浪息子はどこまでも ～Wandering son's progress～”，对应 Bangumi 正篇第 12 话。\n\nhttps://www.themoviedb.org/tv/43926/season/0 (api_snapshot): TMDB API 快照显示 S0E1 为“ぼくだけ笑われた ～Black sheep～”、S0E2 为“告白 ～Each season～”，日期分别为 2011-08-24、2011-09-21；标题和日期均对应 Bangumi 正篇第 10、11 话。\n\nhttps://bgm.tv/subject/8474/ep (page): Bangumi 章节页明确把“ぼくだけ笑われた”和“告白”列为本篇第 10、11 话，把“放浪息子はどこまでも”列为本篇第 12 话，并将“10+11 ～Better half～”另列为特别篇 SP10。\n\nhttps://www.houroumusuko.jp/news/ (page): 动画官方网站说明，电视播出的第 10 话“10+11”是把原本的第 10、11 两话为电视播出而编辑成的特别版；原版第 10 话“ぼくだけ笑われた”和第 11 话“告白”分别收录于 BD/DVD 第 5、6 卷。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8474; https://www.themoviedb.org/tv/43926; https://www.themoviedb.org/tv/43926/season/1; https://www.themoviedb.org/tv/43926/season/0; https://bgm.tv/subject/8474/ep; https://www.houroumusuko.jp/news/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 9,
+      "id": 43926,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 11,
+      "id": 43926,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 43926,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 1893,
+  "bangumiId": 53769,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是1969年1月6日开始、共94集的TV动画；AniDB 1893同名，标为1969—1970年94集，并且主创、角色和剧情简介一致，确认关联的是第1作而非1988/1998重制版。TMDB 102754同名、首播日期相同，简介与制作背景一致；其第1季明确包含94集，完整剧集列表为1—94，标题与Bangumi章节逐集对应。因此采用TV 102754第1季完整范围，不拆分集数。输入Bangumi剧集中的少数日期存在疑似录入偏差，但不影响版本和范围判断。\n\nhttps://bgm.tv/subject/53769 (page): Bangumi 条目为TV动画《ひみつのアッコちゃん》，中文名甜蜜小天使，共94话，放送时间为1969-01-06至1970-10-26，并列出1—94章及东映制作信息。\n\nhttps://anidb.net/anime/1893 (page): AniDB 1893的主标题为Himitsu no Akko-chan，官方日文名相同，类型为TV Series、94 episodes，时间为06.01.1969—26.10.1970；主创、角色和剧情简介与Bangumi条目一致，并明确区分1988/1998替代版本。\n\nhttps://www.themoviedb.org/tv/102754 (api_snapshot): TMDB TV 102754名为ひみつのアッコちゃん，首播日期1969-01-06，简介描述镜子精灵、魔法变身镜和加贺美厚子，节目总集数94，只有对应的第1季。\n\nhttps://www.themoviedb.org/tv/102754/season/1 (api_snapshot): TMDB第1季season_number为1、air_date为1969-01-06、episodeCount为94；完整剧集列表未截断，集数为1—94，标题和日期与Bangumi主体章节逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53769; https://anidb.net/anime/1893; https://www.themoviedb.org/tv/102754; https://www.themoviedb.org/tv/102754/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 102754,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

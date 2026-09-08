@@ -1,0 +1,22 @@
+{
+  "anidbId": 17643,
+  "bangumiId": 402740,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是 2023-01-01 发布、5 集、Netflix/J.C.STAFF 制作的《極主夫道 シーズン2》，并列出与候选版本一致的别名、导演和制作信息。独立动画资料也确认该版本为 2023 年、J.C.STAFF、5 集。TMDB 112160 的公开页面将主体标为动画并显示第二季为 2023 年 5 集；附带 API 快照进一步列出 season 2 的第 1–5 集，日期和剧情均与该动画版本一致，因此应映射为完整第二季。\n\nhttps://bgm.tv/subject/402740 (page): Bangumi 条目为《極主夫道 シーズン2》，2023-01-01、5 集，别名含 Gokushufudou: Season 2，制作公司 J.C.STAFF，导演今千秋，平台 Netflix。\n\nhttps://www.allcinema.net/cinema/pdf/384927 (page): 独立资料明确标为 2023 年 TV 动画，播出日期 2023-01-01，动画制作 J.C.STAFF，导演今千秋。\n\nhttps://animeschedule.net/anime/gokushufudou-season-2 (page): 确认《Gokushufudou 2 / The Way of the Househusband 2》为 2023 冬季 ONA，共 5 集，J.C. Staff，日文名为 極主夫道 シーズン2。\n\nhttps://waf.themoviedb.org/tv/112160?language=cs-CZ (page): TMDB 公开页面将 112160 标为动画，显示总计 15 集，并明确显示第 2 季为 2023 年、5 集，主要配音演员与该动画一致。\n\nhttps://www.themoviedb.org/tv/112160 (api_snapshot): API 快照显示 TMDB TV 112160 有 season 2，air_date 为 2023-01-01、episode_count 为 5。\n\nhttps://www.themoviedb.org/tv/112160/season/2 (api_snapshot): API 快照完整列出 season 2 的 episode 1–5，episodesTruncated 为 false，日期均为 2023-01-01，剧情与该动画第二季相符。\n\n备注：输入中的 TMDB 顶层 overview 含有玉木宏真人剧式描述，与动画元数据冲突；但 TMDB 公开页面的动画类型、配音演员、15 集总数及第二季 5 集信息均支持这是动画条目。AniDB 原始页面本次无法直接读取，AniDB 17643 数值仍主要依赖输入脚本关联；不过 Bangumi、制作信息、日期、别名和集数与该候选版本一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/402740; https://www.allcinema.net/cinema/pdf/384927; https://animeschedule.net/anime/gokushufudou-season-2; https://waf.themoviedb.org/tv/112160?language=cs-CZ; https://www.themoviedb.org/tv/112160; https://www.themoviedb.org/tv/112160/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 112160,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

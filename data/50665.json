@@ -1,0 +1,24 @@
+{
+  "anidbId": 5869,
+  "bangumiId": 50665,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将 subject 50665 明确列为 TV、51 集，首播 2008-04-05，并完整列出「紅き竜」至「青い空」；AniDB 5869 的标题为 Blue Dragon: Tenkai no Shichi Ryuu，与该续作一致。TMDB 36210 的 API 快照显示第 1 季为 2007 年首播的 51 集、第 2 季名为「天界の七竜」、2008-04-05 开播且为 51 集。TMDB 第 2 季页面中的开头「Red Dragon」及结尾第 49–51 集「Kaizerswerth / Memories / Blue Sky」与 Bangumi 的集名和剧情对应，因此应映射为 season 2 的完整 1–51 集；输入候选的 season 1 是错误季号。\n\nhttps://bgm.tv/subject/50665 (page): Bangumi 条目为 TV，话数 51，放送开始 2008-04-05；章节完整覆盖第 1 集「紅き竜」至第 51 集「青い空」，并标注其为 BLUE DRAGON 的续作。\n\nhttps://anidb.net/anime/5869 (page): AniDB 5869 页面标题为 Blue Dragon: Tenkai no Shichi Ryuu，与 Bangumi subject 的日文标题和续作版本一致。\n\nhttps://www.themoviedb.org/tv/36210 (api_snapshot): TMDB TV 36210 的 API 快照显示总计 102 集，season 1 为 51 集、2007-04-07 开播，season 2 名为「天界の七竜」、2008-04-05 开播且为 51 集。\n\nhttps://www.themoviedb.org/tv/36210-blue-dragon/season/2/episode/9?language=en-US (page): TMDB 页面将该作品标为 Blue Dragon: Trials of the Seven Shadows，并显示 season 2 的开头第 1 集为 Red Dragon，日期为 2008-04-05。\n\nhttps://www.themoviedb.org/tv/36210-blue-dragon/season/2/episode/28?language=en-US (page): TMDB 页面显示 season 2 第 49 集 Kaizerswerth、第 50 集 Memories、第 51 集 Blue Sky，且第 51 集为 Season Finale；这些对应 Bangumi 第 49–51 集的「カイザースヴェルト」「記憶」「青い空」。\n\n备注：TMDB 第 51 集页面显示日期为 2009-03-24，而 Bangumi 日本播出日期为 2009-03-28，存在 TMDB 日期元数据差异；标题、剧情、季号和完整集数范围仍一致。；未直接获得 TMDB season/2 的整季 API 逐集快照，但主 TV API 的季计数、TMDB 第 2 季实际集页面以及 Bangumi 完整章节列表共同支持 1–51 范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/50665; https://anidb.net/anime/5869; https://www.themoviedb.org/tv/36210; https://www.themoviedb.org/tv/36210-blue-dragon/season/2/episode/9?language=en-US; https://www.themoviedb.org/tv/36210-blue-dragon/season/2/episode/28?language=en-US",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 51,
+      "id": 36210,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

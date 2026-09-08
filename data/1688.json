@@ -1,0 +1,22 @@
+{
+  "anidbId": 5072,
+  "bangumiId": 1688,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi页面确认《Over Drive／铁马少年》是2007年4月3日开播、26集、XEBEC制作的TV动画。TMDB条目《オーバードライヴ》首播日期、剧情（篠崎ミコト与自行车部）及完整26集标题和日期均对应，因此应映射为TMDB TV 23713 第1季完整一季。没有发现需要拆分的其他主体正篇。\n\nhttps://bgm.tv/subject/1688 (page): Bangumi确认该主体为TV动画，中文名铁马少年，26集，2007年4月3日开播，原作安田刚士，动画制作XEBEC。\n\nhttps://www.themoviedb.org/tv/23713 (api_snapshot): TMDB API快照显示条目原名为「オーバードライヴ」，首播日期2007-04-03，共26集；简介中的篠崎ミコト、自行车部和ロードレーサー设定与Bangumi主体一致。\n\nhttps://www.themoviedb.org/tv/23713/season/1 (api_snapshot): TMDB API快照明确显示season_number=1、episodeCount=26，并提供第1至26集完整标题与日期；这些逐集信息与Bangumi章节列表逐一对应。\n\nhttps://gendou.com/amusic/lyrics.php?id=8451&show=3 (search_snippet): 搜索摘要将Over Drive相关歌曲链接至AniDB aid=5072，间接 corroborate 输入中的Bangumi→AniDB候选关联。\n\n备注：Bangumi页面的整体放送结束字段为2007年9月28日，而逐集列表及TMDB最后一集日期为2007年9月25日；该小幅日期差异不影响26集主体和季范围判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1688; https://www.themoviedb.org/tv/23713; https://www.themoviedb.org/tv/23713/season/1; https://gendou.com/amusic/lyrics.php?id=8451&show=3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 23713,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 17014,
+  "bangumiId": 360611,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是2022-01-08开播的《ニンジャラ》TV动画；官方简介、角色、制作信息与 TMDB 152271 一致。AnimeSchedule 页面将该作品的 AniDB 链接明确指向 17014；Bangumi 前60话标题与日期又逐项对应 TMDB 第1季，且官方页面确认该连续编号已播至第230话。TMDB 明确将正篇置于第1季；第0季为“特別編”，输入的 Bangumi 主体没有特别篇记录，因此不纳入。主体对应整季，使用完整季字段 null。\n\nhttps://bgm.tv/subject/360611 (search_snippet): Bangumi 页面将《ニンジャラ》标为TV，首播日为2022-01-08，并列出导演、系列构成、OLM制作等信息。\n\nhttps://animeschedule.net/anime/ninjala (page): 作品页面显示日文名ニンジャラ、TV、2022-01-08、OLM，并提供 AniDB 链接；该链接实际指向 https://anidb.net/anime/17014。\n\nhttps://www.tv-tokyo.co.jp/anime/ninjala/story/ (search_snippet): 电视东京官方故事简介与 Bangumi、TMDB 的忍者后裔、WNA、ニンジャガム和ニンジャラ设定一致。\n\nhttps://www.tv-tokyo.co.jp/anime/ninjala/staff/ (page): 官方制作信息列出森下一喜、島崎奈々子、鈴木敦、OLM，以及主要角色声优，与输入 Bangumi 信息相符。\n\nhttps://www.themoviedb.org/tv/152271 (api_snapshot): TMDB API 快照记录作品名ニンジャラ、首播日2022-01-08、日语原版，并列出第0季特別編和第1季シーズン1；第1季为232集。\n\nhttps://www.themoviedb.org/tv/152271/season/1 (api_snapshot): TMDB 第1季快照明确为season_number=1；第1至第60集的标题和日期与 Bangumi 第1至第60话逐项对应，剧集列表虽截断但季总数记录为232。\n\nhttps://www.tv-tokyo.co.jp/anime/ninjala/episodes/index_22.html (page): 官方剧集页确认《ニンジャラ》连续编号至少播至第230话，且第20至23话标题、日期和剧情与输入及 TMDB 快照一致。\n\n备注：TMDB 根记录的number_of_episodes为205，与第1季快照的232不一致；根记录计数未用于推导季号或范围。；TMDB 第1季剧集列表标记为截断，且输入 Bangumi 中第61至184话详情未提供；若后续发现这些话被拆入其他TMDB季，应重新复核。；Bangumi列出的233至244为未来占位记录，尚无标题和实际日期；本结论按当前已播主体及TMDB现有第1季归档。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/360611; https://animeschedule.net/anime/ninjala; https://www.tv-tokyo.co.jp/anime/ninjala/story/; https://www.tv-tokyo.co.jp/anime/ninjala/staff/; https://www.themoviedb.org/tv/152271; https://www.themoviedb.org/tv/152271/season/1; https://www.tv-tokyo.co.jp/anime/ninjala/episodes/index_22.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 152271,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

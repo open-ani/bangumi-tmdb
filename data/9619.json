@@ -1,0 +1,24 @@
+{
+  "anidbId": 2673,
+  "bangumiId": 9619,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确记录该条目为2005年OVA、共2话，标题和制作信息为《星界の戦旗III》。官方 SUNRISE 页面将主体分为 Volume 01「めぐりあう星たち」和 Volume 02「家族の食卓」，剧情分别对应流刑惑星ロブナスII及海德星系/马丁星线。TMDB 26209 的特别季第2、3集正好使用这两个标题；第1集「星界の断章 誕生」属于其他作品，不能纳入。因此应映射为 TV 26209 第0季第2至3集。\n\nhttps://bgm.tv/subject/9619 (page): Bangumi 将条目标为《星界の戦旗III》OVA，共2话，发售日期为2005-08-26至2005-09-23，并列出导演长冈康史、原作森冈浩之、SUNRISE等制作信息。\n\nhttps://www.sunrise-inc.co.jp/seikai/07/story.php (page): SUNRISE 官方各话介绍明确列出 Volume 01「めぐりあう星たち」和 Volume 02「家族の食卓」，剧情与该 Bangumi 条目主体一致。\n\nhttps://www.themoviedb.org/tv/26209 (api_snapshot): TMDB TV 26209 的名称为《星界の紋章》，包含特别季；其整体简介和系列信息对应星界系列。\n\nhttps://www.themoviedb.org/tv/26209/season/0 (api_snapshot): TMDB 第0季包含第1集「星界の断章 誕生」、第2集「めぐりあう星たち」和第3集「家族の食卓」；目标OVA仅对应第2至3集。\n\n备注：TMDB API 快照将第2、3集日期记录为2005-08-06，与Bangumi及SUNRISE对应的2005-08-26、2005-09-23不一致；但标题、两话结构、剧情和官方制作信息均一致，判断为TMDB日期元数据差异。；AniDB页面本次无法直接访问，但输入提供的AniDB ID 2673及匹配标题与上述直接作品证据一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9619; https://www.sunrise-inc.co.jp/seikai/07/story.php; https://www.themoviedb.org/tv/26209; https://www.themoviedb.org/tv/26209/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 3,
+      "id": 26209,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

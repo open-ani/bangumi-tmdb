@@ -1,0 +1,24 @@
+{
+  "anidbId": 10519,
+  "bangumiId": 99810,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2014 年、Manglobe 制作的 3 话 OVA，分别对应 Vol.A、Vol.B、Vol.C，并于 2014-06-18、2014-09-18、2014-12-18 发售。TMDB TV 56355 的特别篇 season 0 中，episode 2–4 标题正好为三部 2014 OVA；episode 1 是另一部 2009 年 OVA，因此不能整季纳入。AniDB ID 10519 的标题也对应 Hayate no Gotoku! (2014)。\n\nhttps://bgm.tv/subject/99810 (page): Bangumi 将条目标为 OVA，共 3 话，制作公司为 Manglobe，章节日期为 2014-06-18、2014-09-18、2014-12-18，并说明捆绑漫画第 41、42、43 卷特别版。\n\nhttps://www.themoviedb.org/tv/56355 (api_snapshot): TMDB TV 56355 的 season 0 共 4 集；其余常规季分别是 2007、2009、2012、2013 年的电视系列。\n\nhttps://www.themoviedb.org/tv/56355/season/0 (api_snapshot): TMDB season 0 episode 1 是 2009 年的《アツがナツいぜ 水着編》，episode 2、3、4 的标题分别为 OVA Volume A、Volume B、Volume C；因此主体应取 episode 2–4。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 10519 对应为 Hayate no Gotoku! (2014)。\n\nhttps://hayatenogotoku.fandom.com/wiki/Hayate_no_Gotoku!_10th_anniversary_OVA (search_snippet): 该作品是三部 10 周年 OVA，Vol.A、Vol.B、Vol.C 的发行日期分别为 2014-06-18、2014-09-18、2014-12-18。\n\n备注：TMDB 快照把 season 0 的 Volume B、Volume C 日期记录为 2014-06-20、2014-06-25，与 Bangumi及发行资料不一致；但标题、三部结构和版本信息一致，判断为 TMDB 日期元数据错误，不改变 episode 2–4 的范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/99810; https://www.themoviedb.org/tv/56355; https://www.themoviedb.org/tv/56355/season/0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://hayatenogotoku.fandom.com/wiki/Hayate_no_Gotoku!_10th_anniversary_OVA",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 4,
+      "id": 56355,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

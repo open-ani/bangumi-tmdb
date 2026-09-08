@@ -1,0 +1,22 @@
+{
+  "anidbId": 17322,
+  "bangumiId": 378504,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2023 年 5 月 11 日上线、12 集的《ULTRAMAN Final Season》，输入中的 AniDB 关联为 17322，标题与作品版本一致。官方资料确认 FINAL シーズン于同日 Netflix 发布、共 12 集；TMDB TV 80795 的第 3 季明确标为 2023 年 FINAL シーズン，共 12 集，且剧集标题、日期与输入的 12 集逐一对应。因此应映射为完整第 3 季，不是电影、OVA 或局部集数范围。\n\nhttps://bgm.tv/subject/378504 (page): Bangumi 条目标题为 ULTRAMAN Final Season，日期为 2023-05-11，共 12 集；输入关联数据记录 AniDB ID 17322。\n\nhttps://m-78.jp/pressrelease/230511-ultraman-final (search_snippet): 圆谷官方确认《ULTRAMAN》FINAL シーズン于 2023-05-11 全球 Netflix 配信，共 12 话。\n\nhttps://www.themoviedb.org/tv/80795 (search_snippet): TMDB TV 80795 为 ULTRAMAN，列出第 3 季为 2023 年、12 集，并标为系列结局。\n\nhttps://www.themoviedb.org/tv/80795/season/3 (api_snapshot): TMDB API 快照明确 season_number=3、名称为《ULTRAMAN》FINAL シーズン、air_date=2023-05-11、episodeCount=12；完整集标题和日期与 Bangumi 输入的 1–12 集对应。\n\nhttps://www.themoviedb.org/tv/80795 (api_snapshot): TMDB API 快照显示主条目包含第 1、2、3 季，第三季为 FINAL シーズン，避免将整部 TV 主条目误当作季号证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/378504; https://m-78.jp/pressrelease/230511-ultraman-final; https://www.themoviedb.org/tv/80795; https://www.themoviedb.org/tv/80795/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80795,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

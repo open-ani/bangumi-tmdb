@@ -1,0 +1,24 @@
+{
+  "anidbId": 17183,
+  "bangumiId": 368289,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是2023年4月1日开播、25集的《EDENS ZERO》第2期，制作公司、导演、原作等信息与官方资料一致。官方页面及节目资料将第2期逐集编号为全系列第26–50话；标题和日期与输入的25集逐项对应。TMDB 104711 的API快照确认其为同一日文TV作品，season 1包含50集，另有season 0特别编，因此该Bangumi主体应映射为TMDB season 1中的第26–50集，而不是虚构的season 2。\n\nhttps://bgm.tv/subject/368289 (search_snippet): Bangumi页面将该主体标为《EDENS ZERO 第2期》TV，2023年4月1日开始，共25话，制作公司为J.C.STAFF，导演为渡部穏寛。\n\nhttps://edens-zero.net/anime/ (page): 官方资料确认这是TV动画第2期，2023年4月1日开始；官方发行资料把第2期内容标为全系列第26–50话，并列出第2期制作人员与J.C.STAFF。\n\nhttps://www.tvguide.or.jp/db/anime/edens_zero/season2/ (search_snippet): 逐集资料明确把第2期第1–25话对应为全系列第26–50话，标题与输入的Bangumi集标题一致，例如第26话《ベリアル・ゴア》至第50话《葵大戦の序曲》。\n\nhttps://www.themoviedb.org/tv/104711 (api_snapshot): TMDB API快照确认ID 104711为《EDENS ZERO》日文TV作品，首播日期为2021-04-11，season 1有50集，并列有season 0特别编。\n\nhttps://www.themoviedb.org/tv/104711/season/2 (api_snapshot): 该季请求在快照中返回HTTP 404；此失败未被单独当作不存在，而是结合TMDB正向season 1的50集数据及官方全系列集数编号确定范围。\n\n备注：输入快照未附TMDB season 1的逐集API明细；季号与范围由TMDB正向季信息、官方全系列编号及标题/日期对应共同支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/368289; https://edens-zero.net/anime/; https://www.tvguide.or.jp/db/anime/edens_zero/season2/; https://www.themoviedb.org/tv/104711; https://www.themoviedb.org/tv/104711/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 26,
+      "episodeEnd": 50,
+      "id": 104711,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

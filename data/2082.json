@@ -1,0 +1,28 @@
+{
+  "anidbId": 3656,
+  "bangumiId": 2082,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 2082 是 SHAFT 制作、2006 年播出的《REC／レック／甜蜜声优》，其条目把九话电视正篇和 DVD 未放送的第 7.5 话《許されざる者》合计列为十话。TMDB 34195 是同一部日本动画：第 1 季完整九集的标题、剧情及播出顺序均与九话电视版吻合；Bangumi 第 8 条《許されざる者》（2006-06-30）则对应 TMDB 特别篇 S0E1。其后的 Bangumi 第 9、10 条分别对应 TMDB S1E8、S1E9。因此应映射 TMDB 34195 第 1 季全季，并额外映射 S0E1；不能纳入身份不明且不在 Bangumi 十话列表中的 TMDB S0E10。\n\nhttps://bgm.tv/subject/2082 (page): Bangumi 页面确认主体为 TV 动画《REC／甜蜜声优》，2006 年 2 月开播、SHAFT 制作，共列十话；章节列表第 8 条是《許されざる者》（2006-06-30），其前后分别是《戦争と平和》和《マイ・フェア・レディ》。\n\nhttps://www.tbs.co.jp/rec-aka/03story/story.html (page): TBS 官方剧情页列出实际电视播出的九话：第 1 话《ローマの休日》至第 9 话《いつも２人で》；其中第 8、9 话是《マイ・フェア・レディ》和《いつも２人で》，证明《許されざる者》不是电视版第 8 话。\n\nhttps://www.themoviedb.org/tv/34195 (api_snapshot): TMDB API 快照显示 TV 34195 原名《レック》，日本作品，首播于 2006-02-03，共九集，并设有第 1 季和特别篇第 0 季；作品身份、年代和媒介均与目标一致。\n\nhttps://www.themoviedb.org/tv/34195/season/1 (api_snapshot): TMDB API 快照显示第 1 季共九集，标题依次为《ローマの休日》至《いつも２人で》；标题、13 分钟片长及松丸文彦与恩田赤的剧情均对应《REC》的九话电视正篇。\n\nhttps://www.themoviedb.org/tv/34195/season/0 (api_snapshot): TMDB API 快照明确把 S0E1 标为“7.5話 『許されざる者』”，日期为 2006-06-30，简介为“TV未放送話”，与 Bangumi 第 8 条的标题和日期完全对应；第 0 季另有 S0E10，因此这里只能取 E1。\n\nhttps://animeschedule.net/anime/rec-special (page): 独立资料将《許されざる者》说明为 DVD 限定的一集：在原电视九话中相当于第 7.5 话，在 DVD 十话编排中作为第 8 话，发布日期为 2006-06-30；这解释了 Bangumi 十话顺序与 TMDB 分季方式的差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2082; https://www.tbs.co.jp/rec-aka/03story/story.html; https://www.themoviedb.org/tv/34195; https://www.themoviedb.org/tv/34195/season/1; https://www.themoviedb.org/tv/34195/season/0; https://animeschedule.net/anime/rec-special",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34195,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34195,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

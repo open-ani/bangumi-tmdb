@@ -1,0 +1,22 @@
+{
+  "anidbId": 94,
+  "bangumiId": 2913,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 2913 明确是《万有引力OVA／Gravitation: Lyrics of Love OVA》，发售日为 1999-07-23、共 2 话，并与《グラビテーション》TV subject 2912 关联；其 AniDB ID 为 94。TMDB TV 30979 的季列表明确将 season 0 标为「特別編」，日期同为 1999-07-23、共 2 集，而 season 1 是 2000 年播出的 13 集 TV 正篇。因此对应 TMDB 30979 的 season 0 整季，不应采用 season 1。\n\nhttps://bgm.tv/subject/2913 (page): Bangumi subject 名称为「万有引力OVA／グラビテーション」，发售日 1999-07-23，2 话；制作信息为原作村上真紀、脚本川崎ヒロユキ、动画制作プラム；并关联 TV subject 2912。\n\nhttps://www.themoviedb.org/tv/30979 (api_snapshot): TMDB TV 30979 的季列表明确包含 season 0「特別編」（1999-07-23，2 集）和 season 1（2000-10-04，13 集）。\n\nhttps://www.themoviedb.org/tv/30979/season/1 (api_snapshot): TMDB season 1 的 13 集日期为 2000-10-04 至 2001-01-10，属于 TV 正篇，不是 1999 年 OVA subject 的目标季。\n\n备注：TMDB 输入快照未提供 season 0 的逐集标题和日期，无法进一步核对两集的具体标题；但季号、发售日期和集数已由 TV 主 API 快照明确支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2913; https://www.themoviedb.org/tv/30979; https://www.themoviedb.org/tv/30979/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 30979,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "anidbId": 788,
+  "bangumiId": 38326,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 A.P.P.P. 制作的 13 话 OVA，且制作人员将第 1–7 话与第 8–13 话分开标注。其实际对应 1993–1994 年发行的 6 话和 2000–2002 年发行的 7 话，而非 2012 年后的 TV 动画、电影或总集篇。TMDB 60862 的快照明确将作品分为第 1 季（1993 年，6 集）和第 2 季（2000 年，7 集）；TMDB 第 1 季的标题、日期与 Bangumi 第 8–13 话逐一对应，独立剧集资料也确认第 1–7 话是 2000–2002 年版本。因此应纳入两个完整季。AniDB 788 关联本身不是完整的一对一依据：公开标题索引同时列有 788 与 789（2000 版），但不影响通过 Bangumi、制作信息、日期和 TMDB 季结构确认目标。\n\nhttps://bgm.tv/subject/38326 (page): Bangumi 将该 subject 标为 OVA、共 13 话；导演、脚本等制作信息明确区分 1–7 话与 8–13 话。\n\nhttps://www.themoviedb.org/tv/60862 (api_snapshot): TMDB 作品快照显示共 13 集，分为第 1 季“1993年”6 集和第 2 季“2000年”7 集，首播日为 1993-11-19。\n\nhttps://www.themoviedb.org/tv/60862/season/1 (api_snapshot): TMDB 第 1 季共 6 集，标题和日期对应 Bangumi 第 8–13 话：1993-11-19、1993-12-17、1994-07-21、1994-08-09、1994-10-21、1994-11-18。\n\nhttps://jojowiki.com/Part_3_OVA (page): 剧集资料将 Adventure 1–7 列为 2000 系列、Adventure 8–13 列为 1993 系列，并列出与 Bangumi 相符的标题及发行日期。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引同时列出 788“JoJo no Kimyou na Bouken”和 789“JoJo no Kimyou na Bouken (2000)”，说明 AniDB 788 不能单独作为 13 话合并 subject 的完整标准答案。\n\n备注：AniDB 官方 788 详情页无法直接读取，且其与 Bangumi 合并 subject 的一对一关系不完整；本结论未仅依赖该关联，而是依据 Bangumi 的 13 话拆分、制作信息、日期和 TMDB 季结构确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38326; https://www.themoviedb.org/tv/60862; https://www.themoviedb.org/tv/60862/season/1; https://jojowiki.com/Part_3_OVA; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 60862,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 60862,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

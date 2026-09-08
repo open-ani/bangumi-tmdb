@@ -1,0 +1,22 @@
+{
+  "anidbId": 12223,
+  "bangumiId": 185291,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2017-01-11 至 2017-03-29 播出的 12 集短篇 TV 动画，标题、别名、剧情、原作、导演及 ZERO-G 制作信息均与 TMDB TV 69300 相符。TMDB 主条目标记为 12 集、首播日 2017-01-11；第 1 季明确为 12 集，且完整剧集日期逐集对应 Bangumi 的 12 集日期。因此应映射为 TMDB 第 1 季完整范围。未发现电影、OVA、总集篇或重剪版需要另行纳入。\n\nhttps://bgm.tv/subject/185291 (page): Bangumi 条目为《ピアシェ～私のイタリアン～》TV，12 集，2017-01-11 开播、2017-03-29 完结；列出原作 Nab_At、导演桜井弘明、动画制作 ZERO-G、剧情简介及 01–12 集。\n\nhttps://www.themoviedb.org/tv/69300 (api_snapshot): TMDB API 快照显示条目标题为「ピアシェ～私のイタリアン～」，首播日 2017-01-11，剧情为女子高中生在意大利餐厅 Festa 工作并接触料理，制作国家日本，共 12 集。\n\nhttps://www.themoviedb.org/tv/69300/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、首播日 2017-01-11、12 集；第 1–12 集日期依次为 2017-01-11、01-18、01-25、02-01、02-08、02-15、02-22、03-01、03-08、03-15、03-22、03-29，与 Bangumi 逐集对应。\n\n备注：AniDB 12223 的原始页面本次无法直接读取；但 Bangumi 条目的标题、年份、剧情、制作信息和完整集数与 TMDB 69300 的 TV 条目及第 1 季独立一致，版本识别仍有充分交叉证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/185291; https://www.themoviedb.org/tv/69300; https://www.themoviedb.org/tv/69300/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69300,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 12575,
+  "bangumiId": 199827,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《闇芝居》第4期，TV 类型、13话，播出于2017-01-15至2017-03-26，并列出第1至第13话。东京电视台官方页面确认第4期的13个故事、制作信息及对应播出日期；TMDB API 快照中的 TV 56559 第4季也是13集，日期序列与官方资料逐集对应（TMDB 日期整体因时区晚一天）。因此应映射为 TV 56559 第4季完整一季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/199827 (page): Bangumi 将该条目标为《闇芝居 第4期》TV，13话，2017年1月15日至3月26日，制作公司为 ILCA，并列出第1至第13话及第3期/第5期关联。\n\nhttps://www.tv-tokyo.co.jp/anime/yamishibai4/densetsu/ (page): 东京电视台官方页面确认《闇芝居 4期》，列出13个故事（舌、水槽、裁ち鋏、赤いハイヒール、夜行バス、誰だ、靴音、カセットテープ、歯ぎしり、招び鶴、白線、かまくら、地下道）及2017-01-15至2017-03-26的播出日期。\n\nhttps://www.themoviedb.org/tv/56559 (api_snapshot): TMDB API 快照确认 TV ID 56559 为《闇芝居》，日本动画系列，包含第4季且该季有13集。\n\nhttps://www.themoviedb.org/tv/56559/season/4 (api_snapshot): TMDB API 快照确认第4季 season_number=4、2017-01-16开播、13集，集数为1至13，日期序列与官方第4期逐集对应。\n\n备注：输入中的 AniDB ID 12575 与名称匹配状态未能通过 AniDB 详情页独立读取核验；该关联未作为最终映射的决定性依据。AniDB 页面访问返回403，后续如需审计关联本身，应从可访问的 AniDB 页面或其公开 API/XML 重新确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/199827; https://www.tv-tokyo.co.jp/anime/yamishibai4/densetsu/; https://www.themoviedb.org/tv/56559; https://www.themoviedb.org/tv/56559/season/4",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 56559,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

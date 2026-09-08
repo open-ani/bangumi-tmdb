@@ -1,0 +1,22 @@
+{
+  "anidbId": 5024,
+  "bangumiId": 19707,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该条目标记为 TV，名称为“彩雲国物語 第2シリーズ”，首播 2007-04-07，共 39 话，并列出导演宍戸淳、动画制作 MADHOUSE、NHK 等信息。TMDB TV 42980 是同一部《彩雲国物語》总系列，包含两个各 39 集的季度；其第 2 季明确为 2007-04-07 开播、39 集，完整剧集快照的标题、日期和剧情与 Bangumi 第 2 系列相符，末集为 2008-03-08。因此应映射为 TMDB 42980 的第 2 季完整范围，而非总系列或特别篇。\n\nhttps://bgm.tv/subject/19707 (page): Bangumi 页面确认该条目是 TV《彩雲国物語 第2シリーズ》，39 话，2007-04-07 开播，2008-03-08 完结，并列出 MADHOUSE、NHK、宍戸淳等制作信息；章节 1–39 与输入中的条目一致。\n\nhttps://www.themoviedb.org/tv/42980 (api_snapshot): TMDB API 快照确认 TV ID 42980 为《彩雲国物語》，总计 78 集，包含第 1 季和第 2 季，两个季度均为 39 集。\n\nhttps://www.themoviedb.org/tv/42980/season/2 (api_snapshot): TMDB 第 2 季 API 快照确认 season_number=2、名称为“シーズン2”、开播 2007-04-07、共 39 集；完整剧集列表为 1–39，首集标题“わが家に勝る所なし”、末集日期 2008-03-08，且前 16 集标题与 Bangumi 章节逐项对应。\n\nhttps://www.themoviedb.org/tv/42980-the-story-of-saiunkoku?language=zh-CN (search_snippet): TMDB 页面搜索摘要再次显示 Season 2 于 2007-04-07 首播，并以第 39 集（2008-03-08）作为季度终集。\n\nhttps://www.themoviedb.org/tv/42980-the-story-of-saiunkoku/season/2/episode/2?language=zh-HK (search_snippet): TMDB 第 2 季剧集页面搜索摘要显示第 2 季的前两集标题、播出日期和 25 分钟时长，与 Bangumi/输入剧集信息一致。\n\nhttps://anidb.app/anime/saiunkoku-monogatari-4545 (search_snippet): AniDB 搜索摘要确认《Saiunkoku Monogatari 2nd Season》是《Saiunkoku Monogatari》的 TV 后续系列，名称和版本关系与输入提供的 AniDB 关联线索一致。\n\n备注：AniDB 的直接 5024 页面无法访问，因此无法仅凭公开页面独立核验该数字 ID；但 Bangumi 条目、名称、播出日期、制作信息及 TMDB 第 2 季完整剧集内容均已形成一致证据链。；TMDB 总系列还包含特别篇季 0，但 Bangumi 条目本身没有特别篇章节；本映射只纳入主体对应的第 2 季 39 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/19707; https://www.themoviedb.org/tv/42980; https://www.themoviedb.org/tv/42980/season/2; https://www.themoviedb.org/tv/42980-the-story-of-saiunkoku?language=zh-CN; https://www.themoviedb.org/tv/42980-the-story-of-saiunkoku/season/2/episode/2?language=zh-HK; https://anidb.app/anime/saiunkoku-monogatari-4545",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42980,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

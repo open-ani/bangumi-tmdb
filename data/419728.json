@@ -1,0 +1,22 @@
+{
+  "anidbId": 17860,
+  "bangumiId": 419728,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2023年播出的12集TV动画，标题、别名、剧情、制作公司与官方资料一致。Wikidata 交叉列出同一作品的 AniDB ID 17860 与 TMDB TV ID 229610；TMDB API 快照显示该TV作品只有第1季且共12集，完整剧集标题、剧情和日期与 Bangumi/官方逐集资料一致。因此应映射为 TMDB 229610 第1季完整范围，不是电影、OVA、总集篇或重剪版。Bangumi/官方记为2023-10-02，TMDB记为2023-10-03，属于首播日期元数据的一日差异，不影响作品和季集范围判断。\n\nhttps://bgm.tv/subject/419728 (page): Bangumi 条目标为TV，中文名为某大叔的VRMMO活动记，话数12，放送期为2023-10-02至2023-12-18，并列出与候选相同的日文名、别名、原作和MAHO FILM等制作信息。\n\nhttps://www.wikidata.org/wiki/Q116756968 (page): 同一日文/英文标题的日本动画TV系列条目列出 AniDB anime ID 17860、TMDB TV series ID 229610、1季、12集，起止时间为2023-10-03至2023-12-18。\n\nhttps://toaru-ossan.com/story/ (page): 官方故事页列出第01话至第12话，末话标题为「アース、怒る」，与输入的Bangumi及TMDB逐集标题序列一致。\n\nhttps://toaru-ossan.com/blu-ray/ (page): 官方蓝光资料明确收录本編1～12話，另将无字幕OP/ED、PV和SPOT集列为特典映像，支持主体是12集TV正篇而非额外总集篇或OVA。\n\nhttps://www.themoviedb.org/tv/229610 (api_snapshot): TMDB API 快照显示作品标题为とあるおっさんのVRMMO活動記，首播年份为2023，number_of_episodes为12，且seasons中有season_number 1、episode_count 12。\n\nhttps://www.themoviedb.org/tv/229610/season/1 (api_snapshot): TMDB API 快照的第1季包含完整第1至第12集；标题、剧情概要和播出日期均与Bangumi及官方逐集资料对应。\n\n备注：Bangumi/官方首播日期为2023-10-02，而TMDB快照为2023-10-03；具体原因未由这些页面明确说明，但不影响ID、季号和完整12集范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/419728; https://www.wikidata.org/wiki/Q116756968; https://toaru-ossan.com/story/; https://toaru-ossan.com/blu-ray/; https://www.themoviedb.org/tv/229610; https://www.themoviedb.org/tv/229610/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 229610,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

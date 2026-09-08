@@ -1,0 +1,22 @@
+{
+  "anidbId": 4223,
+  "bangumiId": 2813,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ストロベリー・パニック》2006 年 TV 动画，共 26 话，2006-04-03 开播；制作人员、剧情和标题均与 TMDB 36157 一致。TMDB 第 1 季明确为 2006-04-03 开播、26 集，所列 26 个剧集标题与 Bangumi 正篇逐集对应，因此应映射为完整第 1 季，无需缩小集数范围。AniDB 4223 的公开标题索引也对应 Strawberry Panic，未发现电影、OVA、总集篇或重剪版混入主体。\n\nhttps://bgm.tv/subject/2813 (page): Bangumi 将该条目标为 TV，话数 26，放送开始于 2006 年 4 月 3 日，放送结束于 2006 年 9 月 25 日，并列出导演迫井政行、音乐平野義久、动画制作 MADHOUSE 等信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 4223 对应为 Strawberry Panic。\n\nhttps://www.themoviedb.org/tv/36157 (api_snapshot): TMDB API 快照显示 ID 36157 为 Strawberry Panic，原名同名，首播日期 2006-04-03，共 26 集，剧情为阿斯特拉艾亚丘三所女子学校及共同宿舍中的故事。\n\nhttps://www.themoviedb.org/tv/36157/season/1 (api_snapshot): TMDB 第 1 季快照明确 season_number=1、episodeCount=26、air_date=2006-04-03；剧集 1 至 26 的标题和剧情与 Bangumi 正篇逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2813; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/36157; https://www.themoviedb.org/tv/36157/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36157,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

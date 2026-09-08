@@ -1,0 +1,22 @@
+{
+  "anidbId": 9935,
+  "bangumiId": 76325,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 2014 年播出的 TV 动画《デート・ア・ライブII》，话数为 10，且与第一季、OAD 和剧场版分别建条目。BangumiExtLinker 给出的 AniDB ID 9935 与公开 AniDB 标题索引中的 Date a Live II 一致；KADOKAWA 官方资料也确认该版本为《デート・ア・ライブⅡ》TV 放映作品，制作公司为 Production IMS。TMDB TV 46004 的第 2 季名称为《デート・ア・ライブⅡ》，季首日期为 2014-04-12、共 10 集；完整集标题依次与 Bangumi 的 10 集一致。TMDB 日期比日本播出日期晚一天，符合日期表示差异，不影响版本对应。因此应匹配整季第 2 季，不需额外缩小集数范围。\n\nhttps://bgm.tv/subject/76325 (page): Bangumi 条目为 TV《デート・ア・ライブII》/《约会大作战 第二季》，话数 10，放送开始于 2014 年 4 月 11 日，章节为 01–10；关联条目将 OAD 和剧场版分开。\n\nhttps://kadokawa-animation.jp/lineup/date-a-live-anime-2nd (page): KADOKAWA 官方资料将《デート・ア・ライブⅡ》列为 TV 放映/配信作品，版权标注为 2014 年，并列出 Production IMS 为动画制作公司。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 ID 9935 标为 Date a Live II，与输入中的 Bangumi→AniDB 匹配结果一致。\n\nhttps://www.themoviedb.org/tv/46004 (api_snapshot): TMDB TV 46004 的主条目名为《デート・ア・ライブ》，包含第 2 季《デート・ア・ライブⅡ》，该季共 10 集。\n\nhttps://www.themoviedb.org/tv/46004/season/2 (api_snapshot): TMDB 第 2 季为 season 2，名称为《デート・ア・ライブⅡ》，episodeCount 为 10；第 1–10 集标题和剧情分别对应 Bangumi 的 10 集，未发现需排除的主体内特别篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/76325; https://kadokawa-animation.jp/lineup/date-a-live-anime-2nd; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/46004; https://www.themoviedb.org/tv/46004/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46004,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

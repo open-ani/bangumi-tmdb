@@ -1,0 +1,22 @@
+{
+  "anidbId": 4974,
+  "bangumiId": 4008,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 4008 是 2007 年发行的《ICE》OVA，共 3 集，日期为 2007-05-25、2007-07-27、2007-09-25。TMDB TV 44451 的首播日期为 2007-05-25，第一季共 3 集；季内三集标题分别为「はと-HEART」「るる-RULE」「あさ-ANSWER」，日期与 Bangumi 三集完全对应。因此应映射为 TMDB TV 44451 第 1 季完整纳入。Bangumi 与《ICE〈劇場版〉》另有关系，但当前 subject 主体是 OVA，不应改映射为电影。\n\nhttps://bgm.tv/subject/4008 (api_snapshot): Bangumi subject 4008《ICE》标注为 OVA，3 集，发行日期为 2007-05-25 至 2007-09-25；三集标题和日期分别对应 HEART、RULE、ANSWER。\n\nhttps://www.themoviedb.org/tv/44451 (api_snapshot): TMDB TV 44451《ICE》首播日期为 2007-05-25，共 3 集，包含第 1 季。\n\nhttps://www.themoviedb.org/tv/44451/season/1 (api_snapshot): TMDB 第 1 季共 3 集，标题与日期分别为 はと-HEART（2007-05-25）、るる-RULE（2007-07-27）、あさ-ANSWER（2007-09-25），与 Bangumi 主体逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4008; https://www.themoviedb.org/tv/44451; https://www.themoviedb.org/tv/44451/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44451,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "anidbId": 9038,
+  "bangumiId": 101737,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2009-08-21 公映、片长 5 分 36 秒、仅 1 集的《Ring of Gundam》短篇 CG 动画；AniDB 9038 的标题也对应 Ring of Gundam。TMDB 的候选 TV 21731 实际是 1979 年《机动战士高达》43 集电视正篇，版本、年份和剧情均不匹配。TMDB 人物作品页列出 2009 年 Ring of Gundam，链接解析到电影条目 705948；该作品应按独立电影处理，不涉及季或集数范围。\n\nhttps://bgm.tv/subject/101737 (page): Bangumi 条目确认标题为《リング・オブ・ガンダム》，上映年度为 2009 年 8 月 21 日，话数 1，片长 5 分 36 秒，并列出 Sunrise、Robot、富野由悠季等制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 9038 对应为 Ring of Gundam， corroborates 输入中的 AniDB 关联。\n\nhttps://www.themoviedb.org/tv/21731 (api_snapshot): TMDB API 快照显示候选 TV 21731 为《機動戦士ガンダム》，首播 1979-04-07，共 43 集；第 0 季请求返回 404，不能作为本 subject 的目标。\n\nhttps://www.themoviedb.org/person/79737?language=en-US (page): TMDB 富野由悠季人物页的 Directing credits 列出 2009 年 Ring of Gundam，并提供对应 TMDB 作品链接。\n\nhttps://www.themoviedb.org/movie/705948 (page): TMDB 作品链接解析为 Ring of Gundam 的电影条目 ID 705948。\n\nhttps://eiga.com/movie/83200/ (search_snippet): 独立作品资料确认 Ring of Gundam 是为高达 30 周年制作的 2009 年短篇作品，时长约 5 分钟，由富野由悠季执导，Sunrise 制作。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101737; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/21731; https://www.themoviedb.org/person/79737?language=en-US; https://www.themoviedb.org/movie/705948; https://eiga.com/movie/83200/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 705948,
+      "type": "movie"
+    }
+  ]
+}

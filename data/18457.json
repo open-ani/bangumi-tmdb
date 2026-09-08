@@ -1,0 +1,22 @@
+{
+  "anidbId": 980,
+  "bangumiId": 18457,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2000-10-16 开播的《人造人間キカイダーTHE ANIMATION》，记录为 13 集；AniDB 980 的别名、年份、导演、制作公司和剧情均与 TMDB 20101 相符。TMDB 20101 第 1 季明确为 13 集、2000-10-16 开播，剧集标题与 Bangumi 基本逐集对应。Bangumi 主体内包含《青い月、赤い夢》（sort 7.5），Annict 明确将其列为第 8 集总集篇，因此按要求不能遗漏；它虽被 TMDB 异常排在第 13 集，但选择完整第 1 季可覆盖主体全部 13 集。TMDB 第 2 季是另一个 Bangumi subject《キカイダー01 THE ANIMATION》，不应纳入；第 0 季为额外特别篇，也不纳入。\n\nhttps://bgm.tv/subject/18457 (page): 输入的 Bangumi subject 记录为 13 集，首播日期 2000-10-16，标题为《人造人間キカイダーTHE ANIMATION》，并包含《青い月、赤い夢》这一主体内条目。\n\nhttps://www.themoviedb.org/tv/20101 (api_snapshot): TMDB TV 20101 标题、原文标题、首播日期 2000-10-16、日语/日本制作信息和剧情与该 Bangumi subject 匹配；其季列表显示第 1 季 13 集、第 2 季为《キカイダー01 THE ANIMATION》4 集。\n\nhttps://www.themoviedb.org/tv/20101/season/1 (api_snapshot): TMDB 第 1 季明确有 13 集，包含《孤独な人形》《狂った機械》《ストレイ・シープ》《鏡》《雨の街》《負の断片》《ともだち》《凍る絆》《破壊魔》《夢見る機械》《夢の末路》和《青い月、赤い夢》等对应标题。\n\nhttps://prod4.annict.com/works/916/episodes (page): 独立剧集表列出第 1 至第 13 集，并将《青い月赤い夢》列为第 8 集总集编，随后为《ともだち》至《夢の末路》。\n\nhttps://www.aniplex.co.jp/lineup/Kikaider/ (page): 官方资料确认 2000 年播出的《人造人間キカイダー THE ANIMATION》与 2001 年的 OVA《キカイダー01 THE ANIMATION》是不同作品/篇章，支持只采用 TMDB 第 1 季。\n\n备注：TMDB 快照把《青い月、赤い夢》放在第 13 集且日期为 2000-12-04，和按播出顺序应为第 8 集的独立剧集表不一致；由于主体要求覆盖完整 13 集，采用完整第 1 季即可避免错误推导单集范围。；官方简介称主线为全 12 话，可能是不计总集篇的叙事集数；Bangumi、Annict 和 TMDB 均将主体/第 1 季计为 13 集，因此未排除该主体内总集篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/18457; https://www.themoviedb.org/tv/20101; https://www.themoviedb.org/tv/20101/season/1; https://prod4.annict.com/works/916/episodes; https://www.aniplex.co.jp/lineup/Kikaider/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 20101,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

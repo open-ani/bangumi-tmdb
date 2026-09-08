@@ -1,0 +1,32 @@
+{
+  "anidbId": 6057,
+  "bangumiId": 89727,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject《カスミン／妙妙魔法屋》明确是完整 TV 动画，共 78 集，分为 3 个各 26 集的系列；不是仅 AniDB 6057 所代表的第一系列。AniDB 6057 确认为第一系列（26 集，2001-10-13 至 2002-04-06），并关联第二、第三系列。TMDB 28855 的主条目同名、首播日相同、共 78 集，并明确列出 3 季各 26 集：第1季 2001-10-13，第2季 2002-10-05，第3季 2003-04-09。Bangumi 的 1-26、27-52、53-78 日期分别与这三季吻合，因此应映射为同一 TMDB TV 条目的完整三季。\n\nhttps://bgm.tv/subject/89727 (search_snippet): Bangumi 条目为《カスミン》TV，中文名《妙妙魔法屋》，共 78 集；标注 1-3 系列各 26 集，放送期为 2001-10-13 至 2003-10-01。\n\nhttps://anidb.net/anime/6057 (page): AniDB 6057 是《Kasumin 1st Series／カスミン (第1シリーズ)》，TV、26 集，2001-10-13 至 2002-04-06；页面还列出第二、第三系列分别为续作/关联作品，各 26 集。\n\nhttps://www.themoviedb.org/tv/28855 (api_snapshot): TMDB 28855 名为《カスミン》，首播 2001-10-13，共 78 集；季元数据明确为第1、2、3季，各 26 集，开播日分别为 2001-10-13、2002-10-05、2003-04-09。\n\nhttps://www.themoviedb.org/tv/28855/season/1 (api_snapshot): TMDB 第1季为 26 集，2001-10-13 至 2002-04-06；完整剧集标题、日期与 Bangumi 第1-26集逐条对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/89727; https://anidb.net/anime/6057; https://www.themoviedb.org/tv/28855; https://www.themoviedb.org/tv/28855/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 28855,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 28855,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "id": 28855,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

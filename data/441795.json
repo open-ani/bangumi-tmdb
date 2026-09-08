@@ -1,0 +1,24 @@
+{
+  "anidbId": 18066,
+  "bangumiId": 441795,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2024 年 1 月 6 日至 3 月 30 日播出的《僕の心のヤバイやつ》第2期，共13集，章节编号为13–25。TMDB 标准剧集记录将第1期与第2期合并为 season 1，共25集；TMDB 的自定义制作分组进一步标为第1期12集、第2期13集。因此该 Bangumi subject 对应 TMDB season 1 的第13–25集，而不是不存在于标准 season endpoint 中的 season 2。\n\nhttps://bgm.tv/subject/441795 (page): Bangumi 将条目标为 TV《僕の心のヤバイやつ 第2期》，共13话，首播2024-01-06，完结2024-03-30；章节列表为13至25，制作公司为シンエイ動画。\n\nhttps://bgm.tv/ep/1279648 (page): Bangumi 第13集标题为「僕らは探している」，首播2024-01-06，剧情为第二期开始后的第三学期。\n\nhttps://bgm.tv/ep/1288116 (page): Bangumi 第25集标题为「僕と私の恋心」，属于该第二期主体的最后一集。\n\nhttps://www.themoviedb.org/tv/207250 (api_snapshot): TMDB API 快照显示 TV ID 207250，首播2023-04-02，共25集；标准 seasons 只有特别篇 season 0 与名为「第1期～第2期」的 season 1（25集）。\n\nhttps://www.themoviedb.org/tv/207250/episode_group/6599aef421621d0202353f61 (page): TMDB 的自定义制作分组将该作品拆为 Season 1 12集、Season 2 13集，支持将 Bangumi 第二期映射到合并标准 season 1 的后13集。\n\nhttps://www.themoviedb.org/tv/207250/season/2 (api_snapshot): 输入提供的 TMDB season 2 API 请求快照返回 HTTP 404；该失败未被当作作品不存在，而是与标准剧集记录的 season 1 合并结构及自定义分组共同判断。\n\n备注：TMDB 标准 season 1 的逐集 API 快照未随输入提供；但 Bangumi 的13集主体、TMDB合并季的25集记录及TMDB自定义12+13分组相互吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/441795; https://bgm.tv/ep/1279648; https://bgm.tv/ep/1288116; https://www.themoviedb.org/tv/207250; https://www.themoviedb.org/tv/207250/episode_group/6599aef421621d0202353f61; https://www.themoviedb.org/tv/207250/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 25,
+      "id": 207250,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

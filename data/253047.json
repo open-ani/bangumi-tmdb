@@ -1,0 +1,28 @@
+{
+  "anidbId": 14204,
+  "bangumiId": 253047,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2022 年 7 月开播、12 话的 TV 动画，标题、首播日期、剧情简介、制作人员与 AniDB 14204 对应作品一致。TMDB 93655 的首播日期同为 2022-07-03，主季为第 1 季且完整列出 12 集；集名和日期与 Bangumi 1—12 话逐一对应，因此主范围为第 1 季完整 12 集。Bangumi 另列出 2022-08-14 的第 1—6 话总集篇（6.5），TMDB 第 0 季为同日、单集的特别编，故补映射为第 0 季第 1 集。2022-09-17 的 AT-X 特番属于额外广播特典，现有 TMDB 快照未显示对应集，不纳入必要正篇范围。\n\nhttps://bgm.tv/subject/253047 (page): Bangumi 将该条目标为 TV，话数 12，放送日期为 2022-07-03 至 2022-09-25；章节包含正片 1—12、SP 以及 06.5 总集篇。\n\nhttps://anidb.net/anime/14204 (page): AniDB 页面标题为 Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches，与 Bangumi 条目日文名及别名一致。\n\nhttps://www.wikidata.org/wiki/Q98821973 (search_snippet): 检索摘要将 Luminous Witches 与 AniDB anime ID 14204、TMDB TV series ID 93655 关联。\n\nhttps://www.w-witch.jp/luminous/ (page): 官方站确认该动画于 2022 年 7 月在 AT-X、TOKYO MX 等频道开播。\n\nhttps://www.themoviedb.org/tv/93655 (api_snapshot): TMDB TV 93655 的原名、首播日期 2022-07-03、简介和 12 集总数与该 Bangumi TV 条目一致；季列表显示第 0 季 1 集、第 1 季 12 集。\n\nhttps://www.themoviedb.org/tv/93655/season/1 (api_snapshot): TMDB 第 1 季完整列出 12 集；集名和日期从 WONDERFUL WORLD（2022-07-03）至 みんなの世界そしてFlying Skyhigh（2022-09-25），与 Bangumi 正片 1—12 话对应。\n\n备注：TMDB 快照未提供第 0 季第 1 集的具体标题，仅提供该季单集及 2022-08-14 日期；其与 Bangumi 6.5 总集篇的对应依据是日期和特别篇性质一致。；Bangumi 的 AT-X 特番没有在现有 TMDB 季快照中显示对应条目；若后续确认 TMDB 存在该广播特典，应另行补充映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/253047; https://anidb.net/anime/14204; https://www.wikidata.org/wiki/Q98821973; https://www.w-witch.jp/luminous/; https://www.themoviedb.org/tv/93655; https://www.themoviedb.org/tv/93655/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 93655,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 93655,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

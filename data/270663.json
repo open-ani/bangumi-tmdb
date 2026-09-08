@@ -1,0 +1,21 @@
+{
+  "anidbId": 1387,
+  "bangumiId": 270663,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1996-03-02 上映、片长约 30 分钟的独立剧场版，而非 1995—1996 年播出的 50 集 TV 系列。公开资料显示该剧场版的标题为《ご近所物語》/Neighborhood Story The Movie，导演志水淳児、原作矢泽爱、东映动画制作，内容是 TV 系列开头的另一种重述；其 TMDB 外链指向电影 913541。因此应映射为电影，不能采用候选 TV 23573。\n\nhttps://cinema.eiga.com/movie/74137/ (page): 电影页面记载《ご近所物語》于 1996-03-02 上映、片长 30 分钟，并列出志水淳児导演、矢泽爱原作及剧场版剧情。\n\nhttps://letterboxd.com/film/neighborhood-story-the-movie/ (page): 页面确认 Neighborhood Story The Movie（ご近所物語）为 1996 年日本动画电影，片长 30 分钟、1996-03-02 公映，别名为 Gokinjo Monogatari the Movie；页面的 TMDB 外链目标为 /movie/913541/。\n\nhttps://www.themoviedb.org/tv/23573 (api_snapshot): 所附 TMDB API 快照显示候选 23573 是 1995-09-10 开播、共 50 集的 TV 作品。\n\nhttps://www.themoviedb.org/tv/23573/season/1 (api_snapshot): 所附季快照显示候选仅有 season 1，包含第 1—50 集，播出日期为 1995-09-10 至 1996-09-01，与 Bangumi 剧场版日期和片长不符。\n\n备注：AniDB 1387 页面本身无法读取，故未能独立核验 AniDB 是否将该剧场版与 TV 系列共用同一条目；但该关联线索不改变 Bangumi 条目作为独立电影、且 TMDB 电影 913541 与其日期、片长、标题和制作信息一致的结论。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/270663; https://cinema.eiga.com/movie/74137/; https://letterboxd.com/film/neighborhood-story-the-movie/; https://www.themoviedb.org/tv/23573; https://www.themoviedb.org/tv/23573/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 913541,
+      "type": "movie"
+    }
+  ]
+}

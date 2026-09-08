@@ -1,0 +1,24 @@
+{
+  "anidbId": 16007,
+  "bangumiId": 338919,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目标为 2021-07-22 上映、1话的剧场版，并明确关联全集《PUI PUI モルカー》。官方公告说明该剧场版是 TV 动画全12话一挙上映；TMDB TV 117166 的第1季正好为2021-01-05开始的12集，剧集标题和日期与官方第1期列表一致。因此应映射为 TMDB TV 117166 第1季第1—12集，而非第2季或独立 movie 条目。\n\nhttps://bgm.tv/subject/338919 (page): Bangumi 条目分类为剧场版，标题为《とびだせ！ならせ！ PUI PUI モルカー》，话数1，上映年度为2021年7月22日，并关联全集《PUI PUI モルカー》。\n\nhttps://molcar-anime.com/news/page/17/ (page): 官方公告明确称该剧场版为《全12話一挙上映》，即将 TV 动画全12话在影院一并上映。\n\nhttps://molcar-anime.com/season1/ (search_snippet): 官方第1期页面列出《PUI PUI モルカー》第1至第12话，标题和剧情简介与 TMDB 第1季剧集相符。\n\nhttps://www.themoviedb.org/tv/117166 (api_snapshot): TMDB API 快照显示 TV 117166《PUI PUI モルカー》有第1季12集（2021-01-05）和第2季12集；候选目标对应第1季。\n\nhttps://www.themoviedb.org/tv/117166/season/1 (api_snapshot): TMDB API 快照显示第1季为12集，完整剧集编号为1—12，标题和播出日期覆盖2021-01-05至2021-03-23。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=107815 (search_snippet): 同名《Pui Pui Molcar》外部条目指向 AniDB 16007，支持候选 AniDB 关联到 TV 系列本体，而非该剧场版的独立作品。\n\n备注：本次未在已读取证据中确认独立的 TMDB movie ID；不能据此断言 TMDB 完全没有收录该电影，但官方内容已足以将其准确表示为 TV 117166 第1季第1—12集。；AniDB 16007 的直接页面本次请求失败，AniDB 关联主要由输入数据及同名外部关联间接核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/338919; https://molcar-anime.com/news/page/17/; https://molcar-anime.com/season1/; https://www.themoviedb.org/tv/117166; https://www.themoviedb.org/tv/117166/season/1; https://www.animecharactersdatabase.com/linktodbs.php?id=107815",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 117166,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

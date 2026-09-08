@@ -1,0 +1,22 @@
+{
+  "anidbId": 8138,
+  "bangumiId": 14952,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: BangumiExtLinker 将 Bangumi 14952 明确关联至 AniDB 8138；Anime-Lists 又将 AniDB 8138 明确映射至 TMDB TV 85778 第1季。Bangumi 条目为 2 集 OVA，发售日期为 2011-11-25 与 2012-02-24；TMDB 第1季也正好只有第1、2集，日期完全对应，标题、剧情和制作背景一致。因此纳入完整第1季；Bangumi 的 PV 特典不属于主体正片。\n\nhttps://bgm.tv/subject/14952 (page): Bangumi 条目标记为 OVA、2集，发售/播放日期为 2011-11-25 至 2012-02-24，并列出两集主体章节。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (page): 记录 bgm_id 14952 对应 anidb_id 8138，标题为 英雄伝説 空の軌跡 THE ANIMATION。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): 记录 anidbid 8138 对应 tmdbtv 85778、tmdbseason 1，名称为 Eiyuu Densetsu: Sora no Kiseki The Animation。\n\nhttps://www.themoviedb.org/tv/85778 (api_snapshot): TMDB TV 85778 标题、日文原名和首播日期均与该 OVA 对应，number_of_episodes 为 2，剧情涉及 Estelle、Joshua 与 Liberl 的事件。\n\nhttps://www.themoviedb.org/tv/85778/season/1 (api_snapshot): TMDB 第1季明确为 season_number 1，共2集；第1集日期 2011-11-25，第2集日期 2012-02-24。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/14952; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/85778; https://www.themoviedb.org/tv/85778/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 85778,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

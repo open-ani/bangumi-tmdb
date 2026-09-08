@@ -1,0 +1,23 @@
+{
+  "anidbId": 9685,
+  "bangumiId": 234769,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi subject 明确是 2005-12-22 发售、1 集的 OVA，标题为《ナルティメットヒーロー3...》。TMDB 的《ナルト》特别篇第 2 集标题与该作品标题对应，日期同为 2005-12-22，且该季只有 2 集；因此应映射为 TV 46260 的 season 0、episode 2，而不是整季。\n\nhttps://bgm.tv/subject/234769 (page): 输入所附 Bangumi 数据显示该 subject 为 OVA，发售日 2005-12-22，共 1 集；AniDB ID 为 9685。\n\nhttps://www.themoviedb.org/tv/46260/season/0 (api_snapshot): TMDB 特别篇第 2 集标题为「ナルティメットヒーロー3 ついに激突！上忍VS下忍‼無差別大乱戦大会開催‼」，日期为 2005-12-22。\n\nhttps://www.themoviedb.org/tv/46260 (api_snapshot): TMDB TV 46260 为《ナルト》，包含 season 0 特别篇，共 2 集。\n\n备注：输入中的 AniDB 标题状态为 different，但标题别名、OVA 类型、日期及 TMDB 特别篇第 2 集标题均支持该版本对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/234769; https://www.themoviedb.org/tv/46260/season/0; https://www.themoviedb.org/tv/46260",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 46260,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

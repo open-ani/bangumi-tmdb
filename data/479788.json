@@ -1,0 +1,22 @@
+{
+  "anidbId": 18484,
+  "bangumiId": 479788,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是一部2025年1月播出的12集TV动画；TMDB TV 245876名称、日文原名、剧情、制作国与播出时间均对应。TMDB第1季明确包含12集，且12集标题与Bangumi主体的12个正篇标题逐一一致，因此对应完整第1季。TMDB首播日期为2025-01-04，与Bangumi记录的2025-01-03仅相差一天，符合时区或平台日期差异，不影响版本判断。TMDB另有第0季特别篇，但输入主体为12集TV正篇，不应纳入。\n\nhttps://bgm.tv/subject/479788 (page): Bangumi主体《空色ユーティリティ／一杆青空》标注为2025年1月3日开始、12集TV动画；输入的12个正篇标题与TMDB第1季标题逐一对应。\n\nhttps://www.themoviedb.org/tv/245876 (api_snapshot): TMDB TV 245876的名称为《空色ユーティリティ》，剧情简介、日文原名、制作国JP、首播日期2025-01-04及总集数12均与Bangumi主体吻合；页面快照同时显示第0季特别篇和第1季。\n\nhttps://www.themoviedb.org/tv/245876/season/1 (api_snapshot): TMDB第1季明确为season_number=1、episodeCount=12；完整剧集标题、剧情和日期与Bangumi第1至12话逐一对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/479788; https://www.themoviedb.org/tv/245876; https://www.themoviedb.org/tv/245876/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 245876,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

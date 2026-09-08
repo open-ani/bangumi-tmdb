@@ -1,0 +1,22 @@
+{
+  "anidbId": 5941,
+  "bangumiId": 1966,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《のだめカンタービレ 巴里編》TV 篇，共 11 话，2008 年播出，剧情为千秋与野田惠在巴黎的故事；并与前作、后续《フィナーレ》及 OAD 分开关联。AniDB ID 5941 的标题对应 Nodame Cantabile: Paris Hen。TMDB TV 45527 的 season 2 明确命名为「のだめカンタービレ 巴里編」，年份为 2008，包含完整 11 集，剧集标题为 Leçon 1–11 且未截断，因此应映射为整季。Bangumi 与 TMDB 的播出日期整体相差一天，但作品标题、年份、剧情、制作信息和 11 集范围一致，属于日期记录差异，不影响版本判断。\n\nhttps://bgm.tv/subject/1966 (page): Bangumi 条目为 TV《のだめカンタービレ 巴里編》，中文名为《交响情人梦 巴黎篇》，共 11 话，播出时间为 2008-10-09 至 2008-12-18；页面还记载巴黎篇剧情及 J.C.STAFF、今千秋等制作信息，并将前作、フィナーレ和 OAD 列为独立关联条目。\n\nhttps://anidb.app/browse?demographic=3&page=2 (search_snippet): AniDB 搜索结果列出 Nodame Cantabile: Paris-hen，并标记为 TV。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据片段将 ID 5941 对应为 Nodame Cantabile: Paris Hen。\n\nhttps://www.themoviedb.org/tv/45527 (api_snapshot): TMDB TV 45527 的主条目名为 のだめカンタービレ，总集数 45；其中 season 2 名为 のだめカンタービレ 巴里編，年份为 2008，集数为 11。\n\nhttps://www.themoviedb.org/tv/45527/season/2 (api_snapshot): TMDB season 2 明确为 season_number 2，名称为 のだめカンタービレ 巴里編，episodeCount 为 11，episodesTruncated 为 false；完整剧集为 Leçon 1 至 Leçon 11，日期连续覆盖 2008-10-10 至 2008-12-19。\n\n备注：TMDB 各集日期相较 Bangumi 整体晚一天，可能是时区或数据库日期记录差异；未发现影响作品版本或集数范围的证据。；AniDB 官方详情页访问受限，ID 5941 的直接核验同时依赖公开标题数据片段与 AniDB 搜索结果。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1966; https://anidb.app/browse?demographic=3&page=2; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/45527; https://www.themoviedb.org/tv/45527/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45527,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

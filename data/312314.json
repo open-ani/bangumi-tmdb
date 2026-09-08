@@ -1,0 +1,24 @@
+{
+  "anidbId": 15939,
+  "bangumiId": 312314,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《万圣街》第二季，12 集，首播于 2020-10-14；章节编号为全系列第 13–24 集。官方 Blu-ray 也明确将该版本标为第 13～24 集。TMDB 作品 106402 的原名为“万圣街”、简介和制作主体吻合，但 TMDB 将全系列 48 集并入 Season 1；TMDB 相关讨论摘要也明确示例 season/2/episode/1 应对应 season/1/episode/13。因此应映射为 TMDB Season 1 的第 13–24 集，而不是不存在的 TMDB Season 2。\n\nhttps://bgm.tv/subject/312314 (page): Bangumi 条目为《万圣街 第二季》，12 话，首播日期 2020-10-14，简介、原作及动画制作信息与候选作品一致。\n\nhttps://bgm.tv/subject/312314/ep (page): Bangumi 章节列出全系列编号 13–24，日期从 2020-10-14 至 2020-12-16，与该 subject 的 12 集对应。\n\nhttps://banseigai.com/bddvd/vol02.html (search_snippet): 官方 Blu-ray 第二卷明确写明收录“第3話・第4話（エピソード13～エピソード24）”。\n\nhttps://www.themoviedb.org/tv/106402 (page): TMDB 作品 106402 的原名为万圣街，简介与角色设定吻合；页面明确显示 Season 1、2020 年、48 集，未将该版本列为独立 Season 2。\n\nhttps://www.themoviedb.org/tv/106402 (api_snapshot): TMDB API 快照显示作品 106402 有 48 集，seasons 中仅记录 season_number=1、episode_count=48，首播日期为 2020-04-01。\n\nhttps://www.themoviedb.org/talk/67e116df35bd26a7d94dc67a (search_snippet): TMDB 讨论页检索摘要明确说明该案例中 season/2/episode/1 的正确 TMDB 编号是 season/1/episode/13。\n\nhttps://www.themoviedb.org/tv/106402/season/2 (api_snapshot): 输入提供的 TMDB API 快照记录该季请求返回 HTTP 404；这与 TMDB 主页面将全系列压入 Season 1 的表现一致，但不能单独作为不存在的证明。\n\n备注：AniDB ID 15939 的公开详情页本次未能独立读取；但 Bangumi、官方资料和 TMDB 作品/编号映射已经独立支持该目标及范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312314; https://bgm.tv/subject/312314/ep; https://banseigai.com/bddvd/vol02.html; https://www.themoviedb.org/tv/106402; https://www.themoviedb.org/talk/67e116df35bd26a7d94dc67a; https://www.themoviedb.org/tv/106402/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 106402,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

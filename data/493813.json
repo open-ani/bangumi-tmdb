@@ -1,0 +1,22 @@
+{
+  "anidbId": 18621,
+  "bangumiId": 493813,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2025年4月开播、12话的TV动画；其标题、剧情、制作信息及第1至12话均与官方页面和TMDB第1季逐集资料一致。Bangumi→AniDB 18621、TMDB TV 254174及一季12话的交叉标识也相互对应。TMDB日期比日本播出日期晚一天，属于时区差异。主体应映射为TMDB 254174第1季完整12集。官方另有“かくしてない版”播出/配信版本，但未形成独立剧情或集数范围。\n\nhttps://bgm.tv/subject/493813 (page): Bangumi将该条目标为TV，12话，2025年4月6日至6月22日播出，并列出BloomZ、Wolfsbane等制作信息及第1至12话。\n\nhttps://makinasan-anime.com/story.html (page): 官方故事页按第1话至第12话列出完整主体剧情与标题；第10至12话内容也与TMDB对应集数一致。\n\nhttps://makinasan-anime.com/ (page): 官方站说明存在“かくしてない版”这一播出/配信版本，属于同一动画的版本差异。\n\nhttps://www.wikidata.org/wiki/Q125865039 (page): 同一作品实体同时记录AniDB anime ID 18621、Bangumi subject ID 493813、TMDB TV series ID 254174，并记录1季、12集。\n\nhttps://www.themoviedb.org/tv/254174 (api_snapshot): TMDB API快照显示TV 254174为该日文标题，2025年首播，共12集，包含第1季。\n\nhttps://www.themoviedb.org/tv/254174/season/1 (api_snapshot): TMDB API快照显示第1季为12集；第1至12集标题、剧情和日期顺序与Bangumi及官方故事页对应。\n\n备注：TMDB快照未明确区分普通版与官方所称“かくしてない版”；若下游需要区分删减/无修正版，应另行核对具体发行版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/493813; https://makinasan-anime.com/story.html; https://makinasan-anime.com/; https://www.wikidata.org/wiki/Q125865039; https://www.themoviedb.org/tv/254174; https://www.themoviedb.org/tv/254174/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 254174,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

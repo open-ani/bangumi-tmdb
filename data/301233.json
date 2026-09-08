@@ -1,0 +1,22 @@
+{
+  "anidbId": 15411,
+  "bangumiId": 301233,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 TV《One Room サードシーズン》，共12话，播出期为2020-10-05至2020-12-21；官方页面逐话列出同一播出范围。TMDB 69298 的第3季为2020年、12话，快照中的12个日文标题与剧情逐条对应 Bangumi 的第1至12话。TMDB 的2020-10-06日期对应日本电视台次日播出时间，官方页面同时显示 TOKYO MX 为10月5日深夜，因此属于时区/播出渠道差异。TMDB season 0 的9集是独立特别篇，不属于本 Bangumi subject；本 subject 没有额外主体特别篇证据。\n\nhttps://bgm.tv/subject/301233 (page): Bangumi 将该条目标为 TV《One Room サードシーズン》，中文名为《One Room 第三季》，共12话，放送时间为2020年10月5日至12月21日，并列出第01至12话及制作信息。\n\nhttps://oneroom-anime.com/onair/ (page): 官方播出表列出第1至12话；TOKYO MX分别于2020-10-05至2020-12-21播出，其他频道为次日播出，解释了TMDB首播日期为10月6日的差异。\n\nhttps://www.themoviedb.org/tv/69298 (api_snapshot): TMDB API快照显示作品One Room共36集，season 0为9集特别篇，season 1、2、3各12集；season 3首播日期为2020-10-06。\n\nhttps://www.themoviedb.org/tv/69298/season/3 (api_snapshot): TMDB API快照显示第3季共12集，完整标题、日期和剧情与Bangumi subject的第1至12话逐条对应，范围应为season 3 episode 1-12。\n\n备注：AniDB 15411 的直接页面请求返回403，未能从AniDB页面本身读取关联；但Bangumi页面、官方逐话播出表及TMDB第3季完整标题和剧情已独立支持该具体版本与范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/301233; https://oneroom-anime.com/onair/; https://www.themoviedb.org/tv/69298; https://www.themoviedb.org/tv/69298/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69298,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

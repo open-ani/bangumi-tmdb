@@ -1,0 +1,22 @@
+{
+  "anidbId": 6969,
+  "bangumiId": 7347,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体是2009年10月7日开始、共26话的日本TV短篇动画，导演工藤進、系列构成島田満、制作GoHands；AniDB标题索引中的6969对应 Cheburashka Arere?，与主体标题及别名一致。独立资料也确认其为2009年播出的全26话GoHands作品。TMDB 38513的主条目使用同一日文标题，标记为2009年作品、共26集且仅有第1季；第1季快照完整列出1—26集，因此应映射整季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/7347 (page): Bangumi确认标题、TV类型、26话、2009年10月7日开播至2010年3月31日、工藤進/島田満/GoHands等制作信息，并列出第1至26话。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB标题索引将ID 6969列为 Cheburashka Arere?，与Bangumi主体名称及输入中的AniDB名称匹配。\n\nhttps://www.animatetimes.com/tag/details.php?id=1874 (search_snippet): 独立资料确认《チェブラーシカ あれれ？》为TV动画，2009年10月7日至2010年3月31日播出，全26话，导演工藤進、制作GoHands。\n\nhttps://www.themoviedb.org/tv/38513 (api_snapshot): TMDB主条目标题为チェブラーシカあれれ？，原名相同，首播日期为2009-10-06，共26集，仅显示第1季且该季为26集。\n\nhttps://www.themoviedb.org/tv/38513/season/1 (api_snapshot): TMDB第1季快照完整列出第1至第26集，episodesTruncated为false，季集数为26。\n\n备注：TMDB主条目及剧集日期多数比Bangumi所列日本播出日期早一天，且第25、26集均记为2010-03-30；这属于日期数据差异，但不影响标题、版本、总集数和整季对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7347; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.animatetimes.com/tag/details.php?id=1874; https://www.themoviedb.org/tv/38513; https://www.themoviedb.org/tv/38513/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 38513,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

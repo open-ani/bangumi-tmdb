@@ -1,0 +1,22 @@
+{
+  "anidbId": 130,
+  "bangumiId": 2047,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 GAINAX 制作、1991 年发行、共 2 话的 OVA，且两话日期为 1991-09-27 与 1991-12-20。TMDB 80226 同名、年份和剧情一致，明确标为 Video，并且第 1 季恰有两集，标题和日期分别对应「1982 おたくのビデオ」与「1985 続・おたくのビデオ」。因此应完整映射 TMDB 第 1 季，不使用电影版本，也无需缩小集数范围。\n\nhttps://bgm.tv/subject/2047 (page): Bangumi 将条目标为 OVA，共 2 话；发售日为 1991-09-27，结束日为 1991-12-20；页面剧情和制作信息与 Otaku no Video 相符。\n\nhttps://www.themoviedb.org/tv/80226 (page): TMDB 条目名称为 おたくのビデオ，年份为 1991，简介包含同一作品的 1982 与 1985 两段剧情，并显示 Season 1 共 2 集、首播日期 1991-09-27。\n\nhttps://www.themoviedb.org/tv/80226/season/1 (api_snapshot): 所附 API 快照显示第 1 季有 2 集：第 1 集「1982 おたくのビデオ」对应 1991-09-27，第 2 集「1985 続・おたくのビデオ」对应 1991-12-20。\n\nhttps://www.themoviedb.org/tv/80226 (api_snapshot): 所附 TMDB API 快照显示 original_name 为 おたくのビデオ、first_air_date 为 1991-09-27、number_of_episodes 为 2，且仅有 season_number=1、episode_count=2。\n\nhttps://ja.wikid.org/%E3%81%8A%E3%81%9F%E3%81%8F%E3%81%AE%E3%83%93%E3%83%87%E3%82%AA (search_snippet): 搜索摘要区分了两集 OVA 与另行存在的剧场版发行形式；这支持将 Bangumi 的 OVA 主体映射为两集 TV 季，而不是将可能的电影版本混入。\n\n备注：存在另行发行的剧场版形式，但当前证据未显示其应替代 Bangumi 的两集 OVA 主体；本结论仅覆盖该主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2047; https://www.themoviedb.org/tv/80226; https://www.themoviedb.org/tv/80226/season/1; https://ja.wikid.org/%E3%81%8A%E3%81%9F%E3%81%8F%E3%81%AE%E3%83%93%E3%83%87%E3%82%AA",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80226,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 7921,
+  "bangumiId": 13973,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2 集 OVA/OAD，发售日为 2011-03-22 至 2011-09-27，章节为 0 和 12.5；其别名、制作公司 Studio Deen、原作及人物信息均与《世界一初恋》OVA 相符。独立的 AniDB 页面将该版本明确列为 OVA，包含 Episode 0 与 Episode 12.5，并给出相同日期和 Studio Deen、且关联 TV 母体。TMDB 42554 的 season 0 明确为特别篇，共 2 集，日期分别为 2011-03-22 和 2011-09-27，因此应映射为完整的 season 0。输入的 AniDB ID 7921 与该 OVA 页面实际标识不一致，属于线索关联错误，但不影响由 Bangumi 条目内容、OVA 独立资料及 TMDB 季/集日期完成版本确认。\n\nhttps://bgm.tv/subject/13973 (page): Bangumi 将条目标为 OVA，话数 2，别名包括世界一初恋 OVA，发售日 2011-03-22，结束 2011-09-27，制作公司为 Studio Deen。\n\nhttps://bgm.tv/subject/13973/ep (page): Bangumi 章节为 0.No love's like to the first. 与 12.5.The quarrel of lovers is the renewal of love.，后者首播日为 2011-09-27。\n\nhttps://anidb.app/anime/sekaiichi-hatsukoi-ova-4656 (page): AniDB 将版本列为 OVA；简介明确为两个 OVA episode，分别是 Episode 0 和 Episode 12.5；播出日期为 2011-03-22 至 2011-09-27，制作公司为 Studio Deen，并关联 TV 母体。\n\nhttps://www.themoviedb.org/tv/42554 (api_snapshot): TMDB API 快照显示 TV 作品 ID 42554、原名世界一初恋，并包含 season 0 特别篇，共 2 集，季首日期 2011-03-22。\n\nhttps://www.themoviedb.org/tv/42554/season/0 (api_snapshot): TMDB API 快照显示 season 0 为特別編，共 2 集；第 1 集日期 2011-03-22，第 2 集日期 2011-09-27。\n\n备注：输入提供的 AniDB ID 7921 与可核实的 Sekaiichi Hatsukoi OVA 页面标识不一致；该 AniDB 关联本身应在上游数据中修正为 OVA 对应条目。；TMDB season 0 的剧集标题为通用的“第1话/第2话”，但日期、集数及 Bangumi/AniDB 的两集 OVA 资料已形成版本对应证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/13973; https://bgm.tv/subject/13973/ep; https://anidb.app/anime/sekaiichi-hatsukoi-ova-4656; https://www.themoviedb.org/tv/42554; https://www.themoviedb.org/tv/42554/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42554,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

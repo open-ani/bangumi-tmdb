@@ -1,0 +1,22 @@
+{
+  "anidbId": 731,
+  "bangumiId": 120935,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2002 年在 AT-X 播出的《魔王ダンテ》TV 动画，共 13 话，首播 2002-08-31，完播 2002-11-23；其剧情、原作永井豪、导演前岛健一、动画制作 Magic Bus 等信息与 TMDB 34060 一致。TMDB 仅有第 1 季，完整列出 13 集，播出日期和剧集内容均与 Bangumi 主体对应。因此应映射为 TMDB TV 34060 第 1 季全季，不拆分集数范围。\n\nhttps://bgm.tv/subject/120935 (page): Bangumi 将该主体标为 TV，话数 13，放送开始 2002-08-31，放送结束 2002-11-23，播放电视台为 AT-X；并记载永井豪、前岛健一、Magic Bus 等制作信息及对应剧情。\n\nhttps://www.themoviedb.org/tv/34060 (api_snapshot): TMDB 34060 名称为《魔王ダンテ》，首播日期 2002-08-31，共 13 集，仅列出第 1 季，语言为日语、国家为日本。\n\nhttps://www.themoviedb.org/tv/34060/season/1 (api_snapshot): TMDB 第 1 季明确为 13 集；第 1 集至第 13 集日期从 2002-08-31 连续至 2002-11-23，标题和剧情与 Bangumi 条目的 13 话主体一致。\n\nhttps://www.allcinema.net/cinema/pdf/239545 (page): 独立资料将《魔王ダンテ (2002)》标为 TV 动画、日本制作，AT-X 于 2002-08-31 起播出，并记载导演前岛健一、动画制作 Magic Bus、原作永井豪等信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): Anime-Lists 将 AniDB ID 731 提供为 TMDB TV 34060 的候选关联；该关联仅作为线索，最终映射由 Bangumi 与 TMDB 的版本、日期、剧情和制作信息交叉确认。\n\n备注：AniDB 原页面本次请求返回 403，未能直接读取其页面内容；但候选名称、Bangumi 的 TV/13 话/2002 年信息，以及 TMDB 作品与完整季集信息均互相吻合，已足以确认本 Bangumi 主体对应的 TMDB 版本和范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/120935; https://www.themoviedb.org/tv/34060; https://www.themoviedb.org/tv/34060/season/1; https://www.allcinema.net/cinema/pdf/239545; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34060,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

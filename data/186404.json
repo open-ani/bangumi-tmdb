@@ -1,0 +1,23 @@
+{
+  "anidbId": 12258,
+  "bangumiId": 186404,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将该条目列为 1 话、2016-12-06 发售的 OVA/OAD，并关联《グラップラー刃牙》。TMDB 的 BAKI（2018）剧集页明确列出同名特别篇，日期为 2016-12-06，编号为 0x1，因此应映射到 TV 80623 的第 0 季第 1 集。候选 TV 56425 是 2001 年《グラップラー刃牙》48 集正篇，季号为 1、2，不是该 OAD。\n\nhttps://bangumi.tv/subject/186404 (page): Bangumi 将条目标为 OVA，话数 1，发售日 2016-12-06；制作公司为 Telecom Animation Film，并关联《グラップラー刃牙》。\n\nhttps://www.themoviedb.org/tv/80623/episodes?credit_id=647fe16164765400ad80b974&language=es-PE&person_id=4bc89fa2017a3c122d02f5a4 (search_snippet): TMDB 的 BAKI（2018）页面列出“Baki: Most Evil Death Row Convicts Special Anime”，日期 2016-12-06，编号 0x1。\n\nhttps://www.themoviedb.org/tv/56425 (api_snapshot): 输入提供的 TMDB API 快照显示该候选为 2001-01-08 开始、48 集的《グラップラー刃牙》，仅有第 1、2 季，不能对应 2016 OAD。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=105946 (search_snippet): 页面将 Baki 关联到 AniDB anime/12258，支持输入中的 AniDB ID 线索。\n\n备注：TMDB 主页面及 /season/0 页面在本次抓取中受限，但剧集页搜索摘要明确给出了 0x1、标题和日期；未将请求失败当作不存在。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/186404; https://bangumi.tv/subject/186404; https://www.themoviedb.org/tv/80623/episodes?credit_id=647fe16164765400ad80b974&language=es-PE&person_id=4bc89fa2017a3c122d02f5a4; https://www.themoviedb.org/tv/56425; https://www.animecharactersdatabase.com/linktodbs.php?id=105946",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 80623,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

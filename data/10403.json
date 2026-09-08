@@ -1,0 +1,22 @@
+{
+  "anidbId": 482,
+  "bangumiId": 10403,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2001年5月8日开始、12月4日结束的原创TV动画，共26集，由佐藤竜雄与MADHOUSE制作；其剧情和制作信息与 AniDB 482 的 Gakuen Senki Muryou/Shingu 以及 TMDB 113907 完全吻合。TMDB明确只有第1季，含完整26集，首播日和最终集日期也与 Bangumi 一致，因此应映射为整季，不需拆分集数范围。\n\nhttps://bgm.tv/subject/10403 (page): Bangumi 将作品标为TV，话数26，放送日期为2001-05-08至2001-12-04；剧情、导演佐藤竜雄及动画制作MADHOUSE均与候选作品一致。\n\nhttps://carleton.ottawa-anime.org/archive/Summer_2018_Marathon_List.pdf (search_snippet): 检索摘要列出 AniDB URL https://anidb.net/perl-bin/animedb.pl?show=anime&aid=482，并对应 Shingu: Secret of the Stellar Wars、26 episodes及相同剧情概要。\n\nhttps://www.themoviedb.org/tv/113907 (page): TMDB条目标识原名为学園戦記ムリョウ，2001年首播，共26集；第1季为2001年5月8日首播、2001年12月4日完结。\n\nhttps://www.themoviedb.org/tv/113907/season/1 (api_snapshot): TMDB API快照显示第1季season_number=1、episodeCount=26，且剧集编号完整覆盖1至26，首集日期为2001-05-08，末集日期为2001-12-04。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10403; https://carleton.ottawa-anime.org/archive/Summer_2018_Marathon_List.pdf; https://www.themoviedb.org/tv/113907; https://www.themoviedb.org/tv/113907/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 113907,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

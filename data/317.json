@@ -1,0 +1,22 @@
+{
+  "anidbId": 5557,
+  "bangumiId": 317,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2008 年播出的《我が家のお稲荷さま。》TV 主体，共 24 集，制作公司为 ZEXCS，剧情、角色和制作信息与候选 TMDB 作品一致。AniDB 5557 的标题也对应 Wagaya no Oinari-sama。TMDB 36587 明确列出第 1 季且完整包含 24 集；其第 1 季的 1—24 集标题与 Bangumi 主体逐集对应，未截断，因此采用完整第 1 季。TMDB 的第 0 季是独立的“特別編”，不属于该 24 集主体。TMDB 的作品/季日期及前两集日期存在明显的 2012 年元数据错误，但其余集日期、剧情、制作信息和逐集标题均支持这是同一部 2008 年 TV 动画，不改变目标季判断。\n\nhttps://bgm.tv/subject/317 (page): Bangumi 条目标注为 TV，24 集，2008-04-06 开播、2008-09-14 完播，动画制作 ZEXCS，并列出与 TMDB 剧情相符的角色和制作人员。\n\nhttps://www.at-x.com/program/detail/2452 (search_snippet): AT-X 资料确认该作品为 2008 年作品、全 24 话，动画制作 ZEXCS，并列出岩崎良明、吉田玲子等主要制作信息。\n\nhttps://www.kadokawa.co.jp/product/video1100/ (search_snippet): KADOKAWA 官方 DVD 资料确认作品公开年为 2008 年、动画制作 ZEXCS，且原作、导演、系列构成、主要声优与 Bangumi 条目一致。\n\nhttps://aaltodoc.aalto.fi/bitstreams/66a0d87b-189e-4947-82f2-1ffca927978a/download (search_snippet): 检索摘要将 AniDB 条目标为 Wagaya no Oinari-sama，并给出 AniDB aid=5557，辅助支持 Bangumi→AniDB 关联。\n\nhttps://www.themoviedb.org/tv/36587 (api_snapshot): TMDB API 快照显示作品日文名与 Bangumi 相同，剧情简介相符，共 24 集，并明确列出第 0 季“特別編”和第 1 季。\n\nhttps://www.themoviedb.org/tv/36587/season/1 (api_snapshot): TMDB API 快照明确为 season_number=1，episodeCount=24，episodesTruncated=false；第 1—24 集标题逐集对应 Bangumi 主体集数。\n\n备注：TMDB 36587 的 first_air_date、season 1 air_date 被标为 2012 年，且第 1、2 集日期异常；这与 Bangumi、官方资料及其余集日期冲突，应视为 TMDB 元数据质量问题，后续可单独复核或修正日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/317; https://www.at-x.com/program/detail/2452; https://www.kadokawa.co.jp/product/video1100/; https://aaltodoc.aalto.fi/bitstreams/66a0d87b-189e-4947-82f2-1ffca927978a/download; https://www.themoviedb.org/tv/36587; https://www.themoviedb.org/tv/36587/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36587,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

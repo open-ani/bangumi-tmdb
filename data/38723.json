@@ -1,0 +1,24 @@
+{
+  "anidbId": 5755,
+  "bangumiId": 38723,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject是1993年10月1日至1994年2月1日发行、共3话的OVA《魔神英雄伝ワタル 終わりなき時の物語》，并非TV《魔神英雄伝ワタル》整季。TMDB第0季前两集属于另一部OVA《魔神山編》，第3–5集的标题、日期和剧情分别对应本 subject 的三话，因此应映射为TMDB TV 19612 第0季第3–5集。\n\nhttps://bangumi.tv/subject/38723 (search_snippet): Bangumi页面确认该作品为OVA，共3话，标题为《魔神英雄伝ワタル 終わりなき時の物語》。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=136 (page): Sunrise官方资料确认该OVA全3话，发行日期为1993年10月1日至1994年2月1日，三话标题为「救世主 再び」「天部界の嵐」「永遠の伝説」。\n\nhttps://www.mashin-eiyuuden-wataru.net/ova2/story/ (search_snippet): 官方剧情页分别描述三话的故事内容，与Bangumi三话及TMDB第0季第3–5集剧情对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到AniDB aid 5755对应标题“Mashin Eiyuuden Wataru: Owarinaki Toki no Monogatari”，与Bangumi subject标题一致。\n\nhttps://www.themoviedb.org/tv/19612/season/0 (api_snapshot): 输入提供的TMDB API快照显示第0季第3–5集分别为「終わりなき時の物語 1話 救世主 再び」「2話 天部界の嵐」「3話 永遠の伝説」，日期为1993-10-01、1993-12-01、1994-02-01；第0季第1–2集是另一部OVA内容，故不能纳入本subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38723; https://bangumi.tv/subject/38723; https://www.sunrise-inc.co.jp/work/detail.php?cid=136; https://www.mashin-eiyuuden-wataru.net/ova2/story/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/19612/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 3,
+      "episodeEnd": 5,
+      "id": 19612,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

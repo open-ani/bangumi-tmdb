@@ -1,0 +1,24 @@
+{
+  "anidbId": 18700,
+  "bangumiId": 489820,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是2024年版《乱马1/2》TV，12集，2024-10-05至2024-12-21播出。TMDB 259140第1季前12集的标题、剧情和2024年播出日期逐集对应；官方页面也将1–12列为Season 1，并将13集以后列入Season 2。因此应映射为TMDB TV 259140 第1季第1–12集。TMDB快照中的总集数25及后续未来集数据与官方季划分不一致，未据此推导范围。\n\nhttps://bgm.tv/subject/489820 (page): Bangumi记录该条目为2024年《らんま1/2》TV，12话，2024年10月5日开始，2024年12月21日结束；制作人员与官方资料一致。\n\nhttps://ranma-pr.com/en/episode/ (page): 官方剧集页明确提供Season 1和Season 2；Season 1列出第1至第12集，Season 2列出第13集以后。\n\nhttps://ranma-pr.com/en/news/655/ (page): 官方在第12集播出后宣布制作第2期，并明确将2024年10月起播出的内容称为第1期。\n\nhttps://www.themoviedb.org/tv/259140 (api_snapshot): TMDB API快照显示259140为日语《らんま1/2》，首播日期为2024-10-06，简介和制作背景与Bangumi及官方资料一致。\n\nhttps://www.themoviedb.org/tv/259140/season/1 (api_snapshot): TMDB API快照的第1季第1–12集标题分别对应Bangumi与官方第1–12集，剧情简介逐集一致，日期为2024年10月6日至12月22日（日本深夜播出导致日期偏移）。\n\nhttps://www.themoviedb.org/tv/259140-ranma/season/1 (search_snippet): TMDB页面搜索摘要将该条目标为Season 1，并显示第12集为季终集。\n\n备注：AniDB页面本身无法读取（403），因此AniDB ID 18700的公开页面关联未能独立核验；但Bangumi主体、官方资料和TMDB剧集内容已直接支持该版本及范围。；提供的TMDB快照聚合字段显示25集且包含2025年后续集，和官方Season 1/Season 2拆分不一致；该冲突不影响前12集的逐集对应，但后续季的TMDB数据应另行复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/489820; https://ranma-pr.com/en/episode/; https://ranma-pr.com/en/news/655/; https://www.themoviedb.org/tv/259140; https://www.themoviedb.org/tv/259140/season/1; https://www.themoviedb.org/tv/259140-ranma/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 259140,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

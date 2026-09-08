@@ -1,0 +1,23 @@
+{
+  "anidbId": 17449,
+  "bangumiId": 424227,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《【推しの子】》TV 动画第1话的剧场先行上映版/90分钟扩大版，主体剧情、原作、动画制作与 TV 版一致；上映日 2023-03-17 早于 TV 首播 2023-04-12。TMDB 明确将 Mother and Children 编为 TV 203737 第1季第1集，因此只应映射 S1E1，不能纳入整季。\n\nhttps://bgm.tv/subject/424227 (page): Bangumi 条目标为剧场版，1话，2023-03-17，片长84分；章节说明其为2023年4月开播的TV动画第1话（90分钟扩大版）在电视播出前的剧场上映，并与TV条目存在全集关联。\n\nhttps://ichigoproduction.com/Season1/bd/ (page): 官方 Blu-ray/DVD 第1卷的收录内容为第1话，并列出《Mother and Children》剧场上映入场者特典，支持剧场版与TV第1话的主体对应。\n\nhttps://ichigoproduction.com/47todofuken/event/index00180000.html (search_snippet): 官方活动页面将该内容明确称为“第1話90分拡大版 Mother and Children”。\n\nhttps://www.themoviedb.org/tv/203737/season/1 (api_snapshot): TMDB API 快照显示 TV 203737 的 season_number=1；该季剧集第1集标题为《Mother and Children》，日期为2023-04-12，时长82分钟。\n\nhttps://www.themoviedb.org/tv/203737/season/1/episode/1 (search_snippet): TMDB页面明确标为 Oshi No Ko Season 1 Episode 1，标题 Mother and Children，播出日期2023-04-12，时长1小时22分。\n\n备注：AniDB 17449 的直接页面访问返回403，无法独立读取其完整条目字段；但 Bangumi 条目的剧场版说明、官方资料及 TMDB 的 S1E1 信息已独立支持该映射。；TMDB season/1 API快照的总集数及后续日期存在疑似季数据合并异常；本结论未依据总集数或名称惯例推导范围，只采用明确的 season=1、episode=1记录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/424227; https://ichigoproduction.com/Season1/bd/; https://ichigoproduction.com/47todofuken/event/index00180000.html; https://www.themoviedb.org/tv/203737/season/1; https://www.themoviedb.org/tv/203737/season/1/episode/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 203737,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

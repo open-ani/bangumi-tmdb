@@ -1,0 +1,22 @@
+{
+  "anidbId": 2442,
+  "bangumiId": 102713,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 102713 的主体是 2004 年电视动画《サムライガン》的 12 集常规正篇。TMDB TV 34118 的原名、首播日期、幕末题材剧情及第 1 季全部 12 个日文集名均与该 subject 对应，因此应映射到 TV 34118 第 1 季完整一季。Bangumi 另列的特别篇不属于本轮正篇；TMDB 第 0 季条目也没有足够明确的标题信息，故不纳入映射。\n\nhttps://www.themoviedb.org/tv/34118 (api_snapshot): TMDB API 快照明确显示 TV 34118 原名为《サムライガン》，首播日期为 2004-10-04，共有12集；剧情涉及幕末日本、武装集团“サムライガン”和七号丸市松，与 Bangumi 作品的身份及内容一致。\n\nhttps://www.themoviedb.org/tv/34118/season/1 (api_snapshot): TMDB API 快照明确将正篇编为第1季，共12集；从 E1“侍銃を持つ男”、E2“実験鉄道”到 E12“実体”的集名与 Bangumi 的12集常规正篇逐集吻合。\n\nhttps://www.imdb.com/title/tt0477535/episodes/ (search_snippet): 独立剧集资料的搜索摘要同样将 2004 年《Samurai Gun》列为第1季12集，并列出从“Samurai gan wo motsu otoko”到“Jittai”的相同剧集顺序，佐证 TMDB 第1季确为该电视动画正篇。\n\nhttps://en.wikipedia.org/wiki/Samurai_Gun (search_snippet): 独立资料的搜索摘要确认《Samurai Gun》动画由 Studio Egg 制作、菊池一仁执导，并于2004年在朝日电视台播出；其前12集日文标题与 Bangumi 和 TMDB 的正篇序列一致，同时记载另有未在原电视播出期间播出的第13集，支持将额外内容排除在12集电视正篇映射之外。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/102713; https://www.themoviedb.org/tv/34118; https://www.themoviedb.org/tv/34118/season/1; https://www.imdb.com/title/tt0477535/episodes/; https://en.wikipedia.org/wiki/Samurai_Gun",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34118,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

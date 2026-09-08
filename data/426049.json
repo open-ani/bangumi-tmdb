@@ -1,0 +1,22 @@
+{
+  "anidbId": 17950,
+  "bangumiId": 426049,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为 TV、13 话，放送于 2023-10-06 至 2023-12-29，制作公司为 A-1 Pictures，并明确关联前作《Rhyme Anima》和后续电影；简介也明确描述第二回 Division Rap Battle 结束后的新篇章。TMDB TV 96139 的季列表明确包含第 2 季“Rhyme Anima +”，共 13 集；第 2 季快照列出了 1–13 集的完整标题和日期，且与 Bangumi 的 13 集逐一对应。因此主体应映射为该 TV 的完整第 2 季，不应映射电影或整部 TV。TMDB 首播日期为 2023-10-07，与 Bangumi 的 2023-10-06 相差一天，属于日期/时区显示差异，不影响版本和季号判断。\n\nhttps://bgm.tv/subject/426049 (page): Bangumi 页面将条目标为 TV，话数 13，放送开始 2023-10-06，放送结束 2023-12-29；列出 A-1 Pictures，并将前作列为前传、电影列为续集。\n\nhttps://www.themoviedb.org/tv/96139 (api_snapshot): TMDB TV 96139 的系列信息显示总计 26 集，包含第 1 季 13 集和第 2 季“Rhyme Anima +”13 集，首播日期为 2023-10-07。\n\nhttps://www.themoviedb.org/tv/96139/season/2 (api_snapshot): TMDB 第 2 季快照明确为 season_number=2、episodeCount=13，并列出第 1 至第 13 集的完整标题和日期；这些标题与 Bangumi 主体的 13 个章节相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/426049; https://www.themoviedb.org/tv/96139; https://www.themoviedb.org/tv/96139/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 96139,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 18093,
+  "bangumiId": 443831,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是《Fate/strange Fake》TV 正篇，共13集；官方资料将“Whispers of Dawn”明确单列为 TVSP，并将“英霊事件”至第13话列为TV正篇。TMDB 229858 的第1季API快照明确为13集，完整剧集标题与 Bangumi 1—13集逐集对应，剧情也均围绕 Snowfield 的伪圣杯战争展开。因此映射为 TMDB TV 229858 第1季整季；不额外纳入 TVSP。TMDB 主条目的 first_air_date 和第1集日期显示为2024-12-31，与 Bangumi及正篇播出日期不一致，视为TMDB日期元数据异常，但不改变其剧集标题、剧情和13集正篇对应关系。\n\nhttps://www.themoviedb.org/tv/229858 (api_snapshot): TMDB TV条目名称为 Fate/strange Fake，简介与 Snowfield 伪圣杯战争相符，number_of_episodes=13，且列出第1季共13集。\n\nhttps://www.themoviedb.org/tv/229858/season/1 (api_snapshot): TMDB第1季明确为 season_number=1、episodeCount=13；第1至13集标题与 Bangumi 正篇逐集对应，包括“英霊事件”“群像VS虚像”至“夢幻は現となりて”。\n\nhttps://fate-strange-fake.com/story/?id=ep01 (page): 官方页面明确将“英霊事件”标为第1话，并给出与TMDB第1集一致的剧情和制作人员。\n\nhttps://fate-strange-fake.com/story/?id=ep13 (page): 官方页面明确将“夢幻は現となりて”标为第13话，剧情与TMDB第13集一致。\n\nhttps://fate-strange-fake.com/story/?id=tvsp (page): 官方页面将“Whispers of Dawn”单列为TVSP，而非第1至13话中的正篇集数。\n\nhttps://fate-strange-fake.com/bluray/ (search_snippet): 官方Blu-ray说明本篇收录“TVSP Whispers of Dawn＋第1话～第13话”，进一步区分TVSP与13集TV正篇。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists记录 anidbid=18093、tmdbtv=229858、tmdbseason=1；这是候选线索，并由官方剧集内容和TMDB季API独立核对。\n\nhttps://www.wikidata.org/wiki/Q120176184 (search_snippet): 搜索摘要同时列出该作品的 AniDB anime ID 18093 与 Bangumi subject ID 443831，支持Bangumi→AniDB主体关联。\n\n备注：TMDB主条目的首播日期及第1集日期为2024-12-31，而Bangumi正篇日期从2026-01-03开始；该日期冲突应视为TMDB元数据问题，后续如需校正播出日期应单独复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/443831; https://www.themoviedb.org/tv/229858; https://www.themoviedb.org/tv/229858/season/1; https://fate-strange-fake.com/story/?id=ep01; https://fate-strange-fake.com/story/?id=ep13; https://fate-strange-fake.com/story/?id=tvsp; https://fate-strange-fake.com/bluray/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.wikidata.org/wiki/Q120176184",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 229858,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

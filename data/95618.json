@@ -1,0 +1,22 @@
+{
+  "anidbId": 10426,
+  "bangumiId": 95618,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2014-04-06 开播、共12集的 TV 版；与 AniDB 10426（Break Blade (2014)）及 TMDB 44163 的标题、年份、简介和制作主体一致。TMDB 第1季明确包含完整12集，集数、标题和播出日期均与 Bangumi 逐集对应。Bangumi 关联的六部剧场版是独立 subject，不应并入该 TV 季。\n\nhttps://bgm.tv/subject/95618 (search_snippet): Bangumi 页面标示《ブレイク ブレイド》为 TV，12话，放送开始于2014年4月6日，结束于2014年6月22日。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据将 ID 10426 标为 Break Blade (2014)，与输入中的 Bangumi→AniDB 关联及名称相符。\n\nhttps://www.themoviedb.org/tv/44163 (api_snapshot): TMDB TV 44163 的名称为ブレイク ブレイド，首播日期为2014-04-06，共12集；简介、日语原名和作品主体与该 Bangumi TV subject 相符。\n\nhttps://www.themoviedb.org/tv/44163/season/1 (api_snapshot): TMDB 第1季为2014-04-06开始、12集；完整剧集1至12的标题和日期逐项对应 Bangumi 的12个 regular episodes。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/95618; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/44163; https://www.themoviedb.org/tv/44163/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44163,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

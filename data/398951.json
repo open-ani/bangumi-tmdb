@@ -1,0 +1,24 @@
+{
+  "anidbId": 17630,
+  "bangumiId": 398951,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将该 subject 定义为 2025 年第二季，共12话，章节编号为13–24；官方资料和制作信息一致。TMDB 123249 的可用快照显示其仅列出 season 1，且该季共24集，因此本 subject 应映射到 TMDB season 1 的第13–24集，而不是候选的 season 2。\n\nhttps://bgm.tv/subject/398951 (page): Bangumi subject 为《その着せ替え人形は恋をする Season 2》，类型为TV、共12话；章节明确为13至24，日期和制作信息与2025年第二季一致。\n\nhttps://www.aniplex.co.jp/lineup/bisquedoll-anime2/ (page): Aniplex 官方页面确认这是《その着せ替え人形は恋をする Season2》，2025年7月播出，故事从第13话开始，制作公司为CloverWorks。\n\nhttps://bisquedoll-anime.com/bddvd/ (page): 官方蓝光页面显示第二季第7卷收录第13、14话，支持其采用全系列连续编号13–24。\n\nhttps://www.themoviedb.org/tv/123249 (api_snapshot): TMDB API 快照确认作品 ID为123249、标题和剧情与《更衣人偶坠入爱河》一致；顶层数据列出的 season 1 共24集，未列出其他季。\n\nhttps://www.themoviedb.org/tv/123249/season/2 (api_snapshot): 输入快照中的 season 2 请求返回HTTP 404；该失败不能单独证明不存在，但与顶层仅有24集的 season 1 数据共同说明候选 season 2 不能采用。\n\n备注：AniDB 17630 页面访问返回403，未能直接读取 AniDB 页面；但输入中的 AniDB 标题、Bangumi subject 名称、日期、集数和制作信息彼此一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/398951; https://www.aniplex.co.jp/lineup/bisquedoll-anime2/; https://bisquedoll-anime.com/bddvd/; https://www.themoviedb.org/tv/123249; https://www.themoviedb.org/tv/123249/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 123249,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

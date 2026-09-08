@@ -1,0 +1,24 @@
+{
+  "anidbId": 9295,
+  "bangumiId": 47170,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 47170 是 2012 年播出的 13 话 TV《はいたい七葉》，与 2013 年 4 月开始、独立收录的第二期不同。TMDB 79030 的第 1 季将两期连续合并为 26 集；其第 1–13 集的标题和日期对应本 subject，第 14–26 集对应第二期。因此应映射到 TMDB season 1 的 1–13 集，不能纳入整季。AniDB/Anime-Lists 映射也将 AniDB 9295《Haitai Nanafa》关联至 TMDB TV 79030 season 1。\n\nhttps://bgm.tv/subject/47170 (page): Bangumi 将 subject 47170 标为 TV《はいたい七葉》，13 话，放送时间为 2012-10-06 至 2012-12-29，章节为 01–13，动画制作公司为 Passione。\n\nhttps://bgm.tv/subject/66693 (search_snippet): Bangumi 将《はいたい七葉 第2期》独立收录为 13 话，2013-04-06 开始至 2013-06-29，章节为 14–26。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目将 anidbid=9295、名称 Haitai Nanafa 映射到 tmdbtv=79030、tmdbseason=1；该映射作为辅助线索，并由 Bangumi 与 TMDB 逐集信息交叉核对。\n\nhttps://www.themoviedb.org/tv/79030 (api_snapshot): 所附 TMDB API 快照显示 TV 79030 原名《はいたい七葉》，首播 2012-10-06，共 26 集，season 1 共 26 集。\n\nhttps://www.themoviedb.org/tv/79030/season/1 (api_snapshot): 所附 TMDB API 快照显示 season 1 第 1–13 集日期为 2012-10-06 至 2012-12-29，标题与 Bangumi subject 47170 的 13 个章节对应；第 14 集起日期变为 2013-04-06，对应第二期。\n\n备注：AniDB 9295 的官方页面本次直接请求返回 403，未能直接读取 AniDB 页面内容；但 AniDB ID、标题、Bangumi 的 13 话首播范围、制作信息以及 TMDB 逐集数据均相互吻合。；TMDB 未将两期拆成独立 season，而是合并为 season 1，因此必须使用 1–13 的必要集数范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/47170; https://bgm.tv/subject/66693; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/79030; https://www.themoviedb.org/tv/79030/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 13,
+      "id": 79030,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

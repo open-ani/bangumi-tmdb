@@ -1,0 +1,24 @@
+{
+  "anidbId": 18713,
+  "bangumiId": 501205,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将本条目明确标为《Unnamed Memory Act.2》TV，12话，播出时间为2025-01-07至2025-03-25，并且章节为13至24。官方站点也将 Act.2 列为第13至24话。TMDB 的216272条目不是独立的第二季，而是将全24话合并在第1季；TMDB页面显示第1季共24话，1x24于2025-03-25播出。因此应纠正候选的 season=2，映射为 TMDB season 1 的 episode 13–24。\n\nhttps://bgm.tv/subject/501205 (page): Bangumi 条目标题为 Unnamed Memory Act.2，类型为TV，12话，2025-01-07开始，章节列表为13至24；关联条目显示其为 Unnamed Memory 的续作。\n\nhttps://unnamedmemory.com/story.html (page): 官方站点将 Act.2 的剧集编号列为13至24，并包含第24话《名も無き物語に終焉を》及第23话《記憶の果て》等标题。\n\nhttps://license.kadokawa.co.jp/anime/2025winter/entry-23437.html (page): KADOKAWA官方资料确认作品名为 Unnamed Memory Act.2，制作公司为ENGI，主要角色、原作和剧情与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/216272-unnamed-memory?language=ko-KR (search_snippet): TMDB条目216272显示原名 Unnamed Memory，只有第1季且为24集；页面明确显示1x24于2025-03-25作为季终集。\n\nhttps://www.themoviedb.org/tv/216272-unnamed-memory/episodes?credit_id=6661f9275487867c8cb93850&language=ko-KR&person_id=5a6a17a10e0a266f250000a0 (search_snippet): TMDB剧集页面将2025年播出的后半段剧集编号为1x18、1x21、1x23，支持 Act.2 仍位于TMDB第1季而非第2季。\n\nhttps://www.themoviedb.org/tv/216272 (api_snapshot): 所附TMDB API快照显示216272为24集的 Unnamed Memory，第1季episode_count为24；对应的season/2请求失败，未将失败结果当作不存在。\n\n备注：AniDB 18713的页面本次因403无法独立读取；但 Bangumi、官方资料及TMDB的标题、剧情、角色、制作信息和日期已足以确认具体作品版本及集数范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/501205; https://unnamedmemory.com/story.html; https://license.kadokawa.co.jp/anime/2025winter/entry-23437.html; https://www.themoviedb.org/tv/216272-unnamed-memory?language=ko-KR; https://www.themoviedb.org/tv/216272-unnamed-memory/episodes?credit_id=6661f9275487867c8cb93850&language=ko-KR&person_id=5a6a17a10e0a266f250000a0; https://www.themoviedb.org/tv/216272",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 216272,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

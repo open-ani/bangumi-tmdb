@@ -1,0 +1,22 @@
+{
+  "anidbId": 72,
+  "bangumiId": 54374,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 是 1998 年播出的 12 集日本电视动画《EAT-MAN'98》，与 1997 年版《EAT-MAN》属于不同演绎。Wikidata 对应作品条目明确记载 AniDB ID 72、1998 年播出日期、12 集，并给出 TMDB TV ID 86348。TMDB 数据的第三方展示页将 86348 对应内容列为第 1 季共 12 集，集名从「BYE BYE AIMIE」前后篇，经「World's Greatest Mercenary」「Body Guard」「Ambrosian Days」「Mega Mix」，至「The Farcical Dream」前后篇，与 Bangumi 的全部 12 集逐项吻合，因此映射为 TV 86348 第 1 季全季。旧候选 34209 实际仅收录 1997 年版的 12 集第 1 季，且其第 2 季 API 请求返回 404，不能用于本 subject。\n\nhttps://www.wikidata.org/wiki/Q123945136 (page): Wikidata 的《Eat-Man '98》条目将其标为日本动画电视剧，记载 1998年10月7日至12月23日播出、共12集、AniDB ID 72，并明确给出 TMDB TV series ID 86348。\n\nhttps://www.moviefone.com/tv-shows/eat-man-98/yELk752sUoQbjBtvglXCK3/seasons/1/ (page): 该 TMDB 数据展示页列出《Eat-Man '98》Season 1 共12集；集号、标题及1998年播出日期与 Bangumi 的12集相符，证明本 subject 覆盖该季全季。\n\nhttps://bgm.tv/subject/54374 (page): Bangumi 页面确认目标为 TV 动画《EAT-MAN'98／螺丝侠》，1998年10月7日至12月23日播出，共12集，并将1997年《EAT-MAN》列为“不同演绎”。\n\nhttps://www.themoviedb.org/tv/34209 (api_snapshot): 输入的 TMDB API 快照显示 TV 34209 是始播于1997年1月10日的《EAT-MAN》，只有第1季12集；所给 /season/2 请求返回404，因此旧候选的第2季并不存在。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/54374; https://www.wikidata.org/wiki/Q123945136; https://www.moviefone.com/tv-shows/eat-man-98/yELk752sUoQbjBtvglXCK3/seasons/1/; https://www.themoviedb.org/tv/34209",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 86348,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

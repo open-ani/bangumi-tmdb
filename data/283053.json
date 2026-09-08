@@ -1,0 +1,24 @@
+{
+  "anidbId": 14916,
+  "bangumiId": 283053,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 Fairy gone 第二部分/第2季，AniDB 关联为 Fairy Gone (Dai 2 Cour)，且 Bangumi 正篇集数为 sort 13–24。TMDB TV 86835 的第1季明确收录24集，其中第13–24集的标题与日期分别对应该 subject 的12集；TMDB 快照中的第2季请求失败不能视为不存在，但已有第1季逐集资料足以确定本 subject 应映射为第1季第13–24集。\n\nhttps://bgm.tv/subject/283053 (page): Bangumi subject 名为 Fairy gone 2，放送期为2019-10-06至2019-12-22，12集的 sort 为13–24，并与 Fairy gone 主体建立续作关系；输入资料中的 AniDB ID 为14916，名称包含 Fairy Gone (Dai 2 Cour)。\n\nhttps://www.themoviedb.org/tv/86835 (api_snapshot): TMDB TV 86835 名为 Fairy gone フェアリーゴーン，首播2019-04-08，共24集，剧情与该系列主体一致。\n\nhttps://www.themoviedb.org/tv/86835-fairy-gone/season/1 (search_snippet): TMDB 第1季页面明确列出24集；第13–24集标题和2019年10月7日至12月23日的播出日期（时区显示差异）与 Bangumi 第二部分的12集标题和日期逐项对应。\n\nhttps://www.themoviedb.org/tv/86835/season/2 (api_snapshot): 输入的 TMDB API 快照记录第2季请求返回HTTP 404；该失败仅作为现状记录，不作为不存在的依据。\n\n备注：TMDB 页面与 Bangumi 日期存在约一天的时区显示差异，但逐集标题、顺序和播出周期一致。；TMDB 第2季接口请求失败，无法据此断言 TMDB 永久不存在第2季；本结论依靠第1季已明确列出对应的第13–24集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/283053; https://www.themoviedb.org/tv/86835; https://www.themoviedb.org/tv/86835-fairy-gone/season/1; https://www.themoviedb.org/tv/86835/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 86835,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "anidbId": 15067,
+  "bangumiId": 292522,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 136 集、2019-11-17 开播、2022-12-16 结束的《宝可梦 旅途》，并与《宝可梦 目标是宝可梦大师》关联。TMDB 候选 60572 的第19季实际是 2015 年《XY&Z》，因此候选季号错误。TMDB 分季快照显示第23季48集（2019-11-17）、第24季42集（2020-12-11）、第25季57集（2021-12-17）。逐集日期和标题对齐后，Bangumi 主体对应第23季全季、第24季全季，以及第25季第1-46集；第25季第47-57集从2023-01-13开始，属于后续《目标是宝可梦大师》，不应纳入本 subject。\n\nhttps://bgm.tv/subject/292522 (page): Bangumi 页面确认中文名《宝可梦 旅途》、136 集、2019-11-17 开播、2022-12-16 结束，并列出与《宝可梦 目标是宝可梦大师》的续集关联。\n\nhttps://www.themoviedb.org/tv/60572 (api_snapshot): TMDB API 快照确认 TV ID 60572 为《ポケットモンスター》，并列出第23季48集、第24季42集、第25季57集及其开播日期。\n\nhttps://www.themoviedb.org/tv/60572/season/19 (api_snapshot): TMDB API 快照确认候选第19季是《XY&Z》，开播于2015-10-29，共49集，与本 subject 不符。\n\nhttps://www.myseries.tv/pokemon/episodes/season_23 (search_snippet): 第23季为48集，首集2019-11-17、末集2020-12-04；首集标题与 Bangumi 第1集对应。\n\nhttps://www.myseries.tv/pokemon/episodes/season_24 (search_snippet): 第24季为42集，首集2020-12-11、末集2021-12-10；与 Bangumi 第49-90集日期连续对应。\n\nhttps://www.myseries.tv/pokemon/episodes/season_25 (search_snippet): 第25季共57集；第1集为2021-12-17，第46集为2022-12-16，第47集起为2023年播出，支持本 subject 仅取第25季1-46集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/292522; https://www.themoviedb.org/tv/60572; https://www.themoviedb.org/tv/60572/season/19; https://www.myseries.tv/pokemon/episodes/season_23; https://www.myseries.tv/pokemon/episodes/season_24; https://www.myseries.tv/pokemon/episodes/season_25",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 60572,
+      "season": 23,
+      "type": "tv"
+    },
+    {
+      "id": 60572,
+      "season": 24,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 46,
+      "id": 60572,
+      "season": 25,
+      "type": "tv"
+    }
+  ]
+}

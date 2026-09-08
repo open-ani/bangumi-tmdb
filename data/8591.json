@@ -1,0 +1,22 @@
+{
+  "anidbId": 1319,
+  "bangumiId": 8591,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《みさきクロニクル〜ダイバージェンス・イヴ〜》第二季，与前作 subject 4015 存在续作关系，共13集。TMDB TV 12352 的第2季名称、播出年份、简介及13集完整剧集标题均与该 subject 对应；因此应映射为完整第2季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/8591 (page): Bangumi 标题为《みさきクロニクル〜ダイバージェンス・イヴ〜》，中文名为《死体兵 第二季》，2004年播出，共13集；并与《ダイバージェンス・イヴ》subject 4015 建立续作关系。\n\nhttps://www.themoviedb.org/tv/12352 (api_snapshot): TMDB TV 12352 的主条目包含第1季和第2季，各13集；第2季名称为《みさきクロニクル〜ダイバージェンス・イヴ〜》，播出日期为2004-01-03。\n\nhttps://www.themoviedb.org/tv/12352/season/2 (api_snapshot): TMDB 第2季共13集，完整剧集标题从「2315 連合軍士官学校」至「みさき」，与输入中的13个 Bangumi 正篇标题逐一对应，剧情简介也对应续作故事。\n\n备注：TMDB 个别日期与 Bangumi 日期存在1天差异，且第3集快照日期显示为2003-01-17，疑似元数据错误；不影响标题、剧情、季号及13集完整范围的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8591; https://www.themoviedb.org/tv/12352; https://www.themoviedb.org/tv/12352/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 12352,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

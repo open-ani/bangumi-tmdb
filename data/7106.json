@@ -1,0 +1,22 @@
+{
+  "anidbId": 4021,
+  "bangumiId": 7106,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2006 年播出的 TV 动画，共 12 话，放送期为 2006-05-18 至 2006-08-17，章节为 01–12；其剧情、别名、导演增尾昭一、系列构成黒田洋介、制作公司 Viewworks 等信息与 TMDB 44509 完全对应。TMDB 第 1 季明确包含 12 集，日期和集标题逐一匹配，因此采用完整第 1 季。TMDB 的第 0 季是 2004 年特别篇；Bangumi 将 OVA 单列为关联条目，不属于本主体，故排除。\n\nhttps://bgm.tv/subject/7106 (page): Bangumi 将该条目标为 TV，话数 12，放送开始于 2006-05-18，结束于 2006-08-17，章节列表为 01–12；制作、导演、系列构成和剧情信息与候选一致，并将 OVA 列为单独的关联条目。\n\nhttps://raw.githubusercontent.com/adminy/anidb_titles_parser/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 4021 对应为 Kishin Houkou Demonbane (2006)，与 Bangumi 条目名称、年份和别名相符。\n\nhttps://www.themoviedb.org/tv/44509 (api_snapshot): TMDB TV 44509 名称为 機神咆吼デモンベイン，首播日期为 2006-05-18，共 12 集；同时列有 2004 年 1 集的特别篇季和 2006 年 12 集的第 1 季。\n\nhttps://www.themoviedb.org/tv/44509/season/1 (api_snapshot): TMDB 第 1 季 season_number=1，共 12 集，日期为 2006-05-18 至 2006-08-17；集标题 I AM PROVIDENCE、EVIL SHINE、REANINATOR、THE INVADERS、THE SHADOW OVER INNSMOUTH、QUO VADIS、BIG C、SHADOW IN THE DARK、THE HUNT、METALLIC WARCRY、THE RETURN OF THE SORCERER、STRANGE EONS 与 Bangumi 01–12 逐一对应。\n\n备注：AniDB 原始页面访问返回 403，未能直接读取 AniDB 条目；AniDB ID 与标题的对应由公开标题索引摘要及输入关联信息交叉支持。；TMDB 第 0 季的 2004 年特别篇与 Bangumi 的独立 OVA 关联高度吻合，但本次映射只针对 Bangumi 主体 TV 条目，未纳入该特别篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7106; https://raw.githubusercontent.com/adminy/anidb_titles_parser/master/title.json; https://www.themoviedb.org/tv/44509; https://www.themoviedb.org/tv/44509/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44509,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "anidbId": 17150,
+  "bangumiId": 366522,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2022年版TV动画，主体24集；标题、剧情、年份、原作水上悟志、导演中西伸彰、制作NAZ及24集分集标题均与 TMDB 156218 第1季逐集对应。Bangumi另收录同一subject内的总集篇12.5，官方资料确认其为“前半战”总集篇；TMDB将其收录为第0季唯一一集。Bangumi的7月8日与TMDB的7月9日是日本深夜放送跨日造成的日期差异。\n\nhttps://bgm.tv/subject/366522 (page): Bangumi将条目标为TV，话数24，放送开始2022年7月8日，列出01至24及SP/12.5章节，并显示原作、导演、系列构成和NAZ制作信息。\n\nhttps://www.hoshinosamidare.jp/news/ (page): 官方新闻确认本作“全24话连续2クール”，并确认2022年9月30日播出总集篇“惑星のさみだれ 前半戦”。\n\nhttps://www.themoviedb.org/tv/156218 (api_snapshot): TMDB API快照显示作品名为惑星のさみだれ，首播日期2022-07-09，共24集；季列表显示第0季1集、第1季24集。\n\nhttps://www.themoviedb.org/tv/156218/season/1 (api_snapshot): TMDB第1季快照完整列出24集；其标题逐集对应Bangumi的01至24，日期从2022-07-09至2022-12-24，剧情和制作版本一致。\n\n备注：AniDB页面直接访问返回403，AniDB ID 17150与Bangumi subject的关联未能通过AniDB页面独立复核；本次目标判定依据为Bangumi、官方资料及TMDB的直接版本和分集对应。；TMDB第0季的单集详情未包含在输入快照中，但第0季元数据为1集“特別編”，日期2022-10-01，与官方9月30日深夜播出的总集篇相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/366522; https://www.hoshinosamidare.jp/news/; https://www.themoviedb.org/tv/156218; https://www.themoviedb.org/tv/156218/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 156218,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 156218,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

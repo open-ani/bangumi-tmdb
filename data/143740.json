@@ -1,0 +1,24 @@
+{
+  "anidbId": 11318,
+  "bangumiId": 143740,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2016-04-01 至 2016-06-24 的 13 集，章节编号为全系列第 27–39 集；标题、日期、剧情阶段及 MAPPA/studio VOLN 制作信息与《うしおととら》2015–2016 TV 系列一致。TMDB 63085 的 API 快照明确只有 season 1，且该季共 39 集；候选 season 2 请求失败，不能据此另建第 2 季。因此应映射到 TMDB season 1 的第 27–39 集。\n\nhttps://bgm.tv/subject/143740 (page): Bangumi 条目为 TV《うしおととら 第2期》，13 集，放送日期为 2016-04-01 至 2016-06-24，章节编号为 27–39；制作公司为 MAPPA、studio VOLN。\n\nhttps://www.themoviedb.org/tv/63085 (api_snapshot): TMDB API 快照显示作品名为《うしおととら》，总集数 39；seasons 明确列出 season_number=1、episode_count=39，首播日期为 2015-07-03。\n\nhttps://www.wikidata.org/wiki/Q136745740 (search_snippet): 该《Ushio and Tora》实体同时列出 AniDB anime ID 11318 与 Bangumi subject ID 143740，支持 Bangumi→AniDB 关联指向同一 2015–2016 TV 版本。\n\nhttps://www.themoviedb.org/tv/63085/season/1/episode/20?language=en-US (search_snippet): TMDB 页面将该作品标为 Season 1 (2015)，并展示其季内剧集内容，和 TMDB 主页面的单一 39 集 season 1 建模一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/143740; https://www.themoviedb.org/tv/63085; https://www.wikidata.org/wiki/Q136745740; https://www.themoviedb.org/tv/63085/season/1/episode/20?language=en-US",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 27,
+      "episodeEnd": 39,
+      "id": 63085,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

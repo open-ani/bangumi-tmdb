@@ -1,0 +1,25 @@
+{
+  "anidbId": 7685,
+  "bangumiId": 55061,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 1990 年 OVA《A-Ko The VS》，共 2 话：GLAY/Grey Side 与 BLUE Side。TMDB 将其作为两个独立电影条目收录，分别对应 Battle 1: Grey Side（134832）和 Battle 2: Blue Side（134833），日期与剧情均吻合。候选 TV 87054 的 API 请求失败，且 Anime-Lists 将多个 A-Ko 作品错误地汇入同一 TV 映射，不能作为标准目标。\n\nhttps://bgm.tv/anime/browser/ova/?orderby=a&sort=title (search_snippet): Bangumi 搜索结果列出《A子计划 外传 A-Ko The VS》为 2 话、1990-07-21、OVA。\n\nhttps://www.allcinema.net/cinema/pdf/88590 (search_snippet): 资料确认该作品是 1990 年 OVA 外传，全 2 卷/话，以 GLAY SIDE 与 BLUE SIDE 完结，并提供匹配的剧情、导演和制作信息。\n\nhttps://www.themoviedb.org/collection/859206-a?language=es (page): TMDB A-Ko 合集列出两个独立条目：The Versus - Battle 1: Grey Side（1990-07-21）和 Battle 2: Blue Side（1990-08-21），剧情分别对应两话。\n\nhttps://www.themoviedb.org/movie/134832-a-ko-the-vs-battle-1-grey-side?language=es (page): TMDB 合集中的 Battle 1: Grey Side 链接目标为电影 ID 134832。\n\nhttps://www.themoviedb.org/movie/134833-a-ko-the-vs-battle-2-blue-side?language=es (page): TMDB 合集中的 Battle 2: Blue Side 链接目标为电影 ID 134833。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 将 AniDB 7685 映射至 TV 87054，并把该 TV 映射混入多个 A-Ko 作品；这解释了候选来源，但不能证明 TV 目标正确。\n\nhttps://www.themoviedb.org/tv/87054 (api_snapshot): 输入提供的 TMDB API 快照记录 TV 87054 请求返回 HTTP 404。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/55061; https://bgm.tv/anime/browser/ova/?orderby=a&sort=title; https://www.allcinema.net/cinema/pdf/88590; https://www.themoviedb.org/collection/859206-a?language=es; https://www.themoviedb.org/movie/134832-a-ko-the-vs-battle-1-grey-side?language=es; https://www.themoviedb.org/movie/134833-a-ko-the-vs-battle-2-blue-side?language=es; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/87054",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 134832,
+      "type": "movie"
+    },
+    {
+      "id": 134833,
+      "type": "movie"
+    }
+  ]
+}

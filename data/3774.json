@@ -1,0 +1,29 @@
+{
+  "anidbId": 7307,
+  "bangumiId": 3774,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 3774 是2010年播出的电视动画《けいおん！！／K-ON!!》，共收录26话正篇，另将第27话「計画！」列为特别篇。TMDB 42253 是同一《けいおん!》电视系列：其第2季名为《けいおん！！》，24集的标题、剧情顺序与本 subject 第1—24话逐集对应；本 subject 第25话「企画会議！」和第26话「訪問！」则被 TMDB 编入特别篇季的第13—14集。因此需要联合映射 TMDB 第2季全季和第0季第13—14集。TMDB 第0季第21集「計画！」对应 Bangumi 单列的第27话特别篇，不属于本轮正篇范围；电影版也不是同一版本。\n\nhttps://bgm.tv/subject/3774 (page): Bangumi 页面确认主体为TV动画《けいおん！！／轻音少女 第二季》，2010年4月6日开播、共26话；章节栏另将第27话标为SP。\n\nhttps://www.tbs.co.jp/anime/k-on/k-on_tv/story/story.html (page): TBS官方各话页确认《けいおん！！》讲述唯等人升入高三后的故事，并依次列出第1话「高3！」至最终回「卒業式！」，随后列出2010年9月21日的番外篇「企画会議！」和9月28日的番外篇「訪問！」，与Bangumi的26话范围一致。\n\nhttps://www.themoviedb.org/tv/42253 (api_snapshot): TMDB API快照确认电视作品42253原名《けいおん!》，首播于2009年，包含名为《けいおん！！》的第2季；系列人物与轻音部剧情也与目标作品一致。\n\nhttps://www.themoviedb.org/tv/42253/season/2 (api_snapshot): TMDB API快照显示第2季名为《けいおん！！》、2010年开播，共24集；第1—24集标题从「高3！」到「卒業式！」，逐集对应Bangumi 3774的第1—24话。\n\nhttps://www.themoviedb.org/tv/42253/season/0 (api_snapshot): TMDB API快照显示特别篇季第13集为「企画会議！」并明确称其相当于第2期第25话，第14集为「訪問！」并明确称其相当于第2期第26话；第21集「計画！」则被说明为第2期第27话，故应排除。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3774; https://www.tbs.co.jp/anime/k-on/k-on_tv/story/story.html; https://www.themoviedb.org/tv/42253; https://www.themoviedb.org/tv/42253/season/2; https://www.themoviedb.org/tv/42253/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42253,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 13,
+      "episodeEnd": 14,
+      "id": 42253,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

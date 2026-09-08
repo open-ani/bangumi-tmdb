@@ -1,0 +1,22 @@
+{
+  "anidbId": 11173,
+  "bangumiId": 145735,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 145735 是《影鰐-KAGEWANI-》第一季电视动画：2015-10-02 开播，共13集，集名与日期完整。输入中的 AniDB 关联为 11173 且标题匹配；TMDB TV 66115 同名、同日开播，并明确分为两季，每季13集。TMDB 第1季的13个标题与 Bangumi 集名及播出日期逐条对应，因此应映射为 TV 66115 第1季完整一季。Bangumi 另有独立的《影鰐-KAGEWANI-承》subject，不应并入本 subject。\n\nhttps://bgm.tv/subject/145735 (page): Bangumi subject 为《影鰐-KAGEWANI-》，类型为电视动画，2015-10-02 开播，共13集；输入数据还显示其 AniDB ID 11173 标题匹配及与《影鰐-KAGEWANI-承》的独立关联。\n\nhttps://www.themoviedb.org/tv/66115 (api_snapshot): TMDB TV 66115 名称为《影鰐-KAGEWANI-》，首播日期为2015-10-02，共26集，包含第1季和第2季且各13集。\n\nhttps://www.themoviedb.org/tv/66115/season/1 (api_snapshot): TMDB 第1季名称为《影鰐-KAGEWANI-》，首播日期为2015-10-02，完整列出13集；集名、播出日期与 Bangumi 的13集逐条对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/145735; https://www.themoviedb.org/tv/66115; https://www.themoviedb.org/tv/66115/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66115,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

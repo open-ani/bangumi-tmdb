@@ -1,0 +1,22 @@
+{
+  "anidbId": 5678,
+  "bangumiId": 2089,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 2089 明确是 2008 年日本 TV 动画《イタズラなKiss》，共 25 话；页面的剧情、原作、导演、制作公司等信息与 TMDB 36005 的日本动画版本一致。TMDB 第 1 季明确包含 25 集，集标题从第 1 集至第 25 集与 Bangumi 章节逐集对应，因此应映射为完整的第 1 季，不需要缩小集数范围。Bangumi 与 TMDB 首播/完播日期相差约 1 天，但不影响版本和季范围判断。\n\nhttps://bgm.tv/subject/2089 (page): Bangumi subject 2089 标为 TV，话数 25，放送开始于 2008-04-04，原作多田かおる、导演山崎理、动画制作 TMS；章节列表为 01 至 25，剧情为琴子与直树的同居恋爱故事。\n\nhttps://aaltodoc.aalto.fi/bitstreams/66a0d87b-189e-4947-82f2-1ffca927978a/download (search_snippet): 搜索摘要同时显示“AniDB - Itazura na Kiss”及 AniDB anime aid=5678，可与 Bangumi 的日文标题、2008 年 TV 动画和 25 集信息交叉核对。\n\nhttps://www.themoviedb.org/tv/36005 (api_snapshot): TMDB 36005 的日文原名为 イタズラなKiss，首播年份为 2008，日本作品，共 25 集，并列出 season 1 共 25 集。\n\nhttps://www.themoviedb.org/tv/36005/season/1 (api_snapshot): TMDB 第 1 季为 25 集；第 1 至第 25 集标题与 Bangumi 的 25 个正篇章节逐集对应，且第 25 集为结尾篇《ハロー・アゲイン》。\n\n备注：AniDB 页面本身无法直接读取（返回 403），AniDB 关联由输入提供的 matched 结果、标题/年份/集数交叉信息及可读取的 AniDB ID 搜索摘要 corroborate；不影响 TMDB 目标、季号和完整季范围的确认。；Bangumi 日期为 2008-04-04 至 2008-09-26，TMDB 快照为 2008-04-05 起且末集为 2008-09-27，存在约一天的日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2089; https://aaltodoc.aalto.fi/bitstreams/66a0d87b-189e-4947-82f2-1ffca927978a/download; https://www.themoviedb.org/tv/36005; https://www.themoviedb.org/tv/36005/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36005,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

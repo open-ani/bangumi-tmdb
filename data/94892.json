@@ -1,0 +1,24 @@
+{
+  "anidbId": 2641,
+  "bangumiId": 94892,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1996-05-21 发售、共 2 话的 OVA，并以《Teenage Mutant Ninja Turtles – Superman Legend》为别名；其制作信息、OVA 属性和与 1987 年《Teenage Mutant Ninja Turtles》的关联均吻合。AniDB 标题索引将 ID 2641 对应为 Mutant Turtles: Choujin Densetsu Hen。TMDB TV 160 是 1987 年《Teenage Mutant Ninja Turtles》，其特别篇 season 0 的第 1、2 集都标为 1996-05-21，正好对应该两话 OVA；第 3 集起日期为 2009 或缺失，不能整季纳入。\n\nhttps://bangumi.tv/subject/94892 (page): Bangumi 将该条目标为 OVA，共 2 话，发售日为 1996-05-21；制作方为 Bee Media、圆谷制作，并关联主线 Teenage Mutant Ninja Turtles。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): 公开 AniDB 标题索引记录 [2641,\"Mutant Turtles: Choujin Densetsu Hen\"]，与 Bangumi 条目的日文名及英文别名对应。\n\nhttps://www.allcinema.net/cinema/pdf/235888 (page): 资料将该作品列为 1996 年日本制作的 OVA，收录「スーパータートルズ大ピンチ!セイント登場!」和「守護獣降臨 メタルタートルズ登場!」两话。\n\nhttps://www.themoviedb.org/tv/160 (api_snapshot): TMDB API 快照显示 TV ID 160 为 Teenage Mutant Ninja Turtles，首播日 1987-12-14，并包含 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/160/season/0 (api_snapshot): TMDB API 快照显示 season 0 的第 1、2 集日期均为 1996-05-21；第 3 集日期为 2009-10-29，后续多为空，因此只纳入第 1-2 集。\n\n备注：TMDB 快照中的特别篇标题均为泛化的「第N話」，且 episodeCount 与显示的非连续编号存在数据异常；本结论依赖日期、OVA 两话内容及版本关联，未将其他特别篇纳入。；部分二手剧集资料将第二话标为 1997 年发行，与 Bangumi、AllCinema 及 TMDB 快照的 1996 年日期不一致；这影响日期元数据核对，但不改变两话 OVA 对应 season 0 episode 1-2 的范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/94892; https://bangumi.tv/subject/94892; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.allcinema.net/cinema/pdf/235888; https://www.themoviedb.org/tv/160; https://www.themoviedb.org/tv/160/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 160,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 981,
+  "bangumiId": 28238,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将本条目标为 4 话 OVA，发售期为 2001-11-21 至 2002-03-20，标题、制作团队和剧情均对应《Kikaider 01: The Animation》。TMDB 20101 的第 2 季明确命名为「キカイダー01 THE ANIMATION」，共 4 集；剧集页列出 2x1 至 2x4，日期为 2001-11-21、2001-12-29、2002-01-23、2002-03-20，与 Bangumi 的版本和范围一致。TMDB 第 0 季的「ギターを持った少年 -キカイダーVSイナズマン-」是 Bangumi 另一个关联 subject，不应并入本条目。\n\nhttps://bgm.tv/subject/28238 (page): Bangumi 条目为 OVA，4 话，发售日 2001-11-21，结束日 2002-03-20；制作方为 Studio OX/SME・ビジュアルワークス，并明确关联另一部《ギターを持った少年 -キカイダーVSイナズマン-》。\n\nhttps://www.themoviedb.org/tv/20101 (api_snapshot): TMDB API 快照显示 TV 20101 的第 2 季名为「キカイダー01 THE ANIMATION」，episode_count 为 4；第 0 季为单独的特别篇，第 1 季为前作 13 集。\n\nhttps://www.themoviedb.org/tv/20101-android-kikaida/episodes?credit_id=52586162760ee346611229ac&language=ja&person_id=4bc8910c017a3c122d00ba8e (page): TMDB 剧集页明确列出 2x1 VOL.1、2x2 VOL.2、2x3 VOL.3、2x4 VOL.4，日期分别为 2001-11-21、2001-12-29、2002-01-23、2002-03-20，剧情连续对应 Kikaider 01 OVA。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引将 AniDB ID 981 对应为「Kikaider 01 The Animation」，与 Bangumi 条目的日文标题、英文别名及 4 话 OVA 版本一致。\n\n备注：TMDB /tv/20101 API 快照中的第 2 季 air_date 为 2001-11-20，但其逐集页面第 1 集为 2001-11-21；这属于季级元数据与逐集/日方发售日的一日差异，不影响季号或 4 集范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28238; https://www.themoviedb.org/tv/20101; https://www.themoviedb.org/tv/20101-android-kikaida/episodes?credit_id=52586162760ee346611229ac&language=ja&person_id=4bc8910c017a3c122d00ba8e; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 20101,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

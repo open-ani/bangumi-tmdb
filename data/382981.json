@@ -1,0 +1,21 @@
+{
+  "anidbId": 9063,
+  "bangumiId": 382981,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为剧场版，标题为「雪国の王子さま／Yukiguni no Oujisama」，上映日为 1985-12-21；外部资料也确认其为日本动画电影，制作与导演信息一致。AniDB 标题数据将 9063 对应到 Yukiguni no Oujisama。TMDB API 快照中的 1448277 是同名日本电影，发行日完全一致，因此采用电影目标，不涉及季或集数范围。\n\nhttps://bangumi.tv/subject/382981 (search_snippet): Bangumi 页面显示该条目为剧场版，别名为 Yukiguni no Oujisama，上映年度为 1985-12-21，导演为勝間田具治，制作公司为株式会社シナノ企画。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据中存在 [9063,\"Yukiguni no Oujisama\"]，与 Bangumi 的日文名和别名对应。\n\nhttps://eiga.com/movie/75022/ (search_snippet): 电影资料确认《雪国の王子さま》为 1985 年日本动画电影，剧场公开日为 1985-12-21，导演为勝間田具治。\n\nhttps://www.themoviedb.org/movie/1448277 (api_snapshot): TMDB API 快照显示 ID 1448277 的类型为 movie，标题和原始标题均为「雪国の王子さま」，发行日为 1985-12-21，原语言为日语、原产国为日本。\n\n备注：TMDB 快照的 overview 为空，且运行时间与不同外部资料的 88—90 分钟记录略有差异，但不影响电影版本、标题和发行日的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/382981; https://bangumi.tv/subject/382981; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://eiga.com/movie/75022/; https://www.themoviedb.org/movie/1448277",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1448277,
+      "type": "movie"
+    }
+  ]
+}

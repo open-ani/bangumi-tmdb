@@ -1,0 +1,22 @@
+{
+  "anidbId": 14764,
+  "bangumiId": 277954,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2020 年播出的 TV 动画《やはり俺の青春ラブコメはまちがっている。完》，共 12 话，且与前作及独立 OVA 分开。TMDB TV 65676 的第 3 季标题、年份、剧情和 12 个完整剧集标题均与该条目对应，因此应映射为完整第 3 季；无需纳入 TMDB 特别篇季或 OVA。TMDB 与 Bangumi 的播出日期相差一天，属于日期记录差异，不影响版本对应。\n\nhttps://bgm.tv/subject/277954 (page): Bangumi 将条目标为 TV，标题为《やはり俺の青春ラブコメはまちがっている。完》，共 12 话，2020 年 7 月播出；页面列出前作《続》和独立 OVA 关联，并给出相符的剧情、导演及 feel. 制作信息。\n\nhttps://www.themoviedb.org/tv/65676 (api_snapshot): TMDB TV 65676 的主条目包含第 3 季《やはり俺の青春ラブコメはまちがっている。完》，首播年份为 2020，且全剧季表显示第 3 季为 12 集。\n\nhttps://www.themoviedb.org/tv/65676/season/3 (api_snapshot): TMDB 第 3 季标题为《やはり俺の青春ラブコメはまちがっている。完》，季简介涉及雪乃最后的委托、毕业及 prom；完整剧集列表为 1–12 集，标题与 Bangumi 条目的 12 个章节逐一对应。\n\nhttps://www.tbs.co.jp/anime/oregairu/story/ (search_snippet): TBS 官方剧情页的搜索结果明确列出该作品第 12 话并称其为完结话，与 12 集主体范围一致。\n\n备注：TMDB 季/集日期相较 Bangumi 普遍晚一天，疑似时区或平台日期记录差异；不影响标题、剧情和集数对应。；输入中的 AniDB ID 14764 关联标记为 matched，但公开 AniDB 页面未能成功读取；本次最终映射主要由 Bangumi 条目与 TMDB 季、剧集内容的逐项对应确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/277954; https://www.themoviedb.org/tv/65676; https://www.themoviedb.org/tv/65676/season/3; https://www.tbs.co.jp/anime/oregairu/story/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 65676,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 18409,
+  "bangumiId": 312299,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《王者荣耀：荣耀之章 碎月篇》，2024-01-13 开播，共4话；页面列出的制作信息、剧情简介和分集与输入数据一致。TMDB 243327 的中文别名明确将“王者荣耀：荣耀之章碎月篇”标为 season 1，且第1季正好包含4集，日期为2024-01-13、01-13、01-20、01-20，与 Bangumi 四话完全对应。因此应映射为该 TV 的完整第1季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/312299 (page): Bangumi 页面显示标题为“王者荣耀：荣耀之章 碎月篇”、话数4、放送开始2024年1月13日，并列出与输入一致的剧情、角色和制作信息；章节为01至04。\n\nhttps://www.themoviedb.org/tv/243327/titles (page): TMDB 243327 的中国区替代标题明确列出“王者荣耀：荣耀之章碎月篇 season 1”，同时列出命运篇为 season 2、宝藏篇为 season 3，说明该 subject 对应第1季而非其他篇章。\n\nhttps://www.themoviedb.org/tv/243327 (api_snapshot): TMDB API 快照显示该 TV 首播日期为2024-01-13，共8集；season 1 有4集，season 2 有4集。\n\nhttps://www.themoviedb.org/tv/243327/season/1 (api_snapshot): TMDB API 快照显示第1季共4集，集号1至4，播出日期依次为2024-01-13、2024-01-13、2024-01-20、2024-01-20，和 Bangumi subject 的四话逐一对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312299; https://www.themoviedb.org/tv/243327/titles; https://www.themoviedb.org/tv/243327; https://www.themoviedb.org/tv/243327/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 243327,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

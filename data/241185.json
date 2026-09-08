@@ -1,0 +1,27 @@
+{
+  "anidbId": 13973,
+  "bangumiId": 241185,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi主体明确是2020年7月4日开播、12话的TV动画；其章节中另含2020年9月26日的12.5特别篇。TMDB 96556具有相同日文标题、首播日期、剧情设定和制作信息，Season 1完整对应12集，标题、日期与Bangumi正篇逐集吻合；TMDB主体还明确列出Season 0且仅1集，日期与Bangumi主体内特别篇一致。因此应映射整季1，并补充Season 0整季特别篇。AniDB直接页面未能读取，但该关联不是采用TMDB目标的唯一依据。\n\nhttps://bgm.tv/subject/241185 (page): Bangumi页面将该主体标为TV，记载12话、2020年7月4日开播、2020年9月19日结束，并列出12.5特别篇；导演、系列构成、动画制作等信息与候选及TMDB主体一致。\n\nhttps://nbcuni.co.jp/anime/lineup/2020/index03570000.html?lang=ja (page): 官方发行方页面确认作品名、故事设定、导演畑博之、系列构成土田霞/あさのハジメ、音乐宝野聡史及横滨Animation Lab制作。\n\nhttps://www.themoviedb.org/tv/96556 (api_snapshot): TMDB API快照显示ID 96556的日文标题、2020-07-04首播、12集Season 1及1集Season 0；Season 0日期为2020-09-26，与Bangumi主体内特别篇日期一致。\n\nhttps://www.themoviedb.org/tv/96556/season/1 (api_snapshot): TMDB Season 1快照提供完整12集；各集标题和日期与Bangumi第1至12话逐集对应。\n\n备注：AniDB 13973的独立详情页未能成功读取，故未将AniDB关联本身作为唯一确认依据。；输入未提供TMDB Season 0的逐集标题详情，但其季号、单集数量和日期已在TMDB主体快照中明确，并与Bangumi的12.5特别篇吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/241185; https://nbcuni.co.jp/anime/lineup/2020/index03570000.html?lang=ja; https://www.themoviedb.org/tv/96556; https://www.themoviedb.org/tv/96556/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 96556,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 96556,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "anidbId": 14241,
+  "bangumiId": 255550,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi、AniDB 与 TMDB 的日文标题、24 集 TV 类型、2018 年 10 月首播、京都小企鹅主角、原作夏目靫子及 Gathering 制作信息一致。TMDB 第 1 季明确为 24 集，逐集标题和剧情与 Bangumi 正篇对应；Bangumi 主体另列 2 个特别篇，TMDB 明确列出 season 0「特別編」2 集，因此纳入 season 0 的 1–2 集。\n\nhttps://bgm.tv/subject/255550 (page): Bangumi 页面确认该条目为 TV、24 话，2018 年 10 月 5 日开始，原作夏目靫子，动画制作 Gathering，并列出 24 个正篇及 2 个 SP 条目。\n\nhttps://anidb.net/anime/14241 (page): AniDB 14241 的正式标题为「おこしやす、ちとせちゃん」，类型为 TV Series、24 episodes，日期为 2018-10-06 至 2019-03-30，工作人员包含夏目靫子、矢立きょう、こぐま、Gathering，简介也明确是京都的小企鹅千岁酱。\n\nhttps://www.themoviedb.org/tv/84638 (api_snapshot): TMDB TV 84638 标题相同，首播日为 2018-10-06，简介为在京都游荡、接触人们和美食的小企鹅，number_of_episodes 为 24；季列表明确有 season 0「特別編」2 集和 season 1 24 集。\n\nhttps://www.themoviedb.org/tv/84638/season/1 (api_snapshot): TMDB season 1 明确为 24 集；第 1 羽至第 24 羽的标题、剧情和大部分日期与 Bangumi 正篇逐条对应。\n\nhttps://www.vap.co.jp/chitosechan/news/ (search_snippet): 官方新闻明确发布「スペシャル特番～ちとせちゃん、おともだち診断～」及正篇第 19 至第 24 羽的相关内容，证明主体时期确有 2 个特别节目。\n\n备注：Bangumi 与 TMDB 第 1 季第 19–24 集的播出日期存在约一周错位，但标题和剧情仍逐集对应，不能据此改动集数范围。；输入提供的 TMDB season 0 快照只有季级数量，没有逐集标题和日期；season 0 的 1–2 范围依据 TMDB 明确的 2 集数量及 Bangumi/官方确认的 2 个特别篇，若需确认两个特别篇的 TMDB 逐集名称，应继续读取 season 0 详情。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/255550; https://anidb.net/anime/14241; https://www.themoviedb.org/tv/84638; https://www.themoviedb.org/tv/84638/season/1; https://www.vap.co.jp/chitosechan/news/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 24,
+      "id": 84638,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 84638,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

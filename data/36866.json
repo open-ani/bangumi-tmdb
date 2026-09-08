@@ -1,0 +1,27 @@
+{
+  "anidbId": 224,
+  "bangumiId": 36866,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认是《南海奇皇／ネオランガ》的完整 TV 动画，共48话；页面明确记载第1期和第2期各24话，分别播出于1998年和1999年。TMDB 8922 同名、首播日为1998-04-06、总集数48，并明确列出两个各24话的季。两期日期和制作信息与 Bangumi 一致，因此映射为两个完整季，无需截取集数范围。\n\nhttps://bgm.tv/subject/36866 (page): Bangumi 页面确认条目类型为 TV、话数48、放送开始1998-04-06，并记载第1期24话与第2期24话；标题、导演神谷纯、系列构成会川昇及动画制作Studio Pierrot等信息与候选作品一致。\n\nhttps://www.themoviedb.org/tv/8922 (api_snapshot): TMDB API 快照显示条目名为南海奇皇，首播日1998-04-06，总集数48，并列出 season 1（1998-04-06，24话）和 season 2（1999-04-06，24话）。\n\nhttps://www.themovied.org/tv/8922/season/1 (api_snapshot): TMDB season 1 API 快照显示24集，播出日期覆盖1998-04-06至1998-09-28，与 Bangumi 第1期日期范围一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/36866; https://www.themoviedb.org/tv/8922; https://www.themovied.org/tv/8922/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 8922,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 8922,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

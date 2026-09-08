@@ -1,0 +1,22 @@
+{
+  "anidbId": 13398,
+  "bangumiId": 223134,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是《ファイアボール ユーモラス》，TV 类型、3 话、首播 2017-10-06，别名包含“火球 第三季”和“Fireball Humorous”。输入中的 AniDB 关联为 13398，且 AniDB 标题数据将 13398 对应为 Fireball Humorous。TMDB 21326 的第 3 季标题、日期和 3 集数与该主体完全对应；季快照列出完整的 1–3 集及日期，因此应纳入整季。\n\nhttps://bgm.tv/subject/223134 (page): Bangumi 页面确认标题为 ファイアボール ユーモラス，类型为 TV，共 3 话，首播 2017-10-06，别名包含“火球 第三季”和“Fireball Humorous”，并列出 01、02、03 三话。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据的可见条目将 AniDB ID 13398 映射为 Fireball Humorous；与输入中 Bangumi→AniDB 的 matched 关联及名称一致。\n\nhttps://www.themoviedb.org/tv/21326 (api_snapshot): TMDB TV 21326 的主条目名称为 ファイアボール，并列出第 3 季 ファイアボール ユーモラス，首播 2017-10-06、集数 3。\n\nhttps://www.themoviedb.org/tv/21326/season/3 (api_snapshot): TMDB 第 3 季名称为 ファイアボール ユーモラス，共 3 集；第 1、2、3 集日期分别为 2017-10-06、2017-11-10、2017-12-08，标题和简介均对应该短篇系列。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/223134; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/21326; https://www.themoviedb.org/tv/21326/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 21326,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

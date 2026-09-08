@@ -1,0 +1,22 @@
+{
+  "anidbId": 595,
+  "bangumiId": 9348,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 2001 年日本 TV 动画《爆転シュート ベイブレード》，2001-01-08 开播、共 51 话，制作与剧情信息均与候选一致。AniDB ID 595 的公开索引标题为 Bakuten Shoot Beyblade；TMDB 54728 的第 1 季同为 2001-01-08 开播、51 集，完整剧集标题和日期逐集对应 Bangumi 1—51 话。因此应映射为 TMDB TV 54728 第 1 季完整一季。\n\nhttps://bgm.tv/subject/9348 (page): Bangumi 将主体标为 TV，话数 51，放送日期为 2001-01-08 至 2001-12-24，并列出 MADHOUSE、川瀬敏文、青木たかお及完整 1—51 话章节。\n\nhttps://www.d-rights.com/beyblade/2002/2001/story.html (page): 官方 d-rights 页面列出该作品放映故事第 1 话至第 51 话，支持主体范围为完整 51 话。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要中的 AniDB 标题索引明确列出 [595,\"Bakuten Shoot Beyblade\"]，与 Bangumi 主体标题和年份版本相符。\n\nhttps://www.themoviedb.org/tv/54728 (api_snapshot): TMDB API 快照显示 TV 54728 名为爆転シュートベイブレード，首播 2001-01-08，总集数 154，并将第 1 季列为 2001-01-08、51 集；第 2、3 季是后续年份和后续作品。\n\nhttps://www.themoviedb.org/tv/54728/season/1 (api_snapshot): TMDB 第 1 季 API 快照完整返回 51 集；集名和播出日期从第 1 集 2001-01-08 至第 51 集 2001-12-24，与 Bangumi 逐集对应。\n\n备注：AniDB 官方页面本次访问返回 403，AniDB 关联本身由输入中的匹配结果及公开标题索引摘要交叉支持；不影响 TMDB 版本、季号和完整集数范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9348; https://www.d-rights.com/beyblade/2002/2001/story.html; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/54728; https://www.themoviedb.org/tv/54728/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 54728,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

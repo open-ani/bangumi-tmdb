@@ -1,0 +1,22 @@
+{
+  "anidbId": 5039,
+  "bangumiId": 1969,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 1969 明确是 2007 年 TV 版《地球へ…》，共 24 集，首播日为 2007-04-07；制作人员和剧情设定也与 2007 年 TV 版一致。Bangumi 还将 1980 年、约 112 分钟的剧场版单列为 subject 38646，因此不应匹配为电影或 TMDB 的特别篇。TMDB 30237 的首播日期、24 集总数及第 1 季 24 集均与 Bangumi 完全对应；第 1 至 24 集的标题和播出日期也逐项匹配，因此纳入完整第 1 季。\n\nhttps://bgm.tv/subject/1969 (page): Bangumi 将 subject 1969 标为 TV《地球へ…》，24 集，2007-04-07 开播，2007-09-22 完结，并列出与输入一致的制作人员、动画制作公司和剧情设定。\n\nhttps://bgm.tv/subject/38646 (page): Bangumi 将相关的 1980 年作品单列为剧场版，1 集、1980-04-26 上映、约 112 分钟，由东映动画制作；说明它不是本 subject 的 2007 年 TV 版本。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要显示 AniDB ID 5039 对应 Terra e... (2007)，与输入提供的 Bangumi→AniDB=5039 及别名一致。\n\nhttps://www.themoviedb.org/tv/30237 (api_snapshot): TMDB API 快照显示作品名为地球へ…、首播日 2007-04-07、24 集，并列出第 1 季为 2007 年 24 集；另有独立的特别篇季。\n\nhttps://www.themoviedb.org/tv/30237/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 24 集；完整剧集标题和日期从第 1 集 2007-04-07 到第 24 集 2007-09-22，逐项对应 Bangumi 的 24 集。\n\n备注：AniDB 5039 的原始页面无法直接读取（403），但输入中的 AniDB ID/别名、AniDB 标题索引摘要以及 Bangumi 2007 年 TV 信息彼此一致；TMDB 目标及季、集范围已有完整快照支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1969; https://bgm.tv/subject/38646; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/30237; https://www.themoviedb.org/tv/30237/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 30237,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

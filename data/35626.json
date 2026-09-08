@@ -1,0 +1,24 @@
+{
+  "anidbId": 8690,
+  "bangumiId": 35626,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 2012 年发行的两集动画 OVA《ToHeart2 ダンジョントラベラーズ》，不是 2005 年《ToHeart2》TV 正篇，也不是电影。Bangumi 记载其媒介为 OVA、共 2 话，发行期为 2012-02-22 至 2012-07-25；AQUAPLUS 官方产品页确认两卷正篇依次为《サイアクのサイヤク》和《たいせつなもの》。TMDB API 快照显示 TV 27438 的第 0 季第 11、12 集恰好具有这两个标题及相同发行日期，剧情也对应 Dungeon Travelers 的地下城故事。因此完整主体应映射到 TMDB TV 27438 的 S00E11–S00E12。旧候选 season 6 无效：该季 API 请求返回 404，剧集快照也只列出 season 0 和 season 1。\n\nhttps://bgm.tv/subject/35626 (page): Bangumi subject 35626 标题为《ToHeart2 ダンジョントラベラーズ》，标注为 OVA、2 话，别名《ToHeart2 Dungeon Travelers》，发行时间为 2012-02-22 至 2012-07-25。\n\nhttps://aquaplus.jp/th2dtv/product.html (page): AQUAPLUS 官方产品页确认本作全 2 卷：Vol.1《サイアクのサイヤク》于 2012-02-22 发售，Vol.2《たいせつなもの》于 2012-07-25 发售。\n\nhttps://www.themoviedb.org/tv/27438 (api_snapshot): TMDB API 快照确认 TV ID 27438 是日本动画《ToHeart2》，并且季列表只有 season 0（特别篇）和 season 1；输入候选中的 season 6 并不存在。\n\nhttps://www.themoviedb.org/tv/27438/season/0 (api_snapshot): TMDB 第 0 季 API 快照中，第 11 集为《ToHeart2 ダンジョントラベラーズ:サイアクのサイヤク》（2012-02-22），第 12 集为《ToHeart2 ダンジョントラベラーズ:たいせつなもの》（2012-07-25）；标题、日期与官方两卷逐一吻合，剧情也均属于 Dungeon Travelers。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/35626; https://aquaplus.jp/th2dtv/product.html; https://www.themoviedb.org/tv/27438; https://www.themoviedb.org/tv/27438/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 11,
+      "episodeEnd": 12,
+      "id": 27438,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

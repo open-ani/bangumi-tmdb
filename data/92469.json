@@ -1,0 +1,22 @@
+{
+  "anidbId": 599,
+  "bangumiId": 92469,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该主体明确标为 OVA，共 3 话，标题、别名、1997-03-26 发售日、剧情及制作人员均与《Jungle de Ikou!》吻合。独立 AniDB 标题数据将 AniDB ID 599 对应为 Jungle de Ikou!。TMDB 102177 的主条目同名、首播日为 1997-03-26、总集数为 3；其第 1 季明确包含 3 集，集数和日期序列与该 OVA 主体一致。因此应映射为 TMDB TV 第 1 季完整范围。\n\nhttps://bangumi.tv/subject/92469 (page): Bangumi 页面将作品标为 OVA，话数为 3，发售日为 1997 年 3 月 26 日，并列出别名 Jungle de Ikou、制作人员和主体剧情。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据列出 [599,\"Jungle de Ikou!\"]，支持 AniDB ID 599 与该作品标题的对应关系。\n\nhttps://www.themoviedb.org/tv/102177 (api_snapshot): TMDB API 快照显示 TV ID 102177 名为 Jungle De Ikou，首播日为 1997-03-26，共 3 集，并包含第 1 季。\n\nhttps://www.themoviedb.org/tv/102177/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 3 集，集数为 1、2、3，日期依次为 1997-03-26、1997-05-20、1997-09-25。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/92469; https://bangumi.tv/subject/92469; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/102177; https://www.themoviedb.org/tv/102177/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 102177,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

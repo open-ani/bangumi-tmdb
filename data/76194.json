@@ -1,0 +1,23 @@
+{
+  "anidbId": 9585,
+  "bangumiId": 76194,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该条目标记为 1 话 OVA，名称为「未来日記リダイヤル」、发售日为 2013-07-26，并给出与《未来日記》TV 版的前传关联。TMDB TV 46671 的特别篇第 2 集标题正是「未来日記リダイヤル」，日期为 2013-06-19、时长 30 分钟，简介对应由乃在三周目恢复记忆后的故事；第 1 集是另一部 2010 年 OVA，因此不能纳入。本 subject 不应映射到整季或 TV 正篇第 1 季。\n\nhttps://bgm.tv/subject/76194 (page): Bangumi 页面确认这是《未来日記リダイヤル》OVA，1 话，发售日 2013-07-26；章节简介描述三周目由乃取回记忆后的故事，并列出与《未来日記》的系列关联。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 9585 对应为 “Mirai Nikki Redial: Data Ikou”，与该 subject 的 Redial/Data Ikou 版本相符。\n\nhttps://www.themoviedb.org/tv/46671 (api_snapshot): TMDB API 快照确认 ID 46671 是《未来日記》TV 作品，包含特别篇 season 0 和正篇 season 1；正篇为 26 集，不能作为本 OVA 的整季目标。\n\nhttps://www.themoviedb.org/tv/46671/season/0 (api_snapshot): TMDB API 快照确认 season 0 有两集：第 1 集为 2010 年《未来日記》短 OVA，第 2 集为《未来日記リダイヤル》，日期 2013-06-19、时长 30 分钟，简介与 Bangumi subject 对应。\n\n备注：TMDB 将第 2 集日期记为 2013-06-19，而 Bangumi 记为 2013-07-26，可能是不同发行/上线日期；名称、剧情、时长和版本定位均一致。；AniDB 原页面本次无法直接读取，但公开标题索引确认了 ID 9585 与该 Redial/Data Ikou 标题的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/76194; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/46671; https://www.themoviedb.org/tv/46671/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 46671,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

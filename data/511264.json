@@ -1,0 +1,22 @@
+{
+  "anidbId": 18856,
+  "bangumiId": 511264,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2025 年播出的 12 话 TV 动画；标题、中文别名、剧情、原作、导演、系列构成、角色和制作公司均与 AniDB 18856、官方站及 TMDB 271003 一致。Bangumi 采用日本电视台跨午夜日期（4月6日—6月22日），AniDB/TMDB 记为次日历日期（4月7日—6月23日），属于播出日期记法差异。官方站明确每个正篇标题都附有对应的“迷你动画剧场”，而 Bangumi 将其并入12个正篇条目；TMDB 第1季完整列出对应的12个正篇集，因此应映射整季。TMDB 的第0季只有 supplied snapshot 中的数量信息，缺少完整标题和日期，无法确认其是否是另行收录的特典，故不纳入主体映射。\n\nhttps://bgm.tv/subject/511264 (page): Bangumi 条目标题与中文名匹配，类型为 TV，12 话，放送时间为 2025-04-06 至 2025-06-22；剧情、原作中乃空、导演所俊克、系列构成高林ユーキ、动画制作 Elias 等信息与候选作品一致。\n\nhttps://anidb.net/perl-bin/animedb.pl?show=anime&aid=18856 (page): AniDB ID 18856 的主标题为 Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikakete Kita，日文正式标题完全匹配；类型为 TV Series、12 episodes，记录年份为 2025，并列出相同主要角色和制作人员。\n\nhttps://aiomodarkelf.deregula.com/story/ (page): 官方剧情页逐项列出12个正篇标题，并以“正篇／ミニアニメ劇場”形式同时列出每集对应的迷你动画内容；第1集至第12集的正篇标题与 Bangumi 条目提供的12个 regular episodes 一致。\n\nhttps://www.themoviedb.org/tv/271003 (api_snapshot): TMDB TV 271003 的日文标题与 Bangumi/AniDB 完全匹配，概述、日语原声、2025 年首播、12集以及第1季信息均与该作品一致。\n\nhttps://www.themoviedb.org/tv/271003/season/1 (api_snapshot): TMDB 第1季明确为 season_number 1、episodeCount 12；完整集目从“異世界で出会った女の子”至“キミと出逢えて”，日期按每周次日历日期排列，与官方剧情和 Bangumi 正篇顺序对应。\n\n备注：TMDB 第0季“特別編”在 supplied snapshot 中仅有季名和12集数量，没有完整剧集标题或日期；目前无法确认它是否单独承载迷你动画内容，因此未作为额外主体目标推荐。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/511264; https://anidb.net/perl-bin/animedb.pl?show=anime&aid=18856; https://aiomodarkelf.deregula.com/story/; https://www.themoviedb.org/tv/271003; https://www.themoviedb.org/tv/271003/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 271003,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 15788,
+  "bangumiId": 317042,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2022 年 4 月播出的 TV 第二季，共 12 话，并列出“Rikekoi Season 2”等别名。Bangumi 的 12 个正篇标题与 TMDB 90999 第 2 季的 12 集标题逐一对应，剧情简介也一致；TMDB 季数据完整且 episodesTruncated=false，因此应对应整季第 2 季。Bangumi 日期比 TMDB 及其集日期早一天，属于播出时区/日期记录差异，不影响版本匹配。未发现需要额外纳入的特别篇。\n\nhttps://bgm.tv/subject/317042 (page): Bangumi 条目类型为 TV，标题为“理系が恋に落ちたので証明してみた。r=1-sinθ”，话数 12，放送开始于 2022-04-01；页面还列出第二季别名、导演、原作、制作公司及前传关联。\n\nhttps://www.themoviedb.org/tv/90999 (api_snapshot): TMDB TV 作品标题为“理系が恋に落ちたので証明してみた。”，首播 2020-01-11，共 24 集，明确包含第 2 季“理系が恋に落ちたので証明してみた。 r=1-sinθ”，首播 2022-04-02、12 集。\n\nhttps://www.themoviedb.org/tv/90999/season/2 (api_snapshot): TMDB 第 2 季共 12 集且 episodesTruncated=false；第 1 至 12 集标题分别与 Bangumi 正篇标题逐一对应，日期为 2022-04-02 至 2022-06-18，剧情概述与该第二季一致。\n\nhttps://anidb.app/anime/science-fell-in-love-so-i-tried-to-prove-it-r1-sinth-4624 (search_snippet): 搜索摘要将该作品标为 Science Fell in Love, So I Tried to Prove It r=1-sinθ，并列出 Rikei ga Koi ni Ochita no de Shoumei shitemita. r=1-sinθ 等别名及第二季指向。\n\n备注：AniDB 官方页面 https://anidb.net/anime/15788 返回 403，未能独立读取其数值 ID 页面；但 Bangumi 条目身份、标题/别名、制作信息、12 集标题与 TMDB 第 2 季已充分一致。；TMDB 与 Bangumi 的首播及逐集日期相差一天，应保留为日期记录差异，不应据此改判季号或拆分集数。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/317042; https://www.themoviedb.org/tv/90999; https://www.themoviedb.org/tv/90999/season/2; https://anidb.app/anime/science-fell-in-love-so-i-tried-to-prove-it-r1-sinth-4624",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 90999,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

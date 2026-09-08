@@ -1,0 +1,30 @@
+{
+  "anidbId": 9306,
+  "bangumiId": 147686,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 147686 明确是《美少女戦士セーラームーンCrystal ブラック・ムーン編》，共13集，对应 Act.14–Act.26。TMDB TV 61339 的第1季包含 Act.14（2015-01-17），第2季包含 Act.15–Act.26（12集，2015-02-07至2015-07-18），因此该 subject 必须跨 TMDB 两季表示，不能整季纳入第1季或第2季。Anime-Lists 的 AniDB 9306→TMDB 61339 关联确认了作品主体，但其候选季信息不足以单独确定范围。\n\nhttps://bgm.tv/subject/147686 (page): Bangumi 将该条目标为《美少女戦士セーラームーンCrystal 第2期》，共13集，章节为14至26；首集 Act.14 日期为2015-01-17，末集 Act.26 日期为2015-07-18。\n\nhttps://www.themoviedb.org/tv/61339 (api_snapshot): TMDB TV 61339 的主信息显示第1季14集、第2季12集，首播日期分别为2014-07-05和2015-02-07。\n\nhttps://www.themoviedb.org/tv/61339/season/1 (api_snapshot): TMDB 第1季第14集为 Act.14，日期2015-01-17，与 Bangumi subject 首集标题和日期一致。\n\nhttps://www.themoviedb.org/tv/61339/season/2 (search_snippet): TMDB 第2季完整列出12集，编号为 Act.15 至 Act.26，日期从2015-02-07至2015-07-18，与 Bangumi subject 其余12集逐集对应。\n\nhttps://sailormoon-official.com/animation/1_2/episode/ (page): 官方页面列出 Crystal 的 Act.14、Act.15至Act.26，并将其作为同一1・2期作品的连续剧集。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 将 AniDB 9306《Bishoujo Senshi Sailor Moon Crystal》关联至 TMDB TV 61339；其映射记录为 AniDB season 1 的15至26对应 TVDB season 2，说明候选确实指向该作品主体，但未覆盖 TMDB 的 Act.14季划分。\n\n备注：AniDB 原站页面无法直接读取（403），因此 AniDB 9306 的核对依赖 Bangumi 提供的 matched 关联及 Anime-Lists 条目；作品名称、制作方、剧情、日期和逐集标题均与 Bangumi、TMDB及官方页面一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/147686; https://www.themoviedb.org/tv/61339; https://www.themoviedb.org/tv/61339/season/1; https://www.themoviedb.org/tv/61339/season/2; https://sailormoon-official.com/animation/1_2/episode/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "id": 61339,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 61339,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

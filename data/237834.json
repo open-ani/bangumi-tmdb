@@ -1,0 +1,22 @@
+{
+  "anidbId": 13813,
+  "bangumiId": 237834,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是《中間管理録トネガワ》2018 年的 24 集 TV 动画，剧情为利根川筹划死亡游戏的外传，制作公司为 MADHOUSE。TMDB 80463 的原名、首播年份、简介、制作国家及 24 集信息一致，且唯一季为第 1 季；该季 1–24 集标题和日期与 Bangumi 章节逐一对应，因此应映射为完整第 1 季。Bangumi 的总览日期比 TMDB/API 快照早一天，属于日期记录口径差异，不影响版本识别。\n\nhttps://bgm.tv/subject/237834 (page): Bangumi 将条目标为 TV，标题为《中間管理録トネガワ》，话数 24，2018 年播出；章节为 1–24 集，并列出利根川外传剧情、MADHOUSE 制作及相关制作信息。\n\nhttps://www.themoviedb.org/tv/80463 (api_snapshot): TMDB TV 80463 的原名为《中間管理録トネガワ》，首播日期为 2018-07-04，共 24 集，且返回的季列表只有 season 1、24 集。\n\nhttps://www.themoviedb.org/tv/80463/season/1 (api_snapshot): TMDB season 1 标为 24 集；第 1–24 集标题（如始動、忖度、鉄板、出航、終着）及播出日期与 Bangumi 章节逐一对应。\n\n备注：Bangumi 总览记载的首播/完结日期分别为 2018-07-03 与 2018-12-25，而 TMDB/API 快照为 2018-07-04 与 2018-12-26，存在一天的日期口径差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/237834; https://www.themoviedb.org/tv/80463; https://www.themoviedb.org/tv/80463/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80463,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

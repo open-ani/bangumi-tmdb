@@ -1,0 +1,24 @@
+{
+  "anidbId": 3998,
+  "bangumiId": 41733,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 1994 年发行的原创 5 话 OVA《装甲騎兵ボトムズ 赫奕たる異端》，不是原始 52 话 TV 动画、电影版或重剪版。VOTOMS 官方页面列出的五话依次为「回帰」「アレギウム」「巡礼」「臨界」「触れ得ざる者」；TMDB TV 32377 的第 0 季第 8–12 集标题、顺序、1994 年播出日期及剧情均与之对应，因此应映射为 S00E08–S00E12。旧候选所写第 2 季不成立：TMDB 剧集快照只列第 0、1 季，且第 2 季接口返回 404。\n\nhttps://www.votoms.net/about/06.php (page): VOTOMS 官方作品页确认《赫奕たる異端》是 1994 年发行的全 5 话 OVA，故事发生在 TV 系列之后，并逐一列出「回帰」「アレギウム」「巡礼」「臨界」「触れ得ざる者」。\n\nhttps://www.themoviedb.org/tv/32377 (api_snapshot): TMDB API 快照确认 TV 32377 是日本动画《装甲騎兵ボトムズ》；其季列表只有第 0 季特别篇和含 52 集的第 1 季，没有第 2 季。\n\nhttps://www.themoviedb.org/tv/32377/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 8–12 集分别为《赫奕たる異端》的五话，标题完全同序；日期均在 1994 年，剧情亦连续讲述沉睡 32 年后苏醒的キリコ、フィアナ以及テイタニア与マーティアル事件。\n\nhttps://www.themoviedb.org/tv/32377/season/2 (api_snapshot): 提供的 TMDB API 请求对第 2 季返回 HTTP 404，排除旧候选中的 season=2。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/41733; https://www.votoms.net/about/06.php; https://www.themoviedb.org/tv/32377; https://www.themoviedb.org/tv/32377/season/0; https://www.themoviedb.org/tv/32377/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 8,
+      "episodeEnd": 12,
+      "id": 32377,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

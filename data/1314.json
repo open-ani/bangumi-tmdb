@@ -1,0 +1,22 @@
+{
+  "anidbId": 6103,
+  "bangumiId": 1314,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 1314 明确是 2008 年播出的《スキップ・ビート!》TV 动画，共 25 集；BangumiExtLinker 当前数据明确将 bgm_id 1314 映射至 AniDB 6103。TMDB TV 46669 名称、首播日期、剧情、25 集数量及第 1 季完整剧集标题均与该版本逐集对应，因此推荐 TMDB TV 46669 第 1 季完整范围。Bangumi 与 TMDB 最后一集日期相差约一周，但不影响标题、版本和完整 25 集范围的确认。\n\nhttps://bgm.tv/subject/1314 (page): Bangumi 条目标记为 TV，名称为「スキップ・ビート!」，共 25 集，首播 2008-10-05；页面列出第 1–25 集及其日期。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/main/data/anime_map.json (page): BangumiExtLinker 数据第 276 行明确记录 bgm_id 1314、名称「スキップ・ビート!」、日期 2008-10，并映射 anidb_id 6103。\n\nhttps://www.themoviedb.org/tv/46669 (api_snapshot): TMDB API 快照显示 TV 46669 为「スキップ・ビート！」，首播 2008-10-05，共 25 集，包含第 1 季且该季为 25 集。\n\nhttps://www.themoviedb.org/tv/46669/season/1 (api_snapshot): TMDB 第 1 季为 25 集；第 1–25 集标题与 Bangumi 条目的 25 集标题逐集对应，剧情内容也对应同一 TV 动画版本。\n\n备注：Bangumi 第 25 集日期为 2009-03-22，而 TMDB 第 25 集日期为 2009-03-30，可能是地区或数据录入差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1314; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/main/data/anime_map.json; https://www.themoviedb.org/tv/46669; https://www.themoviedb.org/tv/46669/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46669,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

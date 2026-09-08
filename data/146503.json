@@ -1,0 +1,22 @@
+{
+  "anidbId": 11591,
+  "bangumiId": 146503,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《境界のRINNE》第2系列，TV、25话，2016-04-09至2016-09-24；其章节为主体编号26–50。TMDB 62601 是同一作品的总TV条目，包含三个各25集的季；第2季首播日期为2016-04-09，共25集。TMDB第2季完整剧集标题、日期和剧情与 Bangumi 这25话逐一对应（对应 Bangumi 26–50），因此应映射为完整第2季，不需要拆分集数。\n\nhttps://bgm.tv/subject/146503 (page): Bangumi 条目标为《境界のRINNE 第2シリーズ》，类型TV，25话，2016-04-09开播、2016-09-24结束；章节标题和日期覆盖主体全部25话，并关联前传与第3系列。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB 11591 对应为“Kyoukai no Rinne (2016)”，与该 Bangumi 第2系列的年份和标题相符。\n\nhttps://www.themoviedb.org/tv/62601 (api_snapshot): TMDB TV 62601 的总条目为《境界のRINNE》，共75集，明确列出第1、2、3季且每季25集；第2季日期为2016-04-09。\n\nhttps://www.themoviedb.org/tv/62601/season/2 (api_snapshot): TMDB第2季快照显示 season_number=2、episodeCount=25、首播日期2016-04-09，剧集列表完整未截断；25集标题、日期和剧情与 Bangumi 主体逐条对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/146503; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/62601; https://www.themoviedb.org/tv/62601/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 62601,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

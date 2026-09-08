@@ -1,0 +1,24 @@
+{
+  "anidbId": 11758,
+  "bangumiId": 153114,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 3 集 OAD，发售及播出范围为 2016-05-06 至 2017-04-07。TMDB TV 65292 的 season 0「特別編」恰有 3 集，标题、日期和剧情分别对应「中村慎也事件」「Intermission」「佐藤ZERO」，因此应映射为 season 0 的第 1–3 集，而不是主系列 season 1/2。AniDB 标题索引也将 11758 标为 Ajin OAD，与该版本相符。\n\nhttps://bgm.tv/subject/153114 (page): Bangumi 条目标为《亜人 OAD》OVA，共 3 集，发售日为 2016-05-06，结束日为 2017-04-07，并列出 01–03 三集及对应 OAD 内容。\n\nhttps://www.themoviedb.org/tv/65292 (api_snapshot): TMDB TV 65292《亜人》包含 season 0「特別編」且该季有 3 集，另有 season 1 和 season 2。\n\nhttps://www.themoviedb.org/tv/65292/season/0 (api_snapshot): TMDB season 0 的 3 集分别为「中村慎也事件」(2016-05-06)、「Intermission」(2016-10-07)、「佐藤ZERO」(2017-04-07)，剧情简介与 OAD 三集内容逐一对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 ID 11758 标为「Ajin OAD」。\n\n备注：AniDB 官方详情页无法直接读取（返回 403），AniDB ID 与 Bangumi 条目的独立关联主要由标题索引、Bangumi OAD 版本信息及 TMDB 逐集内容共同 corroborate。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/153114; https://www.themoviedb.org/tv/65292; https://www.themoviedb.org/tv/65292/season/0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 65292,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 12418,
+  "bangumiId": 195669,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认是 2017 年播出的《ちるらん にぶんの壱》TV 动画，共 12 集，首播日期与制作信息吻合。AniDB 12418 对应同名作品，Anime-Lists 关联至 TMDB TV 69240 第 1 季；TMDB 快照显示该季完整包含 12 集，日期序列与 Bangumi 条目仅相差日本电视台“25:00”跨日。因此应映射为 TMDB 69240 第 1 季完整范围。\n\nhttps://bgm.tv/subject/195669 (page): Bangumi 将该作品标为 TV，话数 12，放送时间为 2017-01-09 至 2017-03-27，并列出室井ふみえ、ランドック・スタジオ等制作信息及 12 个正篇章节。\n\nhttps://corp.coamix.co.jp/anime-chiruran/broad/ (page): 官方页面确认作品在 2017-01-09 周一 25:00 播出；这解释了 TMDB 记录从 2017-01-10 起算的日期偏移。\n\nhttps://www.wikidata.org/wiki/Q17214939 (page): 同名作品条目同时列出 AniDB anime ID 12418 与 Bangumi subject ID 195669，支持 Bangumi→AniDB 关联及版本一致性。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=12418 条目名称为 Chiruran: Nibun no Ichi，并关联 tmdbtv=69240、tmdbseason=1；该条目未提供偏移量。\n\nhttps://www.themoviedb.org/tv/69240 (api_snapshot): TMDB API 快照确认 TV ID 69240 名称为 ちるらん にぶんの壱，首播日期 2017-01-10，共 12 集。\n\nhttps://www.themoviedb.org/tv/69240/season/1 (api_snapshot): TMDB API 快照确认第 1 季有 12 集，集数 1–12，日期为 2017-01-10 至 2017-03-28，完整覆盖该 Bangumi 主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/195669; https://corp.coamix.co.jp/anime-chiruran/broad/; https://www.wikidata.org/wiki/Q17214939; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/69240; https://www.themoviedb.org/tv/69240/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69240,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

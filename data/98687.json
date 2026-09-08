@@ -1,0 +1,22 @@
+{
+  "anidbId": 9115,
+  "bangumiId": 98687,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2012 年的 4 集 web 动画《The Four Seasons》。AniDB 9115 明确记载为 4 集 Web 作品，并列出 Spring、Summer、Fall、Winter 四集；埼玉官方动画页面列出完全对应的四集标题及旅游宣传设定。TMDB API 快照中的 132756 也是 2012 年、共 4 集，且第 1 季完整包含 4 集。因此应对应 TV 132756 第 1 季整季。Bangumi、AniDB 与 TMDB 的首播日期分别为 3 月 21 日、3 月 29 日、3 月 27 日，TMDB 运行时为 9 分钟而 AniDB/Bangumi 为约 8 分钟，视为元数据差异，不足以否定标题、集数和官方内容的对应关系。\n\nhttps://anidb.net/anime/9115 (page): AniDB 9115 的主标题为 The Four Seasons，类型为 Web、4 episodes；年份为 2012，并列出四集及 Suzuki Yuu 导演、埼玉旅游宣传设定。\n\nhttps://www.skipcity.jp/channel/ani/ (page): 埼玉官方“アニメど埼玉”页面将 The Four Seasons 列为埼玉观光 PR 动画，并列出四集：Cherry Blossom Memories、Saitama Summer Travel Guide、Adventures of Higan the Brave and Princess Licori、Winter sweet home。\n\nhttps://www.themoviedb.org/tv/132756 (api_snapshot): TMDB API 快照显示 TV 132756 名为 The Four Seasons，首播日期为 2012-03-27，共 4 集，第 1 季共 4 集。\n\nhttps://www.themoviedb.org/tv/132756/season/1 (api_snapshot): TMDB API 快照显示第 1 季 episode 1–4 均存在，季集数为 4，故可采用完整第 1 季而无需截取范围。\n\nhttps://www.tvtime.com/show/77524 (search_snippet): 搜索摘要独立列出该 2012 年四集作品的四个集标题，并显示均于 2012-03-27 播出，与 TMDB 快照的季集结构相符。\n\n备注：Bangumi、AniDB、TMDB 的首播日期及单集时长存在小幅差异；TMDB 快照中的集标题和剧情简介较为简略。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/98687; https://anidb.net/anime/9115; https://www.skipcity.jp/channel/ani/; https://www.themoviedb.org/tv/132756; https://www.themoviedb.org/tv/132756/season/1; https://www.tvtime.com/show/77524",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 132756,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

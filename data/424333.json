@@ -1,0 +1,21 @@
+{
+  "anidbId": 2608,
+  "bangumiId": 424333,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi subject 明确是 1983 年3月12日上映、53分钟的独立动画电影，并非 TV 正篇中的可确定集数范围。公开资料的标题、上映日期、剧情、导演/制作信息与 TMDB 电影链接一致；Letterboxd 页面中的 TMDB 链接解析为电影 ID 875503。候选 TV 80885 是 1981 年开始、697 集的《忍者ハットリくん》主系列第1季，属于关联母体，不应将整季作为该电影的集数映射。\n\nhttps://eiga.com/movie/68054/ (page): 该片标为《忍者ハットリくん ニンニンふるさと大作戦の巻》，1983年制作、53分钟，剧场公开日为1983年3月12日；剧情围绕哈特利回伊贺并与科学忍者机械丸对决，导演和制作人员信息也与该版本一致。\n\nhttps://letterboxd.com/film/hattori-and-the-war-of-the-little-ninja-villages/ (page): 页面列出该片的日文别名、1983年3月12日剧场发行、53分钟，并提供对应 TMDB 链接；该链接解析为 https://www.themoviedb.org/movie/875503/。\n\nhttps://www.themoviedb.org/movie/875503/ (page): 由对应影片页面链接解析出的 TMDB 电影条目 URL，目标类型为 movie、ID 为875503。\n\nhttps://www.themoviedb.org/tv/80885 (api_snapshot): TMDB API 快照显示候选 80885 是《忍者ハットリくん》TV 条目，首播日1981年9月28日，共697集，只有 season 1 且该季为697集；这与1983年53分钟独立电影不构成具体集数对应。\n\nhttps://www.themoviedb.org/tv/80885/season/0 (api_snapshot): TMDB season 0 请求返回404；该失败不能作为不存在的证据，也不能据此推导电影的集数范围。\n\n备注：TMDB 电影详情页本身在本次抓取中受访问限制，未能读取其完整简介、运行时和制作字段；但对应 TMDB 电影 ID 已由该影片页面的 TMDB 链接解析确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/424333; https://eiga.com/movie/68054/; https://letterboxd.com/film/hattori-and-the-war-of-the-little-ninja-villages/; https://www.themoviedb.org/movie/875503/; https://www.themoviedb.org/tv/80885; https://www.themoviedb.org/tv/80885/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 875503,
+      "type": "movie"
+    }
+  ]
+}

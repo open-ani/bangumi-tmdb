@@ -1,0 +1,23 @@
+{
+  "anidbId": 7294,
+  "bangumiId": 3780,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是于 2009-12-26 发售、仅 1 话的 OVA《今日のおやつ 〜はつ恋〜》，AniDB 关联状态为 matched。TMDB 96737 的特别篇第 1 集同日播出且为 15 分钟，符合该 OVA；特别篇第 2 集为 105 分钟并对应另一部剧场版主体，不应纳入。\n\nhttps://bgm.tv/subject/3780 (page): 主体名称、OVA 类型、发售日 2009-12-26、话数 1；并与剧场版《文学少女》存在关联。\n\nhttps://www.themoviedb.org/tv/96737 (api_snapshot): TMDB TV 96737 标题为《“文学少女”メモワール》，特别篇 season 0 共 2 集，特别篇日期为 2009-12-26。\n\nhttps://www.themoviedb.org/tv/96737/season/0 (api_snapshot): season 0 第 1 集日期为 2009-12-26、时长 15 分钟；第 2 集时长 105 分钟，不能与该 1 话 OVA 合并。\n\n备注：Bangumi regular episode 的 airdate 字段为 2010-08-27，与 infobox 发售日 2009-12-26 不一致；但主体发售日、名称、TMDB 第 1 集日期和时长均支持 episode 1。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3780; https://www.themoviedb.org/tv/96737; https://www.themoviedb.org/tv/96737/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 96737,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

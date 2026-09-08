@@ -1,0 +1,22 @@
+{
+  "anidbId": 10016,
+  "bangumiId": 90772,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 90772 明确是《GJ部@》TV特番，1话，2014-05-05播出，并与《GJ部》关联；其别名包含 GJ-bu@、GJ Club@ 等，与输入的 AniDB 关联和候选作品一致。TMDB 55016 是《GJ部》主条目，季列表将 1 话、2014 年特别编列为 season 0；因此候选 season 2 应纠正为 season 0。主体完整对应该季，使用整季范围。\n\nhttps://bangumi.tv/subject/90772 (page): Bangumi 将该条目标为《GJ部@》TV，1话，2014年5月5日播出，别名包括 GJ-bu@、GJ Club@，并关联前作《GJ部》；简介描述纽约篇等特别篇内容。\n\nhttps://www.themoviedb.org/tv/55016 (api_snapshot): TMDB API 快照显示 TV 55016 为《GJ部》，主条目首播日为 2013-01-10，并列出 season 0「特别編」1话、2014-05-06，以及 season 1 12话；season 0 与 Bangumi 的单话特别篇及日期相邻关系相符。\n\nhttps://www.themoviedb.org/tv/55016/season/2 (api_snapshot): 输入提供的 season 2 请求返回 404；该失败未被当作不存在，而是因此不采用候选 season 2，并依据成功的季列表和版本信息改用 season 0。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/90772; https://bangumi.tv/subject/90772; https://www.themoviedb.org/tv/55016; https://www.themoviedb.org/tv/55016/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 55016,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

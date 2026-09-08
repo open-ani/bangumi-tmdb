@@ -1,0 +1,22 @@
+{
+  "anidbId": 18541,
+  "bangumiId": 485469,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为2025年播出的TV动画，共12话；标题、简介、导演及动画制作（ZERO-G×SABERWORKS）与 TMDB TV 249545 完全对应。TMDB 主条目标记为2025-01-04首播、共12集且只有第1季；第1季快照也明确为12集，集名与 Bangumi 01–12逐集一致，因此应映射为完整第1季。TMDB部分集日期比 Bangumi 的电视首播早一周（例如第3集和第12集），与 Bangumi 标注的 ABEMA 先行播出窗口相符，不构成版本不一致。未发现需要拆分的OVA、电影、总集篇或其他主体内特别篇。AniDB 18541 的直接页面未能读取，因此没有把该 ID 作为决定性依据；目标由 Bangumi 与 TMDB 的标题、剧情、制作信息、集名和数量独立确认。\n\nhttps://bgm.tv/subject/485469 (page): Bangumi 将该作品标为TV，话数12，放送开始2025-01-04、结束2025-03-22，并给出与 TMDB 相同的日文标题、剧情简介、导演平川哲生及动画制作ZERO-G×SABERWORKS。\n\nhttps://bgm.tv/subject/485469 (page): Bangumi章节列表完整列出01至12，标题顺序与 TMDB 第1季快照逐集一致；条目还注明ABEMA于2024-12-28至2025-03-15一周先行。\n\nhttps://www.themoviedb.org/tv/249545 (api_snapshot): TMDB API快照显示TV ID 249545的日文原名与 Bangumi 一致，首播日2025-01-04，剧情为塔玛以S级贝希摩斯幼体身份被精灵冒险者阿莉亚误认为小猫并成为其宠物骑士，共12集，仅列Season 1。\n\nhttps://www.themoviedb.org/tv/249545/season/1 (api_snapshot): TMDB API快照明确为第1季，air_date为2025-01-04，episodeCount为12，且完整剧集标题1至12与 Bangumi章节标题一致。\n\nhttps://bgm.tv/ep/1435470 (search_snippet): Bangumi第12话为《聖なる刃と聖なる獣》，电视首播2025-03-22，剧情为与ヴァサーゴ及ニーズヘッグ的最终决战，和 TMDB 第12集标题及主线剧情对应。\n\nhttps://animeschedule.net/anime/s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu (search_snippet): 独立索引以相同日文及英文别名列出该作品为TV、Winter 2025、12集、约24分钟，并提供AniDB信息入口；但摘要未显示AniDB数字ID。\n\n备注：AniDB 18541 的直接详情页无法读取，故未能独立确认该数字ID与 Bangumi 条目的关联；这不影响基于 Bangumi与TMDB直接内容交叉核对得到的目标映射。；TMDB部分集的日期采用了与Bangumi电视首播不同的先行播出日期，若下游要求电视首播日期，应以Bangumi日期为准。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/485469; https://www.themoviedb.org/tv/249545; https://www.themoviedb.org/tv/249545/season/1; https://bgm.tv/ep/1435470; https://animeschedule.net/anime/s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 249545,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

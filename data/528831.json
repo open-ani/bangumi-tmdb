@@ -1,0 +1,22 @@
+{
+  "anidbId": 19054,
+  "bangumiId": 528831,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 快照中的标题、首播日 2025-07-03、简介及 12 集逐集标题和日期均与 Bangumi subject 的《追放者食堂へようこそ！》TV 动画对应。候选仅有完整第 1 季，且主体没有需要排除或拆分的集数，因此采用完整 season 1。\n\nhttps://www.themoviedb.org/tv/286723 (api_snapshot): TMDB TV 快照显示标题为《追放者食堂へようこそ！》，首播日为 2025-07-03，共 12 集，仅列出第 1 季；简介与流放冒险者开设食堂的主体剧情一致。\n\nhttps://www.themoviedb.org/tv/286723/season/1 (api_snapshot): TMDB 第 1 季快照显示 season_number=1、episodeCount=12；第 1 至 12 集标题和日期与 Bangumi 提供的正篇集逐一对应。\n\nhttps://bgm.tv/subject/528831 (page): Bangumi subject 信息显示该作品为 2025-07-03 开播、共 12 集的 TV 动画，并列出与 TMDB 第 1 季一致的逐集标题和播出日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/528831; https://www.themoviedb.org/tv/286723; https://www.themoviedb.org/tv/286723/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 286723,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 4891,
+  "bangumiId": 2396,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2007年、GONZO制作、24集的《風のスティグマ》TV动画；其标题、别名、制作信息、剧情和24个分集标题均与 TMDB 61333 第1季逐集对应。TMDB 第1季正好包含24集，因此应映射为完整第1季。TMDB 的第0季为6集特别篇，输入 Bangumi 主体没有对应特别篇，故不纳入。Bangumi 与 TMDB 的首播/完结日期存在约2天差异，但不影响版本和集数对应。\n\nhttps://bgm.tv/subject/2396 (page): Bangumi 条目为《風のスティグマ》TV动画，中文名风之圣痕，24集，2007年4月至9月播出，动画制作公司为GONZO，并列出与输入一致的主要制作人员和剧情。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据中存在 [4891,\"Kaze no Stigma\"]，支持 AniDB ID 4891 对应该作品标题。\n\nhttps://www.themoviedb.org/tv/61333 (api_snapshot): TMDB 61333 的原名为風のスティグマ，首播于2007年，24集；同时列出第0季特别篇6集和第1季24集。简介与 Bangumi 条目的角色、风术/炎术设定和主线剧情一致。\n\nhttps://www.themoviedb.org/tv/61333/season/1 (api_snapshot): TMDB 第1季为24集；第1至24集标题分别与 Bangumi 主体的24个正篇章节逐一对应，剧情简介也连续对应。\n\n备注：TMDB 记录的首播日期为2007-04-13、末集日期为2007-09-21，而 Bangumi 记录为2007-04-11至2007-09-19，可能是不同地区或资料口径的播出日期差异。；AniDB 页面本身在本次检索中无法直接读取；AniDB ID与作品标题的核对依赖输入中的关联结果及公开 AniDB 标题数据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2396; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/61333; https://www.themoviedb.org/tv/61333/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61333,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

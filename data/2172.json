@@ -1,0 +1,24 @@
+{
+  "anidbId": 5470,
+  "bangumiId": 2172,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 2007—2008 年发行的四卷 OVA《君が望む永遠 ～Next Season～》，属于以涼宮遙路线为基础的新后日谈，并非 2003 年的 14 话 TV 正篇。TMDB TV 42855 的第 0 季 E4—E7 分别明确收录《Next Season》第1—4卷，四集日期与 Bangumi 的四话日期逐一相同，因此应映射为 S0E4–S0E7。第 0 季 E1—E3 是不同作品《アカネマニアックス》，不能纳入；旧候选 season=2 的 API 请求返回 404。\n\nhttps://www.themoviedb.org/tv/42855/season/0 (api_snapshot): TMDB API 快照显示 TV 42855 的 S0E4—S0E7 分别命名为 OVA《君が望む永遠〜Next Season〜》第1—4卷，日期依次为 2007-12-21、2008-03-25、2008-06-25、2008-12-19；标题、卷数、日期和剧情人物均与 Bangumi subject 2172 对应。\n\nhttps://www.themoviedb.org/tv/42855 (api_snapshot): TMDB API 快照确认 ID 42855 是日语动画《君が望む永遠》，并将内容编为第 1 季和特别篇第 0 季。\n\nhttps://www.themoviedb.org/tv/42855/season/1 (api_snapshot): TMDB 的第 1 季是 2003—2004 年播出的 14 话 TV 动画，证明它与本 subject 的 2007—2008 年四话 OVA 是不同版本。\n\nhttps://www.age-soft.com/former/Product/kiminozole/featurepoint.htm (search_snippet): âge 官方页面说明《Next Season》第1卷于 2007-12-21 发售，并称其为聚焦涼宮遙、描写游戏遙路线结局之后故事的全新后日谈，确认了作品版本和内容身份。\n\nhttps://books.rakuten.co.jp/rb/4760378/ (search_snippet): 商品资料把第1卷明确列为 OVA 版，记载发售日 2007-12-21、监督高山秀樹、发行方 Bandai Visual，并说明其为不同于既有 TV 版的新故事。\n\nhttps://www.oricon.co.jp/prof/34386/products/789086/1/ (search_snippet): Oricon 的第4卷商品资料明确记载《君が望む永遠～Next Season～ 第4巻》由 Bandai Visual 于 2008-12-19 发售，与 Bangumi 第4话及 TMDB S0E7 的日期一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2172; https://www.themoviedb.org/tv/42855/season/0; https://www.themoviedb.org/tv/42855; https://www.themoviedb.org/tv/42855/season/1; https://www.age-soft.com/former/Product/kiminozole/featurepoint.htm; https://books.rakuten.co.jp/rb/4760378/; https://www.oricon.co.jp/prof/34386/products/789086/1/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "episodeEnd": 7,
+      "id": 42855,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 10773,
+  "bangumiId": 110239,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015 年发行、共 2 集的 OAD《与太郎放浪篇》；其日期、集名、剧情和制作人员与 TMDB 66862 的 season 0「特別編」两集一致。Anime-Lists 映射也将 AniDB 10773（Shouwa Genroku Rakugo Shinjuu）对应到 TMDB TV 66862 season 0。应采用完整 season 0，不纳入 2016 年 TV 正篇 season 1。\n\nhttps://bgm.tv/subject/110239 (page): Bangumi 将该条目标为 OVA，话数 2，发售日为 2015-03-06 至 2015-08-07，章节为「与太郎篇・前編」「与太郎篇・後編」，并列出畠山守、熊谷純、細居美恵子、STUDIO DEEN 等制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"10773\"、name=\"Shouwa Genroku Rakugo Shinjuu\"、tmdbtv=\"66862\"、tmdbseason=\"0\"；同一 TV ID 的 2016 正篇另列为 season 1。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的标题数据将 AniDB 数字 ID 10773 对应为「Shouwa Genroku Rakugo Shinjuu」，与 Bangumi OAD 的标题主体一致。\n\nhttps://www.themoviedb.org/tv/66862 (api_snapshot): TMDB TV 66862 的首播日为 2016-01-09，并列出 season 0「特別編」：首播日 2015-03-06、共 2 集；另有 season 1 和 season 2，故不能把整部 TV 主页面当作目标范围。\n\nhttps://www.themoviedb.org/tv/66862/season/0 (api_snapshot): TMDB season 0 完整返回 2 集：第 1 集「与太郎放浪篇・前編」于 2015-03-06，第 2 集「与太郎放浪篇・後編」于 2015-08-07；两集简介分别对应与太郎拜师及八雲讲述助六往事。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110239; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/66862; https://www.themoviedb.org/tv/66862/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66862,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

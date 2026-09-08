@@ -1,0 +1,23 @@
+{
+  "anidbId": 1135,
+  "bangumiId": 68973,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是单集 OVA《.hack//GIFT》，并被关联为《.hack//SIGN》的独立特别篇。AniDB 标题索引将 1135 对应为“.hack//Gift”；独立资料也核对出其为 2003 年秋季、1 集、Bee Train 制作的 OVA。TMDB TV 8864 的第 0 季第 8 集标题为“.hack//SIGN GIFT”，日期为 2003-11-16、时长 27 分钟，与该 OVA 的名称、形式、剧情和发行时间吻合。因此只映射到第 0 季第 8 集，不纳入整个特别篇季。Bangumi 提供的 2003-04-10 与多项发行资料及 TMDB 第 0 季第 8 集日期不符；该日期在 TMDB 中对应的是另一部《.hack//Liminality》特别篇，视为 Bangumi 日期字段错误或混入。\n\nhttps://bgm.tv/group/topic/363335 (search_snippet): Bangumi 讨论摘要明确称 subject/68973 是从《.hack//SIGN》独立出来的 OVA《.hack//GIFT》条目，并称其为第 29 个章节。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将编号 1135 映射为“.hack//Gift”。\n\nhttps://anilist.co/anime/454/hackGIFT (search_snippet): 独立动画资料确认《.hack//GIFT》为 OVA、1 集、2003 年秋季；剧情涉及《.hack//SIGN》和游戏系列角色，制作方包含 Bee Train。\n\nhttps://www.themoviedb.org/tv/8864 (api_snapshot): TMDB API 快照显示 TV 8864 为“.hack”，包含第 0 季“特別編”。\n\nhttps://www.themoviedb.org/tv/8864/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 8 集标题为“.hack//SIGN GIFT”，日期为 2003-11-16，时长 27 分钟；第 0 季第 5 集则是 2003-04-10 的“.hack//Liminality 第4話 Trismegistus”。\n\n备注：Bangumi 条目的日期字段为 2003-04-10，与该 OVA 多数资料及 TMDB 第 0 季第 8 集日期冲突；但名称、OVA 形式、单集长度、剧情和特别篇编排均支持 TMDB 第 0 季第 8 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68973; https://bgm.tv/group/topic/363335; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anilist.co/anime/454/hackGIFT; https://www.themoviedb.org/tv/8864; https://www.themoviedb.org/tv/8864/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 8,
+      "id": 8864,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

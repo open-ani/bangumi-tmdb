@@ -1,0 +1,22 @@
+{
+  "anidbId": 226,
+  "bangumiId": 39001,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是2002年播出的13集电视动画《ヴァイスクロイツ グリーエン》（Weiß Kreuz Glühen／Knight Hunters Eternity），不是1998年原版，也不是1999—2000年的两集 OVA。TMDB 电视作品 34165 将1998年25集列为第1季、OVA列为特别篇，并将2002年11月28日开播的13集列为第2季。第2季从《WHITE FLAMES》到《Tomorrow》的全部标题、顺序及首末播出日期均与 Bangumi subject 完整对应，因此映射为 TV 34165 第2季全季，无须限定部分集数。旧候选的 season 3 不成立：该季接口返回404，实际对应季号是2。\n\nhttps://www.themoviedb.org/tv/34165 (api_snapshot): TMDB API 快照显示电视作品 ID 34165 原名为《ヴァイスクロイツ》，共38集；季结构为第1季25集、特别篇2集和第2季13集，其中第2季首播日期为2002年11月28日。\n\nhttps://www.themoviedb.org/tv/34165/season/2 (api_snapshot): TMDB 第2季快照完整列出13集：第1集《WHITE FLAMES》于2002年11月28日播出，第13集《Tomorrow》于2003年2月20日播出；中间各集标题和顺序也与 Bangumi 提供的13集逐集一致。\n\nhttps://en.wikipedia.org/wiki/Wei%C3%9F_Kreuz (page): 资料将《Weiß Kreuz Glühen》（日文名《ヴァイスクロイツグリーエン》）明确列为2002年11月28日至2003年2月20日播出的13集电视动画，并列出的13个标题与 Bangumi、TMDB 第2季一致；同时明确它位于两集 OVA 之后，可排除原版和 OVA。\n\nhttps://www.themoviedb.org/tv/34165/season/3 (api_snapshot): 输入所附 TMDB API 请求对第3季返回 HTTP 404，说明旧候选中的 season 3 是错误季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/39001; https://www.themoviedb.org/tv/34165; https://www.themoviedb.org/tv/34165/season/2; https://en.wikipedia.org/wiki/Wei%C3%9F_Kreuz; https://www.themoviedb.org/tv/34165/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34165,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "anidbId": 18721,
+  "bangumiId": 501737,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《オーイ！とんぼ》第2期，13话，播出时间为2024-10-05至2025-01-04，章节编号为14–26。AniDB ID 18721 对应同名第二期，亦为13话且日期完全一致，制作方为OLM。TMDB ID 243140的API快照没有独立第2季，仅有26话的第1季；TMDB剧集页明确列出1x14至1x26，日期、标题和剧情均与Bangumi第2期逐集对应。因此应映射到TMDB第1季的14–26集，不能整季映射，因为1–13集属于Bangumi的前作subject 433072。\n\nhttps://bgm.tv/subject/501737 (page): Bangumi记录该条目为TV、13话，播出时间2024-10-05至2025-01-04，章节为14至26，并列出OLM Division 2等制作信息。\n\nhttps://bgm.tv/subject/433072 (page): Bangumi前作《オーイ！とんぼ》章节为1至13，播出时间为2024-04-06至2024-06-29，确认TMDB第1季前13集属于另一Bangumi subject。\n\nhttps://anidb.net/anime/18721 (page): AniDB ID 18721的正式标题为Ooi! Tonbo (2024)，TV、13 episodes，播出时间2024-10-05至2025-01-04，别名包含Ooi! Tonbo 2nd Season，并关联前作。\n\nhttps://tonbo-anime.com/news/343/ (search_snippet): 官方公告确认电视动画第2期于2024年10月5日开播，故事从岛上转至熊本，并列出原作、导演、系列构成、OLM等制作信息。\n\nhttps://www.themoviedb.org/tv/243140 (api_snapshot): 所附TMDB API快照显示该TV作品共26话，季列表只有特别篇第0季和包含26话的第1季；请求第2季失败未被当作不存在的依据。\n\nhttps://www.themoviedb.org/tv/243140/episodes?credit_id=65a62fb4988afd0122898835&language=es-MX&person_id=64bf69218ee49c011bdb5bfc (page): TMDB剧集页明确列出1x14至1x26；1x14日期为2024-10-05，1x26日期为2025-01-04且标为季终，期间标题和剧情与Bangumi第2期逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/501737; https://bgm.tv/subject/433072; https://anidb.net/anime/18721; https://tonbo-anime.com/news/343/; https://www.themoviedb.org/tv/243140; https://www.themoviedb.org/tv/243140/episodes?credit_id=65a62fb4988afd0122898835&language=es-MX&person_id=64bf69218ee49c011bdb5bfc",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 26,
+      "id": 243140,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 1118,
+  "bangumiId": 53748,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认是1964年8月3日开播、1965年9月27日结束的《ビッグX》TV动画，标注59话；官方TMS资料也确认同一日期、制作公司东京Movie及全59话。TMDB 203793的名称、首播日期、59集总数及第1季完整59集日期/标题均吻合，因此对应TV第1季整季。Bangumi当前章节列表仅列出50集属于条目资料不完整，不应据此截断为1–50集。\n\nhttps://bgm.tv/subject/53748 (page): Bangumi确认标题为ビッグX、类型TV、话数59、首播1964-08-03、完播1965-09-27，制作公司为东京Movie；页面当前章节列表仅显示01–50。\n\nhttps://www.tms-e.co.jp/alltitles/1960s/001101.html (page): TMS官方资料确认《ビッグX》全59话，1964-08-03开播、1965-09-27完播，动画制作东京Movie，原作手塚治虫。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到AniDB标题索引中ID 1118对应Big X， corroborates输入中的Bangumi→AniDB关联。\n\nhttps://www.themoviedb.org/tv/203793 (api_snapshot): 输入的TMDB API快照显示ID 203793为ビッグX，首播1964-08-03，共59集，只有第1季且该季59集。\n\nhttps://www.themoviedb.org/tv/203793/season/1 (api_snapshot): 输入的TMDB第1季API快照显示season_number=1、episodeCount=59、episodesTruncated=false，集1–59的标题和日期与该TV动画播出范围吻合。\n\n备注：AniDB详情页本身无法直接读取，但AniDB标题索引对ID 1118的名称映射与Bangumi条目及官方资料一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53748; https://www.tms-e.co.jp/alltitles/1960s/001101.html; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/203793; https://www.themoviedb.org/tv/203793/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 203793,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

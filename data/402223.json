@@ -1,0 +1,24 @@
+{
+  "anidbId": 17652,
+  "bangumiId": 402223,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该主题明确列为 TV、11 话，播出时间为 2023-01-06 至 2023-03-17，章节编号为 12–22；剧情简介对应第四季深章厄灾篇。官方资料也确认《深章 厄灾篇》自 2023-01-06 起播出。TMDB TV 62745 的第 4 季明确合并了「新章 迷宫篇 / 深章 厄灾篇」，共 22 集；其中第 12–22 集的标题、剧情和日期与 Bangumi 主题逐集对应。因此应映射为 TMDB 第 4 季的第 12–22 集，而不是整季。\n\nhttps://bgm.tv/subject/402223 (page): Bangumi 页面将主题列为 TV，标注 11 话、2023-01-06 开始、2023-03-17 结束，并列出章节 12–22；标题、制作公司 J.C.STAFF、导演橘秀樹等制作信息与目标版本一致。\n\nhttps://danmachi.com/news/news145.php (page): 官方公告确认《ダンまちⅣ 深章 厄災篇》于 2023-01-06 在 TOKYO MX、BS11 等电视台开始播出，且为第四季深章篇。\n\nhttps://www.themoviedb.org/tv/62745 (api_snapshot): TMDB TV 62745 的主条目为《ダンジョンに出会いを求めるのは間違っているだろうか》，第 4 季名称为「IV 新章 迷宮篇 / 深章 厄災篇」，共 22 集。\n\nhttps://www.themoviedb.org/tv/62745/season/4 (api_snapshot): TMDB 第 4 季第 12–22 集依次为「絶望の詩」至「星華」，日期为 2023-01-07 至 2023-03-18，标题和剧情与 Bangumi 的 12–22 话逐集对应；日期差异符合日本电视播出时区/记录方式差异。\n\nhttps://www.tvguide.or.jp/db/anime/danmachi/season4/ (search_snippet): 独立剧集列表将第四季第 12–22 话全部标为「深章厄災篇」，与 Bangumi 主题的 11 话范围一致。\n\n备注：输入中的 AniDB ID 17652 直达页面未能独立读取；但 Bangumi 主题本身、官方公告及 TMDB 逐集标题/剧情/日期已充分确认该版本及范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/402223; https://danmachi.com/news/news145.php; https://www.themoviedb.org/tv/62745; https://www.themoviedb.org/tv/62745/season/4; https://www.tvguide.or.jp/db/anime/danmachi/season4/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 12,
+      "episodeEnd": 22,
+      "id": 62745,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

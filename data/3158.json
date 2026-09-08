@@ -1,0 +1,23 @@
+{
+  "anidbId": 7132,
+  "bangumiId": 3158,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 3158 明确是 1 集 OVA，标题、发售日（2009-10-23）、剧情（温泉旅行）及制作信息均与 TMDB 43634 第 0 季唯一一集吻合。TMDB 第 1 季是 12 集 TV 正篇，且 Bangumi 将本 subject 与 TV 正篇作为主线关联，因此不应纳入。输入中的 AniDB 7132 标题为系列名而非 OVA 全标题，属于名称差异；但具体 OVA 版本与 TMDB 特别季已由 Bangumi 和 TMDB 的日期、标题、剧情及集数直接对应。\n\nhttps://bgm.tv/subject/3158 (page): Bangumi 将 subject 3158 标为 OVA，话数 1，发售日 2009-10-23；章节说明为《アキカン! 9缶めっ》DVD 附带 OVA，内容是温泉旅行篇，并关联《アキカン！》主线。\n\nhttps://www.themoviedb.org/tv/43634 (api_snapshot): TMDB TV 43634 为《アキカン!》，包含第 0 季「特別編」（1 集）和第 1 季（12 集）。\n\nhttps://www.themoviedb.org/tv/43634/season/0 (api_snapshot): TMDB 第 0 季唯一剧集为第 1 集「カン一発!?温泉パニック」，日期 2009-10-23；简介明确说明这是《アキカン! 9缶めっ》DVD 附带 OVA，且为温泉旅行篇。\n\n备注：AniDB 7132 页面请求返回 403，无法独立读取其条目详情；因此 AniDB 关联的直接页面核验受限。不过该限制不影响 Bangumi subject 与 TMDB 特别季之间由标题、日期、剧情和集数形成的直接对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3158; https://www.themoviedb.org/tv/43634; https://www.themoviedb.org/tv/43634/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 43634,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

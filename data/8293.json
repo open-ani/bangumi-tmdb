@@ -1,0 +1,22 @@
+{
+  "anidbId": 5223,
+  "bangumiId": 8293,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 8293 是 2007 年播出的《しおんの王》TV 动画，共 22 集，制作公司为 Studio DEEN，剧情与 TMDB 36202 的简介一致。BangumiExtLinker 明确将 bgm_id 8293 关联至 AniDB 5223；TMDB 36202 的第 1 季明确包含 22 集，且 1—22 集标题与 Bangumi 正篇逐集完全对应，因此应采用完整第 1 季。Bangumi 与 TMDB 的首播及完播日期均相差一天，符合日期记录或时区差异，不影响版本匹配。\n\nhttps://bgm.tv/subject/8293 (search_snippet): Bangumi 记录该条目为《しおんの王》TV，共 22 集；首播 2007-10-13，完播 2008-03-22；剧情为失去双亲和语言、走上将棋之路的紫音；动画制作公司为スタジオディーン。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (page): 映射数据中明确记录 name=しおんの王、bgm_id=8293、date=2007-10、anidb_id=5223。\n\nhttps://www.themoviedb.org/tv/36202 (api_snapshot): TMDB TV 36202 名为《しおんの王》，首播日 2007-10-14，共 22 集；简介描述紫音因父母被杀而失去记忆和语言，并通过将棋追寻真相。\n\nhttps://www.themoviedb.org/tv/36202/season/1 (api_snapshot): TMDB 第 1 季为 22 集；第 1 至 22 集标题依次与 Bangumi 的 22 个正篇标题完全对应，日期覆盖 2007-10-14 至 2008-03-23。\n\n备注：Bangumi 与 TMDB 的播出日期整体相差一天，具体是时区或数据库日期口径差异；不影响作品、季号及完整 22 集范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8293; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://www.themoviedb.org/tv/36202; https://www.themoviedb.org/tv/36202/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36202,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

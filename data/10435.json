@@ -1,0 +1,22 @@
+{
+  "anidbId": 8136,
+  "bangumiId": 10435,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2011 年播出的 13 集 TV 动画；AniDB 8136 与其日文正式名、13 集、制作团队及故事设定一致，且说明存在预播但正規 TV 播出仍为该 13 集。TMDB 44577 的第 1 季明确为 13 集，完整剧集标题与 Bangumi 01–13 逐一对应，简介也一致，因此应映射为整季 1。Bangumi 关联的剧场版是独立的 TV 总集篇，不属于本 subject 的主体范围。TMDB 与 Bangumi 的日期有星期/播出渠道造成的偏移和缺口，但不足以否定标题与主体对应关系。\n\nhttps://bgm.tv/subject/10435 (page): Bangumi 标题为「テレビまんが 昭和物語」，类型为 TV，13 集，2011-04-03 开播并于 2011-06-26 结束；关联条目为独立的剧场版总集篇。\n\nhttps://anidb.net/anime/8136 (page): AniDB 8136 的正式日文名为「テレビまんが 昭和物語」，类型为 TV Series、13 集；年份覆盖 2010-12-30 至 2011-06-26，并列出 Wao World、系列构成、角色设计等制作信息。页面还说明预播集不是正規播出的前四集，而是第 3、5、8、9 集。\n\nhttps://www.themoviedb.org/tv/44577 (api_snapshot): TMDB TV 44577 的名称、日文原名、故事简介与日本原创动画主体一致，明确有 13 集且只有第 1 季。\n\nhttps://www.themoviedb.org/tv/44577/season/1 (api_snapshot): TMDB 第 1 季为 13 集；快照提供了完整且未截断的第 1–13 集标题，均可与 Bangumi 的 13 个正規章节对应。\n\n备注：TMDB 快照中的部分 air_date 与 Bangumi 日期不同，且 AniDB 记录了多频道预播；这些日期差异未改变 13 个剧集标题及顺序的对应，但若要求按特定电视台播出日期精确对齐，仍需进一步核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10435; https://anidb.net/anime/8136; https://www.themoviedb.org/tv/44577; https://www.themoviedb.org/tv/44577/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44577,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

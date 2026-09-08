@@ -1,0 +1,21 @@
+{
+  "anidbId": 7556,
+  "bangumiId": 318328,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是1999-07-24上映、1话、55分钟的剧场版；AniDB 7556以完全对应的日文标题记录为 Movie，日期同为1999-07-24，并列出相同导演、原作与音乐人员。BetaSeries同样记录该片为1999年电影，并将外部 TheMovieDB 页面解析为 movie/716728。候选 TV 56389 是系列聚合页，其特别编第25、26集虽同日播出，但不能替代独立电影条目。\n\nhttps://bgm.tv/subject/318328 (page): Bangumi 将条目标为剧场版，话数1，上映年度1999-07-24，片长55分；导演篠原俊哉、脚本米村正二、动画制作东京ムービー。\n\nhttps://anidb.net/anime/7556 (page): AniDB 7556 的标题完全对应，类型为 Movie，日期24.07.1999，片长约55分钟，并记录同一导演、原作、音乐；同时注明与另一部 Anpanman 作品为双片上映。\n\nhttps://www.betaseries.com/en/movie/110424-go-anpanman-when-the-flower-of-courage-opens (page): 该电影页面记录日文标题、1999-07-24日期、56分钟片长、剧情和导演/脚本，并提供 TheMovieDB 外链。\n\nhttps://www.themoviedb.org/movie/716728 (page): 从上述电影页面的 TheMovieDB 外链解析得到目标为 TMDB movie/716728。\n\nhttps://www.themoviedb.org/tv/56389 (api_snapshot): 输入的 TMDB API 快照显示56389是名为それいけ!アンパンマン的系列 TV 主页面，包含多个聚合季，不能作为该独立电影的电影类型映射。\n\nhttps://www.themoviedb.org/tv/56389/season/0 (api_snapshot): 输入的季快照显示特别编第25、26集日期均为1999-07-24；这只能说明系列聚合中存在同日内容，无法证明电影主体应映射为该 TV 季或集数。\n\n备注：TMDB 电影详情页本身抓取受限，未能独立读取其完整字段；不同资料将片长记为55或56分钟，但标题、电影类型、年份和外链ID一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/318328; https://anidb.net/anime/7556; https://www.betaseries.com/en/movie/110424-go-anpanman-when-the-flower-of-courage-opens; https://www.themoviedb.org/movie/716728; https://www.themoviedb.org/tv/56389; https://www.themoviedb.org/tv/56389/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 716728,
+      "type": "movie"
+    }
+  ]
+}

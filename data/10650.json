@@ -1,0 +1,24 @@
+{
+  "anidbId": 8158,
+  "bangumiId": 10650,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 10650 明确是《戦場のヴァルキュリア3 誰がための銃瘡》OVA，共2话。官方资料确认其为 A-1 Pictures 制作的两话 OVA，前后篇分别发行；TMDB TV 24392 的特别篇 season 0 中，第10、11集标题分别为该 OVA 的前篇、后篇，且第10集简介与官方剧情一致。因此应映射为 season 0 的第10–11集，而不是整季或 TV 正篇。TMDB 集日期与 Bangumi/官方发行日期存在差异，但不影响标题、剧情、版本和两集范围的对应。\n\nhttps://bgm.tv/subject/10650 (page): Bangumi 将该条目标为 OVA，话数为2，标题为《戦場のヴァルキュリア3 誰がための銃瘡》，并列出前篇、后篇及其制作信息。\n\nhttps://www.aniplex.co.jp/lineup/valkyria3/ (page): Aniplex 官方页面明确说明该作品为“OVA全2話”，并介绍前篇、后篇的剧情、A-1 Pictures 制作及发行信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): 输入提供的 Anime-Lists 关联将该 Bangumi/AniDB 线索指向 TMDB TV 24392；该关联仅作为候选线索。\n\nhttps://www.themoviedb.org/tv/24392 (api_snapshot): TMDB API 快照显示 24392 是《戦場のヴァルキュリア》TV 条目，包含 season 0“特別編”和 season 1 正篇，不能将整部 TV 条目作为该 OVA 的范围。\n\nhttps://www.themoviedb.org/tv/24392/season/0 (api_snapshot): TMDB API 快照的 season 0 第10集标题为《戦場のヴァルキュリア3 誰がための銃瘡 前編》，第11集标题为后編；两集简介和运行时对应该两话 OVA。season 0 其余集为其他特别短篇，因此范围为10–11。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要列出 AniDB ID 8158 对应标题“Senjou no Valkyria 3: Unrecorded Chronicles - Tagatame no Juusou”，与 Bangumi subject 标题及 OVA 内容相符。\n\n备注：TMDB 快照中的两集日期与 Bangumi及官方发行日期不完全一致，可能是 TMDB 特别篇元数据日期误录或采用了不同发布渠道日期；标题、剧情和两话结构均已对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10650; https://www.aniplex.co.jp/lineup/valkyria3/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/24392; https://www.themoviedb.org/tv/24392/season/0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 10,
+      "episodeEnd": 11,
+      "id": 24392,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 11200,
+  "bangumiId": 131803,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015-10-03 开始、共 25 话的 TV 作品，标题、别名、剧情、角色和制作信息与 AniDB 11200 的 Itoshi no Muuco 及 TMDB 93078 完全吻合。TMDB 快照明确列出第 1 季、25 集；Bangumi 与电视东京官方逐集资料均覆盖 1–25 话。候选的 season=3 没有得到支持；其季 3 请求失败不作为“不存在”的依据。OAD 是 Bangumi 的独立关联条目，不应并入本 TV 主体。\n\nhttps://bgm.tv/subject/131803 (page): Bangumi 将该条目标为 TV《いとしのムーコ／家有穆珂》，共 25 话，首播 2015-10-03，完播 2016-03-26；剧情、原作、导演、动画制作及关联 OAD 信息均吻合。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据将 AniDB ID 11200 对应为 Itoshi no Muuco，并另列 Lovely Movie: Itoshi no Muuco、Season 2 与 OAD 条目，支持 11200 是本 25 话 TV 版而非 OAD。\n\nhttps://www.tv-tokyo.co.jp/anime/muco/episodes/ (page): 电视东京官方逐集页面列出该系列第 25 话至第 1 话，末话于 2016-03-26 播出；所示标题和日期与 Bangumi 输入中的 25 个正篇逐一对应。\n\nhttps://www.themoviedb.org/tv/93078 (api_snapshot): TMDB API 快照显示作品名为 いとしのムーコ，首播 2015-10-03，共 25 集，并明确列出 season_number=1、episode_count=25。\n\nhttps://www.themoviedb.org/tv/93078/season/3 (api_snapshot): TMDB 快照记录候选 season=3 的请求返回 HTTP 404；该失败未被当作不存在的证明，只说明候选季号缺乏支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/131803; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.tv-tokyo.co.jp/anime/muco/episodes/; https://www.themoviedb.org/tv/93078; https://www.themoviedb.org/tv/93078/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 93078,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

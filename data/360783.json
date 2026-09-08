@@ -1,0 +1,24 @@
+{
+  "anidbId": 17064,
+  "bangumiId": 360783,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《東京リベンジャーズ 聖夜決戦編》，13 集，于 2023-01-07 至 2023-04-01 播出；官方剧集页确认第25至37话均为该篇内容。TMDB 条目 105009 将这些内容编号为 season 1 的第25至37集，而不是 season 2；TMDB 页面还将第38话标为后续天竺篇，故范围应为 1x25–1x37。TMDB 的 season/2 请求失败仅视为请求失败，不作为不存在依据。\n\nhttps://bgm.tv/subject/360783 (page): Bangumi subject 标题为《東京リベンジャーズ 聖夜決戦編》，13 集，开始日期为 2023-01-07；输入记录同时提供 AniDB ID 17064 及对应别名。\n\nhttps://tokyo-revengers-anime.com/news/archives/2713 (search_snippet): 官方公告确认“聖夜決戦編”自 2023-01-07 起播出。\n\nhttps://www.tv-tokyo.co.jp/anime/tokyo-revengers/episodes/index_3.html (search_snippet): 东京电视台官方剧集页列出第25至30话，标题依次包括 It is what it is、Gotta go、Stand alone、Family bonds、Christmas Eve、Whip up morale，日期为 2023 年1月至2月。\n\nhttps://www.tv-tokyo.co.jp/anime/tokyo-revengers/episodes/index_2.html (page): 东京电视台官方剧集页列出第31至37话：Sibling rivalry、Strive together、Dawning of a new era、The light of my life、On my way home、Last order、When it rains,it pours；第38话已是 The Longest day，属于后续天竺篇。\n\nhttps://www.themoviedb.org/tv/105009 (api_snapshot): TMDB API 快照显示 TV 条目 105009 为《東京リベンジャーズ》，返回的正式季中 season 1 包含 50 集。\n\nhttps://www.themoviedb.org/tv/105009/episodes?credit_id=604b6974ea37e0006e852706&person_id=4da93df67b9aa16b7e000ea9 (search_snippet): TMDB 剧集页将 Last Order 标为 1x36、When It Rains, It Pours 标为 1x37，并将 The Longest Day 标为 1x38，验证了该 TMDB 条目的整体编号及范围边界。\n\nhttps://www.themoviedb.org/tv/105009/season/2 (api_snapshot): 输入的 TMDB API 快照记录 season/2 请求返回 HTTP 404；该失败未被解读为条目不存在。\n\n备注：TMDB season/2 快照请求失败，无法单独据此判断 TMDB 后台是否存在未返回的其他季结构；但已返回的 TMDB 条目和剧集编号足以支持 season 1、episode 25–37。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/360783; https://tokyo-revengers-anime.com/news/archives/2713; https://www.tv-tokyo.co.jp/anime/tokyo-revengers/episodes/index_3.html; https://www.tv-tokyo.co.jp/anime/tokyo-revengers/episodes/index_2.html; https://www.themoviedb.org/tv/105009; https://www.themoviedb.org/tv/105009/episodes?credit_id=604b6974ea37e0006e852706&person_id=4da93df67b9aa16b7e000ea9; https://www.themoviedb.org/tv/105009/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 25,
+      "episodeEnd": 37,
+      "id": 105009,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

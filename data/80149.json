@@ -1,0 +1,22 @@
+{
+  "anidbId": 1213,
+  "bangumiId": 80149,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 80149 是 1993-01-08 开播、共 51 集的《ミラクル☆ガールズ》TV 主体；输入中的 AniDB 关联为 1213，标题别名与该主体匹配。TMDB 34119 同名、同首播日、同为日本 TV 作品，并明确只有 season 1、51 集；其第 1–51 集播出日期与 Bangumi 提供的整季日期序列逐项对应（Bangumi 第 7 集日期存在明显录入错误，但 TMDB 日期与前后周次一致）。因此应映射到 TMDB TV 34119 的完整第 1 季；完整季不填写集数范围。\n\nhttps://bgm.tv/subject/80149 (page): Bangumi subject 名称为「ミラクル☆ガールズ／奇迹女孩」，首播日 1993-01-08，TV 共 51 集；输入的条目还提供了完整正篇集数与制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 线索将该 Bangumi 主体关联至 AniDB ID 1213；关联名称包含 Miracle Girls、ミラクル☆ガールズ、奇迹女孩。\n\nhttps://www.themoviedb.org/tv/34119 (api_snapshot): TMDB TV 34119 标题为「ミラクル☆ガールズ」，首播日 1993-01-08，原语言日语、来源国日本，共 51 集且仅列出 season 1。\n\nhttps://www.themoviedb.org/tv/34119/season/1 (api_snapshot): TMDB season 1 明确为 51 集；第 1–51 集日期从 1993-01-08 连续对应至 1993-12-24，与 Bangumi 的主体播出范围一致。\n\n备注：TMDB 快照的 overview 为空，且未提供制作公司字段，因此无法仅凭快照核对更细的剧情或制作公司对应关系；但标题、首播日、国家/语言、总集数及完整播出日期序列已足以确认这是该 1993 年 TV 主体。；Bangumi 输入中第 7 集日期写为 1993-02-29（无此日期），与 TMDB 的 1993-02-19 及其余周播序列不一致，视为 Bangumi 数据录入异常，不影响整季范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/80149; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/34119; https://www.themoviedb.org/tv/34119/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34119,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

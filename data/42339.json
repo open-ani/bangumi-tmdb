@@ -1,0 +1,27 @@
+{
+  "anidbId": 9076,
+  "bangumiId": 42339,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《ヨルムンガンド PERFECT ORDER》第二期，2012-10-09 开播，含 12 集正篇及主体内的第一期总集篇特别篇。TMDB TV 46279 明确将 12 集《ヨルムンガンド PERFECT ORDER》列为第 2 季，并另列 1 集“特別編”为第 0 季。官方资料显示该总集篇在日本不同电视台于 2012-10-02/10-03 播出，正好解释 Bangumi 与 TMDB 的日期差异。因此应映射为 season 0 的完整特别篇和 season 2 的完整 12 集；season 1 是前一期，不纳入。\n\nhttps://bgm.tv/subject/42339 (page): Bangumi 页面确认标题、第二期别名、2012-10-09 开播、12 集正篇、与前作关联，以及章节中的 13–24 集、SP 和 00 总集篇。页面简介称其为电视动画系列第二期及完结篇，制作公司为 WHITE FOX。\n\nhttps://www.themoviedb.org/tv/46279 (api_snapshot): TMDB TV 46279 主条目列出 season 0“特別編”（1 集）、season 1“ヨルムンガンド”（12 集）和 season 2“ヨルムンガンド PERFECT ORDER”（2012-10-09，12 集），总正篇数为 24 集。\n\nhttps://www.jormungand.tv/list_info.html (search_snippet): 官方动画网站的搜索摘要显示第一期总集篇特番安排在 2012-10-02；BS11 为 10-03 播出，同时确认 PERFECT ORDER 于 10-09 开播。\n\nhttps://watch.plex.tv/en-GB/show/jormungand/season/2 (search_snippet): 独立剧集资料列出 PERFECT ORDER 共 12 集，标题顺序与 Bangumi 的正篇标题“天を仰ぐ蛇”至“恥の世紀”一致；仅作为内容交叉核对，不用于替代 TMDB 的季号。\n\nhttps://www.wikidata.org/wiki/Q1771347 (search_snippet): Wikidata 的 Jormungand 条目标示 AniDB 标识 9076，与输入中 Bangumi→AniDB 的匹配名称 Jormungand: Perfect Order 相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/42339; https://www.themoviedb.org/tv/46279; https://www.jormungand.tv/list_info.html; https://watch.plex.tv/en-GB/show/jormungand/season/2; https://www.wikidata.org/wiki/Q1771347",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46279,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 46279,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

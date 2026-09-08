@@ -1,0 +1,22 @@
+{
+  "anidbId": 5655,
+  "bangumiId": 20683,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2008 年播出的 26 集 TV 动画，起止日期为 2008-06-21 至 2008-12-20，制作信息为 TMS Entertainment/NHK Enterprise。AniDB 5655 的标题对应 Telepathy Shoujo Ran，且独立交叉列表将 AniDB 5655 与 TMDB 35984 关联。TMDB 35984 明确为同名、同日起播、日语/日本来源的 TV，只有第 1 季且为 26 集；该季快照列出第 1 至第 26 集，没有额外特别篇。因此主体对应完整的 TMDB 第 1 季。TMDB 部分集日期缺失且第 8 集日期落在实际停播日，但这属于元数据日期问题，不足以改变已由标题、制作、年份、集数和完整季结构确认的版本映射。\n\nhttps://bgm.tv/subject/20683 (page): Bangumi 将条目标为 TV，26 集，首播 2008-06-21，完结 2008-12-20；制作人员包括大宙征基、中村誠、池頼広、八崎健二、TMS Entertainment 和 NHK Enterprise，并列出第 1 至第 26 集。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引中，ID 5655 对应 Telepathy Shoujo Ran。\n\nhttps://listrr.pro/Lists/ShowShowList/643f38d6a8261e19947e38b1?page=4112 (search_snippet): 独立交叉列表将 Telepathy Shoujo Ran 的 AniDB ID 列为 5655、TMDB ID 列为 35984。\n\nhttps://www.themoviedb.org/tv/35984 (api_snapshot): TMDB TV 35984 名为 テレパシー少女 蘭，首播日期为 2008-06-21，来源国家为 JP，共 26 集，仅有第 1 季且该季 26 集。\n\nhttps://www.themoviedb.org/tv/35984/season/1 (api_snapshot): TMDB 第 1 季的 season_number 为 1、episodeCount 为 26，列出第 1 至第 26 集，episodesTruncated 为 false。\n\nhttps://en.myshows.me/view/19388/telepathy-shoujo-ran-season-1/ (search_snippet): 独立剧集资料确认该作品为 26 集、2008-06-21 开播，并记录实际播出期间 2008-08-09 的停播造成日期序列差异。\n\n备注：TMDB 第 1 季部分 episode air_date 缺失，且第 8 集日期记录为 2008-08-09；该日期与 Bangumi 的第 8 集 2008-08-16 不一致，但不影响完整 26 集季的主体对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/20683; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://listrr.pro/Lists/ShowShowList/643f38d6a8261e19947e38b1?page=4112; https://www.themoviedb.org/tv/35984; https://www.themoviedb.org/tv/35984/season/1; https://en.myshows.me/view/19388/telepathy-shoujo-ran-season-1/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35984,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

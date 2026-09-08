@@ -1,0 +1,22 @@
+{
+  "anidbId": 13486,
+  "bangumiId": 227164,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2017-10-07 开始、13 集的《消えゆく宇宙編》，对应 AniDB 13486 的 Monster Strike Anime: Kieyuku Uchuu Hen。TMDB 69084 的第3季明确名为「モンストアニメ 消えゆく宇宙編」、首播日为 2017-10-07、共13集；官方页面逐集列出第1至第13话，标题与 Bangumi 的13个正篇逐一对应。因此采用 TMDB 第3季完整范围。候选第2季实际为 2017-04-01 开始的23集前篇，不是本 subject。\n\nhttps://www.themoviedb.org/tv/69084 (api_snapshot): TMDB 主页面快照列出第2季「モンストアニメ」(2017-04-01，23集)及第3季「モンストアニメ 消えゆく宇宙編」(2017-10-07，13集)。\n\nhttps://www.themoviedb.org/tv/69084/season/2 (api_snapshot): TMDB 第2季快照的剧集日期为 2017-04-01 至 2017-09-02，标题内容与 Bangumi subject 的 2017-10-07 起「消えゆく宇宙編」不符。\n\nhttps://anime.monster-strike.com/fadingcosmos/movie/ (page): 官方页面完整列出「消えゆく宇宙編」第1话至第13话，包含「終わりの始まり」「圧倒的な力の差！立ちふさがるミロク」至最终话「残されたもの」。\n\nhttps://anime.monster-strike.com/fadingcosmos/ (page): 官方页面确认该篇章的制作信息，并展示最终话、第12话、第11话及主要工作人员；制作包括 XFLAG PICTURES、横浜アニメーションラボ、anima・ILCA。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题映射将 ID 13486 映射为 Monster Strike Anime: Kieyuku Uchuu Hen，与该 subject 的日文标题及版本相符。\n\n备注：输入中的 Bangumi 关联字段将 AniDB ID 标为13486，但 Bangumi 页面本次无法直接抓取；关联还应在 Bangumi 页面或其 API 中复核。；TMDB 第3季完整集数快照未附逐集 API 响应，但 TMDB 季元数据的标题、日期、13集数与官方逐集1至13话列表一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/227164; https://www.themoviedb.org/tv/69084; https://www.themoviedb.org/tv/69084/season/2; https://anime.monster-strike.com/fadingcosmos/movie/; https://anime.monster-strike.com/fadingcosmos/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69084,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

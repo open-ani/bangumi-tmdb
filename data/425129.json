@@ -1,0 +1,24 @@
+{
+  "anidbId": 17916,
+  "bangumiId": 425129,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 425129 是2024年播出的《火狩りの王》第2シーズン，共10话，沿用全系列编号第11–20话。TMDB 作品 156688 正是同名日本动画，但其编排没有建立 season 2，而是把2023年与2024年的两期合并为 season 1 的20集；其中 S1E11《月の鎌》至 S1E20《灯し火》的标题、剧情和播出日期逐集对应本 subject。因此应映射为 TV 156688、season 1、episodes 11–20；旧候选中的 season 2 不成立，该季端点返回404。\n\nhttps://www.themoviedb.org/tv/156688 (api_snapshot): TMDB API 快照显示 TV 156688 原名为《火狩りの王》，首播于2023年1月14日，共20集，季列表中只有包含20集的 season 1。\n\nhttps://www.themoviedb.org/tv/156688/season/1 (api_snapshot): TMDB season 1 API 快照逐集列出20集；第11集《月の鎌》于2024年1月14日播出，第20集《灯し火》于2024年3月17日播出，中间各集标题和日期均与 Bangumi 425129 的10话完全对应。\n\nhttps://www.themoviedb.org/tv/156688/season/2 (api_snapshot): 提供的真实 TMDB API 请求对 season 2 返回 HTTP 404，证明不能使用旧候选的 season 2 编排。\n\nhttps://www.wikidata.org/wiki/Q101238120 (page): Wikidata 将日本动画电视系列《The Fire Hunter／火狩りの王》的 TMDB TV series ID 明确标为156688，并列出导演西村纯二、编剧押井守、制作公司Signal.MD及全20集等身份信息。\n\nhttps://hikarinoou-anime.com/story/ep20/ (page): 动画官方剧情页将第2季正篇连续列为第十一话《月の鎌》至第二十话《灯し火》，确认本 subject 对应全系列编号11–20，而不是重新从第1话编号。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=26805 (page): d动画商店将《火狩りの王 第2シーズン》明确标为全10话，作品剧情、角色与制作人员均和目标 subject 一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/425129; https://www.themoviedb.org/tv/156688; https://www.themoviedb.org/tv/156688/season/1; https://www.themoviedb.org/tv/156688/season/2; https://www.wikidata.org/wiki/Q101238120; https://hikarinoou-anime.com/story/ep20/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=26805",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 11,
+      "episodeEnd": 20,
+      "id": 156688,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

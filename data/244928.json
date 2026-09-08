@@ -1,0 +1,21 @@
+{
+  "anidbId": 14064,
+  "bangumiId": 244928,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是剧场版《Princess Principal Crown Handler 第1章》，常规话数为 1，日期为 2021-02-11；TMDB 542507 的日文原题完全一致，发行日期同为 2021-02-11，片长 53 分，剧情简介也对应本章内容。其他候选 843267、893250 分别明确是第2章、第3章，因此不应映射到本主体。Bangumi 中的特别篇样本属于额外特典，不改变主体作为独立电影的映射。\n\nhttps://bgm.tv/subject/244928 (page): Bangumi 页面标题为“プリンセス・プリンシパル Crown Handler 第1章”，并标注为剧场版。\n\nhttps://www.themoviedb.org/movie/542507 (api_snapshot): TMDB API 快照显示日文标题和原始标题均为“プリンセス・プリンシパル Crown Handler 第1章”，release_date 为 2021-02-11，runtime 为 53 分；简介描述与本章剧情一致。\n\nhttps://pripri-anime.jp/news/?p=1611%2F (search_snippet): 官方公告确认 Crown Handler 第1章于 2021 年 2 月 11 日公开。\n\nhttps://natalie.mu/eiga/film/176063 (search_snippet): 电影资料显示该作品于 2021 年 2 月 11 日上映、片长 53 分，并明确为全 6 章构成的第1章剧场版。\n\n备注：AniDB 14064 页面本次无法直接读取（403），但无需依赖该候选关联即可由 Bangumi 主体与 TMDB 542507 的标题、日期、片长和剧情独立确认对应版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/244928; https://www.themoviedb.org/movie/542507; https://pripri-anime.jp/news/?p=1611%2F; https://natalie.mu/eiga/film/176063",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 542507,
+      "type": "movie"
+    }
+  ]
+}

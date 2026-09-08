@@ -1,0 +1,27 @@
+{
+  "anidbId": 8564,
+  "bangumiId": 20582,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目、简介、制作人员、2012 年播出信息及正篇12集标题均与 TMDB 45282 一致。Bangumi 的第13话是《御狐神くん変化／スイッチ／おままごと》特别篇；官方页面确认其为同一作品的第13话，TMDB 45282 明确另有仅1集的 season 0「特別編」，因此应同时纳入季1完整正篇和季0完整特别篇。\n\nhttps://bgm.tv/subject/20582 (page): Bangumi 条目标为 TV《妖狐×僕SS》，共13话；页面列出正篇01—12及SP/13，并显示导演、原作、动画制作等信息。\n\nhttps://www.themoviedb.org/tv/45282 (api_snapshot): TMDB 45282 标题、日文原名、简介、制作国家与 Bangumi 主体一致；季1为12集，另有 season 0「特別編」且为1集。\n\nhttps://www.themoviedb.org/tv/45282/season/1 (api_snapshot): TMDB 季1的12个剧集标题逐项对应 Bangumi 正篇01—12，剧情简介也对应；该季为完整12集。\n\nhttps://www.inuboku.tv/story/index.html (search_snippet): 官方故事页明确列出第13话《御狐神くん変化》《スイッチ》《おままごと》，并说明为原作者藤原ここあ新写的短篇集。\n\nhttps://www.animecharactersdatabase.com/source.php?all=&id=101699&order=age (page): 独立资料以《妖狐×僕SS》、Inu x Boku Secret Service、2012年、David Production及津田尚克等信息指向同一 TV 动画主体。\n\nhttps://anidb.net/anime/8564 (page): AniDB 8564 页面本次访问返回403；未将请求失败视为不存在，作品身份改由 Bangumi、官方资料及 TMDB 内容独立交叉确认。\n\n备注：AniDB 8564 页面本次无法直接读取，因此无法从 AniDB 页面本身核验 Bangumi→AniDB 关联；但不影响 TMDB 45282 的独立版本识别。；TMDB 主条目快照未展开 season 0 的单集对象；依据其明确的 season 0 episode_count=1，将该季作为完整特别篇季纳入，而未猜测额外集数。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/20582; https://www.themoviedb.org/tv/45282; https://www.themoviedb.org/tv/45282/season/1; https://www.inuboku.tv/story/index.html; https://www.animecharactersdatabase.com/source.php?all=&id=101699&order=age; https://anidb.net/anime/8564",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45282,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 45282,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

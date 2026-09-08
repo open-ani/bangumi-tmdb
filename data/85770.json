@@ -1,0 +1,27 @@
+{
+  "anidbId": 1661,
+  "bangumiId": 85770,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 22474 是同一部 1999 年日本 TV 动画：标题、首播日期、26 集总数、播出结束日期、CAPCOM 原作及 Studio Pierrot 制作信息一致。TMDB 明确将主体分为第1季和第2季，各13集；Bangumi 的前13集日期覆盖 1999-04-03 至 1999-06-26，后13集覆盖 1999-07-03 至 1999-09-25。因此应映射为 TMDB 第1季和第2季的完整范围。未发现电影、OVA、总集篇或重剪版主体需要追加。\n\nhttps://www.themoviedb.org/tv/22474 (api_snapshot): TMDB API 快照显示 TV 22474 为《パワーストーン》，首播 1999-04-03，共26集，并明确列出第1季13集、第2季13集。\n\nhttps://www.themoviedb.org/tv/22474/season/1 (api_snapshot): TMDB API 快照显示第1季为13集，日期从1999-04-03至1999-06-26。\n\nhttps://bgm.tv/subject/85770 (page): Bangumi 页面显示该条目为 TV，话数26，放送期1999-04-03至1999-09-25，原作CAPCOM，动画制作ぴえろ，并列出26个章节。\n\nhttps://www.tbscontents.com/en/program/powerstone (page): TBS 官方资料确认《Power Stone》于1999-04-03至1999-09-25播出，共26集，制作署名包含CAPCOM、TBS、avex、STUDIO PIERROT，剧情为追寻 Power Stones。\n\nhttps://bentoanime.com/anime/power-stone (page): 页面将该作品列为2季26集，并将第2季列为1999-07-03至1999-09-25的13集，和 Bangumi 的后13集日期一致。\n\nhttps://www.wikidata.org/wiki/Q3909667 (search_snippet): 搜索结果页面记录同一《Power Stone》动画的 AniDB anime ID 为1661、TMDB TV series ID 为22474，且首播1999-04-03、结束1999-09-25。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85770; https://www.themoviedb.org/tv/22474; https://www.themoviedb.org/tv/22474/season/1; https://www.tbscontents.com/en/program/powerstone; https://bentoanime.com/anime/power-stone; https://www.wikidata.org/wiki/Q3909667",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 22474,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 22474,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

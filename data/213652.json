@@ -1,0 +1,22 @@
+{
+  "anidbId": 4056,
+  "bangumiId": 213652,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《まいっちんぐマチコ先生》TV 动画，1981-10-08 开播、Studio Pierrot 制作、标注 95 话；其简介与制作信息和 TMDB 44650 的日文标题、首播日期、JP 来源及剧情一致。TMDB 主条目与第 1 季均明确记录 95 集，季集列表从第 1 集至第 95 集，故采用完整第 1 季。Bangumi 页面实际章节列表只展示到第 52 集，不能据此截断；这与输入中档案条目数量不足相符。\n\nhttps://bgm.tv/subject/213652 (page): Bangumi 条目为 TV；标题为まいっちんぐマチコ先生，标注中文名讨厌啦真知子老师、95话、1981年10月8日开播、TV Tokyo、Studio Pierrot，并给出对应剧情。\n\nhttps://www.themoviedb.org/tv/44650 (api_snapshot): TMDB 44650 的日文标题、首播日期 1981-10-08、JP 来源、剧情和总集数 95 与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/44650/season/1 (api_snapshot): TMDB 第1季为1981-10-08开始，共95集；快照包含第1至第95集的标题、日期和简介。\n\nhttps://pierrot.jp/archive/word_list/ (search_snippet): Studio Pierrot 官方作品列表记录该动画的放送期间为1981-10-08至1983-10-06，进一步确认制作公司和版本主体。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要中的 AniDB 标题映射将 AniDB ID 4056 对应为 Maicching Machiko-sensei，与 Bangumi 条目标题及别名一致。\n\n备注：TMDB 第95集日期为1983-07-21，而 Bangumi 与 Studio Pierrot 官方列表的系列结束日期为1983-10-06；这是日期元数据冲突，但不改变同一 TV 主体及95集完整季范围的判断。；AniDB 4056 的直接页面访问被拒绝，ID与标题关系由输入中的匹配信息及公开 AniDB 标题映射摘要交叉支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/213652; https://www.themoviedb.org/tv/44650; https://www.themoviedb.org/tv/44650/season/1; https://pierrot.jp/archive/word_list/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44650,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

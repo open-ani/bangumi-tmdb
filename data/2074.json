@@ -1,0 +1,22 @@
+{
+  "anidbId": 438,
+  "bangumiId": 2074,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1996 年 TV 版《逮捕しちゃうぞ》，共 51 话，首播 1996-10-05；并注明 FILE.1～FILE.4 是 OVA 的 TV 剪辑版。关联页将 1994 年 4 话 OVA、剧场版、Special 及后续 TV 季分别列出，因此本 subject 的主体应对应 TMDB TV 43032 第 1 季，而不是单独的 OVA 或电影。TMDB 第 1 季为 51 集，FILE.1～FILE.51 的标题与 Bangumi 条目逐集对应，故纳入完整第 1 季。\n\nhttps://bgm.tv/subject/2074 (page): Bangumi 标记为 TV，话数 51，放送日期为 1996-10-05 至 1997-09-27，制作方包含 Studio DEEN，并注明 1～4 话为 OVA 剪辑版；章节列出 01～51。\n\nhttps://bgm.tv/subject/2074/relations (page): Bangumi 将 4 话 OVA、Second Season、Full Throttle、剧场版和 Special 分别作为关联条目，确认它们不是本 subject 的主体范围。\n\nhttps://www.themoviedb.org/tv/43032 (api_snapshot): TMDB TV 43032 的名称、原名和首播日期均为《逮捕しちゃうぞ》、1996-10-05；简介明确说明 TV 第 1 系列由 FILE.1～FILE.51 构成，季列表中第 1 季为 51 集。\n\nhttps://www.themoviedb.org/tv/43032/season/1 (api_snapshot): TMDB 第 1 季 season_number=1、air_date=1996-10-05、episodeCount=51，剧集快照完整且 FILE.1～FILE.51 标题与 Bangumi 逐集匹配。\n\nhttps://anidb.app/anime/youre-under-arrest-6225 (search_snippet): 可读取的 AniDB 系列索引将 1994 OVA、1996 TV、1999 Special、电影及后续 TV 作品分开列示，和 Bangumi 的版本区分一致。\n\n备注：TMDB 快照中第 26～51 集的日期整体比 Bangumi 条目早一周，但剧集标题、顺序、剧情简介及总数均对应；这被视为 TMDB 日期元数据差异，不足以改变目标季或范围。；AniDB 官方页面在本次读取中无法直接打开，AniDB 数字 ID 438 的独立页面级核验不足；但输入的匹配标记、标题别名、Bangumi 版本信息及 AniDB 系列索引均指向同一 1996 TV 版。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2074; https://bgm.tv/subject/2074/relations; https://www.themoviedb.org/tv/43032; https://www.themoviedb.org/tv/43032/season/1; https://anidb.app/anime/youre-under-arrest-6225",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 43032,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

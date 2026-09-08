@@ -1,0 +1,24 @@
+{
+  "anidbId": 17093,
+  "bangumiId": 336340,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将本 subject 定义为 26 集、对应总集数第 27–52 集的第二季，且章节完整列出 27–52。Anime-Lists 仅作关联线索，将 AniDB 17093 指向 TMDB TV 101172 season 2；但 TMDB 实际条目把全系列置于 season 1（共 260 集），其剧集列表明确出现 1x27 至 1x52。因此应纠正为 TMDB 101172 第 1 季第 27–52 集。\n\nhttps://bgm.tv/subject/336340 (page): Bangumi 页面记录 26 集、首播 2021-12-29，并明确列出章节 27–52，注明“27-52为第二季”；制作方为腾讯视频/玄机科技，原作为我吃西红柿。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录 AniDB 17093 对应 TMDB TV 101172、候选 season 2；这是关联线索，不能覆盖 TMDB 实际季结构。\n\nhttps://www.themoviedb.org/tv/101172 (api_snapshot): 所附 TMDB API 快照显示 101172 为《吞噬星空》，仅返回 season 1 且该季有 260 集；season 2 请求返回 HTTP 404。请求失败不单独证明不存在，但不能据此采用 season 2。\n\nhttps://www.themoviedb.org/tv/101172/episodes?credit_id=644ad8290c125505757a8fc5&language=zh-CN&person_id=581728d9c3a36873d9016c9c (search_snippet): TMDB 剧集列表摘要明确显示第 27 集为 1x27、第 52 集为 1x52，并显示第 27 集日期为 2021-12-29、第 52 集日期为 2022-08-31；与 Bangumi subject 的连续集数范围相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/336340; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/101172; https://www.themoviedb.org/tv/101172/episodes?credit_id=644ad8290c125505757a8fc5&language=zh-CN&person_id=581728d9c3a36873d9016c9c",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 27,
+      "episodeEnd": 52,
+      "id": 101172,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

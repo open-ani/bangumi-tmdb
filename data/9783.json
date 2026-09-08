@@ -1,0 +1,22 @@
+{
+  "anidbId": 7671,
+  "bangumiId": 9783,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《ドラゴンクライシス!》TV 动画，共 12 话，2011 年播出，制作人为橘秀樹、倉田英之与 Studio DEEN。TMDB 38811 的主条目同名、同为日本 2011 年动画且共 12 集；其第 1 季明确为 12 集，剧集标题 1–12 与 Bangumi 逐项对应，剧情简介也一致。因此对应 TMDB TV 38811 第 1 季完整一季。Bangumi 输入中第 10 话日期与 TMDB 不一致，但官方资料显示第 11 话为 3 月 21 日、第 12 话为 3 月 28 日，疑为 Bangumi 日期录入问题，不影响季与范围判断。\n\nhttps://bgm.tv/subject/9783 (page): Bangumi 将该条目标为 TV，话数 12，放送开始于 2011 年 1 月 10 日；导演为橘秀樹、系列构成为倉田英之、动画制作公司为 Studio DEEN，并列出 01–12 共 12 个章节。\n\nhttps://dragoncrisis.jp/story/ (search_snippet): 官方故事页确认作品的主线简介，并确认第 11 话《ドラゴンクライシス》在 3 月 21 日、第 12 话《エンゲージ》在 3 月 28 日播出。\n\nhttps://www.themoviedb.org/tv/38811 (api_snapshot): TMDB TV 38811 名称为《ドラゴンクライシス！》，原名相同，首播日期为 2011-01-11，简介与 Bangumi/官方剧情一致，共 12 集。\n\nhttps://www.themoviedb.org/tv/38811/season/1 (api_snapshot): TMDB 明确记录 season_number=1，air_date 为 2011-01-11，episodeCount=12；完整剧集标题与 Bangumi 的第 1–12 话一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引摘要将 AniDB ID 7671 映射为 Dragon Crisis!，与输入中的 Bangumi→AniDB 关联标题相符。\n\n备注：AniDB 官方条目页面访问受限，未能直接读取其完整关联页；AniDB 关联仅作为辅助交叉核对，TMDB 结论主要由 Bangumi、官方资料和 TMDB 季/集快照支持。；Bangumi 条目整体日期为 2011-01-10，而 TMDB 记录为 2011-01-11；这是日期时区或资料口径差异，不影响作品版本和完整 12 集范围的匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9783; https://dragoncrisis.jp/story/; https://www.themoviedb.org/tv/38811; https://www.themoviedb.org/tv/38811/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 38811,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

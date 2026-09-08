@@ -1,0 +1,22 @@
+{
+  "anidbId": 3601,
+  "bangumiId": 220079,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是 1983—1985 年在 TV Osaka 播出的 52 集动画电视系列《タオタオ絵本館 世界動物ばなし》，并非 1981 年的前作电影《シュンマオ物語 タオタオ》。TMDB 的 TV Osaka 索引把名称、剧情、播出分段和制作人员均吻合的电视系列链接到 TV 66136；Wikidata 亦明确记录其 TMDB TV ID 为 66136，并记载全剧为1季52集。TMDB 数据来源页面进一步显示 Season 1 收录52集，因此应映射到 TV 66136 的完整第1季，不需限定集数范围。旧候选 TV 20514 的输入快照返回404，应以现存条目66136替代。\n\nhttps://www.themoviedb.org/network/824-tv-osaka?language=en-US&sort_by=first_air_date.asc (page): TMDB 的 TV Osaka 索引列出“Taotao (Taotao ehonkan sekai doubutsu-banashi)”，描述小熊猫 Taotao 主角、前后两段各26集的电视动画，并明确区分1981年动画电影；作品链接指向 TMDB TV 66136。\n\nhttps://www.wikidata.org/wiki/Q617266 (page): Wikidata 将该对象标为日本动画电视系列，日文标题为《タオタオ絵本館》，记载 TV Osaka、1983-10-07开播、52集、1季，并明确给出 TMDB TV series ID 66136；另列 TMDB movie ID 283301，表明电影与电视系列是不同条目。\n\nhttps://www.kinoundco.de/serie/tao-tao-tiergeschichten-aus-aller-welt (page): 该页面注明数据来源为 TMDB，原名为“Taotao ehonkan sekai doubutsu-banashi”，类型、导演、声优均吻合，并显示第1季共有52集。\n\nhttps://en.wikipedia.org/wiki/Taotao_%28TV_series%29 (search_snippet): 作品资料确认《タオタオ絵本館》电视系列于1983-10-07至1985-04-09在 TV Osaka 播出，共52集；同时将1981-12-26上映、片长90分钟的《シュンマオ物語 タオタオ》列为独立电影。\n\nhttps://www.themoviedb.org/tv/20514 (api_snapshot): 输入所附 TMDB API 快照对旧候选 TV 20514 返回 HTTP 404，因此该旧 ID 不能作为现存目标。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220079; https://www.themoviedb.org/network/824-tv-osaka?language=en-US&sort_by=first_air_date.asc; https://www.wikidata.org/wiki/Q617266; https://www.kinoundco.de/serie/tao-tao-tiergeschichten-aus-aller-welt; https://en.wikipedia.org/wiki/Taotao_%28TV_series%29; https://www.themoviedb.org/tv/20514",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66136,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 18677,
+  "bangumiId": 498378,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 2025 年播出的 TV《SPY×FAMILY Season 3》，共 13 集；Bangumi 页面显示 2025-10-04 开播、2025-12-27 结束，制作方为 WIT STUDIO×CloverWorks。TMDB TV 120089 的第 3 季同样于 2025-10-04 开播，共 13 集，完整剧集标题与 Bangumi 的第 38—50 话逐一对应，剧情简介也对应黄昏回忆、伊甸学园巴士劫持、威勒事件等内容。因此应映射为 TMDB TV 120089 第 3 季整季。TMDB 的第 10 集日期为 2025-12-07，与 Bangumi 的 2025-12-06 属于日期/时区差异，不影响版本和范围判断。\n\nhttps://bgm.tv/subject/498378 (page): Bangumi 条目为《SPY×FAMILY Season 3》TV，话数 13，放送开始 2025-10-04，放送结束 2025-12-27；页面列出的原作、导演、制作公司和剧情信息与该季度动画一致。\n\nhttps://www.themoviedb.org/tv/120089 (api_snapshot): TMDB TV 120089 的主体名为 SPY×FAMILY，包含 Season 3；主体总集数为 50，并将 Season 3 列为 13 集、2025-10-04 开播。\n\nhttps://www.themoviedb.org/tv/120089/season/3 (api_snapshot): TMDB 第 3 季为 13 集，集数 1—13 的标题、日期和剧情简介与 Bangumi 第 38—50 话逐一对应，覆盖 2025-10-04 至 2025-12-27。\n\nhttps://www.tv-tokyo.co.jp/information/202509/5258.html (page): 东京电视台官方资料确认《SPY×FAMILY》Season 3 于 2025-10-04 起每周六播出，并确认其为电视动画续篇；同时将剧场版 CODE: White 单独列为电影。\n\n备注：Bangumi 页面本身未公开显示 AniDB ID 18677，AniDB 关联主要来自输入提供的候选线索；但 Bangumi 条目与 TMDB 第 3 季的标题、年份、制作信息、剧情及 13 集列表已独立吻合。；TMDB 第 10 集日期为 2025-12-07，Bangumi 为 2025-12-06，可能是地区或时区记录差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/498378; https://www.themoviedb.org/tv/120089; https://www.themoviedb.org/tv/120089/season/3; https://www.tv-tokyo.co.jp/information/202509/5258.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 120089,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

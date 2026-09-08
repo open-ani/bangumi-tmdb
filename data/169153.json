@@ -1,0 +1,22 @@
+{
+  "anidbId": 11928,
+  "bangumiId": 169153,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 是 2017 年 1 月 12 日开播、共 12 集的 TV 动画。输入提供的 AniDB ID 11928 及标题别名与该作品一致。TMDB 69294 的名称、原名、首播日期、简介和 12 集总数均对应同一作品；TMDB 第 1 季明确包含完整 12 集，剧集标题、日期和剧情与 Bangumi 列表逐集对应，因此推荐完整第 1 季。第 7 集 Bangumi 日期为 2017-02-23、TMDB 为 2017-02-24，属于日期记录差异，不影响作品和季范围判断。\n\nhttps://bgm.tv/subject/169153 (page): Bangumi 页面确认名称、TV 类型、12 集、首播日期 2017-01-12、完播日期 2017-03-30，以及导演鈴木健太郎、动画制作 J.C.STAFF 等制作信息。\n\nhttps://www.b-ch.com/titles/5475/001 (page): 官方发行平台页面将该作品标为 TV 动画第 1 集，并显示全 12 话；第 1 集标题和剧情与 Bangumi、TMDB 对应。\n\nhttps://www.themoviedb.org/tv/69294 (api_snapshot): TMDB TV 69294 的名称和 original_name 均为 MARGINAL#4 KISSから創造るBig Bang，首播日期为 2017-01-12，number_of_episodes 为 12；简介中的 MARGINAL#4、LAGRANGE POINT、UNICORN Jr. 与 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/69294/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、air_date=2017-01-12、episodeCount=12，且完整列出第 1 至第 12 集；标题、日期和剧情与 Bangumi 提供的 12 集逐项对应。\n\n备注：AniDB 页面本次无法直接读取；AniDB ID 11928 与标题别名来自输入中的已匹配关联记录，并由 Bangumi 页面及 TMDB/官方发行页面的标题、年份、集数和剧情交叉支持。；第 7 集日期存在 Bangumi 与 TMDB 相差一天的记录差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/169153; https://www.b-ch.com/titles/5475/001; https://www.themoviedb.org/tv/69294; https://www.themoviedb.org/tv/69294/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69294,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

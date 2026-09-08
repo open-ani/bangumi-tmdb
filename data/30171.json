@@ -1,0 +1,22 @@
+{
+  "anidbId": 1911,
+  "bangumiId": 30171,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 30171 是1975年10月5日开播、46集的《鋼鉄ジーグ》TV正篇，AniDB ID 1911 与标题及别名匹配。TMDB TV 9152 的首播日期、日文原名、剧情梗概、制作背景和总集数均对应；第1季明确为46集，剧集标题与 Bangumi 第1至46集逐集对应。因此应映射为 TMDB 9152 第1季完整一季，不涉及电影、OVA、总集篇或重剪版。\n\nhttps://bgm.tv/subject/30171 (page): Bangumi 条目为1975年播出的《鋼鉄ジーグ》TV动画，共46集；剧集标题、日期、导演、原作和制作信息与主体一致。\n\nhttps://www.themoviedb.org/tv/9152 (api_snapshot): TMDB TV 9152 的原名为《鋼鉄ジーグ》，首播日期为1975-10-05，总集数46，剧情简介描述司马宙、邪魔大王国、女王ヒミカ与钢铁吉克。\n\nhttps://www.themoviedb.org/tv/9152/season/1 (api_snapshot): TMDB 第1季明确为 season 1，共46集，首播日期1975-10-05；完整剧集标题与 Bangumi 第1至46集逐集对应。\n\n备注：TMDB 快照中部分集数的 air_date 与 Bangumi 播出日期存在差异，但标题、剧情、集数和整体播出起止日期一致，不影响主体及完整第1季的判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/30171; https://www.themoviedb.org/tv/9152; https://www.themoviedb.org/tv/9152/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 9152,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

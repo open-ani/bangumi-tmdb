@@ -1,0 +1,29 @@
+{
+  "anidbId": 1481,
+  "bangumiId": 131173,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目标明这是1982年65分钟的剧场版总集篇，并称其以TV版第17话和第20话为中心制作；独立资料也确认该电影重编了第20话与第17话并加入额外场景。TMDB TV 9474 的第1季明确为1981年26集，且第17、20集标题和日期均与TV系列对应。因此不能采用整季，只映射到这两个不连续集数。\n\nhttps://bgm.tv/subject/131173 (page): Bangumi 条目标注为《戦国魔神ゴーショーグン》剧场版，1982-04-24上映、片长65分钟，并明确写有“第17話と第20話を中心に作製された番外編”。\n\nhttps://bgm.tv/subject/37256 (page): Bangumi 主线TV条目为26集，放送期为1981-07-03至1981-12-28，关联条目包含该剧场版。\n\nhttps://www.themoviedb.org/tv/9474 (api_snapshot): TMDB API快照显示9474是《戦国魔神ゴーショーグン》TV，第一季26集，首播日1981-07-03。\n\nhttps://www.themoviedb.org/tv/9474/season/1 (api_snapshot): TMDB API快照显示第1季第17集为《グッドサンダー危機一発》、第20集为《宇宙中継これがドクーガだ》，均属于1981年TV系列。\n\nhttps://www.allcinema.net/cinema/pdf/148085 (search_snippet): 搜索摘要称1982年剧场版从同名TV作品中选取两话重新剪辑，并加入反派角色的广告段落。\n\n备注：TMDB提供的已读取快照中未发现可独立确认的1982年电影条目ID；因此采用TMDB TV条目中的两个原始集数表示该总集篇的主体内容。；电影包含额外场景和广告段落，这些内容未在TMDB第1季的普通剧集中单独列出。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/131173; https://bgm.tv/subject/37256; https://www.themoviedb.org/tv/9474; https://www.themoviedb.org/tv/9474/season/1; https://www.allcinema.net/cinema/pdf/148085",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 17,
+      "id": 9474,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 20,
+      "id": 9474,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

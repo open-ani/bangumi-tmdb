@@ -1,0 +1,24 @@
+{
+  "anidbId": 11287,
+  "bangumiId": 137063,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《干物妹！小埋 OAD》，包含两集，分别为「うまるちゃん もう1回！」（2015-10-19）和「秘密のうまるちゃん」（2017-04-19），AniDB ID 11287 关联匹配。TMDB TV 67126 的特别编 season 0 恰有第13、14集，标题完全对应；两集简介也分别标明为原作第7卷和第10卷特典 OVA。因此应映射为 season 0 的第13–14集，而不是整季。\n\nhttps://bgm.tv/subject/137063 (page): Bangumi 记录该 subject 为《干物妹！小埋 OAD》，共2集，集名和日期与输入记录一致，并关联 AniDB ID 11287。\n\nhttps://www.themoviedb.org/tv/67126 (api_snapshot): TMDB TV 67126 为《干物妹! うまるちゃん》，包含 season 0「特別編」，共14集；主体 TV 首播年份为2015年。\n\nhttps://www.themoviedb.org/tv/67126/season/0 (api_snapshot): TMDB season 0 第13集为「うまるちゃん もう一回！」并注明原作第7卷特典、第14集为「秘密のうまるちゃん」并注明原作第10卷特典，均为24分钟 OVA 内容，与 Bangumi OAD 两集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/137063; https://www.themoviedb.org/tv/67126; https://www.themoviedb.org/tv/67126/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 14,
+      "id": 67126,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

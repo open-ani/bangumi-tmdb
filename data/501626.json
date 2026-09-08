@@ -1,0 +1,24 @@
+{
+  "anidbId": 18718,
+  "bangumiId": 501626,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确记录该主体为《WIND BREAKER Season 2》，共12集，播出时间为2025-04-03至2025-06-19，章节编号为14至25。TMDB 223500 的第1季共25集，其中第14至25集的标题、剧情顺序与该主体逐集对应；因此应映射为第1季的14–25集，而不是整季。\n\nhttps://bgm.tv/subject/501626 (page): Bangumi 页面显示名称为 WIND BREAKER Season 2，类型为 TV，共12话，章节为14–25，播出日期为2025-04-03至2025-06-19；关联条目包含前传 WIND BREAKER。\n\nhttps://www.themoviedb.org/tv/223500 (api_snapshot): TMDB API 快照显示 TV 223500 为 WIND BREAKER，共25集，主季为 season 1。\n\nhttps://www.themoviedb.org/tv/223500/season/1 (api_snapshot): TMDB season 1 的第14–25集标题依次对应 怒り、決着、Re:start、先輩の教え、居場所、密かな想い、宵の街、共同戦線、Shall We Dance?、救いの手、嵐のあと、誰が為の強さ，与 Bangumi 第二季的12集标题、剧情和播出顺序一致。\n\n备注：AniDB 18718 的页面请求返回403，未能独立读取 AniDB 页面；但最终映射由 Bangumi 主体信息与 TMDB 逐集标题、剧情和季/集编号直接确认，并非仅依据 AniDB 或 Anime-Lists 候选。；TMDB 快照中的日期整体比 Bangumi 日本播出日期晚约一天，符合跨时区/平台记录差异，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/501626; https://www.themoviedb.org/tv/223500; https://www.themoviedb.org/tv/223500/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 25,
+      "id": 223500,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

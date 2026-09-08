@@ -1,0 +1,22 @@
+{
+  "anidbId": 18592,
+  "bangumiId": 491151,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2024 年 12 话 TV 动画，标题、别名、剧情、制作信息与 TMDB TV 258580 一致。TMDB 第 1 季明确为 12 集，完整剧集标题按顺序与 Bangumi 1—12 话逐一对应；日期相差一周是因为 Bangumi 同时记录了 ABEMA 于 2024-09-30 起的一周先行播出，而电视播出自 2024-10-07 起。未发现电影、OVA、总集篇或重剪版拆分，因此采用完整第 1 季。输入中的 AniDB 18592 匹配结果与标题及版本信息一致，但直接 AniDB 页面无法读取；这不影响 Bangumi 与 TMDB 版本、季号和范围的独立对应。\n\nhttps://bgm.tv/subject/491151 (page): Bangumi 将该条目标为 TV，话数 12，放送时间为 2024-10-07 至 2024-12-23，并列出原作、导演、动画制作 FelixFilm×画狂及完整剧情；同时注明 ABEMA 于 2024-09-30 至 2024-12-16 一周先行。\n\nhttps://www.themoviedb.org/tv/258580 (api_snapshot): TMDB TV 258580 使用相同日文标题，剧情围绕诺艾尔、话术士、探索者与创建最强 Clan 展开，标记为日本作品且共 12 集。\n\nhttps://www.themoviedb.org/tv/258580/season/1 (api_snapshot): TMDB 第 1 季 season_number=1、episodeCount=12，剧集数据未截断；1—12 集标题依次与 Bangumi 1—12 话完全对应，日期为 2024-09-30 至 2024-12-16，符合一周先行播出时间线。\n\n备注：AniDB 18592 的直接页面未能读取，故 AniDB ID 本身未作独立页面级确认；但最终 TMDB 对应由 Bangumi 页面与 TMDB 标题、剧情、制作信息及完整剧集标题直接确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/491151; https://www.themoviedb.org/tv/258580; https://www.themoviedb.org/tv/258580/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 258580,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 8898,
+  "bangumiId": 10457,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将该条目标为 3 集 OVA，标题、2012 年版本、剧情简介、角色及 SILVER LINK. 制作信息均与 TMDB TV 81426 的第 2 季完全对应。TMDB 明确将第 2 季命名为“乙女はお姉さまに恋してる 2人のエルダー THE ANIMATION”，共 3 集，集标题和剧情分别对应 Bangumi 的第 1—3 集，因此应映射为完整第 2 季。TMDB 与 Bangumi 的具体发售/播出日期存在日期口径差异，但不影响标题、版本和集数对应。\n\nhttps://bgm.tv/subject/10457 (page): Bangumi 将该作品标为 OVA，话数 3，发售日为 2012-08-29，并列出川面真也、横手美智子、佐野恵一及 SILVER LINK. 等制作信息；章节为 01、02、03。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据摘要显示 AniDB ID 8898 对应“Otome wa Boku ni Koishiteru: Futari no Elder The Animation”，与 Bangumi 的日文标题和 OVA 版本一致。\n\nhttps://www.themoviedb.org/tv/81426 (api_snapshot): TMDB TV 81426 的主条目名为“乙女はお姉さまに恋してる”，包含第 2 季，季名为“乙女はお姉さまに恋してる 2人のエルダー THE ANIMATION”，episode_count 为 3。\n\nhttps://www.themoviedb.org/tv/81426/season/2 (api_snapshot): TMDB 第 2 季明确列出 3 集，标题依次为“乙女としての日々と危機”“乙女としての苦悩とメロディー”“乙女の恋と光”，并且剧情分别对应 Bangumi 的三集。\n\n备注：TMDB 季及集的日期为 2012-10-29 至 2012-11-24，与 Bangumi 的发售/播出日期不同，属于日期口径差异；标题、剧情、制作信息和 3 集结构均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10457; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/81426; https://www.themoviedb.org/tv/81426/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 81426,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

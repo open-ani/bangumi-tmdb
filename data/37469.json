@@ -1,0 +1,22 @@
+{
+  "anidbId": 3586,
+  "bangumiId": 37469,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《Bビーダマン爆外伝V》，1999-02-07 开播、2000-01-30 结束、共 50 集，且剧情和制作信息与 Victory 版本一致。候选 TMDB 16823 实际对应 1998 年的前作《ボンバーマン・ビーダマン爆外伝》，仅有 48 集；其 season/2 请求失败不能视为不存在。独立映射资料将 Victory 版本链接到 TMDB TV 5594，且该版本被记录为单季、50 集，因此采用 5594 第 1 季完整范围。\n\nhttps://bgm.tv/subject/37469 (page): Bangumi 标题为 Bビーダマン爆外伝V，类型 TV，共 50 集，播出时间为 1999-02-07 至 2000-01-30，制作方包括 MADHOUSE、名古屋电视台等，剧情为白宝、蓝宝与红宝寻找水晶钻并对抗邪王比达。\n\nhttps://www.themoviedb.org/tv/16823 (api_snapshot): 输入的 TMDB API 快照显示 16823 的原名为 ボンバーマン・ビーダマン爆外伝，首播 1998-02-07，共 48 集，只有第 1 季 48 集；这与 Bangumi 的 V 版本年份和集数不符。\n\nhttps://www.themoviedb.org/tv/16823/season/2 (api_snapshot): 输入快照记录该请求返回 TMDB HTTP 404；这是请求失败证据，不能据此判定候选 TV 没有第二版本或第二季。\n\nhttps://mdblist.com/shows/?q_tag=326816 (page): 页面的 Bomberman B-Daman Bakugaiden Victory 条目明确显示其 TMDb 链接为 /tv/5594，并与前作 Bomberman B-Daman Bakugaiden 分列。\n\nhttps://watch.plex.tv/en-GB/show/bomberman-bidaman-bakugaiden-1 (page): 页面将系列拆分为前作《ボンバーマン・ビーダマン爆外伝》48 集和《Bビーダマン爆外伝V》50 集，确认目标是独立的 50 集续作版本。\n\nhttps://simkl.com/anime/39682/bomberman-b-daman-bakugaiden-victory (page): Victory 版本记录为 1999–2000、50 集，集数 1 至 50 均列出，和 Bangumi 的主体范围一致。\n\nhttps://www.tv-media.at/serien/bomberman-b-daman-bakugaiden-victory (page): Victory 页面标示年份 1999、1 个 Staffel，并列出该版本的剧集列表，支持将 50 集主体作为单季处理。\n\n备注：AniDB 页面本身未能直接读取；但 Bangumi 的标题、年份、集数、剧情和制作信息已由独立资料交叉确认与 Victory 版本一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/37469; https://www.themoviedb.org/tv/16823; https://www.themoviedb.org/tv/16823/season/2; https://mdblist.com/shows/?q_tag=326816; https://watch.plex.tv/en-GB/show/bomberman-bidaman-bakugaiden-1; https://simkl.com/anime/39682/bomberman-b-daman-bakugaiden-victory; https://www.tv-media.at/serien/bomberman-b-daman-bakugaiden-victory",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 5594,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

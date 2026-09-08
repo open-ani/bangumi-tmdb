@@ -1,0 +1,22 @@
+{
+  "anidbId": 6182,
+  "bangumiId": 1182,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2009 年开播、Brain's Base 制作、12 话的 TV 动画；其标题、剧情、制作人员和 12 个正篇章节与 TMDB 43634 的 TV 条目及 season 1 完整对应。TMDB season 0 的 1 集是另行关联的温泉 OVA（Bangumi subject 3158），不属于本 subject 主体，因此不纳入。\n\nhttps://bgm.tv/subject/1182 (page): Bangumi 将 subject 1182 标为《アキカン！》TV，12 话，2009-01-03 开播、2009-03-28 结束；制作公司为 Brain's Base，且关联条目中单列温泉番外篇。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 6182 对应为 Akikan!，与输入中 Bangumi→AniDB 的 matched 关联及标题别名一致。\n\nhttps://www.themoviedb.org/tv/43634 (api_snapshot): TMDB 条目名称为 アキカン!，原名相同，首播日期为 2009-01-03，共 12 集；季列表包含 season 1（12 集）及另有 1 集的 season 0 特别编。\n\nhttps://www.themoviedb.org/tv/43634/season/1 (api_snapshot): TMDB season 1 快照完整返回 12 集，集标题从「カンじる!?ファーストキス」到「輝く未来にカン杯!」，与 Bangumi 的 12 个正篇章节逐集对应。\n\nhttps://animeanime.jp/article/2009/05/29/4687.html (search_snippet): 报道确认电视动画为 2009 年 1 月至 3 月全 12 话，另有电视版结束后直接衔接的约 25 分钟温泉新作 OVA。\n\n备注：TMDB season 1 快照中的第 12 集日期为 2009-03-21，而 Bangumi 页面及其他剧集资料列为 2009-03-28；这是播出日期元数据差异，不影响条目、季号和 12 集范围的对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1182; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/43634; https://www.themoviedb.org/tv/43634/season/1; https://animeanime.jp/article/2009/05/29/4687.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 43634,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

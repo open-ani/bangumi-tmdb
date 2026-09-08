@@ -1,0 +1,24 @@
+{
+  "anidbId": 17962,
+  "bangumiId": 426815,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《文豪ストレイドッグス》第5季，2023-07-12 开始，共11集；官方页面将其编号为全系列第51至61话。TMDB 65931 的主页面将全系列合并为 season 1、共60集，其第50集标题为「最強の男」、第60集为「黄昏のさようなら」，日期和剧情分别对应本 Bangumi subject 的第1集和第11集。因此应映射为 TMDB season 1 episode 50–60，而不是候选的 season 3。\n\nhttps://bgm.tv/subject/426815 (page): Bangumi 条目标题为文豪ストレイドッグス 第5シーズン，并与第4季关联。\n\nhttps://bungosd.com/story/51.html (search_snippet): 官方页面确认2023-07-12播出的「最強の男」是全系列第51话，对应本 subject 首集。\n\nhttps://bungosd.com/story/ (search_snippet): 官方页面确认2023-09-20播出的「黄昏のさようなら」是全系列第61话，对应本 subject 末集。\n\nhttps://www.themoviedb.org/tv/65931/season/1/episode/27?language=ja (page): TMDB 页面显示文豪ストレイドッグス的 season 1 共60集，并列出第50集「最強の男」和第60集「黄昏のさようなら」，日期分别为2023-07-12和2023-09-20。\n\nhttps://www.themoviedb.org/tv/65931 (api_snapshot): 输入的 TMDB API 快照确认作品ID 65931、日文原名、60集总数及 season 1；请求 season 3 返回404，不能作为本季存在的证据。\n\nhttps://www.themoviedb.org/tv/65931/season/3 (api_snapshot): 输入的 TMDB API 快照记录 season 3 请求失败；结合 season 1 的完整标题、日期和剧情匹配，候选 season 3 已纠正为 season 1。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/426815; https://bungosd.com/story/51.html; https://bungosd.com/story/; https://www.themoviedb.org/tv/65931/season/1/episode/27?language=ja; https://www.themoviedb.org/tv/65931; https://www.themoviedb.org/tv/65931/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 50,
+      "episodeEnd": 60,
+      "id": 65931,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

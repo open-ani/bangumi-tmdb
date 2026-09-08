@@ -1,0 +1,23 @@
+{
+  "anidbId": 5114,
+  "bangumiId": 315271,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主题是独立的 1 集、45 分钟 OVA《クリィミーマミ ソングスペシャル2 カーテンコール》。官方 AT-X 页面确认其为 1986 年制作的音乐剪辑集，含新作映像与新曲，制作方为 Studio Pierrot；这与 TMDB 35529 特别编第 4 集的同名标题和剧情简介一致。因此应映射为 TMDB TV 35529 的 season 0、episode 4，不能纳入整个特别编季。\n\nhttps://www.at-x.com/program/detail/14045 (page): 官方页面标题为《魔法の天使 クリィミーマミ カーテンコール》，说明其为 TV 系列歌曲与插曲的音乐剪辑集，含新作映像和新曲，制作方为スタジオぴえろ，并标注为 1986 年作品。\n\nhttps://www.themoviedb.org/tv/35529 (api_snapshot): TMDB TV 35529 的主体标题为《魔法の天使クリィミーマミ》，特别编 season 0 与主 TV season 1 分开。\n\nhttps://www.themoviedb.org/tv/35529/season/0 (api_snapshot): TMDB season 0 第 4 集标题为《魔法の天使クリィミーマミ カーテンコール》，简介明确为 TV 系列歌曲/插曲的音乐剪辑集并含新作映像和新曲；第 2、3 集分别是其他 OVA，故本主题范围为单独第 4 集。\n\nhttps://animeschedule.net/anime/mahou-no-tenshi-creamy-mami-curtain-call (search_snippet): 独立资料将该作品标为 OVA、1 集、45 分钟、1986-02-01，并与日文标题对应。\n\n备注：TMDB 快照把第 4 集日期记为 1986-06-15、时长记为 30 分钟，与 Bangumi 的 1986-02-01/45 分钟及独立资料不一致，疑似 TMDB 元数据错误；但同名标题、音乐剪辑内容和 Studio Pierrot 制作信息均吻合，未发现存在另一部同名版本的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/315271; https://www.at-x.com/program/detail/14045; https://www.themoviedb.org/tv/35529; https://www.themoviedb.org/tv/35529/season/0; https://animeschedule.net/anime/mahou-no-tenshi-creamy-mami-curtain-call",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "id": 35529,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

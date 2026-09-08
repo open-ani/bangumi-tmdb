@@ -1,0 +1,22 @@
+{
+  "anidbId": 3499,
+  "bangumiId": 23160,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2006 年日本 TV 动画《TOKKO 特公》，共 13 话，制作方为 AIC Spirits、Group Tac，首播日为 2006-04-16。BangumiExtLinker 的实际映射记录将 bgm_id 23160 关联至 AniDB 3499；TMDB 14350 同名、同年、同首播日，并明确为 1 季 13 集。TMDB 第 1 季的集数、标题和日期覆盖该条目的全部 13 个正篇，未发现电影、OVA、总集篇或额外主体特别篇，因此采用完整第 1 季。\n\nhttps://bgm.tv/subject/23160 (page): Bangumi 将条目标为 TV《TOKKO 特公》，共 13 话，2006-04-16 开播；制作动画为 AIC Spirits、Group TAC，播放结束为 2006-07-30。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (page): 映射文件中存在精确记录：name/name_cn 为 TOKKO 特公、date 为 2006-04、bgm_id 为 23160、anidb_id 为 3499。\n\nhttps://www.themoviedb.org/tv/14350-tokko (page): TMDB 14350 标题为 TOKKO 特公，介绍为 AIC Spirits 与 Group Tac 制作的 2006 年日本动画，共 13 集；第 1 季于 2006-04-16 首播。\n\nhttps://www.themoviedb.org/tv/14350/season/1 (search_snippet): TMDB 第 1 季明确列出 13 集；第 1 集日期为 2006-04-16，第 13 集日期为 2006-07-29，集标题和剧情均对应 TOKKO 动画正篇。\n\nhttps://www.themoviedb.org/tv/14350/season/1 (api_snapshot): 附带 TMDB API 快照显示 season_number=1、episodeCount=13、episodesTruncated=false，且完整列出第 1 至第 13 集。\n\n备注：Bangumi 记录的结束日期为 2006-07-30，而 TMDB 第 13 集日期为 2006-07-29，属于末集日期记录的一日差异；不影响作品、季号和完整 13 集范围的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/23160; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://www.themoviedb.org/tv/14350-tokko; https://www.themoviedb.org/tv/14350/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 14350,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

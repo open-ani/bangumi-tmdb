@@ -1,0 +1,27 @@
+{
+  "anidbId": 9390,
+  "bangumiId": 79114,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 79114 明确是 2013 年《京騒戯画》TV 版本，共 13 话，构成为 10 话正篇、2 话总结和 1 话特别篇；章节还明确列出 00、01–10、10.5、05.5。TMDB 85065 的作品简介、年份和制作/剧情信息与该 TV 版本一致，season 1 的 10 个集标题及日期逐一对应 Bangumi 的 01–10 正篇。TMDB season 0 明确有 3 集，外部季页的内容分别对应预习篇、京都实录篇和复习篇，因此两个完整季均应纳入。AniDB 9390 实际标为 2012 版 ONA，不能作为 TV 版本的直接标准依据；85065 是通过 Bangumi 章节、年份、剧情和集标题独立核实出的匹配。\n\nhttps://bgm.tv/subject/79114 (page): Bangumi 将 79114 标为《京騒戯画》TV，放送时间为 2013-10-02 至 2013-12-25，共 13 话，并注明“10话新作+2话总结+1话特别篇”；章节列出 00、01–10、10.5、05.5。\n\nhttps://www.themoviedb.org/tv/85065 (api_snapshot): TMDB API 快照显示 85065 为日语《京騒戯画》TV，首播年份为 2013，简介与 Bangumi 的镜都、筝、三人议会和父母回归主线一致；season 0 有 3 集，season 1 有 10 集。\n\nhttps://www.themoviedb.org/tv/85065/season/1 (api_snapshot): TMDB season 1 快照包含 10 个完整集条目，标题从“ある一家の事情とその背景”至“今日を騒がしく戯れ生きる人々の漫画映画”，与 Bangumi 01–10 的标题和剧情逐一对应。\n\nhttps://www.toei-anim.co.jp/tv/kyousougiga/ (search_snippet): 东映官方站搜索摘要明确提到 TV 版第 5.5 话“京都実録編”，支持其为该 TV 主体内的特别篇。\n\nhttps://www.comparandonos.com/television/series/kyousougiga-58027/temporada-0 (page): 该季页明确标为 Kyousougiga season 0，并列出 3 集；第 1 集简介对应预习/初始镜都故事，第 2 集为京都取景实录特别篇，第 3 集为回顾前情，内容对应 Bangumi 的 00、05.5、10.5。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 ID 9390 标为“Kyousougiga (2012)”。\n\nhttps://www.animeschedule.net/anime/kyousougiga-2012 (search_snippet): 独立资料将“Kyousougiga (2012)”标为 ONA、5 集，说明输入中的 AniDB 关联指向的是 2012 ONA 版本而非 2013 TV 主体。\n\n备注：AniDB 9390 的关联与 Bangumi 2013 TV 版本不完全一致，因此不能用该 AniDB ID 单独证明 TMDB 目标；TMDB 85065 的确认依赖 Bangumi TV 信息与 TMDB 正篇集标题、剧情及年份的直接匹配。；TMDB season 0 的快照只提供集数而未提供完整标题；其 3 集与 Bangumi 三个非正篇条目通过独立季页中的内容简介对应，但部分日期存在电视播出日与数据库日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/79114; https://www.themoviedb.org/tv/85065; https://www.themoviedb.org/tv/85065/season/1; https://www.toei-anim.co.jp/tv/kyousougiga/; https://www.comparandonos.com/television/series/kyousougiga-58027/temporada-0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.animeschedule.net/anime/kyousougiga-2012",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 85065,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 85065,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

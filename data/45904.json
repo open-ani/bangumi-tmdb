@@ -1,0 +1,24 @@
+{
+  "anidbId": 2690,
+  "bangumiId": 45904,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 45904 明确是 1994—1995 年发行、全 4 集的 OVA，四集标题依次为 FILE.1 至 FILE.4。Bangumi 的独立 TV 条目明确标注其第 1—4 话为 OVA 剪辑版；TMDB 43032 第 1 季前四集标题与剧情逐一对应，且 TMDB 总页说明第 1—4 话是 OVA 的电视放送版。因此应映射为 TMDB TV 43032 第 1 季第 1—4 集，不应纳入第 5 集以后新制作的 TV 内容。\n\nhttps://bgm.tv/subject/45904 (page): Bangumi 条目类型为 OVA，话数 4，发售期为 1994-09-24 至 1995-11-25；制作人为古橋一浩，动画制作 Studio Deen，并列出四个 OVA 章节。\n\nhttps://bgm.tv/subject/2074 (page): Bangumi 的独立 TV 条目为 51 集、1996-10-05 开播，并明确注明第 1—4 话为 OVA 剪辑版；其制作团队和发行版本与 OVA 条目区分。\n\nhttps://www.themoviedb.org/tv/43032 (api_snapshot): TMDB TV 总页快照说明该第 1 系列由 OVA 电视放送版 FILE.1—FILE.4 与新制作的 FILE.5—FILE.51 构成。\n\nhttps://www.themoviedb.org/tv/43032/season/1 (api_snapshot): TMDB 第 1 季快照明确为 51 集；第 1—4 集标题分别为「FILE.1 そしてふたりは出会った」「FILE.2 東京タイフーン・ラリー」「FILE.3 恋のハイウェイ・スター」「FILE.4 on the road, AGAIN」，与 Bangumi OVA 四集逐一对应，播出日期为 1996-10-05 至 1996-10-26。\n\nhttps://anidb.app/anime/youre-under-arrest-6225 (search_snippet): 公开 AniDB 搜索摘要将 Taiho Shichau zo / You're Under Arrest 识别为 1994 年秋季、Studio Deen 制作的 OVA，并列出其与 1996 TV 版的系列关系。\n\n备注：AniDB 原站数字页面本次无法访问，公开摘要未显示数字 ID 2690；但 Bangumi 条目的 OVA版本、标题、年份、制作信息及其与 1996 TV 前四集的版本关系均已由独立页面和 TMDB 季快照直接确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/45904; https://bgm.tv/subject/2074; https://www.themoviedb.org/tv/43032; https://www.themoviedb.org/tv/43032/season/1; https://anidb.app/anime/youre-under-arrest-6225",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 43032,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 922,
+  "bangumiId": 10182,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认本主体是1998年10月17日开始、共22集的 TV 动画，制作方为东映动画；其剧情、角色和制作信息与 TMDB 24019 一致。TMDB 第1季明确为1998年开始、22集，完整剧集标题与日期覆盖1998-10-17至1999-04-03，与本主体吻合，因此采用整季。TMDB 第2季名为“伝心 まもって守護月天!”、共8集；Bangumi 将其列为另一个 subject 的不同演绎，故排除。\n\nhttps://bgm.tv/subject/10182 (page): Bangumi 页面确认《まもって守護月天!》为TV动画，共22集，首播日1998-10-17，完结日1999-04-03，制作方为東映アニメーション，并将“伝心 まもって守護月天!”列为不同演绎的关联条目。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要中的 AniDB 标题数据将 AniDB ID 922 对应为“Mamotte Shugogetten!”。\n\nhttps://ny.iss.one/view/1736629 (search_snippet): 搜索摘要明确将 Mamotte Shugogetten! 的 AniDB 链接指向 anime/922，并将 Denshin Mamotte Shugogetten! 单独指向 anime/622，支持电视版与续作/OVA版本边界区分。\n\nhttps://www.themoviedb.org/tv/24019 (api_snapshot): 输入提供的 TMDB API 快照显示 TV 24019 原名为“まもって守護月天!”，首播日1998-10-17，共30集，包含第1季22集和第2季“伝心 まもって守護月天!”8集。\n\nhttps://www.themoviedb.org/tv/24019/season/1 (api_snapshot): 输入提供的 TMDB API 快照显示第1季明确为22集，首播日1998-10-17；完整剧集日期从1998-10-17至1999-04-03，剧集标题和剧情均与该Bangumi主体相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10182; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://ny.iss.one/view/1736629; https://www.themoviedb.org/tv/24019; https://www.themoviedb.org/tv/24019/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 24019,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

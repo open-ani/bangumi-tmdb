@@ -1,0 +1,24 @@
+{
+  "anidbId": 10198,
+  "bangumiId": 85339,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该主体标为 3 话 OVA，三话标题分别为「サン・トロンの雷鳴」「エーゲ海の女神」「アルンヘムの橋」。官方页面也明确列出 Operation Victory Arrow Vol.1–Vol.3。TMDB TV 35464 的特别篇 season 0 共 4 集，其中第 1 集为 2007 年旧特别篇；第 2–4 集日期分别对应本 OVA 的三部发行/上映时间，因此应映射为 season 0 的第 2–4 集，而不是整季。\n\nhttps://bgm.tv/subject/85339 (search_snippet): Bangumi 页面确认该主体为 OVA、共 3 话，并列出三话标题及 2014–2015 年日期。\n\nhttps://w-witch.jp/sw_ova/movie/ (search_snippet): 官方页面明确列出 Operation Victory Arrow Vol.1「サン・トロンの雷鳴」、Vol.2「エーゲ海の女神」、Vol.3「アルンヘムの橋」。\n\nhttps://www.themoviedb.org/tv/35464 (api_snapshot): TMDB API 快照确认 TV ID 35464 为「ストライクウィッチーズ」，包含 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/35464/season/0 (api_snapshot): TMDB API 快照确认 season 0 共 4 集：第 1 集为 2007 年，第 2–4 集日期为 2014-09-20、2015-01-10、2015-07-31；因此主体三话对应第 2–4 集。\n\n备注：TMDB season 0 的剧集标题在快照中为泛化的「第2話」至「第4話」，且第三集日期与 Bangumi 的 2015-05-02 条目日期不同，可能反映上映日与发行日差异；但三部官方卷名、数量及时间顺序与第 2–4 集一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85339; https://w-witch.jp/sw_ova/movie/; https://www.themoviedb.org/tv/35464; https://www.themoviedb.org/tv/35464/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 4,
+      "id": 35464,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

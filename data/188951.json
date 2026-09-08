@@ -1,0 +1,22 @@
+{
+  "anidbId": 483,
+  "bangumiId": 188951,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1984 年播出的《GALACTIC PATROL レンズマン》TV，全 25 话，首播日期为 1984-10-06；剧情说明也明确区别于关联的剧场版《SF新世纪レンズマン》。AniDB 标识 483 对应 Galactic Patrol Lensman，与该 TV 版本一致。TMDB 45166 的原名、首播日期、日语/日本属性、25 话及第 1 季 25 集均匹配，因此采用完整第 1 季。\n\nhttps://bangumi.tv/subject/188951 (page): Bangumi 将该条目标为 TV，话数 25，放送日期 1984-10-06 至 1985-03-30，并明确说明其内容不同于关联剧场版。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 ID 483 映射为 Galactic Patrol Lensman。\n\nhttps://www.themoviedb.org/tv/45166 (api_snapshot): TMDB 快照显示 ID 45166 的原名为 GALACTIC PATROL レンズマン，首播日期 1984-10-06，共 25 集，包含第 1 季。\n\nhttps://www.themoviedb.org/tv/45166/season/1 (api_snapshot): TMDB 第 1 季快照显示 season_number=1、episodeCount=25，集数 1–25 的标题和日期整体对应 Bangumi 章节。\n\n备注：TMDB 快照存在元数据错误：第 23 集日期写成 1985-03-09（应与 Bangumi 对应为 1985-03-16），第 25 集标题重复为“トール博士を救え!”；但集数、整体标题序列、首播范围和完整 25 集主体仍支持采用整季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/188951; https://bangumi.tv/subject/188951; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/45166; https://www.themoviedb.org/tv/45166/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45166,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

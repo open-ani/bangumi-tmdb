@@ -1,0 +1,22 @@
+{
+  "anidbId": 10820,
+  "bangumiId": 143751,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确为《てーきゅう 6期》TV动画，共12话，2015-10-05至2015-12-21；官方页面列出的主体正篇为第61面至第72面。TMDB剧集53020的季表明确列有 season 6「てーきゅう6」，2015-10-06，12话；这是日本深夜播出日期按次日记录造成的一日差异。候选 season 4 的快照对应2015年4月至6月的《てーきゅう4》，应排除。Bangumi附带的OVA/特番属于额外内容，不纳入6期主体12话。\n\nhttps://bgm.tv/subject/143751 (page): Bangumi 页面确认标题为「てーきゅう 6期」、TV、12话，放送期为2015年10月5日至12月21日，动画制作为ミルパンセ，并列出主体章节61至72及额外SP。\n\nhttps://www.te-kyu.com/story/ (page): 官方故事页将第61面至第72面连续列为《てーきゅう》6期内容，标题与输入的12个Bangumi正篇逐一对应。\n\nhttps://www.themoviedb.org/tv/53020 (api_snapshot): TMDB API快照确认TV作品53020为《てーきゅう》，包含season 6「てーきゅう6」，开播日期2015-10-06、12话；同时确认该作品按季拆分。\n\nhttps://www.themoviedb.org/tv/53020/season/4 (api_snapshot): TMDB API快照显示候选season 4为「てーきゅう4」，日期2015-04-07，剧集标题为第1至12话的另一季，与Bangumi 6期不符。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引搜索摘要将AniDB ID 10820标为「Teekyuu (2015)」；结合输入中匹配到的Teekyu 6别名，支持其作为2015年后续季的系列关联线索。\n\n备注：TMDB season 6 的逐集API快照未随输入提供，且网页季页无法直接读取；本次采用TMDB主剧集快照明确的season 6与12话信息，并以官方逐集标题核对主体范围。；AniDB 10820是覆盖2015年多季的系列条目而非仅第6期，因此不能单独用它确定季号；季号由Bangumi日期、官方第61至72面和TMDB季表共同确定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/143751; https://www.te-kyu.com/story/; https://www.themoviedb.org/tv/53020; https://www.themoviedb.org/tv/53020/season/4; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 53020,
+      "season": 6,
+      "type": "tv"
+    }
+  ]
+}

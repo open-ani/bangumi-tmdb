@@ -1,0 +1,22 @@
+{
+  "anidbId": 7627,
+  "bangumiId": 8560,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2010-10-07 开始、12 话的 TV 动画；其标题、剧情、制作信息及全部 12 个分集标题/日期均与 TMDB TV 51492 第 1 季逐项吻合。TMDB 第 1 季完整收录 12 集，因此采用整季，不包含特別編、续作或其他关联 subject。AniDB ID 7627 的名称映射为 Tantei Opera Milky Holmes，且与该版本吻合；即使不依赖 AniDB 线索，Bangumi 与 TMDB 的独立信息也已充分确认目标。\n\nhttps://bgm.tv/subject/8560 (page): Bangumi 将条目标为 TV，12 话，首播 2010-10-07；剧情、制作人员及第 1 至 12 话标题和日期均与目标版本一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要显示 AniDB ID 7627 对应 Tantei Opera Milky Holmes。\n\nhttps://www.themoviedb.org/tv/51492 (api_snapshot): TMDB TV 51492 的原名、首播日期 2010-10-07、剧情简介及季列表显示第 1 季为 12 集。\n\nhttps://www.themoviedb.org/tv/51492/season/1 (api_snapshot): TMDB 第 1 季名称为第1期，日期为 2010-10-07，共 12 集；12 个分集标题和日期与 Bangumi 全部对应。\n\n备注：AniDB 官方页面本次无法直接读取；其 ID 映射由搜索摘要和输入中的 matched 线索支持，但不影响本次由 Bangumi 与 TMDB 分集逐项匹配得出的结论。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8560; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/51492; https://www.themoviedb.org/tv/51492/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 51492,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

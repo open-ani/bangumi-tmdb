@@ -1,0 +1,22 @@
+{
+  "anidbId": 15530,
+  "bangumiId": 305621,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2020 年 TV 动画，共 26 集，放送期为 2020-10-02 至 2021-03-26，制作方为 OLM×SUNRISE BEYOND。TMDB TV 102871 的日文原名、简介、制作背景和 26 集数量均一致；第 1 季明确包含 26 集，且输入快照中的 1 至 26 集标题与 Bangumi 章节逐集对应。因此应映射为 TMDB TV 102871 第 1 季完整范围。TMDB 记载的日期整体比 Bangumi 晚一天，但不影响标题、剧情、制作和集数的版本对应。\n\nhttps://bgm.tv/subject/305621 (page): Bangumi 将该条目标记为 TV，话数 26，放送时间为 2020-10-02 至 2021-03-26，制作公司为 OLM×SUNRISE BEYOND，并列出第 1 至 26 集及对应标题。\n\nhttps://www.themoviedb.org/tv/102871 (api_snapshot): TMDB TV 快照显示日文原名为「キングスレイド 意志を継ぐものたち」、首播日期为 2020-10-03、共 26 集，简介与 Bangumi 条目一致，并仅列出一个 26 集的第 1 季。\n\nhttps://www.themoviedb.org/tv/102871/season/1 (api_snapshot): TMDB 第 1 季快照明确为 season_number=1、episodeCount=26；完整剧集列表为第 1 至 26 集，标题与 Bangumi 的 26 集逐集一致，最后一集为「世界树の戦い」。\n\nhttps://www.crunchyroll.com/series/GEXH3W44W/kings-raid-successors-of-the-will (search_snippet): 搜索摘要列出该作品第 11 至 26 集的连续剧集标题，并以 E26「The Battle of the World Tree」收束，与 TMDB/Bangumi 的主体范围相符。\n\n备注：Bangumi 使用日本播出日期 2020-10-02、2021-03-26，而 TMDB 快照多处记为次日日期；这是日期字段口径差异，未发现会导致作品或集数范围不同的证据。；AniDB 页面本次无法直接读取（403），但输入中的 Bangumi 关联字段标记 AniDB ID 15530 且标题 matched；最终 TMDB 目标由 Bangumi 与 TMDB 的标题、剧情、制作信息及逐集标题独立交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/305621; https://www.themoviedb.org/tv/102871; https://www.themoviedb.org/tv/102871/season/1; https://www.crunchyroll.com/series/GEXH3W44W/kings-raid-successors-of-the-will",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 102871,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 1349,
+  "bangumiId": 1960,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB API 快照明确将 ID 127193 标为 TV《サイファイハリー》，首播日为 2000-10-06，共 1 季且第 1 季有 20 集；第 1 季快照逐条列出 jellyfish 至 cosmos，与 Bangumi subject 的 20 集标题顺序完全对应。因此可确认这是同一主体，应纳入 TMDB 第 1 季完整 20 集。\n\nhttps://www.themoviedb.org/tv/127193 (api_snapshot): TMDB 快照显示作品名/原名为「サイファイハリー」，首播日期为 2000-10-06，共 20 集，包含第 1 季。\n\nhttps://www.themoviedb.org/tv/127193/season/1 (api_snapshot): TMDB 第 1 季快照显示 season_number=1、air_date=2000-10-06、episodeCount=20；1–20 集标题依次与 Bangumi 完全对应。\n\n备注：TMDB 部分集日期与 Bangumi 日本播出日期存在偏移，但集数、顺序、标题和首播日期一致，不影响确认完整季范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1960; https://www.themoviedb.org/tv/127193; https://www.themoviedb.org/tv/127193/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 127193,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

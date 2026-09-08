@@ -1,0 +1,27 @@
+{
+  "anidbId": 2858,
+  "bangumiId": 3974,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 3974 明确是 2005 年 GONZO×AIC 制作的《SoltyRei/曙光少女》，包含24集本篇及主体内的 SP25 特别篇。TMDB 26674 的剧情、日文标题、制作/年份信息与该作品一致；其第1季为完整24集，第0季为1集、日期为2006-07-26，与 Bangumi 的 SP25 标题和日期完全对应。因此应映射为 TMDB 第1季完整季，并纳入主体内特别篇所在的第0季完整季。TMDB 首播日期显示为2005-10-07，与 Bangumi 的2005-10-06属于日期记录差异，不构成版本冲突。\n\nhttps://bgm.tv/subject/3974 (page): Bangumi 将该条目标为 SoltyRei TV，话数25，2005-10-06开播，制作/原案信息包含 GONZO、AIC、TV Asahi。\n\nhttps://bgm.tv/subject/3974/ep (page): Bangumi 章节列出本篇1–24集，并单列 SP25《すれ違うキモチで、想い合うココロで。》。\n\nhttps://bgm.tv/ep/211778 (page): SP25 标题、时长43分45秒及首播日期2006-07-26均明确记录。\n\nhttps://www.themoviedb.org/tv/26674 (api_snapshot): TMDB API 快照显示 TV ID 26674、日文标题ソルティレイ、2005-10-07首播、24集，并列出第0季1集和第1季24集；剧情与 SoltyRei 作品主体一致。\n\nhttps://www.themoviedb.org/tv/26674/season/1 (api_snapshot): TMDB 第1季快照包含完整24集，标题和日期与 Bangumi 本篇章节逐集对应。\n\nhttps://www.wikidata.org/wiki/Q61092167 (page): 同一 Solty Rei 条目同时记录 AniDB anime ID 2858、Bangumi subject ID 3974 和 TMDB TV series ID 26674。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3974; https://bgm.tv/subject/3974/ep; https://bgm.tv/ep/211778; https://www.themoviedb.org/tv/26674; https://www.themoviedb.org/tv/26674/season/1; https://www.wikidata.org/wiki/Q61092167",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 26674,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 26674,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

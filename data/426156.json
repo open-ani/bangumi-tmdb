@@ -1,0 +1,27 @@
+{
+  "anidbId": 17957,
+  "bangumiId": 426156,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该条目是 2024-01-08 开始的《HIGH CARD season2》，正篇 12 集；其章节标题与日期逐集对应 TMDB 194665 第2季 1–12集，制作、剧情和年份也一致。Bangumi 输入还记录了主体内的特别篇 THE FLOWERS BLOOM；官方资料确认其为 #25，日期为 2024-11-05，而 TMDB 将其收录为第0季唯一一集。因此正篇采用第2季完整季，主体内特别篇另采用第0季完整季，不能将其错误并入第2季。\n\nhttps://bgm.tv/subject/426156 (page): Bangumi 将条目标为 HIGH CARD season2 TV，放送开始 2024-01-08，话数为12；章节13–24的标题和日期与 TMDB 第2季逐集对应。\n\nhttps://www.themoviedb.org/tv/194665 (api_snapshot): TMDB TV 194665 为 HIGH CARD；总计24集，Season2 于2024-01-08开始且为12集，Season0为1集并于2024-11-05开始。\n\nhttps://www.themoviedb.org/tv/194665/season/2 (api_snapshot): TMDB 第2季明确为12集，日期覆盖2024-01-08至2024-03-25，标题和剧情与 Bangumi 正篇逐集吻合。\n\nhttps://highcard-anime.jp/news.html?s=09 (search_snippet): 官方新闻确认新集数“#25 THE FLOWERS BLOOM”。\n\nhttps://www.imdb.com/title/tt34875287/ (search_snippet): 搜索摘要将 THE FLOWERS BLOOM 标为 HIGH CARD 第2季后的特别集，播出日期为2024-11-05；与 TMDB 第0季唯一集的日期一致。\n\n备注：AniDB 17957 页面请求返回403，无法直接读取其页面内容；AniDB 关联依赖输入中已标记为 matched 的 Bangumi 关联记录，但作品标题、年份、制作信息和逐集内容已由 Bangumi、官方资料及 TMDB 独立吻合。；所附 TMDB 快照未展开第0季单集详情，但明确给出第0季只有1集及其日期；因此以完整第0季表示该特别篇，不推断第0季的具体集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/426156; https://www.themoviedb.org/tv/194665; https://www.themoviedb.org/tv/194665/season/2; https://highcard-anime.jp/news.html?s=09; https://www.imdb.com/title/tt34875287/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 194665,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "id": 194665,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

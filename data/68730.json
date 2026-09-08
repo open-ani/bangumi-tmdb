@@ -1,0 +1,28 @@
+{
+  "anidbId": 9436,
+  "bangumiId": 68730,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 对应 TMDB TV 57757《BROTHERS CONFLICT》，但其13话并未全部放在 TMDB 第1季：2013年电视播出的第1—12话构成完整的 TMDB 第1季；Bangumi 纳入本 subject 的第12.5话《切望》则对应 TMDB 特别篇第1集。TMDB 特别篇第2—3集《聖夜》《本命》属于 Bangumi 另立的 OVA subject，不应纳入本次映射。\n\nhttps://www.themoviedb.org/tv/57757 (api_snapshot): TMDB API 快照显示 TV 57757 的原名为《BROTHERS CONFLICT》，首播日期为2013-07-02；剧情为绘麻因父亲再婚而与朝日奈家十三兄弟共同生活，与目标作品的身份和内容一致。该条目共有第1季12集及特别篇3集。\n\nhttps://www.themoviedb.org/tv/57757/season/1 (api_snapshot): TMDB API 快照显示第1季共12集，播出日期从2013-07-02至2013-09-17，集名依次为《兄弟》《混乱》《約束》至《恋愛》，与 Bangumi 的前12话逐集一致。\n\nhttps://www.themoviedb.org/tv/57757/season/0 (api_snapshot): TMDB API 快照显示特别篇第1集为《切望》，日期2014-02-26；第2、3集分别为《聖夜》和《本命》。因此本 subject 在特别篇中仅对应 S0E1。\n\nhttps://bangumi.tv/subject/68730 (page): Bangumi 页面将 subject 68730 标为13话，章节明确列出01—12及12.5，并把《BROTHERS CONFLICT OVA》列作独立的“番外篇”关联条目。\n\nhttps://www.bc-anime.com/contents/hp0006/index00440000.html (page): 动画官方网站记载第7卷于2014-02-26发行，收录第十二冲突《恋愛》和新作动画第十二・五冲突《切望》，确认《切望》的标题、编号、发行日期及其与电视系列的直接归属。\n\nhttps://www.bc-anime.com/contents/hp0006/index00580000.html (page): 动画官方网站将《聖夜》明确列为 OVA《BROTHERS CONFLICT》第1卷，并同时提到 OVA 第2卷《本命》，证明这两集是另行发行的两卷 OVA，而非本 subject 的第12.5话《切望》。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68730; https://www.themoviedb.org/tv/57757; https://www.themoviedb.org/tv/57757/season/1; https://www.themoviedb.org/tv/57757/season/0; https://bangumi.tv/subject/68730; https://www.bc-anime.com/contents/hp0006/index00440000.html; https://www.bc-anime.com/contents/hp0006/index00580000.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 57757,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 57757,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

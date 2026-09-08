@@ -1,0 +1,22 @@
+{
+  "anidbId": 13499,
+  "bangumiId": 148481,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2018-04-03 开播、共 12 话的《東京喰種トーキョーグール：re》，并与第二期条目分开。TMDB 61374 的第 3 季同名、同日开播，共 12 集；API 快照中的 12 个剧集标题与 Bangumi 章节及播出日期逐一对应。因此应映射为 TMDB TV 61374 第 3 季完整季，不包含 TMDB 第 4 季（对应 Bangumi 的“re 第2期”）。\n\nhttps://bgm.tv/subject/148481 (page): Bangumi 将该条目标为 TV，标题为「東京喰種トーキョーグール：re」，共 12 话，2018-04-03 开播、2018-06-19 结束，并列出与「東京喰種トーキョーグール：re 第2期」的续集关系。\n\nhttps://www.marv.jp/special/tokyoghoul/news.html?id=n115 (page): 官方资料明确区分「東京喰種トーキョーグール:re」第1期与「東京喰種トーキョーグール:re（最終章）」第2期，并确认第1期为 2018 年作品。\n\nhttps://www.themoviedb.org/tv/61374 (api_snapshot): TMDB 主条目为《東京喰種トーキョーグール》，共 48 集，季列表包含第 3 季「東京喰種-トーキョーグール-:re」和第 4 季「東京喰種-トーキョーグール-:re 2」，两季均为 12 集。\n\nhttps://www.themoviedb.org/tv/61374/season/3 (api_snapshot): TMDB 第 3 季名称为「東京喰種-トーキョーグール-:re」，首播日 2018-04-03，共 12 集；完整剧集标题和日期与 Bangumi 的 12 个章节逐一对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将 AniDB ID 13499 对应为「Tokyo Ghoul:Re」，与输入的 AniDB 关联标题一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148481; https://www.marv.jp/special/tokyoghoul/news.html?id=n115; https://www.themoviedb.org/tv/61374; https://www.themoviedb.org/tv/61374/season/3; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61374,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

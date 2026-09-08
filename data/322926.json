@@ -1,0 +1,22 @@
+{
+  "anidbId": 15724,
+  "bangumiId": 322926,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是 2021 年播出的 TV 动画《おとなの防具屋さんII》，共 12 话，标题、播出时间、导演、原作和制作信息均与官方资料及 TMDB 第二季吻合。Anime-Lists 中 AniDB 15724 明确关联 TMDB TV 82958 第 2 季；TMDB 第 2 季完整列出 12 集，官方页面也列出同名的 #01–#12。因此应对应整季，不需拆分集数。TMDB 日期比 Bangumi/日本电视播出日期晚约一天，属于日期记录差异，不影响版本判断。\n\nhttps://bgm.tv/subject/322926 (page): Bangumi 条目为 TV《おとなの防具屋さんII》，12 话，2021 年 1 月 8 日开播，2021 年 3 月 26 日结束，导演为山元隼一，制作方为 IMAGICA Lab.；页面列出与前作的续作关系。\n\nhttps://ganma.jp/g/anime/otonabougu/story.html (page): 官方 STORY 页面列出第二季 #01 至 #12，包含“防具物語”“防具の魔法使い”至“時をかける防具屋さん”，与输入 Bangumi 集标题及 TMDB 集标题逐一对应。\n\nhttps://ganma.jp/g/anime/otonabougu/cands.html (page): 官方 CAST/STAFF 页面确认第二季原作、导演、系列构成、角色设计和 IMAGICA Lab. 制作信息，与 Bangumi 条目一致。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 XML 行明确记录 anidbid=\"15724\"、名称 Otona no Bouguya-san II、tmdbtv=\"82958\"、tmdbseason=\"2\"，且无 offset。\n\nhttps://www.themoviedb.org/tv/82958 (api_snapshot): TMDB TV 82958 的主快照名称为おとなの防具屋さん，包含第 1 季和第 2 季；第 2 季日期为 2021 年、共 12 集。\n\nhttps://www.themoviedb.org/tv/82958/season/2 (api_snapshot): TMDB 第 2 季快照明确为 season_number 2、12 集，完整标题和剧情与官方第二季 #01–#12 匹配。\n\n备注：AniDB 原页面抓取时返回 403，未能直接读取 AniDB 条目正文；但输入中的 BangumiExtLinker matched 元数据、Anime-Lists 的 anidb 15724→TMDB 82958 第 2 季映射，以及 Bangumi/官方/TMDB 的标题、年份、制作和 12 集内容均相互 corroborate。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/322926; https://ganma.jp/g/anime/otonabougu/story.html; https://ganma.jp/g/anime/otonabougu/cands.html; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/82958; https://www.themoviedb.org/tv/82958/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 82958,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

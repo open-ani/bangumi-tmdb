@@ -1,0 +1,24 @@
+{
+  "anidbId": 18088,
+  "bangumiId": 443493,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是《マッシュル-MASHLE-》2024 年播出的第二期“神覚者候補選抜試験編”，正篇共 12 集。TMDB 没有把它编为第 2 季，而是将两期正篇连续收录在 TV 204832 的第 1 季：前期为第 1–12 集，本 subject 对应第 13–24 集。第 13 集和第 24 集的标题、播出日期及剧情均与 Bangumi 所列首尾集一致，因此必须映射为 S1E13–S1E24；旧候选中的 season=2 不符合 TMDB 当前分季结构。特别篇季不属于本 subject。\n\nhttps://www.aniplex.co.jp/lineup/mashle-shinkakusya/ (page): Aniplex 官方将《マッシュル-MASHLE- 神覚者候補選抜試験編》标为 2024 年 1 月的 TV 动画及本系列第 2 期；其故事页面从总集号第 13 话《マッシュ・バーンデッドと神覚者たち》开始，标题和剧情与 Bangumi 本 subject 的首集一致。\n\nhttps://mashle.pw/news/?id=64582 (page): 动画官网关于“神覚者候補選抜試験編”第 1 卷的公告明确写明收录第 13、14、15 话，证明该第二期沿用全系列连续集号，而不是重新从第 1 话编号。\n\nhttps://www.themoviedb.org/tv/204832/season/1 (api_snapshot): TMDB API 快照显示 TV 204832 原名为《マッシュル-MASHLE-》，第 1 季共有 24 集；其中第 13–24 集的日文标题和 2024-01-06 至 2024-03-30 的播出日期逐集对应 Bangumi 本 subject 的全部 12 集。\n\nhttps://www.themoviedb.org/tv/204832/season/1/episode/24 (page): TMDB 页面将 2024-01-06 的《Mash Burnedead and the Divine Visionaries》列为 S1E13，并将 2024-03-30 的《Mash Burnedead and His Good Friends》列为 S1E24及季终；两者分别对应本 subject 的首集和末集，确定范围为 S1E13–S1E24。\n\nhttps://www.themoviedb.org/tv/204832/season/2 (api_snapshot): 所给 TMDB API 实际请求对 TV 204832 的 season 2 返回 HTTP 404；同时该剧快照仅列特别篇季和含 24 集的第 1 季，因此不能采用旧候选的 S2。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/443493; https://www.aniplex.co.jp/lineup/mashle-shinkakusya/; https://mashle.pw/news/?id=64582; https://www.themoviedb.org/tv/204832/season/1; https://www.themoviedb.org/tv/204832/season/1/episode/24; https://www.themoviedb.org/tv/204832/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 204832,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

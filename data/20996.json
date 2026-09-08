@@ -1,0 +1,22 @@
+{
+  "anidbId": 1663,
+  "bangumiId": 20996,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是2004年4月6日开始、共26集的TV动画；TMDB TV 60790具有完全一致的日文标题、首播日期、26集总数及对应的三部剧情结构。TMDB第1季明确包含26集，剧集标题与Bangumi第1至26集逐项对应，因此应映射为完整的第1季。未发现电影、OVA、总集篇或重剪版证据，也没有需要排除的其他Bangumi正篇混入该季。\n\nhttps://bgm.tv/subject/20996 (page): Bangumi记录标题为《陸奥圓明流外伝 修羅の刻》，首播日期为2004-04-06，共26集；输入提供的集标题与TMDB第1季逐项对应。\n\nhttps://www.themoviedb.org/tv/60790 (api_snapshot): TMDB记录日文原名为《陸奥圓明流外伝 修羅の刻》，首播日期为2004-04-06，共26集；简介包含宫本武藏、寛永御前試合、幕末三部剧情。\n\nhttps://www.themoviedb.org/tv/60790/season/1 (api_snapshot): TMDB明确标示season_number为1、episodeCount为26；第1至26集标题与Bangumi所列标题一致，且包含完整主体剧情。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/20996; https://www.themoviedb.org/tv/60790; https://www.themoviedb.org/tv/60790/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 60790,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

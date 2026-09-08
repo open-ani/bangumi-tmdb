@@ -1,0 +1,22 @@
+{
+  "anidbId": 5658,
+  "bangumiId": 1841,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 1841 明确是2008年播出的26集电视动画，标题、剧情设定、原作清水玲子、导演青山弘及 MADHOUSE 制作等信息，与 TMDB 79034 完全对应。Bangumi 的26个正篇标题与 TMDB 第1季26集标题按顺序对应；AniDB 5658 的标题为 Top Secret: The Revelation，Anime-Lists 条目也将 AniDB 5658 关联至 TMDB TV 79034 第1季。因此主体应映射为完整的 TMDB 第1季，不需要拆分集数。\n\nhttps://bgm.tv/subject/1841 (page): Bangumi 将该条目标为 TV，26集，2008年4月8日开播；原作清水玲子、导演青山弘、动画制作 MADHOUSE，并列出从第1集到第26集的章节。剧情为通过 MRI 读取死者记忆协助破案。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=\"5658\" 条目名称为 Top Secret: The Revelation，并明确给出 tmdbtv=\"79034\"、tmdbseason=\"1\"；该条目没有偏移量。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开的 AniDB 标题数据镜像列出 [5658,\"Top Secret: The Revelation\"]，与输入的 AniDB 标题别名和 Bangumi 动画版本一致。\n\nhttps://www.themoviedb.org/tv/79034 (api_snapshot): TMDB 79034 的标题为「秘密(トップ・シークレット)~The Revelation~」，首播年份为2008年，语言为日语、国家为日本，共26集；简介同样描述第九研究室使用 MRI 读取死者记忆破案。\n\nhttps://www.themoviedb.org/tv/79034/season/1 (api_snapshot): TMDB 明确将该季编号为 season 1，共26集；快照中的剧集标题从「脳と旅する男」到「楽園（パラディソス）」与 Bangumi 第1至第26集标题逐项对应。\n\n备注：TMDB 首播日期记录为2008-04-09，而 Bangumi 记录为2008-04-08，属于一日差异；不影响标题、剧情、制作方和完整26集顺序的版本对应。；TMDB 快照中部分后段集数的 air_date 存在异常，未据此推导范围；集数范围依据完整剧集标题和明确的26集季信息确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1841; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/79034; https://www.themoviedb.org/tv/79034/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 79034,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

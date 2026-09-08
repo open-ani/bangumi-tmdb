@@ -1,0 +1,28 @@
+{
+  "anidbId": 10226,
+  "bangumiId": 86721,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是2015年的动画续篇《ガッチャマン クラウズ インサイト》，内容范围为第0话「inbound」加电视播出的12话。TMDB 61527 将12话正篇完整收录为第2季，标题、分集名、日期和剧情均与 Bangumi 对应；但将前导第0话「inbound」收录为特别篇 S0E2，因此需要拆成两个 target。S0E1「Embrace」属于前作《ガッチャマン クラウズ》，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/61527 (api_snapshot): TMDB 61527 是日本动画《ガッチャマン クラウズ》系列；快照明确列出第2季《ガッチャマン クラウズ インサイト》共12集，并另有含2集的特别篇季。\n\nhttps://www.themoviedb.org/tv/61527/season/2 (api_snapshot): TMDB 第2季包含 E1「contact point」至 E12「insight」，12个标题及剧情与 Bangumi 本 subject 的第1至第12话逐一对应，因此整个第2季都属于本 subject。\n\nhttps://www.themoviedb.org/tv/61527/season/0 (api_snapshot): TMDB 特别篇季的 E2 是「inbound」，剧情为立川事件一年后、首相遭袭及新战斗开始，与本 subject 的第0话相符；同季 E1「Embrace」讲述前作与ベルク・カッツェ的结局，应排除。\n\nhttps://tatsunoko.co.jp/works/gatchaman-crowds-insight/ (page): 制作方龙之子明确将本作标为《ガッチャマン クラウズ》的续篇，并注明“全12话＋第0话”，确认 subject 的完整范围是13话而非仅第2季的12话。\n\nhttps://www.ntv.co.jp/GC_insight/special/sp04.html (page): 日本电视台官方页面明确称「inbound」为《GATCHAMAN CROWDS insight》的“#0”，并记载于2015年6月20日起在 Hulu 先行独占配信。\n\nhttps://www.ntv.co.jp/english/pc/2015/07/gatchaman-crowds-insight.html (page): 日本电视台节目资料将《GATCHAMAN CROWDS insight》标为该系列第二季、共12集，其宇宙船坠落、つばさ与ゲルサドラ登场等剧情也与 TMDB S2E1 及本 subject 相符。\n\n备注：TMDB 快照把 S0E2「inbound」的 air_date 记为2015-07-05，而日本电视台官方记载其实际于2015-06-20开始配信；这是日期元数据差异，不影响 S0E2 的内容身份和映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/86721; https://www.themoviedb.org/tv/61527; https://www.themoviedb.org/tv/61527/season/2; https://www.themoviedb.org/tv/61527/season/0; https://tatsunoko.co.jp/works/gatchaman-crowds-insight/; https://www.ntv.co.jp/GC_insight/special/sp04.html; https://www.ntv.co.jp/english/pc/2015/07/gatchaman-crowds-insight.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 61527,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 61527,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

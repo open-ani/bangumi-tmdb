@@ -1,0 +1,24 @@
+{
+  "anidbId": 11836,
+  "bangumiId": 160271,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认本 subject 是《THE LAST SONG》独立 TV subject，共 11 集，且为系列前篇之后的第二部分。TMDB 65932 的 API 快照将整个作品列为 24 集、season 1 共 24 集；season 2 请求失败不作为不存在的依据。该 subject 的 11 个正篇标题依次对应整体编号 14–24，因此应映射到 TMDB season 1 的第 14–24 集。Bangumi 中的特别篇 13.5 不属于本 subject 主体，未纳入。\n\nhttps://bgm.tv/subject/160271 (page): Bangumi 页面显示该 subject 为《コンクリート・レボルティオ～超人幻想～THE LAST SONG》，11 集，2016-04-10 开始，并标注别名“Concrete Revolutio 超人幻想 第二季”；关联前篇 subject。\n\nhttps://www.themoviedb.org/tv/65932 (api_snapshot): TMDB API 快照显示作品首播日期为 2015-10-04、总集数 24，seasons 列表中 season 1 为 24 集。\n\nhttps://www.themoviedb.org/tv/65932/season/2 (api_snapshot): TMDB season 2 请求返回 HTTP 404；仅记录为请求失败，不据此断言不存在。\n\nhttps://animetime.tv/series/concrete-revolutio-a-superhuman-fantasy (search_snippet): 剧集列表将 THE LAST SONG 的 11 集标为整体编号 #14–#24，标题与 Bangumi 的 11 个正篇逐一对应。\n\nhttps://concreterevolutio.com/goods/?page=music (search_snippet): 官方站点使用“TVアニメ『コンクリート・レボルティオ～超人幻想～ THE LAST SONG』”作为该部分作品名称。\n\n备注：TMDB season 1 的逐集详情页无法直接读取；范围依据 TMDB 主 API 的 24 集 season 1 数据及与该作品整体编号、标题的交叉核对确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/160271; https://www.themoviedb.org/tv/65932; https://www.themoviedb.org/tv/65932/season/2; https://animetime.tv/series/concrete-revolutio-a-superhuman-fantasy; https://concreterevolutio.com/goods/?page=music",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 24,
+      "id": 65932,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

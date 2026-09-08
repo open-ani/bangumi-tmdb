@@ -1,0 +1,22 @@
+{
+  "anidbId": 10210,
+  "bangumiId": 85915,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 是 2014 年的独立 TV 动画《金色のコルダ Blue♪Sky》，讲述小日向かなで参加夏季音乐竞赛的故事，共 12 话。TMDB 45274 的原题、年份、动画媒介、剧情、角色以及第 1 季 12 集均与之吻合，因此映射为完整第 1 季，无需限定集数。旧候选 TMDB 42952 实为 2006 年《金色のコルダ ～primo passo～》；其 TMDB 快照没有第 2 季且 season/2 返回 404，不能用于本作。\n\nhttps://movie.best-item.co.jp/tv/45274 (page): 该页面直接链接至 TMDB TV 45274，并以 TMDB 为数据源列出原题《金色のコルダ Blue♪Sky》、2014 年、动画作品、1 季共 12 集；第 1—6 集日文标题也与 Bangumi 所列标题逐一相符。\n\nhttps://www.serializd.com/show/La-corda-d%27oro%3A-Blue%E2%99%AASky-45274/season/207333/1/episode/2 (page): Serializd 页面声明 TV 数据来自 TMDB，其作品路径标识为 45274，并将《Sighs and Ave Maria／溜息とアヴェ・マリア》列为第 1 季第 2 集，支持该 ID 的 TMDB 分季结构。\n\nhttps://www.ntv.co.jp/english/pc/2014/02/la-corda-doro--blue-sky-.html (page): 日本电视台官方节目资料确认《La corda d'oro -Blue Sky-》是由 TYO Animations 制作、改编自《La corda d'oro 3》的 12 集动画，剧情为一名少女与十二名少年参加夏季音乐竞赛，与 Bangumi subject 身份一致。\n\nhttps://www.themoviedb.org/tv/42952 (api_snapshot): 输入的 TMDB API 快照显示旧候选 42952 是首播于 2006 年的《金色のコルダ ～primo passo～》，仅含第 1 季 25 集及特别篇，并非 2014 年《Blue♪Sky》。\n\nhttps://www.themoviedb.org/tv/42952/season/2 (api_snapshot): 输入快照中对旧候选第 2 季的 TMDB API 请求返回 HTTP 404，排除了 42952 season 2。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85915; https://movie.best-item.co.jp/tv/45274; https://www.serializd.com/show/La-corda-d%27oro%3A-Blue%E2%99%AASky-45274/season/207333/1/episode/2; https://www.ntv.co.jp/english/pc/2014/02/la-corda-doro--blue-sky-.html; https://www.themoviedb.org/tv/42952; https://www.themoviedb.org/tv/42952/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45274,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

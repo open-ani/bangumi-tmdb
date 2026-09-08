@@ -1,0 +1,22 @@
+{
+  "anidbId": 11960,
+  "bangumiId": 169990,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将该主体标为 TV，标题为《フューチャーカード バディファイト DDD》，共 51 话，2016-04-02 开始并于 2017-03-25 结束；制作信息为 OLM・XEBEC，与候选作品一致。AniDB ID 11960 对应 Future Card Buddyfight DDD，且 TMDB TV 71919 的第 3 季从 2016-04-02 开始、共 51 集，完整集数日期覆盖至 2017-03-25；TMDB 第 3 季前 28 集日期也逐一对应 Bangumi 已提供的章节。因此应映射为该 TV 的完整第 3 季，无需缩小集数范围。\n\nhttps://bgm.tv/subject/169990 (page): Bangumi 页面确认标题、TV 类型、51 话、2016-04-02 开始、2017-03-25 结束、OLM/XEBEC 制作，并将其与前作《バディファイト100》和后作《バッツ》区分。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 11960 列为 Future Card Buddyfight DDD，支持输入中的 AniDB 关联及标题匹配。\n\nhttps://www.themoviedb.org/tv/71919 (api_snapshot): TMDB TV 71919 为《フューチャーカード バディファイト》，总季表显示第 3 季于 2016-04-02 开始并有 51 集。\n\nhttps://www.themoviedb.org/tv/71919/season/3 (api_snapshot): TMDB 第 3 季明确为 season 3，共 51 集；第 1 集至第 51 集日期覆盖 2016-04-02 至 2017-03-25，前 28 集日期与 Bangumi 章节逐一对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/169990; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/71919; https://www.themoviedb.org/tv/71919/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 71919,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

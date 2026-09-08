@@ -1,0 +1,29 @@
+{
+  "anidbId": 3541,
+  "bangumiId": 55681,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是由三部《银铃外传》OVA组成的合集主体，依次为《素足のGinRei》《鉄腕GinRei》和《青い瞳の銀鈴》。TMDB 将三部正篇分别建为电影 431325、431332、431329，因此需要三个 movie 目标才能完整覆盖 subject。候选 TV 69212 是七集《ジャイアントロボ THE ANIMATION -地球が静止する日-》本传：其第1季标题、剧情及分集均为本传内容，且 TMDB API 对第0季返回404，不能据其他数据库的 S0 编排把三部外传映射进去。\n\nhttps://bgm.tv/subject/55681 (page): Bangumi 页面将主体标为3话OVA，并明确说明全三集分别是《裸足的银铃》《铁腕的银铃》《蓝眼的银铃》，与本传作为“主线故事”另行关联。\n\nhttps://www.b-ch.com/titles/367/ (page): 版权方相关的万代频道页面明确把本作描述为《素足のGinRei》《鉄腕GinRei》《青い瞳の銀鈴》三部作品，并分别概述服装失窃、银铃机器人大战及西部片风格外传等内容。\n\nhttps://letterboxd.com/film/barefoot-gin-rei/ (page): 页面记录1994年动画《素足のGinRei EPISODE 1》，说明它是《地球が静止する日》的银铃外传，剧情为银铃寻找失窃旗袍；页面的“More at TMDB”链接解析到 TMDB movie 431325。\n\nhttps://letterboxd.com/film/the-mighty-gin-rei/ (page): 页面记录1994年动画《鉄腕GinRei EPISODE 2&3》，剧情包括大作转投BF及银铃型巨大机器人；页面的“More at TMDB”链接解析到 TMDB movie 431332。\n\nhttps://letterboxd.com/film/gin-reis-blue-eyes/ (page): 页面记录1995年动画《青い瞳の銀鈴 GinRei with blue eyes》，剧情为银铃与铁牛前往沙漠调查；页面的“More at TMDB”链接解析到 TMDB movie 431329。\n\nhttps://www.themoviedb.org/tv/69212 (api_snapshot): 所给 TMDB API 快照显示 TV 69212 是1992年开始的《ジャイアントロボ THE ANIMATION -地球が静止する日-》，仅有第1季7集本传；相邻的第0季请求返回HTTP 404，因此它不包含可映射的银铃外传季集范围。\n\n备注：Bangumi 的部分分集日期与实体发行资料存在口径或录入差异，但三部作品的完整原名、顺序、剧情及制作身份均能逐一对应，不影响上述映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/55681; https://www.b-ch.com/titles/367/; https://letterboxd.com/film/barefoot-gin-rei/; https://letterboxd.com/film/the-mighty-gin-rei/; https://letterboxd.com/film/gin-reis-blue-eyes/; https://www.themoviedb.org/tv/69212",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 431325,
+      "type": "movie"
+    },
+    {
+      "id": 431332,
+      "type": "movie"
+    },
+    {
+      "id": 431329,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 1122,
+  "bangumiId": 10238,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确为2003年10月16日开始、共52话的TV动画，制作信息为NHK、MADHOUSE与Telecom Animation Film；剧情和角色设定也与候选作品一致。TMDB 43242使用相同日文标题，首播日期同为2003-10-16，共52集；TMDB明确列出season_number=1且该季52集。季内首集、末集及多集中间标题和播出日期均与Bangumi章节对应，因此应映射为TMDB第1季完整52集。\n\nhttps://bgm.tv/subject/10238 (page): Bangumi将该条目标为TV，记录52话、首播2003-10-16，并列出NHK、MADHOUSE和Telecom Animation Film等制作信息及对应剧情。\n\nhttps://www.themoviedb.org/tv/43242 (api_snapshot): TMDB API快照显示作品日文标题为「無人惑星サヴァイヴ」、first_air_date为2003-10-16、number_of_episodes为52，并明确列出第1季共52集。\n\nhttps://www.themoviedb.org/tv/43242/season/1 (api_snapshot): TMDB API快照明确显示season_number=1、episodeCount=52，且完整剧集记录的首集、末集及标题/日期与Bangumi章节相符。\n\n备注：AniDB网页本身在本次访问中无法读取，因此AniDB ID 1122未能以独立AniDB页面再次核验；但Bangumi页面与TMDB作品、日期、剧情、制作信息及完整52集列表已形成充分的版本和范围对应证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10238; https://www.themoviedb.org/tv/43242; https://www.themoviedb.org/tv/43242/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 43242,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

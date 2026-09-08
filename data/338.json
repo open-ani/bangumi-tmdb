@@ -1,0 +1,29 @@
+{
+  "anidbId": 959,
+  "bangumiId": 338,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是京都动画制作、2003 年播出的《フルメタル・パニック？ ふもっふ》，不是第一季、The Second Raid 或电影版。TMDB 39379 将它编为第 2 季，但按日本电视播出版只列 11 集：原定第1话后半《妥協無用のホステージ》和第2话前半《すれ違いのホスティリティ》因现实事件未播，其余两个半篇被重新组合成电视版第1集。Bangumi 的12话口径包含后来发行的完整原定内容；TMDB 把两个未播半篇分别放在特别篇 S0E1、S0E2。因此完整覆盖本 subject 必须映射 TMDB 39379 第2季全季，并补充第0季第1—2集。第0季其余项目属于后续作品的特别节目或 OVA，不属于本 subject。\n\nhttps://www.kyotoanimation.co.jp/works/fullmetalFumoffu/ (page): 京都动画官方作品页确认作品名为《フルメタル・パニック？ ふもっふ》，剧情主体是相良宗介保护千鸟要所引发的校园喜剧，导演武本康弘、动画制作京都动画，与 Bangumi 的名称、剧情及主创一致。\n\nhttps://www.themoviedb.org/tv/39379 (api_snapshot): TMDB API 快照显示 TV 39379 是日本动画《フルメタル・パニック！》，其中第2季明确命名为《フルメタル・パニック？ ふもっふ》，首播日期为2003-08-26，共11集。\n\nhttps://www.themoviedb.org/tv/39379/season/2 (api_snapshot): TMDB API 快照显示第2季的11集从《南から来た男／空回りのランチタイム》开始，到《五時間目のホット・スポット》结束；这是《ふもっふ》的日本电视播出编排。\n\nhttps://www.themoviedb.org/tv/39379/season/0 (api_snapshot): TMDB API 快照显示 S0E1 为《妥協無用のホステージ》、S0E2 为《すれ違いのホスティリティ》；S0E3—6则分别属于 The Second Raid 或 Invisible Victory，故本 subject 的特别篇范围只能取 S0E1—2。\n\nhttps://www.b-ch.com/titles/345/001 (page): Bandai Channel 将完整发行版第1话列为《南から来た男／妥協無用のホステージ》，证明 TMDB S0E1 是 Bangumi 正篇第1话的组成部分，而非额外特典。\n\nhttps://animeworld.com/reviews/fullmetalpanicfumoffu.html (search_snippet): 检索摘要说明富士电视台实际只播11集：《すれ違いのホスティリティ》和《妥協無用のホステージ》两个半篇被撤下，另外两个半篇重组为电视版首集；缺失内容后来收入影碟发行版。这解释了 Bangumi 12话与 TMDB 第2季11集加两个特别篇的差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/338; https://www.kyotoanimation.co.jp/works/fullmetalFumoffu/; https://www.themoviedb.org/tv/39379; https://www.themoviedb.org/tv/39379/season/2; https://www.themoviedb.org/tv/39379/season/0; https://www.b-ch.com/titles/345/001; https://animeworld.com/reviews/fullmetalpanicfumoffu.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 39379,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 39379,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

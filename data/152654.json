@@ -1,0 +1,22 @@
+{
+  "anidbId": 4349,
+  "bangumiId": 152654,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 应映射至 TMDB TV 142530 的第 1 季全季。使用 TMDb API 的目录页面以“DP-TV-142530”标识该条目，并列出原名「よしむね」、2006 年日本动画、IMDb tt1179249、檜山修之与岩男润子等演员，以及唯一一季共 24 集；这些身份字段与 Bangumi 的《吉宗》一致。外部作品资料进一步确认《吉宗／Yoshimune》是佐藤博暉执导、AIC Spirits／Gonzo／銀画屋制作、2006 年 4—9 月播出的 24 集电视动画，剧情为江户时代与现代科技混合的平行世界。因 TMDB 第 1 季正好收录全部 24 集，无需限定部分集数。旧候选 TV 20997 的 API 快照是无日期、无季、零集的空条目，而且 season/1 返回 404，不能表示本作。\n\nhttps://www.dvdplanetstore.pk/shop/animation/%E3%82%88%E3%81%97%E3%82%80%E3%81%AD/ (page): 该目录条目标识为“DP-TV-142530”，原名「よしむね」，类型为日本动画剧集；首播、完结日期分别为 2006-04-06、2006-09-14，IMDb 为 tt1179249，演员包括檜山修之、岩男润子等，并明确只有 Season 1、共 24 集。\n\nhttps://www.dvdplanetstore.pk/shop/ (page): 该目录页页脚明确声明网站使用 TMDb API；结合具体作品页的 DP-TV-142530，可据此识别其 TV 数据源编号为 TMDB 142530。\n\nhttps://en.wikipedia.org/wiki/Yoshimune_(TV_series) (page): 独立作品资料确认《Yoshimune／吉宗》为佐藤博暉执导、AIC Spirits、Gonzo 和銀画屋制作的日本电视动画，2006-04-06 至 2006-09-14 播出，共 24 集；剧情发生在江户元素与迪厅、摩托车等现代事物并存的平行世界。\n\nhttps://annict.com/works/2319 (page): Annict 将《吉宗》列为 2006 年春季 TV 动画，并逐项列出第 1 至第 24 话，末话为「春、花、爛漫」，证明正篇连续范围为 24 集。\n\nhttps://www.themoviedb.org/tv/20997 (api_snapshot): 输入提供的 TMDB API 快照显示候选 20997 名为 Yoshimune，但首播日期、国家、概述和季列表均为空，总集数为 0；其 season/1 请求另返回 404，因此不是可用的本作季映射。\n\n备注：TMDB 主站具体页面受到 robots 限制，未能直接读取 TV 142530；该 ID 是依据明确声明使用 TMDb API 的目录及其作品编号、IMDb、演员、年份和完整分季元数据交叉识别。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/152654; https://www.dvdplanetstore.pk/shop/animation/%E3%82%88%E3%81%97%E3%82%80%E3%81%AD/; https://www.dvdplanetstore.pk/shop/; https://en.wikipedia.org/wiki/Yoshimune_(TV_series); https://annict.com/works/2319; https://www.themoviedb.org/tv/20997",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 142530,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

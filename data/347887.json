@@ -1,0 +1,24 @@
+{
+  "anidbId": 16559,
+  "bangumiId": 347887,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《擅长捉弄的高木同学》第三季，AniDB ID 16559 的名称匹配第三季。TMDB TV 75865 的第3季名称、简介、12集标题与 Bangumi 的12集标题及剧情逐集对应，日期仅整体相差约1天（TMDB 为周六，Bangumi 为周五），符合时区或发行日期记录差异。因此应映射为 TMDB TV 75865 第3季第1至12集。\n\nhttps://bgm.tv/subject/347887 (api_snapshot): Bangumi subject 名称为「からかい上手の高木さん③」，2022-01-07 开播，共12集；AniDB ID 为16559，名称状态为 matched。\n\nhttps://www.themoviedb.org/tv/75865 (api_snapshot): TMDB TV 75865 为《からかい上手の高木さん》，包含名称为「からかい上手の高木さん3」的第3季，共12集，首播年份为2022年。\n\nhttps://www.themoviedb.org/tv/75865/season/3 (api_snapshot): TMDB 第3季明确为「からかい上手の高木さん3」，包含第1至12集；各集标题、剧情和日期与 Bangumi 第三季逐集对应。\n\n备注：TMDB 集数日期相较 Bangumi 整体晚约1天，但不影响季号和集数范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/347887; https://www.themoviedb.org/tv/75865; https://www.themoviedb.org/tv/75865/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 75865,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

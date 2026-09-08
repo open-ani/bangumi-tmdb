@@ -1,0 +1,21 @@
+{
+  "anidbId": 3560,
+  "bangumiId": 312255,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1985-12-21 上映的《キャプテン翼 危うし！全日本Jr.》剧场版，剧情为全日本队与欧洲选拔队在日本再战。TMDB 的《Olive et Tom - Saga》电影集合列出同名作品，日期同为 1985-12-21，且链接对应 movie/264992。候选 TV 25707 不应采用：其第 0 季是 1989—1994 年的 14 集特别编，并非该 1985 年电影。\n\nhttps://bgm.tv/subject/312255 (page): Bangumi 将条目标为剧场版，标题为《キャプテン翼 危うし！全日本Jr.》，上映年度为 1985 年 12 月 21 日；章节简介描述了欧洲选拔队访日再战。\n\nhttps://www.themoviedb.org/collection/713956?language=fr-FR (page): TMDB 电影集合列出《Olive et Tom - Le Défi Européen : La Revanche (キャプテン翼 危うし! 全日本Jr.)》，发布日期为 1985 年 12 月 21 日；该条目链接解析为 movie/264992。\n\nhttps://www.themoviedb.org/tv/25707 (api_snapshot): 输入的 TMDB API 快照显示 25707 是 1983 年开始、共 128 集的《キャプテン翼》电视系列，包含多个季。\n\nhttps://www.themoviedb.org/tv/25707/season/0 (api_snapshot): 输入的 TMDB API 快照显示第 0 季为“特別編”，共 14 集，日期从 1989-07-01 延续至 1994-11-06，与 Bangumi 的 1985 年电影不符。\n\n备注：AniDB 3560 页面本身无法直接读取（403）；但 Bangumi 条目的标题、上映日期、剧情与 TMDB 电影集合中的同名作品及日期一致，因此不影响该 movie 目标的版本判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312255; https://www.themoviedb.org/collection/713956?language=fr-FR; https://www.themoviedb.org/tv/25707; https://www.themoviedb.org/tv/25707/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 264992,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 743,
+  "bangumiId": 85438,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确为《フォーチュン・クエストL》TV动画，1997年10月18日开播、共26集；Bangumi 页面还给出了相同的制作人员、动画制作公司、剧情分段及完整26集章节。TMDB 29156 同名、同首播日、同为26集，第一季的26个集名与 Bangumi 主体的集名序列对应，因此应映射为 TMDB TV 29156 第1季完整范围。关联的《フォーチュン・クエスト 世にも幸せな冒険者たち》是另一个前传主体，不应并入本季。\n\nhttps://bgm.tv/subject/85438 (page): Bangumi 页面确认该条目为《フォーチュン・クエストL》TV动画，话数26，放送开始1997年10月18日；制作人员包括渡部高志、佐藤英一、影山由美，动画制作公司为イージー・フイルム。页面列出01至26全部章节，并将《フォーチュン・クエスト 世にも幸せな冒険者たち》列为前传。\n\nhttps://www.themoviedb.org/tv/29156 (api_snapshot): TMDB API 快照确认 ID 29156 为《フォーチュン・クエストL》，首播日期1997-10-18，共26集；简介中的角色、冒险设定和制作背景与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/29156/season/1 (api_snapshot): TMDB API 快照确认第1季共26集，集数1至26完整返回，集名从「ドラゴンの宝玉」至「ネバーエンディング・クエスト」，与 Bangumi 主体的完整集数及已提供集名序列对应。\n\n备注：Bangumi 的部分单集播出日期与 TMDB 季快照日期存在约一周及播出空档差异，且 Bangumi 后半段单集日期字段为空；这影响日期元数据比对，但不影响同名、同年份、同首播日、同26集及完整集名序列的版本对应。；输入中的 AniDB ID 743 关联标记为 matched；本次可直接核验到的 Bangumi 页面未展示 AniDB ID 字段，因此 AniDB 关联本身主要依赖输入提供的关联快照。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85438; https://www.themoviedb.org/tv/29156; https://www.themoviedb.org/tv/29156/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 29156,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

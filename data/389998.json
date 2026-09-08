@@ -1,0 +1,24 @@
+{
+  "anidbId": 17481,
+  "bangumiId": 389998,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 389998 明确是《BIRDIE WING》第二季，共 12 集，2023-04-07 至 2023-06-23 播出，章节编号为 14–25；标题、剧情、导演、编剧和 BN Pictures 制作信息均与同一作品一致。TMDB TV 137390 将全系列合并为 season 1，共 25 集，且 season 2 请求返回 404，因此应映射为 TMDB season 1 的第 14–25 集，而不是 TMDB season 2。\n\nhttps://bgm.tv/subject/389998 (page): Bangumi 条目标题为 BIRDIE WING -Golf Girls' Story- Season 2，标注 12 集、2023-04-07 开始、2023-06-23 结束，并列出章节 14–25、导演稲垣隆行、BN Pictures 制作。\n\nhttps://www.themoviedb.org/tv/137390 (api_snapshot): TMDB TV 137390 标题为 BIRDIE WING -Golf Girls' Story-，首播日期 2022-04-06，共 25 集，仅列出 season 1 且 season 1 为 25 集；简介与该动画主线及日本制作信息一致。\n\nhttps://www.themoviedb.org/tv/137390/season/2 (api_snapshot): TMDB season 2 请求返回 HTTP 404；结合主页面仅有 25 集的 season 1，说明该 TMDB 条目把日本第二季并入了 season 1 的连续集数。\n\nhttps://www.justwatch.com/us/tv-show/birdie-wing-golf-girls-story/season-1 (search_snippet): 候选作品的 TMDB 关联展示为 25 集的 season 1，并将日本第二季首集标题映射为 S1 E14，后续标题继续对应 E15–E20，支持第二季对应总集数 14–25。\n\nhttps://www.tv-tokyo.co.jp/anime/birdie-wing/episodes/ (search_snippet): 东京电视台官方剧集列表显示第 25 集《蘇る約束》于 2023-06-23 播出，并列出第 24、23、19、18 集标题和日期，与 Bangumi 第二季的 14–25 连续范围及 2023 年播出期相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/389998; https://www.themoviedb.org/tv/137390; https://www.themoviedb.org/tv/137390/season/2; https://www.justwatch.com/us/tv-show/birdie-wing-golf-girls-story/season-1; https://www.tv-tokyo.co.jp/anime/birdie-wing/episodes/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 25,
+      "id": 137390,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "anidbId": 8932,
+  "bangumiId": 37416,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 37416 是 2012 年发行的单集动画 OVA《お花見ゴーストバスターズ》，不是 2011 年的 12 集 TV 正篇，也不是额外附带的《電脳ワンダラーズ》特典。TMDB 将该 OVA 直接收录在 TV 56352《猫神やおよろず》的第 0 季：该季仅有 S00E01《お花見ゴーストバスターズ》，日期同为 2012-03-21。因此正确映射为 TV 56352、S00E01，范围明确限定为第 1 集。\n\nhttps://bgm.tv/subject/37416 (page): Bangumi 页面确认该 subject 是《猫神やおよろず OVA》，媒介为 OVA、话数为 1、发售日为 2012-03-21，并描述其内容为众人前往废医院赏樱时发生的故事。\n\nhttps://bgm.tv/ep/161009 (page): Bangumi 正篇页面确认唯一正篇标题为《お花見ゴーストバスターズ》，首播及发售日均为 2012-03-21，时长 27 分 19 秒。\n\nhttps://www.oricon.co.jp/prof/203551/products/927842/1/ (page): Oricon 的影碟资料确认《猫神やおよろずOVA》由 Marvelous AQL 于 2012-03-21 发行，产品编号为 PCBX-51440，与 Bangumi 正篇页面所列编号一致。\n\nhttps://www.themoviedb.org/tv/56352 (api_snapshot): TMDB API 快照显示 TV 56352 是日本动画《猫神やおよろず》；其第 1 季为 2011 年播出的 12 集 TV 正篇，另有第 0 季“特別編”，日期为 2012-03-21且仅含 1 集。\n\nhttps://www.themoviedb.org/tv/56352/season/0 (api_snapshot): TMDB API 快照明确显示第 0 季唯一一集为 E1《お花見ゴーストバスターズ》，播出日 2012-03-21、时长 25 分钟；标题、日期和单集结构均与目标 OVA 对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/37416; https://bgm.tv/ep/161009; https://www.oricon.co.jp/prof/203551/products/927842/1/; https://www.themoviedb.org/tv/56352; https://www.themoviedb.org/tv/56352/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 56352,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

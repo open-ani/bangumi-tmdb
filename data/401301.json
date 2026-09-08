@@ -1,0 +1,24 @@
+{
+  "anidbId": 17626,
+  "bangumiId": 401301,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 401301 是 2023 年 7 月播出的《SYNDUALITY Noir》第一部分，共 12 集；Bangumi 明确将 2024 年 1 月播出的 12 集另列为第 2 クール（subject 456042）。TMDB TV 210181 的第 1 季包含完整 24 集，其中第 1—12 集标题依次与 Bangumi 主体的 12 集完全对应，剧情和制作信息也一致。因此应映射到 TMDB 第 1 季的第 1—12 集，而不是整季。\n\nhttps://bgm.tv/subject/401301 (page): Bangumi 标注该主体为 TV、12 话，2023 年 7 月 10 日至 9 月 25 日播出，并列出导演山本裕介、原案鴨志田一、动画制作 8bit 等信息；关联条目包含独立的第 2 クール。\n\nhttps://bgm.tv/subject/456042 (page): Bangumi 将第 2 クール单列为 12 话，2024 年 1 月 8 日开始播出，章节编号为 13—24。\n\nhttps://www.wikidata.org/wiki/Q113989239 (page): 交叉标识同时列出 AniDB anime ID 17626、Bangumi subject 401301，以及 TMDB TV series ID 210181；并将 401301 与第一部分、456042 与第二部分对应。\n\nhttps://synduality-noir.com/news/?p=1663 (page): 官方站明确称第 1 クール为全 12 话套装，支持 Bangumi 主体对应第一部分而非 24 集整体。\n\nhttps://www.themoviedb.org/tv/210181 (api_snapshot): TMDB API 快照显示 210181 的名称为 SYNDUALITY Noir，首播年份为 2023，简介中的 Kanata、Noir、Drifter、Enders 等内容与该作品一致，总集数为 24。\n\nhttps://www.themoviedb.org/tv/210181/season/1 (api_snapshot): TMDB API 快照的第 1 季列出 24 集；第 1—12 集标题依次为 My name is…、My master、Behind the mask、Wild daisy、Drifting the maze、Dice is cast、My dear...、Pure dream、Legendary hero、Drifters' pride、Storm of A.I.、Mirage of the Ideal，与 Bangumi 主体 12 集逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/401301; https://bgm.tv/subject/456042; https://www.wikidata.org/wiki/Q113989239; https://synduality-noir.com/news/?p=1663; https://www.themoviedb.org/tv/210181; https://www.themoviedb.org/tv/210181/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 210181,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

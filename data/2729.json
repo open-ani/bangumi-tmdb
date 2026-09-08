@@ -1,0 +1,24 @@
+{
+  "anidbId": 6819,
+  "bangumiId": 2729,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 是 2009 年播出的两集特别篇，标题、集数、播出日期、GAINAX 制作及剧情定位均与 AniDB ID 6819《Mahoromatic: Tadaima Okaeri》相符。TMDB TV 42722 的第 0 季明确为特别篇，第 4、5 集标题分别对应前篇《ただいまの風》和后篇《おかえりの空》，剧情概要也匹配；第 0 季前 3 集是其他年份的特别篇，不能整季纳入，因此范围为第 4–5 集。TMDB 日期比 Bangumi 晚一天，但标题、剧情、制作系列和两集结构均一致，不构成版本冲突。\n\nhttps://bgm.tv/subject/2729 (page): Bangumi 将 subject 标为 TV，确认 2 集、2009 年 10 月播出、GAINAX 制作及特别篇性质。\n\nhttps://bgm.tv/ep/17471 (page): Bangumi 第 1 集为《前編 ただいまの風》，首播 2009-10-17。\n\nhttps://bgm.tv/ep/17472 (page): Bangumi 第 2 集为《後編 おかえりの空》，首播 2009-10-24。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 6819 对应为《Mahoromatic: Tadaima Okaeri》。\n\nhttps://www.themoviedb.org/tv/42722 (api_snapshot): TMDB TV 42722 为《まほろまてぃっく》，包含名为“特別編”的第 0 季。\n\nhttps://www.themoviedb.org/tv/42722/season/0 (api_snapshot): TMDB 第 0 季第 4、5 集分别对应《ただいまの風》和《おかえりの空》，剧情概要与 Bangumi subject 两集匹配；第 1–3 集为其他特别篇。\n\n备注：TMDB 记录的两集日期为 2009-10-18 和 2009-10-25，比 Bangumi 各晚一天；现有证据未说明该日期差异的具体原因。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2729; https://bgm.tv/ep/17471; https://bgm.tv/ep/17472; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/42722; https://www.themoviedb.org/tv/42722/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "episodeEnd": 5,
+      "id": 42722,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

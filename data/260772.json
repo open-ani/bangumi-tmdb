@@ -1,0 +1,23 @@
+{
+  "anidbId": 14401,
+  "bangumiId": 260772,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 1 话 OVA，标题、2019-09-26 发售日、剧情和制作信息均与该作品一致。TMDB TV 60843 的第 0 季明确命名为“特別編”，仅含 1 集；该集标题、日期和剧情与 Bangumi 条目完全对应，因此应映射为 season 0 episode 1。\n\nhttps://bgm.tv/subject/260772 (page): Bangumi 将条目标为 OVA，话数为 1，发售日为 2019-09-26；章节标题和剧情为 Sing For You。\n\nhttps://gochiusa.com/series_bd_dvd/sfy.html (page): 官方系列页面确认《Sing For You》是新作 OVA，2019-09-26 发售，并列出其音乐企划内容。\n\nhttps://www.themoviedb.org/tv/60843 (api_snapshot): TMDB TV 条目包含 season 0“特別編”，air_date 为 2019-09-26，episode_count 为 1；其他季度为不同的 TV 正篇季。\n\nhttps://www.themoviedb.org/tv/60843/season/0 (api_snapshot): TMDB season 0 的唯一集为 episode 1，标题“ご注文はうさぎですか？？ ～Sing For You～”，日期 2019-09-26，剧情描述与 Bangumi 条目一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/260772; https://gochiusa.com/series_bd_dvd/sfy.html; https://www.themoviedb.org/tv/60843; https://www.themoviedb.org/tv/60843/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 60843,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

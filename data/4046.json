@@ -1,0 +1,22 @@
+{
+  "anidbId": 1439,
+  "bangumiId": 4046,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 4046 明确是《MASTERキートン》TV 条目，共39话；其章节1—39与 TMDB 34674 第1季的39集标题逐集对应。TMDB 第1季同时容纳电视播出部分及后续OVA部分，正好覆盖该 Bangumi subject 的全部主体内容，因此采用完整第1季，不另加电影或第0季。Bangumi与TMDB日期相差约一天，符合深夜播出日期口径差异，且不影响作品及集数匹配。\n\nhttps://bgm.tv/subject/4046 (page): Bangumi 条目标为《MASTERキートン》TV，标注39话、1998年10月5日开播、导演小島正幸，并列出章节01至39。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引的搜索摘要将 AniDB ID 1439 对应为 Master Keaton，与 Bangumi 条目名称及版本信息一致。\n\nhttps://www.themoviedb.org/tv/34674 (api_snapshot): TMDB TV 34674 名称为 MASTERキートン，原名マスターキートン，首播年份为1998年，共39集；其主页面列出第0季15集及第1季39集。\n\nhttps://www.themoviedb.org/tv/34674/season/1 (api_snapshot): TMDB 第1季为39集，集数快照未截断；第1至39集标题与 Bangumi 章节逐集对应，包括第38、39集的前后篇《狩人の季節》。\n\n备注：Bangumi页面使用的日期口径与TMDB日期约相差一天；未影响标题、制作信息和39集顺序的匹配。；TMDB第0季只有主页面计数而未提供本输入中的逐集详情；未据计数推导额外目标，采用已有完整逐集证据的第1季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4046; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34674; https://www.themoviedb.org/tv/34674/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34674,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

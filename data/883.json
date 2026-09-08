@@ -1,0 +1,22 @@
+{
+  "anidbId": 6048,
+  "bangumiId": 883,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 2008 年开播的日本电视动画《黒執事》第一期正篇，共 24 话。TMDB 电视作品 50712 的第 1 季同名为《黒執事》，首播日为 2008-10-02，且完整收录 24 集；逐集标题从第 1 集「その執事、有能」到第 24 集「その執事、滔滔」，与 Bangumi 的 24 话正篇逐一对应。因此应映射为 TV 50712 第 1 季整季，不包括 TMDB 第 0 季中的总集篇及 OVA，也不包括第 2 季及后续篇章。\n\nhttps://www.themoviedb.org/tv/50712 (api_snapshot): TMDB API 快照显示电视作品 50712 原名为《黒執事》，日本制作、首播于 2008-10-02；其第 1 季名为《黒執事》并有 24 集，而第 2、3、4、5 季分别是《黒執事II》《Book of Circus》《寄宿学校編》《緑の魔女編》，可排除后续作品。\n\nhttps://www.themoviedb.org/tv/50712/season/1 (api_snapshot): TMDB API 快照显示第 1 季首播于 2008-10-02、共 24 集；集名与 Bangumi 正篇完整对应，包括第 1 集「その執事、有能」、第 2 集「その執事、最強」以及第 24 集「その執事、滔滔」，剧情亦为塞巴斯蒂安侍奉凡多姆海威家少主夏尔的同一版动画。\n\nhttps://www.themoviedb.org/tv/50712/season/0 (api_snapshot): TMDB API 快照把 2009-01-09 的「黒執事 前半ダイジェスト」和 2009-09-30 的「その執事、興行」收在第 0 季；它们对应 Bangumi 的非正篇条目样本，故不属于本 subject 的 24 话正篇映射范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/883; https://www.themoviedb.org/tv/50712; https://www.themoviedb.org/tv/50712/season/1; https://www.themoviedb.org/tv/50712/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 50712,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

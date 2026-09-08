@@ -1,0 +1,22 @@
+{
+  "anidbId": 1788,
+  "bangumiId": 95949,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 1997 年由龙之子制作的《マッハGoGoGo》重制版，共34集，主角为响刚（Go Hibiki），并非1967年原版。TMDB 的电视台作品页将同名、1997年1月9日首播且剧情为 Go Hibiki 驾驶父亲制造的 Mach 5 的作品链接到 TV 37568；TMDB 演员页也将远近孝一饰演 Go Hibiki 的34集作品链接到该ID。分集资料将1997年1月9日起的各集列在第1季，且独立资料确认全剧只有一季34集，因此映射为 TV 37568 第1季全季。旧候选 TV 30986 实际是1967年原版：快照只有52集的第1季，其第2季接口返回404，不能表示本作。\n\nhttps://www.themoviedb.org/network/2064?language=en-US (page): TMDB 的电视台作品页列出1997年1月9日首播的《Mach GoGoGo》，简介明确写为1967年版的1997年重制，主角是 Go Hibiki；其作品链接指向 /tv/37568-gogogo。\n\nhttps://www.themoviedb.org/person/550662?language=es (page): TMDB 的远近孝一作品表列出1997年《Mach Go Go Go》，角色为 Go Hibiki，共34集；该作品链接指向 TMDB TV 37568。\n\nhttps://fmdb.mov/series/37568-gogogo (search_snippet): 该作品资料页显示《マッハGoGoGo》首播于1997年1月9日，演员包括饰演 Go Hibiki 的远近孝一；分集区明确列为第1季，前五集日期依次为1月9日、16日、23日、30日及2月6日，与 Bangumi 分集完全对应。\n\nhttps://www.senscritique.com/serie/speed_racer_x/37647257 (search_snippet): 资料将1997年的《Speed Racer 2000／Mach Go Go Go》记为完结的一季34集，支持34集正篇全部属于同一季。\n\nhttps://www.themoviedb.org/tv/30986 (api_snapshot): 输入中的TMDB API快照显示 TV 30986 首播于1967年，只有第1季52集及特别篇，身份是1967年原版而非1997年重制版。\n\nhttps://www.themoviedb.org/tv/30986/season/2 (api_snapshot): 输入中的TMDB API请求快照显示 TV 30986 第2季返回HTTP 404，故旧候选“30986 第2季”不存在。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/95949; https://www.themoviedb.org/network/2064?language=en-US; https://www.themoviedb.org/person/550662?language=es; https://fmdb.mov/series/37568-gogogo; https://www.senscritique.com/serie/speed_racer_x/37647257; https://www.themoviedb.org/tv/30986; https://www.themoviedb.org/tv/30986/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 37568,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

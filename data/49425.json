@@ -1,0 +1,24 @@
+{
+  "anidbId": 9248,
+  "bangumiId": 49425,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2 话 OVA，制作人员为小村敏明、浅沼昭弘，发售日为 2012-12-17，结束日为 2013-03-15，并标注为《金田一少年の事件簿》20 周年纪念系列。公开 AniDB 标题数据将 AniDB ID 9248 对应为《Kindaichi Shounen no Jikenbo (2012)》。TMDB TV 23587 的特别篇（season 0）第 4、5 集分别为《黒魔術殺人事件編 前篇》和《黒魔術殺人事件編 后篇》，日期正好为 2012-12-17 和 2013-03-15；因此应映射为该季连续的第 4–5 集，而不是整季或主 TV 季。\n\nhttps://bgm.tv/subject/49425 (page): Bangumi 将该条目标为 OVA，共 2 话；列出 2012-12-17 发售、2013-03-15 结束，以及小村敏明、浅沼昭弘、東映アニメーション等制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): 公开 AniDB 标题数据中，ID 9248 对应“Kindaichi Shounen no Jikenbo (2012)”。\n\nhttps://www.themoviedb.org/tv/23587/season/0 (api_snapshot): TMDB API 快照显示 TV 23587 的 season 0 为特别篇；第 4 集标题为“黒魔術殺人事件編 前篇”、日期为 2012-12-17，第 5 集标题为“黒魔術殺人事件編 后篇”、日期为 2013-03-15。\n\n备注：AniDB 原站页面无法直接抓取，AniDB ID 与标题的核对使用了公开标题数据镜像；但其标题、年份、OVA 两集日期与 Bangumi 和 TMDB 记录一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/49425; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/23587/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "episodeEnd": 5,
+      "id": 23587,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

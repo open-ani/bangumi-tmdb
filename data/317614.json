@@ -1,0 +1,23 @@
+{
+  "anidbId": 15807,
+  "bangumiId": 317614,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为 1 话、2021-05-19 发售的 OVA，内容明确为 Darkness volume 1、Darkness volume 2 和「かぐや様は食べさせたい」三个片段；制作人员和 A-1 Pictures 也与候选系列一致。Bangumi 关联页将其列为主线 TV 的番外篇。TMDB API 快照中，TV 83121 的特别编 season 0 第 2 集标题正是该 OVA，日期为 2021-05-19，简介也逐项列出同样的三个片段，因此应映射为单集范围 0x02，而不是整季。\n\nhttps://bgm.tv/subject/317614 (page): Bangumi 页面确认这是 1 话、2021 年 5 月 19 日发售的 OVA，并列出三个片段、导演/脚本和 A-1 Pictures 等制作信息。\n\nhttps://bgm.tv/subject/293049/relations (page): Bangumi 关联页将该 OVA 列为主线 TV 的“番外篇”，并标明 1 话、2021 年 5 月 19 日。\n\nhttps://www.themoviedb.org/tv/83121/season/0 (api_snapshot): TMDB API 快照显示特别编 season 0 episode 2 为「かぐや様は告らせたい～天才たちの恋愛頭脳戦～ OVA」，日期 2021-05-19，简介包含 Darkness volume 1/2 和炒饭对决三个片段。\n\nhttps://www.themoviedb.org/tv/83121 (api_snapshot): TMDB API 快照确认 TV 83121 的主体名称、2019 年首播和特别编 season 0；候选 OVA 位于该 TV 的特别编而非普通季度。\n\nhttps://animetosho.org/series/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen.15807 (page): 独立目录页面以 AniDB 编号 15807 对应同名 2021 OVA，并标明 OVA、1 episode，且关联父系列。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/317614; https://bgm.tv/subject/293049/relations; https://www.themoviedb.org/tv/83121/season/0; https://www.themoviedb.org/tv/83121; https://animetosho.org/series/kaguya-sama-wa-kokurasetai-tensai-tachi-no-renai-zunousen.15807",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 83121,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

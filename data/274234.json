@@ -1,0 +1,28 @@
+{
+  "anidbId": 14678,
+  "bangumiId": 274234,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确为《小林さんちのメイドラゴンS》，标注13话、2021年7月开播，且正篇1—12话标题与日期均逐一对应 TMDB 69291 第2季的12集；制作方京都动画、主要 staff 及剧情设定也一致。第13话《ニッポンのおもてなし（アテンドはドラゴンです）》是该 subject 收录的TV未放送特别篇，官方确认其随S篇BD发行；独立剧集索引将其对应为同一TV作品的 TMDB 特别篇第30集，因此需额外映射至 season 0 episode 30。TMDB主条目显示第2季名称、2021年档期和12集，未将特别篇计入第2季，所以不能把第13话并入 season 2 的完整季范围。\n\nhttps://bgm.tv/subject/274234 (page): Bangumi 标题为小林さんちのメイドラゴンS，类型TV，标注13话、2021年7月7日开始；章节列表包含正篇1—12及第13话特别篇，制作公司为京都动画。\n\nhttps://www.themoviedb.org/tv/69291 (api_snapshot): TMDB API快照显示TV条目名称为小林さんちのメイドラゴン，首播年份2017，season 2名称为小林さんちのメイドラゴンS且有12集。\n\nhttps://www.themoviedb.org/tv/69291/season/2 (api_snapshot): TMDB API快照中的第2季为2021年季，完整列出12集；标题、剧情和日期顺序与 Bangumi 正篇1—12逐一对应。\n\nhttps://maidragon.jp/2nd/product/bd/bdbox_2nd/ (page): 官方页面明确说明S包含TV系列全12话，另收录TV未放送特别篇《ニッポンのおもてなし（アテンドはドラゴンです）》。\n\nhttps://mdblist.com/show/952f-miss-kobayashi-s-dragon-maid/season/0?cache=1 (page): 该剧集索引将《Japanese Hospitality (The Attendant Is a Dragon)》列为同一作品的 S0E30，日期为2022-01-19，剧情为Kanna带Chloe在日本游览，与该特别篇标题和简介一致。\n\nhttps://www.tvguide.or.jp/db/anime/maidragon/season2/episode13/ (page): TV Guide 将该特别篇明确列为《小林さんちのメイドラゴンS》第2期第13话，并给出与官方一致的标题和剧情。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/274234; https://www.themoviedb.org/tv/69291; https://www.themoviedb.org/tv/69291/season/2; https://maidragon.jp/2nd/product/bd/bdbox_2nd/; https://mdblist.com/show/952f-miss-kobayashi-s-dragon-maid/season/0?cache=1; https://www.tvguide.or.jp/db/anime/maidragon/season2/episode13/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 69291,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 30,
+      "id": 69291,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

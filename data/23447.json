@@ -1,0 +1,22 @@
+{
+  "anidbId": 5546,
+  "bangumiId": 23447,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是1985年开始、共72话的《六三四の剣》TV动画。AniDB 5546明确对应同名日文标题、TV Series、72集及1985-04-18至1986-09-26播出期；Anime-Lists也将 AniDB 5546关联至TMDB TV 113056。TMDB 113056的原名、首播日、简介和72集总数均与该作品及官方Eiken资料吻合。官方虽将第1-49话称为少年编、第50-72话称为青春编，但TMDB实际仅有第1季且该季完整收录72集，因此应映射整季，不拆分范围。\n\nhttps://bgm.tv/subject/23447 (page): 输入的Bangumi subject为《六三四之剑／六三四の剣》，1985-04-18开始，共72话。\n\nhttps://anidb.net/anime/5546 (page): AniDB 5546的正式标题为六三四の剣，类型为TV Series、72集，播出期为1985-04-18至1986-09-26；工作人员含原作村上元香、导演角田利隆。\n\nhttps://eiken-anime.jp/works/%E5%85%AD%E4%B8%89%E5%9B%9B%E3%81%AE%E5%89%A3/ (page): 官方Eiken简介确认作品剧情、原作和制作信息，并明确少年编49话、青春编23话，总计72话，播出至1986-09-26。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists中anidbid=5546、名称Musashi no Ken的条目关联tmdbtv=113056、tmdbseason=1；该条目同时把AniDB的1-49和50-72映射到不同TVDB季，属于线索而非TMDB季号依据。\n\nhttps://www.themoviedb.org/tv/113056 (api_snapshot): 输入的TMDB API快照显示ID 113056为六三四の剣，原名相同，首播日1985-04-18，简介与官方Eiken简介一致，共72集且仅列第1季。\n\nhttps://www.themoviedb.org/tv/113056/season/1 (api_snapshot): 输入的TMDB第1季API快照显示season_number=1、episodeCount=72、episodesTruncated=false，并完整列出第1至第72集。\n\n备注：TMDB快照中的部分单集播出日期与Bangumi及官方总播出期不一致，尤其第38集以后；这应视为TMDB单集日期元数据问题，不能据此拆分或排除集数。；TMDB单集标题大多为通用的“第X话”，因此无法仅凭标题逐集核验剧情；但作品标题、简介、制作信息、播出期和完整72集结构均已交叉吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/23447; https://anidb.net/anime/5546; https://eiken-anime.jp/works/%E5%85%AD%E4%B8%89%E5%9B%9B%E3%81%AE%E5%89%A3/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/113056; https://www.themoviedb.org/tv/113056/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 113056,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

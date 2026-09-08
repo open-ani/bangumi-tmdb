@@ -1,0 +1,22 @@
+{
+  "anidbId": 1007,
+  "bangumiId": 172223,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 172223 是 1969-10-05 开播、共 65 集的《ムーミン》，其 AniDB ID 1007 的匹配名称为 Moomin/ムーミン。TMDB TV 68268 同名、同日首播，简介明确记载东京电影制作第 1–26 集、虫プロ第 27–65 集，与 Bangumi 制作信息一致。TMDB 第 1 季明确为 65 集；逐集标题和日期与 Bangumi 第 1–65 集一一对应，因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/172223 (page): Bangumi 记录该主体为《ムーミン》，首播 1969-10-05，共 65 集；AniDB 匹配 ID 为 1007，且制作分段为东京电影 1–26 集、虫プロ 27–65 集。\n\nhttps://www.themoviedb.org/tv/68268 (api_snapshot): TMDB 记录同名日语 TV 动画，首播 1969-10-05，共 65 集；简介同样记载东京电影制作至第 26 集、虫プロ自第 27 集起。\n\nhttps://www.themoviedb.org/tv/68268/season/1 (api_snapshot): TMDB 第 1 季 season_number=1、首播 1969-10-05、共 65 集；完整剧集标题和播出日期与 Bangumi 第 1–65 集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/172223; https://www.themoviedb.org/tv/68268; https://www.themoviedb.org/tv/68268/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68268,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

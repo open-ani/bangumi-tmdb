@@ -1,0 +1,30 @@
+{
+  "anidbId": 6227,
+  "bangumiId": 7298,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 7298 是2009年的电视动画《屍姫 玄》，主体共13话，对应全系列绝对话数第14—26话。TMDB 31721 是同一部日本动画《屍姫》：第2季名为“玄”，其S2E1—S2E12的标题、日期及剧情分别对应第14—25话；未电视播出的第26话《それでも、人として》被TMDB收在S0E1。官方DVD资料把第26话列入《屍姫 玄》第四卷的“收录话”，而把《屍姫ぷちっと》另列为影像特典，证明第26话属于本subject正篇而非额外特典。因此需跨TMDB第2季与特别篇映射，且不应纳入S0E2《ぷちっと》。\n\nhttps://bgm.tv/subject/7298 (page): Bangumi页面确认该条目为TV动画《屍姫 玄》，2009年1月1日开始，共13话；章节编号连续列为第14—26话，并标明《屍姫 赫》为前传。\n\nhttps://www.themoviedb.org/tv/31721 (api_snapshot): TMDB API快照确认TV 31721原名《屍姫》，首播于2008年；其中第1季名为“赫”、第2季名为“玄”，与Bangumi所示前后篇关系及作品身份一致。\n\nhttps://www.themoviedb.org/tv/31721/season/2 (api_snapshot): TMDB API快照显示第2季“玄”于2009年1月1日开始，共12集；S2E1《光の道筋》至S2E12《屍（かばね）の果て》的标题依次对应Bangumi本条目的第14—25话。\n\nhttps://www.themoviedb.org/tv/31721/season/0 (api_snapshot): TMDB API快照显示S0E1为《それでも、人として》，正是Bangumi本条目的未放映第26话；S0E2则是另一个作品内容《ぷちっと》。\n\nhttps://king-cr.jp/special/shikabanehime/release_dvd.html (search_snippet): 作品官方DVD资料显示《屍姫 玄》第四卷的“收录话”为第24话、第25话和第26话《それでも、人として》；《屍姫ぷちっと》被另列在“影像特典”中，确认第26话是《玄》的正篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7298; https://www.themoviedb.org/tv/31721; https://www.themoviedb.org/tv/31721/season/2; https://www.themoviedb.org/tv/31721/season/0; https://king-cr.jp/special/shikabanehime/release_dvd.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 31721,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 31721,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

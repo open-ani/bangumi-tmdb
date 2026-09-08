@@ -1,0 +1,22 @@
+{
+  "anidbId": 6130,
+  "bangumiId": 2098,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2009 年播出的 TV 动画，共 11 话，放送日期为 2009-01-15 至 2009-03-26；章节标题和日期与 TMDB 34116 第 1 季的 11 集逐一对应。AniDB 6130 也对应同名作品，标为 11 集 TV Series，且官方日文标题完全一致。因此应映射为 TMDB TV 34116 的完整第 1 季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/2098 (page): Bangumi 将作品标为 TV，记载 11 话、2009-01-15 开播、2009-03-26 完结，并列出出﨑統、金春智子、杉野昭夫、TMS/手塚プロダクション等制作信息。\n\nhttps://anidb.net/anime/6130 (page): AniDB 6130 的主标题为 Genji Monogatari Sennenki，官方日文标题为「源氏物語千年紀 Genji」，类型为 TV Series、11 episodes，年份为 2009。\n\nhttps://www.themoviedb.org/tv/34116 (api_snapshot): TMDB TV 34116 的名称和原名均为「源氏物語千年紀 Genji」，首播日期为 2009-01-15，共 11 集，且仅列出第 1 季、第 1 季为 11 集。\n\nhttps://www.themoviedb.org/tv/34116/season/1 (api_snapshot): TMDB 第 1 季快照完整返回 11 集，集数 1–11 的标题及日期分别与 Bangumi 的「光る君」至「若紫へ」、2009-01-15 至 2009-03-26 逐一对应。\n\nhttps://www.fujitv.co.jp/b_hp/genji-anime/?pagelink=rmenu_rmd_page (search_snippet): 富士电视台官方页面将其作为 2009 年 1 月播出的《源氏物語千年紀 Genji》电视动画，并列出对应集标题和播出信息。\n\n备注：AniDB 页面显示的起止日期为 2009-01-16 至 2009-03-27，与 Bangumi/TMDB 相差一天；但作品标题、类型、集数、制作信息及逐集标题均一致，不影响目标季和范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2098; https://anidb.net/anime/6130; https://www.themoviedb.org/tv/34116; https://www.themoviedb.org/tv/34116/season/1; https://www.fujitv.co.jp/b_hp/genji-anime/?pagelink=rmenu_rmd_page",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34116,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

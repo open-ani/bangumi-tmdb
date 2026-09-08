@@ -1,0 +1,22 @@
+{
+  "anidbId": 5044,
+  "bangumiId": 27993,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 27993 明确是《BLUE DRAGON／蓝龙》第一部 TV 动画：51 集，2007-04-07 至 2008-03-29，且制作信息、剧情、角色与候选完全吻合。TMDB 36210 的第一季同样为 2007-04-07 开始、51 集；季快照中的剧集标题和日期与 Bangumi 第 1–51 集逐一对应。因此应映射为 TMDB TV 36210 第 1 季完整一季，不包含独立续集《BLUE DRAGON 天界の七竜》的第 2 季。\n\nhttps://bgm.tv/subject/27993 (page): Bangumi 将 subject 27993 标为 TV《BLUE DRAGON》，51 集，2007-04-07 开播、2008-03-29 完结；页面列出完整 1–51 集、剧情、Studio Pierrot 及相关制作信息，并将《BLUE DRAGON 天界の七竜》列为续集。\n\nhttps://www.wikidata.org/wiki/Q2408681 (page): 独立作品条目将 BLUE DRAGON 的 AniDB anime ID 标为 5044，并将 TMDB TV series ID 标为 36210；同时记录日本动画、2007-04-07 至 2008-03-29、51 集、Studio Pierrot 等信息。\n\nhttps://www.themoviedb.org/tv/36210 (api_snapshot): TMDB API 快照显示作品名 BLUE DRAGON、首播 2007-04-07、总计 102 集，并明确分为第 1 季 51 集和第 2 季《天界の七竜》51 集。\n\nhttps://www.themoviedb.org/tv/36210/season/1 (api_snapshot): TMDB 第一季快照显示 season_number=1、air_date=2007-04-07、episodeCount=51；剧集列表完整覆盖 1–51，标题与 Bangumi 该 subject 的日文标题及播出日期相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27993; https://www.wikidata.org/wiki/Q2408681; https://www.themoviedb.org/tv/36210; https://www.themoviedb.org/tv/36210/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36210,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

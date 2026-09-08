@@ -1,0 +1,22 @@
+{
+  "anidbId": 10010,
+  "bangumiId": 80442,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 80442 是 2013 年播出的《てさぐれ！部活もの》，明确为 TV、12 集。TMDB 57407 标题、首播年份、剧情设定和制作相关信息一致；TMDB 第 1 季明确包含 12 集，且逐集标题与 Bangumi 第 1–12 集完全对应。因此应映射为 TMDB 57407 第 1 季完整范围，不包含续集、总集篇或其他特别篇。输入中的 AniDB ID 10010 及匹配标题也支持该作品身份对应。\n\nhttps://bgm.tv/subject/80442 (page): Bangumi 将该条目标为 TV，记录 12 集、2013 年 10 月 5 日开播，并列出第 1–12 集；页面同时记录导演石ダテコー太郎、动画制作ヤオヨロズ等信息。\n\nhttps://www.themoviedb.org/tv/57407 (api_snapshot): TMDB TV 57407 的标题为「てさぐれ！部活もの」，简介为同一所高中及部员摸索校园生活的喜剧；总计 36 集，分为 3 个各 12 集的季。\n\nhttps://www.themoviedb.org/tv/57407/season/1 (api_snapshot): TMDB 明确记录 season_number=1、episodeCount=12；第 1–12 集标题依次与 Bangumi 的「歓迎」「純粋な愛情」「移り気」「威厳」「憧れ」「淋しい愛情」「乙女の真心」「理想の愛」「内気」「エゴイズム」「恋占い」「心の美」对应。\n\n备注：Bangumi 将第 11、12 集日期均记为 2013-12-28，而 TMDB 分别记为 2013-12-15 和 2013-12-22；这是日期记录差异，但逐集标题、剧情和季集数均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/80442; https://www.themoviedb.org/tv/57407; https://www.themoviedb.org/tv/57407/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 57407,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

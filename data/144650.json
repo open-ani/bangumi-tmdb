@@ -1,0 +1,22 @@
+{
+  "anidbId": 11532,
+  "bangumiId": 144650,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该主体明确标为 2016 年 TV 动画，共 13 话，放送期为 2016-04-03 至 2016-06-26，制作公司为旭プロダクション。AniDB ID 11532 对应 Pan de Peace!；TMDB TV 66110 同名、首播日相同、共 13 话且只有第 1 季。TMDB 第 1 季的 13 个剧集标题与 Bangumi 的 13 话逐话一致，日期仅有因时区/平台记载造成的一日偏移。因此应映射为 TMDB TV 66110 第 1 季完整范围；未发现需要拆分的特别篇、电影、OVA、总集篇或重剪版本。\n\nhttps://bgm.tv/subject/144650 (page): Bangumi 页面将作品标为 TV，记载 13 话、2016-04-03 开播、2016-06-26 完结、旭プロダクション制作，并列出 13 个正篇章节。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据中，ID 11532 对应标题 Pan de Peace!，与 Bangumi 关联的 AniDB ID 和名称一致。\n\nhttps://www.themoviedb.org/tv/66110 (api_snapshot): TMDB TV 快照显示 ID 66110 为「パンでPeace！」，首播日为 2016-04-03，共 13 话，包含第 1 季且该季为 13 话。\n\nhttps://www.themoviedb.org/tv/66110/season/1 (api_snapshot): TMDB 第 1 季快照包含第 1 至第 13 集；剧集标题依次与 Bangumi 正篇标题完全对应，季首播日为 2016-04-03。\n\nhttps://es.wikipedia.org/wiki/Pan_de_Peace%21 (search_snippet): 独立剧集列表记录该 TV 动画共 13 集，2016 年 4 月至 6 月播出，且列出的 13 个标题和 Bangumi 顺序一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/144650; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/66110; https://www.themoviedb.org/tv/66110/season/1; https://es.wikipedia.org/wiki/Pan_de_Peace%21",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66110,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

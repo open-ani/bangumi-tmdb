@@ -1,0 +1,35 @@
+{
+  "anidbId": 10984,
+  "bangumiId": 120705,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《终结的炽天使 名古屋决战篇》TV 第二季，共 12 集，正篇编号对应 TMDB 62255 第 2 季 1–12 集，日期和标题均逐集吻合。该 subject 还包含特别篇 12.5《The Beginning of the End》及“终结不了的炽天使 名古屋篇”01–04，分别对应 TMDB 第 0 季第 13 集和第 15–18 集。第 0 季第 14 集《Vampire Shahal》属于独立的 Bangumi OAD subject 148096，因此不纳入。\n\nhttps://bgm.tv/subject/120705 (page): Bangumi 页面确认该条目为 TV、12 集，播出时间为 2015-10-10 至 2015-12-26，别名包含“终结的炽天使 第2期”；正篇章节为 13–24，并列出特别篇 01–04 与 12.5。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将 AniDB ID 10984 对应为 Owari no Seraph: Nagoya Kessen Hen，与 Bangumi 条目的标题和版本一致。\n\nhttps://www.themoviedb.org/tv/62255 (api_snapshot): 所附 TMDB API 快照确认 TV ID 62255 为《終わりのセラフ》，共 24 集；第 2 季为 2015-10-10 开播、12 集。\n\nhttps://www.themoviedb.org/tv/62255-seraph-of-the-end/season/2/episode/2?language=en-US (search_snippet): TMDB 第 2 季页面摘要列出完整 1–12 集，标题、播出日期 2015-10-10 至 2015-12-26 与 Bangumi 正篇逐集对应。\n\nhttps://www.themoviedb.org/tv/62255-seraph-of-the-end/season/0/episode/3?language=ko-KR (search_snippet): TMDB 第 0 季摘要显示第 13 集为 The Beginning of the End，第 14 集为 Seraph of the End: Vampire Shahal，第 15–18 集为 Seraph of the Endless Nagoya Arc 1–4。\n\nhttps://bgm.tv/subject/148096 (page): Bangumi 确认 subject 148096 是独立的《终结的炽天使 OAD》OVA，别名为《终结的炽天使 吸血鬼夏哈尔》，且与名古屋决战篇为关联条目。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/120705; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/62255; https://www.themoviedb.org/tv/62255-seraph-of-the-end/season/2/episode/2?language=en-US; https://www.themoviedb.org/tv/62255-seraph-of-the-end/season/0/episode/3?language=ko-KR; https://bgm.tv/subject/148096",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 62255,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 13,
+      "id": 62255,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 15,
+      "episodeEnd": 18,
+      "id": 62255,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

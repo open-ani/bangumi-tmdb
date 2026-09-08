@@ -1,0 +1,30 @@
+{
+  "anidbId": 394,
+  "bangumiId": 6298,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认主体为1998年《セイバーマリオネットJ to X》，共26话；其中第1—25话为电视播出内容，第26话《この空はどこまでも青く》为后续录像带收录的特别篇。TMDB候选ID 25850的API快照显示其正式季号为第2季《セイバーマリオネットJ to X》且有25话；第3季请求失败，不能视为存在。该作品的TMDB关联特别篇列表中，第26话对应第0季第7集。因此需拆分为第2季1—25集及第0季第7集。\n\nhttps://bgm.tv/subject/6298 (page): Bangumi 条目为《セイバーマリオネットJ to X》，共26话；第26话为未在电视上映、后收录于录像带的补完篇。\n\nhttps://www.at-x.com/program/detail/974 (search_snippet): 官方节目资料确认《セイバーマリオネットJtoX》于1998年10月6日至1999年3月30日在东京电视台播出。\n\nhttps://www.themoviedb.org/tv/25850 (api_snapshot): TMDB API快照显示ID 25850为《セイバーマリオネットJ》，第1季《セイバーマリオネットJ》25话，第2季《セイバーマリオネットJ to X》25话，第0季为10集特别篇；第3季请求返回404。\n\nhttps://watch.plex.tv/en-GB/show/saber-marionette-j/season/2 (page): 对应作品季内容列出第2季《Saber Marionette J to X》共25集，并从PHASE 01开始。\n\nhttps://watch.plex.tv/ja/show/saber-marionette-j/season/0/episode/7 (page): 特别篇列表将《セイバーマリオネットJ to X この空はどこまでも青く》列为第0季第7集，日期为1999年3月30日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/6298; https://www.at-x.com/program/detail/974; https://www.themoviedb.org/tv/25850; https://watch.plex.tv/en-GB/show/saber-marionette-j/season/2; https://watch.plex.tv/ja/show/saber-marionette-j/season/0/episode/7",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 25,
+      "id": 25850,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 7,
+      "id": 25850,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

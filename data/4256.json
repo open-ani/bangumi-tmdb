@@ -1,0 +1,30 @@
+{
+  "anidbId": 4113,
+  "bangumiId": 4256,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 34760 的原名、2006 年首播时间及“小松救难队新人直升机驾驶员内田一宏”的剧情均与该 Bangumi subject 一致；第 1 季第 1—12 集的日文标题也逐集对应 Bangumi 前 12 话。Bangumi 列为正篇第 13 话的《最後の仕事》虽未在电视播出、最初作为 DVD 外传发行，但官方仍将作品标为全 13 话并把它列作第 13 话；TMDB 将这一话收录为特别篇季第 1 集，因此必须追加 season 0、episode 1。作为影像特典的试播版《レスキューエンジェル》不属于本 subject 正篇，不纳入映射。该目标是动画电视剧，并非其后改编的真人电影《空へ－救いの翼 RESCUE WINGS－》。\n\nhttps://www.themoviedb.org/tv/34760 (api_snapshot): TMDB API 快照显示 TV 34760 原名为《よみがえる空 -RESCUE WINGS-》，2006 年首播，剧情主角是被分配为救难直升机驾驶员并前往小松基地的内田一宏；其媒介、年代、人物和故事均与 Bangumi 4256 相符。\n\nhttps://www.themoviedb.org/tv/34760/season/1 (api_snapshot): TMDB API 快照显示第 1 季共有 12 集，从《初めての仕事》到《レスキュー》；标题和顺序逐集对应 Bangumi 正篇第 1—12 话。\n\nhttps://www.themoviedb.org/tv/34760/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 1 集为《最後の仕事》，与 Bangumi 所列正篇第 13 话同名，因此该话具体映射为 S00E01。\n\nhttps://www.rescue-w.jp/event/ (page): 作品官方网站把《よみがえる空 -RESCUE WINGS-》明确称为全 13 话，并依次列出第 1—12 话及第 13 话《最後の仕事》，证明第 13 话属于本作品的完整正篇范围。\n\nhttps://www.rescue-w.jp/column/ (page): 作品官方网站说明《最後の仕事》是电视未播出的第 13 话，同时称其为番外篇；这解释了 TMDB 将其编入特别篇季，而不影响它属于该 Bangumi subject 所列 13 话正篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4256; https://www.themoviedb.org/tv/34760; https://www.themoviedb.org/tv/34760/season/1; https://www.themoviedb.org/tv/34760/season/0; https://www.rescue-w.jp/event/; https://www.rescue-w.jp/column/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 34760,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34760,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

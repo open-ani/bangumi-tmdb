@@ -1,0 +1,22 @@
+{
+  "anidbId": 11344,
+  "bangumiId": 139137,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《クラシカロイド》第一系列：TV、2016-10-08 开播、25 集，并与第二系列另立关联条目。Anime-Lists 映射 AniDB 11344（Classicaloid）至 TMDB TV 68271 第1季；TMDB 主页面显示该剧共两季、每季25集，TMDB 第1季的完整剧集标题、首播日期和剧情与 Bangumi 这25集及官方故事页面逐集对应。因此主体应映射为 TMDB 68271 的完整第1季，不包含第2季。\n\nhttps://bgm.tv/subject/139137 (page): Bangumi 将条目标为 TV，话数25，首播2016-10-08；章节为第1至25话，末话日期为2017-04-01，并关联到独立的《クラシカロイド 第2シリーズ》。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"11344\"、名称 Classicaloid、tmdbtv=\"68271\"、tmdbseason=\"1\"，且无偏移量。\n\nhttps://www.themoviedb.org/tv/68271 (api_snapshot): TMDB TV 68271 名称为クラシカロイド，首播2016-10-08，共50集，分为第1季和第2季，各25集。\n\nhttps://www.themoviedb.org/tv/68271/season/1 (api_snapshot): TMDB 第1季明确为season_number 1、25集、首播2016-10-08；完整剧集标题与 Bangumi 第1至25话逐项对应，包含第23至25话的终局内容。\n\nhttps://www.classicaloid.net/story/series1-3.html (page): 官方动画网站将这些内容列为第1系列第17至25话，标题和剧情与 Bangumi/TMDB 第1季后半段对应，确认不是第2系列或总集篇。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=105370 (search_snippet): 公开交叉链接将 ClassicaLoid 指向 AniDB anime/11344，与 Anime-Lists 的 AniDB 11344 映射名称一致。\n\n备注：TMDB 快照中第1季第5集的 air_date 为2016-10-06，而 Bangumi 和其他资料为2016-11-05；这是单集日期数据不一致，不影响标题、剧情、25集范围及作品身份判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/139137; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/68271; https://www.themoviedb.org/tv/68271/season/1; https://www.classicaloid.net/story/series1-3.html; https://www.animecharactersdatabase.com/linktodbs.php?id=105370",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68271,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

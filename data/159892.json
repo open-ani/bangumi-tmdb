@@ -1,0 +1,22 @@
+{
+  "anidbId": 11826,
+  "bangumiId": 159892,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《血液型くん！4》TV，12话，播出时间为2016-01-11至2016-03-28，并列出第1至12话。TMDB 49248 的第4季同样为2016-01-11开播、12话；季内第1至12集日期逐一对应至2016-03-28。Annict还提供了与Bangumi输入一致的12个集标题。因此应映射为TMDB TV 49248 第4季完整范围。TMDB另有第0季特别篇，但不属于该Bangumi主体。\n\nhttps://bgm.tv/subject/159892 (page): Bangumi确认该条目为《血液型くん！4》TV，12话，2016年1月11日开始、3月28日结束，并列出第01至12话及制作信息。\n\nhttps://annict.com/works/4586 (page): 列出《血液型くん！4》的第1至12话，标题与输入的Bangumi剧集逐一对应。\n\nhttps://www.themoviedb.org/tv/49248 (api_snapshot): TMDB TV 49248为《血液型くん！》，共48集；第4季为2016-01-11开播、12集。\n\nhttps://www.themoviedb.org/tv/49248/season/4 (api_snapshot): TMDB第4季完整返回第1至12集，播出日期从2016-01-11连续对应至2016-03-28，episodesTruncated为false。\n\nhttps://anidb.net/anime/11826 (page): 尝试读取AniDB 11826页面时返回403，未能从页面内容独立核对该AniDB关联；该限制不影响Bangumi与TMDB季/日期/集标题的直接对应判断。\n\n备注：AniDB 11826页面因403未能独立核实；当前结论主要由Bangumi条目、独立剧集列表和TMDB第4季的完整日期/集数对应支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/159892; https://annict.com/works/4586; https://www.themoviedb.org/tv/49248; https://www.themoviedb.org/tv/49248/season/4; https://anidb.net/anime/11826",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 49248,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

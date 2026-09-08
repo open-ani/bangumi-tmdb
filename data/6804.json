@@ -1,0 +1,30 @@
+{
+  "anidbId": 3340,
+  "bangumiId": 6804,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 6804 对应日本原创电视动画《タイドライン・ブルー / Tide-Line Blue》，不是电影、重制版或重剪版。作品身份由日文原名、2005年7月6日首播、Telecom Animation Film 制作，以及“海平面灾变后新国联、少年キール与潜艇ユリシーズ卷入冲突”的剧情共同吻合；Wikidata 还在同一作品条目中明确列出 Bangumi ID 6804 与 TMDB TV ID 34084。Bangumi 将《兄弟》列为第13话正篇，而资料表明它是电视未播、后来随影碟发行的结局篇。TMDB 则把电视播出的前12话放在第1季，把唯一的特别篇放在第0季。因此完整覆盖该 Bangumi subject 需要 TMDB 34084 的 S1E1–E12 和 S0E1；不能只映射第1季，否则会遗漏 Bangumi 所列第13话《兄弟》。\n\nhttps://www.wikidata.org/wiki/Q7800832 (page): Wikidata 的 Tide-Line Blue 条目将作品标为日本动画电视系列，日文标题为《タイドライン・ブルー》，并在同一条目明确列出 Bangumi subject ID 6804 和 TMDB TV series ID 34084。\n\nhttps://www.themoviedb.org/tv/34084 (api_snapshot): TMDB API 快照显示 TV 34084 的原名和名称均为《タイドライン・ブルー》，首播日期为2005-07-06、原始语言为日语、来源国为日本；该条目共有第1季12集和第0季特别篇1集。\n\nhttps://www.themoviedb.org/tv/34084/season/1 (api_snapshot): TMDB API 快照显示第1季完整包含12集，E1于2005-07-06播出，E2至E12的日期延续至2005-10-05，与该作电视播出的前12话顺序一致。\n\nhttps://www.themoviedb.org/tv/34084/season/0 (api_snapshot): TMDB API 快照显示第0季只有S0E1一集，时长25分钟；它是该 TMDB 系列唯一的特别篇位置。\n\nhttps://en.wikipedia.org/wiki/Tide-Line_Blue (page): 作品资料列出前12话及其播出日期，并明确记载第13话为《兄弟 / Brother（兄弟）》、仅随DVD发行的OVA；这解释了为何TMDB的电视季只有12集而另有一个特别篇。\n\nhttps://animeschedule.net/anime/tide-line-blue-kyoudai (page): 独立条目确认《タイドライン・ブルー 兄弟》又名 Tide-Line Blue Episode 13 / Brother，类型为一集特别篇，2006-04-26发行，并注明是该系列仅随DVD发行的第13话。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=26556 (page): d动画商店的作品页将《タイドライン・ブルー》整体标为全13话，支持Bangumi所列13话属于该作品完整内容，而非另一部同名作品。\n\nhttps://www.b-ch.com/titles/415/ (page): Bandai Channel 的作品页确认其为2005年原创电视动画，剧情为灾变淹没九成陆地后，キール卷入新国联与グールド率领的潜艇ユリシーズ之间的冲突，与Bangumi主体内容一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/6804; https://www.wikidata.org/wiki/Q7800832; https://www.themoviedb.org/tv/34084; https://www.themoviedb.org/tv/34084/season/1; https://www.themoviedb.org/tv/34084/season/0; https://en.wikipedia.org/wiki/Tide-Line_Blue; https://animeschedule.net/anime/tide-line-blue-kyoudai; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=26556; https://www.b-ch.com/titles/415/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 34084,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34084,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

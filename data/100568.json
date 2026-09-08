@@ -1,0 +1,24 @@
+{
+  "anidbId": 10812,
+  "bangumiId": 100568,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将本条目标为 OVA、共2话，放送日期为2014-12-21至2014-12-28，制作人员和官网也与《一騎当千 Extravaganza Epoch》一致。官方故事页确认主体为 Episode 1: Encounter、Episode 2: Exchange；官方商品页确认该OVA收录这两话。TMDB TV 37584 的特别篇 season 0 中，episode 19、20正好对应这两个标题、日期和剧情，因此应映射为 season 0 的 19–20 集，而不是整季。\n\nhttps://bgm.tv/subject/100568 (page): Bangumi 将条目标为 OVA，话数2，放送开始2014-12-21、结束2014-12-28，并列出导演工藤昌史、脚本大久保昌弘、动画制作ARMS及官方网站。\n\nhttps://anidb.net/anime/10812 (page): AniDB 10812 页面对应 Ikkitousen: Extravaganza Epoch，与 Bangumi 条目标题和版本一致。\n\nhttps://ikkitousen.com/ee/story.html (page): 官方故事页明确列出 Episode1: Encounter 和 Episode2: Exchange，剧情分别与TMDB season 0 episode 19、20匹配。\n\nhttps://ikkitousen.com/ee/onair.html?mobile-app=true&theme=dark (page): 官方放送信息列出 Episode1 于2014-12-21播出、Episode2于2014-12-28播出。\n\nhttps://ikkitousen.com/ee/product.html (page): 官方商品页说明该作品为OVA，并明确收录 Episode1、Episode2，制作年为2014年。\n\nhttps://www.themoviedb.org/tv/37584/season/0 (api_snapshot): TMDB API快照显示TV 37584的season 0为特别篇；episode 19为Episode: Encounter、日期2014-12-21，episode 20为Episode: Exchange、日期2014-12-28，且剧情与官方故事页对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/100568; https://anidb.net/anime/10812; https://ikkitousen.com/ee/story.html; https://ikkitousen.com/ee/onair.html?mobile-app=true&theme=dark; https://ikkitousen.com/ee/product.html; https://www.themoviedb.org/tv/37584/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 19,
+      "episodeEnd": 20,
+      "id": 37584,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

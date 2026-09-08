@@ -1,0 +1,22 @@
+{
+  "anidbId": 2161,
+  "bangumiId": 31981,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目与候选 TMDB 条目标题、日文原名、首播日期（2004-07-04）、完结日期（2005-05-15）和 39 话数量一致；TMDB 明确仅有第 1 季且该季包含完整 39 话。TMDB 前几话标题及日期与 Bangumi 剧集列表吻合，外部剧集资料也确认这是 2004—2005 年播出的 39 集 TV 动画。因此应映射为 TMDB TV 47134 第 1 季完整季。\n\nhttps://www.themoviedb.org/tv/47134 (api_snapshot): TMDB 条目日文标题与 Bangumi 一致，首播日期为 2004-07-04，共 39 集，仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/47134/season/1 (api_snapshot): TMDB 第 1 季为 39 集；第 1—5 集标题与 Bangumi 对应，播出日期从 2004-07-04 开始。快照标记剧集列表未截断。\n\nhttps://bgm.tv/anime/list/592123/dropped?tag=%E4%BE%A6%E6%8E%A2 (search_snippet): Bangumi 搜索结果中的该条目显示为《名侦探波洛和马普尔小姐／アガサ・クリスティーの名探偵ポワロとマープル》，39 话、2004 年 7 月 4 日开播。\n\nhttps://en.wikipedia.org/wiki/Agatha_Christie%27s_Great_Detectives_Poirot_and_Marple (search_snippet): 独立资料确认该作品是日本 TV 动画，2004 年 7 月至 2005 年 5 月播出，共 39 集，并同时改编波洛与马普尔故事。\n\n备注：AniDB 页面本身无法直接读取（访问返回 403），因此 AniDB ID 2161 的页面级独立核验受限；但 Bangumi 提供的 AniDB 标题匹配、作品标题、年份、形式和 39 集结构均与 TMDB 47134 一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/31981; https://www.themoviedb.org/tv/47134; https://www.themoviedb.org/tv/47134/season/1; https://bgm.tv/anime/list/592123/dropped?tag=%E4%BE%A6%E6%8E%A2; https://en.wikipedia.org/wiki/Agatha_Christie%27s_Great_Detectives_Poirot_and_Marple",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 47134,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

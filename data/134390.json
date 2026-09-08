@@ -1,0 +1,22 @@
+{
+  "anidbId": 11255,
+  "bangumiId": 134390,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2016年播出的《シュヴァルツェスマーケン》TV动画，共12话，制作人员和剧情与 TMDB 65837 高度一致。AniDB 标题数据将 11255 对应为 Schwarzesmarken；TMDB 主条目确认同名日文作品为12集，TMDB 第1季完整列出第1至12集且未截断。官方站点也列出 #01–#12，因此应对应整季，不需拆分集数。Bangumi日期比 TMDB 各集统一早一天，属于播出日期记录差异，不构成版本冲突。\n\nhttps://bgm.tv/subject/134390 (page): Bangumi 条目为《シュヴァルツェスマーケン》TV，中文名《黑之宣告》，12话，2016年1月10日开播；制作团队为 ixtl(aNCHOR)×LIDENFILMS。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 11255 映射为 Schwarzesmarken，与 Bangumi 条目的日文名和别名一致。\n\nhttps://schwarzesmarken-anime.jp/story/ (page): 官方动画网站的 STORY 索引列出 #01 至 #12。\n\nhttps://www.themoviedb.org/tv/65837 (api_snapshot): TMDB API 快照显示 ID 65837 的原名为シュヴァルツェスマーケン，首播年份为2016年，共12集；简介与 Bangumi/官方剧情均描述1983年东德第666战术机中队对抗 BETA。\n\nhttps://www.themoviedb.org/tv/65837/season/1 (api_snapshot): TMDB API 快照显示第1季共12集，episodeCount为12，episodesTruncated为false，完整列出第1至第12集。\n\n备注：AniDB 官方页面直接读取返回403，因此 AniDB 关联由输入中已匹配的 Bangumi 元数据及公开标题数据交叉支持，未将该403视为不存在。；TMDB记录的首播及各集日期整体比 Bangumi 晚一天；日期存在记录/时区差异，但标题、剧情、制作信息和12集完整范围一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/134390; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://schwarzesmarken-anime.jp/story/; https://www.themoviedb.org/tv/65837; https://www.themoviedb.org/tv/65837/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 65837,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

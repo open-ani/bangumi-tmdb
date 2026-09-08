@@ -1,0 +1,22 @@
+{
+  "anidbId": 4120,
+  "bangumiId": 22406,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 TV、13 话，2006-01-22 开播、2006-04-16 结束，并标注为《吟遊黙示録マイネリーベ》的续作；剧情说明也明确称为第 2 幕。Anime-Lists 将 AniDB 4120（Meine Liebe Wieder）关联到 TMDB TV 34662 第 2 季，但该关联仅作线索。TMDB API 快照显示 34662 是包含两季、每季 13 话的 TV 主条目，第 2 季首播 2006-01-21，13 集日期从 2006-01-22 至 2006-04-16，完整对应 Bangumi 主体。因此应映射为完整第 2 季，而不是整部 TV 或第 1 季。\n\nhttps://bgm.tv/subject/22406 (page): Bangumi 条目标题为吟遊黙示録マイネリーベwieder，类型为 TV，共 13 话，播出日期为 2006-01-22 至 2006-04-16；页面称其为前作后的续作，并列出前作关联。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=4120 条目名称为 Gin'yuu Mokushiroku Meine Liebe Wieder，并记录 tmdbtv=34662、tmdbseason=2；这是候选线索，与独立的 Bangumi/TMDB 内容核对一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): 可读取的 AniDB 标题索引将 ID 4120 列为 Gin`yuu Mokushiroku Meine Liebe Wieder，支持 AniDB ID 与该具体续作版本相符。\n\nhttps://www.themoviedb.org/tv/34662 (api_snapshot): TMDB API 快照显示 TV 34662 名称为吟遊黙示録マイネリーベ，首播年份为 2004 年，共 26 集，包含第 1、2 季，各 13 集。\n\nhttps://www.themoviedb.org/tv/34662/season/2 (api_snapshot): TMDB API 快照显示第 2 季共 13 集，日期为 2006-01-22、01-29、02-05、02-12、02-19、02-26、03-05、03-12、03-19、03-26、04-02、04-09、04-16，与 Bangumi 的 13 话和播出区间逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/22406; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34662; https://www.themoviedb.org/tv/34662/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34662,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

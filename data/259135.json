@@ -1,0 +1,22 @@
+{
+  "anidbId": 14349,
+  "bangumiId": 259135,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体是 2018 年播出的 4 集 TV 动画，标题、剧情、角色与制作信息均与 TMDB TV 82974 一致。TMDB 第 1 季明确包含 4 集，四集标题与 Bangumi 正篇章节逐一对应，因此应映射为完整第 1 季。TMDB 首播日期比 Bangumi 晚 1 天，但不影响标题、剧情和集数对应。\n\nhttps://bgm.tv/subject/259135 (page): Bangumi 将作品标为 TV，话数 4，放送时间为 2018-10-08 至 2018-10-29，并列出四集正篇标题、HoneyWorks、SIGNAL.MD 等制作信息。\n\nhttps://www.themoviedb.org/tv/82974 (api_snapshot): TMDB TV 82974 标题为「走り続けてよかったって。」，原名相同，共 4 集，首播年份为 2018。\n\nhttps://www.themoviedb.org/tv/82974/season/1 (api_snapshot): TMDB 第 1 季明确有 4 集；「新たな場所、そして出会い。」「千歌子のトラウマ」「湊の悩みと葛藤」「未来に向かって」四个标题与 Bangumi 四个正篇章节逐一对应，剧情简介也一致。\n\nhttps://animeschedule.net/anime/hashiri-tsuzukete-yokattatte (search_snippet): 独立资料将该作品列为 2018 年秋季 TV short、4 集、每集约 15 分钟，并列出日文原名与英文别名。\n\n备注：TMDB 的首播及各集日期整体比 Bangumi 晚 1 天，可能是数据库日期或时区记录差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/259135; https://www.themoviedb.org/tv/82974; https://www.themoviedb.org/tv/82974/season/1; https://animeschedule.net/anime/hashiri-tsuzukete-yokattatte",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 82974,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

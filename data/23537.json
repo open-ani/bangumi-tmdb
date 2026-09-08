@@ -1,0 +1,22 @@
+{
+  "anidbId": 8679,
+  "bangumiId": 23537,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《ポヨポヨ観察日記》TV 动画，2012-01-08 开播、2012-12-30 完结、共 52 集；章节标题与日期覆盖第1至52集。AniDB 标题数据将 AniDB ID 8679 对应为 Poyopoyo Kansatsu Nikki，与该日文标题一致。TMDB TV 45255 同名，首播日期为 2012-01-08，唯一第1季共52集，且逐集日期从 2012-01-08 到 2012-12-30 与 Bangumi 完全对应。因此应映射为 TMDB TV 45255 第1季完整范围，不拆分集数。东京电视台官方第52集页面还确认该作品为最终回，并列出原作、导演及动画制作信息，支持这是同一部 2012 年短篇 TV 动画，而非电影、OVA 或重剪版。\n\nhttps://bangumi.tv/subject/23537 (page): Bangumi 条目标为 TV《ポヨポヨ観察日記》，共52话，首播2012-01-08，完播2012-12-30，并列出对应的第1至52话标题和日期。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): AniDB 标题数据中明确存在 [8679,\"Poyopoyo Kansatsu Nikki\"]，核对了候选 AniDB ID 与作品标题。\n\nhttps://www.themoviedb.org/tv/45255 (api_snapshot): TMDB API 快照显示 TV ID 45255 的原名为ポヨポヨ観察日記，首播日期2012-01-08，共52集，包含第1季且该季共52集。\n\nhttps://www.themoviedb.org/tv/45255/season/1 (api_snapshot): TMDB 第1季快照显示 season_number=1、episodeCount=52，逐集日期第1集为2012-01-08、第52集为2012-12-30，日期连续对应 Bangumi 的52集。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201212/21869_201212300824.html (page): 东京电视台官方页面将第52集标为最终回，确认播出日期为2012-12-30，并列出原作《ポヨポヨ観察日記》、导演大地丙太郎及动画制作公司。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/23537; https://bangumi.tv/subject/23537; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/45255; https://www.themoviedb.org/tv/45255/season/1; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201212/21869_201212300824.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45255,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

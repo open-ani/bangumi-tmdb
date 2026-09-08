@@ -1,0 +1,22 @@
+{
+  "anidbId": 11982,
+  "bangumiId": 172518,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《魔法使いの嫁 星待つひと》OVA，共3话，日期为2016-09-10至2017-09-09，且三话标题为前篇、中篇、后篇；制作信息包括 WIT STUDIO、长沼范裕等。AniDB 标题索引将 AniDB ID 11982 对应到同名《Mahou Tsukai no Yome: Hoshi Matsu Hito》，并标为 OVA。TMDB ID 67800 是同名独立 TV 条目，只有第1季且共3集；季内三集标题与主体三话一致，剧情简介也对应智世、三浦与森林图书馆的前传故事。因此应采用完整第1季，不应映射到《魔法使的新娘》TV 主系列。\n\nhttps://bgm.tv/subject/172518 (page): Bangumi 将该条目标为 OVA，共3话；列出别名、2016-09-10至2017-09-09的发行日期、WIT STUDIO、导演长沼范裕，并列出三话章节及前传剧情。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要显示 AniDB 标题索引条目 [11982,\"Mahou Tsukai no Yome: Hoshi Matsu Hito\"]，与 Bangumi 条目日文标题及别名一致。\n\nhttps://anidb.app/anime/the-ancient-magus-bride-those-awaiting-a-star-5254 (search_snippet): 搜索摘要将同一作品标为 OVA、3话前传，标题为 The Ancient Magus' Bride: Those Awaiting a Star / Mahoutsukai no Yome: Hoshi Matsu Hito，日期范围为2016-09-10至2017-09-09，制作公司为 Wit Studio。\n\nhttps://www.themoviedb.org/tv/67800 (api_snapshot): TMDB API 快照显示 ID 67800 为同名独立 TV 作品，首播日期2016-08-13，共1季、3集；简介对应智世、三浦、书籍与森林图书室的故事。\n\nhttps://www.themoviedb.org/tv/67800/season/1 (api_snapshot): TMDB API 快照显示第1季共3集，集数为1-3，标题分别为前篇、中篇、后篇，日期为2016-08-13、2017-02-04、2017-09-09，覆盖该 Bangumi 主体全部3话。\n\nhttps://www.themoviedb.org/tv/67800-mah-tsukai-no-yome-hoshi-matsu-hito/season/1 (search_snippet): TMDB 页面搜索摘要显示 Season 1 有3集，英文标题为 Those Awaiting a Star (1)-(3)，剧情分别对应收到书籍、进入森林图书馆及三浦故事的收束。\n\n备注：Bangumi 的日期是OVA发售/首播日期，而 TMDB API 使用了更早的公开放映日期（前两集日期不同）；这属于发行日期口径差异，不影响作品和3集范围的对应。；TMDB 网页搜索摘要将第3集日期显示为2017-08-19，与所附 TMDB API 快照和 Bangumi 的2017-09-09不一致；应以本次 API 快照确认的季号和集数范围为准，日期字段仍需后续向 TMDB复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/172518; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anidb.app/anime/the-ancient-magus-bride-those-awaiting-a-star-5254; https://www.themoviedb.org/tv/67800; https://www.themoviedb.org/tv/67800/season/1; https://www.themoviedb.org/tv/67800-mah-tsukai-no-yome-hoshi-matsu-hito/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 67800,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

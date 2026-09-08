@@ -1,0 +1,24 @@
+{
+  "anidbId": 14792,
+  "bangumiId": 278826,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2020 年第二季前半，包含 13 集，Bangumi 编号为 26–38，播出日期为 2020-07-08 至 2020-09-30。TMDB TV 65942 的第 1 季虽错误地合并标为“第1期～第4期”，但第 26–38 集的标题、日期和剧情均与该 Bangumi subject 逐集对应。因此应映射为该 TV 的 season 1、episode 26–38，而不是整季 1–85。\n\nhttps://bgm.tv/subject/278826 (page): Bangumi subject 标题为《Re:ゼロから始める異世界生活 2nd season》，日期为 2020-07-08，共 13 集；正篇编号为 26–38，且另有后半部分独立 subject。\n\nhttps://www.themoviedb.org/tv/65942 (api_snapshot): TMDB TV 65942 的主体名称为《Re:ゼロから始める異世界生活》，首播日期为 2016-04-04，共 85 集；其 season 1 被合并标记为“第1期～第4期”。\n\nhttps://www.themoviedb.org/tv/65942/season/1 (api_snapshot): TMDB season 1 的第 26–38 集标题和日期分别对应 Bangumi 的《それぞれの誓い》至《泣きたくなる音》，日期为 2020-07-08 至 2020-09-30，剧情也对应第二季前半内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/278826; https://www.themoviedb.org/tv/65942; https://www.themoviedb.org/tv/65942/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 26,
+      "episodeEnd": 38,
+      "id": 65942,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

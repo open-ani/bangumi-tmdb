@@ -1,0 +1,27 @@
+{
+  "anidbId": 18839,
+  "bangumiId": 510256,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi、AniDB 与 TMDB 均对应同一部 2025 年 TV 动画：标题、首播日、剧情、角色、制作团队和 12 集正篇一致。Bangumi 主体还包含 06.5 特别篇；TMDB 明确列出同日（2025-08-17）的第 0 季 1 集特别编，因此需同时纳入完整第 1 季和完整第 0 季。\n\nhttps://bgm.tv/subject/510256 (page): Bangumi 标记为 TV，话数 12，放送时间为 2025-07-06 至 2025-09-28，章节列表包含 01–12 及 SP/06.5。\n\nhttps://anidb.net/perl-bin/animedb.pl?show=anime&aid=18839 (page): AniDB 条目明确为 a18839《Geesen Shoujo to Ibunka Kouryuu》，TV Series、12 episodes，播出时间 2025-07-06 至 2025-09-28；英文、日文标题及剧情、制作公司 Nomad 均吻合。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=18839 映射到 tmdbtv=279220、tmdbseason=1；该映射与 AniDB/Bangumi 和 TMDB 内容交叉吻合，但仅作为辅助线索。\n\nhttps://www.themoviedb.org/tv/279220 (api_snapshot): TMDB 279220 标题为《ゲーセン少女と異文化交流》，首播日 2025-07-06，剧情涉及游戏中心、草壁蓮司和英国少女リリー；快照列出第 1 季 12 集及第 0 季 1 集特别编，特别编日期为 2025-08-17。\n\nhttps://www.themoviedb.org/tv/279220/season/1 (api_snapshot): TMDB 第 1 季有 12 集，标题和日期逐项对应 Bangumi 正篇 1–12，范围为 2025-07-06 至 2025-09-28。\n\nhttps://www.kadokawa.co.jp/product/video2354/ (search_snippet): KADOKAWA 官方资料确认该 TV 动画自 2025-07-06 播出，剧情、主要角色和制作信息与上述条目一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/510256; https://anidb.net/perl-bin/animedb.pl?show=anime&aid=18839; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/279220; https://www.themoviedb.org/tv/279220/season/1; https://www.kadokawa.co.jp/product/video2354/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 279220,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 279220,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

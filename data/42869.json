@@ -1,0 +1,22 @@
+{
+  "anidbId": 9281,
+  "bangumiId": 42869,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 55453 的第 1 季与 Bangumi subject 42869 在标题、首播日及 12 集逐集标题上完全对应；第 2 季明确命名为「the TV」，对应另一个 Bangumi subject。因此主体应映射到第 1 季完整范围。后半段播出日期虽有差异，但不影响逐集标题和版本对应。\n\nhttps://www.themoviedb.org/tv/55453 (api_snapshot): TMDB 将 55453 识别为该作品，首播日为 2012-07-31；第 1 季 12 集，第 2 季另名为「the TV」。\n\nhttps://www.themoviedb.org/tv/55453/season/1 (api_snapshot): 第 1 季包含 12 集，逐集标题与输入 Bangumi subject 的 12 集标题对应。\n\n备注：Bangumi 后 6 集的 airdate 与 TMDB 第 1 季日期不同，可能反映播出延期或资料口径差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/42869; https://www.themoviedb.org/tv/55453; https://www.themoviedb.org/tv/55453/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 55453,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

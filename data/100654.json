@@ -1,0 +1,24 @@
+{
+  "anidbId": 4242,
+  "bangumiId": 100654,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 100654 明确是《スパイダーライダーズ ～オラクルの勇者たち～》的 TV 前半篇，共 26 集，2006-04-05 至 2006-09-27；Bangumi 页面还明确将 27–52 集另列为续集《よみがえる太陽》。TMDB 79712 的第 1 季虽然收录全系列 52 集，但其第 1–26 集标题和日期逐项对应本 subject，故应映射为该 TV 的 season 1、episode 1–26，而不是整季。\n\nhttps://bgm.tv/subject/100654 (page): Bangumi 标注该条目为 TV、26 集、首播 2006-04-05、结束 2006-09-27，并列出导演真下耕一/石山タカ明、系列构成黒田洋介、动画制作 BeeTrain 等制作信息；页面说明后半 27–52 集改名为《よみがえる太陽》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 ID 4242 对应为 Spider Riders: Oracle no Yuusha-tachi，与 Bangumi subject 的日文标题及别名一致。\n\nhttps://www.themoviedb.org/tv/79712 (api_snapshot): TMDB API 快照显示作品名为《スパイダーライダーズ ~オラクルの勇者たち》，首播日期 2006-04-05，共 52 集；TMDB 将其放在 season 1，另有空的 season 2。\n\nhttps://www.themoviedb.org/tv/79712/season/1 (api_snapshot): TMDB season 1 快照中 episode 1–26 的标题与日期逐项对应 Bangumi subject 的 26 集；episode 27 起为 2007 年播出的《ヌウマ国へ》等后半段内容。\n\n备注：TMDB 将日本播出时分成两个 Bangumi subject 的内容合并在同一个 season 1 中，且 season 2 为空；因此这里必须使用 1–26 的范围，不能把 TMDB 整个 season 1 作为本 subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/100654; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/79712; https://www.themoviedb.org/tv/79712/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 26,
+      "id": 79712,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

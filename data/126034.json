@@ -1,0 +1,24 @@
+{
+  "anidbId": 11082,
+  "bangumiId": 126034,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015 年 7 月播出的《赤髪の白雪姫》TV 前半、共 12 话，且关联了独立的第2クール条目。TMDB 63087 第1季虽合并收录全系列 24 话，但第1至12集标题、剧情和播出日期与本 Bangumi 条目的 12 集逐一对应；因此应映射为该 TV 的第1季第1–12集，而不是整季。输入快照中的 AniDB 11082 匹配结果与标题、制作信息相互吻合。\n\nhttps://bgm.tv/subject/126034 (page): Bangumi 条目标为 TV《赤髪の白雪姫》，12话，2015年7月6日开播、9月21日结束；导演安藤真裕、动画制作 BONES，并列出第1至12话。\n\nhttps://bgm.tv/subject/145407 (page): Bangumi 将2016年1月播出的后半单列为《赤髪の白雪姫 第2クール》，共12话，证明 subject 126034 不是整部24话。\n\nhttps://www.themoviedb.org/tv/63087 (api_snapshot): TMDB TV 63087 的标题、日文原名、剧情、2015年首播年份和制作/语言背景与 Bangumi 条目一致；全剧共24集。\n\nhttps://www.themoviedb.org/tv/63087/season/1 (api_snapshot): TMDB 第1季共24集；第1至12集标题分别与 Bangumi subject 126034 的12集完全对应，剧情和2015年7月至9月的播出日期也一致，第13集起进入2016年后半内容。\n\n备注：TMDB 主页面首播日期为2015-07-07，而 Bangumi 为2015-07-06，属于日本播出日期/时区记录差异，不影响版本和集数对应。；AniDB 页面本身未能在本次检索中直接读取；AniDB ID 11082 的 matched 状态来自输入快照，最终映射判断由 Bangumi 与 TMDB 的标题、剧情、制作信息及逐集对应独立确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/126034; https://bgm.tv/subject/145407; https://www.themoviedb.org/tv/63087; https://www.themoviedb.org/tv/63087/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 63087,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

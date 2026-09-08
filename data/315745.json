@@ -1,0 +1,24 @@
+{
+  "anidbId": 15743,
+  "bangumiId": 315745,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《彼女、お借りします》第2期，2022-07-01 起播、正篇12话；官方第2期页面也确认该版本及播出时间。Anime-Lists 将 AniDB 15743 关联到 TMDB TV 96316 的 season 1，并标注偏移12；进一步核对 TMDB season 1 快照可见第13—24集标题和日期正好对应2022年第二期的12集（TMDB日期较日本播出日通常晚一天）。因此应映射为同一 TV 作品的 season 1、episode 13-24，而不是整季。\n\nhttps://bgm.tv/subject/315745 (page): Bangumi 条目标为《彼女、お借りします 第2期》，12话，放送开始于2022年7月1日。\n\nhttps://kanokari-official.com/2nd/ (page): 官方第2期页面确认这是 TV 动画第2期，并注明2022年7月1日开始播出。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 15743 的条目名为 Kanojo, Okarishimasu (2022)，关联 TMDB TV 96316、TMDB season 1，offset 为12。\n\nhttps://www.themoviedb.org/tv/96316 (api_snapshot): TMDB TV 96316 的原名为「彼女、お借りします」，与 Bangumi 条目的系列主体、剧情和日本制作背景一致。\n\nhttps://www.themoviedb.org/tv/96316/titles (page): TMDB 96316 的替代标题包含「Rental Girlfriend 2」「Kanojo, Okarishimasu 2」，并明确标为 season 2。\n\nhttps://www.themoviedb.org/tv/96316/season/1 (api_snapshot): TMDB season 1 快照中第13—24集依次为2022年第二期对应标题，日期从2022-07-02至2022-09-17，共12集；与 Bangumi 的12话标题和播出区间逐集对应。\n\n备注：TMDB 当前数据将多个年份的剧集混入 season 1，且总集数字段存在明显异常；本结论依赖第13—24集完整标题、日期与剧情逐集匹配，而非依赖总数或名称相似。；Bangumi 页面正文未直接展示 AniDB ID；AniDB 15743 的关联由输入字段与 Anime-Lists 映射共同核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/315745; https://kanokari-official.com/2nd/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/96316; https://www.themoviedb.org/tv/96316/titles; https://www.themoviedb.org/tv/96316/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 96316,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

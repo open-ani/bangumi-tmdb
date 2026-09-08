@@ -1,0 +1,22 @@
+{
+  "anidbId": 8645,
+  "bangumiId": 22849,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是《ちび☆デビ!》TV 动画，共75话，2011-10-10至2014-02-17，由 SynergySP 制作。独立资料核对出同名作品为75集、每集约5分钟，且第1集、第5集及第75集标题和日期均对应。TMDB 108866 使用相同日文标题、首播日、日本来源，并将全部75集归入第1季；因此应映射为 TMDB 第1季完整范围。TMDB 快照中部分单集日期存在录入偏差，但不影响整季及75集范围的确认。\n\nhttps://bgm.tv/subject/22849 (page): Bangumi 标为 TV；标题为 ちび☆デビ!，话数75，放送开始2011-10-10、结束2014-02-17，动画制作 SynergySP。\n\nhttps://www.animesc.com/en/details/3zm9VN/chibi-devi (page): 独立资料确认该作品为 TV、75集、约5分钟/集，2011-10-10至2014-02-17，制作公司 SynergySP；剧集表中第1、5、75集标题及日期与 Bangumi 主体对应。\n\nhttps://www.themoviedb.org/tv/108866 (api_snapshot): TMDB API 快照显示 TV 108866 名称和原名均为 ちび☆デビ！，首播日2011-10-10，来源日本，共75集。\n\nhttps://www.themoviedb.org/tv/108866/season/1 (api_snapshot): TMDB API 快照明确存在第1季，季首日期为2011-10-10，共75集，剧集编号连续至75。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将 AniDB ID 8645 标为 Chibi Devi!，与 Bangumi 的日文标题及作品身份一致。\n\n备注：AniDB 官方作品页无法读取，未能直接核验其完整元数据；但 AniDB 标题、Bangumi 主体信息及独立剧集资料均与 TMDB 作品一致。；TMDB API 快照中的若干单集 air_date 与实际放送日期有偏差，故采用完整第1季范围，不据此推导更细分的日期范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/22849; https://www.animesc.com/en/details/3zm9VN/chibi-devi; https://www.themoviedb.org/tv/108866; https://www.themoviedb.org/tv/108866/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 108866,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

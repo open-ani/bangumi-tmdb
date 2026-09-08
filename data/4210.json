@@ -1,0 +1,22 @@
+{
+  "anidbId": 157,
+  "bangumiId": 4210,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2002 年 WEB/ONA 动画《サイキックアカデミー煌羅万象》，共 24 话，主创、剧情和分集标题均与 TMDB 115967 相符。TMDB 主条目确认同名日文原名、2002-03-29 开播及 24 集；TMDB 第 1 季快照列出完整的 1–24 集，标题顺序与 Bangumi 章节逐一对应，包括第 24 集《パラドリーム》。因此应映射为完整的 TV 第 1 季，不需要拆分范围。TMDB 将第 24 集日期记为 2002-09-06，与 Bangumi 及其他分集资料显示的 2002-09-13 不一致，但不影响作品版本、季号或集数范围判断。\n\nhttps://bgm.tv/subject/4210 (page): Bangumi 条目标为《サイキックアカデミー煌羅万象》WEB，24 话，2002-03-29 开始、2002-09-13 结束；列出原作克·亜樹、导演山崎茂、动画制作イージー・フイルム，并提供 01–24 章节。\n\nhttps://www.themoviedb.org/tv/115967 (api_snapshot): TMDB API 快照显示日文名与原名均为《サイキックアカデミー煌羅万象》，first_air_date 为 2002-03-29，简介中的学校、汐見愛、織奈、ミュウ和オーラ设定与 Bangumi 条目一致，共 24 集并只有第 1 季。\n\nhttps://www.themoviedb.org/tv/115967/season/1 (api_snapshot): TMDB 第 1 季 API 快照未截断，season_number=1、episodeCount=24；第 1–24 集标题依次对应 Bangumi 的《再会》《织奈》《谬/ミュウ》《煌罗比试/オーラファイト》至《如梦似幻/パラドリーム》。\n\nhttps://simkl.com/anime/41656/psychic-academy-aura-banshou (search_snippet): 独立分集资料将该同名作品列为 24 集、2002-03-29 至 2002-09-13，并列出第 24 集 Para-dream，支持这是同一部完整 WEB/ONA 系列。\n\n备注：AniDB 157 的直接页面读取被 403，未能把 AniDB ID 作为独立页面证据；本结论主要依据 Bangumi 条目与 TMDB 的同名、剧情、年份及完整分集标题逐项匹配。；TMDB 第 24 集日期为 2002-09-06，而 Bangumi及独立分集资料为 2002-09-13，日期字段存在冲突。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4210; https://www.themoviedb.org/tv/115967; https://www.themoviedb.org/tv/115967/season/1; https://simkl.com/anime/41656/psychic-academy-aura-banshou",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 115967,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

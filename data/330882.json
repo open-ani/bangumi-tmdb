@@ -1,0 +1,22 @@
+{
+  "anidbId": 16129,
+  "bangumiId": 330882,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2021-07-10 至 2021-10-02 播出的 13 集 TV 动画。AniDB ID 16129 对应同名作品，类型、集数和播出日期完全一致；TMDB TV 120968 的第一季也是 13 集，季首日期为 2021-07-10，且完整剧集标题与 Bangumi 的 13 集标题及日期逐集对应。因此应映射为 TMDB TV 120968 第 1 季整季。\n\nhttps://bgm.tv/subject/330882 (page): Bangumi 标注为 TV、13 话，播出时间为 2021-07-10 至 2021-10-02，标题为 D_CIDE TRAUMEREI THE ANIMATION／幻变梦境。\n\nhttps://anidb.net/anime/16129 (page): AniDB 16129 对应 D_Cide Traumerei the Animation，标注为 TV Series、13 episodes，播出时间为 2021-07-10 至 2021-10-02；标题、制作公司 Sanzigen、导演及剧情信息与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/120968 (api_snapshot): TMDB TV 120968 标题、首播日期、剧情简介和总集数均与该 13 集 TV 动画匹配。\n\nhttps://www.themoviedb.org/tv/120968/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、13 集；完整剧集标题和日期与 Bangumi 13 集逐集对应，范围为整季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/330882; https://anidb.net/anime/16129; https://www.themoviedb.org/tv/120968; https://www.themoviedb.org/tv/120968/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 120968,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

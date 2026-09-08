@@ -1,0 +1,22 @@
+{
+  "anidbId": 9816,
+  "bangumiId": 71955,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2013年播出的《夜樱四重奏 花之歌》TV版，共13话，放送日期为2013-10-06至2013-12-29。Bangumi页面还将《星之海》列为番外篇、将2008版列为不同演绎，故不应合并。TMDB 80500的名称、首播日期、剧情、制作关联和13话数量均吻合；TMDB第1季的13个剧集标题与日期逐一对应Bangumi第1至13话，因此采用完整第1季。\n\nhttps://bgm.tv/subject/71955 (page): Bangumi确认标题、TV类型、13话、2013-10-06开播、2013-12-29完结；章节为01至13；《星之海》是番外篇，2008版是不同演绎。\n\nhttps://www.themoviedb.org/tv/80500 (api_snapshot): TMDB API快照确认ID 80500名称为夜桜四重奏 ～ハナノウタ～，首播日期为2013-10-06，共13话；季列表包含第1季13话及另列的特别编。\n\nhttps://www.themoviedb.org/tv/80500/season/1 (api_snapshot): TMDB第1季API快照列出完整13集，标题从サクラサク、ハルノカゼ、ススミダス至ハナノウタ。并且播出日期逐集对应2013-10-06至2013-12-29。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引将AniDB ID 9816对应为Yozakura Quartet: Hana no Uta，与Bangumi条目标题版本一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/71955; https://www.themoviedb.org/tv/80500; https://www.themoviedb.org/tv/80500/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80500,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

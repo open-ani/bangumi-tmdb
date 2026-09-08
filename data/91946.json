@@ -1,0 +1,32 @@
+{
+  "anidbId": 9980,
+  "bangumiId": 91946,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2014-04-05 至 2016-03-26 播出的 TV，102 话，章节范围为总集数 176–277；制作人员和 A-1 Pictures、Bridge 等信息与 Fairy Tail 2014 相符。AniDB 9980 的标题为 Fairy Tail (2014)，与该版本吻合。TMDB 46261 的季划分明确为第5季总集数176–226（51话）、第6季227–265（39话）、第7季266–277（12话），日期和 Bangumi 章节标题连续对应，因此应映射为这三个完整 TV 季。电影、OAD 和总集篇均为独立关联条目，不属于本 subject 主体。\n\nhttps://bgm.tv/subject/91946 (page): Bangumi 条目为 TV《FAIRY TAIL 第2期》，102话，放送时间为2014-04-05至2016-03-26，制作包含 A-1 Pictures、Bridge。\n\nhttps://bgm.tv/subject/91946/ep (page): Bangumi 章节连续覆盖总集数176至277；其中226于2015-03-28播出，227于2015-04-04播出，265于2015-12-26播出，266至277于2016-01-09至2016-03-26播出。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引摘要将 AniDB ID 9980 标为 Fairy Tail (2014)，与 Bangumi 的第二期版本相符。\n\nhttps://www.themoviedb.org/tv/46261 (api_snapshot): TMDB API 快照显示 TV 46261 为 FAIRY TAIL，总数328集，并将第5季定义为总集数176–226（51集）、第6季为227–265（39集）、第7季为266–277（12集）。\n\nhttps://www.themoviedb.org/tv/46261-fairy-tail/seasons?language=zh-CN (page): TMDB 季页面显示第5季为2014年51集、第6季为2015年39集、第7季为2016年12集，首播日期分别为2014-04-05、2015-04-04、2016-01-09；季标题和剧情篇章与 Bangumi 章节连续对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/91946; https://bgm.tv/subject/91946/ep; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/46261; https://www.themoviedb.org/tv/46261-fairy-tail/seasons?language=zh-CN",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46261,
+      "season": 5,
+      "type": "tv"
+    },
+    {
+      "id": 46261,
+      "season": 6,
+      "type": "tv"
+    },
+    {
+      "id": 46261,
+      "season": 7,
+      "type": "tv"
+    }
+  ]
+}

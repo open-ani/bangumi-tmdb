@@ -1,0 +1,22 @@
+{
+  "anidbId": 16026,
+  "bangumiId": 326859,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2025 年播出的 12 集 TV 动画，标题、首播日、剧情、导演、人物设定、动画制作等信息与 TMDB TV 117879 一致。TMDB 明确将该作品归为第 1 季，并列出完整 12 集；各集标题和日期与 Bangumi 正篇逐条对应，因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/326859 (page): Bangumi 将该条目标为 TV，标题为「友達の妹が俺にだけウザい」，话数 12，放送开始 2025-10-04，并记录相同的剧情与主要制作信息。\n\nhttps://www.themoviedb.org/tv/117879 (api_snapshot): TMDB API 快照显示标题、首播日 2025-10-04、日文原名和 12 集总数均匹配，并列出 season 1。\n\nhttps://www.themoviedb.org/tv/117879/season/1 (api_snapshot): TMDB API 快照明确 season_number=1、episodeCount=12；第 1 至 12 集标题和播出日期均与 Bangumi 输入的正篇集数一致。\n\n备注：AniDB 16026 的直接页面请求失败，未将请求失败视为不存在；但这不影响 Bangumi 与 TMDB 版本、季号及完整集数范围已由独立页面和 TMDB 季快照确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/326859; https://www.themoviedb.org/tv/117879; https://www.themoviedb.org/tv/117879/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 117879,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

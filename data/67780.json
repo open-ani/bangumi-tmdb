@@ -1,0 +1,22 @@
+{
+  "anidbId": 1444,
+  "bangumiId": 67780,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是1985年6月7日开始播出的《魔法のスターマジカルエミ》TV动画，标注正篇38话；输入中的 AniDB ID 1444 与标题、制作信息和播出日期一致。TMDB TV 83479 的首播日期、日文标题、剧情概要及总集数均匹配，并且第1季明确为1985年6月7日、38集；季内剧集标题和日期与Bangumi第1至38话逐一对应。因此应映射为TMDB第1季完整38集，不纳入Bangumi另列的音乐剪辑等特别篇。\n\nhttps://www.themoviedb.org/tv/83479 (api_snapshot): TMDB记录标题为「魔法のスター マジカルエミ」，首播日期为1985-06-07，剧情概要、日文原名和日本来源与Bangumi主体匹配；TV总集数为38，且仅列出第1季。\n\nhttps://www.themoviedb.org/tv/83479/season/1 (api_snapshot): TMDB第1季明确为season_number=1、air_date=1985-06-07、episodeCount=38；剧集1至38的标题和播出日期与Bangumi正篇38话对应，最后一集日期为1986-02-28。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/67780; https://www.themoviedb.org/tv/83479; https://www.themoviedb.org/tv/83479/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 83479,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

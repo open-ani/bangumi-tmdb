@@ -1,0 +1,22 @@
+{
+  "anidbId": 9984,
+  "bangumiId": 75180,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确为2013年7月26日开始、共2话的OVA，AniDB关联标题与作品名匹配。TMDB TV 123274标题、首播日期、总集数均一致；第1季包含2集，分别于2013-07-26和2014-03-26播出，与Bangumi两话日期完全对应。因此应映射为完整的TMDB第1季。\n\nhttps://bgm.tv/subject/75180 (page): Bangumi subject《小林が可愛すぎてツライっ!!》标注为OVA，共2话，首话日期为2013-07-26，第二话日期为2014-03-26。\n\nhttps://www.themoviedb.org/tv/123274 (api_snapshot): TMDB作品标题为《小林が可愛すぎてツライっ!!》，首播日期为2013-07-26，共2集。\n\nhttps://www.themoviedb.org/tv/123274/season/1 (api_snapshot): TMDB第1季共2集：第1集于2013-07-26播出，第2集于2014-03-26播出；集数和日期均与Bangumi主体对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/75180; https://www.themoviedb.org/tv/123274; https://www.themoviedb.org/tv/123274/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 123274,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

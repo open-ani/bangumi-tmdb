@@ -1,0 +1,22 @@
+{
+  "anidbId": 11945,
+  "bangumiId": 190793,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《にゃんぼー！》TV动画，共26话，2016-09-27开播、2017-03-28结束。Bangumi页面的标题、话数、播出日期、角色与白组制作信息均与官方资料及 TMDB 68061 一致。TMDB 主条目明确为2016年日本TV剧集，共26集，仅有第1季；第1季快照中的26个标题和播出日期逐条对应 Bangumi 1—26话，包括第26话完结内容，因此应映射为完整第1季。未发现电影、OVA、总集篇或重剪版需要拆分。\n\nhttps://bgm.tv/subject/190793 (page): Bangumi 将 subject 190793 标为《にゃんぼー！》TV动画，共26话，首播日为2016-09-27，完结日为2017-03-28；制作人为白组。\n\nhttps://nyanbo.jp/story/ (page): 官方资料说明《にゃんぼー！》的主体设定，并列出第21—26话及其播出日期；第26话为2017-03-28播出的「ほしへゆくネコ」。\n\nhttps://www.themoviedb.org/tv/68061 (api_snapshot): TMDB API快照显示条目 ID 68061 的原名为「にゃんぼー！」，首播日2016-09-27，日本制作，共26集，仅列出第1季。\n\nhttps://www.themoviedb.org/tv/68061/season/1 (api_snapshot): TMDB第1季快照显示 season_number=1、共26集；26集标题与日期逐条对应 Bangumi 话目，范围为完整一季。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要列出 AniDB ID 11945 对应标题 Nyanbo!，与 Bangumi subject 的日文名及别名一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/190793; https://nyanbo.jp/story/; https://www.themoviedb.org/tv/68061; https://www.themoviedb.org/tv/68061/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68061,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

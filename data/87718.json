@@ -1,0 +1,22 @@
+{
+  "anidbId": 10169,
+  "bangumiId": 87718,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2014 年《ハマトラ》首期 TV 动画，共 12 话，制作公司为 NAZ；其首播与终播日期、剧情和制作信息与候选 TMDB TV 作品一致。TMDB 61791 明确分为两季：第 1 季为《ハマトラ》12 话，第 2 季为后续作品《Re：␣ ハマトラ》。TMDB 第 1 季的 12 个完整剧集标题逐一对应 Bangumi 第 1—12 话，因此应映射整季 1，不包含第 2 季、总集篇或电影。Bangumi 与 TMDB 日期相差一天，符合日本深夜播出在数据库中的日期记录差异，不影响标题、剧情和制作信息匹配。\n\nhttps://bgm.tv/subject/87718 (search_snippet): Bangumi 将该条目标为《ハマトラ》TV，12 话，2014 年 1 月 7 日开始、3 月 25 日结束，并列出 NAZ 等制作信息。\n\nhttps://www.tv-tokyo.co.jp/anime/hamatora/sp/news/index.html (search_snippet): 东京电视台官方资料确认《ハマトラ》于 2014 年 1 月 7 日开播，并发布第 12 话「覚悟（エゴ）」。\n\nhttps://www.themoviedb.org/tv/61791 (api_snapshot): TMDB TV 61791 名为《ハマトラ》，共 24 话，分为第 1 季和第 2 季，各 12 话；第 2 季名称为《Re：␣ ハマトラ》。\n\nhttps://www.themoviedb.org/tv/61791/season/1 (api_snapshot): TMDB 第 1 季明确为 12 话，完整剧集标题从「コロンブスの卵」至「覚悟(エゴ)」，与 Bangumi 第 1—12 话标题逐一对应，日期连续覆盖 2014 年 1 月至 3 月。\n\nhttps://www.tv-tokyo.co.jp/anime/rehamatora/sp/story/index.html (search_snippet): 东京电视台将《Re：␣ ハマトラ》描述为前系列之后的新系列，并说明其由 Lerche 制作，确认它不是本 Bangumi subject 的首期内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/87718; https://www.tv-tokyo.co.jp/anime/hamatora/sp/news/index.html; https://www.themoviedb.org/tv/61791; https://www.themoviedb.org/tv/61791/season/1; https://www.tv-tokyo.co.jp/anime/rehamatora/sp/story/index.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61791,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

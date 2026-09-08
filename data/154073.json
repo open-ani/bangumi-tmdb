@@ -1,0 +1,22 @@
+{
+  "anidbId": 11763,
+  "bangumiId": 154073,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2016 年 10 月 2 日开播、12 集的 TV《SHOW BY ROCK!!#／SHOW BY ROCK!! 第二季》，并列出完整 1–12 集及对应日期。TMDB TV 65036 的第 2 季名称、开播日、12 集数量，以及全部剧集标题和日期均逐项吻合；第 1 季是 2015 年作品，另有独立的特别篇季，因此应映射为第 2 季完整范围。输入快照记录的 AniDB ID 11763 与公开标题索引中的 SHOW BY ROCK!!# 也一致。\n\nhttps://bgm.tv/subject/154073 (page): Bangumi 将该条目标为 TV《SHOW BY ROCK!!#》，中文名为《SHOW BY ROCK!! 第二季》，共 12 集，放送时间为 2016-10-02 至 2016-12-18；章节 1–12 的标题和日期与 TMDB 第 2 季逐项对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引显示 AniDB ID 11763 对应 SHOW BY ROCK!!#，与输入中的 Bangumi→AniDB 关联一致。\n\nhttps://www.themoviedb.org/tv/65036 (api_snapshot): TMDB TV 65036 为 SHOW BY ROCK!!，首播日为 2015-04-05，并明确列出 season 1 为 2015 年首季、season 2 为 SHOW BY ROCK!!#，开播日 2016-10-02、共 12 集。\n\nhttps://www.themoviedb.org/tv/65036/season/2 (api_snapshot): TMDB 第 2 季的名称为 SHOW BY ROCK!!#，开播日为 2016-10-02，共 12 集；1–12 集标题和日期与 Bangumi 条目完整匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/154073; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/65036; https://www.themoviedb.org/tv/65036/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 65036,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

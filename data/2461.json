@@ -1,0 +1,22 @@
+{
+  "anidbId": 2827,
+  "bangumiId": 2461,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2005-02-07 开播、共 12 集的 TV 作品，制作信息为大地丙太郎、ARTLAND，并与后续《ギャグマンガ日和2》及 2002 Jump Festa 版本区分。TMDB 80007 的原题、首播日期和第 1 季名称完全对应；TMDB 第 1 季为 12 集，剧集标题顺序与 Bangumi 的 12 集逐一匹配，因此应映射为完整第 1 季。TMDB 快照中第 3、4 集日期显示为 2015 年，与 Bangumi 和整体播出时间不一致，但标题及其余信息仍支持这是同一季，不能据此排除。\n\nhttps://bgm.tv/subject/2461 (page): Bangumi 将条目标为 TV，中文名为《搞笑漫画日和》，共 12 集，2005-02-07 至 2005-04-25 播出；导演为大地丙太郎，动画制作相关信息包含 ARTLAND；关联条目区分了 Jump Festa 2002 版本和《ギャグマンガ日和2》。\n\nhttps://www.themoviedb.org/tv/80007 (api_snapshot): TMDB TV 80007 的日文名为《ギャグマンガ日和》，原题为《増田こうすけ劇場 ギャグマンガ日和》，首播日期为 2005-02-07；第 1 季名称相同且有 12 集。\n\nhttps://www.themoviedb.org/tv/80007/season/1 (api_snapshot): TMDB 第 1 季编号为 1、首播日期为 2005-02-07、共 12 集；剧集标题从「シール　シール2」至「名探偵っスか!うさみちゃん　名探偵だもの!うさみちゃん」与 Bangumi 12 集标题逐项对应。\n\nhttps://www.primevideo.com/-/ja/detail/0GQDKF84MP6TIDOWDOGBEM971W?tr=jp (search_snippet): 搜索摘要显示该作品为 2005 年、Season 1、12 集，并展示第 1 集标题「シール／シール2」及大地丙太郎导演信息。\n\n备注：AniDB 2827 的页面请求返回 403，未能将 AniDB 关联作为独立网页证据；最终判断依靠 Bangumi 条目与 TMDB 季/集内容的直接对应。；TMDB 快照中第 3、4 集 air_date 为 2015 年，与 Bangumi 的 2005 年日期不一致，疑似 TMDB 数据异常；这不影响标题、集数和整体播出区间的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2461; https://www.themoviedb.org/tv/80007; https://www.themoviedb.org/tv/80007/season/1; https://www.primevideo.com/-/ja/detail/0GQDKF84MP6TIDOWDOGBEM971W?tr=jp",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80007,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 11857,
+  "bangumiId": 162715,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2017年播出的《クロックワーク・プラネット》TV动画，共12话，制作信息为XEBEC；其章节为1–12。TMDB 70636同名、同为2017年作品，只有第1季且标记12集；第1季完整剧集标题逐条对应Bangumi 1–12话，剧情简介和角色/世界观也一致。因此应映射为TMDB TV 70636第1季完整范围。Bangumi记录日期为4月6日，TMDB及其集日期统一晚一天，属于日期记录差异，不影响版本匹配。\n\nhttps://bgm.tv/subject/162715 (page): Bangumi页面将条目标为《クロックワーク・プラネット》TV，共12话，放送开始于2017年4月6日，制作公司为XEBEC，并列出章节01–12。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将AniDB ID 11857对应为Clockwork Planet，和Bangumi条目标题及输入中已匹配的AniDB名称一致。\n\nhttps://www.themoviedb.org/tv/70636 (api_snapshot): TMDB TV 70636名称为クロックワーク・プラネット，首播日期为2017-04-07，共12集，仅列出season 1且为12集。\n\nhttps://www.themoviedb.org/tv/70636/season/1 (api_snapshot): TMDB第1季完整返回12集；第1–12集标题分别与Bangumi 1–12话逐条一致，剧情简介也对应同一TV动画主体。\n\n备注：Bangumi页面正文未直接展示AniDB编号11857；该编号由输入的匹配结果提供，并得到公开标题索引摘要的交叉支持。；TMDB首播及各集日期相较Bangumi统一晚一天，未找到需要按日期拆分或另映射的版本证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/162715; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/70636; https://www.themoviedb.org/tv/70636/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 70636,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

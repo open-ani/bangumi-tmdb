@@ -1,0 +1,22 @@
+{
+  "anidbId": 4473,
+  "bangumiId": 5490,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 5490 与 AniDB 4473 的标题、日期、24 集 TV 类型和制作信息一致；AniDB 4473 也对应 Pumpkin Scissors。TMDB 31712 同名，首播日为 2006-10-02，仅有第 1 季且共 24 集，季内剧集标题、剧情与 Bangumi 的 24 集主体逐段对应。因此推荐 TMDB TV 31712 第 1 季完整纳入。TMDB 快照中第 5、6 集标题存在重复的元数据异常，但不改变完整一季 24 集的范围判断。\n\nhttps://bgm.tv/subject/5490 (page): Bangumi subject 5490 为《パンプキン・シザーズ／南瓜剪刀》，2006-10-02 开播，TV 动画，共 24 集；提供的关联信息为 AniDB 4473。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要中的 AniDB 标题数据将 ID 4473 对应为 Pumpkin Scissors。\n\nhttps://www.themoviedb.org/tv/31712 (api_snapshot): TMDB TV 31712 标题为「パンプキン・シザーズ」，首播日 2006-10-02，共 24 集，仅列出第 1 季；简介涉及战后复兴、陆军情报部第 3 课、アリス和オーランド，与目标作品主体一致。\n\nhttps://www.themoviedb.org/tv/31712/season/1 (api_snapshot): TMDB 第 1 季首播日为 2006-10-02，共 24 集；剧集编号覆盖 1–24，标题和剧情与 Bangumi 主体的 24 集逐集对应。\n\nhttps://www.gonzo.co.jp/works/pumpkin-scissors/index.html (page): GONZO 官方作品页确认这是由 GONZO 与 AIC 制作的全 24 话 TV 系列，2006 年 10 月至 2007 年 3 月播出，并给出与目标一致的作品简介和主要制作人员。\n\n备注：TMDB 季快照中第 5、6 集均显示为 Episode 05 的标题，属于疑似 TMDB 元数据错误；完整季范围仍由 24 集计数、编号覆盖和其他独立资料支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5490; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/31712; https://www.themoviedb.org/tv/31712/season/1; https://www.gonzo.co.jp/works/pumpkin-scissors/index.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 31712,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

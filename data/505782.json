@@ -1,0 +1,22 @@
+{
+  "anidbId": 18781,
+  "bangumiId": 505782,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体为 2025 年播出的 12 集 TV 动画；提供的 AniDB ID 18781 及其多语言标题均与该作品标题一致。TMDB TV 279989 的原名、日文标题、剧情简介和日本来源均匹配，首播日期仅比 Bangumi 日期晚一天，符合时区/播出日期记录差异。TMDB 第 1 季明确为 12 集，且完整剧集标题、剧情和日期逐集对应 Bangumi 第 1–12 集，因此应映射为完整第 1 季。\n\nhttps://www.themoviedb.org/tv/279989 (api_snapshot): TMDB TV 279989 的标题、原名、剧情简介、日语原语言、日本来源和 12 集总数与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/279989/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、episodeCount=12；第 1–12 集标题和剧情分别对应 Bangumi 提供的 12 集，日期整体相差一天。\n\n备注：Bangumi 与 AniDB 的关联依据在输入中表现为已匹配的 AniDB ID 及标题集合，未另行读取 AniDB 页面；但该关联不影响 TMDB 作品、季号和完整集数范围的判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/505782; https://www.themoviedb.org/tv/279989; https://www.themoviedb.org/tv/279989/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 279989,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

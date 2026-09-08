@@ -1,0 +1,22 @@
+{
+  "anidbId": 1521,
+  "bangumiId": 47968,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2002-10-01 开播、52 集的 TV 动画《アソボット戦記五九》，并列出与候选一致的日文名、别名、剧情及制作信息。AniDB 标题索引将 AniDB ID 1521 对应为 Asobot Senki Gokuu；TMDB 107838 同名、同日首播、TV 类型，共 52 集，且第 1 季明确包含 52 集，剧集标题和播出日期从第 1 集至第 52 集与该主体吻合。因此采用 TMDB TV 107838 第 1 季完整范围。\n\nhttps://bgm.tv/subject/47968 (page): Bangumi 条目标为 TV，日文名为アソボット戦記五九，话数 52，放送开始 2002-10-01，放送结束 2003-09-30，并记载相同别名、剧情和制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 标题索引条目 [1521,\"Asobot Senki Gokuu\"]，支持 AniDB ID 1521 与该作品标题的对应关系。\n\nhttps://www.themoviedb.org/tv/107838 (api_snapshot): TMDB TV 107838 的标题为アソボット戦記五九，首播日期为 2002-10-01，共 52 集，并列出第 1 季共 52 集。\n\nhttps://www.themoviedb.org/tv/107838/season/1 (api_snapshot): TMDB 第 1 季 episodeCount 为 52，剧集编号连续覆盖 1-52；第 1 集日期为 2002-10-01，第 52 集日期为 2003-09-30，标题与播出节奏吻合 Bangumi 主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/47968; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/107838; https://www.themoviedb.org/tv/107838/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 107838,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

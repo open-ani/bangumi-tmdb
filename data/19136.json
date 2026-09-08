@@ -1,0 +1,22 @@
+{
+  "anidbId": 4792,
+  "bangumiId": 19136,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2007-04-03 开播、12 集的 TV 动画，制作人员、角色、剧情和 01–12 章节与 2007 年第一期《神曲奏界ポリフォニカ》一致；其关联的 AniDB ID 4792 也对应 Shinkyoku Soukai Polyphonica。TMDB 34069 的第 1 季明确为 2007-04-03、12 集，剧集标题、日期和剧情逐集对应 Bangumi 主体；第 2 季另为《クリムゾンS》，因此应指定 season=1，且主体覆盖整季。\n\nhttps://bgm.tv/subject/19136 (page): Bangumi 将条目标为 TV，话数 12，放送期为 2007-04-03 至 2007-06-19，并列出 01–12 章节、剧情、制作公司和主要制作人员。\n\nhttps://www.tbs.co.jp/anime/polyphonica/ (search_snippet): TBS 官方页面确认《神曲奏界ポリフォニカ》为 2007 年播出的该 TV 动画，并提供官方故事、制作和播出信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引摘要将 AniDB ID 4792 对应为 Shinkyoku Soukai Polyphonica。\n\nhttps://www.themoviedb.org/tv/34069 (api_snapshot): TMDB API 快照显示 TV 34069 名为《神曲奏界ポリフォニカ》，首播日为 2007-04-03，共有第 1、2 季；第 1 季为 12 集，第 2 季为《クリムゾンS》。\n\nhttps://www.themoviedb.org/tv/34069/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、首播日 2007-04-03、episodeCount=12，完整剧集标题、日期和剧情与 Bangumi 的 12 集逐条对应。\n\n备注：AniDB 详情页本次无法直接打开；但 AniDB 标题索引、Bangumi 的版本信息、TBS 官方资料和 TMDB 第 1 季的日期、制作、剧情及逐集内容均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/19136; https://www.tbs.co.jp/anime/polyphonica/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34069; https://www.themoviedb.org/tv/34069/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34069,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

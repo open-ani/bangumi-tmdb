@@ -1,0 +1,24 @@
+{
+  "anidbId": 18062,
+  "bangumiId": 441233,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认是《トニカクカワイイ 女子高編》，共4话，标题、简介、导演/制作等信息与官方资料一致。输入中的 AniDB 匹配为 18062，标题也与该独立四话 ONA 一致。TMDB 100049 的 season 0 虽名为“特别编”且还包含其他特典，但第16–19集的标题正好依次为《月と星の数式》《先生の日常》《恋はたいてい難しい》《千の夜を超えて》，与本 Bangumi subject 四话完全对应。TMDB 日期从8月2日开始，是官方所列 AT-X 播出日期；Bangumi及官方同时记录的7月12日、7月26日、8月9日、8月23日是网络配信日期，因此不是版本冲突。应只映射 season 0 的16–19集，不应纳入整个特别编或TV正篇季。\n\nhttps://bgm.tv/subject/441233 (page): Bangumi 页面确认条目名称、4话、2023年7月12日开始、剧情简介、导演博史池畠、系列构成兵頭一歩及 Seven Arcs 制作信息；章节为01–04。\n\nhttps://tonikawa.com/news/news-77/ (page): 官方公布女子高編四话网络配信日期为7月12日、7月26日、8月9日、8月23日，并说明 AT-X 于8月2日开始播出。\n\nhttps://www.themoviedb.org/tv/100049 (api_snapshot): TMDB TV 100049 的特别编 season 0 共19集，主体TV正篇另列为 season 1 和 season 2。\n\nhttps://www.themoviedb.org/tv/100049/season/0 (api_snapshot): TMDB season 0 第16–19集标题依次与 Bangumi 四话完全一致，日期为2023年8月2日、8月9日、8月16日、8月23日；因此对应范围为16–19。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/441233; https://tonikawa.com/news/news-77/; https://www.themoviedb.org/tv/100049; https://www.themoviedb.org/tv/100049/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 16,
+      "episodeEnd": 19,
+      "id": 100049,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

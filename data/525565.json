@@ -1,0 +1,24 @@
+{
+  "anidbId": 19010,
+  "bangumiId": 525565,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2026 年 1 月开播、共 12 集的 TV 动画，并与第 2 期分开关联。官方资料确认第 2 期于 2026 年 7 月 5 日播出；TMDB API 快照中的 TV 278043 虽将季名标为“第1期～第2期”并收录 25 集，但第 1–12 集的标题和日期逐一对应 Bangumi 条目，第 13 集起为第 2 期内容。因此应映射为 TMDB 278043 第 1 季第 1–12 集，不能使用整季 25 集。\n\nhttps://bgm.tv/subject/525565 (page): Bangumi 条目标题、别名、剧情、2026-01-11 至 2026-03-29 播出信息及 01–12 章节与目标作品一致，并列出独立的第 2 期关联。\n\nhttps://sh-anime.shochiku.co.jp/seihantai_anime/news/397 (search_snippet): 官方公告在第 12 话播出前宣布第 2 期，并确定第 2 期自 2026-07-05 起播出，确认第 1 期主体为前 12 话。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目将 AniDB 19010、作品名 Seihantai na Kimi to Boku 映射到 TMDB TV 278043 第 1 季；另有第 2 期条目映射同一 TMDB 季并偏移 12 集，说明 TMDB 将两期合并收录。\n\nhttps://www.themoviedb.org/tv/278043 (api_snapshot): TMDB API 快照显示 TV ID 278043、原名正反対な君と僕、首播日 2026-01-11，共 25 集，唯一季为 season 1，季名为“第1期～第2期”。\n\nhttps://www.themoviedb.org/tv/278043/season/1 (api_snapshot): TMDB season 1 的第 1–12 集标题和日期与 Bangumi 条目逐一对应；第 13 集从 2026-07-05 开始，属于官方确认的第 2 期。\n\nhttps://sh-anime.shochiku.co.jp/seihantai_anime/blu-ray/bd2 (search_snippet): 官方第 2 卷 Blu-ray 明确收录第 7–12 话，进一步确认第 1 期主体范围为第 1–12 话。\n\n备注：AniDB 页面本身无法直接读取（返回 403）；AniDB ID 19010 的关联由 Bangumi 条目名称/别名与 Anime-Lists 的精确标题及 TMDB 映射交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/525565; https://sh-anime.shochiku.co.jp/seihantai_anime/news/397; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/278043; https://www.themoviedb.org/tv/278043/season/1; https://sh-anime.shochiku.co.jp/seihantai_anime/blu-ray/bd2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 278043,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "anidbId": 175,
+  "bangumiId": 73010,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 34859 的原名、首播日期、日语动画剧情均与 Bangumi subject《おとぎストーリー 天使のしっぽ》一致。该 subject 的 13 个正篇未全部排在 TMDB 第 1 季：Bangumi 第 1—12 话与 TMDB S1E1—S1E12 依次对应；Bangumi 第 13 话《忘れえぬ…人》则收录为 TMDB S0E2，名称标作《#13 忘れえぬ…人》，因此需要返回两个范围。TMDB S0E1 是插入篇《#5.5 ご主人様とみんなのおうち》，S0E3—E9 是《毒天使のしっぽ》，均不属于本轮所映射的正篇。第 2 季是续作《天使のしっぽChu！》，对应 Bangumi 独立 subject 94955，不属于 subject 73010。\n\nhttps://www.themoviedb.org/tv/34859 (api_snapshot): TMDB API 快照显示 TV 34859 原名为《おとぎストーリー 天使のしっぽ》，首播于 2001-10-04；剧情讲述睦悟郎过去饲养的宠物转生为守护天使前来报恩，与 Bangumi 作品身份一致。\n\nhttps://www.themoviedb.org/tv/34859/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 12 集，S1E1《忘れえぬ…絆》至 S1E12《ご主人様、だ～いすきっ！》与 Bangumi 正篇第 1—12 话按顺序对应，播出期为 2001-10-04 至 2001-12-20。\n\nhttps://www.themoviedb.org/tv/34859/season/0 (api_snapshot): TMDB API 快照显示 S0E2 为《#13 忘れえぬ…人》，与 Bangumi 正篇第 13 话明确对应；同季 S0E1 标作第 5.5 话，S0E3—E9 则为《毒天使のしっぽ》，所以本 subject 在该季仅取 E2。\n\nhttps://www.themoviedb.org/tv/34859/season/2 (api_snapshot): TMDB API 快照显示第 2 季名为《天使のしっぽChu！》，内容及 2003 年播出日期均表明它是后续作品；Bangumi 输入关系亦将其列为独立 subject 94955。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/73010; https://www.themoviedb.org/tv/34859; https://www.themoviedb.org/tv/34859/season/1; https://www.themoviedb.org/tv/34859/season/0; https://www.themoviedb.org/tv/34859/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 34859,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 34859,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

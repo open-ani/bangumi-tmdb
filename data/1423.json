@@ -1,0 +1,22 @@
+{
+  "anidbId": 5596,
+  "bangumiId": 1423,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 的 AniDB ID=5596 已标记为 matched，且作品名、日文名、2009 年播出信息和 26 集主体与 TMDB TV 36084 一致。TMDB 明确提供 season 1，episodeCount=26、episodesTruncated=false；其第 1–26 集标题逐条对应 Bangumi 的 26 集标题，因此应映射为完整第 1 季，不需要缩小集数范围。虽然部分日期存在时区或数据录入差异，未发现足以表明是不同版本的证据。\n\nhttps://bgm.tv/subject/1423 (page): Bangumi subject 为《ティアーズ・トゥ・ティアラ／花冠之泪》，2009 年电视动画，主体共 26 集，并提供 AniDB ID=5596 且标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/36084 (api_snapshot): TMDB TV 36084 的名称为「ティアーズ・トゥ・ティアラ」，原语言为日语、首播年份为 2009 年，并标示第 1 季共 26 集。\n\nhttps://www.themoviedb.org/tv/36084/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1，episodeCount=26，episodesTruncated=false；第 1–26 集标题与 Bangumi 提供的 26 集标题逐条对应。\n\n备注：TMDB 与 Bangumi 的首播日期及个别集数日期存在数日差异，可能源于时区或数据库录入；不影响标题、集数和剧情主体的一致性。；AniDB 页面本身未在本次证据中单独读取；当前关联依据是 Bangumi 数据中 anidbId=5596 且 anidbTitleStatus=matched。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1423; https://www.themoviedb.org/tv/36084; https://www.themoviedb.org/tv/36084/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36084,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

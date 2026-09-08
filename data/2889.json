@@ -1,0 +1,22 @@
+{
+  "anidbId": 6013,
+  "bangumiId": 2889,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 TV《メジャー 第5シリーズ》，25 集，播出时间为 2009-01-10 至 2009-06-27，制作公司为 SynergySP。AniDB 6013 的正式标题、别名、类型、25 集及起止日期完全对应，且制作人员也对应。TMDB 29602 是《メジャー》总剧集条目，其第 5 季明确为 2009-01-10、25 集；季接口返回完整的第 1 至 25 集，标题和日期与 Bangumi 逐集吻合。因此应映射为 TMDB TV 29602 第 5 季完整范围。\n\nhttps://bgm.tv/subject/2889 (page): Bangumi 将条目标为 TV《メジャー 第5シリーズ》，中文名“棒球大联盟 第五季”，25 集，首播 2009-01-10，完播 2009-06-27，动画制作为 SynergySP，并列出第 1 至 25 集。\n\nhttps://anidb.net/anime/6013 (page): AniDB 6013 为 Major (2009)，TV Series、25 episodes，时间 10.01.2009 至 27.06.2009；别名包含 Major 5、Major 5th、Major 5th Season、メジャー 第5シリーズ，动画制作为 SynergySP。\n\nhttps://www.themoviedb.org/tv/29602 (api_snapshot): TMDB TV 29602 的总条目包含第 5 季，season_number=5，air_date=2009-01-10，episode_count=25；同时与其他 Major 季分开记录。\n\nhttps://www.themoviedb.org/tv/29602/season/5 (api_snapshot): TMDB 第 5 季接口快照完整返回 25 集，episode_number 从 1 到 25；首集日期为 2009-01-10，末集日期为 2009-06-27，标题与 Bangumi 第 1 至 25 集逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2889; https://anidb.net/anime/6013; https://www.themoviedb.org/tv/29602; https://www.themoviedb.org/tv/29602/season/5",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 29602,
+      "season": 5,
+      "type": "tv"
+    }
+  ]
+}

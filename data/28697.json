@@ -1,0 +1,22 @@
+{
+  "anidbId": 8834,
+  "bangumiId": 28697,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2012年播出的12集TV动画，名称、原作SEGA、制作公司Production I.G、剧情主线和12个分集标题均与官方页面及 TMDB 季1对应。TMDB 46387 的季1明确包含12集，标题从「ル・クールへようこそ」至「幸せのパン」逐集匹配；因此应映射为完整的第1季，不需拆分集数。Bangumi与TMDB首播日期相差一天，属于日本播出日期/时区记录差异，不影响版本识别。\n\nhttps://bgm.tv/subject/28697 (page): Bangumi 条目标为TV动画《シャイニング・ハーツ ～幸せのパン～》，12集，2012年4月12日开播，原作SEGA，动画制作Production I.G，并列出第1至第12集。\n\nhttps://shining-world.jp/heartsTV/story/ (page): SEGA官方剧情页确认作品名称、主线剧情及第1至第12话标题；第12话为「幸せのパン」。\n\nhttps://www.themoviedb.org/tv/46387 (api_snapshot): TMDB API快照显示作品原名为「シャイニング・ハーツ 〜幸せのパン〜」，共12集，只有一个包含正篇的第1季。\n\nhttps://www.themoviedb.org/tv/46387/season/1 (api_snapshot): TMDB第1季API快照显示episodeCount为12，完整剧集标题与Bangumi及SEGA官方页面逐集对应，播出时间为2012年4月至6月。\n\nhttps://bgm.tv/subject/28697 (api_snapshot): 所附结构化Bangumi快照记录该条目的AniDB ID为8834且标题匹配；其日文、英文及罗马字别名与官方及TMDB作品名称一致。\n\n备注：TMDB记录的首播日为2012-04-13，而Bangumi为2012-04-12；这是日期记录差异，但未发现指向不同动画版本的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28697; https://shining-world.jp/heartsTV/story/; https://www.themoviedb.org/tv/46387; https://www.themoviedb.org/tv/46387/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46387,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

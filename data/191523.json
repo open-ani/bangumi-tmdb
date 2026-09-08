@@ -1,0 +1,22 @@
+{
+  "anidbId": 12369,
+  "bangumiId": 191523,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2017 年播出的 13 集 TV《鬼平》，别名包括 Onihei，导演宫繁之、动画制作 Studio M2、制作 TMS；其剧情简介与 TMDB TV 70943 一致。TMDB 第 1 季有完整 13 集，标题逐集对应 Bangumi 的 13 集，年份和播出顺序一致，因此主体应映射为 TV 70943 第 1 季完整范围。Bangumi 关联的《鬼平～その男、长谷川平藏～》是另一个 1 集 OVA 条目，不属于本 subject；TMDB 的 season 0 特别编也不应纳入。\n\nhttps://bgm.tv/subject/191523 (page): Bangumi 将该条目标为 TV，13 集，2017-01-09 开始、2017-04-03 结束；别名为鬼平犯科帳/Onihei，导演宫繁之，动画制作 Studio M2，制作 TMS。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引中，AniDB ID 12369 对应 Onihei；与 Bangumi 的 Onihei 别名及输入提供的 Bangumi→AniDB 关联相符。\n\nhttps://www.themoviedb.org/tv/70943 (api_snapshot): API 快照显示 TMDB 70943 为日文名《鬼平》，首播年份 2017，简介为池波正太郎《鬼平犯科帳》改编，主条目共 13 集，并列出 season 0 特别编和 season 1 的 13 集。\n\nhttps://www.themoviedb.org/tv/70943/season/1 (api_snapshot): API 快照显示第 1 季共 13 集；从「血頭の丹兵衛」到「狐火」的 13 个完整标题、剧情和日期均与 Bangumi 13 集逐集对应。TMDB 日期整体比 Bangumi 晚 1 天，符合跨时区日期记录差异。\n\n备注：AniDB 官方页面请求受限，未能直接读取其条目页；AniDB ID 与标题的核对依赖公开标题索引、Bangumi 别名以及输入中已提供的 matched 关联字段。；TMDB season 0 的 1 集特别编与 Bangumi 的独立 OVA 条目不是本 subject 主体，因此未纳入推荐范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/191523; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/70943; https://www.themoviedb.org/tv/70943/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 70943,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

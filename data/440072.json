@@ -1,0 +1,24 @@
+{
+  "anidbId": 18127,
+  "bangumiId": 440072,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 是中国网络动画《万圣街》第四季，2023-07-05 开播，共 12 个短篇，章节采用全系列连续编号 37—48。作品官方日语版资料也明确把当年中国配信的续篇标为 EP37—48。TMDB TV 106402 是同一部中文动画《万圣街》：人物与 1031 室剧情吻合，TMDB 将四批中国版内容全部合并在 Season 1，共 48 集；其中第 37—48 集于 2023-07-05 至 2023-07-15 上线，末集名称亦对应“拿什么拯救你，我的天使！”。因此应映射至 TV 106402、Season 1 的第 37—48 集，而不是不存在的 TMDB Season 4。\n\nhttps://bgm.tv/subject/440072 (page): Bangumi 页面确认该主体为 WEB 动画《万圣街 第四季》，2023年7月5日开播、共12话；章节列表连续编号为37至48。\n\nhttps://banseigai.com/news/?id=63664 (page): 《万圣街》官方日语版网站说明该年夏季在中国配信的续篇范围是 EP37～48，验证了第四季在全系列中的实际集数区间。\n\nhttps://www.themoviedb.org/tv/106402 (page): TMDB 的 TV 106402 页面显示作品原名为《万圣街》，是2020年开播的中文动画，剧情包含泥泥、艾勒、林恩、莉莉及1031室；页面仅列 Season 1，共48集，并标明第48集于2023-07-15播出。\n\nhttps://www.themoviedb.org/tv/106402/season/1 (api_snapshot): TMDB API 快照确认 Season 1 共48集；第37—48集的日期为2023-07-05至2023-07-15，恰好构成12集，且第48集标题对应“拿什么拯救你，我的天使！”。\n\nhttps://www.themoviedb.org/tv/106402/season/4 (api_snapshot): 输入中的 TMDB API 请求对 Season 4 返回404，说明旧候选的 season=4 不是该条目在 TMDB 中的有效季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/440072; https://banseigai.com/news/?id=63664; https://www.themoviedb.org/tv/106402; https://www.themoviedb.org/tv/106402/season/1; https://www.themoviedb.org/tv/106402/season/4",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 37,
+      "episodeEnd": 48,
+      "id": 106402,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

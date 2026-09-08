@@ -1,0 +1,22 @@
+{
+  "anidbId": 5316,
+  "bangumiId": 2888,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《メジャー 第4シリーズ》TV，2008-01-05 至 2008-06-28，共26集，制作方为 SynergySP、NHK及小学馆。Bangumi 页面还将剧场版列为衍生关联，故不纳入本 subject。AniDB ID 5316 的标题对应 Major (2008)，外部资料将其明确描述为 Major S4、26集、Winter 2008、SynergySP，并以吾郎赴美国挑战小联盟为主线。TMDB TV 29602 的 season 4 同样为 2008-01-05、26集；完整剧集标题与 Bangumi 逐集对应，剧情也一致，因此采用整季范围。TMDB 快照中第15、17集日期存在明显元数据错误，但标题、顺序、剧情及其余日期均支持同一版本，不足以否定匹配。\n\nhttps://bangumi.tv/subject/2888 (page): Bangumi 条目标为 TV《メジャー 第4シリーズ》，话数26，放送开始2008-01-05，结束2008-06-28，制作公司SynergySP，制作NHK、小学馆プロダクション；剧场版被列为衍生关联。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 条目编号5316对应标题 Major (2008)。\n\nhttps://anilist.co/anime/3226/Major-S4 (search_snippet): 搜索摘要将该条目标为 Major S4，TV、26集、Winter 2008、SynergySP，并说明故事从吾郎前往美国参加小联盟挑战开始；摘要注明资料来源为 AniDB。\n\nhttps://www.themoviedb.org/tv/29602 (api_snapshot): TMDB TV 29602《メジャー》包含 season 4，首播2008-01-05、26集。\n\nhttps://www.themoviedb.org/tv/29602/season/4 (api_snapshot): TMDB season 4 为2008-01-05、26集；26个剧集标题与 Bangumi 条目逐集对应，简介内容也对应吾郎赴美、小联盟及季末季后赛主线。\n\n备注：TMDB 快照第15集和第17集的 air_date 分别错误显示为2008-03-22；应以剧集标题、顺序和 Bangumi/其他剧集资料交叉判断，不能将该日期差异解释为另一季。；AniDB 页面本身访问返回403，AniDB ID与标题的核对依赖可读取的索引摘要及输入中已匹配的名称数据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2888; https://bangumi.tv/subject/2888; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anilist.co/anime/3226/Major-S4; https://www.themoviedb.org/tv/29602; https://www.themoviedb.org/tv/29602/season/4",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 29602,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

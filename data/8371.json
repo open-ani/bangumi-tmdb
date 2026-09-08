@@ -1,0 +1,24 @@
+{
+  "anidbId": 7672,
+  "bangumiId": 8371,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 8371 是林佑樹《カイチュー!》于 2010 年推出的第一部 WEB 动画，由前、后篇两集组成。TMDB 将这部 2010 年动画及另行制作的 2011 年“动画第2弹”（Bangumi 的 Part.2）合并收录为 TV 114157 的第1季共4集：其中第1、2集的日期和时长分别对应本 subject 的前篇与后篇；第3、4集属于 2011 年 Part.2。因此应映射到 TV 114157 第1季第1至2集，而不是不存在的第0季，也不能映射整个第1季。\n\nhttps://www.themoviedb.org/tv/114157 (api_snapshot): TMDB API 快照显示 TV 114157 原名为《カイチュー！》，首播日期为2010-07-16，共4集，且只设有第1季。标题、年份及媒介均与目标 WEB 动画系列相符。\n\nhttps://www.themoviedb.org/tv/114157/season/1 (api_snapshot): TMDB 第1季快照明确列出：第1集于2010-07-16发布、时长4分钟，第2集于2010-07-30发布、时长5分钟；第3、4集则在2011年10月发布。这证明目标的2010年前后篇对应 S1E1–S1E2，而非完整四集。\n\nhttps://natalie.mu/comic/news/34853 (search_snippet): Comic Natalie 报道确认，2010年的《カイチュー！》是配合单行本第2卷推出的 WEB 动画，改编自2006年读切版，动画分前后篇：前篇于2010-07-16开始配信，后篇定于2010-07-30更新；日期与 TMDB S1E1、S1E2 完全对应。\n\nhttps://natalie.mu/comic/news/57980 (search_snippet): Comic Natalie 将2011年的作品明确称为《カイチュー！》再次动画化及“原创动画第2弹”，并说明它同样分为前后篇，证明2011年的两集是后续 Part.2，而不是 subject 8371 的正篇。\n\nhttps://bangumi.tv/subject/24651 (page): Bangumi 的独立 Part.2 页面将2011年作品列为2话 WEB动画，并明确标注为“原创动画第2弹”；其关联条目指向2010年的《カイチュー!》，进一步确认 TMDB 后两集属于另一个 Bangumi subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8371; https://www.themoviedb.org/tv/114157; https://www.themoviedb.org/tv/114157/season/1; https://natalie.mu/comic/news/34853; https://natalie.mu/comic/news/57980; https://bangumi.tv/subject/24651",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 114157,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

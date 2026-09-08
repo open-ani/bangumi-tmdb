@@ -1,0 +1,22 @@
+{
+  "anidbId": 13573,
+  "bangumiId": 229642,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《働くお兄さん！》第一季 TV 动画：2018-01-05 开播、13 集至 2018-03-30，包含第13集特别节目。TMDB TV 76174 同名、同日开播；第1季明确为13集，逐集标题与 Bangumi 01–13 对应，且第13集也是特别节目。因此应映射为 TMDB 第1季完整季，不需要缩小集数范围。AniDB 标题索引也将 13573 对应为 Hataraku Onii-san!，并将续作列为独立条目。\n\nhttps://bgm.tv/subject/229642 (page): Bangumi 条目为 TV《働くお兄さん！》，13集，2018年1月5日开始、3月30日结束；章节01–13逐集列出，第13集为《働くお兄さん！の特番！》，并列出 Tomovies 动画制作。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): 公开 AniDB 标题索引显示 [13573,\"Hataraku Onii-san!\"]；同一索引另列出续作 [13995,\"Hataraku Onii-san! No 2!\"]，支持 13573 对应本条目而非续作。\n\nhttps://www.atpress.ne.jp/news/142732 (search_snippet): Good Smile Company 官方发布信息将本作称为2018年1月起在 TOKYO MX、BS Fuji 播出的原创短篇动画，并确认导演高嶋友也、脚本熊本浩武、动画制作 Tomovies 等制作信息。\n\nhttps://www.themoviedb.org/tv/76174 (api_snapshot): API 快照显示 TV 76174 为《働くお兄さん!》，首播日2018-01-05，共25集，包含第1季13集和第2季12集。\n\nhttps://www.themoviedb.org/tv/76174/season/1 (api_snapshot): API 快照显示第1季 season_number=1、首播日2018-01-05、13集；第1–13集标题与 Bangumi 章节逐一对应，第13集为《『働くお兄さん！』特番》。\n\n备注：AniDB 官方页面本次抓取返回403，AniDB ID 的直接页面未能读取；但公开 AniDB 标题索引、Bangumi 条目标题/日期/集数及官方制作信息相互吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/229642; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.atpress.ne.jp/news/142732; https://www.themoviedb.org/tv/76174; https://www.themoviedb.org/tv/76174/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 76174,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

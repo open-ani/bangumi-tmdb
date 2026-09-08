@@ -1,0 +1,28 @@
+{
+  "anidbId": 1342,
+  "bangumiId": 189383,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是日版《トランスフォーマー スーパーリンク》，2004-01-09 开播、共52话，并明确包含特别篇。TMDB 75911 同名、日语、日本、同日开播，季1为51集；季0为1集、2004-11-03。官方资料及独立剧集表均确认日版为51集正篇加1集周年特别篇，因此应映射为 TMDB 第1季完整一季，并补充第0季第1集特别篇。\n\nhttps://bgm.tv/subject/189383 (api_snapshot): 输入的 Bangumi 快照显示标题、2004-01-09、52话、AniDB ID 1342，以及佐野隆史负责第6-51话和特别篇。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): 输入提供的 Anime-Lists 关联线索将 AniDB 1342 关联到 TMDB TV 75911。\n\nhttps://www.themoviedb.org/tv/75911 (api_snapshot): TMDB 快照显示同名日语作品，原产国 JP，首播日期 2004-01-09，共51集；季0有1集、季1有51集。\n\nhttps://www.themoviedb.org/tv/75911/season/1 (api_snapshot): TMDB 第1季快照明确为 season_number=1、episodeCount=51，并列出第1至第51集的完整日文标题和日期。\n\nhttps://tf.takaratomy.co.jp/anime/anime_lineup (search_snippet): Takara Tomy 官方资料称《トランスフォーマー スーパーリンク》为《微型传说》的续作，放送于2004年、全52话，并描述了与该版本一致的故事设定。\n\nhttps://www.ntfa.net/ntfa/japan/SLeplist.php (search_snippet): 独立日版剧集表明确称该系列共52集，其中包含1集周年特别节目，并列出与 TMDB 第1季标题、日期相符的正篇。\n\nhttps://movie-nexus.com/shows/tv860 (search_snippet): 页面将 Transformers: Energon 标为 TMDb 75911，并列出 Distribution 特别篇，日期为2004-11-03。\n\n备注：提供的 TMDB 季0快照只有季级信息，没有展开特别篇标题；但其1集数量和2004-11-03日期与日版特别篇资料一致。；TMDB 第1季个别集的 air_date 顺序存在异常（例如第17、18集），不影响完整51集季范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/189383; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/75911; https://www.themoviedb.org/tv/75911/season/1; https://tf.takaratomy.co.jp/anime/anime_lineup; https://www.ntfa.net/ntfa/japan/SLeplist.php; https://movie-nexus.com/shows/tv860",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 75911,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 75911,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

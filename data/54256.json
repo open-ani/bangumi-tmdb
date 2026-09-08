@@ -1,0 +1,30 @@
+{
+  "anidbId": 205,
+  "bangumiId": 54256,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是《天地無用！魎皇鬼》1992—1993 年 OVA 第一期，不是后来的 TV 重制版、电影或第二期。官方发行资料将第一期定义为第1—7话，其中《お祭り前日の夜！》是后来追加、现按第7话处理的特别篇。TMDB 43004 正是同名、1992年开始的 OVA 动画系列；其第1季第1—6集的标题、日期与 Bangumi 前六话逐一一致，而第7话被 TMDB 单独编为 S0E1。因此需同时映射 TMDB S1E1–6 和 S0E1。Bangumi 所给第7话日期 1994-03-25 与 TMDB、allcinema 的 1993-09-25 不同，但作品标题、剧情位置及官方第一期收录关系均吻合，不影响映射。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/blu-ray/tenchi/ova.html (page): NBCUniversal 官方页面说明《天地無用！魎皇鬼》是系列首部 OVA；第一期原计划6话，追加特别篇《お祭り前日の夜！》后现按第7话处理。收录表明确列出第一期第1—7话，并将第二期从第8话开始，排除了第二期和其他番外篇。\n\nhttps://www.themoviedb.org/tv/43004 (api_snapshot): TMDB API 快照显示 TV ID 43004 的原名为《天地無用! 魎皇鬼》，首播日期为1992-09-25，剧情为天地释放魎呼后与阿重霞、砂沙美、美星等共同生活，身份与该 OVA 系列一致；快照将第一期列为第1季6集。\n\nhttps://www.themoviedb.org/tv/43004/season/1 (api_snapshot): TMDB 第1季快照的6集依次为《魎呼復活》《阿重霞が出た！》《こんにちは！魎皇鬼ちゃん》《星降る里に美星降る》《神我人襲来！》《天地必要》，标题和发行顺序与 Bangumi 第1—6话逐一吻合。\n\nhttps://www.themoviedb.org/tv/43004/season/0 (api_snapshot): TMDB 特别篇快照显示 S0E1 为《お祭り前日の夜！》，剧情发生在神我人事件结束、鷲羽加入后，与 Bangumi 第7话及官方追加特别篇完全对应。\n\nhttps://www.allcinema.net/cinema/88380 (page): allcinema 将《天地無用！魎皇鬼スペシャル 番外編「お祭り前日の夜！」》记为1993年的原创录像动画，并说明它连接 OVA 第一期和第二期；所述魎呼与阿重霞争取天地的剧情也与 TMDB S0E1 概要一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/54256; https://www.nbcuni.co.jp/rondorobe/anime/blu-ray/tenchi/ova.html; https://www.themoviedb.org/tv/43004; https://www.themoviedb.org/tv/43004/season/1; https://www.themoviedb.org/tv/43004/season/0; https://www.allcinema.net/cinema/88380",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 6,
+      "id": 43004,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 43004,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

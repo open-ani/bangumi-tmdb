@@ -1,0 +1,24 @@
+{
+  "anidbId": 10206,
+  "bangumiId": 85631,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 TV、24 话，2014-04-04 开始并于 2014-09-12 结束；章节 1–24 的标题与 TMDB 45790 第 2 季第 1–24 集逐项对应，剧情、年份和制作信息也一致。TMDB 第 2 季共 48 集，但第 25 集起是 2015 年埃及篇，且 Bangumi 将其作为独立续集条目，因此不能纳入本 subject。应映射为 TMDB TV 45790 的 season 2、episode 1–24。\n\nhttps://bgm.tv/subject/85631 (page): Bangumi 标注该条目为 TV、24 话，放送开始于 2014 年 4 月，结束于 2014 年 9 月 12 日，并列出第 1–24 话及 david production、津田尚克等制作信息。\n\nhttps://jojo-animation.com/sc/contents/story/24.html (page): 官方页面明确记载本作品第 24 话为「女教皇（ハイプリエステス）その2」，剧情与 Bangumi 第 24 话一致。\n\nhttps://www.themoviedb.org/tv/45790 (api_snapshot): TMDB TV 45790 名称为《ジョジョの奇妙な冒険》，第 2 季名称为「スターダストクルセイダース」，首播日期为 2014-04-05。\n\nhttps://www.themoviedb.org/tv/45790/season/2 (api_snapshot): TMDB 第 2 季共 48 集；第 1–24 集标题、剧情和日期对应 Bangumi subject 的 2014 年前半部分，第 25 集起转为 2015 年埃及篇。\n\nhttps://anidb.app/anime/jojos-bizarre-adventure-stardust-crusaders-battle-in-egypt-2537 (page): AniDB 将 2015 年 1 月 10 日至 6 月 20 日播出的 Egypt-hen 列为独立 TV 条目，并将 Stardust Crusaders 列为其前作，支持将 TMDB season 2 拆分为两个 Bangumi subject。\n\n备注：输入中的 AniDB ID 10206 与 Bangumi 的直接关联页面未能在可访问页面中独立显示；但 Bangumi 条目本身的标题、日期、24 话章节和官方页面，与 TMDB 第 2 季第 1–24 集构成充分的版本与范围对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85631; https://jojo-animation.com/sc/contents/story/24.html; https://www.themoviedb.org/tv/45790; https://www.themoviedb.org/tv/45790/season/2; https://anidb.app/anime/jojos-bizarre-adventure-stardust-crusaders-battle-in-egypt-2537",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 24,
+      "id": 45790,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

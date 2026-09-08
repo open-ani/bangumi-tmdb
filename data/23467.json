@@ -1,0 +1,22 @@
+{
+  "anidbId": 509,
+  "bangumiId": 23467,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject是1998年4月4日开始、共26集的《アキハバラ電脳組》电视动画；候选TMDB TV 19697同名、同首播日、简介对应相同主线，并明确只有第1季且包含26集。该季26集标题与Bangumi正篇第1—26集逐条对应，因此应映射为完整第1季。关联电影《アキハバラ電脳組 2011年の夏休み》是另一个Bangumi subject，不应并入本主体。TMDB中第7、8、21集日期显示为1999年，与Bangumi播出日期不一致，属于元数据日期异常；标题、编号、其余日期及总集数仍支持这是同一26集电视版本。\n\nhttps://www.themoviedb.org/tv/19697 (api_snapshot): TMDB TV主体名称为「アキハバラ電脳組」，首播日为1998-04-04，简介与五名少女组成电脳組、召唤ディーヴァ的主线一致，并记录总集数26及第1季。\n\nhttps://www.themoviedb.org/tv/19697/season/1 (api_snapshot): TMDB第1季明确为season_number=1、air_date=1998-04-04、episodeCount=26；完整剧集标题从「ディーヴァ」至「Birth」与Bangumi第1—26集逐条对应。\n\n备注：TMDB第7、8、21集的air_date分别错误显示为1999年，需后续由官方播出资料或TMDB维护记录修正；这不影响当前季号和完整26集范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/23467; https://www.themoviedb.org/tv/19697; https://www.themoviedb.org/tv/19697/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 19697,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

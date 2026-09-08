@@ -1,0 +1,31 @@
+{
+  "anidbId": 5248,
+  "bangumiId": 258085,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 AniDB 5248 均为同一部 1977 年日本 TV 动画，标题、播出日期和 25 集规模一致；TMDB 81117 的简介、原语言、首播日期及剧情也吻合。TMDB 第1季收录26集，其中第14集标题明确标注为本放送时未放送；该作品实际播出25集，因此映射为 TMDB 第1季 1–13 集及 15–26 集，排除未播出的第14集。\n\nhttps://bgm.tv/subject/258085 (page): Bangumi 条目为《超スーパーカー ガッタイガー》TV，中文名《超级赛车猛虎号》，25话，放送期为1977-10-04至1978-03-28。\n\nhttps://anidb.net/anime/5248 (page): AniDB 5248 明确对应 Chou Supercar Gattiger／超スーパーカー ガッタイガー，类型为TV、25集，播出期为1977-10-04至1978-03-28；剧集日期连续对应至第25集。\n\nhttps://www.themoviedb.org/tv/81117 (api_snapshot): TMDB TV 81117 的标题、日文原名、首播日期、日语及日本来源与该作品吻合，简介描述太阳能发动机赛车、田渊博士及恶势力，与 Bangumi/AniDB 主体一致。\n\nhttps://www.themoviedb.org/tv/81117/season/1 (api_snapshot): TMDB 第1季共26集；第14集标题标注“本放送時、未放送”，日期为1978-01-08，随后第15集为1978-01-10，其余剧集日期与25集播出版本相对应。\n\nhttps://blog.livedoor.jp/televimanga/archives/51557423.html (search_snippet): 搜索摘要说明本作制作了26集，但本放送时第14集未播出，因此实际播出为25集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/258085; https://anidb.net/anime/5248; https://www.themoviedb.org/tv/81117; https://www.themoviedb.org/tv/81117/season/1; https://blog.livedoor.jp/televimanga/archives/51557423.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 13,
+      "id": 81117,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 15,
+      "episodeEnd": 26,
+      "id": 81117,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

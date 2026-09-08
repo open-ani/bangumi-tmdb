@@ -1,0 +1,22 @@
+{
+  "anidbId": 2172,
+  "bangumiId": 2915,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi 条目是 2004 年发行、共 3 话的 OVA，并与《炎の蜃気楼》TV 主条目关联；AniDB ID 2172 的名称也明确对应该 OVA。TMDB 1065 的 season 0「特別編」正好是 3 话，首播日为 2004-07-28，与 OVA 主体及发行日吻合。因此应映射完整 season 0，不应映射 13 话的 season 1。\n\nhttps://bgm.tv/subject/2915 (page): Bangumi 条目为《炎の蜃気楼～みなぎわの反逆者～》，OVA，发售日 2004-07-28，共 3 话；关联《炎の蜃気楼》TV 条目。\n\nhttps://www.themoviedb.org/tv/1065 (api_snapshot): TMDB TV 1065 包含 season 0「特別編」（3 话，2004-07-28）及 season 1（13 话）。\n\nhttps://www.themoviedb.org/tv/1065/season/0 (api_snapshot): season 0「特別編」包含完整 3 话，日期为 2004-07-28、2004-09-28、2004-11-26。\n\n备注：TMDB 第 2 话日期为 2004-09-28，而 Bangumi 记录为 2004-09-29，存在一天差异，可能是日期记录或时区差异。；TMDB 快照中的剧集标题和剧情简介为空，无法进行更细的逐话标题与剧情核对；但季号、版本、发行日期和话数证据一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2915; https://www.themoviedb.org/tv/1065; https://www.themoviedb.org/tv/1065/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1065,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 14389,
+  "bangumiId": 261082,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject《でびどる！/恶魔偶像》与 AniDB 14389 的标题、首播日期和 12 集 TV 作品信息一致。TMDB TV 82825 同名，首播日为 2018-10-04，共 12 集；第 1 季也明确包含完整的 12 集，剧集标题和日期与主体内容整体对应。因此应映射为 TMDB TV 82825 第 1 季全集。Bangumi 中第 3、4 集的日期顺序与 TMDB 记录相反，但标题和总集数仍支持同一版本，属于 Bangumi 单集元数据顺序差异，不影响完整一季映射。\n\nhttps://bgm.tv/subject/261082 (page): Bangumi 记录标题为《でびどる！》，首播日期为 2018-10-04，类型为 TV，共 12 集，并关联 AniDB ID 14389。\n\nhttps://www.themoviedb.org/tv/82825 (api_snapshot): TMDB TV 82825 标题为《でびどる！》，首播日期为 2018-10-04，共 12 集，且仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/82825/season/1 (api_snapshot): TMDB 第 1 季 season_number=1，首播日期为 2018-10-04，包含第 1 至第 12 集；剧集标题包括「アイドルって食べ物？」「ラブラブマシーン」等，与 Bangumi 主体对应。\n\n备注：Bangumi 提供的第 3、4 集 airdate 顺序与 TMDB 相反；但两者标题、总集数及整体播出区间一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/261082; https://www.themoviedb.org/tv/82825; https://www.themoviedb.org/tv/82825/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 82825,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

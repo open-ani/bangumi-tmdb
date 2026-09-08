@@ -1,0 +1,24 @@
+{
+  "anidbId": 193,
+  "bangumiId": 65883,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《らんま1/2 熱闘編》，共143话，章节编号从19至161，且与前作《らんま1/2》分条关联。AniDB ID 193 对应同名热斗篇，播出时间为1989-10-20至1992-09-25，共143话。TMDB 57706 是同一部旧版《らんま1/2》，但将前作与热斗篇合并为第1季，共161集；因此本 subject 应映射为 TMDB 第1季第19至161集。候选的 season 2 不采用：TMDB 主页面列出的是唯一的161集第1季，输入中的 season/2 请求也失败。\n\nhttps://bgm.tv/subject/65883 (page): Bangumi 条目为《らんま1/2 熱闘編》，类型为TV，共143话；章节列表从19开始，并与前作《らんま1/2》关联。\n\nhttps://www.wikidata.org/wiki/Q103897316 (search_snippet): 该条目指向 AniDB anime/193，标题为 Ranma 1/2 Nettou Hen，类型为日本电视动画，播出时间1989-10-20至1992-09-25，共143集，制作公司为Studio Deen。\n\nhttps://www.themoviedb.org/tv/57706 (api_snapshot): TMDB 57706 的原名为らんま1/2，首播1989-04-15，共161集；季列表显示为第1季161集，末集标记为1x161、日期1992-09-25。\n\nhttps://www.themoviedb.org/tv/57706 (search_snippet): TMDB 页面搜索结果同样显示唯一的第1季为1989年、161集，并将末集标为1x161。\n\nhttps://www.ranma.fandom.com/wiki/Clash_of_the_Delivery_Girls%21_The_Martial_Arts_Takeout_Race (search_snippet): 热斗篇首集《激突!出前格闘レース》对应播出顺序第19集，首播日期为1989-10-20，与 Bangumi subject 的第19话一致。\n\nhttps://www.themoviedb.org/tv/57706/season/2 (api_snapshot): 输入提供的 TMDB season/2 请求返回HTTP 404；该失败仅作为候选异常记录，未单独据此断言不存在，而是结合TMDB主页面的唯一第1季信息排除候选季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/65883; https://www.wikidata.org/wiki/Q103897316; https://www.themoviedb.org/tv/57706; https://www.ranma.fandom.com/wiki/Clash_of_the_Delivery_Girls%21_The_Martial_Arts_Takeout_Race; https://www.themoviedb.org/tv/57706/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 19,
+      "episodeEnd": 161,
+      "id": 57706,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

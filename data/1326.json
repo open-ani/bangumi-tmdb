@@ -1,0 +1,24 @@
+{
+  "anidbId": 5634,
+  "bangumiId": 1326,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2009 年发行、共 5 集的 OVA《ひぐらしのなく頃に礼》，内容分为羞晒し篇、賽殺し篇其一至其三、昼壊し篇。TMDB 的替代剧集分组将这 5 集明确列为“Season 3 (Rei)”，但每集实际编号为 0x2 至 0x6；TMDB 主剧集 API 的正式季列表只有 0、1、2，且 season/3 请求返回 404。因此应映射到 TMDB TV 25760 的特别篇 season 0、episode 2–6，而不是 season 3。\n\nhttps://bgm.tv/subject/1326 (page): Bangumi 页面确认标题为《ひぐらしのなく頃に礼》，类型为 OVA，共 5 集，发行日期为 2009-02-25，结束日期为 2009-08-21；章节为 01–05，并说明第 1 卷为羞晒し篇、第 2–4 卷为賽殺し篇、第 5 卷为昼壊し篇。\n\nhttps://www.themoviedb.org/tv/25760 (api_snapshot): TMDB API 快照显示 TV 25760 为《ひぐらしのなく頃に》，首播年份为 2006，正式季列表为 season 0、1、2；没有正式 season 3。\n\nhttps://www.themoviedb.org/tv/25760/season/3 (api_snapshot): TMDB API 快照记录对 season 3 的请求返回 HTTP 404；这与正式季列表不含 season 3 一致，但不能单独作为作品不存在的依据。\n\nhttps://www.themoviedb.org/tv/25760-higurashi-no-naku-koro-ni-kai/episode_group/6410936ab4224200d86603f0/group/6410939ec390c5007f17bdaf (search_snippet): TMDB 页面显示替代剧集分组“Season 3 (Rei)”共 5 集，依次对应 Rei: Shame Exposing Chapter、Dice Killing Chapter (Part 1)、(Part 2)、(Part 3)、Daybreak Chapter；其 TMDB 编号明确为 0x2、0x3、0x4、0x5、0x6，日期分别为 2009-02-25、03-25、05-22、06-24、08-21。\n\n备注：AniDB 页面本身无法直接读取（请求返回 403）；AniDB ID 5634 的一致性主要依赖输入中已标记 matched 的关联信息及 Bangumi 条目本身。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1326; https://www.themoviedb.org/tv/25760; https://www.themoviedb.org/tv/25760/season/3; https://www.themoviedb.org/tv/25760-higurashi-no-naku-koro-ni-kai/episode_group/6410936ab4224200d86603f0/group/6410939ec390c5007f17bdaf",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 6,
+      "id": 25760,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

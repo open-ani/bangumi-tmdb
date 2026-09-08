@@ -1,0 +1,28 @@
+{
+  "anidbId": 467,
+  "bangumiId": 21104,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 21104 是2003年的日本动画《L/R -Licensed by Royal-》，共收录13个制作话，其中第4话《砂漠の祭典／Sweet enemies in the same desert》未在首轮电视播出。TMDB 42787 的标题、年份、动画媒介、角色设定和剧情均与之相符，但按首播结构将12个已播出话收在第1季，并把未播出的制作话数#004单列为 S00E01。因此本 subject 应映射为 TMDB 42787 第1季全季加 S00E01：Bangumi 第1–3话对应 S01E01–E03，第4话对应 S00E01，第5–13话对应 S01E04–E12。这不是另一部作品或额外衍生特典，而是同一部13话作品中被首播跳过的一话。\n\nhttps://bgm.tv/subject/21104 (page): Bangumi 页面确认主体为动画《L/R -Licensed by Royal-》（中文名《王室近卫队》），2003年1月开播，共13话，由TNK制作；其章节列表包含01至13话。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/l-r/dvd2.html (page): 作品官方影碟页面明确把《砂漠の祭典／Sweet enemies in the same desert》标为“TV未放映エピソード”和“制作话数 #004”；同页发行表从#001列至#013，证明它属于这部作品的13个制作话，而非独立续作。\n\nhttps://www.themoviedb.org/tv/42787 (api_snapshot): TMDB API 快照显示 TV 42787 的原名为《L/R -Licensed by Royal-》，首播于2003年，日语日本作品；剧情为获王室许可的私设特工L/R执行任务，与Bangumi主体身份和内容一致。该记录共列12个正季集和1个特别篇。\n\nhttps://www.themoviedb.org/tv/42787/season/1 (api_snapshot): TMDB API 快照确认第1季共有12集：前三集依次为《人魚の足》《蜜の味》《少女、都へ行く》，S01E04起为《慟哭の銃弾》，末两集为《十五年の残像》和《群像》；这正是跳过制作话数#004后的12话电视首播序列。\n\nhttps://www.themoviedb.org/tv/42787/season/0 (api_snapshot): TMDB API 快照确认第0季仅有S00E01《砂漠の祭典／Sweet enemies in the same desert》，日期为2003-04-25；标题和古代遗迹中守护王室财宝的剧情均与Bangumi第4话及官方未播出话资料相同。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/21104; https://www.nbcuni.co.jp/rondorobe/anime/l-r/dvd2.html; https://www.themoviedb.org/tv/42787; https://www.themoviedb.org/tv/42787/season/1; https://www.themoviedb.org/tv/42787/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42787,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 42787,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

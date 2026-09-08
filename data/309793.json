@@ -1,0 +1,24 @@
+{
+  "anidbId": 15712,
+  "bangumiId": 309793,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《弩级战队HXEROS》的 2 集 OAD，日期为 2020-11-04 与 2021-03-04，且 AniDB ID 15712 与正篇标题及关联一致。TMDB TV 96120 的第 0 季包含 3 集：第 1 集为 7.5 话总集篇，不属于本 subject；第 2、3 集的标题、日期和剧情分别对应两集 OAD。因此应映射到 season 0 的 episode 2–3。第 3 集 TMDB 标题中的“XERO”与 Bangumi 的“HERO”存在表记差异，但日期、剧情和版本上下文一致。\n\nhttps://bgm.tv/subject/309793 (page): Bangumi subject 标题为《ド級編隊エグゼロス エグゼロスの日常 OAD》，包含 2 集，发布日期为 2020-11-04 和 2021-03-04，并关联 AniDB ID 15712。\n\nhttps://www.themoviedb.org/tv/96120 (api_snapshot): TMDB TV 96120 为《ド級編隊エグゼロス》，首播日期为 2020-07-04，共 12 集，并列有 season 0“特別編”。\n\nhttps://www.themoviedb.org/tv/96120/season/0 (api_snapshot): TMDB season 0 第 1 集是“エグゼロス・レポート”，简介明确标为第 7.5 话总集篇；第 2 集“エグゼロスの日常”日期为 2020-11-04；第 3 集“XEROスーツ・改”日期为 2021-03-04，剧情对应 OAD 的第二集。\n\n备注：TMDB 第 3 集标题使用“XEROスーツ・改”，而 Bangumi 使用“HEROスーツ・改”，属于表记差异；其日期和剧情支持为同一 OAD。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/309793; https://www.themoviedb.org/tv/96120; https://www.themoviedb.org/tv/96120/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 3,
+      "id": 96120,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

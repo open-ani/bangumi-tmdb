@@ -1,0 +1,28 @@
+{
+  "anidbId": 353,
+  "bangumiId": 4123,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 4123、AniDB 353 与 TMDB TV 42731 的关联得到独立交叉确认。作品是 2002 年由 Satelight 制作的《ヒートガイジェイ/Heat Guy J》TV 系列。Bangumi 共列 26 个主体集数，其中第 15 集「掳」对应未在常规电视档期播出的特别篇 Angel（Hostage）；其余 25 集是 2002-10-01 至 2003-03-25 的TV正篇。TMDB 42731 明确有 season 1 共25集及 season 0 共1集，故应纳入完整 S1，并额外纳入 S0E1；不能把特别篇作为 S1 的普通第15集。\n\nhttps://www.wikidata.org/wiki/Q2539404 (page): 该条目同时列出 Bangumi subject ID 4123、AniDB anime ID 353、TMDB TV series ID 42731；标题为ヒートガイジェイ，类型为日本动画电视系列，制作公司为Satelight，播出时间为2002-10-01至2003-03-25。\n\nhttps://en.wikipedia.org/wiki/List_of_Heat_Guy_J_episodes (page): 剧集表列出主体共26集；第1至14集及第16至26集构成常规TV播出内容，第15集为 Angel (Hostage)，标为未播出；第26集于2003-03-25播出。\n\nhttps://www.themoviedb.org/tv/42731 (api_snapshot): TMDB快照显示42731的日文标题为ヒートガイジェイ，origin_country为JP，并列出season 0一集（2003-09-26）和season 1二十五集。\n\nhttps://www.themoviedb.org/tv/42731/season/1 (api_snapshot): TMDB season 1快照明确为25集，剧集编号连续为1至25，支持将完整TV正篇映射为season 1全季。\n\nhttps://theanimelist.net/anime/heat-guy-j-toriko-angel (search_snippet): 该条目将Heat Guy J: Toriko - Angel标为1集Special，并注明其父作品为Heat Guy J TV、播出日期为2003-09-26。\n\nhttps://www.thetvdb.com/series/heat-guy-j/episodes/9259785 (page): 该页面仅作为特别篇身份和日期的辅助核对：Angel (Hostage)于2003-09-26播出，制作公司Satelight、电视网TBS；其Aired Order为Season 0 Episode 1。TMDB编号采用TMDB快照而非该站编号。\n\n备注：TMDB快照中的首播日期和部分剧集日期与日本实际播出日期不一致，且剧集标题为泛化的「第N話」；这属于TMDB元数据异常，但不改变其season 1为25集、season 0为1集的结构证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4123; https://www.wikidata.org/wiki/Q2539404; https://en.wikipedia.org/wiki/List_of_Heat_Guy_J_episodes; https://www.themoviedb.org/tv/42731; https://www.themoviedb.org/tv/42731/season/1; https://theanimelist.net/anime/heat-guy-j-toriko-angel; https://www.thetvdb.com/series/heat-guy-j/episodes/9259785",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42731,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 42731,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

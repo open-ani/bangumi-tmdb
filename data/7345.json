@@ -1,0 +1,22 @@
+{
+  "anidbId": 172,
+  "bangumiId": 7345,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是 1988–1989 年、AIC 制作、共 4 集的 OVA；其四集标题和发行日期与 Vampire Princess Miyu OVA 对应。TMDB 80223 将该 OVA 收录为 1988 年 Season 1，共 4 集，故应纳入完整 Season 1。候选 TMDB 42460 是 1997 年 26 集 TV 版，不是本 subject。TMDB 摘要将末集日期记为 1989-04-21，而 Bangumi/独立剧集资料记为 1989-04-01，属于日期记录差异，但不影响作品版本、季号和完整四集范围的确认。\n\nhttps://bgm.tv/subject/7345 (search_snippet): Bangumi 将该 subject 标为《吸血姫美夕 OVA》，共 4 集，发行时间为 1988-07-21 至 1989-04-01，制作公司为 AIC，并明确与 1997 年 TV 版区分。\n\nhttps://www.themoviedb.org/tv/80223/watch?language=en-US (search_snippet): TMDB 记录 Vampire Princess Miyu 的 Season 1 为 1988 年、共 4 集，首播日为 1988-07-21，类型为 Video，并列出末集 Frozen Time（1x4）。\n\nhttps://www.imdb.com/title/tt0095474/episodes/ (search_snippet): 四集标题与日期依次对应 妖の都（1988-07-21）、繰の宴（1988-10-21）、脆き鎧（1988-12-21）、凍る刻（1989-04-01）。\n\nhttps://www.themoviedb.org/tv/42460 (api_snapshot): 输入提供的 TMDB API 快照显示该候选为 1997-10-07 首播、共 26 集的 TV 作品，因此不是 1988–1989 年四集 OVA。\n\nhttps://www.themoviedb.org/tv/42460/season/0 (api_snapshot): 输入提供的 Season 0 请求返回 HTTP 404；该失败未被当作不存在，仅说明不能用该失败响应支持候选季。\n\n备注：TMDB 80223 的末集日期摘要为 1989-04-21，与 Bangumi及独立剧集资料的 1989-04-01 不一致；需以 TMDB 具体集页面或其后台数据进一步确认日期。；AniDB 172 的详情页访问返回 403，AniDB 关联主要依据输入中已标记为 matched 的关联结果及 Bangumi/作品资料交叉核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7345; https://www.themoviedb.org/tv/80223/watch?language=en-US; https://www.imdb.com/title/tt0095474/episodes/; https://www.themoviedb.org/tv/42460; https://www.themoviedb.org/tv/42460/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80223,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

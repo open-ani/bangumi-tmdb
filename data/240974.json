@@ -1,0 +1,24 @@
+{
+  "anidbId": 13952,
+  "bangumiId": 240974,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 240974 明确是2018年10月25日开始、共10集的TV版；其标题、首播日期、剧情、角色和制作信息均与TMDB 83451一致。TMDB第1季实际包含1–23集，其中1–10集日期为2018年10月25日至12月27日，与本subject完全对应；11–23集为2019年4月开始的第二季内容，且Bangumi另立subject 261048，因此不能纳入整季。\n\nhttps://bgm.tv/subject/240974 (page): Bangumi条目标注为TV、10话，放送开始于2018年10月25日，制作公司为J.C.STAFF，剧情为六位亚瑟折断百万圣剑。\n\nhttps://bgm.tv/subject/261048 (page): Bangumi将2019年4月4日开始、13话的第二季单独建立为subject 261048，说明其不应并入本subject。\n\nhttps://www.themoviedb.org/tv/83451 (api_snapshot): TMDB API快照显示作品首播日期为2018-10-25、共23集；简介、日文标题和制作/剧情设定与Bangumi条目一致。\n\nhttps://www.themoviedb.org/tv/83451/season/1 (api_snapshot): TMDB API快照明确season_number=1；第1至10集标题和日期分别对应Bangumi的10集，日期从2018-10-25连续至2018-12-27；第11至23集则从2019-04-04开始。\n\nhttps://animeschedule.net/anime/hangyakusei-million-arthur (search_snippet): 搜索摘要独立标注该版本为TV、Fall 2018、10集，标题和日文名与目标一致。\n\n备注：输入中的AniDB ID 13952与标题匹配，但AniDB页面本身未能成功读取；本次结论主要由Bangumi条目、独立搜索摘要和TMDB季/集API快照交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/240974; https://bgm.tv/subject/261048; https://www.themoviedb.org/tv/83451; https://www.themoviedb.org/tv/83451/season/1; https://animeschedule.net/anime/hangyakusei-million-arthur",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 10,
+      "id": 83451,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

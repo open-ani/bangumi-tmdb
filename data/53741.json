@@ -1,0 +1,22 @@
+{
+  "anidbId": 1455,
+  "bangumiId": 53741,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确记载这是 1996 年版《ゲゲゲの鬼太郎》（第四作），1996-01-07 开播、1998-03-29 结束，共 114 集，并列出东映动画等制作信息。TMDB 37144 具有相同日文标题、首播日期、剧情设定和 114 集总数；其 seasons 字段明确只有 season 1，且该季为 114 集。因此候选中的 season 4 是把作品的“第四作”误当成了 TMDB 季号，应采用 season 1 的完整一季。\n\nhttps://bgm.tv/subject/53741 (page): Bangumi 将 subject 53741 标为 TV，中文名为“鬼太郎第四季”，别名含“ゲゲゲの鬼太郎 (1996)”和“ゲゲゲの鬼太郎 (第4作)”，共 114 话，放送期为 1996-01-07 至 1998-03-29；制作方为东映动画等。\n\nhttps://www.themoviedb.org/tv/37144 (api_snapshot): 所附 TMDB API 快照显示 TMDB 37144 的日文标题为“ゲゲゲの鬼太郎”，首播日期为 1996-01-07，剧情与鬼太郎及妖怪共存主题相符，共 114 集；seasons 明确为 season_number 1、episode_count 114。\n\nhttps://www.themoviedb.org/tv/37144/season/4 (api_snapshot): 所附 TMDB API 快照记录 season 4 请求返回 HTTP 404；结合同一作品主响应明确仅列出 season 1，说明候选的 TMDB 季号 4 不成立。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开搜索摘要列出 AniDB 标题索引 1455 对应“Gegege no Kitarou (1996)”，与 Bangumi 的 1996 年第四作及 TMDB 37144 的标题、日期相符。\n\n备注：AniDB 原页面访问返回 403，无法直接读取其完整条目；但提供的 AniDB ID 1455、公开标题索引以及 Bangumi/TMDB 的年份、标题和制作信息相互吻合。；TMDB 主响应没有附带完整 season 1 剧集标题列表；本次采用的是其明确给出的 season 1 / 114 集字段，而不是由计数或外部数据库推算季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53741; https://www.themoviedb.org/tv/37144; https://www.themoviedb.org/tv/37144/season/4; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 37144,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

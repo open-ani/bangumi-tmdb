@@ -1,0 +1,28 @@
+{
+  "anidbId": 602,
+  "bangumiId": 37464,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 1997 年播出的 MAZE☆爆熱時空 TV，正篇为 25 集；TMDB 9642 的第 1 季明确标为 TVシリーズ且为 25 集，故对应整季。Bangumi 的第 26 集特别篇标题与 TMDB 9642 第 0 季唯一集标题完全一致，且 TMDB 简介明确说明是 TV 动画的后日谈，因此应追加第 0 季第 1 集。OVA 与剧场版在 Bangumi 中是独立 subject，不纳入本主体。TMDB 的 TV 首播日期显示为 1997-04-09，与 Bangumi 及独立剧集资料所示 1997-04-02 不一致，但名称、制作信息、正篇集数及特别篇标题均支持该对应关系。\n\nhttps://bgm.tv/subject/37464 (search_snippet): Bangumi 条目标为 MAZE☆爆熱時空 TV，记载 1997-04-02 开播、26 话；其关联中 OVA 与剧场版为独立条目。\n\nhttps://www.themoviedb.org/tv/9642 (api_snapshot): TMDB TV 9642 名为 MAZE☆爆熱時空，number_of_episodes 为 25；季列表包含第 0 季“特別編”1 集和第 1 季“TVシリーズ”25 集。\n\nhttps://www.themoviedb.org/tv/9642/season/0 (api_snapshot): TMDB 第 0 季唯一集标题为“作者真剣! 愛と死を見つめて…湯煙温泉紀行看護婦は見た”，日期为 1998-11-01，简介明确称其为 TV 动画的后日谈特别新作。\n\nhttps://zh.wikipedia.org/wiki/MAZE%E2%98%86爆熱時空 (search_snippet): 独立资料记载 TV 版于 1997-04-02 至 1997-09-24 播出，共 25 话，第 26 话为录像带全套购买特典，支持 Bangumi 的 25 集正篇加特别篇结构。\n\n备注：TMDB 输入快照未附第 1 季逐集列表，因此无法逐集核对标题；但季名、季号、25 集数与 Bangumi 正篇 25 集已足以支持整季对应。；TMDB TV 主条目的 first_air_date 为 1997-04-09，与 Bangumi 的 1997-04-02 不一致，可能是 TMDB 日期录入差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/37464; https://www.themoviedb.org/tv/9642; https://www.themoviedb.org/tv/9642/season/0; https://zh.wikipedia.org/wiki/MAZE%E2%98%86爆熱時空",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 9642,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 9642,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

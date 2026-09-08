@@ -1,0 +1,23 @@
+{
+  "anidbId": 15931,
+  "bangumiId": 322899,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2021-08-18 发售、1 话的《トニカクカワイイ ～SNS～》，且 AniDB 关联 ID 15931 的标题包含 Tonikaku Kawaii: SNS。TMDB TV 100049 的第 0 季为特別編，其中第 14 集标题正是「トニカクカワイイ ～SNS～」，日期为 2021-08-18，简介描述也对应 SNS 主体剧情。因此应映射到第 0 季第 14 集，而不是纳入整季。\n\nhttps://bgm.tv/subject/322899 (page): Bangumi subject 标题为《トニカクカワイイ ～SNS～》，发售日为 2021-08-18，主体话数为 1；关联 AniDB ID 为 15931，AniDB 标题包含 Tonikaku Kawaii: SNS。\n\nhttps://www.themoviedb.org/tv/100049 (api_snapshot): TMDB TV 100049 标题为《トニカクカワイイ》，包含第 0 季「特別編」。\n\nhttps://www.themoviedb.org/tv/100049/season/0 (api_snapshot): 第 0 季第 14 集标题为「トニカクカワイイ ～SNS～」，日期为 2021-08-18，简介描述司与纳萨通过 SNS 联系，和 Bangumi 主体一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/322899; https://www.themoviedb.org/tv/100049; https://www.themoviedb.org/tv/100049/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "id": 100049,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

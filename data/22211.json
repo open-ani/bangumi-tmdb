@@ -1,0 +1,22 @@
+{
+  "anidbId": 831,
+  "bangumiId": 22211,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目标明为《思春期美少女合体ロボ ジーマイン》OVA，共 6 话，发行期为 1999-02-25 至 1999-07-25；官方 Sunrise 页面也确认英文名 Z-MIND、全 6 话及相同首末发行日期。AniDB ID 831 的标题包含同一作品的完整英文异名。TMDB TV 77381 使用完全相同的日文标题、首播日期和 6 集总数；其第 1 季明确为 6 集，集数日期依次对应 Bangumi 的 6 个正篇日期。因此应映射为完整的 TMDB 第 1 季，不需缩小集数范围。\n\nhttps://bgm.tv/subject/22211 (page): Bangumi 将该条目标为 OVA，共 6 话；标题、制作人员、1999-02-25 开始和 1999-07-25 结束均与目标作品一致。\n\nhttps://www.sunrise-world.net/titles/pickup_077.php (page): Sunrise 官方资料确认《思春期美少女合体ロボ ジーマイン》英文名 Z-MIND、全 6 话、首卷 1999-02-25、最终卷 1999-07-25，并列出 Sunrise 制作及主要工作人员。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题映射摘要将 ID 831 对应为 Shishunki Bishoujo Gattai Robo Z-Mind: The Battling Days of the \"Shitamachi\" Virgins，与 Bangumi 作品别名和主体一致。\n\nhttps://www.themoviedb.org/tv/77381 (api_snapshot): TMDB API 快照显示 TV ID 77381 的日文标题与 Bangumi 相同，首播日期为 1999-02-25，总集数为 6，且仅有第 1 季并标为 6 集。\n\nhttps://www.themoviedb.org/tv/77381/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 6 集，日期依次为 1999-02-25、03-25、04-25、05-25、06-25、07-25，与 Bangumi 六个正篇日期逐一对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/22211; https://www.sunrise-world.net/titles/pickup_077.php; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/77381; https://www.themoviedb.org/tv/77381/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 77381,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "anidbId": 2072,
+  "bangumiId": 432264,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 1988-03-12、约25–27分钟的独立剧场动画电影。AniDB 2072 明确标为 Movie，并列出官方日文名、中文别名、上映日期、单集 Movie 记录及与 21 集 TV 系列的关联。独立资料说明该电影是 TV 系列世界观一年后的剧场新作，不应映射为候选 TV 的整季或第21集。TMDB 演员履历将“Lady Lady!! The Movie”与 21 集 TV 系列分开列出；独立 TMDB 映射资料给出该电影的 TMDB ID 为 698806。候选 44666 的 season=0 请求失败，且其可读取的 TV 数据对应 1987 年 21 集系列及 1988 年 36 集续作，不能作为本电影主体映射。\n\nhttps://anidb.net/anime/2072 (page): AniDB 2072 标题为 Lady Lady!! (1988)，类型为 Movie，日期为 1988-03-12，别名包含新小甜甜；页面记录约25分钟、单个 Movie episode，并将其与21集 TV Series分别列出。\n\nhttps://eiga.com/movie/68322/ (search_snippet): 电影资料标明日本剧场公开日为1988-03-12、片长27分钟、东映发行，并给出与输入一致的剧情和主要制作人员。\n\nhttps://www.allcinema.net/cinema/pdf/150409 (search_snippet): 资料将其标为1988年的动画电影、27分钟；说明这是 TV 动画的剧场新作，描写 TV 版世界一年后的故事。\n\nhttps://www.themoviedb.org/person/551647 (page): TMDB 演员履历分别列出“Lady Lady!! The Movie”和“Lady Lady!!” TV 版（21 episodes），且共同列有沃ーパン公爵配音戸谷公次，支持电影与 TV 为不同条目。\n\nhttps://github.com/shinkro/community-mapping/blob/main/tmdb-mal-master.yaml (search_snippet): 独立映射资料将 Lady Lady!! (1988) 映射到 TMDB movie ID 698806。\n\nhttps://www.themoviedb.org/tv/44666 (api_snapshot): 所附 TMDB API 快照显示候选44666是57集 TV 项目，包含 season 1（21集）和 season 2（36集），首播日为1987-10-21。\n\nhttps://www.themoviedb.org/tv/44666/season/0 (api_snapshot): 所附快照中的 season 0 请求返回 HTTP 404；这只能说明该请求未提供季数据，不能据此推断电影不存在，但也不足以支持使用 season 0。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/432264; https://anidb.net/anime/2072; https://eiga.com/movie/68322/; https://www.allcinema.net/cinema/pdf/150409; https://www.themoviedb.org/person/551647; https://github.com/shinkro/community-mapping/blob/main/tmdb-mal-master.yaml; https://www.themoviedb.org/tv/44666; https://www.themoviedb.org/tv/44666/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 698806,
+      "type": "movie"
+    }
+  ]
+}

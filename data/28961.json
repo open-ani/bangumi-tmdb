@@ -1,0 +1,22 @@
+{
+  "anidbId": 7426,
+  "bangumiId": 28961,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 TV、51 话，播出时间为 2010-04-04 至 2011-03-27，制作人员、剧情和日文标题均对应《メタルファイト ベイブレード 爆》/Metal Fight Beyblade: Baku。AniDB 7426 的标题也对应 Metal Fight Beyblade: Baku。TMDB 37807 是包含 Metal Fight Beyblade 各系列的总 TV 条目，其 season 2 明确命名为「メタルファイトベイブレード爆」，共有 51 集；季内第 1–51 集日期与 Bangumi 的主体集数和播出序列基本逐集对应。因此应映射为 TV 37807 第 2 季完整一季，不包含电影或其他季度。\n\nhttps://bgm.tv/subject/28961 (page): Bangumi 将条目标为 TV，话数 51，播出开始于 2010-04-04、结束于 2011-03-27；制作公司为 SynergySP，并将前作、续作 4D 与剧场版分别列为关联条目。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): AniDB 标题数据中将 ID 7426 对应为 “Metal Fight Beyblade: Baku”，与 Bangumi 的日文标题和版本相符。\n\nhttps://www.themoviedb.org/tv/37807 (api_snapshot): TMDB TV 37807 的总条目包含 season 1「メタルファイト ベイブレード」、season 2「メタルファイトベイブレード爆」、season 3「メタルファイトベイブレード4D」和 season 4「ZERO-G」，可区分本条目对应的季度。\n\nhttps://www.themoviedb.org/tv/37807/season/2 (api_snapshot): TMDB season 2 明确为「メタルファイトベイブレード爆」，season_number=2、episodeCount=51，剧集编号完整覆盖 1–51；剧集日期总体对应 2010-04-04 至 2011-03-27。\n\nhttps://beyblade.fandom.com/wiki/Beyblade%3A_Metal_Masters (search_snippet): 独立资料将 Metal Fight Beyblade Baku/Metal Masters 记为 51 集、2010 年播出，并列出与该季相符的制作和剧情信息。\n\n备注：TMDB 季级 air_date 为 2010-04-03，而 Bangumi 首播为 2010-04-04；TMDB 第 4 集快照还出现 2011-04-25，明显与逐集播出序列及 Bangumi 的 2010-04-25 不一致。这些属于 TMDB 日期元数据异常，不影响 season 2 及完整 1–51 集范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28961; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/37807; https://www.themoviedb.org/tv/37807/season/2; https://beyblade.fandom.com/wiki/Beyblade%3A_Metal_Masters",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 37807,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

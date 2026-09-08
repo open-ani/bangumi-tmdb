@@ -1,0 +1,22 @@
+{
+  "anidbId": 11699,
+  "bangumiId": 148436,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2016-07-03 开播、共 8 话的 TV 动画《アルスラーン戦記 風塵乱舞》，不是电影、OVA、总集篇或重剪版。TMDB TV 62430 的第 2 季明确同名，开播日为 2016-07-03、共 8 话；完整剧集标题和日期逐一对应 Bangumi 的 8 话，因此应映射为该 TV 的完整第 2 季。\n\nhttps://bgm.tv/subject/148436 (search_snippet): Bangumi 页面标为 TV，标题为《アルスラーン戦記 風塵乱舞》，话数 8，放送开始于 2016-07-03，并列出 01—08 共 8 话。\n\nhttps://arslan.jp/news/index01040000.html (search_snippet): 官方动画网站说明第 2 期自 2016 年 7 月播出，共 8 话。\n\nhttps://www.themoviedb.org/tv/62430 (api_snapshot): TMDB TV 62430 为《アルスラーン戦記》，首播 2015-04-05，包含名称为《アルスラーン戦記 風塵乱舞》的第 2 季，季集数为 8。\n\nhttps://www.themoviedb.org/tv/62430/season/2 (api_snapshot): TMDB 第 2 季明确为 season 2，开播 2016-07-03、共 8 集；第 1—8 集标题和日期分别与 Bangumi 8 话逐一对应，未见需要排除或追加的主体集数。\n\n备注：未直接读取 AniDB 11699 的详情页；但该 AniDB 线索并非结论唯一依据，Bangumi subject 与 TMDB 第 2 季已通过标题、年份、剧情背景、制作/作品信息及完整 8 集标题日期独立吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148436; https://arslan.jp/news/index01040000.html; https://www.themoviedb.org/tv/62430; https://www.themoviedb.org/tv/62430/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 62430,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

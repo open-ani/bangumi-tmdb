@@ -1,0 +1,22 @@
+{
+  "anidbId": 14193,
+  "bangumiId": 252347,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ピアノの森 第2シリーズ》TV，12 集，2019-01-27 开始；TMDB TV 78471 的第 2 季同名、同日开始且为 12 集。TMDB 第 2 季的 12 个日文标题与 Bangumi 章节逐一对应，因此应映射为完整第 2 季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/252347 (page): Bangumi 将该条目标为 TV，标题为《ピアノの森 第2シリーズ》，共 12 集，放送开始于 2019-01-27，结束于 2019-04-14；章节为 01–12。\n\nhttps://www.themoviedb.org/tv/78471 (api_snapshot): TMDB 主条目《ピアノの森》共 24 集，分为第 1 季和第 2 季，各 12 集；第 2 季日期为 2019-01-27。\n\nhttps://www.themoviedb.org/tv/78471/season/2 (api_snapshot): TMDB 第 2 季名称为《第2シリーズ》，共 12 集；其完整剧集标题与 Bangumi 第 2 系列的 12 个标题逐一匹配。\n\n备注：TMDB 快照中的第 8–12 集日期与 Bangumi 日期存在差异，且 TMDB 将多集日期记录为 2019-03-23；但标题、季名、开播日和 12 集范围均一致。；AniDB 14193 的直接页面本次无法读取（403），但输入中的 AniDB 匹配名称、Bangumi 条目元数据和 TMDB 季内容共同支持该版本对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/252347; https://www.themoviedb.org/tv/78471; https://www.themoviedb.org/tv/78471/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 78471,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

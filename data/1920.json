@@ -1,0 +1,29 @@
+{
+  "anidbId": 4265,
+  "bangumiId": 1920,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 1920 是 GONZO／Satelight 制作的2006年原创电视动画《ガラスの艦隊》，正篇按制作、影碟及后续合集顺序共26话。TMDB 26383 是同名、同年份的该电视作品，但按电视播出结构把24个实际播出时段放在第1季；制作第17话《抱擁のごとく…》和第22话《憧憬のごとく…》因电视未播而收在第0季第1、2集。因此应映射完整第1季并补充第0季第1—2集。第0季第3集为另外的「Bangai-hen」，不属于这26话正篇，予以排除。\n\nhttps://bgm.tv/subject/1920 (page): Bangumi 页面确认该主体中文名为《玻璃舰队》，共26话，2006年4月4日开播，原作GONZO、导演大原実，动画制作Satelight与GONZO。\n\nhttps://www.themoviedb.org/tv/26383 (api_snapshot): TMDB API快照确认电视作品26383的原名和名称均为《ガラスの艦隊》，首播于2006年，主体含24集第1季及3集第0季；名称、年代、国家和媒介均与目标一致。\n\nhttps://www.themoviedb.org/tv/26383/season/1 (api_snapshot): TMDB API快照确认第1季共有24集，均约24—25分钟，日期从2006年4月至9月，构成该动画实际电视播出的24集序列，故映射完整一季。\n\nhttps://www.themoviedb.org/tv/26383/season/0 (api_snapshot): TMDB API快照明确确认该TMDB条目的第0季有3集，并给出第1—3集的具体TMDB集号；结合官方正篇资料及特别篇内容清单，第1、2集对应两部电视未播正篇，第3集是另行的番外篇。\n\nhttps://www.gonzo.co.jp/archives/garakan/goods_dvd.html (page): GONZO官方影碟页明确把《抱擁のごとく…》编号为第17话、把《憧憬のごとく…》编号为第22话，并分别注明为电视未播话；它们仍处在第15—17话及第21—23话的正篇影碟顺序中。\n\nhttps://avex.jp/zenwami_blu-ray/product/detail.php?id=1017812 (page): Avex官方全话Blu-ray页面依次列出第1—26话，其中第17话为《抱擁のごとく…》、第22话为《憧憬のごとく…》，证明两话属于本主体26话正篇，而非额外特典。\n\nhttps://watch.plex.tv/en-GB/show/glass-fleet-1/season/0 (page): 特别篇内容清单依次列为E1《Like an Embrace》、E2《Like Adoration》、E3《Bangai-hen》；该资料仅用于核对三集内容和排除第三集，TMDB季号与集号本身取自TMDB API快照。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1920; https://www.themoviedb.org/tv/26383; https://www.themoviedb.org/tv/26383/season/1; https://www.themoviedb.org/tv/26383/season/0; https://www.gonzo.co.jp/archives/garakan/goods_dvd.html; https://avex.jp/zenwami_blu-ray/product/detail.php?id=1017812; https://watch.plex.tv/en-GB/show/glass-fleet-1/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 26383,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 26383,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

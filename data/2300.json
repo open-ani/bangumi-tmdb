@@ -1,0 +1,30 @@
+{
+  "anidbId": 3321,
+  "bangumiId": 2300,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 34065 的日文原名、首播年份、人物、剧情及逐集标题均对应2005年GONZO版《BLACK CAT》。TMDB第1季采用TBS的23话播出编号；Bangumi 2300 还把未在TBS播出的《遠ざかる猫》作为插入正篇收录。该话在TMDB被编为S0E1，因此主体范围应合并S1E1–E23和S0E1。S0E2–E6并非本subject列出的正篇，不纳入映射。\n\nhttps://www.themoviedb.org/tv/34065 (api_snapshot): TMDB API快照显示TV 34065名为《BLACK CAT》，原名《ブラックキャット》，2005-10-07首播；简介中的托雷、史温、伊芙、克利得、克罗诺斯及“星之使徒”等人物和情节与Bangumi作品一致，并记载第1季共23集。\n\nhttps://www.themoviedb.org/tv/34065/season/1 (api_snapshot): TMDB API快照列出第1季E1《孤独な猫》至E23《気ままな猫》，标题、播出时间和剧情与该动画的23话TBS播出版逐集对应。\n\nhttps://www.themoviedb.org/tv/34065/season/0 (api_snapshot): TMDB API快照显示S0E1为24分钟的《遠ざかる猫》，日期为2006-07-26，与Bangumi正篇列表中sort=15.5的同名一话吻合；其余S0E2–E6不在Bangumi正篇集目中。\n\nhttps://www.tbs.co.jp/anime/blackcat/03story.html (page): TBS官方故事页列出23话电视播出版本，从《孤独な猫》到《気ままな猫》，其中《竜を狩る猫》是播出版第15话，证明TMDB第1季采用这一23话编号。\n\nhttps://www.tbs.co.jp/anime/blackcat/05goods-dvd.html (page): TBS官方DVD页显示Vol.8于2006-07-26发行，收录第15话《遠ざかる猫》和第16话《竜を狩る猫》，并注明后者在TBS播出时为第15话；后续DVD集号也依次加一，证明《遠ざかる猫》是插入系列正篇编号的完整一话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2300; https://www.themoviedb.org/tv/34065; https://www.themoviedb.org/tv/34065/season/1; https://www.themoviedb.org/tv/34065/season/0; https://www.tbs.co.jp/anime/blackcat/03story.html; https://www.tbs.co.jp/anime/blackcat/05goods-dvd.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 23,
+      "id": 34065,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34065,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

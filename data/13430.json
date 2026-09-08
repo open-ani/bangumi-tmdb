@@ -1,0 +1,22 @@
+{
+  "anidbId": 4776,
+  "bangumiId": 13430,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2007 年、12 话的《Devil May Cry》TV 动画，别名、但丁主角、CAPCOM 原作及 MADHOUSE 制作信息与 TMDB 12577 相符。AniDB 标题数据也将 ID 4776 对应为 Devil May Cry。TMDB 第1季明确为 12 集，且完整剧集标题 Mission 1–12 与 Bangumi 正篇逐集一致，因此应映射整季。Bangumi 输入中的第10集日期与 TMDB 季快照不同，但不影响作品身份和完整12集范围。\n\nhttps://bgm.tv/subject/13430 (page): Bangumi 将其标为 TV、12 话，首播 2007-06-14；别名包括 Devil May Cry: The Animated Series，原作为 CAPCOM 游戏，动画制作公司为 MADHOUSE。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 标题数据片段显示 AniDB ID 4776 对应 Devil May Cry。\n\nhttps://www.themoviedb.org/tv/12577 (api_snapshot): TMDB 12577 的原名为デビル メイ クライ，首播 2007-06-14，共 12 集，只有第1季；简介描述但丁经营 Devil May Cry 事务所并猎魔。\n\nhttps://www.themoviedb.org/tv/12577/season/1 (api_snapshot): TMDB 第1季明确包含 12 集；完整标题 Devil May Cry、Highway Star、Not Love、Rolling Thunder、In Private、Rock Queen、Wishes Come True、Once Upon a Time、Death Poker、The Last Promise、Showtime!、Stylish! 与 Bangumi 第1至12话一致。\n\nhttps://en.wikipedia.org/wiki/Devil_May_Cry%3A_The_Animated_Series (search_snippet): 搜索摘要记载该动画于 2007-06-14 在 WOWOW 首播、共12集，最后一集为 2007-09-06，与 Bangumi/TMDB 的主体播出时间范围相符。\n\n备注：Bangumi 输入中第10集日期为 2007-08-26，而 TMDB 第1季快照为 2007-08-23；这是日期资料差异，未发现会导致季号或集数范围变化的版本证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/13430; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/12577; https://www.themoviedb.org/tv/12577/season/1; https://en.wikipedia.org/wiki/Devil_May_Cry%3A_The_Animated_Series",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 12577,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

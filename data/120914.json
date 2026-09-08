@@ -1,0 +1,29 @@
+{
+  "anidbId": 11000,
+  "bangumiId": 120914,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 120914 明确是包含 2 集的 OVA；两集标题和日期分别为「東城刃更のハードスウィートな日常」(2015-06-22) 与「東城刃更の至極平和な日常」(2016-01-23)。AniDB 11000 与第一集的完整标题、OVA 类型、制作背景相符，并将 Burst 版 OVA 列为相关作品；Bangumi 将两个版本合并为同一 subject。TMDB TV 64163 的第 0 季中，第 7 集和第 13 集分别具有完全对应的两个标题，因此应分别映射，不能纳入包含其他特典的整季。\n\nhttps://bgm.tv/subject/120914 (page): Bangumi 将该条目标为 OVA，共 2 话；制作人员、Production IMS、发售范围及与主线和 BURST 的关联均相符。\n\nhttps://bgm.tv/ep/460543 (page): Bangumi 第 1 集标题为「東城刃更のハードスウィートな日常」，首播日期为 2015-06-22，时长约 25 分钟。\n\nhttps://bgm.tv/ep/511083 (page): Bangumi 第 2 集标题为「東城刃更の至極平和な日常」，首播日期为 2016-01-23，时长约 24 分钟。\n\nhttps://anidb.net/anime/11000 (page): AniDB 11000 的主标题、日文官方标题和中文别名对应第一集 OAD；类型为 OVA、年份为 2015，并注明与第 8 卷捆绑，且关联主 TV 与另一个 BURST OVA。\n\nhttps://anilist.co/anime/21489/Shinmai-Maou-no-Testament-BURST-Toujou-Basara-no-Shigoku-Heiwa-na-Nichijou (search_snippet): 独立条目将「新妹魔王の契約者 BURST 東城刃更の至極平和な日常」识别为 2016 年、1 集、Production IMS 制作的 OVA，并说明其为第 7 卷捆绑作品。\n\nhttps://www.themoviedb.org/tv/64163 (api_snapshot): TMDB API 快照显示 TV 64163 为《新妹魔王の契約者》，首播于 2015 年，并包含第 0 季特别篇及主系列季。\n\nhttps://www.themoviedb.org/tv/64163/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 7 集标题为「東城刃更のハードスウィートな日常」，第 13 集标题为「東城刃更の至極平和な日常」；第 0 季还包含其他特典，因此仅选取第 7、13 集。\n\n备注：第二集 Bangumi 日期为 2016-01-23，而 TMDB/API 快照及其他资料为 2016-01-26；标题、时长、剧情背景和制作信息一致，暂视为发行日期与平台记录差异。；AniDB 11000 本身主要对应第一集 OAD，第二集属于另一个 BURST OVA；这是 Bangumi 合并 subject 的版本结构，不影响对该 Bangumi subject 两个主体章节的分别映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/120914; https://bgm.tv/ep/460543; https://bgm.tv/ep/511083; https://anidb.net/anime/11000; https://anilist.co/anime/21489/Shinmai-Maou-no-Testament-BURST-Toujou-Basara-no-Shigoku-Heiwa-na-Nichijou; https://www.themoviedb.org/tv/64163; https://www.themoviedb.org/tv/64163/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 7,
+      "id": 64163,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 13,
+      "id": 64163,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 18838,
+  "bangumiId": 509986,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 262929 与 Bangumi subject 均为《アポカリプスホテル／末日后酒店》，简介、日文集数标题、制作国家和制作类型均对应；TMDB 第1季明确包含12集，且与 Bangumi 的12集标题及顺序逐集吻合，因此对应完整第1季。\n\nhttps://bgm.tv/subject/509986 (page): Bangumi subject 标题为《アポカリプスホテル／末日后酒店》，2025年4月8日开播，共12集；输入数据中的 AniDB 关联为 ID 18838。\n\nhttps://www.themoviedb.org/tv/262929 (api_snapshot): TMDB TV 262929 标题为《アポカリプスホテル》，简介描述东京银座酒店“银河楼”的机器人服务员与外星访客，首播年份为2025年，共12集。\n\nhttps://www.themoviedb.org/tv/262929/season/1 (api_snapshot): TMDB 第1季明确为 season_number=1、episodeCount=12；第1至第12集标题和剧情概要与 Bangumi 提供的12集逐集对应。\n\n备注：TMDB 记录的首播日期及各集日期比 Bangumi 记录晚一天（可能是日期记录或时区差异），但不影响标题、顺序和集数范围的对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/509986; https://www.themoviedb.org/tv/262929; https://www.themoviedb.org/tv/262929/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 262929,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

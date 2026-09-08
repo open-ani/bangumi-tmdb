@@ -1,0 +1,22 @@
+{
+  "anidbId": 3484,
+  "bangumiId": 169499,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 1977 年日本 TV 动画，共 26 集，播出时间为 1977-06-07 至 1977-12-06；其标题、剧情、角色与制作信息均与 AniDB ID 3484 对应的《Seton Doubutsuki: Kuma no Ko Jacky》一致。TMDB 52270 第 1 季完整列出 26 集，集标题和剧情从第 1 集至第 26 集与该主体逐集对应，因此采用完整第 1 季。TMDB 顶层另列第 2 季 26 集，但缺乏对应剧集证据，未纳入。\n\nhttps://bgm.tv/subject/169499 (page): Bangumi 页面标明该条目为 TV、共 26 集，放送时间为 1977-06-07 至 1977-12-06，并给出与 Jackie、Jill、Ran 相关的剧情和制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 编号 3484 对应标题 Seton Doubutsuki: Kuma no Ko Jacky，核对了 Bangumi 提供的 AniDB 关联。\n\nhttps://www.themoviedb.org/tv/52270 (api_snapshot): TMDB 快照显示候选作品原名为シートン動物記 くまの子ジャッキー，首播日为 1977-06-07，剧情为少年 Ran 收养失去母亲的 Jackie 与 Jill；顶层信息列出第 1 季和第 2 季各 26 集。\n\nhttps://www.themoviedb.org/tv/52270/season/1 (api_snapshot): TMDB 第 1 季快照明确包含 26 集，剧集 1–26 的标题、日期和剧情均已读取，内容与 Bangumi 主体的 26 集故事对应。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=23512 (search_snippet): 日本官方 dアニメストア页面标明该作品为全 26 话，列出的第 1 至第 26 话标题与 TMDB 第 1 季逐集一致，并注明 1977 年制作及日本动画相关工作人员。\n\nhttps://www.tvmaze.com/shows/56330/seton-dobutsuki-kuma-no-ko-jacky/episodeguide (search_snippet): 独立剧集表将该作品列为单一 Season 1，共 26 集，播出日期从 1977-06-07 至 1977-12-06，集标题与 TMDB 第 1 季一致。\n\n备注：TMDB 顶层快照异常列出第 2 季 26 集，但未提供第 2 季剧集详情，且独立资料均将该作品列为单季 26 集；因此仅采用已逐集核对的第 1 季。；TMDB 第 1 季快照中第 4 集日期为 1977-09-28，与独立剧集表显示的 1977-06-28 不一致，但集标题、顺序和主体范围一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/169499; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/52270; https://www.themoviedb.org/tv/52270/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=23512; https://www.tvmaze.com/shows/56330/seton-dobutsuki-kuma-no-ko-jacky/episodeguide",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 52270,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

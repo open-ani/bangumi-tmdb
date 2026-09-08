@@ -1,0 +1,22 @@
+{
+  "anidbId": 6672,
+  "bangumiId": 2604,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《夏のあらし! ～春夏冬中～》第二季，TV、13 集，2009 年 10 月播出，并关联前作。输入中的 AniDB ID 6672 对应 Natsu no Arashi! Akinai-chuu；TMDB 44687 的第 2 季同名、13 集，完整剧集标题与 Bangumi 的 1–13 集逐集一致，剧情简介和制作背景也相符。因此应映射为 TMDB TV 44687 第 2 季完整一季。Bangumi 的 10 月 4 日与 TMDB 的 10 月 5 日属于日期显示差异，不影响版本判断。\n\nhttps://bgm.tv/subject/2604 (page): Bangumi 条目为《夏のあらし! ～春夏冬中～》，类型 TV，话数 13，放送开始 2009-10-04，并关联前作《夏のあらし!》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据中，ID 6672 对应 Natsu no Arashi! Akinai-chuu，与该 Bangumi 条目标题一致。\n\nhttps://www.themoviedb.org/tv/44687 (api_snapshot): TMDB TV 44687 名为《夏のあらし!》，共 26 集，包含第 1 季和第 2 季，各 13 集。\n\nhttps://www.themoviedb.org/tv/44687/season/2 (api_snapshot): TMDB 第 2 季编号为 2，名称为《夏のあらし!春夏冬中》，日期为 2009-10-05，共 13 集；快照列出第 1 至第 13 集，标题与 Bangumi 条目逐集匹配。\n\n备注：Bangumi 与 TMDB 的首播日期相差一天，可能源于时区或播出日期记录口径；未发现会导致版本或季号变化的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2604; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/44687; https://www.themoviedb.org/tv/44687/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44687,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

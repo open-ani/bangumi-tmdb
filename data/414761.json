@@ -1,0 +1,24 @@
+{
+  "anidbId": 5997,
+  "bangumiId": 414761,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1993-07-17 的短篇剧场版，主体包含「まほう使いのでし」和「大かいぞくの宝さがし」两段。AniDB 5997 同样标为 1993 年 Movie，并与 2004-2005 年 TV 系列区分。TMDB 45535 的第 1 季是 2004 年、52 集；独立剧集目录明确第 6 集为「まほうつかいのでし」、第 7 集为「大かいぞく」，对应电影主体的两段内容。因此采用 TV 第 1 季第 6-7 集的必要范围，而不是整季或候选的 season 0。\n\nhttps://bangumi.tv/subject/414761 (page): Bangumi 标明该条目为剧场版，1993-07-17 上映，共 2 话；章节为「まほう使いのでし」和「大かいぞくの宝さがし」。\n\nhttps://anidb.net/anime/5997 (page): AniDB 5997 的官方日文标题与 Bangumi 一致，类型为 Movie，年份为 1993；其直接关联的 TV 系列为 2004-2005 年、52 集，说明电影与 TV 是不同版本。\n\nhttps://www.themoviedb.org/tv/45535 (api_snapshot): TMDB API 快照显示 45535 为 2004-02-01 开始的「かいけつゾロリ」TV 作品；第 1 季名为「かいけつゾロリ」、共 52 集。\n\nhttps://annict.com/works/373/episodes (page): 该 2004 年 TV 作品的剧集表明确列出第 6 集「まほうつかいの でし」和第 7 集「大かいぞく」。\n\nhttps://www.themoviedb.org/tv/45535/season/0 (api_snapshot): TMDB API 快照中 season 0 请求失败（404）；不能将其作为不存在的证明，但也没有 season 0 的可用季集证据。\n\n备注：未确认 TMDB 是否另有独立收录的 1993 年电影条目；本结论采用 TMDB TV 作品中对电影两段内容的重制/改编集数作为对应目标。；TMDB 输入快照未提供第 1 季逐集标题，因此第 6-7 集编号由独立剧集页面核对，并与 TMDB 第 1 季的 2004 年、52 集信息交叉匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/414761; https://bangumi.tv/subject/414761; https://anidb.net/anime/5997; https://www.themoviedb.org/tv/45535; https://annict.com/works/373/episodes; https://www.themoviedb.org/tv/45535/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 6,
+      "episodeEnd": 7,
+      "id": 45535,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

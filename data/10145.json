@@ -1,0 +1,22 @@
+{
+  "anidbId": 3704,
+  "bangumiId": 10145,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2005 年播出的《ガイキング LEGEND OF DAIKU-MARYU》TV 动画，共 39 集；其标题、首播日期、制作公司、剧情和角色信息均与 TMDB TV 21210 相符。TMDB 明确只有第 1 季且包含 39 集，剧集标题从第 1 集至第 39 集与 Bangumi 主体逐集对应，因此应纳入完整第 1 季。该条目不是旧版《大空魔竜ガイキング》，Bangumi 将两者标为不同世界观。\n\nhttps://bgm.tv/subject/10145 (page): Bangumi 将条目标为 TV，中文名“新大空魔龙”，话数 39，放送开始于 2005-11-12，制作公司为东映动画；章节列表为 01–39，且关联中将旧版《大空魔竜ガイキング》标为不同世界观。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引将 AniDB ID 3704 对应为“Gaiking: Legend of Daiku-Maryu”，与 Bangumi 条目标题及其提供的 AniDB 关联一致。\n\nhttps://www.themoviedb.org/tv/21210 (api_snapshot): TMDB API 快照显示 TV 21210 的原名为“ガイキング LEGEND OF DAIKU-MARYU”，首播日期为 2005-11-12，共 39 集；简介中的大空魔竜、ガイキング、ダイヤ、ルル及达留斯军等剧情信息与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/21210/season/1 (api_snapshot): TMDB API 快照明确为 season_number=1，episodeCount=39，剧集编号完整覆盖 1–39；剧集标题、时长及首尾日期与 Bangumi 主体相符。\n\n备注：TMDB 快照中第 12–16 集部分 air_date 与 Bangumi 日期存在偏移，但标题和编号连续对应，且不影响应纳入完整第 1 季的结论。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10145; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/21210; https://www.themoviedb.org/tv/21210/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 21210,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

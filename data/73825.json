@@ -1,0 +1,22 @@
+{
+  "anidbId": 9893,
+  "bangumiId": 73825,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体是 2013 年播出的《BLAZBLUE ALTER MEMORY》TV 动画，共 12 话，放送期为 2013-10-08 至 2013-12-24，制作与剧情信息均与 TMDB 68485 一致。TMDB 明确存在第 1 季，包含 12 集；其完整剧集标题与 Bangumi 章节标题逐集对应，日期仅相差约一天，符合时区或平台记录差异。因此应映射为 TMDB TV 68485 第 1 季完整范围。\n\nhttps://bgm.tv/subject/73825 (page): Bangumi 将该主体标为 TV，话数 12，放送开始于 2013 年 10 月 8 日，结束于 2013 年 12 月 24 日；章节为 01 至 12，并记录了相同的原作、导演、人物设定和动画制作信息。\n\nhttps://www.themoviedb.org/tv/68485 (api_snapshot): TMDB 作品标题为 BLAZBLUE ALTER MEMORY，日文原名为 ブレイブルー オルターメモリー，首播日期为 2013-10-09，共 12 集；简介中的角色、世界观和剧情与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/68485/season/1 (api_snapshot): TMDB 明确标示 season_number=1、episodeCount=12；第 1 至 12 集标题依次与 Bangumi 的「赤き反逆者」「蒼の継承者」等 12 个章节对应，完整覆盖该 Bangumi 主体。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引的搜索结果将 AniDB ID 9893 对应为 BlazBlue: Alter Memory，与输入中的 AniDB 关联及 Bangumi 标题相符。\n\n备注：AniDB 官方页面无法直接读取，关联核对依赖输入中已标记为 matched 的 AniDB ID 9893 及公开标题索引；未发现会导致版本分歧的电影、OVA、总集篇或重剪版证据。；TMDB 首播和各集日期比 Bangumi 晚约一天，属于记录时区或日期口径差异，不影响标题、剧情、集数和季号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/73825; https://www.themoviedb.org/tv/68485; https://www.themoviedb.org/tv/68485/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68485,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

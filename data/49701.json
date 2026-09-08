@@ -1,0 +1,22 @@
+{
+  "anidbId": 466,
+  "bangumiId": 49701,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为1999年4月2日开播、1999年9月24日结束的26集 TV 动画；Bangumi 页面显示的标题、制作信息、剧情和26个章节与 TMDB TV 34701 完全对应。TMDB 第1季同样为1999年4月2日开播、26集，剧集标题和日期逐集匹配 Bangumi 第1至26话。因此应映射为 TMDB 34701 第1季完整一季。未发现需要拆分的主体内特别篇，也没有证据表明该条目是电影、OVA、总集篇或重剪版。\n\nhttps://bgm.tv/subject/49701 (page): Bangumi 条目标为 TV，26话，放送时间为1999年4月2日至1999年9月24日，并列出与作品主体相符的剧情、原作、制作和动画制作信息。\n\nhttps://anidb.net/anime/466 (page): AniDB 466 页面对应 Gokudou-kun Man`yuuki，与 Bangumi 条目的日文标题和作品主体一致。\n\nhttps://www.themoviedb.org/tv/34701 (api_snapshot): TMDB TV 34701 的标题为ゴクドーくん漫遊記，首播日期为1999年4月2日，共26集，剧情简介与 Bangumi 条目相符。\n\nhttps://www.themoviedb.org/tv/34701/season/1 (api_snapshot): TMDB 第1季为1999年4月2日开播、26集；第1至26集的标题和播出日期逐项对应 Bangumi 的26个正篇章节，最后一集日期为1999年9月24日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/49701; https://anidb.net/anime/466; https://www.themoviedb.org/tv/34701; https://www.themoviedb.org/tv/34701/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34701,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

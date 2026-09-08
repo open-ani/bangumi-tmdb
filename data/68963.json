@@ -1,0 +1,21 @@
+{
+  "anidbId": 7767,
+  "bangumiId": 68963,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1997-03-08 上映、1 话、30 分钟的剧场版；AniDB 7767 也明确标为 Movie，标题和日期一致。TMDB 326908 的原名、中文名、上映日、动画类型、约 31 分钟片长及剧情均与该短篇对应，因此应匹配电影而非 TV 季。候选 TV 57912 实际是 1973 年《ドラえもん》主系列，只有 1973 年第 1 季 26 集，不能用于本 subject。\n\nhttps://bgm.tv/subject/68963 (page): Bangumi 将条目标为剧场版，话数 1；上映年度为 1997 年 3 月 8 日，片长 30 分钟，并列出藤子・F・不二雄、米たにヨシトモ、寺田憲史和シンエイ動画等制作信息。\n\nhttps://anidb.net/anime/7767 (page): AniDB 7767 的正式日文标题为「ザ☆ドラえもんズ 怪盗ドラパン謎の挑戦状!」，类型为 Movie，日期为 08.03.1997，并有对应中文标题。\n\nhttps://www.themoviedb.org/movie/326908?language=zh-CN (page): TMDB 326908 的标题为「哆啦A梦族：怪盗哆啦邦谜样的挑战书」，原名相同，日期为 1997-03-08，类型为动画，片长显示 31 分钟，简介剧情与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/57912 (api_snapshot): 输入的 TMDB API 快照显示候选 57912 是《ドラえもん》TV，首播 1973-04-01，只有 1973 年第 1 季 26 集；其 season/0 请求失败不能据此推导本片，但现有 TV 主体信息已与 1997 短篇电影不符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68963; https://anidb.net/anime/7767; https://www.themoviedb.org/movie/326908?language=zh-CN; https://www.themoviedb.org/tv/57912",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 326908,
+      "type": "movie"
+    }
+  ]
+}

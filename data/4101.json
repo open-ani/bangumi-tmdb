@@ -1,0 +1,24 @@
+{
+  "anidbId": 5246,
+  "bangumiId": 4101,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 是2007年的 TV 动画续篇《東京魔人學園剣風帖 龖 第弐幕》，共12集，并非电影、重制版或重剪版。TMDB 34726 将前作14集和《第弐幕》12集合并登记为单一的第1季：第1–14集为前作“外法编”，第15–26集则从“拳武十二神将”开始，到“ありがとう”结束，与本 subject 的12集标题及顺序逐集对应。因此正确映射是 TMDB TV 34726 的第1季第15–26集；旧候选所写第2季在 TMDB API 中不存在。\n\nhttps://www.themoviedb.org/tv/34726 (api_snapshot): TMDB API 快照确认 TV ID 34726 的原名为《東京魔人學園剣風帖 龖》，全剧共26集，并且仅登记一个含26集的第1季。\n\nhttps://www.themoviedb.org/tv/34726/season/1 (api_snapshot): TMDB 第1季 API 快照中，第15–26集依次为“拳武十二神将”“煉獄する咆哮”“心から変わろう”直至“歩め子らよ”“ありがとう”，与本 Bangumi subject 的12集逐集吻合，明确证明范围为 S1E15–E26。\n\nhttps://www.themoviedb.org/tv/34726/season/2 (api_snapshot): TMDB API 对第2季端点返回404，证明旧候选的 season=2 不符合 TMDB 当前分季结构。\n\nhttps://www.allcinema.net/cinema/327822 (page): allcinema 将《東京魔人學園剣風帖 龍龍（トウ）第弐幕》列为2007年日本 TV 动画，ANIMAX 播期为2007-07-27至2007-10-12，并列有12集。\n\nhttps://www.b-ch.com/titles/953/ (page): Bandai Channel 的独立作品页确认《第弐幕》是该 TV 动画的第2系列，剧情从前作九角天童之战结束后开始，并由“拳武十二神将”引出新篇章。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10188012&workId=10188 (page): d动画商店明确标示《東京魔人學園剣風帖 龍龍 第弐幕（全12話）》，其剧情、制作年份、导演和动画制作信息均与 Bangumi subject 相符。\n\n备注：TMDB 快照把第15–26集的播出日期填写为2007-04-27至2007-07-13，与可靠资料所载《第弐幕》实际播期2007-07-27至2007-10-12不符；这是TMDB日期元数据问题，不影响由完整日文集名和连续范围确定的映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4101; https://www.themoviedb.org/tv/34726; https://www.themoviedb.org/tv/34726/season/1; https://www.themoviedb.org/tv/34726/season/2; https://www.allcinema.net/cinema/327822; https://www.b-ch.com/titles/953/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10188012&workId=10188",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 15,
+      "episodeEnd": 26,
+      "id": 34726,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

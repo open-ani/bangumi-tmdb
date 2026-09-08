@@ -1,0 +1,24 @@
+{
+  "anidbId": 17091,
+  "bangumiId": 363959,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《境界戦機 第二部》，TV、2022-04-11 开播、12 集，并列出正篇章节 14—25；关联条目显示其前传为《境界戦機》。TMDB TV 120966 是同名作品，共 25 集；其第 1 季第 14—25 集的标题、剧情和日期序列与 Bangumi 第二部完全对应，因此应映射为第 1 季第 14—25 集，而不是整季。AnimeSchedule 页面还以同名、同日期、12 集的第二 cour 条目链接至 AniDB 17091，支持 AniDB 线索；AniDB 页面本身读取受 403 限制。\n\nhttps://bgm.tv/subject/363959 (page): Bangumi 显示《境界戦機 第二部》为 TV，12 集，2022-04-11 开播；章节列表为 14 至 25，并关联前传《境界戦機》。\n\nhttps://animeschedule.net/anime/kyoukai-senki-part-2 (page): 页面显示 Kyoukai Senki Part 2／AMAIM Warrior at the Borderline Part 2，TV，2022-04-11，12 集，说明为第二 cour，并列出 AniDB 链接；该链接指向 AniDB 17091。\n\nhttps://www.themoviedb.org/tv/120966 (api_snapshot): TMDB TV 120966 名为《境界戦機》，首播 2021-10-05，共 25 集，只有第 1 季。\n\nhttps://www.themoviedb.org/tv/120966/season/1 (api_snapshot): TMDB 第 1 季共 25 集；第 14—25 集标题依次为「8ヶ月後」「再会」「激闘」……「北陸戦線（後編）」，与 Bangumi 第二部章节 14—25 的标题和剧情连续对应。\n\n备注：TMDB 快照中的对应播出日期比 Bangumi 日期晚 1 天，但标题、集数顺序、剧情和播出区间一致，属于日期显示差异，不影响版本对应判断。；AniDB 页面本身因 403 无法直接读取，只能依据可读取页面中的 AniDB 链接及同名、日期、集数信息核对 AniDB 17091。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/363959; https://animeschedule.net/anime/kyoukai-senki-part-2; https://www.themoviedb.org/tv/120966; https://www.themoviedb.org/tv/120966/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 25,
+      "id": 120966,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 4791,
+  "bangumiId": 5234,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是《流星のロックマン》本篇 TV 版，共55集；TMDB 38597 第1季同名且为55集，快照中的完整集标题与播出日期和 Bangumi 分集逐项对应。TMDB 同一主页面将《流星のロックマン トライブ》单列为第2季21集，而 Bangumi 也将其作为另一个 subject，因此本 subject 应映射为第1季完整一季。\n\nhttps://www.themoviedb.org/tv/38597 (api_snapshot): API 快照显示 TV 38597 为《流星のロックマン》，共有76集，其中第1季55集、第2季《流星のロックマン トライブ》21集。\n\nhttps://www.themoviedb.org/tv/38597/season/1 (api_snapshot): API 快照显示第1季名为《流星のロックマン》、共55集；其集标题和播出日期与输入 Bangumi subject 的1–55集一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要中的 AniDB 标题数据明确列出 [4791,\"Ryuusei no Rockman\"]，支持输入的 AniDB ID 与该作品标题相符。\n\nhttps://www.anime-planet.com/anime/ryuusei-no-rockman (search_snippet): 搜索摘要将 Ryuusei no Rockman 列为 TV、55集×10分钟、XEBEC、2006–2007，与 Bangumi 主体的类型、集数、制作公司和年份相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5234; https://www.themoviedb.org/tv/38597; https://www.themoviedb.org/tv/38597/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.anime-planet.com/anime/ryuusei-no-rockman",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 38597,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

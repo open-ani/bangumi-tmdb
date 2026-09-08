@@ -1,0 +1,22 @@
+{
+  "anidbId": 9880,
+  "bangumiId": 88676,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2014-07-11 开始、共 12 集的《東京ESP》TV 动画，制作公司为 XEBEC；官方制作页同样列出电视系列及完整 12 集标题。TMDB ID 61202 的首播日期、日文标题、剧情、制作背景和 12 集数量均一致，TMDB 第 1 季完整列出与 Bangumi/官方页对应的第 1 至 12 集，因此应映射为第 1 季完整范围。\n\nhttps://bgm.tv/subject/88676 (page): Bangumi 将该条目标为 TV，标题为東京ESP，12 集，首播 2014-07-11，制作公司 XEBEC，并列出第 1 至 12 集。\n\nhttps://www.production-ig.co.jp/xebec/anime/tokyoesp/ (page): XEBEC 官方页面确认这是《テレビシリーズ「東京ESP」》，列出完整 12 集及其标题。\n\nhttps://www.themoviedb.org/tv/61202 (api_snapshot): TMDB TV 主条目标为東京ESP，首播 2014-07-11，共 12 集，剧情与主角/超能力设定一致。\n\nhttps://www.themoviedb.org/tv/61202/season/1 (api_snapshot): TMDB 第 1 季为 2014-07-11 开始、12 集；完整剧集标题和日期与 Bangumi 及官方页的第 1 至 12 集一致。\n\n备注：AniDB 9880 的页面本次访问返回 403，未能直接读取 AniDB 条目页；但目标版本已由 Bangumi、XEBEC 官方页面及 TMDB 的标题、日期、剧情、制作信息和逐集内容独立确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/88676; https://www.production-ig.co.jp/xebec/anime/tokyoesp/; https://www.themoviedb.org/tv/61202; https://www.themoviedb.org/tv/61202/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61202,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

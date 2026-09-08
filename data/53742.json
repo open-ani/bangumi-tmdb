@@ -1,0 +1,27 @@
+{
+  "anidbId": 984,
+  "bangumiId": 53742,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是1987年播出的《北斗の拳2》TV，共43话，章节为110–152，内容为天帝编与修罗之国编。TMDB TV 56387明确包含第5季“北斗の拳2 天帝編”13话和第6季“北斗の拳2 修羅の国編”30话；第5季剧集标题与Bangumi第110–122话逐一对应，第6季从1987-07-16开始并以1988-02-18的6x30完结，与Bangumi第123–152话的日期、标题范围和总数对应。应拆为完整第5季与完整第6季，不包含特别篇或其他《北斗の拳》电影/OVA。TMDB第5季第12话日期与Bangumi存在一处日期差异，但标题和前后范围一致，属于季内元数据不一致，不影响版本和范围判断。\n\nhttps://bgm.tv/subject/53742 (page): Bangumi条目为TV《北斗の拳2》，共43话，放送开始1987-03-12、结束1988-02-18；章节列表为110至152；简介说明主体是天帝与修罗之国篇。\n\nhttps://www.themoviedb.org/tv/56387 (api_snapshot): TMDB TV 56387为《北斗の拳》，共152集，列出第5季“北斗の拳2 天帝編”13集和第6季“北斗の拳2 修羅の国編”30集。\n\nhttps://www.themoviedb.org/tv/56387/season/5 (api_snapshot): TMDB第5季为“北斗の拳2 天帝編”，13集；剧集标题和日期与Bangumi第110至122话逐一对应，确定应纳入完整第5季。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star (page): TMDB页面明确显示第6季共30集，首播1987-07-16，最终集为6x30、日期1988-02-18。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引将AniDB ID 984列为“Seikimatsu Kyuuseishu Densetsu: Hokuto no Ken 2”，与Bangumi提供的AniDB名称相符。\n\n备注：TMDB第5季第12话快照日期为1987-06-11，而Bangumi对应第121话日期为1987-06-25；标题和其余边界信息一致，未据此缩减范围。；Bangumi页面未直接展示AniDB ID字段，AniDB 984与该条目的关联主要由输入关联数据及标题索引交叉支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53742; https://www.themoviedb.org/tv/56387; https://www.themoviedb.org/tv/56387/season/5; https://www.themoviedb.org/tv/56387-fist-of-the-north-star; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 56387,
+      "season": 5,
+      "type": "tv"
+    },
+    {
+      "id": 56387,
+      "season": 6,
+      "type": "tv"
+    }
+  ]
+}

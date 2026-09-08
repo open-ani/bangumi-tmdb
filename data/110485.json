@@ -1,0 +1,22 @@
+{
+  "anidbId": 10780,
+  "bangumiId": 110485,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2014 年播出的 WEB/TV 动画，共24话，播出时间为 2014-10-11 至 2015-03-21；标题、别名、剧情、制作人员与候选作品一致。TMDB 84158 同名、首播日相同，仅有第1季且包含完整24集，逐集日期与 Bangumi 章节一一对应。因此应映射为 TV 84158 第1季完整季度，无需拆分集数。\n\nhttps://bgm.tv/subject/110485 (page): Bangumi 将该作品标为 WEB，记录24话、2014-10-11开播、2015-03-21结束，并列出秋田谷典昭、青木良、SILVER LINK.、CONNECT等制作信息及完整01-24章节。\n\nhttps://animerss.com/tvrip-bonjour-koiaji-patisserie-bonjour%E2%99%AA%E恋味パティスリー-%E7%AC%AC01-24話.html (search_snippet): 搜索摘要将 Bonjour♪恋味パティスリー / Bonjour Sweet Love Patisserie 标为24集 WEB作品，并明确关联 AniDB 10780；与输入提供的 AniDB 标识和名称一致。\n\nhttps://www.themoviedb.org/tv/84158 (api_snapshot): 输入提供的 TMDB API 快照显示 ID 84158 为同名 TV 作品，首播日2014-10-11，共1季24集。\n\nhttps://www.themoviedb.org/tv/84158/season/1 (api_snapshot): 输入提供的 TMDB 第1季 API 快照显示 season_number=1、首播日2014-10-11、24集；第1至24集日期依次覆盖 Bangumi 的24个章节至2015-03-21。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110485; https://animerss.com/tvrip-bonjour-koiaji-patisserie-bonjour%E2%99%AA%E恋味パティスリー-%E7%AC%AC01-24話.html; https://www.themoviedb.org/tv/84158; https://www.themoviedb.org/tv/84158/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 84158,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

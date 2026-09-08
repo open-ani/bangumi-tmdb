@@ -1,0 +1,22 @@
+{
+  "anidbId": 279,
+  "bangumiId": 13311,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将本作明确记为1998年OVA，共3话，发售期为1998-04-25至1998-10-25，制作与剧情信息均与 TMDB 98639 的日文标题、首播日期、简介及3集总数一致。TMDB 的剧集详情明确列出 season_number=1 且 episode_count=3，因此应映射为第1季完整3集；候选的第0季请求失败，不能作为有效季号。\n\nhttps://bangumi.tv/subject/13311 (page): Bangumi 页面标记为OVA，共3话，发售日1998-04-25，结束日1998-10-25；章节为01、02、03，并列出AIC、今川泰宏等制作信息及相符剧情。\n\nhttps://www.themoviedb.org/tv/98639 (api_snapshot): TMDB API快照的标题和原始标题均为聖少女艦隊バージンフリート，首播日期为1998-04-25，简介与作品设定相符，总集数为3；seasons字段明确列出season_number=1、episode_count=3。\n\nhttps://www.themoviedb.org/tv/98639/season/0 (api_snapshot): TMDB API快照记录第0季请求返回HTTP 404；这排除了把候选season=0直接作为有效季号，但不将请求失败解释为作品不存在。\n\nhttps://tv.apple.com/jp/show/%E8%81%96%E5%B0%91%E5%A5%B3%E8%89%A6%E9%9A%8A%E3%83%90%E3%83%BC%E3%82%B7%E3%83%B3%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88/umc.cmc.3qd665geip7sund2seoq57zul (search_snippet): 独立剧集列表将本作列为第1季，并列出3集：初体験、五月の雪、初夜桜，与Bangumi三话标题对应；此仅作内容交叉核对，未替代TMDB的季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/13311; https://bangumi.tv/subject/13311; https://www.themoviedb.org/tv/98639; https://www.themoviedb.org/tv/98639/season/0; https://tv.apple.com/jp/show/%E8%81%96%E5%B0%91%E5%A5%B3%E8%89%A6%E9%9A%8A%E3%83%90%E3%83%BC%E3%82%B7%E3%83%B3%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88/umc.cmc.3qd665geip7sund2seoq57zul",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 98639,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

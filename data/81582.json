@@ -1,0 +1,22 @@
+{
+  "anidbId": 4011,
+  "bangumiId": 81582,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1991 年开播、65 话的《魔法のプリンセス ミンキーモモ 夢を抱きしめて》，与 AniDB 4011 的标题一致。TMDB TV 35871 的第 2 季同名、首播日期为 1991-10-02，共 65 集；第 1–62 集对应 Bangumi 本篇，第 63–65 集分别对应 Bangumi 标为 53.5、58.5、46.5 的主体内未放映特别篇，因此应纳入完整第 2 季。\n\nhttps://bgm.tv/subject/81582 (page): Bangumi 条目为 TV，话数 65，放送开始 1991-10-02，标题及制作人员与目标版本一致；章节包含 1–62 及 46.5、53.5、58.5 三个特别篇。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (page): AniDB 标题数据将 ID 4011 对应为 Mahou no Princess Minky Momo: Yume o Dakishimete，与 Bangumi 条目标题一致。\n\nhttps://www.themoviedb.org/tv/35871 (api_snapshot): TMDB TV 35871 的总览列出第 1 季、第 2 季；第 2 季名称为目标日文标题，首播日期 1991-10-02，含 65 集。\n\nhttps://www.themoviedb.org/tv/35871/season/2 (api_snapshot): TMDB 第 2 季完整快照包含 1–65 集；1–62 集标题和日期对应 Bangumi 本篇，63–65 集标题分别为 SOS！マリンナーサ、モモ学校へ行く、星に願いを，对应主体内三个特别篇。\n\n备注：AniDB 原站页面访问返回 403，AniDB 关联由输入中的匹配结果及公开标题数据交叉支持，未能直接读取 AniDB 详情页。；TMDB 网页页面本身抓取失败，但提供的 TV 与季 API 快照完整，且 episodesTruncated=false。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/81582; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/35871; https://www.themoviedb.org/tv/35871/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35871,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

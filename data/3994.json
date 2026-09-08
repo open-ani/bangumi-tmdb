@@ -1,0 +1,27 @@
+{
+  "anidbId": 5186,
+  "bangumiId": 3994,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2007 年播出的《スケッチブック～full color's～》TV、正篇 13 话，导演平池芳正、系列构成冈田麿里、动画制作 Hal Film Maker 等信息与 TMDB 条目一致。Anime-Lists 的关联记录将 AniDB 5186（Sketchbook: Full Color's）指向 TMDB TV 72249 第 1 季；TMDB 快照显示第 1 季正好 13 话，标题逐话与 Bangumi 正篇 1–13 话完全对应，因此第 1 季应完整纳入。Bangumi 同一 subject 还包含 6 个 Picture Drama 特别篇；TMDB 条目明确有第 0 季“特別編”共 6 话，且首播日与特别篇列表起始日一致，外部资料也确认该 Picture Drama 是 6 集并属于本作的特别篇，因此主体内特别篇应补充为第 0 季完整纳入。\n\nhttps://bgm.tv/subject/3994 (page): Bangumi 条目标记为 TV，话数 13，播出时间为 2007-10-01 至 2007-12-24，并列出导演、系列构成、原作和 Hal Film Maker 等制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): 记录 anidbid=\"5186\"、名称 Sketchbook: Full Color's，并关联 tmdbtv=\"72249\"、tmdbseason=\"1\"；这是候选线索，但与 Bangumi/TMDB 的版本信息相互吻合。\n\nhttps://www.themoviedb.org/tv/72249 (api_snapshot): TMDB API 快照显示作品名为《スケッチブック ～full color'S～》，日本语种、2007 年作品，共 13 集正篇；同时列出 season 0“特別編”6 集和 season 1 13 集。\n\nhttps://www.themoviedb.org/tv/72249/season/1 (api_snapshot): TMDB 第 1 季完整列出 13 集，剧集标题与 Bangumi 正篇 1–13 话逐一对应，日期也保持同一播出序列（仅相差时区导致的日期显示偏移）。\n\nhttps://anilist.co/anime/20528/Sketchbook-full-colors-Picture-Drama (search_snippet): 搜索摘要确认《Sketchbook: full color's Picture Drama》是本作的 6 集特别篇，并以本作 TV 为 Parent；与 Bangumi 同 subject 中的 6 个特别篇及 TMDB season 0 的 6 集相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3994; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/72249; https://www.themoviedb.org/tv/72249/season/1; https://anilist.co/anime/20528/Sketchbook-full-colors-Picture-Drama",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 72249,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 72249,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

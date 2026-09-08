@@ -1,0 +1,22 @@
+{
+  "anidbId": 1139,
+  "bangumiId": 4686,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2003 年播出的《ふたつのスピカ》TV 动画，共 20 话，播至 2004-03-27。AniDB ID 1139 对应 Futatsu no Spica；TMDB 19803 的名称、首播日期、剧情、制作类型及 20 集规模均一致。TMDB 第 1 季的 1—20 集标题和日期与 Bangumi 章节逐条对应，因此采用完整第 1 季，不需拆分或排除集数。\n\nhttps://bgm.tv/subject/4686 (page): Bangumi 标明该条目为《ふたつのスピカ》TV 动画，20 话，2003-11-01 开播，2004-03-27 完播，并列出 01—20 章节及相关制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据的搜索结果将 AniDB ID 1139 对应为 Futatsu no Spica，支持输入所给 Bangumi→AniDB 关联的作品身份。\n\nhttps://www.themoviedb.org/tv/19803 (api_snapshot): TMDB TV 19803 名称及原名均为 ふたつのスピカ，首播日期为 2003-11-01，共 20 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/19803/season/1 (api_snapshot): TMDB 第 1 季明确为 20 集；剧集 1—20 的标题、播出日期和剧情与 Bangumi 1—20 话逐条对应，末集日期为 2004-03-27。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4686; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/19803; https://www.themoviedb.org/tv/19803/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 19803,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 9657,
+  "bangumiId": 61222,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ガッ活!》第二季，2013-04-03 至 2013-09-25，共25集；AniDB 9657 同样对应 Gakkatsu! (2013)/Gakkatsu! 2nd Season，TV Series 25集。TMDB 55364 是包含两季、每季25集的同一作品，第2季为25集，因此应映射整个 TMDB 第2季。\n\nhttps://bgm.tv/subject/61222 (page): Bangumi 条目名称为ガッ活! 第2シリーズ，别名含 Gakkatsu! 2nd Season；2013-04-03 开始、2013-09-25 结束、共25话，并列出导演ラレコ、动画制作ファンワークス及 NHK 制作信息。\n\nhttps://anidb.net/anime/9657 (page): AniDB 9657 为 Gakkatsu! (2013)，别名含 Gakkatsu! 2nd Season、ガッ活! 第2シリーズ；类型为 TV Series、25 episodes，日期为 2013-01-16 至 2013-09-25，并注明前6集先行放送、正式电视播出从 2013-04-03 开始。\n\nhttps://www.themoviedb.org/tv/55364 (api_snapshot): TMDB API 快照显示作品ガッ活!共50集，分为第1季25集和第2季25集；第2季 season_number=2。\n\nhttps://www.themoviedb.org/tv/55364/season/2 (api_snapshot): TMDB API 快照显示第2季共25集，集号完整覆盖1至25，且无截断。\n\nhttps://fanworks.co.jp/project/gakkatsu/ (search_snippet): 制作公司 Fanworks 页面列明《ガッ活！》Season 1 为25集×5分钟、Season 2 为25集×5分钟。\n\n备注：TMDB 快照中的第2季日期为2013-04-20至2013-10-05，和 Bangumi/AniDB 的实际播出日期不完全一致；TMDB 集标题也均为泛化的“第N話”。但季号、总集数、作品名称及制作信息均与第二季对应，因此不影响采用完整第2季范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/61222; https://anidb.net/anime/9657; https://www.themoviedb.org/tv/55364; https://www.themoviedb.org/tv/55364/season/2; https://fanworks.co.jp/project/gakkatsu/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 55364,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

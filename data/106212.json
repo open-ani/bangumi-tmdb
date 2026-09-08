@@ -1,0 +1,22 @@
+{
+  "anidbId": 10691,
+  "bangumiId": 106212,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015 年 4 月播出的《ハイスクールD×D BorN》，正篇 12 集；TMDB TV 45950 的第 3 季同名、首播日期为 2015-04-04，共 12 集，逐集标题和日期与 Bangumi 正篇对应，剧情和制作信息也一致。因此映射为 TMDB TV 45950 第 3 季完整 12 集。Bangumi 所列 6 个 SP 属于额外特典，不纳入主体季范围。\n\nhttps://bgm.tv/subject/106212 (page): Bangumi 条目为《ハイスクールD×D BorN》TV，话数 12，放送开始 2015-04-04，放送结束 2015-06-20；导演柳沢テツヤ、人物设定ごとうじゅんじ、动画制作 TNK 等信息与候选版本一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 10691 标为 High School DxD Born，核对了输入中的 AniDB 关联名称。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 中 AniDB 10691 的条目名称为 High School DxD Born，并关联 tmdbtv=45950、tmdbseason=3；该映射仅作辅助线索。\n\nhttps://www.themoviedb.org/tv/45950 (api_snapshot): TMDB TV 45950 为《ハイスクールD×D》，包含第 3 季《ハイスクールD×D BorN》，首播 2015-04-04、12 集。\n\nhttps://www.themoviedb.org/tv/45950/season/3 (api_snapshot): TMDB 第 3 季 season_number=3，名称为《ハイスクールD×D BorN》，air_date=2015-04-04，episodeCount=12；快照列出的第 1 至第 12 集标题、日期和剧情与 Bangumi 正篇对应。\n\n备注：输入中 Bangumi 第 12 集日期为 2016-06-20，但条目整体结束日期、TMDB 快照及前后播出顺序均指向 2015-06-20，视为 Bangumi 数据中的日期笔误，不影响季和范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/106212; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/45950; https://www.themoviedb.org/tv/45950/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45950,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

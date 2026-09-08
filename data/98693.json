@@ -1,0 +1,23 @@
+{
+  "anidbId": 9734,
+  "bangumiId": 98693,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 是 1 集、2014-12-09 发售的《デート・ア・ライブ OAD》，章节为第 11 话，并关联《デート・ア・ライブII》。这对应《狂三スターフェスティバル》，而非输入 AniDB ID 9734 所代表的 2013 年《Date to Date》；公开 AniDB 映射将《Date A Live II: Kurumi Star Festival》标为 AniDB 10568。TMDB TV 46004 第 0 季第 2 集标题、日期和剧情均精确对应该 OAD。因此只纳入 season 0 episode 2，不能纳入该季其他 OAD 或《デート・ア・バレット》条目。\n\nhttps://bgm.tv/subject/98693 (page): Bangumi 将 subject 标为《デート・ア・ライブ OAD》OVA，1 话，发售日 2014-12-09；章节列表为第 11 话，并关联《デート・ア・ライブII》。\n\nhttps://github.com/ZeroQI/Absolute-Series-Scanner/blob/master/README.md (search_snippet): 公开 AniDB 映射区分：AniDB 9734 是《Date a Live: Date to Date》，AniDB 10568 是《Date a Live II: Kurumi Star Festival》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题目录将 ID 10568 对应为《Date a Live II: Kurumi Star Festival》。\n\nhttps://www.themoviedb.org/tv/46004 (api_snapshot): TMDB TV 46004《デート・ア・ライブ》包含第 0 季“特別編”。\n\nhttps://www.themoviedb.org/tv/46004/season/0 (api_snapshot): TMDB 第 0 季第 2 集为《デート・ア・ライブⅡ OAD 第11話「狂三スターフェスティバル」》，日期 2014-12-09，时长 24 分；其余集分别是另一 OAD、《デート・ア・バレット》前后篇及未明确的第 5 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/98693; https://github.com/ZeroQI/Absolute-Series-Scanner/blob/master/README.md; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/46004; https://www.themoviedb.org/tv/46004/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 46004,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 428,
+  "bangumiId": 32025,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 1999-10-05 开播、26 话的 TV 动画，制作人员、标题与剧情均对应《地球防衛企業ダイ・ガード》。给定 AniDB 关联为 428，标题索引也将 428 对应 Chikyuu Bouei Kigyou Dai-Guard。TMDB 8664 的第 1 季开播日期为 1999-10-05，共 26 集；全部集数日期与 Bangumi 的 26 集逐一对应至 2000-03-28，因此应映射整季。\n\nhttps://bgm.tv/subject/32025 (page): Bangumi 将该条目标为 TV，26 话，1999-10-05 开播，制作公司为 XEBEC，导演为水島精二，并列出第 1 至 26 话。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 标题索引片段将 AniDB ID 428 对应为 Chikyuu Bouei Kigyou Dai-Guard。\n\nhttps://www.themoviedb.org/tv/8664 (api_snapshot): TMDB TV 8664 的原名为 地球防衛企業ダイ・ガード，首播日期为 1999-10-05，共 26 集，仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/8664/season/1 (api_snapshot): TMDB 第 1 季共 26 集；集数日期从 1999-10-05 连续对应至 2000-03-28，与 Bangumi 26 集日期一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/32025; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/8664; https://www.themoviedb.org/tv/8664/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 8664,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

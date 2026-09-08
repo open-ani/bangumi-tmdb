@@ -1,0 +1,22 @@
+{
+  "anidbId": 12132,
+  "bangumiId": 183216,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是2016-10-01至2017-09-30播出的52集原创TV动画，标题、剧情、东映动画制作信息与候选完全一致。公开标识交叉信息将 Bangumi subject 183216、AniDB 12132 和 TMDB TV 68099 对应到同一作品；TMDB明确记录第1季于2016-10-01开始、共52集并以第52集于2017-09-30完结。输入的TMDB第1季快照还显示完整1–52集标题和日期逐条对应Bangumi主体，因此采用完整第1季，不需限定集数范围。\n\nhttps://bgm.tv/subject/183216 (page): Bangumi页面标明该条目为TV动画，共52话，放送开始于2016年10月1日，结束于2017年9月30日；列出东映动画、原案本乡秋吉、系列监督古贺豪等制作信息，并列出章节01–52。\n\nhttps://www.wikidata.org/wiki/Q24862800 (search_snippet): 搜索摘要列出该作品的AniDB anime ID为12132、Bangumi subject ID为183216、TMDB TV series ID为68099，且日文/英文标题对应本作。\n\nhttps://www.themoviedb.org/tv/68099-digimon-universe-appli-monsters/watch?language=zh-CN (page): TMDB页面记录原始片名为「デジモンユニバース アプリモンスターズ：アプモン」，2016年共52集；明确写明第1季于2016年10月1日首播，1x52于2017年9月30日为本季大结局。\n\nhttps://www.themoviedb.org/tv/68099/season/1 (api_snapshot): 输入提供的TMDB API快照显示season_number=1、episodeCount=52、episodesTruncated=false，并包含完整第1至52集的标题、日期和剧情简介；与Bangumi逐集标题和播出日期相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/183216; https://www.wikidata.org/wiki/Q24862800; https://www.themoviedb.org/tv/68099-digimon-universe-appli-monsters/watch?language=zh-CN; https://www.themoviedb.org/tv/68099/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68099,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

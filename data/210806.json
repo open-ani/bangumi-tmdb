@@ -1,0 +1,22 @@
+{
+  "anidbId": 12789,
+  "bangumiId": 210806,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 TV《ピカイア!!》，13 集，2017-02-26 开始；Bangumi 页面还将其与前作《ピカイア！》区分。TMDB 128843 是同一系列，明确列出第 2 季《ピカイア!!》，首播日期为 2017-02-26、共 13 集；第 2 季的标题和剧情均与 Bangumi 主体提供的 13 集及“扩大至泥盆纪等古生代、加入新调查员”的简介相符。因此应映射为完整 TMDB 第 2 季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/210806 (page): Bangumi 将该主体标为 TV《ピカイア!!》，话数 13，放送开始于 2017 年 2 月 26 日，并列出与《ピカイア！》的前传关系。\n\nhttps://www.themoviedb.org/tv/128843 (api_snapshot): TMDB TV 128843 名为《ピカイア！》，共 26 集，分为第 1 季和第 2 季；第 2 季为 13 集、2017-02-26 开始。\n\nhttps://www.themoviedb.org/tv/128843/season/2 (api_snapshot): TMDB 第 2 季名称为《ピカイア!!》，共 13 集；剧集标题及剧情覆盖泥盆纪、石炭纪、古生代调查和最终战，与 Bangumi 主体内容对应。\n\n备注：TMDB 快照中第 4 集 air_date 与 Bangumi 提供的播出日期存在差异，且部分日期可能是平台整理差异；不影响季号、版本和完整 13 集范围的对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/210806; https://www.themoviedb.org/tv/128843; https://www.themoviedb.org/tv/128843/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 128843,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

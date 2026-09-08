@@ -1,0 +1,28 @@
+{
+  "anidbId": 18253,
+  "bangumiId": 461338,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2024-04-06 开播、20 集正篇的 TV 动画；提供的 AniDB 关联状态为 matched，标题别名一致。TMDB TV 243141 的标题、原名、首播日、简介及制作背景均与该主体相符。TMDB 第 1 季明确为 20 集，20 个剧集标题和日期与 Bangumi 正篇逐一对应，因此映射为第 1 季完整范围。Bangumi 另有 2024-07-06 的《特別総集編》；TMDB 明确列出同日、1 集的第 0 季“特別編”，故纳入第 0 季第 1 集。\n\nhttps://www.themoviedb.org/tv/243141 (api_snapshot): TMDB 主条目为《烏は主を選ばない》，原名相同，首播日为 2024-04-06，简介与八咫烏一族、若宮和雪哉的故事相符；列出第 0 季“特別編”1集（2024-07-06）和第 1 季20集。\n\nhttps://www.themoviedb.org/tv/243141/season/1 (api_snapshot): TMDB 第 1 季为 20 集，首播日 2024-04-06；第 1–20 集标题和日期与输入中的 Bangumi 正篇逐一对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/461338; https://www.themoviedb.org/tv/243141; https://www.themoviedb.org/tv/243141/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 243141,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 243141,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

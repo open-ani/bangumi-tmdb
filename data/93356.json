@@ -1,0 +1,24 @@
+{
+  "anidbId": 10392,
+  "bangumiId": 93356,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是2014–2015年发行、共5集的OVA，不是整部2016年TV版。TMDB候选66870的可用快照显示其为2016年首播、仅有第1季且共13集；官方资料明确说明TV第2–6话是已发行OAD各话为电视播出而重新剪辑的版本。因此主体应映射到TMDB第1季第2–6集，不能纳入第1集或整季。候选season 0不应采用；其请求失败不作为不存在依据。\n\nhttps://bangumi.tv/subject/93356 (page): Bangumi将该条目标为OVA，共5话，发售/播出范围为2014-05-16至2015-07-17，动画制作公司为Lay-duce，并列出5个OVA章节。\n\nhttps://anidb.app/anime/magi-adventure-of-sinbad-3129 (page): AniDB公开页面对应同名《Magi: Adventure of Sinbad》，类型为OVA，并标注存在TV版替代版本；标题、类型和发行时期与Bangumi subject匹配。\n\nhttps://www.aniplex.co.jp/lineup/sinbad/news/detail/?id=37949 (search_snippet): 官方资料公布TV全13话标题，并明确说明第2话至第6话是将既发OAD各话重新编辑为电视播出的版本。\n\nhttps://www.themoviedb.org/tv/66870 (api_snapshot): 所附TMDB API快照显示ID 66870为同名日语TV作品，首播日为2016-04-17，第1季共13集；快照中的season 0请求失败未被当作不存在。\n\n备注：AniDB官方页面本次无法直接读取，AniDB公开镜像未显示数字ID；但同名OVA、类型、日期及其TV替代版本均与Bangumi subject一致。；TV版是对OAD内容的电视重剪辑，不是逐帧相同版本；此处按官方明确的第2–6话对应既发5集OAD进行映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/93356; https://bangumi.tv/subject/93356; https://anidb.app/anime/magi-adventure-of-sinbad-3129; https://www.aniplex.co.jp/lineup/sinbad/news/detail/?id=37949; https://www.themoviedb.org/tv/66870",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 6,
+      "id": 66870,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

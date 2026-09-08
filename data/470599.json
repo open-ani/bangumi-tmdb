@@ -1,0 +1,24 @@
+{
+  "anidbId": 18323,
+  "bangumiId": 470599,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2024 年版 TV《京都动乱》，共 23 集，首播 2024-10-03 至 2025-03-20；官方页面将其主体标为总集数第 25–47 话。TMDB 快照显示 TV 210879 是同一 2023 年版作品，TMDB 将全剧 47 集归入 season 1，因此该 Bangumi subject 应映射为 TMDB season 1 的第 25–47 集。TMDB season 2 请求失败未被当作不存在；但根接口的 season 列表和 season 1 的 47 集计数支持此映射。\n\nhttps://bgm.tv/subject/470599 (page): Bangumi 条目标题、2024-10-03 开播、2025-03-20 完结、话数 23、制作方 LIDENFILMS/Aniplex，以及京都篇剧情均与目标版本吻合。\n\nhttps://rurouni-kenshin.com/movie/ (page): 官方页面列出《京都动乱》第 25 话至第 47 话的预告及标题，确认该 subject 的 23 集对应总集数 25–47。\n\nhttps://www.themoviedb.org/tv/210879 (api_snapshot): TMDB API 快照显示 TV 210879 的原名为「るろうに剣心 －明治剣客浪漫譚－」、首播 2023-07-07、共 47 集；season 1 计 47 集，另有 season 0 特别编 2 集。\n\nhttps://www.themoviedb.org/tv/210879/season/2 (api_snapshot): 输入快照记录该季请求返回 HTTP 404；此失败未被单独视为不存在，而是结合根接口 season 列表及 season 1 的 47 集计数判断 TMDB 的实际分组。\n\n备注：输入中的 Bangumi→AniDB ID 18323 未能通过公开 AniDB 页面独立核对；不过 Bangumi、官方页面与 TMDB 的标题、年份、剧情、制作信息及集数范围已独立支持上述映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/470599; https://rurouni-kenshin.com/movie/; https://www.themoviedb.org/tv/210879; https://www.themoviedb.org/tv/210879/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 25,
+      "episodeEnd": 47,
+      "id": 210879,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

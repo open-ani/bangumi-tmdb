@@ -1,0 +1,29 @@
+{
+  "anidbId": 10091,
+  "bangumiId": 83402,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 83402 是《Fate/kaleid liner プリズマ☆イリヤ ツヴァイ!》TV 第二季，正篇 10 集，与 TMDB 63576 第 2 季的名称、年份、剧情和 1–10 集逐集对应。Bangumi 同一 subject 还包含 SP 01–05，标题和日期分别对应 TMDB season 0 的第 7–11 集，因此补充该连续范围。season 0 的其他特别篇及独立 OAD 不属于本 subject 主体，未纳入。\n\nhttps://bgm.tv/subject/83402 (page): Bangumi 页面确认该条目为 TV《Fate/kaleid liner プリズマ☆イリヤ ツヴァイ!》，10 话，2014-07-09 开播；章节列表含正篇 01–10 和 SP 01–05，并将 OAD 列为独立关联条目。\n\nhttps://www.themovied.org/tv/63576 (api_snapshot): TMDB TV 63576 含同名第 2 季，2014-07-09 开播，共 10 集。\n\nhttps://www.themoviedb.org/tv/63576/season/2 (api_snapshot): TMDB 第 2 季完整 1–10 集的标题、日期和剧情与 Bangumi 正篇逐集对应。\n\nhttps://www.themoviedb.org/tv/63576-fate-kaleid-liner/season/0?language=en-US (search_snippet): TMDB Specials season 0 的第 7–11 集依次为 First Bra: Illya、First Bra: Miyu、Elder Sister's Treatment、Grade School China Dress、Magical Girl Prisma XXX，日期分别对应 Bangumi SP 01–05。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 10091 对应为 Fate/Kaleid Liner Prisma Illya Zwei!，与 Bangumi subject 名称一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/83402; https://www.themovied.org/tv/63576; https://www.themoviedb.org/tv/63576/season/2; https://www.themoviedb.org/tv/63576-fate-kaleid-liner/season/0?language=en-US; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 63576,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 7,
+      "episodeEnd": 11,
+      "id": 63576,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

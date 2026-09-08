@@ -1,0 +1,24 @@
+{
+  "anidbId": 939,
+  "bangumiId": 49277,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1996–1997 年、3 集的《元祖 爆れつハンター》OVA，且三集标题与制作信息均明确。TMDB TV 34210 的 season 0 第 1–3 集标题分别完全对应这三集，首播日期也对应第 1、3 集；因此应映射为 season 0 的 1–3 集，而不是整季。season 0 的第 4–5 集日期为 1999 年，且标题和简介缺失，不能纳入本 Bangumi 主体。\n\nhttps://bgm.tv/subject/49277 (page): Bangumi 条目标为 OVA、共 3 话，发售日期 1996-12-21 至 1997-04-23；列出 XEBEC、加戸誉夫、後藤圭二等制作信息，并与 TV《爆れつハンター》标为不同演绎。\n\nhttps://bgm.tv/ep/197774 (page): Bangumi 第 1 集标题为「夜這い夜這いと草木もなびく」，首播日期为 1996-12-21。\n\nhttps://bgm.tv/ep/197775 (page): Bangumi 第 2 集标题为「死霊使いの魔導書」，首播日期为 1997-02-01。\n\nhttps://bgm.tv/ep/197776 (page): Bangumi 第 3 集标题为「思い出の樹の下で」，首播日期为 1997-04-23。\n\nhttps://www.themoviedb.org/tv/34210 (api_snapshot): TMDB API 快照显示 TV 作品 34210 为《爆れつハンター》，包含 season 0「特別編」和 season 1；season 0 共 5 集，日期从 1996-12-21 开始。\n\nhttps://www.themoviedb.org/tv/34210/season/0 (api_snapshot): TMDB API 快照中 season 0 第 1–3 集标题依次为「夜這い夜這いと草木もなびく」「死霊使いの魔導書」「思い出の樹の下で」，与 Bangumi 三集完全对应；第 4–5 集仅有 1999 年日期且标题、简介为空。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10403001&workId=10403 (search_snippet): 官方 dアニメストア搜索摘要将《元祖 爆れつハンター》列为全 3 话，并列出与 Bangumi 相同的三集标题及 XEBEC、加戸誉夫、後藤圭二等制作信息。\n\n备注：TMDB 快照把第 2 集日期记为 1997-02-21，而 Bangumi 条目页记为 1997-02-01；标题、集数和其余日期仍明确支持同一 OVA，暂按 Bangumi 日期识别为对应集。；AniDB 939 页面直接请求返回 403，无法从 AniDB 页面本身复核该外部关联；但该关联不影响基于 Bangumi 主体、标题、日期和制作信息对 TMDB 34210 season 0 episodes 1–3 的判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/49277; https://bgm.tv/ep/197774; https://bgm.tv/ep/197775; https://bgm.tv/ep/197776; https://www.themoviedb.org/tv/34210; https://www.themoviedb.org/tv/34210/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10403001&workId=10403",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 34210,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 2074,
+  "bangumiId": 81569,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体名称为「ビックリマン」、首播日为 1987-10-11，且输入记录的 Infobox 标注 75 话；TMDB 19343 的主条目同名、同首播日，并将第一季明确标为 75 集。TMDB 第一季剧集标题、日期和剧情与该作品连续对应，末集为第 75 集「次界に輝く聖魔光」（1989-04-02）。东映官方资料也确认该电视动画播出期为 1987-10-11 至 1989-04-02、全 75 话。因此应映射为 TMDB TV 19343 第 1 季完整范围。输入中的 Bangumi episode 数组仅列出 52 集，与 Infobox、官方资料和 TMDB 冲突，不能据此截断范围。\n\nhttps://www.themoviedb.org/tv/19343 (api_snapshot): TMDB 主条目名称为「ビックリマン」、首播日为 1987-10-11；第一季为 75 集。\n\nhttps://www.themoviedb.org/tv/19343/season/1 (api_snapshot): TMDB 第 1 季明确为 75 集，剧集从第 1 集连续至第 75 集；第 75 集标题为「次界に輝く聖魔光」，日期为 1989-04-02。\n\nhttps://lineup.toei-anim.co.jp/ja/tv/bikkuri_man/ (search_snippet): 东映动画官方作品资料确认《ビックリマン》播出期间为 1987-10-11 至 1989-04-02，共 75 话，并给出与 TMDB 相符的作品简介和剧集标题。\n\n备注：直接打开 AniDB 2074 页面时受到 403，AniDB 关联主要依据输入中 Bangumi 记录的 matched 标记、标题别名和其他作品证据；未发现与该 TV 版本冲突的迹象。；输入的 Bangumi regularEpisodes 只有 52 项且标记未截断，与 Infobox 的 75 话及官方/TMDB 资料不一致；若需要核对 Bangumi 自身章节收录完整性，应另行复核 Bangumi 上游章节数据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/81569; https://www.themoviedb.org/tv/19343; https://www.themoviedb.org/tv/19343/season/1; https://lineup.toei-anim.co.jp/ja/tv/bikkuri_man/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 19343,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

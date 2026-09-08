@@ -1,0 +1,29 @@
+{
+  "anidbId": 8534,
+  "bangumiId": 54615,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2011 年播出的 2 话《名探偵コナン vs Wooo》，首播日为 2011-04-22 和 2011-06-23。AniDB 8534 与其标题、Web 形式、2 话数量、日期、剧情及制作信息完全对应，并明确描述第1话为毛利小五郎篇、第2话为优木まおみ篇。TMDB 30983 的 season 0「特別編」中，第22集标题正是「迷探偵!?毛利小五郎」，第24集标题正是「タレント優木まおみの苦悩」，且分别对应两话主体；该季还包含其他 Conan 特别篇，因此不能整季纳入。应映射为 season 0 的非连续第22集和第24集。\n\nhttps://bgm.tv/subject/54615 (page): Bangumi 条目标题为「名探偵コナン vs Wooo」，类型为 TV，共2话，放送日期为 2011-04-22 至 2011-06-23。\n\nhttps://anidb.net/anime/8534 (page): AniDB 8534 的官方标题、别名与 Bangumi 一致；类型为 Web、2 episodes，日期为 2011-04-22 至 2011-06-23；剧情说明分别对应毛利小五郎和优木まおみ，制作信息包含佐藤真人、须藤昌朋、TMS Entertainment。\n\nhttps://www.ytv.co.jp/anime/suwa_wp/336.html (page): 读卖电视相关页面明确称第2话为「タレント優木まおみの苦悩」，属于日立 Wooo 网站上的《名探偵コナン vs Wooo》网络限定短篇。\n\nhttps://barks.jp/news/659678 (page): 报道指出第2话「タレント優木まおみの苦悩」于 2011-06-23 开始配信，并说明其为 Wooo 宣传网站上的《名探偵コナン vs Wooo》Web 限定原创合作动画。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TMDB TV 30983 的名称和 original_name 均为「名探偵コナン」，与候选作品所属的 Conan TV 主体一致。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): TMDB season 0 名为「特別編」；第22集标题为「迷探偵!?毛利小五郎」，第24集标题为「タレント優木まおみの苦悩」，两者与 Bangumi/AniDB 的两话标题逐一对应。\n\n备注：TMDB 快照将第24集日期记为 2011-07-09，而 Bangumi、AniDB 及 Barks 支持的配信日期为 2011-06-23；这应视为 TMDB 日期元数据差异，但标题、剧情和作品形式均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/54615; https://anidb.net/anime/8534; https://www.ytv.co.jp/anime/suwa_wp/336.html; https://barks.jp/news/659678; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 22,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 24,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

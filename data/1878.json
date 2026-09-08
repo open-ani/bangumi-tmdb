@@ -1,0 +1,24 @@
+{
+  "anidbId": 4222,
+  "bangumiId": 1878,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 1878 明确是《スクールランブル 二学期》TV，共26话，标注季数2；制作人员、Studio Comet、导演金﨑貴臣及前后篇关系均与该版本一致。TMDB 31665 的第2季明确为26集，完整剧集标题、剧情和2006年播出日期逐项对应 Bangumi 1—26话。因此应映射为第2季全集，不包含第0季特别篇、第1季或《三学期》OVA。Bangumi与TMDB日期存在日本播出日显示差异，但不影响版本和集数对应。\n\nhttps://bgm.tv/subject/1878 (page): Bangumi 将 subject 1878 标为 TV《スクールランブル 二学期》，共26话，放送开始于2006年4月2日，季数为2；页面列出 Studio Comet、导演金﨑貴臣，并关联前传《スクールランブル》和续集《スクールランブル 三学期》。\n\nhttps://www.themoviedb.org/tv/31665 (api_snapshot): 输入的 TMDB API 快照显示 TV 31665 为《スクールランブル》，共有52集，且明确分为第1季和第2季各26集，另有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/31665/season/2 (api_snapshot): 输入的 TMDB 第2季 API 快照明确给出 season_number=2、26集；第1至26集的日文标题、剧情和日期与 Bangumi subject 1878 的章节逐项对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的标题索引摘要将 AniDB ID 4222 对应为 School Rumble Ni Gakki，与 Bangumi subject 标题及输入中的匹配名称一致。\n\n备注：AniDB 原始页面本轮因访问限制无法直接读取；AniDB关联的直接页面证据弱于 Bangumi 与 TMDB 的逐集对应证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1878; https://www.themoviedb.org/tv/31665; https://www.themoviedb.org/tv/31665/season/2; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 26,
+      "id": 31665,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

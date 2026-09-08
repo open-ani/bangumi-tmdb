@@ -1,0 +1,24 @@
+{
+  "anidbId": 5131,
+  "bangumiId": 30222,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是2007—2008年发行的12话原创 OVA《装甲騎兵ボトムズ ペールゼン・ファイルズ》。TMDB 将其收录在 TV 作品 32377《装甲騎兵ボトムズ》的特别篇（第0季）第13—24集：首尾分别为「ペールゼン・ファイルズ 第01話『渡河作戦』」和第12话「モナド」，中间标题、日期及剧情也与 Bangumi 的12话逐集吻合。旧候选的第3季不存在，TMDB API 对该季返回404。第0季第25集及 TMDB movie 187795 是2009年的118分钟剧场重剪版，不是本 subject，故不纳入。\n\nhttps://www.votoms.net/about/07.php (page): 《装甲騎兵ボトムズ》官方作品页明确将本作标为全12话 OVA，发行期为2007年10月26日至2008年8月22日，并列出从第1话「渡河作戦」到第12话「モナド」的完整标题。\n\nhttps://www.themoviedb.org/tv/32377 (api_snapshot): TMDB API 快照确认 TV ID 32377 的原名为《装甲騎兵ボトムズ》，其现有分季只有第1季和特别篇第0季；请求第3季返回404，因此旧候选 season=3 错误。\n\nhttps://www.themoviedb.org/tv/32377/season/0 (api_snapshot): TMDB API 快照中，第0季第13—24集连续标为《ペールゼン・ファイルズ》第01—12话；标题依次与 Bangumi 的「渡河作戦、ガレアデ、分隊、死の谷、尋問、異能、狙撃、冷獄、ダウン・バースト、戦略動議、不死の部隊、モナド」完全对应，首播日期也逐集吻合。第25集另标为2009年剧场版。\n\nhttps://www.themoviedb.org/collection/818209?language=en-US (page): TMDB 的系列合集页将《装甲騎兵ボトムズ ペールゼン・ファイルズ 劇場版》列为2009年1月17日发行的 OVA 系列重剪合集，证明它与本次目标的12话 OVA 是不同版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/30222; https://www.votoms.net/about/07.php; https://www.themoviedb.org/tv/32377; https://www.themoviedb.org/tv/32377/season/0; https://www.themoviedb.org/collection/818209?language=en-US",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 32377,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

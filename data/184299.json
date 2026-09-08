@@ -1,0 +1,22 @@
+{
+  "anidbId": 12158,
+  "bangumiId": 184299,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 将该主体明确标为 2016 年 TV 动画，共 12 话，放送期为 2016-07-06 至 2016-09-21；标题、剧情简介、制作方及 12 个分集标题均与 TMDB TV 67091 一致。TMDB 明确列出第 1 季且共 12 集，快照中的集标题和剧情逐集对应 Bangumi，日期相差一天属于日本播出日期与 TMDB 日期记录的偏移。未发现电影、OVA、总集篇或重剪版主体需要另行映射，因此采用完整第 1 季。AniDB 12158 页面本次无法直接读取，但该候选已由 Bangumi 与 TMDB 的独立作品信息充分确认。\n\nhttps://bgm.tv/subject/184299 (page): Bangumi 页面将作品标为 TV，话数 12，放送开始于 2016-07-06，结束于 2016-09-21，并列出 01—12 共 12 个分集及对应标题。\n\nhttps://www.themoviedb.org/tv/67091 (api_snapshot): TMDB TV 页面快照显示作品标题为“魔法少女？なりあ☆がーるず”，首播日期为 2016-07-07，共 12 集，且包含与 Bangumi 一致的剧情简介和第 1 季记录。\n\nhttps://www.themoviedb.org/tv/67091/season/1 (api_snapshot): TMDB 第 1 季快照明确为 season_number 1、episodeCount 12，并完整列出第 1—12 集；集标题、剧情和时间顺序均与 Bangumi 主体对应。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-6r8Ba7toD-RmbXht2_yDVQ&gdid=tvepisode-yXkomoOns6M&id=LgDh7cj1QF4 (search_snippet): 搜索摘要明确标注该作品为 Season 1，包含 12 集，并显示与 TMDB/Bangumi 相同的分集标题和 2016 年日期。\n\n备注：AniDB 12158 的原始页面受到访问限制，未能将 AniDB 关联作为独立网页证据；本次结论依赖 Bangumi 与 TMDB 对标题、年份、剧情、制作信息及完整 12 集的直接对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/184299; https://www.themoviedb.org/tv/67091; https://www.themoviedb.org/tv/67091/season/1; https://play.google.com/store/tv/show?cdid=tvseason-6r8Ba7toD-RmbXht2_yDVQ&gdid=tvepisode-yXkomoOns6M&id=LgDh7cj1QF4",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 67091,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 4833,
+  "bangumiId": 3420,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: BangumiExtLinker 明确将 Bangumi 3420 映射至 AniDB 4833；Bangumi 条目本身是 2007 年 TV、13 话的第一幕，标题、剧情、导演、系列构成、动画制作与官方资料一致。TMDB 37538 是同一作品的合并 TV 条目，共两季各13话；其第1季的13个日文集标题及剧情与该 Bangumi 条目的13话逐一对应，因此应采用完整第1季，不纳入第二幕或剧场版/总集篇。Bangumi 的4月8日与 TMDB/官方的4月3日差异符合不同电视台及深夜档日期记录差异。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (page): 数据行明确记录 bgm_id 3420、作品标题、2007-04 与 anidb_id 4833 的对应关系。\n\nhttps://bgm.tv/subject/3420 (page): Bangumi 条目标注为 TV、13话、2007年4月8日开始，并列出第一幕的剧情、制作人员和第1至13话。\n\nhttps://www.production-ig.co.jp/works/sisters-of-wellber/ (page): Production I.G 官方资料确认作品的第1部、2007年4月3日深夜开播、剧情设定及主要制作信息。\n\nhttps://www.themoviedb.org/tv/37538 (api_snapshot): TMDB API 快照显示作品总计26集，季1和季2各13集。\n\nhttps://www.themoviedb.org/tv/37538/season/1 (api_snapshot): TMDB API 快照显示第1季共13集；第1至13集标题依次为始まりの章、旅立ちの章、復讐の章、決意の章、脱出の章、真実の章、追跡の章、告白の章、決別の章、絆の章、慟哭の章、情念の章、血戦の章，与 Bangumi 13话完全对应。\n\n备注：不同资料对首播日期记为2007-04-03、2007-04-04或2007-04-08，属于电视台/深夜档日期口径差异；不影响作品、季号及13话范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3420; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://www.production-ig.co.jp/works/sisters-of-wellber/; https://www.themoviedb.org/tv/37538; https://www.themoviedb.org/tv/37538/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 37538,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 2392,
+  "bangumiId": 18502,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 18502 明确是 2005 年 10 月 4 日开播、25 话的《CLUSTER EDGE》TV 主体，制作方为 SUNRISE。AniDB 标识 2392 对应 Cluster Edge；TMDB 34676 同名、同日首播、日语日本 TV，并且第 1 季包含完整 25 集，播出日期从 2005-10-04 至 2006-03-28，与 Bangumi 主体吻合。TMDB 的第 0 季为 3 集特别篇，而 Bangumi 将 CLUSTER EDGE Secret Episode 作为独立关联条目，因此不纳入本 subject。\n\nhttps://bgm.tv/subject/18502 (page): Bangumi 将该条目标为 CLUSTER EDGE TV，25 话，2005-10-04 开播，制作/动画制作涉及 SUNRISE；并将 CLUSTER EDGE Secret Episode 列为独立续集关联条目。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据中将 anime ID 2392 映射为 Cluster Edge。\n\nhttps://www.themoviedb.org/tv/34676 (api_snapshot): TMDB TV 34676 名为 CLUSTER EDGE，首播日期为 2005-10-04，共 25 集；季列表显示第 0 季 3 集、第 1 季 25 集。\n\nhttps://www.themoviedb.org/tv/34676/season/1 (api_snapshot): TMDB 第 1 季为 25 集，首集 2005-10-04，末集 2006-03-28，日期序列与 Bangumi 主体一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/18502; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34676; https://www.themoviedb.org/tv/34676/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34676,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

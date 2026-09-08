@@ -1,0 +1,27 @@
+{
+  "anidbId": 18660,
+  "bangumiId": 496973,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 496973 与 TMDB 270931 是同一部 2025 年 TV 动画：标题、2025-07-05 首播日、13 集正篇、角色与剧情均一致。Bangumi 还收录了 2025-08-23 的特别篇 Branch X；TMDB 将同日的一集特别编单列为第 0 季，因此应同时映射第 1 季完整 13 集和第 0 季完整特别编。\n\nhttps://bgm.tv/subject/496973 (page): Bangumi 页面确认标题为 9-nine- 支配者的王冠，话数 13，放送开始为 2025-07-05，并列出正篇 01–13 及 SP 08.5。\n\nhttps://nine-anime.marv.jp/onair/ (page): 官方页面确认 TV 动画自 2025-07-05 开播，首回为 60 分钟扩大特别放送。\n\nhttps://nine-anime.marv.jp/story/ (page): 官方剧情页列出 Branch 01–13，内容与 Bangumi 及 TMDB 的正篇标题、剧情对应。\n\nhttps://nine-anime.marv.jp/news/post-59/ (page): 官方公告确认 Branch X 为 2025-08-23 播出的特别节目。\n\nhttps://www.themoviedb.org/tv/270931 (api_snapshot): TMDB 快照确认 270931 标题、首播日 2025-07-05、正篇 13 集，并列出第 1 季 13 集及第 0 季特别编 1 集、日期 2025-08-23。\n\nhttps://www.themoviedb.org/tv/270931/season/1 (api_snapshot): TMDB 第 1 季快照确认 season_number=1、episodeCount=13，剧集为 Branch 01–13。\n\nhttps://animetosho.org/view/kaleido-subs-9-nine-shihaisha-no-oukan-rulers.n1996077 (search_snippet): 搜索摘要将 AniDB ID 18660 对应到 9-nine- Ruler's Crown，并标为 Season 1、13 集；与 Bangumi 和 TMDB 的版本、年份及集数一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/496973; https://nine-anime.marv.jp/onair/; https://nine-anime.marv.jp/story/; https://nine-anime.marv.jp/news/post-59/; https://www.themoviedb.org/tv/270931; https://www.themoviedb.org/tv/270931/season/1; https://animetosho.org/view/kaleido-subs-9-nine-shihaisha-no-oukan-rulers.n1996077",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 270931,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 270931,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

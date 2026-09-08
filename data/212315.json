@@ -1,0 +1,22 @@
+{
+  "anidbId": 13069,
+  "bangumiId": 212315,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《クラシカロイド 第2シリーズ》，类型为 TV、首播 2017-10-07、共 25 集；页面还显示其为《クラシカロイド》的续集。TMDB TV 68271 同样以《クラシカロイド》为总标题，并明确列出第 2 季首播 2017-10-07、25 集。TMDB 第 2 季的 25 个集标题与日期逐集对应 Bangumi 提供的 25 集，因此应映射为完整第 2 季。输入 infobox 的播放结束日期存在明显笔误，但逐集日期和 TMDB 季数据支持 2018-03-24 完结。\n\nhttps://bgm.tv/subject/212315 (page): Bangumi 页面将条目标为 TV《クラシカロイド 第2シリーズ》，中文名为《克拉斯卡劳埃德 第二季》，话数 25，放送开始 2017-10-07，并列出与《クラシカロイド》的续集关系及 01–25 集。\n\nhttps://www.themoviedb.org/tv/68271 (api_snapshot): TMDB TV 68271 的总条目为《クラシカロイド》，共 50 集，并明确列出第 1 季和第 2 季；第 2 季有 25 集、首播 2017-10-07。\n\nhttps://www.themoviedb.org/tv/68271/season/2 (api_snapshot): TMDB 第 2 季 season_number=2，包含 25 集；完整剧集标题和日期与 Bangumi 条目的 25 个正篇集逐集匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/212315; https://www.themoviedb.org/tv/68271; https://www.themoviedb.org/tv/68271/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 68271,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

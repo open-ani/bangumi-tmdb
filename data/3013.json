@@ -1,0 +1,22 @@
+{
+  "anidbId": 5188,
+  "bangumiId": 3013,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 3013 是 2007-10-03 开播、共 12 集的 TV 动画《ご愁傷さま二ノ宮くん》，AniDB 关联 ID 5188 的标题别名与该主体一致。TMDB TV 35472 标题完全一致，首播日期为 2007-10-04（与 Bangumi 相差一天，符合播出时区/日期记录差异），剧情简介中的二ノ宮峻護、月村真由、北条麗華及同居设定一致。TMDB 第 1 季明确为 12 集，且完整剧集标题、剧情和日期依次对应 Bangumi 的 12 个正篇，因此应映射为完整第 1 季，无需限定集数范围；输入中没有额外主体特别篇需要纳入。\n\nhttps://bgm.tv/subject/3013 (page): Bangumi 主体标题为《ご愁傷さま二ノ宮くん》，日期为 2007-10-03，共 12 个正篇集；提供的 AniDB 关联为 ID 5188。\n\nhttps://www.themoviedb.org/tv/35472 (api_snapshot): TMDB TV 35472 标题为《ご愁傷さま二ノ宮くん》，首播日期为 2007-10-04，共 12 集；剧情简介与二ノ宮峻護、月村真由、北条麗華及同居设定一致。\n\nhttps://www.themoviedb.org/tv/35472/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、共 12 集；第 1 至第 12 集标题、日期和剧情依次对应 Bangumi 正篇列表。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3013; https://www.themoviedb.org/tv/35472; https://www.themoviedb.org/tv/35472/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35472,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

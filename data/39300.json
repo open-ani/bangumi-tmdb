@@ -1,0 +1,22 @@
+{
+  "anidbId": 2432,
+  "bangumiId": 39300,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2004-07-03 开始、全 25 话的《モンキーターン V》TV续作；输入中的 AniDB 关联为 2432，且公开标题数据将 2432 对应为 Monkey Turn V。TMDB 70038 第2季同样从 2004-07-03 开始，共25集；季简介描述波多野受伤复归并掌握 V モンキー，完整剧集标题与输入的25话逐集对应。因此应映射整季第2季，不需要拆分集数。\n\nhttps://api.themoviedb.org/3/tv/70038?language=ja-JP (api_snapshot): TMDB TV 70038 名称为モンキーターン，首播日为2004-01-10，包含第1、2季且每季25集。\n\nhttps://api.themoviedb.org/3/tv/70038/season/2?language=ja-JP (api_snapshot): TMDB 第2季首播日为2004-07-03，共25集；季简介及逐集标题、日期与《モンキーターンV》主体和输入的25话对应。\n\nhttps://www.allcinema.net/cinema/321046 (search_snippet): 公开资料将モンキーターンV列为2004年日本TV动画，播出时间为2004-07-03至2004-12-18，并列出25集；简介明确这是前作之后的第2弾，内容包括后辈登场、重伤及复归。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据搜索摘要列出 AniDB ID 2432 对应 Monkey Turn V。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/39300; https://api.themoviedb.org/3/tv/70038?language=ja-JP; https://api.themoviedb.org/3/tv/70038/season/2?language=ja-JP; https://www.allcinema.net/cinema/321046; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 70038,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

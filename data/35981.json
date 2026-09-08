@@ -1,0 +1,27 @@
+{
+  "anidbId": 1314,
+  "bangumiId": 35981,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 与 AniDB 1314 的标题、年份、制作信息一致，且 Bangumi 收录的 22 个短篇加剧场版正好对应该作品的电视播出版、DVD 未放送篇和剧场版。TMDB 34716 明确收录 season 1（16 集）及 season 0（7 集特别篇）；DVD 资料显示电视播出版为 8 个双短篇节目、DVD 追加 6 个短篇及最终剧场版，因此应完整纳入 TMDB season 1 和 season 0。TMDB season 0 的单集详情未随输入提供，故采用完整季范围而不臆造单集编号。\n\nhttps://bangumi.tv/subject/35981 (page): Bangumi 条目标题为超変身コス∞プレイヤー，2004 年 TV 作品，章节列表包含 23 项；页面制作人员与输入中的制作信息一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据将 ID 1314 对应为 Chou Henshin Cosprayers。\n\nhttps://www.themoviedb.org/tv/34716 (api_snapshot): TMDB 34716 标题为超変身コス∞プレイヤー，2004 年，包含 season 1（16 集）和 season 0 特别篇（7 集），总数 23 集。\n\nhttps://www.themoviedb.org/tv/34716/season/1 (api_snapshot): TMDB season 1 提供完整 16 集详情，均为 6 分钟短篇，日期从 2004-01-13 延续至 2004-03-02；内容数量和播出顺序对应电视播出的 16 个独立短篇。\n\nhttps://shopping.bookoff.co.jp/used/0010536276 (search_snippet): 官方 DVD-BOX 资料列出 TV#1 至 TV#8 的 16 个短篇，并另列 DVD#1、DVD#2、DVD#3 的 6 个未放送短篇及 DVD#4 的 THE COSMOPOLITAN PRAYERS THE MOVIE。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10958006&workId=10958 (search_snippet): 配信资料将本作按短篇列出，并明确包含 DVD 篇及最终的剧场版《コス∞プレイヤーVS暗黒宇宙将軍》；制作年份、导演、原案和动画制作信息与 Bangumi 条目一致。\n\n备注：TMDB season 0 的单集标题和编号详情未包含在输入快照中；本结论依赖其明确的 7 集季计数与 DVD 资料对 6 个 DVD 短篇加 1 个剧场版的对应。；未确认到独立的 TMDB movie ID，因此剧场版按 TMDB 34716 的 season 0 特别篇处理。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/35981; https://bangumi.tv/subject/35981; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34716; https://www.themoviedb.org/tv/34716/season/1; https://shopping.bookoff.co.jp/used/0010536276; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10958006&workId=10958",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34716,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 34716,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

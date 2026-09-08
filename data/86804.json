@@ -1,0 +1,22 @@
+{
+  "anidbId": 10228,
+  "bangumiId": 86804,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB API 快照提供了逐集级别的一一对应：TV 72806 第 1 季名为《ストレンジ・プラス》，共 12 集，其标题及顺序与 Bangumi subject 86804 的 12 集正篇完全相同。TMDB 第 2 季明确为续作《真 ストレンジ・プラス》，对应另一 Bangumi subject；第 0 季为特别篇，也不属于本轮要求的正篇。因此映射为 TV 72806 第 1 季整季，无须限定集数范围。\n\nhttps://www.themoviedb.org/tv/72806 (api_snapshot): TMDB API 快照显示 TV 72806 原名为《ストレンジ・プラス》，2014 年首播；季结构将《ストレンジ・プラス》列为第 1 季（12 集），《真 ストレンジ・プラス》列为第 2 季（12 集），另设第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/72806/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 12 集，标题依次为 THIEF、PRINCESS、HOSPITAL、TRAP、MISTRESS、PRECIOUS、PROCESSION、INTRUDER、GUARD、CURSE、ANTIQUE、HERO，与 Bangumi 86804 的正篇标题和顺序逐集一致。\n\nhttps://www.themoviedb.org/tv/72806/season/2 (api_snapshot): TMDB API 快照明确将第 2 季命名为《真 ストレンジ・プラス》，首集为 RECONDUCT，证明该季是后续系列，不是 Bangumi 86804 的正篇。\n\nhttps://www.themoviedb.org/tv/72806/season/0 (api_snapshot): TMDB API 快照显示第 0 季名为“特別編”，收录两集特别篇，与第 1 季的 12 集正篇分开编排，本轮不纳入。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/86804; https://www.themoviedb.org/tv/72806; https://www.themoviedb.org/tv/72806/season/1; https://www.themoviedb.org/tv/72806/season/2; https://www.themoviedb.org/tv/72806/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 72806,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

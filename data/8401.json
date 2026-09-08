@@ -1,0 +1,29 @@
+{
+  "anidbId": 7891,
+  "bangumiId": 8401,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 8401 明确是《ポケットモンスター ベストウイッシュ》TV 主体，共84集，播出至2012-06-14；其标题、制作人员和集列表与 Best Wishes 版本一致。TMDB 60572 的第14季为48集，首播日2010-09-23，且完整剧集标题和日期逐集对应 Bangumi 第1-48集。TMDB 第15季从2011-09-22开始，共49集；Bangumi 第49集正于2011-09-22开始，第84集于2012-06-14结束，外部剧集资料也明确该段为第15季前36集。因此应纳入第14季全季及第15季第1-36集；第15季后13集属于后续 Bangumi subject 40081 的内容。相关电影在 Bangumi 中作为独立关联条目，不属于该TV主体。\n\nhttps://bgm.tv/subject/8401 (page): Bangumi 将该条目标为 TV，共84话，2010-09-23开始、2012-06-14结束；制作人员和标题与 Best Wishes 版本一致，并将第2季及剧场版列为独立关联条目。\n\nhttps://bgm.tv/subject/8401/ep (page): Bangumi 集表显示第48集于2011-09-15播出，第49集于2011-09-22播出，第83-84集于2012-06-14播出；第1-84集标题和日期连续对应该主体。\n\nhttps://www.themoviedb.org/tv/60572 (api_snapshot): TMDB API 快照显示 TV 60572 的第14季为“ベストウィッシュ: シーズン1”，48集、首播2010-09-23；第15季为“ベストウィッシュ: シーズン2”，49集、首播2011-09-22。\n\nhttps://www.themoviedb.org/tv/60572/season/14 (api_snapshot): TMDB API 快照显示第14季完整48集；剧集标题和日期从2010-09-23至2011-09-15逐集对应 Bangumi 第1-48集。\n\nhttps://www.themoviedb.org/tv/60572/episodes?credit_id=56ae6d10c3a3681c5400a48&language=ja-JP&person_id=4bc8b603017a3c122d061a7a (search_snippet): TMDB 剧集页面摘要将对应剧集标为15x1、15x2、15x3、15x10、15x11、15x13，确认该续接段使用 TMDB season 15 编号。\n\nhttps://en.wikipedia.org/wiki/Pok%C3%A9mon%3A_Black_%26_White%3A_Rival_Destinies (search_snippet): 剧集资料摘要明确该季前36集在日本于2011-09-22至2012-06-14播出；其后才进入后续 Best Wishes Season 2 内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8401; https://bgm.tv/subject/8401/ep; https://www.themoviedb.org/tv/60572; https://www.themoviedb.org/tv/60572/season/14; https://www.themoviedb.org/tv/60572/episodes?credit_id=56ae6d10c3a3681c5400a48&language=ja-JP&person_id=4bc8b603017a3c122d061a7a; https://en.wikipedia.org/wiki/Pok%C3%A9mon%3A_Black_%26_White%3A_Rival_Destinies",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 60572,
+      "season": 14,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 36,
+      "id": 60572,
+      "season": 15,
+      "type": "tv"
+    }
+  ]
+}

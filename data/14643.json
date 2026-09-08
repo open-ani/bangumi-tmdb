@@ -1,0 +1,22 @@
+{
+  "anidbId": 2512,
+  "bangumiId": 14643,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《陰陽大戦記》TV 主体，输入中的 AniDB ID 2512 及标题关联与该作品一致。官方 Sunrise 资料确认其为 2004-09-30 至 2005-09-29 播出的全 52 集 TV 动画，制作、剧情和角色信息均与 Bangumi 及 TMDB 34175 相符。TMDB 明确只有第 1 季且包含完整 52 集；输入快照显示剧集未截断，首尾标题和日期也与官方资料一致。因此采用 TMDB TV 34175 第 1 季完整范围。输入中的 NCOP/NCED 是片头片尾素材，不属于需要追加的主体剧集。\n\nhttps://bgm.tv/subject/14643 (page): Bangumi 页面将该主体标为《陰陽大戦記》TV，52 话，2004-09-30 开始、2005-09-29 结束，并列出第 1 至第 52 集及相同制作人员信息。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=261 (page): Sunrise 官方资料确认作品名、播出日期 2004-09-30 至 2005-09-29、全 52 集、东京电视台，以及与输入剧情相同的天流/地流和太刀花陆主线。\n\nhttps://www.sunrise-world.net/titles/pickup_261.php (page): Sunrise World 官方资料确认日文标题、英文表记 ONMYO TAISENKI、全 52 集、播出日期、Sunrise 制作及主要角色和剧情设定。\n\nhttps://www.themoviedb.org/tv/34175 (api_snapshot): TMDB API 快照显示 ID 34175 的日文标题为《陰陽大戦記》，首播日期为 2004-09-30，简介、日文原名、日语来源国和总集数 52 均与目标主体一致；季列表仅有 season 1，episode_count 为 52。\n\nhttps://www.themoviedb.org/tv/34175/season/1 (api_snapshot): TMDB season API 快照明确为第 1 季，episodeCount=52，episodesTruncated=false；完整剧集标题及日期覆盖第 1 集至第 52 集，与输入 Bangumi 剧集列表及官方首尾播出信息相符。\n\nhttps://www.themoviedb.org/tv/34175/season/1/episode/23?language=ja (search_snippet): TMDB 公开季页面搜索摘要显示该作品的第 1 季包含 52 集，并展示与输入一致的日文剧集标题和 2004 年播出日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/14643; https://www.sunrise-inc.co.jp/work/detail.php?cid=261; https://www.sunrise-world.net/titles/pickup_261.php; https://www.themoviedb.org/tv/34175; https://www.themoviedb.org/tv/34175/season/1; https://www.themoviedb.org/tv/34175/season/1/episode/23?language=ja",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34175,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

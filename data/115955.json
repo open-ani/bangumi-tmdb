@@ -1,0 +1,38 @@
+{
+  "anidbId": 8471,
+  "bangumiId": 115955,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 115955 是2000年开播、増田龍治创作的39话日本3DCG短篇电视动画《ポピーザぱフォーマー》，与 TMDB TV 35427 的原名、年份、媒介、创作者、角色和剧情完全一致。官方 Columbia 资料把正篇依次分为第1—13、14—26、27—39话，对应 TMDB 的三个13话区段，因此应映射到 S1E1-E13、S2E1-E13、S3E1-E13。TMDB API 快照目前把第三季额外列出一集日期为2003-01-01的 S3E14，但其剧集总数仍写39；TMDB索引页面也把《FACE》标为 S3E13 季终集。官方资料明确《FACE》是第39话及最终话，而倒数特别篇是另行制作的特别内容，所以 S3E14 不属于本 Bangumi subject 的39话正篇。\n\nhttps://www.themoviedb.org/tv/35427 (api_snapshot): TMDB API 快照显示 TV 35427 的原名为《POPEE the ぱフォーマー》，首播日期为2000-01-03、国家为日本，并登记正剧总数39集；这些核心身份信息与 Bangumi subject 一致。\n\nhttps://www.themoviedb.org/tv/35427-popee-the-performer?language=tr (page): TMDB具体作品页显示作品年份为2000、原名为《POPEE the ぱフォーマー》，创作者为増田龍治；剧情是见习小丑 Popee 与助手 Kedamono 在马戏团练习表演并引发混乱，确认不是仅凭同名匹配。页面还把《FACE》标为 S3E13 和季终集。\n\nhttps://www.themoviedb.org/tv/35427/season/1 (api_snapshot): TMDB API 季快照确认第1季编号为1，共13集，即本映射的 S1E1-E13。\n\nhttps://www.themoviedb.org/tv/35427/season/2 (api_snapshot): TMDB API 季快照确认第2季编号为2，共13集，即本映射的 S2E1-E13。\n\nhttps://www.themoviedb.org/tv/35427/season/3 (api_snapshot): TMDB API 季快照确认第3季编号为3；当前快照额外含日期为2003-01-01的第14集，因此正篇必须明确限制为 S3E1-E13。\n\nhttps://columbia.jp/~popee/story1_4.html (page): 版权方 Columbia 的作品资料以《DANCE》作为第13话，确定第一内容区段止于正篇第13话。\n\nhttps://columbia.jp/~popee/story2_1.html (page): 版权方 Columbia 的第二卷故事页从第14话《GREAT MAGIC》开始。\n\nhttps://columbia.jp/~popee/story2_4.html (page): 版权方 Columbia 的第二卷故事页以第26话《MONOCYCLE》结束，确定第二内容区段为正篇第14—26话。\n\nhttps://columbia.jp/~popee/story3_1.html (page): 版权方 Columbia 的第三卷故事页从第27话《KNIFE GAME》开始。\n\nhttps://columbia.jp/~popee/story3_4.html (page): 版权方 Columbia 明确将《仮面の下／FACE》标为“第39话（最终话）”，确定第三个正篇区段止于第39话。\n\nhttps://animedb.moe/anime/series/3360 (page): 基于日本媒体艺术数据库资料整理的完整节目表将1—39编号为正篇，把《FACE》列为第39话，并把《ポピーザぱフォーマー カウントダウン スペシャル》另标为特别篇“S”，进一步证明倒数特别篇不在39话正篇内。\n\n备注：TMDB API 快照的第三季14集与作品总集数39及TMDB索引页所示第三季13集存在内部不一致；但这只影响额外特别篇在TMDB中的错误或变动收录方式，不影响本 subject 应取三个季各前13集的范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/115955; https://www.themoviedb.org/tv/35427; https://www.themoviedb.org/tv/35427-popee-the-performer?language=tr; https://www.themoviedb.org/tv/35427/season/1; https://www.themoviedb.org/tv/35427/season/2; https://www.themoviedb.org/tv/35427/season/3; https://columbia.jp/~popee/story1_4.html; https://columbia.jp/~popee/story2_1.html; https://columbia.jp/~popee/story2_4.html; https://columbia.jp/~popee/story3_1.html; https://columbia.jp/~popee/story3_4.html; https://animedb.moe/anime/series/3360",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 13,
+      "id": 35427,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 13,
+      "id": 35427,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 13,
+      "id": 35427,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

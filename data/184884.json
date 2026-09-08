@@ -1,0 +1,22 @@
+{
+  "anidbId": 12199,
+  "bangumiId": 184884,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 输入显示该条目为《ヘボット!/HEYBOT!》2016-09-18开播、共50集，并关联 AniDB 12199。官方 Sunrise 资料确认同名作品的播出日期、50集、BN Pictures/Bandai 制作信息及相同剧情；官方名古屋电视台资料还列出第50集。TMDB 67902 的主条目与第1季快照确认这是同一部日本TV动画，只有第1季且共50集，剧集标题与Bangumi提供的1—50集逐项对应。因此采用完整第1季。\n\nhttps://www.sunrise-world.net/titles/titles.php?id=397 (search_snippet): 官方资料确认《ヘボット！/HEYBOT!》于2016-09-18至2017-09-24播出，共50集；列出BN Pictures、Bandai及相关制作人员，并给出与TMDB相符的剧情简介。\n\nhttps://www.nagoyatv.com/heybot/story/ (search_snippet): 官方播出方资料列出第43—50集，并确认第50集《にちようびのせかい》于2017-09-24播出。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB标题数据片段将ID 12199对应为“Heybot!”。\n\nhttps://www.themoviedb.org/tv/67902 (api_snapshot): TMDB API快照确认TV条目67902为日文名へボット！、首播日2016-09-18、共50集，且仅列出season 1；简介与官方剧情一致。\n\nhttps://www.themoviedb.org/tv/67902/season/1 (api_snapshot): TMDB第1季API快照确认season_number=1、共50集；第1—50集标题与Bangumi输入逐项对应，包含主体内第44集等特别命名剧集。\n\n备注：TMDB快照中第22集日期为2017-02-19，而Bangumi输入为2017-02-26；这是日期元数据冲突，但集数、标题、首尾日期及整体50集范围均一致，不影响采用完整第1季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/184884; https://www.sunrise-world.net/titles/titles.php?id=397; https://www.nagoyatv.com/heybot/story/; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/67902; https://www.themoviedb.org/tv/67902/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 67902,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

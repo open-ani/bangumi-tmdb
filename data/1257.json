@@ -1,0 +1,22 @@
+{
+  "anidbId": 5530,
+  "bangumiId": 1257,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确标为 TV、共 6 话，首播日为 2008-02-03，并列出 6 个正篇标题；制作信息包括 XEBEC、GENCO。TMDB TV 42953 的标题、首播日、简介、制作/来源地域与 6 集季信息均一致，第一季的 6 集标题和日期也逐一对应 Bangumi 01–06。因此这是同一 TV 版本，应纳入 TMDB 第 1 季完整范围；无须拆分集数。\n\nhttps://bgm.tv/subject/1257 (page): Bangumi 将该条目标为 TV，标注 6 话、2008-02-03 开始，并列出 01–06 六个章节；标题、XEBEC、GENCO 等制作信息与候选及 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/42953 (api_snapshot): TMDB API 快照显示作品标题为 Mnemosyne -ムネモシュネの娘たち-，first_air_date 为 2008-02-03，number_of_episodes 为 6，且简介与 Bangumi 主体剧情一致。\n\nhttps://www.themoviedb.org/tv/42953/season/1 (api_snapshot): TMDB API 快照显示 season_number=1、episodeCount=6；第 1–6 集标题和日期分别对应 Bangumi 六个正篇章节。\n\n备注：AniDB 页面本次访问被 403 拒绝，无法独立读取 AniDB 5530 的详情；但该关联不影响最终映射，因为 Bangumi 与 TMDB 的标题、日期、剧情、制作信息及 6 集标题已直接逐项吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1257; https://www.themoviedb.org/tv/42953; https://www.themoviedb.org/tv/42953/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42953,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

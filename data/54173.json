@@ -1,0 +1,24 @@
+{
+  "anidbId": 9330,
+  "bangumiId": 54173,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是 2013 年播出的动画续篇《AKB0048 next stage》，正篇从 Stage 14《少女裁判》连续至 Stage 26《NO NAME…》，共 13 集。TMDB 作品 45982 将两期合并为唯一的第 1 季，共 26 集；其中第 14–26 集的标题、剧情和播出日期均与本 subject 对应。TMDB 上不存在该作品的第 2 季页面，因此旧候选中的 season=2 不符合当前 TMDB 编排，应映射到 TV 45982 第 1 季第 14–26 集。\n\nhttps://www.themoviedb.org/tv/45982 (api_snapshot): TMDB API 快照显示 TV 45982 原名为《AKB0048》，首播于 2012 年，共 26 集，并且全部收录在唯一的第 1 季。\n\nhttps://www.themoviedb.org/tv/45982/season/1 (api_snapshot): TMDB 第 1 季 API 快照列出的第 14 集为《少女裁判》、第 26 集为《NO NAME…》；第 14–26 集的全部标题、剧情与日期对应 Bangumi《AKB0048 next stage》的 13 集正篇。\n\nhttps://www.themoviedb.org/tv/45982/season/2 (api_snapshot): 输入中的 TMDB API 实际请求对第 2 季返回 HTTP 404，证明旧候选的 season=2 已不适用于当前 TMDB 编排。\n\nhttps://akb0048.jp/onair/ (page): 作品官方网站将 2013 年1月开始播出的内容明确称为“next stage”，同时把此前的 first stage 标为第 1–13 话。\n\nhttps://akb0048.jp/story/14.html (page): 官方网站把《少女裁判》明确编号为 Stage 14，其剧情与 TMDB 第 1 季第 14 集一致。\n\nhttps://akb0048.jp/story/ (page): 官方网站当前故事页把《NO NAME…》明确编号为 Stage 26，其剧情与 TMDB 第 1 季第 26 集一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/54173; https://www.themoviedb.org/tv/45982; https://www.themoviedb.org/tv/45982/season/1; https://www.themoviedb.org/tv/45982/season/2; https://akb0048.jp/onair/; https://akb0048.jp/story/14.html; https://akb0048.jp/story/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 26,
+      "id": 45982,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

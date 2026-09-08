@@ -1,0 +1,24 @@
+{
+  "anidbId": 17072,
+  "bangumiId": 363242,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2022 年 4 月 6 日至 6 月 22 日播出的 12 集第二季，章节编号为 13–24。其 AniDB 17072 与 TMDB 123876 的关联得到 Anime-Lists 支持，但 Anime-Lists 标注的 TMDB season 2 与实际快照不一致。TMDB 123876 主条目将 2021–2022 年全系列收录为 season 1、共 24 集；2022 第二季的完整标题和日期对应合并编号 13–24。因此应映射为 TMDB season 1 的第 13–24 集，而不是不存在或请求失败的 season 2。\n\nhttps://bgm.tv/subject/363242 (page): Bangumi 条目为《古見さんは、コミュ症です。2期》，类型 TV，话数 12，放送日期为 2022-04-06 至 2022-06-22，章节列表为 13–24。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 中 AniDB 17072（Komi-san wa, Komyushou Desu. (2022)）关联 TMDB TV 123876；该文件将其标为 TMDB season 2，仅作为候选线索。\n\nhttps://www.themoviedb.org/tv/123876 (api_snapshot): TMDB API 快照确认 TV ID 123876 的原名为古見さんは、コミュ症です。，首播日期 2021-10-07，总集数 24，返回的季信息为 season 1 且有 24 集。\n\nhttps://www.themoviedb.org/tv/123876/season/2 (api_snapshot): 附带快照中对 season 2 的请求返回 HTTP 404；这不能单独证明不存在，但说明候选 season 2 未被该次 TMDB 请求确认。\n\nhttps://www.tvmaze.com/shows/56939/komi-can-t-communicate/episodeguide (search_snippet): 同一作品的 2022 第二季完整剧集标题和日期与 Bangumi 第 13–24 集逐项对应：从“It's just the arrival of winter”至“It's just White Day / It has just been one year”，播出日期为 2022-04-07 至 2022-06-23。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/363242; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/123876; https://www.themoviedb.org/tv/123876/season/2; https://www.tvmaze.com/shows/56939/komi-can-t-communicate/episodeguide",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 123876,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

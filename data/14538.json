@@ -1,0 +1,22 @@
+{
+  "anidbId": 5022,
+  "bangumiId": 14538,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2007年4月5日开始播出的《鋼鉄神ジーグ》TV动画，共13话，制作人员、剧情和章节均与候选一致。TMDB 17772 的主页面快照显示同名日语作品、首播日期2007-04-05、共13集；第1季快照明确为13集，且完整集标题、日期和剧情与Bangumi的第1至13话逐一对应。因此主体应映射为TMDB TV 17772第1季全13集，不涉及电影、OVA、总集篇或重剪版。\n\nhttps://bgm.tv/subject/14538 (page): Bangumi 将条目标为《鋼鉄神ジーグ》TV，话数13，放送开始2007年4月5日，列出川越淳、河村智之、菊池晃、坂本信人、Actas等制作信息，并列出第01至13话；剧情说明为50年后的新主角草薙剣児驾驶钢铁神吉克对抗妃魅禍。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开的AniDB标题数据镜像将AniDB ID 5022对应为“Koutetsushin Jeeg”，与该Bangumi条目的日文名及别名一致。\n\nhttps://www.themoviedb.org/tv/17772 (api_snapshot): TMDB API快照显示TV 17772名为鋼鉄神ジーグ，首播日期2007-04-05，原语言日语，共13集，并只有season_number=1且episode_count=13。\n\nhttps://www.themoviedb.org/tv/17772/season/1 (api_snapshot): TMDB第1季API快照明确为第1季、13集；第1至13集标题、播出日期和剧情分别与Bangumi章节及其剧情主体对应，最终集日期为2007-07-12。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/14538; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/17772; https://www.themoviedb.org/tv/17772/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 17772,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "anidbId": 18086,
+  "bangumiId": 443428,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 明确将本条目标为《推しの子》第二期，13 集，章节编号为 12–24，播出时间为 2024-07-03 至 2024-10-06。TMDB TV 203737 的 season 1 中，集 12–24 的标题、日期、简介和时长均与该主体逐集对应，因此应映射为 season 1 的 12–24 集，而不能纳入整个 season 1。TMDB 当前数据还把后续内容混入该 season 1，故必须限定范围；特番位于 season 0，不属于本 Bangumi subject 主体。\n\nhttps://bgm.tv/subject/443428 (page): Bangumi 将该条目标为 TV《推しの子》第2期，13 集，放送开始于 2024-07-03；章节列表为 12–24，并列出对应制作人员、动画工房及官方站点。\n\nhttps://www.themoviedb.org/tv/203737/season/1 (page): TMDB season 1 明确列出第 12–24 集；Tokyo Blade 至 Wish 的标题、2024-07-03 至 2024-10-06 日期及剧情简介与 Bangumi 第二期逐集匹配。\n\nhttps://www.themoviedb.org/tv/203737/season/1 (api_snapshot): 所附 TMDB API 快照的 season_number=1，episode 12–24 完整对应第二期；快照还显示 episode 1–11 属于第一期、episode 25–35 为后续内容，因此不能使用完整 season 1。\n\nhttps://www.themoviedb.org/tv/203737/season/0 (api_snapshot): TMDB 将 2023 年回顾特番和 2024-09-04 的第二期回顾特番列为 season 0，与主体正篇分开。\n\n备注：TMDB 当前 API 快照的 season 1 混入了 2026 年后续集数，季划分存在数据维护问题；但 2024 年第二期的 12–24 集标题、日期和剧情均有完整逐集证据。；AniDB 18086 的详情页未能直接读取；其候选关联与 Bangumi 的标题、年份、13 集范围及 TMDB 逐集信息一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/443428; https://www.themoviedb.org/tv/203737/season/1; https://www.themoviedb.org/tv/203737/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 12,
+      "episodeEnd": 24,
+      "id": 203737,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

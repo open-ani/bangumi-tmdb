@@ -1,0 +1,22 @@
+{
+  "anidbId": 2664,
+  "bangumiId": 5232,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 5232 明确是《ロックマンエグゼStream》电视动画，共51集，2004-10-02开播至2005-09-24结束，制作方为XEBEC，导演为加戸誉夫；其第1至51集标题与 Stream 正篇对应。AniDB ID 2664 的标题也明确为 Rockman.EXE Stream。TMDB 5653 的结构化季列表直接将 season_number=3 标为“ストリーム”，开播日为2004-10-02、共51集；前后季分别是 AXESS 和 BEAST，年份与系列顺序吻合。因此应映射为 TMDB TV 5653 第3季完整的第1至51集。剧场版是 Bangumi 的独立 subject 5229，不属于本 subject 的必要目标。\n\nhttps://bgm.tv/subject/5232 (search_snippet): Bangumi 页面确认标题、TV 类型、51集、2004-10-02开播、2005-09-24结束，以及XEBEC和加戸誉夫等制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据中将 ID 2664 映射为 Rockman.EXE Stream，核对了 Bangumi 提供的 AniDB 关联。\n\nhttps://www.themoviedb.org/tv/5653 (api_snapshot): TMDB API 快照显示 TV 5653 的结构化季列表：第3季名称为“ストリーム”、season_number 为3、air_date 为2004-10-02、episode_count 为51；同时列出 AXESS 为第2季、BEAST 为第4季。\n\nhttps://www.production-ig.co.jp/xebec/anime/rockmanexe3/timetable.html (page): XEBEC 官方页面确认《ロックマンエグゼストリーム》于2004-10-02在东京电视台等频道开播。\n\nhttps://www.tv-tokyo.co.jp/anime/renewal0807/main/favorite_after.html (search_snippet): 东京电视台官方资料列出《ロックマンエグゼ・ストリーム》播出区间为2004-10-02至2005-09-24。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5232; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/5653; https://www.production-ig.co.jp/xebec/anime/rockmanexe3/timetable.html; https://www.tv-tokyo.co.jp/anime/renewal0807/main/favorite_after.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 5653,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

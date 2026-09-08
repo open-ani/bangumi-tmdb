@@ -1,0 +1,24 @@
+{
+  "anidbId": 18504,
+  "bangumiId": 481865,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《夜は猫といっしょ》第3期，共40话，播出时间为2024-12-04至2025-09-03，章节编号为61–100；官方站也确认第3期及第100夜。TMDB 199928 是同名作品，只有特别篇第0季和包含100集的第1季，没有独立第3季。独立剧集表将对应的 Night 61–100 标为第1季 Episode 61–100，标题和日期与 Bangumi 完全对应，因此应映射到 TMDB 第1季的61–100集，而不是整季。\n\nhttps://bgm.tv/subject/481865 (page): Bangumi 条目标为《夜は猫といっしょ 第3期》，40话，2024-12-04开始、2025-09-03结束，章节为61至100，并列出原作、导演、制作公司等信息。\n\nhttps://yoruneko-pr.com/ (page): 官方站确认《夜は猫といっしょ》Season 3，并发布“第3期・第100夜配信記念”。\n\nhttps://www.themoviedb.org/tv/199928 (api_snapshot): TMDB API 快照显示作品名为“夜は猫といっしょ”，首播日2022-08-03，共100集；季列表为特别篇第0季2集和第1季100集。\n\nhttps://www.themoviedb.org/tv/199928/season/3 (api_snapshot): TMDB API 快照请求第3季返回HTTP 404；结合主条目的完整季列表，不能把候选的 season=3 直接作为TMDB季号。\n\nhttps://episodehive.com/tv-shows/nights-with-a-cat/all (page): 剧集表明确将 Night 61至100标为 Season 1 Episode 61至100；Episode 61日期为2024-12-04，Episode 100日期为2025-09-03，标题与Bangumi章节对应。\n\n备注：AniDB 18504 页面本次访问返回403，未能独立读取AniDB条目内容；AniDB关联本身仍主要依赖输入提供的关联结果，但不影响直接由Bangumi、官方站和TMDB季/集信息确认目标。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/481865; https://yoruneko-pr.com/; https://www.themoviedb.org/tv/199928; https://www.themoviedb.org/tv/199928/season/3; https://episodehive.com/tv-shows/nights-with-a-cat/all",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 61,
+      "episodeEnd": 100,
+      "id": 199928,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

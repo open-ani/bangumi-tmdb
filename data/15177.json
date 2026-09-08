@@ -1,0 +1,22 @@
+{
+  "anidbId": 782,
+  "bangumiId": 15177,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 TV、13 话，标题为「なるたる ～骸なる星・珠たる子～」、中文名「星星公主」，首播日为 2003-07-07，完播日为 2003-09-29；制作人员、原作与动画制作信息也与候选版本一致。AniDB 标题索引将 ID 782 对应为 Narutaru: Mukuro Naru Hoshi Tama Taru Ko。TMDB ID 24667 的原名、首播日、简介和日本来源国均匹配；其第 1 季明确为 13 集，完整集名与 Bangumi 章节及日期逐集对应 1–13，因此应映射为完整第 1 季。未发现电影、OVA、总集篇或重剪版需要另行纳入。\n\nhttps://bgm.tv/subject/15177 (page): Bangumi 条目标为 TV；标题、中文名、13 话、2003-07-07 开始、2003-09-29 结束，以及原作鬼頭莫宏、动画制作 PlanetEntertainment 等信息均与目标版本一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 标题索引项 [782,\"Narutaru: Mukuro Naru Hoshi Tama Taru Ko\"]，支持 AniDB ID 782 与该动画标题的对应关系。\n\nhttps://www.themoviedb.org/tv/24667 (api_snapshot): TMDB API 快照显示 ID 24667 的 original_name 为「なるたる ～骸なる星・珠たる子～」、first_air_date 为 2003-07-07、number_of_episodes 为 13，并有对应剧情与日本来源信息。\n\nhttps://www.themoviedb.org/tv/24667/season/1 (api_snapshot): TMDB API 快照显示第 1 季为 13 集、首播日为 2003-07-07；第 1–13 集标题和日期与 Bangumi 章节逐项对应，最后一集日期为 2003-09-29。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/15177; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/24667; https://www.themoviedb.org/tv/24667/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 24667,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

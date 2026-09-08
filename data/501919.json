@@ -1,0 +1,24 @@
+{
+  "anidbId": 18725,
+  "bangumiId": 501919,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是2025年4月13日至6月29日播出的12集第二季，标题、剧情、制作公司和工作人员均与《戦隊大失格》系列一致。TMDB没有把它作为season 2收录，而是将2024年第一季的1–12集与2025年第二季的13–24集合并在season 1；TMDB season 1页面逐集列出13–24集，日期和标题与Bangumi完全对应。因此应映射到TV 215799、TMDB season 1的episode 13–24。\n\nhttps://bgm.tv/subject/501919 (page): Bangumi将该主体标为TV，12集，2025-04-13开始；章节为13至24，制作/导演/原作等信息与该系列一致。\n\nhttps://sh-anime.shochiku.co.jp/anime-sentai-daishikkaku/index.html (page): 官方页面明确宣传2025-04-13开播的2nd season，并说明剧情承接第一季、制作由Yostar Pictures负责。\n\nhttps://www.themoviedb.org/tv/215799/season/1 (page): TMDB明确显示season 1共24集；第13至24集日期为2025-04-13至2025-06-29，标题和剧情与Bangumi第二季章节逐一对应。\n\nhttps://www.themoviedb.org/tv/215799 (page): TMDB作品原名为戦隊大失格，显示唯一的season 1包含24集。\n\nhttps://www.themoviedb.org/tv/215799 (api_snapshot): API快照记录TV 215799共有24集且季列表只有season 1；这是收录结构证据。\n\nhttps://www.themoviedb.org/tv/215799/season/2 (api_snapshot): API快照记录请求season 2返回HTTP 404；该失败仅说明当前快照未提供该季，未单独作为不存在的证明。\n\nhttps://anidb.app/anime/go-go-loser-ranger-season-2-1885 (search_snippet): 搜索摘要将该版本识别为Go! Go! Loser Ranger! Season 2，TV，2025年春季，播出期为2025-04-13至06-29，制作公司为Yostar Pictures。\n\n备注：AniDB官方页面在本次核查中无法直接访问，AniDB数值ID 18725主要来自输入提供的已匹配关联；但Bangumi、官方页面、剧情/制作信息及TMDB逐集日期标题均支持这是同一2025年第二季。；TMDB的season编号与AniDB/Bangumi的季编号不一致，后续使用TMDB时必须保留season 1及13–24范围，不能改写为TMDB season 2。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/501919; https://sh-anime.shochiku.co.jp/anime-sentai-daishikkaku/index.html; https://www.themoviedb.org/tv/215799/season/1; https://www.themoviedb.org/tv/215799; https://www.themoviedb.org/tv/215799/season/2; https://anidb.app/anime/go-go-loser-ranger-season-2-1885",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 215799,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

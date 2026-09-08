@@ -1,0 +1,22 @@
+{
+  "anidbId": 4074,
+  "bangumiId": 25608,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2006 年播出的《マジカノ》TV 动画，共 13 集，简介、制作信息和集标题与 TMDB 34191 第 1 季一致。公开映射中 AniDB 4074 为 Magikano，Anime-Lists 将其关联到 TMDB TV 34191 第 1 季；TMDB 季快照明确列出第 1 季且完整包含对应的 13 集。因此主体应映射为整季，不需要拆分范围。\n\nhttps://bgm.tv/subject/25608 (page): Bangumi 将该条目标为《マジカノ》TV，放送开始于 2006-01-03，共 13 话；简介、导演岸诚二、动画制作东京Kids等信息与候选作品相符。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 检索摘要显示 AniDB 标题数据中 ID 4074 对应 Magikano，支持输入中的 AniDB 关联。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"4074\"、名称 Magikano，并关联 tmdbtv=\"34191\"、tmdbseason=\"1\"；该项仅作为候选线索。\n\nhttps://www.themoviedb.org/tv/34191 (api_snapshot): TMDB TV 快照显示作品名为マジカノ，首播年份为 2006 年，共 13 集，简介与 Bangumi 主体剧情一致。\n\nhttps://www.themoviedb.org/tv/34191/season/1 (api_snapshot): TMDB 第 1 季快照明确为 season_number 1、episodeCount 13，并列出 1 至 13 集；各集日文标题与 Bangumi 章节标题逐集对应。\n\n备注：TMDB 首播日期记录为 2006-01-01，与 Bangumi 的 2006-01-03 不同；年份、剧情、制作信息及 13 集标题均一致，不影响版本和季范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/25608; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/34191; https://www.themoviedb.org/tv/34191/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34191,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 10354,
+  "bangumiId": 91135,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 91135 的主体是 2014-04-01 开始、共 52 集的《マジンボーン／魔神之骨》TV 动画。TMDB TV 79057 的原名、首播日期、简介和总集数均对应；其第 1 季明确包含 52 集，剧集标题与 Bangumi 第 1—52 集逐集吻合，因此应映射为完整的第 1 季。TMDB 个别集的 air_date 与 Bangumi 存在偏差，但不影响标题、主体版本和完整集数范围的确认。\n\nhttps://www.themoviedb.org/tv/79057 (api_snapshot): TMDB 记录标题为「マジンボーン」，原名相同，首播日期为 2014-04-01，共 52 集；简介与该作品主体剧情一致。\n\nhttps://www.themoviedb.org/tv/79057/season/1 (api_snapshot): TMDB 第 1 季明确标为 season_number=1，包含 52 集，且剧集标题从「闇からの訪問者」至「帰るべき場所」与 Bangumi 提供的第 1—52 集逐条对应；episodesTruncated=false。\n\n备注：TMDB 若干集的播出日期与 Bangumi 日期不完全一致，疑似平台日期数据差异；未发现足以表明是不同版本或不同作品的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/91135; https://www.themoviedb.org/tv/79057; https://www.themoviedb.org/tv/79057/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 79057,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

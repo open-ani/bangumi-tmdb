@@ -1,0 +1,22 @@
+{
+  "anidbId": 12409,
+  "bangumiId": 192723,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《Pokémon Generations／ポケモンジェネレーションズ》，2016 年、共 18 集，制作人员和剧情简介均与该短篇网络动画吻合。AniDB 12409 的公开标题索引也对应 Pokémon Generations。TMDB 67882 的名称、18 集总数及第 1 季完整 18 集标题均与 Bangumi 的 18 集逐集对应；因此应映射为 TV 67882 第 1 季全集，不是电影、OVA 或其他宝可梦条目。TMDB 日期采用日语版发布日期，与 Bangumi 记录的英语版首发日期不同，但不足以证明是不同作品版本。\n\nhttps://bgm.tv/subject/192723 (page): Bangumi 条目名称为 Pokémon Generations／宝可梦世代，2016-09-16 开始，共 18 集；页面还列出与输入一致的标题、剧情、导演、脚本和动画制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 12409 列为 Pokemon Generations。\n\nhttps://www.themoviedb.org/tv/67882 (api_snapshot): TMDB API 快照显示 TV ID 67882，名称为ポケモンジェネレーションズ，共 18 集，仅有第 1 季。\n\nhttps://www.themoviedb.org/tv/67882/season/1 (api_snapshot): TMDB 第 1 季快照显示 season_number=1、episodeCount=18，集名依次对应 Bangumi 的《冒险》《天罗地网》《挑战者》至《赎罪》，且剧集列表未截断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/192723; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/67882; https://www.themoviedb.org/tv/67882/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 67882,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

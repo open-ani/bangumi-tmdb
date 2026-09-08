@@ -1,0 +1,22 @@
+{
+  "anidbId": 3500,
+  "bangumiId": 7160,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2005-10-08 开始、共 12 集的《銀盤カレイドスコープ》TV 动画；输入记录中的 AniDB ID 3500 与标题别名匹配。TMDB 34134 的原名、首播日期、剧情、制作语境均一致，且第 1 季明确为 12 集。TMDB 季快照中的第 1–12 集标题和日期与 Bangumi 条目逐集对应，因此应映射为完整第 1 季，不需要缩小集数范围。未发现电影、OVA、总集篇或重剪版主体需要另行映射。\n\nhttps://bgm.tv/subject/7160 (page): 输入提供的 Bangumi 条目记录显示标题为《銀盤カレイドスコープ》、日期为 2005-10-08、TV 平台、12 集，并标记 AniDB ID 3500 与标题匹配。\n\nhttps://www.aniplex.co.jp/lineup/ginban/ (search_snippet): Aniplex 官方页面将该作品标为 TV 动画，并标注 2005.10 及相同版权制作信息。\n\nhttps://www.tv-tokyo.co.jp/anime/main/favorite_after.html (search_snippet): 东京电视台官方节目索引列出《銀盤カレイドスコープ》播出期为 2005-10-08 至 2005-12-24。\n\nhttps://www.themoviedb.org/tv/34134 (api_snapshot): TMDB API 快照显示作品原名为《銀盤カレイドスコープ》、首播日期 2005-10-08、number_of_episodes 为 12，剧情为桜野タズサ与附身其身的 Pete 围绕花样滑冰和都灵奥运展开。\n\nhttps://www.themoviedb.org/tv/34134/season/1 (api_snapshot): TMDB 第 1 季 API 快照明确 season_number=1、episodeCount=12，且未截断；第 1–12 集标题及播出日期与 Bangumi 提供的 12 集逐一对应，末集为 2005-12-24 的「シンデレラ」。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7160; https://www.aniplex.co.jp/lineup/ginban/; https://www.tv-tokyo.co.jp/anime/main/favorite_after.html; https://www.themoviedb.org/tv/34134; https://www.themoviedb.org/tv/34134/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34134,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

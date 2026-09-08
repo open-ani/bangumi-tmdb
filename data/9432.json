@@ -1,0 +1,28 @@
+{
+  "anidbId": 7247,
+  "bangumiId": 9432,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 记录是《ヒピラくん》TV 主体，输入数据标示 AniDB ID 7247 且标题匹配；Bangumi 统计为10集正篇加3集特别篇，共13集。官方故事页列出第1至12话，标题与 TMDB 第1季12集逐集对应，首播日期和作品简介也一致。官方商品页确认2014-01-29发行的完全版收录未放送第13话“ソウルくんピンチ！”，而 TMDB 的第0季正好有1集、日期为2014-01-29，因此应补入第0季第1集。\n\nhttps://bgm.tv/subject/9432 (page): 输入的 Bangumi subject 元数据为《ヒピラくん》，2009-12-21，TV，13集；其中10集正篇、3集特别篇，AniDB ID 7247 标记为 matched。\n\nhttps://www.hipira.net/story/ (page): 官方故事页连续列出第1至第12话，包含标题和剧情；第11、12话也属于该作品主体，只是标注为手机限定配信。\n\nhttps://www.hipira.net/product/ (page): 官方商品页称2014-01-29发行《ヒピラくん 完全版》，并首次收录未公开第13话“ソウルくんピンチ！の巻”。\n\nhttps://www.themoviedb.org/tv/85910 (api_snapshot): TMDB API 快照显示 TV 85910 原名为“ヒピラくん”，首播日2009-12-21，共12集；第1季12集，第0季1集且日期为2014-01-29。\n\nhttps://www.themoviedb.org/tv/85910/season/1 (api_snapshot): TMDB 第1季快照完整提供第1至12集的标题、日期和剧情，逐集对应官方故事页第1至12话。\n\n备注：TMDB 第0季快照只提供“特別編”、日期和集数，未提供该集标题；将其认定为官方完全版新增第13话，是依据2014-01-29日期与官方商品页的未公开第13话信息匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9432; https://www.hipira.net/story/; https://www.hipira.net/product/; https://www.themoviedb.org/tv/85910; https://www.themoviedb.org/tv/85910/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 85910,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 85910,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

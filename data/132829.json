@@ -1,0 +1,28 @@
+{
+  "anidbId": 11213,
+  "bangumiId": 132829,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2015年7月开播、12集TV动画，制作公司为 Assez Finaud Fabric.×feel.；第1至12集标题与播出日期和 TMDB 第1季整体对应。TMDB 主页面显示同一作品有第1季12集及第0季1集，第0季日期为2015-11-27；Bangumi主体内另列 SP13「その後の枕男子」，日期相同，因此纳入 TMDB season 0 episode 1。TMDB 第1季后3集日期比 Bangumi 晚一天，但集数、顺序、作品年份和主体信息一致，属于日期记录差异，不影响采用完整一季。\n\nhttps://bgm.tv/subject/132829 (page): Bangumi确认该条目为《枕男子》TV，12集，2015-07-13至2015-09-28，制作公司为 Assez Finaud Fabric.×feel.，并列出主体第1至12集及特别篇。\n\nhttps://bgm.tv/subject/132829/ep (page): Bangumi章节列表列出12集正篇以及SP13「その後の枕男子」，SP首播日期为2015-11-27。\n\nhttps://www.themoviedb.org/tv/66993 (api_snapshot): TMDB API快照确认TV ID 66993名为枕男子，首播2015-07-13，共12集；季列表包含season 0（1集，2015-11-27）和season 1（12集，2015-07-13）。\n\nhttps://www.themoviedb.org/tv/66993/season/1 (api_snapshot): TMDB API快照确认season 1有完整12集，前9集日期与Bangumi一致，后3集仍保持对应顺序和主体集数。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引将AniDB ID 11213列为Makura no Danshi，与输入提供的Bangumi→AniDB匹配结果一致。\n\n备注：TMDB season 1第10至12集的API日期分别为2015-09-15、2015-09-22、2015-09-29，比Bangumi日期晚一天；但没有发现足以表明是不同版本的证据。；TMDB主页面提供了season 0的季级信息，未附该季单集详情快照；其1集数量、日期与Bangumi SP13完全对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/132829; https://bgm.tv/subject/132829/ep; https://www.themoviedb.org/tv/66993; https://www.themoviedb.org/tv/66993/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66993,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 66993,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "anidbId": 17057,
+  "bangumiId": 362733,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《闇芝居》第10期，TV、13话，2022-01-09至2022-04-03；官方页面逐话标题、剧情、制作信息与该主体一致。TMDB TV 56559 的第10季明确为2022-01-09、13话，完整13集标题和剧情与主体逐集对应，因此应映射为整季第10季，不拆分集数，也不是电影、OVA或总集篇。\n\nhttps://bgm.tv/subject/362733 (page): Bangumi 条目为《闇芝居 第10期》TV，13话，放送开始2022-01-09、结束2022-04-03，并列出ILCA及相关制作人员。\n\nhttps://www.tv-tokyo.co.jp/anime/yamishibai10/densetsu/ (page): 东京电视台官方页面逐话列出第1至第13话；标题、剧情和播出日期与Bangumi主体一致，第13话为《百話目》。\n\nhttps://www.themoviedb.org/tv/56559 (api_snapshot): TMDB TV主体56559名为《闇芝居》，包含第10季，季首日期2022-01-09、13集；同时列有其他期次，说明该ID是总系列TV主体。\n\nhttps://www.themoviedb.org/tv/56559/season/10 (api_snapshot): TMDB第10季完整返回13集；集名从《辞めたい仕事》至《百話目》，与Bangumi和官方逐集标题、剧情对应。\n\n备注：AniDB 17057的原始页面访问返回403，无法独立读取其页面来再次核验Bangumi→AniDB的ID关联；但不影响基于Bangumi、官方页面和TMDB逐集内容对具体版本的直接确认。；TMDB快照中第11至13集日期分别为2022-03-21、2022-03-28、2022-04-04，比Bangumi及东京电视台官方日期晚一天；标题、剧情和集数顺序仍完全对应，日期差异应视为TMDB日期元数据偏差，后续如需严格播出日期应以官方页面为准。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/362733; https://www.tv-tokyo.co.jp/anime/yamishibai10/densetsu/; https://www.themoviedb.org/tv/56559; https://www.themoviedb.org/tv/56559/season/10",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 56559,
+      "season": 10,
+      "type": "tv"
+    }
+  ]
+}

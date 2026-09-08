@@ -1,0 +1,22 @@
+{
+  "anidbId": 1964,
+  "bangumiId": 9349,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject「爆転シュート ベイブレード 2002」明确是2002年1月7日开始、共51集的TV续作，AniDB关联为1964（Beyblade V-Force/Beyblade 2002）。TMDB TV 54728 的第2季同样于2002年1月7日开始，共51集，逐集日期与主体集数及播出时间线一致；第1、3季分别对应前后作。因此应映射为该TV的完整第2季，不包含另列的电影或其他季。\n\nhttps://bgm.tv/subject/9349 (page): Bangumi主体名称为「爆転シュート ベイブレード 2002」，日期为2002-01-07，共51集，并关联AniDB ID 1964；与前作、后作及独立电影分开。\n\nhttps://www.themoviedb.org/tv/54728 (api_snapshot): TMDB TV 54728包含三季：第1季51集（2001）、第2季51集（2002）、第3季52集（2003）；第2季日期为2002-01-07。\n\nhttps://www.themoviedb.org/tv/54728/season/2 (api_snapshot): TMDB第2季共51集，集数1至51；首集日期2002-01-07，末集日期2002-12-30，与Bangumi主体的51集播出范围对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9349; https://www.themoviedb.org/tv/54728; https://www.themoviedb.org/tv/54728/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 54728,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

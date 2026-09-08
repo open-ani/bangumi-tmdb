@@ -1,0 +1,23 @@
+{
+  "anidbId": 11151,
+  "bangumiId": 129131,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是单集 OVA《創勢のアクエリオンEVOL》，并标注为十周年活动上映、约29分钟的完全新作及未删减版；不是《创圣的大天使》整季或《Aquarion Logos》正篇。输入中的 AniDB 11151 匹配标题也得到公开标题索引支持。TMDB 8872 的 season 0 是特别篇集合，其中第4集标题正为《創勢のアクエリオンEVOL》，简介描述月岛新、河津由乃以及 Solar Aquarion/Aquarion EVOL 的交叉故事，和该 OVA 主体一致。故只映射 S0E4，不能纳入 season 0 其他集。Bangumi 的 2015-10-28 是商品/收录日期，AT-X 的 2015-07-03 是合体特别播出日期，TMDB 的 2015-07-02 是其集数日期，属于发行/播出记录差异，不足以指向另一作品。\n\nhttps://bgm.tv/subject/129131 (page): Bangumi 章节列表只有 1 集，标注为十周年 EVENT 上映的 EVOL 完全新作 OVA；Blu-ray Vol.1 收录约29分钟未删减版。\n\nhttps://www.at-x.com/program/detail/6529 (page): AT-X 将《創勢のアクエリオンEVOL》描述为与《アクエリオンロゴス》第1话组成的一小时合体特别篇，并明确说明 OVA 在前、Logo​​s 第1话在后，且为导演剪辑版。\n\nhttps://www.themoviedb.org/tv/8872 (api_snapshot): TMDB TV 8872《アクエリオン》包含 season 0 特别篇，以及《創聖のアクエリオン》《アクエリオンEVOL》《アクエリオンロゴス》三个正篇季。\n\nhttps://www.themoviedb.org/tv/8872/season/0 (api_snapshot): TMDB season 0 第4集标题为《創勢のアクエリオンEVOL》，日期为 2015-07-02，时长31分钟；简介描述月岛新、河津由乃、創勢の書，以及 Solar Aquarion 与 Aquarion EVOL 的交战。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 ID 11151 对应为 “Sousei no Aquarion Evol”，与输入提供的 Bangumi→AniDB 匹配一致。\n\n备注：不同资料的日期和片长分别对应活动上映、电视播出、商品收录或数据库记录；TMDB 快照未明确标注其剪辑版本，但标题、剧情和 OVA 类型均与 Bangumi 主体吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/129131; https://www.at-x.com/program/detail/6529; https://www.themoviedb.org/tv/8872; https://www.themoviedb.org/tv/8872/season/0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "id": 8872,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

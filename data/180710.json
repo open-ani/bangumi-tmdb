@@ -1,0 +1,22 @@
+{
+  "anidbId": 12103,
+  "bangumiId": 180710,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是2016年10月2日开始、51集的《こねこのチー ポンポンらー大冒険》，并非2008/2009年的《チーズスイートホーム》。候选TMDB 34186的主条目首播为2008年，且其season/3请求失败，因此不匹配。TMDB ID 115785对应2016年开始、共3季的《Chi's Sweet Adventure》；其第一季对应本Bangumi主体，完整范围为第1季全季，共51集。\n\nhttps://bgm.tv/subject/180710 (page): Bangumi页面确认该主体为《こねこのチー ポンポンらー大冒険》，2016年10月2日开播，共51集，并列出完整第1至51集。\n\nhttps://www.marza.com/en/news/article/3313/ (page): MARZA官方资料确认该系列第一季于2016年、第二季于2018年推出，且使用相同角色、导演及制作公司；可与Bangumi主体版本对应。\n\nhttps://smartv-streaming.com/serie/chi-mon-chaton-2016-streaming (search_snippet): 页面标明该2016—2024系列的tmdb_id为115785，原题为こねこのチー，共3季、88集，首播日期为2016-10-02。\n\nhttps://www.justwatch.com/us/tv-show/chis-sweet-adventure (search_snippet): 页面列出该系列第1季为51集、第2季25集、第3季12集；第一季与Bangumi的2016年51集主体一致。\n\nhttps://www.themoviedb.org/tv/34186 (api_snapshot): 所附TMDB API快照显示候选34186的首播日期为2008-03-31，仅有season 1和season 2，属于早期《チーズスイートホーム》。\n\nhttps://www.themoviedb.org/tv/34186/season/3 (api_snapshot): 所附TMDB API快照显示候选34186的season 3请求返回404；请求失败本身不能证明不存在，但结合其2008年主条目资料可确认该候选不能支持2016年主体。\n\n备注：未能直接读取TMDB 115785的season/1 API快照；季号和51集范围由TMDB关联页面、独立季数/集数页面及Bangumi完整集列表交叉支持，后续可用TMDB官方API再次核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/180710; https://www.marza.com/en/news/article/3313/; https://smartv-streaming.com/serie/chi-mon-chaton-2016-streaming; https://www.justwatch.com/us/tv-show/chis-sweet-adventure; https://www.themoviedb.org/tv/34186; https://www.themoviedb.org/tv/34186/season/3",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 115785,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

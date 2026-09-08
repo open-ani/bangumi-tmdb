@@ -1,0 +1,24 @@
+{
+  "anidbId": 11745,
+  "bangumiId": 151974,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2017 年播出的《THE REFLECTION》，主体为 12 集 TV 动画；输入中的 AniDB ID 11745 已匹配。TMDB 72525 的第 1 季同为 2017-07-22 开播、共 12 集，剧集标题与日期逐集对应，且第 9 集仅存在标题标点差异（Bangumi 为“ダウンタウンL.A.”，TMDB 为“ダウンタウンLA”）。因此应映射为 TMDB TV 72525 第 1 季第 1–12 集。\n\nhttps://www.themoviedb.org/tv/72525 (api_snapshot): TMDB 记录作品原名 THE REFLECTION，首播日期 2017-07-22，共 12 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/72525/season/1 (api_snapshot): TMDB 第 1 季共 12 集，播出日期从 2017-07-22 至 2017-10-07；剧集标题和顺序与 Bangumi 提供的 12 集列表逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/151974; https://www.themoviedb.org/tv/72525; https://www.themoviedb.org/tv/72525/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 72525,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

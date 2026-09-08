@@ -1,0 +1,29 @@
+{
+  "anidbId": 5185,
+  "bangumiId": 3091,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB TV 46026 是同一部 2007 年日本动画《もえたん》：标题、年代、虹原いんく获得魔法道具并辅导ナオ的剧情以及逐集标题均吻合。Bangumi 将正篇编为第1—13话，另将总集篇5.5列为SP；TMDB则把正常播出的11话全部放在第1季，并把未首播的正篇第6话《初めてのデート》和第13话《世紀末覇者！魔法少女総進撃》分别放在特别篇S0E3、S0E4。因此主体映射必须同时包含完整第1季与S0E3—E4；S0E1是动画化前夜祭，S0E2是5.5总集篇，均不属于本轮正篇范围。\n\nhttps://bgm.tv/subject/3091 (page): Bangumi 3091 是2007年7月开始播出的TV动画《もえたん／萌单》，原作、导演等身份信息吻合；页面列出13个正篇章节，并另列SP 5.5。\n\nhttps://www.themoviedb.org/tv/46026 (api_snapshot): TMDB API快照显示TV 46026原名为《もえたん》，首播于2007年，剧情是虹原いんく从鸭子あーくん处获得魔法道具、成为魔法少女并为ナオ担任家庭教师，与Bangumi主体完全一致；该条目共有第1季11集及特别篇4集。\n\nhttps://www.themoviedb.org/tv/46026/season/1 (api_snapshot): TMDB API快照中第1季共有11集：E1—E5对应Bangumi正篇第1—5话，E6—E11依次为《狙われた学園祭》至《スキップ！》，对应Bangumi正篇第7—12话；整季均属于该subject正篇。\n\nhttps://www.themoviedb.org/tv/46026/season/0 (api_snapshot): TMDB API快照明确将《初めてのデート》列为S0E3，将《世紀末覇者！ 魔法少女総進撃》列为S0E4；其标题与剧情分别对应Bangumi正篇第6和第13话。S0E1是动画化纪念前夜祭，S0E2是复习总集篇，不能纳入正篇映射。\n\nhttps://bgm.tv/ep/21884 (page): Bangumi章节页明确把《初めてのデート》标为正篇ep.6，并注明为TV未放映话；剧情与TMDB S0E3相同。\n\nhttps://bgm.tv/ep/21891 (page): Bangumi章节页明确把《世紀末覇者!魔法少女総進撃》标为正篇ep.13，其澪变身并前往异世界救援ぱすてるインク的剧情与TMDB S0E4一致。\n\nhttps://www.biglobe.co.jp/press/2008/02/080208-1.html (page): NEC BIGLOBE当年公告明确说明《もえたん》第1—12话的电视内容包含5.5话，并把第6话称为TV未放送话，同时说明第13话也是TV未放送话；这解释了两集为何被TMDB移入特别篇，却仍是原编号正篇。\n\nhttps://bgm.tv/ep/21883 (page): Bangumi将《すみと瑠璃子のもえたんダイアリー》单独标为SP.5.5，内容是复习与萌场景排行榜，证明TMDB S0E2不是本subject要求映射的正篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3091; https://www.themoviedb.org/tv/46026; https://www.themoviedb.org/tv/46026/season/1; https://www.themoviedb.org/tv/46026/season/0; https://bgm.tv/ep/21884; https://bgm.tv/ep/21891; https://www.biglobe.co.jp/press/2008/02/080208-1.html; https://bgm.tv/ep/21883",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 46026,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 4,
+      "id": 46026,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

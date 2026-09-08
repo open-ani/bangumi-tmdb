@@ -1,0 +1,22 @@
+{
+  "anidbId": 1850,
+  "bangumiId": 57001,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是1970年4月13日开播、1971年4月5日完结的52集TV动画，标题、别名、原作、制作公司、剧情和集数均与 TMDB 78511 一致。TMDB明确列出第1季且有52集，因此主体应对应完整第1季，无需缩小集数范围。TMDB第19、20集日期分别误列为1970-10-17和1970-10-24，而Bangumi及独立放送记录显示应为1970-08-17和1970-08-24；这属于TMDB剧集资料异常，不足以否定作品和整季对应关系。\n\nhttps://bgm.tv/subject/57001 (page): Bangumi将条目标为TV，中文名为赤血十一人，52话，放送时间为1970-04-13至1971-04-05；原作梶原一騎、制作/动画制作東京テレビ動画，并提供相同的足球题材剧情简介。\n\nhttps://bgm.tv/subject/57001/ep (search_snippet): Bangumi剧集记录显示第19集《傷ついたライバル》于1970-08-17播出、第20集《大空へ飛ぶサブマリン》于1970-08-24播出，且后续集数连续至52集。\n\nhttps://www.themoviedb.org/tv/78511 (api_snapshot): TMDB API快照显示作品名和原名均为《赤き血のイレブン》，首播日期1970-04-13，共52集，并仅列出第1季且该季52集。\n\nhttps://www.themoviedb.org/tv/78511/season/1 (api_snapshot): TMDB第1季快照明确为season_number=1、episodeCount=52，完整列出第1至52集；大部分播出日期与Bangumi一致，但第19、20集日期存在异常。\n\nhttps://www.animemorial.net/ja/90-%E8%B5%A4%E3%81%8D%E8%A1%80%E3%81%AE%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3 (search_snippet): 独立放送记录确认该作为1970/04/13至1971/04/05、全52话的TV动画，标题列表包含第19、20集及其对应日文标题。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的AniDB标题映射快照将ID 1850对应为Akakichi no Eleven，与Bangumi及候选作品标题相符。\n\n备注：AniDB官方条目https://anidb.net/anime/1850 的直接读取返回403，因此AniDB→Bangumi关联未能从AniDB官方页面独立复核；但作品标题、年份、制作信息、剧情和完整集数已由Bangumi及其他独立资料交叉支持。；TMDB第19、20集播出日期与Bangumi及独立放送记录不一致，使用整季范围时应将其视为TMDB元数据错误。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/57001; https://bgm.tv/subject/57001/ep; https://www.themoviedb.org/tv/78511; https://www.themoviedb.org/tv/78511/season/1; https://www.animemorial.net/ja/90-%E8%B5%A4%E3%81%8D%E8%A1%80%E3%81%AE%E3%82%A4%E3%83%AC%E3%83%96%E3%83%B3; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 78511,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

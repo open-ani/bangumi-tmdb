@@ -1,0 +1,29 @@
+{
+  "anidbId": 1762,
+  "bangumiId": 35983,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi subject 35983 对应 2004 年日本动画《LOVE♥LOVE?》完整正篇，由电视播出的 9 话和 DVD 原创新作 4 话组成。TMDB TV 44530 的标题、年代、人物和剧情均吻合；其 S1 收录的 9 集标题逐一对应 TV#1—TV#9，S0 的 4 集数量及发行日期则与 DVD#1—DVD#4 完全吻合。因此应映射为 TMDB 44530 的 S1 全季以及 S0E1—E4；后四话虽然被 TMDB 编入特别篇季，但属于本 Bangumi subject 的正篇范围，并非本轮排除的额外特典。\n\nhttps://www.themoviedb.org/tv/44530 (api_snapshot): TMDB API 快照显示 TV 44530 原名为《LOVE♥LOVE?》，首播于 2004-05-04，原语言为日语；剧情围绕大泉直人与《超変身コス∞プレイヤー》的女演员展开，与该 Bangumi subject 的作品身份一致。条目包含 S1 的9集和 S0 的4集。\n\nhttps://www.themoviedb.org/tv/44530/season/1 (api_snapshot): TMDB API 快照显示 S1 共9集，依次为《三月の濡れた砂》《六月－夢の国》《校庭にいない八月》《九月の空》《男はそれを我慢できない》《知られすぎていた男》《愛と追憶の日々》《わが青春に悔なし》《嵐の中で輝いて》，与 Bangumi 第1—9话逐一相同。\n\nhttps://www.themoviedb.org/tv/44530/season/0 (api_snapshot): TMDB API 快照显示 S0 恰有4集，发行日期为2004-07-14、2004-08-04、2004-08-18和2004-09-01，与该作品四话 DVD 原创新作的数量及发行档期一致。\n\nhttps://www.suruga-ya.jp/product/detail/128017805 (search_snippet): 《LOVE・LOVE?》DVD-BOX 的商品资料明确区分并列出 TV#1—TV#9，以及“DVDオリジナル新作”DVD#1—DVD#4；四话标题分别为《七月の狂詩曲》《九月になれば》《地獄に堕ちた女優ども》《歴史は女で作られる》，正好对应 Bangumi 第10—13话，证明这四话属于作品正篇而不是无关特典。\n\nhttps://en.wikipedia.org/wiki/Love_Love (search_snippet): 资料记载《LOVE♥LOVE?》于2004年5月3日至6月28日播出9话，另有4话未播出的直发DVD OVA，并列出了与 Bangumi 相同的全部13话标题。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/35983; https://www.themoviedb.org/tv/44530; https://www.themoviedb.org/tv/44530/season/1; https://www.themoviedb.org/tv/44530/season/0; https://www.suruga-ya.jp/product/detail/128017805; https://en.wikipedia.org/wiki/Love_Love",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44530,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 44530,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

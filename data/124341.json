@@ -1,0 +1,24 @@
+{
+  "anidbId": 11059,
+  "bangumiId": 124341,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 124341 明确是《ARIA The AVVENIRE》3话 OVA，输入资料同时给出 AniDB ID 11059、2015–2016 年三话标题与日期。TMDB API 快照中，TV 53787 的第 0 季明确列出同名三话：第11–13集分别为「その 逢いたかったあなたに…」「その 暖かなさよならは…」「その 遙かなる未来へ…」，日期与简介也对应该 OVA，因此应映射为该剧第0季的第11–13集，而不是整季。\n\nhttps://www.themoviedb.org/tv/53787 (api_snapshot): TMDB API 快照显示 TV 53787 为《ARIA》，并包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/53787/season/0 (api_snapshot): TMDB season 0 快照列出第11–13集，标题分别对应《ARIA The AVVENIRE》三话，日期为 2015-09-26、2016-03-23、2016-06-24；第11、12集简介还明确描述该系列内容。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): Anime-Lists 关联将 AniDB 11059 作为候选线索指向 TMDB TV 53787；这与 Bangumi subject 的 AniDB matched 关联一致，但仅作为辅助证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/124341; https://www.themoviedb.org/tv/53787; https://www.themoviedb.org/tv/53787/season/0; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 11,
+      "episodeEnd": 13,
+      "id": 53787,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "anidbId": 7760,
+  "bangumiId": 419583,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是 2002-07-13 上映、20 分钟的剧场同映短篇《鉄火のマキちゃんと金のかまめしどん》，与 AniDB 7760 标题及版本一致。TMDB TV 56389 的特别篇第31、32集均标为 2002-07-13；独立剧集列表明确第31集是同年主电影《ロールとローラ うきぐも城のひみつ》，第32集才是本 subject 对应的同映短篇。因此只映射特别篇第32集，避免纳入另一 Bangumi subject 的正篇。\n\nhttps://www.tms-e.co.jp/alltitles/anpanman/060326.html (page): TMS 官方资料确认作品标题、2002-07-13 公映、20 分钟、剧情及制作人员。\n\nhttps://anidb.net/anime/7760 (page): AniDB 页面标题为 Tekka no Maki-chan to Kin no Kamameshidon，与 Bangumi 提供的 AniDB ID 7760 和作品标题一致。\n\nhttps://www.themoviedb.org/tv/56389 (api_snapshot): 所附 TMDB API 快照确认候选 TV ID 为 56389，并包含 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/56389/season/0 (api_snapshot): 所附 TMDB API 快照确认 season 0 中第31、32集的日期均为 2002-07-13；第32集为独立条目。\n\nhttps://watch.plex.tv/ja/show/lets-go-anpanman/season/0 (page): 页面按该特别篇顺序列出：第31集为“'02映画『ロールとローラ うきぐも城のひみつ』”，第32集为“'02同時上映『鉄火のマキちゃんと金のかまめしどん』”。此处仅用于标题与顺序交叉核对，season/episode 编号采用 TMDB API 快照。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/419583; https://www.tms-e.co.jp/alltitles/anpanman/060326.html; https://anidb.net/anime/7760; https://www.themoviedb.org/tv/56389; https://www.themoviedb.org/tv/56389/season/0; https://watch.plex.tv/ja/show/lets-go-anpanman/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 32,
+      "id": 56389,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

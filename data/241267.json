@@ -1,0 +1,22 @@
+{
+  "anidbId": 13980,
+  "bangumiId": 241267,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2020 年播出的 12 集 TV 动画；其标题、首播日期、剧情主体、导演与制作公司均与 TMDB TV 102432 相符。TMDB 明确只有第 1 季且为 12 集，逐集标题和日期与 Bangumi 输入的 1–12 集完全对应，因此应映射为完整第 1 季，不需要拆分集数范围。独立交叉资料同时将 Bangumi 241267、AniDB 13980 与 TMDB 102432 关联到同一作品。\n\nhttps://bgm.tv/subject/241267 (search_snippet): Bangumi 将该作品列为 TV，12 话，2020 年 10 月 13 日开始；搜索摘要还显示导演細田直人及横滨 Animation LABO 等制作信息。\n\nhttps://www.wikidata.org/wiki/Q98908246 (page): 同一作品条目列出 AniDB anime ID 13980、Bangumi subject ID 241267 和 TMDB TV series ID 102432，并记录 2020-10-13 开播、2020-12-29 结束、12 集、1 季。\n\nhttps://prtimes.jp/main/html/rd/p/000000442.000006348.html (page): KLab 官方发布资料确认这是《禍つヴァールハイト -ZUERST-》TV 动画，并明确第 12 话于 2020 年 12 月 29 日播出；剧情简介与 TMDB 主条目一致。\n\nhttps://www.themoviedb.org/tv/102432 (api_snapshot): TMDB API 快照显示标题为「禍つヴァールハイト -ZUERST-」，首播日期为 2020-10-13，剧情为伊努马埃尔与雷奥卡迪奥因武器走私事件卷入帝国灾厄，整部共 12 集。\n\nhttps://www.themoviedb.org/tv/102432/season/1 (api_snapshot): TMDB 第 1 季快照明确 season_number=1、episodeCount=12；第 1–12 集标题和播出日期逐一对应输入中的 Bangumi 集数，包括第 1 集 2020-10-13 和第 12 集 2020-12-29。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/241267; https://www.wikidata.org/wiki/Q98908246; https://prtimes.jp/main/html/rd/p/000000442.000006348.html; https://www.themoviedb.org/tv/102432; https://www.themoviedb.org/tv/102432/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 102432,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

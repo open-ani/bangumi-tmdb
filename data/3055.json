@@ -1,0 +1,22 @@
+{
+  "anidbId": 389,
+  "bangumiId": 3055,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2001 年 1 月 8 日开播、共 13 集的 TV 动画，制作人为 XEBEC、导演うえだしげる。AniDB ID 389 的条目名称、类型、集数、起止日期、导演和动画制作均一致，支持 Bangumi→AniDB 关联对应同一 TV 版本。TMDB ID 30501 的主条目同样是日文原名、2001 年 1 月 8 日开播、共 13 集；其第 1 季为 13 集，且快照中的完整剧集标题和日期与 Bangumi 的 1–13 集逐项对应。因此应映射为 TMDB TV 30501 第 1 季完整季，不需缩短范围。\n\nhttps://bgm.tv/subject/3055 (page): Bangumi 条目标为 TV，话数 13，放送日期为 2001-01-08 至 2001-03-26，动画制作 XEBEC、导演 うえだしげる，并列出第 1 至 13 集。\n\nhttps://anidb.net/anime/389 (page): AniDB 389 为 Tales of Eternia The Animation，类型为 TV Series、13 episodes，日期为 2001-01-08 至 2001-03-26，官方日文名为 Tales of Eternia THE ANIMATION，动画制作 Xebec、导演 Ueda Shigeru。\n\nhttps://www.themoviedb.org/tv/30501 (api_snapshot): TMDB TV 30501 的原名为 テイルズ オブ エターニア THE ANIMATION，首播日期 2001-01-08，共 13 集，简介中的角色、Belcanu 等剧情信息与该动画一致；唯一季为第 1 季。\n\nhttps://www.themoviedb.org/tv/30501/season/1 (api_snapshot): TMDB 第 1 季 season_number=1，共 13 集；完整剧集标题和日期与 Bangumi 第 1 至 13 集逐项对应，包括第 12、13 集均为 2001-03-26。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3055; https://anidb.net/anime/389; https://www.themoviedb.org/tv/30501; https://www.themoviedb.org/tv/30501/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 30501,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

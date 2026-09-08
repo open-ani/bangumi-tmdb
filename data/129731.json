@@ -1,0 +1,27 @@
+{
+  "anidbId": 15032,
+  "bangumiId": 129731,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 主体为《ベイウォーリアーズ サイボーグ》，包含正篇 26 集及“過去／未來”2 个特别篇。TMDB 206298 的标题、日文原名、首播日 2014-10-18、剧情概述和制作背景均吻合；其第 1 季明确包含 26 集，剧集标题顺序与 Bangumi 及日本配信页面的正篇标题一致。TMDB 主条目的 seasons 数组另列 season 0“特別編”2 集，外部剧集表确认特别篇为“Past／Future”，因此两季均应纳入。日本资料将其分类为原创视频动画，但同一标题、导演、系列构成、Synergy SP 制作及 28 集构成表明这是发行/媒介分类差异，不是另一部电影或重剪版本。\n\nhttps://bgm.tv/subject/129731 (page): 输入的 Bangumi subject 数据显示日文标题、2014-10-18 开始、正篇 26 集、特别篇“過去／未來”2 集，以及匹配的 AniDB 名称与 ID 15032。\n\nhttps://www.themoviedb.org/tv/206298 (api_snapshot): API 快照显示 TMDB 206298 的标题和原名均为“ベイウォーリアーズ サイボーグ”，首播日为 2014-10-18，剧情说明其为 BeyRaiderz 的续作，并列出 season 0 2 集、season 1 26 集。\n\nhttps://www.themoviedb.org/tv/206298/season/1 (api_snapshot): API 快照明确给出 season_number=1、episodeCount=26，且包含第 1 至第 26 集的 TMDB 编号和日期。\n\nhttps://www.video.unext.jp/title/SID0003367 (page): 日本配信页面确认同名作品、2014 年、杉島邦久导演、Synergy SP 制作，并列出“初陣、獅子王、誓い、乱気流、不死鳥”等与 Bangumi 正篇前段一致的标题及剧情。\n\nhttps://www.allcinema.net/cinema/352047 (page): Allcinema 记录同名 2014 年作品，分类为原创视频动画，导演杉島邦久、系列构成長谷川勝己、动画制作 Synergy SP，并显示共 28 个 episode；这支持其为同一 26+2 内容而非电影。\n\nhttps://www.tvmaze.com/shows/66807/beywarriors-cyborg/episodeguide (page): 剧集表明确列出 season 1 的 1x01 至 1x26，并列出特别篇 Past 与 Future；正篇标题和顺序与 Bangumi 标题可逐项对应。\n\nhttps://tv.apple.com/jp/show/%E3%83%99%E3%82%A4%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AA%E3%82%A2%E3%83%BC%E3%82%BA-%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0/umc.cmc.14j27vnryo01uvaxendtmeju1 (search_snippet): Apple TV 日本页面确认同名电视节目、season 1，以及“初陣、獅子王、誓い、乱気流、不死鳥”等集名和相同剧情设定。\n\n备注：TMDB 将第 15 集以后及特别篇集中记为 2015-02-27，而 Bangumi 的日本播出日期延续至 2015-04-25；这是发行地区/日期元数据差异，未发现对应不同内容版本。；AniDB 页面本身无法通过当前检索器抓取；AniDB 关联主要由输入的 BangumiExtLinker 匹配结果、完全一致的日文标题及独立制作/剧情/集名资料交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/129731; https://www.themoviedb.org/tv/206298; https://www.themoviedb.org/tv/206298/season/1; https://www.video.unext.jp/title/SID0003367; https://www.allcinema.net/cinema/352047; https://www.tvmaze.com/shows/66807/beywarriors-cyborg/episodeguide; https://tv.apple.com/jp/show/%E3%83%99%E3%82%A4%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AA%E3%82%A2%E3%83%BC%E3%82%BA-%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0/umc.cmc.14j27vnryo01uvaxendtmeju1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 206298,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 206298,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

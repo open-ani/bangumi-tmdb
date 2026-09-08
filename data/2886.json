@@ -1,0 +1,22 @@
+{
+  "anidbId": 3423,
+  "bangumiId": 2886,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目标记为 TV，共 26 话，播出时间为 2005-12-10 至 2006-06-10；制作信息、标题和章节与该季一致。BangumiExtLinker 将 bgm_id 2886 映射至 AniDB 3423。TMDB TV 29602 的第 2 季同样从 2005-12-10 开始、共 26 集；附带的第 2 季快照中第 1–26 集标题和日期与 Bangumi 章节逐一对应。因此应对应 TMDB 29602 第 2 季完整 1–26 集，不纳入主页面其他季或特别编集。\n\nhttps://bgm.tv/subject/2886 (page): 条目为 TV《メジャー 第2シリーズ》，共 26 话，首播 2005-12-10，完播 2006-06-10；章节列表为 01–26，制作方包括スタジオ雲雀、NHK 和小学馆制作。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (page): 数据第 667 行将 bgm_id 2886《メジャー 第2シリーズ》、date 2005-12 映射为 anidb_id 3423。\n\nhttps://www.themoviedb.org/tv/29602 (api_snapshot): TMDB TV 29602 为《メジャー》，列出第 2 季 season_number=2、air_date=2005-12-10、episode_count=26。\n\nhttps://www.themoviedb.org/tv/29602/season/2 (api_snapshot): TMDB 第 2 季快照完整提供第 1–26 集；集标题与播出日期逐一对应 Bangumi 第 1–26 话，末集为 2006-06-10。\n\n备注：AniDB 3423 页面本身抓取时返回 403；AniDB 关联因此由 BangumiExtLinker 映射记录核对，并由 Bangumi 与 TMDB 的标题、年份、制作和逐集内容一致性进一步支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2886; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://www.themoviedb.org/tv/29602; https://www.themoviedb.org/tv/29602/season/2",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 29602,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

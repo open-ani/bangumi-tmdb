@@ -1,0 +1,24 @@
+{
+  "anidbId": 12296,
+  "bangumiId": 343125,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 343125 是 2021 年播出的《メガトン級ムサシ》第一季，主体明确为 13 集。官方页面逐集列出 2021 年第 1–13 集，并明确将第 14 集起标为シーズン2；TMDB 129553 的 season 1 虽错误地合并收录了后续内容，但其第 1–13 集标题、日期和剧情与 Bangumi subject 完全对应。因此应使用 TMDB TV 129553 season 1 的第 1–13 集范围，不应纳入同季中的第 14–28 集、总集篇或特別篇。\n\nhttps://bgm.tv/subject/343125 (page): Bangumi 将该 subject 标为 TV，话数 13，放送时间为 2021-10-01 至 2021-12-24，制作方为 OLM TEAM INOUE；简介与候选作品一致。\n\nhttps://www.megaton-musashi.jp/portal/anime/episode/ (page): 官方页面列出 2021 年第 1–13 集，标题和日期与 Bangumi 章节及 TMDB season 1 episode 1–13 一一对应；并明确第 14 集起属于シーズン2。\n\nhttps://www.megaton-musashi.jp/portal/anime/episode/ (page): 官方页面明确称“シーズン1 全13話”，并将《ムサシ総集篇 叛撃の咆哮》定义为把第一季 13 集重编的独立特别映像作品。\n\nhttps://www.themoviedb.org/tv/129553 (api_snapshot): TMDB TV 129553 名称、首播日期 2021-10-01、简介和制作内容与该作品一致；其 season 1 被合并记录为 28 集。\n\nhttps://www.themoviedb.org/tv/129553/season/1 (api_snapshot): TMDB season 1 的第 1–13 集标题、日期和剧情分别对应 Bangumi subject 的 2021 年 13 集；第 14–28 集日期从 2022-10-07 起，属于后续第二季内容。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引将 AniDB ID 12296 对应为 Megaton-kyuu Musashi，与 Bangumi 提供的 AniDB 关联及作品名称一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/343125; https://www.megaton-musashi.jp/portal/anime/episode/; https://www.themoviedb.org/tv/129553; https://www.themoviedb.org/tv/129553/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 13,
+      "id": 129553,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

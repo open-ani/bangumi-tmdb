@@ -1,0 +1,22 @@
+{
+  "anidbId": 518,
+  "bangumiId": 4882,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 4882 明确是 2003 年 J.C.STAFF 制作、共 12 话的 TV 动画；作品名、剧情设定、制作信息与 TMDB 42702 一致。TMDB 第 1 季明确为 12 话，且剧集标题 1–12 与 Bangumi 条目逐项对应，因此应映射为完整第 1 季。Bangumi 日期比 TMDB 早一天，符合日本不同播出渠道/时区记录差异，不构成版本冲突。\n\nhttps://bgm.tv/subject/4882 (page): Bangumi 条目标为 TV 动画，共 12 话，2003 年播出，制作公司为 J.C.STAFF，并列出与输入相同的标题、制作人员和剧情设定。\n\nhttps://www.themoviedb.org/tv/42702 (api_snapshot): TMDB TV 条目标题为「ガンパレード・マーチ 〜新たなる行軍歌〜」，日语原名匹配，首播年份为 2003 年，共 12 集。\n\nhttps://www.themoviedb.org/tv/42702/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、episodeCount=12；完整剧集标题序列与 Bangumi 的 12 话标题逐项对应。\n\nhttps://forum.lowyat.net/topic/527770 (search_snippet): 搜索摘要将 Gunparade March 与 AniDB anime/aid=518 直接关联，并描述为 12 集 TV 动画；可作为 AniDB 518 关联的独立交叉证据。\n\nhttps://listrr.pro/Lists/ShowShowList/644220f2a8261e19948159dc?page=34 (search_snippet): 搜索摘要同时列出 Gunparade March 的 TMDB 42702 与 AniDB 518，支持候选关联。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4882; https://www.themoviedb.org/tv/42702; https://www.themoviedb.org/tv/42702/season/1; https://forum.lowyat.net/topic/527770; https://listrr.pro/Lists/ShowShowList/644220f2a8261e19948159dc?page=34",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42702,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

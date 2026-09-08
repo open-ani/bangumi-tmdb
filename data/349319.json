@@ -1,0 +1,24 @@
+{
+  "anidbId": 16755,
+  "bangumiId": 349319,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 该 subject 是2023年播出的动画第二期，共12话。官方作品页将三期连续编号：第1期为第1—12话、第二期为第13—24话、第三期为第25—36话。TMDB 117992 是原名《死神坊ちゃんと黒メイド》的同一动画系列，并将36话全部收录在第1季；其中第13—24集的标题和首播日期逐项对应本 subject。故应映射为 TMDB TV 117992 第1季第13—24集，而不是候选所写的第2季；TMDB 第2季接口实际返回404。\n\nhttps://www.themoviedb.org/tv/117992 (api_snapshot): TMDB API 快照显示 TV 117992 的原名为《死神坊ちゃんと黒メイド》，首播于2021年7月4日，共36集；常规内容只设第1季，包含36集。\n\nhttps://www.themoviedb.org/tv/117992/season/1 (api_snapshot): TMDB API 快照中第1季第13集为《坊ちゃんとアリスと魔法のプール》，日期2023年7月9日；第24集为《坊ちゃんとアリスと呪いの魔女》，日期2023年9月24日。第13—24集的全部标题和日期均与 Bangumi 第二期的12话对应。\n\nhttps://bocchan-anime.com/story/ (page): 动画官方 Story 页面明确把第2期列为第13—24话，并把第1期列为第1—12话、第3期列为第25—36话。\n\nhttps://bocchan-anime.com/news/index02140000.html (page): 动画官网公告称第1期与第2期合计全24话，印证第二期结束于总话数第24话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/349319; https://www.themoviedb.org/tv/117992; https://www.themoviedb.org/tv/117992/season/1; https://bocchan-anime.com/story/; https://bocchan-anime.com/news/index02140000.html",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 117992,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

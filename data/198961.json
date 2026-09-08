@@ -1,0 +1,22 @@
+{
+  "anidbId": 12563,
+  "bangumiId": 198961,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 页面明确显示该主体是 2017 年播出的 12 话 TV 动画，标题、首播日、导演、原作与动画制作信息均与 TMDB TV 71001 对应。TMDB 快照明确将 71001 的完整正篇置于 season 1，共 12 集，且集标题逐集对应 Bangumi 的 12 个正篇。Bangumi 另列出的 subject 241270 是独立的总集篇电影，不应并入本 TV 主体；TMDB 的 season 0 特别编也不是该主体的必要特典。\n\nhttps://bgm.tv/subject/198961 (page): Bangumi 将该条目标为 TV，话数 12，放送开始于 2017-04-03，放送结束于 2017-06-19，制作公司为 ZEXCS / studio A-CAT，并列出完整 12 个正篇章节。\n\nhttps://bgm.tv/subject/198961/relations (page): Bangumi 关联页将《～きゃっきゃうふふなワンダーランド～》单列为 2019-06-29 的总集篇，而非本 TV 主体的一部分。\n\nhttps://www.themoviedb.org/tv/71001 (api_snapshot): TMDB API 快照显示 71001 的日文标题为《フレームアームズ・ガール》，首播日期为 2017-04-03，共 12 集，并区分 season 0 特别编与 season 1。\n\nhttps://www.themoviedb.org/tv/71001/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、episodeCount=12、episodesTruncated=false；第 1 至 12 集标题与 Bangumi 正篇标题逐集对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 12563 对应为 Frame Arms Girl，与 Bangumi 输入中的 AniDB 关联标题一致。\n\nhttps://www.fagirl.com/ (page): 官方站点同时提供 TV SERIES 与 MOVIE 官方站点入口，支持 TV 系列与剧场版为分开的作品形态。\n\n备注：TMDB 快照中部分集的 air_date 比 Bangumi 播出日期晚一天，可能是条目日期记录或时区差异；标题、首播日、剧情和 12 集范围均一致，因此未影响版本判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/198961; https://bgm.tv/subject/198961/relations; https://www.themoviedb.org/tv/71001; https://www.themoviedb.org/tv/71001/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.fagirl.com/",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 71001,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

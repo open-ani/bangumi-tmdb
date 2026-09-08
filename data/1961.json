@@ -1,0 +1,22 @@
+{
+  "anidbId": 2994,
+  "bangumiId": 1961,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 1961 明确是2005年版《ガラスの仮面》TV动画，共51话，放送期为2005-04至2006-03，制作人员、剧情和演员信息与TMS及原作者官网一致。BangumiExtLinker可核对到bgm_id 1961→AniDB 2994；TMDB API快照中的35175同名、首播日为2005-04-05、简介对应北岛麻雅与“红天女”主线，并明确只有第1季且共51集。TMDB第1季的完整剧集标题与Bangumi主体的51话逐集对应，因此应映射整季，不需缩小集数范围。\n\nhttps://bgm.tv/subject/1961 (page): Bangumi将该条目标为TV，话数51，放送开始2005-04-05，列出浜津守、佐伯俊道、平山智、东京Movie等制作信息及完整51话章节。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (page): BangumiExtLinker数据中记录bgm_id 1961、标题ガラスの仮面、日期2005-04、anidb_id 2994。\n\nhttps://www.tms-e.co.jp/alltitles/2000s/587101.html (page): TMS官方作品页确认该作全51话，2005-04-05开始、2006-03-28结束，导演浜津守、系列构成佐伯俊道、角色设计平山智、动画制作东京Movie，并给出与主体一致的剧情简介。\n\nhttps://miuchisuzue.com/garakame/anime/ (page): 原作者美内铃惠官网将2005-2006版列为TV动画，确认东京电视台播出、2005-04-05至2006-03-28共51回及主要制作人员。\n\nhttps://www.themoviedb.org/tv/35175 (api_snapshot): TMDB API快照确认ID 35175为ガラスの仮面，首播日2005-04-05，简介、日文原名和制作/剧情主体匹配，共51集，只有season 1且为51集。\n\nhttps://www.themoviedb.org/tv/35175/season/1 (api_snapshot): TMDB第1季API快照明确season_number=1、episodeCount=51；完整剧集标题从第1话“千の仮面をもつ少女”至第51话“紅天女”与Bangumi 51话标题顺序对应。\n\n备注：Bangumi输入中的第51话日期为2006-03-29，而TMDB、TMS及原作者官网记为2006-03-28；这是日期记录差异，不影响作品、季号或完整51集范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1961; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://www.tms-e.co.jp/alltitles/2000s/587101.html; https://miuchisuzue.com/garakame/anime/; https://www.themoviedb.org/tv/35175; https://www.themoviedb.org/tv/35175/season/1",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35175,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

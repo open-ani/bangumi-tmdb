@@ -1,0 +1,29 @@
+{
+  "anidbId": 12038,
+  "bangumiId": 175531,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi OAD 主体包含 2016-06-06 的特别编辑版和 2018-11-30 的第15话，不应映射为 TMDB 特别篇整季。AniDB 线索对应的 DRIFTERS Special edition 是随漫画第5卷发行、剪辑TV前两话的1集OVA，匹配 TMDB season 0 episode 1；第二集日期和内容匹配《The Outlandish Knight》，即第15话，对应 episode 4。Bangumi 搜索结果还显示 episode 13-14 是独立的另一主体，因此排除 TMDB season 0 episodes 2-3。\n\nhttps://bgm.tv/anime/browser/ova/?orderby=p&sort=rank (search_snippet): Bangumi 列表显示「漂流武士 OAD」为2话、2016年6月6日，并将「漂流武士 OVA DRIFTERS episode 13-14」单列为另一部2话作品。\n\nhttps://animeschedule.net/anime/drifters-special-edition (search_snippet): AniDB 来源的条目为1集OVA，发行日为2016-06-06，随漫画第5卷发行，内容为TV前两话的特别编辑版。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index00980000.html (page): 官方资料确认第13-14幕作为新作动画收录于2017-12-23发行的商品中，支持其与当前 Bangumi OAD 主体分离。\n\nhttps://www.themoviedb.org/tv/68103/season/0 (api_snapshot): TMDB season 0 episode 1 为2016-06-06的《Drifters: Special Edition》，说明为漫画第5卷附录且剪辑TV前两话；episode 4 为2018-12-30的《The Outlandish Knight》，说明为随漫画第6卷特装版发行的第15话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/175531; https://bgm.tv/anime/browser/ova/?orderby=p&sort=rank; https://animeschedule.net/anime/drifters-special-edition; https://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index00980000.html; https://www.themoviedb.org/tv/68103/season/0",
+    "verifiedAt": null
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 68103,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 4,
+      "id": 68103,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}
