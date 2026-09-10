@@ -1,0 +1,21 @@
+{
+  "bangumiId": 317773,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 已确认 TMDB 328795 就是《ピポパポパトルくん》：原名、2000-12-04 开播、2001-03-07 完结、剧情均与 Bangumi 一致；官方东映资料还确认其为 5 分钟 TV 动画、全 65 话，并列出 BIRTHDAY/東堂いづみ、桥本光夫、松井亚弥等制作信息。TMDB S1 实际季表共 65 集，分两页完整覆盖 1–65，且每集日期连续对应官方播出期，因此使用完整 S1。Bangumi fresh API 的 total_episodes=52 与 infobox=65、官方及 TMDB=65 存在数据不一致，但不足以指向另一版本；TVDB 提示 84622 经 tmdb_find 解析为无关作品，已排除。\n\nhttps://api.bgm.tv/v0/subjects/317773 (api_snapshot): Bangumi API 记录原名、中文名、TV 类型、2000-12-04 开播、剧情和原作信息；infobox 记载 65 话。\n\nhttps://www.themoviedb.org/tv/328795 (api_snapshot): TMDB 详情确认原名为「ピポパポパトルくん」、别名 Pipo/Pipopapo Patrol-kun、日期 2000-12-04 至 2001-03-07、TV、1 季 65 集；简介与拟人车辆和向日葵镇剧情吻合。\n\nhttps://www.themoviedb.org/tv/328795/season/1 (api_snapshot): TMDB S1 季表第 1 页覆盖第 1–60 集，第 2 页覆盖第 61–65 集，total_pages=2、episodeCount=65；日期和 5 分钟片长与官方节目形式一致。\n\nhttps://lineup.toei-anim.co.jp/ja/tv/patoru/episode/ (search_snippet): 东映官方作品页搜索摘要列出第 62–65 话及主要制作人员：原作 BIRTHDAY/東堂いづみ、系列构成松井亚弥、系列导演桥本光夫、角色设计佐藤阳子、音乐泷泽淑行。\n\nhttps://lineup.toei-anim.co.jp/en/tv/patoru/ (search_snippet): 东映官方英文作品页确认这是 TV 动画，全 65 集，播出时间为 2000-12-04 至 2001-03-07。\n\n备注：Bangumi fresh API 的 regular/total episode count 为 52，但其 infobox、东映官方资料和 TMDB 均为 65；这里判断为 Bangumi 集数数据未完整同步。；TMDB 的 crew 字段为空，但官方东映资料补充并核对了制作人员。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/317773; https://api.bgm.tv/v0/subjects/317773; https://www.themoviedb.org/tv/328795; https://www.themoviedb.org/tv/328795/season/1; https://lineup.toei-anim.co.jp/ja/tv/patoru/episode/; https://lineup.toei-anim.co.jp/en/tv/patoru/",
+    "verifiedAt": "2026-09-08T22:35:38.557Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 328795,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

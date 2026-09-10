@@ -1,0 +1,20 @@
+{
+  "bangumiId": 377552,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 搜索以日文原名和罗马字别名均唯一命中 387121。TMDB 详情确认其为 1974 年日本动画电影《小さな五つのお話》，导演为岡本忠成；国立电影档案馆进一步确认该片为 1974 年、20 分钟、35mm 彩色、エコー制作，并列出岡本忠成、東君平及摄影、造型、动画、音乐、配音等工作人员。东京都立图书馆资料确认内容是由「おしいれ」「どろんこ」「もけいひこうき」「のらねこ」「かくれんぼ」组成的五段式合集。它是单部剧场动画合集而非 TV/OVA，因此使用 movie，集数范围全部为 null。\n\nhttps://www.themoviedb.org/movie/387121 (api_snapshot): TMDB 搜索和详情均确认原题为「小さな五つのお話」、别名为 Chiisana Itsutsu no Ohanashi、类型为 movie、年份为 1974；详情列出岡本忠成为 Director，片长 19 分钟。\n\nhttps://www.nfaj.go.jp/program/animation202101-2/ (page): 日本国立电影档案馆确认该片为 1974 年、20 分钟、35mm 彩色、エコー制作；列出岡本忠成（导演/原作）、東君平（原作）及田村実、保坂純子、若佐ひろみ、吉田悟、今中誠、秦泉寺博、吉良敬三、尾崎良、クニ河内、岸田今日子等工作人员。\n\nhttps://www.library.metro.tokyo.lg.jp/guide/tama_library/16mm/catalog/animation04/index.html (page): 东京都立图书馆将其列为 20 分钟彩色动画，并明确说明由五个故事「おしいれ」「どろんこ」「もけいひこうき」「のらねこ」「かくれんぼ」组成。\n\nhttps://api.bgm.tv/v0/subjects/377552 (api_snapshot): Bangumi 原始 API 信息确认日文原名、1974-10-15、剧场版媒介、20 分钟及五话一体的剧情简介。\n\n备注：TMDB 将日期返回为 1974-01-01，而 Bangumi 标为 1974-10-15；TMDB 的月日精度可能是占位值，但年份和作品身份一致。；TMDB 片长为 19 分钟，档案资料为 20 分钟，属于常见片长记录差异，不影响 movie 类型及范围判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/377552; https://www.themoviedb.org/movie/387121; https://www.nfaj.go.jp/program/animation202101-2/; https://www.library.metro.tokyo.lg.jp/guide/tama_library/16mm/catalog/animation04/index.html; https://api.bgm.tv/v0/subjects/377552",
+    "verifiedAt": "2026-09-08T23:17:53.434Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 387121,
+      "type": "movie"
+    }
+  ]
+}

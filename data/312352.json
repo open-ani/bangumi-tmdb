@@ -1,0 +1,21 @@
+{
+  "bangumiId": 312352,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 118654 与 Bangumi 条目在标题、首播日期（2021-02-06）、剧情（贾富贵因谢顶与唐临寻找生发秘方、涉及牧野帮和少林等）及中国网络动画媒介上吻合。Bangumi 记录导演龚震华、七灵石制作；TMDB 详情同样显示该剧为2021年完结的中文作品。TMDB 第1季实际包含连续的第1至26集，集名和日期覆盖 Bangumi 主体的全部26集，因此推荐整季，不拆范围。已排除同名真人剧及其他同名作品。\n\nhttps://www.themoviedb.org/tv/118654 (api_snapshot): TMDB详情：作品名为《绝顶》，首播2021-02-06，剧情围绕贾富贵谢顶、牧野帮及寻找生发秘方展开；共1季、26集，已完结。\n\nhttps://www.themoviedb.org/tv/118654/season/1 (api_snapshot): TMDB第1季实际集表共26集，episode 1至26连续，首集2021-02-06，末集2021-07-31；内容与 Bangumi 主体一致。\n\nhttps://api.bgm.tv/v0/subjects/312352 (api_snapshot): Bangumi fresh API：2021-02-06、WEB、26集；导演龚震华，动画制作七灵石，剧情为贾富贵与唐临寻找生发秘方。\n\nhttps://bangumi.tv/subject/312352 (search_snippet): Bangumi页面搜索摘要列出该作26话、2021-02-06开播、导演龚震华及七灵石相关制作信息。\n\nhttps://www.themoviedb.org/tv/247405 (search_snippet): 同名但为另一部真人剧候选，剧情简介含邓凯、古子成等真人演员，不是本动画主体。\n\n备注：TMDB详情的crew字段为空，未独立提供导演和制作公司字段；制作人员对应主要由 Bangumi fresh API及页面资料确认。；TMDB记录的末集日期为2021-07-31，而Bangumi逐集日期末集为2021-07-24，但总集数、首播日期、剧情和版本身份一致，不影响整季映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312352; https://www.themoviedb.org/tv/118654; https://www.themoviedb.org/tv/118654/season/1; https://api.bgm.tv/v0/subjects/312352; https://bangumi.tv/subject/312352; https://www.themoviedb.org/tv/247405",
+    "verifiedAt": "2026-09-08T22:14:06.850Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 118654,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

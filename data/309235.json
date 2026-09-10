@@ -1,0 +1,21 @@
+{
+  "bangumiId": 309235,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目 105996 是《うっかりペネロペ》的合并 TV 系列，包含多个独立季度；其第2季日期为 2009-06-29，实际季表有 26 集，正好对应 Bangumi 的第2系列。官方资料确认第2系列为 2009-06-29 至 2009-10-23、5分钟短篇动画、全26话，剧情及主要制作人员与 Bangumi 信息一致。因此应映射到 TMDB TV 105996 的第2季整季，而不是第1季、后续季度或其他版本。\n\nhttps://api.bgm.tv/v0/subjects/309235 (api_snapshot): Bangumi fresh API 将该主体标为 TV，标题为「うっかりペネロペ 【第2シリーズ】」，首播日 2009-06-29，共 26 集；简介为佩内洛普日常生活的5分钟短篇动画，制作信息包括高木淳、島田満、八木竜一。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): TMDB TV 105996 的原名为「うっかりペネロペ」，首播日 2006-11-20，共4季；第2季日期为 2009-06-29、共26集，制作公司包括 Nippon Animation、Shirogumi、NHK Enterprises。\n\nhttps://www.themoviedb.org/tv/105996/season/2 (api_snapshot): TMDB 第2季实际季表确认 season=2、air_date=2009-06-29、episodeCount=26，并列出连续第1至第26集；集名和剧情均为佩内洛普日常短篇，未混入其他作品。\n\nhttps://www.nippon-animation.co.jp/work/1906/ (page): 日本动画官方作品页明确记载「うっかりペネロペ【第2シリーズ】」播出期为 2009/6/29～2009/10/23、5分・26话、NHK Eテレ；剧情、原作及主要工作人员与该主体一致。\n\nhttps://www.nippon-animation.co.jp/news/information/1008/ (page): 日本动画官方新闻确认这是继第1系列之后的第2系列，于 2009-06-29 在 NHK 教育播出，并明确为5分钟短篇动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/309235; https://api.bgm.tv/v0/subjects/309235; https://www.themoviedb.org/tv/105996; https://www.themoviedb.org/tv/105996/season/2; https://www.nippon-animation.co.jp/work/1906/; https://www.nippon-animation.co.jp/news/information/1008/",
+    "verifiedAt": "2026-09-08T22:03:19.410Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 105996,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

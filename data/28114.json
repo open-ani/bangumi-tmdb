@@ -1,0 +1,23 @@
+{
+  "bangumiId": 28114,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB《ポコニャン／Pokonyan!》（1993 年日本 TV 动画），不是电影、OVA、音乐录像或其他版本。TMDB 详情显示首播日 1993-04-05、原名ポコニャン、共 1 季 170 集，并列出藤子・F・不二雄、雪室俊一及多名导演；剧情与 Bangumi 的木叶美琪发现会使用法术的ポコニャン完全一致。TMDB 第1季实际集表中第1集为「シッポがあるおとうとニャン」，第50集为「お菓子の家の魔女だニャン」，与 freshBangumi 的主体集数及前段集名相符，因此本 Bangumi subject 应映射为 S1 第1–50集，而不是整季 170 集。\n\nhttps://api.bgm.tv/v0/subjects/28114 (api_snapshot): freshBangumi API 标注原名「ポコニャン！」、日期 1993-04-05、平台 TV；主体 total_episodes 为 50，前五集标题与 TMDB 第1–5集一致。\n\nhttps://www.themoviedb.org/tv/201973 (api_snapshot): TMDB 详情确认 ID 201973 为「ポコニャン／Pokonyan!」，首播 1993-04-05，共 1 季 170 集；别名包含 Pokonyan! 与美琪家的叮当猫，并列出藤子・F・不二雄、雪室俊一等工作人员。\n\nhttps://www.themoviedb.org/tv/201973/season/1 (api_snapshot): TMDB 实际季表确认第1季共 170 集、分 3 页；第1集为「シッポがあるおとうとニャン」，第50集为「お菓子の家の魔女だニャン」，末集为第170集。\n\nhttps://raw.anibk.com/ep/8641-1 (search_snippet): 搜索摘要显示《ポコニャン！》第1集「シッポがあるおとうとニャン」于 1993-04-05 放送，与 Bangumi 和 TMDB 的首集信息相符。\n\n备注：Bangumi infobox 的放送结束日为 1996-03-29，而 TMDB 详情的 last_air_date 为 1995-03-17；这更像重播或资料口径差异，不影响作品身份及第1–50集范围判断。；Bangumi infobox 记载全系列 170 话，但 freshBangumi 的主体实际集表为 50 集；本推荐按当前主体实际集表映射为 TMDB S1 第1–50集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28114; https://api.bgm.tv/v0/subjects/28114; https://www.themoviedb.org/tv/201973; https://www.themoviedb.org/tv/201973/season/1; https://raw.anibk.com/ep/8641-1",
+    "verifiedAt": "2026-09-08T18:45:43.103Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 50,
+      "id": 201973,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "bangumiId": 348315,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 237817 的原名、首播日（2021-11-25）、剧情、优酷/玄机制作、导演沈乐平及“十五周年重制版”说明均与 Bangumi subject 相符。其第1季《百步飞剑》14集、第2季《夜尽天明》25集，合计39集；剧情分别重置原版第1部，以及原版第2部和第3部前五集，正好覆盖 Bangumi 的39集。旧版主系列 TMDB 45279 是2007年起播、分6季的原版，不应替代新版；TMDB 64690 是2015年的真人改编，也不匹配。\n\nhttps://api.bgm.tv/v0/subjects/348315 (api_snapshot): Bangumi API 标注作品名为《新秦时明月》，平台为 WEB，首播日为2021-11-25，共39集；剧情、导演沈乐平及别名“秦时明月极致版/十五周年版”与新版重制身份一致。\n\nhttps://www.themoviedb.org/tv/237817 (api_snapshot): TMDB 237817 原名《新秦时明月》，首播2021-11-25，终播2022-08-18，共39集；简介明确说明这是为秦时明月十五周年重新制作的网络动画，制作方包括优酷和玄机，导演为沈乐平，并说明两部分分别对应原版第1部、原版第2部及第3部前五集。\n\nhttps://www.themoviedb.org/tv/237817/season/1 (api_snapshot): TMDB实际季表显示第1季名为《新秦时明月之百步飞剑》，2021-11-25开播，共14集，集1至14的标题和日期与 Bangumi 前14集对应。\n\nhttps://www.themoviedb.org/tv/237817/season/2 (api_snapshot): TMDB实际季表显示第2季名为《新秦时明月之夜尽天明》，2022-02-24开播，共25集，集1至25对应 Bangumi 第15至39集，故应映射为新版第2季整季。\n\nhttps://www.themoviedb.org/tv/45279 (api_snapshot): TMDB 45279 是2007年首播的原版《秦时明月》，共6季、200集，虽剧情相关但不是本 subject 的十五周年重制版。\n\nhttps://www.themoviedb.org/tv/64690 (api_snapshot): TMDB 64690 是2015年首播、唐人制作、李国立导演的54集真人改编《秦时明月》，媒介和制作人员均与本 subject 不符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/348315; https://api.bgm.tv/v0/subjects/348315; https://www.themoviedb.org/tv/237817; https://www.themoviedb.org/tv/237817/season/1; https://www.themoviedb.org/tv/237817/season/2; https://www.themoviedb.org/tv/45279; https://www.themoviedb.org/tv/64690",
+    "verifiedAt": "2026-09-08T23:06:49.535Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 237817,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 237817,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

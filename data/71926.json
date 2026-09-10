@@ -1,0 +1,21 @@
+{
+  "bangumiId": 71926,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 作品标题、首播日期（2013-04-19）、剧情（双子星、公主、夜星宝盒）与 Bangumi 主体完全对应；TMDB 详情明确为系列第三部，且演员角色与原作一致。实际读取的第1季共有52集，集名从“心梦天使”至“双子回归”，与 Bangumi 的52集逐集对应，因此使用完整第1季。TMDB 的第2季仅为0集占位，不属于本主体范围。\n\nhttps://api.bgm.tv/v0/subjects/71926 (api_snapshot): Bangumi API确认该主体为2013-04-19开始的TV动画，共52集，是巴啦啦小魔仙系列第三部；剧情、制作方、导演和编剧信息与TMDB条目一致。\n\nhttps://www.themoviedb.org/tv/223643 (api_snapshot): TMDB详情确认ID 223643为《巴啦啦小魔仙之奇迹舞步》，首播2013-04-19，剧情涉及双子星、公主和夜星宝盒，并标明为系列第三部；总集数52。\n\nhttps://www.themoviedb.org/tv/223643/season/1 (api_snapshot): TMDB第1季实际返回52集，集号连续覆盖1-52，首集为“心梦天使”、末集为“双子回归”，日期覆盖2013-04-19至2014-04-11。\n\nhttps://bangumi.tv/subject/71926 (search_snippet): 网页搜索结果再次确认标题、52集和2013年4月19日首播。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/71926; https://api.bgm.tv/v0/subjects/71926; https://www.themoviedb.org/tv/223643; https://www.themoviedb.org/tv/223643/season/1; https://bangumi.tv/subject/71926",
+    "verifiedAt": "2026-09-08T19:08:41.455Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 223643,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

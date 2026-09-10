@@ -1,0 +1,21 @@
+{
+  "bangumiId": 28956,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 115052 与 subject 对应：标题、1999-07-05 首播日、商末姜子牙伐纣剧情及导演王根发均一致；制作公司为上海美术电影制片厂。第 1 季实际有 100 集，季表分页覆盖 1–60 和 61–100，第 100 集为主线结局，因此使用整季。\n\nhttps://www.themoviedb.org/tv/115052 (api_snapshot): TMDB 详情：TV《封神榜传奇》，1999-07-05 开播，100 集、1 季，导演王根发，制作公司 Shanghai Animation Film Studio。\n\nhttps://www.themoviedb.org/tv/115052/season/1 (api_snapshot): 第 1 季实际标为 100 集、total_pages=2；第 1 页覆盖第 1–60 集，第 2 页覆盖第 61–100 集。第 1 集日期为 1999-07-05，第 100 集为《火烧摘星楼》结局。\n\nhttps://api.bgm.tv/v0/subjects/28956 (api_snapshot): Bangumi 原始 subject 标注名称、首播日、导演王根发及话数 100 均与 TMDB 匹配。\n\n备注：Bangumi API 的 regularEpisodeCount/totalEpisodeCount 为 50，而 infobox 与 eps 为 100；按作品整体和 TMDB 实际 100 集季表匹配，未将 50 条 Bangumi 记录强行换算为 TMDB 集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28956; https://www.themoviedb.org/tv/115052; https://www.themoviedb.org/tv/115052/season/1; https://api.bgm.tv/v0/subjects/28956",
+    "verifiedAt": "2026-09-08T18:46:36.118Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 115052,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bangumiId": 345816,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目 204526 与本 subject 在原名、首播日期、完整剧情、WEB/短集媒介及制作公司上吻合；其第 1 季前 20 集的日期和顺序也逐集吻合 Bangumi。TMDB 将后续内容继续合并在第 1 季，共 140 集，因此不能使用整季，只映射 1–20 集。另一个相似条目 287870 仅有 1 集、日期为 2022-06-22 且无匹配制作信息，排除。\n\nhttps://api.bgm.tv/v0/subjects/345816 (api_snapshot): Bangumi fresh API：WEB 动画，2022-06-20 首播，共 20 集；剧情、导演及制作公司信息与目标作品一致。\n\nhttps://www.themoviedb.org/tv/204526 (api_snapshot): TMDB 详情：原名《剑道第一仙》，首播 2022-06-20，剧情与苏奕、玄钧剑主、转世及入赘主线吻合；制作公司包含 Tencent Penguin Pictures、Xing Yi Kai Chen、Kuaiying Interactive Entertainment、Yuezhihuan Film and Television、Jinhua Wanwu Youguang Film and Television。\n\nhttps://www.themoviedb.org/tv/204526/season/1 (api_snapshot): TMDB 第 1 季实际有 140 集、共 3 页；第 1 页明确列出第 1–20 集，日期从 2022-06-20 至 2022-08-16，与 Bangumi 20 集逐集对应。\n\nhttps://www.themoviedb.org/tv/204526/season/1 (api_snapshot): TMDB 第 2、3 页列出第 61–140 集，日期已延伸至 2024–2025，证明该 TMDB 季混合收录了后续篇章，不能整季映射本 subject。\n\nhttps://www.themoviedb.org/tv/287870 (api_snapshot): 相似标题条目详情仅有 1 集，首播 2022-06-22，无匹配制作公司，非本 subject。\n\nhttps://bangumi.tv/subject/345816/ep (page): Bangumi 章节页列出本篇第 1–20 集及对应首播日期，和 TMDB 204526 第 1 季前 20 集一致。\n\n备注：TMDB 将 Bangumi 的后续季度/篇章合并到第 1 季，且第 2 季记录为空；这不影响本 subject 的 1–20 集映射，但不应据此推断后续 Bangumi 季的 TMDB 季号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/345816; https://api.bgm.tv/v0/subjects/345816; https://www.themoviedb.org/tv/204526; https://www.themoviedb.org/tv/204526/season/1; https://www.themoviedb.org/tv/287870; https://bangumi.tv/subject/345816/ep",
+    "verifiedAt": "2026-09-08T23:05:03.475Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 20,
+      "id": 204526,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

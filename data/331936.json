@@ -1,0 +1,21 @@
+{
+  "bangumiId": 331936,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《Rick and Morty》（2013），不是 2024 年的《Rick and Morty: The Anime》或其他特别篇。TMDB 第 5 季首播日期为 2021-06-20，剧情简介、英文原名、Adult Swim 制作体系及主配音演员与 Bangumi subject 相符；第 5 季实际集表共 10 集，编号 1–10，日期覆盖 2021-06-20 至 2021-09-05，且与 Bangumi 的 10 个集名和日期一致。因此使用完整第 5 季，按规则 episodeStart/episodeEnd 均为 null。\n\nhttps://api.bgm.tv/v0/subjects/331936 (api_snapshot): Bangumi API 将该条目标为 TV，日期为 2021-06-20，共 10 集；集名从 Mort Dinner Rick Andre 至 Rickmurai Jack，与 TMDB 第 5 季集表一致。\n\nhttps://www.themoviedb.org/tv/60625 (api_snapshot): TMDB 详情确认作品原名为 Rick and Morty，首播日期为 2013-12-02，剧情为 Rick 带着孙子 Morty 跨宇宙冒险；条目为 TV，并列出 Williams Street、Harmonious Claptrap 等制作公司及主要配音演员。\n\nhttps://www.themoviedb.org/tv/60625/season/5 (api_snapshot): TMDB 第 5 季实际集表为 10 集，season=5，集号完整覆盖 1–10；第 1 集日期为 2021-06-20，第 9、10 集均为 2021-09-05。\n\nhttps://www.awn.com/sites/default/files/attached/1055639-rams5pr.pdf (search_snippet): 季 5 官方发行资料摘要称该季来自 Justin Roiland 与 Dan Harmon，共收录全部 10 集，进一步支持其为原版 Rick and Morty 的电视季度。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/331936; https://api.bgm.tv/v0/subjects/331936; https://www.themoviedb.org/tv/60625; https://www.themoviedb.org/tv/60625/season/5; https://www.awn.com/sites/default/files/attached/1055639-rams5pr.pdf",
+    "verifiedAt": "2026-09-08T22:50:25.354Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 60625,
+      "season": 5,
+      "type": "tv"
+    }
+  ]
+}

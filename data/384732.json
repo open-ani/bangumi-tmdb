@@ -1,0 +1,21 @@
+{
+  "bangumiId": 384732,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目《猪猪侠之超星萌宠》与 Bangumi 的中文原名、2017 年背景、剧情（迷糊博士、铁拳虎及星际特工）一致；TMDB 工作人员列出陆锦明为导演、古志斌为编剧，媒介为 TV。该 TMDB TV 条目包含多个季度，但第 1 季实际有 26 集，剧情简介与 Bangumi subject 完整对应，因此应映射为第 1 季整季，而不是整个 TV 条目或其他季度。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): TMDB 详情确认原名《猪猪侠之超星萌宠》、2017 年、剧情、TV 类型、陆锦明导演、古志斌编剧，并列出第 1 季至第 4 季。\n\nhttps://www.themoviedb.org/tv/206215/season/1 (api_snapshot): TMDB 第 1 季实际包含 26 集，集号连续覆盖 1–26，首播日期为 2017-05-22，剧情与 Bangumi subject 相符。\n\nhttps://tv.cctv.com/2018/04/24/VIDALLByhdrsGi5zzsm8Bsls180424.shtml (search_snippet): 央视页面将作品标为《猪猪侠之超星萌宠 第一季》，年份为 2017，简介与 Bangumi 剧情一致。\n\nhttps://www.bilibili.com/bangumi/play/ss46491 (search_snippet): 播放页面标示《猪猪侠之超星萌宠1》为 2017 年、全 26 话，并分列第一至第四季。\n\n备注：TMDB 记录的首播日为 2017-05-22，Bangumi 记录为 2017-05-27，存在数日的平台播出日期差异，但年份、剧情、版本和集数均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/384732; https://www.themoviedb.org/tv/206215; https://www.themoviedb.org/tv/206215/season/1; https://tv.cctv.com/2018/04/24/VIDALLByhdrsGi5zzsm8Bsls180424.shtml; https://www.bilibili.com/bangumi/play/ss46491",
+    "verifiedAt": "2026-09-08T23:24:38.236Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 206215,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

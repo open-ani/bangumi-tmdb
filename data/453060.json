@@ -1,0 +1,23 @@
+{
+  "bangumiId": 453060,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 222608《仙武传》（Legend of Xianwu），不是独立的 TMDB 第二季条目。TMDB 剧情、2023 年开播时间、中文原名、优酷/小明太极/东尧动漫制作信息与 Bangumi 一致；媒介均为 WEB/TV 动画。官方资料确认第一季为 26 集、第二季为 52 集；Bangumi 第二季章节实际从全局第 27 集列至第 78 集，正好 52 集。因此映射到 TMDB 第 1 季的闭区间 27–78。TMDB 第 0 季的两集是第一季回顾特别篇，不应纳入。\n\nhttps://www.themoviedb.org/tv/222608 (api_snapshot): TMDB 条目原名《仙武传》，开播日期 2023-03-19，剧情为叶辰被逐出宗门后获得真火、踏上仙武之路；制作公司包括 Youku、Xiaoming Taiji、Dongyao Dongman。\n\nhttps://www.themoviedb.org/tv/222608/season/1 (api_snapshot): TMDB 实际季表显示只有第 1 季承载正片；第 27 集日期为 2023-09-24，第 78 集日期为 2024-09-08，且集名与第二季剧情连续。\n\nhttps://www.themoviedb.org/tv/222608/season/0 (api_snapshot): TMDB 第 0 季为 2023-09-10、2023-09-17 的两集第一季回顾篇。\n\nhttps://bangumi.tv/subject/453060 (page): Bangumi 将该条目标为《仙武传 第二季》WEB，52 集，2023-09-24 开播；制作人员为张小龙、蒋高敏、东尧动漫，出品方为优酷与小明太极；章节号从 27 延续到 78。\n\nhttps://m.xiaomingtaiji.com/16/10259.html (page): 小明太极官方年度总结确认《仙武传》第一季于 2023-09-03 收官，共 26 集；第二季于 2023-09-24 以 52 集年番回归。\n\nhttps://fun.youth.cn/yl24xs/202309/t20230925_14812935.htm (page): 中国青年网报道确认第二季于 2023-09-24 在优酷开播，并明确相较第一季 26 集，第二季为后续连续剧情。\n\nhttps://api.bgm.tv/v0/subjects/453060 (api_snapshot): Bangumi API 原始信息确认 subject 453060 为 WEB 动画，52 集，2023-09-24 开播，剧情、原作、导演和制作信息与上述条目一致。\n\n备注：Bangumi 存档中因第 41 集重复记录而出现 53 条 regular episode 记录，但条目标注的正式集数为 52；该重复不改变连续范围 27–78。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/453060; https://www.themoviedb.org/tv/222608; https://www.themoviedb.org/tv/222608/season/1; https://www.themoviedb.org/tv/222608/season/0; https://bangumi.tv/subject/453060; https://m.xiaomingtaiji.com/16/10259.html; https://fun.youth.cn/yl24xs/202309/t20230925_14812935.htm; https://api.bgm.tv/v0/subjects/453060",
+    "verifiedAt": "2026-09-08T23:58:30.088Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 27,
+      "episodeEnd": 78,
+      "id": 222608,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

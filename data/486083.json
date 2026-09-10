@@ -1,0 +1,23 @@
+{
+  "bangumiId": 486083,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 234868 是同一部 2024 年日本短篇 TV 动画：原名、剧情（失业小狗在城市张贴狗贴纸）、导演池ヶ谷愛及日文制作背景均与 Bangumi 一致。TMDB 将全作收录为单一 Season 1、共 24 集；其第 13–24 集日期与 Bangumi 第二季 2024-07-06 至 2024-09-21 及对应剧情连续吻合，因此第二季应映射为该季的第 13–24 集，而不是独立 TV 条目。\n\nhttps://api.bgm.tv/v0/subjects/486083 (api_snapshot): Bangumi 将主体定义为 2024-07-06 开始、12 集的《貼りまわれ！こいぬ 第2期》，剧情为小狗张贴贴纸，并列出导演池ヶ谷愛。\n\nhttps://www.themoviedb.org/tv/234868 (api_snapshot): TMDB 详情显示原名《貼りまわれ！こいぬ》，首播 2024-01-06、完结 2024-09-21、共 24 集，仅有 Season 1；简介与 Bangumi 剧情一致，系列导演为池ヶ谷愛。\n\nhttps://www.themoviedb.org/tv/234868/season/1 (api_snapshot): TMDB Season 1 实际包含第 1–24 集；第 13 集起日期为 2024-07-05，至第 24 集 2024-09-21，且第 13–24 集剧情对应第二季内容。\n\n备注：TMDB 将两季合并记录为一个 24 集的 Season 1；第 13 集日期比 Bangumi 标注的 2024-07-06 早一天，可能是时区或平台日期差异，但不影响集数范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/486083; https://api.bgm.tv/v0/subjects/486083; https://www.themoviedb.org/tv/234868; https://www.themoviedb.org/tv/234868/season/1",
+    "verifiedAt": "2026-09-09T00:07:49.240Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 234868,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

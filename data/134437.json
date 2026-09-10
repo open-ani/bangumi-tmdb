@@ -1,0 +1,20 @@
+{
+  "bangumiId": 134437,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB 电影《奥拉星：进击圣殿》（Aola Star），不是 TV、OVA 或合集。TMDB 作品的日期、标题、剧情、配音阵容、编剧均与 Bangumi 一致；外部资料还确认其为 2015 年中国动画电影，别名包括《奥拉星大电影》《奥拉星：至暗的启示》。因此 Bangumi 的单集应映射为整部电影。TMDB 记载片长 92 分钟，Bangumi 记载 91 分钟；Bangumi 导演字段“钟汉超”与 TMDB 及外部资料的“钟智行”不一致，但外部资料将钟汉超列为场景设计，属于人员字段差异，不影响作品身份判断。\n\nhttps://www.themoviedb.org/movie/721838 (api_snapshot): TMDB 详情确认：电影《奥拉星：进击圣殿》，2015-07-23，剧情为东皇太一失忆后化名太二并守护奥拉星，片长 92 分钟；配音演员和编剧张炭与 Bangumi 相符。\n\nhttps://api.bgm.tv/v0/subjects/134437 (api_snapshot): Bangumi 原始 API 确认：2015-07-23、剧场版、1 话、91 分钟，别名为《奥拉星大电影》《奥拉星：至暗的启示》，剧情和主演阵容与 TMDB 详情相符。\n\nhttps://www.1905.com/mdb/film/2230725/ (search_snippet): 资料确认该片为 2015 年 7 月 23 日上映的中国动画电影，别名和剧情一致，并列导演为钟智行、编剧为张炭。\n\nhttps://ent.ifeng.com/a/20150717/42455438.shtml (search_snippet): 2015 年上映前报道明确将《奥拉星：进击圣殿》称为根据同名游戏改编的动画电影，并确认由钟智行执导。\n\n备注：TMDB 片长为 92 分钟，Bangumi 为 91 分钟，可能是版本或四舍五入差异。；Bangumi 导演字段记为钟汉超；外部资料和 TMDB 均指向钟智行，且外部资料将钟汉超列为场景设计。；Bangumi 提供的 IMDb 提示 tt4885726 未被 TMDB find 解析出结果，但不影响基于标题、日期、剧情和制作人员的独立身份确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/134437; https://www.themoviedb.org/movie/721838; https://api.bgm.tv/v0/subjects/134437; https://www.1905.com/mdb/film/2230725/; https://ent.ifeng.com/a/20150717/42455438.shtml",
+    "verifiedAt": "2026-09-08T20:00:49.264Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 721838,
+      "type": "movie"
+    }
+  ]
+}

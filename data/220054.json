@@ -1,0 +1,20 @@
+{
+  "bangumiId": 220054,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 1394048 与 Bangumi 条目《良寛さん》身份吻合：日文原名完全一致，发行日均为 2003-07-12；TMDB 标为已上映的日语电影，并记录菅原文太、小林幸子等与官方资料一致的演职员。官方 Studio Pierrot 资料确认这是描写良寛一生的剧场版动画，剧情与 Bangumi 简介一致，片长 70 分钟、单部作品。因此应映射为电影，不涉及 TV 季或集数范围。TMDB runtime 记录为 73 分钟，与官方本篇 70 分钟存在元数据差异，但不影响作品身份判断。\n\nhttps://www.themoviedb.org/movie/1394048 (api_snapshot): TMDB API 搜索及详情均返回《良寛さん》电影 ID 1394048，原名一致，发行日为 2003-07-12，语言为日语；详情记录片长 73 分钟、Pierrot 制作，以及菅原文太、小林幸子等演员。\n\nhttps://pierrot.jp/archive/movie_a2001/mov_19.html (page): Studio Pierrot 官方页面确认《良寛さん》是剧场版动画，公开日 2003-07-12，本篇 70 分钟；剧情为描写僧侣、歌人良寛的修行、游历及回到新潟，主演菅原文太、旁白小林幸子，导演案納正美。\n\nhttps://api.bgm.tv/v0/subjects/220054 (api_snapshot): Bangumi API 原始信息记录标题《良寛さん》、日期 2003-07-12、平台为剧场版、总集数 1、片长 70 分钟，并给出与官方页面一致的良寛传记剧情。\n\n备注：TMDB 将片长记为 73 分钟，而官方及 Bangumi 记为 70 分钟。；TMDB 详情中的编剧名为 Toshirou Tanikawa，Studio Pierrot 官方页面列为富田祐弘，属于 TMDB 演职员元数据差异；导演和主要配音演员可相互核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220054; https://www.themoviedb.org/movie/1394048; https://pierrot.jp/archive/movie_a2001/mov_19.html; https://api.bgm.tv/v0/subjects/220054",
+    "verifiedAt": "2026-09-08T21:00:45.199Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1394048,
+      "type": "movie"
+    }
+  ]
+}

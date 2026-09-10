@@ -1,0 +1,21 @@
+{
+  "bangumiId": 297758,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 105929《有药》与 Bangumi subject 身份一致：均为 2020-07-10 开播的中文 WEB 动画，剧情均围绕左云起、楼主及穿越者展开；TMDB 制作公司包含声影动漫、北京森中人文化传媒和爱奇艺，且列出小野败仔、王淼、衣汉森等工作人员。TMDB 明确将其分为第1季和第2季，第1季实际包含12集，集名、日期与 Bangumi 的12集逐集对应，因此应映射为第1季整季。\n\nhttps://api.bgm.tv/v0/subjects/297758 (api_snapshot): Bangumi 原始 API 信息：2020-07-10 开播、WEB 动画、12集；剧情、制作公司北京声影动漫科技有限公司及工作人员信息与候选一致。\n\nhttps://www.themoviedb.org/tv/105929 (api_snapshot): TMDB 搜索结果及详情确认作品名《有药》/Are You OK、原名有药、日期2020-07-10、中文原语言，剧情与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/105929 (api_snapshot): 详情显示共有2季；第1季日期为2020-07-10、episode_count为12；制作公司包括Shengying Animation、Beijing Senzhongren Cultural Media、iQIYI，并列出小野败仔、王淼、衣汉森等工作人员。\n\nhttps://www.themoviedb.org/tv/105929/season/1 (api_snapshot): 第1季实际集表共12集，编号连续1至12；集名和日期逐集对应 Bangumi 的《鉴穿》至《楼主好人 一生平安》。\n\n备注：TMDB 详情中的工作人员列表不是完整制作名单，但不影响作品身份及第1季12集范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/297758; https://api.bgm.tv/v0/subjects/297758; https://www.themoviedb.org/tv/105929; https://www.themoviedb.org/tv/105929/season/1",
+    "verifiedAt": "2026-09-08T21:52:07.247Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 105929,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

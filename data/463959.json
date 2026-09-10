@@ -1,0 +1,20 @@
+{
+  "bangumiId": 463959,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 597136 的原题为《ルパン対ホームズ》，日期为 1981-05-05，与 Bangumi 完全一致；TMDB 标为已上映动画电影，片长 68 分钟，制作公司为 Toei Animation，导演为明比正行，且剧情、角色（鲁邦、福尔摩斯、华生）相符。Bangumi 明确记载这是日生ファミリースペシャル的一集、全 1 集；因此应映射为独立 movie，而不是 TV 季、OVA、合集或其他鲁邦作品。\n\nhttps://www.themoviedb.org/movie/597136 (api_snapshot): TMDB 详情确认原题《ルパン対ホームズ》、日期 1981-05-05、片长 68 分钟、Toei Animation、导演明比正行及鲁邦/福尔摩斯相关剧情。\n\nhttps://api.bgm.tv/v0/subjects/463959 (api_snapshot): Bangumi 原始资料确认日文原名、日期 1981-05-05、TV 平台、总集数 1、日生ファミリースペシャル长篇动画、导演明比正行及东映制作。\n\nhttps://www.themoviedb.org/movie/597136 (search_snippet): TMDB 搜索结果以《ルパン対ホームズ》及英文别名 Lupin vs. Holmes 返回同一 1981 作品，类型为 movie。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/463959; https://www.themoviedb.org/movie/597136; https://api.bgm.tv/v0/subjects/463959",
+    "verifiedAt": "2026-09-09T00:01:42.220Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 597136,
+      "type": "movie"
+    }
+  ]
+}

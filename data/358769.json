@@ -1,0 +1,21 @@
+{
+  "bangumiId": 358769,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 213421 与《无脑魔女》身份一致：首播年份均为2023年，剧情均为不老魔女因失去重要之物持续流泪并牵连地狱王子的故事；制作公司包含bilibili、CUKA及瑞兽萌。TMDB明确将其作为TV剧集并分为两季，每季15集。第1季的15个集名、播出日期与Bangumi主体的15集逐一对应，因此主体应映射为第1季完整范围，不应映射到第2季。Bangumi资料另列出知行合一动漫及尹向陆等制作人员，与该中文网络动画身份相符。\n\nhttps://api.bgm.tv/v0/subjects/358769 (api_snapshot): Bangumi主体为WEB动画《无脑魔女》，2023-07-04开播，共15集；制作方为知行合一动漫/bilibili，列有尹向陆等制作人员；15个集名与TMDB第1季逐一对应。\n\nhttps://www.themoviedb.org/tv/213421 (api_snapshot): TMDB TV 213421标题为《无脑魔女》，首播日期2023-07-04，剧情、中文原名、别名及制作公司均与该主体相符；全剧2季、每季15集。\n\nhttps://www.themoviedb.org/tv/213421/season/1 (api_snapshot): TMDB第1季实际包含15集，集名从《来自地狱的追捕》至《残影》，日期为2023-07-04至2023-10-03，与Bangumi主体完整集表一致；total_pages为1。\n\nhttps://www.themoviedb.org/tv/213421/season/2 (api_snapshot): TMDB第2季另有15集，播出于2024年，证明该主体不是第2季；第2季应对应Bangumi另列的《无脑魔女 第二季》。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/358769; https://api.bgm.tv/v0/subjects/358769; https://www.themoviedb.org/tv/213421; https://www.themoviedb.org/tv/213421/season/1; https://www.themoviedb.org/tv/213421/season/2",
+    "verifiedAt": "2026-09-08T23:10:31.126Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 213421,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

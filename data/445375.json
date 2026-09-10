@@ -1,0 +1,21 @@
+{
+  "bangumiId": 445375,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 331477 是《一念永恒》的分季版：主条目首播日为 2020-08-12，制作公司含腾讯视频；第3季明确标注 2024-07-03、59集，剧情简介与 Bangumi 的“质子篇”完全对应。实际季表覆盖第1至第59集且无分页，因此可映射为完整第3季。TMDB 107371 是合并版单季200集，不适合作为本 subject 的分季映射。\n\nhttps://api.bgm.tv/v0/subjects/445375 (api_snapshot): Bangumi subject 为 WEB 动画《一念永恒 第三季》，2024-07-03 开播，共59集；剧情为白小纯成立逆河宗后前往星空道极宗开启质子篇；制作方为腾讯视频、视美影业，导演为苏晓光。\n\nhttps://www.themoviedb.org/tv/331477 (api_snapshot): TMDB 分季版《一念永恒》首播于2020-08-12，共4季；第3季日期为2024-07-03、共59集，简介与 Bangumi subject 的质子篇剧情一致，制作公司含 Tencent Video。\n\nhttps://www.themoviedb.org/tv/331477/season/3 (api_snapshot): TMDB 第3季季表实际返回59集，episode_number 连续覆盖1至59，首集日期为2024-07-03，末集为第59集；剧情和集标题均属于质子篇后续主线。\n\nhttps://www.themoviedb.org/tv/107371 (api_snapshot): TMDB 107371 为同名合并版，只有第1季且总计200集，不能直接代表 Bangumi 的第三季。\n\n备注：TMDB 331477 的 crew 字段为空，无法用 TMDB 独立核对导演苏晓光；制作方、导演信息来自 Bangumi 原始资料。；TMDB 第3季第29集日期显示为2025-12-25，与相邻集日期顺序异常，但不影响其作为第3季及59集完整范围的身份判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/445375; https://api.bgm.tv/v0/subjects/445375; https://www.themoviedb.org/tv/331477; https://www.themoviedb.org/tv/331477/season/3; https://www.themoviedb.org/tv/107371",
+    "verifiedAt": "2026-09-08T23:53:40.972Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 331477,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bangumiId": 48086,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 125525 是同一部日本民间传说短篇动画，原名、首播日 1975-01-07、Group TAC/MBS 制作及剧情均吻合。Bangumi 的 24 话实际是每次播出两部短篇、共 12 次播出；TMDB 第1季前12集覆盖 1975-01-07 至 1975-03-25，第13集已进入 1976 年复播，因此应映射为 S1E1-E12，而不是 E1-E24 或整季。TMDB 的 E1/E2 标题字段与外部首播顺序存在异常，但日期边界、后续短篇标题及复播起点均支持该范围。\n\nhttps://www.themoviedb.org/tv/125525 (api_snapshot): TMDB 作品原名为 まんが日本昔ばなし，首播 1975-01-07，日语 TV，制作公司包括 MBS 与 Group TAC，剧情为日本各地民间传说动画化；别名包含 Manga Nippon Mukashibanashi、日本古代传说。\n\nhttps://www.themoviedb.org/tv/125525/season/1 (api_snapshot): TMDB 实际季表显示第1季共966集；E1-E12日期为1975-01-07至1975-03-25，E13日期为1976-01-03，故1975第一期边界为S1E1-E12。前12条为每集约25分钟、每条含两个短篇标题。\n\nhttps://bangumi.tv/subject/48086 (page): Bangumi 条目标为漫画日本昔话 第一期，类型TV，话数24，播出时间1975-01-07至1975-03-25，别名包括日本古代传说 第一期与Manga Nippon mukashi banashi，并列出Group TAC相关制作人员。\n\nhttps://mangapedia.com/%E3%81%BE%E3%82%93%E3%81%8C%E6%97%A5%E6%9C%AC%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97%EF%BC%88%E7%AC%AC1%E6%9C%9F%EF%BC%89-hnwohdrud (page): 资料将第1期定义为1975-01-07至1975-03-25、Group TAC制作，并记为12次播出；作品形式是每个故事一个短篇。\n\nhttps://rutenzanmai.com/streaming-movie/nihonmukashibanashi-streaming-service/ (page): 独立集表列出1975年24个短篇、日期从1975-01-07至1975-03-25，之后第25个短篇从1976-01-03开始，验证了24短篇对应12次双短篇播出。\n\n备注：TMDB季表的E1/E2标题为一寸法师/ききみみ頭巾、貧乏神と福の神/うばすて山，与独立资料记录的1975年首播前四个短篇不一致，且相同标题在E13/E14重复；这应是TMDB剧集标题字段或排序异常，不改变按日期确定的E1-E12范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/48086; https://www.themoviedb.org/tv/125525; https://www.themoviedb.org/tv/125525/season/1; https://bangumi.tv/subject/48086; https://mangapedia.com/%E3%81%BE%E3%82%93%E3%81%8C%E6%97%A5%E6%9C%AC%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97%EF%BC%88%E7%AC%AC1%E6%9C%9F%EF%BC%89-hnwohdrud; https://rutenzanmai.com/streaming-movie/nihonmukashibanashi-streaming-service/",
+    "verifiedAt": "2026-09-08T18:59:42.921Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 12,
+      "id": 125525,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bangumiId": 126509,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 第八季的 21 集标题、剧情和 2009—2010 年播出顺序与 TMDB《Family Guy》TV 主条目完全对应。TMDB 第 8 季实际只有 20 集，覆盖 Bangumi 第 1—20 集；《Partial Terms of Endearment》虽被 Bangumi列为第八季第21集，却被 TMDB 放在 Specials 第19集，因此必须拆成两个范围。两者均为同一英语电视动画系列，不是电影、OVA、音乐录像或合集。日期存在美国播出日期与时区导致的一日前后差异。\n\nhttps://api.bgm.tv/v0/subjects/126509 (api_snapshot): Bangumi fresh API 将主体定义为《Family Guy (Season 8)》，TV，2009-09-28，21集；列出的第1—21集标题与 TMDB 季表对应。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 详情确认 id 1434 是《Family Guy》，原始标题 Family Guy，始于1999年，剧情为 Griffin 家庭；制作公司包括 20th Century Fox Television，主要配音包括 Seth MacFarlane、Alex Borstein、Mila Kunis、Seth Green。其外部 IMDb 为 tt0182576、TVDB 为 75978，证明这是主系列而非错误的外部编号条目。\n\nhttps://www.themoviedb.org/tv/1434/season/8 (api_snapshot): TMDB 实际读取的第8季季表为 20 集，包含 Road to the Multiverse、Family Goy、Something, Something, Something, Dark Side 等，与 Bangumi 第1—20集逐集对应；播出日期范围为2009-09-27至2010-05-23。\n\nhttps://www.themoviedb.org/tv/1434/season/0 (api_snapshot): TMDB Specials 实际读取显示第19集为 Partial Terms of Endearment，日期2010-06-20、片长23分钟、剧情为 Lois 成为代孕母亲后的故事，与 Bangumi 第21集完全对应。\n\nhttps://www.tvguide.com/tvshows/family-guy/episodes-season-8/1030036796/ (search_snippet): 外部集数线索将 Family Guy Season 8 列为 21 集，并包含 Partial Terms of Endearment，支持该集属于第八季但不在 TMDB 第8季季表中的拆分判断。\n\n备注：TMDB与Bangumi的单日日期差异来自地区/时区及播出记录口径；不影响逐集标题、剧情和范围对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/126509; https://api.bgm.tv/v0/subjects/126509; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/8; https://www.themoviedb.org/tv/1434/season/0; https://www.tvguide.com/tvshows/family-guy/episodes-season-8/1030036796/",
+    "verifiedAt": "2026-09-08T19:56:44.711Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 20,
+      "id": 1434,
+      "season": 8,
+      "type": "tv"
+    },
+    {
+      "episode": 19,
+      "id": 1434,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

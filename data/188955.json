@@ -1,0 +1,21 @@
+{
+  "bangumiId": 188955,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 的日文原名、首播日期（1977-11-18）、终播日期（1978-09-29）及传记式伟人短篇合集剧情一致；TMDB 标注为日本 TV 动画，共 1 季 46 集，制作公司包含 Group TAC，系列导演为樋口雅一。TMDB 第 1 季实际集表覆盖第 1 至 46 集，日期连续对应 Bangumi 的 46 集，因此可使用整季映射；未发现旧版/新版、OVA、电影或混入其他作品的季分割问题。\n\nhttps://api.bgm.tv/v0/subjects/188955 (api_snapshot): Bangumi fresh API 标注《まんが偉人物語》为 TV，1977-11-18 开播，共 46 集；简介说明其为讲述历史伟人生平的动画选集，制作包含毎日放送、グループ・タック、ヘラルド・エンタープライズ。\n\nhttps://www.themoviedb.org/tv/210864 (search_snippet): TMDB 搜索结果以日文原名命中 TV 条目 210864，并显示日期 1977-11-18；英文别名 Manga of Great Personalities 也命中同一条目。\n\nhttps://www.themoviedb.org/tv/210864 (api_snapshot): TMDB 详情确认原名为まんが偉人物語、首播 1977-11-18、完结 1978-09-29、共 46 集 1 季；简介为历史伟人传记动画，制作公司包含 MBS、KADOKAWA、Group TAC，系列导演为樋口雅一。\n\nhttps://www.themoviedb.org/tv/210864/season/1 (api_snapshot): TMDB 第 1 季实际集表为 46 集，episode_number 从 1 连续至 46，播出日期从 1977-11-18 至 1978-09-29，单集约 25 分钟。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/188955; https://api.bgm.tv/v0/subjects/188955; https://www.themoviedb.org/tv/210864; https://www.themoviedb.org/tv/210864/season/1",
+    "verifiedAt": "2026-09-08T20:28:46.251Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 210864,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

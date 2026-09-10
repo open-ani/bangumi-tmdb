@@ -1,0 +1,21 @@
+{
+  "bangumiId": 53760,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 已确认是1975年版《元祖天才バカボン》，不是1971年版《天才バカボン》或后续重制版。TMDB详情的标题、首播日1975-10-06、完结日1977-09-26、剧情、演员和制作公司均与Bangumi主体吻合；TMDB第1季实际集表共103集，覆盖1–103，且末集日期为1977-09-26。因此可映射为完整第1季。该版本电视播出时每集含两个短篇，TMS资料另记为206个15分钟单元，与Bangumi及TMDB的103集编排差异属于集数口径不同。\n\nhttps://api.bgm.tv/v0/subjects/53760 (api_snapshot): Bangumi原始API信息：标题为元祖天才バカボン，TV，首播1975-10-06，共103集。\n\nhttps://www.themoviedb.org/tv/132921 (api_snapshot): TMDB详情：元祖天才バカボン，首播1975-10-06，完结1977-09-26，共1季103集；剧情、演员及A-Production/Tokyo Movie等制作信息吻合。\n\nhttps://www.themoviedb.org/tv/132921/season/1 (api_snapshot): TMDB第1季实际季表显示episodeCount=103、total_pages=2，分页读取后覆盖第1集至第103集；第103集日期为1977-09-26。\n\nhttps://www.tms-e.co.jp/alltitles/1970s/012102.html (page): TMS官方作品资料确认1975-10-06至1977-09-26播出、原作者赤塚不二夫、东京Movie制作、主要角色与剧情设定；并说明播出单元口径为15分钟×2、全206单元。\n\nhttps://www.fami-geki.com/detail/index.php?fami_id=00749 (page): 节目资料将其列为1975年制作、全103话，并明确是继1971年《天才バカボン》之后的第二部动画化作品。\n\n备注：TMS按15分钟短篇单元记录为206单元，而Bangumi/TMDB按每周播出编排记录为103集；本映射采用Bangumi主体的103集口径。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53760; https://api.bgm.tv/v0/subjects/53760; https://www.themoviedb.org/tv/132921; https://www.themoviedb.org/tv/132921/season/1; https://www.tms-e.co.jp/alltitles/1970s/012102.html; https://www.fami-geki.com/detail/index.php?fami_id=00749",
+    "verifiedAt": "2026-09-08T19:01:38.631Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 132921,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

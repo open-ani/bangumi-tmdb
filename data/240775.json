@@ -1,0 +1,23 @@
+{
+  "bangumiId": 240775,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《ねこねこ日本史》第3系列，TV 动画，2018-04-04 至 2019-02-27，共32集。外部资料明确给出第3期为全32话、TV形态及该播出区间；其首尾分别为第65话和第96话。TMDB 将第1期至第5期合并为 season 1，因此应映射到 TMDB TV 119251 的 season 1，并限定集数 65–96，不能使用整季。TMDB 详情的标题、剧情、日文原名、制作公司及导演与该系列一致。\n\nhttps://www.themoviedb.org/tv/119251 (api_snapshot): TMDB 详情确认 TV 119251 为《ねこねこ日本史》，原名为「ねこねこ日本史」，2016-04-06 开播，剧情为日本历史人物猫化，导演为河村友宏；TMDB 将第1期～第5期合并为一个 season。\n\nhttps://www.themoviedb.org/tv/119251/season/1 (api_snapshot): TMDB season 1 实际共有160集、total_pages=3；第65话日期为2018-04-04，第96话日期为2019-02-27，且首尾标题和剧情分别对应西乡隆盛与德川家康。65至96为连续32集。\n\nhttps://www.animatetimes.com/tag/details.php?id=15422 (search_snippet): 资料明确标为 TV动画《ねこねこ日本史 第3期》，播出期为2018年4月4日至2019年2月27日，共32话；同时列出原作、导演河村友宏及主要配音人员。\n\nhttps://www.hulu.jp/meow-meow-japanese-history-s3 (search_snippet): 作品资料明确标为《ねこねこ日本史》第3系列、2018年公开，并从第65话开始，确认其使用总系列连续集数编号而非独立从1开始。\n\nhttps://www.videomarket.jp/title/041740/A041740001999H01/playable (search_snippet): 资料明确列出《ねこねこ日本史 第3期》从第65话开始，并标示后续全话范围至第96话。\n\n备注：TMDB 本身没有独立的第3季条目，而是把第1期至第5期合并为 season 1；因此推荐的是该合并季中的核实闭区间 65–96，而不是 TMDB 的整季。；Bangumi fresh API 的 total_episodes 为12，与其 infobox 的32及外部第3期资料不一致；TMDB季表和外部资料均支持32集范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/240775; https://www.themoviedb.org/tv/119251; https://www.themoviedb.org/tv/119251/season/1; https://www.animatetimes.com/tag/details.php?id=15422; https://www.hulu.jp/meow-meow-japanese-history-s3; https://www.videomarket.jp/title/041740/A041740001999H01/playable",
+    "verifiedAt": "2026-09-08T21:17:44.184Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 65,
+      "episodeEnd": 96,
+      "id": 119251,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

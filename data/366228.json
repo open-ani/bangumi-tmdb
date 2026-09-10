@@ -1,0 +1,21 @@
+{
+  "bangumiId": 366228,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB 的澳大利亚英语动画《Bluey》主系列，而非 Minisodes、合集或其他同名作品。TMDB 主条目始于 2018 年，剧情、角色、Ludo Studio 制作信息与 Bangumi 条目一致；第 2 季实际标为 Series 2，首播 2020-03-17，共 52 集，集名和顺序与 Bangumi 主体覆盖一致，因此使用完整第 2 季。Bangumi 提供的 IMDb 提示 tt12539144 实际只指向第 2 季第 1 集，不能作为主系列 ID，但其 episode/show_id 仍核实了同一作品。\n\nhttps://www.themoviedb.org/tv/82728 (api_snapshot): TMDB API 详情：原名 Bluey，首播 2018-10-01；剧情为 Bluey、Bingo 与父母的家庭游戏生活；制作公司包括 Ludo Studio、ABC、Screen Australia；共有 3 季。\n\nhttps://www.themoviedb.org/tv/82728/season/2 (api_snapshot): TMDB API 季表：season=2，名称 Series 2，首播 2020-03-17，episodeCount=52；实际集表从 Dance Mode 到 Easter，覆盖第 1 至第 52 集。\n\nhttps://api.bgm.tv/v0/subjects/366228 (api_snapshot): Bangumi 原始 API：Bluey Season 2，TV，2020-03-17，52 集，英语、澳大利亚、Joe Brumm、约 6 分钟；剧情与 TMDB 主条目一致。\n\nhttps://www.themoviedb.org/tv/82728/season/2 (api_snapshot): TMDB IMDb 查找结果将 tt12539144 解析为第 2 季第 1 集 Dance Mode，show_id=82728、season_number=2，说明该外部提示不是整部剧 ID。\n\n备注：TMDB 季表中第 50 集 Baby Race 的日期为 2020-10-25，与 Bangumi 的 2020-11-17 不一致；这是日期元数据差异，不影响其在第 2 季第 50 集的身份和完整季范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/366228; https://www.themoviedb.org/tv/82728; https://www.themoviedb.org/tv/82728/season/2; https://api.bgm.tv/v0/subjects/366228",
+    "verifiedAt": "2026-09-08T23:14:20.081Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 82728,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 213557,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 223645 的作品身份与 Bangumi 主体一致：同为奥飞出品、曹东波执导，故事均围绕施巧灵、蓝慧、殷小敏和彩俐公主在彩灵堡对抗黑咒魔王展开。TMDB 明确分为两季，第二季简介对应“彩石宝盒篇”剧情；第2季实际季表有完整26集，集名从“彩灵堡的危机”至“决战彩灵堡”，与 Bangumi 的26集及第27—52话标题逐一对应。因此应映射为该 TV 的第2季整季。\n\nhttps://api.bgm.tv/v0/subjects/213557 (api_snapshot): Bangumi 原始资料确认主体为2017年5月9日开始的 TV 动画《巴啦啦小魔仙之飞越彩灵堡 第二季》，共26集；别名包括“彩石宝盒篇”，剧情、制作公司、导演和动画制作公司均已提供。\n\nhttps://www.themoviedb.org/tv/223645 (api_snapshot): TMDB 详情确认作品为《巴啦啦小魔仙之飞越彩灵堡》，中文简介明确描述第一、第二季及第二季2017年5月9日首播；系列共2季、52集，制作方为奥飞，导演曹东波，编剧齐圆、王薇。\n\nhttps://www.themoviedb.org/tv/223645/season/2 (api_snapshot): TMDB第2季季表实际返回26集，剧情为彩俐公主等人寻找彩石宝盒和七颗宝石；集名和顺序与 Bangumi 该主体的26集完全对应。\n\nhttps://www.themoviedb.org/tv/223645 (api_snapshot): TMDB搜索结果将“巴啦啦小魔仙之飞越彩灵堡”识别为 TV 作品，且简介区分第一季与第二季，排除了将其误配为电影、OVA或其他版本。\n\n备注：TMDB详情中的系列 last_air_date 为2016年12月13日，且第2季 air_date 为空，与简介所述第二季2017年5月9日首播存在元数据不一致；但不影响第2季身份及26集范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/213557; https://api.bgm.tv/v0/subjects/213557; https://www.themoviedb.org/tv/223645; https://www.themoviedb.org/tv/223645/season/2",
+    "verifiedAt": "2026-09-08T20:52:28.812Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 223645,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

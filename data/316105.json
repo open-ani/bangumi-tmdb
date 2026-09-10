@@ -1,0 +1,21 @@
+{
+  "bangumiId": 316105,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2020-11-07 开始、WEB 媒介、14 集的 RWBY Volume 8。TMDB TV 50137 的第 8 季明确名为 Volume 8，首播日期、剧情概要、主要角色和制作方均吻合；季表实际包含 14 集，标题从 Divide 至 The Final Word 与 Bangumi 集表逐一对应，因此应映射为完整第 8 季。TMDB 另有电影 1749458，但其为 2021 年发行、231 分钟的 Volume 8 季合集/家庭影音版本，不是 Bangumi 的逐集 WEB TV 版本，故排除；RWBY: Ice Queendom 195966 则是 2022 年日本重制/改编 TV 版，也不匹配。\n\nhttps://api.bgm.tv/v0/subjects/316105 (api_snapshot): Bangumi API 原始快照标明 RWBY Volume 8、平台 WEB、日期 2020-11-07、总集数 14；集名为 Divide、Refuge、Strings、Fault、Amity、Midnight、War、Dark、Witch、Ultimatum、Risk、Creation、Worthy、The Final Word。\n\nhttps://www.themoviedb.org/tv/50137 (api_snapshot): TMDB TV 50137 为 RWBY，制作公司包含 Rooster Teeth Productions；第 8 季列表明确为 Volume 8，日期 2020-11-07、14 集，剧情为 Salem 到达、Atlas 面临危机、Team RWBY 对抗 Salem 与 Ironwood。\n\nhttps://www.themoviedb.org/tv/50137/season/8 (api_snapshot): TMDB 实际第 8 季表返回 episodeCount=14、total_pages=1，集数 1-14 及标题、日期与 Bangumi 集表对应，最后一集为 The Final Word。\n\nhttps://www.themoviedb.org/movie/1749458 (api_snapshot): TMDB 1749458 是名为 RWBY: Volume 8 的电影条目，日期 2021-11-23、片长 231 分钟，剧情与第 8 季相同，属于发行后的季合集/电影化版本，不符合该 Bangumi WEB 逐集条目。\n\nhttps://www.themoviedb.org/tv/195966 (api_snapshot): TMDB 195966 是 RWBY 氷雪帝国，2022-07-03 开播、日方 SHAFT 等制作、仅 12 集，为另一部日本改编/重制 TV 作品。\n\nhttps://www.viz.com/rwby (search_snippet): VIZ 官方页面将 RWBY, Volume 8 列为 RWBY 的 TV Show 发行项目，支持其作为原系列分卷 TV 版本而非 Ice Queendom。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/316105; https://api.bgm.tv/v0/subjects/316105; https://www.themoviedb.org/tv/50137; https://www.themoviedb.org/tv/50137/season/8; https://www.themoviedb.org/movie/1749458; https://www.themoviedb.org/tv/195966; https://www.viz.com/rwby",
+    "verifiedAt": "2026-09-08T22:29:00.851Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 50137,
+      "season": 8,
+      "type": "tv"
+    }
+  ]
+}

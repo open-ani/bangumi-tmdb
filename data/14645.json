@@ -1,0 +1,21 @@
+{
+  "bangumiId": 14645,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 101726 的原名、日文标题、1993 年时期、剧情（漫画家仓元与犬巴ウ、犬神家）及主要配音与 Bangumi subject 完全对应；TMDB 明确标为 TV、1 季、40 集，季表实际覆盖第 1–40 集，因此使用整季范围。日本动画官方资料还确认该 TV 版由日本动画制作、加贺刚监督。另有 1994 年 22 分钟剧场版，但其为独立电影，不应映射本 TV subject。Bangumi 的开播日为 1993-10-04，而官方及 TMDB 记录为 1993-10-14，属于日期元数据差异，不影响作品身份。\n\nhttps://www.themoviedb.org/tv/101726 (api_snapshot): TMDB 详情确认作品为《平成イヌ物語バウ》，类型为 TV，原始语言日语，日期为 1993-10-14，剧情涉及漫画家仓元、巴ウ与犬神家，共 1 季 40 集。\n\nhttps://www.themoviedb.org/tv/101726/season/1 (api_snapshot): TMDB 第 1 季实际返回 episode 1 至 episode 40，episodeCount=40，total_pages=1，未混入其他作品。\n\nhttps://www.nippon-animation.co.jp/work/1674/ (search_snippet): 日本动画官方作品资料确认该作品为 1993/10/14–1994/09/22 的电视动画，剧情与巴ウ、仓元、犬神家对应，并列出监督加贺刚及日本动画相关制作人员。\n\nhttps://www.nippon-animation.co.jp/work/1696/ (page): 日本动画官方资料另列《平成イヌ物語バウ[劇場版]》，上映日 1994/08/20、片长 22 分钟，属于独立剧场动画，已与 TV 版区分。\n\nhttps://api.bgm.tv/v0/subjects/14645 (api_snapshot): Bangumi 原始 subject 信息确认标题、TV 媒介、40 话、原作 Terry 山本、监督加贺刚及日本动画制作。\n\n备注：Bangumi 记录开播日为 1993-10-04，官方资料和 TMDB 为 1993-10-14；需保留为日期元数据差异。；部分资料将每集的双段播出拆算为 80 个短段，但 Bangumi subject 与 TMDB 季表均按 40 个电视播出集计数；本映射采用 subject/TMDB 的 1–40 集编号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/14645; https://www.themoviedb.org/tv/101726; https://www.themoviedb.org/tv/101726/season/1; https://www.nippon-animation.co.jp/work/1674/; https://www.nippon-animation.co.jp/work/1696/; https://api.bgm.tv/v0/subjects/14645",
+    "verifiedAt": "2026-09-08T18:38:53.480Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 101726,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

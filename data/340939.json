@@ -1,0 +1,23 @@
+{
+  "bangumiId": 340939,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB条目与 Bangumi 在标题、首播日期（2021-08-19）、中文剧情、制作方（索以文化/Soyep、腾讯）及导演信息上吻合，且两者均为网络动画。Bangumi 主体明确收录160集；TMDB第1季实际包含连续的第1至190集，因此只能映射其中已核实对应 Bangumi 主体的第1至160集，不能使用整季范围。TMDB另列第2季30集，不能据此替换或扩展本主体。\n\nhttps://api.bgm.tv/v0/subjects/340939 (api_snapshot): Bangumi API确认作品名、WEB媒介、首播日期2021-08-19、160集、剧情及制作人员（孙纪剑/朱怡静、索以文化、腾讯视频等）。\n\nhttps://www.themoviedb.org/tv/131629 (api_snapshot): TMDB详情确认TV条目131629，原名为我气哭了百万修炼者，首播日期2021-08-19，剧情与 Bangumi 一致，制作公司为Soyep和Tencent Penguin Pictures，并列出第1季190集、第2季30集。\n\nhttps://www.themoviedb.org/tv/131629/season/1 (api_snapshot): TMDB第1季分页季表实际覆盖连续集数1-190；第1页包含1-60，第2页包含61-120，第3页包含121-180，第4页包含181-190，因此第1-160集范围可直接核对。\n\nhttps://bangumi.tv/subject/340939 (search_snippet): Bangumi网页摘要再次显示该主体为WEB动画、160话、2021年8月19日开播，并列出导演、动画制作及制作方。\n\n备注：TMDB将后续内容同时组织为第1季末段和第2季，季划分与 Bangumi 不完全一致；本映射按 Bangumi 主体实际160集采用TMDB第1季第1-160集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/340939; https://api.bgm.tv/v0/subjects/340939; https://www.themoviedb.org/tv/131629; https://www.themoviedb.org/tv/131629/season/1; https://bangumi.tv/subject/340939",
+    "verifiedAt": "2026-09-08T23:01:08.369Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 160,
+      "id": 131629,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

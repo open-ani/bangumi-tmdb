@@ -1,0 +1,23 @@
+{
+  "bangumiId": 513530,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体身份一致：日文原名均为「ぽちゃーズ」，2024 年开播，均为约 2 分钟的 TV 短篇动画，剧情都描述“ぽちゃ化”的动物日常；制作公司为 DLE，官方资料确认导演/脚本/角色设计为そろ谷、音乐为松野恭平。官方站逐项列出第1至52话，且标题与 Bangumi 集表对应。TMDB 第1季虽列出60集，但第53至60集无日期且仅为泛化占位条目，因此只映射已核实的1-52话，不使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/513530 (api_snapshot): Bangumi API：作品名为ぽちゃーズ，2024-10-08开播，TV，52集；简介、导演そろ谷、音乐松野恭平、动画制作DLE与待匹配集表。\n\nhttps://www.themoviedb.org/tv/270660 (api_snapshot): TMDB详情：原名ぽちゃーズ，2024-10-09，日语TV剧，DLE制作，1季；详情记录60集。\n\nhttps://www.themoviedb.org/tv/270660/season/1 (api_snapshot): TMDB第1季实际集表为第1-60集；第1-52集有对应播出日期，且第53-60集日期为空。\n\nhttps://www.dle.jp/jp/works/3428.html (page): DLE官方页面确认《ぽちゃーズ》是富士电视台×DLE制作的TV原创短篇动画，2024-10-08在EXITV内开播，剧情为动物们生活在“ぽちゃ化”的世界。\n\nhttps://www.pochars.com/ (page): 作品官方网站确认剧情设定、TV动画播出信息、そろ谷负责导演/脚本/角色设计、松野恭平负责音乐、DLE负责动画制作，并列出第1至52话及其标题。\n\n备注：TMDB将第1季总数记录为60集，但第53-60集没有日期、标题仅为“第53话”等占位信息；它们是否属于 Bangumi 当前主体之外的未来条目尚未明确，因此未纳入推荐范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/513530; https://api.bgm.tv/v0/subjects/513530; https://www.themoviedb.org/tv/270660; https://www.themoviedb.org/tv/270660/season/1; https://www.dle.jp/jp/works/3428.html; https://www.pochars.com/",
+    "verifiedAt": "2026-09-09T00:15:54.972Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 52,
+      "id": 270660,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

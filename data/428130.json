@@ -1,0 +1,23 @@
+{
+  "bangumiId": 428130,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 218642 的原名为《师兄啊师兄》，剧情简介与 Bangumi 完全对应，制作公司包含优酷和 Sparkly Key Animation Studio，工作人员含导演金蕾、编剧沈乐平。TMDB 将全作编为唯一的第1季，共169集；其第14—39集的播出日期为2023-12-14至2024-05-30，且标题、剧情连续性与 Bangumi subject 的26集逐集对应。因此该 Bangumi“第二季”应映射为 TMDB 第1季的第14—39集，而不是 season=2。\n\nhttps://www.themoviedb.org/tv/218642 (api_snapshot): TMDB详情确认原名《师兄啊师兄》、首播日期2023-01-19、剧情简介、优酷及 Sparkly Key Animation Studio 制作信息，并列出导演金蕾、编剧沈乐平；条目只有1个季、共169集。\n\nhttps://www.themoviedb.org/tv/218642/season/1 (api_snapshot): TMDB第1季实际集表显示第14集至第39集连续覆盖2023-12-14至2024-05-30，包含与 Bangumi subject 对应的26集标题和剧情。\n\nhttps://api.bgm.tv/v0/subjects/428130 (api_snapshot): Bangumi原始API确认该 subject 为WEB动画，26集，播出日期2023-12-14至2024-05-30，导演金蕾、系列构成沈乐平；其集数编号为14—39。\n\n备注：TMDB没有单独建立名为“第二季”的season=2，而是把该动画按连续总集数编入唯一第1季；这是平台分季命名差异，不影响第14—39集范围的逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/428130; https://www.themoviedb.org/tv/218642; https://www.themoviedb.org/tv/218642/season/1; https://api.bgm.tv/v0/subjects/428130",
+    "verifiedAt": "2026-09-08T23:48:07.002Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 14,
+      "episodeEnd": 39,
+      "id": 218642,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

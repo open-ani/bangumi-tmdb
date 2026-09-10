@@ -1,0 +1,24 @@
+{
+  "bangumiId": 38470,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确包含两个独立作品：第1集为1994年短片《CLAMP IN WONDERLAND》，第2集为2007年《CLAMP IN WONDERLAND 2》。二者都是CLAMP角色跨作品音乐动画短片，不是TV系列或同一季中的普通集数。TMDB分别收录为电影：399501对应1994-11-21、约7分钟的短片；410140对应2007-10-26、约15分钟的续作。1994条目的导演为浅香守生、制作公司为Animate Film/Madhouse；2007条目的导演为增原光幸，编剧/创作人员包括大川七濑、もこな、猫井椿，制作公司为Madhouse。官方FlyingDog资料也将其作为“CLAMP IN WONDERLAND 1&2”的两部原创动画分别配乐发行。因此应拆成两个 movie target，电影不填写季或集数范围。\n\nhttps://api.bgm.tv/v0/subjects/38470 (api_snapshot): Bangumi 原始资料显示总集数为2，第1集名称为《CLAMP IN WONDERLAND》、年份1994，第2集名称为《CLAMP IN WONDERLAND2 1995〜2006》、年份2007；类型为OVA。\n\nhttps://www.themoviedb.org/movie/399501 (api_snapshot): TMDB详情确认作品名CLAMP IN WONDERLAND、日期1994-11-21、片长7分钟、原语言日语、制作公司Animate Film和Madhouse、导演浅香守生，并有别名Clamp in Wonderland 1。\n\nhttps://www.themoviedb.org/movie/410140 (api_snapshot): TMDB详情确认作品名Clamp in Wonderland 2、日期2007-10-26、片长15分钟、原语言英语元数据、制作公司Madhouse；导演为增原光幸，编剧/创作人员包括大川七濑、もこな、猫井椿。\n\nhttps://www.jvcmusic.co.jp/flyingdog/-/Discography/-/VTCL-60003.html (page): FlyingDog官方资料将其称为原创动画“CLAMP IN WONDERLAND 1&2”，并列出两部作品的相关主题曲。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38470; https://api.bgm.tv/v0/subjects/38470; https://www.themoviedb.org/movie/399501; https://www.themoviedb.org/movie/410140; https://www.jvcmusic.co.jp/flyingdog/-/Discography/-/VTCL-60003.html",
+    "verifiedAt": "2026-09-08T18:54:08.506Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 399501,
+      "type": "movie"
+    },
+    {
+      "id": 410140,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 8413,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品为《電光超特急ヒカリアン》（2002），而非旧版《超特急ヒカリアン》（TMDB 100536，1997）。两者标题、播出年份、制作公司/人员及剧情版本均明确区分。TMDB 100581 的第1季实际列出 52 集，日期覆盖 2002-04-07 至 2003-03-30，与 Bangumi 的 subject、导演大庭秀昭、续作剧情及52回信息一致，因此使用整季；其中部分播出回包含多个短篇段落，不能按 Bangumi 的分段总数拆成额外季或作品。\n\nhttps://api.bgm.tv/v0/subjects/8413 (api_snapshot): Bangumi API 原始信息确认日文名、电光超特急ヒカリアン、2002-04-07、TV、52回、导演大庭秀昭、续作剧情及别名 Lightning Attack Express。\n\nhttps://www.themoviedb.org/tv/100581 (api_snapshot): TMDB 详情确认作品原名電光超特急ヒカリアン、首播2002-04-07、完结2003-03-30、52集、1季、制作方TV Tokyo/TOHO、系列导演大庭秀昭，并含中文别名铁胆火车侠2及英文别名Lightning Attack Express。\n\nhttps://www.themoviedb.org/tv/100581/season/1 (api_snapshot): TMDB第1季季表确认 season=1、共52集，实际集号连续覆盖1-52，首集2002-04-07，末集2003-03-30；内容标题与该续作一致。\n\nhttps://www.themoviedb.org/tv/100536 (api_snapshot): TMDB另一条目是旧版《超特急ヒカリアン》，首播1997-04-02、156集，外部别名包括铁胆火车侠，不是本 Bangumi subject。\n\nhttps://www.at-x.com/program/detail/?id=1462 (search_snippet): 节目资料搜索摘要确认《電光超特急ヒカリアン》为2002-04-07至2003-03-30播出、全52话、导演大庭秀昭。\n\n备注：Bangumi fresh 数据同时出现 regular/total episode count 50，而其话数字段及外部资料记为52回；TMDB季表和AT-X均支持52个播出回。其“52回全77话”应理解为部分回包含多个短篇段落，TMDB按播出回列为52集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8413; https://api.bgm.tv/v0/subjects/8413; https://www.themoviedb.org/tv/100581; https://www.themoviedb.org/tv/100581/season/1; https://www.themoviedb.org/tv/100536; https://www.at-x.com/program/detail/?id=1462",
+    "verifiedAt": "2026-09-08T18:34:08.790Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 100581,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

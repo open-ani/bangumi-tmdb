@@ -1,0 +1,23 @@
+{
+  "bangumiId": 282738,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 113037 与该 Bangumi 条目在中文原名、2020-11-10 首播日期、赛车题材剧情、WEB 动画媒介及制作公司方面一致。TMDB 将全作收录为第1季共40集，并以“画江湖之轨夜行 下篇”等作为别名；其第1至20集的标题和日期逐项对应 Bangumi 的“上篇”，第21至40集则对应2021年12月开始播出的“下篇”。因此应映射为同一 TMDB TV 作品的第1季 1-20集，而不是整季。\n\nhttps://api.bgm.tv/v0/subjects/282738 (api_snapshot): Bangumi API 将 subject 标为 WEB，首播日为2020-11-10，共20集，剧情为东野稷围绕赛车成长，制作信息含总导演关心。\n\nhttps://www.themoviedb.org/tv/113037 (api_snapshot): TMDB TV 113037 的原名为“画江湖之轨夜行”，首播日2020-11-10，简介与赛车成长剧情一致，共40集、1季，制作公司为北京若森数字；别名包含“画江湖之轨夜行 下篇”。\n\nhttps://www.themoviedb.org/tv/113037/season/1 (api_snapshot): TMDB 第1季实际包含40集；第1至20集标题和日期与 Bangumi 上篇逐项对应，第21集起从2021-12-14播出，属于下篇的连续内容。\n\nhttps://bgm.tv/subject/282738 (page): Bangumi 上篇页面确认媒介为 WEB、话数20、首播2020-11-10，章节为01至20，并列出关心、若森数字等制作信息。\n\nhttps://www.rocen.com.cn/news/20211222-98.html (page): 若森数字官方新闻称《画江湖之轨夜行》下篇于12月14日回归，确认上下篇是同一作品的分段播出版本。\n\n备注：TMDB 详情接口的 crew 数组为空，导演和制作人员主要由 Bangumi 页面核对；这不影响作品身份及1-20集范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/282738; https://api.bgm.tv/v0/subjects/282738; https://www.themoviedb.org/tv/113037; https://www.themoviedb.org/tv/113037/season/1; https://www.rocen.com.cn/news/20211222-98.html",
+    "verifiedAt": "2026-09-08T21:42:24.164Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 20,
+      "id": 113037,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

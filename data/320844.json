@@ -1,0 +1,63 @@
+{
+  "bangumiId": 320844,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品为《SpongeBob SquarePants》（TMDB 387），其第13季首播于2020-10-22、末播于2023-11-01，与 Bangumi subject 完全吻合。TMDB 将该季按分段列为64集，但其中12段实际属于第12季；第13季主体对应非连续范围 1-2、9-10、13、15-17、19、21-22、24-64。Bangumi 的26集是半小时单元计数，包含52个分段，不能直接使用 TMDB 整季范围。\n\nhttps://api.bgm.tv/v0/subjects/320844 (api_snapshot): Bangumi 原始 API 标记为 TV，第13季，放送日期 2020-10-22，26集，结束日期 2023-11-01。\n\nhttps://www.themoviedb.org/tv/387 (api_snapshot): TMDB 387 的原始标题为 SpongeBob SquarePants，剧情、角色、Nickelodeon 制作信息与海绵宝宝系列一致，并包含 Season 13。\n\nhttps://www.themoviedb.org/tv/387/season/13 (api_snapshot): TMDB 第13季实际集表为64个分段，首集 2020-10-22，末集 2023-11-01；可核对各分段标题、日期和剧情。\n\nhttps://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_12 (page): 第12季页面列出 Krusty Koncessionaires、Dream Hoppers、My Two Krabses、Lighthouse Louie、Bubble Bass's Tab、Kooky Cooks、Knock Knock, Who's There?、Plankton's Intern、Pat Hearts Squid、Patrick's Tantrum、Hiccup Plague、Kwarantined Krab 等被 TMDB 13季表混入的分段。\n\nhttps://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_13 (page): 第13季页面确认其为2020-10-22至2023-11-01、26个半小时单元/52个分段，并列出对应剧情、制作人员及完整分段标题。\n\n备注：Bangumi 当前集标题和日期为空，因此范围核对依赖其季级日期、26集计数以及 TMDB 分段表与公开季集表的交叉对应；不同数据库的分段/半小时编号会不同。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/320844; https://api.bgm.tv/v0/subjects/320844; https://www.themoviedb.org/tv/387; https://www.themoviedb.org/tv/387/season/13; https://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_12; https://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_13",
+    "verifiedAt": "2026-09-08T22:41:29.954Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    },
+    {
+      "episode": 9,
+      "episodeEnd": 10,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    },
+    {
+      "episode": 13,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    },
+    {
+      "episode": 15,
+      "episodeEnd": 17,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    },
+    {
+      "episode": 19,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    },
+    {
+      "episode": 21,
+      "episodeEnd": 22,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    },
+    {
+      "episode": 24,
+      "episodeEnd": 64,
+      "id": 387,
+      "season": 13,
+      "type": "tv"
+    }
+  ]
+}

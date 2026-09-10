@@ -1,0 +1,21 @@
+{
+  "bangumiId": 73716,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 已确认是同一部 2000 年 Sunrise 电视动画：日文原名、首播日期、剧情核心、原作与制作人员均吻合。TMDB 只有 Season 1，季表分 3 页共 138 条条目，全部属于该作品；其条目粒度与官方“83话”（部分播出话含多个短段）不一致，因此采用完整 Season 1，不强行建立 Bangumi 话数与 TMDB 条目的一对一范围。\n\nhttps://api.bgm.tv/v0/subjects/73716 (api_snapshot): Bangumi API 确认标题为「ニャニがニャンだー ニャンダーかめん」、TV、首播 2000-02-06，简介及 83 话信息与目标作品一致。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=120 (page): Sunrise 官方资料确认同名作品于 2000-02-06 至 2001-09-30 播出，共 83 话；剧情为猫 Nyago 变身 ニャンダーかめん；列出原作やなせたかし、总导演芝山努、导演岩崎知子、系列构成桜井正明、音乐宮路一昭。\n\nhttps://www.themoviedb.org/tv/117390 (api_snapshot): TMDB details 确认 TV ID 117390，原名「ニャニがニャンだー ニャンダーかめん」，日期 2000-02-06，日语，简介指向 Sunrise、やなせたかし及同一猫侠故事，且仅有 1 个季。\n\nhttps://www.themoviedb.org/tv/117390/season/1 (api_snapshot): TMDB Season 1 实际季表显示共 138 条条目、total_pages=3，分页覆盖条目 1-138；未发现其他作品混入。\n\n备注：TMDB 将作品记录为 138 条季条目，而官方按电视播出编为 83 话，说明存在多段合并/拆分或条目颗粒度差异；TMDB 条目多数没有标题和日期，无法可靠建立 Bangumi 52 个实体话与 TMDB 单条编号的精确对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/73716; https://api.bgm.tv/v0/subjects/73716; https://www.sunrise-inc.co.jp/work/detail.php?cid=120; https://www.themoviedb.org/tv/117390; https://www.themoviedb.org/tv/117390/season/1",
+    "verifiedAt": "2026-09-08T19:10:48.757Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 117390,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

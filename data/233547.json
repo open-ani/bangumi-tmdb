@@ -1,0 +1,30 @@
+{
+  "bangumiId": 233547,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 对应 TMDB TV 70923《镇魂街》，但不能选其第2季整季。Bangumi 233547 是2019—2020年播出的旧版《北落师门篇》5集，与2021年10集重制版属于不同演绎。TMDB 将旧版前两集“故人归来”“慷慨悲歌”编为 S2E1–E2，却把旧版后三集“肝胆相照”“鱼游釜中”“魂牵梦萦”移入特别篇 S0E5–E7；标题、日期和片长均吻合。因此需要用两个连续区间合并覆盖该 subject，不能包含 S2E3–E10 的重制版内容。\n\nhttps://bgm.tv/subject/233547 (page): Bangumi 页面确认本 subject 为WEB动画《镇魂街 北落师门篇》，共5话，2019-12-28开播，导演白海涛；章节为01至05，并将2021年的《镇魂街 第二季》列为“不同演绎”。\n\nhttps://www.themoviedb.org/tv/70923 (api_snapshot): TMDB 详情确认 TV 70923 是中国动画《镇魂街》系列；第2季名为“北落师门篇”，始于2019-12-28，剧情中的曹焱兵、夏铃、南御夫、北落师门和水儿与目标 subject 一致。\n\nhttps://www.themoviedb.org/tv/70923/season/2 (api_snapshot): TMDB 第2季实际集表显示 E1“故人归来”和E2“慷慨悲歌”均于2019-12-28播出；其后集表转入2021年重制内容，因此不能采用整季。\n\nhttps://www.themoviedb.org/tv/70923/season/0 (api_snapshot): TMDB 特别篇实际集表的 E5、E6、E7分别是“北落师门篇 卢书雨改编版03：肝胆相照”“04：鱼游釜中”“05：魂牵梦萦”，日期依次为2020-01-04、2020-01-11、2020-01-18，完整对应 Bangumi 旧版第3至5集。\n\nhttps://www.bilibili.com/bangumi/media/md5626 (search_snippet): 官方哔哩哔哩检索摘要将当前条目标为全10话，同时把“肝胆相照”“鱼游釜中”“魂牵梦萦”另列在“卢书雨改编版”栏目，支持旧版后三集与重制主集表分列。\n\nhttps://bangumi.tv/subject/298525 (page): 2021版页面确认其为10话、2021-05-15开播，别名“镇魂街 第二季 重制版”，并把《镇魂街 北落师门篇》列为“不同演绎”，排除了将目标直接映射为2021版整季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/233547; https://www.themoviedb.org/tv/70923; https://www.themoviedb.org/tv/70923/season/2; https://www.themoviedb.org/tv/70923/season/0; https://www.bilibili.com/bangumi/media/md5626; https://bangumi.tv/subject/298525",
+    "verifiedAt": "2026-09-09T01:45:19.229Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 70923,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 5,
+      "episodeEnd": 7,
+      "id": 70923,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

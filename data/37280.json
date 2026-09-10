@@ -1,0 +1,21 @@
+{
+  "bangumiId": 37280,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB条目与《巨神ゴーグ》身份一致：日文原名、1984年开播、SUNRISE制作、安彦良和导演/原案、主要配音阵容及26集规模均吻合。Bangumi剧情为奥斯特拉尔岛冒险与巨神ゴーグ、GAIL及异星遗迹；TMDB简介虽为空，但工作人员、媒介和版本信息支持其为同一部1984年TV动画，而非OVA、电影或其他版本。TMDB第1季实际列出完整26集，覆盖Bangumi主体，因此使用整季映射。\n\nhttps://api.bgm.tv/v0/subjects/37280 (api_snapshot): Bangumi原始数据确认作品名、1984-04-05开播、TV媒介、26集、剧情、导演安彦良和、原案/制作及完整集数范围。\n\nhttps://www.themoviedb.org/tv/44299 (api_snapshot): TMDB详情确认ID 44299为《巨神ゴーグ》，原名相同，1984-04-05开播，SUNRISE制作，安彦良和担任导演与原案，共1季26集。\n\nhttps://www.themoviedb.org/tv/44299/season/1 (api_snapshot): TMDB第1季实际返回season=1且包含第1至第26集，episodeCount=26，未混入其他作品。\n\n备注：TMDB季表中的部分播出日期与Bangumi记录不一致，且TMDB剧情简介为空；但不影响作品身份及完整26集范围的确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/37280; https://api.bgm.tv/v0/subjects/37280; https://www.themoviedb.org/tv/44299; https://www.themoviedb.org/tv/44299/season/1",
+    "verifiedAt": "2026-09-08T18:50:59.510Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44299,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

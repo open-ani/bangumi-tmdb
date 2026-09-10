@@ -1,0 +1,40 @@
+{
+  "bangumiId": 508696,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 输入的 subject 508696 当前经 Bangumi API 解析为 canonical 条目 508689《なにわ遊侠伝》：1992-03-13 开始发行的 6 话 OVA，而非仅指 AniDB 8189 所示的第5卷。Bangumi 页面列有 01–06，制作方 ICHI 的作品页也明确把它列为从1992年3月至1993年7月发行的六卷 OVA。TMDB 没有把这六卷合成 TV 季，而是分别收录为六部 movie；逐一读取详情后，六个条目的原名、发行顺序、年份、约55–60分钟片长，以及どおくまんプロ原作、小暮輝夫／落合正宗等制作人员均与该 OVA 系列相符。故应完整映射六个电影 ID，不能只采用 AniDB 线索对应的第5卷 1692458，也不能采用1995年的同名真人电影 48571。\n\nhttps://api.bgm.tv/v0/subjects/508696 (api_snapshot): 本轮 API 快照虽以 508696 请求，但响应 id 为 508689，作品为《なにわ遊侠伝》，平台 OVA，首发日 1992-03-13，eps 与 total_episodes 均为6。\n\nhttps://bgm.tv/subject/508689 (page): 当前 canonical Bangumi 页面标注《なにわ遊侠伝》为6话 OVA、1992年3月13日发售，并列出01至06六个章节。\n\nhttps://ichi-knack.com/sakuhinn (page): 制作方作品页在 OVA 栏列出《なにわ遊侠伝》第1至第6话，发行跨度为1992年3月至1993年7月。\n\nhttps://www.themoviedb.org/movie/1692386 (api_snapshot): TMDB 详情：电影《なにわ遊侠伝》，1992-03-13，60分钟；列有动画制作公司、安岡力也等声演以及小暮輝夫、落合正宗等导演信息，对应第1卷。\n\nhttps://www.themoviedb.org/movie/1402795 (api_snapshot): TMDB 详情：电影《続なにわ遊侠伝》，1992-06-25，60分钟，KnacK 制作；声演和导演阵容与系列一致，对应第2卷。\n\nhttps://www.themoviedb.org/movie/1692394 (api_snapshot): TMDB 详情：电影《なにわ遊侠伝: 熱血!!爆笑マン開篇》，1992-10-25，57分钟；どおくまんプロ原作、小暮輝夫等执导，对应第3卷。\n\nhttps://www.themoviedb.org/movie/1692451 (api_snapshot): TMDB 详情：电影《なにわ遊侠伝: 超極道!夜のバットはマン塁篇》，1993-01-08，57分钟；原作、制作与主要人员相符，对应第4卷。\n\nhttps://www.themoviedb.org/movie/1692458 (api_snapshot): TMDB 详情：电影《なにわ遊侠伝: 強烈!アナがあったら入れたい篇》，1993-05-25，55分钟；原作及导演信息相符，对应第5卷，也就是 AniDB 8189 名称所指的单卷。\n\nhttps://www.kinokuniya.co.jp/f/dsg-10-4529971810174 (page): 纪伊国屋商品资料明确将《強烈！アナがあったら入れたい篇》标为《なにわ遊侠伝5》，制作年1993、动画、约58分钟，证明它只是系列第5卷。\n\nhttps://www.themoviedb.org/movie/1692468 (api_snapshot): TMDB 详情：电影《なにわ遊侠伝: 完結篇》，1993-07-25，60分钟；原作及导演信息相符，对应第6卷完结篇。\n\nhttps://www.allcinema.net/cinema/pdf/324985 (page): allcinema 将《完結篇》明确标为日本原创录像动画和系列完结篇，并列出どおくまんプロ原作、小暮輝夫与落合正宗执导。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/508696; https://api.bgm.tv/v0/subjects/508696; https://bgm.tv/subject/508689; https://ichi-knack.com/sakuhinn; https://www.themoviedb.org/movie/1692386; https://www.themoviedb.org/movie/1402795; https://www.themoviedb.org/movie/1692394; https://www.themoviedb.org/movie/1692451; https://www.themoviedb.org/movie/1692458; https://www.kinokuniya.co.jp/f/dsg-10-4529971810174; https://www.themoviedb.org/movie/1692468; https://www.allcinema.net/cinema/pdf/324985",
+    "verifiedAt": "2026-09-09T03:32:08.651Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1692386,
+      "type": "movie"
+    },
+    {
+      "id": 1402795,
+      "type": "movie"
+    },
+    {
+      "id": 1692394,
+      "type": "movie"
+    },
+    {
+      "id": 1692451,
+      "type": "movie"
+    },
+    {
+      "id": 1692458,
+      "type": "movie"
+    },
+    {
+      "id": 1692468,
+      "type": "movie"
+    }
+  ]
+}

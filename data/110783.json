@@ -1,0 +1,50 @@
+{
+  "bangumiId": 110783,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品 SpongeBob SquarePants（TMDB 387），即 Nickelodeon 于 1999 年开始、以海绵宝宝、比奇堡及其朋友为核心的美国动画；原名、剧情、角色配音、制作公司和日文别名均吻合。Bangumi 的“第二季”采用播出/发行季的 20 个半小时节目分组，而 TMDB 将部分同属该季的节目放入自身 Season 3，并将 Just One Bite/The Bully 放在 Season 2 但它们不在该 Bangumi 条目中。因此按实际标题逐段映射：TMDB Season 2 的 1–30、33–36，以及 TMDB Season 3 的 3–4、24–25、31。不能使用整季范围，因为 TMDB 季表混入或遗漏了与 Bangumi 季定义不一致的节目。\n\nhttps://www.themoviedb.org/tv/387 (api_snapshot): TMDB 详情确认这是 TV 作品 SpongeBob SquarePants，原名相同，1999-05-01 开始；简介为比奇堡海绵宝宝及其朋友的日常冒险；列出 Nickelodeon Productions、Nickelodeon Animation Studio、United Plankton Pictures，以及 Tom Kenny、Bill Fagerbakke、Rodger Bumpass 等主要配音人员，并列出日文别名「スポンジ・ボブ スクエアパソシ」。\n\nhttps://www.themoviedb.org/tv/387/season/2 (api_snapshot): TMDB Season 2 实际返回 36 集，逐集表确认 1–30 和 33–36 覆盖 Bangumi 条目中的 Something Smells/Bossy Boots 至 The Fry Cook Games、Squid on Strike/Sandy, SpongeBob, and the Worm 等内容；31–32 为 Just One Bite/The Bully，不在该 Bangumi 季条目中。\n\nhttps://www.themoviedb.org/tv/387/season/3 (api_snapshot): TMDB Season 3 逐集表确认 episode 3–4 为 Welcome to the Chum Bucket/Frankendoodle，24–25 为 Graveyard Shift/Krusty Love，31 为 Gary Takes a Bath；这些节目出现在 Bangumi 的第二季 20 个分组中。\n\nhttps://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_2 (page): 作品资料将 SpongeBob SquarePants Season 2 定义为 Nickelodeon 播出的 20 个半小时节目、39 个 segment，时间范围为 2000-10-20 至 2003-07-26，并确认 Stephen Hillenburg 为 showrunner。\n\nhttps://api.bgm.tv/v0/subjects/110783 (api_snapshot): 输入的 Bangumi API 快照确认 subject 名称为 SpongeBob SquarePants (Season 2)、TV、20 集；简介、导演信息及集名与上述 SpongeBob 第二季节目组相符。\n\n备注：TMDB 的 Season 2/Season 3 划分采用与 Bangumi/播出季不同的编排，且 TMDB episode number 是 segment 级编号；推荐范围因此按实际节目标题映射，而不是按 Bangumi 的 1–20 编号直接转换。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110783; https://www.themoviedb.org/tv/387; https://www.themoviedb.org/tv/387/season/2; https://www.themoviedb.org/tv/387/season/3; https://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_2; https://api.bgm.tv/v0/subjects/110783",
+    "verifiedAt": "2026-09-08T19:44:23.618Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 30,
+      "id": 387,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 33,
+      "episodeEnd": 36,
+      "id": 387,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 4,
+      "id": 387,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 24,
+      "episodeEnd": 25,
+      "id": 387,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 31,
+      "id": 387,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

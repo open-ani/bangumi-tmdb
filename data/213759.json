@@ -1,0 +1,20 @@
+{
+  "bangumiId": 213759,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 314201 与 Bangumi 条目的身份高度吻合：日文原名完全相同，日期均为 1960-01-15；TMDB 类型为 movie，片长 30 分钟，简介明确列出《第三の皿》《オッペルと象》《眠い町》三段故事，正好对应 Bangumi 的 3 个条目。外部资料进一步确认这是 NHK 于同日一次播出的 30 分钟电视动画短片/三段式合辑，而非连续 TV、OVA、音乐录像或后来的重制版。因此按 TMDB 媒介类型映射为 movie，集数字段全部为 null。TMDB 工作人员只列 Makoto Wada，外部资料列出小薗江圭子、中原収一、和田誠三位分段导演/作画负责人，属于人员元数据不完整差异，不影响作品身份判断。\n\nhttps://www.themoviedb.org/movie/314201 (api_snapshot): TMDB 搜索与详情均返回 ID 314201；原名为「新しい動画 3つのはなし」，英文名为 Three Tales，日期为 1960-01-15，原语言为日语。\n\nhttps://www.themoviedb.org/movie/314201 (api_snapshot): TMDB 详情显示片长 30 分钟，简介列出「第三の皿」「オッペルと象」「眠い町」三段故事，并列出 Makoto Wada 为 Director。\n\nhttps://www.allcinema.net/cinema/235570 (page): 外部作品资料确认其为日本黑白 TV 动画，NHK 于 1960-01-15 09:00–09:30 播出；资料列出三段童话及小薗江圭子、中原収一、和田誠等制作人员。\n\nhttps://tkusano.jp/tva (page): 动画节目表将 1960-01-15 NHK 09:00–09:30 的节目记为「三つのお話／新しい動画・３つのはなし」，并说明由三部童话动画以节目形式串联。\n\n备注：TMDB 的 crew 字段只收录 Makoto Wada，与外部资料列出的三位分段导演/作画负责人不完全一致，TMDB 人员元数据可能不完整。；Bangumi 将同一场 30 分钟电视节目拆成 3 个故事条目，而 TMDB 将完整节目建为 movie；因此不能用 TV season 或 episode range 表示。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/213759; https://www.themoviedb.org/movie/314201; https://www.allcinema.net/cinema/235570; https://tkusano.jp/tva",
+    "verifiedAt": "2026-09-08T20:53:18.877Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 314201,
+      "type": "movie"
+    }
+  ]
+}

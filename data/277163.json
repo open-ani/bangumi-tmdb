@@ -1,0 +1,23 @@
+{
+  "bangumiId": 277163,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV《妖神记》（Tales of Demons and Gods），而非独立的 TMDB 第四季条目。TMDB 将整部系列合并为第1季，共488集；本 Bangumi 条目为2020年播出的《黑狱篇》52集，对应 TMDB 第1季第121至172集。两边的日期、集名、剧情阶段均连续匹配：TMDB第121集于2020-04-08播出，第172集于2020-09-27播出，正好覆盖52集。作品为中国网络3D动画，制作方及导演信息也与 Bangumi 资料一致。\n\nhttps://api.bgm.tv/v0/subjects/277163 (api_snapshot): Bangumi 原始资料确认标题为《妖神记之黑狱篇》，2020-04-08开始，WEB动画，共52集；剧情为进入黑狱世界并发现妖主线索，导演为芹菜、叶老酒，制作方包括若鸿文化、bilibili。\n\nhttps://www.themoviedb.org/tv/76806 (api_snapshot): TMDB详情确认作品为《妖神记》，原始标题为妖神记，开播于2017-05-09，制作公司包括 Ruo Hong Culture；TMDB将全系列合并为一个TV条目，仅有第1季，共488集，并收录别名 Tales of Demons and Gods。\n\nhttps://www.themoviedb.org/tv/76806/season/1 (api_snapshot): TMDB第1季第3页显示第121至172集，集名和日期与 Bangumi 的《黑狱篇》52集逐集对应；第121集为2020-04-08，第172集为2020-09-27，且该季实际总数为488集、共9页。\n\nhttps://www.bilibili.com/bangumi/media/md28223065/ (search_snippet): 搜索结果中的哔哩哔哩官方页面将《妖神记之黑狱篇》标为2020年4月8日开播、全52话。\n\n备注：TMDB第151集标题为“赤兽红潮”，Bangumi为“赤兽洪潮”，属于单字文本差异，不影响日期、顺序和剧情身份判断。；TMDB把各中文分季合并到单一第1季，因此推荐使用 season=1 加闭区间121-172，而不是使用不存在的 season=4。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/277163; https://api.bgm.tv/v0/subjects/277163; https://www.themoviedb.org/tv/76806; https://www.themoviedb.org/tv/76806/season/1; https://www.bilibili.com/bangumi/media/md28223065/",
+    "verifiedAt": "2026-09-08T21:38:14.727Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 121,
+      "episodeEnd": 172,
+      "id": 76806,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

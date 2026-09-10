@@ -1,0 +1,23 @@
+{
+  "bangumiId": 330480,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 105901 是同名中国网络动画《异世界中药铺》，剧情与 Bangumi 完全一致；TMDB 将全作错误/简化地合并为第1季共100集。Bangumi subject 330480 是2021年播出的第二季，共60集，对应全作第41—100集，因此应映射到 TMDB 第1季的闭区间 41—100，而不是整季。年份、WEB媒介、剧情及企鹅影视/索以文化制作信息均相符。\n\nhttps://www.themoviedb.org/tv/105901 (api_snapshot): TMDB详情确认作品原名为《异世界中药铺》，首播日期为2020-05-08，剧情与 Bangumi 相同，共1个季、100集。\n\nhttps://www.themoviedb.org/tv/105901/season/1 (api_snapshot): TMDB第1季实际集表共100集；第1页包含第41—60集，第2页包含第61—100集，故目标区间在该季中真实存在。\n\nhttps://api.bgm.tv/v0/subjects/330480 (api_snapshot): Bangumi API确认该条目为2021-04-27开始的WEB动画，60集，剧情、导演高峰、原作墨不够黑及企鹅影视/索以文化制作信息与 TMDB作品一致。\n\nhttps://jingyan.baidu.com/article/48b37f8ddd85b85b646488a1.html (search_snippet): 资料明确区分第01—40集为2020年播出、第41—100集自2021-04-27播出，并列出企鹅影视与索以文化制作信息。\n\nhttps://animeschedule.net/anime/yi-shijie-zhongyao-pu-2 (search_snippet): 别名资料将该作品标为 Yi Shijie Zhongyao Pu 2 / The Pharmacy of the Other World 2，2021-04-27开始，60集，中国ONA。\n\n备注：TMDB目前没有独立的第2季条目，而是把两季合并为第1季100集；其第41、42集仍显示为2020日期，与第二季实际2021年播出时间不一致，但集名和集号范围仍明确对应全作第41—100集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/330480; https://www.themoviedb.org/tv/105901; https://www.themoviedb.org/tv/105901/season/1; https://api.bgm.tv/v0/subjects/330480; https://jingyan.baidu.com/article/48b37f8ddd85b85b646488a1.html; https://animeschedule.net/anime/yi-shijie-zhongyao-pu-2",
+    "verifiedAt": "2026-09-08T22:48:51.955Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 41,
+      "episodeEnd": 100,
+      "id": 105901,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 208067,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 282888《百变猪猪侠》S1。标题、剧情、2009 年版本及 80 集规模一致；外部资料明确其为《猪猪侠》第四部、7.5 分钟×80 集。TMDB S1 季表分页后完整覆盖第 1–80 集，未混入其他作品，因此使用整季映射。TMDB 系列级起始日期为 2009-01-01，而 Bangumi 日期为 2009-08-13；但 TMDB 第 33 集日期正为 2009-08-13，属于播出日期口径差异，不影响作品身份确认。\n\nhttps://www.themoviedb.org/tv/282888 (api_snapshot): TMDB 详情确认标题《百变猪猪侠》、中文剧情、TV 媒介、1 季 80 集，末播日期为 2010-07-08。\n\nhttps://www.themoviedb.org/tv/282888/season/1 (api_snapshot): TMDB S1 季表 page 1/2 已完整读取，episodeCount=80，覆盖第 1–80 集；第 33 集日期为 2009-08-13。\n\nhttps://api.bgm.tv/v0/subjects/208067 (api_snapshot): Bangumi fresh API 确认主体名称《百变猪猪侠》、TV、日期 2009-08-13、eps=80，且剧情与 TMDB 完全对应。\n\nhttps://dm.sohu.com/20090326/n263023857.shtml (search_snippet): 资料将作品列为《猪猪侠Ⅳ：百变猪猪侠》/GG Bond: Transforming，标明 2009 年、3D 动画系列、7.5 分钟×80 集，并给出相同剧情。\n\nhttps://www.winsing.net/en/about/ (search_snippet): 咏声动漫官方页面列出《百变猪猪侠》于 2009 年获得相关作品奖，佐证其属于咏声动漫的该时期动画作品。\n\nhttps://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017305D38B2F3FE1907BD34996A3F.pdf (search_snippet): 咏声动漫公开申报材料列出《百变猪猪侠》国产电视动画片发行许可证，支持其为独立电视动画版本。\n\n备注：Bangumi fresh API 的 total_episodes/regularEpisodes 为 52，与 infobox 和 eps=80 矛盾；但 Bangumi 页面摘要、外部资料及 TMDB 季表均支持该主体为完整 80 集作品，故按 80 集整季映射。；TMDB 详情未提供导演或制作人员字段；外部资料显示导演为王巍，但未将该工作人员信息作为唯一身份依据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/208067; https://www.themoviedb.org/tv/282888; https://www.themoviedb.org/tv/282888/season/1; https://api.bgm.tv/v0/subjects/208067; https://dm.sohu.com/20090326/n263023857.shtml; https://www.winsing.net/en/about/; https://reportdocs.static.szse.cn/UpFiles/rasinfodisc/RAS_00017305D38B2F3FE1907BD34996A3F.pdf",
+    "verifiedAt": "2026-09-08T20:42:21.030Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 282888,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 235400,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV《The Simpsons》主系列的第29季，而不是将整个主系列作为目标。TMDB 详情显示该系列自1989年开始，剧情、角色配音阵容及 Gracie Films/20th Television 制作信息均与《辛普森一家》一致；第29季日期为2017-10-01，TMDB季表实际包含1至21集，播至2018-05-20，剧情与 Bangumi 年份及标题相符。Bangumi 的 total_episodes=22 与 eps=21及外部集数资料不一致，但没有第22集属于该季度的证据，因此采用TMDB实际完整第29季。\n\nhttps://api.bgm.tv/v0/subjects/235400 (api_snapshot): Bangumi API确认标题为《The Simpsons Season 29》，平台为TV，开始日期为2017-10-01，eps=21、total_episodes=22。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB详情确认主系列《The Simpsons》；开始日期为1989-12-17，简介、主要角色配音、制作公司及外部系列ID均匹配。详情还列出Season 29开始于2017-10-01、共21集。\n\nhttps://www.themoviedb.org/tv/456/season/29 (api_snapshot): TMDB真实季表确认Season 29为2017-10-01开始，共21集，集号连续覆盖1-21，最后一集日期为2018-05-20；每集均为该剧情动画TV系列内容。\n\nhttps://www.tvguide.com/tvshows/the-simpsons/episodes-season-29/1000201313/ (search_snippet): 搜索摘要显示《The Simpsons》Season 29为2017-2018年、共21集，与TMDB季表一致。\n\nhttps://www.disneyplus.com/explore/articles/the-simpsons-collection-guide (search_snippet): 官方 Disney+ 资料确认《The Simpsons》是由 Matt Groening 创作、与 James L. Brooks及Sam Simon共同开发的半小时动画喜剧，并描述了与TMDB一致的系列设定。\n\n备注：Bangumi fresh API及旧Archive均出现22集相关计数，但公开季表和TMDB真实季表均确认第29季播出21集；第22条Bangumi记录的归属或数据状态未能确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/235400; https://api.bgm.tv/v0/subjects/235400; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/29; https://www.tvguide.com/tvshows/the-simpsons/episodes-season-29/1000201313/; https://www.disneyplus.com/explore/articles/the-simpsons-collection-guide",
+    "verifiedAt": "2026-09-08T21:13:36.465Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 456,
+      "season": 29,
+      "type": "tv"
+    }
+  ]
+}

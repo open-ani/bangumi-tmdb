@@ -1,0 +1,21 @@
+{
+  "bangumiId": 411246,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 在日文原名、开播日期（2023-01-13）、完结日期（2023-03-24）、媒介及作品内容上完全对应，均为小智与皮卡丘故事的最终章《目标是宝可梦大师》。TMDB 详情确认该 TV 作品仅有第 1 季、共 11 集，并列出松本梨香、大谷育江等主要配音及汤山邦彦导演；季表确认第 1 季连续覆盖 2023-01-13 至 2023-03-24 的第 1—11 集，与 Bangumi 主体一致。Bangumi 的 totalEpisodeCount=12 是包含特别篇的总数，但主体 regularEpisodeCount=11，因此使用整季映射且不包含特别篇。\n\nhttps://api.bgm.tv/v0/subjects/411246 (api_snapshot): Bangumi API 确认作品为 TV，日文原名为「ポケットモンスター めざせポケモンマスター」，2023-01-13 开播，主体 11 集；简介描述小智与皮卡丘为成为宝可梦大师继续冒险，制作资料包含汤山邦彦、冨安大貴及 OLM TEAM KATO。\n\nhttps://www.themoviedb.org/tv/332721 (api_snapshot): TMDB 详情确认 ID 332721 的原始标题正是「ポケットモンスター めざせポケモンマスター」，2023-01-13 开播、2023-03-24 完结，共 1 季 11 集；主要配音包括松本梨香、大谷育江，导演列为汤山邦彦。\n\nhttps://www.themoviedb.org/tv/332721/season/1 (api_snapshot): TMDB 第 1 季实际季表包含连续的第 1—11 集，日期从 2023-01-13 至 2023-03-24，未混入其他作品或特别篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/411246; https://api.bgm.tv/v0/subjects/411246; https://www.themoviedb.org/tv/332721; https://www.themoviedb.org/tv/332721/season/1",
+    "verifiedAt": "2026-09-08T23:41:25.735Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 332721,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

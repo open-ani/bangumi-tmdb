@@ -1,0 +1,21 @@
+{
+  "bangumiId": 10398,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 293821《ジーンダイバー》与 Bangumi 条目的日文原名、1994年播出期、NHK教育《天才てれびくん》内播出形式、科幻剧情及古川政美等制作信息一致。TMDB S1 实际包含连续的第1—56集，集名和日期覆盖该主体；外部资料也确认原作是1994年4月4日至1995年1月24日、全56话的 TV 动画。因此推荐完整第1季，不使用电影或其他相关作品。Archive 的50集列表与新鲜 Bangumi 的56话字段不一致，较可能是旧集表缺失；TMDB 季表和外部资料均支持56集。\n\nhttps://www.themoviedb.org/tv/293821 (api_snapshot): TMDB TV 详情原名为「ジーンダイバー」，简介称其于1994年4月4日至1995年1月24日在《天才てれびくん》内播出，并列出唯一的第1季。\n\nhttps://www.themoviedb.org/tv/293821/season/1 (api_snapshot): TMDB 第1季实际返回56集，集号连续为1至56；第1集日期为1994-04-05，末集第56集日期为1995-01-24，集名均属于同一 Gene Diver 故事。\n\nhttps://api.bgm.tv/v0/subjects/10398 (api_snapshot): Bangumi fresh API 信息确认原名、中文名、1994-04-04开播、TV媒介、56话字段，以及古川政美、井川雅章、谷口明弘等制作人员。\n\nhttps://animejikan.com/work.php?id=5683 (page): 资料列出古川政美为导演、NHK教育《天才てれびくん》框内播出、1994年4月至1995年1月、全56话。\n\nhttps://www.allcinema.net/cinema/89012 (page): 资料将《ジーンダイバー》明确标为1994年日本 TV 动画，播出期为1994-04-04至1995-01-24，并列出导演古川政美。\n\nhttps://nhk-groupmall.jp/products/nqu-06637aa (page): NHK官方商品页说明相关DVD收录的是该作品的总集编28回，表明其为原56话 TV作品的汇编版本，而非应匹配的独立OVA或电影。\n\n备注：TMDB TV 详情顶层元数据异常显示 number_of_episodes=2、last_air_date=1994-04-12，但实际第1季接口返回的56集及外部资料一致；此异常不改变作品身份和季表范围判断。；Bangumi Archive 的 regularEpisodeCount/totalEpisodeCount 为50，与 freshBangumi 的56话字段及TMDB实际56集不一致；未将该旧列表的缺失集另行映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10398; https://www.themoviedb.org/tv/293821; https://www.themoviedb.org/tv/293821/season/1; https://api.bgm.tv/v0/subjects/10398; https://animejikan.com/work.php?id=5683; https://www.allcinema.net/cinema/89012; https://nhk-groupmall.jp/products/nqu-06637aa",
+    "verifiedAt": "2026-09-08T18:36:25.846Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 293821,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

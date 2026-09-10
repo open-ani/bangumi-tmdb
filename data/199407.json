@@ -1,0 +1,26 @@
+{
+  "bangumiId": 199407,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB 199315：同名、2016 年中国 WEB 动画，剧情均为四名女大学生的宿舍日常，制作方均指向北京鱼肚白文化传媒有限公司。Bangumi 主体为常规 12 集，TMDB 第1季实际包含 12 集；Bangumi 另有 2 个特别篇，TMDB 特别篇季实际包含 2 集，因此分别映射第1季和特别篇季。2022 年同名 TMDB 214961 是另一部作品，不应使用。\n\nhttps://www.themoviedb.org/tv/199315 (api_snapshot): TMDB API 详情确认 199315 为 2016 年《女生宿舍日常》，剧情为美术学院宿舍中四名女生的生活；包含第1季12集、特别篇2集及第2季12集。\n\nhttps://www.themoviedb.org/tv/199315/season/1 (api_snapshot): TMDB API 第1季实际集表为第1至12集，total_pages=1，无混入其他作品。\n\nhttps://www.themoviedb.org/tv/199315/season/0 (api_snapshot): TMDB API 特别篇季实际有2集，分别为番外01、番外02，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/199407 (api_snapshot): Bangumi 原始数据确认主体为2016-11-30开始的WEB动画，常规12集、总计14集，并列出2个特别篇“蜜汁相遇”“蜜汁合体”。\n\nhttps://www.bilibili.com/bangumi/media/md5741 (page): 官方播放条目显示2016年11月30日开播、全12话，简介与四名女大学生宿舍生活一致。\n\nhttps://ent.cctv.com/2016/11/29/ARTI4L2dqPZmyg6gPNbVezbx161129.shtml (page): 央视报道鱼肚白制作的《女生宿舍日常》是围绕大学宿舍四位女生的12集网络动画，并列出小斌斌、大圆、韦彤、师兄等角色。\n\nhttps://search.bilibili.com/all?keyword=%E5%8C%97%E5%A4%A7%E5%A5%B3%E7%94%9F%E5%AE%BF%E8%88%8D%E8%81%8A%E5%A4%A9 (search_snippet): 搜索摘要显示该系列在12集后还有番外1、番外2，与 Bangumi 总计14集及 TMDB 特别篇2集相符。\n\n备注：TMDB 第1季首播日期记录为2016-11-20，而 Bangumi及Bilibili记录为2016-11-30；这是日期记录差异，不影响作品身份判断。；TMDB 特别篇仅使用“番外01/番外02”这一通用标题，未能从 TMDB 独立核对其与 Bangumi 两个特别篇中文标题的一一对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/199407; https://www.themoviedb.org/tv/199315; https://www.themoviedb.org/tv/199315/season/1; https://www.themoviedb.org/tv/199315/season/0; https://api.bgm.tv/v0/subjects/199407; https://www.bilibili.com/bangumi/media/md5741; https://ent.cctv.com/2016/11/29/ARTI4L2dqPZmyg6gPNbVezbx161129.shtml; https://search.bilibili.com/all?keyword=%E5%8C%97%E5%A4%A7%E5%A5%B3%E7%94%9F%E5%AE%BF%E8%88%8D%E8%81%8A%E5%A4%A9",
+    "verifiedAt": "2026-09-08T20:38:50.201Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 199315,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 199315,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

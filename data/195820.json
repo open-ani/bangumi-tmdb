@@ -1,0 +1,21 @@
+{
+  "bangumiId": 195820,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 80606 与 Bangumi 主体在中文原名“东郭小节”、英文名 Dongguo Xiaojie、2016 年首播、中文网络动画媒介、剧情（半妖少女为救母寻找紫瞑珠）及腾讯相关制作信息上均吻合。TMDB 明确只有第1季且季表实际包含第1至15集，正好覆盖 Bangumi 的15集主体，因此使用完整第1季。未发现需要拆分的旧版、新版、OVA、电影、音乐录像或合集版本。\n\nhttps://www.themoviedb.org/tv/80606 (api_snapshot): TMDB 详情确认这是 TV 动画《东郭小节 / Dongguo Xiaojie》，首播于2016-12-26，剧情为东郭小节与墨子轩为救母踏上旅程；共1季15集，已完结，制作公司包括 Tencent Animation & Comics、Haoliners Animation。\n\nhttps://www.themoviedb.org/tv/80606/season/1 (api_snapshot): TMDB 第1季实际返回15集，episode_number 连续覆盖1至15，total_pages为1；第1集日期为2016-12-26，第15集日期为2017-04-03。\n\nhttps://api.bgm.tv/v0/subjects/195820 (api_snapshot): Bangumi fresh API 确认主体为 WEB 动画，2016-12-26 开始，共15集；剧情为半妖少女东郭小节与墨子轩寻找紫瞑珠，制作信息包含腾讯动漫、原作OPARON、导演/脚本等。\n\nhttps://zh.wikipedia.org/wiki/%E4%B8%9C%E9%83%AD%E5%B0%8F%E8%8A%82 (page): 作品资料将其列为网络动画，原作OPARON（观山海），2016-12-26至2017-04-03播出，共15话，网络为腾讯视频，并给出与主体一致的剧情。\n\nhttps://www.tvmaze.com/shows/24288/dongguo-xiaojie (page): 独立资料确认 Dongguo Xiaojie 为2016—2017年中国动画网络剧，共15集，并列出东郭小节Karma、Dongguo Xiaojie Karma等别名。\n\n备注：日期存在资料差异：Bangumi 主体记录结束日为2017-04-10，而TMDB季表、Wikipedia和TVmaze将第15集记为2017-04-03；这不影响15集身份和范围判断。；工作人员字段存在来源差异：Bangumi fresh 信息列出廖礼让为导演/脚本，Wikipedia列出周帆为导演，TMDB API未返回crew；该差异不影响作品身份与季集映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/195820; https://www.themoviedb.org/tv/80606; https://www.themoviedb.org/tv/80606/season/1; https://api.bgm.tv/v0/subjects/195820; https://zh.wikipedia.org/wiki/%E4%B8%9C%E9%83%AD%E5%B0%8F%E8%8A%82; https://www.tvmaze.com/shows/24288/dongguo-xiaojie",
+    "verifiedAt": "2026-09-08T20:36:19.383Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80606,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

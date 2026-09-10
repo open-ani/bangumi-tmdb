@@ -1,0 +1,23 @@
+{
+  "bangumiId": 168468,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 119251 与 Bangumi 的日文原名、首播日期、剧情、导演河村友宏及制作公司 JOKER FILMS 均一致。TMDB 将第1期至第5期合并为 season 1（共160集），其第1—32集的标题和日期逐一覆盖 Bangumi 主体的32集，且第32集于2017-02-22播出、第33集已是2017-04-05的新阶段，因此应映射为 season 1 的第1—32集，而不是整季。\n\nhttps://api.bgm.tv/v0/subjects/168468 (api_snapshot): Bangumi API 标明作品为2016-04-06开始播出的32集 TV动画，导演为河村友宏，动画制作公司为ジョーカーフィルムズ。\n\nhttps://www.themoviedb.org/tv/119251 (api_snapshot): TMDB详情确认原名为ねこねこ日本史、类型为TV、首播日期2016-04-06，剧情为猫化日本历史人物，导演为河村友宏，制作公司为JOKER FILMS；该条目共160集并将第1期至第5期合并为season 1。\n\nhttps://www.themoviedb.org/tv/119251/season/1 (api_snapshot): TMDB season 1 实际集表显示第1集至第32集的标题、日期与 Bangumi 完全对应；第32集《秀吉はサルである！》日期为2017-02-22，第33集《めざせ豊作、弥生人！》日期为2017-04-05。该季表共160集并分页为3页。\n\n备注：TMDB未将五个期数拆成独立season，因此这里使用season 1内经核实的闭区间1—32；不应将TMDB整个160集season 1视为Bangumi本主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/168468; https://api.bgm.tv/v0/subjects/168468; https://www.themoviedb.org/tv/119251; https://www.themoviedb.org/tv/119251/season/1",
+    "verifiedAt": "2026-09-08T20:15:22.405Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 32,
+      "id": 119251,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

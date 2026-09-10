@@ -1,0 +1,57 @@
+{
+  "bangumiId": 237614,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品 SpongeBob SquarePants（TMDB 387），不是电影、OVA 或其他衍生作。Bangumi 的 26 个包装集（共 50 个 segment）标题与第十一季官方包装顺序一致；但 TMDB 按播出/数据库顺序将 Spot Returns、The Check-Up、Spin the Bottle 放在第 10 季，并在第 11 季混入 Feral Friends/Don't Wake Patrick、The Incredible Shrinking Sponge、FarmerBob 等不属于该 Bangumi 包装集的条目。因此使用跨季且排除不匹配集数的闭区间。年份、Nickelodeon TV 媒介、剧情、角色、制作方及工作人员均与该作品一致。\n\nhttps://api.bgm.tv/v0/subjects/237614 (api_snapshot): Bangumi API 确认名称为 SpongeBob SquarePants (Season 11)、2017-09-23 开始、26 集，并列出 Cave Dwelling Sponge 至 The String 的主体集名。\n\nhttps://www.themoviedb.org/tv/387 (api_snapshot): TMDB 详情确认 TV 作品 SpongeBob SquarePants，始于 1999-05-01，剧情为 Bikini Bottom 的海绵宝宝及其朋友，制作公司包括 Nickelodeon Productions/Nickelodeon Animation Studio。\n\nhttps://www.themoviedb.org/tv/387/season/10 (api_snapshot): TMDB 第 10 季集表确认第 17 集 Spot Returns、第 18 集 The Check-Up、第 19 集 Sportz?、第 20 集 Spin the Bottle；Bangumi 对应范围为 17-18 与 20。\n\nhttps://www.themoviedb.org/tv/387/season/11 (api_snapshot): TMDB 第 11 季集表确认实际集号及标题；Bangumi 主体覆盖 1-4、7-15、17-47、49-51，排除 5-6、16、48。\n\nhttps://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_11 (page): 资料确认第十一季是 2017-06-24 至 2018-11-25 的 Nickelodeon 动画 TV 季，共 26 集、50 个 segments，且包装顺序包含 Bangumi 所列全部标题；列出的执行制作/主创包括 Stephen Hillenburg、Marc Ceccarelli、Vincent Waller。\n\nhttps://ir.paramount.com/static-files/170b4ac8-6bdb-4675-a560-86e5fcf957eb (page): Nickelodeon/Paramount 公告确认第十一季、Nickelodeon 制作、Stephen Hillenburg 为创作者及执行制片，Marc Ceccarelli 与 Vincent Waller 为 supervising producers，并列出 Doodle Bob、Bubble Buddy、Man Ray、Cave Sponge 等本季元素。\n\n备注：TMDB 的季号和集号按其数据库/播出排序记录，与 Nickelodeon 的 26 集包装顺序不同；因此不能使用完整第 11 季范围，只能使用上述标题核对后的区间。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/237614; https://api.bgm.tv/v0/subjects/237614; https://www.themoviedb.org/tv/387; https://www.themoviedb.org/tv/387/season/10; https://www.themoviedb.org/tv/387/season/11; https://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_11; https://ir.paramount.com/static-files/170b4ac8-6bdb-4675-a560-86e5fcf957eb",
+    "verifiedAt": "2026-09-08T21:14:56.965Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 17,
+      "episodeEnd": 18,
+      "id": 387,
+      "season": 10,
+      "type": "tv"
+    },
+    {
+      "episode": 20,
+      "id": 387,
+      "season": 10,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 387,
+      "season": 11,
+      "type": "tv"
+    },
+    {
+      "episode": 7,
+      "episodeEnd": 15,
+      "id": 387,
+      "season": 11,
+      "type": "tv"
+    },
+    {
+      "episode": 17,
+      "episodeEnd": 47,
+      "id": 387,
+      "season": 11,
+      "type": "tv"
+    },
+    {
+      "episode": 49,
+      "episodeEnd": 51,
+      "id": 387,
+      "season": 11,
+      "type": "tv"
+    }
+  ]
+}

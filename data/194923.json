@@ -1,0 +1,21 @@
+{
+  "bangumiId": 194923,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 223645 与 Bangumi 条目同名，首播日期均为 2016-11-13；TMDB 明确描述其为奥飞娱乐作品、曹东波执导、齐圆/王薇编剧，剧情与 Bangumi 完全对应。TMDB 第1季实际包含26集，集名从“奇异历险”至“公主回归”，与 subject 的26集主体一致，因此匹配整季 S1。第2季是后续独立剧情，不应并入本 subject。\n\nhttps://api.bgm.tv/v0/subjects/194923 (api_snapshot): Bangumi 原始 API 信息：TV，2016-11-13 首播，共26集；别名包含“第1季/第一季/精灵俐俐篇”，剧情为三位女孩进入彩灵堡并对抗黑咒魔王。\n\nhttps://www.themoviedb.org/tv/223645 (api_snapshot): TMDB 详情：同名 TV 作品，首播 2016-11-13；简介明确区分第一季与第二季，并给出奥飞娱乐、曹东波、齐圆、王薇等身份信息；全剧2季、每季26集。\n\nhttps://www.themoviedb.org/tv/223645/season/1 (api_snapshot): TMDB 第1季实际集表为26集，首播日为2016-11-13，集名和顺序覆盖 Bangumi 主体的第1至26集。\n\n备注：TMDB 个别分集日期与 Bangumi 归档日期存在少量差异，但集名、首播日、剧情、版本及集数范围一致，不影响本次匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/194923; https://api.bgm.tv/v0/subjects/194923; https://www.themoviedb.org/tv/223645; https://www.themoviedb.org/tv/223645/season/1",
+    "verifiedAt": "2026-09-08T20:35:06.017Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 223645,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 309551,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 1990 年日本 TV 短篇动画《ガタピシ》（Gatapishi），不是同年真人电影《ペエスケ ガタピシ物語》。TMDB 作品简介、角色（ガタピシ、平太、ペエスケ一家）、制作公司（朝日电视台／新锐动画）及系列导演笹川ひろし均与外部资料吻合；播出期为 1990-04-23 至 1991-03-29，共 199 集。TMDB 的第 1 季实际分页集表覆盖 1–199，且没有其他作品混入，因此使用整季。Bangumi 的 eps=199 与 TMDB 集数一致；其 API/归档同时显示 52 条集记录，属于集表数量不一致，但不足以推翻主体的 199 集定义。\n\nhttps://api.bgm.tv/v0/subjects/309551 (api_snapshot): Bangumi 原始 API 信息：标题为「ガタピシ」、平台为 TV，infobox 标示 1990 年 4 月、199 集；API 的 total_episodes/记录数另为 52。\n\nhttps://www.themoviedb.org/tv/241148 (api_snapshot): TMDB TV 详情：原名「ガタピシ」，首播 1990-04-23，完结 1991-03-29，共 1 季、199 集；简介描述平助、平太、ヒロコ与爱犬ガタピシ的日常，制作公司为 TV Asahi 与 Shin-Ei Animation，系列导演为笹川ひろし。\n\nhttps://www.themoviedb.org/tv/241148/season/1 (api_snapshot): TMDB 第 1 季集表分页返回 total_pages=4、episodeCount=199；第 1 页覆盖第 1–60 集，第 2 页覆盖 61–120 集，第 3 页覆盖 121–180 集，第 4 页覆盖 181–199 集。\n\nhttps://www.animatetimes.com/tag/details.php?id=28662 (page): 外部作品资料确认其为 TV 动画，播出期 1990-04-23 至 1991-03-29、全 199 话，原作《ペエスケ》、导演笹川ひろし、制作电视朝日／シンエイ動画。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=24502007&workId=24502 (page): dアニメストア资料确认相同剧情、角色与制作人员，并标示製作年 1990；其流媒体按合集方式分组，不能替代 TMDB 的 199 集编号。\n\nhttps://www.themoviedb.org/movie/526694 (api_snapshot): TMDB 另有电影《ペエスケ ガタピシ物語》（1990-05-12，片长 103 分），演员为所ジョージ等真人演员，属于独立电影版本，不应映射为本 Bangumi TV subject。\n\n备注：Bangumi 当前 API 的 total_episodes 与集记录数为 52，而 infobox eps 为 199；外部资料及 TMDB 均支持 199 个短篇集，因此本映射按完整 TV 季处理。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/309551; https://api.bgm.tv/v0/subjects/309551; https://www.themoviedb.org/tv/241148; https://www.themoviedb.org/tv/241148/season/1; https://www.animatetimes.com/tag/details.php?id=28662; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24502007&workId=24502; https://www.themoviedb.org/movie/526694",
+    "verifiedAt": "2026-09-08T22:05:16.453Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 241148,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

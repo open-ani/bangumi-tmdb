@@ -1,0 +1,21 @@
+{
+  "bangumiId": 395462,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 217356 与 Bangumi fresh API 的中文原名、别名、2022-12-31 首播日期、完整剧情和 24 集数完全对应；TMDB 标为已完结、仅 1 季，实际季表覆盖第 1 季第 1–24 集，且没有混入其他作品。Bangumi 资料中的爱奇艺、福建省子燕动漫科技有限公司、编剧钟林、总导演谢丹等制作信息，与 TMDB 的制作公司信息相符。因此应映射为 TV 第 1 季整季。\n\nhttps://api.bgm.tv/v0/subjects/395462 (api_snapshot): freshBangumi API（fetchedAt 2026-09-08）记录《赤焰锦衣卫》为 WEB 动画，2022-12-31 开始，共 24 集；剧情、制作公司、编剧及导演信息均与该版本一致。\n\nhttps://www.themoviedb.org/tv/217356 (api_snapshot): TMDB 详情确认 ID 217356 为《赤焰锦衣卫》，原名相同，首播 2022-12-31，已完结，共 1 季 24 集；别名包括 Chi Yan Jinyiwei、The Flame Imperial Guards、赤焰錦衣衛。\n\nhttps://www.themoviedb.org/tv/217356/season/1 (api_snapshot): TMDB 第 1 季实际集表为第 1–24 集，日期从 2022-12-31 至 2023-05-24，剧情与 Bangumi 主体连续对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/395462; https://api.bgm.tv/v0/subjects/395462; https://www.themoviedb.org/tv/217356; https://www.themoviedb.org/tv/217356/season/1",
+    "verifiedAt": "2026-09-08T23:31:49.117Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 217356,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

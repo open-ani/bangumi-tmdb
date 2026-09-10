@@ -1,0 +1,29 @@
+{
+  "bangumiId": 301854,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 身份确认：TMDB 57532 是《PAW Patrol》，别名包含中文“狗狗巡逻队”和日文“パウ・パトロール”，剧情、制作公司 Spin Master、年份及主角设定均与 Bangumi 主体一致。TMDB 第 5 季日期为 2018-02-06 至 2019-01-25，与 Bangumi 完全对应；其 49 条记录是把官方 26 个半小时播出单元拆成 12/23 分钟片段，因此主体正片应覆盖 S5E1–E49，而不是只取前 26 条。Bangumi 的《Mighty Pups》特别篇与 TMDB 同系列 Specials S0E1 剧情、标题和时长相符，日期差异属于地区/版本播出日期差异。TMDB 电影 552095 是同内容的电影形态，但 Bangumi 将其作为 TV 主系列特别篇，故采用 S0E1 避免重复映射。\n\nhttps://api.bgm.tv/v0/subjects/301854 (api_snapshot): Bangumi API 标明主体为 TV《PAW Patrol Season 5》，2018-02-06 开始，26 集、总计 27 条，并包含特别篇《Mighty Pups》。\n\nhttps://www.themoviedb.org/tv/57532 (api_snapshot): TMDB 详情确认 57532 为《PAW Patrol》，原名 PAW Patrol，首播 2013-08-12，剧情为 Ryder 带领救援犬队保护 Adventure Bay；别名包含中文和日文名称，制作公司包含 Spin Master。其第 5 季日期为 2018-02-06、episode_count 为 49。\n\nhttps://www.themoviedb.org/tv/57532/season/5 (api_snapshot): TMDB S5 实际返回 49 条集记录，标题和剧情覆盖 Bangumi 对应的 26 个正片播出单元，首条为 2018-02-06《Pups Save the Kitty Rescue Crew》，末两条为 2019-01-25《Pups Save Ace's Birthday》和《Pups Save a Tower of Pizza》。\n\nhttps://www.tvguide.com/tvshows/paw-patrol/episodes-season-5/1030531595/ (page): Season 5 页面标为 2018–2019、26 Episodes；Episode 1–26 是双单元或长单元，另列 Episode 0《Paw Patrol: Mighty Pups》，与 Bangumi 的 26+1 结构一致。\n\nhttps://www.themoviedb.org/tv/57532/season/0 (api_snapshot): TMDB Specials 第 1 集为《Mighty Pups》，2018-11-12，约 41 分钟，剧情为流星赋予 PAW Patrol 超能力，与 Bangumi 特别篇剧情一致。\n\nhttps://www.themoviedb.org/movie/552095 (api_snapshot): TMDB 552095 是同名《PAW Patrol: Mighty Pups》电影形态，2018-10-04、44 分钟，剧情与 TV Specials S0E1 相同；作为重复的媒介形态未单独推荐。\n\n备注：特别篇日期在 Bangumi、TMDB TV Specials 与 TMDB 电影之间不同，属于地区播出/媒介版本差异；作品身份和内容一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/301854; https://api.bgm.tv/v0/subjects/301854; https://www.themoviedb.org/tv/57532; https://www.themoviedb.org/tv/57532/season/5; https://www.tvguide.com/tvshows/paw-patrol/episodes-season-5/1030531595/; https://www.themoviedb.org/tv/57532/season/0; https://www.themoviedb.org/movie/552095",
+    "verifiedAt": "2026-09-08T21:56:43.170Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 49,
+      "id": 57532,
+      "season": 5,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 57532,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

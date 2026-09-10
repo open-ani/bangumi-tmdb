@@ -1,0 +1,21 @@
+{
+  "bangumiId": 131717,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 9537 的第2季明确名为“新あたしンち”，首播日期为2015-10-06，共26集；季表中的集名与 Bangumi 的26集逐集对应，末集日期为2016-04-05，且制作公司为 Shin-Ei Animation、ADK，与 Bangumi 资料一致。因此应映射为主系列「あたしンち」的第2季整季。TMDB 的独立条目155051虽有相同集名，但日期从2015-12-12开始、运行时长和播出日期明显不符，更像重复或错误版本，不采用。\n\nhttps://www.themoviedb.org/tv/9537 (api_snapshot): TMDB主条目原名「あたしンち」，alternative titles包含「新あたしンち」和「Shin Atashinchi」；其季表显示第2季名为「新あたしンち」、2015-10-06开始、26集。\n\nhttps://www.themoviedb.org/tv/9537/season/2 (api_snapshot): 第2季实际返回26集；第1集至第26集的标题逐项对应 Bangumi 26集，首集日期为2015-10-06，末集日期为2016-04-05。\n\nhttps://www.themoviedb.org/tv/155051 (api_snapshot): 独立条目「新あたしンち」虽然也返回26集，但条目日期为2015-12-12至2016-06-11，且与 Bangumi 的播出日期不符。\n\nhttps://www.themoviedb.org/tv/155051/season/1 (api_snapshot): 独立条目的季表集名大体相同，但使用不同播出日期和24分钟运行时长，不能优先于与 Bangumi 日期、版本结构均吻合的9537第2季。\n\n备注：TMDB同时收录了独立条目155051这一重复/不同版本记录；其具体来源未在API中说明，但它不是与 Bangumi 播出时间线最匹配的记录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/131717; https://www.themoviedb.org/tv/9537; https://www.themoviedb.org/tv/9537/season/2; https://www.themoviedb.org/tv/155051; https://www.themoviedb.org/tv/155051/season/1",
+    "verifiedAt": "2026-09-08T20:00:08.183Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 9537,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 81011,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体均为 1995 年 4 月 4 日开播的日本 TV 动画《あずきちゃん》，原名、主角野山あずさ/小笠原勇之助的剧情、导演小島正幸及 1998 年 3 月 17 日完结日期一致。TMDB 详情确认共 117 集且仅有 Season 1；该季实际分页集表覆盖第 1–117 集，与 Bangumi 主体的全 117 集及三期连续播出结构完全对应，因此使用整季映射。\n\nhttps://api.bgm.tv/v0/subjects/81011 (api_snapshot): Bangumi API：TV 动画《あずきちゃん》，1995-04-04 开播，共 117 话，导演小島正幸，分为每期 39 话的三期。\n\nhttps://www.themoviedb.org/tv/45075 (api_snapshot): TMDB 详情：原名《あずきちゃん》，1995-04-04 开播、1998-03-17 完结，共 117 集；简介包含野山あずさ与转学生小笠原勇之助；导演为小島正幸，且仅有 Season 1。\n\nhttps://www.themoviedb.org/tv/45075/season/1 (api_snapshot): TMDB Season 1 集表分页返回 total_pages=2、episodeCount=117；第 1 页覆盖第 1–60 集，第 2 页覆盖第 61–117 集，故整季覆盖主体且未混入其他作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/81011; https://api.bgm.tv/v0/subjects/81011; https://www.themoviedb.org/tv/45075; https://www.themoviedb.org/tv/45075/season/1",
+    "verifiedAt": "2026-09-08T19:17:14.434Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 45075,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

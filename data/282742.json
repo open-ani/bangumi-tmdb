@@ -1,0 +1,23 @@
+{
+  "bangumiId": 282742,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《书灵记》(121493)：首播日期均为2019-09-10，剧情、WEB动画媒介、索以文化制作及导演巷子/原作善水等信息一致。TMDB第1季前30集标题与日期逐一对应 Bangumi subject；但TMDB将第1季扩展记录为130集，因此只能映射闭区间1-30，不能使用整季。\n\nhttps://api.bgm.tv/v0/subjects/282742 (api_snapshot): Bangumi API确认本 subject 为2019-09-10开始的WEB动画，共30集，剧情为顾七绝、乐五音寻找书灵，制作方索以文化，导演巷子，原作善水。\n\nhttps://www.themoviedb.org/tv/121493 (api_snapshot): TMDB详情确认作品类型为TV，名称/原名均为《书灵记》，首播2019-09-10，剧情与Bangumi一致，制作公司为Soyep（索以文化）。\n\nhttps://www.themoviedb.org/tv/121493/season/1 (api_snapshot): TMDB第1季第1至30集的标题和播出日期与Bangumi的30集逐一对应；季表实际总数为130集并分页至3页，故仅取1-30。\n\nhttps://www.sohu.com/a/363182072_782679 (search_snippet): 索以文化相关报道称动画第一季于2019-09-10上线，2019-12-20收官，全30集。\n\nhttps://www.megamai.com/project/4195 (search_snippet): 作品资料页确认《书灵记》(2019)为动画片，30集，导演巷子，编剧善水、叶老酒，剧情与目标subject一致。\n\n备注：TMDB对该系列的季表归档与Bangumi分季方式不同：TMDB第1季包含130集，而Bangumi本 subject明确只有前30集；因此推荐的是第1季的部分集数范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/282742; https://api.bgm.tv/v0/subjects/282742; https://www.themoviedb.org/tv/121493; https://www.themoviedb.org/tv/121493/season/1; https://www.sohu.com/a/363182072_782679; https://www.megamai.com/project/4195",
+    "verifiedAt": "2026-09-08T21:42:44.109Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 30,
+      "id": 121493,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

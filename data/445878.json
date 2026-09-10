@@ -1,0 +1,21 @@
+{
+  "bangumiId": 445878,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 210042 是同一部日本 TV 短篇动画：原名、别名、手塚プロダクション及 2022 年首播信息一致；TMDB 将其分为第1季48集和第2季39集。官方页面明确第2弾从第49话开始，至第87话结束，与 Bangumi 本主体的39集及2023-05-17至2023-09-27播出范围完全对应。因此使用 TMDB 第2季整季，不需要再缩小集数范围。\n\nhttps://api.bgm.tv/v0/subjects/445878 (api_snapshot): Bangumi API：TV，2023-05-17开始，共39集；集号为全系列第49至87话；导演桑原智、动画制作手塚プロダクション。\n\nhttps://www.themoviedb.org/tv/210042 (api_snapshot): TMDB详情：原名「まめきちまめこニートの日常」，2022-10-03首播，制作公司 Tezuka Productions，共2季87集；第2季39集，开始日期2023-05-17，并列出与 Bangumi 别名一致的罗马字及英文别名。\n\nhttps://www.themoviedb.org/tv/210042/season/2 (api_snapshot): TMDB第2季实际集表共39集，season=2，episode 1-39，首集日期2023-05-17；未混入电影、OVA或其他作品。\n\nhttps://anime-mamekichimameko.jp/ (page): 官方动画页面说明2023-05-17起播出，并列出第49话至第87话；剧情为まめこ与犬猫及家人的日常，工作人员包括导演/系列构成桑原智、音乐櫻井真一、动画制作手塚プロダクション。\n\n备注：TMDB第2季API中的后续日期延伸至2024-02-07，与官方页面及Bangumi记录的2023-09-27结束日期不一致；但季数、集数、首集、官方第49-87话范围及作品身份均一致，判断为TMDB播出日期元数据问题，不影响整季映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/445878; https://api.bgm.tv/v0/subjects/445878; https://www.themoviedb.org/tv/210042; https://www.themoviedb.org/tv/210042/season/2; https://anime-mamekichimameko.jp/",
+    "verifiedAt": "2026-09-08T23:54:11.815Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 210042,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

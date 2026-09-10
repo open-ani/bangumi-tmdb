@@ -1,0 +1,23 @@
+{
+  "bangumiId": 340938,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 154330 的原名、日期（2021-12-28）、剧情和别名 Lord of Planets/Wan Yu Feng Shen 均与《万域封神》一致，媒介为中国 WEB 动画。Bangumi 条目明确为“第1季”，话数为60，并与“万域封神 第2季”分离关联。TMDB 将后续20集错误或不同版本地并入同一 S1，共显示80集，因此不能使用整季；应映射实际核实的第1至60集。\n\nhttps://api.bgm.tv/v0/subjects/340938 (api_snapshot): Bangumi API 返回标题《万域封神》、日期2021-12-28、eps=60，并标注平台WEB；当前规则化集数对象仅有52条，与话数元数据存在差异。\n\nhttps://www.themoviedb.org/tv/154330 (api_snapshot): TMDB 条目标题为《万域封神》，原名相同，日期2021-12-28；剧情完整对应云飞雪、云天罡、金龙卫等设定，并列出 Wan Yu Feng Shen、Lord of Planets 等别名。\n\nhttps://www.themoviedb.org/tv/154330/season/1 (api_snapshot): TMDB真实季表显示第1季共80集且分页；第1页覆盖1-60集，第二页覆盖61-80集。第1至60集日期从2021-12-28延续至2022-07-16。\n\nhttps://www.themoviedb.org/tv/154330/season/1 (api_snapshot): TMDB第二页真实集表明确列出61-80集，说明整季80集会混入Bangumi第二季或其他版本内容，不能整季匹配。\n\nhttps://tw.xgcartoon.com/detail/wanyufengshenguoyu-litinghe (search_snippet): 外部作品资料将该动画列为2021-12-28上线，并明确标注第1季全60话，且剧情简介和集名与TMDB前60集一致。\n\nhttps://thetvdb.com/series/414789- (search_snippet): 仅作交叉线索：外部资料将作品拆为第一季60集、第二季20集，并给出同一标题、别名和剧情；该来源非最终身份依据。\n\n备注：Bangumi fresh API 的eps字段为60，但当前regularEpisodes仅返回52条；这属于条目集表与元数据不一致，需注意不要据此缩短为1-52。；TMDB自身把80集放在season 1，且61-80的季归属与Bangumi第二季关系不一致；因此仅推荐已核实的1-60闭区间。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/340938; https://api.bgm.tv/v0/subjects/340938; https://www.themoviedb.org/tv/154330; https://www.themoviedb.org/tv/154330/season/1; https://tw.xgcartoon.com/detail/wanyufengshenguoyu-litinghe; https://thetvdb.com/series/414789-",
+    "verifiedAt": "2026-09-08T23:01:29.397Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 60,
+      "id": 154330,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "bangumiId": 127961,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi 条目是 2008—2011 年 Warner Bros. Animation 制作的《Batman: The Brave and the Bold》动画 TV 系列第二季，剧情、媒介、制作公司、日文别名和播出起始日均与 TMDB 15804 相符。Bangumi 记录 26 集；TMDB 第 2 季实际季表有 25 集，而《The Mask of Matches Malone!》被 TMDB 编入 Specials（S0E1）。因此推荐 TMDB S2E1—E25 加 S0E1，覆盖该 Bangumi 第二季的全部 26 个故事集；不使用整季匹配以避免遗漏该特殊编排的集数。\n\nhttps://api.bgm.tv/v0/subjects/127961 (api_snapshot): Bangumi 原始 API 将该条目标为 TV，播出开始于 2009-11-20，共 26 集，结束日期为 2011-04-08。\n\nhttps://www.themoviedb.org/tv/15804 (api_snapshot): TMDB 15804 的原名为 Batman: The Brave and the Bold，首播 2008-11-14，剧情为蝙蝠侠与 Blue Beetle、Green Arrow、Aquaman 等 DC 英雄组队行动；制作公司包括 Warner Bros. Animation、DC 和 DC Entertainment，并提供日文别名。\n\nhttps://www.themoviedb.org/tv/15804/season/2 (api_snapshot): TMDB S2 季表实际返回 25 集，起始日 2009-11-20，末尾为 Bat-Mite Presents: Batman's Strangest Cases! 与 The Malicious Mr. Mind!。\n\nhttps://www.themoviedb.org/tv/15804/season/0 (api_snapshot): TMDB Specials 季表的 S0E1 是 The Mask of Matches Malone!，剧情涉及 Batman、Huntress、Black Canary、Catwoman 和 Two-Face，与其他季 2 集表所指的缺失集相同。\n\nhttps://www.tvguide.com/tvshows/batman-the-brave-and-the-bold/episodes-season-2/1000136178/ (page): TV Guide 将该作品第二季列为 26 集（2009—2011），并列出 The Mask of Matches Malone!、Bat-Mite Presents: Batman's Strangest Cases! 和 The Malicious Mr. Mind!，其剧情与 TMDB 条目一致。\n\nhttps://en.wikipedia.org/wiki/Batman:_The_Brave_and_the_Bold (page): 该作品被确认是美国动画电视系列，2008 年首播；开发者为 James Tucker 与 Michael Jelenic，制作方包括 Warner Bros. Animation，且 2018 年另有独立的 Scooby-Doo 联动电影，不能混入本 TV 条目。\n\n备注：TMDB 将 The Mask of Matches Malone! 编入 Specials S0E1，而 TV Guide及 Bangumi 的季序列将其视为第二季的一集；这是目录编排差异。；TMDB S2 显示 25 集，Bangumi及其他集表显示 26 集，因此不能使用 TMDB 的整季 null 范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/127961; https://api.bgm.tv/v0/subjects/127961; https://www.themoviedb.org/tv/15804; https://www.themoviedb.org/tv/15804/season/2; https://www.themoviedb.org/tv/15804/season/0; https://www.tvguide.com/tvshows/batman-the-brave-and-the-bold/episodes-season-2/1000136178/; https://en.wikipedia.org/wiki/Batman:_The_Brave_and_the_Bold",
+    "verifiedAt": "2026-09-08T19:58:54.578Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 25,
+      "id": 15804,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 15804,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 220042,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 的日文原名、1990-10-09 首播日、石ノ森章太郎原作、福冨博导演及主演角色式亭小三马相符；TMDB 第 1 季实际包含 22 集，集名逐一对应 Bangumi 的 22 集，因此使用完整 S1。2002 年 113 分钟电影《化粧師 KEWAISHI》是另一版本，不应匹配。\n\nhttps://api.bgm.tv/v0/subjects/220042 (api_snapshot): Bangumi API 确认作品为 TV，首播 1990-10-09，共 22 集，原作背景为石ノ森章太郎同名漫画。\n\nhttps://www.themoviedb.org/tv/225790 (api_snapshot): TMDB TV 225790 原名及日文名均为「八百八町表裏 化粧師」，首播 1990-10-09，共 22 集；工作人员含石ノ森章太郎（Original Story）、福冨博（Director），制作公司为 Shin-Ei Animation。\n\nhttps://www.themoviedb.org/tv/225790/season/1 (api_snapshot): TMDB S1 季表实际返回 22 集，集名从「火焔花」至「末世化粧」与 Bangumi 22 集逐一对应，未分页遗漏。\n\nhttps://www.themoviedb.org/movie/319151 (api_snapshot): 同名相关电影《化粧師 KEWAISHI》为 2002-02-09 上映、113 分钟的独立电影，和本 TV 动画版本不同。\n\n备注：Bangumi 归档将第 17—22 集标为 TV 未放送，且部分旧日期与 TMDB 季表不同；但 Bangumi 当前主体明确为 22 集，TMDB S1 也有完全对应的 22 个集名，因此不缩减为 1—16 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220042; https://api.bgm.tv/v0/subjects/220042; https://www.themoviedb.org/tv/225790; https://www.themoviedb.org/tv/225790/season/1; https://www.themoviedb.org/movie/319151",
+    "verifiedAt": "2026-09-08T20:59:51.812Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 225790,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

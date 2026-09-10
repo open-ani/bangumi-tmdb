@@ -1,0 +1,43 @@
+{
+  "bangumiId": 31836,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目对应《Futurama》原始制作季第3季，共22集，但 TMDB 将其按播出/数据库季拆分：TMDB S3 的第4–15集（12集）、S4 的第1–3集与第6–11集（9集）、S5 第3集（1集），合计22集。标题、剧情、播出年份和集名逐一吻合；不是独立电影、OVA、音乐录像或新版作品。TMDB 主条目为 TV 615，原始标题 Futurama，简介描述 Fry 冷冻千年后在 Planet Express 的经历，演员和制作公司也与该系列一致。\n\nhttps://api.bgm.tv/v0/subjects/31836 (api_snapshot): Bangumi fresh API 标明条目为 TV《Futurama (Season 3)》，22集，日期范围为2001-01-21至2002-12-08；集名包含 Amazon Women in the Mood、Parasites Lost、The Route of All Evil 等。\n\nhttps://www.themoviedb.org/tv/615 (api_snapshot): TMDB TV 615 的原始标题为 Futurama，首播日期为1999-03-28，简介、演员、制作公司及外部ID均对应该动画系列。\n\nhttps://www.themoviedb.org/tv/615/season/3 (api_snapshot): TMDB S3 实际为15集；Bangumi 条目对应其中第4–15集，集名和剧情均逐项吻合。\n\nhttps://www.themoviedb.org/tv/615/season/4 (api_snapshot): TMDB S4 实际为12集；Bangumi 条目对应第1–3集及第6–11集，缺少第4–5、12集。\n\nhttps://www.themoviedb.org/tv/615/season/5 (api_snapshot): TMDB S5 第3集为 The Route of All Evil，与 Bangumi 第12集同名且日期为2002-12-08。\n\nhttps://futurama.fandom.com/wiki/Season_3 (search_snippet): 独立集数资料将该22集归为 Futurama 的第三制作季，并明确说明其大部分分布在播出季3、4，另有 The Route of All Evil 位于播出季5。\n\nhttps://press.hulu.com/shows/futurama/ (page): 官方 Hulu Press 页面确认 Futurama 由 Matt Groening 创作、Groening 与 David X. Cohen 开发，主演包括 Billy West、Katey Sagal、John DiMaggio 等，并由20th Television Animation制作。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/31836; https://api.bgm.tv/v0/subjects/31836; https://www.themoviedb.org/tv/615; https://www.themoviedb.org/tv/615/season/3; https://www.themoviedb.org/tv/615/season/4; https://www.themoviedb.org/tv/615/season/5; https://futurama.fandom.com/wiki/Season_3; https://press.hulu.com/shows/futurama/",
+    "verifiedAt": "2026-09-08T18:47:51.092Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "episodeEnd": 15,
+      "id": 615,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 615,
+      "season": 4,
+      "type": "tv"
+    },
+    {
+      "episode": 6,
+      "episodeEnd": 11,
+      "id": 615,
+      "season": 4,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "id": 615,
+      "season": 5,
+      "type": "tv"
+    }
+  ]
+}

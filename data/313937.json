@@ -1,0 +1,21 @@
+{
+  "bangumiId": 313937,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 83463 是《画江湖之不良人》动画主系列，原名、制作公司北京若森数字、剧情设定（唐末江湖、李星云等）与 Bangumi 主体一致；其别名明确包含 “Buliang Ren IV”。TMDB 第4季日期为 2021-04-29，剧情明确对应苗疆/十二峒篇，季表实际包含连续第1至13集，正好覆盖 Bangumi 主体的13集。因此应映射为该 TV 的第4季整季，而不是主系列裸 ID、特别篇或其他季度。\n\nhttps://api.bgm.tv/v0/subjects/313937 (api_snapshot): Bangumi API：主体名为《画江湖之不良人 第四季》，WEB动画，2021-04-29开始，共13集；剧情为李星云等人的苗疆/十二峒之旅；制作方为北京若森数字，导演及编剧等工作人员信息与该版本相符。\n\nhttps://www.themoviedb.org/tv/83463 (api_snapshot): TMDB详情：原名《画江湖之不良人》，首播日期2021-07-31以外的系列信息显示其为北京若森数字制作的长篇中国动画；剧情、角色和制作公司与 Bangumi 主体一致，别名包含“Buliang Ren IV”，并列出第4季日期2021-04-29、13集。\n\nhttps://www.themoviedb.org/tv/83463/season/4 (api_snapshot): TMDB第4季实际季表：season=4，air_date=2021-04-29，episodeCount=13，连续列出第1至第13集，末集日期为2021-07-08。\n\nhttps://bangumi.tv/subject/313937 (search_snippet): Bangumi页面搜索摘要再次显示：13集、2021-04-29开播、总导演舒奕橙、北京若森数字等制作信息。\n\nhttps://www.rocen.com.cn/ (search_snippet): 若森数字官网搜索摘要包含《画江湖之不良人》第四季定档信息，支持其为同一制作系列及2021年版本。\n\n备注：TMDB主系列详情的系列首播日期字段为2014-07-31；这是整个系列日期，不是第4季日期。第4季身份和日期由TMDB季表单独确认。；Bangumi归档中的部分单集日期与TMDB季表日期存在差异，但两者均确认第4季主体为连续13集，未造成范围歧义。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/313937; https://api.bgm.tv/v0/subjects/313937; https://www.themoviedb.org/tv/83463; https://www.themoviedb.org/tv/83463/season/4; https://bangumi.tv/subject/313937; https://www.rocen.com.cn/",
+    "verifiedAt": "2026-09-08T22:17:14.296Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 83463,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

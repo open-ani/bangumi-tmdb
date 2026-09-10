@@ -1,0 +1,23 @@
+{
+  "bangumiId": 479479,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 235893 的标题、别名《Dubu Wangu》/《Glorious Revenge of Ye Feng》、剧情、制作公司（优酷与索以）及中国 WEB 动画媒介均与 Bangumi subject 一致。TMDB 将全作错误或简化地归入第1季，但实际季表显示第41集于2024-02-09开始，第80集于2024-07-26结束，日期与 Bangumi《独步万古 第二季》的2024-02-09开播及40集主体、集数排序41—80完全对应。因此应映射为 TMDB 第1季的第41—80集，而不是整季。\n\nhttps://api.bgm.tv/v0/subjects/479479 (api_snapshot): Bangumi API 原始信息：标题为《独步万古 第二季》，2024-02-09开播，WEB动画，主体40集；剧情、导演李廷赫、优酷及索以制作信息与 TMDB 条目一致。\n\nhttps://www.themoviedb.org/tv/235893 (api_snapshot): TMDB 详情：TV作品《独步万古》，原始标题同名，2023-09-29开始，剧情与 Bangumi 相同，别名包含 Dubu Wangu、Glorious Revenge of Ye Feng，制作公司包含 Soyep 与 Youku，共130集且只有一个季目录。\n\nhttps://www.themoviedb.org/tv/235893/season/1 (api_snapshot): TMDB真实第1季集表：第41集日期为2024-02-09，第80集日期为2024-07-26，中间连续覆盖40集，正好对应 Bangumi 第二季的集数范围41—80。\n\n备注：TMDB 未把该作品单独拆出第二季，而是将全作收录为第1季；因此这里使用第1季的部分集数范围。；Bangumi infobox 的话数字段为90，但当前 API 主体集表明确为40集且排序为41—80；范围判断依据实际集表和播出日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/479479; https://api.bgm.tv/v0/subjects/479479; https://www.themoviedb.org/tv/235893; https://www.themoviedb.org/tv/235893/season/1",
+    "verifiedAt": "2026-09-09T00:06:12.897Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 41,
+      "episodeEnd": 80,
+      "id": 235893,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bangumiId": 161941,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV《纳米核心》（Nanocore/Nami Hexin），不是《纳米学院》或第三季。TMDB 的第 2 季名称为“抉择篇”，简介中的 NSP、巴德尔、石英城等剧情与 Bangumi 完全对应；制作公司均为海岸线动画。Bangumi 明确该主体是 2016-04-08 开播、WEB、10 集，因此只映射 TMDB 第 2 季第 1–10 集。TMDB 第 2 季当前错误或混入了 20 集，不能整季映射；其第 3 季另为“黄昏篇”，对应 2017 年版本。\n\nhttps://www.themoviedb.org/tv/69649 (api_snapshot): TMDB 详情确认 TV ID 69649，原名“纳米核心”，别名 Nami Hexin/Nano Core；剧情涉及 Birthigin、N.S.P. 与 NanoCore，制作公司为 Coastline Animation Studio，并列出第 2 季“抉择篇”。\n\nhttps://www.themoviedb.org/tv/69649/season/2 (api_snapshot): TMDB 第 2 季实际集表已读取；第 1–10 集为连续的抉择篇主体，后续还存在第 11–20 集，因此不能使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/161941 (api_snapshot): Bangumi API 原始信息确认主体名为“纳米核心 第二季/纳米核心 抉择篇”，2016-04-08 开播，regularEpisodeCount 为 10，制作公司为上海欣雨动画设计有限公司（海岸线动画）。\n\nhttps://bangumi.tv/subject/161941 (page): Bangumi 页面明确记载《纳米核心 抉择篇》话数 10、放送开始 2016-04-08，并列出张涵、吴酉恒、鲁俊及海岸线动画等制作信息；章节实际为全局编号 11–20。\n\nhttps://zh.wikipedia.org/wiki/%E7%BA%B3%E7%B1%B3%E6%A0%B8%E5%BF%83 (page): 作品资料确认《纳米核心》是中国大陆海岸线制作的 3D 网络动画，第二季于 2016-04-08 播出，第三季于 2017 年 8 月播出，故事均围绕元星、亚人与纳米核心展开。\n\n备注：TMDB 第 2 季详情显示 20 集且 season air_date 为 2017-04-08，与 Bangumi/外部资料确认的 2016 年 10 集存在日期和总数差异；因此仅采用前 10 集，未把 TMDB 第 11–20 集纳入映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/161941; https://www.themoviedb.org/tv/69649; https://www.themoviedb.org/tv/69649/season/2; https://api.bgm.tv/v0/subjects/161941; https://bangumi.tv/subject/161941; https://zh.wikipedia.org/wiki/%E7%BA%B3%E7%B1%B3%E6%A0%B8%E5%BF%83",
+    "verifiedAt": "2026-09-08T20:13:30.085Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 10,
+      "id": 69649,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

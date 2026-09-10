@@ -1,0 +1,23 @@
+{
+  "bangumiId": 366332,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 136029 是同一部日本短篇教育动画《ざんねんないきもの事典》，原始标题、日文别名、NHK制作背景、短篇动物生态介绍内容及配音均吻合。TMDB 将多个 Bangumi 分季合并为单一 Season 1；其第21–25集的播出日期为 2021-01-31 至 2021-02-28，标题和剧情分别对应第三期的5集，因此应映射为 TMDB S1 E21–E25，而不能使用整季。\n\nhttps://api.bgm.tv/v0/subjects/366332 (api_snapshot): Bangumi fresh API 将主体确定为 2021-01-31 开始、2021-02-28 结束、共5集的《ざんねんないきもの事典 第3期》。\n\nhttps://www.themoviedb.org/tv/136029 (api_snapshot): TMDB 详情显示作品原始标题为「ざんねんないきもの事典」，日文别名为 Zannen na Ikimono Jiten，首播 2018-08-06，简介为介绍动物意外生态的短篇动画，制作公司为 NHK Enterprises，配音含玄田哲章、日髙のり子。\n\nhttps://www.themoviedb.org/tv/136029/season/1 (api_snapshot): TMDB S1 实际共有30集；E21–E25 的日期分别为 2021-01-31、02-07、02-14、02-21、02-28，内容依次对应第三期的火烈鸟/北极熊/眼镜蛇、白脸雁/飞鱼/毛丝鼠、飞蝗/草莓、环尾狐猴/番茄/蜗牛、鲸头鹳/袋鼠等主题。\n\nhttps://fanworks.co.jp/project/zannennaikimono/ (page): 动画制作公司 Fanworks 的项目页确认这是由儿童科普书改编的短篇动画，列出第1系列10集、第2系列10集、第3系列5集；第3系列导演为青木纯，制作/著作为 NHK，动画制作公司为 Fanworks。\n\nhttps://www.video.unext.jp/title/SID0061126/c_txt=b (page): U-NEXT 将作品明确标为「ざんねんないきもの事典 第3シリーズ」，列出 ep21–ep25 共5集及与 TMDB E21–E25 一致的剧情；同时列出青木纯、羽深由理、Fanworks、NHK Enterprises 等工作人员/制作信息。\n\n备注：TMDB 将 Bangumi 的第1至第4期合并到单一 Season 1，故 TMDB 的季号与 Bangumi 分季号不一致；本推荐仅确认第三期对应 S1 E21–E25。；TMDB 详情显示整部合并条目首播年份为2018，不能将该年份误当作 Bangumi 第3期年份；第三期的2021日期由 Bangumi API及TMDB集表共同确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/366332; https://api.bgm.tv/v0/subjects/366332; https://www.themoviedb.org/tv/136029; https://www.themoviedb.org/tv/136029/season/1; https://fanworks.co.jp/project/zannennaikimono/; https://www.video.unext.jp/title/SID0061126/c_txt=b",
+    "verifiedAt": "2026-09-08T23:14:40.742Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 21,
+      "episodeEnd": 25,
+      "id": 136029,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

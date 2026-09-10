@@ -1,0 +1,23 @@
+{
+  "bangumiId": 364856,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《真武巅峰》（Peak of True Martial Arts）。Bangumi 与 TMDB 的首播日期均为 2021-12-24，剧情简介高度一致，媒介均为网络动画，制作方均包含优酷；Bangumi 记录导演张明、动画制作杭州若鸿文化创意有限公司。TMDB 第1季实际共196集，前40集的标题、日期和剧情连续对应本 Bangumi subject，且第41集已进入2023年后续内容，因此只能匹配第1季第1至40集，不能使用整季。\n\nhttps://api.bgm.tv/v0/subjects/364856 (api_snapshot): Bangumi API 记录标题《真武巅峰》、日期2021-12-24、WEB媒介、40集，以及与 TMDB 基本一致的聂枫重生及武道剧情；制作方为优酷，导演张明，动画制作杭州若鸿文化创意有限公司。\n\nhttps://www.themoviedb.org/tv/154080 (api_snapshot): TMDB 详情记录原名真武巅峰、首播日期2021-12-24、相同核心剧情、制作公司 Youku，并列出 Peak of True Martial Arts、Zhen Wu Dianfeng 等别名；该 TV 作品共1季196集。\n\nhttps://www.themoviedb.org/tv/154080/season/1 (api_snapshot): TMDB 第1季实际集表显示第1集于2021-12-24播出，第1至40集连续对应首期内容，至第40集日期为2022-05-02；第41集起为2023年后续内容，故本 subject 的必要范围是1-40集。\n\n备注：TMDB 详情未提供导演等完整 crew 记录，因此制作人员交叉核对主要依赖 Bangumi API；但作品日期、剧情、媒介、制作方及集数边界均已匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/364856; https://api.bgm.tv/v0/subjects/364856; https://www.themoviedb.org/tv/154080; https://www.themoviedb.org/tv/154080/season/1",
+    "verifiedAt": "2026-09-08T23:12:54.648Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 40,
+      "id": 154080,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

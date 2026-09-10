@@ -1,0 +1,21 @@
+{
+  "bangumiId": 183295,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认是1966年第一作《おそ松くん》，不是1988年重制版或2015年后的《おそ松さん》。TMDB 43277的原名、首播日1966-02-05、终播日1967-03-25、Studio Zero/Children's Corner制作信息及赤塚不二夫原作均与Bangumi主体吻合；其第1季实际包含完整的60个播出单元，覆盖该作品全程，因此使用整季而非部分区间。Bangumi的104话是每次播出含两段短篇及作品/重播编排下的分段计数，不能直接当作TMDB集数104。\n\nhttps://api.bgm.tv/v0/subjects/183295 (api_snapshot): Bangumi API确认：TV作品《おそ松くん》，1966-02-05开始、1967-03-25结束，104话；制作单位为チルドレンズ・コーナー、スタジオ・ゼロ，原作及剧情与六胞胎设定吻合。\n\nhttps://www.themoviedb.org/tv/43277 (api_snapshot): TMDB详情确认：原名《おそ松くん》，首播1966-02-05、终播1967-03-25，1季60集，制作公司为Studio Zero和Children's Corner，原作故事为赤塚不二夫，并收录别名Osomatsu-kun。\n\nhttps://www.themoviedb.org/tv/43277/season/1 (api_snapshot): TMDB第1季实际集表为第1至第60集，首集1966-02-05，末集1967-03-25，total_pages=1，未混入其他作品。\n\nhttps://www.themoviedb.org/tv/121372 (api_snapshot): TMDB详情显示该同名条目是1988-02-13开始、86集、Studio Pierrot制作的重制版，排除为本Bangumi主体。\n\nhttps://thetv.jp/program/0000960125/plot/ (page): 外部放送列表将1966年版列为第1至第60播出话，且每话包含两个短篇标题，解释了与Bangumi 104个分段话数的差异。\n\nhttps://www.animemorial.net/ja/episodes/25-%E3%81%8A%E3%81%9D%E6%9D%BE%E3%81%8F%E3%82%93_2 (search_snippet): 作品资料列出1966-02-05至1967-03-25的1966年版，并显示全104话/每次两段短篇的分段计数。\n\n备注：TMDB将作品建模为60个播出单元，而Bangumi记录104个短篇分段；两者无法按编号直接一一对应。若下游要求短篇分段级映射，需要另建标题/日期映射，但作品身份和整季覆盖范围已确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/183295; https://api.bgm.tv/v0/subjects/183295; https://www.themoviedb.org/tv/43277; https://www.themoviedb.org/tv/43277/season/1; https://www.themoviedb.org/tv/121372; https://thetv.jp/program/0000960125/plot/; https://www.animemorial.net/ja/episodes/25-%E3%81%8A%E3%81%9D%E6%9D%BE%E3%81%8F%E3%82%93_2",
+    "verifiedAt": "2026-09-08T20:23:01.597Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 43277,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

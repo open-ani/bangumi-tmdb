@@ -1,0 +1,21 @@
+{
+  "bangumiId": 371892,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 194481 与 Bangumi 的《インセクトランド》身份一致：原名、2022-04-04 开播日期、剧情、导演川越淳、制作公司 TMS Jinni's 均相符；TMDB 明确为已完结 TV，第一季实际包含 22 集，播至 2022-08-29，覆盖该 subject 的主体。TMDB 另有 2024 年 season 0 特別編（4 集），属于后续特别篇，不应并入本 subject。Bangumi 当前 API 仅列出 12 条 regular episode，但 infobox 标明 22 集且结束日期吻合；因此按已核实的 TMDB 第一季完整 22 集匹配，使用整季范围。\n\nhttps://www.themoviedb.org/tv/194481 (search_snippet): TMDB 搜索以日文原名、英文别名及中文名均返回 TV 194481《インセクトランド》，日期为 2022-04-04，剧情与 Bangumi 摘要一致。\n\nhttps://www.themoviedb.org/tv/194481 (api_snapshot): 详情确认原名、剧情、2022-04-04 开播、2022-08-29 完结、22 集、1 个正季、导演川越淳及制作公司 TMS Jinni's。\n\nhttps://www.themoviedb.org/tv/194481/season/1 (api_snapshot): 第一季实际集表共 22 集，日期从 2022-04-04 至 2022-08-29，total_pages=1，未混入其他作品。\n\nhttps://www.themoviedb.org/tv/194481/season/0 (api_snapshot): 另有 2024-04-26 的 season 0 特別編，共 4 集，与 2022 年主体版本区分。\n\nhttps://api.bgm.tv/v0/subjects/371892 (api_snapshot): Bangumi 原始信息确认标题、别名 Insect Land、2022-04-04 开播、22 集 infobox、NHK Eテレ、导演川越淳、TMS ジーニーズ及主体剧情。\n\n备注：Bangumi API 的 total_episodes 和当前 regular episode 列表仅显示 12，与 infobox 的 22 集不一致；但 TMDB 第一季完整集表及 Bangumi 的 22 集/结束日期均支持 22 集主体。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/371892; https://www.themoviedb.org/tv/194481; https://www.themoviedb.org/tv/194481/season/1; https://www.themoviedb.org/tv/194481/season/0; https://api.bgm.tv/v0/subjects/371892",
+    "verifiedAt": "2026-09-08T23:16:08.967Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 194481,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

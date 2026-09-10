@@ -1,0 +1,23 @@
+{
+  "bangumiId": 320222,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 122586 与 Bangumi 主体完全对应：同名、2021-04-27 首播、北京胡同小馆与厨师故事的剧情、中文动画媒介。TMDB 明确分为两季，第1季10集；其10个集名和日期逐一对应 Bangumi 的10集。因此映射为第1季1–10集，不包含第2季。\n\nhttps://api.bgm.tv/v0/subjects/320222 (api_snapshot): Bangumi API：WEB 动画《李林克的小馆儿》，2021-04-27 开播，共10集；另有独立的《李林克的小馆儿 第二季》subject。\n\nhttps://www.themoviedb.org/tv/122586 (api_snapshot): TMDB 详情确认 TV 122586 原名《李林克的小馆儿》，首播2021-04-27；简介与 Bangumi 一致，制作公司包含 bilibili 与 Delight Animation，并列出第1、2季各10集。\n\nhttps://www.themoviedb.org/tv/122586/season/1 (api_snapshot): TMDB 第1季实际季表为10集，集名和日期均与 Bangumi 1–10集逐一对应。\n\nhttps://www.themoviedb.org/tv/122586/season/2 (api_snapshot): TMDB 第2季为另一组10集，播出时间为2023-01-30至2023-03-27，未纳入本 subject。\n\n备注：TMDB 详情的 cast/crew 字段为空，无法逐人交叉核验工作人员；但标题、剧情、日期、媒介、制作公司及逐集信息均已一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/320222; https://api.bgm.tv/v0/subjects/320222; https://www.themoviedb.org/tv/122586; https://www.themoviedb.org/tv/122586/season/1; https://www.themoviedb.org/tv/122586/season/2",
+    "verifiedAt": "2026-09-08T22:38:26.301Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 10,
+      "id": 122586,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

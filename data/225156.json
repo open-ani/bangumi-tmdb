@@ -1,0 +1,21 @@
+{
+  "bangumiId": 225156,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 158367 的原题名与 Bangumi 完全一致，首播日期同为 2017-10-07；其第 1 季实际包含 12 集，播出日期从 2017-10-07 至 2017-12-23，逐集对应 Bangumi 的 12 集。因此应映射为该 TV 的第 1 季整季。Bangumi 资料确认这是电视动画、5 分钟短篇、由小学館ミュージック&デジタルエンタテイメント制作、神谷桃子导演；官方资料也明确列出“ミニストーリー（シーズン1）”。TMDB 的后续季不应并入本 subject。\n\nhttps://api.bgm.tv/v0/subjects/225156 (api_snapshot): Bangumi API 确认本作是 2017-10-07 开播的 TV 动画，共 12 集；剧情为シルバニア村角色的日常故事，导演为神谷桃子，动画制作公司为小学館ミュージック&デジタルエンタテインメント。\n\nhttps://www.themoviedb.org/tv/158367 (api_snapshot): TMDB 详情确认 ID 158367 的原题名为「シルバニアファミリー ミニストーリー」、首播日期为 2017-10-07，并单列第 1 季且标为 12 集。\n\nhttps://www.themoviedb.org/tv/158367/season/1 (api_snapshot): TMDB 第 1 季集表实际列出 12 集，集号 1–12，日期恰为 2017-10-07 至 2017-12-23；无分页遗漏。\n\nhttps://www.sylvanianfamilies.com/ja-jp/special/movie/ (search_snippet): 官方站搜索摘要明确列出「シルバニアファミリー ミニストーリー（シーズン１）」及其角色和剧情定位，支持该版本身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/225156; https://api.bgm.tv/v0/subjects/225156; https://www.themoviedb.org/tv/158367; https://www.themoviedb.org/tv/158367/season/1; https://www.sylvanianfamilies.com/ja-jp/special/movie/",
+    "verifiedAt": "2026-09-08T21:06:51.243Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 158367,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

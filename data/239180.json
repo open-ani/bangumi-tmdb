@@ -1,0 +1,23 @@
+{
+  "bangumiId": 239180,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 96117《おしりたんてい》（Oshiri Tantei / Butt Detective）。TMDB 详情的首播日为 2018-05-03，媒介为日本动画 TV，制作公司为东映动画，导演芝田浩樹；剧情、角色和制作信息与 Bangumi 及官方资料一致。TMDB Season 1 的第 1—10 集标题逐一对应 Bangumi 主体的 10 集，因此应映射为 S1E1-E10，而不是整季。该 TMDB 条目将后续大量集数也放在同一 Season 1，且详情总集数与季表集数存在不一致，所以只推荐已核实的闭区间。\n\nhttps://www.themoviedb.org/tv/96117 (api_snapshot): TMDB 详情确认 96117 为《おしりたんてい》TV，首播 2018-05-03；列出 Toei Animation、导演芝田浩樹、编剧高橋ナツコ、三瓶由布子等主要配音及别名。\n\nhttps://www.themoviedb.org/tv/96117/season/1 (api_snapshot): TMDB Season 1 实际集表第 1—10 集标题依次对应 Bangumi 的 10 集，包括第 1 集首次登场、第 4—5 集窃盗团前后篇、第 8—9 集紫夫人密码事件前后篇及第 10 集考拉登场；季表显示 total_pages=3，因此未将第一页误作整季。\n\nhttps://oshiri-tantei.com/story/story01.html (page): 官方动画网站确认第 1 集标题及剧情：屁屁侦探与助手 Brown 调查点心盗窃案，和 TMDB/Bangumi 的首集内容一致。\n\nhttps://www.poplar.co.jp/topics/44248.html (page): 原作出版社确认动画于 2018-05-03、05-04、05-05 在 NHK Eテレ连续播出前三集，并列出前三集标题及屁屁侦探与 Brown 共同破案的设定。\n\n备注：TMDB Season 1 的部分集日期与 Bangumi 日期不完全一致，例如第 8—10 集；但集标题、顺序、剧情和版本身份一致，因此不影响 S1E1-E10 的映射。；TMDB 详情显示总集数 123，而 Season 1 集表显示 131，属于 TMDB 数据内部不一致；本推荐未使用整季范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/239180; https://www.themoviedb.org/tv/96117; https://www.themoviedb.org/tv/96117/season/1; https://oshiri-tantei.com/story/story01.html; https://www.poplar.co.jp/topics/44248.html",
+    "verifiedAt": "2026-09-08T21:16:01.985Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 10,
+      "id": 96117,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

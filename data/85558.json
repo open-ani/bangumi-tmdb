@@ -1,0 +1,21 @@
+{
+  "bangumiId": 85558,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 71919 的原名、日文标题、剧情设定、2014 年开播时间及制作公司均与 Bangumi subject 一致；其第 1 季实际季表包含完整 64 集，覆盖 2014-01-03 至 2015-04-03（日本播出日期因时区相差一天），对应 Bangumi 的 2014-01-04 至 2015-04-04。该 subject 是主系列第 1 季，不应映射到后续季度或其他版本。\n\nhttps://api.bgm.tv/v0/subjects/85558 (api_snapshot): Bangumi 原始资料确认作品为 TV 动画《フューチャーカード バディファイト》，2014-01-04 开播、共 64 集，导演池田重隆，动画制作 OLM、XEBEC，剧情为未门牙王与ドラムバンカー・ドラゴン通过 Buddyfight 建立伙伴关系。\n\nhttps://www.themoviedb.org/tv/71919 (search_snippet): TMDB 搜索命中同名 TV 作品，原名为《フューチャーカード バディファイト》，日期为 2014-01-03，简介中的 2030 年超东京、Buddyfight、未门牙王和 Drumbunker Dragon 等设定与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/71919 (api_snapshot): TMDB 详情确认该 TV 作品共 6 季；第 1 季为 64 集，制作公司包含 XEBEC、OLM、Bushiroad，整体剧情与 Bangumi subject 相符。\n\nhttps://www.themoviedb.org/tv/71919/season/1 (api_snapshot): TMDB 第 1 季季表实际返回 64 集，total_pages=2；第 1 页为第 1–60 集，第 2 页为第 61–64 集，故完整覆盖 subject 的 64 集且未混入其他作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/85558; https://api.bgm.tv/v0/subjects/85558; https://www.themoviedb.org/tv/71919; https://www.themoviedb.org/tv/71919/season/1",
+    "verifiedAt": "2026-09-08T19:21:13.643Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 71919,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 208081,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 196416 与 Bangumi 标题完全一致，首播日期同为 2016-07-09，剧情均为羊狼化身侦探、悬疑推理与科普案件；TMDB 工作人员含导演 Zhikang Pu，与蒲智康相符，制作公司为 Creative Power Entertaining。详情显示该作品只有第 1 季，且季表实际完整覆盖第 1–60 集，所有集名和剧情均连续属于《羊羊小侦探》，因此使用整季而非主系列、前后季或合集。Bangumi 当前 API 顶层 eps/infobox 为 60，但 regular episode 列表仅有 52 条，属于条目集表数量不一致；官方央视检索结果及 TMDB 均确认第 53–60 集仍属本作，故按主体作品的完整 60 集映射。\n\nhttps://api.bgm.tv/v0/subjects/208081 (api_snapshot): Bangumi fresh API 标题为《喜羊羊与灰太狼之羊羊小侦探》，日期为 2016-07-09，平台为 TV，eps 为 60；同时 total_episodes/regular episode rows 为 52，存在数量不一致。\n\nhttps://www.themoviedb.org/tv/196416 (api_snapshot): TMDB 详情返回同名 TV 作品，日期为 2016-07-09，1 季、60 集、已完结；简介与 Bangumi 的侦探推理和科普案件内容一致，导演为 Zhikang Pu，制作公司为 Creative Power Entertaining。\n\nhttps://www.themoviedb.org/tv/196416/season/1 (api_snapshot): TMDB 第 1 季名称为《羊羊小侦探》，季表完整返回第 1–60 集且 total_pages=1；第 60 集名为《侦探的荣耀》，与本作公开分集资料一致。\n\nhttps://donghua.cctv.com/special/xyyyhtl/shouye/ (search_snippet): 央视官方检索结果在《喜羊羊与灰太狼之羊羊小侦探》标题下列出第 52 至第 60 集，确认后 8 集仍属于同一作品。\n\nhttps://www.tvmao.com/drama/IC1qJjI%3D (search_snippet): 作品资料检索结果给出别名 The Little Detective、2016 年、导演蒲智康及共 60 集。\n\n备注：Bangumi 当前 regular episode rows 仅有 1–52，而 eps 和外部作品资料为 60；本推荐依据作品主体及官方/ TMDB 的完整 60 集判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/208081; https://api.bgm.tv/v0/subjects/208081; https://www.themoviedb.org/tv/196416; https://www.themoviedb.org/tv/196416/season/1; https://donghua.cctv.com/special/xyyyhtl/shouye/; https://www.tvmao.com/drama/IC1qJjI%3D",
+    "verifiedAt": "2026-09-08T20:43:37.143Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 196416,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

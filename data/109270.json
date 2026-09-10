@@ -1,0 +1,21 @@
+{
+  "bangumiId": 109270,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 116082 与 Bangumi 条目在日文原名、1991-06-21 发售日期、OVA 媒介、料理题材剧情及两集结构上吻合；TMDB 第1季明确命名为 OVA，并实际收录第1、2集，完整覆盖该 subject。TMDB 的同名电影 775392 虽日期和导演相同，但被建模为93分钟电影，无法对应 Bangumi 的两个独立OVA集，因此不推荐。\n\nhttps://api.bgm.tv/v0/subjects/109270 (api_snapshot): Bangumi API确认作品名为「一本包丁満太郎」、平台为OVA、日期为1991-06-21、共2集；剧情为银平食堂三代目风味满太郎追求成为料理人的故事，导演为竹内啓雄。\n\nhttps://www.themoviedb.org/tv/116082 (api_snapshot): TMDB TV详情确认原名「一本包丁満太郎」、首播日期1991-06-21、剧情与Bangumi一致、共1季2集，并列出J.C.STAFF与Animate Film。\n\nhttps://www.themoviedb.org/tv/116082/season/1 (api_snapshot): TMDB第1季实际标为「OVA」，共2集：第1集日期1991-06-21，第2集「一本包丁満太郎2」日期1991-12-21；季表无分页遗漏。\n\nhttps://www.themoviedb.org/movie/775392 (api_snapshot): 同名TMDB电影条目日期同为1991-06-21、片长93分钟并标为电影，不能直接作为Bangumi两集OVA的集数映射。\n\n备注：TMDB TV条目的external_ids未提供TVDB或IMDb编号；但不影响基于标题、日期、剧情、媒介和实际季表的作品匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/109270; https://api.bgm.tv/v0/subjects/109270; https://www.themoviedb.org/tv/116082; https://www.themoviedb.org/tv/116082/season/1; https://www.themoviedb.org/movie/775392",
+    "verifiedAt": "2026-09-08T19:41:51.727Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 116082,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

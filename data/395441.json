@@ -1,0 +1,23 @@
+{
+  "bangumiId": 395441,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 均为《冰火魔厨》同一部中文网络动画，剧情均围绕融念冰、冰火魔法与厨艺展开。TMDB 收录为单一第1季，共156集；第53集于2022-12-03播出，正好对应 Bangumi《第二季》的开始日期，且第53至156集共104集，与 Bangumi 集数完全一致。因此应映射到 TMDB 第1季的闭区间53–156，而不是虚构 TMDB 第2季。TMDB还记录了同一制作公司、导演及2021–2024播出范围。\n\nhttps://api.bgm.tv/v0/subjects/395441 (api_snapshot): Bangumi 原始 API 信息：标题为《冰火魔厨 第二季》，平台为 WEB，开始日期为2022-12-03，共104集；简介描述融念冰继续在大陆探索。\n\nhttps://www.themoviedb.org/tv/153297 (api_snapshot): TMDB TV条目标题为《冰火魔厨》，首播2021-12-11，最终播出2024-08-10，共156集、1季；剧情描述融念冰的冰火体质、拜鬼厨为师及成为顶级魔法师的经历；制作公司包括Joicy Studio、Xuanshi Tangmen、Youku，导演为Yida Chen。\n\nhttps://www.themoviedb.org/tv/153297/season/1 (api_snapshot): TMDB第1季实际集表共156集且分3页；第52集日期为2022-11-26，第53集《公会风波》日期为2022-12-03，第156集日期为2024-08-10，故第53–156集构成连续的104集范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/395441; https://api.bgm.tv/v0/subjects/395441; https://www.themoviedb.org/tv/153297; https://www.themoviedb.org/tv/153297/season/1",
+    "verifiedAt": "2026-09-08T23:31:40.447Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 53,
+      "episodeEnd": 156,
+      "id": 153297,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

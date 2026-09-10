@@ -1,0 +1,21 @@
+{
+  "bangumiId": 343183,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目 83463 是《画江湖之不良人》动画主系列，首播于 2014 年，包含多个明确分季。其第 5 季标题为“天下棋局 新帅崛起”，2022-01-20 开播，剧情简介与 Bangumi 完全对应；季表实际包含第 1 至第 12 集，日期、标题和剧情均与 Bangumi 集表一致。因此应映射为该 TV 条目的第 5 季完整范围。Bangumi fresh API 还确认媒介为 WEB、总集数 12，以及企鹅影视/若森数字等制作信息。\n\nhttps://www.themoviedb.org/tv/83463 (api_snapshot): TMDB 主条目原名为“画江湖之不良人”，首播日期 2014-07-31，包含第 5 季；第 5 季日期为 2022-01-20、集数为 12，剧情为娆疆归来后李嗣源监国并绞杀不良人。条目制作公司为北京若森数字，外部 IMDb ID 为 tt23038608。\n\nhttps://www.themoviedb.org/tv/83463/season/5 (api_snapshot): TMDB 第 5 季实际季号为 5，标题为“天下棋局 新帅崛起”，共有 12 集，编号连续覆盖 1-12；第 1 集 2022-01-20，第 12 集 2022-03-31，逐集标题与 Bangumi 集表一致，未混入特别篇。\n\nhttps://api.bgm.tv/v0/subjects/343183 (api_snapshot): Bangumi fresh API 确认作品为《画江湖之不良人 第五季》，2022-01-20 开播，WEB 媒介，12 集；简介、集名和集日期与 TMDB 第 5 季对应，并列出企鹅影视（腾讯视频）、若森数字及相关制作人员。\n\n备注：输入中的 IMDb 线索 tt23057360 在 TMDB 查找无结果；TMDB 条目自身关联的 IMDb ID 是 tt23038608。；TMDB 详情返回的 crew 为空，制作人员信息主要由 Bangumi fresh API 提供；这不影响作品身份和季/集范围判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/343183; https://www.themoviedb.org/tv/83463; https://www.themoviedb.org/tv/83463/season/5; https://api.bgm.tv/v0/subjects/343183",
+    "verifiedAt": "2026-09-08T23:02:40.363Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 83463,
+      "season": 5,
+      "type": "tv"
+    }
+  ]
+}

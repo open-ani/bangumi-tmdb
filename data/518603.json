@@ -1,0 +1,21 @@
+{
+  "bangumiId": 518603,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB 独立条目《SPECIAL EDITED VERSION 『ONE PIECE』魚人島編》（TMDB 标题有“PIESE”拼写错误）。这是 2024 年播出的 TV 特别编辑版，将原《ONE PIECE》鱼人岛篇重新剪辑为 21 集；剧情、开播时间、作品版本和集数均与 Bangumi subject 相符。TMDB 第 1 季实际包含完整 1–21 集，因此使用整季范围。排除了 TMDB 37854：它是 1999 年起播出的原版长篇《ワンピース》，其第 15 季为原始鱼人岛篇，不能代替特别编辑版。\n\nhttps://www.themoviedb.org/tv/320463 (api_snapshot): TMDB 详情确认作品标题、2024-11-03 开播、TV 类型、1 季共 21 集、已完结。\n\nhttps://www.themoviedb.org/tv/320463/season/1 (api_snapshot): TMDB 第 1 季实际返回 21 集，episode_number 连续覆盖 1–21，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/518603 (api_snapshot): Bangumi 原始 API 确认中文名、日文别名、TV 媒介、2024-11-03 至 2025-03-30、21 集及鱼人岛篇剧情。\n\nhttps://one-piece.com/news/69138/index.html (search_snippet): 官方公告将该作品称为《SPECIAL EDITED VERSION『ONE PIECE』魚人島編》，说明其为鱼人岛篇的特别编辑版 TV 动画。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=27403 (page): 作品页标明全 21 话，并列出鱼人岛剧情、原作尾田荣一郎、系列构成丰田百香、系列导演长峯达也及东映动画/富士电视台制作。\n\nhttps://www.themoviedb.org/tv/37854 (api_snapshot): TMDB 37854 是 1999 年开始的原版长篇《ワンピース》，不是 2024 年特别编辑版。\n\n备注：TMDB 320463 的详情和季表把最后三集播出日期整体提前一周（最后日期为 2025-03-23），与 Bangumi 记录的 2025-03-16、03-23、03-30 及官方相关资料不一致；该日期元数据冲突不影响作品身份和 1–21 集范围判断。；TMDB 独立条目标题中的“PIESE”疑似拼写错误，但其日文标题、开播日期、集数和官方别名均明确指向该特别编辑版。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/518603; https://www.themoviedb.org/tv/320463; https://www.themoviedb.org/tv/320463/season/1; https://api.bgm.tv/v0/subjects/518603; https://one-piece.com/news/69138/index.html; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=27403; https://www.themoviedb.org/tv/37854",
+    "verifiedAt": "2026-09-09T00:18:14.593Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 320463,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

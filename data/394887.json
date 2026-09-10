@@ -1,0 +1,23 @@
+{
+  "bangumiId": 394887,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 208737 与 Bangumi 条目在标题、首播日期（2022-08-15）、剧情、中文网络动画媒介及爱奇艺发行版本上吻合；Bangumi 记录导演李廷赫、动画制作索以文化，TMDB 简介也对应王昊获得混沌种子并踏上修行之路。TMDB 仅列第1季且实际有300集，而该 Bangumi subject 只有140集，因此只能映射到第1季第1—140集，不能使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/394887 (api_snapshot): Bangumi fresh API：标题《万古神话》，日期2022-08-15，平台WEB，总集数140；剧情为王昊在灵气枯竭时代来到武道世界并因混沌种子踏上修行；工作人员包括导演李廷赫、动画制作索以文化，网络平台爱奇艺。\n\nhttps://www.themoviedb.org/tv/208737 (api_snapshot): TMDB details：TV作品《万古神话》，首播2022-08-15，中文原语，剧情描述王昊与混沌种子产生共鸣、重塑灵种并开启修行；别名包括Wangu Shenhua、Ancient Myth、Myth of the Ancients、Myth of Eternity；共有1季、300集。\n\nhttps://www.themoviedb.org/tv/208737/season/1 (api_snapshot): TMDB第1季实际集表分5页、共300集；第1集日期为2022-08-15，第61—120集和第121—180集连续存在，第140集为《棋差一着》、日期2023-12-04，证明第1—140集是同一连续TV季内的闭区间。\n\nhttps://www.iqiyi.com/a_x9bo7q0g1x.html (search_snippet): 爱奇艺官方作品页将《万古神话》列为2022年中国大陆动画，并给出与该条目一致的王昊、上古至宝及武道世界剧情简介。\n\n备注：TMDB details 的crew和production_companies字段为空，导演与制作公司主要由Bangumi fresh API核对；这不影响标题、日期、剧情、媒介和集数范围的身份确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/394887; https://api.bgm.tv/v0/subjects/394887; https://www.themoviedb.org/tv/208737; https://www.themoviedb.org/tv/208737/season/1; https://www.iqiyi.com/a_x9bo7q0g1x.html",
+    "verifiedAt": "2026-09-08T23:31:34.629Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 140,
+      "id": 208737,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

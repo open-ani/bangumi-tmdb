@@ -1,0 +1,23 @@
+{
+  "bangumiId": 53802,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 125525 是同一部由 MBS/Group TAC 制作、1975 年开始播出的《まんが日本昔ばなし》，不是仅凭名称匹配。其第1季实际集表显示第13集于 1976-01-03 播出，与 Bangumi 第二期完全吻合；第965集为 1995-01-02，符合该 subject 的结束日期。第1—12集属于 1975 年首期，第966集为 1995-04-01，超出第二期范围，因此只能映射为 S1 的 13–965。TMDB 的另一候选 282500 仅有 1 集、原语言为中文且无制作及外部身份信息，是不完整重复条目。\n\nhttps://api.bgm.tv/v0/subjects/53802 (api_snapshot): Bangumi subject 名称为 まんが日本昔ばなし，别名含 まんが日本昔ばなし(1976)，开始日期为 1976-01-03，结束日期为 1995-01-02，话数字段为 1446。\n\nhttps://www.themoviedb.org/tv/125525 (api_snapshot): TMDB 125525 原名为 まんが日本昔ばなし，首播日期 1975-01-07，制作公司为 MBS 与 Group TAC，共 966 集、1 个季。\n\nhttps://www.themoviedb.org/tv/125525/season/1 (api_snapshot): 实际季表第1页显示第13集日期为 1976-01-03；第1–12集日期属于 1975 年首期。\n\nhttps://www.themoviedb.org/tv/125525/season/1 (api_snapshot): 实际季表第17页显示第965集日期为 1995-01-02，第966集日期为 1995-04-01，因此第二期范围应截止于 965。\n\nhttps://www.themoviedb.org/tv/282500 (api_snapshot): TMDB 282500 虽同名且日期为 1976-01-03，但原语言为中文、仅有 1 集、无制作公司和外部 ID，不能代表该长篇动画。\n\nhttps://mangapedia.com/%E3%81%BE%E3%82%93%E3%81%8C%E6%97%A5%E6%9C%AC%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97%EF%BC%88%E7%AC%AC2%E6%9C%9F%EF%BC%89-as6fh5fil (search_snippet): 外部作品资料将该版本标为《まんが日本昔ばなし（第2期）》，制作组为 Group TAC，起始日期为 1976-01-03。\n\n备注：Bangumi 的 1446 是单个民间故事数量，而 TMDB 将同一播出时段的多个故事合并为一个电视集；因此两边的“话数”不能直接按数值一一对应，但起止播出日期与 TMDB 集号范围已核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53802; https://api.bgm.tv/v0/subjects/53802; https://www.themoviedb.org/tv/125525; https://www.themoviedb.org/tv/125525/season/1; https://www.themoviedb.org/tv/282500; https://mangapedia.com/%E3%81%BE%E3%82%93%E3%81%8C%E6%97%A5%E6%9C%AC%E6%98%94%E3%81%B0%E3%81%AA%E3%81%97%EF%BC%88%E7%AC%AC2%E6%9C%9F%EF%BC%89-as6fh5fil",
+    "verifiedAt": "2026-09-08T19:03:33.215Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "episodeEnd": 965,
+      "id": 125525,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

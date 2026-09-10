@@ -1,0 +1,23 @@
+{
+  "bangumiId": 403696,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV《少年歌行》(85219)第3季《海外仙山篇》：TMDB 别名明确标注为 season 3，首播日期 2023-10-25，剧情与 Bangumi 完全一致，且制作公司 CG Year 对应中影年年。Bangumi 记录为动画 WEB、26集、导演李萌；TMDB 第3季实际有1–26集正片及第27集“剧情精编”，因此只映射1–26集，排除合集。另一个同名条目216943是2022年真人剧，已排除。\n\nhttps://api.bgm.tv/v0/subjects/403696 (api_snapshot): Bangumi API确认：2023-10-25开播、动画WEB、26集，导演李萌，制作方含中影年年，剧情为雷家堡一战后众人为救萧瑟前往海外仙山。\n\nhttps://www.themoviedb.org/tv/85219 (api_snapshot): TMDB详情确认：TV条目85219，首播2018-12-26，剧情对应少年歌行动画；替代标题明确列出“少年歌行 海外仙山篇”为season 3，系列共4季。\n\nhttps://www.themoviedb.org/tv/85219/season/3 (api_snapshot): TMDB第3季名称为海外仙山篇，首播2023-10-25，实际列出第1至26集正片及第27集“剧情精编”（整部海外仙山整合）。\n\nhttps://www.bilibili.com/bangumi/play/ep780290 (search_snippet): 官方哔哩哔哩页面将该作品标为已完结、全26话，并使用相同剧情简介。\n\n备注：TMDB第7、8集标题与Bangumi旧集表中的标题存在差异，但播出日期、季名、总集数及正片范围一致，不影响映射结论。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/403696; https://api.bgm.tv/v0/subjects/403696; https://www.themoviedb.org/tv/85219; https://www.themoviedb.org/tv/85219/season/3; https://www.bilibili.com/bangumi/play/ep780290",
+    "verifiedAt": "2026-09-08T23:35:01.507Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 26,
+      "id": 85219,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

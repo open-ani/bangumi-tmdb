@@ -1,0 +1,21 @@
+{
+  "bangumiId": 67805,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 275241 的原名、开播日（2009-10-10）、剧情、电视动画媒介与《ご姉弟物語》完全对应；官方制作方资料确认该作为2009年10月至2010年6月播出的全32话动画，剧情与 Bangumi 一致。TMDB 第1季实际集表完整列出第1至32集，且未混入其他作品，因此采用整季映射。TMDB 顶层聚合字段存在集数和末播日期异常，但实际季表及官方资料均确认32集。\n\nhttps://www.themoviedb.org/tv/275241 (api_snapshot): TMDB 详情确认作品类型为TV、原名为ご姉弟物語、首播日期为2009-10-10，并列出第1季共32集。\n\nhttps://www.themoviedb.org/tv/275241/season/1 (api_snapshot): TMDB第1季实际集表完整覆盖第1至第32集，集名和首集日期与该动画相符。\n\nhttps://shin-ei-animation.jp/50th/works/91.html (page): 新锐动画官方作品页确认该作于2009年10月至2010年6月播出、全32话，剧情为双胞胎姐弟与东京下町居民的日常交流，并注明电视朝日、新锐动画、ADK。\n\nhttps://api.bgm.tv/v0/subjects/67805 (api_snapshot): Bangumi API确认2009-10-10首播、TV媒介、32集、原作安達哲、监督やすみ哲夫、角色设计関修一及制作电视朝日/ADK/シンエイ動画。\n\n备注：TMDB详情顶层的number_of_episodes和last_air_date与实际第1季集表及官方资料不一致；映射范围依据完整季表和官方全32话资料确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/67805; https://www.themoviedb.org/tv/275241; https://www.themoviedb.org/tv/275241/season/1; https://shin-ei-animation.jp/50th/works/91.html; https://api.bgm.tv/v0/subjects/67805",
+    "verifiedAt": "2026-09-08T19:07:37.005Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 275241,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bangumiId": 529235,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 的《おしりたんてい》TV 条目 96117 与 Bangumi 主体同为日本、原作トロル、东映动画制作的剧情动画。其第1季实际集表中的第79—93集标题、剧情与 Bangumi 第7系列的15集逐一对应；官方资料确认第87—93集于2023年10月7日至11月18日播出，属于第7系列的分割播出部分。TMDB 将整个长期系列合并为第1季，因此必须使用 S1 的79—93集范围，不能使用整季。\n\nhttps://api.bgm.tv/v0/subjects/529235 (api_snapshot): Bangumi API 确认主体为 TV《おしりたんてい 第7シリーズ》，首播2023-04-08，共15集，集标题覆盖タコールラリー至さいごのじょうきゃく。\n\nhttps://www.themoviedb.org/tv/96117 (api_snapshot): TMDB details 确认96117为日文原名《おしりたんてい》的TV作品，首播2018-05-03，制作公司为Toei Animation，工作人员包括导演芝田浩樹、编剧高橋ナツコ，并提供单一第1季。\n\nhttps://www.themoviedb.org/tv/96117/season/1 (api_snapshot): TMDB season API 的第1季集表共131集并分页返回；第79—93集标题与 Bangumi 第7系列15集逐一匹配，包含2023年4—5月的79—86集及后续87—93集。\n\nhttps://oshiri-tantei.com/news/2023092101.html (page): 官方页面列出第87—93话的新作播出安排：2023-10-07至2023-11-18，标题与 Bangumi 第7系列后7集及TMDB第87—93集一致。\n\nhttps://oshiri-tantei.com/news/2023111801.html (page): 官方于2023-11-18宣布下一轮新系列于2024年4月开始，支持第7系列在2023-11-18结束。\n\n备注：TMDB details 的 number_of_episodes 与 season API 的 episodeCount 不一致，且TMDB把第87—93集日期记录为2024年；官方资料和Bangumi均显示这些集属于2023年第7系列，因此这里以标题、剧情和官方播出安排确定范围，保留日期元数据差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/529235; https://api.bgm.tv/v0/subjects/529235; https://www.themoviedb.org/tv/96117; https://www.themoviedb.org/tv/96117/season/1; https://oshiri-tantei.com/news/2023092101.html; https://oshiri-tantei.com/news/2023111801.html",
+    "verifiedAt": "2026-09-09T00:22:06.294Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 79,
+      "episodeEnd": 93,
+      "id": 96117,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

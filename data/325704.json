@@ -1,0 +1,21 @@
+{
+  "bangumiId": 325704,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 79732 与 Bangumi 条目的作品身份一致：原名为 She-Ra and the Princesses of Power，首播始于 2018-11-13，简介中的 Adora、She-Ra、Catra、Horde 与 subject 剧情吻合；制作公司包含 DreamWorks Animation Television，媒介为完整 TV 系列。TMDB 明确列出第 4 季于 2019-11-05 播出、共 13 集，季表实际覆盖第 1 至第 13 集，且与 Bangumi subject 的 13 集和日期一致，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/79732 (api_snapshot): TMDB 详情确认作品标题、2018-11-13 首播、剧情、DreamWorks Animation Television 制作、5 季共 52 集，并列出第 4 季为 13 集、日期 2019-11-05。\n\nhttps://www.themoviedb.org/tv/79732/season/4 (api_snapshot): TMDB 第 4 季实际集表确认 Season 4 于 2019-11-05 发布，共 13 集，编号连续覆盖 1-13；各集剧情属于 She-Ra 主线。\n\nhttps://api.bgm.tv/v0/subjects/325704 (api_snapshot): Bangumi 原始 API 确认 subject 名称为 She-Ra and the Princesses of Power: Season 4，日期为 2019-11-05，共 13 集，制作公司为 DreamWorks Animation Television / Mattel Creations。\n\n备注：TMDB 详情快照的 crew 数组为空，因此无法进一步核对完整工作人员名单；但制作公司、标题、剧情、日期、季数和集数均已对上。；Bangumi 提供的 IMDb 外部提示为 tt10738826，而 TMDB 详情中的 IMDb ID 为 tt7745956；该外部提示未被用于认定身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/325704; https://www.themoviedb.org/tv/79732; https://www.themoviedb.org/tv/79732/season/4; https://api.bgm.tv/v0/subjects/325704",
+    "verifiedAt": "2026-09-08T22:45:08.480Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 79732,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bangumiId": 497026,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 218642 的原名、剧情、中文动画媒介、优酷/玄机制作背景及沈乐平、金蕾等制作人员与该 Bangumi 作品一致。TMDB 将不同中文季合并为同一 TV 的第1季；其第40集于2024-06-06播出，第91集于2025-05-29播出，逐集标题和日期均与该 Bangumi 年番的52集对应。因此应映射为 TMDB S1 E40-E91，而不是整季。\n\nhttps://api.bgm.tv/v0/subjects/497026 (api_snapshot): Bangumi API 标明该条目为 WEB 动画，2024-06-06开始，共52集，剧情为李长寿重生于封神大战前并成为炼气士。\n\nhttps://www.themoviedb.org/tv/218642 (api_snapshot): TMDB 详情显示原名为《师兄啊师兄》，首播2023-01-19，剧情与 Bangumi 完全一致，原语言为中文，制作公司包含 Sparkly Key Animation Studio、Youku，工作人员包括沈乐平和金蕾。\n\nhttps://www.themoviedb.org/tv/218642/season/1 (api_snapshot): TMDB S1 实际有169集且分页为3页；第40集标题为“陆压秘会四海龙王，龙族反复横跳？”，日期为2024-06-06；第91集标题为“云霄巧计敲打长寿？水神喜提太白金星”，日期为2025-05-29，中间连续覆盖52集。\n\nhttps://news.sina.com.cn/sx/2024-06-04/detail-inaxpvrc6864889.shtml (page): 优酷相关报道确认《师兄啊师兄》第三季升级为年番，于2024-06-06开播并承接第二季，制作由玄机科技参与。\n\nhttps://bkso.baidu.com/item/%E5%B8%88%E5%85%84%E5%95%8A%E5%B8%88%E5%85%84/61481452?fromModule=lemma_inlink (page): 作品资料将第一季列为1-13集、第二季列为14-39集，年番部分覆盖40-91集，并列出优酷、玄机科技、导演金蕾及总编剧沈乐平。\n\n备注：TMDB 没有单独建立 Bangumi 所称的第三季/年番条目，而是把全系列置于 TV 218642 的 S1；因此使用经过季表核实的部分范围 E40-E91。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/497026; https://api.bgm.tv/v0/subjects/497026; https://www.themoviedb.org/tv/218642; https://www.themoviedb.org/tv/218642/season/1; https://news.sina.com.cn/sx/2024-06-04/detail-inaxpvrc6864889.shtml; https://bkso.baidu.com/item/%E5%B8%88%E5%85%84%E5%95%8A%E5%B8%88%E5%85%84/61481452?fromModule=lemma_inlink",
+    "verifiedAt": "2026-09-09T00:11:09.460Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 40,
+      "episodeEnd": 91,
+      "id": 218642,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

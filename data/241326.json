@@ -1,0 +1,21 @@
+{
+  "bangumiId": 241326,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB 61593 是 2014 年开播的同名 Adult Swim 动画《Mr. Pickles》，剧情、配音阵容和制作公司均相符。其实际第 3 季始于 2018-02-25，共 10 集；集名及播出日期与 Bangumi 前 10 话逐一对应，至 2018-03-25 的季终集结束，因此应映射整个 TMDB 第 3 季。Bangumi 多出的第 11 话“April Fool's Mr. Pickle's”不在 TMDB 季表中，外部节目表也将该季列为 10 集，应视为 Bangumi 的错误附加记录，而不是扩大映射范围。\n\nhttps://api.bgm.tv/v0/subjects/241326 (api_snapshot): 2026-09-09 获取的 Bangumi API 信息将该条目标为《Mr. Pickles Season 3》，TV 动画，2018-02-25 开始播放。\n\nhttps://www.themoviedb.org/tv/61593 (api_snapshot): TMDB 详情显示原名为《Mr. Pickles》，2014-09-21 开播，共 4 季31集；简介为 Goodman 一家与具有秘密撒旦倾向的宠物犬 Mr. Pickles，配音包括 Dave Stewart、Kaitlyn Robrock、Brooke Shields 等。\n\nhttps://www.themoviedb.org/tv/61593/season/3 (api_snapshot): TMDB 第3季实际季表共有10集，首播日为2018-02-25；Brain Download、Momma's Boy、S.H.O.E.S.、Telemarketers Are the Devil、Gorzoth、Tommy Goes to School、Sheriffs、Bullies、Tommy's Cartoon、Season 3 Finale 的顺序和日期与 Bangumi 前10话吻合。\n\nhttps://www.tvguide.com/tvshows/mr-pickles/episodes-season-3/1000498259/ (search_snippet): 搜索摘要所示 TV Guide 第3季节目表同样列出10集，最后一集 Finale 于2018-03-25播出。\n\n备注：Bangumi 所列2018-04-01的第11话“April Fool's Mr. Pickle's”没有对应的 TMDB 季集记录，也未被核实为独立剧情动画；本次不映射该记录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/241326; https://api.bgm.tv/v0/subjects/241326; https://www.themoviedb.org/tv/61593; https://www.themoviedb.org/tv/61593/season/3; https://www.tvguide.com/tvshows/mr-pickles/episodes-season-3/1000498259/",
+    "verifiedAt": "2026-09-09T01:49:05.427Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 61593,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

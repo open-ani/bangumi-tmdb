@@ -1,0 +1,21 @@
+{
+  "bangumiId": 87236,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品为《The Simpsons》主系列（TMDB ID 456）的第15季，而不是电影、OVA、特别篇或其他版本。TMDB 详情显示原名 The Simpsons、媒介为 TV、剧情为辛普森一家在 Springfield 的日常讽刺喜剧，制作公司包括 Gracie Films 和 20th Television；第15季表显示播出时间为 2003-11-02 至 2004-05-23，共22集且 total_pages=1。TMDB第15季的22个标题和日期从 Treehouse of Horror XIV 至 Fraudcast News 与 Bangumi逐集顺序完全对应，因此可使用整季范围。外部资料亦确认这是2003—2004年的美国动画情景喜剧第15季，showrunner/executive producer为 Al Jean，制作公司为 Gracie Films 与 20th Century Fox Television。\n\nhttps://api.bgm.tv/v0/subjects/87236 (api_snapshot): Bangumi fresh API 将主体标为 TV，日期为2003-11-02，共22集；逐集标题和日期覆盖第15季完整播出范围。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB详情确认 ID 456 是 The Simpsons TV 主系列，首播日期1989-12-17，剧情、主要配音阵容及制作公司与该系列身份一致。\n\nhttps://www.themoviedb.org/tv/456/season/15 (api_snapshot): TMDB第15季实际季表为22集、total_pages=1，日期为2003-11-02至2004-05-23，逐集标题与Bangumi的22集完全匹配。\n\nhttps://en.wikipedia.org/wiki/The_Simpsons_season_15 (page): 资料确认第15季为美国动画情景喜剧，播出期为2003-11-02至2004-05-23，共22集；showrunner为Al Jean，制作公司为Gracie Films和20th Century Fox Television。\n\nhttps://www.simpsonsarchive.com/episodeguide/season15.html (page): 独立剧集指南确认 Season Fifteen（2003-2004）共22集，executive producer为Al Jean，并列出与TMDB/Bangumi一致的播出顺序。\n\n备注：TMDB系列详情的crew数组为空，逐集导演/编剧信息未从TMDB API返回；但作品身份、季别、制作公司、showrunner及完整集数范围已由其他资料交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/87236; https://api.bgm.tv/v0/subjects/87236; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/15; https://en.wikipedia.org/wiki/The_Simpsons_season_15; https://www.simpsonsarchive.com/episodeguide/season15.html",
+    "verifiedAt": "2026-09-08T19:22:30.919Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 456,
+      "season": 15,
+      "type": "tv"
+    }
+  ]
+}

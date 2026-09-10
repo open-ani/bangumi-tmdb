@@ -1,0 +1,28 @@
+{
+  "bangumiId": 35848,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与《MUSASHI -GUN道-》身份一致：原名、2006-04-09 开播日、ACC 制作、丰臣幕府与妖怪“アヤカシ”的剧情均吻合。TMDB 第1季实际包含26集剧情动画；Bangumi 的30集还包含4集总集篇，分别对应 TMDB 特别篇第0季1-4集，因此需分两个目标覆盖完整 subject。\n\nhttps://api.bgm.tv/v0/subjects/35848 (api_snapshot): Bangumi subject 标题为 MUSASHI -GUN道-，2006-04-09 开播，共30集；资料注明全26话+总集编4话，制作公司为 ACCプロダクション。\n\nhttps://www.themoviedb.org/tv/26768 (api_snapshot): TMDB 搜索及详情均返回 MUSASHI -GUN道-，首播日期2006-04-09；简介描述丰臣幕府、アヤカシ及使用“ガン道”的宫本武藏；制作公司为 ACC Production Studio。\n\nhttps://www.themoviedb.org/tv/26768/season/1 (api_snapshot): TMDB 第1季实际集表为26集，日期覆盖2006-04-09至2006-10-08，内容为连续剧情集。\n\nhttps://www.themoviedb.org/tv/26768/season/0 (api_snapshot): TMDB 特别篇第0季实际有4集，均标为总集编，日期为2006-06-25、2006-10-15、2006-10-22、2006-10-29。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/35848; https://api.bgm.tv/v0/subjects/35848; https://www.themoviedb.org/tv/26768; https://www.themoviedb.org/tv/26768/season/1; https://www.themoviedb.org/tv/26768/season/0",
+    "verifiedAt": "2026-09-08T18:48:42.456Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 26768,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 26768,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

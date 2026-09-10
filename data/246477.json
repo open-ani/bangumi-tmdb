@@ -1,0 +1,23 @@
+{
+  "bangumiId": 246477,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 母系列《斗破苍穹》(79481) 的特别篇季（Season 0），不是主系列第二季或电影。TMDB alternative_titles 明确收录“斗破苍穹特别篇2沙之澜歌”，剧情、2019-04-14 至 2019-04-28 日期及海波东/失忆蛇女/蛇族追杀设定均与 Bangumi 一致。TMDB Season 0 中第 3–5 集分别为特别篇2的“海市蜃楼”“怒海狂沙”“沙之澜歌”；该季还混有特别篇1、3、4及总集篇，因此必须使用闭区间 3–5。官方 WeTV 也标为 2019 年、全 3 集。制作信息方面，Bangumi fresh API 记录导演赵丙乐、动画制作幻维数码、阅文集团/腾讯视频等，与该动画版本吻合。\n\nhttps://www.themoviedb.org/tv/79481 (api_snapshot): TMDB 详情确认原名《斗破苍穹》、中国动画 TV 系列、剧情与发行顺序，并在 alternative_titles 中明确列出“斗破苍穹特别篇2沙之澜歌”。\n\nhttps://www.themoviedb.org/tv/79481/season/0 (api_snapshot): TMDB Season 0 实际集表显示第3–5集属于“特别篇2（沙之澜歌）”，标题、日期和剧情均对应 Bangumi 的3集主体；同季还包含其他特别篇，故不能整季匹配。\n\nhttps://api.bgm.tv/v0/subjects/246477 (api_snapshot): Bangumi fresh API 确认主体为2019-04-14起播、共3集，剧情围绕海波东、失忆蛇女和蛇族，并记录赵丙乐、幻维数码、阅文集团及腾讯视频等制作信息。\n\nhttps://wetv.vip/zh-cn/play/822hnpb0zgwl1uy (page): 官方 WeTV 页面标示《斗破苍穹 特别篇2 沙之澜歌》为2019年内地动画、全3集，简介与海波东寻找失忆蛇女的剧情一致。\n\n备注：TMDB 的 crew 字段主要是母系列层级，未单独拆出特别篇2的完整制作人员；但作品身份、版本和必要集数范围已由 TMDB 集表、Bangumi fresh API 与官方 WeTV 页面共同确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/246477; https://www.themoviedb.org/tv/79481; https://www.themoviedb.org/tv/79481/season/0; https://api.bgm.tv/v0/subjects/246477; https://wetv.vip/zh-cn/play/822hnpb0zgwl1uy",
+    "verifiedAt": "2026-09-08T21:21:30.330Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 3,
+      "episodeEnd": 5,
+      "id": 79481,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

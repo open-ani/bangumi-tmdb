@@ -1,0 +1,32 @@
+{
+  "bangumiId": 219986,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是 Futurama 第5季的16集电视剪辑版：四部直发行电影各拆为4集，依次对应第1–4、5–8、9–12、13–16集。因此应映射到四个独立 movie，而不是 TMDB TV 615 的 Season 5。TMDB TV 615 的 Season 5 虽有16集，但实际是2002–2003年的 Crimes of the Hot、Jurassic Bark 等常规单集，与本 subject 的分段标题、2008–2009播出范围不符。四部电影均已读取 TMDB 详情，年份、剧情、核心配音阵容和导演均与 Futurama 版本一致；Bangumi 页面也明确关联这四部作品。\n\nhttps://bgm.tv/subject/219986 (page): Bangumi 将条目标为 Futurama (Season 5)，16话，播出时间为2008-03-23至2009-08-30，并关联 Bender's Big Score、The Beast with a Billion Backs、Bender's Game、Into the Wild Green Yonder。\n\nhttps://www.themoviedb.org/tv/615 (api_snapshot): TMDB TV 615 Futurama 的 Season 5 为16集，季日期为2002-11-10，季表实际包含 Crimes of the Hot、Jurassic Bark、The Devil's Hands Are Idle Playthings 等2002–2003常规单集；其系列核心角色为 Fry、Leela、Bender。\n\nhttps://www.themoviedb.org/movie/7249 (api_snapshot): TMDB movie 7249：Futurama: Bender's Big Score，2007-11-27，89分钟；剧情、核心配音 Billy West/Katey Sagal/John DiMaggio 和导演 Dwayne Carey-Hill 与该版本吻合。\n\nhttps://www.themoviedb.org/movie/12889 (api_snapshot): TMDB movie 12889：Futurama: The Beast with a Billion Backs，2008-06-24，90分钟；剧情、核心配音阵容和导演 Peter Avanzino与该版本吻合。\n\nhttps://www.themoviedb.org/movie/13253 (api_snapshot): TMDB movie 13253：Futurama: Bender's Game，2008-11-03，88分钟；剧情、核心配音阵容和导演 Dwayne Carey-Hill 与该版本吻合。\n\nhttps://www.themoviedb.org/movie/15060 (api_snapshot): TMDB movie 15060：Futurama: Into the Wild Green Yonder，2009-02-06，90分钟；剧情、核心配音阵容和导演 Peter Avanzino 与该版本吻合。\n\nhttps://en.wikipedia.org/wiki/Futurama_season_5 (search_snippet): 资料说明第五季由四部直发行电影的电视剪辑组成，每部拆为四集，共16集；这与 Bangumi 的分段顺序和集数完全对应。\n\nhttps://ir.paramount.com/static-files/70bc4c84-fbb6-435c-b755-5116b6b4e99c (page): Comedy Central/20th Century Fox 的官方新闻稿列出这四部 extended-length Futurama adventures，并确认其制作方、系列创作者 Matt Groening 与 David X. Cohen。\n\n备注：TMDB 主系列 Season 5 的编号体系与 Bangumi/制作季体系不同；本映射采用四部电影实体，未将其误配为 TMDB TV 615 Season 5。；Bangumi 的16个分段是电视剪辑版本，电影实体可能包含少量剪辑或片头片尾差异，但主体作品身份和四段分组已确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/219986; https://www.themoviedb.org/tv/615; https://www.themoviedb.org/movie/7249; https://www.themoviedb.org/movie/12889; https://www.themoviedb.org/movie/13253; https://www.themoviedb.org/movie/15060; https://en.wikipedia.org/wiki/Futurama_season_5; https://ir.paramount.com/static-files/70bc4c84-fbb6-435c-b755-5116b6b4e99c",
+    "verifiedAt": "2026-09-08T20:57:58.455Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 7249,
+      "type": "movie"
+    },
+    {
+      "id": 12889,
+      "type": "movie"
+    },
+    {
+      "id": 13253,
+      "type": "movie"
+    },
+    {
+      "id": 15060,
+      "type": "movie"
+    }
+  ]
+}

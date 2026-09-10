@@ -1,0 +1,23 @@
+{
+  "bangumiId": 180284,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 104232 与 Bangumi 的日文原名完全一致，均为福岛GAINAX制作的战国历史宣传动画，剧情、制作方及主要声优相符。TMDB S1实际有6集；Bangumi主体仅包含2016-04至2017-02公开的前4集，且第3、4集日期与TMDB完全对应，因此应映射为S1第1–4集的闭区间，而不是整季。第5、6集是之后制作的续篇，不属于当前Bangumi主体集表。\n\nhttps://www.themoviedb.org/tv/104232 (api_snapshot): TMDB搜索日文原名、英文别名及缩短标题均返回TV 104232《政宗ダテニクル》。\n\nhttps://www.themoviedb.org/tv/104232 (api_snapshot): TMDB详情确认原名、日文媒介、福岛GAINAX制作、1季共6集及主要声优；作品最终播出至2018-03-30。\n\nhttps://www.themoviedb.org/tv/104232/season/1 (api_snapshot): S1集表为第1至第6集；第3集日期2016-11-07、第4集日期2017-02-10，与Bangumi第3、4集一致，第5、6集分别为2017-11-01和2018-03-30。\n\nhttps://www.furusato-tax.jp/gcf/223 (page): 伊达市与福岛GAINAX共同制作该动画；页面说明当时已有第1至第5话，并将第6话作为后续制作项目，确认后两集属于同一作品的后续篇章。\n\nhttps://www.date-shi.jp/datenikuru/information (search_snippet): 官方作品介绍的剧情、伊达政宗与历代当主设定及福岛GAINAX制作信息与Bangumi简介一致。\n\nhttps://api.bgm.tv/v0/subjects/180284 (api_snapshot): Bangumi fresh API确认主体为WEB动画，共4集，日期截至2017-02-10。\n\n备注：TMDB第1集日期为2016-02-05，与Bangumi主体日期2016-04-24及第1集2016-05-02不一致，可能是上映、登记或配信日期差异；但不影响标题、制作方、剧情及后续集数顺序的身份匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/180284; https://www.themoviedb.org/tv/104232; https://www.themoviedb.org/tv/104232/season/1; https://www.furusato-tax.jp/gcf/223; https://www.date-shi.jp/datenikuru/information; https://api.bgm.tv/v0/subjects/180284",
+    "verifiedAt": "2026-09-08T20:21:49.133Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 104232,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

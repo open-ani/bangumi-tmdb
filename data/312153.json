@@ -1,0 +1,21 @@
+{
+  "bangumiId": 312153,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: Bangumi 条目是玄蚂动画制作、2020 年发布的单话 WEB 公益剧情动画，内容为中国医护人员及火神山、雷神山战甲对抗新冠怪兽。TMDB 297369 不仅原名相同，中文简介也明确为“中国超级英雄大战新冠怪兽”的抗疫动画，可排除同名真人电影等作品。其详情记录仅有 1 季、1 集；实际读取的第 1 季表也只有《战疫英雄》这一条，剧情摘要一致，没有混入其他作品，因此可映射整个第 1 季。\n\nhttps://api.bgm.tv/v0/subjects/312153 (api_snapshot): 2026-09-09 获取的 Bangumi API 信息将本作列为 1 话 WEB 动画，日期为 2020-07-31，动画制作为玄蚂动画；简介描述医护人员、火神山和雷神山战甲共同击败新冠怪兽。\n\nhttps://bgm.tv/subject/312153 (page): Bangumi 页面确认媒介为 WEB、话数为 1、放送开始为 2020-07-31、动画制作为玄蚂动画，并给出完整的抗击新冠怪兽剧情。\n\nhttps://www.themoviedb.org/tv/297369 (api_snapshot): TMDB 详情实际读取结果：原名及名称均为《战疫英雄》，原始语言为中文，简介为“超热血抗疫动画《战疫英雄》，中国超级英雄大战新冠怪兽！”，共 1 季、1 集。\n\nhttps://www.themoviedb.org/tv/297369/season/1 (api_snapshot): TMDB 第 1 季实际季表 total_pages=1、episodeCount=1；唯一记录名称为《战疫英雄》，中文简介同样说明中国超级英雄大战新冠怪兽，故整季没有夹带其他作品。\n\nhttps://www.youtube.com/watch?v=C2ylEFAx9UI (search_snippet): 搜索摘要显示该视频由“玄蚂动画 官方频道”发布，标题为《战疫英雄》热血抗疫动画、中国超级英雄大战新冠怪兽，与 Bangumi 的制作方和剧情身份一致。\n\n备注：TMDB 将唯一一条季表记录标成 episode_number=2，虽然该季及全剧的总集数均为 1；这是 TMDB 内部编号异常，因此采用覆盖唯一记录的整季映射，不按该编号推断 Bangumi 集序。；日期元数据存在明显偏差：Bangumi 为 2020-07-31，玄蚂动画在哔哩哔哩的可检索上传为 2020-10-01，而 TMDB 唯一记录写作 2022-08-01。精确的首次公开日期仍有疑点，但相同制作方、媒介、唯一集数和高度特异的剧情描述足以确认作品身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312153; https://api.bgm.tv/v0/subjects/312153; https://www.themoviedb.org/tv/297369; https://www.themoviedb.org/tv/297369/season/1; https://www.youtube.com/watch?v=C2ylEFAx9UI",
+    "verifiedAt": "2026-09-09T02:23:19.850Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 297369,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

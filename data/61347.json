@@ -1,0 +1,21 @@
+{
+  "bangumiId": 61347,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 日文原名检索直接命中《虹猫蓝兔阿木星》，别名“马三娘外传”也命中同一条目。TMDB 详情确认其为中国动画 TV，2007 年、已完结、共 1 季 30 集；剧情明确对应 Bangumi 中马三娘复活、寻找阿木并夺取四大神兽内丹的故事，导演为王宏，配音角色也与该作品一致。实际季表 S1 包含完整第 1—30 集，标题和剧情均与 Bangumi 集表对应，因此可使用整季范围。\n\nhttps://www.themoviedb.org/tv/261648 (api_snapshot): TMDB 搜索以“虹猫蓝兔阿木星”和“虹猫蓝兔阿木星 马三娘外传”均返回 TV ID 261648；标题、2007 年日期及剧情概要吻合。\n\nhttps://www.themoviedb.org/tv/261648 (api_snapshot): TMDB 详情确认媒介为 TV、2007 年、已完结、1 季 30 集，别名含“马三娘外传”，导演为王宏，并列出虹猫、蓝兔、马三娘、阿木等配音角色。\n\nhttps://www.themoviedb.org/tv/261648/season/1 (api_snapshot): TMDB S1 实际季表共 30 集，集数连续覆盖 1—30，末集为《阿木星》，与 Bangumi 主体及集表一致。\n\nhttps://api.bgm.tv/v0/subjects/61347 (api_snapshot): Bangumi 原始信息显示该主体为 2007 年 TV 动画，共 30 集，剧情围绕马三娘、阿木及风雨雷电四神兽展开。\n\n备注：TMDB 将首播日期记录为 2007-01-01，Bangumi 记录为 2007 年 7 月；这影响日期精度，但不影响作品身份、版本或集数范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/61347; https://www.themoviedb.org/tv/261648; https://www.themoviedb.org/tv/261648/season/1; https://api.bgm.tv/v0/subjects/61347",
+    "verifiedAt": "2026-09-08T19:05:11.495Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 261648,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

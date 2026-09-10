@@ -1,0 +1,21 @@
+{
+  "bangumiId": 405136,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目 94209 的原名为《汉化日记》，剧情与《汉化日记》第四季一致，首播日期为 2024-03-10，末播日期为 2024-05-19，且条目明确包含 4 个季度。其第 4 季实际包含 12 集，播出日期及集名均与 Bangumi subject 的 12 集逐一对应，因此应映射为完整的 TV 第 4 季。该条目为中国动画剧集，不是电影、OVA、音乐录像或合集。TMDB crew 字段为空，但 Bangumi API 提供了导演周雪、系列构成卢恒宇及制作公司等制作信息。\n\nhttps://api.bgm.tv/v0/subjects/405136 (api_snapshot): Bangumi API 确认作品名为《汉化日记 第四季》，平台为 WEB，首播 2024-03-10，共 12 集；制作信息包括导演周雪、系列构成卢恒宇，以及 bilibili、成都艾尔平方等制作方。\n\nhttps://www.themoviedb.org/tv/94209 (api_snapshot): TMDB 详情确认原名《汉化日记》，剧情与 Bangumi 摘要一致，首播 2019-07-21，末播 2024-05-19，共 4 季、48 集；制作公司包括 bilibili、Shanghai Kuanyu Digital Technology 等。\n\nhttps://www.themoviedb.org/tv/94209/season/4 (api_snapshot): TMDB 第 4 季实际集表为 12 集，首播 2024-03-10；第 1 至第 12 集的标题和日期与 Bangumi 第四季集表逐一匹配，覆盖完整主体且未混入其他作品。\n\n备注：TMDB 详情返回的 crew 数组为空，因此无法从 TMDB 独立核对全部导演和制作人员；制作人员信息主要由 Bangumi API 提供。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/405136; https://api.bgm.tv/v0/subjects/405136; https://www.themoviedb.org/tv/94209; https://www.themoviedb.org/tv/94209/season/4",
+    "verifiedAt": "2026-09-08T23:36:39.034Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 94209,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

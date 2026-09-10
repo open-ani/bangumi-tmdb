@@ -1,0 +1,20 @@
+{
+  "bangumiId": 73756,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 71251 的日文原名与 Bangumi 完全对应，并以英文别名《Samurai Shodown: The Motion Picture》收录；剧情均围绕霸王丸、天草四郎时贞及六名圣剑士展开。TMDB 资料确认其为 1994 年日本动画电影/电视特别篇，导演石踊宏、编剧岸間信明，制作方包含富士电视台与 SNK，配音阵容也与 Bangumi 资料吻合。该 Bangumi subject 只有 1 集，但作品本质是单部电视动画特别篇，因此应映射为 movie。1999 年的《SAMURAI SPIRITS 2 〜アスラ斬魔伝〜》是另一部两集 OVA，不应混入。\n\nhttps://api.bgm.tv/v0/subjects/73756 (api_snapshot): Bangumi API 确认标题为《SAMURAI SPIRITS 〜破天降魔の章〜》，日期为 1994-09-18，平台为 TV，集数为 1；剧情涉及霸王丸、天草四郎时贞及圣剑士。\n\nhttps://www.themoviedb.org/movie/71251 (api_snapshot): TMDB 搜索和详情均确认 ID 71251 的原名为《サムライスピリッツ 破天降魔の章》，年份为 1994，类型为 movie，日文原名、英文别名、剧情、导演石踊宏、编剧岸間信明及富士电视台/SNK 制作信息均匹配。\n\nhttps://www.imdb.com/title/tt0148699/ (search_snippet): IMDb 页面将同作列为 1994 年日本电视电影，原题为 Samurai supirittsu: Haten gôma no shô，导演 Hiroshi Ishiodori，主演 Shingo Katori、Yû Daiki、Reiko Chiba；与 TMDB 71251 的外部 IMDb ID 一致。\n\nhttps://www.allcinema.net/cinema/pdf/235394 (search_snippet): 日文资料将该作列为 1994 年日本 TVM 动画，播出于富士电视台，剧情和石踊宏导演、岸間伸明编剧及主要配音阵容与 TMDB/Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/120564 (api_snapshot): TMDB 详情确认《Samurai Spirits 2: Asura Zanmaden》是 1999 年的另一部两集 OVA 电视条目，不是本 subject。\n\nhttps://www.themoviedb.org/tv/120564/season/1 (api_snapshot): 该 OVA 的 TMDB 第 1 季实际只有第 1、2 集，分别为 1999-06-25 和 1999-09-30；未被推荐。\n\n备注：播出日期存在元数据差异：Bangumi/allcinema 为 1994-09-18，TMDB/IMDb 为 1994-09-08；年份和作品身份一致，不影响映射。；片长也有 68 分钟与 TMDB 80 分钟的差异，可能来自版本或元数据口径；不影响其作为单部 movie 的范围判断。；Bangumi 提供的 IMDb 线索 tt0301801 在 TMDB 查无结果；TMDB 详情实际关联的 IMDb ID 是 tt0148699。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/73756; https://api.bgm.tv/v0/subjects/73756; https://www.themoviedb.org/movie/71251; https://www.imdb.com/title/tt0148699/; https://www.allcinema.net/cinema/pdf/235394; https://www.themoviedb.org/tv/120564; https://www.themoviedb.org/tv/120564/season/1",
+    "verifiedAt": "2026-09-08T19:10:29.037Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 71251,
+      "type": "movie"
+    }
+  ]
+}

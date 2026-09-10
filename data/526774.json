@@ -1,0 +1,21 @@
+{
+  "bangumiId": 526774,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确定对应 TMDB《ロボタン》1966 年版（TV），不是 1986 年重制版。TMDB 记录首播 1966-10-04、完结 1968-09-27，剧情均为机器人ロボタン与カンちゃん及邻居ボッチ等的家庭喜剧；制作公司为大広，Bangumi 资料的制作人员与该旧版相符。TMDB 第 1 季实际有 104 集，分页完整覆盖 1–104，首尾日期与 Bangumi 的 1966–1968 播出期一致，且未混入其他作品，因此使用整季映射。每个 TMDB 条目约 25 分钟，部分标题含两个短篇，正好解释 Bangumi 的 104 回/52 条记录计数差异。\n\nhttps://api.bgm.tv/v0/subjects/526774 (api_snapshot): Bangumi API 确认标题为《ロボタン》、平台为 TV、日期为 1966-10-04、话数字段为 104；剧情涉及明治机器人ロボタン、青空家、カンちゃん、ボッチ，并列出大広、サンプロダクション、Aプロダクション及相关脚本/演出资料。\n\nhttps://www.themoviedb.org/tv/203936 (api_snapshot): TMDB 203936 的原名为《ロボタン》，日期 1966-10-04，完结 1968-09-27，共 1 季 104 集；简介明确指向 1966 年旧版、大広企划制作及同一角色和制作背景。\n\nhttps://www.themoviedb.org/tv/203936/season/1 (api_snapshot): TMDB 第 1 季第 1 页返回第 1–60 集，第 2 页返回第 61–104 集，total_pages=2；集名、日期和 25 分钟片长连续覆盖 1966-10-04 至 1968-09-27。\n\nhttps://www.themoviedb.org/tv/44743 (api_snapshot): TMDB 44743 是 1986 年《Robotan》，仅 30 集，属于不同年份的重制/新版，排除。\n\n备注：Bangumi fresh API 同时出现 eps=104、total_episodes=52 和 52 条 regularEpisodes；这应是将每回中的双短篇与播出条目采用不同计数方式。TMDB 季表本身明确完整列出 104 个 25 分钟条目，因此不影响整季身份映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/526774; https://api.bgm.tv/v0/subjects/526774; https://www.themoviedb.org/tv/203936; https://www.themoviedb.org/tv/203936/season/1; https://www.themoviedb.org/tv/44743",
+    "verifiedAt": "2026-09-09T00:20:39.315Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 203936,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

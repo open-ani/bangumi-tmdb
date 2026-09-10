@@ -1,0 +1,29 @@
+{
+  "bangumiId": 118474,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《Sofia the First》（46928）：2013 年开播，动画媒介，由 Disney Television Animation/Disney Junior 制作，剧情均为 Sofia 成为公主后在 Enchancia 的成长冒险，且 TMDB 第 2 季前 28 集标题、日期和剧情与 Bangumi 条目逐项吻合。Bangumi 将《Minimus is Missing》列为第 29 话，但 TMDB 实际将同片编为第 3 季第 2 集，因此需要拆成两个目标；不能把 TMDB 第 2 季整季直接作为完整映射。\n\nhttps://api.bgm.tv/v0/subjects/118474 (api_snapshot): Bangumi 原始信息确认主体为 2014-03-07 开播的 TV 动画《Sofia the First (Season 2)》，共 29 话，末话为《Minimus is Missing》。\n\nhttps://www.themovied.org/tv/46928 (api_snapshot): TMDB 详情确认 46928 是 2013-01-11 开播的《Sofia the First》TV 动画系列，制作公司包括 Disney Television Animation 和 Disney Junior，共 4 季。\n\nhttps://www.themovied.org/tv/46928/season/2 (api_snapshot): TMDB 第 2 季实际有 28 集，Episode 1 至 Episode 28 的标题、日期和剧情均对应 Bangumi 第 1 至第 28 话；《The Curse of Princess Ivy》也以 48 分钟单集存在。\n\nhttps://www.themovied.org/tv/46928/season/3 (api_snapshot): TMDB 第 3 季第 2 集为《Minimus Is Missing》，日期 2015-08-12，剧情为 Sofia 和 Amber 寻找失踪的飞马，与 Bangumi 第 29 话完全对应。\n\nhttps://shows.disney.com/sofia-the-first (search_snippet): Disney 官方页面将该作品标为 2013 年动画，简介同样描述 Sofia 因母亲嫁给国王而成为公主并适应王室生活。\n\nhttps://thewaltdisneycompany.com/news/sofia-the-first-royal-magic/ (search_snippet): Walt Disney Company 官方资料称 Craig Gerber 开发并执行制作了原版《Sofia the First》，支持其为同一 Disney Television Animation 系列而非重制版或衍生作品。\n\n备注：不同目录对《Minimus is Missing》的季编号存在差异；本映射采用 TMDB 实际季表编号，因此将其作为第 3 季第 2 集单独列出。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/118474; https://api.bgm.tv/v0/subjects/118474; https://www.themovied.org/tv/46928; https://www.themovied.org/tv/46928/season/2; https://www.themovied.org/tv/46928/season/3; https://shows.disney.com/sofia-the-first; https://thewaltdisneycompany.com/news/sofia-the-first-royal-magic/",
+    "verifiedAt": "2026-09-08T19:52:51.490Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 28,
+      "id": 46928,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 46928,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 337449,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《小狮子赛几》（132622）第1季。TMDB 详情的标题、2021年开播日期、中文媒介及剧情均与 Bangumi 一致；第1季实际集表分两页完整覆盖第1至104集，且 Bangumi 信息明确标注104话。Bangumi 的52条正片记录应是平台分集/归档方式差异，不足以否定作品与完整104话版本的对应关系。未发现应改映射到旧版、OVA、合集或其他系列的证据。\n\nhttps://api.bgm.tv/v0/subjects/337449 (api_snapshot): Bangumi API 快照：标题《小狮子赛几》，2021-03-24，平台 WEB，话数104；剧情为赛几、猪王子、瑞比、胖达在派大陆经历日常趣事；导演小鸟，制片林少领、林少斌，编剧洪文翰，出品陈程景。\n\nhttps://www.themoviedb.org/tv/132622 (api_snapshot): TMDB 详情：标题与原名均为《小狮子赛几》，2021-03-25开播，中文动画，剧情与 Bangumi 摘要一致；第1季标记为104集。\n\nhttps://www.themoviedb.org/tv/132622/season/1 (api_snapshot): TMDB 第1季集表显示 total_pages=2、episodeCount=104；第1页覆盖第1至60集，第2页覆盖第61至104集，实际完整范围为1-104。\n\nhttps://www.bilibili.com/bangumi/play/ss38368/ (page): 官方/正版系列页显示《小狮子赛几》于2021年播出、全104话，剧情与角色设定与 Bangumi 和 TMDB 一致。\n\nhttps://www.bilibili.com/bangumi/media/md28234052 (page): 作品页显示《小狮子赛几》于2021年3月24日开播、全104话。\n\n备注：Bangumi API 的 total_episodes 为52，而 infobox 与官方系列页均为104；这应是分集记录与实际话数的归档差异，但无法从现有资料确定52条记录与104个TMDB集的逐条拆分关系。因此采用已确认覆盖完整作品的 TMDB 第1季整季映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/337449; https://api.bgm.tv/v0/subjects/337449; https://www.themoviedb.org/tv/132622; https://www.themoviedb.org/tv/132622/season/1; https://www.bilibili.com/bangumi/play/ss38368/; https://www.bilibili.com/bangumi/media/md28234052",
+    "verifiedAt": "2026-09-08T22:58:14.154Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 132622,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

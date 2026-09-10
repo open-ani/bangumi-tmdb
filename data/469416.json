@@ -1,0 +1,21 @@
+{
+  "bangumiId": 469416,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 匹配 TMDB TV 条目《沧元图番外：东宁府》。其首播日 2024-07-13、完结日 2024-08-03、简介与 Bangumi 的东宁府大战剧情一致，制作公司包含优酷和神漫，且第 1 季实际只有 4 集，日期和标题分别对应 Bangumi 的 4 集。该条目是独立番外，不应映射到 2023 年主系列 229192；整季恰好覆盖主体，因此使用完整季而不填写集数范围。\n\nhttps://api.bgm.tv/v0/subjects/469416 (api_snapshot): Bangumi fresh API 标注作品为 WEB 动画，2024-07-13 开始，共 4 集；剧情为东宁府大战后、孟川上元初山前的番外篇，导演为张毅立，制作包含优酷与神漫相关公司。\n\nhttps://www.themoviedb.org/tv/324236 (api_snapshot): TMDB 条目原名《沧元图番外：东宁府》，首播 2024-07-13，最后播出 2024-08-03，共 1 季 4 集；简介为东宁府异变及元初城游神卫、天妖门、灭妖会三方势力聚集。\n\nhttps://www.themoviedb.org/tv/324236/season/1 (api_snapshot): TMDB 第 1 季实际集表为 4 集，播出日为 2024-07-13、07-20、07-27、08-03，标题为《东宁府 壹》至《东宁府 肆》。\n\nhttps://www.themoviedb.org/tv/229192 (api_snapshot): TMDB 主系列《沧元图》是另一条 2023 年开始、101 集的 TV 条目，剧情为主线孟川成长故事；其与本次 4 集独立番外不能混用。\n\nhttps://so.youku.com/search/q_%E6%B2%A7%E5%85%83%E5%9B%BE%E4%B8%9C%E5%AE%81%E5%BA%9C%E7%95%AA%E5%A4%96%E7%AF%87?searchfrom=5 (search_snippet): 优酷搜索结果出现《沧元图东宁府番外篇》这一官方发行名称，并将其置于《沧元图》动画内容体系中。\n\n备注：TMDB 独立番外条目的 crew 字段为空；导演和主创信息由 Bangumi fresh API 及同系列 TMDB 条目交叉核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/469416; https://api.bgm.tv/v0/subjects/469416; https://www.themoviedb.org/tv/324236; https://www.themoviedb.org/tv/324236/season/1; https://www.themoviedb.org/tv/229192; https://so.youku.com/search/q_%E6%B2%A7%E5%85%83%E5%9B%BE%E4%B8%9C%E5%AE%81%E5%BA%9C%E7%95%AA%E5%A4%96%E7%AF%87?searchfrom=5",
+    "verifiedAt": "2026-09-09T00:03:25.687Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 324236,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

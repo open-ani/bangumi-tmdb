@@ -1,0 +1,23 @@
+{
+  "bangumiId": 116144,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应的是黄军总导演、2008 年首播的国产动画 TV《淘气包马小跳》，而非 2010 年同名真人电视剧（TMDB 131232）或 2009 年 91 分钟动画电影（TMDB 1211975）。TMDB 132612 第 1 季共 104 集，实际季表第 1 页覆盖第 1–52 集；Bangumi 当前 API 的可用集表为 52 集，故只映射已核实的 1–52 集，不把后续 53–104 集强行加入。\n\nhttps://api.bgm.tv/v0/subjects/116144 (api_snapshot): Bangumi API 标注原作杨红樱、总导演黄军、2008 年、TV、声明话数 104，但当前 total_episodes 和实际 regularEpisodes 为 52。\n\nhttps://www.themoviedb.org/tv/132612 (api_snapshot): TMDB 详情确认 132612 为 2008-05-01 开播的中文 TV，导演黄军，共 104 集；剧情与 Bangumi 的校园儿童故事一致。\n\nhttps://www.themoviedb.org/tv/132612/season/1 (api_snapshot): TMDB 第 1 季实际为 104 集，第一页列出第 1–60 集；第 1–52 集为连续的 13 分钟动画单元，覆盖 Bangumi 当前 52 集范围。\n\nhttps://yule.sohu.com/20090112/n261705842.shtml (page): 同期报道确认该作是 104 集系列电视动画，2008 年 5 月先播前 52 集，之后播出第 53–104 集，并明确动画电影版不是电视版总集篇。\n\nhttps://www.themoviedb.org/tv/131232 (api_snapshot): TMDB 131232 是 2010 年同名 TV，演员阵容为真人电视剧，且关联 IMDb tt6332796，不是 Bangumi 的动画。\n\nhttps://www.themoviedb.org/movie/1211975 (api_snapshot): TMDB 1211975 是 2009 年上映、片长 91 分钟的独立动画电影，不能替代 TV 动画。\n\n备注：Bangumi 的声明话数为 104，但当前 API 可用集表仅有 52 集；因此采用已核实的闭区间 1–52。若后续 Bangumi 补齐第 53–104 集，应再扩展映射范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/116144; https://api.bgm.tv/v0/subjects/116144; https://www.themoviedb.org/tv/132612; https://www.themoviedb.org/tv/132612/season/1; https://yule.sohu.com/20090112/n261705842.shtml; https://www.themoviedb.org/tv/131232; https://www.themoviedb.org/movie/1211975",
+    "verifiedAt": "2026-09-08T19:52:05.512Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 52,
+      "id": 132612,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

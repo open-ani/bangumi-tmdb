@@ -1,0 +1,21 @@
+{
+  "bangumiId": 373904,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 196568 与 Bangumi 条目的中文原名、2022-03-18 首播日期、长城守卫军日常剧情及动画媒介一致。TMDB 第1季实际季表为14集，覆盖 Bangumi 主体的全部14集；外部资料也确认该季为2022年首播、全14集，并列出了与 Bangumi 相同的集名。因此使用整季映射，不涉及第二季或其他分季。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): TMDB 详情确认作品名为“是王者啊？”，原名相同，首播日期为2022-03-18；总计6季，第1季14集，剧情为王者大陆长城守卫军日常。\n\nhttps://www.themoviedb.org/tv/196568/season/1 (api_snapshot): TMDB 第1季季表实际返回 episodeCount=14、total_pages=1，集号连续覆盖1至14，季首播日期为2022-03-18。\n\nhttps://api.bgm.tv/v0/subjects/373904 (api_snapshot): Bangumi API确认该主体为WEB动画，2022-03-18开始，共14集，剧情为长城守卫军日常，并记录导演傅博/付博、李晓及成都奇影动漫制作等制作信息。\n\nhttps://www.acfun.cn/v/?ab=6142115 (page): 页面明确标为《是王者啊？》第一季，全14集，且第1至14集集名与 Bangumi 条目一致。\n\nhttps://www.36kr.com/p/1667256288368391 (page): 资料确认该作由天美工作室《王者荣耀》项目团队出品、奇影动漫制作，2022-03-18上线，全14集，单集为短篇动画。\n\n备注：TMDB季表的中文集名和剧情简介部分与 Bangumi/外部片源的实际集名不一致，疑似TMDB集级元数据质量问题；但季号、集数、日期、总剧情和外部完整集表均一致。；TMDB详情未提供可用的演职员列表，制作人员主要由Bangumi原始API及外部资料交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/373904; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/1; https://api.bgm.tv/v0/subjects/373904; https://www.acfun.cn/v/?ab=6142115; https://www.36kr.com/p/1667256288368391",
+    "verifiedAt": "2026-09-08T23:16:53.720Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 196568,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

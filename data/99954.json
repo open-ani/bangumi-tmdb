@@ -1,0 +1,21 @@
+{
+  "bangumiId": 99954,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《ドクター秩父山 / Doctor Chichibuyama》：1988 年、日文原名一致，剧情均为好色医院院长秩父山及医院闹剧，导演アミノテツロー、脚本浦沢義雄、主演神谷明等信息吻合，且官方葦プロ资料确认其为 1988 年 4—7 月播出的 TV 短篇动画。TMDB 的 Season 1 实际只有 2 集，日期为 1988-04-03 和 1988-04-10，与本 Bangumi subject 当前 eps=2 相符，因此使用完整 S1。TMDB 的同名 movie 335618 是 58 分钟电影条目，媒介与 Bangumi 的 TV subject 不符，不推荐。\n\nhttps://api.bgm.tv/v0/subjects/99954 (api_snapshot): Bangumi API 当前资料标记为 TV，1988-04-03，eps=2，剧情及导演、原作、脚本、作画监督信息与候选吻合。\n\nhttps://www.themoviedb.org/tv/283070 (api_snapshot): TMDB TV 详情：原名ドクター秩父山，首播 1988-04-03，完结，1 季 2 集；简介、富士电视台制作方及神谷明等演员吻合。\n\nhttps://www.themoviedb.org/tv/283070/season/1 (api_snapshot): TMDB Season 1 季表实际返回 2 集，日期为 1988-04-03、1988-04-10，total_pages=1。\n\nhttps://ashipro.jp/tv_series/w014.html (page): 葦プロ官方作品页确认这是 1988.4—1988.7 的 TV 系列，并列出剧情、田中圭一原作、アミノテツロー导演、川筋豊角色设计及神谷明等演员。\n\nhttps://www.themoviedb.org/movie/335618 (api_snapshot): 同名 TMDB movie 条目为 1988-04-03、runtime 58 分钟的电影媒介，故不用于 TV subject 映射。\n\n备注：部分外部动画资料将该 1988 年短篇按每周 5 分钟广播拆为约 17 个短片；这与 Bangumi 当前 subject 的 eps=2 及 TMDB Season 1 的 2 集记录不一致。本映射按本轮 freshBangumi 的两条 regular episodes 和 TMDB 实际季表确定，未将外部的 17 集编号强行移用。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/99954; https://api.bgm.tv/v0/subjects/99954; https://www.themoviedb.org/tv/283070; https://www.themoviedb.org/tv/283070/season/1; https://ashipro.jp/tv_series/w014.html; https://www.themoviedb.org/movie/335618",
+    "verifiedAt": "2026-09-08T19:34:11.392Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 283070,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 223155,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 81743 与《盛世妆娘》身份一致：中文原名、The Beauty Blogger 别名、2018-07-24 开播、剧情均对应美妆博主司妍进入古代宫廷游戏系统；制作公司含 Tencent Penguin Pictures、Imagineer、Jiang Toon Animation。TMDB 第1季实际有20集，Bangumi主体也是完整20集，因此匹配整季。已排除2022年的《潇洒佳人淡淡妆》这一不同版本/作品。\n\nhttps://www.themoviedb.org/tv/81743 (api_snapshot): TMDB详情确认ID 81743为《盛世妆娘》/The Beauty Blogger，2018-07-24开播，剧情、20集、1季及制作公司均与目标一致。\n\nhttps://www.themoviedb.org/tv/81743/season/1 (api_snapshot): TMDB第1季实际返回20集，集号连续覆盖1–20，且total_pages为1，未混入其他作品。\n\nhttps://api.bgm.tv/v0/subjects/223155 (api_snapshot): Bangumi fresh API确认主体为2018年WEB动画《盛世妆娘》，共20集，别名The Beauty Blogger，剧情及制作人员信息与该作品对应。\n\nhttps://wetv.vip/zh-cn/play/qgvq32ixh4yujoc-%E7%9B%9B%E4%B8%96%E5%A6%86%E5%A8%98 (page): WeTV页面标注《盛世妆娘》为2018年、全20集，并列出第1至第20集。\n\nhttps://bangumi.tv/person/33434/works (page): Bangumi的江通动画作品页将《盛世妆娘》列为20话、2018年7月24日作品，并标注动画制作。\n\n备注：TMDB季表中的部分播出日期与Bangumi逐集日期存在差异，且TMDB集标题为通用标题；但集数、连续范围、剧情、年份和制作信息均一致，不影响整季匹配。；TMDB详情的crew字段为空，因此未能从TMDB进一步核对完整导演/工作人员名单；Bangumi fresh API提供了导演陈群及江通动画等制作信息。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/223155; https://www.themoviedb.org/tv/81743; https://www.themoviedb.org/tv/81743/season/1; https://api.bgm.tv/v0/subjects/223155; https://wetv.vip/zh-cn/play/qgvq32ixh4yujoc-%E7%9B%9B%E4%B8%96%E5%A6%86%E5%A8%98; https://bangumi.tv/person/33434/works",
+    "verifiedAt": "2026-09-08T21:05:51.052Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 81743,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

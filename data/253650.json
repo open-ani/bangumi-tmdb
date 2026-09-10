@@ -1,0 +1,22 @@
+{
+  "bangumiId": 253650,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目「あそびあそばせ」的特别篇季包含 3 个不同 OVA/OAD；第 3 集标题为「コスプレ大会/大人の私へ」，日期为 2018-12-26，剧情说明为第 7 卷同梱 OVA，和 Bangumi subject 的 OAD 日期、标题内容及原作章节完全对应。因此只映射到 season 0 episode 3，不能使用整季或正片 season 1。TMDB find 对 IMDb tt9070110 也直接返回该集。\n\nhttps://api.bgm.tv/v0/subjects/253650 (api_snapshot): Bangumi API 标记为 OVA、1 集、发售日 2018-12-26；简介为原作第 5 卷第 43、48 话的原创动画。\n\nhttps://www.themoviedb.org/tv/80539 (api_snapshot): TMDB TV 80539 原名为「あそびあそばせ」，2018 年作品；主系列为 12 集，并另列 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/80539/season/0 (api_snapshot): season 0 共 3 集；第 3 集为「コスプレ大会/大人の私へ」，日期 2018-12-26，时长 13 分，简介明确称为第 7 卷同梱 OVA。\n\nhttps://www.imdb.com/title/tt9070110/ (api_snapshot): TMDB find 使用 IMDb tt9070110 返回 show_id 80539、season 0、episode 3，标题为 Cosplay Contest / To the Future Me，日期 2018-12-26。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/253650; https://api.bgm.tv/v0/subjects/253650; https://www.themoviedb.org/tv/80539; https://www.themoviedb.org/tv/80539/season/0; https://www.imdb.com/title/tt9070110/",
+    "verifiedAt": "2026-09-08T21:23:47.892Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 3,
+      "id": 80539,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

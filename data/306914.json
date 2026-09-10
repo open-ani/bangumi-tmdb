@@ -1,0 +1,23 @@
+{
+  "bangumiId": 306914,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 105779 与该 Bangumi 条目的标题、首播日期（2020-06-20）、剧情、WEB媒介及中文动画身份一致；制作人员方面，Bangumi记录导演孙纪剑、动画制作索以文化，也与该作品资料吻合。TMDB将原作40集第一季及后续60集第二季错误合并为同一TV的第1季共100集：季表第1–40集对应2020-06-20至2020-10-24，正好覆盖本 subject；第41集起为2021年播出的续季。因此只能推荐第1季1–40集，不能使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/306914 (api_snapshot): Bangumi原始API记录该条目为WEB动画，2020-06-20开始，共40集；剧情为石大力与九尾天狐青青的御灵师故事；导演孙纪剑，动画制作索以文化。\n\nhttps://www.themoviedb.org/tv/105779 (api_snapshot): TMDB搜索及详情确认TV ID 105779原名为《首席御灵师》，日期为2020-06-20，剧情简介与Bangumi一致，别名包含Chief Spirit Master、Chief Soul Master、Shouxi Yu Ling Shi。\n\nhttps://www.themoviedb.org/tv/105779/season/1 (api_snapshot): TMDB第1季实际有100集且分页；第1页显示第1–40集日期为2020-06-20至2020-10-24，第41集起日期转为2021年，故本 subject对应闭区间1–40。\n\nhttps://bangumi.tv/subject/306914 (search_snippet): Bangumi页面搜索摘要再次显示40集、2020-06-20、导演孙纪剑、动画制作索以文化，并列出《首席御灵师 第二季》续集关系。\n\n备注：TMDB将两季合并到一个TV的第1季，且详情中的工作人员为空；制作人员核对依赖Bangumi原始资料及页面摘要。；TMDB第1季部分集名存在显示编号笔误，但episode_number字段连续，1–40范围及播出日期明确。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/306914; https://api.bgm.tv/v0/subjects/306914; https://www.themoviedb.org/tv/105779; https://www.themoviedb.org/tv/105779/season/1; https://bangumi.tv/subject/306914",
+    "verifiedAt": "2026-09-08T22:00:44.992Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 40,
+      "id": 105779,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

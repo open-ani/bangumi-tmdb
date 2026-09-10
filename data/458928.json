@@ -1,0 +1,23 @@
+{
+  "bangumiId": 458928,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品 147054《剑域风云》（The Legend of Sword Domain）。剧情、角色设定、中文原作动画身份、优酷/若鸿文化制作及 2023-10-29 开播信息一致。Bangumi fresh API 标注第三季总集数为 104，归档集表实际连续覆盖全局第 93–196 集；独立资料也将第三季列为 104 集并列出同一剧情与制作公司。TMDB 没有独立第三季，而是将全系列正片合并为 S1 的 196 集，因此应映射为 S1 第 93–196 集，不应使用整季或特别篇 S0。\n\nhttps://api.bgm.tv/v0/subjects/458928 (api_snapshot): Bangumi API 标注《剑域风云 第三季》为 WEB 动画，开始日期 2023-10-29，总集数 104，剧情为吕阳、桃神剑、十柄神剑与五大家族，并列出不灵不灵、笔落及优酷/若鸿文化等制作信息。\n\nhttps://www.themoviedb.org/tv/147054 (api_snapshot): TMDB 详情确认 147054 原名《剑域风云》，剧情与 Bangumi 一致；类型为 TV，整体自 2021-11-28 开播，正片 S1 共 196 集，另有 S0 特别篇 4 集。\n\nhttps://www.themoviedb.org/tv/147054/season/1 (api_snapshot): TMDB S1 季表实际覆盖第 1–196 集；第 93 集至第 196 集连续存在，正好包含 Bangumi 第三季的 104 个归档集记录。\n\nhttps://daradara.me/anime/38942 (page): 独立作品资料将《剑域风云 第三季》列为 ONA、104 集、每集约 10 分钟，首播 2023-10-29，完播 2024-10-14，制作公司为杭州若鸿文化，并列出英文别名 The Legend of Sword Domain 3rd Season。\n\nhttps://www.sohu.com/picture/728450969 (search_snippet): 2023 年定档资料称《剑域风云》第三季于 2023-10-29 播出，由优酷动漫出品、若鸿文化制作。\n\n备注：TMDB 将全系列合并为单一 S1，且其详情中的导演/编剧字段与 Bangumi 的第三季专项制作人员不完全一致，属于系列级或元数据归并差异。；TMDB 个别集的日期存在归并或录入偏差，但集号连续性与第三季 104 集范围相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/458928; https://api.bgm.tv/v0/subjects/458928; https://www.themoviedb.org/tv/147054; https://www.themoviedb.org/tv/147054/season/1; https://daradara.me/anime/38942; https://www.sohu.com/picture/728450969",
+    "verifiedAt": "2026-09-09T00:01:56.441Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 93,
+      "episodeEnd": 196,
+      "id": 147054,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

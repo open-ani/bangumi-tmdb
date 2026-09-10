@@ -1,0 +1,41 @@
+{
+  "bangumiId": 170557,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 对应 TMDB 主系列《We Bare Bears》（TV，2015–2019），别名包含“熊熊三贱客”“熊熊遇见你”。剧情、角色、Cartoon Network Studios 制作及 Daniel Chong 创作信息均一致，不是 We Baby Bears、Shorts、电影或中文配音重复条目。由于 TMDB 季表存在跨季错排：S2E1 是 Bangumi 第一季末的 Charlie Ball，因此本 subject 从 TMDB S2E2 Yard Sale 开始；Bangumi 第二季后面的 Subway、Panda's Friend、Neighbors 分别被 TMDB 放在 S3E2、S3E4、S3E6。TMDB S2E2–E23 加上这三个 S3 单集正好覆盖 Bangumi 的 25 个正片条目。Bangumi 的重复标题“Baby Bears on a Plane”中，TMDB 对应的 S2E11 实为 The Island，S2E16 才是 Baby Bears on a Plane。未映射未命名的 Bangumi 特别篇占位条目。\n\nhttps://www.themoviedb.org/tv/63401 (api_snapshot): TMDB 63401 是 TV《We Bare Bears》，首播 2015-08-24，剧情为三只熊兄弟在现代社会中生活，制作公司为 Cartoon Network Studios；别名含熊熊三贱客、熊熊遇见你。\n\nhttps://www.themoviedb.org/tv/63401/season/2 (api_snapshot): TMDB S2 共 23 集，E1 为 Charlie Ball；E2–E23 依次覆盖 Yard Sale 至 Christmas Parties，与 Bangumi 第二季前 22 个正片标题和日期相符。\n\nhttps://www.themoviedb.org/tv/63401/season/3 (api_snapshot): TMDB S3E2 为 Subway、S3E4 为 Panda's Friend、S3E6 为 Neighbors，三集的日期和剧情分别对应 Bangumi 第二季末三集。\n\nhttps://cartoonnetwork.fandom.com/wiki/We_Bare_Bears_episode_list (search_snippet): 独立剧集表将原作第二季列为 26 集，并列出 The Island、Subway、Panda's Friend、Neighbors 等标题，支持 TMDB 跨季错排的修正映射。\n\nhttps://www.youtube.com/watch?v=C5kR-exHmr4 (search_snippet): Cartoon Network 官方频道资料称本系列由 Daniel Chong 创作、Cartoon Network Studios 制作，并描述三只熊兄弟适应城市人类社会的核心设定。\n\nhttps://www.themoviedb.org/tv/326576 (api_snapshot): TMDB 326576 是名为“咱们裸熊 第二季 中文配音”的独立中文条目，仅 1 集、无外部 ID，不能作为完整原作季目标。\n\nhttps://www.themoviedb.org/tv/320389 (api_snapshot): TMDB 搜索还返回独立的 We Bare Bears Shorts 条目；其为短片条目，不符合 Bangumi 正片季的 25 集主体。\n\n备注：TMDB 的季号和播放顺序本身存在跨季错排，因此不能用单一完整季目标表示该 Bangumi subject；已按实际集标题、日期和剧情拆分。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/170557; https://www.themoviedb.org/tv/63401; https://www.themoviedb.org/tv/63401/season/2; https://www.themoviedb.org/tv/63401/season/3; https://cartoonnetwork.fandom.com/wiki/We_Bare_Bears_episode_list; https://www.youtube.com/watch?v=C5kR-exHmr4; https://www.themoviedb.org/tv/326576; https://www.themoviedb.org/tv/320389",
+    "verifiedAt": "2026-09-08T20:17:20.101Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 23,
+      "id": 63401,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 63401,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 4,
+      "id": 63401,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 6,
+      "id": 63401,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

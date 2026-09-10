@@ -1,0 +1,21 @@
+{
+  "bangumiId": 29399,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 35276 与 Bangumi subject 的中文原名、2005-07-28 首播日期、明朝末年江流儿围棋与抗倭剧情、角色及制作方 CCTV 动画均一致。该 TMDB TV 同时包含两季共52集，但第1季明确为2005年、26集；其集表从《神机大炮》到《天地大同》共26集，与 Bangumi subject 的26集标题和顺序逐一对应。因此仅映射第1季整季，不包含2009年的第2季（对应 Bangumi 的《围棋少年2》）。\n\nhttps://www.themoviedb.org/tv/35276 (search_snippet): TMDB 搜索结果将“围棋少年”“Chess Player”“Weiqi Shaonian”指向 TV 35276，首播日期为2005-07-28，简介包含江流儿、凌云寺、围棋国手大赛等主体剧情。\n\nhttps://www.themoviedb.org/tv/35276 (api_snapshot): TMDB 详情确认原名为《围棋少年》，首播2005-07-28，制作公司为 CCTV Animation；全剧有2季52集，第1季为2005年、26集，第2季为2009年、26集，并列出 Chess Player、Weiqi Shaonian 等别名。\n\nhttps://www.themoviedb.org/tv/35276/season/1 (api_snapshot): TMDB 第1季实际季表确认共26集，首播2005-07-28；集名从《神机大炮》至《天地大同》，与 Bangumi 的26集表对应。\n\nhttps://api.bgm.tv/v0/subjects/29399 (api_snapshot): Bangumi 原始 API 信息确认 subject 29399 为2005-07-28首播的 TV《围棋少年》，共26集，剧情、导演马风清及央视制作信息与 TMDB 第1季相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/29399; https://www.themoviedb.org/tv/35276; https://www.themoviedb.org/tv/35276/season/1; https://api.bgm.tv/v0/subjects/29399",
+    "verifiedAt": "2026-09-08T18:46:12.155Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 35276,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

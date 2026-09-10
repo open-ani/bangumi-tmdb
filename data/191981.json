@@ -1,0 +1,20 @@
+{
+  "bangumiId": 191981,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 508884 与 Bangumi 条目身份一致：原名均为《毛虫のボロ》，上映日期均为 2018-03-21；TMDB 标注为日本动画电影，片长 14 分钟，由 Studio Ghibli 制作，导演、编剧和原作均为宫崎骏，剧情均描述毛毛虫 Boro 破卵而出后在草地上展开旅程。Bangumi 明确为剧场版、1 话，因此应映射为单部 movie，不需要季或集数范围。\n\nhttps://api.bgm.tv/v0/subjects/191981 (api_snapshot): Bangumi API：名称为《毛虫のボロ》，日期 2018-03-21，平台为剧场版，片长 14 分钟，导演为宮崎駿，话数为 1；剧情为毛毛虫从卵中孵化后展开旅程。\n\nhttps://www.themoviedb.org/movie/508884 (api_snapshot): TMDB 详情：ID 508884，原名《毛虫のボロ》，日期 2018-03-21，片长 14 分钟，状态 Released，Studio Ghibli 制作；Hayao Miyazaki 担任 Director、Writer、Original Story，剧情与 Bangumi 摘要一致。\n\nhttps://www.themoviedb.org/movie/508884 (api_snapshot): TMDB 日文原名搜索返回唯一结果，类型为 movie，别名包含 Kemushi no Boro。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/191981; https://api.bgm.tv/v0/subjects/191981; https://www.themoviedb.org/movie/508884",
+    "verifiedAt": "2026-09-08T20:32:41.258Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 508884,
+      "type": "movie"
+    }
+  ]
+}

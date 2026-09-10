@@ -1,0 +1,21 @@
+{
+  "bangumiId": 17758,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 97626 与 Bangumi 条目同名，首播日均为 2008-10-24，完结日为 2009-04-24，导演今西隆志、制作公司 Bandai Visual 等信息一致。其第 1 季实际仅含 3 集，日期分别为 2008-10-24、2009-01-23、2009-04-24，与 Bangumi 的 OVA 三集完整对应，因此使用整季范围。另有同名 TMDB 电影 703527（片长 90 分钟），但 Bangumi 主体明确是 3 集 OVA，故不选电影版本。\n\nhttps://api.bgm.tv/v0/subjects/17758 (api_snapshot): Bangumi 原始 API 标记为 OVA，共 3 集，日期为 2008-10-24 至 2009-04-24，导演为今西隆志。\n\nhttps://www.themoviedb.org/tv/97626 (api_snapshot): TMDB TV 条目原名与日期匹配，状态为 Ended，共 1 季、3 集，制作公司为 Bandai Visual，导演为今西隆志。\n\nhttps://www.themoviedb.org/tv/97626/season/1 (api_snapshot): TMDB 第 1 季实际集表只有第 1 至第 3 集，日期和每集约 30 分钟均与三集 OVA 对应。\n\nhttps://www.themoviedb.org/movie/703527 (api_snapshot): TMDB 另有同名电影条目，片长 90 分钟；其媒介形态不是 Bangumi 所记录的三集 OVA，因此未作为推荐目标。\n\n备注：Bangumi 提供的 IMDb 提示 tt8924142 在 TMDB find 中没有结果；TMDB TV 条目自身的 IMDb 外部 ID 为 tt7127562，但不影响同名、日期、制作人员和三集集表的直接匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/17758; https://api.bgm.tv/v0/subjects/17758; https://www.themoviedb.org/tv/97626; https://www.themoviedb.org/tv/97626/season/1; https://www.themoviedb.org/movie/703527",
+    "verifiedAt": "2026-09-08T18:39:40.638Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 97626,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

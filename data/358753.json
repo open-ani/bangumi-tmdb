@@ -1,0 +1,21 @@
+{
+  "bangumiId": 358753,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 139166 与 Bangumi 的中文原名、2022-01-15 开播日期、剧情（魔教少主于仁杰混入正道学院并男扮女装）及制作公司完全对应。TMDB 明确分为两季；第1季实际有13集，播出日期和集名逐集对应 Bangumi subject 的13集，因此使用完整第1季，不应映射到第2季或裸TV条目。\n\nhttps://api.bgm.tv/v0/subjects/358753 (api_snapshot): Bangumi fresh API：标题为“小魔头暴露啦！”，2022-01-15 开播，WEB动画，共13集；剧情、导演阿酒、原作鲜漫文化、动画制作娃娃鱼动画与输入主体一致。\n\nhttps://www.themoviedb.org/tv/139166 (api_snapshot): TMDB详情：TV id 139166，原名“ 小魔头暴露啦！”，2022-01-15 开播；简介与Bangumi剧情一致，列出bilibili、Wawayu Animation、ComicLoft等制作公司，并明确有第1、2季。\n\nhttps://www.themoviedb.org/tv/139166/season/1 (api_snapshot): TMDB第1季实际季表：2022-01-15开播，共13集；集名和播出日期逐集对应Bangumi的第1至13集，覆盖主体且未混入其他作品。\n\n备注：TMDB详情未返回具体crew字段；导演和原作等制作人员信息主要由Bangumi fresh API提供，但不影响作品身份及季集范围判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/358753; https://api.bgm.tv/v0/subjects/358753; https://www.themoviedb.org/tv/139166; https://www.themoviedb.org/tv/139166/season/1",
+    "verifiedAt": "2026-09-08T23:10:20.462Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 139166,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

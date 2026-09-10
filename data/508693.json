@@ -1,0 +1,40 @@
+{
+  "bangumiId": 508693,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 当前 Bangumi 数据实际对应《なにわ遊侠伝》这一套 6 话 OVA 合集，而不是 AniDB 8190 所提示的第 3 部单独作品。TMDB 将这 6 部 OVA 分别收录为独立 movie：第 1 部至第 6 部的日期依次为 1992-03-13、1992-06-25、1992-10-25、1993-01-08、1993-05-25、1993-07-25。它们共享金州组角色、原作与系列设定；第 3 部 1692394 的剧情和制作人员也与日文资料吻合。该主体是 OVA/多部独立电影，不是 TV，因此不应指定 season 或集数范围。\n\nhttps://api.bgm.tv/v0/subjects/508693 (api_snapshot): freshBangumi 返回的当前对象 id 为 508689，名称为《なにわ遊侠伝》，平台 OVA，发售日 1992-03-13，共 6 话。\n\nhttps://bgm.tv/subject/508689 (page): Bangumi 页面显示《なにわ遊侠伝》为 OVA，话数 6，章节 01–06，发售日 1992-03-13。\n\nhttps://www.themoviedb.org/movie/1692386 (api_snapshot): TMDB 详情：第 1 部《Naniwa Yuukyouden》，1992-03-13，60 分，讲述金州组及其成员。\n\nhttps://www.themoviedb.org/movie/1402795 (api_snapshot): TMDB 详情：第 2 部《Zoku Naniwa Yuukyouden》，1992-06-25，60 分，仍为金州组故事。\n\nhttps://www.themoviedb.org/movie/1692394 (api_snapshot): TMDB 详情：第 3 部《Naniwa Yuukyouden: Nekketsu!! Bakushou Mankai-hen》，1992-10-25，57 分，剧情为金州组在卡拉 OK 酒吧引发的事件；导演 Teruo Kogure、Hyouga Shin'ichi，原作 Dookuman Pro。\n\nhttps://www.themoviedb.org/movie/1692451 (api_snapshot): TMDB 详情：第 4 部《Naniwa Yuukyouden: Chou Gokudou! Yoru no Bat wa Manrui Hen》，1993-01-08，57 分，并标为系列第 4 部 OVA。\n\nhttps://www.themoviedb.org/movie/1692458 (api_snapshot): TMDB 详情：第 5 部《Naniwa Yuukyouden: Kyouretsu! Ana ga Attara Iretai Hen》，1993-05-25，55 分，并标为系列第 5 部 OVA。\n\nhttps://www.themoviedb.org/movie/1692468 (api_snapshot): TMDB 详情：第 6 部《Naniwa Yuukyouden: Kanketsuhen》，1993-07-25，60 分，并标为系列第 6 部、最终 OVA。\n\nhttps://www.allcinema.net/cinema/pdf/324982 (page): 日文资料确认《熱血!!爆笑マン開篇》是该系列第 3 弹的独立原创视频动画，约 58 分、收录 4 个故事，并列出导演、原作、编剧与主要配音。\n\nhttps://plaza.rakuten.co.jp/ikadaoriemon/diary/201002190000/ (page): 东映 V 动画发行清单列出该系列的六个发行项目：本篇、続篇、熱血!!爆笑マン開篇、超極道篇、強烈篇、完結篇，证明它们是分开的 OVA 作品而非 TV 季。\n\n备注：输入中的 AniDB 8190 及其标题只对应第 3 部，且已标记为未核实；因此不能用它替代当前 Bangumi 的 6 话合集主体。；Bangumi 的 01–06 章节没有提供独立标题，但六部 TMDB 条目的发行日期、系列标题、角色和制作人员足以按发行顺序对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/508693; https://api.bgm.tv/v0/subjects/508693; https://bgm.tv/subject/508689; https://www.themoviedb.org/movie/1692386; https://www.themoviedb.org/movie/1402795; https://www.themoviedb.org/movie/1692394; https://www.themoviedb.org/movie/1692451; https://www.themoviedb.org/movie/1692458; https://www.themoviedb.org/movie/1692468; https://www.allcinema.net/cinema/pdf/324982; https://plaza.rakuten.co.jp/ikadaoriemon/diary/201002190000/",
+    "verifiedAt": "2026-09-09T00:15:35.534Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1692386,
+      "type": "movie"
+    },
+    {
+      "id": 1402795,
+      "type": "movie"
+    },
+    {
+      "id": 1692394,
+      "type": "movie"
+    },
+    {
+      "id": 1692451,
+      "type": "movie"
+    },
+    {
+      "id": 1692458,
+      "type": "movie"
+    },
+    {
+      "id": 1692468,
+      "type": "movie"
+    }
+  ]
+}

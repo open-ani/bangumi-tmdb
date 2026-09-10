@@ -1,0 +1,21 @@
+{
+  "bangumiId": 148046,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是《The Simpsons Season 27》，首播日为 2015-09-27、共 22 集。TMDB TV 456《The Simpsons》明确包含 Season 27，季首播日同为 2015-09-27，季表实际列出 22 集；第 1、2、3、4、5 集及后续集名、日期均与 Bangumi 集表对应。因此应映射为 TMDB TV 456 的第 27 季完整范围。该条目是长期连载 TV 主系列，不是电影、OVA、合集或重制版。\n\nhttps://api.bgm.tv/v0/subjects/148046 (api_snapshot): Bangumi 原始 API 信息：名称为 The Simpsons Season 27，平台为 TV，日期 2015-09-27，共 22 集；集名从 Every Man's Dream 至 Orange Is the New Yellow。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 详情：ID 456，原名 The Simpsons，首播 1989-12-17，媒介为 TV；简介为 Springfield 的 Simpson 家庭日常讽刺动画；制作公司包括 Gracie Films、20th Century Fox Television、20th Television Animation；可用季表包含 Season 27，日期 2015-09-27、22 集。\n\nhttps://www.themoviedb.org/tv/456/season/27 (api_snapshot): TMDB 第 27 季实际集表共 22 集、单页完整返回；首播 2015-09-27，末集 Orange is the New Yellow，且集名和播出日期与 Bangumi 集表相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148046; https://api.bgm.tv/v0/subjects/148046; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/27",
+    "verifiedAt": "2026-09-08T20:08:20.929Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 456,
+      "season": 27,
+      "type": "tv"
+    }
+  ]
+}

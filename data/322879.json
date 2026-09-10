@@ -1,0 +1,21 @@
+{
+  "bangumiId": 322879,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi 条目是《Phineas and Ferb》第3季，而非独立作品。TMDB TV 1877 的原名、剧情、首播年份、制作公司 Disney Television Animation 与其一致；TMDB 第3季首播于2011-03-04，末集日期为2012-11-30。Bangumi 的35集是35个半小时合播单元，TMDB 将其拆为62个segment，季表完整覆盖同一季且未混入电影或其他作品，因此使用整季映射。提供的 IMDb 提示 tt1895042 无法确认，未据此采用。\n\nhttps://api.bgm.tv/v0/subjects/322879 (api_snapshot): Bangumi API 显示名称为 Phineas and Ferb Season 3，TV，35集，放送时间为2011-03-04至2012-11-30，剧情、导演和制作公司与该系列第3季对应。\n\nhttps://www.themoviedb.org/tv/1877 (api_snapshot): TMDB API 详情确认 TV 1877 为 Phineas and Ferb，首播2007-08-17，剧情为 Phineas 与 Ferb 暑假发明并由 Candace 试图揭发，制作公司为 Disney Television Animation；详情列出第3季首播日2011-03-04。\n\nhttps://www.themoviedb.org/tv/1877/season/3 (api_snapshot): TMDB API 第3季季表确认 season=3、air_date=2011-03-04、episodeCount=62、total_pages=2；第1页实际读取第1至60条。\n\nhttps://www.themoviedb.org/tv/1877/season/3 (api_snapshot): TMDB API 第2页实际读取第61至62条，分别为2012-11-02和2012-11-30，闭合该季全部62个segment。\n\nhttps://en.wikipedia.org/wiki/Phineas_and_Ferb_season_3 (search_snippet): 搜索摘要将第3季标为35 episodes、62 segments，首播2011-03-04，说明Bangumi的35集与TMDB的62条是合播单元和segment的计数差异。\n\n备注：TMDB采用62个segment编号，而Bangumi采用35个半小时合播集编号；若下游必须按segment而非整季处理，需要另行建立35集到62条的分组对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/322879; https://api.bgm.tv/v0/subjects/322879; https://www.themoviedb.org/tv/1877; https://www.themoviedb.org/tv/1877/season/3; https://en.wikipedia.org/wiki/Phineas_and_Ferb_season_3",
+    "verifiedAt": "2026-09-08T22:41:11.469Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1877,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 9267,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 124358 与 Bangumi 条目均为 1992 年播出的《みかん絵日記》TV 动画：原名、首播日期、剧情（会说话并能读写的橘色猫咪みかん与草凪家）、导演石黒昇、制作公司日本动画均相符。TMDB 第 1 季实际包含 31 集，且没有混入其他作品；与 Bangumi 的主体集数完全一致，因此推荐整季映射。\n\nhttps://www.themoviedb.org/tv/124358 (api_snapshot): TMDB 详情确认作品为 1992-10-16 开播的日语 TV 动画，剧情涉及会说话的猫みかん，导演为石黒昇，制作公司为 Nippon Animation，共 31 集、1 季。\n\nhttps://www.themoviedb.org/tv/124358/season/1 (api_snapshot): TMDB 第 1 季实际季表确认 season=1、episodeCount=31，集号连续覆盖 1–31，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/9267 (api_snapshot): Bangumi API 确认条目为《みかん絵日記》，平台为 TV，1992-10-16 开播，共 31 集，导演石黒昇、制作日本动画。\n\n备注：Bangumi 保存的部分播出日期与 TMDB 季表在第 8 集之后存在偏移，且 Bangumi 记录的结束日期为 1993-06-24、TMDB 为 1993-05-14；但作品身份、版本及 31 集范围均一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9267; https://www.themoviedb.org/tv/124358; https://www.themoviedb.org/tv/124358/season/1; https://api.bgm.tv/v0/subjects/9267",
+    "verifiedAt": "2026-09-08T18:34:40.116Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 124358,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

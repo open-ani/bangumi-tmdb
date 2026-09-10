@@ -1,0 +1,21 @@
+{
+  "bangumiId": 220039,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 42426 与《ふたごのモンチッチ》身份一致：原名、1980-02-04开播、1980-08-01结束、TV媒介、双生蒙奇奇剧情、主要配音及制作公司均吻合。官方资料确认这是5分钟、全130集的TV系列；TMDB第1季实际分页集表覆盖第1至130集且无其他作品混入，因此使用完整第1季。\n\nhttps://api.bgm.tv/v0/subjects/220039 (api_snapshot): Bangumi fresh API确认原名《ふたごのモンチッチ》、TV、开始日期1980-02-04、eps=130及相关剧情；其总集数字段为52，与主体话数存在数据不一致。\n\nhttps://www.themoviedb.org/tv/42426 (api_snapshot): TMDB详情确认TV ID 42426、原名《ふたごのモンチッチ》、日期1980-02-04至1980-08-01、130集、1个季度，制作公司为Kokusai Eigasha与Asahi Production，主要配音与该作吻合。\n\nhttps://www.themoviedb.org/tv/42426/season/1 (api_snapshot): TMDB第1季集表分页显示episodeCount=130、total_pages=3，三页合计覆盖第1–130集，单集约5分钟，日期连续对应1980年播出。\n\nhttps://www.ashipro.jp/tv_series/w005.html (page): 葦プロダクション官方作品页标明《ふた子のモンチッチ》为TV系列、5分钟、130集、1980年2月至8月播出，并列出秦泉寺博、田中保及双胞胎角色配音。\n\nhttps://www.allcinema.net/cinema/89406 (page): 作品资料确认这是1980年日本TV动画，播出期为1980-02-04至1980-08-01，并记录130集、导演秦泉寺博及主要配音。\n\n备注：Bangumi archive及fresh API的regular/total_episodes字段保留为52，但主体话数、官方资料及TMDB实际季表均支持130集；未发现因此需要拆分季度或排除集数的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220039; https://api.bgm.tv/v0/subjects/220039; https://www.themoviedb.org/tv/42426; https://www.themoviedb.org/tv/42426/season/1; https://www.ashipro.jp/tv_series/w005.html; https://www.allcinema.net/cinema/89406",
+    "verifiedAt": "2026-09-08T20:59:44.587Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 42426,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

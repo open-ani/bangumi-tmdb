@@ -1,0 +1,21 @@
+{
+  "bangumiId": 305573,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 的日文原名、英文别名、1985-10-19开播日期、剧情简介和日文原名均与 Bangumi subject 完全对应；媒介是电视动画，制作公司为 Sanrio 与 Asahi Broadcasting Corporation。TMDB Season 1 实际返回 26 集且 total_pages=1，覆盖 Bangumi 的全部 26 集，因此推荐整季映射。未发现需要拆分的季度或独立 OVA/电影版本。制作人员方面，TMDB crew 字段为空，但 freshBangumi 的资料明确列出波多正美、田中公平、Topcraft 等信息。\n\nhttps://www.themoviedb.org/tv/72638 (api_snapshot): TMDB 详情确认作品为《夢の星のボタンノーズ》/Dream Star Button Nose，1985-10-19开始，剧情为 Button Nose 前往星球并继承王位，TV 状态 Ended，共1季26集，制作公司含 Sanrio 和 Asahi Broadcasting Corporation。\n\nhttps://www.themoviedb.org/tv/72638/season/1 (api_snapshot): TMDB Season 1 实际返回 episodeCount=26、total_pages=1，集数连续覆盖第1至第26集，播出日期为1985-10-19至1986-04-19。\n\nhttps://api.bgm.tv/v0/subjects/305573 (api_snapshot): Bangumi fresh API 确认 subject 为1985-10-19开播的TV动画，共26集；剧情、导演波多正美、音乐田中公平、制作朝日放送/サンリオ、动画制作Topcraft等资料与 TMDB 作品身份相符。\n\nhttps://www.allcinema.net/cinema/pdf/89278 (search_snippet): 搜索摘要将该作品确认​​为1985年的电视动画，并标注朝日放送/テレビ朝日及 Sanrio 制作背景。\n\n备注：Bangumi 元数据标注放送结束为1986-04-26，而 TMDB 季表最后一集日期为1986-04-19；两者均为同一26集TV作品，日期差异不影响整季范围判断。；TMDB 详情的 crew 数组为空，导演、音乐和动画制作人员主要由 Bangumi fresh API 资料核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/305573; https://www.themoviedb.org/tv/72638; https://www.themoviedb.org/tv/72638/season/1; https://api.bgm.tv/v0/subjects/305573; https://www.allcinema.net/cinema/pdf/89278",
+    "verifiedAt": "2026-09-08T21:59:24.749Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 72638,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

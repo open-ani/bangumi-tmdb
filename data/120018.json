@@ -1,0 +1,20 @@
+{
+  "bangumiId": 120018,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 228940 与 Bangumi 条目身份完全吻合：原名、上映日期（1987-08-01）、剧情人物和《バリバリ伝説》标题一致；TMDB 明确记载其为将 1986 年两集 OVA「PART I 筑波編」「PART II 鈴鹿編」重新剪辑后于 1987 年剧场上映的版本，且制作公司为 Pierrot、导演为上村修。Bangumi 主体明确是84分钟的单部剧场版，因此应对应 movie，而不是 TMDB 的两集 OVA TV 条目247353。\n\nhttps://api.bgm.tv/v0/subjects/120018 (api_snapshot): Bangumi API 标记为1987-08-01剧场版、1话；简介明确说明由「筑波篇」和「鈴鹿篇」两部OVA重新剪辑后剧场公开。\n\nhttps://www.themoviedb.org/movie/228940 (api_snapshot): TMDB movie 228940 原名为バリバリ伝説，日期为1987-08-01，剧情与 Bangumi 一致；简介明确说明是两部OVA的剧场重剪版，片长85分钟，制作公司为Pierrot。\n\nhttps://www.themoviedb.org/tv/247353 (api_snapshot): TMDB另有同名TV条目247353，日期为1986-05-10，共1季2集，是原始OVA版本而非本 Bangumi 剧场版。\n\nhttps://www.themoviedb.org/tv/247353/season/1 (api_snapshot): 该TV条目的S1实际仅含两集：PART I 筑波編与PART II 鈴鹿編，各约50分钟，进一步确认其为被剧场版重剪前的OVA版本。\n\n备注：TMDB记录片长85分钟，Bangumi记录84分钟，存在1分钟片长差异，但不影响作品身份判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/120018; https://api.bgm.tv/v0/subjects/120018; https://www.themoviedb.org/movie/228940; https://www.themoviedb.org/tv/247353; https://www.themoviedb.org/tv/247353/season/1",
+    "verifiedAt": "2026-09-08T19:52:51.421Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 228940,
+      "type": "movie"
+    }
+  ]
+}

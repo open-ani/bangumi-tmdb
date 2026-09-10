@@ -1,0 +1,29 @@
+{
+  "bangumiId": 145365,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB TV 61593 与 Bangumi 的原名、首播日（2014-09-21）、剧情、Adult Swim 动画媒介及角色设定一致。Bangumi 的 11 集包含 2013-08-26 的 Pilot；TMDB 将其单列为 Specials S0E1，而正式第一季实际为 10 集，日期和标题逐集对应 Bangumi 的非 Pilot 集目。因此需拆为 S0E1 与 S1E1-E10，不能把 Pilot 当作 S1E1，也不能使用整季空范围。网页资料同时核对了 Will Carsola、Dave Stewart 的创作人员和该剧的版本身份。\n\nhttps://api.bgm.tv/v0/subjects/145365 (api_snapshot): Bangumi fresh API 标注作品为 TV《Mr. Pickles》，首播 2014-09-21，共 11 集；包含 2013-08-26 的 Pilot 和 2014 年正式播出的 10 集。\n\nhttps://www.themoviedb.org/tv/61593 (api_snapshot): TMDB 详情显示原名 Mr. Pickles、首播 2014-09-21、剧情为 Goodman 家庭与具有撒旦倾向的边境牧羊犬 Mr. Pickles，并列出 4 季及 31 集总数；媒介为 TV。\n\nhttps://www.themoviedb.org/tv/61593/season/0 (api_snapshot): TMDB S0 为 Specials，仅有 E1 Pilot，日期 2013-08-26，片长 15 分钟，剧情与 Bangumi Pilot 对应。\n\nhttps://www.themoviedb.org/tv/61593/season/1 (api_snapshot): TMDB S1 实际有 10 集，E1-E10 标题、日期从 Tommy's Big Job（2014-09-21）到 The Lair（2014-11-23），与 Bangumi 正式第一季的 10 集逐集对应。\n\nhttps://en.wikipedia.org/wiki/Mr._Pickles (page): 页面交叉核对该作是 Adult Swim 的美国成人动画，由 Will Carsola 与 Dave Stewart 创作；列出 Pilot、第一季 10 集及 2014-09-21 至 2014-11-23 的第一季播出范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/145365; https://api.bgm.tv/v0/subjects/145365; https://www.themoviedb.org/tv/61593; https://www.themoviedb.org/tv/61593/season/0; https://www.themoviedb.org/tv/61593/season/1; https://en.wikipedia.org/wiki/Mr._Pickles",
+    "verifiedAt": "2026-09-08T20:07:13.409Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 61593,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 10,
+      "id": 61593,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

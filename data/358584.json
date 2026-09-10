@@ -1,0 +1,21 @@
+{
+  "bangumiId": 358584,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 在中文原名、英文别名、首播年份（2022）、剧情、媒介（中国大陆 Bilibili 网络动画）及制作信息上吻合。TMDB 第1季实际包含完整40集，集名和播出日期与 Bangumi 集表对应，且没有混入其他作品，因此采用整季映射。未发现旧版、新版、OVA、音乐录像或合集混淆。\n\nhttps://www.themoviedb.org/tv/155332 (api_snapshot): TMDB TV 155332 原名为《我的异界之旅》，首播日期为2022-01-13，剧情为陈小凡误吞混元珠进入异世界并踏上修炼之路；共1季40集，制作公司包括 bilibili。\n\nhttps://www.themoviedb.org/tv/155332/season/1 (api_snapshot): TMDB 第1季实际集表覆盖第1至第40集，首集和末集标题、剧情及日期均与 Bangumi 集表对应，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/358584 (api_snapshot): Bangumi 原始 API 信息确认该主体为2022-01-13开始的 Bilibili WEB 动画，共40集，导演/总导演为独木成林，制作方为 bilibili，剧情与 TMDB 一致。\n\nhttps://www.bilibili.com/bangumi/play/ep459444 (search_snippet): Bilibili 官方页面显示《我的异界之旅》为2022年已完结、全40话，并列出与该剧情动画相符的配音及剧集信息。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/358584; https://www.themoviedb.org/tv/155332; https://www.themoviedb.org/tv/155332/season/1; https://api.bgm.tv/v0/subjects/358584; https://www.bilibili.com/bangumi/play/ep459444",
+    "verifiedAt": "2026-09-08T23:09:31.922Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 155332,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

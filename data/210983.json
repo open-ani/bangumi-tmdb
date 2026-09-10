@@ -1,0 +1,21 @@
+{
+  "bangumiId": 210983,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: 应对应 TMDB TV 71743 的完整第1季。除标题一致外，TMDB 的首播日期 2017-01-26 与 Bangumi 相同；同期资料确认该作品是为さくらインターネット创业20周年制作的原创短篇网络动画，讲述远野公平、大友银次、滨田沙织三人重新面对“想做之事”，由 WHITE FOX 制作、碇谷敦执导，身份和媒介均吻合。TMDB 实际季表只有 S1E1，且该季没有混入其他作品，因此应映射完整 S1。Bangumi 所列4个无标题分集与 TMDB 及其他动画资料所记“单集约4分钟”不一致，较可能是误把时长或片内段落录成了4集；不应据此虚构 TMDB 的第2至第4集。\n\nhttps://api.bgm.tv/v0/subjects/210983 (api_snapshot): Fresh Bangumi 记录作品为2017-01-26发布的WEB动画《SAKURA Internet 新生》，内容是さくらインターネット创业20周年纪念短篇；分集字段为4，但四个分集均无标题和日期。\n\nhttps://www.themoviedb.org/tv/71743 (api_snapshot): 已读取 TMDB TV 71743 详情：原名 SAKURA internet，首播及末播日期均为2017-01-26，状态为完结，共1季1集。\n\nhttps://www.themoviedb.org/tv/71743/season/1 (api_snapshot): 已读取真实季表：第1季总计1集，唯一的S1E1日期为2017-01-26；total_pages=1，没有后续分页或其他作品混入。\n\nhttps://www.atpress.ne.jp/news/120353 (page): 制作方发布的同期资料确认这是さくらインターネット创业20周年纪念动画，2017-01-26公开；故事围绕远野公平、大友银次、滨田沙织三人，WHITE FOX制作、碇谷敦执导，声优为铃木达央、浅沼晋太郎、水濑祈。\n\nhttps://nlab.itmedia.co.jp/cont/articles/3263699/ (page): 同期报道明确称作品为动画《さくらインターネット 新生》，于2017-01-26在特设网站及YouTube公开，并核对了三名角色、WHITE FOX、碇谷敦及主要声优。\n\nhttps://animeschedule.net/anime/sakura-internet-shinsei (search_snippet): 检索摘要将 Sakura Internet Shinsei 记为2017-01-26发布的原创ONA，共1集、每集约4分钟，制作公司为White Fox。\n\n备注：Bangumi 的“4集”与同期资料及 TMDB 的“1集短片”存在计数冲突；由于其四个分集均为空白，无法证明存在四个独立发行单元，但这不影响将 TMDB 唯一且完整的第1季对应到该短片。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/210983; https://api.bgm.tv/v0/subjects/210983; https://www.themoviedb.org/tv/71743; https://www.themoviedb.org/tv/71743/season/1; https://www.atpress.ne.jp/news/120353; https://nlab.itmedia.co.jp/cont/articles/3263699/; https://animeschedule.net/anime/sakura-internet-shinsei",
+    "verifiedAt": "2026-09-09T01:31:59.937Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 71743,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 88321,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品为《おまかせスクラッパーズ》（Omakase Scrappers），不是电影、OVA 或其他合集。Bangumi 与独立资料均指向 1994 年 NHK BS2 播出的日本电视动画：首播 1994-04-07、共 39 集，剧情、原作《ろぼっと球団ガラクターズ》、导演大庭秀昭、系列构成星山博之、人物设定青木悠三及 ACCプロダクション/JCF 制作信息一致。TMDB 309874 的详情为同名日文 TV、1994-04-07、1 季 39 集；实际季表覆盖第 1 至第 39 集且只有一页，因此可映射整季。另一个搜索到的 TMDB 271788 虽有 Omakase Scrappers 别名，但详情是阿拉伯标题、1994-06-01、仅 1 集，属于错误或不完整条目，已排除。\n\nhttps://api.bgm.tv/v0/subjects/88321 (api_snapshot): Bangumi 原始 API 信息：平台为 TV，首播 1994-04-07，共 39 集；简介、原作、剧情、制作公司和工作人员与该作品相符。\n\nhttps://bgm.tv/subject/88321 (page): Bangumi 页面确认标题、中文名、39 集、1994-04-07、NHK BS2、别名 Leave it to scrappers!/Omakase Scrappers，以及大庭秀昭、星山博之、青木悠三、ACCプロダクション、ジェイ・シー・エフ等信息。\n\nhttps://www.themoviedb.org/tv/309874 (api_snapshot): TMDB 详情实际读取到：TV ID 309874，日文原名与 Bangumi 一致，首播 1994-04-07，1 季、39 集，状态 Ended。\n\nhttps://www.themoviedb.org/tv/309874/season/1 (api_snapshot): TMDB 第 1 季实际读取到 episodeCount=39、total_pages=1，集号连续覆盖 1–39，未混入其他作品。\n\nhttps://www.allcinema.net/cinema/pdf/235204 (search_snippet): 独立资料交叉确认这是 1994 年日本 TV 动画，NHK BS2 播出 1994-04-07 至 1995-01-05，共 39 集，并列出相同剧情、原作、导演及制作人员。\n\nhttps://www.themoviedb.org/tv/271788 (api_snapshot): TMDB 另一候选虽有 alternative title Omakase Scrappers，但详情为阿拉伯标题、1994-06-01、仅 1 集，和 Bangumi 主体及 39 集 TV 版本不符。\n\n备注：TMDB 309874 的第 17–39 集缺少 air date，且 TMDB 简介和工作人员字段不完整；但季表的 39 个连续集号、Bangumi 原始数据及独立资料共同确认整季范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/88321; https://api.bgm.tv/v0/subjects/88321; https://www.themoviedb.org/tv/309874; https://www.themoviedb.org/tv/309874/season/1; https://www.allcinema.net/cinema/pdf/235204; https://www.themoviedb.org/tv/271788",
+    "verifiedAt": "2026-09-08T19:23:55.411Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 309874,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

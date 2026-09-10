@@ -1,0 +1,21 @@
+{
+  "bangumiId": 309899,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目《獭獭突然想到》与 Bangumi 主体在标题、首播日期（2020-07-08）、剧情简介、制作方 Orion、导演/工作人员及 12 集主体内容上逐项吻合。TMDB 第 1 季实际包含 12 集，集名与 Bangumi regularEpisodes 1–12 完全对应；Bangumi 的额外 4 个 special 不应混入该整季映射。TMDB 第 2 季为 2022 年后续作品，对应另一个 Bangumi 条目，不纳入本主体。\n\nhttps://api.bgm.tv/v0/subjects/309899 (api_snapshot): Bangumi 原始信息显示主体首播于 2020-07-08，regularEpisodeCount 为 12，且第 1–12 集标题与 TMDB 第 1 季逐集一致；制作人员包括山药Gon、海哥、Orion 等。\n\nhttps://www.themoviedb.org/tv/157877 (api_snapshot): TMDB TV 157877 的原始标题和名称均为《獭獭突然想到》，首播日期为 2020-07-08，剧情简介与 Bangumi 相同，制作公司为 Orion，导演工作人员包含海哥；条目共有两个季。\n\nhttps://www.themoviedb.org/tv/157877/season/1 (api_snapshot): TMDB 第 1 季首播于 2020-07-08，共 12 集；集名和日期覆盖并逐一对应 Bangumi regularEpisodes 1–12，因此可使用整季映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/309899; https://api.bgm.tv/v0/subjects/309899; https://www.themoviedb.org/tv/157877; https://www.themoviedb.org/tv/157877/season/1",
+    "verifiedAt": "2026-09-08T22:05:11.436Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 157877,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

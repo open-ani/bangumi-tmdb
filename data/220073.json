@@ -1,0 +1,20 @@
+{
+  "bangumiId": 220073,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: 应对应 TMDB 电影 994125，而非 1980 年播出的 TV 主系列。TMDB 电影条目的原名为「おじゃまんが山田くん」，上映日为 1981-03-14，片长 27 分，剧情明确为该 TV 动画的剧场版新作，包含职业摔跤选拔和网球俱乐部两段故事，并注明采用三话构成。导演为光延博愛，原作/剧本人员与 Bangumi 简介中的作品身份一致。该 Bangumi subject 是单一剧场版作品，因此使用 movie，不填写季或集数范围。\n\nhttps://www.themoviedb.org/movie/994125 (search_snippet): TMDB 日文搜索同时返回 1980 年 TV 条目 44736 与 1981-03-14 的电影条目 994125；后者与 subject 日期和剧场版媒介相符。\n\nhttps://www.themoviedb.org/movie/994125 (api_snapshot): TMDB 详情确认类型为 movie、原名「おじゃまんが山田くん」、日期 1981-03-14、片长 27 分；剧情包含山田家的职业摔跤选拔和母子网球故事，并标明是 TV 动画的剧场版新作；工作人员包括原作 いしいひさいち、导演 光延博愛、剧本 金子裕/金春智子。\n\nhttps://api.bgm.tv/v0/subjects/220073 (api_snapshot): Bangumi fresh API 确认 subject 日期为 1981-03-14、平台为剧场版、话数为 1、片长 27 分，简介明确称其为 TV 动画的剧场版新作。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220073; https://www.themoviedb.org/movie/994125; https://api.bgm.tv/v0/subjects/220073",
+    "verifiedAt": "2026-09-08T21:01:39.979Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 994125,
+      "type": "movie"
+    }
+  ]
+}

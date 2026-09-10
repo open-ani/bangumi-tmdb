@@ -1,0 +1,21 @@
+{
+  "bangumiId": 53735,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 的日文原名、首播日（1987-10-17）、终播日（1988-10-01）、剧情、TV 媒介及制作背景一致；TMDB 详情确认仅有第1季且共43集，季表实际覆盖第1至第43集，未混入其他作品。Bangumi 记录的第42集虽未实际播出，但作为制作完成/编目集存在，TMDB 季表也保留该集，因此应映射整季。外部资料确认导演山田雄三、系列构成小山高生、角色设计金沢比呂司、音乐菊池俊輔、动画制作Studio Comet、制作NAS。\n\nhttps://api.bgm.tv/v0/subjects/53735 (api_snapshot): Bangumi fresh API 确认作品为 TV，1987-10-17 开播，共43话；剧情、导演、系列构成、音乐、角色设计及动画制作信息与该版本相符。\n\nhttps://www.themoviedb.org/tv/208221 (api_snapshot): TMDB 详情确认原名为「ついでにとんちんかん」，首播日1987-10-17、终播日1988-10-01、共1季43集；剧情为四人盗贼团与警方的喜剧故事。\n\nhttps://www.themoviedb.org/tv/208221/season/1 (api_snapshot): TMDB第1季实际返回43集，episode_number连续覆盖1至43；第42集虽无播出日期但确实存在于季表。\n\nhttps://www.adkem.jp/works02/%E3%81%A4%E3%81%84%E3%81%A7%E3%81%AB%E3%81%A8%E3%82%93%E3%81%A1%E3%82%93%E3%81%8B%E3%82%93/ (page): ADK官方作品页确认该作是1987-10-17至1988-10-01播出的TV喜剧动画，剧情、导演、角色设计、音乐及Studio Comet制作信息吻合；官方按实际播出统计为42本，解释了第42集未播出的差异。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20462001&workId=20462 (page): d动画官方资料确认1987年作品、剧情、导演山田雄三、系列构成小山高生、角色设计金沢比呂司、音乐菊池俊輔、动画制作Studio Comet及制作NAS；页面按公开播出集数列为42话。\n\n备注：第42集因停播未实际播出，部分官方/流媒体资料按播出集数统计为42话；Bangumi与TMDB均将其作为第42集编入全集，因此这里采用TMDB季表对Bangumi主体的43话覆盖。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53735; https://api.bgm.tv/v0/subjects/53735; https://www.themoviedb.org/tv/208221; https://www.themoviedb.org/tv/208221/season/1; https://www.adkem.jp/works02/%E3%81%A4%E3%81%84%E3%81%A7%E3%81%AB%E3%81%A8%E3%82%93%E3%81%A1%E3%82%93%E3%81%8B%E3%82%93/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=20462001&workId=20462",
+    "verifiedAt": "2026-09-08T19:00:41.798Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 208221,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

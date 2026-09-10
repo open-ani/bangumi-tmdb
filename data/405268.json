@@ -1,0 +1,21 @@
+{
+  "bangumiId": 405268,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-sol: TMDB TV 224437 与该 subject 的原名、2023-04-13 首播日、雷期及“钛极鼎”小队的科幻剧情、导演萨拉雷，以及虚拟影业和 bilibili 制作信息全部吻合，可排除同名误配。实际读取的 TMDB 第1季只有25集，内容从第1话《危机案件》至第25话《梦境成像实验》，没有混入其他作品；bilibili 海外官方播放页同样仅列第1–25集，国内官方第25话页面的标题也与 TMDB 第25集完全一致。因此应映射为 TV 224437 的完整第1季。Bangumi 的50话及延伸到2024年的后25条记录与实际播放集表冲突，应视为错误或预排数据，而不是要求映射不存在的 TMDB 第26–50集。\n\nhttps://api.bgm.tv/v0/subjects/405268 (api_snapshot): Bangumi API 记录本作为2023-04-13开播的WEB动画，剧情涉及雷期、外骨骼装甲小队和“山海际会”组织，导演刘怀（萨拉雷），动画制作虚拟影业，制作为bilibili、虚拟影业；但话数标为50。\n\nhttps://www.themoviedb.org/tv/224437 (api_snapshot): TMDB详情显示原名《山海际会》、首播日2023-04-13，剧情中的雷期、“钛极鼎”小队及梦境/象限世界设定吻合；制作公司为Guangzhou Virtual Pictures和bilibili，导演为萨拉雷，并记录为1季25集。\n\nhttps://www.themoviedb.org/tv/224437/season/1 (api_snapshot): 实际读取的TMDB第1季季表共有25集且仅一页；第1集为《危机案件》，第2集为《第一次交火》，第25集为《梦境成像实验》。\n\nhttps://www.bilibili.tv/en/play/2100521 (page): bilibili海外官方《M&S Organization》页面注明原名《山海际会》、2023年4月开播，正式集表仅分为1–20和21–25。\n\nhttps://www.bilibili.com/bangumi/play/ep741619 (page): bilibili国内官方播放页确认《山海际会》第25话题名为《梦境成像实验》，与TMDB S1E25一致；该页同时暴露“全50话”元数据与实际播放项目数量不一致的问题。\n\nhttps://bgm.tv/subject/405268 (page): Bangumi网页确认该subject为WEB动画《山海际会》，首播日、导演、虚拟影业及bilibili制作信息均与TMDB 224437一致，但站内生成了50个章节条目。\n\n备注：bilibili国内页面仍显示“全50话”，但其实际正式剧情集与海外官方页面均只到第25话；该数字可能源于预告、会员版等重复播放项目或早期计划，具体后台计数原因未获官方说明。；TMDB个别集的播出日期可能存在录入偏差，但不影响作品身份、季号及完整25集范围的判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/405268; https://api.bgm.tv/v0/subjects/405268; https://www.themoviedb.org/tv/224437; https://www.themoviedb.org/tv/224437/season/1; https://www.bilibili.tv/en/play/2100521; https://www.bilibili.com/bangumi/play/ep741619",
+    "verifiedAt": "2026-09-09T03:17:36.621Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 224437,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "bangumiId": 423503,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体完全对应：日文原名、罗马字别名、2023-03-31 日期一致；TMDB 标为已发行的日语电影，片长 8 分钟，导演和编剧均为江上雅之，且演员包含相川奏多。官方《あにめのたね2023》页面确认该作品的剧情及江上雅之的原案、导演、脚本身份。Bangumi 记录为单集 WEB 动画，因此应映射为独立 movie，不存在 TV 季或集数范围。\n\nhttps://www.themoviedb.org/movie/1265727 (api_snapshot): TMDB 详情：原名为「もしメタ -もし女子高生がメタバースで巫女になったら-」，日期 2023-03-31，日语，片长 8 分钟，状态 Released；导演及编剧均为江上雅之，配音演员包含相川奏多。\n\nhttps://animenotane.jp/2023/anim_info/moshi-meta/ (search_snippet): 官方页面确认作品剧情为近未来日本的女子高中生在元宇宙世界中成为巫女，并列出江上雅之负责原案、导演、脚本、分镜。\n\nhttps://api.bgm.tv/v0/subjects/423503 (api_snapshot): Bangumi API 原始资料：2023-03-31、WEB、总集数 1，标题及剧情与 TMDB 条目一致；项目归属于「あにめのたね2023」。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/423503; https://www.themoviedb.org/movie/1265727; https://animenotane.jp/2023/anim_info/moshi-meta/; https://api.bgm.tv/v0/subjects/423503",
+    "verifiedAt": "2026-09-08T23:44:55.854Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1265727,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 390894,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-5.6-luna: Bangumi fresh API确认该作是2022-09-30开始、WEB媒介、优酷播出的26集动画，剧情围绕沈三公子、弃剑山庄与《万藏剑经》展开；其制作信息包括两点十分动漫与优酷。TMDB 211323具有相同中文原名、首播日期、剧情、制作公司（2:10 AM Animation、Youku）及26集总数，且第1季实际集表连续覆盖第1至26集，因此可匹配为完整第1季。TMDB 138058明确标为“万古剑神 动态漫画”，无首播日期且为38集，是不同版本，已排除。\n\nhttps://api.bgm.tv/v0/subjects/390894 (api_snapshot): Bangumi fresh API：2022-09-30、WEB、优酷、26集；剧情为沈三公子、弃剑山庄和《万藏剑经》；制作信息包含优酷、两点十分动漫等。\n\nhttps://www.themoviedb.org/tv/211323 (api_snapshot): TMDB详情：原名“万古剑神”，首播2022-09-30，剧情与Bangumi一致，已完结、26集、1季，制作公司为2:10 AM Animation和Youku。\n\nhttps://www.themoviedb.org/tv/211323/season/1 (api_snapshot): TMDB第1季实际集表显示第1至26集，total_pages=1，完整覆盖目标26集。\n\nhttps://www.themoviedb.org/tv/138058 (api_snapshot): TMDB详情显示该条目为“万古剑神 动态漫画”，别名含2021版本，38集且仍在连载，属于不同媒介/版本。\n\n备注：TMDB 211323的crew字段为空，具体导演、编剧等人员以Bangumi fresh API的制作信息为依据；这不影响作品身份、版本和集数范围的匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/390894; https://api.bgm.tv/v0/subjects/390894; https://www.themoviedb.org/tv/211323; https://www.themoviedb.org/tv/211323/season/1; https://www.themoviedb.org/tv/138058",
+    "verifiedAt": "2026-09-08T23:28:52.477Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 211323,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
