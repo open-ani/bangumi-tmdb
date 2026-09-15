@@ -13,7 +13,9 @@
 
 `sources/seed.json` 保存 12,835 条来源记录，包含 AniDB 等外部 ID，用于后续核对和补充映射。
 
-后续更新使用 [Bangumi Archive](https://github.com/bangumi/Archive) 和 TMDB，覆盖全部动画类型。
+现有映射以作品和季为单位；逐集对应关系由定时任务逐步补齐：能按放送日期确定性推导的直接写入 `rules`，其余交给 Codex 研究。
+
+后续更新使用 [Bangumi Archive](https://github.com/bangumi/Archive)（每周）、Bangumi API（每日增量）和 TMDB。定时任务只研究近期与未放送的新条目，早期积压由维护者离线批处理。
 
 ## 数据消费
 
@@ -65,15 +67,21 @@ pnpm publish-data
 # 下载、校验并缓存 Archive。
 pnpm archive
 
+# 从 Bangumi API 刷新近期条目，作为 Archive 之上的覆盖层。
+pnpm cli discover
+
 # 通过 AniDB 标题数据和 Anime-Lists 交叉核对，结果写入 sources/anidb-check.json。
 pnpm cli check-anidb
 
-# 从 .env 读取配置。
+# 从 .env 读取配置：核验既有映射、推导逐集规则、研究新条目。
 node --env-file=.env --import tsx src/cli.ts update
 node --env-file=.env --import tsx src/cli.ts verify
+
+# 把已复核的未定项记入 state/progress.json，180 天内不再重试。
+pnpm cli import-pending docs/unresolved-mappings-2026-09-10.md 180
 ```
 
-若环境变量已经设置，可以直接运行 `pnpm run update`、`pnpm cli verify`。`pnpm publish-data` 使用现有数据生成文件；加上 `--online` 可同时核验 TMDB。
+若环境变量已经设置，可以直接运行 `pnpm run update`、`pnpm cli verify`。`pnpm publish-data` 使用现有数据生成文件；加上 `--online` 可同时核验 TMDB。缓存默认在 `.cache/`，可用 `DATASET_CACHE` 指到别处。
 
 ## 社区贡献
 

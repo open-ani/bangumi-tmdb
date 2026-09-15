@@ -1,6 +1,6 @@
 import { join, resolve } from 'node:path';
 import { readFile, readdir, lstat } from 'node:fs/promises';
-import { AnidbReport, Catalog, Mapping, Progress, Seeds } from './model.js';
+import { AnidbReport, Mapping, Progress, Seeds } from './model.js';
 import { mappings, readJson, stable, writeJson } from './io.js';
 import { schemas } from './schemas.js';
 import { validateAll } from './expand.js';
@@ -11,6 +11,9 @@ import { Tmdb, verifyMapping } from './tmdb.js';
 import { publish } from './publish.js';
 import { guard } from './guard.js';
 import { checkAnidb } from './anidb.js';
+import { discover } from './bangumi.js';
+import { loadCatalog } from './catalog.js';
+import { importPending } from './pending.js';
 
 const root = resolve(process.env.DATASET_ROOT ?? '.');
 const command = process.argv[2];
@@ -37,6 +40,10 @@ try {
     case 'import-mappings': await importMappings(root); break;
     case 'check-anidb': await checkAnidb(root, process.argv[3]); break;
     case 'archive': await syncArchive(root); break;
+    case 'discover':
+      await discover(root, { pastDays: positive('DISCOVER_PAST_DAYS', 45), futureDays: positive('DISCOVER_FUTURE_DAYS', 120),
+        maxSubjects: positive('DISCOVER_MAX_SUBJECTS', 600), token: process.env.BANGUMI_TOKEN });
+      break;
     case 'validate': await validate(); break;
     case 'format':
       for (const name of await readdir(join(root, 'data'))) {
@@ -47,18 +54,25 @@ try {
       }
       break;
     case 'update':
-      await update(root, { maxSubjects: positive('CODEX_MAX_SUBJECTS', 100), maxMinutes: positive('UPDATE_MAX_MINUTES', 60), model: process.env.CODEX_MODEL });
+      await update(root, { maxSubjects: positive('CODEX_MAX_SUBJECTS', 60), maxMinutes: positive('UPDATE_MAX_MINUTES', 60),
+        concurrency: positive('CODEX_CONCURRENCY', 4), scopeDays: positive('UPDATE_SCOPE_DAYS', 180),
+        researchMinutes: positive('CODEX_TIMEOUT_MINUTES', 8), tmdbBudget: positive('CODEX_TMDB_BUDGET', 16), webBudget: positive('CODEX_WEB_BUDGET', 8),
+        model: process.env.CODEX_MODEL || undefined, reasoning: process.env.CODEX_REASONING || undefined });
       break;
+    case 'import-pending': {
+      if (!process.argv[3]) throw new Error('Usage: pnpm cli import-pending <unresolved.md> [retryDays]');
+      await importPending(root, process.argv[3], Number(process.argv[4] ?? 180)); break;
+    }
     case 'verify': {
       await validate();
-      const catalog = await readJson(join(root, '.cache/catalog.json'), Catalog);
+      const { catalog } = await loadCatalog(root);
       const tmdb = new Tmdb(process.env.TMDB_READ_TOKEN ?? '');
       for (const row of await mappings(root)) await verifyMapping(row, tmdb, catalog);
       console.log('All mappings verified against Archive and live TMDB'); break;
     }
     case 'guard': await guard(root, process.argv[3] ?? ''); break;
     case 'publish': await publish(root, process.argv.includes('--online')); break;
-    default: throw new Error('Usage: pnpm cli <import-seed [SHA]|import-mappings|check-anidb [SHA]|archive|validate|format|update|verify|guard SHA|publish [--online]>');
+    default: throw new Error('Usage: pnpm cli <import-seed [SHA]|import-mappings|check-anidb [SHA]|archive|discover|validate|format|update|import-pending FILE [DAYS]|verify|guard SHA|publish [--online]>');
   }
 } catch (error) {
   console.error(error instanceof Error ? error.message : String(error)); process.exitCode = 1;

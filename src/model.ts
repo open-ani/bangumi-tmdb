@@ -45,12 +45,23 @@ export const Mapping = z.strictObject({
   targets: z.array(SubjectTarget),
   provenance: Provenance,
 });
-// Nullable properties are required: compatible with Codex strict structured output.
-export const Decision = z.strictObject({
-  status: z.enum(['matched', 'pending', 'query']),
+// Codex strict structured outputs require every property; optional scope fields are nullable instead.
+export const ResearchTarget = z.strictObject({
+  type: z.enum(['movie', 'tv']), id: Id,
+  season: Natural.nullable(), episode: Id.nullable(), episodeEnd: Id.nullable(),
+});
+export const ResearchProposal = z.strictObject({
+  targets: z.array(ResearchTarget).max(50), rules: z.array(Rule).max(200), overrides: z.array(Override).max(500),
+});
+export const Research = z.strictObject({
+  bangumiId: Id,
+  status: z.enum(['matched', 'pending']),
+  proposal: ResearchProposal.nullable(),
   reason: z.string().min(1).max(20000),
-  proposal: Proposal.nullable(),
-  queries: z.array(z.string().min(1).max(200)).max(3),
+  evidence: z.array(z.strictObject({
+    url: z.string().max(2000), fact: z.string().min(1).max(4000), access: z.enum(['page', 'search_snippet', 'api_snapshot']),
+  })).max(40),
+  uncertainties: z.array(z.string().min(1).max(4000)).max(40),
 });
 export const SeedLink = z.discriminatedUnion('type', [
   z.strictObject({ type: z.literal('movie'), id: Id }),
@@ -86,7 +97,16 @@ export const Progress = z.strictObject({
   subjects: z.record(z.string().regex(/^[1-9]\d*$/), z.strictObject({
     fingerprint: z.string(), attemptedAt: z.iso.datetime(), retryAt: z.iso.datetime(),
     status: z.enum(['matched', 'pending', 'error', 'locked']), reason: z.string(),
+    attempts: z.number().int().nonnegative().default(0),
   })),
+});
+// Bangumi API overlay on top of the weekly Archive. Entries newer than the dump win.
+export const FreshSubject = z.strictObject({ fetchedAt: z.iso.datetime(), subject: Subject, episodes: z.array(Episode) });
+export const FreshMissing = z.strictObject({
+  id: Id, fetchedAt: z.iso.datetime(), status: z.enum(['merged', 'missing']), target: Id.optional(),
+});
+export const Fresh = z.strictObject({
+  schemaVersion: z.literal(1), subjects: z.array(FreshSubject), missing: z.array(FreshMissing),
 });
 export const AnidbCheck = z.strictObject({
   bangumiId: Id, anidbId: Id,
@@ -104,6 +124,9 @@ export type WorkTarget = z.infer<typeof WorkTarget>;
 export type SubjectTarget = z.infer<typeof SubjectTarget>;
 export type EpisodeTarget = z.infer<typeof EpisodeTarget>;
 export type Proposal = z.infer<typeof Proposal>;
+export type Rule = z.infer<typeof Rule>;
+export type EpisodeRef = z.infer<typeof EpisodeRef>;
+export type Override = z.infer<typeof Override>;
 export type Mapping = z.infer<typeof Mapping>;
 export type SeedRow = z.infer<typeof SeedRow>;
 export type Seeds = z.infer<typeof Seeds>;
@@ -111,6 +134,9 @@ export type Subject = z.infer<typeof Subject>;
 export type Episode = z.infer<typeof Episode>;
 export type Catalog = z.infer<typeof Catalog>;
 export type Progress = z.infer<typeof Progress>;
-export type Decision = z.infer<typeof Decision>;
+export type Research = z.infer<typeof Research>;
+export type ResearchProposal = z.infer<typeof ResearchProposal>;
+export type Fresh = z.infer<typeof Fresh>;
+export type FreshSubject = z.infer<typeof FreshSubject>;
 export type AnidbCheck = z.infer<typeof AnidbCheck>;
 export type AnidbReport = z.infer<typeof AnidbReport>;

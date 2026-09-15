@@ -1,9 +1,19 @@
 name: Update mappings
 on:
   schedule:
-    # UTC Tuesday/Saturday 23:17 = Wednesday/Sunday 07:17 in Asia/Shanghai.
-    - cron: '17 23 * * 2,6'
+    # Daily at UTC 22:17 = 06:17 in Asia/Shanghai. The Tuesday run also picks up the weekly Archive dump
+    # that bangumi/Archive publishes around 21:03 UTC.
+    - cron: '17 22 * * *'
   workflow_dispatch:
+    inputs:
+      max_subjects:
+        description: 'Codex subjects for this run (blank = repository variable or default)'
+        required: false
+        default: ''
+      refresh_anidb:
+        description: 'Refresh the AniDB cross-check in this run'
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -17,11 +27,16 @@ jobs:
       vars.AUTOMATION_ENABLED == 'true' &&
       (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     runs-on: [self-hosted, macOS, ARM64]
-    timeout-minutes: 100
+    timeout-minutes: 110
     env:
-      CODEX_MAX_SUBJECTS: ${{ vars.CODEX_MAX_SUBJECTS || '100' }}
-      UPDATE_MAX_MINUTES: ${{ vars.UPDATE_MAX_MINUTES || '60' }}
+      CODEX_MAX_SUBJECTS: ${{ github.event.inputs.max_subjects || vars.CODEX_MAX_SUBJECTS || '60' }}
+      CODEX_CONCURRENCY: ${{ vars.CODEX_CONCURRENCY || '4' }}
+      CODEX_TIMEOUT_MINUTES: ${{ vars.CODEX_TIMEOUT_MINUTES || '8' }}
       CODEX_MODEL: ${{ vars.CODEX_MODEL }}
+      CODEX_REASONING: ${{ vars.CODEX_REASONING || 'high' }}
+      UPDATE_MAX_MINUTES: ${{ vars.UPDATE_MAX_MINUTES || '75' }}
+      UPDATE_SCOPE_DAYS: ${{ vars.UPDATE_SCOPE_DAYS || '180' }}
+      DISCOVER_MAX_SUBJECTS: ${{ vars.DISCOVER_MAX_SUBJECTS || '600' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,6 +46,12 @@ jobs:
         with:
           node-version: '24'
       - uses: pnpm/action-setup@v4
+      - name: Set up tool PATH
+        # The shared Mac mini keeps codex in ~/.local/bin and gh/node under Homebrew; neither is on the runner's default PATH.
+        shell: bash
+        run: |
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          echo "/opt/homebrew/bin" >> "$GITHUB_PATH"
       - name: Verify runner prerequisites
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
@@ -41,18 +62,33 @@ jobs:
           command -v codex
           command -v gh
           command -v unzip
+          command -v zip
+          test -f "${CODEX_HOME:-$HOME/.codex}/auth.json" || { echo '::error::codex is not logged in on this runner'; exit 1; }
           test -n "$TMDB_READ_TOKEN" || { echo '::error::TMDB_READ_TOKEN is missing'; exit 1; }
           test -n "$GH_TOKEN" || { echo '::error::OPENANI_BOT_TOKEN is missing'; exit 1; }
           test "$(gh api user --jq .login)" = openanibot
           codex login status
           echo "UPDATE_BASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          # Archive dump, catalog, API overlay, TMDB cache and research audit logs survive checkout cleanup here.
+          mkdir -p "$HOME/.cache/bangumi-tmdb"
+          echo "DATASET_CACHE=$HOME/.cache/bangumi-tmdb" >> "$GITHUB_ENV"
       - run: pnpm install --frozen-lockfile
       - run: pnpm check && pnpm test && pnpm validate
-      - run: pnpm archive
-      - name: Cross-check AniDB references
+      - name: Sync the weekly Archive dump
+        run: pnpm archive
+      - name: Refresh recent subjects from the Bangumi API
         continue-on-error: true
-        run: pnpm cli check-anidb
-      - name: Match and audit
+        env:
+          BANGUMI_TOKEN: ${{ secrets.BANGUMI_TOKEN }}
+        run: pnpm cli discover
+      - name: Cross-check AniDB references
+        # Weekly (Wednesday UTC, right after the Archive dump) or on request; AniDB asks for at most one title fetch a day.
+        if: github.event.inputs.refresh_anidb == 'true' || github.event_name == 'schedule'
+        continue-on-error: true
+        shell: bash
+        run: |
+          if test "${{ github.event.inputs.refresh_anidb }}" = true || test "$(date -u +%u)" = 3; then pnpm cli check-anidb; else echo 'Skipped until Wednesday'; fi
+      - name: Verify, derive episode rules and research
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
         run: pnpm run update
@@ -65,6 +101,6 @@ jobs:
         if: always()
         shell: bash
         run: |
-          if test -f .cache/update-report.json; then
+          if test -f "$DATASET_CACHE/update-report.json"; then
             node scripts/summary.mjs >> "$GITHUB_STEP_SUMMARY"
           fi

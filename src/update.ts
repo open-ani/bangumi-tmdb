@@ -1,153 +1,227 @@
 import { join } from 'node:path';
 import { readFile } from 'node:fs/promises';
-import { AnidbReport, Catalog, Mapping, Progress, Seeds, type Subject, type Episode, type Proposal, type AnidbCheck } from './model.js';
-import { hash, mappings, readJson, stable, writeJson } from './io.js';
-import { candidates, deterministic, extraCandidates } from './match.js';
-import { Tmdb, verifyMapping, type Candidate } from './tmdb.js';
-import { runCodex } from './codex.js';
-import { expand, targetKey, validateAll } from './expand.js';
+import { AnidbReport, Mapping, Progress, Seeds, type AnidbCheck, type Catalog, type Episode, type SeedRow, type Subject, type Research } from './model.js';
+import { cacheDir, hash, mappings, readJson, stable, writeJson } from './io.js';
+import { Tmdb, verifyMapping } from './tmdb.js';
+import { loadCatalog } from './catalog.js';
+import { derive, extend } from './rules.js';
+import { requireEvidence, runResearch, toProposal } from './research.js';
+import { validateAll } from './expand.js';
 
 // Increment whenever evidence extraction, matching rules or prompts change.
-export const MATCHER_VERSION = '1';
+export const MATCHER_VERSION = '2';
 const DAY = 86400000;
-export function fingerprint(subject: Subject, episodes: Episode[], relations: unknown, seed: unknown, model: string): string {
-  return hash(stable({ subject, episodes, relations, seed, model, version: MATCHER_VERSION }));
+export const PENDING_BACKOFF_DAYS = [7, 14, 28, 56, 90];
+type ProgressEntry = Progress['subjects'][string];
+type Status = ProgressEntry['status'];
+type Relation = Catalog['relations'][number];
+
+// Only identity-bearing fields participate, so the same subject hashes alike whether it came from the
+// weekly Archive or the daily API overlay.
+export function fingerprint(subject: Subject | null, episodes: Episode[], relations: Relation[], hints: unknown, model: string): string {
+  return hash(stable({
+    subject: subject && { id: subject.id, name: subject.name, name_cn: subject.name_cn, date: subject.date },
+    episodes: episodes.map(e => ({ id: e.id, type: e.type, sort: e.sort, airdate: e.airdate })).sort((a, b) => a.id - b.id),
+    relations: relations.map(r => [r.related_subject_id, r.relation_type]).sort((a, b) => a[0]! - b[0]! || a[1]! - b[1]!),
+    hints, model, version: MATCHER_VERSION,
+  }));
 }
-export function orderQueue(catalog: Catalog, progress: Progress, rows: Mapping[], now: number): Subject[] {
-  const mapped = new Set(rows.filter(r => r.provenance.verifiedAt !== null).map(r => r.bangumiId));
-  const recent = (s: Subject) => Math.abs(Date.parse(s.date) - now) < 180 * DAY;
-  const olderFirst = (a: Subject, b: Subject) =>
-    (Date.parse(progress.subjects[String(a.id)]?.attemptedAt ?? '') || 0) -
-    (Date.parse(progress.subjects[String(b.id)]?.attemptedAt ?? '') || 0) || a.id - b.id;
-  const fresh = catalog.subjects.filter(s => !mapped.has(s.id) && recent(s)).sort(olderFirst);
-  const old = catalog.subjects.filter(s => !mapped.has(s.id) && !recent(s)).sort(olderFirst);
-  const audit = catalog.subjects.filter(s => mapped.has(s.id)).sort(olderFirst);
-  const ordered: Subject[] = [];
-  // Reserve 20% for history and existing mappings; neither can starve behind current-season work.
-  while (fresh.length || old.length || audit.length) {
-    ordered.push(...fresh.splice(0, 8), ...old.splice(0, 1), ...audit.splice(0, 1));
-    if (!fresh.length) ordered.push(...old.splice(0, 8), ...audit.splice(0, 2));
-  }
-  return ordered;
+// Automation only researches recent and upcoming works; the deep backlog is handled outside CI.
+export function inScope(subject: Subject, now: number, scopeDays: number): boolean {
+  const at = Date.parse(subject.date);
+  return Number.isFinite(at) && at >= now - scopeDays * DAY;
 }
-export function requireEvidence(proposal: Proposal, choices: Candidate[]): void {
-  for (const work of proposal.targets) {
-    if (!choices.some(c => c.target.type === work.type && c.target.id === work.id)) throw new Error('Codex proposed unseen work');
-  }
-  for (const rule of proposal.rules) {
-    if (!choices.some(c => c.target.type === 'tv' && c.target.id === rule.tmdbId &&
-      c.seasons.some(s => s.season_number === rule.season))) throw new Error('Codex proposed unseen season');
-  }
-  for (const override of proposal.overrides) for (const t of override.targets) {
-    if (t.type === 'tv' && !choices.some(c => c.target.type === 'tv' && c.target.id === t.id &&
-      c.seasons.some(s => s.season_number === t.season && s.episodes.some(e => e.episode_number === t.episode))))
-      throw new Error('Codex proposed unseen episode');
-  }
+export function retryDays(status: Status, attempts: number, subject: Subject | null, now: number): number {
+  if (status === 'error') return 1;
+  if (status !== 'pending') return 28;
+  const backoff = PENDING_BACKOFF_DAYS[Math.min(attempts, PENDING_BACKOFF_DAYS.length) - 1] ?? PENDING_BACKOFF_DAYS[0]!;
+  const premiere = Date.parse(subject?.date ?? '');
+  // A work that has not aired yet rarely exists on TMDB; look again shortly after its premiere.
+  return Number.isFinite(premiere) && premiere > now ? Math.max(backoff, Math.ceil((premiere - now) / DAY) + 3) : backoff;
 }
-export interface UpdateOptions { maxSubjects: number; maxMinutes: number; model?: string }
-export async function update(root: string, options: UpdateOptions): Promise<void> {
-  const catalog = await readJson(join(root, '.cache/catalog.json'), Catalog);
+export interface UpdateOptions {
+  maxSubjects: number; maxMinutes: number; concurrency: number; scopeDays: number; researchMinutes: number;
+  tmdbBudget: number; webBudget: number; model?: string | undefined; reasoning?: string | undefined; now?: number;
+}
+export interface Task { subject: Subject; kind: 'new' | 'retry' | 'episodes' | 'broken'; before?: Mapping }
+export interface Context {
+  episodes: Map<number, Episode[]>; relations: Map<number, Relation[]>; subjects: Map<number, Subject>;
+  seeds: Map<number, SeedRow>; anidb: Map<number, AnidbCheck>; model: string;
+}
+const olderFirst = (progress: Progress) => (a: number, b: number) =>
+  (Date.parse(progress.subjects[String(a)]?.attemptedAt ?? '') || 0) - (Date.parse(progress.subjects[String(b)]?.attemptedAt ?? '') || 0) || a - b;
+export function due(progress: Progress, id: number, print: string, before: Mapping | undefined, now: number): boolean {
+  const previous = progress.subjects[String(id)];
+  return !(previous && previous.fingerprint === hash(print + stable(before ?? null)) && Date.parse(previous.retryAt) > now);
+}
+function clean(e: Episode) { return { id: e.id, type: e.type, sort: e.sort, name: e.name, name_cn: e.name_cn, airdate: e.airdate }; }
+export function bundle(subject: Subject, ctx: Context, rows: Map<number, Mapping>, snapshot: string, before?: Mapping): unknown {
+  const all = [...(ctx.episodes.get(subject.id) ?? [])].sort((a, b) => a.type - b.type || a.sort - b.sort);
+  const regular = all.filter(e => e.type === 0);
+  const hint = ctx.seeds.get(subject.id);
+  const anidb = ctx.anidb.get(subject.id);
+  const hinted = new Set([...(hint?.tmdb ? [hint.tmdb] : []), ...(anidb?.targets ?? []), ...(before?.targets ?? [])].map(t => `${t.type}/${t.id}`));
+  const ownership = [...rows.values()].filter(r => r.bangumiId !== subject.id && r.targets.some(t => hinted.has(`${t.type}/${t.id}`)))
+    .slice(0, 20).map(r => ({ bangumiId: r.bangumiId, targets: r.targets }));
+  return {
+    bangumi: { id: subject.id, url: `https://bgm.tv/subject/${subject.id}`, name: subject.name, name_cn: subject.name_cn, date: subject.date, platform: subject.platform ?? null },
+    archiveSnapshot: snapshot, infobox: subject.infobox.slice(0, 6500), summary: subject.summary.slice(0, 4000),
+    regularEpisodeCount: regular.length, totalEpisodeCount: all.length,
+    regularEpisodes: (regular.length <= 120 ? regular : [...regular.slice(0, 60), ...regular.slice(-60)]).map(clean),
+    regularEpisodesTruncated: regular.length > 120, specialEpisodes: all.filter(e => e.type !== 0).slice(0, 30).map(clean),
+    relations: (ctx.relations.get(subject.id) ?? []).slice(0, 20).map(r => ({ relation_type: r.relation_type, related_subject_id: r.related_subject_id,
+      relatedName: ctx.subjects.get(r.related_subject_id)?.name ?? null, relatedDate: ctx.subjects.get(r.related_subject_id)?.date ?? null })),
+    hints: { seed: hint ?? null, anidb: anidb ? { anidbId: anidb.anidbId, status: anidb.status, targets: anidb.targets } : null },
+    existing: before ? { locked: before.locked, targets: before.targets, rules: before.rules, overrides: before.overrides,
+      provenance: { method: before.provenance.method, evidence: before.provenance.evidence.slice(0, 3000) } } : null,
+    ownership,
+  };
+}
+export function provenanceFromResearch(decision: Research, model: string, bangumiId: number, verifiedAt: string): Mapping['provenance'] {
+  const source = [...new Set([`https://bgm.tv/subject/${bangumiId}`, ...decision.evidence.map(e => e.url)])].slice(0, 40).join('; ');
+  const evidence = [`${model}: ${decision.reason}`, ...decision.evidence.map(e => `${e.url} (${e.access}): ${e.fact}`),
+    ...(decision.uncertainties.length ? [`备注：${decision.uncertainties.join('；')}`] : [])].join('\n\n').slice(0, 20000);
+  return { method: 'codex', source, evidence, verifiedAt };
+}
+const comparable = (m: Mapping) => stable({ episodes: m.episodes, targets: m.targets, rules: m.rules, overrides: m.overrides });
+
+export interface Loaded { catalog: Catalog; seed: Seeds; progress: Progress; existing: Mapping[]; ctx: Context }
+export async function loadContext(root: string, model: string): Promise<Loaded> {
+  const { catalog } = await loadCatalog(root);
   const seed = await readJson(join(root, 'sources/seed.json'), Seeds);
   const progress = await readJson(join(root, 'state/progress.json'), Progress);
   const existing = await mappings(root);
   validateAll(existing);
-  const rows = new Map(existing.map(r => [r.bangumiId, r]));
-  const seedMap = new Map(seed.rows.map(s => [s.bangumiId, s]));
-  let anidbChecks = new Map<number, AnidbCheck>();
+  const ctx: Context = { episodes: new Map(), relations: new Map(), subjects: new Map(catalog.subjects.map(s => [s.id, s])),
+    seeds: new Map(seed.rows.map(s => [s.bangumiId, s])), anidb: new Map(), model };
   try {
     const report = await readJson(join(root, 'sources/anidb-check.json'), AnidbReport);
-    anidbChecks = new Map(report.rows.map(row => [row.bangumiId, row]));
+    ctx.anidb = new Map(report.rows.map(row => [row.bangumiId, row]));
   } catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
-  const episodes = new Map<number, Episode[]>();
-  for (const ep of catalog.episodes) { const list = episodes.get(ep.subject_id) ?? []; list.push(ep); episodes.set(ep.subject_id, list); }
-  const relationMap = new Map<number, Catalog['relations']>();
-  for (const rel of catalog.relations) { const list = relationMap.get(rel.subject_id) ?? []; list.push(rel); relationMap.set(rel.subject_id, list); }
-  const subjectMap = new Map(catalog.subjects.map(s => [s.id, s]));
-  const cached = new Tmdb(process.env.TMDB_READ_TOKEN ?? '', join(root, '.cache/tmdb'));
-  const live = new Tmdb(process.env.TMDB_READ_TOKEN ?? '');
-  const started = Date.now();
-  const deadline = started + options.maxMinutes * 60000;
-  const report: { bangumiId: number; status: string; reason: string }[] = [];
+  for (const ep of catalog.episodes) { const list = ctx.episodes.get(ep.subject_id) ?? []; list.push(ep); ctx.episodes.set(ep.subject_id, list); }
+  for (const rel of catalog.relations) { const list = ctx.relations.get(rel.subject_id) ?? []; list.push(rel); ctx.relations.set(rel.subject_id, list); }
+  return { catalog, seed, progress, existing, ctx };
+}
+export const subjectPrint = (ctx: Context, id: number): string => fingerprint(ctx.subjects.get(id) ?? null, ctx.episodes.get(id) ?? [],
+  ctx.relations.get(id) ?? [], { hint: ctx.seeds.get(id), anidb: ctx.anidb.get(id) }, ctx.model);
+
+export async function update(root: string, options: UpdateOptions): Promise<void> {
+  const now = options.now ?? Date.now();
+  const { catalog, progress, existing, ctx } = await loadContext(root, options.model ?? 'default');
+  const rows = new Map(existing.map(r => [r.bangumiId, r]));
+  const token = process.env.TMDB_READ_TOKEN ?? '';
+  const cached = new Tmdb(token, join(cacheDir(root), 'tmdb'));
+  const live = new Tmdb(token);
+  // `now` stamps records and drives retry logic (tests pin it); budgets follow the wall clock.
+  const clock = Date.now();
+  const deadline = clock + options.maxMinutes * 60000;
+  const report: { bangumiId: number; status: string; kind: string; reason: string }[] = [];
   const changes = new Map<number, Mapping>();
-  let codexSubjects = 0;
-  for (const subject of orderQueue(catalog, progress, existing, started)) {
-    if (Date.now() > deadline - 15000) break;
-    const eps = episodes.get(subject.id) ?? [];
-    const rels = (relationMap.get(subject.id) ?? []).map(r => ({ ...r, subject: subjectMap.get(r.related_subject_id) }));
-    const hint = seedMap.get(subject.id);
-    const anidb = anidbChecks.get(subject.id);
-    const fp = fingerprint(subject, eps, rels, { hint, anidb }, options.model ?? 'default');
-    const previous = progress.subjects[String(subject.id)];
-    const before = rows.get(subject.id);
-    const fingerprintWithMapping = hash(fp + stable(before ?? null));
-    if (previous?.fingerprint === fingerprintWithMapping && Date.parse(previous.retryAt) > started) continue;
-    const record = (status: 'matched' | 'pending' | 'error' | 'locked', reason: string, days: number) => {
-      progress.subjects[String(subject.id)] = {
-        fingerprint: hash(fp + stable(rows.get(subject.id) ?? null)), attemptedAt: new Date(started).toISOString(),
-        retryAt: new Date(started + days * DAY).toISOString(), status, reason: reason.slice(0, 20000),
-      };
-      report.push({ bangumiId: subject.id, status, reason: reason.slice(0, 20000) });
-    };
+  const counts = { verified: 0, derived: 0, extended: 0, codexSubjects: 0, researchMatched: 0, absent: [] as number[] };
+  const print = (id: number) => subjectPrint(ctx, id);
+  const record = (id: number, kind: string, status: Status, reason: string, days?: number) => {
+    const previous = progress.subjects[String(id)];
+    const attempts = status === 'pending' ? (previous?.status === 'pending' ? previous.attempts : 0) + 1 : 0;
+    const retry = days ?? retryDays(status, attempts, ctx.subjects.get(id) ?? null, now);
+    progress.subjects[String(id)] = { fingerprint: hash(print(id) + stable(rows.get(id) ?? null)), attemptedAt: new Date(now).toISOString(),
+      retryAt: new Date(now + retry * DAY).toISOString(), status, reason: reason.slice(0, 20000), attempts };
+    report.push({ bangumiId: id, status, kind, reason: reason.slice(0, 20000) });
+  };
+  const fatal = (error: unknown) => /HTTP (401|403)/.test(String(error));
+  const apply = (row: Mapping, before: Mapping | undefined) => {
+    validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
+    if (!before || comparable(before) !== comparable(row)) { rows.set(row.bangumiId, row); changes.set(row.bangumiId, row); }
+  };
+  const research: Task[] = [];
+  // Phase 1: existing mappings. Verification, deterministic episode rules and rule extension cost only TMDB
+  // requests, so every due row is handled here; model work is deferred to phase 2.
+  const phaseOneDeadline = clock + options.maxMinutes * 60000 * 0.5;
+  for (const before of existing.filter(r => due(progress, r.bangumiId, print(r.bangumiId), r, now)).sort((a, b) => olderFirst(progress)(a.bangumiId, b.bangumiId))) {
+    if (Date.now() > phaseOneDeadline) break;
+    const subject = ctx.subjects.get(before.bangumiId);
+    if (!subject) { counts.absent.push(before.bangumiId); record(before.bangumiId, 'audit', 'error', 'Subject absent from the Bangumi catalog (merged or hidden?); maintainer review needed', 7); continue; }
+    const eps = ctx.episodes.get(subject.id) ?? [];
     try {
-      if (before?.locked) {
-        try { await verifyMapping(before, live, catalog); record('locked', 'Locked mapping verified; unchanged', 28); }
-        catch (error) { record('locked', `Locked mapping needs maintainer review: ${String(error)}`, 7); }
+      if (before.locked) {
+        try { await verifyMapping(before, live, catalog); record(subject.id, 'audit', 'locked', 'Locked mapping verified; unchanged'); }
+        catch (error) { if (fatal(error)) throw error; record(subject.id, 'audit', 'locked', `Locked mapping needs maintainer review: ${String(error)}`, 7); }
         continue;
       }
-      let choices = await candidates(subject, hint, cached);
-      for (const target of anidb?.targets ?? []) {
-        if (choices.some(c => c.target.type === target.type && c.target.id === target.id)) continue;
-        choices.push(await cached.candidate(target, subject.date, target.type === 'tv' ? target.season : undefined));
+      let candidate = before;
+      let note = '';
+      let uncovered = 0;
+      let retry: number | undefined;
+      if (!before.rules.length && !before.overrides.length) {
+        const derived = await derive(before, eps, cached);
+        if (derived) { candidate = derived.mapping; note = derived.note; counts.derived++; }
+        // Identity stays verified; episode research waits for model budget and is retried sooner than a full audit.
+        else { research.push({ subject, kind: 'episodes', before }); retry = 7; }
+      } else {
+        const extended = await extend(before, eps, cached, now);
+        candidate = extended.mapping; note = extended.note; uncovered = extended.uncovered;
+        if (extended.added) counts.extended++;
       }
-      // Include existing targets in a review even if name search no longer returns them.
-      if (before) for (const t of before.targets) {
-        if (!choices.some(c => c.target.type === t.type && c.target.id === t.id)) {
-          try { choices.push(await cached.candidate(t, subject.date)); } catch { /* Live verification still decides validity. */ }
-        }
+      await verifyMapping(candidate, live, catalog);
+      if (comparable(candidate) !== comparable(before)) {
+        const method = before.provenance.method === 'seed' ? 'deterministic' : before.provenance.method;
+        candidate = Mapping.parse({ ...candidate, provenance: { ...before.provenance, method,
+          evidence: `${before.provenance.evidence}\n\n${note}`.slice(0, 20000), verifiedAt: new Date(now).toISOString() } });
+        apply(candidate, before);
       }
-      let proposal = before && before.provenance.method !== 'seed' ? null : deterministic(subject, eps, hint, choices);
-      let method: 'deterministic' | 'codex' = 'deterministic';
-      let reason = 'Pinned seed identity corroborated by exact title/date or per-episode title/date comparisons.';
-      if (!proposal) {
-        if (codexSubjects >= options.maxSubjects) continue;
-        codexSubjects++;
-        method = 'codex';
-        const ownership = [...rows.values()].filter(r => r.bangumiId !== subject.id).flatMap(r =>
-          expand(r).flatMap(e => e.targets.filter(t => choices.some(c => c.target.type === t.type && c.target.id === t.id))
-            .map(t => ({ bangumiId: r.bangumiId, target: targetKey(t) }))));
-        let decision;
-        for (let round = 0; round < 3; round++) {
-          const remaining = deadline - Date.now();
-          if (remaining < 15000) throw new Error('Update time budget exhausted');
-          decision = await runCodex({ subject, episodes: eps, relations: rels, seed: hint, anidb, existing: before,
-            candidates: choices, ownership, queryRoundsRemaining: 2 - round }, Math.min(300000, remaining), options.model);
-          if (decision.status !== 'query') break;
-          if (round === 2) break;
-          choices = [...choices, ...await extraCandidates(decision.queries, subject.date, cached)];
-        }
-        if (!decision || decision.status !== 'matched' || !decision.proposal) {
-          record('pending', decision?.reason ?? 'No decision', 7); continue;
-        }
-        proposal = decision.proposal; reason = decision.reason;
-      }
-      requireEvidence(proposal, choices);
-      const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false,
-        ...((before?.anidbId ?? hint?.anidb) ? { anidbId: before?.anidbId ?? hint?.anidb } : {}),
-        episodes: eps.map(({ id, type, sort }) => ({ id, type, sort })), ...proposal,
-        provenance: { method, source: `${catalog.snapshot.name}; BangumiExtLinker@${seed.commit}`, evidence: reason,
-          verifiedAt: new Date(started).toISOString() } });
-      validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
-      await verifyMapping(row, live, catalog);
-      // Do not churn a proven mapping's provenance just because it was audited again.
-      const comparable = (m: Mapping) => stable({ episodes: m.episodes, targets: m.targets, rules: m.rules, overrides: m.overrides });
-      if (!before || comparable(before) !== comparable(row)) { rows.set(row.bangumiId, row); changes.set(row.bangumiId, row); }
-      record('matched', reason, 28);
+      counts.verified++;
+      record(subject.id, 'audit', 'matched', note || (retry ? 'Verified against live TMDB; episode rules need research' : 'Verified against live TMDB; unchanged'), uncovered ? 2 : retry);
     } catch (error) {
-      record('error', String(error), 1);
-      // Authentication failures are not per-title failures. Abort without committing partial progress.
-      if (/HTTP (401|403)/.test(String(error))) throw error;
+      if (fatal(error)) throw error;
+      record(subject.id, 'audit', 'pending', `Verification failed: ${String(error)}`);
+      research.push({ subject, kind: 'broken', before });
     }
   }
+  // Phase 2: model research for new in-scope subjects first, then existing rows that need episode-level
+  // work or repair. Concurrency is bounded and every result is re-validated against live TMDB.
+  const unmapped = catalog.subjects.filter(s => !rows.has(s.id) && (inScope(s, now, options.scopeDays) || progress.subjects[String(s.id)]))
+    .filter(s => due(progress, s.id, print(s.id), undefined, now)).sort((a, b) => olderFirst(progress)(a.id, b.id));
+  // Broken rows outrank episode work; among episode work, currently relevant (recent) subjects come first.
+  research.sort((a, b) => Number(b.kind === 'broken') - Number(a.kind === 'broken') || (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
+  const tasks: Task[] = [...unmapped.map((subject): Task => ({ subject, kind: progress.subjects[String(subject.id)] ? 'retry' : 'new' })), ...research];
+  let cursor = 0;
+  let abort: unknown = null;
+  const handle = async (task: Task) => {
+    const { subject, before } = task;
+    const eps = ctx.episodes.get(subject.id) ?? [];
+    try {
+      const result = await runResearch(subject.id, bundle(subject, ctx, rows, catalog.snapshot.name, before), {
+        model: options.model, reasoning: options.reasoning, timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())),
+        tmdbBudget: options.tmdbBudget, webBudget: options.webBudget, token, cacheDir: join(cacheDir(root), 'tmdb'), auditDir: join(cacheDir(root), 'research') });
+      const decision = result.decision;
+      if (decision.status !== 'matched' || !decision.proposal) {
+        record(subject.id, task.kind, 'pending', `${decision.reason}${decision.uncertainties.length ? `\n未确定：${decision.uncertainties.join('；')}` : ''}`);
+        return;
+      }
+      const proposal = toProposal(decision.proposal);
+      requireEvidence(proposal, result.calls);
+      const anidbId = before?.anidbId ?? ctx.seeds.get(subject.id)?.anidb;
+      const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
+        episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
+        provenance: provenanceFromResearch(decision, ctx.model, subject.id, new Date(now).toISOString()) });
+      validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
+      await verifyMapping(row, live, catalog);
+      apply(row, before);
+      counts.researchMatched++;
+      record(subject.id, task.kind, 'matched', decision.reason);
+    } catch (error) {
+      if (fatal(error)) { abort = error; return; }
+      record(subject.id, task.kind, 'pending', `Research rejected: ${String(error)}`);
+    }
+  };
+  const worker = async () => {
+    while (!abort && cursor < tasks.length && counts.codexSubjects < options.maxSubjects && deadline - Date.now() > 90000) {
+      const task = tasks[cursor++]!;
+      counts.codexSubjects++;
+      await handle(task);
+    }
+  };
+  await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, worker));
+  if (abort) throw abort;
   validateAll([...rows.values()]);
   for (const row of changes.values()) {
     const path = join(root, `data/${row.bangumiId}.json`);
@@ -158,6 +232,8 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   }
   progress.archive = catalog.snapshot;
   await writeJson(join(root, 'state/progress.json'), progress);
-  await writeJson(join(root, '.cache/update-report.json'), { archive: catalog.snapshot, changed: changes.size, codexSubjects, report });
-  console.log(`Update: ${changes.size} mappings changed; ${codexSubjects} Codex subjects; ${report.filter(r => r.status === 'pending').length} pending; ${report.filter(r => r.status === 'error').length} errors`);
+  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
+  await writeJson(join(cacheDir(root), 'update-report.json'), summary);
+  const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
+  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
 }

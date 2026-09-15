@@ -1,11 +1,14 @@
 import { gunzipSync } from 'node:zlib';
+import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { XMLParser, XMLValidator } from 'fast-xml-parser';
 import { z } from 'zod';
-import { AnidbReport, Catalog, Seeds, type AnidbCheck, type SubjectTarget, type Subject } from './model.js';
-import { hash, mappings, readJson, writeJson } from './io.js';
+import { AnidbReport, Seeds, type AnidbCheck, type SubjectTarget, type Subject } from './model.js';
+import { hash, mappings, writeJson } from './io.js';
 import { request } from './http.js';
-import { normalize } from './match.js';
+import { loadCatalog } from './catalog.js';
+
+export const normalize = (value: string): string => value.normalize('NFKC').toLocaleLowerCase('ja').replace(/[\p{P}\p{Z}\p{S}]/gu, '');
 
 const TITLES_URL = 'https://anidb.net/api/anime-titles.xml.gz';
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '', parseAttributeValue: false,
@@ -64,11 +67,11 @@ export async function checkAnidb(root: string, commit?: string): Promise<void> {
   const listUrl = `https://raw.githubusercontent.com/Anime-Lists/anime-lists/${commit}/anime-list-master.xml`;
   const listXml = await (await request(listUrl)).text();
   const links = parseAniLinks(listXml);
-  const seed = await readJson(join(root, 'sources/seed.json'), Seeds);
+  const seed = Seeds.parse(JSON.parse(await readFile(join(root, 'sources/seed.json'), 'utf8')));
   const current = new Map((await mappings(root)).map(m => [m.bangumiId, m]));
   let subjects = new Map<number, Subject>();
   try {
-    const catalog = await readJson(join(root, '.cache/catalog.json'), Catalog);
+    const { catalog } = await loadCatalog(root);
     subjects = new Map(catalog.subjects.map(s => [s.id, s]));
   } catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
   const rows: AnidbCheck[] = seed.rows.filter(r => r.anidb).map(row => {

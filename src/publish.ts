@@ -1,8 +1,9 @@
 import { join } from 'node:path';
 import { mkdir, readFile, rename, rm } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
-import { Catalog, Progress } from './model.js';
-import { hash, mappings, readJson, stable, writeJson } from './io.js';
+import { Progress } from './model.js';
+import { cacheDir, hash, mappings, readJson, stable, writeJson } from './io.js';
+import { loadCatalog } from './catalog.js';
 import { expand, validateAll } from './expand.js';
 import { Tmdb, verifyMapping } from './tmdb.js';
 
@@ -12,7 +13,7 @@ export async function publish(root: string, online = false): Promise<void> {
   if (!rows.length) throw new Error('No mappings to publish');
   const episodes = rows.flatMap(expand);
   if (online) {
-    const catalog = await readJson(join(root, '.cache/catalog.json'), Catalog);
+    const { catalog } = await loadCatalog(root);
     const tmdb = new Tmdb(process.env.TMDB_READ_TOKEN ?? '');
     episodes.length = 0;
     for (const row of rows) episodes.push(...await verifyMapping(row, tmdb, catalog));
@@ -22,7 +23,7 @@ export async function publish(root: string, online = false): Promise<void> {
   const generatedAt = execFileSync('git', ['show', '-s', '--format=%cI', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
   const sourceDirty = execFileSync('git', ['status', '--porcelain', '--untracked-files=normal'], { cwd: root, encoding: 'utf8' }).length > 0;
   const progress = await readJson(join(root, 'state/progress.json'), Progress);
-  const stage = join(root, '.cache/release-stage');
+  const stage = join(cacheDir(root), 'release-stage');
   await rm(stage, { recursive: true, force: true }); await mkdir(stage, { recursive: true });
   await writeJson(join(stage, 'subjects.json'), { schemaVersion: 1, subjects: rows.map(row => ({ bangumiId: row.bangumiId, targets: row.targets })) });
   await writeJson(join(stage, 'episodes.json'), { schemaVersion: 1, episodes });

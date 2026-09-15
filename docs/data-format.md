@@ -41,7 +41,7 @@
 - 小数 sort 必须使用显式 override；不同 Bangumi 类型分别匹配。季号允许 0，TMDB 正片集号从 1 开始。
 - 重复声明、重叠区间、同一 TV episode 被多个 Bangumi episode/subject 占用均拒绝发布。两站合并/拆分关系暂时无法准确表达时保持待匹配。
 - `locked` 锁定整个条目，不自动追加新集。人工解除锁定后，后续巡检会重新处理。
-- `provenance.verifiedAt` 是在线验证时间，未执行在线验证时为 `null`。`method: seed` 标识上游导入记录。
+- `provenance.verifiedAt` 是在线验证时间，未执行在线验证时为 `null`。`method: seed` 标识上游导入记录；`deterministic` 表示作品身份或逐集规则由脚本按精确日期比对得出；`codex` 表示模型研究结果，evidence 保留其引用的来源。自动化追加逐集规则时会在 evidence 末尾附上说明，不改动原有证据。
 - `anidbId` 保存关联的 AniDB 条目 ID，用于交叉核对。
 
 贡献后运行 `pnpm cli format` 生成统一排序的 JSON，再运行 `pnpm validate`。若修改模型，运行 `pnpm schemas` 并一起提交生成的 Schema。

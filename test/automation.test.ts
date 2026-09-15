@@ -6,9 +6,9 @@ import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { guard, allowedChange } from '../src/guard.js';
 import { stable, writeJson } from '../src/io.js';
-import { runCodex } from '../src/codex.js';
+import { runResearch } from '../src/research.js';
 import { parseArchive, digestFile, syncArchive } from '../src/archive.js';
-import { decisionSchema } from '../src/schemas.js';
+import { researchSchema } from '../src/schemas.js';
 import { mapping } from './helpers.js';
 
 test('automation guard protects locks, code files and exact base HEAD', async () => {
@@ -31,17 +31,47 @@ test('automation guard protects locks, code files and exact base HEAD', async ()
     assert.equal(allowedChange('.github/workflows/update.yml'), false);
   } finally { await rm(dir, { recursive: true, force: true }); }
 });
-test('Codex subprocess cannot inherit GitHub, TMDB or API credentials; invalid output is rejected', async () => {
+// A stand-in codex binary: refuses inherited secrets, checks the research wiring, records the tool calls
+// listed next to it into the MCP audit file, and returns the canned decision next to it.
+async function fakeCodex(dir: string): Promise<void> {
+  await writeFile(join(dir, 'codex'), `#!${process.execPath}\n` +
+    `const fs=require('fs'),path=require('path');\n` +
+    `if(process.env.GH_TOKEN||process.env.TMDB_READ_TOKEN||process.env.OPENAI_API_KEY)process.exit(8);\n` +
+    `const a=process.argv,out=a[a.indexOf('--output-last-message')+1],schema=a[a.indexOf('--output-schema')+1];\n` +
+    `const mcp=JSON.parse(a.find(x=>x.startsWith('mcp_servers.tmdb.args=')).slice('mcp_servers.tmdb.args='.length));\n` +
+    `if(!fs.readFileSync(schema,'utf8').includes('bangumiId'))process.exit(9);\n` +
+    `if(fs.readFileSync(mcp[3],'utf8')!=='tmdb-secret')process.exit(10);\n` +
+    `if(!a.includes('web_search="live"')||!a.includes('--ephemeral'))process.exit(11);\n` +
+    `let prompt='';process.stdin.setEncoding('utf8');process.stdin.on('data',d=>prompt+=d);process.stdin.on('end',()=>{\n` +
+    `if(!prompt.includes('"bangumiId":1'))process.exit(12);\n` +
+    `const here=path.dirname(fs.realpathSync(process.argv[1]));\n` +
+    `try{fs.writeFileSync(mcp[1],fs.readFileSync(path.join(here,'calls.jsonl')));}catch{}\n` +
+    `fs.writeFileSync(out,fs.readFileSync(path.join(here,'decision.json')));\n` +
+    `console.log(JSON.stringify({type:'item.completed',item:{type:'web_search'}}));\n` +
+    `console.log(JSON.stringify({type:'turn.completed',usage:{input_tokens:10,output_tokens:2}}));});\n`, { mode: 0o755 });
+}
+test('research subprocess cannot inherit credentials; decisions are validated and tool calls captured', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'fake-codex-'));
-  const original = { PATH: process.env.PATH, GH_TOKEN: process.env.GH_TOKEN, TMDB_READ_TOKEN: process.env.TMDB_READ_TOKEN };
+  const original = { PATH: process.env.PATH, GH_TOKEN: process.env.GH_TOKEN, TMDB_READ_TOKEN: process.env.TMDB_READ_TOKEN, OPENAI_API_KEY: process.env.OPENAI_API_KEY };
+  const options = { timeoutMs: 10000, tmdbBudget: 16, webBudget: 8, token: 'tmdb-secret', cacheDir: join(dir, 'cache'), auditDir: join(dir, 'audit') };
   try {
-    await writeFile(join(dir, 'codex'), `#!${process.execPath}\n` +
-      `const fs=require('fs'); if(process.env.GH_TOKEN || process.env.TMDB_READ_TOKEN) process.exit(8);\n` +
-      `const out=process.argv[process.argv.indexOf('--output-last-message')+1];\n` +
-      `process.stdin.resume();process.stdin.on('end',()=>fs.writeFileSync(out,JSON.stringify({status:'matched',proposal:null,queries:[],reason:'invalid'})));\n`, { mode: 0o755 });
+    await fakeCodex(dir);
     process.env.PATH = `${dir}:${original.PATH}`;
-    process.env.GH_TOKEN = 'must-not-leak'; process.env.TMDB_READ_TOKEN = 'must-not-leak';
-    await assert.rejects(runCodex({ arbitrary: 'metadata' }, 5000), /Invalid matched decision/);
+    process.env.GH_TOKEN = 'must-not-leak'; process.env.TMDB_READ_TOKEN = 'must-not-leak'; process.env.OPENAI_API_KEY = 'must-not-leak';
+    await writeFile(join(dir, 'decision.json'), JSON.stringify({ bangumiId: 1, status: 'matched', proposal: null, reason: 'invalid', evidence: [], uncertainties: [] }));
+    await assert.rejects(runResearch(1, { bangumiId: 1 }, options), /Invalid matched decision/);
+    await writeFile(join(dir, 'decision.json'), JSON.stringify({ bangumiId: 2, status: 'pending', proposal: null, reason: 'other subject', evidence: [], uncertainties: [] }));
+    await assert.rejects(runResearch(1, { bangumiId: 1 }, options), /different subject/);
+    await writeFile(join(dir, 'calls.jsonl'), `${JSON.stringify({ tool: 'tmdb_details', arguments: { type: 'tv', id: 100 }, ok: true, at: 'now' })}\n{broken\n`);
+    await writeFile(join(dir, 'decision.json'), JSON.stringify({ bangumiId: 1, status: 'matched', reason: 'ok',
+      proposal: { targets: [{ type: 'tv', id: 100, season: 1, episode: null, episodeEnd: null }], rules: [], overrides: [] },
+      evidence: [{ url: 'https://www.themoviedb.org/tv/100', fact: 'read', access: 'api_snapshot' }], uncertainties: [] }));
+    const result = await runResearch(1, { bangumiId: 1 }, options);
+    assert.equal(result.decision.status, 'matched');
+    assert.deepEqual(result.calls.map(c => c.tool), ['tmdb_details']);
+    assert.equal(result.webCalls, 1);
+    assert.equal(result.usage.input_tokens, 10);
+    assert.ok((await readFile(join(dir, 'audit/1/prompt.txt'), 'utf8')).includes('"bangumiId":1'));
   } finally {
     for (const [key, value] of Object.entries(original)) {
       if (value === undefined) delete process.env[key]; else process.env[key] = value;
@@ -78,10 +108,11 @@ test('canonical output is deterministic and repeat writes leave content unchange
     assert.equal(stable({ b: 2, a: 1 }), first);
   } finally { await rm(dir, { recursive: true, force: true }); }
 });
-test('Codex schema uses supported disjoint anyOf branches', () => {
-  const json = JSON.stringify(decisionSchema());
+test('research schema uses supported disjoint anyOf branches and requires every property', () => {
+  const json = JSON.stringify(researchSchema());
   assert.ok(json.includes('anyOf'));
-  assert.ok(!json.includes('oneOf'));
+  assert.ok(json.includes('"episodeEnd"'));
+  for (const keyword of ['oneOf', '$schema', 'minimum', 'maximum', 'exclusiveMinimum', 'minLength', 'maxLength', 'maxItems']) assert.ok(!json.includes(`"${keyword}"`), keyword);
 });
 test('Archive checksum mismatch leaves the prior catalog intact', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'archive-integrity-test-'));

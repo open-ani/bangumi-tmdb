@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, rename, writeFile, lstat } from 'node:fs/promises';
-import { dirname, join } from 'node:path';
+import { dirname, join, resolve } from 'node:path';
 import { z } from 'zod';
 import { Mapping } from './model.js';
 
@@ -14,6 +14,8 @@ export function stable(value: unknown): string {
   };
   return JSON.stringify(normalize(value), null, 2) + '\n';
 }
+// Machine-local scratch space. Self-hosted runners point this outside the workspace so checkout cleanup keeps it.
+export const cacheDir = (root: string): string => resolve(process.env.DATASET_CACHE ?? join(root, '.cache'));
 export const hash = (value: string | Buffer): string => createHash('sha256').update(value).digest('hex');
 export async function readJson<T extends z.ZodType>(path: string, schema: T): Promise<z.infer<T>> {
   return schema.parse(JSON.parse(await readFile(path, 'utf8')));

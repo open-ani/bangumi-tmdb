@@ -6,6 +6,8 @@
 - Respect `locked: true`; automation reports problems without changing locked records.
 - Only trusted default-branch code may run on the self-hosted worker.
 - Automated updates may change `data/`, `state/`, and `sources/` only, after validation.
+- Scheduled runs research only recent or upcoming unmapped subjects; the deep backlog is offline work.
+- Episode rules come from air-date agreement or from a model that actually read the TMDB season; never from position.
 - Scheduled automation is explicitly authorized to commit and push validated changes
   directly to main as openanibot. Never force-push or create an automation branch/PR.
 - Community PRs are merged by maintainers; never auto-merge them.

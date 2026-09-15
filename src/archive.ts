@@ -8,7 +8,7 @@ import { spawn } from 'node:child_process';
 import { createInterface } from 'node:readline';
 import { z } from 'zod';
 import { Catalog, Episode, Relation, Subject } from './model.js';
-import { readJson, writeJson } from './io.js';
+import { cacheDir, readJson, writeJson } from './io.js';
 import { request } from './http.js';
 
 const Latest = z.object({ name: z.string().regex(/^dump-[\w.\-]+\.zip$/),
@@ -62,15 +62,15 @@ export async function syncArchive(root: string): Promise<Catalog> {
   if (url.protocol !== 'https:' || url.hostname !== 'github.com' || !url.pathname.startsWith('/bangumi/Archive/releases/download/'))
     throw new Error('Unexpected Archive download origin');
   const snapshot = { name: latest.name, sha256: latest.digest.slice(7), url: url.href };
-  const catalogPath = join(root, '.cache/catalog.json');
+  const catalogPath = join(cacheDir(root), 'catalog.json');
   try {
     const existing = await readJson(catalogPath, Catalog);
     if (existing.snapshot.sha256 === snapshot.sha256) return existing;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code !== 'ENOENT') console.warn('Rebuilding invalid Archive cache');
   }
-  const zip = join(root, '.cache/bangumi.zip');
-  await mkdir(join(root, '.cache'), { recursive: true });
+  const zip = join(cacheDir(root), 'bangumi.zip');
+  await mkdir(cacheDir(root), { recursive: true });
   let valid = false;
   try { valid = await digestFile(zip) === snapshot.sha256; }
   catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }

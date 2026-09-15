@@ -1,8 +1,19 @@
-import type { EpisodeTarget, Mapping } from './model.js';
+import type { EpisodeTarget, Mapping, SubjectTarget } from './model.js';
 
 export interface ExpandedEpisode { bangumiId: number; bangumiEpisodeId: number; targets: EpisodeTarget[] }
 export const targetKey = (t: EpisodeTarget): string => t.type === 'movie'
   ? `movie/${t.id}` : `tv/${t.id}/season/${t.season}/episode/${t.episode}`;
+// Subject targets declare the covered scope: a bare TV target covers any season, a season target any
+// episode of that season, and an explicit range only its inclusive endpoints.
+export function covers(targets: SubjectTarget[], target: EpisodeTarget): boolean {
+  return targets.some(t => {
+    if (t.type !== target.type || t.id !== target.id) return false;
+    if (t.type === 'movie' || target.type === 'movie') return true;
+    if (t.season === undefined) return true;
+    if (t.season !== target.season) return false;
+    return t.episode === undefined || (target.episode >= t.episode && target.episode <= (t.episodeEnd ?? t.episode));
+  });
+}
 
 export function expand(mapping: Mapping): ExpandedEpisode[] {
   for (const target of mapping.targets) {
@@ -65,6 +76,7 @@ export function expand(mapping: Mapping): ExpandedEpisode[] {
     if (new Set(keys).size !== keys.length) throw new Error('Duplicate episode target');
     for (const target of targets) {
       if (!workKeys.includes(`${target.type}/${target.id}`)) throw new Error('Episode targets undeclared work');
+      if (!covers(mapping.targets, target)) throw new Error(`Episode target outside declared subject scope: ${targetKey(target)}`);
       const key = targetKey(target);
       // Many Bangumi episodes may intentionally point to one movie. TV collisions need a future explicit schema.
       if (target.type === 'tv' && used.has(key)) throw new Error(`Duplicate TMDB episode target: ${key}`);

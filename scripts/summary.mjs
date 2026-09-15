@@ -1,7 +1,11 @@
 import { readFileSync } from 'node:fs';
-const report = JSON.parse(readFileSync('.cache/update-report.json', 'utf8'));
-console.log(`Archive: ${report.archive.name}\n\nChanged mappings: ${report.changed}; Codex subjects: ${report.codexSubjects}.\n`);
+import { join } from 'node:path';
+const report = JSON.parse(readFileSync(join(process.env.DATASET_CACHE ?? '.cache', 'update-report.json'), 'utf8'));
+console.log(`Archive: ${report.archive.name}\n`);
+console.log(`Changed mappings: ${report.changed}; verified ${report.verified}, derived episode rules ${report.derived}, extended ${report.extended}.`);
+console.log(`Codex subjects: ${report.codexSubjects} (${report.researchMatched} matched); queue left: ${report.queued.remaining} of ${report.queued.unmapped} new + ${report.queued.research} research.\n`);
 const counts = {};
-for (const row of report.report) counts[row.status] = (counts[row.status] ?? 0) + 1;
-for (const [status, count] of Object.entries(counts)) console.log(`- ${status}: ${count}`);
-console.log('\nPending/error details are recorded in state/progress.json.');
+for (const row of report.report) counts[`${row.kind}/${row.status}`] = (counts[`${row.kind}/${row.status}`] ?? 0) + 1;
+for (const [key, count] of Object.entries(counts).sort()) console.log(`- ${key}: ${count}`);
+if (report.absent.length) console.log(`\nMapped subjects missing from Bangumi (merged or hidden; maintainer action): ${report.absent.join(', ')}`);
+console.log('\nPending/error details are recorded in state/progress.json; research artifacts live under the runner cache directory.');
