@@ -1,16 +1,91 @@
 {
   "anidbId": 5419,
   "bangumiId": 1309,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 4090,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 4091,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 4092,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 4093,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 4094,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 4095,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 4096,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 4097,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 4098,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 4099,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 4100,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 4101,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 4102,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject明确是2007年10月1日开播、共13话的《D.C.II 〜ダ・カーポII〜》，章节标题和播出日期完整对应主体。TMDB ID 26444的季列表将2007年的《D.C.Ⅱ ～ダ・カーポⅡ～》列为第3季、共13集，因此候选的第1季应纠正为第3季；完整一季纳入，无需限定集数范围。\n\nhttps://bgm.tv/subject/1309 (page): Bangumi页面确认标题、TV类型、2007年10月1日开播、共13话、feel.制作，并列出第1至13话及对应日期。\n\nhttps://www.themoviedb.org/tv/26444 (api_snapshot): TMDB API快照的seasons字段将D.C.Ⅱ ～ダ・カーポⅡ～列为season_number=3，air_date=2007-10-01，episode_count=13。\n\nhttps://www.themoviedb.org/tv/26444/season/1 (api_snapshot): TMDB第1季快照实际是2003年的D.C. 〜ダ・カーポ〜，共26集，标题和剧情均对应初代作品而非Bangumi subject 1309。\n\n备注：输入中的AniDB ID 5419关联未能在预算内直接读取AniDB页面独立核验；但Bangumi主体信息、年份、制作信息、13集标题/日期与TMDB第3季信息一致。",
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是2007年10月1日开播、共13话的《D.C.II 〜ダ・カーポII〜》，章节标题和播出日期完整对应主体。TMDB ID 26444的季列表将2007年的《D.C.Ⅱ ～ダ・カーポⅡ～》列为第3季、共13集，因此候选的第1季应纠正为第3季；完整一季纳入，无需限定集数范围。\n\nhttps://bgm.tv/subject/1309 (page): Bangumi页面确认标题、TV类型、2007年10月1日开播、共13话、feel.制作，并列出第1至13话及对应日期。\n\nhttps://www.themoviedb.org/tv/26444 (api_snapshot): TMDB API快照的seasons字段将D.C.Ⅱ ～ダ・カーポⅡ～列为season_number=3，air_date=2007-10-01，episode_count=13。\n\nhttps://www.themoviedb.org/tv/26444/season/1 (api_snapshot): TMDB第1季快照实际是2003年的D.C. 〜ダ・カーポ〜，共26集，标题和剧情均对应初代作品而非Bangumi subject 1309。\n\n备注：输入中的AniDB ID 5419关联未能在预算内直接读取AniDB页面独立核验；但Bangumi主体信息、年份、制作信息、13集标题/日期与TMDB第3季信息一致。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/1309; https://www.themoviedb.org/tv/26444; https://www.themoviedb.org/tv/26444/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 26444
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

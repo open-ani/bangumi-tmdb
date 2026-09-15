@@ -1,16 +1,106 @@
 {
   "anidbId": 553,
   "bangumiId": 38072,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164001,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 164002,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 164007,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 164008,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 164009,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 164010,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 164011,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 164012,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 164013,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 164014,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 164015,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 169361,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 169362,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 169363,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 169364,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 169373,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 38072 是 1999-11-30 至 1999-12-24 播出的《Di Gi Charat》16 集短篇 TV 动画，AniDB ID=553 且关联状态为 matched。TMDB TV 42694 的首播日期、日文标题、16 集总数以及第 1 季的完整 16 集标题和日期均与该主体逐集对应，因此映射为第 1 季完整纳入。TMDB 第 0 季为 28 集特别编，不属于该 Bangumi 主体。\n\nhttps://bgm.tv/subject/38072 (page): Bangumi subject 为 Di Gi Charat，首播日 1999-11-30，话数 16；输入数据标记 AniDB ID 553 为 matched。\n\nhttps://www.themoviedb.org/tv/42694 (api_snapshot): TMDB TV 42694 为 Di Gi Charat，首播日 1999-11-30，共 16 集，并列有第 0 季特别编和第 1 季。\n\nhttps://www.themoviedb.org/tv/42694/season/1 (api_snapshot): TMDB 第 1 季有 16 集，完整标题与日期逐一对应 Bangumi 提供的 16 集，播出日期为 1999-11-30 至 1999-12-24。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 38072 是 1999-11-30 至 1999-12-24 播出的《Di Gi Charat》16 集短篇 TV 动画，AniDB ID=553 且关联状态为 matched。TMDB TV 42694 的首播日期、日文标题、16 集总数以及第 1 季的完整 16 集标题和日期均与该主体逐集对应，因此映射为第 1 季完整纳入。TMDB 第 0 季为 28 集特别编，不属于该 Bangumi 主体。\n\nhttps://bgm.tv/subject/38072 (page): Bangumi subject 为 Di Gi Charat，首播日 1999-11-30，话数 16；输入数据标记 AniDB ID 553 为 matched。\n\nhttps://www.themoviedb.org/tv/42694 (api_snapshot): TMDB TV 42694 为 Di Gi Charat，首播日 1999-11-30，共 16 集，并列有第 0 季特别编和第 1 季。\n\nhttps://www.themoviedb.org/tv/42694/season/1 (api_snapshot): TMDB 第 1 季有 16 集，完整标题与日期逐一对应 Bangumi 提供的 16 集，播出日期为 1999-11-30 至 1999-12-24。\n\n脚本按放送日期核对生成逐集规则：16 个本篇章节与声明的 TMDB 范围逐一对应，16 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/38072; https://www.themoviedb.org/tv/42694; https://www.themoviedb.org/tv/42694/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42694
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

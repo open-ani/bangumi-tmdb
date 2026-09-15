@@ -1,16 +1,91 @@
 {
   "anidbId": 10846,
   "bangumiId": 107835,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 452629,
+      "sort": 12.5,
+      "type": 1
+    },
+    {
+      "id": 452630,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 452631,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 452632,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 452633,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 452634,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 452635,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 452636,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 452637,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 452638,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 452639,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 452640,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 452641,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该主体是《アルドノア・ゼロ》2015年播出的第二季度正篇，共12话，沿用全剧编号第13—24话。TMDB 将两季度合并收录在 TV 61259 的第1季：第13—24集的标题、播出日期及剧情均与 Bangumi 本主体逐集吻合。因此应映射到第1季的部分范围 S01E13—S01E24，而非不存在于该 TMDB 条目中的第2季。Bangumi 的第12.5话“EXTRA ARCHIVES”、后续 EP24.5《雨の断章》以及重剪版《Re+》均不属于本主体正篇范围。\n\nhttps://www.themoviedb.org/tv/61259/season/1 (api_snapshot): TMDB API 快照显示 TV 61259 原名为《アルドノア・ゼロ》，第1季共24集；其中第13集《眠れる月の少女 -This Side of Paradise-》于2015年1月10日播出，第24集《いつか見た流星 -Inherit the Stars-》于2015年3月28日播出，中间各集的编号、标题、日期和剧情均与 Bangumi 本主体的12话完全对应。\n\nhttps://bgm.tv/subject/107835 (page): Bangumi 页面将该主体标为 TV《アルドノア・ゼロ 第2期》，正篇章节明确列为第13至第24话；页面还把原版前半段列为前传，把《雨の断章》列为续集、把《Re+》列为总集篇，证明这些不是本主体正篇。\n\nhttps://www.aldnoahzero.com/ (page): 作品官方网站明确将原电视动画表述为全24话，并把《EP24.5:雨の断章》单独称为新作动画；这支持本主体止于第24话，不包含24.5或其他特别篇。",
+    "evidence": "gpt-5.6-sol: 该主体是《アルドノア・ゼロ》2015年播出的第二季度正篇，共12话，沿用全剧编号第13—24话。TMDB 将两季度合并收录在 TV 61259 的第1季：第13—24集的标题、播出日期及剧情均与 Bangumi 本主体逐集吻合。因此应映射到第1季的部分范围 S01E13—S01E24，而非不存在于该 TMDB 条目中的第2季。Bangumi 的第12.5话“EXTRA ARCHIVES”、后续 EP24.5《雨の断章》以及重剪版《Re+》均不属于本主体正篇范围。\n\nhttps://www.themoviedb.org/tv/61259/season/1 (api_snapshot): TMDB API 快照显示 TV 61259 原名为《アルドノア・ゼロ》，第1季共24集；其中第13集《眠れる月の少女 -This Side of Paradise-》于2015年1月10日播出，第24集《いつか見た流星 -Inherit the Stars-》于2015年3月28日播出，中间各集的编号、标题、日期和剧情均与 Bangumi 本主体的12话完全对应。\n\nhttps://bgm.tv/subject/107835 (page): Bangumi 页面将该主体标为 TV《アルドノア・ゼロ 第2期》，正篇章节明确列为第13至第24话；页面还把原版前半段列为前传，把《雨の断章》列为续集、把《Re+》列为总集篇，证明这些不是本主体正篇。\n\nhttps://www.aldnoahzero.com/ (page): 作品官方网站明确将原电视动画表述为全24话，并把《EP24.5:雨の断章》单独称为新作动画；这支持本主体止于第24话，不包含24.5或其他特别篇。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/107835; https://www.themoviedb.org/tv/61259/season/1; https://www.aldnoahzero.com/",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 61259
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,41 @@
 {
   "anidbId": 10315,
   "bangumiId": 91341,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 352168,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 379530,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 396303,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与 AniDB 10315 的标题、版本名称及 3 集结构相符；TMDB 116058 为同名日文 TV 作品，只有第 1 季且正好 3 集。逐集日期基本对应（前两集相差约 1 天，可能是时区或日期显示差异），因此采用完整第 1 季。\n\nhttps://bgm.tv/subject/91341 (page): Bangumi 条目为「もうひとつの未来を。」/「au未来研究所」，网络配信，共 3 集。\n\nhttps://www.themoviedb.org/tv/116058 (api_snapshot): TMDB 116058 为同名日文 TV 作品，总集数 3，只有第 1 季。\n\nhttps://www.themoviedb.org/tv/116058/season/1 (api_snapshot): TMDB 第 1 季明确包含第 1、2、3 集，数量与 Bangumi 主体一致。\n\n备注：TMDB 与 Bangumi 前两集日期各相差约 1 天；但标题、AniDB 关联、总集数及逐集顺序一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 AniDB 10315 的标题、版本名称及 3 集结构相符；TMDB 116058 为同名日文 TV 作品，只有第 1 季且正好 3 集。逐集日期基本对应（前两集相差约 1 天，可能是时区或日期显示差异），因此采用完整第 1 季。\n\nhttps://bgm.tv/subject/91341 (page): Bangumi 条目为「もうひとつの未来を。」/「au未来研究所」，网络配信，共 3 集。\n\nhttps://www.themoviedb.org/tv/116058 (api_snapshot): TMDB 116058 为同名日文 TV 作品，总集数 3，只有第 1 季。\n\nhttps://www.themoviedb.org/tv/116058/season/1 (api_snapshot): TMDB 第 1 季明确包含第 1、2、3 集，数量与 Bangumi 主体一致。\n\n备注：TMDB 与 Bangumi 前两集日期各相差约 1 天；但标题、AniDB 关联、总集数及逐集顺序一致。\n\n脚本按放送日期核对生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应，3 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/91341; https://www.themoviedb.org/tv/116058; https://www.themoviedb.org/tv/116058/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 116058
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

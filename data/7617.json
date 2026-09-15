@@ -1,16 +1,86 @@
 {
   "anidbId": 4583,
   "bangumiId": 7617,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 44453,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 44454,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 44455,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 44456,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 44457,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 44458,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 44459,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 44460,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 44461,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 44462,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 44463,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 44464,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 7617 是 2007 年播出的 12 集 TV 动画《京四郎と永遠の空》。TMDB TV 34770 同名、首播日期相同且共 12 集；其第 1 季的 12 集标题与播出日期逐一对应 Bangumi 条目，因此确认整季对应。TMDB 的第 0 季特别编没有证据属于该 Bangumi 主体，故不纳入。\n\nhttps://bgm.tv/subject/7617 (page): Bangumi 页面标明该作品为 TV、共 12 话，2007 年 1 月 5 日开始，3 月 23 日结束，并列出第 1 至 12 话。\n\nhttps://www.themoviedb.org/tv/34770 (api_snapshot): TMDB TV 34770 与作品同名，首播日期为 2007-01-05，共 12 集，并区分出第 0 季特别编和第 1 季。\n\nhttps://www.themoviedb.org/tv/34770/season/1 (api_snapshot): TMDB 第 1 季明确包含 12 集，播出日期为 2007-01-05 至 2007-03-23；剧集标题与 Bangumi 的 12 集逐一对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 7617 是 2007 年播出的 12 集 TV 动画《京四郎と永遠の空》。TMDB TV 34770 同名、首播日期相同且共 12 集；其第 1 季的 12 集标题与播出日期逐一对应 Bangumi 条目，因此确认整季对应。TMDB 的第 0 季特别编没有证据属于该 Bangumi 主体，故不纳入。\n\nhttps://bgm.tv/subject/7617 (page): Bangumi 页面标明该作品为 TV、共 12 话，2007 年 1 月 5 日开始，3 月 23 日结束，并列出第 1 至 12 话。\n\nhttps://www.themoviedb.org/tv/34770 (api_snapshot): TMDB TV 34770 与作品同名，首播日期为 2007-01-05，共 12 集，并区分出第 0 季特别编和第 1 季。\n\nhttps://www.themoviedb.org/tv/34770/season/1 (api_snapshot): TMDB 第 1 季明确包含 12 集，播出日期为 2007-01-05 至 2007-03-23；剧集标题与 Bangumi 的 12 集逐一对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/7617; https://www.themoviedb.org/tv/34770; https://www.themoviedb.org/tv/34770/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34770
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

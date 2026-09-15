@@ -1,16 +1,96 @@
 {
   "anidbId": 10760,
   "bangumiId": 109386,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 509598,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 509599,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 509600,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 509601,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 509602,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 509603,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 509604,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 509605,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 509606,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 509607,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 509608,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 509609,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 531121,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 567050,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是 ufotable 制作的 2014–2015 年 TV 动画《Fate/stay night [Unlimited Blade Works]》第二季正篇，共 13 话。Bangumi 所列第 13–25 话的标题依次与 TMDB 电视条目 61415 的第 2 季第 1–13 集完全对应，因此应映射到完整第 2 季，而非旧候选所指的第 1 季。特别篇“sunny day”收录在 TMDB 第 0 季，不属于本轮目标的正篇，故不纳入。\n\nhttps://www.themoviedb.org/tv/61415 (api_snapshot): TMDB API 快照显示电视作品 ID 61415 原名为《Fate/stay night [Unlimited Blade Works]》，全剧共 25 集；季结构为第 1 季12集、第 2 季13集，与作品分两季播出的构成吻合。\n\nhttps://www.themoviedb.org/tv/61415/season/2 (api_snapshot): TMDB API 快照显示第2季共13集，2015年4月开始播出；第1–13集从“決別の刻”至“エピローグ”，逐集对应 Bangumi subject 的13话正篇。\n\nhttps://www.themoviedb.org/tv/61415/season/1 (api_snapshot): TMDB API 快照显示第1季是2014年播出的12集，从“冬の日、運命の夜”至“最後の選択”，对应前一季而不是本 subject。\n\nhttps://www.themoviedb.org/tv/61415/season/0 (api_snapshot): TMDB API 快照将约10分钟的另一结局短篇“sunny day”列为特别篇第2集，说明它不在第2季13集正篇范围内。",
+    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是 ufotable 制作的 2014–2015 年 TV 动画《Fate/stay night [Unlimited Blade Works]》第二季正篇，共 13 话。Bangumi 所列第 13–25 话的标题依次与 TMDB 电视条目 61415 的第 2 季第 1–13 集完全对应，因此应映射到完整第 2 季，而非旧候选所指的第 1 季。特别篇“sunny day”收录在 TMDB 第 0 季，不属于本轮目标的正篇，故不纳入。\n\nhttps://www.themoviedb.org/tv/61415 (api_snapshot): TMDB API 快照显示电视作品 ID 61415 原名为《Fate/stay night [Unlimited Blade Works]》，全剧共 25 集；季结构为第 1 季12集、第 2 季13集，与作品分两季播出的构成吻合。\n\nhttps://www.themoviedb.org/tv/61415/season/2 (api_snapshot): TMDB API 快照显示第2季共13集，2015年4月开始播出；第1–13集从“決別の刻”至“エピローグ”，逐集对应 Bangumi subject 的13话正篇。\n\nhttps://www.themoviedb.org/tv/61415/season/1 (api_snapshot): TMDB API 快照显示第1季是2014年播出的12集，从“冬の日、運命の夜”至“最後の選択”，对应前一季而不是本 subject。\n\nhttps://www.themoviedb.org/tv/61415/season/0 (api_snapshot): TMDB API 快照将约10分钟的另一结局短篇“sunny day”列为特别篇第2集，说明它不在第2季13集正篇范围内。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/109386; https://www.themoviedb.org/tv/61415; https://www.themoviedb.org/tv/61415/season/2; https://www.themoviedb.org/tv/61415/season/1; https://www.themoviedb.org/tv/61415/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 61415
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

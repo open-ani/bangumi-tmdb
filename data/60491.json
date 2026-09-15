@@ -1,16 +1,76 @@
 {
   "anidbId": 9622,
   "bangumiId": 60491,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 257808,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 257809,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 257810,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 257811,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 257812,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 257813,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 257814,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 257815,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 257816,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 290260,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目为10集，2013-04-29至2013-07-01播出；输入中的 AniDB ID 9622 已匹配且名称相符。TMDB TV 51550 同名、同首播日、共10集；第1季明确为10集，逐集日期与 Bangumi 的10个正篇集一致。因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/51550 (api_snapshot): TMDB TV 51550 标题为「宮河家の空腹」，首播日期为2013-04-29，共10集；简介对应宫河家姐妹的本作。\n\nhttps://www.themoviedb.org/tv/51550/season/1 (api_snapshot): TMDB 第1季 season_number=1，共10集，播出日期为2013-04-29至2013-07-01，逐集日期与输入 Bangumi 正篇集一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目为10集，2013-04-29至2013-07-01播出；输入中的 AniDB ID 9622 已匹配且名称相符。TMDB TV 51550 同名、同首播日、共10集；第1季明确为10集，逐集日期与 Bangumi 的10个正篇集一致。因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/51550 (api_snapshot): TMDB TV 51550 标题为「宮河家の空腹」，首播日期为2013-04-29，共10集；简介对应宫河家姐妹的本作。\n\nhttps://www.themoviedb.org/tv/51550/season/1 (api_snapshot): TMDB 第1季 season_number=1，共10集，播出日期为2013-04-29至2013-07-01，逐集日期与输入 Bangumi 正篇集一致。\n\n脚本按放送日期核对生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应，10 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/60491; https://www.themoviedb.org/tv/51550; https://www.themoviedb.org/tv/51550/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 51550
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

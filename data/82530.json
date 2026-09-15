@@ -1,16 +1,41 @@
 {
   "anidbId": 724,
   "bangumiId": 82530,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 314258,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 314259,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 314260,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《リフレインブルー》3集 OVA，发行日期为 2000-06-23、2000-08-25、2000-10-27；AniDB ID 724 的标题匹配。TMDB TV 153878 的第 1 季明确包含 3 集，且三集标题与日期分别对应「緋色の追憶」(2000-06-23)、「月影の下で」(2000-08-25)、「碧波の永遠」(2000-10-27)。因此可确认是同一版本的完整第 1 季。\n\nhttps://bgm.tv/subject/82530 (page): Bangumi 条目为《リフレインブルー／蓝色乐章》，类型为 OVA，共 3 集；集标题和日期与 TMDB 第 1 季逐集对应。\n\nhttps://www.themoviedb.org/tv/153878 (api_snapshot): TMDB TV 153878 名为 Refrain Blue，首播日期为 2000-06-23，共 3 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/153878/season/1 (api_snapshot): TMDB 第 1 季共 3 集，标题及日期分别为 緋色の追憶、月影の下で、碧波の永遠，对应 Bangumi 三集。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《リフレインブルー》3集 OVA，发行日期为 2000-06-23、2000-08-25、2000-10-27；AniDB ID 724 的标题匹配。TMDB TV 153878 的第 1 季明确包含 3 集，且三集标题与日期分别对应「緋色の追憶」(2000-06-23)、「月影の下で」(2000-08-25)、「碧波の永遠」(2000-10-27)。因此可确认是同一版本的完整第 1 季。\n\nhttps://bgm.tv/subject/82530 (page): Bangumi 条目为《リフレインブルー／蓝色乐章》，类型为 OVA，共 3 集；集标题和日期与 TMDB 第 1 季逐集对应。\n\nhttps://www.themoviedb.org/tv/153878 (api_snapshot): TMDB TV 153878 名为 Refrain Blue，首播日期为 2000-06-23，共 3 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/153878/season/1 (api_snapshot): TMDB 第 1 季共 3 集，标题及日期分别为 緋色の追憶、月影の下で、碧波の永遠，对应 Bangumi 三集。\n\n脚本按放送日期核对生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应，3 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/82530; https://www.themoviedb.org/tv/153878; https://www.themoviedb.org/tv/153878/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 153878
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

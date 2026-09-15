@@ -1,16 +1,46 @@
 {
   "anidbId": 5351,
   "bangumiId": 6499,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 39664,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 39665,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 39666,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 39667,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2007-12-26 开始、共 4 集的 OVA；TMDB TV 45161 标题与原名完全一致，首播日期为 2007-12-26，共 4 集。TMDB 第 1 季包含 4 集，播出日期依次为 2007-12-26、2008-01-23、2008-02-27、2008-03-26，与 Bangumi 主体的 4 集日期和顺序逐一对应。因此可采用完整第 1 季。\n\nhttps://bgm.tv/subject/6499 (page): Bangumi subject 标记为 OVA，共 4 集，发售/播出日期为 2007-12-26 至 2008-03-26；4 集日期依次与 TMDB 第 1 季对应。\n\nhttps://www.themoviedb.org/tv/45161 (api_snapshot): TMDB 作品标题为「やわらか三国志 突き刺せ!! 呂布子ちゃん」，首播日期 2007-12-26，共 4 集。\n\nhttps://www.themoviedb.org/tv/45161/season/1 (api_snapshot): TMDB 第 1 季共 4 集，集数与日期依次为 1/2007-12-26、2/2008-01-23、3/2008-02-27、4/2008-03-26。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2007-12-26 开始、共 4 集的 OVA；TMDB TV 45161 标题与原名完全一致，首播日期为 2007-12-26，共 4 集。TMDB 第 1 季包含 4 集，播出日期依次为 2007-12-26、2008-01-23、2008-02-27、2008-03-26，与 Bangumi 主体的 4 集日期和顺序逐一对应。因此可采用完整第 1 季。\n\nhttps://bgm.tv/subject/6499 (page): Bangumi subject 标记为 OVA，共 4 集，发售/播出日期为 2007-12-26 至 2008-03-26；4 集日期依次与 TMDB 第 1 季对应。\n\nhttps://www.themoviedb.org/tv/45161 (api_snapshot): TMDB 作品标题为「やわらか三国志 突き刺せ!! 呂布子ちゃん」，首播日期 2007-12-26，共 4 集。\n\nhttps://www.themoviedb.org/tv/45161/season/1 (api_snapshot): TMDB 第 1 季共 4 集，集数与日期依次为 1/2007-12-26、2/2008-01-23、3/2008-02-27、4/2008-03-26。\n\n脚本按放送日期核对生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应，4 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/6499; https://www.themoviedb.org/tv/45161; https://www.themoviedb.org/tv/45161/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45161
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

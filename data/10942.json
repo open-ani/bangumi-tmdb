@@ -1,16 +1,91 @@
 {
   "anidbId": 8225,
   "bangumiId": 10942,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 100961,
+      "sort": 1,
+      "type": 3
+    },
+    {
+      "id": 103083,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 103084,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 103085,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 103086,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 103087,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 103088,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 103089,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 103090,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 103091,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 103092,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 103093,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 103094,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2011 年播出的 12 集 TV 动画；AniDB ID 8225 与标题匹配。TMDB 87364 的第 1 季首播日期为 2011-07-06，共 12 集，日期及各集标题与 Bangumi 的 12 个正篇逐集对应，因此采用完整第 1 季。Bangumi 另列出的“にゃんぱいあ体操”为特别篇/额外内容，不影响主体正篇季范围。\n\nhttps://bgm.tv/subject/10942 (page): Bangumi subject 标题为《にゃんぱいあ The Animation》，日期为 2011-07-06，正篇共 12 集，逐集日期从 2011-07-06 至 2011-09-21。\n\nhttps://www.themoviedb.org/tv/87364 (api_snapshot): TMDB TV 作品标题、原名均为“にゃんぱいあ The Animation”，首播日期为 2011-07-06，共 12 集，并包含第 1 季。\n\nhttps://www.themoviedb.org/tv/87364/season/1 (api_snapshot): TMDB 第 1 季共 12 集，首播日期为 2011-07-06；12 个剧集标题和日期与 Bangumi 正篇逐集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2011 年播出的 12 集 TV 动画；AniDB ID 8225 与标题匹配。TMDB 87364 的第 1 季首播日期为 2011-07-06，共 12 集，日期及各集标题与 Bangumi 的 12 个正篇逐集对应，因此采用完整第 1 季。Bangumi 另列出的“にゃんぱいあ体操”为特别篇/额外内容，不影响主体正篇季范围。\n\nhttps://bgm.tv/subject/10942 (page): Bangumi subject 标题为《にゃんぱいあ The Animation》，日期为 2011-07-06，正篇共 12 集，逐集日期从 2011-07-06 至 2011-09-21。\n\nhttps://www.themoviedb.org/tv/87364 (api_snapshot): TMDB TV 作品标题、原名均为“にゃんぱいあ The Animation”，首播日期为 2011-07-06，共 12 集，并包含第 1 季。\n\nhttps://www.themoviedb.org/tv/87364/season/1 (api_snapshot): TMDB 第 1 季共 12 集，首播日期为 2011-07-06；12 个剧集标题和日期与 Bangumi 正篇逐集对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/10942; https://www.themoviedb.org/tv/87364; https://www.themoviedb.org/tv/87364/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87364
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

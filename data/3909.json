@@ -1,16 +1,91 @@
 {
   "anidbId": 618,
   "bangumiId": 3909,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28377,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28378,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 28379,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 28380,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 28381,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 28382,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 28383,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 28384,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 28385,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 28386,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 28387,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 28388,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 28389,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 3909 是 2003 年播出的《一骑当千》第一部 TV 动画，AniDB ID 618 的标题关联状态为 matched，主体共 13 集。TMDB TV 37584 的第 1 季名称为《一騎当千》，首播日期为 2003-07-30，共 13 集；其 13 集标题与日期逐一对应 Bangumi 的第 1 至 13 集。因此可确认应映射为 TMDB TV 37584 第 1 季完整一季。未发现该 Bangumi subject 还包含需要纳入的电影、OVA、总集篇或重剪版内容。\n\nhttps://bgm.tv/subject/3909 (page): Bangumi subject 标题为《一騎当千》，日期为 2003-07-30，类型为 TV，话数为 13；输入数据中的 AniDB ID 为 618 且标题关联状态为 matched。\n\nhttps://www.themoviedb.org/tv/37584 (api_snapshot): TMDB TV 37584 名称为《一騎当千》，first_air_date 为 2003-07-30，第 1 季共 13 集。\n\nhttps://www.themoviedb.org/tv/37584/season/1 (api_snapshot): TMDB 第 1 季为《一騎当千》，season_number 为 1、episodeCount 为 13；剧集 1–13 的标题和日期与 Bangumi 1–13 集逐一匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 3909 是 2003 年播出的《一骑当千》第一部 TV 动画，AniDB ID 618 的标题关联状态为 matched，主体共 13 集。TMDB TV 37584 的第 1 季名称为《一騎当千》，首播日期为 2003-07-30，共 13 集；其 13 集标题与日期逐一对应 Bangumi 的第 1 至 13 集。因此可确认应映射为 TMDB TV 37584 第 1 季完整一季。未发现该 Bangumi subject 还包含需要纳入的电影、OVA、总集篇或重剪版内容。\n\nhttps://bgm.tv/subject/3909 (page): Bangumi subject 标题为《一騎当千》，日期为 2003-07-30，类型为 TV，话数为 13；输入数据中的 AniDB ID 为 618 且标题关联状态为 matched。\n\nhttps://www.themoviedb.org/tv/37584 (api_snapshot): TMDB TV 37584 名称为《一騎当千》，first_air_date 为 2003-07-30，第 1 季共 13 集。\n\nhttps://www.themoviedb.org/tv/37584/season/1 (api_snapshot): TMDB 第 1 季为《一騎当千》，season_number 为 1、episodeCount 为 13；剧集 1–13 的标题和日期与 Bangumi 1–13 集逐一匹配。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/3909; https://www.themoviedb.org/tv/37584; https://www.themoviedb.org/tv/37584/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 37584
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

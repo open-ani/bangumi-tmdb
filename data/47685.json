@@ -1,16 +1,91 @@
 {
   "anidbId": 9075,
   "bangumiId": 47685,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 212112,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 212113,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 212114,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 212115,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 212116,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 212117,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 212118,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 212119,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 212120,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 212121,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 212122,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 212123,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 212124,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 47685 的 AniDB ID 9075 与《みなみけ ただいま》匹配；TMDB TV 56354 的第4季明确命名为《みなみけ ただいま》，共13集。该季13集标题、顺序和播出时间与 Bangumi 条目逐集对应（日期存在时区导致的前后一天差异），因此应映射为完整第4季，不遗漏主体集数。\n\nhttps://bgm.tv/subject/47685 (page): Bangumi 条目为《みなみけ ただいま》，2013-01-05开播，共13集；提供的 AniDB 关联 ID 为9075。\n\nhttps://www.themoviedb.org/tv/56354 (api_snapshot): TMDB TV 56354 为《みなみけ》，包含第4季《みなみけ ただいま》，第4季共13集。\n\nhttps://www.themoviedb.org/tv/56354/season/4 (api_snapshot): TMDB 第4季名称为《みなみけ ただいま》，13集标题与 Bangumi 的13集逐条对应，播出日期整体相差约一天。\n\n备注：TMDB 与 Bangumi 的播出日期相差约一天，可能源于时区或平台记录差异；不影响标题、顺序和集数对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 47685 的 AniDB ID 9075 与《みなみけ ただいま》匹配；TMDB TV 56354 的第4季明确命名为《みなみけ ただいま》，共13集。该季13集标题、顺序和播出时间与 Bangumi 条目逐集对应（日期存在时区导致的前后一天差异），因此应映射为完整第4季，不遗漏主体集数。\n\nhttps://bgm.tv/subject/47685 (page): Bangumi 条目为《みなみけ ただいま》，2013-01-05开播，共13集；提供的 AniDB 关联 ID 为9075。\n\nhttps://www.themoviedb.org/tv/56354 (api_snapshot): TMDB TV 56354 为《みなみけ》，包含第4季《みなみけ ただいま》，第4季共13集。\n\nhttps://www.themoviedb.org/tv/56354/season/4 (api_snapshot): TMDB 第4季名称为《みなみけ ただいま》，13集标题与 Bangumi 的13集逐条对应，播出日期整体相差约一天。\n\n备注：TMDB 与 Bangumi 的播出日期相差约一天，可能源于时区或平台记录差异；不影响标题、顺序和集数对应。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/47685; https://www.themoviedb.org/tv/56354; https://www.themoviedb.org/tv/56354/season/4",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 56354
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

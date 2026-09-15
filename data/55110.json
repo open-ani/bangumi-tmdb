@@ -1,16 +1,96 @@
 {
   "anidbId": 9522,
   "bangumiId": 55110,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 213901,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 213902,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 213903,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 213904,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 213905,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 213906,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 213907,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 213908,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 213909,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 213910,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 213911,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 213912,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 227586,
+      "sort": 1.5,
+      "type": 1
+    },
+    {
+      "id": 758948,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB 53069 是与 Bangumi subject 相同的 2012 年日本短篇电视动画：日文原名完全一致，简介中的京介与阔别十年的妹妹浪花重聚也对应本作身份。TMDB 第 1 季第 1—12 集的标题逐集对应 Bangumi 的 12 集正篇；TMDB 第 13 集则是 Bangumi 单列为特别篇的《うちのお兄ちゃんは「東京ルール」》。因此本 subject 正篇应精确映射为 TV 53069 第 1 季第 1—12 集，而非整季。\n\nhttps://www.themoviedb.org/tv/53069 (api_snapshot): TMDB API 快照显示 TV 53069 的原名与名称均为《僕の妹は「大阪おかん」》，首播于 2012-12-22，剧情写明京介与分离十年的妹妹浪花重新同住，确认了作品身份、媒介和版本。\n\nhttps://www.themoviedb.org/tv/53069/season/1 (api_snapshot): TMDB API 快照列出第 1 季共 13 集；其中第 1—12 集标题依次与 Bangumi 的 12 集正篇完全对应，第 13 集为《うちのお兄ちゃんは「東京ルール」》，而 Bangumi 将其列为特别篇，故正篇范围必须限定为 S1E1—E12。",
+    "evidence": "gpt-5.6-sol: TMDB 53069 是与 Bangumi subject 相同的 2012 年日本短篇电视动画：日文原名完全一致，简介中的京介与阔别十年的妹妹浪花重聚也对应本作身份。TMDB 第 1 季第 1—12 集的标题逐集对应 Bangumi 的 12 集正篇；TMDB 第 13 集则是 Bangumi 单列为特别篇的《うちのお兄ちゃんは「東京ルール」》。因此本 subject 正篇应精确映射为 TV 53069 第 1 季第 1—12 集，而非整季。\n\nhttps://www.themoviedb.org/tv/53069 (api_snapshot): TMDB API 快照显示 TV 53069 的原名与名称均为《僕の妹は「大阪おかん」》，首播于 2012-12-22，剧情写明京介与分离十年的妹妹浪花重新同住，确认了作品身份、媒介和版本。\n\nhttps://www.themoviedb.org/tv/53069/season/1 (api_snapshot): TMDB API 快照列出第 1 季共 13 集；其中第 1—12 集标题依次与 Bangumi 的 12 集正篇完全对应，第 13 集为《うちのお兄ちゃんは「東京ルール」》，而 Bangumi 将其列为特别篇，故正篇范围必须限定为 S1E1—E12。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/55110; https://www.themoviedb.org/tv/53069; https://www.themoviedb.org/tv/53069/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 53069
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

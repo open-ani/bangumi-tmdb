@@ -1,16 +1,91 @@
 {
   "anidbId": 76,
   "bangumiId": 1547,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 9294,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 9295,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 9296,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 9297,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 9298,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 9299,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 9300,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 9301,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 9302,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 9303,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 9304,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 9305,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 9306,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 1547 是 1999 年播出的《十兵衛ちゃん》第一部 TV 动画，共 13 集（1999-04-05 至 1999-06-28），并与第二部 subject 3294 分开。TMDB TV 34723 第 1 季同名、1999 年、13 集；13 个剧集标题、剧情概要和播出日期与 Bangumi 逐集对应（TMDB 日期整体晚 1 天），因此映射为 season 1 的完整一季。第 2 季属于独立续作，不应纳入。\n\nhttps://bgm.tv/subject/1547 (page): Bangumi subject 1547 为《十兵衛ちゃん -ラブリー眼帯の秘密-》，1999-04-05 首播，共 13 集；续作 subject 3294 独立存在。\n\nhttps://www.themoviedb.org/tv/34723 (api_snapshot): TMDB TV 34723 同名，分为两个 13 集季；第 1 季对应第一部，第 2 季对应续作。\n\nhttps://www.themoviedb.org/tv/34723/season/1 (api_snapshot): TMDB 第 1 季含 13 集，标题与剧情概要逐集对应 Bangumi 第 1—13 集。\n\n备注：AniDB 标题状态标为 different，存在多语言及罗马字变体；但不影响逐集核对出的 TMDB 目标。；TMDB 与 Bangumi 日期整体相差 1 天，可能由时区或数据库登记差异造成。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 1547 是 1999 年播出的《十兵衛ちゃん》第一部 TV 动画，共 13 集（1999-04-05 至 1999-06-28），并与第二部 subject 3294 分开。TMDB TV 34723 第 1 季同名、1999 年、13 集；13 个剧集标题、剧情概要和播出日期与 Bangumi 逐集对应（TMDB 日期整体晚 1 天），因此映射为 season 1 的完整一季。第 2 季属于独立续作，不应纳入。\n\nhttps://bgm.tv/subject/1547 (page): Bangumi subject 1547 为《十兵衛ちゃん -ラブリー眼帯の秘密-》，1999-04-05 首播，共 13 集；续作 subject 3294 独立存在。\n\nhttps://www.themoviedb.org/tv/34723 (api_snapshot): TMDB TV 34723 同名，分为两个 13 集季；第 1 季对应第一部，第 2 季对应续作。\n\nhttps://www.themoviedb.org/tv/34723/season/1 (api_snapshot): TMDB 第 1 季含 13 集，标题与剧情概要逐集对应 Bangumi 第 1—13 集。\n\n备注：AniDB 标题状态标为 different，存在多语言及罗马字变体；但不影响逐集核对出的 TMDB 目标。；TMDB 与 Bangumi 日期整体相差 1 天，可能由时区或数据库登记差异造成。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/1547; https://www.themoviedb.org/tv/34723; https://www.themoviedb.org/tv/34723/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34723
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

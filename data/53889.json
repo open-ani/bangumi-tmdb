@@ -1,16 +1,86 @@
 {
   "anidbId": 9499,
   "bangumiId": 53889,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 227152,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 227153,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 227154,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 227155,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 227156,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 227157,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 227158,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 227159,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 227160,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 227161,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 227162,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 252711,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 为2013年播出的12集TV动画，AniDB ID 9499 与标题匹配。TMDB TV 50114 标题、简介、日文原名及日本来源均一致；第1季明确包含12集，剧集标题与Bangumi第1至12话逐一对应。TMDB日期整体比Bangumi晚一天，符合时区差异。未发现电影、OVA、总集篇、重剪版或其他主体关联，因此纳入完整第1季。\n\nhttps://www.themoviedb.org/tv/50114 (api_snapshot): TMDB记录标题为《幕末義人伝 浪漫》，日本动画，首播日期为2013-01-08，共12集。\n\nhttps://www.themoviedb.org/tv/50114/season/1 (api_snapshot): TMDB第1季明确为season_number=1，共12集；第1至12集标题与Bangumi提供的12话标题逐一对应，日期整体相差一天。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 为2013年播出的12集TV动画，AniDB ID 9499 与标题匹配。TMDB TV 50114 标题、简介、日文原名及日本来源均一致；第1季明确包含12集，剧集标题与Bangumi第1至12话逐一对应。TMDB日期整体比Bangumi晚一天，符合时区差异。未发现电影、OVA、总集篇、重剪版或其他主体关联，因此纳入完整第1季。\n\nhttps://www.themoviedb.org/tv/50114 (api_snapshot): TMDB记录标题为《幕末義人伝 浪漫》，日本动画，首播日期为2013-01-08，共12集。\n\nhttps://www.themoviedb.org/tv/50114/season/1 (api_snapshot): TMDB第1季明确为season_number=1，共12集；第1至12集标题与Bangumi提供的12话标题逐一对应，日期整体相差一天。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/53889; https://www.themoviedb.org/tv/50114; https://www.themoviedb.org/tv/50114/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 50114
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

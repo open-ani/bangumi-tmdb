@@ -1,16 +1,101 @@
 {
   "anidbId": 8860,
   "bangumiId": 28225,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 176177,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 176178,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 176179,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 176180,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 176181,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 176182,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 176183,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 176184,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 176185,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 176186,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 762509,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 762510,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 762511,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 762512,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 762513,
+      "sort": 5,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 28225 明确是 10 集 TV 动画；其 10 个正篇的标题、日期与 TMDB 54928 第 1 季逐集对应。TMDB 主页面的标题、日文原名、年份和总集数也一致。Bangumi 中另列的 5 个 SP 属于 DVD 特典，且 OAD 有独立 subject 62718；根据本任务不要求额外特典，因此映射完整 TMDB 第 1 季即可。\n\nhttps://bgm.tv/subject/28225 (page): Bangumi 将该条目标为 TV，话数 10，并列出标题、播出信息、AIC 制作及 OAD 关联。\n\nhttps://bgm.tv/subject/28225/ep (page): Bangumi 本篇第 1–10 集的标题和日期与 TMDB 第 1 季逐集一致；SP 被单独列为特别篇。\n\nhttps://www.themoviedb.org/tv/54928 (api_snapshot): TMDB 54928 的标题、日文原名与该作品一致，首播日为 2012-07-14，共 10 集，并明确存在 season 1。\n\nhttps://www.themoviedb.org/tv/54928/season/1 (api_snapshot): TMDB season 1 共 10 集，完整剧集标题、日期和剧情与 Bangumi 本篇第 1–10 集对应。\n\nhttps://www.kinokuniya.co.jp/f/dsg-10-4582194843091 (search_snippet): DVD 第 5 卷资料将“ドキドキの温泉合宿 その5”列为新作短篇特典，支持 Bangumi SP 属于额外特典。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 28225 明确是 10 集 TV 动画；其 10 个正篇的标题、日期与 TMDB 54928 第 1 季逐集对应。TMDB 主页面的标题、日文原名、年份和总集数也一致。Bangumi 中另列的 5 个 SP 属于 DVD 特典，且 OAD 有独立 subject 62718；根据本任务不要求额外特典，因此映射完整 TMDB 第 1 季即可。\n\nhttps://bgm.tv/subject/28225 (page): Bangumi 将该条目标为 TV，话数 10，并列出标题、播出信息、AIC 制作及 OAD 关联。\n\nhttps://bgm.tv/subject/28225/ep (page): Bangumi 本篇第 1–10 集的标题和日期与 TMDB 第 1 季逐集一致；SP 被单独列为特别篇。\n\nhttps://www.themoviedb.org/tv/54928 (api_snapshot): TMDB 54928 的标题、日文原名与该作品一致，首播日为 2012-07-14，共 10 集，并明确存在 season 1。\n\nhttps://www.themoviedb.org/tv/54928/season/1 (api_snapshot): TMDB season 1 共 10 集，完整剧集标题、日期和剧情与 Bangumi 本篇第 1–10 集对应。\n\nhttps://www.kinokuniya.co.jp/f/dsg-10-4582194843091 (search_snippet): DVD 第 5 卷资料将“ドキドキの温泉合宿 その5”列为新作短篇特典，支持 Bangumi SP 属于额外特典。\n\n脚本按放送日期核对生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应，10 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/28225; https://bgm.tv/subject/28225/ep; https://www.themoviedb.org/tv/54928; https://www.themoviedb.org/tv/54928/season/1; https://www.kinokuniya.co.jp/f/dsg-10-4582194843091",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 54928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

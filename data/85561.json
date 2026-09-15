@@ -1,16 +1,41 @@
 {
   "anidbId": 9817,
   "bangumiId": 85561,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 332203,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 332204,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 332205,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "月之泣三卷 OVA；TMDB 描述漫画第 14–16 卷附赠、改编温泉事件的内容，与目标一致。\n另一个候选 TV 247433 当前返回 404。\nhttps://api.bgm.tv/v0/subjects/85561\nhttps://www.themoviedb.org/tv/118218/season/1",
+    "evidence": "月之泣三卷 OVA；TMDB 描述漫画第 14–16 卷附赠、改编温泉事件的内容，与目标一致。\n另一个候选 TV 247433 当前返回 404。\nhttps://api.bgm.tv/v0/subjects/85561\nhttps://www.themoviedb.org/tv/118218/season/1\n\n脚本按放送日期核对生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应，3 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "manual-review-sol-remaining-51",
-    "verifiedAt": "2026-09-08T18:08:25.817Z"
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118218
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

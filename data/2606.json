@@ -1,16 +1,86 @@
 {
   "anidbId": 6400,
   "bangumiId": 2606,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 16255,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 16256,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 16257,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 16258,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 16259,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 16260,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 16261,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 16262,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 16263,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 16264,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 16265,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 16266,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 2606 明确是 TV，12 话，放送时间为 2009-10-05 至 2009-12-21，制作公司为動画工房；关联条目将前作、续作及 OVA 分开。TMDB TV 42917 的第 2 季标题为「真・恋姫†無双」，开播日为 2009-10-05，共 12 集；第 2 季剧集 1–12 的标题和日期与 Bangumi 正片逐一对应，剧情及制作信息也一致。因此应映射为完整的 TMDB 第 2 季，不纳入其他季或独立 OVA。\n\nhttps://bgm.tv/subject/2606 (page): Bangumi 页面将 subject 2606 标为 TV，记载 12 话、2009 年 10 月 5 日开播、12 月 21 日完结、原作 BaseSon、导演中西伸彰、动画制作動画工房，并将前作、续作和 OVA 列为独立关联条目。\n\nhttps://www.themoviedb.org/tv/42917 (api_snapshot): TMDB TV 42917 的第 2 季名为「真・恋姫†無双」，season_number 为 2，开播日 2009-10-05，包含 12 集；第 1 季和第 3 季分别是其他作品。\n\nhttps://www.themoviedb.org/tv/42917/season/2 (api_snapshot): TMDB 第 2 季完整列出第 1–12 集，日期从 2009-10-05 至 2009-12-21；剧集标题与 Bangumi 的 12 个正片章节逐一吻合。\n\nhttps://anidb.app/anime/koihimemusou-2812 (search_snippet): 可读取的 AniDB 镜像系列结果将 2009 年的 Shin Koihime Musou 列为 Koihime Musou 系列的第 2 项，并与 2008 年前作、2010 年续作区分。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 2606 明确是 TV，12 话，放送时间为 2009-10-05 至 2009-12-21，制作公司为動画工房；关联条目将前作、续作及 OVA 分开。TMDB TV 42917 的第 2 季标题为「真・恋姫†無双」，开播日为 2009-10-05，共 12 集；第 2 季剧集 1–12 的标题和日期与 Bangumi 正片逐一对应，剧情及制作信息也一致。因此应映射为完整的 TMDB 第 2 季，不纳入其他季或独立 OVA。\n\nhttps://bgm.tv/subject/2606 (page): Bangumi 页面将 subject 2606 标为 TV，记载 12 话、2009 年 10 月 5 日开播、12 月 21 日完结、原作 BaseSon、导演中西伸彰、动画制作動画工房，并将前作、续作和 OVA 列为独立关联条目。\n\nhttps://www.themoviedb.org/tv/42917 (api_snapshot): TMDB TV 42917 的第 2 季名为「真・恋姫†無双」，season_number 为 2，开播日 2009-10-05，包含 12 集；第 1 季和第 3 季分别是其他作品。\n\nhttps://www.themoviedb.org/tv/42917/season/2 (api_snapshot): TMDB 第 2 季完整列出第 1–12 集，日期从 2009-10-05 至 2009-12-21；剧集标题与 Bangumi 的 12 个正片章节逐一吻合。\n\nhttps://anidb.app/anime/koihimemusou-2812 (search_snippet): 可读取的 AniDB 镜像系列结果将 2009 年的 Shin Koihime Musou 列为 Koihime Musou 系列的第 2 项，并与 2008 年前作、2010 年续作区分。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/2606; https://www.themoviedb.org/tv/42917; https://www.themoviedb.org/tv/42917/season/2; https://anidb.app/anime/koihimemusou-2812",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 42917
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

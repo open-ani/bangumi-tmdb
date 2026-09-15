@@ -1,16 +1,86 @@
 {
   "anidbId": 9507,
   "bangumiId": 54602,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 227224,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 227225,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 227226,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 227227,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 227228,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 227229,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 227230,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 227231,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 227232,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 227233,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 227234,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 227235,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi主体为2013年播出的12集电视动画，AniDB关联为9507。TMDB TV 53512的标题、首播日期、简介和总集数一致；第1季12集日期与Bangumi逐一对应。第0季为2013-03-31特别编，主体无该特别篇证据，故不纳入。\n\nhttps://www.themoviedb.org/tv/53512 (api_snapshot): TMDB条目为《石田とあさくら》，首播2013-01-06，共12集。\n\nhttps://www.themoviedb.org/tv/53512/season/1 (api_snapshot): 第1季共12集，日期为2013-01-06至2013-03-24，与Bangumi主体逐集对应。\n\nhttps://bgm.tv/subject/54602 (page): Bangumi主体为2013年播出的12集《石田とあさくら／石田和朝仓》，关联AniDB ID 9507。",
+    "evidence": "gpt-5.6-luna: Bangumi主体为2013年播出的12集电视动画，AniDB关联为9507。TMDB TV 53512的标题、首播日期、简介和总集数一致；第1季12集日期与Bangumi逐一对应。第0季为2013-03-31特别编，主体无该特别篇证据，故不纳入。\n\nhttps://www.themoviedb.org/tv/53512 (api_snapshot): TMDB条目为《石田とあさくら》，首播2013-01-06，共12集。\n\nhttps://www.themoviedb.org/tv/53512/season/1 (api_snapshot): 第1季共12集，日期为2013-01-06至2013-03-24，与Bangumi主体逐集对应。\n\nhttps://bgm.tv/subject/54602 (page): Bangumi主体为2013年播出的12集《石田とあさくら／石田和朝仓》，关联AniDB ID 9507。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/54602; https://www.themoviedb.org/tv/53512; https://www.themoviedb.org/tv/53512/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 53512
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

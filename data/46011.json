@@ -1,16 +1,86 @@
 {
   "anidbId": 9342,
   "bangumiId": 46011,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 218483,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 218484,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 218485,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 218486,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 218487,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 218488,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 218489,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 218490,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 218491,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 218492,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 218493,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 218494,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 46011 是《僕は友達が少ないNEXT》第二季 TV 动画，标注 12 集、2013-01-10 至 2013-03-28；AniDB ID 9342 的标题与别名一致。TMDB TV 60730 明确将 NEXT 列为 season 2，共 12 集；剧集标题、剧情和日期序列均与 Bangumi 逐项对应，日期整体相差一天，符合时区记录差异。因此映射整季 2。\n\nhttps://bgm.tv/subject/46011 (page): Bangumi 条目为《僕は友達が少ないNEXT》，TV 动画，12 集，首播日 2013-01-10；关联 AniDB ID 9342。\n\nhttps://www.themoviedb.org/tv/60730 (api_snapshot): TMDB TV 60730 的主条目包含 season 1（12 集）和 season 2“NEXT”（12 集）。\n\nhttps://www.themoviedb.org/tv/60730/season/2 (api_snapshot): TMDB season 2 名为“NEXT”，共 12 集；12 个剧集标题、剧情和日期与 Bangumi 集数逐项对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 46011 是《僕は友達が少ないNEXT》第二季 TV 动画，标注 12 集、2013-01-10 至 2013-03-28；AniDB ID 9342 的标题与别名一致。TMDB TV 60730 明确将 NEXT 列为 season 2，共 12 集；剧集标题、剧情和日期序列均与 Bangumi 逐项对应，日期整体相差一天，符合时区记录差异。因此映射整季 2。\n\nhttps://bgm.tv/subject/46011 (page): Bangumi 条目为《僕は友達が少ないNEXT》，TV 动画，12 集，首播日 2013-01-10；关联 AniDB ID 9342。\n\nhttps://www.themoviedb.org/tv/60730 (api_snapshot): TMDB TV 60730 的主条目包含 season 1（12 集）和 season 2“NEXT”（12 集）。\n\nhttps://www.themoviedb.org/tv/60730/season/2 (api_snapshot): TMDB season 2 名为“NEXT”，共 12 集；12 个剧集标题、剧情和日期与 Bangumi 集数逐项对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/46011; https://www.themoviedb.org/tv/60730; https://www.themoviedb.org/tv/60730/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 60730
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

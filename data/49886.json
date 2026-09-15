@@ -1,16 +1,96 @@
 {
   "anidbId": 526,
   "bangumiId": 49886,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 199685,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 199686,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 199687,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 199688,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 199689,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 199690,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 199691,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 199692,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 199693,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 199694,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 199695,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 199696,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1403229,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1403230,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "TMDB API逐项核对：TMDB 29152 为1998-01-07首播TV版，当前第1季只有12集，逐集标题和日期与 Bangumi 12个type=0正篇相符；两部特典放在第0季。无需采用上一轮二手资料推测的14集拆段。旧映射44134实际是1998年9月OVA《DASH!》。",
+    "evidence": "TMDB API逐项核对：TMDB 29152 为1998-01-07首播TV版，当前第1季只有12集，逐集标题和日期与 Bangumi 12个type=0正篇相符；两部特典放在第0季。无需采用上一轮二手资料推测的14集拆段。旧映射44134实际是1998年9月OVA《DASH!》。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/49886; https://www.themoviedb.org/tv/29152; https://www.themoviedb.org/tv/29152/season/1; https://www.themoviedb.org/tv/29152/season/0; https://www.themoviedb.org/tv/44134",
-    "verifiedAt": "2026-09-07T18:35:50.448Z"
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 29152
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

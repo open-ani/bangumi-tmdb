@@ -1,14 +1,30 @@
 {
   "anidbId": 729,
   "bangumiId": 38435,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 165001,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 165001,
+      "targets": [
+        {
+          "id": 39228,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "TMDB API逐项核对：TMDB movie 39228 是1981-03-14上映的《機動戦士ガンダム》，导演富野由悠季、藤原良二，剧情为阿姆罗在Side 7遭袭后驾驶高达，均与 Bangumi 对应。TMDB片长140分钟、Bangumi记录137分钟，片长差异不改变同一版本身份。",
+    "evidence": "TMDB API逐项核对：TMDB movie 39228 是1981-03-14上映的《機動戦士ガンダム》，导演富野由悠季、藤原良二，剧情为阿姆罗在Side 7遭袭后驾驶高达，均与 Bangumi 对应。TMDB片长140分钟、Bangumi记录137分钟，片长差异不改变同一版本身份。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
     "method": "codex",
     "source": "https://bgm.tv/subject/38435; https://www.themoviedb.org/movie/39228",
-    "verifiedAt": "2026-09-07T18:35:50.444Z"
+    "verifiedAt": "2026-09-15T11:35:23.844Z"
   },
   "rules": [],
   "schemaVersion": 1,
