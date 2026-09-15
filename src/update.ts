@@ -202,7 +202,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       const anidbId = before?.anidbId ?? ctx.seeds.get(subject.id)?.anidb;
       const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
         episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
-        provenance: provenanceFromResearch(decision, ctx.model, subject.id, new Date(now).toISOString()) });
+        provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) });
       validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
       await verifyMapping(row, live, catalog);
       apply(row, before);
