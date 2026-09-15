@@ -1,3 +1,5 @@
+// Tests build their own roots with a local .cache; a runner-wide cache location must not leak in.
+delete process.env.DATASET_CACHE;
 import { Mapping, Catalog, type Episode } from '../src/model.js';
 
 export function mapping(patch: Partial<Mapping> = {}): Mapping {

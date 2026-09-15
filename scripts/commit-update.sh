@@ -29,7 +29,8 @@ for attempt in 1 2 3; do
   pnpm validate
   git add -- data state sources
   if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
-  git -c user.name=openanibot -c user.email=openanibot@users.noreply.github.com \
+  # The runner user's signing key must not sign the bot's commits.
+  git -c user.name=openanibot -c user.email=openanibot@users.noreply.github.com -c commit.gpgsign=false \
     commit -m 'data: update and audit Bangumi to TMDB mappings'
   if git_remote push origin HEAD:main; then exit 0; fi
   # A racing human merge causes a non-fast-forward rejection. Preserve the patch only

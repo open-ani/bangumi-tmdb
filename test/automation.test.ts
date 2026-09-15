@@ -18,7 +18,7 @@ test('automation guard protects locks, code files and exact base HEAD', async ()
     git(['init', '-b', 'main']);
     await writeJson(join(dir, 'data/1.json'), mapping({ locked: true }));
     git(['add', '.']);
-    git(['-c', 'user.name=test', '-c', 'user.email=test@example.org', 'commit', '-m', 'fixture']);
+    git(['-c', 'user.name=test', '-c', 'user.email=test@example.org', '-c', 'commit.gpgsign=false', 'commit', '-m', 'fixture']);
     const base = git(['rev-parse', 'HEAD']);
     await guard(dir, base);
     await writeJson(join(dir, 'data/1.json'), mapping({ locked: false }));

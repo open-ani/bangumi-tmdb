@@ -30,7 +30,7 @@ test('legacy import and publication work without network, credentials or Archive
     git(['init', '-b', 'main']);
     await writeJson(join(root, 'state/progress.json'), { schemaVersion: 1, archive: null, subjects: {} });
     git(['add', '.']);
-    git(['-c', 'user.name=test', '-c', 'user.email=test@example.org', 'commit', '-m', 'fixture']);
+    git(['-c', 'user.name=test', '-c', 'user.email=test@example.org', '-c', 'commit.gpgsign=false', 'commit', '-m', 'fixture']);
     const seed = Seeds.parse({ schemaVersion: 1, repository: 'Rhilip/BangumiExtLinker', commit: 'a'.repeat(40), sha256: 'b'.repeat(64),
       rows: [{ bangumiId: 1, tmdb: { type: 'tv', id: 100, season: 2 } }, { bangumiId: 2, tmdb: { type: 'movie', id: 200 } }] });
     await importMappings(root, seed);
