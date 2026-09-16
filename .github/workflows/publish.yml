@@ -41,13 +41,22 @@ jobs:
             echo 'main advanced; a newer run will publish.'
             exit 0
           fi
+          # The tag stays data-<commit>: consumers (ani-api-server) build download URLs from manifest.sourceCommit.
+          # The title and notes carry the human-readable timestamp and counts for the release list.
           TAG="data-$GITHUB_SHA"
+          TITLE=$(node -p "const m=require('./dist/manifest.json'); 'Dataset ' + new Date(m.generatedAt).toISOString().replace('T', ' ').slice(0, 16) + ' UTC'")
+          NOTES=$(node -p "const m=require('./dist/manifest.json'); [
+            'Bangumi to TMDB subject and episode mappings.', '',
+            '- Generated: ' + new Date(m.generatedAt).toISOString() + ' (source commit ' + m.sourceCommit.slice(0, 7) + ')',
+            '- Subjects: ' + m.counts.subjects + '; episode mappings: ' + m.counts.episodes,
+            '- Bangumi Archive: ' + (m.archive ? m.archive.name : 'none'),
+            '', 'See manifest.json for provenance and checksums.'].join('\\n')")
           if gh release view "$TAG" --json isDraft --jq .isDraft > .cache/release-draft; then
             if test "$(cat .cache/release-draft)" = false; then exit 0; fi
             gh release upload "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json --clobber
+            gh release edit "$TAG" --title "$TITLE" --notes "$NOTES"
           else
             gh release create "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json \
-              --target "$GITHUB_SHA" --draft --title "Dataset $GITHUB_SHA" \
-              --notes 'Bangumi to TMDB subject and episode mappings. See manifest.json for provenance and checksums.'
+              --target "$GITHUB_SHA" --draft --title "$TITLE" --notes "$NOTES"
           fi
           gh release edit "$TAG" --draft=false --latest
