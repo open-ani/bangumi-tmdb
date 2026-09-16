@@ -14,6 +14,7 @@ import { checkAnidb } from './anidb.js';
 import { discover } from './bangumi.js';
 import { loadCatalog } from './catalog.js';
 import { importPending } from './pending.js';
+import { writeStats } from './stats.js';
 
 const root = resolve(process.env.DATASET_ROOT ?? '.');
 const command = process.argv[2];
@@ -70,9 +71,10 @@ try {
       for (const row of await mappings(root)) await verifyMapping(row, tmdb, catalog);
       console.log('All mappings verified against Archive and live TMDB'); break;
     }
+    case 'stats': await writeStats(root, positive('UPDATE_SCOPE_DAYS', 180)); break;
     case 'guard': await guard(root, process.argv[3] ?? ''); break;
     case 'publish': await publish(root, process.argv.includes('--online')); break;
-    default: throw new Error('Usage: pnpm cli <import-seed [SHA]|import-mappings|check-anidb [SHA]|archive|discover|validate|format|update|import-pending FILE [DAYS]|verify|guard SHA|publish [--online]>');
+    default: throw new Error('Usage: pnpm cli <import-seed [SHA]|import-mappings|check-anidb [SHA]|archive|discover|validate|format|update|import-pending FILE [DAYS]|stats|verify|guard SHA|publish [--online]>');
   }
 } catch (error) {
   console.error(error instanceof Error ? error.message : String(error)); process.exitCode = 1;

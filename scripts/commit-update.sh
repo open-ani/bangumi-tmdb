@@ -16,7 +16,7 @@ for attempt in 1 2 3; do
   remote=$(git rev-parse origin/main)
   if test "$remote" != "$base"; then
     # Only our allow-listed generated changes exist here: guard above rejects other edits.
-    git restore --source=HEAD --staged --worktree -- data state sources
+    git restore --source=HEAD --staged --worktree -- data state sources README.md
     git clean -f -- data state sources
     git reset --hard "$remote"
     base="$remote"
@@ -24,10 +24,11 @@ for attempt in 1 2 3; do
     pnpm check && pnpm test && pnpm validate
     # Codex must never inherit the GitHub token during a recomputation.
     env -u GH_TOKEN pnpm run update
+    pnpm cli stats
   fi
   pnpm cli guard "$base"
   pnpm validate
-  git add -- data state sources
+  git add -- data state sources README.md
   if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
   # The runner user's signing key must not sign the bot's commits.
   git -c user.name=openanibot -c user.email=openanibot@users.noreply.github.com -c commit.gpgsign=false \

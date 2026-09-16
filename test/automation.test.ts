@@ -17,6 +17,7 @@ test('automation guard protects locks, code files and exact base HEAD', async ()
   try {
     git(['init', '-b', 'main']);
     await writeJson(join(dir, 'data/1.json'), mapping({ locked: true }));
+    await writeFile(join(dir, 'README.md'), 'Intro\n<!-- stats:start -->\nold\n<!-- stats:end -->\nOutro\n');
     git(['add', '.']);
     git(['-c', 'user.name=test', '-c', 'user.email=test@example.org', '-c', 'commit.gpgsign=false', 'commit', '-m', 'fixture']);
     const base = git(['rev-parse', 'HEAD']);
@@ -24,6 +25,13 @@ test('automation guard protects locks, code files and exact base HEAD', async ()
     await writeJson(join(dir, 'data/1.json'), mapping({ locked: false }));
     await assert.rejects(guard(dir, base), /Locked record/);
     git(['restore', 'data/1.json']);
+    await writeFile(join(dir, 'README.md'), 'Intro\n<!-- stats:start -->\nnew numbers\n<!-- stats:end -->\nOutro\n');
+    await guard(dir, base);
+    await writeFile(join(dir, 'README.md'), 'Changed intro\n<!-- stats:start -->\nnew numbers\n<!-- stats:end -->\nOutro\n');
+    await assert.rejects(guard(dir, base), /generated stats block/);
+    await writeFile(join(dir, 'README.md'), 'Intro\nno markers\n');
+    await assert.rejects(guard(dir, base), /missing the generated stats markers/);
+    git(['restore', 'README.md']);
     await writeFile(join(dir, 'code.ts'), 'unapproved');
     await assert.rejects(guard(dir, base), /cannot change code/);
     await assert.rejects(guard(dir, 'a'.repeat(40)), /HEAD changed/);

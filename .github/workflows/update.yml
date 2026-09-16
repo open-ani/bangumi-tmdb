@@ -92,6 +92,8 @@ jobs:
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
         run: pnpm run update
+      - name: Refresh README statistics
+        run: pnpm cli stats
       - name: Validate and commit on the latest main
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
