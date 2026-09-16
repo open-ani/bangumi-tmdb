@@ -8,14 +8,25 @@
 
 ## 当前数据
 
-初始种子来自 [BangumiExtLinker](https://github.com/Rhilip/BangumiExtLinker)，固定于 commit
-`8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f`。**5,568 条 TMDB 关联已导入 `data/`**，保留上游提供的作品、季和集信息。
+截至 2026-09-16（Bangumi Archive 快照 `dump-2026-09-15`），Archive 共有 **30,889** 个动画条目，处理情况如下。每个 Release 的 `manifest.json` 带有生成时的实时计数。
 
-`sources/seed.json` 保存 12,835 条来源记录，包含 AniDB 等外部 ID，用于后续核对和补充映射。
+| 状态 | 条目数 | 说明 |
+| --- | --- | --- |
+| 已建立映射 | **12,148** | 占 39%。电影 4,316，TV 指定到季 7,642，TV 仅确定作品 190 |
+| 已分析但未能确定 | 749 | 730 条经两轮复核仍无法确定，理由见 [待定清单](docs/unresolved-mappings-2026-09-10.md)；19 条为定时任务近期判定证据不足，将按退避策略重试 |
+| 尚未分析 | 18,050 | 540 条放送日在近 180 天内或尚未放送，已在定时任务队列中；其余为 2020 年前（8,846）、无放送日期（4,605）等早期或冷门条目，留待离线批处理 |
 
-现有映射以作品和季为单位；逐集对应关系由定时任务逐步补齐：能按放送日期确定性推导的直接写入 `rules`，其余交给 Codex 研究。
+已映射条目的来源：
 
-后续更新使用 [Bangumi Archive](https://github.com/bangumi/Archive)（每周）、Bangumi API（每日增量）和 TMDB。定时任务只研究近期与未放送的新条目，早期积压由维护者离线批处理。
+| 来源 | 条目数 | 含义 |
+| --- | --- | --- |
+| `codex` | 7,311 | 模型联网检索并读取 TMDB 详情与季表后的研究结论，evidence 保留引用 |
+| `deterministic` | 3,017 | 脚本按精确日期比对确认作品身份或生成逐集规则 |
+| `seed` | 1,820 | 直接沿用 BangumiExtLinker 的对应关系，尚未独立核验 |
+
+逐集对应：**6,247** 条映射带有逐集规则，共 **55,179** 条 Bangumi 章节 → TMDB 剧集/电影的对应，覆盖已映射条目本篇章节（186,819 话）的 29.5%。其余 5,901 条目前只有作品或季级映射，逐集关系由定时任务逐步补齐：能按放送日期确定性推导的直接写入，其余交给模型研究。
+
+已知问题：53 条映射的 TMDB 目标已失效（404 或声明范围缺集），已标记待重研究，修正前仍按原样发布。
 
 ## 数据消费
 
@@ -94,3 +105,22 @@ pnpm cli import-pending docs/unresolved-mappings-2026-09-10.md 180
 脚本使用 [MIT](LICENSE)，映射与初始种子使用 [CC BY 4.0](LICENSE-DATA)。Bangumi 派生测试样本保留其原始 CC BY-SA 许可；第三方元数据、图像与名称不因本项目而重新授权。来源及修改说明见 [NOTICE.md](NOTICE.md)。
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+## 数据维护方式
+
+**初始种子。** 数据起点是 [BangumiExtLinker](https://github.com/Rhilip/BangumiExtLinker) 固定于 commit `8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f` 的 12,835 条来源记录（`sources/seed.json`），其中 5,567 条带 TMDB 链接，作为 `seed` 映射导入；其余的 AniDB、IMDb、TVDB、Wikidata ID 只作检索线索。种子范围内的条目此后经过多轮模型研究与人工复核，目前 12,087 条已建立映射，730 条记入待定清单。
+
+**数据源。** [Bangumi Archive](https://github.com/bangumi/Archive) 每周二发布的 dump 是条目与章节的基准；Bangumi API 每天刷新近期放送、当季日历和正在放送的条目，作为 Archive 之上的覆盖层；TMDB API 用于候选检索与在线核验；AniDB 标题数据和 [Anime-Lists](https://github.com/Anime-Lists/anime-lists) 每周交叉核对一次，结果在 `sources/anidb-check.json`。
+
+**定时任务。** 每天北京时间 06:17 在自托管 runner 上运行，依次：
+
+1. 核验既有映射：在线确认 TMDB 作品、季和集仍然存在，每 28 天一轮，正在放送且 TMDB 尚缺集的条目 2 天后再看。锁定（`locked`）的条目只核验不修改。
+2. 推导逐集规则：只有作品或季级映射的条目，若声明的 TMDB 范围集数与 Bangumi 本篇章节数一致、且可比对的放送日期全部在 ±1 天内，直接生成 `rules`；已有规则的条目在新话放送后按同样条件追加。
+3. 模型研究：在预算内（当前每天 200 条、8 并发）用 Codex 研究新出现的条目，其次修复核验失败的映射，再为无法确定性推导的条目补逐集关系。模型可联网搜索并直接调用 TMDB 工具，但只能引用它实际读取过的作品和季，结果还要通过结构校验和在线核验才会写入。
+4. 验证后以 `openanibot` 提交到 `main`，随即发布 Release。
+
+自动化只研究放送日在最近 180 天内或尚未放送的未映射条目；早期积压由维护者离线批处理后提交。判定证据不足的条目按 7、14、28、56、90 天退避重试，未放送作品在放送日后 3 天再看，已复核的待定项 180 天内不再重试；Bangumi 侧名称、日期或章节一旦变化会立即重新处理。
+
+**人工维护。** 社区通过 PR 修改 `data/<subject ID>.json`，需要固定的映射设置 `locked: true`；自动化不会改动锁定条目，也不能删除文件，被 Bangumi 合并或隐藏的条目由维护者处理。
+
+**发布。** `main` 的每次提交都会生成一个 Release，tag 为 `data-<commit>`，标题为生成时间；`manifest.json` 记录来源 commit、Archive 快照、计数与校验和。运行细节、凭据与故障处理见 [运维说明](docs/operations.md)，文件格式见 [映射格式](docs/data-format.md)。
