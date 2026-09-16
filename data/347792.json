@@ -1,16 +1,86 @@
 {
   "anidbId": 16553,
   "bangumiId": 347792,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1049893,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1049894,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1049895,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1049896,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1049897,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1049898,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1049899,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1049900,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1049901,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1049902,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1049903,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1049904,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目为 2021-10-01 至 2021-12-17 播出的 12 集电视动画，AniDB 关联已匹配到《キミとフィットボクシング》。TMDB TV 132058 同名、同日首播，且第 1 季共 12 集；该季各集播出日期与 Bangumi 第 1–12 集逐一对应。因此可确认主体对应 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/347792 (page): Bangumi 条目名称为《キミとフィットボクシング》，首播日期为 2021-10-01，共 12 集，末集日期为 2021-12-17；输入数据同时显示其 AniDB ID 为 16553 且状态为 matched。\n\nhttps://www.themoviedb.org/tv/132058 (api_snapshot): TMDB TV 132058 同名，首播日期为 2021-10-01，共 12 集，并列出第 1 季为 12 集。\n\nhttps://www.themoviedb.org/tv/132058/season/1 (api_snapshot): TMDB 第 1 季包含第 1–12 集，播出日期从 2021-10-01 至 2021-12-17，逐集日期与 Bangumi 条目一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目为 2021-10-01 至 2021-12-17 播出的 12 集电视动画，AniDB 关联已匹配到《キミとフィットボクシング》。TMDB TV 132058 同名、同日首播，且第 1 季共 12 集；该季各集播出日期与 Bangumi 第 1–12 集逐一对应。因此可确认主体对应 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/347792 (page): Bangumi 条目名称为《キミとフィットボクシング》，首播日期为 2021-10-01，共 12 集，末集日期为 2021-12-17；输入数据同时显示其 AniDB ID 为 16553 且状态为 matched。\n\nhttps://www.themoviedb.org/tv/132058 (api_snapshot): TMDB TV 132058 同名，首播日期为 2021-10-01，共 12 集，并列出第 1 季为 12 集。\n\nhttps://www.themoviedb.org/tv/132058/season/1 (api_snapshot): TMDB 第 1 季包含第 1–12 集，播出日期从 2021-10-01 至 2021-12-17，逐集日期与 Bangumi 条目一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/347792; https://www.themoviedb.org/tv/132058; https://www.themoviedb.org/tv/132058/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132058
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

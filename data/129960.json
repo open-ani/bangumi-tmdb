@@ -1,16 +1,31 @@
 {
   "anidbId": 11163,
   "bangumiId": 129960,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 511084,
+      "sort": 17,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《长门有希酱的消失》OVA，发售日为 2015-10-26、主体仅 1 集，且 AniDB ID 11163 的标题与“終われない夏休み”版本相符。TMDB TV 68574 的第 0 季“特別編”同日仅含 1 集，剧集标题为“終われない夏休み”，简介明确称其为 TV 最终回后的漫画第 9 卷同梱版 OVA（#17），因此应映射到 season 0 episode 1，而不是整季或 TV 正篇季。\n\nhttps://bgm.tv/subject/129960 (page): Bangumi subject 名称为“長門有希ちゃんの消失 OAD”，发售日为 2015-10-26，话数为 1；关联主体为《長門有希ちゃんの消失》，AniDB ID 为 11163，AniDB 标题包含“長門有希ちゃんの消失 終われない夏休み”。\n\nhttps://www.themoviedb.org/tv/68574 (api_snapshot): TMDB TV 68574 为《長門有希ちゃんの消失》，第 0 季有 1 集，日期为 2015-10-26；正篇 TV 共有 16 集。\n\nhttps://www.themoviedb.org/tv/68574/season/0 (api_snapshot): TMDB 第 0 季“特別編”包含 episode 1“終われない夏休み”，日期为 2015-10-26；简介明确说明这是 TV 最终回后的漫画第 9 卷同梱版 OVA 原创集（#17）。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《长门有希酱的消失》OVA，发售日为 2015-10-26、主体仅 1 集，且 AniDB ID 11163 的标题与“終われない夏休み”版本相符。TMDB TV 68574 的第 0 季“特別編”同日仅含 1 集，剧集标题为“終われない夏休み”，简介明确称其为 TV 最终回后的漫画第 9 卷同梱版 OVA（#17），因此应映射到 season 0 episode 1，而不是整季或 TV 正篇季。\n\nhttps://bgm.tv/subject/129960 (page): Bangumi subject 名称为“長門有希ちゃんの消失 OAD”，发售日为 2015-10-26，话数为 1；关联主体为《長門有希ちゃんの消失》，AniDB ID 为 11163，AniDB 标题包含“長門有希ちゃんの消失 終われない夏休み”。\n\nhttps://www.themoviedb.org/tv/68574 (api_snapshot): TMDB TV 68574 为《長門有希ちゃんの消失》，第 0 季有 1 集，日期为 2015-10-26；正篇 TV 共有 16 集。\n\nhttps://www.themoviedb.org/tv/68574/season/0 (api_snapshot): TMDB 第 0 季“特別編”包含 episode 1“終われない夏休み”，日期为 2015-10-26；简介明确说明这是 TV 最终回后的漫画第 9 卷同梱版 OVA 原创集（#17）。\n\n脚本按放送日期核对生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应，1 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/129960; https://www.themoviedb.org/tv/68574; https://www.themoviedb.org/tv/68574/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 17,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 17,
+      "tmdbId": 68574
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,116 @@
 {
   "anidbId": 13106,
   "bangumiId": 212775,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 751822,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 751823,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 751824,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 751825,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 751826,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 751827,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 751828,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 751829,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 751830,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 751831,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 751832,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 751833,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 917887,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 917888,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 917889,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 917890,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 917891,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 917892,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《干物妹！小埋R》2017 年播出的 12 集 TV 第二季。TMDB TV 67126 的第 2 季明确标为《干物妹！うまるちゃんR》，首播日期为 2017-10-08，共 12 集；其 12 集标题、播出日期与 Bangumi 的正篇集数逐一对应。因此应映射为完整第 2 季。Bangumi 中的 6 个“妹妹的后日谈”是 type=1 的特别篇，不属于该主体的 12 集正篇，故不纳入范围。\n\nhttps://www.themoviedb.org/tv/67126 (api_snapshot): TMDB TV 67126 的主体为《干物妹! うまるちゃん》，首播日期为 2015-07-09，并列出第 2 季《干物妹！うまるちゃんR》，季首播日期为 2017-10-08、集数为 12。\n\nhttps://www.themoviedb.org/tv/67126/season/2 (api_snapshot): TMDB 第 2 季明确为《干物妹！うまるちゃんR》，season_number=2、episodeCount=12；完整 12 集标题和日期与 Bangumi 正篇第 1—12 集逐一对应，日期覆盖 2017-10-08 至 2017-12-24。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《干物妹！小埋R》2017 年播出的 12 集 TV 第二季。TMDB TV 67126 的第 2 季明确标为《干物妹！うまるちゃんR》，首播日期为 2017-10-08，共 12 集；其 12 集标题、播出日期与 Bangumi 的正篇集数逐一对应。因此应映射为完整第 2 季。Bangumi 中的 6 个“妹妹的后日谈”是 type=1 的特别篇，不属于该主体的 12 集正篇，故不纳入范围。\n\nhttps://www.themoviedb.org/tv/67126 (api_snapshot): TMDB TV 67126 的主体为《干物妹! うまるちゃん》，首播日期为 2015-07-09，并列出第 2 季《干物妹！うまるちゃんR》，季首播日期为 2017-10-08、集数为 12。\n\nhttps://www.themoviedb.org/tv/67126/season/2 (api_snapshot): TMDB 第 2 季明确为《干物妹！うまるちゃんR》，season_number=2、episodeCount=12；完整 12 集标题和日期与 Bangumi 正篇第 1—12 集逐一对应，日期覆盖 2017-10-08 至 2017-12-24。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/212775; https://www.themoviedb.org/tv/67126; https://www.themoviedb.org/tv/67126/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 67126
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

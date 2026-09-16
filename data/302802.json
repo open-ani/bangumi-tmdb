@@ -1,16 +1,86 @@
 {
   "anidbId": 15467,
   "bangumiId": 302802,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 989987,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 989988,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 989989,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 989990,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 989991,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 989992,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 989993,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 989994,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 989995,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 989996,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 989997,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 989998,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2021-01-07 开播、共 12 集的 TV 动画；附带 AniDB 关联为已匹配的 SHOW BY ROCK!! STARS!!，与候选 TMDB TV 条目的标题和首播日期一致。TMDB 第 1 季明确为 12 集，剧集标题、播出日期及剧情均与 Bangumi 第 1–12 集逐集对应，因此采用完整第 1 季，无需缩小范围。\n\nhttps://www.themoviedb.org/tv/110651 (api_snapshot): TMDB 条目标题为 SHOW BY ROCK!! STARS!!，首播日期为 2021-01-07，共 12 集，仅列出 season 1。\n\nhttps://www.themoviedb.org/tv/110651/season/1 (api_snapshot): TMDB season 1 明确包含第 1–12 集；剧集标题和日期逐集对应 Bangumi 的 12 集，范围为完整一季。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2021-01-07 开播、共 12 集的 TV 动画；附带 AniDB 关联为已匹配的 SHOW BY ROCK!! STARS!!，与候选 TMDB TV 条目的标题和首播日期一致。TMDB 第 1 季明确为 12 集，剧集标题、播出日期及剧情均与 Bangumi 第 1–12 集逐集对应，因此采用完整第 1 季，无需缩小范围。\n\nhttps://www.themoviedb.org/tv/110651 (api_snapshot): TMDB 条目标题为 SHOW BY ROCK!! STARS!!，首播日期为 2021-01-07，共 12 集，仅列出 season 1。\n\nhttps://www.themoviedb.org/tv/110651/season/1 (api_snapshot): TMDB season 1 明确包含第 1–12 集；剧集标题和日期逐集对应 Bangumi 的 12 集，范围为完整一季。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302802; https://www.themoviedb.org/tv/110651; https://www.themoviedb.org/tv/110651/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 110651
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

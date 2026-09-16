@@ -1,16 +1,86 @@
 {
   "anidbId": 14182,
   "bangumiId": 251060,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 831445,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 831446,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 831447,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 831448,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 831449,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 831450,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 831451,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 831452,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 831453,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 831454,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 831455,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 831456,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 为《グラゼニ シーズン2》，主体包含 12 集，播出时间为 2018-10-05 至 2018-12-21；其 AniDB 名称明确包含 Season 2。TMDB TV 78470 的第 2 季同名为“シーズン2”，首播日为 2018-10-05，共 12 集，且 12 集标题与日期逐一对应 Bangumi 主体集数。因此应映射为 TMDB TV 78470 第 2 季完整范围。\n\nhttps://www.themoviedb.org/tv/78470 (api_snapshot): TMDB TV 78470 名称为《グラゼニ》，首播于 2018-04-06，共 24 集，并明确列出第 2 季为 12 集、首播日 2018-10-05。\n\nhttps://www.themoviedb.org/tv/78470/season/2 (api_snapshot): TMDB 第 2 季首播于 2018-10-05，共 12 集；剧集标题和日期从“一軍復帰”至“契約更改・後編”逐集对应 Bangumi 的 12 集及其 2018-10-05 至 2018-12-21 日期。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 为《グラゼニ シーズン2》，主体包含 12 集，播出时间为 2018-10-05 至 2018-12-21；其 AniDB 名称明确包含 Season 2。TMDB TV 78470 的第 2 季同名为“シーズン2”，首播日为 2018-10-05，共 12 集，且 12 集标题与日期逐一对应 Bangumi 主体集数。因此应映射为 TMDB TV 78470 第 2 季完整范围。\n\nhttps://www.themoviedb.org/tv/78470 (api_snapshot): TMDB TV 78470 名称为《グラゼニ》，首播于 2018-04-06，共 24 集，并明确列出第 2 季为 12 集、首播日 2018-10-05。\n\nhttps://www.themoviedb.org/tv/78470/season/2 (api_snapshot): TMDB 第 2 季首播于 2018-10-05，共 12 集；剧集标题和日期从“一軍復帰”至“契約更改・後編”逐集对应 Bangumi 的 12 集及其 2018-10-05 至 2018-12-21 日期。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/251060; https://www.themoviedb.org/tv/78470; https://www.themoviedb.org/tv/78470/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 78470
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

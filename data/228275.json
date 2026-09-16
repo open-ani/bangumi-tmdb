@@ -1,16 +1,41 @@
 {
   "anidbId": 12621,
   "bangumiId": 228275,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 754226,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 754227,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 754228,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《DAYS 東院学園戦》OVA，共3集，发行日期为2018-03-16、2018-05-17、2018-07-17。TMDB《DAYS》特别编 season 0 的第3至5集分别对应这三个日期，且正好为3集；第1至2集属于更早的其他特别篇，不应纳入本 subject。\n\nhttps://bgm.tv/subject/228275 (page): Bangumi subject 名称为《DAYS 東院学園戦》，类型为OVA，共3集，三集日期为2018-03-16、2018-05-17、2018-07-17，并关联主系列《DAYS》。\n\nhttps://www.themoviedb.org/tv/66979 (api_snapshot): TMDB TV 66979 为《DAYS》，包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/66979/season/0 (api_snapshot): TMDB season 0 第3、4、5集日期分别为2018-03-16、2018-05-17、2018-07-17；该季第1、2集日期更早，故目标范围为第3至5集。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《DAYS 東院学園戦》OVA，共3集，发行日期为2018-03-16、2018-05-17、2018-07-17。TMDB《DAYS》特别编 season 0 的第3至5集分别对应这三个日期，且正好为3集；第1至2集属于更早的其他特别篇，不应纳入本 subject。\n\nhttps://bgm.tv/subject/228275 (page): Bangumi subject 名称为《DAYS 東院学園戦》，类型为OVA，共3集，三集日期为2018-03-16、2018-05-17、2018-07-17，并关联主系列《DAYS》。\n\nhttps://www.themoviedb.org/tv/66979 (api_snapshot): TMDB TV 66979 为《DAYS》，包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/66979/season/0 (api_snapshot): TMDB season 0 第3、4、5集日期分别为2018-03-16、2018-05-17、2018-07-17；该季第1、2集日期更早，故目标范围为第3至5集。\n\n脚本按放送日期核对生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应，3 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/228275; https://www.themoviedb.org/tv/66979; https://www.themoviedb.org/tv/66979/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 3,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 66979
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

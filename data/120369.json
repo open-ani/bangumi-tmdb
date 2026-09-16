@@ -1,16 +1,116 @@
 {
   "anidbId": 10947,
   "bangumiId": 120369,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 537949,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 537950,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 537951,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 537952,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 537953,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 537954,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 537955,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 537956,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 537957,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 537958,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 537959,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 537960,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 565325,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 567438,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 567439,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 600405,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 600406,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 600407,
+      "sort": 3,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ヘタリア The World Twinkle》/黑塔利亚第6期，2015年播出，正篇15集；章节列表另列3个SP，属于额外特典。TMDB作品35138的第5季名称为《ヘタリア The World Twinkle》，首播日为2015-07-03，共15集，且TMDB第5季第14集标题与Bangumi第14集一致。因此应映射为TMDB第5季完整一季，而不是候选中的第6季。\n\nhttps://bgm.tv/subject/120369 (page): Bangumi记录标题、2015-07-03开播、15话，并将15个正篇章节与SP分列；制作信息为Studio DEEN等。\n\nhttps://www.themoviedb.org/tv/35138 (api_snapshot): TMDB API快照显示作品35138的第5季名称为《ヘタリア The World Twinkle》，air_date为2015-07-03，episode_count为15。\n\nhttps://www.themoviedb.org/tv/35138-hetalia-axis-powers/season/5/episode/14/videos?language=ja-JP (search_snippet): TMDB搜索摘要将《カナダさんとお隣さん》标为5x14，与Bangumi第14话标题对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引将AniDB ID 10947对应为“Hetalia: The World Twinkle”，与Bangumi条目标题及输入中的matched关联一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ヘタリア The World Twinkle》/黑塔利亚第6期，2015年播出，正篇15集；章节列表另列3个SP，属于额外特典。TMDB作品35138的第5季名称为《ヘタリア The World Twinkle》，首播日为2015-07-03，共15集，且TMDB第5季第14集标题与Bangumi第14集一致。因此应映射为TMDB第5季完整一季，而不是候选中的第6季。\n\nhttps://bgm.tv/subject/120369 (page): Bangumi记录标题、2015-07-03开播、15话，并将15个正篇章节与SP分列；制作信息为Studio DEEN等。\n\nhttps://www.themoviedb.org/tv/35138 (api_snapshot): TMDB API快照显示作品35138的第5季名称为《ヘタリア The World Twinkle》，air_date为2015-07-03，episode_count为15。\n\nhttps://www.themoviedb.org/tv/35138-hetalia-axis-powers/season/5/episode/14/videos?language=ja-JP (search_snippet): TMDB搜索摘要将《カナダさんとお隣さん》标为5x14，与Bangumi第14话标题对应。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引将AniDB ID 10947对应为“Hetalia: The World Twinkle”，与Bangumi条目标题及输入中的matched关联一致。\n\n脚本按放送日期核对生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应，15 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/120369; https://www.themoviedb.org/tv/35138; https://www.themoviedb.org/tv/35138-hetalia-axis-powers/season/5/episode/14/videos?language=ja-JP; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 35138
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,90 @@
 {
   "bangumiId": 257844,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 830844,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 830845,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 830846,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 830847,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 830848,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 830849,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 830850,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 830851,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 830852,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 830853,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 830854,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 830855,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 848591,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB条目原名、别名、首播日期（2018-10-09）、剧情、短篇动画媒介及导演まんきゅう均与 Bangumi subject 一致；TMDB S1实际包含2018-10-09至2018-12-25的完整12集，且仅有1页、无遗漏，因此可对应整季。Bangumi的total_episodes=13来自另列的2019-03-27特别篇；该特别篇不属于TMDB S1的12集正片范围。\n\nhttps://www.themoviedb.org/tv/82985 (api_snapshot): TMDB详情确认原名为「アイドルマスター SideM 理由あってMini!」、2018-10-09开播、2018-12-25完结，共12集；剧情为315事务所偶像变成Mini尺寸的短篇动画，导演为まんきゅう。\n\nhttps://www.themoviedb.org/tv/82985/season/1 (api_snapshot): TMDB第1季实际返回12集，episode_number连续覆盖1至12，air_date从2018-10-09至2018-12-25，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/257844 (api_snapshot): Bangumi原始API确认该主体为TV、原名相同、2018-10-09开播、正片话数12，并记录导演まんきゅう及另列的2019-03-27特别篇。\n\n备注：Bangumi记录的总集数13包含一个特别篇，而TMDB第1季仅收录12集正片；推荐范围明确为TV正片整季，不包含该特别篇。",
+    "evidence": "gpt-5.6-luna: TMDB条目原名、别名、首播日期（2018-10-09）、剧情、短篇动画媒介及导演まんきゅう均与 Bangumi subject 一致；TMDB S1实际包含2018-10-09至2018-12-25的完整12集，且仅有1页、无遗漏，因此可对应整季。Bangumi的total_episodes=13来自另列的2019-03-27特别篇；该特别篇不属于TMDB S1的12集正片范围。\n\nhttps://www.themoviedb.org/tv/82985 (api_snapshot): TMDB详情确认原名为「アイドルマスター SideM 理由あってMini!」、2018-10-09开播、2018-12-25完结，共12集；剧情为315事务所偶像变成Mini尺寸的短篇动画，导演为まんきゅう。\n\nhttps://www.themoviedb.org/tv/82985/season/1 (api_snapshot): TMDB第1季实际返回12集，episode_number连续覆盖1至12，air_date从2018-10-09至2018-12-25，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/257844 (api_snapshot): Bangumi原始API确认该主体为TV、原名相同、2018-10-09开播、正片话数12，并记录导演まんきゅう及另列的2019-03-27特别篇。\n\n备注：Bangumi记录的总集数13包含一个特别篇，而TMDB第1季仅收录12集正片；推荐范围明确为TV正片整季，不包含该特别篇。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/257844; https://www.themoviedb.org/tv/82985; https://www.themoviedb.org/tv/82985/season/1; https://api.bgm.tv/v0/subjects/257844",
-    "verifiedAt": "2026-09-08T21:25:01.214Z"
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 82985
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

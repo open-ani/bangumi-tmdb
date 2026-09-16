@@ -1,15 +1,85 @@
 {
   "bangumiId": 337814,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1034100,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1034101,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1034102,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1034103,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1034104,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1034105,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1034106,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1034107,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1034108,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1034109,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1034110,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1034111,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 131111《百鬼幼儿园》明确包含4个季度；第4季于2021-05-28开始，共12集，至2021-08-13结束。其简介、日期、集数及每集标题与 Bangumi subject《百鬼幼儿园 第四季》一致，且不是OVA、电影、音乐录像或合集，因此对应完整第4季。\n\nhttps://api.bgm.tv/v0/subjects/337814 (api_snapshot): Bangumi 标注为 WEB 动画，2021-05-28 至2021-08-13，共12集；简介和第1至12集信息与目标季度相符。\n\nhttps://www.themoviedb.org/tv/131111 (api_snapshot): TMDB 详情确认作品原名为《百鬼幼儿园》，首播于2018-07-14，已完结，共4季48集，最后播出日期为2021-08-13；第4季日期为2021-05-28，集数为12。简介与 Bangumi 完全对应，并包含别名 Bai Gui You Er Yuan、Hyakki Kindergarten、Hundred Ghost Kindergarten。\n\nhttps://www.themoviedb.org/tv/131111/season/4 (api_snapshot): TMDB 第4季实际集表共12集，日期覆盖2021-05-28至2021-08-13；第1、3至12集标题与 Bangumi 集表一致，第2集为同一集的标题差异，未发现混入其他作品。",
+    "evidence": "gpt-5.6-luna: TMDB TV 131111《百鬼幼儿园》明确包含4个季度；第4季于2021-05-28开始，共12集，至2021-08-13结束。其简介、日期、集数及每集标题与 Bangumi subject《百鬼幼儿园 第四季》一致，且不是OVA、电影、音乐录像或合集，因此对应完整第4季。\n\nhttps://api.bgm.tv/v0/subjects/337814 (api_snapshot): Bangumi 标注为 WEB 动画，2021-05-28 至2021-08-13，共12集；简介和第1至12集信息与目标季度相符。\n\nhttps://www.themoviedb.org/tv/131111 (api_snapshot): TMDB 详情确认作品原名为《百鬼幼儿园》，首播于2018-07-14，已完结，共4季48集，最后播出日期为2021-08-13；第4季日期为2021-05-28，集数为12。简介与 Bangumi 完全对应，并包含别名 Bai Gui You Er Yuan、Hyakki Kindergarten、Hundred Ghost Kindergarten。\n\nhttps://www.themoviedb.org/tv/131111/season/4 (api_snapshot): TMDB 第4季实际集表共12集，日期覆盖2021-05-28至2021-08-13；第1、3至12集标题与 Bangumi 集表一致，第2集为同一集的标题差异，未发现混入其他作品。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/337814; https://api.bgm.tv/v0/subjects/337814; https://www.themoviedb.org/tv/131111; https://www.themoviedb.org/tv/131111/season/4",
-    "verifiedAt": "2026-09-08T22:57:35.731Z"
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 131111
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

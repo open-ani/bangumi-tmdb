@@ -1,15 +1,85 @@
 {
   "bangumiId": 345807,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1100243,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1100244,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1100245,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1100246,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1100247,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1100248,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1100249,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1100250,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1100251,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1100252,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1100253,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1100254,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 83031《西行纪》明确收录别名《西行纪之重生篇》，第4季标题、剧情、首播日（2022-06-01）及12集与 Bangumi subject 完全对应。TMDB 季表实际列出第4季1至12集，覆盖该 subject 的全部12集，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/345807 (api_snapshot): Bangumi API确认标题为《西行纪之重生篇》、首播日为2022-06-01、WEB媒介、共12集，并标注别名《西行纪 第四季》。\n\nhttps://www.themoviedb.org/tv/83031 (api_snapshot): TMDB详情确认这是中文动画TV作品《西行纪》，别名包含《西行纪之重生篇》，第4季首播日为2022-06-01且共12集；剧情与唐三藏、悟空、敖雪、古龙及帝释天等主体一致。\n\nhttps://www.themoviedb.org/tv/83031/season/4 (api_snapshot): TMDB第4季实际季表标题为《西行纪之重生篇》，列出2022-06-01至2022-08-03播出的第1至12集，未混入其他作品。",
+    "evidence": "gpt-5.6-luna: TMDB TV 83031《西行纪》明确收录别名《西行纪之重生篇》，第4季标题、剧情、首播日（2022-06-01）及12集与 Bangumi subject 完全对应。TMDB 季表实际列出第4季1至12集，覆盖该 subject 的全部12集，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/345807 (api_snapshot): Bangumi API确认标题为《西行纪之重生篇》、首播日为2022-06-01、WEB媒介、共12集，并标注别名《西行纪 第四季》。\n\nhttps://www.themoviedb.org/tv/83031 (api_snapshot): TMDB详情确认这是中文动画TV作品《西行纪》，别名包含《西行纪之重生篇》，第4季首播日为2022-06-01且共12集；剧情与唐三藏、悟空、敖雪、古龙及帝释天等主体一致。\n\nhttps://www.themoviedb.org/tv/83031/season/4 (api_snapshot): TMDB第4季实际季表标题为《西行纪之重生篇》，列出2022-06-01至2022-08-03播出的第1至12集，未混入其他作品。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/345807; https://api.bgm.tv/v0/subjects/345807; https://www.themoviedb.org/tv/83031; https://www.themoviedb.org/tv/83031/season/4",
-    "verifiedAt": "2026-09-08T23:03:46.034Z"
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 83031
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

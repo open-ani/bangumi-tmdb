@@ -1,16 +1,86 @@
 {
   "anidbId": 11899,
   "bangumiId": 167235,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 617584,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 617585,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 617586,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 617587,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 617588,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 617589,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 617590,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 617591,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 617592,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 617593,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 617594,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 617595,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2016-04-04 开始、2016-06-20 结束的 12 集 TV 动画，并列出 12 集章节。TMDB 65928 的第一季同样为 2016-04-04 开始、12 集；其第 1 至 12 集标题和日期与 Bangumi 提供的集数逐一对应。Anime-Lists 也将 AniDB 11899《12-sai. Chicchana Mune no Tokimeki》关联至 TMDB 65928 第 1 季。Bangumi 将第二期作为续集单独关联，因此本 subject 应映射为完整的 TMDB 第 1 季，不包含第二季或特別編。\n\nhttps://bgm.tv/subject/167235 (page): Bangumi 页面将该条目标为 TV，话数 12，放送日期为 2016-04-04 至 2016-06-20，并列出第 1 至 12 集；关联条目中第二期单独标为续集。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"11899\"、名称为 12-sai. Chicchana Mune no Tokimeki，并关联 tmdbtv=\"65928\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/65928 (api_snapshot): TMDB API 快照显示 ID 65928 的原名、首播日期 2016-04-04 和总集数 24，并列出第 1 季为 12 集、第 2 季为 12 集；第 1 季与本 Bangumi subject 的版本相符。\n\nhttps://www.themoviedb.org/tv/65928/season/1 (api_snapshot): TMDB API 快照显示第 1 季为 12 集，集 1 至 12 的标题和日期分别与 Bangumi 集 1 至 12 完全对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2016-04-04 开始、2016-06-20 结束的 12 集 TV 动画，并列出 12 集章节。TMDB 65928 的第一季同样为 2016-04-04 开始、12 集；其第 1 至 12 集标题和日期与 Bangumi 提供的集数逐一对应。Anime-Lists 也将 AniDB 11899《12-sai. Chicchana Mune no Tokimeki》关联至 TMDB 65928 第 1 季。Bangumi 将第二期作为续集单独关联，因此本 subject 应映射为完整的 TMDB 第 1 季，不包含第二季或特別編。\n\nhttps://bgm.tv/subject/167235 (page): Bangumi 页面将该条目标为 TV，话数 12，放送日期为 2016-04-04 至 2016-06-20，并列出第 1 至 12 集；关联条目中第二期单独标为续集。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"11899\"、名称为 12-sai. Chicchana Mune no Tokimeki，并关联 tmdbtv=\"65928\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/65928 (api_snapshot): TMDB API 快照显示 ID 65928 的原名、首播日期 2016-04-04 和总集数 24，并列出第 1 季为 12 集、第 2 季为 12 集；第 1 季与本 Bangumi subject 的版本相符。\n\nhttps://www.themoviedb.org/tv/65928/season/1 (api_snapshot): TMDB API 快照显示第 1 季为 12 集，集 1 至 12 的标题和日期分别与 Bangumi 集 1 至 12 完全对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/167235; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/65928; https://www.themoviedb.org/tv/65928/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

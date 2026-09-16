@@ -1,16 +1,86 @@
 {
   "anidbId": 14025,
   "bangumiId": 242633,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 834158,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 834159,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 834160,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 834161,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 834162,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 834163,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 834164,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 834165,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 834166,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 834167,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 834168,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 834169,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2018 年播出的 12 集 TV 动画；标题、剧情、原作及制作信息与 TMDB TV 83022 对应。TMDB Season 1 明确包含 12 集，且集标题与 Bangumi 第 1–12 话逐一对应。Bangumi 日期统一比 TMDB 早一天，属于日期记录差异，不影响版本和范围判断。\n\nhttps://www.themoviedb.org/tv/83022 (api_snapshot): 条目标题一致，首播日期为 2018-10-11，共 12 集。\n\nhttps://www.themoviedb.org/tv/83022/season/1 (api_snapshot): Season 1 明确为 12 集；第 1–12 集标题、剧情与 Bangumi 正篇逐一对应。\n\n备注：TMDB 与 Bangumi 的播出日期相差一天，但未影响作品版本及集数对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2018 年播出的 12 集 TV 动画；标题、剧情、原作及制作信息与 TMDB TV 83022 对应。TMDB Season 1 明确包含 12 集，且集标题与 Bangumi 第 1–12 话逐一对应。Bangumi 日期统一比 TMDB 早一天，属于日期记录差异，不影响版本和范围判断。\n\nhttps://www.themoviedb.org/tv/83022 (api_snapshot): 条目标题一致，首播日期为 2018-10-11，共 12 集。\n\nhttps://www.themoviedb.org/tv/83022/season/1 (api_snapshot): Season 1 明确为 12 集；第 1–12 集标题、剧情与 Bangumi 正篇逐一对应。\n\n备注：TMDB 与 Bangumi 的播出日期相差一天，但未影响作品版本及集数对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/242633; https://www.themoviedb.org/tv/83022; https://www.themoviedb.org/tv/83022/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83022
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

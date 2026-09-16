@@ -1,14 +1,30 @@
 {
   "anidbId": 5789,
   "bangumiId": 188856,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 912913,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912913,
+      "targets": [
+        {
+          "id": 598102,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为剧场版、1话，发行日为 1989-11-04，片长 85 分钟；剧情与制作信息也对应《伊勢湾台風物語》。TMDB 快照中的电影 598102 具有完全一致的日文原题、发行日、片长、日语及日本来源信息，因此可确认是同一部电影，不涉及季号或集数范围。输入中的 AniDB 5789 标题匹配结果与该版本一致。\n\nhttps://bgm.tv/subject/188856 (page): Bangumi 将该条目标为剧场版，话数 1；上映日期为 1989-11-04，片长 85 分钟，并记载了剧情及虫制作等制作信息。\n\nhttps://www.themoviedb.org/movie/598102 (api_snapshot): TMDB API 快照显示电影标题及原题均为「伊勢湾台風物語」，release_date 为 1989-11-04，runtime 为 85，original_language 为 ja，origin_country 为 JP。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为剧场版、1话，发行日为 1989-11-04，片长 85 分钟；剧情与制作信息也对应《伊勢湾台風物語》。TMDB 快照中的电影 598102 具有完全一致的日文原题、发行日、片长、日语及日本来源信息，因此可确认是同一部电影，不涉及季号或集数范围。输入中的 AniDB 5789 标题匹配结果与该版本一致。\n\nhttps://bgm.tv/subject/188856 (page): Bangumi 将该条目标为剧场版，话数 1；上映日期为 1989-11-04，片长 85 分钟，并记载了剧情及虫制作等制作信息。\n\nhttps://www.themoviedb.org/movie/598102 (api_snapshot): TMDB API 快照显示电影标题及原题均为「伊勢湾台風物語」，release_date 为 1989-11-04，runtime 为 85，original_language 为 ja，origin_country 为 JP。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
     "method": "codex",
     "source": "https://bgm.tv/subject/188856; https://www.themoviedb.org/movie/598102",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
   "rules": [],
   "schemaVersion": 1,

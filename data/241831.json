@@ -1,16 +1,86 @@
 {
   "anidbId": 13995,
   "bangumiId": 241831,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 805465,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 805466,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 805467,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 805468,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 805469,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 805470,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 805471,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 805472,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 805473,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 805474,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 805475,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 805476,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject《働くお兄さん！の2！》标注为2018年7月6日开播、12集，并与前作《働くお兄さん！》存在续作关系；输入数据中的 AniDB ID 13995 及标题匹配状态为 matched。TMDB 76174 的第2季名称、开播日期、12集数量与 Bangumi 完全一致，且12个剧集标题及日期逐一对应，因此应映射为完整第2季。\n\nhttps://bgm.tv/subject/241831 (page): Bangumi subject 名称为《働くお兄さん！の2！》，放送日期为2018-07-06至2018-09-21，共12集；AniDB ID为13995且标题状态为matched。\n\nhttps://www.themoviedb.org/tv/76174 (api_snapshot): TMDB TV 76174 包含第2季《働くお兄さん！の2！》，开播日期为2018-07-06，共12集；第1季为前作，未纳入本 subject。\n\nhttps://www.themoviedb.org/tv/76174/season/2 (api_snapshot): TMDB第2季的12集标题和日期从2018-07-06至2018-09-21逐一对应 Bangumi 的12个正篇集数，故采用完整第2季。",
+    "evidence": "gpt-5.6-luna: Bangumi subject《働くお兄さん！の2！》标注为2018年7月6日开播、12集，并与前作《働くお兄さん！》存在续作关系；输入数据中的 AniDB ID 13995 及标题匹配状态为 matched。TMDB 76174 的第2季名称、开播日期、12集数量与 Bangumi 完全一致，且12个剧集标题及日期逐一对应，因此应映射为完整第2季。\n\nhttps://bgm.tv/subject/241831 (page): Bangumi subject 名称为《働くお兄さん！の2！》，放送日期为2018-07-06至2018-09-21，共12集；AniDB ID为13995且标题状态为matched。\n\nhttps://www.themoviedb.org/tv/76174 (api_snapshot): TMDB TV 76174 包含第2季《働くお兄さん！の2！》，开播日期为2018-07-06，共12集；第1季为前作，未纳入本 subject。\n\nhttps://www.themoviedb.org/tv/76174/season/2 (api_snapshot): TMDB第2季的12集标题和日期从2018-07-06至2018-09-21逐一对应 Bangumi 的12个正篇集数，故采用完整第2季。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/241831; https://www.themoviedb.org/tv/76174; https://www.themoviedb.org/tv/76174/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 76174
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

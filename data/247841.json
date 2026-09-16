@@ -1,16 +1,86 @@
 {
   "anidbId": 14103,
   "bangumiId": 247841,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 874006,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 874007,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 874008,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 874009,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 874010,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 874011,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874012,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874013,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874014,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874015,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874016,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874017,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2019-04-04 开播、共 12 集的《八十亀ちゃんかんさつにっき》。AniDB 14103 明确记录同名 TV 系列、2019-04-04 至 2019-06-20、12 集；TMDB TV 87473 的第 1 季同名、同日开播且完整 12 集标题和日期逐集对应。因此对应 TMDB 第 1 季完整范围。TMDB 的特别篇季不属于该 Bangumi subject 的 12 集主体。\n\nhttps://bgm.tv/subject/247841 (page): Bangumi 页面记录中文名八十龟酱观察日记、话数 12、放送开始 2019 年 4 月 4 日、放送结束 2019 年 6 月 20 日，并列出第 1 至第 12 集。\n\nhttps://anidb.net/anime/14103 (page): AniDB 14103 的官方日文名为八十亀ちゃんかんさつにっき，类型为 TV Series、12 episodes，年份为 2019-04-04 至 2019-06-20；剧情、制作公司 Saetta 和主要职员也与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/87473 (api_snapshot): 输入的 TMDB API 快照显示 TV 87473 同名、首播日期 2019-04-04；第 1 季名称相同、日期相同且 episode_count 为 12。\n\nhttps://www.themoviedb.org/tv/87473/season/1 (api_snapshot): 输入的 TMDB API 快照明确显示 season_number=1，包含完整第 1 至第 12 集；逐集标题和日期与 Bangumi 章节完全对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 2019-04-04 开播、共 12 集的《八十亀ちゃんかんさつにっき》。AniDB 14103 明确记录同名 TV 系列、2019-04-04 至 2019-06-20、12 集；TMDB TV 87473 的第 1 季同名、同日开播且完整 12 集标题和日期逐集对应。因此对应 TMDB 第 1 季完整范围。TMDB 的特别篇季不属于该 Bangumi subject 的 12 集主体。\n\nhttps://bgm.tv/subject/247841 (page): Bangumi 页面记录中文名八十龟酱观察日记、话数 12、放送开始 2019 年 4 月 4 日、放送结束 2019 年 6 月 20 日，并列出第 1 至第 12 集。\n\nhttps://anidb.net/anime/14103 (page): AniDB 14103 的官方日文名为八十亀ちゃんかんさつにっき，类型为 TV Series、12 episodes，年份为 2019-04-04 至 2019-06-20；剧情、制作公司 Saetta 和主要职员也与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/87473 (api_snapshot): 输入的 TMDB API 快照显示 TV 87473 同名、首播日期 2019-04-04；第 1 季名称相同、日期相同且 episode_count 为 12。\n\nhttps://www.themoviedb.org/tv/87473/season/1 (api_snapshot): 输入的 TMDB API 快照明确显示 season_number=1，包含完整第 1 至第 12 集；逐集标题和日期与 Bangumi 章节完全对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/247841; https://anidb.net/anime/14103; https://www.themoviedb.org/tv/87473; https://www.themoviedb.org/tv/87473/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87473
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,76 @@
 {
   "anidbId": 15381,
   "bangumiId": 277436,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 909058,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 909059,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 909060,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 909061,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 909062,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 909063,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 909064,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 909065,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 909066,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 909067,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 277436 是《伍六七之最强发型师》，给定资料显示其为《刺客伍六七》第二季，2019-10-23 开播，共 10 集，并与 AniDB 15381 匹配。TMDB TV 79141 的第 2 季同日开播、正好 10 集；剧集日期和标题顺序与 Bangumi 第 1–10 集对应，故应映射为完整第 2 季。\n\nhttps://bgm.tv/subject/277436 (page): Bangumi subject 标题为《伍六七之最强发型师》，开播日为 2019-10-23，共 10 集；给定关联信息标记 AniDB ID 15381 为 matched。\n\nhttps://www.themoviedb.org/tv/79141 (api_snapshot): TMDB TV 79141 为《刺客伍六七》，第 2 季开播日为 2019-10-23，包含 10 集。\n\nhttps://www.themoviedb.org/tv/79141/season/2 (api_snapshot): TMDB 第 2 季逐集快照包含 1–10 集，播出日期从 2019-10-23 至 2020-01-01；标题与 Bangumi 集数及剧情顺序相符。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 277436 是《伍六七之最强发型师》，给定资料显示其为《刺客伍六七》第二季，2019-10-23 开播，共 10 集，并与 AniDB 15381 匹配。TMDB TV 79141 的第 2 季同日开播、正好 10 集；剧集日期和标题顺序与 Bangumi 第 1–10 集对应，故应映射为完整第 2 季。\n\nhttps://bgm.tv/subject/277436 (page): Bangumi subject 标题为《伍六七之最强发型师》，开播日为 2019-10-23，共 10 集；给定关联信息标记 AniDB ID 15381 为 matched。\n\nhttps://www.themoviedb.org/tv/79141 (api_snapshot): TMDB TV 79141 为《刺客伍六七》，第 2 季开播日为 2019-10-23，包含 10 集。\n\nhttps://www.themoviedb.org/tv/79141/season/2 (api_snapshot): TMDB 第 2 季逐集快照包含 1–10 集，播出日期从 2019-10-23 至 2020-01-01；标题与 Bangumi 集数及剧情顺序相符。\n\n脚本按放送日期核对生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应，10 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/277436; https://www.themoviedb.org/tv/79141; https://www.themoviedb.org/tv/79141/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 79141
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,86 @@
 {
   "anidbId": 16069,
   "bangumiId": 329014,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1070542,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1070543,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1070544,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1070545,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1070546,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1070547,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1070548,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1070549,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1070550,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1070551,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1070552,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1070553,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 快照与 Bangumi 主体高度一致：均为《リアデイルの大地にて》，首播日均为 2022-01-05，TV 共 12 集；TMDB 第 1 季完整列出 1–12 集，标题和日期与 Bangumi 的 12 个正篇逐集对应。该主体是 2022 年 TV 动画，不是电影、OVA、总集篇或重剪版，因此推荐完整第 1 季。\n\nhttps://www.themoviedb.org/tv/119335 (api_snapshot): TMDB TV 119335 的名称、原名、首播日期、简介和 12 集总数与该 Bangumi 主体吻合。\n\nhttps://www.themoviedb.org/tv/119335/season/1 (api_snapshot): TMDB 第 1 季标为 season_number=1，共 12 集；第 1–12 集标题和播出日期逐集对应 Bangumi 的 12 个正篇条目。\n\nhttps://bgm.tv/subject/329014 (page): 输入提供的 Bangumi 主体信息显示该条目为 2022-01-05 开始、12 话的《リアデイルの大地にて》TV 动画。",
+    "evidence": "gpt-5.6-luna: TMDB 快照与 Bangumi 主体高度一致：均为《リアデイルの大地にて》，首播日均为 2022-01-05，TV 共 12 集；TMDB 第 1 季完整列出 1–12 集，标题和日期与 Bangumi 的 12 个正篇逐集对应。该主体是 2022 年 TV 动画，不是电影、OVA、总集篇或重剪版，因此推荐完整第 1 季。\n\nhttps://www.themoviedb.org/tv/119335 (api_snapshot): TMDB TV 119335 的名称、原名、首播日期、简介和 12 集总数与该 Bangumi 主体吻合。\n\nhttps://www.themoviedb.org/tv/119335/season/1 (api_snapshot): TMDB 第 1 季标为 season_number=1，共 12 集；第 1–12 集标题和播出日期逐集对应 Bangumi 的 12 个正篇条目。\n\nhttps://bgm.tv/subject/329014 (page): 输入提供的 Bangumi 主体信息显示该条目为 2022-01-05 开始、12 话的《リアデイルの大地にて》TV 动画。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/329014; https://www.themoviedb.org/tv/119335; https://www.themoviedb.org/tv/119335/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 119335
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

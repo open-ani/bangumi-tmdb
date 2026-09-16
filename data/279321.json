@@ -1,16 +1,91 @@
 {
   "anidbId": 13713,
   "bangumiId": 279321,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1074726,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1074727,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1074728,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1074729,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1074730,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1074731,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1074732,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1074733,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1074734,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1074735,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1074736,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1074737,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1074738,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 279321 是 2022-04-08 开始、13 集的《TIGER & BUNNY 2》，并且 Bangumi 关系数据将“パート2”作为独立 subject。TMDB TV 39659 的第 2 季同名、同日开始，共 25 集；第 1–13 集的标题与日期均对应 Bangumi subject 的 13 集，且第 14 集起日期变为 2022-10-07，符合后续 Part 2。因此主体应映射到 TMDB 第 2 季第 1–13 集。\n\nhttps://bgm.tv/subject/279321 (page): Bangumi subject 名称为《TIGER & BUNNY 第二季》，放送开始于 2022-04-08，共 13 集；关系数据另列《TIGER & BUNNY 2 パート2》为独立 subject。\n\nhttps://www.themoviedb.org/tv/39659 (api_snapshot): TMDB TV 39659 为《TIGER & BUNNY》，第 2 季名为《TIGER & BUNNY 2》，开始日期为 2022-04-08，共 25 集。\n\nhttps://www.themoviedb.org/tv/39659/season/2 (api_snapshot): TMDB 第 2 季第 1–13 集标题与 Bangumi 的 13 集逐一对应，日期均为 2022-04-08；第 14 集起日期为 2022-10-07。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 279321 是 2022-04-08 开始、13 集的《TIGER & BUNNY 2》，并且 Bangumi 关系数据将“パート2”作为独立 subject。TMDB TV 39659 的第 2 季同名、同日开始，共 25 集；第 1–13 集的标题与日期均对应 Bangumi subject 的 13 集，且第 14 集起日期变为 2022-10-07，符合后续 Part 2。因此主体应映射到 TMDB 第 2 季第 1–13 集。\n\nhttps://bgm.tv/subject/279321 (page): Bangumi subject 名称为《TIGER & BUNNY 第二季》，放送开始于 2022-04-08，共 13 集；关系数据另列《TIGER & BUNNY 2 パート2》为独立 subject。\n\nhttps://www.themoviedb.org/tv/39659 (api_snapshot): TMDB TV 39659 为《TIGER & BUNNY》，第 2 季名为《TIGER & BUNNY 2》，开始日期为 2022-04-08，共 25 集。\n\nhttps://www.themoviedb.org/tv/39659/season/2 (api_snapshot): TMDB 第 2 季第 1–13 集标题与 Bangumi 的 13 集逐一对应，日期均为 2022-04-08；第 14 集起日期为 2022-10-07。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/279321; https://www.themoviedb.org/tv/39659; https://www.themoviedb.org/tv/39659/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 39659
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

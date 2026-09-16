@@ -1,16 +1,86 @@
 {
   "anidbId": 11067,
   "bangumiId": 125049,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 564586,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 564587,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 564588,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 564589,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 564590,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 564591,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 564592,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 564593,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 564594,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 564595,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 564596,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 564597,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015 年 10 月 7 日开始、共 12 集的 TV 动画，章节 1–12 的标题和播出日期完整列出。TMDB TV 68768 的日文标题、首播日期、剧情简介和 12 集总数均与该主体一致；TMDB 第 1 季明确为 2015 年、12 集，完整剧集标题与日期逐集对应 Bangumi。Anime-Lists 也将 AniDB 11067 Dance with Devils 关联到 TMDB TV 68768 第 1 季。未发现应拆分为电影、OVA、总集篇或重剪版的证据，因此采用完整第 1 季。\n\nhttps://bgm.tv/subject/125049 (page): Bangumi 将该条目标为 TV，话数 12，放送时间为 2015-10-07 至 2015-12-23，并列出章节 01–12；制作公司为 Brain's Base。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目 anidbid=\"11067\"、名称 Dance with Devils，关联 tmdbtv=\"68768\"、tmdbseason=\"1\"；此仅作为关联线索。\n\nhttps://www.themoviedb.org/tv/68768 (api_snapshot): TMDB TV 68768 名为 ダンス・ウィズ・デビルス，首播日期 2015-10-07，共 12 集；剧情简介与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/68768/season/1 (api_snapshot): TMDB 第 1 季为 2015-10-07 开播、共 12 集；第 1–12 集标题和日期分别与 Bangumi 章节逐项对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015 年 10 月 7 日开始、共 12 集的 TV 动画，章节 1–12 的标题和播出日期完整列出。TMDB TV 68768 的日文标题、首播日期、剧情简介和 12 集总数均与该主体一致；TMDB 第 1 季明确为 2015 年、12 集，完整剧集标题与日期逐集对应 Bangumi。Anime-Lists 也将 AniDB 11067 Dance with Devils 关联到 TMDB TV 68768 第 1 季。未发现应拆分为电影、OVA、总集篇或重剪版的证据，因此采用完整第 1 季。\n\nhttps://bgm.tv/subject/125049 (page): Bangumi 将该条目标为 TV，话数 12，放送时间为 2015-10-07 至 2015-12-23，并列出章节 01–12；制作公司为 Brain's Base。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目 anidbid=\"11067\"、名称 Dance with Devils，关联 tmdbtv=\"68768\"、tmdbseason=\"1\"；此仅作为关联线索。\n\nhttps://www.themoviedb.org/tv/68768 (api_snapshot): TMDB TV 68768 名为 ダンス・ウィズ・デビルス，首播日期 2015-10-07，共 12 集；剧情简介与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/68768/season/1 (api_snapshot): TMDB 第 1 季为 2015-10-07 开播、共 12 集；第 1–12 集标题和日期分别与 Bangumi 章节逐项对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/125049; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/68768; https://www.themoviedb.org/tv/68768/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68768
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

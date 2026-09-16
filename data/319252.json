@@ -1,16 +1,91 @@
 {
   "anidbId": 15774,
   "bangumiId": 319252,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 988443,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 988444,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 988445,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 988446,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 988447,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 988448,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 988449,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 988450,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 988451,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 988452,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 988453,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 988454,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 997055,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《憂国のモリアーティ 2クール目》，共13集，播出时间为2021-04-04至2021-06-27。TMDB TV 100281 的第1季共24集，其中第12至24集的标题与日期逐一对应 Bangumi 的13集（如“大英帝国の醜聞”至“最後の事件”），剧情与制作主体也一致。因此应映射为该TV作品第1季的第12–24集，而不是整季；第0季为另行收录的特别篇，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/100281 (api_snapshot): TMDB确认作品为《憂国のモリアーティ》，首播2020-10-11，共24集，并列出第1季及另行的第0季特别篇。\n\nhttps://www.themoviedb.org/tv/100281/season/1 (api_snapshot): 第1季明确为season_number=1、共24集；第12至24集的标题和播出日期分别对应Bangumi subject的13集（2021-04-04至2021-06-27）。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《憂国のモリアーティ 2クール目》，共13集，播出时间为2021-04-04至2021-06-27。TMDB TV 100281 的第1季共24集，其中第12至24集的标题与日期逐一对应 Bangumi 的13集（如“大英帝国の醜聞”至“最後の事件”），剧情与制作主体也一致。因此应映射为该TV作品第1季的第12–24集，而不是整季；第0季为另行收录的特别篇，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/100281 (api_snapshot): TMDB确认作品为《憂国のモリアーティ》，首播2020-10-11，共24集，并列出第1季及另行的第0季特别篇。\n\nhttps://www.themoviedb.org/tv/100281/season/1 (api_snapshot): 第1季明确为season_number=1、共24集；第12至24集的标题和播出日期分别对应Bangumi subject的13集（2021-04-04至2021-06-27）。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/319252; https://www.themoviedb.org/tv/100281; https://www.themoviedb.org/tv/100281/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 12,
+      "season": 1,
+      "start": 12,
+      "tmdbId": 100281
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

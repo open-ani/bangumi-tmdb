@@ -1,16 +1,91 @@
 {
   "anidbId": 2134,
   "bangumiId": 133219,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 527456,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 527457,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 527458,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 527459,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 527460,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 527461,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 527462,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 527463,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 527464,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 527465,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 527466,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 527467,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 527468,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2004 年播出的 13 集 TV 动画《キン肉マンII世 ULTIMATE MUSCLE》，并与《ULTIMATE MUSCLE 2》分开。TMDB TV 9550 第3季第1–13集标题逐集对应 Bangumi 章节，日期仅因日本深夜播出存在一天偏移；第14集起跳至 2006 年，属于后续续作，因此应映射为第3季第1–13集。AniDB ID 2134 的标题也与该版本一致。\n\nhttps://bgm.tv/subject/133219 (page): Bangumi 条目标为 TV，话数 13，放送开始 2004-04-07、结束 2004-06-30，制作公司为东映动画；关联条目明确列出《キン肉マンII世 ULTIMATE MUSCLE 2》。\n\nhttps://www.themoviedb.org/tv/9550 (api_snapshot): TMDB TV 9550 为《キン肉マンII世》，包含 2004-04-07 开始的第3季；主条目将多个时期合并为同一 TV 作品。\n\nhttps://www.themoviedb.org/tv/9550/season/3 (api_snapshot): 输入的 TMDB 季快照中，第3季第1–13集标题与 Bangumi 13个章节逐集一致，日期为 2004-04-07 至 2004-06-30；第14集开始日期变为 2006-01-04。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引将 ID 2134 对应为“Kinnikuman II Sei: Ultimate Muscle”，与 Bangumi 条目的日文标题和 2004 年版本吻合。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2004 年播出的 13 集 TV 动画《キン肉マンII世 ULTIMATE MUSCLE》，并与《ULTIMATE MUSCLE 2》分开。TMDB TV 9550 第3季第1–13集标题逐集对应 Bangumi 章节，日期仅因日本深夜播出存在一天偏移；第14集起跳至 2006 年，属于后续续作，因此应映射为第3季第1–13集。AniDB ID 2134 的标题也与该版本一致。\n\nhttps://bgm.tv/subject/133219 (page): Bangumi 条目标为 TV，话数 13，放送开始 2004-04-07、结束 2004-06-30，制作公司为东映动画；关联条目明确列出《キン肉マンII世 ULTIMATE MUSCLE 2》。\n\nhttps://www.themoviedb.org/tv/9550 (api_snapshot): TMDB TV 9550 为《キン肉マンII世》，包含 2004-04-07 开始的第3季；主条目将多个时期合并为同一 TV 作品。\n\nhttps://www.themoviedb.org/tv/9550/season/3 (api_snapshot): 输入的 TMDB 季快照中，第3季第1–13集标题与 Bangumi 13个章节逐集一致，日期为 2004-04-07 至 2004-06-30；第14集开始日期变为 2006-01-04。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引将 ID 2134 对应为“Kinnikuman II Sei: Ultimate Muscle”，与 Bangumi 条目的日文标题和 2004 年版本吻合。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/133219; https://www.themoviedb.org/tv/9550; https://www.themoviedb.org/tv/9550/season/3; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 9550
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

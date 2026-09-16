@@ -1,16 +1,101 @@
 {
   "anidbId": 15806,
   "bangumiId": 317613,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1063142,
+      "sort": 1,
+      "type": 4
+    },
+    {
+      "id": 1089261,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1089262,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1089263,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1089264,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1089265,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1089266,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1089267,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1089268,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1089269,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1089270,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1089271,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1089272,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1094325,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1114153,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《辉夜大小姐想让我告白-超级浪漫-》第三季，标注播出时间为2022-04-08、正片13话。提供的 AniDB ID 15806及候选映射指向 TMDB TV 83121；TMDB 主页面将第3季命名为「かぐや様は告らせたい-ウルトラロマンティック-」，首播日期为2022-04-09并列出13集。TMDB第3季的13集标题、剧情和日期与Bangumi第1至13话逐一对应；日期相差一天符合地区/时区显示差异。因此应对应完整第3季，不纳入该TV条目的特别编集或其他特别篇。\n\nhttps://www.themoviedb.org/tv/83121 (api_snapshot): TMDB TV 83121的主条目包含第3季「かぐや様は告らせたい-ウルトラロマンティック-」，season_number为3、首播日期为2022-04-09、集数为13。\n\nhttps://www.themoviedb.org/tv/83121/season/3 (api_snapshot): TMDB第3季明确为「かぐや様は告らせたい-ウルトラロマンティック-」，共有13集；第1至13集的标题、剧情和播出日期与Bangumi subject的13个正片话数对应。\n\nhttps://bgm.tv/subject/317613 (api_snapshot): 输入的Bangumi数据表明该subject为第三季，正片话数13，播出时间为2022-04-08至2022-06-24，并另列有特别篇。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《辉夜大小姐想让我告白-超级浪漫-》第三季，标注播出时间为2022-04-08、正片13话。提供的 AniDB ID 15806及候选映射指向 TMDB TV 83121；TMDB 主页面将第3季命名为「かぐや様は告らせたい-ウルトラロマンティック-」，首播日期为2022-04-09并列出13集。TMDB第3季的13集标题、剧情和日期与Bangumi第1至13话逐一对应；日期相差一天符合地区/时区显示差异。因此应对应完整第3季，不纳入该TV条目的特别编集或其他特别篇。\n\nhttps://www.themoviedb.org/tv/83121 (api_snapshot): TMDB TV 83121的主条目包含第3季「かぐや様は告らせたい-ウルトラロマンティック-」，season_number为3、首播日期为2022-04-09、集数为13。\n\nhttps://www.themoviedb.org/tv/83121/season/3 (api_snapshot): TMDB第3季明确为「かぐや様は告らせたい-ウルトラロマンティック-」，共有13集；第1至13集的标题、剧情和播出日期与Bangumi subject的13个正片话数对应。\n\nhttps://bgm.tv/subject/317613 (api_snapshot): 输入的Bangumi数据表明该subject为第三季，正片话数13，播出时间为2022-04-08至2022-06-24，并另列有特别篇。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/317613; https://www.themoviedb.org/tv/83121; https://www.themoviedb.org/tv/83121/season/3",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 83121
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,66 @@
 {
   "anidbId": 15814,
   "bangumiId": 317694,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1122292,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1122293,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1122294,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1122295,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1122296,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1122297,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1122298,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1122299,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject《リラックマと遊園地》与 AniDB 关联已匹配，主体为 2022-08-25 开播、8 集的 Netflix TV 作品。TMDB TV 138273 标题、原名、首播日期、日文简介及制作背景均一致；TMDB 第 1 季明确标为 2022-08-25、共 8 集，完整剧集标题和简介与 Bangumi 的 8 个正篇逐集对应。因此采用 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/317694 (api_snapshot): Bangumi subject 标题为《リラックマと遊園地》，日期为 2022-08-25，标注 8 集；提供的 AniDB ID 为 15814 且状态为 matched。\n\nhttps://www.themoviedb.org/tv/138273 (api_snapshot): TMDB TV 138273 标题为《リラックマと遊園地》，首播日期 2022-08-25，共 8 集；简介描述闭园前游乐园中的事件，与主体剧情一致。\n\nhttps://www.themoviedb.org/tv/138273/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number 1，日期 2022-08-25，共 8 集；第 1 至第 8 集标题、日期和剧情简介均与 Bangumi 正篇逐集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject《リラックマと遊園地》与 AniDB 关联已匹配，主体为 2022-08-25 开播、8 集的 Netflix TV 作品。TMDB TV 138273 标题、原名、首播日期、日文简介及制作背景均一致；TMDB 第 1 季明确标为 2022-08-25、共 8 集，完整剧集标题和简介与 Bangumi 的 8 个正篇逐集对应。因此采用 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/317694 (api_snapshot): Bangumi subject 标题为《リラックマと遊園地》，日期为 2022-08-25，标注 8 集；提供的 AniDB ID 为 15814 且状态为 matched。\n\nhttps://www.themoviedb.org/tv/138273 (api_snapshot): TMDB TV 138273 标题为《リラックマと遊園地》，首播日期 2022-08-25，共 8 集；简介描述闭园前游乐园中的事件，与主体剧情一致。\n\nhttps://www.themoviedb.org/tv/138273/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number 1，日期 2022-08-25，共 8 集；第 1 至第 8 集标题、日期和剧情简介均与 Bangumi 正篇逐集对应。\n\n脚本按放送日期核对生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应，8 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/317694; https://www.themoviedb.org/tv/138273; https://www.themoviedb.org/tv/138273/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 138273
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

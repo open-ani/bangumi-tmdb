@@ -1,16 +1,86 @@
 {
   "anidbId": 12781,
   "bangumiId": 207932,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 767895,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 767896,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 767897,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 767898,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 767899,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 767900,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 767901,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 767902,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 767903,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 767904,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 767905,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 767906,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《サンリオ男子》TV 动画，2018-01-06 开播、共 12 话，由 PIERROT 制作；章节为 1–12。Wikidata 将 Bangumi subject 207932、AniDB 12781 和 TMDB TV 76140 关联到同一 Sanrio Boys 作品。TMDB 主条目显示日文名、2018-01-06 首播、12 集及相同剧情；TMDB 第 1 季快照显示 season_number=1、共 12 集，集标题和日期逐集对应 Bangumi 1–12。因此应映射为 TMDB TV 76140 第 1 季完整一季。未发现需要另行纳入的电影、OVA、总集篇或重剪版；Bangumi 主体也未包含额外特别篇。\n\nhttps://bgm.tv/subject/207932 (page): Bangumi 条目为《サンリオ男子》TV，中文名三丽鸥男子，12 话，2018-01-06 开播，2018-03-24 结束，动画制作公司为 PIERROT，并列出 01–12 章节。\n\nhttps://www.wikidata.org/wiki/Q28690097 (page): Sanrio Boys 条目标识符同时列出 AniDB anime ID 12781、Bangumi subject ID 207932 和 TMDB TV series ID 76140。\n\nhttps://www.themoviedb.org/tv/76140 (api_snapshot): TMDB TV 76140 的名称为 サンリオ男子，首播日期为 2018-01-06，简介涉及康太与其他四名 Sanrio 男子相遇，number_of_episodes=12，且只有 season_number=1、episode_count=12。\n\nhttps://www.themoviedb.org/tv/76140/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1，共 12 集；第 1–12 集标题和播出日期分别与 Bangumi 的 12 个章节逐一对应，范围为完整第 1 季。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《サンリオ男子》TV 动画，2018-01-06 开播、共 12 话，由 PIERROT 制作；章节为 1–12。Wikidata 将 Bangumi subject 207932、AniDB 12781 和 TMDB TV 76140 关联到同一 Sanrio Boys 作品。TMDB 主条目显示日文名、2018-01-06 首播、12 集及相同剧情；TMDB 第 1 季快照显示 season_number=1、共 12 集，集标题和日期逐集对应 Bangumi 1–12。因此应映射为 TMDB TV 76140 第 1 季完整一季。未发现需要另行纳入的电影、OVA、总集篇或重剪版；Bangumi 主体也未包含额外特别篇。\n\nhttps://bgm.tv/subject/207932 (page): Bangumi 条目为《サンリオ男子》TV，中文名三丽鸥男子，12 话，2018-01-06 开播，2018-03-24 结束，动画制作公司为 PIERROT，并列出 01–12 章节。\n\nhttps://www.wikidata.org/wiki/Q28690097 (page): Sanrio Boys 条目标识符同时列出 AniDB anime ID 12781、Bangumi subject ID 207932 和 TMDB TV series ID 76140。\n\nhttps://www.themoviedb.org/tv/76140 (api_snapshot): TMDB TV 76140 的名称为 サンリオ男子，首播日期为 2018-01-06，简介涉及康太与其他四名 Sanrio 男子相遇，number_of_episodes=12，且只有 season_number=1、episode_count=12。\n\nhttps://www.themoviedb.org/tv/76140/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1，共 12 集；第 1–12 集标题和播出日期分别与 Bangumi 的 12 个章节逐一对应，范围为完整第 1 季。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/207932; https://www.wikidata.org/wiki/Q28690097; https://www.themoviedb.org/tv/76140; https://www.themoviedb.org/tv/76140/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76140
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

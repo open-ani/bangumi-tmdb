@@ -1,16 +1,86 @@
 {
   "anidbId": 12888,
   "bangumiId": 210230,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 767883,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 767884,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 767885,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 767886,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 767887,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 767888,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 767889,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 767890,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 767891,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 767892,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 767893,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 767894,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 76130 是 2018 年动画《Killing Bites／キリングバイツ》，主页面明确显示第 1 季共 12 集，且第 1 季终集为 1x12。该季剧集标题与 Bangumi 的第 1、2、11、12 集内容相符，覆盖本 subject 的完整 12 集。AnimeLists 的 season=1 正确；BangumiExtLinker 的 season=0 与 TMDB 正篇季号不符。未发现需要拆分到其他 Bangumi subject 的内容。\n\nhttps://www.themoviedb.org/tv/76130?language=ko-KR (search_snippet): TMDB 搜索摘要将 76130 识别为 2018 年动画《キリングバイツ》，显示 Season 1 共 12 Episodes，并列出 1x12 为 Season Finale。\n\nhttps://www.episodium.it/serie/2745/killing-bites (page): 页面声明剧集数据来自 TMDb，并列出 Killing Bites 第 1 季 1x1 至 1x12 的完整内容；1x1 为“The one with the sharper fangs will win”，1x12 为“Thanks for Everything”。\n\nhttps://www.imdb.com/title/tt7879138/episodes/ (page): 剧集页将该作品列为 2018 年动画 TV series，并列出 S1.E1 与 S1.E2 的实际剧情内容，与 Bangumi 的正篇动画一致。",
+    "evidence": "gpt-5.6-luna: TMDB 条目 76130 是 2018 年动画《Killing Bites／キリングバイツ》，主页面明确显示第 1 季共 12 集，且第 1 季终集为 1x12。该季剧集标题与 Bangumi 的第 1、2、11、12 集内容相符，覆盖本 subject 的完整 12 集。AnimeLists 的 season=1 正确；BangumiExtLinker 的 season=0 与 TMDB 正篇季号不符。未发现需要拆分到其他 Bangumi subject 的内容。\n\nhttps://www.themoviedb.org/tv/76130?language=ko-KR (search_snippet): TMDB 搜索摘要将 76130 识别为 2018 年动画《キリングバイツ》，显示 Season 1 共 12 Episodes，并列出 1x12 为 Season Finale。\n\nhttps://www.episodium.it/serie/2745/killing-bites (page): 页面声明剧集数据来自 TMDb，并列出 Killing Bites 第 1 季 1x1 至 1x12 的完整内容；1x1 为“The one with the sharper fangs will win”，1x12 为“Thanks for Everything”。\n\nhttps://www.imdb.com/title/tt7879138/episodes/ (page): 剧集页将该作品列为 2018 年动画 TV series，并列出 S1.E1 与 S1.E2 的实际剧情内容，与 Bangumi 的正篇动画一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/210230; https://www.themoviedb.org/tv/76130?language=ko-KR; https://www.episodium.it/serie/2745/killing-bites; https://www.imdb.com/title/tt7879138/episodes/",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76130
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

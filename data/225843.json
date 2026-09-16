@@ -1,16 +1,86 @@
 {
   "anidbId": 13439,
   "bangumiId": 225843,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 790616,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 790617,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 790618,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 790619,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 790620,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 790621,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 790622,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 790623,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 790624,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 790625,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 790626,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 790627,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目为 2018 年 7 月 5 日开播、12 集的《七星のスバル》，输入中的 AniDB 关联已匹配到 Seven Senses of the Reunion。TMDB 80562 的主页面显示同名日文作品、首播日期为 2018-07-05、共 12 集；第 1 季明确为 season 1、2018-07-05 开播且包含完整 12 集。TMDB 剧集标题与 Bangumi 第 1–12 集逐集对应，剧情简介和播出日期整体一致。因此应映射为 TV 80562 第 1 季完整纳入。\n\nhttps://www.themoviedb.org/tv/80562 (api_snapshot): 作品名为「七星のスバル」，首播日期为 2018-07-05，共 12 集。\n\nhttps://www.themoviedb.org/tv/80562/season/1 (api_snapshot): 明确存在第 1 季（season_number=1），开播日期为 2018-07-05，共 12 集；剧集标题和剧情与 Bangumi 提供的第 1–12 集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目为 2018 年 7 月 5 日开播、12 集的《七星のスバル》，输入中的 AniDB 关联已匹配到 Seven Senses of the Reunion。TMDB 80562 的主页面显示同名日文作品、首播日期为 2018-07-05、共 12 集；第 1 季明确为 season 1、2018-07-05 开播且包含完整 12 集。TMDB 剧集标题与 Bangumi 第 1–12 集逐集对应，剧情简介和播出日期整体一致。因此应映射为 TV 80562 第 1 季完整纳入。\n\nhttps://www.themoviedb.org/tv/80562 (api_snapshot): 作品名为「七星のスバル」，首播日期为 2018-07-05，共 12 集。\n\nhttps://www.themoviedb.org/tv/80562/season/1 (api_snapshot): 明确存在第 1 季（season_number=1），开播日期为 2018-07-05，共 12 集；剧集标题和剧情与 Bangumi 提供的第 1–12 集对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/225843; https://www.themoviedb.org/tv/80562; https://www.themoviedb.org/tv/80562/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80562
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,86 @@
 {
   "anidbId": 10970,
   "bangumiId": 119889,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 533935,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 533936,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 533937,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 533938,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 533939,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 533940,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 533941,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 533942,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 533943,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 533944,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 533945,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 533946,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是 2015 年播出的 12 集电视动画第一季。Bangumi 的 12 个正篇标题、播出区间与 TMDB 63330 第 1 季逐集对应；TMDB 第 1 季明确包含 12 集。日期整体相差 1 天，属于记录时区或归档偏移。OAD 与续集「おくさまが生徒会長!+!」在 Bangumi 中是独立关联 subject，不应并入本 subject。\n\nhttps://bgm.tv/subject/119889 (page): Bangumi 将该条目标为 TV，话数 12，播出时间为 2015-07-01 至 2015-09-16，并列出 01 至 12 集；关联条目中续集与 OAD 均为独立条目。\n\nhttps://www.themoviedb.org/tv/63330 (api_snapshot): TMDB TV 63330 名称为「おくさまが生徒会長！」，共 24 集，季 1 和季 2 均为 12 集。\n\nhttps://www.themoviedb.org/tv/63330/season/1 (api_snapshot): TMDB 第 1 季名称为「おくさまが生徒会長!」，共 12 集；逐集标题与 Bangumi subject 的 12 个正篇标题对应，日期整体晚 1 天。",
+    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是 2015 年播出的 12 集电视动画第一季。Bangumi 的 12 个正篇标题、播出区间与 TMDB 63330 第 1 季逐集对应；TMDB 第 1 季明确包含 12 集。日期整体相差 1 天，属于记录时区或归档偏移。OAD 与续集「おくさまが生徒会長!+!」在 Bangumi 中是独立关联 subject，不应并入本 subject。\n\nhttps://bgm.tv/subject/119889 (page): Bangumi 将该条目标为 TV，话数 12，播出时间为 2015-07-01 至 2015-09-16，并列出 01 至 12 集；关联条目中续集与 OAD 均为独立条目。\n\nhttps://www.themoviedb.org/tv/63330 (api_snapshot): TMDB TV 63330 名称为「おくさまが生徒会長！」，共 24 集，季 1 和季 2 均为 12 集。\n\nhttps://www.themoviedb.org/tv/63330/season/1 (api_snapshot): TMDB 第 1 季名称为「おくさまが生徒会長!」，共 12 集；逐集标题与 Bangumi subject 的 12 个正篇标题对应，日期整体晚 1 天。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/119889; https://www.themoviedb.org/tv/63330; https://www.themoviedb.org/tv/63330/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63330
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

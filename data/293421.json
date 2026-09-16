@@ -1,16 +1,86 @@
 {
   "anidbId": 15229,
   "bangumiId": 293421,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 940346,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 940347,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 940348,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 940349,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 940350,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 940351,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 940352,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 940353,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 940354,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 940355,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 940356,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 940357,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2020-03-26 播出的《7SEEDS 第2期》，共12集，章节编号为13至24；官方资料确认这是《7SEEDS》第2期，且第13集标题为「霜降」，与 Bangumi 对应。TMDB 条目85940是同一作品，首播日为2019-06-28，共24集；TMDB公开页面将其全部归入第1季，且第24集于2020-03-26播出。因此应映射到 TMDB 第1季第13至24集，而不是候选的第2季。\n\nhttps://bgm.tv/subject/293421 (page): Bangumi 条目名为“7SEEDS 第2期”，共12集，放送开始日为2020-03-26；章节列表为整体编号13至24，首集为“霜降”。\n\nhttps://7seeds.jp/news/31.php (page): 7SEEDS 官方网站确认第2期于2020-03-26在 Netflix 全球独占配信。\n\nhttps://7seeds.jp/story/ (page): 官方剧情页列出第13集“霜降”和第14集“立夏”，与 Bangumi 第13、14集相符。\n\nhttps://www.themoviedb.org/tv/85940 (api_snapshot): TMDB API 快照显示作品为7SEEDS，首播日2019-06-28，共24集，季列表明确包含第1季且为24集。\n\nhttps://www.themoviedb.org/tv/85940?language=es-ES (search_snippet): TMDB公开页面显示该作品只有一季24集，并将2020-03-26的第24集标为第1季季终集。\n\nhttps://www.themoviedb.org/tv/85940/season/2 (api_snapshot): TMDB第2季请求在快照中返回HTTP 404；该失败本身未被当作“不存在”的单独证据，最终依据TMDB第1季24集页面及剧集整体编号确定范围。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2020-03-26 播出的《7SEEDS 第2期》，共12集，章节编号为13至24；官方资料确认这是《7SEEDS》第2期，且第13集标题为「霜降」，与 Bangumi 对应。TMDB 条目85940是同一作品，首播日为2019-06-28，共24集；TMDB公开页面将其全部归入第1季，且第24集于2020-03-26播出。因此应映射到 TMDB 第1季第13至24集，而不是候选的第2季。\n\nhttps://bgm.tv/subject/293421 (page): Bangumi 条目名为“7SEEDS 第2期”，共12集，放送开始日为2020-03-26；章节列表为整体编号13至24，首集为“霜降”。\n\nhttps://7seeds.jp/news/31.php (page): 7SEEDS 官方网站确认第2期于2020-03-26在 Netflix 全球独占配信。\n\nhttps://7seeds.jp/story/ (page): 官方剧情页列出第13集“霜降”和第14集“立夏”，与 Bangumi 第13、14集相符。\n\nhttps://www.themoviedb.org/tv/85940 (api_snapshot): TMDB API 快照显示作品为7SEEDS，首播日2019-06-28，共24集，季列表明确包含第1季且为24集。\n\nhttps://www.themoviedb.org/tv/85940?language=es-ES (search_snippet): TMDB公开页面显示该作品只有一季24集，并将2020-03-26的第24集标为第1季季终集。\n\nhttps://www.themoviedb.org/tv/85940/season/2 (api_snapshot): TMDB第2季请求在快照中返回HTTP 404；该失败本身未被当作“不存在”的单独证据，最终依据TMDB第1季24集页面及剧集整体编号确定范围。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/293421; https://7seeds.jp/news/31.php; https://7seeds.jp/story/; https://www.themoviedb.org/tv/85940; https://www.themoviedb.org/tv/85940?language=es-ES; https://www.themoviedb.org/tv/85940/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 85940
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

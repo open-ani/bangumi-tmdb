@@ -1,16 +1,31 @@
 {
   "anidbId": 13332,
   "bangumiId": 212459,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 711439,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 记录显示该 OVA 于 2017-08-04 发售且仅 1 集；AniDB 关联标题与主体匹配。TMDB TV 60863 第 0 季第 3 集标题为「特集！春高バレーに賭けた青春」，日期同为 2017-08-04，故映射为该集而非整季。\n\nhttps://bgm.tv/subject/212459 (api_snapshot): 作品为 2017-08-04 发售、1 集的 OVA《ハイキュー!! 特集！春高バレーに賭けた青春》。\n\nhttps://www.themoviedb.org/tv/60863 (api_snapshot): TMDB TV 60863 为《ハイキュー!!》，包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/60863/season/0 (api_snapshot): 第 0 季第 3 集标题为「特集！春高バレーに賭けた青春」，日期为 2017-08-04。",
+    "evidence": "gpt-5.6-luna: Bangumi 记录显示该 OVA 于 2017-08-04 发售且仅 1 集；AniDB 关联标题与主体匹配。TMDB TV 60863 第 0 季第 3 集标题为「特集！春高バレーに賭けた青春」，日期同为 2017-08-04，故映射为该集而非整季。\n\nhttps://bgm.tv/subject/212459 (api_snapshot): 作品为 2017-08-04 发售、1 集的 OVA《ハイキュー!! 特集！春高バレーに賭けた青春》。\n\nhttps://www.themoviedb.org/tv/60863 (api_snapshot): TMDB TV 60863 为《ハイキュー!!》，包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/60863/season/0 (api_snapshot): 第 0 季第 3 集标题为「特集！春高バレーに賭けた青春」，日期为 2017-08-04。\n\n脚本按放送日期核对生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应，1 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/212459; https://www.themoviedb.org/tv/60863; https://www.themoviedb.org/tv/60863/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 3,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 60863
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

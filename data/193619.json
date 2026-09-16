@@ -1,16 +1,121 @@
 {
   "anidbId": 12430,
   "bangumiId": 193619,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 873958,
+      "sort": 12.5,
+      "type": 1
+    },
+    {
+      "id": 873959,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 873960,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 873961,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 873962,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 873963,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 873964,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 873965,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 873966,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 873967,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 873968,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 873969,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 876102,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 892308,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 895154,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 895155,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 895156,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 895157,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 895158,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject明确是《一拳超人》2019年第二季，共12集，AniDB ID 12430及候选 TMDB TV 63926均对应该版本。TMDB第2季包含12集，集名依次与Bangumi正片第13—24话完全对应，剧情也连续覆盖饿狼、怪人协会和超级格斗篇，因此应映射为完整第2季；Bangumi中的特别篇属于额外特典，不纳入主体范围。\n\nhttps://bgm.tv/subject/193619 (page): Bangumi subject名称为《ワンパンマン 第2期》，放送时间为2019-04-02至2019-07-02，正片12集；正片标题与TMDB第2季逐集对应。\n\nhttps://www.themoviedb.org/tv/63926 (api_snapshot): TMDB TV 63926为《ワンパンマン》，原始首播年份为2015年，共36集，并列出第2季为2019年、12集。\n\nhttps://www.themoviedb.org/tv/63926/season/2 (api_snapshot): TMDB第2季明确为season_number=2、12集；第1至12集标题依次对应Bangumi正片第13至24话，剧情覆盖同一第二季主体。\n\n备注：Bangumi首播日期为2019-04-02，而TMDB第2季及其剧集日期整体晚约8天（2019-04-10起）；这属于日期记录差异，标题、集数和剧情均支持为同一版本。；Bangumi subject还包含若干特别篇，但这些是额外特典，不属于第二季12集正片，因此未纳入推荐范围。",
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是《一拳超人》2019年第二季，共12集，AniDB ID 12430及候选 TMDB TV 63926均对应该版本。TMDB第2季包含12集，集名依次与Bangumi正片第13—24话完全对应，剧情也连续覆盖饿狼、怪人协会和超级格斗篇，因此应映射为完整第2季；Bangumi中的特别篇属于额外特典，不纳入主体范围。\n\nhttps://bgm.tv/subject/193619 (page): Bangumi subject名称为《ワンパンマン 第2期》，放送时间为2019-04-02至2019-07-02，正片12集；正片标题与TMDB第2季逐集对应。\n\nhttps://www.themoviedb.org/tv/63926 (api_snapshot): TMDB TV 63926为《ワンパンマン》，原始首播年份为2015年，共36集，并列出第2季为2019年、12集。\n\nhttps://www.themoviedb.org/tv/63926/season/2 (api_snapshot): TMDB第2季明确为season_number=2、12集；第1至12集标题依次对应Bangumi正片第13至24话，剧情覆盖同一第二季主体。\n\n备注：Bangumi首播日期为2019-04-02，而TMDB第2季及其剧集日期整体晚约8天（2019-04-10起）；这属于日期记录差异，标题、集数和剧情均支持为同一版本。；Bangumi subject还包含若干特别篇，但这些是额外特典，不属于第二季12集正片，因此未纳入推荐范围。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/193619; https://www.themoviedb.org/tv/63926; https://www.themoviedb.org/tv/63926/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 63926
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

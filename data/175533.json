@@ -1,16 +1,31 @@
 {
   "anidbId": 12036,
   "bangumiId": 175533,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 681580,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《ゆゆ式 OVA》，标注为 1 集、发售日 2017-02-22，正篇标题为「困ったり困らされたり」。TMDB TV 52890 的第 0 季「特別編」第 7 集标题完全对应，日期同为 2017-02-22，简介明确称其为《ゆゆ式》OVA。因此应映射到第 0 季第 7 集；该季其他集为不同的「にゃにゃ式」特别内容，不能整季纳入。\n\nhttps://bgm.tv/subject/175533 (page): Bangumi subject 名称为「ゆゆ式 OVA」，日期为 2017-02-22，正篇 1 集，集标题为「困ったり困らされたり」。\n\nhttps://www.themoviedb.org/tv/52890 (api_snapshot): TMDB TV 52890 为《ゆゆ式》，首播日期为 2013-04-09，并列出第 0 季「特別編」。\n\nhttps://www.themoviedb.org/tv/52890/season/0 (api_snapshot): 第 0 季第 7 集标题为「困らせたり、困らされたり」，日期为 2017-02-22，时长 28 分，简介明确说明是《ゆゆ式》OVA。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《ゆゆ式 OVA》，标注为 1 集、发售日 2017-02-22，正篇标题为「困ったり困らされたり」。TMDB TV 52890 的第 0 季「特別編」第 7 集标题完全对应，日期同为 2017-02-22，简介明确称其为《ゆゆ式》OVA。因此应映射到第 0 季第 7 集；该季其他集为不同的「にゃにゃ式」特别内容，不能整季纳入。\n\nhttps://bgm.tv/subject/175533 (page): Bangumi subject 名称为「ゆゆ式 OVA」，日期为 2017-02-22，正篇 1 集，集标题为「困ったり困らされたり」。\n\nhttps://www.themoviedb.org/tv/52890 (api_snapshot): TMDB TV 52890 为《ゆゆ式》，首播日期为 2013-04-09，并列出第 0 季「特別編」。\n\nhttps://www.themoviedb.org/tv/52890/season/0 (api_snapshot): 第 0 季第 7 集标题为「困らせたり、困らされたり」，日期为 2017-02-22，时长 28 分，简介明确说明是《ゆゆ式》OVA。\n\n脚本按放送日期核对生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应，1 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/175533; https://www.themoviedb.org/tv/52890; https://www.themoviedb.org/tv/52890/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 7,
+      "season": 0,
+      "start": 13,
+      "tmdbId": 52890
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

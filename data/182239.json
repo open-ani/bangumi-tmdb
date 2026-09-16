@@ -1,16 +1,66 @@
 {
   "anidbId": 12121,
   "bangumiId": 182239,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 655118,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 655119,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 655120,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 655121,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 655187,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 655188,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 655189,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 655190,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《ストライク・ザ・ブラッド II》OVA，共 8 话，发行时间为 2016-11-23 至 2017-05-24。TMDB TV 61440 的第 2 季同名、同年首播且正好 8 集；8 集标题与 Bangumi 的「黒の剣巫篇」「逃亡の第四真祖篇」「咎神の騎士篇」及日期逐一对应。因此应映射为完整第 2 季。\n\nhttps://bgm.tv/subject/182239 (page): Bangumi 将该主体标为 OVA，共 8 话，发售日为 2016-11-23，结束于 2017-05-24，并列出 01 至 08 的章节及对应标题、日期。\n\nhttps://www.themoviedb.org/tv/61440 (api_snapshot): TMDB TV 61440 的总条目包含第 2 季「ストライク・ザ・ブラッドII」，首播日期 2016-11-23，集数为 8。\n\nhttps://www.themoviedb.org/tv/61440/season/2 (api_snapshot): TMDB 第 2 季包含完整 1–8 集；集名、日期分别对应 Bangumi 的 8 个 OVA 章节，末集日期为 2017-05-24。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《ストライク・ザ・ブラッド II》OVA，共 8 话，发行时间为 2016-11-23 至 2017-05-24。TMDB TV 61440 的第 2 季同名、同年首播且正好 8 集；8 集标题与 Bangumi 的「黒の剣巫篇」「逃亡の第四真祖篇」「咎神の騎士篇」及日期逐一对应。因此应映射为完整第 2 季。\n\nhttps://bgm.tv/subject/182239 (page): Bangumi 将该主体标为 OVA，共 8 话，发售日为 2016-11-23，结束于 2017-05-24，并列出 01 至 08 的章节及对应标题、日期。\n\nhttps://www.themoviedb.org/tv/61440 (api_snapshot): TMDB TV 61440 的总条目包含第 2 季「ストライク・ザ・ブラッドII」，首播日期 2016-11-23，集数为 8。\n\nhttps://www.themoviedb.org/tv/61440/season/2 (api_snapshot): TMDB 第 2 季包含完整 1–8 集；集名、日期分别对应 Bangumi 的 8 个 OVA 章节，末集日期为 2017-05-24。\n\n脚本按放送日期核对生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应，8 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/182239; https://www.themoviedb.org/tv/61440; https://www.themoviedb.org/tv/61440/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 61440
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

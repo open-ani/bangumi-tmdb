@@ -1,16 +1,116 @@
 {
   "anidbId": 12301,
   "bangumiId": 188453,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 668779,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 668780,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 668781,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 668782,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 668783,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 668784,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 668785,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 668786,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 668787,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 668788,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 668789,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 668790,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 758500,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 758501,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 758502,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 758503,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 758504,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 758505,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 为《あにトレ！XX～ひとつ屋根の下で～》，明确为 2016-10-05 开播的 12 集常规正篇。TMDB TV 68134 第 2 季明确命名为《あにトレ！XX》，首播日期相同，共 12 集；完整集标题与日期均逐一对应 Bangumi 常规集。因此映射为 TV 68134 第 2 季完整范围。Bangumi 的 6 个特别篇样本缺少标题和日期，无法证明属于主体正篇，故不纳入。\n\nhttps://www.themoviedb.org/tv/68134 (api_snapshot): TMDB 主页面显示 TV 68134 具有第 2 季《あにトレ！XX》，共 12 集。\n\nhttps://www.themoviedb.org/tv/68134/season/2 (api_snapshot): TMDB 第 2 季明确为 season 2，名称《あにトレ！XX》，开播日期 2016-10-05，共 12 集；完整集标题和日期与 Bangumi 的 12 个常规集一致。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 为《あにトレ！XX～ひとつ屋根の下で～》，明确为 2016-10-05 开播的 12 集常规正篇。TMDB TV 68134 第 2 季明确命名为《あにトレ！XX》，首播日期相同，共 12 集；完整集标题与日期均逐一对应 Bangumi 常规集。因此映射为 TV 68134 第 2 季完整范围。Bangumi 的 6 个特别篇样本缺少标题和日期，无法证明属于主体正篇，故不纳入。\n\nhttps://www.themoviedb.org/tv/68134 (api_snapshot): TMDB 主页面显示 TV 68134 具有第 2 季《あにトレ！XX》，共 12 集。\n\nhttps://www.themoviedb.org/tv/68134/season/2 (api_snapshot): TMDB 第 2 季明确为 season 2，名称《あにトレ！XX》，开播日期 2016-10-05，共 12 集；完整集标题和日期与 Bangumi 的 12 个常规集一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/188453; https://www.themoviedb.org/tv/68134; https://www.themoviedb.org/tv/68134/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 68134
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

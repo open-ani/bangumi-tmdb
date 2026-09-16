@@ -1,16 +1,86 @@
 {
   "anidbId": 11338,
   "bangumiId": 138834,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 563448,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 563449,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 563450,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 563451,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 563452,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 563453,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 563454,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 563455,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 563456,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 563457,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 563458,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 563459,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject、AniDB 11338 与 TMDB 第 2 季均对应同一具体版本：标题为《雨色ココア Rainy colorへようこそ！》，TV、2015-10-04 开播、12 集，至 2015-12-20 结束。TMDB TV 68482 的第 2 季明确列出第 1–12 集，逐集日期与 Bangumi 相符，因此应映射为完整第 2 季。\n\nhttps://bgm.tv/subject/138834 (page): Bangumi 条目标为 TV，12 集，2015-10-04 开播、2015-12-20 结束，别名含“雨色可可 第二季”，并列出第 1–12 集。\n\nhttps://anidb.net/anime/11338 (page): AniDB ID 11338 的标题为“Ame-iro Cocoa: Rainy Color e Youkoso”，官方日文名为“雨色ココア Rainy colorへようこそ!”，类型为 TV Series、12 集，日期为 2015-10-04 至 2015-12-20，别名含“Rainy Cocoa: Season 2”。\n\nhttps://www.themoviedb.org/tv/68482 (api_snapshot): TMDB TV 68482 为《雨色ココア》；第 2 季名称为《雨色ココア Rainy colorへようこそ！》，开播日期 2015-10-04，集数 12。\n\nhttps://www.themoviedb.org/tv/68482/season/2 (api_snapshot): TMDB 明确标记 season_number=2，并列出第 1–12 集；日期从 2015-10-04 依次至 2015-12-20，与 Bangumi 和 AniDB 的主体范围一致。",
+    "evidence": "gpt-5.6-luna: Bangumi subject、AniDB 11338 与 TMDB 第 2 季均对应同一具体版本：标题为《雨色ココア Rainy colorへようこそ！》，TV、2015-10-04 开播、12 集，至 2015-12-20 结束。TMDB TV 68482 的第 2 季明确列出第 1–12 集，逐集日期与 Bangumi 相符，因此应映射为完整第 2 季。\n\nhttps://bgm.tv/subject/138834 (page): Bangumi 条目标为 TV，12 集，2015-10-04 开播、2015-12-20 结束，别名含“雨色可可 第二季”，并列出第 1–12 集。\n\nhttps://anidb.net/anime/11338 (page): AniDB ID 11338 的标题为“Ame-iro Cocoa: Rainy Color e Youkoso”，官方日文名为“雨色ココア Rainy colorへようこそ!”，类型为 TV Series、12 集，日期为 2015-10-04 至 2015-12-20，别名含“Rainy Cocoa: Season 2”。\n\nhttps://www.themoviedb.org/tv/68482 (api_snapshot): TMDB TV 68482 为《雨色ココア》；第 2 季名称为《雨色ココア Rainy colorへようこそ！》，开播日期 2015-10-04，集数 12。\n\nhttps://www.themoviedb.org/tv/68482/season/2 (api_snapshot): TMDB 明确标记 season_number=2，并列出第 1–12 集；日期从 2015-10-04 依次至 2015-12-20，与 Bangumi 和 AniDB 的主体范围一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/138834; https://anidb.net/anime/11338; https://www.themoviedb.org/tv/68482; https://www.themoviedb.org/tv/68482/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 68482
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,91 @@
 {
   "anidbId": 14996,
   "bangumiId": 285899,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 978193,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 978194,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 978195,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 978196,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 978197,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 978198,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 978199,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 978200,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 978201,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 978202,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 978203,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 978204,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 978205,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB TV 95073 就是 2020 年电视动画《まえせつ！》：原名、首播日期、少女漫才题材均吻合。其第 1 季完整收录 12 集，E1 至 E12 的日文标题、播出日期和剧情顺序与 Bangumi 的 12 集正篇逐集对应，因此映射为第 1 季全季。Bangumi 另列的「第0幕 とくばん！」属于特别节目，不在本轮正篇范围内，也未计入 TMDB 的这 12 集。\n\nhttps://www.themoviedb.org/tv/95073 (api_snapshot): TMDB API 快照显示 TV 95073 原名为《まえせつ！》，于 2020-10-11 首播，共 12 集；剧情同样讲述四组少女漫才组合追逐舞台目标。\n\nhttps://www.themoviedb.org/tv/95073/season/1 (api_snapshot): TMDB API 快照完整列出第 1 季 12 集，从 E1「第1幕おわらい！」到 E12「第12幕まえせつ！」；各集标题及 2020-10-11 至 2020-12-27 的播出日期均与 Bangumi 正篇逐集一致。",
+    "evidence": "gpt-5.6-sol: TMDB TV 95073 就是 2020 年电视动画《まえせつ！》：原名、首播日期、少女漫才题材均吻合。其第 1 季完整收录 12 集，E1 至 E12 的日文标题、播出日期和剧情顺序与 Bangumi 的 12 集正篇逐集对应，因此映射为第 1 季全季。Bangumi 另列的「第0幕 とくばん！」属于特别节目，不在本轮正篇范围内，也未计入 TMDB 的这 12 集。\n\nhttps://www.themoviedb.org/tv/95073 (api_snapshot): TMDB API 快照显示 TV 95073 原名为《まえせつ！》，于 2020-10-11 首播，共 12 集；剧情同样讲述四组少女漫才组合追逐舞台目标。\n\nhttps://www.themoviedb.org/tv/95073/season/1 (api_snapshot): TMDB API 快照完整列出第 1 季 12 集，从 E1「第1幕おわらい！」到 E12「第12幕まえせつ！」；各集标题及 2020-10-11 至 2020-12-27 的播出日期均与 Bangumi 正篇逐集一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/285899; https://www.themoviedb.org/tv/95073; https://www.themoviedb.org/tv/95073/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 95073
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,46 @@
 {
   "anidbId": 14971,
   "bangumiId": 285545,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 894202,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 894203,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 894204,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 894205,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject《みにゆり》明确为2019年9月25日起、共4集，四集标题和日期分别为「はじめてのゆるゆり入門」(2019-09-25)、「ゆりTuber」(2019-10-02)、「ゆるゆりんぴっく」(2019-10-09)、「ゆるゆり殺人事件」(2019-10-16)。TMDB TV 52891 的特别编 season 0 中第4至7集标题、日期、时长和简介逐一对应，故应映射为该季的第4–7集，而不是整季或正篇季。TMDB 页面还显示第1–3集是2011/2015年的其他特别篇，第8集是《ゆるゆり、》，均不属于本 subject。\n\nhttps://bgm.tv/subject/285545 (page): Bangumi subject 名称为「みにゆり」，2019-09-25开始，共4集；四集标题和日期与输入的独立 Bangumi 数据一致。\n\nhttps://www.themoviedb.org/tv/52891 (api_snapshot): TMDB TV 52891 为《ゆるゆり》，包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/52891/season/0 (api_snapshot): season 0 第4–7集分别为「はじめてのゆるゆり入門」「ゆりTuber」「ゆるゆりんぴっく」「ゆるゆり殺人事件」，日期为2019-09-25、2019-10-02、2019-10-09、2019-10-16，与 Bangumi 四集逐一对应。\n\nhttps://www.themoviedb.org/tv/52891/season/0 (api_snapshot): season 0 第1–3集是其他年份的《ゆるゆり なちゅやちゅみ!+》内容，第8集为《ゆるゆり、》，因此不能把 season 0 整季纳入。",
+    "evidence": "gpt-5.6-luna: Bangumi subject《みにゆり》明确为2019年9月25日起、共4集，四集标题和日期分别为「はじめてのゆるゆり入門」(2019-09-25)、「ゆりTuber」(2019-10-02)、「ゆるゆりんぴっく」(2019-10-09)、「ゆるゆり殺人事件」(2019-10-16)。TMDB TV 52891 的特别编 season 0 中第4至7集标题、日期、时长和简介逐一对应，故应映射为该季的第4–7集，而不是整季或正篇季。TMDB 页面还显示第1–3集是2011/2015年的其他特别篇，第8集是《ゆるゆり、》，均不属于本 subject。\n\nhttps://bgm.tv/subject/285545 (page): Bangumi subject 名称为「みにゆり」，2019-09-25开始，共4集；四集标题和日期与输入的独立 Bangumi 数据一致。\n\nhttps://www.themoviedb.org/tv/52891 (api_snapshot): TMDB TV 52891 为《ゆるゆり》，包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/52891/season/0 (api_snapshot): season 0 第4–7集分别为「はじめてのゆるゆり入門」「ゆりTuber」「ゆるゆりんぴっく」「ゆるゆり殺人事件」，日期为2019-09-25、2019-10-02、2019-10-09、2019-10-16，与 Bangumi 四集逐一对应。\n\nhttps://www.themoviedb.org/tv/52891/season/0 (api_snapshot): season 0 第1–3集是其他年份的《ゆるゆり なちゅやちゅみ!+》内容，第8集为《ゆるゆり、》，因此不能把 season 0 整季纳入。\n\n脚本按放送日期核对生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应，4 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/285545; https://www.themoviedb.org/tv/52891; https://www.themoviedb.org/tv/52891/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 4,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 52891
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

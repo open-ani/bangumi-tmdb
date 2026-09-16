@@ -1,16 +1,86 @@
 {
   "anidbId": 12762,
   "bangumiId": 207593,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 727977,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 727978,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 727979,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 727980,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 727981,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 727982,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 727983,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 727984,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 727985,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 727986,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 727987,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 727988,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目为 2017-07-02 开播的 TV 动画，共 12 集；所给 AniDB 关联 ID 12762 的标题与作品名匹配。TMDB TV 72507 的首播日期为 2017-07-02、日文原名一致，共 12 集；第 1 季日期为 2017-07-02，包含完整 1–12 集，集名、日期和剧情简介均与 Bangumi 提供的 12 集逐条对应。因此应映射为 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/207593 (page): Bangumi 条目标题为《潔癖男子！青山くん》，开播日期为 2017-07-02，类型为 TV，正篇共 12 集；提供的 AniDB 关联为 12762 且标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/72507 (api_snapshot): TMDB 作品标题与原名均为《潔癖男子！青山くん》，首播日期为 2017-07-02，共 12 集，且为日本 TV 动画。\n\nhttps://www.themoviedb.org/tv/72507/season/1 (api_snapshot): TMDB 第 1 季首播日期为 2017-07-02，共 12 集；第 1–12 集的标题和日期与 Bangumi 集列表逐条对应，剧情内容也一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目为 2017-07-02 开播的 TV 动画，共 12 集；所给 AniDB 关联 ID 12762 的标题与作品名匹配。TMDB TV 72507 的首播日期为 2017-07-02、日文原名一致，共 12 集；第 1 季日期为 2017-07-02，包含完整 1–12 集，集名、日期和剧情简介均与 Bangumi 提供的 12 集逐条对应。因此应映射为 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/207593 (page): Bangumi 条目标题为《潔癖男子！青山くん》，开播日期为 2017-07-02，类型为 TV，正篇共 12 集；提供的 AniDB 关联为 12762 且标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/72507 (api_snapshot): TMDB 作品标题与原名均为《潔癖男子！青山くん》，首播日期为 2017-07-02，共 12 集，且为日本 TV 动画。\n\nhttps://www.themoviedb.org/tv/72507/season/1 (api_snapshot): TMDB 第 1 季首播日期为 2017-07-02，共 12 集；第 1–12 集的标题和日期与 Bangumi 集列表逐条对应，剧情内容也一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/207593; https://www.themoviedb.org/tv/72507; https://www.themoviedb.org/tv/72507/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72507
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

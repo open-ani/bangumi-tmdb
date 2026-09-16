@@ -1,16 +1,86 @@
 {
   "anidbId": 15365,
   "bangumiId": 294120,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 940345,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 943286,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 943287,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 943288,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 943289,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 943290,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 943291,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 943292,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 943293,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 943294,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 943295,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 943296,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与 AniDB 15365 的标题、别名和版本信息匹配，主体为 2020 年播出的 12 集 TV 动画。TMDB 96655 的首播日期为 2020-04-10，第一季共 12 集，逐集日期对应 Bangumi 的第 1 至 12 集（2020-04-10 至 2020-06-26），因此采用完整第 1 季。未发现电影、OVA、总集篇或重剪版需要另行映射。\n\nhttps://www.themoviedb.org/tv/96655 (api_snapshot): TMDB 条目标题为「ざしきわらしのタタミちゃん」，首播日期为 2020-04-10，共 12 集。\n\nhttps://www.themoviedb.org/tv/96655/season/1 (api_snapshot): TMDB 第 1 季共 12 集，逐集日期从 2020-04-10 至 2020-06-26，和 Bangumi 的 12 个正篇集及日期逐一对应。\n\nhttps://bgm.tv/subject/294120 (page): Bangumi 条目标题为「ざしきわらしのタタミちゃん」，首播日期为 2020-04-10，主体记录为 12 集 TV 动画。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 AniDB 15365 的标题、别名和版本信息匹配，主体为 2020 年播出的 12 集 TV 动画。TMDB 96655 的首播日期为 2020-04-10，第一季共 12 集，逐集日期对应 Bangumi 的第 1 至 12 集（2020-04-10 至 2020-06-26），因此采用完整第 1 季。未发现电影、OVA、总集篇或重剪版需要另行映射。\n\nhttps://www.themoviedb.org/tv/96655 (api_snapshot): TMDB 条目标题为「ざしきわらしのタタミちゃん」，首播日期为 2020-04-10，共 12 集。\n\nhttps://www.themoviedb.org/tv/96655/season/1 (api_snapshot): TMDB 第 1 季共 12 集，逐集日期从 2020-04-10 至 2020-06-26，和 Bangumi 的 12 个正篇集及日期逐一对应。\n\nhttps://bgm.tv/subject/294120 (page): Bangumi 条目标题为「ざしきわらしのタタミちゃん」，首播日期为 2020-04-10，主体记录为 12 集 TV 动画。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/294120; https://www.themoviedb.org/tv/96655; https://www.themoviedb.org/tv/96655/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 96655
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

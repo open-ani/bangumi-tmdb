@@ -1,16 +1,96 @@
 {
   "anidbId": 11552,
   "bangumiId": 145781,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 596568,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 596569,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 596570,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 596571,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 596572,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 596573,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 596574,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 596575,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 596576,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 596577,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 596578,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 596579,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 611866,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 611867,
+      "sort": 1,
+      "type": 3
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2016-01-05 至 2016-03-22 播出的 12 集 TV 动画，AniDB ID 11552 的名称匹配。TMDB TV 65980 的首播日期、日文标题、剧情简介及第 1 季 12 集的标题和日期均与 Bangumi 正篇逐集对应，因此采用第 1 季完整范围。Bangumi 另列的两项特别篇不属于这 12 集主体，且没有证据表明应并入该季。\n\nhttps://bgm.tv/subject/145781 (page): Bangumi subject 标题、首播日期、12 集正篇及逐集标题/日期；关联 AniDB ID 为 11552。\n\nhttps://www.themoviedb.org/tv/65980 (api_snapshot): TMDB 作品标题、首播日期、剧情简介及总集数 12。\n\nhttps://www.themoviedb.org/tv/65980/season/1 (api_snapshot): TMDB 第 1 季首播日期为 2016-01-05，共 12 集；剧集标题和日期与 Bangumi 第 1 至 12 集逐集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2016-01-05 至 2016-03-22 播出的 12 集 TV 动画，AniDB ID 11552 的名称匹配。TMDB TV 65980 的首播日期、日文标题、剧情简介及第 1 季 12 集的标题和日期均与 Bangumi 正篇逐集对应，因此采用第 1 季完整范围。Bangumi 另列的两项特别篇不属于这 12 集主体，且没有证据表明应并入该季。\n\nhttps://bgm.tv/subject/145781 (page): Bangumi subject 标题、首播日期、12 集正篇及逐集标题/日期；关联 AniDB ID 为 11552。\n\nhttps://www.themoviedb.org/tv/65980 (api_snapshot): TMDB 作品标题、首播日期、剧情简介及总集数 12。\n\nhttps://www.themoviedb.org/tv/65980/season/1 (api_snapshot): TMDB 第 1 季首播日期为 2016-01-05，共 12 集；剧集标题和日期与 Bangumi 第 1 至 12 集逐集对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/145781; https://www.themoviedb.org/tv/65980; https://www.themoviedb.org/tv/65980/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65980
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

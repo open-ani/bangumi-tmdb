@@ -1,16 +1,71 @@
 {
   "anidbId": 16420,
   "bangumiId": 340837,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1041565,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1041566,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1041567,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1041568,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1041569,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1041570,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1041571,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1041572,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1041573,
+      "sort": 9,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 114478 是 2021 年的动画电视选集《Star Wars: Visions》，不是真人版或电影。TMDB 将第一季标为 Season 1 (2021)，并将第二季单列为 Volume 2；第一季对应 Bangumi 主体的 9 部短篇，故应采用 AnimeLists 的 season=1。BangumiExtLinker 的 season=0 指向 TMDB Specials，不对应本主体正篇。\n\nhttps://www.themoviedb.org/tv/114478-star-wars-visions/watch (page): TMDB 页面确认标题为 Star Wars: Visions (2021)，类型包含 Animation，简介称其为由 9 部原创短篇组成的动画选集；页面同时将 Volume 2 标为 2023 年第二季。\n\nhttps://www.themoviedb.org/tv/114478-star-wars-visions/season/1/images/posters (page): TMDB 的同一作品 Season 1 页面明确标为 Season 1 (2021)，英语海报数量为 9，并与 Specials、Volume 2 分开。\n\nhttps://www.starwars.com/news/star-wars-visions-is-here (page): 官方 StarWars.com 说明 2021 年 9 月 22 日上线，且该动画选集的全部剧集已经上线；正文列出第一批短篇及其动画制作工作室。\n\nhttps://www.justwatch.com/us/tv-show/star-wars-visions/season-1 (page): Season 1 (2021) 被列为 9 集，标题依次包括 The Duel、Tatooine Rhapsody、The Twins、The Village Bride、The Ninth Jedi、T0-B1、The Elder、Lop & Ochō、Akakiri，与 Bangumi 的 9 集主体及抽样标题一致。",
+    "evidence": "gpt-5.6-luna: TMDB 114478 是 2021 年的动画电视选集《Star Wars: Visions》，不是真人版或电影。TMDB 将第一季标为 Season 1 (2021)，并将第二季单列为 Volume 2；第一季对应 Bangumi 主体的 9 部短篇，故应采用 AnimeLists 的 season=1。BangumiExtLinker 的 season=0 指向 TMDB Specials，不对应本主体正篇。\n\nhttps://www.themoviedb.org/tv/114478-star-wars-visions/watch (page): TMDB 页面确认标题为 Star Wars: Visions (2021)，类型包含 Animation，简介称其为由 9 部原创短篇组成的动画选集；页面同时将 Volume 2 标为 2023 年第二季。\n\nhttps://www.themoviedb.org/tv/114478-star-wars-visions/season/1/images/posters (page): TMDB 的同一作品 Season 1 页面明确标为 Season 1 (2021)，英语海报数量为 9，并与 Specials、Volume 2 分开。\n\nhttps://www.starwars.com/news/star-wars-visions-is-here (page): 官方 StarWars.com 说明 2021 年 9 月 22 日上线，且该动画选集的全部剧集已经上线；正文列出第一批短篇及其动画制作工作室。\n\nhttps://www.justwatch.com/us/tv-show/star-wars-visions/season-1 (page): Season 1 (2021) 被列为 9 集，标题依次包括 The Duel、Tatooine Rhapsody、The Twins、The Village Bride、The Ninth Jedi、T0-B1、The Elder、Lop & Ochō、Akakiri，与 Bangumi 的 9 集主体及抽样标题一致。\n\n脚本按放送日期核对生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应，9 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/340837; https://www.themoviedb.org/tv/114478-star-wars-visions/watch; https://www.themoviedb.org/tv/114478-star-wars-visions/season/1/images/posters; https://www.starwars.com/news/star-wars-visions-is-here; https://www.justwatch.com/us/tv-show/star-wars-visions/season-1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 114478
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

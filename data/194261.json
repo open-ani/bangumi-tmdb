@@ -1,16 +1,86 @@
 {
   "anidbId": 12451,
   "bangumiId": 194261,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 728169,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 728170,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 728171,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 728172,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 728173,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 728174,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 728175,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 728176,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 728177,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 728178,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 728179,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 728180,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是2017年7月10日开始播出的12集TV动画《天使的3P!》，AniDB关联标题已匹配。TMDB TV 72523的首播日期、日文标题、简介与Bangumi主体一致；其第1季明确为2017年7月10日、共12集，且12集标题与日期逐集对应Bangumi记录。因此应映射为完整第1季，不涉及电影、OVA或其他季。\n\nhttps://bgm.tv/subject/194261 (page): Bangumi条目为《天使の3P!》，类型为TV动画，放送日期为2017-07-10至2017-09-25，共12集；提供的AniDB关联标题与该作品匹配。\n\nhttps://www.themoviedb.org/tv/72523 (api_snapshot): TMDB TV 72523标题为《天使の3P！》，首播日期为2017-07-10，简介与三名小学女生组建乐队并举办演出的主体剧情一致，共12集。\n\nhttps://www.themoviedb.org/tv/72523/season/1 (api_snapshot): TMDB第1季明确为season 1，首播日期2017-07-10，共12集；第1至12集的标题和日期均与Bangumi对应，覆盖完整主体。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体是2017年7月10日开始播出的12集TV动画《天使的3P!》，AniDB关联标题已匹配。TMDB TV 72523的首播日期、日文标题、简介与Bangumi主体一致；其第1季明确为2017年7月10日、共12集，且12集标题与日期逐集对应Bangumi记录。因此应映射为完整第1季，不涉及电影、OVA或其他季。\n\nhttps://bgm.tv/subject/194261 (page): Bangumi条目为《天使の3P!》，类型为TV动画，放送日期为2017-07-10至2017-09-25，共12集；提供的AniDB关联标题与该作品匹配。\n\nhttps://www.themoviedb.org/tv/72523 (api_snapshot): TMDB TV 72523标题为《天使の3P！》，首播日期为2017-07-10，简介与三名小学女生组建乐队并举办演出的主体剧情一致，共12集。\n\nhttps://www.themoviedb.org/tv/72523/season/1 (api_snapshot): TMDB第1季明确为season 1，首播日期2017-07-10，共12集；第1至12集的标题和日期均与Bangumi对应，覆盖完整主体。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/194261; https://www.themoviedb.org/tv/72523; https://www.themoviedb.org/tv/72523/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72523
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

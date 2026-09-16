@@ -1,15 +1,85 @@
 {
   "bangumiId": 308025,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 980472,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 980473,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 980474,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 980475,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 980476,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 980477,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 980478,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 980479,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 980480,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 980481,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 980482,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 980483,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体完全对应：中文原名、首播日期 2020-10-27、剧情简介、导演劳子亮、制作公司 KURO GAMES 与 Big Firebird Cultural Media 均吻合；TMDB 另列出别名“战双帕弥什 泡面番”和英文名“Punishing: Panini”。第 1 季实际包含 12 集，日期覆盖 2020-10-27 至 2021-01-12，集名与 Bangumi 的 12 集逐一对应，因此可使用整季范围。\n\nhttps://www.themoviedb.org/tv/211885 (search_snippet): TMDB 搜索结果命中《战双帕尼尼》，类型为 TV，首播日期为 2020-10-27，剧情简介与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/211885 (api_snapshot): 详情确认原名、剧情、2021-01-12 完播日期、12 集/1 季、制作公司 KURO GAMES 与 Big Firebird Cultural Media、导演劳子亮，以及别名“战双帕弥什 泡面番”和“Punishing: Panini”。\n\nhttps://www.themoviedb.org/tv/211885/season/1 (api_snapshot): 第 1 季实际返回 12 集，集名为“食谱”至“新年礼物”，播出日期和 Bangumi 12 集表逐集对应；total_pages=1，未发现分页遗漏或混入其他作品。",
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体完全对应：中文原名、首播日期 2020-10-27、剧情简介、导演劳子亮、制作公司 KURO GAMES 与 Big Firebird Cultural Media 均吻合；TMDB 另列出别名“战双帕弥什 泡面番”和英文名“Punishing: Panini”。第 1 季实际包含 12 集，日期覆盖 2020-10-27 至 2021-01-12，集名与 Bangumi 的 12 集逐一对应，因此可使用整季范围。\n\nhttps://www.themoviedb.org/tv/211885 (search_snippet): TMDB 搜索结果命中《战双帕尼尼》，类型为 TV，首播日期为 2020-10-27，剧情简介与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/211885 (api_snapshot): 详情确认原名、剧情、2021-01-12 完播日期、12 集/1 季、制作公司 KURO GAMES 与 Big Firebird Cultural Media、导演劳子亮，以及别名“战双帕弥什 泡面番”和“Punishing: Panini”。\n\nhttps://www.themoviedb.org/tv/211885/season/1 (api_snapshot): 第 1 季实际返回 12 集，集名为“食谱”至“新年礼物”，播出日期和 Bangumi 12 集表逐集对应；total_pages=1，未发现分页遗漏或混入其他作品。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/308025; https://www.themoviedb.org/tv/211885; https://www.themoviedb.org/tv/211885/season/1",
-    "verifiedAt": "2026-09-08T22:01:09.432Z"
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211885
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

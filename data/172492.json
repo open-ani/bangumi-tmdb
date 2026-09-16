@@ -1,16 +1,86 @@
 {
   "anidbId": 11979,
   "bangumiId": 172492,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 667457,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 667458,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 667459,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 667460,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 667461,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 667462,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 667463,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 667464,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 667465,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 667466,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 667467,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 667468,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认是 2016 年日本 TV 动画《私がモテてどうすんだ》，12 集，2016-10-06 至 2016-12-22，制作公司为 Brain's Base。TMDB TV 68188 的标题、日文剧情、制作/地区信息和 12 集数量均一致；第 1 季完整列出 1–12 集，标题与 Bangumi 集数逐一对应。TMDB 日期整体较 Bangumi 晚一天，符合时区/播出日期记录差异，不影响版本对应。\n\nhttps://bgm.tv/subject/172492 (page): Bangumi 将该主体标为 TV，标题为《私がモテてどうすんだ》，12 集，2016-10-06 开播、2016-12-22 完结；简介、导演石踊宏、Brain's Base 制作等信息与候选一致。\n\nhttps://www.themoviedb.org/tv/68188 (api_snapshot): TMDB TV 68188 标题为《私がモテてどうすんだ》，日文剧情描述芹沼花依及四名男生，第一播出日为 2016-10-07，共 12 集，日本动画。\n\nhttps://www.themoviedb.org/tv/68188/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1，共 12 集；第 1–12 集标题、剧情和日期顺序与 Bangumi 章节逐一对应，覆盖该主体的完整正篇。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目确认是 2016 年日本 TV 动画《私がモテてどうすんだ》，12 集，2016-10-06 至 2016-12-22，制作公司为 Brain's Base。TMDB TV 68188 的标题、日文剧情、制作/地区信息和 12 集数量均一致；第 1 季完整列出 1–12 集，标题与 Bangumi 集数逐一对应。TMDB 日期整体较 Bangumi 晚一天，符合时区/播出日期记录差异，不影响版本对应。\n\nhttps://bgm.tv/subject/172492 (page): Bangumi 将该主体标为 TV，标题为《私がモテてどうすんだ》，12 集，2016-10-06 开播、2016-12-22 完结；简介、导演石踊宏、Brain's Base 制作等信息与候选一致。\n\nhttps://www.themoviedb.org/tv/68188 (api_snapshot): TMDB TV 68188 标题为《私がモテてどうすんだ》，日文剧情描述芹沼花依及四名男生，第一播出日为 2016-10-07，共 12 集，日本动画。\n\nhttps://www.themoviedb.org/tv/68188/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1，共 12 集；第 1–12 集标题、剧情和日期顺序与 Bangumi 章节逐一对应，覆盖该主体的完整正篇。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/172492; https://www.themoviedb.org/tv/68188; https://www.themoviedb.org/tv/68188/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68188
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

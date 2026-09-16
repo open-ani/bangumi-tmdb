@@ -1,16 +1,91 @@
 {
   "anidbId": 15739,
   "bangumiId": 315574,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 996731,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 996734,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 996735,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 996736,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 996737,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 996738,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 996739,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 996740,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 996741,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 996742,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 996743,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 996744,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1000816,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《ウマ娘 プリティーダービー Season 2》，提供的 AniDB ID 15739 及标题匹配。TMDB TV 77694 的第 2 季标题为 Season 2，2021 年播出，共 13 集；剧集标题、顺序和剧情简介均与 Bangumi 提供的 13 集逐集对应，因此应映射为完整第 2 季。Bangumi 首播日期为 2021-01-04，TMDB 记录为 2021-01-05，存在一天差异，但不影响版本和季号确认。\n\nhttps://bgm.tv/subject/315574 (api_snapshot): Bangumi 记录该主体为《ウマ娘 プリティーダービー Season 2》，2021-01-04 开播，共 13 集；关联 AniDB ID 为 15739。\n\nhttps://www.themoviedb.org/tv/77694 (api_snapshot): TMDB TV 77694 为《ウマ娘 プリティーダービー》，包含第 2 季；第 2 季播出于 2021 年并包含 13 集。\n\nhttps://www.themoviedb.org/tv/77694/season/2 (api_snapshot): TMDB 第 2 季的 13 集标题、顺序、剧情简介与 Bangumi 提供的 13 集逐项对应，从「トウカイテイオー」至「夢をかける」。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《ウマ娘 プリティーダービー Season 2》，提供的 AniDB ID 15739 及标题匹配。TMDB TV 77694 的第 2 季标题为 Season 2，2021 年播出，共 13 集；剧集标题、顺序和剧情简介均与 Bangumi 提供的 13 集逐集对应，因此应映射为完整第 2 季。Bangumi 首播日期为 2021-01-04，TMDB 记录为 2021-01-05，存在一天差异，但不影响版本和季号确认。\n\nhttps://bgm.tv/subject/315574 (api_snapshot): Bangumi 记录该主体为《ウマ娘 プリティーダービー Season 2》，2021-01-04 开播，共 13 集；关联 AniDB ID 为 15739。\n\nhttps://www.themoviedb.org/tv/77694 (api_snapshot): TMDB TV 77694 为《ウマ娘 プリティーダービー》，包含第 2 季；第 2 季播出于 2021 年并包含 13 集。\n\nhttps://www.themoviedb.org/tv/77694/season/2 (api_snapshot): TMDB 第 2 季的 13 集标题、顺序、剧情简介与 Bangumi 提供的 13 集逐项对应，从「トウカイテイオー」至「夢をかける」。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/315574; https://www.themoviedb.org/tv/77694; https://www.themoviedb.org/tv/77694/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 77694
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

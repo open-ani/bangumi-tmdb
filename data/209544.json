@@ -1,15 +1,85 @@
 {
   "bangumiId": 209544,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 710620,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 710621,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 710622,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 710623,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 710624,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 710625,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 710626,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 710627,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 710628,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 710629,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 710630,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 710631,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体完全对应：原名一致，首播日期均为 2017-04-03，终播日期为 2017-06-19，剧情均围绕亚金德星王子佩索在宇宙中赚钱展开；TMDB 标注为已完结单季 12 集，实际季表覆盖第 1 至 12 集，标题与 Bangumi 集表逐集一致，且片长均为约 5 分钟。没有发现旧版、重制版、OVA 或合集混淆，因此推荐整季。\n\nhttps://api.bgm.tv/v0/subjects/209544 (api_snapshot): Bangumi API 标注该主体为 2017-04-03 开播、12 集的 TV 动画，标题为「アキンド星のリトル・ペソ」，剧情为佩索被逐出亚金德星后在宇宙中赚钱。\n\nhttps://www.themoviedb.org/tv/78973 (api_snapshot): TMDB 详情确认原名为「アキンド星のリトル・ペソ」，首播 2017-04-03、完结 2017-06-19，共 1 季 12 集；制作公司包括 Fanworks，导演为 Ryosuke Aoike。\n\nhttps://www.themoviedb.org/tv/78973 (api_snapshot): TMDB 搜索结果中的剧情明确描述 Planet Akindo、Prince Peso、手机游戏付费及被逐出后在宇宙中进行商业冒险，与 Bangumi 剧情身份一致。\n\nhttps://www.themoviedb.org/tv/78973/season/1 (api_snapshot): TMDB 第 1 季实际集表为 12 集、总页数 1；第 1 至第 12 集标题和播出日期均与 Bangumi 集表逐集对应，片长均为 5 分钟。",
+    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体完全对应：原名一致，首播日期均为 2017-04-03，终播日期为 2017-06-19，剧情均围绕亚金德星王子佩索在宇宙中赚钱展开；TMDB 标注为已完结单季 12 集，实际季表覆盖第 1 至 12 集，标题与 Bangumi 集表逐集一致，且片长均为约 5 分钟。没有发现旧版、重制版、OVA 或合集混淆，因此推荐整季。\n\nhttps://api.bgm.tv/v0/subjects/209544 (api_snapshot): Bangumi API 标注该主体为 2017-04-03 开播、12 集的 TV 动画，标题为「アキンド星のリトル・ペソ」，剧情为佩索被逐出亚金德星后在宇宙中赚钱。\n\nhttps://www.themoviedb.org/tv/78973 (api_snapshot): TMDB 详情确认原名为「アキンド星のリトル・ペソ」，首播 2017-04-03、完结 2017-06-19，共 1 季 12 集；制作公司包括 Fanworks，导演为 Ryosuke Aoike。\n\nhttps://www.themoviedb.org/tv/78973 (api_snapshot): TMDB 搜索结果中的剧情明确描述 Planet Akindo、Prince Peso、手机游戏付费及被逐出后在宇宙中进行商业冒险，与 Bangumi 剧情身份一致。\n\nhttps://www.themoviedb.org/tv/78973/season/1 (api_snapshot): TMDB 第 1 季实际集表为 12 集、总页数 1；第 1 至第 12 集标题和播出日期均与 Bangumi 集表逐集对应，片长均为 5 分钟。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/209544; https://api.bgm.tv/v0/subjects/209544; https://www.themoviedb.org/tv/78973; https://www.themoviedb.org/tv/78973/season/1",
-    "verifiedAt": "2026-09-08T20:45:39.550Z"
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 78973
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

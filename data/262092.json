@@ -1,15 +1,85 @@
 {
   "bangumiId": 262092,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 989823,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 989824,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 989825,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 989826,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 989827,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 989828,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 989829,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 989830,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 989831,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 989832,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 989833,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 989834,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 103928 与 Bangumi subject 的中文原名、别名“雏蜂·SOE”、首播日期（2020-11-18）、剧情、媒介及制作信息一致；TMDB 第1季实际包含12集，集名和播出日期逐集对应 Bangumi 的12集，因此可映射为完整第1季。另有 TMDB 63631《雏蜂》为2015年旧版，仅6集，已排除。\n\nhttps://api.bgm.tv/v0/subjects/262092 (api_snapshot): Bangumi API 标记为 TV，首播日 2020-11-18，共12集；别名为“雏蜂·SOE”，剧情讲述孙浩轩与尖兵少女琉璃，并列出孙猛导演、震雷动画等制作信息。\n\nhttps://www.themoviedb.org/tv/103928 (api_snapshot): TMDB 103928 标题为《雏蜂 伊甸之子》，首播日 2020-11-18，完结日 2021-01-27，共1季12集；别名包含 Chu Feng: Son of Eden、Chu Feng: SOE、School Shock: Son Of Eden，剧情与 Bangumi 一致，制作公司包含 Thundray、Yaoqi。\n\nhttps://www.themoviedb.org/tv/103928/season/1 (api_snapshot): TMDB 第1季实际返回12集，集名从“人生 -LIFE-”至“选择 -CHOICE-”，播出日期逐集对应 Bangumi 的第1至12集。\n\nhttps://www.themoviedb.org/tv/63631 (api_snapshot): TMDB 63631《雏蜂》是不同的2015年版本，共6集，另含4集特别篇；其别名为 School Shock、B.E.E，不是2020年的《雏蜂 伊甸之子》。",
+    "evidence": "gpt-5.6-luna: TMDB 103928 与 Bangumi subject 的中文原名、别名“雏蜂·SOE”、首播日期（2020-11-18）、剧情、媒介及制作信息一致；TMDB 第1季实际包含12集，集名和播出日期逐集对应 Bangumi 的12集，因此可映射为完整第1季。另有 TMDB 63631《雏蜂》为2015年旧版，仅6集，已排除。\n\nhttps://api.bgm.tv/v0/subjects/262092 (api_snapshot): Bangumi API 标记为 TV，首播日 2020-11-18，共12集；别名为“雏蜂·SOE”，剧情讲述孙浩轩与尖兵少女琉璃，并列出孙猛导演、震雷动画等制作信息。\n\nhttps://www.themoviedb.org/tv/103928 (api_snapshot): TMDB 103928 标题为《雏蜂 伊甸之子》，首播日 2020-11-18，完结日 2021-01-27，共1季12集；别名包含 Chu Feng: Son of Eden、Chu Feng: SOE、School Shock: Son Of Eden，剧情与 Bangumi 一致，制作公司包含 Thundray、Yaoqi。\n\nhttps://www.themoviedb.org/tv/103928/season/1 (api_snapshot): TMDB 第1季实际返回12集，集名从“人生 -LIFE-”至“选择 -CHOICE-”，播出日期逐集对应 Bangumi 的第1至12集。\n\nhttps://www.themoviedb.org/tv/63631 (api_snapshot): TMDB 63631《雏蜂》是不同的2015年版本，共6集，另含4集特别篇；其别名为 School Shock、B.E.E，不是2020年的《雏蜂 伊甸之子》。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/262092; https://api.bgm.tv/v0/subjects/262092; https://www.themoviedb.org/tv/103928; https://www.themoviedb.org/tv/103928/season/1; https://www.themoviedb.org/tv/63631",
-    "verifiedAt": "2026-09-08T21:31:13.970Z"
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 103928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

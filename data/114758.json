@@ -1,16 +1,91 @@
 {
   "anidbId": 10859,
   "bangumiId": 114758,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 512782,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 512842,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 512843,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 512844,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 512845,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 512846,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 512847,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 512848,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 512849,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 512850,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 512851,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 512852,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 512853,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 为《ニセコイ:》第二季 TV 动画，2015-04-10 开播，正篇 12 集。TMDB TV 62640 的第 2 季明确名为「ニセコイ:」、首播日期相同、共 12 集；其完整剧集标题与 Bangumi 第 1–12 集及播出日期逐一对应。因此采用 TMDB TV 62640 第 2 季完整范围。Bangumi 中的放送前特别节目不是该正篇季内容，未纳入。\n\nhttps://www.themoviedb.org/tv/62640 (api_snapshot): TMDB 将 62640 作为《ニセコイ》TV 作品，包含第 1 季 20 集与第 2 季 12 集，总计 32 集。\n\nhttps://www.themoviedb.org/tv/62640/season/2 (api_snapshot): TMDB 第 2 季名称为「ニセコイ:」，season_number=2，air_date=2015-04-10，episodeCount=12；第 1–12 集标题和日期与 Bangumi 正篇集逐一匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 为《ニセコイ:》第二季 TV 动画，2015-04-10 开播，正篇 12 集。TMDB TV 62640 的第 2 季明确名为「ニセコイ:」、首播日期相同、共 12 集；其完整剧集标题与 Bangumi 第 1–12 集及播出日期逐一对应。因此采用 TMDB TV 62640 第 2 季完整范围。Bangumi 中的放送前特别节目不是该正篇季内容，未纳入。\n\nhttps://www.themoviedb.org/tv/62640 (api_snapshot): TMDB 将 62640 作为《ニセコイ》TV 作品，包含第 1 季 20 集与第 2 季 12 集，总计 32 集。\n\nhttps://www.themoviedb.org/tv/62640/season/2 (api_snapshot): TMDB 第 2 季名称为「ニセコイ:」，season_number=2，air_date=2015-04-10，episodeCount=12；第 1–12 集标题和日期与 Bangumi 正篇集逐一匹配。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/114758; https://www.themoviedb.org/tv/62640; https://www.themoviedb.org/tv/62640/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 62640
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

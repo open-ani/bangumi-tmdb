@@ -1,16 +1,31 @@
 {
   "anidbId": 13840,
   "bangumiId": 238684,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 778567,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2018-07-27 发售、1 集的《政宗君的复仇 OAD》，AniDB 关联状态为 matched。TMDB TV 69295 的第 0 季明确名为“特別編”，日期为 2018-07-27、仅 1 集；该集标题与 Bangumi 正篇标题完全一致，简介也明确其为 TV 系列番外篇。因此应对应 TMDB 第 0 季第 1 集，而不是整季 TV 正篇。\n\nhttps://www.themoviedb.org/tv/69295 (api_snapshot): TMDB TV 69295 为《政宗くんのリベンジ》，列出第 0 季“特別編”，播出日期 2018-07-27，包含 1 集。\n\nhttps://www.themoviedb.org/tv/69295/season/0 (api_snapshot): 第 0 季第 1 集日期为 2018-07-27，标题为“うちのママにかぎって／綱手島、ふたたび。／12時を過ぎたシンデレラ”，与 Bangumi OAD 的标题和日期一致；简介称其为 TV 系列番外篇。\n\nhttps://bgm.tv/subject/238684 (page): 输入的 Bangumi 数据显示该主体为 1 集 OAD，发售日 2018-07-27，并与 AniDB ID 13840 匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体是 2018-07-27 发售、1 集的《政宗君的复仇 OAD》，AniDB 关联状态为 matched。TMDB TV 69295 的第 0 季明确名为“特別編”，日期为 2018-07-27、仅 1 集；该集标题与 Bangumi 正篇标题完全一致，简介也明确其为 TV 系列番外篇。因此应对应 TMDB 第 0 季第 1 集，而不是整季 TV 正篇。\n\nhttps://www.themoviedb.org/tv/69295 (api_snapshot): TMDB TV 69295 为《政宗くんのリベンジ》，列出第 0 季“特別編”，播出日期 2018-07-27，包含 1 集。\n\nhttps://www.themoviedb.org/tv/69295/season/0 (api_snapshot): 第 0 季第 1 集日期为 2018-07-27，标题为“うちのママにかぎって／綱手島、ふたたび。／12時を過ぎたシンデレラ”，与 Bangumi OAD 的标题和日期一致；简介称其为 TV 系列番外篇。\n\nhttps://bgm.tv/subject/238684 (page): 输入的 Bangumi 数据显示该主体为 1 集 OAD，发售日 2018-07-27，并与 AniDB ID 13840 匹配。\n\n脚本按放送日期核对生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应，1 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/238684; https://www.themoviedb.org/tv/69295; https://www.themoviedb.org/tv/69295/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 13,
+      "tmdbId": 69295
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

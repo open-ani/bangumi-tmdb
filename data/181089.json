@@ -1,16 +1,86 @@
 {
   "anidbId": 12106,
   "bangumiId": 181089,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 668372,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 668373,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 668374,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 668375,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 668376,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 668377,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 668378,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 668379,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 668380,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 668381,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 668382,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 668383,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为《雨色ココア in Hawaii》，2016-10-02 开播，共12集。TMDB TV 68482 的第3季标题、开播日期和集数完全一致，逐集日期也对应至2016-12-18；外部条目进一步确认其为第三季、TV短篇、12集。因此映射为 TMDB 68482 的完整第3季。\n\nhttps://www.themoviedb.org/tv/68482 (api_snapshot): TMDB TV 68482 包含第3季《雨色ココア in Hawaii》，season_number=3，air_date=2016-10-02，episode_count=12。\n\nhttps://www.themoviedb.org/tv/68482/season/3 (api_snapshot): 第3季完整列出第1至第12集，日期从2016-10-02至2016-12-18，与输入的 Bangumi 集数和日期逐集对应。\n\nhttps://animeschedule.net/anime/ameiro-cocoa-in-hawaii (page): 独立条目确认《Ame-iro Cocoa in Hawaii / 雨色ココア in Hawaii》为2016年秋季TV短篇，12集，首播日为2016-10-02，并标为第三季别名。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体为《雨色ココア in Hawaii》，2016-10-02 开播，共12集。TMDB TV 68482 的第3季标题、开播日期和集数完全一致，逐集日期也对应至2016-12-18；外部条目进一步确认其为第三季、TV短篇、12集。因此映射为 TMDB 68482 的完整第3季。\n\nhttps://www.themoviedb.org/tv/68482 (api_snapshot): TMDB TV 68482 包含第3季《雨色ココア in Hawaii》，season_number=3，air_date=2016-10-02，episode_count=12。\n\nhttps://www.themoviedb.org/tv/68482/season/3 (api_snapshot): 第3季完整列出第1至第12集，日期从2016-10-02至2016-12-18，与输入的 Bangumi 集数和日期逐集对应。\n\nhttps://animeschedule.net/anime/ameiro-cocoa-in-hawaii (page): 独立条目确认《Ame-iro Cocoa in Hawaii / 雨色ココア in Hawaii》为2016年秋季TV短篇，12集，首播日为2016-10-02，并标为第三季别名。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/181089; https://www.themoviedb.org/tv/68482; https://www.themoviedb.org/tv/68482/season/3; https://animeschedule.net/anime/ameiro-cocoa-in-hawaii",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-16T00:25:53.274Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 68482
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
