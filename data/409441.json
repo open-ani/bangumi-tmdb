@@ -1,16 +1,96 @@
 {
   "anidbId": 17749,
   "bangumiId": 409441,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1271005,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1271006,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1271007,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1271008,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1271009,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1271010,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1271011,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1271012,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1271013,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1271014,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1271015,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1271016,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1318001,
+      "sort": 0,
+      "type": 2
+    },
+    {
+      "id": 1318002,
+      "sort": 0,
+      "type": 3
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject是2024年1月播出的12集TV动画，输入记录的AniDB ID为17749且标题、制作信息和正篇集数相互对应。TMDB 236144的标题、日文原名、简介、制作国与原语言均匹配；其第1季明确为12集，完整剧集标题与Bangumi第1—12集逐一对应。Bangumi日期为2024-01-04、TMDB为2024-01-05，属于播出时区或平台日期差异，不影响版本判断。TMDB快照未显示需要拆分范围的其他正篇或独立主体，因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/236144 (api_snapshot): TMDB记录标题、原名、简介、日文原产地、2024年首播及number_of_episodes=12，并列出第1季为12集。\n\nhttps://www.themoviedb.org/tv/236144/season/1 (api_snapshot): TMDB第1季明确为season_number=1、episodeCount=12；第1—12集标题和剧情分别与输入Bangumi正篇集1—12对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject是2024年1月播出的12集TV动画，输入记录的AniDB ID为17749且标题、制作信息和正篇集数相互对应。TMDB 236144的标题、日文原名、简介、制作国与原语言均匹配；其第1季明确为12集，完整剧集标题与Bangumi第1—12集逐一对应。Bangumi日期为2024-01-04、TMDB为2024-01-05，属于播出时区或平台日期差异，不影响版本判断。TMDB快照未显示需要拆分范围的其他正篇或独立主体，因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/236144 (api_snapshot): TMDB记录标题、原名、简介、日文原产地、2024年首播及number_of_episodes=12，并列出第1季为12集。\n\nhttps://www.themoviedb.org/tv/236144/season/1 (api_snapshot): TMDB第1季明确为season_number=1、episodeCount=12；第1—12集标题和剧情分别与输入Bangumi正篇集1—12对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/409441; https://www.themoviedb.org/tv/236144; https://www.themoviedb.org/tv/236144/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 236144
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

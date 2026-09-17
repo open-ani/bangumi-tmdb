@@ -1,16 +1,86 @@
 {
   "anidbId": 17984,
   "bangumiId": 429305,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1382971,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1382972,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1382973,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1382974,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1382975,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1382976,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1382977,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1382978,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1382979,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1382980,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1382981,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1382982,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 429305 是 2024-10-03 开始、共 12 集的 TV 动画；其标题、播出日期、12 集结构和剧情与 TMDB TV 230189 完全对应。TMDB 明确列出第 1 季（2024-10-03，12 集），且所附完整剧集标题与日期逐集对应 Bangumi 的第 1–12 集，因此应映射为整季。输入中的 AniDB ID 17984 及别名与该作品标题匹配，未见电影、OVA、总集篇或重剪版导致拆分映射的证据。\n\nhttps://bgm.tv/subject/429305 (page): Bangumi subject 标题为《結婚するって、本当ですか》，首播 2024-10-03，共 12 集；输入资料还给出 AniDB ID 17984 及匹配别名。\n\nhttps://www.themoviedb.org/tv/230189 (api_snapshot): TMDB TV 230189 标题、原名为《結婚するって、本当ですか》，首播 2024-10-03，剧情概述与 Bangumi 作品一致，共 12 集。\n\nhttps://www.themoviedb.org/tv/230189/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1，首播 2024-10-03，共 12 集；所附第 1–12 集标题和日期逐集对应 Bangumi 剧集。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 429305 是 2024-10-03 开始、共 12 集的 TV 动画；其标题、播出日期、12 集结构和剧情与 TMDB TV 230189 完全对应。TMDB 明确列出第 1 季（2024-10-03，12 集），且所附完整剧集标题与日期逐集对应 Bangumi 的第 1–12 集，因此应映射为整季。输入中的 AniDB ID 17984 及别名与该作品标题匹配，未见电影、OVA、总集篇或重剪版导致拆分映射的证据。\n\nhttps://bgm.tv/subject/429305 (page): Bangumi subject 标题为《結婚するって、本当ですか》，首播 2024-10-03，共 12 集；输入资料还给出 AniDB ID 17984 及匹配别名。\n\nhttps://www.themoviedb.org/tv/230189 (api_snapshot): TMDB TV 230189 标题、原名为《結婚するって、本当ですか》，首播 2024-10-03，剧情概述与 Bangumi 作品一致，共 12 集。\n\nhttps://www.themoviedb.org/tv/230189/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1，首播 2024-10-03，共 12 集；所附第 1–12 集标题和日期逐集对应 Bangumi 剧集。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/429305; https://www.themoviedb.org/tv/230189; https://www.themoviedb.org/tv/230189/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 230189
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

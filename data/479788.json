@@ -1,16 +1,86 @@
 {
   "anidbId": 18484,
   "bangumiId": 479788,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1437501,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1437502,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1437503,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1437504,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1437505,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1437506,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1437507,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1437508,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1437509,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1437510,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1437511,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1437512,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是一部2025年1月播出的12集TV动画；TMDB TV 245876名称、日文原名、剧情、制作国与播出时间均对应。TMDB第1季明确包含12集，且12集标题与Bangumi主体的12个正篇标题逐一一致，因此对应完整第1季。TMDB首播日期为2025-01-04，与Bangumi记录的2025-01-03仅相差一天，符合时区或平台日期差异，不影响版本判断。TMDB另有第0季特别篇，但输入主体为12集TV正篇，不应纳入。\n\nhttps://bgm.tv/subject/479788 (page): Bangumi主体《空色ユーティリティ／一杆青空》标注为2025年1月3日开始、12集TV动画；输入的12个正篇标题与TMDB第1季标题逐一对应。\n\nhttps://www.themoviedb.org/tv/245876 (api_snapshot): TMDB TV 245876的名称为《空色ユーティリティ》，剧情简介、日文原名、制作国JP、首播日期2025-01-04及总集数12均与Bangumi主体吻合；页面快照同时显示第0季特别篇和第1季。\n\nhttps://www.themoviedb.org/tv/245876/season/1 (api_snapshot): TMDB第1季明确为season_number=1、episodeCount=12；完整剧集标题、剧情和日期与Bangumi第1至12话逐一对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体是一部2025年1月播出的12集TV动画；TMDB TV 245876名称、日文原名、剧情、制作国与播出时间均对应。TMDB第1季明确包含12集，且12集标题与Bangumi主体的12个正篇标题逐一一致，因此对应完整第1季。TMDB首播日期为2025-01-04，与Bangumi记录的2025-01-03仅相差一天，符合时区或平台日期差异，不影响版本判断。TMDB另有第0季特别篇，但输入主体为12集TV正篇，不应纳入。\n\nhttps://bgm.tv/subject/479788 (page): Bangumi主体《空色ユーティリティ／一杆青空》标注为2025年1月3日开始、12集TV动画；输入的12个正篇标题与TMDB第1季标题逐一对应。\n\nhttps://www.themoviedb.org/tv/245876 (api_snapshot): TMDB TV 245876的名称为《空色ユーティリティ》，剧情简介、日文原名、制作国JP、首播日期2025-01-04及总集数12均与Bangumi主体吻合；页面快照同时显示第0季特别篇和第1季。\n\nhttps://www.themoviedb.org/tv/245876/season/1 (api_snapshot): TMDB第1季明确为season_number=1、episodeCount=12；完整剧集标题、剧情和日期与Bangumi第1至12话逐一对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/479788; https://www.themoviedb.org/tv/245876; https://www.themoviedb.org/tv/245876/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 245876
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

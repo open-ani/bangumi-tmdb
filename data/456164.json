@@ -1,16 +1,86 @@
 {
   "anidbId": 18258,
   "bangumiId": 456164,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1342038,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1342039,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1342040,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1342041,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1342042,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1342043,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1342044,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1342045,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1342046,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1342047,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1342048,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1342049,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《食草老龙被冠以恶龙之名 第二季》，放送日期为2024-10-02，共12集，并通过 AniDB ID 18258 与候选作品关联。TMDB TV 139161 的第2季同样于2024-10-02开始，共12集；其12集标题、日期和剧情均与 Bangumi 条目逐集对应。因此应映射为该 TV 作品的完整第2季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/456164 (page): Bangumi 条目名称为《食草老龙被冠以恶龙之名 第二季》，日期为2024-10-02，共12集；关联 AniDB ID 为18258。\n\nhttps://www.themoviedb.org/tv/139161 (api_snapshot): TMDB TV 139161 的原名为《齢5000年の草食ドラゴン、いわれなき邪竜認定》，包含2022年的第1季和2024年的第2季；第2季共12集，首播日期为2024-10-02。\n\nhttps://www.themoviedb.org/tv/139161/season/2 (api_snapshot): TMDB 第2季的日期为2024-10-02，包含第1至第12集；各集标题、播出日期和剧情分别对应 Bangumi 的12集，且为同一季完整主体内容。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《食草老龙被冠以恶龙之名 第二季》，放送日期为2024-10-02，共12集，并通过 AniDB ID 18258 与候选作品关联。TMDB TV 139161 的第2季同样于2024-10-02开始，共12集；其12集标题、日期和剧情均与 Bangumi 条目逐集对应。因此应映射为该 TV 作品的完整第2季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/456164 (page): Bangumi 条目名称为《食草老龙被冠以恶龙之名 第二季》，日期为2024-10-02，共12集；关联 AniDB ID 为18258。\n\nhttps://www.themoviedb.org/tv/139161 (api_snapshot): TMDB TV 139161 的原名为《齢5000年の草食ドラゴン、いわれなき邪竜認定》，包含2022年的第1季和2024年的第2季；第2季共12集，首播日期为2024-10-02。\n\nhttps://www.themoviedb.org/tv/139161/season/2 (api_snapshot): TMDB 第2季的日期为2024-10-02，包含第1至第12集；各集标题、播出日期和剧情分别对应 Bangumi 的12集，且为同一季完整主体内容。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/456164; https://www.themoviedb.org/tv/139161; https://www.themoviedb.org/tv/139161/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 139161
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

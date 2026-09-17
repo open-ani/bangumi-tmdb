@@ -1,16 +1,86 @@
 {
   "anidbId": 17446,
   "bangumiId": 384280,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1137188,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1137189,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1137190,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1137191,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1137192,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1137193,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1137194,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1137195,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1137196,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1137197,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1137198,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1137199,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 384280 是 2023-01-19 发行、12 集的《伊藤潤二『マニアック』》TV 动画；AniDB ID 17446 及名称与该作品一致。TMDB TV 203704 的标题、首播日和总集数一致；第 1 季明确为 12 集，且全部集标题和日期逐条对应。因此映射为完整第 1 季。\n\nhttps://bgm.tv/subject/384280 (page): Bangumi subject 为《伊藤潤二『マニアック』》，日期 2023-01-19，共 12 集；输入数据记录 AniDB ID 17446 及匹配名称。\n\nhttps://www.themoviedb.org/tv/203704 (api_snapshot): TMDB TV 203704 标题为《伊藤潤二『マニアック』》，首播日 2023-01-19，总集数 12。\n\nhttps://www.themoviedb.org/tv/203704/season/1 (api_snapshot): TMDB 第 1 季为 2023-01-19、12 集；第 1–12 集标题和日期与 Bangumi 输入逐条对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 384280 是 2023-01-19 发行、12 集的《伊藤潤二『マニアック』》TV 动画；AniDB ID 17446 及名称与该作品一致。TMDB TV 203704 的标题、首播日和总集数一致；第 1 季明确为 12 集，且全部集标题和日期逐条对应。因此映射为完整第 1 季。\n\nhttps://bgm.tv/subject/384280 (page): Bangumi subject 为《伊藤潤二『マニアック』》，日期 2023-01-19，共 12 集；输入数据记录 AniDB ID 17446 及匹配名称。\n\nhttps://www.themoviedb.org/tv/203704 (api_snapshot): TMDB TV 203704 标题为《伊藤潤二『マニアック』》，首播日 2023-01-19，总集数 12。\n\nhttps://www.themoviedb.org/tv/203704/season/1 (api_snapshot): TMDB 第 1 季为 2023-01-19、12 集；第 1–12 集标题和日期与 Bangumi 输入逐条对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/384280; https://www.themoviedb.org/tv/203704; https://www.themoviedb.org/tv/203704/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 203704
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

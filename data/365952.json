@@ -1,16 +1,91 @@
 {
   "anidbId": 17146,
   "bangumiId": 365952,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1309685,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1309686,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1309687,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1309688,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1309689,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1309690,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1309691,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1309692,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1309693,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1309694,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1309695,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1309696,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1322901,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2024-04-01 开播、共 13 集的 TV 动画；TMDB TV 156057 标题、原名、首播日期和剧情简介均对应。TMDB 第 1 季明确为 13 集，完整剧集列表的标题与播出日期逐集对应 Bangumi 的第 1—13 集，因此应映射为整季，不需要截取范围。\n\nhttps://bgm.tv/subject/365952 (page): Bangumi 条目为《神は遊戯に飢えている。》，类型为 TV，2024-04-01 开播，共 13 集；输入数据中的 AniDB 关联为 17146。\n\nhttps://www.themoviedb.org/tv/156057 (api_snapshot): TMDB TV 156057 标题为《神は遊戯に飢えている。》，首播日期为 2024-04-01，剧情简介与人物及“神々の遊び”主线一致，并标明共 13 集。\n\nhttps://www.themoviedb.org/tv/156057/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1、13 集，播出日期为 2024-04-01 至 2024-06-24；第 1—13 集标题和日期与 Bangumi 提供的剧集列表逐集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2024-04-01 开播、共 13 集的 TV 动画；TMDB TV 156057 标题、原名、首播日期和剧情简介均对应。TMDB 第 1 季明确为 13 集，完整剧集列表的标题与播出日期逐集对应 Bangumi 的第 1—13 集，因此应映射为整季，不需要截取范围。\n\nhttps://bgm.tv/subject/365952 (page): Bangumi 条目为《神は遊戯に飢えている。》，类型为 TV，2024-04-01 开播，共 13 集；输入数据中的 AniDB 关联为 17146。\n\nhttps://www.themoviedb.org/tv/156057 (api_snapshot): TMDB TV 156057 标题为《神は遊戯に飢えている。》，首播日期为 2024-04-01，剧情简介与人物及“神々の遊び”主线一致，并标明共 13 集。\n\nhttps://www.themoviedb.org/tv/156057/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1、13 集，播出日期为 2024-04-01 至 2024-06-24；第 1—13 集标题和日期与 Bangumi 提供的剧集列表逐集对应。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/365952; https://www.themoviedb.org/tv/156057; https://www.themoviedb.org/tv/156057/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156057
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

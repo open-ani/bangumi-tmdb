@@ -1,16 +1,86 @@
 {
   "anidbId": 18898,
   "bangumiId": 516543,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1655936,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1655937,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1655938,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1655939,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1655940,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1655941,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1655942,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1655943,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1655944,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1655945,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1655946,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1655947,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目标题、原文标题、首播日期（2026-04-09）、日本来源及 12 集总数均与 Bangumi 数据一致；TMDB 第 1 季的 12 个剧集标题和播出日期逐集对应 Bangumi 的正篇列表。因此应对应 TMDB TV 273467 的完整第 1 季，不涉及电影、OVA、总集篇或重剪版。AniDB ID 18898 仅作为候选线索，最终判断由 TMDB 与 Bangumi 的逐集核对支持。\n\nhttps://www.themoviedb.org/tv/273467 (api_snapshot): TMDB 条目为《姫騎士は蛮族の嫁》，原文标题相同，首播日期为 2026-04-09，来源国家为日本，共 12 集。\n\nhttps://www.themoviedb.org/tv/273467/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1、共 12 集；12 个剧集标题与 Bangumi 提供的正篇标题及播出日期逐一对应。",
+    "evidence": "gpt-5.6-luna: TMDB 条目标题、原文标题、首播日期（2026-04-09）、日本来源及 12 集总数均与 Bangumi 数据一致；TMDB 第 1 季的 12 个剧集标题和播出日期逐集对应 Bangumi 的正篇列表。因此应对应 TMDB TV 273467 的完整第 1 季，不涉及电影、OVA、总集篇或重剪版。AniDB ID 18898 仅作为候选线索，最终判断由 TMDB 与 Bangumi 的逐集核对支持。\n\nhttps://www.themoviedb.org/tv/273467 (api_snapshot): TMDB 条目为《姫騎士は蛮族の嫁》，原文标题相同，首播日期为 2026-04-09，来源国家为日本，共 12 集。\n\nhttps://www.themoviedb.org/tv/273467/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1、共 12 集；12 个剧集标题与 Bangumi 提供的正篇标题及播出日期逐一对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/516543; https://www.themoviedb.org/tv/273467; https://www.themoviedb.org/tv/273467/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 273467
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

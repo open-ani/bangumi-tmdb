@@ -1,16 +1,86 @@
 {
   "anidbId": 18561,
   "bangumiId": 486345,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1366226,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1366227,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1366228,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1366229,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1366230,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1366231,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1366232,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1366233,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1366234,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1366235,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1366236,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1366237,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体为 TV《青の祓魔師 雪ノ果篇》，2024-10-05 开播、共 12 集，并列出完整 12 集。TMDB TV 38464 的第 4 季明确命名为「雪ノ果篇」、共 12 集；其集名、剧情、制作与 Bangumi 逐一对应。TMDB 日期比日本播出日期晚一天，属于记录日期差异，不影响版本判断。应映射为完整第 4 季。\n\nhttps://bgm.tv/subject/486345 (page): Bangumi 确认标题、TV 类型、12 集、2024-10-05 开播；页面列出 01–12 集，且别名包含 Ao no Exorcist: Yuki no Hate-hen、Blue Exorcist: Beyond the Snow Saga。\n\nhttps://ao-ex.com/snow/story/ (page): 官方剧情页确认《雪ノ果篇》从第 1 话至第 12 话「決別」，剧情涉及青森永久蛇湖、シュラ、青い夜与雪男等内容。\n\nhttps://www.themoviedb.org/tv/38464 (api_snapshot): TMDB TV 38464 的第 4 季名称为「雪ノ果篇」，首播日期为 2024-10-06，共 12 集。\n\nhttps://www.themoviedb.org/tv/38464/season/4 (api_snapshot): TMDB 第 4 季完整列出 12 集，集名从「野望」「苦悩」「故郷」至「決別」，与 Bangumi 12 集逐一对应，剧情概要也一致。\n\n备注：AniDB 18561 的独立页面本次请求失败；但输入中的 Bangumi→AniDB 匹配字段、Bangumi 标题与完整剧集信息，以及官方和 TMDB 季/集证据均一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体为 TV《青の祓魔師 雪ノ果篇》，2024-10-05 开播、共 12 集，并列出完整 12 集。TMDB TV 38464 的第 4 季明确命名为「雪ノ果篇」、共 12 集；其集名、剧情、制作与 Bangumi 逐一对应。TMDB 日期比日本播出日期晚一天，属于记录日期差异，不影响版本判断。应映射为完整第 4 季。\n\nhttps://bgm.tv/subject/486345 (page): Bangumi 确认标题、TV 类型、12 集、2024-10-05 开播；页面列出 01–12 集，且别名包含 Ao no Exorcist: Yuki no Hate-hen、Blue Exorcist: Beyond the Snow Saga。\n\nhttps://ao-ex.com/snow/story/ (page): 官方剧情页确认《雪ノ果篇》从第 1 话至第 12 话「決別」，剧情涉及青森永久蛇湖、シュラ、青い夜与雪男等内容。\n\nhttps://www.themoviedb.org/tv/38464 (api_snapshot): TMDB TV 38464 的第 4 季名称为「雪ノ果篇」，首播日期为 2024-10-06，共 12 集。\n\nhttps://www.themoviedb.org/tv/38464/season/4 (api_snapshot): TMDB 第 4 季完整列出 12 集，集名从「野望」「苦悩」「故郷」至「決別」，与 Bangumi 12 集逐一对应，剧情概要也一致。\n\n备注：AniDB 18561 的独立页面本次请求失败；但输入中的 Bangumi→AniDB 匹配字段、Bangumi 标题与完整剧集信息，以及官方和 TMDB 季/集证据均一致。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/486345; https://ao-ex.com/snow/story/; https://www.themoviedb.org/tv/38464; https://www.themoviedb.org/tv/38464/season/4",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 38464
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

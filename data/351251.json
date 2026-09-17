@@ -1,16 +1,86 @@
 {
   "anidbId": 16825,
   "bangumiId": 351251,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1072919,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1072920,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1072921,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1072922,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1072923,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1072924,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1072925,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1072926,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1072927,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1072928,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1072929,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1072930,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 135292 与 Bangumi subject 的《トライブナイン／TRIBE NINE／第九部落》版本一致：首播日期均为 2022-01-10，TMDB 标明全剧 12 集；第 1 季明确为 12 集，且所附 1–12 集标题与 Bangumi 的 12 个正篇标题、播出日期逐集对应。主体是完整 TV 季，无需拆分集数范围。\n\nhttps://www.bgm.tv/subject/351251 (page): Bangumi subject 标题为《トライブナイン／第九部落》，放送开始 2022-01-10，共 12 话，并列出青木悠、横手美智子、莱顿电影等制作信息。\n\nhttps://www.themoviedb.org/tv/135292 (api_snapshot): TMDB TV 135292 名为 TRIBE NINE，原名为 TRIBE NINE，首播日期 2022-01-10，简介中的角色、XB 世界观和作品主体与该 subject 相符；全剧标为 12 集。\n\nhttps://www.themoviedb.org/tv/135292/season/1 (api_snapshot): TMDB 第 1 季 season_number=1、air_date=2022-01-10、episodeCount=12；所附第 1–12 集标题及日期逐项对应 Bangumi 正篇，覆盖 2022-01-10 至 2022-03-28。",
+    "evidence": "gpt-5.6-luna: TMDB TV 135292 与 Bangumi subject 的《トライブナイン／TRIBE NINE／第九部落》版本一致：首播日期均为 2022-01-10，TMDB 标明全剧 12 集；第 1 季明确为 12 集，且所附 1–12 集标题与 Bangumi 的 12 个正篇标题、播出日期逐集对应。主体是完整 TV 季，无需拆分集数范围。\n\nhttps://www.bgm.tv/subject/351251 (page): Bangumi subject 标题为《トライブナイン／第九部落》，放送开始 2022-01-10，共 12 话，并列出青木悠、横手美智子、莱顿电影等制作信息。\n\nhttps://www.themoviedb.org/tv/135292 (api_snapshot): TMDB TV 135292 名为 TRIBE NINE，原名为 TRIBE NINE，首播日期 2022-01-10，简介中的角色、XB 世界观和作品主体与该 subject 相符；全剧标为 12 集。\n\nhttps://www.themoviedb.org/tv/135292/season/1 (api_snapshot): TMDB 第 1 季 season_number=1、air_date=2022-01-10、episodeCount=12；所附第 1–12 集标题及日期逐项对应 Bangumi 正篇，覆盖 2022-01-10 至 2022-03-28。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/351251; https://www.bgm.tv/subject/351251; https://www.themoviedb.org/tv/135292; https://www.themoviedb.org/tv/135292/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 135292
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

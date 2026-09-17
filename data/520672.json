@@ -1,16 +1,86 @@
 {
   "anidbId": 18940,
   "bangumiId": 520672,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1470677,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1470678,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1470679,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1470680,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1470681,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1470682,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1470683,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1470684,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1470685,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1470686,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1470687,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1470688,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi、官方动画网站和 TMDB 均指向同一部 2025 年日本 TV 动画。标题、剧情、制作信息、放送日期及12个逐话标题一致；TMDB 第1季明确包含完整12集，因此纳入整季。未发现电影、OVA、总集篇或重剪版，也没有证据表明该季包含其他 Bangumi subject 的正篇。TMDB 首播日期为2025-04-10，与日本放送日2025-04-09属于日期显示差异。\n\nhttps://bgm.tv/subject/520672 (page): Bangumi 页面标注该作品为 TV、共12话、2025年4月9日开播，并列出与 TMDB 对应的逐话标题、剧情和制作人员。\n\nhttps://kanpekiseijo-anime.com/ (page): 官方动画网站标注2025年4月9日开播，介绍与 Bangumi/TMDB 相同的剧情，并列出第1至第12话。\n\nhttps://www.themoviedb.org/tv/274741 (api_snapshot): TMDB API 快照显示日文原题一致、剧情一致、共12集且只有第1季。\n\nhttps://www.themoviedb.org/tv/274741/season/1 (api_snapshot): TMDB API 快照显示第1季共12集；第1至第12集标题和剧情顺序与 Bangumi及官方页面逐项对应。\n\nhttps://bgm.tv/subject/520672 (search_snippet): 搜索摘要确认该 Bangumi 条目是对应标题的 TV 动画条目。\n\n备注：直接访问 AniDB 18940 页面失败，因此 AniDB 关联本身未能通过 AniDB 页面独立复核；但 Bangumi 提供的 AniDB ID/匹配状态，以及标题、剧情、年份、制作和逐话内容均与 TMDB 274741 完整吻合。",
+    "evidence": "gpt-5.6-luna: Bangumi、官方动画网站和 TMDB 均指向同一部 2025 年日本 TV 动画。标题、剧情、制作信息、放送日期及12个逐话标题一致；TMDB 第1季明确包含完整12集，因此纳入整季。未发现电影、OVA、总集篇或重剪版，也没有证据表明该季包含其他 Bangumi subject 的正篇。TMDB 首播日期为2025-04-10，与日本放送日2025-04-09属于日期显示差异。\n\nhttps://bgm.tv/subject/520672 (page): Bangumi 页面标注该作品为 TV、共12话、2025年4月9日开播，并列出与 TMDB 对应的逐话标题、剧情和制作人员。\n\nhttps://kanpekiseijo-anime.com/ (page): 官方动画网站标注2025年4月9日开播，介绍与 Bangumi/TMDB 相同的剧情，并列出第1至第12话。\n\nhttps://www.themoviedb.org/tv/274741 (api_snapshot): TMDB API 快照显示日文原题一致、剧情一致、共12集且只有第1季。\n\nhttps://www.themoviedb.org/tv/274741/season/1 (api_snapshot): TMDB API 快照显示第1季共12集；第1至第12集标题和剧情顺序与 Bangumi及官方页面逐项对应。\n\nhttps://bgm.tv/subject/520672 (search_snippet): 搜索摘要确认该 Bangumi 条目是对应标题的 TV 动画条目。\n\n备注：直接访问 AniDB 18940 页面失败，因此 AniDB 关联本身未能通过 AniDB 页面独立复核；但 Bangumi 提供的 AniDB ID/匹配状态，以及标题、剧情、年份、制作和逐话内容均与 TMDB 274741 完整吻合。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/520672; https://kanpekiseijo-anime.com/; https://www.themoviedb.org/tv/274741; https://www.themoviedb.org/tv/274741/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 274741
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

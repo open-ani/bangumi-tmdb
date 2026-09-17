@@ -1,16 +1,86 @@
 {
   "anidbId": 18719,
   "bangumiId": 501702,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1457809,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1457810,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1457811,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1457812,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1457813,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1457814,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1457815,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1457816,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1457817,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1457818,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1457819,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1457820,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 的标题、别名和 2025-04-01 开播信息与 AniDB ID 18719 的标题“ある魔女が死ぬまで / Aru Majo ga Shinu Made”一致；TMDB TV 258055 同名、同日首播，简介对应同一主线。TMDB 第 1 季明确为 12 集，完整剧集标题和日期逐集对应 Bangumi 提供的 12 集（2025-04-01 至 2025-06-17），因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/501702 (page): Bangumi subject 为《ある魔女が死ぬまで》，日期为 2025-04-01，共 12 集；输入数据同时给出 AniDB ID 18719 且标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/258055 (api_snapshot): TMDB TV 258055 名称为“ある魔女が死ぬまで”，首播日为 2025-04-01，简介与见习魔女梅格因余命诅咒收集喜悦之泪的主线一致，并标明第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/258055/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、episodeCount=12；第 1 至第 12 集标题和日期分别对应 Bangumi 的 12 个正篇集数，日期从 2025-04-01 连续至 2025-06-17。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 的标题、别名和 2025-04-01 开播信息与 AniDB ID 18719 的标题“ある魔女が死ぬまで / Aru Majo ga Shinu Made”一致；TMDB TV 258055 同名、同日首播，简介对应同一主线。TMDB 第 1 季明确为 12 集，完整剧集标题和日期逐集对应 Bangumi 提供的 12 集（2025-04-01 至 2025-06-17），因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/501702 (page): Bangumi subject 为《ある魔女が死ぬまで》，日期为 2025-04-01，共 12 集；输入数据同时给出 AniDB ID 18719 且标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/258055 (api_snapshot): TMDB TV 258055 名称为“ある魔女が死ぬまで”，首播日为 2025-04-01，简介与见习魔女梅格因余命诅咒收集喜悦之泪的主线一致，并标明第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/258055/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、episodeCount=12；第 1 至第 12 集标题和日期分别对应 Bangumi 的 12 个正篇集数，日期从 2025-04-01 连续至 2025-06-17。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/501702; https://www.themoviedb.org/tv/258055; https://www.themoviedb.org/tv/258055/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 258055
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

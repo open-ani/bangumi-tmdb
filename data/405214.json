@@ -1,16 +1,86 @@
 {
   "anidbId": 18217,
   "bangumiId": 405214,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1274147,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1274148,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1274149,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1274150,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1274151,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1274152,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1274153,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1274154,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1274155,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1274156,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1274157,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1274158,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《仙王的日常生活》第四季，AniDB 关联名称与第四季匹配。TMDB TV 98123 的原名为《仙王的日常生活》，简介、制作来源和中文作品主体一致；其第4季首播日为 2023-12-17，共12集，逐集播出日期与 Bangumi 的12个正篇集完全对应。因此应映射为该 TV 的第4季完整范围。\n\nhttps://www.themoviedb.org/tv/98123 (api_snapshot): TMDB 记录该作品原名为《仙王的日常生活》，简介描述枯玄原作及王令主线，且第4季首播于2023-12-17、共12集。\n\nhttps://www.themoviedb.org/tv/98123/season/4 (api_snapshot): TMDB第4季为2023-12-17开播，共12集；第1、2集同日播出，之后每周播出至2024-02-25，与Bangumi主体12集的日期逐集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确为《仙王的日常生活》第四季，AniDB 关联名称与第四季匹配。TMDB TV 98123 的原名为《仙王的日常生活》，简介、制作来源和中文作品主体一致；其第4季首播日为 2023-12-17，共12集，逐集播出日期与 Bangumi 的12个正篇集完全对应。因此应映射为该 TV 的第4季完整范围。\n\nhttps://www.themoviedb.org/tv/98123 (api_snapshot): TMDB 记录该作品原名为《仙王的日常生活》，简介描述枯玄原作及王令主线，且第4季首播于2023-12-17、共12集。\n\nhttps://www.themoviedb.org/tv/98123/season/4 (api_snapshot): TMDB第4季为2023-12-17开播，共12集；第1、2集同日播出，之后每周播出至2024-02-25，与Bangumi主体12集的日期逐集对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/405214; https://www.themoviedb.org/tv/98123; https://www.themoviedb.org/tv/98123/season/4",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 98123
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

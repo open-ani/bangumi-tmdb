@@ -1,16 +1,36 @@
 {
   "anidbId": 18807,
   "bangumiId": 454033,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1248327,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1377868,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为《风灵玉秀 第二章 特别篇》，记录为 2 集，分别于 2024-08-07 和 2024-08-14 播出，并与《风灵玉秀 第二章》存在特别篇关联。TMDB 105075 的第 0 季明确命名为“特別編”，开播日期为 2024-08-07，共 2 集；两集日期与 Bangumi 完全对应。因此应映射为该 TV 的完整第 0 季。\n\nhttps://bgm.tv/subject/454033 (page): Bangumi 主体名称为《风灵玉秀 第二章 特别篇》，共 2 集，集数日期为 2024-08-07、2024-08-14；关联主体为《风灵玉秀 第二章》，AniDB ID 为 18807。\n\nhttps://www.themoviedb.org/tv/105075 (api_snapshot): TMDB TV 105075《風霊玉秀》包含第 0 季“特別編”，开播日期 2024-08-07，共 2 集。\n\nhttps://www.themoviedb.org/tv/105075/season/0 (api_snapshot): TMDB 第 0 季包含 2 集，播出日期分别为 2024-08-07 和 2024-08-14，与 Bangumi 两集日期一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体为《风灵玉秀 第二章 特别篇》，记录为 2 集，分别于 2024-08-07 和 2024-08-14 播出，并与《风灵玉秀 第二章》存在特别篇关联。TMDB 105075 的第 0 季明确命名为“特別編”，开播日期为 2024-08-07，共 2 集；两集日期与 Bangumi 完全对应。因此应映射为该 TV 的完整第 0 季。\n\nhttps://bgm.tv/subject/454033 (page): Bangumi 主体名称为《风灵玉秀 第二章 特别篇》，共 2 集，集数日期为 2024-08-07、2024-08-14；关联主体为《风灵玉秀 第二章》，AniDB ID 为 18807。\n\nhttps://www.themoviedb.org/tv/105075 (api_snapshot): TMDB TV 105075《風霊玉秀》包含第 0 季“特別編”，开播日期 2024-08-07，共 2 集。\n\nhttps://www.themoviedb.org/tv/105075/season/0 (api_snapshot): TMDB 第 0 季包含 2 集，播出日期分别为 2024-08-07 和 2024-08-14，与 Bangumi 两集日期一致。\n\n脚本按放送日期核对生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应，2 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/454033; https://www.themoviedb.org/tv/105075; https://www.themoviedb.org/tv/105075/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 105075
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

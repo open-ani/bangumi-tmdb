@@ -1,16 +1,56 @@
 {
   "anidbId": 16383,
   "bangumiId": 442559,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1318601,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1318602,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1318603,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1318604,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1318605,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1318606,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 作品在日文名「グリム組曲」、2024-04-17 首播日期、Netflix 网播、6 集规模、黑暗改编格林童话的剧情定位及 WIT STUDIO 制作信息上完全吻合。TMDB 第 1 季明确有 6 集，标题依次对应 Bangumi 的《灰姑娘》《小红帽》《亨舍尔和格莱特》《小精灵与鞋匠》《不来梅的城市乐手》《花衣魔笛手》，因此应对应完整第 1 季，无需缩小集数范围。\n\nhttps://bgm.tv/subject/442559 (page): Bangumi 条目标为「グリム組曲」，中文名为《格林童话变奏曲》，话数 6，放送开始 2024-04-17；剧情简介说明其为格林童话的黑暗新解，动画制作是 WIT STUDIO，平台为 Netflix。\n\nhttps://www.themoviedb.org/tv/249812 (api_snapshot): TMDB API 快照显示作品名「グリム組曲」、首播日期 2024-04-17、6 集、日语及日本制作，简介为由格林童话改编的 6 个黑暗故事。\n\nhttps://www.themoviedb.org/tv/249812/season/1 (api_snapshot): TMDB API 快照明确显示第 1 季于 2024-04-17 播出，共 6 集；集标题和 Bangumi 六个章节逐一对应，集号为 1 至 6。\n\nhttps://www.netflix.com/title/81050090?fromWatch=true&src=tudum&trkId=260364153 (search_snippet): Netflix 官方页面摘要显示《The Grimm Variations》为 2024 年动画，共 6 集，剧情为对经典格林童话进行黑暗改编；列出的前几集标题与 TMDB 季快照一致。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 作品在日文名「グリム組曲」、2024-04-17 首播日期、Netflix 网播、6 集规模、黑暗改编格林童话的剧情定位及 WIT STUDIO 制作信息上完全吻合。TMDB 第 1 季明确有 6 集，标题依次对应 Bangumi 的《灰姑娘》《小红帽》《亨舍尔和格莱特》《小精灵与鞋匠》《不来梅的城市乐手》《花衣魔笛手》，因此应对应完整第 1 季，无需缩小集数范围。\n\nhttps://bgm.tv/subject/442559 (page): Bangumi 条目标为「グリム組曲」，中文名为《格林童话变奏曲》，话数 6，放送开始 2024-04-17；剧情简介说明其为格林童话的黑暗新解，动画制作是 WIT STUDIO，平台为 Netflix。\n\nhttps://www.themoviedb.org/tv/249812 (api_snapshot): TMDB API 快照显示作品名「グリム組曲」、首播日期 2024-04-17、6 集、日语及日本制作，简介为由格林童话改编的 6 个黑暗故事。\n\nhttps://www.themoviedb.org/tv/249812/season/1 (api_snapshot): TMDB API 快照明确显示第 1 季于 2024-04-17 播出，共 6 集；集标题和 Bangumi 六个章节逐一对应，集号为 1 至 6。\n\nhttps://www.netflix.com/title/81050090?fromWatch=true&src=tudum&trkId=260364153 (search_snippet): Netflix 官方页面摘要显示《The Grimm Variations》为 2024 年动画，共 6 集，剧情为对经典格林童话进行黑暗改编；列出的前几集标题与 TMDB 季快照一致。\n\n脚本按放送日期核对生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应，6 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/442559; https://www.themoviedb.org/tv/249812; https://www.themoviedb.org/tv/249812/season/1; https://www.netflix.com/title/81050090?fromWatch=true&src=tudum&trkId=260364153",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 249812
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

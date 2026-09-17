@@ -1,16 +1,86 @@
 {
   "anidbId": 17711,
   "bangumiId": 407659,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1183623,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1183624,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1183625,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1183626,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1183627,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1183628,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1183629,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1183630,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1183631,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1183632,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1183633,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1183634,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2023 年原创 TV 动画，共 12 集；其标题、剧情简介、制作信息及第 1—12 集标题均与 TMDB 214211 一致。Anime-Lists 的 AniDB 17711 条目也直接关联 TMDB 214211 第 1 季。TMDB 第 1 季完整列出 12 集，故对应整季。Bangumi 日期比 TMDB API 日期整体早一天，属于播出时区/时段差异，不影响版本匹配。\n\nhttps://bgm.tv/subject/407659 (page): Bangumi 条目标为 TV、2023 年 4 月 11 日开始、共 12 集，并列出第 1—12 集及制作人员、原创标签和 Studio 3Hz。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 中 anidbid=\"17711\" 的名称为 The Marginal Service，关联 tmdbtv=\"214211\"、tmdbseason=\"1\"；此为交叉关联线索，并由剧集内容进一步核对。\n\nhttps://www.themoviedb.org/tv/214211 (api_snapshot): TMDB API 快照显示作品名 THE MARGINAL SERVICE、日语原创国家、2023 年首播、12 集，并与 Bangumi 剧情和作品类型一致。\n\nhttps://www.themoviedb.org/tv/214211/season/1 (api_snapshot): TMDB 第 1 季 API 快照明确为 season_number=1、episodeCount=12；1—12 集标题、概要和日期均与 Bangumi 对应章节匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2023 年原创 TV 动画，共 12 集；其标题、剧情简介、制作信息及第 1—12 集标题均与 TMDB 214211 一致。Anime-Lists 的 AniDB 17711 条目也直接关联 TMDB 214211 第 1 季。TMDB 第 1 季完整列出 12 集，故对应整季。Bangumi 日期比 TMDB API 日期整体早一天，属于播出时区/时段差异，不影响版本匹配。\n\nhttps://bgm.tv/subject/407659 (page): Bangumi 条目标为 TV、2023 年 4 月 11 日开始、共 12 集，并列出第 1—12 集及制作人员、原创标签和 Studio 3Hz。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 中 anidbid=\"17711\" 的名称为 The Marginal Service，关联 tmdbtv=\"214211\"、tmdbseason=\"1\"；此为交叉关联线索，并由剧集内容进一步核对。\n\nhttps://www.themoviedb.org/tv/214211 (api_snapshot): TMDB API 快照显示作品名 THE MARGINAL SERVICE、日语原创国家、2023 年首播、12 集，并与 Bangumi 剧情和作品类型一致。\n\nhttps://www.themoviedb.org/tv/214211/season/1 (api_snapshot): TMDB 第 1 季 API 快照明确为 season_number=1、episodeCount=12；1—12 集标题、概要和日期均与 Bangumi 对应章节匹配。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/407659; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/214211; https://www.themoviedb.org/tv/214211/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 214211
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

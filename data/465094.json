@@ -1,16 +1,86 @@
 {
   "anidbId": 18599,
   "bangumiId": 465094,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1420379,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1420380,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1420381,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1420382,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1420383,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1420384,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1420385,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1420386,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1420387,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1420388,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1420389,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1420390,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2025-01-06 开播、共 12 集的 TV 动画《魔法使的约定》。AniDB ID 18599 的标题、别名、TV 类型和 12 集信息与该主体匹配。TMDB TV 258578 的原名、首播日期、剧情、制作国家及完整 12 集 Season 1 均对应；TMDB 第 1 季的 1–12 集标题和播出日期与 Bangumi 章节逐条一致，因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/465094 (page): Bangumi 条目标为 TV、12 集，2025-01-06 开播；标题、原作 coly、导演、LIDENFILMS 等信息与候选作品一致，并列出第 1–12 集。\n\nhttps://anidb.net/anime/18599 (page): AniDB 18599 的主标题为 Mahou Tsukai no Yakusoku，官方日文名为 魔法使いの約束，类型为 TV Series、12 episodes，并列出 Promise of Wizard 等别名。\n\nhttps://sh-anime.shochiku.co.jp/mahoyaku-anime/ (page): 动画官方网站确认 TV 动画于 2025-01-06 在 TOKYO MX 开播。\n\nhttps://www.themoviedb.org/tv/258578 (api_snapshot): TMDB API 快照显示原名为 魔法使いの約束、首播日期为 2025-01-06、日本作品、共 12 集，简介与 Bangumi/AniDB 主体剧情一致。\n\nhttps://www.themoviedb.org/tv/258578/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、air_date=2025-01-06、episodeCount=12；第 1–12 集标题和日期与 Bangumi 章节完全对应，最后一集日期为 2025-03-24。\n\n备注：AniDB 页面显示起始日期为 2024-12-10，而 Bangumi、官方页面和 TMDB 的正式播出日期均为 2025-01-06；这属于日期元数据差异，不影响标题、类型、集数和逐集对应关系。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2025-01-06 开播、共 12 集的 TV 动画《魔法使的约定》。AniDB ID 18599 的标题、别名、TV 类型和 12 集信息与该主体匹配。TMDB TV 258578 的原名、首播日期、剧情、制作国家及完整 12 集 Season 1 均对应；TMDB 第 1 季的 1–12 集标题和播出日期与 Bangumi 章节逐条一致，因此应映射为完整第 1 季。\n\nhttps://bgm.tv/subject/465094 (page): Bangumi 条目标为 TV、12 集，2025-01-06 开播；标题、原作 coly、导演、LIDENFILMS 等信息与候选作品一致，并列出第 1–12 集。\n\nhttps://anidb.net/anime/18599 (page): AniDB 18599 的主标题为 Mahou Tsukai no Yakusoku，官方日文名为 魔法使いの約束，类型为 TV Series、12 episodes，并列出 Promise of Wizard 等别名。\n\nhttps://sh-anime.shochiku.co.jp/mahoyaku-anime/ (page): 动画官方网站确认 TV 动画于 2025-01-06 在 TOKYO MX 开播。\n\nhttps://www.themoviedb.org/tv/258578 (api_snapshot): TMDB API 快照显示原名为 魔法使いの約束、首播日期为 2025-01-06、日本作品、共 12 集，简介与 Bangumi/AniDB 主体剧情一致。\n\nhttps://www.themoviedb.org/tv/258578/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、air_date=2025-01-06、episodeCount=12；第 1–12 集标题和日期与 Bangumi 章节完全对应，最后一集日期为 2025-03-24。\n\n备注：AniDB 页面显示起始日期为 2024-12-10，而 Bangumi、官方页面和 TMDB 的正式播出日期均为 2025-01-06；这属于日期元数据差异，不影响标题、类型、集数和逐集对应关系。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/465094; https://anidb.net/anime/18599; https://sh-anime.shochiku.co.jp/mahoyaku-anime/; https://www.themoviedb.org/tv/258578; https://www.themoviedb.org/tv/258578/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 258578
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

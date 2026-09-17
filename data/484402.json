@@ -1,16 +1,86 @@
 {
   "anidbId": 18528,
   "bangumiId": 484402,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1460135,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1460136,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1460137,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1460138,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1460139,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1460140,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1460141,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1460142,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1460143,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1460144,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1460145,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1460146,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2025-04-03 开播、12 集的 TV 动画，AniDB 关联已标记为 matched。TMDB TV 276253 具有相同标题、首播日期和剧情概要；第 1 季明确为 12 集，且第 1–12 集标题与日期逐一对应 Bangumi 正篇集。因此确认映射为完整第 1 季。\n\nhttps://bgm.tv/subject/484402 (page): Bangumi 条目为 2025-04-03 开播的 TV 动画，共 12 集；关联数据给出的 AniDB ID 18528 状态为 matched。\n\nhttps://www.themoviedb.org/tv/276253 (api_snapshot): TMDB TV 276253 标题、首播日期和剧情概要与 Bangumi 条目一致，并显示第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/276253/season/1 (api_snapshot): TMDB 第 1 季为 12 集，完整列出第 1–12 集，标题与播出日期逐一对应 Bangumi 的 12 个正篇集。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目是 2025-04-03 开播、12 集的 TV 动画，AniDB 关联已标记为 matched。TMDB TV 276253 具有相同标题、首播日期和剧情概要；第 1 季明确为 12 集，且第 1–12 集标题与日期逐一对应 Bangumi 正篇集。因此确认映射为完整第 1 季。\n\nhttps://bgm.tv/subject/484402 (page): Bangumi 条目为 2025-04-03 开播的 TV 动画，共 12 集；关联数据给出的 AniDB ID 18528 状态为 matched。\n\nhttps://www.themoviedb.org/tv/276253 (api_snapshot): TMDB TV 276253 标题、首播日期和剧情概要与 Bangumi 条目一致，并显示第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/276253/season/1 (api_snapshot): TMDB 第 1 季为 12 集，完整列出第 1–12 集，标题与播出日期逐一对应 Bangumi 的 12 个正篇集。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/484402; https://www.themoviedb.org/tv/276253; https://www.themoviedb.org/tv/276253/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 276253
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

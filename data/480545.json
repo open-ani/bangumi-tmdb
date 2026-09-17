@@ -1,16 +1,86 @@
 {
   "anidbId": 18496,
   "bangumiId": 480545,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1471135,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1471136,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1471137,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1471138,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1471139,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1471140,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1471141,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1471142,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1471143,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1471144,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1471145,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1471146,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2025-04-08 开播、共 12 集的 TV 动画；其标题、剧情、制作信息与 TMDB TV 261091 一致。TMDB 第 1 季明确为 12 集，逐集标题和日期均与 Bangumi 章节对应，因此应映射为第 1 季完整范围。\n\nhttps://bgm.tv/subject/480545 (page): Bangumi 条目标记为 TV，话数 12，放送开始为 2025-04-08，结束为 2025-06-24，并列出动画工房等制作信息。\n\nhttps://www.wikidata.org/wiki/Q124537398 (search_snippet): 公开检索摘要同时关联 AniDB anime ID 18496、Bangumi subject ID 480545 与 TMDB TV series ID 261091，标题和 12 集、1 季信息一致。\n\nhttps://www.themoviedb.org/tv/261091 (api_snapshot): TMDB API 快照显示《紫雲寺家の子供たち》首播 2025-04-08，共 12 集，剧情和日文原名与 Bangumi 对应。\n\nhttps://www.themoviedb.org/tv/261091/season/1 (api_snapshot): TMDB API 快照明确 season_number=1、episodeCount=12，且第 1 至第 12 集标题和播出日期逐一对应输入的 Bangumi 章节。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2025-04-08 开播、共 12 集的 TV 动画；其标题、剧情、制作信息与 TMDB TV 261091 一致。TMDB 第 1 季明确为 12 集，逐集标题和日期均与 Bangumi 章节对应，因此应映射为第 1 季完整范围。\n\nhttps://bgm.tv/subject/480545 (page): Bangumi 条目标记为 TV，话数 12，放送开始为 2025-04-08，结束为 2025-06-24，并列出动画工房等制作信息。\n\nhttps://www.wikidata.org/wiki/Q124537398 (search_snippet): 公开检索摘要同时关联 AniDB anime ID 18496、Bangumi subject ID 480545 与 TMDB TV series ID 261091，标题和 12 集、1 季信息一致。\n\nhttps://www.themoviedb.org/tv/261091 (api_snapshot): TMDB API 快照显示《紫雲寺家の子供たち》首播 2025-04-08，共 12 集，剧情和日文原名与 Bangumi 对应。\n\nhttps://www.themoviedb.org/tv/261091/season/1 (api_snapshot): TMDB API 快照明确 season_number=1、episodeCount=12，且第 1 至第 12 集标题和播出日期逐一对应输入的 Bangumi 章节。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/480545; https://www.wikidata.org/wiki/Q124537398; https://www.themoviedb.org/tv/261091; https://www.themoviedb.org/tv/261091/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 261091
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

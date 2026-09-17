@@ -1,16 +1,91 @@
 {
   "anidbId": 15995,
   "bangumiId": 349387,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1054912,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1054913,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1054914,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1054915,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1054916,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1054917,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1054918,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1054919,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1054920,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1054921,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1054922,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1054923,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1075031,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2021-10-04 开始、共13话的 overDress Season2，章节编号为13–25。AniDB ID 15995 与该名称、年份、13话及制作/角色信息一致，并将其作为 overDress 第一季之后的条目。TMDB 106301 的第1季名为 overDress，共25集；其第13–25集的标题和日期与 Bangumi Season2 逐集对应（日期存在时区导致的次日差异），因此应映射为该季的13–25集，而不是整季。\n\nhttps://bgm.tv/subject/349387 (page): Bangumi 条目为《カードファイト!! ヴァンガード overDress Season2》，TV、13话，放送开始于2021-10-04，制作人员与动画制作信息明确。\n\nhttps://bgm.tv/subject/349387/ep (page): Bangumi 章节明确编号为13–25，共13集；标题和播出日期覆盖2021-10-04至2021-12-27。\n\nhttps://anidb.net/anime/15995 (page): AniDB 15995 的主标题为 Cardfight!! Vanguard: Over Dress (2021)，类型为13集TV，官方标题为 OverDress，别名包含 overDress Season2，并列出相同的角色、原案、导演、系列构成和动画制作公司。\n\nhttps://www.themoviedb.org/tv/106301 (api_snapshot): TMDB TV 106301 的整体条目名为《カードファイト!! ヴァンガード》，第1季名为 overDress，共25集。\n\nhttps://www.themoviedb.org/tv/106301/season/1 (api_snapshot): TMDB 第1季第13–25集的标题与 Bangumi Season2 逐集一致，播出日期为2021-10-05至2021-12-28；与 Bangumi 日期相差一天，符合地区/时区显示差异。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2021-10-04 开始、共13话的 overDress Season2，章节编号为13–25。AniDB ID 15995 与该名称、年份、13话及制作/角色信息一致，并将其作为 overDress 第一季之后的条目。TMDB 106301 的第1季名为 overDress，共25集；其第13–25集的标题和日期与 Bangumi Season2 逐集对应（日期存在时区导致的次日差异），因此应映射为该季的13–25集，而不是整季。\n\nhttps://bgm.tv/subject/349387 (page): Bangumi 条目为《カードファイト!! ヴァンガード overDress Season2》，TV、13话，放送开始于2021-10-04，制作人员与动画制作信息明确。\n\nhttps://bgm.tv/subject/349387/ep (page): Bangumi 章节明确编号为13–25，共13集；标题和播出日期覆盖2021-10-04至2021-12-27。\n\nhttps://anidb.net/anime/15995 (page): AniDB 15995 的主标题为 Cardfight!! Vanguard: Over Dress (2021)，类型为13集TV，官方标题为 OverDress，别名包含 overDress Season2，并列出相同的角色、原案、导演、系列构成和动画制作公司。\n\nhttps://www.themoviedb.org/tv/106301 (api_snapshot): TMDB TV 106301 的整体条目名为《カードファイト!! ヴァンガード》，第1季名为 overDress，共25集。\n\nhttps://www.themoviedb.org/tv/106301/season/1 (api_snapshot): TMDB 第1季第13–25集的标题与 Bangumi Season2 逐集一致，播出日期为2021-10-05至2021-12-28；与 Bangumi 日期相差一天，符合地区/时区显示差异。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/349387; https://bgm.tv/subject/349387/ep; https://anidb.net/anime/15995; https://www.themoviedb.org/tv/106301; https://www.themoviedb.org/tv/106301/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 106301
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,46 @@
 {
   "anidbId": 17151,
   "bangumiId": 366805,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1081222,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1081223,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1081224,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1081225,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
+    "evidence": "Imported existing BangumiExtLinker correspondence.\n\n脚本按放送日期核对生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应，4 对日期全部在 ±1 天内。",
+    "method": "deterministic",
     "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 207567
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

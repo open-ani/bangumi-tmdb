@@ -1,16 +1,91 @@
 {
   "anidbId": 18818,
   "bangumiId": 508588,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1435032,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1435033,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1435034,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1435035,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1435036,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1435037,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1435038,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1435039,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1435040,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1435041,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1435042,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1435043,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1447578,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject为2025年1月9日开播的TV动画，共13集；AniDB名称与题名对应。TMDB TV 261745具有相同日文原名、首播日期、故事简介和13集总数。TMDB第1季标为2025年1月9日开播、共13集，且其13集标题与日期逐一对应Bangumi第1至13集，因此应映射为完整第1季，不需要限定集数范围。\n\nhttps://bgm.tv/subject/508588 (page): Bangumi记录该作品为2025年1月9日开播的TV动画，共13集；题名、制作人员及13集标题/日期与候选版本一致。\n\nhttps://www.themoviedb.org/tv/261745 (api_snapshot): TMDB TV 261745的原名为「アラフォー男の異世界通販」，首播日期为2025-01-09，简介描述中年男健一在异世界使用网络购物能力，与Bangumi主体和制作设定一致；总集数为13集。\n\nhttps://www.themoviedb.org/tv/261745/season/1 (api_snapshot): TMDB第1季为2025-01-09开播、13集；第1至13集的标题和播出日期均与Bangumi对应集数逐一匹配，故覆盖完整主体季。",
+    "evidence": "gpt-5.6-luna: Bangumi subject为2025年1月9日开播的TV动画，共13集；AniDB名称与题名对应。TMDB TV 261745具有相同日文原名、首播日期、故事简介和13集总数。TMDB第1季标为2025年1月9日开播、共13集，且其13集标题与日期逐一对应Bangumi第1至13集，因此应映射为完整第1季，不需要限定集数范围。\n\nhttps://bgm.tv/subject/508588 (page): Bangumi记录该作品为2025年1月9日开播的TV动画，共13集；题名、制作人员及13集标题/日期与候选版本一致。\n\nhttps://www.themoviedb.org/tv/261745 (api_snapshot): TMDB TV 261745的原名为「アラフォー男の異世界通販」，首播日期为2025-01-09，简介描述中年男健一在异世界使用网络购物能力，与Bangumi主体和制作设定一致；总集数为13集。\n\nhttps://www.themoviedb.org/tv/261745/season/1 (api_snapshot): TMDB第1季为2025-01-09开播、13集；第1至13集的标题和播出日期均与Bangumi对应集数逐一匹配，故覆盖完整主体季。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/508588; https://www.themoviedb.org/tv/261745; https://www.themoviedb.org/tv/261745/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 261745
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

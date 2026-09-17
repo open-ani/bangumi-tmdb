@@ -1,16 +1,86 @@
 {
   "anidbId": 18708,
   "bangumiId": 501023,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1429215,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1429216,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1429217,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1429218,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1429219,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1429220,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1429221,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1429222,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1429223,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1429224,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1429225,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1429226,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为 2025-01-03 至 2025-03-21 播出的 12 集 TV 动画；TMDB TV 257790 的原名、首播日期、剧情简介及制作语境均与该主体一致，且第 1 季明确包含 12 集，播出日期和各集标题与 Bangumi 条目逐集对应。因此应采用 TMDB TV 257790 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/257790 (api_snapshot): TMDB 记录原名为「クラスの大嫌いな女子と結婚することになった。」、首播日期为 2025-01-03、共 12 集，剧情与高中生才人与朱音结婚的动画主体一致。\n\nhttps://www.themoviedb.org/tv/257790/season/1 (api_snapshot): TMDB 第 1 季首播日期为 2025-01-03，共 12 集；第 1 至第 12 集标题和日期均与 Bangumi 提供的 12 集记录对应，末集日期为 2025-03-21。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体为 2025-01-03 至 2025-03-21 播出的 12 集 TV 动画；TMDB TV 257790 的原名、首播日期、剧情简介及制作语境均与该主体一致，且第 1 季明确包含 12 集，播出日期和各集标题与 Bangumi 条目逐集对应。因此应采用 TMDB TV 257790 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/257790 (api_snapshot): TMDB 记录原名为「クラスの大嫌いな女子と結婚することになった。」、首播日期为 2025-01-03、共 12 集，剧情与高中生才人与朱音结婚的动画主体一致。\n\nhttps://www.themoviedb.org/tv/257790/season/1 (api_snapshot): TMDB 第 1 季首播日期为 2025-01-03，共 12 集；第 1 至第 12 集标题和日期均与 Bangumi 提供的 12 集记录对应，末集日期为 2025-03-21。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/501023; https://www.themoviedb.org/tv/257790; https://www.themoviedb.org/tv/257790/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 257790
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

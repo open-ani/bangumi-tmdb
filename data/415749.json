@@ -1,15 +1,85 @@
 {
   "bangumiId": 415749,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1167555,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1167556,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1167557,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1167558,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1167559,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1167560,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1192100,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1192101,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1192102,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1192103,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1192104,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1192105,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 154681《兵主奇魂》与 Bangumi 条目的剧情、中文原名、制作公司（bilibili、湖南神幻九州文化传媒有限公司）及动画媒介一致。TMDB 第1季共24集，其中第13—24集的标题和播出日期与 Bangumi“第一季（下）”逐集对应，日期为2023-01-24至2023-04-04；因此应映射为该 TV 作品第1季第13—24集，而不是整季。\n\nhttps://www.themoviedb.org/tv/154681 (api_snapshot): TMDB 详情确认作品原名《兵主奇魂》、英文别名 The Soul of Soldier Master、剧情、中文原语种、制作公司、2022-01-04首播、2023-04-04完结及全剧24集。\n\nhttps://www.themoviedb.org/tv/154681/season/1 (api_snapshot): TMDB 第1季实际包含24集；第13—24集标题分别与 Bangumi 条目的12集完全对应，播出日期为2023-01-24至2023-04-04。\n\nhttps://api.bgm.tv/v0/subjects/415749 (api_snapshot): Bangumi Fresh API 确认主体为 WEB 动画《兵主奇魂 第一季（下）》，12集，导演姜造、总导演章金城、动画制作神幻九州，播出日期2023-01-24至2023-04-04。\n\n备注：TMDB 详情的 crew 列表为空，导演和总导演信息主要由 Bangumi API 提供；但制作公司、剧情和逐集标题/日期已交叉吻合。",
+    "evidence": "gpt-5.6-luna: TMDB 154681《兵主奇魂》与 Bangumi 条目的剧情、中文原名、制作公司（bilibili、湖南神幻九州文化传媒有限公司）及动画媒介一致。TMDB 第1季共24集，其中第13—24集的标题和播出日期与 Bangumi“第一季（下）”逐集对应，日期为2023-01-24至2023-04-04；因此应映射为该 TV 作品第1季第13—24集，而不是整季。\n\nhttps://www.themoviedb.org/tv/154681 (api_snapshot): TMDB 详情确认作品原名《兵主奇魂》、英文别名 The Soul of Soldier Master、剧情、中文原语种、制作公司、2022-01-04首播、2023-04-04完结及全剧24集。\n\nhttps://www.themoviedb.org/tv/154681/season/1 (api_snapshot): TMDB 第1季实际包含24集；第13—24集标题分别与 Bangumi 条目的12集完全对应，播出日期为2023-01-24至2023-04-04。\n\nhttps://api.bgm.tv/v0/subjects/415749 (api_snapshot): Bangumi Fresh API 确认主体为 WEB 动画《兵主奇魂 第一季（下）》，12集，导演姜造、总导演章金城、动画制作神幻九州，播出日期2023-01-24至2023-04-04。\n\n备注：TMDB 详情的 crew 列表为空，导演和总导演信息主要由 Bangumi API 提供；但制作公司、剧情和逐集标题/日期已交叉吻合。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/415749; https://www.themoviedb.org/tv/154681; https://www.themoviedb.org/tv/154681/season/1; https://api.bgm.tv/v0/subjects/415749",
-    "verifiedAt": "2026-09-08T23:42:40.222Z"
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 154681
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,14 +1,30 @@
 {
   "anidbId": 19020,
   "bangumiId": 526159,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1496662,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1496662,
+      "targets": [
+        {
+          "id": 1395140,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2025-06-27 上映、1 话的剧场版；输入提供的 AniDB 关联为 19020，标题与版本一致。TMDB 电影 1395140 的标题、原名、上映日期和剧情均与该条目吻合，故对应电影而非 TV 季或集数范围。\n\nhttps://bgm.tv/subject/526159 (page): Bangumi 条目为《LUPIN THE IIIRD THE MOVIE 不死身の血族》，日期 2025-06-27，话数 1，关联 AniDB ID 19020。\n\nhttps://www.themoviedb.org/movie/1395140 (api_snapshot): TMDB 1395140 标题、原名和上映日期均匹配，剧情与鲁邦一行前往神秘岛并面对不死敌人的设定一致，片长 93 分钟。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2025-06-27 上映、1 话的剧场版；输入提供的 AniDB 关联为 19020，标题与版本一致。TMDB 电影 1395140 的标题、原名、上映日期和剧情均与该条目吻合，故对应电影而非 TV 季或集数范围。\n\nhttps://bgm.tv/subject/526159 (page): Bangumi 条目为《LUPIN THE IIIRD THE MOVIE 不死身の血族》，日期 2025-06-27，话数 1，关联 AniDB ID 19020。\n\nhttps://www.themoviedb.org/movie/1395140 (api_snapshot): TMDB 1395140 标题、原名和上映日期均匹配，剧情与鲁邦一行前往神秘岛并面对不死敌人的设定一致，片长 93 分钟。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
     "method": "codex",
     "source": "https://bgm.tv/subject/526159; https://www.themoviedb.org/movie/1395140",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
   "rules": [],
   "schemaVersion": 1,

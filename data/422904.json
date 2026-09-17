@@ -1,13 +1,29 @@
 {
   "bangumiId": 422904,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1178741,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1178741,
+      "targets": [
+        {
+          "id": 1148588,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 1148588 的日文原名、上映日期（2023-11-03）、剧情均与 Bangumi subject 一致；导演作田ハズム、编剧角田貴志也一致，片长 70 分钟。该条目是独立剧场版而非 TV、OVA、合集或其他季度，因此映射为 movie，集数字段均为 null。\n\nhttps://api.bgm.tv/v0/subjects/422904 (api_snapshot): Bangumi 原始 API 信息确认标题、日期、单集剧场版属性、剧情、导演和编剧。\n\nhttps://www.themoviedb.org/movie/1148588 (api_snapshot): TMDB 详情确认日文原名、英文别名、2023-11-03 上映日期、剧情、70 分钟片长、导演作田ハズム和编剧角田貴志。",
+    "evidence": "gpt-5.6-luna: TMDB 1148588 的日文原名、上映日期（2023-11-03）、剧情均与 Bangumi subject 一致；导演作田ハズム、编剧角田貴志也一致，片长 70 分钟。该条目是独立剧场版而非 TV、OVA、合集或其他季度，因此映射为 movie，集数字段均为 null。\n\nhttps://api.bgm.tv/v0/subjects/422904 (api_snapshot): Bangumi 原始 API 信息确认标题、日期、单集剧场版属性、剧情、导演和编剧。\n\nhttps://www.themoviedb.org/movie/1148588 (api_snapshot): TMDB 详情确认日文原名、英文别名、2023-11-03 上映日期、剧情、70 分钟片长、导演作田ハズム和编剧角田貴志。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
     "method": "codex",
     "source": "https://bgm.tv/subject/422904; https://api.bgm.tv/v0/subjects/422904; https://www.themoviedb.org/movie/1148588",
-    "verifiedAt": "2026-09-08T23:44:22.144Z"
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
   "rules": [],
   "schemaVersion": 1,

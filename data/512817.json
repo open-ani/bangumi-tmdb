@@ -1,16 +1,76 @@
 {
   "anidbId": 18862,
   "bangumiId": 512817,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1459944,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1459945,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1459946,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1459947,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1459948,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1459949,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1459950,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1459951,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1459952,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1459953,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB TV 214587 是日语动画《ばいばい、アース》。TMDB 将两次播出的内容连续编入第1季，共20集；其中第11—20集的标题及播出日期（2025-04-04至2025-06-06）与 Bangumi 512817 的全部10集逐一吻合。因此该 Bangumi 第二季对应 TMDB 第1季第11—20集，并非不存在的第2季。\n\nhttps://www.themoviedb.org/tv/214587 (api_snapshot): TMDB API 快照显示 TV 214587 原名为《ばいばい、アース》，是日本作品，共20集，且仅列出一个包含20集的第1季。\n\nhttps://www.themoviedb.org/tv/214587/season/1 (api_snapshot): TMDB API 快照显示第1季第11—20集依次为《郷愁。いま残響に芽吹く》至《旅人。ただ今ここに在りし》，标题和播出日期均与 Bangumi 512817 的10集完全对应。\n\nhttps://www.themoviedb.org/tv/214587/season/2 (api_snapshot): 输入中的 TMDB API 请求对 TV 214587 第2季返回 HTTP 404，表明候选中的 season 2 不是当前 TMDB 的有效分季。",
+    "evidence": "gpt-5.6-sol: TMDB TV 214587 是日语动画《ばいばい、アース》。TMDB 将两次播出的内容连续编入第1季，共20集；其中第11—20集的标题及播出日期（2025-04-04至2025-06-06）与 Bangumi 512817 的全部10集逐一吻合。因此该 Bangumi 第二季对应 TMDB 第1季第11—20集，并非不存在的第2季。\n\nhttps://www.themoviedb.org/tv/214587 (api_snapshot): TMDB API 快照显示 TV 214587 原名为《ばいばい、アース》，是日本作品，共20集，且仅列出一个包含20集的第1季。\n\nhttps://www.themoviedb.org/tv/214587/season/1 (api_snapshot): TMDB API 快照显示第1季第11—20集依次为《郷愁。いま残響に芽吹く》至《旅人。ただ今ここに在りし》，标题和播出日期均与 Bangumi 512817 的10集完全对应。\n\nhttps://www.themoviedb.org/tv/214587/season/2 (api_snapshot): 输入中的 TMDB API 请求对 TV 214587 第2季返回 HTTP 404，表明候选中的 season 2 不是当前 TMDB 的有效分季。\n\n脚本按放送日期核对生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应，10 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/512817; https://www.themoviedb.org/tv/214587; https://www.themoviedb.org/tv/214587/season/1; https://www.themoviedb.org/tv/214587/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 11,
+      "tmdbId": 214587
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

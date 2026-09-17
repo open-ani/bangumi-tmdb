@@ -1,14 +1,40 @@
 {
   "anidbId": 17037,
   "bangumiId": 362335,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1181638,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1247129,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1262344,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1181638,
+      "targets": [
+        {
+          "id": 915403,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
+    "evidence": "Imported existing BangumiExtLinker correspondence.\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "deterministic",
     "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
   "rules": [],
   "schemaVersion": 1,

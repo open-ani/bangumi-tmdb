@@ -1,16 +1,86 @@
 {
   "anidbId": 17583,
   "bangumiId": 395489,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1141229,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1141230,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1141231,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1141232,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1141233,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1141234,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1141235,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1141236,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1141237,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1141238,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1141239,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1141240,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 为《ロマンティック・キラー／浪漫杀手》TV 动画，2022-10-27 开播，共 12 集，并提供对应制作信息。TMDB TV 快照显示同名作品、同日首播、相同剧情设定及全剧 12 集；第 1 季明确为 12 集，且 1–12 集标题和日期与 Bangumi 的全部正篇逐一对应。因此采用 TMDB 208730 第 1 季完整范围。\n\nhttps://bgm.tv/subject/395489 (page): Bangumi 页面显示作品标题、中文名、12 集、2022-10-27 开播、原作、导演、音乐、动画制作等信息；章节为 01–12。\n\nhttps://www.themoviedb.org/tv/208730 (api_snapshot): TMDB API 快照显示《ロマンティック・キラー》、首播日期 2022-10-27、对应星野杏子与魔法使莉莉的剧情简介，以及全剧 12 集。\n\nhttps://www.themoviedb.org/tv/208730/season/1 (api_snapshot): TMDB 第 1 季快照明确 season_number=1、episodeCount=12；第 1–12 集标题与 Bangumi 正篇标题逐一匹配，日期均为 2022-10-27。",
+    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 为《ロマンティック・キラー／浪漫杀手》TV 动画，2022-10-27 开播，共 12 集，并提供对应制作信息。TMDB TV 快照显示同名作品、同日首播、相同剧情设定及全剧 12 集；第 1 季明确为 12 集，且 1–12 集标题和日期与 Bangumi 的全部正篇逐一对应。因此采用 TMDB 208730 第 1 季完整范围。\n\nhttps://bgm.tv/subject/395489 (page): Bangumi 页面显示作品标题、中文名、12 集、2022-10-27 开播、原作、导演、音乐、动画制作等信息；章节为 01–12。\n\nhttps://www.themoviedb.org/tv/208730 (api_snapshot): TMDB API 快照显示《ロマンティック・キラー》、首播日期 2022-10-27、对应星野杏子与魔法使莉莉的剧情简介，以及全剧 12 集。\n\nhttps://www.themoviedb.org/tv/208730/season/1 (api_snapshot): TMDB 第 1 季快照明确 season_number=1、episodeCount=12；第 1–12 集标题与 Bangumi 正篇标题逐一匹配，日期均为 2022-10-27。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/395489; https://www.themoviedb.org/tv/208730; https://www.themoviedb.org/tv/208730/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 208730
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

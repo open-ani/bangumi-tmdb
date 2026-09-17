@@ -1,16 +1,91 @@
 {
   "anidbId": 17614,
   "bangumiId": 400551,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1244603,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1244604,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1244605,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1244606,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1244607,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1244608,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1244609,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1244610,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1244611,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1244612,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1244613,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1244614,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1254026,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 提供的 AniDB ID 17614 与作品名称、日文别名及 2023-10-01 开播信息一致；TMDB TV 209829 的首播日期、日文原名、剧情、制作国家与 12 集季信息均吻合。TMDB 第 1 季完整列出第 1–12 集，标题和播出日期逐集对应 Bangumi 正篇；第 12 集日期为 2023-12-17。Bangumi 另列的放送直前特番属于独立特别篇，不纳入主体正篇季范围。\n\nhttps://www.themoviedb.org/tv/209829 (api_snapshot): TMDB 作品为《でこぼこ魔女の親子事情》，首播日期 2023-10-01，剧情、日文原名及 12 集总数与 Bangumi 主体信息吻合。\n\nhttps://www.themoviedb.org/tv/209829/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1，共 12 集；第 1–12 集标题与日期逐条对应 Bangumi 正篇，覆盖 2023-10-01 至 2023-12-17。",
+    "evidence": "gpt-5.6-luna: Bangumi 提供的 AniDB ID 17614 与作品名称、日文别名及 2023-10-01 开播信息一致；TMDB TV 209829 的首播日期、日文原名、剧情、制作国家与 12 集季信息均吻合。TMDB 第 1 季完整列出第 1–12 集，标题和播出日期逐集对应 Bangumi 正篇；第 12 集日期为 2023-12-17。Bangumi 另列的放送直前特番属于独立特别篇，不纳入主体正篇季范围。\n\nhttps://www.themoviedb.org/tv/209829 (api_snapshot): TMDB 作品为《でこぼこ魔女の親子事情》，首播日期 2023-10-01，剧情、日文原名及 12 集总数与 Bangumi 主体信息吻合。\n\nhttps://www.themoviedb.org/tv/209829/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1，共 12 集；第 1–12 集标题与日期逐条对应 Bangumi 正篇，覆盖 2023-10-01 至 2023-12-17。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/400551; https://www.themoviedb.org/tv/209829; https://www.themoviedb.org/tv/209829/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 209829
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

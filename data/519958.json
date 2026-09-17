@@ -1,16 +1,51 @@
 {
   "anidbId": 18930,
   "bangumiId": 519958,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1525271,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1528910,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1528911,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1528912,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1528913,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确为 2025 年日本 TV 动画《夢中さ、きみに。》，共 5 话，首播日为 2025-08-21；Bangumi 页面列出的 5 个章节标题、日期与 TMDB 第 1 季逐一对应。TMDB 主页面同名、同首播日且共 5 集，TMDB 第 1 季也明确包含完整 5 集，因此应对应 TV 274548 第 1 季整季。未发现电影、OVA、总集篇或重剪版本混入主体。\n\nhttps://bgm.tv/subject/519958 (page): Bangumi 将该条目标记为 TV，标题为《夢中さ、きみに。》，话数 5，首播 2025-08-21，并列出 01–05 五个章节及其标题、日期；简介和制作信息也与动画版本一致。\n\nhttps://karaoke-muchusa.com/muchusa/ (page): 官方动画网站确认该作于 2025-08-21 开播，原作为和山やま《夢中さ、きみに。》，动画制作公司为動画工房，简介与 Bangumi/TMDB 版本一致。\n\nhttps://www.themoviedb.org/tv/274548 (api_snapshot): TMDB API 快照显示 TV 274548 标题为《夢中さ、きみに。》，首播日 2025-08-21，共 5 集，且简介与 Bangumi/官方简介一致。\n\nhttps://www.themoviedb.org/tv/274548/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、air_date=2025-08-21、episodeCount=5；第 1–5 集标题和日期分别与 Bangumi 五个章节对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体明确为 2025 年日本 TV 动画《夢中さ、きみに。》，共 5 话，首播日为 2025-08-21；Bangumi 页面列出的 5 个章节标题、日期与 TMDB 第 1 季逐一对应。TMDB 主页面同名、同首播日且共 5 集，TMDB 第 1 季也明确包含完整 5 集，因此应对应 TV 274548 第 1 季整季。未发现电影、OVA、总集篇或重剪版本混入主体。\n\nhttps://bgm.tv/subject/519958 (page): Bangumi 将该条目标记为 TV，标题为《夢中さ、きみに。》，话数 5，首播 2025-08-21，并列出 01–05 五个章节及其标题、日期；简介和制作信息也与动画版本一致。\n\nhttps://karaoke-muchusa.com/muchusa/ (page): 官方动画网站确认该作于 2025-08-21 开播，原作为和山やま《夢中さ、きみに。》，动画制作公司为動画工房，简介与 Bangumi/TMDB 版本一致。\n\nhttps://www.themoviedb.org/tv/274548 (api_snapshot): TMDB API 快照显示 TV 274548 标题为《夢中さ、きみに。》，首播日 2025-08-21，共 5 集，且简介与 Bangumi/官方简介一致。\n\nhttps://www.themoviedb.org/tv/274548/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1、air_date=2025-08-21、episodeCount=5；第 1–5 集标题和日期分别与 Bangumi 五个章节对应。\n\n脚本按放送日期核对生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应，5 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/519958; https://karaoke-muchusa.com/muchusa/; https://www.themoviedb.org/tv/274548; https://www.themoviedb.org/tv/274548/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-17T00:37:35.487Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 274548
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
