@@ -1,16 +1,86 @@
 {
   "anidbId": 16601,
   "bangumiId": 348335,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1053985,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1053986,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1053987,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1053988,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1053989,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1053990,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1053991,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1053992,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1053993,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1053994,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1053995,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1070750,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《平家物語》TV 动画，11 话，2022 年播出，导演山田尚子、动画制作 Science SARU；其剧情简介、制作人员和章节标题与 TMDB 132664 完全对应。TMDB 第 1 季明确有 11 集且剧集列表完整，因此应映射为整季。Bangumi 的 sort=0 特别篇是放送直前特番，不属于主体正篇，TMDB 季的 11 集已覆盖主体。首播日期存在日本播出与 TMDB 记录相差一天、末两集日期记录差异，但标题、剧情和总集数均一致，不构成版本差异证据。\n\nhttps://bgm.tv/subject/348335 (page): Bangumi 条目标为 TV，话数 11，放送开始 2022-01-12，放送结束 2022-03-23；导演山田尚子，动画制作 Science SARU，并列出主体 11 个章节及相应剧情。\n\nhttps://www.wikidata.org/wiki/Q108393516 (search_snippet): 同一 The Heike Story 条目同时列出 AniDB anime ID 16601 与 Bangumi subject ID 348335，支持 AniDB 关联与作品身份对应。\n\nhttps://sciencesaru.com/en/works/TheHeikeStory (search_snippet): Science SARU 官方作品页确认 The Heike Story 为 2022 年 TV Series，导演 Naoko Yamada，原作改编自 Hideo Furukawa 的 THE TALE OF THE HEIKE，动画制作 Science SARU。\n\nhttps://www.fujitv.com/animation/the_heike_story/ (search_snippet): 富士电视台官方资料确认作品于 2021-09-15 起 FOD 配信、2022-01-12 起 +Ultra 播出，并给出与 Bangumi 一致的平家灭亡主线简介。\n\nhttps://www.themoviedb.org/tv/132664 (api_snapshot): TMDB API 快照显示 ID 132664 的原名为平家物語，首播年份为 2022，剧情简介与平家、平重盛、琵琶及 15 年历史变迁相符，总集数 11，只有第 1 季且季集数为 11。\n\nhttps://www.themoviedb.org/tv/132664/season/1 (api_snapshot): TMDB 第 1 季 API 快照明确 season_number=1、episodeCount=11、episodesTruncated=false，完整列出第 1 至第 11 集；标题和剧情依次对应 Bangumi 主体章节。\n\n备注：AniDB 官方页面抓取返回 403，未能直接读取 AniDB 条目正文；AniDB ID 16601 由独立的 Wikidata 交叉标识及输入中的已匹配名称支持。；TMDB 的首播日期及第 10、11 集日期与 Bangumi 日本电视播出日期有一天或数天差异，可能反映配信/时区或数据库录入差异；不影响作品、季号和 11 集主体范围的确认。",
+    "evidence": "codex: 确认对应TMDB 132664第1季整季。制作人员、动画媒介、剧情、发行年份及11集范围一致；逐集标题核对支持Bangumi本篇1—11对应S01E01—E11。2021年网络先行配信与2022年电视播出为同一作品。访谈特番不纳入本篇映射。\n\nhttps://www.themoviedb.org/tv/132664 (api_snapshot): TMDB 132664 的原名为《平家物語》，导演山田尚子，制作公司包含 Science SARU；琵琶预见未来、平重盛看见亡者的剧情与输入一致。作品共一季、11集，区别于搜索结果中的1972年电视剧及1993年人偶剧。\n\nhttps://www.themoviedb.org/tv/132664/season/1 (api_snapshot): 第1季集表共11集，total_pages=1，已完整读取。第2—11集日文标题与输入逐集一致；第1集标题仅有「あらざるば／あらざれば」文字差异，剧情相符。第1—9集及第11集日期均比输入晚一天；第10集记录为2022-03-24，与输入2022-03-16不同。集数、标题与故事顺序支持本篇1—11逐集对应。\n\nhttps://www.fujitv.com/animation/the_heike_story/ (search_snippet): 富士电视台官方资料确认本作由山田尚子执导、Science SARU制作，改编自古川日出男译本；2021-09-15起FOD配信，2022-01-12起在＋Ultra播出，说明网络与电视年份差异属于同一作品的发行安排。\n\nhttps://news.ponycanyon.co.jp/2021/12/63929 (search_snippet): 制作方公告明确电视播出自2022-01-12起每周三24:55开始，可解释TMDB多数日期比Bangumi晚一天；公告同时说明FOD已先行配信全篇。\n\nhttps://www.fujitv.co.jp/b_hp/heike-anime_pr/index.html (search_snippet): 富士电视台确认2022-01-05深夜播出的放送直前特番内容为作品介绍与声优、制作人员访谈，属于宣传节目，不是11集剧情本篇之一。\n\n备注：第10集播出日期存在差异，当前证据未确认具体原因；标题《壇ノ浦》及剧情顺序支持对应S01E10。；特别篇1070750尚未核实对应的TMDB集，保留未映射；不能据此断言TMDB未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/348335; https://www.wikidata.org/wiki/Q108393516; https://sciencesaru.com/en/works/TheHeikeStory; https://www.fujitv.com/animation/the_heike_story/; https://www.themoviedb.org/tv/132664; https://www.themoviedb.org/tv/132664/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/348335; https://www.themoviedb.org/tv/132664; https://www.themoviedb.org/tv/132664/season/1; https://www.fujitv.com/animation/the_heike_story/; https://news.ponycanyon.co.jp/2021/12/63929; https://www.fujitv.co.jp/b_hp/heike-anime_pr/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132664
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

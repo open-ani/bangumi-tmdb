@@ -1,16 +1,168 @@
 {
   "anidbId": 9603,
   "bangumiId": 77706,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 318133,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 324197,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 324198,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 324199,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 324200,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 324201,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 324202,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 324203,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 324204,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 324205,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 324206,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 324207,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 324208,
+      "sort": 38,
+      "type": 0
+    },
+    {
+      "id": 353802,
+      "sort": 39,
+      "type": 0
+    },
+    {
+      "id": 353803,
+      "sort": 40,
+      "type": 0
+    },
+    {
+      "id": 353804,
+      "sort": 41,
+      "type": 0
+    },
+    {
+      "id": 353805,
+      "sort": 42,
+      "type": 0
+    },
+    {
+      "id": 359386,
+      "sort": 41.5,
+      "type": 1
+    },
+    {
+      "id": 364648,
+      "sort": 43,
+      "type": 0
+    },
+    {
+      "id": 364649,
+      "sort": 44,
+      "type": 0
+    },
+    {
+      "id": 364650,
+      "sort": 45,
+      "type": 0
+    },
+    {
+      "id": 364651,
+      "sort": 46,
+      "type": 0
+    },
+    {
+      "id": 364652,
+      "sort": 47,
+      "type": 0
+    },
+    {
+      "id": 364653,
+      "sort": 48,
+      "type": 0
+    },
+    {
+      "id": 364654,
+      "sort": 49,
+      "type": 0
+    },
+    {
+      "id": 387204,
+      "sort": 50,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 359386,
+      "targets": [
+        {
+          "episode": 19,
+          "id": 45783,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《黒子のバスケ 第2期》，正篇25集与 TMDB TV 45783 第2季的完整25集标题、剧情和播出顺序逐集对应。Bangumi 另将 OVA「もう一回やりませんか」（第41.5Q，2014-06-20）计入总集数26；该特别篇在 TMDB 的特别篇季（season 0）中对应第19集，因此需单独纳入。TMDB 与 Bangumi 的正篇首播日期整体相差1天，属于日期标注差异，不影响版本匹配。\n\nhttps://bgm.tv/subject/77706 (page): Bangumi subject 为「黒子のバスケ 第2期」，正篇25集，总集数26，并列出特别篇「もう一回やりませんか」（2014-06-20）。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 将 AniDB 关联线索指向 TMDB TV 45783 第2季；该关联与名称、年份和集数内容一致。\n\nhttps://www.themoviedb.org/tv/45783 (api_snapshot): TMDB TV 45783《黒子のバスケ》包含第2季，季信息显示25集。\n\nhttps://www.themoviedb.org/tv/45783/season/2 (api_snapshot): TMDB 第2季完整列出25集，标题从「こんな所で会うとはな」至「勝つ！」，与 Bangumi 正篇25集逐集对应。\n\nhttps://www.moviefone.com/tv-shows/kurokos-basketball/8LkxMBsZ404ngrKzKFGi07/seasons/0/ (page): 特别篇季列出36集；第19集为「Can We Do That One More Time (Episode 41.5)」，日期为2014-06-20，且页面注明使用 TMDb API 数据。\n\n备注：TMDB与Bangumi对正篇首集分别标为2013-10-06和2013-10-05，存在1天日期差异，但标题序列、剧情和制作版本均对应。",
+    "evidence": "codex: 年份、TV媒介、导演、制作公司、剧情及完整25集标题顺序共同确认，本subject正篇对应TMDB 45783第二季全季；SP 41.5凭编号、标题和发行日期对应S00E19。两部分共覆盖输入的26个章节。\n\nhttps://bgm.tv/subject/77706 (page): Bangumi 标明这是2013年10月5日至2014年3月29日播出的第二期TV动画，正篇25集，导演多田俊介、动画制作Production I.G；章节编号26—50，另列SP 41.5。\n\nhttps://www.themoviedb.org/tv/45783 (api_snapshot): TMDB 45783为同名日本TV动画，导演多田俊介、制作公司Production I.G一致；第二季为2013年开播的25集，剧情对应黑子、火神与冰室、紫原相遇及冬季杯赛事。\n\nhttps://www.themoviedb.org/tv/45783/season/2 (api_snapshot): 已读取第二季完整25集，total_pages=1。逐集标题、顺序及日期核对后，Bangumi 26—50对应TMDB第二季1—25。前15集TMDB日期比Bangumi晚一天，后10集日期一致；第30话输入标题「待ってだぜ」与TMDB「待ってたぜ」存在单字差异，其余标题仅有标点形式差异。\n\nhttps://www.themoviedb.org/tv/45783/season/0 (api_snapshot): 已读取特别篇季完整36集，total_pages=1。第19集明确为「第41.5Q もう一回やりませんか」，日期2014-06-20、时长24分钟，与Bangumi章节359386的编号、标题和日期一致。\n\n备注：前15集存在一天的日期标注差异，具体原因未核实；不影响标题、顺序及版本的对应。；输入中Bangumi 259059的旧ownership占用了整个第0季，与本次确认的S00E19重叠；该整季归属需另行复核，不能据此将本篇特别篇认作NG集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/77706; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/45783; https://www.themoviedb.org/tv/45783/season/2; https://www.moviefone.com/tv-shows/kurokos-basketball/8LkxMBsZ404ngrKzKFGi07/seasons/0/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/77706; https://www.themoviedb.org/tv/45783; https://www.themoviedb.org/tv/45783/season/2; https://www.themoviedb.org/tv/45783/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 50,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 26,
+      "tmdbId": 45783
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

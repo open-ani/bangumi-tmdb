@@ -1,13 +1,39 @@
 {
   "bangumiId": 324271,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 999635,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 999636,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 999637,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 999638,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 999639,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目《Carmen Sandiego》为 2019 年起播出的 WEB/TV 动画，共 4 季；其第 3 季明确于 2020-10-01 播出，共 5 集。TMDB 第 3 季剧情涉及墨西哥城、新奥尔良、威尼斯等地，与 Bangumi 简介和日期完全对应；5 集数量及各集日期也完全匹配。该条目为新版连续剧，不是旧版《Where on Earth Is Carmen Sandiego?》、电影或特别篇。Bangumi 提供的 IMDb 号实际对应第 3 季第 1 集，不能作为整季条目身份，但其 show_id 指向 TMDB 74728。整季季表完整覆盖主体，因此无需填写集数范围。\n\nhttps://api.bgm.tv/v0/subjects/324271 (api_snapshot): Bangumi fresh API：名称为 Carmen Sandiego Season 3，日期 2020-10-01，WEB，5 集；剧情为 Carmen 与团队在墨西哥城、新奥尔良、威尼斯等地行动。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB TV 74728：原名 Carmen Sandiego，首播 2019-01-18，共 4 季 32 集；第 3 季日期为 2020-10-01、共 5 集；简介和制作/配音信息对应 Netflix 重启版连续剧。\n\nhttps://www.themoviedb.org/tv/74728/season/3 (api_snapshot): TMDB 第 3 季真实季表：5 集，集号 1–5，全部日期为 2020-10-01，剧情地点与 Bangumi 简介一致。",
+    "evidence": "codex: 已确认对应 TMDB 74728 第三季整季：版本、官方页面、剧情、上线日期及 5 集总量一致。Bangumi 输入的五个章节均缺少标题和放送日期，无法逐集交叉比对，因此仅确认季级范围，不凭章节位置生成 rules。\n\nhttps://www.netflix.com/title/80167821 (page): 输入指定的 Netflix 官方页面对应四季动画连续剧《Carmen Sandiego》，主演包括 Gina Rodriguez、Finn Wolfhard，并列有第三季预告；剧情为卡门与伙伴阻止 V.I.L.E. 的计划，与 TMDB 作品身份一致。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB 74728 为 2019-01-18 首播的《Carmen Sandiego》，由 HMH Productions、DHX Media 等制作，配音主演与官方页面一致。第三季标注 2020-10-01、5 集，季简介与输入的 Bangumi 简介完全一致，确认属于新版连续剧第三季。\n\nhttps://www.themoviedb.org/tv/74728/season/3 (api_snapshot): 第三季真实集表共 5 集，total_pages=1，集号 1–5 均于 2020-10-01 上线；各集依次涉及墨西哥摔跤手、亡灵节、新奥尔良、威尼斯和伦敦王冠珠宝。集数、日期及剧情范围与输入 subject 一致，整季未混入互动特别篇。\n\n备注：Bangumi 网页及 API 本次无法读取；章节信息依据用户提供的快照。需补充可核实的 Bangumi 逐集标题或日期后，才能建立章节级对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/324271; https://api.bgm.tv/v0/subjects/324271; https://www.themoviedb.org/tv/74728; https://www.themoviedb.org/tv/74728/season/3",
-    "verifiedAt": "2026-09-08T22:41:10.913Z"
+    "source": "https://bgm.tv/subject/324271; https://www.netflix.com/title/80167821; https://www.themoviedb.org/tv/74728; https://www.themoviedb.org/tv/74728/season/3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

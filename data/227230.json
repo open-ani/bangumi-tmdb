@@ -1,15 +1,93 @@
 {
+  "anidbId": 12607,
   "bangumiId": 227230,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752953,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752954,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752955,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752956,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752957,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752958,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752959,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752960,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752961,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752962,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 823494,
+      "sort": 0.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 823494,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 194625,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 194625 与 Bangumi 的《イナズマデリバリー》身份、2016 年首播日期、剧情、角色及制作人员一致；为日本短篇剧情动画，由 Kanaban Graphics 制作、富岡聡担任系列导演。TMDB 的第 1 季实际包含 20 集：第 1–10 集对应 Bangumi 主体“サメとの遭遇編”，第 11–20 集是另列的“同業者アタック編”，因此不能使用整季。Bangumi 总集数为 11 且特殊话为《英会話との遭遇》0.5 话，对应 TMDB 特别篇 S0E1。TMDB 电影候选 1627725 无日期和剧情，且为另一部 25 分钟作品，排除。\n\nhttps://www.themoviedb.org/tv/194625 (api_snapshot): TMDB 详情确认这是 TV《イナズマデリバリー》，原名、2016-12-09 首播日期、剧情、Kanaban Graphics 制作及富岡聡系列导演均匹配。\n\nhttps://www.themoviedb.org/tv/194625/season/1 (api_snapshot): TMDB S1 共 20 集；第 1–10 集标题、日期和剧情对应 Bangumi 主体，第 11–20 集为“同業者アタック”后续篇。\n\nhttps://www.themoviedb.org/tv/194625/season/0 (api_snapshot): TMDB S0E1 为《英会話との遭遇》，2017-10-25，剧情说明其发生在主线相遇之前。\n\nhttps://www.inazma-delivery.com/anime/ (page): 官方站列出第 1–10 话《サメとの遭遇》至《居候との遭遇》，另列 0.5 话《英会話との遭遇》；第 11–20 话为《同業者アタック》篇。\n\nhttps://www.inazma-delivery.com/onair/ (page): 官方播放信息明确区分 Season 1 十话和 Season 2 十话。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21853 (page): 作品资料确认 2016 年、短篇动画媒介、导演富岡聡、企划/脚本/动画制作 Kanaban Graphics，并列出第 1–10 话。\n\nhttps://www.themoviedb.org/movie/1627725 (api_snapshot): 同名英文电影候选为另一部 25 分钟作品，缺少日期和剧情，不能作为本 Bangumi TV 主体。",
+    "evidence": "codex: 已确认对应TMDB TV 194625：年份、剧情、制作人员及短篇动画媒介一致。本篇十话与S1E1–E10的标题、放送日期逐一吻合；0.5话通过官方编号、标题及剧情确认对应S0E1。S1E11–E20属于另列的后续篇，不纳入本映射。\n\nhttps://www.themoviedb.org/tv/194625 (api_snapshot): TMDB TV 194625 原名、2016-12-09 首播日期及运送员帮助迷路外星人返回母星的剧情与输入一致；制作公司为 Kanaban Graphics，系列导演为富岡聡。\n\nhttps://www.themoviedb.org/tv/194625/season/1 (api_snapshot): 第1季共20集，total_pages=1。第1至10集的日文标题和日期均与输入的十话逐一一致，日期覆盖2016-12-09至2017-02-10；第11集起为2017-12-08开始的后续篇。\n\nhttps://www.themoviedb.org/tv/194625/season/0 (api_snapshot): 第0季共2集，total_pages=1。第1集《英会話との遭遇》日期为2017-10-25，剧情是两位主角相遇前的英语学习故事；第2集《英会話アタック》属于另一特别篇。\n\nhttps://www.inazma-delivery.com/anime/ (page): 官方逐集介绍确认前十话标题及顺序，并将《英会話との遭遇》标为第0.5话、收录于Vol.1蓝光；其剧情与TMDB S0E1一致。第11至20话为后续故事。\n\nhttps://www.inazma-delivery.com/onair/ (page): 官方播放信息明确第一季为《サメとの遭遇編》十话，第二季为《同業者アタック編》十话，因此TMDB合并后的第1季不能整季映射到本subject。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21853 (page): 发行平台资料确认本作为2016年短篇动画，导演富岡聡，企划、脚本及动画制作为カナバングラフィックス，与TMDB制作信息一致。\n\n备注：TMDB第1季汇总日期为2016-12-08，与作品首播及第1集日期2016-12-09相差一天；逐集日期均与Bangumi一致，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/227230; https://www.themoviedb.org/tv/194625; https://www.themoviedb.org/tv/194625/season/1; https://www.themoviedb.org/tv/194625/season/0; https://www.inazma-delivery.com/anime/; https://www.inazma-delivery.com/onair/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21853; https://www.themoviedb.org/movie/1627725",
-    "verifiedAt": "2026-09-08T21:08:35.111Z"
+    "source": "https://bgm.tv/subject/227230; https://www.themoviedb.org/tv/194625; https://www.themoviedb.org/tv/194625/season/1; https://www.themoviedb.org/tv/194625/season/0; https://www.inazma-delivery.com/anime/; https://www.inazma-delivery.com/onair/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21853",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 194625
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

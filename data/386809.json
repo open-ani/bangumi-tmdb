@@ -1,21 +1,126 @@
 {
   "anidbId": 17449,
   "bangumiId": 386809,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1153155,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1153156,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1153157,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1153158,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1153159,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1153160,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1153161,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1153162,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1153163,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1153164,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1153165,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1174983,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1199288,
+      "sort": 0,
+      "type": 2
+    },
+    {
+      "id": 1199289,
+      "sort": 0,
+      "type": 3
+    },
+    {
+      "id": 1211383,
+      "sort": 7.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1211383,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 203737,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过年份、电视动画媒介、剧情、制作人员及逐集标题和日期确认：本篇11话对应 TMDB 203737 第1季第1至11集，7.5话回顾特番对应第0季第1集。旧映射的作品与季号正确，但整季范围过宽，须限定集数。\n\nhttps://www.themoviedb.org/tv/203737 (api_snapshot): TMDB 203737 为2023年4月12日首播的日本动画；五郎与偶像爱的剧情、导演平牧大辅、动画工房及主要配音人员均与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/203737/season/1 (api_snapshot): 第1季共35集，已读取完整集表（total_pages=1）。第1至11集的标题和播出日期与输入11个本篇章节逐一一致，范围为2023年4月12日至6月28日；第12集起为2024年及之后内容，不能映射整季。第1集为82分钟的 Mother and Children。\n\nhttps://www.themoviedb.org/tv/203737/season/0 (api_snapshot): 第0季完整集表共2集。第1集为2023年5月31日播出的回顾特别节目，标题、日期均与 Bangumi 章节1211383一致；第2集为2024年的第二次回顾节目。\n\nhttps://ichigoproduction.com/Season1/staffcast/index.html (page): 第一期官网确认原作为赤坂明与横枪萌果，导演平牧大辅，动画制作为动画工房，与输入和 TMDB 资料相符。\n\nhttps://ichigoproduction.com/Season1/onair/index.html (page): 官方放送资料确认TV动画于2023年4月12日开播，第1话采用90分钟扩展播出时段，支持将本篇第1话对应到 TMDB 的电视集。\n\nhttps://ichigoproduction.com/Season1/story/11.html (page): 第一期官网列出第1至11话，第11话为《アイドル》，其B小町登台剧情与 TMDB 第1季第11集一致。\n\n备注：最新情报发表会（1174983）、OP（1199288）和ED（1199289）在已读取季表中没有对应条目，暂不映射；这不代表 TMDB 全站未收录。；输入 ownership 将另一 subject 424227 指向同一第1集，存在跨 subject 重叠。本次电视第1话的标题、日期及扩展播出形式已核实；424227的独立映射仍需另行复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/386809; https://www.themoviedb.org/tv/203737; https://www.themoviedb.org/tv/203737/season/1; https://www.themoviedb.org/tv/203737/season/0; https://ichigoproduction.com/Season1/staffcast/index.html; https://ichigoproduction.com/Season1/onair/index.html; https://ichigoproduction.com/Season1/story/11.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 203737
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 11,
       "id": 203737,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 203737,
+      "season": 0,
       "type": "tv"
     }
   ]

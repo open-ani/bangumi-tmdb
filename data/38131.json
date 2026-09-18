@@ -1,21 +1,41 @@
 {
   "anidbId": 9181,
   "bangumiId": 38131,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164158,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164158,
+      "targets": [
+        {
+          "episode": 26,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB《名探偵コナン》第0季第26集。该集是与 Bangumi 相同的2012年单话外传 OVA，标题、发行日期及与《第11名前锋》的剧情关联一致；以章节特例映射至特别篇，不沿用当前返回404的旧电影ID。\n\nhttps://bgm.tv/subject/38131 (page): Bangumi 标明本作为单话 OVA，2012年4月14日发售，是《11人目のストライカー》的后日谈；导演山本泰一郎、脚本古内一成。\n\nhttps://db.nkac.or.jp/kyakuhons/D02-01935-00 (page): 日本脚本档案记载《ファンタジスタの花》为2012年录像/DVD动画，导演山本泰一郎、脚本古内一成，与 Bangumi 制作信息一致。\n\nhttps://api.themoviedb.org/3/movie/1084315 (api_snapshot): 旧映射 movie/1084315 的详情请求返回 HTTP 404，当前无法验证该电影条目。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TMDB 30983 为1996年开始的《名探偵コナン》，制作公司含 TMS Entertainment，并设有特别篇第0季。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整35集列表，共1页。第26集为《Flower of Fantasista》，日期2012年4月14日，时长25分钟，简介明确说明是《The Eleventh Striker》相关的外传 OVA；标题、日期、媒介和剧情关联均吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38131; https://db.nkac.or.jp/kyakuhons/D02-01935-00; https://api.themoviedb.org/3/movie/1084315; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1084315,
-      "type": "movie"
+      "episode": 26,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

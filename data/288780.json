@@ -1,15 +1,146 @@
 {
+  "anidbId": 17082,
   "bangumiId": 288780,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 911743,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 911744,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 911745,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 911746,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 911747,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 911748,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 911749,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 911750,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 911751,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 911752,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 911753,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 911754,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 911755,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 911756,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 911757,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 911758,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 911759,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 911760,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 911761,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 911762,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 911763,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 911764,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 911765,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 911766,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 99695 是《四海鲸骑》TV 系列：原名、剧情、角色与续作关系均吻合；系列首季 2018-08-15、第二季 2019-10-24，TMDB 明确列出第 2 季共 24 集。第二季剧情简介及 24 个集名与 Bangumi subject 完整对应，因此使用整季范围。该作品是 WEB/3D 剧情动画，不是 OVA、音乐录像或合集；制作信息也与爱奇艺及 Bangumi 的导演、制作公司资料相符。\n\nhttps://www.themoviedb.org/tv/99695 (api_snapshot): TMDB details：原名《四海鲸骑》，2018-08-15开始，共2季36集；列有第二季日期2019-10-24、24集及与 Bangumi 相同的第二季剧情简介；别名包含 Si Hai Jing Qi 2nd Season。\n\nhttps://www.themoviedb.org/tv/99695/season/2 (api_snapshot): TMDB 第2季实际季表：air_date 为2019-10-24，episodeCount 为24，集号连续覆盖1至24，集名与 Bangumi 24集表对应。\n\nhttps://api.bgm.tv/v0/subjects/288780 (api_snapshot): Bangumi 原始 API：标题为《四海鲸骑 第二季》，日期2019-10-24，平台WEB，24集，剧情简介与 TMDB 第2季一致。\n\nhttps://www.iq.com/album/19rxg2pxy8 (search_snippet): 爱奇艺官方页面搜索摘要将其列为《四海鲸骑 第2季》，年份为2019，简介与该第二季故事吻合。\n\nhttps://bgm.tv/subject/288780 (search_snippet): Bangumi 页面搜索摘要列出第二季导演为刘祎聪；Bangumi 系列资料列出爱奇艺及相关动画制作信息。",
+    "evidence": "codex: 确认对应 TMDB 99695 第2季整季。年份、制作公司、网络动画媒介、第二季特定剧情及24集范围一致，全部章节标题按同一顺序逐集吻合，未混入前季或其他作品。日期差异不改变由完整集名和官方分集资料确认的一对一关系。\n\nhttps://www.themoviedb.org/tv/99695 (api_snapshot): 按原名搜索后读取作品详情：TMDB 99695 为中国动画系列《四海鲸骑》，制作公司包含爱奇艺和 Chosen；共两季36集，第二季为2019-10-24开始的24集，剧情与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/99695/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共24集，集号1—24。全部集名与输入的 Bangumi 章节逐一对应，仅部分空白字符不同；第1集及第11—24集日期一致，第2—10集日期存在差异。\n\nhttps://bgm.tv/subject/288780 (page): Bangumi 标记为2019-10-24开播的24集 WEB 动画，导演刘祎聪，爱奇艺制作、初色动画负责动画制作；剧情围绕阿夏号救七里和争夺海藏珠展开。\n\nhttps://www.iqiyi.com/a_19rri0li1h.html (page): 爱奇艺官方页面确认《四海鲸骑 第2季》为2019年动画、24集全；剧情及分集标题与 Bangumi、TMDB 第二季对应，支持这是同一部连续剧情动画。\n\n备注：TMDB 第2—10集日期与 Bangumi 不同：第2集晚7天、第3集晚14天、第4—10集晚21天；差异原因尚未核实，不能断言属于会员与免费排期差异。其余15集日期一致，全部24集标题对应明确。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/288780; https://www.themoviedb.org/tv/99695; https://www.themoviedb.org/tv/99695/season/2; https://api.bgm.tv/v0/subjects/288780; https://www.iq.com/album/19rxg2pxy8",
-    "verifiedAt": "2026-09-08T21:45:40.991Z"
+    "source": "https://bgm.tv/subject/288780; https://www.themoviedb.org/tv/99695; https://www.themoviedb.org/tv/99695/season/2; https://www.iqiyi.com/a_19rri0li1h.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 99695
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

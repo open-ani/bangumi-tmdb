@@ -1,16 +1,119 @@
 {
   "anidbId": 18328,
   "bangumiId": 470777,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1404496,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1404497,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1404498,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1404499,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1404500,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1404501,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1404502,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1404503,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1404504,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1404505,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1404506,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1404507,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 1572856,
+      "sort": 27,
+      "type": 1
+    },
+    {
+      "id": 1572857,
+      "sort": 28,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1572856,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 221165,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1572857,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 221165,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是2024年播出的短篇动画《百姓貴族 2nd Season》，正篇为作品通算第15—26头、共12话。TMDB 将《百姓貴族》的三期正篇合并收录在 TV 221165 的第1季，而不是分别建立第2季：其中 TMDB S1E13—E24 的标题依次为《堆肥》《クマの嵐》《農機》《牛知識》《続！ 親父殿》《おかんとばあさん》《馬》《農家のおやつ》《害獣大進撃》《農高生よ大志を抱け》《十勝開拓史》《北海道独立計画》，与本 subject 的12话逐一对应。官方编号中的第13、14头是《漫画家・荒川》前后篇，TMDB 已放入特别篇，因此第二季的官方通算第15—26头在 TMDB 常规季中对应 E13—E24。候选 season=2 不成立，因为 TMDB API 中该剧没有第2季且该端点返回404。\n\nhttps://www.themoviedb.org/tv/221165 (api_snapshot): TMDB API 快照确认 TV 221165 原名为《百姓貴族》，2023年首播，简介与荒川弘根据自身北海道酪农、农作经历创作的动画一致；其36集正篇全部归入第1季。\n\nhttps://www.themoviedb.org/tv/221165/season/1 (api_snapshot): TMDB API 快照显示第1季共36集；E13—E24的12个标题按顺序完整对应《百姓貴族 2nd Season》的《堆肥》至《北海道独立計画》。\n\nhttps://www.themoviedb.org/tv/221165/season/0 (api_snapshot): TMDB API 快照显示《漫画家・荒川（前編／後編）》被收录为特别篇 S0E1—E2，解释了官方通算第15头为何对应 TMDB 常规季第13集。\n\nhttps://s.mxtv.jp/company/press/20240828_6bi0z6zhwcjgvqwqygdeiufvhn5rdh.pdf (search_snippet): TOKYO MX 官方公告确认《百姓貴族》2nd Season 于2024年10月4日开播，第二季首话是通算第15头《堆肥》。\n\nhttps://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/3/ (page): BS朝日官方放送记录列出2024年第二季开头的通算第15—18头：《堆肥》《クマの嵐》《農機》《牛知識》。\n\nhttps://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/2/ (page): BS朝日官方放送记录列出第二季后段的通算第19—26头，并以第26头《北海道独立計画》结束，与 TMDB S1E17—E24 的标题顺序一致。\n\n备注：TMDB 快照中本段部分首播日期明显存在错位或误录，例如《堆肥》《クマの嵐》被标为2023-12-24，后续话也整体提前；但12话标题及顺序完整一致，且官方资料确认第二季的实际播出范围，因此不影响 ID、季号和集数范围的确定。",
+    "evidence": "codex: 确认对应 TMDB TV 221165 的 S1E13—E24及 S0E3—E4。TMDB 将多期正篇合并于第1季，不能按作品标题中的第二季选择 season=2。12话正篇的标题、简介中的通算编号、首末话标记及官方放送顺序相互印证；两话SP由出版社确认属于第二季DVD附赠内容，且与第0季标题逐一吻合。保留旧映射的正篇范围，补齐连续规则和两话SP映射，与输入中第一季已占用范围无重叠。\n\nhttps://www.themoviedb.org/tv/221165 (api_snapshot): 日文原名搜索得到 TV 221165；详情确认其为2023年开始的《百姓貴族》电视动画，剧情围绕荒川弘在北海道的七年务农经历，制作公司包括 Pie in the sky、新书馆及 TOKYO MX，与输入的原作、剧情及制作信息相符。当前仅列第0季和第1季，第1季共36集。\n\nhttps://www.themoviedb.org/tv/221165/season/1 (api_snapshot): 第1季集表共36集、仅1页。E13—E24标题依次为《堆肥》《クマの嵐》《農機》《牛知識》《続！ 親父殿》《おかんとばあさん》《馬》《農家のおやつ》《害獣大進撃》《農高生よ大志を抱け》《十勝開拓史》《北海道独立計画》，与 Bangumi sort 15—26逐一一致；E13简介明确为第二季首话，E24简介明确为第二季末话。E25开始第三季。\n\nhttps://www.themoviedb.org/tv/221165/season/0 (api_snapshot): 第0季共6集、仅1页。E3、E4分别为《十勝へGO！（前編）》及《十勝へGO！（後編）》，日期均为2025-04-23，对应输入两话SP；E1—E2属于第一季附赠篇，E5—E6为其他篇章。\n\nhttps://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/3/ (page): BS朝日官方记录列出第15—18头及对应标题，播出日期依次为2024-10-07、10-14、10-21、10-28，均较输入首播日期晚3天，标题和顺序一致。\n\nhttps://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/2/ (page): BS朝日官方记录列出第19—26头，标题与输入后8话逐一一致，2024-11-04至12-23每周播出，均较输入日期晚3天；随后接续2025年的第29头，确认第二季正篇边界。\n\nhttps://www.shinshokan.co.jp/book/b653891.html (page): 原作出版社新书馆确认第8.1卷所附DVD收录第二季全部12话及未放送《十勝へGO！》前后篇两话，支持两话SP的版本归属；商品页标示发售日为2025-04-21。\n\n备注：TMDB正篇日期存在错录：S1E13—E14标为2023-12-24，E15—E24较输入首播日期提前14天。映射依靠全部标题、通算编号、第二季首末话说明及官方播出记录共同确认。；两话SP的TMDB日期为2025-04-23，出版社商品页为2025-04-21，输入未提供日期；具体发行日存在差异，但标题、前后篇顺序及DVD归属明确。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/470777; https://www.themoviedb.org/tv/221165; https://www.themoviedb.org/tv/221165/season/1; https://www.themoviedb.org/tv/221165/season/0; https://s.mxtv.jp/company/press/20240828_6bi0z6zhwcjgvqwqygdeiufvhn5rdh.pdf; https://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/3/; https://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/2/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/470777; https://www.themoviedb.org/tv/221165; https://www.themoviedb.org/tv/221165/season/1; https://www.themoviedb.org/tv/221165/season/0; https://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/3/; https://www.bs-asahi.co.jp/hyakusho_kizoku/lineup/page/2/; https://www.shinshokan.co.jp/book/b653891.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 15,
+      "tmdbId": 221165
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -18,6 +121,13 @@
       "episodeEnd": 24,
       "id": 221165,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 4,
+      "id": 221165,
+      "season": 0,
       "type": "tv"
     }
   ]

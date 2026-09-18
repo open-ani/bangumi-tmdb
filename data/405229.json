@@ -1,13 +1,95 @@
 {
+  "anidbId": 18284,
   "bangumiId": 405229,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1276639,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1276640,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1276641,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1276642,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1276643,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1276644,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1276645,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1276646,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1276647,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1276648,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1276649,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1276650,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1276651,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1276652,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1276653,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1276654,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 239026 与 Bangumi 主体一致：同为中文动画《不死不灭》，首播日期均为 2023-11-16，剧情均围绕独孤败天展开，TMDB 别名包含《The Eternal Strife》《不死不灭之少主出山》《The Immortal Boy Comes Out of the Mountain》等；制作公司 Wonder Cat Animation 与 Bangumi 的万维猫动画对应。TMDB 明确为已完结单季 TV，共16集，末集日期为2024-02-22，与 Bangumi 的16集及播放结束日期一致。季表实际列出第1季第1至16集，且无额外混入内容，因此推荐完整第1季。\n\nhttps://api.bgm.tv/v0/subjects/405229 (api_snapshot): Bangumi fresh API 信息：WEB动画《不死不灭之少年出山》，2023-11-16至2024-02-22，共16集；剧情为独孤败天卷入武林纷争并抗天；原作辰东，制作含万维猫动画。\n\nhttps://www.themoviedb.org/tv/239026 (api_snapshot): TMDB 详情：TV《不死不灭》，2023-11-16首播，2024-02-22完结，共1季16集；剧情、语言、制作公司 Wonder Cat Animation 与 Bangumi 信息相符；别名包含 The Eternal Strife、Bu Si Bu Mie 及少年出山相关标题。\n\nhttps://www.themoviedb.org/tv/239026/season/1 (api_snapshot): TMDB第1季真实季表：season=1，episodeCount=16，实际列出第1至16集，日期从2023-11-16至2024-02-22。",
+    "evidence": "codex: 作品身份及整季范围已确认：年份、剧情、制作公司、配音阵容、首末播出日期和16集总量相符，对应 TMDB 239026 第1季完整内容。Bangumi 各章节缺少标题与日期，无法完成要求的逐集交叉核验，因此保留整季匹配，暂不填写连续规则。\n\nhttps://bgm.tv/subject/405229 (search_snippet): Bangumi 条目为2023年网络动画，导演贺冬昕，制作包括 bilibili、万维猫动画；播出区间为2023-11-16至2024-02-22，剧情围绕独孤败天展开。\n\nhttps://bgm.tv/subject/405229/ep (page): Bangumi 章节页列出本篇第1至16话，但未提供各话标题和播出日期。\n\nhttps://www.bilibili.com/bangumi/media/md28339925/ (page): 官方播放平台确认《不死不灭》于2023-11-16开播，已完结，全16话。\n\nhttps://www.bilibili.com/bangumi/media/md28339925/ (search_snippet): 官方页面列出的独孤败天剧情、导演贺冬昕及史泽鲲、贺文潇等配音信息与候选作品相符；前8话标题依次与 TMDB 第1季前8集一致。\n\nhttps://www.themoviedb.org/tv/239026 (api_snapshot): TMDB 239026《不死不灭》为中文动画系列，制作公司为 Wonder Cat Animation，剧情及主要配音与官方资料一致；别名含《不死不滅之少年出山》。全剧1季16集，首末播出日期为2023-11-16、2024-02-22。\n\nhttps://www.themoviedb.org/tv/239026/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共16集：第1、2集同于2023-11-16播出，之后每周一集至2024-02-22；首集《独孤世家》，末集《忘情魔君》，没有混入其他作品或额外特别篇。\n\n备注：逐集映射尚未确认；需要补充 Bangumi 各话标题或播出日期，并与完整官方集表及 TMDB 集表逐项核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/405229; https://api.bgm.tv/v0/subjects/405229; https://www.themoviedb.org/tv/239026; https://www.themoviedb.org/tv/239026/season/1",
-    "verifiedAt": "2026-09-08T23:37:10.454Z"
+    "source": "https://bgm.tv/subject/405229; https://bgm.tv/subject/405229/ep; https://www.bilibili.com/bangumi/media/md28339925/; https://www.themoviedb.org/tv/239026; https://www.themoviedb.org/tv/239026/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

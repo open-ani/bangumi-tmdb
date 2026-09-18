@@ -1,16 +1,103 @@
 {
   "anidbId": 12226,
   "bangumiId": 185420,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 668815,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 668816,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 668817,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 668818,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 668819,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 668820,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 668821,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 668822,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 668823,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 668824,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 668825,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 668826,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 703602,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 703602,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 68165,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 的 AniDB 标题与 ID 12226 匹配，且 Bangumi 主体包含 12 集正篇及第 13 集特别篇「おふろ読書」。TMDB TV 68165 的日文原名完全一致；第 1 季有 12 集，标题与正篇逐集对应，因此采用完整第 1 季。TMDB 第 0 季包含标题相同的「おふろ読書」，应纳入主体特别篇。Bangumi 日期比 TMDB 及其剧集日期早一天，属于日期记录差异，不影响作品及逐集对应判断。\n\nhttps://bgm.tv/subject/185420 (page): Bangumi subject 标题为「バーナード嬢曰く。」；2016-10-06 开播，主体有 12 集正篇及排序第 13 的特别篇「おふろ読書」。\n\nhttps://www.themoviedb.org/tv/68165 (api_snapshot): TMDB TV 68165 的日文名称和原名均为「バーナード嬢曰く。」，共 12 集正篇；第 0 季为 1 集特别篇，第 1 季为 12 集。\n\nhttps://www.themoviedb.org/tv/68165/season/1 (api_snapshot): TMDB 第 1 季的 12 集标题依次与 Bangumi 正篇第 1 至 12 集对应，包括「バーナード嬢、曰く」「図書室」「村上春樹とかSFとか」至「ひとり旅」。",
+    "evidence": "codex: 年份、电视短篇媒介、剧情人物、制作公司及主创一致，确认对应TMDB 68165。正篇12集的标题、总量与周播日期逐集吻合，日期差一天可由深夜放送记日方式解释；第2集仅存在标题详略差异。特别篇「おふろ読書」标题及发行日期完全一致，对应S00E01。\n\nhttps://bgm.tv/subject/185420 (page): Bangumi 将本作列为2016年电视动画，包含12集正篇及1集SP；剧情围绕町田佐和子与读书伙伴展开，动画制作为Creators in Pack，总导演为ひらさわひさよし。\n\nhttps://www.themoviedb.org/tv/68165 (api_snapshot): 日文原名搜索命中68165。详情确认其为2016年电视动画，制作公司、导演及四名主要角色与声优均与Bangumi一致；第1季12集，第0季1集。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=21153004&workId=21153 (page): 正版配信资料确认制作年份为2016年，剧情为町田佐和子与朋友们的图书室日常；原作施川ユウキ、导演ひらさわひさよし、脚本内堀優一及四名主演对应一致。\n\nhttps://www.themoviedb.org/tv/68165/season/1 (api_snapshot): 完整读取第1季集表，共12集、1页。逐集标题与输入正篇对应；第2集标题扩写为「図書室 / 神林しおり、曰く」。12集日期均较Bangumi晚一天，从2016-10-07至2016-12-23，周播顺序一致。\n\nhttps://televimanga.blog.jp/archives/77153664.html (search_snippet): 资料记载电视播出时间为周四25:00至25:05，即周五凌晨01:00至01:05，解释两站正篇日期相差一天。\n\nhttps://www.themoviedb.org/tv/68165/season/0 (api_snapshot): 完整读取第0季集表，共1集、1页；第1集为「おふろ読書」，日期2017-01-20，与Bangumi特别篇703602的标题和日期完全一致。\n\nhttps://animeschedule.net/anime/bernard-jou-iwaku-ofuro-dokusho (search_snippet): 「おふろ読書」被独立标注为1集特别篇，发行日期2017-01-20，别名为本作第13集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/185420; https://www.themoviedb.org/tv/68165; https://www.themoviedb.org/tv/68165/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/185420; https://www.themoviedb.org/tv/68165; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=21153004&workId=21153; https://www.themoviedb.org/tv/68165/season/1; https://televimanga.blog.jp/archives/77153664.html; https://www.themoviedb.org/tv/68165/season/0; https://animeschedule.net/anime/bernard-jou-iwaku-ofuro-dokusho",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68165
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

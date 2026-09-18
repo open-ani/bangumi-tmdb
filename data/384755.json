@@ -1,13 +1,144 @@
 {
   "bangumiId": 384755,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1106983,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1106984,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1106985,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1106986,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1106987,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1106988,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1106989,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1106990,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1106991,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1106992,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1106993,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1106994,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1106995,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1106996,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1106997,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1106998,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1106999,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1107000,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1107001,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1107002,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1107003,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1107004,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1107005,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1107006,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1107007,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1107008,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 215675 是《猪猪侠之竞速小英雄》母系列电视动画，剧情与 Bangumi 描述均为猪猪侠等超星特工追踪星际盗贼、穿梭空星域和暗星域。TMDB 详情显示该系列为中文 TV 动画，工作人员包括王龙波、陆锦辉；第 3 季简介与 Bangumi 主体剧情直接对应，且季表实际包含 26 集、每集约 15 分钟。Bilibili 页面也明确标为“猪猪侠之竞速小英雄3”、2019-12-20 开播、全 26 话。因此应映射为母系列第 3 季完整范围，而不是 2026 年同名电影或其他季。\n\nhttps://api.bgm.tv/v0/subjects/384755 (api_snapshot): Bangumi API 原始信息：TV，2019-12-20，26 集；剧情为超星特工猪猪侠一行进入新星域并在暗星域、空星域间对抗星盗。\n\nhttps://www.themoviedb.org/tv/215675 (api_snapshot): TMDB TV 详情：原名《猪猪侠之竞速小英雄》，系列首日期为 2019-10-23，剧情与 Bangumi 简介一致；共 10 季，每季 26 集；工作人员包括 Longbo Wang、Jinhui Lu；别名含 G.Bond.Speed.Hero、GG Bond And Race Hero。\n\nhttps://www.themoviedb.org/tv/215675/season/3 (api_snapshot): TMDB 第 3 季实际季表：2019-12-17，26 集，集号连续 1–26，简介与 Bangumi 主体剧情一致，每集片长约 15 分钟。\n\nhttps://www.bilibili.com/bangumi/media/md21116024 (page): 页面明确标为《猪猪侠之竞速小英雄3》，2019-12-20 开播，已完结，全 26 话。\n\n备注：Bangumi 标注的 2019-12-20 与 TMDB 第 3 季日期 2019-12-17 相差 3 天，属于不同平台/播出记录差异；Bilibili 与 Bangumi 日期一致，不影响季身份。",
+    "evidence": "codex: 年份、电视动画媒介、第三季特定剧情、26集规模及15分钟片长共同支持对应TMDB 215675第三季整季，未见混入其他作品。季身份已确认；Bangumi章节均无标题和日期，且TMDB部分集标题存在冲突，因此暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/215675 (api_snapshot): TMDB 215675 为2019年中文电视动画《猪猪侠之竞速小英雄》，导演列有 Longbo Wang、Jinhui Lu；第三季剧情与输入完全吻合，第二、四季各有不同剧情。\n\nhttps://www.themoviedb.org/tv/215675/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共26集，集号1—26，每集15分钟，全部日期标为2019-12-17。第8、21、25集标题分别重复前一集标题。\n\nhttps://www.bilibili.com/bangumi/media/md21116024 (page): 哔哩哔哩标明《猪猪侠之竞速小英雄3》于2019-12-20开播，全26话，年份、日期及集数与输入一致。\n\nhttps://www.mgtv.com/h/333352.html (search_snippet): 芒果TV第三季条目列出共26集，剧情涉及超星特工、奇迹，以及在暗星域和空星域之间对抗星盗，与输入及TMDB第三季一致。\n\nhttps://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=98132a6103a44cdd813fad149e70a7c0.pdf (search_snippet): 广电总局资料列出《猪猪侠之竞速小英雄3》为广东咏声动漫股份有限公司制作，26集，每集15分钟。\n\nhttps://bkso.baidu.com/item/猪猪侠之竞速小英雄/24099178?fromModule=lemma_inlink (search_snippet): 百科第三季分集目录与TMDB多数标题顺序相符，但第8集为《收藏家！古董赛车？》、第21集为《骗局？把房车还来！》、第25集为《现身？决战雷帝斯！》，与TMDB对应标题存在冲突。\n\n备注：TMDB第三季日期为2019-12-17，Bangumi及哔哩哔哩为2019-12-20；差异原因尚未证实，不能直接认定为平台播出差异。；第8、21、25集疑似存在TMDB标题误录；需要正版平台逐集标题或片头证据，以及Bangumi章节内容补充，才能确认逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/384755; https://api.bgm.tv/v0/subjects/384755; https://www.themoviedb.org/tv/215675; https://www.themoviedb.org/tv/215675/season/3; https://www.bilibili.com/bangumi/media/md21116024",
-    "verifiedAt": "2026-09-08T23:25:25.049Z"
+    "source": "https://bgm.tv/subject/384755; https://www.themoviedb.org/tv/215675; https://www.themoviedb.org/tv/215675/season/3; https://www.bilibili.com/bangumi/media/md21116024; https://www.mgtv.com/h/333352.html; https://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=98132a6103a44cdd813fad149e70a7c0.pdf; https://bkso.baidu.com/item/猪猪侠之竞速小英雄/24099178?fromModule=lemma_inlink",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

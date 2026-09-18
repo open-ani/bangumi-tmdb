@@ -1,16 +1,91 @@
 {
   "anidbId": 10526,
   "bangumiId": 98217,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 385404,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 385405,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 385406,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 385407,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 385408,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 385409,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 385410,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 385411,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 385412,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 385413,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 385414,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 385415,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 385416,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2014 年播出的 13 集 TV 短动画，原作、制作公司、播出信息和全部 13 集标题均与 TMDB 89644 对应。TMDB 主页面将其列为《監督不行届》动画改编，2014 年、Season 1 共 13 集；所附 Season 1 API 快照中的 13 个剧集标题与 Bangumi 逐集对应，因此应映射为 TMDB TV 89644 第 1 季完整范围。Bangumi 的首播日为 4 月 3 日、TMDB 为 4 月 4 日，属于播出日期记录差异，不足以推翻标题、数量和内容的完整对应。未发现需额外纳入的特别篇或其他主体集数。\n\nhttps://bgm.tv/subject/98217 (page): Bangumi 将条目标为 TV，话数 13，首播 2014-04-03，制作公司为 DLE，并列出 13 个章节及逐集标题、播出日期。\n\nhttps://www.themoviedb.org/tv/89644 (page): TMDB 条目原名为 監督不行届，说明其为该漫画的动画改编；页面列出 2014 年 Season 1、13 集，并显示季终集标题与 1x13 编号。\n\nhttps://www.themoviedb.org/tv/89644 (page): TMDB 主页面确认该作品为日本动画，剧情为 Moyoco Anno 与 Hideaki Anno 婚姻生活的喜剧性自传改编，与 Bangumi 条目简介和原作信息一致。\n\nhttps://www.themoviedb.org/tv/89644/season/1 (api_snapshot): 所附 TMDB API 快照显示第 1 季 season_number=1、episodeCount=13，且完整列出第 1 至 13 集；剧集标题与 Bangumi 的 13 个章节逐一对应。\n\nhttps://www.themoviedb.org/tv/89644 (api_snapshot): 所附 TMDB TV API 快照显示 id=89644、original_name=監督不行届、first_air_date=2014-04-04、number_of_episodes=13。\n\n备注：AniDB 页面本身拒绝抓取，无法用独立 AniDB 页面进一步确认 AID 10526；但 Bangumi 与 TMDB 的原名、年份、题材、制作/剧情线索及全部逐集标题已足以确认目标作品和季范围。；TMDB 部分集的日期按连续周五记录，与 Bangumi 的周四播出日期及 5 月初停播记录不完全一致；集数和标题完整一致，因此不影响本次作品/季映射。",
+    "evidence": "codex: 年份、电视短动画媒介、剧情、制作公司、导演及主演一致；第1季全部13集标题与Bangumi逐集对应，集数及顺序一致，未混入其他作品。因此确认对应TMDB 89644第1季整季，本篇1—13话顺序映射。\n\nhttps://bgm.tv/subject/98217 (page): Bangumi 确认为2014年电视短动画，共13话；原作安野モヨコ、导演谷東、动画制作DLE，主演林原めぐみ与山寺宏一，剧情描写安野与庵野秀明的婚姻日常。\n\nhttps://www.themoviedb.org/tv/89644 (api_snapshot): 实际读取 TMDB 89644 详情：原名「監督不行届」，2014年作品，共1季13集；婚姻日常剧情、DLE、导演谷東及两位主演均与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/89644/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共13集，每集3分钟。逐集核对输入中的13个章节，标题及顺序对应；第2集仅空格差异，第7集日文长音写法略异。第1—4集日期比Bangumi晚1天，第5—13集比Bangumi早6天。\n\n备注：两站放送日期不完全一致：TMDB按2014-04-04至06-27连续每周记录，Bangumi为04-03至07-03且5月初有一周间隔。日期差异原因未独立确认，但完整标题对应足以确定逐集关系。",
     "method": "codex",
     "source": "https://bgm.tv/subject/98217; https://www.themoviedb.org/tv/89644; https://www.themoviedb.org/tv/89644/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 89644
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

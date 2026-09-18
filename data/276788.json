@@ -1,19 +1,101 @@
 {
   "anidbId": 14727,
   "bangumiId": 276788,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 898785,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 898786,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 898787,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 898788,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 898789,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 898790,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 898791,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 898792,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 898793,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 898794,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 898795,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 898796,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 898797,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 898798,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 91768第1季第1—14集。年份、剧情、制作人员及14话发行范围吻合，全部集标题和跨午夜换算后的播出日期逐集一致。旧映射的整季范围过宽，须收窄至这14集，避免纳入后续季度。\n\nhttps://www.themoviedb.org/tv/91768 (api_snapshot): 日文标题搜索命中 TV 91768；详情中的2019年首播、丽乃转生为麦茵并制作书本的剧情、原作者香月美夜及制作公司亜細亜堂、GENCO均与输入吻合。\n\nhttps://www.themoviedb.org/tv/91768/season/1 (api_snapshot): 已读取第1季完整36集表，total_pages=1。第1—14集的日文标题与输入逐集完全一致；日期均比Bangumi晚一天，第13、14集同为2019-12-26。第15集起进入2020年续篇，第27集起进入2022年续篇，因此本subject仅覆盖第1—14集。\n\nhttps://prtimes.jp/main/html/rd/p/000000259.000031422.html (page): 出品方Happinet的2019年公告确认本作是本郷みつる执导、亜細亜堂制作的TV动画，WOWOW于10月2日起每周三24:30播出；全话蓝光收录第1—14章。跨午夜播出解释了Bangumi与TMDB日期相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/276788; https://www.themoviedb.org/tv/91768; https://www.themoviedb.org/tv/91768/season/1; https://prtimes.jp/main/html/rd/p/000000259.000031422.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 91768
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 14,
       "id": 91768,
       "season": 1,
       "type": "tv"

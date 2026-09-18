@@ -1,18 +1,42 @@
 {
   "anidbId": 12051,
   "bangumiId": 176025,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 713932,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 713933,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi 条目明确是2017年上映、50分钟的剧场版第一章「嚆矢篇」，主体由「西暦2202年・甦れ宇宙戦艦ヤマト」和「緊迫・月面大使館に潜行せよ」两话构成。AniDB 12051 的名称、别名和2017-02-25起始日期与该系列吻合。TMDB 45844 的第2季明确命名为「宇宙戦艦ヤマト2202 愛の戦士たち」，第1、2集标题与第一章两话逐字对应；因此应映射到第2季第1至2集，而不是整季。2017年剧场上映与2018年电视播出日期不同，是发行形态差异。\n\nhttps://bgm.tv/subject/176025 (page): Bangumi 将条目标为剧场版，话数为2，并列出羽原信义、结城信辉等制作信息。\n\nhttps://www.eiga.com/movie/85563/ (page): 该作品为2017年2月25日上映、50分钟；第一章由第1话「西暦2202年・甦れ宇宙戦艦ヤマト」和第2话「緊迫・月面大使館に潜行せよ」构成。\n\nhttps://www.yamato2202.net/story/ (page): 官方故事页将第一章「嚆矢篇」列为上述两话，并给出与TMDB第2季简介及前两集一致的剧情和制作人员信息。\n\nhttps://www.filebot.net/forums/viewtopic.php?t=10882 (search_snippet): 搜索摘要明确将 AniDB ID 12051 对应到 Uchuu Senkan Yamato 2202: Ai no Senshi-tachi，并列出其别名及2017-02-25起始日期。\n\nhttps://www.themoviedb.org/tv/45844 (api_snapshot): API快照显示TMDB TV ID 45844包含第2季「宇宙戦艦ヤマト2202 愛の戦士たち」，共26集。\n\nhttps://www.themoviedb.org/tv/45844/season/2 (api_snapshot): API快照显示第2季第1集标题为「西暦2202年・甦れ宇宙戦艦ヤマト」、第2集标题为「緊迫・月面大使館に潜行せよ」，与第一章两话完全对应。",
+    "evidence": "codex: 已确认第一章的独立电影条目1372264，并确认其两话内容对应TV 45844第2季第1—2集。年份、50分钟总片长、制作人员、剧情和两话标题相互吻合，因此同时声明整章电影与分集收录范围；逐集规则只指向TV集表。电影日期对应完成披露活动，Bangumi日期对应正式公映，TV集表则采用2018年播出日期。旧映射范围成立，但遗漏了独立电影条目；不得扩展至第2季全26集。\n\nhttps://www.yamato2202.net/story/ (page): 官方故事页明确将第一章「嚆矢篇」划分为第1、2话，标题与输入两章完全一致；剧情分别涉及地球与加米拉斯联合舰队作战、地球扩军及旧船员重聚。\n\nhttps://eiga.com/movie/85563/ (page): 第一章于2017年2月25日公映，片长50分钟，由两话组成；导演羽原信义、系列构成福井晴敏、人物设计结城信辉、动画制作XEBEC，与输入版本一致。\n\nhttps://www.yamato2202.net/news/cg1_29.html (search_snippet): 官方新闻摘要列出第一章完成披露活动时间为2017年2月6日，可解释TMDB电影日期早于正式公映日期。\n\nhttps://www.themoviedb.org/movie/1372264 (api_snapshot): 电影1372264为第一章「嚆矢篇」，片长50分钟，日期2017-02-06；简介明确包含第1、2话，导演羽原信义、编剧福井晴敏及制作公司XEBEC均吻合。\n\nhttps://www.themoviedb.org/tv/45844 (api_snapshot): TV 45844详情明确将第2季命名为《宇宙战舰大和号2202 爱的战士们》，共26集；第1季是2199，不能混用。\n\nhttps://www.themoviedb.org/tv/45844/season/2 (api_snapshot): 第2季集表共26集、仅1页。第1、2集标题分别与Bangumi两话完全一致，剧情也吻合，均为25分钟；日期分别为2018-10-06、2018-10-13，记录的是后续电视播出。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/176025; https://www.eiga.com/movie/85563/; https://www.yamato2202.net/story/; https://www.filebot.net/forums/viewtopic.php?t=10882; https://www.themoviedb.org/tv/45844; https://www.themoviedb.org/tv/45844/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/176025; https://www.yamato2202.net/story/; https://eiga.com/movie/85563/; https://www.yamato2202.net/news/cg1_29.html; https://www.themoviedb.org/movie/1372264; https://www.themoviedb.org/tv/45844; https://www.themoviedb.org/tv/45844/season/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 45844
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "id": 1372264,
+      "type": "movie"
+    },
     {
       "episode": 1,
       "episodeEnd": 2,

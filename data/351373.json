@@ -1,19 +1,91 @@
 {
   "anidbId": 16827,
   "bangumiId": 351373,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1156143,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1156144,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1156145,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1156146,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1156147,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1156148,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1156149,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1156150,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1156151,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1156152,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1156153,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1156154,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、媒介、剧情、导演及制作公司一致，12集标题与日期逐集吻合。TMDB将两个季度合并为第1季24集，旧映射范围过宽，应限定为第1季第1至12集，与第二季度第13至24集的范围不重叠。\n\nhttps://www.themoviedb.org/tv/135335 (api_snapshot): 日文原名搜索命中 TV 135335；详情确认首播日期为2023-01-06，导演为鈴木洋平，制作公司含 J.C.STAFF，安立志成为银砂糖师并雇用战士妖精夏尔的剧情与输入一致，确认为同一部2023年电视动画。\n\nhttps://www.themoviedb.org/tv/135335/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1至12集的日文标题及放送日期与输入12个章节逐一完全一致，日期范围为2023-01-06至2023-03-24。第13集从2023-07-07开始，属于后续第二季度，因此本 subject 仅覆盖第1季第1至12集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/351373; https://www.themoviedb.org/tv/135335; https://www.themoviedb.org/tv/135335/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 135335
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 135335,
       "season": 1,
       "type": "tv"

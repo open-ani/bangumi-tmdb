@@ -1,22 +1,55 @@
 {
   "anidbId": 10392,
   "bangumiId": 93356,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 358871,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 400770,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 423220,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 460494,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 519146,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject明确是2014–2015年发行、共5集的OVA，不是整部2016年TV版。TMDB候选66870的可用快照显示其为2016年首播、仅有第1季且共13集；官方资料明确说明TV第2–6话是已发行OAD各话为电视播出而重新剪辑的版本。因此主体应映射到TMDB第1季第2–6集，不能纳入第1集或整季。候选season 0不应采用；其请求失败不作为不存在依据。\n\nhttps://bangumi.tv/subject/93356 (page): Bangumi将该条目标为OVA，共5话，发售/播出范围为2014-05-16至2015-07-17，动画制作公司为Lay-duce，并列出5个OVA章节。\n\nhttps://anidb.app/anime/magi-adventure-of-sinbad-3129 (page): AniDB公开页面对应同名《Magi: Adventure of Sinbad》，类型为OVA，并标注存在TV版替代版本；标题、类型和发行时期与Bangumi subject匹配。\n\nhttps://www.aniplex.co.jp/lineup/sinbad/news/detail/?id=37949 (search_snippet): 官方资料公布TV全13话标题，并明确说明第2话至第6话是将既发OAD各话重新编辑为电视播出的版本。\n\nhttps://www.themoviedb.org/tv/66870 (api_snapshot): 所附TMDB API快照显示ID 66870为同名日语TV作品，首播日为2016-04-17，第1季共13集；快照中的season 0请求失败未被当作不存在。\n\n备注：AniDB官方页面本次无法直接读取，AniDB公开镜像未显示数字ID；但同名OVA、类型、日期及其TV替代版本均与Bangumi subject一致。；TV版是对OAD内容的电视重剪辑，不是逐帧相同版本；此处按官方明确的第2–6话对应既发5集OAD进行映射。",
+    "evidence": "codex: 应映射至TMDB 67340第1季全5集。该条目的OVA/OAD版本标识、发行年份、制作人员、剧情及集数均吻合，五集标题的篇章与前中后顺序逐一对应。旧映射66870第1季第2至6集属于2016年电视重剪版，应予纠正。\n\nhttps://bgm.tv/subject/93356 (page): Bangumi 将本作标为全5话OVA，2014年5月16日至2015年7月17日随漫画第3至7卷发行；导演宮尾佳和，动画制作Lay-duce。\n\nhttps://www.themoviedb.org/tv/67340 (api_snapshot): TMDB 67340 首发于2014年5月16日，共1季5集，别名明确含OVA及OAD；导演宮尾佳和、原作大高忍、制作公司Lay-duce，与Bangumi一致，剧情为辛巴达成为王之前的冒险。\n\nhttps://www.themoviedb.org/tv/67340/season/1 (api_snapshot): 第1季完整集表共5集、仅1页：第1至2集为巴尔迷宫攻略前后篇，第3至5集为瓦雷弗尔迷宫攻略三部，逐集对应Bangumi的5个标题。日期依次为2014-05-16、2014-08-18、2014-12-18、2015-04-15、2015-07-15。\n\nhttps://www.themoviedb.org/tv/66870 (api_snapshot): 旧映射中的TMDB 66870 是2016年4月17日首播、共13集的TV版，其TVDB ID为310718，说明seed指向TV版。\n\nhttps://www.aniplex.co.jp/lineup/sinbad/news/detail/?id=37949 (page): 官方明确说明2016年TV版第2至6话由既发OAD重新剪辑为电视播出版，属于不同版本，不能替代已单独收录的原始OAD。\n\n备注：第2至5集的TMDB日期与Bangumi分别相差7、2、2、2天；具体发行日期存在元数据差异，但年份、月份、逐集标题、篇章顺序及总集数一致，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/93356; https://bangumi.tv/subject/93356; https://anidb.app/anime/magi-adventure-of-sinbad-3129; https://www.aniplex.co.jp/lineup/sinbad/news/detail/?id=37949; https://www.themoviedb.org/tv/66870",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/93356; https://www.themoviedb.org/tv/67340; https://www.themoviedb.org/tv/67340/season/1; https://www.themoviedb.org/tv/66870; https://www.aniplex.co.jp/lineup/sinbad/news/detail/?id=37949",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67340
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 2,
-      "episodeEnd": 6,
-      "id": 66870,
+      "id": 67340,
       "season": 1,
       "type": "tv"
     }

@@ -1,16 +1,156 @@
 {
   "anidbId": 13390,
   "bangumiId": 222425,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752247,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752248,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752249,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752250,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752251,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752252,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752253,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752254,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752255,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752256,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 752257,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 752258,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 762497,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 762498,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 762499,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 762500,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 762501,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 762502,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 762503,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 762504,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 762505,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 762506,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 762507,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 762508,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 765783,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 765831,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 74089第1季。年份、电视动画媒介、剧情、制作人员及24集本篇范围一致；逐集标题全部同序对应，官方集表进一步核实了Bangumi日期并澄清TMDB日期错误，可建立本篇1—24话连续映射。两篇特别节目暂不映射。\n\nhttps://www.themoviedb.org/tv/74089 (api_snapshot): 日文原名搜索命中 TV 74089；详情确认首播于2017-10-06，由MAPPA、东北新社制作，导演朴性厚；索德、索菲寻找“El Dorado”的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/74089/season/1 (api_snapshot): 第1季实际集表共24集，total_pages=1；逐集标题与Bangumi本篇1—24话全部对应，顺序一致，无其他作品或特别节目混入。部分播出日期与官方记录不符。\n\nhttps://www.tv-tokyo.co.jp/anime/vanishingline/episodes/index_3.html (page): 电视东京官方列出第1—5话的标题、剧情及日期，与Bangumi及TMDB对应集一致。\n\nhttps://www.tv-tokyo.co.jp/anime/vanishingline/episodes/index_2.html (page): 官方第6—14话标题、日期与Bangumi一致；第11话实际为2017-12-15。2018-01-05的PAUSE为演员回顾及介绍节目，独立于本篇编号。\n\nhttps://www.tv-tokyo.co.jp/anime/vanishingline/episodes/index.html (page): 官方第15—24话标题、日期与Bangumi一致；第19、20、23、24话分别于2018-02-23、03-02、03-23、03-30播出，确认TMDB相应日期有误，但集号及标题对应不变。\n\nhttps://www.tv-tokyo.co.jp/anime/vanishingline/staff/ (page): 官方制作人员包括导演朴性厚、编剧村越繁等、音乐高田龙一及广川惠一，与TMDB和输入资料相互印证。\n\nhttps://garo-project.jp/VANISHING_LINE/ (page): 作品官网将放送直前SP与PAUSE列为演员介绍、前半剧情回顾的特别节目，区别于正篇。\n\nhttps://api.themoviedb.org/3/tv/74089/season/0 (api_snapshot): 调用第0季接口返回HTTP 404；详情季列表也仅列第1季，未取得两篇特别节目的可验证TMDB集号。\n\n备注：TMDB部分集的日期相差一天，第11、19、20、23、24集还有更明显日期错误；官方集号、标题与Bangumi一致，未据此调整映射顺序。；放送直前SP（765783）及PAUSE（765831）未找到可验证的TMDB对应集，保留未映射；第0季返回404不代表它们在TMDB其他条目中必然不存在。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/222425; https://www.themoviedb.org/tv/74089; https://www.themoviedb.org/tv/74089/season/1; https://www.tv-tokyo.co.jp/anime/vanishingline/episodes/index_3.html; https://www.tv-tokyo.co.jp/anime/vanishingline/episodes/index_2.html; https://www.tv-tokyo.co.jp/anime/vanishingline/episodes/index.html; https://www.tv-tokyo.co.jp/anime/vanishingline/staff/; https://garo-project.jp/VANISHING_LINE/; https://api.themoviedb.org/3/tv/74089/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74089
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

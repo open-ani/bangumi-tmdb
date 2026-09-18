@@ -1,15 +1,126 @@
 {
+  "anidbId": 16861,
   "bangumiId": 280180,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 964161,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 964162,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 964163,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 964164,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 964165,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 964166,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 964167,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 964168,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 964169,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 964170,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 964171,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 964172,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 964173,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 964174,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 964175,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 964176,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 964177,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 964178,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 964179,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 964180,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 194991 与主体身份一致：同名《Gon的旱獭》，导演为山药Gon，简介均为旱獭黑色幽默日常，系列首播于2017年并含3季。其第3季明确标为2019-02-25、20集，实际季表连续覆盖第1至20集，正好对应 Bangumi 的20集主体；不是《獭獭突然想到》等衍生作品。可按 TMDB 第3季整季映射。Bangumi记录的后半段播出日期与TMDB季表有一周偏差，但不影响身份及1-20集范围确认。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): TMDB TV详情：原名《Gon的旱獭》，首播2017-09-29，共3季62集；简介为旱獭的黑色幽默日常，导演山药Gon，制作公司Orion；第3季日期为2019-02-25、20集。\n\nhttps://www.themoviedb.org/tv/194991/season/3 (api_snapshot): TMDB第3季实际季表共20集，episode_number连续为1至20，日期从2019-02-25至2019-07-08，未混入其他作品。\n\nhttps://api.bgm.tv/v0/subjects/280180 (api_snapshot): Bangumi原始数据：名称《Gon的旱獭 第三季》，平台WEB，首播2019-02-25，总集数20，导演山药Gon。\n\nhttps://search.bilibili.com/all?keyword=GON%E7%9A%84%E6%97%B1%E7%8D%AD (search_snippet): 搜索摘要显示《Gon的旱獭 第三季》于2019-02-25播出，共20话。\n\nhttps://news.tom.com/201902/4175865287.html (search_snippet): 报道确认《Gon的旱獭》第三季共20集，并于2019-02-25在哔哩哔哩首播。\n\n备注：Bangumi记录第11集起的日期与TMDB季表存在一周错位：Bangumi最后一集为2019-07-15，TMDB为2019-07-08；但双方均明确为同一第三季且集数均为20，范围仍可确认。",
+    "evidence": "codex: 确认对应 TMDB 194991 第三季整季：导演、剧情、首播日期及20集主体范围一致，官方播放集表也与 Bangumi 标题一致。逐集规则仅纳入日期逐项吻合的第1—10集；后半季存在日期冲突且 TMDB 缺少实质标题，暂留空。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): 以中文原名搜索命中《Gon的旱獭》194991；另有2020年开始的《獭獭突然想到》157877，与本次2019年第三季区分。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): 作品详情确认导演为山药Gon，剧情为懒惰旱獭的黑色幽默日常；第三季首播2019-02-25，共20集，与待核对主体的导演、剧情、年份和季数一致。\n\nhttps://www.themoviedb.org/tv/194991/season/3 (api_snapshot): 第三季实际集表共20集、仅1页，集号连续1—20，标题均为通用集号。第1—10集日期逐集与输入一致；第11—20集日期均比输入早7天，末集为2019-07-08。\n\nhttps://www.bilibili.com/bangumi/media/md4315982 (page): 哔哩哔哩第三季资料页确认2019年2月25日开播、已完结、全20话，支持第三季整体范围。\n\nhttps://www.bilibili.com/bangumi/play/ep270974 (search_snippet): 官方播放页搜索摘要列出第三季全部20话标题，逐项与输入一致，从第1话《可以出门，但没必要》至第20话《旅行中的不同》。\n\nhttps://www.bilibili.com/bangumi/play/ep270974 (page): 官方播放页确认第三季为20话网络短篇动画，剧情简介与输入一致，第13话标题为《小时候玩过的那些游戏》。\n\n备注：第11—20集的 TMDB 日期比 Bangumi 早7天；尚未确定差异原因。TMDB 仅有通用集号标题，不能仅凭位置建立后半季逐集对应，需补充集标题、内容或可靠播出记录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/280180; https://www.themoviedb.org/tv/194991; https://www.themoviedb.org/tv/194991/season/3; https://api.bgm.tv/v0/subjects/280180; https://search.bilibili.com/all?keyword=GON%E7%9A%84%E6%97%B1%E7%8D%AD; https://news.tom.com/201902/4175865287.html",
-    "verifiedAt": "2026-09-08T21:40:35.940Z"
+    "source": "https://bgm.tv/subject/280180; https://www.themoviedb.org/tv/194991; https://www.themoviedb.org/tv/194991/season/3; https://www.bilibili.com/bangumi/media/md4315982; https://www.bilibili.com/bangumi/play/ep270974",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 194991
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

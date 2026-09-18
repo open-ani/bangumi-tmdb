@@ -1,26 +1,89 @@
 {
   "anidbId": 17734,
   "bangumiId": 408935,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1176167,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1176168,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1176169,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1176170,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1176178,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1176179,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1176180,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1176181,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1176169,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 215080,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体包含正篇 7 集及 1 个 SP；AniDB ID 17734 对应同名 Web 动画，明确为 2023-01-13 至 2023-04-03 的 7 集，并且制作人员、剧情和角色吻合。官方资料确认 2022-12-23 发布 Ep.00「プロローグ」。TMDB ID 215080 的第 0 季正好是 2022-12-23 的 1 集特别篇，第 1 季为 7 集；第 1 季各集标题和日期与 Bangumi 逐集吻合。因此应同时纳入完整第 0 季和完整第 1 季。相关剧场版是另一个 Bangumi subject，不属于本主体。\n\nhttps://bangumi.tv/subject/408935 (search_snippet): Bangumi 页面显示作品为《ポールプリンセス!!》，正篇 7 集，并列出 SP；播放时间为 2023-01-13 至 2023-04-03，制作信息与输入一致。\n\nhttps://anidb.net/anime/17734 (page): AniDB 17734 明确对应 Pole Princess!!／ポールプリンセス!!，类型为 Web，7 集，日期为 2023-01-13 至 2023-04-03；导演江副仁美、动画制作 Tatsunoko Production 等信息吻合。\n\nhttps://cho-animedia.jp/article/2022/12/23/37768.html (page): 报道确认《ポールプリンセス!!》Ep.00「プロローグ」于 2022-12-23 发布，并描述其为主线故事前导；同时列出江副仁美、待田堂子、乙部善弘、东大路宪太和龙之子制作等信息。\n\nhttps://www.themoviedb.org/tv/215080 (api_snapshot): TMDB TV 215080 同名、首播日 2023-01-13；季列表明确包含第 0 季（2022-12-23，1 集）和第 1 季（2023-01-13，7 集）。\n\nhttps://www.themoviedb.org/tv/215080/season/1 (api_snapshot): TMDB 第 1 季列出 7 集，标题和日期分别对应 Bangumi 正篇第 1 至第 7 集，最后一集日期为 2023-04-03。",
+    "evidence": "codex: 已确认对应 TMDB 215080 的网络剧情动画版本。年份、剧情、导演、制作公司与角色声优一致；正篇 7 集的标题和日期逐集吻合，对应第 1 季第 1—7 集。序章独立对应第 0 季第 1 集。映射覆盖输入全部 8 个章节，不包含相关剧场版或独立舞蹈视频。\n\nhttps://www.themoviedb.org/tv/215080 (api_snapshot): TMDB 215080 的首播及完结日期为 2023-01-13、2023-04-03；剧情同为星北希娜乃等人为挽救祖母的天文馆学习钢管舞，导演江副仁美、制作公司龙之子与 avex pictures、主要角色及声优均与输入一致。\n\nhttps://www.themoviedb.org/tv/215080/season/1 (api_snapshot): 第 1 季完整集表共 7 集，total_pages=1。第 1—7 集标题逐一对应输入，只有第 2 集标点全半角差异；日期依次为 2023-01-13、02-10、02-24、03-03、03-23、03-31、04-03，与 Bangumi 全部一致。\n\nhttps://www.themoviedb.org/tv/215080/season/0 (api_snapshot): 第 0 季完整集表仅 1 集，total_pages=1；第 1 集为「プロローグ」，日期 2022-12-23，与 Bangumi 特别篇 1176169 的标题、日期及序章内容一致。\n\nhttps://cho-animedia.jp/article/2022/12/23/37768.html (page): 2022-12-23 的报道确认 Ep.00「プロローグ」已在 YouTube 发布，属于网络剧情动画部分；剧情涉及希娜乃、莉莉娅与钢管舞老师的相遇，并列出江副仁美执导、龙之子制作，明确区分剧情章节与另行发布的舞蹈表演视频。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/408935; https://bangumi.tv/subject/408935; https://anidb.net/anime/17734; https://cho-animedia.jp/article/2022/12/23/37768.html; https://www.themoviedb.org/tv/215080; https://www.themoviedb.org/tv/215080/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/408935; https://www.themoviedb.org/tv/215080; https://www.themoviedb.org/tv/215080/season/1; https://www.themoviedb.org/tv/215080/season/0; https://cho-animedia.jp/article/2022/12/23/37768.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 215080
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 215080,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 215080,
-      "season": 1,
+      "season": 0,
       "type": "tv"
     }
   ]

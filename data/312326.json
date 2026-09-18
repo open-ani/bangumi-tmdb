@@ -1,13 +1,115 @@
 {
+  "anidbId": 16748,
   "bangumiId": 312326,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1008411,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1008412,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1008413,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1008414,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1008415,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1008416,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1008417,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1008418,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1008419,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1008420,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1008421,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1008422,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1008423,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1008424,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1008425,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1008426,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1008427,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1008428,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1008429,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1008430,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB《Capybara Bathhouse》（原名《水豚汤馆》）。TMDB 详情的年份、首播日、中文原名、剧情、中文媒介及腾讯相关制作公司均与 Bangumi freshBangumi 一致；官方 WeTV 资料也标为 2021 年中国大陆动画、全 20 集。TMDB 第 1 季实际含第 1–20 集，未混入特别篇，因此使用整季映射。Bangumi 归档的第 20 集日期为 2021-05-12，而 TMDB 记录为 2021-05-19，存在排播日期差异，但不影响作品身份和集数范围。\n\nhttps://api.bgm.tv/v0/subjects/312326 (api_snapshot): Bangumi fresh API 标题为《水豚汤馆》，类型为 WEB，2021-01-06，20 集；剧情、导演马鸿森及腾讯制作信息与候选一致。\n\nhttps://www.themoviedb.org/tv/118885 (api_snapshot): TMDB 详情确认 ID 118885 的原名为《水豚汤馆》，英文名为 Capybara Bathhouse，2021-01-06 首播、2021-05-19 完结、1 季 20 集；剧情和腾讯相关制作公司吻合。\n\nhttps://www.themoviedb.org/tv/118885/season/1 (api_snapshot): TMDB 第 1 季实际返回 20 集，编号连续为 1–20，单集约 6 分钟，日期从 2021-01-06 至 2021-05-19，total_pages=1。\n\nhttps://wetv.vip/zh-cn/play/n53u3gwn5l82c44/a0047zw4ex1 (page): 腾讯视频 WeTV 页面标为《水豚汤馆》、2021 年、内地、全 20 集，并展示与 Bangumi/TMDB 相同的剧情简介。\n\nhttps://animeschedule.net/anime/shui-tun-tang-guan (page): 外部资料将《水豚汤馆》标为 2021 年中国 ONA，20 集、每集约 6 分钟，进一步支持其为 WEB/ONA 动画而非电影或音乐录像。\n\n备注：TMDB 详情的 cast/crew 字段为空，导演等具体工作人员主要由 Bangumi fresh API 提供，未能在 TMDB 中独立核验。；Bangumi 归档集表的第 20 集日期为 2021-05-12，TMDB 为 2021-05-19，排播日期存在一周差异。",
+    "evidence": "codex: 作品身份及整季范围可以确认：年份、首播日、剧情、制作公司、短篇网络动画形式及20集总量吻合，TMDB第1季完整覆盖该作品。逐集核对发现日期差异从第2集起持续存在，并非仅末集有差异；两边又缺少可比对的实质标题，因此保留整季映射，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/118885 (api_snapshot): 以中文原名搜索后读取详情：TMDB 118885 原名《水豚汤馆》，2021-01-06 首播，共1季20集；水豚经营汤馆、帮助十二星座小动物的剧情一致，制作公司包含腾讯视频、腾讯动漫及启缘映画。\n\nhttps://www.themoviedb.org/tv/118885/season/1 (api_snapshot): 第1季实际集表共20集，编号1–20，每集6分钟，total_pages=1。第1集日期为2021-01-06，第2集为2021-01-13，之后每周一集，第20集为2021-05-19；标题均为通用集号，简介为空。\n\nhttps://wetv.vip/zh-cn/play/n53u3gwn5l82c44/a0047zw4ex1 (page): 官方WeTV页面标注《水豚汤馆》为2021年内地作品、全20集，剧情与Bangumi及TMDB一致。\n\nhttps://bangumi.tv/subject/312326 (search_snippet): Bangumi搜索结果标注WEB动画、20话、2021年1月6日开播，导演马鸿森，动画制作启缘映画，出品方为腾讯视频及腾讯动漫。\n\n备注：Bangumi第1、2集同于2021-01-06播出；TMDB仅第1集在该日播出，第2–20集均比Bangumi同编号章节晚7天。尚无证据解释是否为不同观看权限或排期记录差异，不能据此按日期错位映射。；Bangumi章节标题为空，TMDB仅有通用集号且无单集简介，逐集顺序尚缺独立佐证；需官方逐集排期或内容资料进一步核验。；TMDB演职员字段为空，无法独立比对导演马鸿森等具体人员；制作公司信息一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/312326; https://api.bgm.tv/v0/subjects/312326; https://www.themoviedb.org/tv/118885; https://www.themoviedb.org/tv/118885/season/1; https://wetv.vip/zh-cn/play/n53u3gwn5l82c44/a0047zw4ex1; https://animeschedule.net/anime/shui-tun-tang-guan",
-    "verifiedAt": "2026-09-08T22:14:12.152Z"
+    "source": "https://bgm.tv/subject/312326; https://www.themoviedb.org/tv/118885; https://www.themoviedb.org/tv/118885/season/1; https://wetv.vip/zh-cn/play/n53u3gwn5l82c44/a0047zw4ex1; https://bangumi.tv/subject/312326",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

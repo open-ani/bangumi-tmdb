@@ -1,16 +1,56 @@
 {
   "anidbId": 7651,
   "bangumiId": 10488,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 61433,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 61434,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 125506,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 596549,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 596550,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 596551,
+      "sort": 3,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是川口敬一郎、龙之子制作的《怪物王女》2010—2011 年 OAD 三话，匹配 AniDB 7651 的 OVA 版本，而不是 TMDB 同一 TV 主页面中的 2007 年 26 话 TV 本篇。TMDB 34836 明确将这三话置于 season 0「特別編」，且该季完整收录 3 集，因此采用整季范围。Bangumi 中列出的 Kerberotte 片段属于额外特典，不纳入主体映射。TMDB 第3集日期显示为 2011-07-10，与已核实的 2011-10-07 发布日不一致，应视为 TMDB 日期元数据错误，不影响三话主体及 season 0 的对应。\n\nhttps://www.themoviedb.org/tv/34836 (api_snapshot): TMDB TV 34836 为《怪物王女》，包含 2007 年 26 集 TV 本篇及 season 0「特別編」3 集。\n\nhttps://www.themoviedb.org/tv/34836/season/0 (api_snapshot): TMDB season 0 明确为「特別編」，season_number=0，完整列出 3 集，episodesTruncated=false；前两集日期为 2010-12-09、2011-03-09。\n\nhttps://anidb.app/anime/kaibutsu-oujo-ova-2605 (page): AniDB 页面将该版本标为 OVA，别名含 Princess Resurrection (OVA)，制作公司为 Tatsunoko Production，播出/发行期为 2010-12-09 至 2011-10-07。\n\nhttps://www.kodansha.co.jp/comic/products/0000039771 (page): 讲谈社官方页面确认《怪物王女》第16卷限定版附 OAD DVD，发行日为 2011-10-07。\n\nhttps://zh.wikipedia.org/wiki/%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3 (search_snippet): OAD 各话列为「暗闇王女」「特急王女」「孤島王女」，并与第13、14、16卷限定版关联；另列有 Kerberotte 特典片段。\n\n备注：TMDB season 0 第3集日期为 2011-07-10，但讲谈社及其他发行资料支持 2011-10-07；TMDB 集标题也较为泛化。",
+    "evidence": "codex: 确认对应TMDB 34836第0季完整3集。OAD的年份、发行媒介、制作阵容及三话标题均已核实；TMDB英文集名逐一吻合，前两话日期完全一致。第三话标题明确对应《孤島王女》，发行资料支持2011-10-07，故将TMDB的2011-07-10视为日期元数据错误。三话本篇按顺序映射；该季不混入2007年TV本篇。\n\nhttps://www.themoviedb.org/tv/34836 (api_snapshot): TMDB 34836 为《怪物王女》，主条目信息属于2007年迫井政行执导的TV版；季列表另设第0季，收录3集，起始日期为2010-12-09。\n\nhttps://www.themoviedb.org/tv/34836/season/0 (api_snapshot): 已读取第0季日文和英文完整集表，total_pages=1，共3集。英文标题依次为 OAV 1 - Princess Darkness、OAV 2 - Princess Express、OAV 3 - Princess Island，对应暗闇王女、特急王女、孤島王女；日期依次为2010-12-09、2011-03-09、2011-07-10。\n\nhttps://bgm.tv/subject/10488/ep (page): Bangumi 章节表列出3话本篇：暗闇王女（2010-12-09）、特急王女（2011-03-09）、孤島王女（2011-10-07）；另列3个ケルベロッテちゃん特别篇。\n\nhttps://ja.wikipedia.org/wiki/怪物王女 (page): 资料明确区分2007年TV版和2010—2011年OAD。OAD由川口敬一郎执导、龙之子制作，三话分别随漫画第13、14、16卷限定版发行；ケルベロッテちゃん为另附映像特典。\n\nhttps://www.amiami.jp/top/detail/detail?scode=BOK-4345 (page): 第16卷DVD限定版商品资料明确注明附带《孤島王女》OAD，发售日期为2011年10月7日，支持Bangumi第三话日期。\n\n备注：TMDB第0季第3集日期与发行资料不符，疑为月日颠倒；标题对应明确，不影响集号判断。；三个ケルベロッテちゃん特典在已核实的TMDB季表中没有独立条目，暂不映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/10488; https://www.themoviedb.org/tv/34836; https://www.themoviedb.org/tv/34836/season/0; https://anidb.app/anime/kaibutsu-oujo-ova-2605; https://www.kodansha.co.jp/comic/products/0000039771; https://zh.wikipedia.org/wiki/%E6%80%AA%E7%89%A9%E7%8E%8B%E5%A5%B3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/10488; https://www.themoviedb.org/tv/34836; https://www.themoviedb.org/tv/34836/season/0; https://bgm.tv/subject/10488/ep; https://ja.wikipedia.org/wiki/怪物王女; https://www.amiami.jp/top/detail/detail?scode=BOK-4345",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 34836
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

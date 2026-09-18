@@ -1,15 +1,86 @@
 {
+  "anidbId": 18461,
   "bangumiId": 405218,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1287883,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1287884,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1287885,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1287886,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1287887,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1287888,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1287889,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1287890,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1287891,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1287892,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1287893,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1287894,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体在标题、首播日、剧情、媒介及集数上吻合：均为 2024 年开播的中国 WEB 动画《异人君莫邪》，讲述王牌特工君邪在玄玄大陆重生成君莫邪。TMDB 明确为已完结第 1 季、共 12 集，季表连续覆盖第 1 至 12 集；未发现旧版、重制版、OVA 或合集混淆。Bangumi 资料还确认导演梁奇恒及 bilibili、阅文动漫制作信息。\n\nhttps://www.themoviedb.org/tv/244182 (api_snapshot): TMDB 详情显示标题“异人君莫邪”，首播 2024-01-24，完结 2024-04-03，共 1 季 12 集；简介与 Bangumi 剧情一致，并列出“异世邪君”“Otherworldly Evil Monarch”“Yi Ren Jun Mo Xie”等别名。\n\nhttps://www.themoviedb.org/tv/244182/season/1 (api_snapshot): TMDB 第 1 季实际季表共 12 集，编号连续覆盖 1–12，日期从 2024-01-24 至 2024-04-03。\n\nhttps://api.bgm.tv/v0/subjects/405218 (api_snapshot): Bangumi fresh API 确认该主体为 WEB 动画，2024-01-24 开播，共 12 集；原作《异世邪君》，导演梁奇恒，制作方为 bilibili、阅文动漫。",
+    "evidence": "codex: 确认对应 TMDB 244182 第1季全12集。年份、剧情、原作、制作信息、网络动画版本及总集数相符，季表完整覆盖本篇。结合第1、2话标题、官方集表以及第2至12话逐集日期，可确认本篇1–12话顺序一一对应，无需拆季或特例覆盖。\n\nhttps://bgm.tv/subject/405218 (page): Bangumi 确认为2024年1月24日开播的12话 WEB 动画，改编自风凌天下《异世邪君》，导演梁奇恒，bilibili、阅文动漫出品，大呈印象制作。\n\nhttps://www.themoviedb.org/tv/244182 (api_snapshot): TMDB 244182 的原名、2024年首播日期及君邪重生为玄玄大陆君莫邪的剧情均吻合；条目已完结，共1季12集。\n\nhttps://www.themoviedb.org/tv/244182/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。第1、2集同为2024-01-24，第3至12集每周播出至2024-04-03；第2至12集日期与输入的 Bangumi 章节逐一一致。第1集标题仅有一字差异，第2集标题一致。\n\nhttps://www.bilibili.com/bangumi/media/md28340120/ (search_snippet): bilibili 官方作品页确认2024年1月24日开播、全12话及导演梁奇恒；剧情与 TMDB 一致，展示的第1至8话标题均与 TMDB 对应集一致，包括第3话“纨绔克星？危险的棋局！”。\n\nhttps://www.bilibili.com/opus/879642931830456393 (search_snippet): 阅文官方定档动态确认 bilibili、阅文动漫出品，大呈印象制作，原作《异世邪君》，1月24日起每周三播出。\n\n备注：Bangumi 第1话日期“0201-01-17”明显异常；依据官方首播日期、对应标题及 TMDB 集表认定其对应 S01E01，不据此异常日期调整集序。；Bangumi 第3话标题“独孤小艺登场”与官方及 TMDB 标题不同，但播出日期、集号和整季范围一致；第4至12话未提供标题，主要依据逐集日期核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/405218; https://www.themoviedb.org/tv/244182; https://www.themoviedb.org/tv/244182/season/1; https://api.bgm.tv/v0/subjects/405218",
-    "verifiedAt": "2026-09-08T23:36:57.679Z"
+    "source": "https://bgm.tv/subject/405218; https://www.themoviedb.org/tv/244182; https://www.themoviedb.org/tv/244182/season/1; https://www.bilibili.com/bangumi/media/md28340120/; https://www.bilibili.com/opus/879642931830456393",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 244182
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

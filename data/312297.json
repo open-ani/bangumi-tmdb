@@ -1,18 +1,131 @@
 {
   "anidbId": 16595,
   "bangumiId": 312297,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1075653,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 1075654,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1075655,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1075656,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1075657,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1075658,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1075659,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1075660,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1075661,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1075662,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1075663,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1075664,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1075665,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1075666,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1075667,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1075668,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1075669,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1075653,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 107255,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 107255 是 2022 年动画《龙族 / Dragon Raja -The Blazing Dawn-》，第 1 季明确列有 16 集，内容从 Travels 至 The End of Battle，对应本 Bangumi subject 的正篇。Bangumi 的第零集是约 49 分钟的前导特别篇；TMDB 将其单列于第 0 季，不属于本轮要求的主体定位。因此 AnimeLists 的 season=1 方向正确，BangumiExtLinker 的 season=0 仅命中特别篇。未发现 AniDB 16595 关联本身错误。\n\nhttps://www.themoviedb.org/tv/107255?language=zh-CN (search_snippet): TMDB 条目为《龙族》(2022)动画，页面显示最后一季为第 1 季、2022 年、16 集。\n\nhttps://www.themoviedb.org/tv/107255/season/1?language=zh-TW (search_snippet): TMDB 第 1 季列出 16 集，首集为 Travels（2022-08-19），末集为 The End of Battle（2022-11-25）。\n\nhttps://www.themoviedb.org/tv/107255/season/1/episode/1 (search_snippet): TMDB 第 1 季的剧集列表包含 Travels、Day of Freedom、Two Dragon Emperors 等正篇内容，并明确标为 Season 1、Episodes 16。\n\nhttps://watch.plex.tv/en-GB/show/dragon-raja-1/season/0 (page): 独立剧集索引将 An Invitation from a Foreign Land 单列为 Specials 第 0 季的 1 集。该站仅用于确认特别篇性质，不用于替代 TMDB 的季集号证据。\n\nhttps://www.crunchyroll.com/watch/GZ7UVEG2M/travels (search_snippet): Crunchyroll 将 Travels 标为正篇 E1，并显示其前一集为 47 分钟的 An Invitation From a Foreign Land，支持第零集与第1季正篇分离。\n\nhttps://anilist.co/anime/122511/Long-Zu (search_snippet): AniList 将 Long Zu 记为 17 集，并注明第 0 集约 49 分钟，说明 Bangumi 的 17 集计数包含前导集。",
+    "evidence": "codex: 确认对应 TMDB 107255 的第1季全部16集及 S00E01。年份、剧情、原作与制作人员吻合，17集总量及逐集播出日期一致。Bangumi 第零集虽属于本篇，TMDB 将其归入特别篇，应以 override 映射；旧映射仅覆盖第1季，遗漏了这一集。\n\nhttps://www.themoviedb.org/tv/107255 (api_snapshot): 以原名“龙族”和别名“Dragon Raja”搜索均找到 TV 107255。详情确认原名、2022-08-19 首播日期、中文原始语言、腾讯制作方及剧情均吻合；第1季为“Ⅰ 火之晨曦”，第2季为2025年的续作。\n\nhttps://ryuzoku-anime.com/1st/ (page): 官方第一季网站确认本作改编自江南小说，导演为王昕，动画制作为 HANABARA Animation，2022年8月在中国推出；2024年的《龍族 -The Blazing Dawn-》是其日语版。\n\nhttps://bgm.tv/subject/312297/ep (page): Bangumi 将第零集至第十六集全部列为本篇，共17集。第0、1、2集均于2022-08-19首播，第3至16集逐周播出，末集日期为2022-11-25。\n\nhttps://www.themoviedb.org/tv/107255/season/1 (api_snapshot): 已读取第1季完整集表，共16集，total_pages=1。第1至16集的集号及每集日期均与 Bangumi sort 1至16一致；剧情从前往卡塞尔学院发展至龙王之战结束。\n\nhttps://www.themoviedb.org/tv/107255/season/0 (api_snapshot): 已读取第0季完整集表，共1集，total_pages=1。S00E01“你终于来了，路明非”于2022-08-19播出，标注50分钟，剧情为学院邀请、告白受挫及诺诺救场，对应前导第零集。\n\nhttps://bgm.tv/ep/1075653 (page): Bangumi 第零集的章节ID为1075653，日期为2022-08-19，时长47分15秒；页面观众讨论涉及学院邀请相关人物、陈雯雯告白及诺诺救场，与 TMDB S00E01剧情相符。\n\nhttps://bgm.tv/ep/1075654 (page): Bangumi 第一集于2022-08-19播出；页面讨论提到列车、芬格尔及路鸣泽，可辅助确认其对应 TMDB 第1季第1集的入学旅程。\n\n备注：Bangumi 仅使用数字章节名，无法逐字对照 TMDB 的剧情式标题；对应关系由逐集日期、编号、总量及开篇剧情共同支持。两站时长记录存在差异，未将时长视为精确匹配依据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/312297; https://www.themoviedb.org/tv/107255?language=zh-CN; https://www.themoviedb.org/tv/107255/season/1?language=zh-TW; https://www.themoviedb.org/tv/107255/season/1/episode/1; https://watch.plex.tv/en-GB/show/dragon-raja-1/season/0; https://www.crunchyroll.com/watch/GZ7UVEG2M/travels; https://anilist.co/anime/122511/Long-Zu",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/312297; https://www.themoviedb.org/tv/107255; https://ryuzoku-anime.com/1st/; https://bgm.tv/subject/312297/ep; https://www.themoviedb.org/tv/107255/season/1; https://www.themoviedb.org/tv/107255/season/0; https://bgm.tv/ep/1075653; https://bgm.tv/ep/1075654",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 107255
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "episode": 1,
+      "id": 107255,
+      "season": 0,
+      "type": "tv"
+    },
     {
       "id": 107255,
       "season": 1,

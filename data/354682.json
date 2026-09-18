@@ -1,19 +1,96 @@
 {
   "anidbId": 16940,
   "bangumiId": 354682,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1088471,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1088472,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1088473,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1088474,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1088475,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1088476,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1088477,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1088478,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1088479,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1088480,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1088481,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1088482,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1113524,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、制作公司与导演一致；13话标题、顺序和每周播出日期逐集吻合，日期差异由深夜24时记日方式解释。TMDB 将两期合并为第1季25集，应将旧映射收窄为第1季第1—13集，不包含续篇第14—25集。\n\nhttps://www.themoviedb.org/tv/137390 (api_snapshot): TMDB 137390 为2022年首播的日本电视动画；伊芙与天鹫葵的高尔夫故事、制作公司 BN Pictures、导演稲垣隆行均与输入一致。\n\nhttps://www.themoviedb.org/tv/137390/season/1 (api_snapshot): 已读取第1季完整集表，共25集、仅1页。第1—13集日文标题与输入逐集一致（第12集仅空格差异）；日期为2022-04-06至2022-06-29，逐集均比 Bangumi 晚一天。第14集起为2023年播出的续篇，因此本 subject 仅覆盖第1—13集。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202204/26862_202204052400.html (search_snippet): 东京电视台官方首播节目表记载2022年4月5日24:00播出，即自然日4月6日，解释两站逐集日期相差一天的深夜档记日差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/354682; https://www.themoviedb.org/tv/137390; https://www.themoviedb.org/tv/137390/season/1; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202204/26862_202204052400.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 137390
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 137390,
       "season": 1,
       "type": "tv"

@@ -1,19 +1,91 @@
 {
   "anidbId": 14627,
   "bangumiId": 272475,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 874244,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 874245,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 874246,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 874247,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 874248,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 874249,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874250,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874251,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874252,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874253,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874254,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874255,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、电视动画媒介、剧情及制作人员一致，逐集标题和播出排期确认本subject对应TMDB 86835第1季第1—12集。TMDB将前后两个季度合为24集一季，因此旧映射应收窄至前12集，避免覆盖后半季度。\n\nhttps://www.themoviedb.org/tv/86835 (api_snapshot): 日文原名搜索命中 TV 86835；详情确认是2019年电视动画，导演鈴木健一、制作公司P.A.WORKS，玛利亚加入妖精取缔机关的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/86835/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。输入12话逐集对应第1—12集：其中11个标题完全一致，第3话仅有「狐／キツネ」及输入重复「と」的文字差异。12个日期均比Bangumi晚一天，周间隔一致；第12集为「無力な兵隊」，第13集于2019-10-07开始，明确属于后半季度。\n\nhttps://cho-animedia.jp/article/2019/03/10/11283.html (search_snippet): 播出资料列明2019年4月7日起每周日24:00播出，并确认原作Five fairy scholars、导演鈴木健一、系列构成及脚本十文字青、动画制作P.A.WORKS。深夜24:00的播出日记法解释了两站日期相差一天。\n\nhttps://thetv.jp/program/0000953125/ (search_snippet): 节目资料将第12话「無力な兵隊」标为2019年6月23日播出，剧情与TMDB第1季第12集一致，支持前半季度终点。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/272475; https://www.themoviedb.org/tv/86835; https://www.themoviedb.org/tv/86835/season/1; https://cho-animedia.jp/article/2019/03/10/11283.html; https://thetv.jp/program/0000953125/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 86835
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 86835,
       "season": 1,
       "type": "tv"

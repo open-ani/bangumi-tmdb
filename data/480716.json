@@ -1,15 +1,155 @@
 {
+  "anidbId": 18685,
   "bangumiId": 480716,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1406597,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1406598,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1406599,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1406600,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1406601,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1406602,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1406603,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1406604,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1406605,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1406606,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1406607,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1406608,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1406609,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1406610,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1406611,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1406612,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1406613,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1406614,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1406615,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1406616,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1406617,
+      "sort": 21,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 259789 与 Bangumi 条目是同一部 2024 年日本电视动画：原名完全一致，首播日均为 2024-10-05，剧情均围绕 Geo、Daiya 等儿童在异常气候、昆虫、新型病毒、南极、AI、恐龙及能源危机中的科学求生；导演细田雅弘、NHK/东映动画制作信息也吻合。TMDB 明确分为第1系列和第2系列，第1系列季表实际包含21集，集名、编号与 Bangumi 主体逐集对应，因此使用完整第1季。\n\nhttps://www.themoviedb.org/tv/259789 (api_snapshot): TMDB 详情确认原名、2024-10-05首播、剧情、细田雅弘、NHK/东映动画、两季结构及第1季21集。\n\nhttps://www.themoviedb.org/tv/259789/season/1 (api_snapshot): TMDB 第1季实际集表为21集，集1至21的标题和日期与 Bangumi 集表对应。\n\nhttps://www.toei-anim.co.jp/tv/survival/about/ (page): 东映动画官方确认这是2024年10月起在NHK Eテレ播出的《科学×冒険サバイバル！》，原作、角色、导演细田雅弘及制作著作信息吻合。\n\n备注：TMDB 第1季第12集日期记录为2025-12-21，而 Bangumi 及其前后集顺序显示应为2024-12-21；这是单集日期元数据异常，不影响作品身份或21集范围判断。",
+    "evidence": "codex: 作品年份、电视动画媒介、剧情、导演与制作方一致，第1季21集完整覆盖此subject。旧映射的作品和季正确，但“编号逐集一致”的结论错误：南极篇与AI篇编号互换，须按标题和播出日期分段映射。其余各集标题与日期一致，可确认全部21集对应。\n\nhttps://www.themoviedb.org/tv/259789 (api_snapshot): TMDB 259789 为2024年10月5日首播的日本电视动画，原名、吉奥与黛雅的科学求生剧情、导演细田雅弘及NHK、东映动画制作信息均吻合；第1系列21集，第2系列另列一季。\n\nhttps://www.themoviedb.org/tv/259789/season/1 (api_snapshot): 已读取第1季全部21集，total_pages=1。逐集标题比对确认：Bangumi 1—9对应TMDB 1—9，南极篇10—11对应13—14，AI篇12—14对应10—12，15—21对应15—21。除AI篇其3的年份异常外，对应集播出日期全部一致。\n\nhttps://www.toei-anim.co.jp/tv/survival/about/ (search_snippet): 东映官方作品介绍确认2024年10月起在NHK Eテレ播出的电视动画，改编自《科学漫画サバイバル》，以吉奥、黛雅为主角，包含七个科学求生主题，导演为细田雅弘。\n\nhttps://thetv.jp/program/0001053215/14/ (search_snippet): 节目资料明确《AI的生存 其3》为第14话，播出日期为2024年12月21日，支持Bangumi日期，并佐证TMDB对应集的2025年份为元数据错误。\n\n备注：TMDB S1E12《AIのサバイバル その3》日期记为2025-12-21；Bangumi与节目资料均为2024-12-21。该日期字段存在错误，但标题、剧情和篇章结构足以确认对应Bangumi第14话。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/480716; https://www.themoviedb.org/tv/259789; https://www.themoviedb.org/tv/259789/season/1; https://www.toei-anim.co.jp/tv/survival/about/",
-    "verifiedAt": "2026-09-09T00:06:23.372Z"
+    "source": "https://bgm.tv/subject/480716; https://www.themoviedb.org/tv/259789; https://www.themoviedb.org/tv/259789/season/1; https://www.toei-anim.co.jp/tv/survival/about/; https://thetv.jp/program/0001053215/14/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 259789
+    },
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 10,
+      "tmdbId": 259789
+    },
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 10,
+      "season": 1,
+      "start": 12,
+      "tmdbId": 259789
+    },
+    {
+      "bangumiType": 0,
+      "end": 21,
+      "episodeStart": 15,
+      "season": 1,
+      "start": 15,
+      "tmdbId": 259789
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

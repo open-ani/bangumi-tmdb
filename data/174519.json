@@ -1,16 +1,111 @@
 {
   "anidbId": 12003,
   "bangumiId": 174519,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 640950,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 640951,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 640952,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 640953,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 640954,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 640955,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 640956,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 640957,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 640958,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 640959,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 640960,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 640961,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 646689,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 662310,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 662313,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 662314,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 662315,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 67853 第1季：年份、电视媒介、制作公司、导演资料和剧情一致，13话标题逐集同序吻合，整季没有混入其他作品。前四话首播日期一致；后九话日期差异结合停播及重新播出的报道，可判断为 TMDB 未反映延期排期，不影响按标题确认的本篇1—13话对应。四话修正版特别篇保留未映射，避免重复占用第1季前四集。\n\nhttps://www.themoviedb.org/tv/67853 (api_snapshot): TMDB 67853 为2016年7月7日首播的日本电视动画，制作公司含 Actas；唯与蕾娜姐妹、艾纳斯特利亚皇国及巨大机体袭击的剧情与输入一致，共13集。\n\nhttps://www.themoviedb.org/tv/67853/season/1 (api_snapshot): 第1季完整集表共13集、仅1页。逐集日文标题与 Bangumi 本篇1—13话全部同序一致；前4话日期完全一致，第5—13话日期则均比 Bangumi 早56天。\n\nhttps://bgm.tv/subject/174519/ep (page): Bangumi 列出13话本篇及4话特别篇；特别篇为2016年9月1日至22日播出的前四话同名章节，本篇第5话于9月29日继续，第13话于11月24日结束。\n\nhttps://av.watch.impress.co.jp/docs/news/1012752.html (page): 同期报道确认本作为 Actas 制作、登坂晋执导的电视动画；因制作质量问题在第4话后暂停，9月1日起从第1话重新播出，解释了后续播出排期的变化。\n\nhttps://www.animatetimes.com/news/details.php?id=1472627277 (page): 2016年8月31日报道明确说明9月重播版增加台词和场景，并修改演出及作画，因此 Bangumi 的四话特别篇属于前四话修正版。\n\nhttps://www.themoviedb.org/tv/67853/season/0 (api_snapshot): 第0季完整集表仅3集，日期分别为6月30日、8月15日和8月22日；首集为开播前特番，后两集缺乏具体标题及简介，没有足够证据对应 Bangumi 的9月修正版四话。\n\n备注：TMDB 第5—13集日期均比实际播出日期早56天，疑似保留原定排期。；未确认 Bangumi 特别篇662315、662314、662313、662310的独立 TMDB 对应；第0季现有资料不足以建立映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/174519; https://www.themoviedb.org/tv/67853; https://www.themoviedb.org/tv/67853/season/1; https://bgm.tv/subject/174519/ep; https://av.watch.impress.co.jp/docs/news/1012752.html; https://www.animatetimes.com/news/details.php?id=1472627277; https://www.themoviedb.org/tv/67853/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67853
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

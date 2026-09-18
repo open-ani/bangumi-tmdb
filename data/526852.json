@@ -1,13 +1,145 @@
 {
+  "anidbId": 18766,
   "bangumiId": 526852,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1432509,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1432510,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1432511,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1432512,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1432513,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1432514,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1432515,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1432516,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1432517,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1432518,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1432519,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1432520,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1432521,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1432522,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1432523,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1432524,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1432525,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1432526,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1432527,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1432528,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1432529,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1432530,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1432531,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1432532,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1432533,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1432534,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 日文原名及罗马字别名搜索均唯一命中 TV 90848。其首播日、完结日、26集总数与 Bangumi 完全一致；第1季实际季表完整覆盖第1至26集，且每集约2分钟。官方资料确认这是2019年播出的《おどるモワイくん》电视短篇动画，在《おはスタ》播出，原作为Quan「モワイくん」，剧情围绕会跳舞的摩艾像モワイくん及其伙伴展开；导演遊佐かずしげ、CG导演兼平葵、音乐/音响监督こぐま、动画制作Monster's Egg等信息与Bangumi一致。未发现旧版、重制版、OVA、音乐录像或合集混入。\n\nhttps://www.themoviedb.org/tv/90848 (api_snapshot): TMDB详情确认原题为《おどるモワイくん》，媒介为TV，首播2019-07-02，完结2019-12-24，共1季26集，制作公司为Monster's Egg。\n\nhttps://www.themoviedb.org/tv/90848/season/1 (api_snapshot): TMDB第1季实际季表返回26集，集号连续为1–26，日期从2019-07-02至2019-12-24，每集runtime为2分钟；因此可采用整季范围。\n\nhttps://www.shopro.co.jp/tv/mowai-kun/index.html (page): 官方站确认作品剧情、原作Quan「モワイくん」、导演/系列构成/分镜/演出遊佐かずしげ、角色原案大野雄一郎、CG导演兼平葵、音乐及音响监督こぐま、动画制作モンスターズエッグ。\n\nhttps://prtimes.jp/a/?c=2734&f=d2734-944-pdf-0.pdf&r=944 (page): 东京电视台官方新闻稿确认该作是2019年7月2日起在《おはスタ》播出的ミニアニメ/电视动画，剧情为摩艾像モワイくん因烦闷长出手臂并开始跳舞，制作公司为モンスターズエッグ。",
+    "evidence": "codex: 确认对应 TMDB TV 90848 第1季整季。年份、电视短篇媒介、剧情、制作人员与公司、首尾播出日期及26集范围相符，实际季表未显示混入其他作品。作品和季范围已确认，但 Bangumi 各章节标题与日期均为空，无法进行逐集交叉比对，因此不填连续规则。\n\nhttps://www.themoviedb.org/tv/90848 (api_snapshot): 日文原名及罗马字别名搜索均命中 TV 90848。详情确认原题为《おどるモワイくん》，2019-07-02 首播、2019-12-24 完结，共1季26集，制作公司为 Monster's Egg；摩艾像长出手臂并开始跳舞的剧情与官方介绍一致。\n\nhttps://www.themoviedb.org/tv/90848/season/1 (api_snapshot): 实际读取第1季完整集表：total_pages=1，共26集，集号1—26，标题均为编号式标题，每集2分钟，播出日期从2019-07-02至2019-12-24逐周递增。该季范围与 Bangumi 的26集电视动画主体一致。\n\nhttps://www.shopro.co.jp/tv/mowai-kun/ (page): 官方站确认剧情及原作 Quan「モワイくん」、导演遊佐かずしげ、角色原案大野雄一郎、CG导演兼平葵、音乐及音响监督こぐま、动画制作モンスターズエッグ，与输入资料及 TMDB 的剧情、制作公司相符。\n\nhttps://prtimes.jp/main/html/rd/p/000000089.000002610.html (search_snippet): 小学馆集英社制作的官方新闻稿确认本作是2019年7月2日起每周二在电视东京《おはスタ》播出的迷你动画，导演为遊佐かずしげ、制作为モンスターズエッグ。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/14189_201912240705.html (search_snippet): 电视东京2019年12月24日《おはスタ》节目页标题明确标注《おどるモワイくん》最终回，与 Bangumi 和 TMDB 的完结日期一致。\n\n备注：逐集对应暂留空：需补充 Bangumi 各章节标题、播出日期或可独立核验的逐集资料，不能仅按1—26的位置生成规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/526852; https://www.themoviedb.org/tv/90848; https://www.themoviedb.org/tv/90848/season/1; https://www.shopro.co.jp/tv/mowai-kun/index.html; https://prtimes.jp/a/?c=2734&f=d2734-944-pdf-0.pdf&r=944",
-    "verifiedAt": "2026-09-09T00:20:32.982Z"
+    "source": "https://bgm.tv/subject/526852; https://www.themoviedb.org/tv/90848; https://www.themoviedb.org/tv/90848/season/1; https://www.shopro.co.jp/tv/mowai-kun/; https://prtimes.jp/main/html/rd/p/000000089.000002610.html; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/14189_201912240705.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

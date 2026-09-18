@@ -1,14 +1,64 @@
 {
   "anidbId": 8996,
   "bangumiId": 39118,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 167720,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 258036,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 258037,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 167720,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 258036,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 258037,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将本条目明确标为 OVA，共 3 话，章节为第16、19、20话，日期分别为 2012-04-25、2013-05-08、2013-07-10。TMDB 36697 的 season 0“特別編”中，episode 3、6、7 分别标为第1期16、19、20话，日期完全对应；因此应映射到同一 TV 作品的 season 0 中这三个不连续集数，而不是纳入整个特别编。TMDB 个别标题与 Bangumi 的分段标题存在增删差异，但主标题、编号、日期和作品制作/剧情信息一致。\n\nhttps://bgm.tv/subject/39118 (page): Bangumi 条目名称为“生徒会役員共 OVA”，类型为 OVA，共3话，发售日为2012-04-25，章节明确为16、19、20；制作人为金澤洪充，动画制作会社为 GoHands。\n\nhttps://bgm.tv/ep/167720 (page): Bangumi 第16话标题及首播日期为“気分は青空 会長はブルー/.../桜才・英稜 学園交流会!”、2012-04-25。\n\nhttps://bgm.tv/ep/258036 (page): Bangumi 第19话标题及首播日期为“お約束じゃ済まさないぜ/.../兄バカ文化祭”、2013-05-08。\n\nhttps://bgm.tv/ep/258037 (page): Bangumi 第20话标题及首播日期为“萩村スズの1日/.../やきもきチョコ”、2013-07-10。\n\nhttps://www.themoviedb.org/tv/36697 (api_snapshot): TMDB 作品36697名称为“生徒会役員共”，首播日期为2010-07-04，包含 season 0“特別編”。\n\nhttps://www.themoviedb.org/tv/36697/season/0 (api_snapshot): TMDB season 0 episode 3、6、7分别为第1期16、19、20话，日期分别为2012-04-25、2013-05-08、2013-07-10；该季共18集，不能整季纳入。\n\nhttps://seleccaonaturalparcial.wordpress.com/2014/10/ (page): 页面在 Seitokai Yakuindomo OVA 项下列出 AniDB 8996 链接；AniDB 当前系列资料也将 Seitokai Yakuindomo OVA 作为独立 OVA 与 TV 主作关联，支持该 AniDB 线索对应 OVA 版本。\n\n备注：TMDB 第3、6、7集与 Bangumi 的分段标题并非逐字一致，表现为部分片段增删或重复；但三者的作品编号、OVA章节编号和发售日期均一致，因此不影响本次集数映射。",
+    "evidence": "codex: 确认对应TMDB 36697第0季第3、6、7集。作品剧情、制作公司、角色声优及OVA版本吻合，三话的原始话数编号和发行日期逐一完全一致，主要分段标题也相符。仅纳入这三集，与所给其他Bangumi条目的占用范围无重叠。\n\nhttps://bgm.tv/subject/39118 (page): Bangumi 将本作列为3话OVA，发行时间为2012-04-25至2013-07-10；原作为氏家ト全、导演为金澤洪充、动画制作为GoHands，剧情围绕津田担任学生会副会长展开。\n\nhttps://bgm.tv/subject/39118/ep (page): 章节表仅含第16、19、20话，日期依次为2012-04-25、2013-05-08、2013-07-10；三话主要分段标题分别与TMDB特别篇第3、6、7集一致。\n\nhttps://king-cr.jp/special/seitokai/ova/ (page): 官方OVA页面确认原作氏家ト全、导演金澤洪充、动画制作GoHands，以及津田、天草等角色和声优，与Bangumi及TMDB对应作品一致。\n\nhttps://www.themoviedb.org/tv/36697 (api_snapshot): TMDB详情确认36697为2010年开始的《生徒会役員共》，制作公司GoHands，剧情及主要角色声优吻合；另设第0季特别篇。\n\nhttps://www.themoviedb.org/tv/36697/season/0 (api_snapshot): 已读取第0季全部18集，total_pages=1。第3、6、7集明确标为第1期第16、19、20话，日期分别为2012-04-25、2013-05-08、2013-07-10，逐话编号、日期及主要分段标题吻合。其余集属于其他OVA/OAD范围。\n\n备注：分段标题存在登记差异：Bangumi第16话重复一个分段标题，TMDB相应位置为另一标题；第19、20话的Bangumi标题均比TMDB多列一个短段。两站时长记录也略有差异，但原始话数、日期及其余标题一致，不影响整话对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/39118; https://bgm.tv/ep/167720; https://bgm.tv/ep/258036; https://bgm.tv/ep/258037; https://www.themoviedb.org/tv/36697; https://www.themoviedb.org/tv/36697/season/0; https://seleccaonaturalparcial.wordpress.com/2014/10/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/39118; https://bgm.tv/subject/39118/ep; https://king-cr.jp/special/seitokai/ova/; https://www.themoviedb.org/tv/36697; https://www.themoviedb.org/tv/36697/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -21,12 +71,7 @@
     },
     {
       "episode": 6,
-      "id": 36697,
-      "season": 0,
-      "type": "tv"
-    },
-    {
-      "episode": 7,
+      "episodeEnd": 7,
       "id": 36697,
       "season": 0,
       "type": "tv"

@@ -1,16 +1,156 @@
 {
   "anidbId": 5596,
   "bangumiId": 1423,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 4809,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 4810,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 4811,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 4812,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 4813,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 4814,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 4815,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 4816,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 4817,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 4818,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 4819,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 4820,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 4821,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 4822,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 4823,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 4824,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 4825,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 4826,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 4827,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 4828,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 4829,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 4830,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 4831,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 4832,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 4833,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 4834,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 的 AniDB ID=5596 已标记为 matched，且作品名、日文名、2009 年播出信息和 26 集主体与 TMDB TV 36084 一致。TMDB 明确提供 season 1，episodeCount=26、episodesTruncated=false；其第 1–26 集标题逐条对应 Bangumi 的 26 集标题，因此应映射为完整第 1 季，不需要缩小集数范围。虽然部分日期存在时区或数据录入差异，未发现足以表明是不同版本的证据。\n\nhttps://bgm.tv/subject/1423 (page): Bangumi subject 为《ティアーズ・トゥ・ティアラ／花冠之泪》，2009 年电视动画，主体共 26 集，并提供 AniDB ID=5596 且标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/36084 (api_snapshot): TMDB TV 36084 的名称为「ティアーズ・トゥ・ティアラ」，原语言为日语、首播年份为 2009 年，并标示第 1 季共 26 集。\n\nhttps://www.themoviedb.org/tv/36084/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1，episodeCount=26，episodesTruncated=false；第 1–26 集标题与 Bangumi 提供的 26 集标题逐条对应。\n\n备注：TMDB 与 Bangumi 的首播日期及个别集数日期存在数日差异，可能源于时区或数据库录入；不影响标题、集数和剧情主体的一致性。；AniDB 页面本身未在本次证据中单独读取；当前关联依据是 Bangumi 数据中 anidbId=5596 且 anidbTitleStatus=matched。",
+    "evidence": "codex: 确认对应TMDB TV 36084完整第1季。年份、电视动画媒介、导演、制作公司、角色及剧情均吻合，26集标题逐条同序一致，完整季表未混入其他作品，可建立本篇1—26集一对一规则。日期异常有独立资料可交叉识别，不影响作品身份及集号对应。\n\nhttps://bgm.tv/subject/1423 (page): Bangumi 标明本作是2009年、全26话的电视动画，由小林智樹执导、WHITE FOX制作；剧情涉及莉安珑作为祭品及魔王阿隆复活。\n\nhttps://www.themoviedb.org/tv/36084 (api_snapshot): 日文原名搜索命中 TV 36084；详情确认同名2009年电视动画，导演小林智樹、制作公司White Fox、角色及复活仪式剧情均一致，仅有1季、共26集。\n\nhttps://www.themoviedb.org/tv/36084/season/1 (api_snapshot): 第1季完整返回26集，total_pages=1。第1至26集日文标题与输入的Bangumi章节逐条完全一致，无插入、拆分或额外作品。第18集日期异常记为2008-08-02。\n\nhttps://dengekionline.com/elem/000/000/142/142661/ (page): 2009年开播报道确认同一制作班底及剧情版本，千叶电视台排期为4月5日起每周日25:35，即公历4月6日凌晨；支持TMDB首播日期。\n\nhttps://en.wikipedia.org/wiki/List_of_Tears_to_Tiara_episodes (page): 独立集表列出相同的26集标题，播出日为2009年4月5日至9月27日；逐集核对发现TMDB除第18集年份异常外，其余日期相同或晚一天。第18集《帰還》列为2009-08-02。\n\n备注：Bangumi的2009-04-02开播日期与同期报道不符，其来源未明；报道明确为4月5日25:35开播。；TMDB第18集的2008-08-02与全剧年份及独立集表冲突，判断为年份录入错误；其标题与剧情仍对应本篇第18集。其余部分集日期相差一天，与深夜放送日期口径相容。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1423; https://www.themoviedb.org/tv/36084; https://www.themoviedb.org/tv/36084/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1423; https://www.themoviedb.org/tv/36084; https://www.themoviedb.org/tv/36084/season/1; https://dengekionline.com/elem/000/000/142/142661/; https://en.wikipedia.org/wiki/List_of_Tears_to_Tiara_episodes",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36084
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

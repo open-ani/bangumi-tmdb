@@ -1,16 +1,86 @@
 {
   "anidbId": 11918,
   "bangumiId": 168417,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 624688,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 624689,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 624690,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 624691,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 624692,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 624693,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 624694,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 624695,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 624696,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 624697,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 624698,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 624699,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 68224 第1季全12集。年份、剧情、导演、动画公司及电视动画媒介一致；完整季表的12个日文集标题逐一对应 Bangumi 本篇1—12，未混入其他作品，可建立连续一对一映射。\n\nhttps://www.themoviedb.org/tv/68224 (api_snapshot): 日文原名搜索命中 TV 68224；详情确认这是2016年电视动画，导演宅野誠起、制作公司 LIDENFILMS，剧情为俵宗太返乡后遇见化为孩童的狸猫，与输入的年份、媒介、制作人员和剧情一致。全剧1季12集。\n\nhttps://www.themoviedb.org/tv/68224/season/1 (api_snapshot): 已读取第1季完整集表，12集、共1页。第1至12集日文标题与输入逐集完全一致，顺序相同。除第5集外，播出日期均比 Bangumi 晚一天，符合深夜跨日记法；第5集日期异常记为2016-10-06。\n\nhttps://www.allcinema.net/cinema/pdf/355649 (search_snippet): 节目资料记载本作于2016-10-08至2016-12-24每周六25:55在日本电视台播出，支持两站日期相差一天源于深夜跨日记法。\n\nhttps://thetv.jp/program/0000906503/5/ (search_snippet): 第5集「骨付鳥」明确记载于2016-11-05在日本电视台播出；同窗会录像及探望中岛父亲的剧情也与 TMDB 第5集一致，支持该集对应关系，并表明 TMDB 日期有误。\n\n备注：TMDB 第1季第5集播出日期2016-10-06与节目资料冲突，应为2016-11-05深夜（自然日11月6日）；标题、集号和剧情均吻合，不影响映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/168417; https://www.themoviedb.org/tv/68224; https://www.themoviedb.org/tv/68224/season/1; https://www.allcinema.net/cinema/pdf/355649; https://thetv.jp/program/0000906503/5/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68224
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

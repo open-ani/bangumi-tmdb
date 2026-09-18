@@ -1,16 +1,103 @@
 {
   "anidbId": 13973,
   "bangumiId": 241185,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 958967,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 958968,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 958969,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 958970,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 958971,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 958972,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 958973,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 958974,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 958975,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 958976,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 958977,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 958978,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 979805,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 979805,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 96556,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi主体明确是2020年7月4日开播、12话的TV动画；其章节中另含2020年9月26日的12.5特别篇。TMDB 96556具有相同日文标题、首播日期、剧情设定和制作信息，Season 1完整对应12集，标题、日期与Bangumi正篇逐集吻合；TMDB主体还明确列出Season 0且仅1集，日期与Bangumi主体内特别篇一致。因此应映射整季1，并补充Season 0整季特别篇。AniDB直接页面未能读取，但该关联不是采用TMDB目标的唯一依据。\n\nhttps://bgm.tv/subject/241185 (page): Bangumi页面将该主体标为TV，记载12话、2020年7月4日开播、2020年9月19日结束，并列出12.5特别篇；导演、系列构成、动画制作等信息与候选及TMDB主体一致。\n\nhttps://nbcuni.co.jp/anime/lineup/2020/index03570000.html?lang=ja (page): 官方发行方页面确认作品名、故事设定、导演畑博之、系列构成土田霞/あさのハジメ、音乐宝野聡史及横滨Animation Lab制作。\n\nhttps://www.themoviedb.org/tv/96556 (api_snapshot): TMDB API快照显示ID 96556的日文标题、2020-07-04首播、12集Season 1及1集Season 0；Season 0日期为2020-09-26，与Bangumi主体内特别篇日期一致。\n\nhttps://www.themoviedb.org/tv/96556/season/1 (api_snapshot): TMDB Season 1快照提供完整12集；各集标题和日期与Bangumi第1至12话逐集对应。\n\n备注：AniDB 13973的独立详情页未能成功读取，故未将AniDB关联本身作为唯一确认依据。；输入未提供TMDB Season 0的逐集标题详情，但其季号、单集数量和日期已在TMDB主体快照中明确，并与Bangumi的12.5特别篇吻合。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演及制作公司一致。实际读取两季完整集表后，确认12集正篇按标题与日期逐集对应第1季第1至12集；小数序号特别篇12.5对应第0季第1集，使用章节ID单独映射。\n\nhttps://www.themoviedb.org/tv/96556 (api_snapshot): TMDB 96556 为2020年7月4日首播的同名电视动画；魔女学校与缇亚拉的剧情设定、导演畑博之、横滨动画研究所制作均与输入一致，正篇共12集。\n\nhttps://bgm.tv/subject/241185/ep (page): Bangumi章节页列出12集正篇及SP12.5「30分でわかる！」；正篇于2020年7月4日至9月19日播出，特别篇于9月26日播出。\n\nhttps://www.themoviedb.org/tv/96556/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。逐集播出日期与Bangumi正篇全部一致，标题亦对应；第2集仅有省略连接符的书写差异。\n\nhttps://www.themoviedb.org/tv/96556/season/0 (api_snapshot): 第0季完整集表仅1集，第1集标题为「30分でわかる! TVアニメ「Lapis Re:LiGHTs」」，播出日期2020年9月26日，与Bangumi章节979805的标题及日期对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/241185; https://nbcuni.co.jp/anime/lineup/2020/index03570000.html?lang=ja; https://www.themoviedb.org/tv/96556; https://www.themoviedb.org/tv/96556/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/241185; https://www.themoviedb.org/tv/96556; https://bgm.tv/subject/241185/ep; https://www.themoviedb.org/tv/96556/season/1; https://www.themoviedb.org/tv/96556/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 96556
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 96556,
       "season": 0,
       "type": "tv"

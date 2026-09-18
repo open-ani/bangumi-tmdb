@@ -1,21 +1,109 @@
 {
   "anidbId": 14623,
   "bangumiId": 272188,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 940901,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 940902,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 940903,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 940904,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 940905,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 940906,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 940907,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 940908,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 940909,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 940910,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 940911,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 941801,
+      "sort": 12,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 941801,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 80713,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2020年第二季：11话本篇按集号对应 TMDB 80713 第二季全季，千岁篇对应 S00E02。作品版本、剧情、制作信息、集数及逐集电视日期相互支持；旧映射遗漏了千岁篇。\n\nhttps://www.themoviedb.org/tv/80713 (api_snapshot): 日文原名搜索命中 TV 80713；详情明确列出第二季别名“邪神ちゃんドロップキック’（ダッシュ）”。剧情、角色、制作公司 NOMAD 及佐藤光的制作信息与输入吻合，第二季年份为2020年。\n\nhttps://www.themoviedb.org/tv/80713/season/2 (api_snapshot): 第二季完整集表共11集、仅1页，标题依次为第一话至第十一话，全部日期为2020-04-06；没有混入千岁篇。\n\nhttps://thetv.jp/program/0000972321/plot/ (page): 电视集表逐集列出第1至11话，播出日期依次为2020-04-06、04-13、04-20、04-27、05-04、05-11、05-18、05-25、06-01、06-08、06-15，与输入全部本篇章节对应；另将千岁篇列为6月22日电视播出的第12话。\n\nhttps://jashinchan.com/news/1809 (search_snippet): 官方第二季播出公告明确：Amazon Prime Video 于2020年4月6日22:15左右全话一次性先行配信，电视随后按周播出，解释了 TMDB 本篇日期与 Bangumi 周播日期的差异。\n\nhttps://www.themoviedb.org/tv/80713/season/0 (api_snapshot): 第0季完整集表共33集、仅1页；第2集标题为“SP回（千歳編）”，时长23分钟，内容为邪神与百合铃等人前往北海道千岁市旅行。其日期字段为2020-04-10。\n\nhttps://jashinchan.com/news/2382 (page): 官方公告确认千岁篇于2020年4月30日22:15在 Amazon Prime Video 全球最速配信，与输入特别篇日期一致。\n\n备注：TMDB 将千岁篇日期记为2020-04-10，与官方最速配信日期2020-04-30冲突；标题、内容和特别篇身份足以确认对应，日期字段仍有疑误。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/272188; https://www.themoviedb.org/tv/80713; https://www.themoviedb.org/tv/80713/season/2; https://thetv.jp/program/0000972321/plot/; https://jashinchan.com/news/1809; https://www.themoviedb.org/tv/80713/season/0; https://jashinchan.com/news/2382",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 80713
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 80713,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 80713,
+      "season": 0,
       "type": "tv"
     }
   ]

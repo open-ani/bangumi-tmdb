@@ -1,20 +1,40 @@
 {
   "bangumiId": 38125,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164152,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164152,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本作对应TMDB 30983第0季第3集。已通过标题、2003年OVA版本、单话范围、制作信息及大阪寻找失踪少年的具体剧情交叉确认。Bangumi章节日期对应2006年DVD再发行，使用章节ID特例映射至该特别篇。\n\nhttps://bgm.tv/subject/38125 (page): Bangumi 将本作列为2003年单话OVA；2006年3月24日是收录于 SECRET FILE Vol.1 的再次发行日期。\n\nhttps://api.themoviedb.org/3/movie/469758 (api_snapshot): 旧映射 movie/469758 的详情请求返回 HTTP 404，无法继续采用该电影ID。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): 已读取TV 30983详情，确认为日本动画《名探偵コナン》，制作公司包含TMS，原作为青山刚昌，并设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 第0季实际集表共35集、1页；第3集为 Conan, Heiji, and the Vanished Boy，时长25分钟、日期2003-01-01。剧情为柯南与兰游览大阪，与平次、和叶遇到三名寻找失踪朋友的孩子，与本OVA吻合。\n\nhttps://www.detectiveconanworld.com/wiki/Conan,_Heiji,_and_the_Vanished_Boy (page): 资料确认本作是第3部OVA，标注2003年3月12日、导演山本泰一郎、编剧古内一成；大阪观光途中寻找守口智的剧情与TMDB第0季第3集一致。\n\nhttps://www.toho-a-park.com/dvd/item/html/SDV/SDV16119D.html (page): 东宝官方商品页确认 SECRET FILE1 于2006年3月24日发行，包含本作及另两部OVA，共73分钟；本subject仅对应其中一话，不能映射整个合集。\n\n备注：TMDB标注2003-01-01，与Bangumi及OVA资料的2003-03-12不一致；具体首发月日存在元数据差异，但年份、标题和剧情均吻合。；旧电影ID返回404的原因未确认，不能据此断定条目已被删除或合并。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38125; https://api.themoviedb.org/3/movie/469758; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0; https://www.detectiveconanworld.com/wiki/Conan,_Heiji,_and_the_Vanished_Boy; https://www.toho-a-park.com/dvd/item/html/SDV/SDV16119D.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 469758,
-      "type": "movie"
+      "episode": 3,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

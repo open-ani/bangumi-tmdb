@@ -1,16 +1,91 @@
 {
   "anidbId": 14063,
   "bangumiId": 244900,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 874292,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 874293,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 874294,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 874295,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 874296,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 874297,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874298,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874299,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874300,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874301,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874302,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874303,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 893013,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 85841第1季全13集。年份、TV媒介、导演、角色剧情及总集数一致；官方逐话资料与TMDB集表逐集吻合，结合Bangumi首尾标题及完整编号，可确认本篇1—13话顺序一一对应。日期异常属于资料差异，不应据此移动集号。\n\nhttps://www.themoviedb.org/tv/85841 (api_snapshot): 日文原名搜索命中 TV 85841；详情确认首播为2019-04-07、导演伊達勇登，剧情为因又在新大陆救助探险家，与本 subject 一致；全剧仅一季13集。\n\nhttps://www.themoviedb.org/tv/85841/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集。逐集标题及剧情与官方第1—13话一致，第3话标题存在「七彩鳩／七色鳩」字形差异但剧情相同，无拆集或混入其他作品。\n\nhttps://gunjyo-magumeru.com/story.html (page): 官方逐话页面列明第1—13话编号、标题和剧情，可核实 TMDB 的完整顺序，末话为「いつか二人で…」。\n\nhttps://www.teichiku.co.jp/catalog/imperial/2020/TEXI-22051.html (page): 发行商确认本作是全13话TV动画，原作中文名《拾又之国》，导演伊達勇登、动画制作ぴえろプラス，并列出完整13话收录顺序。\n\nhttps://thetv.jp/program/0000949621/plot/ (page): 逐集节目资料确认TOKYO MX第1—13话于2019-04-07至06-30每周日播出；第5—12话分别为05-05、05-12、05-19、05-26、06-02、06-09、06-16、06-23。\n\nhttps://bgm.tv/subject/244900/ep (page): Bangumi列出连续13话，第1、2、13话标题与官方及TMDB吻合；第3—12话标题为空，第5—12话日期较节目资料提前一周，第4、5话重复记为04-28。\n\n备注：Bangumi第5—12话日期较TOKYO MX记录提前一周；TMDB第2—13集日期多数晚一天，第8集晚两天。日期差异的具体录入原因未确认，映射依据已核实的官方话号、标题、剧情和13话完整范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/244900; https://www.themoviedb.org/tv/85841; https://www.themoviedb.org/tv/85841/season/1; https://gunjyo-magumeru.com/story.html; https://www.teichiku.co.jp/catalog/imperial/2020/TEXI-22051.html; https://thetv.jp/program/0000949621/plot/; https://bgm.tv/subject/244900/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85841
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,66 @@
 {
   "anidbId": 11161,
   "bangumiId": 270739,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1093077,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1093078,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1093079,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1093080,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1093081,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1093082,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1093083,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1093084,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "2022 年独立续作，共八集；已核对从「出撃の日」到「いつかあの海で」的八个日文章节。\nTMDB 与 Bangumi 首播日期相差一天。\nhttps://api.bgm.tv/v0/subjects/270739\nhttps://www.themoviedb.org/tv/203192/season/1",
+    "evidence": "codex: 确认对应 TMDB 203192 第1季全8集。年份、电视动画媒介、时雨与1YB3H剧情、导演及制作公司一致，8个日文集标题和顺序全部吻合。放送日期已逐集比对：前5集为跨午夜记日差异，后3集以官方公告核实；TMDB 日期错误不影响已确认的集号对应。排除65711第2季线索。\n\nhttps://www.themoviedb.org/tv/203192 (api_snapshot): TMDB 203192 为2022年电视动画，剧情围绕时雨加入第一游击部队第三部队展开；导演三浦和也、动画制作 ENGI，与输入一致，共1季8集。\n\nhttps://www.themoviedb.org/tv/203192/season/1 (api_snapshot): 第1季真实集表共8集，total_pages=1。第1至8集标题依次为「出撃の日」「海峡へ」「海峡夜戦」「佐世保」「二水戦」「暗雲」「海上遊撃戦」「いつかあの海で」，与 Bangumi 全部逐集一致，未混入其他作品。\n\nhttps://www.themoviedb.org/tv/65711 (api_snapshot): TMDB 65711 是2015年以吹雪为中心、草川启造执导的12集电视动画；详情仅列第1季，实际请求第2季返回404，冲突线索不能采用。\n\nhttps://kancolle-itsuumi.com/ (page): 官网确认本作为2022年秋开播的新电视动画，故事从1944年展开，并列出三浦和也、田中谦介及 ENGI，与目标版本一致。\n\nhttps://kancolle-itsuumi.com/onair/index.html (page): 官网首播时间为11月3日24:30，即公历11月4日凌晨，可解释 Bangumi 与 TMDB 前5集的一天日期差异。\n\nhttps://kancolle-itsuumi.com/news/index00260000.html (page): 官网第6集「暗雲」公告为1月19日25:00首播；部分电视台排于1月23日。TMDB 第6集记为2023-01-23，并非最早首播日期。\n\nhttps://kancolle-itsuumi.com/news/index00280000.html (page): 官网明确第7集「海上遊撃戦」于2023年2月12日19:30起播出，与 Bangumi 一致，TMDB 所记1月30日不符。\n\nhttps://kancolle-itsuumi.com/news/index00410000.html (page): 官网明确第8集「いつかあの海で」于2023年3月25日20:30起播出，与 Bangumi 一致，TMDB 所记2月6日不符。\n\n备注：TMDB 第6至8集日期并非全部准确的最早首播日期，尤其第7、8集与官方公告明显不符；逐集映射依据完整标题、集数、顺序及官方排期确认。",
     "method": "codex",
-    "source": "manual-review-sol-remaining-51",
-    "verifiedAt": "2026-09-08T18:08:25.820Z"
+    "source": "https://bgm.tv/subject/270739; https://www.themoviedb.org/tv/203192; https://www.themoviedb.org/tv/203192/season/1; https://www.themoviedb.org/tv/65711; https://kancolle-itsuumi.com/; https://kancolle-itsuumi.com/onair/index.html; https://kancolle-itsuumi.com/news/index00260000.html; https://kancolle-itsuumi.com/news/index00280000.html; https://kancolle-itsuumi.com/news/index00410000.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 203192
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

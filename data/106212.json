@@ -1,21 +1,202 @@
 {
   "anidbId": 10691,
   "bangumiId": 106212,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 512721,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 512722,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 512723,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 512724,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 512725,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 512726,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 512727,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 512728,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 512729,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 512730,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 512731,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 512732,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 616188,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 616189,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 616190,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 616191,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 616192,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 616193,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 616188,
+      "targets": [
+        {
+          "episode": 12,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 616189,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 616190,
+      "targets": [
+        {
+          "episode": 14,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 616191,
+      "targets": [
+        {
+          "episode": 15,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 616192,
+      "targets": [
+        {
+          "episode": 17,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 616193,
+      "targets": [
+        {
+          "episode": 18,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015 年 4 月播出的《ハイスクールD×D BorN》，正篇 12 集；TMDB TV 45950 的第 3 季同名、首播日期为 2015-04-04，共 12 集，逐集标题和日期与 Bangumi 正篇对应，剧情和制作信息也一致。因此映射为 TMDB TV 45950 第 3 季完整 12 集。Bangumi 所列 6 个 SP 属于额外特典，不纳入主体季范围。\n\nhttps://bgm.tv/subject/106212 (page): Bangumi 条目为《ハイスクールD×D BorN》TV，话数 12，放送开始 2015-04-04，放送结束 2015-06-20；导演柳沢テツヤ、人物设定ごとうじゅんじ、动画制作 TNK 等信息与候选版本一致。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 10691 标为 High School DxD Born，核对了输入中的 AniDB 关联名称。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 中 AniDB 10691 的条目名称为 High School DxD Born，并关联 tmdbtv=45950、tmdbseason=3；该映射仅作辅助线索。\n\nhttps://www.themoviedb.org/tv/45950 (api_snapshot): TMDB TV 45950 为《ハイスクールD×D》，包含第 3 季《ハイスクールD×D BorN》，首播 2015-04-04、12 集。\n\nhttps://www.themoviedb.org/tv/45950/season/3 (api_snapshot): TMDB 第 3 季 season_number=3，名称为《ハイスクールD×D BorN》，air_date=2015-04-04，episodeCount=12；快照列出的第 1 至第 12 集标题、日期和剧情与 Bangumi 正篇对应。\n\n备注：输入中 Bangumi 第 12 集日期为 2016-06-20，但条目整体结束日期、TMDB 快照及前后播出顺序均指向 2015-06-20，视为 Bangumi 数据中的日期笔误，不影响季和范围判断。",
+    "evidence": "codex: 年份、TV版本、制作信息、剧情及逐集标题确认本篇对应TMDB 45950第三季完整12集。六个SP依据副标题与发行日期对应第0季12—15、17—18集，使用章节ID覆盖映射，避开属于独立DX OAD的第16集。全部18个章节均已确认对应。\n\nhttps://bgm.tv/subject/106212 (page): 条目为2015年TV动画《ハイスクールD×D BorN》，本篇12话，播出时间为2015-04-04至2015-06-20；导演柳沢テツヤ、动画制作TNK。剧情为暑假前往冥界修行、小猫与黑歌及北欧神族相关事件，另列六个SP；DX OAD为独立关联条目。\n\nhttps://www.themoviedb.org/tv/45950 (api_snapshot): 实际读取TMDB 45950详情：系列包含TNK制作信息及对应角色声优；第三季明确名为《ハイスクールD×D BorN》，首播2015-04-04，共12集，冥界修行及黑歌相关剧情与Bangumi一致。第二季NEW与第四季HERO分别列出。\n\nhttps://www.themoviedb.org/tv/45950/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共12集。第1至12集日文标题逐一对应输入本篇，只有标点差异；第1至11集日期完全一致，第12集为2015-06-20，与Bangumi条目整体完结日期一致。\n\nhttps://www.themoviedb.org/tv/45950/season/0 (api_snapshot): 实际读取第0季完整18集，total_pages=1。第12、13、14、15、17、18集分别对应六个SP，副标题与发行日期均逐一一致：2015-07-24、08-26、10-28、11-25、12-25及2016-01-27。第16集是独立24分钟OAD《蘇らない不死鳥》，不属于这六个约4分钟特典。\n\n备注：输入本篇第12集日期为2016-06-20，与Bangumi条目完结日期及TMDB的2015-06-20冲突；结合标题、集数和连续周播日期，判断为输入章节年份笔误，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/106212; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/45950; https://www.themoviedb.org/tv/45950/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/106212; https://www.themoviedb.org/tv/45950; https://www.themoviedb.org/tv/45950/season/3; https://www.themoviedb.org/tv/45950/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 45950
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45950,
       "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 12,
+      "episodeEnd": 15,
+      "id": 45950,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 17,
+      "episodeEnd": 18,
+      "id": 45950,
+      "season": 0,
       "type": "tv"
     }
   ]

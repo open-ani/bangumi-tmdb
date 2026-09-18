@@ -1,13 +1,65 @@
 {
+  "anidbId": 15385,
   "bangumiId": 318870,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 987885,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 987886,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 987887,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 987888,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 987889,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 987890,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 987891,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 987892,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 987893,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 987894,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目原名、日期与 Bangumi 完全对应，均为 2021-03-07 的《おしえて北斎！-THE ANIMATION-》。两者剧情均为女高中生接受日本美术家指导、学习实现梦想的方法；制作人员均指向导演 いわきりなおと/Naoto Iwakiri，TMDB 还列出 CoMix Wave Films。Bangumi 标明媒介为 WEB、共 10 集；TMDB 只有第 1 季，实际季表完整列出 2021-03-07 至 2021-05-09 的第 1–10 集，因此可对应整季。\n\nhttps://api.bgm.tv/v0/subjects/318870 (api_snapshot): Bangumi API 原始资料：原名、别名、2021-03-07、WEB 媒介、10 集、剧情及导演 いわきりなおと。\n\nhttps://www.themoviedb.org/tv/112795 (api_snapshot): TMDB 详情：原名《おしえて北斎！-THE ANIMATION-》、首播 2021-03-07、共 1 季 10 集、导演 Naoto Iwakiri、制作公司 CoMix Wave Films。\n\nhttps://www.themoviedb.org/tv/112795/season/1 (api_snapshot): TMDB 第 1 季实际季表完整列出第 1 至第 10 集，total_pages=1，日期覆盖 2021-03-07 至 2021-05-09。",
+    "evidence": "codex: 确认对应 TMDB 112795 第1季整季：年份、首播日期、网络短篇动画媒介、剧情、导演、制作公司、角色声优及10集规模相互吻合，季表覆盖本作主体。逐集证据不足，因此仅确认作品和季范围，暂不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/112795 (api_snapshot): TMDB 112795 原名对应，首播日期为2021-03-07；制作公司为 CoMix Wave Films，导演为 Naoto Iwakiri，角色及声优与制作方资料一致。共1季10集，简介为空，不能沿用旧映射中关于 TMDB 剧情的说法。\n\nhttps://www.themoviedb.org/tv/112795/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共10集，集号1—10，每集10分钟；标题仅为“第1話”等编号，日期从2021-03-07按周排列至2021-05-09。\n\nhttps://www.cwfilms.jp/products/article/-the_animation-.html (page): 制作方确认这是2021年网络配信动画，全10话、每话约10分钟；剧情为女高中生冈仓天鼓铃接受历代画师指导，导演为いわきりなおと，人物设计为伊東ユウスケ。媒介、剧情、人员及集数与输入一致，角色和声优亦与 TMDB 一致。\n\nhttps://www.hokusai-anime.jp/sp/onair.html (page): 官方网站列出2021年3月7日于ABEMA开始配信，3月8日起于其他平台配信，与输入及 TMDB 的首播日期一致。\n\n备注：输入中的 Bangumi 10个章节均无标题和播出日期，TMDB 也只有编号标题，无法完成独立的逐集标题或日期比对；不能仅凭位置生成1—10顺序映射。；TMDB 第2—10集的每周日期尚无官方逐集排期佐证；官网仅确认配信开始日期。后续需补充 Bangumi 章节信息及可靠逐集资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/318870; https://api.bgm.tv/v0/subjects/318870; https://www.themoviedb.org/tv/112795; https://www.themoviedb.org/tv/112795/season/1",
-    "verifiedAt": "2026-09-08T22:37:15.296Z"
+    "source": "https://bgm.tv/subject/318870; https://www.themoviedb.org/tv/112795; https://www.themoviedb.org/tv/112795/season/1; https://www.cwfilms.jp/products/article/-the_animation-.html; https://www.hokusai-anime.jp/sp/onair.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

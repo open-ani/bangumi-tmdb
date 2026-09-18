@@ -1,19 +1,101 @@
 {
   "anidbId": 17689,
   "bangumiId": 393238,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1143924,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1156521,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1156522,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1156523,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1156524,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1156525,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1156526,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1156527,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1156528,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1156529,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1156530,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1156531,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1156532,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1157661,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、制作人员和TV媒介一致；12集本篇的标题、顺序与播出排期逐一吻合。TMDB将2023年与2025年内容合并在第1季，故应将旧映射收窄至S1E1—E12，与续作占用的E13—E24不冲突。\n\nhttps://www.themoviedb.org/tv/213402 (api_snapshot): 日文原名搜索命中 TV 213402；详情确认其为2023年首播、MAPPA制作、松田清执导的电视动画，向田刚志及“网上超市”技能的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/213402/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集日文标题与输入12篇本篇逐一完全一致，日期均比Bangumi晚一天，范围为2023-01-11至2023-03-29；第13—24集为2025年播出的后续内容，因此本subject只覆盖第1—12集。\n\nhttps://tondemoskill-anime.com/season1/ (page): 第一季官网确认向田刚志通过“网上超市”取得现代食品的剧情，以及原作江口连、导演松田清、系列构成横手美智子、制作MAPPA，版本与输入一致。\n\nhttps://tondemoskill-anime.com/season1/news/post-142/ (search_snippet): 官方公告说明2023年1月10日起每周二24:00电视播出，23:45先行网络配信；这解释了Bangumi与TMDB逐集相差一天的日期记录。\n\n备注：两条Bangumi SP为动画化公布特番及播前直播，尚无已核实的TMDB对应集，本次保留未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/393238; https://www.themoviedb.org/tv/213402; https://www.themoviedb.org/tv/213402/season/1; https://tondemoskill-anime.com/season1/; https://tondemoskill-anime.com/season1/news/post-142/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 213402
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 213402,
       "season": 1,
       "type": "tv"

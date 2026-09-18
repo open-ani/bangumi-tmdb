@@ -1,15 +1,91 @@
 {
+  "anidbId": 13354,
   "bangumiId": 118066,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 450158,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 450159,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 450160,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 450161,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 450162,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 450163,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 450164,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 450165,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 450166,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 450167,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 587860,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 591243,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 599062,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认对应 TMDB TV《撸时代》（Lu Shidai / LU's TIME，别名 Age of League）。TMDB 资料显示该作品为 2013 年开始的中国动画连续剧，剧情均围绕《英雄联盟》和大学生群体，制作公司包括彩色铅笔动画，第二季日期为 2014-11-26；Bangumi 条目明确是第二季、WEB 动画、13 话，并列出史涓生等导演及彩色铅笔动画。TMDB 第 2 季实际有完整 13 集，集数与 Bangumi 主体一一对应，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/234817 (api_snapshot): TMDB details：原名《撸时代》，开始日期 2013-10-11；TV 类型；剧情为围绕《英雄联盟》的大学生生活；共 2 季、27 集；别名包括 Lu Shidai、撸时代 LU's TIME、Age of League；制作公司包括 Haoliners Animation、Colored-Pencil Animation Design、Penta Show Studios；工作人员包含史涓生。\n\nhttps://www.themoviedb.org/tv/234817/season/2 (api_snapshot): TMDB 第 2 季实际集表共 13 集，season=2，集数连续为 1–13，首集日期为 2014-11-26，整体与 Bangumi 第二季主体吻合。\n\nhttps://bangumi.tv/subject/118066 (page): Bangumi 原条目明确为《撸时代 第二季》，13 话，2014-11-26 开始；列出史涓生、劳志成、邓康明等导演、彩色铅笔动画制作，并有完整 01–13 章节。\n\nhttps://zh.wikipedia.org/wiki/%E6%92%B8%E6%97%B6%E4%BB%A3 (page): 作品资料确认《撸时代》是中国网络动画，背景取材于《英雄联盟》，剧情讲述热爱该游戏的中国大学生；第二季由史涓生负责导演并于 2014-11-26 开播。\n\n备注：TMDB 第 2 季部分后续集的日期与 Bangumi/freshBangumi 日期不一致（例如第 9、11–13 集），但集数、顺序和主体身份一致，不影响整季映射。",
+    "evidence": "codex: 年份、网络动画版本、角色剧情、导演、制作公司及第二季13集范围相符。逐集标题、日期与时长比对支持本篇1—13顺序对应TMDB第二季1—13，整季未见混入其他作品。第5集标题误填及部分日期差异不改变章节身份。\n\nhttps://www.themoviedb.org/tv/234817 (api_snapshot): 按原名搜索后读取详情：TMDB 234817《撸时代》为2013年开始的中国动画系列，剧情围绕毛志强等大学生与《英雄联盟》，导演包含史涓生，制作公司包含彩色铅笔动画；第二季于2014-11-26开始，共13集。\n\nhttps://bgm.tv/subject/118066 (page): Bangumi 标为WEB动画第二季，2014-11-26开播、13话；导演包括史涓生，动画制作为彩色铅笔动画，角色包括毛志强，与TMDB作品身份相符。\n\nhttps://www.themoviedb.org/tv/234817/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集。除第5集外，其余12集标题与Bangumi对应一致（忽略标点）；第1—8、10集日期一致。第5集标题重复第4集，但日期2015-03-26及约12分钟时长与Bangumi第5集吻合。\n\nhttps://bgm.tv/subject/118066/ep (page): 章节页列出完整本篇1—13话及日期、时长；第5话为《说不出的告白》。逐集比对支持本篇1—13对应TMDB第二季1—13。\n\nhttps://www.youtube.com/watch?v=Yojec6gPYCE (search_snippet): 搜索结果中“撸时代 - 官方频道”的视频明确标为《撸时代 第二季 05集 说不出的告白》，佐证第5话标题；结合日期及相邻集标题判断，TMDB第5集存在标题误填。\n\n备注：TMDB第5集标题为《来抛硬币吧》，与第4集重复；Bangumi及视频搜索摘要均支持《说不出的告白》，判断为TMDB标题误填。；第9、11、12、13集日期存在差异：TMDB分别为2015-07-26、2015-10-26、2015-11-26、2015-12-26；Bangumi分别为2015-08-05、2015-11-25、2015-12-11、2015-12-31。对应标题一致，实际首播日期尚未独立裁定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/118066; https://www.themoviedb.org/tv/234817; https://www.themoviedb.org/tv/234817/season/2; https://bangumi.tv/subject/118066; https://zh.wikipedia.org/wiki/%E6%92%B8%E6%97%B6%E4%BB%A3",
-    "verifiedAt": "2026-09-08T19:52:09.953Z"
+    "source": "https://bgm.tv/subject/118066; https://www.themoviedb.org/tv/234817; https://www.themoviedb.org/tv/234817/season/2; https://bgm.tv/subject/118066/ep; https://www.youtube.com/watch?v=Yojec6gPYCE",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 234817
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

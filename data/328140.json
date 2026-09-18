@@ -1,16 +1,86 @@
 {
   "anidbId": 15847,
   "bangumiId": 328140,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1007447,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1007448,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1007449,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1007450,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1007451,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1007452,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1007453,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1007454,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1007455,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1007456,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1007457,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1007458,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为 2021-01-07 开播、共 12 集的 TV 动画；输入中的 AniDB ID 15847 与标题匹配。TMDB TV 112895 标题、原名、首播日期、日文简介和日本来源均对应，第一季明确为 12 集，且第 1–12 集的日期从 2021-01-07 至 2021-03-24，与 Bangumi 的主体范围一致。因此采用 TMDB 第 1 季完整 12 集。\n\nhttps://www.themoviedb.org/tv/112895 (api_snapshot): TMDB 作品标题为「エビシー修業日記」，首播日期为 2021-01-07，来源国家为日本，共 12 集，并列出第 1 季且该季有 12 集。\n\nhttps://www.themoviedb.org/tv/112895/season/1 (api_snapshot): TMDB 第 1 季明确为 season_number=1、12 集；第 1–12 集日期覆盖 2021-01-07 至 2021-03-24，前 7 集标题和剧情也与该动画主体相符。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演、制作公司及12集范围均吻合，确定对应 TMDB 112895 第1季。输入的 Bangumi 章节没有标题和日期，使用官网明确编号的12话资料补充核对；与 TMDB 日文及英文集表逐集比对后，确认本篇 sort 1–12 顺序对应第1季第1–12集。\n\nhttps://www.themoviedb.org/tv/112895 (api_snapshot): 日文原名搜索命中 TV 112895；详情确认首播于2021-01-07、共1季12集，导演为青池良辅，动画制作为 Fanworks，剧情为エビシー进入电视台工作，与输入一致。\n\nhttps://abciee.abc-anime.co.jp/ (page): 官网确认本作是2021年电视动画，导演青池良輔、脚本伊澤理絵、动画制作ファンワークス，并按第1至12话列出标题与剧情。首播标为1月6日深夜，即公历1月7日。\n\nhttps://www.themoviedb.org/tv/112895/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，均为12集、total_pages=1。第1至7集日文标题与剧情对应官网同号章节；第8至12集英文标题依次对应妹妹与保安、街头采访、再现短剧、外景交涉、杀青聚会，与官网同号章节一致。全季每集3分钟，无混入其他作品。\n\n备注：TMDB 第1–5集采用周四日期，第6–12集采用周三日期，与官方周三深夜播出的日期记法存在一天差异；标题及章节顺序一致，不影响映射。；Bangumi 在线章节页访问失败；Bangumi 章节 ID、sort 和总数依据用户提供的快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/328140; https://www.themoviedb.org/tv/112895; https://www.themoviedb.org/tv/112895/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/328140; https://www.themoviedb.org/tv/112895; https://abciee.abc-anime.co.jp/; https://www.themoviedb.org/tv/112895/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112895
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

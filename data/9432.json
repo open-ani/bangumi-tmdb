@@ -1,27 +1,98 @@
 {
   "anidbId": 7247,
   "bangumiId": 9432,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 53588,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 53589,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 53590,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 53591,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 53592,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 53593,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 53594,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 53595,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 53596,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 53597,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1027384,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1027385,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1027386,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 记录是《ヒピラくん》TV 主体，输入数据标示 AniDB ID 7247 且标题匹配；Bangumi 统计为10集正篇加3集特别篇，共13集。官方故事页列出第1至12话，标题与 TMDB 第1季12集逐集对应，首播日期和作品简介也一致。官方商品页确认2014-01-29发行的完全版收录未放送第13话“ソウルくんピンチ！”，而 TMDB 的第0季正好有1集、日期为2014-01-29，因此应补入第0季第1集。\n\nhttps://bgm.tv/subject/9432 (page): 输入的 Bangumi subject 元数据为《ヒピラくん》，2009-12-21，TV，13集；其中10集正篇、3集特别篇，AniDB ID 7247 标记为 matched。\n\nhttps://www.hipira.net/story/ (page): 官方故事页连续列出第1至第12话，包含标题和剧情；第11、12话也属于该作品主体，只是标注为手机限定配信。\n\nhttps://www.hipira.net/product/ (page): 官方商品页称2014-01-29发行《ヒピラくん 完全版》，并首次收录未公开第13话“ソウルくんピンチ！の巻”。\n\nhttps://www.themoviedb.org/tv/85910 (api_snapshot): TMDB API 快照显示 TV 85910 原名为“ヒピラくん”，首播日2009-12-21，共12集；第1季12集，第0季1集且日期为2014-01-29。\n\nhttps://www.themoviedb.org/tv/85910/season/1 (api_snapshot): TMDB 第1季快照完整提供第1至12集的标题、日期和剧情，逐集对应官方故事页第1至12话。\n\n备注：TMDB 第0季快照只提供“特別編”、日期和集数，未提供该集标题；将其认定为官方完全版新增第13话，是依据2014-01-29日期与官方商品页的未公开第13话信息匹配。",
+    "evidence": "codex: 确认对应TMDB 85910，先提交已核实的本篇范围。官方明确电视版为第1—10话，与Bangumi的10集本篇结构一致；官方编号、标题和剧情逐集对应TMDB S1E1—E10，因此建立连续规则。3个无标题特别篇缺少可核实的章节身份，暂不按排列位置分配至S1E11、S1E12及S0E1。\n\nhttps://bangumi.tv/subject/9432 (page): Bangumi 标注为2009年12月21日首播的TV动画，导演木村真二、动画制作SUNRISE，剧情为吸血鬼少年在萨尔塔的冒险；章节表分为10集本篇和3集特别篇，但均无标题及日期。\n\nhttps://bangumi.tv/subject/9432/ep (page): 实际章节列表确认本篇编号1—10、特别篇编号SP1—SP3，未提供特别篇内容身份或排列依据。\n\nhttps://www.themoviedb.org/tv/85910 (api_snapshot): TMDB 85910的原名、2009年12月21日首播日期、萨尔塔吸血鬼少年剧情、导演木村真二及制作公司SUNRISE均一致，确认是同一动画版本。\n\nhttps://www.themoviedb.org/tv/85910/season/1 (api_snapshot): 第1季完整季表共12集、仅1页；逐集标题和剧情与官方第1—12话一致。其中第1—10集对应官方电视播出部分，第11—12集对应手机配信部分。TMDB第2集起所列日期与官方首播安排存在冲突。\n\nhttps://www.bandainamco.co.jp/files/EFBE8BEFBE8BEFBE9FEFBE97.pdf (page): 发行方2010年新闻稿明确：第1—10话于2009年12月21—25日在NHK BS2播出；手机配信覆盖第1—12话，其中第11、12话为手机限定。每话5分钟，导演木村真二、动画制作SUNRISE。\n\nhttps://www.hipira.net/story/ (page): 官方故事页按编号列出第1—12话的标题及剧情，逐项对应TMDB第1季；第11、12话明确标注手机限定配信。\n\nhttps://www.hipira.net/product/ (page): 官方商品页确认2014年1月29日发行完全版，首次收录此前未公开的第13话；另有精选DVD与3D版本，不能混为本条目的独立新作。\n\nhttps://www.themoviedb.org/tv/85910/season/0 (api_snapshot): 第0季完整季表仅1集，日期2014年1月29日、时长5分钟，但标题仅为通用的“第1話”，简介为空，未直接注明是官方第13话。\n\n备注：TMDB第1季第2—12集日期与官方电视播出及手机配信安排不符；本篇映射依据官方播出范围、明确编号及逐集标题和剧情，不采用这些冲突日期。；Bangumi特别篇1027385、1027386、1027384均缺标题和日期，尚不能确认各自对应官方第11、12、13话的顺序，保留未映射。；TMDB S0E1的日期和时长支持其可能是完全版新增第13话，但缺少标题或剧情佐证；本次不沿用旧映射中的第0季范围。后续需补充特别篇章节资料及S0E1内容信息。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/9432; https://www.hipira.net/story/; https://www.hipira.net/product/; https://www.themoviedb.org/tv/85910; https://www.themoviedb.org/tv/85910/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/9432; https://bangumi.tv/subject/9432; https://bangumi.tv/subject/9432/ep; https://www.themoviedb.org/tv/85910; https://www.themoviedb.org/tv/85910/season/1; https://www.bandainamco.co.jp/files/EFBE8BEFBE8BEFBE9FEFBE97.pdf; https://www.hipira.net/story/; https://www.hipira.net/product/; https://www.themoviedb.org/tv/85910/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85910
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 10,
       "id": 85910,
       "season": 1,
-      "type": "tv"
-    },
-    {
-      "episode": 1,
-      "id": 85910,
-      "season": 0,
       "type": "tv"
     }
   ]

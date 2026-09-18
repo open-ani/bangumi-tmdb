@@ -1,14 +1,32 @@
 {
   "anidbId": 13361,
   "bangumiId": 221655,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 741978,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 741978,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 68285,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 明确将该主体标为 1 话 OVA，发售日为 2017-12-14，且剧情与制作人员对应《Lostorage conflated WIXOSS》。AniDB 13361 的正式标题就是该 OVA，记录为约 25 分钟、1 集，并注明是《Lostorage conflated WIXOSS》第 1 集的先行版本；其 2017-11-10 日期也与 TMDB 第 0 季日期一致。因此应匹配 TMDB TV 68285 的特别季第 1 集，而不是整季或 TV 第 2 季。\n\nhttps://bgm.tv/subject/221655 (page): Bangumi 将主体标为 OVA、1 话，发售日 2017-12-14；章节剧情涉及清衣、铃子和 Hanna，制作公司为 J.C.STAFF。\n\nhttps://anidb.net/anime/13361 (page): AniDB 13361 标题为 Lostorage Conflated Wixoss: Missing Link - Yochou / Yoake to Mimei，类型为 Web，年份日期为 2017-11-10，约 25 分钟、1 集，并明确注明是《Lostorage Conflated Wixoss》Episode 1 的 pre-air 版本。\n\nhttps://www.themoviedb.org/tv/68285 (api_snapshot): TMDB TV 68285 为 Lostorage incited WIXOSS，包含名为 Lostorage conflated WIXOSS 的第 2 季及 2017-11-10、1 集的第 0 季特别编。\n\nhttps://www.themoviedb.org/tv/68285/season/0 (api_snapshot): TMDB 第 0 季名称为“特別編”，日期为 2017-11-10，只有第 1 集。\n\nhttps://wixoss.fandom.com/wiki/Lostorage_conflated_WIXOSS_Episode_1 (search_snippet): 该集资料指出其 OVA 版本《missing link》于 2017-12-14 发布，之后作为《Lostorage conflated WIXOSS》第 1 集播出，支持两者为同一主体内容的不同发行形态。\n\n备注：TMDB 第 0 季集名仅显示为“第1話”，且日期采用 AniDB 的先行版日期 2017-11-10，而 Bangumi 记录的是 OVA 商品发售日 2017-12-14；这是发行日期差异，不影响将单集主体匹配到第 0 季第 1 集。",
+    "evidence": "codex: 匹配 TMDB 68285 第0季第1集。英文集表明确标注该集为 Missing Link OVA，结合2017年年份、单集数量、约24至25分钟时长、制作公司、人物剧情及DVD发行资料，可确认对应本作。以章节覆盖指定特别篇，不占用属于2018年电视版的第2季。\n\nhttps://bgm.tv/subject/221655 (page): Bangumi 将本作列为2017年12月14日发售的单集 OVA，动画制作为 J.C.STAFF，脚本为土屋理敬，分镜及演出为吉田りさこ。\n\nhttps://www.themoviedb.org/tv/68285 (api_snapshot): TMDB 68285 由 J.C.STAFF 制作，角色包括水嶋清衣与穗村铃子；收录2016年 incited、2018年 conflated 两个正片季，以及2017年的单集特别季。\n\nhttps://www.themoviedb.org/tv/68285/season/0 (api_snapshot): 已读取第0季日文及英文完整集表，total_pages=1，仅有第1集，英文标题明确为“OVA : Missing Link”，时长24分钟，日期为2017-11-10；日文标题仅为“第1話”。\n\nhttps://www.suruga-ya.com/ja/product/128069128 (search_snippet): DVD商品资料确认 missing link 是 SELECTOR SELECTION 卡牌商品附赠的动画DVD，发售日为2017-12-14。\n\nhttps://wixoss.fandom.com/wiki/Lostorage_conflated_WIXOSS_Episode_1 (search_snippet): 剧情资料记载清衣向铃子询问与里见红的战斗经过，与输入中的人物及故事承接关系一致；同时区分2017年12月14日的 missing link OVA 和2018年4月6日的 conflated 第1集。\n\nhttps://wiki.suikawiki.org/n/%E3%83%8B%E3%82%B3%E7%94%9F (search_snippet): 页面保存了2017年11月10日 Nico 生放送标题，内容为 incited 全12话及新作 OVA 的部分先行配信，为 TMDB 日期提供线索，但不能证明当日完整播出了 OVA。\n\n备注：TMDB 日期2017-11-10与DVD发售日2017-12-14不同；现有资料支持前者关联部分先行配信，尚不能确认 TMDB 日期字段的具体采录依据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/221655; https://anidb.net/anime/13361; https://www.themoviedb.org/tv/68285; https://www.themoviedb.org/tv/68285/season/0; https://wixoss.fandom.com/wiki/Lostorage_conflated_WIXOSS_Episode_1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/221655; https://www.themoviedb.org/tv/68285; https://www.themoviedb.org/tv/68285/season/0; https://www.suruga-ya.com/ja/product/128069128; https://wixoss.fandom.com/wiki/Lostorage_conflated_WIXOSS_Episode_1; https://wiki.suikawiki.org/n/%E3%83%8B%E3%82%B3%E7%94%9F",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,13 +1,44 @@
 {
   "bangumiId": 552123,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1490115,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1490116,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1490117,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1490118,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1490119,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1490120,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 138955 第二季整季：英文原名、Peacock发行平台、2022-02-03发行日期及六集数量均与输入一致；制作、配音、剧情及发行商逐集清单交叉验证一致。由于 Bangumi 六个章节均缺少标题和日期，无法独立核实每个章节的对应关系，故只确认整季范围，不凭 sort 位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/138955 (api_snapshot): 以英文原名搜索后读取作品详情：TMDB 138955 为2021年开始的《Dragons Rescue Riders: Heroes of the Sky》，共四季24集；剧情为 Dak、Leyla 与五条龙守护 Huttsgalor，配音包括 Nicolas Cantu、Brennley Brown。\n\nhttps://www.themoviedb.org/tv/138955/season/2 (api_snapshot): 第二季真实集表共6集，total_pages=1，全部于2022-02-03发行。第1至6集依次为 Teamwork Is Magic、The Incredible Burple、Flight of the Stinkwing、The Big Sheep、Rescue Racers、Day without Dragons。\n\nhttps://play.google.com/store/tv/show/Dragons_Rescue_Riders_Heroes_of_the_Sky?cdid=tvseason-wqAL1tVqfdY.P&hl=en&id=HN-uY51CV1w.P (page): Google Play 第二季页面列出完整六集，逐集标题、顺序、2022-02-03发行日期及剧情均与 TMDB 第二季吻合，并将作品归类为动画。\n\nhttps://www.syfy.com/syfy-wire/dragons-rescue-riders-season-2-peacock-trailer-exclusive (page): NBCUniversal旗下 SYFY 于2022-01-18报道：DreamWorks制作的本作第二季六集于2022-02-03同时上线 Peacock；执行制作人为 Jack Thomas，联合执行制作人为 Brian Roberts。主角、配音及本季剧情与 TMDB 相符。\n\n备注：Bangumi 网页访问失败，subject 信息依据用户提供的快照。；逐集规则暂留空；需补充 Bangumi 章节标题或其他能确认章节身份的资料。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552123; https://www.themoviedb.org/tv/138955; https://www.themoviedb.org/tv/138955/season/2; https://play.google.com/store/tv/show/Dragons_Rescue_Riders_Heroes_of_the_Sky?cdid=tvseason-wqAL1tVqfdY.P&hl=en&id=HN-uY51CV1w.P; https://www.syfy.com/syfy-wire/dragons-rescue-riders-season-2-peacock-trailer-exclusive",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

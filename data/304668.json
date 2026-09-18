@@ -1,15 +1,114 @@
 {
+  "anidbId": 15694,
   "bangumiId": 304668,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 971283,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 971284,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 971285,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 971286,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 971287,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 971288,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 971289,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 971290,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 971291,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 971292,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 971293,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 971294,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 971295,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 971296,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 971297,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 971298,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认 TMDB 107464 就是2020年中国 WEB/ONA 动画《大话之少年游》（Westward Juvenile Journey）：剧情、原名、播出年份、导演/编剧/配乐及制作方均与 Bangumi 和官方播放页一致。官方版本为16话；TMDB第1季实际有17集，其中第5集《剑遥兄弟的江湖之旅》时长48分钟，官方16话列表没有该集，随后 TMDB 第6–17集对应正片第5–16集。因此排除 TMDB 第5集，使用 S1 的 1–4 与 6–17。\n\nhttps://www.themoviedb.org/tv/107464 (api_snapshot): TMDB 详情确认 ID 107464 的原名为《大话之少年游》，日期为2020-08-14，剧情与 Bangumi 摘要一致；类型为 TV，共1季。\n\nhttps://www.themoviedb.org/tv/107464/season/1 (api_snapshot): TMDB S1 实际返回17集；第5集为《剑遥兄弟的江湖之旅》、48分钟，第6集起为《初探土地庙》《争夺任我行》等正片标题，至第17集《大战天地人》。\n\nhttps://www.bilibili.com/bangumi/media/md103892/ (search_snippet): 官方哔哩哔哩页面确认该动画于2020年播出、已完结全16话，剧情、导演胡晓亮/孙硕/石谦慧、编剧名单和梁邦彦配乐均与 Bangumi 信息吻合；官方第5话为《初探土地庙》。\n\nhttps://bgm.tv/subject/304668 (search_snippet): Bangumi 页面确认该条目为2020年WEB动画，共16话，导演、编剧、音乐和制作信息与官方页面一致。\n\n备注：TMDB第5集48分钟条目的具体来源或是否为合集/加长版，公开剧情说明不足；但它不在官方16话正片列表中，故已从推荐范围排除。；Bangumi归档中的第5集标题“追捕临川城 逼至千绝地”与官方正片标题不一致，属于条目集表层面的标题异常，不影响作品身份判定。",
+    "evidence": "codex: 确认对应TMDB 107464第1季的第1—4、6—17集。年份、媒介、剧情、制作信息及官方16话集表共同确认作品身份；逐集标题和时长支持上述两段映射。Bangumi第5话标题误录了《元龙》的标题，其本作剧情和时长仍支持对应《初探土地庙》。TMDB多出的48分钟第5集不在官方16话正片列表内，因此不纳入范围。\n\nhttps://www.themoviedb.org/tv/107464 (api_snapshot): 原名搜索命中107464；详情确认是2020年中国动画《大话之少年游》，逍遥生、剑侠客、食婴鬼及灵兽村的故事与输入一致，制作公司包含网易，编剧包含苗萌。\n\nhttps://www.themoviedb.org/tv/107464/season/1 (api_snapshot): 第1季完整集表共17集，total_pages=1。第1—4集标题与Bangumi一致；第5集为48分钟的《剑遥兄弟的江湖之旅》；第6集为15分钟的《初探土地庙》；第7—17集标题逐一对应Bangumi第6—16话，末集为《大战天地人》。\n\nhttps://www.bilibili.com/bangumi/media/md103892 (search_snippet): 哔哩哔哩官方播放页标明2020年8月15日开播、全16话，第5话为《初探土地庙》；导演胡晓亮、孙硕、石谦慧，总导演马踏，配乐梁邦彦等信息与输入一致。\n\nhttps://m.acfun.cn/v/?ab=6003524_1743515 (search_snippet): AcFun播放页列出完整16话：第1—4话对应TMDB第1—4集，第5—16话的标题依次对应TMDB第6—17集；正片列表没有《剑遥兄弟的江湖之旅》。\n\nhttps://bgm.tv/subject/304668/ep (page): Bangumi完整集表为16话。逐集对照后，除第5话标题异常外，其余标题与上述映射一致；多数映射后的TMDB日期比Bangumi晚7天，首话及《情义两为难》例外，不能据日期直接同号匹配。\n\nhttps://bgm.tv/ep/971287 (page): Bangumi第5话虽然标题异常，但简介仍是食婴鬼要求前往灵兽村、寻找任我行并遇见狐美人与骨精灵的本作剧情；时长14分39秒，与官方第5话及TMDB《初探土地庙》的15分钟吻合。\n\nhttps://www.bilibili.com/bangumi/play/ep331357 (search_snippet): 《追捕临川城，逼至千绝地》实际出现在哔哩哔哩《元龙》第12话列表中，支持Bangumi本作第5话标题误录的判断。\n\n备注：TMDB第5集《剑遥兄弟的江湖之旅》的具体版本性质尚未确认，不能断言为总集篇或加长版。；两站逐集日期存在差异，尚未确认是否由会员提前观看或平台排期造成；TMDB部分分集简介也疑似错位。本次对应依据完整官方集表、标题及辅助时长核对，不将这些日期和简介差异视为另一版本的证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/304668; https://www.themoviedb.org/tv/107464; https://www.themoviedb.org/tv/107464/season/1; https://www.bilibili.com/bangumi/media/md103892/",
-    "verifiedAt": "2026-09-08T21:59:28.716Z"
+    "source": "https://bgm.tv/subject/304668; https://www.themoviedb.org/tv/107464; https://www.themoviedb.org/tv/107464/season/1; https://www.bilibili.com/bangumi/media/md103892; https://m.acfun.cn/v/?ab=6003524_1743515; https://bgm.tv/subject/304668/ep; https://bgm.tv/ep/971287; https://www.bilibili.com/bangumi/play/ep331357",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 107464
+    },
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 6,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 107464
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

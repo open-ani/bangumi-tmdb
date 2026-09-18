@@ -1,16 +1,66 @@
 {
   "anidbId": 15599,
   "bangumiId": 285784,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 942995,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 942996,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 942997,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 942998,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 942999,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 943000,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 943001,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 943002,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《一人之下》第三季/入世篇，2020-04-24 首播，共8集，并与第二季、第四季形成前后续关系。AniDB 15599 的标题为 Yi Ren Zhixia 3: Rushi Pian，与该版本一致。TMDB TV 67063 的第3季同为2020-04-24开始、8集，逐集日期与 Bangumi 的8集记录一致，因此应映射为完整第3季。\n\nhttps://bgm.tv/subject/285784 (page): Bangumi 条目别名包含“一人之下 第三季”，首播日期为2020-04-24，章节为01至08，剧情与制作信息对应入世篇。\n\nhttps://anidb.net/anime/15599 (page): AniDB 15599 页面标题为 Yi Ren Zhixia 3: Rushi Pian，与 Bangumi 条目的第三季/入世篇名称相符。\n\nhttps://www.themoviedb.org/tv/67063/season/3?language=es (page): TMDB 明确标示为第3季（2020），共8集；第1集至第8集日期为2020-04-24、2020-05-01及2020-05-08，且第8集标为季终。\n\nhttps://www.themoviedb.org/tv/67063 (api_snapshot): TMDB TV 67063 的季列表显示第3季首播2020-04-24、共8集；同一TV条目还分别列出第1、2、4等其他季。\n\nhttps://www.themoviedb.org/tv/67063/season/3 (api_snapshot): TMDB API快照显示season_number=3、air_date=2020-04-24、episodeCount=8，且完整返回第1至第8集。",
+    "evidence": "codex: 确认对应TMDB 67063完整第三季，本篇1—8集顺序一一对应。年份、入世篇剧情、出品方、总集数及逐集时长相符；完整季表未混入其他篇章。逐集日期核对发现第2、3集相差一周，分别对应会员与非会员上线时间，不能沿用旧映射所称“日期全部一致”；该差异不影响集号对应。\n\nhttps://bgm.tv/subject/285784 (page): 条目为2020年网络动画《一人之下3·入世篇》，共8集，总导演危天行、动画制作大火鸟文化、企鹅影视与腾讯动漫出品；剧情围绕王也返京后家人遭监视、张楚岚与冯宝宝协助调查展开。\n\nhttps://www.themoviedb.org/tv/67063 (api_snapshot): 作品详情确认67063为动画系列《一人之下》，制作公司包含企鹅影视与腾讯动漫；第三季明确名为“入世篇”，2020-04-24首播、8集，季简介与Bangumi剧情一致，第二季和第四季分别另列。\n\nhttps://www.themoviedb.org/tv/67063/season/3 (api_snapshot): 第三季完整集表共8集、total_pages=1，标题依次为指明、诸葛家的试探、开工、行动、内景、无赖、尘埃落定、马村长。第1集日期为4月24日，第2集5月1日，第3至8集5月8日；逐集时长约23、28、23、20、23、19、22、23分钟，与Bangumi对应章节时长吻合。\n\nhttps://bgm.tv/subject/285784/ep (page): 章节列表为本篇第一至第八集，无额外特别篇；第1至2集记录4月24日，第3集5月1日，第4至8集5月8日。标题为序数标题，不能与TMDB的剧情标题直接进行文字匹配。\n\nhttps://www.bilibili.com/video/BV1yk4y197kC/ (search_snippet): 腾讯动漫发布的第三季预告说明：2020年4月24日在腾讯视频独播，会员抢先看一集，5月8日起可超前点播本季结局；支持不同观看方式导致日期差异。\n\nhttps://bkso.baidu.com/item/%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B3/23607094?fromModule=lemma_inlink (search_snippet): 播出表分别列出第二集会员4月24日、非会员5月1日；第三集会员5月1日、非会员5月8日；第四集会员及第五至八集超前点播均为5月8日，与两站日期差异逐项对应。\n\n备注：TMDB第2、3集采用非会员日期，Bangumi采用会员首发日期；TMDB未说明日期口径，口径解释由播出排期推断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/285784; https://anidb.net/anime/15599; https://www.themoviedb.org/tv/67063/season/3?language=es; https://www.themoviedb.org/tv/67063; https://www.themoviedb.org/tv/67063/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/285784; https://www.themoviedb.org/tv/67063; https://www.themoviedb.org/tv/67063/season/3; https://bgm.tv/subject/285784/ep; https://www.bilibili.com/video/BV1yk4y197kC/; https://bkso.baidu.com/item/%E4%B8%80%E4%BA%BA%E4%B9%8B%E4%B8%8B3/23607094?fromModule=lemma_inlink",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 67063
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

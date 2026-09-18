@@ -1,21 +1,225 @@
 {
   "anidbId": 13031,
   "bangumiId": 211936,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 728157,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 728158,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 728159,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 728160,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 728161,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 728162,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 728163,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 728164,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 728165,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 728166,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 728167,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 728168,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 752482,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 757422,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 762663,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 765757,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 765758,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 765759,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 728164,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 72515,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 728165,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 72515,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 752482,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 72515,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 757422,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 72515,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 762663,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 72515,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 765757,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 72515,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 765758,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 72515,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 765759,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 72515,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、剧情、导演、制作公司及12集本篇均吻合，确认对应 TMDB 72515 第1季；六篇特典对应第0季第2—7集。按实际集标题处理第8、9集的交叉对应，全部18章均已映射，未纳入总集篇或后续作品。\n\nhttps://www.themoviedb.org/tv/72515 (api_snapshot): TMDB 72515 为2017年7月9日首播的电视动画，伦敦分裂背景及五名少女间谍的剧情一致；导演橘正纪、制作公司 Studio 3Hz 与 Actas 均吻合。\n\nhttps://www.themoviedb.org/tv/72515/season/1 (api_snapshot): 第1季完整集表共12集。逐集标题核对后，Bangumi 第1—7、10—12集与 TMDB 同号对应；Bangumi 第8集对应 TMDB 第9集，第9集对应 TMDB 第8集。部分日期相差一天，但标题及对应剧情一致。\n\nhttps://www.themoviedb.org/tv/72515/season/0 (api_snapshot): 第0季完整集表共11集，其中第2—7集与输入的六篇特典标题、发行日期逐一一致；第1集为总集篇，其他集不属于本次输入范围。\n\nhttps://pripri-anime.jp/tv/story.php (search_snippet): 官方故事页明确标注 Pell-mell Duel 为电视播出第9集、Ripper Dipper 为电视播出第8集，支持依标题处理两集的编号差异。\n\nhttps://pripri-anime.jp/tv/sp/product/ (search_snippet): 官方商品页说明电视动画共六卷、每卷两集，部分收录顺序与电视播出不同；Ready lady 等特典属于新作图像剧，首卷发行日为2017年9月27日。\n\n备注：TMDB 部分本篇日期比 Bangumi 晚一天，差异原因尚未确认；逐集标题与剧情足以确定对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/211936; https://www.themoviedb.org/tv/72515; https://www.themoviedb.org/tv/72515/season/1; https://www.themoviedb.org/tv/72515/season/0; https://pripri-anime.jp/tv/story.php; https://pripri-anime.jp/tv/sp/product/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72515
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 10,
+      "season": 1,
+      "start": 10,
+      "tmdbId": 72515
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 72515,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 7,
+      "id": 72515,
+      "season": 0,
       "type": "tv"
     }
   ]

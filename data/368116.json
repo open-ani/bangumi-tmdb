@@ -1,19 +1,91 @@
 {
   "anidbId": 17214,
   "bangumiId": 368116,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1157529,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1157530,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1157531,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1157532,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1157533,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1157534,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1157535,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1157536,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1157537,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1157538,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1157539,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1157540,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演及制作公司一致，12话标题和放送日期逐集核对相符。TMDB将两个季度合并为第1季24集，本subject仅对应第1季第1—12集；旧映射应收窄至该范围。\n\nhttps://www.themoviedb.org/tv/158373 (api_snapshot): TMDB 158373 为2023年开播的电视动画，剧情涉及2B、9S与机械生命体；导演益山亮司、制作公司A-1 Pictures、Aniplex及Square Enix均与输入一致。\n\nhttps://www.themoviedb.org/tv/158373/season/1 (api_snapshot): 已读取第1季完整集表，共24集、仅1页。第1—12集标题与输入12话逐一一致；第1—8集日期均比Bangumi晚一天，第9—12集均为2023年7月23日。第13—24集于2024年播出，属于后续季度，不在本subject范围内。\n\nhttps://nierautomata-anime.com/news/?id=62084 (search_snippet): 官方开播公告注明2023年1月7日起每周六24:00播出，即自然日次日00:00，可解释前8话两个数据库日期相差一天。\n\nhttps://nierautomata-anime.com/news/?id=63296 (search_snippet): 官方公告确认第9—12话于2023年7月23日21:00开始最速配信，与输入及TMDB对应四集日期一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/368116; https://www.themoviedb.org/tv/158373; https://www.themoviedb.org/tv/158373/season/1; https://nierautomata-anime.com/news/?id=62084; https://nierautomata-anime.com/news/?id=63296",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 158373
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 158373,
       "season": 1,
       "type": "tv"

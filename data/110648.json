@@ -1,16 +1,108 @@
 {
   "anidbId": 10995,
   "bangumiId": 110648,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 537988,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 537989,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 537990,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 537991,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 537992,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 537993,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 537994,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 537995,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 537996,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 537997,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 537998,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 537999,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 542249,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 568163,
+      "sort": 14,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 568163,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 46153,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《WORKING!!!》第三季，13 集，2015-07-04 至 2015-09-26；其 13 个正篇标题、日期和制作信息与 TMDB 46153 第 3 季逐集对应。Bangumi 另列出主体内的特别篇“ロード・オブ・ザ・小鳥遊”（SP14，2015-12-26，50 分），官方资料确认这是 WORKING!!! 的最终回特别篇；TMDB 的该剧特典季共 7 集，公开检索结果将此特别篇对应为第 0 季第 6 集，因此只纳入 S0E6，不纳入整个特典季。\n\nhttps://bgm.tv/subject/110648 (page): Bangumi 条目标为 WORKING!!! TV，中文名为迷糊餐厅第三季，话数 13，首播 2015-07-04，完播 2015-09-26，并列出导演、系列构成和 A-1 Pictures 等制作信息。\n\nhttps://bgm.tv/subject/110648/ep (page): Bangumi 章节列出的 1—13 集标题和日期与 TMDB 第 3 季逐集一致；另列出 SP14“ロード・オブ・ザ・小鳥遊”，日期 2015-12-26，时长 50 分。\n\nhttps://www.themoviedb.org/tv/46153 (api_snapshot): TMDB API 快照显示 TV ID 46153 为 WORKING!!，第 3 季名为 WORKING!!!、2015 年、13 集；特典季为 0，含 7 集。\n\nhttps://www.themoviedb.org/tv/46153/season/3 (api_snapshot): TMDB API 快照的第 3 季包含 13 集，标题、剧情梗概和日期顺序与 Bangumi 正篇 1—13 集对应；季首播日期为 2015-07-05，仅与日本日期存在时区/记录日差异。\n\nhttps://a1p.jp/works/working3/ (page): A-1 Pictures 官方页面确认 WORKING!!!/WAGNARIA!!3 是 2015 年 7 月播出的 TV 动画，并列出导演鎌倉由実、系列构成吉岡たかを、角色设计足立慎吾及 A-1 Pictures 制作。\n\nhttps://www.wagnaria.com/1st/news/?category=INFO (page): WORKING!!! 官方网站确认“ロード・オブ・ザ・小鳥遊”是最终回特别篇，并确认其收录于 WORKING!!! 特别篇影像产品。\n\nhttps://plotspoiler.com/title/2982330/tvepisode-2015-lord-of-the-takanashi (search_snippet): 公开检索摘要将 Lord of the Takanashi 标为 Wagnaria!! Season 0 Episode 6，日期为 2015-12-26。",
+    "evidence": "codex: 年份、TV媒介、制作人员、角色与剧情及13集标题顺序共同确认：本篇对应 TMDB 46153 第3季全季。特别篇经官方归属说明及 TMDB 标题、日期、时长核实，对应 S0E6。两部分均已读取真实集表，可完整映射全部14个章节。\n\nhttps://a1p.jp/works/working3/ (page): A-1 Pictures 官方确认《WORKING!!!》又名 WAGNARIA!!3，为2015年7月 TV 动画；原作高津カリノ、导演鎌倉由実、角色设计足立慎吾，与待核对版本一致。\n\nhttps://bgm.tv/subject/110648/ep (page): Bangumi 列出13集本篇，播出日期为2015-07-04至2015-09-26；另有章节568163，SP14《ロード・オブ・ザ・小鳥遊》，2015-12-26播出，时长50分钟。\n\nhttps://www.themoviedb.org/tv/46153 (api_snapshot): TMDB 46153 为小鸟游宗太等人在北海道瓦古娜利亚餐厅工作的动画，制作公司 A-1 Pictures、导演鎌倉由実及主要角色声优均吻合；第三季明确命名 WORKING!!!，2015年，共13集。\n\nhttps://www.themoviedb.org/tv/46153/season/3 (api_snapshot): 第三季真实集表共13集、1页，已完整读取。逐集标题与 Bangumi 本篇1—13对应，少数存在拼写或括注差异；日期逐集均比 Bangumi 晚一天，为2015-07-05至2015-09-27，周播间隔和顺序完全一致。\n\nhttps://www.themoviedb.org/tv/46153/season/0 (api_snapshot): 第0季真实集表共7集、1页，已完整读取。第6集为《ロード・オブ・ザ・小鳥遊》，日期2015-12-26、时长50分钟，与 Bangumi 特别篇一致；其余条目为声优活动等内容，不纳入本 subject。\n\nhttps://www.aniplex.co.jp/lineup/working3/news/detail/?id=36651 (search_snippet): Aniplex 官方公告明确将《ロード・オブ・ザ・小鳥遊》称为《WORKING!!!》最终回特别篇，并公布2015年12月26日23:30开始播出。\n\n备注：TMDB 第3季各集日期均较 Bangumi 晚一天，具体记录差异原因未确认；标题、集数与周播顺序一致，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/110648; https://bgm.tv/subject/110648/ep; https://www.themoviedb.org/tv/46153; https://www.themoviedb.org/tv/46153/season/3; https://a1p.jp/works/working3/; https://www.wagnaria.com/1st/news/?category=INFO; https://plotspoiler.com/title/2982330/tvepisode-2015-lord-of-the-takanashi",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/110648; https://a1p.jp/works/working3/; https://bgm.tv/subject/110648/ep; https://www.themoviedb.org/tv/46153; https://www.themoviedb.org/tv/46153/season/3; https://www.themoviedb.org/tv/46153/season/0; https://www.aniplex.co.jp/lineup/working3/news/detail/?id=36651",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 46153
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

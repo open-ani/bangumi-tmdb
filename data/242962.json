@@ -1,16 +1,103 @@
 {
   "anidbId": 14038,
   "bangumiId": 242962,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 893961,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 893962,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 893963,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 893964,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 893965,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 893966,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 893967,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 893968,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 893969,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 893970,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 893971,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 893972,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1040441,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1040441,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 90215,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 2019 年 7 月 10 日开播、12 话的 TV 动画；其章节还包含特别篇/第13话。官方站确认第13话为《宵星の祭りと魔術師》，剧情、角色和制作人员均属于同一动画。AniDB 14038、Bangumi 242962 与 TMDB TV 90215 的标题、年份和作品身份一致。TMDB 第1季的12集标题与日期逐集对应 Bangumi 正篇1–12；TMDB 第0季为2021年特别编且仅含该特别篇，因此应同时纳入完整第0季。\n\nhttps://bgm.tv/subject/242962 (page): Bangumi 将该主体标为 TV，话数12，开播日2019-07-10，并列出01–12及SP/13章节。\n\nhttps://isekai-cheat-magician.com/story/ (page): 官方故事页确认第13话标题为《宵星の祭りと魔術師》，并给出与本作一致的剧情和制作人员。\n\nhttps://www.wikidata.org/wiki/Q63924948 (page): 交叉标识同时列出 AniDB anime ID 14038、Bangumi subject ID 242962 与 TMDB TV series ID 90215；作品标题为《異世界チート魔術師》。\n\nhttps://www.themoviedb.org/tv/90215 (api_snapshot): TMDB 快照显示作品标题《異世界チート魔術師》、首播日2019-07-10、正篇12集，并列出第0季特别编和第1季12集。\n\nhttps://www.themoviedb.org/tv/90215/season/1 (api_snapshot): TMDB 第1季快照包含完整1–12集，标题和2019-07-10至2019-09-25日期与 Bangumi 正篇逐集对应。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、主创及制作公司一致。正篇12话经逐集标题和播出日期比对，对应 TMDB 90215 第1季全季；2021年特别篇经标题、日期及官方剧情核实，对应第0季第1集。\n\nhttps://www.themoviedb.org/tv/90215 (api_snapshot): 以日文原名搜索后读取详情：TMDB 90215 是2019年7月10日首播的电视动画，剧情为西村太一与吾妻凛穿越异世界；原作内田健、导演筑紫大介、动画制作 Encourage Films 均与输入一致。\n\nhttps://www.themoviedb.org/tv/90215/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。第1至12集播出日期逐集对应输入的2019年7月10日至9月25日；第2至12集日文标题完全一致。第1集标题为《異世界からの「迷い人」》，输入使用简称《迷い人》，日期及官方剧情相符。\n\nhttps://www.themoviedb.org/tv/90215/season/0 (api_snapshot): 第0季完整集表仅1集，total_pages=1：第1集《宵星の祭りと魔術師》，播出日期2021年7月4日，标题和日期均与 Bangumi 特别篇章节1040441一致。\n\nhttps://isekai-cheat-magician.com/story/ (page): 官方故事页列出第1至13话；第13话标题及宵星祭典剧情与 TMDB S00E01一致，第1话完整标题与 TMDB 一致。\n\nhttps://isekai-cheat-magician.com/staff_cast/ (page): 官方制作名单确认原作内田健、导演筑紫大介、角色设计丸山修二及动画制作エンカレッジフィルムズ，与输入及 TMDB 的作品身份相符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/242962; https://isekai-cheat-magician.com/story/; https://www.wikidata.org/wiki/Q63924948; https://www.themoviedb.org/tv/90215; https://www.themoviedb.org/tv/90215/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/242962; https://www.themoviedb.org/tv/90215; https://www.themoviedb.org/tv/90215/season/1; https://www.themoviedb.org/tv/90215/season/0; https://isekai-cheat-magician.com/story/; https://isekai-cheat-magician.com/staff_cast/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 90215
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 90215,
       "season": 0,
       "type": "tv"

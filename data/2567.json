@@ -1,16 +1,86 @@
 {
   "anidbId": 6556,
   "bangumiId": 2567,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 15724,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 15725,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 15726,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 15727,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 15728,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 15729,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 15730,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 15731,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 15732,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 15733,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 15734,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 24647,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2009 年播出的《生徒会の一存》TV 本篇，共 12 集；其标题、简介、制作信息和播出时间与 TMDB 56783 的第 1 季相符。Anime-Lists 对 AniDB 6556 的映射明确指向 TMDB TV 56783 第 1 季；TMDB 第 1 季完整列出 12 集，集标题与 Bangumi 12 集逐集对应。因此采用完整第 1 季，不包含另一个 Bangumi 条目《生徒会の一存 Lv.2》对应的第 2 季。\n\nhttps://bgm.tv/subject/2567 (page): Bangumi 条目标为 TV《生徒会の一存》，2009-10-02 开播，共 12 集；页面列出的原作、导演、系列构成、动画制作等信息与本篇版本一致，并将 Lv.2 列为续集。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 6556（Seitokai no Ichizon）记录为 TMDB TV 56783、TMDB season 1；该条目类型为 TV 而非电影或特别篇。\n\nhttps://www.themoviedb.org/tv/56783 (api_snapshot): TMDB TV 56783 的原名为《生徒会の一存》，首播日期为 2009-10-02，共 23 集，分为第 1 季 12 集和第 2 季 11 集。\n\nhttps://www.themoviedb.org/tv/56783/season/1 (api_snapshot): TMDB 第 1 季名称为 Lv.1，首播日期为 2009-10-02，完整列出 12 集；集标题与 Bangumi 本篇的 12 个章节逐一对应。\n\n备注：TMDB 快照中第 2 至第 12 集的 air_date 出现明显异常（落在 2009 年 2 月至 4 月），与 Bangumi 播出日期不一致；但季首播日期、完整集数及逐集标题均支持这是同一 TV 本篇，因此未用这些异常日期推导范围。",
+    "evidence": "codex: 确认为TMDB 56783第1季完整12集。年份、TV媒介、剧情、原作者、制作公司及声优相符，12个日文集标题逐集同序一致，支持本篇1—12话直接对应S01E01—E12。日期已逐项检查并发现TMDB异常，但完整标题与集数证据足以确定映射；不包含另属续集的Lv.2。\n\nhttps://bgm.tv/subject/2567 (page): Bangumi 标明本作是2009年10月2日至12月18日播出的12集TV动画，原作葵せきな、导演佐藤卓哉、系列构成花田十輝、动画制作Studio Deen；Lv.2另列为续集。\n\nhttps://bgm.tv/subject/2567/ep (page): 章节页完整列出12集本篇；逐集日文标题及顺序与TMDB第1季完全一致。Bangumi章节日期为2009年10月至12月。\n\nhttps://www.themoviedb.org/tv/56783 (api_snapshot): TMDB 56783原名为《生徒会の一存》，首播2009-10-02；碧阳学园、杉崎键经成绩优良名额加入学生会的剧情一致，原作者、Studio Deen及主要声优相符。季列表将12集Lv.1与11集Lv.2分开。\n\nhttps://www.themoviedb.org/tv/56783/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。第1至12集标题逐项对应Bangumi，从《駄弁る生徒会》至《生徒会の一存》，没有混入续集或特别篇。季首播日期为2009-10-02，但第2至12集日期记录为2009-02-06至2009-04-17，早于季首播，存在明显矛盾。\n\n备注：TMDB第2—12集日期与Bangumi及TMDB自身季首播日期冲突，不能作为逐集日期一致的证据；第1集两站也相差一天。映射依据完整逐集标题、集数和版本信息，未据异常日期推算集号。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2567; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/56783; https://www.themoviedb.org/tv/56783/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2567; https://bgm.tv/subject/2567/ep; https://www.themoviedb.org/tv/56783; https://www.themoviedb.org/tv/56783/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 56783
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

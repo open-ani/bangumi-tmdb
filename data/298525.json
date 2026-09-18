@@ -1,18 +1,81 @@
 {
+  "anidbId": 16372,
   "bangumiId": 298525,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 924842,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 924843,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 924844,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 924845,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 924846,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 924847,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 924848,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1018688,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1018689,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1018690,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 70923 是动画《镇魂街》，制作公司列有 U17 Animation、L²Studio，配音演员也与动画媒介相符；其第 2 季明确名为“北落师门篇”，共 10 集，剧情简介与 Bangumi subject 完全对应。TMDB 季表中的 1—10 集标题逐一匹配 subject 集表，因此可使用完整第 2 季。Bangumi 条目标注为 2021 年重制版；资料显示前两集先于 2019 年上线，后续重制内容于 2021 年上线，属于同一季的分段/重制发行，不是另一部作品。TMDB 74237 则是 2017 年真人版，且其第 2 季为 2024 年 24 集的《热血再燃》，已排除。\n\nhttps://api.bgm.tv/v0/subjects/298525 (api_snapshot): Bangumi API 显示该条目为 WEB 动画，2021-05-15 开始，10 集，别名“镇魂街 第二季 重制版”，剧情和导演、制作信息与目标季对应。\n\nhttps://www.themoviedb.org/tv/70923 (api_snapshot): TMDB 70923 为中文动画系列《镇魂街》；详情列出 U17 Animation、L²Studio、中文配音演员，并列出第 2 季“北落师门篇”共 10 集及完全对应的剧情简介。\n\nhttps://www.themoviedb.org/tv/70923/season/2 (api_snapshot): TMDB 第 2 季实际集表共 10 集，集名依次为“故人归来”“慷慨悲歌”“鱼游釜中”“云起龙骧”“清尘浊水”“力挽狂澜”“以血洗血”“转日回天”“长风破浪”“浮生若梦”，与 Bangumi 1—10 集逐一匹配。\n\nhttps://www.themoviedb.org/tv/74237 (api_snapshot): TMDB 74237 的演员与条目形态对应 2017 年真人版，且第 2 季是 2024 年 24 集的“热血再燃”，不是本 subject。\n\nhttps://news.cn/ent/20210702/C96E3F254EB00001C8C9D8D0B547123B/c.html (page): 报道确认《镇魂街》第二季下半部于 2021-05-15 上线，并说明该版本进行了重制。\n\n备注：TMDB 将第 2 季第 1—2 集标为 2019 年、第 3—10 集标为 2021 年；这与 Bangumi 的 2021 年重制版日期存在发行时间差异，但集名、剧情和完整 10 集范围均已核实。",
+    "evidence": "codex: 确认部分匹配TMDB 70923第二季第3—10集：动画媒介、制作公司、剧情及逐集标题和播出日期相符。原整季映射会覆盖2019年首播且已由233547占用的第1—2集，因此缩小为已核实且不重复占用的范围；本条目前两章暂不映射。\n\nhttps://bgm.tv/subject/298525 (page): Bangumi 将本条目标为2021年5月15日开始的10集WEB动画，别名为第二季重制版，动画制作为艾尔平方，并将233547列为不同演绎。\n\nhttps://www.themoviedb.org/tv/70923 (api_snapshot): TMDB 70923为动画系列，制作公司包含U17 Animation、L²Studio，郭盛配音曹焱兵；第二季北落师门篇的剧情与本条目一致。\n\nhttps://www.themoviedb.org/tv/70923/season/2 (api_snapshot): 第二季实际集表共10集、仅1页。第1—2集日期为2019-12-28；第3—10集标题依次为鱼游釜中、云起龙骧、清尘浊水、力挽狂澜、以血洗血、转日回天、长风破浪、浮生若梦，日期与Bangumi对应章节逐一相同。\n\nhttps://bgm.tv/subject/298525/ep (page): 本条目第3—4集均为2021-05-15，第5—10集从2021-05-22至2021-06-26每周播出，标题、顺序均与TMDB第二季第3—10集一致。第1—2集则标为2021-05-15。\n\nhttps://bgm.tv/subject/233547/ep (page): 旧版233547的第1—2集同为故人归来、慷慨悲歌，日期均为2019-12-28，且时长与298525的同名章节相同；旧版第3—5集为肝胆相照、鱼游釜中、魂牵梦萦。\n\nhttps://www.themoviedb.org/tv/70923/season/0 (api_snapshot): 第0季完整集表将旧版第3—5集单列为第5—7集，明确标注卢书雨改编版，日期分别为2020-01-04、2020-01-11、2020-01-18，不能用来对应2021年重制版章节。\n\nhttps://www.bilibili.com/bangumi/media/md5626 (search_snippet): 哔哩哔哩官方条目搜索摘要将当前正片列为10话，展示第3话鱼游釜中、重制版第4话云起龙骧等，并将旧版第3—5集另列在卢书雨改编版栏目。\n\n备注：两条Bangumi记录的前两集标题、时长相同，支持重制版沿用旧集，但本条目标注2021年日期，TMDB保留2019年首播日期。现有ownership已将S02E01—02分配给233547；若需覆盖本条目前两章，须先解决跨subject重复占用，不能直接恢复整季映射。；TMDB多数集时长标为14分钟，与Bangumi记载不符；本次逐集判断依据标题、日期、版本分栏及剧情，未采信该时长字段。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/298525; https://api.bgm.tv/v0/subjects/298525; https://www.themoviedb.org/tv/70923; https://www.themoviedb.org/tv/70923/season/2; https://www.themoviedb.org/tv/74237; https://news.cn/ent/20210702/C96E3F254EB00001C8C9D8D0B547123B/c.html",
-    "verifiedAt": "2026-09-08T21:53:06.373Z"
+    "source": "https://bgm.tv/subject/298525; https://www.themoviedb.org/tv/70923; https://www.themoviedb.org/tv/70923/season/2; https://bgm.tv/subject/298525/ep; https://bgm.tv/subject/233547/ep; https://www.themoviedb.org/tv/70923/season/0; https://www.bilibili.com/bangumi/media/md5626",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 3,
+      "season": 2,
+      "start": 3,
+      "tmdbId": 70923
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 3,
+      "episodeEnd": 10,
       "id": 70923,
       "season": 2,
       "type": "tv"

@@ -1,19 +1,91 @@
 {
   "anidbId": 14759,
   "bangumiId": 277627,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 907080,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 907081,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 907082,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 907083,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 907084,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 907085,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 907086,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 907087,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 907088,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 907089,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 907090,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 907091,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、导演、制作公司及剧情一致；12集标题和放送日期逐集对应，日期差由深夜放送记日方式解释。TMDB 将两个季度合并为第1季24集，旧映射的整季范围过宽，应限定为第1季第1至12集。\n\nhttps://www.themoviedb.org/tv/91270 (api_snapshot): TMDB 91270 为2019年电视动画《ノー・ガンズ・ライフ》，导演伊藤尚往、制作公司 MADHOUSE；乾十三保护荒吐铁朗、与贝鲁联公司对抗的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/91270/season/1 (api_snapshot): 已读取第1季完整集表，共24集、仅1页。第1至12集日文标题与输入逐集完全一致，播出日期均比 Bangumi 晚一天，为2019-10-11至2019-12-27；第13集起进入2020年7月续篇，因此本 subject 仅覆盖第1至12集。\n\nhttps://natalie.mu/comic/news/348140 (search_snippet): 放送公告记载 TBS 自2019年10月10日起每周四25:28播出，即次日凌晨；这解释了 Bangumi 与 TMDB 逐集日期统一相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/277627; https://www.themoviedb.org/tv/91270; https://www.themoviedb.org/tv/91270/season/1; https://natalie.mu/comic/news/348140",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 91270
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 91270,
       "season": 1,
       "type": "tv"

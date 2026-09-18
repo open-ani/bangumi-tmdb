@@ -1,13 +1,115 @@
 {
+  "anidbId": 18473,
   "bangumiId": 424450,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182792,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1182793,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1182794,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1182795,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1182796,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1182797,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1182798,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1182799,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1182800,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1182801,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1182802,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1182803,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1182804,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1182805,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1182806,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1182807,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1182808,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1182809,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1182810,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1182811,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 223762 与 Bangumi 条目的身份完全对应：原名均为《逆天战纪》，首播日期均为 2023-04-03，剧情均围绕吴燃、圣魂骰子、霓纱及白龙王展开。TMDB 标为 TV、1 季、20 集，第一季实际集表连续覆盖第 1–20 集，且每集日期从 2023-04-03 至 2023-08-07；Bangumi 也标为 WEB、20 集。Bangumi 提供的导演、编剧、制作公司等人员信息与该条目对应。没有发现需要拆分的旧版/新版、OVA、电影、音乐录像或其他合集版本，因此可使用完整第一季。\n\nhttps://www.themoviedb.org/tv/223762 (api_snapshot): TMDB 详情确认原名《逆天战纪》、英文别名 The Rise of the Weak、首播日期 2023-04-03、剧情、媒介为 TV、1 季 20 集及 bilibili 制作公司。\n\nhttps://www.themoviedb.org/tv/223762/season/1 (api_snapshot): TMDB 第一季实际季表共 20 集，total_pages=1，连续覆盖第 1 至第 20 集；首集 2023-04-03，末集 2023-08-07，单集片长约 14 分钟。\n\nhttps://api.bgm.tv/v0/subjects/424450 (api_snapshot): Bangumi API 确认该条目为 WEB、2023-04-03 开播、20 集，剧情与 TMDB 一致；并记录导演韩东升、总导演刘阿八、编剧一纸虚妄/俞天民/欧阳千琰，以及发福蝶动漫、极光动漫、风云动画等制作信息。",
+    "evidence": "codex: 作品身份及整季范围已确认：年份、首播日、核心剧情、官方制作人员和20话网络动画版本一致，TMDB 第1季完整覆盖主体，无混入其他作品的迹象。Bangumi 章节缺少标题和日期，无法严格逐集比对，因此仅确认整季对应，不按序号猜填 rules。\n\nhttps://www.themoviedb.org/tv/223762 (api_snapshot): 原名搜索得到 TV 223762；详情确认首播为2023-04-03、共1季20集、制作公司含 bilibili，剧情中的吴燃、圣魂骰子、霓纱和白龙王均与待核对条目一致。人员表为空，不能据此声称 TMDB 制作人员已核实。\n\nhttps://www.themoviedb.org/tv/223762/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共20集，集号连续为1—20；前两集同于2023-04-03播出，第20集为2023-08-07，各集片长14分钟。\n\nhttps://www.bilibili.com/bangumi/media/md20135591 (page): 官方播放平台确认《逆天战纪》于2023年4月3日开播，已完结，全20话。\n\nhttps://www.bilibili.com/bangumi/media/md20135591 (search_snippet): 官方页面搜索结果列出总导演刘阿八、导演韩东升、动画导演王海光及编剧一纸虚妄、俞天民、欧阳千琰，与输入一致；所列正片第1—8话标题逐一吻合 TMDB，OP、ED及PV另列。\n\nhttps://bangumi.tv/subject/424450 (search_snippet): Bangumi 搜索结果确认该条目为2023年4月3日开播的20话 WEB 动画，制作人员及剧情与官方资料一致；章节列表仅显示01—20。\n\n备注：20个 Bangumi 章节均无标题和放送日期，本次章节页亦无法读取；逐集映射需补充章节级证据后再建立。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/424450; https://www.themoviedb.org/tv/223762; https://www.themoviedb.org/tv/223762/season/1; https://api.bgm.tv/v0/subjects/424450",
-    "verifiedAt": "2026-09-08T23:45:13.303Z"
+    "source": "https://bgm.tv/subject/424450; https://www.themoviedb.org/tv/223762; https://www.themoviedb.org/tv/223762/season/1; https://www.bilibili.com/bangumi/media/md20135591; https://bangumi.tv/subject/424450",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

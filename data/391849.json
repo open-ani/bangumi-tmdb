@@ -1,19 +1,136 @@
 {
   "anidbId": 17534,
   "bangumiId": 391849,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1117413,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1117414,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1117415,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1117416,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1117417,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1117418,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1117419,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1117420,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1117421,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1117422,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1117423,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1117424,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1117425,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1117426,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1117427,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1117428,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 1117429,
+      "sort": 1,
+      "type": 4
+    },
+    {
+      "id": 1117430,
+      "sort": 2,
+      "type": 4
+    },
+    {
+      "id": 1117431,
+      "sort": 3,
+      "type": 4
+    },
+    {
+      "id": 1117432,
+      "sort": 4,
+      "type": 4
+    },
+    {
+      "id": 1117433,
+      "sort": 5,
+      "type": 4
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 206558 第一季第1–15集。年份、剧情、制作资料及逐集日期和标题相互吻合。TMDB 第一季合并了后续篇章，旧映射的整季范围过大，应收窄至无双篇15集。\n\nhttps://www.themoviedb.org/tv/206558 (api_snapshot): TMDB 206558 的原名、2022-07-23 首播日期及无双珠连接两位人类少年的剧情与输入一致；制作公司包含爱奇艺、中影年年，导演记录为 Zheng Xu，支持同一动画版本。\n\nhttps://www.themoviedb.org/tv/206558/season/1 (api_snapshot): 已读取第一季完整集表，共45集、1页。第1–15集均属无双篇，播出日期与输入15话逐集一致；第1–3集标题为缩写或近义表述，剧情吻合，第4–15集去掉篇章前缀后标题完全一致。第15集为2022-10-15《未来之路》，第16集开始为2023-01-14播出的红宝篇。\n\nhttps://www.iqiyi.com/a_xgzhhxd7ot.html (page): 爱奇艺官方专辑标注2022年动画、全45集；选集将第15集列为无双篇《未来之路》，第16集列为红宝篇《扬帆新征程》，并说明后续篇章从第16集开始，证实本条目的15话边界。\n\n备注：OP《无双》及5个PV或片花未核实到独立的TMDB对应记录，暂不映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/391849; https://www.themoviedb.org/tv/206558; https://www.themoviedb.org/tv/206558/season/1; https://www.iqiyi.com/a_xgzhhxd7ot.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 206558
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 15,
       "id": 206558,
       "season": 1,
       "type": "tv"

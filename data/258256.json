@@ -1,15 +1,86 @@
 {
+  "anidbId": 15764,
   "bangumiId": 258256,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 922073,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 922074,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 922075,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 922076,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 922077,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 922078,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 922079,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 922080,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 922081,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 922082,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 922083,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 922084,
+      "sort": 36,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 101088 的原名、剧情、首播日期与《枪神记 血族秘史篇》一致；其第3季明确名为“血族秘史”，2019-12-15开播，共12集。季表中的12个集名及播出日期与 Bangumi 原始集表逐一对应，因此应映射为完整第3季。该条目是 WEB/TV 系列，不是电影、OVA或合集。\n\nhttps://api.bgm.tv/v0/subjects/258256 (api_snapshot): Bangumi API确认主体为《枪神记 血族秘史篇》，2019-12-15首播、WEB、12集；集名为“真相抉择”至“血战真相”。\n\nhttps://www.themoviedb.org/tv/101088 (api_snapshot): TMDB搜索与详情确认作品名为《枪神记》，2017-12-08开播、2020-03-01完结，共3季60集；剧情与 Bangumi 主体一致，第3季为“血族秘史”且12集。\n\nhttps://www.themoviedb.org/tv/101088/season/3 (api_snapshot): TMDB第3季实际季表为“血族秘史”，共12集，日期从2019-12-15至2020-03-01；12个集名与 Bangumi 集表完全对应。\n\nhttps://www.themoviedb.org/tv/101088 (api_snapshot): TMDB记录制作公司为 Tencent Pictures，并列出主要中文配音演员；Bangumi则列出导演蔡旭临、宋巍、动画制作魔铠科技等制作信息，媒介与作品版本相符。\n\n备注：TMDB详情的 crew 字段为空，未提供可用于逐项核对的导演或动画制作人员 credits；但标题、剧情、日期、季名及全部集名/日期均已对应。",
+    "evidence": "codex: 确认对应 TMDB《枪神记》完整第3季。篇章名、首播日期、剧情、12集总量及全部逐集标题和顺序一致，足以确认同一网络剧情动画篇章及连续映射。Bangumi 使用系列累计编号25—36，分别对应 S03E01—E12。旧映射季号正确，但旧证据所称全部日期一致不准确。\n\nhttps://bgm.tv/subject/258256 (page): Bangumi 确认本作是《枪神记 血族秘史篇》，别名《枪神记 第三季》，为2019年12月15日开播的12集 WEB 动画；导演为蔡旭临、宋巍，动画制作为魔铠科技，剧情围绕基因锁及深海、荒蛇组织展开。\n\nhttps://www.themoviedb.org/tv/101088 (api_snapshot): 以中文原名搜索并读取详情，确认 TMDB 101088 为中文系列《枪神记》，剧情设定与 Bangumi 一致。系列始于2017年，第3季明确命名为“血族秘史”，2019年12月15日开播，共12集。详情列出腾讯系制作公司及张杰、山新等配音演员，但 crew 为空。\n\nhttps://www.themoviedb.org/tv/101088/season/3 (api_snapshot): 实际读取第3季完整集表，共12集、1页。第1至12集标题与输入 Bangumi sort 25至36逐一完全一致，从“真相抉择”至“血战真相”，顺序一致。首集日期相同；第2至12集的 TMDB 日期均比 Bangumi 晚7天，末集记为2020年3月1日。\n\n备注：第2至12集存在统一7天的日期差异，具体原因未确认；全部集名与顺序一致，逐集对应不受影响。；TMDB 未提供导演等 crew 信息，无法独立逐项核对制作人员。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/258256; https://api.bgm.tv/v0/subjects/258256; https://www.themoviedb.org/tv/101088; https://www.themoviedb.org/tv/101088/season/3",
-    "verifiedAt": "2026-09-08T21:25:17.434Z"
+    "source": "https://bgm.tv/subject/258256; https://www.themoviedb.org/tv/101088; https://www.themoviedb.org/tv/101088/season/3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 25,
+      "tmdbId": 101088
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

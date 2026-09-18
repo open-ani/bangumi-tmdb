@@ -1,16 +1,91 @@
 {
   "anidbId": 10292,
   "bangumiId": 89488,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 512883,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 512884,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 512885,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 512886,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 512887,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 512888,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 512889,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 512890,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 512891,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 512892,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 512893,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 512894,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 534641,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是2015年4月播出的13集TV动画；AniDB ID 10292明确对应同名作品、13集、A-1 Pictures制作，并与前后季关系一致。TMDB TV 46095 的第3季标题完全匹配，包含13集，集名和剧情顺序与Bangumi逐集对应，因此采用整季第3季。TMDB快照中的播出日期整体晚约三个月（7月5日至9月27日），与官方4月4日首播不一致，但标题、集数、剧情和制作信息均指向同一版本，判断为TMDB日期元数据问题，不改变目标范围。\n\nhttps://bgm.tv/subject/89488 (page): Bangumi记录该作品为TV动画，2015年4月4日开始，共13集，集名顺序与候选季一致。\n\nhttps://anidb.net/anime/10292 (page): AniDB 10292对应《Uta no Prince-sama: Maji Love Revolutions》，官方日文名匹配，类型为TV Series、13集，年份为2015，制作公司为A-1 Pictures。\n\nhttps://archive-r.utapri.tv/onair/ (page): 官方放送信息显示首播为2015年4月4日，TV放送形式为每周一集。\n\nhttps://a1p.jp/works/utapuri-03/ (page): A-1 Pictures官方作品页确认该标题为2015年4月TV动画，并列出A-1 Pictures为制作公司。\n\nhttps://www.themoviedb.org/tv/46095 (api_snapshot): TMDB API快照显示TV 46095包含该系列各季，第3季标题为《うたの☆プリンスさまっ♪ マジLOVEレボリューションズ》，共13集。\n\nhttps://www.themoviedb.org/tv/46095/season/3 (api_snapshot): TMDB API快照显示第3季为13集，集名从“The dice are cast”至“マジLOVEレボリューションズ”，与Bangumi的13集主体逐集对应。\n\n备注：TMDB第3季及其各集日期比官方播出日期晚约三个月；该日期差异未能从TMDB快照内部解释，但不影响标题、集数和剧情对应。",
+    "evidence": "codex: 确认为TMDB 46095第3季整季，本篇1—13话顺序一一对应。官方年份、TV媒介、制作人员、剧情及前后作关系吻合，完整集表的13个标题逐话对应，差别限于符号和附加译名。TMDB日期存在统一偏移，但作品身份和章节范围证据充分。\n\nhttps://bgm.tv/subject/89488 (page): Bangumi 确认为2015年4月4日至6月27日播出的13集TV动画，导演星野真，动画制作A-1 Pictures。\n\nhttps://bgm.tv/subject/89488/ep (page): 章节页完整列出本篇1—13话及每周播出日期。与TMDB第三季逐话比较，标题主体和顺序一致；第2、5、9话存在符号差异，第11、12话在Bangumi附带英文释名。\n\nhttps://a1p.jp/works/utapuri-03/ (page): 制作公司官方页确认本作为2015年4月TV动画，导演星野真、系列构成金春智子、制作A-1 Pictures，与Bangumi版本一致。\n\nhttps://archive-r.utapri.tv/onair/ (page): 官方放送表注明TOKYO MX自4月4日起每周六25:00播出；跨午夜记日只能解释一天差异，无法解释TMDB的7月开播记录。\n\nhttps://archive-r.utapri.tv/story/ (page): 官方第1话剧情为ST☆RISH、七海春歌及QUARTET NIGHT参与SSS开幕艺人选拔，与TMDB第三季第1集简介一致。\n\nhttps://archive-r.utapri.tv/event/event10_01.html (search_snippet): 官方演唱会报道将寿岭二的「NEVER...」与动画Op.9关联，支持Bangumi第9话「NEVER♪♪♪」和TMDB第9集「NEVER…」为同一话的不同符号写法。\n\nhttps://www.themoviedb.org/tv/46095 (api_snapshot): 实际调用详情接口：TV 46095由A-1 Pictures制作，第3季名称为本作日文原名，共13集；前后季分别为マジLOVE2000%和マジLOVEレジェンドスター，与Bangumi关联一致。\n\nhttps://www.themoviedb.org/tv/46095/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共13集，集号1—13。逐集标题对应Bangumi本篇1—13话，无额外作品混入。日期为2015年7月5日至9月27日，逐集均比Bangumi记录晚92天。\n\n备注：TMDB第三季逐集日期均比Bangumi晚92天，并与官方4月首播信息冲突；偏移原因未查明，判断为日期元数据异常，不影响本次作品及逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/89488; https://anidb.net/anime/10292; https://archive-r.utapri.tv/onair/; https://a1p.jp/works/utapuri-03/; https://www.themoviedb.org/tv/46095; https://www.themoviedb.org/tv/46095/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/89488; https://bgm.tv/subject/89488/ep; https://a1p.jp/works/utapuri-03/; https://archive-r.utapri.tv/onair/; https://archive-r.utapri.tv/story/; https://archive-r.utapri.tv/event/event10_01.html; https://www.themoviedb.org/tv/46095; https://www.themoviedb.org/tv/46095/season/3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 46095
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

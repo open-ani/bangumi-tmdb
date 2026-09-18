@@ -1,14 +1,80 @@
 {
   "anidbId": 10765,
   "bangumiId": 109483,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 417277,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 417278,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 687852,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 687853,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 417277,
+      "targets": [
+        {
+          "episode": 20,
+          "id": 46440,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 417278,
+      "targets": [
+        {
+          "episode": 21,
+          "id": 46440,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 687852,
+      "targets": [
+        {
+          "episode": 22,
+          "id": 46440,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 687853,
+      "targets": [
+        {
+          "episode": 23,
+          "id": 46440,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 109483 是 2015 年的《百花繚乱 サムライアフター》，主体包含 2 集正篇及 2 集特别篇。TMDB TV 46440 的第 0 季中，第 20、21 集标题分别为「サムライ総選挙」「サムライウェディング」，日期为 2015-01-23、2015-07-01；第 22、23 集分别为「景勝のドキドキ♥妄想新婚日記」「千のドキドキ♥妄想新婚日記」，日期与 Bangumi 特别篇一致。因此应映射为第 0 季第 20–23 集，不纳入第 0 季其他无关特典。\n\nhttps://bgm.tv/subject/109483 (page): Bangumi subject 标题、日期、2 集正篇及 2 集特别篇；正篇标题和特别篇标题与 TMDB 第 0 季第 20–23 集对应。\n\nhttps://www.themoviedb.org/tv/46440 (api_snapshot): TMDB TV 46440 为《百花繚乱》，包含第 0 季「特別編」。\n\nhttps://www.themoviedb.org/tv/46440/season/0 (api_snapshot): 第 0 季第 20–23 集的标题和日期分别对应 Bangumi 正篇及特别篇；第 20、21 集为 25 分钟主体 OVA，第 22、23 集为对应的 5 分钟特别篇。",
+    "evidence": "codex: 确认对应 TMDB 46440 第0季第20—23集：两话2015年OVA本篇及两话附带特别篇的标题、发行日期逐一吻合，官方资料亦确认其画集附赠形式和续篇版本。旧映射范围正确，现补充四个章节的明确对应，不包含该季其他特典。\n\nhttps://bgm.tv/subject/109483 (page): Bangumi 将本作列为2015年的2话OVA，是《サムライブライド》的后续故事；动画制作为ARMS，导演为福島利規，另有2话附带特别篇。\n\nhttps://hyakka-ryoran.net/goods/kanren.php (search_snippet): 官方商品资料确认：画集上卷于2015年1月23日附带第一话《サムライ総選挙》，下卷于2015年7月1日附带第二话《サムライウェディング》，均为完全新作OVA。\n\nhttps://www.themoviedb.org/tv/46440 (api_snapshot): TMDB 46440 为ARMS制作的《百花繚乱》系列，别名明确包含OVA《百花繚乱 サムライアフター》；常规两季之外设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/46440/season/0 (api_snapshot): 已读取第0季全部23集，total_pages=1。第20、21集分别为《サムライ総選挙》《サムライウェディング》，日期分别为2015-01-23、2015-07-01；第22、23集分别为《景勝のドキドキ♥妄想新婚日記》《千のドキドキ♥妄想新婚日記》，日期依次相同。四集标题、日期与输入章节逐一一致；第20集剧情包含前作危机解除后的新娘选举及新角色上杉景勝，符合本作续篇身份。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/109483; https://www.themoviedb.org/tv/46440; https://www.themoviedb.org/tv/46440/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/109483; https://hyakka-ryoran.net/goods/kanren.php; https://www.themoviedb.org/tv/46440; https://www.themoviedb.org/tv/46440/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

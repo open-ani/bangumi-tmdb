@@ -1,16 +1,36 @@
 {
   "anidbId": 3580,
   "bangumiId": 64174,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 241766,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 241767,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "前两集分别为反派竞速及 Tatsunoko 王国重逢，章节与两话 OVA 一致；只取 E1–2。\nTMDB S1 还列出 E3–14 空泛条目，不能把整季用于本 subject。\nhttps://api.bgm.tv/v0/subjects/64174\nhttps://www.themoviedb.org/tv/44243/season/1\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=23496",
+    "evidence": "前两集分别为反派竞速及 Tatsunoko 王国重逢，章节与两话 OVA 一致；只取 E1–2。\nTMDB S1 还列出 E3–14 空泛条目，不能把整季用于本 subject。\nhttps://api.bgm.tv/v0/subjects/64174\nhttps://www.themoviedb.org/tv/44243/season/1\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=23496\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "manual-review-sol-remaining-51",
-    "verifiedAt": "2026-09-08T18:08:25.816Z"
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44243
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

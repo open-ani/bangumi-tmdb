@@ -1,13 +1,64 @@
 {
   "bangumiId": 335728,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1029511,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1029512,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1029513,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1029514,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1029515,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1029516,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1029517,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1029518,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1029519,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1029520,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《Kipo and the Age of Wonderbeasts》（原名相同，中文别名为“奇玻与幻兽的狂想纪元”）。TMDB 记录该系列首播于 2020-01-14，共 3 季、30 集，制作公司为 DreamWorks Animation Television；第 3 季于 2020-10-12 首播，共 10 集，剧情、角色和日期均与 Bangumi subject 一致。该 subject 明确是第三季且有 10 集，因此使用 TMDB 第 3 季整季，不需要缩小集数范围。Bangumi 提供的 IMDb 外部提示实际指向 TMDB 第三季第 1 集，不能作为整季作品 ID 使用。\n\nhttps://www.themoviedb.org/tv/95599 (api_snapshot): TMDB 详情确认原始标题、剧情、2020-01-14 首播、2020-10-12 完结、3 季 30 集、DreamWorks Animation Television 及主要配音阵容。\n\nhttps://www.themoviedb.org/tv/95599/season/3 (api_snapshot): TMDB 第 3 季实际集表显示第 3 季日期为 2020-10-12，共 10 集，集号连续为 1–10，最后一集为“Age of the Wonderbeasts”。\n\nhttps://www.imdb.com/title/tt10482560/fullcredits/ (search_snippet): 工作人员线索与 TMDB 作品身份相符：Radford Sechrist 为创作者，Bill Wolkoff 负责电视开发；该作品为 2020 年 30 集动画电视系列。\n\nhttps://www.rottentomatoes.com/tv/kipo_and_the_age_of_wonderbeasts/s03 (search_snippet): 第三季资料确认创作者 Radford Sechrist、执行制片 Bill Wolkoff、Netflix 播出、2020-10-12 上线及 10 集分集信息。\n\nhttps://www.themoviedb.org/tv/95599/season/3/episode/1 (api_snapshot): 对 Bangumi IMDb 提示 tt13262028 执行 TMDB find 后，结果是该作品第 3 季第 1 集“Everything Is Crabs”，show_id 为 95599，而非独立系列。",
+    "evidence": "codex: 确认对应TMDB 95599第三季整季。年份、上线日期、Netflix平台、制作信息、剧情版本和10集范围相符。Bangumi章节标题及逐集日期均为空，无法完成章节层面的逐项比对，因此只确认整季范围，不按位置生成逐集规则。\n\nhttps://bgm.tv/subject/335728 (page): Bangumi 明确标注本条目为第三季 WEB 动画，共10话，2020-10-12上线，平台为Netflix，动画制作为Studio MIR，前传为第二季。\n\nhttps://www.themoviedb.org/tv/95599 (api_snapshot): 原名搜索找到TV 95599；详情确认这是2020年的英语动画系列，由DreamWorks Animation Television制作，共3季30集。第三季标注2020-10-12上线、10集。\n\nhttps://www.themoviedb.org/tv/95599/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共10集，集号1至10，日期全部为2020-10-12；首集为Everything Is Crabs，末集为Age of the Wonderbeasts。剧情围绕奇波联合人类与变异动物对抗Emilia展开，未混入其他季或特别篇。\n\nhttps://www.awn.com/news/final-season-dreamworks-kipo-and-age-wonderbeasts-now-streaming-netflix (page): AWN引用DreamWorks资料，确认第三季于2020-10-12在Netflix整季上线10集，为最终季；创作者为Radford Sechrist，电视开发者为Bill Wolkoff，角色、配音及对抗Emilia的剧情与TMDB一致。\n\nhttps://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts (search_snippet): 系列资料列出DreamWorks Animation Television与Studio Mir共同制作，执行制片人包括Yoo Jae Myung，与Bangumi制作信息吻合。\n\nhttps://www.themoviedb.org/tv/95599/season/3/episode/1 (api_snapshot): 对提示IMDb tt13262028调用tmdb_find，实际返回TV 95599第三季第1集，而非独立作品或整季。\n\n备注：Bangumi的10个章节缺少标题和日期；补齐可核实的章节信息后才能建立逐集rules。subject级IMDb提示不能直接绑定某个Bangumi章节ID。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/335728; https://www.themoviedb.org/tv/95599; https://www.themoviedb.org/tv/95599/season/3; https://www.imdb.com/title/tt10482560/fullcredits/; https://www.rottentomatoes.com/tv/kipo_and_the_age_of_wonderbeasts/s03; https://www.themoviedb.org/tv/95599/season/3/episode/1",
-    "verifiedAt": "2026-09-08T22:56:12.241Z"
+    "source": "https://bgm.tv/subject/335728; https://www.themoviedb.org/tv/95599; https://www.themoviedb.org/tv/95599/season/3; https://www.awn.com/news/final-season-dreamworks-kipo-and-age-wonderbeasts-now-streaming-netflix; https://en.wikipedia.org/wiki/Kipo_and_the_Age_of_Wonderbeasts; https://www.themoviedb.org/tv/95599/season/3/episode/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,91 @@
 {
   "anidbId": 6494,
   "bangumiId": 3827,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 27777,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 27778,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 27779,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 27780,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 27781,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 27782,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 27783,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 27784,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 27785,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 27786,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 27787,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 27788,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 989091,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 2010 年播出的 13 话 TV《COBRA THE ANIMATION 六人の勇士》，并列出第 1–13 话；其年份、首播/完结日期、制作人员与动画制作信息均与 2010 年 TV 版一致。TMDB 35460 的主条目是 2010-01-02 开播、13 话的《COBRA THE ANIMATION》，第 1 季明确为 13 话；季内标题和日期逐话对应 Bangumi，包含第 11–13 话，因此应纳入完整第 1 季。Bangumi 关联中的 OVA/其他作品属于不同主体，不应合并。\n\nhttps://bgm.tv/subject/3827 (page): Bangumi 将主体标为 TV，话数 13，放送期为 2010-01-02 至 2010-03-27，章节列表为 1–13；页面列出清水恵蔵、植田浩二、末永光代、河野次郎、マジックバス等制作信息，并将 Time Drive 等列为关联作品。\n\nhttps://www.themoviedb.org/tv/35460 (api_snapshot): TMDB API 快照显示原名 COBRA THE ANIMATION，首播日 2010-01-02，共 13 话，且存在第 1 季（13 话）。\n\nhttps://www.themoviedb.org/tv/35460/season/1 (api_snapshot): TMDB 第 1 季快照明确为 season 1、13 话；第 1–13 话标题和日期与 Bangumi/日方剧集列表对应，首尾日期为 2010-01-02 和 2010-03-27。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=11592013&workId=11592 (search_snippet): 日方动画商店搜索摘要列出《COBRA THE ANIMATION（全13話）》的完整第 1–13 话标题，并标示制作年 2010、动画制作マジックバス，支持这是该 TV 版而非 OVA。\n\nhttps://www.themoviedb.org/tv/126273-cobra-the-animation?language=en-US (search_snippet): TMDB 搜索摘要显示另有 2008 年《The Psycho-Gun》TV 条目且为 4 话，说明 Cobra The Animation 系列下的 OVA/其他版本与本题 2010 年 13 话 TV 版分开。\n\n备注：AniDB 6494 原页面读取时返回 403，无法独立核验该数字 ID 的页面内容；但 Bangumi 的主体元数据、完整话名/日期与 TMDB 第 1 季逐话一致，目标版本和完整范围不受此阻碍。",
+    "evidence": "codex: 确认对应 TMDB 35460 第 1 季全 13 集。年份、TV 媒介、播出起止日期、制作人员、配音及集数一致；Bangumi 前十话标题逐话吻合，后三区间由 BS11 官方完整集表和全 13 话发行信息补足，支持本篇 1–13 顺序对应。该季未混入此前 OVA，也不是旧版或合集。\n\nhttps://bgm.tv/subject/3827 (page): Bangumi 标注为 2010 年 TV 动画、全 13 话，播出期为 2010-01-02 至 2010-03-27；导演清水恵蔵、脚本末永光代、动画制作マジックバス与 TMDB 一致。\n\nhttps://bgm.tv/subject/3827/ep (page): 章节表包含本篇第 1–13 话；第 1–10 话标题与 TMDB 同号集一致，第 1–4 话日期一致。第 5 话日期记为 2010-01-31，第 11–13 话标题及日期空缺。\n\nhttps://www.themoviedb.org/tv/35460 (api_snapshot): TMDB 35460 为 2010 年《COBRA THE ANIMATION》，首末播日期为 2010-01-02、2010-03-27，仅一季共 13 集；制作公司 Magic Bus、导演清水恵蔵及主要配音与 Bangumi 和 BS11 相符，别名包含 Rokunin no Yuushi。\n\nhttps://www.themoviedb.org/tv/35460/season/1 (api_snapshot): 已读取第 1 季完整集表，episodeCount=13、total_pages=1。第 1–13 集按周播出，日期从 2010-01-02 至 2010-03-27；全部标题与 BS11 集表顺序一致，第 5 集日期为 2010-01-30。\n\nhttps://www.bs11.jp/anime/cobra-the-animation/ (page): BS11 明确区分此前共六卷的两部 OVA 与本 TV 新作，提供一致的制作人员及完整剧情集表。各集标题、剧情与 TMDB 对应；第 11、12 话及最终话分别为《13人目の男》《神殿の魔物》《遥かなる記憶》。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=11592 (search_snippet): d 动画商店标明该作制作年为 2010、全 13 话，并列出第 11–13 话标题，与 BS11 和 TMDB 一致。\n\n备注：Bangumi 第 5 话日期比 TMDB 晚一天，但同号标题及官方剧情一致，不影响对应。；Bangumi 第 11–13 话缺少标题与日期，其对应依据为已确认的作品身份、完整集数及官方编号集表，不能声称这些字段与 Bangumi 直接逐项吻合。；Bangumi 简介中的六人对抗暗黑神叙述与官方实际集表不完全相符；本次以播出资料、制作信息和具体章节确定版本。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3827; https://www.themoviedb.org/tv/35460; https://www.themoviedb.org/tv/35460/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=11592013&workId=11592; https://www.themoviedb.org/tv/126273-cobra-the-animation?language=en-US",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3827; https://bgm.tv/subject/3827/ep; https://www.themoviedb.org/tv/35460; https://www.themoviedb.org/tv/35460/season/1; https://www.bs11.jp/anime/cobra-the-animation/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=11592",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 35460
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

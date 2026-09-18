@@ -1,16 +1,126 @@
 {
   "anidbId": 15344,
   "bangumiId": 299687,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 943330,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 943331,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 943332,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 943333,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 943334,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 943335,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 943336,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 943337,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 943338,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 943339,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 943340,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 943341,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 966515,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 966516,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 966517,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 966518,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 966519,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 966520,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 966521,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 966522,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject、AniDB 15344 的别名与 TMDB 105225 的日文名完全对应；TMDB season 1 的 20 个集标题逐一对应 Bangumi 第 1–20 集。官方龙之子资料确认该作品为 2020 年 4–9 月播出的 TV 全 20 话，剧情亦对应阿克比在人间界修行并帮助勘太郎寻找梦想。TMDB 日期采用了第 8 话延期前的预定日期，但这不改变同一版本及完整 20 集范围。\n\nhttps://bgm.tv/subject/299687 (page): Bangumi subject 为《ハクション大魔王2020》，记录 2020-04-11 开播、20 个正篇集，并列出完整第 1–20 集标题。\n\nhttps://www.themoviedb.org/tv/105225 (api_snapshot): TMDB TV 105225 名称和原名均为《ハクション大魔王2020》，首播日为 2020-04-11，简介与作品剧情对应，并记录全剧 20 集、仅有 season 1。\n\nhttps://www.themoviedb.org/tv/105225/season/1 (api_snapshot): TMDB season 1 快照包含 20 集，集标题从第 1 集到第 20 集逐一对应 Bangumi 正篇标题。\n\nhttps://tatsunoko.co.jp/works/2020-genie-family/ (search_snippet): 龙之子官方作品页确认《ハクション大魔王２０２０》为 TV、全 20 话，放映期为 2020 年 4 月至 9 月，剧情为阿克比为继承王位在人间界修行并帮助勘太郎寻找梦想。\n\nhttps://anime.eiga.com/news/111345/ (search_snippet): 报道确认因新冠影响，第 8 话以后延期，并于 2020-06-20 恢复播出，解释了 Bangumi 实际播出日期与 TMDB 预定日期的差异。",
+    "evidence": "codex: 确认对应 TMDB 105225 第1季全季。年份、TV媒介、制作公司、续作剧情及20集总量一致，全部章节标题逐集对应，可建立第1—20话顺序映射。第8话后的日期存在差异，但延期报道与一致的逐集标题支持相同版本及集序。\n\nhttps://www.themoviedb.org/tv/105225 (api_snapshot): TMDB 105225 为《ハクション大魔王2020》，2020-04-11 首播，共1季20集；制作公司包括龙之子与读卖电视台。简介为阿克比来到初代小勘的孙子勘太郎身边修行，与官方记载一致。\n\nhttps://www.themoviedb.org/tv/105225/season/1 (api_snapshot): 第1季完整集表共20集，total_pages=1。逐一比对后，第1—20集标题与输入的 Bangumi 章节一致，仅有集号前缀、空格、标点及大小写差异；第1—7集日期一致，第8—20集的 TMDB 日期早于 Bangumi 日期。\n\nhttps://tatsunoko.co.jp/works/2020-genie-family/ (page): 龙之子官方确认本作为2020年4—9月播出的TV动画，全20话；故事发生在前作50年后，阿克比为继承王位修行，帮助勘太郎体验职业、寻找梦想，确认是2020年续作。\n\nhttps://anime.eiga.com/news/111345/ (page): 报道确认第8话起因疫情延期，2020-05-30至06-13重播第1—3话，2020-06-20恢复播出第8话《忍者VS魔法使い！の話》，支持 Bangumi 的第8话日期。\n\n备注：TMDB 第8—20集日期未与实际播出日期一致；已确认第8话延期复播，但未逐项核实后续所有停播日期。此日期质量问题不影响由完整标题及集数确认的对应关系。",
     "method": "codex",
     "source": "https://bgm.tv/subject/299687; https://www.themoviedb.org/tv/105225; https://www.themoviedb.org/tv/105225/season/1; https://tatsunoko.co.jp/works/2020-genie-family/; https://anime.eiga.com/news/111345/",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 105225
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

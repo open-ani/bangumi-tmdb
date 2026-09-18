@@ -1,16 +1,36 @@
 {
   "anidbId": 15536,
   "bangumiId": 324788,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1000763,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1000764,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject为2话作品，首播日期为2021-02-13、完结日期为2021-04-17；TMDB《新テニスの王子様》特别编第23、24集标题分别为「氷帝vs立海 Game of Future 前篇」「氷帝vs立海 Game of Future 後篇」，日期分别完全对应这两天，且各48分钟。该季还包含其他特别篇，不能整季纳入，因此采用第23—24集范围。\n\nhttps://www.themoviedb.org/tv/67249 (api_snapshot): TMDB TV 67249名称为「新テニスの王子様」，包含season 0「特別編」，共24集。\n\nhttps://www.themoviedb.org/tv/67249/season/0 (api_snapshot): season 0第23集为「氷帝vs立海 Game of Future 前篇」、日期2021-02-13、时长48分钟；第24集为「氷帝vs立海 Game of Future 後篇」、日期2021-04-17、时长48分钟。",
+    "evidence": "gpt-5.6-luna: Bangumi subject为2话作品，首播日期为2021-02-13、完结日期为2021-04-17；TMDB《新テニスの王子様》特别编第23、24集标题分别为「氷帝vs立海 Game of Future 前篇」「氷帝vs立海 Game of Future 後篇」，日期分别完全对应这两天，且各48分钟。该季还包含其他特别篇，不能整季纳入，因此采用第23—24集范围。\n\nhttps://www.themoviedb.org/tv/67249 (api_snapshot): TMDB TV 67249名称为「新テニスの王子様」，包含season 0「特別編」，共24集。\n\nhttps://www.themoviedb.org/tv/67249/season/0 (api_snapshot): season 0第23集为「氷帝vs立海 Game of Future 前篇」、日期2021-02-13、时长48分钟；第24集为「氷帝vs立海 Game of Future 後篇」、日期2021-04-17、时长48分钟。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/324788; https://www.themoviedb.org/tv/67249; https://www.themoviedb.org/tv/67249/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 23,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 67249
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

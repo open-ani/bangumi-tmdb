@@ -1,16 +1,146 @@
 {
   "anidbId": 14257,
   "bangumiId": 256649,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 905186,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 905187,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 905188,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 905189,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 905190,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 905191,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 905192,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 905193,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 905194,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 905195,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 905196,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 905197,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 905198,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 905199,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 905200,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 905201,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 905202,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 905203,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 905204,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 905205,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 905206,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 905207,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 905208,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 905209,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年代、剧情、导演、制作公司及TV媒介相符；第1季24集标题逐集完全吻合，可将 Bangumi 本篇1—24话对应至 TMDB 87447 第1季1—24集，覆盖整季。独立发行的OVA不纳入本次映射。\n\nhttps://www.themoviedb.org/tv/87447 (api_snapshot): 日文原名搜索命中 TV 87447；详情中的歌舞伎町侦探长屋、落语爱好者夏洛克及开膛手杰克剧情与输入一致，导演吉村爱、制作公司 Production I.G 等也一致，确认为2019年开始的同一部TV动画。\n\nhttps://www.themoviedb.org/tv/87447/season/1 (api_snapshot): 第1季集表共24集，total_pages=1。逐集核对后，第1至24集日文标题与 Bangumi 同序完全一致；第6至15集日期也一致，其余部分日期存在偏差。完整季表没有混入OVA，足以确认本篇逐集一一对应。\n\nhttps://pipecat-kabukicho.jp/news.html?id=n117 (page): 官网将TV本篇第19至24话收录于BOX第4卷，并另行公告2020年8月26日发行、包含6段故事的OVA，支持将OVA与本subject的24集TV本篇分开。\n\n备注：TMDB部分播出日期与输入不一致：例如第1集记为2019-10-10，第24集记为2020-03-12，而输入分别为2019-10-11和2020-03-27。偏差原因未确认；映射由完整24集标题及顺序、集数和作品身份交叉确认，不依赖这些有差异的日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/256649; https://www.themoviedb.org/tv/87447; https://www.themoviedb.org/tv/87447/season/1; https://pipecat-kabukicho.jp/news.html?id=n117",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87447
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

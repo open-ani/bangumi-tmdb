@@ -1,16 +1,86 @@
 {
   "anidbId": 18536,
   "bangumiId": 484952,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1433106,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1433107,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1433108,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1433109,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1433110,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1433111,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1433112,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1433113,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1433114,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1433115,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1433116,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1433117,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目标为 2025 年 1 月开播、12 话的 TV 动画，章节为 1–12；标题、别名、剧情和制作信息与 TMDB TV 261301 一致。TMDB 明确列出 Season 1 且包含 12 集，完整剧集标题与 Bangumi 逐集对应。TMDB 日期比日本官方日期晚一天，符合日本深夜 25:30 播出后按日期记录的差异，不影响版本判定。\n\nhttps://bgm.tv/subject/484952 (page): Bangumi 将该作品标为 TV，话数为 12，首播为 2025 年 1 月 6 日，并列出第 1 至第 12 话及对应制作信息。\n\nhttps://botsurakukizoku-anime.com/ (page): 官方页面确认这是该标题的 TV 动画，东京电视台自 2025 年 1 月 6 日起每周播出，并提供与 Bangumi/TMDB 相符的作品剧情和角色信息。\n\nhttps://www.themoviedb.org/tv/261301 (api_snapshot): TMDB TV 261301 的标题、日文原名、剧情简介、首播年份和 12 集总数与目标作品相符。\n\nhttps://www.themoviedb.org/tv/261301/season/1 (api_snapshot): TMDB 明确记录 Season 1，包含 12 集；第 1 至第 12 集标题及剧情与 Bangumi 条目的 12 话逐一对应。\n\nhttps://www.wikidata.org/wiki/Q124846374 (search_snippet): 搜索摘要将该日文 TV 动画关联到 AniDB anime ID 18536，并列出 1 季、12 集及相同别名，支持输入中的 Bangumi→AniDB 关联。",
+    "evidence": "codex: 确认对应 TMDB 261301 第1季全12集，本篇1—12逐集同号映射。年份、媒介、剧情、导演、制作公司及全部集标题一致，季表未混入其他作品。旧映射的日期解释需要修正：第1集相差一天源于深夜跨日；第2—12集的TMDB日期比Bangumi早六天，与官方提前一周配信并按跨日后的日期记录相符。\n\nhttps://www.themoviedb.org/tv/261301 (api_snapshot): TMDB 261301 为2025年日本电视动画，日文原名、贵族五男リアム学习魔法的剧情、导演石倉賢一均与输入一致；制作公司包含 Studio Deen 和 Marvy Jack，记录为1季12集。\n\nhttps://www.themoviedb.org/tv/261301/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。第1至12集日文标题与输入的 Bangumi 章节逐一完全一致，剧情亦与官网对应。第1、2集日期均为2025-01-07，第3至12集每周递增，末集为2025-03-18。\n\nhttps://botsurakukizoku-anime.com/ (page): 官网确认2025年1月6日起每周一深夜1:30播出的TV动画，导演石倉賢一，动画制作为 Studio Deen 与 Marvy Jack，并列出相同的12集标题和剧情。官网明确第2集起网络提前一周配信：第2集于1月6日深夜、第3集于1月13日深夜配信，解释了TMDB与Bangumi电视播出日期的差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/484952; https://botsurakukizoku-anime.com/; https://www.themoviedb.org/tv/261301; https://www.themoviedb.org/tv/261301/season/1; https://www.wikidata.org/wiki/Q124846374",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/484952; https://www.themoviedb.org/tv/261301; https://www.themoviedb.org/tv/261301/season/1; https://botsurakukizoku-anime.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 261301
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,168 @@
 {
+  "anidbId": 8252,
   "bangumiId": 11714,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 87062,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 87063,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 87064,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 87065,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 87066,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 87067,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 87068,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 87069,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 87070,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 87071,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 87072,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 87073,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 104881,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 106643,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 106644,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 106645,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 106646,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 106647,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 106648,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 106649,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 106650,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 106651,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 376780,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 376781,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 376782,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 376783,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 376783,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 79147,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认 TMDB 79147 与该 Bangumi 作品是同一部 2011 年日本短篇 TV 动画：原名、首播日期、剧情设定、主要配音及导演小原秀一均吻合。官方资料注明全作约 2 分钟×26 话；Bangumi fresh 数据则区分 25 个正片和 1 个特别篇。TMDB 第 1 季实际包含 25 个正片，第 0 季实际包含 1 个 2011-12-02 特别篇，与 Bangumi 的特别篇「ハッピーバースデー」相符，因此分别映射两季。\n\nhttps://www.themoviedb.org/tv/79147 (api_snapshot): TMDB 详情确认原名 Suzy`s Zoo だいすき! ウィッツィー、日期 2011-04-03、日语 TV、25 集、2 分钟片长、主要配音及导演小原秀一，并列出第 0 季和第 1 季。\n\nhttps://www.themoviedb.org/tv/79147/season/1 (api_snapshot): TMDB 第 1 季实际有 25 集，编号连续为 1–25，日期从 2011-04-03 至 2011-09-18。\n\nhttps://www.themoviedb.org/tv/79147/season/0 (api_snapshot): TMDB 第 0 季实际有 1 集特别篇，日期为 2011-12-02。\n\nhttps://creativeminds.jp/suzys-zoo/ (page): 作品相关官方页面确认标题、幼儿短篇动画剧情、2011 年制作及 2 分钟×26 话格式，并列出中原麻衣、白石凉子、坂本真绫等配音。\n\nhttps://api.bgm.tv/v0/subjects/11714 (api_snapshot): Bangumi fresh API 信息确认 2011-04-03、TV、25 个正片、总计 26 集，以及特别篇「ハッピーバースデー」和相同主要配音阵容。\n\n备注：TMDB 第 1 季最后一集日期为 2011-09-18，而 Bangumi 条目元数据将系列结束日记为 2011-09-25；这不影响作品身份及 25 集正片范围。",
+    "evidence": "codex: 确认对应TMDB TV 79147：年份、首播日期、原作、制作公司、导演、角色配音和短篇动画格式一致。官方25话标题顺序、TMDB实际集数及逐集日期共同支持正片1—25对应S01E01—E25；官方DVD资料确认特别篇名称及发行日期，支持章节376783对应S00E01。\n\nhttps://www.themoviedb.org/tv/79147 (api_snapshot): 日文原名搜索命中 TV 79147；详情确认首播于2011-04-03，制作公司为 Digital Media Lab，导演小原秀一，主要角色配音与 Bangumi 及 TBS 官方资料一致。\n\nhttps://www.themoviedb.org/tv/79147/season/1 (api_snapshot): 第1季集表共25集，total_pages=1，编号1—25，每集2分钟。第1—17、19—22集日期与输入逐集一致；第18集为2011-07-31，第23—25集分别为2011-09-04、09-11、09-18。标题均为通用集号。\n\nhttps://www.themoviedb.org/tv/79147/season/0 (api_snapshot): 第0季仅1集，total_pages=1，编号1，日期2011-12-02，时长2分钟，与官方DVD未放送特别篇的发行日期一致。\n\nhttps://www.tbs.co.jp/suzyzoo/story/story.html (page): TBS官方逐集剧情页列出第1—25话，标题及顺序与输入对应，仅有个别字形、标点差异；明确将输入第18话标题列为第18话，并确认第23—25话的标题与编号。\n\nhttps://www.tbs.co.jp/suzyzoo/staffcast/staffcast.html (page): TBS官方确认原作Suzy Spafford、导演小原秀一、动画制作Digital Media Lab，以及中原麻衣、白石涼子、竹達彩奈等角色配音，支持同一2011年日本短篇动画版本。\n\nhttps://www.tbs.co.jp/suzyzoo/dvd/dvd.html (page): TBS官方DVD页明确第2卷12月2日发行，并收录未放送特别篇「ハッピーバースデー」，支持Bangumi特别篇对应TMDB S00E01。\n\nhttps://creativeminds.jp/suzys-zoo/ (page): 版权发行资料确认2011年制作、2分钟×26话，剧情为小鸭与毛绒玩具朋友在庭院中的冒险，与25集正片加1集特别篇的范围吻合。\n\n备注：TMDB未提供具体集标题；逐集对应由TBS官方编号与标题、TMDB集数和日期交叉确认。；输入第18话日期2011-08-31与TMDB的2011-07-31冲突，疑为月份误录；官方标题编号支持其仍对应第18集。；Bangumi条目结束日期为2011-09-25，TMDB第25集日期为2011-09-18；官方剧情页确认正片止于第25话，因此该日期差异不改变映射范围。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/11714; https://www.themoviedb.org/tv/79147; https://www.themoviedb.org/tv/79147/season/1; https://www.themoviedb.org/tv/79147/season/0; https://creativeminds.jp/suzys-zoo/; https://api.bgm.tv/v0/subjects/11714",
-    "verifiedAt": "2026-09-08T18:38:00.514Z"
+    "source": "https://bgm.tv/subject/11714; https://www.themoviedb.org/tv/79147; https://www.themoviedb.org/tv/79147/season/1; https://www.themoviedb.org/tv/79147/season/0; https://www.tbs.co.jp/suzyzoo/story/story.html; https://www.tbs.co.jp/suzyzoo/staffcast/staffcast.html; https://www.tbs.co.jp/suzyzoo/dvd/dvd.html; https://creativeminds.jp/suzys-zoo/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79147
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -18,6 +171,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 79147,
       "season": 0,
       "type": "tv"

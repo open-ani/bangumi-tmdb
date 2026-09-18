@@ -1,16 +1,108 @@
 {
   "anidbId": 10592,
   "bangumiId": 101784,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 433968,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 433969,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 433970,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 433971,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 433972,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 433973,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 433974,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 433975,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 433976,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 433977,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 433978,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 433979,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 433980,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 646558,
+      "sort": 14,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 646558,
+      "targets": [
+        {
+          "episode": 14,
+          "id": 109227,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 109227第1季。年份、TV媒介、剧情、制作公司和演员一致；本篇13话的标题、顺序及日期逐集吻合。该季第14集为2016年DVD追加的体育祭剧情动画，对应Bangumi SP.14，因此用章节ID特例映射；整季14集均在本subject覆盖范围内。\n\nhttps://bgm.tv/subject/101784 (page): Bangumi 标明本作为2014年10月8日开播的13话TV动画，导演菅原そうた、动画制作TMS；剧情为三位世嘉主机拟人角色进入游戏世界完成毕业课题。\n\nhttps://www.themoviedb.org/tv/109227 (api_snapshot): 日文原名和英文别名搜索均找到109227。详情中的首播日期、三位主角、学园与游戏课题剧情、TMS制作公司及主演均与Bangumi和官方资料吻合。\n\nhttps://shg.sega.jp/anime_staff.html (page): 官方制作名单确认导演菅原そうた，动画制作TMS与ジーニーズ，主演M・A・O、高橋未奈美、井澤詩織。\n\nhttps://shg.sega.jp/anime_story.html (page): 官方故事页列出本篇1至13话的标题和剧情，与TMDB第1季前13集对应；个别标题仅有符号、字体及Dr.前缀差异。\n\nhttps://www.themoviedb.org/tv/109227/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，total_pages=1，共14集。前13集标题与顺序吻合，日期逐集对应输入，包括第12、13集同为2014年12月24日。第14集英文资料明确为学园体育祭OVA，日期2016年11月3日，剧情为七人参加Hang-On比赛。\n\nhttps://bgm.tv/ep/646558 (page): Bangumi章节646558为SP.14，名称说明是DVD再发行追加新故事，日期填写为2016年9月。\n\nhttps://prtimes.jp/main/html/rd/p/000001435.000005397.html (search_snippet): 世嘉官方新闻稿确认完整版DVD于2016年11月3日发行，收录13话本篇及一篇学园体育祭新作，内容为Hang-On比赛；另列舞蹈PV为独立特典。新作标题、剧情与发行日期共同确认其对应TMDB S01E14。\n\n备注：Bangumi SP.14填写的2016年9月与官方DVD发行日2016年11月3日不一致；采用官方发行资料与TMDB英文标题、剧情确认对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101784; https://www.themoviedb.org/tv/109227; https://shg.sega.jp/anime_staff.html; https://shg.sega.jp/anime_story.html; https://www.themoviedb.org/tv/109227/season/1; https://bgm.tv/ep/646558; https://prtimes.jp/main/html/rd/p/000001435.000005397.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 109227
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

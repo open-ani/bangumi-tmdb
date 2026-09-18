@@ -1,16 +1,76 @@
 {
   "anidbId": 10785,
   "bangumiId": 110641,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 428787,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 428788,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 437567,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 437568,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 437569,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 437570,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 437571,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 437572,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 437573,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 437574,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是《うぇいくあっぷがーるZOO!》WEB短篇外传，共10话，章节为01–10，放送资料为2014-10-22至2015-02-25。官方资料确认其为3分钟×全10话的短篇外传，并明确蓝光收录全10话；宫城PR篇、台湾篇在 Bangumi 中作为另行条目，不应并入主体。Anime-Lists 的记录将 AniDB 10785 同名条目关联至 TMDB TV 79654。TMDB 第1季明确有10集，集名与 Bangumi 10个正篇标题逐一对应，因此采用完整第1季。TMDB 的2014-09-05首播日对应Bangumi所述的试播版公开日期，属于资料口径差异，不影响10集主体匹配。\n\nhttps://bgm.tv/subject/110641 (page): Bangumi确认条目名称、WEB类型、10话、2014-10-22开始、2015-02-25结束，并列出正篇章节01至10及独立的宫城PR篇、台湾篇关联条目。\n\nhttps://www.wug-zoo.jp/news/detail.php?id=1022745 (page): 官方资料称其为《Wake Up, Girls!》外传，并确认蓝光收录“全10话＋特典映像”，同时列出导演、脚本、角色设计和制作信息。\n\nhttps://tatsunoko.co.jp/works/wake-up-girl-zoo/ (page): 制作公司资料确认这是3分钟、全10话的短篇外传，剧情为仙台小动物园与动物化的WUG成员。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists记录显示 anidbid=10785、名称 Wake Up, Girl Zoo!，并关联 tmdbtv=79654、tmdbseason=1。\n\nhttps://www.themoviedb.org/tv/79654 (api_snapshot): TMDB TV快照显示作品名称一致、全剧10集，并存在第1季。\n\nhttps://www.themoviedb.org/tv/79654/season/1 (api_snapshot): TMDB第1季快照显示episodeCount=10，集数1至10的标题与Bangumi正篇标题逐一对应。\n\n备注：TMDB部分集数日期与Bangumi日期存在数日差异，且TMDB首播日为2014-09-05；Bangumi页面说明该日曾发布试播版，正式条目从2014-10-22记录，属于发行日期口径差异。；AniDB页面本身无法直接读取，但AniDB编号、同名条目、制作信息、10集结构及TMDB关联均由Anime-Lists与独立资料交叉支持。",
+    "evidence": "codex: 确认对应TMDB TV 79654第1季全季。作品剧情、短篇外传形式、制作信息及10话范围相符；全部集标题按集号逐一对应，且7集日期完全一致，支持Bangumi本篇1—10话顺序映射至S01E01—E10。\n\nhttps://bgm.tv/subject/110641 (page): Bangumi 将本作标为 WEB 动画，共10话，2014-10-22至2015-02-25；导演为森井ケンシロウ，角色设计为宮嶋星矢。简介记载2014-09-05曾公开试播版，宫城PR篇和台湾篇另列关联条目。\n\nhttps://bgm.tv/subject/110641/ep (page): 章节页列出本篇1至10话的标题及日期，与输入一致。\n\nhttps://www.wug-zoo.jp/news/detail.php?id=1022745 (page): 官网确认这是《Wake Up, Girls!》外传，导演、角色设计与Bangumi一致；2015年发行的蓝光收录全10话及动物园实拍特典。\n\nhttps://www.themoviedb.org/tv/79654 (api_snapshot): 日文原名及英文别名搜索均返回TV 79654。详情的仙台动物园、丹下园长、饲养员松田及七只动物女孩剧情与本作一致；仅有第1季，共10集，结束日期为2015-02-25。\n\nhttps://www.themoviedb.org/tv/79654/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，共10集，每集约3分钟。1至10集标题与Bangumi逐集一致，仅有全半角及标点差异；第2、3、5、6、7、8、10集日期完全一致。没有混入宫城PR篇、台湾篇或实拍特典。\n\n备注：TMDB第1集日期为2014-09-05，Bangumi为2014-10-22；前者与Bangumi记载的试播版公开日期相同，推测采用了先行公开日期。；第4集日期分别为TMDB 2014-11-29、Bangumi 2014-11-19；第9集分别为2015-02-15、2015-02-11。差异原因未确认，但标题、集号及整体结构一致，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/110641; https://www.wug-zoo.jp/news/detail.php?id=1022745; https://tatsunoko.co.jp/works/wake-up-girl-zoo/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/79654; https://www.themoviedb.org/tv/79654/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/110641; https://bgm.tv/subject/110641/ep; https://www.wug-zoo.jp/news/detail.php?id=1022745; https://www.themoviedb.org/tv/79654; https://www.themoviedb.org/tv/79654/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79654
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

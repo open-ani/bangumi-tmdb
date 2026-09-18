@@ -1,16 +1,166 @@
 {
   "anidbId": 11960,
   "bangumiId": 169990,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 617813,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 617814,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 617815,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 617816,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 617817,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 617818,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 617819,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 617820,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 617821,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 617822,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 617823,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 617824,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 650535,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 650536,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 650537,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 650538,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 650539,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 650540,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 650541,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 650542,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 650543,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 650544,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 650545,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 650546,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 670852,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 670853,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 670854,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 670855,
+      "sort": 28,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 明确将该主体标为 TV，标题为《フューチャーカード バディファイト DDD》，共 51 话，2016-04-02 开始并于 2017-03-25 结束；制作信息为 OLM・XEBEC，与候选作品一致。AniDB ID 11960 对应 Future Card Buddyfight DDD，且 TMDB TV 71919 的第 3 季从 2016-04-02 开始、共 51 集，完整集数日期覆盖至 2017-03-25；TMDB 第 3 季前 28 集日期也逐一对应 Bangumi 已提供的章节。因此应映射为该 TV 的完整第 3 季，无需缩小集数范围。\n\nhttps://bgm.tv/subject/169990 (page): Bangumi 页面确认标题、TV 类型、51 话、2016-04-02 开始、2017-03-25 结束、OLM/XEBEC 制作，并将其与前作《バディファイト100》和后作《バッツ》区分。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 11960 列为 Future Card Buddyfight DDD，支持输入中的 AniDB 关联及标题匹配。\n\nhttps://www.themoviedb.org/tv/71919 (api_snapshot): TMDB TV 71919 为《フューチャーカード バディファイト》，总季表显示第 3 季于 2016-04-02 开始并有 51 集。\n\nhttps://www.themoviedb.org/tv/71919/season/3 (api_snapshot): TMDB 第 3 季明确为 season 3，共 51 集；第 1 集至第 51 集日期覆盖 2016-04-02 至 2017-03-25，前 28 集日期与 Bangumi 章节逐一对应。",
+    "evidence": "codex: 确认对应TMDB 71919第3季：DDD季名、神秘蛋与巴尔的剧情、制作公司、51集总量及首尾播出日期相互吻合，官方集表也确认该范围完整属于DDD。已提供的28个Bangumi本篇章节，其标题顺序与官方一致、日期与TMDB逐集一致，因此建立1—28话连续规则；subject本身覆盖完整51话，targets采用整季。\n\nhttps://bgm.tv/subject/169990 (page): Bangumi 将本作列为 TV 动画，共51话，播出期间为2016-04-02至2017-03-25；导演池田重隆，动画制作 OLM・XEBEC。剧情为牙王拾得神秘蛋并遇到新的必杀怪兽，前后作分别为《100》和《バッツ》。\n\nhttps://www.themoviedb.org/tv/71919 (api_snapshot): 以日文母系列名搜索得到71919；详情确认其为日本《未来卡搭档对战》电视动画系列，制作公司包括 XEBEC、OLM、Bushiroad，第3季共51集、始于2016-04-02。\n\nhttps://www.themoviedb.org/tv/71919/season/3 (api_snapshot): 已读取第3季日文及英文完整集表，均为51集、total_pages=1。英文季名明确为DDD，简介描述牙王与从神秘蛋诞生的太阳龙巴尔参加世界搭档杯。第1集英文标题及剧情对应必杀怪兽诞生；第1—28集播出日期与输入的Bangumi章节逐一相同，第51集日期为2017-03-25。\n\nhttps://tv-aichi.co.jp/fc-buddyfightDDD/episodes/ (search_snippet): 电视爱知官方DDD集表列出第1—51话，前28话标题及顺序逐一吻合输入章节；第51话明确于2017-03-25播出，支持整季为DDD主体。\n\nhttps://tv-aichi.co.jp/fc-buddyfightDDD/cast/index.html (search_snippet): 电视爱知官方DDD制作名单确认导演池田重隆、动画制作OLM・XEBEC，并列出牙王、巴尔、黑涡盖特与阿比盖尔等角色，与Bangumi资料及TMDB第三季剧情相符。\n\n备注：TMDB第2—51集缺少实质标题，不能声称完成这些集的TMDB标题直接比对；前28集对应由逐集日期及官方标题顺序共同支持。；输入及当前Bangumi页面仅列出第1—28话章节；第29—51话未建立章节规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/169990; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/71919; https://www.themoviedb.org/tv/71919/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/169990; https://www.themoviedb.org/tv/71919; https://www.themoviedb.org/tv/71919/season/3; https://tv-aichi.co.jp/fc-buddyfightDDD/episodes/; https://tv-aichi.co.jp/fc-buddyfightDDD/cast/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 28,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 71919
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

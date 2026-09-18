@@ -1,20 +1,111 @@
 {
+  "anidbId": 14559,
   "bangumiId": 270139,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 945202,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 945203,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 945204,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 945205,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 945206,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 945207,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 945208,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 945209,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 945210,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 945211,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 945212,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 945213,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 945214,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 945215,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 945216,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 945217,
+      "sort": 15,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 276004 的日文标题、别名（アラド：逆転の輪／Arad: Gyakuten no Wa／REVERSAL OF FATE）、2020 年开播日期和剧情均与 Bangumi 主体一致；官方资料也确认这是同一部电视动画。TMDB 第 1 季实际包含 16 集，完整覆盖 Bangumi 的 16 集主体，因此使用整季范围。没有将前作或其他《地下城与勇士》动画混入。\n\nhttps://www.themoviedb.org/tv/276004 (api_snapshot): TMDB 详情：2020-04-23 开播，16 集、1 季；原标题为 아라드 - 역전의 바퀴，别名包括 アラド ぎゃくてんのギア、Arad: Gyakuten no Wa、REVERSAL OF FATE；剧情为西岚穿越时空改变魔界大战结局，并经历悲鸣洞穴、暗黑圣战和天界革命。\n\nhttps://www.themoviedb.org/tv/276004/season/1 (api_snapshot): TMDB 第 1 季实际集表覆盖第 1 至第 16 集，episodeCount=16，2020-04-23 至 2020-08-06。\n\nhttps://api.bgm.tv/v0/subjects/270139 (api_snapshot): Bangumi API 原始信息：主体为 TV，2020-04-23 开播，共 16 集；导演阿部記之，系列构成/脚本関島眞頼，人物设定木村智，音乐伊藤賢治，动画制作ライデンフィルム。\n\nhttps://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx (page): 官方《アラド戦記》页面使用同一标题，并描述主人公穿越到过去、经历魔界大战等剧情；页面列出角色和主题歌资料。\n\nhttps://www.tv-tokyo.co.jp/anime/arad_gia/ (page): 东京电视台官方页面确认《アラド：逆転の輪》为电视动画节目，并显示该节目已播出结束。\n\nhttps://bangumi.tv/subject/270139 (page): Bangumi 页面记录该主体为 16 话、2020 年作品，并列出阿部記之、関島眞頼、木村智、伊藤賢治和ライデンフィルム等制作人员。\n\n备注：TMDB 详情返回的 crew 列表为空，因此制作人员交叉核对主要依赖 Bangumi API/页面和官方资料。；Bangumi 集日期与 TMDB 的地区/版本播出日期存在差异，但标题、剧情、年份、媒介及 16 集总数一致，不影响整季身份和范围判断。",
+    "evidence": "codex: 推荐改为TMDB 90911第2季。该季明确对应2020年《逆转之轮》，剧情、制作资料、16集构成及完整播出日期序列与subject吻合，未混入前后作。按唯一播出日期确认sort 2—15对应S02E03—E16；三话特别篇在双方均计入该季连续集表，无需移入第0季。首日两话暂不建立逐集映射。\n\nhttps://www.themoviedb.org/tv/90911 (api_snapshot): TMDB 90911 将第2季明确命名为《逆转之轮》，首播日期为2020-04-23，16集；季简介描述西岚与天才穿越时空，经历悲鸣洞穴、暗黑圣战及天界革命，与本作一致。第1、3季分别为其他作品。\n\nhttps://www.themoviedb.org/tv/90911/season/2 (api_snapshot): 第2季实际集表共16集、1页。第1、2集均为2020-04-23，第3至16集日期逐一对应输入中sort 2至15，直至2020-07-30。中、日、英文集标题均为通用编号，简介为空。\n\nhttps://www.tv-tokyo.co.jp/anime/arad_gia/staff/ (page): 东京电视台官方制作名单列出导演阿部記之、系列构成関島眞頼、人物设计木村智、音乐伊藤賢治及动画制作ライデンフィルム，与输入一致。\n\nhttps://upimg.baike.so.com/doc/29781159-31333224.html (page): 剧集资料列出第0话《魔界》与第1话《使徒》同于2020-04-23发布；其后标题、日期与输入吻合，三话特别篇分别于5月28日、6月25日、7月30日发布。全篇为13话剧情动画加3话特别篇。\n\nhttps://www.themoviedb.org/tv/276004 (api_snapshot): 旧候选276004的别名、2020年首播及穿越剧情与本作一致，但详情本身不足以确认逐集排列。\n\nhttps://www.themoviedb.org/tv/276004/season/1 (api_snapshot): 旧候选第1季虽然也是16集，却从2020-04-23起每周仅列一集，结束于2020-08-06；未体现首日两话，不能据集数相同直接认定其逐集范围正确。\n\n备注：TMDB各集缺少实际标题及剧情。sort 0《魔界》和sort 1《使徒》同日发布，无法仅凭日期区分S02E01与E02，暂留空；补齐这两集标题或内容后可确认。；276004可能是同作的重复条目，但其日期序列存在差异；本次不采用，也不把差异直接归因为地区播出版本。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/270139; https://www.themoviedb.org/tv/276004; https://www.themoviedb.org/tv/276004/season/1; https://api.bgm.tv/v0/subjects/270139; https://arad.nexon.co.jp/campaign/202007/reversal_of_fate.aspx; https://www.tv-tokyo.co.jp/anime/arad_gia/; https://bangumi.tv/subject/270139",
-    "verifiedAt": "2026-09-08T21:35:51.426Z"
+    "source": "https://bgm.tv/subject/270139; https://www.themoviedb.org/tv/90911; https://www.themoviedb.org/tv/90911/season/2; https://www.tv-tokyo.co.jp/anime/arad_gia/staff/; https://upimg.baike.so.com/doc/29781159-31333224.html; https://www.themoviedb.org/tv/276004; https://www.themoviedb.org/tv/276004/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 3,
+      "season": 2,
+      "start": 2,
+      "tmdbId": 90911
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 276004,
-      "season": 1,
+      "id": 90911,
+      "season": 2,
       "type": "tv"
     }
   ]

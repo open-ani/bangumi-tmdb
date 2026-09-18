@@ -1,14 +1,62 @@
 {
   "anidbId": 15497,
   "bangumiId": 304051,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 943762,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 943762,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 87447,
+          "season": 0,
+          "type": "tv"
+        },
+        {
+          "episode": 2,
+          "id": 87447,
+          "season": 0,
+          "type": "tv"
+        },
+        {
+          "episode": 3,
+          "id": 87447,
+          "season": 0,
+          "type": "tv"
+        },
+        {
+          "episode": 4,
+          "id": 87447,
+          "season": 0,
+          "type": "tv"
+        },
+        {
+          "episode": 5,
+          "id": 87447,
+          "season": 0,
+          "type": "tv"
+        },
+        {
+          "episode": 6,
+          "id": 87447,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi subject 是 2020-08-26 发售的《歌舞伎町シャーロック》OVA。AniDB 15497 明确标为 OVA、日期为 2020-08-26，并关联 2019 年 24 集 TV 正篇。官方资料确认 OVA 收录 6 个短篇；TMDB 87447 的第 0 季“特別編”日期相同，且 6 集标题与官方 OVA 的六个短篇逐一对应。因此映射为 TMDB TV 87447 第 0 季第 1–6 集。\n\nhttps://anidb.net/anime/15497 (page): AniDB 15497 标题为《Kabukichou Sherlock (2020)》，类型为 OVA，日期为 2020-08-26；页面还显示其父关联为 2019–2020 年 24 集 TV 正篇。\n\nhttps://pipecat-kabukicho.jp/news.html?id=n014 (page): 官方页面标明 OVA 于 2020-08-26 发售，并列出 Ep1 至 Ep6 六个短篇标题。\n\nhttps://www.themoviedb.org/tv/87447 (api_snapshot): TMDB TV 87447 的第 0 季名为“特別編”，日期为 2020-08-26，共 6 集；第 1 季为 2019 年 24 集正篇。\n\nhttps://www.themoviedb.org/tv/87447/season/0 (api_snapshot): TMDB 第 0 季六集标题依次对应“モリアーティの正体”“注文の多いトラック”“ハドソン夫人と息子”“マイクロフト副區長の秘密”“ミッシェルの同居人”“ワトソンとメアリのデート”。",
+    "evidence": "codex: 已确认是2020年发行的六短篇 OVA。发行日期、剧情、制作人员及六篇标题顺序相互吻合。Bangumi 将六篇合为一个章节，TMDB 拆为第0季第1—6集，因此使用一对六 override；Bangumi 的 sort=25 不代表 TMDB 第25集。\n\nhttps://pipecat-kabukicho.jp/news.html?id=n014 (page): 官方确认 OVA 于2020年8月26日发售，本篇约25分钟，包含六个短篇，内容为夏洛克、华生、莫里亚蒂及长屋侦探们的过去与未来；六篇标题及顺序与输入的 Bangumi 第25话合并标题一致。\n\nhttps://www.themoviedb.org/tv/87447 (api_snapshot): TMDB 87447 为2019年《歌舞伎町シャーロック》，导演吉村愛，制作公司包括 Production I.G；剧情、人物与输入所属系列一致。详情将24集电视正篇列为第1季，将2020年8月26日的六集特别篇列为第0季。\n\nhttps://www.themoviedb.org/tv/87447/season/0 (api_snapshot): 第0季实际集表共六集，total_pages=1，日期均为2020年8月26日。第1至6集依次为莫里亚蒂的真实身份、要求繁多的卡车、赫德森夫人与儿子、麦克罗夫特副区长的秘密、米歇尔的同居人、华生与玛丽的约会；日文标题及剧情逐项对应官方六个短篇。\n\n备注：TMDB 将六个短篇各标为24分钟，与官方整部本篇约25分钟不符，属于时长元数据疑点；标题、剧情及日期的逐项对应仍能确认范围。；Bangumi 网页本次无法访问，章节 ID、合并标题及日期依据用户提供的归档数据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/304051; https://anidb.net/anime/15497; https://pipecat-kabukicho.jp/news.html?id=n014; https://www.themoviedb.org/tv/87447; https://www.themoviedb.org/tv/87447/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/304051; https://pipecat-kabukicho.jp/news.html?id=n014; https://www.themoviedb.org/tv/87447; https://www.themoviedb.org/tv/87447/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

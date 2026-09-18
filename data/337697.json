@@ -1,13 +1,64 @@
 {
   "bangumiId": 337697,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1033934,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1033935,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1033936,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1033937,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1033938,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1033939,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1033940,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1033941,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1033942,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1033943,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 的《Jurassic World: Camp Cretaceous》第三季身份一致：原名、日文别名「ジュラシック・ワールド/サバイバル・キャンプ」、2021-05-21 首播日期、六名青少年在努布拉岛求生的剧情及 Netflix WEB 动画媒介均吻合。官方 Amblin 页面确认该系列由 DreamWorks Animation 与 Amblin Entertainment 联合制作，Scott Kreamer 与 Lane Lueras 担任主创/执行制片，Zack Stentz 为开发者/顾问制片。TMDB 第3季实表明确列出 10 集，编号 1–10，日期均为 2021-05-21，且与 Bangumi 的 10 集主体完全对应，因此使用完整第3季。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): TMDB TV 93741：原名 Jurassic World Camp Cretaceous；2020-09-18 开播；剧情为六名青少年在 Isla Nublar 恐龙灾害中求生；日文别名为 ジュラシック・ワールド/サバイバル・キャンプ；第3季日期为 2021-05-21、共10集；制作公司包括 DreamWorks Animation Television、Amblin Television、Legendary Television 等。\n\nhttps://www.themoviedb.org/tv/93741/season/3 (api_snapshot): TMDB 第3季实际季表：season=3，air_date=2021-05-21，episodeCount=10，集号连续覆盖 1–10；标题和剧情与该季求生故事对应。\n\nhttps://api.bgm.tv/v0/subjects/337697 (api_snapshot): Bangumi fresh API：标题为 Jurassic World: Camp Cretaceous (Season 3)，中文名为侏罗纪世界：露营白垩纪 第三季，日期 2021-05-21，平台 WEB，eps=10，剧情为六名青少年在努布拉岛恐龙灾害中求生。\n\nhttps://amblin.com/tv/jurassic-world-camp-cretaceous/ (page): 官方 Amblin 页面确认系列为 2020–2022 年电视作品，全部五季在 Netflix 播出；列出 Scott Kreamer、Lane Lueras、Zack Stentz、Steven Spielberg、Frank Marshall、Colin Trevorrow 等制作人员，并在第三季段落列出10集。",
+    "evidence": "codex: 作品剧情、动画媒介、制作背景、第三季上线日期及 10 集范围一致，确认对应 TMDB 93741 完整第三季，未混入其他季或特别篇。Bangumi 输入中的章节标题和日期全部为空，无法逐章交叉核验，因此保留整季匹配，不凭编号位置填写逐集规则。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): TMDB 93741 为《Jurassic World Camp Cretaceous》，2020 年开播；六名青少年在努布拉岛恐龙灾害中求生的剧情与输入一致。制作公司包括 DreamWorks Animation Television、Amblin Television；第三季标为 2021-05-21 上线、共 10 集。\n\nhttps://www.themoviedb.org/tv/93741/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共 10 集，集号连续为 1–10，日期均为 2021-05-21。各集标题及顺序与 Amblin 官方第三季列表逐项一致。\n\nhttps://amblin.com/tv/jurassic-world-camp-cretaceous/ (page): Amblin 官方确认本作是 DreamWorks Animation 与 Amblin 合作的 Netflix 动画系列，由 Zack Stentz 开发，Scott Kreamer、Lane Lueras 担任主创及执行制片。第三季独立列出 10 集，剧情围绕吴博士的秘密研究及逃离努布拉岛展开，与 TMDB 第三季一致。\n\n备注：Bangumi 网页及 API 本次访问失败；章节资料以用户提供的快照为依据。待补充 Bangumi 各章标题或播出日期后，可进一步核实并填写逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/337697; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/3; https://api.bgm.tv/v0/subjects/337697; https://amblin.com/tv/jurassic-world-camp-cretaceous/",
-    "verifiedAt": "2026-09-08T22:57:51.881Z"
+    "source": "https://bgm.tv/subject/337697; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/3; https://amblin.com/tv/jurassic-world-camp-cretaceous/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

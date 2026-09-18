@@ -1,13 +1,80 @@
 {
+  "anidbId": 18705,
   "bangumiId": 407308,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1236665,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1236666,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1236667,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1236668,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1236669,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1236680,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1236681,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1236682,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1236683,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1236684,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1236685,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1236686,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1236687,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 196568 是《是王者啊？》主系列，详情明确列出第2季，日期为2023-07-27、共13集；季表实际覆盖第1至第13集。Bangumi资料的标题、别名“云中篇Ⅱ/云中不完全剿匪日记”、日期、WEB媒介、剧情和制作人员均与该季一致，因此应映射为完整第2季，不拆分或映射到其他季度。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): TMDB详情确认作品标题为《是王者啊？》，包含第2季，日期2023-07-27、13集，并列出其他季度，说明不是独立电影或短片合集。\n\nhttps://www.themoviedb.org/tv/196568/season/2 (api_snapshot): TMDB第2季实际季表为2023-07-27、共13集，连续列出第1至第13集。\n\nhttps://api.bgm.tv/v0/subjects/407308 (api_snapshot): Bangumi API确认主体为《是王者啊？ 第二季》，别名包含“云中篇Ⅱ”和“云中不完全剿匪日记”，WEB动画，2023-07-27开播，共13集，剧情与制作人员信息吻合。\n\nhttps://www.bilibili.com/bangumi/play/ep780092 (page): 官方播放页将其标为《是王者啊？》第二季/云中篇，并显示该篇全13话。",
+    "evidence": "codex: 作品及季级对应可确认：系列背景、续季关系、2023-07-27首播日期与13话总量一致，制作方资料亦确认该网络动画版本。映射至TMDB 196568第2季整季。TMDB集表缺少实际标题及绝大多数日期，不能仅凭编号生成逐集规则，因此暂留空。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): 以原名搜索命中 TV 196568；详情确认为《王者荣耀》长城守卫军日常动画系列，第2季首播日期为2023-07-27，共13集。\n\nhttps://www.themoviedb.org/tv/196568/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共13集。第1集日期为2023-07-27；所有集标题均为通用编号，第2至13集日期、剧情及片长均为空，无法逐集核实内容。\n\nhttps://bgm.tv/subject/407308 (page): Bangumi确认这是2023-07-27开播、共13话的WEB第二季，别名为云中篇Ⅱ及云中不完全剿匪日记；剧情围绕长城守卫军云中剿匪，制作方为天美工作室群、灵叁伍动画。\n\nhttps://bangumi.tv/subject/407308/ep (search_snippet): 章节列表为12集本篇及特别篇SP13《一夜之间》，播出日期从2023-07-27至2023-10-12。\n\nhttps://www.sound-u.cn/index.php?a=show&c=index&catid=3&id=13&m=content (page): 参与制作的成都声娱官网确认第二季副标题、7月27日起每周四更新、网络播出平台、长城守卫军与云中组织的剧情，并列出配音导演零柒，与Bangumi信息相符。\n\nhttps://www.bilibili.com/bangumi/play/ep780092 (page): 旧映射引用的播放页实际为第二季OST合集，当前显示云中篇全27话，不能作为第二季独立13话集表或逐集对应的证据。\n\n备注：尚无法逐集确认本篇1至12集的对应关系，也无法确认Bangumi特别篇《一夜之间》就是TMDB S02E13；需要TMDB补充集标题、日期或其他可核对的单集信息。；TMDB未提供制作人员，第2季简介亦为空；制作信息由Bangumi及参与制作公司的官网交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/407308; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/2; https://api.bgm.tv/v0/subjects/407308; https://www.bilibili.com/bangumi/play/ep780092",
-    "verifiedAt": "2026-09-08T23:40:03.836Z"
+    "source": "https://bgm.tv/subject/407308; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/2; https://bangumi.tv/subject/407308/ep; https://www.sound-u.cn/index.php?a=show&c=index&catid=3&id=13&m=content; https://www.bilibili.com/bangumi/play/ep780092",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

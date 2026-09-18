@@ -1,19 +1,91 @@
 {
   "anidbId": 17719,
   "bangumiId": 408013,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1183611,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1183612,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1183613,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1183614,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1183615,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1183616,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1183617,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1183618,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1183619,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1183620,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1183621,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1183622,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情与制作人员均吻合；12集标题和顺序逐一一致，播出日期差异由深夜24:00的记日方式解释。此 subject 仅对应 TMDB 第1季第1—12集；整季共24集，不能沿用旧映射的整季范围，也不占用第二季度的第13—24集。\n\nhttps://www.themoviedb.org/tv/214540 (api_snapshot): 日文原名搜索得到 TV 条目 214540；详情确认是2023年电视动画，导演小野学、动画制作 GEEKTOYS，异世界死灵术士转生到新宿的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/214540/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1至12集标题逐一与 Bangumi 本篇完全一致，顺序相同；日期为2023-04-11至2023-06-27，每集均比输入晚一个日历日。第13集起为2023-10-10开始的后半季度。\n\nhttps://dmdp-anime.jp/news/ (search_snippet): 官方新闻明确首播为2023年4月10日起每周一24:00，解释了 Bangumi 放送日与 TMDB 次日日历日期的差异；同时预告10月播出第2季度。\n\nhttps://news.kingrecords.co.jp/2023/04/13591/ (search_snippet): 出品方 KING RECORDS 的新闻明确第1季度全12话。\n\nhttps://dmdp-anime.jp/onair/ (page): 官方放送页确认第2季度从2023年10月9日24:00开始，与 TMDB 第13集的10月10日一致，支持将两个季度在第12与13集之间划分。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/408013; https://www.themoviedb.org/tv/214540; https://www.themoviedb.org/tv/214540/season/1; https://dmdp-anime.jp/news/; https://news.kingrecords.co.jp/2023/04/13591/; https://dmdp-anime.jp/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 214540
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 214540,
       "season": 1,
       "type": "tv"

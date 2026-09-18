@@ -1,21 +1,57 @@
 {
   "anidbId": 7206,
   "bangumiId": 3955,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28625,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28626,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 28625,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 37858,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 28626,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 37858,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "TMDB API逐项核对：TMDB 329731 原名为 Fate/stay night TV reproduction，2010年山口祐司执导、全2集，每集60分钟，与 Bangumi 的两篇 TV 重剪总集篇对应。采用该独立TV条目完整第1季；708177已返回404。",
+    "evidence": "codex: 匹配至 TMDB 37858 第0季第3—4集。两集标题、2010年日期、约60分钟时长及前后半重剪范围均与官方资料和 Bangumi 两篇章节对应，故按章节ID明确映射。此范围只包含总集篇，不包含原TV正篇或其他特典。旧映射329731虽有同名独立条目，但逐集资料较弱且第二集日期存在冲突，本次采用可直接核实内容的特别篇记录。\n\nhttps://www.typemoon.com/information/html/index_2010.html (page): TYPE-MOON 官方公告确认：2010年总集篇分为 I、II 两篇，各60分钟，分别重剪原TV第1—12话、第13—24话，两卷均于2010年1月22日发行。\n\nhttps://www.at-x.com/program/detail/2647 (search_snippet): AT-X 节目资料确认本作是2010年制作的两话总集篇，导演山口祐司、系列构成佐藤卓哉、动画制作 Studio Deen，并明确列出 I、II 对应的原TV前后半范围。\n\nhttps://www.themoviedb.org/tv/37858 (api_snapshot): TMDB 37858 是2006年 Studio Deen 制作、山口祐司执导的《Fate/stay night》，包含特别篇第0季，与本作所重剪的原版一致。\n\nhttps://www.themoviedb.org/tv/37858/season/0 (api_snapshot): 第0季完整集表共4集、仅1页。第3、4集标题分别精确对应 TV reproduction I、II，日期均为2010年1月17日，时长61、60分钟；简介分别注明重剪原TV第1—12话、第13—24话。第1、2集是其他特典，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/329731 (api_snapshot): 旧映射329731确实存在，原名、2010年首播日期、导演及主要声优符合本作，登记为一季两集，但没有作品简介。\n\nhttps://www.themoviedb.org/tv/329731/season/1 (api_snapshot): 329731第1季两集仅命名为“第1话”“第2话”，无逐集简介；第二集日期为2010年1月29日，无法由此可靠核实 I、II 的逐集对应。\n\nhttps://www.themoviedb.org/tv/45845 (api_snapshot): 种子45845实际是2011年 ufotable 制作的《Fate/Zero》，其 IMDb、TVDB、Wikidata ID也与种子一致；这些线索属于另一作品，应排除。\n\n备注：329731疑似重复收录本作，但第二集2010年1月29日的日期依据不明。；输入的放送结束日为2010年1月18日，37858两篇均标2010年1月17日；日期口径差异尚未解释，不影响由精确标题及重剪范围确定的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3955; https://www.themoviedb.org/tv/329731; https://www.themoviedb.org/tv/329731/season/1",
-    "verifiedAt": "2026-09-07T18:35:49.302Z"
+    "source": "https://bgm.tv/subject/3955; https://www.typemoon.com/information/html/index_2010.html; https://www.at-x.com/program/detail/2647; https://www.themoviedb.org/tv/37858; https://www.themoviedb.org/tv/37858/season/0; https://www.themoviedb.org/tv/329731; https://www.themoviedb.org/tv/329731/season/1; https://www.themoviedb.org/tv/45845",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 329731,
-      "season": 1,
+      "episode": 3,
+      "episodeEnd": 4,
+      "id": 37858,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,15 +1,46 @@
 {
+  "anidbId": 11789,
   "bangumiId": 180284,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 631974,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 631975,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 676793,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 708740,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 104232 与 Bangumi 的日文原名完全一致，均为福岛GAINAX制作的战国历史宣传动画，剧情、制作方及主要声优相符。TMDB S1实际有6集；Bangumi主体仅包含2016-04至2017-02公开的前4集，且第3、4集日期与TMDB完全对应，因此应映射为S1第1–4集的闭区间，而不是整季。第5、6集是之后制作的续篇，不属于当前Bangumi主体集表。\n\nhttps://www.themoviedb.org/tv/104232 (api_snapshot): TMDB搜索日文原名、英文别名及缩短标题均返回TV 104232《政宗ダテニクル》。\n\nhttps://www.themoviedb.org/tv/104232 (api_snapshot): TMDB详情确认原名、日文媒介、福岛GAINAX制作、1季共6集及主要声优；作品最终播出至2018-03-30。\n\nhttps://www.themoviedb.org/tv/104232/season/1 (api_snapshot): S1集表为第1至第6集；第3集日期2016-11-07、第4集日期2017-02-10，与Bangumi第3、4集一致，第5、6集分别为2017-11-01和2018-03-30。\n\nhttps://www.furusato-tax.jp/gcf/223 (page): 伊达市与福岛GAINAX共同制作该动画；页面说明当时已有第1至第5话，并将第6话作为后续制作项目，确认后两集属于同一作品的后续篇章。\n\nhttps://www.date-shi.jp/datenikuru/information (search_snippet): 官方作品介绍的剧情、伊达政宗与历代当主设定及福岛GAINAX制作信息与Bangumi简介一致。\n\nhttps://api.bgm.tv/v0/subjects/180284 (api_snapshot): Bangumi fresh API确认主体为WEB动画，共4集，日期截至2017-02-10。\n\n备注：TMDB第1集日期为2016-02-05，与Bangumi主体日期2016-04-24及第1集2016-05-02不一致，可能是上映、登记或配信日期差异；但不影响标题、制作方、剧情及后续集数顺序的身份匹配。",
+    "evidence": "codex: 制作方、制作人员、角色声优、剧情和网络动画版本一致。官方独立配信的第1至4话与两站逐集标题对应，第3、4话日期完全相同，支持连续一对一映射。输入仅收录四话，故范围限定为TMDB 104232第1季第1至4集，不扩大到全季六集。\n\nhttps://www.themoviedb.org/tv/104232 (api_snapshot): 日文原名搜索返回 TV 104232。详情确认制作公司为福島GAINAX，主要声优为村瀬歩、森川智之、ブリドカットセーラ恵美、小林裕介；共1季6集，属于2016年开始的系列动画。\n\nhttps://www.themoviedb.org/tv/104232/season/1 (api_snapshot): 第1季集表共6集，total_pages=1。第1至4集标题分别为「第1話」至「第4話」，日期分别为2016-02-05、2016-06-20、2016-11-07、2017-02-10；第3、4集日期与输入完全一致。第5、6集日期为2017-11-01、2018-03-30，超出输入四话范围。\n\nhttps://fukushimagaina.com/政宗ダテニクル/ (page): 制作公司官方存档逐一列出第1至4话的独立网络配信链接；剧情为年轻政宗召唤历代当主。总导演浅尾芳宣、导演清丸悟、角色设计木村智均与输入一致，角色声优也与TMDB详情一致。\n\nhttps://www.date-shi.jp/datenikuru/information (search_snippet): 官方作品介绍确认伊达市与福岛GAINAX共同制作，剧情包含梁川八幡神社、冥龍眼、16位历代当主及先祖合体，与Bangumi简介一致。\n\nhttps://s.animeanime.jp/article/2016/04/22/28204.html?pickup_list_click3=true (search_snippet): 2016年4月22日报道说明4月24日举行完成披露试映，随后网络公开，支持Bangumi主体日期对应试映活动。\n\nhttps://www.animatetimes.com/tag/details.php?id=11479 (search_snippet): 作品资料将原系列列为网络配信，开始日期为2016年5月2日，与Bangumi第1话日期一致。\n\nhttps://animatetimes.com/news/details.php?id=1617263945 (search_snippet): 报道区分2016至2018年网络发布的6话短篇与2021年4月1日上映的《復興応援 政宗ダテニクル 合体版＋》，确认本次应匹配原系列而非剧场合体版。\n\n备注：TMDB第1集日期2016-02-05与已查到的4月24日试映、5月2日配信均不符，具体错误来源未确认。；TMDB第2集日期2016-06-20与Bangumi的2016-06-19相差一天，原因未确认；对应关系仍有官方话数标识、完整集表及后续日期支持。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/180284; https://www.themoviedb.org/tv/104232; https://www.themoviedb.org/tv/104232/season/1; https://www.furusato-tax.jp/gcf/223; https://www.date-shi.jp/datenikuru/information; https://api.bgm.tv/v0/subjects/180284",
-    "verifiedAt": "2026-09-08T20:21:49.133Z"
+    "source": "https://bgm.tv/subject/180284; https://www.themoviedb.org/tv/104232; https://www.themoviedb.org/tv/104232/season/1; https://fukushimagaina.com/政宗ダテニクル/; https://www.date-shi.jp/datenikuru/information; https://s.animeanime.jp/article/2016/04/22/28204.html?pickup_list_click3=true; https://www.animatetimes.com/tag/details.php?id=11479; https://animatetimes.com/news/details.php?id=1617263945",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 104232
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

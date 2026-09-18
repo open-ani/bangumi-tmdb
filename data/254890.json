@@ -1,18 +1,80 @@
 {
   "bangumiId": 254890,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 815571,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 815572,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 815573,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 815574,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 815575,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 815576,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 815577,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 815578,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 815579,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 815580,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 73021 第一季第1至10集。作品年份、剧情、创作者、配音及动画剧集媒介吻合，10集标题、顺序和放送日期逐一对应。TMDB 第一季合并了2018与2019两批内容，因此旧映射的整季范围应收窄为第1至10集，与后续 subject 的第11至20集范围不冲突。\n\nhttps://www.themoviedb.org/tv/73021 (api_snapshot): TMDB 73021 原名为 Disenchantment，首播日期为 2018-08-17；梦乡王国、公主 Bean、精灵及私人恶魔的剧情设定，以及主要配音演员均与输入资料吻合。\n\nhttps://www.themoviedb.org/tv/73021/season/1 (api_snapshot): 已读取第一季完整集表，共20集、1页。第1至10集与输入的10个本篇章节逐集标题一致（首集仅标点和大小写差异），日期全部为2018-08-17；第11至20集日期为2019-09-20，不属于本 subject。\n\nhttps://www.netflix.com/title/80095697 (page): Netflix 官方页确认本作是 Matt Groening 创作的成人动画剧集，主演包括 Abbi Jacobson、Eric André、Nat Faxon；页面列出的首批10集标题及顺序与输入一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/254890; https://www.themoviedb.org/tv/73021; https://www.themoviedb.org/tv/73021/season/1; https://www.netflix.com/title/80095697",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 73021
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 10,
       "id": 73021,
       "season": 1,
       "type": "tv"

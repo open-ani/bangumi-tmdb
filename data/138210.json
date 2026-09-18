@@ -1,21 +1,116 @@
 {
   "anidbId": 11322,
   "bangumiId": 138210,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 596815,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 596816,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 596817,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 596818,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 596819,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 596820,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 596821,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 596822,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 596823,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 596824,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 596825,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 596826,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 631017,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 631017,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 65298,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、剧情、导演与制作公司一致。本篇12集已逐集核对标题与周播日期，对应第1季第1—12集；特别篇凭明确标题对应第0季第1集。第1季额外的无明确标题第13集不纳入映射。\n\nhttps://www.themoviedb.org/tv/65298 (api_snapshot): TMDB 65298 为2016年同名电视动画，剧情围绕日下与若林的办公室恋情；导演佐々木勅嘉、制作公司 Creators in Pack 与 Dream Creation，作品身份一致。\n\nhttps://www.themoviedb.org/tv/65298/season/1 (api_snapshot): 第1季共13条记录；第1—12集日文标题与 Bangumi 本篇逐集完全一致，日期均晚一天且保持相同周播顺序。第13集只有通用标题，无简介，不能确认其内容。\n\nhttps://www.themoviedb.org/tv/65298/season/0 (api_snapshot): 第0季仅1集，英文标题为 Hige-san and Dream Marshmallow (Episode 13)，对应 Bangumi 特别篇《日下さんと夢マシュマロ》；TMDB 日期为2016-04-01。\n\nhttps://subculwalker.com/archives/21869/ (search_snippet): 播出资料记载首播为2016年1月7日25:00，即公历1月8日凌晨，解释两站本篇日期统一相差一天；导演、制作公司及主要声优也一致。\n\nhttps://www.animate-onlineshop.jp/pn/%E3%80%90DVD%E3%80%91TV%2B%E3%81%8A%E3%81%98%E3%81%95%E3%82%93%E3%81%A8%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AD/pd/1386931/ (search_snippet): Animate 的 DVD 商品资料记载2016年4月16日发售，并包含未放送话，与 Bangumi 特别篇日期一致。\n\n备注：特别篇的 TMDB 日期2016-04-01与 Bangumi 及 DVD 发售日期2016-04-16不一致，但标题明确对应。；TMDB 第1季第13集缺少具体标题和简介，可能与特别篇重复，现有证据不足以确认，因此不使用该条目。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/138210; https://www.themoviedb.org/tv/65298; https://www.themoviedb.org/tv/65298/season/1; https://www.themoviedb.org/tv/65298/season/0; https://subculwalker.com/archives/21869/; https://www.animate-onlineshop.jp/pn/%E3%80%90DVD%E3%80%91TV%2B%E3%81%8A%E3%81%98%E3%81%95%E3%82%93%E3%81%A8%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AD/pd/1386931/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65298
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 65298,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 65298,
+      "season": 0,
       "type": "tv"
     }
   ]

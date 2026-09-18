@@ -1,27 +1,174 @@
 {
   "anidbId": 18852,
   "bangumiId": 511126,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1421700,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1421701,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1421702,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1421703,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1421704,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1421705,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1421706,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1421707,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1421708,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1421709,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1421710,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1421711,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1449095,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1449096,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1449097,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1449098,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1449099,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1449100,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1449101,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1449102,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1449103,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1449104,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1449105,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1449106,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1473689,
+      "sort": 9.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1473689,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 270487,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2025年1月开播的TV动画，本篇24集，并另列一个于2025-03-15播出的SP.9.5《パーティ特集！クローバー》。TMDB ID 270487的简介、原名、剧情和制作形态与该条目一致；其季信息明确列出第0季“特別編”1集、第1季24集。第1季完整集名、日期与Bangumi本篇1—24集逐集对应（仅存在TMDB日期整体晚1天的时区/记录差异）。第0季单集与Bangumi SP的标题性质、日期和时长相符，因此纳入第0季第1集；TMDB第2季无开播日期，且Bangumi将第2期作为独立关联条目，不纳入本主体。\n\nhttps://bgm.tv/subject/511126 (page): Bangumi 条目类型为TV，话数24，放送开始为2025-01-11，放送结束为2025-06-28，原名、剧情梗概和制作信息与候选作品一致。\n\nhttps://bgm.tv/subject/511126/ep (page): Bangumi逐集列出本篇1—24集，日期从2025-01-11至2025-06-28，并另列特别篇SP9.5。\n\nhttps://bgm.tv/ep/1473689 (page): Bangumi确认主体内特别篇为《パーティ特集！クローバー》，首播2025-03-15，时长22分50秒。\n\nhttps://www.themoviedb.org/tv/270487 (api_snapshot): TMDB API快照确认TV作品ID为270487，原名和剧情与Bangumi条目一致；季列表含第0季1集、第1季24集及无日期的第2季1集。\n\nhttps://www.themoviedb.org/tv/270487/season/1 (api_snapshot): TMDB API快照确认第1季season_number=1、episodeCount=24，完整剧集标题和日期与Bangumi本篇1—24集对应。",
+    "evidence": "codex: 年份、剧情、导演、制作公司及TV媒介一致，确认对应 TMDB 270487。24集本篇的标题、顺序、播出日期及停播间隔逐集吻合，映射至第1季全季；SP9.5以章节ID映射至第0季第1集。日期的一天差异符合官方深夜节目使用前一日24时制的记法。第2期不属于本 subject。\n\nhttps://www.themoviedb.org/tv/270487 (api_snapshot): 日文原名搜索命中 TV 270487；详情确认其为2025年动画，剧情涉及优克退出雷霆之枪并加入原学生的四叶草队伍，导演小野勝巳、制作公司 BN Pictures 均与输入一致。\n\nhttps://www.themoviedb.org/tv/270487/season/1 (api_snapshot): 完整读取第1季集表，total_pages=1，共24集。第1至24集日文标题与输入逐集一致，日期均比 Bangumi 晚一天；第9集至第10集之间的停播间隔也一致。本季没有混入特别篇或第2期。\n\nhttps://www.themoviedb.org/tv/270487/season/0 (api_snapshot): 完整读取第0季集表，total_pages=1，仅第1集《パーティ特集！クローバー》，日期2025-03-16，时长23分钟，内容为回顾四叶草队伍此前冒险的特别篇。标题及日期对应输入的 SP9.5。\n\nhttps://arank-party-ridatsu-official.com/ (page): 官网确认本作是连续两个季度播出的TV动画，导演小野勝巳、动画制作 Bandai Namco Pictures；第2期另行宣布制作。\n\nhttps://arank-party-ridatsu-official.com/onair?target=streaming (page): 官方播出表注明日本电视台自1月11日起每周六24:55播出，即公历次日凌晨，解释了 Bangumi 与 TMDB 日期相差一天。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/511126; https://bgm.tv/subject/511126/ep; https://bgm.tv/ep/1473689; https://www.themoviedb.org/tv/270487; https://www.themoviedb.org/tv/270487/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/511126; https://www.themoviedb.org/tv/270487; https://www.themoviedb.org/tv/270487/season/1; https://www.themoviedb.org/tv/270487/season/0; https://arank-party-ridatsu-official.com/; https://arank-party-ridatsu-official.com/onair?target=streaming",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 270487
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "id": 270487,
+      "season": 1,
+      "type": "tv"
+    },
     {
       "episode": 1,
       "id": 270487,
       "season": 0,
-      "type": "tv"
-    },
-    {
-      "id": 270487,
-      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,13 +1,109 @@
 {
   "bangumiId": 452836,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1246396,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1246397,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1246398,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1246399,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1246400,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1246401,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1246402,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1246403,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1246404,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1246405,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1246406,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1246407,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1246408,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1246409,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1246410,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1246411,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1246412,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1246413,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1246414,
+      "sort": 19,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认对应 TMDB TV 条目《Kung Fu Panda: The Dragon Knight》（TMDB 129959）的第3季。该系列为 Netflix 与 DreamWorks Animation 制作的 CG 动画剧集，系列始于2022年，第3季于2023-09-07发布；剧情、角色和制作方与 Bangumi 条目一致。TMDB 第3季实际季表包含完整的第1至19集，日期均为2023-09-07，且与 Bangumi 的19集完全对应，因此使用整季范围。外部 IMDb 提示 tt27105980 实际指向第3季第1集，不是系列条目，未将其误用为 TV ID。\n\nhttps://api.bgm.tv/v0/subjects/452836 (api_snapshot): Bangumi fresh API 将该作品标为《Kung Fu Panda: The Dragon Knight Season 3》，媒介为 WEB，日期为2023-09-07，共19集。\n\nhttps://www.themoviedb.org/tv/129959 (api_snapshot): TMDB 129959 的原名为 Kung Fu Panda: The Dragon Knight，系列首播2022-07-14，末播2023-09-07，共3季42集；第3季有19集，制作公司为 DreamWorks Animation Television。简介描述 Po 与 Wandering Blade 寻找四件强力武器并拯救世界。\n\nhttps://www.themoviedb.org/tv/129959/season/3 (api_snapshot): TMDB 第3季实际季表为 Season 3，首播2023-09-07，共19集，连续覆盖第1至第19集；剧情概要为 Dragon Knights 设法摧毁 Tianshang 武器并对抗敌人。\n\nhttps://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news (page): Netflix 官方资料确认这是 Netflix 与 DreamWorks Animation 的 CG animated series，执行制片人为 Peter Hastings、Shaunt Nigoghossian，联合执行制片人为 Chris Amick、Ben Mekler，动画工作室为 DreamWorks Animation；剧情为 Po 与英国骑士 Wandering Blade 寻找四件魔法武器。\n\nhttps://www.dreamworks.com/shows/kung-fu-panda-the-dragon-knight (page): DreamWorks 官方页面确认 Po 与一名英国骑士共同寻找魔法武器并拯救世界，与 TMDB 和 Bangumi 条目的系列身份及剧情吻合。\n\n备注：TMDB details 返回的 crew 字段为空；制作方和主要制作人员由 Netflix 官方公告及 TMDB production_companies/cast 字段核实，但未展开完整演职员表。",
+    "evidence": "codex: 确认对应 TMDB 129959 第三季整季。作品版本、制作方、角色与剧情经官方资料核实；第三季上线日期和19集范围与 Bangumi 输入一致，实际季表未混入其他作品。Bangumi 的19个章节均缺少标题及日期，无法进行逐集交叉比对，因此只确认整季范围，不凭章节位置生成 rules。\n\nhttps://www.themoviedb.org/tv/129959 (api_snapshot): TMDB 129959 为《Kung Fu Panda: The Dragon Knight》，2022年开播，由 DreamWorks Animation Television 制作，Jack Black 配音阿宝；剧情为阿宝与英国骑士寻找四件武器。第三季标记为2023-09-07上线，共19集。\n\nhttps://www.themoviedb.org/tv/129959/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共19集，集号连续为1至19，日期全部为2023-09-07。首集为 The Trial of Mr. Ping，末集为 The Dragon Knights (2)，内容为神龙骑士处理天上武器危机的连续剧情。\n\nhttps://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news (page): Netflix 官方公告确认本作为 Netflix 与 DreamWorks 的CG动画剧集，Jack Black 配音阿宝，执行制片人为 Peter Hastings、Shaunt Nigoghossian；角色与寻找魔法武器的剧情均与 TMDB 一致。\n\nhttps://www.youtube.com/watch?v=pB1u-ShkGNY (search_snippet): Netflix 官方频道2023年8月24日发布的第三季预告明确宣布第三季于9月7日在 Netflix 上线，与 Bangumi 输入及 TMDB 季表日期吻合。\n\nhttps://www.tvguide.com/tvshows/kung-fu-panda-the-dragon-knight/episodes-season-3/1001054762/ (search_snippet): TV Guide 第三季资料列出2023年共19集，首集为 The Trial of Mr. Ping，日期为2023-09-07，与 TMDB 第三季范围一致。\n\n备注：Bangumi 页面与 API 本次未能成功读取；Bangumi 侧依据用户提供的快照。逐集映射需补充带标题或放送日期的 Bangumi 章节资料后再核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/452836; https://api.bgm.tv/v0/subjects/452836; https://www.themoviedb.org/tv/129959; https://www.themoviedb.org/tv/129959/season/3; https://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news; https://www.dreamworks.com/shows/kung-fu-panda-the-dragon-knight",
-    "verifiedAt": "2026-09-08T23:58:05.265Z"
+    "source": "https://bgm.tv/subject/452836; https://www.themoviedb.org/tv/129959; https://www.themoviedb.org/tv/129959/season/3; https://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news; https://www.youtube.com/watch?v=pB1u-ShkGNY; https://www.tvguide.com/tvshows/kung-fu-panda-the-dragon-knight/episodes-season-3/1001054762/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

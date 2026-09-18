@@ -1,15 +1,80 @@
 {
   "bangumiId": 50159,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 200802,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 200803,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 200804,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 200805,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 200806,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 200807,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 200808,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 200809,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 200810,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 200811,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 200812,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 1434《Family Guy》与 Bangumi 条目的媒介、标题、剧情和制作体系一致；第 11 季实际季表明确标为 2012-09-30 开播并包含第 1–22 集，覆盖 Bangumi 条目所标示的整季 22 集。不是电影、OVA、音乐录像或其他版本。\n\nhttps://api.bgm.tv/v0/subjects/50159 (api_snapshot): Bangumi 原始信息标明作品为 TV《Family Guy (Season 11)》，首播日期为 2012-09-30，话数为 22。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 详情确认这是《Family Guy》电视动画，首播于 1999-01-31；剧情围绕 Griffin 家庭，制作公司包括 20th Century Fox Television、Fuzzy Door Productions 等，主要配音人员包括 Seth MacFarlane、Alex Borstein、Mila Kunis、Seth Green。\n\nhttps://www.themoviedb.org/tv/1434/season/11 (api_snapshot): TMDB 第 11 季季表确认季号为 11、开播日为 2012-09-30、共 22 集，集号连续覆盖 1–22；第 1 集为 Into Fat Air，第 2 集为 Ratings Guy，与 Bangumi 集名和日期线索相符。\n\n备注：Bangumi fresh API 的 total_episodes 和当前集表仅显示 11，但条目 infobox 与 eps 字段均为 22；TMDB 第 11 季完整季表明确有 22 集，因此按整季匹配。",
+    "evidence": "codex: 作品媒介、制作关联、季度首播日期、整季 22 集规模及前三集标题共同确认对应 TMDB 1434 第十一季，完整季表未混入其他作品。subject 可匹配整季；逐集仅映射已核实的第 1–3 话，其中第 3 话依据相同标题与集号确认，并保留日期冲突。\n\nhttps://bgm.tv/subject/50159 (page): Bangumi 标明本作为 TV《Family Guy (Season 11)》，共 22 话，2012-09-30 开播；脚本关联 Seth MacFarlane，制作公司为 20th Century Fox Television，播出电视台为 FOX。页面仅列出 11 个章节。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 1434 为英语电视动画《Family Guy》，剧情围绕 Griffin 家庭展开；制作公司包含 20th Century Fox Television，主要配音包含 Seth MacFarlane。详情列出第十一季于 2012-09-30 开播，共 22 集。\n\nhttps://www.themoviedb.org/tv/1434/season/11 (api_snapshot): 已读取第十一季完整集表，total_pages=1，共 22 集，播出日期覆盖 2012-09-30 至 2013-05-19。第 1、2 集标题及日期与输入一致；第 3 集标题同为 The Old Man and the Big 'C'，但日期为 2012-11-04。第 4–11 集实际播出日期与输入的同序号章节日期不一致。\n\n备注：Bangumi 第 3 话日期为 2012-10-21，TMDB 为 2012-11-04；日期差异原因未确认。；Bangumi 第 4–11 话没有标题，日期又与 TMDB 同序号集不符，无法可靠判定逐集关系，暂不映射，也不按日期移位推断。；Bangumi 标称 22 话，但输入及访问页面仅有 11 个章节；未为缺失的第 12–22 话创建规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/50159; https://api.bgm.tv/v0/subjects/50159; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/11",
-    "verifiedAt": "2026-09-08T18:59:41.078Z"
+    "source": "https://bgm.tv/subject/50159; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/11",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 11,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

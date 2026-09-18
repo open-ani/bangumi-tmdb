@@ -1,16 +1,91 @@
 {
   "anidbId": 14485,
   "bangumiId": 266349,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 977607,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 978716,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 978717,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 978718,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 978719,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 978720,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 978721,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 978722,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 978723,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 978724,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 978725,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 978726,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 981783,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2020年10月7日开播、共13话的《ツキウタ。 THE ANIMATION 2》TV续作；官方站点也确认该TV动画自2020年10月7日播出，并给出第1、2、5、12话的标题和剧情。TMDB主条目67153明确列出2020年开播、13集的第2季，季快照明确为season_number=2且episodeCount=13。因此主体对应TMDB 67153第2季完整一季，整季范围不需填写起止集数。\n\nhttps://bangumi.tv/subject/266349 (page): Bangumi 条目名称为《ツキウタ。 THE ANIMATION 2》，类型为TV，话数13，放送开始日为2020年10月7日，并关联前传《ツキウタ。 THE ANIMATION》。\n\nhttps://tsukiani.com/onair/index.html (page): 官方站点确认《ツキウタ。 THE ANIMATION2》于2020年10月7日开始TV播出。\n\nhttps://tsukiani.com/news/hp0001/index00090000.html (page): 官方站点列出第1话《１秒前よりも……》、第2话《奏でたい想い》、第3话《君がヒーロー》、第4话《Just get up and dance.》，与Bangumi主体逐集资料一致。\n\nhttps://tsukiani.com/news/hp0001/index00130000.html (page): 官方站点列出第5话《仲間と音楽を》和第6话《猫たちの旅》等第5至8话资料，与Bangumi主体逐集资料一致。\n\nhttps://www.themoviedb.org/tv/67153-the-animation (page): TMDB主条目明确列出Season 2，年份2020、共13 Episodes，并注明该季于2020年10月7日首播。\n\nhttps://www.themoviedb.org/tv/67153/season/2 (api_snapshot): TMDB API快照明确记录TV ID 67153的season_number=2、season名称为《ツキウタ。 THE ANIMATION2》、air_date为2020-10-07、episodeCount为13。\n\n备注：TMDB季接口快照中的逐集标题与日期存在明显数据错配：其标题部分对应前一季，而官方与Bangumi的第二季标题不同；这影响TMDB逐集元数据可信度，但不改变季号、2020年播出版本及13集完整季范围的对应判断。；AniDB 14485的直接页面读取返回403，未能独立读取AniDB页面内容；输入提供的AniDB名称匹配结果与Bangumi条目名称一致。",
+    "evidence": "codex: 确认对应 TMDB 67153 第2季整季。年份、TV媒介、制作公司、角色与剧情一致；英文季表的13集标题逐一对应 Bangumi 本篇1—13话，官方剧情进一步确认版本，可建立连续对应规则。日期已逐集核对，TMDB 的日期错误及日文翻译错配不改变英文集表明确识别的章节身份。\n\nhttps://bgm.tv/subject/266349 (page): Bangumi 确认本作是2020年10月7日开播、12月30日完结的13话TV动画；导演浅見松雄，动画制作 Children's Playground Entertainment，2016年作品列为前传。\n\nhttps://tsukiani.com/onair/index.html (page): 官方确认第二季于2020年10月7日开始电视播出。\n\nhttps://tsukiani.com/staffcast/index.html (page): 官方列出的导演、系列构成、角色设计、制作公司及主要声优与 Bangumi 和 TMDB 的作品身份一致。\n\nhttps://www.themoviedb.org/tv/67153 (api_snapshot): TMDB 67153 的剧情围绕 Six Gravity 与 Procellarum；季列表明确区分2016年第1季和2020年10月7日开始的13集第2季。\n\nhttps://www.themoviedb.org/tv/67153/season/2 (api_snapshot): 已读取第2季日文及英文完整集表，均为13集、total_pages=1。英文第1—13集标题逐一对应输入的13个日文标题，顺序一致，剧情也属于第二季；日文标题和简介存在旧季内容错配。除第1集外，日期均与 Bangumi 排期不符。\n\nhttps://tsukiani.com/story/01.html (page): 官方第1话为《１秒前よりも……》，剧情为成员筹备2020年联合演出并拍摄宣传评论，与 TMDB 英文第2季第1集一致。\n\nhttps://tsukiani.com/story/02.html (page): 官方第2话为《奏でたい想い》，围绕水無月兄弟与钢琴演奏，符合 TMDB 英文第2集简介，排除日文接口中田径剧情的干扰。\n\nhttps://tsukiani.com/story/13.html (page): 官方第13话为《FULL MOON FESTIVAL 2020》，内容为两组偶像举行联合演出，与 Bangumi 第13话及 TMDB 英文第2季第13集相符。\n\n备注：TMDB 第2季日文标题及简介混用了旧季内容，应依据已核实的英文集表识别本季章节。；TMDB 第2—13集日期与 Bangumi 排期不一致，末集被记为2020年11月18日；不能使用这些日期推导集号。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/266349; https://bangumi.tv/subject/266349; https://tsukiani.com/onair/index.html; https://tsukiani.com/news/hp0001/index00090000.html; https://tsukiani.com/news/hp0001/index00130000.html; https://www.themoviedb.org/tv/67153-the-animation; https://www.themoviedb.org/tv/67153/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/266349; https://tsukiani.com/onair/index.html; https://tsukiani.com/staffcast/index.html; https://www.themoviedb.org/tv/67153; https://www.themoviedb.org/tv/67153/season/2; https://tsukiani.com/story/01.html; https://tsukiani.com/story/02.html; https://tsukiani.com/story/13.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 67153
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

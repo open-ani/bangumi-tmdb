@@ -1,16 +1,91 @@
 {
   "anidbId": 6340,
   "bangumiId": 1454,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 5302,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 5303,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 5304,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 5305,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 5306,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 5307,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 5308,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 5309,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 5310,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 5311,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 5312,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 5313,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 5314,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 1454 明确是《夏のあらし!》TV版，2009年4月5日开播，共13集，制作公司为SHAFT；其关联条目将第二季单独列为 subject 2604。Anime-Lists 快照中 AniDB 6340（Natsu no Arashi!）明确关联 TMDB TV 44687、season 1。TMDB 主页面快照显示该作品有两个13集季；第1季快照的13个剧集标题与 Bangumi 1454 的13集逐条对应，包括末集《プレイバックPART1》，日期仅因时区/记录口径比 Bangumi 晚一天。因此主体应对应 TMDB 44687 第1季完整13集，不应纳入第2季。\n\nhttps://bgm.tv/subject/1454 (page): Bangumi 将 subject 1454 标为《夏のあらし!》TV，共13集，2009年4月5日开播；制作信息包括新房昭之、大沼心、SHAFT；关联条目单独列出续集《夏のあらし! ～春夏冬中～》。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 6340 的条目为 Natsu no Arashi!，并明确给出 tmdbtv=44687、tmdbseason=1；该条目没有将其映射为电影或OVA。\n\nhttps://www.themoviedb.org/tv/44687 (api_snapshot): TMDB TV 44687 名称为《夏のあらし!》，共26集，包含 season 1 与 season 2，且两季各13集；第1季日期为2009年4月6日。\n\nhttps://www.themoviedb.org/tv/44687/season/1 (api_snapshot): TMDB 第1季共13集；剧集标题从《プレイバックPart2》《少女A》到《プレイバックPART1》与 Bangumi 1454 的13集标题逐条对应，日期覆盖2009年4月6日至6月29日。\n\n备注：TMDB 日期相对 Bangumi 多一天，属于日本播出日期与TMDB记录时区/口径差异；不影响作品和季的对应。",
+    "evidence": "codex: 确认对应TMDB 44687第1季整季。年份、TV媒介、制作公司、角色与剧情一致；13集标题、顺序、总量及官方逐集排期全部吻合，可建立本篇1—13话到S01E01—E13的连续映射。日期差一天符合官方深夜播出日与翌日自然日期的区别。续集《春夏冬中》不属于本subject范围。\n\nhttps://bgm.tv/subject/1454 (page): Bangumi 将本作标为2009年4月5日至6月28日播出的13集TV动画；原作为小林尽，导演新房昭之，系列监督大沼心，动画制作SHAFT；《春夏冬中》另列为续集。\n\nhttps://www.themoviedb.org/tv/44687 (api_snapshot): 日文原名搜索命中44687；详情确认是2009年SHAFT制作的TV动画，八坂一、岚、方舟咖啡店与穿越过去的剧情及主要角色配音均吻合。全剧分两季，每季13集，第2季明确名为《夏のあらし!春夏冬中》。\n\nhttps://www.themoviedb.org/tv/44687/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集。全部集号和标题与输入的Bangumi第1—13话逐一吻合，仅有空格及字母大小写差异；日期从2009年4月6日至6月29日，每周一集。\n\nhttps://www.tv-tokyo.co.jp/contents/natsunoarashi/episodes/episodes1/index.html (page): 东京电视台官方集表列出第1—13话的标题、剧情和播出日期，覆盖2009年4月5日至6月28日；逐集标题及剧情与TMDB第1季一致，13个日期均比TMDB早一天。\n\nhttps://www.tv-tokyo.co.jp/contents/natsunoarashi/ (search_snippet): 东京电视台官方首页摘要注明2009年4月5日星期日深夜1时30分开播，支持播出日标记与翌日自然日期相差一天的解释。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1454; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/44687; https://www.themoviedb.org/tv/44687/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1454; https://www.themoviedb.org/tv/44687; https://www.themoviedb.org/tv/44687/season/1; https://www.tv-tokyo.co.jp/contents/natsunoarashi/episodes/episodes1/index.html; https://www.tv-tokyo.co.jp/contents/natsunoarashi/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44687
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

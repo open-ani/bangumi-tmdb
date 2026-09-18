@@ -1,16 +1,31 @@
 {
   "anidbId": 4267,
   "bangumiId": 121819,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 464214,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 1996-07-19 播出的《YAWARA! Special ずっと君のことが…》，共 1 话。TMDB TV 30395 的 season 0 明确为“特別編”，日期同为 1996-07-19，且唯一一集标题完全匹配；其剧情也对应奥运会相关内容。因此应映射为 season 0 的完整一集，不纳入 season 1 正篇。\n\nhttps://www.themoviedb.org/tv/30395 (api_snapshot): TMDB TV 30395 的季列表包含 season 0“特別編”（1996-07-19，1 集）及 season 1（124 集）。\n\nhttps://www.themoviedb.org/tv/30395/season/0 (api_snapshot): season 0 名为“特別編”，唯一第 1 集标题为《YAWARA! Special ずっと君のことが…》，日期为 1996-07-19，剧情涉及奥运会比赛。\n\nhttps://bgm.tv/subject/121819 (page): Bangumi subject 的标题、日期、1 话信息及其与《YAWARA!》正篇的关系，与 TMDB season 0 相符。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 1996-07-19 播出的《YAWARA! Special ずっと君のことが…》，共 1 话。TMDB TV 30395 的 season 0 明确为“特別編”，日期同为 1996-07-19，且唯一一集标题完全匹配；其剧情也对应奥运会相关内容。因此应映射为 season 0 的完整一集，不纳入 season 1 正篇。\n\nhttps://www.themoviedb.org/tv/30395 (api_snapshot): TMDB TV 30395 的季列表包含 season 0“特別編”（1996-07-19，1 集）及 season 1（124 集）。\n\nhttps://www.themoviedb.org/tv/30395/season/0 (api_snapshot): season 0 名为“特別編”，唯一第 1 集标题为《YAWARA! Special ずっと君のことが…》，日期为 1996-07-19，剧情涉及奥运会比赛。\n\nhttps://bgm.tv/subject/121819 (page): Bangumi subject 的标题、日期、1 话信息及其与《YAWARA!》正篇的关系，与 TMDB season 0 相符。\n\n脚本按声明范围生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/121819; https://www.themoviedb.org/tv/30395; https://www.themoviedb.org/tv/30395/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 30395
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

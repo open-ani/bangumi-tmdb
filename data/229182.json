@@ -1,15 +1,101 @@
 {
+  "anidbId": 13737,
   "bangumiId": 229182,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 758235,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 758236,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 758237,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 758238,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 758239,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 758240,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 758241,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 758242,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 758243,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 758244,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 758245,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 758246,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 797122,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 797122,
+      "targets": [
+        {
+          "id": 947574,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 83302 与《我是江小白》在原名、别名 I'm Joybo/Wo Shi Jiang Xiaobai、2017-11-09 首播日期、剧情简介及制作公司 2:10 AM Animation（对应两点十分动漫）上吻合。其第1季实际为12集，标题和日期逐集对应 Bangumi 的正片1-12，因此使用整季。Bangumi 的第13话是2018-05-25、时长37:10的特别篇《小剧场：世界上的另一个我》；TMDB 电影947574《I'm Joybo - Find Another Me》同日上映、片长37分钟、制作公司相同，且剧情对应，因此作为独立电影映射。未使用 TMDB TV 的第0季，因为该记录显示21分钟，与 Bangumi 的37:10电影版不符。\n\nhttps://www.themoviedb.org/tv/83302 (api_snapshot): TMDB 详情确认作品为《我是江小白》，2017-11-09开播，剧情为江小白失忆、玻璃球、十年前邮件及三人关系；别名含 Wo Shi Jiang Xiao Bai 与 I'm Joybo；制作公司为2:10 AM Animation。\n\nhttps://www.themoviedb.org/tv/83302/season/1 (api_snapshot): TMDB第1季实际episodeCount为12，逐集标题与2017-11-09至2018-01-24日期对应 Bangumi 正片1-12。\n\nhttps://bgm.tv/subject/229182 (page): Bangumi记录本体为WEB动画，话数13(12+1)，2017-11-09开始；章节包含正片12集及2018-05-25特别篇，特别篇时长37:10；制作包括两点十分动漫。\n\nhttps://www.themoviedb.org/movie/947574 (api_snapshot): TMDB电影947574原名为 I'm Joybo - Find Another Me，2018-05-25上映，片长37分钟，制作公司为2:10 AM Animation。\n\nhttps://letterboxd.com/film/im-joybo-find-another-me/ (page): 该电影简介描述江小白恢复记忆、佟离离开、夕雨及三人过去的真相，与 Bangumi 特别篇剧情一致；页面列出2018年、动画、37分钟。\n\n备注：TMDB TV 83302另有第0季1集、片长21分钟，可能是特别篇的电视切分或重复条目；由于其片长与 Bangumi记录的37:10电影版不符，未推荐该季。",
+    "evidence": "codex: 本篇的年份、剧情、制作公司及12集逐集日期吻合，确认对应TMDB 83302第一季。特别篇的日期、片长、制作公司与剧情共同支持电影947574，按章节ID单独映射。第二季属于续作，不纳入本subject。\n\nhttps://bgm.tv/subject/229182 (page): Bangumi 将本作标为 WEB 动画，2017-11-09 开始、2018-01-24 结束，共13话（12+1），导演金承仁，动画制作包括两点十分动漫。\n\nhttps://www.themoviedb.org/tv/83302 (api_snapshot): TMDB 83302 原名、首播日期及江小白失忆、玻璃球、十年前邮件的剧情均吻合；制作公司为两点十分动漫，别名包含 I'm Joybo。\n\nhttps://www.themoviedb.org/tv/83302/season/1 (api_snapshot): 第一季集表共12集、仅1页。逐集日期与输入的本篇1—12完全一致；标题除第2集标点及第3集“遇而方知／遇而方之”的文字差异外一致，覆盖2017-11-09至2018-01-24。\n\nhttps://bgm.tv/ep/797122 (page): 章节797122为SP.13《小剧场 世界上的另一个我》，2018-05-25首播，时长37分10秒；剧情承接江小白恢复记忆、佟离赴美及一年后重逢。\n\nhttps://www.themoviedb.org/movie/947574 (api_snapshot): 电影947574为 I'm Joybo - Find Another Me，日期2018-05-25，时长37分钟，制作公司为两点十分动漫；简介和演职员字段为空。\n\nhttps://letterboxd.com/film/im-joybo-find-another-me/ (page): 同名动画条目记载2018-05-25、37分钟及两点十分动漫；简介涉及江小白恢复记忆、佟离、穆夕雨、九月乐队与赴美前的事故，与该特别篇相符。\n\nhttps://www.themoviedb.org/tv/83302/season/0 (api_snapshot): 第0季仅1集，标题、日期及剧情与Bangumi特别篇一致，但时长记为21分钟，与Bangumi的37分10秒冲突。\n\n备注：TMDB S00E01疑似同一特别篇的重复记录；21分钟可能是元数据错误，尚无证据证明存在独立剪辑版。本次选择片长吻合的电影记录，不重复映射。；电影947574将原语言标为英语，且缺少演职员信息；该字段与中文动画背景不符，但其日期、片长、制作公司及外部剧情资料支持作品身份。；本篇第3集标题存在“知／之”差异；其播出日期及前后集标题一致，不影响连续对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/229182; https://www.themoviedb.org/tv/83302; https://www.themoviedb.org/tv/83302/season/1; https://www.themoviedb.org/movie/947574; https://letterboxd.com/film/im-joybo-find-another-me/",
-    "verifiedAt": "2026-09-08T21:10:44.695Z"
+    "source": "https://bgm.tv/subject/229182; https://www.themoviedb.org/tv/83302; https://www.themoviedb.org/tv/83302/season/1; https://bgm.tv/ep/797122; https://www.themoviedb.org/movie/947574; https://letterboxd.com/film/im-joybo-find-another-me/; https://www.themoviedb.org/tv/83302/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83302
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,14 +1,32 @@
 {
   "anidbId": 9900,
   "bangumiId": 83731,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 360201,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 360201,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 63576,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标记为 1 集 OVA，章节标题为「運動会 DE ダンス!」，首播/发售日期为 2014-03-07。AniDB ID 9900 的公开标题索引对应 Fate/Kaleid Liner Prisma Illya (2014)，且 AniDB 来源的独立条目确认该 OVA 同名、1 集、约 25 分钟。TMDB TV 63576 的第 0 季第 6 集标题完全匹配「運動会 DE ダンス!」，日期为 2014-03-10、时长 24 分钟；日期差异可解释为不同发行/播出记录。该 subject 因此应映射到 season 0 episode 6，而不是整季或 TV 正篇。\n\nhttps://bgm.tv/subject/83731 (page): Bangumi 页面确认这是 OVA、1 集；章节标题为「在运动会上跳舞！」，对应日文「運動会 DE ダンス!」，时长约 24:45，日期为 2014-03-07。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 9900 映射为 Fate/Kaleid Liner Prisma Illya (2014)。\n\nhttps://anilist.co/anime/18851/Fatekaleid-liner-PrismaIllyaUndoukai-DE-Dance (search_snippet): 该 AniDB 来源条目确认同名 OVA 为 1 集、约 25 分钟，并具有与 Bangumi 一致的运动会剧情和制作公司 SILVER LINK.。\n\nhttps://www.themoviedb.org/tv/63576 (api_snapshot): TMDB TV 63576 的作品名称为 Fate/kaleid liner プリズマ☆イリヤ，包含 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/63576/season/0 (api_snapshot): TMDB season 0 episode 6 标题为「運動会 DE ダンス!」，日期为 2014-03-10，时长 24 分钟，与该 Bangumi OVA 的标题、年份和内容对应。\n\n备注：AniDB 官方页面本次访问返回 403，AniDB ID 与 OVA 的对应关系由公开 ID 标题索引、AniDB 来源条目及 Bangumi 标题/制作信息交叉确认；若需官方 AniDB 页面级证据，应后续复核。",
+    "evidence": "codex: 确认对应TMDB 63576第0季第6集。单集OAD的标题、2014年发行时间、约25分钟时长、制作信息及运动会舞蹈剧情相互吻合。Bangumi本篇sort=11通过章节ID明确对应此特别篇；第0季包含其他作品，因此仅声明第6集范围。\n\nhttps://bgm.tv/subject/83731 (page): Bangumi 标为全1话的OVA，2014年3月7日发售；导演大沼心、脚本水瀬葉月、动画制作SILVER LINK.。\n\nhttps://bgm.tv/ep/360201 (page): 章节360201为第11话「運動会 DE ダンス!」，日期2014-03-07，时长24分45秒。\n\nhttps://thetvdb.com/series/fate-kaleid-liner-prisma-illya/episodes/4598509 (search_snippet): 同名OVA的剧情是伊莉雅等人为帮助藤村老师而练习舞蹈、争取运动会优胜；记录日期2014-03-07、时长25分钟，制作公司及主要制作人员与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/63576 (api_snapshot): TMDB 63576为2013年开始的《Fate/kaleid liner プリズマ☆イリヤ》，制作公司包含SILVER LINK.及TYPE-MOON，设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/63576/season/0 (api_snapshot): 已读取第0季全部23集，total_pages=1。第6集日文标题为「運動会 DE ダンス!」，日期2014-03-10、时长24分钟；英文简介明确为伊莉雅与美游为保护老师而学习舞蹈、争取运动会优胜。其余集为其他短篇或OVA。\n\n备注：Bangumi记录2014-03-07，TMDB记录2014-03-10，相差3天；日期差异的具体原因未确认，但其他身份信息一致，不影响本次对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/83731; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anilist.co/anime/18851/Fatekaleid-liner-PrismaIllyaUndoukai-DE-Dance; https://www.themoviedb.org/tv/63576; https://www.themoviedb.org/tv/63576/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/83731; https://bgm.tv/ep/360201; https://thetvdb.com/series/fate-kaleid-liner-prisma-illya/episodes/4598509; https://www.themoviedb.org/tv/63576; https://www.themoviedb.org/tv/63576/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

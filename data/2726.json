@@ -1,16 +1,146 @@
 {
   "anidbId": 4999,
   "bangumiId": 2726,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 17428,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 17429,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 17430,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 17431,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 17433,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 17434,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 17435,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 17437,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 17438,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 17439,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 22810,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 22811,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 22812,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 22814,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 22815,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 22816,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 22818,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 22819,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 22820,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 22821,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 22826,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 22827,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 22828,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 22829,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《キディ・ガーランド》TV 动画，2009-10-15 开播、共 24 集，制作人员和剧情设定与 TMDB 42418 的 TV 主体一致。独立检索资料将 Bangumi subject 2726 与 AniDB anime ID 4999 对应，且 AniDB 标题为 Kiddy Girl-and；TMDB 42418 的第 1 季为 24 集，完整标题、剧情简介和播出时间顺序均与 Bangumi 第 1—24 集对应。因此采用 TMDB 42418 第 1 季完整范围；TMDB 的第 0 季是 2007 年特别编，不属于本 Bangumi 主体。\n\nhttps://bgm.tv/subject/2726 (page): Bangumi 将该条目标为 TV，标题为 キディ・ガーランド，中文名天使特警2，共 24 集，放送开始于 2009 年 10 月 15 日，放送结束于 2010 年 3 月 25 日；页面关联条目还区分了前作 キディ・グレイド 和不同演绎 キディ・ガーランド パイロット。\n\nhttps://www.wikidata.org/wiki/Q61092910 (search_snippet): 独立条目同时列出 AniDB anime ID 4999、Bangumi subject ID 2726，并将作品标为 Kiddy Girl-and；检索摘要还显示该作品为 24 集、2009 年 TV 系列。\n\nhttps://www.themoviedb.org/tv/42418 (api_snapshot): TMDB API 快照显示 TV ID 42418 的日文标题为 キディ・ガーランド，首播日期为 2009-10-16，共 24 集；剧情简介涉及 GTO、阿斯库尔、库·菲尤和 G ソサエティ，与 Bangumi 主体一致，并列出第 0 季特别编和第 1 季 24 集。\n\nhttps://www.themoviedb.org/tv/42418/season/1 (api_snapshot): TMDB API 快照显示第 1 季为 24 集，集数 1—24 的标题从 ラッキーアイテム 至 いつまでも一緒!，与 Bangumi 提供的 24 个正篇标题逐集对应；剧情简介和日期顺序也一致。\n\n备注：TMDB 首播日期及部分集数日期比 Bangumi 日本播出日期晚一天或存在延后，属于日期口径差异；不影响作品、季号和完整 24 集范围的确认。",
+    "evidence": "codex: 确认对应TMDB 42418第1季整季。年份、TV媒介、制作公司、角色和剧情一致，24集标题逐一对应且顺序一致，支持本篇1—24映射至S01E01—E24。该范围不包含前作或2007年试作特别编。\n\nhttps://bgm.tv/subject/2726 (page): Bangumi 将本作标为2009年播出的24集TV动画，动画制作为サテライト，主角为GTO的ES成员见习生阿苏克露与柯·菲优；另行关联前作《キディ・グレイド》和《キディ・ガーランド パイロット》。\n\nhttps://www.themoviedb.org/tv/42418 (api_snapshot): 日文原名搜索命中后，实际读取TMDB 42418详情：原名一致，首播为2009-10-16，制作公司含SATELIGHT，剧情为星历0379年GTO的阿苏克露与柯·菲优的故事，主演及角色与Bangumi一致；第1季24集，另列2007年的第0季特别编。\n\nhttps://www.themoviedb.org/tv/42418/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共24集。逐集比对输入的24个本篇标题，顺序全部一致，仅有全半角、标点及上标数字差异。第1集为「ラッキーアイテム」，第24集为「いつまでも一緒!」。TMDB第1—11集日期比输入晚1天，第12—24集晚8天，未出现标题错位或增删集。\n\n备注：两站日期存在差异：第1—11集相差1天，第12—24集相差8天；具体原因未确认。集数、全部标题及顺序一致，故不影响逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2726; https://www.wikidata.org/wiki/Q61092910; https://www.themoviedb.org/tv/42418; https://www.themoviedb.org/tv/42418/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2726; https://www.themoviedb.org/tv/42418; https://www.themoviedb.org/tv/42418/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42418
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

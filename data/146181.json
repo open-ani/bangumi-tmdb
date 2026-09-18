@@ -1,15 +1,151 @@
 {
+  "anidbId": 14078,
   "bangumiId": 146181,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 741247,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 741248,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 741249,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 741250,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 741251,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 741252,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 741253,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 741254,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 741255,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 741256,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 741257,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 741258,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 741259,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 741260,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 741261,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 741262,
+      "sort": 15.5,
+      "type": 1
+    },
+    {
+      "id": 741263,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 741264,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 741265,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 741266,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 765614,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 741262,
+      "targets": [
+        {
+          "episode": 16,
+          "id": 74335,
+          "season": 2,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 74335《妖怪名单》与 Bangumi subject 的中文标题、2017-08-03 开播日期、封夕/苏九儿/郭双主线剧情、腾讯/绘梦制作背景及主要配音信息一致。TMDB 明确收录第 2 季，播出日期为 2017-08-03，共 21 集；实际季表覆盖 Bangumi 的 20 个正片集及 1 个特别篇，且日期从 2017-08-03 延续至 2017-12-28。可使用完整第 2 季。\n\nhttps://www.themoviedb.org/tv/74335 (api_snapshot): TMDB 详情确认作品为中文 TV《妖怪名单》，首播 2014-12-12，完结 2017-12-28，共 2 季 39 集；简介与 Bangumi 的封夕、苏九儿、郭双剧情一致，并列出 Haoliners Animation、Tencent Animation & Comics 等制作关联。\n\nhttps://www.themoviedb.org/tv/74335/season/2 (api_snapshot): TMDB 第 2 季实际季表为 21 集，播出日期 2017-08-03 至 2017-12-28，包含《修行开始》《灵灵》、特别篇及童养夫故事线等集。\n\nhttps://api.bgm.tv/v0/subjects/146181 (api_snapshot): Bangumi 原始 API 信息确认 subject 为 WEB 动画《妖怪名单 第二季》，2017-08-03 开播，20 个正片集、总计 21 集，导演董易、原作糖人家、动画制作绘梦，含 1 个特别篇。\n\nhttps://zh.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E5%90%8D%E5%8D%95 (search_snippet): 搜索摘要列出《妖怪名单》第二季为 2017-08-03 至 2017-12-28、导演董易、制作上海绘界文化传播有限公司、共 21 集。\n\nhttps://www.bilibili.com/bangumi/play/ep114876 (search_snippet): 搜索摘要将该作品标为 2017 年已完结、全 21 话，并显示与 Bangumi 相同的封夕、妖狐妲己、郭双剧情简介。\n\n备注：TMDB 第 2 季部分集名与 Bangumi 的本地化/简写集名不同，且特别篇在两边的编号位置不同；但总数、日期、剧情线和特别篇均能对应。；TMDB 详情接口未返回导演 crew 条目，因此导演一致性主要由 Bangumi 原始资料和外部作品资料交叉确认。",
+    "evidence": "codex: 年份、网络动画版本、制作公司、角色剧情与集数结构一致，确认对应TMDB 74335第二季整季。21个章节的播出日期逐一吻合；Bangumi单列的15.5特别篇在TMDB编为第二季第16集，因此之后本篇集号须加1。\n\nhttps://bgm.tv/subject/146181 (page): Bangumi 条目为2017年网络动画《妖怪名单 第二季》，原作糖人家、导演董易、动画制作绘梦，与待核对版本一致。\n\nhttps://www.themoviedb.org/tv/74335 (api_snapshot): TMDB 74335 为中文动画《妖怪名单》，制作公司包含绘梦与腾讯动漫，角色包括封夕、苏九儿、郭双；第二季简介与 Bangumi 一致，首播为2017-08-03，共21集。\n\nhttps://www.themoviedb.org/tv/74335/season/2 (api_snapshot): 已读取第二季完整21集表（total_pages=1）。Bangumi 本篇1—15逐集日期对应TMDB第1—15集；特别篇《你所不知道的物语》对应2017-11-23的第16集；本篇16—20逐集日期对应第17—21集，最终集日期均为2017-12-28。部分标题不同，但全体21章日期、特别篇标题及集数结构吻合。\n\nhttps://www.bilibili.com/bangumi/play/ss5857 (search_snippet): 正版播出平台将第二季标为2017年、全21话，封夕、苏九儿、郭双的剧情及主要配音与TMDB一致。\n\n备注：TMDB第8集标题存在字词差异，第14及17—21集使用不同标题；对应关系依据逐集相同的播出日期、已确认的特别篇位置及完整集数结构确定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/146181; https://www.themoviedb.org/tv/74335; https://www.themoviedb.org/tv/74335/season/2; https://api.bgm.tv/v0/subjects/146181; https://zh.wikipedia.org/wiki/%E5%A6%96%E6%80%AA%E5%90%8D%E5%8D%95; https://www.bilibili.com/bangumi/play/ep114876",
-    "verifiedAt": "2026-09-08T20:07:41.452Z"
+    "source": "https://bgm.tv/subject/146181; https://www.themoviedb.org/tv/74335; https://www.themoviedb.org/tv/74335/season/2; https://www.bilibili.com/bangumi/play/ss5857",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 74335
+    },
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 17,
+      "season": 2,
+      "start": 16,
+      "tmdbId": 74335
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

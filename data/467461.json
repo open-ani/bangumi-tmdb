@@ -1,19 +1,91 @@
 {
   "anidbId": 18290,
   "bangumiId": 467461,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1378733,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1378734,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1378735,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1378736,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1378737,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1378738,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1378739,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1378740,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1378741,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1378742,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1378743,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1378744,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2024年《胆大党》电视动画第1期。年份、剧情、原作、导演及制作公司一致；12话标题和每周播出顺序逐集吻合，日期统一相差一天可由深夜放送记日方式解释。TMDB将两期合并为第1季24集，因此须将旧映射收窄至S01E01—E12，避免覆盖另一 Bangumi subject 的第13—24集。\n\nhttps://www.themoviedb.org/tv/240411 (api_snapshot): 日文原名搜索命中 TV 240411；详情确认其为2024年电视动画，剧情为绫濑桃与高仓健遭遇外星人与幽灵，原作龙幸伸、导演山代风我、制作公司 Science SARU，均与输入一致。\n\nhttps://www.themoviedb.org/tv/240411/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集与输入12话逐集标题相符，仅第8话存在片假名写法差异、第9话存在空格差异；播出日期逐集均比 Bangumi 晚一天，为2024-10-04至2024-12-20。第13集起进入2025年7月播出的续篇，因此本 subject 仅覆盖第1—12集。\n\nhttps://anime-dandadan.com/ (page): 动画官网确认电视动画媒介、原作署名及桃与厄卡伦分别前往废弃医院和灵异隧道的剧情，并明确区分第1期与第2期。\n\nhttps://spice.eplus.jp/articles/332386 (search_snippet): 第1话播出报道注明2024年10月3日星期四深夜0时26分开播，支持 Bangumi 采用深夜节目归属日、TMDB采用跨午夜后日历日期的解释。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/467461; https://www.themoviedb.org/tv/240411; https://www.themoviedb.org/tv/240411/season/1; https://anime-dandadan.com/; https://spice.eplus.jp/articles/332386",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 240411
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 240411,
       "season": 1,
       "type": "tv"

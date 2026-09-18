@@ -1,16 +1,126 @@
 {
   "anidbId": 18388,
   "bangumiId": 345821,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1259766,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1259767,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1259768,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1259769,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1259770,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1259771,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1259772,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1259773,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1259774,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1259775,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1259776,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1259777,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1259778,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1259779,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1259780,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1259781,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1259782,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1259783,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1259784,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1259785,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 238675 第1季全20集。年份、首播日期、原作、剧情、制作公司及网络动画版本一致，完整季表未混入其他作品。结合逐集标题、前10集日期及全季集数，可确认本篇1—20集顺序一一对应；后半日期差异不改变集号对应。\n\nhttps://www.themoviedb.org/tv/238675 (api_snapshot): 原名搜索命中 TMDB 238675。详情确认首播日期为2023-11-02，改编自蝴蝶蓝小说，剧情为体育老师顾飞在网游中误选法师职业；制作公司为两点十分动漫及腾讯企鹅影视，与输入一致。\n\nhttps://www.themoviedb.org/tv/238675/season/1 (api_snapshot): 第1季完整集表共20集，仅1页。逐集比对后，第1—10集标题及日期一致；第11—20集标题顺序对应，其中第12、14、20集有文字或标点差异。后10集日期均记为2023-12-21，与 Bangumi 排期不一致。\n\nhttps://wetv.vip/zh-cn/play/vkf2noh99ys4q72-近战法师 (search_snippet): WeTV 官方播放条目标注2023年、全20集，简介中的顾飞及误选法师职业情节一致，支持这是同一部完整网络动画。\n\n备注：TMDB 第11—20集日期统一为2023-12-21，Bangumi 则为2023-12-28至2024-02-29；尚未确认日期差异原因。；TMDB 第12集标题为“月夜诚谁说了算？”、第14集为“风云再起”，Bangumi 分别为“月夜城谁说了算？”和“风云四起”；结合完整标题序列判定为同集，但标题文字存在差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/345821; https://www.themoviedb.org/tv/238675; https://www.themoviedb.org/tv/238675/season/1; https://wetv.vip/zh-cn/play/vkf2noh99ys4q72-近战法师",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 238675
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

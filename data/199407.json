@@ -1,13 +1,85 @@
 {
+  "anidbId": 13723,
   "bangumiId": 199407,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 681489,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 681490,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 681491,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 681492,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 681493,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 681494,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 681495,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 681496,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 681497,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 681498,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 681499,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 681500,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 703909,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 705388,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB 199315：同名、2016 年中国 WEB 动画，剧情均为四名女大学生的宿舍日常，制作方均指向北京鱼肚白文化传媒有限公司。Bangumi 主体为常规 12 集，TMDB 第1季实际包含 12 集；Bangumi 另有 2 个特别篇，TMDB 特别篇季实际包含 2 集，因此分别映射第1季和特别篇季。2022 年同名 TMDB 214961 是另一部作品，不应使用。\n\nhttps://www.themoviedb.org/tv/199315 (api_snapshot): TMDB API 详情确认 199315 为 2016 年《女生宿舍日常》，剧情为美术学院宿舍中四名女生的生活；包含第1季12集、特别篇2集及第2季12集。\n\nhttps://www.themoviedb.org/tv/199315/season/1 (api_snapshot): TMDB API 第1季实际集表为第1至12集，total_pages=1，无混入其他作品。\n\nhttps://www.themoviedb.org/tv/199315/season/0 (api_snapshot): TMDB API 特别篇季实际有2集，分别为番外01、番外02，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/199407 (api_snapshot): Bangumi 原始数据确认主体为2016-11-30开始的WEB动画，常规12集、总计14集，并列出2个特别篇“蜜汁相遇”“蜜汁合体”。\n\nhttps://www.bilibili.com/bangumi/media/md5741 (page): 官方播放条目显示2016年11月30日开播、全12话，简介与四名女大学生宿舍生活一致。\n\nhttps://ent.cctv.com/2016/11/29/ARTI4L2dqPZmyg6gPNbVezbx161129.shtml (page): 央视报道鱼肚白制作的《女生宿舍日常》是围绕大学宿舍四位女生的12集网络动画，并列出小斌斌、大圆、韦彤、师兄等角色。\n\nhttps://search.bilibili.com/all?keyword=%E5%8C%97%E5%A4%A7%E5%A5%B3%E7%94%9F%E5%AE%BF%E8%88%8D%E8%81%8A%E5%A4%A9 (search_snippet): 搜索摘要显示该系列在12集后还有番外1、番外2，与 Bangumi 总计14集及 TMDB 特别篇2集相符。\n\n备注：TMDB 第1季首播日期记录为2016-11-20，而 Bangumi及Bilibili记录为2016-11-30；这是日期记录差异，不影响作品身份判断。；TMDB 特别篇仅使用“番外01/番外02”这一通用标题，未能从 TMDB 独立核对其与 Bangumi 两个特别篇中文标题的一一对应关系。",
+    "evidence": "codex: 可确认本作主体对应 TMDB 199315 第1季：年份、网络动画媒介、具体角色与剧情、制作背景及12集规模一致，续季独立列出。仅提交整季归属；TMDB 缺少具体集标题且逐集日期不符，不凭集号位置生成 rules。两个特别篇暂不纳入映射。\n\nhttps://www.themoviedb.org/search/tv?query=女生宿舍日常 (api_snapshot): 原名搜索返回 199315（2016年）和 214961（2022年）两个同名候选，不能仅凭名称采用旧映射。\n\nhttps://www.themoviedb.org/tv/199315 (api_snapshot): 199315 的详情描述美术学院宿舍四名女生小斌斌、韦彤、大圆、狮兄的动画故事，与本作角色、剧情和年份相符；第1季12集，第2季另列。\n\nhttps://www.themoviedb.org/tv/199315/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。标题全部为通用集号；日期从2016-11-20至2017-02-05按周排列，与 Bangumi 逐集日期不一致，无法据此确认连续逐集规则。\n\nhttps://www.themoviedb.org/tv/199315/season/0 (api_snapshot): 第0季实际只有“番外01”“番外02”，total_pages=1；两集均无日期、简介和时长，不能独立确认对应“蜜汁相遇”“蜜汁合体”。\n\nhttps://www.bilibili.com/bangumi/media/md5741 (page): 官方播放条目标明2016年11月30日开播、全12话，支持本作主体为2016年第一季12集。\n\nhttps://ent.cctv.com/2016/11/29/ARTI4L2dqPZmyg6gPNbVezbx161129.shtml (page): 2016年11月29日报道确认北京鱼肚白制作12集网络动画，并介绍小斌斌、大圆、韦彤、师兄四名角色及王斌、率菲、周斌团队，与输入制作资料及 TMDB 剧情吻合。\n\nhttps://bgm.tv/subject/199407/ep (page): 章节页列出12集本篇及两个特别篇。本篇日期为2016-11-30至2017-02-22，第9、10集之间间隔两周；两个特别篇日期为2017-03-01和2017-03-08。\n\n备注：TMDB 本篇前9集日期比 Bangumi 早10天，后3集早17天；不能将差异简化为单一首播日期笔误，逐集顺序仍待内容证据核实。；第0季的通用番外标题不足以确认版本和逐集对应；需补充能连接 TMDB 番外条目与具体标题、日期或内容的证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/199407; https://www.themoviedb.org/tv/199315; https://www.themoviedb.org/tv/199315/season/1; https://www.themoviedb.org/tv/199315/season/0; https://api.bgm.tv/v0/subjects/199407; https://www.bilibili.com/bangumi/media/md5741; https://ent.cctv.com/2016/11/29/ARTI4L2dqPZmyg6gPNbVezbx161129.shtml; https://search.bilibili.com/all?keyword=%E5%8C%97%E5%A4%A7%E5%A5%B3%E7%94%9F%E5%AE%BF%E8%88%8D%E8%81%8A%E5%A4%A9",
-    "verifiedAt": "2026-09-08T20:38:50.201Z"
+    "source": "https://bgm.tv/subject/199407; https://www.themoviedb.org/search/tv?query=女生宿舍日常; https://www.themoviedb.org/tv/199315; https://www.themoviedb.org/tv/199315/season/1; https://www.themoviedb.org/tv/199315/season/0; https://www.bilibili.com/bangumi/media/md5741; https://ent.cctv.com/2016/11/29/ARTI4L2dqPZmyg6gPNbVezbx161129.shtml; https://bgm.tv/subject/199407/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -15,11 +87,6 @@
     {
       "id": 199315,
       "season": 1,
-      "type": "tv"
-    },
-    {
-      "id": 199315,
-      "season": 0,
       "type": "tv"
     }
   ]

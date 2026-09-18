@@ -1,16 +1,31 @@
 {
   "anidbId": 11795,
   "bangumiId": 78823,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 300530,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 78823 是 2007-01-25 发售、1 话的 OVA，主体为《渡良濑准华丽的一天》。候选 TMDB TV 44519 的第 0 季明确名为“特別編”，日期为 2007-01-25，仅含 1 集；该集标题“渡良瀬準の華麗なる一日”、片长 25 分钟，与 Bangumi 主体和 AniDB 名称对应。因此应映射为完整的 TMDB 第 0 季，而不是正篇第 1 季。\n\nhttps://bgm.tv/subject/78823 (page): Bangumi 条目标题为“はぴねす! 渡良瀬準の華麗なる一日”，日期为 2007-01-25，平台为 OVA，正片集数为 1；关联 AniDB ID 为 11795。\n\nhttps://www.themoviedb.org/tv/44519 (api_snapshot): TMDB TV 44519 为《はぴねす!》，首播日期为 2006-10-05；其季列表包含第 0 季“特別編”，日期 2007-01-25、共 1 集。\n\nhttps://www.themoviedb.org/tv/44519/season/0 (api_snapshot): TMDB 第 0 季仅有第 1 集，标题为“渡良瀬準の華麗なる一日”，日期 2007-01-25，片长 25 分钟。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 78823 是 2007-01-25 发售、1 话的 OVA，主体为《渡良濑准华丽的一天》。候选 TMDB TV 44519 的第 0 季明确名为“特別編”，日期为 2007-01-25，仅含 1 集；该集标题“渡良瀬準の華麗なる一日”、片长 25 分钟，与 Bangumi 主体和 AniDB 名称对应。因此应映射为完整的 TMDB 第 0 季，而不是正篇第 1 季。\n\nhttps://bgm.tv/subject/78823 (page): Bangumi 条目标题为“はぴねす! 渡良瀬準の華麗なる一日”，日期为 2007-01-25，平台为 OVA，正片集数为 1；关联 AniDB ID 为 11795。\n\nhttps://www.themoviedb.org/tv/44519 (api_snapshot): TMDB TV 44519 为《はぴねす!》，首播日期为 2006-10-05；其季列表包含第 0 季“特別編”，日期 2007-01-25、共 1 集。\n\nhttps://www.themoviedb.org/tv/44519/season/0 (api_snapshot): TMDB 第 0 季仅有第 1 集，标题为“渡良瀬準の華麗なる一日”，日期 2007-01-25，片长 25 分钟。\n\n脚本按声明范围生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/78823; https://www.themoviedb.org/tv/44519; https://www.themoviedb.org/tv/44519/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 44519
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

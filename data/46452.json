@@ -1,16 +1,103 @@
 {
   "anidbId": 9358,
   "bangumiId": 46452,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 212160,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 212161,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 212162,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 212163,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 212164,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 212165,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 212166,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 212167,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 212168,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 212169,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 212170,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 212171,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 331487,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 331487,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 50087,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2013 年 1 月 7 日开播的 AMNESIA TV，主体有 12 个常规集，并另列 SP/第 XIII 集。TMDB ID 50087 的第 1 季同日开播、共 12 集，集名 I–XII 与日期逐集对应；因此第 1 季应完整纳入。Bangumi 的特别篇日期为 2013-09-25，TMDB 同一 TV 条目明确列出 season 0、1 集、同日播出，故主体内的 XIII 特别篇对应 season 0，也纳入。AniDB 9358 与 AMNESIA 标题一致，且制作方、导演、年份和剧情信息均与 Bangumi 条目吻合。\n\nhttps://bgm.tv/subject/46452 (page): Bangumi 将该条目标为 AMNESIA TV《失忆症》，话数 13，开播 2013-01-07，制作公司 Brain's Base；章节包含 01–12、SP 和 13。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=103263 (search_snippet): 公开 AniDB 链接将 AMNESIA 对应到 AniDB anime/9358，支持输入中的 AniDB ID 关联。\n\nhttps://www.themoviedb.org/tv/50087 (api_snapshot): TMDB API 快照显示 ID 50087 为 AMNESIA，首播 2013-01-07，共 12 集；season 1 为 12 集、同日开播，season 0 为 1 集、日期 2013-09-25。\n\nhttps://www.themoviedb.org/tv/50087/season/1 (api_snapshot): TMDB season 1 快照列出完整 I–XII，日期从 2013-01-07 到 2013-03-25，剧情与 Bangumi 条目的失忆症、多重世界及主要角色设定逐集吻合。\n\nhttps://www.anime-amnesia.com/contents/hp0004/list00000000.html (page): 官方 AMNESIA 网站列出 I–XII 的正篇故事；官方站点与 Bangumi 的原作、导演及制作信息一致。\n\nhttps://thetvdb.com/series/amnesia-2013/episodes/4638371 (search_snippet): 独立资料将 2013-09-25 的 XIII 标为 TV 动画全卷购买特典 DVD 收录的 OVA；此处仅用于确认特别篇身份，TMDB 的 season 0 编号和归属取自 TMDB 快照。",
+    "evidence": "codex: 已确认对应 TMDB 50087 的 2013 年动画版，年份、媒介、剧情、制作公司和角色声优一致。12 集正篇的标题及放送日期逐集吻合，完整对应第 1 季；特别篇 XIII 的日期及 OVA 身份与第 0 季第 1 集一致，以章节 ID 单独映射。\n\nhttps://bgm.tv/subject/46452 (page): Bangumi 将本作标为 2013 年 TV 动画，1 月 7 日开播、3 月 25 日结束，由 Otomate 游戏改编，大橋誉志光执导、Brain's Base 制作；剧情为失忆女主在精灵帮助下寻找记忆，章节包含 12 集正篇及 XIII 特别篇。\n\nhttps://www.themoviedb.org/tv/50087 (api_snapshot): TMDB 50087 为日本动画 AMNESIA，首播日期、失忆女主与 Orion 的剧情、Brain's Base 等制作公司及主要角色声优均与 Bangumi 一致；列有第 1 季 12 集及第 0 季 1 集。\n\nhttps://www.themoviedb.org/tv/50087/season/1 (api_snapshot): 第 1 季完整集表共 12 集、仅一页。第 1—12 集标题 I—XII，与输入的罗马数字标题逐一一致；日期依次为 2013-01-07、01-14、01-21、01-28、02-04、02-11、02-18、02-25、03-04、03-11、03-18、03-25，全部与 Bangumi 对应章节一致。\n\nhttps://www.anime-amnesia.com/contents/hp0004/list00000000.html (page): 动画官方网站的正篇故事目录列出 I—XII，支持 TV 正篇为 12 集的范围。\n\nhttps://www.themoviedb.org/tv/50087/season/0 (api_snapshot): 第 0 季完整集表仅一页、只有第 1 集，标题为 OVA，日期为 2013-09-25，时长 26 分钟，简介明确为本作第 1 季的动画番外。\n\nhttps://thetvdb.com/series/amnesia-2013/episodes/4638371 (search_snippet): TVDB 的 XIII 条目说明其为 TV 动画全卷购买特典 DVD 收录的 OVA，日期为 2013-09-25；支持 Bangumi XIII 与 TMDB 同日番外的身份对应，季集编号仍以实际读取的 TMDB 集表为准。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/46452; https://www.animecharactersdatabase.com/linktodbs.php?id=103263; https://www.themoviedb.org/tv/50087; https://www.themoviedb.org/tv/50087/season/1; https://www.anime-amnesia.com/contents/hp0004/list00000000.html; https://thetvdb.com/series/amnesia-2013/episodes/4638371",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/46452; https://www.themoviedb.org/tv/50087; https://www.themoviedb.org/tv/50087/season/1; https://www.anime-amnesia.com/contents/hp0004/list00000000.html; https://www.themoviedb.org/tv/50087/season/0; https://thetvdb.com/series/amnesia-2013/episodes/4638371",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 50087
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 50087,
       "season": 0,
       "type": "tv"

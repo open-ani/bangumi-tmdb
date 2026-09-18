@@ -1,21 +1,195 @@
 {
   "anidbId": 7219,
   "bangumiId": 4281,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 31603,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 31604,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 31605,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 31606,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 31607,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 31608,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 31609,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 31610,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 31611,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 31612,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 31613,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 31614,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1104159,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1104160,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1104161,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1104162,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 1104163,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 1104164,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1104159,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 37584,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1104160,
+      "targets": [
+        {
+          "episode": 14,
+          "id": 37584,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1104161,
+      "targets": [
+        {
+          "episode": 15,
+          "id": 37584,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1104162,
+      "targets": [
+        {
+          "episode": 16,
+          "id": 37584,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1104163,
+      "targets": [
+        {
+          "episode": 17,
+          "id": 37584,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1104164,
+      "targets": [
+        {
+          "episode": 18,
+          "id": 37584,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 TV《一騎当千 XTREME XECUTOR》，2010-03-26 开播、共 12 话；其正篇标题与 TMDB 37584 第 4 季逐集一致，且季名为 XTREME XECUTOR、首播日期相同、共 12 集。Bangumi 另列出的 6 集「ユメ六景」是 OVA 特别篇，不属于本 subject 的 12 集 TV 正篇，因此不纳入范围。\n\nhttps://bgm.tv/subject/4281 (page): Bangumi 将条目标为 TV，标题为一騎当千 XTREME XECUTOR，话数 12，放送开始 2010 年 3 月 26 日；章节中另行列出 6 集 OVA 特别篇。\n\nhttps://www.themoviedb.org/tv/37584 (api_snapshot): TMDB TV 主条目为一騎当千，包含名为 XTREME XECUTOR 的第 4 季，季集数为 12。\n\nhttps://www.themoviedb.org/tv/37584/season/4 (api_snapshot): TMDB 第 4 季名称为 XTREME XECUTOR，首播日期为 2010-03-26，共 12 集；第 1 至第 12 集标题分别与 Bangumi 正篇章节（濡れる闘士、集う仲間、鍛える獅子、招く悪魔、魂の絆、群がる牙、沈黙の涙、再会は拳、怒る愛、裂かれた闇、燃える城、未来無限）对应。\n\n备注：AniDB 7219 页面本次访问返回 403，未能从 AniDB 页面直接读取关联；但 Bangumi 条目、日期、制作信息、正篇标题和 TMDB 第 4 季逐集数据均已独立吻合。",
+    "evidence": "codex: 年份、剧情、制作资料、媒介及12话正篇的逐集标题均吻合，确认对应TMDB 37584第四季。旧映射遗漏了本subject列出的六篇「ユメ六景」特典；这些已通过标题逐集核实为第零季第13至18集，使用章节ID单独映射，且不与已知其他subject范围重叠。\n\nhttps://www.at-x.com/program/detail/2548 (page): AT-X 官方资料确认这是2010年的系列第四部，包含12话正篇及6话影碟特典迷你动画；剧情为赤壁之战后马超登场，导演为大畑晃一、制作为TNK，与待核对版本一致。\n\nhttps://www.themoviedb.org/tv/37584 (api_snapshot): TMDB 37584 的详情将 XTREME XECUTOR 列为第四季，2010-03-26开播、共12集；季简介中的马超、赤壁之战后续剧情与官方资料一致。\n\nhttps://www.themoviedb.org/tv/37584/season/4 (api_snapshot): 第四季完整集表共12集、仅1页。第1至12集日文标题与输入的Bangumi本篇逐集一致，播出日期为2010-03-26至2010-06-11，每周一集，首尾日期与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/37584/season/0 (api_snapshot): 第零季完整集表共23集、仅1页，其中第13至18集逐一对应「ユメ六景」六篇标题，日期为2010-06-25、07-23、08-25、09-22、10-22、11-25。首篇的「頭主」与Bangumi的「頭首」存在用字差异，其余标题内容一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4281; https://www.themoviedb.org/tv/37584; https://www.themoviedb.org/tv/37584/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/4281; https://www.at-x.com/program/detail/2548; https://www.themoviedb.org/tv/37584; https://www.themoviedb.org/tv/37584/season/4; https://www.themoviedb.org/tv/37584/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 37584
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 37584,
       "season": 4,
+      "type": "tv"
+    },
+    {
+      "episode": 13,
+      "episodeEnd": 18,
+      "id": 37584,
+      "season": 0,
       "type": "tv"
     }
   ]

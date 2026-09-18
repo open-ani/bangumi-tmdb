@@ -1,16 +1,54 @@
 {
   "anidbId": 15899,
   "bangumiId": 324249,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 999609,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 999610,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 999786,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 999787,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2021 年的 OVA《Fate/Grand Carnival》，共 4 话，1st Season 对应第 1–2 话，2nd Season 对应第 3–4 话。TMDB 的正确条目是 Fate/Grand Carnival（ID 132848），而候选 43295 实际是 2011 年的《カーニバル・ファンタズム》，应排除。TMDB 页面显示第 1 季和第 2 季各 2 集，首播日期分别为 2021-06-02 和 2021-10-13；官方资料的季标题与 Bangumi 四话标题、日期一致。\n\nhttps://bgm.tv/subject/324249 (page): Bangumi 将该条目标为 OVA，共 4 话，发售日为 2021-06-02；章节 01–02 属于 1st Season，章节 03–04 属于 2nd Season，后两话日期为 2021-10-13。\n\nhttps://www.themoviedb.org/tv/132848-fate-grand-carnival/seasons?language=pt-BR (search_snippet): TMDB 的 Fate/Grand Carnival 条目 ID 为 132848；Season 1 于 2021-06-02 首播且有 2 集，Season 2 于 2021-10-13 首播且有 2 集。\n\nhttps://anime.fate-go.us/fgc/blu-ray/ (search_snippet): 官方资料明确列出 Season 1 的两集为 First/Second Singularity Party，Season 2 的两集为 Third/Fourth Singularity Party，覆盖该 Bangumi 条目的四个主体章节。\n\nhttps://www.themoviedb.org/tv/43295/season/0 (api_snapshot): 输入提供的 TMDB API 快照显示候选 ID 43295 的名称是《カーニバル・ファンタズム》，首播年份为 2011，Season 0 为其特别篇，和 2021 年的 Fate/Grand Carnival 不是同一作品。",
+    "evidence": "codex: 确认对应TMDB 132848：年份、OVA媒介、制作人员、角色剧情及四话标题一致。实际季表与官方收录说明共同确认Bangumi第1—2话对应S01E01—E02，第3—4话对应S02E01—E02。第1话日期差异源于先行播出与影碟发行口径。旧映射范围正确，可补充两条连续逐集规则。\n\nhttps://www.themoviedb.org/tv/132848 (api_snapshot): TMDB 132848 为2021年OVA《Fate/Grand Carnival》，共两季四集；导演岸诚二、制作公司Lerche及主要角色均与输入及官网一致。\n\nhttps://www.themoviedb.org/tv/132848/season/1 (api_snapshot): 第1季实际仅两集，依次为英灵极限祭典奥林匹亚、夜之特异点歌舞伎町，日期均为2021-06-02；标题及剧情对应Bangumi第1、2话。季表共一页。\n\nhttps://www.themoviedb.org/tv/132848/season/2 (api_snapshot): 第2季实际仅两集，依次为英灵差距纪录片、羁绊MAX频道，日期均为2021-10-13；标题及剧情对应Bangumi第3、4话。季表共一页。\n\nhttps://anime.fate-go.jp/fgc/ (page): 日本官网确认本作为OVA，原作TYPE-MOON、导演岸诚二、动画制作Lerche，并列出与输入四话一致的标题与剧情。\n\nhttps://anime.fate-go.us/fgc/blu-ray/ (page): 美国官方发行页明确全集共四话，第一季收录第一、第二特异宴，第二季收录第三、第四特异宴，与TMDB两季划分一致。\n\nhttps://times.abema.tv/articles/-/10031574 (search_snippet): 资料说明第1话曾在2020年末特别节目先行播出，之后全四话于2021年6月和10月分两卷发行，可解释Bangumi第1话与TMDB日期差异。\n\nhttps://www.aniplex.co.jp/lineup/fgc/news/detail/?id=58257 (search_snippet): 发行方公告确认第二季延期至2021-10-13发行，与TMDB季表及Bangumi第3、4话日期一致。\n\nhttps://www.themoviedb.org/tv/43295 (api_snapshot): 冲突线索43295实际为2011年《嘉年华幻梦》，改编自《TAKE MOON》，TVDB编号为251047；它不是本次2021年FGO题材OVA的独立条目。\n\n备注：TMDB作品简介仍写第二季8月25日发行，与官方延期公告及其自身季表不符；本次采用官方确认且季表一致的2021-10-13，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/324249; https://www.themoviedb.org/tv/132848-fate-grand-carnival/seasons?language=pt-BR; https://anime.fate-go.us/fgc/blu-ray/; https://www.themoviedb.org/tv/43295/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/324249; https://www.themoviedb.org/tv/132848; https://www.themoviedb.org/tv/132848/season/1; https://www.themoviedb.org/tv/132848/season/2; https://anime.fate-go.jp/fgc/; https://anime.fate-go.us/fgc/blu-ray/; https://times.abema.tv/articles/-/10031574; https://www.aniplex.co.jp/lineup/fgc/news/detail/?id=58257; https://www.themoviedb.org/tv/43295",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132848
+    },
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 3,
+      "tmdbId": 132848
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

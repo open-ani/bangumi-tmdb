@@ -1,16 +1,86 @@
 {
   "anidbId": 14229,
   "bangumiId": 254716,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850192,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850193,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850194,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850195,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850196,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850197,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850198,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850199,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850200,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850201,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850202,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850203,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 83104第1季全12集。年份、TV媒介、导演、剧情和集数一致，全部逐集标题同序吻合，可建立第1—12集连续一对一映射。末三集日期差异经外部资料交叉核对，不影响集身份及顺序确认。\n\nhttps://www.themoviedb.org/tv/83104 (api_snapshot): 日文原名搜索命中 TV 83104；详情确认其为2019年作品，导演山本秀世，剧情与输入一致，共1季12集，符合本次TV动画版本。\n\nhttps://www.themoviedb.org/tv/83104/season/1 (api_snapshot): 已读取第1季完整集表，共12集、1页。12集日文标题均与Bangumi同序完全一致；第1—9集日期一致，第10—12集日期存在差异。该季完整覆盖subject的12集本篇。\n\nhttps://magical-five.jp/news/ (search_snippet): 官方新闻明确第10话于2019年3月15日播出，并列出其标题，与Bangumi一致。\n\nhttps://www.tvmaze.com/shows/39955/magical-girl-spec-ops-asuka (search_snippet): TVmaze列出第10、11、12集分别于2019年3月15日、22日、29日播出，与Bangumi一致。\n\nhttps://thetv.jp/program/0000945404/12/ (search_snippet): 第12话节目资料确认标题及2019年3月29日TBS播出日期，支持Bangumi末集记录。\n\n备注：TMDB第10、11、12集日期分别记为2019-03-14、2019-03-21、2019-03-21，与Bangumi及外部播出资料不符；日期差异原因未确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/254716; https://www.themoviedb.org/tv/83104; https://www.themoviedb.org/tv/83104/season/1; https://magical-five.jp/news/; https://www.tvmaze.com/shows/39955/magical-girl-spec-ops-asuka; https://thetv.jp/program/0000945404/12/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83104
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

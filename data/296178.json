@@ -1,13 +1,64 @@
 {
   "bangumiId": 296178,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 921850,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 921851,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 921852,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 921853,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 921854,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 921855,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 921856,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 921857,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 921858,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 921859,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2019 年 Netflix WEB 动画《Carmen Sandiego》的第二季：TMDB 条目同名、首播日期为 2019-01-18，剧情均为卡门周游世界、阻止 V.I.L.E.；TMDB 明确列出 Season 2 于 2019-10-01 首播且有 10 集。实际季表覆盖第 1 至第 10 集，正好对应 Bangumi 的 10 集，因此使用完整第 2 季。WildBrain 官方资料确认这是 2-D animation，由 Houghton Mifflin Harcourt 与 WildBrain 为 Netflix 制作，Duane Capizzi 任联合执行制片人与 showrunner、CJ Kettler 任执行制片人；不是 1994 年旧版《Where on Earth Is Carmen Sandiego?》、游戏节目、OVA 或电影。\n\nhttps://api.bgm.tv/v0/subjects/296178 (api_snapshot): Bangumi 原始 API 信息：标题为 Carmen Sandiego Season 2／大神偷卡门 第二季，日期 2019-10-01，平台 WEB，eps 与 total_episodes 均为 10，简介为卡门周游世界并阻止 V.I.L.E.。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB TV 74728：原名 Carmen Sandiego，首播 2019-01-18，剧情与 Bangumi 简介一致；共 4 季，Season 2 日期 2019-10-01、episode_count=10，并列出 Gina Rodriguez、Finn Wolfhard 等配音演员及 HMH Productions、WildBrain/DHX Media 制作公司。\n\nhttps://www.themoviedb.org/tv/74728/season/2 (api_snapshot): TMDB Season 2 实际季表共 10 集，episode_number 从 1 到 10，全部日期为 2019-10-01；内容为连续的 Carmen Sandiego 剧情集，未混入其他作品。\n\nhttps://www.wildbrain.com/shows/carmen-sandiego (page): WildBrain 官方资料确认该系列为 2-D Animation，为 Netflix 制作；Duane Capizzi 任 co-executive producer/showrunner，CJ Kettler 任 executive producer，制作方为 Houghton Mifflin Harcourt 与 WildBrain。",
+    "evidence": "codex: 可确认对应 2019 年 Netflix 动画《Carmen Sandiego》的 TMDB 74728 第 2 季整季。原名、剧情、版本、媒介、制作阵容以及第二季首播日期和 10 集范围相互吻合。Bangumi 提供的各章节均无标题和日期，无法进行逐集内容比对，因此只确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): 以英文原名 Carmen Sandiego 搜索，找到 2019 年动画 TV 74728；搜索结果另列 1994 年动画及多个游戏节目，年份、标题与本条目不同。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): 作品详情确认首播于 2019-01-18，剧情为卡门周游世界并挫败 V.I.L.E.；制作公司包括 HMH Productions、DHX Media、WildBrain Studios，主演配音为 Gina Rodriguez、Finn Wolfhard。第二季标注 2019-10-01、10 集，与输入的年份、季别、日期及集数一致。\n\nhttps://www.themoviedb.org/tv/74728/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 10 集，编号连续为 1—10，日期全部为 2019-10-01；从里约宝石事件上下篇至返回 V.I.L.E. 岛调查身世，均属同一季剧情，未见其他作品混入。\n\nhttps://www.wildbrain.com/shows/carmen-sandiego (page): WildBrain 官方确认本作是为 Netflix 制作的二维动画，由 Houghton Mifflin Harcourt 与 WildBrain 制作，Duane Capizzi 担任联合执行制片人及 showrunner，CJ Kettler 担任执行制片人，配音阵容与 TMDB 一致。\n\n备注：Bangumi 页面及 API 本次访问失败；Bangumi 侧依据用户提供的快照。逐集映射需补充章节标题或放送日期后核对，不能仅按 sort 位置填充。；seed 的 IMDb tt8772828 与 TMDB 作品详情中的 tt7042146 不同，未采用 seed 作为匹配依据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/296178; https://api.bgm.tv/v0/subjects/296178; https://www.themoviedb.org/tv/74728; https://www.themoviedb.org/tv/74728/season/2; https://www.wildbrain.com/shows/carmen-sandiego",
-    "verifiedAt": "2026-09-08T21:51:16.622Z"
+    "source": "https://bgm.tv/subject/296178; https://www.themoviedb.org/tv/74728; https://www.themoviedb.org/tv/74728/season/2; https://www.wildbrain.com/shows/carmen-sandiego",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

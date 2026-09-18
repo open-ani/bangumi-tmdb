@@ -1,20 +1,36 @@
 {
   "anidbId": 6753,
   "bangumiId": 110589,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 912645,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912645,
+      "targets": [
+        {
+          "id": 77968,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2003年蔡明钦执导的95分钟动画电影，导演、配音角色、剧情和媒介均吻合。输入的2013年份应为误记；中影资料及实际读取的 Bangumi 页面均支持2003年。将唯一正篇章节对应至 TMDB 电影77968，替换详情接口返回404的旧ID。\n\nhttps://www.themoviedb.org/movie/77968 (api_snapshot): TMDB 电影 77968 为《蝴蝶夢：梁山伯與祝英台》，上映日期为2003-12-31，片长95分钟；导演为 Ming Chin Tsai，萧亚轩、刘若英、吴宗宪分别饰梁山伯、祝英台、马文才，与待核对作品一致。\n\nhttps://license.movie.com.tw/movie/detail?id=184 (page): 中影版权资料确认本片是2003年制作的95分钟动画电影，导演蔡明钦，主要演员为吴宗宪、萧亚轩、刘若英；女扮男装求学、同窗相恋及化蝶的剧情与 Bangumi 相符。\n\nhttps://bgm.tv/subject/110589 (page): 实际读取的 Bangumi 页面标注剧场版、1话、上映年度2003、片长95分钟、导演蔡明钦及英文别名 The Butterfly Lovers：Leon and Jo，与输入快照的2013年份不同。\n\nhttps://www.themoviedb.org/movie/272445 (api_snapshot): 实际调用旧映射电影272445的详情接口返回 HTTP 404，无法继续采用该旧ID。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110589; https://www.themoviedb.org/movie/77968; https://license.movie.com.tw/movie/detail?id=184; https://www.themoviedb.org/movie/272445",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 272445,
+      "id": 77968,
       "type": "movie"
     }
   ]

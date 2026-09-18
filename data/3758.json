@@ -1,16 +1,106 @@
 {
   "anidbId": 270,
   "bangumiId": 3758,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 27307,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 27308,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 27309,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 27310,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 27311,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 27312,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 27313,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 27314,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 27315,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 27316,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 27317,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 27318,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 27319,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1174086,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1174087,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1174088,
+      "sort": 3,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 3758 是 2001 年播出的《The Soul Taker 〜魂狩〜》TV 动画，主体正篇为 13 集；附加的 3 个 Omake 特别篇属于《小麦》相关内容，不应并入主体。TMDB 8654 的标题、首播日期、剧情和 13 集规模一致；第 1 季的 1–13 集标题与 Bangumi 正篇逐条对应，因此采用完整第 1 季。\n\nhttps://www.themoviedb.org/tv/8654 (api_snapshot): TMDB API 快照显示 ID 8654 的作品标题为《The Soul Taker 〜魂狩〜》，首播日为 2001-04-04，共 13 集，剧情简介与魂狩主体一致。\n\nhttps://www.themovied.org/tv/8654/season/1 (api_snapshot): TMDB API 快照显示第 1 季明确包含 13 集；集 1–13 标题与 Bangumi 正篇逐条对应，日期序列基本一致。\n\n备注：TMDB 第 5 集日期为 2001-05-05，而 Bangumi 标为 2001-05-02，存在单集日期数据差异；该差异不影响完整 13 集季的版本匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 3758 是 2001 年播出的《The Soul Taker 〜魂狩〜》TV 动画，主体正篇为 13 集；附加的 3 个 Omake 特别篇属于《小麦》相关内容，不应并入主体。TMDB 8654 的标题、首播日期、剧情和 13 集规模一致；第 1 季的 1–13 集标题与 Bangumi 正篇逐条对应，因此采用完整第 1 季。\n\nhttps://www.themoviedb.org/tv/8654 (api_snapshot): TMDB API 快照显示 ID 8654 的作品标题为《The Soul Taker 〜魂狩〜》，首播日为 2001-04-04，共 13 集，剧情简介与魂狩主体一致。\n\nhttps://www.themovied.org/tv/8654/season/1 (api_snapshot): TMDB API 快照显示第 1 季明确包含 13 集；集 1–13 标题与 Bangumi 正篇逐条对应，日期序列基本一致。\n\n备注：TMDB 第 5 集日期为 2001-05-05，而 Bangumi 标为 2001-05-02，存在单集日期数据差异；该差异不影响完整 13 集季的版本匹配。\n\n脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，两边日期均按集序递增，13 对日期中 12 对在 ±1 天内，其余相差不超过 7 天。",
     "method": "codex",
     "source": "https://bgm.tv/subject/3758; https://www.themoviedb.org/tv/8654; https://www.themovied.org/tv/8654/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 8654
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

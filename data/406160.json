@@ -1,15 +1,119 @@
 {
+  "anidbId": 17684,
   "bangumiId": 406160,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1229441,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1229878,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1229879,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1229880,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1229881,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1229882,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1229883,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1229884,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1229885,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1229886,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1230163,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1230164,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1261898,
+      "sort": 13,
+      "type": 1
+    },
+    {
+      "id": 1261899,
+      "sort": 14,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1261898,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 221165,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1261899,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 221165,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 221165 与 Bangumi 条目的日文原名、2023-07-07首播日期、剧情、原作荒川弘及制作公司 Pie in the sky 均一致。TMDB 第1季实际把多个分割季度连续编号；本 subject 对应最初的12集，因此限定为 S1 E1–E12。Bangumi 的总集数另含两集特别篇「漫画家・荒川」前后篇，TMDB 将其列为 S0 E1–E2，标题和日期均匹配。TMDB S1 E13以后属于后续季度，未纳入。\n\nhttps://www.themoviedb.org/tv/221165 (api_snapshot): TMDB 详情确认作品名为「百姓貴族」、原名相同、首播日期为2023-07-07，剧情与农业漫画家荒川弘经历一致；作品为TV，包含36集及特别篇季。\n\nhttps://www.themoviedb.org/tv/221165/season/1 (api_snapshot): TMDB S1 集表显示 E1–E12 为2023-07-07至2023-09-22播出的「牛乳」至「火星開拓農民 荒川」，对应 Bangumi 的12集主体；E13起为后续季度内容。\n\nhttps://www.themoviedb.org/tv/221165/season/0 (api_snapshot): TMDB S0 E1–E2 为2023-12-20播出的「漫画家・荒川（前編／後編）」，与 Bangumi 的两集特别篇对应。\n\nhttps://api.bgm.tv/v0/subjects/406160 (api_snapshot): Bangumi 原始API确认该条目为2023-07-07开播TV动画，regular episodes为12集，另有「漫画家・荒川」前后篇特别集；导演、脚本为澤田裕太郎，人物设定/作画监督为まつもとあやね。\n\nhttps://s.mxtv.jp/anime/hyakusho_kizoku1/staff_cast.html (page): TOKYO MX 官方资料确认首期作品的原作、导演/脚本/演出、角色设计、动画制作 Pie in the sky 等制作信息。\n\nhttps://s.mxtv.jp/anime/hyakusho_kizoku1/dvd.html (page): TOKYO MX 官方资料明确称2023年动画为全12话。",
+    "evidence": "codex: 确认对应 TMDB 221165 的2023年首期电视动画及附属DVD特别篇。12集本篇的标题和日期逐集一致，对应 S1E1—E12；两集SP的标题、发行日期及官方收录说明一致，对应 S0E1—E2。TMDB 第1季合并了后续季度，故仅声明已核实区间，与其他 subject 的已占用范围不重叠。\n\nhttps://www.themoviedb.org/tv/221165 (api_snapshot): 以日文原名搜索并读取详情，确认 TMDB 221165 为2023年7月7日首播的电视动画；北海道农家出身的漫画家荒川弘这一剧情、制作公司 Pie in the sky 及主要声优均与本作一致。\n\nhttps://www.themoviedb.org/tv/221165/season/1 (api_snapshot): 第1季共36集，集表仅1页。E1—E12的日文标题及播出日期与输入的12集本篇逐一一致，日期为2023年7月7日至9月22日；E13简介明确属于第二期，因此不能映射整季。\n\nhttps://www.themoviedb.org/tv/221165/season/0 (api_snapshot): 第0季共6集，集表仅1页。E1、E2分别为「漫画家・荒川（前編）」和「漫画家・荒川（後編）」，日期均为2023年12月20日，与输入两集SP逐一对应。\n\nhttps://s.mxtv.jp/anime/hyakusho_kizoku1/staff_cast.html (page): 首期官网确认原作为荒川弘，导演、脚本及演出为澤田裕太郎，角色设计及作画监督为まつもとあやね，动画制作为 Pie in the sky，与输入制作信息吻合。\n\nhttps://s.mxtv.jp/anime/hyakusho_kizoku1/dvd.html (page): 官网明确DVD收录电视播出的全12话及未放送2话「漫画家・荒川」前后篇，发行日期为2023年12月20日，确认本篇与DVD特别篇的版本和数量。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/406160; https://www.themoviedb.org/tv/221165; https://www.themoviedb.org/tv/221165/season/1; https://www.themoviedb.org/tv/221165/season/0; https://api.bgm.tv/v0/subjects/406160; https://s.mxtv.jp/anime/hyakusho_kizoku1/staff_cast.html; https://s.mxtv.jp/anime/hyakusho_kizoku1/dvd.html",
-    "verifiedAt": "2026-09-08T23:38:46.767Z"
+    "source": "https://bgm.tv/subject/406160; https://www.themoviedb.org/tv/221165; https://www.themoviedb.org/tv/221165/season/1; https://www.themoviedb.org/tv/221165/season/0; https://s.mxtv.jp/anime/hyakusho_kizoku1/staff_cast.html; https://s.mxtv.jp/anime/hyakusho_kizoku1/dvd.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 221165
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

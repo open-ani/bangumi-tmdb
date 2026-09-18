@@ -1,16 +1,86 @@
 {
   "anidbId": 18074,
   "bangumiId": 442176,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1308628,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1308629,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1308630,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1308631,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1308632,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1308633,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1308634,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1308635,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1308636,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1308637,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1308638,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1308639,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2024年春季12集TV动画，标题、简介、角色、制作人员与 TMDB TV 229108 一致。Anime-Lists 将 AniDB 18074 关联到 TMDB 229108 第1季；Wikidata 也交叉列出 Bangumi 442176 与 AniDB 18074。TMDB 第1季明确为12集，集标题从「追放」至「元英雄は好き勝手に生きる」与 Bangumi 12集逐集对应，因此采用完整第1季。Bangumi记载4月1日开播，而官方说明东京电视台为4月1日深夜26时，TMDB记为4月2日，属于跨午夜日期表示差异。\n\nhttps://bgm.tv/subject/442176 (page): Bangumi 条目标为TV，话数12，放送开始2024年4月1日；标题、简介、导演古賀一臣、人物设定細田沙織、动画制作Studio Deen×Marvy Jack等信息与候选作品一致。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"18074\"、tmdbtv=\"229108\"、tmdbseason=\"1\"，并使用该作品的完整罗马字标题。\n\nhttps://www.wikidata.org/wiki/Q119791199 (search_snippet): 搜索摘要同时列出 AniDB anime ID 18074 与 Bangumi subject ID 442176，并列出1季、12集及2024年作品信息，交叉支持 Bangumi→AniDB 关联。\n\nhttps://www.themoviedb.org/tv/229108 (api_snapshot): TMDB TV 229108 的日文原题与 Bangumi 完全一致，首播年份为2024年，number_of_episodes为12，且仅列有第1季共12集；简介中的原英雄、被公爵家流放、开始旅行等情节相符。\n\nhttps://www.themoviedb.org/tv/229108/season/1 (api_snapshot): TMDB 第1季明确为season_number 1、episodeCount 12；12个集标题依次对应 Bangumi 的「追放」「聖剣の鍛冶師」……「元英雄は好き勝手に生きる」，没有显示电影、OVA、总集篇或其他主体混入。\n\nhttps://dekisoko-anime.com/ (page): 官方站确认这是TV动画，并记载东京电视台自2024年4月1日每周一深夜26:00播出；该时间按日期实际跨至4月2日，解释了TMDB首播日期比Bangumi晚一天。",
+    "evidence": "codex: 确认对应TMDB 229108第1季整季。年份、TV媒介、剧情、导演及制作公司吻合，12集标题与官方集表逐一对应，支持本篇1—12集连续一对一映射。日期差异涉及跨午夜和提前配信，不能像旧证据那样全部归因于跨午夜。\n\nhttps://www.themoviedb.org/tv/229108 (api_snapshot): TMDB 229108 为2024年日本TV动画，日文原名、阿伦被公爵家流放及遭遇前未婚妻暗杀事件的剧情一致；导演古賀一臣、制作公司Studio Deen和Marvy Jack均吻合。作品共1季、12集。\n\nhttps://www.themoviedb.org/tv/229108/season/1 (api_snapshot): 第1季集表共12集，total_pages=1。第1至12集日文标题与输入的Bangumi章节逐一完全一致，顺序相同，无额外作品混入。日期逐集比较：第1、2集比Bangumi晚1天，第3至12集比Bangumi早6天。\n\nhttps://dekisoko-anime.com/ (page): 官网确认2024年TV动画、导演古賀一臣，并列出与Bangumi及TMDB一致的全部12集标题和剧情。电视台自4月1日起每周一26时播出；U-NEXT等平台实行地上波提前一周配信，支持跨午夜及提前配信造成的日期差异。\n\n备注：TMDB第1、2集日期符合电视播出的实际公历日期，第3—12集则符合提前一周配信日期，疑似混用日期口径；API未注明逐集日期来源，但不影响已由标题、剧情和集数确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/442176; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.wikidata.org/wiki/Q119791199; https://www.themoviedb.org/tv/229108; https://www.themoviedb.org/tv/229108/season/1; https://dekisoko-anime.com/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/442176; https://www.themoviedb.org/tv/229108; https://www.themoviedb.org/tv/229108/season/1; https://dekisoko-anime.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229108
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

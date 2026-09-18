@@ -1,19 +1,151 @@
 {
   "anidbId": 17065,
   "bangumiId": 363102,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1221720,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1221721,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1221722,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1221723,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1221724,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1221725,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1221726,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1221727,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1221728,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1221729,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1221730,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1221731,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1230083,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1230084,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1230085,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1230086,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1230087,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1230088,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1230089,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1230090,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1230091,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1230092,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1230093,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1230094,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2023年新版电视动画 TMDB 210879 第1季第1—24集。制作信息、剧情及全部24集标题和排期一致。TMDB 将后续《京都动乱》也编入第1季，故旧映射须收窄为已核实的1—24集，不能使用整季范围。\n\nhttps://www.themoviedb.org/tv/210879 (api_snapshot): TMDB 210879 为2023年开播的新版电视动画；剧情、LIDENFILMS 制作公司及斉藤壮馬、高橋李依等主演与本作吻合。\n\nhttps://rurouni-kenshin.com/1st/staffcast/ (page): 第一期官网列出导演山本秀世、系列构成及脚本倉田英之、人物设计西位輝実和内田陽子、制作 LIDENFILMS，与输入制作信息一致。\n\nhttps://www.themoviedb.org/tv/210879/season/1 (api_snapshot): 已读取第1季完整47集表，total_pages=1。第1—24集的日文标题逐集与输入完全一致，日期逐集均比 Bangumi 晚一天，范围为2023-07-07至2023-12-15。第25集为2024-10-04播出的《京都へ》，属于续篇范围，因此本 subject 仅覆盖第1—24集。\n\nhttps://reol.jp/news/detail/192 (search_snippet): Reol 官方公告明确第一话于2023年7月6日25:05播出，随后每周四24:55播出；跨午夜排期解释了 Bangumi 放送日与 TMDB 自然日相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/363102; https://www.themoviedb.org/tv/210879; https://rurouni-kenshin.com/1st/staffcast/; https://www.themoviedb.org/tv/210879/season/1; https://reol.jp/news/detail/192",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 210879
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 24,
       "id": 210879,
       "season": 1,
       "type": "tv"

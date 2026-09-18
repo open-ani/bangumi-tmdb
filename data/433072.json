@@ -1,19 +1,96 @@
 {
   "anidbId": 18019,
   "bangumiId": 433072,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1302658,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1302659,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1302660,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1302661,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1302662,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1302663,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1302664,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1302665,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1302666,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1302667,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1302668,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1302669,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1359354,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、媒介、剧情及制作人员一致，13集标题和播出日期逐集吻合。TMDB将两期合并为第1季26集，旧映射应收窄为第1季第1至13集，与第二期已占用的第14至26集不重叠。\n\nhttps://www.themoviedb.org/tv/243140 (api_snapshot): TMDB 243140 为2024年4月6日首播的电视动画《オーイ！とんぼ》；五十岚移居吐噶喇群岛、遇见高尔夫少女蜻蛉的剧情，以及导演オジング、制作公司OLM，均与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/243140/season/1 (api_snapshot): 第1季实际收录26集，季表共1页。已逐集比对第1至13集，日文标题及播出日期全部与输入一致，范围为2024年4月6日至6月29日。第14集于2024年10月5日播出，属于后续第二期，因此本 subject 只覆盖第1季第1至13集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/433072; https://www.themoviedb.org/tv/243140; https://www.themoviedb.org/tv/243140/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 243140
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 243140,
       "season": 1,
       "type": "tv"

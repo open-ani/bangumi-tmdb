@@ -1,16 +1,81 @@
 {
   "anidbId": 15676,
   "bangumiId": 312723,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 971409,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 971410,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 971411,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 971412,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 971413,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 971414,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 971415,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 971416,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 971417,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 971418,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 971419,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 107001 第 1 季整季。年份、电视动画媒介、导演、制作公司及剧情一致；11 话标题逐集完全相同，官方分话剧情也与 TMDB 对应，可建立本篇第 1—11 话的一对一连续映射。日期已逐集比对，存在深夜播出日口径和网络先行配信差异，不影响标题与内容明确支持的对应关系。\n\nhttps://www.themoviedb.org/tv/107001 (api_snapshot): 日文原名搜索命中 TV 107001；详情确认这是 2021 年电视动画，导演城所聖明，制作公司含 MAPPA，剧情为魔族封印八百年后复活，与输入一致。全剧仅一季，共 11 集。\n\nhttps://www.themoviedb.org/tv/107001/season/1 (api_snapshot): 已读取第 1 季完整集表（total_pages=1），共 11 集。第 1—11 集标题依次为平穏、黒南、飄、黄雀、色、煙、業、韋駄天、陰、魔、腥，与 Bangumi 逐集完全一致。TMDB 日期依次为 2021-07-23、07-30、08-06、08-13、08-20、08-27、09-03、09-10、09-17、09-24、10-01。\n\nhttps://idaten-anime.com/story/ (page): 官方故事页列出第 01—11 话，全部标题、顺序及各话剧情与 TMDB 季表一致，确认整季没有混入其他作品或总集篇。\n\nhttps://idaten-anime.com/onair/ (page): 官方公布 7 月 22 日起每周四 24:55 电视播出，首话为 25:00；这对应次日公历日期。FOD 与 Amazon Prime Video 从首话电视播出后开始配信，第 2 话起提前配信下周电视播出的章节，说明电视与网络日期存在差异。\n\n备注：官方常规放送与先行配信说明不能完全解释输入中所有日期变化，尤其第 10、11 话的具体配信日期尚未独立核实；集号、标题、剧情及整季范围没有对应歧义。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312723; https://www.themoviedb.org/tv/107001; https://www.themoviedb.org/tv/107001/season/1; https://idaten-anime.com/story/; https://idaten-anime.com/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 107001
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

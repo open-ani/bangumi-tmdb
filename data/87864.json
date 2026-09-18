@@ -1,15 +1,113 @@
 {
+  "anidbId": 12824,
   "bangumiId": 87864,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 338975,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 338976,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 340331,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 340332,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 368101,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 368102,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 368103,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 368104,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 368105,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 368106,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 368107,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 368108,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 380262,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 430101,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 430102,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 380262,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 234817,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 234817 与《撸时代》身份一致：中文原名、2013-10-11开播日期、英雄联盟背景的大学生校园/电竞剧情及 Lu Shidai、Age of League 等别名均吻合。TMDB第1季实际返回14集且覆盖1–14集，正好对应 Bangumi 的14个正片；Bangumi另列1个新年番外，TMDB第0季唯一特别篇与之对应。因此排除同一条目中的第2季，仅推荐第1季全季及第0季第1集。\n\nhttps://api.bgm.tv/v0/subjects/87864 (api_snapshot): Bangumi记录《撸时代》为WEB动画，2013-10-11开始，正片14集、总集数15集，剧情为英雄联盟背景的大学生生活；另列2014-01-29新年番外篇。\n\nhttps://www.themoviedb.org/tv/234817 (api_snapshot): TMDB详情显示作品名为《撸时代》，原始日期2013-10-11，简介与Bangumi一致，别名含Lu Shidai、Age of League；共2季，第一季14集、第二季13集，并列出制作公司。\n\nhttps://www.themoviedb.org/tv/234817/season/1 (api_snapshot): TMDB第1季实际集表total_pages为1、episodeCount为14，集号连续覆盖1至14，标题和日期与Bangumi正片列表对应。\n\nhttps://www.themoviedb.org/tv/234817/season/0 (api_snapshot): TMDB第0季实际仅有1集特别篇，日期2014-01-29，内容为马年新年祝福，对应Bangumi的新年番外篇。\n\nhttps://www.tvmao.com/drama/JTRmKjA=/episode (page): 资料页将其列为2013年中国大陆动画、共14集，导演李豪凌、编剧猴子骑狗，并展示第1至第14集及首集剧情。\n\nhttps://zh.wikipedia.org/wiki/撸时代 (page): 资料将其描述为2013年推出的网络动画，以英雄联盟为背景，区分第一季与第二季，并指出第一季导演为李豪凌、第二季导演为史涓生。\n\n备注：TMDB顶层crew将史涓生列为Series Director，而Bangumi及外部资料将李豪凌列为第一季导演、史涓生列为第二季导演，属于工作人员元数据口径差异，不影响作品身份和集数范围判断。；Bangumi将第14集日期记为2014-09-11，TMDB季表记为2014-09-13；标题、季次和集号一致，日期存在轻微差异。",
+    "evidence": "codex: 已重新核实作品身份、制作信息、网络动画版本及实际集表。14话本篇的标题、顺序与日期整体吻合，覆盖TMDB第1季全季；新年番外对应第0季第1集。第2季属于另一个Bangumi subject，不纳入本次映射。\n\nhttps://bgm.tv/subject/87864 (page): Bangumi 将本作列为2013年10月11日开播的WEB动画，别名为《撸时代 第一季》，共14话，导演李豪凌、动画制作彩色铅笔动画；剧情围绕毛志强等大学生及《英雄联盟》展开，并另列第二季为续集。\n\nhttps://www.themoviedb.org/tv/234817 (api_snapshot): TMDB 234817 的中文原名、首播日期、人物与剧情均吻合，制作公司包含彩色铅笔动画；详情明确区分第一季14集、第二季13集及特别篇1集。\n\nhttps://www.themoviedb.org/tv/234817/season/1 (api_snapshot): 第一季实际集表共14集、total_pages=1。与输入逐集比较，第1至13集日期全部一致，标题对应，仅有标点、第5集省略“今天”及第10集“球王/球女”等文字差异；第14集标题完全一致，但日期为2014-09-13，比Bangumi晚两天。确认本篇1至14对应S01E01至S01E14。\n\nhttps://www.themoviedb.org/tv/234817/season/0 (api_snapshot): 第0季实际集表仅1集、total_pages=1；S00E01为马年新年祝福短篇，日期2014-01-29，与Bangumi章节380262的新年番外主题及日期一致。\n\nhttps://zh.wikipedia.org/wiki/撸时代 (page): 资料确认本作为以《英雄联盟》及大学生日常为背景的网络动画，并区分第一季导演李豪凌、第二季导演史涓生，可解释TMDB系列级导演字段与Bangumi第一季资料的差异。\n\n备注：第14集日期存在两天差异：Bangumi为2014-09-11，TMDB为2014-09-13；标题及结局位置一致，不影响对应。；第10集标题在Bangumi中为“大战球王（上）”，TMDB为“大战球女（上）”；日期及上下篇结构一致，视为标题元数据差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/87864; https://api.bgm.tv/v0/subjects/87864; https://www.themoviedb.org/tv/234817; https://www.themoviedb.org/tv/234817/season/1; https://www.themoviedb.org/tv/234817/season/0; https://www.tvmao.com/drama/JTRmKjA=/episode; https://zh.wikipedia.org/wiki/撸时代",
-    "verifiedAt": "2026-09-08T19:23:43.651Z"
+    "source": "https://bgm.tv/subject/87864; https://www.themoviedb.org/tv/234817; https://www.themoviedb.org/tv/234817/season/1; https://www.themoviedb.org/tv/234817/season/0; https://zh.wikipedia.org/wiki/撸时代",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 234817
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

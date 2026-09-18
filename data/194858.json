@@ -1,16 +1,86 @@
 {
   "anidbId": 12461,
   "bangumiId": 194858,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 849724,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 849754,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 849755,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 849756,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 849757,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 849758,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 849759,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 849760,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 849761,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 849762,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 849763,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 849764,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 84141 第1季整季。年份、电视动画媒介、制作公司、剧情及12集规模一致，全部日文集标题按集号完全吻合，可建立本篇1—12集的一一对应。该季未混入2015、2016年剧场版。\n\nhttps://www.themoviedb.org/tv/84141 (api_snapshot): TMDB 84141 为2019年1月9日开播的电视动画，共1季12集；制作公司为 TMS Entertainment，导演为大地丙太郎。女高中生绫月芽衣经查理的魔术来到明治东京的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/84141/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。第1至12集日文标题逐一与输入完全一致，第2至9集日期也一致；第1、10、11、12集日期存在差异，但无缺集、插集或顺序差异。\n\nhttps://meikoi.com/tv-anime/onair/ (page): 官方放送页确认2019年1月9日起每周三播出，并注明第1集于2019年1月1日在 U-NEXT 先行配信，解释了输入第1集日期与TMDB电视首播日期的差异。\n\nhttps://meikoi.com/tv-anime/episode/ (page): 官方剧情页列出第1至12话入口；第1话标题、穿越至明治东京并前往鹿鸣馆的剧情，以及髙橋幹子、大地丙太郎的制作署名与所核对的TV动画一致。\n\n备注：TMDB第10、11、12集日期分别为2019-03-12、2019-03-19、2019-03-19，输入分别为2019-03-13、2019-03-20、2019-03-27；这些日期差异的原因未确认，但标题、顺序和总集数一致，不影响逐集身份对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/194858; https://www.themoviedb.org/tv/84141; https://www.themoviedb.org/tv/84141/season/1; https://meikoi.com/tv-anime/onair/; https://meikoi.com/tv-anime/episode/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 84141
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

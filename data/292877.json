@@ -1,13 +1,114 @@
 {
   "bangumiId": 292877,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1096801,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1096802,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1096803,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1096804,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1096805,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1096806,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1096807,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1096808,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1096809,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1096810,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1096811,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1096812,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1096813,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1096814,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1096815,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1096816,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1096817,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1096818,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1096819,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1096820,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 709 是同一部《Robot Chicken/机器鸡》定格动画电视系列：始播于2005年，剧情为玩偶、动作人偶和玩具组成的流行文化恶搞短剧，制作公司、配音阵容及媒介均吻合。其第10季标为2019年，共20集；实际集表覆盖第1至20集，首集日期为2019-09-30，末集为2020-07-27，与 Bangumi 的20集及播出日期范围一致。该条目是系列的第10季，不是OVA、电影、音乐录像或其他版本。\n\nhttps://api.bgm.tv/v0/subjects/292877 (api_snapshot): Bangumi subject 名称为 Robot Chicken Season 10，类型为 TV，日期为2019-09-30，共20集。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): TMDB 709 原名 Robot Chicken，类型为电视系列；简介为玩具、动作人偶和玩偶的定格动画流行文化恶搞，制作公司包括 Williams Street、Stoopid Buddy Stoodios 等，列出 Seth Green、Matthew Senreich、Breckin Meyer 等配音演员。\n\nhttps://www.themoviedb.org/tv/709/season/10 (api_snapshot): TMDB 第10季实际集表共有20集，编号连续为1至20，日期从2019-09-30至2020-07-27，未混入其他作品。\n\n备注：TMDB 系列详情的 crew 数组为空，因此未能用 TMDB 独立核对导演或编剧等具体工作人员；但系列身份、制作公司、配音阵容、媒介及第10季范围已明确。；Bangumi 提供的 IMDb 提示 tt10666378 实际对应 TMDB 709 的第10季第1集，而不是整部系列；未将其作为系列 ID 使用。",
+    "evidence": "codex: 可确认对应 TMDB 709 第10季整季。官方节目页、制作背景、动画媒介、20集范围及首末播出日期相互吻合。Bangumi 输入的各话标题和日期均为空，无法进行章节层面的逐集比对，因此仅确认整季归属，保留 rules 和 overrides 为空。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): 原名检索命中 TMDB 709；详情确认其为2005年开播的美国定格动画电视系列，内容为玩偶演出的流行文化恶搞短剧，制作公司包括 Williams Street、Stoopid Buddy Stoodios，配音包括 Seth Green、Matthew Senreich。\n\nhttps://www.themoviedb.org/tv/709/season/10 (api_snapshot): 已读取第10季全部集表，total_pages=1，共20集，编号1—20；实际首末集日期为2019-09-30、2020-07-27，与输入的 Bangumi 集数及放送范围一致。季级日期另标2019-09-29。第11集是圣诞谋杀特别篇，第20集为 Endgame。\n\nhttps://www.adultswim.com/videos/robot-chicken (page): Bangumi 指定的 Adult Swim 官方节目页将第10季列为20集；逐项核对其编号、标题及剧情，与 TMDB 第10季一致，包括编为第11集的圣诞特别篇及第20集 Endgame，未混入其他季或独立作品。\n\nhttps://press.wbd.com/us/synopses/robot-chicken-series-description?language_content_entity=en (search_snippet): 2019年官方第10季介绍确认本作为 Adult Swim 定格动画短剧电视系列，由 Seth Green、Matthew Senreich 创作并担任执行制片，Douglas Goldstein、Tom Root 为共同主笔。\n\n备注：Bangumi subject、章节页及 API 本次未能读取，Bangumi 信息依据用户提供的快照；补齐各话标题或日期后，才能核实逐集对应，不能仅按 sort 顺序填入规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/292877; https://api.bgm.tv/v0/subjects/292877; https://www.themoviedb.org/tv/709; https://www.themoviedb.org/tv/709/season/10",
-    "verifiedAt": "2026-09-08T21:47:58.750Z"
+    "source": "https://bgm.tv/subject/292877; https://www.themoviedb.org/tv/709; https://www.themoviedb.org/tv/709/season/10; https://www.adultswim.com/videos/robot-chicken; https://press.wbd.com/us/synopses/robot-chicken-series-description?language_content_entity=en",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

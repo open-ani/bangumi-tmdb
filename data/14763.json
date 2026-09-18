@@ -1,14 +1,45 @@
 {
   "anidbId": 8253,
   "bangumiId": 14763,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 85308,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 309290,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 309291,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 309292,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 309293,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 309294,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 14763 是 2011-06-24 发售、由 indigo line 制作的《ゆるめいつ は？》OVA，共 6 个内部章节。AniDB ID 8253 的标题也核为 Yurumates wa?。TMDB 45306 虽以《ゆるめいつ 3でぃ》TV 系列为主体，但其 season 0 的第 2 集日期正是 2011-06-24；独立资料将同日作品列为《Yurumates wa?》OVA 特别篇。因此应映射为 TMDB season 0 episode 2 单个特别篇，而不是把 season 1/2 的 2012 年 TV 正篇纳入。\n\nhttps://bgm.tv/subject/14763 (page): Bangumi subject 14763 为《ゆるめいつ は?／希望宅邸？》，类型为 OVA，发售日 2011-06-24，共 6 集，导演为月見里智弘、荒井はむ，动画制作 indigo line 横浜スタジオ。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据中明确列出 [8253,\"Yurumates wa?\"]，核对了输入中的 AniDB ID 与作品标题。\n\nhttps://zetawiki.com/wiki/%EC%9C%A0%EB%A3%A8%EB%A9%94%EC%9D%B4%EC%B8%A0_%ED%95%98%3F (search_snippet): 独立资料列出《ゆるめいつ は？》为 2011-06-24 发售的 OVA 第 2 作，共 6 话，并列出与 Bangumi 相同的 6 个章节标题及 indigo line 横浜スタジオ。\n\nhttps://www.tvmaze.com/episodes/883310/yurumates-3d-s01-special-yurumates-wa-ova (search_snippet): 独立剧集资料将《Yurumates wa OVA》作为《Yurumates 3D》的特别篇记录，日期为 2011-06-24；这里只用于确认作品身份和日期，不采用其季号。\n\nhttps://www.themoviedb.org/tv/45306 (api_snapshot): TMDB API 快照显示 TV 45306 原名为《ゆるめいつ 3でぃ》，season 0 为特别编，season 1/2 为 2012 年各 13 集的 TV 正篇。\n\nhttps://www.themoviedb.org/tv/45306/season/0 (api_snapshot): TMDB API 快照显示 season 0 共 4 集，其中 episode 2 的日期为 2011-06-24；episode 1 是 2009-04-24 的前作，故 subject 14763 对应 episode 2，而非整个 season 0。\n\n备注：TMDB 对该特别篇使用通用标题「第2話」，且快照记录的 runtime 为 3 分钟、没有简介；这与 OVA 全长约 32–34 分钟及其 6 个内部章节不完全一致，可能是 TMDB 将整部 OVA 作为一个特别篇时的元数据缺陷。映射范围因此只能确认到 TMDB 的单个 episode 2，不能把内部 6 话展开为 TMDB 的 episode 2–7。",
+    "evidence": "codex: 确认对应TMDB 45306第0季第2集：实际集表的OVA标题及发行日期均吻合，外部资料进一步确认剧情、制作人员和版本。TMDB将整部OVA记为一个特别篇，而Bangumi拆为六个内部章节；无法建立不重复占用同一TMDB集的逐集关系，因此仅声明作品范围，rules和overrides留空。\n\nhttps://www.b-ch.com/titles/3303/ (page): 正版配信页确认本作为2011年OVA第二作，剧情为川野サエ的妹妹来到浪人生们的公寓；原作saxyun，导演月見里智弘，动画制作indigo line，与输入的版本及剧情吻合。\n\nhttps://www.animatetimes.com/news/details.php?id=1296788750 (page): 发行报道确认《ゆるめいつ は？》为2009年OVA的续作，由竹书房于2011年6月24日发行。\n\nhttps://zetawiki.com/wiki/%EC%9C%A0%EB%A3%A8%EB%A9%94%EC%9D%B4%EC%B8%A0_%ED%95%98%3F (search_snippet): 资料列出2011年OVA共六话，六个章节标题及顺序均与输入一致，制作公司为indigo line横浜スタジオ。\n\nhttps://www.themoviedb.org/tv/45306 (api_snapshot): TMDB 45306主体为2012年《ゆるめいつ 3でぃ》，由C2C制作；另设特别篇季，不能把其TV正篇季直接对应本作。\n\nhttps://www.themoviedb.org/tv/45306/season/0 (api_snapshot): 第0季完整集表共4集、仅1页。第2集英文标题明确为《Yurumates wa OVA》，日期2011-06-24；第1集为2009年OVA，第3、4集为2012年OVA。因此本作范围为S00E02。\n\nhttps://www.themoviedb.org/tv/119323/season/1 (api_snapshot): 另一个同名TV候选119323的第1季共12集，全部日期为2009-04-24，属于前作，不能用于本作六话。\n\nhttps://movie-tsutaya.tsite.jp/netdvd/dvd/goodsDetail.do?titleID=1524473273 (search_snippet): DVD资料确认其为2011年OVA第二作，剧情涉及サエ的妹妹，收录时长34分钟，与TMDB特别篇标注的3分钟存在冲突。\n\n备注：TMDB S00E02标注时长3分钟且缺少简介，与DVD约34分钟不符，疑为元数据错误；标题及日期支持作品身份。；六个Bangumi章节没有各自独立的TMDB集记录，当前均保留未映射，不能展开为S00E02—E07。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/14763; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://zetawiki.com/wiki/%EC%9C%A0%EB%A3%A8%EB%A9%94%EC%9D%B4%EC%B8%A0_%ED%95%98%3F; https://www.tvmaze.com/episodes/883310/yurumates-3d-s01-special-yurumates-wa-ova; https://www.themoviedb.org/tv/45306; https://www.themoviedb.org/tv/45306/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/14763; https://www.b-ch.com/titles/3303/; https://www.animatetimes.com/news/details.php?id=1296788750; https://zetawiki.com/wiki/%EC%9C%A0%EB%A3%A8%EB%A9%94%EC%9D%B4%EC%B8%A0_%ED%95%98%3F; https://www.themoviedb.org/tv/45306; https://www.themoviedb.org/tv/45306/season/0; https://www.themoviedb.org/tv/119323/season/1; https://movie-tsutaya.tsite.jp/netdvd/dvd/goodsDetail.do?titleID=1524473273",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

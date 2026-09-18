@@ -1,16 +1,91 @@
 {
   "anidbId": 6509,
   "bangumiId": 1742,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 7487,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 7488,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 7489,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 7490,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 7491,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 7492,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 7493,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 7494,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 7495,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 7496,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 7497,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 7498,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 22414,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《懺・さよなら絶望先生》TV 版，13 话，2009-07-04 播出，制作人员与 SHAFT、新房昭之等信息均与候选版本一致。Anime-Lists 将 AniDB 6509（Zan Sayonara Zetsubou-sensei）直接关联到 TMDB TV 42887 第 3 季。TMDB 快照中的第 3 季标题为「懺・さよなら絶望先生」、播出年份为 2009、共 13 集；完整剧集标题与 Bangumi 第 1—13 话逐集对应，因此应纳入整季第 3 季。獄・さよなら絶望先生及番外地在 Bangumi 中是独立关联条目，不应并入本 subject。\n\nhttps://bgm.tv/subject/1742 (page): Bangumi 条目为 TV 类型《懺・さよなら絶望先生》，13 话，2009-07-04 开始、2009-09-26 结束；列出新房昭之、SHAFT及完整第1—13话章节。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录 AniDB ID 6509、名称 Zan Sayonara Zetsubou-sensei，并关联 tmdbtv=42887、tmdbseason=3。\n\nhttps://www.themoviedb.org/tv/42887 (api_snapshot): TMDB TV 42887 的系列包含第3季「懺・さよなら絶望先生」，该季标记为 2009 年、13 集。\n\nhttps://www.themoviedb.org/tv/42887/season/3 (api_snapshot): TMDB 第3季快照显示 season_number=3、名称「懺・さよなら絶望先生」、episodeCount=13，且第1—13集标题与 Bangumi 对应。\n\n备注：Bangumi 首播日为 2009-07-04，而 TMDB 快照第3季及各集日期整体晚一天（2009-07-05 起），可能是时区或站点日期记录差异；标题、制作信息和完整13集逐集对应已足以确认版本。；未能直接读取 AniDB 页面本身，但 Anime-Lists 的 AniDB 6509 条目同时给出了名称及 TMDB 42887 第3季关联。",
+    "evidence": "codex: 确认对应TMDB 42887第3季全季。2009年TV版本、剧情角色、制作人员、13话总量及逐集分段标题均吻合，因此本篇1—13话顺序对应S03E01—E13；无需拆分单集或并入《獄》《番外地》。\n\nhttps://bgm.tv/subject/1742 (page): Bangumi 标明本作为2009年7月4日至9月26日播出的13话TV动画，导演新房昭之、动画制作SHAFT；《獄》与《番外地》另列为关联作品。\n\nhttps://www.themoviedb.org/tv/42887 (api_snapshot): 以日文原名及罗马字别名搜索均返回TV 42887。详情明确将《懺・さよなら絶望先生》列为第3季别名；制作公司SHAFT、导演新房昭之及宫本幸裕、糸色望等角色与声优均吻合。\n\nhttps://www.themoviedb.org/tv/42887/season/3 (api_snapshot): 第3季名称为《懺・さよなら絶望先生》，共13集，total_pages=1。已读取完整集表，与输入的13话逐集比对，分段标题组合及顺序对应，仅有空格、标点和少数字词差异；第12、13集的四段标题也完整对应，未混入其他作品。\n\n备注：Bangumi已提供日期的第1、2、8话比TMDB早一天；TMDB第13集日期则与Bangumi完结日一致，不能沿用旧映射中“全部晚一天”的说法。日期差异原因未确认，不影响标题确定的对应。；第7话标题存在末尾“か”及“あぁ／ああ”差异，第9—10话存在“ドラゴン／ドラコン”差异；其余分段标题与组合顺序吻合，判断为文字记录差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1742; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/42887; https://www.themoviedb.org/tv/42887/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1742; https://www.themoviedb.org/tv/42887; https://www.themoviedb.org/tv/42887/season/3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 42887
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

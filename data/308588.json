@@ -1,19 +1,156 @@
 {
   "anidbId": 15597,
   "bangumiId": 308588,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1018676,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1018677,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1018678,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1018679,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1018680,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1018681,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1018682,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1018683,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1018684,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1018685,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1018686,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1018687,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1021560,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1021561,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1021562,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1021563,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1021564,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1021565,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1021566,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1021567,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1021568,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1021569,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1021570,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1021571,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1037389,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 104711第1季第1—25集。年份、剧情、原作、制作公司及25集标题顺序一致，逐集日期呈固定一天偏差，支持同一放送批次。TMDB将2023年第二期也收入第1季，因此旧映射的整季范围应收窄为1—25集，与第二期已占用的26—50集不重叠。\n\nhttps://www.themoviedb.org/tv/104711 (api_snapshot): 以日文别名「エデンズゼロ」搜索得到 TV 104711；详情确认其为2021年开播的《EDENS ZERO》，原作真島ヒロ，制作公司包含J.C.STAFF、日本电视台及讲谈社，西奇与蕾贝卡的宇宙冒险剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/104711/season/1 (api_snapshot): 第1季实际包含50集，total_pages=1。逐集比对后，第1—25集标题与Bangumi本篇一致，第20集仅多出读音「（ストーンズ）」。这25集日期均比Bangumi晚一天，范围为2021-04-11至2021-10-03，包含相同的第19、20集之间隔周安排。第26集起转为2023年播出，不能将整个TMDB第1季映射给本subject。\n\nhttps://edens-zero.net/en/anime/ (page): 官方动画页将第一期第1—25集与第二期第26—50集分列，第一期末集及第二期首集的标题和剧情均与TMDB对应集吻合，确认本subject的边界为第25集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/308588; https://www.themoviedb.org/tv/104711; https://www.themoviedb.org/tv/104711/season/1; https://edens-zero.net/en/anime/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 104711
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 25,
       "id": 104711,
       "season": 1,
       "type": "tv"

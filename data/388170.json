@@ -1,21 +1,121 @@
 {
   "anidbId": 17464,
   "bangumiId": 388170,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1151570,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1151571,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1156329,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1156330,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1156331,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1156332,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1156333,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1156334,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1156335,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1156336,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1156337,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1156338,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1156339,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1156340,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1156340,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 204266,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认2023年新版的年份、剧情、制作人员及全部12话对应关系。旧映射仅覆盖第1季不完整：本篇第1至11话对应 S1E1–E11，第12话被 TMDB 编入 S0E1，需单独覆盖。\n\nhttps://www.themoviedb.org/tv/204266 (api_snapshot): TMDB 204266 首播于2023-01-07，制作公司包含 Orange；荒漠星球、PLANT、梅丽鲁与罗伯特寻找威席的剧情与输入一致。该条目另含2026年的 STARGAZE 第2季。\n\nhttps://trigun-anime.com/stampede/ (page): 官方 STAMPEDE 页面确认这是2023年由 Orange 制作、武藤健司执导的新版动画，共12话；集目列出第1至11话及标为第0话的 HIGH NOON AT JULY。\n\nhttps://www.themoviedb.org/tv/204266/season/1 (api_snapshot): 第1季完整集表只有11集，total_pages=1。第1至11集标题及2023-01-07至2023-03-18的逐周播出日期，均与 Bangumi 本篇第1至11话一致。\n\nhttps://www.themoviedb.org/tv/204266/season/0 (api_snapshot): 第0季完整集表共2集，total_pages=1。其中第1集 HIGH NOON AT JULY 于2023-03-25播出，与 Bangumi 第12话标题、日期一致；第2集是2026-01-05的 STARGAZE 放送直前特番，与输入的2023年特番不同。\n\n备注：两条 Bangumi 特别节目（1151570、1151571）在已读取的季表中没有对应项，暂不映射；这不代表 TMDB 全站未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/388170; https://www.themoviedb.org/tv/204266; https://trigun-anime.com/stampede/; https://www.themoviedb.org/tv/204266/season/1; https://www.themoviedb.org/tv/204266/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 204266
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 11,
       "id": 204266,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 204266,
+      "season": 0,
       "type": "tv"
     }
   ]

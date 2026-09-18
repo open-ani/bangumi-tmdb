@@ -1,16 +1,86 @@
 {
   "anidbId": 9365,
   "bangumiId": 46826,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 288966,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 288968,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 288969,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 288970,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 288971,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 288972,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 288973,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 288974,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 288975,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 288976,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 288977,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 294888,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ファンタジスタドール／幻想玩偶》的原创 TV 动画，共 12 话，2013 年播出。BangumiExtLinker 将 bgm_id 46826 关联到 AniDB 9365；AniDB 标题数据及独立链接均将 9365 对应 Fantasista Doll。TMDB 72120 的原名、简介、2013 年年份、制作/角色信息与该 TV 动画一致，第 1 季明确包含 12 集，且 12 个集标题按顺序与 Bangumi 正篇对应。因此采用 TMDB 72120 第 1 季完整范围。TMDB 部分集日期与 Bangumi 播出日期不一致，但没有显示为不同作品版本，且标题、剧情和制作信息一致。\n\nhttps://bgm.tv/subject/46826 (page): Bangumi 条目标题为ファンタジスタドール，类型为 TV，共 12 话，2013-07-06 开播；简介称其为谷口悟朗原作的原创动画，并列出 Hoods Entertainment 等制作信息。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json (api_snapshot): 第 3554 行将 bgm_id 46826（ファンタジスタドール／幻想玩偶）映射到 anidb_id 9365。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据中列出 [9365,\"Fantasista Doll\"]，确认 AniDB 9365 的标题对应关系。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=103721 (search_snippet): Fantasista Doll 的独立数据库链接明确指向 AniDB https://anidb.net/anime/9365。\n\nhttps://www.themoviedb.org/tv/72120 (api_snapshot): TMDB TV 72120 原名为ファンタジスタドール，简介、2013 年年份、角色和制作信息与 Bangumi 条目相符；页面显示第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/72120/season/1 (api_snapshot): TMDB 第 1 季 season_number=1，episodeCount=12，12 个集标题与 Bangumi 正篇 1 至 12 话逐项对应。\n\n备注：TMDB 快照中的首播日期为 2013-07-07，且第 6 至第 12 集日期晚于 Bangumi 所列日期；这属于日期元数据差异，但标题、剧情、制作信息和集数均支持同一 TV 版本。",
+    "evidence": "codex: 确认为同一部2013年原创TV动画：剧情、制作公司、导演及主要配音一致。已读取完整季表，12话标题与顺序经比对及文字差异复核，支持Bangumi本篇1—12话逐集对应TMDB 72120第1季1—12集，整季未混入其他作品。\n\nhttps://bgm.tv/subject/46826 (page): Bangumi 确认为2013年播出的12话TV动画，导演斎藤久、动画制作Hoods Entertainment；故事围绕鵜野うずめ与卡牌召唤的玩偶展开。\n\nhttps://www.themoviedb.org/tv/72120 (api_snapshot): 日文原名搜索命中72120；详情确认其为2013年TV动画，剧情、导演斎藤久、制作公司及六名主要角色声优均与Bangumi一致，只有一季，共12集。\n\nhttps://www.themoviedb.org/tv/72120/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。逐集比对后，1—4、6—8、10—12话标题一致；5、9话存在Bangumi标题文字差异，但其余标题内容及外部集表支持相同对应。日期方面，1—5集比输入晚一天，6—12集比输入晚约三周。\n\nhttps://dengekionline.com/elem/000/000/687/687258/ (search_snippet): 2013年8月3日的第5话报道明确标题为「ばたばたバイト はじめてのカティア？」；同时列明导演、制作公司及MBS每周六27:28播出的深夜时段，支持TMDB第5集标题与首播日跨日差异。\n\nhttps://enpedia.org/wiki/ファンタジスタドール (search_snippet): 独立资料列出的全12话标题顺序与TMDB一致，第9话为「かがみかみかみ? まぎれる気持ち」，支持输入第5、9话属于标题录入差异。\n\n备注：TMDB第6—12集日期较Bangumi晚约三周，具体原因未确认；不影响由逐集标题、完整集数和版本资料共同支持的对应关系。；输入第5话的「げたげた」及第9话的「かんがみ」与外部集表不同，判断为标题录入差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/46826; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/master/data/anime_map.json; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.animecharactersdatabase.com/linktodbs.php?id=103721; https://www.themoviedb.org/tv/72120; https://www.themoviedb.org/tv/72120/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/46826; https://www.themoviedb.org/tv/72120; https://www.themoviedb.org/tv/72120/season/1; https://dengekionline.com/elem/000/000/687/687258/; https://enpedia.org/wiki/ファンタジスタドール",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72120
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,151 @@
 {
   "anidbId": 11969,
   "bangumiId": 171297,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 621369,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 621370,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 621371,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 621372,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 621373,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 621374,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 621375,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 621376,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 621377,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 621378,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 621379,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 621380,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 664839,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 673204,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 673205,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 673206,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 676664,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 680784,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 680785,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 681822,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 682635,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 682636,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 682637,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 697328,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 697329,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《なめこ～せかいのともだち～》TV、共26话，2016-04-10开播并由Studio DEEN制作；AniDB ID 11969对应同名作品。TMDB 217578具有完全相同的日文标题、首播日和日本来源，并明确列出第1季共26集。官方制作方及 Apple TV 均确认第26话为该作品的最终话，因此应映射整个 TMDB 第1季；Bangumi 当前章节列表缺少第26话不应据此排除。\n\nhttps://bgm.tv/subject/171297 (page): Bangumi 条目标为TV，标题为なめこ～せかいのともだち～，共26话，2016年4月10日开播，2017年2月12日结束，动画制作Studio DEEN。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据中，AniDB ID 11969对应 Nameko: Sekai no Tomodachi。\n\nhttps://www.themoviedb.org/tv/217578 (api_snapshot): TMDB API快照显示ID 217578的日文标题相同，首播日为2016-04-10，原语言为日语、来源国为日本，共26集且包含第1季。\n\nhttps://www.themoviedb.org/tv/217578/season/1 (api_snapshot): TMDB API快照明确显示第1季、共26集；第1集日期为2016-04-10。\n\nhttps://www.deen.co.jp/news/20170210-4 (page): Studio DEEN官方资料确认该作第26话为最终话，标题为「ぴーぴぴぴ！みんなともだち宇宙なめこ」，于2017年2月12日播出。\n\nhttps://tv.apple.com/jp/episode/%E3%81%B2%E3%83%BC%E3%81%B4%E3%81%B2%E3%81%B2%E3%81%B2%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A8%E3%82%82%E3%81%A0%E3%81%A1%E5%AE%87%E5%AE%99%E3%81%AA%E3%82%81%E3%81%93/umc.cmc.3sw41uetnxi5xg0jthu7ejdfn?showId=umc.cmc.29g7hni5emn9muxw66l52ax93 (search_snippet): Apple TV将同名作品的最终话列为第1季第26集，并标注播出日期为2017年2月12日。\n\n备注：TMDB季快照中的集名为通用的「第N話」，且第2集以后日期按连续周次排列，和官方实际因停播而延至2017年2月12日的播出日不一致；这影响TMDB元数据日期的可信度，但不改变同名作品、TV类型、第1季及完整26集范围的对应判断。",
+    "evidence": "codex: 原名、别名、首播年份与日期、制作公司、官方剧情及26话总量相互吻合，确认对应TMDB 217578第1季整季。Bangumi缺少第26话章节不改变subject覆盖完整作品的范围。逐集仅纳入官方及双方日期能够交叉确认的第1—2话；其余集数因TMDB缺少实质标题且日期冲突，暂不建立对应规则。\n\nhttps://bgm.tv/subject/171297 (page): Bangumi 标注本作为2016年4月10日开播、Studio DEEN制作的26话TV动画，2017年2月12日结束；现有章节仅列出25话。\n\nhttps://namepara.com/sekainotomodachi/ (page): 官网确认本作为NHK Eテレ播出的3分钟动画，剧情为滑子菇组成NUR担任森林向导；导演渡边浩、系列构成高桥奈津子、动画制作Studio DEEN，与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/217578 (api_snapshot): TMDB 217578的日文原名、中文别名、2016年4月10日首播日期及Studio Deen制作公司均吻合；仅有第1季，共26集。\n\nhttps://www.themoviedb.org/tv/217578/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共26集。集名全部为通用编号；前两集日期分别为2016年4月10日、4月17日，与Bangumi一致；第3集起日期连续按周排列，第26集标为2016年10月2日，与官方实际排期冲突。\n\nhttps://www.deen.co.jp/news/20160430 (search_snippet): 制作方公告确认2016年5月1日重播4月10日播出的第1话，支持第1集首播日期，同时证明实际播出并非每周连续更新新集。\n\nhttps://namepara.com/info/anime/4421.html (search_snippet): 官方第2话预告的标题与Bangumi第2话一致，并明确预定2016年4月17日播出，与TMDB第2集日期一致。\n\nhttps://www.deen.co.jp/news/20170210-4 (page): Studio DEEN明确第26话为最终话，标题为「ぴーぴぴぴ！みんなともだち宇宙なめこ」，于2017年2月12日播出，确认本作完整范围为26话。\n\n备注：第3—25话尚未建立逐集映射：TMDB只有通用集名，日期与实际停播、重播排期不符，不能仅按序号推定。；输入中的Bangumi第13话日期与第8话重复，第19话日期早于作品首播，第24—25话日期为空；这些日期不能直接作为匹配依据。；官方确认的第26话没有对应的Bangumi章节ID，因此无法建立该话的章节映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/171297; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/217578; https://www.themoviedb.org/tv/217578/season/1; https://www.deen.co.jp/news/20170210-4; https://tv.apple.com/jp/episode/%E3%81%B2%E3%83%BC%E3%81%B4%E3%81%B2%E3%81%B2%E3%81%B2%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A8%E3%82%82%E3%81%A0%E3%81%A1%E5%AE%87%E5%AE%99%E3%81%AA%E3%82%81%E3%81%93/umc.cmc.3sw41uetnxi5xg0jthu7ejdfn?showId=umc.cmc.29g7hni5emn9muxw66l52ax93",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/171297; https://namepara.com/sekainotomodachi/; https://www.themoviedb.org/tv/217578; https://www.themoviedb.org/tv/217578/season/1; https://www.deen.co.jp/news/20160430; https://namepara.com/info/anime/4421.html; https://www.deen.co.jp/news/20170210-4",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 217578
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

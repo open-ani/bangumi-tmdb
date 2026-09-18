@@ -1,26 +1,135 @@
 {
   "anidbId": 9390,
   "bangumiId": 79114,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 301753,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 301754,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 301755,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 301756,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 301757,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 301758,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 301759,
+      "sort": 5.5,
+      "type": 1
+    },
+    {
+      "id": 301760,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 301761,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 301762,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 323948,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 323949,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 323950,
+      "sort": 10.5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 301753,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 85065,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 301759,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 85065,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 323950,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 85065,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 79114 明确是 2013 年《京騒戯画》TV 版本，共 13 话，构成为 10 话正篇、2 话总结和 1 话特别篇；章节还明确列出 00、01–10、10.5、05.5。TMDB 85065 的作品简介、年份和制作/剧情信息与该 TV 版本一致，season 1 的 10 个集标题及日期逐一对应 Bangumi 的 01–10 正篇。TMDB season 0 明确有 3 集，外部季页的内容分别对应预习篇、京都实录篇和复习篇，因此两个完整季均应纳入。AniDB 9390 实际标为 2012 版 ONA，不能作为 TV 版本的直接标准依据；85065 是通过 Bangumi 章节、年份、剧情和集标题独立核实出的匹配。\n\nhttps://bgm.tv/subject/79114 (page): Bangumi 将 79114 标为《京騒戯画》TV，放送时间为 2013-10-02 至 2013-12-25，共 13 话，并注明“10话新作+2话总结+1话特别篇”；章节列出 00、01–10、10.5、05.5。\n\nhttps://www.themoviedb.org/tv/85065 (api_snapshot): TMDB API 快照显示 85065 为日语《京騒戯画》TV，首播年份为 2013，简介与 Bangumi 的镜都、筝、三人议会和父母回归主线一致；season 0 有 3 集，season 1 有 10 集。\n\nhttps://www.themoviedb.org/tv/85065/season/1 (api_snapshot): TMDB season 1 快照包含 10 个完整集条目，标题从“ある一家の事情とその背景”至“今日を騒がしく戯れ生きる人々の漫画映画”，与 Bangumi 01–10 的标题和剧情逐一对应。\n\nhttps://www.toei-anim.co.jp/tv/kyousougiga/ (search_snippet): 东映官方站搜索摘要明确提到 TV 版第 5.5 话“京都実録編”，支持其为该 TV 主体内的特别篇。\n\nhttps://www.comparandonos.com/television/series/kyousougiga-58027/temporada-0 (page): 该季页明确标为 Kyousougiga season 0，并列出 3 集；第 1 集简介对应预习/初始镜都故事，第 2 集为京都取景实录特别篇，第 3 集为回顾前情，内容对应 Bangumi 的 00、05.5、10.5。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 ID 9390 标为“Kyousougiga (2012)”。\n\nhttps://www.animeschedule.net/anime/kyousougiga-2012 (search_snippet): 独立资料将“Kyousougiga (2012)”标为 ONA、5 集，说明输入中的 AniDB 关联指向的是 2012 ONA 版本而非 2013 TV 主体。\n\n备注：AniDB 9390 的关联与 Bangumi 2013 TV 版本不完全一致，因此不能用该 AniDB ID 单独证明 TMDB 目标；TMDB 85065 的确认依赖 Bangumi TV 信息与 TMDB 正篇集标题、剧情及年份的直接匹配。；TMDB season 0 的快照只提供集数而未提供完整标题；其 3 集与 Bangumi 三个非正篇条目通过独立季页中的内容简介对应，但部分日期存在电视播出日与数据库日期差异。",
+    "evidence": "codex: 年份、TV版本、制作人员、剧情及13个章节的标题和构成一致，确认对应TMDB 85065。第1季完整覆盖10话正篇，第0季完整覆盖预习篇、京都实录篇和复习篇；实际集表未混入额外旧版章节，全部13话均可建立对应。\n\nhttps://bgm.tv/subject/79114 (page): Bangumi 明确标为2013年TV版，共13话，构成为10话新作、2话总结、1话特别篇；系列监督为松本理恵，动画制作为东映动画，剧情围绕镜都、筝与黑兔古都展开。\n\nhttps://www.themoviedb.org/tv/85065 (api_snapshot): TMDB 85065为2013年《京騒戯画》，别名包含Kyousougiga (2013)及Kyousogiga TV；导演松本理恵、东映动画制作及镜都家庭故事均吻合。详情列出第1季10集、第0季3集。\n\nhttps://www.themoviedb.org/tv/85065/season/1 (api_snapshot): 第1季完整集表共10集，total_pages=1；第1至10集日文标题与输入的Bangumi sort 1至10逐一完全相同，日期均比Bangumi晚一天，且第5至6集之间同样间隔两周。\n\nhttps://www.themoviedb.org/tv/85065/season/0 (api_snapshot): 第0季完整集表共3集，total_pages=1：第1集为预习篇，第2集为京都实录篇，第3集为复习篇；标题分别与Bangumi章节301753、301759、323950一致。第2集简介明确为声优探访京都取景地的番外篇，第3集为角色旁白回顾故事。\n\n备注：TMDB正篇及预习篇、复习篇的日期均比Bangumi晚一天；京都实录篇为2013-11-24，而Bangumi为2013-11-13，差异原因尚未核实。该篇标题及实录内容明确吻合，不影响章节对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/79114; https://www.themoviedb.org/tv/85065; https://www.themoviedb.org/tv/85065/season/1; https://www.toei-anim.co.jp/tv/kyousougiga/; https://www.comparandonos.com/television/series/kyousougiga-58027/temporada-0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.animeschedule.net/anime/kyousougiga-2012",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/79114; https://www.themoviedb.org/tv/85065; https://www.themoviedb.org/tv/85065/season/1; https://www.themoviedb.org/tv/85065/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85065
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 85065,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     },
     {
       "id": 85065,
-      "season": 1,
+      "season": 0,
       "type": "tv"
     }
   ]

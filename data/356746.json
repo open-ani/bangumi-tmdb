@@ -1,18 +1,54 @@
 {
   "bangumiId": 356746,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1066511,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1066512,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1066511,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 194718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1066512,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 194718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 194718 第0季第1至2集。两话迷你动画的版本、发布年份、逐话编号与日期、集数及角色声优相互吻合。旧映射覆盖整个第0季过宽，应缩小至这两集，排除2022至2023年的24话迷你动画及2023年TV正篇。\n\nhttps://bgm.tv/subject/356746 (page): Bangumi 将本条目标为 WEB 动画，共两话，发布范围为 2020年11月7日至14日；原作为ハヤケン，人物原案为 Nagu。\n\nhttps://natalie.mu/comic/news/403002 (search_snippet): 2020年10月31日的报道明确区分宣传 PV 与两话迷你动画：第1话于11月7日、第2话于11月14日公开；鬼頭明里、加隈亜衣分别出演两名主角。\n\nhttps://www.themoviedb.org/tv/194718 (api_snapshot): TMDB 194718 主体为 2023 年 Studio Comet 制作的电视动画，剧情与角色相符；详情另列始于 2020年11月7日的第0季，需按特别篇范围识别本条目。\n\nhttps://www.themoviedb.org/tv/194718/season/0 (api_snapshot): 第0季完整集表共26集，仅1页。第1、2集标题分别明确标示「ミニアニメ第1話」「ミニアニメ第2話」，日期分别为2020年11月7日、14日，片长均为2分钟；第3集起属于2022至2023年的另一批迷你动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/356746; https://natalie.mu/comic/news/403002; https://www.themoviedb.org/tv/194718; https://www.themoviedb.org/tv/194718/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 194718,
       "season": 0,
       "type": "tv"

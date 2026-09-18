@@ -1,16 +1,86 @@
 {
   "anidbId": 13839,
   "bangumiId": 238640,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850036,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850037,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850038,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850039,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850040,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850041,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850042,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850043,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850044,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850045,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850046,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850047,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演及制作方一致；第1季完整覆盖本作12话，逐集标题和顺序全部吻合，可确认本篇1—12话对应 TMDB 第1季1—12集。\n\nhttps://www.themoviedb.org/tv/83120 (api_snapshot): TMDB 83120 为2019年电视动画《ぱすてるメモリーズ》，首播日期2019-01-07；秋叶原兔子小屋本铺的12名少女对抗破坏作品记忆的病毒这一剧情、导演篠崎康行及参与制作的 FuRyu、MAGES. 等均与输入一致。\n\nhttps://www.themoviedb.org/tv/83120/season/1 (api_snapshot): 已读取第1季完整集表，共12集、1页。全部集标题与 Bangumi 第1至12话按顺序对应，第2话仅省略号形式不同；第1至9话播出日期逐集一致。第10至12话标题一致，但日期存在差异。\n\n备注：TMDB 第10、11、12集日期分别为2019-03-10、2019-03-17、2019-03-17，输入 Bangumi 分别为2019-03-11、2019-03-18、2019-03-25；日期差异原因未确认，但集标题、顺序及总集数足以确定对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/238640; https://www.themoviedb.org/tv/83120; https://www.themoviedb.org/tv/83120/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83120
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,55 @@
 {
   "bangumiId": 497924,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1429681,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1429682,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1429683,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1429684,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1429685,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1429686,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、配信媒介、剧情、制作公司及官方导演资料一致；TMDB 第一季完整六集与 Bangumi 本篇六集标题逐一吻合，覆盖范围一致，确认本篇第1—6话对应 S01E01—S01E06。\n\nhttps://global.yamaha-motor.com/jp/showroom/tokyooverride/ (page): 雅马哈官方专题确认本作为 Netflix 配信的科幻摩托车动作动画，背景为百年后自动化的东京；导演为深田祐辅、Veerapatra Jinanavin，动画制作为 RiFF Studio，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/256324 (api_snapshot): TMDB 256324 的原名为 Tokyo Override，首播及末播日期均为 2024-11-21，制作公司为 RiFF studio，共一季六集；黑客与秘密配送团体揭露东京黑暗面的剧情与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/256324/season/1 (api_snapshot): 第一季真实集表共六集，仅一页；第1至6集标题依次为「ハイウェイ」「鼓動」「サスペンション」「仮面」「方位磁針」「東京」，与输入 Bangumi 六集标题及顺序逐一相同。各集日期均为 2024-11-21，与 subject 的配信起止日期一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/497924; https://global.yamaha-motor.com/jp/showroom/tokyooverride/; https://www.themoviedb.org/tv/256324; https://www.themoviedb.org/tv/256324/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 256324
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

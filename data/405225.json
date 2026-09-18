@@ -1,15 +1,106 @@
 {
+  "anidbId": 18465,
   "bangumiId": 405225,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1279576,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1279577,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1279578,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1279579,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1279580,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1279581,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1279582,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1279583,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1279584,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1279585,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1279586,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1279587,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1279588,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1279589,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1279590,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1279591,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 246549 的原名为“一世之尊”、别名含 Ancient Lords/Yishi Zhi Zun，首播日期为 2024-02-18；剧情、导演（韩文勇、忻元君）、制作公司（万维猫动画、bilibili）均与 Bangumi 信息一致。TMDB 第1季实际包含第1至16集，标题、日期和剧情进展与 Bangumi 集表逐集对应，因此可使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/405225 (api_snapshot): Bangumi API确认作品为2024-02-18开播、共16集，剧情为孟奇在轮回空间经历任务并成为“雷刀狂僧”，导演为韩文勇、忻元君，制作包括bilibili与万维猫动画。\n\nhttps://www.themoviedb.org/tv/246549 (api_snapshot): TMDB详情确认原名“一世之尊”、英文名 Ancient Lords，开播2024-02-18，已完结，共1季16集；剧情、导演、制作公司与Bangumi主体一致。\n\nhttps://www.themoviedb.org/tv/246549/season/1 (api_snapshot): TMDB第1季实际有16集，覆盖第1至第16集，播出日期为2024-02-18至2024-05-26；集标题与Bangumi集标题逐集对应。",
+    "evidence": "codex: 首播日期、剧情、导演、制作公司及动画媒介信息一致；第1季完整16集的标题和顺序与 Bangumi 本篇逐集吻合，未混入其他作品，可确认整季映射及第1至16集连续对应。\n\nhttps://www.themoviedb.org/tv/246549 (api_snapshot): TMDB 详情确认该作于2024年2月18日首播，剧情为孟奇经历轮回空间任务并成为雷刀狂僧；导演韩文勇、忻元君，制作公司万维猫动画及 bilibili，与输入一致。配音角色信息亦支持其为对应动画版本，全作共1季16集。\n\nhttps://www.themoviedb.org/tv/246549/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共16集。第1至16集标题与输入的16个本篇章节逐一完全一致，顺序一致，首集《奇诡相聚》、末集《撞破秘密》。前两集均标注2024年2月18日播出，此后每周一集，末集为2024年5月26日。\n\n备注：输入的 Bangumi 逐集播出日期为空，无法双向核对每集日期；逐集对应由全部16集标题、顺序、总集数及作品首播日期共同确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/405225; https://api.bgm.tv/v0/subjects/405225; https://www.themoviedb.org/tv/246549; https://www.themoviedb.org/tv/246549/season/1",
-    "verifiedAt": "2026-09-08T23:37:09.397Z"
+    "source": "https://bgm.tv/subject/405225; https://www.themoviedb.org/tv/246549; https://www.themoviedb.org/tv/246549/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 246549
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,14 +1,64 @@
 {
   "anidbId": 8085,
   "bangumiId": 12496,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 71984,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 71985,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 892830,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 71984,
+      "targets": [
+        {
+          "episode": 17,
+          "id": 56343,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 71985,
+      "targets": [
+        {
+          "episode": 22,
+          "id": 56343,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 892830,
+      "targets": [
+        {
+          "episode": 25,
+          "id": 56343,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为 OVA，共2话，发售日为2011-02-23和2011-03-30；两话标题、日期及制作阵容与《Baka to Test to Shoukanjuu: Matsuri》一致。AniDB 标题数据将 ID 8085 对应到该 Matsuri OVA。TMDB TV 56343 的特别编季（season 0）中，第17集和第22集分别对应两话主体，第25集标题为“Baka Galgame”，与 Bangumi 下挂的 SP.1 完全对应。该季其余集数包含其他TV特别篇、替代结局及Blu-ray BOX特典，因此不能整季纳入。\n\nhttps://bgm.tv/subject/12496 (page): Bangumi 条目标题为“バカとテストと召喚獣 〜祭〜”，类型为 OVA，共2话，发售日期为2011-02-23至2011-03-30，并列出导演大沼心、动画制作SILVER LINK.等信息。\n\nhttps://bgm.tv/ep/71984 (page): Bangumi 第1话标题为“僕とメイドと新たなる旅立ち”，首播日2011-02-23。\n\nhttps://bgm.tv/ep/71985 (page): Bangumi 第2话标题为“バカと花火と召喚大会”，首播日2011-03-30。\n\nhttps://bgm.tv/ep/892830 (page): Bangumi 将“Baka Galgame”列为该条目的 SP.1，时长约2分54秒。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的AniDB标题数据摘要显示 ID 8085 对应“Baka to Test to Shoukanjuu: Matsuri”。\n\nhttps://www.themoviedb.org/tv/56343 (api_snapshot): TMDB TV 56343 的原名为“バカとテストと召喚獣”，首播日2010-01-07，并列出特别编季 season 0 及两季正篇。\n\nhttps://www.themoviedb.org/tv/56343/season/0 (api_snapshot): TMDB season 0 标题为“特別編”；第17集为Matsuri第1话（2011-02-23），第22集为Matsuri第2话（2011-03-30），第25集为“Baka Galgame”。同季还包含其他特别篇、替代结局和Blu-ray BOX特典。",
+    "evidence": "codex: 确认对应TMDB 56343第0季的第17、22、25集。两话OVA的版本标记、标题、发行日期及制作阵容吻合；附属短片Baka Galgame的标题、所属OVA及片长吻合。三个集号不连续，使用章节ID逐一指定。\n\nhttps://bgm.tv/subject/12496 (page): 条目为2011年发行的两话OVA《バカとテストと召喚獣 〜祭〜》，内容为文月学园清凉祭；导演大沼心，动画制作SILVER LINK.，发行区间为2011-02-23至2011-03-30。\n\nhttps://www.themoviedb.org/tv/56343 (api_snapshot): 实际调用详情确认：TV 56343为同系列动画，导演大沼心、制作公司SILVER LINK.及主要角色配音一致；别名中明确包含标注为OVA的《笨蛋，测验，召唤兽 ～祭～》，并设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/56343/season/0 (api_snapshot): 第0季共26集，total_pages=1。第17集明确为《祭》第1话，副标题「僕とメイドと新たなる旅立ち」，日期2011-02-23；第22集明确为《祭》第2话，副标题「馬鹿と花火と召還大会」，日期2011-03-30。两集均29分钟，与输入两话逐一吻合，仅第二话标题存在用字差异。第25集为Baka Galgame，时长3分钟。同季另有其他短片、替代结局和2017年BOX特典，不能整季映射。\n\nhttps://bgm.tv/ep/892830 (page): Bangumi章节892830为本条目SP.1「Baka Galgame」，时长02:54，未填写首播日期；标题及约3分钟时长与TMDB第0季第25集一致。\n\n备注：TMDB将Baka Galgame日期记为2010-08-29，早于OVA发行；Bangumi未提供该短片日期，因此此日期未获交叉确认，短片对应依据为明确标题、所属版本及片长。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/12496; https://bgm.tv/ep/71984; https://bgm.tv/ep/71985; https://bgm.tv/ep/892830; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/56343; https://www.themoviedb.org/tv/56343/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/12496; https://www.themoviedb.org/tv/56343; https://www.themoviedb.org/tv/56343/season/0; https://bgm.tv/ep/892830",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,86 @@
 {
   "anidbId": 13845,
   "bangumiId": 238988,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 805477,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 805478,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 805479,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 805480,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 805481,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 805482,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 805483,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 805484,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 805485,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 805486,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 805487,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 805488,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 238988 明确为《ゾイドワイルド》TV动画，2018-07-07开播、2019-06-29结束、全50话，制作信息与 AniDB 13845 的 TV、50集及日期一致。TMDB 80720 的第1季同样从2018-07-07开始，共50集，完整集标题与播出日期覆盖至2019-06-29，因此对应整季第1季；不是电影、OVA、总集篇或重剪版。Bangumi当前章节列表/API仅列出12集，但主体元数据和独立资料均确认完整作品为50集，不能据此缩短范围。\n\nhttps://bgm.tv/subject/238988 (page): Bangumi 标记为TV，话数50，放送日期为2018-07-07至2019-06-29，原作タカラトミー、导演須藤典彦、系列构成広田光毅、动画制作OLM；关联条目中《ゾイドワイルド ZERO》和《ゾイドワイルド戦記》为独立续集/衍生项目。\n\nhttps://anidb.net/anime/13845 (page): AniDB 13845 的正式标题为 ゾイドワイルド，类型为TV Series、50 episodes，年份为2018-07-07至2019-06-29；原作Takara Tomy、导演Sutou Norihiko、系列构成Hirota Mitsutaka、动画制作OLM。\n\nhttps://www.takaratomy.co.jp/products/anime-zoidswild/story/ (page): 官方故事页列出第50话《つなげ！未来への絆》，与完整50集TV版本相符。\n\nhttps://www.themoviedb.org/tv/80720 (api_snapshot): TMDB TV 80720 原名为 ゾイドワイルド，首播日期2018-07-07，共50集，包含第1季。\n\nhttps://www.themoviedb.org/tv/80720/season/1 (api_snapshot): TMDB第1季 season_number=1，开播2018-07-07，共50集；快照包含第1至50集的标题和日期，末集为2019-06-29。\n\n备注：Bangumi页面/API当前实际列出的章节只有前12集，和主体标注的50话不一致；这被视为Bangumi章节数据不完整，而非版本或TMDB季范围不确定。",
+    "evidence": "codex: 确认对应TMDB 80720第1季整季。媒介、首末播日期、50话规模、导演及官方剧情均吻合，季表未混入ZERO或其他系列作品。Bangumi主体覆盖全50话，但章节仅录入前12话；这12话按逐集播出日期确认一一对应，规则只覆盖已存在的章节。\n\nhttps://bgm.tv/subject/238988 (page): Bangumi 标明本作为 TV 动画，共50话，播出时间为2018-07-07至2019-06-29；导演須藤典彦，原作タカラトミー，动画制作OLM。《ゾイドワイルド ZERO》和《ゾイドワイルド戦記》另列为续集、衍生作品。\n\nhttps://www.themoviedb.org/tv/80720 (api_snapshot): TMDB 80720 原名为「ゾイドワイルド」，导演須藤典彦，角色包括アラシ；首末播日期与Bangumi一致，仅有第1季，共50集。\n\nhttps://www.themoviedb.org/tv/80720/season/1 (api_snapshot): 已读取第1季完整50集，total_pages=1，覆盖2018-07-07至2019-06-29。第1至12集日期逐一对应Bangumi现有章节；第50集标题及アラシ、ドレイク对抗デスレックス的决战剧情与官网一致。\n\nhttps://bgm.tv/subject/238988/ep (page): Bangumi章节页实际仅列本篇1至12，标题均为空；日期依次为2018-07-07、07-14、07-21、07-28、08-04、08-11、08-18、08-25、09-01、09-08、09-15、09-22，与TMDB第1季同号集逐一相同。\n\nhttps://www.takaratomy.co.jp/products/anime-zoidswild/story/ (page): 官方故事页列出第40至50话；第50话为「つなげ！未来への絆」，标题和决战剧情对应TMDB季末，支持完整50话作品范围。\n\n备注：Bangumi第1至12话没有标题，无法进行双方标题比对；对应依据为已确认的作品身份、章节编号和逐集相同的播出日期。；Bangumi尚缺第13至50话章节数据，因此未生成这些章节的逐集规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/238988; https://anidb.net/anime/13845; https://www.takaratomy.co.jp/products/anime-zoidswild/story/; https://www.themoviedb.org/tv/80720; https://www.themoviedb.org/tv/80720/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/238988; https://www.themoviedb.org/tv/80720; https://www.themoviedb.org/tv/80720/season/1; https://bgm.tv/subject/238988/ep; https://www.takaratomy.co.jp/products/anime-zoidswild/story/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80720
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

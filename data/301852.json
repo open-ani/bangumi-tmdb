@@ -1,18 +1,158 @@
 {
   "bangumiId": 301852,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 936676,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 936677,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 936678,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 936679,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 936680,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 936681,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 936682,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 936683,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 936684,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 936685,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 936686,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 936687,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 936688,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 936689,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 936690,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 936691,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 936692,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 936693,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 936694,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 936695,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 936696,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 936697,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 936698,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 936699,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 936700,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 936701,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB《PAW Patrol》（PAW Patrol／パウ・パトロール／狗狗巡逻队）第 3 季。TMDB 首播日期为 2015-11-20，剧情、媒介和制作方与 Bangumi 主体一致；第 3 季实际包含 50 个 12/23 分钟片段，而官方及 Bangumi 按两个片段合并计为 26 集。TMDB 第 3 季完整覆盖该季内容且未混入其他作品，因此使用整季映射。\n\nhttps://www.themoviedb.org/tv/57532 (api_snapshot): TMDB 详情确认原名 PAW Patrol、首播日期 2013-08-12、剧情为 Ryder 带领救援犬队执行任务，并列出中文别名“狗狗巡逻队”和日文别名“パウ・パトロール”；第 3 季日期为 2015-11-20、episode_count 为 50。\n\nhttps://www.themoviedb.org/tv/57532/season/3 (api_snapshot): TMDB 第 3 季季表实际返回 50 集，范围为第 1 至 50 集；首集 2015-11-20，内容包括 Pups Find a Genie、Air Pups、Tracker Joins the Pups! 及最终的 Pups Save Their Floating Friends／Pups Save a Satellite。\n\nhttps://dev.pawpatrol.com/episode-guide (page): PAW Patrol 官方 Episode Guide 将 Season 3 标为 26 Episodes。\n\nhttps://www.tvguide.com/tvshows/paw-patrol/episodes-season-3/1030531595/ (page): Season 3 被列为 2015–2017 年的 26 集；第 1 集为 Pups Find a Genie／Pups Save a Tightrope Walker，第 26 集为 Pups Save Their Floating Friends／Pups Save a Satellite，与 TMDB 季表首尾内容对应。\n\nhttps://en.wikipedia.org/wiki/List_of_Paw_Patrol_episodes (page): 作品身份资料确认这是加拿大 CGI 动画电视系列，Keith Chapman 创作，由 Spin Master 制作并由 Guru Studio 提供动画，与 Bangumi 描述的制作背景一致。\n\n备注：Bangumi 记录的播放结束日期为 2017-01-14，而官方/其他剧集表显示该季最后一集在 2017-01-26 播出，日期存在来源差异。；Bangumi 按 26 个合并播出单元计数，TMDB 按 50 个独立片段计数；这是集数粒度差异，不是版本或作品身份差异。",
+    "evidence": "codex: 确认对应TMDB 57532第三季中的第1–2、5–50集。作品年代、剧情、制作背景及官方26集内容一致。旧映射错误包含了官方第二季223A/B，不能保留整季范围。Bangumi章节全部缺少标题和日期，无法确定采用制作顺序还是播出顺序，因此仅确认作品范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/57532 (api_snapshot): TMDB 57532 为2013年首播的《PAW Patrol》电视系列，制作公司包含 Spin Master；Ryder 带领救援犬帮助居民的剧情与输入一致。第三季首播日期为2015-11-20。\n\nhttps://gurustudio.com/projects/paw-patrol (search_snippet): Guru Studio 官方项目资料确认本作是为 Spin Master、Nick Jr 制作的三维动画系列，并注明创作者 Keith Chapman，与输入的制作背景和媒介一致。\n\nhttps://www.themoviedb.org/tv/57532/season/3 (api_snapshot): 已读取第三季完整集表，共50集、1页。第3、4集分别为滑雪比赛救援和海中小鸡救援；其余第1–2、5–50集的标题与官方第三季清单对应，其中第7、8、27、44集为23分钟长篇。\n\nhttps://dev.pawpatrol.com/episode-guide (page): 官方目录将第三季列为26集。\n\nhttps://dev.pawpatrol.com/seasons/season-3 (page): 官方第三季目录列出301至326制作单元；按标题逐项核对，22个双短篇单元和4个长篇对应TMDB第三季第1–2、5–50集，共48条。\n\nhttps://dev.pawpatrol.com/seasons/season-2 (page): 官方第二季目录将 Pups Save a Snowboard Competition 和 Pups Save a Chicken of the Sea 明确列为223A、223B；因此TMDB第三季第3、4集应排除，与输入中的第二季归属范围一致。\n\nhttps://www.tvguide.com/tvshows/paw-patrol/episodes-season-3/1030531595/ (page): 第三季清单为2015–2017年的26个单元，首集日期2015-11-20、末集2017-01-26；标题组合与官方制作单元一致，但编号顺序并非完全按播出日期排列。\n\n备注：需要补充Bangumi各章节标题、日期或明确的排序依据，才能建立一对多的逐集对应；不能直接将官方制作编号套用到空白sort。；Bangumi记录结束日期为2017-01-14，TMDB及TV Guide末集日期为2017-01-26，存在日期来源差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/301852; https://www.themoviedb.org/tv/57532; https://www.themoviedb.org/tv/57532/season/3; https://dev.pawpatrol.com/episode-guide; https://www.tvguide.com/tvshows/paw-patrol/episodes-season-3/1030531595/; https://en.wikipedia.org/wiki/List_of_Paw_Patrol_episodes",
-    "verifiedAt": "2026-09-08T21:55:25.844Z"
+    "source": "https://bgm.tv/subject/301852; https://www.themoviedb.org/tv/57532; https://gurustudio.com/projects/paw-patrol; https://www.themoviedb.org/tv/57532/season/3; https://dev.pawpatrol.com/episode-guide; https://dev.pawpatrol.com/seasons/season-3; https://dev.pawpatrol.com/seasons/season-2; https://www.tvguide.com/tvshows/paw-patrol/episodes-season-3/1030531595/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 57532,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 5,
+      "episodeEnd": 50,
       "id": 57532,
       "season": 3,
       "type": "tv"

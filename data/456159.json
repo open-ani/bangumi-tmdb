@@ -1,19 +1,161 @@
 {
   "anidbId": 18949,
   "bangumiId": 456159,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1341970,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1341971,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1341972,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1341973,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1341974,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1341975,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1341976,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1341977,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1341978,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1341979,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1341980,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1341981,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1341982,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1341983,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1341984,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1341985,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1341986,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1341987,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1341988,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1341989,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1341990,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1341991,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1341992,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1341993,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1341994,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1341995,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、首播日期、剧情、导演及制作公司一致，26话标题与日期逐集吻合，确认对应 TMDB 236534 第1季第1—26集。旧映射指向的作品和季正确，但整季范围过宽，应限定为这26集；与已由其他 subject 占用的第79—104集不重叠。\n\nhttps://www.themoviedb.org/tv/236534 (api_snapshot): 以原名“牧神记”搜索得到 TV 236534；详情确认首播日期为2024-10-27，导演为沈乐平，制作公司为 bilibili 与玄机科技，剧情围绕残老村少年秦牧及其霸体修炼展开，与输入的动画版本一致。\n\nhttps://www.themoviedb.org/tv/236534/season/1 (api_snapshot): 已读取第1季全部两页集表，共105集。第1至26集的标题和播出日期与输入的26个 Bangumi 章节逐集完全一致：前两集同于2024-10-27播出，第26集《暗界》于2025-04-13播出。第27集《死者生界》于2025-04-20播出，与输入续作的开始日期相符，故本 subject 仅覆盖第1至26集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/456159; https://www.themoviedb.org/tv/236534; https://www.themoviedb.org/tv/236534/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 236534
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 26,
       "id": 236534,
       "season": 1,
       "type": "tv"

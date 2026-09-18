@@ -1,19 +1,91 @@
 {
   "anidbId": 17826,
   "bangumiId": 415772,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1271474,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1271475,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1271476,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1271477,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1271478,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1271479,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1271480,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1271481,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1271482,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1271483,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1271484,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1271485,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、媒介、剧情及制作人员一致，12话的标题与播出日期比对支持顺序一一对应。TMDB 将2025年续篇并入同一季，旧映射需明确收窄为第1季第1至12集。\n\nhttps://www.themoviedb.org/tv/218493 (api_snapshot): TMDB 218493 为2024年1月6日首播的同名电视动画；佐藤追随姬前往异世界、与五位公主结婚的剧情，以及导演直谷たかし、动画制作 Staple Entertainment 均与输入一致。\n\nhttps://www.themoviedb.org/tv/218493/season/1 (api_snapshot): 完整季表共25集、仅1页。第1至12集标题逐一对应 Bangumi 的第1至12话，除第7集外播出日期全部一致；第13集起为2025年10月4日开始的续篇，因此本 subject 仅覆盖第1季第1至12集。\n\nhttps://talesofweddingrings-anime.jp/story/episode7/ (page): 官方第7话剧情为佐藤来到水之国并与萨フィール结婚，与 TMDB 第1季第7集简介一致，确认该集身份与编号。\n\nhttps://s.mxtv.jp/anime/talesofweddingrings/episode.html (search_snippet): TOKYO MX 官方放送信息搜索摘要注明第7话于2024年2月17日播出、第12话于2024年3月23日播出，支持 Bangumi 日期。\n\n备注：TMDB 第7集日期记为2024年2月16日，比 Bangumi 与官方放送信息早一天；标题及官方剧情一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/415772; https://www.themoviedb.org/tv/218493; https://www.themoviedb.org/tv/218493/season/1; https://talesofweddingrings-anime.jp/story/episode7/; https://s.mxtv.jp/anime/talesofweddingrings/episode.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 218493
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 218493,
       "season": 1,
       "type": "tv"

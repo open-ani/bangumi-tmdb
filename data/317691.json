@@ -1,19 +1,56 @@
 {
   "anidbId": 15812,
   "bangumiId": 317691,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1020564,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1020565,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1020566,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1020567,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1020568,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、动画媒介、制作公司、配音与剧情一致；逐集编号标题、上线日期及首批五集数量确认对应 TMDB 112160 第1季第1至5集。旧映射的整季范围过宽，第6至10集属于另立条目的 Part 2。\n\nhttps://bgm.tv/subject/317691 (page): Bangumi 标注本作为2021年4月8日上线的5集网络动画，导演今千秋、动画制作 J.C.STAFF；龙、美久、雅分别由津田健次郎、伊藤静、兴津和幸配音。五集首播日期均为2021年4月8日，并将 Part 2 单列为续集。\n\nhttps://www.themoviedb.org/tv/112160 (api_snapshot): TMDB 112160 的英文详情确认原名为《極主夫道》，首播2021年4月8日，制作公司 J.C.STAFF，三位主要配音及退隐黑道成为家庭主夫的剧情均与 Bangumi 一致，确认是动画版本。\n\nhttps://www.themoviedb.org/tv/112160/season/1 (api_snapshot): 已读取第一季日文及英文完整集表，共10集、仅1页。英文第1至5集标题依次为 Episode 1至Episode 5，日期全部为2021年4月8日，与 Bangumi 五集的编号标题和日期逐一一致；第6至10集均为2021年10月7日，属于后续批次。\n\nhttps://www.netflix.com/title/81261669 (page): Netflix 官方条目将作品列为日本漫画改编动画，剧情及津田健次郎、伊藤静、兴津和幸的主演阵容与 Bangumi、TMDB 英文详情一致。\n\n备注：TMDB 日文简介及日文集标题混入真人版内容；英文详情、英文集标题、配音、制作公司及分集日期支持本次动画映射，该本地化数据异常不影响已确认范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/317691; https://www.themoviedb.org/tv/112160; https://www.themoviedb.org/tv/112160/season/1; https://www.netflix.com/title/81261669",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112160
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 5,
       "id": 112160,
       "season": 1,
       "type": "tv"

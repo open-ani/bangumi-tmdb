@@ -1,15 +1,86 @@
 {
+  "anidbId": 16628,
   "bangumiId": 345791,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1055708,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1055709,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1055710,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1055711,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1055712,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1055713,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1055714,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1055715,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1055716,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1055717,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1055718,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1055719,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 139517 是同一部 2021 年中国 WEB 动画《颜王》：原名、别名“颜王 -怪画廊- / Yan Wang: Guai Hualang”、首播日期、安小谷变身并拯救妹妹的剧情均吻合。Bangumi/官方 WeTV 均确认全 12 集；TMDB 详情确认仅 1 季、12 集，季表实际覆盖第 1—12 集且未混入其他作品，因此使用完整第 1 季。TMDB 集数日期延至 2021-12-05，而 Bangumi 记录至 2021-11-21，属于播出日期元数据差异，不影响作品身份及范围。\n\nhttps://www.themoviedb.org/tv/139517 (api_snapshot): TMDB 详情确认 TV 条目 139517《颜王》，原名《颜王》，首播 2021-09-19，简介与 Bangumi 剧情一致；有 1 季、12 集，并列出“颜王 -怪画廊-”“Yan Wang: Guai Hualang”等别名。\n\nhttps://www.themoviedb.org/tv/139517/season/1 (api_snapshot): TMDB 第 1 季实际集表共 12 集，episode_number 连续覆盖 1 至 12，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/345791 (api_snapshot): Bangumi 原始 API 确认该条目为 2021-09-19 开始的 WEB 动画，共 12 集，剧情为安小谷因奇遇变成五星级美女并拯救妹妹；制作方为腾讯视频、好传动画，导演孙辰。\n\nhttps://bgm.tv/subject/345791 (page): Bangumi 页面列出《颜王》WEB、12 集、别名“颜王 -怪画廊- / 颜王 怪画廊”、导演孙辰、脚本 DC(DCZLD)、分镜文柏晓/庞磊/孙辰及好传动画等制作信息。\n\nhttps://wetv.vip/zh-tw/play/wd6m2rmio03t5h5/x0045l3d6zq-%E9%A2%9C%E7%8E%8B_01 (page): 腾讯 WeTV 页面确认《颜王》为 2021 年中国大陆动画，全 12 集，剧情与 Bangumi、TMDB 一致。\n\n备注：TMDB 与 Bangumi 对后续集数的播出日期记录不一致：TMDB 第 12 集为 2021-12-05，Bangumi 记录为 2021-11-21。",
+    "evidence": "codex: 作品年份、首播日期、别名、出品方、核心剧情及12集范围相互吻合，确认对应TMDB 139517第1季全季。逐集映射仅确认第1集，其标题、日期和时长相符；第2—12集日期存在冲突，标题又仅为通用编号，暂不建立连续规则。\n\nhttps://bgm.tv/subject/345791 (page): Bangumi 确认《颜王》为2021年9月19日开播的12集网络动画，导演孙辰，腾讯视频、好传动画制作；别名为“颜王 -怪画廊-”。\n\nhttps://www.themoviedb.org/tv/139517 (api_snapshot): TMDB 139517 原名《颜王》，首播2021年9月19日，共1季12集；别名、企鹅影视与好传动画出品信息，以及安小谷变成五星级美女并拯救妹妹的剧情均与待核对作品吻合。演职员字段为空。\n\nhttps://www.themoviedb.org/tv/139517/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1，集号连续为1—12，标题均为“第N集”。第1集日期为2021年9月19日；第2—12集按周排列至12月5日，与Bangumi对应集日期不同。第9集6分钟、第12集10分钟，与Bangumi相应集时长接近。\n\nhttps://wetv.vip/zh-tw/play/wd6m2rmio03t5h5/x0045l3d6zq (page): 腾讯官方WeTV页面确认《颜王》为2021年中国大陆作品，全12集，安小谷变身并拯救妹妹的剧情一致；当前页面对应第01集。\n\n备注：Bangumi前三集同于2021年9月19日播出，末集为11月21日；TMDB从首日起每周一集，末集为12月5日。尚未取得官方会员与免费更新排期，无法确认差异原因。；第2—12集保留未映射，需官方逐集排期或可区分的集内容进一步核对；不按日期重排，也不直接套用编号顺序。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/345791; https://www.themoviedb.org/tv/139517; https://www.themoviedb.org/tv/139517/season/1; https://api.bgm.tv/v0/subjects/345791; https://wetv.vip/zh-tw/play/wd6m2rmio03t5h5/x0045l3d6zq-%E9%A2%9C%E7%8E%8B_01",
-    "verifiedAt": "2026-09-08T23:04:19.905Z"
+    "source": "https://bgm.tv/subject/345791; https://www.themoviedb.org/tv/139517; https://www.themoviedb.org/tv/139517/season/1; https://wetv.vip/zh-tw/play/wd6m2rmio03t5h5/x0045l3d6zq",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 139517
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

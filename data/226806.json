@@ -1,16 +1,86 @@
 {
   "anidbId": 13495,
   "bangumiId": 226806,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850228,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850229,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850230,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850231,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850232,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850233,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850234,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850235,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850236,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850237,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850238,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850239,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2019-01-11 开播、共 12 集的《B-PROJECT～絶頂＊エモーション～》，AniDB 关联 ID 13495 且状态为 matched。TMDB TV 67628 的第 2 季标题、开播日期、集数及 12 个剧集标题均与该 subject 对应；因此采用完整第 2 季。\n\nhttps://bgm.tv/subject/226806 (page): Bangumi subject 标题为《B-PROJECT～絶頂＊エモーション～》，日期为 2019-01-11，共 12 集，AniDB ID 为 13495。\n\nhttps://www.themoviedb.org/tv/67628 (api_snapshot): TMDB TV 67628 为《B-PROJECT～鼓動＊アンビシャス～》，包含第 2 季《B－PROJECT～絶頂＊エモーション～》，该季开播日期为 2019-01-11，共 12 集。\n\nhttps://www.themoviedb.org/tv/67628/season/2 (api_snapshot): TMDB 第 2 季的 12 集标题依次对应 Bangumi 的 BRAND NEW WORLD 至 CLIMAX EMOTION，且前 11 集播出日期与 Bangumi 记录一致。\n\n备注：TMDB 快照将第 12 集日期记为 2019-03-21，而 Bangumi 记为 2019-03-29；这是日期数据不一致，但不影响标题、顺序、版本和完整 12 集季的对应判断。",
+    "evidence": "codex: 确认对应 TMDB 67628 第二季整季。年份、电视动画媒介、制作人员、续篇剧情和 12 集范围一致；逐集核对标题、顺序及日期后，本篇 1—12 可连续对应 S02E01—E12，季内未混入其他作品。\n\nhttps://www.themoviedb.org/tv/67628 (api_snapshot): 以日文原名搜索命中 TV 67628；详情明确将《絶頂＊エモーション》标为第二季，2019-01-11 开播、12 集，另将 2016 年和 2023 年作品分列第一、三季。\n\nhttps://www.themoviedb.org/tv/67628/season/2 (api_snapshot): 已读取第二季完整集表（共 1 页、12 集）。剧情为演唱会成功后澄空翼与偶像们迎来 KiLLER KiNG，与输入一致。逐集标题和顺序对应 Bangumi 全部本篇，第七集存在拼写差异；第 1—9 集日期一致，第 10—12 集日期存在差异。\n\nhttps://bangumi.tv/subject/226806/ep (page): Bangumi 章节页列出本篇 1—12，日期为 2019-01-11 至 2019-03-29；末三集分别为 BRAVE ACTION、TRAP AGAIN、CLIMAX EMOTION。\n\nhttps://www.asahi.co.jp/anime/bpro-emotion/ (page): 朝日放送官方节目页确认本作是电视动画，导演森脇真琴、制作 BN Pictures；剧情及 KiLLER KiNG 加入的设定与 Bangumi 和 TMDB 第二季一致。\n\nhttps://www.crunchyroll.com/series/GRGGPG53R/b-project (search_snippet): Crunchyroll 列出第二季第 1—12 集，顺序与 TMDB 一致，第七集拼作 MIRROR COMPLEX，支持 Bangumi 的 MIRROW 为拼写差异。\n\n备注：当前 TMDB 第 10、11、12 集日期分别为 2019-03-14、2019-03-21、2019-03-21，Bangumi 为 2019-03-15、2019-03-22、2019-03-29；日期差异原因未确认，但标题、顺序及完整集数足以确定对应。；Bangumi 第七集标题为 MIRROW COMPLEX，TMDB 与 Crunchyroll 为 MIRROR COMPLEX；判定为拼写差异，不影响映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/226806; https://www.themoviedb.org/tv/67628; https://www.themoviedb.org/tv/67628/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/226806; https://www.themoviedb.org/tv/67628; https://www.themoviedb.org/tv/67628/season/2; https://bangumi.tv/subject/226806/ep; https://www.asahi.co.jp/anime/bpro-emotion/; https://www.crunchyroll.com/series/GRGGPG53R/b-project",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 67628
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

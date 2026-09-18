@@ -1,13 +1,124 @@
 {
   "bangumiId": 235400,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 771231,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 771232,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 771233,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 771234,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 771235,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 771236,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 771237,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 771238,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 771239,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 771240,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 771241,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 771242,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 771243,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 771244,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 771245,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 771246,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 771247,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 771248,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 771249,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 771250,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 771251,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 771252,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV《The Simpsons》主系列的第29季，而不是将整个主系列作为目标。TMDB 详情显示该系列自1989年开始，剧情、角色配音阵容及 Gracie Films/20th Television 制作信息均与《辛普森一家》一致；第29季日期为2017-10-01，TMDB季表实际包含1至21集，播至2018-05-20，剧情与 Bangumi 年份及标题相符。Bangumi 的 total_episodes=22 与 eps=21及外部集数资料不一致，但没有第22集属于该季度的证据，因此采用TMDB实际完整第29季。\n\nhttps://api.bgm.tv/v0/subjects/235400 (api_snapshot): Bangumi API确认标题为《The Simpsons Season 29》，平台为TV，开始日期为2017-10-01，eps=21、total_episodes=22。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB详情确认主系列《The Simpsons》；开始日期为1989-12-17，简介、主要角色配音、制作公司及外部系列ID均匹配。详情还列出Season 29开始于2017-10-01、共21集。\n\nhttps://www.themoviedb.org/tv/456/season/29 (api_snapshot): TMDB真实季表确认Season 29为2017-10-01开始，共21集，集号连续覆盖1-21，最后一集日期为2018-05-20；每集均为该剧情动画TV系列内容。\n\nhttps://www.tvguide.com/tvshows/the-simpsons/episodes-season-29/1000201313/ (search_snippet): 搜索摘要显示《The Simpsons》Season 29为2017-2018年、共21集，与TMDB季表一致。\n\nhttps://www.disneyplus.com/explore/articles/the-simpsons-collection-guide (search_snippet): 官方 Disney+ 资料确认《The Simpsons》是由 Matt Groening 创作、与 James L. Brooks及Sam Simon共同开发的半小时动画喜剧，并描述了与TMDB一致的系列设定。\n\n备注：Bangumi fresh API及旧Archive均出现22集相关计数，但公开季表和TMDB真实季表均确认第29季播出21集；第22条Bangumi记录的归属或数据状态未能确认。",
+    "evidence": "codex: 可确认subject主体对应TMDB 456第29季：原名、电视媒介、Fox播出平台、开播日期及Infobox的21话一致，完整季表亦经外部资料核对。Bangumi提供的22条章节均缺少标题和日期，无法进行逐集比对，因此仅确认整季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 为美国电视动画《The Simpsons》，讲述春田镇辛普森一家的生活，主要配音包括 Dan Castellaneta、Julie Kavner；制作公司包括 Gracie Films、20th Century Fox Television。季列表明确列出第29季于2017-10-01开播，共21集。\n\nhttps://www.themoviedb.org/tv/456/season/29 (api_snapshot): 实际读取第29季完整集表，total_pages=1，集号连续为1—21。首集《The Serfsons》于2017-10-01播出，末集《Flanders' Ladder》于2018-05-20播出；没有第22集。\n\nhttps://simpsonswiki.com/wiki/Season_29 (page): 第29播出季为Fox播出的21集电视动画，由Al Jean、Matt Selman担任节目统筹；页面所列全部21集的标题、顺序及播出日期均与TMDB第29季一致，剧情也相符。\n\nhttps://en.wikipedia.org/wiki/The_Simpsons_season_29 (search_snippet): 资料确认第29季于2017-10-01至2018-05-20在Fox播出，共21集，由Gracie Films和20th Century Fox Television制作。\n\n备注：Bangumi的22条章节与Infobox及已核实季表的21集冲突；第22条章节771252的归属未明，暂不映射，也不作明确排除。；本次无法读取Bangumi网页及API；需补充章节标题、播出日期或编辑记录，才能确认各章节对应关系，不能仅按sort位置推定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/235400; https://api.bgm.tv/v0/subjects/235400; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/29; https://www.tvguide.com/tvshows/the-simpsons/episodes-season-29/1000201313/; https://www.disneyplus.com/explore/articles/the-simpsons-collection-guide",
-    "verifiedAt": "2026-09-08T21:13:36.465Z"
+    "source": "https://bgm.tv/subject/235400; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/29; https://simpsonswiki.com/wiki/Season_29; https://en.wikipedia.org/wiki/The_Simpsons_season_29",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

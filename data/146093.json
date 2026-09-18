@@ -1,16 +1,91 @@
 {
   "anidbId": 11577,
   "bangumiId": 146093,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 566365,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 566366,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 566367,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 566368,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 566369,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 566370,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 566371,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 566372,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 566373,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 566374,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 566375,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 566376,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 566377,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 65292 第一季完整13集。年份、TV媒介、剧情、制作公司及导演一致，13个日文集标题逐集完全吻合，集数与顺序一致；日期整体符合深夜放送跨日差异。第一季未混入剧场版、OAD或第二季度，可建立本篇1—13集的一一对应规则。\n\nhttps://www.themoviedb.org/search?query=%E4%BA%9C%E4%BA%BA (api_snapshot): 日文原名搜索返回 TV 65292，并另列剧场动画《衝動》《衝突》《衝戟》及2017年真人电影，支持区分版本。\n\nhttps://www.themoviedb.org/tv/65292 (api_snapshot): TV 65292 为2016年《亜人》，剧情为高中生永井圭车祸后复活并遭追捕；制作公司为 Polygon Pictures，导演为安藤裕章、瀬下寛之，与输入一致。季列表将第一季13集、第二季13集和特别篇3集分别列出。\n\nhttps://www.themoviedb.org/tv/65292/season/1 (api_snapshot): 第一季真实集表共13集、仅1页；第1至13集日文标题全部与输入逐集一致。日期为2016-01-16至2016-04-09，除输入第5集的异常日期外，其余各集均比 Bangumi 晚一个自然日。\n\nhttps://www.ajin.net/tv/ (search_snippet): 官网搜索摘要公布 TV 系列于2016年1月15日起每周五深夜播出，TBS 为25时55分、MBS 为26时10分，解释 Bangumi 放送日与 TMDB 自然日相差一天。\n\n备注：输入第5集日期为2016-02-05，与第4集重复；TMDB 为2016-02-13。该日期差异尚未独立核实，但第5集标题完全一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/146093; https://www.themoviedb.org/search?query=%E4%BA%9C%E4%BA%BA; https://www.themoviedb.org/tv/65292; https://www.themoviedb.org/tv/65292/season/1; https://www.ajin.net/tv/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65292
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

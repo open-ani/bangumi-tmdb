@@ -1,21 +1,116 @@
 {
   "anidbId": 15456,
   "bangumiId": 302523,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1038292,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 1038293,
+      "sort": 38,
+      "type": 0
+    },
+    {
+      "id": 1038294,
+      "sort": 39,
+      "type": 0
+    },
+    {
+      "id": 1038295,
+      "sort": 40,
+      "type": 0
+    },
+    {
+      "id": 1038296,
+      "sort": 41,
+      "type": 0
+    },
+    {
+      "id": 1038297,
+      "sort": 42,
+      "type": 0
+    },
+    {
+      "id": 1038298,
+      "sort": 43,
+      "type": 0
+    },
+    {
+      "id": 1038299,
+      "sort": 44,
+      "type": 0
+    },
+    {
+      "id": 1038300,
+      "sort": 45,
+      "type": 0
+    },
+    {
+      "id": 1038301,
+      "sort": 46,
+      "type": 0
+    },
+    {
+      "id": 1038302,
+      "sort": 47,
+      "type": 0
+    },
+    {
+      "id": 1038303,
+      "sort": 48,
+      "type": 0
+    },
+    {
+      "id": 1040440,
+      "sort": 36.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1040440,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 82684 第 2 季后半部第 13—24 集，附带特别篇对应第 0 季第 8 集。作品类型、制作公司、剧情、十二集标题与逐集日期均吻合。旧映射覆盖整个第 2 季，混入前半部，应缩小范围。输入 infobox 的结束日期为 9 月 22 日，但逐集记录与 TMDB 均为 9 月 21 日，不影响对应。\n\nhttps://www.themoviedb.org/tv/82684 (api_snapshot): 以日文原名搜索后读取作品详情：TMDB 82684 为同名 TV 动画，制作公司包含 8bit，利姆露转生为史莱姆并建立魔物国家的剧情与输入一致；第 2 季为 2021 年播出的 24 集。\n\nhttps://www.themoviedb.org/tv/82684/season/2 (api_snapshot): 已读取第 2 季完整集表，共 24 集、1 页。第 13—24 集与 Bangumi 本篇 sort 37—48 的十二个标题逐一对应，仅存在「會／会」及标点差异；每集日期均一致，为 2021-07-06 至 2021-09-21 每周二。第 1—12 集于同年 1—3 月播出，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/82684/season/0 (api_snapshot): 已读取第 0 季完整集表，共 16 集、1 页。第 8 集《ヴェルドラ日記2》日期为 2021-06-29，与 Bangumi 特别篇 1040440 的标题和日期一致；简介确认为维鲁德拉与伊芙利特回顾此前剧情的总集篇。\n\n备注：输入 ownership 中其他 subject 对第 2 季及第 0 季存在整季占用声明，与本次已核实范围重叠；这些旧声明需要分别核查并细化。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/302523; https://www.themoviedb.org/tv/82684; https://www.themoviedb.org/tv/82684/season/2; https://www.themoviedb.org/tv/82684/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 48,
+      "episodeStart": 13,
+      "season": 2,
+      "start": 37,
+      "tmdbId": 82684
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 13,
+      "episodeEnd": 24,
       "id": 82684,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 8,
+      "id": 82684,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,13 +1,44 @@
 {
   "bangumiId": 552116,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1490077,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1490078,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1490079,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1490080,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1490081,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1490082,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 原名、第四季标识、上线日期、Hulu 平台、六集总量及前后季日期一致；TMDB 实际季表与发行平台的六集标题和剧情完全对应，可确认 subject 覆盖 TMDB 136322 第四季整季。Bangumi 六个章节均缺标题和日期，无法独立逐集核对，因此不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 为 DreamWorks Animation Television 制作的英语动画剧集，讲述《驯龙高手》故事约1300年后的现代少年与龙；第四季为2022年11月17日首播、共6集，前后两季日期也与输入关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/4 (api_snapshot): 实际读取第四季完整集表，total_pages=1：第1—6集均标为2022年11月17日，依次为 Cold Open、Uncharted Territory、Journey to the Snowcano、The Decoy、The Night Lights (1)、The Night Lights (2)。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-3gIyIV90hEo.P&gdid=tvepisode-Yn2-go89WtQ.P&id=OwRE1NBXwEI.P (page): Google Play 第四季列出6集，集号、标题、日期及剧情均与 TMDB 第四季逐项一致；本季内容包括探索冰之国度以及寻找 Thunder 的族群。\n\nhttps://www.youtube.com/watch?v=n7aZHwy4Y64 (search_snippet): Hulu 官方第四季预告说明本季围绕冰之国度、Thunder 的家族和 Buzzsaw 展开，并宣布11月17日上线，与候选季的剧情及日期一致。\n\n备注：Bangumi 主页面及章节页未能成功读取；现有章节数据不足以验证各章节 ID 的逐集对应。待补充章节标题或日期后可进一步建立规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552116; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/4; https://play.google.com/store/tv/show?cdid=tvseason-3gIyIV90hEo.P&gdid=tvepisode-Yn2-go89WtQ.P&id=OwRE1NBXwEI.P; https://www.youtube.com/watch?v=n7aZHwy4Y64",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

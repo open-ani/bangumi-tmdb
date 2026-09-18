@@ -1,15 +1,126 @@
 {
+  "anidbId": 14653,
   "bangumiId": 249240,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 800698,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 800699,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 800700,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 800701,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 800702,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 800703,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 800704,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 800705,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 800706,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 800707,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 800708,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 800709,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 800710,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 800711,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 800712,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 800713,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 800714,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 800715,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 800716,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 800717,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 106864 的剧情简介与 Bangumi 完全对应，均为唐僧师徒取经归来、经书被盗、孙悟空附身现代高中生付贺的故事；该条目明确包含两个季：第1季始于2016年，第2季始于2018年12月26日。第2季实际季表有连续第1至20集，首集日期与 Bangumi 一致，且主体集数正好为20集，因此对应狠西游第2季整季。\n\nhttps://api.bgm.tv/v0/subjects/249240 (api_snapshot): Bangumi 标题为狠西游 第2季，日期为2018-12-26，WEB动画，共20集；剧情和制作信息指向青青树动漫制作的该版本。\n\nhttps://www.themoviedb.org/tv/106864 (api_snapshot): TMDB 搜索到 TV 条目狠西游；详情显示剧情与 Bangumi 相同，首播日期为2016-07-18，末播日期为2019-05-08，共2季40集，并列出第2季日期2018-12-26、20集及别名神猎、Hen Xiyou。\n\nhttps://www.themoviedb.org/tv/106864/season/1 (api_snapshot): TMDB 第1季实际为2016-07-18开始的20集，确认其是旧季，不应作为本 subject 的目标。\n\nhttps://www.themoviedb.org/tv/106864/season/2 (api_snapshot): TMDB 第2季实际季表包含连续第1至20集，首集为2018-12-26，覆盖本 subject 的全部20集。\n\n备注：TMDB 详情中的 cast/crew 为空，无法用 TMDB 工作人员字段进一步交叉核对；但剧情、别名、日期、季数和集数均与 Bangumi 信息一致。",
+    "evidence": "codex: 剧情、别名、动画版本、首播时间与第二季20集范围相互吻合，可确认对应 TMDB 106864 第二季整季。逐集比对确认第1至7集编号、标题及日期一致，建立连续规则；第8至20集存在日期冲突且标题无区分信息，暂不建立逐集映射。\n\nhttps://bangumi.tv/subject/249240 (page): Bangumi 确认本作是2018年12月26日开播的网络动画第二季，共20集，导演周洁、刘雅，动画制作青青树、声影动漫；剧情为孙悟空灵魂附身现代高中生付贺。\n\nhttps://www.themoviedb.org/tv/106864 (api_snapshot): 按中文原名搜索后读取详情：TMDB 106864 的剧情、角色与别名吻合，包含2016年第一季及2018年12月26日开始的第二季，各20集。制作公司、演职员字段为空。\n\nhttps://www.themoviedb.org/tv/106864/season/2 (api_snapshot): 第二季真实集表共20集，total_pages=1，集号连续1至20，标题均为通用编号。第1至7集日期与 Bangumi 逐集一致；第8至20集日期存在差异。\n\nhttps://bangumi.tv/subject/249240/ep (page): Bangumi 本篇完整列出20集。第8至16集日期比 TMDB 同号集晚7天，第17至20集晚6天；最后一集日期为2019年5月14日，TMDB 为5月8日。\n\nhttps://movie.sogou.com/cartoon/mnqxe5dpn5xf6nrwgi3damijxlo4556tzyqllwrsxs7a.html (search_snippet): 搜狗影视将《狠西游 第2季》列为2018年动画，共20集，导演周洁，提供腾讯播放入口，剧情同样涉及悟空附身付贺。\n\n备注：第8至20集的日期差异原因未确认；需腾讯原始排期或具体分集内容佐证，不能仅按同号或日期偏移推定对应。；TMDB 缺少制作公司及演职员资料，无法在该库内交叉核对制作人员。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/249240; https://api.bgm.tv/v0/subjects/249240; https://www.themoviedb.org/tv/106864; https://www.themoviedb.org/tv/106864/season/1; https://www.themoviedb.org/tv/106864/season/2",
-    "verifiedAt": "2026-09-08T21:22:26.387Z"
+    "source": "https://bgm.tv/subject/249240; https://bangumi.tv/subject/249240; https://www.themoviedb.org/tv/106864; https://www.themoviedb.org/tv/106864/season/2; https://bangumi.tv/subject/249240/ep; https://movie.sogou.com/cartoon/mnqxe5dpn5xf6nrwgi3damijxlo4556tzyqllwrsxs7a.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 106864
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

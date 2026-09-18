@@ -1,13 +1,100 @@
 {
+  "anidbId": 17598,
   "bangumiId": 358567,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1115174,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1115175,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1115176,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1115177,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1115178,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1115179,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1115180,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1115181,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1115182,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1115183,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1115184,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1115185,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1115186,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1115187,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1115188,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1115189,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1115190,
+      "sort": 17,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 208703 与 Bangumi《山海绝伦》在中文原名、别名（仙山缭乱、Fairy Mountain）、2022 年首播日、剧情、导演花叔及中国 WEB 动画身份上吻合；官方哔哩哔哩页面也确认其为已完结全 17 话。TMDB 第 1 季实际包含第 1–17 集，且不是合集或其他作品混入，因此推荐整季映射。\n\nhttps://www.themoviedb.org/tv/208703 (api_snapshot): TMDB 详情确认作品名《山海绝伦》、原名、2022-08-23 首播、剧情、导演花叔、1 季共 17 集，并列出“仙山缭乱”“Fairy Mountain”等别名。\n\nhttps://www.themoviedb.org/tv/208703/season/1 (api_snapshot): TMDB 第 1 季实际返回 17 集，编号连续覆盖 1–17，首播日为 2022-08-23。\n\nhttps://www.bilibili.com/bangumi/play/ss35225 (page): 哔哩哔哩官方页面确认《山海绝伦》为 2022 年动画，已完结，全 17 话，剧情与角色设定吻合。\n\nhttps://bangumi.tv/subject/358567 (search_snippet): Bangumi 条目确认中文名、WEB 媒介、17 话、2022 年、导演花叔、轻舞文化制作及剧情简介。\n\n备注：TMDB 的集播出日期与 Bangumi 存在偏差：TMDB 将第 2、3 集记录为 2022-08-23，并将第 17 集记录为 2022-11-29；Bangumi 记录为每周一集至 2022-12-13。这影响日期元数据，但不影响作品身份及第 1 季 17 集范围。",
+    "evidence": "codex: 已确认对应TMDB 208703第1季整季：年份、首播日、导演、剧情人物、网络动画版本及17集总量相符，季表未见其他作品混入。逐集核对发现日期冲突，且Bangumi章节全部缺少标题，尚不足以确认连续逐集规则，因此仅确认作品及季范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/208703 (api_snapshot): TMDB 详情确认《山海绝伦》首播于2022-08-23，导演花叔，出品公司包括 KIO STUDIO 和哔哩哔哩；别名包含《仙山缭乱》及《仙山繚亂之山海絕倫》。寻找失踪皇帝、李茂、梵天及公良潸的剧情与待核对作品一致，共1季17集。\n\nhttps://www.themoviedb.org/tv/208703/season/1 (api_snapshot): 第1季实际集表共17集，编号1—17，total_pages=1。第1—3集日期均为2022-08-23，第4—17集每周更新至2022-11-29；前三集有具体标题，其余为通用集号标题。\n\nhttps://bangumi.tv/subject/358567 (search_snippet): Bangumi 搜索摘要确认本作是2022-08-23开始的17话WEB动画，导演花叔，轻舞文化制作，哔哩哔哩与轻舞文化出品。\n\nhttps://bangumi.tv/subject/358567/ep (page): Bangumi 章节页列出17个无标题本篇章节，日期从2022-08-23起每周递增至2022-12-13，与输入一致，但第2—17话日期与TMDB同号集不一致。\n\nhttps://www.bilibili.com/bangumi/play/ep520022 (page): 哔哩哔哩官方播放页确认本作已完结、全17话，第17话为《改过自新 做个好人》，剧情及人物与TMDB详情一致。\n\n备注：TMDB记载首日上线3集、末集为2022-11-29；Bangumi记载每周1集、末集为2022-12-13。尚未确认差异源于会员排期还是日期录入错误。；需补充官方逐集上线记录或Bangumi章节标题、内容证据后，才能建立可靠的逐集对应，不能仅凭同号及总集数相同填入规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/358567; https://www.themoviedb.org/tv/208703; https://www.themoviedb.org/tv/208703/season/1; https://www.bilibili.com/bangumi/play/ss35225; https://bangumi.tv/subject/358567",
-    "verifiedAt": "2026-09-08T23:09:32.714Z"
+    "source": "https://bgm.tv/subject/358567; https://www.themoviedb.org/tv/208703; https://www.themoviedb.org/tv/208703/season/1; https://bangumi.tv/subject/358567; https://bangumi.tv/subject/358567/ep; https://www.bilibili.com/bangumi/play/ep520022",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

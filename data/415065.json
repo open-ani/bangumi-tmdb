@@ -1,13 +1,74 @@
 {
   "bangumiId": 415065,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1162008,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1162009,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1162010,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1162011,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1162012,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1162013,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1162014,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1162015,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1162016,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1162017,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1162018,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1162019,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 129959 是同一部 Netflix/DreamWorks CG 动画《Kung Fu Panda: The Dragon Knight》，剧情均为阿宝与 Wandering Blade 寻找天上武器并阻止鼬类反派。TMDB 主条目日期为 2022-07-14，共 3 季；其第 2 季日期为 2023-01-12、共 12 集，剧情与 Bangumi subject 的简介和日期一致。已读取完整 TMDB S2 集表，覆盖第 1–12 集且不混入其他作品，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/415065 (api_snapshot): Bangumi API 标记为 TV，日期 2023-01-12，共 12 集；简介为阿宝与神龙骑士寻找天上武器。\n\nhttps://www.themoviedb.org/tv/129959 (api_snapshot): TMDB TV 条目原名为 Kung Fu Panda: The Dragon Knight，首播 2022-07-14，制作公司为 DreamWorks Animation Television，共 3 季；第 2 季为 12 集、日期 2023-01-12。\n\nhttps://www.themoviedb.org/tv/129959/season/2 (api_snapshot): TMDB 第 2 季实际集表包含第 1–12 集，全部日期为 2023-01-12；第 2 季简介为寻找 Tianshang weapons，和 Bangumi 主体吻合。\n\nhttps://www.netflix.com/tudum/articles/kung-fu-panda-the-dragon-knight-season-2-release-date-cast-news (page): Netflix Tudum 确认 Season 2 于 2023-01-12 上线，剧情为 Po、Wandering Blade 等寻找 Tianshang weapons 并阻止 Klaus 与 Veruca。\n\nhttps://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news (page): Netflix 官方资料确认这是 Netflix 与 DreamWorks Animation 的 CG animated series，主角 Po 与 Wandering Blade 寻找四件魔法武器。",
+    "evidence": "codex: 作品版本、动画媒介、制作与配音信息、第二季上线日期、剧情和12集总量相符，确认对应TMDB 129959第二季整季。Bangumi章节缺少标题及逐集日期，无法独立核验逐集顺序，因此保留整季对应，不按序号猜测生成rules。\n\nhttps://bgm.tv/subject/415065 (page): Bangumi 标注为第二季动画，共12话，Netflix于2023年1月12日上线；剧情为阿波与神龙骑士周游世界寻找天上武器，章节列表为01至12。\n\nhttps://www.themoviedb.org/tv/129959 (api_snapshot): TMDB 129959 为《Kung Fu Panda: The Dragon Knight》，制作公司为DreamWorks Animation Television，Jack Black与Rita Ora分别配音Po和Wandering Blade；第二季日期为2023年1月12日，共12集，季简介与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/129959/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，包含第1至12集，日期全部为2023年1月12日。第1集从印度寻访旧友展开；第10、11集为决战上下篇；第12集为46分钟的新年故事，仍编入该季。\n\nhttps://www.netflix.com/tudum/articles/kung-fu-panda-the-dragon-knight-season-2-release-date-cast-news (page): Netflix官方第二季介绍确认2023年1月12日上线，主演为Jack Black和Rita Ora，剧情为Po等人寻找天上武器、阻止Klaus和Veruca，旅程经过印度及中美洲。\n\nhttps://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news (page): Netflix官方公告确认本作为DreamWorks Animation制作的CG动画连续剧，执行制片人为Peter Hastings和Shaunt Nigoghossian，核心故事为Po与Wandering Blade寻找四件魔法武器。\n\n备注：Bangumi的12个章节标题和日期均为空；尤其第12章是否对应TMDB的新年故事，尚缺章节级证据。逐集规则需待补齐标题、日期或明确内容对应后再建立。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/415065; https://api.bgm.tv/v0/subjects/415065; https://www.themoviedb.org/tv/129959; https://www.themoviedb.org/tv/129959/season/2; https://www.netflix.com/tudum/articles/kung-fu-panda-the-dragon-knight-season-2-release-date-cast-news; https://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news",
-    "verifiedAt": "2026-09-08T23:42:44.220Z"
+    "source": "https://bgm.tv/subject/415065; https://www.themoviedb.org/tv/129959; https://www.themoviedb.org/tv/129959/season/2; https://www.netflix.com/tudum/articles/kung-fu-panda-the-dragon-knight-season-2-release-date-cast-news; https://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

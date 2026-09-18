@@ -1,15 +1,81 @@
 {
+  "anidbId": 15451,
   "bangumiId": 302365,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 938018,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 938019,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 938020,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 938021,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 938022,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 938023,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 938024,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 938025,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 938026,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 938027,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 938028,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 217582 的原名、日文标题、首播日 2020-04-01、完播日 2020-09-09 与 Bangumi 完全对应；官方资料确认这是电视短篇动画，剧情为8只狗在小镇中的日常奇想故事，制作人员也与 Bangumi 的原作、导演、系列构成和人物设定一致。TMDB 第1季实际列出连续的24集，日期覆盖至第24集 2020-09-09；电视东京官方页面也确认第24话为最终话。因此对应完整 S1。\n\nhttps://www.themoviedb.org/tv/217582 (api_snapshot): TMDB API 详情确认作品为 TV《みっちりわんこ！あにめ～しょん》/ Micchiri Wanko! Animation，原名、首播日、完播日、24集和单季信息均匹配。\n\nhttps://www.themoviedb.org/tv/217582/season/1 (api_snapshot): TMDB API 第1季实际返回24集，连续编号1至24，日期从2020-04-01到2020-09-09，total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/302365 (api_snapshot): Bangumi 原始资料确认标题、2020-04-01开播、24话、电视媒介、剧情，以及タツノコプロ/フレンセル原作、山本雄三导演、佐藤正系列构成、皆川智美人物设定。\n\nhttps://tatsunoko.co.jp/works/mitchiri-wankoanimation/ (page): タツノコプロ官方作品页确认该作是2020年4月至9月播出的TV短篇动画，单集约1分20秒，内容为8只狗在小镇中的奇想日常。\n\nhttps://www.tv-tokyo.co.jp/anime/kinder/story/index_8.html (page): 电视东京官方节目页确认2020-09-09播出第24话《ライブステージ だわん！》，并给出该话剧情。\n\nhttps://www.allcinema.net/cinema/pdf/372052 (page): 作品资料确认媒介为TV动画、年份和播出区间、导演山本雄三、动画制作キャラクション、原作タツノコプロ/フレンセル及主要制作人员。\n\n备注：Bangumi 当前原始集数列表只返回11个已建条目，但作品话数字段为24；这属于条目集表不完整或维护差异，不能改变官方和 TMDB 对完整24集播出范围的确认。；官方作品页标注单集约1分20秒，而 TMDB 多数集的 runtime 标为5分钟，属于时长元数据差异，不影响作品身份及季范围判断。",
+    "evidence": "codex: 原名、年份、播出区间、电视短篇媒介、剧情及制作人员相符，确认对应TMDB 217582第一季。该季24集覆盖Bangumi所述完整作品；输入已建的本篇1至11话与TMDB逐集日期全部一致，因此仅为这些章节建立连续规则。\n\nhttps://www.themoviedb.org/tv/217582 (api_snapshot): 日文原名搜索命中 TV 217582；详情确认原名一致，首播日期为2020-04-01、末播日期为2020-09-09，共1季24集。\n\nhttps://www.themoviedb.org/tv/217582/season/1 (api_snapshot): 第一季实际集表共24集，total_pages=1，编号连续为1至24，日期覆盖2020-04-01至2020-09-09。第1至11集播出日期与输入中的11个Bangumi章节逐项一致。\n\nhttps://www.tv-tokyo.co.jp/anime/kinder/intro/sakuhin22/ (page): 电视东京官方简介确认故事围绕小镇中喜欢聚在一起的8只狗展开，与Bangumi剧情一致。\n\nhttps://tatsunoko.co.jp/works/mitchiri-wankoanimation/ (page): タツノコプロ官方作品页确认这是2020年4月至9月播出的电视短篇动画，单集约1分20秒，剧情与输入一致。\n\nhttps://prtimes.jp/main/html/rd/p/000000008.000038073.html (search_snippet): タツノコプロ发布的新闻稿列明原作为タツノコプロ、フレンセル，导演山本雄三、系列构成佐藤正、角色设计皆川智美，与输入制作人员一致。\n\nhttps://www.tv-tokyo.co.jp/anime/kinder/story/index_8.html (page): 电视东京官方播出记录列明9月9日播出本作第24话《ライブステージ だわん！》，支持24集范围及末集日期。\n\n备注：Bangumi话数字段为24，但输入仅有11个章节；第12至24话未建立逐集规则。；Bangumi章节标题为空，TMDB使用通用集号标题，无法比对实质标题；现有逐集映射依据集号与全部11个播出日期一致。；TMDB多数集标注5分钟，官方作品页标注约1分20秒，存在时长元数据差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/302365; https://www.themoviedb.org/tv/217582; https://www.themoviedb.org/tv/217582/season/1; https://api.bgm.tv/v0/subjects/302365; https://tatsunoko.co.jp/works/mitchiri-wankoanimation/; https://www.tv-tokyo.co.jp/anime/kinder/story/index_8.html; https://www.allcinema.net/cinema/pdf/372052",
-    "verifiedAt": "2026-09-08T21:56:09.987Z"
+    "source": "https://bgm.tv/subject/302365; https://www.themoviedb.org/tv/217582; https://www.themoviedb.org/tv/217582/season/1; https://www.tv-tokyo.co.jp/anime/kinder/intro/sakuhin22/; https://tatsunoko.co.jp/works/mitchiri-wankoanimation/; https://prtimes.jp/main/html/rd/p/000000008.000038073.html; https://www.tv-tokyo.co.jp/anime/kinder/story/index_8.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 217582
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

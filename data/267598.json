@@ -1,15 +1,91 @@
 {
+  "anidbId": 16694,
   "bangumiId": 267598,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 852017,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 852018,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 852019,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 852020,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 852021,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 852022,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 852023,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 852024,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 852025,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 852026,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 852027,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 852028,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 875737,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 116042 是《如果历史是一群喵》系列 TV/Web 动画；第 2 季明确名为《春秋战国篇》，首播于 2019-01-13，共 13 集。TMDB 季表的 13 集标题从“霸王初现”至“千秋一统”，与 Bangumi subject 的 13 集及标题完全对应；Bangumi 还核实了肥志原作/导演、萌想文化制作及历史题材。该 subject 不是独立电影、OVA、短片合集或其他季度，因此推荐完整第 2 季。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): TMDB 详情确认作品名为《如果历史是一群喵》，2018-09-02 开始，类型为 TV，包含名为《春秋战国篇》的第 2 季，季集数为 13；简介为以华夏历史为主线的历史动画。\n\nhttps://www.themoviedb.org/tv/116042/season/2 (api_snapshot): TMDB 第 2 季表确认季名《春秋战国篇》、首播日 2019-01-13、共 13 集，集名依次包含“霸王初现”“大器晚成”“一鸣惊人”至“千秋一统”。\n\nhttps://bgm.tv/subject/267598 (page): Bangumi 页面确认该 subject 为 WEB 动画，13 话，2019-01-13 开播，别名为“如果历史是一群喵 第二季”，原作/导演为肥志，动画制作为萌想文化。\n\nhttps://tsg.jscc.edu.cn/attachment/sites/item/2024_01/14_14/eeb4cc82142a6422.pdf (page): 资料介绍《春秋战国篇》是系列第二卷，以秦统一天下前的历史变革为剧情背景，正文 13 个篇章，作者为肥志。\n\n备注：Bangumi 记录的最后一集日期为 2019-04-14，而 TMDB 季表记录为 2019-04-07；这是播出日期差异，不影响 13 集身份和完整季范围的对应。",
+    "evidence": "codex: 确认对应 TMDB 116042 第 2 季整季。年份、首播日、篇章、制作公司、动画媒介和集数相符；13 集标题及标题内的累计回数逐一对应，支持 Bangumi sort 14—26 映射至 S02E01—E13。该季未混入其他篇章。\n\nhttps://bgm.tv/subject/267598 (page): Bangumi 确认为 2019 年 WEB 动画《春秋战国篇》，别名《如果历史是一群喵 第二季》，共 13 话；原作、导演为肥志，动画制作为萌想文化，章节编号为 14—26。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): TMDB 详情确认 116042 为中国历史题材猫咪动画系列，制作公司为深圳萌想文化传播有限公司；第 2 季为《春秋战国篇》，2019-01-13 开播，共 13 集，与前后篇章分别列季。\n\nhttps://www.themoviedb.org/tv/116042/season/2 (api_snapshot): 第 2 季完整集表共 13 集，total_pages=1。各集标题中的回数为第十四回至第二十六回；去除回数前缀后，13 个标题均与输入 Bangumi 章节逐一相同。前四集日期一致，第五至十三集 TMDB 日期均比 Bangumi 早 7 天。\n\n备注：Bangumi sort 18—26 的日期均比 TMDB 对应集晚 7 天，具体原因未确认；标题、累计回数及总集数完全一致，因此不影响逐集身份判断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/267598; https://www.themoviedb.org/tv/116042; https://www.themoviedb.org/tv/116042/season/2; https://tsg.jscc.edu.cn/attachment/sites/item/2024_01/14_14/eeb4cc82142a6422.pdf",
-    "verifiedAt": "2026-09-08T21:34:02.998Z"
+    "source": "https://bgm.tv/subject/267598; https://www.themoviedb.org/tv/116042; https://www.themoviedb.org/tv/116042/season/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 14,
+      "tmdbId": 116042
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

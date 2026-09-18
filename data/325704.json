@@ -1,13 +1,79 @@
 {
   "bangumiId": 325704,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1002463,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1002464,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1002465,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1002466,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1002467,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1002468,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1002469,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1002470,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1002471,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1002472,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1002473,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1002474,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1002475,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 79732 与 Bangumi 条目的作品身份一致：原名为 She-Ra and the Princesses of Power，首播始于 2018-11-13，简介中的 Adora、She-Ra、Catra、Horde 与 subject 剧情吻合；制作公司包含 DreamWorks Animation Television，媒介为完整 TV 系列。TMDB 明确列出第 4 季于 2019-11-05 播出、共 13 集，季表实际覆盖第 1 至第 13 集，且与 Bangumi subject 的 13 集和日期一致，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/79732 (api_snapshot): TMDB 详情确认作品标题、2018-11-13 首播、剧情、DreamWorks Animation Television 制作、5 季共 52 集，并列出第 4 季为 13 集、日期 2019-11-05。\n\nhttps://www.themoviedb.org/tv/79732/season/4 (api_snapshot): TMDB 第 4 季实际集表确认 Season 4 于 2019-11-05 发布，共 13 集，编号连续覆盖 1-13；各集剧情属于 She-Ra 主线。\n\nhttps://api.bgm.tv/v0/subjects/325704 (api_snapshot): Bangumi 原始 API 确认 subject 名称为 She-Ra and the Princesses of Power: Season 4，日期为 2019-11-05，共 13 集，制作公司为 DreamWorks Animation Television / Mattel Creations。\n\n备注：TMDB 详情快照的 crew 数组为空，因此无法进一步核对完整工作人员名单；但制作公司、标题、剧情、日期、季数和集数均已对上。；Bangumi 提供的 IMDb 外部提示为 tt10738826，而 TMDB 详情中的 IMDb ID 为 tt7745956；该外部提示未被用于认定身份。",
+    "evidence": "codex: 作品版本、制作公司、角色剧情、上线日期、季次及13集范围一致，确认对应 TMDB 79732 第4季整季。Bangumi 章节缺少标题和逐集日期，无法完成逐集交叉比对，因此只确认季级映射，不按序号猜测填写 rules。\n\nhttps://bgm.tv/subject/325704 (page): Bangumi 标明本作为第四季 WEB 动画，2019年11月5日上线，共13话，制作公司为 DreamWorks Animation Television / Mattel Creations；剧情围绕 Catra 征服 Etheria、Glimmer 承担新职责及公主们面临背叛展开。章节仅显示01至13，未提供可比对的标题或逐集日期。\n\nhttps://www.themoviedb.org/tv/79732 (api_snapshot): TMDB 详情确认79732为2018年开始的动画系列，制作公司为 DreamWorks Animation Television，主角与剧情设定吻合；第四季列为2019年11月5日上线、13集，前后季日期也与 Bangumi 关联条目一致。\n\nhttps://www.themoviedb.org/tv/79732/season/4 (api_snapshot): 实际读取第四季全部集表，total_pages=1，共13集，编号1至13，均于2019年11月5日上线。从第1集 Glimmer 加冕到第13集阻止 Light Hope 的计划，剧情符合 subject 所述第四季，未见混入其他作品。\n\n备注：13个 Bangumi 章节的逐集对应仍缺少标题或日期证据，暂不映射。；TMDB 详情的 crew 为空，未完成制作人员名单比对；制作公司已核实一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/325704; https://www.themoviedb.org/tv/79732; https://www.themoviedb.org/tv/79732/season/4; https://api.bgm.tv/v0/subjects/325704",
-    "verifiedAt": "2026-09-08T22:45:08.480Z"
+    "source": "https://bgm.tv/subject/325704; https://www.themoviedb.org/tv/79732; https://www.themoviedb.org/tv/79732/season/4",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

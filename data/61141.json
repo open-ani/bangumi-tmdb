@@ -1,16 +1,91 @@
 {
   "anidbId": 9654,
   "bangumiId": 61141,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 241885,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 242699,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 244678,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 244679,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 244680,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 244681,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 244682,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 244683,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 244684,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 244685,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 244686,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 244687,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 244688,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB 53031 是同名的2013年日本动画剧集；其第1季12集的首播日期逐集对应 Bangumi 前12话，故推荐完整第1季。Bangumi 另列的第13条“最终话（网络配信版）”不属于另一季；发行方现将“ジュウサンワ”归入影像特典，而非12话电视正篇。依照本轮不要求映射额外特典的规则，不为该网络版另设目标。\n\nhttps://www.themoviedb.org/tv/53031 (api_snapshot): TMDB API 快照显示 TV 53031 原名及名称均为《直球表題ロボットアニメ》，首播于2013-02-06，共1季12集，与目标的标题、年份和电视动画媒介一致。\n\nhttps://www.themoviedb.org/tv/53031/season/1 (api_snapshot): TMDB API 快照显示第1季共12集，日期从2013-02-06至2013-04-24，逐集对应 Bangumi 的第1至第12话。\n\nhttps://www.fwinc.co.jp/bd_dvd/63375/ (page): 发行方 Frontier Works 页面确认该作是2013年的全CG短篇动画，剧情为フジイ、カトウ、モリ三台机器人研究人类的“笑”；导演石舘光太郎、动画导演cort、制作ザルゴザール等均与 Bangumi 信息吻合。页面同时把“ジュウサンワ”明确列在“映像特典”中。",
+    "evidence": "codex: 确认对应2013年电视动画TMDB 53031第1季。年份、媒介、剧情及制作信息相符；结合外部标题表与TMDB逐集日期，Bangumi第1至12话可连续对应S01E01至E12，完整季表未混入其他作品。第13条网络配信版最终话暂不映射。\n\nhttps://www.themoviedb.org/tv/53031 (api_snapshot): TMDB 53031 为同名日本电视动画，首播日期为2013-02-06，共1季12集；简介和制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/53031/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。12集日期从2013-02-06至2013-04-24，与输入的Bangumi第1至12话逐集一致；标题均为通用的“第N話”。\n\nhttps://www.themoviedb.org/tv/211912 (api_snapshot): 另一个同名候选211912列有导演石ダテコー太郎及西明日香等四位声优，与目标制作信息吻合，疑似同作重复条目。\n\nhttps://www.themoviedb.org/tv/211912/season/1 (api_snapshot): 211912第1季完整集表也是12集，但各集日期均比输入早一天；本次选择逐集日期完全一致的53031。\n\nhttps://www.fwinc.co.jp/bd_dvd/63375/ (page): 发行方确认该作是2013年日本全CG短篇动画，讲述8013年三台机器人研究人类的笑，导演石舘光太郎、动画导演cort、制作ザルゴザール与目标吻合；另将“ジュウサンワ”列为影像特典。\n\nhttps://ja.wikipedia.org/wiki/直球表題ロボットアニメ (page): 各话表的前11话标题与输入一致，第12话区分地上波版12.00与网络版12.22；另有NOTTV播出的第13话“ダイジュウサンワ／THE AFTERMATH”，不能直接等同于网络版最终话。\n\n备注：Bangumi第13条标题指向第12话网络剪辑版，日期却接近NOTTV第13话；无法据此确认其具体内容，也未确认独立TMDB集。旧映射把它与发行方“ジュウサンワ”联系起来的依据不足。；TMDB另有疑似重复条目211912；53031缺少剧情和演职员资料，但其全部12集日期与输入完全一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/61141; https://www.themoviedb.org/tv/53031; https://www.themoviedb.org/tv/53031/season/1; https://www.fwinc.co.jp/bd_dvd/63375/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/61141; https://www.themoviedb.org/tv/53031; https://www.themoviedb.org/tv/53031/season/1; https://www.themoviedb.org/tv/211912; https://www.themoviedb.org/tv/211912/season/1; https://www.fwinc.co.jp/bd_dvd/63375/; https://ja.wikipedia.org/wiki/直球表題ロボットアニメ",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 53031
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

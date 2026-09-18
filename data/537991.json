@@ -1,13 +1,79 @@
 {
   "bangumiId": 537991,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1463275,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1463276,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1463277,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1463278,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1463279,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1463280,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1463281,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1463282,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1463283,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1463284,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1463285,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1463286,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1463287,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 69353《Angry Birds Stella》与 Bangumi 主体身份一致：首播 2014-11-01，共 2 季 26 集，由 Rovio Entertainment 等制作；简介中的 Stella、Gale、Golden Egg/Golden Island 剧情与 Bangumi 摘要吻合。TMDB 第 2 季明确为 2015-10-09 至 2016-03-11，共 13 集，每集约 6 分钟，集号完整覆盖 1–13，且官方 Angry Birds 页面逐集列出 S2 Ep1–Ep13。因此应使用该 TV 的第 2 季整季，不应使用电影、合集或裸 TV ID。Bangumi 提供的 IMDb tt4211880 未被 TMDB 找到；TMDB 自身关联 IMDb 为 tt4168666，故未将外部 IMDb 线索作为身份依据。\n\nhttps://www.themoviedb.org/tv/69353 (api_snapshot): TMDB 详情：原名 Angry Birds Stella；首播 2014-11-01，末播 2016-03-11；2 季、26 集；剧情涉及 Stella、Gale、Golden Island；制作公司包括 Rovio Entertainment、Rovio Animation 和 Cube Creative；媒介为 TV。\n\nhttps://www.themoviedb.org/tv/69353/season/2 (api_snapshot): TMDB 第 2 季实际季表：season=2，首播 2015-10-09，13 集，集号 1–13，末集 You Asked For It 于 2016-03-11播出；各集运行时间为 6 分钟。\n\nhttps://www.angrybirds.com/series/angry-birds-stella/ (page): Rovio/Angry Birds 官方页面将该作品分为 season 1 和 season 2，并列出第二季 New Day、Friends Whenever、Night of the Bling、Step It Up、Camp Scary、It's Mine!、Royal Pains、The Storm、The Golden Queen、Gilded Cage、Premonition、The Last Bird Standing、You Asked For It 共 13 集。\n\nhttps://www.tvguide.com/tvshows/angry-birds-stella/episodes-season-2/1030074136/ (page): TV Guide 将其识别为 2014–2016、共 2 季的动画电视作品，并明确列出第 2 季 13 集、年份 2015–2016及与 TMDB 相同的剧情和集名。\n\nhttps://www.themoviedb.org/tv/69353 (api_snapshot): TMDB 详情中的 external_ids 为 IMDb tt4168666；对 Bangumi 提供的 IMDb tt4211880 执行 TMDB find 未返回任何 TV、电影或季条目，说明该外部提示不能作为候选身份依据。\n\n备注：TMDB 详情的 crew 字段为空，未能用 TMDB 独立核实 Bangumi 所列导演 Eric Guaglione、Kari Juusonen；但这不影响作品身份、媒介、年份及第 2 季完整集数范围的确认。",
+    "evidence": "codex: 作品年份、制作方、导演、剧情、第二季起止日期及13集范围相互吻合，官方分季与 TMDB 实际集表也一致，可确认对应 TMDB 69353 第二季整季。Bangumi 的13个章节均缺少标题和播出日期，无法逐章进行内容核对，因此保留季级匹配，不按章节位置推定 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/69353 (api_snapshot): TMDB 69353 为动画剧集《Angry Birds Stella》，2014-11-01 首播，共两季26集，制作公司包括 Rovio Entertainment；剧情涉及 Stella、Gale 与金色岛屿，与输入的角色、剧情及制作方一致。\n\nhttps://www.themoviedb.org/tv/69353/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共13集，集号1至13，每集6分钟；首集 New Day 日期为2015-10-09，末集 You Asked For It 日期为2016-03-11，与 Bangumi 的季起止日期及总集数一致。\n\nhttps://www.angrybirds.com/series/angry-birds-stella/ (page): Rovio 官方页面分别列出第一季、第二季，第二季明确编号 S2 Ep1 至 S2 Ep13，逐项核对后与 TMDB 集表顺序一致，仅个别标题存在拼写或冠词差异；第二季全集合集另列，因此13集主体与合集可区分。\n\nhttps://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=01%2F04%2F2016&jornal=1&pagina=45 (search_snippet): 巴西官方分级公告将《Angry Birds Stella - Season 2》标为芬兰2015年动画，导演列为 Eric Guaglione、Kari Juusonen，与 Bangumi 制作人员信息相符；公告审查媒介为 DVD，作为制作信息旁证。\n\nhttps://www.thetvdb.com/series/angry-birds-stella/seasons/official/2 (search_snippet): TVDB 第二季列出相同的13集及顺序，首末日期一致；其中第6集日期为2015-12-04，与 TMDB 的2015-11-22存在差异。\n\n备注：逐集映射仍需补充 Bangumi 章节标题、日期或其他能识别各章节内容的证据。；第6集在 TMDB 与 TVDB 中的日期不同；不影响已确认的整季范围，但不能宣称所有来源的逐集日期完全一致。；输入 IMDb 提示为 tt4211880，TMDB 详情关联的是 tt4168666；未依赖该提示认定作品身份。；本次 Bangumi 网页访问失败，Bangumi 侧信息依据用户提供的快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/537991; https://www.themoviedb.org/tv/69353; https://www.themoviedb.org/tv/69353/season/2; https://www.angrybirds.com/series/angry-birds-stella/; https://www.tvguide.com/tvshows/angry-birds-stella/episodes-season-2/1030074136/",
-    "verifiedAt": "2026-09-09T00:23:11.743Z"
+    "source": "https://bgm.tv/subject/537991; https://www.themoviedb.org/tv/69353; https://www.themoviedb.org/tv/69353/season/2; https://www.angrybirds.com/series/angry-birds-stella/; https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=01%2F04%2F2016&jornal=1&pagina=45; https://www.thetvdb.com/series/angry-birds-stella/seasons/official/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

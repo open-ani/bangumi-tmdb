@@ -1,19 +1,91 @@
 {
   "anidbId": 8166,
   "bangumiId": 10609,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 84528,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 84529,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 84530,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 84531,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 84532,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 84533,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 84534,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 84535,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 84536,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 84537,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 84538,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 104716,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、导演及制作公司一致，12话标题与日期逐集吻合。确认映射至TMDB 44300第1季第1—12集；旧映射需收窄范围，避免包含季表中额外的第13集。\n\nhttps://www.themoviedb.org/tv/44300 (api_snapshot): 日文原名检索命中 TV 44300；详情确认首播日期为2011-04-11，导演三原武憲、动画制作動画工房，剧情为星野一马因弟弟疗养迁往山比古町，与输入的2011年TV动画一致。\n\nhttps://www.themoviedb.org/tv/44300/season/1 (api_snapshot): 第一季完整集表共13集，仅1页。第1—12集与输入的12话逐集标题及播出日期一致（第8话仅标点宽度不同），日期覆盖2011-04-11至2011-06-27。另有第13集，日期为2011-12-21，因此不能映射整季。\n\nhttps://www.marv.jp/special/hoshikaka/goods/index.html (page): 官方商品页将TV系列第1—6卷与OVA分别列出，OVA发行日期为2011-12-21，支持将后续OVA与本subject的TV正篇分开。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10609; https://www.themoviedb.org/tv/44300; https://www.themoviedb.org/tv/44300/season/1; https://www.marv.jp/special/hoshikaka/goods/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44300
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 44300,
       "season": 1,
       "type": "tv"

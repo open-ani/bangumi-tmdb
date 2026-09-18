@@ -1,18 +1,51 @@
 {
   "bangumiId": 487057,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1320720,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1320721,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1320722,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1320723,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1320724,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1320725,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、发行平台、动画媒介、人物剧情及首批六集范围一致，确认对应 TMDB 123625 第一季第1—6集。旧映射的整季范围过宽。Bangumi 各章缺少标题和日期，无法完成章节级逐项核对，因此暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/123625 (api_snapshot): TMDB 123625 为2024年3月21日首播的英语动画剧集；澳大利亚古生物学家 Helena Walker 在史前生物岛屿复生的剧情，以及 Victoria、Bob 等角色均与输入吻合。制作公司包含 Lex and Otis。\n\nhttps://www.themoviedb.org/tv/123625/season/1 (api_snapshot): 第一季集表共14集，已读取全部一页。第1—6集标题依次为 Element 1—6，日期均为2024年3月21日；第7—14集日期为空。\n\nhttps://www.paramountpressexpress.com/paramount-plus/releases/?view=109469-paramount-announces-new-original-series-ark-the-animated-series-streaming-now (search_snippet): Paramount 官方公告确认2024年3月21日上线首批六集，另有后半季计划；制作方包括 Lex + Otis。因此 Bangumi 的六集范围不能扩展为 TMDB 第一季全部14集。\n\nhttps://www.paramountplus.com/shows/ark-the-animated-series/ (search_snippet): Paramount+ 官方集表列出第一季第1—6集，标题、日期及各集剧情均与 TMDB 前六集一致。\n\nhttps://bgm.tv/subject/487057/ep (page): Bangumi 章节页标记为 WEB，仅列本篇第1—6话，各话未提供标题与播出日期。\n\n备注：六个 Bangumi 章节的独立对应尚缺标题或日期证据；补齐后可核验并添加 rules。；官方首发公告曾预告后半季七集，而 TMDB 当前预留第7—14集；这些后续集数不属于本次确认范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/487057; https://www.themoviedb.org/tv/123625; https://www.themoviedb.org/tv/123625/season/1; https://www.paramountpressexpress.com/paramount-plus/releases/?view=109469-paramount-announces-new-original-series-ark-the-animated-series-streaming-now; https://www.paramountplus.com/shows/ark-the-animated-series/; https://bgm.tv/subject/487057/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 6,
       "id": 123625,
       "season": 1,
       "type": "tv"

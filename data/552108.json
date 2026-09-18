@@ -1,13 +1,79 @@
 {
   "bangumiId": 552108,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1489992,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1489993,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1489994,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1489995,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1489996,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1489997,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1489998,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1489999,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1490000,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1490001,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1490002,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1490003,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1490004,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 78173 第二季整季：系列版本、制作方、剧情、2016年1月8日发行日期及13集范围相符。Bangumi 输入的各章节标题和日期均为空，无法逐章核对，因此只确认整季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): 以英文原名搜索得到 TV 78173；详情确认其为 DreamWorks Animation Television 制作的《Dragons: Race to the Edge》，2015 年开播，共六季、78 集，剧情围绕小嗝嗝、无牙和龙骑士展开。\n\nhttps://www.themoviedb.org/tv/78173/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，全部标注2016年1月8日发行；首集为 Team Astrid，末集为 Maces and Talons (2)。日期与集数均符合输入 subject，整季未混入其他作品。\n\nhttps://www.dreamworks.com/shows/dragons-race-to-the-edge (page): DreamWorks 官方将本作列为电视系列，介绍小嗝嗝、无牙及维京少年面对新龙种和新敌人的故事，与 TMDB 的制作方、角色及剧情一致。\n\nhttps://www.tvmaze.com/seasons/61920/dreamworks-dragons-race-to-the-edge-season-2/episodeguide (page): 第二季集表列出13集，发行日期全部为2016年1月8日；逐集标题及剧情与 TMDB 第二季对应，首集标题使用 Astrid's Team 的不同写法。\n\n备注：Bangumi 网页及章节页访问失败；逐集映射需补充 Bangumi 章节标题或日期，不能仅凭 sort 顺序填充。；seed 的 IMDb ID 为 tt4864688，与 TMDB 详情返回的 tt4816058 不一致；未采用该 seed ID 作为匹配依据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552108; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/2; https://www.dreamworks.com/shows/dragons-race-to-the-edge; https://www.tvmaze.com/seasons/61920/dreamworks-dragons-race-to-the-edge-season-2/episodeguide",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

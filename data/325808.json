@@ -1,19 +1,111 @@
 {
   "anidbId": 16012,
   "bangumiId": 325808,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182339,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1182723,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1182724,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1182725,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1182726,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1182727,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1182728,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1182729,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1182730,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1182731,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1182732,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1182733,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1182734,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1188927,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1227751,
+      "sort": 12.1,
+      "type": 1
+    },
+    {
+      "id": 1227752,
+      "sort": 12.2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品身份及13集本篇的逐集标题、播出日期均已确认。TMDB 将2023年第一期与2026年第二期合并在第1季，因此旧映射须收窄为第1季第1—13集，不应映射整季，也不占用第二期的第14—25集。\n\nhttps://www.themoviedb.org/tv/117465 (api_snapshot): TMDB 117465 为2023年4月1日首播的日本动画《地獄楽》；画眉丸赴岛寻找不死仙药的剧情、导演牧田佳織、制作公司 MAPPA 与 Twin Engine 均与输入一致。\n\nhttps://www.themoviedb.org/tv/117465/season/1 (api_snapshot): 第1季完整季表共25集，仅1页。第1—13集与输入的13集本篇逐集标题及播出日期吻合，日期为2023年4月1日至7月1日；第6、13集标题仅多出读音注记。第14—25集播于2026年1月11日至3月29日，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/117465/season/0 (api_snapshot): 第0季完整季表共12集，均为2026年播出的2—3分钟短节目，未发现能与输入三项2023年特别节目确认对应的条目。\n\n备注：三个2023年特别节目尚未确认 TMDB 对应条目，保留未映射；这不代表 TMDB 全站未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/325808; https://www.themoviedb.org/tv/117465; https://www.themoviedb.org/tv/117465/season/1; https://www.themoviedb.org/tv/117465/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 117465
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 117465,
       "season": 1,
       "type": "tv"

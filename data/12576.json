@@ -1,14 +1,30 @@
 {
   "anidbId": 8271,
   "bangumiId": 12576,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 843534,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 843534,
+      "targets": [
+        {
+          "id": 95170,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2011 年上映、约 97 分钟的动画电影《時計じかけの哀女神》，与 TMDB 电影 95170 的原名、年份、动画类型、片长和剧情完全对应。TMDB 同时将该作品收录在《Heaven's Lost Property》TV 条目的 Specials（第 0 季）中；该季的 TMDB 关联资料将《The Angeloid of Clockwork》列为第 2 集，因此 AnimeLists 的 TV 方向有效，但范围必须限定为 S0E2，不能把整个 TV 条目或其他季纳入。两者是同一动画电影在 TMDB 电影条目与 TV Specials 条目中的双重表示，不是真人版或另一部电视重剪版。\n\nhttps://www.themoviedb.org/movie/95170-gekijouban-sora-no-otoshimono-tokei-jikake-no-enjeroido (page): TMDB 电影页明确显示 ID 95170、原名「劇場版 そらのおとしもの 時計じかけの哀女神」、2011 年、Animation、片长 1h37m。\n\nhttps://www.themoviedb.org/tv/37437-heaven-s-lost-property/seasons?language=en-US (page): TMDB TV 条目 ID 37437 的季列表明确显示 Specials 为 Season 0，并列出该条目包含特别篇。\n\nhttps://bingebase.com/tv/heaven-s-lost-property-2009/season/0 (search_snippet): 搜索摘要将该页面标为 TMDB 数据，并明确列出 Season 0 的 E2 为「The Angeloid of Clockwork」，日期为 2011-06-25、时长 97 分钟；同页还将该季列为 Specials。\n\nhttps://www.justwatch.com/jp/%E6%98%A0%E7%94%BB/ju-chang-ban-soranootoshimono-shi-ji-zikakenoai-nu-shen (search_snippet): 日本地区作品页确认该标题为 2011 年电影，片长 1 小时 37 分钟。\n\n备注：TMDB 季列表页面当前摘要显示 Season 0 为 2 集，而 TMDB 数据镜像页面显示为 4 集，说明特别篇数量可能存在数据同步差异；但目标片名、日期和 97 分钟时长均明确对应 Season 0 的第 2 集。",
+    "evidence": "codex: 本作对应 TMDB 电影95170：原名、2011年上映日期、日和主线剧情、导演及制作公司均一致，单话章节对应整部电影。当前 API 已否定旧映射中的 TV 37437 第0季第2集，该集属于2014年的 Final 特别篇，应移除。\n\nhttps://bgm.tv/subject/12576 (page): Bangumi 标注为单话剧场版，2011年6月25日上映，导演柳沢テツヤ、总导演斎藤久、脚本柿原優子，动画制作 AIC ASTA。\n\nhttps://www.themoviedb.org/movie/95170 (api_snapshot): 电影 95170 的日文原名、上映日期及三位主要制作人员与 Bangumi 一致；剧情为风音日和加入新大陆发现部后遭遇悲剧，制作公司亦吻合。片长记为97分钟。\n\nhttps://www.themoviedb.org/tv/37437 (api_snapshot): TV 37437 是2009年起的《そらのおとしもの》系列，详情列有两季正篇及第0季特别篇。\n\nhttps://www.themoviedb.org/tv/37437/season/0 (api_snapshot): 第0季真实集表共2集、仅1页：第1集为2010年的 Project Pink；第2集为2014年4月26日的 Eternally My Master Special，时长50分钟。旧映射 S0E2 不对应本作。\n\n备注：Bangumi 片长标为100分钟，TMDB 为97分钟；差异原因未确认，但其余身份信息一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/12576; https://www.themoviedb.org/movie/95170-gekijouban-sora-no-otoshimono-tokei-jikake-no-enjeroido; https://www.themoviedb.org/tv/37437-heaven-s-lost-property/seasons?language=en-US; https://bingebase.com/tv/heaven-s-lost-property-2009/season/0; https://www.justwatch.com/jp/%E6%98%A0%E7%94%BB/ju-chang-ban-soranootoshimono-shi-ji-zikakenoai-nu-shen",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/12576; https://www.themoviedb.org/movie/95170; https://www.themoviedb.org/tv/37437; https://www.themoviedb.org/tv/37437/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,12 +32,6 @@
     {
       "id": 95170,
       "type": "movie"
-    },
-    {
-      "episode": 2,
-      "id": 37437,
-      "season": 0,
-      "type": "tv"
     }
   ]
 }

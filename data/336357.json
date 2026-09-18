@@ -1,14 +1,36 @@
 {
   "anidbId": 14531,
   "bangumiId": 336357,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1030841,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1030841,
+      "targets": [
+        {
+          "id": 643058,
+          "type": "movie"
+        },
+        {
+          "episode": 1,
+          "id": 78941,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 两条定位均对应同一部 2018 年动画圣诞特别篇，而非真人版或电影改编/电视重剪关系。TMDB 的 Aggretsuko 主条目明确列出 Specials（季 0）且仅 1 集，首播日为 2018-12-20，因此 AnimeLists 的 TV 78941/季 0 可完整对应本 subject；独立索引则将该特别篇直接列为 TMDB 电影 643058。该季只有 1 集，不包含其他 Bangumi subject 的正篇内容，故无需额外集数范围。\n\nhttps://www.themoviedb.org/tv/78941/seasons (page): TMDB 的 Aggretsuko（2018）季列表列出 Specials，2018 年，1 Episode，并注明 Season 0 于 2018-12-20 首播。\n\nhttps://www.netflix.com/title/81008536 (page): Netflix 官方条目确认《Aggretsuko: We Wish You a Metal Christmas》为 2018 年动画，剧情为烈子筹划圣诞夜并沉迷社交媒体。\n\nhttps://corporate.sanrio.co.jp/news/assets/pdf/2018/20220309101305687s.pdf (page): Sanrio/Fanworks/Netflix 官方发布资料确认该作品于 2018-12-20 Netflix 全球配信，是 1 话限定、22 分钟的特别篇。\n\nhttps://listrr.pro/Lists/ShowMovieList/659bb8bc6224f985efa1302d?page=189 (search_snippet): 搜索索引摘要将《Aggretsuko: We Wish You a Metal Christmas》及 IMDb tt9416906 对应到 TMDB 643058。\n\nhttps://www.justwatch.com/us/movie/aggretsuko-we-wish-you-a-metal-christmas (page): 该条目以 2018 年、22 分钟的独立电影/特别篇形式收录，标题和原文标题与 Bangumi subject 一致。",
+    "evidence": "codex: 已核实年份、剧情、导演、制作公司、片长及单话范围。TMDB电影643058与TV 78941第0季第1集是同一部2018年圣诞特别篇的两种收录，均对应本subject唯一章节；不是拆集，也不包含2016年旧版或其他正篇季。\n\nhttps://corporate.sanrio.co.jp/news/assets/pdf/2018/20220309101305687s.pdf (page): 官方联合公告确认本作是2018年12月20日上线Netflix的圣诞剧情特别篇，仅1话、22分钟；导演及编剧为Rareko，动画制作为Fanworks，剧情涉及烈子沉迷Instagram及圣诞夜安排。\n\nhttps://www.netflix.com/title/81008536 (page): Netflix将本作标为2018年动画，简介与Bangumi所述烈子筹划圣诞夜、沉迷社交媒体认可的剧情一致。\n\nhttps://www.themoviedb.org/movie/643058 (api_snapshot): 电影643058的日文原名、2018年12月20日发行日期、22分钟片长及剧情均吻合；制作公司为Fanworks，导演为Rareko。\n\nhttps://www.themoviedb.org/tv/78941 (api_snapshot): TV 78941为2018年开始的Netflix版《アグレッシブ烈子》，由Fanworks制作，季列表包含圣诞特别篇所在的第0季。\n\nhttps://www.themoviedb.org/tv/78941/season/0 (api_snapshot): 第0季真实集表仅1页、1集：第1集标题为We Wish You a Metal Christmas，日期2018年12月20日，片长22分钟，剧情与本作一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/336357; https://www.themoviedb.org/tv/78941/seasons; https://www.netflix.com/title/81008536; https://corporate.sanrio.co.jp/news/assets/pdf/2018/20220309101305687s.pdf; https://listrr.pro/Lists/ShowMovieList/659bb8bc6224f985efa1302d?page=189; https://www.justwatch.com/us/movie/aggretsuko-we-wish-you-a-metal-christmas",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/336357; https://corporate.sanrio.co.jp/news/assets/pdf/2018/20220309101305687s.pdf; https://www.netflix.com/title/81008536; https://www.themoviedb.org/movie/643058; https://www.themoviedb.org/tv/78941; https://www.themoviedb.org/tv/78941/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -18,6 +40,7 @@
       "type": "movie"
     },
     {
+      "episode": 1,
       "id": 78941,
       "season": 0,
       "type": "tv"

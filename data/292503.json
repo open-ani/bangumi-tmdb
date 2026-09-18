@@ -1,15 +1,106 @@
 {
   "bangumiId": 292503,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 908513,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 908514,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 908515,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 908516,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 908517,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 995732,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 995733,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 995734,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 995735,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 995736,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 995732,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 89456,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 995733,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 89456,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、剧情、制作公司、配音、电视媒介及全部10集标题共同确认对应 TMDB 89456 第一季，2019与2020两批内容属于同一季。完整电视集表足以确定范围，无需映射电影剪辑版或续季。第6、7话依标题和提前播出记录交叉对应，其余按已核实的连续集序映射。\n\nhttps://www.themoviedb.org/tv/89456 (api_snapshot): 以原名搜索后读取 TMDB 89456：为2019年首播的电视动画《Primal》，别名包含 Genndy Tartakovsky's Primal；穴居人与恐龙结伴生存的剧情、配音 Aaron LaPlante、制作公司 Cartoon Network Studios 与 Williams Street 均与输入相符。\n\nhttps://www.themoviedb.org/tv/89456/season/1 (api_snapshot): 第一季集表共10集、仅1页，完整覆盖输入10个标题。第1—5、8—10集标题同序；TMDB 第6集为 Plague of Madness（2020-04-01），第7集为 Scent of Prey（2020-10-04），与 Bangumi 第6、7话顺序相反。第1—5集日期均比 Bangumi 晚一天，第8—10集日期完全一致。\n\nhttps://www.adultswim.com/videos/primal (page): Adult Swim 官方第一季列出相同的10个标题与剧情，其中第6集为 Scent of Prey，第7集为 Plague of Madness，确认 Bangumi 采用官方叙事集序；该 subject 覆盖电视第一季全部10集。\n\nhttps://en.wikipedia.org/wiki/Plague_of_Madness (page): Plague of Madness 由 Genndy Tartakovsky 执导，曾于2020-04-01突袭首播，后于2020-10-11按剧情顺序播出，解释其在 TMDB 与 Bangumi 的日期及编号差异。\n\n备注：前5集在 TMDB 的日期统一比 Bangumi 晚一天；具体日期记法差异未进一步核实，但标题、顺序、剧情和集数一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/292503; https://www.themoviedb.org/tv/89456; https://www.themoviedb.org/tv/89456/season/1; https://www.adultswim.com/videos/primal; https://en.wikipedia.org/wiki/Plague_of_Madness",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 89456
+    },
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 8,
+      "season": 1,
+      "start": 8,
+      "tmdbId": 89456
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

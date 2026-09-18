@@ -1,13 +1,129 @@
 {
   "bangumiId": 301565,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 935678,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 935679,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 935680,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 935681,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 935682,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 935683,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 935684,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 935685,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 935686,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 935687,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 935688,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 935689,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 935690,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 935691,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 935692,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 935693,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 935694,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 935695,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 935696,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 935697,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 935698,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 935699,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 935700,
+      "sort": 23,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 456《The Simpsons》与 Bangumi 条目身份一致：均为 FOX 的美国动画系列，主题均围绕 Springfield 的 Simpson 一家；TMDB 首播日期为 1989-12-17，且明确列出第30季首播 2018-09-30、23 集。TMDB 第30季集表覆盖第1至23集，日期从 2018-09-30 至 2019-05-12，与 Bangumi 的年份、播出区间和23集完全对应，因此可映射为完整第30季。IMDb 提示 tt6225298 在 TMDB 中实际对应第30季第1集《Bart's Not Dead》，不是整部 TV 作品，未将其误用为系列 ID。\n\nhttps://api.bgm.tv/v0/subjects/301565 (api_snapshot): Bangumi fresh API 确认标题为 The Simpsons Season 30，媒介为 TV，播出日期 2018-09-30，集数 23。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 条目 456 为 The Simpsons；剧情为 Simpson 家庭在 Springfield 的日常与冒险，媒介为 TV，原始标题为 The Simpsons，首播日期 1989-12-17，并列出主要配音演员及制作公司。\n\nhttps://www.themoviedb.org/tv/456/season/30 (api_snapshot): TMDB 第30季实际季表为 season 30，共23集，覆盖第1至23集，首播 2018-09-30，末集 2019-05-12。\n\nhttps://www.themoviedb.org/tv/456/season/30/episode/1 (api_snapshot): TMDB 外部 IMDb ID tt6225298 查找到的是 TV 456 第30季第1集，而非独立系列作品。",
+    "evidence": "codex: 作品身份、电视动画版本、制作信息、季别、23集总量及首末播出日期相互吻合，可确认该subject覆盖TMDB TV 456完整第30季。Bangumi提供的23个章节均无标题和播出日期，无法逐集交叉核对，因此保留整季映射，暂不生成仅凭序号推定的rules或overrides。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): 以英文原名搜索后读取详情：TMDB TV 456 为《The Simpsons》，剧情围绕 Springfield 的辛普森一家展开，制作公司包括 Gracie Films、20th Century Fox Television，主要配音包括 Dan Castellaneta、Julie Kavner、Nancy Cartwright。\n\nhttps://www.themoviedb.org/tv/456/season/30 (api_snapshot): 已读取第30季完整集表，total_pages=1，共23集，集号连续为1至23；首集于2018-09-30播出，末集于2019-05-12播出，与输入的季别、集数及播出区间一致。\n\nhttps://en.wikipedia.org/wiki/The_Simpsons_season_30 (search_snippet): 资料确认第30季是2018-09-30至2019-05-12在Fox播出的美国动画喜剧，共23集，由Gracie Films与20th Century Fox Television制作，Al Jean及Matt Selman担任节目统筹，与TMDB资料及输入的媒介、播出信息吻合。\n\n备注：Bangumi网页及API访问失败，未能补充章节标题或播出日期；逐集对应需待这些信息补全后核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/301565; https://api.bgm.tv/v0/subjects/301565; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/30; https://www.themoviedb.org/tv/456/season/30/episode/1",
-    "verifiedAt": "2026-09-08T21:54:22.542Z"
+    "source": "https://bgm.tv/subject/301565; https://www.themoviedb.org/tv/456; https://www.themoviedb.org/tv/456/season/30; https://en.wikipedia.org/wiki/The_Simpsons_season_30",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

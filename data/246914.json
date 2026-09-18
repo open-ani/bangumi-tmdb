@@ -1,21 +1,162 @@
 {
   "anidbId": 14086,
   "bangumiId": 246914,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 806013,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 806014,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 806015,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 806016,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 806017,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 806018,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 806019,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 806020,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 806021,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 806022,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 883865,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 894632,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 896102,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 900064,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 909101,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 909102,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 926937,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 926938,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 926939,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 943348,
+      "sort": 20,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 943348,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 80020,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、制作方、剧情角色及逐集标题确认是同一部网络剧情宣传动画。全部20个章节可对应：本篇1—6话为TMDB第1季，7—19话为第2季，特别篇为S00E01。旧映射仅含第1季，范围不完整。\n\nhttps://www.themoviedb.org/tv/80020 (api_snapshot): TMDB 80020 的日文原名、2018-07-01 首播日期吻合；制作公司包含东映动画、万代，角色包含悟空、贝吉塔、特兰克斯及弗。季划分为监狱惑星篇、宇宙争乱篇及后续篇章。\n\nhttps://www.themoviedb.org/tv/80020/season/1 (api_snapshot): 第1季共6集，已读取完整集表；各集标题及日期均与 Bangumi 本篇第1—6话对应。\n\nhttps://www.themoviedb.org/tv/80020/season/2 (api_snapshot): 第2季共13集，已读取完整集表；标题逐一对应 Bangumi 本篇第7—19话，顺序一致。除第10、12话日期相差一天外，其余日期一致。\n\nhttps://www.themoviedb.org/tv/80020/season/0 (api_snapshot): 第0季共2集；第1集标题为时空巡逻员对暗黑王，日期2020-02-23，与 Bangumi 特别篇943348对应。第2集是2020-11-15的另一作品，不在本 subject 范围内。\n\nhttps://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/8869?entry_id=6205 (page): 万代官方公告确认本作为东映动画制作的游戏原创剧情宣传动画，2018-07-01开始上映及网络配信，单话约9分钟；剧情围绕弗、失踪的特兰克斯与监狱惑星展开。\n\nhttps://www.carddass.com/dbh/sdbh/prison_planet/news.php (page): 官方新闻确认第7话于2019-01-10开启宇宙争乱篇，第19话于2020-01-09发布，暗黑王特别篇于2020-02-23发布；第10、12话发布日期分别为2019-04-18和2019-06-22，与TMDB一致。\n\n备注：输入中第10、12话日期比TMDB及官方发布日期早一天；标题与顺序完全对应，不影响映射。；Bangumi网页访问失败，章节核对使用用户提供的归档快照。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/246914; https://www.themoviedb.org/tv/80020; https://www.themoviedb.org/tv/80020/season/1; https://www.themoviedb.org/tv/80020/season/2; https://www.themoviedb.org/tv/80020/season/0; https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/8869?entry_id=6205; https://www.carddass.com/dbh/sdbh/prison_planet/news.php",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80020
+    },
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 7,
+      "tmdbId": 80020
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 80020,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 80020,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 80020,
+      "season": 0,
       "type": "tv"
     }
   ]

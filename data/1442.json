@@ -1,16 +1,86 @@
 {
   "anidbId": 6224,
   "bangumiId": 1442,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 5054,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 5055,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 5056,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 5057,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 5058,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 5059,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 5060,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 5061,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 5062,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 5063,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 5064,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 5065,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2009年4月4日开播、12集的《神曲奏界ポリフォニカ クリムゾンS》，导演鈴木利正、动画制作diomedéa。AniDB公开标题索引将6224对应为“Shinkyoku Soukai Polyphonica: Crimson S”，与条目名称及版本一致。TMDB 34069的主体包含2007年第一季和2009年第二季；第2季名称为“クリムゾンS”、首播日为2009-04-04、共12集，完整集名与Bangumi第1至12话逐一对应，因此应映射为TV 34069第2季完整一季。\n\nhttps://bangumi.tv/subject/1442 (page): 条目名称为神曲奏界ポリフォニカ クリムゾンS，类型TV，12话，2009-04-04开播、2009-06-20结束，导演鈴木利正，动画制作diomedéa；章节为01至12。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引包含[6224,\"Shinkyoku Soukai Polyphonica: Crimson S\"]，与输入中的AniDB ID和Bangumi版本名称一致。\n\nhttps://www.themoviedb.org/tv/34069 (api_snapshot): TMDB主体名称为神曲奏界ポリフォニカ，首播2007-04-03，共24集，并明确列出第1季12集及第2季“クリムゾンS”12集。\n\nhttps://www.themoviedb.org/tv/34069/season/2 (api_snapshot): TMDB第2季season_number为2，名称为クリムゾンS，首播2009-04-04，episodeCount为12；快照提供第1至12集完整标题、日期和剧情，集名与Bangumi章节一一对应。\n\n备注：TMDB将第12集日期记为2009-06-21，而Bangumi记为2009-06-20，存在一日日期口径差异；不影响作品版本、季号或完整12集范围判断。；AniDB原站页面本次无法直接读取，但ID与标题由输入匹配字段及公开AniDB标题索引共同核对。",
+    "evidence": "codex: 确认对应TMDB 34069第2季整季。2009年版本、电视动画媒介、制作公司、学院剧情及12话标题顺序相符，第2季未混入2007年作品，可将Bangumi本篇1—12话连续对应S02E01—E12。\n\nhttps://bgm.tv/subject/1442 (page): Bangumi 确认为2009年电视动画《神曲奏界ポリフォニカ クリムゾンS》，共12话，导演鈴木利正、动画制作diomedéa，放送期间为2009-04-04至2009-06-20；剧情为弗洛恩在神曲学院学习及与寇缇卡露特缔结契约。\n\nhttps://bgm.tv/subject/1442/ep (page): 章节页列出本篇第1至12话；逐话标题与TMDB第2季全部对应，仅冒号的全角、半角不同。\n\nhttps://www.themoviedb.org/tv/34069 (api_snapshot): TMDB 34069包含2007年第1季和2009年第2季，分别12集；别名明确将Crimson S标为第2季，制作公司包含diomedéa，第2季简介与Bangumi的孤儿院相遇、契约及学院故事一致。\n\nhttps://www.themoviedb.org/tv/34069/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共12集，季名为クリムゾンS，首播2009-04-04。第1至12集标题依次与Bangumi的邂逅、迷路、盟約、暗躍、謀略、双魂、始動、激震、野望、進攻、解体、希望及各自音乐术语一致；集日期覆盖2009-04-04至2009-06-21。\n\n备注：Bangumi未提供逐话放送日期；条目完结日为2009-06-20，TMDB第12集日期为2009-06-21，相差一天，原因未核实。完整集名与集数一致，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1442; https://bangumi.tv/subject/1442; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/34069; https://www.themoviedb.org/tv/34069/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1442; https://bgm.tv/subject/1442/ep; https://www.themoviedb.org/tv/34069; https://www.themoviedb.org/tv/34069/season/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 34069
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

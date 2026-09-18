@@ -1,19 +1,151 @@
 {
   "anidbId": 17096,
   "bangumiId": 364468,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1114889,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1114890,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1114891,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1114892,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1114893,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1114894,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1114895,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1114896,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1114897,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1114898,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1114899,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1114900,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1114901,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1114902,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1114903,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1114904,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1114905,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1114906,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1114907,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1114908,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1114909,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1114910,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1114911,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1159485,
+      "sort": 11.5,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2022年新版《福星小子》的 TMDB 154524 第1季第1—23集。23话的标题、顺序与放送排期一致；TMDB 将2024年续篇也编入第1季，因此旧映射应收窄为明确区间。\n\nhttps://www.themoviedb.org/tv/154524 (api_snapshot): TMDB 154524 为2022年新版电视动画，剧情、原作高桥留美子、导演髙桥秀弥与木村泰大、动画制作 david production 均与输入一致；可与1981年旧版区分。\n\nhttps://www.themoviedb.org/tv/154524/season/1 (api_snapshot): 第1季共46集，total_pages=1。逐集比对确认第1—23集对应输入的23话，标题仅有标点、空格及第3话「ドラブル／トラブル」字形差异；日期全部比 Bangumi 晚一天，范围为2022-10-14至2023-03-24。第24集从2024-01-12开始，属于后续篇章。\n\nhttps://linegame-official.blog.jp/archives/59878122.html (search_snippet): 作品放送资料注明2022年10月13日起每周四24:55播出，支持将 Bangumi 的放送日与 TMDB 的次日自然日期视为同一排期。\n\nhttps://natalie.mu/comic/news/507557 (search_snippet): 2023年1月3日的新春特别节目为 YouTube 配信，内容是声优回顾第一季度、访谈及公布新角色声优，并非新增本篇动画。\n\n备注：新春特番（Bangumi 章节1159485，sort=11.5）未确认 TMDB 对应条目，保留未映射；不据此断言 TMDB 未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/364468; https://www.themoviedb.org/tv/154524; https://www.themoviedb.org/tv/154524/season/1; https://linegame-official.blog.jp/archives/59878122.html; https://natalie.mu/comic/news/507557",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 154524
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 23,
       "id": 154524,
       "season": 1,
       "type": "tv"

@@ -1,16 +1,56 @@
 {
   "anidbId": 13691,
   "bangumiId": 233926,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 840814,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 846774,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 856613,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 856615,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 856616,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 856617,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是《続・終物語》/《续·终物语》，主体共6话，2018-11-10剧场先行上映，后于2019年以全6话TV形式播出。AniDB 13691确认同名作品为2018年电影，并明确注明TV播出为6话；Anime-Lists将AniDB 13691关联到TMDB TV 46195第0季。TMDB第0季中第42至47集分别为「こよみリバース 其ノ壹」至「其ノ陸」，日期为2019-05-18至2019-06-22，与官方TV播出日期及Bangumi的6话主体完全对应。第0季还混有其他物语作品和特别节目，不能整季纳入。\n\nhttps://bgm.tv/subject/233926 (page): Bangumi 条目标题为続・終物語，话数为6，上映年度为2018年11月10日，TV放送日期为2019年5月18日至6月22日；章节为01至06，剧情为毕业后进入镜中世界。\n\nhttps://anidb.net/anime/13691 (page): AniDB 13691为Zoku Owarimonogatari，日文正式标题为続・終物語，类型为Movie，年份为10.11.2018，并注明该作品以六话形式在电视播出；制作信息包括新房昭之、SHAFT。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (search_snippet): Anime-Lists记录anidbid=\"13691\"、名称Zoku Owarimonogatari，对应tmdbtv=\"46195\"、tmdbseason=\"0\"。\n\nhttps://www.monogatari-series.com/news/?article_id=49805 (search_snippet): 官方公告说明剧场上映的TV动画《続・終物語》随后播出，且《続・終物語》自2019年5月18日起每周六播出全6话。\n\nhttps://www.themoviedb.org/tv/46195/season/0 (api_snapshot): TMDB API快照显示46195第0季为特別編，共49集；第42至47集标题依次为こよみリバース 其ノ壹至其ノ陸，日期为2019-05-18、05-25、06-01、06-08、06-15、06-22，正好构成该Bangumi主体的六话。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): TMDB API快照确认目标为TV作品46195《化物語》，其第0季包含上述続・終物語剧集以及其他物语作品和特别节目。\n\n备注：剧场先行上映日期为2018年，而TMDB对应剧集采用2019年TV播出日期；现有官方、Bangumi、AniDB资料支持这是同一六话作品的不同发行/播出形态。",
+    "evidence": "codex: 确认对应TMDB 46195第0季第42—47集。六话标题、剧情、制作信息与集数吻合，播出日期符合官方排期。Bangumi采用2018年剧场先行上映日期，TMDB采用2019年电视播出日期；官方明确二者为同一六话作品。保留旧映射范围，并补充本篇1—6话的连续对应规则。\n\nhttps://bgm.tv/subject/233926 (page): Bangumi 标明本作共6话，新房昭之执导、SHAFT制作，2018年11月10日上映，2019年5月18日至6月22日电视播出；剧情为阿良良木历毕业后进入镜中世界。\n\nhttps://www.monogatari-series.com/sp/news/?article_id=49805 (page): 官方公告明确：2018年11月剧场活动上映的《続・終物語》于2019年5月18日起每周六播出，全6话；此前播出的6回系列精选另属其他内容。\n\nhttps://www.monogatari-series.com/zokuowarimonogatari/ (page): 官方剧情介绍为毕业翌日进入反转的镜中世界，与Bangumi及TMDB第0季第42集剧情一致。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): 实际读取TMDB TV 46195详情：条目以《化物語》为名组织物语系列，制作公司包括SHAFT、Aniplex及讲谈社，原作为西尾维新，设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/46195/season/0 (api_snapshot): 第0季共49集，total_pages=1。第42至47集依次为「こよみリバース」其ノ壹、貳、参、肆、伍、陸，与Bangumi六话逐一对应；日期依次为2019-05-18、05-25、06-01、06-08、06-15、06-22，符合官方六话周播排期。第41集属于《终物语》、第48集属于其他作品，故仅取42至47集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/233926; https://anidb.net/anime/13691; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.monogatari-series.com/news/?article_id=49805; https://www.themoviedb.org/tv/46195/season/0; https://www.themoviedb.org/tv/46195",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/233926; https://www.monogatari-series.com/sp/news/?article_id=49805; https://www.monogatari-series.com/zokuowarimonogatari/; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 42,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 46195
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

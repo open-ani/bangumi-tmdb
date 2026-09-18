@@ -1,16 +1,103 @@
 {
   "anidbId": 11081,
   "bangumiId": 125896,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 534649,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 534650,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 534651,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 534652,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 534653,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 534654,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 534655,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 534656,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 534657,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 534658,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 534659,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 534660,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 567508,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 567508,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 71386,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2015-07-09 开播的《だんちがい》TV 主体，含常规话数 1–12，以及主体内的特别篇第 13 话（2015-09-18）。TMDB TV 71386 同名、同日开播，简介中的人物与设定一致；第 1 季明确为 12 集，逐集标题和日期与 Bangumi 常规话数 1–12 对应。TMDB 还列出 season 0「特別編」且仅 1 集、日期为 2015-09-18，与主体内特别篇对应，因此同时纳入完整 season 0。\n\nhttps://bgm.tv/subject/125896 (page): Bangumi subject 为《だんちがい》/《群居姐妹》，常规话数 12，主体还含 2015-09-18 的第 13 话特别篇。\n\nhttps://www.themoviedb.org/tv/71386 (api_snapshot): TMDB TV 71386 同名、原名相同，首播日为 2015-07-09；简介设定与 Bangumi 一致，并列出 season 0 为 1 集、season 1 为 12 集。\n\nhttps://www.themoviedb.org/tv/71386/season/1 (api_snapshot): TMDB season 1 的 12 集标题与日期逐一对应 Bangumi 常规话数 1–12。",
+    "evidence": "codex: 确认对应TMDB 71386的2015年TV动画：年份、剧情、导演、制作公司及短篇形式一致。本篇12话逐集标题与日期吻合，对应第1季1—12集；特别篇标题及发行日期吻合，对应第0季第1集。两个季的完整集表均已读取。\n\nhttps://bangumi.tv/subject/125896 (search_snippet): Bangumi 条目为2015年7月9日开播的12话TV动画；原作米田和佐、导演木村寛、动画制作 Creators in Pack。\n\nhttps://www.themoviedb.org/tv/71386 (api_snapshot): TMDB 71386 原名为《だんちがい》，播出日期为2015年7月9日至9月24日；仲野晴辉与四姐妹的剧情设定、导演木村寛及制作公司均吻合。\n\nhttps://www.themoviedb.org/tv/71386/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。逐集日期均与输入的Bangumi本篇1—12话一致，标题对应一致，仅个别助词和标点存在差异；每集约4分钟。\n\nhttps://www.themoviedb.org/tv/71386/season/0 (api_snapshot): 第0季完整集表仅1集，标题为《十三号棟 銭湯行きたいー!!》，日期2015年9月18日，与Bangumi特别篇567508对应。\n\nhttps://youranimes.tw/animes/5175 (search_snippet): 《十三号棟 銭湯行きたいー!!》为收录于Blu-ray/DVD的电视未播出章节，日期为2015年9月18日，制作人员与TV主体一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/125896; https://www.themoviedb.org/tv/71386; https://www.themoviedb.org/tv/71386/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/125896; https://bangumi.tv/subject/125896; https://www.themoviedb.org/tv/71386; https://www.themoviedb.org/tv/71386/season/1; https://www.themoviedb.org/tv/71386/season/0; https://youranimes.tw/animes/5175",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71386
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 71386,
       "season": 0,
       "type": "tv"

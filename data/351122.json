@@ -1,15 +1,106 @@
 {
+  "anidbId": 16989,
   "bangumiId": 351122,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1059196,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 1059197,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 1059198,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 1059199,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 1059200,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 1059201,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 1059202,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 1059203,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 1059204,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 1059205,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 1075495,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 1075496,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 1075497,
+      "sort": 38,
+      "type": 0
+    },
+    {
+      "id": 1075498,
+      "sort": 39,
+      "type": 0
+    },
+    {
+      "id": 1075499,
+      "sort": 40,
+      "type": 0
+    },
+    {
+      "id": 1075500,
+      "sort": 41,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 87210《邪王追妻》明确将《邪王追妻3：神女归来》《邪王追妻之神女归来》列为第3季别名；年份为2021年，剧情与 Bangumi subject 的苏落、云起、南宫流云及身世线一致，制作公司包含 Big Firebird Cultural Media 与 iQIYI，与 Bangumi 制作信息吻合。TMDB 第3季实际集表为“神女归来篇”16集，播出日期为2021-09-29至2022-01-05，正好覆盖该 subject 的16集，因此推荐完整第3季。\n\nhttps://api.bgm.tv/v0/subjects/351122 (api_snapshot): Bangumi fresh API 标明作品为《邪王追妻之神女归来》，别名含《邪王追妻 第三季》《邪王追妻3：神女归来》，2021-09-29开播、共16集；剧情和制作公司为爱奇艺、广州大火鸟文化有限公司。\n\nhttps://www.themoviedb.org/tv/87210 (api_snapshot): TMDB TV 87210 原名《邪王追妻》，2021-01-24首播、2022-01-05完结，共3季41集；替代标题明确把《邪王追妻3：神女归来》《邪王追妻之神女归来》标为 season 3，制作公司含 Big Firebird Cultural Media 与 iQIYI，剧情与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/87210/season/3 (api_snapshot): TMDB第3季名为《神女归来篇》，开播2021-09-29，共16集，集号1至16，末集日期2022-01-05；剧情、角色和集标题与 Bangumi subject 的主体及16集范围吻合。",
+    "evidence": "codex: 确认对应 TMDB 87210 第3季整季。版本别名、年份、剧情、制作公司及16集范围一致；前14集标题逐一吻合，末两集日期吻合，支持 Bangumi sort 26—41 连续对应 S03E01—E16。\n\nhttps://www.themoviedb.org/tv/87210 (api_snapshot): TMDB 87210《邪王追妻》将《邪王追妻之神女归来》《邪王追妻3：神女归来》明确列为第3季别名；第3季剧情与输入一致，制作公司包含大火鸟与爱奇艺。系列始于2019年，第3季始于2021-09-29，共16集。\n\nhttps://www.themoviedb.org/tv/87210/season/3 (api_snapshot): 第3季《神女归来篇》实际集表共16集，total_pages=1。第1—14集标题与 Bangumi sort 26—39 去除篇名前缀后逐一相同；第15、16集为《抉择》《传承》，日期分别为2021-12-29、2022-01-05，与 Bangumi sort 40、41 一致。第2—9集及第11集日期存在两站差异，但标题和顺序一致。\n\n备注：TMDB 第2—9集日期比输入晚7天，第11集为2021-11-25而输入为2021-12-01；差异原因未确认。标题逐一吻合，未发现集序冲突。；Bangumi sort 40、41 标题为空，其对应依据为前14集标题顺序、16集总量及末两集日期一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/351122; https://api.bgm.tv/v0/subjects/351122; https://www.themoviedb.org/tv/87210; https://www.themoviedb.org/tv/87210/season/3",
-    "verifiedAt": "2026-09-08T23:07:26.736Z"
+    "source": "https://bgm.tv/subject/351122; https://www.themoviedb.org/tv/87210; https://www.themoviedb.org/tv/87210/season/3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 41,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 26,
+      "tmdbId": 87210
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

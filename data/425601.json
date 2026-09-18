@@ -1,19 +1,91 @@
 {
   "anidbId": 17925,
   "bangumiId": 425601,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1252942,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1252943,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1252944,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1252945,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1252946,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1252947,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1252948,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1252949,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1252950,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1252951,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1252952,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1252953,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、电视动画媒介、剧情及制作人员一致，12话标题和放送日期逐集对应。TMDB将2023年与2024年篇章合并为第1季24集，因此本subject仅对应S01E01—E12，旧映射的整季范围应缩小。\n\nhttps://www.themoviedb.org/tv/222798 (api_snapshot): 日文原名搜索命中 TV 222798；详情确认其为2023年电视动画，导演瀬下寛之、制作公司UNEND，护郎收到手机通知并参与神明选拔的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/222798/season/1 (api_snapshot): 第1季实际收录24集，total_pages=1。第1—12集日文标题与Bangumi逐集一致，日期为2023-10-05至2023-12-21，每集均比Bangumi晚一个自然日；第13集从2024-10-03开始，属于后续篇章。\n\nhttps://kamierabi.com/ (page): 官网列出的第1—12话标题与输入及TMDB一致，并继续列出第13—24话；制作名单确认原案ヨコオタロウ、导演瀬下寛之、角色设计大久保篤、动画制作UNEND。\n\nhttps://dengekionline.com/articles/201296/ (search_snippet): 放送资料记载2023年10月4日起每周三24:55播出，即自然日周四凌晨，解释了Bangumi与TMDB逐集日期统一相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/425601; https://www.themoviedb.org/tv/222798; https://www.themoviedb.org/tv/222798/season/1; https://kamierabi.com/; https://dengekionline.com/articles/201296/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 222798
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 222798,
       "season": 1,
       "type": "tv"

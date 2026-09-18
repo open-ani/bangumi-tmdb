@@ -1,19 +1,91 @@
 {
   "anidbId": 16250,
   "bangumiId": 333158,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1070578,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1070579,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1070580,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1070581,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1070582,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1070583,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1070584,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1070585,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1070586,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1070587,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1070588,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1070589,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 123249 第1季第1—12集。年份、媒介、剧情、制作人员及逐集标题和播出周次一致；日期差异来自深夜24时的记日方式。TMDB 将2025年续篇编为同季第13—24集，因此旧映射必须收窄为明确区间，与 subject 398951 的范围不重叠。\n\nhttps://www.themoviedb.org/tv/123249 (api_snapshot): TMDB 123249 为2022年开播的电视动画；五条新菜与喜多川海梦的剧情、CloverWorks 制作、原作福田晋一及导演篠原啓輔均与输入一致。\n\nhttps://www.themoviedb.org/tv/123249/season/1 (api_snapshot): 第1季真实集表共24集，已读取全部1页。第1—12集与 Bangumi 的12话逐集对应；第7话存在假名及标点差异，第9话存在标点差异，其余标题一致。12个播出日期均比 Bangumi 晚一天，周次完全一致。第13—24集为2025年内容，不属于本 subject。\n\nhttps://bisquedoll-anime.com/1st/story/ (page): 官方第一期故事页列出第1—12话，第12话标题及夏日祭剧情与 TMDB 第1季第12集一致，确认第一期终点。\n\nhttps://bisquedoll-anime.com/news/?article_id=59570 (search_snippet): 官方公告明确首播时间为2022年1月8日24:00，即公历1月9日00:00，解释 Bangumi 与 TMDB 的一天日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/333158; https://www.themoviedb.org/tv/123249; https://www.themoviedb.org/tv/123249/season/1; https://bisquedoll-anime.com/1st/story/; https://bisquedoll-anime.com/news/?article_id=59570",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 123249
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 123249,
       "season": 1,
       "type": "tv"

@@ -1,19 +1,81 @@
 {
   "anidbId": 18405,
   "bangumiId": 474906,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1354080,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1354081,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1354082,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1354083,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1354084,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1354085,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1354086,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1354087,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1354088,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1354089,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 243501 第1季第1—10集。年份、电视动画媒介、剧情、导演及逐集标题与播出排期一致。TMDB 将2024年第一期和2025年第二期合并为一季22集，因此旧映射应收窄至前10集，与第二期占用的第11—22集无重叠。\n\nhttps://www.themoviedb.org/tv/243501 (api_snapshot): 以日文原名搜索并读取 TMDB 243501 详情：该条目为2024年开播的电视动画，剧情为小鸠与小佐内结成互惠关系、努力成为小市民；导演神户守，制作公司包含 lapintrack，与输入作品一致。\n\nhttps://www.themoviedb.org/tv/243501/season/1 (api_snapshot): 完整读取第1季集表，共22集、仅1页。第1—8集日文标题与 Bangumi 逐集一致；第9—10集标题为「スイート・メモリー（１）」「スイート・メモリー（２）」，对应前篇、后篇。前10集日期依次为2024-07-07、07-14、07-21、08-04、08-11、08-18、08-25、09-01、09-08、09-15，均比输入日期晚一天，停播间隔一致。第11—22集在2025年播出。\n\nhttps://shoshimin-anime.com/ (page): 动画官网确认导演神户守、制作公司ラパントラック及主要角色声优，并区分第一期与第二期；第二期于2025年4月开始播出。\n\nhttps://www.animatetimes.com/news/details.php?id=1717751805 (search_snippet): 2024年放送报道记载首播为7月6日星期六深夜1时30分，即自然日7月7日，解释 Bangumi 与 TMDB 的一天日期差。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/474906; https://www.themoviedb.org/tv/243501; https://www.themoviedb.org/tv/243501/season/1; https://shoshimin-anime.com/; https://www.animatetimes.com/news/details.php?id=1717751805",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 243501
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 10,
       "id": 243501,
       "season": 1,
       "type": "tv"

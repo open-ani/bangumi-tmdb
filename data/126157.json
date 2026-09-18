@@ -1,21 +1,41 @@
 {
   "anidbId": 11086,
   "bangumiId": 126157,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 484285,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 484285,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 65439,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本作对应TMDB 65439的S00E01。漫画附赠OVA的媒介、2015年发行日期、单话总量、剧情、制作人员及约28分钟时长相互吻合，可与2016年TV正篇明确区分。唯一章节通过override映射至特别篇季，替换已返回404的旧电影映射。\n\nhttps://bgm.tv/subject/126157 (page): Bangumi 将本作标为单话 OVA，发售日为2015年10月3日；导演鎌仲史陽、脚本高山カツヒコ、动画制作アスリード。\n\nhttps://bgm.tv/ep/484285 (page): 唯一章节484285为第1话《拘束する支配者（バインドドミネーター）》，日期2015年10月3日，时长27分26秒。\n\nhttps://future-diary.tv/bo/comicsova/ (page): 官网确认该动画随2015年10月3日发售的漫画第8卷限定版BD附送；剧情、导演、编剧和制作公司与Bangumi一致。BD包含24个自动选择的场景，属于同一部附赠动画。\n\nhttps://www.themoviedb.org/movie/358813 (api_snapshot): 旧映射movie/358813的详情请求返回HTTP 404，无法继续采用。\n\nhttps://www.themoviedb.org/tv/65439 (api_snapshot): 原名及英文名搜索找到TV条目65439；详情确认2016年TV正篇共10集，制作公司アスリード，导演鎌仲史陽、编剧高山カツヒコ；另外列出2015年10月3日开始的单集特别篇季。\n\nhttps://www.themoviedb.org/tv/65439/season/0 (api_snapshot): 第0季完整集表仅1页、1集：S00E01标题为OVA，日期2015年10月3日，时长28分钟；剧情涉及星宫英司与Order能力，与本作吻合。\n\n备注：TMDB使用通用集名“OVA”，未记录Bangumi的具体章节标题；对应关系由发行日期、单话数量、时长和官网版本资料交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/126157; https://bgm.tv/ep/484285; https://future-diary.tv/bo/comicsova/; https://www.themoviedb.org/movie/358813; https://www.themoviedb.org/tv/65439; https://www.themoviedb.org/tv/65439/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 358813,
-      "type": "movie"
+      "episode": 1,
+      "id": 65439,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

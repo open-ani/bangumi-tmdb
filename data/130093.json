@@ -1,16 +1,103 @@
 {
   "anidbId": 11172,
   "bangumiId": 130093,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 555812,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 555813,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 555814,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 555815,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 555816,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 555817,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 555818,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 555819,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 555820,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 555821,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 555822,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 555823,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 688030,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 688030,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 90327,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该作品标为 TV，主体共 13 话：2015-10-07 至 2015-12-23 的正篇 12 话，以及 2015-12-26 的特别篇“今后的不思议美眉”。Anime-Lists 中 AniDB 11172 的同名条目关联 TMDB TV 90327 第 1 季；TMDB 主条目与第 1 季的标题、首播日期、简介、12 集内容均与 Bangumi 正篇吻合。TMDB 同时明确列出 season 0“特別編”，1 集且日期为 2015-12-26，与 Bangumi 主体内特别篇对应，因此需单独纳入 season 0 episode 1。未发现电影、OVA、总集篇或重剪版迹象。\n\nhttps://bgm.tv/subject/130093 (page): Bangumi 页面将作品标为 TV，记载 13 话、2015-10-07 开播、2015-12-23 正篇结束；章节列表含 01-12、SP 和 13，特别篇标题为“要开始了哦！今后的不思议美眉！！”，首播为 2015-12-26；制作信息含导演/脚本/人物设定 いまざきいつき、动画制作 Seven。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): anidbid=\"11172\" 的条目名称为 Fushigi na Somera-chan，并关联 tmdbtv=\"90327\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/90327 (api_snapshot): TMDB TV 90327 名称为不思議なソメラちゃん，首播日期为 2015-10-07，简介和日本制作信息与 Bangumi 对应；主条目列出 season 0“特別編”1 集（2015-12-26）和 season 1 12 集。\n\nhttps://www.themoviedb.org/tv/90327/season/1 (api_snapshot): TMDB 第 1 季为 12 集，集 1-12 的标题与日期逐项对应 Bangumi 的 12 个正篇章节，日期从 2015-10-07 连续至 2015-12-23。",
+    "evidence": "codex: 年份、电视动画形式、剧情、制作公司及逐集标题和日期相符。12集正篇完整对应 TMDB 90327 第1季；特别篇688030对应第0季第1集，已独立读取集表确认。\n\nhttps://www.themoviedb.org/tv/90327 (api_snapshot): 以日文原名搜索命中 TV 90327；详情确认首播为2015-10-07，剧情围绕野乃本姐妹与野乃本魔法拳，制作公司为 Seven、Dream Creation，与输入的2015年电视动画一致。正篇共12集，另有特别篇1集。\n\nhttps://www.themoviedb.org/tv/90327/season/1 (api_snapshot): 第1季完整集表共12集、1页。逐集比对后，第1—12集标题和播出日期均与 Bangumi 正篇对应，仅第1集标题末尾感叹号数量不同；日期范围为2015-10-07至2015-12-23，无混入其他作品。\n\nhttps://www.themoviedb.org/tv/90327/season/0 (api_snapshot): 第0季完整集表仅1集，标题为「始まってるよ！その後のソメラちゃん!!」，日期为2015-12-26，与 Bangumi 特别篇688030的标题、日期一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/130093; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/90327; https://www.themoviedb.org/tv/90327/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/130093; https://www.themoviedb.org/tv/90327; https://www.themoviedb.org/tv/90327/season/1; https://www.themoviedb.org/tv/90327/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 90327
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

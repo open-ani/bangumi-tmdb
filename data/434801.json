@@ -1,15 +1,146 @@
 {
+  "anidbId": 18779,
   "bangumiId": 434801,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1374627,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1374628,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1374629,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1374630,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1374631,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1374632,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1374633,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1374634,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1374635,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1374636,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1374637,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1374638,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1374639,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1374640,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1374641,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1374642,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1374643,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1374644,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1374645,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1374646,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1374647,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1374648,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1374649,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1374650,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 259337 与 Bangumi《神武天尊（2024）》的首播日期、标题、剧情简介、制作媒介及24集主体一致；TMDB第1季实际集表覆盖第1至24集，集名序列也与 Bangumi 对应。TMDB 115787 是2020年版动态漫画，共185集，明确排除。Bangumi部分集日期与TMDB存在偏移，但不影响作品身份和整季范围判断。\n\nhttps://www.themoviedb.org/tv/259337 (api_snapshot): TMDB详情确认：中文原名《神武天尊》，首播2024-07-27，剧情为萧晨重生并走出诸天尊道路，共1季24集；制作公司含 iQIYI、Passion Paint Animation。\n\nhttps://www.themovied.org/tv/259337/season/1 (api_snapshot): TMDB第1季实际集表为24集，编号连续覆盖1-24；第1集《体修至尊》至第24集《天荒拳》。\n\nhttps://api.bgm.tv/v0/subjects/434801 (api_snapshot): Bangumi原始API确认作品为2024-07-27开始的WEB动画，24集，剧情简介与TMDB 259337一致，制作方含爱奇艺。\n\nhttps://www.iqiyi.com/a_z0ninzd33p.html (search_snippet): 爱奇艺官方作品页确认《神武天尊》及其“九界唯一体修至尊、萧晨重生”等剧情。\n\nhttps://pages.iqiyi.com/p/zbs/news20240727.html (search_snippet): 爱奇艺官方发布的2024-07-27开播公告确认这是该时期推出的动画，并描述其体修至尊重生为萧晨的剧情。\n\nhttps://www.themovied.org/tv/115787 (api_snapshot): TMDB详情显示115787为2020-09-28首播的《神武天尊 动态漫画》，共185集，剧情和版本均不同，因此不是本 Bangumi subject。\n\n备注：Bangumi快照中第24集日期为2025-01-04，而TMDB及爱奇艺相关资料将第24集置于2024-12-20/21；这属于日期记录差异。；TMDB详情未返回导演工作人员，无法用TMDB独立核验Bangumi所列导演唐妍；但作品身份、制作方线索、剧情和24集范围已相互吻合。",
+    "evidence": "codex: 确认对应TMDB 259337第1季整季：年份、首播、剧情、导演及制作方、3D动画版本和24集范围相符。前9集经标题逐项核对建立连续规则；官方首日连播3集解释了这部分日期偏移。第10至24集缺少Bangumi标题且日期不一致，暂不凭编号延伸逐集规则。\n\nhttps://www.themoviedb.org/tv/259337 (api_snapshot): TMDB 259337 首播于2024-07-27，共1季24集；萧晨遭背叛后重生的剧情与输入一致，制作公司包括爱奇艺，别名明确标注3D版本。\n\nhttps://www.themoviedb.org/tv/259337/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共24集。前9集标题与Bangumi对应，仅第3集多一个“大”字；第24集为《天荒拳》。第1至3集日期均为2024-07-27，第12集记为2024-10-05，末集为2024-12-21。\n\nhttps://pages.iqiyi.com/p/zbs/news20240727.html (search_snippet): 爱奇艺开播公告确认2024年3D动画由唐妍导演、爱奇艺传奇工作室与君艺心动画联合制作，7月27日首播3集，此后每周六更新1集；公告明确区分2020年上线的同名动态漫画。\n\nhttps://www.iqiyi.com/a_z0ninzd33p.html (page): 爱奇艺官方专辑标注2024年、24集全；逐集标题与TMDB第1季对应，第3集官方标题为《战烈焰宗》，第24集为《天荒拳》，支持整季属于同一作品。\n\nhttps://bgm.tv/subject/434801/ep (page): Bangumi章节页与输入一致：本篇24集，前9集有标题，第10至24集标题为空；日期按2024-07-27起每周一集排列，未反映官方首日连播3集。\n\n备注：Bangumi第10至24集仍需补充标题或章节内容证据，才能确认逐集对应；目前保留未映射。；TMDB第12集日期为2024-10-05，与官方首播3集后每周更新的排期推算不符，可能存在独立日期录入错误。；TMDB未提供导演职员信息；唐妍及君艺心动画的制作身份由爱奇艺官方公告核验。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/434801; https://www.themoviedb.org/tv/259337; https://www.themovied.org/tv/259337/season/1; https://api.bgm.tv/v0/subjects/434801; https://www.iqiyi.com/a_z0ninzd33p.html; https://pages.iqiyi.com/p/zbs/news20240727.html; https://www.themovied.org/tv/115787",
-    "verifiedAt": "2026-09-08T23:50:44.190Z"
+    "source": "https://bgm.tv/subject/434801; https://www.themoviedb.org/tv/259337; https://www.themoviedb.org/tv/259337/season/1; https://pages.iqiyi.com/p/zbs/news20240727.html; https://www.iqiyi.com/a_z0ninzd33p.html; https://bgm.tv/subject/434801/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 259337
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

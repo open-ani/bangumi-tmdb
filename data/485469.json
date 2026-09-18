@@ -1,16 +1,86 @@
 {
   "anidbId": 18541,
   "bangumiId": 485469,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1435459,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1435460,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1435461,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1435462,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1435463,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1435464,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1435465,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1435466,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1435467,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1435468,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1435469,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1435470,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为2025年播出的TV动画，共12话；标题、简介、导演及动画制作（ZERO-G×SABERWORKS）与 TMDB TV 249545 完全对应。TMDB 主条目标记为2025-01-04首播、共12集且只有第1季；第1季快照也明确为12集，集名与 Bangumi 01–12逐集一致，因此应映射为完整第1季。TMDB部分集日期比 Bangumi 的电视首播早一周（例如第3集和第12集），与 Bangumi 标注的 ABEMA 先行播出窗口相符，不构成版本不一致。未发现需要拆分的OVA、电影、总集篇或其他主体内特别篇。AniDB 18541 的直接页面未能读取，因此没有把该 ID 作为决定性依据；目标由 Bangumi 与 TMDB 的标题、剧情、制作信息、集名和数量独立确认。\n\nhttps://bgm.tv/subject/485469 (page): Bangumi 将该作品标为TV，话数12，放送开始2025-01-04、结束2025-03-22，并给出与 TMDB 相同的日文标题、剧情简介、导演平川哲生及动画制作ZERO-G×SABERWORKS。\n\nhttps://bgm.tv/subject/485469 (page): Bangumi章节列表完整列出01至12，标题顺序与 TMDB 第1季快照逐集一致；条目还注明ABEMA于2024-12-28至2025-03-15一周先行。\n\nhttps://www.themoviedb.org/tv/249545 (api_snapshot): TMDB API快照显示TV ID 249545的日文原名与 Bangumi 一致，首播日2025-01-04，剧情为塔玛以S级贝希摩斯幼体身份被精灵冒险者阿莉亚误认为小猫并成为其宠物骑士，共12集，仅列Season 1。\n\nhttps://www.themoviedb.org/tv/249545/season/1 (api_snapshot): TMDB API快照明确为第1季，air_date为2025-01-04，episodeCount为12，且完整剧集标题1至12与 Bangumi章节标题一致。\n\nhttps://bgm.tv/ep/1435470 (search_snippet): Bangumi第12话为《聖なる刃と聖なる獣》，电视首播2025-03-22，剧情为与ヴァサーゴ及ニーズヘッグ的最终决战，和 TMDB 第12集标题及主线剧情对应。\n\nhttps://animeschedule.net/anime/s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu (search_snippet): 独立索引以相同日文及英文别名列出该作品为TV、Winter 2025、12集、约24分钟，并提供AniDB信息入口；但摘要未显示AniDB数字ID。\n\n备注：AniDB 18541 的直接详情页无法读取，故未能独立确认该数字ID与 Bangumi 条目的关联；这不影响基于 Bangumi与TMDB直接内容交叉核对得到的目标映射。；TMDB部分集的日期采用了与Bangumi电视首播不同的先行播出日期，若下游要求电视首播日期，应以Bangumi日期为准。",
+    "evidence": "codex: 确认为TMDB 249545第1季完整12集，Bangumi本篇1—12话依次对应S01E01—E12。年份、媒介、剧情、导演、制作公司和完整集表相符；两处标题文字差异已用官方分集资料核实，日期差异与一周先行播出安排吻合，未发现混入其他作品或需要拆分的章节。\n\nhttps://bgm.tv/subject/485469 (page): Bangumi 将本作标为2025年电视动画，共12话，电视播出期间为1月4日至3月22日；导演为平川哲生，动画制作为ゼロジー×セイバーワークス，并注明ABEMA提前一周播出。\n\nhttps://www.themoviedb.org/tv/249545 (api_snapshot): 以日文原名搜索命中249545；详情确认其为2025年电视动画，导演平川哲生、制作公司Zero-G和Saber Works、塔玛转生为贝希摩斯幼体并被精灵阿莉亚收养的剧情均吻合。仅列第1季，共12集。\n\nhttps://www.themoviedb.org/tv/249545/season/1 (api_snapshot): 已读取第1季完整集表，episodeCount=12、total_pages=1。逐集比较输入的Bangumi章节后，1—12集顺序对应；除第2话「鍛冶士／鍛冶師」、第9话「帝国／帝都」及空格差异外，标题一致。第1、2集日期与Bangumi相同，第3—12集均提前7天，末集为2025-03-15。\n\nhttps://prtimes.jp/main/html/rd/p/000000812.000064643.html (search_snippet): AbemaTV官方新闻稿确认从2024年12月28日起每周六提前地面电视一周播出，解释了TMDB第3—12集与Bangumi电视日期的差异。\n\nhttps://behemoth-anime.com/story/02.html (page): 官方第2话标题使用「鍛冶士」，其锻造师加入临时队伍的剧情与TMDB第2集相同，确认「鍛冶師」是文字差异，不是另一集。\n\nhttps://behemoth-anime.com/story/09.html (page): 官方第9话使用「帝都へ！ 運命の再会」，剧情与TMDB第9集一致；输入Bangumi标题中的「帝国」为用字差异。\n\nhttps://behemoth-anime.com/story/12.html (page): 官方将「聖なる刃と聖なる獣」列为第12话，与Bangumi及TMDB末集一致。\n\nhttps://behemoth-anime.com/onair/index.html (page): 官方播出表将通常版与「湯けむりスッキリ版」列为同一电视动画的不同播出版本。\n\n备注：TMDB日期混用电视播出与先行配信口径：第1、2集采用电视日期，第3—12集采用提前一周的日期，不影响集号对应。；TMDB资料未明确区分通常版与「湯けむりスッキリ版」；本映射确认作品及章节身份，不区分具体视频的画面修订版本。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/485469; https://www.themoviedb.org/tv/249545; https://www.themoviedb.org/tv/249545/season/1; https://bgm.tv/ep/1435470; https://animeschedule.net/anime/s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/485469; https://www.themoviedb.org/tv/249545; https://www.themoviedb.org/tv/249545/season/1; https://prtimes.jp/main/html/rd/p/000000812.000064643.html; https://behemoth-anime.com/story/02.html; https://behemoth-anime.com/story/09.html; https://behemoth-anime.com/story/12.html; https://behemoth-anime.com/onair/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 249545
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

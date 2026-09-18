@@ -1,16 +1,103 @@
 {
   "anidbId": 12414,
   "bangumiId": 192906,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 703437,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 703438,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 703439,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 703440,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 703441,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 703442,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 703443,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 703444,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 703445,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 703446,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 703447,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 703448,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 720197,
+      "sort": 21.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 720197,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 66053,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject《剑风传奇 次篇》与 TMDB TV 66053 的第 2 季逐集对应：12 集标题、剧情和播出日期一致。subject 内的特别篇“魔女の追想”于 2017-06-02 播出，对应 TMDB 66053 第 0 季第 2 集；第 0 季第 1 集是 2017-04-07 的第一季总集篇，不属于本 subject，故不纳入。\n\nhttps://bgm.tv/subject/192906 (page): Bangumi subject 为《ベルセルク 次篇》，正篇 12 集，并包含特别篇“魔女の追想”（sort 21.5），日期为 2017-04-07。\n\nhttps://www.themoviedb.org/tv/66053 (api_snapshot): TMDB TV 66053《ベルセルク》包含 2016 年第 1 季和 2017 年第 2 季，各 12 集；第 2 季首播 2017-04-07。\n\nhttps://www.themoviedb.org/tv/66053/season/2 (api_snapshot): 第 2 季完整 12 集的标题、剧情简介和日期与 Bangumi 正篇 sort 13–24 逐集一致。\n\nhttps://www.mbs.jp/berserk/sp/select/list/13349.shtml (page): 官方 MBS 页面确认特别篇标题为“魔女の追想”，内容是对该系列既有剧情的回顾。\n\nhttps://mdblist.com/show/90t0-berserk/season/0/episode/2?cache=1 (page): 该 TMDb 关联页面标示为 Berserk 的 S0E2“Recollections of the Witch”，播出日期 2017-06-02，并提供对应 TMDb Episode 链接。",
+    "evidence": "codex: 确认对应TMDB 66053第二季全12集及第0季第2集。作品年份、TV媒介、导演与制作公司一致，正篇逐集标题、日期及总量完全对应；特别篇亦由标题、日期和官方节目顺序确认。正篇sort 13—24映射S2E1—12，章节720197映射S0E2。\n\nhttps://bgm.tv/subject/192906 (page): Bangumi 将本作标为2017年4月7日至6月23日播出的12集TV动画，导演板垣伸，动画制作GEMBA、ミルパンセ，是2016年《ベルセルク》的续篇。\n\nhttps://www.themoviedb.org/tv/66053 (api_snapshot): TMDB 66053为2016年开始的TV动画《ベルセルク》，导演板垣伸，制作公司包含GEMBA、Millepensee；第二季为2017年播出的12集，剧情延续格斯与卡思嘉重逢后的旅程。版本、人员及时间均相符。\n\nhttps://bgm.tv/subject/192906/ep (page): 章节表列出正篇sort 13—24及特别篇21.5《魔女の追想》；前两话同于2017年4月7日播出，特别篇于6月2日播出。\n\nhttps://www.themoviedb.org/tv/66053/season/2 (api_snapshot): 已读取第二季完整集表，共12集、1页。第1—12集与Bangumi正篇13—24逐集标题和播出日期对应；第5集标题仅横线字符不同。首两集同日播出，第9集为5月26日，第10集为6月9日，末集为6月23日。\n\nhttps://www.themoviedb.org/tv/66053/season/0 (api_snapshot): 已读取第0季完整集表，共2集、1页。第2集《魔女の追想》日期为2017年6月2日，简介明确为回顾特别篇；第1集为另一个第一期摘要，不在本subject章节表内。\n\nhttps://www.mbs.jp/berserk/sp/select/list/13349.shtml (page): MBS官方页面确认《魔女の追想》为特别篇，并注明下一话为《炎の旅立ち》，与Bangumi及TMDB中的插入位置一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/192906; https://www.themoviedb.org/tv/66053; https://www.themoviedb.org/tv/66053/season/2; https://www.mbs.jp/berserk/sp/select/list/13349.shtml; https://mdblist.com/show/90t0-berserk/season/0/episode/2?cache=1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/192906; https://www.themoviedb.org/tv/66053; https://bgm.tv/subject/192906/ep; https://www.themoviedb.org/tv/66053/season/2; https://www.themoviedb.org/tv/66053/season/0; https://www.mbs.jp/berserk/sp/select/list/13349.shtml",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 66053
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

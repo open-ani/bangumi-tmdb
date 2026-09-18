@@ -1,13 +1,80 @@
 {
+  "anidbId": 17854,
   "bangumiId": 405267,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1158952,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1158953,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1158954,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1158955,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1158956,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1158957,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1158958,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1158959,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1158960,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1158961,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1158962,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1158963,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1158964,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 217470 与 Bangumi《关喵什么事》在中文原名、2023-01-02首播日期、剧情（漫画家收养皇皇与巴扎黑）、媒介形态及13集总数上完全对应。Bangumi资料显示动画制作是一间宇宙、出品含吾皇猫与 bilibili；TMDB资料显示制作公司含 bilibili，且无旧版、OVA、电影或其他季度混淆。TMDB第一季实际季表覆盖第1至13集，全部属于该主体，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/405267 (api_snapshot): Bangumi API确认标题、2023-01-02开播、WEB媒介、13集、剧情、动画制作一间宇宙及出品方吾皇猫/bilibili。\n\nhttps://www.themoviedb.org/tv/217470 (api_snapshot): TMDB详情确认TV作品《关喵什么事》、原名、2023-01-02首播、2023-03-20完结、1季13集、相同剧情及bilibili制作公司。\n\nhttps://www.themoviedb.org/tv/217470/season/1 (api_snapshot): TMDB第一季实际季表为2023-01-02至2023-03-20的13集，编号连续覆盖1至13，未分页且无额外混入集数。",
+    "evidence": "codex: 重新查询确认该 subject 对应 TMDB 217470 第一季全季。首播日期、13话总量、剧情、制作方及配音资料相互吻合，官方资料同时核实了导演与版本。Bangumi 所给章节均缺少标题和播出日期，无法完成逐章交叉比对，因此仅确认作品及整季范围，不凭编号生成逐集规则。\n\nhttps://bangumi.tv/subject/405267 (search_snippet): Bangumi 条目为2023年1月2日开播的13话 WEB 动画；导演常煜卿、动画制作一间宇宙，出品方含吾皇猫与 bilibili。\n\nhttps://www.bilibili.com/bangumi/media/md28339927/ (search_snippet): bilibili 官方资料的导演、编剧、出品人与 Bangumi 一致；剧情为漫画家少年收养皇皇和巴扎黑。正片前六话标题与 TMDB 第一季逐一一致，预告及音乐录像单独列出。\n\nhttps://www.bilibili.com/bangumi/media/md28339927/ (page): bilibili 官方作品页确认2023年1月2日开播，已完结，全13话。\n\nhttps://www.themoviedb.org/tv/217470 (api_snapshot): TMDB 217470 原名《关喵什么事》，首播2023年1月2日，共1季13集；剧情、bilibili 制作公司以及张恩泽配音皇皇／老爹均与官方资料相符。\n\nhttps://www.themoviedb.org/tv/217470/season/1 (api_snapshot): 第一季实际集表共13集，total_pages=1，编号1至13；首两集日期均为2023年1月2日，第13集为2023年3月20日。集表属于同一部短篇剧情动画，没有混入预告、音乐录像或其他作品。\n\n备注：逐集对应尚未确认：需补充 Bangumi 章节标题或播出日期，并与官方完整集表、TMDB 集表逐一核对后再生成 rules。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/405267; https://api.bgm.tv/v0/subjects/405267; https://www.themoviedb.org/tv/217470; https://www.themoviedb.org/tv/217470/season/1",
-    "verifiedAt": "2026-09-08T23:37:36.894Z"
+    "source": "https://bgm.tv/subject/405267; https://bangumi.tv/subject/405267; https://www.bilibili.com/bangumi/media/md28339927/; https://www.themoviedb.org/tv/217470; https://www.themoviedb.org/tv/217470/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,15 +1,125 @@
 {
   "bangumiId": 355796,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1066005,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1066006,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1066007,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1066008,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1066009,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1066010,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1066011,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1066012,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1066013,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1066014,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1141730,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1144900,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1144901,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1145722,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1148809,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1148810,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1148811,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1148812,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1148813,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1149205,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 106393 第一季全季，年份、剧情、制作背景及20话内容范围一致。逐集仅映射有日期或标题依据的第3—11话；首两话合并及后续空白章节保留未映射。\n\nhttps://www.themoviedb.org/tv/106393 (api_snapshot): TMDB 106393 为2021年动画剧《Star Trek: Prodigy》，首播日期2021-10-28；少年驾驶废弃星舰的剧情，以及 Nickelodeon、CBS、Hageman 制作背景均与输入一致。\n\nhttps://www.themoviedb.org/tv/106393/season/1 (api_snapshot): 第一季集表共19条，已读取全部1页：第1集为46分钟的 Lost & Found 两部分合并版，没有第2集，后续保留第3—20集编号。第3—10集日期逐一吻合输入，第11集标题为 Asylum。\n\nhttps://www.paramountpressexpress.com/paramount-plus/releases/?view=101514-star-trek-prodigy-season-one-loglines (page): Paramount 官方第一季集表列出101/102合并首播及103—120各集标题、日期；确认首播两部分同日播出，第11集为 Asylum，后续编号与 TMDB 第3—20集一致。\n\nhttps://www.startrek.com/en-un/news/star-trek-prodigy-season-1-new-episodes-returns (page): 官方确认本剧为 Kevin 与 Dan Hageman 开发的青少年向CG动画，2022年10月回归部分仍属第一季，制作公司及剧情吻合。\n\nhttps://www.startrek.com/en-un/news/star-trek-prodigy-season-1-episodes-11-20-release (page): 官方发行资料明确第一季后半部为第11—20集，支持该20话 subject 覆盖完整第一季。\n\n备注：Bangumi 第1、2话合对应 TMDB S01E01；当前规则禁止两个 Bangumi 章节占用同一 TMDB 集，因此两话均暂留空，不能虚构 S01E02。；Bangumi 第12—20话缺少标题和日期，无法逐话核验；虽已确认其所属整季范围，仍不凭位置生成映射。Bangumi 在线章节页访问失败，需补充这些章节资料。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/355796; https://www.themoviedb.org/tv/106393; https://www.themoviedb.org/tv/106393/season/1; https://www.paramountpressexpress.com/paramount-plus/releases/?view=101514-star-trek-prodigy-season-one-loglines; https://www.startrek.com/en-un/news/star-trek-prodigy-season-1-new-episodes-returns; https://www.startrek.com/en-un/news/star-trek-prodigy-season-1-episodes-11-20-release",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 106393
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

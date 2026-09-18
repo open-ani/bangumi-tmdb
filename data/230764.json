@@ -1,16 +1,109 @@
 {
   "anidbId": 13599,
   "bangumiId": 230764,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 768031,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 768032,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 768033,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 768034,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 768035,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 768036,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 768037,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 768038,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 768039,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 768040,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 768041,
+      "sort": 11,
+      "type": 1
+    },
+    {
+      "id": 768042,
+      "sort": 12,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 768041,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 76138,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 768042,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 76138,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是2018年播出的《七つの美徳》TV版，主体包含10集正篇及两集特典。TMDB 76138 的原名、剧情、制作人员和年份吻合；TMDB第1季的10个剧集标题、顺序、剧情和日期均与Bangumi正篇对应。TMDB还明确记录特别篇季0共2集，且两集特典标题与Bangumi主体的第11、12话对应，因此应同时纳入第1季完整内容和第0季完整内容。\n\nhttps://bgm.tv/subject/230764 (page): Bangumi确认该条目为《七つの美徳》TV动画，2018年播出，话数12，制作公司为Bridge、导演为石平信司；章节包含01至10、SP、11、12。\n\nhttps://www.themoviedb.org/tv/76138 (api_snapshot): TMDB API快照确认ID 76138、原名七つの美徳、2018年首播、相同救世主候补剧情，并列出第1季10集和特别篇季0的2集。\n\nhttps://www.themoviedb.org/tv/76138/season/1 (api_snapshot): TMDB API快照列出第1季完整10集；标题、剧情和日期与Bangumi的10集正篇逐集对应。\n\nhttps://moegirl.uk/index.php?title=%E4%B8%83%E7%BE%8E%E5%BE%B7&variant=zh-cn (search_snippet): 资料列出TV播出的10集及BD/DVD收录的两集特典，特典标题为「救世主の資質」和「スプラッシュ!新たな特訓」。\n\nhttps://watch.plex.tv/cs/show/the-seven-heavenly-virtues/season/0 (search_snippet): 独立资料按同一作品列出两集特别篇及其标题；仅用于核对特典内容，不用于替代TMDB的季号或集号。\n\n备注：Bangumi页面的特典日期为2018-04-27，而TMDB快照的特别篇季日期为2018-04-07，存在发行日期口径差异；标题、数量和主体对应关系一致。；AniDB原页面本次访问受限，关联主要通过Bangumi名称、别名、年份、剧情、制作与逐集信息交叉核对。",
+    "evidence": "codex: 年份、剧情、导演、制作公司及短篇TV形式一致，确认对应TMDB 76138。10集正篇标题、顺序和跨日播出排期逐集吻合，对应第1季全季；两集特典标题与数量明确吻合，对应第0季第1、2集，覆盖全部12个章节。\n\nhttps://7-virtues.net/anime/ (page): 动画官网确认本作由石平信司执导、Bridge制作，剧情为七位天使寻找救世主候补；2018年1月26日起每周五24:25播出。光碟于4月27日发行，收录10集正篇及2集特典。\n\nhttps://www.themoviedb.org/tv/76138 (api_snapshot): TMDB 76138的日文原名、2018年年份、七位天使寻找救世主的剧情、导演石平信司及制作公司Bridge均吻合；列有第1季10集及第0季2集。\n\nhttps://www.themoviedb.org/tv/76138/season/1 (api_snapshot): 已读取第1季完整集表，共10集、1页。第1至10集日文标题与输入Bangumi正篇逐集一致；日期均比Bangumi晚一天，与官网周五24:25跨日播出时间吻合。\n\nhttps://www.themoviedb.org/tv/76138/season/0 (api_snapshot): 已读取第0季完整集表，共2集、1页。第1集「救世主の資質」、第2集「スプラッシュ！新たな特訓」分别对应Bangumi特典11、12；TMDB日期分别为2018-04-07及2018-04-14，与官网光碟发行日期不同。\n\n备注：两集特典在TMDB的日期为2018-04-07、2018-04-14，Bangumi均为2018-04-27；官网支持4月27日光碟发行，但未确认TMDB所列日期的来源。该差异不影响由精确标题及特典数量确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/230764; https://www.themoviedb.org/tv/76138; https://www.themoviedb.org/tv/76138/season/1; https://moegirl.uk/index.php?title=%E4%B8%83%E7%BE%8E%E5%BE%B7&variant=zh-cn; https://watch.plex.tv/cs/show/the-seven-heavenly-virtues/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/230764; https://7-virtues.net/anime/; https://www.themoviedb.org/tv/76138; https://www.themoviedb.org/tv/76138/season/1; https://www.themoviedb.org/tv/76138/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76138
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

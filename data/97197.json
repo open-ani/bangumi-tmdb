@@ -1,14 +1,32 @@
 {
   "anidbId": 10453,
   "bangumiId": 97197,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 373834,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 373834,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 30977,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 subject 是 1 集 OVA，标题为《とある科学の超電磁砲S 大事なことはぜんぶ銭湯に教わった》，发售日为 2014-03-27，并作为《とある科学の超電磁砲S》的特典 BD。TMDB TV 30977 的 season 0 第 7 集标题完全匹配且日期为 2014-03-25；同季第 9 集虽同名但为 2020 年条目，属于重复/重发布版本。因此仅映射至 season 0 episode 7。\n\nhttps://bgm.tv/subject/97197 (page): Bangumi 将该条目标为 OVA、1 话，标题与发售日分别为“とある科学の超電磁砲S 大事なことはぜんぶ銭湯に教わった”和 2014-03-27；章节为特典 BD。\n\nhttps://www.themoviedb.org/tv/30977/season/0 (api_snapshot): TMDB season 0“特別編”第 7 集标题完全匹配，日期为 2014-03-25；第 9 集同名但日期为 2020-10-09。\n\nhttps://www.themoviedb.org/tv/30977 (api_snapshot): TMDB TV 30977 是《とある科学の超電磁砲》，包含 season 0 特别编及 season 2《とある科学の超電磁砲S》。\n\nhttps://toarumajutsunoindex.fandom.com/wiki/Toaru_Kagaku_no_Railgun_S_OVA (search_snippet): 独立资料将该作品识别为《Toaru Kagaku no Railgun S OVA》，确认标题、2014-03-27 发售日及其为官方 Visual Book 捆绑 OVA。\n\n备注：AniDB 10453 的直接页面本次无法访问，因此该 ID 仅作为输入提供的线索；目标版本已由 Bangumi 标题、OVA 类型、日期和 TMDB 单集标题独立确认。；TMDB 第 7 集日期比 Bangumi 发售日早 2 天，可能是平台日期口径差异。",
+    "evidence": "codex: 确认对应TMDB 30977第0季第7集。标题、2014年发行时间、视觉书附赠短篇媒介、制作背景及挽救澡堂的剧情相符，完整覆盖Bangumi唯一章节。第9集存在日英元数据冲突，不能沿用旧说明将其认定为本作重发布。\n\nhttps://bgm.tv/subject/97197 (page): Bangumi 标为2014年3月27日发售的1话OVA，是《超电磁炮S》官方视觉书附赠BD；导演長井龍雪，动画制作J.C.STAFF。\n\nhttps://bgm.tv/ep/373834 (page): 章节373834为第1话《大事なことはぜんぶ銭湯に教わった》。\n\nhttps://www.kadokawa.co.jp/product/312031400000/ (page): 角川官方商品页确认同名动画随《超电磁炮S》官方视觉书附赠Blu-ray发行，发售日2014年3月27日，并明确为全新动画。\n\nhttps://www.themoviedb.org/tv/30977 (api_snapshot): TMDB 30977为J.C.STAFF制作的《某科学的超电磁炮》系列，包含《超电磁炮S》及特别篇；原作相关人员冬川基、灰村キヨタカ及主要角色声优与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/30977/season/0 (api_snapshot): 实际读取第0季日文及英文全部9集，total_pages=1。第7集标题对应本作，日期2014-03-25、时长6分钟；英文简介明确是官方视觉书附赠短篇，讲述御坂等人帮助避免公共澡堂关闭。第9集虽有相同日文标题，英文名却为MMR VI，简介指向《超电磁炮T》戏仿短篇，日期2020-10-09、时长14分钟。\n\nhttps://toarumajutsunoindex.fandom.com/wiki/Toaru_Kagaku_no_Railgun_S_OVA (search_snippet): 作品资料的剧情为御坂等人帮助固法美伟挽救经营困难的公共澡堂，与TMDB第7集剧情一致。\n\n备注：TMDB第7集日期比Bangumi及角川官方发售日早两天，原因未确认；其他身份信息一致。；TMDB第9集日文标题与英文标题、简介不一致，本次不纳入映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/97197; https://www.themoviedb.org/tv/30977/season/0; https://www.themoviedb.org/tv/30977; https://toarumajutsunoindex.fandom.com/wiki/Toaru_Kagaku_no_Railgun_S_OVA",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/97197; https://bgm.tv/ep/373834; https://www.kadokawa.co.jp/product/312031400000/; https://www.themoviedb.org/tv/30977; https://www.themoviedb.org/tv/30977/season/0; https://toarumajutsunoindex.fandom.com/wiki/Toaru_Kagaku_no_Railgun_S_OVA",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,18 +1,136 @@
 {
   "anidbId": 18670,
   "bangumiId": 495562,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1347308,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 1347309,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1347310,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1347311,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1347312,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1347313,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1347338,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1347339,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1347340,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1347341,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1347342,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1347343,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1347344,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1347345,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1347346,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1347347,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1347348,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1347349,
+      "sort": 17,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1347308,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 254987,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 254987 明确是 2024 年动画 TV 条目，Season 1 共 17 集，首播 2024-05-30、终集为 TMDB S1E17；内容简介、角色和剧集内容均对应 DDDD 电视版。Crunchyroll 同一系列另列 E0 至 E17 共 18 集，其中 E0 是先行/特殊编号内容；本轮目标为 Bangumi subject 主体定位，不额外推荐该特殊编号。AnimeLists 的 S1 方向正确，BangumiExtLinker 的 S0 不能代表主体正篇季。两部院线动画电影是独立版本，不应替代 TV 条目。\n\nhttps://www.themoviedb.org/tv/254987/watch (page): TMDB 页面确认条目为 2024 年的动画 TV，原名为 デッドデッドデーモンズデデデデデストラクション；Season 1 共 17 集，首播 2024-05-30，终集为 1x17（2024-09-19）。\n\nhttps://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction (search_snippet): Crunchyroll 官方系列页列出 E0、E1 至 E17，均为该动画系列的剧集；说明 TV/流媒体版实际采用 0 至 17 的 18 集编号。\n\nhttps://www.crunchyroll.com/watch/GVWU0M32J/episode-0 (search_snippet): Crunchyroll 官方 E0 页面显示 Episode 0 于 2024-05-23 发布，内容为东京湾上空出现巨大飞船并引发紧急状态。\n\nhttps://www.themoviedb.org/movie/1172229 (search_snippet): TMDB 单独收录 2024 年动画电影 Dead Dead Demon's Dededede Destruction Part 2，说明电影版本与 TV 条目不同。\n\nhttps://cinegraph.org/movies/dead-dead-demons-dededede-destruction-part-1-2024 (page): 该页面记录 Part 1 的 TMDb ID 为 1172228；Part 1 与 Part 2 是两部院线电影版本，不是本 Bangumi TV subject 的替代目标。\n\n备注：未能独立读取 TMDB 的 Specials/Season 0 具体条目页面，因此不将 S0 作为本 subject 的主体定位；这不影响 TMDB S1 主体季及其 17 集范围的确认。",
+    "evidence": "codex: 确认对应 TMDB 254987 的18话动画系列版：Bangumi 第1至17话对应第1季全17集，第0话对应 S0E3。原名、年份、导演、制作公司、人物剧情及完整编号范围吻合，逐集首播日期由外部集表交叉核实。第0季另外两集是早期广告，不属于本 subject；旧映射遗漏的第0话现已补齐。\n\nhttps://www.themoviedb.org/tv/254987 (api_snapshot): TMDB 254987 为2024年日本动画系列，导演为黑川智之，主角为小山门出与中川凰兰，母舰笼罩东京的剧情及制作公司与输入吻合。\n\nhttps://www.themoviedb.org/tv/254987/season/1 (api_snapshot): 第1季完整集表共17集，标题依次为 Episode 1 至 Episode 17，与 Bangumi 第1至17话逐一对应；本次日期字段均为2024-12-04。\n\nhttps://www.themoviedb.org/tv/254987/season/0 (api_snapshot): 第0季完整集表共3集：第1、2集是2017年及2020年的一分钟3DCG广告；第3集为24分钟的 Episode 0，内容为门出的父亲小山伸雄遭遇母舰事件，对应本 subject 第0话。\n\nhttps://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction (search_snippet): Crunchyroll 官方系列页列出 E0 至 E17，共18集，确认流媒体版的完整编号范围。\n\nhttps://www.crunchyroll.com/watch/GVWU0M32J/episode-0 (search_snippet): Crunchyroll 官方第0话页面标注2024-05-23上线，剧情与 TMDB S0E3 相同；法语页面显示2024-05-24，符合地区日期差异。\n\nhttps://www.crunchyroll.com/fr/watch/GVWU0M32J/episode-0 (search_snippet): 法语官方第0话页面标注2024-05-24上线，与 Bangumi 第0话日期一致。\n\nhttps://fr.wikipedia.org/wiki/Dead_Dead_Demon's_Dededededestruction (page): 逐集日期表列出第0至17话，日期从2024-05-24至2024-09-20；全部18条编号及日期均与输入的 Bangumi 集表一致。\n\nhttps://dededede.jp/bddvd/ (page): 官方网站明确区分电影前章、后章与全18话动画系列版，后者每话约25分钟，排除将本 subject 映射为两部电影。\n\nhttps://natalie.mu/comic/news/601424 (search_snippet): 报道明确全18话动画系列版于2024-12-04在日本 Prime Video 上线，解释 TMDB 日期与海外首播日期不同。\n\n备注：TMDB 当前将这18话的日期统一记为2024-12-04，与日本上线日期相符，不能直接作为海外逐周首播日期使用；映射已结合官方编号、剧情及海外逐集日期核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/495562; https://www.themoviedb.org/tv/254987/watch; https://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction; https://www.crunchyroll.com/watch/GVWU0M32J/episode-0; https://www.themoviedb.org/movie/1172229; https://cinegraph.org/movies/dead-dead-demons-dededede-destruction-part-1-2024",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/495562; https://www.themoviedb.org/tv/254987; https://www.themoviedb.org/tv/254987/season/1; https://www.themoviedb.org/tv/254987/season/0; https://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction; https://www.crunchyroll.com/watch/GVWU0M32J/episode-0; https://www.crunchyroll.com/fr/watch/GVWU0M32J/episode-0; https://fr.wikipedia.org/wiki/Dead_Dead_Demon's_Dededededestruction; https://dededede.jp/bddvd/; https://natalie.mu/comic/news/601424",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 17,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 254987
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "episode": 3,
+      "id": 254987,
+      "season": 0,
+      "type": "tv"
+    },
     {
       "id": 254987,
       "season": 1,

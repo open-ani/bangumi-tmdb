@@ -1,14 +1,75 @@
 {
   "anidbId": 13311,
   "bangumiId": 220667,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752483,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752484,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752485,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752486,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752487,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752488,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752489,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752490,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752491,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752492,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 752493,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 752494,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认 TMDB 74085 是同一部《ディアホライゾン（被）》TV 短篇：名称、2017 年、剧情简介、Square Enix 原作及 Fanworks 制作均一致；官方资料明确为 3 分半×12 话。TMDB 仅列第 1 季且完整包含第 1–12 集，Bangumi 主体也正好是 12 个正篇集，因此映射整季。TMDB 快照中的播出日期和 25 分钟时长与日本资料不一致，应视为 TMDB 元数据误差，不足以证明是不同版本。\n\nhttps://www.themoviedb.org/tv/74085 (api_snapshot): TMDB 作品名为「ディアホライゾン（被）」；原名「ディアホライゾン」，2017 年，剧情简介与本作一致，共 12 集。\n\nhttps://www.themoviedb.org/tv/74085/season/1 (api_snapshot): TMDB 第 1 季包含 12 集，集数 1–12，剧集列表未截断。\n\nhttps://fanworks.co.jp/project/diahorizon/ (page): 制作公司 Fanworks 官方项目页确认《ディアホライゾン(被)》为 2017 年作品，格式为 3 分半×12 话，剧情和制作信息与 Bangumi 主体一致。\n\nhttps://www.anisil.com/animes/3044-%E3%83%87%E3%82%A3%E3%82%A2%E3%83%9B%E3%83%A9%E3%82%A4%E3%82%BE%E3%83%B3%28%E8%A2%AB%29 (search_snippet): 搜索摘要列出该作全 12 集、主要角色与 Fanworks 制作信息，并给出连续的第 1–12 集标题。\n\n备注：TMDB 快照将集数日期列为 2017-10-10 至 2017-12-26，而日本资料通常列为 2017-10-02/03 至 2017-12-18/19；TMDB 还把单集时长列为 25 分钟，和官方 3 分半不符。",
+    "evidence": "codex: 综合专有标题、2017 年 TV 版本、官方 12 话规格及交叉资料，可确认对应 TMDB 74085 第 1 季整季。官方明确这是职场喜剧短动画，不能把输入及 TMDB 的企划冒险简介当作剧情一致的证据。逐集比对发现 TMDB 日期全部比 Bangumi 晚 8 天，且没有具体标题或剧情可供核验，因此只确认作品及季范围，不凭集号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/74085 (api_snapshot): 以日文原名搜索后读取详情：TMDB 74085 名称为《ディアホライゾン（被）》，2017 年 TV 作品，仅有第 1 季、共 12 集；关联 TVDB 332985。制作人员及公司字段为空，不能声称 TMDB 已确认制作阵容。\n\nhttps://www.themoviedb.org/tv/74085/season/1 (api_snapshot): 已读取第 1 季日文及英文集表，均为完整的第 1–12 集，total_pages=1。标题都是通用集号，简介为空；日期为 2017-10-10 至 2017-12-26，每周一集，时长均标为 25 分钟。\n\nhttps://fanworks.co.jp/project/diahorizon/ (page): Fanworks 官方确认本作为 2017 年制作的 TV 喜剧动画，规格为每话 3 分半、共 12 话；原作为 Square Enix，导演为春日森春木。剧情是冒险者像上班族一样工作的喜剧，与同企划其他媒介应作区分。\n\nhttps://fanworks.co.jp/news/20170925/ (page): 制作公司开播公告明确：2017-10-02 起每周一 25:00–25:05 在 TOKYO MX 播出；同时区分了该 TV 喜剧与企划中的游戏、Web 动画、小说及漫画。\n\nhttps://www.anisil.com/animes/3044-%E3%83%87%E3%82%A3%E3%82%A2%E3%83%9B%E3%83%A9%E3%82%A4%E3%82%BE%E3%83%B3%28%E8%A2%AB%29?fp%5B%5D=2662&fp%5B%5D=7423 (search_snippet): 各话资料列出连续 12 话及具体标题，从第 1 话「サラリーマン冒険者」至第 12 话「聖戦(被)」，日期为 2017-10-03 至 2017-12-19，与 Bangumi 的深夜节目归属日期相差一天。\n\nhttps://thetvdb.com/series/dia-horizon (page): TVDB 332985 的日文剧情符合官方职场喜剧设定，第 1 季为 2017 年 10–12 月共 12 集；另将 8 月的 3 个条目列为特别篇。此项仅作为版本区分的辅助证据。\n\n备注：TMDB 日期相对实际自然日首播晚一周，原因未确认；不能用深夜节目日期记法完全解释。；TMDB 的 25 分钟时长与官方每话 3 分半冲突，疑为元数据错误。；逐集对应暂留空；需补充 TMDB 各集具体标题、内容或日期修订依据后，才能确认连续映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/220667; https://www.themoviedb.org/tv/74085; https://www.themoviedb.org/tv/74085/season/1; https://fanworks.co.jp/project/diahorizon/; https://www.anisil.com/animes/3044-%E3%83%87%E3%82%A3%E3%82%A2%E3%83%9B%E3%83%A9%E3%82%A4%E3%82%BE%E3%83%B3%28%E8%A2%AB%29",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/220667; https://www.themoviedb.org/tv/74085; https://www.themoviedb.org/tv/74085/season/1; https://fanworks.co.jp/project/diahorizon/; https://fanworks.co.jp/news/20170925/; https://www.anisil.com/animes/3044-%E3%83%87%E3%82%A3%E3%82%A2%E3%83%9B%E3%83%A9%E3%82%A4%E3%82%BE%E3%83%B3%28%E8%A2%AB%29?fp%5B%5D=2662&fp%5B%5D=7423; https://thetvdb.com/series/dia-horizon",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

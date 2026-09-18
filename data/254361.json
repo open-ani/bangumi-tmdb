@@ -1,15 +1,131 @@
 {
+  "anidbId": 16860,
   "bangumiId": 254361,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 964182,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 964183,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 964184,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 964185,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 964186,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 964187,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 964188,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 964189,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 964190,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 964191,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 964192,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 964193,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 964194,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 964195,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 964196,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 964197,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 964198,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 964199,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 964200,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 964201,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 964202,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 194991《Gon的旱獭》与 Bangumi 条目的年份、剧情、导演山药Gon、中文制作信息及 WEB 动画媒介一致；TMDB 明确将 2018-04-17 开始的 21 集列为第二季。Bangumi 主体含 20 个正片及 1 个特别篇，TMDB 第二季实际季表共 21 集、日期覆盖 2018-04-17 至 2018-09-04，未混入其他作品，因此使用完整第 2 季。TMDB 157877 是 2020 年后续作品《獭獭突然想到》，不是本条目。\n\nhttps://api.bgm.tv/v0/subjects/254361 (api_snapshot): Bangumi API：2018-04-17 开始，WEB 动画，正片 20 集、总计 21 集；剧情、导演山药Gon、出品方十二栋文化及各集日期与目标季匹配。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): TMDB 详情：中文原名《Gon的旱獭》，2017-09-29 开始，共 3 季；剧情与 Bangumi 一致，导演为山药Gon，第二季日期为 2018-04-17、共 21 集，另有别名《旱獭的日常》。\n\nhttps://www.themoviedb.org/tv/194991/season/2 (api_snapshot): TMDB 第二季实际季表为 21 集、单页完整返回，日期从 2018-04-17 到 2018-09-04，覆盖 Bangumi 的 20 个正片及 1 个特别篇。\n\nhttps://www.themoviedb.org/tv/157877 (api_snapshot): TMDB 157877 为 2020-07-08 开始的《獭獭突然想到》，别名含《Gon的旱獭之獭獭突然想到》，属于后续独立作品而非本条目第二季。\n\n备注：TMDB 第二季集名均为通用的“第 X 集”，且将 2018-09-04 的第 21 集标为特别篇；Bangumi 则把 2018-09-04 列为正片第 20 集、把 2018-04-24 列为特别篇。由于 21 个播出日期和总数完整对应，推荐完整季范围而不依赖逐集编号。",
+    "evidence": "codex: 确认对应TMDB 194991第二季：年份、季首日期、剧情、导演、短篇动画形式及20话正片加1话特别篇的范围吻合，整季未见混入其他作品。首话编号和日期一致，可建立对应；其余章节因TMDB特别篇标题与日期冲突，暂不填写逐集关系。\n\nhttps://bgm.tv/subject/254361 (page): Bangumi 将本作列为2018年4月17日开播的WEB动画第二季，正片20话，另列1个SP；导演山药Gon，出品方十二栋文化，剧情为旱獭的黑色幽默日常。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): TMDB 194991原名《Gon的旱獭》，剧情及导演山药Gon一致；第二季明确标为2018年4月17日开始、21集。系列首页的2017年日期属于第一季。\n\nhttps://www.themoviedb.org/tv/194991/season/2 (api_snapshot): 第二季实际集表共21集，total_pages=1。第1集日期2018-04-17，第2集2018-04-24，第3至21集日期依次对应输入中的正片第2至20话；但第1至20集使用通用编号标题，第21集却名为“特别篇”，与按日期推导的对应关系冲突。\n\nhttps://www.bilibili.com/bangumi/play/ep202465 (search_snippet): 哔哩哔哩正版第二季页面标注2018年、全20话，发布方为十二栋文化；选集将周年特别篇列在正片第1话与第2话之间，另有独立OP，与输入的正片标题及特别篇身份一致。\n\n备注：TMDB将2018-09-04的第21集命名为特别篇，而Bangumi周年特别篇日期为2018-04-24。无法确认TMDB采用播出顺序还是正片后附特别篇的顺序；正片第2至20话及周年特别篇暂留空，需补充TMDB具体标题、剧情或订正记录。；TMDB制作公司字段为印度的Orion，与Bangumi所列十二栋文化不一致，疑似关联错误；该字段未用于身份确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/254361; https://api.bgm.tv/v0/subjects/254361; https://www.themoviedb.org/tv/194991; https://www.themoviedb.org/tv/194991/season/2; https://www.themoviedb.org/tv/157877",
-    "verifiedAt": "2026-09-08T21:24:18.301Z"
+    "source": "https://bgm.tv/subject/254361; https://www.themoviedb.org/tv/194991; https://www.themoviedb.org/tv/194991/season/2; https://www.bilibili.com/bangumi/play/ep202465",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 194991
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

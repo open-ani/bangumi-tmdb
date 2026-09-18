@@ -1,16 +1,81 @@
 {
   "anidbId": 11023,
   "bangumiId": 125807,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 496565,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 496566,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 496567,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 496568,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 496569,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 496570,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 496571,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 496572,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 496573,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 496574,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 536081,
+      "sort": 0,
+      "type": 4
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
+    "evidence": "Imported existing BangumiExtLinker correspondence.\n\n脚本按放送日期核对生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应，两边日期均按集序递增，10 对日期中 8 对在 ±1 天内，其余相差不超过 7 天。",
+    "method": "deterministic",
     "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 62070
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

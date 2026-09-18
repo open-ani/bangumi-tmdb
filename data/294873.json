@@ -1,15 +1,111 @@
 {
+  "anidbId": 16775,
   "bangumiId": 294873,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1064897,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1064898,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1065576,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1065577,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1065578,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1065579,
+      "sort": 5.5,
+      "type": 0
+    },
+    {
+      "id": 1065580,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1065581,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1065582,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1068473,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1075594,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1076366,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1076367,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1065579,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 134924,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 134924 是《猫之茗》的同一部中国 WEB 动画：原名、2021-10-26 首播日期、茉莉穿越茗族大陆的剧情，以及 bilibili/糖人家制作信息均与 Bangumi 一致。TMDB 第1季实际包含13集，标题和日期覆盖 Bangumi 主体的全部13集；Bangumi 的第5.5话在 TMDB 中按连续季集数归为第6集。番外及后续《猫之茗 第二季》《犬之茗》不应并入本主体。\n\nhttps://www.themoviedb.org/tv/134924 (api_snapshot): TMDB 详情确认这是 TV 条目《猫之茗》/Cat's Tea，原名为猫之茗，首播日期为2021-10-26；剧情为茉莉进入茗族大陆，制作公司包括 bilibili、Qiancheng Culture、TRCARTOON，并列出 Cat's Tea、Mao Zhi Ming 等别名。\n\nhttps://www.themoviedb.org/tv/134924/season/1 (api_snapshot): TMDB 第1季季表确认 season=1、首播2021-10-26、共13集；集名从“茉莉”“龙井”到“未晞”，日期覆盖2021-10-26至2022-01-11，与 Bangumi 主体13集及其播出范围相符。\n\nhttps://bangumi.tv/subject/294873 (page): Bangumi 页面确认主体为 WEB 动画，13话，2021-10-26开播；导演小野败仔、总导演/原作淳良猴子、动画制作糖人家（大连）动画科技有限公司、制作方bilibili与糖人家，且章节包含01-05、05.5、06-12。",
+    "evidence": "codex: 年份、网络动画版本、制作信息、剧情及全部13集标题确认对应 TMDB 134924 第1季整季。第5.5话对应 TMDB 第6集，随后第6—12话对应第7—13集。\n\nhttps://bgm.tv/subject/294873 (page): Bangumi 确认本作为2021年10月26日开播的13话 WEB 动画，原作及总导演为淳良猴子，导演小野败仔，动画制作糖人家；剧情为茉莉穿越茗族大陆。章节编号包含5.5，第二季及番外另立条目。\n\nhttps://www.themoviedb.org/tv/134924 (api_snapshot): TMDB 134924 原名为《猫之茗》，首播2021-10-26，简介确认由 bilibili、糖人家出品及糖人家制作；第1季剧情、人物与 Bangumi 一致，后续季及特别篇分别列出。\n\nhttps://www.themoviedb.org/tv/134924/season/1 (api_snapshot): 第1季实际集表共13集，total_pages=1。第1—5集标题与 Bangumi 第1—5话一致；第6集为《良言妙语》，对应第5.5话；第7—13集依次为《普洱》《武夷岩》《起行》《暗流》《黑化》《接二连三》《未晞》，对应第6—12话。除《普洱》日期相差一周外，其余12集日期均一致，范围截至2022-01-11，未混入番外。\n\n备注：《普洱》在 Bangumi 标为2021-11-23，TMDB 标为2021-11-30；实际播出日期尚未独立核实，但标题、前后章节及总集数明确支持其对应第1季第7集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/294873; https://www.themoviedb.org/tv/134924; https://www.themoviedb.org/tv/134924/season/1; https://bangumi.tv/subject/294873",
-    "verifiedAt": "2026-09-08T21:50:29.179Z"
+    "source": "https://bgm.tv/subject/294873; https://www.themoviedb.org/tv/134924; https://www.themoviedb.org/tv/134924/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 134924
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 6,
+      "tmdbId": 134924
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

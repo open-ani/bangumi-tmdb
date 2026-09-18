@@ -1,16 +1,91 @@
 {
   "anidbId": 15982,
   "bangumiId": 331306,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1044233,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1044234,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1044235,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1044236,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1044237,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1044238,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1044239,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1044240,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1044241,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1044242,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1044243,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1044244,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1076705,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Fruits 短篇十三集；英文水果集名顺序与官方网站从いちご至みかん的十三话一致，角色演员一致，IMDb tt14951100 也指向此 ID。\nTMDB 从 2021 年 10 月开始记日期；官网初次配信从 7 月 20 日开始，日期字段不能作为不同作品的依据。\nhttps://api.bgm.tv/v0/subjects/331306\nhttps://www.themoviedb.org/tv/296233/season/1\nhttps://anime.assaultlily-pj.com/fruits/",
+    "evidence": "codex: 确认对应TMDB 296233第1季完整13集。短篇形式、年份、角色演员、集数及13话标题均吻合，季内未混入其他作品。官网明确列出网络配信与后续电视播出两种排期，解释了日期差异；逐集标题支持Bangumi第1—13话与TMDB S01E01—E13连续对应。\n\nhttps://anime.assaultlily-pj.com/fruits/ (page): 官网确认这是2021年的短篇动画：2021年7月20日起在游戏内隔周二配信，10月14日起另行电视播出；导演佐伯昭志、动画制作SHAFT，与输入一致。官网列出从「いちご」至「みかん」的完整13话及剧情。\n\nhttps://www.themoviedb.org/tv/296233 (api_snapshot): TMDB 296233为《アサルトリリィ ふるーつ》，简介明确为系列角色出演的迷你动画，共1季13集。一柳梨璃／赤尾ひかる、白井夢結／夏吉ゆうこ等角色及演员与官网吻合；首播日期2021-10-14对应官网电视播出起点。\n\nhttps://www.themoviedb.org/tv/296233/season/1 (api_snapshot): 第1季实际季表共13集，total_pages=1，每集2分钟。第1至13集依次为Strawberry、Orange、Cherry、Melon、Mango、Grape、Peach、Pineapple、Apricot、Yuzu、Kiwi、Watermelon、Mandarin Orange，与Bangumi及官网13个日文水果标题逐集对应。日期为2021-10-14至2022-01-06的每周四，与Bangumi采用的游戏内隔周二配信日期不同。\n\nhttps://www.themoviedb.org/tv/129670 (api_snapshot): 对冲突线索TMDB 129670实际调用详情接口返回HTTP 404，无法用该ID确认作品。",
     "method": "codex",
-    "source": "manual-review-sol-remaining-51",
-    "verifiedAt": "2026-09-08T18:08:25.821Z"
+    "source": "https://bgm.tv/subject/331306; https://anime.assaultlily-pj.com/fruits/; https://www.themoviedb.org/tv/296233; https://www.themoviedb.org/tv/296233/season/1; https://www.themoviedb.org/tv/129670",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 296233
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

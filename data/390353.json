@@ -1,21 +1,116 @@
 {
   "anidbId": 17495,
   "bangumiId": 390353,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1279620,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1279621,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1279622,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1279623,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1279624,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1279625,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1279626,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1279627,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1279628,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1279629,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1279630,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1279631,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1302304,
+      "sort": 7.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1302304,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 127532,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2024年电视动画第一期。本篇12话的标题、日期及顺序逐一吻合，对应 TMDB 127532 第1季第1—12集；第7.5话对应第0季第1集。TMDB 将2025年第二期合并为第1季第13—25集，因此旧映射应收窄，不能覆盖整季。\n\nhttps://www.themoviedb.org/tv/127532 (api_snapshot): TMDB 127532 为2024年日本电视动画，原名、地下城猎人及升级系统剧情、导演中重俊祐、制作公司 A-1 Pictures 和 Aniplex 均与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/127532/season/1 (api_snapshot): 第1季实际共25集，已读取全部集表。第1至12集标题与输入本篇逐一一致，播出日期均比 Bangumi 晚一天，且第7至8集之间同样间隔两周；第13至25集于2025年播出，属于第二期，不在本 subject 范围。\n\nhttps://www.themoviedb.org/tv/127532/season/0 (api_snapshot): 第0季仅1集 How to Get Stronger，日期为2024-02-25，简介明确为此前故事的回顾；对应输入2024-02-24播出的第7.5话同名特别篇。\n\nhttps://sololeveling-anime.net/1st/ (page): 第一期官网确认原作、导演中重俊祐、人物设计须藤智子及动画制作 A-1 Pictures，并提供与输入一致的剧情。\n\nhttps://sololeveling-anime.net/1st/onair/ (page): 官方首播排期为2024年1月6日起每周六24:00，解释了 Bangumi 记周六、TMDB 记次日的日期差异。\n\nhttps://sololeveling-anime.net/1st/story/ (page): 第一期官方故事页列出第1至12话，末话为 Arise，剧情为转职任务，与 TMDB 第12集一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/390353; https://www.themoviedb.org/tv/127532; https://www.themoviedb.org/tv/127532/season/1; https://www.themoviedb.org/tv/127532/season/0; https://sololeveling-anime.net/1st/; https://sololeveling-anime.net/1st/onair/; https://sololeveling-anime.net/1st/story/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 127532
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 127532,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 127532,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,19 +1,81 @@
 {
   "anidbId": 17723,
   "bangumiId": 408195,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1347827,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1347828,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1347829,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1347830,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1347831,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1347832,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1347833,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1347834,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1347835,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1347836,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 214587 第1季第1—10集。年份、剧情、导演、制作方及10集标题均吻合。TMDB 将官方两季合并为一个20集的季，因此旧映射应限定为前10集，避免覆盖属于 Bangumi 512817 的第11—20集。\n\nhttps://www.themoviedb.org/tv/214587 (api_snapshot): 以日文原名搜索命中 TV 214587；详情确认首播日为2024-07-12，导演为西片康人，制作公司包含 WOWOW、Sony Pictures、Crunchyroll、LIDENFILMS，女主角贝尔在兽人世界寻找自身起源的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/214587/season/1 (api_snapshot): 第1季实际收录20集，total_pages=1。第1—10集的日文标题逐一与 Bangumi 本篇一致；第1—6集日期完全一致，第7—10集日期比 Bangumi 早一天。第11集起进入2025-04-04开始的后续内容。\n\nhttps://bye2earth.com/ (search_snippet): 官方站标明第2季于2025-04-04开始播出，与 TMDB 第1季第11集的日期一致。\n\nhttps://www.wowow.co.jp/dpm/pdf/wowow_magazine202504.pdf (search_snippet): WOWOW官方节目资料明确将第1季列为第1—10集，并另行介绍第2季开播，支持本 subject 只覆盖前10集。\n\n备注：TMDB 第7—10集日期分别为2024-08-22、08-29、09-05、09-12，比输入日期早一天；差异原因未核实，但各集标题、顺序及季度边界明确一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/408195; https://www.themoviedb.org/tv/214587; https://www.themoviedb.org/tv/214587/season/1; https://bye2earth.com/; https://www.wowow.co.jp/dpm/pdf/wowow_magazine202504.pdf",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 214587
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 10,
       "id": 214587,
       "season": 1,
       "type": "tv"

@@ -1,16 +1,103 @@
 {
   "anidbId": 14678,
   "bangumiId": 274234,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 857650,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1040865,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1040866,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1040867,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1040868,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1040869,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1040870,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1040871,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1040872,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1040873,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1040874,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1040875,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1042460,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1042460,
+      "targets": [
+        {
+          "episode": 30,
+          "id": 69291,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject明确为《小林さんちのメイドラゴンS》，标注13话、2021年7月开播，且正篇1—12话标题与日期均逐一对应 TMDB 69291 第2季的12集；制作方京都动画、主要 staff 及剧情设定也一致。第13话《ニッポンのおもてなし（アテンドはドラゴンです）》是该 subject 收录的TV未放送特别篇，官方确认其随S篇BD发行；独立剧集索引将其对应为同一TV作品的 TMDB 特别篇第30集，因此需额外映射至 season 0 episode 30。TMDB主条目显示第2季名称、2021年档期和12集，未将特别篇计入第2季，所以不能把第13话并入 season 2 的完整季范围。\n\nhttps://bgm.tv/subject/274234 (page): Bangumi 标题为小林さんちのメイドラゴンS，类型TV，标注13话、2021年7月7日开始；章节列表包含正篇1—12及第13话特别篇，制作公司为京都动画。\n\nhttps://www.themoviedb.org/tv/69291 (api_snapshot): TMDB API快照显示TV条目名称为小林さんちのメイドラゴン，首播年份2017，season 2名称为小林さんちのメイドラゴンS且有12集。\n\nhttps://www.themoviedb.org/tv/69291/season/2 (api_snapshot): TMDB API快照中的第2季为2021年季，完整列出12集；标题、剧情和日期顺序与 Bangumi 正篇1—12逐一对应。\n\nhttps://maidragon.jp/2nd/product/bd/bdbox_2nd/ (page): 官方页面明确说明S包含TV系列全12话，另收录TV未放送特别篇《ニッポンのおもてなし（アテンドはドラゴンです）》。\n\nhttps://mdblist.com/show/952f-miss-kobayashi-s-dragon-maid/season/0?cache=1 (page): 该剧集索引将《Japanese Hospitality (The Attendant Is a Dragon)》列为同一作品的 S0E30，日期为2022-01-19，剧情为Kanna带Chloe在日本游览，与该特别篇标题和简介一致。\n\nhttps://www.tvguide.or.jp/db/anime/maidragon/season2/episode13/ (page): TV Guide 将该特别篇明确列为《小林さんちのメイドラゴンS》第2期第13话，并给出与官方一致的标题和剧情。",
+    "evidence": "codex: 已确认本作为京都动画制作的2021年TV第2期，映射至TMDB 69291第2季全12集。逐集标题、总量及排期对应，日期的一天差异符合官方深夜放送记法。Bangumi收录的未放送特别篇标题与日期均直接匹配TMDB S00E30，以章节ID单独映射。\n\nhttps://www.themoviedb.org/tv/69291 (api_snapshot): TMDB 69291 的别名包含本作日文标题；第2季为2021年的《小林さんちのメイドラゴンS》，剧情与输入一致。制作公司京都动画、导演石原立也及主要声优均吻合。\n\nhttps://www.themoviedb.org/tv/69291/season/2 (api_snapshot): 第2季完整集表共12集，total_pages=1。逐集日文标题与 Bangumi 本篇1—12话一致，仅有空格差异；播出日期为2021-07-08至09-23，每集均比输入晚一天，顺序及周播间隔完全对应。\n\nhttps://www.themoviedb.org/tv/69291/season/0 (api_snapshot): 第0季完整集表共30集，total_pages=1。第30集标题与 Bangumi 特别篇1042460完全一致，日期同为2022-01-19，时长24分钟，剧情为康娜接待来日本的克洛伊。第9—29集为另列的迷你龙短篇，不属于本次映射。\n\nhttps://maidragon.jp/2nd/onair/ (page): 官方确认本作是2021年7月7日开始的TV动画第2期；TOKYO MX周三24:00、ABC周三26:14播出，说明节目表日期跨午夜后为次日，与TMDB日期相差一天相符。\n\nhttps://maidragon.jp/2nd/staff/ (page): 官方制作名单确认导演石原立也、系列监督武本康弘、系列构成山田由香及动画制作京都动画，与输入及TMDB身份信息吻合。\n\nhttps://maidragon.jp/2nd/product/bd/bdbox_2nd/ (page): 官方明确S篇包含TV系列全12话及本次特别篇标题对应的TV未放送话；迷你龙另列为影像特典，确认主体与特别篇范围。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/274234; https://www.themoviedb.org/tv/69291; https://www.themoviedb.org/tv/69291/season/2; https://maidragon.jp/2nd/product/bd/bdbox_2nd/; https://mdblist.com/show/952f-miss-kobayashi-s-dragon-maid/season/0?cache=1; https://www.tvguide.or.jp/db/anime/maidragon/season2/episode13/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/274234; https://www.themoviedb.org/tv/69291; https://www.themoviedb.org/tv/69291/season/2; https://www.themoviedb.org/tv/69291/season/0; https://maidragon.jp/2nd/onair/; https://maidragon.jp/2nd/staff/; https://maidragon.jp/2nd/product/bd/bdbox_2nd/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 69291
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

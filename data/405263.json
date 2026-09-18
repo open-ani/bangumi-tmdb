@@ -1,13 +1,95 @@
 {
+  "anidbId": 18386,
   "bangumiId": 405263,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1252495,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1252496,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1252497,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1252498,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1252499,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1252500,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1252501,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1252502,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1252503,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1252504,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1252505,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1252506,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1252507,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1252508,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1252509,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1252510,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体完全对应：中文原名、2023-11-10 首播日期、末日荒土与魏合的剧情简介均一致；TMDB 标注为中国动画剧集，制作公司为 Shanghai Foch Film Culture Investment（福煦影视），共 1 季 16 集，2024-02-16 完结。TMDB 第1季实际集表连续覆盖第1至16集，且没有混入特别篇或其他作品，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/238975 (api_snapshot): TMDB 详情：十方武圣，2023-11-10，剧情与 Bangumi 摘要一致；中国原语言，制作公司为 Shanghai Foch Film Culture Investment，共1季16集，完结日期为2024-02-16；别名含 Shi Fang Wu Sheng、The Invincible。\n\nhttps://www.themoviedb.org/tv/238975/season/1 (api_snapshot): TMDB 第1季实际集表为16集，日期从2023-11-10至2024-02-16，集号连续为1–16，total_pages=1。\n\nhttps://bgm.tv/subject/405263 (page): Bangumi 页面确认该主体为 WEB 动画，共16话，2023年播出，总导演陈瀚波，动画制作福煦影视。\n\nhttps://www.bilibili.com/bangumi/media/md28339928/ (search_snippet): 哔哩哔哩官方番组页搜索摘要确认2023年11月10日开播、已完结、全16话。",
+    "evidence": "codex: 年份、首播日期、剧情、制作公司、配音人员及16集完整范围相互吻合，确认该subject对应TMDB 238975第1季整季。Bangumi各章节缺少标题和日期，尚不足以按要求建立逐集规则，因此只确认作品及季范围。\n\nhttps://www.themoviedb.org/tv/238975 (api_snapshot): 以原名“十方武圣”搜索后读取详情：TMDB 238975 首播于2023-11-10，剧情同为魏合携破境珠穿越乱世；制作公司为福煦影视，配音人员亦与官方资料相符，共1季16集。\n\nhttps://www.themoviedb.org/tv/238975/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共16集，集号连续为1—16；前两集同于2023-11-10播出，末集为2024-02-16。标题从“家破”“拜师”至“逃离飞业城”，该季未混入预告、音乐录像或其他作品。\n\nhttps://bangumi.tv/subject/405263 (search_snippet): Bangumi 将本作标为WEB动画，16话，2023-11-10开播；原作为滚开，总导演陈瀚波，动画制作为福煦影视，剧情与TMDB一致。\n\nhttps://bangumi.tv/subject/405263/ep (page): Bangumi 章节页仅列本篇第1—16话，未提供各话标题或放送日期，无法直接逐集比对。\n\nhttps://www.bilibili.com/bangumi/media/md28339928/ (page): 哔哩哔哩官方作品页确认2023年11月10日开播、已完结、全16话。\n\nhttps://www.bilibili.com/bangumi/media/md28339928/ (search_snippet): 官方作品页搜索摘要列出原作者滚开、总导演陈瀚波及配音阵容；正片第1—8话标题与TMDB逐项一致，并将预告、角色PV及片头片尾MV单独列出。\n\n备注：逐集rules暂留空：需补充可关联到Bangumi章节ID的标题或播出日期，才能完成逐集比对，不能仅凭1—16的序号位置认定对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/405263; https://www.themoviedb.org/tv/238975; https://www.themoviedb.org/tv/238975/season/1; https://www.bilibili.com/bangumi/media/md28339928/",
-    "verifiedAt": "2026-09-08T23:37:42.271Z"
+    "source": "https://bgm.tv/subject/405263; https://www.themoviedb.org/tv/238975; https://www.themoviedb.org/tv/238975/season/1; https://bangumi.tv/subject/405263; https://bangumi.tv/subject/405263/ep; https://www.bilibili.com/bangumi/media/md28339928/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,13 +1,75 @@
 {
+  "anidbId": 9695,
   "bangumiId": 66408,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 249301,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 249302,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 249303,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 249304,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 249305,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 249306,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 249307,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 249308,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 249309,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 249310,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 249311,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 249312,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 211753 与《ぼくは王さま（2013）》身份一致：原名、首播日期、日语媒介和堀内隆导演均吻合；Bangumi及外部资料还一致指向Graphinica、BS11和全12话。TMDB第1季实际包含第1至12集，且外部播出表确认这12集属于2013年TV版，因此可使用整季。1996年高木淳执导的OVA是独立旧版，不应混入。\n\nhttps://api.bgm.tv/v0/subjects/66408 (api_snapshot): Bangumi API记录作品为2013-04-06开播的12集TV动画，导演堀内隆，动画制作グラフィニカ。\n\nhttps://www.themoviedb.org/tv/211753 (api_snapshot): TMDB详情确认原名为ぼくは王さま、日期为2013-04-06、日语TV作品、共1个正片季及12集，导演为堀内隆。\n\nhttps://www.themoviedb.org/tv/211753/season/1 (api_snapshot): TMDB第1季实际集表包含第1至第12集，episodeCount为12，分页总数为1。\n\nhttps://www.anisil.com/animes/2863-%E3%81%BC%E3%81%8F%E3%81%AF%E7%8E%8B%E3%81%95%E3%81%BE (search_snippet): 外部播出资料列出2013年4月至6月、BS11播出的12集及各集标题，与Bangumi主体范围吻合。\n\nhttps://www.toei-video.co.jp/catalog/dstd07200/ (search_snippet): 东映官方资料显示另有高木淳执导、日本动画制作的旧版作品，属于独立OVA版本。\n\n备注：TMDB详情中第6至12集缺少日期，且last_air_date只记录到2013-05-04；但季表完整列出1至12集，外部播出表确认完整播出范围，因此不影响整季判定。",
+    "evidence": "codex: 确认对应TMDB 211753第1季整季。年份、首播日期、导演、配音及12回TV节目结构相符，已与同名旧版区分。实际季表完整覆盖12集，支持作品及季范围匹配；逐集资料不足，保留rules与overrides为空，避免仅按集号推定。\n\nhttps://bgm.tv/subject/66408 (page): Bangumi 标明本作是2013年4月6日至6月22日播出的12话TV动画，导演堀内隆、动画制作Graphinica，并将同名OVA列为不同演绎。\n\nhttps://www.themoviedb.org/tv/211753 (api_snapshot): 日文原名搜索命中211753；详情确认首播日期2013-04-06、导演堀内隆，演员包括チョー、新井里美、松山鷹志，与2013年TV版吻合。\n\nhttps://www.themoviedb.org/tv/211753/season/1 (api_snapshot): 实际读取第1季全部集表，episodeCount为12、total_pages为1，包含第1至12集。第1至5集日期依次为2013-04-06、04-13、04-20、04-27、05-04；第6至12集日期为空，所有标题均为通用集号。\n\nhttps://www.animatetimes.com/news/details.php?id=1361277471 (page): 播出前报道确认2013年TV版由堀内隆执导、Graphinica制作，在BS11播出共12回，内容由六个国王童话故事及语言学习短篇组成。\n\nhttps://www.anisil.com/animes/2863-%E3%81%BC%E3%81%8F%E3%81%AF%E7%8E%8B%E3%81%95%E3%81%BE (page): 完整播出表列出2013-04-06至06-22的12回节目；后六回重复前六回的故事，但配有不同的假名学习短篇。因此12回是该TV版的完整播出范围。\n\nhttps://bgm.tv/subject/66408/ep (page): Bangumi章节页仅列出本篇1至12，没有集标题或播出日期，无法据此完成逐集内容核对。\n\nhttps://www.toei-video.co.jp/catalog/dstd07200/ (page): 东映同名旧版影碟收录四话，导演高木淳、动画制作日本动画公司，主要配音为坂本千夏等，与本次TV版的制作班底及节目结构不同。\n\n备注：Bangumi全部章节缺少标题和日期；TMDB仅前五集有日期，第6至12集缺少日期且均无实质标题，尚不能建立经内容或日期逐集核验的映射。；TMDB的last_air_date仅记录至2013-05-04，与外部完整播出表不符，属于元数据缺口；整季范围依据实际12集季表及完整播出资料确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/66408; https://api.bgm.tv/v0/subjects/66408; https://www.themoviedb.org/tv/211753; https://www.themoviedb.org/tv/211753/season/1; https://www.anisil.com/animes/2863-%E3%81%BC%E3%81%8F%E3%81%AF%E7%8E%8B%E3%81%95%E3%81%BE; https://www.toei-video.co.jp/catalog/dstd07200/",
-    "verifiedAt": "2026-09-08T19:06:58.480Z"
+    "source": "https://bgm.tv/subject/66408; https://www.themoviedb.org/tv/211753; https://www.themoviedb.org/tv/211753/season/1; https://www.animatetimes.com/news/details.php?id=1361277471; https://www.anisil.com/animes/2863-%E3%81%BC%E3%81%8F%E3%81%AF%E7%8E%8B%E3%81%95%E3%81%BE; https://bgm.tv/subject/66408/ep; https://www.toei-video.co.jp/catalog/dstd07200/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

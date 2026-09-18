@@ -1,13 +1,79 @@
 {
   "bangumiId": 254986,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 814360,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 814361,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 814362,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 814363,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 814364,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 814365,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 814366,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 814367,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 814368,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 814369,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 814370,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 814371,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 814372,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 Netflix WEB 动画《Voltron: Legendary Defender》第七季，2018-08-10 首播、13 集。TMDB TV 66558 的主系列原名完全一致，主系列自 2016 年开始并于 2018 年结束；其第 7 季同样为 2018-08-10、13 集，实际集表覆盖第 1 至第 13 集，剧情均为 Voltron 队员返回地球并面对新旧敌人。TMDB 还确认这是动画电视系列，由 Studio Mir、World Events Productions、DreamWorks Animation Television 制作，不是电影、OVA、音乐录像或其他 Voltron 版本。\n\nhttps://api.bgm.tv/v0/subjects/254986 (api_snapshot): Bangumi fresh API 标记标题为 Voltron: Legendary Defender Season 7，平台为 WEB，日期为 2018-08-10，总集数为 13。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): TMDB details 确认主系列原名 Voltron: Legendary Defender，首播 2016-06-10，共 8 季 76 集，制作公司包括 Studio Mir、World Events Productions、DreamWorks Animation Television。\n\nhttps://www.themoviedb.org/tv/66558/season/7 (api_snapshot): TMDB 第 7 季真实集表显示 Season 7 于 2018-08-10 发布，共 13 集，episode_number 覆盖 1–13；简介描述 Paladins 返回地球并面对敌人，与 Bangumi 条目身份和范围一致。\n\nhttps://www.themoviedb.org/tv/66558 (search_snippet): TMDB 搜索以 Voltron: Legendary Defender 及日文别名检索均返回 TV ID 66558，且原始标题、2016 年开播日期和剧情与候选相符。\n\nhttps://www.dreamworks.com/shows/voltron-legendary-defender (page): DreamWorks 官方页面将该作品列为 TV Shows，并描述五名来自地球的少年驾驶机械狮组成 Voltron，对应 TMDB 与 Bangumi 的动画电视系列身份。\n\n备注：TMDB details 返回的 crew 数组为空，因此未能从 TMDB API 独立核实具体编剧、导演等个人制作人员；但制作公司、演员、官方剧情和季集表已足以确认作品身份与范围。",
+    "evidence": "codex: 作品版本、制作公司、主要配音、媒介、季首播日期和集数均吻合，确认对应 TMDB 66558 第七季整季。实际季表覆盖独立的 13 集主体，未混入其他季或特别篇。Bangumi 章节缺少标题和逐集日期，无法进行逐集内容核对，因此只确认整季范围，暂不填写连续规则或章节特例。\n\nhttps://bgm.tv/subject/254986 (page): Bangumi 标明本作为 Netflix WEB 动画第七季，2018-08-10 开始放送，共 13 话；动画制作是 Studio MIR，配音包括 Josh Keaton、Steven Yeun、Jeremy Shada。章节列表仅显示 01–13，没有标题。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): TMDB details 确认 66558 为英语动画系列 Voltron: Legendary Defender，2016-06-10 开播、2018-12-14 完结，共八季；制作公司包含 Studio Mir 和 DreamWorks Animation Television，主要角色及配音与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/66558/season/7 (api_snapshot): 实际读取第七季完整集表，total_pages=1，共 13 集，集号连续为 1–13，全部日期为 2018-08-10；首集为 A Little Adventure，末集为 Lions' Pride (2)。本季剧情围绕队员返回地球及保卫地球展开。\n\nhttps://www.dreamworks.com/shows/voltron-legendary-defender (page): DreamWorks 官方将本作列为电视系列，剧情为五名地球少年驾驶机械狮并组成 Voltron 保卫宇宙，与 TMDB 的作品简介一致。\n\n备注：Bangumi 的 13 个章节仅有序号，标题和日期均为空；逐集映射需补充可核实的章节标题或日期，不能仅按位置建立对应。；TMDB details 的 crew 为空，未能逐人核对导演及执行制片人；已核实制作公司和主要配音一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/254986; https://api.bgm.tv/v0/subjects/254986; https://www.themoviedb.org/tv/66558; https://www.themoviedb.org/tv/66558/season/7; https://www.dreamworks.com/shows/voltron-legendary-defender",
-    "verifiedAt": "2026-09-08T21:24:37.119Z"
+    "source": "https://bgm.tv/subject/254986; https://www.themoviedb.org/tv/66558; https://www.themoviedb.org/tv/66558/season/7; https://www.dreamworks.com/shows/voltron-legendary-defender",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

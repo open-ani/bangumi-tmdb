@@ -1,16 +1,103 @@
 {
   "anidbId": 18839,
   "bangumiId": 510256,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1504763,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1504764,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1504765,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1504766,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1504767,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1504768,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1504769,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1504770,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1504771,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1504772,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1504773,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1504774,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1556906,
+      "sort": 6.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1556906,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 279220,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi、AniDB 与 TMDB 均对应同一部 2025 年 TV 动画：标题、首播日、剧情、角色、制作团队和 12 集正篇一致。Bangumi 主体还包含 06.5 特别篇；TMDB 明确列出同日（2025-08-17）的第 0 季 1 集特别编，因此需同时纳入完整第 1 季和完整第 0 季。\n\nhttps://bgm.tv/subject/510256 (page): Bangumi 标记为 TV，话数 12，放送时间为 2025-07-06 至 2025-09-28，章节列表包含 01–12 及 SP/06.5。\n\nhttps://anidb.net/perl-bin/animedb.pl?show=anime&aid=18839 (page): AniDB 条目明确为 a18839《Geesen Shoujo to Ibunka Kouryuu》，TV Series、12 episodes，播出时间 2025-07-06 至 2025-09-28；英文、日文标题及剧情、制作公司 Nomad 均吻合。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=18839 映射到 tmdbtv=279220、tmdbseason=1；该映射与 AniDB/Bangumi 和 TMDB 内容交叉吻合，但仅作为辅助线索。\n\nhttps://www.themoviedb.org/tv/279220 (api_snapshot): TMDB 279220 标题为《ゲーセン少女と異文化交流》，首播日 2025-07-06，剧情涉及游戏中心、草壁蓮司和英国少女リリー；快照列出第 1 季 12 集及第 0 季 1 集特别编，特别编日期为 2025-08-17。\n\nhttps://www.themoviedb.org/tv/279220/season/1 (api_snapshot): TMDB 第 1 季有 12 集，标题和日期逐项对应 Bangumi 正篇 1–12，范围为 2025-07-06 至 2025-09-28。\n\nhttps://www.kadokawa.co.jp/product/video2354/ (search_snippet): KADOKAWA 官方资料确认该 TV 动画自 2025-07-06 播出，剧情、主要角色和制作信息与上述条目一致。",
+    "evidence": "codex: 已独立确认作品年份、电视动画媒介、剧情、主创及集数一致。本篇 12 话的标题和日期逐集对应 TMDB 279220 第 1 季 1—12 集；第 6.5 话为总集篇，按章节 ID 单独对应第 0 季第 1 集。全部 13 个章节均有明确对应。\n\nhttps://www.themoviedb.org/tv/279220 (api_snapshot): TMDB 279220 为同名日本 TV 动画，首播及完结日期为 2025-07-06、2025-09-28；英国少女莉莉与游戏中心店员草壁莲司的剧情、原作安原宏和、导演菊池聪延均与输入一致，制作公司包含 Nomad。\n\nhttps://gacen-girl-anime.com/ (page): 动画官网确认本作于 2025-07-06 开始电视播出。\n\nhttps://gacen-girl-anime.com/staffcast/index.html (page): 官网确认原作为安原宏和、导演为菊池聪延、动画制作为 Nomad，莉莉与草壁莲司分别由天城莎莉、千叶翔也配音，与 TMDB 详情一致。\n\nhttps://www.themoviedb.org/tv/279220/season/1 (api_snapshot): 第 1 季实际集表共 12 集，total_pages=1。逐集核对后，1—12 集标题及播出日期均与输入 Bangumi 本篇对应，仅第 6 集英文标题存在大小写差异；第 6 集为 08-10，第 7 集为 08-24，末集为 09-28，无总集篇混入。\n\nhttps://www.themoviedb.org/tv/279220/season/0 (api_snapshot): 第 0 季实际集表仅 1 集，total_pages=1；第 1 集标题为「ゲーセン少女と振り返り総集編」，播出日期 2025-08-17，与 Bangumi 特别篇 1556906（sort=6.5）的标题和日期完全一致。\n\nhttps://gacen-girl-anime.com/news/index.html (page): 官网新闻列表的 2025-08-11 公告明确宣布于 08-17 播出「ゲーセン少女と振り返り総集編」，支持其为本作独立总集篇。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/510256; https://anidb.net/perl-bin/animedb.pl?show=anime&aid=18839; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/279220; https://www.themoviedb.org/tv/279220/season/1; https://www.kadokawa.co.jp/product/video2354/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/510256; https://www.themoviedb.org/tv/279220; https://gacen-girl-anime.com/; https://gacen-girl-anime.com/staffcast/index.html; https://www.themoviedb.org/tv/279220/season/1; https://www.themoviedb.org/tv/279220/season/0; https://gacen-girl-anime.com/news/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 279220
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 279220,
       "season": 0,
       "type": "tv"

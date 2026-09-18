@@ -1,13 +1,114 @@
 {
   "bangumiId": 406268,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1141558,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1141559,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1141560,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1141561,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1141562,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1141563,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1141564,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1141565,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1141566,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1141567,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1141568,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1141569,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1141570,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1141571,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1141572,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1485019,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1485020,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1485021,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1485022,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1485023,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 的 Family Guy（ファミリー・ガイ）TV 主系列详情与 Bangumi 的英文名、首播年份及剧情相符；第15季明确于 2016-09-25 首播，共20集。季表实际覆盖连续第1–20集，且首集剧情与 Bangumi 摘要吻合，因此可整季映射。Bangumi 提供的 IMDb tt5774946 实际对应该剧第15季第1集，不是独立 TV 作品 ID。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 详情确认原名 Family Guy、TV 媒介、首播 1999-01-31、制作公司及主要配音；并列出第15季为 2016-09-25、20集。\n\nhttps://www.themoviedb.org/tv/1434/season/15 (api_snapshot): TMDB 第15季季表确认 season=15、air_date=2016-09-25、episodeCount=20，实际集号为1–20。\n\nhttps://www.foxflash.com/shows/family-guy/info/ (page): FOXFLASH 确认 Family Guy 是20th Television Animation制作，Seth MacFarlane为创作者及执行制片人，并列出主要配音和制作人员。\n\nhttps://en.wikipedia.org/wiki/The_Boys_in_the_Band_(Family_Guy) (page): 第15季第1集《The Boys in the Band》于2016-09-25播出，剧情包含Stewie与Brian组儿童乐队及Chris为Quagmire工作，与 Bangumi 摘要吻合。\n\nhttps://bgm.tv/subject/406268 (api_snapshot): Bangumi fresh API 信息确认主体为 Family Guy 第15季、2016-09-25开播、20集及对应剧情摘要。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 1434《Family Guy》第15季整季：电视动画版本、首播日期、20集总量和首集具体剧情相符，实际季表范围完整。输入的 Bangumi 各章节均缺少标题和播出日期，无法逐集交叉核验，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 以英文原名 Family Guy 搜索后读取 TV 1434 详情，确认是围绕 Griffin 一家的电视动画，制作公司及 Seth MacFarlane 等主要配音与官方资料一致；第十五季列为2016-09-25首播、20集。\n\nhttps://www.themoviedb.org/tv/1434/season/15 (api_snapshot): 实际读取第十五季全部集表，total_pages=1，共20集，集号连续为1—20。首集《The Boys in the Band》于2016-09-25播出，儿童乐队及 Chris 为 Quagmire 工作的两条剧情均与输入摘要一致；末集为《A House Full of Peters》。\n\nhttps://api.themoviedb.org/3/find/tt5774946?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 IMDb tt5774946，返回 TV 1434 第15季第1集，TMDB episode ID 为1225227；该线索指向单集而非独立作品。\n\nhttps://www.foxflash.com/shows/family-guy/info/ (page): FOX 官方资料确认本作为电视动画，创作者及主要配音为 Seth MacFarlane，并列出 Alex Borstein、Seth Green、Mila Kunis 等配音与制作信息。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_15 (search_snippet): 第十五季资料确认在 FOX 播出，共20集，播出范围为2016-09-25至2017-05-21，人物和制作人员与所核对系列一致。\n\n备注：Bangumi 网页及章节 API 本次访问失败；逐集判断只能依赖输入快照，而其中20个章节均无标题和日期。需要补充章节资料后才能建立连续对应规则。；TMDB 将第19、20集日期记录为2017-05-22，外部季资料记载美国播出结束日为2017-05-21；该日期差异不影响整季身份判断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/406268; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/15; https://www.foxflash.com/shows/family-guy/info/; https://en.wikipedia.org/wiki/The_Boys_in_the_Band_(Family_Guy)",
-    "verifiedAt": "2026-09-08T23:39:25.104Z"
+    "source": "https://bgm.tv/subject/406268; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/15; https://api.themoviedb.org/3/find/tt5774946?external_source=imdb_id; https://www.foxflash.com/shows/family-guy/info/; https://en.wikipedia.org/wiki/Family_Guy_season_15",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,15 +1,106 @@
 {
+  "anidbId": 17581,
   "bangumiId": 386102,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1114473,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1114474,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1114475,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1114476,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1114477,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1114478,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1114479,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1114480,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1114481,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1114482,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1114483,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1114484,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1114485,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1114486,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1114487,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1114488,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认对应 TMDB TV 作品《三寸人间》/《A World Worth Protecting》，不是电影、OVA、音乐录像或其他版本。Bangumi 与 TMDB 均显示 2022-08-11 开播、同一剧情（王宝乐进入缥缈道院并修仙升级）；Bangumi 标为 WEB，制作方为福煦影视，原作耳根，总导演陈瀚波。TMDB 标记为已完结、仅 1 季共 16 集；实际读取的第 1 季集表连续覆盖第 1 至 16 集，因此可使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/386102 (api_snapshot): Bangumi API：标题《三寸人间》，2022-08-11，WEB，16 集；剧情为王宝乐进入缥缈道院并展开修仙冒险。\n\nhttps://www.themoviedb.org/tv/207993 (api_snapshot): TMDB 搜索命中：原名《三寸人间》，别名 A World Worth Protecting / San Cun Renjian，首播日期 2022-08-11，剧情与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/207993 (api_snapshot): TMDB 详情：TV，已完结，1 季、16 集，最后播出日期 2022-12-15；别名和剧情均与目标一致。\n\nhttps://www.themoviedb.org/tv/207993/season/1 (api_snapshot): TMDB 第 1 季实际集表：第 1 至第 16 集连续存在，首集 2022-08-11，末集 2022-12-15，共 16 集。\n\nhttps://bgm.tv/subject/386102 (page): Bangumi 页面：WEB 动画，话数 16，2022-08-11 开播，原作耳根，动画制作福煦影视，制作方 bilibili 与腾讯动漫，并列出第 01 至 16 集。\n\nhttps://www.bilibili.com/bangumi/media/md28337698/ (page): 哔哩哔哩页面：2022-08-11 开播、已完结、全 16 话。\n\nhttps://wapbaike.baidu.com/item/%E4%B8%89%E5寸人间/60711155 (page): 作品资料：福煦影视制作的网络动画，改编自耳根小说；总导演陈瀚波，编剧李一诺，2022-08-11 播出，全 16 话。\n\n备注：TMDB 详情的 crew 字段为空；导演、编剧和制作公司信息由 Bangumi 及作品资料页交叉确认。",
+    "evidence": "codex: 确认对应TMDB 207993第1季整季。首播日期、王宝乐与缥缈道院的剧情、配音阵容、网络动画媒介及16集规模相互吻合。官方第1至16话编号标题与TMDB完整季表逐项对应，支持Bangumi本篇sort 1至16按同号映射；依据不只是名称或集数位置。\n\nhttps://bgm.tv/subject/386102 (page): Bangumi 标注为2022年8月11日开播的WEB动画，共16话；原作耳根，动画制作福煦影视，制作方为bilibili、腾讯动漫。剧情围绕王宝乐进入缥缈道院展开，章节编号连续为01至16。\n\nhttps://www.themoviedb.org/tv/207993 (api_snapshot): 按中文原名搜索命中207993；实际读取详情确认原名《三寸人间》，别名A World Worth Protecting，首播2022-08-11，已完结，共1季16集。剧情与Bangumi一致；林帽帽、沈念如、阎么么、李轻扬等配音人员与官方资料一致。\n\nhttps://www.themoviedb.org/tv/207993/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共16集，编号1至16连续。前两集日期均为2022-08-11，末集为2022-12-15。逐集标题与官方编号标题对应；第4集标题为官方标题的简写，其余仅有标点等细微差异，未发现额外作品或总集篇混入。\n\nhttps://www.bilibili.com/bangumi/media/md28337698/ (page): 官方媒体页确认《三寸人间》2022年8月11日开播，已完结，全16话。\n\nhttps://www.bilibili.com/bangumi/play/ss41862 (search_snippet): 官方播放页搜索摘要列出第1至16话的编号和标题，可与TMDB季表逐项核对；页面同时列有预告，预告不计入16话正片。配音名单及剧情也与TMDB详情一致。\n\nhttps://www.bilibili.com/bangumi/media/md28337698 (search_snippet): 官方媒体页搜索摘要列出原作耳根、总导演陈瀚波，以及王宝乐由林帽帽、周小雅由沈念如、杜敏由阎么么、陈子恒由李轻扬配音，支持同一动画版本的认定。\n\n备注：Bangumi输入的逐集标题和日期为空；逐集顺序依据官方编号标题与TMDB季表交叉核对，未独立核实TMDB全部单集播出日期。；TMDB制作公司与幕后人员字段为空，原作、制作公司和导演资料由Bangumi及官方平台补充确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/386102; https://api.bgm.tv/v0/subjects/386102; https://www.themoviedb.org/tv/207993; https://www.themoviedb.org/tv/207993/season/1; https://www.bilibili.com/bangumi/media/md28337698/; https://wapbaike.baidu.com/item/%E4%B8%89%E5寸人间/60711155",
-    "verifiedAt": "2026-09-08T23:26:18.833Z"
+    "source": "https://bgm.tv/subject/386102; https://www.themoviedb.org/tv/207993; https://www.themoviedb.org/tv/207993/season/1; https://www.bilibili.com/bangumi/media/md28337698/; https://www.bilibili.com/bangumi/play/ss41862; https://www.bilibili.com/bangumi/media/md28337698",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 207993
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

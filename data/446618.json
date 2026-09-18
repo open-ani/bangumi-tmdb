@@ -1,16 +1,103 @@
 {
   "anidbId": 18134,
   "bangumiId": 446618,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1355503,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1355504,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1355505,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1355506,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1355507,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1355508,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1355509,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1355510,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1355511,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1355512,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1355513,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1355514,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1383021,
+      "sort": 18.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1383021,
+      "targets": [
+        {
+          "episode": 16,
+          "id": 158373,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2024 年 7 月 5 日开播、12 集的《NieR:Automata Ver1.1a》第2クール，并关联前作。AniDB 线索对应 2024 年 Cour 2，播出范围为 7 月 5 日至 9 月 27 日。TMDB TV ID 158373 的第1季共24集，其中第13至24集的标题、日期和剧情均与该 Bangumi 条目的12集逐一对应；条目内的 Chapter.13-18 调查报告是主体特别篇，对应 TMDB 特别篇第16集。\n\nhttps://bgm.tv/subject/446618 (page): Bangumi 条目为 TV，话数12，放送开始于2024年7月5日，并列出第2クール别名及与 NieR:Automata Ver1.1a 的关联。\n\nhttps://anidb.app/anime/nierautomata-ver11a-cour-2-3755 (search_snippet): AniDB 搜索结果对应 NieR:Automata Ver1.1a (Cour 2)，标为2024年夏季、TV、A-1 Pictures，播出时间为2024年7月5日至9月27日，并关联 Investigation Report 特别篇。\n\nhttps://www.themoviedb.org/tv/158373 (api_snapshot): TMDB API 快照确认 TV ID 158373 为 NieR:Automata Ver1.1a，共24集；季列表含 season 0（16集）和 season 1（24集）。\n\nhttps://www.themoviedb.org/tv/158373/season/1 (api_snapshot): TMDB API 快照及季页面显示 season 1 的第13至24集，标题从 reckless bra[V]ery 到 the [E]nd of YoRHa，日期为2024年7月5日至9月27日，剧情与第2部分一致。\n\nhttps://nierautomata-anime.com/news/?id=65937 (search_snippet): 官方公告确认 Chapter.13-18 調査レポート 于2024年8月16日播出，并给出其调查报告性质和简介。\n\nhttps://www.moviefone.com/tv-shows/nierautomata-ver11a/ESlPKV0f3w0Gw0cOUK6yF6/seasons/0/ (search_snippet): 该 TMDB 数据镜像列出 specials 第16集为「NieR:Automata Ver1.1a」Chapter.13-18 Survey Report，日期为2024年8月16日。",
+    "evidence": "codex: 作品版本、制作人员、剧情及逐集标题和日期均吻合。该分割季度对应TMDB第1季第13至24集，不能映射整季；小数编号特别篇单独对应第0季第16集。全部13个Bangumi章节均已确认对应。\n\nhttps://bgm.tv/subject/446618 (page): Bangumi 确认为2024年7月5日至9月27日播出的TV动画第2部分，共12话；导演益山亮司，动画制作A-1 Pictures，本篇编号13至24。\n\nhttps://www.themoviedb.org/tv/158373 (api_snapshot): TMDB 158373 为同一电视动画，导演益山亮司，制作公司包括A-1 Pictures、Aniplex和Square Enix；人物与机械生命体战争的剧情一致。TMDB将2023年及2024年本篇合并为第1季，共24集。\n\nhttps://www.themoviedb.org/tv/158373/season/1 (api_snapshot): 已读取第1季完整24集表，total_pages=1。第13至24集的12个标题及播出日期与输入本篇逐一完全一致，日期范围为2024年7月5日至9月27日，8月16日没有本篇。\n\nhttps://www.themoviedb.org/tv/158373/season/0 (api_snapshot): 已读取第0季完整16集表，total_pages=1。第16集为「Chapter.13-18 調査レポート」，播出日期2024年8月16日，标题、日期与Bangumi特别篇1383021一致，简介亦与官方公告一致。\n\nhttps://nierautomata-anime.com/news/?id=65937 (page): 官方公告确认「Chapter.13-18 調査レポート」于2024年8月16日播出，内容为整理、回顾已收集的记录数据，确认为调查报告特别节目。\n\n备注：输入ownership将前作368116声明为占用整个第1季，与本次已核实范围重叠；该旧范围需另行核对并收窄，不能据此否定本次逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/446618; https://anidb.app/anime/nierautomata-ver11a-cour-2-3755; https://www.themoviedb.org/tv/158373; https://www.themoviedb.org/tv/158373/season/1; https://nierautomata-anime.com/news/?id=65937; https://www.moviefone.com/tv-shows/nierautomata-ver11a/ESlPKV0f3w0Gw0cOUK6yF6/seasons/0/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/446618; https://www.themoviedb.org/tv/158373; https://www.themoviedb.org/tv/158373/season/1; https://www.themoviedb.org/tv/158373/season/0; https://nierautomata-anime.com/news/?id=65937",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 158373
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

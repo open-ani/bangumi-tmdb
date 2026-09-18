@@ -1,16 +1,103 @@
 {
   "anidbId": 15348,
   "bangumiId": 298010,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 926650,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 926651,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 926652,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 926653,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 926654,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 926655,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 926656,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 926657,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 926658,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 926659,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 937597,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 937598,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 940886,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 940886,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 97407,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2020 年《へんたつ》TV版：12 集正篇加上 2020-03-28 播出的 12.5 特别篇，共 13 集。AniDB 15348 与其日文名、年份、首末播日期、导演及制作组一致，并明确列出 1–12 集和 12.5。TMDB 97407 同名、首播日为 2020-01-04，第1季共13集，与该 subject 的完整主体对应；第0季是2021年年末特别篇，不应纳入。候选第2季请求返回404，且不应据此采用第2季。\n\nhttps://bgm.tv/subject/298010 (page): 输入的 Bangumi 页面数据表明该 subject 为《へんたつ》TV版，2020-01-04 开始，12 个 regular episodes，并另有 2020-03-28 的 12.5 特别篇，总集数13。\n\nhttps://anidb.net/anime/15348 (page): AniDB 15348 标为 Hentatsu (2020)、TV Series、12 episodes，播出期为 2020-01-04 至 2020-03-21；剧集列表另列 Episode 12.5（2020-03-28），导演 Tatsuki、制作 Irodori，与 Bangumi 主体一致。\n\nhttps://cal.syoboi.jp/tid/5574/time (search_snippet): 播出表列出《へんたつ》正篇第10–12集分别于2020-03-07、03-14、03-21播出，并列出2020-03-28的#12.5终回特别篇。\n\nhttps://www.themoviedb.org/tv/97407 (api_snapshot): TMDB API快照显示作品名为へんたつ，first_air_date为2020-01-04，共13集；Season 1为2020-01-04、13集，Season 0为2021-12-31、2集。\n\nhttps://www.themoviedb.org/tv/97407/season/2 (api_snapshot): TMDB API快照中候选第2季请求返回HTTP 404；这只能说明该请求失败，不能单独证明季不存在，但不支持采用第2季。",
+    "evidence": "codex: 确认为TMDB 97407第1季：年份、TV版本、剧情、制作人员及完整集表一致。本篇1—12话按逐集相同播出日期对应S01E01—E12，12.5话对应S01E13。当前TMDB详情与季表支持第1季，冲突线索中的第2季不予采用。\n\nhttps://hentatsu.com/ (page): 官方网站明确标为 TV 版，列出第1至12话及第12.5话（おまけ）；导演为たつき，作画为伊佐佳久，版权归irodori，角色为鬼与猫，与输入的2020年TV版相符。\n\nhttps://www.themoviedb.org/tv/97407 (api_snapshot): TMDB 97407首播于2020-01-04，末播于2020-03-28；剧情为鬼与猫喝茶聊天，制作公司Irodori、导演たつき及角色配音均与官网一致。详情仅列第0季和第1季，第1季共13集，支持2020年TV版而非2018年版本。\n\nhttps://www.themoviedb.org/tv/97407/season/1 (api_snapshot): 第1季实际集表共13集，total_pages=1。第1至12集标题分别为第1至12话，播出日期逐一与输入的12个本篇章节一致；第13集标题为第12.5話(おまけ)，日期2020-03-28，与Bangumi特别篇940886一致。整季没有混入其他作品。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/298010; https://anidb.net/anime/15348; https://cal.syoboi.jp/tid/5574/time; https://www.themoviedb.org/tv/97407; https://www.themoviedb.org/tv/97407/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/298010; https://hentatsu.com/; https://www.themoviedb.org/tv/97407; https://www.themoviedb.org/tv/97407/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 97407
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

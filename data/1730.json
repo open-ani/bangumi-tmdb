@@ -1,21 +1,114 @@
 {
   "anidbId": 6332,
   "bangumiId": 1730,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 7280,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 7281,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 7282,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 7283,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 7284,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 7285,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 7286,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 7287,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 7288,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 7289,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 7290,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 7291,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 12553,
+      "sort": 0,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 12553,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 25275,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 25275的2009年电视动画。年份、媒介、制作公司、角色剧情及全部13话标题相符；正篇1至12话对应第1季，第0话对应S00E01。旧映射遗漏了第0话，现以章节覆盖补齐。\n\nhttps://bgm.tv/subject/1730 (page): Bangumi 标注为2009年电视动画，NOMAD制作、黒田やすひろ执导，共13话，章节编号为0至12；人物与学习现代魔法的剧情符合候选。\n\nhttps://www.themoviedb.org/tv/25275 (api_snapshot): 日文原名搜索命中25275；详情确认原名、2009年7月11日首播、NOMAD制作及森下こよみ向姉原美鎖学习现代魔法的剧情一致，收录第1季12集和特别篇1集。\n\nhttps://www.themoviedb.org/tv/25275/season/1 (api_snapshot): 第1季完整集表共12集、1页；所有标题与Bangumi第1至12话逐一同序一致。第4、10、11、12集日期比Bangumi晚一天，其余日期一致。\n\nhttps://www.themoviedb.org/tv/25275/season/0 (api_snapshot): 第0季完整集表共1集、1页；英文资料确认S00E01标题为cruncha cruncha cruncha，对应Bangumi第0话，TMDB日期为2009年6月29日。\n\nhttps://cal.syoboi.jp/tid/1665/time (search_snippet): 节目表记载第0话cruncha cruncha cruncha于2009年6月29日在万代频道配信，并标为活动先行上映话；正篇BS11首播时间为7月11日24:00，支持深夜节目日期存在跨日记法。\n\nhttps://www.wikizero.org/wiki/ja/よくわかる現代魔法 (search_snippet): 资料注明第0话曾于2009年6月14日联合活动上映，解释Bangumi上映日期与TMDB网络配信日期的差异。\n\n备注：TMDB正篇第4、10、11、12集与Bangumi存在一天日期差，符合深夜24:00跨日记法；第0话采用不同发行节点日期。上述差异不影响标题及集数确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1730; https://www.themoviedb.org/tv/25275; https://www.themoviedb.org/tv/25275/season/1; https://www.themoviedb.org/tv/25275/season/0; https://cal.syoboi.jp/tid/1665/time; https://www.wikizero.org/wiki/ja/よくわかる現代魔法",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 25275
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 25275,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 25275,
+      "season": 0,
       "type": "tv"
     }
   ]

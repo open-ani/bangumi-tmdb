@@ -1,16 +1,151 @@
 {
   "anidbId": 15256,
   "bangumiId": 294202,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 938064,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 938065,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 938066,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 938067,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 938068,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 938069,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 938070,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 938071,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 938072,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 938073,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 938074,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 938075,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 957212,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1032761,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1032762,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1032763,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1032764,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 1032765,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 1032766,
+      "sort": 6,
+      "type": 1
+    },
+    {
+      "id": 1032767,
+      "sort": 7,
+      "type": 1
+    },
+    {
+      "id": 1032768,
+      "sort": 8,
+      "type": 1
+    },
+    {
+      "id": 1032769,
+      "sort": 9,
+      "type": 1
+    },
+    {
+      "id": 1032770,
+      "sort": 10,
+      "type": 1
+    },
+    {
+      "id": 1032771,
+      "sort": 11,
+      "type": 1
+    },
+    {
+      "id": 1032772,
+      "sort": 12,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 101561第1季。本作年份、电视动画媒介、剧情、制作人员和声优一致；13集标题及剧情逐集对应，完整覆盖该季，未混入剧场版或其他作品。依据逐集标题、剧情及外部播出记录，建立本篇1—13集同号映射。\n\nhttps://www.themoviedb.org/tv/101561 (api_snapshot): TMDB 101561 是2020年电视动画，函馆乐队题材简介与输入一致；七星莲等角色及声优与官方资料吻合，仅列第1季、共13集。\n\nhttps://www.themoviedb.org/tv/101561/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。13集日文标题与 Bangumi 本篇逐集完全一致，顺序一致，每集24分钟；部分播出日期存在错误或口径差异。\n\nhttps://bushiroad.com/news/2020/3205 (page): 官方确认本作于2020年4月10日深夜25:25首播，是描写函馆男子乐队的3DCG电视动画；导演锦织博、系列构成及脚本毛利亘宏、动画制作三次元均与输入一致，主要声优与TMDB一致。\n\nhttps://thetv.jp/program/0000969106/plot/ (page): 完整列出第1至13集标题、剧情和TBS播出日期：2020年4月10日至7月3日每周一集，全部与输入的本篇标题及日期一致；各集剧情亦与TMDB对应集一致。\n\nhttps://bushiroad.com/media/12060 (page): 官方2020年7月8日公告确认电视动画7月3日完结、全13集，并明确AFTER/ANOTHER STORY是每集播出后另行公开的原创语音剧。\n\n备注：TMDB前3集日期比Bangumi晚一天，可由深夜25:25的日期口径解释；第4—6及8—13集日期与播出记录不符，不能统一解释为跨日差异。映射以完全一致的集标题、剧情和13集总量确认。；12篇AFTER/ANOTHER STORY属于另行发布的语音剧；当前TMDB作品详情未列特别篇季，尚未确认其TMDB对应条目，本次保持未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/294202; https://www.themoviedb.org/tv/101561; https://www.themoviedb.org/tv/101561/season/1; https://bushiroad.com/news/2020/3205; https://thetv.jp/program/0000969106/plot/; https://bushiroad.com/media/12060",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 101561
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

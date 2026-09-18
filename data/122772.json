@@ -1,15 +1,81 @@
 {
+  "anidbId": 12682,
   "bangumiId": 122772,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 686987,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 717181,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 765876,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 832600,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 832601,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 832602,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 832603,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 885201,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 905286,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 905287,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 905765,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB 223523 与 Bangumi 条目在日文原名、首播日、媒介、剧情人物及制作公司上完整吻合：均为 2016-12-30 开始播出的《6HP／シックスハートプリンセス》，剧情围绕羽仁はるか、阳之杜市、罪兽和 Heart Princess，制作方为 PONCOTAN。官方 PONCOTAN 页面进一步确认村上隆执导、mebae 负责角色设计，并将电视动画主体明确列为 Story 01—07；TMDB 第1季实际季表也恰为7集，末集日期同为2019-09-21，未混入其他作品，因此推荐完整第1季。官方页面另将2010年的5分钟短片《Six♡Princess》和后来的全3DCG试播影像描述为该项目的前身或其他展开，不能替代本电视动画；TMDB 223523 的年份、七集结构和剧情表明它收录的是电视动画主体，而非这些短片。\n\nhttps://www.themoviedb.org/tv/223523 (api_snapshot): TMDB details 实际读取结果：类型为TV，原名“6HP(シックスハートプリンセス)”，首播日2016-12-30，完结日2019-09-21，共1季7集；简介中的羽仁はるか、阳之杜学园、罪兽和Heart Princess与Bangumi剧情一致，制作公司为Poncotan。\n\nhttps://www.themoviedb.org/tv/223523/season/1 (api_snapshot): TMDB season 实际读取结果：第1季共7集且仅1页，集号连续为1—7；日期依次从2016-12-30延续至2019-09-21，没有夹入其他作品。\n\nhttps://poncotan.jp/works/6hp/ (page): 制作方官方作品页确认标题为“6HP／シックスハートプリンセス”，村上隆任导演、mebae任角色设计、PONCOTAN负责制作；剧情与TMDB一致，并明确列出Story 01—07及2019-09-21播出第7话。页面同时说明2010年《Six♡Princess》五分钟短片和全3DCG试播PV属于项目的前身或其他展开。\n\nhttps://api.bgm.tv/v0/subjects/122772 (api_snapshot): freshBangumi API 信息确认本subject为2016-12-30开始的TV动画，别名含6HP与Six Hearts Princess，导演村上隆、动画制作PONCOTAN；这些身份字段与TMDB 223523及制作方官网一致。\n\n备注：Bangumi的“话数15”、当前9条普通集记录和TMDB／官网的7个正式剧情编号之间存在口径差异；Bangumi集表另行记录了未完成首播、全CG版等版本性内容。该差异不改变电视动画主体对应TMDB第1季全季，但这些替代版或附加影像没有各自对应到TMDB正片集号。",
+    "evidence": "codex: 确认对应TMDB 223523第1季：年份、电视媒介、制作公司、人物剧情及声优相符，实际七集结构与官网正式剧情01—07一致，未混入前身短片或音乐PV。第2—7话集号及播出日期逐项吻合，可建立连续规则。第1集存在未完成版与完成版的归属歧义，因此保留整季作品范围，但暂不指定其Bangumi章节。\n\nhttps://www.themoviedb.org/tv/223523 (api_snapshot): 日文原名搜索命中223523；实际读取日文及英文详情，确认是2016-12-30首播的电视动画，共1季7集，制作公司Poncotan。英文简介中的羽仁はるか、阳之杜学园、罪兽及角色声优与官方资料一致。\n\nhttps://www.themoviedb.org/tv/223523/season/1 (api_snapshot): 第1季实际集表共7集、1页。第1集日期为2016-12-30；第2—7集日期依次为2017-12-23、2018-06-17、2018-09-22、2019-03-31、2019-05-26、2019-09-21，与Bangumi第2—7话逐项一致。标题均为通用集号，简介为空。\n\nhttps://poncotan.jp/works/6hp/ (page): 制作方官网确认村上隆执导、mebae负责角色设计、中川大地负责脚本及系列构成，列出正式剧情01—07及对应故事。官网另行介绍2010年五分钟短片、全3DCG试播PV及品牌合作PV，说明这些并非同一电视正片版本。\n\nhttps://bgm.tv/subject/122772/ep (page): Bangumi章节表列有两个sort=0版本、正式第1—7话及两个特别篇。正式第1话日期为2017-09-29，2016-12-30版本单列为第0话；第2—7话日期与TMDB完全一致。\n\nhttps://en.wikipedia.org/wiki/Six_Hearts_Princess (search_snippet): 搜索摘要说明第1话于2016-12-30以未完成状态播出，2017-09-29播出完成版；这解释了两站首话日期差异，但不能确定TMDB第1集具体采用哪个版本。\n\n备注：TMDB第1集仅有通用标题及2016-12-30日期，无法区分Bangumi章节686987的未完成首播版与832602的完成版；两者均暂不映射，避免重复占用同一集。；全CG版章节832603、道歉视频717181及总集篇905287未找到独立对应；本次详情仅列第1季，不能据此断言其他条目不存在。；Bangumi标注的15话与实际列出的七话正式剧情口径不同；不推定或补映射尚无对应记录的后续话数。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/122772; https://www.themoviedb.org/tv/223523; https://www.themoviedb.org/tv/223523/season/1; https://poncotan.jp/works/6hp/; https://api.bgm.tv/v0/subjects/122772",
-    "verifiedAt": "2026-09-09T01:02:50.686Z"
+    "source": "https://bgm.tv/subject/122772; https://www.themoviedb.org/tv/223523; https://www.themoviedb.org/tv/223523/season/1; https://poncotan.jp/works/6hp/; https://bgm.tv/subject/122772/ep; https://en.wikipedia.org/wiki/Six_Hearts_Princess",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 223523
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

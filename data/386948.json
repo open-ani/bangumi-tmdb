@@ -1,15 +1,55 @@
 {
   "bangumiId": 386948,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1111047,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1111048,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1111049,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1111050,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1111051,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1111052,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为 TMDB 203805 第1季整季。原名、上线日期、动画媒介、制作信息及六集标题与顺序相互吻合，季表未混入其他作品，可将 Bangumi 本篇1—6集连续对应至第1季1—6集。\n\nhttps://www.themoviedb.org/tv/203805 (api_snapshot): 原名搜索命中 TMDB 203805；详情确认是2022年12月9日首播的六集动画剧集，制作公司为 Red Dog Culture House、BioWare，剧情围绕盗取法师的神器展开，IMDb 为 tt21031054。\n\nhttps://www.themoviedb.org/tv/203805/season/1 (api_snapshot): 第1季集表共6集、仅1页，全部标注2022年12月9日播出。六集标题与输入的 Bangumi 章节逐一对应；第3集仅有所有格撇号的拼写差异，其余标题完全一致。\n\nhttps://www.netflix.com/title/81183924?fromWatch=true (page): Netflix 官方页面确认2022年六集动画及完整集序，剧情、角色和逐集标题与 TMDB 一致，覆盖输入的全部六章。\n\nhttps://media.netflix.com/en/only-on-netflix/81183924 (search_snippet): Netflix 媒体中心摘要确认故事主角为精灵佣兵 Miriam，制作方为 Red Dog Culture House；Mairghread Scott 担任统筹、编剧及执行制片，导演为 Ki Yong Bae。\n\n备注：Bangumi 未提供逐集日期，无法直接逐章比对日期；TMDB 六集日期均与 subject 首播日期一致，且完整集序已由 Netflix 官方页面交叉确认。；输入将 Mairghread Scott 列为导演，Netflix 官方资料列导演为 Ki Yong Bae；属于职务标注差异，不影响作品及逐集匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/386948; https://www.themoviedb.org/tv/203805; https://www.themoviedb.org/tv/203805/season/1; https://www.netflix.com/title/81183924?fromWatch=true; https://media.netflix.com/en/only-on-netflix/81183924",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 203805
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

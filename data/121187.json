@@ -1,14 +1,52 @@
 {
   "anidbId": 11008,
   "bangumiId": 121187,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 512708,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 566495,
+      "sort": 7,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 512708,
+      "targets": [
+        {
+          "id": 335659,
+          "type": "movie"
+        },
+        {
+          "episode": 5,
+          "id": 61422,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 566495,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 61422,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 335659 是 2015 年、47 分钟的动画电影《The Labyrinth of Grisaia／グリザイアの迷宮》，与 Bangumi 主体的日期和标题吻合。TMDB 也将同一正篇收录在《The Fruit of Grisaia》(TV 61422) 的特别篇季 S0E5；该季还包含其他短篇及 S0E8“滝園バスケ部の生クリームパーティ！”等内容，因此 TV 映射必须限定为第 5 集。本轮按要求不纳入额外特典。\n\nhttps://www.acmodasi.in/amdb/movie/335659-the-labyrinth-of-grisaia-2015 (page): 页面记录 TMDB 对应的电影 ID 为 335659，标题为 The Labyrinth of Grisaia／グリザイアの迷宮，年份 2015，片长 47 分钟，动画、剧情、惊悚。\n\nhttps://www.themoviedb.org/tv/61422/season/0/episode/8?language=ja-JP (page): TMDB 的《グリザイアの果実: 特別編》列表显示 S0E5“カプリスの繭０”，播出日 2015-04-12、片长 47 分钟；同页还显示 S0E8 为 2015-07-23 的篮球部短篇。\n\nhttps://www.themoviedb.org/tv/61422 (page): TMDB TV 61422 的主体是《The Fruit of Grisaia／グリザイアの果実》，并包含《The Eden of Grisaia》Season 2，说明它是系列容器而非本 Bangumi 单部作品本身。\n\nhttps://grisaia.fandom.com/wiki/The_Cocoon_of_Caprice_0 (page): 作品资料将 The Cocoon of Caprice 0 记为《Grisaia no Meikyuu》唯一一集，播出日为 2015-04-12。",
+    "evidence": "codex: 已确认2015年电视特别篇版本。正篇同时收录为TMDB电影335659和TV 61422的S0E5，属于同一内容的两种收录，并非拆集；Bangumi特典566495对应S0E8。逐集标题与日期均吻合，制作人员和剧情也一致。第0季混有其他作品的特典，因此仅声明第5集与第8集两个独立范围。\n\nhttps://www.themoviedb.org/movie/335659 (api_snapshot): 以日文原名搜索后读取电影详情：335659 的原名为《グリザイアの迷宮》，日期为2015-04-12，导演为天衝、制作公司含8bit；剧情为风见雄二回顾自身成长与黑暗过去，与本 subject 一致。别名明确包含《The Cocoon of Caprice 0》。\n\nhttps://www.themoviedb.org/tv/61422 (api_snapshot): TV 61422 为系列条目，别名明确将《Grisaia no Meikyuu》标为特别篇；第1季为《果实》，第2季为《乐园》，不能将这些整季归入本 subject。\n\nhttps://www.themoviedb.org/tv/61422/season/0 (api_snapshot): 第0季共13集，已读取唯一一页完整集表。第5集《カプリスの繭０》日期为2015-04-12、47分钟，标题、日期和剧情对应 Bangumi 正篇512708；第8集《滝園バスケ部の生クリームパーティ！》日期为2015-07-23、4分钟，标题和日期对应特典566495。其他集属于系列的其他附赠短篇。\n\nhttps://bgm.tv/subject/121187 (search_snippet): Bangumi 搜索结果确认本条目为2015-04-12开播、全1话的TV动画，原作为Front Wing，导演为天衝。\n\nhttps://www.animatetimes.com/news/details.php?id=1428648254 (search_snippet): 播出前报道确认《迷宫》于2015-04-12以60分钟电视特别节目形式播出，《乐园》于4月19日另行开始；因此电影分类条目实际对应这部电视特别篇。\n\nhttps://www.grisaia-anime.com/bddvd/bdbox_specialprice.html (search_snippet): 官方Blu-ray BOX资料将《迷宫》的正篇列为《カプリスの繭０》，并将篮球部奶油派对单独列为映像特典，佐证正篇与附赠短篇是不同内容。\n\n备注：TMDB电影条目记48分钟，S0E5记47分钟；片长字段有1分钟差异，但其日期、剧情及别名均指向同一电视特别篇，没有另一个剪辑版本的证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/121187; https://www.acmodasi.in/amdb/movie/335659-the-labyrinth-of-grisaia-2015; https://www.themoviedb.org/tv/61422/season/0/episode/8?language=ja-JP; https://www.themoviedb.org/tv/61422; https://grisaia.fandom.com/wiki/The_Cocoon_of_Caprice_0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/121187; https://www.themoviedb.org/movie/335659; https://www.themoviedb.org/tv/61422; https://www.themoviedb.org/tv/61422/season/0; https://www.animatetimes.com/news/details.php?id=1428648254; https://www.grisaia-anime.com/bddvd/bdbox_specialprice.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -19,6 +57,12 @@
     },
     {
       "episode": 5,
+      "id": 61422,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 8,
       "id": 61422,
       "season": 0,
       "type": "tv"

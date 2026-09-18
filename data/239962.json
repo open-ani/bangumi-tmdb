@@ -1,16 +1,86 @@
 {
   "anidbId": 13897,
   "bangumiId": 239962,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 787478,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 787479,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 787480,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 787481,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 787482,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 787483,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 787484,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 787485,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 787486,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 787487,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 787488,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 787489,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是2018年4月至6月在 TOKYO MX 播出的12集短篇电视动画《レディスポ》，不是电影、重制版或重剪版。TMDB TV 78480 的原名、首播日、人物与宇宙体育赏金猎人剧情均一致；其第1季恰有12集，而且从「キャント」至「ファイナル」的全部标题及剧情与日本配信资料逐集吻合，因此对应完整第1季，无需限定部分集数。TMDB 将第2至12集标为2018年7月至8月播出，与日本电视资料记载的4月9日至6月25日每周播出相冲突，应视为该条目的分集日期元数据错误，不影响由标题和内容确认的映射。\n\nhttps://www.themoviedb.org/tv/78480 (api_snapshot): TMDB TV 78480 的原名为《レディスポ》，首播日为2018-04-09，共12集；简介记载モコモコ率领アリゲッティー、コルピ、サビーナ在宇宙中参加各种体育比赛，与目标作品的身份和剧情一致。\n\nhttps://www.themoviedb.org/tv/78480/season/1 (api_snapshot): TMDB 第1季包含12集，依次为「キャント」「レイダー」「ローナ」「プラクティス」「キスアンドクライ」「ダブルウィナー」「ビーム」「ライバル」「トリプルスレット」「ゼロゾーン」「リベンジ」「ファイナル」，并提供了相符的逐集剧情。\n\nhttps://www.videomarket.jp/title/298009 (search_snippet): 日本视频配信页面把《レディスポ》列为2018年日本电视动画，并以相同顺序列出上述全部12个正篇标题；前几集的剧情也与 TMDB 第1季逐字义一致，证明其收录的是同一套正篇。\n\nhttps://www.allcinema.net/cinema/363623 (page): allcinema 将《レディスポ》明确记为日本电视动画，类型为科幻、体育、喜剧，导演木村寛，TOKYO MX 播出期为2018-04-09至2018-06-25，并列有12集。\n\nhttps://thetv.jp/program/0000938064/ (page): WEBザテレビジョン记载该动画2018年4月9日在 TOKYO MX 开播，剧情为モコモコ率领アリゲッティー、コルピ、サビーナ参与宇宙体育竞技；其第12集日期为6月25日，并逐周列出此前各集，确认实际电视播出范围。",
+    "evidence": "codex: 确认对应TMDB TV 78480完整第1季。年份、电视短篇媒介、导演、人物及剧情均吻合；Bangumi的12个章节日期与日本逐集播出记录一致，日本配信的12集标题及剧情又与TMDB逐集吻合，因此本篇1—12可连续对应S01E01—E12。季内没有混入其他作品或额外篇章。\n\nhttps://www.themoviedb.org/tv/78480 (api_snapshot): 日文原名搜索命中 TV 78480；实际读取详情确认原名《レディスポ》、首播日2018-04-09、共1季12集。宇宙战争后以体育解决争端、モコモコ率领三名女性参加竞技的剧情与日本节目资料一致。\n\nhttps://www.themoviedb.org/tv/78480/season/1 (api_snapshot): 实际读取第1季全部12集，total_pages=1。集号1—12的标题、剧情均与日本配信集表逐集一致；第1集日期为2018-04-09，第2—12集却标为2018年7—8月，与日本首播记录冲突。\n\nhttps://www.allcinema.net/cinema/363623 (page): 确认本作是2018年日本电视动画，导演木村寛，TOKYO MX播出期为2018-04-09至2018-06-25，共12集，与输入的媒介、制作人员及版本一致。\n\nhttps://thetv.jp/program/0000938064/plot/ (page): 第1—12集的电视播出日期逐一对应输入的Bangumi日期：2018-04-09起每周一播出，2018-06-25完结；前两集标题和剧情也与TMDB一致。\n\nhttps://douga.flat-flat.jp/titles/S906033/1 (search_snippet): 日本配信资料列出全12集的编号、标题和剧情；从第1集「キャント」到第12集「ファイナル」，全部与TMDB第1季对应集号一致，确认完整正篇顺序。\n\n备注：TMDB第2—12集日期与日本首播日期不一致，其日期来源未明；本次依据逐集标题、剧情及日本播出编号确认对应，不采用这些冲突日期。；输入的Bangumi章节标题为空，逐集标题核验通过日本配信集表完成。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/239962; https://www.themoviedb.org/tv/78480; https://www.themoviedb.org/tv/78480/season/1; https://www.videomarket.jp/title/298009; https://www.allcinema.net/cinema/363623; https://thetv.jp/program/0000938064/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/239962; https://www.themoviedb.org/tv/78480; https://www.themoviedb.org/tv/78480/season/1; https://www.allcinema.net/cinema/363623; https://thetv.jp/program/0000938064/plot/; https://douga.flat-flat.jp/titles/S906033/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 78480
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

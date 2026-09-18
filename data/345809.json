@@ -1,16 +1,86 @@
 {
   "anidbId": 16592,
   "bangumiId": 345809,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1080907,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1080908,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 1080909,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 1080910,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 1080911,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 1080912,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 1080913,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 1080914,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 1080915,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 1080916,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 1080917,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 1080918,
+      "sort": 36,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《万圣街》第三季，12 集，章节编号为 25–36，首播于 2022-01-26；其剧情、角色和制作信息与 TMDB 106402 的《万圣街》系列一致。TMDB 快照显示该系列将 48 集全部编入 season 1（而非按中文季数拆分），因此第三季对应 TMDB season 1 的第 25–36 集。候选 season 3 的请求失败，不能作为不存在的依据，但与 TMDB 已读取的 season 1/48 集结构不符。\n\nhttps://bgm.tv/subject/345809 (page): Bangumi 条目标题为《万圣街 第三季》，话数 12，放送开始 2022-01-26，章节列表为 25 至 36；剧情、角色及制作公司信息与候选系列吻合。\n\nhttps://www.themoviedb.org/tv/106402 (api_snapshot): TMDB TV 106402 的名称为万聖街/万圣街，首播日期为 2020-04-01，总集数 48；快照中的季列表明确显示 season 1 共 48 集。\n\nhttps://www.themoviedb.org/tv/106402/season/3 (api_snapshot): 提供的 TMDB season 3 请求返回 HTTP 404；这只说明该次请求失败，不能单独证明季不存在，但可排除直接采用候选 season 3。\n\nhttps://www.hmv.co.jp/artist_%E4%B8%87%E8%81%96%E8%A1%97_000000000912354/item_%E4%B8%87%E8%81%96%E8%A1%97-3%E3%80%90%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%89%88%E3%80%91_13335708 (search_snippet): 《万圣街 3》发行资料明确标注收录中国原编号 Episode 25–36，与 Bangumi 第三季的 12 集范围一致。\n\nhttps://anilist.co/anime/137740/Wan-Sheng-Jie-3 (search_snippet): 独立条目确认 Wan Sheng Jie 3/万圣街第3季为 2022 年第三季作品，共 12 集，制作方包含 HMCH、腾讯企鹅影视及天闻角川。\n\n备注：官方 AniDB 16592 页面访问受限，未能直接读取其页面内容；但 Bangumi 条目、年份、剧情、制作信息及独立第三季资料均支持该版本对应。",
+    "evidence": "codex: 确认旧映射范围成立，并补充连续逐集规则。作品设定、制作方、人员与角色配音一致；TMDB将多个中文季度合并为第1季。第三季12话的标题、顺序及年份范围均对应S01E25–E36，不应按中文“第三季”映射到TMDB第3季。日期存在统一偏移，但不影响由逐集标题及范围边界确认的对应关系。\n\nhttps://bgm.tv/subject/345809 (page): 条目为2022年1月26日开播的中国网络动画《万圣街 第三季》，共12话，编号25–36；剧情围绕泥泥与1031室室友展开，制作方含分子互动、腾讯视频，制作人员含木头，配音含郝祥海、藤新。\n\nhttps://www.themoviedb.org/tv/106402 (api_snapshot): 以中文原名《万圣街》搜索，返回TV 106402，其原名、漫画原作及1031合租公寓设定吻合。\n\nhttps://www.themoviedb.org/tv/106402 (api_snapshot): 详情确认这是2020年开始的中国动画系列，制作公司含FENZ及腾讯企鹅影视，制作人员含MTJJ，角色与配音吻合；当前仅列第1季，共48集。\n\nhttps://www.themoviedb.org/tv/106402/season/1 (api_snapshot): 已读取第1季全部48集，total_pages=1。第25–36集对应输入的12话：11个标题完全一致，第35集仅首字为“富”而非“幕”。第25集日期同为2022-01-26，第26–36集日期均比Bangumi晚7天。第24集属于2020年段，第37集开始于2023年，第三季范围边界明确。\n\n备注：TMDB第26–36集日期统一比Bangumi晚7天，尚未确定是播出批次差异还是录入错误。；TMDB第35集标题“富帘升起，灯光就位”与Bangumi“幕帘升起，灯光就位”存在一个字的差异，疑为录入笔误。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/345809; https://www.themoviedb.org/tv/106402; https://www.themoviedb.org/tv/106402/season/3; https://www.hmv.co.jp/artist_%E4%B8%87%E8%81%96%E8%A1%97_000000000912354/item_%E4%B8%87%E8%81%96%E8%A1%97-3%E3%80%90%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%89%88%E3%80%91_13335708; https://anilist.co/anime/137740/Wan-Sheng-Jie-3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/345809; https://www.themoviedb.org/tv/106402; https://www.themoviedb.org/tv/106402/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 25,
+      "season": 1,
+      "start": 25,
+      "tmdbId": 106402
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

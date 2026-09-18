@@ -1,15 +1,76 @@
 {
+  "anidbId": 13013,
   "bangumiId": 91612,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 353000,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 353007,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 353008,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 372744,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 372745,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 372746,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 406816,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 413653,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 413654,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 413655,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 211621 与该 Bangumi subject 身份一致：中文原名、2013-12-25 开播、孤儿馒头寻找幸福的剧情、导演李豪凌及有妖气/绘梦相关制作信息均吻合；媒介为网络电视动画而非电影、OVA或音乐录像。TMDB 第一季实际有 10 集，标题与 Bangumi 主体集表逐集对应，因此可使用整季范围。\n\nhttps://www.themoviedb.org/tv/211621 (api_snapshot): TMDB 详情确认作品名为《馒头日记》、首播日期 2013-12-25、剧情为孤儿馒头寻找幸福、共 1 季 10 集；制作公司含 Haoliners Animation、Yaoqi/U17，工作人员含李豪凌与 Yang Lu，并列出 Mantou Riji、Mantou Diary 等别名。\n\nhttps://www.themoviedb.org/tv/211621/season/1 (api_snapshot): TMDB 第一季实际集表为第 1 至第 10 集，标题从《加油！馒头！》到《馒头与弟弟》，episodeCount=10、total_pages=1，未混入其他作品。\n\nhttps://api.bgm.tv/v0/subjects/91612 (api_snapshot): Bangumi fresh API 确认 subject 为 2013-12-25 开始的 WEB 动画，共 10 集，剧情为没有父母且渴望爱的馒头，导演为李豪凌，制作方含有妖气与绘梦者新动画联盟。\n\nhttps://zh.wikipedia.org/wiki/%E9%A6%92%E5%A4%B4%E6%97%A5%E8%AE%B0 (page): 页面记载该网络动画由李豪凌总导演，2013-12-25 至 2014-10-21 发布，共 10 话，并列出与 Bangumi 相同的主要剧情和逐集标题。\n\nhttps://bkso.baidu.com/item/%E9%A6%92%E5%A4%B4%E6%97%A5%E8%AE%B0/14581639?fromModule=lemma_inlink (page): 页面确认这是 2013 年李豪凌执导的电视动画，由有妖气出品，共 10 集，剧情围绕孤儿馒头及其寻找爱展开。\n\n备注：TMDB 记录的第 2 至第 10 集播出日期为每周更新至 2014-02-26，而 Bangumi 集表记录为较晚的月度日期至 2014-10-21；这是播出日期元数据差异，但集数、标题、剧情和制作信息均对应。；TMDB 状态字段显示 Returning Series，但详情只列出第一季；该状态字段不影响本 subject 对应第一季 1-10 集的判断。",
+    "evidence": "codex: 确认对应 TMDB 211621 第一季全10集。首播年份、剧情、导演、制作方及网络动画版本一致；完整集表与独立资料的逐集标题、数量和顺序相符，可将 Bangumi 本篇1—10话连续对应至第一季1—10集。\n\nhttps://www.themoviedb.org/tv/211621 (api_snapshot): 原名搜索找到 TV 211621；详情确认首播为2013-12-25，剧情围绕孤儿馒头寻找幸福，导演为李豪凌，制作公司含绘梦、有妖气及U17，与本 subject 的网络动画版本一致。\n\nhttps://www.themoviedb.org/tv/211621/season/1 (api_snapshot): 已读取第一季完整集表：共10集，total_pages=1。第1、3、5、6、7、8集标题与输入一致；第4、9、10集仅有“和／与”差异；第2集题为“馒头的愿望”。首集日期一致，第2至10集日期则记为2014-01-01至2014-02-26的周更。\n\nhttps://bgm.tv/subject/91612 (page): Bangumi 页面确认这是2013-12-25开始的10话WEB动画，导演李豪凌，动画制作绘梦，出品有妖气，故事主角为没有父母、渴望爱的馒头；第二季另列为续集。\n\nhttps://zh.wikipedia.org/wiki/馒头日记 (page): 动画集表逐集列出10话，日期与输入全部一致，结束于2014-10-21；第2话在2014-02-21播出，题为“馒头的愿望”，连接了 Bangumi 的“馒头的梦想”与 TMDB 标题。其余标题顺序也对应，页面明确记载网络月更。\n\n备注：TMDB 第2—10集的周更日期与 Bangumi 及维基百科记载的月更日期冲突，推断为日期元数据问题；逐集标题及完整10话范围仍支持对应。；第2话存在“梦想／愿望”的标题差异；维基百科以与 Bangumi 相同的播出日期列为“馒头的愿望”，支持同一话判断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/91612; https://www.themoviedb.org/tv/211621; https://www.themoviedb.org/tv/211621/season/1; https://api.bgm.tv/v0/subjects/91612; https://zh.wikipedia.org/wiki/%E9%A6%92%E5%A4%B4%E6%97%A5%E8%AE%B0; https://bkso.baidu.com/item/%E9%A6%92%E5%A4%B4%E6%97%A5%E8%AE%B0/14581639?fromModule=lemma_inlink",
-    "verifiedAt": "2026-09-08T19:26:48.971Z"
+    "source": "https://bgm.tv/subject/91612; https://www.themoviedb.org/tv/211621; https://www.themoviedb.org/tv/211621/season/1; https://zh.wikipedia.org/wiki/馒头日记",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211621
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

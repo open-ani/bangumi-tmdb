@@ -1,21 +1,104 @@
 {
   "anidbId": 13345,
   "bangumiId": 221293,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 740973,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 740974,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 740975,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 740976,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 740977,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 740978,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 740979,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 740980,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 740981,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 740982,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 740983,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 740983,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 74163,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、剧情、导演、制作公司及逐集标题和日期均吻合。Bangumi 收录电视10话加未放送1话；第1—10话对应 TMDB 第1季全集，第11话对应第0季第1集。旧映射遗漏了未放送篇。\n\nhttps://www.themoviedb.org/tv/74163 (api_snapshot): 日文原名搜索命中 TV 74163；详情确认是2017年动画，森子以“林”身份游玩网游并结识莉莉的剧情一致，导演柳沼和良及制作公司 SIGNAL.MD 等亦吻合。\n\nhttps://bgm.tv/subject/221293/ep (page): Bangumi 列出本篇第1—11话，第11话为两个短篇合成的一话，日期为2017-12-08。\n\nhttps://www.themoviedb.org/tv/74163/season/1 (api_snapshot): 第1季共10集，集表仅1页；第1—10集日文标题及2017-10-06至2017-12-08的逐集日期均与 Bangumi 第1—10话一致。\n\nhttps://www.themoviedb.org/tv/74163/season/0 (api_snapshot): 第0季仅1集，标题为「リア充のススメ」，日期2017-12-08，时长25分钟；结合发行方确认的第11话结构，对应 Bangumi 第11话整体。\n\nhttps://www.jvcmusic.co.jp/flyingdog/-/Discography/-/VTZF-80.html (search_snippet): 发行方 FlyingDog 确认2017-12-08发行的 Blu-ray BOX 收录电视全10话及未放送第11话；第11话由「リア充のススメ」和「森子がフリドメールにログインしました」两部分组成，支持 TMDB 特别篇使用第一部分标题的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/221293; https://www.themoviedb.org/tv/74163; https://bgm.tv/subject/221293/ep; https://www.themoviedb.org/tv/74163/season/1; https://www.themoviedb.org/tv/74163/season/0; https://www.jvcmusic.co.jp/flyingdog/-/Discography/-/VTZF-80.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74163
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 74163,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 74163,
+      "season": 0,
       "type": "tv"
     }
   ]

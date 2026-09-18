@@ -1,16 +1,108 @@
 {
   "anidbId": 18660,
   "bangumiId": 496973,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1523709,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1523710,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1523711,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1523712,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1523713,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1523714,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1523715,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1523716,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1523717,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1523718,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1523719,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1523720,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1531343,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1557610,
+      "sort": 8.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1557610,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 270931,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 496973 与 TMDB 270931 是同一部 2025 年 TV 动画：标题、2025-07-05 首播日、13 集正篇、角色与剧情均一致。Bangumi 还收录了 2025-08-23 的特别篇 Branch X；TMDB 将同日的一集特别编单列为第 0 季，因此应同时映射第 1 季完整 13 集和第 0 季完整特别编。\n\nhttps://bgm.tv/subject/496973 (page): Bangumi 页面确认标题为 9-nine- 支配者的王冠，话数 13，放送开始为 2025-07-05，并列出正篇 01–13 及 SP 08.5。\n\nhttps://nine-anime.marv.jp/onair/ (page): 官方页面确认 TV 动画自 2025-07-05 开播，首回为 60 分钟扩大特别放送。\n\nhttps://nine-anime.marv.jp/story/ (page): 官方剧情页列出 Branch 01–13，内容与 Bangumi 及 TMDB 的正篇标题、剧情对应。\n\nhttps://nine-anime.marv.jp/news/post-59/ (page): 官方公告确认 Branch X 为 2025-08-23 播出的特别节目。\n\nhttps://www.themoviedb.org/tv/270931 (api_snapshot): TMDB 快照确认 270931 标题、首播日 2025-07-05、正篇 13 集，并列出第 1 季 13 集及第 0 季特别编 1 集、日期 2025-08-23。\n\nhttps://www.themoviedb.org/tv/270931/season/1 (api_snapshot): TMDB 第 1 季快照确认 season_number=1、episodeCount=13，剧集为 Branch 01–13。\n\nhttps://animetosho.org/view/kaleido-subs-9-nine-shihaisha-no-oukan-rulers.n1996077 (search_snippet): 搜索摘要将 AniDB ID 18660 对应到 9-nine- Ruler's Crown，并标为 Season 1、13 集；与 Bangumi 和 TMDB 的版本、年份及集数一致。",
+    "evidence": "codex: 年份、TV媒介、剧情、制作人员及13集范围均一致；本篇标题和播出日期逐集吻合，确认对应TMDB 270931第1季第1—13集。特别篇Branch X的标题、日期及节目内容也一致，通过章节ID单独映射至第0季第1集。\n\nhttps://www.themoviedb.org/tv/270931 (api_snapshot): TMDB 270931 为2025年TV动画，首播2025-07-05、完结2025-09-27，正篇13集；导演大畑晃一，制作公司含PRA、Marvelous、Good Smile Film及CLEARRAVE。白巳津川市、新海翔与神器破损引发异能事件的剧情与输入一致。\n\nhttps://nine-anime.marv.jp/ (page): 官网确认原作ぱれっと、导演大畑晃一、角色设计﨑口さおり、动画制作PRA，剧情及主要角色、声优与TMDB资料一致，确认是同一TV动画版本。\n\nhttps://www.themoviedb.org/tv/270931/season/1 (api_snapshot): 第1季完整集表共13集，total_pages=1。第1至13集标题逐一为Branch 01至Branch 13；播出日期依次为2025-07-05、07-05、07-12、07-19、07-26、08-02、08-09、08-16、08-30、09-06、09-13、09-20、09-27，与输入的13个本篇章节逐一一致。\n\nhttps://nine-anime.marv.jp/story/ (page): 官方剧情页列出Branch 01至Branch 13，各话剧情与TMDB第1季对应集一致。\n\nhttps://nine-anime.marv.jp/onair/ (page): 官方放送页确认2025-07-05开播，首回为60分钟扩大放送，与前两集同日播出的记录相符。\n\nhttps://www.themoviedb.org/tv/270931/season/0 (api_snapshot): 第0季完整集表仅1集，total_pages=1；第1集为Branch X，播出日期2025-08-23，内容为以苏菲视角回顾此前故事的特别节目，与Bangumi特别篇标题、日期及官方介绍一致。\n\nhttps://nine-anime.marv.jp/news/post-59/ (page): 官方公告确认Branch X于2025-08-23播出，是以苏菲视角回顾此前历程并加入新录音乐和新资讯的特别节目。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/496973; https://nine-anime.marv.jp/onair/; https://nine-anime.marv.jp/story/; https://nine-anime.marv.jp/news/post-59/; https://www.themoviedb.org/tv/270931; https://www.themoviedb.org/tv/270931/season/1; https://animetosho.org/view/kaleido-subs-9-nine-shihaisha-no-oukan-rulers.n1996077",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/496973; https://www.themoviedb.org/tv/270931; https://nine-anime.marv.jp/; https://www.themoviedb.org/tv/270931/season/1; https://nine-anime.marv.jp/story/; https://nine-anime.marv.jp/onair/; https://www.themoviedb.org/tv/270931/season/0; https://nine-anime.marv.jp/news/post-59/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 270931
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +111,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 270931,
       "season": 0,
       "type": "tv"

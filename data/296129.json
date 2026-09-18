@@ -1,19 +1,45 @@
 {
   "anidbId": 15300,
   "bangumiId": 296129,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 936862,
+      "sort": 14.5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 936862,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 91768,
+          "season": 0,
+          "type": "tv"
+        },
+        {
+          "episode": 2,
+          "id": 91768,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 91768 第0季第1至2集。Bangumi 将两篇外传合为第14.5话，TMDB 则拆为两集，标题、剧情和日期均吻合，因此按章节 ID 设置一对多 override。旧映射的整季范围过宽，会混入2022年总集篇。\n\nhttps://bgm.tv/subject/296129 (page): Bangumi 将本作列为2020年3月10日发售的单话 OVA，导演本乡满、动画制作亚细亚堂，包含两篇外传故事。\n\nhttps://bgm.tv/ep/936862 (page): 章节936862为第14.5话，标题同时包含外传第一章与第二章，日期为2020-03-10。\n\nhttps://www.tobooks.jp/booklove_ova/ (page): 官方 OVA 专页确认第14.5章包含两篇外传：尤修塔斯奉命调查梅茵，以及梅茵一家拜访珂琳娜并商谈发饰权利；与 TMDB 两集剧情分别一致。\n\nhttps://www.themoviedb.org/tv/91768 (api_snapshot): 实际读取详情确认91768为2019年开始的本系列动画，原作香月美夜，制作公司包含亚细亚堂，并设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/91768/season/0 (api_snapshot): 第0季完整集表共4集、1页。第1、2集分别为外传第一章、第二章，日期均为2020-03-10，标题及剧情与本作吻合；第3、4集为2022年的总集篇，不属于本 subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/296129; https://bgm.tv/ep/936862; https://www.tobooks.jp/booklove_ova/; https://www.themoviedb.org/tv/91768; https://www.themoviedb.org/tv/91768/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 91768,
       "season": 0,
       "type": "tv"

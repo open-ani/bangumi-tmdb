@@ -1,18 +1,164 @@
 {
   "bangumiId": 67229,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 250733,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 250734,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 250735,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 250736,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 250737,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 250738,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 250739,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 250740,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 250733,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250734,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250735,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250736,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250737,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250738,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250739,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 250740,
+      "targets": [
+        {
+          "episode": 10,
+          "id": 43167,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认八话四格改编特典的版本、制作人员、发行范围；TMDB八个短篇的标题序号、日期及总量与Bangumi逐集吻合。旧映射指向的第0季包含另外两话OVA，应收窄为E1–2、E4–7、E9–10，并逐话指定对应。\n\nhttps://www.accel-world.net/bddvd.php (page): 官方商品页确认本作为四格搞笑漫画改编的映像特典动画，共①至⑧，随2012—2013年BD/DVD第1至8卷发行；原作为川原礫、あかりりゅりゅ羽，导演及人物设计为山川吉樹，动画制作为J.C.STAFF。页面将其与24话TV正篇、两话游戏同捆OVA分别列出。\n\nhttps://www.themoviedb.org/tv/43167 (api_snapshot): 已读取TMDB 43167详情：该条目为2012年《アクセル・ワールド》，包含24集第1季和10集第0季；本次映射依据第0季的具体短篇集目确定。\n\nhttps://www.themoviedb.org/tv/43167/season/0 (api_snapshot): 第0季完整集表共10集、1页。E1、E2、E4、E5、E6、E7、E9、E10分别名为Achel World One至Eight，均约4分钟，日期依次为2012-07-25、08-29、09-26、10-24、11-28、12-26、2013-01-30、02-27，与输入八话标题序号及日期逐一一致。E3 Reverberation和E8 Vacation均为24分钟OVA，不属于本subject。\n\n备注：官方商品页将第2卷发行日写为2012-08-25，输入Bangumi与TMDB均为2012-08-29；存在日期来源差异，但第②话标识及其余逐集证据一致，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/67229; https://www.accel-world.net/bddvd.php; https://www.themoviedb.org/tv/43167; https://www.themoviedb.org/tv/43167/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 43167,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 4,
+      "episodeEnd": 7,
+      "id": 43167,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 9,
+      "episodeEnd": 10,
       "id": 43167,
       "season": 0,
       "type": "tv"

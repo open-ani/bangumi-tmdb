@@ -1,15 +1,41 @@
 {
+  "anidbId": 10674,
   "bangumiId": 103866,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 432171,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 432172,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 466060,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 206767 与《ファンタジスタ ステラ》标题、剧情、2014年作品身份及 XEBEC 制作一致；TMDB 实际季表显示第1季恰有3集，覆盖 Bangumi 所记录的三集漫画单行本附赠 OVA。虽然 TMDB 将其置于 TV 类型容器中，但内容本质是OVA，不是旧作《ファンタジスタ》或普通电视动画。Bangumi 与 TMDB 日期相差数日，属于发售/播出日期口径差异，不影响作品身份和范围判断。\n\nhttps://www.themoviedb.org/tv/206767 (api_snapshot): TMDB 条目原名为「ファンタジスタ ステラ」，剧情涉及坂本轍平、本田圭佑、日本代表及巴西世界杯；标注2014年开始、共1季3集，制作公司包括 XEBEC。\n\nhttps://www.themoviedb.org/tv/206767/season/1 (api_snapshot): TMDB 第1季实际包含第1至第3集，日期为2014-09-18、2014-11-18、2015-02-18，且 total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/103866 (api_snapshot): Bangumi 原始 API 将该作品标为 OVA，共3集，记录导演髙橋秀弥、动画制作 XEBEC，并记录第8、9、10卷单行本附赠 OVA及三集发售日期。\n\nhttps://www.famitsu.com/news/201406/10054847.html (search_snippet): 报道确认《ファンタジスタ ステラ》第8卷起连续3卷限定版附赠 OVA。\n\nhttps://www.crunchyroll.com/news/latest/2014/9/2/fantasista-stella-ova-staff-and-cast-listed (search_snippet): 报道确认该 OVA 随漫画第8卷推出、由 XEBEC 制作并由高橋秀弥执导，且是1999年《ファンタジスタ》的续篇。\n\n备注：Bangumi 记录的发售日期为2014-09-16、2014-11-14、2015-02-16，TMDB 季表日期为2014-09-18、2014-11-18、2015-02-18，存在日期口径差异。；TMDB 的工作人员字段较少，导演及OVA媒介信息主要由 Bangumi 原始 API和外部资料交叉确认。",
+    "evidence": "codex: 匹配 TMDB 206767 第1季全季，Bangumi 本篇第1至3话依次对应 S01E01至S01E03。年份、OVA发行方式、制作人员、角色及原创比赛剧情均相符；三集标题顺序、漫画附赠卷次与发行月份互相印证，TMDB季表恰好覆盖全部三集。TMDB使用TV容器收录这部OVA，未混入母系列或其他作品。\n\nhttps://bgm.tv/subject/103866 (page): Bangumi 标为全3集 OVA，分别附于漫画第8、9、10卷；原作为草場道輝，导演为髙橋秀弥，动画制作为 XEBEC。\n\nhttps://www.themoviedb.org/tv/206767 (api_snapshot): 以日文原名搜索后读取详情：TMDB 206767 原名一致，制作公司包括 XEBEC，坂本轍平由柳田淳一配音；剧情为轍平所在的 R·马德里与本田所在的日本代表交锋。条目共1季3集，日期范围为2014-09-18至2015-02-18。\n\nhttps://www.themoviedb.org/tv/206767/season/1 (api_snapshot): 第1季真实集表共3集，total_pages=1；第1、2、3集日期依次为2014-09-18、2014-11-18、2015-02-18，标题仅为通用编号，没有额外集或其他作品。\n\nhttps://www.allcinema.net/cinema/pdf/349511 (search_snippet): 资料确认这是2014年制作的原创录像动画，由高橋秀弥执导、XEBEC制作，漫画第8至10卷限定版各收录一集；动画讲述 R·马德里与日本代表的原创比赛，2015年12月另于电视播出。\n\nhttps://www.mau2.com/anime/fantasistastella (page): 三集标题顺序为「轍平 vs 本田」「世界に勝つイメージ」「ピッチに描く星」，前两集与输入中的 Bangumi 标题一致。\n\nhttps://en.wikipedia.org/wiki/Fantasista_(manga) (page): OVA部分记载三集随漫画第8、9、10卷于2014年9月至2015年2月发行；卷册日期分别为2014-09-18、2014-11-18、2015-02-18，与 TMDB 三集日期逐一吻合，并区分了2015年12月的电视播出。\n\n备注：Bangumi三集日期为2014-09-16、2014-11-14、2015-02-16，分别比TMDB早2、4、2天；日期差异的具体原因未确认，不能直接断言为发售与播出口径差异。；TMDB没有正式集标题，Bangumi第3话标题也为空；逐集映射综合依据外部标题顺序、三卷各附一集的发行结构及逐集日期，而非两站标题直接匹配。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/103866; https://www.themoviedb.org/tv/206767; https://www.themoviedb.org/tv/206767/season/1; https://api.bgm.tv/v0/subjects/103866; https://www.famitsu.com/news/201406/10054847.html; https://www.crunchyroll.com/news/latest/2014/9/2/fantasista-stella-ova-staff-and-cast-listed",
-    "verifiedAt": "2026-09-08T19:37:09.363Z"
+    "source": "https://bgm.tv/subject/103866; https://www.themoviedb.org/tv/206767; https://www.themoviedb.org/tv/206767/season/1; https://www.allcinema.net/cinema/pdf/349511; https://www.mau2.com/anime/fantasistastella; https://en.wikipedia.org/wiki/Fantasista_(manga)",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 206767
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

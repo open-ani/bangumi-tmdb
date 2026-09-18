@@ -1,13 +1,75 @@
 {
+  "anidbId": 10394,
   "bangumiId": 90840,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 359106,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 359107,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 359108,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 366718,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 366719,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 366720,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 384983,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 387457,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 387458,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 388012,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 388013,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 389023,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认是同名的2014年日本TV短篇动画《地下すぎアイドル あかえちゃん》（中文名《超地下偶像》），由DLE制作，2014年1月6日至3月31日播出，共12集；剧情为地下偶像“地下すぎプリンセス”努力进军地上。TMDB条目原名、首播日期、TV媒介及单一12集季均吻合，季表实际覆盖第1至12集，因此使用完整第1季。未发现需要拆分的旧版、OVA、音乐录像或合集版本。\n\nhttps://www.themoviedb.org/tv/112858 (api_snapshot): TMDB详情确认原名为「地下すぎアイドル あかえちゃん」、首播日期为2014-01-06、媒介为TV、共1季12集。\n\nhttps://www.themoviedb.org/tv/112858/season/1 (api_snapshot): TMDB第1季实际返回第1至12集，episodeCount为12；各集片长约2分钟。\n\nhttps://bangumi.tv/subject/90840 (page): Bangumi确认该作品为TV动画，2014年1月6日至3月31日播出，共12集，动画制作DLE。\n\nhttps://www.dle.jp/jp/property/post_3.html (page): 制作公司DLE称其为地下偶像主题的短篇搞笑动画，讲述「地下すぎプリンセス」从地下500层向地上进发，并确认于2014年1月至3月在musicるTV内播出。\n\nhttps://www.animatetimes.com/tag/details.php?id=14424 (page): 作品资料确认TV动画、播出期间、全12话，以及DLE、系列构成/脚本、角色设计、动画导演和音乐等制作人员。",
+    "evidence": "codex: 作品及整季范围可确认对应TMDB 112858第1季：日文原名、首播日期、TV短篇媒介和12集总量一致，外部资料确认其为2014年DLE制作的地下偶像搞笑动画。实际季表完整列出12集，没有混入其他作品的迹象。逐集元数据不足，因此仅确认整季，保留空rules和overrides。\n\nhttps://www.themoviedb.org/tv/112858 (api_snapshot): 以日文原名搜索命中 TV 112858；详情确认原名、首播日期2014-01-06及单季12集。简介、制作公司和演职员字段为空，不能据此核对剧情与人员。\n\nhttps://www.themoviedb.org/tv/112858/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为1页，共12集，每集2分钟。标题仅为通用集号，所有集的日期均填为2014-01-06，无法支持逐集标题或真实播出日期比对。\n\nhttps://bangumi.tv/subject/90840 (page): Bangumi确认这是DLE制作的TV动画，共12话，播出期间为2014年1月6日至3月31日。\n\nhttps://www.dle.jp/jp/property/post_3.html (page): 制作公司DLE确认作品为地下偶像题材的短篇搞笑动画，讲述偶像团体从地下500层向地上进发，于2014年1月至3月在musicるTV内播出。\n\nhttps://www.animatetimes.com/tag/details.php?id=14424 (page): 作品资料确认TV动画、2014年1月6日至3月31日播出、全12话，制作方为DLE，动画导演为作田ハズム；与Bangumi及制作公司资料吻合。\n\n备注：TMDB日文、英文集表均无实际分集标题，且12集日期全部相同，与跨1月至3月的播出期间不符；不能仅凭集号建立连续对应规则。待TMDB补充可核对的分集标题或正确日期后，再确认逐集映射。",
     "method": "codex",
     "source": "https://bgm.tv/subject/90840; https://www.themoviedb.org/tv/112858; https://www.themoviedb.org/tv/112858/season/1; https://bangumi.tv/subject/90840; https://www.dle.jp/jp/property/post_3.html; https://www.animatetimes.com/tag/details.php?id=14424",
-    "verifiedAt": "2026-09-08T19:26:26.740Z"
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

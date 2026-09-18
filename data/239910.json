@@ -1,16 +1,81 @@
 {
   "anidbId": 13890,
   "bangumiId": 239910,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 832713,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 832714,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 832715,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 832716,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 832717,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 832718,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 832719,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 832720,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 832721,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 832722,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 832723,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、TV动画媒介、导演、制作公司及剧情均吻合；第1季完整11集的标题与Bangumi逐集对应，无其他作品混入。日期差异可由电视每周播出与Netflix全话同步上线解释，确认本篇1—11话对应TMDB第1季第1—11集。\n\nhttps://www.themoviedb.org/tv/83238 (api_snapshot): 日文原名「イングレス」和英文别名「INGRESS THE ANIMATION」均检索到 TMDB TV 83238。\n\nhttps://www.themoviedb.org/tv/83238 (api_snapshot): 作品详情确认是2018年动画，导演櫻木優平、制作公司CRAFTAR；围绕Niantic计划、XM以及启蒙军与反抗军展开的剧情与输入一致。共1季11集。\n\nhttps://www.themoviedb.org/tv/83238/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共11集。逐集标题与Bangumi第1—11话全部按序一致，仅空格及连接符格式不同；TMDB各集日期均为2018-10-18。\n\nhttps://ingressanime.com/news/detail.php?key=18092001 (search_snippet): 官方公告确认2018年10月17日24:55开始电视播出，并于10月18日在Netflix一次性上线全话，解释了Bangumi每周电视放送日期与TMDB统一上线日期的差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/239910; https://www.themoviedb.org/tv/83238; https://www.themoviedb.org/tv/83238/season/1; https://ingressanime.com/news/detail.php?key=18092001",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83238
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

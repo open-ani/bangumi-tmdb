@@ -1,21 +1,199 @@
 {
   "anidbId": 10278,
   "bangumiId": 88741,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 436136,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 436137,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 436138,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 436139,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 436140,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 436141,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 436142,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 436143,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 436144,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 436145,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 436146,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 436147,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 455951,
+      "sort": 12.5,
+      "type": 0
+    },
+    {
+      "id": 455952,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 462400,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 462401,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 462402,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 462403,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 462404,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 462405,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 462406,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 462407,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 462408,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 462409,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 506824,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 576811,
+      "sort": 25,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 455951,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 63453,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 576811,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 63453,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、导演、制作公司及24集本篇逐集标题和日期均吻合，确认对应 TMDB 63453 第1季。第12.5话为回顾特别节目，对应 S00E02；「糸車 HOME」为第8卷附录未播出动画，对应 S00E01。输入全部26个章节均已对应。\n\nhttps://www.themoviedb.org/tv/63453 (api_snapshot): TMDB 63453 为2014年电视动画《牙狼〈GARO〉-炎の刻印-》，导演林祐一郎，制作公司 MAPPA、东北新社；莱昂与阿方索的剧情及首播日期均与输入一致。\n\nhttps://www.themoviedb.org/tv/63453/season/1 (api_snapshot): 第1季完整集表共24集，已逐集核对：第1至24集标题及播出日期全部与 Bangumi 整数 sort 1至24一致，日期范围为2014-10-03至2015-03-27。\n\nhttps://www.themoviedb.org/tv/63453/season/0 (api_snapshot): 第0季共2集：E1为「糸車-HOME-」，简介明确为BD/DVD第8卷收录的艾玛主角未播出故事；E2为「饗応-DAYBREAK-」，日期2014-12-26，与 Bangumi 第12.5话标题及日期一致。\n\nhttps://v.ponycanyon.co.jp/garoanime/ (page): 发行方官网确认导演林祐一郎、制作 MAPPA／东北新社，且第8卷发行日期为2015-09-16。\n\nhttps://bgm.tv/ep/576811 (search_snippet): Bangumi「糸車 HOME」章节摘要注明2015-09-16及BD/DVD第8卷收录的未放送第25话，与 TMDB S00E01 的标题、载体和内容相符。\n\n备注：TMDB 将「糸車-HOME-」日期记为2015-01-02，与 Bangumi 及官方第8卷发行日2015-09-16冲突；标题与第8卷未播出故事的说明一致，故不影响对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/88741; https://www.themoviedb.org/tv/63453; https://www.themoviedb.org/tv/63453/season/1; https://www.themoviedb.org/tv/63453/season/0; https://v.ponycanyon.co.jp/garoanime/; https://bgm.tv/ep/576811",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63453
+    },
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 63453
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 63453,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 63453,
+      "season": 0,
       "type": "tv"
     }
   ]

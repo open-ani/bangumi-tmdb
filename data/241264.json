@@ -1,21 +1,89 @@
 {
   "anidbId": 13978,
   "bangumiId": 241264,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 805513,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 805514,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 805515,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 805516,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 805517,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 805518,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 805519,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 805520,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 805521,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 805522,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 805523,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 805524,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认目标是2018年日本/中国合作的电视动画《Phantom in the Twilight／暮光幻影》，不是真人版或电影。Wikidata明确记录其 TMDB TV series ID 为80561；TMDB搜索结果也以该作品日文名列出。官方站点和Prime Video均显示这是电视动画第1季，实际正篇共12集，因此应采用 AnimeLists 的 season=1，并标注第1至12集。BangumiExtLinker 的 season=0 与 TMDB标准季号不符。未发现该季混入其他 Bangumi subject 正篇内容。\n\nhttps://www.wikidata.org/wiki/Q51422183 (page): 页面将 Phantom in the Twilight 归为日本动画电视系列，并明确列出“TMDB TV series ID 80561”。\n\nhttps://www.themoviedb.org/network/1605-bilibili-com (search_snippet): TMDB页面搜索摘要列出《ファントム イン ザ トワイライト》，并给出与该动画一致的剧情简介。\n\nhttps://phantowa.com/ (page): 官方站点标题为 TVアニメ「Phantom in the Twilight」公式サイト，并持续列出该电视动画的相关内容。\n\nhttps://www.primevideo.com/detail/0IDW8F6IGX1SUQHNUJTG92LR39 (page): Prime Video页面显示《Phantom in the Twilight》为2018年、1 season、12 episodes，并列出第1至第12集及对应剧情。\n\nhttps://www.imdb.com/title/tt8189276/episodes/ (page): IMDb剧集列表将该作品列为2018年单一季，并列出S1.E1至S1.E12，标题与Bangumi前后集内容对应。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、制作人员及12集日文标题均吻合，确认对应 TMDB 80561 第1季整季，本篇1—12按同号逐集对应。TMDB日期符合输入注明的日本播出区间。seed 的第0季线索不适用于这12集正篇。\n\nhttps://www.themoviedb.org/tv/80561 (api_snapshot): 日文原名及英文标题搜索均返回 TV 80561。详情为2018年电视动画，剧情包含白鹿瞳、伦敦的 Cafe Forbidden 及吸血鬼、人狼、僵尸店员；制作公司为 Happy Elements 与 LIDENFILMS，与输入一致。\n\nhttps://www.themoviedb.org/tv/80561/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1；第1至12集日文标题与输入的12个本篇章节逐一完全一致。TMDB日期为2018-07-09至2018-09-24、每周一集；相较输入，第1集晚4天，第2至12集均晚11天。全季均为该作品连续正篇。\n\nhttps://phantowa.com/caststaff/index.html (page): 官方电视动画网站列明原作 Happy Elements、系列构成丸户史明与矢野俊策、人物设计山下惠、动画制作 LIDENFILMS；主要角色及声优亦与 TMDB 详情一致。\n\nhttps://phantowa.com/onair/index.html (page): 官方播出页记载2019年重播采用每次4话、共3次的安排，与12话总量一致。\n\n备注：输入章节日期与 TMDB 日本播出日期不同；尚未独立核实输入所用平台的提前播出安排，但全部集标题、顺序及总量一致，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/241264; https://www.wikidata.org/wiki/Q51422183; https://www.themoviedb.org/network/1605-bilibili-com; https://phantowa.com/; https://www.primevideo.com/detail/0IDW8F6IGX1SUQHNUJTG92LR39; https://www.imdb.com/title/tt8189276/episodes/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/241264; https://www.themoviedb.org/tv/80561; https://www.themoviedb.org/tv/80561/season/1; https://phantowa.com/caststaff/index.html; https://phantowa.com/onair/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80561
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 12,
       "id": 80561,
       "season": 1,
       "type": "tv"

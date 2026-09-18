@@ -1,14 +1,32 @@
 {
   "anidbId": 9102,
   "bangumiId": 111762,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 183486,
+      "sort": 11.5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 183486,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 65329,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《氷菓》的 OVA／11.5 话《持つべきものは》，仅 1 集；其 AniDB 关联为 Hyouka 11.5。TMDB 65329 的特别篇 season 0 恰有 1 集，标题为「持つべきものは」，播出日期为 2012-07-08，与 Bangumi 该集资料及剧情相符。因此应映射到该 TV 的 season 0 episode 1，而不是整部 TV 或正篇 season 1。\n\nhttps://bgm.tv/subject/111762 (page): Bangumi subject 名称为「氷菓 持つべきものは」，类型为 OVA，话数为 1，关联 AniDB ID 9102；唯一正篇集标题为「持つべきものは」，sort 为 11.5。\n\nhttps://www.themoviedb.org/tv/65329 (api_snapshot): TMDB TV 65329 为《氷菓》，包含 season 0「特別編」且 episode_count 为 1，另有 22 集正篇 season 1。\n\nhttps://www.themoviedb.org/tv/65329/season/0 (api_snapshot): TMDB season 0 的唯一第 1 集标题为「持つべきものは」，日期为 2012-07-08，简介涉及奉太郎在市民游泳池担任监视员的故事，与该 OVA 主体相符。",
+    "evidence": "codex: 确认本作对应 TMDB《氷菓》65329 第0季第1集。官方资料与实际季表在版本、制作人员、单集范围、标题及泳池剧情上吻合，Bangumi 章节与 TMDB 的先行配信日期亦一致；2013年为实体 OAD 发售年份。因 Bangumi sort 为11.5，使用章节 ID override 精确映射。\n\nhttps://bgm.tv/subject/111762 (page): Bangumi 将本作列为单集 OVA，2013年1月12日发售；简介说明其为漫画第3卷限定版附赠的第11.5话，已于2012年7月8日先行配信。\n\nhttps://bangumi.tv/ep/183486 (page): 章节183486为第11.5话「持つべきものは」，首播日期2012-07-08，时长25分50秒，剧情发生在市民游泳池。\n\nhttps://kotenbu.com/story/story115.html (page): 官方确认第11.5话为漫画第3卷限定版附赠蓝光收录的原创动画，剧情位于正篇第11与12话之间；米泽穗信提供故事构想，武本康弘编剧，内容涉及古典部成员在市民游泳池调查事件。\n\nhttps://www.themoviedb.org/tv/65329 (api_snapshot): TMDB 65329为2012年京都动画制作的《氷菓》，原作米泽穗信、导演武本康弘，主要人物与本作一致；其第0季列有1集特别篇，第1季为22集正篇。\n\nhttps://www.themoviedb.org/tv/65329/season/0 (api_snapshot): 已读取第0季完整集表，total_pages=1，仅有第1集「持つべきものは」，日期2012-07-08，时长26分钟；简介为奉太郎担任市民游泳池监视员并与古典部成员调查事件，与本作标题、日期、时长及剧情一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/111762; https://www.themoviedb.org/tv/65329; https://www.themoviedb.org/tv/65329/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/111762; https://bangumi.tv/ep/183486; https://kotenbu.com/story/story115.html; https://www.themoviedb.org/tv/65329; https://www.themoviedb.org/tv/65329/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

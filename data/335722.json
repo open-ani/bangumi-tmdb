@@ -1,13 +1,64 @@
 {
   "bangumiId": 335722,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1029481,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1029482,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1029483,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1029484,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1029485,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1029486,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1029487,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1029488,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1029489,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1029490,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 原名、首播日期、完整剧情、动画媒介与10集规模一致，官方制作资料亦支持同一版本，确认 subject 对应 TMDB 90834 第一季整季。Bangumi 分集标题和日期均为空，无法逐章交叉核验，因此仅确认作品及季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/90834 (api_snapshot): 以原名 Human Discoveries 搜索并读取详情，确认 TMDB 90834 为2019年7月16日首播的作品；原始人发现火、车轮及社会习俗的剧情与输入一致。制作公司为 ShadowMachine、Ninjas Runnin' Wild Productions，配音包括 Anna Kendrick、Zac Efron。\n\nhttps://www.themoviedb.org/tv/90834/season/1 (api_snapshot): 已读取第一季完整集表，共10集、仅1页，播出日期为2019年7月16日至9月3日；全部为同一部剧情动画的连续正篇，未混入其他作品。\n\nhttps://about.fb.com/fr/news/2019/02/will-smiths-bucket-list-human-discoveries-the-real-world-de-mtv-de-nouvelles-series-debarquent-sur-facebook-watch/amp/ (search_snippet): Facebook 官方公告确认这是2019年推出的原创动画系列，由 Chris Bruno、David Howard Lee 创作，ShadowMachine 与 Ninjas Runnin' Wild 制作；剧情及配音阵容与 TMDB 相符。\n\nhttps://epguides.com/HumanDiscoveries/ (search_snippet): 分集指南列出第一季10集，各集标题及播出日期均与 TMDB 季表一致，前三集同于2019年7月16日上线，后续每周一集至9月3日。\n\n备注：Bangumi 主页面及章节页未能成功读取；输入中的10个章节仅有序号，不能据位置生成逐集对应。需补充分集标题或日期后再建立 rules。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/335722; https://www.themoviedb.org/tv/90834; https://www.themoviedb.org/tv/90834/season/1; https://about.fb.com/fr/news/2019/02/will-smiths-bucket-list-human-discoveries-the-real-world-de-mtv-de-nouvelles-series-debarquent-sur-facebook-watch/amp/; https://epguides.com/HumanDiscoveries/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

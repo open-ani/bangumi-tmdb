@@ -1,15 +1,111 @@
 {
+  "anidbId": 15911,
   "bangumiId": 321686,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1049669,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 1049670,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1070326,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1091158,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1242713,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1277211,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1277212,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1277213,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1277214,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1333537,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1333538,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1333539,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1333573,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1049669,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 154739,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认是同一部 2021 年《アイドルランドプリパラ》Web 动画，而非旧版《プリパラ》或《アイドルタイムプリパラ》。Bangumi 记录为 13 话，包含第0话及第1—12话；TMDB 将其拆为特别篇 S0E1（对应第0话）和完整 S1（对应第1—12话）。制作公司、导演、系列构成及配信形式均与 Bangumi 和官方资料一致。\n\nhttps://www.themoviedb.org/tv/154739 (api_snapshot): TMDB 详情确认原名为アイドルランドプリパラ，首播 2021-08-18，完结 2024-04-24，制作公司含 Tatsunoko Production；包含 S0 1话和 S1 12话。\n\nhttps://www.themoviedb.org/tv/154739/season/0 (api_snapshot): TMDB S0 实际只有 1 集，作为特别篇，适合对应 Bangumi 的第0话。\n\nhttps://www.themoviedb.org/tv/154739/season/1 (api_snapshot): TMDB S1 实际有完整 12 集，编号为 1—12，日期覆盖至 2024-04-24。\n\nhttps://api.bgm.tv/v0/subjects/321686 (api_snapshot): Bangumi fresh API 确认该条目为 2021 年 Web 动画，共 13 话；导演森脇真琴、系列构成土屋理敬、动画制作タツノコプロ，并列出第0话及第1—12话。\n\nhttps://www.takaratomy-arts.co.jp/company/pdf/R_Idolland_Pripara_haishin0705.pdf (page): 官方资料称《アイドルランドプリパラ》是プリパラ系列新作配信动画，并明确第0话是第1话前日谈。\n\n备注：TMDB S0 的日期显示为 2021-01-09，与 Bangumi 第0话日期 2021-09-01 不一致，且 TMDB 集标题较为泛化；但官方资料确认存在独立第0话，且集数拆分与 Bangumi 的 0+1—12 结构吻合。；TMDB 详情的剧情和工作人员字段不完整，制作人员核对主要依赖 Bangumi fresh API 与官方制作资料。",
+    "evidence": "codex: 确认对应TMDB 154739的2021年网络动画，年份、制作公司、演员、官方制作人员及续作定位一致。主体范围为第1季12集和第0季E1，合计13话。逐集日期核对及官方第0、3话资料支持映射第0—8、10—12话；第9话因日期冲突且缺少具体标题，暂不建立逐集对应。\n\nhttps://www.themoviedb.org/tv/154739 (api_snapshot): 日文原名搜索命中 TV 154739；详情的首播日为2021-08-18，完结日为2024-04-24，制作公司为龙之子与 avex pictures，演员包括饭田里穗、茜屋日海夏、橘龙丸，与本作吻合。\n\nhttps://www.themoviedb.org/tv/154739/season/0 (api_snapshot): 第0季完整集表只有E1，英文标题为“PriPara Became Idol Land!”，对应第0话的内容；日期却记录为2021-01-09，与官方日期冲突。\n\nhttps://www.themoviedb.org/tv/154739/season/1 (api_snapshot): 第1季完整集表为E1—E12，无分页遗漏。E1、E2、E4—E8、E10—E12的日期逐集与输入一致；E3为2022-05-31，E9为2023-12-12。日、英、中文集标题均为通用编号，简介为空。\n\nhttps://www.takaratomy-arts.co.jp/company/pdf/R_Idolland_Pripara_haishin0705.pdf (page): 官方公告确认这是承接《偶像时间美妙天堂》的新作应用联动网络动画，导演森胁真琴、系列构成土屋理敬、动画制作龙之子；明确第1话于2021-08-18先行上映，第0话为前日谈，于2021-09-01上映，并列出与Bangumi一致的两话标题。\n\nhttps://www.takaratomy-arts.co.jp/specials/pripara-game/idolland/news/16/ (page): 官方第3话上映公告列出与Bangumi一致的标题，并明确先行上映日期为2022-05-31，支持其对应TMDB S1E3。\n\nhttps://www.takaratomy-arts.co.jp/specials/pripara-game/idolland/news/18/ (page): 官方另于2023-05-02推出第3话的CG演出特别编辑版；该版是替换演出片段的版本，不能额外算作下一话。\n\n备注：TMDB S0E1日期2021-01-09与官方2021-09-01冲突，疑似月日颠倒；对应关系依据英文标题、官方前日谈说明及13话结构确认。；Bangumi第3话日期为2023-03-01，TMDB使用官方证实的先行上映日期2022-05-31；TMDB未标注演出片段版本。；Bangumi第9话（章节1333537）日期为2024-01-01，TMDB S1E9为2023-12-12，且无具体标题或简介。该章节保持未映射，需进一步取得官方原始配信公告或TMDB更完整的集资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/321686; https://www.themoviedb.org/tv/154739; https://www.themoviedb.org/tv/154739/season/0; https://www.themoviedb.org/tv/154739/season/1; https://api.bgm.tv/v0/subjects/321686; https://www.takaratomy-arts.co.jp/company/pdf/R_Idolland_Pripara_haishin0705.pdf",
-    "verifiedAt": "2026-09-08T22:40:08.995Z"
+    "source": "https://bgm.tv/subject/321686; https://www.themoviedb.org/tv/154739; https://www.themoviedb.org/tv/154739/season/0; https://www.themoviedb.org/tv/154739/season/1; https://www.takaratomy-arts.co.jp/company/pdf/R_Idolland_Pripara_haishin0705.pdf; https://www.takaratomy-arts.co.jp/specials/pripara-game/idolland/news/16/; https://www.takaratomy-arts.co.jp/specials/pripara-game/idolland/news/18/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 154739
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 10,
+      "season": 1,
+      "start": 10,
+      "tmdbId": 154739
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

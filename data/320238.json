@@ -1,13 +1,135 @@
 {
+  "anidbId": 17335,
   "bangumiId": 320238,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1094778,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1094779,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1094780,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1094781,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1094782,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1094783,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1094784,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1094785,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1094786,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1094787,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1094788,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1094789,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1094790,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1094791,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1094792,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1094793,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1094794,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1094795,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1094796,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1094797,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1094798,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1094799,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1094800,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1094801,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 199361 的原名、2022-04-23 首播日期、白骁/清月/雪山部落剧情与 Bangumi 完全对应；详情确认其为单季网络动画，共24集，制作公司为 Mili Pictures。第1季实际季表覆盖第1至24集，且与官方哔哩哔哩页面的“2022、已完结、全24话”一致。外部资料进一步确认这是周少波导演的3D网络动画，而非电影、OVA、音乐录像或其他版本，因此应映射整季。\n\nhttps://www.themoviedb.org/tv/199361 (api_snapshot): TMDB 详情：原名《你真是个天才》、2022-04-23、剧情匹配、TV类型、1季24集、制作公司 Mili Pictures。\n\nhttps://www.themoviedb.org/tv/199361/season/1 (api_snapshot): TMDB 第1季季表实际列出第1至第24集，播出日期为2022-04-23至2022-07-09；total_pages=1。\n\nhttps://www.bilibili.com/bangumi/play/ep584131 (page): 官方哔哩哔哩页面标示2022年、已完结、全24话，简介与白骁、清月及雪山部落剧情一致。\n\nhttps://js.cri.cn/2022-04-29/56cf3084-61eb-2ef3-6433-8584bc525797.html (page): 报道确认该作由米粒影业制作、周少波导演，是改编自国王陛下小说的网络动画，并描述白骁寻找清月的故事。",
+    "evidence": "codex: 年份、首播日期、剧情、原作、制作人员、制作公司及24话网络动画版本相互吻合，确认对应TMDB 199361第1季整季。逐集证据不足，因此仅确认作品及季范围，不按集号位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/199361 (api_snapshot): 中文原名搜索命中 TV 199361；详情确认原名《你真是个天才》、首播日期2022-04-23、制作公司米粒影业，以及白骁为解除清月诅咒而远赴南方大陆的剧情；共1季24集。\n\nhttps://www.themoviedb.org/tv/199361/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，包含第1至24集，日期范围2022-04-23至2022-07-09。标题均为通用集号；分集简介却描述寻亲、灵儿等情节，与作品总简介存在明显冲突，不能据此确认逐集内容。\n\nhttps://www.bilibili.com/bangumi/media/md28230731/ (page): 官方作品页确认2022年4月23日开播、已完结、全24话。\n\nhttps://www.bilibili.com/bangumi/media/md28230731/ (search_snippet): 官方作品页搜索摘要列出原著国王陛下、导演周少波、编剧刘小琳、动画导演华贤，均与输入对应；前五话有具体标题，包括《清月的诅咒》《初入红山城》《重逢》，而TMDB仅有通用集号。\n\nhttps://www.bilibili.com/bangumi/play/ep584131 (page): 官方播放页确认全24话，且白骁、清月、雪山部落及寻回爱人的剧情与Bangumi、TMDB作品详情一致。\n\nhttps://bgm.tv/subject/320238 (search_snippet): Bangumi搜索摘要标注为WEB动画，共24话，2022年4月23日开播，周三、周六更新，导演周少波、原作国王陛下、动画制作米粒影业。\n\n备注：输入的24个Bangumi章节均无标题及播出日期，在线章节页也未能读取，无法逐集比对。；TMDB分集简介与官方剧情明显冲突，且分集标题均为通用集号；需补充可信逐集资料后再建立rules或overrides。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/320238; https://www.themoviedb.org/tv/199361; https://www.themoviedb.org/tv/199361/season/1; https://www.bilibili.com/bangumi/play/ep584131; https://js.cri.cn/2022-04-29/56cf3084-61eb-2ef3-6433-8584bc525797.html",
-    "verifiedAt": "2026-09-08T22:38:45.144Z"
+    "source": "https://bgm.tv/subject/320238; https://www.themoviedb.org/tv/199361; https://www.themoviedb.org/tv/199361/season/1; https://www.bilibili.com/bangumi/media/md28230731/; https://www.bilibili.com/bangumi/play/ep584131",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

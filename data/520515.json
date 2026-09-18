@@ -1,13 +1,74 @@
 {
   "bangumiId": 520515,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1413475,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1413476,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1413477,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1413478,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1413479,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1413480,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1413481,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1413482,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1413483,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1413484,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1413485,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1413486,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 应对应 TMDB TV 93741《Jurassic World Camp Cretaceous》第 4 季整季。原名、动画剧集媒介、2021-12-03 上线日期及“离开努布拉岛后抵达充满威胁的陌生岛屿”剧情均吻合；外部 IMDb 线索 tt15979282 实际是该剧 S4E1，而非系列编号。TMDB 实际季表及 Amblin 官方集表均确认第 4 季只有连续的 11 集（E1–E11），未混入第 5 季；因此 Bangumi 所填 12 话属于计数错误，不应据此虚构 E12。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): TMDB details 确认该条目是英文原名 Jurassic World Camp Cretaceous 的 TV 动画系列，制作公司包括 DreamWorks Animation Television 与 Amblin Television；共5季，第4季日期为2021-12-03、集数为11，季简介与 Bangumi 摘要一致，并收录日文别名「ジュラシック・ワールド/サバイバル・キャンプ」。\n\nhttps://www.themoviedb.org/tv/93741/season/4 (api_snapshot): TMDB season API 的真实第4季集表共有11集、仅1页，范围为 E1「Beneath the Surface」至 E11「Who's the Boss?」，全部日期为2021-12-03。\n\nhttps://www.imdb.com/title/tt15979282/ (api_snapshot): 以 IMDb 线索 tt15979282 调用 TMDB find，返回的是 show_id 93741、season_number 4、episode_number 1「Beneath the Surface」，从而确认该线索指向本季首集而非另一作品。\n\nhttps://amblin.com/tv/jurassic-world-camp-cretaceous/ (page): Amblin 官方页面确认本作由 DreamWorks Animation 与 Amblin Entertainment 合作，并将对应剧情明确标为 Season 4；官方集表从第4季 E1 列至 E11「Who's the Boss?」，随后即开始第5季 E1。\n\nhttps://tv.apple.com/us/episode/whos-the-boss/umc.cmc.53zsvv6j9jc1a347q6ki73clk?showId=umc.cmc.3n0zka77cwk5girda2ahvt5b1 (page): Apple TV 将「Who's the Boss?」明确标为 Jurassic World: Camp Cretaceous 的 S4E11，进一步确认第4季末集编号。",
+    "evidence": "codex: 作品、动画媒介、上线日期、制作方及第四季特有剧情相互吻合，确认对应 TMDB 93741 第四季整季。TMDB 完整季表与制作方官方集表均为 11 集，季范围清楚且未混入其他季。Bangumi 所列 12 个章节均无标题和播出日期，无法逐集核实，因此仅确认季级映射，rules 与 overrides 留空。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): TMDB 93741 是英文原名一致的动画剧集，制作公司包含 DreamWorks Animation Television 与 Amblin Television。第四季上线日期为 2021-12-03，剧情为营员离开努布拉岛后流落充满威胁与秘密的新地带，与输入吻合。\n\nhttps://www.themoviedb.org/tv/93741/season/4 (api_snapshot): 实际读取第四季完整集表：episodeCount=11，total_pages=1，连续覆盖 E1–E11，全部日期为 2021-12-03；首集为 Beneath the Surface，末集为 Who's the Boss?，没有 E12。\n\nhttps://amblin.com/tv/jurassic-world-camp-cretaceous/ (page): Amblin 官方确认本作为 DreamWorks Animation 与 Amblin 合作制作，第四季剧情是离开努布拉岛后发现神秘新岛。官方第四季集表的 11 个标题及顺序均与 TMDB 一致，随后另列第五季。\n\nhttps://api.themoviedb.org/3/find/tt15979282?external_source=imdb_id (api_snapshot): 使用 IMDb 线索 tt15979282 调用 TMDB find，返回 show_id=93741、season_number=4、episode_number=1；该线索指向第四季首集，并非整个系列。\n\n备注：Bangumi 的 12 话与已核实的第四季 11 集冲突，疑为计数或章节录入错误，但现有证据不能确定多出的章节来源。；不能仅按位置将 Bangumi 第 1–11 话套入 TMDB，也不能确定第 12 话应排除或另有归属；需补充 Bangumi 章节标题、日期或内容后再建立逐集映射。；本次无法访问 Bangumi 实时页面，Bangumi 侧信息依据用户提供的快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/520515; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/4; https://www.imdb.com/title/tt15979282/; https://amblin.com/tv/jurassic-world-camp-cretaceous/; https://tv.apple.com/us/episode/whos-the-boss/umc.cmc.53zsvv6j9jc1a347q6ki73clk?showId=umc.cmc.3n0zka77cwk5girda2ahvt5b1",
-    "verifiedAt": "2026-09-09T03:32:02.092Z"
+    "source": "https://bgm.tv/subject/520515; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/4; https://amblin.com/tv/jurassic-world-camp-cretaceous/; https://api.themoviedb.org/3/find/tt15979282?external_source=imdb_id",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

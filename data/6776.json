@@ -1,20 +1,40 @@
 {
   "bangumiId": 6776,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 40207,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 40207,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本作对应 TMDB 30983 第0季第1集。单话范围、完整标题和宝刀争夺剧情相符，2006年章节日期已确认为合集再发行日期；仅映射该 OVA，不覆盖整季或三篇合集。旧电影 ID 当前返回404，应替换。\n\nhttps://bgm.tv/subject/6776 (page): Bangumi 将本作列为单话 OVA，导演山本泰一郎、脚本古内一成；剧情是基德预告盗取宝刀，柯南与铁刃参与争夺。标注首次发行于2000年，另有2006年3月24日合集发行日期。\n\nhttps://api.themoviedb.org/3/movie/1145264 (api_snapshot): 旧映射 movie 1145264 的详情请求返回 HTTP 404，无法继续采用该电影条目。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TV 30983 为1996年开始的《名探偵コナン》，制作公司包含 TMS、Kyokuichi，原作为青山刚昌；详情明确列有第0季。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整集表，共35集、1页。第1集标题为柯南对基德对铁刃的宝刀争夺战，时长25分钟；简介明确包含小五郎受托保护道场宝刀、基德盗剑及柯南与铁刃追击，与本作一致。该集日期记为2000年1月1日。\n\nhttps://www.toho-a-park.com/dvd/item/html/SDV/SDV16119D.html (page): 东宝官方商品页确认 SECRET FILE1 于2006年3月24日发行，包含宝刀争夺战、16名嫌疑人、柯南与平次与消失的少年三篇，合计73分钟。因此输入章节日期对应合集再发行，本 subject 仅覆盖其中第一篇。\n\n备注：首次发行日期存在资料差异：Bangumi 为2000年10月1日，TMDB 为2000年1月1日，东宝合集页标示作品年度为2001—2003年。精确首发日期尚未统一，但不影响由标题、独特剧情及合集篇目确认单集身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/6776; https://api.themoviedb.org/3/movie/1145264; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0; https://www.toho-a-park.com/dvd/item/html/SDV/SDV16119D.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1145264,
-      "type": "movie"
+      "episode": 1,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

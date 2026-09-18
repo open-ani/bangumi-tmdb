@@ -1,16 +1,86 @@
 {
   "anidbId": 15355,
   "bangumiId": 303431,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 942709,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 942710,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 942711,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 942712,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 942713,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 942714,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 942715,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 942716,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 942717,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 942718,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 942719,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 942720,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该条目是《トミカ絆合体 アースグランナー》TV动画，首播日为2020-04-05、共51话，制作方包含OLM。TMDB 97941 的标题、日文原名、首播日、剧情简介和制作/地域信息均与之对应，且唯一第1季明确包含完整51集；季内第1集和第51集的标题及日期也与主体首尾对应。因此推荐整季1，不拆分集数范围。AniDB 页面本次无法直接读取，但不影响由 Bangumi 与 TMDB 的独立作品及完整季信息确认目标。\n\nhttps://bgm.tv/subject/303431 (page): Bangumi 条目标题为「トミカ絆合体 アースグランナー」，类型为TV，话数51，放送开始2020-04-05，放送结束2021-03-28；页面还列出OLM为动画制作。\n\nhttps://www.themoviedb.org/tv/97941 (api_snapshot): TMDB TV 97941 的标题和原名均为「トミカ絆合体 アースグランナー」，首播日为2020-04-05，剧情简介描述Earth Energy、Dark Spinner、双胞胎ライガ与クウガ，且全剧共51集、只有第1季。\n\nhttps://www.themoviedb.org/tv/97941/season/1 (api_snapshot): TMDB 第1季明确为 season_number=1，共51集且剧集数据未截断；第1集日期为2020-04-05，末集第51集日期为2021-03-28，标题和日期与 Bangumi 主体首尾相符。\n\n备注：AniDB 15355 的原始页面本次无法读取，Bangumi→AniDB 的ID关联未能由AniDB页面直接复核；但Bangumi与TMDB的标题、日期、剧情、制作信息及51集完整季已形成独立对应。",
+    "evidence": "codex: 作品年份、TV媒介、剧情、导演、制作公司、总集数及首末播日期一致，确认对应TMDB 97941第1季全51集。Bangumi仅录入12个章节不代表主体只有12话。逐集规则仅纳入标题和日期均已核实的第1—4集。\n\nhttps://bgm.tv/subject/303431 (page): Bangumi 标明本作为2020年4月5日至2021年3月28日播出的51话TV动画，导演为ウシロシンジ，动画制作为OLM；剧情讲述双胞胎兄弟对抗夺取地球能量的外星敌人。\n\nhttps://www.themoviedb.org/tv/97941 (api_snapshot): TMDB 97941 的日文原名、首末播日期、51集总量、导演ウシロシンジ、制作公司OLM及双胞胎对抗Dark Spinner的剧情均与Bangumi一致；只有第1季。\n\nhttps://www.themoviedb.org/tv/97941/season/1 (api_snapshot): 已读取第1季完整51集，total_pages=1，集号连续为1—51，播出范围为2020-04-05至2021-03-28。第1—4集标题及日期逐一与Bangumi一致；第5—7集日期分别为2020-05-03、05-10、05-17。\n\nhttps://bgm.tv/subject/303431/ep (page): Bangumi章节表仅有12个本篇章节。第1—4集有可核对的标题和日期；第5—7集标题为空、日期较TMDB早一天；第8—12集标题为空，日期均为2099-01-01。\n\n备注：第5—7章缺少标题且日期存在一天偏差，第8—12章缺少标题并使用异常占位日期，暂不建立这些章节的逐集映射；需补充可靠章节信息后复核。；Bangumi未录入第13—51章，因此不生成相应逐集规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/303431; https://www.themoviedb.org/tv/97941; https://www.themoviedb.org/tv/97941/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/303431; https://www.themoviedb.org/tv/97941; https://www.themoviedb.org/tv/97941/season/1; https://bgm.tv/subject/303431/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 97941
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,21 +1,199 @@
 {
   "anidbId": 7404,
   "bangumiId": 5474,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 37125,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 37126,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 37127,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 37128,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 37129,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 37130,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 37131,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 37132,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 37133,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 37134,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 37135,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 42531,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 42532,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 42533,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 42534,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 42535,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 42536,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 42537,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 42538,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 42539,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 42540,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 42541,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 42542,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 42543,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 50377,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 59229,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 42532,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 37471,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 59229,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 37471,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 37471的第1季全部24集，以及第0季第1—2集。年份、媒介、制作信息、角色剧情与逐集标题及日期相符。Bangumi将两集总集篇计入26集本篇，TMDB将其归入特别篇，因此旧映射仅含第1季不完整；上述两段规则与两项特例完整覆盖26个章节。\n\nhttps://www.themoviedb.org/tv/37471 (api_snapshot): 日文原名搜索命中 TV 37471；详情确认首播日期为2010-07-05，制作公司包括 Studio Deen、集英社、东宝，角色包括奴良陆生、家长加奈、花开院由罗。第1季为2010年作品，第2季明确标为2011年的《千年魔京》。\n\nhttps://www.themoviedb.org/tv/37471/season/1 (api_snapshot): 第1季完整集表共24集、仅1页。逐集核对标题和日期：Bangumi sort 1—12对应第1季1—12集，sort 14—25对应第1季13—24集，所有对应日期一致。第3集标题存在简称差异，人物、日期和剧情一致。各集剧情为奴良陆生继承奴良组及牛鬼、四国妖怪相关故事，与输入版本吻合。\n\nhttps://www.themoviedb.org/tv/37471/season/0 (api_snapshot): 第0季完整集表共7集、仅1页。其中第1集《牛鬼様謀反、顛末》日期为2010-09-27，第2集《少年たちの残照》日期为2010-12-27，标题、日期及总集篇内容分别对应Bangumi sort 13、26。其余特别篇属于其他关联作品，不纳入本次范围。\n\nhttps://www.ytv.co.jp/nuramago/ (search_snippet): 读卖电视台官方页面列出原作椎桥宽、导演西村纯二、动画制作Studio DEEN及制作奴良组，与输入的2010年TV版制作信息一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=29074 (search_snippet): d动画商店将该版本标为2010年、全26话，并列出西村纯二导演、Studio DEEN制作及正篇第24话《月は空にある》，支持24集正篇加两集总集篇的构成。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5474; https://www.themoviedb.org/tv/37471; https://www.themoviedb.org/tv/37471/season/1; https://www.themoviedb.org/tv/37471/season/0; https://www.ytv.co.jp/nuramago/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=29074",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 37471
+    },
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 14,
+      "tmdbId": 37471
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 37471,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 37471,
+      "season": 0,
       "type": "tv"
     }
   ]

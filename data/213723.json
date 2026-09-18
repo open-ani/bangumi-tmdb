@@ -1,15 +1,91 @@
 {
+  "anidbId": 15452,
   "bangumiId": 213723,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 716701,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 716702,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 716703,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 716704,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 716705,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 716706,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 716707,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 716708,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 716709,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 716710,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 716711,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 716712,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 748895,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 105909 的原名为《天谕》，首播日期为 2017-04-26，别名包含 Tian Yu、Revelation Online；剧情简介与 Bangumi 主体高度一致，且 TMDB 工作人员列出沈乐平为导演和编剧，与 Bangumi 资料吻合。第 1 季实际包含 13 集，覆盖 Bangumi 主体的 13 集内容。TMDB 第 2 季名为《苍古之绊》、另于 2018 年播出，应对应 Bangumi 的独立关联条目而非本主体。\n\nhttps://api.bgm.tv/v0/subjects/213723 (api_snapshot): Bangumi 主体为 2017 年播出的 WEB 动画《天谕》，共 13 集；制作方为玄机科技，总导演为沈乐平，剧情围绕蜃魔、瞳溟、瞳洸等展开。\n\nhttps://www.themoviedb.org/tv/105909 (api_snapshot): TMDB 条目原名《天谕》，日期为 2017-04-26，别名包括 Tian Yu、Tian Yu The Animation、Revelation Online；剧情与 Bangumi 简介一致，沈乐平列为 Director/Writer；全剧分为两季，每季 13 集。\n\nhttps://www.themoviedb.org/tv/105909/season/1 (api_snapshot): 第 1 季名称为《第 1 季》，首播 2017-04-26，共 13 集，集名从《碧海魅影》至《尘埃落定》，剧情和角色与 Bangumi 主体对应。\n\nhttps://www.themoviedb.org/tv/105909/season/2 (api_snapshot): 第 2 季名称为《苍古之绊》，首播 2018-07-25，共 13 集，属于后续独立季度，不应并入本主体。",
+    "evidence": "codex: 确认对应 TMDB 105909 第1季全13集。年份、首播日期、剧情、制作公司及导演吻合，全部13个集标题逐一同序匹配，足以建立本篇1—13集的一一对应。日期差异表现为TMDB每周排期与Bangumi双周排期冲突，同期报道支持双周更新，不影响已由完整集标题确认的对应关系。\n\nhttps://www.themoviedb.org/tv/105909 (api_snapshot): TMDB 105909 原名《天谕》，首播于2017-04-26；剧情中的蜃魔、瞳溟、瞳洸及千年封印与输入一致，制作公司为玄机科技，导演及编剧列为沈乐平。第1季13集，第2季为2018年的《苍古之绊》。\n\nhttps://www.themoviedb.org/tv/105909/season/1 (api_snapshot): 第1季完整集表共13集，total_pages=1。第1至13集标题与输入逐一同序一致，从《碧海魅影》至《尘埃落定》，没有混入第二季内容。首集日期一致；第2至13集日期则按每周排列，与输入的双周排期不符。\n\nhttps://tianyu.17173.com/content/07262017/105011191.shtml (search_snippet): 2017年报道明确称《天谕》为双周更新的3D动画，自2017-04-26起在多家视频网站同步更新，支持输入的双周排期。\n\n备注：TMDB第2—13集日期与输入不一致：TMDB末集为2017-07-19，输入为2017-10-11。同期报道支持双周更新，TMDB日期疑有误；本映射不采信其后续逐集日期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/213723; https://api.bgm.tv/v0/subjects/213723; https://www.themoviedb.org/tv/105909; https://www.themoviedb.org/tv/105909/season/1; https://www.themoviedb.org/tv/105909/season/2",
-    "verifiedAt": "2026-09-08T20:52:37.157Z"
+    "source": "https://bgm.tv/subject/213723; https://www.themoviedb.org/tv/105909; https://www.themoviedb.org/tv/105909/season/1; https://tianyu.17173.com/content/07262017/105011191.shtml",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 105909
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

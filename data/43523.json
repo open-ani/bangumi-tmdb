@@ -1,19 +1,96 @@
 {
   "anidbId": 9306,
   "bangumiId": 43523,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 403980,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 403981,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 403982,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 403983,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 403984,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 403985,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 403986,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 403987,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 403988,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 403989,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 403990,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 403991,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 403992,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2014年 Crystal 动画版本。13话的标题、顺序和首播日期逐集对应 TMDB 61339 第1季第1—13集。TMDB 该季共14集，旧映射的整季范围过宽，应限定为前13集。\n\nhttps://bgm.tv/subject/43523 (page): Bangumi 标明本作为2014年7月5日开始、2015年1月3日结束的13话WEB动画，原作为武内直子，动画制作为东映动画；与1992年版分列。\n\nhttps://www.themoviedb.org/tv/61339 (api_snapshot): TMDB 61339 为2014年7月5日首播的 Crystal 版，原作、制作公司、主要声优及寻找银水晶的剧情均吻合。\n\nhttps://www.themoviedb.org/tv/61339/season/1 (api_snapshot): 第1季实际有14集，季表共1页。前13集的日期与输入章节逐集一致，标题亦对应；第9话存在「セルニティ／セレニティ」拼写差异。第13集为2015年1月3日的决战，第14集为2015年1月17日的终结与开始，超出本subject范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/43523; https://www.themoviedb.org/tv/61339; https://www.themoviedb.org/tv/61339/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61339
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 61339,
       "season": 1,
       "type": "tv"

@@ -1,15 +1,91 @@
 {
+  "anidbId": 18075,
   "bangumiId": 515300,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1402696,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1402697,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1402698,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1402699,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1402700,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1402701,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1402702,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1402703,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1402704,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1402705,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1402706,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1402707,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1402708,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品为《Sylvanian Families: Freya no Go for Dream!》（日文官方名《シルバニアファミリー フレアのゴー・フォー・ドリーム！》）。TMDB 记录日期为 2023-07-06、仅有第 1 季且共 13 集；其英文 Freya 是日文角色名フレア的别名转写。官方资料确认这是全编幅 3DCG 的 13 集 TV 系列，剧情角色（フレア、ライラ、ラルフ）、导演河原真明、系列构成三浦有為子、制作 LandQ Studios 等均与 Bangumi 一致。2022 年的《フレアのハッピーダイアリー》是另一部作品，已排除。TMDB 第 1 季实际列出第 1 至第 13 集且无其他作品混入，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/259721 (api_snapshot): TMDB 详情确认类型为 TV、原名为 Sylvanian Families: Freya no Go for Dream!、首播日期 2023-07-06、共 1 季 13 集。\n\nhttps://www.themoviedb.org/tv/259721/season/1 (api_snapshot): TMDB 第 1 季实际列出 13 集，episode_number 为 1 至 13，total_pages=1。\n\nhttps://epoch.jp/pressrelease/article/20230620_pressrelease.pdf (page): EPOCH 官方发布确认《シルバニアファミリー フレアのゴー・フォー・ドリーム！》于 2023-07-06 开播，是全 13 话 TV、全编幅 3DCG 系列，并列出与 Bangumi 一致的故事角色及导演、脚本、音乐、LandQ Studios 等工作人员。\n\nhttps://www.sylvanianfamilies.com/ja-jp/special/tv/go-for-dream/ (page): 官方作品页确认标题、フレア/ライラ/ラルフ角色与剧情，以及河原真明、三浦有為子、LandQ Studios 等工作人员。\n\nhttps://api.bgm.tv/v0/subjects/515300 (api_snapshot): Bangumi fresh API 确认该 subject 为 2023-07-06、13 集 TV，剧情与官方作品页一致，并记录相同主要工作人员。\n\nhttps://www.themoviedb.org/tv/289947 (api_snapshot): TMDB 详情显示《シルバニアファミリー フレアのハッピーダイアリー》为 2022-10-06、另一部仅 6 集的 TV 作品，不是本 subject。\n\n备注：TMDB 季表的部分播出日期与 Bangumi 快照不一致（TMDB 将第 13 集列为 2023-10-05，而 Bangumi 列为 2023-09-28），但两者均确认连续 13 集，且官方资料确认全 13 话；这属于播出日期元数据差异，不影响作品身份和整季范围。",
+    "evidence": "codex: 确认对应 TMDB 259721 第 1 季。作品专名、首播日期、TV 媒介、单集时长及 13 集总量相符，官方和正版配信资料进一步核实剧情与制作人员，整季范围覆盖本 subject。逐集规则仅纳入日期逐项一致的第 1—9 话；第 10—13 话存在日期冲突且缺少可交叉比对的标题，暂不填写对应。\n\nhttps://www.themoviedb.org/tv/259721 (api_snapshot): TMDB 详情确认 259721 为日本 TV 动画《Sylvanian Families: Freya no Go for Dream!》，首播日期为 2023-07-06，共 1 季、13 集。简介与演职员字段为空，不能声称 TMDB 自身提供了制作人员交叉验证。\n\nhttps://www.themoviedb.org/tv/259721/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1，共 13 集，每集 11 分钟。第 1—9 集日期分别为 2023-07-06、07-13、07-20、07-27、08-03、08-10、08-17、08-24、08-31，与输入 Bangumi 逐集一致。第 10—13 集日期为 09-14、09-21、09-28、10-05，均比输入对应章节晚一周；标题仅为通用集号，简介为空。\n\nhttps://www.sylvanianfamilies.com/ja-jp/special/tv/go-for-dream/ (page): 官方作品页确认日文标题、主角フレア／ライラ／ラルフ及村庄生活剧情；导演河原真明、系列构成三浦有為子、音乐野中“まさ”雄一、制作 LandQ Studios，与输入相符。\n\nhttps://epoch.jp/pressrelease/article/20230620_pressrelease.pdf (search_snippet): EPOCH 于 2023-06-20 发布的官方公告确认，本作是全 13 话的全篇 3DCG TV 动画，2023-07-06 起每周四在 TOKYO MX 播出。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=26487003&workId=26487 (page): 正版配信页确认本作为 2023 年制作、全 13 话，列出完整集序、剧情和相同制作人员，支持该 subject 为独立的 13 集 TV 作品。\n\nhttps://www.animatetimes.com/tag/details.php?id=23575 (search_snippet): Animate Times 列出的本作播出区间为 2023-07-06 至 2023-10-05、全 13 话，支持 TMDB 的完结日期；但不能据此单独解决 Bangumi 第 10—13 话的逐集日期冲突。\n\n备注：Bangumi 第 10—13 话日期比 TMDB 对应集早一周。尚未找到足以解释这一差异的原始停播或逐集播出记录，不能直接认定任一方日期错误。；Bangumi 章节标题为空，TMDB 也仅有通用集号；第 10—13 话需补充可核实的章节标题或原始播出记录后再建立规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/515300; https://www.themoviedb.org/tv/259721; https://www.themoviedb.org/tv/259721/season/1; https://epoch.jp/pressrelease/article/20230620_pressrelease.pdf; https://www.sylvanianfamilies.com/ja-jp/special/tv/go-for-dream/; https://api.bgm.tv/v0/subjects/515300; https://www.themoviedb.org/tv/289947",
-    "verifiedAt": "2026-09-09T00:17:00.156Z"
+    "source": "https://bgm.tv/subject/515300; https://www.themoviedb.org/tv/259721; https://www.themoviedb.org/tv/259721/season/1; https://www.sylvanianfamilies.com/ja-jp/special/tv/go-for-dream/; https://epoch.jp/pressrelease/article/20230620_pressrelease.pdf; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=26487003&workId=26487; https://www.animatetimes.com/tag/details.php?id=23575",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 259721
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

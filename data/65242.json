@@ -1,13 +1,139 @@
 {
   "bangumiId": 65242,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 244422,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 244423,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 244424,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 244425,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 244426,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 244427,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 244428,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 244429,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 244430,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 244431,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 244432,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 244433,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 244434,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 244435,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 244436,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 244437,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 244438,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 244439,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 244440,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 244441,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 244442,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 244443,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 244444,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 244445,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 244446,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 对应 TMDB TV 39898《Kung Fu Panda: Legends of Awesomeness》的完整第 2 季。作品名称、Nickelodeon/DreamWorks 制作身份、剧情及 Mick Wingert、Kari Wahlgren、James Sie、Fred Tatasciore、Lucy Liu、James Hong 等主要配音均吻合。Bangumi 的 25 话与 TMDB 的 26 集并非范围缺失：其他分集资料把双倍长度的《Enter the Dragon》计为一话，而 TMDB 将其拆成 S2E7、S2E8，因此同一季分别显示为 25 个播出单元和 26 个 TMDB 分集。首集《Kung Fu Day Care》与末集《Huge》均在范围内，应映射完整 S2。Bangumi 所填 2012-08-06 与核实到的 2012-04-06 首播日期不符，属于条目日期问题，不改变作品及季范围。\n\nhttps://api.bgm.tv/v0/subjects/65242 (api_snapshot): freshBangumi 将该条目标为 TV《Kung Fu Panda: Legends of Awesomeness Season 2》，25 话，配音与主创包括 Mick Wingert、Fred Tatasciore、Kari Wahlgren、James Sie、Lucy Liu、James Hong、Peter Hastings 等。\n\nhttps://www.themoviedb.org/tv/39898 (api_snapshot): TMDB TV 39898 是同名美国动画系列，由 Nickelodeon Animation Studio、DreamWorks Animation 等制作；剧情和主要配音阵容与 Bangumi 条目一致，并列有第 2 季。\n\nhttps://www.themoviedb.org/tv/39898/season/2 (api_snapshot): 实际读取的 TMDB 第 2 季季表共有 26 集：S2E1《Kung Fu Day Care》于 2012-04-06播出，S2E26《Huge》于 2013-06-21播出；《Enter the Dragon》被拆为 S2E7、S2E8两个部分。\n\nhttps://www.tvguide.com/tvshows/kung-fu-panda-legends-of-awesomeness/episodes-season-2/1000456158/ (page): TV Guide 将同一第 2 季列为25个播出单元，首集为《Kung Fu Day Care》、末集为《Huge》，并把《Enter the Dragon》作为一个46分钟的第7话，解释了与 TMDB 26集计数的差异。\n\nhttps://en.wikipedia.org/wiki/Kung_Fu_Panda:_Legends_of_Awesomeness_season_2 (page): 该季资料列明第二季于2012-04-06至2013-06-21播出，并注明《Enter the Dragon》是45分钟双倍长度特别集，对应两个制作编号。",
+    "evidence": "codex: 确认对应 TMDB 39898 的完整第二季。媒介、制作方、配音角色、剧情及季别一致；25话与26集的差异可由双长度一话拆成两集解释，整季范围成立。但 Bangumi 的25个章节均无标题和日期，无法确认其采用的排列顺序，因此只提交季级映射，不按序号推定逐集规则或拆集特例。\n\nhttps://bgm.tv/subject/65242 (page): Bangumi 标为美国 Nickelodeon TV 动画第二季，共25话；制作公司、主要配音、阿宝成为神龙大侠后的冒险设定均与候选一致。章节仅显示序号，条目首播日期为2012-08-06。\n\nhttps://www.themoviedb.org/tv/39898 (api_snapshot): 实际读取 TMDB 39898 详情：为2011年开始的同名电视动画，由 Nickelodeon、DreamWorks 制作；Mick Wingert、Kari Wahlgren、James Sie、Fred Tatasciore 等配音及角色吻合，包含第二季。\n\nhttps://www.themoviedb.org/tv/39898/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共26集。首集为2012-04-06的《Kung Fu Day Care》，末集为2013-06-21的《Huge》；第7、8集为2012-11-12播出的《Enter the Dragon》上下篇，各23分钟。\n\nhttps://www.tvguide.com/tvshows/kung-fu-panda-legends-of-awesomeness/episodes-season-2/1000456158/ (page): TV Guide 第二季列25个播出单元，首末集与 TMDB 一致，第7话将《Enter the Dragon》合为46分钟一话。完整标题顺序与 TMDB 合并上下篇后的顺序一致，支持25话与26集覆盖同一完整季。\n\nhttps://en.wikipedia.org/wiki/Kung_Fu_Panda:_Legends_of_Awesomeness_season_2 (page): 第二季资料将《Enter the Dragon》列为第7、8集，注明双倍长度特别集、两个制作编号，支持合并与拆分计数的解释。\n\n备注：Bangumi 的2012-08-06与 TMDB、TV Guide 的首集日期2012-04-06不一致，尚无证据解释该日期来源。；需补充 Bangumi 章节标题、日期或可靠的版本集表，才能确认第7话是否对应上下篇及后续章节偏移。；TMDB 与 TV Guide 对《Terror Cotta》《Bride of Po》的播出日期各有一天差异；标题和季内顺序一致，不影响整季识别。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/65242; https://api.bgm.tv/v0/subjects/65242; https://www.themoviedb.org/tv/39898; https://www.themoviedb.org/tv/39898/season/2; https://www.tvguide.com/tvshows/kung-fu-panda-legends-of-awesomeness/episodes-season-2/1000456158/; https://en.wikipedia.org/wiki/Kung_Fu_Panda:_Legends_of_Awesomeness_season_2",
-    "verifiedAt": "2026-09-09T00:39:23.686Z"
+    "source": "https://bgm.tv/subject/65242; https://www.themoviedb.org/tv/39898; https://www.themoviedb.org/tv/39898/season/2; https://www.tvguide.com/tvshows/kung-fu-panda-legends-of-awesomeness/episodes-season-2/1000456158/; https://en.wikipedia.org/wiki/Kung_Fu_Panda:_Legends_of_Awesomeness_season_2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

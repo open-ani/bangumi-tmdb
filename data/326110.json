@@ -1,13 +1,32 @@
 {
+  "anidbId": 15950,
   "bangumiId": 326110,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1003159,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1003159,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 137065,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 《Holy Knight Light》是《明日方舟》2020年一周年纪念的独立 WEB 短篇动画，不是后来的电视动画正篇。TMDB《アークナイツ/明日方舟》TV 条目的特别篇 S0 只有 1 集，实际集表明确标为《Holy Knight Light》，日期为 2020-12-25、片长 10 分钟，剧情也对应企鹅物流配送委托；与 Bangumi 的单集、日期和简介相符。应映射为 S0E1。\n\nhttps://api.bgm.tv/v0/subjects/326110 (api_snapshot): Bangumi API 标记为 WEB、1 集，日期 2020-12-25；简介明确为《明日方舟》一周年纪念动画。\n\nhttps://www.themoviedb.org/tv/137065 (api_snapshot): TMDB TV 137065 原名《明日方舟》，制作公司包含 Yostar Pictures；条目包含日期为 2020-12-25、1 集的“特別編”S0，另有 2022 年后的正篇季度。\n\nhttps://www.themoviedb.org/tv/137065/season/0 (api_snapshot): TMDB S0 集表只有 1 集：E1《Holy Knight Light》，日期 2020-12-25，片长 10 分钟，简介为明日方舟一周年纪念动画及企鹅物流配送故事。\n\nhttps://www.youtube.com/watch?v=UiXHpNHQ0Us (search_snippet): 明日方舟官方频道发布的视频标题为“アークナイツ 1周年記念アニメ「Holy Knight Light」”，简介说明其为一周年纪念动画。\n\nhttps://yostar-pictures.co.jp/staff/detail/2157/?lang=en (page): Yostar Pictures 官方工作人员页面将“アークナイツ 1周年記念アニメ「Holy Knight Light」”列为作品，并列出企画、2Dワークス、编辑、音乐、音响监督等参与职责。\n\n备注：Bangumi 归档集表中的单集 airdate 为 2020-12-15，与 subject 日期和 TMDB S0 日期 2020-12-25 不一致；但作品身份及 TMDB 集范围明确。",
+    "evidence": "codex: 已确认对应 TMDB 137065 第 0 季第 1 集。标题、2020 年周年短片版本、企鹅物流配送剧情、制作方及单集范围相符；TMDB 明确收录了这部短片，并非借用后来的电视正篇。将 Bangumi 唯一章节通过 override 对应至 S0E1。\n\nhttps://www.themoviedb.org/tv/137065 (api_snapshot): TMDB 137065 为《明日方舟》，制作公司包含 Yostar Pictures、HYPERGRYPH；2022 年起的电视正篇之外，另列有日期为 2020-12-25、共 1 集的第 0 季。\n\nhttps://www.themoviedb.org/tv/137065/season/0 (api_snapshot): 第 0 季真实集表共 1 页、1 集：第 1 集标题为《Holy Knight Light》，日期为 2020-12-25，时长 10 分钟；简介明确为游戏一周年纪念动画，讲述企鹅物流接受配送委托，与输入的 Bangumi 简介一致。\n\nhttps://www.youtube.com/watch?v=UiXHpNHQ0Us (search_snippet): 《明日方舟》官方频道发布的一周年纪念动画《Holy Knight Light》标注发布于 2020-12-25，简介同样描述企鹅物流的配送委托。\n\nhttps://yostar-pictures.co.jp/works/detail/1970/?lang=en (page): Yostar Pictures 官方作品页将该片列为《Holy Knight Light》动画 PV、一周年动画项目；明确动画制作为 Yostar Pictures，脚本与分镜为渡邉祐记，演出为中邑正，确认其为独立制作的周年短片。\n\n备注：输入中的 Bangumi 单集日期为 2020-12-15，与 subject 日期、官方视频发布日期及 TMDB 日期 2020-12-25 不一致；未找到支持 12 月 15 日的证据，但不影响作品及单集身份确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/326110; https://api.bgm.tv/v0/subjects/326110; https://www.themoviedb.org/tv/137065; https://www.themoviedb.org/tv/137065/season/0; https://www.youtube.com/watch?v=UiXHpNHQ0Us; https://yostar-pictures.co.jp/staff/detail/2157/?lang=en",
-    "verifiedAt": "2026-09-08T22:46:08.021Z"
+    "source": "https://bgm.tv/subject/326110; https://www.themoviedb.org/tv/137065; https://www.themoviedb.org/tv/137065/season/0; https://www.youtube.com/watch?v=UiXHpNHQ0Us; https://yostar-pictures.co.jp/works/detail/1970/?lang=en",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

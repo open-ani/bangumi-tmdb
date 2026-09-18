@@ -1,15 +1,56 @@
 {
+  "anidbId": 16089,
   "bangumiId": 446202,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1234660,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1234661,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1234662,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1234663,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1234664,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1234665,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 132501 的原名与 Bangumi 标题仅有空格差异，别名包含 Kamen Rider Saber: A Collection of Short Activity Manga Stories。TMDB 演职员中的角色声优与《仮面ライダーセイバー》本篇一致；官方资料明确称其为 TTFC 配信的《仮面ライダーセイバー》短篇动画，并确认第1至第6集、全6话。Bangumi 的剧情和制作信息（角色短篇动画、井上テテ脚本、出口博之音乐、サイドランチ制作、东映特摄粉丝俱乐部制作）与该条目身份吻合。TMDB 第1季实际包含恰好6集，覆盖该 subject 的全部6集，因此使用整季范围。TMDB 的第0季只有2个特别编，且包含2022年内容，不属于本 subject，已排除。\n\nhttps://api.bgm.tv/v0/subjects/446202 (api_snapshot): Bangumi fresh API：标题为《別冊 仮面ライダーセイバー 短編活動萬画集》，WEB媒介，2021-02-01，6话；剧情为《仮面ライダーセイバー》角色出演的短篇动画；脚本井上テテ、音乐出口博之、制作サイドランチ、製作東映特撮ファンクラブ。\n\nhttps://www.themoviedb.org/tv/132501 (api_snapshot): TMDB 搜索命中同名日文 TV 条目，ID 132501，原名《別冊仮面ライダーセイバー短編活動萬画集》，并提供英文别名 Kamen Rider Saber: A Collection of Short Activity Manga Stories。\n\nhttps://www.themoviedb.org/tv/132501 (api_snapshot): TMDB 详情：日文原名一致，2020-12-18 开始、2021-08-29 完结，共1季、6集；角色声优包括内藤秀一郎、山口貴也、川津明日香等《仮面ライダーセイバー》本篇演员。\n\nhttps://www.themoviedb.org/tv/132501/season/1 (api_snapshot): TMDB 第1季实际季表为6集，编号1至6，日期从2020-12-18至2021-08-29，total_pages=1；因此整季覆盖 subject 的6集。\n\nhttps://www.themoviedb.org/tv/132501/season/0 (api_snapshot): TMDB 第0季为特别编，仅2集，日期为2020-12-17和2022-02-09，不应并入该2021年6集短篇动画 subject。\n\nhttps://www.kamen-rider-official.com/weekly_topics_saber/25 (search_snippet): 东映官方确认第2集《ロック、シザーズ、ペイパー。》于2021-03-07以《仮面ライダーセイバー》短篇动画形式配信。\n\nhttps://www.kamen-rider-official.com/weekly_topics_saber/29 (search_snippet): 东映官方确认第3集《ソフィアを救え、電流ビリビリ脱出ゲーム～前編～。》于2021-03-28配信。\n\nhttps://www.kamen-rider-official.com/weekly_topics_saber/33 (search_snippet): 东映官方确认第4集《ソフィアを救え、電流ビリビリ脱出ゲーム～後編～。》于2021-05-02配信。\n\nhttps://www.kamen-rider-official.com/collections/22/44G (search_snippet): 东映官方确认第5集《ル・グラン、シューペルマルシェ。》属于该短篇活动万画集。\n\nhttps://www.tv-asahi.co.jp/tokusatsu-fc/contents/news/0460/ (search_snippet): 东映特摄粉丝俱乐部官方确认第6集《2021年、全部見せます！NG大賞。》为该短篇动画最终集，并于2021-08-29开始配信。\n\nhttps://www.tv-asahi.co.jp/tokusatsu-fc/contents/news/0430/ (search_snippet): 官方确认该作品是《仮面ライダーセイバー》的短篇动画，收录第1集至第5集及最终总集编，共6话。",
+    "evidence": "codex: 确认对应TMDB 132501第1季全6集。作品媒介、角色声演、制作资料与剧情吻合；实际英文季表的六个标题及剧情逐一对应Bangumi六话，集数与顺序一致，可建立1至6话连续映射。第6话虽为总集篇，但官方与Bangumi均明确将其计入主体六话。日期差异不改变已由标题及剧情确认的对应关系。\n\nhttps://bgm.tv/subject/446202 (page): Bangumi 标注为 WEB 短篇动画，共6话，开始日期2021-02-01；脚本井上テテ、音乐出口博之、制作サイドランチ。页面列出的六个集标题与输入一致。\n\nhttps://www.themoviedb.org/tv/132501 (api_snapshot): 日文原名搜索命中132501；详情确认该条目为同名短篇动画系列，共1季6集，声演包括内藤秀一郎饰飞羽真、山口貴也饰伦太郎、川津明日香饰芽依，并有对应英文动画别名。\n\nhttps://www.themoviedb.org/tv/132501/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为6集、total_pages=1。英文标题逐一对应：舞蹈表演之前、石头剪刀布、营救索菲亚电流脱出游戏前篇、后篇、大型超市、2021年NG大奖；剧情分别涉及舞蹈拍摄、米吉多练英语、营救索菲亚、塔塞尔与尤里、神代兄妹回顾前五集。日期依次为2020-12-18、2021-03-07、2021-03-28、2021-05-02、2021-05-07、2021-08-29。\n\nhttps://tokusatsu-fc.jp/contents/news/0317/ (page): 官方确认第1集为《ダンス本番、その前に。》，作为2020年剧场版预售票特典在MIRAIL先行配信，之后再于TTFC配信；因此存在先行发行与正式平台配信两个时间口径。\n\nhttps://www.kamen-rider-official.com/weekly_topics_saber/25 (page): 官方确认第2集《ロック、シザーズ、ペイパー。》于2021-03-07配信，剧情为米吉多角色用英语交谈，与TMDB第2集日期及剧情一致。\n\nhttps://tokusatsu-fc.jp/contents/news/0420/ (page): 官方2021年5月31日公告明确第5集《ル・グラン、シューペルマルシェ。》于6月6日配信，登场人物为塔塞尔与尤里；标题和人物对应TMDB第5集，但日期不同。\n\nhttps://www.tv-asahi.co.jp/tokusatsu-fc/contents/news/0460/ (page): 官方确认第6集《2021年、全部見せます！NG大賞。》为最终集，2021-08-29配信，内容为神代兄妹回顾未公开场景并评选NG大奖，与TMDB第6集吻合。\n\nhttps://lp.tokusatsu-fc.jp/share/articles/29954 (search_snippet): TTFC官方蓝光公告确认主体为第1至第5集加NG大奖总集篇，共6话；另列附录短动画为映像特典，支持主体六话的范围。\n\nhttps://www.allcinema.net/cinema/pdf/380318 (search_snippet): 制作资料列出井上テテ编剧、出口博之音乐、サイドランチ制作、犬神リト人物插画及主要声演，与Bangumi制作信息和TMDB声演名单相符。\n\n备注：TMDB第1集标为2020-12-18，Bangumi开始日期为2021-02-01。官方证实存在先行配信，但本次所读公告未明确先行配信的具体开始日，不能将剧场版上映日直接视为已核实的动画首发日。；TMDB第5集日期2021-05-07与官方TTFC配信日期2021-06-06冲突；其标题、人物及集号吻合，保留映射并注明日期元数据差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/446202; https://api.bgm.tv/v0/subjects/446202; https://www.themoviedb.org/tv/132501; https://www.themoviedb.org/tv/132501/season/1; https://www.themoviedb.org/tv/132501/season/0; https://www.kamen-rider-official.com/weekly_topics_saber/25; https://www.kamen-rider-official.com/weekly_topics_saber/29; https://www.kamen-rider-official.com/weekly_topics_saber/33; https://www.kamen-rider-official.com/collections/22/44G; https://www.tv-asahi.co.jp/tokusatsu-fc/contents/news/0460/; https://www.tv-asahi.co.jp/tokusatsu-fc/contents/news/0430/",
-    "verifiedAt": "2026-09-08T23:54:58.492Z"
+    "source": "https://bgm.tv/subject/446202; https://www.themoviedb.org/tv/132501; https://www.themoviedb.org/tv/132501/season/1; https://tokusatsu-fc.jp/contents/news/0317/; https://www.kamen-rider-official.com/weekly_topics_saber/25; https://tokusatsu-fc.jp/contents/news/0420/; https://www.tv-asahi.co.jp/tokusatsu-fc/contents/news/0460/; https://lp.tokusatsu-fc.jp/share/articles/29954; https://www.allcinema.net/cinema/pdf/380318",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132501
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

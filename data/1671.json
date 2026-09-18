@@ -1,21 +1,163 @@
 {
   "anidbId": 6327,
   "bangumiId": 1671,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 6851,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 6852,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 6853,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 6854,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 6855,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 6856,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 6857,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 6858,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 6859,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 6860,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 6861,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 6862,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 14395,
+      "sort": 5.5,
+      "type": 1
+    },
+    {
+      "id": 17096,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 17097,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 17098,
+      "sort": 15,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 14395,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 46195,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 17096,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 46195,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 17097,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 46195,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 17098,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 46195,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已由年份、剧情、原作及制作公司确认作品身份，并逐集核对标题与日期。旧映射仅覆盖第1季，遗漏本篇最后3集及总集篇；完整对应为 TMDB 46195 第1季全部12集，加第0季第1至4集，共覆盖输入全部16个章节。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): 日文原名及别名 Bakemonogatari 搜索均命中 TV 46195。详情确认首播为2009-07-03，原作为西尾维新，制作公司包括 SHAFT、Aniplex、讲谈社；阿良良木历与少女们遭遇怪异的剧情与输入一致。该条目收纳多个物语系列作品，必须限定季与集数。\n\nhttps://www.themoviedb.org/tv/46195/season/1 (api_snapshot): 第1季名为《化物語》，实际共12集，集表仅1页。第1至12集的篇章标题、分篇编号及播出日期与 Bangumi 本篇1至12逐集一致，仅个别数字存在异体字差别。\n\nhttps://www.themoviedb.org/tv/46195/season/0 (api_snapshot): 第0季共49集，集表仅1页。第1集《化物語SP》日期为2009-08-07，对应 Bangumi 总集篇；第2至4集为翼猫其三、其四、其五，日期分别为2009-11-03、2010-02-23、2010-06-25，与 Bangumi 本篇13至15逐集一致。第5集为2012年另作的摘要短片，不纳入本次范围。\n\nhttps://bgm.tv/subject/1671/ep (page): Bangumi 章节页确认15集本篇及1集特别篇；本篇13至15为翼猫其三至其五，特别篇 sort=5.5 为2009-08-07播出的总集篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1671; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/1; https://www.themoviedb.org/tv/46195/season/0; https://bgm.tv/subject/1671/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46195
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 46195,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 46195,
+      "season": 0,
       "type": "tv"
     }
   ]

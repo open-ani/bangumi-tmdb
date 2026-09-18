@@ -1,13 +1,64 @@
 {
   "bangumiId": 313649,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 973087,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 973088,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 973089,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 973090,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 973091,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 973092,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 973093,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 973094,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 973095,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 973096,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是《F Is for Family》第四季，2020-06-12上线、10集。TMDB TV 63522 的别名包含繁中名“福是全家福的福”和日文名“FはFamilyのF”，整体剧情、Netflix 媒介、美国成人动画喜剧定位及制作人员均吻合。TMDB 第4季实际列出10集，全部于2020-06-12发行，覆盖主体完整，因此推荐整季。Bangumi 提供的 IMDb tt9679720 实际对应该季第1集而非整部剧；TMDB 整剧外部 IMDb 为 tt4326894。\n\nhttps://api.bgm.tv/v0/subjects/313649 (api_snapshot): Bangumi 原始数据确认标题、2020-06-12日期、WEB/Netflix媒介、10集，以及 Sylvain Lavoie、Rich Wilkie、Bill Burr、Michael Price 等制作人员。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 详情确认 TV 作品《F is for Family》，首播2015-12-18，剧情为 Murphy 家庭在1970年代的生活；别名包含“福是全家福的福”和“FはFamilyのF”，并列出5季及第4季10集。\n\nhttps://www.themoviedb.org/tv/63522/season/4 (api_snapshot): TMDB 第4季实际集表共10集，episode_number 为1至10，均为2020-06-12，未见OVA、特别篇或其他作品混入。\n\nhttps://www.gaumont.com/en/series/f-is-for-family-season-4 (page): 制作方 Gaumont 将其明确标为2020年、10×30分钟的 Animation/Comedy 第4季，剧情为1970年代 Murphy 家庭，并列出 Bill Burr、Michael Price、Sylvain Lavoie 等创作/制作人员。\n\nhttps://www.netflix.com/title/80028732?src=tudum (page): Netflix 官方页确认该作品为5季电视动画喜剧，剧情和创作者 Bill Burr、Michael Price 与 Bangumi/TMDB 一致，并提供 Season 4 trailer/recap。",
+    "evidence": "codex: 可确认对应 TMDB 63522 第4季整季：年份、上线日期、10集规模、动画媒介、制作人员及家庭剧情一致。Bangumi 章节标题与单集日期均为空，缺少逐集比对依据，因此保留整季映射，暂不生成连续规则或章节特例。\n\nhttps://bgm.tv/subject/313649 (page): Bangumi 标明本作为美国英语 WEB 动画第四季，Netflix 于2020-06-12上线，共10集；制作人员包括 Sylvain Lavoie、Bill Burr、Michael Price，动画制作为 Gaumont Animation。\n\nhttps://www.gaumont.com/en/series/f-is-for-family-season-4 (page): 制作方 Gaumont 确认第四季为2020年制作的10集动画喜剧，围绕1970年代 Murphy 家庭展开，导演及编剧与 Bangumi 资料吻合。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 63522 为《F is for Family》，剧情、Gaumont 制作公司及配音阵容吻合；全剧共5季，第四季为2020-06-12开始的10集。\n\nhttps://www.themoviedb.org/tv/63522/season/4 (api_snapshot): 第四季实际集表仅1页，共10集，集号1至10，全部日期为2020-06-12，未混入其他作品。Bangumi 的简介实际对应本季第8集剧情，不能据此将整个 subject 缩为单集。\n\nhttps://api.themoviedb.org/3/find/tt9679720?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 tt9679720，返回 TMDB 63522 第4季第1集；该 IMDb 链接属于单集，并非整季或整剧标识。\n\n备注：Bangumi 的10个章节仅有序号，无法独立核实逐集顺序；需补充章节标题或单集资料后再建立 rules。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/313649; https://api.bgm.tv/v0/subjects/313649; https://www.themoviedb.org/tv/63522; https://www.themoviedb.org/tv/63522/season/4; https://www.gaumont.com/en/series/f-is-for-family-season-4; https://www.netflix.com/title/80028732?src=tudum",
-    "verifiedAt": "2026-09-08T22:15:47.917Z"
+    "source": "https://bgm.tv/subject/313649; https://www.gaumont.com/en/series/f-is-for-family-season-4; https://www.themoviedb.org/tv/63522; https://www.themoviedb.org/tv/63522/season/4; https://api.themoviedb.org/3/find/tt9679720?external_source=imdb_id",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

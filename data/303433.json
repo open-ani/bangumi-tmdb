@@ -1,13 +1,67 @@
 {
+  "anidbId": 15386,
   "bangumiId": 303433,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 943050,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 943051,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 943052,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 943053,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 943054,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 943055,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 943056,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 943057,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 943050,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 233646,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与《ぽっこりーず》在日文原名、2020-04-06 开播日期、2021-03-15 结束日期、LINE 贴纸改编背景、ぽっこり岛日常剧情、Kachidoki Studio 制作及导演永谷优治等方面一致。TMDB 第1季实际包含连续第1至第50集，官方 BS日テレ 页面也列出完整50集，因此对应整季，不需限定集数范围。\n\nhttps://api.bgm.tv/v0/subjects/303433 (api_snapshot): Bangumi fresh API 确认 subject 303433 为2020-04-06开始的 TV《ぽっこりーず》，infobox 话数为50。\n\nhttps://www.themoviedb.org/tv/233646 (api_snapshot): TMDB details 确认 TV 233646 原名为「ぽっこりーず」、2020-04-06开播、2021-03-15完结、50集、1季；剧情为2018年LINE贴纸角色在ぽっこり岛上的日常，制作公司为Kachidoki Studio，导演为永谷优治。\n\nhttps://www.themoviedb.org/tv/233646/season/1 (api_snapshot): TMDB 第1季实际季表确认 season=1、episodeCount=50、total_pages=1，集数连续覆盖第1集至第50集，日期从2020-04-06至2021-03-15。\n\nhttps://www.bs4.jp/poccolies/ (page): BS日テレ官方页面列出该动画2020-04-06首播，并逐集列出第1集至第50集，最后一集为2021-03-15的第50集。\n\n备注：freshBangumi 的 total_episodes=8及归档集表仅有8集，与infobox的50集冲突；官方页面和TMDB完整季表均确认实际主体为50集，故将其视为过时或不完整的集数元数据。",
+    "evidence": "codex: 确认对应TMDB TV 233646第1季整季。年份、电视短篇形式、制作人员、剧情背景及50话放送范围相互吻合，官方50话日期与TMDB季表逐集一致。Bangumi输入的infobox也注明50话及相同起止日期，八条章节记录不足以将subject范围缩为八集。仅第1条章节有可核对的实质标题，故明确对应S01E01，其余暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/233646 (api_snapshot): 以日文原名搜索得到 TV 233646；实际读取详情确认原名为「ぽっこりーず」，放送日期为2020-04-06至2021-03-15，共1季50集，制作公司为Kachidoki Studio，导演为永谷優治，编剧为森はるか。\n\nhttps://www.themoviedb.org/tv/233646/season/1 (api_snapshot): 实际读取第1季全部集表，episodeCount=50、total_pages=1，集号连续为1至50；逐集日期与BS日テレ官方放送表一致。TMDB标题仅为「第1話」等通用集号。\n\nhttps://www.bs4.jp/poccolies/ (page): 官方页面介绍ぽっこり岛上神秘生物的日常，列出完整第1至50话及播出日期，范围为2020-04-06至2021-03-15。第1话标题为「初回特盛ぽっこりーず」，与输入中Bangumi第1话「初回特盛」吻合。\n\nhttps://www.animatetimes.com/tag/details.php?id=9482 (search_snippet): 资料确认这是2020-04-06至2021-03-15播出的全50话TV动画，剧情与官方介绍一致；制作公司胜哄工作室、导演永谷優治、脚本森はるか及主要声优均与TMDB详情相符。\n\n备注：Bangumi现有章节表仅8条，与infobox及官方全50话记录不一致；本次未能成功读取Bangumi网页或API，不能确认其当前是否已经补全。；Bangumi第2至8条章节均无标题和日期，缺少逐集核对依据，暂留空；需补充章节资料后再建立对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/303433; https://api.bgm.tv/v0/subjects/303433; https://www.themoviedb.org/tv/233646; https://www.themoviedb.org/tv/233646/season/1; https://www.bs4.jp/poccolies/",
-    "verifiedAt": "2026-09-08T21:57:01.619Z"
+    "source": "https://bgm.tv/subject/303433; https://www.themoviedb.org/tv/233646; https://www.themoviedb.org/tv/233646/season/1; https://www.bs4.jp/poccolies/; https://www.animatetimes.com/tag/details.php?id=9482",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

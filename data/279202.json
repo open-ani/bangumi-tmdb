@@ -1,16 +1,98 @@
 {
   "anidbId": 14801,
   "bangumiId": 279202,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 996250,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 996251,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 996252,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 996253,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 996254,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 996255,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 996256,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 996257,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 996258,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 996259,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 996260,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1005248,
+      "sort": 5.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1005248,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 83097,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《约定的梦幻岛 第二季》，2021 年播出，正片 11 集，并含特别篇《道標/路标》。输入中的 AniDB ID 14801 及别名均对应 The Promised Neverland (2021)。TMDB TV 83097 的主条目、剧情和制作背景与该系列一致；第 2 季明确为 11 集，剧情从逃离 Grace Field House 后继续，与 Bangumi 第二季主体吻合。TMDB 另列 season 0“特别编”且仅 1 集，日期与官方公布的 Season 2 特别篇《道標》一致，因此纳入完整 season 0；不猜测其单集编号。\n\nhttps://bgm.tv/subject/279202 (page): Bangumi 条目名称为《約束のネバーランド Season 2》，类型为 TV，话数 11，放送时间为 2021-01-07 至 2021-03-25，并列出 SP 05.5《路标/道標》。\n\nhttps://www.themoviedb.org/tv/83097 (api_snapshot): TMDB TV 83097 原名为《約束のネバーランド》，主条目概述对应 Grace Field House 故事；季列表包含 season 2（11 集）及 season 0“特别编”（1 集，2021-02-12）。\n\nhttps://www.themoviedb.org/tv/83097/season/2 (api_snapshot): TMDB season 2 共 11 集，完整剧集编号为 1–11，日期为 2021-01-08 至 2021-03-26，剧情从 15 名孩子逃离 Grace Field House 后展开。\n\nhttps://neverland-anime.com/1st/news/?article_id=56363 (search_snippet): 官方公告确认 Season 2 特别篇《道標》于 2021-02-11 深夜播出，用新录旁白回顾此前剧情。\n\nhttps://neverland-anime.com/story/?id=sp (search_snippet): 官方特别篇页面标题为《特別編「道標」》，内容为 Emma、Ray、Norman 回顾脱逃及此前经历，与 Bangumi 的 SP《路标》及 TMDB season 0 特别编相符。",
+    "evidence": "codex: 已确认对应 TMDB 83097 第2季：年份、电视动画版本、制作人员、剧情及11集范围一致；逐集标题和经深夜放送日期换算后的排期全部吻合，本篇1—11话对应 S02E01—E11。特别篇《道標》通过标题、剧情及官方播出公告确认对应 S00E01，以章节ID覆盖小数 sort 5.5。\n\nhttps://www.themoviedb.org/tv/83097 (api_snapshot): TMDB 83097 为日本电视动画《約束のネバーランド》，制作公司 CloverWorks、导演神户守、原作者白井カイウ与出水ぽすか均与输入一致。第2季简介描述15名孩子逃离农场后的经历，与本 subject 剧情一致。\n\nhttps://www.themoviedb.org/tv/83097/season/2 (api_snapshot): 第2季完整集表共11集、仅1页，标题逐一为 EPISODE1 至 EPISODE11。日期依次为2021年01-08、01-15、01-22、01-29、02-05、02-19、02-26、03-05、03-12、03-19、03-26，逐集比输入 Bangumi 日期晚一天，且第5至6集之间的停播间隔一致。\n\nhttps://www.themoviedb.org/tv/83097/season/0 (api_snapshot): 第0季完整集表仅1集，实际集号为1，标题为《約束のネバーランド 特別編「道標」》，日期2021-02-12；简介为艾玛与雷向诺曼回顾逃离农场及其后的经历，与官方特别篇一致。\n\nhttps://neverland-anime.com/staffcast/ (page): 第二季官网确认导演神户守、原作者白井カイウ与出水ぽすか、动画制作 CloverWorks，与 Bangumi 输入及 TMDB 制作信息一致。\n\nhttps://neverland-anime.com/onair/ (page): 官方播出表为1月7日起每周四25:25播出，并注明3月25日深夜播出第11话；跨午夜的播出时间解释了 Bangumi 放送日与 TMDB 自然日相差一天。\n\nhttps://neverland-anime.com/1st/news/?article_id=56363 (page): 官方公告明确第二季特别篇《道標》于2021年2月11日25:25播出，即自然日2月12日，以新录旁白回顾此前剧情。\n\nhttps://neverland-anime.com/story/?id=sp (page): 官方故事列表将《道標》置于 EP5 与 EP6 之间，其剧情简介与 TMDB S00E01 相符，确认其为单独的回顾特别篇。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/279202; https://www.themoviedb.org/tv/83097; https://www.themoviedb.org/tv/83097/season/2; https://neverland-anime.com/1st/news/?article_id=56363; https://neverland-anime.com/story/?id=sp",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/279202; https://www.themoviedb.org/tv/83097; https://www.themoviedb.org/tv/83097/season/2; https://www.themoviedb.org/tv/83097/season/0; https://neverland-anime.com/staffcast/; https://neverland-anime.com/onair/; https://neverland-anime.com/1st/news/?article_id=56363; https://neverland-anime.com/story/?id=sp",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 83097
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +101,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 83097,
       "season": 0,
       "type": "tv"

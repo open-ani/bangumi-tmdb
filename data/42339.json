@@ -1,26 +1,114 @@
 {
   "anidbId": 9076,
   "bangumiId": 42339,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 194011,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 194012,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 194013,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 194014,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 194015,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 194016,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 194017,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 194018,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 194019,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 194020,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 194021,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 194022,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 201645,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 201645,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 46279,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《ヨルムンガンド PERFECT ORDER》第二期，2012-10-09 开播，含 12 集正篇及主体内的第一期总集篇特别篇。TMDB TV 46279 明确将 12 集《ヨルムンガンド PERFECT ORDER》列为第 2 季，并另列 1 集“特別編”为第 0 季。官方资料显示该总集篇在日本不同电视台于 2012-10-02/10-03 播出，正好解释 Bangumi 与 TMDB 的日期差异。因此应映射为 season 0 的完整特别篇和 season 2 的完整 12 集；season 1 是前一期，不纳入。\n\nhttps://bgm.tv/subject/42339 (page): Bangumi 页面确认标题、第二期别名、2012-10-09 开播、12 集正篇、与前作关联，以及章节中的 13–24 集、SP 和 00 总集篇。页面简介称其为电视动画系列第二期及完结篇，制作公司为 WHITE FOX。\n\nhttps://www.themoviedb.org/tv/46279 (api_snapshot): TMDB TV 46279 主条目列出 season 0“特別編”（1 集）、season 1“ヨルムンガンド”（12 集）和 season 2“ヨルムンガンド PERFECT ORDER”（2012-10-09，12 集），总正篇数为 24 集。\n\nhttps://www.jormungand.tv/list_info.html (search_snippet): 官方动画网站的搜索摘要显示第一期总集篇特番安排在 2012-10-02；BS11 为 10-03 播出，同时确认 PERFECT ORDER 于 10-09 开播。\n\nhttps://watch.plex.tv/en-GB/show/jormungand/season/2 (search_snippet): 独立剧集资料列出 PERFECT ORDER 共 12 集，标题顺序与 Bangumi 的正篇标题“天を仰ぐ蛇”至“恥の世紀”一致；仅作为内容交叉核对，不用于替代 TMDB 的季号。\n\nhttps://www.wikidata.org/wiki/Q1771347 (search_snippet): Wikidata 的 Jormungand 条目标示 AniDB 标识 9076，与输入中 Bangumi→AniDB 的匹配名称 Jormungand: Perfect Order 相符。",
+    "evidence": "codex: 年份、电视动画版本、剧情、导演、制作公司及12集逐集标题和播出日期均吻合，确认正篇13–24对应 TMDB 46279 第二季1–12集。总集篇单独对应 S00E01，其一天日期差异与官方公布的不同电视台播出安排相容。第1季属于前作，输入中 AniDB 指向第1季的冲突线索不采用。\n\nhttps://bgm.tv/subject/42339 (page): Bangumi 确认本作是2012年10月9日至12月25日播出的第二期电视动画，共12集，导演元永庆太郎、动画制作 WHITE FOX；剧情围绕军火商蔻蔻与少年兵约拿展开。\n\nhttps://www.themoviedb.org/tv/46279 (api_snapshot): TMDB 46279 的剧情、导演及制作公司与 Bangumi 一致；别名明确将 PERFECT ORDER 标为第二季，季列表记载第二季于2012年10月9日开播、共12集。\n\nhttps://www.themoviedb.org/tv/46279/season/2 (api_snapshot): 已读取第二季完整集表，共12集、仅1页。第1至12集与输入的 Bangumi sort 13至24逐集标题及日期一致，仅英文标题大小写存在差异；日期从2012年10月9日每周递增至12月25日。\n\nhttps://www.themoviedb.org/tv/46279/season/0 (api_snapshot): 已读取第0季完整集表，共1集、仅1页；第1集为《ヨルムンガンド PERFECT ORDER 第1期総集編》，日期为2012年10月3日。\n\nhttps://sundaygx.com/jormungand/ (search_snippet): 小学馆官方作品页的搜索摘要记载，第一期总集篇特番于10月2日播出，BS11于10月3日、AT-X于10月5日播出，支持 Bangumi 总集篇与 TMDB S00E01 为同一特番。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/42339; https://www.themoviedb.org/tv/46279; https://www.jormungand.tv/list_info.html; https://watch.plex.tv/en-GB/show/jormungand/season/2; https://www.wikidata.org/wiki/Q1771347",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/42339; https://www.themoviedb.org/tv/46279; https://www.themoviedb.org/tv/46279/season/2; https://www.themoviedb.org/tv/46279/season/0; https://sundaygx.com/jormungand/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 46279
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 46279,
-      "season": 0,
+      "season": 2,
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 46279,
-      "season": 2,
+      "season": 0,
       "type": "tv"
     }
   ]

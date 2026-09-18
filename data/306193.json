@@ -1,19 +1,151 @@
 {
   "anidbId": 15546,
   "bangumiId": 306193,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 978089,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 978090,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 978091,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 978092,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 978093,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 978094,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 978095,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 978096,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 978097,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 978098,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 978099,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 978100,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 978101,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 994484,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 994485,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 994486,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 994487,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 994488,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 994489,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 994490,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 998307,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 998308,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 998309,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 998310,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 103254第1季第1—24集。作品资料吻合，24话标题和日期逐集一致；TMDB将本篇与《弐の章》合并为一季48集，故旧映射需收窄为前24集，与续篇占用的第25—48集不重叠。\n\nhttps://www.themoviedb.org/tv/103254 (api_snapshot): 日文原名搜索命中 TV 103254；详情显示首播为2020-10-03，剧情围绕永远、刹那、诸叶展开，导演包含佐藤照雄，制作公司为SUNRISE、小学馆、读卖电视台，与本条目的年份、剧情、人员及TV版本一致。\n\nhttps://www.themoviedb.org/tv/103254/season/1 (api_snapshot): 已读取第1季完整集表，共48集，total_pages=1。第1—24集的日文标题及播出日期与输入的24话逐集完全一致，范围为2020-10-03至2021-03-20。第25集于2021-10-02播出，属于续篇开始，因此本条目仅覆盖第1—24集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/306193; https://www.themoviedb.org/tv/103254; https://www.themoviedb.org/tv/103254/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 103254
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 24,
       "id": 103254,
       "season": 1,
       "type": "tv"

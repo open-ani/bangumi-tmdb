@@ -1,16 +1,202 @@
 {
   "anidbId": 13838,
   "bangumiId": 240459,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 788374,
+      "sort": 65,
+      "type": 0
+    },
+    {
+      "id": 788375,
+      "sort": 66,
+      "type": 0
+    },
+    {
+      "id": 788376,
+      "sort": 67,
+      "type": 0
+    },
+    {
+      "id": 788377,
+      "sort": 68,
+      "type": 0
+    },
+    {
+      "id": 788378,
+      "sort": 69,
+      "type": 0
+    },
+    {
+      "id": 788379,
+      "sort": 70,
+      "type": 0
+    },
+    {
+      "id": 788380,
+      "sort": 71,
+      "type": 0
+    },
+    {
+      "id": 788381,
+      "sort": 72,
+      "type": 0
+    },
+    {
+      "id": 788382,
+      "sort": 73,
+      "type": 0
+    },
+    {
+      "id": 788383,
+      "sort": 74,
+      "type": 0
+    },
+    {
+      "id": 788384,
+      "sort": 75,
+      "type": 0
+    },
+    {
+      "id": 788385,
+      "sort": 76,
+      "type": 0
+    },
+    {
+      "id": 788386,
+      "sort": 77,
+      "type": 0
+    },
+    {
+      "id": 788387,
+      "sort": 78,
+      "type": 0
+    },
+    {
+      "id": 788388,
+      "sort": 79,
+      "type": 0
+    },
+    {
+      "id": 788389,
+      "sort": 80,
+      "type": 0
+    },
+    {
+      "id": 788390,
+      "sort": 81,
+      "type": 0
+    },
+    {
+      "id": 788391,
+      "sort": 82,
+      "type": 0
+    },
+    {
+      "id": 788392,
+      "sort": 83,
+      "type": 0
+    },
+    {
+      "id": 788393,
+      "sort": 84,
+      "type": 0
+    },
+    {
+      "id": 788394,
+      "sort": 85,
+      "type": 0
+    },
+    {
+      "id": 788395,
+      "sort": 86,
+      "type": 0
+    },
+    {
+      "id": 788396,
+      "sort": 87,
+      "type": 0
+    },
+    {
+      "id": 788397,
+      "sort": 88,
+      "type": 0
+    },
+    {
+      "id": 844850,
+      "sort": 89,
+      "type": 0
+    },
+    {
+      "id": 844851,
+      "sort": 90,
+      "type": 0
+    },
+    {
+      "id": 844852,
+      "sort": 91,
+      "type": 0
+    },
+    {
+      "id": 844853,
+      "sort": 92,
+      "type": 0
+    },
+    {
+      "id": 844854,
+      "sort": 93,
+      "type": 0
+    },
+    {
+      "id": 844855,
+      "sort": 94,
+      "type": 0
+    },
+    {
+      "id": 844856,
+      "sort": 95,
+      "type": 0
+    },
+    {
+      "id": 844857,
+      "sort": 96,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 数据显示该 subject 为第3系列，2018-04-03 开始，共32集；TMDB 66999 的第3季同样于2018-04-03播出且为32集，季号、年份和集数一致，应对应整季。候选第5季请求失败，不能据此判定不存在，但第5季与已确认的第3系列信息不符。\n\nhttps://www.themoviedb.org/tv/66999 (api_snapshot): 随附 TMDB API 快照显示该剧第3季 air_date 为 2018-04-03、episode_count 为32；同时列出第1至第4季，不含第5季。\n\nhttps://www.themoviedb.org/tv/66999/season/5 (api_snapshot): 随附 API 快照记录第5季请求返回 HTTP 404；这只是请求失败，不能作为该季不存在的证明。\n\nhttps://bgm.tv/subject/240459 (page): 随附 Bangumi 数据显示标题为《少年アシベ GO!GO!ゴマちゃん 第3シリーズ》，首播日期为2018-04-03，共32集，并提供了完整正篇集目。\n\n备注：AniDB 13838 页面访问受限，未能独立核验 Bangumi→AniDB 关联；但该关联不是决定 TMDB 季号的唯一依据，Bangumi 与 TMDB 第3季的日期及集数已直接对应。",
+    "evidence": "codex: 确认对应 TMDB 66999 第三季：版本、制作背景、剧情、播出起止日期及32集规模一致，完整季表未显示混入其他作品。30集播出日期逐集吻合，建立三段连续规则；另外两集存在日期冲突且缺少有效标题，暂留空。\n\nhttps://www.themoviedb.org/tv/66999 (api_snapshot): 日文原名搜索得到 TV 66999；详情确认这是2016年开始的《少年アシベ GO！GO！ゴマちゃん》，制作公司包含 Bridge。季列表中第三季始于2018-04-03，共32集，与本 subject 的版本、年份和集数吻合。\n\nhttps://www.themoviedb.org/tv/66999/season/3 (api_snapshot): 已读取第三季完整32集，total_pages=1。逐集比对输入日期，30集一致；第17集记为2018-09-25，第27集记为2018-12-25，与 Bangumi 不同。日文及英文集名均为编号占位，无法通过标题核实这两集。\n\nhttps://gogo-gomachan.com/story/index_thirdseries.html (page): 官方第三系列故事表确认阿贝与海豹小芝麻的日常剧情，首末篇播出日期为2018-04-03、2019-02-26；《激ウマ！チャーハン選手権》和《ゴマデレラ》分别标注2018-10-02、2019-01-08，与输入一致。\n\nhttps://klockworx.com/movies/8184/ (search_snippet): 第三系列发行资料标明2018年日本制作，原作为森下裕美《少年アシベ》，导演近藤信宏，剧情为小学一年级阿贝与海豹小芝麻的日常生活。\n\nhttps://www.videomarket.jp/title/100044?epi=2 (search_snippet): 第三系列配信资料列出导演近藤信宏，动画制作为 Bridge、studioぱれっと，支持作品版本识别。\n\nhttps://www.themoviedb.org/tv/66999/season/5 (api_snapshot): 第五季请求返回 HTTP 404，作品详情仅列四季；没有取得支持第五季线索的有效季表。\n\n备注：Bangumi sort 81（章节788390）与91（章节844852）暂不映射：疑似对应 TMDB S03E17、S03E27，但日期不同且 TMDB 标题为占位文字，仍需带真实标题或剧情的 TMDB 集资料确认。；官网将2018-06-26一篇写作《夜ふかしゴマちゃん》，输入为《夜ふかしアシベ》；该集依据一致播出日期对应 S03E11。；第五季线索未获有效资料支持；HTTP 404本身不作为该季绝对不存在的证明。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/240459; https://www.themoviedb.org/tv/66999; https://www.themoviedb.org/tv/66999/season/5",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/240459; https://www.themoviedb.org/tv/66999; https://www.themoviedb.org/tv/66999/season/3; https://gogo-gomachan.com/story/index_thirdseries.html; https://klockworx.com/movies/8184/; https://www.videomarket.jp/title/100044?epi=2; https://www.themoviedb.org/tv/66999/season/5",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 80,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 65,
+      "tmdbId": 66999
+    },
+    {
+      "bangumiType": 0,
+      "end": 90,
+      "episodeStart": 18,
+      "season": 3,
+      "start": 82,
+      "tmdbId": 66999
+    },
+    {
+      "bangumiType": 0,
+      "end": 96,
+      "episodeStart": 28,
+      "season": 3,
+      "start": 92,
+      "tmdbId": 66999
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

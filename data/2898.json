@@ -1,16 +1,36 @@
 {
   "anidbId": 6192,
   "bangumiId": 2898,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 19146,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 19147,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《×××HOLiC 春夢記》OVA，共2集，发行日为2009-02-17和2009-06-23。TMDB TV 36250 的特别篇季（season 0）前两集标题为「春夢記 前編／後編」，日期与这两集吻合；该季另含《×××HOLiC・籠》等其他作品，因此仅映射第1–2集。\n\nhttps://www.themoviedb.org/tv/36250 (api_snapshot): TMDB 条目为《×××HOLiC》，包含 season 0「特別編」，其首播日为2009-02-17，共4集。\n\nhttps://www.themoviedb.org/tv/36250/season/0 (api_snapshot): season 0 第1集「春夢記 前編」日期为2009-02-17，第2集「春夢記 後編」日期为2009-06-23；第3、4集分别为《籠》和《籠 あだゆめ》。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《×××HOLiC 春夢記》OVA，共2集，发行日为2009-02-17和2009-06-23。TMDB TV 36250 的特别篇季（season 0）前两集标题为「春夢記 前編／後編」，日期与这两集吻合；该季另含《×××HOLiC・籠》等其他作品，因此仅映射第1–2集。\n\nhttps://www.themoviedb.org/tv/36250 (api_snapshot): TMDB 条目为《×××HOLiC》，包含 season 0「特別編」，其首播日为2009-02-17，共4集。\n\nhttps://www.themoviedb.org/tv/36250/season/0 (api_snapshot): season 0 第1集「春夢記 前編」日期为2009-02-17，第2集「春夢記 後編」日期为2009-06-23；第3、4集分别为《籠》和《籠 あだゆめ》。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/2898; https://www.themoviedb.org/tv/36250; https://www.themoviedb.org/tv/36250/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 36250
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

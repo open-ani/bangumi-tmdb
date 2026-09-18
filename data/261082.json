@@ -1,16 +1,86 @@
 {
   "anidbId": 14389,
   "bangumiId": 261082,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 832574,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 832575,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 832576,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 832577,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 832578,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 832579,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 832580,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 832581,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 832582,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 832583,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 832584,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 832585,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject《でびどる！/恶魔偶像》与 AniDB 14389 的标题、首播日期和 12 集 TV 作品信息一致。TMDB TV 82825 同名，首播日为 2018-10-04，共 12 集；第 1 季也明确包含完整的 12 集，剧集标题和日期与主体内容整体对应。因此应映射为 TMDB TV 82825 第 1 季全集。Bangumi 中第 3、4 集的日期顺序与 TMDB 记录相反，但标题和总集数仍支持同一版本，属于 Bangumi 单集元数据顺序差异，不影响完整一季映射。\n\nhttps://bgm.tv/subject/261082 (page): Bangumi 记录标题为《でびどる！》，首播日期为 2018-10-04，类型为 TV，共 12 集，并关联 AniDB ID 14389。\n\nhttps://www.themoviedb.org/tv/82825 (api_snapshot): TMDB TV 82825 标题为《でびどる！》，首播日期为 2018-10-04，共 12 集，且仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/82825/season/1 (api_snapshot): TMDB 第 1 季 season_number=1，首播日期为 2018-10-04，包含第 1 至第 12 集；剧集标题包括「アイドルって食べ物？」「ラブラブマシーン」等，与 Bangumi 主体对应。\n\n备注：Bangumi 提供的第 3、4 集 airdate 顺序与 TMDB 相反；但两者标题、总集数及整体播出区间一致。",
+    "evidence": "codex: 确认对应TMDB 82825第1季全12集。年份、TV媒介、剧情、导演、角色声优及集数范围相符。第1至6集标题顺序一致，第7至12集虽在输入中缺少标题，但播出日期逐集一致。正版平台也确认第3、4集的标题编号，因此保持1至12集顺序映射，不因日期冲突交换章节。\n\nhttps://bgm.tv/subject/261082 (page): Bangumi 将本作记为2018年10月4日至12月20日播出的12集TV动画，导演为菅原そうた，三位主角及声优与TMDB一致；《コチンPa! 第二期》另列为前传。\n\nhttps://www.themoviedb.org/tv/82825 (api_snapshot): 日文原名搜索找到82825；详情确认其为2018年的《でびどる！》，讲述三位恶魔少女学习成为偶像的故事。导演、四位主要声优与官方资料一致，播出区间为2018-10-04至2018-12-20，仅有一季12集。\n\nhttps://www.themoviedb.org/tv/82825/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。第1至6集标题与Bangumi逐集一致；第1、2及5至12集日期逐集一致。第3集为「ブランチレポーター」，日期2018-10-18；第4集为「行くぜ強盗少女」，日期2018-10-25，与输入的这两集日期相反。\n\nhttps://devidol.com/staff-cast/ (page): 官方制作人员页面确认导演菅原そうた，以及三森すずこ、井口裕香、花澤香菜、ふかわりょう对应的四位角色，与TMDB详情一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=22432 (search_snippet): 正版平台集表确认第3集为「ブランチレポーター」、第4集为「行くぜ強盗少女」，前12集标题顺序与TMDB一致；另列第13项为总集篇，不属于本次输入的12集范围。\n\n备注：输入的第3、4集日期与TMDB相反，日期元数据存在冲突；标题及正版平台集号均支持第3集对应第3集、第4集对应第4集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/261082; https://www.themoviedb.org/tv/82825; https://www.themoviedb.org/tv/82825/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/261082; https://www.themoviedb.org/tv/82825; https://www.themoviedb.org/tv/82825/season/1; https://devidol.com/staff-cast/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=22432",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 82825
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

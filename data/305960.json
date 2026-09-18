@@ -1,15 +1,164 @@
 {
+  "anidbId": 16626,
   "bangumiId": 305960,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 949036,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 949037,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 949038,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 949039,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 949040,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 949041,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 949042,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 949043,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 949044,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 949045,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 949046,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 949047,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 949048,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 949049,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 949050,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 949051,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 949103,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 949104,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 949105,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 949106,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 949107,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 949108,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 949109,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 949110,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 949111,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 949112,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《魔晶猎人》（魔晶猎人／Mo Jing Lieren），其第 5 季明确标为《第 5 季 暮色燃烧》，首播日期为 2020-01-17，剧情简介、制作公司及刘可欣相关制作信息与 Bangumi 条目一致。TMDB 第 5 季实际季表有且仅有 26 集，覆盖主体第 1 至第 26 集，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/305960 (api_snapshot): Bangumi API 标题为《魔晶猎人 第五季 暮色燃烧》，日期 2020-01-17，共 26 集；简介、刘可欣及华映星球制作信息与候选作品相符。\n\nhttps://www.themoviedb.org/tv/218276 (api_snapshot): TMDB 详情确认作品为《魔晶猎人》，2014 年开始，共 5 季；简介明确提到第五季《魔晶猎人·暮色燃烧》，制作公司为 Taikong Works，并列出与 Bangumi 一致的中文、拼音及英文别名。\n\nhttps://www.themoviedb.org/tv/218276/season/5 (api_snapshot): TMDB 第 5 季名称为《第 5 季 暮色燃烧》，日期 2020-01-17，实际季表共 26 集，编号连续覆盖 1-26，每集约 13 分钟。\n\nhttps://www.iqiyi.com/a_19rrhwzuyd.html (page): 爱奇艺官方页面将其列为《魔晶猎人 第5季 暮色燃烧》，年份 2020，剧情与 Bangumi/TMDB 一致，并明确标注共 26 集。\n\n备注：TMDB 季表部分播出日期与 Bangumi 日期不完全一致，且个别集名存在简写或版本差异；但季名、剧情、年份、集数和连续范围一致，不影响整季匹配。；TMDB 主剧详情的总集数为 139，且主剧最后播出日期字段与第 5 季末集日期存在轻微不一致；第 5 季实际季表仍明确为 26 集。",
+    "evidence": "codex: 年份、制作人员、制作方、剧情、季副标题及26集范围共同确认对应TMDB 218276第五季整季。依据逐集标题比对建立第1—15、17—26集顺序映射；第1集仅有标题末字差异，官方标题支持对应。第16集存在标题冲突，暂不建立逐集映射。\n\nhttps://www.themoviedb.org/tv/218276 (api_snapshot): TMDB 详情确认该系列为华映星球制作、刘可欣执导及编剧的中国动画《魔晶猎人》；第五季明确名为《暮色燃烧》，首播日期为2020-01-17，剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/218276/season/5 (api_snapshot): 第五季实际集表共26集，编号1—26，total_pages=1。与输入逐集比较，第2—15、17—26集标题一致；第1集为《燃烧的魂商》，输入多一个“人”字；第16集为《助纣为虐》，与输入重复填写的《金乌降临》不同。日期存在差异：TMDB前3集均为2020-01-17，末集为2020-06-26，第12集日期为异常的2020-02-03。\n\nhttps://www.iqiyi.com/a_19rrhwzuyd.html (page): 爱奇艺官方专辑确认为2020年《魔晶猎人 第5季 暮色燃烧》，共26集，剧情与输入及TMDB一致；第1集标题为《燃烧的魂商》，第15、16集分别为《金乌降临》《助纣为虐》，支持TMDB的标题记录。\n\n备注：Bangumi第16集（949051）与第15集同名，疑似录入重复；官方和TMDB第16集均为《助纣为虐》。缺少该Bangumi章节内容的独立确认，保留未映射。；双方逐集日期并不一致，TMDB第12集日期还存在明显时序异常；日期差异尚未核实，不据此移动集号。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/305960; https://api.bgm.tv/v0/subjects/305960; https://www.themoviedb.org/tv/218276; https://www.themoviedb.org/tv/218276/season/5; https://www.iqiyi.com/a_19rrhwzuyd.html",
-    "verifiedAt": "2026-09-08T21:59:33.815Z"
+    "source": "https://bgm.tv/subject/305960; https://www.themoviedb.org/tv/218276; https://www.themoviedb.org/tv/218276/season/5; https://www.iqiyi.com/a_19rrhwzuyd.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 218276
+    },
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 17,
+      "season": 5,
+      "start": 17,
+      "tmdbId": 218276
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

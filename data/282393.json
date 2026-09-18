@@ -1,13 +1,65 @@
 {
+  "anidbId": 15970,
   "bangumiId": 282393,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 882066,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 882067,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 882068,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 882069,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 882070,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 882071,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 882072,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 882073,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 882074,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 882075,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目《みこのつとめっ！》与 Bangumi 主体同名，首播日均为 2018-12-07，均描述樱巫女/さくらみこ及电脳神社日常；官方资料确认这是 Hololive 的短篇 WEB 动画，而非后续《ホロのぐらふぃてぃ》。TMDB 详情显示全 1 季、10 集，季表实际覆盖第 1 至第 10 集，日期至 2019-02-08，与 Bangumi 的 10 集范围完全对应，因此使用整季映射。\n\nhttps://api.bgm.tv/v0/subjects/282393 (api_snapshot): Bangumi API：标题为「みこのつとめっ！」，2018-12-07 开始，WEB 动画，共 10 集；剧情围绕自称精英虚拟巫女さくらみこ。\n\nhttps://www.themoviedb.org/tv/309230 (api_snapshot): TMDB 详情：原名「みこのつとめっ！」，2018-12-07 首播，2019-02-08 完结，1 季 10 集；演员/角色包含さくらみこ与金时。\n\nhttps://www.themoviedb.org/tv/309230/season/1 (api_snapshot): TMDB 第 1 季实际集表包含第 1 至第 10 集，日期从 2018-12-07 至 2019-02-08，短集片长约 2 至 4 分钟。\n\nhttps://cover-corp.com/news/detail/20181225-2 (search_snippet): COVER 官方公告将「みこのつとめっ！」定义为 Hololive 的 YouTube 日常系短篇动画第一弹，主角为虚拟巫女さくらみこ，并提及田中雄一负责角色设计。\n\nhttps://panora.tokyo/panora.tokyo/82377/HPC-index.html (search_snippet): 同期报道确认该动画于 2018-12-07 在さくらみこ YouTube 频道首发，是围绕さくらみこ日常的一话完结短篇动画；每话约 1 至 2 分钟。\n\nhttps://www.themoviedb.org/tv/122522 (api_snapshot): TMDB 搜索显示《ホロのぐらふぃてぃ》是另一个标题且首播为 2019-05-05，故未将其作为本主体。\n\n备注：TMDB 详情未提供剧情简介和制作人员列表，但官方公告及同期报道已补足作品身份与角色设计信息。",
+    "evidence": "codex: 确认对应TMDB 309230第1季整季。首播日期、主角及金時角色、YouTube日常短篇形式和10集本篇范围相互吻合，未发现混入后续《ホロのぐらふぃてぃ》或宣传片。作品与季范围可以确认，但输入的Bangumi章节均无标题和日期，无法完成逐集内容核对，因此保留整季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/309230 (api_snapshot): TMDB 309230 原名为《みこのつとめっ！》，首播于2018-12-07，完结于2019-02-08，共1季10集；角色包括さくらみこ和金時，与输入的作品背景吻合。\n\nhttps://www.themoviedb.org/tv/309230/season/1 (api_snapshot): 第1季完整季表共10集，total_pages=1，集号连续为1至10，日期覆盖2018-12-07至2019-02-08，每集2至4分钟；标题仅为「第1話」至「第10話」。\n\nhttps://cover-corp.com/news/detail/20181225-2 (page): COVER官方公告确认本作为YouTube日常短篇动画品牌「ホロアニメ」第一弹，主角为さくらみこ，并说明其角色设计者为田中雄一；主题曲与动画本体分别介绍。\n\nhttps://panora.tokyo/panora.tokyo/82377/HPC-index.html (page): 2018年同期报道确认动画于12月7日在さくらみこ频道首发，描写其日常及式神金時，采用一话完结形式；第一话标题为「おれさまのごしゅじん」。\n\nhttps://ja.wikid.org/ホロライブプロダクション (search_snippet): 资料摘要记载本作于2018-12-07至2019-02-08配信，本篇全10话，另有CM和PV；并将其与第二弹《ホロのぐらふぃてぃ》明确区分。\n\n备注：Bangumi十个章节缺少标题及播出日期，TMDB标题也仅为集号；不能仅凭位置建立逐集规则，需补充章节信息或原始发布记录。；TMDB未提供简介和制作人员表；作品身份由其日期、角色、集数及官方公告、同期报道交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/282393; https://api.bgm.tv/v0/subjects/282393; https://www.themoviedb.org/tv/309230; https://www.themoviedb.org/tv/309230/season/1; https://cover-corp.com/news/detail/20181225-2; https://panora.tokyo/panora.tokyo/82377/HPC-index.html; https://www.themoviedb.org/tv/122522",
-    "verifiedAt": "2026-09-08T21:41:39.988Z"
+    "source": "https://bgm.tv/subject/282393; https://www.themoviedb.org/tv/309230; https://www.themoviedb.org/tv/309230/season/1; https://cover-corp.com/news/detail/20181225-2; https://panora.tokyo/panora.tokyo/82377/HPC-index.html; https://ja.wikid.org/ホロライブプロダクション",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

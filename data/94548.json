@@ -1,13 +1,20 @@
 {
+  "anidbId": 9889,
   "bangumiId": 94548,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 886662,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认是2013年《どーにゃつ》剧场短动画合集：官方资料明确其自2013-06-01起在影院每月上映约2分钟的一话，最终为第12话；Bangumi虽将影院合集记为剧场版且话数为1，但剧情、原作、导演、制作公司和角色阵容均与 TMDB 90325 一致。TMDB第1季实际列出1-13话，其中第1-12话是对应的12个剧情短篇；第13话仅名为“Ending”且时长26秒，因此不纳入主体范围。第0季的两集是DVD特典，也不纳入。\n\nhttps://bgm.tv/subject/94548 (page): Bangumi将作品标为剧场版，日期为2013-06-01、话数为1，并记载新宿废墟、甜食形生物及影院短片/网络配信信息。\n\nhttps://prtimes.jp/main/html/rd/p/000000270.000005167.html (page): 制作方公告确认作品为约2分钟的剧场短动画，自2013年6月起每月上映一话，共12话，第12话为最终话；并列出原作コザキユースケ、导演/脚本まんきゅう、动画制作ギャザリング。\n\nhttps://donyatsu.jp/ (page): 官方站确认新宿废墟剧情、角色配音阵容、原作、まんきゅう及ギャザリング。\n\nhttps://www.themoviedb.org/tv/90325 (api_snapshot): TMDB详情确认原名どーにゃつ、首播日期2013-06-01、剧情为新宿废墟中的甜甜圈猫、制作公司Gathering、系列导演Mankyu及对应配音演员。\n\nhttps://www.themoviedb.org/tv/90325/season/1 (api_snapshot): TMDB第1季实际有13集；第1-12集标题对应剧场短篇，第13集为26秒的Ending。\n\nhttps://www.themoviedb.org/tv/90325/season/0 (api_snapshot): TMDB特别篇为Nice to Meet You、My Day两集，属于DVD特典，不是Bangumi主体的12个剧情短篇。\n\nhttps://www.videomarket.jp/title/280001/A280001013999H03 (search_snippet): 日本视频发行目录将主体列为第1轮至第12轮，并列出12个剧情短篇标题。\n\n备注：TMDB将26秒的“Ending”单列为第13集，而部分零售资料把DVD宣传为全13话；官方制作方则明确主体为全12轮，因此本推荐采用官方主体范围1-12。",
+    "evidence": "codex: 确认对应TMDB 90325第1季第1—12集。年份、首映日期、剧情、导演、制作公司及配音共同确认作品身份；官方12话主体与发行目录及TMDB集标题一致。Bangumi以剧场版条目记录这组影院短动画，TMDB以系列分集收录。第13集片尾及第0季DVD特典不纳入主体。Bangumi唯一章节缺少标题和日期，无法确认它代表首个短片还是全部短片，因此保留作品范围映射，不生成逐集规则或拆分特例。\n\nhttps://bgm.tv/subject/94548 (page): Bangumi 标记为剧场版、1话，上映日期为2013年6月1日；简介明确描述新宿废墟中的食品形动物，以及影院短片随后网络配信的发行形式。原作、导演、动画制作为コザキユースケ、まんきゅう、ギャザリング。\n\nhttps://prtimes.jp/main/html/rd/p/000000270.000005167.html (page): 发行方公告确认该剧场短动画自2013年6月1日起每月上映一话，共12话，最终话「ヒーローごっこ」于2014年5月1日上映；另将「はじめまして」「ボクの一日」列为DVD特典。\n\nhttps://www.themoviedb.org/tv/90325 (api_snapshot): TMDB 90325原名为どーにゃつ，首播日期2013年6月1日，新宿废墟及甜甜圈猫的剧情、Gathering制作、Mankyu导演及主要角色配音均与该动画一致。\n\nhttps://www.themoviedb.org/tv/90325/season/1 (api_snapshot): 第1季完整集表共13集，只有1页；第1至12集为剧情短篇，首集Catch-Ball、末集Playing Hero，第13集为Ending。API将各集日期列为2013年6月至8月的周播日期，与官方每月影院上映排期冲突。\n\nhttps://www.crunchyroll.com/series/GYVNEWNZ6/donyatsu (search_snippet): Crunchyroll发行目录列出的第1至12集标题及顺序全部与TMDB一致，第13集单列为Ending，时长26秒，支持将其与12集剧情主体分开。\n\nhttps://www.themoviedb.org/tv/90325/season/0 (api_snapshot): 第0季完整集表为Nice to Meet You、My Day两集，日期均为2013年12月20日，与发行方所列DVD特典相符。\n\n备注：Bangumi章节886662的实际内容范围未明确，暂不映射。；TMDB逐集日期与官方影院排期不一致，不能作为逐集对应依据。；本次TMDB API将Ending时长记录为2分钟；26秒来自Crunchyroll目录，旧映射将该时长归于TMDB的说法不准确。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/94548; https://prtimes.jp/main/html/rd/p/000000270.000005167.html; https://donyatsu.jp/; https://www.themoviedb.org/tv/90325; https://www.themoviedb.org/tv/90325/season/1; https://www.themoviedb.org/tv/90325/season/0; https://www.videomarket.jp/title/280001/A280001013999H03",
-    "verifiedAt": "2026-09-08T19:30:40.600Z"
+    "source": "https://bgm.tv/subject/94548; https://prtimes.jp/main/html/rd/p/000000270.000005167.html; https://www.themoviedb.org/tv/90325; https://www.themoviedb.org/tv/90325/season/1; https://www.crunchyroll.com/series/GYVNEWNZ6/donyatsu; https://www.themoviedb.org/tv/90325/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

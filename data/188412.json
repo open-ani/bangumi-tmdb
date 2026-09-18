@@ -1,16 +1,86 @@
 {
   "anidbId": 12300,
   "bangumiId": 188412,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 684863,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 684864,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 684865,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 684866,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 684867,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 684868,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 684869,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 684870,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 684871,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 684872,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 684873,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 684874,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、导演、剧情及12集范围一致；全部集标题逐集吻合，确认 Bangumi 本篇1—12对应 TMDB 69284 第1季1—12，整季未混入其他作品。\n\nhttps://www.themoviedb.org/tv/69284 (api_snapshot): 日文原名搜索命中 TMDB 69284；详情确认为2017年电视动画《風夏》，导演草川启造、榛名优与秋月风夏及冰无小雪的音乐恋爱剧情均与输入一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/69284/season/1 (api_snapshot): 已读取第1季完整集表（共12集、1页）。第1至12集日文标题逐集与 Bangumi 完全一致，第1至9集日期也一致；第10至12集 TMDB 日期分别为3月3日、10日、17日，比 Bangumi 早一周。\n\nhttps://www.thetvdb.com/series/fuuka/seasons/official/1 (search_snippet): TVDB 集表将第10集《運命》、第11集《バンド》、第12集《Fair wind》分别列为2017年3月10日、17日、24日，与输入一致，作为日期交叉证据。\n\nhttps://anitubu.com/archives/19121873.html (search_snippet): 当时的第10集观后记录收录2017年3月10日开播及前周停播的发言，支持第10集实际播出日期为3月10日。\n\n备注：TMDB 第10—12集日期比 Bangumi 及交叉资料早一周，疑似未计入停播周；标题与集序完全一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/188412; https://www.themoviedb.org/tv/69284; https://www.themoviedb.org/tv/69284/season/1; https://www.thetvdb.com/series/fuuka/seasons/official/1; https://anitubu.com/archives/19121873.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 69284
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,91 @@
 {
   "anidbId": 9747,
   "bangumiId": 66693,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 295170,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 295171,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 295172,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 295173,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 295174,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 295175,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 295176,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 295177,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 295178,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 295179,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 295180,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 295181,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 295182,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《はいたい七葉》第2期，13话，2013-04-06至2013-06-29，章节编号为14–26；官方页面也列出第二期的#14–#26及对应标题。Anime-Lists 中 AniDB 9747（Haitai Nanafa (2013)）关联 TMDB TV 79030 第1季，但该映射仅作线索。TMDB API 快照显示 79030 只有一个包含26集的第1季，且第14–26集标题与该 Bangumi 条目逐一对应，因此应映射为该季的14–26集，而不是整季。\n\nhttps://bgm.tv/subject/66693 (page): Bangumi 条目标为《はいたい七葉 第2期》，类型TV、13话，放送开始于2013年4月6日，结束于2013年6月29日；章节列表为14–26，并列出Passione等制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录 AniDB 9747 为 Haitai Nanafa (2013)，关联 tmdbtv=79030、tmdbseason=1；该文件同时显示原作第一期 AniDB 9295 也指向同一TMDB合并剧集，说明TMDB将两期合并。\n\nhttps://hai-tai.jp/ (page): 官方页面列出第二期#14至#26的标题与播出日期，覆盖2013年4月6日至6月29日；#14标题为「はいたい！謎の酔っぱらい！！」，#26为「はいたい！」。\n\nhttps://www.themoviedb.org/tv/79030 (api_snapshot): TMDB API快照显示TV 79030名为「はいたい七葉」，首播日期2012-10-06，共26集，仅有第1季且该季26集。\n\nhttps://www.themoviedb.org/tv/79030/season/1 (api_snapshot): TMDB第1季API快照的第14–26集标题分别对应第二期Bangumi章节14–26，日期为2013-04-06至2013-06-29。",
+    "evidence": "codex: 确认对应 TMDB 79030 第1季第14–26集。制作人员、剧情、电视短篇媒介及第二期13话范围一致，全部章节标题逐一吻合；TMDB 日期与官方第二期放送期间一致。TMDB 将两期编入同一季，因此仅映射后13集，并补充连续逐集规则。\n\nhttps://bgm.tv/subject/66693 (page): Bangumi 确认为2013年电视动画第二期，共13话，放送期间为4月6日至6月29日；导演木村寛，动画制作 Passione。\n\nhttps://bgm.tv/subject/66693/ep (page): 本篇章节编号为14–26，13个标题与 TMDB 对应集逐一吻合，仅有标点差异；章节日期记为2013年8月4日至10月27日，与条目放送期间不同。\n\nhttps://www.themoviedb.org/tv/79030 (api_snapshot): 日文原名及英文别名搜索均找到79030。详情确认导演木村寛、制作公司 Passione，包含第二期别名；全剧只有第1季，共26集，2012年10月6日开始、2013年6月29日结束。\n\nhttps://www.themoviedb.org/tv/79030/season/1 (api_snapshot): 已读取完整第1季集表，total_pages=1。第14–26集共13集，标题逐集对应 Bangumi sort 14–26；日期从2013年4月6日起每周递增，至6月29日结束，每集约3分钟。第1–13集属于2012年第一期。\n\nhttps://hai-tai.jp/story/ (page): 官方故事页列出第14–26话的全部标题、剧情及制作人员，与 Bangumi 和 TMDB 对应章节一致，确认是七叶与精灵们的连续电视短篇动画。\n\nhttps://hai-tai.jp/category/news/ (page): 官方公告确认第二期于2013年4月6日在琉球朝日放送开播，6月29日播出最终话；两期合计26话。\n\n备注：Bangumi 章节日期整体比 TMDB 晚120天，其日期来源尚未确认；官方首播公告及完整标题比对已足以确定对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/66693; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://hai-tai.jp/; https://www.themoviedb.org/tv/79030; https://www.themoviedb.org/tv/79030/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/66693; https://bgm.tv/subject/66693/ep; https://www.themoviedb.org/tv/79030; https://www.themoviedb.org/tv/79030/season/1; https://hai-tai.jp/story/; https://hai-tai.jp/category/news/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 14,
+      "season": 1,
+      "start": 14,
+      "tmdbId": 79030
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

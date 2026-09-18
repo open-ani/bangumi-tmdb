@@ -1,16 +1,103 @@
 {
   "anidbId": 8564,
   "bangumiId": 20582,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 139315,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 140345,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 140346,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 140347,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 140348,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 140349,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 140350,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 140351,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 140352,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 140353,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 140354,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 140355,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 162561,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 162561,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45282,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目、简介、制作人员、2012 年播出信息及正篇12集标题均与 TMDB 45282 一致。Bangumi 的第13话是《御狐神くん変化／スイッチ／おままごと》特别篇；官方页面确认其为同一作品的第13话，TMDB 45282 明确另有仅1集的 season 0「特別編」，因此应同时纳入季1完整正篇和季0完整特别篇。\n\nhttps://bgm.tv/subject/20582 (page): Bangumi 条目标为 TV《妖狐×僕SS》，共13话；页面列出正篇01—12及SP/13，并显示导演、原作、动画制作等信息。\n\nhttps://www.themoviedb.org/tv/45282 (api_snapshot): TMDB 45282 标题、日文原名、简介、制作国家与 Bangumi 主体一致；季1为12集，另有 season 0「特別編」且为1集。\n\nhttps://www.themoviedb.org/tv/45282/season/1 (api_snapshot): TMDB 季1的12个剧集标题逐项对应 Bangumi 正篇01—12，剧情简介也对应；该季为完整12集。\n\nhttps://www.inuboku.tv/story/index.html (search_snippet): 官方故事页明确列出第13话《御狐神くん変化》《スイッチ》《おままごと》，并说明为原作者藤原ここあ新写的短篇集。\n\nhttps://www.animecharactersdatabase.com/source.php?all=&id=101699&order=age (page): 独立资料以《妖狐×僕SS》、Inu x Boku Secret Service、2012年、David Production及津田尚克等信息指向同一 TV 动画主体。\n\nhttps://anidb.net/anime/8564 (page): AniDB 8564 页面本次访问返回403；未将请求失败视为不存在，作品身份改由 Bangumi、官方资料及 TMDB 内容独立交叉确认。\n\n备注：AniDB 8564 页面本次无法直接读取，因此无法从 AniDB 页面本身核验 Bangumi→AniDB 关联；但不影响 TMDB 45282 的独立版本识别。；TMDB 主条目快照未展开 season 0 的单集对象；依据其明确的 season 0 episode_count=1，将该季作为完整特别篇季纳入，而未猜测额外集数。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、制作人员及实际集表共同确认对应 TMDB 45282。本篇12集完整对应第1季；特别篇章节162561的三段标题及内容明确对应S00E01，作为一集映射。两个季的实际集表均已读取，覆盖全部13个 Bangumi 章节。\n\nhttps://www.themoviedb.org/tv/45282 (api_snapshot): 日文原名和英文别名搜索均返回 TMDB 45282。详情确认为2012年电视动画，剧情围绕白鬼院凜々蝶、御狐神双熾与妖馆展开；导演津田尚克、制作公司 David Production 与输入一致。\n\nhttps://www.inuboku.tv/staffcast/index.html (page): 官方制作人员页确认原作藤原ここあ、导演津田尚克、人物设计飯塚晴子、音乐中川幸太郎及动画制作 david production，与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/45282/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。全部标题与 Bangumi 本篇1—12逐项对应，仅第4话存在「ウオ／ウォ」表记差异；日期逐集均比 Bangumi 晚一天，周播间隔和顺序完全一致。\n\nhttps://www.themoviedb.org/tv/45282/season/0 (api_snapshot): 第0季实际集表仅1集，total_pages=1；第1集标题为「御狐神くん変化／スイッチ／おままごと」，三个故事的简介也与官方第13话一致。TMDB 日期为2012-09-30。\n\nhttps://www.inuboku.tv/story/index.html (page): 官方故事页列出正篇第1—12话，以及第13话的三个短篇「御狐神くん変化」「スイッチ」「おままごと」，并确认第13话是原作者新写的短篇集；对应 TMDB S00E01 的完整内容。\n\n备注：正篇 TMDB 日期逐集比 Bangumi 晚一天，符合深夜节目跨日记法差异，但本次未取得原始首播时刻验证。；特别篇 Bangumi 日期为2012-09-26，TMDB 为2012-09-30；日期差异原因未确认，但完整标题、三个故事内容及唯一集表记录足以确认对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/20582; https://www.themoviedb.org/tv/45282; https://www.themoviedb.org/tv/45282/season/1; https://www.inuboku.tv/story/index.html; https://www.animecharactersdatabase.com/source.php?all=&id=101699&order=age; https://anidb.net/anime/8564",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/20582; https://www.themoviedb.org/tv/45282; https://www.inuboku.tv/staffcast/index.html; https://www.themoviedb.org/tv/45282/season/1; https://www.themoviedb.org/tv/45282/season/0; https://www.inuboku.tv/story/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45282
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 45282,
       "season": 0,
       "type": "tv"

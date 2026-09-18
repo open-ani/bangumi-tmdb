@@ -1,19 +1,91 @@
 {
   "anidbId": 15230,
   "bangumiId": 293532,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1050083,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1050084,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1050085,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1050086,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1050087,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1050088,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1050089,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1050090,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1050091,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1050092,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1050093,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1050094,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 112010 第1季第1—12集。作品年份、媒介、剧情及制作人员一致，12话标题和放送日期经跨午夜换算后逐集吻合。TMDB 将两期合并为24集的一季，因此须限定前12集，不能沿用旧映射的整季范围；与续篇占用的第13—24集无冲突。\n\nhttps://www.themoviedb.org/tv/112010 (api_snapshot): TMDB 112010 为2021年电视动画，BETA与战术机的剧情设定、导演西本由纪夫及 FLAGSHIP LINE、梦太公司、Graphinica 制作信息均与输入一致。\n\nhttps://www.themoviedb.org/tv/112010/season/1 (api_snapshot): 第1季实际共24集，集表仅1页。第1—12集日文标题逐一与输入完全一致，日期均比 Bangumi 晚一天，范围为2021-10-07至2021-12-23；第13—24集为2022年播出的续篇。\n\nhttps://muv-luv-alternative-anime.com/news/detail.php?id=1094481 (search_snippet): 官方公布2021年10月6日起每周三24:55播出，首集为25:25；跨午夜的放送日记法解释了 Bangumi 与 TMDB 相差一天。\n\nhttps://muv-luv-alternative-anime.com/ (page): 官网明确第二期于2022年10月5日开始播出，支持将2021年本条目与2022年续篇区分。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/293532; https://www.themoviedb.org/tv/112010; https://www.themoviedb.org/tv/112010/season/1; https://muv-luv-alternative-anime.com/news/detail.php?id=1094481; https://muv-luv-alternative-anime.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112010
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 112010,
       "season": 1,
       "type": "tv"

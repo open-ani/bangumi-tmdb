@@ -1,15 +1,86 @@
 {
+  "anidbId": 16374,
   "bangumiId": 339247,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1043497,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1043498,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1043499,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1043500,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1043501,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1043502,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1043503,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1043504,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1043505,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1043506,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1043507,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1043508,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认对应 TMDB TV 作品 KICK&SLIDE（キックアンドスライド）。TMDB 与 Bangumi 均显示 2021-07-07 开播、2021-09-22 结束、12 集；TMDB S1 实际集表连续覆盖第 1–12 集，每集约 3 分钟。剧情均为在ナカメタウン以舞蹈和音乐解决事件，制作公司均为 CRAFTAR，主要工作人员均包含大塚隆史。TMDB 另有 S0 特別編 1 集，但 Bangumi 主体及官方资料明确是 7/7 至 9/22 播出的全 12 回 TV 系列，因此排除该特别篇。\n\nhttps://api.bgm.tv/v0/subjects/339247 (api_snapshot): Bangumi 原始 API：媒介为 TV，2021-07-07，12 集；剧情为 KICK&SLIDE 七名角色在ナカメタウン用舞蹈和音乐解决事件；制作 CRAFTAR，监督/脚本/系列构成大塚隆史。\n\nhttps://www.themoviedb.org/tv/202440 (api_snapshot): TMDB 详情：原名 KICK&SLIDE，别名キックアンドスライド，首播 2021-07-07，末播 2021-09-22，共 12 集、1 个常规季；制作公司 CRAFTAR，工作人员含大塚隆史（Series Director、Screenplay）。\n\nhttps://www.themoviedb.org/tv/202440/season/1 (api_snapshot): TMDB S1 集表实际包含第 1–12 集，日期从 2021-07-07 连续至 2021-09-22，每集片长 3 分钟，total_pages=1。\n\nhttps://www.ohast.jp/info/210609.php (page): 东京电视台《おはスタ》官方资料确认该动画于 2021 年 7 月 7 日起每周三播出，故事设定为七名 KICK&SLIDE 角色在彩色街区解决事件。\n\nhttps://m.tribe-m.jp/news/detail?group_id=21&news_id=34921 (page): LDH 官方资料于 2021-09-22 明确标注第 12 话，并称该 TV 动画为全 12 回；同时列出剧情、声优、CRAFTAR 制作及大塚隆史等工作人员。",
+    "evidence": "codex: 确认对应 TMDB 202440 第一季全 12 集。年份、电视播出形式、剧情、制作人员、角色及总集数一致；官方编号与标题逐集吻合 TMDB，播出日期符合 7 月 7 日至 9 月 22 日每周三的完整排期。因此 Bangumi 本篇 sort 1—12 对应 S1E1—E12。TMDB 详情另列第 0 季特别篇，不属于本 subject 的 12 集主体。\n\nhttps://www.themoviedb.org/tv/202440 (api_snapshot): 以原名 KICK&SLIDE 和日文别名分别搜索，均返回 TV 202440。详情确认其为 2021 年作品，首播 7 月 7 日、末播 9 月 22 日，制作公司 CRAFTAR，导演及编剧大塚隆史；七名角色及声优与官方资料一致。简介为空，剧情身份由官方资料核实。\n\nhttps://www.themoviedb.org/tv/202440/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共 12 集。第 1—12 集日期依次为 2021 年 7 月 7、14、21、28 日，8 月 4、11、18、25 日，9 月 1、8、15、22 日；全部集标题与官方配信目录同编号标题一致。\n\nhttps://www.ohast.jp/info/210609.php (page): 电视台官方确认本作于 2021 年 7 月 7 日起每周三在《おはスタ》播出，内容为七名角色在ナカメタウン用舞蹈和音乐解决事件，与输入剧情一致。\n\nhttps://m.tribe-m.jp/news/detail?group_id=21&news_id=34921 (page): LDH 官方于 2021 年 9 月 22 日公告当天播出第 12 话，明确系列全 12 回，并按编号列出第 1—12 话视频；制作、导演及声优与 TMDB 一致，确认是电视剧情短篇动画。\n\nhttps://www.cl-live.com/features/pMzvHWZPHEDchMYJ7pNAMh (search_snippet): 官方 CL 配信目录列出编号 01—12，其标题逐一对应 TMDB 第一季同号集；第 3—12 集配信日期也逐集一致。第 1、2 集在 CL 均标为 7 月 21 日，晚于电视首播，不能将配信日期当作首播日期。目录正文访问返回 403，此处仅使用搜索摘要。\n\n备注：输入中的 Bangumi 章节标题和日期为空，无法直接进行两库章节字段比对；逐集关系由官方编号、完整标题目录及播出排期交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/339247; https://api.bgm.tv/v0/subjects/339247; https://www.themoviedb.org/tv/202440; https://www.themoviedb.org/tv/202440/season/1; https://www.ohast.jp/info/210609.php; https://m.tribe-m.jp/news/detail?group_id=21&news_id=34921",
-    "verifiedAt": "2026-09-08T22:59:03.504Z"
+    "source": "https://bgm.tv/subject/339247; https://www.themoviedb.org/tv/202440; https://www.themoviedb.org/tv/202440/season/1; https://www.ohast.jp/info/210609.php; https://m.tribe-m.jp/news/detail?group_id=21&news_id=34921; https://www.cl-live.com/features/pMzvHWZPHEDchMYJ7pNAMh",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 202440
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

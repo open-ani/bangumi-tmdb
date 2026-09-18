@@ -1,13 +1,115 @@
 {
+  "anidbId": 14927,
   "bangumiId": 302672,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 939169,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 939170,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 939171,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 939172,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 939173,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 939174,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 939175,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 939176,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 939177,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 939178,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 939179,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 939180,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 939181,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 939182,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 939183,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 939184,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 939185,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 939186,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 939187,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 939188,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 95579 与 Bangumi 的日文原名、英文别名 Dino Girl Gauko、2019-11-22 首播日期及剧情完全对应，且为 Netflix 流媒体电视动画。TMDB 第1季实际包含20集，日期均为2019-11-22，与该 Bangumi subject 的20集主体完全覆盖；第2季是另一个后续版本/季，不应合并。官方 Netflix 资料确认本作及鴫野彰导演身份，TMDB 标注制作公司 Ascension。\n\nhttps://api.bgm.tv/v0/subjects/302672 (api_snapshot): Bangumi API：恐竜少女ガウ子，2019-11-22，WEB，20集；简介为奈緒子生气时变身恐龙ガウ子；别名 Dino Girl Gauko。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): TMDB 详情：原名 恐竜少女ガウ子，英文名 Dino Girl Gauko，首播2019-11-22；剧情为中学生 Naoko 生气时变成恐龙 Gauko；共2季、39集，制作公司 Ascension。\n\nhttps://www.themoviedb.org/tv/95579/season/1 (api_snapshot): TMDB 第1季实际集表：2019-11-22，20集，第1至第20集连续完整覆盖。\n\nhttps://about.netflix.com/ja/news/dino-girl-gauko (page): Netflix 官方公告确认《恐竜少女ガウ子》是 Netflix 原创动画系列，鴫野彰担任演出/导演，计划于2019年后半配信。\n\nhttps://www.netflix.com/title/80216180 (page): Netflix 官方页面确认 Dino Girl Gauko 的剧情、动画系列媒介及主要配音阵容。",
+    "evidence": "codex: 已确认对应 TMDB 95579 第1季整季：原名、2019-11-22首播日期、剧情、导演、制作公司、网络动画媒介及20集范围相符。第二季属于输入中另列的续作，不纳入本 subject。Bangumi 输入的20个章节均无标题和播出日期，无法逐集交叉核对，因此仅确认季范围，不按编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): TMDB 95579 原名为《恐竜少女ガウ子》，首播日期为2019-11-22，剧情为少女奈绪子愤怒时变成恐龙，制作公司为 Ascension；详情将2019年第一季与2020年第二季分开。\n\nhttps://www.themoviedb.org/tv/95579/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共20集，集号1至20，日期均为2019-11-22，每集9分钟；与输入 subject 的首播日期及20集主体范围一致。\n\nhttps://about.netflix.com/ja/news/dino-girl-gauko (page): Netflix 官方制作公告确认本作为2019年推出的原创动画系列，导演为しぎのあきら、编剧为うえのきみこ、动画制作为アセンション；主人公渡边奈绪子愤怒时变成恐龙，版本及剧情吻合。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方作品页的简介与输入简介一致；页面显示两季，并列出第一季前10集，其标题、顺序和9分钟时长均与 TMDB 第一季对应条目一致。\n\n备注：逐集映射仍缺少 Bangumi 章节标题或日期证据；Bangumi 章节页本次访问失败，rules 和 overrides 暂留空。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/302672; https://api.bgm.tv/v0/subjects/302672; https://www.themoviedb.org/tv/95579; https://www.themoviedb.org/tv/95579/season/1; https://about.netflix.com/ja/news/dino-girl-gauko; https://www.netflix.com/title/80216180",
-    "verifiedAt": "2026-09-08T21:55:58.145Z"
+    "source": "https://bgm.tv/subject/302672; https://www.themoviedb.org/tv/95579; https://www.themoviedb.org/tv/95579/season/1; https://about.netflix.com/ja/news/dino-girl-gauko; https://www.netflix.com/jp/title/80216180",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

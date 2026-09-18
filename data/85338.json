@@ -1,16 +1,103 @@
 {
   "anidbId": 11964,
   "bangumiId": 85338,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 663747,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 663748,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 663749,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 663750,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 663751,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 663752,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 663753,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 663754,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 663755,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 663756,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 663757,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 663758,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 686531,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 686531,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 68102,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 为《ブレイブウィッチーズ/无畏魔女》TV 主体，AniDB ID 11964 及标题状态为 matched。Bangumi 记录的 12 集正篇标题、播出顺序与 TMDB 68102 第 1 季逐集标题和剧情高度对应；首播日期相差约 1 天，符合时区/日期记录差异。TMDB 第 1 季明确为 12 集，因此纳入完整第 1 季。Bangumi 同一 subject 还包含第 13 集特别篇《ペテルブルグ大戦略》（2017-05-13）；TMDB 68102 的第 0 季为 1 集特别篇、同日发行，故补充 S00E01。\n\nhttps://bgm.tv/subject/85338 (page): Bangumi 标题、2016-10-05 首播、12 集正篇、包含 2017-05-13《ペテルブルグ大戦略》特别篇，以及 AniDB ID 11964 关联。\n\nhttps://www.themoviedb.org/tv/68102 (api_snapshot): TMDB 68102 标题为《ブレイブウィッチーズ》，2016 年作品，共 12 集，并列出第 1 季 12 集及第 0 季 1 集特别篇。\n\nhttps://www.themoviedb.org/tv/68102/season/1 (api_snapshot): TMDB 第 1 季包含 12 集；逐集标题、剧情和播出日期与 Bangumi 的 12 集正篇相符。",
+    "evidence": "codex: 年份、TV媒介、导演、制作公司、人物与剧情共同确认对应TMDB 68102。本篇12集标题、顺序及放送间隔逐一吻合，对应完整第1季；特别篇标题与日期完全吻合，对应S00E01。\n\nhttps://bgm.tv/subject/85338 (page): Bangumi 标注为2016年TV动画，共12集，导演高村和宏、动画制作SILVER LINK.，故事围绕第502统合战斗航空团。\n\nhttps://w-witch.jp/brave_witches/staff/ (page): 官方制作人员表确认导演高村和宏、动画制作SILVER LINK.，雁淵ひかり由加隈亜衣配音，与TMDB资料一致。\n\nhttps://www.themoviedb.org/tv/68102 (api_snapshot): TMDB 68102为2016年《ブレイブウィッチーズ》TV作品；导演、制作公司、主角及第502航空团剧情均吻合。第1季12集，第0季1集。\n\nhttps://bgm.tv/subject/85338/ep (page): 章节表列出本篇1至12及特别篇SP13；本篇日期为2016-10-05至12-28，特别篇《ペテルブルグ大戦略》日期为2017-05-13。\n\nhttps://www.themoviedb.org/tv/68102/season/1 (api_snapshot): 已读取完整第1季，total_pages=1。12集日文标题逐一与Bangumi相同、顺序一致；每集日期均比Bangumi晚一天，第3至4集间隔两周也一致。该季未混入其他作品。\n\nhttps://www.themoviedb.org/tv/68102/season/0 (api_snapshot): 已读取完整第0季，total_pages=1；仅E01《ペテルブルグ大戦略》，日期2017-05-13，与Bangumi章节686531的标题及日期一致。\n\n备注：本篇TMDB日期统一比Bangumi晚一天；具体日期记法原因未独立核实，但不影响由逐集同名、相同顺序及放送间隔确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/85338; https://www.themoviedb.org/tv/68102; https://www.themoviedb.org/tv/68102/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/85338; https://w-witch.jp/brave_witches/staff/; https://www.themoviedb.org/tv/68102; https://bgm.tv/subject/85338/ep; https://www.themoviedb.org/tv/68102/season/1; https://www.themoviedb.org/tv/68102/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68102
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

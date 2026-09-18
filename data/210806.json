@@ -1,16 +1,91 @@
 {
   "anidbId": 12789,
   "bangumiId": 210806,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 705346,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 705347,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 705348,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 705349,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 705350,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 705351,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 705352,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 705353,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 705354,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 705355,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 705356,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 705357,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1014352,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确是 TV《ピカイア!!》，13 集，2017-02-26 开始；Bangumi 页面还将其与前作《ピカイア！》区分。TMDB 128843 是同一系列，明确列出第 2 季《ピカイア!!》，首播日期为 2017-02-26、共 13 集；第 2 季的标题和剧情均与 Bangumi 主体提供的 13 集及“扩大至泥盆纪等古生代、加入新调查员”的简介相符。因此应映射为完整 TMDB 第 2 季，不需要缩小集数范围。\n\nhttps://bgm.tv/subject/210806 (page): Bangumi 将该主体标为 TV《ピカイア!!》，话数 13，放送开始于 2017 年 2 月 26 日，并列出与《ピカイア！》的前传关系。\n\nhttps://www.themoviedb.org/tv/128843 (api_snapshot): TMDB TV 128843 名为《ピカイア！》，共 26 集，分为第 1 季和第 2 季；第 2 季为 13 集、2017-02-26 开始。\n\nhttps://www.themoviedb.org/tv/128843/season/2 (api_snapshot): TMDB 第 2 季名称为《ピカイア!!》，共 13 集；剧集标题及剧情覆盖泥盆纪、石炭纪、古生代调查和最终战，与 Bangumi 主体内容对应。\n\n备注：TMDB 快照中第 4 集 air_date 与 Bangumi 提供的播出日期存在差异，且部分日期可能是平台整理差异；不影响季号、版本和完整 13 集范围的对应判断。",
+    "evidence": "codex: 确认对应TMDB 128843第二季全季。年份、TV媒介、续作剧情、制作人员及官方13话集表相互印证。Bangumi第1至4话可由标题逐集确认；第四话日期冲突有独立放送记录解释。第5至13话缺少标题且日期不符，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/128843 (api_snapshot): 日文原名搜索得到 TV 128843；详情将2015年第一季与2017年第二季分开。第二季共13集，剧情涉及新增调查员及扩大古生代调查范围；制作公司、总导演和主要声优与输入一致。\n\nhttps://www.themoviedb.org/tv/128843/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，日期范围为2017-02-26至2017-05-27。前四集标题与输入一致，前三集日期也一致；第四集日期为2017-03-12。第5至13集日期为2017-04-01起每周六，与输入日期不一致。\n\nhttps://www.tkma.co.jp/jpop_release_detail/pikaia.html?rid=8741 (page): 官方发行商明确标注本作为TV动画第二期，2月26日开播、全13话；剧情、制作机构及总导演与输入吻合。第一卷列出的第1至6话标题及编号与TMDB一致。\n\nhttps://www.tkma.co.jp/jpop_release_detail/pikaia.html?rid=8882 (page): 官方第二卷收录第7至13话，标题和顺序与TMDB基本一致；第11话官方标题末尾为「守れ」，TMDB为「守り抜け」。该集表确认第二季完整覆盖本作，没有混入前作。\n\nhttps://www.anisil.com/animes/3654-%E3%83%94%E3%82%AB%E3%82%A4%E3%82%A2%21%21?fp%5B%5D=16979 (search_snippet): 放送记录摘要显示第3、4话均在2017-03-13凌晨播出，支持TMDB将两话记作3月12日深夜档；第5至13话为4月2日至5月28日凌晨，与TMDB所记前一日深夜档对应。\n\n备注：输入第4话日期为2017-03-19，与TMDB及独立放送记录不符，但标题明确对应第二季第4集。；输入第5至13话标题为空，日期均比TMDB早6天；现有证据足以确认整季归属，但不足以独立核实这些具体Bangumi章节。需补充章节标题或修正后的放送记录后建立规则。；第二季第11集标题在TMDB与官方发行商之间存在措辞差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/210806; https://www.themoviedb.org/tv/128843; https://www.themoviedb.org/tv/128843/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/210806; https://www.themoviedb.org/tv/128843; https://www.themoviedb.org/tv/128843/season/2; https://www.tkma.co.jp/jpop_release_detail/pikaia.html?rid=8741; https://www.tkma.co.jp/jpop_release_detail/pikaia.html?rid=8882; https://www.anisil.com/animes/3654-%E3%83%94%E3%82%AB%E3%82%A4%E3%82%A2%21%21?fp%5B%5D=16979",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 128843
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

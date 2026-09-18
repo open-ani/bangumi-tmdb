@@ -1,16 +1,108 @@
 {
   "anidbId": 18795,
   "bangumiId": 506677,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1505732,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1505733,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1505734,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1505735,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1505736,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1505737,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1505738,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1505739,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1505740,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1505741,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1505742,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1505743,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1531344,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1562252,
+      "sort": 9.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1562252,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 281058,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2025 年《サイレント・ウィッチ 沈黙の魔女の隠しごと》电视动画，共13集；TMDB TV 281058 的标题、日文原名、剧情、制作国、制作信息及第1季13集标题均完全对应。Bangumi 的 SP9.5《潜入記録》并非额外特典，而是该主体条目内的特别篇；官方资料确认其为回顾第1至9话的电视特别篇，TMDB 同一 TV 条目另列完整的第0季特别编，因此一并推荐第0季。Bangumi 与官方按日本播出日记为7月4日、9月5日24:00，TMDB按日期边界记为7月5日、9月6日，属于同一播出时刻。\n\nhttps://bgm.tv/subject/506677 (page): Bangumi 将该作品标为 TV，标题为《サイレント・ウィッチ 沈黙の魔女の隠しごと》，话数13，放送开始为2025年7月4日，并列出导演、原作、角色设计等制作信息。\n\nhttps://bangumi.tv/subject/506677/ep (search_snippet): Bangumi 章节列表列出正篇1至13集，并列出主体内特别篇 SP9.5《潜入記録》，首播日期为2025年9月5日。\n\nhttps://silentwitch.net/ (page): 官方介绍的主角莫妮卡、无咏唱魔术、潜入名门学校保护第二王子的剧情，以及导演、脚本、角色设计和 Studio五組等制作信息，与 Bangumi 和 TMDB 作品一致。\n\nhttps://silentwitch.net/news/?article_id=68588 (search_snippet): 官方确认 #9.5《潜入記録》是回顾第1至第9话的电视特别篇，并公布从9月5日24:00起播出；该时间对应日本日期9月6日。\n\nhttps://www.themoviedb.org/tv/281058 (api_snapshot): TMDB API 快照显示 TV 281058 的日文标题与原名、相同剧情简介、2025年首播、13集，以及第0季1集和第1季13集。\n\nhttps://www.themoviedb.org/tv/281058/season/1 (api_snapshot): TMDB API 快照的第1季包含完整13集；各集标题与 Bangumi 正篇1至13集逐一对应，日期整体比日本播出日后移一天，符合24:00跨日记录。\n\n备注：AniDB 18795 的直接页面在本次检索中无法读取，因此未将 AniDB 页面本身作为独立证据；但 Bangumi 条目、官方资料及 TMDB 作品与剧集内容已直接确认目标版本。",
+    "evidence": "codex: 已确认是同一部2025年电视动画，年份、剧情、制作人员及媒介一致。本篇13话与TMDB第1季的标题、顺序、数量及跨日换算后的播出日期逐集吻合；SP9.5《潜入記録》由官方回顾篇公告及第0季集表共同确认对应S00E01。\n\nhttps://www.themoviedb.org/tv/281058 (api_snapshot): TMDB 281058 为2025年电视动画，日文原名、莫妮卡潜入学园保护第二王子的剧情、导演岩本保雄及制作公司 Studio五組均与输入一致；包含第1季13集及第0季1集。\n\nhttps://www.themoviedb.org/tv/281058/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。13集日文标题与输入本篇1至13话逐一相同，顺序一致；各集日期均比输入晚一天，包括第10集9月13日与第13集10月5日。\n\nhttps://www.themoviedb.org/tv/281058/season/0 (api_snapshot): 已读取第0季完整集表，total_pages=1，仅有第1集《潜入記録》，日期2025年9月6日，简介明确为莫妮卡潜入任务的回顾。\n\nhttps://silentwitch.net/ (page): 官网确认本作剧情、原作依空まつり、导演いわもとやすお、角色设计二反田こな及动画制作Studio五組，并明确本篇全13话。\n\nhttps://silentwitch.net/news/?article_id=68588 (page): 官方公告确认第9.5话《潜入記録》是回顾第1至9话的特别篇，于2025年9月5日24:00播出，对应自然日9月6日。\n\nhttps://silentwitch.net/onair/ (page): 官方排期为7月4日起每周五24:00；第13话特别调整至10月4日24:00。换算自然日分别为7月5日及10月5日，解释了输入与TMDB的日期差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/506677; https://bangumi.tv/subject/506677/ep; https://silentwitch.net/; https://silentwitch.net/news/?article_id=68588; https://www.themoviedb.org/tv/281058; https://www.themoviedb.org/tv/281058/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/506677; https://www.themoviedb.org/tv/281058; https://www.themoviedb.org/tv/281058/season/1; https://www.themoviedb.org/tv/281058/season/0; https://silentwitch.net/; https://silentwitch.net/news/?article_id=68588; https://silentwitch.net/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 281058
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +111,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 281058,
       "season": 0,
       "type": "tv"

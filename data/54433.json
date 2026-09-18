@@ -1,16 +1,103 @@
 {
   "anidbId": 9310,
   "bangumiId": 54433,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 254896,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 254897,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 254898,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 254899,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 254900,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 254901,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 254902,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 254903,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 254904,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 254905,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 254906,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 254907,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 281982,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 281982,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 65676,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 65676第一季整季。年份、剧情、制作人员及13集内容一致；本篇1—12话逐集同名对应S01E01—E12，Bangumi番外篇281982对应S01E13。日期的一天差异符合深夜放送记日方式，独立OVA及后续季度不纳入。\n\nhttps://www.themoviedb.org/tv/65676 (api_snapshot): 日文原名搜索命中 TV 65676；详情确认首播于2013年，剧情为比企谷八幡加入奉仕部，与雪乃、结衣相遇，主要角色声优及制作公司相符；第一季与2015年续篇、2020年完结篇分季收录。\n\nhttps://www.themoviedb.org/tv/65676/season/1 (api_snapshot): 第一季真实集表共13集，total_pages=1。第1至12集日文标题与输入逐一一致，第13集对应输入番外篇。各集日期均比输入晚一天，连续排期一致；本季未混入独立OVA。\n\nhttps://www.tbs.co.jp/anime/oregairu/1st/story/ (page): 官方故事表列出12话本篇及1话番外篇，播出日期逐一对应输入的2013年4月4日至6月27日；番外篇体育祭剧情与TMDB第一季第13集一致。\n\nhttps://www.tbs.co.jp/anime/oregairu/1st/staffcast/ (page): 第一季官方制作表确认原作渡航、导演吉村爱、人物设计进藤优、音乐石滨翔及MONACA、制作Brain's Base，与输入版本一致。\n\nhttps://www.tbs.co.jp/anime/oregairu/1st/onair/ (page): 官方注明TBS每周四深夜1时28分播出，解释了官方及Bangumi按周四记载、TMDB按跨午夜后的周五记载的一天差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/54433; https://www.themoviedb.org/tv/65676; https://www.themoviedb.org/tv/65676/season/1; https://www.tbs.co.jp/anime/oregairu/1st/story/; https://www.tbs.co.jp/anime/oregairu/1st/staffcast/; https://www.tbs.co.jp/anime/oregairu/1st/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65676
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

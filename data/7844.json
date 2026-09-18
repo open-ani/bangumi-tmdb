@@ -1,16 +1,86 @@
 {
   "anidbId": 7890,
   "bangumiId": 7844,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 53083,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 53084,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 53085,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 53086,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 53087,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 53088,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 53089,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 53090,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 53091,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 53092,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 53093,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 53094,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 36873 第 1 季完整 12 话。年份、TV 媒介、剧情、导演、制作公司和声优一致，逐集标题及总量支持本篇 1—12 顺序对应；日期差异不构成版本或集序差异。另列的 OAD 不纳入本 subject。\n\nhttps://www.themoviedb.org/tv/36873 (api_snapshot): 日文原名搜索命中 TV 36873；详情确认是 2010 年电视动画，剧情为支仓孝平转入修智馆学院，导演名和宗则，制作公司 ZEXCS、feel.，主要角色及声优均与输入一致。\n\nhttps://www.themoviedb.org/tv/36873/season/1 (api_snapshot): 第 1 季集表共 12 集，只有一页。逐集标题与 Bangumi 顺序一致，第 11 集仅有「決別／訣別」用字差异；第 4—12 集日期完全一致。第 1、2 集日期晚一天，第 3 集日期存在异常。详情另列 2011 年特别篇，不属于本次范围。\n\nhttps://www.tv-tokyo.co.jp/contents/fortune/ (page): 东京电视台官方页面确认本作名称、2010 年播出活动及 AUGUST／修智馆学院生徒会版权信息。\n\nhttps://animesc.com/en/details/2QBaki/fortune-arterial-akai-yakusoku (search_snippet): 完整 12 话表与 TMDB 标题顺序一致；第 3 话「千年泉」列为 2010-10-23，全集日期按周从 10 月 9 日至 12 月 25 日，与 Bangumi 的前一日深夜节目日期相容。\n\n备注：TMDB 第 3 集日期为 2010-10-15，与 Bangumi 的 2010-10-22 及外部集表的 2010-10-23 冲突，疑为日期元数据错误；标题明确为第 3 话「千年泉」，不影响对应。；第 1、2 集相差一天，推测源于深夜节目日期与实际自然日的记录口径；第 11 集存在「決別／訣別」用字差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7844; https://www.themoviedb.org/tv/36873; https://www.themoviedb.org/tv/36873/season/1; https://www.tv-tokyo.co.jp/contents/fortune/; https://animesc.com/en/details/2QBaki/fortune-arterial-akai-yakusoku",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36873
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

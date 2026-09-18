@@ -1,16 +1,123 @@
 {
   "anidbId": 11011,
   "bangumiId": 121377,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 538120,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 538121,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 538122,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 538123,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 538124,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 538125,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 538126,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 538127,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 538128,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 538129,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 538130,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 538131,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 549353,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 569134,
+      "sort": 14,
+      "type": 1
+    },
+    {
+      "id": 601985,
+      "sort": 1,
+      "type": 6
+    },
+    {
+      "id": 601986,
+      "sort": 2,
+      "type": 6
+    },
+    {
+      "id": 601992,
+      "sort": 3,
+      "type": 6
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 569134,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 80878,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 121377 是 2015 年 TV 动画《それが声優！》，主体包含 13 集正篇及 2016-03-23 的特别篇「プチ打ち上げ」。TMDB 80878 同名、首播日和剧情/制作信息一致；season 1 的 13 集标题与日期逐一对应 Bangumi 正篇 1–13。TMDB 主条目另明确记录 season 0 为 2016-03-23 的 1 集，和 Bangumi 第 14 集特别篇「プチ打ち上げ」及其日期吻合，因此映射为 season 0 episode 1。未纳入 Bangumi 额外特典样本。\n\nhttps://bgm.tv/subject/121377 (page): Bangumi 页面确认该条目为 TV 动画《それが声優！》，放送期为 2015-07-07 至 2015-09-29，列出正篇 1–13，并列出 SP「小型庆祝会／プチ打ち上げ」于 2016-03-23 播出；制作公司为 GONZO。\n\nhttps://www.themoviedb.org/tv/80878 (api_snapshot): TMDB TV 80878 与 Bangumi 条目同名，首播日为 2015-07-07，剧情简介和日本动画制作信息一致；主条目记录 13 集，season 1 为 13 集，season 0 为 1 集且日期为 2016-03-23。\n\nhttps://www.themoviedb.org/tv/80878/season/1 (api_snapshot): TMDB season 1 的 13 集标题及播出日期从「アフレコ」2015-07-07 到「査定」2015-09-29，与 Bangumi 正篇 1–13 逐一对应。\n\nhttps://artist.cdjournal.com/d/seiyus-life/4215070362 (search_snippet): CDJournal 的《それが声優! 第7巻》资料将第13话「査定」与特别编「プチ打ち上げ」列在同一卷，并标注发行日为 2016-03-23，支持该特别篇是本主体的未播放 OVA/SP。",
+    "evidence": "codex: 作品年份、媒介、剧情、导演、制作公司与主演一致，确认对应 TMDB 80878。13 集正篇的标题、日期和总量逐集吻合，对应第 1 季全季；特别篇「プチ打ち上げ」独立核实为 S00E01。\n\nhttps://bgm.tv/subject/121377 (page): Bangumi 确认为 2015 年 TV 动画，播出期为 2015-07-07 至 2015-09-29；导演博史池畠、动画制作 GONZO，剧情围绕新人声优双叶、莓与铃展开。\n\nhttps://www.themoviedb.org/tv/80878 (api_snapshot): TMDB 80878 的原名、首播日期、剧情、导演、制作公司及三位主演与 Bangumi 一致；列有第 1 季 13 集及第 0 季 1 集。\n\nhttps://www.themoviedb.org/tv/80878/season/1 (api_snapshot): 第 1 季完整集表共 13 集，total_pages=1；逐集日期全部对应输入中的本篇 1–13，标题对应一致，仅存在英文括注、空格及 Bangumi 第 8 集「ナレージョン」与 TMDB「ナレーション」的拼写差异。\n\nhttps://www.themoviedb.org/tv/80878/season/0 (api_snapshot): 第 0 季完整集表只有第 1 集「特別編『プチ打ち上げ』」，日期为 2016-03-23，时长 14 分钟，注明收录于 Blu-ray/DVD 第 7 卷；标题和日期对应 Bangumi 章节 569134。\n\n备注：三个 type=6 章节（601985、601986、601992）在已读取的 TMDB 集表中没有可核实的对应项，保留未映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/121377; https://www.themoviedb.org/tv/80878; https://www.themoviedb.org/tv/80878/season/1; https://artist.cdjournal.com/d/seiyus-life/4215070362",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/121377; https://www.themoviedb.org/tv/80878; https://www.themoviedb.org/tv/80878/season/1; https://www.themoviedb.org/tv/80878/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80878
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

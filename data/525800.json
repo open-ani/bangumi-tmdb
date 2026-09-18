@@ -1,13 +1,85 @@
 {
+  "anidbId": 19033,
   "bangumiId": 525800,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1625603,
+      "sort": 61,
+      "type": 0
+    },
+    {
+      "id": 1625604,
+      "sort": 62,
+      "type": 0
+    },
+    {
+      "id": 1625605,
+      "sort": 63,
+      "type": 0
+    },
+    {
+      "id": 1625606,
+      "sort": 64,
+      "type": 0
+    },
+    {
+      "id": 1625607,
+      "sort": 65,
+      "type": 0
+    },
+    {
+      "id": 1625608,
+      "sort": 66,
+      "type": 0
+    },
+    {
+      "id": 1625609,
+      "sort": 67,
+      "type": 0
+    },
+    {
+      "id": 1625610,
+      "sort": 68,
+      "type": 0
+    },
+    {
+      "id": 1625611,
+      "sort": 69,
+      "type": 0
+    },
+    {
+      "id": 1625612,
+      "sort": 70,
+      "type": 0
+    },
+    {
+      "id": 1625613,
+      "sort": 71,
+      "type": 0
+    },
+    {
+      "id": 1625614,
+      "sort": 72,
+      "type": 0
+    },
+    {
+      "id": 1625615,
+      "sort": 73,
+      "type": 0
+    },
+    {
+      "id": 1625616,
+      "sort": 74,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 137365 的原名为《人间最得意》，别名含 Renjian Zui Deyi/Proud Swordsman；剧情简介与 Bangumi 完全对应，制作公司含腾讯视频与 Soyep。TMDB 第2季于2024-12-01开始，共14集，实际集表覆盖第1至14集至2025-03-02，与 Bangumi 主体的2024-12-01、14集及索以科技/李廷赫等制作信息一致。因此对应整季 S2，不应使用主系列裸 TV ID。Bangumi 的全局集数标为61至74，而 TMDB 季表使用季内编号1至14；这里按已核实的 TMDB S2 季内编号表示。\n\nhttps://www.themoviedb.org/tv/137365 (api_snapshot): TMDB 详情确认作品原名《人间最得意》、首播日期2021-10-27、剧情、腾讯视频与 Soyep 制作公司、共2季，并列出第2季为2024-12-01、14集。\n\nhttps://www.themoviedb.org/tv/137365/season/2 (api_snapshot): TMDB 第2季实际集表为14集，季内编号1至14，日期从2024-12-01至2025-03-02，total_pages为1。\n\nhttps://api.bgm.tv/v0/subjects/525800 (api_snapshot): Bangumi fresh API 确认主体为《人间最得意 第二季》，WEB动画，日期2024-12-01，共14集，剧情、导演李廷赫、原作平生未知寒、动画制作索以科技与腾讯视频制作信息均匹配。\n\nhttps://www.sohu.com/a/832182621_121118944 (page): 外部资料确认《人间最得意》动画第二季于2024-12-01上线，由腾讯视频出品、索以科技承制。\n\n备注：TMDB 第1季记录为74集，而 Bangumi 的全局编号将本主体记为61至74，存在跨数据库的总集数/分季编号差异；但 TMDB 第2季自身明确为14集且日期、剧情和制作信息吻合。",
+    "evidence": "codex: 作品剧情、制作公司、续作年份、开播日及14集范围共同支持对应TMDB 137365第2季整季。逐集映射暂留空：Bangumi章节缺少标题和日期，TMDB也仅有通用集号，其逐周单集日期与首播两集的报道存在差异，不能仅按位置建立61–74到1–14的规则。\n\nhttps://bangumi.tv/subject/525800 (page): Bangumi 标明本作为2024年12月1日开播的14集WEB动画，章节编号61–74；原作为平生未知寒，导演李廷赫，由腾讯视频、索以科技制作。\n\nhttps://www.themoviedb.org/tv/137365 (api_snapshot): TMDB 137365 的原名、李扶摇与朝青秋相关剧情及腾讯视频、Soyep制作公司均吻合；系列始于2021年，第2季标为2024年12月1日开始、14集。\n\nhttps://www.themoviedb.org/tv/137365/season/2 (api_snapshot): 实际读取第2季完整集表，total_pages=1，共14集，编号1–14；标题均为通用集号，日期从2024年12月1日按周排列至2025年3月2日，没有分集剧情。\n\nhttps://www.themoviedb.org/tv/137365/season/1 (api_snapshot): 读取第1季集表第2页（total_pages=2），其中61–74集的日期为2022年5月18日至8月17日，与本作2024年复更时间不符，不能仅凭相同集号映射。\n\nhttps://www.sohu.com/a/832182621_121118944 (page): 上线报道确认第二季于2024年12月1日腾讯视频独播，腾讯视频出品、索以科技承制、平生未知寒原作；报道明确首播两集，之后每周日更新，并有加更点映。\n\nhttps://home.gamer.com.tw/artwork.php?sn=6048699 (search_snippet): 复更报道摘要明确12月1日起播出第61集之后的内容，新增14集、全剧达到74集，支持本subject的全局集数范围。\n\n备注：需取得腾讯视频逐集标题、发布日期或内容证据，进一步核实全局61–74与TMDB第2季1–14的逐集关系。；TMDB第1季额外列有日期为2022年的61–74集，存在疑似重复收录或日期错误；本次未采用这些集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/525800; https://www.themoviedb.org/tv/137365; https://www.themoviedb.org/tv/137365/season/2; https://api.bgm.tv/v0/subjects/525800; https://www.sohu.com/a/832182621_121118944",
-    "verifiedAt": "2026-09-09T00:20:18.717Z"
+    "source": "https://bgm.tv/subject/525800; https://bangumi.tv/subject/525800; https://www.themoviedb.org/tv/137365; https://www.themoviedb.org/tv/137365/season/2; https://www.themoviedb.org/tv/137365/season/1; https://www.sohu.com/a/832182621_121118944; https://home.gamer.com.tw/artwork.php?sn=6048699",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,56 @@
 {
   "anidbId": 15642,
   "bangumiId": 390900,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1116478,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1116479,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1116480,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1116481,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1116482,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1239538,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 106432第1季。年份、短篇动画媒介、制作方、编剧、配音角色、本篇总量及五话标题顺序相符，第1季仅包含这5话，可建立本篇1—5的连续映射。特别篇缺少已核实的TMDB对应，暂留空。\n\nhttps://www.themoviedb.org/tv/106432 (api_snapshot): 日文原名搜索命中 TV 106432；详情确认首播为2020-07-23、全1季5集、制作公司包含东映特摄Fan Club，编剧为井上テテ，配音演员与角色均符合该短篇动画。\n\nhttps://www.themoviedb.org/tv/106432/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，total_pages=1，共5集。英文标题逐一对应Bangumi第1至5话的飞电导览、不破与刃、秘密游戏、之后的生活及我的梦想；剧情简介亦吻合。日期依次为2020-07-23、08-23、09-13、10-11、12-18。\n\nhttps://www.toei-video.co.jp/special/zero-one/ (page): 东映官方确认这是2020年7月开始配信的角色日常短篇动画，井上テテ担任脚本，本篇由TTFC配信4话及电影预售票特典1话组成，蓝光收录全5话。\n\nhttps://www.animate-onlineshop.jp/pn/%E3%80%90Blu-ray%E3%80%91Web%2B%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BC%E3%83%AD%E3%83%AF%E3%83%B3%2B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%A2%E3%83%8B%E3%83%A1%2BEVERYONE%E2%80%99S%2BDAILY%2BLIFE/pd/1891349/ (search_snippet): 蓝光商品资料按第1至5话列出的日文标题与输入的五个本篇标题全部一致，确认本篇总量及顺序。\n\nhttps://tokusatsu-fc.jp/contents/news/0296/ (search_snippet): TTFC官方公告确认第2话《不破と刃がアレでドキドキ》于2020-08-23配信，与TMDB第2集日期及英文标题一致。\n\nhttps://tokusatsu-fc.jp/contents/news/0317/ (page): TTFC官方说明第5话通过2020-11-08起发售的电影预售票在MIRAIL先行配信，后续再于TTFC配信；公告中的2020-12-18是电影上映日期。\n\n备注：TMDB第5集日期2020-12-18与官方先行配信资料存在差异，且该日期是电影上映日；依据第5话标题、剧情及全5话构成仍可确认集对应，不将该日期视为可靠首播日期。；Bangumi特别篇1239538《或人とイズのショートアニメ反省会》未找到已核实的对应；TMDB详情仅列第1季5集，本次不映射该特别篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/390900; https://www.themoviedb.org/tv/106432; https://www.themoviedb.org/tv/106432/season/1; https://www.toei-video.co.jp/special/zero-one/; https://www.animate-onlineshop.jp/pn/%E3%80%90Blu-ray%E3%80%91Web%2B%E4%BB%AE%E9%9D%A2%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%BC%E3%83%AD%E3%83%AF%E3%83%B3%2B%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%A2%E3%83%8B%E3%83%A1%2BEVERYONE%E2%80%99S%2BDAILY%2BLIFE/pd/1891349/; https://tokusatsu-fc.jp/contents/news/0296/; https://tokusatsu-fc.jp/contents/news/0317/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 106432
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

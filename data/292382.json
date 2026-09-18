@@ -1,16 +1,76 @@
 {
   "anidbId": 15138,
   "bangumiId": 292382,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 907762,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 907763,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 907764,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 907765,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 907766,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 907767,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 907768,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 907769,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 907770,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 907771,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 94423 第1季整季。作品年份、剧情、导演、制作公司及十集规模吻合，十个日文集标题逐集同序一致，支持本篇1—10连续映射；官方资料亦明确区分另行剪辑的剧场版本。\n\nhttps://www.themoviedb.org/tv/94423 (api_snapshot): TMDB 94423 为2020年7月9日首播的《日本沈没2020》，由 Science SARU 制作、汤浅政明执导，剧情涉及武藤一家在日本沉没灾难中求生；共一季十集，与输入的年份、制作人员、剧情及集数一致。\n\nhttps://www.themoviedb.org/tv/94423/season/1 (api_snapshot): 第1季完整集表共十集、仅一页；第1至10集日文标题与输入的 Bangumi 本篇逐集完全一致，顺序一致。TMDB 全部标注2020年7月9日，输入中除第2集外的九集日期也一致。\n\nhttps://japansinks2020.com/story/ (page): 官方网站剧情介绍确认主角为武藤家的步与刚，故事为一家四口在2020年地震后逃离东京，与输入剧情一致。\n\nhttps://japansinks2020.com/introduction/theater.php (page): 官方明确说明剧场编辑版由 Netflix 配信版的全十话重新剪辑构成，证明十集网络动画与剧场编辑版是应分别映射的版本。\n\n备注：输入中第2集日期为2020年7月15日，TMDB 为2020年7月9日，存在日期字段差异；该集日文标题完全一致，其余九集标题与日期均吻合，不影响集数对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/292382; https://www.themoviedb.org/tv/94423; https://www.themoviedb.org/tv/94423/season/1; https://japansinks2020.com/story/; https://japansinks2020.com/introduction/theater.php",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 94423
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

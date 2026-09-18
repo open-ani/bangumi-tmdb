@@ -1,16 +1,105 @@
 {
   "anidbId": 16356,
   "bangumiId": 291213,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1066520,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1066521,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1066522,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1066523,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1066524,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1066525,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1066526,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1066527,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1066528,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1066529,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1066530,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1066531,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1118374,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 1118375,
+      "sort": 1,
+      "type": 3
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1118374,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 1118375,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2021 年腾讯视频播出的《大王饶命》第一季 WEB 动画，正篇明确为 12 集，播出范围为 2021-12-03 至 2022-02-11。AniDB 16356 对应同名作品，类型为 Web、12 集，日期完全一致，并列出相同剧情简介与 Bangumi/TMDB 资源。TMDB 146339 的主条目名称、中文原名、首播日、中文语言、中国来源及第一季 12 集均吻合，因此采用 TMDB TV 146339 第 1 季完整范围。Bangumi 中的《不好惹》和《星之火～awake～》标为 OP/ED，不是额外正篇集数；第二季是独立 Bangumi subject，不应并入本条目。TMDB 快照中的单集日期与 Bangumi/AniDB 存在一周偏差（TMDB 末集为 2022-02-18），属于季内日期元数据不一致，但不改变已由独立资料确认的 12 集主体范围。\n\nhttps://bgm.tv/subject/291213 (page): Bangumi 条目标为《大王饶命》WEB，话数 12，放送开始 2021-12-03，并列有原作、导演、系列构成等制作信息。\n\nhttps://bgm.tv/subject/291213/ep (page): Bangumi 正篇为第 1 至第 12 集；第 1、2 集均于 2021-12-03 首播，第 3 至第 12 集依次播出至 2022-02-11；OP/ED 单独列为《不好惹》和《星之火～awake～》。\n\nhttps://anidb.net/anime/16356 (page): AniDB 16356 的官方标题为《大王饶命》，类型为 Web、12 episodes，日期为 2021-12-03 至 2022-02-11；剧情简介描述吕树因车祸觉醒能力，与该 Bangumi subject 一致，并列出 TMDB 资源。\n\nhttps://www.themoviedb.org/tv/146339 (api_snapshot): TMDB API 快照显示 TV 146339 名称及原名均为《大王饶命》，首播 2021-12-03，共 24 集，包含第 1 季 12 集和第 2 季 12 集；第 1 季起始日期和集数与主体吻合。\n\nhttps://www.themoviedb.org/tv/146339/season/1 (api_snapshot): TMDB API 快照显示 146339 第 1 季 season_number=1、episodeCount=12，集数连续为 1 至 12。\n\n备注：TMDB 第 1 季快照的单集日期从第 2 集起与 Bangumi/AniDB 错开一周，末集显示为 2022-02-18；TMDB 单集标题也较泛化。该差异应视为 TMDB 日期元数据问题，后续如需校正播出日期可单独复核。",
+    "evidence": "codex: 年份、首播日、剧情、制作公司及12话主体均吻合，确认对应TMDB 146339第一季。逐集标题及顺序完整对应，足以建立本篇1—12话的一对一规则；日期存在固定一周偏差，不据此错移集号。OP、ED排除，第二季不并入。\n\nhttps://www.themoviedb.org/tv/146339 (api_snapshot): 以中文原名及英文别名搜索，均返回 TV 146339。详情确认首播日为2021-12-03，剧情为吕树车祸后觉醒异能，制作公司为大火鸟文化、企鹅影视和腾讯动漫，与输入一致；第一季12集，第二季另列。\n\nhttps://www.themoviedb.org/tv/146339/season/1 (api_snapshot): 第一季真实集表共12集、1页。逐集标题与Bangumi第1至12话对应，第2话仅“统统／通通”用字不同。第1集日期一致，第2至12集日期均比Bangumi晚7天。\n\nhttps://bgm.tv/subject/291213/ep (page): 章节页标明WEB动画，本篇12话；前两话同于2021-12-03首播，之后每周一话至2022-02-11。另列OP《不好惹》和ED《星之火～awake～》，不属于12话本篇。\n\n备注：TMDB第2至12集日期比Bangumi晚7天；差异原因尚未确认，但不影响由逐集标题和集数确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/291213; https://bgm.tv/subject/291213/ep; https://anidb.net/anime/16356; https://www.themoviedb.org/tv/146339; https://www.themoviedb.org/tv/146339/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/291213; https://www.themoviedb.org/tv/146339; https://www.themoviedb.org/tv/146339/season/1; https://bgm.tv/subject/291213/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 146339
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

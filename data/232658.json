@@ -1,14 +1,25 @@
 {
   "anidbId": 14506,
   "bangumiId": 232658,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 834803,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 834804,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 232658 是 2018-10-26 发售的 2 集 OVA，主体集名为“TWO SHOTS”和“のるか そるか”。TMDB TV 30669 的第 0 季明确为“特別編”，第 5 集日期同为 2018-10-26，标题为“TWO SHOT/のるか そるか”，简介对应这两段新作内容。因此应映射到该特别篇的第 5 集，而非整季 5 集。\n\nhttps://bgm.tv/subject/232658 (api_snapshot): Bangumi subject 为“幽☆遊☆白書 完全新作アニメーション”，日期为 2018-10-26，类型为 OVA，包含两集“TWO SHOTS”和“のるか そるか”。\n\nhttps://www.themoviedb.org/tv/30669 (api_snapshot): TMDB TV 30669 为《幽☆遊☆白書》，包含第 0 季“特別編”。\n\nhttps://www.themoviedb.org/tv/30669/season/0 (api_snapshot): 第 0 季共 5 集；第 5 集日期为 2018-10-26，标题为“TWO SHOT/のるか そるか”，简介对应这两个 Bangumi 主体集。",
+    "evidence": "codex: 年份、发行版本、主创及两篇剧情均吻合，确认 subject 整体对应 TMDB 30669 第 0 季第 5 集。TMDB 将 Bangumi 两话合并为一集，因此保留作品范围映射；按同一 TMDB 集不得被两个 Bangumi 章节占用的约束，不生成逐集 rules 或 overrides。\n\nhttps://bgm.tv/subject/232658 (page): Bangumi 标注为 2018-10-26 发售的两话 OVA，导演阿部记之、动画制作 Pierrot；内容为藏马与飞影相遇的《TWO SHOTS》和解决灵界恐怖事件的《のるか そるか》。\n\nhttps://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/8893?entry_id=6230 (page): 发行方官方资料确认，2018 年 10 月 26 日发售的 Blu-ray BOX《魔界篇》附带上述两篇首次动画化的新作，区别于旧 TV 本篇及旧剧场版。\n\nhttps://www.themoviedb.org/tv/30669 (api_snapshot): TMDB 30669 为 1992 年开始的 Pierrot 动画《幽☆遊☆白書》，主创包括阿部记之、富坚义博，另设第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/30669/season/0 (api_snapshot): 第 0 季共 5 集，已读取全部集表（total_pages=1）。第 5 集《TWO SHOT/のるか そるか》日期为 2018-10-26，时长 30 分钟，简介完整包含两篇新作剧情；第 1—4 集属于其他年份的内容。\n\nhttps://www.themoviedb.org/movie/1152358 (api_snapshot): 另核实 movie 1152358：同名两篇合并条目，日期为 2018-10-26、时长 29 分钟，导演阿部记之，制作公司包括 Pierrot 与 Bandai Namco Arts；也未将两篇分别收录。\n\n备注：章节 834803 与 834804 分别对应 S00E05 的两个故事段落，当前结构无法无损表达两话合一集，故均保留未映射。；TMDB 同时存在 movie 1152358 的合并收录，本提案采用已核实的 TV 特别篇范围，不重复加入电影目标。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/232658; https://www.themoviedb.org/tv/30669; https://www.themoviedb.org/tv/30669/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/232658; https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/8893?entry_id=6230; https://www.themoviedb.org/tv/30669; https://www.themoviedb.org/tv/30669/season/0; https://www.themoviedb.org/movie/1152358",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

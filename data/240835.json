@@ -1,16 +1,86 @@
 {
   "anidbId": 13948,
   "bangumiId": 240835,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 907068,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 907069,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 907070,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 907071,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 907072,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 907073,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 907074,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 907075,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 907076,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 907077,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 907078,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 907079,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2019年播出的《バビロン》TV动画，共12话，放送期为2019-10-07至2020-01-27；其章节标题与 TMDB 第1季的12集逐一对应。Anime-Lists 中 AniDB 13948（Babylon）映射到 TMDB TV 92599、第1季。TMDB 主条目的日文标题、首播日期、简介和12集总数与 Bangumi 条目一致，未发现电影、OVA、总集篇或重剪版需要另行纳入，因此采用完整第1季。\n\nhttps://bgm.tv/subject/240835 (page): Bangumi 将该条目标为《バビロン》TV动画，12话，2019年10月7日开始、2020年1月27日结束，并列出第1至12话。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录 anidbid=\"13948\"、名称 Babylon，并映射 tmdbtv=\"92599\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/92599 (api_snapshot): TMDB TV 92599 的标题为バビロン，首播日期为2019-10-07，简介、日文标题和12集总数与该 Bangumi 条目相符。\n\nhttps://www.themoviedb.org/tv/92599/season/1 (api_snapshot): TMDB 第1季明确为12集；集标题为「疑惑」「標的」「革命」等，与 Bangumi 第1至12话对应，日期覆盖2019-10-07至2020-01-27。",
+    "evidence": "codex: 确认对应TMDB TV 92599第1季全12集。年份、剧情、原作及制作人员、TV媒介和集数范围一致，逐集标题与顺序吻合。第2、3话日期差异由官方前三话先行配信安排解释，第12话仅有读音标注差异，可建立本篇1—12话到S01E01—E12的连续映射。\n\nhttps://www.themoviedb.org/tv/92599 (api_snapshot): 日文原名搜索命中 TV 92599；详情确认原名《バビロン》，播出期为2019-10-07至2020-01-27，共1季12集。正崎善调查制药公司与新域阴谋的剧情、REVOROOT及Twin Engine制作信息均与输入一致。\n\nhttps://www.themoviedb.org/tv/92599/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。第1至11集标题逐一一致，第12集「終」对应输入「終(おしまい)」。第1、4至12集日期逐一一致；第2、3集记为2019-10-14、2019-10-21，与输入的先行配信日期不同。\n\nhttps://babylon-anime.com/madogayabai/ (search_snippet): 官方活动页确认2019年10月7日开始电视播出，前三话于10月6日24:00左右一次性先行配信，即10月7日；这解释了输入第2、3话与TMDB电视播出日期的差异。原作野﨑まど、导演铃木清崇及制作公司信息亦一致。\n\nhttps://babylon-anime.com/bd/ (search_snippet): 官方Blu-ray页面注明全1卷收录第1至12话，支持本作完整主体为12集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/240835; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/92599; https://www.themoviedb.org/tv/92599/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/240835; https://www.themoviedb.org/tv/92599; https://www.themoviedb.org/tv/92599/season/1; https://babylon-anime.com/madogayabai/; https://babylon-anime.com/bd/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 92599
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,91 @@
 {
+  "anidbId": 16452,
   "bangumiId": 294868,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1043459,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1043460,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1043461,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1043462,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1043463,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1043464,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1043465,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1043466,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1043467,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1043468,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1043469,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1043470,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1067800,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 129299 与《红荒》身份完全吻合：中文原名、2021-07-13首播日期、剧情简介及别名 Hong Huang / Rescue Eternal Desert / Aurora 均一致；TMDB详情确认是1季13集，季表实际列出第1至13集。Bilibili也标为2021年已完结、全13话。作品是原创中国网络3D动画，由谜谭动画与哔哩哔哩联合制作，不是电影、OVA、音乐录像或合集，因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/129299 (api_snapshot): TMDB详情：原名《红荒》，首播日期2021-07-13，剧情与Bangumi摘要一致；别名包括Hong Huang、Red Rescue Eternal Desert、RED：Rescue Eternal Desert；共1季13集。\n\nhttps://www.themoviedb.org/tv/129299/season/1 (api_snapshot): TMDB第1季实际集表共13集，编号连续覆盖1-13。\n\nhttps://api.bgm.tv/v0/subjects/294868 (api_snapshot): Bangumi API：平台为WEB，2021-07-13开始，共13集；摘要与TMDB一致，制作方为哔哩哔哩、谜谭动画，总导演为马系海。\n\nhttps://www.bilibili.com/bangumi/play/ss28748 (search_snippet): 官方Bilibili页面标为2021年已完结、全13话，简介与《红荒》及TMDB剧情一致。\n\nhttps://k.sina.cn/article_1895096900_70f4e244020017lu8.html (search_snippet): 报道确认《红荒》是原创废土科幻3D动画，由深圳市谜谭动画有限公司与哔哩哔哩联合出品制作。\n\nhttps://animeschedule.net/anime/hong-huang (search_snippet): 作品资料列出Hong Huang、红荒、Aurora、Rescue Eternal Desert等别名，类型为中国ONA，2021年夏季、13集。\n\n备注：TMDB季表中的部分单集播出日期与Bangumi归档日期不一致（TMDB最晚为2021-09-28，Bangumi第13集为2021-11-09），但不影响作品身份及完整13集范围判断。；TMDB详情未返回制作人员字段；制作公司与导演信息由Bangumi及外部作品资料交叉确认。",
+    "evidence": "codex: 确认对应TMDB 129299第1季整季：原名、年份、首播、具体剧情、网络动画媒介及13集范围相符，制作与配音资料也得到外部交叉支持，未发现混入续集或其他版本。逐集规则仅纳入日期逐一吻合的第1至6集。第7至13集存在日期冲突且缺少可核对的实际集标题，暂不填入逐集规则。\n\nhttps://www.themoviedb.org/tv/129299 (api_snapshot): 以原名《红荒》搜索后读取详情：TMDB 129299 原名、2021-07-13首播日期及犬玖、闪电球遭遇RX-5劫镖的剧情均与本条目一致；共1季13集。\n\nhttps://www.themoviedb.org/tv/129299/season/1 (api_snapshot): 第1季集表共13集，total_pages=1，已完整读取。第1至6集日期分别为2021-07-13、07-13、07-20、07-27、08-03、08-10，与输入逐集一致。标题均为通用集号；第7至13集日期比输入各早42天。\n\nhttps://bgm.tv/subject/294868 (page): Bangumi确认本作是2021-07-13开始的13话WEB动画，总导演马系海，动画制作谜谭动画，出品方为bilibili和谜谭动画；《红荒 第二季》另列为续集。\n\nhttps://www.bilibili.com/bangumi/play/ep423874?bsource=360ogvys (search_snippet): 官方播放页标明2021年、已完结、全13话；剧情及犬玖、闪电球、麻袋等角色和配音人员与Bangumi一致。\n\nhttps://game.xiaomi.com/viewpoint/9423692_1633239415209_12 (page): 2021年10月3日的文章记载：第6集于8月10日上线后停更六周，第7集于9月28日复播，支持Bangumi的停播与复播时间。\n\n备注：TMDB第7至13集似乎沿用了未计入六周停播的排期；该解释有同期复播报道支持，但不足以独立确认这七集的逐集对应，需补充可核对的TMDB集标题或修正后的日期。；TMDB制作公司及演职员字段为空，制作人员核验依赖Bangumi与官方播放页；未将TMDB单集简介作为已核实的剧情对应依据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/294868; https://www.themoviedb.org/tv/129299; https://www.themoviedb.org/tv/129299/season/1; https://api.bgm.tv/v0/subjects/294868; https://www.bilibili.com/bangumi/play/ss28748; https://k.sina.cn/article_1895096900_70f4e244020017lu8.html; https://animeschedule.net/anime/hong-huang",
-    "verifiedAt": "2026-09-08T21:49:59.945Z"
+    "source": "https://bgm.tv/subject/294868; https://www.themoviedb.org/tv/129299; https://www.themoviedb.org/tv/129299/season/1; https://www.bilibili.com/bangumi/play/ep423874?bsource=360ogvys; https://game.xiaomi.com/viewpoint/9423692_1633239415209_12",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 129299
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

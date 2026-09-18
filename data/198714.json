@@ -1,16 +1,103 @@
 {
   "anidbId": 12558,
   "bangumiId": 198714,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 685948,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 685949,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 685950,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 685951,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 685952,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 685953,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 685954,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 685955,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 685956,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 685957,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 685958,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 685959,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 758691,
+      "sort": 26,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 758691,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 68115,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《ナンバカ 第2期》：12集，2017年1月4日至3月22日，制作人员、原作和动画公司均与《ナンバカ》系列一致，并关联第一期条目。AniDB 标题索引将 12558 对应为 Nanbaka (2017)；独立剧集资料列出的第二期12集标题与 Bangumi 第14至25话逐一对应。TMDB 68115 的主条目简介、制作国家及季结构与该系列一致，第二季为12集，故采用完整第2季。Bangumi 还包含“出席番号のついたバカたち！”特别篇；TMDB 第0季有1集、日期为2017-04-29，与该特别篇的公开资料相符，因此补充第0季第1集。\n\nhttps://bgm.tv/subject/198714 (page): Bangumi 条目标为《ナンバカ 第2期》，12话，2017年1月4日开始、3月22日结束，制作方为Satelight，导演为高松信司，并关联第一期《ナンバカ》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引镜像中将 ID 12558 映射为 Nanbaka (2017)。\n\nhttps://www.gigazine.net/news/20161211-anime-2017winter/ (search_snippet): 公开预告资料列出《ナンバカ》第2期于2017年1月4日在 dアニメストア开始配信，并记载原作、导演、系列构成、人物设定及Satelight等信息。\n\nhttps://nanbaka.fandom.com/wiki/List_of_Episodes (search_snippet): 第二期剧集标题依次为“ナンバカはギャグアニメである”至“サラバカ”，共12集，日期为2017年1月4日至3月22日；另列出“出席番号のついたバカたち！”特别篇。\n\nhttps://www.themoviedb.org/tv/68115 (api_snapshot): TMDB API快照显示条目名为ナンバカ，简介为南波刑务所及四名囚犯的故事，第一季13集、第二季12集、第0季特别编1集。\n\nhttps://www.themoviedb.org/tv/68115/season/2 (api_snapshot): TMDB API快照明确标记season_number=2、episodeCount=12，故对应完整第二季。\n\nhttps://anidb.app/anime/nanbaka-idiots-with-student-numbers-3683 (search_snippet): AniDB公开页面列出特别篇“Nanbaka: Idiots with Student Numbers!”，日期为2017年4月29日，并与Nanbaka及Nanbaka 2存在关联。\n\n备注：TMDB第二季部分日期为1月2日、1月9日等，与Bangumi的日本配信日期存在差异；这更像不同平台日期或TMDB元数据偏差，未改变12集标题序列和主体对应关系。；Bangumi特别篇样本日期为2017年7月26日，而TMDB/AniDB资料为2017年4月29日，可能分别对应DVD收录日与活动上映日；两者标题和唯一特别篇数量一致。",
+    "evidence": "codex: 确认对应 TMDB 68115 的完整第二季及第0季第1集。年份、制作人员、角色剧情、12集总量及全部集标题顺序一致，本篇 sort 14—25 对应 S02E01—E12。特别篇标题、时长及发行方资料确认对应 S00E01，日期差异已由活动首映与DVD发行的区别解释。\n\nhttps://www.themoviedb.org/tv/68115 (api_snapshot): 日文原名搜索命中 TMDB 68115。详情确认其为2016—2017年的《ナンバカ》，剧情围绕南波刑务所四名囚犯展开，导演高松信司、制作公司 SATELIGHT 与目标作品一致；第一季13集、第二季12集。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21163&partId=21163026 (page): 配信平台列明原作双又翔、导演高松信司、人物设计户谷贤都、动画制作 Satelight，角色及刑务所剧情与 TMDB 详情一致。\n\nhttps://www.themoviedb.org/tv/68115/season/2 (api_snapshot): 已读取第二季日文及英文完整集表，均为12集、total_pages=1。英文标题逐一对应 Bangumi 第14—25话：搞笑动画、超级仁志、背叛的5舍、逐渐崩坏的某物、你太弱了、各自的自由、愚者、觉醒之毒、被冲走、声音和语言、前进、再见笨蛋，顺序完全一致。日期方面，第1—4集比 Bangumi 早2天，第5—6集相同，第7—12集早1天。\n\nhttps://nanbaka.fandom.com/wiki/List_of_Episodes (search_snippet): 独立剧集表列出第二季12集的日英标题及2017年1月4日至3月22日逐周日期，与输入的本篇逐集信息一致，并提供与 TMDB 英文标题一致的对照。\n\nhttps://www.themoviedb.org/tv/68115/season/0 (api_snapshot): 第0季完整集表仅1集、total_pages=1：第1集《ナンバカ 出席番号のついたバカたち!》，时长24分钟，日期2017年4月29日，与 Bangumi 特别篇标题一致。\n\nhttps://www.tkma.co.jp/release_detail/id=9017 (page): 发行方确认第26话《出席番号のついたバカたち！》为24分钟校园番外动画，2017年4月29日在活动首映，2017年7月26日发行DVD；动画收录于第一碟，演唱会另收录于第二碟。因此两站特别篇日期分别对应首映日与DVD发行日。\n\n备注：TMDB 第二季部分日期比日本配信日期早1—2天，具体原因未确认；全部12集标题及顺序一致，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/198714; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.gigazine.net/news/20161211-anime-2017winter/; https://nanbaka.fandom.com/wiki/List_of_Episodes; https://www.themoviedb.org/tv/68115; https://www.themoviedb.org/tv/68115/season/2; https://anidb.app/anime/nanbaka-idiots-with-student-numbers-3683",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/198714; https://www.themoviedb.org/tv/68115; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21163&partId=21163026; https://www.themoviedb.org/tv/68115/season/2; https://nanbaka.fandom.com/wiki/List_of_Episodes; https://www.themoviedb.org/tv/68115/season/0; https://www.tkma.co.jp/release_detail/id=9017",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 14,
+      "tmdbId": 68115
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

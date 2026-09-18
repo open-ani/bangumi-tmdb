@@ -1,20 +1,151 @@
 {
   "bangumiId": 205735,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 689873,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 689874,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 689875,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 689876,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 689877,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 689878,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 689879,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 689880,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 689881,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 689882,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 689883,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 689884,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 689885,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 689886,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 689887,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 689888,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 689889,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 689890,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 689891,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 689892,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 689893,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 689894,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 689895,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 689896,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 689897,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 689898,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 可确认本 subject 对应 TMDB 68267 第1季（Part 1）全26集：官网链接、剧情、动画媒介、首播日期和集数均吻合。旧映射第0季与主体范围不符，应改为第1季。Bangumi 各章节缺少标题和日期，按要求不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/68267 (api_snapshot): TMDB 68267 为梦工厂制作的动画剧集，原名别名包含 Trollhunters，首播日期为2016年12月23日；少年发现护符并承担守护两个世界的使命，与输入剧情一致。第1季26集，第2、3季各13集；第0季仅1集特别内容。\n\nhttps://www.themoviedb.org/tv/68267/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共26集，全部标注2016年12月23日。首集和次集分别为 Becoming: Part 1、Becoming: Part 2，第26集为 Something Rotten This Way Comes；范围与输入的首播日期和26集本篇吻合。\n\nhttps://www.netflix.com/title/80075820 (page): 输入指定的 Netflix 官网对应 Trollhunters: Tales of Arcadia，创作者为 Guillermo del Toro，属于动画剧集；护符与少年守护世界的剧情吻合，页面展示的前10集标题及顺序与 TMDB 第1季一致。\n\nhttps://bgm.tv/subject/205735/ep (page): Bangumi 章节页列出本篇第1至26话，但没有章节标题或播出日期，无法据此核实每个 Bangumi 章节的具体内容。\n\nhttps://www.tvmaze.com/seasons/54939/trollhunters-tales-of-arcadia-season-1/episodes (page): TVmaze 第1季列出的26集标题、集号及2016年12月23日播出日期与 TMDB 季表逐项一致，支持该季为完整首部26集内容。\n\n备注：作品及季范围已确认；逐集 rules 暂留空，待 Bangumi 章节补充标题、日期或其他可核实的内容信息后建立。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/205735; https://www.themoviedb.org/tv/68267; https://www.themoviedb.org/tv/68267/season/1; https://www.netflix.com/title/80075820; https://bgm.tv/subject/205735/ep; https://www.tvmaze.com/seasons/54939/trollhunters-tales-of-arcadia-season-1/episodes",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 68267,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     }
   ]

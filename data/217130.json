@@ -1,13 +1,60 @@
 {
+  "anidbId": 13429,
   "bangumiId": 217130,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 735643,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 735644,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 735645,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 735646,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 735647,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 735648,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 735649,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 735650,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 735651,
+      "sort": 9,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 74336 与 Bangumi 条目在中文原名、别名“变身少女追爱记”、2017 年、核心剧情、9 集数量及制作公司“彩色铅笔动画”上吻合。该作品是 WEB/ONA 动画，TMDB 将其收录为完整的 TV 第1季；实际季表覆盖第1至第9集，未混入其他作品。Bangumi 的4月开播日期与 TMDB 的7月收录/播出日期不同，但均为2017年，结合标题、剧情、制作公司和集数可判断为不同平台发行日期，而非不同版本。\n\nhttps://api.bgm.tv/v0/subjects/217130 (api_snapshot): Bangumi API确认作品名为“蓝漠的花”，2017年4月19日开始，WEB动画，共9集；剧情为少女蓝漠通过头花变美并追求青梅竹马；制作人员包括史涓生、邓志巍，动画制作公司为彩色铅笔动画。\n\nhttps://www.themoviedb.org/tv/74336 (api_snapshot): TMDB详情确认ID 74336的原名为“蓝漠的花”，别名包含“变身少女追爱记”“Lan Mo's Flower”，2017年作品，共1季9集；剧情同样围绕蓝漠、神奇头花和刘亦锋展开，制作公司为 Colored-Pencil Animation Design。\n\nhttps://www.themoviedb.org/tv/74336/season/1 (api_snapshot): TMDB第1季实际季表显示 episodeCount=9、total_pages=1，连续列出第1至第9集，播出日期为2017年7月13日至9月7日。\n\nhttps://bangumi.tv/subject/217130 (search_snippet): Bangumi页面搜索结果确认该条目为WEB动画，9集，别名“变身少女追爱记”，并列出导演、总导演、脚本及彩色铅笔动画等制作信息。\n\nhttps://www.mgtv.com/h/316394/4037340.html (search_snippet): 芒果TV页面搜索结果显示《蓝漠的花》共9集，剧情为平凡女生得到头花后变身并展开追爱故事。\n\n备注：Bangumi记录的开播日期为2017年4月19日、TMDB记录为2017年7月13日，具体是首发与平台上线日期差异还是数据源口径差异，无法仅由现有资料进一步确定。；TMDB详情没有提供完整工作人员列表，导演等制作人员主要由Bangumi资料确认。",
+    "evidence": "codex: 原名、别名、年份、核心剧情、制作公司、动画媒介及9集规模相互吻合，确认对应 TMDB 74336 第1季整季。该季没有混入其他作品的迹象。Bangumi 缺少逐集标题和日期，TMDB 也只有通用集名，无法独立验证逐集顺序，因此仅确认整季范围，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/217130 (page): Bangumi 将本作标为 WEB 动画，共9话，2017年4月19日开始；别名为“变身少女追爱记”，总导演史涓生、导演邓志巍，动画制作为彩色铅笔动画。剧情围绕蓝漠通过神奇头花变美并追求青梅竹马展开。\n\nhttps://www.themoviedb.org/tv/74336 (api_snapshot): TMDB 74336 为2017年中文动画《蓝漠的花》，别名包含“变身少女追爱记”；制作公司为 Colored-Pencil Animation Design，蓝漠及神奇头花的核心剧情吻合。条目已完结，共1季9集。\n\nhttps://www.themoviedb.org/tv/74336/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共9集，集号连续为1至9，标题均为通用集号，日期为2017年7月13日至9月7日，每集标记13分钟。\n\nhttps://bgm.tv/subject/217130/ep (page): Bangumi 章节表只有本篇第1至9话，各话没有标题和播出日期；列出的时长约11至16分钟，缺乏可与 TMDB 逐集核对的标题或日期。\n\nhttps://www.mgtv.com/h/316394/4037340.html (search_snippet): 芒果TV搜索摘要确认本作共9集，配音包括文晓依、郭鸿博、龟娘等，剧情同为蓝漠借助头花变身并追爱。\n\n备注：Bangumi 的播出区间为2017年4月19日至6月24日，TMDB 为7月13日至9月7日；差异原因尚未确认，不能直接解释为不同平台发行日期。；TMDB 未提供导演等工作人员列表，制作身份主要通过制作公司、剧情及配音信息交叉确认。；逐集对应仍需有可核验标题、日期或内容的原始发行集表，不能仅凭双方均为9集按位置生成规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/217130; https://api.bgm.tv/v0/subjects/217130; https://www.themoviedb.org/tv/74336; https://www.themoviedb.org/tv/74336/season/1; https://bangumi.tv/subject/217130; https://www.mgtv.com/h/316394/4037340.html",
-    "verifiedAt": "2026-09-08T20:56:17.113Z"
+    "source": "https://bgm.tv/subject/217130; https://www.themoviedb.org/tv/74336; https://www.themoviedb.org/tv/74336/season/1; https://bgm.tv/subject/217130/ep; https://www.mgtv.com/h/316394/4037340.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

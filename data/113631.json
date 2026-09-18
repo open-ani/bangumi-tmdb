@@ -1,16 +1,94 @@
 {
   "anidbId": 10841,
   "bangumiId": 113631,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 462951,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 462952,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 462953,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 462954,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 462955,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 462956,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 462957,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 462958,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 462959,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 462960,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 462961,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 462962,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 TV 动画《探偵歌劇 ミルキィホームズ TD》，12 话，2015-01-03 开播，2015-03-28 完结；章节标题和日期与 TMDB 51492 第4季的12集逐一对应。AniDB 相关资料也将 Tantei Kageki Milky Holmes TD 列为 Milky Holmes 系列的第4个 TV 条目。该 subject 不包含电影、OVA 或总集篇，因此采用完整第4季。\n\nhttps://bgm.tv/subject/113631 (page): Bangumi 将条目标为 TV，话数12，标题为探偵歌劇 ミルキィホームズ TD，放送时间为2015-01-03至2015-03-28，并列出01至12章。\n\nhttps://anidb.app/anime/tantei-opera-milky-holmes-5147 (search_snippet): AniDB 相关可读页面列出 Milky Holmes 系列条目顺序，其中第4项为 Tantei Kageki Milky Holmes TD（2015），与该 subject 的版本和年份一致。\n\nhttps://www.themoviedb.org/tv/51492 (api_snapshot): TMDB TV 51492 的作品名称为探偵オペラ ミルキィホームズ，季列表明确包含 season 4「探偵歌劇 ミルキィホームズ TD」，episode_count 为12，air_date 为2014-12-31。\n\nhttps://www.themoviedb.org/tv/51492/season/4 (api_snapshot): TMDB 第4季名称为探偵歌劇 ミルキィホームズ TD，共12集；完整集标题与 Bangumi 的12个章节相符，日期序列也一致。",
+    "evidence": "codex: 作品版本、制作人员、剧情和12话范围确认对应TMDB 51492第4季，整季未混入其他作品。已确认第1—4、8—12话逐集对应；第5—7话的TMDB多语言标题、简介和日期互相冲突，暂不建立对应，旧映射所称全部逐集一致不成立。\n\nhttps://bgm.tv/subject/113631 (page): 条目为2015年TV动画，共12话；导演锦织博，动画制作为J.C.STAFF与NOMAD，剧情围绕天城茉莉音被夺走的歌曲展开。\n\nhttps://www.themoviedb.org/tv/51492 (api_snapshot): 作品详情明确将TD列为第四部系列标题，第4季共12集；导演及制作公司与Bangumi资料相符。\n\nhttps://www.themoviedb.org/tv/51492/season/4 (api_snapshot): 已读取第4季日文及英文完整集表，均为12集、total_pages=1。第1—4、8—12集标题与日期逐一吻合输入。第5—7集存在内部冲突：日文标题依次对应Bangumi第6、7、5话，英文标题及日文剧情简介则对应第5、6、7话；日期依次为2015-02-07、02-14、02-21。\n\nhttps://www.animatetimes.com/news/details.php?id=1419571330 (search_snippet): 报道确认第1、2话于2014年12月31日先行播出，常规播出于2015年1月3日开始，解释了季首日期差异。\n\nhttps://www.animatetimes.com/news/details.php?id=1424062235 (search_snippet): 第5话《キャロルの身代金》曾暂停电视播出，后确定于2015年2月21日播出，说明该段存在实际播出顺序与话数顺序差异。\n\n备注：Bangumi第5—7话暂留未映射。需进一步核实或修正TMDB这三集究竟采用剧情话数顺序还是实际电视播出顺序；不能只按日文标题重排，也不能只按英文标题及简介直接顺排。；输入将第5话日期记为2015-01-31，相关报道确认该日原定电视播出被取消，后改至2015-02-21。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/113631; https://anidb.app/anime/tantei-opera-milky-holmes-5147; https://www.themoviedb.org/tv/51492; https://www.themoviedb.org/tv/51492/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/113631; https://www.themoviedb.org/tv/51492; https://www.themoviedb.org/tv/51492/season/4; https://www.animatetimes.com/news/details.php?id=1419571330; https://www.animatetimes.com/news/details.php?id=1424062235",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 51492
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 8,
+      "season": 4,
+      "start": 8,
+      "tmdbId": 51492
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

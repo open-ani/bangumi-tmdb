@@ -1,16 +1,146 @@
 {
   "anidbId": 12032,
   "bangumiId": 175529,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 662996,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 662997,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 662998,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 662999,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 663000,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 663001,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 663002,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 663003,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 663004,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 663005,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 663006,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 663007,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 682981,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 682982,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 682983,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 682984,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 682985,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 682986,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 682987,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 682988,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 682989,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 682990,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 682991,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 682992,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 175529 是《タイムボカン24》本篇，首播日为 2016-10-01，共 24 集，结束于 2017-03-18。TMDB TV 70208 同名且首播日一致，并明确将《タイムボカン24》列为第 1 季、《タイムボカン 逆襲の三悪人》列为第 2 季。TMDB 第 1 季标为 24 集，完整剧集标题和日期均与 Bangumi 提供的 24 集逐一对应，因此应映射为完整第 1 季，不包含第 2 季。\n\nhttps://bgm.tv/subject/175529 (page): Bangumi subject 名称为《タイムボカン24》，首播日 2016-10-01，共 24 集，且输入关联记录的 AniDB ID 为 12032、标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/70208 (api_snapshot): TMDB TV 70208 名称为《タイムボカン24》，首播日为 2016-10-01，共 48 集，并分为第 1 季《タイムボカン24》和第 2 季《タイムボカン 逆襲の三悪人》，两季各 24 集。\n\nhttps://www.themoviedb.org/tv/70208/season/1 (api_snapshot): TMDB 第 1 季名称为《タイムボカン24》，首播日为 2016-10-01，共 24 集；完整 24 集的标题和播出日期与 Bangumi subject 的 regularEpisodes 逐一对应，末集日期为 2017-03-18。",
+    "evidence": "codex: 年份、电视动画媒介、制作公司、角色剧情及24集标题顺序均确认对应TMDB 70208第1季，完整覆盖该subject，不包含初代或第2季续作。逐集核对发现第14—18集存在日期偏差，但外部播出资料支持Bangumi日期，标题和集号对应明确，可建立1—24集连续映射。\n\nhttps://www.themoviedb.org/tv/70208 (api_snapshot): 日文原名搜索命中 TV 70208；详情确认首播日期为2016-10-01，剧情为时夫与可怜探索真历史，制作公司包含龙之子、读卖电视台及LEVEL5，与输入一致。第1季为《タイムボカン24》24集，第2季为2017年的《タイムボカン 逆襲の三悪人》。\n\nhttps://www.themoviedb.org/tv/70208/season/1 (api_snapshot): 已读取第1季完整24集，total_pages=1。全部集标题与Bangumi顺序一致，仅有空格、圆圈字符及标点差异；第1—13、19—24集日期一致。第14—18集TMDB日期比输入早7天，不能沿用旧映射中全部日期一致的说法。\n\nhttps://tatsunoko.co.jp/works/time-bokan-24/ (page): 龙之子官方作品页确认本作为2016年10月至2017年3月播出的24集电视动画，剧情为时夫与可怜穿越时间寻找真历史，并明确是基于初代重新创作的新作品。\n\nhttps://thetv.jp/program/0000912145/14/ (search_snippet): 节目资料明确第14集播于2017-01-07、第15集播于2017-01-14，与Bangumi一致。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-bqXe7S2wKx1BvaAR-mfteA&gdid=tvepisode-uVdRNaMzAYw&id=J1ybN1lTKkk (search_snippet): 发行平台集表摘要确认第16、17、18集标题及日期分别为2017-01-21、2017-01-28、2017-02-04，与Bangumi一致，支持将TMDB对应集的日期视为元数据偏差。\n\n备注：TMDB第1季第14—18集日期较Bangumi及外部资料提前7天；此差异不影响已确认的逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/175529; https://www.themoviedb.org/tv/70208; https://www.themoviedb.org/tv/70208/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/175529; https://www.themoviedb.org/tv/70208; https://www.themoviedb.org/tv/70208/season/1; https://tatsunoko.co.jp/works/time-bokan-24/; https://thetv.jp/program/0000912145/14/; https://play.google.com/store/tv/show?cdid=tvseason-bqXe7S2wKx1BvaAR-mfteA&gdid=tvepisode-uVdRNaMzAYw&id=J1ybN1lTKkk",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 70208
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

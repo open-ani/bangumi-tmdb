@@ -1,13 +1,64 @@
 {
   "bangumiId": 170789,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 616655,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 616656,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 616657,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 616658,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 616659,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 616660,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 616661,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 750264,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 750265,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 750266,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是《The Cyanide & Happiness Show》第二季：首播日 2015-12-09、10 集。TMDB TV 61858 的第二季同名、同日开播，季表实际包含 10 集，覆盖 2015-12-09 至 2016-03-04，剧情均为该系列的成人动画讽刺短篇合集。TMDB 主条目简介、IMDb 线索和外部资料均指向同一部由 Kris Wilson、Rob DenBleyker、Matt Melvin、Dave McElfatrick 创作的美国动画网络剧；不是单个短片、OVA 或电影。\n\nhttps://www.themoviedb.org/tv/61858 (api_snapshot): TMDB TV 61858 标题为 The Cyanide & Happiness Show，首播 2014-11-12，共 4 季；第二季日期为 2015-12-09、共 10 集，简介说明其为动画 sketch comedy 系列。\n\nhttps://www.themoviedb.org/tv/61858/season/2 (api_snapshot): TMDB 第二季季表实际列出 10 集，编号 1–10；首集 2015-12-09，末集 2016-03-04，标题包括 Too Many Trains、Episode Too、Too Much History。\n\nhttps://api.bgm.tv/v0/subjects/170789 (api_snapshot): Bangumi fresh API 信息显示标题为 The Cyanide & Happiness Show Season 2，平台 WEB，日期 2015-12-09，集数 10。\n\nhttps://www.imdb.com/title/tt5123674/ (search_snippet): IMDb 线索实际是第二季第 1 集 Too Many Trains；TMDB find 将其映射到 TV 61858 第 2 季第 1 集，说明该 IMDb 号不是整季主条目。\n\nhttps://en.wikipedia.org/wiki/The_Cyanide_%26_Happiness_Show (search_snippet): 外部资料将其描述为由 Kris Wilson、Rob DenBleyker、Matt Melvin、Dave McElfatrick 创作的美国成人动画网络剧，包含 4 季；第二季为该系列的连续季度。",
+    "evidence": "codex: 确认对应 TMDB 61858 第二季整季。首播日期、10 集规模、前后季度年份、动画喜剧媒介及内容一致，实际季表未混入其他作品。Bangumi 章节均缺少标题和日期，无法进行章节级逐集核对，因此仅确认整季范围，保留 rules 和 overrides 为空。\n\nhttps://www.themoviedb.org/tv/61858 (api_snapshot): TMDB 61858 为《The Cyanide & Happiness Show》，别名包含 Bangumi 使用的 and 拼写。简介明确为漫画创作者 Kris Wilson、Rob DenBleyker 等制作的动画喜剧短篇系列；第二季首播于 2015-12-09，共 10 集，第三季始于 2017-02-02，与输入的季度关系一致。\n\nhttps://www.themoviedb.org/tv/61858/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 10 集，编号 1–10。首集为 Too Many Trains（2015-12-09），末集为 Too Much History（2016-03-04）；全季属于同一动画喜剧系列。\n\nhttps://www.tvguide.com/tvshows/the-cyanide-and-happiness-show/episodes-season-2/1030087484/ (page): TV Guide 第二季列出 10 集，逐集标题及顺序与 TMDB 一致，前九集日期也一致；末集日期记为 2016-03-03，比 TMDB 早一天。剧情包含数学题引发险情、铁路人故事及末日新闻等喜剧短篇，与 TMDB 剧情相符。\n\nhttps://www.imdb.com/title/tt5123674/ (search_snippet): IMDb tt5123674 实际是单集 Too Many Trains，播出日期为 2015-12-09，导演为 Rob DenBleyker，并非整部作品或整季的 IMDb 编号。\n\n备注：输入的 10 个 Bangumi 章节只有编号，不能仅按位置建立逐集映射；需补充章节标题、播出日期或其他可识别内容。；末集日期存在一天差异：TMDB 为 2016-03-04，TV Guide 为 2016-03-03；不影响第二季范围认定。；本次未成功读取 Bangumi 在线页面，Bangumi 侧依据为用户提供的归档数据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/170789; https://www.themoviedb.org/tv/61858; https://www.themoviedb.org/tv/61858/season/2; https://api.bgm.tv/v0/subjects/170789; https://www.imdb.com/title/tt5123674/; https://en.wikipedia.org/wiki/The_Cyanide_%26_Happiness_Show",
-    "verifiedAt": "2026-09-08T20:16:12.239Z"
+    "source": "https://bgm.tv/subject/170789; https://www.themoviedb.org/tv/61858; https://www.themoviedb.org/tv/61858/season/2; https://www.tvguide.com/tvshows/the-cyanide-and-happiness-show/episodes-season-2/1030087484/; https://www.imdb.com/title/tt5123674/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

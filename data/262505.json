@@ -1,16 +1,86 @@
 {
   "anidbId": 14427,
   "bangumiId": 262505,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850132,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850133,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850134,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850135,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850136,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850137,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850138,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850139,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850140,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850141,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850142,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850143,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《Dimensionハイスクール》TV、12话，播出期为2019-01-10至2019-03-28；AniDB 14427 同样确认这是12集TV系列，并且标题、年份、剧情、导演、人物设定、制作公司均与 Bangumi 和 TMDB 84662 对应。TMDB 84662 只有第1季且为12集，完整剧集标题与 Bangumi 12话逐一对应，因此推荐整季1。TMDB 快照中的部分集数日期较 Bangumi/官方资料晚一周，但不影响作品及季范围判断。\n\nhttps://bgm.tv/subject/262505 (page): Bangumi 条目标为 TV《Dimensionハイスクール》/《Dimension高中》，12话，2019年1月10日开始、3月28日结束，并列出阿部雄一导演、Izumi人物设定及 Asmik Ace/Polygon Magic 制作。\n\nhttps://anidb.net/anime/14427 (page): AniDB 14427 的正式标题为 Choujigen Kakumei Anime: Dimension High School / Dimensionハイスクール，类型为 TV Series、12 episodes，日期为 2019-01-10 至 2019-03-28；剧情、导演 Abe Yuuichi、人物设计 Izumi、Asmik Ace/Polygon Magic 与该 Bangumi 条目一致。\n\nhttps://columbia.jp/dimension-hs/program.html (page): 日本哥伦比亚官方作品资料确认同一作品的剧情、2019年1月播出、TOKYO MX/BSフジ/J:COM电视台，以及导演/脚本阿部雄一、人物设计 Izumi、音乐大石憲一郎、制作 Asmik Ace/Polygon Magic。\n\nhttps://www.themoviedb.org/tv/84662 (api_snapshot): TMDB TV 84662 标题为 Dimensionハイスクール，首播日为2019-01-10，剧情与 Bangumi/AniDB 相同，number_of_episodes 为12，且 seasons 仅显示 season_number 1、episode_count 12。\n\nhttps://www.themoviedb.org/tv/84662/season/1 (api_snapshot): TMDB 第1季为12集，完整快照包含与 Bangumi 相同的12个剧集标题，从「ひらめきの天才」至「10年後の補習」，顺序逐一对应。\n\n备注：TMDB 快照中的第3集及后续部分 air_date 相比 Bangumi/官方播出日期出现一周偏移（TMDB 第12集为2019-04-04，而官方/Bangumi为2019-03-28）；这被视为 TMDB 日期元数据问题，未用于缩减集数范围。",
+    "evidence": "codex: 确认对应TMDB 84662第1季整季。年份、剧情、动画与真人结合的版本及制作人员吻合；12话标题和顺序逐一对应，完整季表未混入其他作品，可建立本篇1—12话的一对一连续映射。\n\nhttps://columbia.jp/dimension-hs/program.html (page): 官方资料确认这是2019年1月10日开播、动画与真人剧情结合的电视作品；剧情涉及白山纯平等人被石头带入动画世界。导演兼编剧阿部雄一、角色设计Izumi、制作Asmik Ace／Polygon Magic均与输入一致。\n\nhttps://www.themoviedb.org/tv/84662 (api_snapshot): TMDB详情确认84662为2019年《Dimensionハイスクール》，剧情、导演阿部雄一、主要演员及制作公司Asmik Ace相符；仅有第1季，共12集。\n\nhttps://www.themoviedb.org/tv/84662/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。逐集标题与Bangumi第1至12话顺序一致，第5话仅M的全角／半角不同。第1、2集日期一致，第3至12集日期均比Bangumi晚7天。\n\nhttps://bgm.tv/subject/262505/ep (page): Bangumi章节页列出12话本篇，播出日期从2019年1月10日至3月28日；逐话标题与TMDB第1季对应，包括第6话「補習の補習」和第12话「10年後の補習」。\n\n备注：TMDB第3至12集日期统一比Bangumi晚7天，末集记为2019-04-04而Bangumi为2019-03-28；日期差异原因尚未确认，但逐集标题、顺序和总量均吻合，不影响映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/262505; https://anidb.net/anime/14427; https://columbia.jp/dimension-hs/program.html; https://www.themoviedb.org/tv/84662; https://www.themoviedb.org/tv/84662/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/262505; https://columbia.jp/dimension-hs/program.html; https://www.themoviedb.org/tv/84662; https://www.themoviedb.org/tv/84662/season/1; https://bgm.tv/subject/262505/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 84662
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

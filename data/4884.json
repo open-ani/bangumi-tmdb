@@ -1,15 +1,175 @@
 {
+  "anidbId": 14704,
   "bangumiId": 4884,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 127477,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 127478,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 127479,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 127480,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 127481,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 127482,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 127483,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 127484,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 127485,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 127486,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 127487,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 127488,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 127489,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 127490,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 127491,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 127492,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 127493,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 127494,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 127495,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 127496,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 127497,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 127498,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 127499,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 127500,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 127501,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 127502,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 127562,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 128926,
+      "sort": 1,
+      "type": 3
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 127562,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 128926,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 118797 与 Bangumi subject 均为 2011 年 10 月 30 日首播的中国动画《星游记》，别名包括 Rainbow Sea、Xing You Ji、太空大冒险；剧情均围绕麦当、咕咚寻找彩虹海并对抗银河眼。TMDB 标注为已完结、1 季、26 集，实际 S1 集表连续覆盖第 1 至 26 集。Bangumi 的总集数为 28，但额外 2 条是完整版片头和片尾，不属于主体剧情集，因此使用完整 TMDB S1。相关电影《星游记之风暴法米拉》及其续作不是本 subject 的 TV 版主体。\n\nhttps://www.themoviedb.org/tv/118797 (api_snapshot): TMDB API 详情：标题《星游记》/Rainbow Sea，日期 2011-10-30，TV，已完结，1 季 26 集；简介与麦当寻找彩虹海的剧情相符，并列出 TINKID ANIMATION STATION。\n\nhttps://www.themoviedb.org/tv/118797/season/1 (api_snapshot): TMDB API 季表：第 1 季共 26 集，实际集号连续为 1–26，日期和各集标题与 Bangumi 主体集表对应。\n\nhttps://api.bgm.tv/v0/subjects/4884 (api_snapshot): Bangumi API 原始信息：平台 TV，首播 2011-10-30，话数 26；导演刘北、孙甜，总导演曾伟京，编剧刘北，制作包含北京卡酷传媒、优扬传媒和电动画 TINKID；额外 2 条记录明确为完整版片头、片尾。\n\nhttps://zh.wikipedia.org/wiki/%E6%98%9F%E6%B8%B8%E8%AE%B0 (search_snippet): 网页搜索摘要补充确认：作品英文名 Rainbow Sea、2011 年播出、共 26 集，制作方为卡酷传媒、优扬传媒与电动画 TINKID，并区分了后续电影作品。",
+    "evidence": "codex: 确认对应TMDB 118797第1季完整26集。首播日期、TV媒介、制作公司、剧情和全部26话标题及顺序一致，足以确认2011年版及逐集一一对应。完整版片头、片尾明确排除。旧映射的作品和季正确，但其声称全部逐集日期一致并不准确。\n\nhttps://www.themoviedb.org/tv/118797 (api_snapshot): 详情确认这是2011年10月30日首播的中国TV动画《星游记》，别名含Rainbow Sea、太空大冒险；制作公司TINKID与输入一致，麦当寻找彩虹海、突破银河眼封锁的剧情一致。共1季26集。\n\nhttps://www.themoviedb.org/tv/118797/season/1 (api_snapshot): 已读取第1季完整集表，共26集、1页。全部集标题逐集对应Bangumi第1—26话，仅有编号前缀、标点差异；第1—13集日期一致，第14—26集日期存在差异。该季全部为主体剧情，没有混入片头、片尾或后续电影。\n\n备注：第14—26话的Bangumi日期为2011-11-18至2011-12-01，TMDB为2012-01-27至2012-02-08；日期差异原因尚未核实。各集标题及顺序全部一致，因此不影响本次映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4884; https://www.themoviedb.org/tv/118797; https://www.themoviedb.org/tv/118797/season/1; https://api.bgm.tv/v0/subjects/4884; https://zh.wikipedia.org/wiki/%E6%98%9F%E6%B8%B8%E8%AE%B0",
-    "verifiedAt": "2026-09-08T18:32:21.991Z"
+    "source": "https://bgm.tv/subject/4884; https://www.themoviedb.org/tv/118797; https://www.themoviedb.org/tv/118797/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118797
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,103 @@
 {
   "anidbId": 8804,
   "bangumiId": 26825,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 162439,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 162440,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 162441,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 162442,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 162443,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 162444,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 162445,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 162446,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 162447,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 162448,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 162449,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 162450,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 195398,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 195398,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 46040,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《夏色キセキ》原创 TV 动画，主体 12 话，并另列包含“15回目のナツヤスミ”的 SP。Bangumi 的 12 个正篇标题、剧情和日期与 TMDB 46040 第 1 季逐话内容一致；TMDB 明确列出第 1 季 12 话。Bangumi 的 SP 标题和 2012-08-29 日期与 TMDB 主页面列出的 season 0“特別編”、1 话相符，因此应同时收录 season 1 全季和 season 0 全季。\n\nhttps://bgm.tv/subject/26825 (page): Bangumi 将该条目标为 TV，话数 12，放送开始于 2012-04-05；章节列表包含 01–12，并另列 SP“第15个暑假”（2012-08-29）。\n\nhttps://www.sunrise-world.net/titles/pickup_325.php (page): SUNRISE 官方资料确认《夏色キセキ》为 2012 年、全 12 话的原创 TV 动画，制作团队、四名少女设定和故事概要均与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/46040 (api_snapshot): TMDB 条目名称为“夏色キセキ”，剧情为下田四名少女的夏日故事；明确列出 season 0“特別編”1 话和 season 1 12 话。\n\nhttps://www.themoviedb.org/tv/46040/season/1 (api_snapshot): TMDB 第 1 季为 12 话；逐话标题从“11回目のナツヤスミ”至“終わらないナツヤスミ”，与 Bangumi 正篇 12 话标题和剧情顺序逐项对应。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=102272 (search_snippet): 同名作品页面将 Natsu-iro Kiseki 链接到 AniDB anime/8804，支持输入中的 AniDB ID 与该作品身份一致。\n\n备注：Bangumi 的首播日期为 2012-04-05，而 TMDB 条目及逐话日期整体为次日；这是日期记录口径差异，未发现版本或剧情不一致。；TMDB 输入快照未提供 season 0 的逐话详情页，但主条目明确给出 season 0、名称“特別編”和 1 话；该季与 Bangumi 的 SP 标题及日期相符。",
+    "evidence": "codex: 作品年份、媒介、制作人员、主演及剧情一致；实际集表确认12话本篇依次对应TMDB 46040第1季1—12集，特别篇按标题和日期对应第0季第1集。\n\nhttps://bgm.tv/subject/26825 (page): Bangumi 标为2012年原创TV动画，共12话，另列特别篇《15回目のナツヤスミ》，日期为2012-08-29。\n\nhttps://www.sunrise-world.net/titles/pickup_325.php (page): SUNRISE 官方资料确认本作为2012年、全12话的原创TV动画，由第11工作室制作、水岛精二执导、Sphere四人主演，讲述下田四名少女的故事，与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/46040 (api_snapshot): TMDB 46040 的年份、下田四少女剧情、SUNRISE制作、水岛精二导演及四名主演均吻合；列出第1季12集、第0季1集。\n\nhttps://www.themoviedb.org/tv/46040/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共12集。逐集标题与Bangumi对应，仅第11集空格及第12集「夏休み／ナツヤスミ」存在书写差异；12集日期均比Bangumi晚一天，第10至11集间隔两周也一致。\n\nhttps://www.themoviedb.org/tv/46040/season/0 (api_snapshot): 实际读取第0季完整集表，total_pages=1，仅第1集《15回目のナツヤスミ》，日期2012-08-29，与Bangumi章节195398的标题和日期完全一致。\n\n备注：TMDB本篇日期统一比Bangumi晚一天，符合深夜放送跨日记录差异的特征，但未独立核实具体原因。；特别篇时长Bangumi记7分钟、TMDB记11分钟；标题及日期完全一致，时长差异原因未明。；SUNRISE资料页将放送结束记为2012-06-21，与Bangumi及TMDB末集日期不一致；逐集映射采用双方实际集表核对结果。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/26825; https://www.sunrise-world.net/titles/pickup_325.php; https://www.themoviedb.org/tv/46040; https://www.themoviedb.org/tv/46040/season/1; https://www.animecharactersdatabase.com/linktodbs.php?id=102272",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/26825; https://www.sunrise-world.net/titles/pickup_325.php; https://www.themoviedb.org/tv/46040; https://www.themoviedb.org/tv/46040/season/1; https://www.themoviedb.org/tv/46040/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46040
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 46040,
       "season": 0,
       "type": "tv"

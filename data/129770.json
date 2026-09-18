@@ -1,32 +1,77 @@
 {
   "anidbId": 11138,
   "bangumiId": 129770,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 509952,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 518943,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 861667,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 509952,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 62104,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 518943,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 62104,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 861667,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 62104,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是 3 话 OAD，分别对应单行本第15、16、34卷同捆作品。独立资料确认三部 OAD 的发行日及标题：外伝 バンデット・バン（2015-06-17）、英雄たちの戯れ〜番外編集〜（2015-08-12）、英雄たちは燥ぐ（2018-11-16）。TMDB 62104 特别篇季的 API 快照中，第2、3集标题分别与前两部完全对应；第10集标题及简介明确列出“戦え！！残飯処理騎士団長／ハダカのココロ／ハーレクインとヘルブラム／大罪Vacation”，与 Bangumi 第3话标题完全对应，因此采用 S0E2、S0E3、S0E10。S0E9虽有2018-11-16日期，但标题仅为“第9話”，且外部剧集资料显示其为同一 OAD 的另一条重复/替代元数据，内容描述与 Bangumi 四段标题不如 E10 精确匹配，故不纳入。\n\nhttps://bgm.tv/subject/129770 (page): Bangumi 条目为 OVA，3话，发售日2015-06-17，结束日2018-11-16；章节为01、02、03，并注明分别同捆单行本第15、16、34卷。\n\nhttps://www.themoviedb.org/tv/62104/season/0 (api_snapshot): TMDB 特别篇季 API 快照：S0E2 为“外伝 バンデット・バン”，S0E3 为“英雄たちの戯れ 〜番外編集〜”；S0E10 为“英雄たちは燥ぐ”，简介列出四个与 Bangumi 第3话相同的番外作品。\n\nhttps://www.themoviedb.org/tv/62104 (api_snapshot): TMDB TV 62104 为《七つの大罪》，日本动画，包含特别篇 season 0。\n\nhttps://please.untaint.us/?url=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA_%28%E6%BC%AB%E7%94%BB%29%23%E3%82%B2%E3%83%BC%E3%83%A0 (search_snippet): 剧集/作品表列出三部 OAD 的标题和日期，并列出第三部的四个短篇：戦え!!残飯処理騎士団長、ハダカのココロ、ハーレクインとヘルブラム、大罪Vacation。\n\nhttps://watch.plex.tv/ja/show/the-seven-deadly-sins/season/0/episode/10 (search_snippet): 独立剧集资料将“英雄たちは燥ぐ”列为特别篇第10话，并明确简介为四个番外短篇合集，与 Bangumi 第3话标题一致。\n\n备注：TMDB S0E3 的 API 日期为2016-09-11，与 OAD 实际发行日2015-08-12不一致；但标题及内容类型完全对应，疑为季元数据日期错误。；TMDB S0E9 与 S0E10存在重复或替代元数据；S0E10的标题和四段简介与 Bangumi 主体直接匹配，因此仅推荐S0E10。",
+    "evidence": "codex: 三部漫画同捆 OAD 对应 TMDB 62104 第0季第2、3、9集。前两话的标题、剧情及发行版本吻合；第三话的官方发行日期、卷数和四段内容均与 E9 英文元数据一致，应将旧映射的 E10 修正为 E9。特别篇季混有其他作品，仅声明这三集。\n\nhttps://bgm.tv/subject/129770 (page): Bangumi 条目为3话 OVA，分别随漫画第15、16、34卷发行，时间跨度为2015-06-17至2018-11-16；原作为铃木央，动画制作为 A-1 Pictures。\n\nhttps://www.themoviedb.org/tv/62104 (api_snapshot): 日文原名搜索及详情确认 TMDB 62104 是2014年开播的《七つの大罪》，剧情人物、A-1 Pictures 制作及主要配音与本条目所属系列一致，包含特别篇季。\n\nhttps://www.themoviedb.org/tv/62104/season/0?language=ja-JP (api_snapshot): 已读取第0季两页，共63集。日文集表中 E2、E3 的标题分别对应前两部 OAD；E10 的日文标题及简介对应第三部 OAD，但日期为2019-08-01。\n\nhttps://www.themoviedb.org/tv/62104/season/0?language=en-US (api_snapshot): 英文集表中 E2 描写班与伊莱恩相遇，E3 为主要角色番外短篇合集；E9 明确为 Heroes' Frolic、漫画第34卷附赠 OVA，日期2018-11-16，简介涵盖 Bangumi 第3话的四段故事。E10 英文标题为占位名称且无简介。因此第三话采用日期、发行版本及内容同时吻合的 E9。\n\nhttps://www.kodansha.co.jp/comic/new-releases/p?page=1105 (search_snippet): 讲谈社新刊目录确认第15卷 DVD 限定版于2015-06-17发行，附赠动画为班的外传，包含原作者新增情节。\n\nhttps://www.cdjapan.co.jp/product/NEOBK-1805483 (search_snippet): 第16卷 DVD 限定版发行日为2015-08-12，附赠第二部原创动画，内容为主要角色登场的番外短篇合集。\n\nhttps://www.kodansha.co.jp/comic/products/0000313119 (search_snippet): 讲谈社第34卷 DVD 限定版资料确认2018-11-16发行，动画总标题为《英雄たちは燥ぐ》，包含剩饭处理骑士团长、赤裸的心、哈勒昆与海尔布拉姆、大罪 Vacation 四段故事，与 Bangumi 第3话及 TMDB E9 英文简介对应。\n\n备注：TMDB E2 日期为2015-06-16，比正式发行日早一天；E3 日期为2016-09-11，与正式发行日2015-08-12不符。标题及内容支持对应关系，日期字段存在偏差。；TMDB E10 日文元数据也描述第三部 OAD，但日期不符且英文内容为空，疑似重复或错挂；其具体成因尚未确认，本次不纳入。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/129770; https://www.themoviedb.org/tv/62104/season/0; https://www.themoviedb.org/tv/62104; https://please.untaint.us/?url=https%3A%2F%2Fja.wikipedia.org%2Fwiki%2F%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA_%28%E6%BC%AB%E7%94%BB%29%23%E3%82%B2%E3%83%BC%E3%83%A0; https://watch.plex.tv/ja/show/the-seven-deadly-sins/season/0/episode/10",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/129770; https://www.themoviedb.org/tv/62104; https://www.themoviedb.org/tv/62104/season/0?language=ja-JP; https://www.themoviedb.org/tv/62104/season/0?language=en-US; https://www.kodansha.co.jp/comic/new-releases/p?page=1105; https://www.cdjapan.co.jp/product/NEOBK-1805483; https://www.kodansha.co.jp/comic/products/0000313119",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "episode": 2,
+      "episodeEnd": 3,
       "id": 62104,
       "season": 0,
       "type": "tv"
     },
     {
-      "episode": 3,
-      "id": 62104,
-      "season": 0,
-      "type": "tv"
-    },
-    {
-      "episode": 10,
+      "episode": 9,
       "id": 62104,
       "season": 0,
       "type": "tv"

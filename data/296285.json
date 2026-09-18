@@ -1,16 +1,106 @@
 {
   "anidbId": 14722,
   "bangumiId": 296285,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 922153,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 922154,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 922155,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 922156,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 922157,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 922158,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 922159,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 922160,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 922161,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 922162,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 922163,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 922164,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 922165,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 922166,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 922167,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 922168,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2020 年日本 TV 动画《ブレーカーズ／BREAKERS》，主体共 16 集；AniDB 关联名称为 Breakers／ブレーカーズ。TMDB 96377 同名、同为日语日本作品，首播日为 2020-01-07，简介为介绍残障体育的动画系列，第一季明确收录 16 集，集标题按轮椅篮球、跳高、盲人门球和残疾人游泳四个主体单元覆盖 1—16 集。外部资料也核对了 2020-01-07 至 2020-05-26 的 16 集播出及分段制作人员。因此应对应 TMDB TV 96377 第 1 季完整范围。\n\nhttps://bgm.tv/subject/296285 (page): 输入提供的 Bangumi 独立资料显示该条目为《ブレーカーズ／BREAKERS》，2020-01-07 开播、TV 动画、16 集，并给出 AniDB ID 14722 及匹配名称。\n\nhttps://www.themoviedb.org/tv/96377 (api_snapshot): TMDB API 快照显示作品名为ブレーカーズ，日语、日本，首播日 2020-01-07，简介为介绍残障体育的动画系列，共 16 集。\n\nhttps://www.themoviedb.org/tv/96377/season/1 (api_snapshot): TMDB 第一季 API 快照明确为 season 1、16 集，剧集编号连续为 1—16；标题覆盖轮椅篮球、残疾人跳高、盲人门球和残疾人游泳四个单元。\n\nhttps://bgm.tv/anime/list/aiyayaya/dropped?orderby=rate&page=7 (search_snippet): Bangumi 搜索摘要中的该作品条目显示 16 话、2020 年 1 月 7 日及分段导演信息，与输入条目主体相符。\n\nhttps://www.allcinema.net/cinema/pdf/370779 (search_snippet): 搜索摘要核对了《ブレーカーズ》为 TV 动画，播出期为 2020-01-07 至 2020-05-26，并列出第 1—16 话对应的分段导演和制作公司。\n\n备注：Bangumi 输入中的部分章节标题和日期存在明显录入或同步不一致，但总集数为 16；这不影响采用 TMDB 第一季完整 1—16 集范围。",
+    "evidence": "codex: 确认对应TMDB 96377第一季完整16集：年份、首播日、剧情角色、制作公司、四个运动单元及集数结构一致，季表未混入总集篇。逐集仅建立第1—8话规则：前4话由日期及标题核对，首话误标由首播报道校正；第5—8话通过外部节目表的日期与单元标题交叉确认。第9—16话暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/96377 (api_snapshot): 日文原名搜索命中 TV 96377；详情确认首播为2020-01-07，题材为残障体育，制作公司包含 Albacrow、NHK Enterprises、l-a-unch・BOX、CANDY BOX，角色包含成田与塔玛，与输入的剧情、年份及制作信息一致。\n\nhttps://www.themoviedb.org/tv/96377/season/1 (api_snapshot): 已读取第一季完整集表，共16集、1页：第1—4集轮椅篮球，第5—8集跳高，第9—12集盲人门球，第13—16集残障游泳，各单元内部编号均为1—4，无总集篇混入。前4集日期与输入一致；第5—16集日期与外部节目表存在冲突。\n\nhttps://www.oricon.co.jp/news/2152651/full/ (page): 2020年1月7日的报道确认本作在NHK Eテレ播出，讲述成田帮助少年少女参与残障体育的故事，四个运动单元各含4话、每话9分钟；首话为轮椅篮球篇第1话，支持判断输入首话标题中的“04”为误标。\n\nhttps://thetv.jp/program/0000966953/plot/ (page): 节目表确认跳高篇第1—4话分别于2020-02-04、02-11、02-18、02-25播出，逐一对应输入第5—8话日期及TMDB第5—8集标题。游泳篇第4话于05-26播出，之后另列总集篇。\n\nhttps://thetv.jp/program/0000966953/9/ (search_snippet): 第9话明确为盲人门球篇第1话，播出日2020-04-07；第10话为04-14，与输入第9—10话日期不一致。\n\n备注：Bangumi第1话标题写成轮椅篮球篇第4话，但其sort及2020-01-07日期均指向首话；映射为TMDB S01E01。；TMDB第5—16集的日期与外部节目表不一致，不能用其日期直接匹配。；Bangumi第9—16话标题为空，日期又与实际节目表冲突；虽可确认属于本季主体，仍缺少章节级身份依据，暂留空，待章节标题、内容或修订记录补证。；Bangumi条目页及NHK旧官网本次无法读取；Bangumi侧依据用户提供的快照，未将访问失败的页面列为证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/296285; https://www.themoviedb.org/tv/96377; https://www.themoviedb.org/tv/96377/season/1; https://bgm.tv/anime/list/aiyayaya/dropped?orderby=rate&page=7; https://www.allcinema.net/cinema/pdf/370779",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/296285; https://www.themoviedb.org/tv/96377; https://www.themoviedb.org/tv/96377/season/1; https://www.oricon.co.jp/news/2152651/full/; https://thetv.jp/program/0000966953/plot/; https://thetv.jp/program/0000966953/9/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 96377
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

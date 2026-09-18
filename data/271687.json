@@ -1,19 +1,91 @@
 {
   "anidbId": 14602,
   "bangumiId": 271687,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 925555,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 925556,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 925557,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 925558,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 925559,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 925560,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 925561,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 925562,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 925563,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 925564,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 925565,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 925566,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 93653第1季第1—12集。年份、电视动画媒介、剧情和导演一致，12话的标题、剧情及每周播出日期可逐集对应。TMDB将2023年续作合并为同季第13—24集，因此旧映射的整季范围过宽，须限定为前12集。\n\nhttps://www.themoviedb.org/tv/93653 (api_snapshot): TMDB 93653 为2020年首播的电视动画《虚構推理》，岩永琴子与樱川九郎的剧情设定、导演後藤圭二及制作公司信息与输入吻合。\n\nhttps://www.themoviedb.org/tv/93653/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集日期为2020-01-12至2020-03-29，第13—24集为2023年内容。前11集日文标题与输入逐集一致；第12集标题写作「秩序を守る彼女」，但剧情与官方第12话一致。\n\nhttps://kyokousuiri.jp/season1/story/ (page): 第一期官网列出全部12话，顺序与输入一致；第12话正式标题为「秩序を守る者」，琴子的第四个解答与九郎对钢人七濑的最后一击等剧情，与TMDB第12集吻合。\n\nhttps://kyokousuiri.jp/season1/onair/ (page): 官网注明2020年1月11日起每周六25:30播出，即公历次日凌晨；因此输入12话日期与TMDB逐集相差一天，符合深夜放送日期记法。\n\n备注：TMDB第12集日文标题与官网存在文字差异；集号、日期和剧情均吻合，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/271687; https://www.themoviedb.org/tv/93653; https://www.themoviedb.org/tv/93653/season/1; https://kyokousuiri.jp/season1/story/; https://kyokousuiri.jp/season1/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93653
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 93653,
       "season": 1,
       "type": "tv"

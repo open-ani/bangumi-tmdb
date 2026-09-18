@@ -1,16 +1,86 @@
 {
   "anidbId": 12318,
   "bangumiId": 189446,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 710752,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 710753,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 710754,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 710755,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 710756,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 710757,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 710758,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 710759,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 710760,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 710761,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 710762,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 710763,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、TV媒介、导演、角色和剧情一致，12话标题逐集对应且顺序、总量吻合，可确认本篇1—12话对应TMDB 71007第1季1—12集。现有213383对同季的占用与迷你动画身份冲突，不应据此否定本篇映射。\n\nhttps://bgm.tv/subject/189446 (page): Bangumi 将本作列为2017年4月9日至6月25日播出的12话TV动画，导演谷口悟朗；剧情为三栗麻耶使用I-MACHINE采矿遇险后加入埃斯卡维特公司。\n\nhttps://www.themoviedb.org/tv/71007 (api_snapshot): TMDB 71007为2017年TV动画《ID-0》，别名含アイディー・ゼロ；导演谷口悟朗、主要角色及采矿遇险剧情均吻合，只有一季、共12集。\n\nhttps://www.themoviedb.org/tv/71007/season/1 (api_snapshot): 第1季完整集表共12集、1页，每集24分钟。逐集标题与输入12话对应，第7话英文标题仅有空格差异；第1—9集日期完全一致，第10—12集日期分别晚两天。该季覆盖全部TV本篇。\n\nhttps://id-zero.com/sp/bdcd.html (search_snippet): 官方网站将《クイズ!! ID-0》全12回列为影碟特典中的迷你动画剧场，属于独立附加内容。\n\n备注：TMDB第10—12集日期为2017-06-13、06-20、06-27，Bangumi为06-11、06-18、06-25；日期差异原因未核实，但标题逐集吻合。；Bangumi 213383《クイズ!! ID-0》的现有同季映射需另行纠正；本次未确定该衍生短篇的TMDB归属。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/189446; https://www.themoviedb.org/tv/71007; https://www.themoviedb.org/tv/71007/season/1; https://id-zero.com/sp/bdcd.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71007
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

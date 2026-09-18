@@ -1,16 +1,51 @@
 {
   "anidbId": 6645,
   "bangumiId": 6985,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 37941,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 37942,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 37943,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 37944,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 37945,
+      "sort": 29,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 12598 是动画《Black Lagoon》的主条目；其 Specials（TMDB 季号 0）第 8 集明确为 Roberta’s Blood Trail 第一集《Collateral Massacre》。独立剧集资料确认该 OVA 共 5 集，标题和内容对应 Bangumi 的 5 集，因此本 subject 对应 TMDB S0E8–E12，而不是完整主条目或真人/电影版本。AnimeLists 的 12598 + offset 7 与该范围一致。254198 未得到 TMDB 作品证据，搜索结果反而显示该数字是 TVDB 另一部作品的系列 ID。\n\nhttps://www.themoviedb.org/tv/12598-black-lagoon/watch (search_snippet): TMDB 页面将 12598 标为动画《Black Lagoon》TV 条目，并列出其电视正篇。\n\nhttps://www.themoviedb.org/tv/12598-black-lagoon/season/0/episode/8?language=fr-FR (search_snippet): TMDB Specials（季号 0）第 8 集为《Collateral Massacre》，简介明确涉及 Roberta、Lovelace 家族及 Major Caxton，内容对应 Roberta’s Blood Trail 第一集。\n\nhttps://www.imdb.com/title/tt1992386/episodes/ (search_snippet): 独立剧集列表确认《Black Lagoon: Roberta's Blood Trail》只有 5 集，依次为 Collateral Massacre、An Office Man's Tactics、Angels in the Crosshairs、Oversaturation Kill Box、Codename Paradise, Status MIA，时间跨度为 2010–2011。\n\nhttps://thetvdb.com/series/10h-entolh (search_snippet): 搜索结果显示 254198 是 TVDB 的《10η Εντολή》系列 ID，并非已核实的 TMDB Black Lagoon ID。",
+    "evidence": "codex: 确认是2010—2011年发行的5话剧情 OVA。制作人员、剧情、逐集标题、总量及后四集日期共同确认 Bangumi 第25—29话对应 TMDB 12598 第0季第8—12集，保留旧范围并补充连续规则。254198 也真实收录同一作品，但其第0季是介绍短片；本次采用日期吻合度更高的12598特别篇范围，不重复映射同一内容。\n\nhttps://www.blacklagoon.jp/bluray.html (page): 官方商品页明确区分 TV 正篇第1—24话与另行收录的5话 OVA；制作署名为广江礼威原作、片渕须直导演、MADHOUSE 动画制作，与输入版本相符。\n\nhttps://www.blacklagoon.jp/story3-25.html (page): 官方剧情页将第三部编号列为第25—29话，第25话标题为 Collateral Massacre，剧情为迪亚哥被炸死后罗贝尔特展开复仇，与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/12598 (api_snapshot): TMDB 12598 为 MADHOUSE 制作、片渕须直执导的 BLACK LAGOON，别名明确包含本 OVA 标题；第0季有12集。\n\nhttps://www.themoviedb.org/tv/12598/season/0 (api_snapshot): 完整读取第0季，total_pages=1。第8—12集依次对应输入第25—29话的五个标题；第10集使用 Angels 复数拼写。第9—12集日期分别为2010-09-30、2011-01-07、2011-03-11、2011-06-22，全部吻合；第8集日期为2010-06-26，与输入发行日期不同。五集剧情连续对应罗贝尔特复仇篇；第1—7集为其他短篇，排除。\n\nhttps://tv.apple.com/jp/episode/collateral-massacre/umc.cmc.5l1o5knwm03pop3ac2nz9lw3s?showId=umc.cmc.2u3vvf6hggccpdbww8fedz1r7 (search_snippet): Apple TV 日本的 Collateral Massacre 页面标注2010年7月17日、34分钟，并描述罗贝尔特复仇事件，支持输入的首话发行日期与版本。\n\nhttps://www.themoviedb.org/tv/254198 (api_snapshot): TMDB 254198 确实存在，是同名5集动画，原作广江礼威、导演片渕须直、制作 MADHOUSE，剧情同为罗贝尔特复仇。旧记录关于该 TMDB ID 未获作品证据的判断已不适用。\n\nhttps://www.themoviedb.org/tv/254198/season/0 (api_snapshot): 254198 第0季完整集表只有五个角色或城市介绍短片，片长5—10分钟，不是本 subject 的五话剧情 OVA，因此 seed 指定的第0季错误。\n\nhttps://www.themoviedb.org/tv/254198/season/1 (api_snapshot): 254198 第1季完整集表为相同五话剧情 OVA，构成另一套重复收录；其前两集日期为2010-07-07、2010-10-30，与输入不符，后三集日期吻合。\n\n备注：12598 第0季第8集标注2010-06-26，Bangumi及Apple TV标注2010-07-17；尚未确认是否属于先行播出与光碟发行日期差异，但标题、剧情及其余四话对应明确。；TMDB 同时存在254198第1季这一重复收录范围；本次仅选择12598第0季第8—12集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/6985; https://www.themoviedb.org/tv/12598-black-lagoon/watch; https://www.themoviedb.org/tv/12598-black-lagoon/season/0/episode/8?language=fr-FR; https://www.imdb.com/title/tt1992386/episodes/; https://thetvdb.com/series/10h-entolh",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/6985; https://www.blacklagoon.jp/bluray.html; https://www.blacklagoon.jp/story3-25.html; https://www.themoviedb.org/tv/12598; https://www.themoviedb.org/tv/12598/season/0; https://tv.apple.com/jp/episode/collateral-massacre/umc.cmc.5l1o5knwm03pop3ac2nz9lw3s?showId=umc.cmc.2u3vvf6hggccpdbww8fedz1r7; https://www.themoviedb.org/tv/254198; https://www.themoviedb.org/tv/254198/season/0; https://www.themoviedb.org/tv/254198/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 29,
+      "episodeStart": 8,
+      "season": 0,
+      "start": 25,
+      "tmdbId": 12598
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,96 @@
 {
   "anidbId": 8816,
   "bangumiId": 27317,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 167068,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 167069,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 167070,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 167071,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 167072,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 167073,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 167074,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 167075,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 167076,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 167077,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 167078,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 167079,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 167080,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、TV媒介、剧情、制作人员及逐集日期确认属于同一版本。Bangumi本篇13话对应TMDB 45982第1季第1至13集；旧映射范围应收窄，避免包含《next stage》所在的第14至26集。\n\nhttps://bgm.tv/subject/27317 (page): Bangumi 标注为2012年4月29日至7月22日播出的13话TV动画；导演平池芳正、总导演河森正治、动画制作SATELIGHT，与TMDB制作资料一致。\n\nhttps://www.themoviedb.org/tv/45982 (api_snapshot): TMDB 45982首播日期为2012年4月29日，剧情为芸能禁止时代继承AKB48名号的偶像团队，与本条目一致。制作人员及公司吻合；全剧共一季26集，别名明确区分First Stage与Next Stage。\n\nhttps://www.themoviedb.org/tv/45982/season/1 (api_snapshot): 已读取第1季完整26集表（共1页）。第1至13集播出日期与输入的13话逐集一致，覆盖2012年4月29日至7月22日；除第8话标题有轻微文字差异外，其余12话日文标题完全一致。第14集起进入2013年播出的后续内容，因此本subject仅覆盖第1至13集。\n\n备注：第8话输入标题为「その名前、誰のもの？」，TMDB为「その名は、誰のもの？」；同日播出且前后集标题与日期吻合，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27317; https://www.themoviedb.org/tv/45982; https://www.themoviedb.org/tv/45982/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45982
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 45982,
       "season": 1,
       "type": "tv"

@@ -1,15 +1,156 @@
 {
+  "anidbId": 13461,
   "bangumiId": 384732,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1106571,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1106572,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1106573,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1106574,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1106575,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1106576,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1106577,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1106578,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1106579,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1106580,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1106581,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1106582,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1106583,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1106584,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1106585,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1106586,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1106587,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1106588,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1106589,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1106590,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1106591,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1106592,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1106593,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1106594,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1106595,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1106596,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目《猪猪侠之超星萌宠》与 Bangumi 的中文原名、2017 年背景、剧情（迷糊博士、铁拳虎及星际特工）一致；TMDB 工作人员列出陆锦明为导演、古志斌为编剧，媒介为 TV。该 TMDB TV 条目包含多个季度，但第 1 季实际有 26 集，剧情简介与 Bangumi subject 完整对应，因此应映射为第 1 季整季，而不是整个 TV 条目或其他季度。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): TMDB 详情确认原名《猪猪侠之超星萌宠》、2017 年、剧情、TV 类型、陆锦明导演、古志斌编剧，并列出第 1 季至第 4 季。\n\nhttps://www.themoviedb.org/tv/206215/season/1 (api_snapshot): TMDB 第 1 季实际包含 26 集，集号连续覆盖 1–26，首播日期为 2017-05-22，剧情与 Bangumi subject 相符。\n\nhttps://tv.cctv.com/2018/04/24/VIDALLByhdrsGi5zzsm8Bsls180424.shtml (search_snippet): 央视页面将作品标为《猪猪侠之超星萌宠 第一季》，年份为 2017，简介与 Bangumi 剧情一致。\n\nhttps://www.bilibili.com/bangumi/play/ss46491 (search_snippet): 播放页面标示《猪猪侠之超星萌宠1》为 2017 年、全 26 话，并分列第一至第四季。\n\n备注：TMDB 记录的首播日为 2017-05-22，Bangumi 记录为 2017-05-27，存在数日的平台播出日期差异，但年份、剧情、版本和集数均一致。",
+    "evidence": "codex: 确认对应TMDB 206215第一季整季。年份、电视动画媒介、制作人员、第一季剧情和26集范围相符；外部第一季目录与TMDB全部26集的标题或简介顺序一致，因此Bangumi本篇sort 1—26可顺序对应S01E01—E26，不涉及其他季度。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): 以中文原名搜索后读取详情：206215 是2017年电视动画《猪猪侠之超星萌宠》，共四季；剧情涉及迷糊博士、铁拳虎和猪猪侠成为星际特工，与输入一致。导演陆锦明、编剧古志斌亦与外部资料相符。\n\nhttps://www.themoviedb.org/tv/206215/season/1 (api_snapshot): 实际读取第一季完整集表，episodeCount=26、total_pages=1，集号连续为1—26。逐集标题或简介与外部第一季目录一致；第21集标题为占位名称，但简介为“爆炸事件”，对应目录第21集。\n\nhttps://tv.cctv.com/2018/04/24/VIDALLByhdrsGi5zzsm8Bsls180424.shtml (page): 央视将作品明确标为《猪猪侠之超星萌宠 第一季》、2017年，剧情与Bangumi及TMDB第一季一致。\n\nhttps://www.bilibili.com/bangumi/play/ep786129 (search_snippet): 正版播放页面标示《猪猪侠之超星萌宠1》为2017年、全26话，第1话为“初次见面”，并独立区分第一至第四季。\n\nhttps://bkso.baidu.com/item/猪猪侠之超星萌宠/20288006?fromModule=lemma_inlink (page): 资料记载出品公司为广东咏声动漫，导演包括陆锦明、总编剧包括古志斌，第一季于2017年5月27日电视播出；第一季完整26集目录与TMDB逐集核对一致，从“初次见面”至“公爵达克拉”。\n\n备注：TMDB第一季及全部单集日期均记为2017-05-22，Bangumi和外部播出资料记为2017-05-27；差异原因未确认，不据此认定为不同平台排期。；输入中的Bangumi章节标题和日期为空，逐集规则依据已确认的第一季版本、26集总量及外部完整分集目录与TMDB集表的比对建立，无法直接用Bangumi章节元数据交叉验证。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/384732; https://www.themoviedb.org/tv/206215; https://www.themoviedb.org/tv/206215/season/1; https://tv.cctv.com/2018/04/24/VIDALLByhdrsGi5zzsm8Bsls180424.shtml; https://www.bilibili.com/bangumi/play/ss46491",
-    "verifiedAt": "2026-09-08T23:24:38.236Z"
+    "source": "https://bgm.tv/subject/384732; https://www.themoviedb.org/tv/206215; https://www.themoviedb.org/tv/206215/season/1; https://tv.cctv.com/2018/04/24/VIDALLByhdrsGi5zzsm8Bsls180424.shtml; https://www.bilibili.com/bangumi/play/ep786129; https://bkso.baidu.com/item/猪猪侠之超星萌宠/20288006?fromModule=lemma_inlink",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 206215
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,13 +1,44 @@
 {
   "bangumiId": 329191,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1010321,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1010322,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1010323,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1010324,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1010325,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1010326,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品身份及第一季范围已确认：原名、别名、首播日期、平台、剧情和13集全季规模一致。Bangumi 的6条章节记录与首批上线数量相符，但缺少标题及日期，不能完成逐集交叉验证，因此确认整季目标，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/329191 (page): Bangumi 标明本作为 WEB 动画《The Snoopy Show Season 1》，全季13话，2021年2月5日在 Apple TV+ 开播；简介描述史努比、糊涂塌客及花生伙伴的新冒险。页面仅列出01至06六个无标题章节。\n\nhttps://www.themoviedb.org/tv/110948 (api_snapshot): TMDB 110948 为2021年2月5日首播的《The Snoopy Show》，简介与 Bangumi 相符；制作公司为 WildBrain Studios 和 Charles M. Schulz Creative Associates，导演为 Rob Boutilier。其港、台别名也与 Bangumi 一致，区别于1983年旧作。\n\nhttps://www.themoviedb.org/tv/110948/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集，每集22分钟。第1至6集日期均为2021年2月5日，第7至13集均为2021年7月9日；全季属于同一部2021年动画，没有混入旧版或独立特别篇。\n\nhttps://www.nexttv.com/news/the-snoopy-show-starts-on-apple-tv-plus (search_snippet): 2021年2月5日的首播报道确认该动画在 Apple TV+ 首批推出6集，每集包含三个约7分钟的故事；WildBrain 的 Mark Evestaff 担任统筹及执行制片。\n\n备注：Bangumi 章节1010321至1010326均无标题和放送日期，逐集对应留空；需补充章节内容或可靠标题、日期后再建立规则。；Bangumi 标注全季13话，但当前只建有6条章节，缺少第7至13话记录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/329191; https://www.themoviedb.org/tv/110948; https://www.themoviedb.org/tv/110948/season/1; https://www.nexttv.com/news/the-snoopy-show-starts-on-apple-tv-plus",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

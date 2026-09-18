@@ -1,21 +1,74 @@
 {
   "anidbId": 10255,
   "bangumiId": 88039,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 347197,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 347198,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 347199,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 347200,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 382443,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 382443,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 73394,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、剧情、制作公司、声优及逐集标题均吻合。Bangumi第1至4话对应TMDB第1季全4集，日期差异来自深夜25点的记日方式；第5话为影碟收录的未放送动画，对应S00E05。旧映射仅含第1季，遗漏了第5话。\n\nhttps://www.themoviedb.org/tv/73394 (api_snapshot): TMDB 73394 为2014年短篇电视动画，剧情涉及正冈小豆、小林抹茶和与谢野柚子的575活动；制作公司为Lay-duce、C2C，主演声优与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/73394/season/1 (api_snapshot): 第1季完整集表共4集，标题逐一对应Bangumi第1至4话；日期分别为2014年1月10、17、24、31日，均比Bangumi所记放送日晚一天。\n\nhttps://www.themoviedb.org/tv/73394/season/0 (api_snapshot): 第0季完整集表共5集，其中第5集标题为「めいっぱいに、はじけてる？」、日期为2014年10月22日，与Bangumi章节382443一致。\n\nhttps://document.4gamer.net/games/221/G022181/20140108025/ (search_snippet): 节目公告确认电视动画共4话，由Lay-duce与C2C制作，TOKYO MX自2014年1月9日25:25起连续四周播放；跨午夜的时间表示解释了两站逐集日期的一天差异。\n\nhttps://document.4gamer.net/games/221/G022181/20140825029/ (search_snippet): 声优采访及商品资料确认2014年10月22日发行的影碟收录动画全5话，并逐一列出与Bangumi相同的标题；第5话为电视未播出动画，另行收录的「とくばん！575」共4话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/88039; https://www.themoviedb.org/tv/73394; https://www.themoviedb.org/tv/73394/season/1; https://www.themoviedb.org/tv/73394/season/0; https://document.4gamer.net/games/221/G022181/20140108025/; https://document.4gamer.net/games/221/G022181/20140825029/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 73394
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 73394,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 5,
+      "id": 73394,
+      "season": 0,
       "type": "tv"
     }
   ]

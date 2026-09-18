@@ -1,16 +1,86 @@
 {
   "anidbId": 14258,
   "bangumiId": 256660,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850611,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850612,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850613,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850614,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850615,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850616,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850617,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850618,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850619,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850620,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850621,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850622,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 83117 第1季全12集。年份、电视动画媒介、剧情、原作者、制作公司及声优一致；逐集话数标题和12位导演的对应顺序经独立资料核实，支持本篇1—12话一一对应。TMDB 部分播出日期有误差，但不影响已由逐话制作人员确认的集身份与顺序。\n\nhttps://bgm.tv/subject/256660 (page): Bangumi 标明本作为2019年电视动画，共12话，原作为瀧波ユカリ，采用12位导演分别制作的形式；另将《元気!! 江古田ちゃん》列为不同演绎。\n\nhttps://www.themoviedb.org/tv/83117 (api_snapshot): TMDB 83117 为2019年作品，共1季12集；原作者、主要声优及 Creators in Pack、Zero-G、手塚制作、KINEMA CITRUS 等制作公司均与本作吻合，剧情同为江古田在东京打工生活的故事。\n\nhttps://www.themoviedb.org/tv/83117/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，共12集。标题明确标注第1至12话及各话导演、声优，未混入其他作品。第2、3集日期与 Bangumi 相同；第1集晚一天；第4至12集日期存在明显冲突。\n\nhttps://bgm.tv/subject/256660/ep (page): Bangumi 本篇为第1至12话，播出日期从2019-01-08至2019-03-26逐周递增，无额外章节。\n\nhttps://www.allcinema.net/cinema/pdf/365173 (search_snippet): allcinema 逐话导演表为：1大地丙太郎、2杉井ギサブロー、3しぎのあきら、4望月智充、5米たにヨシトモ、6高橋良輔、7三沢伸、8小島正幸、9高橋丈夫、10長濱博史、11コバヤシオサム、12森本晃司；与 TMDB 各集标题顺序全部吻合。\n\nhttps://www.allcinema.net/cinema/365173 (page): allcinema 确认2019年电视动画共12集，放送期间为1月8日至3月26日，火曜日25:00；首集跨午夜可解释 Bangumi 与 TMDB 的一天差异。\n\n备注：TMDB 第4—12集日期依次为2019-01-23、01-29、01-30、02-05、02-06、02-12、02-13、02-19、02-20，与 Bangumi 及外部资料所示每周播出至3月26日的排期冲突，不能统一用跨午夜解释；这些日期不作为重排章节的依据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/256660; https://www.themoviedb.org/tv/83117; https://www.themoviedb.org/tv/83117/season/1; https://bgm.tv/subject/256660/ep; https://www.allcinema.net/cinema/pdf/365173; https://www.allcinema.net/cinema/365173",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83117
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

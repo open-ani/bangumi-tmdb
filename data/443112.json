@@ -1,19 +1,91 @@
 {
   "anidbId": 18082,
   "bangumiId": 443112,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1274556,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1274557,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1274558,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1274559,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1274560,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1274561,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1274562,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1274563,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1274564,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1274565,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1274566,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1274567,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2024年电视动画第1期，对应 TMDB 229443 第1季第1—12集。作品剧情、制作人员、媒介和年份吻合；12话编号及逐周播出日期在换算深夜24时后全部一致。TMDB 将2026年第2期也编入第1季，因此旧映射须收窄至前12集。\n\nhttps://www.themoviedb.org/tv/229443 (api_snapshot): TMDB 229443 为2024年开播的同名日本电视动画；公主被魔王军囚禁并接受美食等“拷问”的剧情一致，导演金森阳子、原作春原罗宾逊及制作公司 PINE JAM 均与输入相符。\n\nhttps://www.themoviedb.org/tv/229443/season/1 (api_snapshot): 第1季集表共24集，total_pages=1。第1至12集标题依次为“第1話”至“第12話”，日期依次为2024-01-09、01-16、01-23、01-30、02-06、02-13、02-20、02-27、03-05、03-12、03-19、03-26，与输入12话逐一相差一天且周播顺序一致；第13集从2026-01-12开始，不能将整季映射给本 subject。\n\nhttps://himesama-goumon.com/ (page): 动画官网明确标注第1期范围为第1话至第12话，第2期于2026年1月12日开始播出，支持将本 subject 限定为前12集。\n\nhttps://www.shonenjump.com/p/mediainfo/himesama/ (search_snippet): 集英社官方媒体信息明确写明2024年1月8日24时即1月9日0时开始每周播出，解释 Bangumi 与 TMDB 日期统一相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/443112; https://www.themoviedb.org/tv/229443; https://www.themoviedb.org/tv/229443/season/1; https://himesama-goumon.com/; https://www.shonenjump.com/p/mediainfo/himesama/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229443
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 229443,
       "season": 1,
       "type": "tv"

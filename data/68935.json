@@ -1,16 +1,91 @@
 {
   "anidbId": 9797,
   "bangumiId": 68935,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 289003,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 289004,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 289005,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 289006,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 289007,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 289008,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 289009,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 289010,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 289011,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 289012,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 289013,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 289014,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 289015,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《八犬伝》第二季 TV，共13话，播出时间为2013-07-07至2013-09-29，章节为总集数14至26；TMDB 48623 的第2季同样为2013-07-07开播、13话，逐集标题从「人形」至「運命」及日期与 Bangumi 对应。Anime-Lists 也将 AniDB 9797（Hakkenden: Touhou Hakken Ibun (2013)）关联到 TMDB TV 48623 第2季。该 subject 本身不是电影、OVA或总集篇，因此纳入完整第2季，不需额外集数范围。\n\nhttps://bangumi.tv/subject/68935 (page): Bangumi 条目标为 TV，共13话，2013年7月7日开始、9月29日结束；章节为第14话至第26话，制作人员和作品信息与《八犬伝》系列一致。\n\nhttps://bangumi.tv/ep/289005 (page): Bangumi 第16话「逆流」首播日期为2013-07-21，确认第二季的第三话对应总集数16。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目 anidbid=\"9797\" 的名称为 Hakkenden: Touhou Hakken Ibun (2013)，并关联 tmdbtv=\"48623\"、tmdbseason=\"2\"。\n\nhttps://www.themoviedb.org/tv/48623 (api_snapshot): TMDB TV 48623 的原名为八犬伝 ―東方八犬異聞―，总计26话，分为两个各13话的季；第2季开播日期为2013-07-07。\n\nhttps://www.themoviedb.org/tv/48623/season/2 (api_snapshot): TMDB 第2季完整返回13集，标题依次覆盖「人形」「廻縁」「逆流」「無明」「讃有」「追想」「逢着」「神隠」「天巡」「双月」「岐路」「追駆」「運命」，与 Bangumi 第二季主体逐集对应。\n\n备注：TMDB 快照把第2季第3集「逆流」的 air_date 返回为2013-01-26，与 Bangumi 及该季连续播出日期2013-07-21不符；标题、季内位置、总集数和其余日期支持这是 TMDB 单集日期字段错误，而不是应排除该集。严格要求日期字段一致时应重新请求 TMDB 单集数据复核。",
+    "evidence": "codex: 确认对应TMDB 48623完整第二季。年份、TV媒介、制作公司、人员、角色与剧情均吻合；官网第14至26话与TMDB第二季13集的标题、剧情及顺序逐集一致，且其中12集播出日期一致，因此Bangumi sort 14至26连续对应S02E01至S02E13。第16话的日期冲突可由官网明确话数、标题和剧情消歧，判断为TMDB日期字段错误，不影响对应关系。\n\nhttps://bgm.tv/subject/68935 (page): Bangumi 标明本作是2013年第二期TV动画，共13话，播出范围为7月7日至9月29日；原作为あべ美幸，动画制作为Studio Deen。\n\nhttps://bgm.tv/subject/68935/ep (page): 章节表完整列出本篇sort 14至26及逐集日期；第16话「逆流」为2013-07-21，第23话标题写作「雙月」。\n\nhttps://www.themoviedb.org/tv/48623 (api_snapshot): 日文原名搜索命中48623；详情确认是2013年Studio Deen制作的TV动画，角色及配音与官网一致，共两季26集，第二季13集、2013-07-07开播。\n\nhttps://www.themoviedb.org/tv/48623/season/2 (api_snapshot): 第二季完整集表共13集，total_pages=1。第1至13集标题依次对应Bangumi第14至26话，仅「双月／雙月」有字形差异。12集日期完全一致；第3集「逆流」日期异常为2013-01-26，但剧情与官网第16话一致。\n\nhttps://hakken-den.com/story/index.html (page): 官网逐话介绍明确标注第14至26话，标题及剧情与TMDB第二季逐集一致；其中第16话「逆流」讲述信乃在教会教孩子读写、为失明少女佳穂读绘本，确认对应TMDB第二季第3集。\n\nhttps://hakken-den.com/staff/index.html (page): 官网列出原作あべ美幸、总导演ヤマサキオサム、导演山崎みつえ、动画制作Studio Deen；主要角色及声优与Bangumi和TMDB一致。\n\nhttps://hakken-den.com/broadcast/index.html (page): 官网明确区分第一期与第二期，第二期于2013年7月播出，TOKYO MX每周日22:30播放，支持本作属于该TV版本的第二期。\n\n备注：TMDB第二季第3集「逆流」仍将日期记为2013-01-26，与Bangumi的2013-07-21及官方第二期7月开播信息冲突；映射已由官方逐话剧情确认，但该日期字段需要TMDB另行纠正。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/68935; https://bangumi.tv/subject/68935; https://bangumi.tv/ep/289005; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/48623; https://www.themoviedb.org/tv/48623/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/68935; https://bgm.tv/subject/68935/ep; https://www.themoviedb.org/tv/48623; https://www.themoviedb.org/tv/48623/season/2; https://hakken-den.com/story/index.html; https://hakken-den.com/staff/index.html; https://hakken-den.com/broadcast/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 14,
+      "tmdbId": 48623
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

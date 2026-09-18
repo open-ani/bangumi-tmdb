@@ -1,15 +1,86 @@
 {
+  "anidbId": 16761,
   "bangumiId": 315039,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 977682,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 977683,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 977684,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 977685,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 977686,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 977687,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 977688,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 977689,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 977690,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 977691,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 977692,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 977693,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 139515 与 Bangumi subject 315039 的中文原名、2020-10-05 开播日期、剧情、12 集数及全部集名一致；TMDB 明确将其列为 TV，第一季实际包含 12 集，覆盖该 subject 全部主体。官方哔哩哔哩页面也确认该作品于 2020-10-05 开播、全 12 话。制作人员方面，Bangumi API 记录导演小鸟、动画制作赛几动漫等，与该作品资料一致。另行核对的 TMDB 132622《小狮子赛几》是 2021 年开始、248 集的后续主系列，不应误配。\n\nhttps://www.themoviedb.org/tv/139515 (api_snapshot): TMDB API 详情：作品名“宿身小人”，日期 2020-10-05，剧情与 Bangumi 摘要一致，TV 类型，12 集；第一季为 12 集。\n\nhttps://www.themoviedb.org/tv/139515/season/1 (api_snapshot): TMDB API 第一季实际集表共 12 集，集名从“我到地球啦”至“身不由己”，与 Bangumi 的 12 个正片条目逐集对应。\n\nhttps://api.bgm.tv/v0/subjects/315039 (api_snapshot): Bangumi API：TV 动画，2020-10-05，12 集；剧情为猪王子等外星小人寄居人类身体；导演小鸟，动画制作赛几动漫。\n\nhttps://www.bilibili.com/bangumi/media/md28229943 (page): 官方哔哩哔哩页面确认《宿身小人》于 2020 年 10 月 5 日开播，已完结，全 12 话。\n\nhttps://www.bilibili.tv/th/play/35297?bstar_from=bstar-web.category-anime.0.0 (page): Bilibili 页面列出原名“宿身小人”、别名“Su Shen Xiao Ren”和“My Little Invisible Being”，并给出相同剧情、2020-10-05 开播及 12 集列表。\n\nhttps://www.themoviedb.org/tv/132622 (api_snapshot): TMDB API 详情显示《小狮子赛几》为 2021-03-25 开始、248 集的另一 TV 系列，用于排除将关联主系列误配给本 subject。\n\n备注：Bangumi 记录的最后一集日期为 2020-12-14，而 TMDB 第一季表记录为 2020-12-21；但标题、剧情、12 集数量及集名均一致，不影响身份和完整范围判定。；TMDB 详情中的第 2 至第 4 季是 0 集的错误占位条目，未纳入推荐。",
+    "evidence": "codex: 确认对应 TMDB 139515 第一季全 12 集。年份、首播日期、剧情、官方制作人员和动画媒介相符；完整集表的标题及顺序逐集对应，支持本篇 1—12 一对一映射。日期存在统一偏差，但标题和总集数足以确定对应关系。第 2—4 季均为零集且备注建错，不纳入范围。\n\nhttps://www.themoviedb.org/tv/139515 (api_snapshot): TMDB 139515 为《宿身小人》，首播日期为 2020-10-05，别名为 My Little Invisible Being；猪王子寻找人类宿主并结识赛几、瑞比的剧情与输入一致。作品共 12 集，第一季包含全部 12 集。\n\nhttps://www.themoviedb.org/tv/139515/season/1 (api_snapshot): 已读取第一季完整集表，共 12 集、1 页。逐集标题与输入对应：第 2、3 集仅标点不同，第 4 集标题增加“咿咿咿”，其余相同，顺序一致。第 1 集日期一致，第 2—12 集的 TMDB 日期均比输入晚 7 天。\n\nhttps://www.bilibili.com/bangumi/media/md28229943 (page): 官方播放页确认《宿身小人》于 2020年10月5日开播，已完结，全 12 话。\n\nhttps://www.bilibili.com/bangumi/media/md28229943 (search_snippet): 官方播放页搜索结果列出导演小鸟、监制林少领、编剧林少领和洪文翰，与输入制作人员一致；展示的第 1—8 集标题与 TMDB 相同，包括第 4 集完整标题“跌打损伤找中医咿咿咿”。\n\nhttps://www.bilibili.tv/th/play/35297 (page): Bilibili 国际版确认中文原名、Su Shen Xiao Ren 与 My Little Invisible Being 两个别名，标注中国动画、2020-10-05 首播，并列出 12 集；剧情同样为外星小人寄居人体。\n\n备注：Bangumi 第 1、2 集均记为 2020-10-05；TMDB 从第 2 集起按每周一集排列，导致第 2—12 集全部晚 7 天，末集为 2020-12-21。尚未确定差异原因，不据此改变已由标题确认的集号对应。；TMDB 未提供制作公司及演职员；制作人员通过官方播放页搜索摘要与输入交叉核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/315039; https://www.themoviedb.org/tv/139515; https://www.themoviedb.org/tv/139515/season/1; https://api.bgm.tv/v0/subjects/315039; https://www.bilibili.com/bangumi/media/md28229943; https://www.bilibili.tv/th/play/35297?bstar_from=bstar-web.category-anime.0.0; https://www.themoviedb.org/tv/132622",
-    "verifiedAt": "2026-09-08T22:20:35.576Z"
+    "source": "https://bgm.tv/subject/315039; https://www.themoviedb.org/tv/139515; https://www.themoviedb.org/tv/139515/season/1; https://www.bilibili.com/bangumi/media/md28229943; https://www.bilibili.tv/th/play/35297",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 139515
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

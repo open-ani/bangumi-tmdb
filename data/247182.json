@@ -1,16 +1,41 @@
 {
   "anidbId": 14091,
   "bangumiId": 247182,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1064885,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1064886,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1074430,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是2022年1月28日上映的《地球外少年少女 前篇》，即全6集系列的前3集剧场版，不是后篇或真人作品。TMDB 890579准确对应前篇电影；TMDB 138190对应完整6集电视版，因此该主体在其第1季中仅对应第1至3集。两份来源的定位方向均正确，但 AnimeLists 必须补充集数范围。AniDB 14091对应的是完整6集作品，未发现关联主体本身错误。\n\nhttps://letterboxd.com/tmdb/890579 (page): 页面标题为“Extra-Terrestrial Boys & Girls: Part 1”，年份为2022，别名包含“地球外少年少女 前篇”，并标注该TMDB电影页面。\n\nhttps://eiga.com/movie/94028/ (page): 日本电影资料页确认《地球外少年少女 前編》于2022年1月28日上映、片长99分钟，并说明全6话系列按前后篇各3话进行剧场上映。\n\nhttps://seasontracker.tv/show/the-orbital-children-138190 (page): 页面标明该作品使用TMDB数据，TV主条目标识为138190，只有1季6集；第1至3集标题依次为 Extraterrestrial Emissaries、Mist and Darkness、Lunatic Seven。\n\nhttps://media.netflix.com/en/only-on-netflix/81340914 (page): Netflix Media Center说明该系列共6集，与TMDB电视版完整系列的范围一致。\n\nhttps://www.wikidata.org/wiki/Q55607346 (page): 作品标识汇总页同时列出AniDB 14091、TMDB电影890579、TMDB电视系列138190，并标注作品共6集。",
+    "evidence": "codex: 已确认主体是2022年前篇剧场上映版，对应TMDB电影890579；其包含的3话同时对应剧集138190第1季第1至3集。官方说明、上映日期、剧情及制作人员支持版本一致，逐集标题和日期完全吻合，因此可建立连续规则，不能映射整季。\n\nhttps://chikyugai.com/ (page): 官网明确全6话按每篇3话分为前后篇剧场上映；原作、脚本、导演为矶光雄，角色设计为吉田健一，主动画师为井上俊之，剧情发生于2045年的日本空间站，与输入一致。\n\nhttps://eiga.com/movie/94028/ (page): 前篇于2022年1月28日上映，片长99分钟，是全6话系列的剧场上映前篇；剧情、导演及主要制作人员均与Bangumi资料一致。\n\nhttps://www.themoviedb.org/movie/890579 (api_snapshot): 电影890579的原名明确为《地球外少年少女 前編「地球外からの使者」》，上映日期2022-01-28，导演及编剧为矶光雄，制作公司及剧情一致；简介明确全6话分为每篇3话上映。API片长记为100分钟。\n\nhttps://www.themoviedb.org/tv/138190 (api_snapshot): 剧集138190为2022-01-28首播的同一动画，矶光雄担任导演、原作及编剧，制作公司和主要声优一致，共1季6集。\n\nhttps://www.themoviedb.org/tv/138190/season/1 (api_snapshot): 第1季完整季表共6集、仅1页。第1至3集依次为「地球外からの使者」「霧と闇」「ルナティック・セブン」，日期均为2022-01-28，与输入的3个本篇章节逐一一致；第4至6集不属于此前篇。\n\n备注：前篇片长在Bangumi及映画.com为99分钟，TMDB为100分钟；存在1分钟元数据差异，但其余身份信息及三话范围一致，不影响匹配。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/247182; https://letterboxd.com/tmdb/890579; https://eiga.com/movie/94028/; https://seasontracker.tv/show/the-orbital-children-138190; https://media.netflix.com/en/only-on-netflix/81340914; https://www.wikidata.org/wiki/Q55607346",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/247182; https://chikyugai.com/; https://eiga.com/movie/94028/; https://www.themoviedb.org/movie/890579; https://www.themoviedb.org/tv/138190; https://www.themoviedb.org/tv/138190/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 138190
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

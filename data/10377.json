@@ -1,21 +1,124 @@
 {
   "anidbId": 7903,
   "bangumiId": 10377,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 84506,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 84507,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 84508,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 84509,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 84510,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 84511,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 84512,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 84513,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 84514,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 84515,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 84516,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 84615,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 91274,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 91275,
+      "sort": 1,
+      "type": 3
+    },
+    {
+      "id": 113261,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 113261,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 65356,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 65356。年份、剧情、制作人员及媒介一致，逐集标题和排期核对支持第1—12话对应第1季全12集；第13话为2012年发行的电视未播出篇，对应第0季第1集。旧映射只覆盖第1季，遗漏第13话。\n\nhttps://www.themoviedb.org/tv/65356 (api_snapshot): TMDB 65356 为2011年电视动画，日文原名、丹羽真寄宿姑母家并遇见藤和艾莉欧的剧情、SHAFT制作、宫本幸裕与绫奈由仁子的职员信息均与输入一致。\n\nhttps://www.themoviedb.org/tv/65356/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。逐集标题与Bangumi第1—12话一致，第6话仅标点不同；各集日期均比Bangumi晚一个自然日，符合深夜节目日期记法差异，第11、12集同为2011-07-01。\n\nhttps://www.themoviedb.org/tv/65356/season/0 (api_snapshot): 第0季完整集表仅1集，total_pages=1：第1集《真夜中の太陽》，日期2012-02-08，与Bangumi第13话标题、日期完全一致。\n\nhttps://www.tbs.co.jp/anime/denpa/staffcast/staffcast.html (page): 官方职员表确认原作入间人间、总导演新房昭之、系列监督宫本幸裕、系列构成绫奈由仁子及SHAFT动画制作，主要角色与配音亦与TMDB一致。\n\nhttps://www.tbs.co.jp/anime/denpa/news/news1104.html (page): 官方公布TBS于4月14日深夜开播，支持Bangumi的4月14日与TMDB的4月15日属于跨午夜日期记法差异。\n\nhttps://www.tbs.co.jp/anime/denpa/news/news1106.html (page): 官方确认6月23日停播，第11、12话在6月30日深夜连续播出，对应TMDB两集均记为7月1日。\n\nhttps://www.tbs.co.jp/anime/denpa/goods/disc_1.html (page): 官方碟片资料确认全13话，第7卷收录电视未播出的第13话，发行日为2012年2月8日；无字幕OP、ED列为影像特典。\n\n备注：Bangumi的OP章节91274与ED章节91275在已读取的TMDB集表中没有独立对应集，保持未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10377; https://www.themoviedb.org/tv/65356; https://www.themoviedb.org/tv/65356/season/1; https://www.themoviedb.org/tv/65356/season/0; https://www.tbs.co.jp/anime/denpa/staffcast/staffcast.html; https://www.tbs.co.jp/anime/denpa/news/news1104.html; https://www.tbs.co.jp/anime/denpa/news/news1106.html; https://www.tbs.co.jp/anime/denpa/goods/disc_1.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65356
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 65356,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 65356,
+      "season": 0,
       "type": "tv"
     }
   ]

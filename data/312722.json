@@ -1,13 +1,80 @@
 {
+  "anidbId": 16724,
   "bangumiId": 312722,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 971396,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 971397,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 971398,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 971399,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 971400,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 971401,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 971402,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 971403,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 971404,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 971405,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 971406,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 971407,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 971408,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 作品与 Bangumi 条目同名，且首播日期、剧情简介、媒介类型和集数均一致：未来重庆说唱界、少年小布、虚拟偶像安吉丽娜，2021-03-25 开播。TMDB 详情确认其为已完结的 1 季 13 集作品；S1 实际集表完整覆盖第 1–13 集，播出至 2021-06-17。Bangumi 原始 API 还确认其为 WEB 动画，并提供导演俞辰祥、朱鸣及总导演章惠博等制作人员。不是旧版/新版、OVA、音乐录像或合集混淆。\n\nhttps://www.themoviedb.org/tv/240123 (api_snapshot): TMDB 详情确认《还击45秒》为 TV 作品，首播 2021-03-25，已完结，1 季共 13 集；剧情与 Bangumi 摘要一致。\n\nhttps://www.themoviedb.org/tv/240123/season/1 (api_snapshot): TMDB 第 1 季实际集表共 13 集，episode 1–13，日期从 2021-03-25 至 2021-06-17，且 total_pages=1。\n\nhttps://api.bgm.tv/v0/subjects/312722 (api_snapshot): Bangumi fresh API 确认 subject 312722 为 WEB 动画《还击45秒》，共 13 集，制作人员包括导演俞辰祥、朱鸣及总导演章惠博。",
+    "evidence": "codex: 作品及整季范围可确认对应 TMDB 240123 第1季：年份、首播日、独特剧情与13集规模一致，资料明确其为连续剧情网络动画，未发现其他版本或合集混入。但逐集证据不足：TMDB 缺少实质集标题及剧情，且第2—13集日期与一次性全集上线记录冲突，因此仅确认整季归属，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/240123 (api_snapshot): TMDB 240123《还击45秒》首播于2021-03-25，共1季13集；未来重庆说唱界、少年小布与虚拟偶像安吉丽娜的剧情与 Bangumi 一致。制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/240123/season/1 (api_snapshot): 第1季实际集表完整返回13集，集号1—13，total_pages=1；标题均为通用集号，日期从2021-03-25起每周递增至2021-06-17。\n\nhttps://bgm.tv/subject/312722 (page): Bangumi 确认本作为2021年3月25日首播的13集WEB动画，动画制作绚素文化，总导演章惠博，导演俞辰祥、朱鸣，在线播放平台为优酷、bilibili。\n\nhttps://moegirl.uk/index.php?title=%E8%BF%98%E5%87%BB45%E7%A7%92&variant=zh-sg (search_snippet): 萌娘百科记载本作为绚素文化与优酷联合出品的13集3D动画，于2021-03-25一次性全集上线；所列13个章节标题及顺序与输入一致。\n\n备注：TMDB 每周播出日期的来源未获证实，不能视为与 Bangumi 逐集日期一致。；逐集对应需等待 TMDB 补充可核对的标题、剧情或其他内容证据；目前 rules 和 overrides 留空。；TMDB 未提供制作人员，无法在两站之间直接交叉核对导演与制作公司。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/312722; https://www.themoviedb.org/tv/240123; https://www.themoviedb.org/tv/240123/season/1; https://api.bgm.tv/v0/subjects/312722",
-    "verifiedAt": "2026-09-08T22:14:54.671Z"
+    "source": "https://bgm.tv/subject/312722; https://www.themoviedb.org/tv/240123; https://www.themoviedb.org/tv/240123/season/1; https://moegirl.uk/index.php?title=%E8%BF%98%E5%87%BB45%E7%A7%92&variant=zh-sg",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

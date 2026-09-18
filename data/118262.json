@@ -1,15 +1,75 @@
 {
   "bangumiId": 118262,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 448288,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 448289,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 448290,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 448291,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 448292,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 448293,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 448294,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 448295,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 448296,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 448297,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视媒介、制作公司、剧情、播出区间及10集标题顺序相符，确认对应 TMDB 61617 第一季整季，本篇1—10话逐集对应 S01E01—E10；不包含前传或十周年短片。\n\nhttps://bgm.tv/subject/118262 (page): Bangumi 标注为 Cartoon Network 的电视动画，共10话，播出时间为2014年11月3日至7日；剧情为两兄弟迷失森林并寻找归途。前传与十周年定格短片另列关联条目。\n\nhttps://www.themoviedb.org/tv/61617 (api_snapshot): TMDB 61617 为同名2014年电视作品，由 Cartoon Network Studios 制作；Wirt、Greg 两兄弟在神秘森林寻找归途的剧情吻合，首末播出日期相同，共一季10集。\n\nhttps://www.themoviedb.org/tv/61617/season/1 (api_snapshot): 第一季集表共10集，total_pages=1。逐集核对输入标题，第2至10集完全一致；第1集为 The Old Grist Mill，输入的 The Old Crist Mill 存在拼写差异。第1—2、3—4、5—6、7—8、9—10集分别于2014年11月3、4、5、6、7日播出，与 Bangumi 总播期吻合。\n\nhttps://en.wikipedia.org/wiki/Over_the_Garden_Wall (search_snippet): 资料确认本作为 Patrick McHale 创作、Cartoon Network Studios 制作的10集电视动画迷你剧，2014年11月3日至7日播出；源自独立短片 Tome of the Unknown，2024年十周年定格短片为另一个作品。\n\n备注：Bangumi 输入未提供逐集播出日期，日期核对限于整体播期；逐集对应由完整标题序列及集数支持。第1话 Crist 与 TMDB 的 Grist 为拼写差异，不影响对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/118262; https://www.themoviedb.org/tv/61617; https://www.themoviedb.org/tv/61617/season/1; https://en.wikipedia.org/wiki/Over_the_Garden_Wall",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61617
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

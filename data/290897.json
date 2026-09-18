@@ -1,20 +1,70 @@
 {
   "bangumiId": 290897,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 904038,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 904039,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 904040,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 904041,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 904042,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 904043,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 904044,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 904045,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 对应 TMDB 86340《Undone》第1季整季。年份、剧情、主创、主演、转描动画形式与8集范围一致，所有章节标题和顺序逐一吻合。旧映射第0季实际为制作介绍，应改为第1季；2022年第二季不属于本 subject。\n\nhttps://www.themoviedb.org/tv/86340 (api_snapshot): TMDB 86340 为2019年的《Undone》，剧情为 Alma 车祸后获得特殊时间感知并调查父亲之死；主演 Rosa Salazar、Amazon Studios 制作及中文别名均与输入吻合，IMDb 为 tt8101850。\n\nhttps://www.themoviedb.org/tv/86340/season/1 (api_snapshot): 第1季完整季表共8集、1页。第1至8集标题与输入的8个 Bangumi 章节逐一完全一致，顺序一致；TMDB 各集日期均为2019-09-12，比输入早一天。\n\nhttps://www.themoviedb.org/tv/86340/season/0 (api_snapshot): 第0季仅有一集3分钟的转描技术介绍《Evolution of the Rotoscope》，日期为2019-09-06，不是本 subject 的8集剧情正篇。\n\nhttps://www.hiskohulsing.com/animated-films/undone/ (search_snippet): 导演官网确认本作2019年9月在 Amazon Prime 首播，由 Hisko Hulsing 执导，Kate Purdy 与 Raphael Bob-Waksberg 编剧，Rosa Salazar 等出演，使用转描动画；第二季于2022年4月推出。\n\nhttps://www.primevideo.com/-/es/detail/0U47EJ6SN8CVR3C4MK2W17EDL2?tr=sb (search_snippet): Prime Video 官方第1季页面列出8集，日期显示2019年9月12日或13日，剧情和导演与输入一致，并将3分钟制作内容单独列为附加内容。\n\n备注：TMDB 各集日期为2019-09-12，Bangumi 输入为2019-09-13；官方页面也存在12日和13日的日期差异，具体原因未核实，不影响由全部集标题及作品资料确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/290897; https://www.themoviedb.org/tv/86340; https://www.themoviedb.org/tv/86340/season/1; https://www.themoviedb.org/tv/86340/season/0; https://www.hiskohulsing.com/animated-films/undone/; https://www.primevideo.com/-/es/detail/0U47EJ6SN8CVR3C4MK2W17EDL2?tr=sb",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 86340
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 86340,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     }
   ]

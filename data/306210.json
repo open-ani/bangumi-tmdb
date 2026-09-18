@@ -1,20 +1,70 @@
 {
   "bangumiId": 306210,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 950027,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 950028,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 950029,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 950030,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 950031,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 950032,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 950033,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 950034,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、剧情、制作关联、配音人员及八集标题与播出日期均吻合。该 subject 完整对应 TMDB 97645 第一季，本篇第 1—8 集一一对应 S01E01—S01E08；旧映射的第 0 季有误。\n\nhttps://www.themoviedb.org/tv/97645 (api_snapshot): 以英文原名 Solar Opposites 搜索，找到 TMDB TV 97645，首播日期为 2020-05-08。\n\nhttps://www.themoviedb.org/tv/97645 (api_snapshot): 作品详情中的外星家庭流亡美国的剧情、Justin Roiland 的制作公司，以及 Thomas Middleditch、Sean Giambrone、Mary Mack 等配音人员均与输入相符；IMDb ID 为 tt8910922。第一季为 2020 年的八集剧集，第 0 季另列为特别篇。\n\nhttps://www.themoviedb.org/tv/97645/season/1 (api_snapshot): 第一季真实集表共八集，仅一页。第 1—8 集标题与输入逐集一致，仅第七集标题存在大小写差异；八集播出日期均为 2020-05-08，与 Bangumi 完全一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/306210; https://www.themoviedb.org/tv/97645; https://www.themoviedb.org/tv/97645/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 97645
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 97645,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     }
   ]

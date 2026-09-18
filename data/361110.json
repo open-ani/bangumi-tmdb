@@ -1,16 +1,151 @@
 {
   "anidbId": 17024,
   "bangumiId": 361110,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1128112,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1128113,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1128114,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1128115,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1128116,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1128117,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1128118,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1128119,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1128120,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1128121,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1128122,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1128123,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1154978,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1154979,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1154980,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1154981,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1154982,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1154983,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1154984,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1154985,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1154986,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1154987,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1154988,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1154989,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1154990,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 TV 动画《弱虫ペダル LIMIT BREAK》，主体共25集。AniDB公开系列页将《Yowamushi Pedal: Limit Break》列为2022年的TV系列条目；官方页面逐一列出 BREAK.1 至 BREAK.25，标题与 Bangumi 集标题一致。TMDB TV 61441 的第5季明确名为 LIMIT BREAK，年份为2022，共25集；其完整集标题、剧情和播出顺序与 Bangumi 及官网逐集对应。该条目不是电影、OVA、总集篇或重剪版，因此采用 TMDB 第5季完整范围。Bangumi与TMDB首播日期相差一天，属于日期记录差异，不影响版本和集数对应。\n\nhttps://bgm.tv/subject/361110 (search_snippet): Bangumi 条目标题为“弱虫ペダル LIMIT BREAK”，类型为TV；输入条目记录主体25集及2022年播出。\n\nhttps://anidb.app/anime/yowamushi-pedal-6244 (page): AniDB公开系列页显示该系列为TV、制作公司为TMS Entertainment，并列出“Yowamushi Pedal: Limit Break 2022”这一独立条目。\n\nhttps://yowapeda.com/story/limitbreak-22.html (page): 官方页面列出 BREAK.1 至 BREAK.25，包含“最終日、スタート!!”至“大空に手を挙げた者”，与 Bangumi 和 TMDB 第5季的25个集标题逐一对应。\n\nhttps://www.themoviedb.org/tv/61441 (api_snapshot): TMDB TV 61441 为《弱虫ペダル》主系列，列出第5季 LIMIT BREAK，首播年份2022，episode_count为25。\n\nhttps://www.themoviedb.org/tv/61441/season/5 (api_snapshot): TMDB第5季名称为 LIMIT BREAK，episodeCount为25；完整集列表1至25的标题和剧情与 Bangumi及官方页面对应。",
+    "evidence": "codex: 确认对应 TMDB 61441 第5季 LIMIT BREAK 全季。年份、TV媒介、导演、制作公司、赛程剧情及25集标题顺序均吻合，完整季表未混入其他作品，可将 Bangumi 本篇1—25话连续映射至 S05E01—E25。日期差异符合周六深夜与周日自然日两种记法；第12话另有年份异常，但标题及前后排期明确，不影响逐集对应。\n\nhttps://www.themoviedb.org/tv/61441 (api_snapshot): TMDB 61441 为 TV 动画《弱虫ペダル》，导演为鍋島修，制作公司包括 TMS Entertainment、TOHO；第5季明确名为 LIMIT BREAK，2022年开播，共25集。该季简介与输入中坂道升入二年级、争夺高中联赛最终日冠军的剧情一致。\n\nhttps://www.themoviedb.org/tv/61441/season/5 (api_snapshot): 实际读取第5季完整集表，total_pages=1，共25集。逐集标题与 Bangumi 第1—25话对应，仅有标点、全半角及数字写法差异。播出日期为2022-10-09至2023-03-26，第14/15、16/17、24/25集分别同日播出，与输入的双集排期一致。\n\nhttps://yowapeda.com/story/limitbreak-22.html (page): 官方故事页列出 BREAK.1 至 BREAK.25，全部标题和顺序与 Bangumi、TMDB 第5季一致；第22话剧情也与 TMDB 对应集一致。\n\nhttps://yowapeda.com/ (page): 官网确认本作为 NHK 综合播出的 TV 动画，播出时间为周日凌晨0时，并注明即周六深夜，可以解释两站多数日期相差一天。\n\n备注：输入中第12话日期为2022-01-14，早于本作开播；TMDB 为2023-01-15，结合相邻集排期判断输入年份疑似误录。第19话输入与TMDB均记2023-02-19，未采用其他多数章节的周六日期口径。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/361110; https://anidb.app/anime/yowamushi-pedal-6244; https://yowapeda.com/story/limitbreak-22.html; https://www.themoviedb.org/tv/61441; https://www.themoviedb.org/tv/61441/season/5",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/361110; https://www.themoviedb.org/tv/61441; https://www.themoviedb.org/tv/61441/season/5; https://yowapeda.com/story/limitbreak-22.html; https://yowapeda.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 61441
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

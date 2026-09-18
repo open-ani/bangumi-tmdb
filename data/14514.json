@@ -1,19 +1,55 @@
 {
   "anidbId": 7275,
   "bangumiId": 14514,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 83473,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 83474,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 83473,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 49294,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 83474,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 49294,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 两话为 2010 年漫画限定版附带 OAD。综合篇章标题、发行时间、制作人员与剧情，确认分别对应 TMDB 49294 的 S00E01、S00E02。第 0 季还收录 2012、2014 年的后续 OAD，因此应将旧映射收窄至第 1—2 集。\n\nhttps://bgm.tv/subject/14514 (page): Bangumi 将本条目标为两话 OVA，原作为久保保久，导演为水島努，动画制作为 Production I.G；两话分别为泣牛篇和赛亚篇，日期记为 2010-02-22、2010-09-22。\n\nhttps://www.themoviedb.org/tv/49294 (api_snapshot): TMDB 49294 的原名、恶魔侦探事务所剧情、导演水島努及主要声优均吻合。条目包含 2011 年和 2013 年的电视季，并另设第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/49294/season/0 (api_snapshot): 已读取第 0 季日文及英文完整集表，共 4 集、1 页：第 1 集 Moloch Arc（2010-02-23），第 2 集 Seiya Arc（2010-09-23），第 3 集 Lucifer Arc（2012-05-23），第 4 集 Ose Arc（2014-06-23）。本 subject 仅覆盖前两集。\n\nhttps://www.production-ig.co.jp/works/azazel-annex/ (page): Production I.G 官方确认漫画第 4 卷限定盒附动画改编「泣き牛」，发售日为 2010-02-23；原作久保保久、导演水島努、人物设计谷口淳一郎，与 Bangumi 制作信息一致。\n\nhttps://news.mynavi.jp/article/20100525-a035/ (page): 同期报道确认第 5 卷附带的第二部 OAD 为「セーヤ編」，接续「泣き牛編」，2010-09-22 发售，仍由水島努执导、Production I.G 制作。\n\n备注：日期存在一天差异：第一话 Bangumi 为 2010-02-22，制作方与 TMDB 为 2010-02-23；第二话 Bangumi 与同期报道为 2010-09-22，TMDB 为 2010-09-23。差异不影响篇章及版本对应，具体误差原因未确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/14514; https://www.themoviedb.org/tv/49294; https://www.themoviedb.org/tv/49294/season/0; https://www.production-ig.co.jp/works/azazel-annex/; https://news.mynavi.jp/article/20100525-a035/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 49294,
       "season": 0,
       "type": "tv"

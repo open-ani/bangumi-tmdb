@@ -1,19 +1,91 @@
 {
   "anidbId": 14507,
   "bangumiId": 267658,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 893619,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 893620,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 893621,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 893622,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 893623,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 893624,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 893625,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 893626,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 893627,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 893628,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 893629,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 893630,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、导演和制作公司一致，12话标题及播出日期逐集吻合。TMDB将两期合并为第1季24集，本subject仅对应第1—12集；旧映射应收窄为该区间，与第二期已占用的第13—24集不重叠。\n\nhttps://www.themoviedb.org/tv/85940 (api_snapshot): 以日文原名“7SEEDS”搜索，找到 TMDB TV 85940。详情确认首播日期为2019-06-28，导演为高橋幸雄，制作公司包含GONZO；冷冻保存青年、灾后苏醒求生的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/85940/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集标题依次为立春、啓蟄、小雪、立秋、大雪、穀雨、冬至、夏至、小暑、寒露、大暑、処暑，逐集与Bangumi一致，播出日期均为2019-06-28。第13—24集日期为2020-03-26，不属于本subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/267658; https://www.themoviedb.org/tv/85940; https://www.themoviedb.org/tv/85940/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85940
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 85940,
       "season": 1,
       "type": "tv"

@@ -1,13 +1,75 @@
 {
+  "anidbId": 17358,
   "bangumiId": 345868,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1093055,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1093056,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1093057,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1093058,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1093059,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1093060,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1093061,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1093062,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1093063,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1093064,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1093065,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1093066,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 200916 与 Bangumi subject 在中文原名、2022-04-15 首播日、剧情（程大雷穿越成为蛤蟆寨寨主）、导演王巍、腾讯/企鹅影视及启缘映画等制作信息上相符。TMDB 第1季实际有12集，覆盖 subject 的全部12集，因此推荐整季。TMDB 218676 虽同名，但为2023年、30集的真人短剧，演员和导演王冠迪均与动画不符，已排除。\n\nhttps://www.themoviedb.org/tv/200916 (api_snapshot): TMDB TV 200916：原名《开局一座山》，日期2022-04-15，剧情与 Bangumi 一致，导演王巍，含第1季12集和第2季24集；制作公司包括启缘映画、腾讯动漫、企鹅影视。\n\nhttps://www.themoviedb.org/tv/200916/season/1 (api_snapshot): TMDB第1季实际季表共12集，编号连续为1至12，首集日期2022-04-15，内容从程大雷穿越成为蛤蟆寨寨主开始，与 subject 主体相符。\n\nhttps://www.xinhuanet.com/ent/20220420/33a96fa100d64ef4b6ba58e2b7e9266f/c.html (page): 新华网报道该动画由企鹅影视、腾讯动漫联合出品，2022年4月15日在腾讯视频开播。\n\nhttps://bgm.tv/subject/345868 (search_snippet): Bangumi页面线索显示导演王巍、腾讯动漫/企鹅影视制作，并列出12集及第2季关系。\n\nhttps://www.themoviedb.org/tv/218676 (api_snapshot): 同名候选为2023-01-17首播、30集，演员为陈子由、王艺瑾等，导演王冠迪，属于真人短剧而非本 subject 的动画。\n\n备注：TMDB第1季第10至12集的日期分别为2022-06-17、06-24、07-01，与 Bangumi 集表的06-03、06-10、06-17存在日期偏差；但季数、集数、剧情和作品身份一致，不影响整季映射。",
+    "evidence": "codex: 确认对应TMDB 200916第1季整季：年份、首播日、剧情、导演、制作方及12集范围一致，续作另列第2季。逐集证据不足，因此保留整季映射，暂不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/200916 (api_snapshot): TMDB 200916 的原名、2022-04-15 首播日期、山寨穿越剧情、导演王巍及启缘映画、腾讯动漫、企鹅影视等制作信息均与输入一致；第1季12集，第2季另列为2024年作品。\n\nhttps://www.themoviedb.org/tv/200916/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集，编号1至12。集名均为通用编号；日期从2022-04-15起每周一集，至2022-07-01结束，与输入中首日三集的排期不一致。\n\nhttps://www.xinhuanet.com/ent/20220420/33a96fa100d64ef4b6ba58e2b7e9266f/c.html (page): 新华网2022年4月20日报道确认：本作是企鹅影视、腾讯动漫联合出品的动画，4月15日在腾讯视频开播，首日三集连播，随后每周五播出；主角为蛤蟆寨寨主程大雷。\n\nhttps://bgm.tv/subject/345868 (page): Bangumi条目对应《开局一座山》动画，并将《开局一座山 第2季》单列为续集。\n\n备注：日期差异并非仅第10至12集：TMDB第2集比Bangumi晚7天，第3至12集均晚14天。同期报道支持Bangumi的首日三集排期。；Bangumi章节无标题，TMDB仅有通用编号标题，无法独立核实全部逐集顺序；不能仅按位置或相同集数生成规则。需进一步取得官方逐集内容或核正TMDB集表后补充。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/345868; https://www.themoviedb.org/tv/200916; https://www.themoviedb.org/tv/200916/season/1; https://www.xinhuanet.com/ent/20220420/33a96fa100d64ef4b6ba58e2b7e9266f/c.html; https://www.themoviedb.org/tv/218676",
-    "verifiedAt": "2026-09-08T23:06:19.303Z"
+    "source": "https://bgm.tv/subject/345868; https://www.themoviedb.org/tv/200916; https://www.themoviedb.org/tv/200916/season/1; https://www.xinhuanet.com/ent/20220420/33a96fa100d64ef4b6ba58e2b7e9266f/c.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

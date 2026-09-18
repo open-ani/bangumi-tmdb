@@ -1,14 +1,48 @@
 {
   "anidbId": 12685,
   "bangumiId": 203781,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752644,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 752645,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 752644,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 68103,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 752645,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 68103,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 203781 明确是《DRIFTERS episode 13-14》OVA，含第13、14幕，发售日为2017-12-23。AniDB 12685 确认为《Drifters (2017)》OVA，并明确记载第13、14话于该日发行；TMDB 68103 特别编 season 0 的第2、3集标题分别为《リライト》和《BRING ON A WAR》，日期均为2017-12-23，正好对应本 subject。season 0 的第1集是总集性质的《特別編集版》，第4集是后续《The Outlandish Knight》，不应纳入。\n\nhttps://bgm.tv/subject/203781 (page): Bangumi 页面标明该条目为 OVA《DRIFTERS episode 13-14》/《漂流武士 OVA》，共2话，发售日为2017年12月23日，章节为13、14，标题为“リライト”和“BRING ON A WAR”。\n\nhttps://anidb.net/anime/12685 (page): AniDB 12685 为《Drifters (2017)》，类型为OVA；页面说明第13、14话于2017年12月23日发行，并列出与TV版《Drifters》的前传关系及相同的导演、原作和动画制作信息。\n\nhttps://www.themoviedb.org/tv/68103 (api_snapshot): TMDB TV 68103 为《ドリフターズ》，列有编号0的“特別編”季；主体TV首播日为2016-10-07，与OVA特别编形态相符。\n\nhttps://www.themoviedb.org/tv/68103/season/0 (api_snapshot): TMDB season 0 共4集：第2集为“リライト”、第3集为“BRING ON A WAR”，均为2017-12-23；第1集为“特別編集版”，第4集为“The Outlandish Knight”。",
+    "evidence": "codex: 确认对应TMDB 68103第0季第2至3集。官方发行范围、逐集标题、剧情、制作人员和时长共同确认这是2017年发行的第13、14话OVA。第13话对应S00E02，第14话对应S00E03；不包含TV正篇、特别编辑版或后续章节。TMDB第2集日期存在冲突，但标题和官方剧情吻合，足以确认集级对应。\n\nhttps://bgm.tv/subject/203781 (page): Bangumi 将本作标为全2话的OVA，2017年12月23日发售；导演为鈴木健一，动画制作为Hoods Entertainment。\n\nhttps://bgm.tv/subject/203781/ep (page): 章节表列出第13话《リライト》和第14话《BRING ON A WAR》，日期均为2017-12-23。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/drifters/Blu-ray/box.html (page): 官方发行页确认2017-12-23发行的《DRIFTERS episode 13-14》收录新作第十三幕至第十四幕，另列2016年的全12话TV版套装。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/drifters/story/index.html (page): 官方故事目录明确将《リライト》编号为13、《BRING ON A WAR》编号为14，并列出各话制作人员。\n\nhttps://nbcuni.co.jp/anime/lineup/2017/index00250000.html?lang=ja (page): 发行商将本作列为2017年OVA；简介描述战后信长与圣日耳曼行动、十月机关潜入北壁及义经现身，与TMDB S00E02剧情一致，主要角色与声优也一致。\n\nhttps://www.themoviedb.org/tv/68103 (api_snapshot): TMDB 68103为2016-10-07首播的《ドリフターズ》，导演鈴木健一、制作公司Hoods Entertainment及主要角色声优与本作一致；设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/68103/season/0 (api_snapshot): 第0季完整集表共4集、仅1页：E02《リライト》、E03《BRING ON A WAR》，均约27分钟；E02日期为2016-12-23，E03为2017-12-23。E01《特別編集版》和E04《The Outlandish Knight》不属于本subject。\n\n备注：TMDB S00E02当前日期为2016-12-23，与官方及Bangumi的2017-12-23不符，疑为元数据错误；旧映射证据声称两集日期均为2017-12-23，与本次API结果不符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/203781; https://anidb.net/anime/12685; https://www.themoviedb.org/tv/68103; https://www.themoviedb.org/tv/68103/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/203781; https://bgm.tv/subject/203781/ep; https://www.nbcuni.co.jp/rondorobe/anime/drifters/Blu-ray/box.html; https://www.nbcuni.co.jp/rondorobe/anime/drifters/story/index.html; https://nbcuni.co.jp/anime/lineup/2017/index00250000.html?lang=ja; https://www.themoviedb.org/tv/68103; https://www.themoviedb.org/tv/68103/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

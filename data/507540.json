@@ -1,13 +1,79 @@
 {
   "bangumiId": 507540,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1433126,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1433127,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1433128,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1433129,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1433130,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1433131,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1433132,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1433133,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1433134,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1433135,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1433136,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1433137,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1433138,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品身份及整季范围可以确认：该 subject 对应 TMDB 223447 第 1 季全部 13 集。Bangumi 章节没有标题或日期，无法完成章节级逐集比对，因此保留整季映射，暂不生成仅凭序号推定的 rules。\n\nhttps://www.themoviedb.org/tv/223447 (api_snapshot): 以英文原名搜索并读取详情，确认 TMDB 223447 为 2024 年动画剧集，首播日期为 2024-12-05，制作公司包含 Titmouse；共一季、13 集，与输入的年份、制作公司、平台版本及集数一致。\n\nhttps://www.themoviedb.org/tv/223447/season/1 (api_snapshot): 已读取第 1 季完整集表，total_pages=1，共 13 集，集号连续为 1—13，每集日期均为 2024-12-05；没有混入其他作品。\n\nhttps://www.netflix.com/title/81310438 (page): Netflix 官方页面确认该作是 Echo Wu 创作的 2024 年、13 集剧集，剧情围绕即将满 16 岁、拥有火焰能力的少女展开；主演与 TMDB 相符，页面显示的前 10 集标题及剧情顺序也与 TMDB 一致。\n\nhttps://bgm.tv/subject/507540/ep (page): Bangumi 章节页将该作标为 WEB，仅列出本篇第 1—13 话，所有章节均缺少标题和放送日期，无法据此独立核验逐集对应。\n\n备注：逐集映射待补充 Bangumi 章节标题、日期或其他能直接关联章节 ID 的可靠资料后确认。；TMDB 季级日期为 2024-12-04，但作品首播日期及全部单集日期均为 2024-12-05；存在一天的季级元数据差异，不影响作品和整季范围判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/507540; https://www.themoviedb.org/tv/223447; https://www.themoviedb.org/tv/223447/season/1; https://www.netflix.com/title/81310438; https://bgm.tv/subject/507540/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

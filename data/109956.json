@@ -1,16 +1,86 @@
 {
   "anidbId": 10770,
   "bangumiId": 109956,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 785802,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 785803,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 786723,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 786724,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 786725,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 786726,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 786727,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 786728,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 786729,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 786730,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 786731,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 786732,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2018 年播出的 12 集 TV 动画，放送时间为 2018-04-02 至 2018-06-18，制作人员、剧情简介与官方资料一致。官方逐话列表包含第1至第12话；TMDB TV 76142 第1季完整收录12集，集标题、顺序及剧情与 Bangumi/官方逐话信息逐一对应，因此采用完整第1季，不需要缩小集数范围。TMDB 的整体首播日及前两集日期显示为 2018-03-25，与日本电视放送日期不同，但不影响作品版本和集数对应，较可能是平台元数据或提前发行日期差异。\n\nhttps://bgm.tv/subject/109956 (page): Bangumi 将该条目标为 TV，12 集，放送开始于 2018-04-02，结束于 2018-06-18；并列出川崎逸朗、伊部由起子、studioぴえろ+（Studio Signpost）等制作信息。\n\nhttps://magicalgirl-ore.com/story/ (page): 官方逐话页面列出第1话至第12话，标题包括“魔法少女☆変身”“魔法少女☆俺”至“魔法少女☆私”，并注明 2018-04-02 开始放送。\n\nhttps://www.themoviedb.org/tv/76142 (api_snapshot): TMDB API 快照显示 TV ID 76142 名为“魔法少女 俺”，日语原名相同，共12集，简介与 Bangumi/官方作品主体一致。\n\nhttps://www.themoviedb.org/tv/76142/season/1 (api_snapshot): TMDB API 快照显示第1季完整收录12集；第1至第12集标题与官方逐话列表逐一对应，且集数未截断。\n\n备注：TMDB 顶层 first_air_date 及第1、2集日期为 2018-03-25，而 Bangumi 与官方电视放送日期为 2018-04-02；日期语义或元数据存在差异，但未发现版本、剧情、制作信息或集数范围不一致。；AniDB 页面本次无法直接读取，故 AniDB ID 10770 未作为唯一确认依据；目标确认主要依赖 Bangumi、官方逐话资料及 TMDB 季/集内容的完整对应。",
+    "evidence": "codex: 确认对应TMDB 76142第1季整季。年份、TV媒介、剧情、导演与声优一致，完整12集标题及顺序经逐集核对吻合，季内未混入其他作品。第3至12集放送日期完全一致；前两集的日期差异有提前上线公告支持。第2集「俺／オレ」属于标题写法差异，不影响对应。本篇第1至12话可连续映射至S01E01至S01E12。\n\nhttps://bgm.tv/subject/109956 (page): Bangumi 标注为2018年TV动画，共12话，常规放送期间为4月2日至6月18日；导演川崎逸朗，动画制作studioぴえろ+，剧情围绕偶像卯野咲变身魔法少女展开。\n\nhttps://www.themoviedb.org/tv/76142 (api_snapshot): TMDB 76142 为同名日本TV动画，只有1季、共12集；剧情、导演川崎逸朗、四位主要声优及制作公司与目标作品一致，完结日期为2018年6月18日。\n\nhttps://www.themoviedb.org/tv/76142/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。逐集标题与Bangumi对应，第2集使用「オレ」而Bangumi写作「俺」；第3至12集日期逐一相同。前两集日期均为2018年3月25日。\n\nhttps://magicalgirl-ore.com/story/ (page): 官方列出完整第1至12话，标题与TMDB季表逐一一致，第2话官方标题使用「魔法少女☆オレ」。\n\nhttps://magicalgirl-ore.com/staffcast/index.html (page): 官方确认导演为川崎逸朗、人物设计为伊部由起子、动画制作为ぴえろプラス；主要角色声优与TMDB资料一致。\n\nhttps://magicalgirl-ore.com/onair/index.html (page): 官方常规放送安排为2018年4月2日起在AT-X等电视台播出。\n\nhttps://www.crunchyroll.com/news/latest/2018/3/24/crunchyroll-kicks-off-magical-girl-ore-simulcast-with-special-preview (search_snippet): Crunchyroll公告搜索摘要明确第1、2集于2018年3月25日提前上线，支持TMDB前两集日期与常规放送日期不同的原因。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/109956; https://magicalgirl-ore.com/story/; https://www.themoviedb.org/tv/76142; https://www.themoviedb.org/tv/76142/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/109956; https://www.themoviedb.org/tv/76142; https://www.themoviedb.org/tv/76142/season/1; https://magicalgirl-ore.com/story/; https://magicalgirl-ore.com/staffcast/index.html; https://magicalgirl-ore.com/onair/index.html; https://www.crunchyroll.com/news/latest/2018/3/24/crunchyroll-kicks-off-magical-girl-ore-simulcast-with-special-preview",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76142
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

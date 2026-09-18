@@ -1,19 +1,161 @@
 {
   "anidbId": 11053,
   "bangumiId": 124185,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 537913,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 537914,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 537915,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 537916,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 537917,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 537918,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 537919,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 537920,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 537921,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 537922,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 537923,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 537924,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 545404,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 545405,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 545406,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 545407,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 545408,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 545409,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 545410,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 545411,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 545412,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 545413,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 545414,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 545415,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 545416,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 545417,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、剧情、导演及制作公司确认对应2015年TV版；26话的标题、日期与TMDB第1季第1至26集逐集吻合。TMDB将2016年续篇合并在同季第27至39集，故旧映射应收窄为第1至26集，与续篇已有范围不冲突。\n\nhttps://www.themoviedb.org/tv/63084 (api_snapshot): 日文原名搜索分别返回2015年TV条目63085及1992年OVA条目63084，旧版OVA为独立条目。\n\nhttps://www.themoviedb.org/tv/63085 (api_snapshot): 63085首播于2015-07-03，导演西村聡，制作公司MAPPA、Studio VOLN；少年苍月潮解除兽矛封印并与虎共同对抗妖怪的剧情与输入一致，确认是2015年TV版本。\n\nhttps://www.themoviedb.org/tv/63085/season/1 (api_snapshot): 已读取第1季完整集表，共39集、1页。第1至26集的标题与输入逐集一致（第25集仅间隔点全半角不同），26个播出日期全部一致，范围为2015-07-03至2015-12-25。第27集于2016-04-01播出，因此本subject只覆盖该季第1至26集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/124185; https://www.themoviedb.org/tv/63084; https://www.themoviedb.org/tv/63085; https://www.themoviedb.org/tv/63085/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63085
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 26,
       "id": 63085,
       "season": 1,
       "type": "tv"

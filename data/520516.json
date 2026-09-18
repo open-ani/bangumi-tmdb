@@ -1,13 +1,74 @@
 {
   "bangumiId": 520516,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1413487,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1413488,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1413489,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1413490,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1413491,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1413492,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1413493,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1413494,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1413495,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1413496,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1413497,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1413498,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 93741 是《Jurassic World Camp Cretaceous》主系列电视动画：首播于 2020-09-18，终止于 2022-07-21，共 5 季 49 集，由 DreamWorks Animation Television、Amblin Television 等制作，剧情和配音角色均与《侏罗纪世界：白垩纪营地》一致。其第 5 季明确为 2022-07-21、共 12 集，季表实际列出第 1 至第 12 集，完全覆盖 Bangumi subject 的第 5 季 12 集；因此使用完整第 5 季，不填跨季范围。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): TMDB 作品详情确认原名、2020-09-18 首播、2022-07-21 完结、5 季 49 集、制作公司及主要配音角色；别名包含日文名「ジュラシック・ワールド/サバイバル・キャンプ」。\n\nhttps://www.themoviedb.org/tv/93741/season/5 (api_snapshot): TMDB 第 5 季详情确认播出日期为 2022-07-21、共 12 集，并实际列出连续的第 1 至第 12 集。",
+    "evidence": "codex: 作品版本、最终季剧情、上线日期和12集范围一致，可确认该subject覆盖TMDB 93741第五季整季。官方集表与TMDB逐项一致，但输入的Bangumi章节均缺少标题和播出日期，无法独立核实各章节身份，因此仅确认整季范围，暂不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): 英文原名搜索命中 TV 93741；详情确认其为 DreamWorks、Amblin 等制作的恐龙营地冒险动画，共5季49集，第五季为2022年7月21日发行的12集。\n\nhttps://www.themoviedb.org/tv/93741/season/5 (api_snapshot): 实际读取第五季完整集表，total_pages=1，共12集，集号连续为1至12，日期均为2022年7月21日；首集为 Reunited，末集为 The Nublar Six。\n\nhttps://amblin.com/tv/jurassic-world-camp-cretaceous/ (page): Amblin 官方页面确认本剧为2020—2022年Netflix五季动画，由DreamWorks与Amblin合作制作；最终季简介与输入中文简介语义一致。官方第五季12集标题及顺序逐项与TMDB集表一致。\n\nhttps://www.youtube.com/watch?v=8eyphVW88kY (search_snippet): 官方 Jurassic World Kids 频道发布的第五季预告确认最终季于2022年7月21日在Netflix上线。\n\n备注：Bangumi网页及章节页访问失败；输入的12个章节仅有sort，逐集映射需待补充章节标题、日期或其他可验证内容后建立。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/520516; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/5",
-    "verifiedAt": "2026-09-09T00:18:44.856Z"
+    "source": "https://bgm.tv/subject/520516; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/5; https://amblin.com/tv/jurassic-world-camp-cretaceous/; https://www.youtube.com/watch?v=8eyphVW88kY",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

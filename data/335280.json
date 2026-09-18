@@ -1,13 +1,54 @@
 {
   "bangumiId": 335280,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1028515,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1028516,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1028517,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1028518,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1028519,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1028520,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1028521,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1028522,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 93741《Jurassic World Camp Cretaceous》与 Bangumi 条目的年份、剧情、媒介和版本一致：主系列始播于 2020-09-18，第二季为 2021-01-22，简介均为努布拉岛冒险营的六名青少年在恐龙灾难中求生。TMDB 明确列出 Season 2 共 8 集，且第二季集表覆盖第 1 至第 8 集，均于 2021-01-22 发布、每集约 24 分钟；因此可使用完整第二季，不混入其他季或特别篇。Bangumi 原始资料的导演、编剧和 8 集信息也与该版本相符。\n\nhttps://api.bgm.tv/v0/subjects/335280 (api_snapshot): Bangumi fresh API 标题为《Jurassic World: Camp Cretaceous (Season 2)》，日期 2021-01-22、平台 WEB、8 集、每集 24 分钟；剧情为六名青少年在努布拉岛恐龙灾难中求生；导演 Lane Lueras，编剧 Michael Crichton / Scott Kreamer / Zack Stentz。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): TMDB TV 93741 原名 Jurassic World Camp Cretaceous，首播 2020-09-18，制作公司包括 DreamWorks Animation Television、Amblin Television 等；别名包含日文《ジュラシック・ワールド/サバイバル・キャンプ》和中文《侏罗纪世界：白垩冒险营》，并明确列出 Season 2 日期 2021-01-22、8 集。\n\nhttps://www.themoviedb.org/tv/93741/season/2 (api_snapshot): TMDB Season 2 实际集表共 8 集，第 1 至第 8 集均为 2021-01-22，剧情延续被困努布拉岛的露营者，未发现混入其他作品或特别篇。",
+    "evidence": "codex: 作品剧情、制作人员、动画系列媒介、第二季发布日期、8 集规模及片长相互吻合，可确认对应 TMDB TV 93741 的完整第二季。Bangumi 输入中的各章节标题和日期均为空，无法进行逐集交叉核验，因此只确认整季范围，不按位置猜测生成 rules。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): 以英文原名搜索得到 TV 93741；实际读取详情后确认原名、六名青少年在努布拉岛求生的剧情与输入一致，制作公司包括 DreamWorks Animation Television 和 Amblin。系列始播于 2020-09-18，明确列有 2021-01-22 发布、共 8 集的第二季。\n\nhttps://www.themoviedb.org/tv/93741/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 8 集，集号连续为 1—8，全部标注 2021-01-22、24 分钟。首集为 A Beacon of Hope，末集为 Chaos Theory；剧情延续被困岛上的露营者，完整季范围与输入的第二季相符。\n\nhttps://amblin.com/tv/jurassic-world-camp-cretaceous/ (search_snippet): Amblin 官方资料确认本作是 DreamWorks Animation 与 Amblin 合作的 Netflix 系列，剧情为六名青少年在努布拉岛恐龙灾难中求生；制作人员包括 Zack Stentz、Scott Kreamer 和 Lane Lueras，与输入提供的人员线索一致，但具体职务表述不同。\n\nhttps://www.rottentomatoes.com/tv/jurassic_world_camp_cretaceous/s02/cast-and-crew (search_snippet): 第二季资料标明其为动画冒险剧集，发布日期为 2021-01-22，并列出 Scott Kreamer、Lane Lueras 等执行制片人，支持版本和季别判断。\n\n备注：Bangumi 网页及 API 本次访问失败，Bangumi 侧依据为用户提供的快照。；章节 1028515—1028522 缺少标题及播出日期；取得可核验的章节资料后才能补充逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/335280; https://api.bgm.tv/v0/subjects/335280; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/2",
-    "verifiedAt": "2026-09-08T22:55:20.479Z"
+    "source": "https://bgm.tv/subject/335280; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/2; https://amblin.com/tv/jurassic-world-camp-cretaceous/; https://www.rottentomatoes.com/tv/jurassic_world_camp_cretaceous/s02/cast-and-crew",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

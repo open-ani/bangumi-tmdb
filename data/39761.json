@@ -1,16 +1,108 @@
 {
   "anidbId": 9207,
   "bangumiId": 39761,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 217967,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 217968,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 217969,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 217970,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 217971,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 217972,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 217973,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 217974,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 217975,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 217976,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 217977,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 217978,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 217979,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 258157,
+      "sort": 14,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 258157,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 53725,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2013 年播出的 TV《まんがーる!》，主体包含正篇 1–13 和 SP14。正篇标题、顺序及每周播出日期与 TMDB 53725 第1季 13集逐一对应，TMDB 日期整体相差一天。TMDB 主条目另列第0季1集、日期为 2013-05-24；Bangumi 的 SP14《遊ぶへんしゅうがぁる》同日，官方站也确认 BD 收录限定原创第14话。因此应映射完整第1季，并补上主体内的第0季特别篇。题面提供的 AniDB 9207 名称匹配记录与 Bangumi、TMDB、官方资料的标题、年份、剧情和制作语境一致。\n\nhttps://bgm.tv/subject/39761 (page): Bangumi 确认条目为 TV《まんがーる!》，2013年1月2日开播，共14话，并列出動画工房等制作信息。\n\nhttps://bgm.tv/subject/39761/ep (page): Bangumi 章节页明确列出正篇1–13，以及特别篇 SP14《遊ぶへんしゅうがぁる》，SP14首播日期为2013-05-24。\n\nhttps://www.themoviedb.org/tv/53725 (api_snapshot): TMDB API 快照确认作品名为《まんがーる!》，共13集；季列表包含第0季1集（2013-05-24）和第1季13集（2013-01-03）。\n\nhttps://www.themoviedb.org/tv/53725/season/1 (api_snapshot): TMDB 第1季快照提供13集完整剧集标题、日期和剧情，标题与 Bangumi 正篇1–13逐一对应。\n\nhttps://mangirl.jp/news/2013/05/tv62.php (page): 官方站说明 2013年5月24日发售的 BD 收录全13话及特典，并包含蓝光限定原创第14话（水着回）。\n\n备注：AniDB 9207 详情页本次访问返回403，未能从 AniDB 页面直接读取条目字段；但题面提供的 Bangumi 独立元数据已标记名称匹配，且其他资料均支持该关联。；输入快照未提供 TMDB 第0季单集标题，仅提供其1集数量和2013-05-24日期；该季映射由此日期与 Bangumi SP14及官方限定第14话资料共同确认。",
+    "evidence": "codex: 年份、TV媒介、剧情、制作公司和导演均吻合；本篇13集标题、顺序和每周排期逐集对应TMDB第1季。SP14的标题、发行日期及官方蓝光限定第14话说明共同确认其对应S00E01。\n\nhttps://www.themoviedb.org/tv/53725 (api_snapshot): TMDB 53725 为2013年TV动画《まんがーる!》，剧情为没有漫画编辑经验的女孩们创办漫画杂志；动画制作为動画工房，导演为中西伸彰，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/53725/season/1 (api_snapshot): 第1季完整集表共13集，只有1页。逐集标题及顺序与 Bangumi 本篇1–13一致，仅有括号、读音注记等文字差异；播出日期均比 Bangumi 晚一天，范围为2013-01-03至2013-03-28。\n\nhttps://www.themoviedb.org/tv/53725/season/0 (api_snapshot): 第0季完整集表仅1集：第1集《遊ブへんしゅうがぁる》，日期2013-05-24，与 Bangumi SP14《遊ぶへんしゅうがぁる》的标题和日期对应。\n\nhttps://mangirl.jp/news/2013/05/tv62.php (page): 官方蓝光公告确认2013-05-24发行，收录TV全13话及特典，其中包括蓝光限定原创第14话（水着回），支持将SP14对应至特别篇。\n\n备注：本篇TMDB日期统一比Bangumi晚一天，具体记录口径差异未核实；标题、顺序与周播间隔一致，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/39761; https://bgm.tv/subject/39761/ep; https://www.themoviedb.org/tv/53725; https://www.themoviedb.org/tv/53725/season/1; https://mangirl.jp/news/2013/05/tv62.php",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/39761; https://www.themoviedb.org/tv/53725; https://www.themoviedb.org/tv/53725/season/1; https://www.themoviedb.org/tv/53725/season/0; https://mangirl.jp/news/2013/05/tv62.php",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 53725
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +111,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 53725,
       "season": 0,
       "type": "tv"

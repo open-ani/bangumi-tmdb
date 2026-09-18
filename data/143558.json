@@ -1,16 +1,91 @@
 {
   "anidbId": 11493,
   "bangumiId": 143558,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 621802,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 621803,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 621804,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 621805,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 621806,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 621807,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 621808,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 621809,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 621810,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 621811,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 621812,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 621813,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 625768,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《テラフォーマーズ リベンジ》，2016-04-01 开播、共13集；AniDB 关联名称与标题匹配。TMDB TV 61398 的第2季明确命名为《テラフォーマーズ リベンジ》，开播日期相同，共13集，完整剧集标题与 Bangumi 第1至13集逐一对应。因此应映射为 TMDB 61398 第2季完整一季。TMDB 快照中个别集的日期存在异常，但不影响标题、季号和13集范围的对应。\n\nhttps://www.themoviedb.org/tv/61398 (api_snapshot): TV 61398 包含第2季，名称为「テラフォーマーズ リベンジ」，开播日期为2016-04-01，共13集。\n\nhttps://www.themoviedb.org/tv/61398/season/2 (api_snapshot): 第2季明确为「テラフォーマーズ リベンジ」，season_number=2、episodeCount=13；第1至13集标题与 Bangumi 记录逐一匹配，首集日期为2016-04-01。\n\n备注：TMDB 快照中第2、3集 air_date 分别显示为2016-04-09和2016-09-16，与 Bangumi 播出日期序列不一致；但标题、季名、季号及13集主体范围均一致。",
+    "evidence": "codex: 确认对应 TMDB 61398 第二季全季。年份、季名、剧情、制作公司及13集范围一致，全部集标题逐一吻合，11集放送日期一致，足以确认本篇1—13集顺序对应 S02E01—E13。\n\nhttps://www.themoviedb.org/tv/61398 (api_snapshot): TMDB 61398 的详情将《テラフォーマーズ リベンジ》明确列为第二季，2016-04-01 开播，共13集；第二季剧情涉及2620年火星采样任务及人类内部争斗，与输入一致。制作公司包含 TYO Animations、LIDENFILMS，符合该动画版本。\n\nhttps://www.themoviedb.org/tv/61398/season/2 (api_snapshot): 已读取第二季完整集表（第1页，共1页）：第1至13集标题逐一对应 Bangumi，顺序一致，均为24分钟。第1、4至13集日期一致；第2、3集日期分别记录为2016-04-09、2016-09-16，与 Bangumi 不同。该季13集全部属于 REVENGE。\n\n备注：TMDB 第2、3集日期与 Bangumi 存在差异，原因未确认；两集标题及剧情位置一致，不影响逐集映射。",
     "method": "codex",
     "source": "https://bgm.tv/subject/143558; https://www.themoviedb.org/tv/61398; https://www.themoviedb.org/tv/61398/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 61398
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

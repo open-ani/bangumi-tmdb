@@ -1,16 +1,91 @@
 {
   "anidbId": 6672,
   "bangumiId": 2604,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 16229,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 16230,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 16231,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 16232,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 16233,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 16234,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 16235,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 16236,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 16237,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 16238,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 16239,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 16240,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 16241,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《夏のあらし! ～春夏冬中～》第二季，TV、13 集，2009 年 10 月播出，并关联前作。输入中的 AniDB ID 6672 对应 Natsu no Arashi! Akinai-chuu；TMDB 44687 的第 2 季同名、13 集，完整剧集标题与 Bangumi 的 1–13 集逐集一致，剧情简介和制作背景也相符。因此应映射为 TMDB TV 44687 第 2 季完整一季。Bangumi 的 10 月 4 日与 TMDB 的 10 月 5 日属于日期显示差异，不影响版本判断。\n\nhttps://bgm.tv/subject/2604 (page): Bangumi 条目为《夏のあらし! ～春夏冬中～》，类型 TV，话数 13，放送开始 2009-10-04，并关联前作《夏のあらし!》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据中，ID 6672 对应 Natsu no Arashi! Akinai-chuu，与该 Bangumi 条目标题一致。\n\nhttps://www.themoviedb.org/tv/44687 (api_snapshot): TMDB TV 44687 名为《夏のあらし!》，共 26 集，包含第 1 季和第 2 季，各 13 集。\n\nhttps://www.themoviedb.org/tv/44687/season/2 (api_snapshot): TMDB 第 2 季编号为 2，名称为《夏のあらし!春夏冬中》，日期为 2009-10-05，共 13 集；快照列出第 1 至第 13 集，标题与 Bangumi 条目逐集匹配。\n\n备注：Bangumi 与 TMDB 的首播日期相差一天，可能源于时区或播出日期记录口径；未发现会导致版本或季号变化的证据。",
+    "evidence": "codex: 确认对应TMDB 44687第二季整季。年份、TV媒介、制作公司、角色与剧情一致，13集标题和顺序经Bangumi输入、TMDB实际季表及电视台官方集表逐项核对一致，未混入前作或其他版本。本篇1–13集可连续对应S02E01–S02E13。官方播出日期与TMDB逐集相差一天，与深夜跨日播出相符，不影响季号及集号判断。\n\nhttps://bgm.tv/subject/2604 (page): Bangumi 将本作列为2009年10月4日至12月27日播出的13集TV动画，原作为小林尽，导演为新房昭之，动画制作为SHAFT，并关联前作《夏のあらし!》。\n\nhttps://www.themoviedb.org/tv/44687 (api_snapshot): TMDB 44687为SHAFT制作的《夏のあらし!》，共两季26集；第二季名称为《夏のあらし!春夏冬中》，13集。角色、声优及方舟咖啡店与时间穿越的剧情设定一致。\n\nhttps://www.themoviedb.org/tv/44687/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集。第1至13集日文标题与输入Bangumi章节逐项完全一致；日期为2009年10月5日至12月28日，每周一集，第12集为12月21日。\n\nhttps://www.tv-tokyo.co.jp/contents/natsunoarashi2/episodes/index.html (page): 东京电视台官方集表列出本作全部13集，标题、顺序及各集剧情均与TMDB第二季对应；播出日期为2009年10月4日至12月27日，逐集比TMDB记录早一天。\n\nhttps://news.mynavi.jp/article/20090925-akinai/ (search_snippet): 当年报道明确本作为第二期TV动画，安排于2009年10月4日星期日深夜1时30分开播，支持播出日与次日自然日的日期差异解释。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2604; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/44687; https://www.themoviedb.org/tv/44687/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2604; https://www.themoviedb.org/tv/44687; https://www.themoviedb.org/tv/44687/season/2; https://www.tv-tokyo.co.jp/contents/natsunoarashi2/episodes/index.html; https://news.mynavi.jp/article/20090925-akinai/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 44687
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

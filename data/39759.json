@@ -1,16 +1,126 @@
 {
   "anidbId": 9199,
   "bangumiId": 39759,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 171543,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 171544,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 171545,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 171546,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 171547,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 171548,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 171549,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 171550,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 171551,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 171552,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 171553,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 171554,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 171555,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 171556,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 171557,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 171558,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 171559,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 171560,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 171561,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 171562,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2012 年首播、20 话的《おしりかじり虫》，对应 AniDB 9199《Oshiri Kajiri Mushi (2012)》。Anime-Lists 明确将 AniDB 9199 关联至 TMDB TV 113075 第1季，并将 2013 年续作单独关联至第2季。TMDB 主条目的日文标题、首播日期和第1季 20 集均与 Bangumi 的主体信息吻合，因此纳入完整第1季，无需集数范围限制。\n\nhttps://bgm.tv/subject/39759 (page): Bangumi subject 为《おしりかじり虫／咬屁屁虫》，首播 2012-10-07，共 20 话，且主体集数列为 1–20 话。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=9199、名称 Oshiri Kajiri Mushi (2012)、tmdbtv=113075、tmdbseason=1；另有 anidbid=9990 的 Oshiri Kajiri Mushi (2013) 对应第2季。\n\nhttps://www.themoviedb.org/tv/113075 (api_snapshot): TMDB TV 113075 日文标题为 おしりかじり虫，首播日期为 2012-10-07；第1季有 20 集。\n\nhttps://www.themoviedb.org/tv/113075/season/1 (api_snapshot): TMDB 第1季 season_number=1，air_date=2012-10-07，episodeCount=20；已列出的集数日期与 Bangumi 前7话一致。\n\nhttps://www.allcinema.net/cinema/343767 (page): 独立资料将该作品列为日本 TV 动画，播出时间为 2012-10-07 至 2013-02-24，并记录 20 集。\n\n备注：TMDB 第1季快照中第8–20集的日期、简介字段为空，但季总集数为20，且 Bangumi 主体完整列出20话；这不影响采用完整第1季。",
+    "evidence": "codex: 首播日期、电视动画媒介、20集规模及官方版本资料共同支持对应TMDB 113075第1季，主体为2012年剧情短篇动画。整季范围可确认；逐集规则仅纳入放送日期逐一吻合的第1至7话，第8至20话不凭编号位置推定。\n\nhttps://www.themoviedb.org/tv/113075 (api_snapshot): 日文原名搜索找到 TV 113075；实际读取日文及英文详情，原名为《おしりかじり虫》，英文名为 Bottom Biting Bug，首播日期为2012-10-07，第1季20集。简介及制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/113075/season/1 (api_snapshot): 实际读取第1季日文及英文集表，共20集、1页。第1至7集日期依次为2012-10-07、10-14、10-21、10-28、11-04、11-11、11-18，与输入逐集一致。所有集标题均为编号占位；第8至20集日期及简介为空。\n\nhttps://urumadelvi.com/jp/news/2012/10/kjanime-1007.php (page): 原作者官网2012年10月5日公告确认：该电视动画于10月7日在NHK BS Premium开始播出，每集5分钟、全20集，主角为咬屁屁虫18世。\n\nhttps://www.animatetimes.com/news/details.php?id=1336369305 (search_snippet): 2012年动画报道列出原案与角色设计为うるまでるび、导演小岛正幸、动画制作KINEMA CITRUS；剧情为10岁的18世在大阪生活、上咬人学校并帮助父母经营店铺，与输入简介一致。报道区分2007年歌曲角色与2012年新制作的20集电视动画。\n\nhttps://www.allcinema.net/cinema/343767 (page): 条目明确为2012年日本电视动画，播出期间2012-10-07至2013-02-24，列有20集，与输入版本及范围一致。\n\n备注：TMDB第8至20集缺少有效标题、日期及简介，暂不建立这些章节的逐集映射；需待TMDB补充可核对信息。；Bangumi网页本次未能访问，Bangumi侧信息采用用户提供的完整快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/39759; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/113075; https://www.themoviedb.org/tv/113075/season/1; https://www.allcinema.net/cinema/343767",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/39759; https://www.themoviedb.org/tv/113075; https://www.themoviedb.org/tv/113075/season/1; https://urumadelvi.com/jp/news/2012/10/kjanime-1007.php; https://www.animatetimes.com/news/details.php?id=1336369305; https://www.allcinema.net/cinema/343767",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 113075
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

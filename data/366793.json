@@ -1,16 +1,86 @@
 {
   "anidbId": 17156,
   "bangumiId": 366793,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1110609,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1110610,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1110611,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1110612,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1110613,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1110614,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1110615,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1110616,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1110617,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1110618,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1110619,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1110620,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 156450 第1季整季。年份、TV媒介、剧情、导演及制作公司一致，12集标题逐集完全匹配且顺序一致，支持 Bangumi 本篇1—12对应 S01E01—E12。\n\nhttps://www.themoviedb.org/tv/156450 (api_snapshot): 日文原名搜索得到 TV 156450；详情确认为2022年《プリマドール》，剧情为战后自律人偶在黑猫亭寻找新职责，导演天衝、动画制作 Bibury Animation Studios，与输入一致；全剧1季12集。\n\nhttps://www.themoviedb.org/tv/156450/season/1 (api_snapshot): 第1季真实集表共12集，total_pages=1。第1至12集日文标题与输入逐集完全一致，顺序一致，每集24分钟，无其他作品混入。日期逐集比较：第1集比 Bangumi 晚1天，第2至12集均早5天。\n\nhttps://primadoll.jp/ (page): 官方确认本作为 Key 与 Bibury 合作的原创TV动画，导演天衝，剧情与主要声优吻合；首页明确7月8日开始电视播出、7月3日开始先行配信，支持存在两套播出日期。\n\n备注：TMDB 日期口径不统一：第2—12集日期符合比电视播出提前5天的先行配信节奏，第1集却记为2022-07-09；其具体记录原因未确认，不影响由全部集标题及集数确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/366793; https://www.themoviedb.org/tv/156450; https://www.themoviedb.org/tv/156450/season/1; https://primadoll.jp/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156450
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,14 +1,48 @@
 {
   "anidbId": 10626,
   "bangumiId": 103812,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 408315,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 437396,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 408315,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 62602,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 437396,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 62602,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《アオハライド》主TV之外的两集 OAD，发售日为 2014-08-25 和 2014-12-12；AniDB 关联为 10626 且状态为 matched。TMDB TV 62602 的特别篇 season 0 恰有 2 集，日期分别对应两集 OAD，第二集标题为 PAGE.13，剧情说明也明确是 TV 第12话的续编。因此主体覆盖 season 0 的完整两集，采用完整季范围（集数范围留空）。\n\nhttps://bgm.tv/subject/103812 (page): Bangumi subject 名称为「アオハライド OAD」，共 2 集，日期为 2014-08-25 与 2014-12-12，并关联主TV subject 92836。\n\nhttps://www.themoviedb.org/tv/62602 (api_snapshot): TMDB TV 62602 为《アオハライド》，首播日为 2014-07-08，并包含 season 0「特別編」，共 2 集。\n\nhttps://www.themoviedb.org/tv/62602/season/0 (api_snapshot): TMDB season 0 两集日期为 2014-08-25、2014-12-12；第 2 集标题为 PAGE.13，简介说明其为电视动画第12话的续编，且两集均属于 OAD 收录内容。\n\n备注：TMDB season 0 第1集标题为 Unwritten，与 Bangumi 的 PAGE.0 命名不同，但日期、集数、OAD收录信息和版本关系一致；不影响确认其为同一 OAD 主体。",
+    "evidence": "codex: 确认对应 TMDB 62602 第0季全部两集。年份、动画制作人员、角色、两次发行日期和漫画同捆卷次均吻合。PAGE.0 虽在 TMDB 命名为 Unwritten，但发行日期及第11卷序章说明明确对应；PAGE.13 对应第0季第2集。两话以章节 ID 分别指定。\n\nhttps://bgm.tv/subject/103812 (page): Bangumi 标明本作为2014年两话 OAD，由吉村爱执导、Production I.G 制作；第00话随漫画第11卷发行，第13话随第12卷发行，日期分别为2014-08-25、2014-12-12。\n\nhttps://www.themoviedb.org/tv/62602 (api_snapshot): TMDB 62602 是2014年《アオハライド》动画，导演吉村爱、制作公司 Production I.G，双叶与洸的角色及声优与 Bangumi 一致；包含两集特别篇。\n\nhttps://www.themoviedb.org/tv/62602/season/0 (api_snapshot): 第0季完整集表共2集，仅1页。第1集 Unwritten 于2014-08-25发行，简介明确为漫画第11卷附带的序章；第2集 PAGE.13 于2014-12-12发行，简介明确为漫画第12卷附带、接续电视动画第12话的故事。与两话 OAD 的发行日期及收录版本逐一一致。",
     "method": "codex",
     "source": "https://bgm.tv/subject/103812; https://www.themoviedb.org/tv/62602; https://www.themoviedb.org/tv/62602/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

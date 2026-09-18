@@ -1,16 +1,103 @@
 {
   "anidbId": 9717,
   "bangumiId": 64993,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 319468,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 319469,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 319470,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 319471,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 319629,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 319630,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 319631,
+      "sort": 6.5,
+      "type": 1
+    },
+    {
+      "id": 319632,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 319633,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 319634,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 319635,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 319636,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 333091,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 319631,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 61512,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是2013年版 TV《DIABOLIK LOVERS》，正篇12集，并明确包含2013-10-28的总集篇6.5。TMDB 61512 第1季的12集日期与正篇逐集对应；TMDB 第0季第1集对应2013-10-28的总集篇。第0季另一集为2015年OVA，且 Bangumi 将 OAD 作为独立条目，不应纳入本主体。\n\nhttps://bgm.tv/subject/64993 (page): Bangumi 条目标记为 TV，话数12，首播2013-09-16；章节包含12个正篇及2013-10-28的总集篇6.5，且 OAD 为独立关联条目。\n\nhttps://www.themoviedb.org/tv/61512 (api_snapshot): TMDB TV 61512 首播2013-09-16，第1季12集，第0季2集，第2季12集。\n\nhttps://www.themoviedb.org/tv/61512/season/1 (api_snapshot): TMDB 第1季共12集，日期为2013-09-16、09-23、09-30、10-07、10-14、10-21、11-04、11-11、11-18、11-25、12-02、12-09，与 Bangumi 正篇逐集对应。\n\nhttps://diabolik-lovers.fandom.com/wiki/Episode_6.5 (search_snippet): 总集篇6.5为第一季特别篇，内容回顾前6集，播出日期为2013-10-28。\n\nhttps://watch.rdd.media/shows/diabolik-lovers/ (search_snippet): 该页面列出的 TMDB 季表将2013-10-28的特别篇列为 Season 0 Episode 1，将2015-02-26的OVA列为 Season 0 Episode 2。\n\n备注：TMDB 第0季逐集标题未包含在输入快照中；第0季第1集的编号由其公开季表日期与 Bangumi 总集篇日期交叉核对。",
+    "evidence": "codex: 已确认对应TMDB 61512第1季全12集及第0季第1集。作品年份、媒介、制作公司和剧情吻合，本篇标题编号与播出日期逐集一致；总集篇的编号、日期与回顾内容均吻合。独立OAD及续作不纳入。\n\nhttps://bgm.tv/subject/64993 (page): Bangumi 标记为2013年TV动画，2013-09-16首播，共12话，动画制作ZEXCS；剧情为小森唯与六名吸血鬼兄弟共同生活。章节另含总集篇6.5，OAD与MORE,BLOOD均为独立关联条目。\n\nhttps://www.themoviedb.org/tv/61512 (api_snapshot): TMDB 61512的原名、2013-09-16首播日期、ZEXCS制作及小森唯与逆卷六兄弟的剧情均吻合。第1季为2013年作品，第2季另列MORE,BLOOD。\n\nhttps://www.themoviedb.org/tv/61512/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。标题Episode 1至Episode 12与Bangumi罗马数字标题对应；逐集日期依次为2013-09-16、09-23、09-30、10-07、10-14、10-21、11-04、11-11、11-18、11-25、12-02、12-09，与输入12个本篇章节全部一致。\n\nhttps://www.themoviedb.org/tv/61512/season/0 (api_snapshot): 第0季完整集表共2集、仅1页。第1集标题Episode 6.5，2013-10-28播出，简介明确为前6集回顾，对应Bangumi总集篇；第2集为2015-02-26的OVA，不属于本subject。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/64993; https://www.themoviedb.org/tv/61512; https://www.themoviedb.org/tv/61512/season/1; https://diabolik-lovers.fandom.com/wiki/Episode_6.5; https://watch.rdd.media/shows/diabolik-lovers/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/64993; https://www.themoviedb.org/tv/61512; https://www.themoviedb.org/tv/61512/season/1; https://www.themoviedb.org/tv/61512/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61512
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

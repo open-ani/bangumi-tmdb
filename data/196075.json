@@ -1,15 +1,111 @@
 {
+  "anidbId": 12505,
   "bangumiId": 196075,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 690202,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 690205,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 690206,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 690207,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 690208,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 692579,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 693305,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 694262,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 697701,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 699194,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 700424,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 703858,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 704994,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 706838,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 707955,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 717211,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 717212,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认是2016年富士电视台《#ハイ_ポール》内播出的短篇TV动画《神々の記》，不是OVA、电影或其他同名作品。TMDB条目原名、首播日、导演日野トミー、森川智之及季表均对应；TMDB第1季实际有1–16集。官方资料与DVD也明确收录正篇第1–16集，另有圣诞特别篇，不应并入TMDB正篇季。故推荐完整第1季，不填写集数范围。\n\nhttps://api.bgm.tv/v0/subjects/196075 (api_snapshot): Bangumi fresh API确认日文原名《神々の記》、2016-11-24、媒介TV、埃及神话日常剧情及日野トミー/KT/KONATSU/想通等制作信息；字段显示eps=15、total_episodes=17。\n\nhttps://www.themoviedb.org/tv/211691 (api_snapshot): TMDB details确认作品ID 211691、原名《神々の記》、首播日2016-11-24、TV媒介、1季16集、已完结、导演Tommy Hino及森川智之出演。\n\nhttps://www.themoviedb.org/tv/211691/season/1 (api_snapshot): TMDB实际季表确认第1季episodeCount=16，并列出连续第1–16集；没有分页遗漏。\n\nhttps://prtimes.jp/a/?c=84&f=d84-615-pdf-0.pdf&r=615 (page): 富士电视台官方新闻稿确认《神々の記》自2016-11-24起作为《#ハイ_ポール》内的短篇动画播出，剧情为埃及神话诸神与照料者的日常，并列出日野トミー、KT、KONATSU、想通等工作人员。\n\nhttps://tower.jp/item/4502044 (page): DVD商品资料明确写明收录第1话至第16话，列出的前15集标题与Bangumi条目逐集对应，并确认日野トミー、KT、KONATSU、森川智之及剧情设定。\n\nhttps://ameblo.jp/jun-otomo/entry-12259717581.html (page): 主题曲作曲者大友ジュン称其为短篇动画，列出Xmas特别篇并将正篇列为第1–14话，说明中断后继续播出；支持特别篇与正篇分开的版本判断。\n\n备注：Bangumi fresh字段的eps=15与其归档正篇列表16集、DVD第1–16集及TMDB季表16集不一致，疑似Bangumi计数或同步问题。；TMDB季表后半段日期与Bangumi归档中的停播/复播日期不完全一致，但作品身份和正篇1–16的范围由标题、官方资料及DVD共同确认。",
+    "evidence": "codex: 作品年份、首播日、导演、声优、剧情和TV短篇版本一致；DVD正篇16话与TMDB第1季16集相符，可确认主体对应整季。逐集仅填写日期及官方集号共同支持的第1—4话；后续日期冲突且TMDB缺少实质标题，不按位置推定。\n\nhttps://www.themoviedb.org/tv/211691 (api_snapshot): 日文原名搜索返回 TV 211691；详情确认原名《神々の記》、首播日2016-11-24、导演Tommy Hino、声优森川智之，合计1季16集。\n\nhttps://www.themoviedb.org/tv/211691/season/1 (api_snapshot): 读取第1季日文和英文集表，均为16集、total_pages=1。标题全部为通用集号，无分集简介。第1—4集日期与Bangumi逐集一致；第5—16集日期为2016-12-22至2017-03-09，与输入日期不符。\n\nhttps://prtimes.jp/a/?c=84&f=d84-615-pdf-0.pdf&r=615 (page): 富士电视台新闻稿确认本作是2016-11-24起在《#ハイ_ポール》内播出的短篇剧情动画，讲述古埃及诸神与照料者的日常；导演日野トミー、声优森川智之及其他制作信息与输入一致。\n\nhttps://tower.jp/item/4502044 (page): DVD资料明确收录正篇第1—16话，列出第1—15话标题，整体对应输入正篇；第7话存在标题措辞差异，第16话未列标题。制作人员与本作一致。\n\nhttps://ameblo.jp/jun-otomo/entry-12259717581.html (page): 音乐担当大友ジュン的文章列出正篇第1—14话，并将圣诞特别篇单独列出；说明第14话之后曾暂停播出，支持实际排期并非TMDB所列的连续每周播放。\n\n备注：第5—16话暂不建立逐集映射：TMDB日期与Bangumi及制作人员披露的停播安排冲突，需要补充分集标题或修正排期后核对。；圣诞特别篇690208独立于正篇；TMDB详情未列第0季，本次未确认其对应条目，保留未映射。；输入infobox记载15话，但章节列表及DVD资料支持正篇16话；不采用15话作为范围依据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/196075; https://api.bgm.tv/v0/subjects/196075; https://www.themoviedb.org/tv/211691; https://www.themoviedb.org/tv/211691/season/1; https://prtimes.jp/a/?c=84&f=d84-615-pdf-0.pdf&r=615; https://tower.jp/item/4502044; https://ameblo.jp/jun-otomo/entry-12259717581.html",
-    "verifiedAt": "2026-09-08T20:38:56.958Z"
+    "source": "https://bgm.tv/subject/196075; https://www.themoviedb.org/tv/211691; https://www.themoviedb.org/tv/211691/season/1; https://prtimes.jp/a/?c=84&f=d84-615-pdf-0.pdf&r=615; https://tower.jp/item/4502044; https://ameblo.jp/jun-otomo/entry-12259717581.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211691
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

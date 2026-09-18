@@ -1,13 +1,44 @@
 {
   "bangumiId": 288831,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 900339,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 900340,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 900341,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 900342,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 900343,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 900344,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、剧情、制作信息、主演及第一季6集范围一致，确认对应 TMDB 63522 第一季整季。Bangumi 章节缺少标题和单集日期，无法进行章节级逐项比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/288831 (page): Bangumi 标明本作为第一季、Netflix 网络动画，共6话，播出起止日期均为2015-12-18；剧情为1970年代墨菲一家的生活，原作为 Bill Burr、Michael Price。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 63522 的首播日期、剧情、Gaumont Animation 制作信息及主要配音与 Bangumi 相符；第一季明确为2015-12-18首播、共6集。\n\nhttps://www.themoviedb.org/tv/63522/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共6集，集号1至6，日期均为2015-12-18；标题和顺序逐项与 Netflix 官方集表一致。\n\nhttps://www.netflix.com/title/80028732 (page): Netflix 官方页面确认本作为美国成人动画，创作者及主演与 Bangumi 一致；展示的6集标题、顺序与剧情均与 TMDB 第一季对应。\n\n备注：Bangumi 章节900339至900344仅有序号，标题和日期为空；需补充章节资料后才能核实逐集对应，不能仅按位置填充规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/288831; https://www.themoviedb.org/tv/63522; https://www.themoviedb.org/tv/63522/season/1; https://www.netflix.com/title/80028732",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,13 +1,80 @@
 {
+  "anidbId": 14120,
   "bangumiId": 309237,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 960018,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 960019,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 960020,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 960021,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 960022,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 960023,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 960024,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 960025,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 960026,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 960027,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 960028,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 960029,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 960030,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 105996 是《うっかりペネロペ》的合并主条目，明确包含4个独立季；其第4季日期为2017-10-04、共13集。与 Bangumi 的2017年播出日期、13集、蓝色三岁考拉日常短篇剧情，以及高木淳导演、島田満系列构成等制作信息相符。官方日本动画页面进一步确认第4系列播出至2017-12-27、每集5分钟共13集；官方剧情页的露营、数数、巴黎、跳舞等内容也与 TMDB 第4季集表一致。因此应映射到 TV 105996 的第4季整季，不能使用裸 TV 条目或早期季。\n\nhttps://api.bgm.tv/v0/subjects/309237 (api_snapshot): Bangumi 原始 API 信息：标题为「うっかりペネロペ 【第4シリーズ】」，日期2017-10-04，媒介TV，13集；剧情为三岁蓝色考拉佩内洛佩的日常短篇，制作信息含高木淳、島田満等。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): TMDB 详情 API：原题名为「うっかりペネロペ」，首播2006-11-20，完结2017-12-27，共4季；第4季日期2017-10-04、共13集；简介和制作公司与该动画一致。\n\nhttps://www.themoviedb.org/tv/105996/season/4 (api_snapshot): TMDB 第4季实际集表共13集，total_pages=1，集号连续为1至13，日期从2017-10-04至2017-12-27，剧情标题包括露营、数数、种菜、巴黎和跳舞等。\n\nhttps://www.nippon-animation.co.jp/work/u/ (page): 日本动画官方作品页确认「うっかりペネロペ 第4シリーズ」播出期为2017-10-04至2017-12-27，5分钟、13话；同时将第1至第4系列分开列出。\n\nhttps://penelope.tv/tv-animation/story04.html (page): 佩内洛佩官方站的第4系列剧情页列出与 TMDB 第4季相符的13个故事主题，包括露营、数数、巴黎散步和跳舞。",
+    "evidence": "codex: 确认对应TMDB TV 105996第4季整季。年份、播出区间、媒介、制作信息、13集总量及官方各话剧情均吻合，季表未混入其他系列。Bangumi章节缺少标题和播出日期，无法独立逐集核验其sort顺序，因此保留整季匹配，不生成仅按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 日文原名搜索得到 TV 105996；详情确认其为日本动画公司等制作的蓝色小考拉日常动画，共4季，第4季首播2017-10-04、共13集。\n\nhttps://www.themoviedb.org/tv/105996/season/4 (api_snapshot): 已读取第4季完整集表，total_pages=1，共13集，每集5分钟，集号1—13，日期从2017-10-04至2017-12-27，每周三连续播出；故事内容与官方第4系列13篇简介逐项相符。\n\nhttps://www.nippon-animation.co.jp/work/5858/ (search_snippet): 日本动画官方作品页搜索结果确认第4系列为NHK Eテレ电视动画，播出期2017-10-04至2017-12-27，5分钟×13话；导演髙木淳、系列构成及脚本島田満，与输入一致。网页直接访问返回403。\n\nhttps://penelope.tv/tv-animation/story04.html (page): 官方第4系列剧情页列出13个故事，其顺序及剧情与TMDB第4季一致，从露营、数数、种菜到巴黎散步、跳舞；末几话标题有轻微文字差异，剧情一致。\n\n备注：输入中的13个Bangumi章节标题和日期均为空，本次访问Bangumi章节页及API亦未成功；待补充章节标题或日期后再建立逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/309237; https://api.bgm.tv/v0/subjects/309237; https://www.themoviedb.org/tv/105996; https://www.themoviedb.org/tv/105996/season/4; https://www.nippon-animation.co.jp/work/u/; https://penelope.tv/tv-animation/story04.html",
-    "verifiedAt": "2026-09-08T22:03:29.642Z"
+    "source": "https://bgm.tv/subject/309237; https://www.themoviedb.org/tv/105996; https://www.themoviedb.org/tv/105996/season/4; https://www.nippon-animation.co.jp/work/5858/; https://penelope.tv/tv-animation/story04.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

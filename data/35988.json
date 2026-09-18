@@ -1,14 +1,48 @@
 {
   "anidbId": 8566,
   "bangumiId": 35988,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 152059,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 269421,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 152059,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 60732,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 269421,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 60732,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该 OAD 明确列为 2 话：第 1 话为「夏だ! 水着だ! 合宿だ!」，第 2 话为「タケル女体化!?南の島ですぽ～ん♥」。TMDB 60732 的特别篇第 7、8 集分别对应这两个标题，剧情、时长和制作背景一致，因此应映射为 season 0 的 7–8 集，而不是整季。Anime-Lists 对 AniDB 8566 的记录只直接映射第 1 个 OVA 到 TMDB season 0 episode 7；Bangumi 的第 2 话则由其自身条目、TMDB episode 8 和官方资料共同确认。Bangumi 的第 2 话日期为 2013-09-20，TMDB 为 2013-09-30，属于发行/播出日期差异，不影响标题和版本对应。\n\nhttps://bgm.tv/subject/35988 (page): Bangumi 将条目标为 OVA，共 2 话；列出两话标题、首播日期、时长及 AIC Spirits 制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=8566 记录名称为第一部 OVA，并关联 tmdbtv=60732、tmdbseason=0；映射明确为 AniDB season 1 episode 1 → TMDB season 0 episode 7。\n\nhttps://www.themoviedb.org/tv/60732 (api_snapshot): TMDB TV 60732 的主体为《マケン姫っ！》，包含特别篇 season 0，并列出 13 集特别篇。\n\nhttps://www.themoviedb.org/tv/60732/season/0 (api_snapshot): TMDB season 0 第 7 集为「マケン姫っ！ 夏だ！ 水着だ！ 合宿だ！」（2012-03-01，25 分），第 8 集为「マケン姫っ！通 タケル女体化!?南の島ですぽ〜ん♥」（2013-09-30，30 分）；两集剧情简介均与对应 OAD 一致。\n\nhttps://columbia.jp/makenki/ (page): 日本古伦美亚官方页面将「タケル女体化!? 南の島ですぽ〜ん♥」列为《マケン姫っ！通》0 话，确认其为该系列的 OVA/特别篇版本。\n\n备注：Bangumi 第 2 话日期为 2013-09-20，而 TMDB 记录为 2013-09-30；现有证据支持这是发行日与播出/数据库日期差异。；AniDB 8566/Anime-Lists 记录只覆盖第一部 OVA，不能单独证明第二话的 AniDB 编号；第二话纳入范围依据 Bangumi 两话主体、TMDB 精确标题与官方《通》0话资料确认。",
+    "evidence": "codex: 两话分别是漫画第8卷附属 OAD 和第11卷附属《通》第0话。逐话标题、发行年份、附属动画版本及官方剧情资料支持对应 TMDB 60732 第0季第7、8集。已读取完整特别篇集表，范围不包含两季 TV 正篇或其他特典短篇，并以章节 ID 明确映射。\n\nhttps://bgm.tv/subject/35988 (page): Bangumi 将本条目标为两话 OVA，别名包含《マケン姫っ! 通 OAD》，原作为武田弘光，并关联两部 TV 动画。\n\nhttps://www.themoviedb.org/tv/60732 (api_snapshot): TMDB 60732 为2011年开始的《マケン姫っ！》，包含两季正篇及特别篇；角色、配音和 AIC、XEBEC 制作背景与该系列相符。\n\nhttps://www.themoviedb.org/tv/60732/season/0 (api_snapshot): 第0季完整集表共13集，仅1页。第7集为「夏だ！ 水着だ！ 合宿だ！」，日期2012-03-01、25分钟，注明电视未播特盛篇；第8集为「タケル女体化!?南の島ですぽ〜ん♥」，日期2013-09-30、30分钟。两集标题分别对应输入中的两话；其余集为其他特典短篇。\n\nhttps://akibablog.blog.jp/archives/51325422.html (search_snippet): 同期发行报道确认漫画第8卷限定版附带「夏だ！水着だ！合宿だ！」动画 DVD，内容为夏日合宿故事。\n\nhttps://www.kadokawa.co.jp/product/201107000351/ (search_snippet): 角川官方商品资料确认第8卷限定版附带电视未播原创动画 DVD；商品发行日记为2012-02-29。\n\nhttps://columbia.jp/makenki/ (page): 日本古伦美亚官方页面明确称「タケル女体化!? 南の島ですぽ～ん♥」为《マケン姫っ！通》第0话，确认其特别篇版本身份。\n\nhttps://www.youtube.com/watch?v=0vCfUggh7Tg (search_snippet): KADOKAWAanime 官方第11卷限定版宣传资料介绍小武在合宿中变成女性的剧情，确认附带原创动画蓝光，并列出与本系列一致的主要配音阵容。\n\nhttps://www.kadokawa.co.jp/product/201211000475/ (search_snippet): 角川官方确认漫画第11卷蓝光限定版收录原创动画，发行日为2013-09-30，与 TMDB 第0季第8集日期一致。\n\n备注：输入第二话日期为2013-09-20，但角川官方和 TMDB 均记为2013-09-30；Bangumi infobox 的结束日期2012-09-20也与第二话发行年份冲突，不能据此判断版本。；第一话 Bangumi 与 TMDB 日期均为2012-03-01，角川第8卷限定版商品页记为2012-02-29；日期记录存在一天差异，不影响精确标题及附属版本对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/35988; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/60732; https://www.themoviedb.org/tv/60732/season/0; https://columbia.jp/makenki/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/35988; https://www.themoviedb.org/tv/60732; https://www.themoviedb.org/tv/60732/season/0; https://akibablog.blog.jp/archives/51325422.html; https://www.kadokawa.co.jp/product/201107000351/; https://columbia.jp/makenki/; https://www.youtube.com/watch?v=0vCfUggh7Tg; https://www.kadokawa.co.jp/product/201211000475/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

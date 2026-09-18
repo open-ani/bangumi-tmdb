@@ -1,13 +1,135 @@
 {
+  "anidbId": 14505,
   "bangumiId": 240778,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 873878,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 873879,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 873880,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 873881,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 873882,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 873883,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 873884,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 873885,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 873886,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 873887,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 873888,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 873889,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 873890,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 873891,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 873892,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 873893,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 873894,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 873895,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 873896,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 873897,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 873898,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 873899,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 873900,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 873901,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 91039 的原题为《テレビ野郎 ナナーナ》，首播日期为 2018-04-06，与 Bangumi 完全对应；简介均为贫穷电视台团队为拍摄传说珍兽而进行的低预算探险喜剧，导演为 Satoshi Fumihara（文原聡），制作公司为 Studio Crocodile。TMDB 第 1 季明确为 24 集，实际集表覆盖 2018-04-06 至 2018-09-14，且与该 Bangumi subject 的 24 集范围一致。第 2、3 季是后续独立故事，不应并入本 subject。\n\nhttps://api.bgm.tv/v0/subjects/240778 (api_snapshot): Bangumi API 标示作品为《テレビ野郎 ナナーナ》，TV，2018-04-06 开播，共 24 集；导演文原聡，动画制作 studio crocodille。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): TMDB 详情确认原题《テレビ野郎 ナナーナ》、首播 2018-04-06；剧情为电视台团队拍摄传说珍兽，导演 Satoshi Fumihara，制作公司 Studio Crocodile，并列出共 3 季。\n\nhttps://www.themoviedb.org/tv/91039/season/1 (api_snapshot): TMDB 第 1 季名为「シーズン1」，共 24 集，集 1 至集 24 的日期为 2018-04-06 至 2018-09-14，剧情对应该 subject。",
+    "evidence": "codex: 确认对应 TMDB 91039 第1季整季：首播年份、制作人员、剧情、24集总量及放送起止范围一致，且官方明确区分后续季度。Bangumi输入中的24个章节均无标题和放送日期，无法逐章交叉核验，因此只确认整季范围，暂不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): 日文原名搜索命中 TMDB 91039；详情确认首播为2018-04-06，导演为文原聡，制作公司包含 Studio Crocodile、东京电视台，剧情为三名电视台摄影人员前往丛林拍摄珍兽。年份、制作人员及动画版本与输入相符。\n\nhttps://www.themoviedb.org/tv/91039/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共24集，集号1—24，日期从2018-04-06至2018-09-14；内容为寻找珍兽的首季故事，未混入后续季度。\n\nhttps://www.tv-tokyo.co.jp/nana-na/ (page): 官网明确区分2018年第1季、2019年第2季及2020年第3季；第1季标题为《テレビ野郎 ナナーナ》，剧情是七冈、七森、七山拍摄珍兽キーナ，与TMDB第1季一致；《わくわく洞窟ランド》属于第2季。\n\n备注：Bangumi作品页及章节页本次访问失败；输入章节缺少标题、日期，逐集映射仍需补充这些资料后核对，不能仅凭sort顺序填充。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/240778; https://api.bgm.tv/v0/subjects/240778; https://www.themoviedb.org/tv/91039; https://www.themoviedb.org/tv/91039/season/1",
-    "verifiedAt": "2026-09-08T21:17:17.865Z"
+    "source": "https://bgm.tv/subject/240778; https://www.themoviedb.org/tv/91039; https://www.themoviedb.org/tv/91039/season/1; https://www.tv-tokyo.co.jp/nana-na/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

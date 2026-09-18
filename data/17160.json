@@ -1,14 +1,96 @@
 {
   "anidbId": 8204,
   "bangumiId": 17160,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 96766,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 117750,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 167888,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 185131,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 243431,
+      "sort": 21,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 96766,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 117750,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 167888,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 185131,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 243431,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 36697,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《生徒会役員共 OAD》OVA，共 5 话，日期为 2011-04-15 至 2013-10-17，章节内容对应编号 14、15、17、18、21。Anime-Lists 将 AniDB 8204（Seitokai Yakuindomo (2011)）关联至 TMDB TV 36697 season 0，并明确映射 AniDB 1、2、3、4、5 至 TMDB 1、2、4、5、8。TMDB season 0 的这些集数在日期和标题上逐一吻合；第 3、6、7 集属于其他日期和内容，不能整季纳入。\n\nhttps://bgm.tv/subject/17160 (page): Bangumi 将条目标为 OVA，话数 5，别名 Seitokai Yakuindomo OAD，发售日期为 2011-04-15，结束日期为 2013-10-17；章节日期和标题对应 5 个 OAD。制作信息包括导演金澤洪充和动画制作 GoHands。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=8204 条目名为 Seitokai Yakuindomo (2011)，关联 tmdbtv=36697、tmdbseason=0，并给出映射 1-1、2-2、3-4、4-5、5-8。\n\nhttps://www.themoviedb.org/tv/36697 (api_snapshot): TMDB TV 36697 名为生徒会役員共，首播日期为 2010-07-04，包含 season 0 特別編；该条目是 TV 容器而非电影。\n\nhttps://www.themoviedb.org/tv/36697/season/0 (api_snapshot): TMDB season 0 第 1、2、4、5、8 集分别对应 2011-04-15、2011-11-17、2012-07-17、2013-02-15、2013-10-17，标题内容与 Bangumi 的 5 个 OAD 章节相符；第 3、6、7 集日期和标题不同。\n\n备注：TMDB 第 8 集标题未完整列出 Bangumi 标题中的一个分段，但日期、其余标题内容及 Anime-Lists 的明确映射均一致，不影响该集范围判断。",
+    "evidence": "codex: 确认对应 TMDB TV 36697 第0季第1、2、4、5、8集。制作公司、剧情及角色一致，5话的发行日期和原始话数逐一吻合，分段标题亦对应，足以确认是2011—2013年的第一期 OAD。第0季混有其他独立发行特别篇和第二期内容，因此仅声明核实的三个区间，并按章节ID明确对应。\n\nhttps://bgm.tv/subject/17160 (page): Bangumi 将本作标为 OVA，共5话，发行于2011-04-15至2013-10-17；原作为氏家ト全，导演金澤洪充，动画制作 GoHands，剧情围绕樱才学园学生会展开。\n\nhttps://bgm.tv/subject/17160/ep (page): 章节表确认本篇编号为14、15、17、18、21，发行日期依次为2011-04-15、2011-11-17、2012-07-17、2013-02-15、2013-10-17。\n\nhttps://www.themoviedb.org/tv/36697 (api_snapshot): 日文原名搜索返回 TV 36697；详情确认其为2010年开始的《生徒会役員共》，制作公司 GoHands，樱才学园背景、津田隆利等角色及主要声优与 Bangumi 一致，并设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/36697/season/0 (api_snapshot): 第0季共18集，total_pages=1，已读取完整集表。第1、2、4、5、8集明确标注第一期第14、15、17、18、21话，日期逐一吻合，标题内容对应。第8集标题少列一个分段，其余三个分段一致。第3、6、7集是不同标题和日期的第16、19、20话，第9集起属于第二期，不纳入本条目。\n\n备注：TMDB 第0季第8集标题未列出 Bangumi 第21话中的「スルメとタカトシ」分段；发行日期、第一期第21话标记和其余三个分段一致，不影响整话对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/17160; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/36697; https://www.themoviedb.org/tv/36697/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/17160; https://bgm.tv/subject/17160/ep; https://www.themoviedb.org/tv/36697; https://www.themoviedb.org/tv/36697/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

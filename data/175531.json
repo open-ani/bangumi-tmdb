@@ -1,14 +1,48 @@
 {
   "anidbId": 12038,
   "bangumiId": 175531,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 643548,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 871361,
+      "sort": 15,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 643548,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 68103,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 871361,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 68103,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi OAD 主体包含 2016-06-06 的特别编辑版和 2018-11-30 的第15话，不应映射为 TMDB 特别篇整季。AniDB 线索对应的 DRIFTERS Special edition 是随漫画第5卷发行、剪辑TV前两话的1集OVA，匹配 TMDB season 0 episode 1；第二集日期和内容匹配《The Outlandish Knight》，即第15话，对应 episode 4。Bangumi 搜索结果还显示 episode 13-14 是独立的另一主体，因此排除 TMDB season 0 episodes 2-3。\n\nhttps://bgm.tv/anime/browser/ova/?orderby=p&sort=rank (search_snippet): Bangumi 列表显示「漂流武士 OAD」为2话、2016年6月6日，并将「漂流武士 OVA DRIFTERS episode 13-14」单列为另一部2话作品。\n\nhttps://animeschedule.net/anime/drifters-special-edition (search_snippet): AniDB 来源的条目为1集OVA，发行日为2016-06-06，随漫画第5卷发行，内容为TV前两话的特别编辑版。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index00980000.html (page): 官方资料确认第13-14幕作为新作动画收录于2017-12-23发行的商品中，支持其与当前 Bangumi OAD 主体分离。\n\nhttps://www.themoviedb.org/tv/68103/season/0 (api_snapshot): TMDB season 0 episode 1 为2016-06-06的《Drifters: Special Edition》，说明为漫画第5卷附录且剪辑TV前两话；episode 4 为2018-12-30的《The Outlandish Knight》，说明为随漫画第6卷特装版发行的第15话。",
+    "evidence": "codex: 两话的附赠卷数、版本、内容及第15话标题均与TMDB特别篇逐项对应，制作人员也一致。Bangumi sort 0 对应 S00E01，sort 15 对应 S00E04；使用章节ID特例映射，仅声明这两集，不包含另行发行的第13、14话。TMDB日期与时长存在冲突，但官方资料和TMDB明确的附赠版本说明足以确认身份。\n\nhttps://bgm.tv/subject/175531 (page): Bangumi 将本条目标为2话 OAD：漫画第5卷附赠的TV第1、2话剪辑版，以及第6卷附赠的第15话；导演为鈴木健一，动画制作为 Hoods Entertainment。\n\nhttps://www.themoviedb.org/tv/68103 (api_snapshot): TMDB 68103 为2016年《ドリフターズ》，剧情涉及岛津丰久与历史人物进入异世界；导演 Kenichi Suzuki、制作公司 Hoods Entertainment 与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/68103/season/0 (api_snapshot): 第0季共4集，total_pages=1。第1集明确为漫画第5卷附赠、剪辑TV前两话的特别编辑版；第4集为《The Outlandish Knight》，简介明确为漫画第6卷附赠的第15话。第2、3集分别为第13、14话，不属于本 subject。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index00040000.html (page): 动画官网确认漫画第5卷于6月6日发售，特装版DVD收录TV第1、2话的36分钟特别编辑版。\n\nhttps://www.shonengahosha.co.jp/info_Info.php?id=4 (page): 出版社确认第6卷附赠《The Outlandish Knight》第15话，发行日期为2018年11月30日，剧情涉及黑王军大进军；同时说明第13、14话另以Blu-ray发行。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index01070000.html (page): 动画官网发售公告确认第6卷已于11月30日发行，特装版首次收录第15话《The Outlandish Knight》DVD。\n\n备注：当前TMDB将S00E01日期记为2016-12-23、时长记为27分钟，与Bangumi的2016-06-06及官网的36分钟特别编辑版不符。；TMDB将S00E04日期记为2018-12-30，出版社及动画官网确认实际发行日为2018-11-30；采用官方发行信息判断版本。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/175531; https://bgm.tv/anime/browser/ova/?orderby=p&sort=rank; https://animeschedule.net/anime/drifters-special-edition; https://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index00980000.html; https://www.themoviedb.org/tv/68103/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/175531; https://www.themoviedb.org/tv/68103; https://www.themoviedb.org/tv/68103/season/0; https://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index00040000.html; https://www.shonengahosha.co.jp/info_Info.php?id=4; https://www.nbcuni.co.jp/rondorobe/anime/drifters/news/index01070000.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

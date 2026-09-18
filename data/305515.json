@@ -1,19 +1,46 @@
 {
   "anidbId": 15663,
   "bangumiId": 305515,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 965779,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 965780,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 965781,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、首播日期、剧情、制作公司及三集标题和放送日期一致，确认对应TMDB 102788第1季第1—3集。TMDB同季还收录2023年续篇，因此旧映射的整季范围应缩小；本映射对应2020年三集网络动画，与关联的2016年短片区分。\n\nhttps://www.themoviedb.org/tv/102788 (api_snapshot): TMDB 102788 为2020年7月26日首播的中国动画《雾山五行》，制作公司包含好传动画、六道无鱼动画工作室；闻人翊悬为救母打开巨阙神盾、导致小麒麟走失的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/102788/season/1 (api_snapshot): 第1季完整集表共7集、仅1页。第1—3集分别为《焕离神火》《嗔兽孔雀》《幻指结界》，播出日期分别为2020-07-26、2020-08-02、2020-08-09，与Bangumi三集标题、日期及顺序逐一一致。第4—7集标题明确标注“犀川幻紫林篇”，于2023年播出，不属于本subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/305515; https://www.themoviedb.org/tv/102788; https://www.themoviedb.org/tv/102788/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 102788
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 3,
       "id": 102788,
       "season": 1,
       "type": "tv"

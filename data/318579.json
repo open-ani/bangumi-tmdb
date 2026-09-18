@@ -1,13 +1,145 @@
 {
+  "anidbId": 15524,
   "bangumiId": 318579,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1149903,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1149904,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1149905,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1149906,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1149907,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1149908,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1149909,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1149910,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1149911,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1149912,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1149913,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1149914,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1149915,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1149916,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1149917,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1149918,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1149919,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1149920,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1149921,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1149922,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1149923,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1149924,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1149925,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1149926,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1149927,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1149928,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 196638 是同一部日本电视动画《かいじゅうステップ ワンダバダ》，明确包含两个季；第2季于2020-09-25开始，共26集，与 Bangumi subject 的标题、年份、剧情、制作人员和26集信息一致。TMDB第2季实际集表连续覆盖第1至第26集，且没有混入其他作品，因此使用整季范围。官方资料也明确称其为第2系列，并确认电视动画、剧情和主要工作人员。\n\nhttps://www.themoviedb.org/tv/196638 (api_snapshot): TMDB TV ID 196638，原名为かいじゅうステップ ワンダバダ；2019年开始，共2季52集，制作公司为圆谷制作；第2季日期为2020-09-25且有26集。\n\nhttps://www.themoviedb.org/tv/196638/season/2 (api_snapshot): TMDB第2季季表实际列出连续的第1至第26集，播出日期为2020-09-25至2021-03-19，每集约5分钟。\n\nhttps://bgm.tv/subject/318579 (page): Bangumi subject 标题为かいじゅうステップ ワンダバダ 第2シリーズ，类型TV，26集，2020-09-25开播；剧情、导演うもとゆーじ、系列构成青池良輔、音乐立山秋航等信息与该系列一致。\n\nhttps://kaijustep.com/anime/ (page): 官方站确认这是电视动画，介绍ピグちゃん、カネちゃん、ダダちゃん在チョーチイ星开办帮助大家的“かいじゅうやさん”，并列出导演、系列构成、音乐和动画制作等工作人员。\n\nhttps://www.kaijustep.com/news/1709/ (page): 官方新闻明确使用“かいじゅうステップ ワンダバダ 第2シリーズ”，并列出第2系列的集数播出安排。\n\n备注：TMDB系列详情的整体首播/末播日期与Bangumi记录存在一周左右的日期差异，但第2季名称、开播日期、26集季表和作品身份均一致，不影响本映射。",
+    "evidence": "codex: 确认对应TMDB 196638第2季整季。官方第二系列的媒介、年份、开播日、26集规模、制作人员、角色和剧情背景均吻合；实际季表完整列出26集，支持整季范围。逐集证据不足，故不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/196638 (api_snapshot): 日文原名搜索命中 TV 196638；详情确认原名相同、圆谷制作出品，主演久野美咲、福圓美里、真堂圭与官方一致。全剧两季52集，第2季标注2020-09-25开播、26集。\n\nhttps://www.themoviedb.org/tv/196638/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，编号1—26，每集5分钟。标题均为通用的“第N話”，日期从2020-09-25至2021-03-19，其中第25集标为2021-03-12。\n\nhttps://www.kaijustep.com/news/1480/ (page): 官方第2系列公告明确：2020-09-25在NHK Eテレ开播，全26话；导演うもとゆーじ、系列构成青池良輔、音乐立山秋航，制作方为圆谷与NHKエンタープライズ。剧情延续チョーチイ星的小怪兽故事，并增加四名角色，确认是该电视动画第二系列。\n\nhttps://www.kaijustep.com/anime/ (page): 官方剧情介绍包含ピグちゃん、カネちゃん、ダダちゃん在チョーチイ星开办帮助大家的“かいじゅうやさん”，与输入的故事背景一致。\n\nhttps://www.kaijustep.com/news/1994/ (page): 官方确认第25话实际于2021-03-19播出，与TMDB第25集的2021-03-12不一致，证明季表存在逐集日期错误。\n\n备注：输入的Bangumi章节均无标题和日期，TMDB也仅有通用集名，无法进行可靠的逐集标题比对。；TMDB第25集日期与官方冲突，末集日期也比Bangumi记录的结束日期早一周；不能据其日期或编号直接推定全部章节一一对应。后续需补充可核验的逐集资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/318579; https://www.themoviedb.org/tv/196638; https://www.themoviedb.org/tv/196638/season/2; https://kaijustep.com/anime/; https://www.kaijustep.com/news/1709/",
-    "verifiedAt": "2026-09-08T22:37:10.979Z"
+    "source": "https://bgm.tv/subject/318579; https://www.themoviedb.org/tv/196638; https://www.themoviedb.org/tv/196638/season/2; https://www.kaijustep.com/news/1480/; https://www.kaijustep.com/anime/; https://www.kaijustep.com/news/1994/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

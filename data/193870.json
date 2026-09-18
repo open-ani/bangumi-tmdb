@@ -1,15 +1,86 @@
 {
+  "anidbId": 13338,
   "bangumiId": 193870,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 669086,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 669087,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 669088,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 669089,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 669090,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 669091,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 669092,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 669093,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 669094,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 669095,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 669096,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 669097,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 71646 与 Bangumi 条目均为 2016-10-03 开播的中文 Web 动画《国民老公带回家》，剧情均围绕陆瑾年与乔安好因误会重逢并假扮未婚夫妻展开；制作公司包括阅文集团、The One Studio、G.CMay Animation & Film，与 Bangumi 的阅文集团、视美精典及 The One Studio 信息相符。TMDB 明确将其拆为四季，每季 12 集；第 1 季实际集表覆盖第 1—12 集，日期和片长与 Bangumi 主体基本对应，因此匹配 Bangumi 的第一季整季。\n\nhttps://api.bgm.tv/v0/subjects/193870 (api_snapshot): Bangumi 原始 API 信息：2016-10-03 开播、平台为 Web、共 12 集；剧情、原作叶非夜及动画制作视美精典与目标作品身份一致。\n\nhttps://www.themoviedb.org/tv/71646 (api_snapshot): TMDB 详情：原名《国民老公带回家》，首播 2016-10-03，中文剧情与 Bangumi 一致，原语言为中文；列出 China Literature、The One Studio、G.CMay Animation & Film 等制作公司，并包含 How Steal 55 Kisses 等别名。\n\nhttps://www.themoviedb.org/tv/71646/season/1 (api_snapshot): TMDB 第 1 季真实集表共 12 集，编号连续覆盖 1—12，每集片长 12 分钟，首播日期从 2016-10-03 开始，与 Bangumi 主体的 12 集范围相符。\n\n备注：TMDB 第 1 季第 11、12 集的日期均记录为 2016-12-05，与 Bangumi 分别记录为 2016-12-12、2016-12-19 不一致；但集数、剧情、首播年份及版本身份均一致，不影响整季范围判断。",
+    "evidence": "codex: 年份、首播日期、剧情、动画媒介、制作公司及单季 12 集范围相符，确认对应 TMDB 71646 第 1 季整季。第 1—10 集经日期、集号标题及总集数比对建立连续规则；末两集存在日期冲突，暂不建立逐集映射。\n\nhttps://bgm.tv/subject/193870 (page): Bangumi 标明本作为 2016-10-03 开播的 WEB 动画，共 12 集；原作叶非夜，动画制作视美精典，制作含阅文集团，音乐制作 The One Studio。剧情围绕陆瑾年与乔安好重逢并假扮未婚夫妻展开。\n\nhttps://www.themoviedb.org/tv/71646 (api_snapshot): TMDB 71646 首播于 2016-10-03，剧情人物与假扮未婚夫妻的情节一致，列有配音演员及 China Literature、The One Studio、G.CMay Animation & Film 等制作公司，确认是对应的动画版本。全剧分四季，各 12 集，第 2 季始于 2017-05-01。\n\nhttps://www.themoviedb.org/tv/71646/season/1 (api_snapshot): 已读取第 1 季完整集表，total_pages=1，共 12 集，编号为 1—12，标题均为集号，每集标为 12 分钟。第 1—10 集日期与 Bangumi 逐集一致；第 11、12 集均记为 2016-12-05。\n\nhttps://bgm.tv/subject/193870/ep (page): Bangumi 本篇共 12 集，标题为第一集至第十二集，时长约 11—12 分钟。第 1—10 集从 2016-10-03 至 2016-12-05 每周播出；第 11、12 集分别记为 2016-12-12、2016-12-19。\n\n备注：第 11、12 集在 TMDB 均标为 2016-12-05，与 Bangumi 的 2016-12-12、2016-12-19 不同；双方标题均仅为集号，尚缺独立的内容或官方集表证据消除冲突。这两集保留在已确认的整季范围内，但逐集映射留空。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/193870; https://api.bgm.tv/v0/subjects/193870; https://www.themoviedb.org/tv/71646; https://www.themoviedb.org/tv/71646/season/1",
-    "verifiedAt": "2026-09-08T20:34:20.685Z"
+    "source": "https://bgm.tv/subject/193870; https://www.themoviedb.org/tv/71646; https://www.themoviedb.org/tv/71646/season/1; https://bgm.tv/subject/193870/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71646
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

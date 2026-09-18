@@ -1,16 +1,31 @@
 {
   "anidbId": 2101,
   "bangumiId": 158799,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 912759,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject明确是1996年7月6日上映、片长48分钟的独立剧场版，并关联TV主系列。AniDB ID 2101同样确认其为1996年7月6日的 Movie，标题、剧情和主要制作人员一致。TMDB TV 23787 的 season 0 为特別編，其中第4集日期为1996-07-06、片长48分钟，与该剧场版精确对应；因此应映射为 season 0 episode 4，而不是整季或TV正篇。\n\nhttps://bgm.tv/subject/158799 (page): Bangumi确认作品为《（超）劇場版!地獄先生ぬ〜べ〜》，1996年7月6日上映、1话、片长48分钟；剧情为久美子与黑斗篷恶灵事件。\n\nhttps://anidb.net/anime/2101 (page): AniDB ID 2101确认标题为 Jigoku Sensei Nube (1996)，类型为 Movie，日期为06.07.1996；官方中文名为地狱教师 剧场版，剧情和导演等制作信息与Bangumi主体吻合。\n\nhttps://www.themoviedb.org/tv/23787/season/0 (api_snapshot): 所附TMDB API快照确认TV 23787的season 0为特別編；第4集日期为1996-07-06、运行时长48分钟，与目标剧场版的日期和片长一致。\n\nhttps://www.themoviedb.org/tv/23787 (api_snapshot): 所附TMDB API快照确认候选实体23787为《地獄先生ぬ～べ～》，包含49集TV正篇及season 0特別編。",
+    "evidence": "gpt-5.6-luna: Bangumi subject明确是1996年7月6日上映、片长48分钟的独立剧场版，并关联TV主系列。AniDB ID 2101同样确认其为1996年7月6日的 Movie，标题、剧情和主要制作人员一致。TMDB TV 23787 的 season 0 为特別編，其中第4集日期为1996-07-06、片长48分钟，与该剧场版精确对应；因此应映射为 season 0 episode 4，而不是整季或TV正篇。\n\nhttps://bgm.tv/subject/158799 (page): Bangumi确认作品为《（超）劇場版!地獄先生ぬ〜べ〜》，1996年7月6日上映、1话、片长48分钟；剧情为久美子与黑斗篷恶灵事件。\n\nhttps://anidb.net/anime/2101 (page): AniDB ID 2101确认标题为 Jigoku Sensei Nube (1996)，类型为 Movie，日期为06.07.1996；官方中文名为地狱教师 剧场版，剧情和导演等制作信息与Bangumi主体吻合。\n\nhttps://www.themoviedb.org/tv/23787/season/0 (api_snapshot): 所附TMDB API快照确认TV 23787的season 0为特別編；第4集日期为1996-07-06、运行时长48分钟，与目标剧场版的日期和片长一致。\n\nhttps://www.themoviedb.org/tv/23787 (api_snapshot): 所附TMDB API快照确认候选实体23787为《地獄先生ぬ～べ～》，包含49集TV正篇及season 0特別編。\n\n脚本按声明范围生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/158799; https://anidb.net/anime/2101; https://www.themoviedb.org/tv/23787/season/0; https://www.themoviedb.org/tv/23787",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 4,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 23787
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,13 +1,95 @@
 {
+  "anidbId": 18403,
   "bangumiId": 395184,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1276611,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1276612,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1276613,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1276614,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1276615,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1276616,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1276617,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1276618,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1276619,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1276620,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1276621,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1276622,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1276623,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1276624,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1276625,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1276626,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 242152 与 Bangumi subject 在原名、2023-12-25 开播日期、剧情（红月事件、精神污染、陆辛及特殊污染清理部门）、中文动画媒介、制作公司（上海福煦、真棒工作室、腾讯）及 16 集数量上完全对应。TMDB 第1季实际列出完整第1至16集，覆盖 Bangumi 主体的全部常规集；TMDB 另有第0季3分钟特别篇“故事介绍”，不属于该 Bangumi 的16集主体，因此排除。TMDB 321867 是另一部尚在制作中的真人版/剧集，演员和制作方均不同，排除。\n\nhttps://www.themoviedb.org/tv/242152 (api_snapshot): TMDB TV 242152：原名“从红月开始”，2023-12-25 开播，2024-03-25 完结，共1季16集；剧情、中文动画属性及制作公司与 Bangumi 信息吻合。\n\nhttps://www.themoviedb.org/tv/242152/season/1 (api_snapshot): TMDB 第1季实际有16集，编号连续为1至16，首集日期2023-12-25，末集日期2024-03-25，未混入其他作品。\n\nhttps://www.themoviedb.org/tv/242152/season/0 (api_snapshot): TMDB另列第0季特别篇1集“故事介绍”，时长3分钟；Bangumi主体是16集常规动画，故不纳入推荐范围。\n\nhttps://bgm.tv/subject/395184 (page): Bangumi页面列出《从红月开始》为WEB动画，2023-12-25开始，共16话，导演林朝，原作黑山老鬼，动画制作公司为上海福煦影视文化投资有限公司与真棒工作室。\n\nhttps://www.themoviedb.org/tv/321867 (api_snapshot): TMDB 321867虽同名，但无开播日期、状态为制作中，制作方为爱奇艺/哔哩哔哩等，列出郭麒麟、常华森、姜珮瑶等真人演员，属于另一版本。\n\n备注：TMDB 242152 的 cast/crew 字段基本为空；导演及编剧等人员对应关系由 Bangumi 页面和输入的 freshBangumi 信息交叉确认。",
+    "evidence": "codex: 确认对应TMDB 242152第1季整季：首播年份与日期、小说原作、动画媒介、剧情、制作公司及16集范围一致。Bangumi逐集标题和日期缺失，因此仅确认作品及季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/395184 (page): Bangumi 标注为2023年12月25日开播的16话WEB动画，原作黑山老鬼、导演林朝，动画制作为福煦影视与真棒工作室，腾讯参与出品。\n\nhttps://www.themoviedb.org/tv/242152 (api_snapshot): TMDB 242152 为同名小说改编动画，首播日期2023-12-25；陆辛、红月事件与精神污染清理部门的剧情一致，制作公司包括福煦影视、真棒工作室及腾讯，正篇共1季16集。\n\nhttps://www.themoviedb.org/tv/242152/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共16集，编号1至16；前三集日期为2023-12-25，此后每周一更新至2024-03-25。集表覆盖该动画正篇，未见混入其他作品。\n\nhttps://bgm.tv/subject/395184/ep (page): Bangumi 章节页只有本篇第1至16话，未提供各话标题或放送日期，无法与TMDB进行可靠的逐集标题、日期比对。\n\nhttps://www.themoviedb.org/tv/321867 (api_snapshot): 同名候选321867尚在制作中，无首播日期；列有郭麒麟等演员、导演沙维琪，制作公司也不同，属于另一版本，予以排除。\n\n备注：尚不能独立验证16个Bangumi章节与TMDB各集的对应顺序；不凭相同编号建立规则。；TMDB演职员字段为空，无法核对导演林朝等个人署名；制作公司信息一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/395184; https://www.themoviedb.org/tv/242152; https://www.themoviedb.org/tv/242152/season/1; https://www.themoviedb.org/tv/242152/season/0; https://www.themoviedb.org/tv/321867",
-    "verifiedAt": "2026-09-08T23:31:33.786Z"
+    "source": "https://bgm.tv/subject/395184; https://www.themoviedb.org/tv/242152; https://www.themoviedb.org/tv/242152/season/1; https://bgm.tv/subject/395184/ep; https://www.themoviedb.org/tv/321867",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,76 @@
 {
   "anidbId": 18098,
   "bangumiId": 444046,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1353094,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1353095,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1353096,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1353097,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1353098,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1353099,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1353100,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1353101,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1353102,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1353103,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2024 年播出的 10 集 TV 动画；TMDB TV 229926 名称、剧情、制作相关设定和总集数均对应《异世界スーサイド・スクワッド》。TMDB 第 1 季明确包含完整 10 集，覆盖该主体正篇，因此采用整季。TMDB 日期从 2024-06-27 起为先行/流媒体播出日期，与 Bangumi 的日本电视播出日期 2024-07-05 至 2024-09-06 不同，但不影响作品版本对应。\n\nhttps://www.themoviedb.org/tv/229926 (api_snapshot): TMDB 记录作品名称为「異世界スーサイド・スクワッド」，剧情涉及 Harley Quinn、Deadshot 等角色及 ISEKAI 世界，number_of_episodes 为 10。\n\nhttps://www.themoviedb.org/tv/229926/season/1 (api_snapshot): TMDB 第 1 季 season_number 为 1，episodeCount 为 10，列出 Episode 1 至 Episode 10，剧情连续对应该 TV 动画主体。\n\n备注：TMDB 各集日期按 2024-06-27 起的先行/流媒体发布记录，和 Bangumi 日本电视播出日期不同；未发现这导致作品或集数范围分裂的证据。",
+    "evidence": "codex: 确认对应 TMDB 229926 第1季全10集。年份、剧情、导演、制作公司及动画媒介一致；完整季表的10个逐集标题与 Bangumi 一一对应，播出日期经官方海外排期核实。日期差异来自海外先行与日本电视播出安排，不影响集号。该季完整覆盖本篇，不包含关联的《Go-Getters》音乐录像，可建立第1至10集连续对应。\n\nhttps://www.themoviedb.org/tv/229926 (api_snapshot): 日文原名搜索命中 TV 229926；详情确认其为2024年日本动画，导演长田绘里，制作公司含 WIT STUDIO、Warner Bros. Japan，剧情为哈莉·奎因等自杀小队成员进入异世界，与输入的年份、制作人员及剧情一致。共1季10集。\n\nhttps://www.themoviedb.org/tv/229926/season/1 (api_snapshot): 已读取第1季完整集表，episodeCount=10、total_pages=1。第1至10集标题依次为 Episode 1 至 Episode 10，与 Bangumi 逐集标题一致；第1至3集日期均为2024-06-27，第4至10集依次为07-04、07-11、07-18、07-25、08-01、08-08、08-15。\n\nhttps://wwws.warnerbros.co.jp/suicidesquad-isekai/onair/ (page): 官方海外播出表明确全剧10集：第1至3集6月27日上线，第4至10集从7月4日至8月15日每周四上线，逐集与 TMDB 日期一致，证实前三集同日发布并非合并成一集。\n\nhttps://wwws.warnerbros.co.jp/suicidesquad-isekai/ja/ (page): 日本官网确认本作是2024年原创剧情动画，讲述 DC 反派进入异世界；导演长田绘里、人物设计细田直人、动画制作 WIT STUDIO，与 Bangumi 资料一致。\n\nhttps://www.crunchyroll.com/news/latest/2024/6/10/suicide-squad-isekai-streaming-premiere-date (search_snippet): 报道确认日本电视版7月5日开播，海外 Max、Hulu 于6月27日先行发布前三集，全剧10集，随后每周发布一集，解释了 Bangumi 与 TMDB 的日期差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/444046; https://www.themoviedb.org/tv/229926; https://www.themoviedb.org/tv/229926/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/444046; https://www.themoviedb.org/tv/229926; https://www.themoviedb.org/tv/229926/season/1; https://wwws.warnerbros.co.jp/suicidesquad-isekai/onair/; https://wwws.warnerbros.co.jp/suicidesquad-isekai/ja/; https://www.crunchyroll.com/news/latest/2024/6/10/suicide-squad-isekai-streaming-premiere-date",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229926
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

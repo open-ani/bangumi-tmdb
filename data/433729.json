@@ -1,21 +1,41 @@
 {
   "anidbId": 18024,
   "bangumiId": 433729,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1206211,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1206211,
+      "targets": [
+        {
+          "episode": 33,
+          "id": 80713,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认本作对应TMDB 80713第0季第33集。单集标题、独特剧情和播出时间一致，官方制作信息也与Bangumi吻合。两站日期差一天源于日本深夜档使用12月26日24:05的记法。仅映射该特别篇，不覆盖第0季其他作品；旧电影ID返回404。\n\nhttps://bgm.tv/subject/433729 (page): Bangumi 标注本作是2023年12月26日播出的单集电视动画，导演宮城大翔、脚本村上桃子、动画制作マカリア；唯一章节为《世纪末篇》。\n\nhttps://www.bs4.jp/jashinchan-seikimatsu/ (page): BS日テレ官方确认《世紀末編》于2023年12月26日24:05播出，即自然日12月27日；制作人员与Bangumi一致，剧情为神保町毁灭后邪神前往熊本县高森町，寻求击败百合铃的方法。\n\nhttps://api.themoviedb.org/3/movie/1214849 (api_snapshot): 实际调用旧映射 movie 1214849 的详情接口返回HTTP 404，不能沿用该电影目标。\n\nhttps://www.themoviedb.org/tv/80713 (api_snapshot): TMDB TV 80713 的详情将《邪神ちゃんドロップキック【世紀末編】》列为特别篇别名，存在第0季。\n\nhttps://www.themoviedb.org/tv/80713/season/0 (api_snapshot): 已读取第0季完整集表，共33集、1页。第33集《世紀末編》日期为2023-12-27，时长24分钟，剧情与官方高森町特别篇一致；其余32集属于其他特别篇或短片。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/433729; https://www.bs4.jp/jashinchan-seikimatsu/; https://api.themoviedb.org/3/movie/1214849; https://www.themoviedb.org/tv/80713; https://www.themoviedb.org/tv/80713/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1214849,
-      "type": "movie"
+      "episode": 33,
+      "id": 80713,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

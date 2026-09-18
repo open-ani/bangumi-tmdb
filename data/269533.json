@@ -1,15 +1,61 @@
 {
+  "anidbId": 14646,
   "bangumiId": 269533,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 847078,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 847079,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 847080,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 847081,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 847082,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 847083,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 847084,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 86648《领风者》/The Leader: Karl Marx。两者均为2019年中国制作、以马克思生平及其与燕妮和恩格斯关系为主题的动画网络系列，导演肖志朝、制作方包含杭州娃娃鱼动画/Wawayu Animation 与 bilibili，媒介和版本均与 Bangumi 的 WEB 7话条目一致。TMDB 第1季实际有完整1–7集，因此采用整季。TMDB movie 839981虽同名同日，但仅为169分钟电影条目，且缺少剧情、演员和完整制作资料；另有291132《领风者 动态漫》为2019年7月播出的8集动态漫，均不是本 Bangumi 条目。\n\nhttps://api.bgm.tv/v0/subjects/269533 (api_snapshot): Bangumi 原始 API 信息显示该条目为2019-01-28开始的 WEB 动画，共7集，剧情围绕马克思、燕妮、恩格斯及其思想发展。\n\nhttps://www.themoviedb.org/tv/86648 (api_snapshot): TMDB TV 86648 的原名为《领风者》，日期为2019-01-28，剧情为马克思生平、与燕妮的爱情及与恩格斯的友情；制作公司包含 bilibili 和 Wawayu Animation，导演为肖志朝，别名包含 The Leader: Karl Marx、Karl Marx the Animation。\n\nhttps://www.themoviedb.org/tv/86648/season/1 (api_snapshot): TMDB 第1季实际返回 episodeCount=7、total_pages=1，并列出第1至第7集，覆盖该 Bangumi 条目的全部主体集数。\n\nhttps://www.bilibili.com/bangumi/media/md4313622/ (page): 官方 bilibili 页面显示《领风者》于2019-01-28开播、已完结、全7话。\n\nhttps://bgm.tv/subject/269533 (page): Bangumi 页面标记为 WEB，共7话，播放时间为2019-01-28至2019-03-04，并列出肖志朝、钟君、杭州娃娃鱼动画及 bilibili 等制作信息。\n\nhttps://www.themoviedb.org/movie/839981 (api_snapshot): 同名 TMDB movie 839981 是2019-01-28的169分钟电影条目，但快照中的剧情为空、演员为空、工作人员仅有编剧 Zhong Jun，无法匹配 Bangumi 的7集 WEB版本。\n\nhttps://www.themoviedb.org/tv/291132/season/1 (api_snapshot): TMDB 291132 的第1季实际为2019-07-02开始的8集《领风者 动态漫》，与2019年1月首播的7集动画版本不同。\n\n备注：TMDB 86648 的部分集标题和播出日期与 Bangumi/官方页面存在轻微差异，例如第2集标题及后续日期；但季表仍明确为同一剧情系列且完整覆盖1至7集，不影响整季映射。；TMDB movie 839981 是否是该7集系列的合辑或重新包装版本，现有 TMDB 快照未明确说明，因此不将其作为推荐目标。",
+    "evidence": "codex: 确认对应 TMDB 86648 第1季整季。年份、首播日期、剧情、导演、制作公司、配音及7集网络动画版本相符。逐集核对显示5集标题完全一致，第2、5集的不同标题分别得到其他各话列表支持；全季顺序一致，无拆分或混入其他作品，因此本篇1—7话顺序对应 S01E01—E07。\n\nhttps://bgm.tv/subject/269533 (page): Bangumi 将本作标为 WEB 动画，共7话，2019年1月28日至3月4日播出；总导演肖志朝，动画制作杭州娃娃鱼动画，出品方含 bilibili，剧情为马克思生平。\n\nhttps://www.bilibili.com/bangumi/media/md4313622/ (page): 官方播放页确认《领风者》2019年1月28日开播，已完结，全7话。\n\nhttps://www.themoviedb.org/tv/86648 (api_snapshot): TMDB 86648 的原名、首播日期、马克思生平剧情均一致；导演肖志朝，制作公司 bilibili、Wawayu Animation，配音包含藤新、山新、常蓉珊，与本作制作及角色资料相符。\n\nhttps://www.themoviedb.org/tv/86648/season/1 (api_snapshot): 第1季实际集表共7集，total_pages=1。第1、3、4、6、7集标题与输入完全一致；第2集为《捍卫自由》，第5集为《资本论》越世而出。第1集日期一致，第2至7集日期均比输入晚7天，分别为2月4日至3月11日。\n\nhttps://zh.wikipedia.org/wiki/领风者 (search_snippet): 各话列表列出同一7集动画的第2话《捍卫自由》、第5话《资本论》跃世而出，其余标题及顺序与 Bangumi 一致；第3至7话日期为2月4日至3月4日，支持标题异名对应及实际播出顺序。\n\nhttps://moegirl.icu/领风者 (search_snippet): 各话列表使用第2话《捍卫人民权利》、第5话《旷世巨著〈资本论〉》；全部7话标题、顺序及播出日期与输入一致，制作信息同为肖志朝、娃娃鱼动画。\n\nhttps://www.themoviedb.org/tv/291132 (api_snapshot): 291132 明确为《领风者 动态漫》，2019年7月2日首播，共8集，配音阵容不同，属于另一版本。\n\nhttps://www.themoviedb.org/movie/839981 (api_snapshot): 839981 是同名、同日的169分钟电影条目，简介、制作公司和演员资料为空，不能据此替代7集网络动画。\n\n备注：TMDB 第2至7集日期整体晚7天，与 Bangumi 及其他各话列表不符；差异原因未确认，但标题、总集数及顺序支持上述对应。；同名电影839981与本系列的具体关系未确认，不纳入映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/269533; https://api.bgm.tv/v0/subjects/269533; https://www.themoviedb.org/tv/86648; https://www.themoviedb.org/tv/86648/season/1; https://www.bilibili.com/bangumi/media/md4313622/; https://www.themoviedb.org/movie/839981; https://www.themoviedb.org/tv/291132/season/1",
-    "verifiedAt": "2026-09-08T21:34:56.357Z"
+    "source": "https://bgm.tv/subject/269533; https://www.bilibili.com/bangumi/media/md4313622/; https://www.themoviedb.org/tv/86648; https://www.themoviedb.org/tv/86648/season/1; https://zh.wikipedia.org/wiki/领风者; https://moegirl.icu/领风者; https://www.themoviedb.org/tv/291132; https://www.themoviedb.org/movie/839981",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 86648
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

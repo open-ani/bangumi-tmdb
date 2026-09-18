@@ -1,19 +1,91 @@
 {
   "anidbId": 16947,
   "bangumiId": 329906,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1088220,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1088221,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1088222,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1088223,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1088224,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1088225,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1088226,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1088227,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1088228,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1088229,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1088230,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1088231,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、原作者及制作公司吻合，12话标题与日期逐集一致。该 subject 仅覆盖 TMDB 第1季第1至12集；旧映射的整季范围过宽，应收窄以排除第2クール。\n\nhttps://www.themoviedb.org/tv/120089 (api_snapshot): TMDB 120089 为2022年4月9日首播的日本电视动画《SPY×FAMILY》，剧情中的黄昏、读心女儿与杀手妻子设定一致；原作为远藤达哉，制作公司包括 WIT STUDIO、CloverWorks，与输入资料吻合。\n\nhttps://www.themoviedb.org/tv/120089/season/1 (api_snapshot): 已读取第1季完整集表，共25集、1页。第1至12集的日文标题和播出日期与所给 Bangumi 12话逐一完全一致，日期为2022年4月9日至6月25日。第13集于2022年10月1日播出，属于后续第2クール，不在本 subject 范围内。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/329906; https://www.themoviedb.org/tv/120089; https://www.themoviedb.org/tv/120089/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 120089
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 120089,
       "season": 1,
       "type": "tv"

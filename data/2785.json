@@ -1,16 +1,156 @@
 {
   "anidbId": 6716,
   "bangumiId": 2785,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 18047,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 18048,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 18049,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 18050,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 18051,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 18052,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 18053,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 18054,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 18055,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 18056,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 18057,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 18058,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 18059,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 18060,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 18061,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 18062,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 18063,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 18064,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 18065,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 18066,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 18067,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 18068,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 18069,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 18070,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 18071,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 30300,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 2785 明确是《犬夜叉 完结篇》TV，26 集，2009-10-03 至 2010-04-03，别名包含 Inuyasha Kanketsuhen / InuYasha: The Final Act，制作人员与 SUNRISE、青木康直等信息均与目标版本一致。TMDB 35610 的 season 2 标题为 The Final Act（2009），明确包含 26 集；剧集标题、剧情和日期顺序与 Bangumi 的 26 集逐集对应。因此应采用完整 season 2。候选 season 8 不正确：TMDB 主条目的季列表将完结篇列为 season 2，且 season 8 请求失败不能视为不存在。TMDB 与 Bangumi 的首播日期存在日期元数据差异，但不影响版本和集数对应。\n\nhttps://bgm.tv/subject/2785 (page): Bangumi 将 subject 2785 标为《犬夜叉 完結編》TV，话数 26，放送开始 2009-10-03；别名包含 Inuyasha Kanketsuhen 和 InuYasha: The Final Act；并列出导演青木康直、原作高桥留美子、动画制作 SUNRISE 等信息。\n\nhttps://www.themoviedb.org/tv/35610-inuyasha/season/2 (page): TMDB 页面标题为 InuYasha: The Final Act (2009)，明确显示 Episodes 26，并列出第 1 至第 26 集；前段标题如 Naraku's Heart、Kagura's Wind、Meido Zangetsuha，末段包括 Inside Naraku、Naraku: The Trap of Darkness、Naraku: The Trap of Light、Naraku's Uncertain Wish、Thoughts Fall Short、Toward Tomorrow，与 Bangumi 章节逐集对应。\n\nhttps://www.themoviedb.org/tv/35610 (api_snapshot): 所附 TMDB API 快照的季列表显示 TMDB TV ID 35610 的 season 2 名为“犬夜叉 完结编”、air_date 为 2009-10-04、episode_count 为 26；主条目总集数为 193，另有 season 1 的 167 集和特别编 season 0，说明完结篇不是 season 8。\n\nhttps://www.themoviedb.org/tv/35610/season/8 (api_snapshot): 所附快照记录对 season 8 的请求返回 TMDB HTTP 404；该失败本身不作为不存在的证据，但与主条目季列表及 season 2 页面相互核对后可确定候选季号错误。",
+    "evidence": "codex: 确认对应TMDB 35610第2季整季。年份、TV媒介、制作人员、剧情及26集总量一致，全部章节标题经逐集核对后顺序一致，可将Bangumi本篇1—26映射至S02E01—E26。当前TMDB明确将完结篇列为第2季，因此不采用线索中的第8季；该范围也不与已归属其他subject的第1季及特别篇重叠。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=282 (page): SUNRISE 官方确认本作为2009年10月3日至2010年4月3日播出的26话动画，导演青木康直、原作高桥留美子、动画制作SUNRISE；剧情围绕四魂之玉及与奈落的最终决战，并单独区分2000年的167话前作。官方26话标题与输入章节逐集对应。\n\nhttps://www.themoviedb.org/tv/35610 (api_snapshot): 实际调用 tmdb_details：35610 的别名包含《犬夜叉 完結編》和 InuYasha: The Final Act，导演及制作公司与官方一致。当前季表为第1季167集、第2季《犬夜叉 完結編》26集及第0季1集，支持采用第2季。\n\nhttps://www.themoviedb.org/tv/35610/season/2 (api_snapshot): 实际调用 tmdb_season 读取第2季完整集表：episodeCount=26，total_pages=1。第1至26集标题与Bangumi及官方集表逐集一致，仅存在简繁体、用字等差异，无拆分、合并或重排。日期逐集比较：第1至13集比Bangumi晚1天，第14至26集比Bangumi早4天；首末集分别为2009-10-04、2010-03-30。\n\nhttps://www.sunrise-inc.co.jp/yasya-kanketsu/onair/index.html (page): 官方播出信息列出日本电视台周六26:20、读卖电视台周一25:44两套深夜时段，说明存在跨日记法和不同电视台排期，可解释日期差异；页面亦提供带集号的标题及制作人员。\n\n备注：TMDB与Bangumi使用的逐集日期不完全相同；官方证实存在不同电视台及深夜跨日排期，但TMDB未标明各集日期具体采用哪一电视台。此差异不影响由完整标题序列和集数确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2785; https://www.themoviedb.org/tv/35610-inuyasha/season/2; https://www.themoviedb.org/tv/35610; https://www.themoviedb.org/tv/35610/season/8",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2785; https://www.sunrise-inc.co.jp/work/detail.php?cid=282; https://www.themoviedb.org/tv/35610; https://www.themoviedb.org/tv/35610/season/2; https://www.sunrise-inc.co.jp/yasya-kanketsu/onair/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 35610
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

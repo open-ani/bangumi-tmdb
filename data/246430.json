@@ -1,16 +1,91 @@
 {
   "anidbId": 14076,
   "bangumiId": 246430,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 923544,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 923545,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 923546,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 923547,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 923548,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 923549,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 923550,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 923551,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 923552,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 923553,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 923554,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 923555,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 923556,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2020 年版 TV 动画《BanG Dream! 3rd Season》，共 13 集。Anime-Lists 中 AniDB 14076 明确关联 TMDB TV 69236 第 3 季；TMDB 第 3 季的 13 个完整剧集标题与 Bangumi 集标题逐一对应，且首播日期和剧情简介一致。官方资料也确认该季为全 13 集，因此应纳入 TMDB TV 69236 的完整第 3 季。\n\nhttps://bgm.tv/subject/246430/index (page): Bangumi 条目标题为 BanG Dream! 3rd Season，类型为 TV。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 14076（Bang Dream! 3rd Season）关联 tmdbtv=69236、tmdbseason=3。\n\nhttps://www.themoviedb.org/tv/69236 (api_snapshot): TMDB TV 69236 为 BanG Dream!，包含第 3 季且该季有 13 集。\n\nhttps://www.themoviedb.org/tv/69236/season/3 (api_snapshot): TMDB 第 3 季为 2020-01-23 开始、13 集；剧集标题和剧情与 Bangumi 提供的第 1 至第 13 集对应。\n\nhttps://bang-dream.com/news/874/ (search_snippet): BanG Dream! 官方资料明确称 3rd Season 全 13 话。\n\n备注：TMDB 快照中的部分单集 air_date 与 Bangumi 的播出日期不一致，且有早于季首播日期的异常值；但不影响季号、集数、标题和版本对应判断。",
+    "evidence": "codex: 确认对应TMDB 69236第3季整季。2020年第三季的季首播日期、剧情、制作人员及13集规模一致，全部章节标题逐一对应，可将Bangumi本篇1—13话连续映射至S03E01—E13。日期差异已单独记录，不影响由完整标题及剧情确认的逐集身份。\n\nhttps://www.themoviedb.org/tv/69236 (api_snapshot): TMDB 69236《BanG Dream!》包含三季；第3季首播日期为2020-01-23，共13集，季简介与输入的Galaxy海报、六花收到邀请函的剧情一致。制作公司包含三次元，导演为柿本広大。\n\nhttps://www.themoviedb.org/tv/69236/season/3 (api_snapshot): 已读取第3季完整集表，total_pages=1，共13集。第1—13集日文标题与Bangumi逐集对应，仅标点形式有差异；单集剧情也与官方第三季故事对应，没有混入其他作品。第1集日期一致，第2—13集日期与输入不一致。\n\nhttps://anime.bang-dream.com/3rd/story/ (search_snippet): 官方第三季故事页的检索内容确认相同剧情，并列出第三季章节编号、标题及剧情，包括六花受邀、加入RAS和最终比赛等。\n\nhttps://bang-dream.com/news/846/ (search_snippet): 官方公告明确第三季动画全13话，与Bangumi及TMDB第3季集数一致。\n\nhttps://bang-dream.com/news/857/ (search_snippet): 官方制作访谈确认第三季导演柿本広大、系列构成及脚本綾奈ゆにこ、动画制作三次元，与输入制作信息相符。\n\n备注：TMDB第2—13集日期与Bangumi输入不一致，且第2、3集早于其季首播日期；差异原因尚未核实，不能声称逐集放送日期一致。；官方第三季故事页直接访问返回404，相关证据来自实际读取的搜索摘要。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/246430; https://bgm.tv/subject/246430/index; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/69236; https://www.themoviedb.org/tv/69236/season/3; https://bang-dream.com/news/874/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/246430; https://www.themoviedb.org/tv/69236; https://www.themoviedb.org/tv/69236/season/3; https://anime.bang-dream.com/3rd/story/; https://bang-dream.com/news/846/; https://bang-dream.com/news/857/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 69236
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

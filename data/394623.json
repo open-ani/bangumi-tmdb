@@ -1,19 +1,91 @@
 {
   "anidbId": 17550,
   "bangumiId": 394623,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1307468,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1307469,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1307470,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1307471,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1307472,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1307473,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1307474,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1307475,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1307476,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1307477,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1307478,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1307479,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、剧情和制作人员一致，12话标题及播出日期逐集吻合。TMDB 将两期合并在第1季，旧映射的整季范围过宽，应限定为 S01E01–E12，与第二期占用的 E13–E23 无重叠。\n\nhttps://www.themoviedb.org/tv/207468 (api_snapshot): 以日文原名搜索找到 TV 条目 207468《怪獣８号》，首播日期为 2024-04-13。\n\nhttps://www.themoviedb.org/tv/207468 (api_snapshot): 作品详情中的卡夫卡变身怪兽并追求加入防卫队的剧情、导演宮繁之与神谷友美，以及 Production I.G、khara 等制作公司均与输入吻合，确认是对应的电视动画。\n\nhttps://www.themoviedb.org/tv/207468/season/1 (api_snapshot): 已读取第1季完整集表，共23集、1页。第1至12集的日文标题及播出日期均与 Bangumi 12话逐一一致，日期为2024-04-13至2024-06-29；第13集从2025-07-19开始，属于续期范围，因此本 subject 仅覆盖第1季第1至12集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/394623; https://www.themoviedb.org/tv/207468; https://www.themoviedb.org/tv/207468/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 207468
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 207468,
       "season": 1,
       "type": "tv"

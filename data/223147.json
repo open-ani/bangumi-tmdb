@@ -1,19 +1,71 @@
 {
   "anidbId": 15425,
   "bangumiId": 223147,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 962313,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 962314,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 962315,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 962316,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 962317,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 962318,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 962319,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 962320,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、动画媒介、制作人员、剧情及八话标题序号和首播日期均吻合，确认对应2020年原版的TMDB 106449第1季第1—8集。旧映射覆盖整季过宽，该季还包含续篇及其他篇章，应收窄为已核实的八集。\n\nhttps://www.themoviedb.org/tv/106449 (api_snapshot): TMDB 106449 为2020年7月25日首播的动画《凡人修仙传》；韩立拜入七玄门、墨大夫夺舍及前往太南小会的剧情一致，导演王裕仁及制作公司原力动画、万维猫动画、bilibili 等与输入吻合。\n\nhttps://bgm.tv/subject/223147/ep (page): Bangumi 章节表仅有本篇8话：第1—4话均于2020年7月25日首播，第5—8话分别于8月1日、8日、15日、22日首播。\n\nhttps://www.themoviedb.org/tv/106449/season/1 (api_snapshot): 第1季集表共206集、4页；已读取的第1页完整覆盖所需范围。第1—8集标题均带“风起天南”及对应序号，八集播出日期与Bangumi逐集一致，剧情从七玄门推进至太南小会。第9集于2020年10月11日播出，属于后续内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/223147; https://www.themoviedb.org/tv/106449; https://bgm.tv/subject/223147/ep; https://www.themoviedb.org/tv/106449/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 106449
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 8,
       "id": 106449,
       "season": 1,
       "type": "tv"

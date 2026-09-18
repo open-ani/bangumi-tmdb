@@ -1,13 +1,79 @@
 {
   "bangumiId": 552109,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1490005,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1490006,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1490007,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1490008,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1490009,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1490010,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1490011,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1490012,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1490013,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1490014,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1490015,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1490016,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1490017,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 78173 第三季整季：版本、Netflix 平台、上线日期、13集范围及前后季日期均吻合，外部集表与 TMDB 逐项一致。Bangumi 章节只有序号，缺少逐集标题和日期，因此确认整季归属，但不按位置推定逐集规则。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): 以英文原名搜索得到 TMDB 78173。详情确认是梦工厂电视动画《Dragons: Race to the Edge》，讲述小嗝嗝、无牙及龙骑士的冒险，共六季78集；第二、三、四季日期与输入的前后续关系一致。\n\nhttps://www.themoviedb.org/tv/78173/season/3 (api_snapshot): 第三季真实集表共13集，total_pages=1，全部日期为2016-06-24；首集为 Enemy of My Enemy，末集为 Defenders of the Wing (1)，完整覆盖该季。\n\nhttps://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-3/1030584970/ (page): TV Guide 将该作品列为 Netflix 动画，第三季13集全部于2016-06-24上线；逐项核对其13集标题、顺序和日期，与 TMDB 第三季一致。\n\nhttps://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s03 (page): 第三季资料确认 Netflix、2016-06-24发行及导演 Robert Briggs、执行制片 Douglas Sloan 和 Art Edler Brown；主要配音及角色与 TMDB 一致，剧情和集表也相符。\n\n备注：Bangumi 页面访问失败；输入的13个章节均无标题和日期，逐集映射留空，待补充章节资料后核实。；seed 的 IMDb 编号 tt4884850 与 TMDB 详情中的 tt4816058 不同；未采用 seed 编号作为匹配依据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552109; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/3; https://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-3/1030584970/; https://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s03",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,36 @@
 {
   "anidbId": 12460,
   "bangumiId": 194852,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 709051,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 709052,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《エスカクロン》OVA，共 2 集，发行日为 2017-11-03。官方资料确认该作品为 OVA，2017-07-15 已上映第 1、2 话，11 月 3 日则开始网络配信，因此与 TMDB 的首播日期差异属于上映/配信日期差异。TMDB 79381 的第 1 季明确只有 2 集，正好覆盖该 Bangumi 主体的全部内容；没有额外主体集数或跨季证据。\n\nhttps://bgm.tv/subject/194852 (page): Bangumi 将条目标为《エスカクロン OVA》，共 2 话，发售日为 2017 年 11 月 3 日，并列出 Lerche、导演山口ひかる、总导演水島精二等制作信息。\n\nhttps://escha-chron.jp/ (page): 官方站确认《エスカクロン》为 OVA，并记录 2017 年 7 月 15 日舞台挨拶付上映及 2017 年 11 月网络配信。\n\nhttps://animeanime.jp/article/2017/07/17/34659.html (search_snippet): 报道确认 2017 年 7 月 15 日上映了 OVA《エスカクロン》的第 1 话和第 2 话。\n\nhttps://www.themoviedb.org/tv/79381 (api_snapshot): TMDB TV 79381 的原名为《エスカクロン》，首播日期为 2017-07-15，共 2 集，只有第 1 季。\n\nhttps://www.themoviedb.org/tv/79381/season/1 (api_snapshot): TMDB 第 1 季包含第 1、2 集，均为 2017-07-15，季总集数为 2。\n\nhttps://www.telasa.jp/videos/184491 (search_snippet): 配信页面将第 2 话标为最终话，并使用《雪とあしあと》标题，符合 Bangumi 的第 2 话记录。",
+    "evidence": "codex: 确认对应TMDB 79381第1季全部2集。年份、OVA版本、剧情、制作公司、总导演及角色声优一致；官方明确两话于7月15日上映、11月3日开始网络配信，日期差异有据可解。结合配信方逐集标题、官方上映话数及TMDB实际集表，Bangumi第1—2话顺序对应S01E01—E02。\n\nhttps://bgm.tv/subject/194852 (page): Bangumi 标为2017年全2话OVA；制作公司为Lerche，总导演水島精二，主角及声优为エスカ／安済知佳、クロン／安野希世乃。\n\nhttps://bgm.tv/subject/194852/ep (page): Bangumi 本篇依次为第1话《めざめた夏》、第2话《雪とあしあと》，两集日期均为2017-11-03。\n\nhttps://www.themoviedb.org/tv/79381 (api_snapshot): TMDB 79381 原名为《エスカクロン》，日期2017-07-15；Lerche、水島精二及四名角色声优与Bangumi一致，共1季2集。\n\nhttps://www.themoviedb.org/tv/79381/season/1 (api_snapshot): 第1季真实集表共2集，total_pages=1；第1、2集日期均为2017-07-15，时长均记为25分钟。日文与英文标题均仅为通用集号，未提供具体副标题。\n\nhttps://escha-chron.jp/news/detail.php?id=1050476 (page): 官方公告明确2017-07-15上映内容为OVA第1话、第2话，演员及总导演与TMDB一致。\n\nhttps://escha-chron.jp/news/detail.php?id=1055034 (page): 官方公告说明此前仅在上映会放映，2017-11-03开始AbemaTV配信，解释了Bangumi与TMDB的日期差异。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=24719 (search_snippet): d动画商店列为2017年全2话，第1话《めざめた夏》、第2话《雪とあしあと》；剧情同为来自终末世界的两位少女进入现代世界，制作人员亦一致。\n\n备注：TMDB两集仅有通用集号标题，具体副标题由Bangumi与配信方交叉确认，无法在TMDB内直接比对副标题。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/194852; https://escha-chron.jp/; https://animeanime.jp/article/2017/07/17/34659.html; https://www.themoviedb.org/tv/79381; https://www.themoviedb.org/tv/79381/season/1; https://www.telasa.jp/videos/184491",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/194852; https://bgm.tv/subject/194852/ep; https://www.themoviedb.org/tv/79381; https://www.themoviedb.org/tv/79381/season/1; https://escha-chron.jp/news/detail.php?id=1050476; https://escha-chron.jp/news/detail.php?id=1055034; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=24719",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79381
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

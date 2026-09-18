@@ -1,19 +1,55 @@
 {
   "anidbId": 12455,
   "bangumiId": 194437,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 669467,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 669468,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 669467,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 68101,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 669468,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 68101,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应TMDB 68101第0季第1—2集。发行资料明确两话的编号、标题与前传剧情，与TMDB特别篇集表逐一吻合；通过发行资料补足Bangumi空白集名，按OVA原始编号建立对应。\n\nhttps://www.themoviedb.org/tv/68101 (api_snapshot): TMDB 68101 为2016年动画《TRICKSTER》，剧情涉及小林、花崎、明智与怪人二十面相；导演向井雅浩及主要声优与该系列一致。第1季为24话TV本篇，第0季另收录2话。\n\nhttps://www.themoviedb.org/tv/68101/season/0 (api_snapshot): 第0季完整集表共2话、仅1页：第1话「硝煙の果」，日期2016-12-22；第2话「廻る情動」，日期2016-12-29。\n\nhttps://news.mynavi.jp/article/20161004-a304/ (page): 发行报道明确OVA于2016-12-22发行、收录2话，并列出顺序：#01「硝煙の果」讲述明智与怪人二十面相的过去，编剧杂破业；#02「廻る情動」讲述少年侦探团的往事，编剧宫本武史。标题、剧情、编剧及版本均与待核对OVA吻合。\n\nhttps://www.geonet.co.jp/news/1532/ (search_snippet): 发行渠道GEO的官方公告确认，该OVA的销售、租赁和VOD独占先行发行日期为2016-12-22。\n\n备注：TMDB第0季第2集标注2016-12-29，与OVA两话于2016-12-22一并发行的资料不一致；该日期差异原因未确认，但两话标题及明确编号一致，不影响对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/194437; https://www.themoviedb.org/tv/68101; https://www.themoviedb.org/tv/68101/season/0; https://news.mynavi.jp/article/20161004-a304/; https://www.geonet.co.jp/news/1532/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 68101,
       "season": 0,
       "type": "tv"

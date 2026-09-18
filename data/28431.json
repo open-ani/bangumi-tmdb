@@ -1,21 +1,114 @@
 {
   "anidbId": 8890,
   "bangumiId": 28431,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 162749,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 162750,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 162751,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 162752,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 162753,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 162754,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 162755,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 162756,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 162757,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 162758,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 162759,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 162760,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 211339,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 211339,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 63712,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、剧情、导演、制作公司和逐集标题均确认是同一版本。Bangumi 第 1—12 话对应 TMDB 第 1 季全季；第 13 话为光盘收录的未放送话，对应第 0 季第 1 集，旧映射遗漏了这一范围。\n\nhttps://www.themoviedb.org/tv/63712 (api_snapshot): 日文原名搜索后读取 TMDB 63712 详情：2012 年电视动画，剧情围绕摘希与伊御，导演追崎史敏、制作公司 AIC、主要角色及声优均与官方资料一致。\n\nhttps://www.tbs.co.jp/anime/ackc/staffcast/ (page): 官方确认原作異識、导演追崎史敏、动画制作 AIC，以及摘希、伊御等主要角色的声优。\n\nhttps://www.tbs.co.jp/anime/ackc/onair/ (page): 官方播出时间为 4 月 5 日起每周四深夜 1:25，解释了 Bangumi 放送日与 TMDB 次日历日之间的一天差异。\n\nhttps://www.themoviedb.org/tv/63712/season/1 (api_snapshot): 第 1 季完整集表共 12 集，total_pages=1。逐集标题与 Bangumi 第 1—12 话对应，第 3、12 话仅有标题文字差异；所有日期均比输入晚一天，且第 10—11 集间隔两周一致。\n\nhttps://www.themoviedb.org/tv/63712/season/0 (api_snapshot): 第 0 季完整集表共 13 集，total_pages=1；第 1 集为 25 分钟的「PLACE⇔PRINCESS」，其余 12 集为各 1 分钟的幼稚园短篇，不属于本次输入章节。\n\nhttps://www.tbs.co.jp/anime/ackc/goods/disc_1.html (page): 官方光盘目录列出第 1—13 话，逐话顺序与输入一致；第 13 话为「PLACE⇔PRINCESS」，第 6 卷说明明确其为未放送内容。\n\nhttps://www.tbs.co.jp/anime/ackc/news/owabi.html (page): 官方延期公告明确第 6 卷由 2012 年 11 月 7 日延期至 11 月 16 日发行，支持 Bangumi 第 13 话日期。\n\n备注：TMDB 将「PLACE⇔PRINCESS」日期记为 2012-12-07，与官方发行日及 Bangumi 的 2012-11-16 不一致；该日期差异原因未明，但官方第 13 话目录及 TMDB 特别篇标题足以确认对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28431; https://www.themoviedb.org/tv/63712; https://www.tbs.co.jp/anime/ackc/staffcast/; https://www.tbs.co.jp/anime/ackc/onair/; https://www.themoviedb.org/tv/63712/season/1; https://www.themoviedb.org/tv/63712/season/0; https://www.tbs.co.jp/anime/ackc/goods/disc_1.html; https://www.tbs.co.jp/anime/ackc/news/owabi.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63712
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 63712,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 63712,
+      "season": 0,
       "type": "tv"
     }
   ]

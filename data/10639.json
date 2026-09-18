@@ -1,21 +1,169 @@
 {
   "anidbId": 8160,
   "bangumiId": 10639,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 117203,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 117204,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 117205,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 117206,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 117207,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 117208,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 117209,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 117210,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 117211,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 117212,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 117213,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 117214,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 117215,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 117216,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 117217,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 117218,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 117219,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 117220,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 117221,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 117222,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 117223,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 117224,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 117225,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 117226,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 117227,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 该 Bangumi 条目合并收录两期电视动画全部25话。作品年份、剧情、导演和制作公司一致，逐集标题、总量及播出间隔确认第1—13话对应 TMDB 45845 第1季，第14—25话对应第2季；两个季表均仅包含对应正篇。旧映射漏掉第2季，应补齐。\n\nhttps://www.themoviedb.org/tv/45845 (api_snapshot): 以原名搜索并读取详情，确认 TMDB 45845 是2011—2012年的电视动画：讲述卫宫切嗣参与第四次圣杯战争，导演为あおきえい，制作公司包括 ufotable；共两季25集，与输入作品一致。\n\nhttps://www.themoviedb.org/tv/45845/season/1 (api_snapshot): 第1季实际集表共13集，total_pages=1。逐集标题与 Bangumi 第1—13话完全一致；播出日期为2011-10-02至2011-12-25，每集均比输入日期晚一天，顺序和周播间隔一致。\n\nhttps://www.themoviedb.org/tv/45845/season/2 (api_snapshot): 第2季实际集表共12集，total_pages=1，对应 Bangumi 第14—25话。逐集标题一致，仅第9集标题额外标注读音；日期为2012-04-08至2012-06-24，每集均比输入日期晚一天，顺序和周播间隔一致。\n\nhttps://www.fate-zero.jp/staffcast/ (page): 官网确认原作为虚渊玄／TYPE-MOON、导演为あおきえい、音乐为梶浦由记、动画制作为 ufotable，与输入及 TMDB 身份信息相符。\n\nhttps://www.fate-zero.jp/story/ (page): 官网故事页连续列出第1—25话；第13话结束第一段，第14话对应 TMDB 第二季开篇，第25话对应第二季结尾。标题及剧情与两季集表吻合。\n\nhttps://www.fate-zero.jp/onair/ (page): 官网标明第二季于4月7日开始播出，支持输入所记第二段播出时间。\n\n备注：TMDB 全25集日期统一比 Bangumi 晚一天，推测为深夜播出日期记法差异；具体记日原因未直接证实，不影响由逐集标题、剧情和排期确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10639; https://www.themoviedb.org/tv/45845; https://www.themoviedb.org/tv/45845/season/1; https://www.themoviedb.org/tv/45845/season/2; https://www.fate-zero.jp/staffcast/; https://www.fate-zero.jp/story/; https://www.fate-zero.jp/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45845
+    },
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 14,
+      "tmdbId": 45845
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45845,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 45845,
+      "season": 2,
       "type": "tv"
     }
   ]

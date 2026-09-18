@@ -1,14 +1,32 @@
 {
   "anidbId": 13413,
   "bangumiId": 224049,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 747137,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 747137,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 69288,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该 subject 记录为《けものフレンズ×アニサマ2017「あにさま」》单集衍生作品，日期为 2017-08-29；Bangumi 的《けものフレンズ》章节页也将「あにさま」列为 Trailer2。官方视频简介确认这是 Animelo Summer Live 2017 会场播放的同名短篇，剧情与 TMDB 第 0 季第 5 集简介一致。TMDB 的日期为会场首映日 2017-08-25，而 Bangumi/官方网络公开日期为 8 月 29 日，属于发布时间差异。主体仅对应该特别篇，不应纳入第 0 季其他集。\n\nhttps://bgm.tv/subject/176478/relations (page): Bangumi 将《けものフレンズ×アニサマ2017「あにさま」》列为《けものフレンズ》的衍生条目，1 话，日期 2017-08-29。\n\nhttps://bgm.tv/subject/176478/ep (page): Bangumi 章节页将「あにさま」列为 Trailer2，首播日期 2017-08-29，时长 4:35。\n\nhttps://www.youtube.com/watch?v=HUMnembozUw (search_snippet): Animelo Summer Live 官方视频标题为《けものフレンズ×アニサマ2017「あにさま」》，说明其为会场开演前播放的特别映像，并给出与 TMDB 相符的剧情、制作和角色信息；视频公开日期为 2017-08-29。\n\nhttps://www.themoviedb.org/tv/69288 (api_snapshot): TMDB TV 69288 为《けものフレンズ》，包含第 0 季「特別編」。\n\nhttps://www.themoviedb.org/tv/69288/season/0 (api_snapshot): TMDB 第 0 季第 5 集标题为「あにさま」，日期为 2017-08-25，简介描述博士、助手、PPP、サーバル在废弃竞技场准备演唱会并发现写有礼仪知识的卡片，与官方简介一致。",
+    "evidence": "codex: 确认对应 TMDB 69288 第 0 季第 5 集。该作是 2017 年たつき团队制作的单集会场礼仪剧情动画，标题、人物、竞技场整备及金色卡片情节均吻合。TMDB 日期为会场首次上映日，Bangumi 日期为官方网络公开日，差异可解释。以章节 ID 将唯一一话明确映射至 S00E05。\n\nhttps://www.youtube.com/watch?v=HUMnembozUw (search_snippet): AnimeloSummerLive 官方视频标题与 subject 一致，公开日期为 2017-08-29；说明为 8 月 25—27 日会场开演前上映的礼仪动画，导演为たつき。博士与助手应 PPP、サーバル之请整备废弃竞技场并发现记载人类礼仪的金色卡片，与输入剧情及 TMDB 第 0 季第 5 集一致。\n\nhttps://anime.eiga.com/news/105062/ (search_snippet): 报道确认该作由原 TV 动画制作人员制作；会场三日版本结尾不同，网络公开版收录全部结尾，属于同一短片的公开版本。\n\nhttps://www.themoviedb.org/tv/69288 (api_snapshot): 实际读取 TV 69288，原名为《けものフレンズ》，首播于 2017 年，制作公司为 Yaoyorozu；第 0 季收录特别篇及放送后制作的作品。\n\nhttps://www.themoviedb.org/tv/69288/season/0 (api_snapshot): 完整读取第 0 季集表，共 6 集、1 页。第 5 集为「あにさま」，日期 2017-08-25，剧情与官方短片一致；其他集为不同作品，因此仅采用第 5 集。\n\n备注：TMDB 将本集时长记为 24 分钟，与短片性质不符，时长字段疑有误；标题、详细剧情和上映日期仍充分支持对应。；输入中 subject 208325 的旧映射占用整个第 0 季，与本次单集范围重叠；该旧映射未核实，后续应单独复核其实际范围。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/224049; https://bgm.tv/subject/176478/relations; https://bgm.tv/subject/176478/ep; https://www.youtube.com/watch?v=HUMnembozUw; https://www.themoviedb.org/tv/69288; https://www.themoviedb.org/tv/69288/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/224049; https://www.youtube.com/watch?v=HUMnembozUw; https://anime.eiga.com/news/105062/; https://www.themoviedb.org/tv/69288; https://www.themoviedb.org/tv/69288/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

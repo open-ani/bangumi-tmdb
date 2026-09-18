@@ -1,13 +1,105 @@
 {
+  "anidbId": 18692,
   "bangumiId": 434799,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1575360,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1575361,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1575362,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1575363,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1575364,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1575365,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1575366,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1575367,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1575368,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1575369,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1575370,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1575371,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1575372,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1575373,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1575374,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1575375,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1575376,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1575377,
+      "sort": 18,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目标题、别名、2024 年中国动画媒介、剧情简介与 Bangumi 完全对应；TMDB 制作公司包含爱奇艺、Monster Works、Tanglin Culture、Dashen Hu Yu，与 Bangumi 的制作信息相符。TMDB 详情确认第 1 季共 18 集，季表实际覆盖第 1 至 18 集，未发现 OVA、电影、重制版或其他作品混入，因此使用整季映射。TMDB 首播日期为 2024-06-05，Bangumi/爱奇艺资料为 2024-06-12，属于平台上线日期差异，不影响作品身份。\n\nhttps://www.themoviedb.org/tv/256818 (api_snapshot): TMDB 详情确认作品名为《天庭板砖侠》，原语言中文，2024 年，剧情为李季被带入魄念空间并重建远古天庭，共 1 季 18 集；制作公司包括 iQIYI、Monster Works、Tanglin Culture、Dashen Hu Yu。\n\nhttps://www.themoviedb.org/tv/256818/season/1 (api_snapshot): TMDB 第 1 季实际列出第 1 至第 18 集，日期从 2024-06-05 至 2024-09-25，共 18 集。\n\nhttps://api.bgm.tv/v0/subjects/434799 (api_snapshot): Bangumi API 确认该 subject 为 2024-06-12 开始的 WEB 动画，共 18 集，剧情与制作人员信息和 TMDB 条目相符。\n\nhttps://www.iq.com/album/%E5%A4%A9%E5%BA%AD%E6%9D%BF%E7%A0%96%E4%BE%A0-2024-1lvwzk4xuz9?lang=zh_cn (page): 爱奇艺官方页面显示《天庭板砖侠》为 2024 年动画，共 18 集，剧情简介与 Bangumi、TMDB 一致。\n\n备注：TMDB 详情中的 crew 字段为空，具体导演、编剧等人员主要依据 Bangumi API 的制作信息核对；TMDB 与 Bangumi 的首播日期相差 7 天，可能是平台不同上线批次。",
+    "evidence": "codex: 作品年份、具体剧情、制作公司、网络动画版本及18集范围相互吻合，确认对应TMDB 256818第1季整季，季表未混入其他作品。输入的Bangumi章节标题和日期全部为空，无法完成逐集内容或日期比对，因此保留作品及季范围映射，不凭编号顺序填写rules。\n\nhttps://www.themoviedb.org/tv/256818 (api_snapshot): TMDB 详情确认《天庭板砖侠》为2024年中文作品，剧情涉及李季、闇麒麟、魄念空间及重建天庭；制作公司包括爱奇艺、唐麟文化、大神互娱，与输入资料吻合。共1季18集，crew为空。\n\nhttps://www.themoviedb.org/tv/256818/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共18集，编号连续为1至18，均为同一剧情动画的正篇。第1、2集日期为2024-06-05，第3集为2024-06-12，其后每周更新至第18集2024-09-25。\n\nhttps://www.iq.com/album/天庭板砖侠-2024-1lvwzk4xuz9?lang=zh_cn (page): 爱奇艺官方专辑标明2024年、18集全，剧情与输入一致；列表明确列出正片第1至18集，并将预告单独标识。\n\nhttps://home.gamer.com.tw/artwork.php?sn=5949515 (search_snippet): 2024-06-12发布的开播报道记载当天首播、首更3集、全18集，出品方为爱奇艺、大神互娱、唐麟文化；与TMDB前两集的日期存在冲突。\n\n备注：TMDB前两集日期比Bangumi首播及开播报道早7天，差异原因未获证实，不能认定为平台上线批次差异。；逐集映射需补充Bangumi章节标题、日期或可验证的章节内容；当前18个章节均未建立逐集规则。；TMDB未提供导演、编剧等人员信息，人员层面只能核对制作公司。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/434799; https://www.themoviedb.org/tv/256818; https://www.themoviedb.org/tv/256818/season/1; https://api.bgm.tv/v0/subjects/434799; https://www.iq.com/album/%E5%A4%A9%E5%BA%AD%E6%9D%BF%E7%A0%96%E4%BE%A0-2024-1lvwzk4xuz9?lang=zh_cn",
-    "verifiedAt": "2026-09-08T23:50:29.751Z"
+    "source": "https://bgm.tv/subject/434799; https://www.themoviedb.org/tv/256818; https://www.themoviedb.org/tv/256818/season/1; https://www.iq.com/album/天庭板砖侠-2024-1lvwzk4xuz9?lang=zh_cn; https://home.gamer.com.tw/artwork.php?sn=5949515",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

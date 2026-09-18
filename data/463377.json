@@ -1,13 +1,124 @@
 {
   "bangumiId": 463377,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1264963,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1264964,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1264965,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1264966,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1264967,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1264968,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1264969,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1264970,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1264971,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1264972,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1264973,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1264974,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1264975,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1264976,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1264977,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1264978,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1264979,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1264980,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1264981,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1264982,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1264983,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1264984,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 TV 动画《American Dad!》第20季，日期为2023-03-27、共22集。TMDB 1433 的系列详情确认原名 American Dad!、首播始于2005-02-06，剧情围绕 CIA 特工 Stan Smith 与 Smith 家庭，媒介和制作公司均吻合；其第20季实际季表日期为2023-03-27，共22集，覆盖至2023-12-18，集名与剧情连续对应本条目。TMDB 同时列有2024年的第21季和2026年的第22季，因此没有把后续季度或其他版本混入。IMDb 输入线索在 TMDB 中只解析到该系列的一集，未作为单独作品使用。\n\nhttps://api.bgm.tv/v0/subjects/463377 (api_snapshot): Bangumi 原始 API：名称为 American Dad! Season 20，平台为 TV，首播日期2023-03-27，共22集。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 详情：ID 1433，原名 American Dad!，首播日期2005-02-06；剧情为 Smith 家庭及其外星室友 Roger 的动画喜剧；列出20th Century Fox Television、20th Television Animation等制作公司及主要配音演员。\n\nhttps://www.themoviedb.org/tv/1433/season/20 (api_snapshot): TMDB 第20季实际季表：season=20，日期2023-03-27，episodeCount=22，集数1至22连续，首集为 Fellow Traveler，末集为 Into the Jingleverse，末播日期2023-12-18。\n\nhttps://www.fox.com/detail/series/SER001101XODY/american-dad (page): FOX 官方页面将 American Dad 标为 Animation，并概述 Stan Smith、其家庭、外星人和金鱼角色，进一步确认媒介与作品身份。\n\nhttps://en.wikipedia.org/wiki/American_Dad%21_season_20 (search_snippet): 独立季资料将2023年季度记为第20季，共22集，播出区间为2023-03-27至2023-12-18。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 1433 第20季整季：输入的首播日期、22集规模及季度身份与实际季表一致，官方剧情、配音与动画制作信息支持作品身份。官方第18季与 TMDB 第20季属于编号口径差异，按2023年播出范围确认。Bangumi 的22个章节均无标题和日期，无法逐集比对，因此只确认整季范围，暂不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为美国电视动画 American Dad!，系列始播于2005-02-06，围绕 Stan Smith 家庭及外星人 Roger 展开；配音包括 Seth MacFarlane、Wendy Schaal 等，制作公司包括 20th Television Animation。\n\nhttps://www.themoviedb.org/tv/1433/season/20 (api_snapshot): 实际读取第20季完整集表，total_pages=1，共22集，集号1—22连续；首集 Fellow Traveler 于2023-03-27播出，末集 Into the Jingleverse 于2023-12-18播出。全部属于2023年季度。\n\nhttps://press.wbd.com/na/media-release/tbs-american-dad-returns-monday-march-27-1000pm-ptet?language_content_entity=en (search_snippet): TBS官方新闻稿确认本作于2023-03-27回归，剧情为 CIA 特工 Stan Smith 及其家庭的故事，配音阵容与 TMDB 一致；官方将该季度称为第18季，存在季号口径差异。\n\nhttps://en.wikipedia.org/wiki/American_Dad!_season_20 (page): 季度资料确认第20季为2023-03-27至2023-12-18在TBS播出的22集，同时说明宣传使用第18季称呼，支持两种季号指向同一2023年季度。\n\n备注：逐集对应尚未确认；需要补充 Bangumi 章节标题或播出日期后，再与 TMDB 集表核对。；Bangumi网页及API本次访问失败，Bangumi侧信息依据用户提供的快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/463377; https://api.bgm.tv/v0/subjects/463377; https://www.themoviedb.org/tv/1433; https://www.themoviedb.org/tv/1433/season/20; https://www.fox.com/detail/series/SER001101XODY/american-dad; https://en.wikipedia.org/wiki/American_Dad%21_season_20",
-    "verifiedAt": "2026-09-09T00:02:01.561Z"
+    "source": "https://bgm.tv/subject/463377; https://www.themoviedb.org/tv/1433; https://www.themoviedb.org/tv/1433/season/20; https://press.wbd.com/na/media-release/tbs-american-dad-returns-monday-march-27-1000pm-ptet?language_content_entity=en; https://en.wikipedia.org/wiki/American_Dad!_season_20",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

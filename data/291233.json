@@ -1,19 +1,61 @@
 {
   "anidbId": 15108,
   "bangumiId": 291233,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 920815,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 920816,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 920817,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 920818,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 920819,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 920820,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 94004第一季第1—6集。作品年份、网络配信媒介、剧情、制作阵容及六话标题和顺序一致；逐集日期差异由会员同时上线与免费每周公开两种排期解释。TMDB整季12集还包含《後編》，因此旧映射应收窄为前六集。\n\nhttps://www.themoviedb.org/tv/94004 (api_snapshot): 以原名及日文别名搜索均得到 TV 94004；详情确认首播为2019-12-03，制作公司包括武右ェ門、Nitroplus等，角色及机甲题材一致。该条目共一季12集，包含前后两批内容。\n\nhttps://www.themoviedb.org/tv/94004/season/1 (api_snapshot): 已读取第一季日文及英文完整集表，共12集、1页。第1—6集英文标题依次为Outcast、Bowman、Miyajima Rei、Loewner、Soldier Brat、Jamal，与输入六话逐一对应；剧情亦吻合。日期依次为2019-12-03、12-10、12-17、12-24、12-31及2020-01-07。第7集起为2020年推出的后续内容。\n\nhttps://project-obsolete.com/ (page): 官网将集表分为EP1—6与EP7—12；前六集完整标题及故事发生地点、年份均与输入章节一致。\n\nhttps://project-obsolete.com/staffcast/ (page): 官网确认原案及系列构成为虚渊玄，导演为山田裕城、白土晴一，动画制作为武右ェ門，与输入制作信息一致。\n\nhttps://blog.youtube/intl/ja-jp/news-and-events/2019_11_youtube-originals-obsolete12-3/ (search_snippet): YouTube官方公告确认剧情为外星人以石灰岩交换意识控制机器人；EP1—6于2019-12-03向Premium会员同时开放，免费公开则从当日起每周一话至2020-01-07。六个免费公开日期与TMDB逐集完全一致，解释了Bangumi统一首发日期与TMDB日期的差异。\n\nhttps://project-obsolete.com/introduction/ (page): 官网明确EP7—12为2020-12-01开始配信的续篇，故本subject只覆盖第一季前六集。\n\n备注：TMDB导演字段将山田裕城记作“山田弘樹”，与官网不一致；其他制作信息、角色及逐集证据足以确认作品身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/291233; https://www.themoviedb.org/tv/94004; https://www.themoviedb.org/tv/94004/season/1; https://project-obsolete.com/; https://project-obsolete.com/staffcast/; https://blog.youtube/intl/ja-jp/news-and-events/2019_11_youtube-originals-obsolete12-3/; https://project-obsolete.com/introduction/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 94004
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 6,
       "id": 94004,
       "season": 1,
       "type": "tv"

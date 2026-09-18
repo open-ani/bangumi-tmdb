@@ -1,16 +1,108 @@
 {
   "anidbId": 12095,
   "bangumiId": 180211,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 640866,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 640867,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 640868,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 640869,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 640870,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 640871,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 640872,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 640873,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 640874,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 640875,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 640876,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 640877,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 646458,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 687878,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 687878,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 67013,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 180211 是《腐男子高校生活》TV，12 集，2016-07-05 至 2016-09-20；其正篇标题与日期逐集对应 TMDB 67013 第 1 季 1–12 集。Bangumi 同一 subject 还包含 2016-10-14 的特别篇“运动之秋 烦恼之秋”，与 TMDB 第 0 季唯一一集的日期和集数对应。2016-06-28 的放送前特别篇未在 TMDB 快照中出现，无法追加不存在于已核实 TMDB 数据中的范围。\n\nhttps://bgm.tv/subject/180211 (page): Bangumi 页面确认该条目为 TV，话数 12，首播 2016-07-05、完结 2016-09-20，并列出 12 个正篇及 2016-10-14 的特别篇“运动之秋 烦恼之秋”。\n\nhttps://www.themoviedb.org/tv/67013 (api_snapshot): TMDB TV 67013 标题为《腐男子高校生活》，首播 2016-07-05，共 12 集；季列表包含第 1 季 12 集和第 0 季 1 集，后者日期为 2016-10-14。\n\nhttps://www.themoviedb.org/tv/67013/season/1 (api_snapshot): TMDB 第 1 季共 12 集，1–12 集标题和日期与 Bangumi 正篇逐集对应。\n\n备注：TMDB 提供的第 0 季快照未包含该唯一集的标题，特别篇映射主要依据日期和唯一集数对应。；Bangumi 的 2016-06-28 放送前特别篇未在已读取的 TMDB 数据中找到对应条目。；AniDB 页面本次访问返回 403，未能独立读取 AniDB 12095 的页面内容；结论依靠 Bangumi 与 TMDB 的直接标题、日期和逐集对应关系。",
+    "evidence": "codex: 年份、电视动画版本、剧情、导演、制作公司和声优均吻合。本篇12话的标题及放送日期逐集确认对应TMDB 67013第1季1—12集；特别篇687878的标题和日期明确对应第0季第1集。\n\nhttps://bgm.tv/subject/180211 (page): Bangumi 确认为2016年电视动画，共12话，放送时间为7月5日至9月20日；导演所俊克、动画制作EMTスクエアード，剧情围绕喜爱BL的高中生坂口亮展开。\n\nhttps://bgm.tv/subject/180211/ep (page): 章节页列出12话本篇的标题和日期，以及6月28日的放送前特别节目、10月14日的特别篇《スポーツの秋 煩悩の秋》。\n\nhttps://www.themoviedb.org/tv/67013 (api_snapshot): TMDB 67013的原名、2016年首末播日期、坂口亮的剧情、导演所俊克、制作公司EMT²及主要声优均与Bangumi一致；第1季12集，第0季1集。\n\nhttps://www.themoviedb.org/tv/67013/season/1 (api_snapshot): 第1季集表共12集、仅1页。第1至12集日期逐集一致，标题对应一致，仅存在假名及括号写法差异；完整覆盖Bangumi的12话本篇。\n\nhttps://www.themoviedb.org/tv/67013/season/0 (api_snapshot): 第0季集表共1集、仅1页。第1集标题为《スポーツの秋 煩悩の秋》，日期2016-10-14，与Bangumi章节687878吻合。\n\n备注：2016-06-28的放送前特别节目（章节646458）在已读取的TMDB集表中没有对应项，保留未映射；这不代表TMDB全站未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/180211; https://www.themoviedb.org/tv/67013; https://www.themoviedb.org/tv/67013/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/180211; https://bgm.tv/subject/180211/ep; https://www.themoviedb.org/tv/67013; https://www.themoviedb.org/tv/67013/season/1; https://www.themoviedb.org/tv/67013/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67013
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

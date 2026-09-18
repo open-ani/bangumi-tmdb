@@ -1,16 +1,163 @@
 {
   "anidbId": 17150,
   "bangumiId": 366522,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1110633,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1110634,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1110635,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1110636,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1110637,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1110638,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1110639,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1110640,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1110641,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1110642,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1110643,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1110644,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1124208,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1124209,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1124210,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1124211,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1124212,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1124213,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1124214,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1124215,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1124216,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1124217,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1124218,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1124219,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1131674,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1131674,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 156218,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2022年版TV动画，主体24集；标题、剧情、年份、原作水上悟志、导演中西伸彰、制作NAZ及24集分集标题均与 TMDB 156218 第1季逐集对应。Bangumi另收录同一subject内的总集篇12.5，官方资料确认其为“前半战”总集篇；TMDB将其收录为第0季唯一一集。Bangumi的7月8日与TMDB的7月9日是日本深夜放送跨日造成的日期差异。\n\nhttps://bgm.tv/subject/366522 (page): Bangumi将条目标为TV，话数24，放送开始2022年7月8日，列出01至24及SP/12.5章节，并显示原作、导演、系列构成和NAZ制作信息。\n\nhttps://www.hoshinosamidare.jp/news/ (page): 官方新闻确认本作“全24话连续2クール”，并确认2022年9月30日播出总集篇“惑星のさみだれ 前半戦”。\n\nhttps://www.themoviedb.org/tv/156218 (api_snapshot): TMDB API快照显示作品名为惑星のさみだれ，首播日期2022-07-09，共24集；季列表显示第0季1集、第1季24集。\n\nhttps://www.themoviedb.org/tv/156218/season/1 (api_snapshot): TMDB第1季快照完整列出24集；其标题逐集对应Bangumi的01至24，日期从2022-07-09至2022-12-24，剧情和制作版本一致。\n\n备注：AniDB页面直接访问返回403，AniDB ID 17150与Bangumi subject的关联未能通过AniDB页面独立复核；本次目标判定依据为Bangumi、官方资料及TMDB的直接版本和分集对应。；TMDB第0季的单集详情未包含在输入快照中，但第0季元数据为1集“特別編”，日期2022-10-01，与官方9月30日深夜播出的总集篇相符。",
+    "evidence": "codex: 确认对应TMDB 156218：年份、电视动画媒介、剧情、导演及制作公司一致。本篇24集的日文标题、顺序与放送间隔逐集吻合，完整对应第1季；连续两个季度在TMDB中合为一季。日期统一相差一天，符合深夜放送跨日记法。SP 12.5的总集篇性质、前半战范围及播出节点与第0季第1集一致，已通过实际季表核实。\n\nhttps://www.themoviedb.org/tv/156218 (api_snapshot): 日文原名搜索命中 TMDB 156218；详情确认为2022年电视动画，导演中西伸彰、制作公司NAZ，雨宫夕日与会说话的蜥蜴及五月雨的剧情与输入一致，共24集正篇。\n\nhttps://www.themoviedb.org/tv/156218/season/1 (api_snapshot): 第1季完整集表共24集，total_pages=1。逐集日文标题与输入的本篇1—24完全一致；日期逐集均比Bangumi晚一天，起止为2022-07-09至2022-12-24，且第12、13集之间同样间隔两周。\n\nhttps://www.themoviedb.org/tv/156218/season/0 (api_snapshot): 第0季完整集表仅1集，total_pages=1；第1集为「前半戦ダイジェスト」，日期2022-10-01，简介明确为后半战开始前、以诺伊视角回顾前半战的总集篇，对应输入的SP 12.5。\n\nhttps://www.hoshinosamidare.jp/news/ (page): 官方新闻确认全24话连续两个季度，并公告播出总集篇「惑星のさみだれ 前半戦」；另列明9月30日总集篇、10月7日第13话和12月23日第24话的放送通知。\n\nhttps://www.hoshinosamidare.jp/ (page): 官网确认2022年7月在MBS/TBS等电视台开播；剧情介绍与Bangumi输入及TMDB详情一致，版权标注原作者水上悟志。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/366522; https://www.hoshinosamidare.jp/news/; https://www.themoviedb.org/tv/156218; https://www.themoviedb.org/tv/156218/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/366522; https://www.themoviedb.org/tv/156218; https://www.themoviedb.org/tv/156218/season/1; https://www.themoviedb.org/tv/156218/season/0; https://www.hoshinosamidare.jp/news/; https://www.hoshinosamidare.jp/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156218
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

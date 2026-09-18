@@ -1,19 +1,91 @@
 {
   "anidbId": 16300,
   "bangumiId": 335225,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1050095,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1050096,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1050097,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1050098,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1050099,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1050100,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1050101,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1050102,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1050103,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1050104,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1050105,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1050106,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、动画媒介、剧情、制作公司及导演一致，12话标题与放送日期逐集对应。TMDB 将两期合并为第1季24集，本 subject 仅覆盖第1—12集；旧映射应收窄范围，避免包含第二期。\n\nhttps://www.themoviedb.org/tv/123876 (api_snapshot): TMDB 123876 为2021年10月开播的动画，制作公司为 OLM，导演包含川越一生；古见与只野共同实现交到100个朋友的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/123876/season/1 (api_snapshot): 已读取第1季完整24集表（共1页）。第1—12集的主标题与 Bangumi 12话逐一吻合，第6集仅有重复标点；日期逐集均比 Bangumi 晚一天，范围为2021-10-07至2021-12-23。第13—24集于2022年播出，属于后续第二期。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202110/26544_202110062400.html (search_snippet): 东京电视台第1话节目资料列出2021年10月6日24:00播出、标题为「喋りたいんです。」及导演川越一生，支持两站日期差异源于跨午夜的放送日记法。\n\nhttps://komisan-official.com/ (page): 动画官方网站明确并列标示第1期与第2期，支持该动画存在分期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/335225; https://www.themoviedb.org/tv/123876; https://www.themoviedb.org/tv/123876/season/1; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202110/26544_202110062400.html; https://komisan-official.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 123876
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 123876,
       "season": 1,
       "type": "tv"

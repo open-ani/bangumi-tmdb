@@ -1,15 +1,56 @@
 {
+  "anidbId": 17333,
   "bangumiId": 378347,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1113336,
+      "sort": 46,
+      "type": 0
+    },
+    {
+      "id": 1113337,
+      "sort": 47,
+      "type": 0
+    },
+    {
+      "id": 1113338,
+      "sort": 48,
+      "type": 0
+    },
+    {
+      "id": 1113339,
+      "sort": 49,
+      "type": 0
+    },
+    {
+      "id": 1113340,
+      "sort": 50,
+      "type": 0
+    },
+    {
+      "id": 1113341,
+      "sort": 51,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 127313《星河至尊》的日期（2021-06-10）、中文剧情、中文原名/别名、优酷与若鸿文化信息均与 Bangumi 主系列及第二季一致。TMDB 将全系列157集错误合并为第1季：其季表显示第1—45集为2021年首季，第46集于2022-04-13开始，第85集于2022-08-28播出，第86集于2022-08-31开始下一分割季。Bangumi 第二季标注40集、始于2022-04-13，因此对应 TMDB S1 的46—85集。\n\nhttps://www.themoviedb.org/tv/127313 (api_snapshot): TMDB详情确认作品原名为星河至尊，首播2021-06-10，剧情与 Bangumi 摘要一致，中文原语种，157集、仅有1个TMDB季；制作公司为若鸿文化和优酷，别名含Xinghe Zhizun、Supreme Lord of Galaxy。\n\nhttps://www.themoviedb.org/tv/127313/season/1 (api_snapshot): TMDB第1季分页季表实际覆盖157集：第1—45集日期为2021年，第46集日期为2022-04-13；第85集日期为2022-08-28，第86集日期为2022-08-31，确认46—85是连续的40集区间。\n\nhttps://api.bgm.tv/v0/subjects/378347 (api_snapshot): Bangumi原始API确认主体名为星河至尊 第二季、日期2022-04-13、WEB媒介、话数40，剧情与TMDB完全对应；当前接口返回的章节虽不完整，但已有sort 46—51，并记录导演吕浩辉及脚本人员。\n\nhttps://bangumi.tv/subject/378347 (search_snippet): Bangumi页面摘要确认第二季标注40集、放送开始2022-04-13，并显示章节从46开始。\n\nhttps://thetvdb.com/series/404591- (search_snippet): 外部集数线索将该作品分为首季45集、第二季40集（2022年4月至8月）、第三季72集；其边界与TMDB季表中的第45/46及第85/86日期断点一致。",
+    "evidence": "codex: 确认对应TMDB 127313第1季第46—85集。剧情、制作公司、网络动画媒介及播出时间吻合；第二季40话及第三季从86话开始的边界相互印证。现有46—51话采用全系列编号，外部逐集标题、日期与TMDB一致，建立同号规则；未为尚未建档的52—85话生成规则。\n\nhttps://www.themoviedb.org/tv/127313 (api_snapshot): TMDB 127313《星河至尊》首播于2021-06-10，剧情中的楚星河、星辰宗和星辰图与本条目一致；制作公司为若鸿文化、优酷，别名含 Xinghe Zhizun Di Er Ji。全系列157集收在第1季。\n\nhttps://www.themoviedb.org/tv/127313/season/1 (api_snapshot): 已读取第1季全部3页集表。第45集为2021-10-30；第46集为2022-04-13，第85集为2022-08-28，第86集为2022-08-31。46—85连续40集。46—51的标题和日期与外部动画目录逐项一致。\n\nhttps://bangumi.tv/subject/378347 (search_snippet): Bangumi第二季标注WEB、40话、2022-04-13开播，导演吕浩辉，制作方优酷、若鸿文化；现有章节编号为46—51。\n\nhttps://bgm.tv/subject/466777 (page): Bangumi第三季标注72话、2022-08-31开播，首个章节编号为86，确认本次第二季范围止于85。\n\nhttps://www.newton.com.tw/wiki/星河至尊/54129979 (page): 动画目录列出46—51分别为击退鹰王、食狗星、战狗头人、狗剑客、被擒、天狼族，日期依次为2022-04-13、04-17、04-20、04-24、04-27、05-01，与TMDB一致；85、86的日期也一致。资料确认若鸿文化制作、优酷播出的网络动画，导演含吕浩辉。\n\n备注：Bangumi现有46—51话缺少标题和日期，逐集核验使用其明确编号及外部动画目录补充。；外部资料也有将46—157统称第二季的分季方式；本映射遵循此Bangumi subject的40话范围及其第三季边界，不扩展到157集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/378347; https://www.themoviedb.org/tv/127313; https://www.themoviedb.org/tv/127313/season/1; https://api.bgm.tv/v0/subjects/378347; https://bangumi.tv/subject/378347; https://thetvdb.com/series/404591-",
-    "verifiedAt": "2026-09-08T23:18:37.712Z"
+    "source": "https://bgm.tv/subject/378347; https://www.themoviedb.org/tv/127313; https://www.themoviedb.org/tv/127313/season/1; https://bangumi.tv/subject/378347; https://bgm.tv/subject/466777; https://www.newton.com.tw/wiki/星河至尊/54129979",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 51,
+      "episodeStart": 46,
+      "season": 1,
+      "start": 46,
+      "tmdbId": 127313
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

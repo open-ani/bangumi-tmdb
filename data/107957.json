@@ -1,21 +1,114 @@
 {
   "anidbId": 10733,
   "bangumiId": 107957,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 537814,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 537815,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 537816,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 537817,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 537818,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 537819,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 537820,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 537821,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 537822,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 537823,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 537824,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 537825,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 562953,
+      "sort": 9.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 562953,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 66390,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情及制作人员均一致；第1季12集标题逐项完全对应，确认本篇1—12话顺序映射。特别篇9.5由标题、日期及官方排期共同确认对应S00E01。\n\nhttps://www.themoviedb.org/tv/66390 (api_snapshot): 日文原名搜索命中 TV 66390《GANGSTA.》。详情确认为2015年电视动画，原作コースケ、导演村瀬修功、动画制作Manglobe；便利屋沃力克、尼古拉斯与娼妇相遇的剧情与输入一致。\n\nhttps://gangsta-project.com/staff_and_cast.php (page): 官方网站列出的原作、导演、动画制作及三位主角声优与TMDB详情一致，确认是同一电视动画版本。\n\nhttps://www.themoviedb.org/tv/66390/season/1 (api_snapshot): 第1季完整季表共12集、仅1页；逐集标题与Bangumi第1至12话全部同序一致。日期逐项比较：第1至4、10至12话比Bangumi晚一天，第5至9话比Bangumi早三天。\n\nhttps://www.themoviedb.org/tv/66390/season/0 (api_snapshot): 第0季完整季表仅1集：第1集为「9.5（まとめ）」，播出日期2015-09-06，简介明确为回顾特别节目，与Bangumi特别篇9.5的编号和日期一致。\n\nhttps://gangsta-project.com/news.php?paged=2 (page): 官方排期确认9.5于2015-09-06在TOKYO MX播出；第12话为最终话。第10至12话ABC播出时间分别为9月9、16、23日深夜，对应TMDB次日日期；第9话TOKYO MX实际为8月30日，与Bangumi一致而与TMDB有差异。\n\n备注：TMDB第5至9集日期较Bangumi早三天，不能全部解释为跨午夜记日差异；官方排期已确认第9话的TMDB日期不符。该日期问题不影响由全部标题、集数和顺序确认的逐集映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/107957; https://www.themoviedb.org/tv/66390; https://gangsta-project.com/staff_and_cast.php; https://www.themoviedb.org/tv/66390/season/1; https://www.themoviedb.org/tv/66390/season/0; https://gangsta-project.com/news.php?paged=2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 66390
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 66390,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 66390,
+      "season": 0,
       "type": "tv"
     }
   ]

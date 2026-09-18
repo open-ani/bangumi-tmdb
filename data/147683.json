@@ -1,16 +1,114 @@
 {
   "anidbId": 11665,
   "bangumiId": 147683,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 621333,
+      "sort": 27.1,
+      "type": 0
+    },
+    {
+      "id": 621334,
+      "sort": 27.2,
+      "type": 0
+    },
+    {
+      "id": 621335,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 621336,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 621337,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 621338,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 621339,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 621340,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 621341,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 621342,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 621343,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 621344,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 626915,
+      "sort": 38,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 621333,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 61339,
+          "season": 3,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 621334,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 61339,
+          "season": 3,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《美少女战士Crystal》第3期“死亡毁灭者篇”，类型为TV，2016-04-04开播，共13话，章节为27.1至38。Anime-Lists 中 AniDB 11665 的条目名称完全对应，并关联 TMDB TV 61339 第3季；TMDB 快照显示该剧第3季名称为“デス・バスターズ編”，首播日为2016-04-04，共13集，完整集标题和日期与 Bangumi 逐集对应。因此应采用 TMDB 61339 第3季完整范围。\n\nhttps://bgm.tv/subject/147683 (page): Bangumi 将该条目标为TV，话数13，开播2016-04-04，别名包含“美少女戦士セーラームーンCrystal デス・バスターズ編”，章节为27.1、27.2、28至38，制作方为東映アニメーション。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 11665（Bishoujo Senshi Sailor Moon Crystal Season III）映射到 TMDB TV 61339、TMDB season 3；该条目未设置偏移。\n\nhttps://www.sailormoon-official.com/animation/episode/ (page): 官方页面将 Act.27至Act.29列为《美少女战士セーラームーンCrystal》第3期“デス・バスターズ編”的剧集。\n\nhttps://www.themoviedb.org/tv/61339 (api_snapshot): TMDB API 快照显示 TV 61339 的第3季名为“デス・バスターズ編”，首播2016-04-04，共13集；全剧共39集，三季集数为14、12、13。\n\nhttps://www.themoviedb.org/tv/61339/season/3 (api_snapshot): TMDB API 快照显示第3季共13集，集数1至13的标题和日期分别对应 Bangumi 的27.1/27.2、28至38及2016-04-04至2016-06-27。",
+    "evidence": "codex: 已确认对应TMDB 61339第三季完整13集。年份、媒介、篇章剧情、制作人员及逐集标题和播出日期一致，可区分1994年旧版与后续剧场版。Bangumi小数编号27.1、27.2通过章节ID分别映射第三季第1、2集；整数编号28至38连续对应第3至13集。\n\nhttps://bgm.tv/subject/147683 (page): Bangumi 将本作标为2016年4月4日至6月27日播出的13话TV动画，别名为死亡毁灭者篇；原作武内直子、系列监督今千秋、动画制作东映动画，并将《美少女战士S》列为不同演绎。\n\nhttps://www.themoviedb.org/tv/61339 (api_snapshot): TMDB 61339 为2014年开始的《美少女战士Crystal》，制作公司为东映动画与讲谈社，原作武内直子、系列监督今千秋；第三季为死亡毁灭者篇，剧情涉及无限学园及外部太阳系战士，2016年4月4日首播，共13集。\n\nhttps://www.themoviedb.org/tv/61339/season/3 (api_snapshot): 第三季完整集表共13集、仅1页。逐集标题及日期与输入的13个Bangumi章节一致：第1、2集为预感前后篇，分别播于4月4日、4月11日；第3至13集对应Act.28至38，分别为4月18日、4月25日、5月2日、5月9日、5月16日、5月23日、5月30日、6月6日、6月13日、6月20日、6月27日。整季恰好覆盖本subject。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/147683; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.sailormoon-official.com/animation/episode/; https://www.themoviedb.org/tv/61339; https://www.themoviedb.org/tv/61339/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/147683; https://www.themoviedb.org/tv/61339; https://www.themoviedb.org/tv/61339/season/3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 38,
+      "episodeStart": 3,
+      "season": 3,
+      "start": 28,
+      "tmdbId": 61339
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

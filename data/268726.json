@@ -1,19 +1,103 @@
 {
   "anidbId": 14526,
   "bangumiId": 268726,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 857891,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 920821,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 920865,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 920866,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 920867,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 857891,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 920821,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 920865,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 920866,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 920867,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认是2019—2020年漫画第12—16卷附赠的五话OAD，对应TMDB 82684第0季第2—6集。制作人员、媒介、五话标题及剧情一致。Bangumi前两话标题顺序与TMDB发行顺序相反，按章节标题分别对应E3、E2；后三话对应E4—E6。采用逐章override，避免日期错配及整季混入其他作品。\n\nhttps://www.themoviedb.org/tv/82684 (api_snapshot): TMDB 82684 为2018年开始的《転生したらスライムだった件》，制作公司包含8bit、讲谈社，利姆露配音为冈咲美保，与官方OAD制作及角色资料一致。\n\nhttps://www.themoviedb.org/tv/82684/season/0 (api_snapshot): 第0季共16集，total_pages=1。E2为《Mの悲劇？》（2019-07-09），E3为《HEY!尻!》（2019-12-04）；E4—E6依次为《リムルの華麗な教師生活》其一至其三，日期分别为2020-03-27、2020-07-09、2020-11-27。简介明确对应漫画第12—16卷附赠OAD。其余集包含总集篇及其他作品。\n\nhttps://www.ten-sura.com/anime/oad/staffcast (page): 官方OAD制作名单确认原作为川上泰树、伏濑、みっつばー，导演菊地康仁、人物设计江畑谅真、动画制作8bit，与输入版本相符。\n\nhttps://www.ten-sura.com/news/anime/oad/news/post/6524 (search_snippet): 官方确认漫画第12—16卷限定版附赠的OAD包含《HEY！尻！》《Mの悲劇？》及《リムルの華麗な教師生活》三部曲，共五话。\n\nhttps://www.ten-sura.com/news/anime/tensura/event/post/1207 (search_snippet): 官方明确第12卷附赠《Mの悲劇？》，第13卷附赠《HEY！尻！》，后者于2019-12-04发行；第14卷附赠教师生活其一，于2020-03-27发行。相扑大会与野外训练剧情分别吻合TMDB E3、E4。\n\nhttps://www.ten-sura.com/anime/oad/story/no4 (search_snippet): 官方教师生活其二简介为S班参加野外训练并遭盗贼盯上，与TMDB E5一致。\n\nhttps://www.ten-sura.com/anime/oad/story (page): 官方第5话为教师生活其三，剧情涉及伯爵宅邸、洞窟探索及混入盗贼的魔族，与TMDB E6一致。\n\nhttps://www.kodansha.co.jp/comic/products/0000328254 (search_snippet): 讲谈社第16卷OAD限定版书目所列发售日为2020-11-27，支持TMDB末话日期。\n\n备注：输入中前两话的日期与其标题所对应的实际发行日期互换；本映射以官方确认的标题、附赠卷数及剧情识别章节。；输入第5话日期为2020-11-09，与TMDB及讲谈社书目所列2020-11-27不一致；标题和剧情已确认对应，不影响映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/268726; https://www.themoviedb.org/tv/82684; https://www.themoviedb.org/tv/82684/season/0; https://www.ten-sura.com/anime/oad/staffcast; https://www.ten-sura.com/news/anime/oad/news/post/6524; https://www.ten-sura.com/news/anime/tensura/event/post/1207; https://www.ten-sura.com/anime/oad/story/no4; https://www.ten-sura.com/anime/oad/story; https://www.kodansha.co.jp/comic/products/0000328254",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 2,
+      "episodeEnd": 6,
       "id": 82684,
       "season": 0,
       "type": "tv"

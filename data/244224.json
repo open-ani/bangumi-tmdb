@@ -1,19 +1,161 @@
 {
   "anidbId": 16281,
   "bangumiId": 244224,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 948283,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 948284,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 948285,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 948286,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 948287,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 948288,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1028142,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1028143,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1028144,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1028145,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1028146,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1028147,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1028148,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1028149,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1028150,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1028151,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1028152,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1028153,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1028154,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1028155,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1028156,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1028157,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1028158,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1028159,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1028160,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1028161,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、原作、导演及制作公司一致。Bangumi 使用序号集名，无法与 TMDB 剧情标题直接互证，但26集日期逐项吻合，且第27集日期对应 Bangumi 第二季开播，足以确认连续对应。旧映射范围过宽，应限定为 TMDB 第1季第1—26集，与第二季已占用的第27—78集不重叠。\n\nhttps://www.themoviedb.org/tv/124003 (api_snapshot): TMDB 124003 为2021年4月23日首播的中国动画《完美世界》，改编自辰东小说、主角为石昊；导演张帅，制作公司含福煦影视、企鹅影视，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/124003/season/1 (api_snapshot): 第1季共338集、分6页；已读取第1页第1—60集，完整覆盖本次范围。第1—26集播出日期与 Bangumi 26章逐项一致：前三集均为2021年4月23日，第4—26集每周播出至10月1日。第26集标题为《绝境》，第27集《补天阁之难》于10月8日播出，与输入中第二季起始日期一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/244224; https://www.themoviedb.org/tv/124003; https://www.themoviedb.org/tv/124003/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 124003
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 26,
       "id": 124003,
       "season": 1,
       "type": "tv"

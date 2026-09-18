@@ -1,21 +1,131 @@
 {
   "anidbId": 7486,
   "bangumiId": 7842,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 51728,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 51729,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 51730,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 51731,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 51732,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 51733,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 51734,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 51735,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 51736,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 51737,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 51738,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 51739,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 280063,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 280064,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 280063,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 35447,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 280064,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 35447,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 35447 第1季全部12集，以及第0季第1—2集特典。年份、电视动画媒介、剧情、制作公司和导演相符；本篇12组标题逐集完全对应，两篇特典标题及日期也分别一致。日期字段的局部冲突不影响由完整标题、剧情和集数确认的对应关系。\n\nhttps://www.themoviedb.org/tv/35447 (api_snapshot): 日文原名搜索命中 TMDB 35447；详情确认是2010年电视动画，剧情为乌贼娘因海洋污染上岸侵略、随后在海之家打工，制作公司 diomedéa、导演水岛努均与输入吻合。第1季12集，第2季另列2011年续作。\n\nhttps://www.themoviedb.org/tv/35447/season/1 (api_snapshot): 第1季集表共12集，已完整读取。全部12集的三段式日文标题与 Bangumi 本篇逐集一致，顺序相同且无拆分。第1—5、11集日期比输入晚一天，第6—10集日期一致，第12集日期异常记为2011-01-21。\n\nhttps://www.tv-tokyo.co.jp/contents/ika-musume/episodes/episodes01/ (page): 东京电视台官方集表确认本篇共12话，标题、剧情及顺序对应 TMDB 第1季；首话标2010-10-04，末话标2010-12-20，支持 Bangumi 的末话日期。官网第7话日期标2010-11-22，与 Bangumi、TMDB 的2010-11-15存在差异。\n\nhttps://www.themoviedb.org/tv/35447/season/0 (api_snapshot): 第0季共7集，已完整读取。第1、2集分别为迷你乌贼娘短篇其一、其二，日文标题和2011-05-03、2011-05-18日期均与输入特典一致；其余集为后续OAD或其他特典，不属于本 subject。\n\nhttps://www.suruga-ya.com/ja/product/428003441 (search_snippet): 第1期蓝光第5卷商品资料列发行日期2011-05-03，映像特典包含迷你乌贼娘短篇其一，支持该特典的版本归属。\n\nhttps://www.cdjapan.co.jp/product/PCXG-50056 (search_snippet): 第1期蓝光第6卷商品资料列本篇第11、12话及迷你乌贼娘短篇其二，支持第二篇特典属于第1期影碟附赠动画。\n\n备注：日期资料存在局部差异：TMDB 第1—5、11集比 Bangumi 晚一天，第12集日期与官方首播日期不符；官网第7话日期也与两个数据库不同。映射依据完整集表及逐集内容确认，未据这些日期差异调整集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7842; https://www.themoviedb.org/tv/35447; https://www.themoviedb.org/tv/35447/season/1; https://www.tv-tokyo.co.jp/contents/ika-musume/episodes/episodes01/; https://www.themoviedb.org/tv/35447/season/0; https://www.suruga-ya.com/ja/product/428003441; https://www.cdjapan.co.jp/product/PCXG-50056",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 35447
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 35447,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 35447,
+      "season": 0,
       "type": "tv"
     }
   ]

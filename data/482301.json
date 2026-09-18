@@ -1,19 +1,91 @@
 {
   "anidbId": 18506,
   "bangumiId": 482301,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1423738,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1423739,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1423740,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1423741,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1423742,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1423743,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1423744,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1423745,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1423746,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1423747,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1423748,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1423749,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、导演、制作方及电视动画媒介一致，12话标题和排期逐集吻合。TMDB将2025年第一期与2026年第二期合并为第1季24集，因此旧映射应收窄至S01E01—E12，本篇1—12话顺序一一对应。\n\nhttps://www.themoviedb.org/tv/258680 (api_snapshot): 日文原名搜索命中 TV 258680；详情确认是2025年电视动画，导演山元隼一，制作公司包含讲谈社、颱风Graphics及TBS，西野水帆与四位青梅竹马的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/258680/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集的日文标题与输入12话逐一完全一致，日期依次为2025年1月10日至3月28日，均比Bangumi晚一天；第13—24集日期属于2026年，因此本subject仅覆盖第1季第1—12集。\n\nhttps://koishima-pr.com/ (page): 动画官网分别标示第1期与第2期，故事列表连续编号至24；第12话为「終わらない夢」，第13话为「10年後の花火」，与TMDB的两期分界一致。\n\nhttps://koishima-pr.com/90/ (search_snippet): 官网公告注明第一期于2025年1月9日起每周四25:28在TBS播出，即自然日周五凌晨，解释了Bangumi与TMDB日期统一相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/482301; https://www.themoviedb.org/tv/258680; https://www.themoviedb.org/tv/258680/season/1; https://koishima-pr.com/; https://koishima-pr.com/90/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 258680
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 258680,
       "season": 1,
       "type": "tv"

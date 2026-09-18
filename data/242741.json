@@ -1,16 +1,111 @@
 {
   "anidbId": 14963,
   "bangumiId": 242741,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 843697,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 843698,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 843699,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 843700,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 843701,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 843702,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 843703,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 843704,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 843705,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 843706,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 843707,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 843708,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 865184,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 865185,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 865186,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 865187,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1390619,
+      "sort": 1,
+      "type": 2
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 84737第1季完整16集。动画媒介、首播年份、剧情、制作公司和全部逐集标题吻合，集数及顺序一致，可建立本篇1—16话的连续映射。\n\nhttps://bgm.tv/subject/242741 (page): Bangumi 将本作标为 WEB 动画，共16话，2018年11月30日开播、2019年4月19日结束；导演李豪凌，动画制作绘梦，制作方含腾讯动漫，剧情为千云兮代妹嫁入夜王府。\n\nhttps://www.themoviedb.org/tv/84737 (api_snapshot): TMDB 84737 的首播日期、千云兮替嫁剧情均吻合；制作公司包含腾讯动漫与绘梦，角色标注为配音。第1季为2018年开播的16集，第2季另列为2025年作品，支持识别为本次动画版本。\n\nhttps://www.themoviedb.org/tv/84737/season/1 (api_snapshot): 已读取第1季完整集表（16集，total_pages=1）。逐集标题与Bangumi第1—16话对应，仅第1话标题多问号；第1—10集日期逐项一致。第11—16集标题和顺序一致，但TMDB日期均比Bangumi早35天。\n\n备注：第11—16集存在播出日期冲突：TMDB为2019年2月8日至3月15日，Bangumi为3月15日至4月19日；全部标题一致，故不影响集号对应，但日期差异原因未核实。；OP《嘎嘎》（Bangumi章节1390619）未确认对应的TMDB条目，保留未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/242741; https://www.themoviedb.org/tv/84737; https://www.themoviedb.org/tv/84737/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 84737
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

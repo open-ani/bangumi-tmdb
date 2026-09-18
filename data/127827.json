@@ -1,14 +1,48 @@
 {
   "anidbId": 11184,
   "bangumiId": 127827,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 498343,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 503689,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 498343,
+      "targets": [
+        {
+          "episode": 11,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 503689,
+      "targets": [
+        {
+          "episode": 16,
+          "id": 45950,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该 OVA 共 2 话：第 1 话为「胸，裹起来！」、第 2 话为「无法复苏的不死鸟」，并明确分别是《High School DxD NEW》第13话和《BorN》第13话。TMDB 45950 特别季第11话和第16话的标题、年份及日期与两话对应；特别季其余集数包含其他 OAD、短篇和宣传节目，不能整季纳入。首话 Bangumi 发售日为 2015-03-06，而 TMDB 记录为 2015-03-10，属于发行/播出日期差异，不影响标题和版本对应。\n\nhttps://bgm.tv/subject/127827 (page): Bangumi 确认主体为 2 话 OVA，分别列出「胸，裹起来！」（2015-03-06）和「无法复苏的不死鸟」（2015-12-09），并注明对应 NEW 第13话、BorN 第13话。\n\nhttps://www.themoviedb.org/tv/45950 (api_snapshot): TMDB TV 作品 45950 为《ハイスクールD×D》，包含特别季 0。\n\nhttps://www.themoviedb.org/tv/45950/season/0 (api_snapshot): TMDB 特别季第11话为「おっぱい、包みます！」（2015-03-10），第16话为「ハイスクールDxD BorN 蘇らない不死鳥」（2015-12-09）；两话均为约24分钟。\n\n备注：AniDB 11184 的官方页面读取受 403 限制，未能独立核验其数字关联；但 Bangumi 主体页面的标题、两话内容、发行日期及与 NEW/BorN 的关联均直接支持上述 TMDB 映射。",
+    "evidence": "codex: 两话的独特标题、2015年发行时间、约24分钟时长及 DX 限定版附带动画身份相互吻合，确认分别对应 TMDB 45950 的 S00E11、S00E16。特别季混有其他作品，故仅声明这两个单集，并按章节 ID 显式对应。\n\nhttps://bgm.tv/subject/127827 (page): Bangumi 将本条目标为两话 OVA，导演柳沢テツヤ、人物设定ごとうじゅんじ、动画制作 TNK；分别为 DX 第1、2卷限定版附带的 NEW 第13话和 BorN 第13话。\n\nhttps://bgm.tv/subject/127827/ep (page): 章节表依次为「おっぱい、包みます!」（2015-03-06，23分41秒）与「蘇らない不死鳥」（2015-12-09，23分26秒）。\n\nhttps://www.themoviedb.org/tv/45950 (api_snapshot): TMDB 45950 为《ハイスクールD×D》动画系列，包含 NEW、BorN 及特别季；制作公司含 TNK，兵藤一誠、莉雅丝等角色及声优与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/45950/season/0 (api_snapshot): 已读取特别季全部18集，total_pages=1。第11集为「おっぱい、包みます！」，日期2015-03-10；第16集为「ハイスクールDxD BorN 蘇らない不死鳥」，日期2015-12-09；均为24分钟。其余集包含其他 OVA、短篇及宣传节目。\n\nhttps://www.amiami.jp/top/detail/detail?gcode=MED-BOOK-003064-R (search_snippet): DX 第1卷限定版商品资料注明附带石踏一榮原案、约24分钟的电视未播原创动画「おっぱい、包みます!」，商品发售日记为2015-03-10，与 TMDB 日期一致。\n\nhttps://ishibumi.exblog.jp/23919063/ (page): 原作者石踏一榮于2015年12月1日确认，DX 第2卷附动画蓝光限定版于12月9日发售，收录短篇「蘇らない不死鳥」的动画版。\n\n备注：第一话 Bangumi 日期为2015-03-06，TMDB及商品资料为2015-03-10；差异原因尚未确认，但标题、载体和时长一致，不影响本次对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/127827; https://www.themoviedb.org/tv/45950; https://www.themoviedb.org/tv/45950/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/127827; https://bgm.tv/subject/127827/ep; https://www.themoviedb.org/tv/45950; https://www.themoviedb.org/tv/45950/season/0; https://www.amiami.jp/top/detail/detail?gcode=MED-BOOK-003064-R; https://ishibumi.exblog.jp/23919063/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

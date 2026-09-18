@@ -1,21 +1,114 @@
 {
   "anidbId": 9386,
   "bangumiId": 48037,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 198989,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 198990,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 198991,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 198992,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 198993,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 198994,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 198995,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 198996,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 198997,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 198998,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 198999,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 199000,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 355162,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 355162,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 52889,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 52889的第1季全12集，另加第0季第1集。年份、制作人员、剧情、短篇TV媒介及逐集标题和排期相符。Bangumi第13话是第一期Blu-ray新作特典，应单独覆盖到S00E01；旧映射遗漏了这一话。\n\nhttps://www.themoviedb.org/tv/52889 (api_snapshot): 日文原名搜索命中 TV 52889；详情确认是2012年开始、サンジゲン参与制作、宫野真守配音的短篇日常动画。季列表将2012年第一期、2014年觉醒篇及2015年梦幻篇分别收录。\n\nhttps://www.themoviedb.org/tv/52889/season/1 (api_snapshot): 第1季完整集表共12集，只有1页。逐集核对后，第1、3至12话标题与输入一致，第2话为「星とロックとうーさーと」；12集日期均比输入晚一天，排期连续一致。\n\nhttps://www.themoviedb.org/tv/52889/season/0 (api_snapshot): 第0季完整集表只有1集：「拳とパンツとうーさーと」，日期2013-03-22，时长5分钟；标题及剧情与官方第一期第13话一致。\n\nhttps://www.tv-tokyo.co.jp/anime/wooser2012/staff/ (search_snippet): 电视台第一期制作名单确认原作宇佐義大、人物设计ふじのきともこ、导演山田豊徳、动画制作サンジゲン，与Bangumi的2012年版本相符。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201210/22382_201210022535.html (search_snippet): 电视台第1话节目表标注2012年10月2日25:35播出，即自然日10月3日；解释Bangumi与TMDB相差一天的深夜放送日期口径。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=11540001&workId=11540 (search_snippet): 正版配信页面列出第一期全部12话标题及顺序，与TMDB第1季一致；第2话明确为「星とロックとうーさーと」，支持输入中的「酒」为标题误记。\n\nhttps://wooser.tv/w1st/ (search_snippet): 第一期官网的搜索摘要明确将「拳とパンツとうーさーと」列为第13话及Blu-ray完全新作特典，并提供与TMDB特别篇一致的剧情。网页正文抓取失败，此处仅引用搜索摘要。\n\nhttps://artist.cdjournal.com/d/-/4212110502 (search_snippet): Blu-ray资料列出2013-03-22发售，以及作为映像特典收录的第13话，支持TMDB特别篇日期。\n\n备注：Bangumi第13话日期为2013-12-30，与Blu-ray发售及TMDB的2013-03-22不同；尚未确认Bangumi日期的来源，但标题、特典身份及剧情已确认对应。；Bangumi第2话标题中的「酒」与TMDB及正版配信目录中的「星」不一致，依据完整标题序列及排期判定为同一话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/48037; https://www.themoviedb.org/tv/52889; https://www.themoviedb.org/tv/52889/season/1; https://www.themoviedb.org/tv/52889/season/0; https://www.tv-tokyo.co.jp/anime/wooser2012/staff/; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201210/22382_201210022535.html; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=11540001&workId=11540; https://wooser.tv/w1st/; https://artist.cdjournal.com/d/-/4212110502",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 52889
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 52889,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 52889,
+      "season": 0,
       "type": "tv"
     }
   ]

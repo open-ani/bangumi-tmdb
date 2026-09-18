@@ -1,19 +1,91 @@
 {
   "anidbId": 11216,
   "bangumiId": 132817,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 898694,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 898695,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 898696,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 898697,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 898698,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 898699,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 898700,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 898701,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 898702,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 898703,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 898704,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 898705,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、制作公司及版本信息相符，12话标题和上线日期逐集完全一致。该 subject 对应 TMDB 90660 第1季第1—12集；旧映射覆盖整季过宽，会包含另立条目的 Part 2 第13—24集，应收窄范围。\n\nhttps://bgm.tv/subject/132817 (page): Bangumi 标注本作为2019年7月31日上线的12话网络动画，导演岸誠二、动画制作 LARX ENTERTAINMENT，剧情为企业通过斗技者比赛决定交易；Part 2 另列为续集。\n\nhttps://www.themoviedb.org/tv/90660 (api_snapshot): TMDB 90660 的日文原名、2019年7月31日首播日期、企业利益争夺的拳愿比赛剧情、LARX ENTERTAINMENT 制作公司及主角十鬼蛇王马均与本作一致；详情列第1季24集。\n\nhttps://www.themoviedb.org/tv/90660/season/1 (api_snapshot): 已读取第1季完整24集集表（共1页）。第1—12集标题依次为拳願、超人、強者、再会、乱戦、暗躍、前夜、開戦、正義、兄妹、修羅、父子，与输入的12话逐集一致，日期也全部一致为2019年7月31日。第13—24集日期为2019年10月31日，属于后续批次。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/132817; https://www.themoviedb.org/tv/90660; https://www.themoviedb.org/tv/90660/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 90660
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 90660,
       "season": 1,
       "type": "tv"

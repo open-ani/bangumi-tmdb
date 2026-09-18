@@ -1,21 +1,126 @@
 {
   "anidbId": 10585,
   "bangumiId": 101399,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 453666,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 453667,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 453668,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 453669,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 453670,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 453671,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 453672,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 453673,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 453674,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 453675,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 453676,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 453677,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 453678,
+      "sort": 1,
+      "type": 4
+    },
+    {
+      "id": 493464,
+      "sort": 7.5,
+      "type": 1
+    },
+    {
+      "id": 509263,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 493464,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 63406,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演、制作公司及声优均吻合。13话本篇标题逐集对应TMDB第1季第1至13集；第14至25集为后半季度，排除在本subject范围外。SP.7.5依据标题、内容及播出日期对应第0季第1集。\n\nhttps://www.themoviedb.org/tv/63406 (api_snapshot): TMDB 63406 为2015年电视动画，剧情围绕346事务所的灰姑娘计划，导演高雄统子、制作公司A-1 Pictures及主要角色声优均与输入一致；全剧25话合并为第1季。\n\nhttps://imas-cinderella.com/staff-cast/ (page): 官方网站确认原作为万代南梦宫、导演高雄统子、角色设计松尾祐辅、动画制作A-1 Pictures，与输入及TMDB资料相符。\n\nhttps://www.themoviedb.org/tv/63406/season/1 (api_snapshot): 已读取第1季完整25集表（共1页）。前13集标题与Bangumi本篇逐集一致，播出时间对应2015年1月至4月；第14集开始于7月，属于后半季度，不能把整个第1季分配给本subject。\n\nhttps://www.themoviedb.org/tv/63406/season/0 (api_snapshot): 已读取第0季完整4集表及英文资料。第1集为Special Program，日期2015-02-28，简介明确是第7、8话之间播出的声优主持回顾节目，与Bangumi章节493464一致。其余特别篇日期和内容均不对应本subject两条附加章节。\n\nhttps://imas-cinderella.com/news/?article_id=33700&category=ONAIR (search_snippet): 官方公告确认Special Program于2015年2月27日24时播出，内容为第1至7话回顾及主演声优谈话，解释了Bangumi与TMDB相差一天的日期记法。\n\nhttps://imas-cinderella.com/news/?article_id=32714 (search_snippet): 官方公告确认正月播前特番于2015年1月2日24时播出，由四名声优出演；正片于1月9日24时开始。该节目与2月的Special Program不同。\n\n备注：本篇日期多数相差一天，符合日本深夜24时的日期记法；第11话日期相同，第7话TMDB记为2015-02-22、Bangumi为2015-02-20，存在额外日期差异，但标题与剧情对应明确。；播前正月特番章节453678在已核实的TMDB季表中没有对应项，保留未映射；不能据此断言TMDB其他位置未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101399; https://www.themoviedb.org/tv/63406; https://imas-cinderella.com/staff-cast/; https://www.themoviedb.org/tv/63406/season/1; https://www.themoviedb.org/tv/63406/season/0; https://imas-cinderella.com/news/?article_id=33700&category=ONAIR; https://imas-cinderella.com/news/?article_id=32714",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63406
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 63406,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 63406,
+      "season": 0,
       "type": "tv"
     }
   ]

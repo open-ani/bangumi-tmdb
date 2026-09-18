@@ -1,16 +1,86 @@
 {
   "anidbId": 12308,
   "bangumiId": 188050,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 663210,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 663211,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 663212,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 663213,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 663214,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 663215,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 663216,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 663217,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 663218,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 663219,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 663220,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 663221,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2016 年播出的 12 集电视动画《チーティングクラフト／一课一练》，制作人员、BLADE 动画制作和剧情简介均与候选一致。输入的 AniDB 关联为 12308，且公开资料也将 AniDB 12308、12 集、1 季和 BLADE 对应至 Cheating Craft。TMDB TV 68144 的第 1 季明确为 12 集，12 个剧集标题逐条对应 Bangumi 正片 1 至 12 集，因此采用完整第 1 季。\n\nhttps://bgm.tv/subject/188050 (page): Bangumi 标记为 TV，名称为チーティングクラフト／一课一练，放送日期为 2016-10-04 至 2016-12-20，共 12 个正片章节；制作信息包括 BLADE、绘梦和元永庆太郎。\n\nhttps://www.wikidata.org/wiki/Q26963217 (page): Cheating Craft 被标记为日本动画电视系列，AniDB anime ID 为 12308，制作公司为 Blade，记录为 1 季、12 集。\n\nhttps://www.themoviedb.org/tv/68144 (api_snapshot): TMDB TV 68144 名称为チーティングクラフト、原名为一课一练，首播日期为 2016-10-05，简介主题与 Bangumi 主体一致，并记录 12 集。\n\nhttps://www.themoviedb.org/tv/68144/season/1 (api_snapshot): TMDB 第 1 季明确为 12 集；快照中的第 1 至第 12 集标题与 Bangumi 的 12 个正片标题逐条对应。\n\n备注：Bangumi 的首播日期比 TMDB 快照早一天，且 Bangumi 前两集日期记录与 TMDB 不完全相同，可能是时区或播出记录差异；标题、剧情、集数和制作信息均支持同一版本。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、角色和制作信息确认是同一作品；第1季完整覆盖主体，12个标题逐集一致，支持Bangumi正片1—12对应TMDB第1季第1—12集。\n\nhttps://bgm.tv/subject/188050 (page): Bangumi 标记为2016年电视动画，共12话；导演元永庆太郎，动画制作BLADE，製作绘梦。剧情围绕诸葛睦明、黄巧衣及L型与C型学生的考试对抗展开。\n\nhttps://www.themoviedb.org/tv/68144 (api_snapshot): TMDB 68144 的日文名称及中文原名吻合，记录为2016年播出的单季12集动画；导演元永庆太郎、制作公司Haoliners及主要角色、考试对抗设定均与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/68144/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。第1至12集日文标题与输入中的12个Bangumi章节逐一完全一致，顺序相同，无额外混入作品。TMDB日期从2016-10-05至2016-12-21，每周一集；除第2集外，均比对应Bangumi日期晚一天，第2集为2016-10-12。\n\n备注：两站放送日期存在差异：第1及第3—12集相差一天，第2集Bangumi记为10月4日、TMDB记为10月12日。差异原因尚未核实，但逐集标题完全一致，映射不依赖日期偏移猜测。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/188050; https://www.wikidata.org/wiki/Q26963217; https://www.themoviedb.org/tv/68144; https://www.themoviedb.org/tv/68144/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/188050; https://www.themoviedb.org/tv/68144; https://www.themoviedb.org/tv/68144/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68144
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

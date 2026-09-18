@@ -1,19 +1,91 @@
 {
   "anidbId": 17713,
   "bangumiId": 407713,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182954,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1182955,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1182956,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1182957,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1182958,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1182959,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1182960,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1182961,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1182962,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1182963,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1182964,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1182965,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、导演、制作公司及电视动画媒介一致。逐集标题与每周播出日期核对支持本篇1—12话对应 TMDB S01E01—E12；日期差来自深夜放送记日方式。TMDB 将两个季度合并为24集的第1季，因此旧映射应收窄到前12集，避免包含第二季度。\n\nhttps://www.themoviedb.org/tv/214264 (api_snapshot): 日文原名搜索命中 TMDB 214264；详情确认是2023年电视动画，剧情同为憧憬绊爱的少女进入 ADEN 学园，导演駒屋健一郎、动画制作 WIT STUDIO 与 Signal.MD 均与输入一致。\n\nhttps://www.themoviedb.org/tv/214264/season/1 (api_snapshot): 实际读取第1季完整集表，共24集、1页。前12集日期为2023-04-04至06-20，逐集比输入晚一天；第1、2、4、5、7至12话标题一致，第3话为对应英文标题的日文表达，第6话仅助词不同。第13集始于2023-10-05，属于后续季度。\n\nhttps://kizunanoallele.com/ (page): 官网确认第3话标题为「～ステージへの第一歩～」、第6话为「～完璧の理由～」，与 TMDB 一致；官网另明确标示第二季度于10月4日开播。\n\nhttps://prtimes.jp/main/html/rd/p/000000286.000060459.html (search_snippet): 制作方新闻稿摘要注明2023年4月3日周一深夜1时30分开播，即公历4月4日凌晨，解释 Bangumi 与 TMDB 日期相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/407713; https://www.themoviedb.org/tv/214264; https://www.themoviedb.org/tv/214264/season/1; https://kizunanoallele.com/; https://prtimes.jp/main/html/rd/p/000000286.000060459.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 214264
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 214264,
       "season": 1,
       "type": "tv"

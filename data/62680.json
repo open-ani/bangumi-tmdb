@@ -1,22 +1,127 @@
 {
   "anidbId": 8517,
   "bangumiId": 62680,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 386284,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 386285,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 386286,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 386287,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 635024,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 679180,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 386284,
+      "targets": [
+        {
+          "id": 329365,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 386285,
+      "targets": [
+        {
+          "id": 368708,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 386286,
+      "targets": [
+        {
+          "id": 397366,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 386287,
+      "targets": [
+        {
+          "id": 403850,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 635024,
+      "targets": [
+        {
+          "id": 428862,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 679180,
+      "targets": [
+        {
+          "id": 475935,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 62680 是 2015—2018 年发行的《機動戦士ガンダム THE ORIGIN》OVA，共 6 集；AniDB 8517 同样明确标为该日文标题、OVA、6 集，年份和制作人员一致。TMDB 88865 则是 2019 年播出的《THE ORIGIN 前夜 赤い彗星》，其第 1 季完整收录 13 集，剧集标题、日期和剧情从夏亚/塞拉童年、吉翁独立、鲁姆会战至一年战争开端，与该 6 集 OVA 的电视重编版对应。主体内容覆盖完整季，故采用整季范围。\n\nhttps://bgm.tv/subject/62680 (page): Bangumi 将该条目标为 OVA，发售日 2015-04-24，章节为 01—06，并列出夏亚、塞拉及吉翁开战前史。\n\nhttps://anidb.net/anime/8517 (page): AniDB 8517 的主标题为 Kidou Senshi Gundam: The Origin，日文官方标题为 機動戦士ガンダムTHE ORIGIN，类型为 OVA、6 episodes，时间为 2015-02-28 至 2018-05-05。\n\nhttps://www.themoviedb.org/tv/88865 (api_snapshot): TMDB API 快照确认 88865 的标题为 機動戦士ガンダム THE ORIGIN 前夜 赤い彗星，首播日 2019-04-29，共 13 集，包含第 1 季。\n\nhttps://www.themoviedb.org/tv/88865/season/1 (page): TMDB 第 1 季明确为 Season 1、2019 年、共 13 集；完整列出从第 1 集至第 13 集的标题、日期和剧情，包括鲁姆会战、赤色彗星夏亚和一年战争。\n\nhttps://www.gundam-the-origin.net/tv/episodes13.html (page): 官方电视版页面列出第 1—13 集及播出日期；第 13 集《一年战争》延续至阿姆罗、Gundam、南极和白色基地前往 Side 7 的开战前剧情。\n\nhttps://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam%3A_The_Origin_episodes (search_snippet): 搜索摘要说明 2019 年 13 集电视版是该 6 集 OVA 的 television recompilation。",
+    "evidence": "codex: 该 subject 收录2015—2018年的六集 OVA，TMDB 将六话分别收录为六个 movie。已逐一调用详情接口，六话标题与公开日期全部精确对应，剧情、SUNRISE制作及核心主创亦吻合；官方剧情页确认六话完整范围。因此按章节ID逐一映射六部电影。旧映射 TV 88865 第1季属于2019年13集电视重编版本，不能用来替代本条目的六集原版；第0季线索也未获接口支持。\n\nhttps://www.gundam-the-origin.net/story/ (page): 官方剧情页明确本作共六话，并逐话列出标题与剧情，与输入的六集 OVA 一致。\n\nhttps://www.themoviedb.org/movie/329365 (api_snapshot): 电影《I 青い瞳のキャスバル》，日期为2015-02-28、片长63分钟；剧情为戴肯死亡及其子女的命运，与第1话一致。制作公司为SUNRISE，导演包括安彦良和、今西隆志，编剧为隅泽克之。\n\nhttps://www.themoviedb.org/movie/368708 (api_snapshot): 电影《II 哀しみのアルテイシア》，日期为2015-10-31、片长58分钟；兄妹逃往地球及扎比家追迫的剧情、标题和日期均与第2话一致，制作公司及核心主创吻合。\n\nhttps://www.themoviedb.org/movie/397366 (api_snapshot): 电影《III 暁の蜂起》，日期为2016-05-21、片长68分钟；夏亚进入士官学校、结识卡尔马并参与武装起义的剧情、标题和日期均与第3话一致，制作公司及核心主创吻合。\n\nhttps://www.themoviedb.org/movie/403850 (api_snapshot): 电影《IV 運命の前夜》，日期为2016-11-19、片长68分钟；夏亚遇见拉拉、米诺夫斯基博士出逃及月面机动战士交战的剧情、标题和日期均与第4话一致，制作公司及核心主创吻合。\n\nhttps://www.themoviedb.org/movie/428862 (api_snapshot): 电影《V 激突 ルウム会戦》，日期为2017-09-02、片长84分钟；殖民卫星坠落及鲁姆会战开端的剧情、标题和日期均与第5话一致，制作公司为SUNRISE，安彦良和及隅泽克之参与主创。\n\nhttps://www.themoviedb.org/movie/475935 (api_snapshot): 电影《VI 誕生 赤い彗星》，日期为2018-05-05、片长84分钟；夏亚在鲁姆会战立功获得赤色彗星称号及联邦推进V作战的剧情、标题和日期均与第6话一致，制作公司及核心主创吻合。\n\nhttps://www.themoviedb.org/tv/88865 (api_snapshot): TV 88865 的正式标题为《機動戦士ガンダム THE ORIGIN 前夜 赤い彗星》，首播日期2019-04-29，详情列出13集及第1季，属于不同年份与分集结构的电视版本。\n\nhttps://www.themoviedb.org/tv/88865/season/0 (api_snapshot): 实际调用第0季接口返回HTTP 404，无法支持线索中指向该特别篇季的映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/62680; https://anidb.net/anime/8517; https://www.themoviedb.org/tv/88865; https://www.themoviedb.org/tv/88865/season/1; https://www.gundam-the-origin.net/tv/episodes13.html; https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam%3A_The_Origin_episodes",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/62680; https://www.gundam-the-origin.net/story/; https://www.themoviedb.org/movie/329365; https://www.themoviedb.org/movie/368708; https://www.themoviedb.org/movie/397366; https://www.themoviedb.org/movie/403850; https://www.themoviedb.org/movie/428862; https://www.themoviedb.org/movie/475935; https://www.themoviedb.org/tv/88865; https://www.themoviedb.org/tv/88865/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 88865,
-      "season": 1,
-      "type": "tv"
+      "id": 329365,
+      "type": "movie"
+    },
+    {
+      "id": 368708,
+      "type": "movie"
+    },
+    {
+      "id": 397366,
+      "type": "movie"
+    },
+    {
+      "id": 403850,
+      "type": "movie"
+    },
+    {
+      "id": 428862,
+      "type": "movie"
+    },
+    {
+      "id": 475935,
+      "type": "movie"
     }
   ]
 }

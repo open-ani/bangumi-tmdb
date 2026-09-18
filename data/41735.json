@@ -1,16 +1,31 @@
 {
   "anidbId": 7919,
   "bangumiId": 41735,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 177259,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 41735 是单集 OVA《ボトムズファインダー》，发售日为 2011-04-07，且 AniDB 关联为 7919（Armored Trooper VOTOMS: VOTOMS Finder）。TMDB TV 32377 的“特別編”第 34 集标题正是《ボトムズファインダー》，日期同为 2011-04-07，简介对应独立于 52 集电视本篇的该作品，故应映射为第 0 季第 34 集，而不是整季或主系列季。\n\nhttps://www.themoviedb.org/tv/32377/season/0 (api_snapshot): TMDB 第 0 季名为“特別編”；第 34 集标题为“ボトムズファインダー”，播出日期为 2011-04-07，简介描述其独立故事。\n\nhttps://www.themoviedb.org/tv/32377 (api_snapshot): TMDB TV 32377 的主条目是《装甲騎兵ボトムズ》，主系列为 52 集，并另列出第 0 季“特別編”。\n\nhttps://bgm.tv/subject/41735 (page): Bangumi subject 41735 的名称为《ボトムズファインダー／装甲騎兵 探寻者》，类型为 OVA，发售日为 2011-04-07，正篇话数为 1。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 41735 是单集 OVA《ボトムズファインダー》，发售日为 2011-04-07，且 AniDB 关联为 7919（Armored Trooper VOTOMS: VOTOMS Finder）。TMDB TV 32377 的“特別編”第 34 集标题正是《ボトムズファインダー》，日期同为 2011-04-07，简介对应独立于 52 集电视本篇的该作品，故应映射为第 0 季第 34 集，而不是整季或主系列季。\n\nhttps://www.themoviedb.org/tv/32377/season/0 (api_snapshot): TMDB 第 0 季名为“特別編”；第 34 集标题为“ボトムズファインダー”，播出日期为 2011-04-07，简介描述其独立故事。\n\nhttps://www.themoviedb.org/tv/32377 (api_snapshot): TMDB TV 32377 的主条目是《装甲騎兵ボトムズ》，主系列为 52 集，并另列出第 0 季“特別編”。\n\nhttps://bgm.tv/subject/41735 (page): Bangumi subject 41735 的名称为《ボトムズファインダー／装甲騎兵 探寻者》，类型为 OVA，发售日为 2011-04-07，正篇话数为 1。\n\n脚本按声明范围生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/41735; https://www.themoviedb.org/tv/32377/season/0; https://www.themoviedb.org/tv/32377",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 34,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 32377
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

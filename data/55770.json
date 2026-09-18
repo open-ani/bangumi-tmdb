@@ -1,16 +1,168 @@
 {
   "anidbId": 9541,
   "bangumiId": 55770,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 256446,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 257138,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 257139,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 257140,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 257141,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 257142,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 257143,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 257144,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 257145,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 257146,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 278923,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 278924,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 278925,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 278926,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 279899,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 279901,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 279902,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 279903,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 279904,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 279905,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 283677,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 286937,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 287225,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 290029,
+      "sort": 13.5,
+      "type": 1
+    },
+    {
+      "id": 296356,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 316486,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 290029,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 1429,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 55770 与 AniDB 9541 的标题、年份和作品信息一致。TMDB TV 1429 第1季为2013年、25集，其完整标题、日期和剧情逐集对应 Bangumi 的25集正篇。Bangumi 另记录特别篇「从那一天开始」13.5（总话数26），TMDB 将其编为特别篇 season 0 episode 1（0x1，标题为「#13.5：从那一天开始」），日期也对应2013年7月播出。因此应包含第1季完整25集及第0季第1集；不纳入其他OVA、总集篇或衍生特别篇。\n\nhttps://bgm.tv/subject/55770 (api_snapshot): Bangumi subject 55770 为2013年4月播出的《進撃の巨人》TV正篇，常规25集，并记录特别篇13.5「从那一天开始」；AniDB ID为9541且标题状态为matched。\n\nhttps://www.themoviedb.org/tv/1429 (api_snapshot): TMDB TV 1429 为《進撃の巨人》，首播日期2013-04-07，第1季25集，另有特别篇季。\n\nhttps://www.themoviedb.org/tv/1429/season/1 (api_snapshot): TMDB第1季首播日期2013-04-07，共25集；输入快照中的25个剧集标题、日期和剧情与Bangumi正篇第1至25集逐集对应。\n\nhttps://waf.themoviedb.org/tv/1429/episodes?credit_id=590d9a959251414eca00c6fa&language=ko-KR&person_id=4bc8c6f4017a3c122d08a11e (search_snippet): TMDB剧集列表明确显示「#13.5：その日から（总集篇）」为0x1，日期为2013-07-07，与Bangumi特别篇13.5对应。\n\nhttps://www.themoviedb.org/tv/1429/seasons?language=zh-CN (search_snippet): TMDB季列表显示特别篇为season 0，2013年，共37集；该季是混合特别篇集合，不能按整季纳入。",
+    "evidence": "codex: 已确认是2013年TV动画第一季。年份、剧情、制作信息一致，25集本篇的标题、顺序和放送间隔逐集吻合，对应TMDB 1429第1季全季；日期统一相差一天，符合深夜放送日与公历日期的记法差异。特别篇13.5「あの日から」对应第0季第1集，使用章节ID覆盖。范围不包含其他OAD、剧场版或衍生作品，且与给出的其他subject占用范围无冲突。\n\nhttps://www.themoviedb.org/tv/1429 (api_snapshot): 日文原名搜索命中 TV 1429；详情确认其为2013年开始的日本动画，围绕艾伦、巨人及城墙展开，制作公司包括 WIT STUDIO、Production I.G，与输入作品相符。\n\nhttps://www.themoviedb.org/tv/1429/season/1 (api_snapshot): 第1季完整集表共25集，total_pages=1。逐集日文标题及篇章序号与输入本篇1—25一致；日期逐集均比 Bangumi 晚一天，范围为2013-04-07至2013-09-29，第13与14集之间同样间隔两周。\n\nhttps://www.themoviedb.org/tv/1429/season/0 (api_snapshot): 第0季完整集表共37集，total_pages=1。第1集「あの日から」日期为2013-07-07，时长24分钟，内容为西甘锡纳陷落及托罗斯特战役回顾；其他集包含OAD、迷你剧场及后续作品，仅第1集属于本 subject。\n\nhttps://shingeki.tv/season1/ (search_snippet): 第一季官网列出原作谏山创、导演荒木哲郎、系列构成小林靖子、角色设计浅野恭司、动画制作 WIT STUDIO、制作协力 Production I.G，与输入制作信息一致。\n\nhttps://www.mbs.jp/shingeki/sp/select-1st/13_5.shtml (search_snippet): MBS明确将「あの日から」标为第13.5话、前半总集篇，并说明下一话为第14话「まだ目を見れない」。\n\nhttps://bgm.tv/ep/290029 (search_snippet): Bangumi章节290029为SP.13.5「あの日から」，首播2013-07-06，内容为第1至13话总集篇。\n\nhttps://animation.noihjp.com/AnimeShower/Shingeki/ (search_snippet): 放送记录将第13.5话列为MBS于2013年7月6日25:58播出，即公历7月7日凌晨，解释了两库相差一天的日期口径。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/55770; https://www.themoviedb.org/tv/1429; https://www.themoviedb.org/tv/1429/season/1; https://waf.themoviedb.org/tv/1429/episodes?credit_id=590d9a959251414eca00c6fa&language=ko-KR&person_id=4bc8c6f4017a3c122d08a11e; https://www.themoviedb.org/tv/1429/seasons?language=zh-CN",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/55770; https://www.themoviedb.org/tv/1429; https://www.themoviedb.org/tv/1429/season/1; https://www.themoviedb.org/tv/1429/season/0; https://shingeki.tv/season1/; https://www.mbs.jp/shingeki/sp/select-1st/13_5.shtml; https://bgm.tv/ep/290029; https://animation.noihjp.com/AnimeShower/Shingeki/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 1429
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

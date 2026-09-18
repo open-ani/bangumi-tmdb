@@ -1,21 +1,189 @@
 {
   "anidbId": 7719,
   "bangumiId": 9781,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 62943,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 63329,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 63330,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 63331,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 63332,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 63333,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 63334,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 63335,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 63336,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 63337,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 63338,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 63339,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 83346,
+      "sort": 10.5,
+      "type": 1
+    },
+    {
+      "id": 83367,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 83368,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 83369,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 83370,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 83371,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 83372,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 83373,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 83374,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 83375,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 83376,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 83377,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 83615,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 92685,
+      "sort": 1,
+      "type": 3
+    },
+    {
+      "id": 92690,
+      "sort": 2,
+      "type": 3
+    },
+    {
+      "id": 105320,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 83346,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 38560,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、制作公司、导演及剧情均吻合；完整集表确认 24 集本篇逐集对应 TMDB 第 1 季，未混入其他作品。小数章节 10.5 通过标题和日期确认对应 S00E01。\n\nhttps://www.themoviedb.org/tv/38560 (api_snapshot): 以日文原名搜索命中 TV 38560；详情确认为 2011 年电视动画，制作公司 BONES、导演難波日登志，剧情涉及圣玛格丽特学园、久城一弥与维多利加，与输入作品一致。\n\nhttps://www.themoviedb.org/tv/38560/season/1 (api_snapshot): 第 1 季完整集表共 24 集、1 页。逐集核对后，标题及顺序与 Bangumi 本篇 1—24 一致，仅第 20、24 集存在注音或标点差异；日期多数相同，第 10 集相差三天，第 11—13、15—16、24 集相差一天。\n\nhttps://www.themoviedb.org/tv/38560/season/0 (api_snapshot): 第 0 季完整集表共 7 集、1 页；第 1 集的特别篇标题与 Bangumi 章节 83346 一致，日期均为 2011-03-25。其余条目没有足以确认 OP、ED 对应关系的标题或简介。\n\nhttps://www.tv-tokyo.co.jp/anime/gosick/ (page): 东京电视台官方页面标有 2011 年原作者及制作委员会版权信息，并在 2011-07-07 公告追加第 24 话配信，支持该电视动画版本及本篇集数。\n\n备注：部分本篇日期存在一天差异，第 10 集为 Bangumi 2011-03-15、TMDB 2011-03-18；差异原因未进一步核实，但标题和完整集序一致。；OP《Destin Histoire》及两首 ED 未取得可靠的 TMDB 逐集对应证据，保留未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/9781; https://www.themoviedb.org/tv/38560; https://www.themoviedb.org/tv/38560/season/1; https://www.themoviedb.org/tv/38560/season/0; https://www.tv-tokyo.co.jp/anime/gosick/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 38560
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 38560,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 38560,
+      "season": 0,
       "type": "tv"
     }
   ]

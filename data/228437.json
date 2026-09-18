@@ -1,15 +1,118 @@
 {
   "bangumiId": 228437,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 755055,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 755056,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 755057,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 755058,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 755059,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 755060,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 755061,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 755062,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 755063,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 755064,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 755065,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 755066,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 755067,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 755068,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 755069,
+      "sort": 15,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 755069,
+      "targets": [
+        {
+          "episode": 15,
+          "id": 60554,
+          "season": 4,
+          "type": "tv"
+        },
+        {
+          "episode": 16,
+          "id": 60554,
+          "season": 4,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 对应 TMDB《Star Wars Rebels》主系列第 4 季（TV），不是 LEGO 短片或 Rebels Recon。TMDB 作品日期为 2014-10-13 至 2018-03-05，制作公司为 Lucasfilm/Lucasfilm Animation，剧情、角色、演员及制作信息均与《义军崛起》一致。TMDB 第 4 季表覆盖全部主体内容；其将最终篇《Family Reunion - and Farewell》拆成第 15、16 集，而 Bangumi 与官方发行资料将其合并计为第 15 集，因此应映射整季，不设部分集数范围。用户提供的 IMDb tt6603454 实际对应该季第 1 集，不能作为主系列 IMDb ID；主系列 TMDB 详情中的 IMDb ID 为 tt2930604。\n\nhttps://www.themoviedb.org/tv/60554 (api_snapshot): TMDB 详情：原名 Star Wars Rebels，首播 2014-10-13，完结 2018-03-05，共 4 季 69 集；剧情为 Ghost 舰队成员在帝国统治下参与反抗，制作公司为 Lucasfilm Ltd. 与 Lucasfilm Animation，列出演员 Freddie Prinze Jr.、Taylor Gray、Vanessa Marshall、Tiya Sircar 等。\n\nhttps://www.themoviedb.org/tv/60554/season/4 (api_snapshot): TMDB 第 4 季季表：首播 2017-10-16，覆盖 Heroes of Mandalore、In the Name of the Rebellion、The Occupation、Flight of the Defender、Kindred、Crawler Commandeers、Jedi Night、DUME、Wolves and a Door、A World Between Worlds、A Fool's Hope 及最终篇；TMDB 将最终篇拆为第 15、16 集。\n\nhttps://www.starwars.com/news/star-wars-rebels-season-four-viewing-schedule (page): 官方资料确认这是《Star Wars Rebels》的第四、最终季，2017-10-16 起在 Disney XD 播出，并列出前半季各集及两集联播安排。\n\nhttps://www.starwars.com/news/star-wars-rebels-season-four-blu-ray (page): 官方第四季发行资料明确称完整第四季包含 15 集，并称 Dave Filoni 为执行制片人、Kevin Kiner 负责配乐。\n\nhttps://www.starwars.com/news/the-final-episodes-of-star-wars-rebels-begin-february-19-on-disney-xd (page): 官方资料列出 2018-03-05 播出的 A Fool's Hope 与 Family Reunion – and Farewell，并称结局为 90 分钟的最终篇，解释了不同数据库将末篇拆分或合并的集数差异。",
+    "evidence": "codex: 确认对应 TMDB 60554 第4季整季。动画媒介、制作信息、角色剧情、播出年份及逐集标题和日期一致，季表未混入其他作品。Bangumi 第1—14话顺序对应 S04E01—E14；第15话最终篇在 TMDB 拆为 E15、E16，通过章节覆盖指定一对多映射。\n\nhttps://www.themoviedb.org/tv/60554 (api_snapshot): TMDB 60554 为 Lucasfilm 制作的动画剧集《Star Wars Rebels》，剧情围绕幽灵号成员反抗帝国，包含第四季，首播于2017-10-16；作品、角色、制作公司与官方资料一致。\n\nhttps://www.themoviedb.org/tv/60554/season/4 (api_snapshot): 第四季实际集表共16集，total_pages=1。第1—14集与输入章节逐一核对，日期全部一致，标题仅有分段写法、大小写及第8集 Commanders/Commandeers 的拼写差异。第15、16集为最终篇的上下两部分，均于2018-03-05播出。\n\nhttps://www.starwars.com/news/star-wars-rebels-season-four-viewing-schedule (page): 官方确认第四季为最终季，在 Disney XD 于2017-10-16开播；所列前9集标题与播出日期对应输入及 TMDB 集表。\n\nhttps://www.starwars.com/news/the-final-episodes-of-star-wars-rebels-begin-february-19-on-disney-xd (page): 官方列出2018-02-19、02-26、03-05播出的末6个章节，标题与输入一致；最终篇以一个完整标题列出，与 TMDB 同日播出的第15、16集分段对应。\n\nhttps://www.starwars.com/news/star-wars-rebels-season-four-blu-ray (page): 官方第四季影碟资料明确收录完整15集，并确认 Dave Filoni 为执行制片人、Kevin Kiner 负责配乐；15集口径与 Bangumi 一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/228437; https://www.themoviedb.org/tv/60554; https://www.themoviedb.org/tv/60554/season/4; https://www.starwars.com/news/star-wars-rebels-season-four-viewing-schedule; https://www.starwars.com/news/star-wars-rebels-season-four-blu-ray; https://www.starwars.com/news/the-final-episodes-of-star-wars-rebels-begin-february-19-on-disney-xd",
-    "verifiedAt": "2026-09-08T21:09:45.114Z"
+    "source": "https://bgm.tv/subject/228437; https://www.themoviedb.org/tv/60554; https://www.themoviedb.org/tv/60554/season/4; https://www.starwars.com/news/star-wars-rebels-season-four-viewing-schedule; https://www.starwars.com/news/the-final-episodes-of-star-wars-rebels-begin-february-19-on-disney-xd; https://www.starwars.com/news/star-wars-rebels-season-four-blu-ray",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 60554
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

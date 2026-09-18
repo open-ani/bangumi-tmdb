@@ -1,19 +1,106 @@
 {
   "anidbId": 17256,
   "bangumiId": 374206,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1152947,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1153635,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1153636,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1156108,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1156109,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1156110,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1156111,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1156112,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1156113,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1156114,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1156115,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1156116,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1156117,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1156118,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1156119,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、电视动画媒介与制作人员一致，12集本篇的标题及日期逐集对应TMDB第1季第1—12集。旧映射应收窄至该区间，避免包含第二期第13—24集，也不与已有第二期归属重叠。\n\nhttps://www.themoviedb.org/tv/194986 (api_snapshot): 以日文原名检索得到 TV 194986；详情确认首播为2023-01-05，剧情为克劳斯组建间谍机关「灯」、训练少女执行不可能任务，导演川口敬一郎、原作竹町及制作方均与输入吻合，属于同一部电视动画。\n\nhttps://www.themoviedb.org/tv/194986/season/1 (api_snapshot): 第1季真实季表共24集，total_pages=1。前12集与输入的12个本篇逐集标题及播出日期一致，日期范围为2023-01-05至2023-03-30；第10集仅空格及罗马数字写法不同。第13集于2023-07-13播出，后半季不属于本 subject，不能映射整季。\n\nhttps://spyroom-anime.com/ (page): 官方页面标示电视动画、7月13日开播信息，并以连续编号列出至第24话，与TMDB将两期合并为24集的编排相符。\n\n备注：输入中的3个SP节目尚未核实到TMDB对应条目，保持未映射；不据此断言TMDB未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/374206; https://www.themoviedb.org/tv/194986; https://www.themoviedb.org/tv/194986/season/1; https://spyroom-anime.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 194986
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 194986,
       "season": 1,
       "type": "tv"

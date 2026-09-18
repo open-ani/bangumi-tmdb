@@ -1,13 +1,79 @@
 {
   "bangumiId": 552112,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1490044,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1490045,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1490046,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1490047,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1490048,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1490049,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1490050,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1490051,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1490052,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1490053,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1490054,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1490055,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1490056,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品版本、制作方、播放平台、年份、季间关系及13集范围一致，可确认对应 TMDB 78173 第6季整季。Bangumi 章节缺少标题和逐集日期，无法完成章节级交叉核对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/552112 (page): Bangumi 标明本作为 DreamWorks 制作、Netflix 播放的《飞越边界》第六季，属于 WEB 动画，共13话，2018年2月16日开始，前作为第五季。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): TMDB 78173 为 DreamWorks Animation Television 制作的 Dragons: Race to the Edge，共6季78集；剧情围绕小嗝嗝、无牙及龙眼展开。第五季日期为2017年8月25日，第六季为2018年2月16日，与输入的季间关系和日期一致。\n\nhttps://www.themoviedb.org/tv/78173/season/6 (api_snapshot): 第六季真实集表共13集，total_pages=1，全部日期为2018年2月16日；首集为 In Plain Sight，末两集为 King of Dragons (1) 和 (2)，未混入其他季或特别篇。\n\nhttps://www.tvmaze.com/seasons/81412/dreamworks-dragons-race-to-the-edge-season-6/episodeguide (page): TVmaze 第六季的13集标题、顺序和逐集日期均与 TMDB 第六季一致，末两集同样分别列为上下篇。\n\nhttps://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s06 (page): 第六季资料确认 Netflix、2018年2月16日、动画媒介及13集剧情；Jay Baruchel、America Ferrera 等配音人员与 TMDB 相符，执行制片人为 Douglas Sloan 和 Art Edler Brown。\n\n备注：输入的13个 Bangumi 章节均无标题和日期，网页概览也仅显示编号；外部集表虽已核实，仍不足以独立验证每个 Bangumi 章节的对应关系。需补充章节标题或日期后再生成 rules。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552112; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/6; https://www.tvmaze.com/seasons/81412/dreamworks-dragons-race-to-the-edge-season-6/episodeguide; https://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s06",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

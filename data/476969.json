@@ -1,16 +1,146 @@
 {
   "anidbId": 18715,
   "bangumiId": 476969,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1390966,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1390967,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1390968,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1390969,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1390970,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1390971,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1390972,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1390973,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1390974,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1390975,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1390976,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1390977,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1410010,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1410011,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1410012,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1410013,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1410014,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1410015,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1410016,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1410017,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1410018,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1410019,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1410020,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1410021,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体《殿と犬》与 TMDB 270657 在日文标题、首播日期、24 集规模、剧情、原作及 OLM × Live2D Creative Studio 制作信息上吻合。官方页面明确列出第1至第24话，并说明作品有四种声优版本，属于同一 TV 主体；TMDB 第1季明确包含完整24集。Bangumi 第13集日期记录为2025-01-02与官方/其他播出资料的第二季度始于2025-01-09存在差异，但不改变剧集标题顺序及完整季对应关系。\n\nhttps://bgm.tv/subject/476969 (page): Bangumi 主体为《殿と犬／殿下与狗》，TV，2024-10-10开播，共24集，AniDB ID为18715，制作方为 OLM × Live2D Creative Studio。\n\nhttps://www.themoviedb.org/tv/270657 (api_snapshot): TMDB TV 270657 名为《殿と犬》，首播2024-10-10，共24集；简介为没落武士与狗共同生活。\n\nhttps://www.themoviedb.org/tv/270657/season/1 (api_snapshot): TMDB 第1季为 season_number=1，开播2024-10-10，共24集；第1至第24集标题与官方故事顺序一致。\n\nhttps://tonotoinu.com/story (page): 官方 STORY 页面列出第一话至第二十四话，第24话为《犬と出会い》，与 TMDB 第24集一致。\n\nhttps://tonotoinu.com/onair (page): 官方播出页列出《殿と犬》的四种声优版本，均从2024年10月开始按周播出，说明这些是同一 TV 作品的不同配音版本。\n\nhttps://tonotoinu.com/character (page): 官方角色页描述殿、犬及主要配角，与 TMDB 剧情简介和各集简介中的角色、故事线吻合。\n\n备注：Bangumi 第13集记录为2025-01-02，而 TMDB及公开播出资料将第13集列为2025-01-09；这更像年末年初编排或 Bangumi 日期记录差异，未发现会导致季号或集数范围变化的证据。",
+    "evidence": "codex: 确认该 subject 对应 TMDB 270657 第1季完整24集：年份、首播、剧情、导演、制作公司及配音版本均吻合，季内没有混入其他作品。逐集规则仅填写日期及已有标题能够核实的第1—12集；第13—24集存在日期冲突且 Bangumi 标题缺失，暂不按位置推定。\n\nhttps://www.themoviedb.org/tv/270657 (api_snapshot): 日文原名搜索得到 TV 270657；详情确认首播为2024-10-10，导演春日森春木，制作公司为 OLM、Live2D Creative Studio，剧情为没落武士与狗的共同生活，与输入一致。\n\nhttps://www.themoviedb.org/tv/270657/season/1 (api_snapshot): 已读取第1季完整集表，24集、共1页。第1—12集日期与 Bangumi 逐集一致，前三集标题亦一致。第13—24集日期为2025-01-09至2025-03-27，比 Bangumi 对应编号均晚7天。\n\nhttps://bangumi.tv/subject/476969/ep (page): Bangumi 章节页列出24集；只有前三集有标题，第4—24集标题为空，第13—24集日期记录为2025-01-02至2025-03-20。\n\nhttps://tonotoinu.com/ (page): 官网确认原作为西田理英作品，导演春日森春木，动画制作 OLM × Live2D Creative Studio。\n\nhttps://tonotoinu.com/onair (page): 官方播出页将四个副标题明确标为四位声优的版本；其中大塚明夫版于10月10日开始播出。TMDB 详情也将这四个版本列为同一作品的别名。\n\nhttps://tonotoinu.com/story (page): 官方故事目录覆盖第一至第二十四话，最终话为《犬と出会い》，与 TMDB 第1季终集一致。\n\nhttps://tonotoinu.com/story/第十三話 (page): 官方第十三话为《殿と雨》，剧情与 TMDB 第13集一致；该页面没有提供放送日期。\n\n备注：Bangumi 第13—24集日期均比 TMDB 同编号早7天，并非只有第13集存在差异。可能涉及年初排期未更新，但尚未充分核实；补齐 Bangumi 后半集标题或取得可关联章节内容的证据后，再扩展规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/476969; https://www.themoviedb.org/tv/270657; https://www.themoviedb.org/tv/270657/season/1; https://tonotoinu.com/story; https://tonotoinu.com/onair; https://tonotoinu.com/character",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/476969; https://www.themoviedb.org/tv/270657; https://www.themoviedb.org/tv/270657/season/1; https://bangumi.tv/subject/476969/ep; https://tonotoinu.com/; https://tonotoinu.com/onair; https://tonotoinu.com/story; https://tonotoinu.com/story/第十三話",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 270657
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

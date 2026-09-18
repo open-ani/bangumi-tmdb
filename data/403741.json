@@ -1,16 +1,96 @@
 {
   "anidbId": 17662,
   "bangumiId": 403741,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1229788,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1229789,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1229790,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1229791,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1229792,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1229793,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1229794,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1229795,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1229796,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1229797,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1229798,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1229799,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1384459,
+      "sort": 0,
+      "type": 2
+    },
+    {
+      "id": 1384460,
+      "sort": 0,
+      "type": 3
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 220779第1季整季。年份、TV媒介、剧情、导演、制作公司及12集范围一致，全部本篇标题逐集吻合；日期差异由深夜计日及官方第7集延期公告解释。因此本篇sort 1—12依次对应S01E01—E12。\n\nhttps://www.themoviedb.org/tv/220779 (api_snapshot): 日文原名与英文别名搜索均找到 TV 220779；详情确认是2023年电视动画，剧情为上班族转生为治愈士路西耶尔，导演玉川真人，动画制作横浜アニメーションラボ与CLOUDHEARTS，均与输入一致；全剧1季12集。\n\nhttps://www.themoviedb.org/tv/220779/season/1 (api_snapshot): 已读取第1季完整集表，episodeCount=12、total_pages=1。第1至12集日文标题与输入逐集完全一致，顺序一致。除第7集外，各集日期均比输入晚1个日历日；第7、8集均记为2023-09-01。\n\nhttps://www.tbs.co.jp/anime/seija/onair/ (page): 官方确认TBS于2023年7月13日起每周四深夜1:28播出，即次日日历日期；ABEMA于7月6日深夜开始提前配信，解释了不同平台及深夜日期口径。\n\nhttps://www.tbs.co.jp/anime/seija/staffcast/ (page): 官方制作名单确认导演玉川真人、动画制作横浜アニメーションラボ与クラウドハーツ，以及路西耶尔配音川岛零士，与TMDB一致。\n\nhttps://www.tbs.co.jp/anime/seija/news/news20230810_01.html (search_snippet): 官方调整公告说明因世界田径赛编排暂停第7集，改为8月31日深夜连续播出第7、8集，对应日历日期9月1日，解释TMDB第7集与输入的日期差异。\n\n备注：无字幕OP、ED章节1384459与1384460未确认TMDB对应条目，保留未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/403741; https://www.themoviedb.org/tv/220779; https://www.themoviedb.org/tv/220779/season/1; https://www.tbs.co.jp/anime/seija/onair/; https://www.tbs.co.jp/anime/seija/staffcast/; https://www.tbs.co.jp/anime/seija/news/news20230810_01.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 220779
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

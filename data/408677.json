@@ -1,13 +1,32 @@
 {
+  "anidbId": 17730,
   "bangumiId": 408677,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1147943,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1147943,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 218833,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应《ブルーアーカイブ》系列的宣传短动画“beautiful day dreamer”，不是2024年TV正篇。官方资料确认其原作、标题、游戏开发部角色与Yostar Pictures制作；TMDB特别篇第2集具有完全对应的日文标题和约9分钟片长。由于该特别篇还混入其他宣传短片，只映射第2集。\n\nhttps://api.bgm.tv/v0/subjects/408677 (api_snapshot): Bangumi API记录标题为beautiful day dreamer，2022-11-21发布，WEB媒介、1话；简介说明通过滑动面板答题后观看特别影像。\n\nhttps://yostar-pictures.co.jp/works/detail/2124/ (page): Yostar Pictures官方作品页列出“Mobile Game Blue Archive beautiful day dreamer Animation Official Trailer”，原作是Mobile Game Blue Archive，列出游戏开发部角色，并注明由Yostar Pictures制作动画。\n\nhttps://yostar-pictures.co.jp/news/detail/2127/ (page): Yostar Pictures官方新闻于2022-11-22确认Blue Archive“beautiful day dreamer”动画宣传片及其主题曲“Our Quest”。\n\nhttps://www.themoviedb.org/tv/218833 (api_snapshot): TMDB TV条目218833是《ブルーアーカイブ The Animation》，主体日期为2024-04-07，另设2022年特别篇season 0；因此不能把Bangumi条目映射为2024年TV正篇整季。\n\nhttps://www.themoviedb.org/tv/218833/season/0 (api_snapshot): TMDB season 0的第2集标题为“【ブルアカ】「beautiful day dreamer」”，日期字段为2022-11-07，片长9分钟；该季共13集且包含其他不同宣传短片，所以闭区间只能取第2集。\n\nhttps://www.nicovideo.jp/watch/sm41402314 (page): 公开转载页面使用完全对应的日文标题“〖ブルアカ〗ショートアニメーション「beautiful day dreamer」”，发布时间为2022-11-21，并链接官方原视频。\n\n备注：TMDB将该集日期记为2022-11-07，而Bangumi记录为2022-11-21、官方新闻日期为2022-11-22；具体日期字段存在差异，但标题、作品身份、媒介和单集范围一致。",
+    "evidence": "codex: 确认对应 TMDB 218833 第0季第2集。官方资料与 Bangumi 的原作、制作人员、角色及短动画版本一致，TMDB 对应集的完整标题和约9分钟片长吻合。该 subject 仅有一话，通过章节覆盖映射至这一特别篇，不扩大到整季，也不与已有其他 subject 的范围重叠。\n\nhttps://bgm.tv/subject/408677 (page): Bangumi 标记为2022年11月21日发布的单话 WEB 动画；制作公司为 Yostar Pictures，作画监督包括りお，ED演出为宮田悠司。\n\nhttps://yostar-pictures.co.jp/works/detail/2124/ (page): 制作公司官方作品页确认该片改编自《Blue Archive》，标题为 beautiful day dreamer；角色包括游戏开发部四人，作画监督及ED演出与 Bangumi 一致，并将 Our Quest 列为片尾曲。\n\nhttps://yostar-pictures.co.jp/news/detail/2127/ (page): Yostar Pictures 于2022年11月22日发布该动画的制作公告，确认作品标题、游戏原作及片尾曲。\n\nhttps://bluearchive.fandom.com/wiki/Beautiful_Day_Dreamer (search_snippet): 资料记录该片为约9分54秒的网络短动画，剧情围绕游戏开发部的游戏创作、桃井参加棒球比赛及其梦境展开，可与单独的片尾曲音乐录像区分。\n\nhttps://www.nicozon.net/watch/sm41402314 (search_snippet): 2022年11月21日的转载记录使用同名短动画标题，简介中的滑动拼图活动文字与 Bangumi 相同，并链接官方原视频。\n\nhttps://www.themoviedb.org/tv/218833 (api_snapshot): TMDB 218833 主体为2024年4月7日开播的《ブルーアーカイブ The Animation》，另设收录13集的第0季；本短片不对应2024年TV正篇。\n\nhttps://www.themoviedb.org/tv/218833/season/0 (api_snapshot): 已读取第0季全部13集，total_pages=1。第2集标题为【ブルアカ】「beautiful day dreamer」，时长9分钟，日期字段为2022-11-07；其他集为周年动画及不同宣传短片，因此范围仅取第2集。\n\n备注：TMDB 将该集日期记为2022-11-07，与 Bangumi 及当日转载记录的2022-11-21、官方制作公告的2022-11-22不一致；该日期字段差异尚未解释，但其他身份及范围证据一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/408677; https://api.bgm.tv/v0/subjects/408677; https://yostar-pictures.co.jp/works/detail/2124/; https://yostar-pictures.co.jp/news/detail/2127/; https://www.themoviedb.org/tv/218833; https://www.themoviedb.org/tv/218833/season/0; https://www.nicovideo.jp/watch/sm41402314",
-    "verifiedAt": "2026-09-08T23:40:42.157Z"
+    "source": "https://bgm.tv/subject/408677; https://yostar-pictures.co.jp/works/detail/2124/; https://yostar-pictures.co.jp/news/detail/2127/; https://bluearchive.fandom.com/wiki/Beautiful_Day_Dreamer; https://www.nicozon.net/watch/sm41402314; https://www.themoviedb.org/tv/218833; https://www.themoviedb.org/tv/218833/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,13 +1,75 @@
 {
+  "anidbId": 12152,
   "bangumiId": 211023,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 787063,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 787064,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 787065,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 787066,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 787067,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 787068,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 787069,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 787070,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 787071,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 787072,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 787073,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 787074,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认是同名的2016年日本短篇WEB/ONA动画《いっぽう日本昔ばなし》，不是旧版《まんが日本昔ばなし》或其他昔话合集。TMDB条目日期为2016-06-01，制作公司为ILCA，简介与该作“经典日本昔话另一面”的设定一致；外部资料还确认谷口崇负责原作/导演并由其配音。TMDB第1季实际有12集，每集约3分钟，标题依次对应桃太郎至一寸法師，完整覆盖 Bangumi 的12集，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/211023 (api_snapshot): Bangumi fresh API确认原名为《いっぽう日本昔ばなし》、平台为WEB、日期为2016-06-01、共12集。\n\nhttps://www.themoviedb.org/tv/287175 (api_snapshot): TMDB详情确认同名作品、2016-06-01、12集/1季、已完结、制作公司ILCA；简介描述经典日本昔话背后发生的另一面故事，并列出谷口崇配音。\n\nhttps://www.themoviedb.org/tv/287175/season/1 (api_snapshot): TMDB第1季实际返回12集，全部日期为2016-06-01、每集3分钟，集名从《桃太郎》《浦島太郎》至《一寸法師》，total_pages为1。\n\nhttps://animestore.docomo.ne.jp/animestore/cd?partId=21023004 (page): dアニメストア将其列为2016年作品，剧情为日本昔话另一面的故事，并明确列出12集分为四个三集组；工作人员为导演/原作谷口崇。\n\nhttps://animeschedule.net/anime/ippou-nippon-mukashibanash (search_snippet): 外部动画资料确认其为2016年春季ONA、12集、每集3分钟。",
+    "evidence": "codex: 确认对应TMDB 287175第1季整季：原名、2016年6月1日网络配信版本、12集规模、制作公司、主创及故事设定相符，季表完整覆盖该短篇动画。配信平台的4个播放单元属于合并包装。Bangumi输入中的12个章节均缺少标题与日期，无法逐集交叉验证，因此保留作品及季范围映射，暂不生成顺序规则。\n\nhttps://www.themoviedb.org/tv/287175 (api_snapshot): 使用日文原名及罗马字别名搜索，均找到 TMDB TV 287175。详情显示首播及完结日期均为2016-06-01，共1季12集，制作公司为ILCA，谷口崇配音；剧情是日本经典昔话另一面发生的荒诞故事。\n\nhttps://www.themoviedb.org/tv/287175/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1，各集日期均为2016-06-01、时长3分钟。标题依次为桃太郎、浦島太郎、かぐや姫、耳なし芳一、わらしべ長者、鶴の恩返し、カチカチ山、さるかに合戦、おむすびころりん、笠地蔵、金太郎、一寸法師。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21023&partId=21023004 (page): 正版配信页面确认本作为2016年制作，导演及原作为谷口崇，简介与TMDB一致。该平台标为全4个播放单元，访问的单元标题为ep10～ep12，存在合并播放的包装方式。\n\nhttps://www.animatetimes.com/tag/details.php?id=6177 (search_snippet): 作品资料明确记载2016年6月1日在UULA、ゲオチャンネル配信，全12话；谷口崇负责配音、脚本及作画，制作公司为株式会社イルカ，与TMDB作品身份一致。\n\n备注：Bangumi章节页及API本次未能成功读取；现有章节数据只有序号，不能据此认定与TMDB逐集同序。补充章节标题、日期或可靠的章节对应资料后才能建立rules。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/211023; https://api.bgm.tv/v0/subjects/211023; https://www.themoviedb.org/tv/287175; https://www.themoviedb.org/tv/287175/season/1; https://animestore.docomo.ne.jp/animestore/cd?partId=21023004; https://animeschedule.net/anime/ippou-nippon-mukashibanash",
-    "verifiedAt": "2026-09-08T20:48:17.746Z"
+    "source": "https://bgm.tv/subject/211023; https://www.themoviedb.org/tv/287175; https://www.themoviedb.org/tv/287175/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21023&partId=21023004; https://www.animatetimes.com/tag/details.php?id=6177",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

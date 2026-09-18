@@ -1,15 +1,135 @@
 {
   "bangumiId": 137314,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 109234,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 109235,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 109236,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 109237,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 109238,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 109239,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 109240,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 109241,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 109242,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 109243,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 109244,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 109245,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 109246,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 109247,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 109248,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 109249,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 109250,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 109251,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 109252,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 109253,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 109254,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 109255,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2009 年开播、22 集的 3D TV 动画第二季。TMDB 4194 的日文别名为「スター・ウォーズ クローン・ウォーズ」，首播日为 2008-10-03，第二季首播日为 2009-10-02、共 22 集；第二季实际集表的 22 个标题、日期和剧情与 Bangumi 集表逐集对应，因此可映射为完整第 2 季。TMDB 3122 是 2003 年的 2D《Star Wars: Clone Wars》，只有 10/10/5 集，属于旧版，已排除。作品媒介、制作公司（Lucasfilm Animation/Lucasfilm）、主要配音阵容及官方资料中的 George Lucas 创作信息均与目标作品相符。\n\nhttps://api.bgm.tv/v0/subjects/137314 (api_snapshot): Bangumi 原始 API：2009-10-02 开播、TV、22 集；集名从 Holocron Heist 至 Lethal Trackdown。\n\nhttps://www.themoviedb.org/tv/4194 (api_snapshot): TMDB 4194：Star Wars: The Clone Wars；2008-10-03 开播；日文别名为「スター・ウォーズ クローン・ウォーズ」；共 7 季、133 集；制作公司包括 Lucasfilm Animation 和 Lucasfilm。\n\nhttps://www.themoviedb.org/tv/4194/season/2 (api_snapshot): TMDB 第 2 季：2009-10-02 开播，共 22 集；实际集表逐集覆盖 Bangumi 的 22 个标题和对应剧情，包括 Holocron Heist、Cargo of Doom、The Mandalore Plot、Lethal Trackdown。\n\nhttps://www.themoviedb.org/tv/3122 (api_snapshot): TMDB 3122：2003 年《Star Wars: Clone Wars》，日文别名为「スター・ウォーズ／クローン大戦」，为另一部旧版 2D 微型系列，季集数为 10、10、5。\n\nhttps://www.starwars.com/news/sdcc-2018-the-clone-wars-to-return (page): 官方 StarWars.com 资料称该剧由 George Lucas 创作、2008 年首播，并明确涉及 Anakin、Obi-Wan、Padmé、Ahsoka 等角色。\n\nhttps://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars (search_snippet): 官方资料将 Holocron Heist 至 Lethal Trackdown 明确列为 Season Two 的第 1 至第 22 集。\n\n备注：TMDB details 返回的 crew 数组为空，未提供完整工作人员名单；但作品身份、制作公司、主要配音和官方创作信息已得到核对。",
+    "evidence": "codex: 确认对应 TMDB 4194 完整第2季。版本、媒介、制作背景、季首播年份及22集总量吻合，22个标题逐集同序，且官方目录独立确认全部季集编号，因此本篇1—22话可直接对应 S02E01—S02E22。部分日期有差异，旧映射所称日期全部一致不准确，但不影响由完整标题和官方集号确认的对应关系。\n\nhttps://www.themoviedb.org/tv/4194 (api_snapshot): TMDB 4194 是 2008-10-03 首播的《Star Wars: The Clone Wars》电视动画，制作公司为 Lucasfilm Animation、Lucasfilm Ltd.；第二季始于 2009-10-02，共22集。\n\nhttps://www.themoviedb.org/tv/4194/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共22集。全部标题与输入的 Bangumi 第1—22话按序一致，首末集日期一致；14集日期相同，第5及15—21集日期存在差异。\n\nhttps://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars (page): 官方回顾目录明确标注第二季全部22集的季号、集号和标题，与 Bangumi 及 TMDB 的对应关系一致；目录按剧情时间排列，但各条目的第二季集号明确。\n\nhttps://www.lucasfilm.com/productions/star-wars-the-clone-wars/ (page): Lucasfilm 官方确认该电视动画于2008年推出，由 George Lucas 创作及执行制作、Dave Filoni 担任监督导演；剧情围绕 Anakin、Obi-Wan、Ahsoka 等人在共和国与分离势力战争中的经历，与 TMDB 简介一致。\n\nhttps://www.lucasfilm.com/productions/the-clone-wars-microseries/ (page): 官方将2003—2005年的二维短篇系列明确区分于2008年的三维动画及电影；旧版由 Genndy Tartakovsky 执导，共25个短篇，不符合本 subject 的2009年第二季22集范围。\n\n备注：播出日期差异原因未核实：第5话 Bangumi 为2009-11-06，TMDB 为2009-11-04；第15话分别为2010-03-12、2010-03-19；第16—21话 TMDB 日期均比 Bangumi 晚6天。未据此推定具体地区播出差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/137314; https://api.bgm.tv/v0/subjects/137314; https://www.themoviedb.org/tv/4194; https://www.themoviedb.org/tv/4194/season/2; https://www.themoviedb.org/tv/3122; https://www.starwars.com/news/sdcc-2018-the-clone-wars-to-return; https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars",
-    "verifiedAt": "2026-09-08T20:02:29.801Z"
+    "source": "https://bgm.tv/subject/137314; https://www.themoviedb.org/tv/4194; https://www.themoviedb.org/tv/4194/season/2; https://www.starwars.com/news/were-rewatching-star-wars-the-clone-wars; https://www.lucasfilm.com/productions/star-wars-the-clone-wars/; https://www.lucasfilm.com/productions/the-clone-wars-microseries/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 4194
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

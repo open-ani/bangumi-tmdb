@@ -1,23 +1,57 @@
 {
   "anidbId": 7986,
   "bangumiId": 10075,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 57557,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 57558,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 57559,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 57560,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1090752,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1090752,
+      "targets": [
+        {
+          "id": 582105,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是随 2010 年 10 月 28 日发行的《D.C.I&II P.S.P.》Platinum Pack 附送的一部约 22—25 分钟的新作 OVA，内容由音梦、小鸟、由梦、音姬四段告白场景组成；Bangumi 将四个段落分别记作四话，但它们不是四次独立发行。TMDB 将整部 OVA 作为《D.C.～ダ・カーポ～》（TV 26444）的特别篇 S00E23 收录，标题和发行日均直接对应，因此范围应为 S0E23 单集。S00E24、S00E25只有通用标题且日期分别为 2010-10-31、2010-11-04，与官方单碟发行方式不符，没有证据表明属于本 subject，故不纳入。\n\nhttps://www.themoviedb.org/tv/26444/season/0 (api_snapshot): TMDB API 快照确认 TV 26444 的第 0 季第 23 集题为“Da Capo D.C. I & II P.S.P. OVA 音夢”，日期为 2010-10-28、时长 25 分钟；标题、版本、日期均与目标 OVA 对应。\n\nhttps://www.moviefone.com/tv-shows/da-capo/URBw2Bqu8pCw8BdW0RtuP5/seasons/0/ (page): 该页面注明剧集数据由 TMDB 提供，并将特别篇第 23 集完整列为“Da Capo: D.C. I & II P.S.P. OVA”，发行日 2010-10-28；随后第 24、25 集仅为无身份信息的通用条目。\n\nhttps://circus-co.jp/product/dc12-p/platinum.html (page): CIRCUS 官方产品页说明 Platinum Pack 收录其完全监修的新作原创动画，Blu-ray 内含该 OVA，并另在 SPECIAL CONTENTS DVD 收录同一 OVA；导演为ウシロシンジ、制作为 ZEXCS，与 Bangumi subject 的制作信息一致。\n\nhttps://bgm.tv/subject/10075 (page): Bangumi 页面说明该 OVA 收录于《D.C.I&II P.S.P.》Platinum Pack 同捆 Blu-ray及DVD，内容是音梦、小鸟、由梦、音姬四人的告白场景；这解释了其四个章节实际构成同一部同捆 OVA。\n\nhttps://animeschedule.net/anime/d-c-iandii-p-s-p-re-animated (page): 独立动画资料页将本作记为 2010-10-28 发布、全 1 集、约 22 分钟的 OVA，并说明内容为两部游戏四位女主角的告白场景，支持 TMDB 以单集特别篇表示整部作品。",
+    "evidence": "codex: 匹配TMDB独立电影条目582105，其名称、发行日期、同捆OVA版本、四人告白内容、制作公司及声优均吻合。该条目表示约22分钟的完整OVA，可对应Bangumi的SP0总集篇。四个本篇是其中的独立段落，不能分别占用同一完整作品，因此留空。旧映射S00E23的标题与时长存在歧义，采用身份和内容更明确的独立条目。\n\nhttps://www.themoviedb.org/movie/582105 (api_snapshot): 实际读取 movie 582105 的日文及英文详情：原名一致，发行日为2010-10-28，时长22分钟，制作公司为ZEXCS；简介明确为PSP游戏同捆OVA，包含音梦、小鸟、由梦、音姬四人的告白场景，声优名单亦与Bangumi一致。\n\nhttps://circus-co.jp/product/dc12-p/platinum.html (page): 官方Platinum Pack产品页确认附带全新原创动画Blu-ray，DVD另收录相同OVA；导演为ウシロシンジ，动画制作为ZEXCS。\n\nhttps://bgm.tv/subject/10075 (page): Bangumi确认本作于2010-10-28发售，为游戏Platinum Pack同捆OVA，内容是四位女主角告白场景的新作动画，制作信息与官方及TMDB吻合。\n\nhttps://bgm.tv/subject/10075/ep (page): 章节页列出四个本篇段落，均于2010-10-28发行，时长分别为5:13、4:18、5:23、4:56；另列SP0总集篇，时长22:11，与TMDB电影条目的整部OVA时长吻合。\n\nhttps://www.themoviedb.org/tv/26444/season/0 (api_snapshot): 实际读取TV 26444详情及第0季完整集表（共25集，1页）。S00E23标题含本作名称及“音夢”，日期2010-10-28，时长25分钟，但无简介；E24、E25仅有通用标题，日期分别为2010-10-31、2010-11-04，不能据此建立四段连续映射。\n\n备注：尚未确认四个本篇段落各自具有独立TMDB条目，未建立逐段映射。；S00E23是否重复收录整部OVA或仅指音梦段落，现有集表无法明确；S00E24、E25也无法确认属于本作，均不纳入。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/10075; https://www.themoviedb.org/tv/26444/season/0; https://www.moviefone.com/tv-shows/da-capo/URBw2Bqu8pCw8BdW0RtuP5/seasons/0/; https://circus-co.jp/product/dc12-p/platinum.html; https://animeschedule.net/anime/d-c-iandii-p-s-p-re-animated",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/10075; https://www.themoviedb.org/movie/582105; https://circus-co.jp/product/dc12-p/platinum.html; https://bgm.tv/subject/10075/ep; https://www.themoviedb.org/tv/26444/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 23,
-      "id": 26444,
-      "season": 0,
-      "type": "tv"
+      "id": 582105,
+      "type": "movie"
     }
   ]
 }

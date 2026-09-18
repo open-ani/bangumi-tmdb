@@ -1,14 +1,48 @@
 {
   "anidbId": 11286,
   "bangumiId": 137062,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 583747,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 596632,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 583747,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 66856,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 596632,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 66856,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《普通の女子校生が【ろこどる】やってみた。》的 OVA，记录 2 集，标题分别为「みんなでお祝いしてみた。」和「PV作ってみた。」。TMDB TV 66856 的特别篇 season 0 中，episode 2 标题为「クリスマススペシャル みんなでお祝いしてみた。」、episode 3 为「PV 作ってみた。」；日期分别对应 2015-12-24/25 附近及 2016-06-22。season 0 episode 1 是 2014 年的另一特别篇，不属于该 Bangumi OVA，因此范围应为 2–3。\n\nhttps://bgm.tv/subject/137062 (api_snapshot): Bangumi subject 类型为 OVA，共 2 集；两集标题和日期为「みんなでお祝いしてみた。」（2016-03-23）及「PV作ってみた。」（2016-06-22）。\n\nhttps://www.themoviedb.org/tv/66856 (api_snapshot): TMDB TV 66856 是《普通の女子校生が【ろこどる】やってみた。》，主剧首播日期为 2014-07-04，并包含特别篇 season 0。\n\nhttps://www.themoviedb.org/tv/66856/season/0 (api_snapshot): TMDB season 0 episode 2 为「クリスマススペシャル みんなでお祝いしてみた。」（2015-12-25），episode 3 为「PV 作ってみた。」（2016-06-22）；episode 1 为 2014 年的「流川、案内してみた。」。\n\n备注：Bangumi 首集记录日期为 2016-03-23，而 TMDB episode 2 的 air_date 为 2015-12-25；这更可能是发售日与播出/收录日期差异，但未额外核对发行载体。",
+    "evidence": "codex: 确认对应TMDB 66856第0季第2—3集。两集标题、发行次序及日期逐一吻合，官方确认它们是2015—2016年的两卷新作OVA；制作人员、角色及故事背景亦一致。首集日期差异已由电视先播与光碟后发解释。第0季第1集为2014年另一部附带OVA，予以排除；「PV作ってみた。」是OVA正片标题，不是独立音乐录像。\n\nhttps://bgm.tv/subject/137062/ep (page): Bangumi 章节表仅列两集：第1集「みんなでお祝いしてみた。」日期为2016-03-23，第2集「PV作ってみた。」日期为2016-06-22。\n\nhttps://www.themoviedb.org/tv/66856 (api_snapshot): TMDB 66856 为2014年首播的同名动画，制作公司为feel.，导演为名和宗則，主要角色及声优与该系列一致；包含第0季特别篇。\n\nhttps://www.themoviedb.org/tv/66856/season/0 (api_snapshot): 第0季共3集，已读取完整集表（total_pages=1）。第2集为「クリスマススペシャル みんなでお祝いしてみた。」（2015-12-25），剧情围绕流川女孩的圣诞活动与缘的生日；第3集为「PV 作ってみた。」（2016-06-22）。第1集是2014年的「流川、案内してみた。」。\n\nhttps://www.tbs.co.jp/anime/locodol/disc/ (page): 官方发行页确认新作OVA分两卷：Vol.1收录圣诞特别篇「みんなでお祝いしてみた。」，2016-03-23发售；Vol.2收录「PV作ってみた。」，2016-06-22发售，各约25分钟。另将「流川、案内してみた。」列为2014年TV光碟第1卷附带OVA，证明它不属于本次两集范围。\n\nhttps://www.tbs.co.jp/anime/locodol/onair/ (page): 官方放送页列出圣诞OVA于12月24日深夜2时36分在TBS播出，即公历12月25日凌晨，与TMDB首集日期相符；Bangumi章节日期则对应后续光碟发行日。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/137062; https://www.themoviedb.org/tv/66856; https://www.themoviedb.org/tv/66856/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/137062; https://bgm.tv/subject/137062/ep; https://www.themoviedb.org/tv/66856; https://www.themoviedb.org/tv/66856/season/0; https://www.tbs.co.jp/anime/locodol/disc/; https://www.tbs.co.jp/anime/locodol/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

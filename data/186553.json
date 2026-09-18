@@ -1,16 +1,86 @@
 {
   "anidbId": 12261,
   "bangumiId": 186553,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 668360,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 668361,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 668362,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 668363,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 668364,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 668365,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 668366,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 668367,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 668368,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 668369,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 668370,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 668371,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认《アイドルメモリーズ／星梦手记》是2016年播出的12话 TV动画，制作人员、剧情设定和播出结束日期与独立资料一致。TMDB 68555 的主条目同名、同为日本2016年作品且总数为12集；TMDB 第1季明确为 season 1、12集，且完整12集标题逐一对应 Bangumi 的12话。因此应映射为 TMDB 68555 第1季完整范围。TMDB 快照中部分集数日期明显异常，但不影响由完整标题和剧情对应确认季及范围。\n\nhttps://bgm.tv/subject/186553 (page): Bangumi 将该条目标为 TV，中文名“星梦手记”，共12话，2016年10月2日至12月18日播出；导演菊池カツヤ、系列构成/脚本大野木寛、动画制作 Seven Arcs 等信息与候选作品一致，并列出第01至第12话。\n\nhttps://www.animatetimes.com/tag/details.php?id=6260 (search_snippet): 独立资料确认《アイドルメモリーズ》为2016年10月2日至12月18日播出的全12话 TV动画，原作 Happy Elements Asia Pacific，导演菊池カツヤ，系列构成/脚本大野木寛，动画制作 Seven Arcs Pictures。\n\nhttps://www.themoviedb.org/tv/68555 (api_snapshot): TMDB API 快照显示 ID 68555 的日文原名和名称均为“アイドルメモリーズ”，日本作品，首播日期为2016-10-03，总集数12，并仅列出 season 1（12集）。\n\nhttps://www.themoviedb.org/tv/68555/season/1 (api_snapshot): TMDB API 快照明确 season_number=1、episodeCount=12、episodesTruncated=false；第1至第12集标题与 Bangumi 集标题逐一对应，包括“栄光のティアラ”“アイドルへの道”“輝きときらめき”至“はじまりの歌”。\n\n备注：AniDB 12261 页面本次请求被拒绝，未能直接读取 AniDB 页面字段核验该数值；但 Bangumi、TMDB 及独立资料对标题、年份、制作信息、剧情和12集主体均一致。；TMDB 第5集之后的 air_date 与 Bangumi及独立播出资料不一致，疑似 TMDB 日期资料错误；本判断未用这些异常日期推导集数范围。",
+    "evidence": "codex: 确认对应 TMDB 68555 第1季全12集。年份、制作公司、主创、角色和VR偶像学园剧情相符；完整季表的12个标题与Bangumi逐集完全一致，集数及顺序吻合，故本篇1—12话可连续一对一映射。日期已比对，TMDB存在异常，但标题、剧情和独立播出资料足以确认对应关系。\n\nhttps://bgm.tv/subject/186553 (page): Bangumi 将本作标为2016年TV动画《星梦手记》，共12话；原作 Happy Elements Asia Pacific，导演菊池カツヤ，系列构成大野木寛。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21161 (page): 发行平台确认本作为2016年制作的12话动画，制作公司为 Seven Arcs Pictures；导演、编剧及近未来VR偶像学校的剧情设定与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/68555 (api_snapshot): 日文原名和英文别名搜索均找到68555。详情确认其为2016年首播、Seven Arcs Pictures制作的同名TV作品；剧情及角色吻合，仅有第1季，共12集。\n\nhttps://www.themoviedb.org/tv/68555/season/1 (api_snapshot): 已读取第1季完整集表：episodeCount=12，total_pages=1。第1至12集日文标题逐一与输入的 Bangumi 章节完全一致，顺序相同，每集13分钟，均为连续剧情动画。\n\nhttps://thetv.jp/program/0000911589/plot/ (page): 节目资料记录播出期为2016年10月2日至12月18日；第9至12话的标题、剧情与TMDB对应集一致，日期分别为11月27日、12月4日、12月11日、12月18日，与Bangumi一致。\n\n备注：TMDB第1—4集日期比Bangumi晚一天，可能源于深夜节目日期口径；第5—12集日期则分布于2016年12月至2017年5月，与2016年秋季播出资料冲突，疑为日期字段错误，具体原因未确认。映射未依赖这些异常日期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/186553; https://www.animatetimes.com/tag/details.php?id=6260; https://www.themoviedb.org/tv/68555; https://www.themoviedb.org/tv/68555/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/186553; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21161; https://www.themoviedb.org/tv/68555; https://www.themoviedb.org/tv/68555/season/1; https://thetv.jp/program/0000911589/plot/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68555
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

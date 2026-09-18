@@ -1,14 +1,140 @@
 {
   "anidbId": 8244,
   "bangumiId": 15171,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 212885,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 212886,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 212887,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 212888,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 212889,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 212890,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 212891,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 212892,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 212893,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 212894,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 212895,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 212896,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 212897,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 212898,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 212899,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 212900,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 212901,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 212902,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 212903,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 212904,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 212905,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 212906,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 212907,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 212908,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 212909,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 输入的 Bangumi 条目将主体匹配到 AniDB 8244；Anime-Lists 中 AniDB 8244 明确关联 TMDB TV 44552 第1季。TMDB 主页面与第1季快照均显示同名作品、2011-04-06首播、正好25集。官方东京电视台资料确认该作品为25集，并列出第24集于2011-09-28、第25集于2011-10-05播出，因此 Bangumi 的结束日较早不是版本差异。Bangumi 主体只有25个正篇且无特别篇，故对应完整的 TMDB 第1季；TMDB 第0季的1集特别篇不属于该主体。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目 anidbid=\"8244\"、名称 Happy Kappy，明确指定 tmdbtv=\"44552\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/44552 (api_snapshot): TMDB 44552 名称为「はっぴ〜カッピ」，首播日为2011-04-06，共25集；包含第1季和另列的第0季特别篇。\n\nhttps://www.themoviedb.org/tv/44552/season/1 (api_snapshot): TMDB 第1季明确为25集，剧集编号为1至25。\n\nhttps://www.tv-tokyo.co.jp/anime/happykappy/episodes/episodes02/index.html (search_snippet): 东京电视台官方剧集页列出第25话于2011-10-05播出、第24话于2011-09-28播出，并确认该季延续至第25话。\n\nhttps://www.tv-tokyo.co.jp/anime/happykappy/staff/index.html (search_snippet): 东京电视台官方资料确认导演峯沢琢也、动画制作小学館ミュージックアンドデジタルエンタテイメント及主要声优，与该作品版本一致。",
+    "evidence": "codex: 确认主体对应TMDB TV 44552第1季完整25集：日文名称、2011年首播日期、官方剧情、导演及正篇集数相符，特别篇另列，不混入主体。逐集规则暂留空：输入的Bangumi章节全部缺少标题和日期，无法独立核对章节身份；TMDB第16至18集日期也与官方不一致，不能仅按位置填入对应关系。\n\nhttps://www.themoviedb.org/tv/44552 (api_snapshot): 以 Happy Kappy 搜索得到 TV 44552；详情显示原名「はっぴ〜カッピ」、首播日2011-04-06、完结日2011-10-05，第1季25集，另有第0季特别篇1集。\n\nhttps://www.themoviedb.org/tv/44552/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，集号1至25。第1至15集及第19至25集日期与官方对应话数一致；第16至18集日期分别为2011-07-20、07-27、08-03，与官方记录有差异。集名均为通用编号，简介为空。\n\nhttps://www.tv-tokyo.co.jp/anime/happykappy/episodes/episodes01/ (page): 官方第1至13话页面列出逐话标题、日期和剧情。第1话于2011-04-06播出，讲述喜欢制作饰品的木下スグリ遇见来自カピメシア的王子カッピ，与输入剧情一致，确认是同一电视动画版本。\n\nhttps://www.tv-tokyo.co.jp/anime/happykappy/episodes/episodes02/index.html (page): 官方后半集表列出正篇至第25话，另列2011-08-24特别篇。第16至18话实际播出日期为2011-07-27、08-03、08-10；第24话为09-28，第25话为10-05。因此输入结束日期对应倒数第二话，25话正篇范围仍与TMDB第1季一致。\n\nhttps://www.tv-tokyo.co.jp/anime/happykappy/staff/index.html (page): 官方制作资料列出导演峯沢琢也、系列构成金春智子、动画制作小学館ミュージックアンドデジタルエンタテイメント；导演与输入一致，主演角色包括カッピ和木下スグリ。\n\n备注：作品及季范围已确认，但逐集映射尚未建立；需要补充Bangumi章节标题或日期以核对。；TMDB第16至18集日期比官方对应话数早一周，且没有实际标题或剧情，无法进一步验证这三集的内容对应。；Bangumi所列结束日2011-09-28与官方最终话2011-10-05不一致；官方明确将09-28标为第24话。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/15171; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/44552; https://www.themoviedb.org/tv/44552/season/1; https://www.tv-tokyo.co.jp/anime/happykappy/episodes/episodes02/index.html; https://www.tv-tokyo.co.jp/anime/happykappy/staff/index.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/15171; https://www.themoviedb.org/tv/44552; https://www.themoviedb.org/tv/44552/season/1; https://www.tv-tokyo.co.jp/anime/happykappy/episodes/episodes01/; https://www.tv-tokyo.co.jp/anime/happykappy/episodes/episodes02/index.html; https://www.tv-tokyo.co.jp/anime/happykappy/staff/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

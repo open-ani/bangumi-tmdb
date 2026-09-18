@@ -1,13 +1,79 @@
 {
   "bangumiId": 552107,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1489979,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1489980,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1489981,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1489982,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1489983,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1489984,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1489985,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1489986,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1489987,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1489988,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1489989,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1489990,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1489991,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、Netflix 播放媒介、制作公司、13 集规模和续季时间共同支持对应 TMDB 78173 第一季，实际季表覆盖完整主体。Bangumi 章节缺少标题及日期，无法独立逐话比对，因此确认整季范围，但不凭章节位置生成 rules。\n\nhttps://bgm.tv/subject/552107 (page): Bangumi 标明本作为 WEB 动画、Netflix 播放、DreamWorks Animation 制作的《飞越边界》第一季，共 13 话；章节仅显示 01—13，未提供标题。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): TMDB 78173 为 2015 年的《Dragons: Race to the Edge》，由 DreamWorks Animation Television 制作，剧情围绕小嗝嗝、无牙和龙眼展开，共六季；第一季 13 集，第二季日期为 2016-01-08，与输入的续集信息一致。\n\nhttps://www.themoviedb.org/tv/78173/season/1 (api_snapshot): 实际读取第一季全部集表，total_pages=1，共 13 集，日期均为 2015-06-26；首集为《Dragon Eye of the Beholder (1)》，末集为《Total Nightmare》。\n\nhttps://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-1/1030584970/ (page): TV Guide 列出 Netflix 版第一季全部 13 集；逐集标题、顺序及 2015-06-26 的上线日期均与 TMDB 第一季一致，支持该季范围完整。\n\n备注：Bangumi 首播日期为 2015-06-25，TMDB 与 TV Guide 均为 2015-06-26；一天差异的原因未确认。；13 个 Bangumi 章节均无标题和放送日期；逐集映射需补充可验证的章节资料后再建立。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552107; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/1; https://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-1/1030584970/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

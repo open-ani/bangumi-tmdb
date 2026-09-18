@@ -1,16 +1,91 @@
 {
   "anidbId": 12560,
   "bangumiId": 153196,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 706717,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 710740,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 710741,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 710742,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 710743,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 710744,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 710745,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 710746,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 710747,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 710748,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 710749,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 710750,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 710751,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、网络动画版本、剧情、原作与制作阵容一致；第一季恰好覆盖本篇12话，逐集标题及有差异集的剧情支持本篇1—12对应S01E01—E12。日期已逐集比对，存在固定一周差异，不据此错移集号。福利篇暂不映射。\n\nhttps://bgm.tv/subject/153196 (page): Bangumi 标明本作是2017年4月7日开播的12话网络动画，原作蝴蝶蓝、总导演熊可，与输入版本一致。\n\nhttps://www.themoviedb.org/tv/71194 (api_snapshot): TMDB 71194 为2017年4月7日首播的动画版，叶修退出职业圈后在网吧重新开始的剧情一致；原作蝴蝶蓝，制作公司包含视美、阅文与企鹅影视，配音包含阿杰、佟心竹、乔诗语。\n\nhttps://www.themoviedb.org/tv/71194/season/1 (api_snapshot): 第一季完整集表共12集、仅1页。逐集标题顺序与Bangumi吻合，第3集存在“敌人／散人”的文字差异，第8、11集存在少量措辞差异。第1集日期相同，第2至12集的TMDB日期均比Bangumi早7天。\n\nhttps://m.tvmao.com/drama/X2lhZWsg/episode/0-3 (search_snippet): 第3集“散人就是这么任性”的剧情是君莫笑帮助蓝溪阁刷冰霜森林，以及与唐柔PK，和TMDB第一季第3集简介相同，支持标题文字有误但集序一致。\n\nhttps://finance.ifeng.com/a/20170607/15435423_0.shtml (search_snippet): 2017年的报道提及《全职高手》及腾讯视频动画付费抢先观看机制，为两站日期相差一周提供旁证，但未直接列出本作完整会员排期。\n\nhttps://www.themoviedb.org/tv/71194/season/0 (api_snapshot): 第0季完整集表共5集，包含2018年特别篇3集、2019年电影及标为第三季总集篇的条目，没有与输入2017年福利篇标题或日期相符的集。\n\n备注：第2—12集的日期差异可能来自会员抢先观看与免费播出排期，但尚未取得完整官方排期直接确认。；福利篇706717未找到可靠的TMDB对应条目；保留未映射，不据此断言TMDB未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/153196; https://www.themoviedb.org/tv/71194; https://www.themoviedb.org/tv/71194/season/1; https://m.tvmao.com/drama/X2lhZWsg/episode/0-3; https://finance.ifeng.com/a/20170607/15435423_0.shtml; https://www.themoviedb.org/tv/71194/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71194
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

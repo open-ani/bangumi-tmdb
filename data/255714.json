@@ -1,15 +1,130 @@
 {
   "bangumiId": 255714,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 899372,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 899373,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 899374,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 899375,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 899376,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 899377,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 899378,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 899379,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 899380,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 899381,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 899382,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 899383,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 899384,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 899385,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 899386,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 899387,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 899388,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 899389,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 899390,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 899391,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 899392,
+      "sort": 21,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 79093 第一季，年份、电视动画媒介、剧情、制作人员及首尾播出日期一致，整季内容覆盖该 subject。Bangumi 将首播《The Recruit》拆为两话，TMDB 合为一集；其余19话经标题和日期逐项核对，可确定按集号减1映射。\n\nhttps://www.themoviedb.org/tv/79093 (api_snapshot): TMDB 79093 为2018年10月7日首播的《Star Wars Resistance》，制作公司为 Lucasfilm，剧情围绕 Kazuda Xiono 潜伏调查第一秩序展开；主要配音及 IMDb 标识与输入一致。\n\nhttps://www.themoviedb.org/tv/79093/season/1 (api_snapshot): 第一季完整集表共20集，仅1页。第1集《The Recruit》于2018年10月7日播出，时长44分钟。Bangumi 第3—21话与 TMDB 第2—20集的标题和播出日期逐项吻合，末集均于2019年3月17日播出；结尾两集仅标题标点格式不同。\n\nhttps://www.starwars.com/news/the-recruit-episode-guide-star-wars-resistance (search_snippet): 星球大战官方首集指南明确《The Recruit》是两部分组成的首播故事，首播日期为2018年10月7日，并列出 Dave Filoni、Justin Ridge、Brandon Auman 等制作人员，解释了两站21话与20集的计数差异。\n\nhttps://www.starwars.com/news/star-wars-resistance-set-for-fall-debut (search_snippet): 官方公布该作为2018年推出的电视动画，主角及剧情与 TMDB 一致；创作者为 Dave Filoni，执行制片人为 Athena Portillo、Justin Ridge 和 Brandon Auman，与 Bangumi 简介吻合。\n\n备注：Bangumi 第1、2话（899372、899373）共同对应 TMDB S01E01。由于禁止两个 Bangumi 章节占用同一 TMDB 集，且当前结构无法表达多话合一，这两话暂不写入逐集映射；整季作品范围已确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/255714; https://www.themoviedb.org/tv/79093; https://www.themoviedb.org/tv/79093/season/1; https://www.starwars.com/news/the-recruit-episode-guide-star-wars-resistance; https://www.starwars.com/news/star-wars-resistance-set-for-fall-debut",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 21,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 79093
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

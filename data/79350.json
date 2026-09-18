@@ -1,16 +1,107 @@
 {
   "anidbId": 10001,
   "bangumiId": 79350,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 302785,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 334659,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 334660,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 334661,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 334662,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 334663,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 334664,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 334665,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 334666,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 334667,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 403664,
+      "sort": 6.5,
+      "type": 0
+    },
+    {
+      "id": 408055,
+      "sort": 3.5,
+      "type": 0
+    },
+    {
+      "id": 411460,
+      "sort": 9.5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 79350 是2014年电视动画《ロボットガールズZ》，对应 TMDB 电视剧 71465 的第1季。TMDB 第1季的9集标题逐一对应东映官方列出的电视正篇第1～9话；第2季则是独立续作《ロボットガールズ Zプラス》，不属于本 subject。Bangumi 标注的12话包含03.5、06.5、09.5三篇光盘新作；东映资料将其与电视播出的第1～9话区分，并标为 Blu-ray/DVD 用新作。依照本轮不映射额外特典的范围规则，应映射完整的 TMDB 第1季，无需指定部分集数。\n\nhttps://www.themoviedb.org/tv/71465 (page): TMDB 电视剧 ID 71465 的原名为《ロボットガールズＺ》，年份为2014，类型包含动画；页面将2015年的《Robot Girls Z Plus》明确列为第2季。\n\nhttps://www.themoviedb.org/tv/71465/season/1 (api_snapshot): TMDB API 快照显示第1季名为《ロボットガールズZ》，共9集；第1～9集标题从《驚異！ロボットガールズZ》至《ロボットガールズZ！暁に死す！！》，与目标作品的九篇电视正篇一致。\n\nhttps://lineup.toei-anim.co.jp/ja/cs/robot-girlsz/story/ (search_snippet): 东映动画官方作品资料明确称电视播出内容为第1～9话，并说明剧场上映时另加入为 Blu-ray/DVD 制作的新作《白熱！超銀河大戦争》等内容。\n\nhttps://www.toei-video.co.jp/special/robot-girlsz/ (search_snippet): 东映 Video 官方商品资料把第1～9话分列为三组 fullbokko 正篇，并把第6.5话标作“新作”、第9.5话标作“Blu-ray＆DVD用新作”，证明这些小数编号内容不是缺失的电视正篇集。\n\nhttps://bgm.tv/subject/79350 (page): Bangumi 页面确认该 subject 是2014年1月至3月播出的TV动画《ロボットガールズZ》，章节表同时列有01～09及03.5、06.5、09.5，并将《ロボットガールズZ+》另列为续集、剧场版另列为总集篇。",
+    "evidence": "codex: 确认电视正篇对应 TMDB 71465 第1季全9集：年份、剧情、制作信息一致，九集标题及顺序得到官方集目交叉验证。规则分三段，仅映射整数编号第1至9话，避开小数章节。第0话及三篇光盘新作暂不映射；续作第2季及剧场版本不纳入。\n\nhttps://www.themoviedb.org/tv/71465 (api_snapshot): TMDB 71465 为2014年1月4日首播的电视动画，剧情涉及练马区光子力町及宣传光子力的三名机器人少女，制作公司包括东映动画与 LandQ Studios，与目标一致；第2季另标为2015年的《ロボットガールズ Zプラス》。\n\nhttps://www.themoviedb.org/tv/71465/season/1 (api_snapshot): 第1季集表共9集、仅1页，逐集标题与 Bangumi 整数编号第1至9话对应，顺序一致，没有三篇小数编号新作。第2、3、4、8、9集日期与输入存在差异。\n\nhttps://www.themoviedb.org/tv/71465/season/0 (api_snapshot): 实际请求第0季返回404，未取得可用于特别篇对应的集表。\n\nhttps://www.toei-video.co.jp/special/robot-girlsz/ (page): 东映官方商品资料确认原作永井豪、导演博史池畠、角色设计川上哲也，并按三组列出第1至9话，标题顺序与 TMDB 一致；另列第0话PV及第3.5、6.5、9.5话光盘新作。\n\nhttps://lineup.toei-anim.co.jp/ja/cs/robot-girlsz/story/ (search_snippet): 东映官方作品资料明确电视播出部分为第1至9话，剧场上映版本另加入为 Blu-ray/DVD 制作的新作，支持区分电视正篇与剧场组合版本。\n\n备注：TMDB 第1季第2、3、4、8、9集日期与 Bangumi 不一致；对应关系依据逐集标题、官方编号和九集总量确认，不把这些日期视为已核实。；第3.5、6.5、9.5话及第0话尚未找到经集表确认的 TMDB 对应；第0季返回404不能证明这些内容未被 TMDB 收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/79350; https://www.themoviedb.org/tv/71465; https://www.themoviedb.org/tv/71465/season/1; https://lineup.toei-anim.co.jp/ja/cs/robot-girlsz/story/; https://www.toei-video.co.jp/special/robot-girlsz/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/79350; https://www.themoviedb.org/tv/71465; https://www.themoviedb.org/tv/71465/season/1; https://www.themoviedb.org/tv/71465/season/0; https://www.toei-video.co.jp/special/robot-girlsz/; https://lineup.toei-anim.co.jp/ja/cs/robot-girlsz/story/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71465
+    },
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 4,
+      "tmdbId": 71465
+    },
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 71465
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

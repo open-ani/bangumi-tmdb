@@ -1,19 +1,91 @@
 {
   "anidbId": 17304,
   "bangumiId": 377125,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1216097,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1216098,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1216099,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1216100,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1216101,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1216102,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1216103,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1216104,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1216105,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1216106,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1216107,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1216108,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 196944 第 1 季第 1—12 集：动画版本、年份、剧情、制作人员及逐集标题与日期一致。TMDB 将两期合并为同一季，因此旧映射须收窄至前 12 集，不能使用整季范围；与第二期及特别篇的已有范围无重叠。\n\nhttps://www.themoviedb.org/tv/196944 (api_snapshot): 日文原名搜索返回 TV 196944（2023-07-05 首播）和另一个同名电影条目（2023-03-17 上映），需区分媒介。\n\nhttps://www.themoviedb.org/tv/196944 (api_snapshot): TV 196944 的首播日期、以美世与清霞为中心的剧情、导演久保田雄大、动画制作公司 Kinema Citrus 及配音角色均与输入的 2023 年电视动画相符。\n\nhttps://www.themoviedb.org/tv/196944/season/1 (api_snapshot): 第 1 季实际包含第一期至第二期共 25 集，季表仅一页。第 1—12 集的播出日期逐集与 Bangumi 一致，范围为 2023-07-05 至 2023-09-20；标题亦逐集对应，仅第 7 集省略了 Bangumi 标题中的括注读音「モダンガール」。第 13 集起于 2025-01-06，不属于本 subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/377125; https://www.themoviedb.org/tv/196944; https://www.themoviedb.org/tv/196944/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 196944
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 196944,
       "season": 1,
       "type": "tv"

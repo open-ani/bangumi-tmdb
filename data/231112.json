@@ -1,15 +1,71 @@
 {
+  "anidbId": 13617,
   "bangumiId": 231112,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 761895,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 789555,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 789556,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 793591,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 793592,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 793593,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 793595,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 833045,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 833046,
+      "sort": 9,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应《LayereD Stories 0／レイヤードストーリーズ ゼロ》。TMDB 条目首播日为 2017-11-26、共 1 季 9 集，季表覆盖 2017-11-26 至 2018-01-21 的第 1—9 集，与 Bangumi 的标题、日期及 9 集主体一致。官方资料确认这是以 2037 年涩谷、LayereD/AR 技术为背景的应用内 Web/ONA 全 3DCG 动画，由 Polygon Pictures 制作；动画导演为大桥聪雄。该映射不是电影、音乐录像、合集或其他版本，因此使用完整第 1 季。\n\nhttps://www.themoviedb.org/tv/244309 (api_snapshot): TMDB 详情：原名 LayereD Stories 0，日期 2017-11-26，共 1 季 9 集，结束日期 2018-01-21，别名包含 レイヤードストーリーズ ゼロ。\n\nhttps://www.themoviedb.org/tv/244309/season/1 (api_snapshot): TMDB 第 1 季实际集表包含第 1—9 集，日期连续对应 2017-11-26 至 2018-01-21；总集数为 9。\n\nhttps://www.ppi.co.jp/works/layered-stories-0/ (page): Polygon Pictures 官方作品页确认该作是设定于 2037 年涩谷、围绕 LayereD/ACT 展开的跨媒体项目动画，制作年份为 2017—2018。\n\nhttps://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/6027?entry_id=5461 (page): 万代南梦宫官方资料确认作品包含定期配信的原创动画，舞台为 2037 年涩谷和 LayereD 技术，并说明动画为全篇 3D CG。\n\nhttps://www.4gamer.net/games/394/G039495/20180322065/ (page): 资料列出动画第 1—5 话 Web 公开、动画导演大桥聪雄、动画制作 Polygon Pictures，支持其为 Web 动画而非传统电视播出版本。\n\n备注：TMDB 详情中的剧情和 crew 字段为空；制作人员与剧情由官方及行业资料交叉确认。；Bangumi infobox 的“话数=1”与其 9 个 regularEpisodes 不一致，但 freshBangumi 的 total_episodes=9，且 TMDB 季表也实际列出 9 集，因此按 9 集主体映射。",
+    "evidence": "codex: 确认对应 TMDB 244309 第1季：原名、别名、首集日期及9话范围一致，制作方资料进一步确认2017—2018年的剧情网络动画版本。该季覆盖9话主体，可保留整季目标；逐集仅映射标题和日期均吻合的第1话，第2—9话不按位置猜配。\n\nhttps://www.themoviedb.org/tv/244309 (api_snapshot): 日文别名及原名搜索均返回 TV 244309；详情记录原名 LayereD Stories 0、日文别名、首播日期 2017-11-26，共1季9集。剧情、制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/244309/season/1 (api_snapshot): 第1季实际集表只有1页，共9集，标题为第1话至第9话。第1集日期为2017-11-26，与输入章节一致；其余日期按周排列至2018-01-21，不能据此认定实际配信排期。\n\nhttps://www.ppi.co.jp/works/layered-stories-0/ (page): Polygon Pictures 官方作品页确认制作年份为2017—2018，动画描写2037年涩谷的少年少女与AR系统 LayereD，剧情与 Bangumi 简介吻合。\n\nhttps://tanzanite.co.jp/blog/blog_20240221/ (page): 参与制作的伊藤在公司文章中说明，该动画共9话，曾以前后篇形式在游戏内配信，之后公开于YouTube，支持按9个完整话数理解本作范围。\n\nhttps://www.4gamer.net/games/394/G039495/20180605068/ (page): 万代南梦宫官方报告转载确认2018年6月2日举办第9话配信纪念活动，并列出动画导演大桥聪雄及主要角色声优；这使TMDB所列2018年1月结束的排期存疑。\n\n备注：Bangumi 第2—9话缺少标题及日期，无法完成逐集交叉核验，暂不生成对应规则。；TMDB 的每周配信日期缺乏支持，且与2018年6月第9话配信纪念资料存在疑点；旧映射关于排期一致的论断不成立。；输入 infobox 的话数为1，与9条本篇章节及制作参与者所述全9话冲突；主体范围采用后两者。；应用内曾拆分前后篇；若要补全逐集映射，应进一步核对完整话与分段配信记录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/231112; https://www.themoviedb.org/tv/244309; https://www.themoviedb.org/tv/244309/season/1; https://www.ppi.co.jp/works/layered-stories-0/; https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/6027?entry_id=5461; https://www.4gamer.net/games/394/G039495/20180322065/",
-    "verifiedAt": "2026-09-08T21:10:52.771Z"
+    "source": "https://bgm.tv/subject/231112; https://www.themoviedb.org/tv/244309; https://www.themoviedb.org/tv/244309/season/1; https://www.ppi.co.jp/works/layered-stories-0/; https://tanzanite.co.jp/blog/blog_20240221/; https://www.4gamer.net/games/394/G039495/20180605068/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 244309
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

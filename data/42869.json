@@ -1,16 +1,86 @@
 {
   "anidbId": 9281,
   "bangumiId": 42869,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 189373,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 189739,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 189740,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 189939,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 189940,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 189941,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 195827,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 195828,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 195829,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 195830,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 195831,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 195832,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 55453 的第 1 季与 Bangumi subject 42869 在标题、首播日及 12 集逐集标题上完全对应；第 2 季明确命名为「the TV」，对应另一个 Bangumi subject。因此主体应映射到第 1 季完整范围。后半段播出日期虽有差异，但不影响逐集标题和版本对应。\n\nhttps://www.themoviedb.org/tv/55453 (api_snapshot): TMDB 将 55453 识别为该作品，首播日为 2012-07-31；第 1 季 12 集，第 2 季另名为「the TV」。\n\nhttps://www.themoviedb.org/tv/55453/season/1 (api_snapshot): 第 1 季包含 12 集，逐集标题与输入 Bangumi subject 的 12 集标题对应。\n\n备注：Bangumi 后 6 集的 airdate 与 TMDB 第 1 季日期不同，可能反映播出延期或资料口径差异。",
+    "evidence": "codex: 确认对应TMDB 55453第1季整季。年份、电视短篇媒介、剧情、制作人员、声优及12集范围一致；逐集标题和顺序均可对应，第8—9集的标题差异有剧中标题注释佐证。2013年续作另列第2季，不纳入本subject。\n\nhttps://www.themoviedb.org/tv/55453 (api_snapshot): 原名搜索命中 TV 55453；详情确认首播日为 2012-07-31，导演仁昌寺义人，制作公司 AIC，主要声优丹下樱、金元寿子、佐藤利奈。第1季12集；2013年的「the TV」单列第2季10集。\n\nhttps://www.themoviedb.org/tv/55453/season/1 (api_snapshot): 已读取第1季完整集表，共12集、1页，每集5分钟。逐集标题与输入对应，第1—6集日期一致；第7—12集日期分别记为2012-09-11至2012-10-16，与Bangumi有差异。\n\nhttps://www.animatetimes.com/tag/details.php?id=14044 (page): 作品资料确认这是AIC Frontier制作、仁昌寺义人执导的2012年电视短篇动画，共12集，播出期间为7月31日至11月16日；魔法少女与使魔契约、因预算及人员问题忙于维持节目的剧情与输入吻合，并将「the TV」标为第2期。\n\nhttps://ja.wikid.org/マジでオタクなイングリッシュ!りぼんちゃん_〜英語で戦う魔法少女〜 (page): 逐集表支持Bangumi全部12集的日期和顺序；注释明确第8集剧中标题为「名探偵りぼんちゃん」，第9集为「(続) 名探偵りぼんちゃん」，分别对应TMDB的「名探偵!りぼんちゃん」及其「完結編」，解释了标题差异。\n\n备注：TMDB第7—12集日期均比Bangumi早31天；外部逐集表支持Bangumi日期。差异原因尚未确认，但集标题、顺序与总量足以确认逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/42869; https://www.themoviedb.org/tv/55453; https://www.themoviedb.org/tv/55453/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/42869; https://www.themoviedb.org/tv/55453; https://www.themoviedb.org/tv/55453/season/1; https://www.animatetimes.com/tag/details.php?id=14044; https://ja.wikid.org/マジでオタクなイングリッシュ!りぼんちゃん_〜英語で戦う魔法少女〜",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 55453
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

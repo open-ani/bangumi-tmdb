@@ -1,16 +1,86 @@
 {
   "anidbId": 16848,
   "bangumiId": 320220,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1061647,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1061648,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1061649,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1061650,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1061651,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1061652,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1061653,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1061654,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1061655,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1061656,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1061657,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1061658,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是《斗神姬／闘神機ジーズフレーム》，2021年10月11日开始、共12话，制作人员和剧情与官方资料及 TMDB 完全对应。TMDB TV 135691 明确标为该作品，第一季明确为 season 1、共12集；其集标题和剧情从第1集至第12集与官方/发行平台的完整12集列表对应。因此主体应映射为 TMDB TV 135691 第一季完整一季。未发现需单独纳入的主体内特别篇或总集篇。\n\nhttps://bgm.tv/subject/320220 (page): Bangumi 条目名称为斗神姬，别名闘神機ジーズフレーム，2021年10月11日开始，共12话；制作方、角色和剧情信息与候选作品一致。\n\nhttps://ag-f.net/ (search_snippet): 官方站使用闘神機ジーズフレーム名称，剧情、角色、制作人员及第1至第12话信息与 Bangumi 条目一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=25112012&workId=25112 (search_snippet): 发行平台列出闘神機ジーズフレーム全12话，并给出第1至第12话完整标题；制作年为2021年。\n\nhttps://www.themoviedb.org/tv/135691 (api_snapshot): TMDB TV 135691 的名称为闘神機ジーズフレーム，原名斗神姬，首播日期为2021-10-11，全集数为12，剧情与本条目一致。\n\nhttps://www.themoviedb.org/tv/135691/season/1 (api_snapshot): TMDB 明确返回 season_number=1、episodeCount=12；第1至第12集标题和剧情简介与官方及发行平台的主体12集对应。\n\n备注：TMDB 快照中的逐集 air_date 与 Bangumi 的周播日期存在整体错位，疑似不同发行/播出渠道或 TMDB 日期数据问题；但集数、标题、剧情顺序及作品元数据均支持完整第一季映射。；输入中的 AniDB ID 16848 与作品别名匹配，但 AniDB 详情页本次无法直接读取；该关联未作为唯一依据，TMDB 目标由 Bangumi、官方资料和 TMDB 自身数据交叉确认。",
+    "evidence": "codex: 确认对应TMDB 135691第1季完整12集。年份、剧情、制作方及核心制作人员一致；官方编号和逐话剧情与TMDB全季一致，Bangumi全部章节日期又与日本电视集表逐话保持提前一天的关系，支持本篇1—12话同号映射。TMDB采用不同日期排列，不应据此将章节错移一集。\n\nhttps://bgm.tv/subject/320220 (page): Bangumi 标为2021年10月11日开始的12话WEB动画，别名为《闘神機ジーズフレーム》；剧情、七灵石、山崎理、龚震华等制作信息与TMDB一致。\n\nhttps://bgm.tv/subject/320220/ep (page): 本篇共12章，第1章为斗神机、第2章为斗神姬部队；第1至12章日期为2021年10月11日至12月27日，每周一更新，后10章标题为空。\n\nhttps://www.themoviedb.org/tv/135691 (api_snapshot): 实际调用详情确认135691原名为斗神姬，日文别名对应，首播2021年10月11日，共1季12集；中文剧情、七灵石制作、山崎理原案及龚震华总导演均相符。\n\nhttps://www.themoviedb.org/tv/135691/season/1 (api_snapshot): 实际读取第1季全部12集，total_pages=1，每集24分钟。第1至12集标题和剧情与官方逐话公告逐一对应，未混入其他作品。第1、2集日期均为2021年10月11日，第3至12集按周排列至12月20日；第2至12集均比Bangumi同编号章节早7天。\n\nhttps://ag-f.net/ (page): 官方站确认同一机战剧情及山崎理、ERIMO、森木靖泰等制作人员；网络配信于10月11日开始，TOKYO MX于10月12日起每周二播出，说明WEB与电视播出属于同一作品的发行安排。\n\nhttps://ag-f.net/category/news/ (page): 官方新闻归档提供第1至12话明确编号、标题及剧情摘要，与TMDB全季逐一一致；预告公告从2021年10月8日至12月24日按周发布。\n\nhttps://thetv.jp/program/0001008270/plot/ (page): 完整12话电视集表的标题与剧情逐一对应TMDB；各话TOKYO MX日期从2021年10月12日至12月28日，每一话均比Bangumi同编号章节晚1天，支持Bangumi采用提前一天的网络配信顺序。\n\nhttps://zh.wikipedia.org/wiki/%E6%96%97%E7%A5%9E%E5%A7%AC (search_snippet): 中文维基搜索摘要记载：中国平台于2021年10月11日首日两集连播，日文标题用于日语配音版；该线索可解释TMDB前两集同日及后续提前一周的日期排列，但未作为唯一映射依据。\n\n备注：TMDB第2—12集日期比Bangumi早7天；中国平台首日双集的搜索摘要支持发行排期差异这一解释，但本次未直接读取中国发行平台的历史排期原文。；Bangumi第3—12章标题为空，其对应关系由官方逐话编号、剧情与完整电视播出日期表交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/320220; https://ag-f.net/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25112012&workId=25112; https://www.themoviedb.org/tv/135691; https://www.themoviedb.org/tv/135691/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/320220; https://bgm.tv/subject/320220/ep; https://www.themoviedb.org/tv/135691; https://www.themoviedb.org/tv/135691/season/1; https://ag-f.net/; https://ag-f.net/category/news/; https://thetv.jp/program/0001008270/plot/; https://zh.wikipedia.org/wiki/%E6%96%97%E7%A5%9E%E5%A7%AC",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 135691
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

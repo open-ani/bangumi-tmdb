@@ -1,19 +1,91 @@
 {
   "anidbId": 17906,
   "bangumiId": 424379,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1227284,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1227285,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1227286,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1227287,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1227288,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1227289,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1227290,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1227291,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1227292,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1227293,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1227294,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1227295,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品身份及全部12话的标题、日期和顺序均已核实。TMDB 将后续期数合并在第1季内，旧映射应收窄为 S01E01—E12，与其他 subject 已占用的第13—36集不重叠。\n\nhttps://www.themoviedb.org/tv/223564 (api_snapshot): 以日文原名搜索得到 TV 条目 223564；详情确认首播日期为 2023-10-08，剧情为爱城恋太郎遇见100位命定恋人，导演为佐藤光，制作公司与声优信息均与输入吻合，确认是同一部电视动画。\n\nhttps://www.themoviedb.org/tv/223564/season/1 (api_snapshot): 已读取第1季完整集表，共36集，total_pages=1。第1—12集的日文标题及播出日期逐集与输入完全一致，日期范围为2023-10-08至2023-12-24。第13集于2025-01-12播出，简介明确进入第2期，因此本 subject 仅覆盖第1季第1—12集，不能映射整季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/424379; https://www.themoviedb.org/tv/223564; https://www.themoviedb.org/tv/223564/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 223564
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 223564,
       "season": 1,
       "type": "tv"

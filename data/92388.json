@@ -1,15 +1,36 @@
 {
+  "anidbId": 7376,
   "bangumiId": 92388,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 354847,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 354848,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 日文原名与 Bangumi 完全一致，日期为 2009-12-18，剧情简介对应四名中学生铃木辉、星野爽歌、伊藤千寻、铃木忍的恋爱故事；TMDB演员与 Bangumi 角色声优也一致。该条目明确为结束状态、1 季 2 集，季表实际列出第1集 OVA1（2009-12-18，13分钟）和第2集 OVA2（2010-07-26，20分钟）。Bangumi说明第1集为Sho-Comi附录DVD动画化原作第1话，第2集为公式粉丝书特装版DVD的修学旅行篇；因此是同一部两集OVA，而非TV版、电影、音乐录像或合集，推荐整季映射。\n\nhttps://bgm.tv/subject/92388 (page): Bangumi条目为OVA，2话，发售日2009-12-18，结束日2010-07-26；简介说明两段附录/粉丝书DVD动画内容。\n\nhttps://api.bgm.tv/v0/subjects/92388 (api_snapshot): freshBangumi确认原名、中文名、OVA媒介、2集及2009-12-18至2010-07-26的日期范围。\n\nhttps://www.themoviedb.org/tv/279426 (api_snapshot): TMDB详情返回原名“好きです鈴木くん!!”、别名“I Love you Suzuki-kun!!”、首播2009-12-18、末播2010-07-26、2集1季、OVA附录DVD简介及四名主要角色演员。\n\nhttps://www.themoviedb.org/tv/279426/season/1 (api_snapshot): TMDB第1季实际集表只有2集：OVA1日期2009-12-18、OVA2日期2010-07-26；total_pages为1，未混入其他作品。\n\nhttps://natalie.mu/comic/news/25365 (search_snippet): 媒体报道确认2009-12-18发行的Sho-Comi 2010年第2号附录DVD收录该作品完整第1话，并由浅仓杏美、小田久史等配音。\n\nhttps://www.e-hon.ne.jp/bec/SA/Detail?refISBN=9784091590787 (search_snippet): 书籍资料确认2010年7月特装版公式粉丝书附带再现修学旅行篇的原创动画DVD。\n\n备注：TMDB的crew字段为空，未能从TMDB确认导演或动画制作公司；但主要演员、剧情、日期、OVA媒介及两集范围均已交叉核对，不影响作品身份和映射范围。",
+    "evidence": "codex: 确认对应TMDB 279426第1季全季。两边的OVA发行载体、内容、年份、首末日期、两集总量及主要角色声优一致。TMDB的OVA1、OVA2分别对应杂志附录第1话和粉丝书修学旅行篇，支持Bangumi本篇1—2顺序映射至S01E01—E02。\n\nhttps://bangumi.tv/subject/92388 (page): Bangumi标注为池山田剛原作的两话OVA，发行范围为2009-12-18至2010-07-26；简介区分杂志附录DVD的第1话与公式粉丝书DVD的修学旅行篇，四名主要角色声优与TMDB一致。\n\nhttps://www.themoviedb.org/tv/279426 (api_snapshot): 日文原名搜索命中279426；详情明确描述Sho-Comi附录与公式粉丝书两次OVA发行，首末日期一致，共1季2集；演员为浅倉杏美、一色まゆ、小田久史、岩崎了。\n\nhttps://www.themoviedb.org/tv/279426/season/1 (api_snapshot): 第1季实际集表共2集、total_pages=1：第1集OVA1，2009-12-18，13分钟；第2集OVA2，2010-07-26，20分钟。两集编号、发行日期与Bangumi描述的两次OVA发行一致，整季没有额外作品。\n\nhttps://www.e-hon.ne.jp/bec/SA/Detail?refISBN=9784091590787 (page): 书籍资料标明池山田剛著、小学馆出版、2010年7月发行；出版社说明确认特装版公式粉丝书附带再现修学旅行篇的原创动画DVD。\n\n备注：Bangumi逐集标题和日期为空，逐集对应依据为条目简介中的发行顺序、首末发行日期，以及TMDB的OVA编号和日期，无法进行独立的逐集标题比对。；TMDB制作公司与crew字段为空，无法交叉核对导演及动画制作公司；主要角色声优已核对一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/92388; https://api.bgm.tv/v0/subjects/92388; https://www.themoviedb.org/tv/279426; https://www.themoviedb.org/tv/279426/season/1; https://natalie.mu/comic/news/25365; https://www.e-hon.ne.jp/bec/SA/Detail?refISBN=9784091590787",
-    "verifiedAt": "2026-09-08T19:27:18.272Z"
+    "source": "https://bgm.tv/subject/92388; https://bangumi.tv/subject/92388; https://www.themoviedb.org/tv/279426; https://www.themoviedb.org/tv/279426/season/1; https://www.e-hon.ne.jp/bec/SA/Detail?refISBN=9784091590787",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 279426
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

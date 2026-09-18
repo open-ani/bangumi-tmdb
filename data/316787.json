@@ -1,15 +1,91 @@
 {
+  "anidbId": 16697,
   "bangumiId": 316787,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 982633,
+      "sort": 52,
+      "type": 0
+    },
+    {
+      "id": 982634,
+      "sort": 53,
+      "type": 0
+    },
+    {
+      "id": 982635,
+      "sort": 54,
+      "type": 0
+    },
+    {
+      "id": 982636,
+      "sort": 55,
+      "type": 0
+    },
+    {
+      "id": 982637,
+      "sort": 56,
+      "type": 0
+    },
+    {
+      "id": 982638,
+      "sort": 57,
+      "type": 0
+    },
+    {
+      "id": 982639,
+      "sort": 58,
+      "type": 0
+    },
+    {
+      "id": 982640,
+      "sort": 59,
+      "type": 0
+    },
+    {
+      "id": 982641,
+      "sort": 60,
+      "type": 0
+    },
+    {
+      "id": 982642,
+      "sort": 61,
+      "type": 0
+    },
+    {
+      "id": 982643,
+      "sort": 62,
+      "type": 0
+    },
+    {
+      "id": 982644,
+      "sort": 63,
+      "type": 0
+    },
+    {
+      "id": 982645,
+      "sort": 64,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《如果历史是一群喵》(116042) 的第 5 季《乱世三国篇》。Bangumi 与 TMDB 均确认 2020 年、WEB/网络动画、13 集、肥志及萌想文化相关制作信息；TMDB 第 5 季实际集表为 13 集，标题从“刘备立足”至“暗流涌动”，对应 Bangumi 的主体集数，未混入特别篇或其他季度，因此使用完整第 5 季。\n\nhttps://api.bgm.tv/v0/subjects/316787 (api_snapshot): Bangumi 原始 API 信息确认标题《如果历史是一群喵 乱世三国篇》，别名“如果历史是一群喵 第五季”，平台 WEB，首播 2020-10-11，共 13 集；导演为肥志，制作/动画团队为萌想文化相关团队。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): TMDB 详情确认该 TV 为《如果历史是一群喵》，中文原名相同，首播 2018-09-02，制作公司为深圳萌想文化传播有限公司，并列出第 5 季名称“乱世三国篇”、首播 2020-10-11、13 集；该条目是包含多个历史篇章的母系列。\n\nhttps://www.themoviedb.org/tv/116042/season/5 (api_snapshot): TMDB 第 5 季实际集表确认季名“乱世三国篇”、13 集，集名为第五十二回至第六十四回，内容标题与 Bangumi 主体集名逐集对应。\n\nhttps://bgm.tv/subject/316787/index (search_snippet): Bangumi 页面搜索结果将该条目标为 WEB、2020 年中国动画，并归入“如果历史是一群喵系列”。\n\n备注：TMDB 集表的部分播出日期与 Bangumi 记录存在偏移：TMDB 将第 2 集起按每周播出并记录第 13 集为 2021-01-03，而 Bangumi 记录第 1、2 集同日并于 2020-12-27 结束；另第 9 集标题为“司马代曹”而 Bangumi 为“司马侍曹”。这些是发行元数据和措辞差异，不影响作品身份及完整 13 集范围。",
+    "evidence": "codex: 确认对应 TMDB 116042 第 5 季完整 13 集。年份、篇章、制作方、历史题材及网络动画版本相符；实际季表仅包含第五十二回至第六十四回，没有混入其他季度或特别篇。逐集核对回目编号、内容标题、日期和总量后，可将 Bangumi sort 52—64 连续映射至 S05E01—E13。日期偏移及一处标题差异不改变明确的回目对应。\n\nhttps://bgm.tv/subject/316787 (page): Bangumi 确认为 WEB 动画《如果历史是一群喵 乱世三国篇》，别名第五季，13 话，2020-10-11 开播；原作及导演为肥志，动画制作与制作为萌想文化，章节范围为第 52—64 回。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): TMDB 详情确认 116042 是以十二只猫演绎中国历史的中文动画系列，制作公司为深圳萌想文化传播有限公司；第 5 季名为《乱世三国篇》，首播 2020-10-11，共 13 集，与前后历史篇章分季收录。\n\nhttps://www.themoviedb.org/tv/116042/season/5 (api_snapshot): 已读取第 5 季完整集表，共 13 集、1 页。第 1—13 集明确标注第五十二回至第六十四回，与输入 Bangumi sort 52—64 对应；12 个内容标题完全一致，第 9 集为“司马代曹”，Bangumi 为“司马侍曹”。首集日期一致，第 2—13 集日期均比 Bangumi 晚 7 天。\n\nhttps://www.bilibili.com/bangumi/media/md28224393 (page): 哔哩哔哩将第 4—5 季合并为一个播放条目，共 26 话；该平台的合并范围大于本 subject 的 13 话，不能直接当作本 subject 的映射范围。\n\n备注：TMDB 第 2—13 集日期均比 Bangumi 晚 7 天，末集记为 2021-01-03；具体日期差异原因尚未确认。；第六十回标题存在“司马侍曹”与“司马代曹”的差异；回目编号一致，前后标题序列一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/316787; https://api.bgm.tv/v0/subjects/316787; https://www.themoviedb.org/tv/116042; https://www.themoviedb.org/tv/116042/season/5; https://bgm.tv/subject/316787/index",
-    "verifiedAt": "2026-09-08T22:33:09.034Z"
+    "source": "https://bgm.tv/subject/316787; https://www.themoviedb.org/tv/116042; https://www.themoviedb.org/tv/116042/season/5; https://www.bilibili.com/bangumi/media/md28224393",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 64,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 52,
+      "tmdbId": 116042
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,86 @@
 {
   "anidbId": 14113,
   "bangumiId": 248208,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850156,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850157,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850158,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850159,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850160,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850161,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850162,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850163,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850164,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850165,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850166,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850167,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 83102 第1季全12集。年份、电视动画媒介、剧情、导演、制作公司及声优一致；完整季表的12个标题与 Bangumi 逐集吻合，第6集为读音标注差异。末三集日期虽有冲突，但标题、集数及独立播出资料足以确认连续一一对应，整季未混入其他作品。\n\nhttps://www.themoviedb.org/tv/83102 (api_snapshot): 日文原名搜索得到 TV 83102；详情确认是2019年电视动画，导演小野勝巳、制作公司 SATELIGHT，鸣谷慧与格里芬对抗神秘飞翔体的剧情及主要声优均与输入一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/83102/season/1 (api_snapshot): 已读取第1季完整集表，共12集、1页。第1至12集标题与 Bangumi 顺序逐一一致；第6集仅增加读音“レゾンデートル”。第1至9集日期完全一致；第10至12集日期分别记为2019-03-13、03-20、03-20，与输入存在差异。\n\nhttps://www.thetvdb.com/series/girly-air-force/seasons/official/1 (search_snippet): 独立集表列出的12集标题、顺序及日期均与输入相符，其中第10、11、12集分别为2019-03-14、03-21、03-28，支持末三集仍按同名章节对应。\n\nhttps://www.animatetimes.com/news/details.php?id=1553674239 (search_snippet): 2019-03-27发布的第12集先行报道确认该作是2019-01-10开播的电视动画，并描述慧与莱诺探索机场、格里芬休息的情节，与 TMDB 第12集简介一致。\n\n备注：TMDB 第10至12集播出日期与 Bangumi 及交叉资料不一致，日期差异原因未确认；不影响已核实的集号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/248208; https://www.themoviedb.org/tv/83102; https://www.themoviedb.org/tv/83102/season/1; https://www.thetvdb.com/series/girly-air-force/seasons/official/1; https://www.animatetimes.com/news/details.php?id=1553674239",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83102
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,156 @@
 {
+  "anidbId": 17972,
   "bangumiId": 424818,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182942,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1182943,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1182944,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1182945,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1182946,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1182947,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1182948,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1182949,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1182950,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1182951,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1182952,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1182953,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1227276,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1241163,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1241164,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1241165,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1245148,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1245149,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1245150,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1245151,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1245152,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1245153,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1292103,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1292104,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1292105,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1292106,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 254024 的第 1 季：同名日文原名及英文别名 Go! Go! Vehicle Zoo，2023-04-02 开播，剧情均为动物与交通工具共同生活并互相帮助，制作公司均为 OLM 与 SIGNAL.MD。Bangumi 主体为 2023 年 26 集短篇 TV 动画；TMDB 第 1 季实际季表也为 26 集、每集约 3 分钟，故可使用整季。TMDB 第 2 季是 2025 年独立的“のりものスター編”，不纳入本 subject；TMDB 的 221647 仅有未定日期的 1 集残缺条目，排除。\n\nhttps://www.themoviedb.org/tv/254024 (api_snapshot): TMDB 详情确认作品名、原名、2023-04-02 日期、剧情、OLM/SIGNAL.MD 制作、共 2 季；第 1 季 26 集，第 2 季 13 集。\n\nhttps://www.themoviedb.org/tv/254024/season/1 (api_snapshot): TMDB 第 1 季实际季表共 26 集，episode_number 覆盖 1–26，全部为约 3 分钟短篇。\n\nhttps://api.bgm.tv/v0/subjects/424818 (api_snapshot): Bangumi API 确认主体是 2023-04-02 开播、TV、26 集，制作 OLM×SIGNAL.MD，导演竹村菜月，剧情为动物与交通工具共同生活并处理求助。\n\nhttps://www.takaratomy.co.jp/products/tomica/sp/vehiclezoo/ (page): 官方 Takara Tomy 页面确认该系列设定与动物/交通工具角色；同时明确 2025 年播出的是另一个新动画“ゴー！ゴー！びーくるずー のりものスター編”。\n\nhttps://www.themoviedb.org/tv/254024/season/2 (api_snapshot): TMDB 第 2 季标题为 Vehicle Star-hen，日期为 2025-04-06，共 13 集，与 Bangumi 的关联 subject“のりものスター編”对应而非本 subject。\n\nhttps://www.themoviedb.org/tv/221647 (api_snapshot): 该同名候选仅有 1 集、无日期且状态为 In Production，是残缺条目，不符合 Bangumi 的 2023 年 26 集主体。\n\n备注：TMDB 第 1 季部分集的日期与 Bangumi 实际播出日期不一致，且 TMDB 集名为通用的 Episode 1–26；但季数、集数、作品身份和主体范围均已核实，不影响采用整季 1–26。",
+    "evidence": "codex: 确认对应TMDB 254024第1季：年份、首播日、剧情、制作公司及26集短篇动画范围一致，2025年续作另列第2季。逐集规则仅纳入日期逐一吻合的第1—13集；第14—26集存在日期冲突且缺少真实集名，暂不建立对应。\n\nhttps://www.themoviedb.org/tv/254024 (api_snapshot): 作品详情显示首播日期为2023-04-02，剧情为动物与交通工具共同生活、合作解决困难，制作公司为OLM、Signal.MD及TakaraTomy；第1季26集，另有2025年的第2季Vehicle Star-hen。\n\nhttps://www.themoviedb.org/tv/254024/season/1 (api_snapshot): 第1季实际集表共26集、仅1页，每集3分钟。第1—13集日期与输入Bangumi逐集一致；第14—26集被列为2023-07-02至09-24连续周播，与Bangumi不符。所有集名均为通用编号，简介为空。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=26317006&workId=26317 (page): 正版配信页面确认这是2023年制作的短篇动画，导演竹村菜月、角色设计远藤荣一、音乐ネゴロノブ、动画制作OLM×Signal.MD，剧情与输入一致。\n\nhttps://www.takaratomy.co.jp/products/tomica/sp/vehiclezoo/ (page): 官方页面明确将2025年4月播出的「のりものスター編」称为新动画，与本次2023年主体区分。\n\nhttps://thetv.jp/program/0001030213/plot/ (page): 节目资料列出的后段标题与播出日期支持Bangumi数据，例如最后一话于2023-12-24播出，前一话于12-17播出，无法支持TMDB后半季的连续周播日期。\n\nhttps://www.themoviedb.org/tv/221647 (api_snapshot): 另一同名候选221647具有相同制作公司及导演，但无首播日期、仅登记1集且状态为制作中，无法承载已知26集主体范围。\n\n备注：TMDB第1季第14—26集日期与Bangumi及节目资料冲突，不能仅凭相同集号推定对应，也不能仅凭日期改配至其他集号；需待TMDB补充真实集名、剧情或修正日期后核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/424818; https://www.themoviedb.org/tv/254024; https://www.themoviedb.org/tv/254024/season/1; https://api.bgm.tv/v0/subjects/424818; https://www.takaratomy.co.jp/products/tomica/sp/vehiclezoo/; https://www.themoviedb.org/tv/254024/season/2; https://www.themoviedb.org/tv/221647",
-    "verifiedAt": "2026-09-08T23:46:32.011Z"
+    "source": "https://bgm.tv/subject/424818; https://www.themoviedb.org/tv/254024; https://www.themoviedb.org/tv/254024/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=26317006&workId=26317; https://www.takaratomy.co.jp/products/tomica/sp/vehiclezoo/; https://thetv.jp/program/0001030213/plot/; https://www.themoviedb.org/tv/221647",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 254024
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

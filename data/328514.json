@@ -1,16 +1,86 @@
 {
   "anidbId": 16267,
   "bangumiId": 328514,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1008431,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1008432,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1008433,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1008434,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1008435,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1008436,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1008437,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1008438,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1008439,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1008440,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1008441,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1008442,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB TV 118651 是中国动画剧集《A Song of Sword as Pillow／枕刀歌》，2021年首播，剧情为主角何方知追查灭门真相并复仇，与该 Bangumi subject 身份一致。TMDB 第1季共列14集，其中第13、14集均于2021年9月30日播出；独立资料确认这两集属于另一个作品《枕刀歌 特别篇》，而本 subject 正篇为2021年2月上线的12集动画。因此应映射为 TV 118651 第1季第1至12集，不能映射完整第1季，也不能映射2022年电影《枕刀歌之尘世行》。\n\nhttps://filmnoir.app/links/tmdb/tv-series/118651 (page): TMDB 数据衍生页以路径 tv-series/118651 标识《A Song of Sword as Pillow》(2021)；原名为《枕刀歌》，剧情讲述何方知从灭门惨案中幸存并踏上复仇之路，确认了具体TMDB ID和作品身份。\n\nhttps://filmnoir.app/links/tmdb/tv-series/118651/season/1 (page): 对应的TMDB第1季数据明确列有14集；第1至12集属于2021年2月至4月的首轮内容，第13、14集的播出日期均为2021年9月30日，因此本subject只占该季第1至12集。\n\nhttps://www.chinawriter.com.cn/attachment/202207/13/8ed07f33-1968-4038-afa1-f5b8b1f969bc.pdf (search_snippet): 中国作家网资料明确称《枕刀歌》是2021年2月上线的12集武侠动画剧集，以何方知的经历为主线；同时把2022年的《尘世行》称为同系列动画电影，证明二者不是同一主体。\n\nhttps://bangumi.tv/subject/348537 (search_snippet): 《枕刀歌 特别篇》被单独收录为2集WEB动画，放送开始日为2021年9月30日，正好对应TMDB第1季的第13、14集。\n\nhttps://www.sohu.com/a/492986922_120809169 (search_snippet): 资料说明2021年9月30日上线的《枕刀歌特别篇》是对第一季故事的补充和拓展，进一步证明这两集不属于本轮目标的12集正篇。\n\n备注：TMDB镜像所列第1季部分单集播出日期与Bangumi记录存在约一集的偏移，但第13、14集同为2021年9月30日、且被独立资料确认为两集特别篇，因此第1至12集这一内容边界不受该日期误差影响。",
+    "evidence": "codex: 确认对应TMDB TV 118651第1季第1至12集。年份、首播日、剧情、导演与制作方一致，12集标题、顺序及近似时长逐一吻合，支持连续一对一映射。该季另含两集特别篇，因此不能映射整季；seed电影属于另一作品。\n\nhttps://bgm.tv/subject/328514 (page): Bangumi 将本作标为2021年2月5日开播的12集WEB动画，制作方为更三动画、总导演为薛锦胜，故事围绕何方知追查灭门案展开。\n\nhttps://www.themoviedb.org/tv/118651 (api_snapshot): TMDB TV 118651《枕刀歌》的首播日期、何方知复仇剧情、更三动画及导演薛锦胜均与目标一致；第1季名为“千里不留行”。\n\nhttps://bgm.tv/subject/328514/ep (page): 章节页列出本篇第1至12集，标题和顺序与TMDB S1E1至E12逐一相同；第1、2集均记为2021年2月5日播出，第12集记为4月16日。\n\nhttps://www.themoviedb.org/tv/118651/season/1 (api_snapshot): 已读取第1季完整集表，共14集、1页。前12集逐集标题与Bangumi一致，分钟时长也与Bangumi秒级时长四舍五入后一致。第13、14集明确题为特别篇上、下，均记为2021年9月30日，不在本subject范围。\n\nhttps://www.themoviedb.org/movie/925668 (api_snapshot): seed中的电影925668实际是2022年《千里不留行》，时长87分钟，讲述林大卫被发配后返乡的故事，导演、演员和剧情均不同；其IMDb正是seed中的tt18346884，因此这两条线索应排除。\n\n备注：TMDB第2至12集日期均比Bangumi晚7天，第1集日期一致；日期差异原因未确认。全部12集标题及对应时长吻合，故不据此移动集号。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/328514; https://filmnoir.app/links/tmdb/tv-series/118651; https://filmnoir.app/links/tmdb/tv-series/118651/season/1; https://www.chinawriter.com.cn/attachment/202207/13/8ed07f33-1968-4038-afa1-f5b8b1f969bc.pdf; https://bangumi.tv/subject/348537; https://www.sohu.com/a/492986922_120809169",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/328514; https://www.themoviedb.org/tv/118651; https://bgm.tv/subject/328514/ep; https://www.themoviedb.org/tv/118651/season/1; https://www.themoviedb.org/movie/925668",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118651
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

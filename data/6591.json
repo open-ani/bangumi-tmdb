@@ -1,16 +1,36 @@
 {
   "anidbId": 7522,
   "bangumiId": 6591,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 39783,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 53912,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2010 年 PrimeTime 制作、共 2 集的《恋する暴君》OVA，首集 2010-06-25、第二集 2010-11-26；章节标题、时长和制作人员与外部资料一致。TMDB 45226 同名日语 TV 条目首播日为 2010-06-25，且第1季明确包含 2 集，因此应映射整季 S1。TMDB 将第2集日期记为 2010-07-02，与 Bangumi/发行资料的 2010-11-26 不一致，视为 TMDB 日期元数据错误，不影响该 2 集 OVA 的版本和完整季范围判断。\n\nhttps://bgm.tv/subject/6591 (page): Bangumi 条目标记为 OVA，共2话；首发2010-06-25、结束2010-11-26；导演川久保圭史、动画制作PrimeTime等信息与候选作品一致。\n\nhttps://bgm.tv/ep/39783 (page): 第1集标题为「恋に賞味期限ってありますか？」、时长30分钟、首播2010-06-25。\n\nhttps://bgm.tv/ep/53912 (page): 第2集标题为「俺たち恋人同士になったんですよね…？」、时长30分钟、首播2010-11-26。\n\nhttps://www.jmediawiki.org/%E6%9A%B4%E5%90%9B%E3%81%AF%E6%81%8B%E3%81%AB%E8%90%BD%E3%81%A1%E3%82%8B/The_Tyrant_Falls_in_Love (page): 资料将该动画描述为2010年制作的两部构成OVA，并列出两卷发行日为2010-06-25和2010-11-26。\n\nhttps://www.getchu.com/item/690990/ (page): 第二话商品页确认标题、PrimeTime、30分钟、发行日2010-11-26、品番ANDS-13006及剧情/制作人员。\n\nhttps://www.themoviedb.org/tv/45226 (api_snapshot): TMDB API快照显示ID 45226、同名日语TV条目、首播2010-06-25、总集数2，并只有第1季且季集数为2。\n\nhttps://www.themoviedb.org/tv/45226/season/1 (api_snapshot): TMDB API快照显示第1季共2集，集数为1和2；第2集日期虽记为2010-07-02，但未出现额外集数或其他季。\n\n备注：输入中的 AniDB 7522 关联名称与作品名匹配，但 AniDB 页面本次无法直接读取，未能独立核验该 ID 页面。；TMDB 第2集日期与 Bangumi及发行资料不一致；若要求逐集日期完全一致，需后续核查 TMDB 条目编辑历史或官方数据来源。",
+    "evidence": "codex: 确认对应TMDB 45226第1季：年份、制作公司、导演、角色剧情及全2话结构共同吻合2010年OVA，整季未混入其他作品。第1话日期、时长及首话身份一致，可建立对应。第2话发行日期与TMDB冲突，且TMDB缺少实质标题和简介，因此保留整季作品映射，仅填写已核实的第1话规则。\n\nhttps://bgm.tv/subject/6591 (page): Bangumi 将本作标为全2话的2010年OVA，原作为高永ひなこ，导演川久保圭史，动画制作PrimeTime；剧情围绕森永与巽宗一展开。\n\nhttps://bgm.tv/ep/39783 (page): 本篇第1话标题为「恋に賞味期限ってありますか？」，日期2010-06-25，时长30分钟。\n\nhttps://bgm.tv/ep/53912 (page): 本篇第2话标题为「俺たち恋人同士になったんですよね…？」，日期2010-11-26，时长30分钟。\n\nhttps://www.getchu.com/item/690990/ (page): 第二话DVD商品页确认相同副标题、2010-11-26发行、30分钟，并明确称为完结篇；剧情、原作、导演及PrimeTime制作信息与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/45226 (api_snapshot): TMDB 45226的日文原名、2010-06-25首发日期、PrimeTime制作、川久保圭史导演、人物与英文剧情均与本作一致；全剧仅1季2集。\n\nhttps://www.themoviedb.org/tv/45226/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，total_pages=1，仅有两集，各30分钟。第1集日期2010-06-25；第2集日期2010-07-02。两种语言均仅提供通用集号标题，无分集简介。\n\nhttps://www.themoviedb.org/movie/1501049 (api_snapshot): 另查到同名电影1501049，日期2010-06-25、时长58分钟、人物声优及原作者相符，但没有明确的两话收录说明，未将其作为映射目标。\n\n备注：Bangumi第2话暂不建立逐集映射：发行资料确认2010-11-26，TMDB记为2010-07-02；疑似日期元数据错误，但缺少分集内容证据，不能仅凭位置确认。后续可核查TMDB第2集编辑记录或补充标题、剧情资料。；同名电影1501049可能属于合并收录或重复建档，其具体版本未得到确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/6591; https://bgm.tv/ep/39783; https://bgm.tv/ep/53912; https://www.jmediawiki.org/%E6%9A%B4%E5%90%9B%E3%81%AF%E6%81%8B%E3%81%AB%E8%90%BD%E3%81%A1%E3%82%8B/The_Tyrant_Falls_in_Love; https://www.getchu.com/item/690990/; https://www.themoviedb.org/tv/45226; https://www.themoviedb.org/tv/45226/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/6591; https://bgm.tv/ep/39783; https://bgm.tv/ep/53912; https://www.getchu.com/item/690990/; https://www.themoviedb.org/tv/45226; https://www.themoviedb.org/tv/45226/season/1; https://www.themoviedb.org/movie/1501049",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45226
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

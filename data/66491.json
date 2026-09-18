@@ -1,16 +1,91 @@
 {
   "anidbId": 9745,
   "bangumiId": 66491,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 256566,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 259097,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 259098,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 259099,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 259100,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 259101,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 259102,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 259103,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 259104,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 259105,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 259106,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 259107,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 290426,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 66491 是2013年4月7日开播的日本短篇电视动画《血液型くん！》。TMDB TV 49248 的原名、媒介和首播日期均一致，其第1季完整收录2013年4月7日至6月23日播出的12话正篇，故映射为完整第1季。Bangumi 所列第13话是6月30日播出的《てーきゅう》联动特别篇，不属于这12话正篇，本轮无需额外映射。TMDB 第0季仅有一条2013年8月30日的特别篇，与6月30日的联动篇日期不符，不能用 S0E1 代替第13话。\n\nhttps://www.themoviedb.org/tv/49248 (api_snapshot): TMDB API 快照显示 TV 49248 原名为《血液型くん！》，首播日期为2013年4月7日；全剧按四季编排，第1季为12集。\n\nhttps://www.themoviedb.org/tv/49248/season/1 (api_snapshot): TMDB API 快照显示第1季共有12集，逐集播出日期从2013年4月7日至6月23日，与该作品前12话的日期顺序完全对应。\n\nhttps://bgm.tv/subject/66491 (page): Bangumi 页面确认该条目是《血液型くん！／血型君》，为2013年4月7日开播、由大山佳久执导及 Assez Finaud Fabric./feel. 制作的电视动画。\n\nhttps://te-kyu.com/news/20130629_155700.php (page): 《てーきゅう》动画官网明确称《血液型くん！》第13话为双方的联动特别篇，内容是押本百合和高宫茄乃出演的90秒短片，于2013年6月30日播出。\n\nhttps://www.themoviedb.org/tv/49248/season/0 (api_snapshot): TMDB API 快照中的第0季只有2013年8月30日播出的S0E1，日期与6月30日的第13话联动特别篇不一致。\n\nhttps://www.tvmaze.com/shows/15030/ketsuekigata-kun/episodes (page): 独立分集资料将第一季列为12集，标题顺序从恋爱、特征、合宿等内容一直到第12集献血，与 Bangumi 前12话内容对应。",
+    "evidence": "codex: 确认主体对应 TMDB TV 49248 第1季：首播年份、电视动画媒介、角色及配音一致，12集播出日期逐集吻合，独立集表的标题主题顺序也一致。因此映射 Bangumi 第1至12话至 S1E1–S1E12。第13话已确认是联动特别篇，但尚无足够证据确定其 TMDB 对应集，暂留空。\n\nhttps://www.themoviedb.org/tv/49248 (api_snapshot): 日文原名搜索返回 TV 49248；详情确认首播日期为2013-04-07，A、B、O、AB型角色分别由福山润、中村悠一、石田彰、柿原彻也配音，与 Bangumi 的角色及声优一致。\n\nhttps://bgm.tv/subject/66491 (page): Bangumi 确认这是2013年的电视动画，原作 Real Crazy Man，导演大山佳久，动画制作 Assez Finaud Fabric./feel.，内容为血型性格拟人化短篇，共列13话。\n\nhttps://www.themoviedb.org/tv/49248/season/1 (api_snapshot): 第1季完整集表共12集、仅1页；第1至12集日期逐一对应 Bangumi 前12话，均为2013-04-07至2013-06-23的每周日。日文及英文标题均为通用集号，简介为空。\n\nhttps://www.tvmaze.com/shows/15030/ketsuekigata-kun/episodes (page): 第一季12集的标题主题顺序为恋爱、特征、要求、合宿、恋人、购物、夏天、小学生活、工作、联谊、动物、献血，与 Bangumi 前12话一致；其中第9至12集日期比 Bangumi 和 TMDB 晚一天，因此仅作为标题顺序的辅助证据。\n\nhttps://te-kyu.com/news/20130629_155700.php (page): 《网球并不可笑嘛》官网明确公告《血液型くん！》第13话为联动特别篇，由押本百合和高宫茄乃出演，时长90秒，于2013-06-30播出。\n\nhttps://www.themoviedb.org/tv/49248/season/0 (api_snapshot): 第0季完整集表只有第1集，日期为2013-08-30；日文及英文均无具体标题和剧情，无法确认它是否对应6月30日播出的联动篇。\n\n备注：Bangumi 第13话（章节290426）未映射。TMDB S0E1 缺少具体标题和剧情，且日期不同；仅凭日期差异也不能断定两者不是同一内容，需进一步核查特别篇内容或发行资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/66491; https://www.themoviedb.org/tv/49248; https://www.themoviedb.org/tv/49248/season/1; https://te-kyu.com/news/20130629_155700.php; https://www.themoviedb.org/tv/49248/season/0; https://www.tvmaze.com/shows/15030/ketsuekigata-kun/episodes",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/66491; https://www.themoviedb.org/tv/49248; https://www.themoviedb.org/tv/49248/season/1; https://www.tvmaze.com/shows/15030/ketsuekigata-kun/episodes; https://te-kyu.com/news/20130629_155700.php; https://www.themoviedb.org/tv/49248/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 49248
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

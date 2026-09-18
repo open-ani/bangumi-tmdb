@@ -1,16 +1,86 @@
 {
   "anidbId": 14664,
   "bangumiId": 274133,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 893995,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 893996,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 893997,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 893998,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 893999,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 894000,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 894001,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 894002,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 894003,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 894004,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 894005,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 894006,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2019年7月14日开播、12集的 TV 动画《BEM》，制作、剧情和官方播出信息与 TMDB 88063 一致。TMDB 第1季明确含12集，集名 WATER、LIAR、SHADOW、LIGHTNING、SWEEPER、GRAVITY、CHIMERA、NOISE、FALLING、BETRAYAL、JUDGEMENT、Wishing to become human someday，与 Bangumi 章节及东京电视台官方集数逐一对应。Bangumi 另将《劇場版 BEM ～BECOME HUMAN～》列为独立续集，因此不应映射为电影或混入本 TV 季。官方曾公告第4话延期，解释了部分 TMDB 与 Bangumi/官方日期差异，但不影响作品、季号和完整12集范围的确认。\n\nhttps://bgm.tv/subject/274133 (page): Bangumi 条目标注为 TV、12话，首播2019-07-14，完播2019-10-13；章节为01至12，并将剧场版列为独立续集。\n\nhttps://www.themoviedb.org/tv/88063 (api_snapshot): TMDB TV 88063 名为 BEM，首播2019-07-14，共12集，包含第1季且季集数为12。\n\nhttps://www.themoviedb.org/tv/88063/season/1 (api_snapshot): TMDB 第1季编号为1、共12集；完整集名和剧情与 Bangumi/官方《BEM》集数顺序对应。\n\nhttps://www.tv-tokyo.co.jp/anime/newbem/episodes/ (page): 东京电视台官方集数页列出第3至12话的标题、剧情和播出日期，包含第12话 Wishing to become human someday，与 TMDB 第1季末集一致。\n\nhttps://www.tv-tokyo.co.jp/anime/newbem/news/index.html (page): 东京电视台官方公告第4话因内容调整延期至2019-08-18，说明不同来源的部分集数日期差异属于播出调整。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=106493 (search_snippet): 搜索结果中的 BEM 链接指向 AniDB anime/14664，支持输入中的 AniDB ID 与该2019年《BEM》版本相符。",
+    "evidence": "codex: 确认对应TMDB 88063第1季全12集。年份、TV媒介、制作人员、故事背景及完整逐集标题与剧情一致，Bangumi本篇1—12可顺序对应S01E01—E12；整季未混入旧版或剧场版。播出日期已逐集比对，TMDB存在日期差异，但不影响由标题、剧情及总集数共同确认的对应关系。\n\nhttps://bgm.tv/subject/274133 (page): Bangumi 标注为2019年7月14日至10月13日播出的12话TV动画，导演小高義規、动画制作ランドック・スタジオ；旧版列为不同演绎，剧场版列为独立续集。\n\nhttps://www.themoviedb.org/tv/88063 (api_snapshot): TMDB 88063 为2019年《BEM》，首播2019-07-14，仅1季12集；里布拉市、女刑警索妮娅及三名妖怪人的剧情，以及导演小高義規、编剧冨岡淳広、LandQ Studios 均与目标一致。\n\nhttps://www.themoviedb.org/tv/88063/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。依次为 WATER、LIAR、SHADOW、LIGHTNING、Sweeper、Gravity、Chimera、Noise、Falling、Betrayal、Judgement、Wishing to become human someday，与输入12章标题和顺序逐一一致，剧情亦对应官方集表。\n\nhttps://www.tv-tokyo.co.jp/anime/newbem/episodes/index_2.html (page): 官方第1、2话分别于2019-07-14、07-21播出，标题及溺死事件、贝拉容貌秘密的剧情均与TMDB对应集一致。\n\nhttps://www.tv-tokyo.co.jp/anime/newbem/episodes/ (page): 官方第3至12话标题、顺序及剧情与TMDB对应集一致；逐话播出日期均与输入Bangumi章节一致，第4话为2019-08-18，末话为2019-10-13。\n\nhttps://www.tv-tokyo.co.jp/anime/newbem/staff/ (page): 官方确认导演小高義規、系列构成冨岡淳広、动画制作ランドック・スタジオ，与Bangumi及TMDB制作资料一致。\n\nhttps://www.tv-tokyo.co.jp/anime/newbem/news/ (page): 官方公告第4话修改部分内容后延期播出，东京电视台8月4日及11日重播旧集，8月18日播出第4话。\n\n备注：TMDB第3、5—8集日期比官方晚1天，第4集记为2019-08-05而官方实际为08-18，第9—12集比官方晚11天。官方延期公告仅能解释第4话排期变更，其他日期差异的来源未确认；不能将全部差异归因于延期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/274133; https://www.themoviedb.org/tv/88063; https://www.themoviedb.org/tv/88063/season/1; https://www.tv-tokyo.co.jp/anime/newbem/episodes/; https://www.tv-tokyo.co.jp/anime/newbem/news/index.html; https://www.animecharactersdatabase.com/linktodbs.php?id=106493",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/274133; https://www.themoviedb.org/tv/88063; https://www.themoviedb.org/tv/88063/season/1; https://www.tv-tokyo.co.jp/anime/newbem/episodes/index_2.html; https://www.tv-tokyo.co.jp/anime/newbem/episodes/; https://www.tv-tokyo.co.jp/anime/newbem/staff/; https://www.tv-tokyo.co.jp/anime/newbem/news/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 88063
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

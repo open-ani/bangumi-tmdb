@@ -1,16 +1,103 @@
 {
   "anidbId": 12329,
   "bangumiId": 189793,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 690916,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 690917,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 690918,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 690919,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 690920,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 690921,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 690922,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 690923,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 690924,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 690925,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 690926,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 690927,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 713897,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 713897,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 71009,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是2017年《カブキブ！》电视动画，主体为12集；TMDB TV 71009 第1季同为12集，标题、完整剧集名和剧情逐一对应，首播日期仅相差1天。Bangumi另记录特别篇《ちよこれいと合戦》（2017-09-27），与TMDB第0季唯一集对应，故纳入。\n\nhttps://bgm.tv/subject/189793 (page): Bangumi记录标题《カブキブ！/青春歌舞伎》、2017年播出、常规12话及特别篇《ちよこれいと合戦》。\n\nhttps://www.themoviedb.org/tv/71009 (api_snapshot): TMDB TV 71009为日语日本动画，共12集，季列表含第0季1集和第1季12集。\n\nhttps://www.themoviedb.org/tv/71009/season/1 (api_snapshot): 第1季12集的完整标题与Bangumi第1至12话逐一对应，剧情也一致。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演、制作公司及角色声优均吻合；本篇12话与TMDB第1季逐集标题和顺序一致，日期统一相差一天，不影响对应。特别篇经官方确认是同名新作OVA，标题、发行日及剧情与S00E01一致，因此完整映射本篇和特别篇。\n\nhttps://www.themoviedb.org/tv/71009 (api_snapshot): TMDB 71009 是2017年日本电视动画《カブキブ！》，剧情为来栖黑悟在高中创立歌舞伎同好会；导演米田和弘、制作公司Studio Deen及主要角色声优与输入资料一致。\n\nhttps://www.themoviedb.org/tv/71009/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。逐集核对后，第1—12集日文标题与Bangumi本篇顺序一致，仅有空格、标点差异；日期为2017-04-07至2017-06-23，每集均比输入日期晚一天。\n\nhttps://www.themoviedb.org/tv/71009/season/0 (api_snapshot): 第0季完整集表仅1集，标题为《ちよこれいと合戦》，日期2017-09-27，剧情为成员们的情人节故事，与Bangumi特别篇标题和日期一致。\n\nhttps://www.tbs.co.jp/anime/kabukibu/staffcast/ (page): 官方制作名单确认原作榎田ユウリ、导演米田和弘、人物原案CLAMP、动画制作Studio Deen，以及与TMDB一致的主要角色声优。\n\nhttps://www.tbs.co.jp/anime/kabukibu/onair/ (page): 官方放送页记录TBS于4月6日星期四开播，与输入的放送起始日一致。\n\nhttps://www.tbs.co.jp/anime/kabukibu/disc/ (page): 官方光碟页确认本篇共第1—12话；2017-09-27发售的下卷另收录新作OVA《ちよこれいと合戦》，内容为成员们的情人节故事，支持将该特别篇映射至S00E01。\n\n备注：本篇日期统一相差一天，可能源于深夜节目放送日与自然日的记法差异；已访问的官方放送页未保留具体时刻，无法直接确认差异原因。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/189793; https://www.themoviedb.org/tv/71009; https://www.themoviedb.org/tv/71009/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/189793; https://www.themoviedb.org/tv/71009; https://www.themoviedb.org/tv/71009/season/1; https://www.themoviedb.org/tv/71009/season/0; https://www.tbs.co.jp/anime/kabukibu/staffcast/; https://www.tbs.co.jp/anime/kabukibu/onair/; https://www.tbs.co.jp/anime/kabukibu/disc/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71009
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

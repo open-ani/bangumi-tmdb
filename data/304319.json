@@ -1,19 +1,96 @@
 {
   "anidbId": 15505,
   "bangumiId": 304319,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 944605,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 944606,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 944607,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 944608,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 944609,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 944610,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 944611,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 944612,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 944613,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 944614,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 944615,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 944616,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1041211,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、剧情、制作人员及逐集标题均支持同一版本。Bangumi 本条目为第一部13话，对应 TMDB 102088 第1季第1—13集；第14—26集为第二部，不能沿用旧映射的整季范围。逐集日期一致相差一天，结合官方深夜放送记法可解释；标题轻微文字差异不影响对应。\n\nhttps://www.themoviedb.org/tv/102088 (api_snapshot): TMDB 102088 为2021年开播的同名电视动画；相马一也重建艾尔弗rieden王国的剧情、导演渡部高志及动画制作 J.C.STAFF 均与输入一致。\n\nhttps://www.themoviedb.org/tv/102088/season/1 (api_snapshot): 已读取第1季完整26集（total_pages=1）。前13集与输入逐集标题对应，仅第5、12集存在文字差异；播出日期逐集固定晚一天，为2021-07-04至2021-09-26。第14集开始于2022-01-09，属于后续第二部。\n\nhttps://genkoku-anime.com/blu-ray/1st.html (page): 官方第一部 Blu-ray 页面明确收录第1至13话，确认本条目的集数范围。\n\nhttps://genkoku-anime.com/blu-ray/ (page): 官方第二部 Blu-ray 页面明确收录第14至26话，确认 TMDB 第1季合并了两部。\n\nhttps://genkoku-anime.com/onair/ (page): 官方第二部开播时间为2022年1月8日25:30，即公历1月9日凌晨，支持两站日期相差一天源于深夜放送日期记法的判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/304319; https://www.themoviedb.org/tv/102088; https://www.themoviedb.org/tv/102088/season/1; https://genkoku-anime.com/blu-ray/1st.html; https://genkoku-anime.com/blu-ray/; https://genkoku-anime.com/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 102088
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 102088,
       "season": 1,
       "type": "tv"

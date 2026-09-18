@@ -1,21 +1,196 @@
 {
   "anidbId": 9484,
   "bangumiId": 51928,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 256029,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 256030,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 256031,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 256032,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 256033,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 256034,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 256035,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 256036,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 256037,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 256042,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 256043,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 256044,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 256045,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 256046,
+      "sort": 17.5,
+      "type": 1
+    },
+    {
+      "id": 256047,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 256048,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 256049,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 256050,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 278914,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 278915,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 278916,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 278917,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 278918,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 287841,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 307065,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 307439,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 343432,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 307065,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 30977,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 343432,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 30977,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2013 年播出的《とある科学の超電磁砲S》，Bangumi 记录的 AniDB ID 为 9484，且主体为 24 集 TV 正篇。TMDB TV 30977 的第 2 季明确命名为《とある科学の超電磁砲S》，开播日为 2013-04-12，共 24 集；其剧集标题与 Bangumi 正篇第 1—24 集逐一对应。因此采用完整第 2 季，不纳入 Bangumi 另列的 MMR 及 17.5 特别篇。TMDB 后段部分集数的 air_date 与 Bangumi 不一致，但标题、季名、开播日、剧情和完整集数范围均支持为同一 TV 版本。\n\nhttps://www.themoviedb.org/tv/30977 (api_snapshot): TMDB TV 30977 的剧名为《とある科学の超電磁砲》，包含第 2 季《とある科学の超電磁砲S》，season_number=2，开播日为 2013-04-12，episode_count=24。\n\nhttps://www.themoviedb.org/tv/30977/season/2 (api_snapshot): TMDB 第 2 季明确为《とある科学の超電磁砲S》，season_number=2，包含第 1—24 集；剧集标题和剧情与 Bangumi 正篇列表对应。\n\nhttps://bgm.tv/subject/51928 (page): Bangumi subject 51928 为《とある科学の超電磁砲S》，2013-04-12 开播，TV 正篇 24 集，并记录 AniDB ID 9484。\n\n备注：TMDB 快照中第 19—24 集的 air_date 与 Bangumi 记录存在偏差；该偏差不影响季号及完整 24 集范围的对应，但如需严格按播出日期核对，应进一步复核 TMDB 官方条目。",
+    "evidence": "codex: 确认对应TMDB 30977第2季完整24集：年份、TV媒介、制作人员、剧情和逐集标题顺序一致。两个MMR特别篇依据标题及发行日期分别对应S00E05、S00E06。SP17.5缺少可验证目标，暂不映射。\n\nhttps://www.themoviedb.org/tv/30977 (api_snapshot): 以日文原名搜索命中 TV 30977；详情明确将《とある科学の超電磁砲S》列为第2季，2013-04-12开播，共24集。制作公司J.C.STAFF、原作相关人员冬川基及系列构成水上清資、御坂美琴与学园都市背景均与输入吻合。\n\nhttps://www.themoviedb.org/tv/30977/season/2 (api_snapshot): 第2季实际集表共24集、仅1页。逐集核对后，全部标题及顺序与Bangumi本篇一致，剧情包含妹妹们实验及菲布理事件。第1—19集日期一致；第20—24集日期比Bangumi早7天，但各集标题与剧情保持对应。\n\nhttps://www.themoviedb.org/tv/30977/season/0 (api_snapshot): 第0季实际集表共9集、仅1页。第5、6集分别为更多更完整的超电磁炮III、IV，日期为2013-07-24、2013-11-27，与Bangumi两个MMR特别篇标题和日期一致。该季未见SP17.5的对应条目；第7集为另立Bangumi条目的澡堂短篇。\n\nhttps://bgm.tv/subject/51928/ep (page): 章节页确认本篇24集，首末日期为2013-04-12和2013-09-27；另列MMR III、MMR IV及2013-08-09播出的SP17.5。\n\n备注：TMDB第2季第20—24集日期均比Bangumi早7天；标题、剧情与集数一致，支持按原集号对应。；SP17.5（Bangumi章节256046）在已核查季表中没有对应条目，不能据此断言TMDB未收录；需进一步查证其独立收录或其他归属。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/51928; https://www.themoviedb.org/tv/30977; https://www.themoviedb.org/tv/30977/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/51928; https://www.themoviedb.org/tv/30977; https://www.themoviedb.org/tv/30977/season/2; https://www.themoviedb.org/tv/30977/season/0; https://bgm.tv/subject/51928/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 30977
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 30977,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 5,
+      "episodeEnd": 6,
+      "id": 30977,
+      "season": 0,
       "type": "tv"
     }
   ]

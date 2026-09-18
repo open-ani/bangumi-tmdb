@@ -1,16 +1,108 @@
 {
   "anidbId": 16407,
   "bangumiId": 340188,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1128051,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1128052,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1128053,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1128054,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1128055,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1128056,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1128057,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1128058,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1128059,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1128060,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1128061,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1128062,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1130255,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1172807,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1172807,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 128237,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2022 年播出的 12 集电视动画；其 AniDB ID 16407 与标题、年份及制作信息对应。TMDB TV 128237 的主页面明确为同名作品、2022 年首播、12 集，并列出第 1 季；TMDB 第 1 季的 12 个剧集标题和日期与 Bangumi 的 12 个正篇逐集对应。Bangumi 数据另列出主体内的「ティアストーン（後編）ディレクターズカット版」特别篇（2023-02-13），TMDB 第 0 季含 1 集、日期同为 2023-02-13，因此另映射为第 0 季第 1 集。放送直前特别节目属于额外宣传节目，不纳入动画主体。\n\nhttps://bgm.tv/subject/340188 (page): Bangumi subject 标题为《聖剣伝説 Legend of Mana -The Teardrop Crystal-》，日期为 2022-10-07，Infobox 标明 TV 动画、12 话、动画制作人为グラフィニカ×横浜アニメーションラボ，原作为 Square Enix 的《聖剣伝説 Legend of Mana》。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): Anime-Lists 将 AniDB 16407 关联到 TMDB TV 128237；此处仅作为候选线索，已由 TMDB 快照和 Bangumi 信息核对。\n\nhttps://www.themoviedb.org/tv/128237 (api_snapshot): TMDB TV 128237 的日文标题与 Bangumi 完全一致，首播日期为 2022-10-08，原产国为日本，共 12 集，并列出第 1 季 12 集及第 0 季 1 集。\n\nhttps://www.themoviedb.org/tv/128237/season/1 (api_snapshot): TMDB 第 1 季共 12 集；第 1 至 12 集标题依次为ラピスラズリ（前編）、ラピスラズリ（後編）、ルビー、サファイア、ホワイトパール、エメラルド、ダイアモンド、ブラックパール、アレクサンドライト、フローライト、ティアストーン（前編）、ティアストーン（後編），日期为 2022-10-08 至 2022-12-24，与 Bangumi 正篇标题和播出顺序逐集对应。\n\nhttps://www.themoviedb.org/tv/128237/season/0 (api_snapshot): TMDB TV 128237 第 0 季为 1 集，日期为 2023-02-13；与 Bangumi 主体内列出的「ティアストーン（後編）ディレクターズカット版」日期和版本说明对应。",
+    "evidence": "codex: 作品年份、电视动画媒介、剧情、导演及制作公司一致；12集本篇的标题、顺序和跨日换算后的日期逐集吻合，确认对应 TMDB 128237 第1季第1—12集。导演剪辑版由第0季英文标题、日期及官方版本公告交叉确认，对应第0季第1集。\n\nhttps://www.themoviedb.org/tv/128237 (api_snapshot): TMDB 128237 为2022年电视动画；剧情同为夏罗卷入珠魅与宝石盗窃事件，导演神保昌登、动画制作 Graphinica 与横滨动画研究所均与输入一致。\n\nhttps://www.themoviedb.org/tv/128237/season/1 (api_snapshot): 第1季实际集表共12集、仅1页。逐集日文标题与输入的12篇本篇全部一致，顺序一致；播出日期为2022-10-08至2022-12-24，每集均比 Bangumi 标记晚一个自然日。\n\nhttps://mana-lom-tc.com/onair/ (page): 官方排期为2022年10月7日25:25开始播出，即自然日10月8日凌晨，解释了两站播出日期的跨日差异。\n\nhttps://mana-lom-tc.com/staff-cast/ (page): 官方制作名单确认原作为 Square Enix《圣剑传说 Legend of Mana》，导演及系列构成为神保昌登，动画制作为 Graphinica 与横滨动画研究所。\n\nhttps://www.themoviedb.org/tv/128237/season/0 (api_snapshot): 第0季实际集表共1集、仅1页。日文标题为占位名称；英文集表明确标题为“12 (Director’s Cut)”，日期2023-02-13、时长25分钟，对应输入的第12话导演剪辑版。\n\nhttps://mana-lom-tc.com/news/detail20221224.php (page): 官方公告确认第12话《泪石（后篇）》另有增加新镜头的导演剪辑版，属于最终话的独立剪辑版本。\n\n备注：放送直前特别节目（Bangumi 章节1130255）在已读取的 TMDB 季表中没有对应集，暂不映射；不能据此断言 TMDB 全站未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/340188; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/128237; https://www.themoviedb.org/tv/128237/season/1; https://www.themoviedb.org/tv/128237/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/340188; https://www.themoviedb.org/tv/128237; https://www.themoviedb.org/tv/128237/season/1; https://mana-lom-tc.com/onair/; https://mana-lom-tc.com/staff-cast/; https://www.themoviedb.org/tv/128237/season/0; https://mana-lom-tc.com/news/detail20221224.php",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 128237
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

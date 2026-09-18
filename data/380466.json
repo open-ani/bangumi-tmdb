@@ -1,21 +1,106 @@
 {
   "anidbId": 17058,
   "bangumiId": 380466,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1101854,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1101855,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1101856,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1101857,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1101858,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1101859,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1101860,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1101861,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1101862,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1101863,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1157360,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1157360,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 206878,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、动画媒介、剧情及制作公司一致；10集本篇的标题和日期均逐集吻合TMDB第一季第1至10集，特别篇对应第0季第1集。旧映射作品ID正确，但需限定上部范围，避免包含下部。\n\nhttps://www.themoviedb.org/tv/206878 (api_snapshot): 作品为2022年7月27日首播的网络动画，百里东君酿酒、卷入顾晏两家纷争的剧情与输入一致；制作公司优酷、芒果TV、晨星盛世、中影年年亦一致，可确认动画版本。\n\nhttps://www.themoviedb.org/tv/206878/season/1 (api_snapshot): 第一季共20集，已读取全部集表。第1至10集的标题与播出日期均逐集吻合输入，范围为2022年7月27日至9月21日；第11集于2022年12月14日播出，对应下部开始，因此上部不能映射整季。\n\nhttps://www.themoviedb.org/tv/206878/season/0 (api_snapshot): 第0季仅1集《赤诚少年初入江湖》，播出日期为2022年9月28日，与Bangumi特别篇1157360的标题、日期完全一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/380466; https://www.themoviedb.org/tv/206878; https://www.themoviedb.org/tv/206878/season/1; https://www.themoviedb.org/tv/206878/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 206878
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 10,
       "id": 206878,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 206878,
+      "season": 0,
       "type": "tv"
     }
   ]

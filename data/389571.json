@@ -1,21 +1,121 @@
 {
   "anidbId": 17478,
   "bangumiId": 389571,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182090,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1183135,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1183136,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1183137,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1183138,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1183139,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1183140,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1183141,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1183142,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1183143,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1183144,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1183145,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1183146,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1209505,
+      "sort": 6.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1209505,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 204832,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演与制作公司吻合；12话本篇标题、顺序及播出间隔逐集一致，确认对应 TMDB 204832 第1季第1—12集。TMDB 将2024年续篇合并在同季，旧映射需收窄范围。特别篇6.5对应第0季第1集。\n\nhttps://www.themoviedb.org/tv/204832 (api_snapshot): 日文原名搜索命中 TV 204832；详情确认是2023年电视动画，导演田中智也、制作公司 A-1 Pictures，无法使用魔法的马修以肌肉力量进入魔法学校的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/204832/season/1 (api_snapshot): 第1季实际共24集，集表只有1页。第1—12集日文标题与 Bangumi 本篇逐集完全一致，日期均比 Bangumi 晚一天，且第6—7集之间同样间隔两周。第13—24集为2024年播出的续篇，不能纳入本 subject。\n\nhttps://www.themoviedb.org/tv/204832/season/0 (api_snapshot): 第0季实际共15集，集表只有1页。第1集为「マッシュ・バーンデッドと不思議な手紙」，日期2023-05-20，与 Bangumi 特别篇6.5的标题及深夜放送日期对应；已读取的集表未发现日本首映直播的明确对应条目。\n\nhttps://mashle.pw/news/?id=62695 (search_snippet): 官方公告明确首播为2023年4月7日星期五24时，即自然日4月8日，解释 Bangumi 与 TMDB 本篇及特别篇统一相差一天的日期记法。\n\n备注：Bangumi 章节1182090「ジャパンプレミア LIVE配信」尚未找到可确认的 TMDB 对应，保留未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/389571; https://www.themoviedb.org/tv/204832; https://www.themoviedb.org/tv/204832/season/1; https://www.themoviedb.org/tv/204832/season/0; https://mashle.pw/news/?id=62695",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 204832
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 204832,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 204832,
+      "season": 0,
       "type": "tv"
     }
   ]

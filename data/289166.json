@@ -1,18 +1,55 @@
 {
   "bangumiId": 289166,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1041484,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1041485,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1041486,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1041487,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1041488,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、首播日期、媒介、制作人员、制作公司及剧情均吻合。Bangumi 的5话对应2021年7月发布的第一部分；官方集表与 TMDB 前5集的标题、顺序和剧情一致，发行日期亦获逐集佐证。旧映射的作品及季正确，但范围应缩小至第1季第1—5集，不能包含11月发布的后5集。\n\nhttps://bgm.tv/subject/289166 (page): Bangumi 标注为 Netflix WEB 动画，2021-07-23 开播，共5话；执行制片人为 Kevin Smith，制作为 Powerhouse、Mattel Television，章节编号为01至05。\n\nhttps://www.themoviedb.org/tv/96658 (api_snapshot): TMDB 96658 为2021年的《宇宙巨人：启示录》，首播日期、Kevin Smith 相关简介、制作公司及希曼与骷髅王的剧情均与 Bangumi 一致；全剧在 TMDB 编为1季10集。\n\nhttps://www.themoviedb.org/tv/96658/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。第1至5集均于2021-07-23上线，第6至10集均于2021-11-23上线，因此本 subject 只覆盖 S01E01—S01E05。\n\nhttps://www.netflix.com/title/81154670 (page): Netflix 官方将作品分为两部分；所展示第一部分的5集标题及顺序逐项吻合 TMDB 第1至5集，剧情也逐项一致。\n\nhttps://www.tvguide.com/tvshows/masters-of-the-universe-revelation/episodes-season-1/1000788250/ (page): TV Guide 的首批5集列表逐集标注2021-07-23，标题和剧情依次对应 TMDB 第1至5集，佐证第一部分的集数及发行边界。\n\n备注：Bangumi 章节自身未提供标题和单集日期；连续对应依据为该条目的5话首发范围，以及 Netflix 官方顺序、外部逐集日期与 TMDB 集表的交叉核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/289166; https://www.themoviedb.org/tv/96658; https://www.themoviedb.org/tv/96658/season/1; https://www.netflix.com/title/81154670; https://www.tvguide.com/tvshows/masters-of-the-universe-revelation/episodes-season-1/1000788250/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 96658
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 5,
       "id": 96658,
       "season": 1,
       "type": "tv"

@@ -1,16 +1,41 @@
 {
   "anidbId": 13398,
   "bangumiId": 223134,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752345,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752346,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752347,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确是《ファイアボール ユーモラス》，TV 类型、3 话、首播 2017-10-06，别名包含“火球 第三季”和“Fireball Humorous”。输入中的 AniDB 关联为 13398，且 AniDB 标题数据将 13398 对应为 Fireball Humorous。TMDB 21326 的第 3 季标题、日期和 3 集数与该主体完全对应；季快照列出完整的 1–3 集及日期，因此应纳入整季。\n\nhttps://bgm.tv/subject/223134 (page): Bangumi 页面确认标题为 ファイアボール ユーモラス，类型为 TV，共 3 话，首播 2017-10-06，别名包含“火球 第三季”和“Fireball Humorous”，并列出 01、02、03 三话。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据的可见条目将 AniDB ID 13398 映射为 Fireball Humorous；与输入中 Bangumi→AniDB 的 matched 关联及名称一致。\n\nhttps://www.themoviedb.org/tv/21326 (api_snapshot): TMDB TV 21326 的主条目名称为 ファイアボール，并列出第 3 季 ファイアボール ユーモラス，首播 2017-10-06、集数 3。\n\nhttps://www.themoviedb.org/tv/21326/season/3 (api_snapshot): TMDB 第 3 季名称为 ファイアボール ユーモラス，共 3 集；第 1、2、3 集日期分别为 2017-10-06、2017-11-10、2017-12-08，标题和简介均对应该短篇系列。",
+    "evidence": "codex: 已独立核实旧映射有效：2017年电视短篇《幽默之章》的剧情、制作人员、三话规模与播出月份均对应 TMDB 21326 第3季。完整季表的三个标题和精确播出日期与外部播出表逐项一致，可将 Bangumi 本篇1—3话连续映射至该季1—3集，并声明整季。另有独立收录200932第1季，内容完全相同；本次保留已验证的系列分季映射，不重复纳入。\n\nhttps://bgm.tv/subject/223134/ep (page): Bangumi 章节表标明本作为 TV，共三话；第1话首播2017-10-06，第2、3话分别记为2017年11月、12月，章节标题为空。\n\nhttps://cal.syoboi.jp/tid/4723/time (page): 播出表逐集记录：第1话「きたるべき世界」2017-10-06，第2话「黄金のこころ」2017-11-10，第3话「ハイペリオン交点」2017-12-08；制作人员包括导演、编剧荒川航，动画制作トムス・ジーニーズ，主演川庄美雪、大川透。\n\nhttps://www.themoviedb.org/tv/21326 (api_snapshot): TMDB 21326 为《ファイアボール》系列，导演、编剧为荒川航，制作公司包含 TMS Jinni's 与日本迪士尼。第3季明确命名《ファイアボール ユーモラス》，2017-10-06首播，共3集；剧情为塔中ドロッセル与执事ゲデヒトニス的日常，与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/21326/season/3 (api_snapshot): 第3季完整集表共3集，total_pages=1。第1至3集的日文标题及日期逐项吻合外部播出表，均为2分钟短篇；本季没有混入其他系列作品。\n\nhttps://www.themoviedb.org/tv/200932 (api_snapshot): 搜索还发现独立条目200932；详情显示同名2017年作品，共1季3集，剧情、制作公司、导演及两位主演均对应《幽默之章》。\n\nhttps://www.themoviedb.org/tv/200932/season/1 (api_snapshot): 独立条目200932第1季完整集表共3集，total_pages=1；标题、日期和剧情与21326第3季逐集相同，属于同一内容的另一种收录。\n\n备注：Bangumi 三话标题为空，第2、3话日期仅精确到月份；逐集标题及具体日期由外部播出表与 TMDB 季表交叉核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/223134; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/21326; https://www.themoviedb.org/tv/21326/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/223134; https://bgm.tv/subject/223134/ep; https://cal.syoboi.jp/tid/4723/time; https://www.themoviedb.org/tv/21326; https://www.themoviedb.org/tv/21326/season/3; https://www.themoviedb.org/tv/200932; https://www.themoviedb.org/tv/200932/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 21326
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

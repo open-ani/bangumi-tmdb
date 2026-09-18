@@ -1,19 +1,91 @@
 {
   "anidbId": 11523,
   "bangumiId": 144357,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 617287,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 617288,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 617289,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 617290,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 617291,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 617292,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 617293,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 617294,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 617295,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 617296,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 617297,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 617298,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、媒介、剧情、制作公司及导演一致，12话标题与每周放送日期逐集对应。TMDB 将多个放送季度合并为第1季60集，因此旧映射应收窄为第1季第1—12集，不能映射整季。\n\nhttps://www.themoviedb.org/tv/65931 (api_snapshot): 日文原名搜索返回 TV 65931。详情确认其为2016年电视动画，制作公司为 BONES、导演为五十嵐卓哉，中岛敦与武装侦探社的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/65931/season/1 (api_snapshot): 第1季实际包含60集，total_pages=1。本 subject 的12话对应其中第1—12集：逐集标题一致，第11集仅标题格式不同，第12集输入的「たまえなく」与 TMDB 的「たえまなく」存在文字差异。12集日期均比输入晚一天，为2016-04-07至2016-06-23；第13集已进入2016年10月的后续季度。\n\nhttps://bungo-stray-dogs.jp/tv/news/?news=onair-update-1 (search_snippet): 官方放送公告注明2016年4月6日25时05分开播，即公历4月7日凌晨，解释了 Bangumi 与 TMDB 的一天日期差。\n\nhttps://bungo-stray-dogs.jp/tv/story/?season=1st (search_snippet): 官方第一季度故事页确认第12话标题为「たえまなく過去へ押し戻されながら」，支持将输入标题差异视为笔误。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/144357; https://www.themoviedb.org/tv/65931; https://www.themoviedb.org/tv/65931/season/1; https://bungo-stray-dogs.jp/tv/news/?news=onair-update-1; https://bungo-stray-dogs.jp/tv/story/?season=1st",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65931
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 65931,
       "season": 1,
       "type": "tv"

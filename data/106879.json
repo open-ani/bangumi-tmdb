@@ -1,16 +1,86 @@
 {
   "anidbId": 10709,
   "bangumiId": 106879,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 436333,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 436334,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 436335,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 436336,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 436337,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 436338,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 436339,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 436340,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 436341,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 436342,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 436343,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 436344,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2014 年播出的 12 集电视动画《ガールフレンド(仮)》，关联 AniDB 10709。TMDB 61485 的原名、首播日期、简介和总集数一致；第 1 季为 12 集，且剧集标题逐集对应 Bangumi 正篇。TMDB 第 0 季为另列的特别篇，不属于本 subject 主体。\n\nhttps://bgm.tv/subject/106879 (page): Bangumi 条目为《ガールフレンド(仮)／临时女友》，2014-10-12 开播，共 12 集，关联 AniDB ID 10709。\n\nhttps://www.themoviedb.org/tv/61485 (api_snapshot): TMDB TV 61485 的原名为《ガールフレンド（仮）》，首播日期为 2014-10-12，共 12 集。\n\nhttps://www.themoviedb.org/tv/61485/season/1 (api_snapshot): TMDB 第 1 季明确为 12 集，剧集标题与 Bangumi 的 12 集正篇逐集对应。",
+    "evidence": "codex: 已确认对应TMDB 61485第1季整季。年份、TV媒介、导演、制作公司、人物及剧情一致，12话标题与官方分集剧情逐集吻合，集数及顺序完全对应，可建立1—12话连续映射。第0季不纳入本subject。\n\nhttps://bgm.tv/subject/106879 (page): Bangumi 明确为2014年电视动画，共12集，导演林直孝，动画制作SILVER LINK.，讲述椎名心实等圣樱学园女生的日常。\n\nhttps://www.themoviedb.org/tv/61485 (api_snapshot): 原名搜索命中后读取详情：TMDB 61485 首播于2014-10-12，导演林直孝，制作公司含SILVER LINK.，角色与剧情一致；第1季12集，另列2016年的第0季。\n\nhttps://www.themoviedb.org/tv/61485/season/1 (api_snapshot): 第1季集表共12集、仅1页。全部集号与日文标题逐集对应Bangumi 1—12话，仅有＆、&及HTML转义差异；各集剧情亦与电视东京官方集表一致。日期存在差异：第2—10集晚一天，第11—12集记为2015-01-01和2015-01-08。\n\nhttps://www.tv-tokyo.co.jp/anime/girlfriend-kari/episodes/ (page): 电视东京官方完整集表列出第1—12话，标题、顺序及每话放送日期均与输入Bangumi章节一致，播出范围为2014-10-12至2014-12-28；第11、12话分别于12月21日和12月28日播出。\n\n备注：TMDB部分分集日期与首播日期不一致，尤其末两集晚11天；其录入依据未确认。官方集表已核实Bangumi日期，标题和剧情对应明确，不影响逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/106879; https://www.themoviedb.org/tv/61485; https://www.themoviedb.org/tv/61485/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/106879; https://www.themoviedb.org/tv/61485; https://www.themoviedb.org/tv/61485/season/1; https://www.tv-tokyo.co.jp/anime/girlfriend-kari/episodes/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61485
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

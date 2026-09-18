@@ -1,16 +1,100 @@
 {
   "anidbId": 8484,
   "bangumiId": 19134,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 107057,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 107058,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 107059,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 107060,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 107061,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 107062,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 107063,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 107064,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 107065,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 107066,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 107067,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 109733,
+      "sort": 1,
+      "type": 3
+    },
+    {
+      "id": 122180,
+      "sort": 2,
+      "type": 3
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 109733,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 122180,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认 Bangumi 条目《だぶるじぇい》对应 TMDB TV 77023 第1季。Bangumi 标注11话、DLE制作及相同剧情背景；TMDB 第1季正好11集，完整标题序列与 Bangumi 的11个 regular episodes 逐集对应。候选之外没有更合理版本。Bangumi 末尾的两个额外条目属于 ED/歌曲相关条目，不是主体正篇，因此不扩大范围。TMDB 部分播出日期存在偏差，但不影响标题、集数和作品身份的对应。\n\nhttps://bgm.tv/subject/19134 (page): Bangumi 条目标注《だぶるじぇい》为TV、11话、DLE制作，剧情为传统艺继承部；章节列表先列11个正篇，随后另列两个ED条目。\n\nhttps://www.themoviedb.org/tv/77023 (api_snapshot): TMDB TV 77023 名称为“だぶるじぇい”，剧情简介与 Bangumi 相同，标注11集，唯一季为第1季。\n\nhttps://www.themoviedb.org/tv/77023/season/1 (api_snapshot): TMDB 第1季共11集，标题逐集对应 Bangumi 的“伝統・オア・アライブ”至“首相伝統所感”11个正篇。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=8484 条目名称为 Double-J，并明确关联 tmdbtv=77023、tmdbseason=1，且制作公司为 DLE。\n\nhttps://www.animatetimes.com/news/details.php?id=1308711730 (page): 同期动画化报道确认《だぶるじぇい》于2011年6月28日开始播出，舞台为传统艺继承部，并确认“ワニとシャンプー”为片尾曲。\n\nhttps://allcinema.net/cinema/340312 (search_snippet): 作品资料显示《だぶるじぇい》为2011年6月28日至9月13日播出的日本TV动画，共11集，与 Bangumi 主体范围一致。\n\n备注：TMDB 快照中的剧集日期与 Bangumi/其他资料存在偏差，尤其第11集显示为2011-09-07；这被视为 TMDB 日期数据问题，而非版本或集数差异。",
+    "evidence": "codex: 确认对应TMDB 77023第1季整季。年份、TV媒介、剧情、制作公司及声优一致，完整11集的标题、顺序和时长逐一吻合，季内未混入《ユルアニ？》其他作品。日期比对存在末集差异，但不影响由完整标题序列确认的一对一映射；两个ED条目明确排除。\n\nhttps://bgm.tv/subject/19134 (page): Bangumi 标注为2011年播出的11话TV动画，原作为野中英次、亜桜まる，导演谷東，动画制作DLE；剧情围绕宇佐美初、小夜与传统艺继承部展开。\n\nhttps://www.themoviedb.org/tv/77023 (api_snapshot): TMDB 77023 的日文原名、2011年年份、传统艺继承部剧情、DLE制作及主要角色声优均与Bangumi及同期报道一致；仅有第1季，共11集。\n\nhttps://www.themoviedb.org/tv/77023/season/1 (api_snapshot): 已读取第1季完整集表，episodeCount=11、total_pages=1。第1至11集标题逐一对应Bangumi本篇，仅第5集感叹号全半角不同；每集4分钟。前10集日期均比Bangumi晚一天，第11集记为2011-09-07，与Bangumi的2011-09-13不一致。\n\nhttps://bgm.tv/subject/19134/ep (page): 章节页列出11个本篇，顺序与TMDB完整一致；另将「ワニとシャンプー」「今日の日はさようなら」明确列为ED，未计入11话本篇。\n\nhttps://www.animatetimes.com/news/details.php?id=1308711730 (page): 2011年6月22日的动画化报道确认本作于6月28日起在日本电视台《ユルアニ？》内播出，节目时段为周二25:29；原作者、导演、角色与声优一致，并确认「ワニとシャンプー」为片尾曲。深夜时段可解释前10集的一天日期差。\n\n备注：第11集首播日期存在未解决的来源差异：Bangumi为2011-09-13，TMDB为2011-09-07；不能仅用深夜跨日解释，尚未确认差异原因。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/19134; https://www.themoviedb.org/tv/77023; https://www.themoviedb.org/tv/77023/season/1; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.animatetimes.com/news/details.php?id=1308711730; https://allcinema.net/cinema/340312",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/19134; https://www.themoviedb.org/tv/77023; https://www.themoviedb.org/tv/77023/season/1; https://bgm.tv/subject/19134/ep; https://www.animatetimes.com/news/details.php?id=1308711730",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77023
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

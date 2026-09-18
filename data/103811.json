@@ -1,14 +1,64 @@
 {
   "anidbId": 10627,
   "bangumiId": 103811,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 399970,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 410632,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 439558,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 399970,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 53809,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 410632,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 53809,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 439558,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 53809,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该主体明确标为 3 话 OVA，发售范围为 2014-07-18 至 2015-01-16，并关联主线《ムシブギョー》。AniDB 10627 同样明确为《Mushibugyou (2014)》OVA、3 话，时间范围至 2015-01-16。TMDB TV 53809 的第 0 季明确名为“特別編”，共 3 集，标题分别对应「本当の武士」「恋する火鉢」「学園ムシブギョー」，与 Bangumi 主体的 3 话完整对应；因此采用整季，不包含 TV 第 1 季。TMDB 前两集日期比 Bangumi 发售日早两天，但版本、标题、集数和末集日期均吻合，属于日期记录差异，不影响对应判断。\n\nhttps://bgm.tv/subject/103811 (page): Bangumi 页面明确标注类型为 OVA、3 话、发售日 2014-07-18，结束日期 2015-01-16，并列出 OAD 第 1/2/3 话及其对应漫画卷。\n\nhttps://anidb.net/anime/10627 (page): AniDB 将 10627 标为 Mushibugyou (2014)，类型为 OVA、3 episodes，日期为 2014-07-16 至 2015-01-16。\n\nhttps://www.animemanga.com/anime/6512,mushibugy (page): 独立条目将该作品标为 OVA，列出三集 Real Samurai、Fall in Love Hibachi、Mushibugyō Academy，并显示与 26 集 TV 版的关联；制作公司为 Seven Arcs Pictures。\n\nhttps://www.themoviedb.org/tv/53809 (api_snapshot): TMDB TV 53809 为《ムシブギョー》，主条目包含 26 集 TV 季和一个 3 集的 season 0 特别编。\n\nhttps://www.themoviedb.org/tv/53809/season/0 (api_snapshot): TMDB 第 0 季名为“特別編”，共 3 集，完整标题为「本当の武士」「恋する火鉢」「学園ムシブギョー」，与该 Bangumi OVA 的全部主体集对应。",
+    "evidence": "codex: 确认对应 TMDB 53809 第0季全部三集。漫画附赠 OVA 的版本、发行时期、制作关联、标题及剧情吻合；前两话标题逐一对应，第三话通过 OVA 集表及2015-01-16发行日期确认。第0季没有混入其他作品，使用逐章 overrides 映射三话。\n\nhttps://bgm.tv/subject/103811 (page): Bangumi 明确为三话 OVA/OAD，分别随漫画第15、16、17卷发行，日期为2014-07-18、2014-10-17、2015-01-16。\n\nhttps://mushibugyo.jp/news/ (page): 官方网站宣布第15卷附全新剧情 OVA，内容为仁兵卫等人从纪州返回后的故事，预计2014年7月18日前后发行，与 TMDB 特别篇第1集剧情一致。\n\nhttps://www.hanmoto.com/bd/isbn/9784099418380 (search_snippet): 第16卷限定版介绍明确第二部 OVA 为「恋する火鉢」，由 TV 动画工作人员再集结制作，内容围绕无涯与火钵；书目发售日期记为2014-10-15。\n\nhttps://animesc.com/es/details/20qzGx/mushibugyou-ova (search_snippet): OVA 集表按顺序列出「本当の武士」「恋する火鉢」「学園ムシブギョー」，第三话日期为2015-01-16。\n\nhttps://www.themoviedb.org/tv/53809 (api_snapshot): TMDB 53809 为2013年《ムシブギョー》，导演浜名孝行，主演包括 KENN、大久保瑠美；详情将26集第1季与3集第0季分别列出。\n\nhttps://www.themoviedb.org/tv/53809/season/0 (api_snapshot): 第0季实际集表共3集、仅1页：第1集「本当の武士」2014-07-16，第2集「恋する火鉢」2014-10-15，第3集「学園ムシブギョー」2015-01-16；剧情分别为仁兵卫指导少年、火钵与无涯出任务、学园文化祭。\n\n备注：TMDB 前两话日期比 Bangumi 早两天；第16卷书目亦记录10月15日。具体发行日期存在来源差异，但标题、剧情、版本与集数足以确认对应。；输入中的 Bangumi 第3话标题为空，其对应由第三话发行日期及外部 OVA 集表补充确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/103811; https://anidb.net/anime/10627; https://www.animemanga.com/anime/6512,mushibugy; https://www.themoviedb.org/tv/53809; https://www.themoviedb.org/tv/53809/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/103811; https://mushibugyo.jp/news/; https://www.hanmoto.com/bd/isbn/9784099418380; https://animesc.com/es/details/20qzGx/mushibugyou-ova; https://www.themoviedb.org/tv/53809; https://www.themoviedb.org/tv/53809/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

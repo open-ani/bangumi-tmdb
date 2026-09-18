@@ -1,16 +1,91 @@
 {
   "anidbId": 9508,
   "bangumiId": 69942,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 292689,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 292690,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 292791,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 292792,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 292793,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 292794,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 292795,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 292796,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 292797,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 292798,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 292799,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 299226,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 299227,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 68963第1季整季。年份、电视媒介、制作公司、核心剧情及13话标题顺序均一致，官方逐话日期亦与Bangumi一致。本篇1—13话可连续一对一映射；“第三季”别名不代表此独立TMDB条目的季号。\n\nhttps://www.themoviedb.org/tv/68963 (api_snapshot): TMDB 68963 为2013年电视动画，制作公司为 Studio Deen，共1季13集；剧情是未上发条的大学生樱田纯与另一世界及真红相遇，与输入版本一致。\n\nhttps://www.themoviedb.org/tv/68963/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集；全部日文标题与输入第1—13话逐一相同、顺序一致。除第3集日期异常外，其余12集日期均比输入晚一天。\n\nhttps://www.tbs.co.jp/anime/rozen/staffcast/ (page): 官方制作名单确认导演畠山守、系列构成与脚本望月智充、角色设计坂井久太、动画制作Studio Deen，与输入资料一致。\n\nhttps://www.tbs.co.jp/anime/rozen/story/index-j.html (page): 官方列出全部13话标题及TBS播出日期，逐项与输入一致，范围为2013-07-04至2013-09-26；第3话明确为2013-07-18，其剧情也与TMDB第3集一致。\n\nhttps://www.tbs.co.jp/anime/rozen/onair/ (page): 官方播出安排为7月4日起每周四深夜1时58分，实际自然日为次日，可解释TMDB其余12集的一天日期差。\n\n备注：TMDB第1季第3集日期记录为2013-03-19，与官方2013-07-18深夜播出矛盾，判断为日期元数据错误；该集标题、剧情和官方话数均明确一致，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/69942; https://www.themoviedb.org/tv/68963; https://www.themoviedb.org/tv/68963/season/1; https://www.tbs.co.jp/anime/rozen/staffcast/; https://www.tbs.co.jp/anime/rozen/story/index-j.html; https://www.tbs.co.jp/anime/rozen/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68963
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

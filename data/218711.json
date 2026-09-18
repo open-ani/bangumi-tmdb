@@ -1,16 +1,195 @@
 {
   "anidbId": 13259,
   "bangumiId": 218711,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 767931,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 767932,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 767933,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 767934,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 767935,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 767936,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 767937,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 767938,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 767939,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 767940,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 767941,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 767942,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 768490,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 768491,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 768492,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 768493,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 768494,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 768495,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 768496,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 768497,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 768498,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 768499,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 768500,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 768501,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 770580,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 791832,
+      "sort": 15.5,
+      "type": 1
+    },
+    {
+      "id": 797532,
+      "sort": 19.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 770580,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 76121,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 791832,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 76121,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 797532,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 76121,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 76121 的 Season 1（2018）明确列出 24 集，内容、标题和播出时间均对应 Bangumi 主体的 2018 年 24 集电视动画，故范围为第 1–24 集。TMDB 的 Season 0 是另列的 5 个特别节目，不是本 subject 正篇；因此 AnimeLists 的 season=1 正确，BangumiExtLinker 的 season=0 错指特典。AniDB 13259 与该作品标题及 2018 年 24 集电视动画关联一致。\n\nhttps://waf.themoviedb.org/tv/76121/season/1 (page): TMDB 页面标为 Season 1 (2018)，共 24 集；第 1 集为 Alone and Lonesome（2018-01-13），第 24 集为 Never Let Me Go（2018-07-06），中间剧集内容连续对应 DARLING in the FRANXX 正篇。\n\nhttps://www.themoviedb.org/tv/76121/season/0 (page): TMDB 页面将 Season 0 标为 Specials (2018)，共 5 集，包括播出前特番、回放特番、Creator's Voice 和 Making Documentary，属于特典而非 24 集正篇。\n\nhttps://www.wikidata.org/wiki/Q36498848 (page): 页面将作品识别为 Darling in the Franxx，并列出 AniDB anime ID 13259、Bangumi subject ID 218711，以及 2018-01-13 至 2018-07-07 的播出时间。\n\nhttps://forum.kodi.tv/showthread.php?pid=2697975&tid=142835 (search_snippet): 搜索摘要显示 AniDB 13259 对应名称 Darling in the Franxx，TVDB 关联默认分季为 1；此处仅作为 AniDB 关联辅助证据，未用 TVDB 分季替代 TMDB 证据。",
+    "evidence": "codex: 已确认是同一部2018年24集电视动画。正篇全部日文标题及顺序一致，对应 TMDB 76121 第1季第1—24集；三个特别节目由标题、节目性质与日期确认对应第0季第1—3集。日期差异不影响由完整集表和剧情确认的逐集身份，不能将整个 subject 仅映射到第0季。\n\nhttps://www.themoviedb.org/tv/76121 (api_snapshot): TMDB 76121 为2018年电视动画，日文原名、广与02驾驶弗兰克斯对抗叫龙的剧情、导演锦织敦史及 TRIGGER、A-1 Pictures、CloverWorks 制作信息均与输入一致。\n\nhttps://www.themoviedb.org/tv/76121/season/1 (api_snapshot): 完整读取第1季集表，共24集、1页。24个日文集标题与 Bangumi 正篇逐集完全一致，编号顺序一致。日期方面，第1—4、14集一致；第5—13、15、17—24集比 Bangumi 早一天；第16集记为2018-04-27，与输入2018-05-05不符。\n\nhttps://www.themoviedb.org/tv/76121/season/0 (api_snapshot): 完整读取第0季集表，共5集、1页。第1集为播出前特番（2018-01-06），第2集为回放特番（2018-04-28），第3集为回放特番Ⅱ（2018-06-02），分别与输入三个特别篇的节目身份和日期对应。第4、5集不属于输入章节。\n\nhttps://darli-fra.jp/story/?no=16 (page): 官方第16话页面的标题和战后第13部队留守米斯特汀的剧情与 TMDB 第1季第16集一致，确认该集身份。\n\nhttps://thetv.jp/program/0000932616/plot/ (page): 电视节目资料列出第16话于2018-05-05、第24话于2018-07-07在 TOKYO MX 播出；两次回放特番分别于2018-04-28和2018-06-02播出，支持 Bangumi 日期及正篇与特番的区分。\n\n备注：TMDB 多个正篇日期较日本播出日期早一天，原因未确认；第16集日期另有8天差异。官方标题和剧情、电视节目播出记录已确认其仍对应正篇第16话，无需调整集号。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/218711; https://waf.themoviedb.org/tv/76121/season/1; https://www.themoviedb.org/tv/76121/season/0; https://www.wikidata.org/wiki/Q36498848; https://forum.kodi.tv/showthread.php?pid=2697975&tid=142835",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/218711; https://www.themoviedb.org/tv/76121; https://www.themoviedb.org/tv/76121/season/1; https://www.themoviedb.org/tv/76121/season/0; https://darli-fra.jp/story/?no=16; https://thetv.jp/program/0000932616/plot/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76121
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -18,6 +197,13 @@
       "episodeEnd": 24,
       "id": 76121,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 76121,
+      "season": 0,
       "type": "tv"
     }
   ]

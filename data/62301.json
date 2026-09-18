@@ -1,13 +1,104 @@
 {
   "bangumiId": 62301,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 236764,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 236765,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 236766,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 236767,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 236768,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 236769,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 236770,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 236771,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 236772,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 236773,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 236774,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 236775,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 236776,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 236777,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 236778,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 236779,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 236780,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 236781,
+      "sort": 18,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品媒介、年份、播出起止日期、制作公司、主创和26话规模一致，可确认对应 TMDB 40351 第一季整季。输入仅列18个无标题、无日期的章节，无法逐集核对，因此保留作品与季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/40351 (api_snapshot): 以英文原名搜索得到 TV 40351；详情确认这是美国动画剧集，首播于2011年11月11日，完结于2013年3月16日，制作公司包括 DC Entertainment、Warner Bros. Animation。剧情为哈尔·乔丹与基洛沃格对抗红灯军团，与输入的作品身份一致。\n\nhttps://www.themoviedb.org/tv/40351/season/1 (api_snapshot): 已读取第一季完整集表，共26集、仅1页；第1、2集为同日播出的 Beware My Power 上下篇，第26集 Dark Matter 于2013年3月16日播出。该季覆盖输入 Infobox 标注的26话及完整播出期间。\n\nhttps://en.wikipedia.org/wiki/Green_Lantern%3A_The_Animated_Series (search_snippet): 资料确认该剧为 Cartoon Network 播出的CG电视动画，仅一季26集；导演 Sam Liu、Rick Morales，音乐 Frederik Wiedmann，企划 Bruce Timm、Giancarlo Volpe、Jim Krieg，均与输入制作资料吻合。\n\n备注：Bangumi 标注26话但仅提供18个空白章节；无法确定这些章节的具体内容，也无法确认首播上下篇的拆分方式，不能直接按 sort 映射至 TMDB 前18集。；Bangumi 作品页及章节页访问失败；逐集映射需后续取得带标题、日期或内容说明的 Bangumi 章节资料。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/62301; https://www.themoviedb.org/tv/40351; https://www.themoviedb.org/tv/40351/season/1; https://en.wikipedia.org/wiki/Green_Lantern%3A_The_Animated_Series",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,146 @@
 {
   "anidbId": 13946,
   "bangumiId": 240838,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 848794,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 848795,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 848796,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 848797,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 848798,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 848799,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 848800,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 848801,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 848802,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 848803,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 848804,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 848805,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 851352,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 851353,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 851354,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 851355,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 851356,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 851357,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 851358,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 851359,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 851360,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 851361,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 851362,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 851363,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 83100第1季完整24集。年份、电视动画媒介、剧情、导演、制作公司及逐集标题顺序一致，属于2019年新版；两段播出内容在TMDB同属第1季，可按第1—24话连续一一映射。\n\nhttps://www.themoviedb.org/tv/83100 (api_snapshot): TMDB 83100 为2019年电视动画，播出范围为2019-01-07至2019-06-24，共1季24集；导演古桥一浩，制作公司含MAPPA与手塚Production，十二鬼神与百鬼丸的剧情也与输入一致。\n\nhttps://www.themoviedb.org/tv/83100/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共24集。逐集标题及顺序对应Bangumi第1—24话，第5、6话仅有「守子唄／守り子唄」写法差异；20集日期完全相同，第1、10、11、12集日期存在差异。季内未混入其他作品。\n\nhttps://dororo-anime.com/cast_staff.html (page): 官方制作名单确认导演古桥一浩、系列构成小林靖子、动画制作MAPPA／手塚Production，与输入及TMDB的2019年版本一致。\n\nhttps://tezukaosamu.net/jp/mushi/entry/14198.html (page): 手塚治虫官方网站确认电视版2019年1月7日开播，第1话另注明日本于1月6日24时左右先行配信，可解释首集日期记法差异。\n\nhttps://dororo-anime.com/event/ (search_snippet): 官方Blu-ray资料将全剧分为第1—12话与第13—24话两卷，确认主体共24话。\n\nhttps://annict.com/works/5816/episodes (search_snippet): Annict的2019年版完整24话标题列表与输入逐集对应，亦支持TMDB集表的相同顺序。\n\n备注：TMDB第10、11、12集日期分别为2019-03-10、03-17、03-17，输入分别为03-11、03-18、03-25；日期差异原因未完全查明，但对应集号和独立标题明确，不影响映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/240838; https://www.themoviedb.org/tv/83100; https://www.themoviedb.org/tv/83100/season/1; https://dororo-anime.com/cast_staff.html; https://tezukaosamu.net/jp/mushi/entry/14198.html; https://dororo-anime.com/event/; https://annict.com/works/5816/episodes",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83100
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

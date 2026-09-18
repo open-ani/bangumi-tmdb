@@ -1,13 +1,49 @@
 {
   "bangumiId": 439544,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1216717,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1216718,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1216719,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1216720,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1216721,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1216722,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1216723,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、首播日期、动画媒介、制作公司、讲解者、内容及七集总量均吻合，确认对应 TMDB 121628 第 1 季整季，未混入冥想指南或互动特别节目。官方逐集目录与 TMDB 集表一致，但输入中的 Bangumi 七个章节均无标题和播出日期，无法独立验证章节级对应，因此保留整季匹配，不按位置猜测生成 rules。\n\nhttps://www.themoviedb.org/tv/121628 (api_snapshot): 以英文原名搜索后读取详情：TMDB 121628 首播于 2021-04-28，共一季七集，制作公司为 Headspace 和 Vox Media Studios，讲述睡眠知识并提供放松引导，出演者为 Evelyn Lewis Prieto，与输入简介一致。\n\nhttps://www.themoviedb.org/tv/121628/season/1 (api_snapshot): 第 1 季集表共七集，total_pages=1，集号连续为 1—7，日期均为 2021-04-28。七集主题依次为改善睡眠、手机、梦境、压力、安眠药、失眠和睡眠节律，与制作方公布的逐集顺序一致。\n\nhttps://www.voxmedia.com/2021/4/28/22407830/headspace-guide-to-sleep-premieres-today-on-netflix/ (page): Vox Media 于 2021-04-28 发布的首播公告确认：这是由 Eve Lewis Prieto 讲解的七集动画剧集，属于 Headspace 与 Vox Media Studios 的合作项目；公告列出全部七集的编号和标题，并明确区分此前的冥想指南及后续互动特别节目。\n\n备注：Bangumi 页面及章节页未能成功读取；输入章节仅有 sort 1—7，缺少标题和日期。需补充 Bangumi 章节信息后才能确认逐集规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/439544; https://www.themoviedb.org/tv/121628; https://www.themoviedb.org/tv/121628/season/1; https://www.voxmedia.com/2021/4/28/22407830/headspace-guide-to-sleep-premieres-today-on-netflix/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

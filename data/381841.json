@@ -1,18 +1,52 @@
 {
   "anidbId": 16863,
   "bangumiId": 381841,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1139181,
+      "sort": 41,
+      "type": 0
+    },
+    {
+      "id": 1139182,
+      "sort": 42,
+      "type": 0
+    },
+    {
+      "id": 1139183,
+      "sort": 43,
+      "type": 0
+    },
+    {
+      "id": 1139184,
+      "sort": 44,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是剧场版《銀河英雄伝説 Die Neue These 策謀》第2章，共4话。官方资料明确该章对应全系列第41–44话；TMDB TV 74018前三季各12集，因此第41–44话对应第4季第5–8集，且标题逐一匹配“矢は放たれた”“銀河帝国正統政府”“宣戦布告”“旅立ち”。第4季其余集数属于其他章节，不能整季纳入。\n\nhttps://bgm.tv/subject/381841 (search_snippet): Bangumi 将该作品标为《銀河英雄伝説 Die Neue These 策謀》第2章剧场版，2022年10月28日上映，共4话。\n\nhttps://gineiden-anime.com/event/4120 (search_snippet): 官方报道明确写明《策謀》第二章对应第41话至第44话。\n\nhttps://www.shochiku.co.jp/cinema/lineup/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%9D%E8%AA%AC-die-neue-these-%E7%AD%96%E8%AC%80/ (search_snippet): 松竹资料说明《策謀》是《Die Neue These》第四季的剧场上映版本，第二章于2022年10月28日上映。\n\nhttps://www.themoviedb.org/tv/74018 (api_snapshot): TMDB TV 74018 的第1至第4季分别为12集，且第4季名为《銀河英雄伝説 Die Neue These 策謀》。\n\nhttps://www.themoviedb.org/tv/74018/season/4 (api_snapshot): TMDB第4季第5至第8集标题分别为“矢は放たれた”“銀河帝国正統政府”“宣戦布告”“旅立ち”，与该Bangumi subject的4话逐一对应。",
+    "evidence": "codex: 已确认剧场条目1030420及其分集形式TV 74018第四季第5—8集均对应本subject。上映日期、制作人员和版本一致；官方明确第二章包含第41—44话，四个标题及剧情与TMDB逐集吻合，因此建立41→5至44→8的连续规则。第四季其他集属于另外两章，不纳入范围。\n\nhttps://gineiden-anime.com/event/4120 (page): 官方首映报道确认《策谋》第二章于2022年10月28日上映，包含第41至44话；导演为多田俊介，制作方为Production I.G。报道涉及皇帝被绑架、莱因哈特宣战及尤里安离开等剧情，与TMDB对应集简介一致。\n\nhttps://www.shochiku.co.jp/cinema/lineup/銀河英雄伝説-die-neue-these-策謀/ (page): 松竹明确说明《策谋》是《Die Neue These》第四季的剧场上映版本，分三章上映，第二章上映日期为2022年10月28日。\n\nhttps://www.themoviedb.org/movie/1030420 (api_snapshot): 电影1030420为《銀河英雄伝説 Die Neue These 策謀 2》，上映日期2022年10月28日，片长95分钟；制作公司Production I.G、导演多田俊介、编剧高木登均与待核对作品相符。\n\nhttps://www.themoviedb.org/tv/74018 (api_snapshot): TV 74018为2018年开始的《Die Neue These》新版系列，由Production I.G制作；第四季为《策谋》，共12集。\n\nhttps://www.themoviedb.org/tv/74018/season/4 (api_snapshot): 第四季真实集表共12集、1页。第5至8集依次为“矢は放たれた”“銀河帝国正統政府”“宣戦布告”“旅立ち”，逐一对应Bangumi第41至44话；日期分别为2022年10月27日、11月3日、11月10日、11月17日。\n\n备注：Bangumi四话均使用剧场上映日，TMDB季表采用逐周日期；两者日期口径不同，TMDB日期的具体地区来源未核实，但官方章节范围及逐集标题、剧情已确认对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/381841; https://gineiden-anime.com/event/4120; https://www.shochiku.co.jp/cinema/lineup/%E9%8A%80%E6%B2%B3%E8%8B%B1%E9%9B%84%E4%BC%9D%E8%AA%AC-die-neue-these-%E7%AD%96%E8%AC%80/; https://www.themoviedb.org/tv/74018; https://www.themoviedb.org/tv/74018/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/381841; https://gineiden-anime.com/event/4120; https://www.shochiku.co.jp/cinema/lineup/銀河英雄伝説-die-neue-these-策謀/; https://www.themoviedb.org/movie/1030420; https://www.themoviedb.org/tv/74018; https://www.themoviedb.org/tv/74018/season/4",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 44,
+      "episodeStart": 5,
+      "season": 4,
+      "start": 41,
+      "tmdbId": 74018
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "id": 1030420,
+      "type": "movie"
+    },
     {
       "episode": 5,
       "episodeEnd": 8,

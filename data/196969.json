@@ -1,13 +1,135 @@
 {
+  "anidbId": 13810,
   "bangumiId": 196969,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 675690,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 675691,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 675692,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 675693,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 675694,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 675695,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 675696,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 675697,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 675698,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 675699,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 675700,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 675701,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 675702,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 675703,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 675704,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 675705,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 675706,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 675707,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 675708,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 675709,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 675710,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 675711,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 675712,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 675713,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 90869 的原名、别名（CMFU Xueyuan: Wangzi Peng Peng Qiu、Prince of Billiard）、剧情核心人物秦小路与王子轩、桌球校园题材、上海福煦制作及24集规模均与 Bangumi subject 完全对应。TMDB 实际只有第1季，季表明确包含第1至24集，因此映射为完整第1季。年份存在元数据差异：TMDB记录2019-07-01，但腾讯 WeTV及资料显示该网络动画实际于2016-11-03开播；这更像收录/发行日期差异，不影响作品身份判断。\n\nhttps://api.bgm.tv/v0/subjects/196969 (api_snapshot): Bangumi 原始API确认标题、2016-11-03开播、24集、秦小路与王子轩的桌球校园剧情，以及宁馨儿原作、郦黎明总导演、王丹脚本、上海福煦动画制作。\n\nhttps://www.themoviedb.org/tv/90869 (api_snapshot): TMDB详情确认标题为 CMFU学院-王子碰碰球，别名包含 CMFU Xueyuan: Wangzi Peng Peng Qiu 和 Prince of Billiard；剧情、制作公司上海福煦、已完结状态及总24集与主体吻合。\n\nhttps://www.themoviedb.org/tv/90869/season/1 (api_snapshot): TMDB第1季实际季表为24集，集号连续覆盖1至24，total_pages=1，没有额外OVA、特别篇或其他作品混入。\n\nhttps://wetv.vip/zh-cn/play/1pj38nygxmek11k-CMFU%E5%AD%A6%E9%99%A2-%E7%8E%8B%E5%AD%90%E7%A2%B0%E7%A2%B0%E7%90%83 (page): 腾讯 WeTV页面确认该动画为2016年、全24集，剧情与 Bangumi及TMDB一致。\n\nhttps://moegirl.uk/CMFU%E5%AD%A6%E9%99%A2%E4%B9%8B%E7%8E%8B%E5%AD%90%E7%A2%B0%E7%8E%B0%E7%90%83 (page): 资料页确认2016年11月3日首播、24集、网络动画媒介、宁馨儿原作、郦黎明导演、王丹编剧、腾讯视频与阅文集团出品，并列出与Bangumi一致的剧情和制作人员。\n\n备注：TMDB的首播日期记录为2019-07-01，与官方/资料所示的2016年首播日期不一致，具体原因未能从TMDB元数据确认。；资料页称24集可能存在第一、二季连播的说法，但TMDB当前实际建模为单一第1季24集；本映射遵循TMDB真实季表。",
+    "evidence": "codex: 作品身份及整季范围可确认：剧情人物、制作公司、动画媒介和24集规模相符，官方平台确认其为2016年作品；TMDB 唯一的第1季完整收录24集，未见混入其他作品。保留整季匹配。逐集日期全部冲突，且缺少可比对的实质标题或简介，因此不凭编号顺序生成逐集规则。\n\nhttps://bgm.tv/subject/196969 (page): Bangumi 将本作标为网络动画，共24话，播出时间为2016年11月3日至2017年4月13日；原作为宁馨儿，总导演为郦黎明，动画制作为上海福煦，剧情围绕秦小路、王子轩及桌球校园生活展开。\n\nhttps://wetv.vip/zh-cn/play/1pj38nygxmek11k-CMFU%E5%AD%A6%E9%99%A2-%E7%8E%8B%E5%AD%90%E7%A2%B0%E7%A2%B0%E7%90%83 (page): 腾讯 WeTV 标注本作为2016年内地动画、腾讯出品、全24集，并列出01至24集；秦小路碰瓷王子轩的剧情与 Bangumi、TMDB 一致。\n\nhttps://www.themoviedb.org/tv/90869 (api_snapshot): TMDB 90869 的原名、核心人物及剧情与本作一致，制作公司为上海福煦；别名包括 Prince of Billiard，已完结，共1季24集。但首播日期记录为2019年7月1日，演职员列表为空。\n\nhttps://www.themoviedb.org/tv/90869/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共24集，集号连续为1至24。各集仅有通用编号标题，无简介，日期为2019年7月1日至12月9日每周一，与 Bangumi 的2016至2017年日期逐集不符。\n\n备注：TMDB 的2019年日期与 Bangumi、官方平台的2016年记录冲突，原因尚未确认，不能断言是重播或海外发行日期。；逐集对应尚未核实；需补充能解释日期差异的发行资料，或取得可与 TMDB 对照的逐集内容证据后再填写 rules。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/196969; https://api.bgm.tv/v0/subjects/196969; https://www.themoviedb.org/tv/90869; https://www.themoviedb.org/tv/90869/season/1; https://wetv.vip/zh-cn/play/1pj38nygxmek11k-CMFU%E5%AD%A6%E9%99%A2-%E7%8E%8B%E5%AD%90%E7%A2%B0%E7%A2%B0%E7%90%83; https://moegirl.uk/CMFU%E5%AD%A6%E9%99%A2%E4%B9%8B%E7%8E%8B%E5%AD%90%E7%A2%B0%E7%8E%B0%E7%90%83",
-    "verifiedAt": "2026-09-08T20:37:16.664Z"
+    "source": "https://bgm.tv/subject/196969; https://wetv.vip/zh-cn/play/1pj38nygxmek11k-CMFU%E5%AD%A6%E9%99%A2-%E7%8E%8B%E5%AD%90%E7%A2%B0%E7%A2%B0%E7%90%83; https://www.themoviedb.org/tv/90869; https://www.themoviedb.org/tv/90869/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

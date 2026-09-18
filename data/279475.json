@@ -1,15 +1,86 @@
 {
+  "anidbId": 14821,
   "bangumiId": 279475,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 874385,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 874386,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 874387,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 874388,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 874389,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 874390,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874391,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874392,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874393,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874394,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874395,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874396,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 91039 是《テレビ野郎 ナナーナ》系列 TV 条目；其第2季正式标题为「わくわく洞窟ランド」，首播日为2019-04-11，剧情、角色、导演文原聡、制作公司studio crocodile均与 Bangumi subject 一致。TMDB第2季实际包含24集，集1至24均为该洞窟篇，没有混入其他作品，因此使用整季映射。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): TMDB搜索日文原名、罗马字及英文别名均指向TV条目91039；条目包含第1至第3季，并将「わくわく洞窟ランド」列为第2季。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): TMDB详情确认原名、2018年系列起始日期、日文剧情、导演Satoshi Fumihara、Studio Crocodile及TV Tokyo等制作信息。\n\nhttps://www.themoviedb.org/tv/91039/season/2 (api_snapshot): TMDB第2季标题为「わくわく洞窟ランド」，日期为2019-04-11，episodeCount为24；实际集表覆盖第1至24集，末集日期为2019-09-19。\n\nhttps://www.tv-tokyo.co.jp/nana-na/ (page): 东京电视台官方页面将2019年作品列为系列第2季，正式标题为「テレビ野郎 ナナーナ わくわく洞窟ランド」，剧情为电视台探险队寻找地下世界埋藏金。\n\nhttps://www.tv-tokyo.co.jp/information/2019/04/11/215072.html (page): 东京电视台官方资料确认该作是《テレビ野郎 ナナーナ》的第二季，2019-04-11开播，脚本/导演文原聡，动画制作studio crocodile。\n\nhttps://thetv.jp/program/0000955625/plot/ (page): 播出资料列出该作品从2019-04-11至2019-09-19的第1至第24集，且第24集为最终集。\n\n备注：Bangumi fresh API的total_episodes及当前集表记录数为12，但主体声明话数为24；这与官方播出资料及TMDB第2季24集表冲突，判断为Bangumi集记录不完整，不影响整季身份和范围判定。",
+    "evidence": "codex: 确认对应 TMDB 91039 第2季整季24集。年份、电视动画媒介、导演、制作公司、人物与洞窟寻宝剧情一致，季表未混入前后季作品。Bangumi 主体声明24话，但章节仅录入前12话；这12话的播出日期逐一吻合 TMDB S2E1至E12，故建立连续规则，未录入的第13至24话不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): 日文完整标题搜索命中 TV 91039；详情确认导演 Satoshi Fumihara、制作公司 Studio Crocodile、TV Tokyo，第二季为2019年的洞窟篇，区别于2018年第一季和2020年第三季。\n\nhttps://www.themoviedb.org/tv/91039/season/2 (api_snapshot): 第二季名为「わくわく洞窟ランド」，收购电视台、探险队寻找地下埋藏金的剧情与本条目一致。实际集表共24集，total_pages=1，播出日期为2019-04-11至2019-09-19；第1至12集日期与 Bangumi 已有章节逐一相同。\n\nhttps://www.tv-tokyo.co.jp/information/2019/04/11/215072.html (page): 东京电视台官方公告明确本作为第二季电视动画，2019-04-11开播；导演及脚本文原聡、动画制作 studio crocodile，主要角色及地下寻宝剧情均吻合。\n\nhttps://bgm.tv/subject/279475 (page): Bangumi 主页面声明24话、第二季别名及2019-04-11至2019-09-19的放送范围，支持主体覆盖完整洞窟篇。\n\nhttps://bgm.tv/subject/279475/ep (page): 章节页面实际仅有本篇第1至12话，标题为空；日期依次为2019-04-11、04-18、04-25、05-02、05-09、05-16、05-23、05-30、06-06、06-13、06-20、06-27，与 TMDB S2E1至E12完全对应。\n\nhttps://thetv.jp/program/0000955625/plot/ (page): 播出列表列出洞窟篇第5至24话，所载集标题和日期与 TMDB 对应记录吻合；第12话为2019-06-27，第24话为2019-09-19，证明该篇并非12话结束。\n\nhttps://thetv.jp/program/0000955625/plot/p2/ (page): 列表第二页列出第1至4话，其标题与2019-04-11、04-18、04-25、05-02的播出日期均与 TMDB S2E1至E4一致。\n\n备注：Bangumi 章节记录数量12与主体声明24话不一致，依据完整播出范围判断为章节记录不完整；现有章节无标题，逐集对应依据为逐话日期、编号及外部播出列表交叉核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/279475; https://www.themoviedb.org/tv/91039; https://www.themoviedb.org/tv/91039/season/2; https://www.tv-tokyo.co.jp/nana-na/; https://www.tv-tokyo.co.jp/information/2019/04/11/215072.html; https://thetv.jp/program/0000955625/plot/",
-    "verifiedAt": "2026-09-08T21:40:30.603Z"
+    "source": "https://bgm.tv/subject/279475; https://www.themoviedb.org/tv/91039; https://www.themoviedb.org/tv/91039/season/2; https://www.tv-tokyo.co.jp/information/2019/04/11/215072.html; https://bgm.tv/subject/279475/ep; https://thetv.jp/program/0000955625/plot/; https://thetv.jp/program/0000955625/plot/p2/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 91039
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,86 @@
 {
   "anidbId": 14548,
   "bangumiId": 269824,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 873994,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 873995,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 873996,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 873997,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 873998,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 873999,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874000,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874001,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874002,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874003,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874004,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874005,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《BAKUMATSUクライシス》，2019-04-04 开播、共12集，并与前作 BAKUMATSU 关联。TMDB TV 82846 的第2季同名为「BAKUMATSUクライシス」，开播日为2019-04-04，共12集；季内1至12集标题与 Bangumi 的12集逐条对应，剧情简介也承接前作并对应本季主线。因此应映射为完整第2季，不需要限定集数范围。\n\nhttps://bgm.tv/subject/269824 (page): Bangumi subject 名称为 BAKUMATSUクライシス，日期为2019-04-04，共12集；关联前作 BAKUMATSU，并提供 AniDB ID 14548。\n\nhttps://www.themoviedb.org/tv/82846 (api_snapshot): TMDB TV 82846 名为 BAKUMATSU，包含第1季和第2季；第2季共12集，开播日为2019-04-04。\n\nhttps://www.themoviedb.org/tv/82846/season/2 (api_snapshot): TMDB第2季名称为 BAKUMATSUクライシス，共12集；第1至12集标题与 Bangumi subject 的12集逐条匹配，剧情简介对应该续作。\n\n备注：TMDB快照中第5、6、8、9集的 air_date 与 Bangumi列出的日期存在差异，但集数、标题和剧情均匹配，未影响季号及完整季映射。",
+    "evidence": "codex: 年份、TV媒介、制作人员、续篇剧情及12集标题顺序均吻合，确认对应 TMDB 82846 的完整第二季。Bangumi 本篇1—12话逐一对应 S02E01—S02E12；季内没有混入前作或其他作品。\n\nhttps://www.themoviedb.org/tv/82846 (api_snapshot): TMDB 82846 为日本 TV 动画《BAKUMATSU》，制作公司为 Studio Deen，共两季24集；明确将《BAKUMATSUクライシス》列为第二季别名，第二季于2019-04-04开播，共12集。\n\nhttps://www.themoviedb.org/tv/82846/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共12集。第1至12集标题与输入的 Bangumi 章节逐一相符，仅有空格差异；季简介同为吉田松阴死后、高杉与桂返回京都、时辰仪暴走的续篇。第1—4、7、11、12集日期一致，第5、6、8、9、10集日期存在差异。\n\nhttps://www.tbs.co.jp/anime/BAKUMATSU/staffcast/ (page): 官方制作人员页确认导演为サトウ光敏、人物原案为夏生、人物设计为島村秀一、动画制作为スタジオディーン；原案与输入一致，主要角色及声优与 TMDB 相符。\n\nhttps://www.tbs.co.jp/anime/BAKUMATSU/onair/ (page): 官方放送页确认本作于2019年4月4日在 TBS 深夜1:58开始播出，符合输入所指的2019年 TV 版本。\n\nhttps://www.tbs.co.jp/anime/BAKUMATSU/story/ (page): 官方故事页标明第12话，标题及巨神スサノオ最终决战的剧情与 TMDB 第二季第12集一致。\n\n备注：TMDB 第5、6集日期分别为2019-06-01、2019-06-08，Bangumi 为2019-05-02、2019-05-09；第8、9、10集 TMDB 日期比 Bangumi 晚一天。日期差异原因未完全核实，但各集标题、集号及完整季范围明确，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/269824; https://www.themoviedb.org/tv/82846; https://www.themoviedb.org/tv/82846/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/269824; https://www.themoviedb.org/tv/82846; https://www.themoviedb.org/tv/82846/season/2; https://www.tbs.co.jp/anime/BAKUMATSU/staffcast/; https://www.tbs.co.jp/anime/BAKUMATSU/onair/; https://www.tbs.co.jp/anime/BAKUMATSU/story/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 82846
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

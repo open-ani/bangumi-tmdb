@@ -1,18 +1,161 @@
 {
+  "anidbId": 14919,
   "bangumiId": 257684,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 847771,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 847772,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 847773,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 847774,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 847775,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 847776,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 847777,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 847778,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 847779,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 847780,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 847781,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 847782,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 847783,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 847784,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 847785,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 847786,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 847787,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 847788,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 847789,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 847790,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 847771,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 85090,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 847772,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 85090,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是2018年12月21日开始、共20集的WEB动画；其剧情、原作、制作公司和20个分集标题均与 TMDB 85090 第1季对应。TMDB第1季实际包含完整20集，故使用整季。TMDB的第0季仅为两集“先行版”，不属于Bangumi记录的20集主体。TMDB 291109是24集的“漫动画”版本，分集标题和版本内容不同；88083虽同名且标为20集，但日期、分集资料和制作信息明显不可靠。\n\nhttps://api.bgm.tv/v0/subjects/257684 (api_snapshot): Bangumi API确认作品为《猫妖的诱惑》，WEB媒介，2018-12-21开始，共20集；原作青玉，制作腾讯动漫，动画制作北京若森数字科技有限公司。\n\nhttps://www.themoviedb.org/tv/85090 (api_snapshot): TMDB详情确认同名作品，剧情为青玉原作改编的猫妖前世复仇故事；制作公司包括北京若森数字、腾讯动漫，导演为刘阔，共1季20集，完结于2019-06-13。\n\nhttps://www.themoviedb.org/tv/85090/season/1 (api_snapshot): TMDB第1季实际集表为20集；第1至20集标题与Bangumi主体集表逐集对应，日期覆盖2019-02-14至2019-06-13。\n\nhttps://www.themoviedb.org/tv/85090/season/0 (api_snapshot): TMDB第0季是两集名为“序章：上/下”的《猫妖的诱惑先行版》，属于额外先行内容，不应并入Bangumi的20集主体范围。\n\nhttps://www.themoviedb.org/tv/291109 (api_snapshot): 同名“猫妖的诱惑 漫动画”为另一版本，共24集，制作及分集标题均不同。\n\nhttps://www.themoviedb.org/tv/88083 (api_snapshot): 同名20集条目的日期、分集日期和制作资料与Bangumi及85090不一致，不能作为可靠匹配。\n\n备注：Bangumi将前两集标为2018-12-21和2018-12-28，而TMDB 85090第1季将对应正式集标为2019-02-14；这应是先行版/正式版日期记录差异，但分集标题和主体集数一致。",
+    "evidence": "codex: 匹配TMDB 85090，但修正旧映射的整季范围。Bangumi前两话的日期及序章标题对应第0季先行版上下篇；第3—20话与第1季第3—20集的标题、日期及顺序逐集吻合。作品年份、剧情、原作和制作公司相符，排除24集漫动画版本。\n\nhttps://bgm.tv/subject/257684 (page): Bangumi 确认为20话网络动画，2018年12月21日开始；原作青玉，总导演唐媛、监制刘阔，腾讯动漫与若森数字制作，剧情与候选85090一致。\n\nhttps://www.themoviedb.org/tv/85090 (api_snapshot): 85090的原作改编信息、猫妖转世复仇剧情、若森数字及腾讯动漫制作信息均吻合；包含第0季先行版2集和第1季20集。\n\nhttps://www.themoviedb.org/tv/85090/season/1 (api_snapshot): 已读取第1季全部20集，total_pages=1。第3—20集与输入Bangumi章节的标题及日期逐集一致，仅存在空格和HTML实体差异；前两集标题相同，但日期均为2019年2月14日。\n\nhttps://www.themoviedb.org/tv/85090/season/0 (api_snapshot): 已读取第0季全部2集，total_pages=1；标明为先行版，序章上、下分别于2018年12月21日和12月28日播出，与Bangumi前两话日期一致。\n\nhttps://www.bilibili.com/video/BV1Qt411e7Lf/ (search_snippet): 腾讯动漫官方账号的导演访谈说明：先行版序章分上下篇，从2018年12月21日起连续两周发布，2019年2月再正式更新；同时确认联合出品方及若森制作。\n\nhttps://zh.wikipedia.org/wiki/猫妖的诱惑 (page): 逐集列表明确将Bangumi前两话的标题分别归为序章上、下，日期为2018年12月21日和12月28日，支持对应TMDB第0季。\n\nhttps://www.themoviedb.org/tv/291109 (api_snapshot): 291109明确为24集漫动画版本，配音阵容及制作资料不同，不采用。\n\nhttps://www.themoviedb.org/tv/88083/season/1 (api_snapshot): 88083虽同名且有20集，但实际季表只有通用集名，日期集中于2018年5—7月及12月，与目标播出记录不符，不能支持逐集匹配。\n\n备注：TMDB第1季前两集与先行版的具体剪辑差异尚未核实；本次依据Bangumi原始播出日期及序章资料映射至第0季，不将同一章节重复映射至第1季。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/257684; https://api.bgm.tv/v0/subjects/257684; https://www.themoviedb.org/tv/85090; https://www.themoviedb.org/tv/85090/season/1; https://www.themoviedb.org/tv/85090/season/0; https://www.themoviedb.org/tv/291109; https://www.themoviedb.org/tv/88083",
-    "verifiedAt": "2026-09-08T21:24:58.636Z"
+    "source": "https://bgm.tv/subject/257684; https://www.themoviedb.org/tv/85090; https://www.themoviedb.org/tv/85090/season/1; https://www.themoviedb.org/tv/85090/season/0; https://www.bilibili.com/video/BV1Qt411e7Lf/; https://zh.wikipedia.org/wiki/猫妖的诱惑; https://www.themoviedb.org/tv/291109; https://www.themoviedb.org/tv/88083/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 85090
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 85090,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 20,
       "id": 85090,
       "season": 1,
       "type": "tv"

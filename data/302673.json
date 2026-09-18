@@ -1,13 +1,110 @@
 {
+  "anidbId": 15574,
   "bangumiId": 302673,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 939189,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 939190,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 939191,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 939192,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 939193,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 939194,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 939195,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 939196,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 939197,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 939198,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 939199,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 939200,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 939201,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 939202,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 939203,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 939204,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 939205,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 939206,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 939207,
+      "sort": 19,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认对应 TMDB TV 95579《恐竜少女ガウ子》。TMDB 详情显示该作品为2019年开播、2020年3月20日结束的日本 Netflix 动画电视剧，共2季39集；第2季于2020年3月20日发布且实际季表包含19集。第2季逐集表的剧情围绕奈緒子因生气变身为恐龙少女ガウ子，与 Bangumi 简介一致，且没有混入OVA、电影、音乐录像或其他版本。Bangumi subject 的19集应映射为完整第2季。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): TMDB 搜索及详情确认日文原名为「恐竜少女ガウ子」，别名包含「恐竜少女ガウ子シーズン2」；首播2019-11-22，完结2020-03-20，共2季39集，制作公司为 Ascension，媒介为 TV。\n\nhttps://www.themoviedb.org/tv/95579/season/2 (api_snapshot): TMDB 第2季实际季表为 season 2，发布日期2020-03-20，共19集，集号连续覆盖1至19；各集均为约9分钟的独立剧情动画。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方页面确认作品为日本短篇动画/TV节目，剧情为中学生奈緒子生气后变成恐龙ガウ子；演员包括松井菜桜子、神谷浩史、伊倉一恵。\n\nhttps://www.gauko.com/ (page): 官方站确认这是与 Netflix 合作制作的动画，原作及导演为鴫野彰（Akira Shigino），版权归アキラスタジオ。\n\nhttps://www.imda.gov.sg/-/media/Imda/Files/Who-We-Are/Corporate-Publications/Media-Brochures/TV-brochure-2021.pdf (search_snippet): 行业节目资料记载 Dino Girl Gauko 为 Netflix Original，共39集，第二季发行年份为2020年。",
+    "evidence": "codex: 确认对应 TMDB TV 95579 的完整第二季。上线日期、19集总量、剧情、导演及 Netflix 动画版本一致，实际季表未混入其他作品。Bangumi 各章节缺少标题及日期，无法逐集比对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): 日文原名搜索命中 TV 95579；详情确认为鴫野彰为 Netflix 创作的日本动画，制作公司 Ascension，剧情为少女生气后变身恐龙。全剧两季39集，第二季日期为2020-03-20，共19集。\n\nhttps://www.themoviedb.org/tv/95579/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1；集号连续1—19，全部日期为2020-03-20、时长9分钟，首集《ニセガウ子現る》，末集《サンバ大会》，均为同一系列的剧情动画。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方页显示两季，简介与输入的奈緒子生气变身恐龙剧情一致，分类为日本儿童短篇动画，并展示第二季预告。\n\nhttps://www.gauko.com/ (page): 作品官网注明原作及导演为しぎのあきら，说明本作与 Netflix 合作制作，版权归アキラスタジオ。\n\nhttps://av.watch.impress.co.jp/docs/news/1236544.html (page): 2020年2月的配信报道确认第二季于2020年3月20日在 Netflix 全球独占上线，并说明导演及奈緒子变身的剧情。\n\n备注：输入的19个 Bangumi 章节均无标题和日期，且本次未能读取 Bangumi 章节网页；需补齐章节资料后才能核实逐集对应，不能仅按 sort 位置填入。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/302673; https://www.themoviedb.org/tv/95579; https://www.themoviedb.org/tv/95579/season/2; https://www.netflix.com/jp/title/80216180; https://www.gauko.com/; https://www.imda.gov.sg/-/media/Imda/Files/Who-We-Are/Corporate-Publications/Media-Brochures/TV-brochure-2021.pdf",
-    "verifiedAt": "2026-09-08T21:56:18.050Z"
+    "source": "https://bgm.tv/subject/302673; https://www.themoviedb.org/tv/95579; https://www.themoviedb.org/tv/95579/season/2; https://www.netflix.com/jp/title/80216180; https://www.gauko.com/; https://av.watch.impress.co.jp/docs/news/1236544.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

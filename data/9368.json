@@ -1,16 +1,46 @@
 {
   "anidbId": 7878,
   "bangumiId": 9368,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 53078,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 58805,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 58806,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 58807,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确为 2010 年 11 月 25 日发行、共 4 话的 OVA，由 AIC 制作、伊藤浩二执导。TMDB 92220 同名作品为 2010 年作品，TV 主条目标注共 4 集；第 1 季也完整收录 4 集。TMDB 四集标题与 Bangumi 四个正篇标题逐一对应，日期和剧情简介也相符，因此应映射为 TMDB TV 92220 的完整第 1 季，而不是电影或部分集数。\n\nhttps://bgm.tv/subject/9368 (page): Bangumi 将该主体标为 OVA，话数为 4，发售日为 2010-11-25，制作公司为 AIC，导演和脚本为伊藤浩二，并列出 01–04 四个章节。\n\nhttps://www.themoviedb.org/tv/92220 (api_snapshot): TMDB TV 92220 名称为「眼鏡なカノジョ」，首播日期为 2010-10-08，共 4 集，包含与 Bangumi 相符的日文剧情简介。\n\nhttps://www.themoviedb.org/tv/92220/season/1 (api_snapshot): TMDB 第 1 季共 4 集；四集标题依次为「かけず嫌い」「外して二人」「透き通る心」「曇ぬくもり」，与 Bangumi 四个正篇标题逐一对应，且第 2–4 集日期为 2010-11-25。",
+    "evidence": "codex: 确认对应TMDB 92220第1季整季。作品年份、OVA版本、制作公司、声优、剧情及四集标题与顺序一致；官方先行配信公告解释了首集日期差异。该季仅收录本作四集，可建立本篇1–4到S01E01–E04的连续对应。\n\nhttps://bgm.tv/subject/9368 (page): Bangumi 标记为2010年11月25日发售的4话OVA，原作TOBI、导演伊藤浩二、动画制作AIC；内容为四个眼镜少女恋爱短篇。\n\nhttps://www.themoviedb.org/tv/92220 (api_snapshot): TMDB 92220 为同名2010年动画，共1季4集；制作公司包含AIC、Biglobe和Flex Comix，主要声优与Bangumi一致，简介涉及麻生学姐的眼镜与恋爱故事。\n\nhttps://www.themoviedb.org/tv/92220/season/1 (api_snapshot): 第1季集表共4集、仅1页，标题依次为「かけず嫌い」「外して二人」「透き通る心」「曇ぬくもり」，与Bangumi本篇1–4逐集一致；第1集日期为2010-10-08，第2–4集均为2010-11-25。\n\nhttps://www.biglobe.co.jp/press/2010/10/101008-1.html (search_snippet): BIGLOBE官方公告确认OVA第1话「かけず嫌い」于2010年10月8日至15日先行免费配信，DVD于11月25日发售，解释了TMDB首集日期与Bangumi发售日期的差异。\n\nhttps://www.biglobe.co.jp/press/2010/12/101203-2.html (search_snippet): BIGLOBE官方后续公告确认11月25日发行的DVD包含本篇全4话，改编自TOBI漫画中四个故事，与本次OVA版本及覆盖范围一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/9368; https://www.themoviedb.org/tv/92220; https://www.themoviedb.org/tv/92220/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/9368; https://www.themoviedb.org/tv/92220; https://www.themoviedb.org/tv/92220/season/1; https://www.biglobe.co.jp/press/2010/10/101008-1.html; https://www.biglobe.co.jp/press/2010/12/101203-2.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 92220
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

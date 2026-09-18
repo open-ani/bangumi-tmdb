@@ -1,21 +1,41 @@
 {
   "anidbId": 7252,
   "bangumiId": 38129,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164156,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164156,
+      "targets": [
+        {
+          "episode": 15,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本作对应TMDB《名探偵コナン》30983第0季第15集。已交叉核实单话OVA的版本、发行日期、制作人员和前传剧情，并在TMDB真实季表中确认完全一致的集标题及日期，因此将Bangumi唯一章节164156映射至S00E15。旧电影ID当前返回404。\n\nhttps://bangumi.tv/subject/38129 (page): Bangumi 确认为2008年4月19日发售的单话OVA，导演山本泰一郎、脚本古内一成、动画制作TMS；内容是新一变成柯南之前的故事，与《战栗的乐谱》中兰的回忆相连。\n\nhttps://www.detectiveconanworld.com/wiki/Magic_File_2:_Shinichi_Kudo,_The_Case_of_the_Mysterious_Wall_and_the_Black_Lab (page): 资料页确认本作是2008年4月19日发行的 MAGIC FILE 2 原创动画及《战栗的乐谱》前传；剧情为少年新一调查公园中涉及黑犬与墙壁的不在场证明，导演及编剧与Bangumi一致。\n\nhttps://api.themoviedb.org/3/movie/1230946 (api_snapshot): 旧映射 movie/1230946 的详情请求返回HTTP 404，当前无法验证或继续采用该电影ID。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TMDB 30983 为1996年开始的日本动画《名探偵コナン》，制作公司包含TMS，详情明确列出第0季特别篇。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整集表，共35集、1页。第15集标题为《工藤新一 謎の壁と黒ラブ事件》，日期2008年4月19日、时长25分钟；标题和发行日期与本单话OVA一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38129; https://bangumi.tv/subject/38129; https://www.detectiveconanworld.com/wiki/Magic_File_2:_Shinichi_Kudo,_The_Case_of_the_Mysterious_Wall_and_the_Black_Lab; https://api.themoviedb.org/3/movie/1230946; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1230946,
-      "type": "movie"
+      "episode": 15,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

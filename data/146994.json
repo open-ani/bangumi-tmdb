@@ -1,16 +1,86 @@
 {
   "anidbId": 11601,
   "bangumiId": 146994,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 596828,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 596829,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 596830,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 596831,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 596832,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 596833,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 596834,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 596835,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 596836,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 596837,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 596838,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 596839,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 65523第一季整季。2016年TV版本的剧情、导演、制作公司及12话总量一致；全部集标题逐一对应，支持Bangumi第1—12话映射S01E01—E12。2018年续作独立列于第二季，不在本subject范围内。\n\nhttps://www.themoviedb.org/tv/65523 (api_snapshot): 日文原名搜索命中 TMDB 65523；详情中的鹿田九、枝垂萤及粗点心店剧情与输入一致，制作公司包含 feel.、TBS。季列表明确区分2016年第一季与2018年《だがしかし２》。\n\nhttps://www.themoviedb.org/tv/65523/season/1 (api_snapshot): 第一季集表共12集、仅1页，每集24分钟。逐一比对输入的12话标题，除标点、假名等写法差异外，内容及顺序全部一致，没有拆集或混入续作。日期中第1—5、10—12集比Bangumi晚一天；第6—8集分别记为2月12日、19日、26日，第9集记为3月12日。\n\nhttps://www.tbs.co.jp/anime/dagashi/1st/ (page): TBS第一期官网明确标注第一期全12话，并保留2016年各话更新记录及2月停播公告标题。\n\nhttps://www.tbs.co.jp/anime/dagashi/1st/onair/ (page): 官方放送信息注明2016年播出、TBS每周四深夜2时16分档，可解释多数日期在节目表日期与实际跨日日期之间相差一天。\n\nhttps://www.feel-ing.com/%E3%81%A0%E3%81%8C%E3%81%97%E3%81%8B%E3%81%97-2/ (search_snippet): 制作公司feel.的作品资料注明播出时间为2016年1月至3月、导演高柳滋仁，与输入版本一致。\n\nhttps://www.tbs.co.jp/anime/dagashi/1st/story/ (page): 官方第12话页面的标题与桥上沙耶、萤及桥下九、豆的剧情，与TMDB第一季第12集相符，确认本季终点。\n\n备注：TMDB第6—9集日期与Bangumi不一致，不能全部用深夜跨日解释；官方停播、调档公告正文未核实具体原因。各话标题及顺序明确一致，此日期差异不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/146994; https://www.themoviedb.org/tv/65523; https://www.themoviedb.org/tv/65523/season/1; https://www.tbs.co.jp/anime/dagashi/1st/; https://www.tbs.co.jp/anime/dagashi/1st/onair/; https://www.feel-ing.com/%E3%81%A0%E3%81%8C%E3%81%97%E3%81%8B%E3%81%97-2/; https://www.tbs.co.jp/anime/dagashi/1st/story/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65523
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,111 @@
 {
   "anidbId": 11122,
   "bangumiId": 127294,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 496986,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 496987,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 496988,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 496989,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 496990,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 496991,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 546261,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 546262,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 546263,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 546264,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 546265,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 546266,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 546261,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 546262,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 546263,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 546264,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 546265,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 546266,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确为 2015 年 TV 动画、6 话，标题、首播日、导演中山岳洋、原作 GALAT、制作组及 FormulaVenus 世界观均与 TMDB 77293 一致。Anime-Lists 记录 AniDB 11122（Venus Project: Climax）关联 TMDB TV 77293 第 1 季。TMDB 第 1 季的 6 个标题与 Bangumi 正片 01—06 逐条对应。Bangumi 另列的 6 个 SP 是 VENUS PROJECT TV 真人/综艺节目；资料明确说明混合播出档期中的 6 次综艺和第 1 话重播不属于动画正篇，因此只纳入 TV 77293 第 1 季第 1—6 集。\n\nhttps://bgm.tv/subject/127294 (page): Bangumi 将主体标为 TV，记录 6 话、2015-07-12 开播、2015-09-20 结束；导演为中山岳洋，原作 GALAT，动画制作诺曼德/NOMAD，并列出正片 01—06 及另列 SP 01—06。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"11122\"、名称 Venus Project: Climax、tmdbtv=\"77293\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/77293 (api_snapshot): TMDB TV 77293 标题为 VENUS PROJECT -CLIMAX-，首播日 2015-07-12，简介为 Formula Venus 偶像竞技故事，记录 6 集。\n\nhttps://www.themoviedb.org/tv/77293/season/1 (api_snapshot): TMDB 第 1 季记录 6 集，标题依次对应 Bangumi 正片 01—06：開幕、クライマックス！；そして、今、ここにいる；光、あれ；夢見る力、見させる力；ドキッ、アイドルだらけの水着バカンス！ バトルもあるよ；決勝。\n\nhttps://www.allcinema.net/cinema/pdf/353419 (page): 资料说明 TOKYO MX 的 13 次播出档期中有 6 次 VENUS PROJECT TV 综艺、1 次第 1 话重播，因此动画本体为 6 话；同时确认作品为 TV 动画、2015 年、NOMAD 制作及中山岳洋导演。\n\nhttps://tokky1203.hatenablog.com/entry/20150610/1434129816 (page): 播出日程显示 7 月 19 日至 8 月 9 日为 VENUS PROJECT TV 综艺，8 月 23 日至 9 月 20 日播出动画第 2—6 话，解释了 TMDB 季快照中按每周档期记录的日期差异。",
+    "evidence": "codex: 确认对应TMDB 77293第1季第1—6集。年份、TV媒介、制作公司、角色配音和竞技剧情一致，六集标题及顺序逐一吻合。播出日程解释了TMDB日期偏差，不影响集号对应。六个SP为真人综艺，明确排除于本次动画映射。\n\nhttps://bgm.tv/subject/127294 (page): Bangumi 确认为2015年TV动画，全6话；原作GALAT、导演中山岳洋、动画制作NOMAD，剧情为近未来偶像参加FORMULA VENUS竞技。\n\nhttps://www.themoviedb.org/tv/77293 (api_snapshot): TMDB 77293为2015年7月12日首播的同名日本动画，制作公司NOMAD；剧情、原エリコ等角色及秦佐和子等配音与Bangumi一致。记录1季6集，未列特别季。\n\nhttps://www.themoviedb.org/tv/77293/season/1 (api_snapshot): 已完整读取第1季，total_pages=1，共6集。六集日文标题逐一对应Bangumi本篇1—6，仅第5集标点空格有差别，无其他作品混入。第1集日期一致；第2—6集日期依次记录为2015-07-19、07-26、08-02、08-09、08-16，与实际混合播出排期不符。\n\nhttps://bgm.tv/subject/127294/ep (page): Bangumi本篇1—6集的日期依次为2015-07-12、08-23、08-30、09-06、09-13、09-20；另列六个VENUS PROJECT TV特别篇，与动画本篇分开。\n\nhttps://www.allcinema.net/cinema/pdf/353419 (page): allcinema确认该作由中山岳洋执导、NOMAD制作；13次节目档期包含6次VENUS PROJECT TV综艺及1次动画第1话重播，动画本体只有6话。\n\nhttps://tokky1203.hatenablog.com/entry/20150610/1434129816 (page): 同期文章转载播出日程：7月12日先行播出动画第1话，8月16日重播；8月23日至9月20日依次播出第2—6话。7月5日、7月19日至8月9日及9月27日为声优真人综艺，与Bangumi日期一致。\n\n备注：TMDB第2—6集日期比Bangumi及同期排期早35天，属于日期资料冲突；对应关系依据完整标题比对、六集总量及实际排期确认。；本次未确认六个真人综艺SP是否另有TMDB条目，空targets仅表示从本次动画映射排除。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/127294; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/77293; https://www.themoviedb.org/tv/77293/season/1; https://www.allcinema.net/cinema/pdf/353419; https://tokky1203.hatenablog.com/entry/20150610/1434129816",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/127294; https://www.themoviedb.org/tv/77293; https://www.themoviedb.org/tv/77293/season/1; https://bgm.tv/subject/127294/ep; https://www.allcinema.net/cinema/pdf/353419; https://tokky1203.hatenablog.com/entry/20150610/1434129816",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77293
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,103 @@
 {
   "anidbId": 17957,
   "bangumiId": 426156,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1276995,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1276996,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1276997,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1276998,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1276999,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1277000,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1277001,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1277002,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1277003,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1277004,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1277005,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1277006,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1319999,
+      "sort": 25,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1319999,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 194665,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该条目是 2024-01-08 开始的《HIGH CARD season2》，正篇 12 集；其章节标题与日期逐集对应 TMDB 194665 第2季 1–12集，制作、剧情和年份也一致。Bangumi 输入还记录了主体内的特别篇 THE FLOWERS BLOOM；官方资料确认其为 #25，日期为 2024-11-05，而 TMDB 将其收录为第0季唯一一集。因此正篇采用第2季完整季，主体内特别篇另采用第0季完整季，不能将其错误并入第2季。\n\nhttps://bgm.tv/subject/426156 (page): Bangumi 将条目标为 HIGH CARD season2 TV，放送开始 2024-01-08，话数为12；章节13–24的标题和日期与 TMDB 第2季逐集对应。\n\nhttps://www.themoviedb.org/tv/194665 (api_snapshot): TMDB TV 194665 为 HIGH CARD；总计24集，Season2 于2024-01-08开始且为12集，Season0为1集并于2024-11-05开始。\n\nhttps://www.themoviedb.org/tv/194665/season/2 (api_snapshot): TMDB 第2季明确为12集，日期覆盖2024-01-08至2024-03-25，标题和剧情与 Bangumi 正篇逐集吻合。\n\nhttps://highcard-anime.jp/news.html?s=09 (search_snippet): 官方新闻确认新集数“#25 THE FLOWERS BLOOM”。\n\nhttps://www.imdb.com/title/tt34875287/ (search_snippet): 搜索摘要将 THE FLOWERS BLOOM 标为 HIGH CARD 第2季后的特别集，播出日期为2024-11-05；与 TMDB 第0季唯一集的日期一致。\n\n备注：AniDB 17957 页面请求返回403，无法直接读取其页面内容；AniDB 关联依赖输入中已标记为 matched 的 Bangumi 关联记录，但作品标题、年份、制作信息和逐集内容已由 Bangumi、官方资料及 TMDB 独立吻合。；所附 TMDB 快照未展开第0季单集详情，但明确给出第0季只有1集及其日期；因此以完整第0季表示该特别篇，不推断第0季的具体集号。",
+    "evidence": "codex: 作品年份、电视动画媒介、制作人员和剧情均吻合。本篇12集的标题与日期逐集核实，对应 TMDB 194665 第2季全季；追加第25话经官方资料及第0季实际集表确认，对应 S00E01。全部13个输入章节均可明确映射。\n\nhttps://www.themoviedb.org/tv/194665 (api_snapshot): TMDB 194665 为日本电视动画《HIGH CARD》，原作人员河本焰、武野光及制作公司 TMS、云雀工作室与官方资料一致；第2季简介与输入的芬恩、黑骑士及卡牌争夺剧情一致，首播日期为2024-01-08。\n\nhttps://www.themoviedb.org/tv/194665/season/2 (api_snapshot): 第2季完整集表共12集，total_pages=1。第1—12集的标题及播出日期逐项对应输入的 Bangumi 本篇 sort 13—24，日期覆盖2024-01-08至2024-03-25。\n\nhttps://www.themoviedb.org/tv/194665/season/0 (api_snapshot): 第0季完整集表仅1集，total_pages=1；第1集为 The Flowers Bloom，日期2024-11-05，与 Bangumi 特别篇章节1319999的标题和日期一致。\n\nhttps://highcard-anime.jp/staffcast.html (page): 官方第2季制作名单确认原作为 TMS、河本焰、武野光，导演和田纯一，动画制作为云雀工作室，制作为 TMS 第6工作室。\n\nhttps://highcard-anime.jp/story.html (page): 官方将第25话 THE FLOWERS BLOOM 单列于 SPECIAL；剧情围绕雷欧就任皮诺克尔社长及维杰协助筹备就任仪式展开，与 TMDB 特别篇内容相符。\n\nhttps://highcard-anime.jp/news.html (page): 官方2024-10-18公告确认追加动画第25话 THE FLOWERS BLOOM 于2024-11-05开始配信，且将动画本篇与随后播出的声优节目分别列出。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/426156; https://www.themoviedb.org/tv/194665; https://www.themoviedb.org/tv/194665/season/2; https://highcard-anime.jp/news.html?s=09; https://www.imdb.com/title/tt34875287/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/426156; https://www.themoviedb.org/tv/194665; https://www.themoviedb.org/tv/194665/season/2; https://www.themoviedb.org/tv/194665/season/0; https://highcard-anime.jp/staffcast.html; https://highcard-anime.jp/story.html; https://highcard-anime.jp/news.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 194665
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +106,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 194665,
       "season": 0,
       "type": "tv"

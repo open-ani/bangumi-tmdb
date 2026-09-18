@@ -1,21 +1,181 @@
 {
   "anidbId": 17501,
   "bangumiId": 390980,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1229887,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1229888,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1229889,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1229890,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1229891,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1229892,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1229893,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1229894,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1229895,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1229896,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1229897,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1229898,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1229899,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1229900,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1229901,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1229902,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1229903,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1229904,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1229905,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1229906,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1229907,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1229908,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1229909,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1229910,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1258581,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1290526,
+      "sort": 14.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1290526,
+      "targets": [
+        {
+          "episode": 10,
+          "id": 205050,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品身份及全部26个章节均已确认。本篇对应TMDB 205050第1季第1—25集，特别篇14.5对应第0季第10集。TMDB将后续季度并入第1季，旧映射的整季范围过宽，应限定明确集数区间。\n\nhttps://www.themoviedb.org/tv/205050 (api_snapshot): TMDB 205050 为2023年10月1日首播的日本TV动画；阳务乐郎挑战神作游戏的剧情、导演窪岡俊之、原作硬梨菜及制作信息均与输入相符。\n\nhttps://www.themoviedb.org/tv/205050/season/1 (api_snapshot): 第1季集表共51条、仅1页。第1—25集与Bangumi本篇25话的标题及播出日期逐集一致，仅个别文字及标点写法不同，日期范围为2023年10月1日至2024年3月31日。第26集起为2024年10月13日开始的后续内容，因此本subject仅覆盖第1季第1—25集。\n\nhttps://www.themoviedb.org/tv/205050/season/0 (api_snapshot): 第0季完整集表共10条。第10集为2024年1月14日播出的超速回顾特别节目，标题、日期及第15话前回顾既有剧情的内容均对应Bangumi特别篇1290526；第1—9集为另列的迷你动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/390980; https://www.themoviedb.org/tv/205050; https://www.themoviedb.org/tv/205050/season/1; https://www.themoviedb.org/tv/205050/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 205050
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 25,
       "id": 205050,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 10,
+      "id": 205050,
+      "season": 0,
       "type": "tv"
     }
   ]

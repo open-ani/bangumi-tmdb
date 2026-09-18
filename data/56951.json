@@ -1,19 +1,91 @@
 {
   "anidbId": 9568,
   "bangumiId": 56951,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 256065,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 256066,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 256067,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 256068,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 256069,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 256070,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 256071,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 256072,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 256073,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 256074,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 256075,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 256076,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、媒介、制作人员及剧情一致；结合逐集标题、日期与首集剧情，确认本篇1—12话对应 TMDB 52896 第1季第1—12集。TMDB 将两段共24集合为一季，旧映射必须收窄，避免包含续篇。\n\nhttps://www.themoviedb.org/tv/52896 (api_snapshot): TMDB 52896 为2013年电视动画，制作公司为 SUNRISE、MBS，导演为松尾衡；时缟晴人、迪欧尔遭入侵及人型兵器的剧情与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/52896/season/1 (api_snapshot): 第1季实际包含24集，total_pages=1。前12集日期为2013-04-12至06-28，与输入各集日期逐一相差一天；第3至12集标题完全对应，第2集仅字形及用字不同。第13集从2013-10-11开始，属于后半部。\n\nhttps://www.sunrise-world.net/titles/pickup_343.php (page): 制作方资料明确说明作品分两段各12集播出，第一段为2013-04-11至06-27，第二段为2013-10-10至12-26，确认本 subject 仅覆盖前12集。\n\nhttps://www.bs4.jp/valvrave/ (page): 播出方集表将第1集列为「革命の転校生」，第2至12集标题与 TMDB 对应，第13集为「呪いの絆」。\n\nhttps://bgm.tv/ep/256065 (page): Bangumi 第1集虽题为「世界を曝く」，但其剧情简介与 TMDB 第1集相同：艾尔埃尔夫以转学生身份潜入、军队突袭、晴人与兵器相遇，足以确认同集。\n\n备注：Bangumi 首集标题与 TMDB、播出方不同，但剧情一致，不影响对应。；TMDB 前12集日期均比 Bangumi 晚一天，推断为深夜节目营业日与自然日记法差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/56951; https://www.themoviedb.org/tv/52896; https://www.themoviedb.org/tv/52896/season/1; https://www.sunrise-world.net/titles/pickup_343.php; https://www.bs4.jp/valvrave/; https://bgm.tv/ep/256065",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 52896
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 52896,
       "season": 1,
       "type": "tv"

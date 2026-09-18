@@ -1,13 +1,74 @@
 {
   "bangumiId": 387838,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1112794,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1112795,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1112796,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1112797,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1112798,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1112799,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1112800,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1112801,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1112802,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1112803,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1112804,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1112805,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 195407 第一季整季。Bangumi 的 12 话符合 Netflix 第一章的合并播放版本，TMDB 则按 23 个故事分段登记，集数差异并非版本不符。年份、平台、角色、具体案件及完整故事范围相互吻合。输入的 Bangumi 章节均无标题和日期，无法核实各章节 ID 的实际内容，因此仅确认整季范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/195407 (api_snapshot): 以英文原名搜索并读取详情，确认 TMDB 195407 为 2022-04-12 首播的动画剧集；主角为 Sam 和 Kit，制作公司包括 TeamTO、Silvergate Media、腾讯视频，与输入的作品背景相符。\n\nhttps://www.themoviedb.org/tv/195407/season/1 (api_snapshot): 第一季 Chapter 1 的完整集表共 23 集，total_pages=1，全部标注 2022-04-12。首集约 28 分钟，其余各约 13 分钟；列车中毒、犀牛骚动、鸟蛋坠落、鼹鼠公主失踪等剧情与 Bangumi 简介吻合。\n\nhttps://www.netflix.com/title/81014532 (page): Netflix 官方页面确认主角、配音及创作者 Gabe Pulliam，并展示第一章前 10 个播放单元：首集独立，其后每个单元合并两个故事，标题顺序对应 TMDB 第一季第 1—19 集。\n\nhttps://www.tvguide.com/tvshows/the-creature-cases/episodes-season-1/1001030391/ (search_snippet): TV Guide 第一季集表标注 2022 年共 12 个播放单元，首集日期为 2022-04-12，与 Bangumi 的首播日期及 12 话总量一致。\n\nhttps://www.rottentomatoes.com/tv/the_creature_cases/s01 (search_snippet): 第一季第 11、12 个播放单元分别合并毒叶与失踪野兔、沙中巨蛇与局长失踪两个故事，均于 2022-04-12 发布；标题对应 TMDB 第一季第 20—23 集，确认第一章的完整覆盖范围。\n\n备注：尚不能直接验证 Bangumi 各 sort 是否采用 Netflix 的合并播放顺序；不能仅凭编号填入一对多 overrides。补充章节标题或内容后，可依据已核实的两种集表完成映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/387838; https://www.themoviedb.org/tv/195407; https://www.themoviedb.org/tv/195407/season/1; https://www.netflix.com/title/81014532; https://www.tvguide.com/tvshows/the-creature-cases/episodes-season-1/1001030391/; https://www.rottentomatoes.com/tv/the_creature_cases/s01",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

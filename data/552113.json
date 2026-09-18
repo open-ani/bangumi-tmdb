@@ -1,13 +1,44 @@
 {
   "bangumiId": 552113,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1490057,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1490058,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1490059,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1490060,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1490061,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1490062,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 原名、中文名、首播日期、制作公司、网络动画媒介及6集第一季范围一致，可确认对应 TMDB 136322 第1季整季。实际季表与外部集表相符，没有混入其他季或作品。Bangumi 各章节缺少标题及放送日期，无法逐章交叉核验，因此仅确认整季范围，不按位置猜测填写逐集规则。\n\nhttps://bgm.tv/subject/552113 (page): Bangumi 标明本作为 WEB 动画第一季，共6话，2021年12月23日开始放送，动画制作为 DreamWorks Animation，播放平台为 Hulu；章节仅显示01至06。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 的英文原名及中文别名吻合，首播日期为2021年12月23日，制作为 DreamWorks Animation Television。剧情设定在《驯龙高手》事件1300年后，讲述现代少年发现地底龙群的故事，符合《九大王国》动画系列版本。\n\nhttps://www.themoviedb.org/tv/136322/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共6集，全部日期为2021年12月23日。集号1至6依次为 First Flight (1)、First Flight (2)、A Hole New World、Dragon Club、Featherhide、Fault Ripper。\n\nhttps://www.peacocktv.com/watch-online/tv/dragons-the-nine-realms/6852599636100403112/seasons/1 (search_snippet): Peacock 官方第一季搜索摘要标明 DreamWorks，并列出前五集的集号、标题及剧情，与 TMDB 顺序和内容一致；直接打开页面受到地区限制。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-1/1000992344/ (search_snippet): TV Guide 第一季集表列出6集，其标题、顺序及各集2021年12月23日的日期均与 TMDB 一致。\n\n备注：Bangumi 章节1490057至1490062均无标题和日期，逐集对应暂留空；需补充章节标题或放送资料后才能建立可靠规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552113; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/1; https://www.peacocktv.com/watch-online/tv/dragons-the-nine-realms/6852599636100403112/seasons/1; https://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-1/1000992344/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,15 +1,120 @@
 {
+  "anidbId": 13227,
   "bangumiId": 217066,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 737824,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 737825,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 737826,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 737827,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 737828,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 737829,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 737830,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 737831,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 737832,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 737833,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 737834,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 737835,
+      "sort": 9,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 737824,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 73217,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 737825,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 73217,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 737826,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 73217,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 73217 的原名、首播日期（2017-08-02）、剧情设定、谷口崇导演及 DLE 制作均与 Bangumi subject 相符。TMDB 明确将先行网络配信的《卖火柴的小女孩》《灰姑娘》《丑小鸭》列为 Specials 第0季3集；正式电视播出的9集列为第1季，日期和童话标题逐集对应 Bangumi，因此需拆为两个季范围。\n\nhttps://api.bgm.tv/v0/subjects/217066 (api_snapshot): Bangumi API 确认作品为《ピコ太郎のララバイラーラバイ》，2017-08-02 开播，共12集；其中常规集9集，另有2017-07-17、07-19、07-26配信特别篇3集，导演谷口崇、动画制作DLE。\n\nhttps://www.themoviedb.org/tv/73217 (api_snapshot): TMDB 详情确认原名《ピコ太郎のララバイラーラバイ》、2017-08-02开播、2017-09-27完结、导演Takashi Taniguchi、制作公司DLE；共1个正式季、9集，并另列3集Specials。\n\nhttps://www.themoviedb.org/tv/73217/season/0 (api_snapshot): TMDB第0季实际集表包含3集，日期为2017-07-17至2017-07-26，对应《卖火柴的小女孩》《灰姑娘》《丑小鸭》。\n\nhttps://www.themoviedb.org/tv/73217/season/1 (api_snapshot): TMDB第1季实际集表包含9集，日期为2017-08-02至2017-09-27，逐集对应Bangumi的9集常规播出内容，每集片长3分钟。",
+    "evidence": "codex: 作品年份、制作人员、动画形式及童话内容一致；两季共12集的标题、日期和集数均逐集吻合。确认9集本篇对应第1季1—9集，3集先行网络SP对应第0季1—3集。\n\nhttps://www.themoviedb.org/tv/73217 (api_snapshot): 日文原名搜索命中 TV 73217；详情确认原名、2017-08-02至2017-09-27播出日期、导演谷口崇、制作公司DLE及古坂大魔王配音一致，列有正式季9集和特别篇3集。\n\nhttps://avex.jp/piko-lullaby/ (page): 官网确认这是每话3分钟、由PIKO太郎即兴演绎童话的动画；导演谷口崇、动画制作DLE。电视版8月2日开播，先行网络版3话分别于7月17日、19日、26日配信。\n\nhttps://www.themoviedb.org/tv/73217/season/0 (api_snapshot): 第0季完整集表共3集、仅1页。英文标题依次为《卖火柴的小女孩》《灰姑娘》《丑小鸭》，日期依次为2017-07-17、07-19、07-26，与输入的3个SP逐一一致；季简介明确为电视播出前发布的网络集。\n\nhttps://www.themoviedb.org/tv/73217/season/1 (api_snapshot): 第1季完整集表共9集、仅1页。英文标题依次对应《蚂蚁和蚱蜢》《金斧头》《杰克与豆茎》《国王长着驴耳朵》《皇帝的新装》《北风与太阳》《三只小猪》《不莱梅乐队》《小红帽》；各集日期与输入本篇逐一一致，为2017-08-02至09-27每周三，每集3分钟。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/217066; https://api.bgm.tv/v0/subjects/217066; https://www.themoviedb.org/tv/73217; https://www.themoviedb.org/tv/73217/season/0; https://www.themoviedb.org/tv/73217/season/1",
-    "verifiedAt": "2026-09-08T20:55:37.230Z"
+    "source": "https://bgm.tv/subject/217066; https://www.themoviedb.org/tv/73217; https://avex.jp/piko-lullaby/; https://www.themoviedb.org/tv/73217/season/0; https://www.themoviedb.org/tv/73217/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 73217
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

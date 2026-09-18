@@ -1,16 +1,91 @@
 {
   "anidbId": 11754,
   "bangumiId": 153193,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 617645,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 617646,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 617647,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 617648,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 617649,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 617650,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 617651,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 617652,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 617653,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 617654,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 617655,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 617656,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 643756,
+      "sort": 11.5,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是2016年的短篇电视动画《薄桜鬼〜御伽草子〜》，并非此前的《薄桜鬼》正篇、剧场版或重剪版。TMDB 77158 的原名、首播日期、短篇日常剧情和12集规模均对应本作；其第1季第1—12集标题又与 Bangumi 的12集正篇逐集对应，因此应映射到完整第1季，无需限定部分集数。Bangumi 另列的2016年6月21日“特別編”不属于本轮正篇范围，也未被 TMDB 收入该季的12集正篇中。\n\nhttps://www.themoviedb.org/tv/77158 (api_snapshot): TMDB API 快照显示 TV 77158 的原名为《薄桜鬼 〜御伽草子〜》，首播于2016年4月5日，剧情为雪村千鶴与新选组众人“也许曾经存在的日常”，全剧12集且仅有第1季；标题、年份、媒介和内容均与目标主体一致。\n\nhttps://www.themoviedb.org/tv/77158/season/1 (api_snapshot): TMDB API 快照显示第1季共12集；从第1集《父さまを探して／続・父さまを探して》到第12集《父さまへ・・・》，全部标题及顺序与 Bangumi 的12集正篇相符，证明映射范围是完整第1季。\n\nhttps://www.dle.jp/jp/news/docs/20160603_press_hakuoki.pdf (search_snippet): 制作公司 DLE 的发行资料将本作明确称为电视动画《薄桜鬼～御伽草子～》，并注明影碟“全12話収録”，支持其正篇为12集短篇 TV 动画。\n\nhttps://tv.apple.com/jp/show/%E8%96%84%E6%A1%9C%E9%AC%BC%E5%BE%A1%E4%BC%BD%E8%8D%89%E5%AD%90/umc.cmc.49fh5zxa34oqnelsxotjno7p0 (page): Apple TV 将《薄桜鬼～御伽草子～》标为2016年电视动画、单集约3分钟，并列为第1季；页面所列前六集标题与 Bangumi、TMDB 对应集一致。\n\nhttps://bangumi.tv/subject/153193 (page): 当前 Bangumi 页面将12集正篇编号为01—12，另把2016年6月21日内容单独标为SP 11.5；这说明特别篇不应改变12集正篇与 TMDB 第1季的逐集对应。\n\n备注：TMDB 快照中第3—11集的播出日期相对 Bangumi 正篇日期出现顺延或错位，但集名、顺序、剧情和首尾集均完整对应；这是 TMDB 日期字段的数据问题，不影响季号和正篇范围判断。",
+    "evidence": "codex: 确认对应 TMDB 77158 第1季完整12集。年份、电视短篇媒介、迷你角色日常剧情、制作公司和声优共同确认版本；逐集标题与内容、正篇总量支持 Bangumi 本篇1—12顺序对应S01E01—E12。第6集仅集内短故事排列有差异，第10集标题差异得到正规配信资料交叉确认。日期字段存在冲突，但不影响由标题和内容确定的逐集对应。特别篇暂不映射。\n\nhttps://www.themoviedb.org/tv/77158 (api_snapshot): 日文标题搜索命中 TV 77158；详情确认原名、2016年4月5日至6月28日播出区间、DLE 制作、雪村千鹤与新选组的日常剧情及主要声优均相符，仅列第1季，共12集。\n\nhttps://www.themoviedb.org/tv/77158/season/1 (api_snapshot): 完整读取第1季12集，total_pages=1。逐集核对后，正篇顺序与 Bangumi 相符；第6集包含相同三个短故事但标题内部排列不同，第10集后半标题为「夢想家 風間」。第1、2、12集日期一致，第3—11集日期均比输入晚7天。该季没有特别篇。\n\nhttps://www.video.unext.jp/title/SID0023830?alp=1 (page): U-NEXT 将本作确认为2016年迷你角色日常短篇喜剧，导演篠原ぱらこ、动画制作DLE；展示的第1—10集标题及剧情与 TMDB 对应，其中第6集短故事排列和第10集「夢想家 風間」支持 TMDB 的记录。\n\nhttps://www.dle.jp/jp/news/docs/20160603_press_hakuoki.pdf (page): DLE 官方2016年6月3日资料明确称本作为迷你角色衍生电视动画，影碟收录正篇12话，支持版本身份与正篇集数。\n\nhttps://bgm.tv/subject/153193 (search_snippet): Bangumi 搜索摘要标明本作为TV动画，12话，2016年4月5日至6月28日播出，导演篠原ぱらこ、动画制作DLE，与输入及外部资料一致。\n\nhttps://animatetimes.com/news/details.php?id=1468987855 (search_snippet): 2016年活动报道确认全12话正篇上映，影碟将特别篇单列为映像特典，支持特别篇不占用正篇集号。\n\n备注：TMDB 第3—11集日期比 Bangumi 输入晚7天，尚未确定差异原因；不据此移动集号。；Bangumi 特别篇643756（sort=11.5）未找到可核实的TMDB对应集；当前详情未列第0季，故保持未映射，不断言TMDB完全未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/153193; https://www.themoviedb.org/tv/77158; https://www.themoviedb.org/tv/77158/season/1; https://www.dle.jp/jp/news/docs/20160603_press_hakuoki.pdf; https://tv.apple.com/jp/show/%E8%96%84%E6%A1%9C%E9%AC%BC%E5%BE%A1%E4%BC%BD%E8%8D%89%E5%AD%90/umc.cmc.49fh5zxa34oqnelsxotjno7p0; https://bangumi.tv/subject/153193",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/153193; https://www.themoviedb.org/tv/77158; https://www.themoviedb.org/tv/77158/season/1; https://www.video.unext.jp/title/SID0023830?alp=1; https://www.dle.jp/jp/news/docs/20160603_press_hakuoki.pdf; https://animatetimes.com/news/details.php?id=1468987855",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77158
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

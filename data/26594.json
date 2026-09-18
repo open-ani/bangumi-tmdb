@@ -1,16 +1,46 @@
 {
   "anidbId": 1468,
   "bangumiId": 26594,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 131589,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 131590,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 131591,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 131592,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《ダロス》四集 OVA，四个正篇标题依次为「リメンバー・バーソロミュー」「ダロス破壊指令！」「望郷の海に起つ ACT1」「望郷の海に起つ ACT2」。TMDB TV 79328 的第 1 季恰有 4 集，标题、顺序和内容范围逐集对应，因此应映射为第 1 季第 1–4 集。TMDB 的第 0 季为 2 集特别编，与 Bangumi 中另列的《ダロス スペシャル》相关，不纳入本 subject。\n\nhttps://www.themoviedb.org/tv/79328 (api_snapshot): TMDB 将作品收录为 TV，第一季有 4 集；另有 2 集特别编。\n\nhttps://www.themoviedb.org/tv/79328/season/1 (api_snapshot): 第 1 季四集标题依次为「リメンバー・バーソロミュー」「ダロス破壊指令!」「望郷の海に起つ ACT1」「望郷の海に起つ ACT2」，与 Bangumi 四个正篇逐集对应。\n\nhttps://bgm.tv/subject/26594 (page): Bangumi subject《ダロス／宇宙战争》标注为 4 集 OVA，正篇标题和顺序与 TMDB 第 1 季一致；《ダロス スペシャル》另列为关联 subject。\n\n备注：Bangumi 标注发售日为 1983-12-14，而 TMDB 第 1 集日期为 1983-12-21，存在日期差异；但不影响四集标题、顺序和主体范围的对应。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是《ダロス》四集 OVA，四个正篇标题依次为「リメンバー・バーソロミュー」「ダロス破壊指令！」「望郷の海に起つ ACT1」「望郷の海に起つ ACT2」。TMDB TV 79328 的第 1 季恰有 4 集，标题、顺序和内容范围逐集对应，因此应映射为第 1 季第 1–4 集。TMDB 的第 0 季为 2 集特别编，与 Bangumi 中另列的《ダロス スペシャル》相关，不纳入本 subject。\n\nhttps://www.themoviedb.org/tv/79328 (api_snapshot): TMDB 将作品收录为 TV，第一季有 4 集；另有 2 集特别编。\n\nhttps://www.themoviedb.org/tv/79328/season/1 (api_snapshot): 第 1 季四集标题依次为「リメンバー・バーソロミュー」「ダロス破壊指令!」「望郷の海に起つ ACT1」「望郷の海に起つ ACT2」，与 Bangumi 四个正篇逐集对应。\n\nhttps://bgm.tv/subject/26594 (page): Bangumi subject《ダロス／宇宙战争》标注为 4 集 OVA，正篇标题和顺序与 TMDB 第 1 季一致；《ダロス スペシャル》另列为关联 subject。\n\n备注：Bangumi 标注发售日为 1983-12-14，而 TMDB 第 1 集日期为 1983-12-21，存在日期差异；但不影响四集标题、顺序和主体范围的对应。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/26594; https://www.themoviedb.org/tv/79328; https://www.themoviedb.org/tv/79328/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79328
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

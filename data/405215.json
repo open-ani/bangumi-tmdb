@@ -1,15 +1,86 @@
 {
+  "anidbId": 18370,
   "bangumiId": 405215,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1253930,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1253931,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1253932,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1253933,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1253934,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1253935,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1253936,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1253937,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1253938,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1253939,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1253940,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1253941,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB条目与 Bangumi 的中文原名、英文别名、首播日期（2023-10-01）、剧情梗概、导演袁靖波、制作公司（bilibili、中国文学、上海福煦）及媒介均一致。TMDB确认这是单一完结 TV 动画，共1季12集；第1季实际集表覆盖第1至12集，标题与 Bangumi 集表对应，因此可使用完整第1季。TMDB部分播出日期与 Bangumi 存档略有差异，但不影响作品身份与范围判断。\n\nhttps://www.themoviedb.org/tv/236057 (api_snapshot): TMDB详情确认作品名为《傲世九重天》，原名相同，首播2023-10-01，剧情与楚阳重生、九劫剑主线一致；导演为袁靖波，制作公司包括bilibili、中国文学和上海福煦；媒介为TV，共1季12集。\n\nhttps://www.themoviedb.org/tv/236057/season/1 (api_snapshot): TMDB第1季实际集表显示第一季共12集，覆盖第1至第12集；集名从《风雷台之劫》至《重逢》，与 Bangumi 主体集表一致。\n\n备注：TMDB与Bangumi对部分单集播出日期存在差异；TMDB条目没有IMDb或TVDB外部编号，但不影响基于标题、剧情、制作人员和完整集表的身份确认。",
+    "evidence": "codex: 作品年份、首播日期、剧情、导演及制作公司一致，连续剧形态与约25分钟的单集时长相符。实际第1季恰有12集，全部集名及顺序与 Bangumi 逐一一致，无混入其他作品的迹象，可确认整季及本篇1—12集顺序对应。日期差异不影响由完整集名和集数共同确认的映射。\n\nhttps://www.themoviedb.org/tv/236057 (api_snapshot): 中文原名搜索找到 TV 条目 236057《傲世九重天》，首播日期为2023-10-01。详情中的楚阳持九劫剑遇害后重生的剧情、导演袁靖波，以及 bilibili、阅文集团、上海福煦制作信息均与输入一致；条目共1季12集，已完结。\n\nhttps://www.themoviedb.org/tv/236057/season/1 (api_snapshot): 第1季实际集表共12集，仅1页。第1至12集标题逐一与输入一致，依次为风雷台之劫、重返师门、捍卫紫竹园、弟子之争、苍天可逆、剑尖归位、激战救神医、初入铁云、天兵阁的大掌柜、神秘的楚御座、清洗补天阁、重逢。第1集日期一致；TMDB第2集同为2023-10-01，第2至12集均比输入日期早7天。\n\n备注：放送日期记录存在差异：TMDB将前两集均记为2023-10-01，此后每周一集至12月10日；输入从第2集起晚7天，结束于12月17日。尚未核实差异原因。",
     "method": "codex",
     "source": "https://bgm.tv/subject/405215; https://www.themoviedb.org/tv/236057; https://www.themoviedb.org/tv/236057/season/1",
-    "verifiedAt": "2026-09-08T23:36:38.514Z"
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 236057
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

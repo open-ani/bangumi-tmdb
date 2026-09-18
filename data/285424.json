@@ -1,16 +1,86 @@
 {
   "anidbId": 14966,
   "bangumiId": 285424,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 893342,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 893343,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 893344,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 893345,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 893346,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 893347,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 893348,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 893349,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 893350,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 893351,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 893352,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 893353,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 95203 第1季全12集。年份、剧情、主创、网络配信安排及全部逐集标题吻合；该季完整覆盖本 subject，没有混入其他作品，可按本篇第1—12话顺序一一对应。\n\nhttps://www.themoviedb.org/tv/95203 (api_snapshot): 日文原名搜索命中 TMDB 95203；详情确认别名 VLAD LOVE、2021年2月14日首播、共12集，献血爱好者绊播贡收留吸血鬼少女的剧情一致，押井守与西村纯二的制作职务亦吻合。\n\nhttps://www.themoviedb.org/tv/95203/season/1 (api_snapshot): 已读取第1季完整集表，共12集、仅1页。去除「第N夜」前缀后，全部12集日文标题与输入逐集一致；第2—6集日期均为2021年2月14日，第7—12集均为3月14日，与输入一致。第1集标题一致，但TMDB记录正式配信日期2月14日。\n\nhttps://www.vladlove.com/news.html (search_snippet): 官方网站公告确认2020年12月18日公开「第1话－特别编－」，2021年2月14日开始国内配信，3月14日一次配信第7—12话；支持先行公开与正式配信存在不同日期，并确认后半集数范围。\n\n备注：输入首集日期为2020年12月17日，官方先行特别编公告为12月18日，TMDB则采用2021年2月14日正式配信日期；输入相差一天的原因未确认。首集按本篇章节身份及相同标题对应S1E1，不将先行特别编另作独立章节映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/285424; https://www.themoviedb.org/tv/95203; https://www.themoviedb.org/tv/95203/season/1; https://www.vladlove.com/news.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 95203
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

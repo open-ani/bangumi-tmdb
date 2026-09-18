@@ -1,21 +1,139 @@
 {
   "anidbId": 12339,
   "bangumiId": 190441,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 757185,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 757186,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 757187,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 757188,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 757189,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 757190,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 757191,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 757192,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 757193,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 757194,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 757195,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 757196,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 757197,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 757198,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 757199,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 757200,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 757201,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 787994,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 787994,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 76128,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过媒介、时期、导演、声优、剧情及完整集表确认：本subject的17集本篇对应TMDB 76128第一季全部17集，顺序一致；回顾特别篇对应S00E01。范围不包含Vibrato、后续季度或2025年剧场总集篇。\n\nhttps://www.themoviedb.org/tv/76128 (api_snapshot): TMDB 76128 为电视动画《アイドリッシュセブン》，导演別所誠人及七名主要角色的声优均与输入一致；季列表明确区分第一季、Second BEAT! 和 Third BEAT!。\n\nhttps://www.themoviedb.org/tv/76128/season/1 (api_snapshot): 第一季完整集表共17集，total_pages=1。逐集标题与Bangumi本篇对应，第7集为汉字与假名写法差异，第8集为英文与片假名写法差异。第3—12、14—17集日期完全一致；第1、2集日期为2018-01-01，第13集为2018-03-19，与输入存在差异。各集剧情及顺序与第一期电视动画相符。\n\nhttps://www.themoviedb.org/tv/76128/season/0 (api_snapshot): 第0季完整集表共17集，total_pages=1；第1集标题为「アイドリッシュセブン特別番組 キミと振り返らないと!」，日期2018-04-01，与Bangumi特别篇787994一致。其余特别篇不纳入本subject。\n\nhttps://www.tbs.co.jp/tbs-ch/item/a0371/ (page): TBS明确标注本作为电视动画第一期、全17话，导演及原作与输入一致；逐集列出17话标题与剧情，吻合TMDB第一季，确认是七人偶像组合成立与成长的剧情动画。\n\nhttps://idolish7.com/news/2017/6433 (search_snippet): 官方2017-11-02公告确认电视动画全17话，并宣布第1、2话先行上映版于2017-11-03中午开始配信，说明Bangumi前两话采用先行配信日期。\n\nhttps://dengekionline.com/elem/000/001/700/1700921/ (page): 2018-03-23报道确认全17话，第16、17话于2018-05-19连播；回顾特别节目于2018-04-01在第15话之后单独播出，与TMDB S00E01对应。\n\n备注：TMDB前两集日期与Bangumi采用的先行配信日期不同；第13集日期比Bangumi晚一天，原因未核实。标题、剧情及整体集序一致，这些日期差异不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/190441; https://www.themoviedb.org/tv/76128; https://www.themoviedb.org/tv/76128/season/1; https://www.themoviedb.org/tv/76128/season/0; https://www.tbs.co.jp/tbs-ch/item/a0371/; https://idolish7.com/news/2017/6433; https://dengekionline.com/elem/000/001/700/1700921/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 17,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76128
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 76128,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 76128,
+      "season": 0,
       "type": "tv"
     }
   ]

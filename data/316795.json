@@ -1,19 +1,106 @@
 {
   "anidbId": 15748,
   "bangumiId": 316795,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 999620,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 999621,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 999622,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 999623,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 999624,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 999625,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 999626,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 999627,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 999628,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 999629,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 999630,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 999631,
+      "sort": 12.1,
+      "type": 0
+    },
+    {
+      "id": 999632,
+      "sort": 12.2,
+      "type": 0
+    },
+    {
+      "id": 999633,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 999634,
+      "sort": 13.5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 112501 第1季第1—13集，不能沿用旧映射的整季范围，因为第14—26集属于《幼女社長R》。前11集经标题和日期比对可连续映射；其余4个 Bangumi 章节被 TMDB 合并为2集，按禁止重复占用同一 TMDB 集的约束保留未映射。\n\nhttps://bgm.tv/subject/316795 (page): Bangumi 将本作标为2021年1月1日发布的 WEB 动画，共15个章节；导演为いわたかずや，动画制作为 project No.9，主角为五岁社长六科なじむ。\n\nhttps://www.themoviedb.org/tv/112501 (api_snapshot): TMDB 112501 的首播日期、五岁社长及公司员工的剧情、导演、制作公司和主要声优均与本作一致；该条目同时收录续作《幼女社長R》。\n\nhttps://www.themoviedb.org/tv/112501/season/1 (api_snapshot): 第1季实际包含26集，季表共1页。第1—13集日期均为2021年1月1日，第14—26集为2023年续作。前11集标题与 Bangumi 对应，第3集标题简写为「ざんぎょう」；第12集合并「ゆうかい その1／ゆうかい その2」，第13集合并「すろーがん／ちょうれい（エンディング）」。\n\nhttps://www.mujina-company.com/ (page): 官方网站明确《幼女社長R》于2023年7月开始配信，并称其为前作角色回归的续作，支持区分2021年本作与2023年内容。\n\n备注：Bangumi 999631（12.1）与999632（12.2）共同对应 S1E12；999633（13）与999634（13.5）共同对应 S1E13。现有 Schema 无法在不重复占用目标集的前提下完整表达这两组多对一关系，因此均不填写规则或覆盖，也不将其明确排除。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/316795; https://www.themoviedb.org/tv/112501; https://www.themoviedb.org/tv/112501/season/1; https://www.mujina-company.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112501
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 112501,
       "season": 1,
       "type": "tv"

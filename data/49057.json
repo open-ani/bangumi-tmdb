@@ -1,16 +1,36 @@
 {
   "anidbId": 9434,
   "bangumiId": 49057,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 197212,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 197213,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《ごきチャ!!／蟑螂娘》TV 动画，共 2 集；章节页列出正篇第 1、2 集，均为 2012-09-14。AniDB ID 9434 的标题为 Gokicha!! Cockroach Girls，与该条目别名及 TMDB 原名一致。TMDB TV 126583 仅有第 1 季且共 2 集，季页明确列出第 1、2 集，因此对应完整第 1 季。\n\nhttps://bgm.tv/subject/49057 (page): Bangumi 条目名称为ごきチャ!!、中文名为蟑螂娘，共 2 集，并列出原作、导演、制作公司等信息。\n\nhttps://bgm.tv/subject/49057/ep (page): Bangumi 章节页明确列出正篇第 1、2 集，均为 2012-09-14。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将 AniDB ID 9434 对应为 Gokicha!! Cockroach Girls。\n\nhttps://www.themoviedb.org/tv/126583 (api_snapshot): TMDB TV 126583 的名称和原名均为ごきチャ!!，来源国家为 JP，共 2 集，仅有第 1 季且该季共 2 集。\n\nhttps://www.themoviedb.org/tv/126583/season/1 (api_snapshot): TMDB 第 1 季明确列出第 1、2 集，季集数为 2。\n\n备注：Bangumi 两集日期均为 2012-09-14，而 TMDB 快照记录的季首播为 2012-09-22，且第 2 集日期为 2013-10-25，存在日期口径或 TMDB 数据误差；但标题、主体、制作背景和 2 集范围一致。",
+    "evidence": "codex: 对应 TMDB 126583 第1季全2集。剧情、原作者、导演及主演共同确认是同一网络短篇动画；双方两话标题编号和总量一致，按第1、2话逐一对应。日期已逐集比对，存在冲突，但同期观看记录证明两话在2012年已经上线，支持将其视为日期元数据问题，不影响作品与集数范围判定。TMDB 的 tv 类型用于收录该网络系列，不代表其媒介是电视播出。\n\nhttps://bgm.tv/subject/49057 (page): Bangumi 标记为2012年网络动画，共2话；剧情为希望与人类交朋友的蟑螂少女，改编自2009、2010年同人志。原作为るい・たまち，导演为久保博志，指导为有永真仁，主演为能登麻美子、钉宫理惠。\n\nhttps://bgm.tv/subject/49057/ep (page): 本篇仅第1、2话，标题分别为“1”“2”，日期均为2012-09-14，时长分别为8分24秒、8分27秒。\n\nhttps://www.themoviedb.org/tv/126583 (api_snapshot): TMDB 126583 原名为ごきチャ!!；剧情、原作者、久保博志和有永真仁两位制作人员，以及能登麻美子、钉宫理惠两位演员均与 Bangumi 对应。全剧仅1季2集。\n\nhttps://www.themoviedb.org/tv/126583/season/1 (api_snapshot): 第1季实际集表共2集，且仅1页：第1話、第2話。日期分别为2012-09-22、2013-10-25；无其他作品或特别篇混入。\n\nhttps://ameblo.jp/kameyuu2002/entry-11378161965.html (page): 2012-10-12发表的观看记录已同时讨论第1、2话，注明第1话免费、第2话在ニコニコ付费配信，并记载9月14日上线。这支持第2话在2012年已发行，与 TMDB 的2013年日期冲突。\n\n备注：TMDB 两集日期均与 Bangumi 不同，具体错误来源或发行日期口径未查明；官方ニコニコ频道及视频页本次无法读取。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/49057; https://bgm.tv/subject/49057/ep; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/126583; https://www.themoviedb.org/tv/126583/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/49057; https://bgm.tv/subject/49057/ep; https://www.themoviedb.org/tv/126583; https://www.themoviedb.org/tv/126583/season/1; https://ameblo.jp/kameyuu2002/entry-11378161965.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 126583
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

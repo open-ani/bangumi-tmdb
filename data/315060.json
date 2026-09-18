@@ -1,16 +1,163 @@
 {
   "anidbId": 15731,
   "bangumiId": 315060,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1066904,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1066905,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1066906,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1066907,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1066908,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1066909,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1066910,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1066911,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1066912,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1066913,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1066914,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1066915,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1066916,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1093314,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1093315,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1093316,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1093317,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1093318,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1093319,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1093320,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1093321,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1093322,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1093323,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1093324,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1094938,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1094938,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 109934,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 315060 是 2022-01-09 开始、24 集正篇的《薔薇王の葬列》，并另含 2022-04-03 的第1クールダイジェスト特别篇。TMDB TV 109934 的原名、首播日、简介与制作内容对应同一动画；第1季明确为24集，完整剧集日期和标题与 Bangumi 正篇1–24集逐一对应。TMDB 还明确记录 season 0“特別編”共1集、日期为2022-04-03，与 Bangumi 的主体内特别篇对应，因此同时纳入。\n\nhttps://bgm.tv/subject/315060 (page): Bangumi subject 名称为《薔薇王の葬列》，日期为2022-01-09；资料显示正篇24集，另有2022-04-03的“第1クールダイジェスト～出逢いと別離～”特别篇。\n\nhttps://www.themoviedb.org/tv/109934 (api_snapshot): TMDB TV 109934 原名为“薔薇王の葬列”，首播日为2022-01-09，简介涉及中世纪英格兰玫瑰战争、Richard与York/Lancaster两家；记录season 0特别编1集（2022-04-03）和season 1共24集。\n\nhttps://www.themoviedb.org/tv/109934/season/1 (api_snapshot): TMDB season 1明确为24集；第1–24集标题和日期与Bangumi正篇逐集对应，范围为完整第1季。",
+    "evidence": "codex: 作品年份、TV媒介、剧情、导演及制作公司一致。已读取两个季的完整集表：24集正篇逐集对应TMDB第1季1—24集；小数sort特别篇12.5对应第0季第1集，使用章节ID单独映射。\n\nhttps://www.themoviedb.org/tv/109934 (api_snapshot): 日文原名搜索命中 TV 109934；详情确认首播为2022-01-09、完结为2022-06-26，导演为鈴木健太郎，制作公司包含J.C.STAFF，剧情为中世纪英格兰玫瑰战争中的理查，与输入的2022年TV动画一致。\n\nhttps://www.themoviedb.org/tv/109934/season/1 (api_snapshot): 第1季完整集表共24集、仅1页。逐集核对后，1—24集放送日期全部与输入一致；标题也对应，仅存在标点、大小写、输入拼写错误及第6、8集标题截断等文本差异。第12集为2022-03-27，第13集为2022-04-10，两个季度连续收录于同一季。\n\nhttps://www.themoviedb.org/tv/109934/season/0 (api_snapshot): 第0季完整集表仅1集：第1集标题为「第1クールダイジェスト～出逢いと別離～」，日期为2022-04-03；简介明确是前12集的回顾总集篇，与Bangumi特别篇1094938的标题、日期和性质一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/315060; https://www.themoviedb.org/tv/109934; https://www.themoviedb.org/tv/109934/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/315060; https://www.themoviedb.org/tv/109934; https://www.themoviedb.org/tv/109934/season/1; https://www.themoviedb.org/tv/109934/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 109934
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

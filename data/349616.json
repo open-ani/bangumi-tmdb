@@ -1,16 +1,103 @@
 {
   "anidbId": 16734,
   "bangumiId": 349616,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1055901,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1055902,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1055903,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1055904,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1055905,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1055906,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1055907,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1055908,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1055909,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1055910,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1055911,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1055912,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1055913,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1055913,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 68455,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该条目是 2021-09-20 开始、由 Cloud Hearts 制作的《月曜日のたわわ2》，正篇12话且章节中另有SP/第13话。官方站确认“本编12话+未配信新作1话”共13话，且新作随2021-12-24 Blu-ray 收录。TMDB ID 68455 的第2季从2021-09-20开始，共12集，标题和日期逐集对应 Bangumi 正篇1–12；TMDB剧集页将“月曜日のたわわ2 その13”列为特别篇 S0E3，日期为2021-12-24。因此主体应拆为第2季1–12集和特别篇季第3集。\n\nhttps://bgm.tv/subject/349616 (page): Bangumi 条目名称为“月曜日のたわわ2”，话数12，放送开始2021-09-20，动画制作クラウドハーツ，章节列表含SP与13。\n\nhttps://tawawa2-anime.com/ (search_snippet): 官方页面说明《月曜日のたわわ2》收录本篇12话及未配信新作1话，共13话；Blu-ray发行日为2021-12-24。\n\nhttps://www.themoviedb.org/tv/68455 (api_snapshot): TMDB TV ID 68455 的主条目为《月曜日のたわわ》，总24集，包含第2季12集及特别篇季3集。\n\nhttps://www.themoviedb.org/tv/68455/season/2 (api_snapshot): TMDB第2季为12集，集名为その1至その12，日期从2021-09-20至2021-12-06，逐集对应 Bangumi 正篇。\n\nhttps://www.themoviedb.org/tv/68455/episodes?credit_id=5d492aa2028f1415cd00acff&language=ja&person_id=5257931b760ee36aaa6f59fb (search_snippet): TMDB剧集列表将“月曜日のたわわ2 その13”列为 S0E3，日期为2021-12-24。",
+    "evidence": "codex: 已核实为2021年第二季网络短篇动画。年份、原作、导演、角色阵容和发行版本一致；12话正篇的标题及日期逐集对应TMDB 68455第二季第1—12集。蓝光新增第13话对应特别篇季第3集，标题与发行日期均吻合。\n\nhttps://bgm.tv/subject/349616 (page): Bangumi 将本作标为2021年网络动画，正篇12话，另列特别篇第13话；导演为小川優樹，原作为比村奇石，剧情涉及小爱、后辈及浏海酱等角色。\n\nhttps://tawawa2-anime.com/ (page): 官方站确认原作比村奇石、导演小川優樹及对应角色阵容；第二季蓝光于2021-12-24发行，收录正篇12话和未配信新作1话，并明确区分2016年的第一季内容。\n\nhttps://www.themoviedb.org/tv/68455 (api_snapshot): TMDB 68455 包含2021-09-20开始的第二季，共12集；别名包含《月曜日のたわわ２》，导演小川優樹及主要角色、声优与官方资料一致。\n\nhttps://www.themoviedb.org/tv/68455/season/2 (api_snapshot): 第二季完整集表共12集、仅1页；第1至12集标题依次为「その1」至「その12」，日期依次为2021-09-20、09-27、10-04、10-11、10-18、10-25、11-01、11-08、11-15、11-22、11-29、12-06，与输入的Bangumi正篇逐集一致。\n\nhttps://www.themoviedb.org/tv/68455/season/0 (api_snapshot): 特别篇季完整集表共3集、仅1页；第3集名为「月曜日のたわわ2 その13」，日期为2021-12-24，与Bangumi章节1055913及官方蓝光发行日一致。前两集日期为2016-12-29，不属于本subject。\n\n备注：动画制作署名存在来源差异：Bangumi列クラウドハーツ，当前官方站列横浜アニメーションラボ；TMDB制作公司包含两者。其他身份及逐集证据一致，不影响本次映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/349616; https://tawawa2-anime.com/; https://www.themoviedb.org/tv/68455; https://www.themoviedb.org/tv/68455/season/2; https://www.themoviedb.org/tv/68455/episodes?credit_id=5d492aa2028f1415cd00acff&language=ja&person_id=5257931b760ee36aaa6f59fb",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/349616; https://tawawa2-anime.com/; https://www.themoviedb.org/tv/68455; https://www.themoviedb.org/tv/68455/season/2; https://www.themoviedb.org/tv/68455/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 68455
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

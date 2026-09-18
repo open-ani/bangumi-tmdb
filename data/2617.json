@@ -1,21 +1,119 @@
 {
   "anidbId": 6658,
   "bangumiId": 2617,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 17099,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 17100,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 17101,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 17102,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 17103,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 17104,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 17105,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 17106,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 17107,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 17108,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 17109,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 24637,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 24638,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 26774,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 26774,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 37437,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2009年第一期电视动画及其第14话OVA。年份、剧情、制作人员与逐集标题、排期相互吻合：本篇1—13话连续对应 TMDB 第1季，第14话对应第0季第1集。旧映射遗漏了OVA，现补齐全部14话。\n\nhttps://www.themoviedb.org/tv/37437 (api_snapshot): 日文原名搜索命中 TV 37437；详情标注2009年首播、制作公司 AIC ASTA、编剧柿原優子。第1季简介中的空美町、樱井智树及从天而降的伊卡洛斯与 Bangumi 剧情一致，第2季另列为《そらのおとしものf》。\n\nhttps://www.themoviedb.org/tv/37437/season/1 (api_snapshot): 第1季完整集表共13集、仅1页。逐集比对后，标题采用简写或读音形式，第1话另作「ユウシャ大地に起つ!」；各集剧情及顺序吻合。13集日期均比输入晚一天，为2009-10-05至2009-12-28。\n\nhttps://www.themoviedb.org/tv/37437/season/0 (api_snapshot): 第0季完整集表共2集、仅1页。第1集「プロジェクト桃源郷（ピンク）」日期为2010-09-09，与 Bangumi 第14话标题、日期完全一致；第2集为2014年的 Final 附加内容，不属于本 subject。\n\nhttps://www.allcinema.net/cinema/334967 (search_snippet): 2009年电视动画资料列出导演斎藤久、主演保志総一朗和早見沙織，并记载千叶电视台自2009-10-04起于星期日24:00播出，支持两站日期相差一天源于深夜节目日期记法。\n\nhttps://bangumi.tv/subject/2617 (search_snippet): Bangumi 搜索摘要确认 subject 2617 为2009年《そらのおとしもの》TV动画，共14话，原作为水無月すう、导演斎藤久、系列构成为柿原優子。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2617; https://www.themoviedb.org/tv/37437; https://www.themoviedb.org/tv/37437/season/1; https://www.themoviedb.org/tv/37437/season/0; https://www.allcinema.net/cinema/334967; https://bangumi.tv/subject/2617",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 37437
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 37437,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 37437,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,19 +1,91 @@
 {
   "anidbId": 15299,
   "bangumiId": 296076,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 960682,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 960683,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 960684,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 960685,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 960686,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 960687,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 960688,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 960689,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 960690,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 960691,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 960692,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 960693,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应2020年TV动画第一期。剧情、制作信息、12话标题及逐周播出日期一致；日期差异来自深夜档记日方式。TMDB 将后续各期并入第1季，故旧映射须收窄为 S01E01–E12，不能映射整季。\n\nhttps://www.themoviedb.org/tv/96316 (api_snapshot): TMDB 96316 为2020年首播的日本动画，剧情为木之下和也租借水原千鹤担任女友；原作宫岛礼吏、制作公司 TMS Entertainment 及主要声优与本条目一致。\n\nhttps://www.themoviedb.org/tv/96316/season/1 (api_snapshot): 第1季实际包含60集，total_pages=1。第1至12集的日文标题与输入12话逐一一致，播出日期依次为2020-07-11、07-18、07-25、08-01、08-08、08-15、08-22、08-29、09-05、09-12、09-19、09-26，均比 Bangumi 标注晚一个自然日。第13集开始为2022年内容，因此本 subject 仅覆盖第1至12集。\n\nhttps://kanokari-official.com/1st/onair/ (page): 第一期官网标注2020年7月10日星期五深夜1:25首播，对应自然日7月11日，解释了两站日期的一日差异。\n\nhttps://kanokari-official.com/1st/staffcast/ (page): 第一期官网确认原作宫岛礼吏、导演古贺一臣、系列构成广田光毅、人物设计平山宽菜、动画制作 TMS Entertainment，与 Bangumi 制作信息一致。\n\nhttps://kanokari-official.com/2nd/news/1311/ (page): 官方再播公告明确第一期为2020年7月10日至9月25日播出的全12话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/296076; https://www.themoviedb.org/tv/96316; https://www.themoviedb.org/tv/96316/season/1; https://kanokari-official.com/1st/onair/; https://kanokari-official.com/1st/staffcast/; https://kanokari-official.com/2nd/news/1311/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 96316
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 96316,
       "season": 1,
       "type": "tv"

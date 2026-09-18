@@ -1,19 +1,92 @@
 {
   "anidbId": 15092,
   "bangumiId": 290387,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 903443,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 903471,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 931186,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 934808,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 940587,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 957141,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 962195,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 968800,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 977611,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 980303,
+      "sort": 9,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 903443,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 93596,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 与 TMDB 93596 同名，剧情设定、制作公司 8bit、原案及角色信息一致。Bangumi 明确包含 ep.0 及 ep.1–9 共10话；ep.0 于2019-09-10发布，ep.1–9 为2020-01-31至2020-10-31。TMDB 快照明确将该作品拆为 season 0（1集，2019-09-10）和 season 1（9集），season 1 的完整标题与 Bangumi ep.1–9逐一对应，因此需同时纳入两个完整季。\n\nhttps://bgm.tv/subject/290387 (page): Bangumi 页面显示《ゼノンザード THE ANIMATION》为 WEB 动画，共10话，章节为00–09，首播2019-09-10，完结2020-10-31；制作公司为エイトビット。\n\nhttps://bgm.tv/ep/903443 (page): Bangumi ep.0 为该 subject 的独立章节，首播2019-09-10，时长27:19。\n\nhttps://bgm.tv/ep/903471 (page): Bangumi ep.1 标题为 CODE:01 Hinaria -Hidden Relic-，首播2020-01-31。\n\nhttps://bgm.tv/ep/968800 (page): Bangumi ep.7 标题为 CODE:07 Leites -Like a human-，首播2020-08-29。\n\nhttps://bgm.tv/ep/980303 (page): Bangumi ep.9 标题为 CODE:09 Eilietta -Love Triangle-，首播2020-10-31。\n\nhttps://www.youtube.com/watch?v=LM2WLQfaHfE (search_snippet): ZENONZARD 官方 YouTube 搜索摘要显示这是2019-09-10发布的 ZENONZARD THE ANIMATION Episode 0，并说明后续第1话安排于2020-01-31。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=108248 (search_snippet): 独立数据库将同名作品 Zenonzard The Animation 链接至 AniDB anime/15092，支持 Bangumi 提供的 AniDB ID。\n\nhttps://www.themoviedb.org/tv/93596 (api_snapshot): 所附 TMDB API 快照显示 TV 93596 同名，season 0 为2019-09-10、1集，season 1 为2020-01-31、9集。\n\nhttps://www.themoviedb.org/tv/93596/season/1 (api_snapshot): 所附 TMDB API 快照列出 season 1 的9集，标题从 Hinaria、Eilietta、Nonoin、Ash、Charlotte、Yorusuke、Leites、piece of cake 到 Eilietta，与 Bangumi ep.1–9完整对应。\n\n备注：TMDB 快照将 season 1 episode 7 日期记为2020-08-08，而 Bangumi 页面记为2020-08-29；标题、时长及前后集序列一致，判断为 TMDB 日期元数据差异，不影响作品及季范围判定。",
+    "evidence": "codex: 确认对应TMDB 93596。官方篇幅、网络发布媒介、剧情、角色和制作人员共同支持同一版本。Bangumi第0话对应S00E01，第1–9话对应S01E01–E09；两季真实集表合计10集，没有混入其他作品。第7话虽存在日期差异，但明确的Code07编号及独特标题一致，足以确认对应。\n\nhttps://bgm.tv/subject/290387 (page): Bangumi 将本作标为 WEB 动画，共10话，章节编号00–09，播出时间为2019-09-10至2020-10-31；剧情涉及东苍汰与AI爱莉组成搭档参加卡牌比赛。\n\nhttps://www.aicarddass.com/zenonzard/anime/ (page): 官方动画页面明确说明通过官方YouTube发布，篇幅为第0话加全9话；原案及世界观设定为上远野浩平，角色设计为桂宪一郎，动画制作为8bit。\n\nhttps://www.themoviedb.org/tv/93596 (api_snapshot): TMDB 93596的日文原名、人与AI搭档进行卡牌比赛的剧情、东苍汰和爱莉等角色，以及及川启、上远野浩平的制作信息均吻合。详情列出第0季1集、第1季9集。\n\nhttps://www.themoviedb.org/tv/93596/season/0 (api_snapshot): 第0季完整集表仅1集，S00E01名为EPISODE:00，日期2019-09-10，剧情与Bangumi第0话所属作品的开篇一致。\n\nhttps://www.themoviedb.org/tv/93596/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，均仅1页、共9集。英文标题Code01至Code09与输入章节逐一吻合；第1–6、8–9集日期分别为2020-01-31、02-28、03-28、05-30、06-30、07-31、09-30、10-31，与Bangumi一致。第7集标题吻合，但日期记为2020-08-08。\n\nhttps://twfan.net/user/1041850592002420737/new/2 (search_snippet): 官方账号推文的第三方存档摘要显示，2020-08-29宣布第7话Leites -Like a human-在YouTube公开，支持Bangumi的第7话日期。\n\n备注：TMDB S01E07日期为2020-08-08，Bangumi及官方账号推文存档指向2020-08-29；判断为日期元数据差异，不影响逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/290387; https://bgm.tv/ep/903443; https://bgm.tv/ep/903471; https://bgm.tv/ep/968800; https://bgm.tv/ep/980303; https://www.youtube.com/watch?v=LM2WLQfaHfE; https://www.animecharactersdatabase.com/linktodbs.php?id=108248; https://www.themoviedb.org/tv/93596; https://www.themoviedb.org/tv/93596/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/290387; https://www.aicarddass.com/zenonzard/anime/; https://www.themoviedb.org/tv/93596; https://www.themoviedb.org/tv/93596/season/0; https://www.themoviedb.org/tv/93596/season/1; https://twfan.net/user/1041850592002420737/new/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93596
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 93596,
       "season": 0,
       "type": "tv"

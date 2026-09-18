@@ -1,16 +1,137 @@
 {
   "anidbId": 18424,
   "bangumiId": 475354,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1319027,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1363315,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1363316,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1363317,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1364717,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1364718,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1364719,
+      "sort": 6.5,
+      "type": 0
+    },
+    {
+      "id": 1364720,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1364721,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1364722,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1364723,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1364724,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1388488,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1393436,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1393437,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1393438,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1364719,
+      "targets": [
+        {
+          "episode": 48,
+          "id": 46195,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1388488,
+      "targets": [
+        {
+          "episode": 49,
+          "id": 46195,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是2024年配信的动画《〈物語〉シリーズ オフ＆モンスターシーズン》，包含编号01—14的14集，以及夹在第6与第7集之间、官方标作“ex”的《残酷童話 うつくし姫》，合计15话。TMDB 将01—14收录在剧集46195的第5季第1—14集，将“ex”收录为特别篇第48集，因此必须返回两个范围。旧候选的第6季不存在；正确季号是第5季。第5季快照中的第15集没有标题、日期或内容，且不属于这个已于2024年完结的 Bangumi subject，故不纳入。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): TMDB API 快照显示剧集46195原名为《化物語》，其第5季名称正是《〈物語〉シリーズ オフ&モンスターシーズン》，首播日期为2024-07-06；快照中不存在第6季。\n\nhttps://www.themoviedb.org/tv/46195/season/5 (api_snapshot): TMDB API 快照明确列出第5季第1—14集：从《愚物語 つきひアンドゥ》到《忍物語 しのぶマスタード 其ノ陸》，标题、顺序及2024-07-06至2024-10-19的日期均与目标作品吻合；第15集只是无标题、无日期、无简介的空白记录。\n\nhttps://www.themoviedb.org/tv/46195/season/0 (api_snapshot): TMDB API 快照把《残酷童話 うつくし姫》列为第0季第48集，日期为2024-08-17、片长13分钟，内容讲述约六百年前美丽公主的故事。\n\nhttps://www.monogatari-series.com/oms/2024/story/ (page): 作品官方故事页的完整导航为01—06、ex、07—14，并确认第14集是《忍物語 しのぶマスタード 其ノ陸》，证明主体正篇编号止于14。\n\nhttps://www.monogatari-series.com/oms/2024/story/?id=ex (page): 官方将《残酷童話 うつくし姫》明确标作本作的“#ex”，其剧情与TMDB第0季第48集一致。\n\nhttps://bgm.tv/subject/475354 (page): Bangumi 475354标注15话，并列出01—06、06.5、07—14；其中06.5对应官方的“ex”，与TMDB拆分为第5季14集加特别篇1集的结构一致。\n\n备注：TMDB第5季第15集目前仅为空白占位，未来可能用于另行制作的新篇章；在其缺少标题、日期和内容且Bangumi已另设后续篇目 subject 的情况下，本映射明确排除该占位集。",
+    "evidence": "codex: 已通过年份、制作方、原作、剧情、官方篇章范围及逐集标题和日期确认：本作对应 TMDB 46195 第5季第1—14集；Bangumi 第6.5话对应第0季第48集，另有特别篇对应第0季第49集。全部16个章节均有对应。旧映射的主体范围正确，但遗漏了特别篇第49集；第6季线索与当前 TMDB 季表不符。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): TMDB 46195 的制作公司包含 SHAFT、Aniplex、讲谈社，原作为西尾维新；第5季明确命名为《〈物語〉シリーズ オフ&モンスターシーズン》，首播日期2024-07-06，季简介与目标作品一致。当前季列表没有第6季。\n\nhttps://www.themoviedb.org/tv/46195/season/5 (api_snapshot): 完整读取第5季集表（共1页）：第1—14集的篇章标题、篇内序号及播出日期均与输入的 Bangumi 整数编号章节逐集一致，日期范围为2024-07-06至2024-10-19。第15集仅名为“第15話”，没有日期、时长或简介，不纳入映射。\n\nhttps://www.themoviedb.org/tv/46195/season/0 (api_snapshot): 完整读取特别篇集表（49集，共1页）：第48集为《残酷童話 うつくし姫》，日期2024-08-17、时长13分钟，标题、日期与 Bangumi 第6.5话一致；第49集为本作《アベマSP特番》，日期2024-09-07、时长30分钟，与 Bangumi 特别篇一致。\n\nhttps://www.monogatari-series.com/oms/2024/ (page): 官方确认本作为 SHAFT 制作、西尾维新原作、新房昭之总导演、吉泽翠导演的动画，涵盖愚物语、抚物语、业物语、忍物语；剧情围绕月火、抚子及吸血鬼相关事件展开，与输入资料和 TMDB 第5季剧情相符。\n\nhttps://www.monogatari-series.com/oms/2024/story/ (page): 官方故事目录依次列出01—06、ex、07—14，末集为《忍物語 しのぶマスタード 其ノ陸》，确认主体为14集编号正篇加1集额外故事。\n\nhttps://www.monogatari-series.com/oms/2024/story/?id=ex (page): 官方将《残酷童話 うつくし姫》标为第ex话，其六百年前美丽公主的剧情与 TMDB 特别篇第48集一致。\n\nhttps://www.themoviedb.org/tv/322162 (api_snapshot): 英文别名搜索另找到322162，但详情仅有1集计数，缺少简介、制作公司和演职员资料；其 IMDb 链接不足以优先于已经完整核实的46195第5季。\n\n备注：第5季第15集缺少内容与日期，归属尚不明确，本次不纳入。；另一个同名条目322162资料不足，未采用。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/475354; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/5; https://www.themoviedb.org/tv/46195/season/0; https://www.monogatari-series.com/oms/2024/story/; https://www.monogatari-series.com/oms/2024/story/?id=ex",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/475354; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/5; https://www.themoviedb.org/tv/46195/season/0; https://www.monogatari-series.com/oms/2024/; https://www.monogatari-series.com/oms/2024/story/; https://www.monogatari-series.com/oms/2024/story/?id=ex; https://www.themoviedb.org/tv/322162",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 46195
+    },
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 7,
+      "season": 5,
+      "start": 7,
+      "tmdbId": 46195
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -22,6 +143,7 @@
     },
     {
       "episode": 48,
+      "episodeEnd": 49,
       "id": 46195,
       "season": 0,
       "type": "tv"

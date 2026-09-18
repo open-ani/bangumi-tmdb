@@ -1,20 +1,113 @@
 {
   "bangumiId": 316760,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 982539,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 982540,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 982541,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 982542,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 982543,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 982544,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 982545,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 982546,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 982547,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 982548,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 982549,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 982550,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 982551,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 982552,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 该 subject 合并收录本作前两季，各 7 话。作品身份由年份、剧情、制作公司及官方创剧人信息交叉确认；14 话的标题、顺序和播出日期均与 TMDB 前两季逐集一致。旧映射仅覆盖第 1 季，应补入第 2 季。\n\nhttps://www.themoviedb.org/tv/97266 (api_snapshot): TMDB 97266 为英语动画剧集，首播日期为 2020-01-04；剧情围绕小汽车 Cory Carson 在 Bumperton Hills 的生活展开，制作公司包括 Kuku Studios、VTech，与输入的年份、剧情、制作方及媒介一致。\n\nhttps://www.themoviedb.org/tv/97266/season/1 (api_snapshot): 第 1 季完整集表共 7 集，total_pages=1；全部播出日期为 2020-01-04。逐集标题及顺序与 Bangumi 第 1—7 话完全一致，包括第 4 集 Firehouse、第 5 集 Oil Spill。\n\nhttps://www.themoviedb.org/tv/97266/season/2 (api_snapshot): 第 2 季完整集表共 7 集，total_pages=1；全部播出日期为 2020-03-01。从 Copy Car 至 Ice Cream Truck，逐集标题及顺序与 Bangumi 第 8—14 话完全一致。\n\nhttps://www.netflix.com/sg-zh/title/80237347 (page): Netflix 官方页面确认中文名、汽车儿童成长冒险剧情及创剧人吴庆华、斯坦利·摩尔；页面列出第一季的相同故事，但第 4、5 集展示顺序与 Bangumi 和 TMDB 相反。\n\n备注：Netflix 当前页面显示年份为 2021，且第一季第 4、5 集顺序与 Bangumi、TMDB 不同；本次按实际读取的 TMDB 集表与输入章节标题、日期对应，不采用 Netflix 页面顺序。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/316760; https://www.themoviedb.org/tv/97266; https://www.themoviedb.org/tv/97266/season/1; https://www.themoviedb.org/tv/97266/season/2; https://www.netflix.com/sg-zh/title/80237347",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 97266
+    },
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 8,
+      "tmdbId": 97266
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 97266,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 97266,
+      "season": 2,
       "type": "tv"
     }
   ]

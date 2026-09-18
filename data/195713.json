@@ -1,16 +1,103 @@
 {
   "anidbId": 13417,
   "bangumiId": 195713,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 753479,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 753480,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 753481,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 753482,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 753483,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 753484,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 753485,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 753486,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 753487,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 753488,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 753489,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 753490,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 765108,
+      "sort": 9.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 765108,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 74088,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 的 AniDB 标题、原名与 2017-10-10 开播信息对应《理想禁区／Evil or Live》；主体为 12 集 TV 动画，2017-12-12 的总集篇属于该 subject 内特别篇。TMDB 74088 的剧集主条目原名为“理想禁区”、首播日为 2017-10-10，第一季明确包含 12 集，逐集日期与 Bangumi 第 1—12 集一致；TMDB 第 0 季另有 1 集特别篇，日期为 2017-12-13，与 Bangumi 的总集篇记录相符。故采用完整第 1 季，并补列第 0 季第 1 集。\n\nhttps://www.themoviedb.org/tv/74088 (api_snapshot): TMDB TV 74088 的名称为「イーブル オア ライブ」，原名为「理想禁区」，首播日为 2017-10-10；包含第 0 季 1 集特别篇和第 1 季 12 集。\n\nhttps://www.themoviedb.org/tv/74088/season/1 (api_snapshot): TMDB 第 1 季有 12 集，集数 1—12 的播出日期为 2017-10-10 至 2018-01-02，与 Bangumi 主体 12 集的日期逐一对应。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、制作公司与12集规模一致；完整季表中的逐集标题及输入日期支持本篇1—12对应S01E01—E12。特别篇由TMDB明确标注为9.5话总集篇，故章节765108对应S00E01。\n\nhttps://www.themoviedb.org/tv/74088 (api_snapshot): 以「イーブル オア ライブ」及「EVIL OR LIVE」搜索均得到 TV 74088。详情原名为「理想禁区」，首播于2017-10-10；剧情为网瘾少年黎响进入监狱般的矫正学校，制作公司包含绘梦与腾讯动漫，与输入作品一致。\n\nhttps://www.themoviedb.org/tv/74088/season/1 (api_snapshot): 第1季共12集，total_pages=1，已读取完整集表。英文标题逐集对应输入的日文标题，12集日期也均与输入记录一致，范围为2017-10-10至2018-01-02；没有混入总集篇。\n\nhttps://www.themoviedb.org/tv/74088/season/0 (api_snapshot): 第0季仅1集，total_pages=1。第1集英文标题为「Episode 9a - Series Review」，简介明确标注「Episode 9.5 - Series Review」，日期为2017-12-13，对应输入的9.5话总集篇。\n\nhttps://zh.wikipedia.org/wiki/理想禁區 (search_snippet): 资料列明该作为董易执导、绘梦制作的12集电视动画，播出期为2017-10-10至2018-01-02，支持作品及版本身份。\n\nhttps://www.tvmaze.com/shows/32433/evil-or-live/episodes (search_snippet): 集表单独列出特别篇「Recap 9.5」，日期为2017-12-13；第10集标题为「Secrets to Be Hidden」，日期记为2017-12-19，与输入及TMDB的第10集日期存在差异。\n\n备注：总集篇在Bangumi输入记为2017-12-12，在TMDB记为2017-12-13；标题与9.5话标识一致，日期差异不影响对应。；第10集在输入和TMDB均记为2017-12-12，外部集表记为2017-12-19；实际播出日期存在资料差异，但标题、集号与全季顺序一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/195713; https://www.themoviedb.org/tv/74088; https://www.themoviedb.org/tv/74088/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/195713; https://www.themoviedb.org/tv/74088; https://www.themoviedb.org/tv/74088/season/1; https://www.themoviedb.org/tv/74088/season/0; https://zh.wikipedia.org/wiki/理想禁區; https://www.tvmaze.com/shows/32433/evil-or-live/episodes",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74088
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

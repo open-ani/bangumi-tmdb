@@ -1,20 +1,36 @@
 {
   "anidbId": 754,
   "bangumiId": 11784,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 96813,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 96813,
+      "targets": [
+        {
+          "id": 1658826,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、导演与编剧、制作公司、音乐短片身份、片长及营救有翼少女的剧情相互吻合，确认对应TMDB movie/1658826。Bangumi仅有一话，整话对应这部独立短片，无季或TV集号。旧ID当前返回404。\n\nhttps://api.themoviedb.org/3/movie/10840 (api_snapshot): 旧映射 movie/10840 的详情请求返回 HTTP 404，当前无法沿用该 ID。\n\nhttps://www.themoviedb.org/movie/1658826 (api_snapshot): 英文标题搜索找到 movie/1658826；详情确认为1995年日本作品《On Your Mark CHAGE & ASKA》，宫崎骏导演及编剧、吉卜力制作、片长7分钟，剧情为两名男子营救被囚禁的有翼少女。\n\nhttps://www.ghibli.jp/works/onyourmark/ (page): 吉卜力官网确认本片由宫崎骏原作、编剧及导演，Real Cast Inc.出品、吉卜力制作，CHAGE&ASKA演唱主题歌，片长6分48秒，1995年7月15日与《侧耳倾听》同时上映。\n\nhttps://www.ghibli.jp/qa/ (page): 吉卜力官方问答明确本片是为CHAGE & ASKA同名歌曲制作的单部宣传动画短片，片长记为6分40秒。\n\nhttps://ghibli.jpn.org/museum/data/on-your-mark/ (search_snippet): 资料摘要描述两名青年营救有翼少女，与TMDB剧情吻合，并注明宫崎骏导演及1995年7月15日上映。\n\n备注：TMDB上映日期记为1995-07-05，与Bangumi及吉卜力官网的1995-07-15相差10天；日期差异原因未确认，但其他身份信息一致。；官方作品页与官方问答分别记载6分48秒及6分40秒；TMDB记为7分钟，分钟级片长相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/11784; https://api.themoviedb.org/3/movie/10840; https://www.themoviedb.org/movie/1658826; https://www.ghibli.jp/works/onyourmark/; https://www.ghibli.jp/qa/; https://ghibli.jpn.org/museum/data/on-your-mark/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 10840,
+      "id": 1658826,
       "type": "movie"
     }
   ]

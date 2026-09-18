@@ -1,13 +1,80 @@
 {
+  "anidbId": 13744,
   "bangumiId": 263756,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1004171,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1004172,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1004173,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1004174,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1004175,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1004176,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1004177,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1004178,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1004179,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1004180,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1004181,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1004182,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1004183,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 91278 与 Bangumi 的日文原名完全对应，且是同一部日本 TV 动画《マーベル フューチャー・アベンジャーズ》。TMDB 记录其第一季始于 2017-07-22、第二季始于 2018-07-30，共 2 季；制作公司为 Madhouse 与 The Walt Disney Company (Japan)，导演包含佐藤雄三。官方资料确认第二季是 2018-07-30 开播的 TV 动画，剧情围绕 Future Avengers 与 Inhumans 展开。TMDB 第二季实际季表包含第 1 至第 13 集，播出至 2018-10-22，与 Bangumi subject 的 13 集和日期范围完全一致，因此应映射为完整 S2，不需要给出部分集数范围。\n\nhttps://www.themoviedb.org/tv/91278 (api_snapshot): TMDB 详情确认作品原名为「マーベル フューチャー・アベンジャーズ」，类型为 TV，首播 2017-07-22，末播 2018-10-22，共 2 季 39 集；第 2 季 13 集；制作公司为 Madhouse 和 The Walt Disney Company (Japan)，工作人员包括导演佐藤雄三。\n\nhttps://www.themoviedb.org/tv/91278/season/2 (api_snapshot): TMDB 实际第二季季表为 season 2，air date 2018-07-30，episodeCount 13，逐集列出第 1 至第 13 集，最后一集日期为 2018-10-22。\n\nhttps://prtimes.jp/a/?c=11446&f=d11446-285-pdf-0.pdf&r=285 (page): Dlife/迪士尼官方新闻稿称该作品为 TV 动画，第二季于 2018 年 7 月 30 日开播；剧情为少年 Future Avengers 与 Avengers 对抗反派，第二季包含 Inhumans 篇。\n\nhttps://www.disneyplus.com/ja-jp/browse/entity-b311d339-1082-4195-ac3d-e53e3478c5c5 (page): Disney+ 官方页面将作品标为 2017–2018 年动画，并连续列出第二季第 1 至第 13 集及其剧情，确认不是电影、OVA 或音乐录像版本。\n\nhttps://tv.apple.com/jp/episode/%E6%88%A6%E3%81%84%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%AB/umc.cmc.30c8y7zck0grztl210ipsw0c9?showId=umc.cmc.2aynvxdrs40tm6xzra9gjfnvm (page): Apple TV 官方页面确认「戦いの果てに」是该作品第 2 季第 13 集，发行日期为 2018-10-22，原始音频为日语。",
+    "evidence": "codex: 确认对应 TMDB 91278 第2季整季。年份、首末播日期、13集范围、TV 媒介、导演、制作公司及官方第二季剧情资料一致，实际季表未混入其他作品。Bangumi 章节缺少标题和逐集日期，尚不能按要求完成逐集交叉比对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/263756 (page): Bangumi 标明本作为第二季 TV 动画，共13话，播出日期为2018-07-30至2018-10-22；导演佐藤雄三，动画制作 MADHOUSE，製作沃尔特迪士尼日本。\n\nhttps://www.themoviedb.org/tv/91278 (api_snapshot): TMDB 91278 为同名日本电视动画，制作公司为 Madhouse、沃尔特迪士尼日本，导演佐藤雄三；共两季39集，第二季13集，始于2018-07-30。\n\nhttps://www.themoviedb.org/tv/91278/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集；第1至13集从2018-07-30起每周一播出，最终集为2018-10-22。日文集名均为通用编号，未提供具体标题或剧情。\n\nhttps://prtimes.jp/main/html/rd/p/000000285.000011446.html (page): 迪士尼日本官方新闻稿确认第二季为2018-07-30开播的日本制作 TV 动画，讲述少年未来复仇者与复仇者联盟共同战斗，第二季涉及异人族；制作方和主要声优与 TMDB 相符。\n\nhttps://www.disneyplus.com/ja-jp/browse/entity-b311d339-1082-4195-ac3d-e53e3478c5c5 (page): Disney+ 官方页面将作品标为2017—2018年、共两季的动画，并完整列出第二季第1至13集及剧情，确认该季是独立的13集连续故事范围。\n\n备注：输入的13个 Bangumi 章节均无标题和播出日期，章节列表网页也未能访问；TMDB 日文集表仅有通用编号。需要补充 Bangumi 逐集资料，再与官方标题和播出日期核对后建立 rules。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/263756; https://www.themoviedb.org/tv/91278; https://www.themoviedb.org/tv/91278/season/2; https://prtimes.jp/a/?c=11446&f=d11446-285-pdf-0.pdf&r=285; https://www.disneyplus.com/ja-jp/browse/entity-b311d339-1082-4195-ac3d-e53e3478c5c5; https://tv.apple.com/jp/episode/%E6%88%A6%E3%81%84%E3%81%AE%E6%9E%9C%E3%81%A6%E3%81%AB/umc.cmc.30c8y7zck0grztl210ipsw0c9?showId=umc.cmc.2aynvxdrs40tm6xzra9gjfnvm",
-    "verifiedAt": "2026-09-08T21:32:58.338Z"
+    "source": "https://bgm.tv/subject/263756; https://www.themoviedb.org/tv/91278; https://www.themoviedb.org/tv/91278/season/2; https://prtimes.jp/main/html/rd/p/000000285.000011446.html; https://www.disneyplus.com/ja-jp/browse/entity-b311d339-1082-4195-ac3d-e53e3478c5c5",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

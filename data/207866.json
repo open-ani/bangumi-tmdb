@@ -1,15 +1,126 @@
 {
+  "anidbId": 13471,
   "bangumiId": 207866,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752357,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752358,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752359,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752360,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752361,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752362,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752363,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752364,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752365,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752366,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 752367,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 752368,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 753289,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 753290,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 753291,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 753292,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 753293,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 753294,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 753295,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 753296,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 116753 与 Bangumi subject 均为七创社制作的中文 3D WEB 动画《凹凸世界》，剧情均围绕金等人参加凹凸大赛展开。TMDB 第2季前20集标题与 Bangumi 的20集逐集对应；第21集是另收录的两周年特别番外，不属于本 subject，因此使用第2季 1–20集的闭区间。该条目不是2025年的重置版《凹凸世界·新生》。\n\nhttps://api.bgm.tv/v0/subjects/207866 (api_snapshot): Bangumi API：2017-10-08、WEB、20集；剧情、制作人员及第1–20集标题与该版本相符。\n\nhttps://www.themoviedb.org/tv/116753 (api_snapshot): TMDB TV 116753：中文动画《凹凸世界》，2015年起，简介为凹凸大赛及金等参赛者的故事，制作公司为七创社，并包含第2季。\n\nhttps://www.themoviedb.org/tv/116753/season/2 (api_snapshot): TMDB第2季实际集表包含21条记录；第1–20集标题从“淘汰赛开始”至“突破和重生”，第21集明确为“两周年庆典特别番外篇”。\n\nhttps://bangumi.tv/subject/207866 (page): Bangumi页面确认该 subject 为《凹凸世界 第二季》、20集、2017年10月播出、七创社制作。\n\nhttps://www.bilibili.com/bangumi/media/md6352/ (page): 官方播放页将《凹凸世界 第二季》标为2017年10月开播、全20话，并列出与 TMDB 前20集相同的集名。\n\nhttps://comic.sina.cn/dongman/2018-02-18/detail-ifyrpeie0279545.d.html (page): 报道确认第二季为20集正篇，最终话为超过40分钟的正片；与TMDB第20集“突破和重生”对应。\n\n备注：TMDB季表的首播日期整体与 Bangumi/官方记录存在约一周差异，且第20集日期也有平台上线时间差；但集名、剧情主线、版本身份及20集范围一致。",
+    "evidence": "codex: 制作公司、人物与剧情、年代及20集逐集标题共同确认，本 subject 对应 TMDB 116753 第二季第1—20集，可建立连续一对一规则。该季另收录两周年特别番外，故不能映射整季。映射指向2017年第二季，未使用2025年的《新生》范围。\n\nhttps://bgm.tv/subject/207866 (page): Bangumi 确认为2017年10月8日开始的 WEB 动画第二季，共20话，七创社制作、周亮导演，剧情围绕金等人参加凹凸大赛展开。\n\nhttps://www.themoviedb.org/tv/116753 (api_snapshot): TMDB 116753 为2015年开始的中文《凹凸世界》，制作公司为七创社，剧情为通过凹凸大赛改变命运；金、格瑞等角色及配音信息与 Bangumi 相符，包含2017年的第二季。\n\nhttps://www.themoviedb.org/tv/116753/season/2 (api_snapshot): 已读取第二季完整集表，共21集、1页。第1—20集标题与 Bangumi 逐集对应，第14集仅末尾感叹号不同；第21集为2018年7月17日的两周年庆典特别番外，应排除。\n\nhttps://bgm.tv/subject/207866/ep (page): Bangumi 章节页列出20集本篇，从“淘汰赛开始”至“突破和重生”。逐集比较发现 TMDB 第1—19集日期均早7天，第20集早14天，但标题和顺序一致。\n\nhttps://www.bilibili.com/bangumi/media/md6352/ (page): 哔哩哔哩播放平台页面确认《凹凸世界 第二季》于2017年10月开播，已完结、全20话，支持20集正篇范围。\n\n备注：两站逐集日期存在系统性差异，具体原因未确认，不能直接归因于平台上线时间。；第6集时长为 TMDB 10分钟、Bangumi 16分52秒；第20集为38分钟、47分12秒。时长差异原因未确认；当前对应依据为作品身份、逐集标题、顺序及正篇总数，不代表已核实片源剪辑完全一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/207866; https://api.bgm.tv/v0/subjects/207866; https://www.themoviedb.org/tv/116753; https://www.themoviedb.org/tv/116753/season/2; https://bangumi.tv/subject/207866; https://www.bilibili.com/bangumi/media/md6352/; https://comic.sina.cn/dongman/2018-02-18/detail-ifyrpeie0279545.d.html",
-    "verifiedAt": "2026-09-08T20:41:07.582Z"
+    "source": "https://bgm.tv/subject/207866; https://www.themoviedb.org/tv/116753; https://www.themoviedb.org/tv/116753/season/2; https://bgm.tv/subject/207866/ep; https://www.bilibili.com/bangumi/media/md6352/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 116753
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

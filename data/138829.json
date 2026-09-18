@@ -1,16 +1,91 @@
 {
   "anidbId": 11350,
   "bangumiId": 138829,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 565018,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 565019,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 565020,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 565021,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 565022,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 565023,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 565024,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 565025,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 565026,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 565027,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 565028,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 565029,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 834674,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认这是 2015 年 10 月开播、SHAFT 制作的 TV《終物語》，共 13 个章节。Anime-Lists 将 AniDB 11350「Owarimonogatari」关联到 TMDB TV 46195 第 4 季；TMDB 第 4 季名称、年份、剧情和集标题均对应本 subject。Bangumi 的前两集同日播出，而 TMDB 将 50 分钟的「おうぎフォーミュラ」合并为第 1 集，之后 TMDB 第 2–12 集依次对应 Bangumi 第 3–13 集，因此应纳入完整第 4 季。\n\nhttps://bgm.tv/subject/138829 (page): Bangumi 将 subject 标为 TV《終物語》，话数 13，放送时间为 2015-10-03 至 2015-12-19，制作方包括 SHAFT。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 11350「Owarimonogatari」关联 TMDB TV 46195、TMDB season 4；其映射还显示 AniDB 的 401、402 合并到目标第 1 集。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): TMDB TV 46195 的第 4 季名称为「終物語」，季首年份为 2015，共 12 集。\n\nhttps://www.themoviedb.org/tv/46195/season/4 (api_snapshot): TMDB 第 4 季剧情对应忍野扇、老倉育和忍野忍相关篇章；第 1 集为 50 分钟的「おうぎフォーミュラ」，第 2–12 集标题依次覆盖「そだちリドル」「そだちロスト」「しのぶメイル」。\n\n备注：Bangumi 记载的首末播出日期比 TMDB 季集日期各早一天，属于日期记录差异；不影响标题、剧情、制作信息和完整季映射。",
+    "evidence": "codex: 确认对应TMDB 46195第4季全季。年份、TV媒介、制作人员、剧情及全部篇章范围一致，12个放送单元完整覆盖Bangumi的13话，没有混入2017年续篇。Bangumi第3—13话与TMDB第2—12集的标题、顺序及经午夜换日解释后的日期逐一一致。前两话合并收录为TMDB第1集；因禁止两个Bangumi章节占用同一TMDB集，且当前Schema不能表达多话合一，前两话均暂不建立逐集映射。\n\nhttps://bgm.tv/subject/138829 (page): Bangumi 条目为2015年TV动画《終物語》，共13话，播出范围为2015年10月3日至12月19日。\n\nhttps://www.themoviedb.org/tv/46195 (api_snapshot): TMDB 46195 为物语系列合并条目，制作公司包括SHAFT、Aniplex、讲谈社，原作为西尾维新；第4季明确名为《終物語》，年份为2015，剧情为忍野扇与阿良良木历调查校舍，与本subject一致。\n\nhttps://www.themoviedb.org/tv/46195/season/4 (api_snapshot): 已读取第4季完整集表，共12集、1页。第1集为50分钟的「おうぎフォーミュラ」；第2—3集为「そだちリドル」两话，第4—6集为「そだちロスト」三话，第7—12集为「しのぶメイル」六话。后11集标题逐一对应Bangumi第3—13话，播出日期均比Bangumi晚一个日历日。\n\nhttps://www.aniplex.co.jp/lineup/owarimonogatari/ (search_snippet): Aniplex 官方标明本作为TV动画，原作为西尾维新《終物語》，总导演新房昭之、导演板村智幸、动画制作SHAFT；首篇剧情为忍野扇邀请历调查校舍隐藏房间，与输入的制作人员和剧情一致。\n\nhttps://www.monogatari-series.com/owarimonogatari/special/screening.html (search_snippet): 官方先行上映公告确认2015年10月3日首播「おうぎフォーミュラ」为一小时特别放送；官方剧情目录将该篇标为第1话・第2话。\n\nhttps://www.monogatari-series.com/series/story.html?code=owarimonogatari (search_snippet): 官方剧情目录将「おうぎフォーミュラ」合列为第1话・第2话，支持Bangumi前两话对应TMDB首集的合并收录关系。\n\nhttps://www.monogatari-series.com/owarimonogatari/onair/ (search_snippet): 官方放送表列出TOKYO MX等电视台于10月3日24:00开播，即日历上的10月4日，解释了Bangumi与TMDB逐集日期相差一天。\n\n备注：Bangumi章节565018、834674共同对应S4E1；该关系已确认，但受Schema约束留空。完整表达需要支持多个Bangumi章节合并对应一个TMDB集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/138829; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/138829; https://www.themoviedb.org/tv/46195; https://www.themoviedb.org/tv/46195/season/4; https://www.aniplex.co.jp/lineup/owarimonogatari/; https://www.monogatari-series.com/owarimonogatari/special/screening.html; https://www.monogatari-series.com/series/story.html?code=owarimonogatari; https://www.monogatari-series.com/owarimonogatari/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 2,
+      "season": 4,
+      "start": 3,
+      "tmdbId": 46195
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

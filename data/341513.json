@@ -1,14 +1,75 @@
 {
   "anidbId": 16185,
   "bangumiId": 341513,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1049298,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1049299,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1049300,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1049301,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1049302,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1049303,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1049304,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1049305,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1049306,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1049307,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1049308,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1049309,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 341513 是 2021-07-16 开始、共 12 话的《Obey Me!》，AniDB 关联为 16185 且状态为 matched。TMDB TV 122371 的第 1 季同名《Obey Me!》，首播日同为 2021-07-16，共 12 集；完整剧集标题、日期和剧情均与该主体对应。第 2 季对应 Bangumi 的独立关联 subject 392661，不应纳入本 subject；TMDB 特别篇第 0 季也不是该主体的正篇。\n\nhttps://bgm.tv/subject/341513 (page): Bangumi subject 名称为 Obey Me!，首播日期为 2021-07-16，共 12 话；提供的 AniDB 关联为 16185 且匹配成功。\n\nhttps://www.themoviedb.org/tv/122371 (api_snapshot): TMDB TV 122371 名为 Obey Me!，首播日期为 2021-07-16，共 24 集，并明确列出第 1 季 12 集和第 2 季 12 集，另有第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/122371/season/1 (api_snapshot): TMDB 第 1 季名称为 Obey Me!，日期为 2021-07-16，完整列出第 1 至第 12 集；标题、日期和剧情与 12 话主体相符。",
+    "evidence": "codex: 年份、首播日、剧情、制作人员、网络短篇形式及12话范围共同确认，本subject对应TMDB 122371第1季整季。第2季与独立特别动画不纳入。输入中的Bangumi章节标题及日期全部为空，网页亦未能读取，因此保留已确认的整季映射，不凭章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/122371 (api_snapshot): 以原名 Obey Me! 搜索后读取作品详情：TMDB 122371 首播于2021-07-16，制作公司包含彩色铅笔动画；第1季为2021年作品，共12集，第2季另于2022-07-22开始。\n\nhttps://www.themoviedb.org/tv/122371/season/1 (api_snapshot): 已读取第1季全部12集，total_pages=1；内容为恶魔七兄弟的日常短篇。第7集为音声评论，第12集为「兄弟不在のNYEP」，未混入第2季或独立特别篇。\n\nhttps://www.animatetimes.com/tag/details.php?id=11972 (search_snippet): 动画资料列明2021-07-16公开配信、全12话，导演大宮一仁、系列构成モリマサ、人物设计田中日香里、动画制作Colored Pencil Animation Japan，均与输入一致；另注明会员提前于7月9日观看。\n\nhttps://www.fwinc.co.jp/news/72651/ (search_snippet): 发行方明确区分2021年动画全12话与额外收录的特别动画「魔界大旅行」，支持本subject仅覆盖第一季12话。\n\nhttps://www.suruga-ya.jp/product/detail/428067445?tenpo_cd=400361 (search_snippet): 蓝光商品的第1至12话标题与TMDB第一季顺序一致，包括第7话音声评论；特别动画另列在12话之外。\n\n备注：12个Bangumi章节缺少可比对的标题和日期，逐集rules暂留空。；TMDB第3、4集日期分别为2021-08-13、2021-08-27，而其他集表的公开配信日期为8月20日、9月3日；存在提前观看与公开配信口径差异，不影响作品及整季范围确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/341513; https://www.themoviedb.org/tv/122371; https://www.themoviedb.org/tv/122371/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/341513; https://www.themoviedb.org/tv/122371; https://www.themoviedb.org/tv/122371/season/1; https://www.animatetimes.com/tag/details.php?id=11972; https://www.fwinc.co.jp/news/72651/; https://www.suruga-ya.jp/product/detail/428067445?tenpo_cd=400361",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

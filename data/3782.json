@@ -1,16 +1,66 @@
 {
   "anidbId": 6748,
   "bangumiId": 3782,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28731,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28732,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 28733,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 28734,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 28735,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 28736,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 28737,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 28738,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 两份定位均对应同一部 2010 年动画选集《Halo Legends》，不是真人版，也不是其中某一部短篇。TMDB 电视条目明确描述为“七个故事、八个部分”，第 1 季共 8 集并于 2010-02-16 首播，与 Bangumi 的 8 集主体完全对应，因此 TV 目标可覆盖整季，无需填写范围。电影条目 573531 则是该动画选集的电影/合集表示；现有证据未显示 60879 是后来改编的独立重剪版本，故两种 TMDB 表示均可保留。\n\nhttps://www.themoviedb.org/tv/60879-halo-legends/watch (page): TMDB 页面显示《Halo Legends》(2010)，类型为 Animation，简介称包含七个故事、分八个部分；Season 1 为 2010 年 8 集，首播日期为 2010-02-16。\n\nhttps://www.themoviedb.org/tv/60879-halo-legends/watch (page): TMDB 电视条目将该作品标为 Type Video，并列出 Season 1，共 8 Episodes。\n\nhttps://www.tirexo.al/films/films-vo/886524-halo-legends.html (search_snippet): 搜索摘要将 2010 年动画《Halo: Legends》关联到 TMDB movie/573531，并描述为由 7 部动画短片组成的合集。\n\nhttps://www.justwatch.com/us/movie/halo-legends-2010 (page): 页面确认《Halo Legends (2010)》是约 2 小时的电影，并概述为来自日本动画创作者的七部动画短片合集。\n\nhttps://sola-ent.com/works/halo-legends/ (page): 制作方页面将《Halo Legends》标为 2010 年、8-Part Anime Anthology。\n\n备注：AniDB 6748 页面访问返回 403，未能直接独立核对 AniDB 关联；但作品名称、年份、七故事八部分结构及 TMDB 两种表示已由其他来源交叉吻合。",
+    "evidence": "codex: 年份、发行日期、游戏世界观、制作人员与七故事八部分结构共同确认两个TMDB条目均表示本作完整动画选集，可保留电影整体表示及TV第1季分集表示。第1季八个标题与Bangumi八话逐一吻合，且没有混入其他作品，因此整季覆盖并建立1—8话连续规则；电影目标仅表示整部选集。\n\nhttps://bgm.tv/subject/3782 (page): Bangumi 将本作标为2010年2月16日发售的8话OVA；简介为《光环》世界观下的七部动画短片合集，列出的制作公司包括BONES、Production I.G、STUDIO 4℃、东映动画和Casio Entertainment。\n\nhttps://sola-ent.com/works/halo-legends/ (page): 制作方确认本作为2010年的八部分动画选集，由华纳发行，列出上述五家动画工作室及押井守、Frank O’Connor、Joseph Chou。\n\nhttps://www.themoviedb.org/tv/60879 (api_snapshot): TV 60879为2010年《Halo Legends》，简介明确七个故事、八个部分；制作公司吻合，仅有第1季，共8集。\n\nhttps://www.themoviedb.org/tv/60879/season/1 (api_snapshot): 第1季实际集表共8集、仅1页，依次为Origins Part 1、Origins Part 2、The Duel、Homecoming、Odd One Out、Prototype、The Babysitter、The Package，与输入中的Bangumi八话逐一对应。各集日期分布于2009年11月至2010年2月，并非全部为光盘发售日。\n\nhttps://www.themoviedb.org/movie/573531 (api_snapshot): 电影573531为2010年2月16日发行、120分钟的同名七短片合集；制作公司及荒牧伸志、二村秀树、西尾大介等人员吻合，演员角色注明多个对应短片标题，确认覆盖整部选集。\n\n备注：Bangumi逐集日期为空，无法与TMDB逐集日期直接互证；TMDB集表日期也不按集号递增。逐集对应依据完整标题及八话总量确认，不依据日期顺序推算。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3782; https://www.themoviedb.org/tv/60879-halo-legends/watch; https://www.tirexo.al/films/films-vo/886524-halo-legends.html; https://www.justwatch.com/us/movie/halo-legends-2010; https://sola-ent.com/works/halo-legends/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3782; https://sola-ent.com/works/halo-legends/; https://www.themoviedb.org/tv/60879; https://www.themoviedb.org/tv/60879/season/1; https://www.themoviedb.org/movie/573531",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 60879
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

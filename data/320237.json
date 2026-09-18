@@ -1,16 +1,86 @@
 {
   "anidbId": 16843,
   "bangumiId": 320237,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1067107,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1067108,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1067109,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1067110,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1067111,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1067112,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1067113,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1067114,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1067115,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1067116,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1067117,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1079444,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认是《烈火浇愁》2021 年 WEB 动画，首播 2021-10-07，共 12 话，导演王淼、原作 Priest、制作/动画制作信息与输入中的 AniDB 标题关联一致。TMDB 134928 的原名同为“烈火浇愁”，首播日期为 2021-10-07，第一季共 12 集，逐集日期覆盖 2021-10-07 至 2021-12-16，与 Bangumi 主体完全对应。因此采用 TMDB TV 134928 第 1 季完整范围，不需要缩小集数。\n\nhttps://bgm.tv/subject/320237 (page): Bangumi 条目为《烈火浇愁》WEB 动画，12 话，2021-10-07 开播，原作 Priest，导演王淼，制作/动画制作信息与输入一致。\n\nhttps://www.themoviedb.org/tv/134928 (api_snapshot): TMDB API 快照显示作品原名为“烈火浇愁”，首播日期 2021-10-07，共 12 集，只有第 1 季。\n\nhttps://www.themoviedb.org/tv/134928/season/1 (api_snapshot): TMDB API 快照显示第 1 季为 12 集，集数 1–12；日期从 2021-10-07 连续至 2021-12-16。\n\nhttps://www.themoviedb.org/tv/134928?language=en-US (search_snippet): TMDB 页面摘要显示 Drowning Sorrows in Raging Fire、原名“烈火浇愁”、2021 年第 1 季 12 集，并以第 12 集作为季终。",
+    "evidence": "codex: 确认对应 TMDB 134928 第1季全12集。年份、首播日期、剧情、制作公司及角色配音一致；官方话号与标题逐集吻合TMDB，完整播出表也支持相同顺序与日期。因此本篇 sort 1–12 连续对应 S01E01–E12，无需特例。\n\nhttps://bgm.tv/subject/320237 (page): Bangumi 确认为2021年10月7日首播的12话 WEB 动画，原作 Priest、导演王淼、动画制作声影动漫、出品 bilibili；剧情围绕特能人与异控组织展开。\n\nhttps://www.themoviedb.org/tv/134928 (api_snapshot): TMDB 134928 原名《烈火浇愁》，首播2021-10-07，共1季12集；剧情、bilibili及声影动漫制作信息，以及姜广涛配盛灵渊、郝祥海配宣玑均与该动画一致。\n\nhttps://www.themoviedb.org/tv/134928/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。第1、2集均为2021-10-07，第3至12集依次为10-14、10-21、10-28、11-04、11-11、11-18、11-25、12-02、12-09、12-16；全部为约20分钟的连续剧情正片。\n\nhttps://www.bilibili.com/bangumi/media/md28230730/ (page): bilibili 官方作品页确认2021年10月7日开播，已完结、全12话。\n\nhttps://www.bilibili.com/bangumi/play/ss35208 (search_snippet): 官方播放页搜索结果列出第1至12话对应标题：人魔盛灵渊、千灵法阵、镜花水月蝶、剑中灵识、重获肉身、阿洛津、秘术溯洄、真相、脱困、守火人、再战、暂别，顺序与TMDB完全一致；结果同时含预告与会员正片入口，不能将入口数量当作正片集数。\n\nhttps://thetvdb.com/series/411106-/allseasons/official (search_snippet): TVDB 完整播出表的12个标题及各集日期均与TMDB季表一致，包括首日两集；仅作为官方标题和作品身份核验后的辅助证据。\n\n备注：输入中的Bangumi章节标题与日期均为空，逐集核验依赖官方话号和标题，并以其他播出表辅助比对日期；并非直接从Bangumi取得逐集日期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/320237; https://www.themoviedb.org/tv/134928; https://www.themoviedb.org/tv/134928/season/1; https://www.themoviedb.org/tv/134928?language=en-US",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/320237; https://www.themoviedb.org/tv/134928; https://www.themoviedb.org/tv/134928/season/1; https://www.bilibili.com/bangumi/media/md28230730/; https://www.bilibili.com/bangumi/play/ss35208; https://thetvdb.com/series/411106-/allseasons/official",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 134928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

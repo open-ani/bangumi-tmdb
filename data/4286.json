@@ -1,16 +1,86 @@
 {
   "anidbId": 7277,
   "bangumiId": 4286,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 32458,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 32459,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 32460,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 32461,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 32462,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 32463,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 32464,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 32465,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 32466,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 32467,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 32468,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 32469,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 4286 的名称、日期、12 集标题与 TMDB TV 42917 第 3 季完全对应：均为《真・恋姫†無双～乙女大乱～》，首播 2010-04-01；TMDB 第 3 季明确为 12 集，集 1–12 的标题和播出日期逐集一致。因此映射为 TV 42917 第 3 季完整一季，不包含另列的 OVA 特典 subject 82214。\n\nhttps://www.themoviedb.org/tv/42917 (api_snapshot): TMDB TV 42917 名为《恋姫†無双》，包含第 3 季《真・恋姫†無双～乙女大乱～》；整部 TV 总集数为 36，第 3 季为 12 集。\n\nhttps://www.themoviedb.org/tv/42917/season/3 (api_snapshot): TMDB 第 3 季明确为 season_number=3，季名为《真・恋姫†無双～乙女大乱～》，首播 2010-04-01，共 12 集；集 1–12 的标题逐一对应 Bangumi subject 的 12 个正篇标题，日期覆盖 2010-04-01 至 2010-06-17。\n\nhttps://bgm.tv/subject/4286 (page): Bangumi 记录显示 subject 4286 为《真・恋姫†無双～乙女大乱～》，2010-04-01 开播，共 12 集，AniDB ID 为 7277 且标题状态为 matched；OVA 特典另列为 subject 82214。",
+    "evidence": "codex: 确认对应 TMDB TV 42917 第3季整季。年份、媒介、制作人员、剧情、12集总量及全部分集标题顺序一致，首末播出日期吻合，可建立本篇1—12集的一一对应规则。另列的OVA不属于本次映射。\n\nhttps://www.themoviedb.org/tv/42917 (api_snapshot): 以日文原名搜索命中 TV 42917；详情确认导演为中西伸彰、制作公司为動画工房，包含2008年第一季、2009年第二季及2010年《乙女大乱》第三季。\n\nhttps://www.themoviedb.org/tv/42917/season/3 (api_snapshot): 第3季名为《真・恋姫†無双～乙女大乱～》，共12集，total_pages=1。第1至12集日文标题与 Bangumi 逐集完全一致，播出日期从2010-04-01至2010-06-17，每周一集；集表未混入OVA。\n\nhttps://bgm.tv/subject/4286 (page): Bangumi 确认为2010年4月1日至6月17日播出的12集TV动画，导演中西伸彰、原作BaseSon、动画制作動画工房；前作与OVA另列关联条目。\n\nhttps://bgm.tv/subject/4286/ep (page): 章节页列出12个本篇，逐集标题和顺序均与 TMDB 第3季相同；页面没有提供各集播出日期。\n\nhttps://www.video.unext.jp/title/SID0003208/c_txt=b (page): U-NEXT 将本作标为2010年续篇，导演及原作相符；页面可见的第1至10集标题、寻找药材救何进及讨伐董卓等分集剧情与 TMDB 相符。\n\n备注：Bangumi 各集日期为空，无法进行两站逐集日期交叉核对；映射依据为全部12集标题逐项一致、集数一致，以及整体播出区间和剧情核验。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4286; https://www.themoviedb.org/tv/42917; https://www.themoviedb.org/tv/42917/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/4286; https://www.themoviedb.org/tv/42917; https://www.themoviedb.org/tv/42917/season/3; https://bgm.tv/subject/4286/ep; https://www.video.unext.jp/title/SID0003208/c_txt=b",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 42917
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

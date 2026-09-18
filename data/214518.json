@@ -1,15 +1,108 @@
 {
+  "anidbId": 13820,
   "bangumiId": 214518,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 750991,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 750992,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752469,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752470,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752471,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752472,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752473,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752474,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752475,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752476,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752477,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 752478,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 752479,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 752938,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 750991,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 79139,
+          "season": 2,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品 79139《少年锦衣卫》。TMDB 详情显示其为 2017 年中国大陆中文 WEB 动画，共 2 季、28 集，制作公司含栢言映画、吾立方、The One Studio、优酷；剧情梗概与 Bangumi 第二季完全对应。TMDB 第 2 季实际有 14 集：第 1 集为“序章”，第 2–14 集依次对应 Bangumi 的 13 个正片标题“丸子”至“盛筵”。Bangumi 本条明确为 WEB、13 话并另列 SP/00，因此 TMDB 第 2 季完整覆盖 subject 的 13 集正片及序章特别篇，使用整季范围。TMDB 的 286169“少年锦衣卫(YK版)”是信息较弱的重复条目，缺少匹配的剧情和制作人员信息，未作为主推荐。\n\nhttps://www.themoviedb.org/tv/79139 (api_snapshot): TMDB 详情：原名《少年锦衣卫》，首播 2017-05-11，中文电视动画，共 2 季 28 集；剧情为明初锦衣卫、袁小棠等人的故事；制作公司包括 Boyan Pictures、The One Studio、Youku、Wulifang；工作人员含陈柏言/BoYan Chen 导演。\n\nhttps://www.themoviedb.org/tv/79139/season/2 (api_snapshot): TMDB 第 2 季实际有 14 集，标题为“序章、丸子、夜市、小鬼、拍卖、瞎子、对阵、告别、霁雪、亲人、将军、旧事、残月、盛筵”，季简介与 Bangumi subject 剧情一致。\n\nhttps://bgm.tv/subject/214518 (page): Bangumi 条目明确为 WEB，话数 13，放送时间 2017-09-28 至 2018-01-11；制作人员包括总导演陈柏言、导演谢丹、总编剧孙甜、动画制作吾立方数码；章节为 01–13 及 SP/00。\n\nhttps://moegirl.icu/%E4%BC%98酷%E6%8A%95%E8%B5%84%E5%87%BA%E5%93%81%E7%9A%84%E5%8A%A8%E7%94%BB%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8 (page): 作品资料列出《少年锦衣卫 第二季》为原创中国动画，2017-09-28 开播、13 集，制作公司为吾立方数码和柏言映画，出品方含优酷。\n\nhttps://www.iqiyi.com/a_19rrhccixx.html (page): 爱奇艺第二季页面标注 2017 年、13 集全，分集标题从“丸子”至“盛筵”，剧情与 TMDB/Bangumi 相符。\n\n备注：TMDB 的季首播日期为 2017-09-21，且第 7–14 集日期均记为 2018-04-29，与 Bangumi/平台日期不一致；这是 TMDB 排期元数据问题，不影响标题、剧情、制作人员和 14 集覆盖关系。",
+    "evidence": "codex: 确认对应TMDB 79139第二季整季。年份、网络动画身份、制作人员、角色和鬼街剧情相符；14个章节标题逐项吻合，数量恰为13集正片加序章，未混入其他作品。Bangumi正片1—13对应S02E02—E14，序章750991对应S02E01。日期存在冲突，但完整标题序列、集数及作品身份足以支持此对应关系。\n\nhttps://bgm.tv/subject/214518 (page): Bangumi 标注为2017年中国网络动画第二季，13话，另列序章特别篇；播出范围为2017-09-28至2018-01-11。总导演陈柏言，动画制作吾立方，制作柏言映画，剧情围绕袁小棠等人进入鬼街展开。\n\nhttps://www.themoviedb.org/tv/79139 (api_snapshot): 作品详情确认79139为《少年锦衣卫》，2017年中文动画剧集，共两季28集；导演陈柏言，制作公司包括柏言映画、吾立方、The One Studio及优酷，人物和第二季剧情与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/79139/season/2 (api_snapshot): 第二季集表共14集，total_pages=1，已完整读取。第1集为序章，第2至14集依次为丸子、夜市、小鬼、拍卖、瞎子、对阵、告别、霁雪、亲人、将军、旧事、残月、盛筵，与输入的13集正片及序章逐项对应。第1至6集日期比对应Bangumi章节早七天，第7至14集统一记为2018-04-29。\n\nhttps://www.themoviedb.org/tv/286169 (api_snapshot): 另一个搜索候选286169名为《少年锦衣卫(YK版)》，详情仅有简略的28集说明和优酷公司信息，缺少演员、工作人员及具体剧情，未采用此候选。\n\n备注：TMDB与Bangumi逐集日期不一致，差异原因尚未确认；不能据此认定任一方日期必然正确。本次映射依赖已核实的章节标题、总量、剧情和制作信息。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/214518; https://www.themoviedb.org/tv/79139; https://www.themoviedb.org/tv/79139/season/2; https://moegirl.icu/%E4%BC%98酷%E6%8A%95%E8%B5%84%E5%87%BA%E5%93%81%E7%9A%84%E5%8A%A8%E7%94%BB%E4%BD%9C%E5%93%81%E5%88%97%E8%A1%A8; https://www.iqiyi.com/a_19rrhccixx.html",
-    "verifiedAt": "2026-09-08T20:54:33.076Z"
+    "source": "https://bgm.tv/subject/214518; https://www.themoviedb.org/tv/79139; https://www.themoviedb.org/tv/79139/season/2; https://www.themoviedb.org/tv/286169",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 2,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 79139
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,91 @@
 {
   "anidbId": 18093,
   "bangumiId": 443831,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1427231,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1427232,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1427233,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1427234,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1427235,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1427236,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1427237,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1427238,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1427239,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1427240,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1427241,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1427242,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1615672,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是《Fate/strange Fake》TV 正篇，共13集；官方资料将“Whispers of Dawn”明确单列为 TVSP，并将“英霊事件”至第13话列为TV正篇。TMDB 229858 的第1季API快照明确为13集，完整剧集标题与 Bangumi 1—13集逐集对应，剧情也均围绕 Snowfield 的伪圣杯战争展开。因此映射为 TMDB TV 229858 第1季整季；不额外纳入 TVSP。TMDB 主条目的 first_air_date 和第1集日期显示为2024-12-31，与 Bangumi及正篇播出日期不一致，视为TMDB日期元数据异常，但不改变其剧集标题、剧情和13集正篇对应关系。\n\nhttps://www.themoviedb.org/tv/229858 (api_snapshot): TMDB TV条目名称为 Fate/strange Fake，简介与 Snowfield 伪圣杯战争相符，number_of_episodes=13，且列出第1季共13集。\n\nhttps://www.themoviedb.org/tv/229858/season/1 (api_snapshot): TMDB第1季明确为 season_number=1、episodeCount=13；第1至13集标题与 Bangumi 正篇逐集对应，包括“英霊事件”“群像VS虚像”至“夢幻は現となりて”。\n\nhttps://fate-strange-fake.com/story/?id=ep01 (page): 官方页面明确将“英霊事件”标为第1话，并给出与TMDB第1集一致的剧情和制作人员。\n\nhttps://fate-strange-fake.com/story/?id=ep13 (page): 官方页面明确将“夢幻は現となりて”标为第13话，剧情与TMDB第13集一致。\n\nhttps://fate-strange-fake.com/story/?id=tvsp (page): 官方页面将“Whispers of Dawn”单列为TVSP，而非第1至13话中的正篇集数。\n\nhttps://fate-strange-fake.com/bluray/ (search_snippet): 官方Blu-ray说明本篇收录“TVSP Whispers of Dawn＋第1话～第13话”，进一步区分TVSP与13集TV正篇。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists记录 anidbid=18093、tmdbtv=229858、tmdbseason=1；这是候选线索，并由官方剧集内容和TMDB季API独立核对。\n\nhttps://www.wikidata.org/wiki/Q120176184 (search_snippet): 搜索摘要同时列出该作品的 AniDB anime ID 18093 与 Bangumi subject ID 443831，支持Bangumi→AniDB主体关联。\n\n备注：TMDB主条目的首播日期及第1集日期为2024-12-31，而Bangumi正篇日期从2026-01-03开始；该日期冲突应视为TMDB元数据问题，后续如需校正播出日期应单独复核。",
+    "evidence": "codex: 确认对应TMDB 229858第1季整季，Bangumi本篇1—13话依次对应S01E01—E13。剧情、制作人员、媒介、集数及逐集标题一致；第2—13集日期完全吻合，第1集日期差异由2024年先行播出与2026年正式放送解释。本subject不包含独立TVSP“Whispers of Dawn”。\n\nhttps://www.themoviedb.org/tv/229858 (api_snapshot): TMDB 229858 为日本 TV 动画，剧情为雪原市的伪圣杯战争；制作公司 A-1 Pictures、导演榎戸駿与坂詰嵩仁、原作者成田良悟均与输入一致。条目列出第1季共13集。\n\nhttps://www.themoviedb.org/tv/229858/season/1 (api_snapshot): 第1季完整集表共13集，total_pages=1。与输入逐集核对，1—13集标题及顺序一致，第11集标题仅多一个空格；第2—13集播出日期全部一致，为2026-01-10至2026-03-28。第1集“英霊事件”日期为2024-12-31。\n\nhttps://fate-strange-fake.com/news/?article_id=66676 (search_snippet): 官方2024-11-24公告明确：TV系列第1话“英霊事件”于2024-12-31先行播出，同场另行重播TVSP“Whispers of Dawn”。因此TMDB第1集日期有官方依据，旧映射将其认定为元数据异常不准确。\n\nhttps://fate-strange-fake.com/onair/ (page): 官方放送表列明1月3日起每周六播出；首日特别编排为TVSP“Whispers of Dawn”加第1话“英霊事件”，明确二者是不同内容，与输入2026年正式放送信息相符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/443831; https://www.themoviedb.org/tv/229858; https://www.themoviedb.org/tv/229858/season/1; https://fate-strange-fake.com/story/?id=ep01; https://fate-strange-fake.com/story/?id=ep13; https://fate-strange-fake.com/story/?id=tvsp; https://fate-strange-fake.com/bluray/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.wikidata.org/wiki/Q120176184",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/443831; https://www.themoviedb.org/tv/229858; https://www.themoviedb.org/tv/229858/season/1; https://fate-strange-fake.com/news/?article_id=66676; https://fate-strange-fake.com/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229858
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

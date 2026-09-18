@@ -1,13 +1,40 @@
 {
+  "anidbId": 16660,
   "bangumiId": 340134,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1040343,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1040344,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1040345,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1040346,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1040347,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 的中文原名、首播日期（2021-06-25）、剧情简介及制作公司均一致；Bilibili 页面确认其为网络动画、全 5 话，并列出导演周一愚、编剧潘晓璇等主创，与 Bangumi 信息相符。TMDB 第 1 季实际包含 5 集，日期从 2021-06-25 至 2021-07-23，正好覆盖该 subject 的全部 5 集，未发现混入其他作品或不同版本，因此使用完整第 1 季。\n\nhttps://www.themoviedb.org/tv/195630 (api_snapshot): TMDB 详情：原名《红影一脉之一大文物背后的故事》，2021-06-25 开播，已完结，共 1 季 5 集，制作公司为 Shanghai Animation Film Studio。\n\nhttps://www.themoviedb.org/tv/195630/season/1 (api_snapshot): TMDB 第 1 季实际集表包含第 1 至第 5 集，播出日期为 2021-06-25、07-02、07-09、07-16、07-23，每集约 7 分钟。\n\nhttps://www.bilibili.com/bangumi/media/md28234689 (search_snippet): Bilibili 页面确认该作于 2021-06-25 开播、已完结全 5 话，简介与 Bangumi/TMDB 相同，并列出导演周一愚、编剧潘晓璇及配音人员。\n\nhttps://m.fznews.com.cn/node/20685/20221020/63516022229ec.shtml (search_snippet): 上海美术电影制片厂相关页面将其标为网络动画片《红影一脉之一大文物背后的故事》。",
+    "evidence": "codex: 年份、首播日期、剧情、制作机构、主创及5集×7分钟的版本规模相互吻合，确认对应TMDB 195630第1季全季。逐集证据不足，暂不生成rules或overrides。\n\nhttps://www.themoviedb.org/tv/195630 (api_snapshot): 原名搜索命中 TV 195630；详情确认原名一致，2021-06-25 首播，上海美术电影制片厂制作，共1季5集，已完结。简介与正版播放平台一致。\n\nhttps://www.themoviedb.org/tv/195630/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共5集，每集7分钟；标题仅为“第1集”至“第5集”，日期依次为2021-06-25、07-02、07-09、07-16、07-23，无分集简介。\n\nhttps://www.bilibili.com/bangumi/media/md28234689 (search_snippet): 正版平台标注2021-06-25开播、全5话；导演周一愚、编剧潘晓璇及配音、制片人员与输入一致，剧情简介与TMDB一致。\n\nhttps://www.nrta.gov.cn/attach/0/3680b13a85e84c76a67d80e541fcd3ea.pdf (search_snippet): 广电总局2021年度国产电视动画片发行统计表列明该作5集、每集7分钟、总长35分钟，制作机构为上海美术电影制片厂有限公司，与TMDB季规模吻合。\n\n备注：输入中5话日期均为2021-06-25，TMDB则按周排列至07-23；日期差异尚未解释。；TMDB缺少实际分集标题和简介，无法与“光的守护”等5个章节逐一核验；须补充分集内容或可靠播出记录后再建立逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/340134; https://www.themoviedb.org/tv/195630; https://www.themoviedb.org/tv/195630/season/1; https://www.bilibili.com/bangumi/media/md28234689; https://m.fznews.com.cn/node/20685/20221020/63516022229ec.shtml",
-    "verifiedAt": "2026-09-08T22:59:49.721Z"
+    "source": "https://bgm.tv/subject/340134; https://www.themoviedb.org/tv/195630; https://www.themoviedb.org/tv/195630/season/1; https://www.bilibili.com/bangumi/media/md28234689; https://www.nrta.gov.cn/attach/0/3680b13a85e84c76a67d80e541fcd3ea.pdf",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

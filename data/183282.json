@@ -1,15 +1,86 @@
 {
+  "anidbId": 18426,
   "bangumiId": 183282,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 692233,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 692234,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 692235,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 693584,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 694987,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 694988,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 694989,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 694990,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 694991,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 694992,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 709616,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 709617,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 104666 是《神明之胄》同一部中国网络动画：剧情、角色、爱奇艺制作背景及杨晓轩等制作人员相符；TMDB 明确记录全剧分为两季，第二季为 12 集。TMDB 第二季集表的 12 个标题与 Bangumi 主体的第 13–24 集逐集对应，因此应映射为该 TV 的第 2 季整季。TMDB 与 Bangumi 的公开播出日期相差约一周，符合会员/非会员延时播出差异，不影响作品身份判断。\n\nhttps://www.themoviedb.org/tv/104666 (api_snapshot): TMDB 详情确认作品名《神明之胄》、首播年份 2015、剧情为小鱼成为图腾战士并对抗九黎部落；全剧 2 季 24 集，制作公司为 iQIYI Pictures，工作人员含杨晓轩。\n\nhttps://www.themoviedb.org/tv/104666/season/2 (api_snapshot): TMDB 实际季表确认第 2 季为 12 集，包含与 Bangumi 第 13–24 集对应的完整标题序列，覆盖 2017 年第二季主体且没有混入其他作品。\n\nhttps://api.bgm.tv/v0/subjects/183282 (api_snapshot): Bangumi 原始 API 确认主体为《神明之胄 第二季》，WEB 动画，2017 年，12 集，剧情和制作人员信息与 TMDB 作品相符。\n\nhttps://www.iq.com/album/19rralji3c (search_snippet): 爱奇艺页面搜索摘要标明《神明之胄 第2季》为 2017 年作品、12 集，并显示与 Bangumi/TMDB 一致的剧情简介。\n\n备注：Bangumi 记录的首播日期为 2017-01-18 至 2017-04-12，而 TMDB 季表记录为 2017-01-11 至 2017-03-29；日期存在约一周偏移，但集标题、剧情和季集数均一致。",
+    "evidence": "codex: 确认对应TMDB 104666第二季整季。年份、剧情、制作背景及12集规模相符，完整集表的12个标题与Bangumi本篇sort 13–24逐一对应，支持连续映射至S02E01–E12，未发现混入其他作品。\n\nhttps://www.themoviedb.org/tv/104666 (api_snapshot): 作品详情确认《神明之胄》为中国动画系列，共两季24集，制作公司含爱奇艺，导演含杨晓轩。第二季为2017年、12集，关于小鱼、九黎部落与龙之心的剧情简介与输入一致。\n\nhttps://www.themoviedb.org/tv/104666/season/2 (api_snapshot): 已读取第二季完整集表，共12集、1页。第1至12集标题与输入的Bangumi sort 13至24逐一一致，仅第7集标题的空格位置不同。TMDB日期为2017-01-11至2017-03-29；逐集比较后，前两集比Bangumi早7天，其余十集早14天。\n\nhttps://www.iq.com/album/19rrb5a56g (search_snippet): 爱奇艺官方搜索摘要将《神明之胄 第2季（繁中）》标为2017年作品，列出1至12集，剧情涉及九黎争夺龙之心、复活蚩尤，与待核对第二季一致。\n\n备注：两站逐集日期存在7至14天差异，原因尚未核实；不能沿用旧映射将其直接解释为会员延时播出。标题、顺序和集数完整吻合，足以确定逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/183282; https://www.themoviedb.org/tv/104666; https://www.themoviedb.org/tv/104666/season/2; https://api.bgm.tv/v0/subjects/183282; https://www.iq.com/album/19rralji3c",
-    "verifiedAt": "2026-09-08T20:22:14.224Z"
+    "source": "https://bgm.tv/subject/183282; https://www.themoviedb.org/tv/104666; https://www.themoviedb.org/tv/104666/season/2; https://www.iq.com/album/19rrb5a56g",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 104666
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

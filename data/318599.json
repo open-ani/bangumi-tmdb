@@ -1,19 +1,81 @@
 {
   "anidbId": 15832,
   "bangumiId": 318599,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1158995,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1158996,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1158997,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1158998,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1158999,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1159000,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1159001,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1159002,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1159003,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1159004,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、制作公司及导演一致，10集标题和日期全部逐项吻合。TMDB 将两季度合并为第1季20集，故将旧映射收窄为第1季第1—10集，与第二季度已占用的第11—20集不重叠。\n\nhttps://www.themoviedb.org/tv/156688 (api_snapshot): TMDB 156688 为2023年1月14日首播的电视动画《火狩りの王》；灯子、煌四与狩猎炎魔获取安全火源的剧情一致，制作公司为 SIGNAL.MD、WOWOW，导演为西村纯二，与输入资料吻合。\n\nhttps://www.themoviedb.org/tv/156688/season/1 (api_snapshot): 第1季实际共20集，已读取完整集表（total_pages=1）。第1—10集的日文标题与播出日期逐项匹配 Bangumi 本篇10集，从2023年1月14日《旅立ち》至3月18日《異形の子ら》；第11集开始于2024年1月14日，属于第二季度，因此本 subject 仅覆盖第1—10集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/318599; https://www.themoviedb.org/tv/156688; https://www.themoviedb.org/tv/156688/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156688
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 10,
       "id": 156688,
       "season": 1,
       "type": "tv"

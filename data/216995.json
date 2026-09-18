@@ -1,16 +1,86 @@
 {
   "anidbId": 13224,
   "bangumiId": 216995,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 728181,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 728182,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 728183,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 728184,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 728185,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 728186,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 728187,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 728188,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 728189,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 728190,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 728191,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 728192,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 页面确认该主体是《無責任ギャラクシー☆タイラー》TV 动画，共 12 话，2017-07-11 开播，制作公司为 Seven，剧情与 TMDB 简介一致。Anime-Lists 的公开条目将 AniDB 13224（Musekinin Galaxy Tylor）关联到 TMDB TV 72817、season 1；TMDB 主条目确认同名作品、2017-07-11 首播、12 集，season 1 也是 12 集。TMDB season 1 的 12 个标题与 Bangumi 章节按顺序对应，因此采用完整第 1 季 1–12 集。TMDB 另列出的 season 0 特别篇不在该 Bangumi 主体的 12 话范围内。\n\nhttps://bgm.tv/subject/216995 (page): Bangumi 确认标题、TV 类型、12 话、2017-07-11 开播、2017-09-26 完结、Seven 制作及主体剧情。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): 条目 anidbid=\"13224\" 的名称为 Musekinin Galaxy Tylor，并关联 tmdbtv=\"72817\"、tmdbseason=\"1\"；这是线索性关联证据。\n\nhttps://www.themoviedb.org/tv/72817 (api_snapshot): TMDB API 快照确认 ID 72817 的日文标题、2017-07-11 首播、相同剧情简介、总集数 12，并列出 season 1 共 12 集及另一个 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/72817/season/1 (api_snapshot): TMDB API 快照确认 season 1 的 episode 1–12 标题；与 Bangumi 的 12 个章节标题按顺序对应。\n\nhttps://www.tvmaze.com/shows/29282/musekinin-galaxy-tylor (search_snippet): 独立检索摘要确认该同名作品为 2017 年播出的 12 集短篇动画，首集 2017-07-11、末集 2017-09-26。\n\n备注：TMDB 个别集的 air_date 与 Bangumi 不完全一致（例如第 4、6、12 集），但标题、总数、首播时间和主体剧情均对应，属于日期元数据差异，不影响季与范围判断。",
+    "evidence": "codex: 年份、TV 短篇媒介、剧情、导演与制作公司均吻合，确认对应 TMDB 72817 第 1 季。12 个章节标题逐集同序对应，支持本篇 1—12 话直接映射至 S01E01—E12；本次范围不包含第 0 季，也不是 1993 年《無責任艦長タイラー》。\n\nhttps://bgm.tv/subject/216995 (page): Bangumi 确认本作是 2017 年 TV 动画，共 12 话，7 月 11 日开播、9 月 26 日结束；导演木村寛，动画制作 Seven。剧情为少年万丈救出冰冻少女戈萨168世后的银河冒险。\n\nhttps://www.themoviedb.org/tv/72817 (api_snapshot): 以日文原名搜索得到 TV 72817；实际读取详情后确认首播日期、剧情、导演木村寛及制作公司与 Bangumi 一致，是 2017 年《無責任ギャラクシー☆タイラー》。第 1 季共 12 集，另列第 0 季。\n\nhttps://www.themoviedb.org/tv/72817/season/1 (api_snapshot): 已读取第 1 季完整集表，total_pages=1，共 12 集，每集 3 分钟。第 1—12 集日文标题与输入的 Bangumi 章节逐集一致，仅前 11 集标题末尾多出斜杠。第 1、2、3、5 集日期一致，其余集存在日期差异；集数和标题顺序均对应。\n\n备注：播出日期存在元数据差异：TMDB 第 4 集比 Bangumi 早 7 天，第 6—10 集晚 1 天，第 11—12 集晚 2 天。差异原因未确认，但完整标题与集数一致，足以确定逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/216995; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/72817; https://www.themoviedb.org/tv/72817/season/1; https://www.tvmaze.com/shows/29282/musekinin-galaxy-tylor",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/216995; https://www.themoviedb.org/tv/72817; https://www.themoviedb.org/tv/72817/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72817
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

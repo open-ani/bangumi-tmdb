@@ -1,14 +1,32 @@
 {
   "anidbId": 9585,
   "bangumiId": 76194,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 286127,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 286127,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 46671,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标记为 1 话 OVA，名称为「未来日記リダイヤル」、发售日为 2013-07-26，并给出与《未来日記》TV 版的前传关联。TMDB TV 46671 的特别篇第 2 集标题正是「未来日記リダイヤル」，日期为 2013-06-19、时长 30 分钟，简介对应由乃在三周目恢复记忆后的故事；第 1 集是另一部 2010 年 OVA，因此不能纳入。本 subject 不应映射到整季或 TV 正篇第 1 季。\n\nhttps://bgm.tv/subject/76194 (page): Bangumi 页面确认这是《未来日記リダイヤル》OVA，1 话，发售日 2013-07-26；章节简介描述三周目由乃取回记忆后的故事，并列出与《未来日記》的系列关联。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 9585 对应为 “Mirai Nikki Redial: Data Ikou”，与该 subject 的 Redial/Data Ikou 版本相符。\n\nhttps://www.themoviedb.org/tv/46671 (api_snapshot): TMDB API 快照确认 ID 46671 是《未来日記》TV 作品，包含特别篇 season 0 和正篇 season 1；正篇为 26 集，不能作为本 OVA 的整季目标。\n\nhttps://www.themoviedb.org/tv/46671/season/0 (api_snapshot): TMDB API 快照确认 season 0 有两集：第 1 集为 2010 年《未来日記》短 OVA，第 2 集为《未来日記リダイヤル》，日期 2013-06-19、时长 30 分钟，简介与 Bangumi subject 对应。\n\n备注：TMDB 将第 2 集日期记为 2013-06-19，而 Bangumi 记为 2013-07-26，可能是不同发行/上线日期；名称、剧情、时长和版本定位均一致。；AniDB 原页面本次无法直接读取，但公开标题索引确认了 ID 9585 与该 Redial/Data Ikou 标题的对应关系。",
+    "evidence": "codex: 确认对应 TMDB 46671 第0季第2集。单话OVA的标题、30分钟时长、三周目由乃恢复记忆的剧情及制作信息一致；日期差异已由官方先行配信与DVD发行公告解释。仅映射章节286127，不包含2010年短篇或TV正篇。\n\nhttps://bgm.tv/ep/286127 (page): Bangumi 章节 286127 为第1话「データ移行」，时长30分钟，日期为2013-07-26。\n\nhttps://www.themoviedb.org/tv/46671 (api_snapshot): TMDB 46671 是2011年动画《未来日記》，制作公司为 asread.，导演为細田直人，与输入制作信息相符；其正篇26集，另设特别篇季。\n\nhttps://www.themoviedb.org/tv/46671/season/0 (api_snapshot): 第0季完整集表共2集、仅1页。第2集「未来日記リダイヤル」日期为2013-06-19、时长30分钟，剧情为由乃追寻遗忘之人并设法重逢；第1集是2010年随漫画第11卷发行的9分钟短篇，属于另一作品。\n\nhttps://future-diary.tv/story/storyredial.html (page): 官方剧情页确认《Redial》动画讲述三周目我妻由乃恢复记忆、前去迎接天野雪辉的过程，由えすのサカエ提供故事构思、高山カツヒコ编剧，作为漫画同捆DVD发行。\n\nhttps://future-diary.tv/info/130531_redial.html (page): 官方公告明确同一部《Redial》动画于2013-06-19在ニコニコ先行配信，DVD同捆版于7月26日发行，解释了TMDB与Bangumi的日期差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/76194; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/46671; https://www.themoviedb.org/tv/46671/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/76194; https://bgm.tv/ep/286127; https://www.themoviedb.org/tv/46671; https://www.themoviedb.org/tv/46671/season/0; https://future-diary.tv/story/storyredial.html; https://future-diary.tv/info/130531_redial.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

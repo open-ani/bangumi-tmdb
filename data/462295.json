@@ -1,13 +1,80 @@
 {
+  "anidbId": 18706,
   "bangumiId": 462295,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1297277,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1297278,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1297279,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1297280,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1297281,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1297282,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1297283,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1297284,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1297285,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1297286,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1297287,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1297288,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1297289,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 196568《是王者啊？》是《王者荣耀》制作的中文 WEB/TV 动画系列，详情列出第3季于2024-06-13开始、13集，季简介与 Bangumi 的“稷下学院、星之队、有求必应互助小组”剧情完全对应。TMDB 第3季实际季表包含1至13集，未混入其他作品或特别篇，因此可映射整季。该条目同时收录第1至第6季，不能使用裸 TV ID，必须指定第3季。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): TMDB 详情：原名《是王者啊？》，中文动画系列，首播2022-03-18；共6季；第3季日期为2024-06-13、13集，简介明确为稷下学院和星之队故事；别名含 Shi Wang Zhe A。\n\nhttps://www.themoviedb.org/tv/196568/season/3 (api_snapshot): TMDB 第3季真实季表：episodeCount=13，episode_number连续覆盖1至13，日期从2024-06-13至2024-07-25，单集约8分钟。\n\nhttps://api.bgm.tv/v0/subjects/462295 (api_snapshot): Bangumi свеж API：标题为《是王者啊？ 第三季》，别名含《是王者啊？ 稷下篇》《是王者啊？ 第三季 有求必应星之队》，平台为WEB，日期2024-06-13，13集；剧情、导演、编剧、制片及王者荣耀/天美制作信息与该系列相符。\n\nhttps://www.iqiyi.com/a_i4z49mofk5.html (page): 爱奇艺页面将该作品列为《是王者啊？第3季》，标示13集全，简介对应稷下学院、星之队和有求必应互助小组。\n\nhttps://bkso.baidu.com/item/%E6%98%AF%E7%8E%8B%E8%80%85%E5%95%8A%EF%BC%9F/59208470?fromModule=lemma_inlink (page): 作品资料页确认该系列为《王者荣耀》出品的彩色游戏改编动画，第三季于2024-06-13上线，并列出第三季第1至第13话标题。",
+    "evidence": "codex: 可确认对应 TMDB 196568 第3季整季：年份、首播日、13集范围、王者荣耀来源及稷下学院星之队剧情一致，季表未显示混入其他作品。逐集日期存在明显冲突，且两边缺少可比对的实际集标题，故仅确认整季归属，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): TMDB 196568 为《王者荣耀》自制日常动画系列《是王者啊？》；第3季标注2024-06-13首播、13集，季简介对应稷下学院、星之队及有求必应互助小组。\n\nhttps://www.themoviedb.org/tv/196568/season/3 (api_snapshot): 实际读取第3季完整集表，total_pages=1，包含第1至13集，季剧情与待核对作品一致。单集均为通用标题且简介为空；日期依次为06-13、06-14、06-20、06-21、06-27、06-28、07-04、07-05、07-11、07-12、07-18、07-19、07-25，与输入的多数章节日期不一致。\n\nhttps://bgm.tv/subject/462295 (page): Bangumi 确认为2024年6月13日开播的13集WEB动画，别名包含稷下篇；制作方为王者荣耀（天美工作室群），导演包括王博、王淼、衣汉森，剧情对应星之队校园互助故事。\n\nhttps://www.iqiyi.com/a_i4z49mofk5.html (page): 爱奇艺将本作列为2024年《是王者啊？第3季》、13集全，明确为王者荣耀角色改编的日常短片动画；剧情为稷下学院星之队故事，并提供独立的第1至13集列表。\n\n备注：输入与TMDB仅第1、3集日期一致，其余11集不同；尚无证据判断是排播版本差异还是元数据错误。；TMDB未提供具体单集标题或剧情，无法独立验证逐集顺序；需补充这些信息或可靠排播记录后再建立rules。；TMDB演职员字段为空，无法直接交叉核对具体制作人员。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/462295; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/3; https://api.bgm.tv/v0/subjects/462295; https://www.iqiyi.com/a_i4z49mofk5.html; https://bkso.baidu.com/item/%E6%98%AF%E7%8E%8B%E8%80%85%E5%95%8A%EF%BC%9F/59208470?fromModule=lemma_inlink",
-    "verifiedAt": "2026-09-09T00:01:28.677Z"
+    "source": "https://bgm.tv/subject/462295; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/3; https://www.iqiyi.com/a_i4z49mofk5.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

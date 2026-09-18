@@ -1,16 +1,86 @@
 {
   "anidbId": 15397,
   "bangumiId": 306876,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 951763,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 951764,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 951765,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 951766,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 951767,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 951768,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 951769,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 951770,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 951771,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 951772,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 951773,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 951774,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 306876 明确是《全职法师Ⅳ/全职法师 第四季》，首播日为 2020-05-27、共 12 集；TMDB TV 70311 的第 4 季同日开播且完整列出 12 集（2020-05-27 至 2020-08-05），与 Bangumi 的主体版本、年份和集数一致。因此应映射为该剧第 4 季的完整一季。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): TMDB TV 70311《全职法师》列出第 4 季，首播日 2020-05-27、共 12 集。\n\nhttps://www.themoviedb.org/tv/70311/season/4 (api_snapshot): TMDB 第 4 季完整返回 12 集，集号 1–12；首集 2020-05-27，末集 2020-08-05。\n\nhttps://bgm.tv/subject/306876 (page): Bangumi subject 306876 的给定资料显示名称为《全职法师Ⅳ/全职法师 第四季》，2020-05-27 开播，共 12 集，且 AniDB 关联状态为 matched、ID 15397。",
+    "evidence": "codex: 确认对应 TMDB 70311 第4季整季，本篇1—12集顺序一一对应。年份、制作方、网络动画版本、完整剧情和集数一致；逐集标题、时长及前六集日期吻合。后六集日期差异可由已公布的6月24日超前点播安排解释，不影响集号对应。\n\nhttps://bgm.tv/subject/306876 (page): Bangumi 将本作列为2020年5月27日开播的网络动画《全职法师》第四季，共12集；原作乱，制作方为福煦影视。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): TMDB 70311 的制作公司包含企鹅影视、阅文集团和福煦影视；第四季为2020年作品，共12集，黑教廷追杀、学府考核、荒城历练及恶魔系觉醒的剧情与本 subject 相符。\n\nhttps://www.themoviedb.org/tv/70311/season/4 (api_snapshot): 第四季集表已完整读取，total_pages=1，共12集，标题依次为第1至第12集。第1—6集日期与 Bangumi 逐集一致；第7—12集记为2020年7月1日至8月5日逐周播出。各集时长与 Bangumi 所列时长的分钟数相符，剧情覆盖本季完整故事。\n\nhttps://bgm.tv/subject/306876/ep (page): Bangumi 章节表含本篇1—12集，标题与 TMDB 对应集号一致；前两集同在5月27日，第3—5集分别在6月3日、10日、17日，第6—12集均记为6月24日。\n\nhttps://comic.sina.com.cn/2020-05-27/doc-iircuyvi5248224.shtml (page): 2020年开播报道确认原作、出品方、制作方与黑教廷及陆年相关剧情；播出安排为每周三更新、VIP抢先看一集，6月24日起可超前点播看到本季结局，解释了后六集的日期差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/306876; https://www.themoviedb.org/tv/70311; https://www.themoviedb.org/tv/70311/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/306876; https://www.themoviedb.org/tv/70311; https://www.themoviedb.org/tv/70311/season/4; https://bgm.tv/subject/306876/ep; https://comic.sina.com.cn/2020-05-27/doc-iircuyvi5248224.shtml",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 70311
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

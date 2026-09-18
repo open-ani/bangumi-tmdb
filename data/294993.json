@@ -1,21 +1,176 @@
 {
   "anidbId": 15275,
   "bangumiId": 294993,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 978053,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 978054,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 978055,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 978056,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 978057,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 978058,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 978059,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 978060,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 978061,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 978062,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 978063,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 978064,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 995457,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 995458,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 995459,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 995460,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 995461,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 995462,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 995463,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 995464,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 995465,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 995466,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 995467,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 995468,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 998294,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 998294,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 95479,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认2020年TV第一期的身份及全部25个章节对应关系。本篇24集的标题、顺序与放送日期逐集吻合，日期差异符合深夜节目营业日与自然日记法。当前TMDB将后续作品并入第1季，故将旧映射收窄至S01E01–E24；新春特别节目单独对应S00E01。\n\nhttps://www.themoviedb.org/tv/95479 (api_snapshot): 日文原名搜索命中 TV 95479；详情确认其为2020年首播、芥见下下原作、MAPPA参与制作的电视动画，虎杖吞下宿傩手指并进入咒术高专的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/95479/season/1 (api_snapshot): 第1季实际包含59集，集表共1页。前24集标题与Bangumi本篇逐集一致，仅有标点差异；日期全部比Bangumi晚一天，范围为2020-10-03至2021-03-27。第25集开始为2023年的续作，因此只能映射第1季第1至24集，不能映射整季。\n\nhttps://www.themoviedb.org/tv/95479/season/0 (api_snapshot): 第0季共10集，集表共1页。第1集为同名新春特别节目，日期2021-01-09，简介中的榎木淳弥、木村昴出演信息与官方公告一致。\n\nhttps://jujutsukaisen.jp/episodes/index_1st.php (page): 官网第一期集表明确列出第1至24集，全部标题及编号与Bangumi本篇及TMDB第1季前24集对应。\n\nhttps://jujutsukaisen.jp/news/20201225_03.php (page): 官方公告确认新春特别节目于2021年1月8日深夜1时55分播出，第14集于1月15日深夜1时25分播出；换算自然日分别为1月9日、1月16日，解释了Bangumi与TMDB的一天日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/294993; https://www.themoviedb.org/tv/95479; https://www.themoviedb.org/tv/95479/season/1; https://www.themoviedb.org/tv/95479/season/0; https://jujutsukaisen.jp/episodes/index_1st.php; https://jujutsukaisen.jp/news/20201225_03.php",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 95479
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 24,
       "id": 95479,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 95479,
+      "season": 0,
       "type": "tv"
     }
   ]

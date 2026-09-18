@@ -1,20 +1,125 @@
 {
+  "anidbId": 16859,
   "bangumiId": 231526,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 809548,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 809549,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 809550,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 809551,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 809552,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 809553,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 809554,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 809555,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 809556,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 809557,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 809558,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 809559,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 809560,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 809561,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 809562,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 809563,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 809564,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 809565,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 809566,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 809567,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 964203,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 194991 与 Bangumi 的作品名、剧情、导演山药Gon及中国网络短篇动画身份一致。Bangumi 的 20 集正片加 1 个特别篇，正好对应 TMDB 第一季实际列出的 21 集；其中第 1–20 集是正片，第 21 集为番外。Bangumi 日期 2017-04-24 是首条短视频发布时间，而 TMDB 的 2017-09-29 与第一季正式上线时间一致。未采用 TMDB 157877，因为它是 2020 年的《獭獭突然想到》特别系列。\n\nhttps://api.bgm.tv/v0/subjects/231526 (api_snapshot): Bangumi API 记录该 subject 为 WEB 动画，导演山药Gon，20 集正片、总计 21 集，并附有 1 个特别篇。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): TMDB 194991 名称为《Gon的旱獭》，首播 2017-09-29，剧情与 Bangumi 摘要一致，工作人员包含山药Gon，系列共 3 季。\n\nhttps://www.themoviedb.org/tv/194991/season/1 (api_snapshot): TMDB 第一季实际有 21 集，日期为 2017-09-29，集号为 1–20 及“番外1”，因此覆盖 Bangumi 的 20 集正片和 1 个特别篇。\n\nhttps://bkso.baidu.com/item/Gon%E7%9A%84%E6%97%B1%E7%8D%AD/22179037?fromModule=lemma_inlink (page): 资料区分了 2017-04-24 发布首条短视频与 2017-09-29 第一季正式开播，并记载第一季 20 集、另有特别篇。\n\nhttps://www.themoviedb.org/tv/157877 (api_snapshot): TMDB 157877 是 2020-07-08 开播的《獭獭突然想到》，为另一个特别系列，不是本 subject 的 2017 年第一季。",
+    "evidence": "codex: 可确认对应TMDB 194991第一季：年份、导演、剧情、短篇动画形式及20集正片加1番外的范围一致，未发现混入续季或2020年衍生系列。仅确认整季归属；TMDB缺少具体集标题及摘要，现有日期也不能逐集对齐，因此不生成按位置推定的rules或番外override。\n\nhttps://www.themoviedb.org/tv/194991 (api_snapshot): TMDB 194991 为2017年的《Gon的旱獭》，导演为山药Gon，懒惰旱獭的黑色幽默日常剧情与输入一致；第一季21集，第二、三季分别对应2018、2019年的续作。\n\nhttps://www.themoviedb.org/tv/194991/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1：第1—20集均为通用集名，第21集名为“番外1”。第1—8集日期为2017-09-29至2017-11-17，每周一集；第9—21集日期为空，全部无剧情摘要。\n\nhttps://bkso.baidu.com/item/Gon%E7%9A%84%E6%97%B1%E7%8D%AD/22179037?fromModule=lemma_inlink (search_snippet): 资料记载2017-04-24发布首条短视频《喝可乐》，2017-09-29第一季上线，共20集、每集约1分钟；2020年的《獭獭突然想到》属于另外的特别篇系列。\n\nhttps://moegirl.uk/Gon%E7%9A%84%E6%97%B1%E7%8D%AD (search_snippet): 分集资料将本作第一期列为20集加1番外；第9—20话标题与输入对应，番外为《冬天最大敌人不是严寒是静电！》，日期2018-02-25。资料中的原始发布日期与TMDB前8集排期不同。\n\n备注：正片逐集顺序尚缺TMDB侧可辨识的标题、剧情或其他直接证据，不能仅凭双方各有20集认定一一对应。；TMDB第21集仅标“番外1”，缺少具体标题和日期，暂不将Bangumi章节964203绑定至该集。；4月首次短视频发布与9月第一季上线可解释作品首播日期差异，但不足以验证TMDB前8集的逐集日期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/231526; https://api.bgm.tv/v0/subjects/231526; https://www.themoviedb.org/tv/194991; https://www.themoviedb.org/tv/194991/season/1; https://bkso.baidu.com/item/Gon%E7%9A%84%E6%97%B1%E7%8D%AD/22179037?fromModule=lemma_inlink; https://www.themoviedb.org/tv/157877",
-    "verifiedAt": "2026-09-08T21:12:15.120Z"
+    "source": "https://bgm.tv/subject/231526; https://www.themoviedb.org/tv/194991; https://www.themoviedb.org/tv/194991/season/1; https://bkso.baidu.com/item/Gon%E7%9A%84%E6%97%B1%E7%8D%AD/22179037?fromModule=lemma_inlink; https://moegirl.uk/Gon%E7%9A%84%E6%97%B1%E7%8D%AD",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 21,
       "id": 194991,
       "season": 1,
       "type": "tv"

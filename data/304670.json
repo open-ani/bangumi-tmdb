@@ -1,15 +1,106 @@
 {
+  "anidbId": 15667,
   "bangumiId": 304670,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 945218,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 945219,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 945220,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 945221,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 945222,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 945223,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 945224,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 945225,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 945226,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 945227,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 945228,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 945229,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 945230,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 945231,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 945232,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 945233,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认对应 TMDB TV 作品 105910 的第2季，而非第1季或另一个重复条目。TMDB 详情显示该系列制作公司包括腾讯企鹅影视、同明宣工作室和众策影业，导演/编剧胡鉴之及编剧季平常、洛小酒与 Bangumi 信息吻合；第2季日期为2020-04-26，简介明确写作《观海策之铁骑雄关》，剧情与凌遥、姬匡、徐谷关求援及铁骑雄关主线一致。TMDB实际季表第2季共16集、只有1页，集名与 Bangumi 的16集逐一对应，因此使用完整第2季范围。105910的第1季是2018年的《观海策之北地风烟》，已排除。TMDB 113479虽有2020年条目，但详情缺少简介和制作人员，季集名为泛化的“第X集”，且季日期排列异常，不能作为首选身份。\n\nhttps://www.themoviedb.org/tv/105910 (api_snapshot): TMDB详情确认作品类型为TV、系列首播2018-06-17、共2季各16集；第2季简介明确为《观海策之铁骑雄关》，并列出腾讯企鹅影视、同明宣工作室、众策影业及相关导演编剧。\n\nhttps://www.themoviedb.org/tv/105910/season/2 (api_snapshot): TMDB第2季实际季表共16集、total_pages=1，日期为2020-04-26至2020-08-09，16个集名与 Bangumi 快照逐一对应。\n\nhttps://api.bgm.tv/v0/subjects/304670 (api_snapshot): Bangumi fresh API确认标题《观海策之铁骑雄关》、WEB媒介、2020-04-26、16集，以及凌遥、姬匡、徐谷关求援等剧情和同明宣制作信息。\n\nhttps://www.dianyingjie.com.cn/2020/0427/47563.shtml (search_snippet): 报道确认《观海策》第二季《铁骑雄关》于2020-04-26上线腾讯视频，并描述凌遥、姬匡为主角及边关求援主线。\n\nhttps://www.themoviedb.org/tv/113479 (api_snapshot): 另一候选的TMDB详情为空简介、无制作公司和演职员，虽有两个16集季但身份信息不足且日期异常，未采用。\n\n备注：TMDB第2季部分单集播出日期与 Bangumi 快照的日期记录存在错位，但集名、版本身份和16集范围完全对应，不影响本次匹配。",
+    "evidence": "codex: 确认对应TMDB 105910《观海策》第2季。年份、季度副标题、剧情、制作人员和16集范围相符；16个章节标题逐一完全对应，支持Bangumi第1—16话映射至S02E01—E16。2018年第1季属于前作，不纳入本次范围。\n\nhttps://www.themoviedb.org/tv/105910 (api_snapshot): 作品详情确认系列首播于2018年；第2季首播于2020-04-26，共16集，简介明确指向《观海策之铁骑雄关》及凌遥、姬匡突破包围前往君山国求援的故事。制作公司同明宣、腾讯企鹅影视及导演胡鉴之、编剧洛小酒和季平常与输入相符。\n\nhttps://www.themoviedb.org/tv/105910/season/2 (api_snapshot): 实际读取第2季完整集表，共16集，total_pages=1。第1至16集标题与输入的Bangumi章节逐一完全一致，顺序一致，无其他作品混入。首集日期一致，其余集存在日期偏移。\n\nhttps://bangumi.tv/subject/304670 (search_snippet): Bangumi搜索结果确认本作是2020-04-26开播的16集WEB动画，别名为《观海策 第二季》，由同明宣制作、胡鉴之执导，剧情与TMDB第2季相符。\n\nhttps://www.themoviedb.org/tv/113479 (api_snapshot): 同名候选113479缺少简介、制作公司和演职员信息，系列首播日期为2020-11-20，晚于其第2季标注日期；不足以取代身份与逐集标题均得到确认的105910。\n\n备注：播出日期记录存在差异：TMDB第2—6集比Bangumi晚7天，第7—16集晚14天，末集分别为2020-08-09与2020-07-26。差异原因尚未核实；全部集标题及顺序一致，故不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/304670; https://www.themoviedb.org/tv/105910; https://www.themoviedb.org/tv/105910/season/2; https://api.bgm.tv/v0/subjects/304670; https://www.dianyingjie.com.cn/2020/0427/47563.shtml; https://www.themoviedb.org/tv/113479",
-    "verifiedAt": "2026-09-08T21:58:42.777Z"
+    "source": "https://bgm.tv/subject/304670; https://www.themoviedb.org/tv/105910; https://www.themoviedb.org/tv/105910/season/2; https://bangumi.tv/subject/304670; https://www.themoviedb.org/tv/113479",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 105910
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

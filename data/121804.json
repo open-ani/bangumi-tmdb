@@ -1,18 +1,37 @@
 {
   "bangumiId": 121804,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 464126,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 464126,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45275,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 45275 第0季第1集。特别碟名、未放送章节标题、发行日期、单集数量及制作人员相互吻合；映射覆盖其中的动画一话，不包含附带的声优活动影像。\n\nhttps://www.themoviedb.org/tv/45275 (api_snapshot): TMDB 45275 是2012年7月首播的《アルカナ・ファミリア》，制作公司为 J.C.STAFF，导演今千秋，主要角色及声优与特别碟官方资料一致。\n\nhttps://www.themoviedb.org/tv/45275/season/0 (api_snapshot): 已读取第0季日文及英文完整集表，共1集、1页。第1集英文标题为 La Prima Festa，日期2013-03-27，时长24分钟，简介明确为该动画的未放送集。\n\nhttps://www.fwinc.co.jp/bd_dvd/33295/ (page): 发行方确认 La prima festa 于2013-03-27发行，包含2012年TV动画的未放送新作1话及另附的声优活动影像；导演今千秋、动画制作 J.C.STAFF。\n\nhttps://www.karatetsu.com/animegame/fwinc/arcana.shtml (search_snippet): 宣传资料明确未放送动画副标题为 Capriccio - stile Arcana Famiglia，并确认收录于2013-03-27发行的 La prima festa，与输入的唯一章节标题对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/121804; https://www.themoviedb.org/tv/45275; https://www.themoviedb.org/tv/45275/season/0; https://www.fwinc.co.jp/bd_dvd/33295/; https://www.karatetsu.com/animegame/fwinc/arcana.shtml",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 45275,
       "season": 0,
       "type": "tv"

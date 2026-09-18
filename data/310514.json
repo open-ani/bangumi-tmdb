@@ -1,13 +1,86 @@
 {
+  "anidbId": 10057,
   "bangumiId": 310514,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 965225,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 965225,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 2,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 3,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 4,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 5,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 6,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 7,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 8,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 9,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        },
+        {
+          "episode": 10,
+          "id": 210061,
+          "season": 7,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认这是2013年6月发行的《Peeping Life 手塚プロ・タツノコプロ ワンダーランド》OVA：50分钟、全1卷，剧情是Peeping Life与手塚/タツノコ角色合作，制作相关方包括FOREST Hunting One、CoMix Wave Films、手塚制作与タツノコプロ。官方DVD资料明确列出本篇10个短篇，另有独立特典映像。TMDB的Peeping Life条目210061包含7季，S7实际季表为10集；官方称该OVA为Peeping Life第7弹，因此将其对应为S7整季。TMDB的2015年12集TV条目及2014年59分钟剧场版均是其他版本，未采用。季号与“第7弹”的对应属于基于官方编号、作品内容和TMDB季数的交叉核对推断；TMDB季表中的集名和日期本身较简略。\n\nhttps://tatsunoko.co.jp/works/peeping-life-tezuka-tatsunoko-wonder-land/ (page): 官方资料确认标题、OVA媒介、50分钟、全1卷、2013年6月发行，以及Peeping Life与手塚/タツノコ角色合作和版权制作方。\n\nhttps://www.cwfilms.jp/peeping/category/dvd_cd/ (page): 官方DVD资料列出该版本本篇10个短篇，特典另计；本篇约50分钟加特典10分钟，发行日为2013年6月25日。\n\nhttps://prtimes.jp/main/html/rd/p/000000066.000002423.html (page): 2013年官方发行公告称该作品是Peeping Life第7弹，并明确为手塚プロ・タツノコプロ合作版本。\n\nhttps://www.themoviedb.org/tv/210061 (api_snapshot): TMDB详情确认Peeping Life TV条目210061、7季共71集、导演Ryouichi Mori及CoMix Wave Films制作信息。\n\nhttps://www.themoviedb.org/tv/210061/season/7 (api_snapshot): TMDB实际S7季表确认共有10集，且该季表完整返回、无分页遗漏。\n\nhttps://www.themoviedb.org/tv/93073 (api_snapshot): TMDB详情显示Peeping Life TV为2015年TV版本、12集，且制作方包含手塚制作和タツノコプロ；与2013年OVA版本不同。\n\nhttps://www.themoviedb.org/movie/602105 (api_snapshot): TMDB详情显示Peeping Life－WE ARE THE HERO－为2014年59分钟剧场版，属于另一版本。\n\n备注：TMDB S7的10集仅使用“第1话”至“第10话”等泛化集名，没有直接标注Wonderland标题；S7对应官方“第7弹”是基于官方编号、10个本篇短篇及Peeping Life主条目7季结构的交叉推断。",
+    "evidence": "codex: 确认对应TMDB 210061第7季整季。英文季名明确标注本版本，且10个实际集标题与官方DVD本篇目录逐项、同序吻合，已超出旧映射仅凭“第7弹”推断的证据强度。Bangumi将50分钟单卷记为1话，TMDB拆为10个短篇，因此用override将章节965225按顺序对应S7E1—E10。该季不含官方另列的特典。\n\nhttps://tatsunoko.co.jp/works/peeping-life-tezuka-tatsunoko-wonder-land/ (page): 龙之子官方确认本作为2013年6月发行的OVA，全1卷、50分钟；内容为Peeping Life与手塚、龙之子角色合作，版权方包含手塚制作、龙之子、FOREST Hunting One及CoMix Wave Films。\n\nhttps://www.cwfilms.jp/peeping/category/dvd_cd/ (page): 发行方确认2013年6月25日发售，本篇50分钟、10个短篇，另有10分钟特典。官方本篇目录与TMDB第7季英文集名逐项对应：卡夏恩诞生、博亚基捡到机械狗、时尚喷嚏大魔王、刚与美智驾车约会、阿童木叛逆、缎带骑士的烦恼、写乐首次便利店打工、火箭大使与怪医黑杰克、海王子与卡夏恩及露卡、博亚基与怪医黑杰克。\n\nhttps://prtimes.jp/main/html/rd/p/000000066.000002423.html (page): 万代频道2013年配信公告明确称Wonderland为Peeping Life第7弹；此编号仅作辅助证据。\n\nhttps://www.themoviedb.org/tv/210061 (api_snapshot): TMDB 210061为Peeping Life，制作公司为CoMix Wave Films，导演为森りょういち，共7季71集；第7季为10集。\n\nhttps://www.themoviedb.org/tv/210061/season/7 (api_snapshot): 实际读取第7季日文及英文集表，均完整返回10集，total_pages=1。英文季名明确为Tezuka Productions, Tatsunoko Pro Wonderland，10集标题与官方DVD本篇目录顺序全部对应；日文仅显示泛化集名。各集日期、时长和简介为空。\n\nhttps://www.themoviedb.org/tv/93073 (api_snapshot): TMDB 93073为2015年10月4日开播、共12集的Peeping Life TV，与2013年OVA版本不同。\n\nhttps://www.themoviedb.org/movie/602105 (api_snapshot): TMDB 602105为2014年11月15日发行、59分钟的WE ARE THE HERO，标题、年份及内容均属于另一版本。\n\n备注：TMDB第7季及各集缺少日期、时长，无法独立交叉核对发行日期；版本确认依据官方发行资料、明确季名及完整短篇目录匹配。",
     "method": "codex",
     "source": "https://bgm.tv/subject/310514; https://tatsunoko.co.jp/works/peeping-life-tezuka-tatsunoko-wonder-land/; https://www.cwfilms.jp/peeping/category/dvd_cd/; https://prtimes.jp/main/html/rd/p/000000066.000002423.html; https://www.themoviedb.org/tv/210061; https://www.themoviedb.org/tv/210061/season/7; https://www.themoviedb.org/tv/93073; https://www.themoviedb.org/movie/602105",
-    "verifiedAt": "2026-09-08T22:07:57.485Z"
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

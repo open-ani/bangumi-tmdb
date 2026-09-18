@@ -1,19 +1,91 @@
 {
   "anidbId": 16036,
   "bangumiId": 327055,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1040816,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1040817,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1040818,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1040819,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1040820,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1040821,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1040822,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1040823,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1040824,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1040825,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1040826,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1040827,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、TV媒介、剧情、导演及12话标题和播出日期均吻合。该subject对应TMDB 117992第1季第1—12集；整季包含后续两期，须将旧映射的整季范围收窄，避免与其他subject重叠。\n\nhttps://www.themoviedb.org/tv/117992 (api_snapshot): TMDB 117992 为同名日本电视动画，首播日期为2021-07-04，导演为山川吉樹；受触碰致死诅咒的少爷与女仆爱丽丝的剧情、英文别名均与输入一致。\n\nhttps://www.themoviedb.org/tv/117992/season/1 (api_snapshot): 已读取第1季完整集表，共36集、1页。第1—12集的日文标题及播出日期与输入12话逐集完全一致，日期范围为2021-07-04至2021-09-19。第13集始于2023-07-09，第25集始于2024-04-07，后续季度合并在同一TMDB季中。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/327055; https://www.themoviedb.org/tv/117992; https://www.themoviedb.org/tv/117992/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 117992
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 117992,
       "season": 1,
       "type": "tv"

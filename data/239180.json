@@ -1,15 +1,76 @@
 {
+  "anidbId": 13203,
   "bangumiId": 239180,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 785152,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 785153,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 785154,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 885527,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 885528,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 885529,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 885530,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 885531,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 885532,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 885533,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 96117《おしりたんてい》（Oshiri Tantei / Butt Detective）。TMDB 详情的首播日为 2018-05-03，媒介为日本动画 TV，制作公司为东映动画，导演芝田浩樹；剧情、角色和制作信息与 Bangumi 及官方资料一致。TMDB Season 1 的第 1—10 集标题逐一对应 Bangumi 主体的 10 集，因此应映射为 S1E1-E10，而不是整季。该 TMDB 条目将后续大量集数也放在同一 Season 1，且详情总集数与季表集数存在不一致，所以只推荐已核实的闭区间。\n\nhttps://www.themoviedb.org/tv/96117 (api_snapshot): TMDB 详情确认 96117 为《おしりたんてい》TV，首播 2018-05-03；列出 Toei Animation、导演芝田浩樹、编剧高橋ナツコ、三瓶由布子等主要配音及别名。\n\nhttps://www.themoviedb.org/tv/96117/season/1 (api_snapshot): TMDB Season 1 实际集表第 1—10 集标题依次对应 Bangumi 的 10 集，包括第 1 集首次登场、第 4—5 集窃盗团前后篇、第 8—9 集紫夫人密码事件前后篇及第 10 集考拉登场；季表显示 total_pages=3，因此未将第一页误作整季。\n\nhttps://oshiri-tantei.com/story/story01.html (page): 官方动画网站确认第 1 集标题及剧情：屁屁侦探与助手 Brown 调查点心盗窃案，和 TMDB/Bangumi 的首集内容一致。\n\nhttps://www.poplar.co.jp/topics/44248.html (page): 原作出版社确认动画于 2018-05-03、05-04、05-05 在 NHK Eテレ连续播出前三集，并列出前三集标题及屁屁侦探与 Brown 共同破案的设定。\n\n备注：TMDB Season 1 的部分集日期与 Bangumi 日期不完全一致，例如第 8—10 集；但集标题、顺序、剧情和版本身份一致，因此不影响 S1E1-E10 的映射。；TMDB 详情显示总集数 123，而 Season 1 集表显示 131，属于 TMDB 数据内部不一致；本推荐未使用整季范围。",
+    "evidence": "codex: 确认对应2018年电视动画《屁屁侦探》TMDB 96117第1季第1—10集。作品身份、全部10集标题与顺序，以及出版社和同期放送公告支持连续一一对应。TMDB将后续批次继续收录在同季，因此不能映射整季；本范围与给定其他subject的占用范围不冲突。\n\nhttps://www.themoviedb.org/tv/96117 (api_snapshot): 日文原名及英文别名检索均找到 TV 96117。详情确认原名《おしりたんてい》、首播日2018-05-03、东映动画制作、导演芝田浩樹，主演三瓶由布子和齋藤彩夏；年份、媒介、制作人员与角色均吻合。\n\nhttps://www.themoviedb.org/tv/96117/season/1 (api_snapshot): 实际读取第1季第1页集表：第1—10集标题逐一对应输入的10集，前7集日期也完全一致。第4—5集为窃盗团前后篇，第8—9集为紫夫人暗号事件前后篇，第10集为考拉活跃篇。该季显示131集、total_pages=3，后续包含其他批次，故仅采用已读取的第1—10集。\n\nhttps://www.poplar.co.jp/topics/44248.html (page): 原作出版社公告确认NHK Eテレ于5月3、4、5日每日播出一集，每集20分钟；前三集标题、侦探与助手Brown共同破案的剧情及配音人员均与TMDB相符。\n\nhttps://www.oricon.co.jp/news/2112723/full/ (search_snippet): 2018年6月发布的放送公告逐集列出第4—10集标题及日期：7月14、21、28日，8月4、11、18、25日，全部与Bangumi一致；其中第8—10集标题及编号亦与TMDB一致，可确认其日期字段虽有差异，仍是相同章节。\n\n备注：TMDB第8—10集日期分别为2018-08-25、2018-12-01、2018-12-08，与Bangumi及同期放送公告的2018-08-11、2018-08-18、2018-08-25不符；标题及明确集号一致，判断为日期字段差异，不影响章节对应。；TMDB详情总集数为123，季表为131，存在内部统计差异；本次仅映射已核实的前10集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/239180; https://www.themoviedb.org/tv/96117; https://www.themoviedb.org/tv/96117/season/1; https://oshiri-tantei.com/story/story01.html; https://www.poplar.co.jp/topics/44248.html",
-    "verifiedAt": "2026-09-08T21:16:01.985Z"
+    "source": "https://bgm.tv/subject/239180; https://www.themoviedb.org/tv/96117; https://www.themoviedb.org/tv/96117/season/1; https://www.poplar.co.jp/topics/44248.html; https://www.oricon.co.jp/news/2112723/full/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 96117
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,51 @@
 {
   "anidbId": 11740,
   "bangumiId": 151345,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 586119,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 586120,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 586121,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 586122,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本subject对应2015—2016年首期四话网络动画，即TMDB 64809第1季第1—4集。制作人员、剧情、集标题和配信日期相符；第4话日期差异已由官方先行配信公告解释。TMDB将2017年续篇并入同季第5—8集，因此旧映射需收窄至第1—4集。\n\nhttps://www.themoviedb.org/tv/64809 (api_snapshot): TMDB 64809 首播于2015-12-25，由SUNRISE制作、松尾衡执导；伊欧与达里尔在雷霆宙域交战的剧情与本subject一致。条目共1季8集。\n\nhttps://www.themoviedb.org/tv/64809/season/1 (api_snapshot): 已读取第1季完整集表，共8集、1页。第1—4集标题分别为第1話至第4話，日期为2015-12-25、2016-02-12、2016-03-18、2016-04-22；前三话标题与日期均与输入一致。第5—8集于2017年播出，不属于本subject。\n\nhttps://www.sunrise-world.net/news/news_ttl.php?offset=110&title_id=451 (page): SUNRISE官方公告确认第4话于2016-04-08开始在高达粉丝俱乐部先行配信，解释了Bangumi第4话日期与TMDB的差异。\n\nhttps://www.sunrise-inc.co.jp/work/news.php?id=10480 (page): SUNRISE确认第4话于2016-04-22正式付费配信并完结，全篇共4话；DECEMBER SKY为四话加入新镜头的导演剪辑版，2016-06-25上映，属于另一版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/151345; https://www.themoviedb.org/tv/64809; https://www.themoviedb.org/tv/64809/season/1; https://www.sunrise-world.net/news/news_ttl.php?offset=110&title_id=451; https://www.sunrise-inc.co.jp/work/news.php?id=10480",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 64809
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 4,
       "id": 64809,
       "season": 1,
       "type": "tv"

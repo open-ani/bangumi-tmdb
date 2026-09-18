@@ -1,16 +1,86 @@
 {
   "anidbId": 12557,
   "bangumiId": 198707,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 753145,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 753146,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 753147,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 753148,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 753149,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 753150,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 753151,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 753152,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 753153,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 753154,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 753155,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 753156,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为2017年10月6日开始、共12话的《大正メビウスライン ちっちゃいさん》，其 AniDB ID 12557 及别名与该作品匹配。TMDB TV 74355 标题、原名、首播日期和日语/日本信息一致；第1季同样于2017年10月6日开始，共12集，完整集数标题、日期和剧情简介与 Bangumi 的12话主体对应。因此应映射为完整第1季。TMDB 第0季为2018年的额外特别篇，不属于本 subject 主体，故不纳入。\n\nhttps://bgm.tv/subject/198707 (page): Bangumi 记录标题为“大正メビウスライン ちっちゃいさん”，日期为2017-10-06，主体共12话，并关联 AniDB ID 12557。\n\nhttps://www.themoviedb.org/tv/74355 (api_snapshot): TMDB TV 74355 的标题、原名均为“大正メビウスライン ちっちゃいさん”，首播日期为2017-10-06，日语、日本、共12集；另有2018年的第0季特别篇。\n\nhttps://www.themoviedb.org/tv/74355/season/1 (api_snapshot): TMDB 第1季首播日期为2017-10-06，共12集；第1至12集的标题、日期和剧情简介与该12话动画主体连续对应。",
+    "evidence": "codex: 确认为 TMDB 74355 第1季整季。年份、TV短篇媒介、制作公司、导演、角色剧情和12话播出范围一致；官方逐话编号、标题及剧情与 TMDB 全季集表对应，支持 Bangumi 本篇1—12话连续映射至 S01E01—E12。第0季特别篇不属于本 subject 的12话主体。\n\nhttps://bgm.tv/subject/198707 (page): Bangumi 标注为2017年10月6日至12月22日播出的12话TV动画，导演渡部周、动画制作 studio A-CAT；剧情涉及柊京一郎赴帝都求学及军方利用死灵。\n\nhttps://www.themoviedb.org/tv/74355 (api_snapshot): TMDB 74355 的日文原名、首末播日期、12集总量、导演渡部周及制作公司 Studio A-CAT 均一致；角色和声优亦对应。季列表将2018年的1集特别篇单列为第0季。\n\nhttps://www.themoviedb.org/tv/74355/season/1 (api_snapshot): 已读取第1季完整集表，共12集、仅1页；第1至12集于2017年10月6日至12月22日每周五连续播出，每集3分钟。全部集号、日文标题及剧情与官方故事页逐集一致，第1集标题也与输入中的 Bangumi 章节一致。\n\nhttps://holicworks.jp/mebius-anime/story.html (page): 官方故事页明确列出第1至12话的编号、标题和剧情，确认是角色变成可爱小人形态的短篇动画版本；其顺序与 TMDB 第1季完全一致。\n\nhttps://www.animatetimes.com/tag/details.php?id=4776 (search_snippet): Animate Times 记载该作为全12话TV动画，播出期间为2017年10月6日至12月22日，并列出与 TMDB 相符的导演及主要角色声优。\n\n备注：输入中的 Bangumi 第2—12话标题及所有逐话日期为空；逐集顺序通过官方编号故事表与 TMDB 集表交叉确认，未将缺失字段表述为已直接比对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/198707; https://www.themoviedb.org/tv/74355; https://www.themoviedb.org/tv/74355/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/198707; https://www.themoviedb.org/tv/74355; https://www.themoviedb.org/tv/74355/season/1; https://holicworks.jp/mebius-anime/story.html; https://www.animatetimes.com/tag/details.php?id=4776",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74355
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

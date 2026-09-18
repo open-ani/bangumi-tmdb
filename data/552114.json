@@ -1,13 +1,49 @@
 {
   "bangumiId": 552114,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1490063,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1490064,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1490065,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1490066,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1490067,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1490068,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1490069,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品版本、第二季发布日期、Hulu 播放平台及7集范围相符，可确认 subject 覆盖 TMDB 136322 第二季整季。Bangumi 的7个章节均缺少标题及日期，无法逐条核对，因此不按位置猜测生成 rules。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 为 DreamWorks Animation Television 制作的英语动画剧集《Dragons: The Nine Realms》，剧情发生于《驯龙高手》故事的1300年后。第二季于2022年5月5日推出，共7集；前后季日期亦与输入的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1：第1至7集依次为 Uniconned、Magma Breather、Dragons of the Undead、Downpour、The Tangled Web、Follow the Lightning (1)、Follow the Lightning (2)，日期均为2022年5月5日，没有混入其他季。\n\nhttps://www.youtube.com/watch?v=OwNa3M82GVI (search_snippet): Hulu 官方第二季预告于2022年4月21日发布，明确宣布5月5日上线；简介涉及 ICARIS、Tom、Thunder 与隐藏龙族的秘密，与 TMDB 的人物和剧情背景一致。\n\nhttps://www.imdb.com/title/tt15758116/episodes/?season=2) (search_snippet): IMDb 第二季集表列出相同的7集标题、顺序与2022年5月5日上线日期，与 TMDB 季表一致。\n\nhttps://www.imdb.com/title/tt19881602/ (search_snippet): 输入线索 tt19881602 实际对应第二季首集 Uniconned，而非整个第二季或整部剧，不能直接作为整季身份依据。\n\n备注：Bangumi 页面及章节页访问失败；章节信息依据用户提供的快照。需补充 Bangumi 各章标题或日期，才能可靠建立逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/552114; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/2; https://www.youtube.com/watch?v=OwNa3M82GVI; https://www.imdb.com/title/tt15758116/episodes/?season=2); https://www.imdb.com/title/tt19881602/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

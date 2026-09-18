@@ -1,16 +1,146 @@
 {
   "anidbId": 6267,
   "bangumiId": 1445,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 5180,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 5181,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 5182,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 5183,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 5184,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 5185,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 5186,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 5187,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 5188,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 5189,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 5190,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 5191,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 8374,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 8375,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 8376,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 8377,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 8378,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 8379,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 8380,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 8381,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 8382,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 8383,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 8384,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 8385,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi《香格里拉》为2009年4月5日开始、24集的TV动画，AniDB关联为6267且标题与《シャングリ・ラ》匹配。TMDB TV 27008的首播日期同为2009年4月5日，剧情简介、日文标题和制作版本一致；第1季明确包含24集，剧集标题与Bangumi第1至24集逐集对应，因此采用完整第1季。\n\nhttps://bgm.tv/subject/1445 (page): Bangumi主体为《シャングリ・ラ／香格里拉》，2009年4月5日开始，共24集，关联AniDB ID 6267。\n\nhttps://www.themoviedb.org/tv/27008 (api_snapshot): TMDB TV 27008标题为《シャングリ・ラ》，首播日期为2009-04-05，共24集；简介描述与该动画主体一致。\n\nhttps://www.themoviedb.org/tv/27008/season/1 (api_snapshot): TMDB第1季首播日期为2009-04-05，共24集；第1至24集标题逐项对应Bangumi剧集，包括《少女帰還》《池袋呪海》至《理想郷土》。",
+    "evidence": "codex: 确认对应TMDB 27008第1季完整24集。年份、电视动画版本、剧情、导演、制作公司及首末播日期一致，全部24话标题与顺序逐项吻合，可建立本篇1—24话的一对一连续映射。\n\nhttps://www.themoviedb.org/tv/27008 (api_snapshot): 日文原名搜索命中后读取详情：TMDB 27008 为2009年电视动画，首末播日期为2009-04-05、2009-09-13，共1季24集；导演別所誠人、动画制作GONZO，以及森林化东京、阿特拉斯与北条国子的剧情均与输入吻合。\n\nhttps://www.themoviedb.org/tv/27008/season/1 (api_snapshot): 已读取第1季全部24集，分页共1页。逐集标题与Bangumi第1—24话依次对应；第23话仅存在“崩壞序曲／崩壊序曲”的字形差异。首集为“少女帰還”，末集为“理想郷土”，日期覆盖2009-04-05至2009-09-13，未混入其他作品。\n\n备注：输入中的Bangumi逐集播出日期均为空，无法逐话交叉核验日期；逐集对应依据为全部标题、顺序、总集数及整体播出区间的一致性。",
     "method": "codex",
     "source": "https://bgm.tv/subject/1445; https://www.themoviedb.org/tv/27008; https://www.themoviedb.org/tv/27008/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 27008
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

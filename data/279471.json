@@ -1,15 +1,86 @@
 {
+  "anidbId": 14702,
   "bangumiId": 279471,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 873970,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 873971,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 873972,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 873973,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 873974,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 873975,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 873976,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 873977,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 873978,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 873979,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 873980,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 873981,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 119251 是同一部日本历史猫化题材的日文 TV 动画《ねこねこ日本史》，详情中的剧情、日文原名、2016年开播、河村友宏导演及 JOKER FILMS 制作信息均吻合。TMDB 将第1至第5系列合并为 season 1；其实际集表中第97至128集共32集，首播日期为2019-04-03至2020-02-26，正好对应 Bangumi 的第4系列。该范围是合并季中的部分连续区间，因此不能使用整季。\n\nhttps://www.themoviedb.org/tv/119251 (api_snapshot): TMDB 详情确认原名为「ねこねこ日本史」、类型为 TV，剧情为猫化日本历史人物，2016-04-06开播；共160集，导演为河村友宏，制作公司包括 JOKER FILMS。\n\nhttps://www.themoviedb.org/tv/119251/season/1 (api_snapshot): TMDB season 1 名称为「第1期～第5期」，共160集并分页；第97集至第128集的实际集表日期覆盖2019-04-03至2020-02-26，共32集，集名和日期连续对应第4系列。\n\nhttps://www.animatetimes.com/tag/details.php?id=15423 (page): 作品资料明确标为《ねこねこ日本史 第4期》TV动画，播出期为2019-04-03至2020-02-26，全32话；剧情、山寺宏一/小林ゆう、河村友宏导演等信息与 TMDB 作品吻合。\n\nhttps://neco-neco.jp/onair/ (page): 官方站确认该作品在 NHK Eテレ播出，并明确标注第4期再放送信息。\n\nhttps://api.bgm.tv/v0/subjects/279471 (api_snapshot): Bangumi API 原始资料确认主体为《ねこねこ日本史 第4シリーズ》，平台为 TV，首播日2019-04-03，话数32。\n\n备注：Bangumi fresh API 的 regularEpisodes 当前只返回前12集，但其 infobox、外部作品资料及 TMDB 实际集表均支持完整32集范围；这属于 Bangumi 集表不完整，不影响已核实的 TMDB 区间。",
+    "evidence": "codex: 确认对应 TMDB 119251 第1季第97—128集：版本、媒介、剧情、制作人员、32集总量及首末播出日期吻合。逐集规则仅纳入日期逐条一致的 Bangumi 第1—4话；其余章节存在日期冲突且标题为空，暂不建立对应。\n\nhttps://www.themoviedb.org/tv/119251 (api_snapshot): 日文原名搜索找到 TV 119251；详情确认其为日本历史人物猫化的电视动画，2016年开播，导演河村友宏，出演小林ゆう、山寺宏一，制作公司包括 JOKER FILMS，与第四系列资料一致。\n\nhttps://www.themoviedb.org/tv/119251/season/1 (api_snapshot): 实际读取第1季集表第2、3页（共3页）；该季合并第1至第5期，共160集。第97—128集共32集，日期为2019-04-03至2020-02-26；相邻第96集为2019-02-27，第129集为2020-04-08。第97—100集日期与输入的 Bangumi 第1—4话逐条一致。\n\nhttps://www.animatetimes.com/tag/details.php?id=15423 (page): 第四期明确为 NHK Eテレ播出的 TV 动画，全32话，播出期间2019-04-03至2020-02-26；剧情、导演及主要配音与 TMDB 一致。\n\nhttps://www.videomarket.jp/title/041967 (search_snippet): 正版配信页面将第四期列为2019年作品，首话编号97，其余全话范围98—128，支持第四期的完整编号范围。\n\n备注：Bangumi 标注全32话，但输入仅有12条无标题章节，无法为其余20话建立章节映射。；Bangumi 第5话日期为2019-05-01，而按本期顺序应对应的 TMDB 第101集日期为2019-05-08；此后仍有错位，例如 Bangumi 第12话为2019-06-19，TMDB 第108集为2019-07-03。第5—12话需补充标题或修正播出日期后再核对，不能直接按顺序或日期重排。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/279471; https://www.themoviedb.org/tv/119251; https://www.themoviedb.org/tv/119251/season/1; https://www.animatetimes.com/tag/details.php?id=15423; https://neco-neco.jp/onair/; https://api.bgm.tv/v0/subjects/279471",
-    "verifiedAt": "2026-09-08T21:40:05.932Z"
+    "source": "https://bgm.tv/subject/279471; https://www.themoviedb.org/tv/119251; https://www.themoviedb.org/tv/119251/season/1; https://www.animatetimes.com/tag/details.php?id=15423; https://www.videomarket.jp/title/041967",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 97,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 119251
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

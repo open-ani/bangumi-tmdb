@@ -1,21 +1,133 @@
 {
   "anidbId": 16700,
   "bangumiId": 349441,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1126915,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1126916,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1126917,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1126918,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1126919,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1126920,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1126921,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1126922,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1126923,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1126924,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1126925,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1126926,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1142612,
+      "sort": 6.1,
+      "type": 1
+    },
+    {
+      "id": 1142613,
+      "sort": 6.2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1142612,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 196400,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1142613,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 196400,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、电视动画媒介、剧情、导演及制作公司吻合，全部 12 话本篇和两条特别节目均已通过标题与日期逐集核实。TMDB 将两个季度合并为第 1 季，因此本 subject 仅覆盖 S01E01—E12，另含 S00E02—E03；不包含独立前传及后续季度，与已给出的后续季度归属无冲突。\n\nhttps://www.themoviedb.org/tv/196400 (api_snapshot): TMDB 196400 为 2022 年电视动画《機動戦士ガンダム 水星の魔女》，首播日为 2022-10-02；苏莱塔从水星转入学园的剧情、导演小林寛及制作公司均与输入一致。\n\nhttps://www.themoviedb.org/tv/196400/season/1 (api_snapshot): 第 1 季实际收录 24 集，集表共 1 页。第 1—12 集的日文标题及播出日期与 Bangumi 本篇 12 话逐一一致，范围为 2022-10-02 至 2023-01-08；第 13 集于 2023-04-09 开始，属于后续季度。\n\nhttps://www.themoviedb.org/tv/196400/season/0 (api_snapshot): 第 0 季实际收录 4 集，集表共 1 页。第 2、3 集分别与 Bangumi 特别篇 1142612、1142613 的完整标题及 2022-11-13 日期一致；第 1 集为独立前传 PROLOGUE，第 4 集为后续季度特别节目。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/349441; https://www.themoviedb.org/tv/196400; https://www.themoviedb.org/tv/196400/season/1; https://www.themoviedb.org/tv/196400/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 196400
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 196400,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 3,
+      "id": 196400,
+      "season": 0,
       "type": "tv"
     }
   ]

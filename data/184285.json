@@ -1,16 +1,91 @@
 {
   "anidbId": 12192,
   "bangumiId": 184285,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 640350,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 640351,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 640352,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 640353,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 640354,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 640355,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 640356,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 640357,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 640358,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 640359,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 640360,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 640361,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 640362,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 184285 是2016年10月至12月播出的12集短篇电视动画《学園ハンサム》，并非2015年的《学園ハンサム The Animation》。TMDB TV 68088 的原名、首播日期、媒介和总集数均一致，且其第1季恰含12集，因此映射到完整的第1季，无需限定部分集数。\n\nhttps://www.themoviedb.org/tv/68088 (api_snapshot): TMDB API 快照确认 TV ID 68088 的原名为《学園ハンサム》，首播日期为2016-10-03，总计12集，且只列出包含12集的第1季。\n\nhttps://www.themoviedb.org/tv/68088/season/1 (api_snapshot): TMDB API 季快照确认 season 1 编号为1并完整收录第1至第12集，首集日期为2016-10-03。\n\nhttps://penet.co.jp/animehandsome/ (page): 电视动画官方网站列出从第1话《薔薇門高校へようこそ》到最终话《イケメンは永遠！》的连续12话，电视播出从2016年10月3日持续至12月19日；角色和剧情也与 Bangumi 条目一致。\n\nhttps://bangumi.tv/subject/184285 (page): Bangumi 页面将本主体标为2016年电视动画、12话，并把《学園ハンサム The Animation》列为“不同演绎”，证明本主体不是早期同名动画版本。\n\n备注：TMDB 快照把第6至第12集的日期统一记为2017-01-06，与官方网站的逐周电视播出日期不符；这是单集日期元数据问题，不影响 TV ID、季号或完整12集范围的确认。",
+    "evidence": "codex: 确认对应 TMDB 68088 第1季。本篇12话的标题、顺序、总量与真实季表逐集一致，年份、电视媒介、剧情和演员亦吻合；官网核实制作人员及完整播出日期。第1季未混入2015年动画或DVD特典，可整季映射，本篇第1至12话连续一一对应。\n\nhttps://bgm.tv/subject/184285 (page): Bangumi 将本作标为2016年10月3日至12月19日播出的12话电视动画；导演为木足利根曽，动画制作为チーム欲求腐満，并将《学園ハンサム The Animation》列为不同演绎。\n\nhttps://www.themoviedb.org/tv/68088 (api_snapshot): TMDB 68088 为2016年10月3日首播的《学園ハンサム》，仅列第1季12集；蔷薇门男子高中转学生的剧情及花江夏树、木村良平等演员与本作一致。\n\nhttps://www.themoviedb.org/tv/68088/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集，每集4分钟。第1至12集英文标题与 Bangumi 日文标题逐集对应，包括第7、8集的模特故事前后篇。第1集日期一致，第2至5集比官方日期早一天，第6至12集均记为2017年1月6日。\n\nhttps://penet.co.jp/animehandsome/ (page): 电视动画官网逐集列出12话标题、剧情及播出日期，与输入的本篇顺序和日期全部一致；制作人员与 Bangumi 一致，演员阵容与 TMDB 一致。\n\nhttps://www.themoviedb.org/movie/466610 (api_snapshot): 另一个搜索结果 movie 466610 是2015年8月28日发行、片长32分钟的《学園ハンサム The Animation》，年份、标题和长度与本次12集电视版不同，不纳入映射。\n\nhttps://store.penet.co.jp/items/4287151 (search_snippet): 官方商城说明电视版 DVD 收录本篇第1至12话，并另附特典第12.5话《愛のために…激突イケメンウォーズ！》，说明该特典不是本篇第12话。\n\nhttps://www.themoviedb.org/tv/68088/season/0 (api_snapshot): 实际请求第0季返回 HTTP 404；本次未取得可对应第12.5话的特别篇集表。\n\n备注：TMDB 第2至5集日期比官方早一天，第6至12集统一记为2017年1月6日；日期元数据存在冲突，但逐集标题及官方集表足以确认对应关系。；Bangumi 特别篇640362（sort=12.5）已确认是电视版DVD特典，但未找到经核实的TMDB对应条目，因此保留未映射；第0季返回404不能证明TMDB全库未收录该特典。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/184285; https://www.themoviedb.org/tv/68088; https://www.themoviedb.org/tv/68088/season/1; https://penet.co.jp/animehandsome/; https://bangumi.tv/subject/184285",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/184285; https://www.themoviedb.org/tv/68088; https://www.themoviedb.org/tv/68088/season/1; https://penet.co.jp/animehandsome/; https://www.themoviedb.org/movie/466610; https://store.penet.co.jp/items/4287151; https://www.themoviedb.org/tv/68088/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68088
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

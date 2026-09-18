@@ -1,13 +1,124 @@
 {
   "bangumiId": 439025,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1215672,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1215673,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1215674,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1215675,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1215676,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1215677,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1215678,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1215679,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1215680,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1215681,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1215682,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1215683,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1215684,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1215685,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1215686,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1215687,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1215688,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1215689,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1215690,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1215691,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1215692,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1215693,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 32726 是同一部 TV 动画《Bob's Burgers》（开心汉堡店）：系列剧情均为第三代餐馆经营者 Bob 与妻子及三个孩子经营汉堡店；TMDB 记录第11季于 2020-09-27 开播、22 集，正好对应 Bangumi 的日期和 22 集。实际季表覆盖第1至22集，首集与末集日期为 2020-09-27 至 2021-05-23，且剧集标题和剧情均连续匹配，因此可使用完整第11季，不涉及电影、OVA、合集或其他版本。TMDB 还记录了 H. Jon Benjamin、John Roberts、Kristen Schaal、Eugene Mirman、Dan Mintz 等配音演员及相关制作公司。\n\nhttps://api.bgm.tv/v0/subjects/439025 (api_snapshot): Bangumi fresh API 将 subject 标为 TV，名称为 Bob's Burgers Season 11，开播日期 2020-09-27，共 22 集。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): TMDB 详情确认原名为 Bob's Burgers，系列剧情是 Bob 与妻子和三个孩子经营汉堡餐馆；系列始于 2011-01-09，并列出第11季日期 2020-09-27、22 集、配音演员和制作公司。\n\nhttps://www.themoviedb.org/tv/32726/season/11 (api_snapshot): TMDB 第11季实际集表共 22 集，episode_number 连续覆盖 1–22；第1集为 Dream a Little Bob of Bob（2020-09-27），第22集为 Vampire Disco Death Dance（2021-05-23）。\n\nhttps://abc.com/show/5013a690-3ccc-425d-8f0b-5b26c56e3ecb/season/11 (page): ABC 官方页面将其标为 Bob's Burgers season 11，简介和首集日期 2020-09-27 与 TMDB/Bangumi 相符。",
+    "evidence": "codex: 可确认对应 TMDB 32726 第11季整季：输入的季名、TV 媒介、2020-09-27 开播日期及22集总量一致，前后季日期也与 TMDB 季列表吻合；外部资料进一步核实了剧情、制作人员、配音及完整集表。Bangumi 各章节缺少标题和日期，无法进行章节级逐集比对，因此只确认整季范围，不生成按位置推断的 rules。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): TMDB 32726 原名为 Bob's Burgers，中文别名为《开心汉堡店》，是2011年开始的电视系列；剧情为 Bob 与妻子及三个孩子经营汉堡店，配音包括 H. Jon Benjamin、John Roberts、Kristen Schaal 等。\n\nhttps://www.themoviedb.org/tv/32726/season/11 (api_snapshot): 实际读取第11季全部集表，total_pages=1，共22集，集号连续为1—22，播出日期从2020-09-27至2021-05-23；整季均为该系列剧情动画。\n\nhttps://www.rottentomatoes.com/tv/bobs_burgers/s11 (page): 第11季页面确认本作是 Loren Bouchard 创作的 Fox 动画喜剧，主要配音与 TMDB 一致；页面所列22集的标题、集号及播出日期均与 TMDB 季表一致。\n\n备注：输入中22个 Bangumi 章节的标题和播出日期均为空，本次访问 Bangumi 页面及 API 未成功；需补充章节元数据后才能确认逐集对应。；ABC 的第11季网址本次实际返回第12季集目，未将其作为第11季范围的证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/439025; https://api.bgm.tv/v0/subjects/439025; https://www.themoviedb.org/tv/32726; https://www.themoviedb.org/tv/32726/season/11; https://abc.com/show/5013a690-3ccc-425d-8f0b-5b26c56e3ecb/season/11",
-    "verifiedAt": "2026-09-08T23:51:34.321Z"
+    "source": "https://bgm.tv/subject/439025; https://www.themoviedb.org/tv/32726; https://www.themoviedb.org/tv/32726/season/11; https://www.rottentomatoes.com/tv/bobs_burgers/s11",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,21 +1,41 @@
 {
   "anidbId": 6650,
   "bangumiId": 38119,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164146,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164146,
+      "targets": [
+        {
+          "episode": 17,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 30983第0季第17集。单话OVA的日英标题、2009年版本、章节日期及剧情资料相互吻合，制作人员亦获交叉确认；范围仅含该特别篇，不包含TV正篇或SECRET FILE合集。旧movie ID返回404，应替换。\n\nhttps://bgm.tv/subject/38119 (page): Bangumi 标为2009年单话OVA，导演於地紘仁、脚本古内一成；2010年的《SECRET FILE Vol.4》同时收录本作与OVA8，本subject仅覆盖本作。\n\nhttps://bgm.tv/ep/164146 (page): 唯一章节164146标注首播2009-05-25，时长22分20秒。\n\nhttps://www.conanpedia.com/OVA9_10年的陌生人 (page): 柯南百科确认本作为OVA9、应募礼品DVD，剧情为柯南试服解药后梦见十年后的生活；导演及编剧与Bangumi一致。2009-04-15为应募开始日期。\n\nhttps://api.themoviedb.org/3/movie/1221954 (api_snapshot): 旧映射movie/1221954的详情接口返回HTTP 404，不能继续沿用。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TV 30983为1996年开始的日本动画《名探偵コナン》，制作公司包含TMS Entertainment，原作青山刚昌，主要声优与本作一致；包含特别篇第0季。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整35集表（共1页）及日英标题：第17集为《10年後の異邦人》／The Stranger from Ten Years Later，日期2009-05-25，时长25分钟。标题、年份及日期对应Bangumi唯一章节；同季另列OVA8与OVA10。\n\nhttps://thetvdb.com/series/detective-conan/episodes/1218791 (page): TVDB同名OVA9的日期为2009-05-25，剧情同为服药后梦见十年后、小兰准备与新出结婚；其集号未用于推导TMDB集号。\n\n备注：TMDB该集简介为空，剧情与制作人员依靠Bangumi、柯南百科及TVDB交叉核对。；Bangumi章节时长22分20秒，TMDB记25分钟，存在时长元数据差异；subject的4月15日是应募开始日期，章节与TMDB均记5月25日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38119; https://bgm.tv/ep/164146; https://www.conanpedia.com/OVA9_10年的陌生人; https://api.themoviedb.org/3/movie/1221954; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0; https://thetvdb.com/series/detective-conan/episodes/1218791",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1221954,
-      "type": "movie"
+      "episode": 17,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

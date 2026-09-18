@@ -1,14 +1,75 @@
 {
   "anidbId": 17484,
   "bangumiId": 397125,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1124662,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1124663,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1124664,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1124665,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1124666,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1124667,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1124668,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1124669,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1124670,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1124671,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1124672,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1124673,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2022-07-31 开始、12 集的《Battle for Sanctuary》主体。Anime-Lists 中 AniDB 17484 的同名条目明确关联 TMDB TV 90855 第 2 季；TMDB 第 2 季标题为“バトル・サンクチュアリ”，首播日期为 2022-07-30，共 12 集，集数和日期与 Bangumi 主体（日本时区首集为 2022-07-31）一致。官方资料也确认该版本为东映制作、全 12 集。Part 2 是后续独立主体，不应并入本条目。\n\nhttps://bgm.tv/subject_search/%E5%9C%A3%E斗士星矢?cat=2 (search_snippet): Bangumi 搜索结果列出目标条目“圣斗士星矢：黄道十二宫战士 战斗圣域 / 聖闘士星矢：Knights of the Zodiac バトル・サンクチュアリ”，日期为 2022-07-31，导演为芦野芳晴。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 anidbid=17484 条目名称为“Knights of the Zodiac: Saint Seiya - Battle for Sanctuary”，并明确映射 tmdbtv=90855、tmdbseason=2；该条目不是电影映射。\n\nhttps://www.themoviedb.org/tv/90855 (api_snapshot): TMDB TV 90855 的原名为 SAINT SEIYA: Knights of the Zodiac；第 2 季名称为“バトル・サンクチュアリ”，日期 2022-07-30，episode_count=12。\n\nhttps://www.themoviedb.org/tv/90855/season/2 (api_snapshot): TMDB 第 2 季实际包含第 1 至第 12 集；第 1、2 集日期为 2022-07-31，第 12 集日期为 2022-10-09，episodeCount=12。\n\nhttps://www.youtube.com/watch?v=4pjy072xlEU (search_snippet): 东映动画官方频道称该《バトル・サンクチュアリ》为全 12 话，并列出原作车田正美、导演芦野芳晴、东映动画制作等信息。",
+    "evidence": "codex: 确认对应TMDB TV 90855第2季整季：2022年海外首播、12集、3DCG版本、制作人员及十二宫救援剧情相符，实际季表未混入2024年的Part 2。Bangumi章节标题和日期全部为空，无法完成章节级逐集比对，因此仅确认整季范围，rules与overrides留空。\n\nhttps://www.themoviedb.org/tv/90855 (api_snapshot): 日文原名和英文别名搜索均找到 TV 90855；详情将「バトル・サンクチュアリ」明确列为第2季别名，制作公司为东映动画，第2季共12集。\n\nhttps://www.themoviedb.org/tv/90855/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共12集。第1、2集日期均为2022-07-31，第3至12集每周播出，末集日期为2022-10-09。首集讲述雅典娜中箭后星矢等人挑战黄金圣斗士，与输入剧情一致。\n\nhttps://www.animatetimes.com/news/details.php?id=1672110117&p=2 (page): 制作人员访谈及作品资料确认本作为3DCG动画，全12话；原作车田正美、导演芦野芳晴、角色设计西位辉实、CG导演能泽谕、东映动画制作均与输入一致。日本于2023-01-01一次性上线，剧情为雅典娜中箭后限时突破十二宫。\n\nhttps://www.crunchyroll.com/watch/G8WUN8D7E/the-twelve-houses (search_snippet): Crunchyroll将本作第1集标为2022-07-31上线，支持输入的海外首播日期。\n\nhttps://www.tvmaze.com/shows/30913/saint-seiya-knights-of-the-zodiac/episodes (page): 第2季12集的逐集标题与日期均与TMDB集表一致；另列2024年的第3季 Battle for Sanctuary 2。\n\nhttps://www.universal-music.co.jp/the-struts/news/2024-04-01/ (search_snippet): 主題歌唱片公司公告确认Part 2为2024-04-01上线的十二宫篇后半，共12话，属于后续独立批次。\n\n备注：Bangumi主体页及章节页本次读取失败；输入的12个章节只有编号，需取得章节标题或播出日期后才能建立逐集规则。；TMDB季级日期为2022-07-30，但实际第1、2集日期及Crunchyroll记录均为2022-07-31；未将此差异擅自解释为时区原因。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/397125; https://bgm.tv/subject_search/%E5%9C%A3%E斗士星矢?cat=2; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/90855; https://www.themoviedb.org/tv/90855/season/2; https://www.youtube.com/watch?v=4pjy072xlEU",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/397125; https://www.themoviedb.org/tv/90855; https://www.themoviedb.org/tv/90855/season/2; https://www.animatetimes.com/news/details.php?id=1672110117&p=2; https://www.crunchyroll.com/watch/G8WUN8D7E/the-twelve-houses; https://www.tvmaze.com/shows/30913/saint-seiya-knights-of-the-zodiac/episodes; https://www.universal-music.co.jp/the-struts/news/2024-04-01/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

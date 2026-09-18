@@ -1,19 +1,96 @@
 {
   "anidbId": 14234,
   "bangumiId": 254788,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 874157,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 874158,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 874159,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 874160,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 874161,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 874162,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874163,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874164,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874165,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874166,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874167,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874168,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 878162,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、剧情、制作人员及电视动画媒介一致，13话标题和放送日期逐集对应。TMDB将两个季度合为第1季26集，本 subject 仅覆盖第1至13集；旧映射应收窄至此范围，避免包含第二季度。\n\nhttps://www.themoviedb.org/tv/85843 (api_snapshot): TMDB 85843 为2019年电视动画《この音とまれ！》；时濑高中箏曲部的剧情、导演水野竜馬、动画制作 Platinum Vision 均与输入一致。\n\nhttps://www.themoviedb.org/tv/85843/season/1 (api_snapshot): 已读取第1季完整集表，共26集、1页。第1至13集与输入13话逐集标题及顺序一致，仅第3话存在「筝／箏」字形差异；日期均比 Bangumi 晚一天，范围为2019-04-07至2019-06-30。第14集于2019-10-06开始，属于后续季度。\n\nhttps://konooto-anime.jp/onair/ (search_snippet): 官方放送页面搜索摘要注明2019年4月6日星期六25时开播，即自然日4月7日凌晨1时，解释两站日期相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/254788; https://www.themoviedb.org/tv/85843; https://www.themoviedb.org/tv/85843/season/1; https://konooto-anime.jp/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85843
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 85843,
       "season": 1,
       "type": "tv"

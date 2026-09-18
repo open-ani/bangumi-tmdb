@@ -1,14 +1,75 @@
 {
   "anidbId": 13469,
   "bangumiId": 223146,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 744596,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 744597,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 744598,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 744599,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 744600,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 744601,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 744602,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 744603,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 744604,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 744605,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 744606,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 744607,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《全职法师 第二季》，2017年、12话、2017-09-15开播；制作方为上海福煦，且剧情为莫凡与博城灾变相关。AniDB 的 Full-Time Magister 2 同样对应2017年秋、12集、18分钟、Foch Film制作，并列出相同剧情和2017-09-15至12-01播出期。TMDB 70311 的季列表明确将2017年12集作品编号为第2季，季详情完整列出第1至12集，因此应映射为完整第2季。\n\nhttps://bgm.tv/subject/223146 (page): Bangumi 条目为《全职法师Ⅱ/全职法师 第二季》，12话，2017年9月15日开始；制作方含上海福煦影视文化投资有限公司，关联前作《全职法师》。\n\nhttps://anidb.app/anime/full-time-magister-2-1684 (page): AniDB 页面为 Full-Time Magister 2 / Quanzhi Fashi II，ONA，2017年秋，18分钟，Foch Film制作，播出期为2017-09-15至2017-12-01，并列出完整剧情与续作关系。\n\nhttps://www.themoviedb.org/tv/70311/seasons?language=zh-TW (page): TMDB 季列表显示全职法师第2季为2017年、12集，首播日期记录为2017-09-02。\n\nhttps://www.themoviedb.org/tv/70311/season/2 (api_snapshot): TMDB API 快照明确 season_number=2，episodeCount=12，且完整列出第1至第12集。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): TMDB API 快照显示作品原名为全职法师、中文名为フルタイム・マジスター，原始语言为中文、产地为中国，并包含第2季。\n\n备注：TMDB 将第2季及各集日期记录为2017-09-02，而 Bangumi/AniDB 记录为2017-09-15至2017-12-01；这影响日期元数据，但不影响作品、季号和12集范围的对应判断。",
+    "evidence": "codex: 年份、制作公司、剧情版本、单集时长及12集规模共同支持对应 TMDB 70311 第2季整季；完整季表未混入Q版小剧场。作品与季范围已确认，但逐集日期存在冲突，数字集名无法提供独立辨识，故暂不生成逐集规则。\n\nhttps://bgm.tv/subject/223146 (page): Bangumi 明确标为网络动画《全职法师 第二季》，2017年9月15日开播，共12话；总导演管振宇、导演青山弘，福煦影视制作，并将《全职法师Q！Ⅱ》列为衍生作品。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): TMDB 70311 为中国动画《全职法师》，魔法高中与莫凡的故事设定吻合；制作公司包括上海福煦、阅文集团及企鹅影视，第二季列为2017年、12集。\n\nhttps://www.themoviedb.org/tv/70311/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共12集，每集18至19分钟；剧情从地圣泉修炼、博城灾变发展至救援城市猎妖队，属于连续剧情正篇。所有集的日期均记为2017-09-02，标题均为数字集名。\n\nhttps://bkso.baidu.com/item/%E5%85%A8%E8%81%8C%E6%B3%95%E5%B8%88%E2%85%A1/23686576?fromModule=lemma_inlink (page): 资料确认第二季为福煦制作的12集网络动画，播出期为2017-09-15至2017-12-01；前五话剧情与TMDB对应集的主要事件吻合，并明确将《全职法师Q！第二季》描述为另一个Q版搞笑小剧场节目。\n\n备注：TMDB 全12集均标为2017-09-02，与输入中2017-09-15至2017-12-01的逐周日期不符；尚未取得完整且可独立核对的逐集资料，rules 留空。；ownership 中 Bangumi 225866《全职法师Q！Ⅱ》也占用同季，存在旧映射冲突；本次证据支持该季属于正篇，该衍生条目的映射应另行复核。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/223146; https://anidb.app/anime/full-time-magister-2-1684; https://www.themoviedb.org/tv/70311/seasons?language=zh-TW; https://www.themoviedb.org/tv/70311/season/2; https://www.themoviedb.org/tv/70311",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/223146; https://www.themoviedb.org/tv/70311; https://www.themoviedb.org/tv/70311/season/2; https://bkso.baidu.com/item/%E5%85%A8%E8%81%8C%E6%B3%95%E5%B8%88%E2%85%A1/23686576?fromModule=lemma_inlink",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

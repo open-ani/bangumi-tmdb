@@ -1,21 +1,41 @@
 {
   "anidbId": 8501,
   "bangumiId": 18361,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 101184,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 101184,
+      "targets": [
+        {
+          "episode": 23,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 匹配TMDB 30983第0季第23集。日英标题、2011年单话OVA身份、剧情及制作人员的交叉资料一致，实际季表明确收录此独立作品；因此将唯一章节直接对应该特别篇，不沿用已返回404的旧电影映射。\n\nhttps://bgm.tv/subject/18361 (page): Bangumi 标注本作为2011年发行的单话 OVA，导演於地紘仁、脚本古内一成；剧情涉及柯南前往伦敦、光彦因模特照片而怀疑灰原身处危险。\n\nhttps://bgm.tv/ep/101184 (page): 唯一章节101184为第1话，日期2011-06-23，时长27分56秒。\n\nhttps://detectiveconan96.fandom.com/wiki/A_Secret_Order_From_London (search_snippet): 资料将英文标题 A Secret Order From London 与日文「ロンドンからの㊙︎指令」对应，注明2011年OVA第11弹、伦敦篇外传，导演与脚本分别为於地紘仁、古内一成。\n\nhttps://wiki.bitter.house/content/wikipedia_en_all_maxi_2024-01/A///List_of_Case_Closed_OVAs (search_snippet): OVA列表中的该作剧情包含灰原暂住步美家、柯南电话嘱咐光彦阻止灰原回博士家、光彦发现与灰原相像的童星照片，与待核对作品一致。\n\nhttps://api.themoviedb.org/3/movie/1041790 (api_snapshot): 实际调用旧映射 movie/1041790 的详情接口返回HTTP 404，无法继续采用该电影ID。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): 详情确认TV 30983为1996年开始的日本动画《名探偵コナン》，制作公司包括TMS Entertainment，并设有第0季特别篇。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整35集列表（total_pages=1）及日英标题；第23集为「ロンドンからのマル秘指令!」／A Secret Order from London，日期2011-05-30、时长25分钟。该季另含其他OVA与特别节目，本subject仅覆盖第23集。\n\n备注：Bangumi记录2011-06-23、27分56秒，TMDB记录2011-05-30、25分钟；具体日期及片长差异尚未由官方发行资料解释。现有资料未显示存在另一同名版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/18361; https://bgm.tv/ep/101184; https://detectiveconan96.fandom.com/wiki/A_Secret_Order_From_London; https://wiki.bitter.house/content/wikipedia_en_all_maxi_2024-01/A///List_of_Case_Closed_OVAs; https://api.themoviedb.org/3/movie/1041790; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1041790,
-      "type": "movie"
+      "episode": 23,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

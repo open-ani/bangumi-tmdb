@@ -1,20 +1,36 @@
 {
   "anidbId": 16081,
   "bangumiId": 329436,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1070141,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1070141,
+      "targets": [
+        {
+          "id": 1746478,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB movie/1746478。播出日期、冲绳回忆剧情、导演、编剧及制作公司均吻合；这是单篇电视特别动画，TMDB以movie收录，无季号。Bangumi唯一正篇对应完整作品，使用章节override；旧ID 1009176当前返回404，应替换。\n\nhttps://api.themoviedb.org/3/movie/1009176 (api_snapshot): 旧映射 movie/1009176 的详情请求返回 HTTP 404，当前无法沿用该 ID。\n\nhttps://www.themoviedb.org/movie/1746478 (api_snapshot): 英文别名搜索找到 movie/1746478；详情确认其为追忆篇，日期为2021-12-31、片长71分钟、制作公司为8bit，导演吉田りさこ、编剧中本宗応；剧情讲述三年前冲绳事件如何改变达也与深雪的关系，与待核对作品一致。\n\nhttps://mahouka.jp/tsuioku/onair/ (page): 官方网站确认追忆篇于2021年12月31日23:57在TOKYO MX等台播出，与Bangumi唯一正篇章节的日期一致。\n\nhttps://mahouka.jp/tsuioku/intro/ (page): 官方剧情介绍明确以三年前冲绳事件及兄妹关系转变为内容，与TMDB候选剧情吻合。\n\nhttps://prtimes.jp/main/html/rd/p/000003361.000016356.html (page): Aniplex公告确认该作为跨年电视特别节目，导演吉田りさこ、编剧中本宗応、动画制作8bit，与TMDB制作人员一致；本篇之外另有新年特别影像。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/329436; https://api.themoviedb.org/3/movie/1009176; https://www.themoviedb.org/movie/1746478; https://mahouka.jp/tsuioku/onair/; https://mahouka.jp/tsuioku/intro/; https://prtimes.jp/main/html/rd/p/000003361.000016356.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1009176,
+      "id": 1746478,
       "type": "movie"
     }
   ]

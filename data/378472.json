@@ -1,13 +1,75 @@
 {
+  "anidbId": 17525,
   "bangumiId": 378472,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1098431,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1098432,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1098433,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1098434,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1098435,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1098436,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1098437,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1098438,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1098439,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1098440,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1098441,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1098442,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 200682《寻剑》与 Bangumi 条目在中文原名、首播日期（2022-04-26）、剧情简介及 12 集规模上完全对应。TMDB 明确为单一第 1 季，共 12 集，季表覆盖第 1–12 集且与 Bangumi 主体集数一致，因此推荐整季。Bangumi fresh API 还记录导演张德方、动画制作兴艺凯晨；未发现旧版、新版、OVA、合集或分割季度混淆。\n\nhttps://api.bgm.tv/v0/subjects/378472 (api_snapshot): Bangumi fresh API：名称《寻剑》，日期 2022-04-26，平台 WEB，共 12 集；剧情为师命出山、入赘为婿并以绝世剑仙身份展开故事；导演张德方，动画制作兴艺凯晨。\n\nhttps://www.themoviedb.org/tv/200682 (api_snapshot): TMDB 详情：TV《寻剑》，原名《寻剑》，首播 2022-04-26，剧情简介与 Bangumi 一致，共 1 季、12 集；别名包括 Sword Quest、Xun Jian。\n\nhttps://www.themoviedb.org/tv/200682/season/1 (api_snapshot): TMDB 第 1 季实际集表包含第 1 至第 12 集，播出日期从 2022-04-26 至 2022-07-05，无分页遗漏。\n\n备注：TMDB 详情未提供制作公司、演职员信息；制作人员信息主要由 Bangumi fresh API 支持。",
+    "evidence": "codex: 原名、首播日期、具体剧情、网络动画媒介和12集规模一致，制作方公告亦支持版本身份，确认对应 TMDB 200682 第1季整季。实际季表覆盖该作品完整主体；Bangumi 缺少逐集标题和日期，故仅确认整季范围，不凭序号生成逐集规则。\n\nhttps://bgm.tv/subject/378472 (page): Bangumi 将《寻剑》标为 WEB 动画，共12话，2022年4月26日开播，导演张德方、动画制作兴艺凯晨；剧情为剑仙奉师命出山并入赘。\n\nhttps://www.sina.cn/news/detail/4760749090541233.html (page): 兴艺凯晨认证账号于2022年4月21日公布《寻剑》定档4月26日登陆优酷，确认赘婿题材及兴艺凯晨参与制作，与 Bangumi 的年份、媒介和制作信息吻合。\n\nhttps://www.themoviedb.org/tv/200682 (api_snapshot): TMDB TV 200682 原名《寻剑》，首播2022年4月26日，剧情简介与 Bangumi 一致；别名包括 Sword Quest、Xun Jian，共1季12集。制作公司与演职员字段为空。\n\nhttps://www.themoviedb.org/tv/200682/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集，集号连续为1至12；第1、2集均标为2022年4月26日，第3至12集从5月3日至7月5日每周播出。各集标题呈现入赘成婚、家族冲突与争夺神剑的连续剧情，未见混入其他作品。\n\nhttps://bgm.tv/subject/378472/ep (page): Bangumi 章节页列出本篇1至12，但未提供各集标题或放送日期，无法与 TMDB 集表逐集交叉核实。\n\n备注：逐集对应尚缺 Bangumi 章节标题或放送日期，rules 与 overrides 留空。；TMDB 未提供制作人员资料，导演与制作公司信息由 Bangumi 及制作方公告支持，无法在两站间直接核对演职员。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/378472; https://api.bgm.tv/v0/subjects/378472; https://www.themoviedb.org/tv/200682; https://www.themoviedb.org/tv/200682/season/1",
-    "verifiedAt": "2026-09-08T23:18:19.392Z"
+    "source": "https://bgm.tv/subject/378472; https://www.sina.cn/news/detail/4760749090541233.html; https://www.themoviedb.org/tv/200682; https://www.themoviedb.org/tv/200682/season/1; https://bgm.tv/subject/378472/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

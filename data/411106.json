@@ -1,16 +1,183 @@
 {
   "anidbId": 17771,
   "bangumiId": 411106,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1240271,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1240272,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1240273,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1240274,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1240275,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1240276,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1240277,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1240278,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1240279,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1240280,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1240281,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1240282,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1253436,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1253437,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1253438,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1253439,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1253440,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1253441,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1253442,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1253443,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1253444,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1253445,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1253446,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1282396,
+      "sort": 12.5,
+      "type": 1
+    },
+    {
+      "id": 1287186,
+      "sort": 12.7,
+      "type": 1
+    },
+    {
+      "id": 1297709,
+      "sort": 17.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1282396,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 223780,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1287186,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 1297709,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 223780,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 223780 的日文标题、首播日期、剧情和 23 集正篇逐集标题/日期完全对应。TMDB 明确列出第 1 季 23 集；Bangumi 的 SP12.5「陽はまた昇る」与 SP17.5「三人の縁」对应该剧 TMDB 特别篇季的 2 集，因此补列 season 0。SP12.7 是声优年终谈话/回顾节目，属于额外宣传特典，不纳入主体映射。未发现电影、OVA、总集篇或重剪版主体。\n\nhttps://bangumi.tv/subject/411106/ep (page): Bangumi 将该条目标为 TV，列出正篇第 1–23 集，并列出 SP12.5「陽はまた昇る」、SP12.7 年终谈话节目、SP17.5「三人の縁」。\n\nhttps://prtimes.jp/main/html/rd/p/000005949.000001719.html (page): 讲谈社公告确认该 TV 动画于 2023 年 9 月起播出，主体共 23 集，内容围绕十朱大吾、斧田骏和中村雪三名消防员成长。\n\nhttps://www.themoviedb.org/tv/223780 (api_snapshot): TMDB API 快照显示 ID 223780、日文标题、首播日 2023-09-30、23 集，并明确列出 season 0（2 集）和 season 1（23 集）。\n\nhttps://www.themoviedb.org/tv/223780/season/1 (api_snapshot): TMDB season 1 快照完整列出第 1–23 集；标题和日期与 Bangumi 正篇逐集对应，范围应为完整 season 1。\n\nhttps://watch.plex.tv/ja/show/firefighter-daigo-rescuer-in-orange/season/0 (page): 同名作品的特别篇季列出 2 集，标题为「陽はまた昇る」和「三人の縁（えにし）」，与 Bangumi 的 SP12.5、SP17.5 对应；此处仅用于内容交叉核对，季号依据 TMDB 快照。\n\nhttps://bgm.tv/ep/1287186 (search_snippet): SP12.7 的标题和简介显示其为三名声优参与的年终回顾/谈话节目，不是主体剧情特别篇。\n\n备注：AniDB 17771 详情页本次访问受限，未能独立读取其页面；但 Bangumi 条目自身、TMDB 标题/剧情/日期及逐集内容已足以确认该 TV 版本和目标范围。；TMDB season 0 的输入快照提供了季号和 2 集计数，特别篇标题通过同名作品的独立页面交叉核对；未将 Plex 的编号当作 TMDB 编号依据。",
+    "evidence": "codex: 确认对应TMDB 223780的2023年TV动画版本：年份、剧情、导演、制作公司及23集正篇标题和日期一致。正篇逐集对应第1季1—23集，两篇特别篇按实际TMDB集号对应S00E01、S00E02；声优忘年会节目明确排除。\n\nhttps://www.themoviedb.org/tv/223780 (api_snapshot): 日文原名搜索命中 TMDB 223780。详情确认首播于2023-09-30、完结于2024-03-23，导演为むらた雅彦，制作公司含Brain's Base；剧情围绕十朱大吾、斧田骏和中村雪成为特别救助队员，与输入的2023年TV动画一致。\n\nhttps://www.themoviedb.org/tv/223780/season/1 (api_snapshot): 实际读取第1季完整集表：23集，total_pages=1。第1至23集的标题与输入逐一对应，仅括号和空格等排版存在差异；全部放送日期一致，覆盖2023-09-30至2024-03-23。\n\nhttps://www.themoviedb.org/tv/223780/season/0 (api_snapshot): 实际读取第0季完整集表：2集，total_pages=1。第1集「陽はまた昇る」日期为2023-12-23，第2集「三人の縁（えにし）」日期为2024-02-10，分别与Bangumi SP12.5和SP17.5的标题、日期一致。\n\nhttps://bgm.tv/ep/1287186 (page): SP12.7为2023-12-27在ABEMA播出的榎木淳弥、八代拓、佐仓绫音年终谈话及第一季度回顾节目。已读取的TMDB第0、1季均无对应集，本次明确排除。\n\n备注：未确认声优忘年会节目是否另有独立TMDB条目；本次排除不代表TMDB未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/411106; https://bangumi.tv/subject/411106/ep; https://prtimes.jp/main/html/rd/p/000005949.000001719.html; https://www.themoviedb.org/tv/223780; https://www.themoviedb.org/tv/223780/season/1; https://watch.plex.tv/ja/show/firefighter-daigo-rescuer-in-orange/season/0; https://bgm.tv/ep/1287186",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/411106; https://www.themoviedb.org/tv/223780; https://www.themoviedb.org/tv/223780/season/1; https://www.themoviedb.org/tv/223780/season/0; https://bgm.tv/ep/1287186",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 223780
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +186,8 @@
       "type": "tv"
     },
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 223780,
       "season": 0,
       "type": "tv"

@@ -1,21 +1,114 @@
 {
   "anidbId": 9237,
   "bangumiId": 40756,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 197522,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 197523,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 197524,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 197525,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 197526,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 197527,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 197528,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 197529,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 197530,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 197531,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 197532,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 197533,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 221770,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 221770,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 72698,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2012年电视版：年份、制作人员、角色剧情及逐集标题一致。Bangumi第1—12话对应TMDB第1季全12集，第13话为电视未播出篇，对应S00E01；旧映射遗漏了该话。第0季中的MOON ANGEL不纳入范围。\n\nhttps://www.themoviedb.org/tv/72698 (api_snapshot): TMDB 72698 为2012年电视动画《武装神姫》，导演菊地康仁、制作公司8bit及理人、安等角色与输入一致。\n\nhttps://www.tbs.co.jp/anime/busou/staffcast/ (page): 官方职员表确认导演菊地康仁、动画制作8bit，以及主要角色与声优，与TMDB资料相符。\n\nhttps://www.themoviedb.org/tv/72698/season/1 (api_snapshot): 第1季共12集，已读取完整集表（total_pages=1）；第1至12集日文标题逐一对应Bangumi第1至12话，日期均比输入晚一天，周播间隔一致。\n\nhttps://www.themoviedb.org/tv/72698/season/0 (api_snapshot): 第0季完整集表共2集：第1集为Install x Dream，24分钟，剧情为安接受定期维护，与官方第13话一致；第2集为独立关联作品MOON ANGEL，不属于本subject。\n\nhttps://www.tbs.co.jp/anime/busou/story/ (page): 官方逐话介绍列出第1至13话，标题与输入一致；第13话Install x Dream的维护检查剧情与TMDB S00E01吻合。\n\nhttps://www.tbs.co.jp/anime/busou/goods/disc_1.html (page): 官方光盘资料确认第13话为Install x Dream，第7卷收录1话电视未播出内容，发行日期2013年6月26日，与Bangumi第13话日期一致。\n\n备注：正篇日期在两站间统一相差一天，符合深夜节目跨日记法差异，但本次未取得原始逐周时刻表。；TMDB S00E01日期为空；其发行日期由官方光盘资料核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/40756; https://www.themoviedb.org/tv/72698; https://www.tbs.co.jp/anime/busou/staffcast/; https://www.themoviedb.org/tv/72698/season/1; https://www.themoviedb.org/tv/72698/season/0; https://www.tbs.co.jp/anime/busou/story/; https://www.tbs.co.jp/anime/busou/goods/disc_1.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72698
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 72698,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 72698,
+      "season": 0,
       "type": "tv"
     }
   ]

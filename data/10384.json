@@ -1,21 +1,134 @@
 {
   "anidbId": 8106,
   "bangumiId": 10384,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 84764,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 84765,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 84766,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 84767,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 84768,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 84769,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 84770,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 84771,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 84772,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 84773,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 84774,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 84775,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 88804,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 94936,
+      "sort": 1,
+      "type": 3
+    },
+    {
+      "id": 257237,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 257238,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 257239,
+      "sort": 3,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 257239,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 67922,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将本条目标为2011年4月6日至6月22日播出的《30歳の保健体育》TV动画，共12话，导演まんきゅう、动画制作Gathering。TMDB候选67922具有相同日文原名、2011年、日本来源及12话；其第1季明确包含12集，且第2至12集播出日期与Bangumi逐集日期完全对应。TMDB的首播日期及第1集日期记录为5月6日，与Bangumi及Apple TV确认的4月6日冲突，应视为TMDB元数据错误；不影响作品、季号和完整12集范围的对应。Bangumi另列3个SP，且TMDB有第0季3集，但本subject主体是12话TV正篇，因此不纳入。\n\nhttps://bgm.tv/subject/10384 (page): Bangumi确认作品类型为TV、话数12、播出时间2011年4月6日至6月22日、导演まんきゅう、动画制作Gathering，并列出正篇第1至12话。\n\nhttps://www.themoviedb.org/tv/67922 (api_snapshot): TMDB API快照确认候选作品ID为67922，原名为30歳の保健体育，日语、日本来源，共12集，并有第0季特别篇和第1季。\n\nhttps://www.themoviedb.org/tv/67922/season/1 (api_snapshot): TMDB API快照明确确认season_number=1，季内共12集；第2至12集日期分别为2011年4月13日至6月22日，与Bangumi正篇日期对应。\n\nhttps://tv.apple.com/jp/episode/lesson1/umc.cmc.6mdb8t88rf9dzpwcajv7hpe4j?showId=umc.cmc.6gj8by00mtrras7qy7ckc0qlm (search_snippet): Apple TV将该作品第1集列为2011年4月6日，并描述同一主角今河駿、30岁及性爱之神大五郎等剧情要素。\n\nhttps://animeka.com/animes/detail/30-sai-no-hoken-taiiku.html (search_snippet): 独立资料将同名作品识别为2011年、Gathering制作、12集，并给出与Bangumi相同的今河駿、大五郎和安藤なつ剧情。\n\n备注：AniDB页面本次无法直接读取（403），因此AniDB ID 8106的外部页面未能独立复核；但Bangumi页面、作品名称、制作信息、剧情和逐集日期均与TMDB候选一致。；TMDB候选的首播日期和第1集日期存在明显的5月6日记录错误，且剧集标题为泛化的“第X話”；第1集日期由Apple TV及Bangumi信息校正为4月6日。",
+    "evidence": "codex: 作品年份、TV媒介、剧情、导演、制作公司与声优共同确认对应TMDB 67922。第1季恰好覆盖全部12话正篇，集标题及逐集日期支持顺序一一对应；首集日期冲突由Bangumi与Apple TV交叉核对，判断为TMDB元数据错误。SP3凭完全一致的标题和光碟发行日期对应第0季第3集。\n\nhttps://bgm.tv/subject/10384 (page): Bangumi 确认这是2011年4月6日至6月22日播出的12话TV动画，导演为まんきゅう，动画制作为Gathering；主角、剧情及主要声优与TMDB候选一致。\n\nhttps://www.themoviedb.org/tv/67922 (api_snapshot): TMDB 67922的日文原名、2011年制作年份、Gathering制作、Mankyu导演、主要角色及声优均吻合；剧情同为30岁男性在性爱之神帮助下展开恋爱。作品包含第1季12集及第0季3集。\n\nhttps://www.themoviedb.org/tv/67922/season/1 (api_snapshot): 第1季集表共12集，total_pages=1。第2至12集日期逐集与输入一致；英文标题除第6集翻译异常外均与Bangumi标题语义对应，第6集日期与集号仍吻合。第1集英文标题对应「はじめてのセックス」，但日期记为2011-05-06。\n\nhttps://tv.apple.com/jp/episode/lesson1/umc.cmc.6mdb8t88rf9dzpwcajv7hpe4j?showId=umc.cmc.6gj8by00mtrras7qy7ckc0qlm (search_snippet): Apple TV将本作第1集标为2011年4月6日、12分钟，剧情为今河駿30岁生日时遇见大五郎，支持Bangumi的首集日期。\n\nhttps://www.themoviedb.org/tv/67922/season/0 (api_snapshot): 第0季共3集，total_pages=1。第3集日文标题与Bangumi SP3完全一致，日期为2011-09-23；第1、2集日英文标题均为通用集号，日期分别为2011-07-21、2011-08-19。\n\nhttps://zh.wikipedia.org/wiki/30%E6%AD%B2%E7%9A%84%E5%81%A5%E5%BA%B7%E6%95%99%E8%82%B2 (search_snippet): BD/DVD资料列出「朗読少年」「朗読兄弟」分别随2011-07-22、2011-08-19发行的第2、3卷收录；另一结局「囚われの安藤なつ」随2011-09-23发行的第4卷收录，进一步支持SP3对应S00E03。\n\n备注：TMDB首播及S01E01日期记为2011-05-06，与Bangumi和Apple TV的2011-04-06冲突；S01E06英文标题存在翻译异常。；SP1、SP2可能对应S00E01、S00E02，但TMDB缺少具体标题和简介，且S00E01日期与光碟发行日期相差一天，本次保留未映射。；OP「恋の道程」和ED「learn together」未找到已核实的独立TMDB集记录，保留未映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/10384; https://www.themoviedb.org/tv/67922; https://www.themoviedb.org/tv/67922/season/1; https://tv.apple.com/jp/episode/lesson1/umc.cmc.6mdb8t88rf9dzpwcajv7hpe4j?showId=umc.cmc.6gj8by00mtrras7qy7ckc0qlm; https://animeka.com/animes/detail/30-sai-no-hoken-taiiku.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/10384; https://www.themoviedb.org/tv/67922; https://www.themoviedb.org/tv/67922/season/1; https://tv.apple.com/jp/episode/lesson1/umc.cmc.6mdb8t88rf9dzpwcajv7hpe4j?showId=umc.cmc.6gj8by00mtrras7qy7ckc0qlm; https://www.themoviedb.org/tv/67922/season/0; https://zh.wikipedia.org/wiki/30%E6%AD%B2%E7%9A%84%E5%81%A5%E5%BA%B7%E6%95%99%E8%82%B2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67922
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 67922,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "id": 67922,
+      "season": 0,
       "type": "tv"
     }
   ]

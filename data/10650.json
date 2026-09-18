@@ -1,23 +1,41 @@
 {
   "anidbId": 8158,
   "bangumiId": 10650,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 62391,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 62392,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 10650 明确是《戦場のヴァルキュリア3 誰がための銃瘡》OVA，共2话。官方资料确认其为 A-1 Pictures 制作的两话 OVA，前后篇分别发行；TMDB TV 24392 的特别篇 season 0 中，第10、11集标题分别为该 OVA 的前篇、后篇，且第10集简介与官方剧情一致。因此应映射为 season 0 的第10–11集，而不是整季或 TV 正篇。TMDB 集日期与 Bangumi/官方发行日期存在差异，但不影响标题、剧情、版本和两集范围的对应。\n\nhttps://bgm.tv/subject/10650 (page): Bangumi 将该条目标为 OVA，话数为2，标题为《戦場のヴァルキュリア3 誰がための銃瘡》，并列出前篇、后篇及其制作信息。\n\nhttps://www.aniplex.co.jp/lineup/valkyria3/ (page): Aniplex 官方页面明确说明该作品为“OVA全2話”，并介绍前篇、后篇的剧情、A-1 Pictures 制作及发行信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): 输入提供的 Anime-Lists 关联将该 Bangumi/AniDB 线索指向 TMDB TV 24392；该关联仅作为候选线索。\n\nhttps://www.themoviedb.org/tv/24392 (api_snapshot): TMDB API 快照显示 24392 是《戦場のヴァルキュリア》TV 条目，包含 season 0“特別編”和 season 1 正篇，不能将整部 TV 条目作为该 OVA 的范围。\n\nhttps://www.themoviedb.org/tv/24392/season/0 (api_snapshot): TMDB API 快照的 season 0 第10集标题为《戦場のヴァルキュリア3 誰がための銃瘡 前編》，第11集标题为后編；两集简介和运行时对应该两话 OVA。season 0 其余集为其他特别短篇，因此范围为10–11。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要列出 AniDB ID 8158 对应标题“Senjou no Valkyria 3: Unrecorded Chronicles - Tagatame no Juusou”，与 Bangumi subject 标题及 OVA 内容相符。\n\n备注：TMDB 快照中的两集日期与 Bangumi及官方发行日期不完全一致，可能是 TMDB 特别篇元数据日期误录或采用了不同发布渠道日期；标题、剧情和两话结构均已对应。",
+    "evidence": "codex: 推荐独立条目 TMDB 133479 第1季全两集。年份、OVA两话结构、制作公司、角色阵容及剧情均吻合；前后篇的网络配信日期分别准确对应第1、2集，支持连续映射。Bangumi 后篇的2011-08-31是光盘发行日期，已由官方资料解释。旧映射24392第0季10–11虽也收录同一前后篇，但日期有误，独立条目的范围和时间信息更完整。\n\nhttps://bgm.tv/subject/10650 (page): Bangumi 将本作标为2011年的两话 OVA，导演近藤信宏、脚本大野木宽、动画制作 A-1 Pictures；章节为前篇、后篇。\n\nhttps://www.aniplex.co.jp/lineup/valkyria3/ (page): Aniplex 官方确认全两话 OVA，故事主角为加利亚正规军第422部队“无名部队”；制作人员与 Bangumi 一致。前篇、后篇光盘分别于2011-06-29、2011-08-31发行。\n\nhttps://www.themoviedb.org/tv/133479 (api_snapshot): TMDB 133479 是本作独立条目：2011年、A-1 Pictures制作、无名部队剧情及三位主演均与官方资料一致；只有一季，共两集，简介也列明前后篇光盘发行日期。\n\nhttps://www.themoviedb.org/tv/133479/season/1 (api_snapshot): 第1季完整季表共两集，total_pages=1：第1集2011-04-13、30分钟；第2集2011-07-06、38分钟。标题为通用的“第1话”“第2话”，日期分别对应前后篇网络先行配信。\n\nhttps://www.4gamer.net/games/119/G011916/20110413017/ (search_snippet): 2011-04-13的报道确认，SEGA 当日开始在 PlayStation Store 先行配信本作前篇，与 TMDB 第1集日期一致。\n\nhttps://repotama.com/2011/07/1840/ (search_snippet): 报道援引 SEGA 公告，确认后篇于2011-07-06在 PlayStation Store、Qriocity先行配信，与 TMDB 第2集日期一致；Bangumi 后篇日期采用光盘发行日。\n\nhttps://www.themoviedb.org/tv/24392 (api_snapshot): 旧候选24392主体为2009年、山本靖贵执导的26集电视动画，区别于近藤信宏执导的2011年两话 OVA。\n\nhttps://www.themoviedb.org/tv/24392/season/0 (api_snapshot): 24392第0季共12集，第10、11集确实以本作前篇、后篇命名，但日期分别登记为2009-07-24、2011-07-29，不能与已核实的发行时间吻合；该季还混有其他短篇。\n\nhttps://www.themoviedb.org/movie/1549734 (api_snapshot): 同名电影条目1549734登记为60分钟，剧情、导演及主演与本作重合，但没有前后篇集表，也没有独立电影版本的证明。\n\n备注：TMDB存在独立两集条目、母系列特别篇及同名电影的重复收录；尚未确认电影条目是否代表另行发行的合辑版本，因此未纳入映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/10650; https://www.aniplex.co.jp/lineup/valkyria3/; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/24392; https://www.themoviedb.org/tv/24392/season/0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/10650; https://www.aniplex.co.jp/lineup/valkyria3/; https://www.themoviedb.org/tv/133479; https://www.themoviedb.org/tv/133479/season/1; https://www.4gamer.net/games/119/G011916/20110413017/; https://repotama.com/2011/07/1840/; https://www.themoviedb.org/tv/24392; https://www.themoviedb.org/tv/24392/season/0; https://www.themoviedb.org/movie/1549734",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 133479
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 10,
-      "episodeEnd": 11,
-      "id": 24392,
-      "season": 0,
+      "id": 133479,
+      "season": 1,
       "type": "tv"
     }
   ]

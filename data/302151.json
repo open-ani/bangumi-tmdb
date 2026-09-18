@@ -1,13 +1,79 @@
 {
   "bangumiId": 302151,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 937355,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 937356,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 937357,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 937358,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 937359,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 937360,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 937361,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 937362,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 937363,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 937364,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 937365,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 937366,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 937367,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品身份及第一季范围已确认：年份、剧情、制作公司、配音阵容、Netflix 官方链接及13集范围一致，且输入将第二季另立条目。映射至 TMDB 77606 第一季整季。Bangumi 各章节标题和日期均为空，无法逐章核对，故不凭 sort 位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/77606 (api_snapshot): TMDB 77606 是2018年4月6日首播的动画剧集，由 DreamWorks Animation Television 制作；剧情及 JP Karliak、Pierce Gagnon 等配音阵容与输入一致。第一季13集，第二季另于2018年10月12日首播。\n\nhttps://www.themoviedb.org/tv/77606/season/1 (api_snapshot): 已读取第一季完整集表，共13集、1页，各集日期均为2018年4月6日，符合该 subject 的13话及放送起止日期；季内未混入电影或其他季度。\n\nhttps://www.netflix.com/title/80178943 (page): 输入所列 Netflix 官方地址对应同名动画剧集，简介为老板宝宝带哥哥 Tim 参与公司业务，主演阵容吻合；页面展示的前10集标题及顺序与 TMDB 第一季一致。\n\nhttps://www.tvguide.com/tvshows/the-boss-baby-back-in-business/episodes-season-1/1030893776/ (search_snippet): TV Guide 第一季集表列出13集，全部于2018年4月6日播出；13集标题和顺序均与 TMDB 第一季一致。\n\nhttps://www.rottentomatoes.com/tv/the_boss_baby_back_in_business/s01 (search_snippet): 第一季资料确认 Netflix、2018年4月6日及执行制片人 Brandon Sawyer；导演列为 Allan Jacobsen，与输入的 Tom McGrath 字段存在差异。\n\n备注：逐集映射暂留空；需补充 Bangumi 章节标题、日期或其他能确认章节内容的资料。；Bangumi 网页及章节页本次访问失败，Bangumi 侧依据为用户提供的快照。；输入导演字段与外部第一季资料不同，可能混入电影资料；未将该字段作为匹配依据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/302151; https://www.themoviedb.org/tv/77606; https://www.themoviedb.org/tv/77606/season/1; https://www.netflix.com/title/80178943; https://www.tvguide.com/tvshows/the-boss-baby-back-in-business/episodes-season-1/1030893776/; https://www.rottentomatoes.com/tv/the_boss_baby_back_in_business/s01",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

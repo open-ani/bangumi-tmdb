@@ -1,15 +1,156 @@
 {
+  "anidbId": 16768,
   "bangumiId": 240633,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 783708,
+      "sort": 79,
+      "type": 0
+    },
+    {
+      "id": 783709,
+      "sort": 80,
+      "type": 0
+    },
+    {
+      "id": 783710,
+      "sort": 81,
+      "type": 0
+    },
+    {
+      "id": 783711,
+      "sort": 82,
+      "type": 0
+    },
+    {
+      "id": 783712,
+      "sort": 83,
+      "type": 0
+    },
+    {
+      "id": 783713,
+      "sort": 84,
+      "type": 0
+    },
+    {
+      "id": 783714,
+      "sort": 85,
+      "type": 0
+    },
+    {
+      "id": 783715,
+      "sort": 86,
+      "type": 0
+    },
+    {
+      "id": 783716,
+      "sort": 87,
+      "type": 0
+    },
+    {
+      "id": 783717,
+      "sort": 88,
+      "type": 0
+    },
+    {
+      "id": 783718,
+      "sort": 89,
+      "type": 0
+    },
+    {
+      "id": 783719,
+      "sort": 90,
+      "type": 0
+    },
+    {
+      "id": 783720,
+      "sort": 91,
+      "type": 0
+    },
+    {
+      "id": 783721,
+      "sort": 92,
+      "type": 0
+    },
+    {
+      "id": 783722,
+      "sort": 93,
+      "type": 0
+    },
+    {
+      "id": 783723,
+      "sort": 94,
+      "type": 0
+    },
+    {
+      "id": 783724,
+      "sort": 95,
+      "type": 0
+    },
+    {
+      "id": 783725,
+      "sort": 96,
+      "type": 0
+    },
+    {
+      "id": 783726,
+      "sort": 97,
+      "type": 0
+    },
+    {
+      "id": 783727,
+      "sort": 98,
+      "type": 0
+    },
+    {
+      "id": 783728,
+      "sort": 99,
+      "type": 0
+    },
+    {
+      "id": 783729,
+      "sort": 100,
+      "type": 0
+    },
+    {
+      "id": 783730,
+      "sort": 101,
+      "type": 0
+    },
+    {
+      "id": 783731,
+      "sort": 102,
+      "type": 0
+    },
+    {
+      "id": 783732,
+      "sort": 103,
+      "type": 0
+    },
+    {
+      "id": 783733,
+      "sort": 104,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 112191 的原名为“精灵梦叶罗丽”，别名包含 Ye Luoli、叶罗丽精灵梦等；导演金今与 Bangumi 一致。其第4季首播日期为2016-07-28，剧情简介与 Bangumi 基本一致，实际季表包含26集，日期从2016-07-28至2017-01-12，集名和剧情均对应 Bangumi 第79—104话。因此可确定为同一作品的第4季，使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/240633 (api_snapshot): Bangumi subject 标题为精灵梦叶罗丽 第4季，日期为2016-07-28，共26集，导演和编剧为金今。\n\nhttps://www.themoviedb.org/tv/112191 (api_snapshot): TMDB TV 112191 原名为精灵梦叶罗丽，首播年份为2013，共11季；别名包含叶罗丽、叶罗丽精灵梦、Ye Luoli，导演和编剧均为金今，第4季日期为2016-07-28且共26集。\n\nhttps://www.themoviedb.org/tv/112191/season/4 (api_snapshot): TMDB 第4季实际季表为26集，首播日期2016-07-28；集名从塔罗牌的时间、我是自由的至我来找回你的未来，与 Bangumi 第4季主体及剧情对应。",
+    "evidence": "codex: 作品媒介、导演编剧、第四季首播日期、剧情及26集范围一致；完整集表的标题顺序确认Bangumi本篇sort 79—104对应TMDB 112191第4季第1—26集。该季没有混入其他作品，可采用整季范围和连续映射。\n\nhttps://www.themoviedb.org/tv/112191 (api_snapshot): TMDB 112191 为中文电视动画《精灵梦叶罗丽》，导演、编剧均为金今；第四季首播日期为2016-07-28，共26集。第四季关于舒言石像化、冰公主救援、荒石复活菲灵等剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/112191/season/4 (api_snapshot): 已读取第四季完整集表，共26集、1页。逐集对照输入，22个标题完全一致；第3、15、24、26集存在措辞差异，分别对应Bangumi第81、93、102、104话。全季标题顺序和剧情衔接一致，首集为《塔罗牌的时间》，末集为《我来找回你的未来》，覆盖该subject全部26话。\n\n备注：输入未提供Bangumi逐集播出日期，无法逐集交叉核验日期；TMDB第6、7集同记为2016-09-01，因此未将其日期视为已独立验证的排期。；第3、15、24、26集标题存在轻微措辞差异；结合其余标题、完整顺序及剧情，未发现缺集、插集或版本差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/240633; https://api.bgm.tv/v0/subjects/240633; https://www.themoviedb.org/tv/112191; https://www.themoviedb.org/tv/112191/season/4",
-    "verifiedAt": "2026-09-08T21:17:01.219Z"
+    "source": "https://bgm.tv/subject/240633; https://www.themoviedb.org/tv/112191; https://www.themoviedb.org/tv/112191/season/4",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 104,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 79,
+      "tmdbId": 112191
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

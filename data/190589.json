@@ -1,16 +1,91 @@
 {
   "anidbId": 12270,
   "bangumiId": 190589,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 659028,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 659029,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 659030,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 659031,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 659032,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 659033,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 659034,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 659035,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 659036,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 659037,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 659038,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 659039,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 659040,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 67324第一季全13集。年份、网络动画版本、制作信息、宇宙船剧情及集数范围一致；官方分集表与TMDB逐集标题、日期和剧情全部吻合。Bangumi输入虽缺少分集标题与日期，但明确为本作完整的第1至13话，因此依据官方编号与已核实集表建立连续对应。\n\nhttps://www.themoviedb.org/tv/67324 (api_snapshot): 日文原名搜索命中 TV 67324；详情确认其为《蜡笔小新外传》，2016年8月3日首播，制作公司为新锐动画与朝日电视台。第一季明确名为《エイリアン vs. しんのすけ》，共13集，宇宙船密室悬疑剧情与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/67324/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集。第1集至第13集于2016年8月3日至10月26日每周播出，标题、日期及剧情与 Prime Video 官方分集表逐项一致；整季没有混入其他外传。\n\nhttps://www.tv-asahi.co.jp/shinchan/contents/news/0017/ (page): 官方公告确认本作为25周年纪念网络原创动画，2016年8月3日起每周配信1话，共13话，故事发生于2116年的宇宙船中。\n\nhttps://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/5736?entry_id=5252 (page): 发行方资料明确本作为外传第一季，导演三原三千夫、系列构成及编剧上野贵美子、角色设计及总作画监督末吉裕一郎；属于网络连续剧情动画。\n\nhttps://www.primevideo.com/-/ja/detail/0O8IC7OA8MS7RCR8ZU83QY128X?tr=lu (page): Prime Video 第一季列出完整13话及各话日期，顺序从第1话《目覚め》至第13话《地球へ》，与TMDB第一季全部集号、标题、日期及剧情吻合，支持1至13话连续一对一映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/190589; https://www.themoviedb.org/tv/67324; https://www.themoviedb.org/tv/67324/season/1; https://www.tv-asahi.co.jp/shinchan/contents/news/0017/; https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/5736?entry_id=5252; https://www.primevideo.com/-/ja/detail/0O8IC7OA8MS7RCR8ZU83QY128X?tr=lu",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67324
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

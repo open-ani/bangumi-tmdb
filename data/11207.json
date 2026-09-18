@@ -1,13 +1,34 @@
 {
   "bangumiId": 11207,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 66687,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 66688,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 66689,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 66690,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 首播年份、媒介、导演及编剧、声优阵容和全4话规模相符，可确认对应 TMDB 211523 第1季整季。逐集日期存在冲突，且 Bangumi 章节缺少标题和日期、TMDB 仅有通用集号，因此保留作品及季映射，暂不生成逐集规则。\n\nhttps://chii.in/subject/11207 (page): Bangumi 标注为 2009-10-03 开播、全4话的 TV 动画，原作たみやともか，导演及脚本外山草；剧情为兔子穿猴子装、吃香蕉后变身英雄。\n\nhttps://www.themoviedb.org/tv/211523 (api_snapshot): TMDB 211523 为2009-10-03首播的《うさるさん》，共1季4集；导演及编剧外山草，演员包括庄子裕衣、仲谷明香、佐藤亜美菜、大林隆介、向井真理子，与该动画制作资料一致。\n\nhttps://www.themoviedb.org/tv/211523/season/1 (api_snapshot): 第1季真实集表共4集，仅1页，每集3分钟，标题均为通用集号；日期分别为2009-10-03、10-10、10-17、10-24。\n\nhttps://gigazine.net/news/20090904_anime_2009autumn/ (page): 同期报道确认兔子穿猴子装、吃香蕉变身的剧情及原作者、声优；全4话，Kids Station 于2009-10-03播放第1、2话，10-10播放第3、4话。\n\nhttps://animedb.moe/anime/series/7177 (page): 资料列出同一原作、导演及角色设计，四话标为「セイギ1」至「セイギ4」；第1、2话日期为2009-10-03，第3、4话为10-10，与同期报道一致。\n\n备注：TMDB 第2至4集日期与同期报道及逐话资料不一致，尚不能确认其逐集内容顺序；不能仅凭四个集号建立对应关系。后续需补充 TMDB 各集内容或有效标题以核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/11207; https://chii.in/subject/11207; https://www.themoviedb.org/tv/211523; https://www.themoviedb.org/tv/211523/season/1; https://gigazine.net/news/20090904_anime_2009autumn/; https://animedb.moe/anime/series/7177",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

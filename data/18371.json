@@ -1,14 +1,60 @@
 {
   "anidbId": 8403,
   "bangumiId": 18371,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 115972,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 117749,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 120093,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 123477,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 124867,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 129297,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 131870,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 132187,
+      "sort": 1,
+      "type": 2
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 132187,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 18371、AniDB 8403 与 GONZO 官方资料均对应同一部《こぴはん》WEB动画：标题、2011年档期、GONZO制作及鎌田祐輔/KEI/濱田貴司等信息一致，主体明确为全7话。输入的 TMDB API 快照显示 95660 的第1季正好有第1至第7集，因此采用完整第1季。Bangumi 的“ループ”样本对应官方标注的片头曲，不是需纳入主体正篇的额外集数。\n\nhttps://bgm.tv/subject/18371 (page): 条目为《こぴはん》WEB动画，7话，2011-08-11至2011-11-03，章节为01至07，制作人为GONZO，人物原案KEI，监督/人物设定鎌田祐輔，音乐濱田貴司。\n\nhttps://anidb.net/anime/8403 (page): AniDB 8403 的主标题为 Copihan，官方日文名为こぴはん，类型为Web，7 episodes，日期为2011-08-12至2011-11-04，并列出相符的主创和GONZO制作信息。\n\nhttps://www.gonzo.co.jp/works/kopihan/index.html (page): GONZO官方作品页称《こぴはん》为其与KEI合作的动画，由GONZO制作，全7话，2011年8月至11月在niconico配信。\n\nhttps://gonzo.co.jp/archives/copihan/staff.html (search_snippet): 官方资料将“ループ”标为《こぴはん》的片头主题曲。\n\nhttps://www.themoviedb.org/tv/95660 (api_snapshot): 输入提供的TMDB API快照显示TV 95660名为こぴはん，共7集，唯一季为第1季且包含7集。\n\nhttps://www.themoviedb.org/tv/95660/season/1 (api_snapshot): 输入提供的TMDB季快照明确为第1季，共7集，集号连续为1至7。",
+    "evidence": "codex: 作品身份及整季范围已确认：年份、故事背景、GONZO与KEI合作信息、演员角色及7集短篇规模相符，TMDB唯一的第1季覆盖本作主体。逐集标题缺失且日期存在明显冲突，因此不凭集号位置生成连续规则；片头曲章节明确排除。\n\nhttps://bgm.tv/subject/18371 (page): Bangumi 将本作标为 WEB 动画，共7话，2011年8月11日至11月3日配信；GONZO制作，人物原案KEI，监督及人物设定鎌田祐輔。\n\nhttps://www.gonzo.co.jp/works/kopihan/index.html (page): GONZO 官方确认本作为2011年8月至11月在 niconico 配信的全7话动画，故事发生于2034年东京都箱柳市；制作人员与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/95660 (api_snapshot): TMDB 95660 原名为こぴはん，年份为2011年，简介明确描述2034年东京的校园喜剧及GONZO与KEI合作；演员世戸さおり饰演Yuna，与官方角色门仓优奈相符。条目仅有第1季，共7集。\n\nhttps://www.themoviedb.org/tv/95660/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为单页、7集，集号1至7，每集约6分钟。标题均为通用集号；第1集日期为2011-08-12，第2至7集全部标为2011-08-18，无法与 Bangumi 的逐集日期核对一致。\n\nhttps://bgm.tv/subject/18371/ep (page): Bangumi 章节页列出7个具有具体时间式标题的本篇，日期依次为2011-08-11、08-25、09-08、09-29、10-06、10-20、11-03，另列OP《ループ》。\n\nhttps://www.gonzo.co.jp/archives/copihan/staff.html (page): 官方工作人员及演员页确认《ループ》是片头主题曲。\n\n备注：7话本篇的逐集对应暂留空：TMDB仅提供通用集号标题，第2至7集日期全部相同且与实际配信记录不符。需补充能关联具体TMDB集条目的标题、剧情或可靠日期证据后再建立规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/18371; https://anidb.net/anime/8403; https://www.gonzo.co.jp/works/kopihan/index.html; https://gonzo.co.jp/archives/copihan/staff.html; https://www.themoviedb.org/tv/95660; https://www.themoviedb.org/tv/95660/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/18371; https://www.gonzo.co.jp/works/kopihan/index.html; https://www.themoviedb.org/tv/95660; https://www.themoviedb.org/tv/95660/season/1; https://bgm.tv/subject/18371/ep; https://www.gonzo.co.jp/archives/copihan/staff.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

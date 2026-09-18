@@ -1,15 +1,156 @@
 {
+  "anidbId": 11198,
   "bangumiId": 131717,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 568283,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 568284,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 568285,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 568286,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 568287,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 568288,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 568289,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 568290,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 568291,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 568292,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 568293,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 568294,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 592410,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 592411,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 592412,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 592413,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 592414,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 592415,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 592416,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 592417,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 592418,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 592419,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 592420,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 592421,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 622923,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 624843,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 9537 的第2季明确名为“新あたしンち”，首播日期为2015-10-06，共26集；季表中的集名与 Bangumi 的26集逐集对应，末集日期为2016-04-05，且制作公司为 Shin-Ei Animation、ADK，与 Bangumi 资料一致。因此应映射为主系列「あたしンち」的第2季整季。TMDB 的独立条目155051虽有相同集名，但日期从2015-12-12开始、运行时长和播出日期明显不符，更像重复或错误版本，不采用。\n\nhttps://www.themoviedb.org/tv/9537 (api_snapshot): TMDB主条目原名「あたしンち」，alternative titles包含「新あたしンち」和「Shin Atashinchi」；其季表显示第2季名为「新あたしンち」、2015-10-06开始、26集。\n\nhttps://www.themoviedb.org/tv/9537/season/2 (api_snapshot): 第2季实际返回26集；第1集至第26集的标题逐项对应 Bangumi 26集，首集日期为2015-10-06，末集日期为2016-04-05。\n\nhttps://www.themoviedb.org/tv/155051 (api_snapshot): 独立条目「新あたしンち」虽然也返回26集，但条目日期为2015-12-12至2016-06-11，且与 Bangumi 的播出日期不符。\n\nhttps://www.themoviedb.org/tv/155051/season/1 (api_snapshot): 独立条目的季表集名大体相同，但使用不同播出日期和24分钟运行时长，不能优先于与 Bangumi 日期、版本结构均吻合的9537第2季。\n\n备注：TMDB同时收录了独立条目155051这一重复/不同版本记录；其具体来源未在API中说明，但它不是与 Bangumi 播出时间线最匹配的记录。",
+    "evidence": "codex: 确认对应TMDB 9537第2季整季。官方资料确认2015年Animax电视续篇的版本、制作人员、播出区间及26回三段式结构；实际季表的26组标题与Bangumi逐集同序对应，主体没有混入旧作或NEXT，可建立1至26话连续映射。日期逐项比对发现5处差异，旧映射关于日期完全吻合的说明不准确，但完整标题与数量足以确认集身份及顺序。\n\nhttps://keraeiko.com/works/934.html (page): 原作者官网确认本作为2015年电视续篇，由シンエイ動画、ADK制作，2015-10-06至2016-04-05在Animax播出，共26回，每回三个短篇；系列构成为上田信治，人物设计为大武正枝，与输入资料一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=20600 (page): 正版平台确认2015年版共26话，立花家四口的日常剧情及主要声优、制作人员与输入及TMDB候选一致。\n\nhttps://www.themoviedb.org/tv/9537 (api_snapshot): 详情将2002年旧作、2015年《新あたしンち》、2024年NEXT分别列为第1、2、3季；第2季明确为2015-10-06开播、26集，原作者、主要声优和制作公司吻合。\n\nhttps://www.themoviedb.org/tv/9537/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共26集。全部三段式标题与Bangumi第1至26话依次对应，仅有标点、助词等细微写法差异，无增删或重排。21集日期与输入一致；第2、3、13、14、19集日期存在差异。首末集日期分别为2015-10-06、2016-04-05。\n\nhttps://www.themoviedb.org/tv/155051 (api_snapshot): 独立候选155051同样描述立花家日常，制作公司及主要声优一致，共26集，但记录的播出区间为2015-12-12至2016-06-11。\n\nhttps://www.themoviedb.org/tv/155051/season/1 (api_snapshot): 已读取独立候选第1季全部26集，total_pages=1；标题基本对应同一批内容，但使用另一套播出日期，第8集还将「甘え下手」写为「甘え上手」。这些差异不足以证明它是不同制作版本，本次不重复映射。\n\n备注：9537第2季第2、3集日期均记为2015-10-06；第13、14集记为2016-01-05、2016-01-12；第19集记为2016-05-16，分别与输入不同。尚未逐项裁定两站日期孰误，不影响已由标题确认的对应关系。；9537第2季多数集时长记为10分钟，与官方每回三个约7分钟短篇的结构不符；不能据此拆成短篇映射。；155051疑似同内容的重复记录或采用其他地区播出时间，其日期来源尚未确认；不能仅凭日期及24分钟时长将其判为另一版本。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/131717; https://www.themoviedb.org/tv/9537; https://www.themoviedb.org/tv/9537/season/2; https://www.themoviedb.org/tv/155051; https://www.themoviedb.org/tv/155051/season/1",
-    "verifiedAt": "2026-09-08T20:00:08.183Z"
+    "source": "https://bgm.tv/subject/131717; https://keraeiko.com/works/934.html; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=20600; https://www.themoviedb.org/tv/9537; https://www.themoviedb.org/tv/9537/season/2; https://www.themoviedb.org/tv/155051; https://www.themoviedb.org/tv/155051/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 9537
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,14 +1,75 @@
 {
   "anidbId": 14550,
   "bangumiId": 269906,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 874421,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 874422,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 874423,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 874424,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 874425,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 874426,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 874427,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 874428,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 874429,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 874430,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 874431,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 874432,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目主体是《ジモトがジャパン》电视动画，输入中的 AniDB 14550 匹配标题与该作品一致。公开资料确认其由 ODDJOB 制作、2019-04-08 至 2020-03-23 播出，共 50 话；TMDB 87480 同名、首播日期一致，且第 1 季明确包含完整 50 集。因此采用 TMDB 第 1 季全集，不缩小集数范围。Bangumi 单集日期比 TMDB 早一天，符合日期表示差异，不影响作品和季对应。\n\nhttps://www.themoviedb.org/tv/87480 (api_snapshot): TMDB 条目名称为「ジモトがジャパン」，首播日期为 2019-04-08，共 50 集，仅有第 1 季。\n\nhttps://www.themoviedb.org/tv/87480/season/1 (api_snapshot): TMDB 第 1 季明确列出第 1 至第 50 集，日期从 2019-04-08 延续至 2020-03-23。\n\nhttps://bgm.tv/anime/tag/%E6%BC%AB%E7%94%BB%E6%94%B9/?meta=1&page=37&sort=collects (search_snippet): Bangumi 搜索结果将《ジモトがジャパン》列为 2019-04-08、50 话的动画条目。\n\nhttps://www.animatetimes.com/tag/details.php?id=7768 (search_snippet): 资料确认该作品为电视动画，2019-04-08 至 2020-03-23 播出，共 50 话，制作公司为 ODDJOB。",
+    "evidence": "codex: 确认对应TMDB 87480第1季整季。输入指定的官方作品、原作、电视媒介、首尾播出日期及50话规模相互吻合；实际季表完整覆盖该50话电视短篇动画，没有混入其他作品的迹象。Bangumi仅建有12条章节，不代表subject仅覆盖12话。逐集层面缺少可比对的标题，且日期存在未经解释的一天偏差，因此暂不生成rules或overrides。\n\nhttps://www.shopro.co.jp/tv/jimoto-anime/ (page): 官方网站确认这是林聖二漫画改编的电视动画，在东京电视台《おはスタ》内每周一播出；剧情围绕从山形转学至东京的安孫子時生与自称“都道府拳大师”的日ノ本ジャパン展开，与输入的原作和官网信息一致。\n\nhttps://www.allcinema.net/cinema/366720 (page): 资料列为2019—2020年电视动画，导演上野勇，播出期间为2019-04-08至2020-03-23，共50集。\n\nhttps://filmarks.com/animes/920/714 (search_snippet): 资料确认动画制作公司为ODDJOB、原作为林聖二、导演为上野勇，首播日期为2019-04-08；第一集剧情与官方网站一致。\n\nhttps://www.themoviedb.org/tv/87480 (api_snapshot): 日文原名搜索命中TV 87480；详情确认原名相同，首播2019-04-08、完结2020-03-23，仅有一季、共50集。简介、制作公司和演职员字段为空，不能据此直接核对剧情与人员。\n\nhttps://www.themoviedb.org/tv/87480/season/1 (api_snapshot): 已读取第1季完整集表：total_pages=1，共50集，编号1—50，日期覆盖2019-04-08至2020-03-23，每集标注2分钟；标题均为通用集号。前12集日期与输入相同编号的Bangumi章节逐条相差一天，TMDB晚一天。\n\n备注：Bangumi现有12条章节标题均为空，TMDB只有通用集号标题，无法独立核对各集内容。；前12集日期虽呈一致的一天偏差，但尚无证据证明偏差原因，不能直接认定为时区差异；需补充Bangumi章节标题或日期修订依据后再建立逐集规则。；Bangumi网页本次未能读取；其subject范围与章节信息依据用户提供的快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/269906; https://www.themoviedb.org/tv/87480; https://www.themoviedb.org/tv/87480/season/1; https://bgm.tv/anime/tag/%E6%BC%AB%E7%94%BB%E6%94%B9/?meta=1&page=37&sort=collects; https://www.animatetimes.com/tag/details.php?id=7768",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/269906; https://www.shopro.co.jp/tv/jimoto-anime/; https://www.allcinema.net/cinema/366720; https://filmarks.com/animes/920/714; https://www.themoviedb.org/tv/87480; https://www.themoviedb.org/tv/87480/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

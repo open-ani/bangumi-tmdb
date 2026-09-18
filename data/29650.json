@@ -1,21 +1,131 @@
 {
   "anidbId": 8879,
   "bangumiId": 29650,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 176165,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 176166,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 176167,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 176168,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 176169,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 176170,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 176171,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 176172,
+      "sort": 7.5,
+      "type": 1
+    },
+    {
+      "id": 176173,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 176174,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 176175,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 176176,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 197607,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 258079,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 176172,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45234,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 258079,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 45234,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB TV 45234：年份、剧情、原作、制作阵容及12集本篇范围一致。官方逐集标题与TMDB顺序相符，本篇映射第1季1—12集；总集篇和泳装特别篇按标题及日期分别映射第0季第1、2集。\n\nhttps://www.themoviedb.org/tv/45234 (api_snapshot): 日文原名搜索命中 TV 45234；详情确认首播为2012-07-06、原作为橘ぱん、制作公司包括feel.，加贺良介与死神莉萨拉签约的剧情及主要角色均一致。\n\nhttps://www.themoviedb.org/tv/45234/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。逐集标题与Bangumi本篇1—12一致，只有标点差异；第1—8集日期一致，第9—12集日期分别比输入早3天。\n\nhttps://www.themoviedb.org/tv/45234/season/0 (api_snapshot): 第0季完整集表共2集、仅1页：第1集为总集篇「いきなり入れちゃった」，日期2012-08-24；第2集为「見えすぎ！水着コンテスト」，日期2013-03-29。两者标题、日期分别与输入的两个特别篇一致。\n\nhttps://boku-h.com/story/story.html (page): 动画官网列出本篇第1—12话，全部标题及顺序与TMDB第1季和输入一致，支持连续逐集对应。\n\nhttps://www.bs11.jp/anime/h/ (page): BS11节目资料确认原作橘ぱん、导演高橋丈夫、音乐渡部チェル、动画制作feel.；剧情、主演及角色与TMDB一致，确认是同一2012年电视动画版本。\n\nhttps://www.mau2.com/anime/dakarabokuhahgadekinai/ep/9 (search_snippet): 第9话资料将「奮い勃つ剣（キングダム）」的公开日期记为2012-09-04，与TMDB相符，为日期差异提供旁证。\n\n备注：本篇第9—12集的Bangumi日期为2012-09-07、09-14、09-21、09-28，TMDB为09-04、09-11、09-18、09-25；日期差异的具体原因未完全核实，但官方标题和顺序一致，不影响集号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/29650; https://www.themoviedb.org/tv/45234; https://www.themoviedb.org/tv/45234/season/1; https://www.themoviedb.org/tv/45234/season/0; https://boku-h.com/story/story.html; https://www.bs11.jp/anime/h/; https://www.mau2.com/anime/dakarabokuhahgadekinai/ep/9",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45234
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45234,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 45234,
+      "season": 0,
       "type": "tv"
     }
   ]

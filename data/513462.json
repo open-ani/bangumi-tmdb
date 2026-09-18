@@ -1,15 +1,164 @@
 {
+  "anidbId": 11486,
   "bangumiId": 513462,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1396265,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1396266,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1396267,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1396268,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1396269,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1396270,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1396271,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1396272,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1396273,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1396274,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1396275,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1396276,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1396277,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1396278,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1396279,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1396280,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1396281,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1396282,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1396283,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1396284,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1396285,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1396286,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1396287,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1396288,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1396289,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1396290,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《Mini Van》（原名：みにヴぁん），而非独立新作品。TMDB 条目为日本动画闪剧，2013 年开播，共 2 季；第 2 季明确于 2015-10-03 开播、2016-03-26 结束，共 26 集，正好覆盖 Bangumi subject 的《みにヴぁん 2》26 集。官方资料也确认其为《サタデーヴァンガード1030》中的《みにヴぁん》短篇动画单元；制作资料显示原作 Quily、导演谷東、动画制作 DLE。\n\nhttps://api.bgm.tv/v0/subjects/513462 (api_snapshot): Bangumi API 原始信息：名称为みにヴぁん 2，日期为2015-10-03，媒介为TV，共26集。\n\nhttps://www.themoviedb.org/tv/258068 (api_snapshot): TMDB details：原名みにヴぁん，类型为TV，日本动画闪剧，剧情为改编自《Mini Vanguard》漫画；2013-04-06开播，2016-03-26完结，共2季63集；Season 2为26集。\n\nhttps://www.themoviedb.org/tv/258068/season/2 (api_snapshot): TMDB Season 2实际集表覆盖第1至第26集，日期为2015-10-03至2016-03-26，total_pages=1，未混入其他季。\n\nhttps://www.tv-tokyo.co.jp/anime/satavan/sp/backno/ (page): 东京电视台官方页面列出第26回于2016-03-26播出，并明确介绍其中的みにヴぁん短篇闪动画单元及剧情。\n\nhttps://www.animatetimes.com/tag/details.php?id=14865 (page): 作品资料确认《みにヴぁん2》是TV动画，播出期为2015-10-03至2016-03-26、全26话；原作Quily、导演谷東、动画制作DLE。",
+    "evidence": "codex: 确认对应TMDB 258068第二季整季：动画版本、衍生剧情、短篇媒介、播出年份及26集范围一致。依据官方回次及逐集放送日期建立第1—16、18—26话连续映射；第17话存在日期冲突，暂不建立逐集对应。\n\nhttps://www.themoviedb.org/tv/258068 (api_snapshot): 日文原名及英文别名搜索均返回 TV 258068；详情确认原名为「みにヴぁん」，第一季始于2013年，第二季始于2015-10-03、共26集。\n\nhttps://www.themoviedb.org/tv/258068/season/2 (api_snapshot): 第二季真实集表为第1—26集，每集3分钟，total_pages=1。第1—16、18—26集日期与官方对应回次一致；第17集日期记为2016-01-30，与第18集重复。集标题均为通用编号。\n\nhttps://www.animatetimes.com/tag/details.php?id=14865 (page): 资料确认《みにヴぁん2》为2015-10-03至2016-03-26播出的26话TV动画，原作Quily、导演谷東、制作DLE，属于先导者衍生短篇动画。\n\nhttps://www.tv-tokyo.co.jp/anime/satavan/sp/backno/index_3.html (page): 官方记录第1—6回分别于2015-10-03至11-07逐周播出，并明确包含「みにヴぁん」短篇动画单元。\n\nhttps://www.tv-tokyo.co.jp/anime/satavan/sp/backno/index_2.html (page): 官方记录第7—16回的日期和动画剧情，播出日期为2015-11-14至2016-01-16，与TMDB对应集号逐一一致。\n\nhttps://www.tv-tokyo.co.jp/anime/satavan/sp/backno/ (page): 官方记录第17回于2016-01-23播出，第18—26回于2016-01-30至03-26播出，并逐回介绍动画剧情；第26回为最终回。\n\n备注：Bangumi所给章节没有标题和日期，逐集核验以官方放送记录补充；TMDB也没有实质性集标题。；TMDB第二季第17集标注2016-01-30，官方第17回为2016-01-23，疑为日期录入错误；缺少标题或剧情交叉验证，暂留空该话映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/513462; https://api.bgm.tv/v0/subjects/513462; https://www.themoviedb.org/tv/258068; https://www.themoviedb.org/tv/258068/season/2; https://www.tv-tokyo.co.jp/anime/satavan/sp/backno/; https://www.animatetimes.com/tag/details.php?id=14865",
-    "verifiedAt": "2026-09-09T00:15:18.905Z"
+    "source": "https://bgm.tv/subject/513462; https://www.themoviedb.org/tv/258068; https://www.themoviedb.org/tv/258068/season/2; https://www.animatetimes.com/tag/details.php?id=14865; https://www.tv-tokyo.co.jp/anime/satavan/sp/backno/index_3.html; https://www.tv-tokyo.co.jp/anime/satavan/sp/backno/index_2.html; https://www.tv-tokyo.co.jp/anime/satavan/sp/backno/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 258068
+    },
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 18,
+      "season": 2,
+      "start": 18,
+      "tmdbId": 258068
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,91 @@
 {
   "anidbId": 10445,
   "bangumiId": 96918,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 405336,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 405337,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 405338,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 405339,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 405340,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 405341,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 405342,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 405343,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 405344,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 405345,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 405346,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 405347,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2014年TV动画第一期。作品年份、剧情、导演及制作公司一致，12话的日文标题和播出日期逐集吻合。TMDB将两期合并为第1季24集，因此本subject仅覆盖S01E01—E12；旧映射应收窄，避免包含第二期E13—E24。\n\nhttps://www.themoviedb.org/tv/61259 (api_snapshot): 日文原名搜索命中 TMDB TV 61259，原名为「アルドノア・ゼロ」，首播日期为2014-07-05。\n\nhttps://www.themoviedb.org/tv/61259 (api_snapshot): 作品详情确认导演为あおきえい，制作公司包含TROYCA及A-1 Pictures；火星骑士驾驶机甲侵攻地球的剧情，以及伊奈帆、斯雷因、艾瑟依拉姆等角色均与输入一致。该TV条目共24集，第1季收录24集。\n\nhttps://www.themoviedb.org/tv/61259/season/1 (api_snapshot): 已读取第1季完整集表（共1页）。第1—12集的日文标题及播出日期逐集与输入一致，日期为2014-07-05至2014-09-20；第10集英文副标题存在War/Wars的轻微拼写差异。第13集于2015-01-10播出，明确进入第二期范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/96918; https://www.themoviedb.org/tv/61259; https://www.themoviedb.org/tv/61259/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61259
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 61259,
       "season": 1,
       "type": "tv"

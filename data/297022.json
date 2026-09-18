@@ -1,19 +1,86 @@
 {
   "anidbId": 15324,
   "bangumiId": 297022,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 979000,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 979001,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 979002,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 979003,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 979004,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 979005,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 979006,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 979007,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 979008,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 979009,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 979010,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、电视动画媒介、剧情和制作信息一致，11话的标题及日期逐集吻合。本subject对应TMDB 100281第1季第1—11集；旧映射范围应收窄，因为该季还包含2021年第二季度的第12—24集。\n\nhttps://www.themoviedb.org/tv/100281 (api_snapshot): TMDB 100281 为2020年10月11日首播的同名日本电视动画；英国阶级制度与莫里亚蒂犯罪革命的剧情、Production I.G 等制作公司均与输入一致。\n\nhttps://www.themoviedb.org/tv/100281/season/1 (api_snapshot): 已读取第1季完整24集表，total_pages=1。第1至11集的日文标题及播出日期与输入的11个本篇章节逐一完全一致，日期范围为2020年10月11日至12月20日。第12集于2021年4月4日播出，属于后续季度。\n\nhttps://moriarty-anime.com/staffcast (page): 官方制作名单确认原作为竹内良辅、三好辉，人物设计为大久保彻，动画制作为Production I.G；主演名单也与TMDB一致，支持同一动画版本。\n\nhttps://moriarty-anime.com/onair (page): 官方放送页面分别列出两个季度，首季度10月11日起播出，第二季度4月4日起播出，并确认电视系列合计24话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/297022; https://www.themoviedb.org/tv/100281; https://www.themoviedb.org/tv/100281/season/1; https://moriarty-anime.com/staffcast; https://moriarty-anime.com/onair",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 100281
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 11,
       "id": 100281,
       "season": 1,
       "type": "tv"

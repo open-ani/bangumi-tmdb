@@ -1,13 +1,64 @@
 {
   "bangumiId": 451191,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1243556,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1243557,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1243558,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1243559,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1243560,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1243561,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1243562,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1243563,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1243564,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1243565,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 104127 是 Hulu 的《Crossing Swords》，与 Bangumi 的《十字剑》为同一部美国成人定格动画喜剧：首播年份为 2020，第二季于 2021-12-10 上线，剧情均围绕 Patrick 在腐败的中世纪王国担任侍从展开；制作公司包含 Stoopid Buddy Stoodios、Tom is Awesome、Buddy Systems 和 Sony Pictures Television，创作者/导演包括 John Harvatine IV 与 Tom Root。TMDB 明确记录该 TV 共 2 季、20 集；第 2 季实际季表包含第 1 至第 10 集，且全部为 2021-12-10 发布，正好覆盖 Bangumi subject 的 10 集。因此使用完整第 2 季。Bangumi 的 IMDb 提示 tt12753250 实际解析为第 2 季第 1 集，不是整部剧，不能作为剧集 ID 使用。\n\nhttps://www.themoviedb.org/tv/104127 (api_snapshot): TMDB 详情确认作品标题为 Crossing Swords，首播 2020-06-12，末播 2021-12-10，共 2 季 20 集；简介、制作公司及第 2 季信息与 Bangumi subject 相符。\n\nhttps://www.themoviedb.org/tv/104127/season/2 (api_snapshot): TMDB 第 2 季季表确认 season=2、共 10 集，实际集号连续覆盖 1-10，全部日期为 2021-12-10。\n\nhttps://www.hulu.com/series/crossing-swords-ae4f3a01-3cf8-4cf3-b28a-5add46ec094f (search_snippet): Hulu 页面确认这是 2 季 20 集的原创成人定格动画 TV series，剧情为 Patrick 在中世纪王国担任侍从，并列出 Tom Root、John Harvatine IV 为创作者。\n\nhttps://press.hulu.com/schedule/december-2021/ (search_snippet): Hulu 官方排期确认 Crossing Swords Season 2 于 2021-12-10 完整上线。\n\nhttps://www.themoviedb.org/tv/104127/season/2 (api_snapshot): TMDB 第 2 季第 1 集为 Shamrock Shakedown；IMDb 提示 tt12753250 的 TMDB 查找结果对应此单集而非剧集。",
+    "evidence": "codex: 作品剧情、制作人员、公司、定格动画媒介、第二季上线日期及10集范围一致，确认对应 TMDB 104127 的完整第2季。Bangumi 章节缺少标题和日期，不能仅凭编号建立逐集关系，因此保留整季映射，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/451191 (page): Bangumi 标明本作为 Hulu《十字剑》第二季，共10话，2021年12月10日上线；导演为 John Harvatine IV，制作公司包括 Sony Pictures Television、Stoopid Buddy Stoodios，简介为 Patrick 与 King Merriman 的中世纪定格动画故事。\n\nhttps://www.themoviedb.org/tv/104127 (api_snapshot): TMDB 104127 为 Crossing Swords，首播2020年6月12日，共2季20集；Patrick 的侍从经历及制作公司与 Bangumi 一致，第二季标注2021年12月10日、10集。\n\nhttps://www.themoviedb.org/tv/104127/season/2 (api_snapshot): 实际读取第二季全部集表，total_pages=1：集号连续为1—10，日期均为2021年12月10日，首集为 Shamrock Shakedown，末集为 Hard Day’s Knight。该季完整覆盖本 subject 的10集主体。\n\nhttps://press.hulu.com/shows/crossing-swords/ (page): Hulu 官方简介确认本季新增10集，讲述 Patrick 侍奉 King Merriman 的冒险，并列出创作者 John Harvatine IV、Tom Root 及 Stoopid Buddy Stoodios，与 Bangumi 简介吻合。\n\nhttps://press.hulu.com/schedule/december-2021/ (page): Hulu 官方2021年12月排期明确列出 Crossing Swords 第二季于12月10日首播。\n\nhttps://bgm.tv/subject/451191/ep (page): Bangumi 章节页只有本篇1—10的编号，未提供集标题或逐集日期，无法与 TMDB 逐集独立核对。\n\n备注：逐集对应尚未确认；需补充 Bangumi 各章标题、日期或其他可识别内容后，再与已读取的 TMDB 集表核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/451191; https://www.themoviedb.org/tv/104127; https://www.themoviedb.org/tv/104127/season/2; https://www.hulu.com/series/crossing-swords-ae4f3a01-3cf8-4cf3-b28a-5add46ec094f; https://press.hulu.com/schedule/december-2021/",
-    "verifiedAt": "2026-09-08T23:56:07.459Z"
+    "source": "https://bgm.tv/subject/451191; https://www.themoviedb.org/tv/104127; https://www.themoviedb.org/tv/104127/season/2; https://press.hulu.com/shows/crossing-swords/; https://press.hulu.com/schedule/december-2021/; https://bgm.tv/subject/451191/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

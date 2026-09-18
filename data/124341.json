@@ -1,16 +1,41 @@
 {
   "anidbId": 11059,
   "bangumiId": 124341,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 536949,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 536950,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 536951,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 124341 明确是《ARIA The AVVENIRE》3话 OVA，输入资料同时给出 AniDB ID 11059、2015–2016 年三话标题与日期。TMDB API 快照中，TV 53787 的第 0 季明确列出同名三话：第11–13集分别为「その 逢いたかったあなたに…」「その 暖かなさよならは…」「その 遙かなる未来へ…」，日期与简介也对应该 OVA，因此应映射为该剧第0季的第11–13集，而不是整季。\n\nhttps://www.themoviedb.org/tv/53787 (api_snapshot): TMDB API 快照显示 TV 53787 为《ARIA》，并包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/53787/season/0 (api_snapshot): TMDB season 0 快照列出第11–13集，标题分别对应《ARIA The AVVENIRE》三话，日期为 2015-09-26、2016-03-23、2016-06-24；第11、12集简介还明确描述该系列内容。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): Anime-Lists 关联将 AniDB 11059 作为候选线索指向 TMDB TV 53787；这与 Bangumi subject 的 AniDB matched 关联一致，但仅作为辅助证据。",
+    "evidence": "codex: 确认对应 TMDB《ARIA》53787 第0季第11—13集。三话标题、顺序和总量完全对应，剧情及制作人员吻合，第2、3话发行日期一致。第1话 TMDB 使用剧场上映日，Bangumi 使用光盘发行期日期，不构成版本冲突。保留旧映射范围，并补全本篇1—3话的连续逐集规则。\n\nhttps://bgm.tv/subject/124341 (page): Bangumi 将本作列为3话 OVA，导演佐藤顺一、脚本吉田玲子、动画制作 TYO Animations；记载上映日2015-09-26、发售日2015-12-24。\n\nhttps://ariacompany.net/4th/story.php (page): 官方确认本作为2015年十周年完全新作，导演佐藤顺一、脚本吉田玲子。前两话分别围绕艾丽西亚生日的回忆、小爱追寻猫妖精并结识两位领航员展开，与 TMDB 特别篇第11、12集简介一致。\n\nhttps://ariacompany.net/4th/blu-ray_box.php (page): 官方逐一列出 capitolo 1、2、3 的标题及分卷发行日期：2015-12-24、2016-03-23、2016-06-24；三个标题与输入及 TMDB 第11—13集逐一相同。另说明2017年发行的是与剧场上映相同的一体收录版本。\n\nhttps://www.themoviedb.org/tv/53787 (api_snapshot): TV 53787 为《ARIA》，导演佐藤顺一，别名包含《ARIA The AVVENIRE》；第0季为特别篇，另有三个电视动画正季。\n\nhttps://www.themoviedb.org/tv/53787/season/0 (api_snapshot): 已读取第0季全部22集，total_pages=1。第11—13集依次为「その 逢いたかったあなたに…」「その 暖かなさよならは…」「その 遙かなる未来へ…」，日期分别为2015-09-26、2016-03-23、2016-06-24。其余集包含 ARIETTA、图像剧等其他内容，不能映射整季。\n\nhttps://www.themoviedb.org/movie/375177 (api_snapshot): 另核查同名电影375177：上映日2015-09-26、时长63分钟，制作公司及导演、编剧一致，但简介主体与官方三话剧情不符。本次采用能够逐话核实的特别篇记录，不将单一电影条目重复分配给三个章节。\n\n备注：第1话 Bangumi 章节日期为2015-12-25，官方光盘发行日为2015-12-24，存在一天的数据差异；不影响已由标题和剧情确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/124341; https://www.themoviedb.org/tv/53787; https://www.themoviedb.org/tv/53787/season/0; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/124341; https://ariacompany.net/4th/story.php; https://ariacompany.net/4th/blu-ray_box.php; https://www.themoviedb.org/tv/53787; https://www.themoviedb.org/tv/53787/season/0; https://www.themoviedb.org/movie/375177",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 11,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 53787
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,156 @@
 {
   "anidbId": 11372,
   "bangumiId": 139324,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 563460,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 563461,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 563462,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 563463,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 563464,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 563465,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 563466,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 563467,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 563468,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 563469,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 563470,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 563471,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 570368,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 570369,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 570370,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 570371,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 570372,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 570373,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 570374,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 570375,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 570376,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 570377,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 570378,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 570379,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 570380,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2015年TV动画，作品年份、剧情、导演与制作方一致。TMDB将两期合并为第1季50集，本subject仅覆盖其中第1至25集；逐集标题与日期支持连续对应，且不与续作已占用的第26至50集重叠。旧映射需收窄为明确集数区间。\n\nhttps://www.themoviedb.org/tv/64375 (api_snapshot): 以日文原名搜索得到 TV 64375；详情确认首播日期为2015-10-04，导演为长井龙雪，制作公司包括 SUNRISE、MBS、创通，剧情中的三日月、奥尔加、库德莉亚护卫任务及高达巴巴托斯均与输入一致。\n\nhttps://www.themoviedb.org/tv/64375/season/1 (api_snapshot): 已读取第1季完整集表，共50集、1页。第1至25集与输入25话的放送日期逐集完全一致，标题对应一致；第11话仅输入标题附加英文释义。第25集《鉄華団》日期为2016-03-27，第26集《新しい血》日期为2016-10-02，后半部分属于续作范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/139324; https://www.themoviedb.org/tv/64375; https://www.themoviedb.org/tv/64375/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 64375
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 25,
       "id": 64375,
       "season": 1,
       "type": "tv"

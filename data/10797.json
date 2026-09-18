@@ -1,16 +1,41 @@
 {
   "anidbId": 7670,
   "bangumiId": 10797,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 64131,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 64132,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 64133,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2010 年发行的 3 话 OVA，标题、别名、制作人员和三段标题与 AniDB 7670 完全对应。AniDB 也确认该作品为 3 话、2010-08-10 至 2010-12-19，并说明第2话于10月15日至29日网络播出、10月31日电视特别节目播出，因此 Bangumi 的10月15日与 TMDB 的10月31日是播出渠道日期差异，不构成版本冲突。TMDB 45148 的第1季正好包含3集，标题分别对应 Part A、Part B、Part C，日期和作品年份一致，无需缩小范围。\n\nhttps://bgm.tv/subject/10797 (page): Bangumi 将该条目标为 OVA，共3话；标题为模型戦士ガンプラビルダーズ ビギニングG，发售/开始日期为2010-08-15，结束日期为2010-12-19；导演松尾衡、脚本黒田洋介、动画制作SUNRISE。\n\nhttps://anidb.net/anime/7670 (page): AniDB 7670 的主标题为 Mokei Senshi Gunpla Builders Beginning G，官方日文标题为模型戦士GUNPLA BUILDERS BEGINNING G，类型为Other、3 episodes，日期为2010-08-10至2010-12-19；页面列出的别名和制作人员与 Bangumi 对应，并明确解释第2话的网络播出日期与10月31日电视播出日期。\n\nhttps://www.sunrise-inc.co.jp/international/work/detail.php?cid=317 (page): SUNRISE 官方作品页确认 GUNPLA BUILDERS BEGINNING G 是纪念Gunpla 30周年的作品，共3集，剧情围绕Haru Irei、Beginning Gundam和Gunpla Battle展开，制作方为SUNRISE。\n\nhttps://www.themoviedb.org/tv/45148 (api_snapshot): TMDB TV 作品45148的日文标题与 Bangumi/AniDB 对应，首播日期为2010-08-15，共3集，且仅有第1季、第1季共3集。\n\nhttps://www.themoviedb.org/tv/45148/season/1 (api_snapshot): TMDB第1季包含完整3集：1「パーツA『ビギニングガンダム』」、2「パーツB『フォーエバーガンダム』」、3「パーツC『ビギニング30』」；集数、标题和整体日期范围与 Bangumi/AniDB 主体对应。",
+    "evidence": "codex: 确认对应TMDB 45148第1季完整3集。年份、OVA版本、制作人员、剧情与总集数一致，三话标题逐一对应且顺序相同。第二话日期差异可由10月15日网络配信与10月31日电视放送解释。季表未混入其他作品，可将Bangumi本篇1—3话连续映射至S01E01—E03。\n\nhttps://bgm.tv/subject/10797 (page): Bangumi 标为2010年全3话OVA，导演松尾衡、脚本黒田洋介、人物设定寺田嘉一郎、动画制作SUNRISE，主题为钢普拉30周年纪念。\n\nhttps://www.sunrise-inc.co.jp/international/work/detail.php?cid=317 (page): SUNRISE官方确认本作共3话、导演松尾衡，剧情围绕伊礼晴制作起始高达并参加钢普拉对战展开。\n\nhttps://www.themoviedb.org/tv/45148 (api_snapshot): TMDB详情确认45148为2010年的同名3话OVA，制作公司SUNRISE，导演松尾衡、编剧黒田洋介；剧情、人物和纪念主题一致，仅有第1季。\n\nhttps://www.themoviedb.org/tv/45148/season/1 (api_snapshot): 第1季完整季表共3集、仅1页：第1集「ビギニングガンダム」2010-08-15，第2集「フォーエバーガンダム」2010-10-31，第3集「ビギニング30」2010-12-19，分别标为パーツA、B、C。\n\nhttps://bgm.tv/subject/10797/ep (page): Bangumi本篇1—3话依次为パーツA「ビギニング ガンダム」、パーツB「フォーエバーガンダム」、パーツC「ビギニング30」；日期为2010-08-15、2010-10-15、2010-12-19，与TMDB逐话标题一致，首尾日期一致。\n\nhttps://hayamimi-gunpla.com/blog-entry-3930.html (search_snippet): 2010年10月日程记载パーツB于10月15日至29日在Bandai Channel等平台限时免费配信，支持Bangumi第二话的10月15日日期。\n\nhttps://gundam.wiki.cre.jp/wiki/模型戦士ガンプラビルダーズ_ビギニングG (search_snippet): 作品资料列出BS11三部放送日期为2010-08-15、2010-10-31、2010-12-19，支持TMDB采用第二部电视播出日期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/10797; https://anidb.net/anime/7670; https://www.sunrise-inc.co.jp/international/work/detail.php?cid=317; https://www.themoviedb.org/tv/45148; https://www.themoviedb.org/tv/45148/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/10797; https://www.sunrise-inc.co.jp/international/work/detail.php?cid=317; https://www.themoviedb.org/tv/45148; https://www.themoviedb.org/tv/45148/season/1; https://bgm.tv/subject/10797/ep; https://hayamimi-gunpla.com/blog-entry-3930.html; https://gundam.wiki.cre.jp/wiki/模型戦士ガンプラビルダーズ_ビギニングG",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45148
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

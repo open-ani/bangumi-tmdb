@@ -1,15 +1,91 @@
 {
+  "anidbId": 17631,
   "bangumiId": 401970,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1225537,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1225538,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1225539,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1225540,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1225541,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1225542,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1225543,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1225544,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1225545,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1225546,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1225547,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1225548,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1251364,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 112501 是《幼女社长》系列的同一部 TV/Web 动画，详情页明确收录别名“幼女社长 R / Cute Executive Officer R”，并显示全系列共 1 季 26 集。其第 1 季集表中第 14–26 集为 2023 年播出的《幼女社长R》，标题、剧情、导演及制作公司均与 Bangumi subject 相符。AT-X 也明确标为 2023 年全 13 话（#14–26）。因此应映射为该 TV 的第 1 季第 14–26 集，而不是整季或特别篇。\n\nhttps://www.themoviedb.org/tv/112501 (api_snapshot): TMDB 详情显示原题《幼女社长》、别名“幼女社长 R / Cute Executive Officer R”、2023-09-29 完结、共 26 集，导演为 いわたかずや，制作包括 project No.9。\n\nhttps://www.themoviedb.org/tv/112501/season/1 (api_snapshot): TMDB 第 1 季集表显示第 14–26 集均为 2023 年播出，标题与 Bangumi 的《幼女社长R》13 集逐一对应；第 1–13 集则为 2021 年旧版。\n\nhttps://www.at-x.com/program/detail/17163 (page): AT-X 官方节目页明确写明《幼女社长R》为 2023 年作品、全 13 话（#14～26），并列出导演、角色设计、音乐、project No.9 等制作信息。\n\nhttps://api.bgm.tv/v0/subjects/401970 (api_snapshot): Bangumi 原始 API 信息显示 subject 为 2023-07-01 开始、13 集，集号 sort 为 14–26，剧情和制作人员与上述 TMDB/AT-X 条目一致。",
+    "evidence": "codex: 确认对应TMDB 112501第1季第14—26集。官方确认2023年续作的13话范围，TMDB真实季表的全部标题、顺序与集数逐一吻合，剧情及制作人员亦一致，足以建立连续映射；第1—13集属于2021年前作，不能将本subject映射为整季。\n\nhttps://www.themoviedb.org/tv/112501 (api_snapshot): TMDB 112501 收录别名《幼女社長 R》《Cute Executive Officer R》，剧情为五岁社长六科なじむ经营公司；导演いわたかずや，制作公司包括 project No.9、DREAM SHIFT、FABTONE，与本作一致。\n\nhttps://www.themoviedb.org/tv/112501/season/1 (api_snapshot): 第1季共26集，季表仅1页，已完整读取。第1—13集日期为2021年；第14—26集为2023年，13个标题与输入的Bangumi sort 14—26逐一一致，仅数字全半角有差异。第14、15集日期比Bangumi晚1天，第16—26集晚6天。\n\nhttps://www.at-x.com/program/detail/17163 (page): AT-X官方明确《幼女社長R》是2023年作品，全13话，编号为第14—26话；剧情、导演、角色设计、音乐及动画制作信息均与待核对作品一致。\n\n备注：TMDB与Bangumi的逐集日期存在上述偏差，具体原因尚未核实；标题、编号及官方范围一致，映射不依赖日期完全相同。；输入ownership将前作Bangumi 316795声明为第1季整季，与本次已核实范围重叠；该前作的整季所有权需要另行复核并收窄。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/401970; https://www.themoviedb.org/tv/112501; https://www.themoviedb.org/tv/112501/season/1; https://www.at-x.com/program/detail/17163; https://api.bgm.tv/v0/subjects/401970",
-    "verifiedAt": "2026-09-08T23:34:02.450Z"
+    "source": "https://bgm.tv/subject/401970; https://www.themoviedb.org/tv/112501; https://www.themoviedb.org/tv/112501/season/1; https://www.at-x.com/program/detail/17163",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 14,
+      "season": 1,
+      "start": 14,
+      "tmdbId": 112501
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

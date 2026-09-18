@@ -1,15 +1,101 @@
 {
+  "anidbId": 12951,
   "bangumiId": 195820,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 685480,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 685481,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 685482,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 685483,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 685484,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 685485,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 685486,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 685487,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 685488,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 685489,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 685490,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 685491,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 685492,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 685493,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 685494,
+      "sort": 15,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 80606 与 Bangumi 主体在中文原名“东郭小节”、英文名 Dongguo Xiaojie、2016 年首播、中文网络动画媒介、剧情（半妖少女为救母寻找紫瞑珠）及腾讯相关制作信息上均吻合。TMDB 明确只有第1季且季表实际包含第1至15集，正好覆盖 Bangumi 的15集主体，因此使用完整第1季。未发现需要拆分的旧版、新版、OVA、电影、音乐录像或合集版本。\n\nhttps://www.themoviedb.org/tv/80606 (api_snapshot): TMDB 详情确认这是 TV 动画《东郭小节 / Dongguo Xiaojie》，首播于2016-12-26，剧情为东郭小节与墨子轩为救母踏上旅程；共1季15集，已完结，制作公司包括 Tencent Animation & Comics、Haoliners Animation。\n\nhttps://www.themoviedb.org/tv/80606/season/1 (api_snapshot): TMDB 第1季实际返回15集，episode_number 连续覆盖1至15，total_pages为1；第1集日期为2016-12-26，第15集日期为2017-04-03。\n\nhttps://api.bgm.tv/v0/subjects/195820 (api_snapshot): Bangumi fresh API 确认主体为 WEB 动画，2016-12-26 开始，共15集；剧情为半妖少女东郭小节与墨子轩寻找紫瞑珠，制作信息包含腾讯动漫、原作OPARON、导演/脚本等。\n\nhttps://zh.wikipedia.org/wiki/%E4%B8%9C%E9%83%AD%E5%B0%8F%E8%8A%82 (page): 作品资料将其列为网络动画，原作OPARON（观山海），2016-12-26至2017-04-03播出，共15话，网络为腾讯视频，并给出与主体一致的剧情。\n\nhttps://www.tvmaze.com/shows/24288/dongguo-xiaojie (page): 独立资料确认 Dongguo Xiaojie 为2016—2017年中国动画网络剧，共15集，并列出东郭小节Karma、Dongguo Xiaojie Karma等别名。\n\n备注：日期存在资料差异：Bangumi 主体记录结束日为2017-04-10，而TMDB季表、Wikipedia和TVmaze将第15集记为2017-04-03；这不影响15集身份和范围判断。；工作人员字段存在来源差异：Bangumi fresh 信息列出廖礼让为导演/脚本，Wikipedia列出周帆为导演，TMDB API未返回crew；该差异不影响作品身份与季集映射。",
+    "evidence": "codex: 作品身份及整季范围可以确认：年份、首播日、剧情、制作公司和15集总量一致，第1季未见混入其他作品。逐集比对后，仅为日期和编号均吻合的第1—5话建立规则；第6—15话存在日期冲突且缺少可区分内容的集标题，暂留空。\n\nhttps://www.themoviedb.org/tv/80606 (api_snapshot): 中文原名及英文名搜索均找到 TV 80606。详情确认首播日为2016-12-26，共1季15集；半妖少女东郭小节与墨子轩为救母寻找紫瞑珠的剧情，以及腾讯动漫、绘梦制作信息均与 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/80606/season/1 (api_snapshot): 第1季实际集表共15集，集号连续为1—15，total_pages=1。第1—5集日期依次为2016-12-26、2017-01-02、01-09、01-16、01-23，与 Bangumi 逐集一致。第6—15集日期为2017-01-30至04-03，每周一集，均比 Bangumi 同号章节早7天；集名只有通用编号，简介为空。\n\nhttps://bgm.tv/subject/195820 (page): Bangumi 将本作列为2016年开始的15话网络动画，原作OPARON，总导演周帆、导演廖礼让，动画制作绘梦、製作腾讯动漫；剧情与 TMDB 对应。\n\nhttps://bgm.tv/subject/195820/ep (page): 章节页列出15话本篇。第1—5话日期与 TMDB 同号集一致；第6话记为2017-02-06，第15话记为2017-04-10，第6—15话与 TMDB 存在持续一周的日期差异。\n\n备注：第6—15话的日期差异尚未获得官方排期或视频上线记录解释，不能据此将 Bangumi 章节顺延映射到 TMDB 下一集。补齐这部分规则需进一步核对腾讯视频原始分集内容或当年更新记录。；TMDB 未返回工作人员名单，导演信息无法在该 API 中交叉核实；制作公司信息一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/195820; https://www.themoviedb.org/tv/80606; https://www.themoviedb.org/tv/80606/season/1; https://api.bgm.tv/v0/subjects/195820; https://zh.wikipedia.org/wiki/%E4%B8%9C%E9%83%AD%E5%B0%8F%E8%8A%82; https://www.tvmaze.com/shows/24288/dongguo-xiaojie",
-    "verifiedAt": "2026-09-08T20:36:19.383Z"
+    "source": "https://bgm.tv/subject/195820; https://www.themoviedb.org/tv/80606; https://www.themoviedb.org/tv/80606/season/1; https://bgm.tv/subject/195820/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80606
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

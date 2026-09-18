@@ -1,13 +1,144 @@
 {
   "bangumiId": 301845,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 936590,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 936591,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 936592,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 936593,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 936594,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 936595,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 936596,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 936597,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 936598,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 936599,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 936600,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 936601,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 936602,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 936603,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 936604,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 936605,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 936606,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 936607,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 936608,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 936609,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 936610,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 936611,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 936612,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 936613,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 936614,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 936615,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 系列 PAW Patrol（TMDB 57532）：年份、剧情、媒介、制作公司及中日别名均匹配。Bangumi 第二季的 26 个播出包并不等于 TMDB 的连续季表：TMDB S2 第3集《Pups and the Pirate Treasure》不在 Bangumi 列表；Bangumi 第23集的《滑雪板大赛/深海拯救海底鸡》实际位于 TMDB S3 第3–4集。因此需拆为上述三个闭区间，不能使用完整 S2。\n\nhttps://api.bgm.tv/v0/subjects/301845 (api_snapshot): Bangumi API 显示作品为 TV《PAW Patrol Season 2／汪汪队立大功 第二季》，2014-08-22，26集；剧情、制作公司和别名与 PAW Patrol 系列一致。\n\nhttps://www.themoviedb.org/tv/57532 (api_snapshot): TMDB 详情显示 PAW Patrol，首播 2013-08-12，剧情为 Ryder 带领救援犬队执行任务；别名包含中文“狗狗巡逻队”和日文“パウ・パトロール”，制作公司包含 Spin Master、TVOKids、Nickelodeon Productions。\n\nhttps://www.themoviedb.org/tv/57532/season/2 (api_snapshot): TMDB S2 季表实际有 47 集；第1–2集及第4–47集的标题覆盖 Bangumi 第二季列表，第3集为 Bangumi 列表没有的《Pups and the Pirate Treasure》。\n\nhttps://www.themoviedb.org/tv/57532/season/3 (api_snapshot): TMDB S3 第3–4集实际为《Pups Save a Snowboard Competition》和《Pups Save a Chicken of the Sea》，对应 Bangumi 第二季第23集的两个分段。\n\nhttps://bkso.baidu.com/item/%E3%80%8A%E6%B1%AA%E6%B1%AA%E9%98%9F%E7%AB%8B%E5%A4%A7%E5%8A%9F%E3%80%8B/19383619 (page): 作品资料列出第二季共26个播出包，明确列出第23集“滑雪板大赛/深海拯救海底鸡”，且未列出“寻找海盗的宝藏”。\n\nhttps://www.tvguide.com/tvshows/paw-patrol/episodes-season-2/1030531595/ (page): TV Guide 也将该版本列为 2014–2015 年第二季、26个播出包，并列出对应标题和日期范围。",
+    "evidence": "codex: 确认对应 PAW Patrol 制作版第二季，整体范围与旧映射一致。经外部26集目录与TMDB真实季表逐项比对，应排除TMDB S2E3，并纳入S3E3—4，不能映射为完整第2季。输入的Bangumi章节均无标题和日期，无法确认各sort采用制作顺序还是播出顺序，因此仅确认覆盖范围，逐集rules与overrides留空。\n\nhttps://www.themoviedb.org/tv/57532 (api_snapshot): TMDB 57532 为 2013 年首播的电视动画 PAW Patrol；Ryder 带领救援犬队的剧情、Spin Master 制作公司及中日别名均与输入相符。\n\nhttps://www.themoviedb.org/tv/57532/season/2 (api_snapshot): 完整读取第2季集表，共47集、1页。第3集为海盗寻宝故事；其余第1—2、4—47集与制作版第二季的相应故事标题及美国播出日期吻合。\n\nhttps://www.themoviedb.org/tv/57532/season/3 (api_snapshot): 完整读取第3季集表，共50集、1页。第3—4集分别为滑雪板比赛与海底救鸡故事，日期均为2015-12-04。\n\nhttps://en.wikipedia.org/wiki/List_of_Paw_Patrol_episodes (page): 制作编号201—226构成第二季26个播出包，即22个双故事包和4个长篇，共48个故事。海盗寻宝属于第一季制作编号126；第二季制作编号223的两个故事位于TMDB S3E3—4。制作顺序首包美国日期为2014-08-22，末包加拿大日期为2015-09-16，与输入起止日期分别吻合。\n\nhttps://www.tvguide.com/tvshows/paw-patrol/episodes-season-2/1030531595/ (page): TV Guide 独立列出第二季26个播出包，第23包为滑雪板比赛与海底救鸡，第26包为恐龙故事，支持制作版第二季的内容范围。\n\n备注：需补充Bangumi章节标题、日期或明确的排序来源，才能将26个章节ID可靠对应到TMDB故事分段。；Bangumi起止日期分别吻合制作顺序首集的美国日期和末集的加拿大日期，不宜据此推导统一播出顺序。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/301845; https://api.bgm.tv/v0/subjects/301845; https://www.themoviedb.org/tv/57532; https://www.themoviedb.org/tv/57532/season/2; https://www.themoviedb.org/tv/57532/season/3; https://bkso.baidu.com/item/%E3%80%8A%E6%B1%AA%E6%B1%AA%E9%98%9F%E7%AB%8B%E5%A4%A7%E5%8A%9F%E3%80%8B/19383619; https://www.tvguide.com/tvshows/paw-patrol/episodes-season-2/1030531595/",
-    "verifiedAt": "2026-09-08T21:56:38.624Z"
+    "source": "https://bgm.tv/subject/301845; https://www.themoviedb.org/tv/57532; https://www.themoviedb.org/tv/57532/season/2; https://www.themoviedb.org/tv/57532/season/3; https://en.wikipedia.org/wiki/List_of_Paw_Patrol_episodes; https://www.tvguide.com/tvshows/paw-patrol/episodes-season-2/1030531595/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

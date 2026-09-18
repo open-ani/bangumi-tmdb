@@ -1,15 +1,76 @@
 {
+  "anidbId": 19132,
   "bangumiId": 516420,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1446020,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1446021,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1446022,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1446023,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1446024,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1446025,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1446026,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1446027,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1446028,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1446029,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 281583 与 Bangumi 条目在中文原名、2025年1月13日开播、剧情简介、优酷出品及制作公司、总导演孙立军和多名分集导演/编剧等方面一致；TMDB 第1季实际包含10集，集名与 Bangumi 主体集表逐集对应，覆盖该短片集的完整主体，因此使用第1季整季映射。官方优酷资料也将其描述为十位导演讲述的十段猫咪故事，确认这是同一部WEB剧情动画短片合集，而非单个短片或其他猫主题作品。\n\nhttps://www.themoviedb.org/tv/281583 (api_snapshot): TMDB详情确认作品名《猫行东方》、原名相同、2025-01-13、中文动画剧情简介、优酷与Shrub制作公司、孙立军为总导演、共1季10集，并列出别名 Mao Xing Dongfang。\n\nhttps://www.themoviedb.org/tv/281583/season/1 (api_snapshot): TMDB第1季实际集表共10集，集名从《大千世界》至《奶奶别怕有我在》，与Bangumi的10集主体逐集对应；total_pages为1，未发现额外混入集数。\n\nhttps://api.bgm.tv/v0/subjects/516420 (api_snapshot): Bangumi新鲜API资料确认条目为2025-01-13开始、WEB、10集，剧情为猫咪视角的东方风格多形式动画短片集，并列出孙立军及分集导演、编剧、优酷和北京灌木互娱等制作信息。\n\nhttps://v.youku.com/v_show/id_XNjQ1NzE5OTUzNg%3D%3D.html (page): 优酷官方第1话页面确认该作品为猫咪视角的东方奇幻动画，并展示《大千世界》及系列宣传内容。\n\nhttps://v.youku.com/v_show/id_XNjQ0OTcyMzI3Ng%3D%3D.html (page): 优酷官方系列页面展示《猫行长安》及“十位导演讲述猫咪眼中的十段奇幻故事”等系列信息。\n\n备注：TMDB与Bangumi的部分播出日期不一致：TMDB将第2集标为2025-01-13、末集标为2025-03-10，Bangumi则为每周播出并记录末集为2025-03-17；这不影响作品身份及10集范围。；第10集标题在TMDB为“奶奶别怕有我在”，Bangumi为“奶奶别怕有猫在”，属于标题文本差异。",
+    "evidence": "codex: 确认对应TMDB 281583第1季全10集。年份、首播日期、剧情、制作公司及主创一致，双方均指整部网络动画短片集。完整季表与Bangumi逐集比对后，前9集标题及顺序完全一致，末集仅存在“有猫在／有我在”的标题差异，官方资料支持后者。首播两集的报道亦支持TMDB日期安排；综合集名、总量与播出信息，可建立本篇1—10至S01E01—E10的连续对应。\n\nhttps://www.themoviedb.org/tv/281583 (api_snapshot): TMDB 详情确认《猫行东方》于2025-01-13首播，共1季10集；猫咪视角、多种动画形式的十个故事与输入简介一致，制作公司为Youku和Shrub，总导演孙立军，另有马子东、张晓旭、甘霖等人员吻合。\n\nhttps://www.themoviedb.org/tv/281583/season/1 (api_snapshot): 第1季完整集表为10集，total_pages=1。第1—9集依次为《大千世界》《猫行长安》《榆修》《鬼怪车站》《西部的图克》《临江仙》《屋檐之上》《0324》《薛定谔的盒子》，与输入逐集一致；第10集为《奶奶别怕有我在》。第1、2集均记为2025-01-13，第3—10集每周更新至2025-03-10。\n\nhttps://peking.bjd.com.cn/content/s678f9ca1e4b068c68f0ed034.html (page): 首都广电发布的报道确认该片2025年1月13日在优酷独家上线，由优酷与北京灌木互娱联合出品、孙立军担任总导演，包含10个不同题材和风格的动画短片，并明确《大千世界》《猫行长安》为首播两集。\n\nhttps://v.youku.com/v_show/id_XNjQ0OTcyMzI3Ng%3D%3D.html (page): 优酷官方页面标明第2话《猫行长安》及全10话；系列宣传描述十位导演讲述十段猫咪故事，并列出《奶奶别怕有我在》制作特辑，支持TMDB末集标题写法。\n\n备注：输入Bangumi第2—10集日期均比TMDB晚7天；官方报道确认首播两集，但未独立核实后续每集日期差异的具体原因。；Bangumi第10集题为《奶奶别怕有猫在》，TMDB及优酷制作特辑使用《奶奶别怕有我在》；判断为同一末集的标题记录差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/516420; https://www.themoviedb.org/tv/281583; https://www.themoviedb.org/tv/281583/season/1; https://api.bgm.tv/v0/subjects/516420; https://v.youku.com/v_show/id_XNjQ1NzE5OTUzNg%3D%3D.html; https://v.youku.com/v_show/id_XNjQ0OTcyMzI3Ng%3D%3D.html",
-    "verifiedAt": "2026-09-09T00:16:47.048Z"
+    "source": "https://bgm.tv/subject/516420; https://www.themoviedb.org/tv/281583; https://www.themoviedb.org/tv/281583/season/1; https://peking.bjd.com.cn/content/s678f9ca1e4b068c68f0ed034.html; https://v.youku.com/v_show/id_XNjQ0OTcyMzI3Ng%3D%3D.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 281583
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

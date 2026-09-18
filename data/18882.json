@@ -1,21 +1,114 @@
 {
   "anidbId": 8102,
   "bangumiId": 18882,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 104228,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 104229,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 104230,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 104231,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 124944,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 124945,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 124946,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 124947,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 124948,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 124949,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 124950,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 124951,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 130661,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 130661,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 43295,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 43295：12集本篇逐集对应第1季第1—12集，特别篇130661对应第0季第1集。作品年份、原作、导演、制作公司、剧情、集数及发行批次均吻合；首四集日期差异由官方先行销售与店头发售日期解释。映射不占用其他 subject 已声明的第0季第2—3集。\n\nhttps://www.themoviedb.org/tv/43295 (api_snapshot): 日文原名搜索命中 TV 43295；详情确认是2011年改编自《TAKE MOON》的 TYPE-MOON 十周年喜剧动画，导演岸诚二、制作公司 Lerche，人物和剧情与输入一致。\n\nhttps://bgm.tv/subject/18882/ep (page): Bangumi 章节页列出12集本篇及特别篇“風雲イリヤ城”；特别篇日期为2011-10-28，时长8分34秒。\n\nhttps://www.themoviedb.org/tv/43295/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。逐集标题、剧情和顺序与 Bangumi 本篇吻合；第1、8、12集仅有标题省略或字形差异。第5—8集日期均为2011-10-28，第9—12集均为2011-12-31；第1—4集记为2011-08-12。\n\nhttps://www.themoviedb.org/tv/43295/season/0 (api_snapshot): 第0季完整集表共6集、仅1页。其中第1集为“音声付 風雲イリヤ城”，日期2011-10-28、时长8分钟，与 Bangumi 特别篇吻合。第2—6集属于其他番外或特典，不纳入本 subject。\n\nhttps://www.typemoon.com/products/cp/outline.html (page): 官方商品页确认本篇分三卷、每卷4集；商品名中的1st、2nd、3rd Season是发行卷次。首卷于2011-08-12至14日在C80先行销售，8月14日店头发售，解释了两站首四集日期差异。第二卷2011-10-28发售并附“音声付 風雲イリヤ城”，第三卷2011-12-31发售。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/18882; https://www.themoviedb.org/tv/43295; https://bgm.tv/subject/18882/ep; https://www.themoviedb.org/tv/43295/season/1; https://www.themoviedb.org/tv/43295/season/0; https://www.typemoon.com/products/cp/outline.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 43295
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 43295,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 43295,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,16 +1,91 @@
 {
   "anidbId": 13528,
   "bangumiId": 217573,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 727713,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 727714,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 727715,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 727716,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 727717,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 727718,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 727719,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 727720,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 727721,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 727722,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 727723,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 727724,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 727725,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 84655 第1季整季。年份、配信形式、定格动画版本、剧情、主创和13话总量一致；全部日文集标题及顺序逐一吻合，并获官方影碟目录交叉验证，可建立本篇1—13话的一对一连续映射。\n\nhttps://bgm.tv/subject/217573 (page): Bangumi 条目为2019年《リラックマとカオルさん》，共13话，导演小林雅仁、脚本荻上直子、动画制作 dwarf studios。\n\nhttps://group.tyo.jp/news/pressrelease/6152.html (search_snippet): 制作公司官方公告确认本作为 Netflix 定格动画系列，英文名 Rilakkuma and Kaoru，2019年4月19日开始配信，全13话；导演小林雅仁、脚本荻上直子。剧情围绕小薰与轻松小熊等共同生活的一年展开。\n\nhttps://www.themoviedb.org/tv/84655 (api_snapshot): TMDB 84655 的日文原名、2019年4月19日首播日期、人物与同居日常剧情、制作公司、导演及编剧均吻合；条目仅有一季，共13集。\n\nhttps://www.themoviedb.org/tv/84655/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集。第1至13集日文标题依次为花見、こいのぼり、梅雨、夏祭り、お盆、占い、ダイエット、アルバイト、雪だるま、ハワイ、星空、出会い、引っ越し，与输入的 Bangumi 13话逐一一致。第1集日期一致，第2至13集日期存在差异。\n\nhttps://ps.ponycanyon.co.jp/rilakkuma-and-kaoru/ (search_snippet): 官方影碟页面列明本篇全13话，完整标题及顺序与 Bangumi 和 TMDB 第1季一致，并将预告、广告与幕后花絮单列为特典。\n\n备注：Bangumi 将13话日期均列为2019-04-19；TMDB 第2至13集分别记录在2019-04-26至2019-07-05之间，日期差异原因未确认。完整标题顺序、官方目录和制作信息足以确定逐集对应，不依赖这些差异日期推算。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/217573; https://group.tyo.jp/news/pressrelease/6152.html; https://www.themoviedb.org/tv/84655; https://www.themoviedb.org/tv/84655/season/1; https://ps.ponycanyon.co.jp/rilakkuma-and-kaoru/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 84655
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

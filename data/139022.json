@@ -1,19 +1,96 @@
 {
   "anidbId": 11343,
   "bangumiId": 139022,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 563436,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 563437,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 563438,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 563439,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 563440,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 563441,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 563442,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 563443,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 563444,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 563445,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 563446,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 563447,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 570518,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、TV媒介、剧情和主创一致，13话标题与日期逐集吻合。TMDB将前后两部分合为第1季24集，因此旧映射应收窄为第1季第1至13集，不包含《THE LAST SONG》对应的第14至24集。\n\nhttps://www.themoviedb.org/tv/65932 (api_snapshot): 日文原名搜索命中 TV 65932；详情确认首播于2015-10-04，制作公司为 BONES，导演为水島精二、原作为會川昇，剧情为神化时代的超人及政府超人课，与输入作品一致。\n\nhttps://www.themoviedb.org/tv/65932/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1至13集的日文标题及播出日期均与输入13话逐集对应，仅第4、5集标题空格格式不同；日期覆盖2015-10-04至2015-12-27。第14集从2016-04-10开始，属于后续范围，故本条目仅覆盖第1季第1至13集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/139022; https://www.themoviedb.org/tv/65932; https://www.themoviedb.org/tv/65932/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65932
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 65932,
       "season": 1,
       "type": "tv"

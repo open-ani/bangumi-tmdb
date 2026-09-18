@@ -1,15 +1,155 @@
 {
   "bangumiId": 106654,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 407725,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 407726,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 407727,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 407728,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 407729,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 407730,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 407731,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 407732,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 407733,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 407734,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 407735,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 407736,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 407737,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 407738,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 407739,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 407740,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 407741,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 407742,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 407743,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 407744,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 407745,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 407746,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 407747,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 407748,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 407749,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 407750,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 15260 是 2010 年 Cartoon Network 播出的美国动画剧集《Adventure Time》，原名、中文别名“探险活宝”、剧情（Finn 与 Jake 在 Land of Ooo 冒险）、制作公司及 Pendleton Ward 等信息均与 Bangumi 主体一致。TMDB 明确列出第 2 季于 2010-10-11 开始、共 26 集；实际季表的第 1–26 集标题与 Bangumi 提供的整季集表逐集对应，因此可映射为完整第 2 季。未混入 Specials、OVA、衍生剧或其他版本。\n\nhttps://api.bgm.tv/v0/subjects/106654 (api_snapshot): Bangumi API 标记该主体为 TV，标题为 Adventure Time season 2，日期 2010-10-11，共 26 集，剧情为 Finn 与 Jake 在末日后的 Land of Ooo 冒险。\n\nhttps://www.themoviedb.org/tv/15260 (api_snapshot): TMDB 详情确认原名 Adventure Time、首播日期 2010-04-05、制作公司 Frederator Studios 与 Cartoon Network Studios，并列出 Season 2 的日期 2010-10-11 和 episode_count 26；剧情与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/15260/season/2 (api_snapshot): TMDB 实际第 2 季季表包含 26 集，从 It Came from the Nightosphere 到 Heat Signature，标题和顺序与 Bangumi 的第 1–26 集逐集一致。\n\nhttps://en.wikipedia.org/wiki/Adventure_Time_season_2 (page): 资料确认这是 Pendleton Ward 创作的美国动画电视系列第 2 季，包含 26 个 11 分钟片段，主角和剧情设定与该映射一致。\n\n备注：Bangumi summary 将季终日期写为 2011-05-02，而其 infobox 写为 2011-05-09；TMDB 季表显示第 24、25 集为 2011-05-02，第 26 集 Heat Signature 为 2011-05-09。该日期差异不影响作品身份或完整 26 集范围。",
+    "evidence": "codex: 作品年份、电视动画媒介、制作人员、剧情、季起止日期及26集标题顺序均吻合，确认对应TMDB 15260完整第二季。逐集映射依据完整标题比对与集数核验，可建立本篇1—26集的一一对应规则。\n\nhttps://www.themoviedb.org/tv/15260 (api_snapshot): 作品详情确认这是2010年首播的美国电视动画《Adventure Time》，制作公司为Frederator Studios与Cartoon Network Studios，编剧包含Pendleton Ward；Finn与变形犬Jake在Ooo大陆冒险的剧情与输入一致，可区别于同名早期节目及后续衍生作品。\n\nhttps://www.themoviedb.org/tv/15260/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages为1，共26集，每集11分钟。第1至26集标题与输入Bangumi章节逐一一致，仅第20集标题存在大小写差异。首集于2010-10-11播出；第24、25集于2011-05-02播出；末集Heat Signature于2011-05-09播出，与输入infobox的季起止日期一致。\n\n备注：输入Bangumi章节未提供逐集播出日期，不能进行双方逐集日期交叉核验；但26集标题和顺序全部吻合。；Bangumi简介将季终写为2011-05-02，与其infobox冲突；TMDB集表显示该日对应第24、25集，第26集于2011-05-09播出，不影响完整第二季映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/106654; https://api.bgm.tv/v0/subjects/106654; https://www.themoviedb.org/tv/15260; https://www.themoviedb.org/tv/15260/season/2; https://en.wikipedia.org/wiki/Adventure_Time_season_2",
-    "verifiedAt": "2026-09-08T19:40:02.405Z"
+    "source": "https://bgm.tv/subject/106654; https://www.themoviedb.org/tv/15260; https://www.themoviedb.org/tv/15260/season/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 15260
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

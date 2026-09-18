@@ -1,15 +1,131 @@
 {
+  "anidbId": 10597,
   "bangumiId": 101287,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 390657,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 390658,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 391509,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 395494,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 395851,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 399250,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 399709,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 401911,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 401912,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 404708,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 404709,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 408755,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 408756,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 422271,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 422272,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 422273,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 422274,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 422275,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 422276,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 422277,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 422278,
+      "sort": 21,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 196403 的原名为「カリーノ・コニ」，首播日为 2014-04-01，TV 类型，导演アベユーイチ、编剧広田光毅，与 Bangumi 的标题、年份、剧情及制作人员一致。TMDB 第1季实际包含 26 集；官方 Google Play 也列出第1季共26集，覆盖 2014-04-01 至 2014-09-30，因此可对应整季 S1。TMDB 的后续集数日期字段不完整且详情页 last_air_date 停在 2014-05-06，但不影响身份和26集范围的确认。\n\nhttps://www.themoviedb.org/tv/196403 (api_snapshot): TMDB TV 条目原名「カリーノ・コニ」、首播日 2014-04-01、共1季26集；工作人员含导演アベユーイチ、编剧広田光毅。\n\nhttps://www.themoviedb.org/tv/196403/season/1 (api_snapshot): TMDB 第1季季表实际返回 episodeCount=26，集号连续覆盖 1–26，未分页截断。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-pOxS7gji1SM&gdid=tvepisode-YaxiY2G_pIc&id=JpnEzAhzsDs (page): 官方/发行页面列出《カリーノ・コニ》Season 1 episodes (26)，第1集日期为 2014-04-01，第26集日期为 2014-09-30，标题与剧情均对应该短篇TV动画。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201404/23066_201404060724.html (page): 东京电视台官方页面确认《カリーノ・コニ》为动物孩子们在意大利小村庄的故事，并列出原作 play set products/ROBOT、系列构成/脚本 広田光毅、导演 アベユーイチ。\n\n备注：Bangumi fresh API 的 total_episodes 为21，而其 infobox 与官方发行页面为26；这更像 Bangumi 集数记录不完整或分段统计差异，不能据此缩短 TMDB 范围。；TMDB 条目后续集数的日期和简介字段不完整，但季表仍明确返回完整的1–26集。",
+    "evidence": "codex: 确认对应 TMDB 196403 第1季。原名、年份、TV短篇形式、制作人员、剧情及26集规模相互吻合；发行集表支持该季覆盖完整作品。Bangumi 仅提供21条章节记录，不应据此将作品范围截为21集。逐集仅建立第1—6集规则，其日期直接吻合 TMDB，标题另由发行页面交叉确认。\n\nhttps://www.themoviedb.org/tv/196403 (api_snapshot): 日文原名搜索命中 TV 196403；详情确认原名「カリーノ・コニ」、别名 Carino Coni、首播日2014-04-01、导演アベユーイチ、编剧広田光毅，与输入作品一致；正篇共1季26集。\n\nhttps://www.themoviedb.org/tv/196403/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为26集，集号1—26，total_pages=1，每集3分钟。第1—6集日期分别为2014-04-01、04-08、04-15、04-22、04-29、05-06，与 Bangumi 逐集一致。所有标题均为编号占位，第7—26集日期和简介为空。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-pOxS7gji1SM&gdid=tvepisode-YaxiY2G_pIc&id=JpnEzAhzsDs (page): Google Play 的「あにてれしあたー」发行页面列出2014年动画第1季完整26集，首末日期为2014-04-01和2014-09-30；剧情为意大利村庄中小兔コニ与动物伙伴的生活，与输入简介一致。第1—6集标题及日期均与 Bangumi 相符。第13—18集标题对应输入同号章节，但页面日期比输入早一周。\n\n备注：TMDB 第7—26集缺少实际标题、日期和简介，无法独立核实逐集内容，因此暂不为 Bangumi 第7—21集建立规则。；Bangumi 第13—18集日期与发行页面相差一周；第19—21集标题为空，第21集日期也为空，需进一步核对原始播出记录。；TMDB 的 last_air_date 停在2014-05-06，与发行页面的完整播出范围不符，属于条目字段缺漏，不能作为完结日期。；TMDB 另列第0季特别篇；输入没有对应特别章节，本次未纳入。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/101287; https://www.themoviedb.org/tv/196403; https://www.themoviedb.org/tv/196403/season/1; https://play.google.com/store/tv/show?cdid=tvseason-pOxS7gji1SM&gdid=tvepisode-YaxiY2G_pIc&id=JpnEzAhzsDs; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201404/23066_201404060724.html",
-    "verifiedAt": "2026-09-08T19:34:41.687Z"
+    "source": "https://bgm.tv/subject/101287; https://www.themoviedb.org/tv/196403; https://www.themoviedb.org/tv/196403/season/1; https://play.google.com/store/tv/show?cdid=tvseason-pOxS7gji1SM&gdid=tvepisode-YaxiY2G_pIc&id=JpnEzAhzsDs",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 196403
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,14 +1,55 @@
 {
   "anidbId": 11219,
   "bangumiId": 132836,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 612064,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 612065,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 612066,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 612067,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 612068,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 612069,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 612070,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 612071,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与 TMDB 210957 在日文标题、2015-10-16首播日、8话规模、人物与制作信息上吻合；独立资料确认这是围绕二宫朋太和亚子美的8话网络动画，由关晓子执导、作乐创意制作。TMDB明确只有第1季且包含第1–8集，因此应映射整季。TMDB逐集日期与 Bangumi/官方所示隔周配信及2016-01-22结束日不一致，但不影响整季8集范围判断。\n\nhttps://www.themoviedb.org/tv/210957 (api_snapshot): TMDB 210957 标题为《カレバカ～吾輩ノ彼ハ馬鹿でR～》，首播日为2015-10-16，共8集，仅有第1季。\n\nhttps://www.themoviedb.org/tv/210957/season/1 (api_snapshot): TMDB 第1季明确为 season 1，共8集，编号1至8。\n\nhttps://bgm.tv/anime/browser/airtime/2018airtime/2018?orderby=b&page=26&sort=title (search_snippet): Bangumi 搜索结果显示该动画为8话、2015-10-16开播，导演为关晓子，原作为土塚理弘与亜積沙紀，人物设定为小嶌エリナ。\n\nhttps://natalie.mu/comic/news/163112 (search_snippet): Comic Natalie 报道该动画于2015-10-16开始网络配信，剧情围绕二宫朋太与夏树亚子美的日常喜剧，导演关晓子、角色设计小嶌エリナ、动画制作作乐创意，并说明后续按每月第1、3个周五更新。\n\n备注：TMDB 快照中的逐集日期按每周排列至2015-12-04，与 Bangumi 的结束日2016-01-22及独立资料所示隔周配信不一致，TMDB日期字段可能不可靠。；AniDB 11219 的直接页面访问受限，未能独立读取其页面；但 Bangumi 条目、作品标题、年份、制作信息、剧情和8话规模均与 TMDB 210957 一致。",
+    "evidence": "codex: 原名、首播日期、导演、主要声优、剧情及8集规模共同确认，本条目对应TMDB 210957第1季整季的2015年网络动画。季表没有混入其他作品的迹象。Bangumi章节缺少标题和日期，TMDB又存在配信日期冲突，因此仅确认整季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/210957 (api_snapshot): 日文原名搜索命中 TMDB 210957；详情显示首播日期为2015-10-16、导演为関暁子、演员包括木村珠莉和浪川大輔，共1季8集。\n\nhttps://www.themoviedb.org/tv/210957/season/1 (api_snapshot): 第1季集表仅有第1至8集，total_pages=1。标题均为通用编号；日期从2015-10-16按周排列至2015-12-04，与实际网络配信安排不符。\n\nhttps://natalie.mu/comic/news/163112 (search_snippet): 2015-10-16报道确认本作是二ノ宮ポン太与夏樹亜子美的日常喜剧网络动画，原作为土塚理弘、亜積沙紀，导演関暁子，动画制作作楽クリエイト；主要声优与TMDB一致，后续计划每月第1、第3个周五配信。\n\nhttps://nijimen.kusuguru.co.jp/topics/534 (search_snippet): 2015-10-18报道确认第1、2话已同时公开，并再次说明每月第1、第3个周五更新，支持TMDB第2话起的每周日期不可靠。\n\nhttps://en.wikipedia.org/wiki/Kare_Baka (search_snippet): 资料将本作列为2015-10-16至2016-01-22配信、全8集的网络动画，剧情、导演及制作公司均与输入吻合。\n\nhttps://bangumi.tv/subject/284158 (page): 占用同季的Bangumi 284158也标为WEB动画、8话、2015-10-16开始、2016-01-22结束，英文别名相同，且指向同一个官方动画网址；这些资料支持其为同作重复条目。\n\n备注：尚不能依据逐集标题或日期核实8个Bangumi章节与TMDB集号的一一对应；不能仅按位置生成rules。；Bangumi 284158疑为同作重复条目，其已有映射造成的占用冲突仍需在条目去重或映射维护时处理。；原官方网站未能读取，实际配信信息依据当时报道及其他资料交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/132836; https://www.themoviedb.org/tv/210957; https://www.themoviedb.org/tv/210957/season/1; https://bgm.tv/anime/browser/airtime/2018airtime/2018?orderby=b&page=26&sort=title; https://natalie.mu/comic/news/163112",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/132836; https://www.themoviedb.org/tv/210957; https://www.themoviedb.org/tv/210957/season/1; https://natalie.mu/comic/news/163112; https://nijimen.kusuguru.co.jp/topics/534; https://en.wikipedia.org/wiki/Kare_Baka; https://bangumi.tv/subject/284158",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

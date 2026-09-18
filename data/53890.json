@@ -1,16 +1,96 @@
 {
   "anidbId": 9495,
   "bangumiId": 53890,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 227236,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 227237,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 227238,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 227239,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 227240,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 227241,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 227242,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 227243,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 227244,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 227245,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 227246,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 227247,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 237938,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 258132,
+      "sort": 1,
+      "type": 4
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 50071第一季：年份、TV短篇媒介、原作、剧情人物、制作人员与声优一致；第一季完整13集的标题及顺序逐一吻合，未混入后续季度，可以建立本篇1—13话连续映射。\n\nhttps://www.themoviedb.org/tv/50071 (api_snapshot): 日文原名搜索返回 TV 50071；详情确认首播于2013-01-03，讲述爱、麻衣、ミイ所在漫画研究部的故事，动画公司为Seven，主要声优与2013年版一致。第一季13集，另有2014年第二季及2017年第三季。\n\nhttps://www.themoviedb.org/tv/50071/season/1 (api_snapshot): 第一季集表共13集、仅1页。逐一比对，13个日文标题及顺序全部对应输入中的本篇1—13话，仅标点存在差异；但部分放送日期不一致，且TMDB第3、4集同记为2013-01-17。\n\nhttps://animeanime.jp/article/2012/11/19/12103.html (search_snippet): 2012年报道确认本作改编自ちょぼらうにょぽみ的四格漫画，导演为いまざきいつき、音乐为羽鳥風画、动画制作为Seven；2013年1月3日起播出，每集5分钟。KBS京都1月8日首播时连续播放第1、2话，证实不同电视台存在排期差异。\n\nhttps://www.themoviedb.org/tv/50071/season/0 (api_snapshot): 第0季共2集，日期分别为2014-10-10和2017-04-21，标题均为通用编号；无法据此对应2013年的「あいまいみーSP 宴も酣と言ったものの…」。\n\n备注：Bangumi与TMDB部分逐集日期不一致；电视台排期差异可解释部分偏差，但TMDB自身也存在重复日期，不能认定所有日期均已核实一致。映射由完整集标题、顺序及总集数共同确认。；章节258132（type=4）的特别节目尚无可靠TMDB对应，保持未映射；不能据此断言TMDB未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/53890; https://www.themoviedb.org/tv/50071; https://www.themoviedb.org/tv/50071/season/1; https://animeanime.jp/article/2012/11/19/12103.html; https://www.themoviedb.org/tv/50071/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 50071
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

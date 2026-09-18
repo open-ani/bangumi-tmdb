@@ -1,16 +1,151 @@
 {
   "anidbId": 15480,
   "bangumiId": 304431,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 962822,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 962823,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 962824,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 962825,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 962826,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 962827,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 962828,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 962829,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 962830,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 962831,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 962832,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 962833,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 972980,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 972981,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 972982,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 972983,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 972984,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 972985,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 972986,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 972987,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 972988,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 972989,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 972990,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 972991,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 990563,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 25 集 TV 动画，放送期为 2020-05-30 至 2020-11-28，章节完整列出 1—25。公开资料中的日文标题、剧情、OLM 制作信息、首播日期和总集数均与该作品一致；TMDB 101562 的第 1 季也明确包含 25 集，且集标题与 Bangumi 1—25 集逐集对应。因此应采用 TV 101562 第 1 季完整范围。TMDB 的首播日期及部分集日期存在错误，但不影响通过标题、剧情、制作信息和完整集标题序列确认同一作品。\n\nhttps://bgm.tv/subject/304431 (page): Bangumi 页面将作品标为 TV，记载 25 集、2020-05-30 开播、2020-11-28 完结，动画制作公司为 OLM，并列出第 1—25 集。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/episodes/ (page): 电视爱知官方页面列出该作品的连续剧集及播出日期，确认第 20—25 集，最终集为 2020-11-28 的「みんなの心をコネクテッド」。\n\nhttps://animeschedule.net/anime/cardfight-vanguard-gaiden-if (page): 独立资料将日文标题对应为 Cardfight!! Vanguard Gaiden: If，类型为 TV，首播 2020-05-30，集数 25，制作公司 OLM，剧情为 IF 世界历史扭曲后伊吹、翠子、惠美和修香恢复历史。页面还提供 AniDB 外部链接。\n\nhttps://www.themoviedb.org/tv/101562 (api_snapshot): TMDB API 快照显示 TV 101562 的日文标题与 Bangumi 完全一致，剧情、日语原声、日本来源和 25 集总数均匹配。\n\nhttps://www.themoviedb.org/tv/101562/season/1 (api_snapshot): TMDB API 快照明确为 season_number=1，episodeCount=25，且完整提供第 1—25 集标题；标题序列与 Bangumi 集标题逐集对应。\n\n备注：TMDB 主页面将 first_air_date 记为 2020-04-30，且部分集播出日期与 Bangumi及官方日期不一致，属于 TMDB 日期元数据疑点。；AniDB 页面本身无法直接读取（403），但 AnimeSchedule 页面中的 AniDB 链接解析到 anime/15480，且其标题、类型、日期、集数和制作信息与 Bangumi 主体一致。",
+    "evidence": "codex: 确认对应TMDB 101562第1季整季。2020年TV外传的剧情、制作人员、声优、25集总量及完整集名序列相互吻合；官方逐集播出记录与Bangumi一致。TMDB第1—25集可与Bangumi本篇1—25连续一一对应，无需特例。\n\nhttps://bgm.tv/subject/304431 (page): Bangumi 标为 TV 动画，共25集，播出期为2020-05-30至2020-11-28；导演及系列构成为川崎逸朗，动画制作为OLM。\n\nhttps://www.themoviedb.org/tv/101562 (api_snapshot): 日文原名搜索命中101562；详情确认同名日本电视作品，仅1季、25集。简介为伊吹、惠美、修香及翠子在历史扭曲的if世界恢复历史，与官方剧情一致；声优宫野真守、吉田有里、佐藤拓也亦吻合。\n\nhttps://www.themoviedb.org/tv/101562/season/1 (api_snapshot): 第1季完整季表共25集，total_pages=1。第1—25集标题与输入章节逐集对应，仅有标点差异；第9—13、17—25集日期一致，第1—8、14—16集日期与官方及Bangumi不符。季内未混入其他作品。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/story/ (page): 官方剧情确认伊吹进入历史扭曲的if世界，与魔法少女先导惠美、卡片妖精修香及立凪翠子共同恢复历史，吻合TMDB简介。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/staff/ (page): 官方列出导演及构成为川崎逸朗、动画制作为OLM，与Bangumi一致；修香、伊吹、櫂的声优分别为吉田有里、宫野真守、佐藤拓也，与TMDB演员名单吻合。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/episodes/ep01-09.html (page): 官方第1—9集的编号、标题、日期均与输入章节一致，首集于2020-05-30播出；支持按标题确认TMDB前8集对应关系，同时识别其日期错误。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/episodes/ep10-19.html (page): 官方第10—19集标题和日期与输入一致，第16集标题另附读音。第14、15、16集实际播出日分别为2020-09-12、09-19、09-26，确认TMDB这三集日期存在偏差而集号对应不变。\n\nhttps://tv-aichi.co.jp/cf-vanguard/if/episodes/ (page): 官方第20—25集编号、标题和日期与Bangumi及TMDB一致；第25集于2020-11-28播出，剧情说明明确为最终回。\n\n备注：TMDB首播日记为2020-04-30，且第1—8、14—16集日期与官方记录不符；官方确认首播为2020-05-30。日期元数据偏差不影响由完整集名、编号及总集数确认的映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/304431; https://tv-aichi.co.jp/cf-vanguard/if/episodes/; https://animeschedule.net/anime/cardfight-vanguard-gaiden-if; https://www.themoviedb.org/tv/101562; https://www.themoviedb.org/tv/101562/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/304431; https://www.themoviedb.org/tv/101562; https://www.themoviedb.org/tv/101562/season/1; https://tv-aichi.co.jp/cf-vanguard/if/story/; https://tv-aichi.co.jp/cf-vanguard/if/staff/; https://tv-aichi.co.jp/cf-vanguard/if/episodes/ep01-09.html; https://tv-aichi.co.jp/cf-vanguard/if/episodes/ep10-19.html; https://tv-aichi.co.jp/cf-vanguard/if/episodes/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 101562
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

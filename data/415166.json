@@ -1,16 +1,119 @@
 {
   "anidbId": 17819,
   "bangumiId": 415166,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1312495,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1312496,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1312497,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1312498,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1312499,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1312500,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1312501,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1312502,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1312503,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1312504,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1312505,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1312506,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1351494,
+      "sort": 8.1,
+      "type": 1
+    },
+    {
+      "id": 1351495,
+      "sort": 8.2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1351494,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 218291,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1351495,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 218291,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2024 年播出的《ささやくように恋を唄う》TV 动画，主体含 12 集正篇及 2 集特别篇 08.1/08.2。TMDB 218291 的标题、简介、日文集标题与正篇 12 集逐一对应；其季列表明确为第 1 季 12 集及第 0 季“特別編”2 集。官方资料确认两集特别篇分别为 Prelude 和 Interlude，属于该动画播出期间的回顾特别篇，因此需同时映射第 1 季完整内容和第 0 季完整内容。Bangumi 的 2024-04-13 与 TMDB 的 2024-04-14 是日本播出日期与 TMDB 日期的时区/记录差异，不构成版本冲突。\n\nhttps://bgm.tv/subject/415166 (page): Bangumi 将该条目标为 TV，话数 12，放送开始于 2024-04-13；章节包含正篇 01—12 以及特别篇 08.1、08.2；简介、角色和制作信息与候选作品一致。\n\nhttps://www.themoviedb.org/tv/218291 (api_snapshot): TMDB 条目标题为 ささやくように恋を唄う，简介描述木野ひまり、朝凪依及 SSGIRLS，原语言为日语、制作国家为日本，共 12 集；季列表包含第 0 季“特別編”2 集和第 1 季12集。\n\nhttps://www.themoviedb.org/tv/218291/season/1 (api_snapshot): TMDB 第 1 季完整列出 12 集，标题从「屋上と、ギターと、先輩と。」到「君にとどけたい唄」，与 Bangumi 正篇 12 集标题及剧情逐一对应。\n\nhttps://sasakoi-anime.com/news/index01110000.html (page): 官方公告确认 2024-06-08 播出「特別編～Prelude～」（回顾第1—2话），2024-06-15 播出「特別編～Interlude～」（回顾第3—6话）。\n\nhttps://www.wikidata.org/wiki/Q116198459 (search_snippet): 公开检索摘要将 ささやくように恋を唄う 与 AniDB anime ID 17819 关联，标题和作品类型与 Bangumi 条目一致。\n\n备注：Bangumi 页面正文未直接显示 AniDB ID，AniDB 17819 的独立页面访问受 robots/403 限制；当前通过标题、Wikidata 的 AniDB ID 关联及完整作品信息交叉核对。；TMDB 第 0 季详情页未能直接读取逐集标题，但 TMDB 主条目的季列表明确给出第 0 季为 2 集，官方资料明确给出对应的 Prelude 和 Interlude 两集；因此采用完整第 0 季而不指定人为推导的单集范围。",
+    "evidence": "codex: 已核实为同一部2024年TV动画：年份、剧情、原作者、制作公司及声优吻合。第1季12集标题逐一一致，日期保持一天差且延期排期吻合；第0季两集通过简介、标题及官方播出公告分别确认是Prelude和Interlude。两个完整季均未混入其他作品，故映射本篇至S01E01—E12，并以章节ID将两集小数sort特别篇映射至S00E01、E02。\n\nhttps://www.themoviedb.org/tv/218291 (api_snapshot): TMDB 218291 为2024年日本TV动画，日文原名、木野日鞠与朝凪依及SSGIRLS的剧情、原作者竹嶋えく、两家动画制作公司和主要声优均吻合；列有第1季12集和第0季2集。\n\nhttps://www.themoviedb.org/tv/218291/season/1 (api_snapshot): 第1季集表共12集、仅1页。逐集日文标题与输入的本篇1—12话完全一致；各集日期均比Bangumi晚一天，包括第9、10集的6月23日、30日和第11、12集的12月29日，顺序及延期后的排期一致。\n\nhttps://www.themoviedb.org/tv/218291/season/0 (api_snapshot): 第0季完整集表共2集、仅1页：第1集日期为2024-06-09，虽标题泛称“第1話”，简介明确写明特别篇Prelude；第2集标题为特别篇Interlude，日期为2024-06-16。分别对应Bangumi特别篇8.1和8.2。\n\nhttps://sasakoi-anime.com/ (page): 官方页面确认该作是竹嶋えく原作、真野玲执导、横浜アニメーションラボ与クラウドハーツ制作的TV动画；剧情、角色及全部12话标题与输入和TMDB一致。\n\nhttps://sasakoi-anime.com/news/index01110000.html (page): 官方公告确认6月8日播出Prelude，回顾第1—2话；6月15日播出Interlude，回顾第3—6话；第9、10话分别调整至6月22日、29日。\n\nhttps://sasakoi-anime.com/news/index01370000.html (page): 官方确认第11、12话于2024年12月28日25:45—26:45连续播出，即公历12月29日凌晨，解释了末两话在Bangumi与TMDB中的一天日期差。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/415166; https://www.themoviedb.org/tv/218291; https://www.themoviedb.org/tv/218291/season/1; https://sasakoi-anime.com/news/index01110000.html; https://www.wikidata.org/wiki/Q116198459",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/415166; https://www.themoviedb.org/tv/218291; https://www.themoviedb.org/tv/218291/season/1; https://www.themoviedb.org/tv/218291/season/0; https://sasakoi-anime.com/; https://sasakoi-anime.com/news/index01110000.html; https://sasakoi-anime.com/news/index01370000.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 218291
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

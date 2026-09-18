@@ -1,16 +1,86 @@
 {
   "anidbId": 7381,
   "bangumiId": 5652,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 37191,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 37192,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 37193,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 37194,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 37195,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 37196,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 37197,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 37198,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 37199,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 37200,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 37201,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 41912,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 68637第1季整季。年份、TV媒介、剧情、主创及12集范围一致；逐集标题核对支持本篇1—12集一一对应，无混入其他作品或拆合集。日期差异不影响已确认的集序。\n\nhttps://www.themoviedb.org/tv/68637 (api_snapshot): 原名搜索命中 TV 68637；详情确认首播为2010-07-01、导演岩崎良明、制作公司J.C.STAFF，御伽银行及大神凉子等人物与剧情均一致，全剧1季12集。\n\nhttps://www.themoviedb.org/tv/68637/season/1 (api_snapshot): 已读取第1季完整12集，total_pages=1。第1—10、12集日文标题与输入完全一致；第11集标题为同义措辞差异。前3集日期一致，第4—12集日期均比Bangumi晚7天。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=10670 (page): 正版平台确认本作为2010年制作的全12话动画，原作沖田雅、导演岩崎良明、系列构成伊藤美智子、动画制作J.C.STAFF，剧情与人物吻合。\n\nhttps://www.anisil.com/animes/1815-%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F%E3%81%95%E3%82%93%E3%81%A8%E4%B8%83%E4%BA%BA%E3%81%AE%E4%BB%B2%E9%96%93%E3%81%9F%E3%81%A1?fp%5B%5D=160 (search_snippet): 分集资料列出第4—12集标题及AT-X日期，与Bangumi一致；第11集使用「羊の毛皮を着た狼」，末集日期为2010-09-16。\n\nhttps://www.at-x.com/pdf/program/1281403488884.pdf (search_snippet): AT-X官方2010年9月节目表明确列出9月9日播出第11集，支持Bangumi日期，而非TMDB记录的9月16日。\n\n备注：TMDB第4—12集日期统一晚7天，偏差原因未确认；外部放送资料支持Bangumi日期。；第11集标题中，TMDB使用「羊の毛皮をかぶった狼」，Bangumi及外部资料使用「羊の毛皮を着た狼」；属于同一集的措辞差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5652; https://www.themoviedb.org/tv/68637; https://www.themoviedb.org/tv/68637/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=10670; https://www.anisil.com/animes/1815-%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F%E3%81%95%E3%82%93%E3%81%A8%E4%B8%83%E4%BA%BA%E3%81%AE%E4%BB%B2%E9%96%93%E3%81%9F%E3%81%A1?fp%5B%5D=160; https://www.at-x.com/pdf/program/1281403488884.pdf",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68637
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

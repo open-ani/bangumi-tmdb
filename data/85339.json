@@ -1,23 +1,46 @@
 {
   "anidbId": 10198,
   "bangumiId": 85339,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 384987,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 384988,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 384989,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该主体标为 3 话 OVA，三话标题分别为「サン・トロンの雷鳴」「エーゲ海の女神」「アルンヘムの橋」。官方页面也明确列出 Operation Victory Arrow Vol.1–Vol.3。TMDB TV 35464 的特别篇 season 0 共 4 集，其中第 1 集为 2007 年旧特别篇；第 2–4 集日期分别对应本 OVA 的三部发行/上映时间，因此应映射为 season 0 的第 2–4 集，而不是整季。\n\nhttps://bgm.tv/subject/85339 (search_snippet): Bangumi 页面确认该主体为 OVA、共 3 话，并列出三话标题及 2014–2015 年日期。\n\nhttps://w-witch.jp/sw_ova/movie/ (search_snippet): 官方页面明确列出 Operation Victory Arrow Vol.1「サン・トロンの雷鳴」、Vol.2「エーゲ海の女神」、Vol.3「アルンヘムの橋」。\n\nhttps://www.themoviedb.org/tv/35464 (api_snapshot): TMDB API 快照确认 TV ID 35464 为「ストライクウィッチーズ」，包含 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/35464/season/0 (api_snapshot): TMDB API 快照确认 season 0 共 4 集：第 1 集为 2007 年，第 2–4 集日期为 2014-09-20、2015-01-10、2015-07-31；因此主体三话对应第 2–4 集。\n\n备注：TMDB season 0 的剧集标题在快照中为泛化的「第2話」至「第4話」，且第三集日期与 Bangumi 的 2015-05-02 条目日期不同，可能反映上映日与发行日差异；但三部官方卷名、数量及时间顺序与第 2–4 集一致。",
+    "evidence": "codex: 匹配独立条目 TV 67020 第1季。年份、剧情、导演、制作公司及三集标题顺序均吻合，整季恰好覆盖本 subject。第3集日期差异已由官方影碟发行信息解释。旧映射35464第0季第2—4集也收录相同内容，本次采用完整独立条目，避免重复映射。\n\nhttps://www.themoviedb.org/tv/67020 (api_snapshot): 日文原名及英文别名搜索均找到独立条目 TV 67020。详情确认其为2014年《胜利之箭行动》，共1季3集，导演高村和宏、制作公司 SILVER LINK.，剧情为罗马涅解放后返回各地的魔女们的故事，与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/67020/season/1 (api_snapshot): 第1季集表共3集、仅1页：第1集“圣特雷登的雷鸣”，2014-09-20；第2集“爱琴海的女神”，2015-01-10；第3集“安恒之桥”，2015-07-31。三集标题与 Bangumi 顺序逐一一致；前两集日期一致，第三集日期对应官方影碟发行日。\n\nhttps://w-witch.jp/sw_ova/staff/?page=vol1 (page): 官方工作人员页确认原作岛田文金与 Project Kagonish、导演及动画角色设计高村和宏、动画制作 SILVER LINK.，并列出本作三个分卷。\n\nhttps://w-witch.jp/sw_ova/story/ (page): 官方剧情介绍确认故事发生于威尼斯解放、第501部队解散并返回各地之后，与 TMDB 独立条目的故事背景一致。\n\nhttps://w-witch.jp/sw_ova/ (page): 官方首页列出三卷标题，并公告第一卷影碟于2014-12-12发行、第三卷于5月2日举行上映首日活动，解释 subject 发售日期与章节上映日期采用不同口径。\n\nhttps://w-witch.jp/sw_ova/bd/?page=bd3 (page): 官方第三卷商品页明确《安恒之桥》Blu-ray/DVD 于2015-07-31发行，解释 TMDB 第3集与 Bangumi 2015-05-02上映日期的差异。\n\nhttps://www.themoviedb.org/tv/35464 (api_snapshot): 旧映射指向的 TV 35464 是2008年开始的主系列，包含三个正季和特别篇。\n\nhttps://www.themoviedb.org/tv/35464/season/0 (api_snapshot): 主系列第0季共4集，第1集为2007年9分钟 OVA；第2—4集的英文标题、剧情及日期也对应本作三卷。旧范围确实收录本作，但另有完整独立条目67020可直接覆盖本 subject。\n\n备注：TMDB 67020 将每集时长均标为90分钟，与其季简介所述三部约30分钟短篇及主系列特别篇的29、26、31分钟记录不一致；属于时长元数据冲突，不影响已由标题、日期和制作信息确认的逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/85339; https://w-witch.jp/sw_ova/movie/; https://www.themoviedb.org/tv/35464; https://www.themoviedb.org/tv/35464/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/85339; https://www.themoviedb.org/tv/67020; https://www.themoviedb.org/tv/67020/season/1; https://w-witch.jp/sw_ova/staff/?page=vol1; https://w-witch.jp/sw_ova/story/; https://w-witch.jp/sw_ova/; https://w-witch.jp/sw_ova/bd/?page=bd3; https://www.themoviedb.org/tv/35464; https://www.themoviedb.org/tv/35464/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67020
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 2,
-      "episodeEnd": 4,
-      "id": 35464,
-      "season": 0,
+      "id": 67020,
+      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,14 +1,48 @@
 {
   "anidbId": 10890,
   "bangumiId": 84705,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 407453,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 407454,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 407453,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 45305,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 407454,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 45305,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认该 subject 是 2 集 OVA。AniDB 10890 的标题、类型、制作公司及与 2011 年 TV 版的关联均匹配；2014-12-28 为先行配布日期，2015-01-30 为通常零售日期。TMDB season 0 的第 3、4 集标题分别对应本 OVA 前、后篇；第 1、2 集属于 2008 年另一部 OVA，不能纳入。\n\nhttps://anidb.net/anime/10890 (page): 正式标题匹配，类型为 OVA、共 2 集，制作公司为 J.C.Staff，并直接关联 2011 年 12 集 TV 版；备注说明 2015-01-30 开始通常零售。\n\nhttps://www.themoviedb.org/tv/45305 (api_snapshot): TV 45305 为对应系列，season 0“特別編”共 4 集。\n\nhttps://www.themoviedb.org/tv/45305/season/0 (api_snapshot): 第 3 集为“宮崎平野！海と大地とイタリアの祭典・前編”，第 4 集为后篇；第 1、2 集是另一部 2008 年 OVA。\n\nhttps://www.youtube.com/watch?v=MF7JWKkr-_g (search_snippet): 官方宣传视频搜索摘要标明该 OVA 于 2015-01-30 发售。",
+    "evidence": "codex: 确认对应TMDB 45305第0季第3—4集。两话前后篇标题逐一一致，OVA媒介、集数、剧情和制作人员相符；日期差异符合2014年末C87先行销售与2015年1月30日正式发售的区别。第0季第1—2集属于2008年旧OVA，故仅声明第3—4集，并按章节ID明确对应。\n\nhttps://bangumi.tv/subject/84705 (page): Bangumi 标注本作为2015年1月30日发行的两话OVA，导演岩崎良明、系列构成伊藤美智子、动画制作J.C.STAFF。\n\nhttps://www.themoviedb.org/tv/45305 (api_snapshot): TMDB 45305为2011年TV系列，制作公司J.C.STAFF、导演岩崎良明、编剧伊藤美智子及主要角色均对应；条目另设包含4集的第0季。\n\nhttps://www.themoviedb.org/tv/45305/season/0 (api_snapshot): 已读取第0季完整集表（共4集、1页）。第3、4集分别为「宮崎平野！海と大地とイタリアの祭典・前編」及「後編」，逐一对应输入的两话标题，日期均为2014-12-28；第1、2集是2008年的OVA上下篇。\n\nhttps://www.animatetimes.com/tag/details.php?id=10766 (page): OVA资料确认2015年1月30日发行，剧情为遥、葵、胡桃从意大利归国并在两校联合典礼期间护卫莉莉卡；导演、编剧、动画制作及制作委员会均与Bangumi一致。\n\nhttps://www.getchu.com/item/829926/ (search_snippet): 商品资料同时注明2015-01-30发售及Comic Market 87先行销售，支持区分先行发行与正式零售日期。\n\nhttps://www.animatetimes.com/news/details.php?id=1418216644 (search_snippet): 同期报道明确Comic Market 87于2014年12月28日至30日举办，与TMDB所列先行发行日期相符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/84705; https://anidb.net/anime/10890; https://www.themoviedb.org/tv/45305; https://www.themoviedb.org/tv/45305/season/0; https://www.youtube.com/watch?v=MF7JWKkr-_g",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/84705; https://bangumi.tv/subject/84705; https://www.themoviedb.org/tv/45305; https://www.themoviedb.org/tv/45305/season/0; https://www.animatetimes.com/tag/details.php?id=10766; https://www.getchu.com/item/829926/; https://www.animatetimes.com/news/details.php?id=1418216644",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

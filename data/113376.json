@@ -1,15 +1,81 @@
 {
+  "anidbId": 7567,
   "bangumiId": 113376,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 430621,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 430622,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 430623,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 430624,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 430625,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 430626,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 430627,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 430628,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 430629,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 430630,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 430631,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认是同一部 2010 年日本短篇 Web/手机动画《SOS TV Walpurgis Night Fever／ワルプルギスナイトフィーバー》：荒废行星上的 Garnet、Crystal 与机器人发送求救信号并将其制作成电视节目。TMDB 作品为 1 季、11 集；季表实际覆盖第 1–11 集，恰好对应 Bangumi subject 的 11 集。Bangumi 另有关联的第 0 话独立 subject 113375，本 subject 不应将其并入范围。TMDB 首播日期为 2010-03-01，而 Bangumi 记录为 2010-05-01，属于日期记录差异，不影响作品身份。\n\nhttps://api.bgm.tv/v0/subjects/113376 (api_snapshot): Bangumi fresh API 记录原名ワルプルギスナイトフィーバー、平台 WEB、2010-05-01、11 集、单集约 2 分钟，别名 SOS TV Walpurgis Night Fever。\n\nhttps://www.themoviedb.org/tv/322478 (api_snapshot): TMDB details 确认原名 SOS TV Walpurgis Night Fever，剧情为 Garnet、Crystal 和机器人 Carrot 在 Walpurgis 星求救并制作综艺式 SOS 节目；2010 年、11 集、1 季。\n\nhttps://www.themoviedb.org/tv/322478/season/1 (api_snapshot): TMDB Season 1 实际季表共 11 集，编号连续为 1–11，日期从 2010-03-01 至 2010-08-02，单集约 3 分钟，标题与该作品的各期节目对应。\n\nhttps://www.chararadio.com/info126-127.html (page): 作品资料称其为手机动画，描述两名少女在荒废行星发出 SOS 并制作电视节目式影像；列出第 0 话至第 5 话及导演市川量也、脚本里见哲朗等制作信息。\n\nhttps://www.videomarket.jp/title/177246/A177246006999H01 (page): 配信页面将第 0 话单独列为《ワルプルギスの二人》，并将第 1–11 话作为主体连续作品列出；第 8–11 话剧情和标题与 TMDB 第 8–11 集一致。\n\nhttps://www.allcinema.net/cinema/336890 (page): 日本资料确认《SOS TV ワルプルギス・ナイトフィーバー》为 2010 年作品，类型为动画、喜剧、科幻，并列出导演市川量也及主要声优。\n\n备注：Bangumi 记录首播日为 2010-05-01、片长约 2 分钟，TMDB 记录首播日为 2010-03-01、片长约 3 分钟；这更像平台或版本的记录差异。；TMDB 当前 crew 字段为空，制作人员交叉核对依赖日本作品资料；但剧情、角色、年份、媒介与 11 集范围均吻合。",
+    "evidence": "codex: 匹配TMDB 322478第1季。2010年手机短篇动画的剧情、角色、发行与制作资料吻合；发行平台明确区分第0话和第1至11话，后者全部标题及顺序与TMDB实际季表一致，支持输入中11话本篇按原始话数连续对应。第0话不纳入本subject。同名电影条目的章节范围未获证实，不采用。\n\nhttps://www.themoviedb.org/tv/322478 (api_snapshot): TMDB TV 322478 为2010年作品，共1季11集；剧情为荒废行星上的 Garnet、Crystal 与机器人通过综艺式求救节目寻求救援，与日本发行资料一致。演员及制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/322478/season/1 (api_snapshot): 实际读取第1季日文及英文集表，total_pages=1，共11集。英文标题依次对应棒球、项目W、田径、双人旅行、问答、地底冒险、高尔夫、机器人遇害、新闻、料理、电话购物，与发行平台第1至11话的标题顺序全部一致；日期记录为2010-03-01至2010-08-02。\n\nhttps://www.videomarket.jp/title/177246 (page): 日本发行平台确认作品年份为2010年，剧情、角色与TMDB TV一致；列出独立第0话，以及第1至3话、第4至7话和第8至11话的全部分集标题及剧情。主篇编号与TMDB第1季逐项对应，第0话不在该季中。制作方为バーナムラボラトリー，导演为市川量也。\n\nhttps://www.chararadio.com/info126-127.html (page): 发行宣传资料明确称其为手机动画，介绍相同求救节目剧情；DVD第一卷收录第0至5话，2010-06-23发行，列明导演市川量也、脚本里见哲朗。该资料将动画正篇与另售的片头曲商品分别介绍。\n\nhttps://www.themoviedb.org/movie/1769473 (api_snapshot): 另检索并读取同名电影条目1769473：记录片长25分钟、相同剧情及导演市川量也、编剧里见哲朗，与TV条目共享IMDb ID；其详情未说明覆盖哪些章节，不能据此替代已确认的11集TV范围。\n\n备注：输入Bangumi章节没有标题及播出日期，本次无法进行Bangumi与TMDB的逐集日期直接比对；连续规则依据发行平台明确话数、全部分集标题和11集范围核实。；Bangumi首播记录为2010-05-01，TMDB为2010-03-01；具体差异原因未确认，不将其解释为已证实的平台差异。；TMDB TV制作人员字段为空，制作信息依赖日本发行资料；其原始语言标为英语，与日本手机动画资料不符，属于尚未解释的元数据问题。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/113376; https://api.bgm.tv/v0/subjects/113376; https://www.themoviedb.org/tv/322478; https://www.themoviedb.org/tv/322478/season/1; https://www.chararadio.com/info126-127.html; https://www.videomarket.jp/title/177246/A177246006999H01; https://www.allcinema.net/cinema/336890",
-    "verifiedAt": "2026-09-08T19:48:17.065Z"
+    "source": "https://bgm.tv/subject/113376; https://www.themoviedb.org/tv/322478; https://www.themoviedb.org/tv/322478/season/1; https://www.videomarket.jp/title/177246; https://www.chararadio.com/info126-127.html; https://www.themoviedb.org/movie/1769473",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 322478
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

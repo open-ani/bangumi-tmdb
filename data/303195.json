@@ -1,19 +1,91 @@
 {
   "anidbId": 15485,
   "bangumiId": 303195,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1109246,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1109247,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1109248,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1109249,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1109250,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1109251,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1109252,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1109253,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1109254,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1109255,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1109256,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1109257,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演与制作公司一致，12话标题及播出日期经深夜时刻换算后逐集吻合。确认对应TMDB 118017第1季第1—12集；该季合并收录2023年第二期，因此旧映射需收窄为明确集数范围。\n\nhttps://www.themoviedb.org/tv/118017 (api_snapshot): TMDB 118017 为2022年新版电视动画；剧情、导演名取孝浩及制作公司梦太公司、Graphinica均与输入一致，区别于2002年旧版。\n\nhttps://www.themoviedb.org/tv/118017/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集标题逐一对应输入的12话，仅有空格差异；日期逐一比输入晚一天，范围为2022-07-06至2022-09-21。第13集起日期为2023-04-05及以后，属于后续第二期，不能将本subject映射为整季。\n\nhttps://tokyo-mew-mew.com/ (page): 官网确认本作为重新改编故事的电视动画，于2022年7月开始播出。\n\nhttps://tokyo-mew-mew.com/news/article_038.html (search_snippet): 官方播出公告明确首播为2022年7月5日、每周二24:00；对应自然日7月6日，解释了Bangumi与TMDB逐集一致的一天日期差。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/303195; https://www.themoviedb.org/tv/118017; https://www.themoviedb.org/tv/118017/season/1; https://tokyo-mew-mew.com/; https://tokyo-mew-mew.com/news/article_038.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118017
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 118017,
       "season": 1,
       "type": "tv"

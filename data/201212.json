@@ -1,21 +1,122 @@
 {
   "anidbId": 12625,
   "bangumiId": 201212,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752030,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752031,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752032,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752033,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752034,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752035,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752036,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752037,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752038,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752039,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 752040,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 752041,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 752042,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 752036,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 74191,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是2017年的TV动画《Wake Up, Girls！新章》。TMDB 74191 将《Wake Up, Girls！》原系列与《新章》收在同一剧集条目中，其中第2季明确命名为《Wake Up，Girls！ 新章》，完整收录12话动画正篇，标题、剧情及播出日期均与本 subject 相符。Bangumi 的13项播出顺序在第7项插入真人回顾节目《特别篇 わぐばん！新章》；TMDB 将该节目另列为 S0E2，因此 Bangumi 第1—6话对应 TMDB S2E1—6，第8—13项对应 S2E7—12。按正篇映射规则应推荐完整第2季，不附加第0季特别篇。\n\nhttps://www.themoviedb.org/tv/74191 (api_snapshot): TMDB API 快照显示 TV 74191 为日本动画《Wake Up, Girls！》，共两季；第2季名为《Wake Up，Girls！ 新章》，2017年开播并有12集。\n\nhttps://www.themoviedb.org/tv/74191/season/2 (api_snapshot): TMDB API 快照列出的第2季12集，从《私たち、Wake Up, Girls!でーす！》至《明るい方へ》，标题、剧情及日期与《新章》的12话动画正篇逐一吻合。\n\nhttps://www.themoviedb.org/tv/74191/season/0 (api_snapshot): TMDB API 快照把2017年11月21日播出的23分钟特别内容单列为 S0E2，解释了为何第2季只有12集，而Bangumi播出顺序共有13项。\n\nhttps://tatsunoko.co.jp/works/wake-up-girls-2/ (page): 龙之子制作作品页确认《Wake Up, Girls！新章》是2017年10月至2018年1月播出的30分钟TV动画，全12话。\n\nhttps://wakeupgirls3.jp/news/detail.php?id=1055594 (page): 动画官网确认2017年11月20日插播的《特别篇 わぐばん！新章》是由声优真人出演、回顾前半剧情并进行综艺企划的特别节目，并非一话动画正篇。\n\nhttps://www.tv-tokyo.co.jp/anime/wug3/episodes/ (page): 东京电视台官方列表将《わぐばん！新章》放在第6话与后续故事之间；其余条目的标题和剧情与TMDB第2季的12集内容一致。",
+    "evidence": "codex: 确认对应TMDB 74191第2季全12集，并包含第0季第2集特别节目。年份、TV媒介、制作人员、人物与故事阶段均吻合；动画逐集标题和剧情顺序一致。Bangumi将真人回顾综艺列为本篇sort 7，因此sort 1—6对应S2E1—6，sort 8—13对应S2E7—12，章节752036单独对应S0E2。旧映射遗漏了这一可确认的特别节目。\n\nhttps://www.themoviedb.org/tv/74191 (api_snapshot): 以日文原名搜索命中 TV 74191；详情将《新章》列为第2季，2017年开播、12集，与2014年的第1季分开。\n\nhttps://www.themoviedb.org/tv/74191/season/2 (api_snapshot): 第2季集表共12集、1页。逐集标题及剧情对应 Bangumi sort 1—6、8—13；首集为偶像祭典获胜后继续开展活动，末集为全国同时举办演唱会，完整覆盖《新章》动画正篇。\n\nhttps://www.themoviedb.org/tv/74191/season/0 (api_snapshot): 第0季共2集、1页。英文集表明确将第2集命名为《WUG BAN! New Chapter》，日期2017-11-21、时长23分钟，对应插播的《わぐばん！新章》。\n\nhttps://tatsunoko.co.jp/works/wake-up-girls-2/ (page): 作品页确认《新章》是2017年10月至2018年1月播出的12话TV动画，讲述WUG继续奋斗、后辈组合Run Girls, Run!加入的故事。\n\nhttps://www.tv-tokyo.co.jp/anime/wug3/staff/ (page): 官方制作名单确认原作Green Leaves、导演板垣伸、角色设计菅原美幸、动画制作Millepensee，与输入版本一致。\n\nhttps://www.tv-tokyo.co.jp/anime/wug3/episodes/index_2.html (page): 官方集表第1—3项的标题、剧情及2017-10-09起每周播出的日期与输入一致，并与TMDB第2季第1—3集对应。\n\nhttps://www.tv-tokyo.co.jp/anime/wug3/episodes/ (page): 官方集表第4—13项与输入一致，其中2017-11-20第7项是特别节目；其余动画的标题、剧情逐一对应TMDB第2季第4—12集。\n\nhttps://wakeupgirls3.jp/news/detail.php?id=1055594 (page): 官网公告确认《わぐばん！新章》在第6话之后于11月20日深夜2时5分播出，由WUG及RGR成员出演，内容为前半剧情回顾和综艺企划；实际日历日期为11月21日。\n\n备注：TMDB部分日期与官方放送日存在差异：多数晚一天；S2E8、E9分别记为2017-12-06、2017-12-13，比官方晚两天，不能全部用跨午夜解释。对应关系由逐集标题、剧情及完整集数共同确认。；TMDB剧集总级制作信息包含2014年版本的山本宽等资料；2017年《新章》的制作人员以官方独立页面核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/201212; https://www.themoviedb.org/tv/74191; https://www.themoviedb.org/tv/74191/season/2; https://www.themoviedb.org/tv/74191/season/0; https://tatsunoko.co.jp/works/wake-up-girls-2/; https://wakeupgirls3.jp/news/detail.php?id=1055594; https://www.tv-tokyo.co.jp/anime/wug3/episodes/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/201212; https://www.themoviedb.org/tv/74191; https://www.themoviedb.org/tv/74191/season/2; https://www.themoviedb.org/tv/74191/season/0; https://tatsunoko.co.jp/works/wake-up-girls-2/; https://www.tv-tokyo.co.jp/anime/wug3/staff/; https://www.tv-tokyo.co.jp/anime/wug3/episodes/index_2.html; https://www.tv-tokyo.co.jp/anime/wug3/episodes/; https://wakeupgirls3.jp/news/detail.php?id=1055594",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 74191
+    },
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 7,
+      "season": 2,
+      "start": 8,
+      "tmdbId": 74191
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 74191,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 74191,
+      "season": 0,
       "type": "tv"
     }
   ]

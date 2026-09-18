@@ -1,19 +1,91 @@
 {
   "anidbId": 17702,
   "bangumiId": 407133,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1310119,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1310120,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1310121,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1310122,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1310123,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1310124,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1310125,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1310126,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1310127,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1310128,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1310129,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1310130,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 213830第1季第1至12集。年份、电视动画媒介、剧情和制作人员相符，12话标题及顺序逐一一致，播出日期符合2024年春季周播安排。TMDB将2025年后续12集也归入第1季，因此旧映射应收窄为明确的1至12集范围。\n\nhttps://www.themoviedb.org/tv/213830 (api_snapshot): 原名搜索命中 TMDB TV 213830；详情中的2024年首播、罗伊德转生后钻研魔术的剧情、导演玉村仁、原作者謙虚なサークル及制作公司均与输入吻合。\n\nhttps://www.themoviedb.org/tv/213830/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1至12集日文标题与输入12话逐一完全一致；第13至24集为2025年播出的后续内容。第1至10集及第12集日期比Bangumi晚一天，第11集同为2024-06-10。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202404/27986_202404012400.html (search_snippet): 东京电视台官方第1话节目资料列出2024年4月1日24:00播出，并确认剧情、导演玉村仁与动画制作公司；该深夜时刻对应自然日4月2日，支持两站多数章节的一天日期差属于记日口径差异。\n\n备注：TMDB第11集采用与Bangumi相同的6月10日，其余对应集多采用翌日日期，日期字段存在记日口径不统一；标题和顺序完全一致，不影响逐集映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/407133; https://www.themoviedb.org/tv/213830; https://www.themoviedb.org/tv/213830/season/1; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202404/27986_202404012400.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 213830
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 213830,
       "season": 1,
       "type": "tv"

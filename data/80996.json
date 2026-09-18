@@ -1,18 +1,54 @@
 {
   "bangumiId": 80996,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 308065,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 308066,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 308065,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 62741,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 308066,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 62741,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过发行版本、制作人员、角色剧情以及逐集标题和日期确认，对应 TMDB 62741 第0季第1至2集。旧映射指向的特别篇季正确，但范围应收窄，不能覆盖该季其余五集。\n\nhttps://bgm.tv/subject/80996 (page): Bangumi 标明本作是2013年8月20日发售、随漫画第16卷限定版附送的两话 OAD，导演为大地丙太郎，动画制作为 TMS、V1Studio。\n\nhttps://www.amiami.jp/top/detail/detail?gcode=BOK-9756 (page): 第16卷限定版商品页确认发售日为2013年8月20日，DVD 收录《神様、捨てられる》《神様、温泉にいく》两篇剧情动画；介绍涉及奈奈生与巴卫、温泉故事，并列出大地丙太郎、TMS及原电视动画声优阵容。\n\nhttps://www.themoviedb.org/tv/62741 (api_snapshot): TMDB 62741 为2012年开始的《神様はじめました》，导演大地丙太郎、制作公司 TMS及V1 studio、主要角色与声优均吻合；作品含两个正季和特别篇季。\n\nhttps://www.themoviedb.org/tv/62741/season/0 (api_snapshot): 已读取第0季完整集表，共7集、1页。第1集《神様、捨てられる》与第2集《神様、温泉にいく》日期均为2013年8月20日，与 Bangumi 两话标题、日期及数量一致；第3至7集为2015至2016年的其他 OAD，不属于本 subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/80996; https://www.amiami.jp/top/detail/detail?gcode=BOK-9756; https://www.themoviedb.org/tv/62741; https://www.themoviedb.org/tv/62741/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 62741,
       "season": 0,
       "type": "tv"

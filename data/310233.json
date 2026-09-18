@@ -1,15 +1,156 @@
 {
+  "anidbId": 16778,
   "bangumiId": 310233,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 966544,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 966545,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 966546,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 966547,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 966548,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 966549,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 966550,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 966551,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 966552,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 966553,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 966554,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 966555,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 966556,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 966557,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 966558,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 966559,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 966560,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 966561,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 966562,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 966563,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 966564,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 966565,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 966566,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 966567,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 966568,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 966569,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认 TMDB 112532 是同一部 2020 年中国网络剧情动画《柳毅传奇》，不是《柳毅传书》等其他改编版本。原名、首播日、剧情、制作公司和 26 集总量均与 Bangumi 信息吻合；TMDB 第 1 季实际连续覆盖第 1–26 集，因此推荐整季。\n\nhttps://www.themoviedb.org/tv/112532 (api_snapshot): TMDB 条目原名《柳毅传奇》，首播 2020-07-22，完结 2020-08-19，共 1 季 26 集；简介和制作公司与 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/112532/season/1 (api_snapshot): TMDB 第 1 季实际集表包含连续第 1–26 集，单集约 13 分钟，标题与 Bangumi 集表对应。\n\nhttps://api.bgm.tv/v0/subjects/310233 (api_snapshot): Bangumi fresh API 标明该作于 2020-07-22 开始、媒介为 WEB、共 26 集，并列出山东笃乐贝等制作信息。\n\nhttps://www.bilibili.com/bangumi/play/ss33853 (search_snippet): 搜索摘要显示该作品为 2020 年已完结、全 26 话，剧情简介一致。\n\nhttps://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202204/W020220414412504859485.pdf (search_snippet): 搜索摘要列出《柳毅传奇》26 集、单集 13 分钟及 2020 年审查信息。\n\n备注：TMDB cast/crew 字段为空，无法仅由 TMDB API 复核 Bangumi 中列出的全部个人工作人员；但作品身份、年份、剧情、媒介、版本和完整集数范围已核实。",
+    "evidence": "codex: 确认对应TMDB 112532第1季整季。年份、首播日、剧情、制作公司及26集动画版本一致；实际季表完整覆盖本subject，26个集标题逐一同序吻合，可建立本篇1—26集的一对一连续规则。日期差异不影响由完整标题序列确认的逐集对应。\n\nhttps://www.themoviedb.org/tv/112532 (api_snapshot): 以原名《柳毅传奇》搜索得到 TV 112532。详情显示首播日为2020-07-22，共1季26集，制作公司为山东笃乐贝影视传媒有限公司；柳毅与螭娘、虎女保护潍州、对抗痴郎的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/112532/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共26集，每集13分钟。逐一比对后，第1—26集标题及顺序全部对应，仅括号与空格格式不同。第1—6集日期一致；第7—26集的TMDB日期均比输入晚5天。\n\nhttps://bangumi.tv/subject/310233 (search_snippet): Bangumi搜索摘要标记该作为WEB动画，2020-07-22开播、26话，总导演姜岱鲁，列出山东笃乐贝等制作公司，剧情与TMDB一致。\n\nhttps://www.iq.com/album/柳毅传奇-第1季-2020-2ffkws2tll9?lang=zh_cn (search_snippet): 爱奇艺正版播放条目标记《柳毅传奇 第1季》（2020），提供至第26集的选集范围，简介中的人物、地点和主要冲突与输入一致。\n\n备注：第7—26集放送日期存在统一5天差异：Bangumi为7月24日、7月31日、8月7日、8月14日四批，TMDB为7月29日、8月5日、8月12日、8月19日四批；尚未确认差异原因。；TMDB的cast与crew为空，无法从该API独立复核导演等个人制作人员。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/310233; https://www.themoviedb.org/tv/112532; https://www.themoviedb.org/tv/112532/season/1; https://api.bgm.tv/v0/subjects/310233; https://www.bilibili.com/bangumi/play/ss33853; https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202204/W020220414412504859485.pdf",
-    "verifiedAt": "2026-09-08T22:06:39.140Z"
+    "source": "https://bgm.tv/subject/310233; https://www.themoviedb.org/tv/112532; https://www.themoviedb.org/tv/112532/season/1; https://bangumi.tv/subject/310233; https://www.iq.com/album/柳毅传奇-第1季-2020-2ffkws2tll9?lang=zh_cn",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112532
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

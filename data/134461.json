@@ -1,19 +1,35 @@
 {
   "bangumiId": 134461,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 531340,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 531340,
+      "targets": [
+        {
+          "id": 564291,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 2013 年上映的第二部剧场版：上映日期、89 分钟片长、导演、别名及具体剧情均一致。Bangumi 仅有一章，映射到完整电影 564291；替换无法读取的旧映射 568639。\n\nhttps://www.themoviedb.org/movie/564291 (api_snapshot): 原名及英文别名搜索均返回电影 564291。详情确认上映日期为 2013-01-31、片长 89 分钟、导演 Sheng-jun Yu（于胜军）；剧情为阿布身体逐渐透明，龙星等人寻找萌系精灵王，与 Bangumi 的日期、片长、导演及剧情一致。别名包含“洛克王国大电影2”和“Roco Kingdom: The Desire of Dragon”。\n\nhttps://www.themoviedb.org/movie/568639 (api_snapshot): 旧映射电影 568639 的详情接口返回 HTTP 404，无法支持沿用该映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/134461; https://www.themoviedb.org/movie/564291; https://www.themoviedb.org/movie/568639",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 568639,
+      "id": 564291,
       "type": "movie"
     }
   ]

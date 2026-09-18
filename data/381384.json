@@ -1,15 +1,91 @@
 {
+  "anidbId": 17354,
   "bangumiId": 381384,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1105711,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1105712,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1105713,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1105714,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1105715,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1105716,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1105717,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1105718,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1105719,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1105720,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1105721,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1105722,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1136615,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《KJファイル》（2022）。TMDB 剧情、日文原名、制作公司 ILCA/yell、船田晃及脚本人员与 Bangumi 和官方资料一致；官方资料明确第1季为2022年7月10日至10月2日共13话，内容标题与 TMDB 第1季第1至13集逐一对应。TMDB 将2023年续篇的内容继续混入第1季第14至26集，因此必须使用第1季1至13集的闭区间，不能整季映射。\n\nhttps://api.bgm.tv/v0/subjects/381384 (api_snapshot): Bangumi fresh API 标示为2022年TV动画，共13集；剧情、船田晃、佐々木充郭、飯塚貴士、ILCA/yell等信息与候选一致。\n\nhttps://www.themoviedb.org/tv/201395 (api_snapshot): TMDB详情确认 ID 201395 为日文原名《KJファイル》的日本TV动画，首播日期为2022-07-11，剧情、制作公司ILCA/yell、导演船田晃及编剧信息匹配。\n\nhttps://www.themoviedb.org/tv/201395/season/1 (api_snapshot): TMDB第1季第1至13集标题依次为 Bangumi 第1季13集标题，日期对应2022年7月10日至10月2日（TMDB因时区显示为次日）；第14集起日期进入2023年续篇。\n\nhttps://www.tv-tokyo.co.jp/anime/kjfile/file/ (page): 东京电视台官方集数页列出2022年7月10日至10月2日的第1至13话，标题和剧情与 TMDB 第1至13集一致；同时列出2023年的第14至26话。\n\nhttps://www.tv-tokyo.co.jp/anime/kjfile/ (page): 官方主页公告2022年10月2日续篇决定，并公告2023年1月8日开始续篇，证明2022年13话与2023年续篇是不同版本/季度。\n\n备注：TMDB详情显示第1季有26集、第2季另有5个缺少标题和日期的条目，季划分存在数据建模异常；但第1季1至13集与本 Bangumi subject 的身份及范围均已由官方资料和实际季表确认。",
+    "evidence": "codex: 确认对应 TMDB 201395 第1季第1至13集。年份、电视动画媒介、剧情、制作人员及制作公司一致，13话标题与官方分集内容逐一吻合，可建立连续对应规则。TMDB 第1季同时收录2023年续篇，故仅映射1至13集，与已分配给 Bangumi 403671 的14至26集无重叠。\n\nhttps://www.themoviedb.org/tv/201395 (api_snapshot): TMDB 201395 为2022年日本电视动画《KJファイル》；国连怪兽监视团的剧情、制作公司 ILCA/yell、导演船田晃及编剧信息均与输入一致。\n\nhttps://www.themoviedb.org/tv/201395/season/1 (api_snapshot): 已读取第1季完整集表，共26集，total_pages=1。第1至13集标题逐一对应输入的13话，分集剧情与官方一致；第14至26集日期进入2023年，不属于本 subject。\n\nhttps://www.tv-tokyo.co.jp/anime/kjfile/file/ (page): 官方集目列出2022年7月10日至10月2日的第1至13话，全部标题、顺序及标注日期与输入一致；第14话从2023年1月8日开始。官方第9至11话日期与 TMDB 存在差异，但标题和剧情逐集相符。\n\n备注：日期字段并非全部一致：TMDB 第1至8、12至13集比官方标注晚一天；第9至11集分别为2022-09-05、09-12、09-19，官方及输入则为08-28、09-04、09-11。差异原因未确认，但逐集标题、剧情及顺序一致，映射不受影响。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/381384; https://api.bgm.tv/v0/subjects/381384; https://www.themoviedb.org/tv/201395; https://www.themoviedb.org/tv/201395/season/1; https://www.tv-tokyo.co.jp/anime/kjfile/file/; https://www.tv-tokyo.co.jp/anime/kjfile/",
-    "verifiedAt": "2026-09-08T23:21:47.207Z"
+    "source": "https://bgm.tv/subject/381384; https://www.themoviedb.org/tv/201395; https://www.themoviedb.org/tv/201395/season/1; https://www.tv-tokyo.co.jp/anime/kjfile/file/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 201395
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

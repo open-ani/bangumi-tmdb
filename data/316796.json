@@ -1,13 +1,135 @@
 {
+  "anidbId": 15755,
   "bangumiId": 316796,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 982704,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 982705,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 982706,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 982707,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 982708,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 982709,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 982710,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 982711,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 982712,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 982713,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 982714,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 982715,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 982716,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 982717,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 982718,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 982719,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 982720,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 982721,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 982722,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 982723,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 982724,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 982725,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 982726,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 982727,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品为《アニメ カピバラさん / Anime Kapibara-san》（TMDB 114593）。TMDB 原名、别名、首播日期（2020-10-09）、剧情简介均与 Bangumi 的《カピバラさん》2020 年首次电视动画化信息相符；官方资料确认这是以水豚君及伙伴在ミドリノ草原的日常为内容的短篇 TV 动画，并由シンエイ動画与レスプリ制作。TMDB 第 1 季实际包含连续第 1 至第 24 集，正好覆盖 Bangumi 主体的 24 集，因此使用整季映射。另有 TMDB 112343 的同名重复条目，但缺少简介、别名和外部 ID，故不推荐。\n\nhttps://www.themoviedb.org/tv/114593 (api_snapshot): TMDB 详情：原名为「アニメ カピバラさん」，首播 2020-10-09，24 集、1 季；别名包括「水豚君」和「Anime Capybara-san」，剧情为 Kapibara-san 与动物伙伴在 Midorino Grasslands 的日常。\n\nhttps://www.themoviedb.org/tv/114593/season/1 (api_snapshot): TMDB 第 1 季表实际返回 24 集，编号连续覆盖 1–24，total_pages=1；每集约 2 分钟。\n\nhttps://www.bandaispirits.co.jp/press/2020/200722.php (search_snippet): BANDAI SPIRITS 官方资料确认《アニメ カピバラさん》是「カピバラさん」首次电视动画化，2020-10-09 起在东京电视台系播出，内容为 Kapibara-san 与伙伴们的短篇日常；列出导演月見里智弘及シンエイ動画／レスプリ制作信息。\n\nhttps://shin-ei-animation.jp/works/kapibarasan/ (search_snippet): シンエイ動画官方作品页确认该作于 2020 年秋首次 TV 动画化，讲述カピバラさん与伙伴在ミドリノ草原的日常，并标注第 2 季从 2021-01-08 开始播出。\n\nhttps://www.tv-tokyo.co.jp/anime/kinder/story/index_6.html (search_snippet): 东京电视台官方节目资料列出《アニメカピバラさん》第 24 话，并显示其在 2021-03-26 播出，印证 Bangumi 的 24 集主体范围。\n\n备注：TMDB 114593 的详情和季表将末集日期记为 2021-03-19，与东京电视台官方资料及 Bangumi 的 2021-03-26 不一致；但作品身份、媒介、季号和 24 集连续范围一致，因此不影响整季映射。",
+    "evidence": "codex: 确认对应TMDB 114593第1季整季：首播年份与日期、电视短篇媒介、草原日常剧情及24集主体范围相符，官方两个播出季度合计对应该季。逐集规则暂留空：输入中的Bangumi章节标题和日期全部缺失，TMDB只有通用集号且后半日期与官方冲突，不能仅凭排列位置生成逐集对应。\n\nhttps://www.themoviedb.org/search/tv?query=カピバラさん (api_snapshot): 日文原名搜索返回 TV 114593 和 112343 两个候选。\n\nhttps://www.themoviedb.org/tv/114593 (api_snapshot): 114593 原名为《アニメ カピバラさん》，别名包括“水豚君”；首播日期为 2020-10-09，剧情为水豚及动物伙伴在ミドリノ草原的日常，共1季24集，与目标作品一致。制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/114593/season/1 (api_snapshot): 第1季实际集表共24集，编号连续为1–24，total_pages=1，每集2分钟。标题均为通用集号，简介为空；第13集日期记为2021-01-01，此后每周一集，末集记为2021-03-19。\n\nhttps://shin-ei-animation.jp/works/kapibarasan/ (page): 制作方确认本作为角色诞生15周年之际、2020年秋首次电视动画化，剧情与输入简介一致；导演为月見里智弘，动画制作为シンエイ動画／レスプリ。2021-01-08开始的是第二个播出季度（第2クール），不能据此认定为TMDB第2季。\n\nhttps://www.tv-tokyo.co.jp/anime/kinder/story/index_7.html (page): 东京电视台记录第13–16话分别于2021-01-08、01-15、01-22、01-29播出，同编号TMDB日期均提前一周。\n\nhttps://www.tv-tokyo.co.jp/anime/kinder/story/index_6.html (page): 东京电视台记录第17–24话于2021-02-05至03-26每周五连续播出，确认本篇终点为第24话；同编号TMDB日期均提前一周。\n\nhttps://www.themoviedb.org/tv/112343 (api_snapshot): 112343同样标注2020-10-09首播及24集，但简介、别名、演职员与外部ID均为空；证据完整度低于114593，未选用。\n\n备注：TMDB第13–24集日期整体比官方早一周；整季范围可确认，但逐集映射需补充可交叉核对的章节资料。；112343疑似重复条目，现有详情不足以独立确认其内容及与114593的关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/316796; https://www.themoviedb.org/tv/114593; https://www.themoviedb.org/tv/114593/season/1; https://www.bandaispirits.co.jp/press/2020/200722.php; https://shin-ei-animation.jp/works/kapibarasan/; https://www.tv-tokyo.co.jp/anime/kinder/story/index_6.html",
-    "verifiedAt": "2026-09-08T22:33:31.114Z"
+    "source": "https://bgm.tv/subject/316796; https://www.themoviedb.org/search/tv?query=カピバラさん; https://www.themoviedb.org/tv/114593; https://www.themoviedb.org/tv/114593/season/1; https://shin-ei-animation.jp/works/kapibarasan/; https://www.tv-tokyo.co.jp/anime/kinder/story/index_7.html; https://www.tv-tokyo.co.jp/anime/kinder/story/index_6.html; https://www.themoviedb.org/tv/112343",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

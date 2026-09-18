@@ -1,13 +1,35 @@
 {
+  "anidbId": 18311,
   "bangumiId": 463578,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1265213,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1265214,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1265215,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1265216,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《西行纪 前缘篇》（2023）。TMDB 剧情与 Bangumi 完全对应，均描述悟净前往阴界、白狼收服老虎并进入古城等情节；媒介均为网络动画，且均为 4 集。TMDB 详情显示仅有第 1 季共 4 集，季表实际列出第 1 至第 4 集，未混入其他作品，因此使用整季范围。TMDB 首播日期为 2023-11-08，Bangumi 记录为 2023-11-03，属于平台日期差异，不影响作品身份。\n\nhttps://api.bgm.tv/v0/subjects/463578 (api_snapshot): Bangumi fresh API：标题《西行纪 前缘篇》，2023-11-03，平台 WEB，共 4 集；剧情为悟净下阴界、白狼收服一虎并在古城遇险。\n\nhttps://www.themoviedb.org/tv/252169 (api_snapshot): TMDB 详情：标题《西行纪 前缘篇》，2023-11-08 首播，2023-11-29 完结，共 4 集、1 个季；简介与 Bangumi 剧情一致。\n\nhttps://www.themoviedb.org/tv/252169/season/1 (api_snapshot): TMDB 第 1 季实际集表包含第 1 至第 4 集，播出日期为 2023-11-08、11-15、11-22、11-29；第 1 集简介明确称其为网络动画《西行纪前缘篇》全 4 话。\n\nhttps://bangumi.tv/person/38092/works/anime (page): Bangumi 百漫作品列表将《西行纪 前缘篇》列为 2023 年 4 话作品，制作/动画制作关联百漫，并列有郑健和、邓志辉。\n\nhttps://www.anibk.com/bk/4202 (page): 作品资料页标注《西行纪 前缘篇》为 2023-11-03 首播、WEB、完结、4 话，制作方为百漫与腾讯视频，并给出与 Bangumi 相同的剧情简介。",
+    "evidence": "codex: 确认对应 TMDB 252169 第1季整季。年份、特定剧情、网络动画媒介、制作公司及4话规模一致，实际季表覆盖该独立衍生作品，未见混入年番或其他作品。逐集标题和日期不足以交叉验证，因此仅确认作品及季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/463578 (page): Bangumi 标注为2023年11月3日开始的4话网络动画，动画制作百漫，联合出品腾讯视频、百漫文化，总导演麦正乐、徐羽。\n\nhttps://www.themoviedb.org/tv/252169 (api_snapshot): TMDB 252169 为2023年《西行纪 前缘篇》，简介包含悟净重返阴界、白狼收服一虎并进入失落古城，与待核对作品的特定剧情一致；共1季4集。制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/252169/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，仅含第1至4集。第1集名为“悟净古小月篇”，简介明确说明这是百漫制作、腾讯视频发布的4话网络动画《西行纪前缘篇》。四集日期依次为2023-11-08、11-15、11-22、11-29，其余三集只有通用编号标题。\n\nhttps://bgm.tv/subject/463578/ep (page): Bangumi 章节表仅列本篇第1至4话，均无标题与播出日期，无法与 TMDB 逐集交叉核验。\n\nhttps://www.anibk.com/bk/4202 (search_snippet): 番组百科也将该作列为2023-11-03首播、百漫制作、腾讯视频参与出品的网络动画，列出4话，剧情与输入一致，并与《西行纪年番》分列。\n\n备注：Bangumi 首播日期为2023-11-03，TMDB 为2023-11-08且按周排列四集；尚无官方排期解释差异，不能沿用旧映射中“平台日期差异”的断言。；Bangumi 四话均缺标题和日期，TMDB 第2至4集亦缺有效标题及剧情；需官方分集资料或正片核验后才能建立逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/463578; https://api.bgm.tv/v0/subjects/463578; https://www.themoviedb.org/tv/252169; https://www.themoviedb.org/tv/252169/season/1; https://bangumi.tv/person/38092/works/anime; https://www.anibk.com/bk/4202",
-    "verifiedAt": "2026-09-09T00:01:37.427Z"
+    "source": "https://bgm.tv/subject/463578; https://www.themoviedb.org/tv/252169; https://www.themoviedb.org/tv/252169/season/1; https://bgm.tv/subject/463578/ep; https://www.anibk.com/bk/4202",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

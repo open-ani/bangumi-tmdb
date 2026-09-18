@@ -1,15 +1,61 @@
 {
+  "anidbId": 12734,
   "bangumiId": 205331,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 692486,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 692487,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 692488,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 692489,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 692490,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 692491,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 876016,
+      "sort": 7,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与 Bangumi 主体均为《たまぽんず》/《玉家典当铺》，2017 年日本 WEB 动画；剧情均为美尋因爱犬头槌进入动物世界并在动物当铺工作的故事。角色声优东山奈央、绿川光、堀江由衣等也相符。Bangumi 主体为 6 集正篇，TMDB 第 1 季实际有且仅有 6 集，因此可映射整季。Bangumi 另有 SP/第 7 条记录，但不是 6 集正篇的一部分，TMDB 季表也未包含它。\n\nhttps://www.themoviedb.org/tv/209465 (api_snapshot): TMDB API 详情确认：原名为「たまぽんず」，首播日期 2017-01-27，已完结，共 1 季 6 集；演员包括东山奈央、绿川光、堀江由衣、三宅麻理恵、若本规夫、玄田哲章。\n\nhttps://www.themoviedb.org/tv/209465/season/1 (api_snapshot): TMDB API 季表确认第 1 季 episodeCount=6、total_pages=1，集数为 1–6，无额外混合作品集数。\n\nhttps://bgm.tv/subject/205331 (page): Bangumi 页面确认该作品为 WEB 动画，2017-01-27 开始、2017-02-01 结束、正篇 6 集，制作/导演/脚本等与玉家质店及月见堂相关。\n\nhttps://www.youtube.com/channel/UCpHYMOCPefF0GOBhlSAk4fg (search_snippet): 玉家质店官方 YouTube 频道搜索结果列出《たまぽんず》#1 至 #6 WEB 动画视频。\n\n备注：TMDB 记录的后续集播出日期为每周至 2017-03-03，与 Bangumi 记载的 2017-01-27 至 2017-02-01 不一致；但标题、剧情、角色阵容和 6 集总数均一致，疑似 TMDB 日期数据误差。；TMDB 详情缺少剧情简介和工作人员字段，制作人员对应主要由 Bangumi 及官方频道线索核对。",
+    "evidence": "codex: 确认主体对应 TMDB 209465 第1季：原名、年份、首播日期、完整声优阵容及六集规模相符，官网进一步确认剧情、制作方和六集正篇范围。该季仅含这六集，可映射整季。逐集仅建立首集对应，其首播日期和首集身份均一致；第2至6集因日期冲突且 TMDB 缺少具体标题及剧情，暂不建立连续规则。\n\nhttps://www.themoviedb.org/tv/209465 (api_snapshot): 日文原名搜索命中 TV 209465；详情确认原名「たまぽんず」、首播日期 2017-01-27、共一季六集。六名演员与官网阵容一致。TMDB 简介、制作公司及工作人员字段为空，不能据此声称已核对剧情或制作人员。\n\nhttps://www.themoviedb.org/tv/209465/season/1 (api_snapshot): 第1季完整集表共六集，total_pages=1；标题均为通用的「第1話」至「第6話」。日期依次为 2017-01-27、02-03、02-10、02-17、02-24、03-03；第一集时长四分钟，其余缺少时长，全部缺少分集简介。\n\nhttps://bgm.tv/subject/205331 (page): Bangumi 确认为六集 WEB 动画，发布期间记为 2017-01-27 至 2017-02-01，另列 SP。剧情为美尋被爱犬撞晕后进入动物世界当铺工作；制作涉及玉家質店和月見堂。\n\nhttps://www.tamasichi.net/tama-pawns/index.html (page): 官网确认相同剧情、月見堂负责导演及动画制作、玉家質店负责制作，演员阵容与 TMDB 一致；正篇顺序为：ミヒロ、シゴトハジメ、イチバトル、ゼロサム、オクライリ、チャラ，共六集，与输入章节逐项相符。\n\nhttps://animeanime.jp/article/2017/01/17/32195.html (page): 2017-01-17 的报道确认该作品为全六集原创 WEB 短篇动画，宣布自1月27日起每周五配信。这与 TMDB 周播日期规律一致，但与 Bangumi 的连续六日记录不同，不能直接判定 TMDB 日期错误。\n\n备注：第2至6集的 Bangumi 日期为逐日发布，TMDB 为逐周发布；播前报道支持周播计划，但尚未确认实际发布时间或平台差异。需核对官方视频发布记录或补全 TMDB 分集资料后再建立对应。；Bangumi 特别篇 876016 缺少标题与日期，TMDB 详情仅列第1季六集，尚无可核实的特别篇对应，保留未映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/205331; https://www.themoviedb.org/tv/209465; https://www.themoviedb.org/tv/209465/season/1; https://www.youtube.com/channel/UCpHYMOCPefF0GOBhlSAk4fg",
-    "verifiedAt": "2026-09-08T20:39:46.073Z"
+    "source": "https://bgm.tv/subject/205331; https://www.themoviedb.org/tv/209465; https://www.themoviedb.org/tv/209465/season/1; https://www.tamasichi.net/tama-pawns/index.html; https://animeanime.jp/article/2017/01/17/32195.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 209465
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

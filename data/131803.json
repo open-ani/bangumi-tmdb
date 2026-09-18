@@ -1,16 +1,151 @@
 {
   "anidbId": 11200,
   "bangumiId": 131803,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 568247,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 568248,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 568249,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 568250,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 568251,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 568252,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 568253,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 568254,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 568255,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 568256,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 568257,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 568258,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 592070,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 592071,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 592072,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 592073,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 592074,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 592075,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 592076,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 592077,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 592078,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 592079,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 592080,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 592081,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 592082,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2015-10-03 开始、共 25 话的 TV 作品，标题、别名、剧情、角色和制作信息与 AniDB 11200 的 Itoshi no Muuco 及 TMDB 93078 完全吻合。TMDB 快照明确列出第 1 季、25 集；Bangumi 与电视东京官方逐集资料均覆盖 1–25 话。候选的 season=3 没有得到支持；其季 3 请求失败不作为“不存在”的依据。OAD 是 Bangumi 的独立关联条目，不应并入本 TV 主体。\n\nhttps://bgm.tv/subject/131803 (page): Bangumi 将该条目标为 TV《いとしのムーコ／家有穆珂》，共 25 话，首播 2015-10-03，完播 2016-03-26；剧情、原作、导演、动画制作及关联 OAD 信息均吻合。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题数据将 AniDB ID 11200 对应为 Itoshi no Muuco，并另列 Lovely Movie: Itoshi no Muuco、Season 2 与 OAD 条目，支持 11200 是本 25 话 TV 版而非 OAD。\n\nhttps://www.tv-tokyo.co.jp/anime/muco/episodes/ (page): 电视东京官方逐集页面列出该系列第 25 话至第 1 话，末话于 2016-03-26 播出；所示标题和日期与 Bangumi 输入中的 25 个正篇逐一对应。\n\nhttps://www.themoviedb.org/tv/93078 (api_snapshot): TMDB API 快照显示作品名为 いとしのムーコ，首播 2015-10-03，共 25 集，并明确列出 season_number=1、episode_count=25。\n\nhttps://www.themoviedb.org/tv/93078/season/3 (api_snapshot): TMDB 快照记录候选 season=3 的请求返回 HTTP 404；该失败未被当作不存在的证明，只说明候选季号缺乏支持。",
+    "evidence": "codex: 确认对应TMDB 93078第1季整季。年份、TV媒介、剧情、制作公司、导演、声优及25集标题和顺序均吻合，正篇1至25话可按同号连续映射。官方逐集资料解决了TMDB后12集日期提前一周的冲突，不影响集号对应。实际季表支持第1季，线索中的第3季不采用；独立OAD不纳入。\n\nhttps://bgm.tv/subject/131803 (page): Bangumi 标明本作为2015年10月3日至2016年3月26日播出的25话TV动画，导演为ロマのフ比嘉、动画制作为DLE；OAD另列关联条目。\n\nhttps://www.themoviedb.org/tv/93078 (api_snapshot): TMDB 93078的首播日期、玻璃工匠小松与爱犬穆珂的剧情、DLE制作、导演及主要声优均吻合；详情明确仅列第1季，共25集。\n\nhttps://www.themoviedb.org/tv/93078/season/1 (api_snapshot): 已读取第1季全部25集，total_pages=1。各集日文标题与Bangumi逐一对应，简介与官方集表一致；第1至13集日期一致，第14至25集日期均比官方早7天。\n\nhttps://www.tv-tokyo.co.jp/anime/muco/staff/ (page): 官方制作名单确认原作为みずしな孝之、动画制作为DLE、导演为ロマのフ比嘉。\n\nhttps://www.tv-tokyo.co.jp/anime/muco/episodes/index_3.html (page): 官方第1至5话标题和日期与Bangumi及TMDB对应，首话播出日期为2015年10月3日。\n\nhttps://www.tv-tokyo.co.jp/anime/muco/episodes/index_2.html (page): 官方第6至15话标题、顺序与两站一致；第13话为2015年12月26日，第14话为2016年1月9日，第15话为1月16日，确认跨年后的日期差异。\n\nhttps://www.tv-tokyo.co.jp/anime/muco/episodes/ (page): 官方第16至25话标题、顺序及剧情与TMDB一致，日期与Bangumi一致；最终话于2016年3月26日播出。\n\n备注：TMDB第14至25集播出日期均较官方及Bangumi早7天，导致作品末播日期也提前一周；映射依据已核实的逐集标题、剧情和官方集号确定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/131803; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.tv-tokyo.co.jp/anime/muco/episodes/; https://www.themoviedb.org/tv/93078; https://www.themoviedb.org/tv/93078/season/3",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/131803; https://www.themoviedb.org/tv/93078; https://www.themoviedb.org/tv/93078/season/1; https://www.tv-tokyo.co.jp/anime/muco/staff/; https://www.tv-tokyo.co.jp/anime/muco/episodes/index_3.html; https://www.tv-tokyo.co.jp/anime/muco/episodes/index_2.html; https://www.tv-tokyo.co.jp/anime/muco/episodes/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93078
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,106 @@
 {
+  "anidbId": 14159,
   "bangumiId": 234080,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 793887,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 793888,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 793889,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 793890,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 793891,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 793892,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 793893,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 793894,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 793895,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 793896,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 793897,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 793898,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 793899,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 793900,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 793901,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 793902,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 105910 的首播日期为 2018-06-17，别名包含“观海策之北地风烟”“禹相龙图”“Guan Hai Ce”，剧情明确对应北地冀国战事；导演/编剧 Jianzhi Hu 对应胡鉴之，配音演员也与 Bangumi 资料吻合。其第 1 季实际有 16 集，集名与 Bangumi 主体的 16 集逐一对应，因此对应第 1 季整季。第 2 季日期为 2020 年且简介对应关系作品“观海策之铁骑雄关”，不纳入本 subject。\n\nhttps://api.bgm.tv/v0/subjects/234080 (api_snapshot): Bangumi API 标明作品为 2018-06-17 开播的 WEB 动画，共 16 集；简介、制作公司同明宣及 16 集标题对应北地风烟篇。\n\nhttps://www.themoviedb.org/tv/105910 (api_snapshot): TMDB 105910 为 2018-06-17 开播的 TV 作品，别名包含“观海策之北地风烟”“禹相龙图”“Guan Hai Ce”；简介对应曲屠国入侵轩辕冀地及姬匡、凌遥主线，工作人员含导演/编剧 Jianzhi Hu，且列出 2018 年第 1 季和 2020 年第 2 季。\n\nhttps://www.themoviedb.org/tv/105910/season/1 (api_snapshot): TMDB 第 1 季实际集表共 16 集，日期为 2018 年，集名与 Bangumi 的 16 集逐一对应。\n\n备注：TMDB 第 1、2 集的播出日期与 Bangumi 集表存在错位，但集名、数量、剧情、年份和制作人员均一致，不影响作品及季范围判定。",
+    "evidence": "codex: 确认对应TMDB 105910第1季整季。年份、首播日、剧情、制作人员及公司吻合，16集标题逐一同序一致，支持本篇1—16直接对应S01E01—E16。第2季属于另一个Bangumi续集，不纳入。\n\nhttps://bgm.tv/subject/234080 (page): Bangumi 标明本作为2018年6月17日开播、共16话的WEB动画《观海策之北地风烟》，胡鉴之执导、同明宣制作；剧情围绕凌遥、姬匡协助抵御冀国危机，另列《铁骑雄关》为续集。\n\nhttps://www.themoviedb.org/tv/105910 (api_snapshot): TMDB 105910 首播日期为2018-06-17，别名包含《观海策之北地风烟》《禹相龙图》；剧情、导演Jianzhi Hu、制作公司同明宣及腾讯与Bangumi一致。第1季为2018年16集，第2季明确为2020年《铁骑雄关》。\n\nhttps://www.themoviedb.org/tv/105910/season/1 (api_snapshot): 第1季集表共16集、仅1页；全部16个标题与输入Bangumi章节按集号逐一完全一致。第1集日期一致；TMDB第2集同为2018-06-17，第3至16集每周播出至2018-09-23，因此第2至16集日期均比输入Bangumi早7天。\n\nhttps://www.themoviedb.org/tv/113479 (api_snapshot): 另一同名候选113479首播标为2020-11-20，缺少简介、制作公司和演职员资料，无法提供与2018年本作相符的身份依据，未采用。\n\n备注：两站第2—16集播出日期存在统一7天差异，尚未核实实际首播排期；标题和集数完全一致，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/234080; https://api.bgm.tv/v0/subjects/234080; https://www.themoviedb.org/tv/105910; https://www.themoviedb.org/tv/105910/season/1",
-    "verifiedAt": "2026-09-08T21:12:28.188Z"
+    "source": "https://bgm.tv/subject/234080; https://www.themoviedb.org/tv/105910; https://www.themoviedb.org/tv/105910/season/1; https://www.themoviedb.org/tv/113479",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 105910
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,86 @@
 {
   "anidbId": 15724,
   "bangumiId": 322926,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 999900,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 999901,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 999902,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 999903,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 999904,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 999905,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 999906,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 999907,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 999908,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 999909,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 999910,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 999911,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认这是 2021 年播出的 TV 动画《おとなの防具屋さんII》，共 12 话，标题、播出时间、导演、原作和制作信息均与官方资料及 TMDB 第二季吻合。Anime-Lists 中 AniDB 15724 明确关联 TMDB TV 82958 第 2 季；TMDB 第 2 季完整列出 12 集，官方页面也列出同名的 #01–#12。因此应对应整季，不需拆分集数。TMDB 日期比 Bangumi/日本电视播出日期晚约一天，属于日期记录差异，不影响版本判断。\n\nhttps://bgm.tv/subject/322926 (page): Bangumi 条目为 TV《おとなの防具屋さんII》，12 话，2021 年 1 月 8 日开播，2021 年 3 月 26 日结束，导演为山元隼一，制作方为 IMAGICA Lab.；页面列出与前作的续作关系。\n\nhttps://ganma.jp/g/anime/otonabougu/story.html (page): 官方 STORY 页面列出第二季 #01 至 #12，包含“防具物語”“防具の魔法使い”至“時をかける防具屋さん”，与输入 Bangumi 集标题及 TMDB 集标题逐一对应。\n\nhttps://ganma.jp/g/anime/otonabougu/cands.html (page): 官方 CAST/STAFF 页面确认第二季原作、导演、系列构成、角色设计和 IMAGICA Lab. 制作信息，与 Bangumi 条目一致。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 的 XML 行明确记录 anidbid=\"15724\"、名称 Otona no Bouguya-san II、tmdbtv=\"82958\"、tmdbseason=\"2\"，且无 offset。\n\nhttps://www.themoviedb.org/tv/82958 (api_snapshot): TMDB TV 82958 的主快照名称为おとなの防具屋さん，包含第 1 季和第 2 季；第 2 季日期为 2021 年、共 12 集。\n\nhttps://www.themoviedb.org/tv/82958/season/2 (api_snapshot): TMDB 第 2 季快照明确为 season_number 2、12 集，完整标题和剧情与官方第二季 #01–#12 匹配。\n\n备注：AniDB 原页面抓取时返回 403，未能直接读取 AniDB 条目正文；但输入中的 BangumiExtLinker matched 元数据、Anime-Lists 的 anidb 15724→TMDB 82958 第 2 季映射，以及 Bangumi/官方/TMDB 的标题、年份、制作和 12 集内容均相互 corroborate。",
+    "evidence": "codex: 主体确认为TMDB 82958第2季。年份、续作关系、人物剧情、官方制作信息及12话标题顺序相互吻合，可建立本篇1—12话的一一对应。输入使用豪华配信版标题，官方确认其中A面就是同一本篇；此映射覆盖本篇，不表示TMDB完整收录豪华版附加内容。前11话日期相差8天可由提前一周配信及跨午夜记日解释，并非集号偏移。\n\nhttps://bgm.tv/subject/322926 (page): Bangumi 将本条目标为2021年第二季TV动画，共12话；原作为斐宮ふみ，导演为山元隼一，动画制作为IMAGICA Lab.，前传为2018年第一季。\n\nhttps://www.themoviedb.org/tv/82958 (api_snapshot): TMDB 82958 的别名明确包含第二季日文标题；第2季为2021年作品、12集，剧情围绕卡乌茨、防具店众人与从天而降的防具展开，与本作一致。\n\nhttps://www.themoviedb.org/tv/82958/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共12集。逐集标题与输入去除豪华版后缀后的标题一致，第4集仅有长音符号差异；日期为2021-01-09至2021-03-27，每周一集，每集标注4分钟。\n\nhttps://ganma.jp/g/anime/otonabougu/story.html (page): 官方第二季故事页列出第1至12话，标题顺序与Bangumi及TMDB一致；最终话剧情同为解放守护防具的力量、对抗超ローエ。\n\nhttps://ganma.jp/g/anime/otonabougu/cands.html (page): 官方第二季制作名单确认原作斐宮ふみ、导演及系列构成山元隼一、人物设计阿覧角氏、制作公司IMAGICA Lab.，与Bangumi一致。\n\nhttps://ganma.jp/g/anime/otonabougu/onair.html (page): 官方排期为d动画商店2021年1月1日起每周五24时先行配信，TOKYO MX为1月8日起每周五25时播出；TMDB采用电视播出的次日自然日期。\n\nhttps://ganma.jp/g/anime/otonabougu/document/20210108_ob2_pressrelease.pdf (page): 制作委员会说明豪华版由A面动画本篇、B面本篇音声评论和C面原创故事组成，证明其包含同一第二季本篇，并附加其他内容。\n\n备注：豪华版B面音声评论及C面原创故事未在所读取的TMDB第2季集表中单独体现，本次不为这些附加内容建立对应。；输入第12话日期为2021-03-26，与TMDB仅差一天，与前11话采用的先行配信日期口径不同；尚未确认是否为日期录入差异，但末话标题及剧情一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/322926; https://ganma.jp/g/anime/otonabougu/story.html; https://ganma.jp/g/anime/otonabougu/cands.html; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/82958; https://www.themoviedb.org/tv/82958/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/322926; https://www.themoviedb.org/tv/82958; https://www.themoviedb.org/tv/82958/season/2; https://ganma.jp/g/anime/otonabougu/story.html; https://ganma.jp/g/anime/otonabougu/cands.html; https://ganma.jp/g/anime/otonabougu/onair.html; https://ganma.jp/g/anime/otonabougu/document/20210108_ob2_pressrelease.pdf",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 82958
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

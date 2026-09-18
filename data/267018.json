@@ -1,20 +1,114 @@
 {
   "anidbId": 14489,
   "bangumiId": 267018,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 849988,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 849989,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 849990,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 849991,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 849992,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 849993,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 849994,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 849995,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 849996,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 849997,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 851107,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 879458,
+      "sort": 11,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 851107,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 85177,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 879458,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 85177,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是2019年的Q版短篇动画《みにとじ》，不是《刀使ノ巫女》本篇或其重剪版。TMDB 85177 的原名、年份及剧情设定均与之吻合。官方将正篇编为第0话至第10话，共11话；TMDB 则把第0话“可奈美・美炎の『とじみこ 胎動編』205秒で紹介特番！”收在特别篇 S0E1，把第1至第10话完整收在第1季。因此主体需映射为 S0E1 加完整 S1。TMDB 的 S0E2“ゆめ”是官方明确标注的未放送附赠篇，本轮不纳入正篇范围。\n\nhttps://www.themoviedb.org/tv/85177 (api_snapshot): TMDB API 快照显示 TV 85177 的原名为《みにとじ》，首播于2019年；简介说明《刀使ノ巫女》电视动画与手机游戏角色以迷你形态集合，与该 Bangumi subject 的作品身份一致。\n\nhttps://www.themoviedb.org/tv/85177/season/1 (api_snapshot): TMDB API 快照显示第1季共10集，标题依次为“とっくん”“ぷれぜんと”“よざくら”“なかよし”“おねえさん”“おむすび”“ほらいずんどうめい”“やさぐれ”“おまつり”“はなび”，逐集对应官方第1至第10话。\n\nhttps://www.themoviedb.org/tv/85177/season/0 (api_snapshot): TMDB API 快照显示特别篇 S0E1 是“可奈美・美炎の『とじみこ 胎動編』205秒で紹介特番！”，对应官方第0话；S0E2 则是“ゆめ”。\n\nhttps://minitoji.jp/story/07.html (page): 作品官方网站的故事目录明确列出第0话介绍特番，以及第1话“とっくん”至第10话“はなび”，证明正篇结构为第0至第10话。\n\nhttps://minitoji.jp/bd/ (page): 官方网站的 Blu-ray 页面注明收录第0话至第10话、全11话，并将“ゆめ”另列为“未放送えぴそーど”，证明“ゆめ”属于额外未播特典而非本轮正篇。",
+    "evidence": "codex: 年份、短篇电视动画媒介、迷你角色剧情、制作人员及逐集标题共同确认对应 TMDB 85177。Bangumi 第1—10话对应完整第1季，第0话对应 S0E1。输入还包含已由官方蓝光资料及同日发行记录确认的SP「ゆめ」，应补入 S0E2，完整覆盖12个章节。日期存在差异，但官方编号、逐集标题及集数结构足以确定对应关系。\n\nhttps://www.themoviedb.org/tv/85177 (api_snapshot): TMDB 85177 为2019年电视短篇动画《みにとじ》，简介明确为《刀使ノ巫女》电视动画及手游角色的迷你日常，主要声优与官方一致；第1季共10集。\n\nhttps://www.themoviedb.org/tv/85177/season/1 (api_snapshot): 第1季完整集表共10集、仅1页，标题依次为「とっくん」「ぷれぜんと」「よざくら」「なかよし」「おねえさん」「おむすび」「ほらいずんどうめい」「やさぐれ」「おまつり」「はなび」，逐集对应 Bangumi sort 1—10及官方编号。第1集日期一致，第2—10集日期均比输入早7天。\n\nhttps://www.themoviedb.org/tv/85177/season/0 (api_snapshot): 第0季完整集表共2集、仅1页：E1为可奈美、美炎的205秒介绍特番，日期2019-01-06；E2为「ゆめ」，日期2019-05-24，分别对应 Bangumi 第0话和SP「ゆめ」。\n\nhttps://minitoji.jp/story/07.html (page): 官方故事目录明确列出第0话介绍特番及第1—10话；各话标题和顺序与 Bangumi、TMDB 一致。\n\nhttps://minitoji.jp/bd/ (page): 官方蓝光于2019-05-24发售，收录第0—10话共11话，另附未放送篇「ゆめ」，确认该SP属于本作品，且发行日与两站对应章节日期一致。\n\nhttps://minitoji.jp/staffcast/index.html (page): 官方列出导演信田ユウ、系列构成朱白あおい、角色设计緒方浩美、音乐橋本由香利，与输入制作人员一致；动画制作是 project No.9。\n\n备注：TMDB S0E1 日期比 Bangumi 晚1天，S1E2—E10均早7天；日期差异原因未确认，不影响已由官方编号和标题核实的逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/267018; https://www.themoviedb.org/tv/85177; https://www.themoviedb.org/tv/85177/season/1; https://www.themoviedb.org/tv/85177/season/0; https://minitoji.jp/story/07.html; https://minitoji.jp/bd/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/267018; https://www.themoviedb.org/tv/85177; https://www.themoviedb.org/tv/85177/season/1; https://www.themoviedb.org/tv/85177/season/0; https://minitoji.jp/story/07.html; https://minitoji.jp/bd/; https://minitoji.jp/staffcast/index.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85177
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "episode": 1,
+      "episodeEnd": 2,
       "id": 85177,
       "season": 0,
       "type": "tv"

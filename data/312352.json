@@ -1,15 +1,156 @@
 {
+  "anidbId": 16610,
   "bangumiId": 312352,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1003219,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1003220,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1003221,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1003222,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1003223,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1003224,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1003225,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1003226,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1003227,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1003228,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1003229,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1003230,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1003231,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1003232,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1003233,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1003234,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1003235,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1003236,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1003237,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1003238,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1003239,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1003240,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1003241,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1003242,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1003243,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1003244,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 118654 与 Bangumi 条目在标题、首播日期（2021-02-06）、剧情（贾富贵因谢顶与唐临寻找生发秘方、涉及牧野帮和少林等）及中国网络动画媒介上吻合。Bangumi 记录导演龚震华、七灵石制作；TMDB 详情同样显示该剧为2021年完结的中文作品。TMDB 第1季实际包含连续的第1至26集，集名和日期覆盖 Bangumi 主体的全部26集，因此推荐整季，不拆范围。已排除同名真人剧及其他同名作品。\n\nhttps://www.themoviedb.org/tv/118654 (api_snapshot): TMDB详情：作品名为《绝顶》，首播2021-02-06，剧情围绕贾富贵谢顶、牧野帮及寻找生发秘方展开；共1季、26集，已完结。\n\nhttps://www.themoviedb.org/tv/118654/season/1 (api_snapshot): TMDB第1季实际集表共26集，episode 1至26连续，首集2021-02-06，末集2021-07-31；内容与 Bangumi 主体一致。\n\nhttps://api.bgm.tv/v0/subjects/312352 (api_snapshot): Bangumi fresh API：2021-02-06、WEB、26集；导演龚震华，动画制作七灵石，剧情为贾富贵与唐临寻找生发秘方。\n\nhttps://bangumi.tv/subject/312352 (search_snippet): Bangumi页面搜索摘要列出该作26话、2021-02-06开播、导演龚震华及七灵石相关制作信息。\n\nhttps://www.themoviedb.org/tv/247405 (search_snippet): 同名但为另一部真人剧候选，剧情简介含邓凯、古子成等真人演员，不是本动画主体。\n\n备注：TMDB详情的crew字段为空，未独立提供导演和制作公司字段；制作人员对应主要由 Bangumi fresh API及页面资料确认。；TMDB记录的末集日期为2021-07-31，而Bangumi逐集日期末集为2021-07-24，但总集数、首播日期、剧情和版本身份一致，不影响整季映射。",
+    "evidence": "codex: 确认对应 TMDB 118654 第1季，Bangumi 本篇1—26集按同号对应。年份、剧情、动画媒介、配音阵容及26集范围一致，季表未混入续作。逐集日期差异呈统一规律，并有首播两集、会员提前一集的排期资料和正版集名佐证，因此不按日期错移集号。\n\nhttps://bgm.tv/subject/312352 (page): Bangumi 将本作标为2021年2月6日开播的26话网络动画，原作肖新宇、导演龚震华、动画制作七灵石；剧情围绕贾富贵谢顶及寻找生发秘方展开。\n\nhttps://www.themoviedb.org/tv/118654 (api_snapshot): TMDB 118654 首播日期为2021-02-06，剧情为牧野帮帮主成为高手后谢顶；配音包含杨凝、山新、藤新，共1季26集。年份、剧情、配音及媒介吻合本动画。\n\nhttps://www.themoviedb.org/tv/118654/season/1 (api_snapshot): 已读取第1季全部集表，total_pages=1，共26集、集号连续。第1集日期为2021-02-06，第2至26集从2021-02-13逐周排列至2021-07-31；第3集名为《神棍的挑战》，第26集为《集结群雄》。\n\nhttps://bgm.tv/subject/312352/ep (page): Bangumi 本篇共26集，标题均为数字集名；第1、2集同为2021-02-06，第3至26集逐周播出至2021-07-24。逐项比对后，第1集日期与TMDB一致，第2至26集均比TMDB同号集早7天。\n\nhttps://wapbaike.baidu.com/item/绝顶/53190072 (page): 资料记载本动画共26集，腾讯视频首播2集，此后每周六更新1集、会员抢先看1集；配音及七灵石承制信息与本作一致。这一排期支持两站日期差异源于会员与普通观看时间。\n\nhttps://www.bilibili.com/bangumi/play/ep673068 (page): 正版播放页确认全26话，且第3话为《神棍的挑战》，与TMDB第3集同名，支持保持集号对应而非按相同日期错移一集。\n\nhttps://weibo.com/u/7141171639 (search_snippet): 动画官方微博于2021-07-31宣布第一季完结并提供全集限免，与TMDB记录的完结日期相符。\n\n备注：TMDB未注明日期采用会员还是普通观看排期；将第2—26集统一晚7天解释为观看权限差异属于有资料支持的推断。；Bangumi只有数字集名，无法逐话进行语义标题比对；TMDB制作公司及crew为空，制作人员信息由Bangumi和外部资料核验。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/312352; https://www.themoviedb.org/tv/118654; https://www.themoviedb.org/tv/118654/season/1; https://api.bgm.tv/v0/subjects/312352; https://bangumi.tv/subject/312352; https://www.themoviedb.org/tv/247405",
-    "verifiedAt": "2026-09-08T22:14:06.850Z"
+    "source": "https://bgm.tv/subject/312352; https://www.themoviedb.org/tv/118654; https://www.themoviedb.org/tv/118654/season/1; https://bgm.tv/subject/312352/ep; https://wapbaike.baidu.com/item/绝顶/53190072; https://www.bilibili.com/bangumi/play/ep673068; https://weibo.com/u/7141171639",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118654
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

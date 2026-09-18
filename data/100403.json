@@ -1,18 +1,111 @@
 {
   "anidbId": 10538,
   "bangumiId": 100403,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 453606,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 453607,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 453608,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 453609,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 453610,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 453611,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 453612,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 453613,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 453614,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 453615,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 453616,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 453617,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 453618,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 453606,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 69367,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB ID 69367 确认为 2015 年动画电视系列《Saekano: How to Raise a Boring Girlfriend》，不是真人版或电影。TMDB 将 Season 0 标为 2 个特典，将 2015 年主体正篇置于 Season 1，共 12 集；官方页面对应正篇 #1–#12。Bangumi 的 #0“爱与青春的服务回”属于特典，按本轮“不要求额外特典”规则排除。因此应采用 AnimeLists 的 season=1 定位，完整对应 TMDB S1。\n\nhttps://www.themoviedb.org/tv/69367-saekano-how-to-raise-a-boring-girlfriend/seasons (page): TMDB 页面确认 ID 69367 为《Saekano: How to Raise a Boring Girlfriend》(2015)，Season 0 为 2 集特典，Season 1 为 2015 年 12 集，Season 2 为 2017 年 11 集；Season 1 简介是本作制作同人游戏的主体剧情。\n\nhttps://www.saenai.tv/1st/story/01.html (page): 动画官方站列出 #0“爱与青春的服务回”以及 #1 至 #12，并展示 #1 正篇剧情；这说明 #0 与主体 #1–#12 分开。\n\nhttps://www.fujitv.co.jp/b_hp/saenai/ (page): 富士电视台节目页确认这是 2015 年播出的动画《冴えない彼女の育てかた》，并列出第 1–12 话的正篇标题与制作信息。\n\nhttps://www.themoviedb.org/tv/69367-saekano-how-to-raise-a-boring-girlfriend/season/1/translations?language=zh-CN (page): TMDB Season 1 页面确认该季名称为《路人女主的养成方法》/冴えない彼女の育てかた，简介与官方主体剧情一致。",
+    "evidence": "codex: 已通过年份、电视动画媒介、制作公司、声优、剧情及全部13话标题确认对应 TMDB 69367。Bangumi 第1—12话连续对应第1季全季，第0话对应 S0E1，应补入旧映射遗漏的章节。S0E2属于2017年续篇，不纳入本次范围，与已给定的其他 subject 归属不冲突。\n\nhttps://www.themoviedb.org/tv/69367 (api_snapshot): 日文原名搜索命中 TV 69367；详情确认其为2015年作品，制作公司为 A-1 Pictures，主要声优及制作同人游戏的剧情与本 subject 一致。第1季12集，续篇第2季为2017年11集。\n\nhttps://www.themoviedb.org/tv/69367/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。各集日文标题与 Bangumi sort 1—12 逐一一致。第1—11集日期均比输入晚一天；第12集记为2015-04-03，与官方放送记录存在差异。\n\nhttps://www.themoviedb.org/tv/69367/season/0 (api_snapshot): 已读取第0季完整集表，total_pages=1，共2集。E1为「愛と青春のサービス回」，日期2015-01-09，标题及旅行剧情对应 Bangumi 第0话；E2为2017年的「恋と純情のサービス回」，不属于本 subject。\n\nhttps://www.saenai.tv/1st/story/01.html (page): 第一期官方故事页列出第0—12话，编号及标题与输入全部一致；第1话剧情为伦也因樱花坡道上的邂逅而筹划游戏。\n\nhttps://www.saenai.tv/1st/story/00.html (page): 官方第0话页面确认其标题、游戏取景旅行剧情，以及丸户史明编剧、龟井干太分镜及演出、高濑智章作画监督；剧情与 TMDB S0E1 一致。\n\nhttps://www.fujitv.co.jp/b_hp/saenai/ (page): 富士电视台确认本作为电视动画，导演龟井干太、原作及编剧丸户史明、制作 A-1 Pictures，主要声优与 TMDB 相符。\n\nhttps://www.fujitv.co.jp/b_hp/saenai/backnumber/515000001-11.html (page): 富士电视台明确记载第11、12话均于2015-03-26放送，两话标题及剧情分别对应 TMDB S1E11、S1E12，支持末话对应关系。\n\n备注：TMDB 第0话及第1—11话日期比 Bangumi 晚一天，符合深夜节目跨日记法，但未单独核实这一差异的录入原因。第12话的 TMDB 日期与官方同晚连播记录不符；其编号、标题及剧情均吻合，故不影响映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/100403; https://www.themoviedb.org/tv/69367-saekano-how-to-raise-a-boring-girlfriend/seasons; https://www.saenai.tv/1st/story/01.html; https://www.fujitv.co.jp/b_hp/saenai/; https://www.themoviedb.org/tv/69367-saekano-how-to-raise-a-boring-girlfriend/season/1/translations?language=zh-CN",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/100403; https://www.themoviedb.org/tv/69367; https://www.themoviedb.org/tv/69367/season/1; https://www.themoviedb.org/tv/69367/season/0; https://www.saenai.tv/1st/story/01.html; https://www.saenai.tv/1st/story/00.html; https://www.fujitv.co.jp/b_hp/saenai/; https://www.fujitv.co.jp/b_hp/saenai/backnumber/515000001-11.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 69367
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "episode": 1,
+      "id": 69367,
+      "season": 0,
+      "type": "tv"
+    },
     {
       "id": 69367,
       "season": 1,

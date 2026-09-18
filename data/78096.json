@@ -1,16 +1,36 @@
 {
   "anidbId": 213,
   "bangumiId": 78096,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 295670,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 295671,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi 条目是 1999 年发行、共 2 集的《シーバス1-2-3》（Chivas 1-2-3 / Sorcerer on the Rocks）OVA。独立资料确认其为《Sorcerer Hunters》衍生作，发行日期为 1999-08-21 至 1999-09-21。TMDB TV 34210《爆れつハンター》的特别编明确包含 5 集，其中第 4 集日期为 1999-08-21、第 5 集日期为 1999-09-21；因此应映射到特别编第 4–5 集，而不是整个特别编或 TV 正篇。\n\nhttps://www.themoviedb.org/tv/34210 (api_snapshot): TMDB API 快照确认 ID 34210 为《爆れつハンター》，包含 season 0「特別編」共 5 集及 season 1 共 26 集。\n\nhttps://www.themoviedb.org/tv/34210/season/0 (api_snapshot): TMDB season 0 快照显示第 4 集日期为 1999-08-21、第 5 集日期为 1999-09-21；该季简介说明其为 TV 系列之后的 OVA 内容。\n\nhttps://anilist.co/anime/1228/Chivas-123 (search_snippet): 资料将 Chivas 1-2-3 列为 OVA，共 2 集，别名包含 Sorcerer on the Rocks，并列出小沢一浩导演、川崎ヒロユキ脚本等制作信息。\n\nhttps://en.wikipedia.org/wiki/Sorcerer_on_the_Rocks (search_snippet): 资料确认 Sorcerer on the Rocks 是 2 集 OVA，首发日期为 1999-08-21，末集日期为 1999-09-21，且是 Sorcerer Hunters 的衍生作。\n\nhttps://animesc.com/en/details/46HB0y/chivas-1-2-3 (search_snippet): 资料确认 Chivas 1-2-3 为 2 集 OVA，首播 1999-08-21、完结 1999-09-21，制作公司为 Daume。\n\n备注：TMDB 快照中 season 0 第 4、5 集的标题和简介为空；范围依据明确季号、两集日期与独立作品资料交叉确认。",
+    "evidence": "gpt-5.6-luna: 该 Bangumi 条目是 1999 年发行、共 2 集的《シーバス1-2-3》（Chivas 1-2-3 / Sorcerer on the Rocks）OVA。独立资料确认其为《Sorcerer Hunters》衍生作，发行日期为 1999-08-21 至 1999-09-21。TMDB TV 34210《爆れつハンター》的特别编明确包含 5 集，其中第 4 集日期为 1999-08-21、第 5 集日期为 1999-09-21；因此应映射到特别编第 4–5 集，而不是整个特别编或 TV 正篇。\n\nhttps://www.themoviedb.org/tv/34210 (api_snapshot): TMDB API 快照确认 ID 34210 为《爆れつハンター》，包含 season 0「特別編」共 5 集及 season 1 共 26 集。\n\nhttps://www.themoviedb.org/tv/34210/season/0 (api_snapshot): TMDB season 0 快照显示第 4 集日期为 1999-08-21、第 5 集日期为 1999-09-21；该季简介说明其为 TV 系列之后的 OVA 内容。\n\nhttps://anilist.co/anime/1228/Chivas-123 (search_snippet): 资料将 Chivas 1-2-3 列为 OVA，共 2 集，别名包含 Sorcerer on the Rocks，并列出小沢一浩导演、川崎ヒロユキ脚本等制作信息。\n\nhttps://en.wikipedia.org/wiki/Sorcerer_on_the_Rocks (search_snippet): 资料确认 Sorcerer on the Rocks 是 2 集 OVA，首发日期为 1999-08-21，末集日期为 1999-09-21，且是 Sorcerer Hunters 的衍生作。\n\nhttps://animesc.com/en/details/46HB0y/chivas-1-2-3 (search_snippet): 资料确认 Chivas 1-2-3 为 2 集 OVA，首播 1999-08-21、完结 1999-09-21，制作公司为 Daume。\n\n备注：TMDB 快照中 season 0 第 4、5 集的标题和简介为空；范围依据明确季号、两集日期与独立作品资料交叉确认。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/78096; https://www.themoviedb.org/tv/34210; https://www.themoviedb.org/tv/34210/season/0; https://anilist.co/anime/1228/Chivas-123; https://en.wikipedia.org/wiki/Sorcerer_on_the_Rocks; https://animesc.com/en/details/46HB0y/chivas-1-2-3",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 4,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 34210
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,18 +1,189 @@
 {
   "bangumiId": 149647,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 575937,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 575938,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 575939,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 575940,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 575941,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 575942,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 575943,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 575944,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 575945,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 575946,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 575947,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 575948,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 615088,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 615089,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 615090,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 615091,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 615092,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 656719,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 656720,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 656721,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 656722,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 656723,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 656724,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 656725,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 681204,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 681205,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 Sofia the First（TV，46928）与 Bangumi 的《Sofia the First (Season 3)》在原名、第三季开始日期 2015-08-05、剧情设定、媒介及制作方上吻合。TMDB 第 3 季实际包含 29 集，覆盖 2015-08-05 至 2017-03-31，且与 Bangumi infobox 的 29 集和播出区间一致，因此使用完整 S3；未纳入独立的电影/特别篇《Elena and the Secret of Avalor》或新版《Royal Magic》。\n\nhttps://www.themoviedb.org/tv/46928 (api_snapshot): TMDB 46928 是已完结的 Sofia the First TV 系列，原名 Sofia the First，首播 2013-01-11；剧情为 Sofia 因母亲嫁给国王而成为公主并适应王室生活；制作公司为 Disney Television Animation 与 Disney Junior，共 4 季。\n\nhttps://www.themoviedb.org/tv/46928/season/3 (api_snapshot): TMDB 第 3 季名称为 Season 3，首播 2015-08-05，共 29 集，实际集表从 Cool Hand Fluke 到 One for the Books，末集日期为 2017-03-31；Her Royal Spyness、The Princess Prodigy 等均在该季中。\n\nhttps://api.bgm.tv/v0/subjects/149647 (api_snapshot): Bangumi 原始 API 将 subject 命名为 Sofia the First (Season 3)，类型为 TV，日期为 2015-08-05，infobox 标注 29 集及 2015-08-05 至 2017-03-31。\n\nhttps://shows.disney.com/sofia-the-first (search_snippet): Disney 官方页面将 Sofia the First 标为 Animation、Kids、Preschool，发行年份为 2013，并描述 Sofia 因母亲嫁给国王而成为王室成员的核心剧情。\n\nhttps://thewaltdisneycompany.com/news/sofia-the-first-royal-magic/ (search_snippet): 迪士尼官方资料明确区分原版 Sofia the First 与 2026 年新作 Sofia the First: Royal Magic，并指出 Craig Gerber 参与开发和执行制作原版。\n\n备注：Bangumi 当前 regularEpisodes 仅列出 26 集，且 total_episodes 为 26，与其 infobox/freshBangumi 的 eps=29 不一致；TMDB 的独立第 3 季集表完整列出 29 集，因此将该差异视为 Bangumi 集表缺失或版本数据问题，不改变完整 S3 的身份匹配。",
+    "evidence": "codex: 作品身份确认为 TMDB 46928 的原版第三季，年代、媒介、制作方、剧情及逐集标题相符。本次提交24个已核实且无占用冲突的章节对应：第1话→S3E1，第3—17话→S3E3—17，第18—25话→S3E19—26。第2话涉及其他subject占用，第26话存在日期及剧情元数据冲突，暂留空，因此不沿用旧映射的整季范围。\n\nhttps://bgm.tv/subject/149647 (page): Bangumi 标注本作为第三季 TV 动画，由 Disney Television Animation 制作，共29话，播出区间为2015-08-05至2017-03-31。\n\nhttps://www.themoviedb.org/tv/46928 (api_snapshot): TMDB 46928 为2013年首播的原版 Sofia the First，共4季，制作公司包括 Disney Television Animation；剧情为母亲嫁给国王后，Sofia 学习适应公主生活。\n\nhttps://shows.disney.com/sofia-the-first (page): 迪士尼官方页面确认原版发行于2013年，类型为儿童动画，剧情及 Sofia 配音演员 Ariel Winter 与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/46928/season/3 (api_snapshot): 已读取第三季完整集表，共29集、1页。输入第1—17话标题对应S3E1—17；除第4话日期外均一致。输入第18—25话的标题和日期逐一对应S3E19—26，原因是输入漏列S3E18 Her Royal Spyness。S3E27虽题为 Hexley Hall，却填写2016-11-20及解救 Elena 的简介，存在元数据冲突。\n\nhttps://www.imdb.com/title/tt3853888/ (search_snippet): Princess Adventure Club 的剧情、第三季第4集标识和2015-09-25日期支持输入章节与TMDB S3E4相同；TMDB填写的2015-09-15存在日期差异。\n\nhttps://en.wikipedia.org/wiki/List_of_Sofia_the_First_episodes (page): 剧集资料明确说明 Minimus is Missing 存在第二季与第三季归属分歧；Hexley Hall 则讲述解救 Elena 之后研究护符的故事，表列日期为2017-01-06，与TMDB该集的日期及简介不符。\n\n备注：章节575938（第2话 Minimus is Missing）的标题和日期对应S3E2，但输入ownership已将该集分配给subject 118474；本提案暂不重复占用，需先复核第二季章节及其归属。；章节681205（第26话 Hexley Hall）仅标题对应S3E27；Bangumi日期为2016-12-**，TMDB为2016-11-20且简介疑似混入 Elena 特别篇。应核对官方播出记录并修正元数据后补映射。；Bangumi infobox为29话，输入集表仅26话，缺少TMDB的Her Royal Spyness、The Princess Prodigy及One for the Books；未凭空生成章节对应。；第4话日期存在10天差异，但标题、剧情及其他剧集资料共同支持S3E4对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/149647; https://www.themoviedb.org/tv/46928; https://www.themoviedb.org/tv/46928/season/3; https://api.bgm.tv/v0/subjects/149647; https://shows.disney.com/sofia-the-first; https://thewaltdisneycompany.com/news/sofia-the-first-royal-magic/",
-    "verifiedAt": "2026-09-08T20:09:49.395Z"
+    "source": "https://bgm.tv/subject/149647; https://www.themoviedb.org/tv/46928; https://shows.disney.com/sofia-the-first; https://www.themoviedb.org/tv/46928/season/3; https://www.imdb.com/title/tt3853888/; https://en.wikipedia.org/wiki/List_of_Sofia_the_First_episodes",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 46928
+    },
+    {
+      "bangumiType": 0,
+      "end": 17,
+      "episodeStart": 3,
+      "season": 3,
+      "start": 3,
+      "tmdbId": 46928
+    },
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 19,
+      "season": 3,
+      "start": 18,
+      "tmdbId": 46928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "id": 46928,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 17,
+      "id": 46928,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 19,
+      "episodeEnd": 26,
       "id": 46928,
       "season": 3,
       "type": "tv"

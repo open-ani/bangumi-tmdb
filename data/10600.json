@@ -1,16 +1,86 @@
 {
   "anidbId": 8058,
   "bangumiId": 10600,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 81787,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 81788,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 81789,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 81790,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 81791,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 81792,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 81793,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 81794,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 81795,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 81796,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 81797,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 81798,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 Madhouse 制作、2011 年播出的 12 集《X-MEN》动画。AnimeLists 的 TMDB TV ID 43146 与该动画对应，且第 1 季完整覆盖 12 集。extlinker 的电影 ID 49538 实际是 2011 年真人电影《X-Men: First Class》，不是本 subject。TMDB 43146 是独立的 X-Men 动画条目，不应改指包含 Iron Man、Wolverine、Blade 等作品的 Marvel Anime 合集。\n\nhttps://www.wikidata.org/wiki/Q4021197 (page): 页面将该作品标为日本动画电视系列，制作公司为 Madhouse，并列出 TMDB TV series ID 43146。\n\nhttps://www.themoviedb.org/movie/49538-x-men-first-class?language=es-CL (page): TMDB ID 49538 对应《X-Men: First Class》，类型为真人电影，片长 2 小时 12 分，发行于 2011 年 6 月 3 日。\n\nhttps://www.themoviedb.org/person/40329?language=en-US (page): TMDB 演员页面列出 2011 年《X-Men》中的 Professor Charles Xavier 配音，并注明 12 episodes。\n\nhttps://www.imdb.com/title/tt2070571/episodes/ (page): 该动画的剧集页面列出第 1 至第 12 集；作品为 2011 年电视迷你剧。\n\nhttps://marvel.fandom.com/wiki/X-Men_%282011_animated_series%29 (page): 页面明确记载该动画为 TV、共 12 集，首集 2011 年 4 月 1 日，末集 2011 年 6 月 24 日，并按 S1E01–S1E12 列出。",
+    "evidence": "codex: 确认对应 TMDB 43146 第1季整季：年份、TV媒介、制作公司、配音阵容、剧情及12集范围吻合，季表未混入其他作品。前6集标题逐一一致，可建立连续映射；第6集日期虽有差异，但标题明确。第7至12集缺少标题且日期冲突，暂不建立逐集规则。\n\nhttps://bgm.tv/subject/10600 (page): Bangumi 将本作标为 TV 动画，共12话，2011年4月1日至6月24日播出，导演木﨑文智、动画制作 MADHOUSE；主要角色及日语配音与 TMDB 43146 一致。\n\nhttps://www.themoviedb.org/tv/43146 (api_snapshot): TMDB 43146 为2011年日本动画《エックスメン》，制作公司包含 Madhouse，共1季12集，首末播出日期与 Bangumi 条目一致；剧情为 X-MEN 重聚并调查日本少女失踪事件。\n\nhttps://mangapedia.com/X%E2%88%92MEN-mg84fcc2o (search_snippet): 资料将本作确认为 Marvel 动画化第三作，由木﨑文智执导、MADHOUSE 制作，共12话；日本东北少女失踪的剧情与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/43146/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共12集，全部属于本作。前6集标题依次与 Bangumi 一致；第1至5集日期一致，第6集 TMDB 日期为2011年5月13日。第7至12集日期依次为5月20日、5月27日、6月3日、6月10日、6月17日、6月24日。\n\nhttps://bgm.tv/subject/10600/ep (page): Bangumi 前6集有标题，可逐集与 TMDB 核对；第6集日期记为2011年5月6日。第7至12集标题为空，日期均比 TMDB 同集号早一周。\n\nhttps://www.themoviedb.org/movie/49538 (api_snapshot): 旧线索 movie 49538 实为132分钟真人电影《X-Men: First Class》，导演马修·沃恩，IMDb 为 tt1270798；媒介、剧情及制作阵容均不符，应排除。\n\n备注：Bangumi 第6集日期比 TMDB 早一周；以双方一致的「Conflict－激戦」标题确认对应第1季第6集。；Bangumi 第7至12集标题为空且日期与 TMDB 同集号不一致，不能仅按位置或日期推定；这些章节保留未映射，待补充章节标题、剧情或更正放送记录后核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/10600; https://www.wikidata.org/wiki/Q4021197; https://www.themoviedb.org/movie/49538-x-men-first-class?language=es-CL; https://www.themoviedb.org/person/40329?language=en-US; https://www.imdb.com/title/tt2070571/episodes/; https://marvel.fandom.com/wiki/X-Men_%282011_animated_series%29",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/10600; https://www.themoviedb.org/tv/43146; https://mangapedia.com/X%E2%88%92MEN-mg84fcc2o; https://www.themoviedb.org/tv/43146/season/1; https://bgm.tv/subject/10600/ep; https://www.themoviedb.org/movie/49538",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 43146
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

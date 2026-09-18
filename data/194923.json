@@ -1,15 +1,156 @@
 {
+  "anidbId": 13701,
   "bangumiId": 194923,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 670971,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 670972,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 670973,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 670974,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 670975,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 670976,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 670977,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 670978,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 670979,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 670980,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 670981,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 670982,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 670983,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 670984,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 670985,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 670986,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 670987,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 670988,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 670989,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 670990,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 670991,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 670992,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 670993,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 670994,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 670995,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 670996,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 223645 与 Bangumi 条目同名，首播日期均为 2016-11-13；TMDB 明确描述其为奥飞娱乐作品、曹东波执导、齐圆/王薇编剧，剧情与 Bangumi 完全对应。TMDB 第1季实际包含26集，集名从“奇异历险”至“公主回归”，与 subject 的26集主体一致，因此匹配整季 S1。第2季是后续独立剧情，不应并入本 subject。\n\nhttps://api.bgm.tv/v0/subjects/194923 (api_snapshot): Bangumi 原始 API 信息：TV，2016-11-13 首播，共26集；别名包含“第1季/第一季/精灵俐俐篇”，剧情为三位女孩进入彩灵堡并对抗黑咒魔王。\n\nhttps://www.themoviedb.org/tv/223645 (api_snapshot): TMDB 详情：同名 TV 作品，首播 2016-11-13；简介明确区分第一季与第二季，并给出奥飞娱乐、曹东波、齐圆、王薇等身份信息；全剧2季、每季26集。\n\nhttps://www.themoviedb.org/tv/223645/season/1 (api_snapshot): TMDB 第1季实际集表为26集，首播日为2016-11-13，集名和顺序覆盖 Bangumi 主体的第1至26集。\n\n备注：TMDB 个别分集日期与 Bangumi 归档日期存在少量差异，但集名、首播日、剧情、版本及集数范围一致，不影响本次匹配。",
+    "evidence": "codex: 确认对应 TMDB 223645 第1季全26集。首播年份、TV动画版本、制作人员、剧情及第一季边界一致；26集标题逐一同序吻合，支持 Bangumi 第1—26话连续对应 S01E01—E26。第二季为独立续篇，不纳入本 subject。\n\nhttps://www.themoviedb.org/tv/223645 (api_snapshot): 以中文原名搜索，返回 TV 223645，原名一致，首播日期为2016-11-13。\n\nhttps://www.themoviedb.org/tv/223645 (api_snapshot): 实际读取作品详情：简介注明奥飞娱乐出品、曹东波执导、齐圆和王薇编剧，与输入制作资料一致；第一季讲述三位女孩帮助精灵俐俐对抗黑咒魔王、恢复公主原貌，与本 subject 剧情相符。详情分为两季，每季26集，第二季为公主恢复原貌后的续篇。\n\nhttps://www.themoviedb.org/tv/223645/season/1 (api_snapshot): 实际读取第1季完整集表，episodeCount=26、total_pages=1。去除“第N集”前缀后，26集标题与输入 Bangumi 章节逐一同序一致，从“奇异历险”至“公主回归”。前6集日期一致；第7至26集日期较输入晚2至5天，标题与集号仍全部对应。\n\n备注：双方第7—26集放送日期存在2—5天差异，实际播出日尚未独立核实；集标题、顺序与总量完全一致，不影响逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/194923; https://api.bgm.tv/v0/subjects/194923; https://www.themoviedb.org/tv/223645; https://www.themoviedb.org/tv/223645/season/1",
-    "verifiedAt": "2026-09-08T20:35:06.017Z"
+    "source": "https://bgm.tv/subject/194923; https://www.themoviedb.org/tv/223645; https://www.themoviedb.org/tv/223645/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 223645
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

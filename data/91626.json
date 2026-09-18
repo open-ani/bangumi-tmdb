@@ -1,16 +1,86 @@
 {
   "anidbId": 10365,
   "bangumiId": 91626,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 391876,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 391877,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 391937,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 391938,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 391939,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 391940,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 391941,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 391942,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 391943,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 391944,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 391945,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 391946,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目确认是2014年播出的《風雲維新ダイ☆ショーグン》TV动画，共12话，导演渡部高志、动画制作J.C.STAFF与A・C・G・T。Anime-Lists中 AniDB 10365 明确关联 TMDB TV 60826 第1季；TMDB主条目同名、简介和12集信息一致，季1完整列出与Bangumi相同的12个正篇标题，故对应整季1（第1—12集）。\n\nhttps://bgm.tv/subject/91626 (page): Bangumi确认条目类型为TV，名称为風雲維新ダイ☆ショーグン，2014-04-09开始，共12话；制作信息包括渡部高志、J.C.STAFF和A・C・G・T。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists中 anidbid=\"10365\" 的 Fuuun Ishin Dai Shougun 映射为 tmdbtv=\"60826\"、tmdbseason=\"1\"；该条目无 offset。\n\nhttps://www.themoviedb.org/tv/60826 (api_snapshot): TMDB条目名称为風雲維新ダイ☆ショーグン，简介描述江户后期、黑船、鬼神和庆一郎，与Bangumi主体一致；记录共12集。\n\nhttps://www.themoviedb.org/tv/60826/season/1 (api_snapshot): TMDB第1季记录为12集且剧集列表未截断；第1至第12集标题与Bangumi正篇标题逐一对应，日期为2014-04-10至2014-06-23。\n\n备注：Bangumi首播日为2014-04-09，而TMDB主条目及季集记录多为2014-04-10起，属于日本播出时区或数据口径差异，不影响作品、季号和12集范围判断。",
+    "evidence": "codex: 年份、TV媒介、剧情、导演及制作公司一致；实际读取的TMDB第1季12集标题与Bangumi全部正篇逐集对应，确认覆盖整季，可建立第1—12话一对一连续映射。\n\nhttps://bgm.tv/subject/91626 (page): Bangumi 确认为2014年4月9日至6月25日播出的12话TV动画，导演渡部高志，动画制作J.C.STAFF与A・C・G・T；剧情为江户末期巨大机器人击退黑船、维新未发生的架空故事。\n\nhttps://www.themoviedb.org/tv/60826 (api_snapshot): 日文原名搜索命中60826；详情确认同名2014年TV动画，导演渡部高志、制作公司J.C.STAFF和ACGT，主要角色及黑船、鬼神的剧情一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/60826/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。与输入的Bangumi第1—12话逐集比较，标题和顺序全部对应，仅有标点差异。日期比较：第1—4集TMDB晚1天，第5集相同，第6—12集TMDB早2天；不存在集数缺失、重排或混入其他作品。\n\n备注：两站播出日期存在不一致，尤其第6—12集相差2天，原因未核实，不能统一归因于时区；完整标题、顺序与集数对应足以确认映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/91626; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/60826; https://www.themoviedb.org/tv/60826/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/91626; https://www.themoviedb.org/tv/60826; https://www.themoviedb.org/tv/60826/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 60826
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

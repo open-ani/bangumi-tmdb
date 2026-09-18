@@ -1,21 +1,111 @@
 {
   "anidbId": 15441,
   "bangumiId": 302189,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1018664,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1018665,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1018666,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1018667,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1018668,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1018669,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1018670,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1018671,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1018672,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1018673,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1018674,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1038360,
+      "sort": 11.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1038360,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 100565,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认同为2021年电视动画版本，剧情、导演、制作信息及逐集标题一致。本篇11集对应 TMDB 第1季第1至11集，特别篇11.5对应第0季第2集。日期差异由日本24时放送记法解释；旧映射的整季范围会包含第二季度，应缩小范围。\n\nhttps://www.themoviedb.org/tv/100565 (api_snapshot): TMDB 100565 为2021年电视动画，剧情中的军团、先锋战队、辛与蕾娜均吻合；导演石井俊匡及 Project-86、Aniplex、KADOKAWA 等制作信息一致。\n\nhttps://www.themoviedb.org/tv/100565/season/1 (api_snapshot): 第1季完整集表共23集，只有1页。第1至11集日文标题与输入逐集完全一致，日期逐集均比 Bangumi 晚一天，为2021年4月11日至6月20日；第12集于10月3日播出，属于后续季度，因此本 subject 仅覆盖第1至11集。\n\nhttps://www.themoviedb.org/tv/100565/season/0 (api_snapshot): 第0季完整集表共5集，只有1页。第2集标题为「戦野に紅く雛罌粟の咲く」，日期为2021年6月27日，对应输入的特别篇11.5。\n\nhttps://anime-86.com/news/?id=56699 (search_snippet): 官方公告明确首集于4月10日星期六24时开播，即公历4月11日零时，解释两站本篇日期相差一天。\n\nhttps://anime-86.com/news/?id=57703 (search_snippet): 官方公告明确同名 Special Edition 于6月26日星期六24时播出，即6月27日零时，与 TMDB 第0季第2集一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/302189; https://www.themoviedb.org/tv/100565; https://www.themoviedb.org/tv/100565/season/1; https://www.themoviedb.org/tv/100565/season/0; https://anime-86.com/news/?id=56699; https://anime-86.com/news/?id=57703",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 100565
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 11,
       "id": 100565,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 100565,
+      "season": 0,
       "type": "tv"
     }
   ]

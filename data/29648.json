@@ -1,21 +1,114 @@
 {
   "anidbId": 8883,
   "bangumiId": 29648,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 198011,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 198012,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 198013,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 198014,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 198015,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 198016,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 198017,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 198018,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 198019,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 198020,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 198021,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 198022,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 227091,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 227091,
+      "targets": [
+        {
+          "episode": 14,
+          "id": 45501,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过年份、剧情、导演、制作公司及完整集表确认同一版本。Bangumi 第1—12话对应 TMDB 45501 第一季全12集；第13话是2013年发行的未放送剧情，按标题、日期和时长对应 S00E14。旧映射遗漏了这一话；本次映射覆盖全部13话，且不与第二季既有归属重叠。\n\nhttps://www.themoviedb.org/tv/45501 (api_snapshot): 以日文原名搜索后核查详情：TMDB 45501 为2012年电视动画，勇太与六花的剧情、导演石原立也及京都动画等制作公司均吻合；第一季与2014年的第二季分列。\n\nhttps://www.themoviedb.org/tv/45501/season/1 (api_snapshot): 第一季完整集表共12集，total_pages=1。逐集标题与输入第1—12话一致，仅标点等书写细节不同；日期逐集均比 Bangumi 晚一天，范围为2012-10-04至2012-12-20，每周一集，顺序无缺漏。\n\nhttps://www.themoviedb.org/tv/45501/season/0 (api_snapshot): 第0季完整集表共34条，total_pages=1。其中第14集为「煌めきの... 聖爆誕祭」，日期2013-06-19、时长24分钟，与 Bangumi 第13话吻合。该季另外包含 Lite、DEPTH OF FIELD 及第二季特别篇，不能整季纳入。\n\nhttps://www.anime-chu-2.com/tv/onair/ (page): 官方放送表标明 TOKYO MX 于10月3日深夜0时30分首播，跨午夜后为10月4日，解释了 Bangumi 与 TMDB 的一天日期差异。\n\nhttps://www.anime-chu-2.com/product/pkg1st/ (page): 官方第一季商品页确认第7卷于2013年6月19日发行，收录一话约24分钟的新作剧情，以及单列的 Lite 和 DEPTH OF FIELD 内容，支持第13话的发行日期及版本区分。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/29648; https://www.themoviedb.org/tv/45501; https://www.themoviedb.org/tv/45501/season/1; https://www.themoviedb.org/tv/45501/season/0; https://www.anime-chu-2.com/tv/onair/; https://www.anime-chu-2.com/product/pkg1st/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45501
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45501,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 14,
+      "id": 45501,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,19 +1,61 @@
 {
   "anidbId": 13347,
   "bangumiId": 221295,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 740994,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 740995,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 740996,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 740997,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 740998,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 740999,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已由年份、3DCG网络动画版本、剧情、制作人员及官方分部公告确认作品身份。Bangumi本条目是第1季Part 1的6话，逐集标题和上线日期均对应TMDB第1季第1至6集。旧映射指向的作品和季正确，但范围应从整季收窄为第1至6集。\n\nhttps://www.themoviedb.org/tv/90855 (api_snapshot): TMDB 90855 为2019年7月19日首播的《聖闘士星矢: Knights of the Zodiac》，制作公司为东映动画，剧情围绕星矢等圣斗士守护雅典娜展开，与本条目的年份、制作方和故事一致。\n\nhttps://www.themoviedb.org/tv/90855/season/1 (api_snapshot): 第1季共12集，集表仅1页，已完整读取。第1至6集日期均为2019年7月19日，标题逐一对应输入的6话；第2集为“小宇宙／コスモ”的写法差异，第4、6集省略括号读音。故本条目只覆盖第1季第1至6集。\n\nhttps://www.saintseiya-anime.com/ja/news/detail.php?id=89 (search_snippet): 系列官方网站2019年7月9日公告明确：7月19日上线第1季Part 1全6话，并依序列出与Bangumi完全对应的6个集标题。\n\nhttps://www.famitsu.com/news/201907/09179282.html (search_snippet): Netflix发布资料说明本作为以现代为舞台的3DCG动画，Part 1全6话于2019年7月19日上线；原作车田正美、导演芦野芳晴、角色设计西位辉实、音乐池赖广、动画制作东映动画，均与输入一致，可确认是2019年网络动画版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/221295; https://www.themoviedb.org/tv/90855; https://www.themoviedb.org/tv/90855/season/1; https://www.saintseiya-anime.com/ja/news/detail.php?id=89; https://www.famitsu.com/news/201907/09179282.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 90855
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 6,
       "id": 90855,
       "season": 1,
       "type": "tv"

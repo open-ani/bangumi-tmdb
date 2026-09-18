@@ -1,16 +1,103 @@
 {
   "anidbId": 8677,
   "bangumiId": 23535,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 142634,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 142635,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 142636,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 142637,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 142638,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 142639,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 142640,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 142641,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 142642,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 142643,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 142644,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 146954,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 289610,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 289610,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 73395,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《ゴクジョッ。～極楽院女子高寮物語～》TV动画，主体共13话，制作方为LMD/CAMMOT；TMDB 73395具有相同原名、剧情和制作背景。TMDB第1季完整12集的标题逐条对应Bangumi正篇1至12集，因此采用完整第1季。Bangumi的第13话是2013年Blu-ray映像特典原创篇《そうだ温泉に行こう!!（前后编）》；TMDB同一作品另有2013年1集的season 0，故纳入season 0 episode 1。2012年1月16日是原定日期，实际播出资料与TMDB均支持1月23日开播。\n\nhttps://bgm.tv/subject/23535 (page): Bangumi确认该条目为TV动画，共13话；列出LMD、CAMMOT、2012年播出信息及正篇1至12集和SP/第13话。\n\nhttps://bgm.tv/ep/289610 (page): Bangumi确认SP.13为《そうだ温泉に行こう!!（前后编）》，是Blu-ray映像特典的长篇原创第13话，首播/条目日期为2013-05-22。\n\nhttps://www.themoviedb.org/tv/73395 (api_snapshot): TMDB 73395与Bangumi条目同名，剧情和制作背景一致；首播日期为2012-01-23，season 0为1集、season 1为12集。\n\nhttps://www.themoviedb.org/tv/73395/season/1 (api_snapshot): TMDB season 1明确为12集；12个完整剧集标题逐条对应Bangumi正篇1至12集。\n\nhttps://televimanga.blog.jp/archives/68959729.html (page): 资料确认该动画实际放映期为2012-01-23至2012-03-26，TV正篇12话，并说明若干话因规制未电视播出。\n\nhttps://gist.github.com/Chepubelja/00ed0aae9bdd4d9be5f4fd1032d0d250 (search_snippet): 可交叉核对同名动画记录与AniDB ID 8677，且记录为TV、12集、LMD制作；与Bangumi条目标题、制作信息相符。\n\n备注：提供的TMDB season 0快照只含季摘要，未展开第1集标题；其与Bangumi第13话的对应关系由同一作品、2013年原创Blu-ray特典及单集season 0信息交叉确认。",
+    "evidence": "codex: 确认对应TMDB 73395：年份、TV媒介、剧情、制作人员与公司一致。第1季12集标题逐一对应Bangumi本篇，故按话数连续映射；温泉特别篇由实际第0季集表及Blu-ray收录资料确认对应S00E01。\n\nhttps://bgm.tv/subject/23535 (page): Bangumi 标为2012年TV动画，导演東出太、脚本ほそのゆうじ、动画制作LMD、製作CAMMOT；剧情涉及从洛杉矶转学的栗桥南与女子宿舍生活，与TMDB资料一致。\n\nhttps://www.themoviedb.org/tv/73395 (api_snapshot): 日文原名搜索命中73395；详情确认2012年作品，剧情、导演、编剧、制作公司及主要配音一致，正篇12集。\n\nhttps://www.themoviedb.org/tv/73395/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1；逐集日文标题与Bangumi本篇1至12完全对应，顺序一致。部分日期不同，例如前两集日期与Bangumi相反。\n\nhttps://www.themoviedb.org/tv/73395/season/0 (api_snapshot): 第0季实际集表仅1集，total_pages=1；第1集标题为「そうだ温泉にいこう!!」，日期2013-06-26，时长标为6分钟。\n\nhttps://bgm.tv/ep/289610 (page): 章节289610是SP.13温泉篇前后编，说明为Blu-ray附带的原创第13话，时长11分14秒，日期标为2013-05-22。\n\nhttps://jp.mercari.com/shops/product/nxgKQGXGBHbzzxBAZUbHKY (search_snippet): Blu-ray商品资料列明2013-06-26发行，映像特典为原创第13话温泉篇前后编；正篇另列第1至12话，支持温泉前后编属于同一个特别篇。\n\nhttps://en.wikipedia.org/wiki/Gokujyo (page): 集表分别列出12集正篇及2013-06-26发行的温泉OVA；说明部分正篇未在电视播出而改为网络配信，播出日期顺序不同于话数顺序。\n\n备注：两站多集放送日期不一致，涉及电视停播、网络配信及跨日记录；映射依据逐集标题和总集数确认，未按日期重新排序。；温泉篇Bangumi日期为2013-05-22，TMDB及发行资料为2013-06-26；TMDB标注6分钟，与Bangumi的11分14秒及商品所列前后编有出入。现有标题、发行日期及单集OVA资料支持同一特别篇，时长字段仍有疑点。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/23535; https://bgm.tv/ep/289610; https://www.themoviedb.org/tv/73395; https://www.themoviedb.org/tv/73395/season/1; https://televimanga.blog.jp/archives/68959729.html; https://gist.github.com/Chepubelja/00ed0aae9bdd4d9be5f4fd1032d0d250",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/23535; https://www.themoviedb.org/tv/73395; https://www.themoviedb.org/tv/73395/season/1; https://www.themoviedb.org/tv/73395/season/0; https://bgm.tv/ep/289610; https://jp.mercari.com/shops/product/nxgKQGXGBHbzzxBAZUbHKY; https://en.wikipedia.org/wiki/Gokujyo",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 73395
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,161 @@
 {
   "anidbId": 18078,
   "bangumiId": 403607,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1166875,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1166876,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1166877,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1166878,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1166879,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1166880,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1166881,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1166882,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1166883,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1166884,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1166885,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1166886,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1166887,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1166888,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1166889,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1166890,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1166891,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1166892,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1166893,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1166894,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1166895,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1166896,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1166897,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1166898,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1166899,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1166900,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、媒介、剧情、制作人员及26话标题和日期共同确认：本 subject 对应 TMDB 229192 第1季第1—26集，逐集同号对应。旧映射应收窄为此范围，排除番外和续作，且与已占用的第70—94集不重叠。\n\nhttps://bgm.tv/subject/403607 (page): Bangumi 标注本作为2023年6月22日开播的26集网络动画；导演张毅立、编剧焦柄乾，神漫文化制作，剧情围绕孟川斩妖成长展开。\n\nhttps://www.themoviedb.org/tv/229192 (api_snapshot): TMDB 229192 的原名、首播日期、孟川剧情及导演张毅立、编剧焦柄乾、制作公司均与本作相符。\n\nhttps://www.themoviedb.org/tv/229192/season/1 (api_snapshot): 已读取第1季全部两页、共101集。第1—26集播出日期与输入26话逐集一致，标题也对应，仅第4、8、16、24话存在标点或轻微措辞差异。第26集为2023年12月7日的《未来，现在》；第27集起进入2024年东宁府番外及后续内容，故不能映射整季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/403607; https://www.themoviedb.org/tv/229192; https://www.themoviedb.org/tv/229192/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229192
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 26,
       "id": 229192,
       "season": 1,
       "type": "tv"

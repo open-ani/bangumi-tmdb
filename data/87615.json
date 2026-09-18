@@ -1,19 +1,38 @@
 {
   "anidbId": 10208,
   "bangumiId": 87615,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 347809,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 347809,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 72798,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 72798 第0季第1集。单集数量、2014年发行时间、小说第8卷同捆且TV未放送的版本说明，以及导演、制作公司和角色均吻合；据此将唯一章节明确映射至该特别篇。\n\nhttps://bgm.tv/subject/87615 (page): Bangumi 标明本作是小说第8卷同捆、TV未放送的单集 OAD，发售日为2014-05-20；导演稲垣隆行，动画制作 diomedéa。\n\nhttps://www.themoviedb.org/tv/72798 (api_snapshot): TMDB 72798 为2013年同名动画，导演稲垣隆行、制作公司 diomedéa，主要角色与配音亦一致；其特别篇季列为2014年、共1集。\n\nhttps://www.themoviedb.org/tv/72798/season/0 (api_snapshot): 第0季实际集表仅1集，分页共1页。第1集日期为2014-05-20，时长24分钟，标题以「①カタオモイ☆乙女」开头；简介明确说明是小说第8卷附带的TV未放送原创动画。\n\nhttps://www.kadokawa.co.jp/product/321307000195/ (page): KADOKAWA 官方商品页确认第8卷 Blu-ray 同捆版收录TV未放送原创动画，但商品发售日标为2014-05-26。\n\n备注：Bangumi 章节未填写标题与日期，无法直接逐字核对集标题；对应关系由单集版本说明、subject 日期及制作信息共同确认。；官方商品页发售日为2014-05-26，Bangumi 与 TMDB 均为2014-05-20；日期差异未解释，但同捆卷数及版本明确一致，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/87615; https://www.themoviedb.org/tv/72798; https://www.themoviedb.org/tv/72798/season/0; https://www.kadokawa.co.jp/product/321307000195/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 72798,
       "season": 0,
       "type": "tv"

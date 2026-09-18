@@ -1,15 +1,91 @@
 {
+  "anidbId": 13445,
   "bangumiId": 147706,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 568852,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 568853,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 568854,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 568855,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 568856,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 568857,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 568858,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 568859,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 568860,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 568861,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 568862,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 568863,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 645680,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认 Bangumi subject《疯味英雄》对应 TMDB TV 77776《疯味英雄》（别名 Beyond the Worlds/Crazy Heroes）。年份、剧情、导演董相博、艺画开天制作方、WEB媒介及 13 集均一致；TMDB 第 1 季实际集表覆盖第 1—13 集，与 subject 主体完整对应，因此使用整季。TMDB 952065《幻镜诺德琳》是 2017 年 34 分钟电影，为关联的后续/正传作品，不能作为本 subject 的目标。\n\nhttps://www.themoviedb.org/tv/77776 (api_snapshot): TMDB 详情确认原名《疯味英雄》、首播 2015-09-16、完结、13 集 1 季、剧情为码奴与英雄在多重宇宙/诺德琳相关世界中的故事，制作方 YHKT Entertainment，导演 Dong Wangwang，并列出 Beyond the Worlds、Crazy Heroes 别名。\n\nhttps://www.themoviedb.org/tv/77776/season/1 (api_snapshot): TMDB 第 1 季实际集表为 13 集，编号连续覆盖 1—13，集名与 Bangumi subject 的 13 集主体对应，total_pages=1。\n\nhttps://bgm.tv/subject/147706 (search_snippet): Bangumi 搜索结果确认 subject 为《疯味英雄》WEB 动画，13 集，2015-09-16 开始，导演董相博，动画制作艺画开天，别名 Beyond the worlds。\n\nhttps://www.themoviedb.org/movie/952065 (api_snapshot): TMDB 详情显示《幻镜诺德琳》是 2017-04-28 的 34 分钟电影，由董相博执导，虽有相同制作方和码奴等关联角色，但媒介、年份和作品版本均不同。\n\nhttps://www.sohu.com/a/431665440_120867585 (search_snippet): 外部作品资料将《疯味英雄》描述为《幻镜诺德琳》的前传，支持两者是关联但不同作品，而非应合并的同一条目。\n\n备注：TMDB 个别集的日期与 Bangumi 存在小幅差异，且第 11 集 TMDB 日期明显异常；但不影响作品身份和 1—13 集范围确认。",
+    "evidence": "codex: 确认对应 TMDB 77776 第 1 季整季。年份、剧情、导演、制作方及连续剧集形式一致；13 集标题逐集完全对应，9 集日期相同，集数与顺序完整吻合，可建立本篇 1—13 集的一一映射。该季未混入续集《幻镜诺德琳》。\n\nhttps://bgm.tv/subject/147706 (page): Bangumi 将《疯味英雄》标为 WEB 动画，2015-09-16 开始，共 13 集，导演为董汪汪（董相博），动画制作为艺画开天；《幻镜诺德琳》单独列为续集。\n\nhttps://www.themoviedb.org/tv/77776 (api_snapshot): TMDB 77776 原名《疯味英雄》，首播日期为 2015-09-16，共 1 季 13 集；多重宇宙中英雄与码奴的剧情、导演 Dong Wangwang、制作方 YHKT Entertainment 均与输入对应。\n\nhttps://www.themoviedb.org/tv/77776/season/1 (api_snapshot): 第 1 季实际集表共 13 集，total_pages=1。第 1—13 集标题依次为序章 诞生、初见、闯祸、濩落、轮回、仪典、异动、探寻、背影、深渊、真视、流离、世界，与输入逐集一致。第 1—5、8—10、12 集日期也一致，其余日期存在差异。\n\n备注：第 6、7、13 集的 TMDB 日期分别比 Bangumi 晚 1、2、1 天；第 11 集 TMDB 记为 2015-05-16，早于全剧首播，疑为录入错误，Bangumi 为 2016-05-15。日期差异不影响由完整集名与集数确认的对应关系。；TMDB 各集时长统一记录为 15 分钟，与 Bangumi 标注的实际不等长时长存在差异，不能据此确认具体播放版本的剪辑时长。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/147706; https://www.themoviedb.org/tv/77776; https://www.themoviedb.org/tv/77776/season/1; https://www.themoviedb.org/movie/952065; https://www.sohu.com/a/431665440_120867585",
-    "verifiedAt": "2026-09-08T20:08:40.599Z"
+    "source": "https://bgm.tv/subject/147706; https://www.themoviedb.org/tv/77776; https://www.themoviedb.org/tv/77776/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77776
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

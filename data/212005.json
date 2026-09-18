@@ -1,16 +1,56 @@
 {
   "anidbId": 13038,
   "bangumiId": 212005,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 746004,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 746005,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 746006,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 746007,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 746008,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 746009,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为 TMDB 74094 第1季整季。年份、电视媒介、导演、制作公司、角色、6集总量及逐集标题和剧情相符，Bangumi 第1—6话对应 S01E01—E06。已比对播出日期：第1、3、5、6集的一日差符合官网24:00跨日口径；第2、4集存在日期异常，但标题与剧情明确对应，不影响集号判定。\n\nhttps://www.themoviedb.org/tv/74094 (api_snapshot): 日文原名搜索命中 TV 74094；详情确认为2017年电视动画，共1季6集，导演塚田拓郎，制作公司含 Lay-duce，主要角色及声优与官网一致。\n\nhttps://www.themoviedb.org/tv/74094/season/1 (api_snapshot): 第1季集表共6集、仅1页。第1至6集日文标题与输入的 Bangumi 本篇逐一完全一致，分集剧情也与官网一致，无其他作品混入。日期分别为2017-11-25、11-25、12-09、12-09、12-23、12-30。\n\nhttps://www.honeyworks-movie.jp/ (page): 官网确认2017年11月24日24:00起连续6周播出的电视动画；原作 HoneyWorks、导演塚田拓郎、动画制作 Lay-duce。官网列出全部6集标题和剧情，主线为芹沢春輝与合田美桜的恋情，与 TMDB 分集内容吻合。\n\n备注：TMDB 第2、4集日期分别记为2017-11-25、2017-12-09，与官网连续每周播出安排及 Bangumi 日期不符，疑为日期元数据错误。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/212005; https://www.themoviedb.org/tv/74094; https://www.themoviedb.org/tv/74094/season/1; https://www.honeyworks-movie.jp/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74094
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

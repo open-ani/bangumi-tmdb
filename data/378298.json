@@ -1,16 +1,86 @@
 {
   "anidbId": 17320,
   "bangumiId": 378298,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1279305,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1279306,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1279307,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1279308,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1279309,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1279310,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1279311,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1279312,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1279313,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1279314,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1279315,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1279316,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 197848 第1季全12集。年份、电视动画媒介、剧情、导演及制作信息吻合，12集标题和顺序逐一一致；后4集的日期差异符合官方提前3天网络配信的安排，可建立本篇1至12集的一一对应。\n\nhttps://www.themoviedb.org/tv/197848 (api_snapshot): 以日文原名搜索后读取详情，确认 TMDB 197848 是2024年电视动画：导演秋田谷典昭、动画制作 CONNECT，雷特被龙吞噬后成为骷髅并继续追求神银级的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/197848/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。第1至12集日文标题与 Bangumi 逐集完全一致，顺序相同。第1至8集日期相同；第9至12集日期分别为2024-03-01、03-08、03-15、03-22，比 Bangumi 电视放送日期早3天，符合官方先行配信安排。\n\nhttps://nozomanufushi-anime.jp/onair/index.html (page): 官方确认 AT-X 自1月8日起每周一播出，d动画商店及 Netflix 自1月5日起每周五配信，解释两种日期相差3天。\n\nhttps://nozomanufushi-anime.jp/staffcast/index.html (page): 官方列出原作丘野优、导演秋田谷典昭、角色设计佐野隆雄及动画制作 CONNECT；主要角色与声优亦与 TMDB 详情一致。\n\nhttps://nozomanufushi-anime.jp/story/12.html (page): 官方第12集标题为「レント・ファイナ」，讲述雷特决定饮用吸血鬼血液并向罗蕾努讲述往事，与 TMDB 第1季第12集标题、剧情一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/378298; https://www.themoviedb.org/tv/197848; https://www.themoviedb.org/tv/197848/season/1; https://nozomanufushi-anime.jp/onair/index.html; https://nozomanufushi-anime.jp/staffcast/index.html; https://nozomanufushi-anime.jp/story/12.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 197848
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

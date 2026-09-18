@@ -1,19 +1,91 @@
 {
   "anidbId": 16174,
   "bangumiId": 331692,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1034968,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1034969,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1034970,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1034971,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1034972,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1034973,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1034974,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1034975,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1034976,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1034977,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1034978,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1043835,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、电视动画媒介、剧情、导演及制作公司吻合；12集标题、顺序及换算午夜记时后的播出日期逐集对应。Bangumi 本条目仅覆盖第一季度，准确范围为 TMDB 121964 第1季第1—12集，旧映射的整季范围应收窄。\n\nhttps://www.themoviedb.org/tv/121964 (api_snapshot): TMDB 121964 为2021年电视动画《ヴァニタスの手記》，导演板村智幸、制作公司 BONES，以及19世纪法国、诺亚寻找魔导书并遇见瓦尼塔斯的剧情均与输入一致。\n\nhttps://www.themoviedb.org/tv/121964/season/1 (api_snapshot): 已读取第1季完整24集表（共1页）。第1至12集标题与输入逐集一致，仅第5集分隔符不同；日期逐集比 Bangumi 晚一天，范围为2021-07-03至2021-09-18。第13集起进入2022年播出的后半部分，不能将本 subject 映射为整季。\n\nhttps://vanitas-anime.com/news/?id=57603 (search_snippet): 官方首播公告明确本作为分割两季度电视动画，自2021年7月2日起每周五24:00播出；该记时方式对应次日自然日期，解释两站前12集日期一致相差一天。\n\nhttps://vanitas-anime.com/onair/ (page): 官方播出页确认第二季度自2022年1月14日周五24:00开始，与 TMDB 第1季第13集的2022-01-15日期相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/331692; https://www.themoviedb.org/tv/121964; https://www.themoviedb.org/tv/121964/season/1; https://vanitas-anime.com/news/?id=57603; https://vanitas-anime.com/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 121964
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 121964,
       "season": 1,
       "type": "tv"

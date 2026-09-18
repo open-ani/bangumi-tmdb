@@ -1,16 +1,133 @@
 {
   "anidbId": 8852,
   "bangumiId": 29060,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 152135,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 152136,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 152137,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 152138,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 152139,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 152140,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 152141,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 152142,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 152143,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 152144,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 152145,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 152146,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 164177,
+      "sort": 1,
+      "type": 3
+    },
+    {
+      "id": 164178,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 164179,
+      "sort": 1,
+      "type": 4
+    },
+    {
+      "id": 164180,
+      "sort": 2,
+      "type": 4
+    },
+    {
+      "id": 164181,
+      "sort": 3,
+      "type": 4
+    },
+    {
+      "id": 164182,
+      "sort": 4,
+      "type": 4
+    },
+    {
+      "id": 164440,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164440,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 54930,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 29060 明确是2012年4月开播、12话的《黄昏乙女×アムネジア》，制作人员和剧情与 TMDB 54930 完全对应。TMDB 第1季包含完整的1—12话，标题、日期和剧情逐集对齐。Bangumi 同一 subject 还列有 SP/第13话《退魔乙女》，日期为2012-11-28；TMDB 54930 另有2012-11-28、1集的第0季“特别編”，因此应一并纳入。候选中的 AniDB ID 8852 未得到独立确认；公开 AniDB 搜索结果将该 TV 作品指向 anime/1416，但这不影响基于 Bangumi 与 TMDB 内容、日期和制作信息完成对应。\n\nhttps://bgm.tv/subject/29060 (page): Bangumi 将该条目标为 TV，话数12，放送开始2012-04-08；制作人为大沼心、坂本隆，动画制作为 SILVER LINK.，并列出 SP/第13话《十三ノ怪「退魔乙女」》。\n\nhttps://www.themoviedb.org/tv/54930 (api_snapshot): TMDB 作品名为《黄昏乙女×アムネジア》，首播日期2012-04-09，剧情为诚教学园、幽灵夕子与怪异调查部，TV总集数12，并列出第0季1集和第1季12集。\n\nhttps://www.themoviedb.org/tv/54930/season/1 (api_snapshot): TMDB 第1季有完整12集；第1—12集标题、播出日期和剧情分别与 Bangumi 的正篇章节逐一对应。\n\nhttps://tv.apple.com/jp/episode/%E5%8D%81%E4%B8%89%E3%83%8E%E6%80%AA-%E9%80%80%E9%AD%94%E4%B9%99%E5%A5%B3/umc.cmc.4nz8webhtiti068hd78cqob1e?showId=umc.cmc.47nuqwj84urgl86vgbd679bu (search_snippet): 《十三ノ怪 退魔乙女》被列为该作品第1季第13集、电视未放送特别篇，日期为2012-11-28。\n\nhttps://anidb.app/anime/dusk-maiden-of-amnesia-1416 (search_snippet): 公开 AniDB 搜索结果将 Dusk Maiden of Amnesia 对应到 AniDB anime/1416，并包含特别篇信息；输入候选的 AniDB ID 8852 未被该结果独立 corroborate。\n\n备注：AniDB 8852 的直接页面请求返回403，不能据此判断其不存在；公开索引结果显示该 TV 作品的 AniDB 页面为1416，因此候选 AniDB 关联本身存在编号疑点。；TMDB 第0季的输入快照只提供季元数据，未提供该季逐集标题；其1集数量、2012-11-28日期与 Bangumi 第13话及独立剧集资料一致。",
+    "evidence": "codex: 作品年份、电视动画媒介、剧情及制作人员一致。本篇12话的标题、顺序、总量和周播日期逐集吻合，日期的一天偏差可由深夜放送记法解释，确定对应 TMDB 54930 第1季全季。特别篇《退魔乙女》的标题和日期也已由真实季表确认，对应第0季第1集。\n\nhttps://www.themoviedb.org/tv/54930 (api_snapshot): 日文原名搜索命中 TMDB 54930；详情确认是2012年电视动画，剧情涉及诚教学园、新谷贞一与幽灵庚夕子，制作公司 SILVER LINK.，导演大沼心、坂本隆，编剧高山克彦，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/54930/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。逐集标题从《幽霊乙女》到《黄昏乙女》均与 Bangumi 本篇1—12话一致；日期为2012-04-09至2012-06-25，每集均比 Bangumi 标注晚一天，周播间隔一致。\n\nhttps://www.themoviedb.org/tv/54930/season/0 (api_snapshot): 第0季完整集表仅1集、仅1页：第1集《十三ノ怪 退魔乙女》，日期2012-11-28，与 Bangumi 特别篇章节164440的标题及日期完全一致。\n\nhttps://dengekionline.com/elem/000/000/474/474152/ (search_snippet): 当年的放送资讯记载本作于4月8日星期日24:30在千叶电视台、太阳电视台首播，即公历4月9日00:30，支持两站日期相差一天属于深夜放送日期记法差异。\n\n备注：OP、ED及4条宣传映像在已读取的 TMDB 集表中没有对应条目，保留未映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/29060; https://www.themoviedb.org/tv/54930; https://www.themoviedb.org/tv/54930/season/1; https://tv.apple.com/jp/episode/%E5%8D%81%E4%B8%89%E3%83%8E%E6%80%AA-%E9%80%80%E9%AD%94%E4%B9%99%E5%A5%B3/umc.cmc.4nz8webhtiti068hd78cqob1e?showId=umc.cmc.47nuqwj84urgl86vgbd679bu; https://anidb.app/anime/dusk-maiden-of-amnesia-1416",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/29060; https://www.themoviedb.org/tv/54930; https://www.themoviedb.org/tv/54930/season/1; https://www.themoviedb.org/tv/54930/season/0; https://dengekionline.com/elem/000/000/474/474152/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 54930
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +136,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 54930,
       "season": 0,
       "type": "tv"

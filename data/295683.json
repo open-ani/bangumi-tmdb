@@ -1,15 +1,91 @@
 {
+  "anidbId": 15316,
   "bangumiId": 295683,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 920422,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 965849,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 965850,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 965851,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 965852,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 965853,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 965854,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 965855,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 965856,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 965857,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 965858,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 965859,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 965860,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 103047 的原名为「困ったじいさん」、别名含 Komatta Jiisan，首播日 2020-04-08、完结日 2020-07-01，共 1 季 13 集。其季表实际列出第 1–13 集，日期与 Bangumi 的 13 集 TV 版一致。官方 BS日テレ资料进一步确认这是讲老夫妇日常的 1 分钟 TV 动画，制作公司为胜鬨スタジオ、动画监督为ナミキヒロシ，剧情、媒介、版本和集数均匹配，因此可使用完整第 1 季。\n\nhttps://www.themoviedb.org/tv/103047 (api_snapshot): TMDB 详情：原名「困ったじいさん」，别名 Komatta Jiisan，2020-04-08 开播、2020-07-01 完结，1 季共 13 集。\n\nhttps://www.themoviedb.org/tv/103047/season/1 (api_snapshot): TMDB 第 1 季实际集表包含第 1 至第 13 集，日期从 2020-04-08 至 2020-07-01，每集片长约 1 分钟。\n\nhttps://api.bgm.tv/v0/subjects/295683 (api_snapshot): Bangumi 原始资料确认媒介为 TV、2020-04-08 首播、13 集，剧情为老夫妇婚后日常喜剧，制作公司胜鬨スタジオ，导演ナミキヒロシ。\n\nhttps://www.bs4.jp/komatta-jiisan/ (page): BS日テレ官方页面确认该作品为 2020 年 4 月播出的 1 分钟动画，剧情、制作人员及第 1–13 集播出安排均与 TMDB 和 Bangumi 匹配。",
+    "evidence": "codex: 匹配TMDB 103047第1季完整13集。官方剧情、制作人员、1分钟TV媒介及播出区间与Bangumi输入一致；TMDB全季集数、集号和13个播出日期均与官方逐集表吻合，覆盖同一2020年TV版本。Bangumi本篇sort 1—13可连续对应TMDB第1季第1—13集。\n\nhttps://www.themoviedb.org/tv/103047 (api_snapshot): 日文原名搜索命中 TV 103047；详情确认原名「困ったじいさん」，别名含 Komatta Jiisan，首播日为2020-04-08，末播日为2020-07-01，共1季13集。\n\nhttps://www.themoviedb.org/tv/103047/season/1 (api_snapshot): 第1季实际集表共13集，total_pages=1，已完整读取。第1至13集均为1分钟，播出日期从2020-04-08至2020-07-01逐周排列，与官方每一话的日期完全一致；标题仅为「第N話」。\n\nhttps://www.bs4.jp/komatta-jiisan/ (page): BS日テレ官方页确认每周三23:29至23:30播出，剧情为结婚50周年老夫妇的日常；原作为大江しんいちろう，动画制作为勝鬨スタジオ，监督为ナミキヒロシ，与输入一致。官方完整列出第1话「メシ」至第13话「花火」的标题及2020-04-08至2020-07-01的逐集日期，与TMDB集号及日期逐一吻合。\n\n备注：Bangumi输入未提供逐集标题及完整日期，TMDB标题也仅为序号；逐集对应依据官方话数与日期表、TMDB逐集日期及双方13集总量确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/295683; https://www.themoviedb.org/tv/103047; https://www.themoviedb.org/tv/103047/season/1; https://api.bgm.tv/v0/subjects/295683; https://www.bs4.jp/komatta-jiisan/",
-    "verifiedAt": "2026-09-08T21:50:57.455Z"
+    "source": "https://bgm.tv/subject/295683; https://www.themoviedb.org/tv/103047; https://www.themoviedb.org/tv/103047/season/1; https://www.bs4.jp/komatta-jiisan/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 103047
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

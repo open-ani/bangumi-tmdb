@@ -1,16 +1,91 @@
 {
   "anidbId": 15328,
   "bangumiId": 297208,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 941257,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 941258,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 941259,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 941260,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 941261,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 941262,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 941263,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 941264,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 941265,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 941266,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 941267,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 941268,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 941269,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 2020 年 TV 动画、共 13 话，标题、播出时期、剧情和制作信息与官方资料一致。官方页面列出的第1至第13话与 TMDB season 1 的 13 集逐项对应；TMDB 第4集标题虽缺失，但其简介与官方第4话「月に吠える 前編」完全对应。因此应映射为 TMDB TV 100353 的第1季完整 13 集。TMDB 首播日期比日本官方日期晚一天，属于日期元数据差异，不影响版本对应。\n\nhttps://bgm.tv/subject/297208 (page): Bangumi 条目标为 TV，名称为「文豪とアルケミスト 〜審判ノ歯車〜」，共13话，2020年4月3日开始，2020年8月7日结束，并列出导演、系列构成、动画制作等信息。\n\nhttps://anime-bungo-alchemist.com/story/ (page): 官方故事页列出第1至第13话，包含「走れメロス」「桜の森の満開の下」前后篇、「月に吠える」前后篇、「地獄変」前后篇、「人間失格」前后篇、「藪の中」「恩讐の彼方に」及「歯車」前后篇。\n\nhttps://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/ (page): 东京电视台官方剧集页给出第4至第13话的标题、简介和播出日期；第4话为「月に吠える 前編」，其简介与 TMDB 第4集简介一致，且第5至第13话标题和剧情也连续对应。\n\nhttps://www.themoviedb.org/tv/100353 (api_snapshot): TMDB API 快照显示 TV 100353 名称、日文原名、2020年首播、13集，并明确包含 season 1，season 1 共13集。\n\nhttps://www.themoviedb.org/tv/100353/season/1 (api_snapshot): TMDB season 1 快照显示第1至第13集；其剧集标题、简介和整体剧情与官方列表逐项对应。第4集标题字段缺失，但简介对应官方第4话「月に吠える 前編」。",
+    "evidence": "codex: 确认对应TMDB 100353第1季完整13集。年份、电视动画媒介、剧情、制作人员及集数一致；官方13话与TMDB季表逐集核对后，标题和剧情顺序吻合，没有混入其他作品。第4集通用标题可由相同简介确认，第8集日期冲突不影响其标题和剧情所确定的对应关系，因此本篇1—13话可连续一一映射。\n\nhttps://www.themoviedb.org/tv/100353 (api_snapshot): 以日文名称搜索后读取详情：TMDB 100353 为2020年电视动画，剧情与输入一致；导演渡部穏寛、编剧熊谷純、制作公司OLM吻合，共1季13集。\n\nhttps://www.themoviedb.org/tv/100353/season/1 (api_snapshot): 第1季真实集表共13集，total_pages=1。逐集标题和简介对应Bangumi本篇1—13话；第4集仅显示通用标题，但简介与官方第4话一致。第8集日期为2020-06-06，与官方日期有冲突。\n\nhttps://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/index_2.html (page): 官方第1—3话标题、剧情及播出日期与输入对应，日期依次为2020-04-03、04-10、04-17；TMDB对应集日期均晚一天。\n\nhttps://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/ (page): 官方第4—13话标题、简介与TMDB逐集对应，日期均与输入一致。第4话为《月に吠える 前編》；第8话于2020-07-03播出，标题和简介明确对应TMDB第8集；第13话于2020-08-07播出。\n\nhttps://www.tv-tokyo.co.jp/anime/bungo-alchemist/staff/ (page): 官方制作名单确认原作DMM GAMES、导演渡部穏寛、系列构成及脚本熊谷純、角色设计中嶋敦子、动画制作OLM，与输入及TMDB详情吻合。\n\n备注：TMDB第8集记录为2020-06-06，官方及Bangumi为2020-07-03；日期差异原因未确认。；TMDB第1—7、9、11—13集日期比官方晚一天，第10集日期相同；未将这些差异视为版本或集序差异。；TMDB第4集缺少正式标题，当前仅显示“第4話”，但官方简介与其一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/297208; https://anime-bungo-alchemist.com/story/; https://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/; https://www.themoviedb.org/tv/100353; https://www.themoviedb.org/tv/100353/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/297208; https://www.themoviedb.org/tv/100353; https://www.themoviedb.org/tv/100353/season/1; https://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/index_2.html; https://www.tv-tokyo.co.jp/anime/bungo-alchemist/episodes/; https://www.tv-tokyo.co.jp/anime/bungo-alchemist/staff/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 100353
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

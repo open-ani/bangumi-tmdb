@@ -1,15 +1,103 @@
 {
+  "anidbId": 14311,
   "bangumiId": 44120,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 183881,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 183882,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 199831,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 207372,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 213896,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 226073,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 226123,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 226128,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 226129,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 226130,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 226131,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 226132,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 269794,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 269794,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 122583,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 122583 的原名、2012 年开播时间、中文网络短篇动画设定、哪吒/匹诺曹/福禄/世界末日等篇章、U17 制作背景及山新、宝木中阳、皇贞季等配音均与 Bangumi subject 44120 一致。TMDB 第1季实际有13集：前12集对应 Bangumi 的12集正片，第13集“圣斗士星矢番外篇”对应 Bangumi 记录的特别篇。2014 年100分钟电影 TMDB 323182 及2017年续作电影 474386 均为独立电影，不应替代本 TV 条目。\n\nhttps://www.themoviedb.org/tv/122583 (api_snapshot): TMDB 详情确认作品为 TV《十万个冷笑话》，原名十万个冷笑话，日期为2012-07-12；剧情、制作公司 U17 及主要配音与 subject 相符。\n\nhttps://www.themoviedb.org/tv/122583/season/1 (api_snapshot): TMDB 第1季季表实际包含13集，集名依次覆盖哪吒篇、匹诺曹篇、福禄篇、世界末日篇、太二真人、作者的一天及圣斗士星矢番外篇。\n\nhttps://bgm.tv/subject/44120 (page): Bangumi 页面确认该条目为 WEB 动画，2012年7月11日开始，正片12话，导演卢恒宇、李姝洁，制作方有妖气，且章节列表另含 SP。\n\nhttps://www.themoviedb.org/movie/323182 (api_snapshot): TMDB 详情确认这是2014年上映、片长100分钟的独立剧场版电影，剧情从剧版第二季相关事件展开。\n\nhttps://www.themoviedb.org/movie/474386 (api_snapshot): TMDB 详情确认这是2017年上映的《十万个冷笑话2》独立电影续作。\n\n备注：TMDB 第1季部分集数的日期与 Bangumi/其他资料不一致，且 TMDB 的 crew 字段存在不完整或冲突；但标题、剧情、角色、制作背景及13集范围整体对应明确。",
+    "evidence": "codex: 确认对应 TMDB 122583 第1季第1—13集。年份、网络短篇形态、原作、制作背景、配音及篇章内容共同支持作品身份。逐集核对后，12话本篇的标题和顺序完全对应第1—12集，另1话特别篇对应第13集，数量完整吻合；第11、12集日期也一致。日期冲突不改变由具体篇章内容确认的对应关系。\n\nhttps://www.themoviedb.org/tv/122583 (api_snapshot): TMDB 122583 为2012年开播的《十万个冷笑话》动画系列；寒舞原作、有妖气/U17制作背景、吐槽短篇剧情及山新、宝木中阳、皇贞季等配音与本条目一致。\n\nhttps://www.themoviedb.org/tv/122583/season/1 (api_snapshot): 第1季实际共13集，total_pages=1。第1—12集的篇章标题依次与 Bangumi 本篇一致：哪吒1、匹诺曹、哪吒2、福禄1—3、世界末日1—2、哪吒3、太二真人的一天、世界末日3、作者的一天；第13集为圣斗士星矢番外篇。第11、12集日期分别为2013-07-02、2013-08-01，与 Bangumi 相同。\n\nhttps://bgm.tv/subject/44120 (page): Bangumi 确认为2012-07-11至2013-08-01发布的中国网络短篇动画，正片12话，原作寒舞，导演卢恒宇、李姝洁，动画制作艾尔平方，出品有妖气；第二季和电影另列关联条目。\n\nhttps://bgm.tv/subject/44120/ep (page): 章节页列出12话本篇及SP1《圣斗士星矢篇》。逐话标题与 TMDB 第1季1—12集及第13集分别对应；SP首播日期记为2013-05-10。\n\n备注：TMDB 第1—10集及第13集日期与 Bangumi 不同：首集相差一天，其余多集相差数月；不能将这些 TMDB 日期视为已核实的原始首播日期。；TMDB 系列级导演字段仅列小野败仔，与 Bangumi 第一季导演卢恒宇、李姝洁不一致；该字段不足以确认第一季导演，作品身份由原作、制作公司、配音及完整篇章列表交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/44120; https://www.themoviedb.org/tv/122583; https://www.themoviedb.org/tv/122583/season/1; https://www.themoviedb.org/movie/323182; https://www.themoviedb.org/movie/474386",
-    "verifiedAt": "2026-09-08T18:56:23.889Z"
+    "source": "https://bgm.tv/subject/44120; https://www.themoviedb.org/tv/122583; https://www.themoviedb.org/tv/122583/season/1; https://bgm.tv/subject/44120/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 122583
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

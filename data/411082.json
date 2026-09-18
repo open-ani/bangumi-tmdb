@@ -1,13 +1,80 @@
 {
+  "anidbId": 13201,
   "bangumiId": 411082,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1153622,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1153623,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1153624,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1153625,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1153626,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1153627,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1153628,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1153629,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1153630,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1153631,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1153632,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1153633,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1153634,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 67324 的第4季明确命名为「お・お・お・のしんのすけ」，别名也对应 O-o-o no Shinnosuke；其日期为2017-05-31，剧情、制作公司与 Bangumi 条目一致。该季实际有13集，播出时间从2017-05-31至2017-08-23，完整覆盖 Bangumi 的13集主体，因此使用整季映射。\n\nhttps://www.themoviedb.org/tv/67324 (api_snapshot): TMDB 详情显示该 TV 作品包含4季；第4季标题为「お・お・お・のしんのすけ」，日期为2017-05-31，剧情描述与妖怪园儿新之助及桜ふみえ的故事一致；别名明确列出 Crayon Shin-chan Gaiden: O-o-o no Shinnosuke。\n\nhttps://www.themoviedb.org/tv/67324/season/4 (api_snapshot): TMDB 第4季有13集，实际集号为1至13，首播日2017-05-31，末集播出日2017-08-23；集表内容均属于该妖怪篇。\n\nhttps://www.themoviedb.org/tv/67324 (api_snapshot): TMDB 搜索结果以日文原名及英文别名均指向同一 TV 条目67324；搜索结果的概述可区分第1季宇宙飞船篇，避免将其误映射为第4季。",
+    "evidence": "codex: 确认对应 TMDB 67324 第4季整季。官方资料与TMDB在版本、网络配信媒介、年份、剧情、制作人员及13集范围上相符。Bangumi输入章节均缺少标题和日期，无法逐章交叉核验，因此保留整季映射，不按位置推测逐集规则。\n\nhttps://www.themoviedb.org/tv/67324 (api_snapshot): 日文原名与英文别名搜索均指向 TMDB 67324。详情将本作明确列为第4季，首播日期为2017-05-31，共13集；该季妖怪新之助寻找母亲、结识桜ふみえ的剧情与输入一致，制作公司为朝日电视台和新锐动画。\n\nhttps://www.themoviedb.org/tv/67324/season/4 (api_snapshot): 实际读取第4季完整集表，total_pages=1，共13集，集号1至13，日期从2017-05-31至2017-08-23，每周一集。全部集名与剧情属于妖怪篇，没有混入其他外传或特别篇。\n\nhttps://www.tv-asahi.co.jp/shinchan/contents/news/0053/ (page): 朝日电视台2017年5月30日公告明确称本作为外传第4季，5月31日起在Amazon Prime Video每周三配信，全13话；故事与主要角色符合输入。\n\nhttps://shin-ei-animation.jp/works/amazon_shinchan_ooo/ (page): 新锐动画官方作品页确认本作为Amazon独占配信动画，剧情与输入一致；导演しぎのあきら、系列构成髙橋渉、人物设计末吉裕一郎及岩永大蔵等制作人员均与输入相符。\n\n备注：Bangumi的13个章节只有sort和ID，标题、日期均为空，且在线章节页未能读取；逐集rules暂留空，待补充章节标题或放送日期后核验。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/411082; https://www.themoviedb.org/tv/67324; https://www.themoviedb.org/tv/67324/season/4",
-    "verifiedAt": "2026-09-08T23:41:10.598Z"
+    "source": "https://bgm.tv/subject/411082; https://www.themoviedb.org/tv/67324; https://www.themoviedb.org/tv/67324/season/4; https://www.tv-asahi.co.jp/shinchan/contents/news/0053/; https://shin-ei-animation.jp/works/amazon_shinchan_ooo/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,14 +1,48 @@
 {
   "anidbId": 8969,
   "bangumiId": 41612,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 176860,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 177513,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 176860,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 62742,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 177513,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 62742,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 41612 明确是《さんかれあ OAD》，共 2 集，发售日为 2012-06-08 和 2012-11-09；其集标题分别与 TMDB 62742 的特别编 season 0 第 1、2 集完全对应。TMDB season 0 另有第 3 集，且日期为 2012-11-30，不属于该 Bangumi subject，因此应限定为第 1–2 集。\n\nhttps://bgm.tv/subject/41612 (page): Bangumi subject 名称为「さんかれあ OAD」，包含 2 集，集标题和日期为「運命って…ヤツは…」(2012-06-08) 与「身はゾンビに…心は…」(2012-11-09)。\n\nhttps://www.themoviedb.org/tv/62742 (api_snapshot): TMDB TV 62742 为《さんかれあ》，首播日期 2012-04-06，并包含 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/62742/season/0 (api_snapshot): TMDB season 0 第 1、2 集标题和日期分别为「運命って…ヤツは…」(2012-06-08) 与「身はゾンビに…心は…」(2012-11-09)，与 Bangumi subject 的两集对应；第 3 集为「吾輩も…ゾンビである…」(2012-11-30)，故不纳入。",
+    "evidence": "codex: 年份、制作公司、OAD版本及两集的标题、发售日期、剧情均相符，确认对应 TMDB 62742 第0季第1–2集。Bangumi 编号为0、14，采用章节 ID 特例逐集映射；第0季第3集不纳入。\n\nhttps://bgm.tv/subject/41612 (page): Bangumi 将本条目标为共2集的 OVA，动画制作为 Studio Deen，收录于漫画第6、7卷限定版。第0话于2012-06-08发售，讲述千纮与礼弥正式相识前的故事；第14话于2012-11-09发售，讲述对礼弥抱有恶意的神秘少女。\n\nhttps://www.themoviedb.org/tv/62742 (api_snapshot): TMDB 62742 为2012年动画《さんかれあ》，制作公司为 Studio Deen，主角及僵尸恋爱剧情一致；作品下设第0季特别篇。\n\nhttps://www.themoviedb.org/tv/62742/season/0 (api_snapshot): 第0季完整集表共3集、1页。第1集「運命って…ヤツは…」日期为2012-06-08，第2集「身はゾンビに…心は…」日期为2012-11-09，标题、日期及剧情分别对应本条目的第0、14话。第3集「吾輩も…ゾンビである…」日期为2012-11-30，不属于这两集 OAD。",
     "method": "codex",
     "source": "https://bgm.tv/subject/41612; https://www.themoviedb.org/tv/62742; https://www.themoviedb.org/tv/62742/season/0",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

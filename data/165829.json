@@ -1,16 +1,103 @@
 {
   "anidbId": 11881,
   "bangumiId": 165829,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 621261,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 621262,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 621263,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 621264,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 621265,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 621266,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 621267,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 621268,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 621269,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 621270,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 621271,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 621272,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 627347,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 627347,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 65944,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2016 年《坂本ですが？》TV，共 13 话，章节包含正篇 01–12、SP 和第 13 话；制作人员、剧情和 Studio DEEN 信息与 AniDB 的 Sakamoto desu ga?（AniDB ID 11881）一致。TMDB 65944 的主条目为同名日语 TV 作品，第一季正好 12 集，完整剧集标题与 Bangumi 正篇逐集对应。Bangumi 条目内的第 13 话由官方确认是原创特别篇，收录于 2016-10-26 发售的最终 BD/DVD；TMDB 将其单列为 season 0 的 1 集特别编，因此需单独纳入。Bangumi 与 TMDB 的首播日期相差约一天，符合日本深夜播出日期记录差异，不影响版本对应。\n\nhttps://bgm.tv/subject/165829 (page): Bangumi 将该作品标为 TV，话数 13，放送期为 2016 年，并列出章节 01–12、SP、13；导演高松信司、动画制作 Studio DEEN，剧情和制作信息明确对应本作。\n\nhttps://www.wikidata.org/wiki/Q128600423 (search_snippet): 该作品的日文标题为「坂本ですが？」/Sakamoto desu ga?，类型为日本动画电视系列；记录 AniDB anime ID 11881 和 TMDB TV series ID 65944，开播 2016-04-08、结束 2016-07-01。\n\nhttps://anidb.app/anime/havent-you-heard-im-sakamoto-2108 (search_snippet): AniDB 搜索摘要显示 Haven't You Heard? I'm Sakamoto / Sakamoto desu ga?，类型 TV，Spring 2016，24 分钟，Studio DEEN，剧情为坂本的高中校园生活，与 Bangumi 条目一致。\n\nhttps://www.deen.co.jp/news/20160708-2 (page): Studio DEEN 官方确认第 13 话是原创特别篇，并在 2016-09-10 特别活动中上映；官方简介描述其为坂本离校数月后的后日谈。\n\nhttps://www.tbs.co.jp/anime/sakamoto/disc/ (page): TBS 官方碟片信息显示最终第 5 卷于 2016-10-26 发售，收录第 12、第 13 话，确认第 13 话属于本条目主体内的特别篇而非另一部作品。\n\nhttps://www.themoviedb.org/tv/65944 (api_snapshot): TMDB API 快照显示作品 ID 65944、日文名「坂本ですが？」、2016 年作品、共 12 集，并列出 season 0「特別編」1 集和 season 1「シーズン1」12 集。\n\nhttps://www.themoviedb.org/tv/65944/season/1 (api_snapshot): TMDB season 1 快照完整列出 12 集；各集标题和剧情分别对应 Bangumi 正篇 01–12，因此应采用整季而非猜测范围。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演及制作公司一致，确认对应 TMDB 65944。本篇12话经逐集标题、日期及总数比对，对应第1季全季；日期统一相差一天，符合深夜放送记日差异。Bangumi SP.13 对应官方原创第13话，其剧情与 TMDB 第0季第1集一致，使用章节覆盖规则单独映射。\n\nhttps://www.themoviedb.org/tv/65944 (api_snapshot): 日文原名搜索命中 TV 65944；详情确认是2016年电视动画，剧情为坂本的校园生活，导演高松信司、制作公司 Studio Deen 与 TBS，均与待核对条目一致。\n\nhttps://www.themoviedb.org/tv/65944/season/1 (api_snapshot): 第1季完整集表共12集、仅1页。逐集标题与 Bangumi 本篇对应，其中第5集省略两个短段标题，第6集省略末段标题；其余标题一致。全部12集日期均比 Bangumi 晚一天，停播间隔与后续周播顺序一致。\n\nhttps://www.themoviedb.org/tv/65944/season/0 (api_snapshot): 第0季完整集表仅1集《坂本でした？》，日期2016-10-26；简介为坂本离校数月后，同学从报纸上再次看到他的消息，与官方第13话简介一致。\n\nhttps://bgm.tv/ep/627347 (page): Bangumi 章节627347标为 SP.13，时长23分58秒，日期2016-10-08，属于本条目的第13话特别篇。\n\nhttps://www.deen.co.jp/news/20160708-2 (page): Studio DEEN 官方明确第13话是原创特别篇，安排于2016年9月10日活动上映；公布的后日谈剧情与 TMDB S00E01 完全对应。\n\nhttps://www.tbs.co.jp/anime/sakamoto/disc/ (page): TBS 官方碟片列表将第1至13话连续收录，第5卷10月26日发行，收录第12、13话；支持将第13话归入同一作品，并解释 TMDB 特别篇日期采用碟片发行日。\n\nhttps://www.tbs.co.jp/tbs-ch/item/a0213/ (search_snippet): TBS频道官方资料确认本作制作于2016年，电视本篇共12话，原作佐野菜见、导演高松信司、动画制作 Studio DEEN。\n\n备注：Bangumi 特别篇日期2016-10-08的具体来源尚未确认；官方确认的活动上映日为9月10日，TMDB记录的10月26日对应碟片发行日。该日期差异不影响第13话的身份对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/165829; https://www.wikidata.org/wiki/Q128600423; https://anidb.app/anime/havent-you-heard-im-sakamoto-2108; https://www.deen.co.jp/news/20160708-2; https://www.tbs.co.jp/anime/sakamoto/disc/; https://www.themoviedb.org/tv/65944; https://www.themoviedb.org/tv/65944/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/165829; https://www.themoviedb.org/tv/65944; https://www.themoviedb.org/tv/65944/season/1; https://www.themoviedb.org/tv/65944/season/0; https://bgm.tv/ep/627347; https://www.deen.co.jp/news/20160708-2; https://www.tbs.co.jp/anime/sakamoto/disc/; https://www.tbs.co.jp/tbs-ch/item/a0213/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65944
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

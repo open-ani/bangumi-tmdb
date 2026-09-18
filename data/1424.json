@@ -1,21 +1,136 @@
 {
   "anidbId": 6257,
   "bangumiId": 1424,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 4835,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 4836,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 4837,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 4838,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 4839,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 4840,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 4841,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 4842,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 4843,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 4844,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 4845,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 4846,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 7535,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 28181,
+      "sort": 14,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 7535,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 42253,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 28181,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 42253,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演及制作公司均吻合。逐集标题、顺序、日期及官方发行资料确认：本subject的14话对应TMDB 42253第1季全部12集，以及S00E01、S00E09。旧映射漏掉两话番外篇；本次完整覆盖，且不占用第二期及《うらおん!》的集数。\n\nhttps://www.themoviedb.org/tv/42253 (api_snapshot): TMDB 42253 为2009年开播的电视动画《けいおん!》，剧情为平泽唯加入面临废部的轻音部；导演山田尚子，制作公司包含京都动画，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/42253/season/1 (api_snapshot): 第1季完整集表共12集，单页返回；标题从《廃部！》至《軽音！》，与 Bangumi 第1至12话逐集对应。前5话日期一致，第6至12话的TMDB日期比输入晚一天。\n\nhttps://www.themoviedb.org/tv/42253/season/0 (api_snapshot): 第0季完整集表共21集，单页返回。第1集《冬の日！》日期为2009-06-26，简介明确为第一期第13话；第9集《ライブハウス！》日期为2010-01-20，简介明确为第一期第14话。其余集包含短篇及第二期番外篇，不属于本subject。\n\nhttps://www.tbs.co.jp/anime/k-on/k-on_tv/story/story00.html (page): TBS官方第一期集表确认12话正篇及番外篇《冬の日！》的标题、顺序和放送日期，与输入逐集对应；《冬の日！》官方日期为2009-06-25。\n\nhttps://www.tbs.co.jp/anime/k-on/k-on_tv/blog/200909110000.html (page): TBS官方2009年9月11日公告确认新作特别篇《ライブハウス！》收录于2010年1月20日发售的Blu-ray及DVD第7卷。\n\n备注：TMDB对第6至13话的日期比Bangumi及TBS官方集表晚一天；推测为深夜播出日期记法差异，标题、顺序及番外篇身份明确，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1424; https://www.themoviedb.org/tv/42253; https://www.themoviedb.org/tv/42253/season/1; https://www.themoviedb.org/tv/42253/season/0; https://www.tbs.co.jp/anime/k-on/k-on_tv/story/story00.html; https://www.tbs.co.jp/anime/k-on/k-on_tv/blog/200909110000.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42253
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 42253,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 42253,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 9,
+      "id": 42253,
+      "season": 0,
       "type": "tv"
     }
   ]

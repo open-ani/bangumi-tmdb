@@ -1,14 +1,64 @@
 {
   "anidbId": 10519,
   "bangumiId": 99810,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 384984,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 384985,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 384986,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 384984,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 56355,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 384985,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 56355,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 384986,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 56355,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2014 年、Manglobe 制作的 3 话 OVA，分别对应 Vol.A、Vol.B、Vol.C，并于 2014-06-18、2014-09-18、2014-12-18 发售。TMDB TV 56355 的特别篇 season 0 中，episode 2–4 标题正好为三部 2014 OVA；episode 1 是另一部 2009 年 OVA，因此不能整季纳入。AniDB ID 10519 的标题也对应 Hayate no Gotoku! (2014)。\n\nhttps://bgm.tv/subject/99810 (page): Bangumi 将条目标为 OVA，共 3 话，制作公司为 Manglobe，章节日期为 2014-06-18、2014-09-18、2014-12-18，并说明捆绑漫画第 41、42、43 卷特别版。\n\nhttps://www.themoviedb.org/tv/56355 (api_snapshot): TMDB TV 56355 的 season 0 共 4 集；其余常规季分别是 2007、2009、2012、2013 年的电视系列。\n\nhttps://www.themoviedb.org/tv/56355/season/0 (api_snapshot): TMDB season 0 episode 1 是 2009 年的《アツがナツいぜ 水着編》，episode 2、3、4 的标题分别为 OVA Volume A、Volume B、Volume C；因此主体应取 episode 2–4。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题数据将 AniDB ID 10519 对应为 Hayate no Gotoku! (2014)。\n\nhttps://hayatenogotoku.fandom.com/wiki/Hayate_no_Gotoku!_10th_anniversary_OVA (search_snippet): 该作品是三部 10 周年 OVA，Vol.A、Vol.B、Vol.C 的发行日期分别为 2014-06-18、2014-09-18、2014-12-18。\n\n备注：TMDB 快照把 season 0 的 Volume B、Volume C 日期记录为 2014-06-20、2014-06-25，与 Bangumi及发行资料不一致；但标题、三部结构和版本信息一致，判断为 TMDB 日期元数据错误，不改变 episode 2–4 的范围。",
+    "evidence": "codex: 确认对应TMDB 56355第0季第2至4集。2014年版本、三部OVA结构、漫画附赠卷号及A/B/C标题逐项一致，制作与改编内容相符；第1集属于2009年另一部OVA，故不纳入。三话使用章节ID逐一映射到特别篇季。\n\nhttps://bgm.tv/subject/99810 (page): 条目为2014年全3话OAD，原作畑健二郎、导演植田洋一、脚本猪爪慎一、动画制作Manglobe；内容为漫画名作回的动画化，分别捆绑第41、42、43卷特别版。\n\nhttps://bgm.tv/subject/99810/ep (page): 本篇依次为Vol.A、Vol.B、Vol.C，日期分别为2014-06-18、2014-09-18、2014-12-18。\n\nhttps://otakuma.net/archives/2014031804.html (page): 2014年新闻确认连载十周年推出三部新作OVA，随漫画第41至43卷特别版发行，改编此前未动画化的漫画篇章，首卷预定6月18日发行。\n\nhttps://www.themoviedb.org/tv/56355 (api_snapshot): 详情确认56355为《旋风管家》动画系列，包含四个常规季及特别篇季，制作公司包括Manglobe，角色与原作一致。\n\nhttps://www.themoviedb.org/tv/56355/season/0 (api_snapshot): 第0季完整集表共4集、1页：第1集为2009年泳装篇；第2、3、4集分别明确标注漫画第41、42、43卷特别版OVA Volume A、B、C。日期分别记为2014-06-18、2014-06-20、2014-06-25。\n\n备注：TMDB对Volume B、C记录的6月日期与Bangumi的9月、12月日期冲突，疑为日期元数据错误；明确的卷号和分卷标题足以确定逐集对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/99810; https://www.themoviedb.org/tv/56355; https://www.themoviedb.org/tv/56355/season/0; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://hayatenogotoku.fandom.com/wiki/Hayate_no_Gotoku!_10th_anniversary_OVA",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/99810; https://bgm.tv/subject/99810/ep; https://otakuma.net/archives/2014031804.html; https://www.themoviedb.org/tv/56355; https://www.themoviedb.org/tv/56355/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

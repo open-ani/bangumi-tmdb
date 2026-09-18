@@ -1,16 +1,136 @@
 {
   "anidbId": 11573,
   "bangumiId": 146402,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 568355,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 568356,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 568357,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 568358,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 568359,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 568360,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 568361,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 568362,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 568363,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 568364,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 568365,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 568366,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 609331,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 609332,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 609333,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 609334,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 609335,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 609336,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 609337,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 609338,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 609339,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 609340,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 77089 第1季全22集。年份、电视动画媒介、剧情、制作公司和导演一致。输入各章节虽无标题，但22个放送日期均与官方同号话记录一致；官方各话标题又与TMDB同号集逐一对应，因此可建立本篇1—22话的一对一连续规则。\n\nhttps://www.themoviedb.org/tv/77089 (api_snapshot): 日文原名与英文别名搜索均返回 TV 77089；详情显示首播于2015-10-11，由 BN Pictures 制作、村野佑太执导，剧情为风车响与布雷金收集舞蹈石，与官方作品资料一致。\n\nhttps://www.themoviedb.org/tv/77089/season/1 (api_snapshot): 已读取第1季完整集表，共22集、1页。各集标题与官方第1—22话逐一对应，仅有标点及个别文字差异；第4集起的日期存在偏差。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=381 (page): 官方作品资料确认本作为2015-10-11至2016-03-27播出的22话电视动画，列出制作人员、剧情及全部22话标题，支持作品身份和完整季范围。\n\nhttps://www.nagoyatv.com/bravebeats/story/backnumber/page/3/ (page): 官方放送列表第3页确认第1、2话分别于2015-10-11、2015-10-18播出，日期与输入及TMDB一致，标题也对应。\n\nhttps://www.nagoyatv.com/bravebeats/story/backnumber/page/2/ (page): 官方放送列表第2页提供第3—12话的日期和标题，日期逐项符合输入，标题逐项对应TMDB同号集；第4话实际为2015-11-08，第12话为2016-01-17。\n\nhttps://www.nagoyatv.com/bravebeats/story/backnumber/ (page): 官方放送列表第1页提供第13—22话的日期和标题，日期逐项符合输入，标题逐项对应TMDB同号集；第22话实际播出日为2016-03-27。\n\n备注：TMDB第4—11集日期比官方早7天，第12—22集早21天，详情中的完结日期也因此偏早；映射依据官方日期与集标题交叉确认，不按这些错误日期错位匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/146402; https://www.themoviedb.org/tv/77089; https://www.themoviedb.org/tv/77089/season/1; https://www.sunrise-inc.co.jp/work/detail.php?cid=381; https://www.nagoyatv.com/bravebeats/story/backnumber/page/3/; https://www.nagoyatv.com/bravebeats/story/backnumber/page/2/; https://www.nagoyatv.com/bravebeats/story/backnumber/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77089
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,26 +1,142 @@
 {
   "anidbId": 17127,
   "bangumiId": 365297,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1090966,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1090967,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1090968,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1090969,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1090970,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1090971,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1090972,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1090973,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1090974,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1090975,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1090976,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1093818,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1094283,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1157989,
+      "sort": 12,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1094283,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 155241,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1093818,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 155241,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1157989,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 155241,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2022 年 TV 动画《じゃんたま PONG☆》，正篇 11 集；TMDB TV 155241 的第 1 季为 2022 年、11 集，逐集标题与日期均和 Bangumi 正篇完全对应，因此采用第 1 季完整范围。Bangumi 同一主体还列有 3 个特别篇，TMDB 主页面明确列出第 0 季“特別編”且为 3 集，故一并映射第 0 季完整范围。TMDB 第 2 季是《じゃんたま カン！！》，对应另一个 Bangumi subject 473805，不纳入本条目。\n\nhttps://bgm.tv/subject/365297 (page): Bangumi 将该条目标为 TV，标题为《雀魂 PONG☆》，正篇 11 集，放送时间为 2022-04-08 至 2022-06-17；章节中另列 SP、00、01、12 等特别篇，并关联续作《じゃんたま カン！！》。\n\nhttps://mahjongsoul-pong.jp/ (page): 官方页面确认这是《TVアニメ じゃんたま PONG☆》，列出第 1 至第 11 话以及第 0 话和 WEB 限定特别话。\n\nhttps://www.themoviedb.org/tv/155241 (api_snapshot): TMDB API 快照显示 TV 155241 的首播日期为 2022-04-08，并列出第 0 季“特別編”3 集、第 1 季“シーズン1”11 集和第 2 季《じゃんたま カン！！》13 集。\n\nhttps://www.themoviedb.org/tv/155241/season/1 (api_snapshot): TMDB 第 1 季包含 11 集，标题和日期从“雀荘・魂天神社”2022-04-08 到“一姫覚醒にゃ！”2022-06-17，逐项对应 Bangumi 正篇 11 集。\n\nhttps://mahjongsoul-pong.jp/staffcast.html (page): 官方制作信息显示原作 CATFOOD STUDIO、导演/系列构成/脚本森井ケンシロウ、动画制作 SCOOTER FILMS，与 Bangumi 条目的制作信息一致。\n\n备注：本次 AniDB 17127 页面抓取返回 403，未能直接读取 AniDB 条目正文；因此 AniDB ID 本身未取得独立页面级确认，但 Bangumi、官方页面和 TMDB 的标题、年份、制作及逐集信息均一致。；输入未附 TMDB 第 0 季的逐集详情快照，因此第 0 季只能依据 TMDB 主页面明确的季号/名称/3 集信息与 Bangumi 的 3 个特别篇进行整体映射，未能逐一核对特别篇标题和日期。",
+    "evidence": "codex: 作品年份、电视短篇形式、剧情、制作信息及11集正篇的逐集标题和日期均一致，确认对应 TMDB 155241 第1季。三个特别篇也已逐项核实，按章节ID映射至第0季；其顺序与Bangumi sort不同，使用overrides。2024年续作第2季不纳入。\n\nhttps://bgm.tv/subject/365297 (page): Bangumi 确认本作是2022年电视短篇动画，正篇11集，4月8日至6月17日播出；剧情围绕一姬与魂天神社的雀士展开。\n\nhttps://mahjongsoul-pong.jp/staffcast.html (page): 官方制作名单列出原作 CATFOOD STUDIO、导演森井ケンシロウ、动画制作 SCOOTER FILMS，与 Bangumi 信息一致。\n\nhttps://www.themoviedb.org/tv/155241 (api_snapshot): 实际读取 TV 155241 详情：原名、2022-04-08首播日期、魂天神社剧情及制作公司相符；第1季11集，第0季3集；第2季为2024年的续作《じゃんたま カン！！》，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/155241/season/1 (api_snapshot): 第1季集表共11集、仅1页。逐集标题与日期全部对应输入中的正篇1—11，从2022-04-08《雀荘・魂天神社》至2022-06-17《一姫覚醒にゃ！》。\n\nhttps://www.themoviedb.org/tv/155241/season/0 (api_snapshot): 第0季日文、英文集表均已读取，共3集、仅1页：E1为WEB限定特别话，2022-03-29；E2为第0话，2022-04-01；E3英文明确为蓝光限定集，2022-10-26。分别对应 Bangumi 1093818、1094283、1157989。\n\nhttps://mahjongsoul-pong.jp/movie.html (page): 官方视频列表将第0话与WEB限定特别话分别列出，确认二者是独立短篇。\n\nhttps://bgm.tv/ep/1094283 (page): Bangumi 将1094283标为SP.0放送直前特番，首播2022-04-01、时长1分30秒，与TMDB第0话日期及短篇形式相符。\n\nhttps://mahjongsoul-pong.jp/bluray.html (page): 官方蓝光发行日期为2022-10-26，特典分别包括WEB公开话及蓝光限定未放送话，支持区分两个特别篇。\n\nhttps://bgm.tv/ep/1157989 (page): Bangumi 1157989明确为蓝光限定未放送话，日期2022-10-26、时长2分02秒，与TMDB S00E03英文标题、日期和时长相符。\n\n备注：TMDB S00E03日文标题仅为通用的“第3話”，但英文标题明确为蓝光限定集，且发行日期、时长与Bangumi及官方资料相符，不影响对应判定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/365297; https://mahjongsoul-pong.jp/; https://www.themoviedb.org/tv/155241; https://www.themoviedb.org/tv/155241/season/1; https://mahjongsoul-pong.jp/staffcast.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/365297; https://mahjongsoul-pong.jp/staffcast.html; https://www.themoviedb.org/tv/155241; https://www.themoviedb.org/tv/155241/season/1; https://www.themoviedb.org/tv/155241/season/0; https://mahjongsoul-pong.jp/movie.html; https://bgm.tv/ep/1094283; https://mahjongsoul-pong.jp/bluray.html; https://bgm.tv/ep/1157989",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 155241
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 155241,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     },
     {
+      "episode": 1,
+      "episodeEnd": 3,
       "id": 155241,
-      "season": 1,
+      "season": 0,
       "type": "tv"
     }
   ]

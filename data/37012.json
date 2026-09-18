@@ -1,16 +1,86 @@
 {
   "anidbId": 1161,
   "bangumiId": 37012,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 157024,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 157025,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 157026,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 157027,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 157028,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 157029,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 157030,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 157031,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 157032,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 157033,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 157034,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 157035,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目为《機甲猟兵メロウリンク》OVA，共12集，1988-11-21开始。TMDB 44631同名、同日开播，剧情与该OVA主体一致；第1季明确包含12集，标题、日期与Bangumi逐集对应，因此采用完整第1季。\n\nhttps://bgm.tv/subject/37012 (page): Bangumi 条目为《機甲猟兵メロウリンク》OVA，共12个正篇。\n\nhttps://www.themoviedb.org/tv/44631 (api_snapshot): TMDB TV 44631同名、首播日为1988-11-21，简介描述Mellowlink的独立复仇故事，并列出12集。\n\nhttps://www.themoviedb.org/tv/44631/season/1 (api_snapshot): TMDB第1季明确为12集；1至12集标题和日期与Bangumi正篇逐集对应。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目为《機甲猟兵メロウリンク》OVA，共12集，1988-11-21开始。TMDB 44631同名、同日开播，剧情与该OVA主体一致；第1季明确包含12集，标题、日期与Bangumi逐集对应，因此采用完整第1季。\n\nhttps://bgm.tv/subject/37012 (page): Bangumi 条目为《機甲猟兵メロウリンク》OVA，共12个正篇。\n\nhttps://www.themoviedb.org/tv/44631 (api_snapshot): TMDB TV 44631同名、首播日为1988-11-21，简介描述Mellowlink的独立复仇故事，并列出12集。\n\nhttps://www.themoviedb.org/tv/44631/season/1 (api_snapshot): TMDB第1季明确为12集；1至12集标题和日期与Bangumi正篇逐集对应。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，两边日期均按集序递增，12 对日期中 10 对在 ±1 天内，其余相差不超过 7 天。",
     "method": "codex",
     "source": "https://bgm.tv/subject/37012; https://www.themoviedb.org/tv/44631; https://www.themoviedb.org/tv/44631/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44631
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

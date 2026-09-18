@@ -1,15 +1,106 @@
 {
+  "anidbId": 16690,
   "bangumiId": 304669,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 945188,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 945189,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 945190,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 945191,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 945192,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 945193,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 945194,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 945195,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 945196,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 945197,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 945198,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 945199,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 945200,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 945201,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 949035,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 969439,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 匹配 TMDB TV 291328 的第3季。标题、2020-04-06开播日期、剧情（《梦幻西游》手游同人、重走取经路）、WEB/ONA短篇媒介及制作人员信息一致；TMDB第3季实际季表的14个标题逐集对应 Bangumi 的14集正片。TMDB同名条目195756的第3季只有12集，缺少后两集，故排除。Bangumi总数16包含两集番外，Bilibili将其与14集正片分开列出；TMDB第3季不含番外，未强行并入。\n\nhttps://api.bgm.tv/v0/subjects/304669 (api_snapshot): Bangumi fresh API记录：WEB动画，2020-04-06，14集正片、16集总数；剧情为《梦幻西游》手游同人小剧场，导演赵真，制作方为网易与厦门绘梦想动漫科技有限公司。\n\nhttps://www.themoviedb.org/tv/291328 (api_snapshot): TMDB详情：原名/名称均为“梦幻书院”，首播2019-03-30；包含第3季（2020-04-06、14集），简介与Bangumi的《梦幻西游》同人及重走取经路内容一致，并标有动态漫别名。\n\nhttps://www.themoviedb.org/tv/291328/season/3 (api_snapshot): TMDB实际第3季季表共14集，标题从“我们也有护照啦”到“地藏王！出来打一架！”与Bangumi的14集正片逐集对应，total_pages=1。\n\nhttps://www.bilibili.com/bangumi/media/md28228364 (page): Bilibili页面确认《梦幻书院 第三季》于2020-04-06开播、全14话；搜索摘要还列出网易出品、赵真导演及与Bangumi一致的制作人员，并将两集番外单独列在正片之外。\n\nhttps://animeschedule.net/anime/menghuan-shuyuan-3 (page): 独立作品资料将其列为2020年中国ONA，14集、每集约2分钟，别名为Menghuan Shuyuan 3 / Dream Academy 3，制作方为Painting Dream。\n\nhttps://www.themoviedb.org/tv/195756/season/3 (api_snapshot): 同名TMDB条目195756的实际第3季仅有12集，季表在“粽子真好吃！”后结束，不能覆盖Bangumi的14集正片。\n\n备注：TMDB 291328季表的播出日期与Bangumi在第4集之后存在一周左右的排期差异，但集标题、顺序、剧情和总集数一致，判断为数据源排期差异。；两集Bangumi番外未在TMDB 291328第3季中出现，TMDB对其没有可确认的独立条目；本推荐仅覆盖该Bangumi subject的14集正片主体。",
+    "evidence": "codex: 确认对应 TMDB 291328 第3季。年份、首播日、取经游学剧情、短篇动画媒介及播放平台制作资料一致；实际季表14个标题和顺序与 Bangumi 正片逐集吻合，因此建立正片1—14的连续映射。日期差异不影响标题所确定的对应关系。两集番外保留未映射。\n\nhttps://www.themoviedb.org/tv/291328 (api_snapshot): 以中文原名搜索获得两个同名候选。291328 的详情将第三季列为2020-04-06开播、14集；第三季剧情为《梦幻西游》手游角色重走取经路，与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/291328/season/3 (api_snapshot): 第三季实际集表共14集，total_pages=1；全部标题及顺序逐集对应 Bangumi 正片1—14。前4集日期一致，第5—14集日期均比 Bangumi 早7天。季表未混入两集番外。\n\nhttps://www.bilibili.com/bangumi/media/md28228364 (search_snippet): 播放平台资料确认本季为14集短篇动画，导演赵真，网易出品、厦门绘梦想制作，剧情及制作人员与输入一致。\n\nhttps://www.bilibili.com/bangumi/media/md28228364 (page): 播放平台页面确认《梦幻书院 第三季》2020年4月6日开播，已完结、全14话。\n\nhttps://bangumi.tv/subject/304669/ep (search_snippet): Bangumi 章节表列出14集正片及两集特别篇；5月4日为复学防疫番外，正片第5集为5月11日，第14集为7月13日。\n\nhttps://www.themoviedb.org/tv/195756/season/3 (api_snapshot): 另一同名候选195756的第三季实际仅12集，标题对应本季前12集，缺少最后两集，不能覆盖完整正片。\n\nhttps://www.themoviedb.org/tv/195756/season/0 (api_snapshot): 195756第0季共17集，为2021年呼吸健康科普及2022年国家安全篇，未发现本 subject 的两集2020年番外。\n\n备注：TMDB正片第5—14集日期均比Bangumi早7天，可能未计入5月4日番外造成的正片排期间隔；原因未获独立证实。；Bangumi特别篇949035、969439尚无已确认的TMDB对应，不能据此断言TMDB未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/304669; https://api.bgm.tv/v0/subjects/304669; https://www.themoviedb.org/tv/291328; https://www.themoviedb.org/tv/291328/season/3; https://www.bilibili.com/bangumi/media/md28228364; https://animeschedule.net/anime/menghuan-shuyuan-3; https://www.themoviedb.org/tv/195756/season/3",
-    "verifiedAt": "2026-09-08T21:59:58.985Z"
+    "source": "https://bgm.tv/subject/304669; https://www.themoviedb.org/tv/291328; https://www.themoviedb.org/tv/291328/season/3; https://www.bilibili.com/bangumi/media/md28228364; https://bangumi.tv/subject/304669/ep; https://www.themoviedb.org/tv/195756/season/3; https://www.themoviedb.org/tv/195756/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 291328
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

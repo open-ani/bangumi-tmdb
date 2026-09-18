@@ -1,15 +1,156 @@
 {
+  "anidbId": 16769,
   "bangumiId": 240640,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 783734,
+      "sort": 105,
+      "type": 0
+    },
+    {
+      "id": 783735,
+      "sort": 106,
+      "type": 0
+    },
+    {
+      "id": 783736,
+      "sort": 107,
+      "type": 0
+    },
+    {
+      "id": 783737,
+      "sort": 108,
+      "type": 0
+    },
+    {
+      "id": 783738,
+      "sort": 109,
+      "type": 0
+    },
+    {
+      "id": 783739,
+      "sort": 110,
+      "type": 0
+    },
+    {
+      "id": 783740,
+      "sort": 111,
+      "type": 0
+    },
+    {
+      "id": 783741,
+      "sort": 112,
+      "type": 0
+    },
+    {
+      "id": 783742,
+      "sort": 113,
+      "type": 0
+    },
+    {
+      "id": 783743,
+      "sort": 114,
+      "type": 0
+    },
+    {
+      "id": 783744,
+      "sort": 115,
+      "type": 0
+    },
+    {
+      "id": 783745,
+      "sort": 116,
+      "type": 0
+    },
+    {
+      "id": 783746,
+      "sort": 117,
+      "type": 0
+    },
+    {
+      "id": 783747,
+      "sort": 118,
+      "type": 0
+    },
+    {
+      "id": 783748,
+      "sort": 119,
+      "type": 0
+    },
+    {
+      "id": 783749,
+      "sort": 120,
+      "type": 0
+    },
+    {
+      "id": 783750,
+      "sort": 121,
+      "type": 0
+    },
+    {
+      "id": 783751,
+      "sort": 122,
+      "type": 0
+    },
+    {
+      "id": 783752,
+      "sort": 123,
+      "type": 0
+    },
+    {
+      "id": 783753,
+      "sort": 124,
+      "type": 0
+    },
+    {
+      "id": 783754,
+      "sort": 125,
+      "type": 0
+    },
+    {
+      "id": 783755,
+      "sort": 126,
+      "type": 0
+    },
+    {
+      "id": 783756,
+      "sort": 127,
+      "type": 0
+    },
+    {
+      "id": 783757,
+      "sort": 128,
+      "type": 0
+    },
+    {
+      "id": 783758,
+      "sort": 129,
+      "type": 0
+    },
+    {
+      "id": 783759,
+      "sort": 130,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 112191《精灵梦叶罗丽》是同一主系列：首播年份为2013，导演/编剧均为金今，简介中的叶罗丽仙境、曼多拉、舒言、冰公主等剧情与 Bangumi 第5季一致。其第5季明确标为2017-06-08、26集，且集名从“你会选择相信人类吗”至“降下冰雪吧”与 Bangumi 该 subject 的 sort 105–130 全部对应，因此可映射为完整第5季，不需要限定集数范围。\n\nhttps://api.bgm.tv/v0/subjects/240640 (api_snapshot): Bangumi subject 为《精灵梦叶罗丽 第五季》，2017-06-08，26集，导演/编剧金今；集名对应 sort 105–130。\n\nhttps://www.themoviedb.org/tv/112191 (api_snapshot): TMDB 112191 为 TV《精灵梦叶罗丽》，首播2013-01-01，导演和编剧均为金今；简介及角色与该系列一致，并列出11个季度。\n\nhttps://www.themoviedb.org/tv/112191/season/5 (api_snapshot): TMDB 第5季明确为《第 5 季》，首播2017-06-08，共26集；集名、剧情及顺序与 Bangumi subject 的26集一致。",
+    "evidence": "codex: 确认为TMDB 112191第5季整季。首播日期、导演与编剧、26集总量以及全部逐集标题和顺序一致，支持将Bangumi累计编号105–130映射到S05E01–E26。输入简介与TMDB第4季简介一致，疑似沿用前季简介；第5季完整标题链和首播日期足以明确本条目的实际范围。\n\nhttps://www.themoviedb.org/tv/112191 (api_snapshot): TMDB 112191 为中文 TV 动画《精灵梦叶罗丽》，主系列始于2013年，导演、编剧均为金今；角色和仙境设定一致。第5季列为2017-06-08首播、26集，与输入的年份、制作人员和集数吻合。\n\nhttps://www.themoviedb.org/tv/112191/season/5 (api_snapshot): 实际读取第5季完整集表，total_pages=1，共26集，日期为2017-06-08至2017-11-30。逐一比对后，Bangumi sort 105–130的标题与TMDB第1–26集顺序全部一致，仅第12集标题存在空格差异；首尾分别为“你会选择相信人类吗”和“降下冰雪吧”。\n\n备注：Bangumi逐集放送日期为空，无法逐集交叉验证日期；对应关系由全部26集标题、顺序、集数及季度首播日期共同确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/240640; https://api.bgm.tv/v0/subjects/240640; https://www.themoviedb.org/tv/112191; https://www.themoviedb.org/tv/112191/season/5",
-    "verifiedAt": "2026-09-08T21:16:58.972Z"
+    "source": "https://bgm.tv/subject/240640; https://www.themoviedb.org/tv/112191; https://www.themoviedb.org/tv/112191/season/5",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 130,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 105,
+      "tmdbId": 112191
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

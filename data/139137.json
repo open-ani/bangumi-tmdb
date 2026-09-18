@@ -1,16 +1,151 @@
 {
   "anidbId": 11344,
   "bangumiId": 139137,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 664645,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 664646,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 664647,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 664648,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 664649,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 664650,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 664651,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 664652,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 664653,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 664654,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 664655,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 664656,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 687066,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 687067,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 687068,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 687069,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 687070,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 687071,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 687072,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 687073,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 687074,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 687075,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 687076,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 687077,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 687078,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《クラシカロイド》第一系列：TV、2016-10-08 开播、25 集，并与第二系列另立关联条目。Anime-Lists 映射 AniDB 11344（Classicaloid）至 TMDB TV 68271 第1季；TMDB 主页面显示该剧共两季、每季25集，TMDB 第1季的完整剧集标题、首播日期和剧情与 Bangumi 这25集及官方故事页面逐集对应。因此主体应映射为 TMDB 68271 的完整第1季，不包含第2季。\n\nhttps://bgm.tv/subject/139137 (page): Bangumi 将条目标为 TV，话数25，首播2016-10-08；章节为第1至25话，末话日期为2017-04-01，并关联到独立的《クラシカロイド 第2シリーズ》。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确记录 anidbid=\"11344\"、名称 Classicaloid、tmdbtv=\"68271\"、tmdbseason=\"1\"，且无偏移量。\n\nhttps://www.themoviedb.org/tv/68271 (api_snapshot): TMDB TV 68271 名称为クラシカロイド，首播2016-10-08，共50集，分为第1季和第2季，各25集。\n\nhttps://www.themoviedb.org/tv/68271/season/1 (api_snapshot): TMDB 第1季明确为season_number 1、25集、首播2016-10-08；完整剧集标题与 Bangumi 第1至25话逐项对应，包含第23至25话的终局内容。\n\nhttps://www.classicaloid.net/story/series1-3.html (page): 官方动画网站将这些内容列为第1系列第17至25话，标题和剧情与 Bangumi/TMDB 第1季后半段对应，确认不是第2系列或总集篇。\n\nhttps://www.animecharactersdatabase.com/linktodbs.php?id=105370 (search_snippet): 公开交叉链接将 ClassicaLoid 指向 AniDB anime/11344，与 Anime-Lists 的 AniDB 11344 映射名称一致。\n\n备注：TMDB 快照中第1季第5集的 air_date 为2016-10-06，而 Bangumi 和其他资料为2016-11-05；这是单集日期数据不一致，不影响标题、剧情、25集范围及作品身份判断。",
+    "evidence": "codex: 年份、电视动画媒介、制作公司、人物剧情及官方第1系列范围一致。完整季表确认Bangumi本篇1—25话与TMDB 68271第1季1—25集逐集同序对应，整季没有混入第2系列，可建立连续规则。\n\nhttps://www.themoviedb.org/tv/68271 (api_snapshot): 以日文原名搜索后读取作品详情：TMDB 68271 为2016年10月8日首播的电视动画，制作公司包含NHK、BN Pictures；歌苗、奏助与贝多芬、莫扎特通过音乐引发奇异事件的剧情符合输入。全剧分两季，每季25集。\n\nhttps://www.themoviedb.org/tv/68271/season/1 (api_snapshot): 已读取第1季完整25集，total_pages=1。逐集标题均与输入对应，仅有注音、全半角等文字差异；23集日期一致，首末集分别为2016-10-08、2017-04-01。第5、16集日期存在差异，但标题及官方分集内容支持原顺序对应。\n\nhttps://www.classicaloid.net/story/series1-1.html (page): 官方第1系列故事页列出第1至8话，标题和剧情与TMDB对应，包含第5话追求理想饺子及歌苗父亲来电的故事。\n\nhttps://www.classicaloid.net/story/series1-2.html (page): 官方第1系列第9至16话与TMDB标题和剧情对应；第16话明确是贝多芬、莫扎特为支付房租尝试工作的故事。\n\nhttps://www.classicaloid.net/story/series1-3.html (page): 官方将第17至25话列入第1系列，末段依次为八音世界前后篇及来自宇宙的安可，与输入及TMDB第1季末段一致，页面另设第2系列入口。\n\n备注：第5话日期：输入为2016-11-05，TMDB为2016-10-06；第16话输入为2017-01-29，TMDB为2017-01-28。官方故事页未提供首播日期，尚未独立裁定正确日期；集标题、剧情及系列编号一致，差异不影响逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/139137; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/68271; https://www.themoviedb.org/tv/68271/season/1; https://www.classicaloid.net/story/series1-3.html; https://www.animecharactersdatabase.com/linktodbs.php?id=105370",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/139137; https://www.themoviedb.org/tv/68271; https://www.themoviedb.org/tv/68271/season/1; https://www.classicaloid.net/story/series1-1.html; https://www.classicaloid.net/story/series1-2.html; https://www.classicaloid.net/story/series1-3.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68271
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

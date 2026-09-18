@@ -1,14 +1,64 @@
 {
   "anidbId": 16417,
   "bangumiId": 349519,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1055221,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1055222,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1055223,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1055221,
+      "targets": [
+        {
+          "episode": 10,
+          "id": 44318,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1055222,
+      "targets": [
+        {
+          "episode": 11,
+          "id": 44318,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1055223,
+      "targets": [
+        {
+          "episode": 12,
+          "id": 44318,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "S0E10–12 的日文标题逐字对应茅花流し、宵闇、星迎え三章；假冒新选组及酒井事件的故事对应 2021–2022 OVA。\n154842 是真人剧，不是这个 OVA；发行与配信日期不同。\nhttps://api.bgm.tv/v0/subjects/349519\nhttps://www.themoviedb.org/tv/44318/season/0",
+    "evidence": "codex: 三话标题、章节顺序、剧情及官方排期均确认对应 TMDB 44318 第0季第10—12集。Bangumi 使用光盘发售日，TMDB 使用 U-NEXT 先行配信日，日期差异已有官网解释。该范围明确区别于旧版《雪華録》，旧映射经独立核验成立。\n\nhttps://www.nbcuni.co.jp/anime/hakuoki/ (page): 官网确认本作为三章动画，由ヤマサキオサム执导、Studio DEEN制作；假冒新选组、千鹤与酒井失踪的剧情与输入一致。三章标题及光盘发售日分别对应 Bangumi 的三话；先行配信日依次为2021-11-13、2021-12-11、2022-01-29。\n\nhttps://www.themoviedb.org/tv/44318 (api_snapshot): TMDB 44318 为《薄桜鬼》动画系列，导演及千鹤、土方的声优与官网一致，包含第0季。系列起始年份为2010年，不能据此直接映射到第1季。\n\nhttps://www.themoviedb.org/tv/44318/season/0 (api_snapshot): 第0季共12集，已读取全部集表（total_pages=1）。第10—12集依次为「第一章 茅花流し、雲隠れの刻」「第二章 宵闇、夕顔別当の燈」「第三章 星迎え、雲漢の調べ」，日期逐一符合官网先行配信日期，剧情亦一致；第4—9集则为2011—2012年的《雪華録》。\n\n备注：线索中的 TMDB 138546 详情接口返回404，无法验证该旧候选；不影响已通过实际集表确认的映射。",
     "method": "codex",
-    "source": "manual-review-sol-remaining-51",
-    "verifiedAt": "2026-09-08T18:08:25.821Z"
+    "source": "https://bgm.tv/subject/349519; https://www.nbcuni.co.jp/anime/hakuoki/; https://www.themoviedb.org/tv/44318; https://www.themoviedb.org/tv/44318/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

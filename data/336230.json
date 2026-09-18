@@ -1,13 +1,64 @@
 {
   "bangumiId": 336230,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1030767,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1030768,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1030769,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1030770,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1030771,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1030772,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1030773,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1030774,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1030775,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1030776,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 可确认 subject 对应 TMDB 74204 第一季整季：原名、中文别名、动画媒介、首播日期和10集范围相符，官方剧情及主创资料也支持该版本识别。Bangumi 输入的全部章节均缺少标题和播出日期，且在线页面访问失败，无法完成章节级逐集比对，因此只提交季级映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 为英语动画《Big Mouth》，首播日期为 2017-09-29，别名包含“大嘴巴”“青春無密語”；剧情围绕青少年青春期经历，简介及配音阵容包含 Nick Kroll、John Mulaney，与 Netflix 官方介绍一致。\n\nhttps://www.themoviedb.org/tv/74204/season/1 (api_snapshot): 已读取第一季完整集表（total_pages=1）：共10集，集号1—10，日期均为2017-09-29，首集为 Ejaculation，末集为 The Pornscape；该季范围与输入中的第一季首播日期及10话总量一致。\n\nhttps://about.netflix.com/en/news/nick-krolls-big-mouth-coming-only-to-netflix (search_snippet): Netflix 官方公告确认本作为2017年推出的10集、每集约半小时的青春期题材动画喜剧，创作者包括 Nick Kroll、Andrew Goldberg、Mark Levin 和 Jennifer Flackett。\n\nhttps://en.wikipedia.org/wiki/Big_Mouth_season_1 (search_snippet): 第一季资料确认其为美国成人成长题材动画，10集于2017-09-29在 Netflix 首播。\n\n备注：Bangumi sort 1—10 与 TMDB 第1—10集的逐集关系尚缺章节标题或日期佐证；需补充 Bangumi 章节资料后才能建立 rules，不能仅凭编号位置推定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/336230; https://www.themoviedb.org/tv/74204; https://www.themoviedb.org/tv/74204/season/1; https://about.netflix.com/en/news/nick-krolls-big-mouth-coming-only-to-netflix; https://en.wikipedia.org/wiki/Big_Mouth_season_1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

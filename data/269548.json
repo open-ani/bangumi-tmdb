@@ -1,15 +1,146 @@
 {
+  "anidbId": 14657,
   "bangumiId": 269548,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 850276,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850277,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850278,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 850279,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 850280,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 850281,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 850282,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 850283,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 850284,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 850285,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 850286,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 850287,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 856440,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 856441,
+      "sort": 2,
+      "type": 4
+    },
+    {
+      "id": 856442,
+      "sort": 1,
+      "type": 4
+    },
+    {
+      "id": 875320,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 876485,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 877534,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 879953,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 944093,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 944094,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 944095,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 944512,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 944513,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 126898 的原名、剧情、2019-01-13 开播日期与《请吃红小豆吧！第二季》一致；TMDB 明确列出第2季且季表实际包含16集，每集约3分钟，正好覆盖 Bangumi 主体的16个正片集。Bangumi 同时列出导演林春柳、监制朱芷仪、编剧朱芷仪/林春柳及红小豆动画、九五年动画等制作信息；Bilibili 也将该版本标为2019年、已完结、全16话。Bangumi 中的6个SP不属于该主体正片季，因此不纳入范围。\n\nhttps://api.bgm.tv/v0/subjects/269548 (api_snapshot): Bangumi 原始资料：WEB动画，2019-01-13，正片16集；导演林春柳，监制朱芷仪，脚本朱芷仪/林春柳；剧情为红小豆在各种甜点和食品中工作的短篇日常。\n\nhttps://www.themoviedb.org/tv/126898 (api_snapshot): TMDB 详情：作品名《请吃红小豆吧！》，首播2018-07-05；同一TV作品明确包含第2季，第2季日期为2019-01-13、集数16，剧情与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/126898/season/2 (api_snapshot): TMDB第2季实际季表：episodeCount为16，集号连续1至16，首播日期从2019-01-13至2019-04-21，标题与 Bangumi 正片集逐一对应。\n\nhttps://bangumi.tv/subject/269548 (page): Bangumi页面确认该主体为WEB、16话、2019-01-13开播，并列出制作方、动画制作及前传/续集/番外关系。\n\nhttps://www.bilibili.com/bangumi/play/ss26222 (page): 官方播放页将其标为《请吃红小豆吧！第二季》，2019年、已完结、全16话，并使用与 Bangumi/TMDB 相同的剧情简介。",
+    "evidence": "codex: 确认对应 TMDB 126898 第2季整季。本作是2019年的16集网络动画第二季；官方首播日期、剧情、集数与TMDB一致，16个本篇标题及顺序全部吻合，足以建立本篇1—16到S02E01—E16的连续映射。\n\nhttps://www.themoviedb.org/tv/126898 (api_snapshot): TMDB 126898 为中文系列《请吃红小豆吧！》，首播于2018-07-05；第二季明确标注2019-01-13开播、16集，角色与甜点中工作的剧情设定与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/126898/season/2 (api_snapshot): 第二季实际集表共16集、仅1页。去除集号前缀和空格后，全部标题与 Bangumi 本篇1—16逐一一致，顺序相同。前两集日期一致，后续日期存在差异。\n\nhttps://www.bilibili.com/bangumi/media/md4314362/ (page): 官方页面确认《请吃红小豆吧！第二季》于2019-01-13开播，已完结，全16话。\n\nhttps://bangumi.tv/subject/269548 (page): Bangumi 标为WEB动画，16话；剧情与TMDB第二季一致，并将第一季、第三季和《外传 莫相忘》列为独立关联条目。\n\nhttps://bangumi.tv/subject/269548/persons?group=position (page): 制作人员页确认导演林春柳，脚本朱芷仪、林春柳，监制朱芷仪，与输入的制作信息一致。\n\nhttps://bangumi.tv/subject/269548/ep (page): 章节页列出16个本篇、6个SP及2个预告；本篇标题与TMDB第二季逐集对应。\n\nhttps://www.themoviedb.org/tv/126898/season/0 (api_snapshot): 第0季实际共4集，分别为《莫相忘》三集及2023年的《0.5季番外：一根筷子，一个朋友》，不对应本 subject 的6个SP或2个预告。\n\n备注：日期并非逐集完全一致：TMDB第3—12集比Bangumi晚3天，第13、14、16集早4天，第15集早5天。差异原因未确认；全部标题、顺序及总集数一致。；TMDB详情的制作人员列表为空，无法从TMDB交叉核实导演及编剧。；6个SP和2个预告未找到可靠对应，保持未映射；不能据此断言TMDB未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/269548; https://api.bgm.tv/v0/subjects/269548; https://www.themoviedb.org/tv/126898; https://www.themoviedb.org/tv/126898/season/2; https://bangumi.tv/subject/269548; https://www.bilibili.com/bangumi/play/ss26222",
-    "verifiedAt": "2026-09-08T21:35:16.468Z"
+    "source": "https://bgm.tv/subject/269548; https://www.themoviedb.org/tv/126898; https://www.themoviedb.org/tv/126898/season/2; https://www.bilibili.com/bangumi/media/md4314362/; https://bangumi.tv/subject/269548; https://bangumi.tv/subject/269548/persons?group=position; https://bangumi.tv/subject/269548/ep; https://www.themoviedb.org/tv/126898/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 126898
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

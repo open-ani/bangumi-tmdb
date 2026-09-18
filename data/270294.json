@@ -1,21 +1,116 @@
 {
   "anidbId": 14571,
   "bangumiId": 270294,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 882311,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 882312,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 882313,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 882314,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 889377,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 889378,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 889379,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 889380,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 892502,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 892503,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 892504,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 892505,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 898199,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 898199,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 86823,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应2019年网络短篇动画《みるタイツ》。本篇12话的标题与日期逐集一致，对应TMDB 86823第1季第1至12集；蓝光特典由官方发行信息及TMDB标题、日期共同确认，对应第0季第1集。第1季存在额外未确认条目，因此不采用整季映射。\n\nhttps://www.themoviedb.org/tv/86823 (api_snapshot): 日文原名搜索命中 TV 86823；详情确认首播为2019-05-11，剧情、角色、导演小川優樹、编剧丸戸史明及制作公司TRUSS、横浜アニメーションラボ与本作一致。\n\nhttps://mirutights.jp/ (page): 官网确认原作よむ、导演小川優樹、人物设定日比野ゆかり，并列出与输入一致的第1至13话标题及三位女高中生的故事背景。\n\nhttps://www.themoviedb.org/tv/86823/season/1 (api_snapshot): 第1季集表共13条、仅1页；第1至12集的日文标题及日期逐集与Bangumi本篇完全一致，日期范围为2019-05-11至2019-07-27。额外第13集仅有泛称标题、日期2019-08-03，无简介，不能确认对应。\n\nhttps://mirutights.jp/product/blu-ray.html (page): 官方蓝光页面确认2019-08-23发售，收录本篇第1至12话，并将第13话「コスプレ撮影タイツ」列为影像特典。\n\nhttps://www.themoviedb.org/tv/86823/season/0 (api_snapshot): 第0季集表共1条、仅1页；第1集为第13话「コスプレ撮影タイツ」，日期2019-08-23，简介明确为蓝光影像特典，与Bangumi章节898199吻合。\n\n备注：TMDB第1季第13集仅标为「第13話」，日期2019-08-03与官方蓝光特典发行日期不符，身份未确认；本次不纳入映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/270294; https://www.themoviedb.org/tv/86823; https://mirutights.jp/; https://www.themoviedb.org/tv/86823/season/1; https://mirutights.jp/product/blu-ray.html; https://www.themoviedb.org/tv/86823/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 86823
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 86823,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 86823,
+      "season": 0,
       "type": "tv"
     }
   ]

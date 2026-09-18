@@ -1,20 +1,83 @@
 {
   "bangumiId": 270235,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 881907,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 881908,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 881909,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 881910,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 881911,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 881912,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 881913,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 881907,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 85000,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 该 subject 收录试播集及第1季六集正篇。作品年份、剧情形式、制作人员及逐集标题相互吻合；六集正篇标题、顺序和总量完全对应 TMDB 第1季，试播集则对应 S00E01。旧映射仅指向第0季，遗漏正篇且可能包含无关花絮，应改为第1季整季加 S00E01。\n\nhttps://www.themoviedb.org/tv/85000 (api_snapshot): TMDB 85000 为2018年开播的同名定格动画剧集，梦境逻辑式短篇故事简介与 Bangumi 一致；导演为 Vernon Chatman、Cat Solen，制作公司包括 PFFR、ShadowMachine，IMDb 标识为 tt6905458。\n\nhttps://www.themoviedb.org/tv/85000/season/1 (api_snapshot): 第1季集表共6集，已读取完整单页。六集标题及顺序逐一对应 Bangumi sort 1至6；TMDB 日期分别为2018-12-09、12-09、12-16、12-16、12-23、12-23。后四集比 Bangumi 所列日期早一天。\n\nhttps://www.themoviedb.org/tv/85000/season/0 (api_snapshot): 第0季集表共2集，已读取完整单页。第1集是 Chaos Beknownst，对应 Bangumi 章节881907；第2集为幕后制作花絮，不在此 subject 的七集范围内。试播集日期记为2018-05-13。\n\nhttps://www.adultswim.com/videos/the-shivering-truth (search_snippet): Adult Swim 官方节目页按第1季第1至6集列出与 Bangumi、TMDB 一致的六集标题及剧情，另列 Chaos Beknownst；幕后制作视频归入额外内容，支持区分试播集、正篇和花絮。\n\nhttps://en.wikipedia.org/wiki/The_Shivering_Truth (search_snippet): 资料将本作确认为 Vernon Chatman 创作、与 Cat Solen 共同执导的美国成人定格动画，并记载试播集于2018-05-22在 Adult Swim 网站发布，与 Bangumi 的试播集日期一致。\n\n备注：试播集日期存在来源差异：Bangumi及网络发布资料为2018-05-22，TMDB为2018-05-13；第1季后四集也存在一天日期差异。差异原因未完全核实，但标题、剧情、集数与官方集表足以确认逐集身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/270235; https://www.themoviedb.org/tv/85000; https://www.themoviedb.org/tv/85000/season/1; https://www.themoviedb.org/tv/85000/season/0; https://www.adultswim.com/videos/the-shivering-truth; https://en.wikipedia.org/wiki/The_Shivering_Truth",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 85000
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 85000,
       "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 85000,
+      "season": 1,
       "type": "tv"
     }
   ]

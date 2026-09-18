@@ -1,24 +1,37 @@
 {
   "anidbId": 9719,
   "bangumiId": 65601,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 247251,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 247251,
+      "targets": [
+        {
+          "id": 321026,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 subject 是 2013 年发行、全 1 话的《機動戦士ガンダムAGE MEMORY OF EDEN》OVA，而不是 49 话 TV 正篇。官方资料确认其以 TV 的阿塞姆篇以后故事为基础重新构成并加入新作画；官方配信资料明确采用前编、后编两部结构。TMDB ID 45835 的特别篇第 0 季恰有“MEMORY OF EDEN 前編”和“MEMORY OF EDEN 後編”两集，因此应映射为 season 0 的第 1–2 集。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=367 (page): SUNRISE 官方资料列出同名作品，发行日为 2013-07-26，话数为全 1 话，并给出与阿塞姆、哲哈特相关的剧情和制作信息。\n\nhttps://www.sunrise-inc.co.jp/work/topics.php?id=6549 (page): SUNRISE 官方说明该作是在 TV 系列阿塞姆篇以后故事基础上加入新作画并重新构成。\n\nhttps://www.b-ch.com/titles/4171/ (search_snippet): 万代频道说明该作品的配信影像为前编、后编两部构成。\n\nhttps://www.themoviedb.org/tv/45835 (api_snapshot): 提供的 TMDB API 快照确认 TV ID 45835 名为《機動戦士ガンダムAGE》，含 49 话正篇及 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/45835/season/0 (api_snapshot): 提供的 TMDB API 快照显示 season 0 有两集，标题分别为“MEMORY OF EDEN 前編”和“MEMORY OF EDEN 後編”。\n\n备注：TMDB 快照将两集日期记为 2013-07-25，与官方发行日 2013-07-26 相差一天；两集 runtime 均记为 24 分钟，也与官方全长 OVA 的常见约 150 分钟信息不一致，可能是平台切分或元数据问题。；AniDB 9719 的直接页面访问受限，未能独立读取 AniDB 关系记录；但其提供的别名与官方作品标题、年份和剧情一致。",
+    "evidence": "codex: 确认对应 TMDB movie 321026。它收录的是同一部 2013 年单话 OVA，发行日期、剧情、制作人员及完整作品范围均吻合。Bangumi 唯一章节 247251 对应整部作品。旧映射指向前后篇拆分记录；此次找到并核实了完整作品条目，因此采用单话对整部的映射。TMDB 的 movie 分类不表示本作曾在院线上映。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=367 (page): SUNRISE 官方确认本作于 2013-07-26 发售、全 1 话，导演为绵田慎也，编剧为木村畅；剧情围绕阿塞姆与泽哈特展开，与输入一致。\n\nhttps://www.b-ch.com/titles/4171/ (page): 万代频道将本作标为 2013 年原创录像动画，说明其重新编排 TV 阿塞姆篇以后的故事并加入超过 60 分钟新画面；配信版分为前篇、后篇。\n\nhttps://www.themoviedb.org/movie/321026 (api_snapshot): TMDB movie 321026 的原名、2013-07-26 日期、剧情、导演绵田慎也及编剧木村畅均与官方一致，时长为 150 分钟，收录完整作品。\n\nhttps://www.themoviedb.org/tv/45835 (api_snapshot): TMDB TV 45835 是 2011 年开播的《机动战士高达AGE》，正篇共 49 集，另设特别篇季。\n\nhttps://www.themoviedb.org/tv/45835/season/0 (api_snapshot): 第 0 季完整集表共 2 集，分别为 MEMORY OF EDEN 前篇、后篇；日期均记为 2013-07-25，时长各 24 分钟，与完整 OVA 的发行日期、时长存在差异。\n\n备注：旧映射所用特别篇记录的日期和时长存在元数据差异；本次采用独立完整作品条目，不依赖这些字段。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/65601; https://www.sunrise-inc.co.jp/work/detail.php?cid=367; https://www.sunrise-inc.co.jp/work/topics.php?id=6549; https://www.b-ch.com/titles/4171/; https://www.themoviedb.org/tv/45835; https://www.themoviedb.org/tv/45835/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/65601; https://www.sunrise-inc.co.jp/work/detail.php?cid=367; https://www.b-ch.com/titles/4171/; https://www.themoviedb.org/movie/321026; https://www.themoviedb.org/tv/45835; https://www.themoviedb.org/tv/45835/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 2,
-      "id": 45835,
-      "season": 0,
-      "type": "tv"
+      "id": 321026,
+      "type": "movie"
     }
   ]
 }

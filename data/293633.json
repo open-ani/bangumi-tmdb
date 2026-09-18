@@ -1,13 +1,114 @@
 {
   "bangumiId": 293633,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 912225,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 912226,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 912227,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 912228,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 912229,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 912230,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 912231,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 912232,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 912233,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 912234,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 912235,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 912236,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 912237,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 912238,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 912239,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 912240,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 912241,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 912242,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 912243,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 912244,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 85349《Amphibia》第一季整季。年份、剧情、制作公司、媒介与版本一致；20话与39集的差异来自完整播出单元和故事分段两种计数方式。Bangumi 各章节缺少标题及日期，无法验证具体章节顺序，因此只确认整季范围，保留逐集映射为空。\n\nhttps://bgm.tv/subject/293633 (page): Bangumi 标注本作为2019年的 TV 动画第一季，共20话，制作公司为 Disney Television Animation；剧情围绕 Anne Boonchuy 与青蛙 Sprig 展开。\n\nhttps://www.themoviedb.org/tv/85349 (api_snapshot): TMDB 85349 的原名、剧情、2019年首播年份、制作公司及中文别名均与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/85349/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共39集：前38集各11分钟，末集 Reunion 为22分钟；播出日期为2019年6月17日至7月18日。\n\nhttps://amphibia.fandom.com/wiki/Season_1 (search_snippet): 第一季共20个半小时单元、39个故事分段，与 TMDB 第一季的集数及长度结构吻合。首集于6月14日提前上线，电视首播为6月17日，解释了两个数据库的日期差异。\n\nhttps://www.disneyplus.com/whats-on/entity-b2cc4a87-ce26-4993-895d-6a725388fd45 (search_snippet): Disney+ 官方资料确认本作为2019年动画，创作者为 Matt Braly，主角、剧情及 Brenda Song 等配音阵容与 TMDB 一致。\n\nhttps://bgm.tv/subject/293633/ep (page): Bangumi 章节页只有第1至20话序号，各话标题和放送日期均为空，无法逐话核验其采用的编排顺序。\n\n备注：尚不能将 Bangumi 第1至19话直接按位置拆配为 TMDB 每两集，也不能仅凭末尾位置将第20话指定为 Reunion；需补充 Bangumi 章节标题、日期或明确的编排依据后再建立 overrides。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/293633; https://www.themoviedb.org/tv/85349; https://www.themoviedb.org/tv/85349/season/1; https://amphibia.fandom.com/wiki/Season_1; https://www.disneyplus.com/whats-on/entity-b2cc4a87-ce26-4993-895d-6a725388fd45; https://bgm.tv/subject/293633/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

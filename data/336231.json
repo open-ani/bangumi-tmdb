@@ -1,13 +1,64 @@
 {
   "bangumiId": 336231,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1030777,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1030778,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1030779,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1030780,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1030781,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1030782,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1030783,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1030784,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1030785,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1030786,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 74204 是 Netflix 的成人向剧情动画《Big Mouth》，首播于 2017-09-29，剧情为青少年朋友面对青春期与荷尔蒙怪物；制作公司包括 Titmouse，主要配音/创作团队与官方资料吻合。TMDB 第 2 季明确于 2018-10-05 播出，共 10 集，集号 1–10，与 Bangumi subject 的日期、媒介和 10 集完全对应，因此使用完整第 2 季。Bangumi 的 IMDb 提示 tt7555770 实际对应该季第 1 集，未将其误作剧集 ID。\n\nhttps://api.bgm.tv/v0/subjects/336231 (api_snapshot): Bangumi fresh API 标题为 Big Mouth Season 2，媒介为 TV，日期为 2018-10-05，共 10 集。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB TV 74204 原名 Big Mouth，首播 2017-09-29；简介为青少年朋友经历青春期的成人向喜剧动画；包含 8 个季度，制作公司包括 Titmouse，主要配音包括 Nick Kroll、John Mulaney、Jessi Klein、Maya Rudolph 等。\n\nhttps://www.themoviedb.org/tv/74204/season/2 (api_snapshot): TMDB 第 2 季日期为 2018-10-05，共 10 集，实际集号连续覆盖 1–10；各集日期均为 2018-10-05，剧情围绕 Nick、Andrew、Jessi 等角色的青春期经历。\n\nhttps://about.netflix.com/news/big-mouth-cross-country-farewell-tour (search_snippet): Netflix 官方资料将 Big Mouth 定义为成人动画喜剧，描述其青春期主题，并列出 Nick Kroll、Andrew Goldberg、Jennifer Flackett、Mark Levin 等共同创作人员。",
+    "evidence": "codex: 作品身份、动画媒介、青春期题材、制作及配音团队已交叉核实；第二季的发布日期和 10 集规模与 Bangumi 输入一致，可确认对应 TMDB 74204 完整第 2 季。Bangumi 各章节缺少标题和播出日期，无法逐集交叉比对，因此保留季级映射，rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 原名为 Big Mouth，首播于 2017-09-29，中文别名为《大嘴巴》。剧情围绕青少年青春期经历，制作公司包括 Titmouse，配音包括 Nick Kroll、John Mulaney、Jessi Klein，与 Netflix 官方作品资料一致。\n\nhttps://www.netflix.com/title/80117038 (page): Netflix 官方将该作归为成人动画及成长喜剧，简介描述青少年面对青春期变化；列出的创作者包括 Nick Kroll、Andrew Goldberg、Mark Levin，主演与 TMDB 一致。\n\nhttps://en.wikipedia.org/wiki/Big_Mouth_season_2 (search_snippet): 第二季资料明确记载：这是美国成人动画 Big Mouth 的第二季，共 10 集，于 2018-10-05 在 Netflix 发布，与输入的 Bangumi 季别、日期、媒介及集数吻合。\n\nhttps://www.themoviedb.org/tv/74204/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 10 集，集号连续为 1–10，所有集的日期均为 2018-10-05；首集为 Am I Normal?，末集为 The Department of Puberty。该季完整覆盖所核对的第二季范围。\n\n备注：Bangumi 输入中的 10 个章节均无标题及日期，本次访问 Bangumi 页面与 API 亦未成功读取内容；需补齐章节资料后才能建立有依据的逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/336231; https://api.bgm.tv/v0/subjects/336231; https://www.themoviedb.org/tv/74204; https://www.themoviedb.org/tv/74204/season/2; https://about.netflix.com/news/big-mouth-cross-country-farewell-tour",
-    "verifiedAt": "2026-09-08T22:56:27.505Z"
+    "source": "https://bgm.tv/subject/336231; https://www.themoviedb.org/tv/74204; https://www.netflix.com/title/80117038; https://en.wikipedia.org/wiki/Big_Mouth_season_2; https://www.themoviedb.org/tv/74204/season/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

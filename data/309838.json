@@ -1,16 +1,86 @@
 {
   "anidbId": 16490,
   "bangumiId": 309838,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1046391,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1046392,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1046393,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1046394,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1046395,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1046396,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1046397,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1046398,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1046399,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1046400,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1046401,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1046402,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《全职法师》第五季，2021-07-28 开播，共12话；制作人员、剧情和别名“图腾现世”均与该版本一致。TMDB TV 70311 的第5季同样于2021-07-28首播、共12集，逐集日期和集数与主体相符，因此应映射为完整第5季，不含特别篇。\n\nhttps://bgm.tv/subject/309838 (page): Bangumi 标注中文名为全职法师第五季、12话、2021年7月28日开始，并列出相同的制作人员、动画制作公司及第五季剧情。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): TMDB API 快照显示 TV 70311 为《全职法师》，包含第5季，首播日期为2021-07-28且共12集。\n\nhttps://www.themoviedb.org/tv/70311/season/5 (api_snapshot): TMDB API 快照明确标注 season_number=5，首播日期为2021-07-28，完整剧集范围为第1至第12集，且剧集列表未截断。\n\nhttps://seasonalanime.com/anime/full-time-magister-5th-season (search_snippet): 搜索摘要将 Full-Time Magister 5th Season 对应为 Quanzhi Fashi V，2021年7月28日至8月25日播出，共12集，并列为系列第5季。",
+    "evidence": "codex: 确认对应TMDB 70311完整第五季。年份、制作公司、网络动画版本、玄蛇篇剧情及12集范围一致；逐集编号标题、时长和前6集日期支持本篇1—12顺序对应S05E01—E12。后6集日期差异有当时超前点播报道辅助解释，不影响作品身份和集序。\n\nhttps://bgm.tv/subject/309838 (page): 条目为2021年7月28日开播的12集网络动画第五季，福煦影视制作，管振宇任总导演、吉田徹任导演；剧情为莫凡克服恶魔系反噬并协助唐月解决宋城玄蛇危机。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): 实际读取作品详情：70311为中国动画《全职法师》，制作公司包含福煦影视、阅文集团及企鹅影视；第五季首播日期、12集总量和玄蛇危机剧情均与Bangumi一致。\n\nhttps://bgm.tv/subject/309838/ep (page): 完整章节表为第1至12集。第1、2集为7月28日，第3至6集依次为8月4、11、18、25日，第7至12集均为8月25日；各集另有约18至21分钟的时长。\n\nhttps://www.themoviedb.org/tv/70311/season/5 (api_snapshot): 第五季完整集表共12集，total_pages=1，标题逐集为第1至12集。第1至6集日期与Bangumi逐集一致，各集时长整体吻合；第7至12集日期均记为2021年9月1日，与Bangumi存在差异。季表没有混入其他作品。\n\nhttps://www.sohu.com/a/485557238_120171863 (search_snippet): 2021年8月25日发布的报道明确称第五季已开启后6集超前点播、可直达结局，并提到超前点播第11集剧情，支持Bangumi后6集集中登记在8月25日。\n\n备注：TMDB将第7—12集统一登记为2021-09-01，Bangumi登记为2021-08-25；同期报道支持8月25日已可超前观看结局，但未确认TMDB日期采用的具体发行口径。旧映射所称逐集日期全部一致不准确。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/309838; https://www.themoviedb.org/tv/70311; https://www.themoviedb.org/tv/70311/season/5; https://seasonalanime.com/anime/full-time-magister-5th-season",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/309838; https://www.themoviedb.org/tv/70311; https://bgm.tv/subject/309838/ep; https://www.themoviedb.org/tv/70311/season/5; https://www.sohu.com/a/485557238_120171863",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 70311
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

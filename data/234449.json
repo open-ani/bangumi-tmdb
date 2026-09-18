@@ -1,15 +1,156 @@
 {
+  "anidbId": 13647,
   "bangumiId": 234449,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 768269,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 768270,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 768271,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 768272,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 768273,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 768274,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 768275,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 768276,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 768277,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 768278,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 768279,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 768280,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 786769,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 786770,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 786771,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 786772,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 786773,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 786774,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 786775,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 786776,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 786777,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 786778,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 786779,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 786780,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 786781,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 786782,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 79514 的原名、中文名、首播日期（2018-04-04）、剧情、导演辛阔及制作公司均与 Bangumi 主体吻合；TMDB 第1季明确为《我家大师兄脑子有坑》，共26集，集名和日期与 Bangumi 主体逐集对应。因此对应完整第1季，不包含特别篇或后续第2、3季。\n\nhttps://api.bgm.tv/v0/subjects/234449 (api_snapshot): Bangumi API确认该主体为2018年播出的WEB动画，导演辛阔，共26集，剧情围绕东方纤云与逍遥门师兄弟展开。\n\nhttps://www.themoviedb.org/tv/79514 (api_snapshot): TMDB详情确认TV条目79514原名为《我家大师兄脑子有坑》，首播日期为2018-04-04，剧情、导演辛阔、中文媒介及制作公司与该主体吻合；该条目另含特别篇及后续第2、3季。\n\nhttps://www.themoviedb.org/tv/79514/season/1 (api_snapshot): TMDB第1季名称为《我家大师兄脑子有坑》，首播2018-04-04，实际集表共26集，集名和播出日期覆盖Bangumi主体第1至26集。",
+    "evidence": "codex: 作品年份、剧情、导演、制作信息及官方26话规模吻合，TMDB第1季全部26集标题与Bangumi逐集同序对应，可确认本篇1—26集映射至S01E01—E26，覆盖完整第一季。特别篇和续作分别列于其他季，不纳入本次映射。\n\nhttps://www.themoviedb.org/tv/79514 (api_snapshot): TMDB 79514 原名、2018年4月4日首播日期、东方纤云穿越成为逍遥门大师兄的剧情、导演辛阔及哔哩哔哩等制作信息与输入吻合；季列表分别列出2018年第一季、特别篇及后续两季。\n\nhttps://www.themoviedb.org/tv/79514/season/1 (api_snapshot): 第1季实际集表共26集，已读取全部1页。第1至26集标题与输入逐集对应，仅第26集引号形式不同；前两集日期一致，第3至26集的TMDB日期均比输入早一个更新档期。\n\nhttps://www.bilibili.com/bangumi/media/md17632/ (page): 哔哩哔哩官方播放页标明本作为漫画改编动画，2018年4月4日开播，已完结、全26话。\n\n备注：播出日期存在系统性差异：Bangumi第3集为2018-04-07、末集为2018-06-27，TMDB分别为2018-04-04和2018-06-23；输入infobox亦将结束日期写为2018-06-23。具体日期差异原因未确认，但完整集名序列及集数一致，足以确认逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/234449; https://api.bgm.tv/v0/subjects/234449; https://www.themoviedb.org/tv/79514; https://www.themoviedb.org/tv/79514/season/1",
-    "verifiedAt": "2026-09-08T21:12:48.452Z"
+    "source": "https://bgm.tv/subject/234449; https://www.themoviedb.org/tv/79514; https://www.themoviedb.org/tv/79514/season/1; https://www.bilibili.com/bangumi/media/md17632/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79514
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

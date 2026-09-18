@@ -1,15 +1,106 @@
 {
+  "anidbId": 11561,
   "bangumiId": 112978,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 435969,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 435970,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 461297,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 465761,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 490133,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 502522,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 502774,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 502775,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 515541,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 515542,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 515543,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 515544,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 538806,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 538990,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 538991,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 538992,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 79634 与 subject 对应：同为《端脑》动画，首播于2014-11-28，剧情围绕夏驰、晴知、孟秦及端脑游戏展开；TMDB 第1季实际包含16集，逐集覆盖 subject 的全部16集。TMDB 70609 是2017年、21集的同名另一版本，不能使用。\n\nhttps://api.bgm.tv/v0/subjects/112978 (api_snapshot): Bangumi 原始数据标注2014年、WEB、16集，导演王昕，动画制作上海绘梦文化传播工作室。\n\nhttps://www.themoviedb.org/tv/79634 (api_snapshot): TMDB 79634：原名《端脑》，日期2014-11-28，已完结1季16集；简介、导演王昕、中文配音演员及中国动画制作公司与 subject 相符。\n\nhttps://www.themoviedb.org/tv/79634/season/1 (api_snapshot): TMDB第1季实际季表共16集，集名从《消失》到《真相》，覆盖第1—16集。\n\nhttps://www.themoviedb.org/tv/70609 (api_snapshot): 同名 TMDB 70609 是2017-12-06版本，共1季21集，演员和导演不同。\n\n备注：Bangumi 与 TMDB 的单集播出日期及片长元数据存在小幅差异，但集数、标题顺序和作品身份一致，不影响整季映射。",
+    "evidence": "codex: 年份、首播日期、导演、制作公司及动画媒介一致；第1季全部16集标题与Bangumi逐话完全一致，且无混入其他作品，可确认整季及1—16话连续对应。日期与片长差异不足以推翻明确的逐集标题对应。\n\nhttps://www.themoviedb.org/tv/79634 (api_snapshot): TMDB 79634 为2014-11-28首播的《端脑》，导演王昕，制作公司为绘梦和有妖气，演员为谢添天等配音人员；剧情涉及端脑宇宙及推理游戏，与输入的2014年网络动画身份一致。共1季16集。\n\nhttps://www.themoviedb.org/tv/79634/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共16集。逐集标题依次为消失、数字、进入、闯关、再会、团战、死局、智取、失败的胜利、浅识、车战、I7、游戏外的较量、10打1、无敌式的存在、真相，与输入16话完全同序对应。首集日期一致，其余日期存在下述差异。\n\nhttps://www.themoviedb.org/tv/70609 (api_snapshot): 同名条目70609首播于2017-12-06，共21集，导演于中中，主演朱元冰、蒋依依等，为另一真人版本，排除。\n\n备注：TMDB第2、3集日期比Bangumi晚1天；第4集为2015-01-10，而输入为2014-01-09，输入年份疑有笔误。；第5—16集TMDB日期均比Bangumi早34天，末集分别为2015-06-27和2015-07-31；实际播出日期尚未独立核实。；TMDB各集片长标为20分钟，输入资料为15分钟；未核实片长差异来源。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/112978; https://api.bgm.tv/v0/subjects/112978; https://www.themoviedb.org/tv/79634; https://www.themoviedb.org/tv/79634/season/1; https://www.themoviedb.org/tv/70609",
-    "verifiedAt": "2026-09-08T19:45:58.612Z"
+    "source": "https://bgm.tv/subject/112978; https://www.themoviedb.org/tv/79634; https://www.themoviedb.org/tv/79634/season/1; https://www.themoviedb.org/tv/70609",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79634
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

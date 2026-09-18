@@ -1,15 +1,55 @@
 {
   "bangumiId": 304195,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 944494,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 944495,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 944496,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 944497,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 944498,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 944499,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 72705 的原名为 Marvel's Spider-Man，首播于 2017 年，制作公司为 Marvel Animation/Adelaide Productions，主要配音阵容包含 Robbie Daymond 等，与 Bangumi 的 Marvel's Spider-Man 系列身份一致。其第三季明确命名为 Maximum Venom，首播年份为 2020 年，剧情围绕 Venom 共生体及其对地球的威胁展开；季表实际只有 6 集，标题依次与 Bangumi 的 6 集完全对应。因此应映射为该 TV 的第 3 季整季。Bangumi 与 TMDB 首播日相差 1 天，符合时区或播出记录差异，不影响作品身份。\n\nhttps://api.bgm.tv/v0/subjects/304195 (api_snapshot): Bangumi API 将该 subject 标为 TV《Marvel's Spider-Man: Maximum Venom》，日期为 2020-04-19，共 6 集；集名为 Web of Venom、Amazing Friends、Vengeance of Venom、Spider-Man Unmasked、Generations、Maximum Venom。\n\nhttps://www.themoviedb.org/tv/72705 (api_snapshot): TMDB 详情确认作品原名为 Marvel's Spider-Man，首播于 2017-08-19，共 3 季；别名包含 Marvel's Spider-Man: Maximum Venom，第三季名为 Maximum Venom，制作公司为 Marvel Animation 和 Adelaide Productions，外部 IMDb ID 为 tt6135682。\n\nhttps://www.themoviedb.org/tv/72705/season/3 (api_snapshot): TMDB 第 3 季实际包含 6 集，季名为 Maximum Venom，日期范围为 2020-04-18 至 2020-10-25；6 集标题与 Bangumi 集表逐一对应，且剧情简介均围绕 Spider-Man、Venom 及共生体威胁。",
+    "evidence": "codex: 确认对应 TMDB 72705 第三季整季。官方资料确认2020年第三季的剧情、配音阵容及六集长篇形态；TMDB 实际季表恰为这六集，标题逐一完全对应，无其他作品混入。结合逐集日期比较及差异集的补充资料，可将 Bangumi 本篇1—6连续映射至 S03E01—S03E06。\n\nhttps://www.themoviedb.org/tv/72705 (api_snapshot): 以完整原名搜索得到 TV 72705；详情明确将 Marvel's Spider-Man: Maximum Venom 列为第三季别名。该系列始于2017年，制作公司包含 Marvel Animation，主演包括 Robbie Daymond、Fred Tatasciore；第三季为2020年的 Maximum Venom，剧情为毒液召来母星威胁，与输入一致。\n\nhttps://www.themoviedb.org/tv/72705/season/3 (api_snapshot): 第三季真实集表共6集，total_pages=1。第1至6集依次为 Web of Venom、Amazing Friends、Vengeance of Venom、Spider-Man Unmasked、Generations、Maximum Venom，与输入六集标题及顺序完全一致。日期依次为2020-04-18、04-25、06-22、08-16、09-27、10-25；后三集日期与输入一致，前三集存在日期差异。\n\nhttps://www.detpress.com/disneyxd/pressrelease/spider-mans-web-slinging-adventures-continue-in-the-third-season-of-marvels-spider-man-maximum-venom-debuting-sunday-april-19-on-disney-xd-and-disneynow/ (page): Disney 官方新闻稿确认本作为第三季，2020年4月19日在 Disney XD 与 DisneyNOW 开播，由六部一小时特别节目组成；毒液母星威胁的剧情及 Robbie Daymond 等配音阵容与 TMDB 一致，支持六集长篇版本的身份。\n\nhttps://thetvdb.com/series/marvels-spider-man/episodes/8665612 (search_snippet): Amazing Friends 记为第三季第2集，2020年5月17日播出；幼年格鲁特带来警告、蜘蛛侠保护其免受 A.I.M. 威胁的剧情与 TMDB 第2集一致，支持日期有差异但章节身份相同。\n\nhttps://d23.com/5-things-to-watch-this-weekend-june-19-2020/ (search_snippet): Disney 官方 D23 将 Vengeance of Venom 列为2020年6月21日播出的节目，蜘蛛侠寻求 Marc Spector 帮助抵抗共生体的剧情与 TMDB 第3集一致。\n\n备注：TMDB 第1、3集日期与输入及官方播出资料各相差一天；第2集记为2020-04-25，而输入及其他资料为2020-05-17。日期差异原因未确认，不能统一归因于时区；标题、剧情与六集结构仍支持上述对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/304195; https://api.bgm.tv/v0/subjects/304195; https://www.themoviedb.org/tv/72705; https://www.themoviedb.org/tv/72705/season/3",
-    "verifiedAt": "2026-09-08T21:57:37.943Z"
+    "source": "https://bgm.tv/subject/304195; https://www.themoviedb.org/tv/72705; https://www.themoviedb.org/tv/72705/season/3; https://www.detpress.com/disneyxd/pressrelease/spider-mans-web-slinging-adventures-continue-in-the-third-season-of-marvels-spider-man-maximum-venom-debuting-sunday-april-19-on-disney-xd-and-disneynow/; https://thetvdb.com/series/marvels-spider-man/episodes/8665612; https://d23.com/5-things-to-watch-this-weekend-june-19-2020/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 72705
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

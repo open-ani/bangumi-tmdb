@@ -1,20 +1,36 @@
 {
   "anidbId": 8139,
   "bangumiId": 27879,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 912360,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912360,
+      "targets": [
+        {
+          "id": 504327,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 应修正为TMDB电影504327。原名、英文别名、首映日期、导演及具体剧情相互印证，确认是2010年ANA机内上映的单篇动画；2011年电视首播属于后续发行。Bangumi仅有一话，对应整部短片，无需季号。\n\nhttps://bgm.tv/subject/27879 (page): Bangumi 标注本作共1话，2010-08-01上映，片长20分钟，导演为汤山邦彦，动画制作为OLM。\n\nhttps://www.themoviedb.org/movie/504327 (api_snapshot): 日文原名及英文别名搜索均返回 movie/504327；详情确认日文原名一致、上映日为2010-08-01、片长21分钟、导演为汤山邦彦，剧情为皮卡丘帮助未知图腾返回伙伴身边。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201110/21960_201110201900.html (page): 东京电视台确认同名短片于2011-10-20首次电视播出，剧情涉及皮卡丘与波加曼帮助迷路的未知图腾，导演汤山邦彦、脚本大桥志吉，与TMDB条目的剧情及导演吻合。\n\nhttps://www.kinokuniya.co.jp/f/dsg-10-4935228111688 (search_snippet): 纪伊国屋DVD商品摘要说明本作原为2010年夏季仅在ANA机内上映的原创动画，支持其为独立剧情短片。\n\nhttps://www.themoviedb.org/movie/665583 (api_snapshot): 实际调用旧映射movie/665583的详情接口返回HTTP 404，不能继续沿用该ID。\n\n备注：Bangumi片长记为20分钟，TMDB记为21分钟，存在一分钟资料差异；未发现指向不同版本的证据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27879; https://www.themoviedb.org/movie/504327; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201110/21960_201110201900.html; https://www.kinokuniya.co.jp/f/dsg-10-4935228111688; https://www.themoviedb.org/movie/665583",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 665583,
+      "id": 504327,
       "type": "movie"
     }
   ]

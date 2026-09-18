@@ -1,19 +1,96 @@
 {
   "anidbId": 16104,
   "bangumiId": 330057,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1110991,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1111168,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1111169,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1111170,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1111171,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1111172,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1111173,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1111174,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1111175,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1111176,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1111177,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1111178,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1111179,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认本条目对应 TMDB 45997 第二季第1—12集，制作人员、剧情、年份及逐集标题和日期一致。旧映射的整季范围过宽，会包含2023年续篇，应缩为已核实的12集。\n\nhttps://www.themoviedb.org/tv/45997 (api_snapshot): TMDB 45997 的制作公司包含 Studio 3Hz，导演为筑紫大介；第二季始于2022年7月14日，剧情涉及真奥、惠美和神秘少女，与本条目版本一致。第一季为2013年作品。\n\nhttps://www.themoviedb.org/tv/45997/season/2 (api_snapshot): 第二季共24集，total_pages=1。第1—12集的日文标题和播出日期逐集与输入完全一致，日期为2022年7月14日至9月29日；第13集开始于2023年7月13日，属于后续篇章。\n\nhttps://www.themoviedb.org/tv/45997/season/0 (api_snapshot): 第0季共25集，total_pages=1：第1集为2023年7月6日的回顾特别节目，第2—25集为迷你动画，未见2022年7月7日的「地上波！ただいま、魔王さま～！」。\n\n备注：特别节目章节1110991未找到可靠的 TMDB 对应，暂不映射；当前第0季未列出它，不代表 TMDB 全站未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/330057; https://www.themoviedb.org/tv/45997; https://www.themoviedb.org/tv/45997/season/2; https://www.themoviedb.org/tv/45997/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 45997
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 45997,
       "season": 2,
       "type": "tv"

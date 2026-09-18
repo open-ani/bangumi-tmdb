@@ -1,15 +1,76 @@
 {
+  "anidbId": 15402,
   "bangumiId": 303679,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 942798,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 942799,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 942800,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 942801,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 942802,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 955564,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 955565,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 955566,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 955567,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 955568,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目《大家さんと僕》与 Bangumi 主体在标题、2020 年开播日期、原作矢部太郎、39 岁“僕”与 87 岁大家さん的剧情、导演作田ハズム、脚本细川徹及动画制作 Fanworks 等方面一致。TMDB 第 1 季实际包含 15 集，覆盖 2020 年首播的第 1—10 集及 2021 年播出的第 11—15 集；官方资料明确称第 11—15 话仍是该动画的新增话数，因此应映射整季。\n\nhttps://www.themoviedb.org/tv/197485 (api_snapshot): TMDB 详情确认原名《大家さんと僕》、2020-03-02 开播、15 集、1 季，剧情及作田ハズム/细川徹/Fanworks 信息与 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/197485/season/1 (api_snapshot): TMDB 第 1 季实际集表为第 1—15 集，total_pages=1，日期覆盖 2020-03-02 至 2021-03-25，每集约 5 分钟。\n\nhttps://fanworks.co.jp/project/ooyasan/ (page): Fanworks 官方项目页确认该作是 2020 年制作的《大家さんと僕》动画，导演为作田ハズム，原作为矢部太郎漫画。\n\nhttps://fanworks.co.jp/news/20210315/ (page): Fanworks 官方新闻明确说明《大家さんと僕》第 11—15 话于 2021-03-24 连续播出，且制作、导演、脚本与该作品一致。\n\nhttps://api.bgm.tv/v0/subjects/303679 (api_snapshot): Bangumi 原始信息确认主体为 2020 年 NHK TV 动画《大家さんと僕》，标注 15 话，并列出相同原作、导演、脚本、制作公司和剧情。",
+    "evidence": "codex: 作品身份及15话主体范围已确认，对应TMDB 197485第1季整季。官方分批播出的15话均被TMDB收在此季，未混入其他作品。第1—5话凭逐集播出日期和集号一致建立规则；第6—10话存在日期冲突且缺少可比对的TMDB标题，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/197485 (api_snapshot): 以日文原名搜索后读取详情：TMDB 197485 为2020年3月2日开播的《大家さんと僕》，共1季15集；矢部太郎原作、39岁艺人与87岁房东的剧情、导演作田ハズム、脚本細川徹及动画制作Fanworks均吻合。\n\nhttps://www.themoviedb.org/tv/197485/season/1 (api_snapshot): 第1季实际集表共15集，total_pages=1，每集5分钟。第1—5集日期逐集吻合Bangumi；第6—10集却标为2020年3月8—12日，且只有通用集号标题；第11—15集日期为2021年3月24—25日。\n\nhttps://bgm.tv/subject/303679 (page): Bangumi主体标注TV、15话，播出范围为2020年3月2日至2021年3月24日，原作及制作人员与TMDB一致。\n\nhttps://bgm.tv/subject/303679/ep (page): 实际章节列表仅有第1—10话：前五话有标题，日期为2020年3月2—6日；后五话标题空缺，日期为2020年6月8—12日。\n\nhttps://fanworks.co.jp/project/ooyasan/ (page): 制作公司项目页确认这是2020年制作、矢部太郎原作、作田ハズム执导的NHK短篇动画，前两批各5话。\n\nhttps://fanworks.co.jp/news/20200603_ooya/ (page): 官方公告逐集列出第6—10话的标题及2020年6月8—12日播出日期，支持Bangumi日期，与TMDB这五集的月份冲突。\n\nhttps://fanworks.co.jp/news/20210315/ (page): 官方明确新增内容为同一动画的第11—15话，2021年3月24日23:45至次日00:10连续播出；第14、15话跨午夜，与TMDB日期一致。\n\n备注：TMDB第6—10集日期与官方及Bangumi相差三个月，疑为月份录入错误；需补充TMDB集标题、剧情或修正日期后再确认逐集映射。；Bangumi主体标注15话，但当前仅建立10个章节；第11—15话纳入作品范围，不虚构缺失章节的逐集规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/303679; https://www.themoviedb.org/tv/197485; https://www.themoviedb.org/tv/197485/season/1; https://fanworks.co.jp/project/ooyasan/; https://fanworks.co.jp/news/20210315/; https://api.bgm.tv/v0/subjects/303679",
-    "verifiedAt": "2026-09-08T21:57:18.337Z"
+    "source": "https://bgm.tv/subject/303679; https://www.themoviedb.org/tv/197485; https://www.themoviedb.org/tv/197485/season/1; https://bgm.tv/subject/303679/ep; https://fanworks.co.jp/project/ooyasan/; https://fanworks.co.jp/news/20200603_ooya/; https://fanworks.co.jp/news/20210315/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 197485
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

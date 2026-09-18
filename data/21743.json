@@ -1,14 +1,30 @@
 {
   "anidbId": 7703,
   "bangumiId": 21743,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 881761,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 881761,
+      "targets": [
+        {
+          "id": 118301,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 目标是2010年12月23日上映的90分钟动画电影《劇場版イナズマイレブン 最強軍団オーガ襲来》，与 TMDB movie 118301 完全对应。AnimeLists 的 TMDB TV 42912 方向并非完全错误：该剧的 Specials 为2集，目标电影对应第1集；第2集是另一部2011年的《Inazuma Eleven GO: Kyūkyoku no Kizuna Gryphon》，因此不能映射整个 season 0，必须限定为第1集。\n\nhttps://www.inazuma.jp/archive/eiga/01/ (page): 官方页面确认片名、动画制作信息、故事内容及日本上映日为2010年12月23日。\n\nhttps://www.wikidata.org/wiki/Q1185615 (page): 页面将该作品标为2010年电影，并明确列出 TMDB movie ID 118301。\n\nhttps://www.acmodasi.in/amdb/movie/118301-inazuma-eleven-the-movie-the-invasion-of-the-strongest-army-corps-ogre-2010 (search_snippet): 按 TMDB 条目编号118301收录同名作品，显示2010年、90分钟、Animation，并与日文原题一致。\n\nhttps://www.themoviedb.org/tv/42912-inazuma-eleven/seasons?language=it-IT (search_snippet): TMDB 页面确认 TV ID 42912 为《Inazuma Eleven》系列，Specials season 0 为2011年、共2集；该容器并非单独的本电影条目。\n\nhttps://simkl.com/anime/1572407/gekijouban-inazuma-eleven-go-kyuukyoku-no-kizuna-gryphon (search_snippet): 独立作品资料确认第2部相关电影是2011年12月23日上映、90分钟的《Inazuma Eleven GO: Kyūkyoku no Kizuna Gryphon》，与2010年目标电影不同。",
+    "evidence": "codex: 已通过上映日期、媒介、片长、剧情、导演及制作公司确认对应TMDB电影118301，唯一的Bangumi本篇章节映射至该电影。实际季表证明TV 42912第0季第1集是另一部GO特别篇，因此删除旧映射中的TV目标。\n\nhttps://bgm.tv/subject/21743 (page): Bangumi 将该作品标为单话剧场版，上映日为2010年12月23日，片长90分钟，动画制作为OLM。\n\nhttps://www.inazuma.jp/archive/eiga/01/ (page): 官方页面确认上映日为2010年12月23日，导演为宮尾佳和、动画制作为OLM；剧情为雷门中在决赛遭遇来自未来的王牙军团。\n\nhttps://www.themoviedb.org/movie/118301 (api_snapshot): TMDB movie 118301 的日文原名、上映日、90分钟片长、王牙军团剧情、导演宮尾佳和及制作公司OLM均与目标电影吻合。\n\nhttps://www.themoviedb.org/tv/42912 (api_snapshot): TMDB TV 42912 是2008年开始的《闪电十一人》系列容器，其第0季共2集。\n\nhttps://www.themoviedb.org/tv/42912/season/0 (api_snapshot): 已读取第0季完整集表，共1页：第1集为2011年12月8日的《出でよ！化身大図鑑！！》，第2集为2011年12月23日的《炸裂！必殺技大図鑑！！》，均为30分钟的GO特别篇，并非目标电影或2011年剧场版。旧映射对该季内容的描述有误。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/21743; https://www.inazuma.jp/archive/eiga/01/; https://www.wikidata.org/wiki/Q1185615; https://www.acmodasi.in/amdb/movie/118301-inazuma-eleven-the-movie-the-invasion-of-the-strongest-army-corps-ogre-2010; https://www.themoviedb.org/tv/42912-inazuma-eleven/seasons?language=it-IT; https://simkl.com/anime/1572407/gekijouban-inazuma-eleven-go-kyuukyoku-no-kizuna-gryphon",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/21743; https://www.inazuma.jp/archive/eiga/01/; https://www.themoviedb.org/movie/118301; https://www.themoviedb.org/tv/42912; https://www.themoviedb.org/tv/42912/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,12 +32,6 @@
     {
       "id": 118301,
       "type": "movie"
-    },
-    {
-      "episode": 1,
-      "id": 42912,
-      "season": 0,
-      "type": "tv"
     }
   ]
 }

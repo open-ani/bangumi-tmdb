@@ -1,16 +1,76 @@
 {
   "anidbId": 9494,
   "bangumiId": 85004,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 325090,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 325091,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 325092,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 325093,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 325094,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 325095,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 325096,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 325097,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 325098,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 325099,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 85004 是 2012-12-19 发售、共 10 话的《ルパンしゃんしぇい》OVA。AniDB ID 9494 的标题与别名对应 Lupin Shanshei / Lupin Sansei x Frogman；TMDB TV 123200 同名、首播日期相同、共 10 集。TMDB 第 1 季的 10 个剧集标题和日期与 Bangumi 正篇逐条对应，因此推荐完整第 1 季。TMDB 第 0 季是 1 集特别编，不属于该 Bangumi subject 的 10 个正篇。\n\nhttps://bgm.tv/subject/85004 (page): Bangumi subject 名称为「ルパンしゃんしぇい」，日期为 2012-12-19，包含 10 个正篇；输入关联信息指向 AniDB 9494。\n\nhttps://anidb.net/anime/9494 (page): AniDB 9494 的标题/别名为 Lupin Shanshei、Lupin Sansei x Frogman、Lupin x Frogman，与 Bangumi subject 相符。\n\nhttps://www.themoviedb.org/tv/123200 (api_snapshot): TMDB TV 123200 名称为「ルパンしゃんしぇい」，首播日期为 2012-12-19，原产国为日本，共 10 集；简介描述 FROGMAN 与鲁邦三世合作的 omnibus 短篇作品。\n\nhttps://www.themoviedb.org/tv/123200/season/1 (api_snapshot): TMDB 第 1 季为 10 集，剧集标题从「進撃のルパン」至「最後のルパン先生」，日期为 2012-12-19 至 2013-02-20，与 Bangumi 的 10 个正篇逐条对应。\n\nhttps://www.themoviedb.org/tv/123200 (api_snapshot): TMDB 主页面列出第 0 季「特別編」共 1 集；该特别编不在 Bangumi subject 的 10 个正篇中，因此不纳入推荐。\n\nhttps://www.video.unext.jp/title/SID0038639/c_txt%3Db (search_snippet): 搜索摘要显示《ルパンしゃんしぇい》为 2012 年作品，列出第 10 话「最後のルパン先生」，并列出 FROGMAN 负责导演、角色设计及动画制作信息。",
+    "evidence": "codex: 确认对应 TMDB 123200 第 1 季全季。发行年份、制作人员、短篇动画形式、剧情及十话标题顺序共同确认是同一版本；Bangumi 本篇 1—10 逐集对应 S01E01—S01E10。第 1 季未混入其他作品，第 0 季不纳入此 subject 的十话本篇。\n\nhttps://bgm.tv/subject/85004/ep (page): Bangumi 章节页标注为 OVA，列出本篇第 1—10 话；全部标题及顺序与 TMDB 第 1 季一致，仅第 6 话感叹号存在全半角差异。\n\nhttps://prtimes.jp/main/html/rd/p/000000189.000000803.html (page): TMS 官方新闻稿确认本作于 2012-12-19 发行 DVD/BD，包含 10 话、本篇约 35 分钟；FROGMAN 担任导演、编剧、角色设计及配音，TMS 制作。巨型鲁邦袭击围墙内世界的剧情与输入一致，公布的十话目录也一致（第 2 话使用「斎藤」字形）。\n\nhttps://www.themoviedb.org/tv/123200 (api_snapshot): TMDB 123200 的日文原名为「ルパンしゃんしぇい」，日期为 2012-12-19；简介为 FROGMAN 与鲁邦三世合作的短篇集，制作公司为 TMS，导演、编剧及配音均为 FROGMAN。第 1 季共 10 集，另列第 0 季特别篇 1 集。\n\nhttps://www.themoviedb.org/tv/123200/season/1 (api_snapshot): 实际读取第 1 季完整集表：episodeCount=10、total_pages=1。第 1—10 集标题逐条对应 Bangumi 本篇，第 1 集剧情亦吻合；TMDB 逐集日期为 2012-12-19 至 2013-02-20，每周一集。\n\n备注：Bangumi 未填写逐集日期；官方确认十话于 2012-12-19 随光盘发行，TMDB 第 2—10 集却记录后续每周日期，其日期依据尚未确认。不能沿用旧映射中“日期逐条对应”的说法；本次逐集映射依据完整标题、顺序、集数及版本信息。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/85004; https://anidb.net/anime/9494; https://www.themoviedb.org/tv/123200; https://www.themoviedb.org/tv/123200/season/1; https://www.video.unext.jp/title/SID0038639/c_txt%3Db",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/85004; https://bgm.tv/subject/85004/ep; https://prtimes.jp/main/html/rd/p/000000189.000000803.html; https://www.themoviedb.org/tv/123200; https://www.themoviedb.org/tv/123200/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 123200
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

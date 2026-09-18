@@ -1,16 +1,86 @@
 {
   "anidbId": 12746,
   "bangumiId": 204483,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 728073,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 728074,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 728075,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 728076,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 728077,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 728078,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 728079,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 728080,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 728081,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 728082,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 728083,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 728084,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为同一部2017年电视动画：剧情、导演、制作公司及角色阵容相符；第1季全部12集标题与 Bangumi 本篇逐集对应，未混入其他作品，可将本篇1—12话连续映射至 TMDB 72500 第1季1—12集。\n\nhttps://www.themoviedb.org/tv/72500 (api_snapshot): 日文原名和英文名搜索均返回 TV 72500。详情确认为2017年电视动画，导演草川啓造、制作公司 diomedéa；阳菜野市少女组织本土动作女英雄演出的剧情与输入一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/72500/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共12集。逐集标题与 Bangumi 第1—12话一致，第7话仅标点空格不同，第9话仅注音呈现不同。日期逐集比较：TMDB 第1—5集晚9天，第6—11集晚2天，第12集晚5天；标题、顺序和总集数仍完整对应。\n\nhttps://www.tbs.co.jp/anime/cfru/staffcast/ (page): TBS 官方制作人员页列出导演草川啓造、角色设计井出直美、音乐水谷広実及动画制作 diomedéa，角色与配音阵容也与 TMDB 相符。\n\nhttps://www.tbs.co.jp/anime/cfru/onair/ (page): 官方放送页确认本作为电视播出动画，TBS 为周四、BS-TBS 为周六播出。\n\n备注：TMDB 各集日期与 Bangumi 存在上述差异，具体录入来源未确认，不能全部解释为播出频道差异；但完整逐集标题及制作信息足以确认对应。；输入别名“Sanrio Danshi”未获本次来源支持，未用于匹配。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/204483; https://www.themoviedb.org/tv/72500; https://www.themoviedb.org/tv/72500/season/1; https://www.tbs.co.jp/anime/cfru/staffcast/; https://www.tbs.co.jp/anime/cfru/onair/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72500
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

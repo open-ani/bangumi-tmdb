@@ -1,16 +1,103 @@
 {
   "anidbId": 11213,
   "bangumiId": 132829,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 540870,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 540871,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 540872,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 540873,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 540874,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 540875,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 540876,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 540877,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 540878,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 540879,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 540880,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 540881,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 565778,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 565778,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 66993,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是2015年7月开播、12集TV动画，制作公司为 Assez Finaud Fabric.×feel.；第1至12集标题与播出日期和 TMDB 第1季整体对应。TMDB 主页面显示同一作品有第1季12集及第0季1集，第0季日期为2015-11-27；Bangumi主体内另列 SP13「その後の枕男子」，日期相同，因此纳入 TMDB season 0 episode 1。TMDB 第1季后3集日期比 Bangumi 晚一天，但集数、顺序、作品年份和主体信息一致，属于日期记录差异，不影响采用完整一季。\n\nhttps://bgm.tv/subject/132829 (page): Bangumi确认该条目为《枕男子》TV，12集，2015-07-13至2015-09-28，制作公司为 Assez Finaud Fabric.×feel.，并列出主体第1至12集及特别篇。\n\nhttps://bgm.tv/subject/132829/ep (page): Bangumi章节列表列出12集正篇以及SP13「その後の枕男子」，SP首播日期为2015-11-27。\n\nhttps://www.themoviedb.org/tv/66993 (api_snapshot): TMDB API快照确认TV ID 66993名为枕男子，首播2015-07-13，共12集；季列表包含season 0（1集，2015-11-27）和season 1（12集，2015-07-13）。\n\nhttps://www.themoviedb.org/tv/66993/season/1 (api_snapshot): TMDB API快照确认season 1有完整12集，前9集日期与Bangumi一致，后3集仍保持对应顺序和主体集数。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开AniDB标题索引将AniDB ID 11213列为Makura no Danshi，与输入提供的Bangumi→AniDB匹配结果一致。\n\n备注：TMDB season 1第10至12集的API日期分别为2015-09-15、2015-09-22、2015-09-29，比Bangumi日期晚一天；但没有发现足以表明是不同版本的证据。；TMDB主页面提供了season 0的季级信息，未附该季单集详情快照；其1集数量、日期与Bangumi SP13完全对应。",
+    "evidence": "codex: 年份、TV媒介、制作公司、剧情与12集人物主题均一致，确认本篇对应TMDB 66993第1季全12集。逐集标题和日期比对支持顺序一一对应；特别篇通过DVD发行日期、未放送性质及商品收录标题，确认对应S00E01。\n\nhttps://bgm.tv/subject/132829 (page): Bangumi 确认本作为2015年7月13日开播的12集TV动画，由 Assez Finaud Fabric.×feel. 制作，内容为第一人称视角的陪睡男子短篇。\n\nhttps://bgm.tv/subject/132829/ep (page): 章节表列出本篇1—12及SP13「その後の枕男子」；本篇播出日期为2015年7月13日至9月28日，特别篇日期为2015年11月27日。\n\nhttps://www.themoviedb.org/tv/66993 (api_snapshot): 日文原名搜索命中TV 66993；详情确认原名、2015年7月13日首播、两家制作公司及第一人称陪伴剧情一致，正篇共12集。\n\nhttps://www.themoviedb.org/tv/66993/season/1 (api_snapshot): 已读取第1季完整集表，共12集、1页。各集人物及主题标题与Bangumi本篇逐一对应；第1—9集日期完全一致，第10—12集日期分别为2015年9月15日、22日、29日，比Bangumi晚一天。\n\nhttps://www.themoviedb.org/tv/66993/season/0 (api_snapshot): 已读取第0季完整集表，共1集、1页；第1集名为OVA，日期为2015年11月27日，简介明确为DVD附带的未放送章节。\n\nhttps://www.getchu.com/item/868870/ (search_snippet): DVD商品资料列明2015年11月27日发行，收录TV全12话，并附未放送原创动画「その後の枕男子」，将Bangumi特别篇标题与TMDB的DVD附赠OVA信息对应起来。\n\n备注：TMDB本篇第10—12集日期比Bangumi晚一天，差异原因未核实；这些集的人物、主题标题及顺序一致，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/132829; https://bgm.tv/subject/132829/ep; https://www.themoviedb.org/tv/66993; https://www.themoviedb.org/tv/66993/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/132829; https://bgm.tv/subject/132829/ep; https://www.themoviedb.org/tv/66993; https://www.themoviedb.org/tv/66993/season/1; https://www.themoviedb.org/tv/66993/season/0; https://www.getchu.com/item/868870/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 66993
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

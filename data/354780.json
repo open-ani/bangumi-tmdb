@@ -1,15 +1,56 @@
 {
+  "anidbId": 16276,
   "bangumiId": 354780,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1064987,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1064988,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1064989,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1064990,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1496620,
+      "sort": 1,
+      "type": 2
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1496620,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应《バトルスピリッツ ミラージュ》（Battle Spirits: Mirage），不是前作《赫盟のガレット》或后续电视合集《コアの光主たち-》。TMDB 详情的原名、2021-10-29开播日期、剧情、BN Pictures、渡辺正樹导演及冨岡淳広编剧均与 Bangumi 和官方资料吻合。该作品是 WEB 配信的剧情动画，TMDB 第1季实际只有4集，完整覆盖 Bangumi 的4集正片；Bangumi 额外的“Open the GATE”属于非正片音乐/特别条目，不应纳入季集范围。\n\nhttps://www.themoviedb.org/tv/216517 (api_snapshot): TMDB 详情确认原名《バトルスピリッツ ミラージュ》、2021-10-29开播、4集1季，剧情与 Bangumi 摘要一致；制作公司为 BN Pictures，导演为渡辺正樹，编剧为冨岡淳広。\n\nhttps://www.themoviedb.org/tv/216517/season/1 (api_snapshot): TMDB 第1季实际集表只有4集：継承、劫火、帰還、世界，播出日期为2021-10-29至2022-04-01。\n\nhttps://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=10 (page): 官方资料明确记载《バトルスピリッツミラージュ》全4话，并列出第4话为最终回及其播出、配信日期。\n\nhttps://www.bn-pictures.co.jp/news/news_detail.html?id=18637&page=news (page): BN Pictures 官方宣布该作品为2021年秋 WEB 配信动画，并列出导演渡辺正樹、脚本冨岡淳広及角色设计人员。\n\nhttps://api.bgm.tv/v0/subjects/354780 (api_snapshot): Bangumi API 原始资料确认日文原名、2021-10-29日期、WEB媒介、4集正片及与TMDB一致的剧情；总条目数5包含额外特别条目。",
+    "evidence": "codex: 确认对应TMDB 216517第1季。年份、剧情、制作公司及主创一致，真实季表完整覆盖本作4集，各集标题与Bangumi逐一相符，日期均与官方网络配信日期吻合。已区分前作与12话电视合集；OP「Open the GATE」排除于正片映射。\n\nhttps://www.themoviedb.org/tv/216517 (api_snapshot): TMDB 216517 的原名、2021-10-29首播日期及加雷特来到异界、瓦尔特领导莫ーブ的剧情与输入一致；制作公司为BN Pictures，导演渡辺正樹、编剧冨岡淳広，共1季4集。\n\nhttps://www.themoviedb.org/tv/216517/season/1 (api_snapshot): 第1季集表共4集，total_pages=1：第1集「継承」2021-10-29、第2集「劫火」2022-01-28、第3集「帰還」2022-03-25、第4集「世界」2022-04-01。标题与Bangumi四集逐一一致。\n\nhttps://bgm.tv/subject/354780/ep (page): Bangumi章节页标记媒介为WEB，正片依次为「継承」「劫火」「帰還」「世界」；「Open the GATE」单独归类为OP。\n\nhttps://www.bn-pictures.co.jp/news/news_detail.html?id=18637&page=news (search_snippet): BN Pictures官方公告确认本作为2021年秋开始WEB配信的新作，导演渡辺正樹、脚本冨岡淳広，与TMDB人员信息一致。\n\nhttps://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=15 (page): 官方公告确认第1话「継承」于2021-10-29、第2话「劫火」于2022-01-28开始配信；另说明《コアの光主たち》是包含本作等三部作品、共12话的电视合集。\n\nhttps://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=10 (page): 官方确认本作全4话，与前作《赫盟のガレット》全5话分别列出；第3话「帰還」与最终话「世界」分别于2022-03-25、2022-04-01网络配信，电视播出各早一天。\n\nhttps://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=20 (page): 官方将「Open the GATE」列为本作主题歌，演唱者为玉置成実 feat. きただにひろし。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/354780; https://www.themoviedb.org/tv/216517; https://www.themoviedb.org/tv/216517/season/1; https://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=10; https://www.bn-pictures.co.jp/news/news_detail.html?id=18637&page=news; https://api.bgm.tv/v0/subjects/354780",
-    "verifiedAt": "2026-09-08T23:09:00.586Z"
+    "source": "https://bgm.tv/subject/354780; https://www.themoviedb.org/tv/216517; https://www.themoviedb.org/tv/216517/season/1; https://bgm.tv/subject/354780/ep; https://www.bn-pictures.co.jp/news/news_detail.html?id=18637&page=news; https://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=15; https://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=10; https://www.bn-pictures.co.jp/battlespirits/mirage/news.php?offset=20",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 216517
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

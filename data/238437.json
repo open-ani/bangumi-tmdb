@@ -1,15 +1,143 @@
 {
+  "anidbId": 10719,
   "bangumiId": 238437,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 777875,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 777876,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 777877,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 777878,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 777879,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 777880,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 777881,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 777882,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 777883,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 777884,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 777885,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 777886,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 777887,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 777888,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 777889,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 777890,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 777891,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 777892,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 777893,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 777894,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 777895,
+      "sort": 0,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 777895,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 76704,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 76704 的原名为「あぐかる」，别名明确包含「あぐかる PLAY WITH IBARAKI編」。第2季名称、开播日和20集日期与 Bangumi 的20个地名篇逐一对应，剧情均为原木早苗与稻穗精灵巡游茨城县并进行地方宣传。第1季是2010年的旧版5集，不应混入；第0季第1集是2015-03-28的「プロローグ」，与 Bangumi 额外记录的第0话对应。该作品是 WEB/短篇动画，由スタジオぷYUKAI制作；官方/发行资料还确认了2014年、制作人员和地方宣传动画性质。\n\nhttps://www.themoviedb.org/tv/76704 (api_snapshot): TMDB 详情确认原名「あぐかる」、别名含「あぐかる PLAY WITH IBARAKI編」；第1季5集始于2010年，第2季20集始于2014-06-06，剧情为农业少女原木早苗与精灵共同生活并变身为农业天使。\n\nhttps://www.themoviedb.org/tv/76704/season/2 (api_snapshot): TMDB第2季实际集表为20集，日期从2014-06-06至2015-03-21，逐集日期与 Bangumi 的20个茨城县地点篇一致。\n\nhttps://www.themoviedb.org/tv/76704/season/0 (api_snapshot): TMDB第0季仅有1集「Agriculture Angel Baraki Prologue」，日期为2015-03-28，对应 Bangumi 的「プロローグ」。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=24049 (page): 发行页明确标为「あぐかる PLAY WITH IBARAKI編」，描述茨城县巡游与地方宣传剧情，列出导演/系列构成/演出芦名みのる、制作スタジオぷYUKAI、製作年2014年，并列出第1至20话及第0话序章。\n\nhttps://www.town.daigo.ibaraki.jp/data/doc/1424332234_doc_9_0.pdf (page): 茨城县大子町官方刊物说明该版本由茨城县委托筑波市スタジオぷYUKAI制作，用动画宣传县内各市町村魅力，属于「あぐかる」的 PLAY WITH IBARAKI 编。",
+    "evidence": "codex: 确认对应 TMDB 76704 第2季全20集及第0季第1集。版本年份、网络短篇媒介、剧情角色、制作资料及集数相符；20集放送日期逐集一致，序章标题与日期也完全一致，因此可建立连续规则及序章特例。2010年前作的第1季不纳入。\n\nhttps://www.themoviedb.org/tv/76704 (api_snapshot): 以日文完整标题搜索命中 TV 76704。详情明确将「あぐかる PLAY WITH IBARAKI編」标为第二季别名；第二季始于2014-06-06，共20集。第一季始于2010年，共5集，属于前作。角色及声优与发行资料一致。\n\nhttps://www.themoviedb.org/tv/76704/season/2 (api_snapshot): 第二季实际集表共20集，total_pages=1；第1至20集日期与输入的 Bangumi sort 1至20逐集完全一致，范围为2014-06-06至2015-03-21。英文季名明确为 Agriculture Angel BARAKI: Play with Ibaraki；分集标题仅为通用集号。\n\nhttps://www.themoviedb.org/tv/76704/season/0 (api_snapshot): 第0季实际集表仅1集，total_pages=1；第1集标题「プロローグ」、日期2015-03-28，均与 Bangumi 章节777895一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=24049 (page): 发行页确认该作为2014年制作的短篇剧情动画，讲述原木早苗与稻穗精灵游览茨城县名胜并对抗敌人；导演为芦名みのる，制作公司为スタジオぷYUKAI。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=24049001&workId=24049 (search_snippet): 发行页搜索摘要列出第1至20话及第0话序章；平台将正篇每两话合为一个播放单元，因此显示全11话。地名顺序与输入一致，但第10话标题使用「笠間市笠間稲荷神社」，输入为「笠間市流鏑馬」。\n\nhttps://www.dreamnews.jp/press/0000109445 (search_snippet): 制作公司新闻稿区分2010年农业主题前作与2014年6月开始的茨城县观光宣传新系列，确认通过网络发布、每话约7分钟、正篇20话并另有第0话。\n\n备注：TMDB 正篇缺少实质分集标题；连续映射由20个逐集日期、总集数及版本资料共同支持。发行摘要第10话标题与 Bangumi 表述不同，但编号、地点和日期证据支持同一集。；制作公司新闻稿将末话预告发布日期写为2015-03-20，而 Bangumi 与 TMDB 均记为2015-03-21；首次公开日期存在一天差异，不影响集号对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/238437; https://www.themoviedb.org/tv/76704; https://www.themoviedb.org/tv/76704/season/2; https://www.themoviedb.org/tv/76704/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=24049; https://www.town.daigo.ibaraki.jp/data/doc/1424332234_doc_9_0.pdf",
-    "verifiedAt": "2026-09-08T21:15:15.972Z"
+    "source": "https://bgm.tv/subject/238437; https://www.themoviedb.org/tv/76704; https://www.themoviedb.org/tv/76704/season/2; https://www.themoviedb.org/tv/76704/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=24049; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=24049001&workId=24049; https://www.dreamnews.jp/press/0000109445",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 76704
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

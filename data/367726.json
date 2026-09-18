@@ -1,19 +1,96 @@
 {
   "anidbId": 17175,
   "bangumiId": 367726,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1092411,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1092412,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1092413,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1092414,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1092415,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1092416,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1092417,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1092418,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1092419,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1092420,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1092421,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1092422,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1092423,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2022年新版动画的前13话，对应 TMDB 156898 第1季第1—13集。年份、剧情、制作资料及逐集标题和日期均吻合；旧映射的整季范围过宽，第14—24集属于后半季度，应排除。\n\nhttps://www.themoviedb.org/tv/156898 (api_snapshot): TMDB 156898 首播日期为 2022-06-30，原作为萩原一至，制作公司包括 LIDENFILMS、Warner Bros. Japan；剧情为梅塔里卡纳王国为抵御企图复活破坏神的军团而解放暗黑施奈德，与输入一致。\n\nhttps://bastard-anime.com/staffcast/index1.html (page): 官方第1期制作名单确认导演尾崎隆晴、人物设计小野早香、音乐高梨康治及动画制作 LIDENFILMS，与输入制作资料及 TMDB 身份信息吻合。\n\nhttps://www.themoviedb.org/tv/156898/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—13集标题依次为登場、暴走、誘拐、突入、決着、因縁、魔獣、真祖、青爪、雷神、預言、死生、動揺，与输入13话逐集一致，日期均为2022-06-30。第14—24集日期为2022-09-15，不属于本 subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/367726; https://www.themoviedb.org/tv/156898; https://bastard-anime.com/staffcast/index1.html; https://www.themoviedb.org/tv/156898/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156898
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 156898,
       "season": 1,
       "type": "tv"

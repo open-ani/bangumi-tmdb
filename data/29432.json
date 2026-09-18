@@ -1,14 +1,48 @@
 {
   "anidbId": 8597,
   "bangumiId": 29432,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 151740,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 151741,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 151740,
+      "targets": [
+        {
+          "episode": 12,
+          "id": 69189,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 151741,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 69189,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将本条目标为 OVA、2 话，发售日为 2012-03-21；官方页面明确收录 Smile Channel 1「やまもりパンケーキ」与 Smile Channel 2「絵馬にお願い」。TMDB TV 69189 的特别篇 season 0 中，第 12、13 集标题、剧情和日期分别对应这两话。第 14 集「鍋を食べよう」是 2017 年追加的另一 Bangumi subject（212084），不属于本 subject，因此不能整季纳入。AniDB 标题数据也将 8597 对应为 A Channel +Smile。\n\nhttps://bgm.tv/subject/29432 (page): Bangumi 页面将 Aチャンネル+smile 标为 OVA，话数 2，发售日 2012-03-21；章节为两话，且关联条目明确另有续集 Aチャンネル 鍋を食べよう。\n\nhttps://www.a-ch.jp/bd_dvd/ova.html (page): 官方页面注明 2012 年 3 月 21 日发售，并列出收录话 Smile Channel 1「やまもりパンケーキ」和 Smile Channel 2「絵馬にお願い」。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题数据片段将 AniDB ID 8597 对应为 A Channel +Smile。\n\nhttps://www.themoviedb.org/tv/69189/season/0 (api_snapshot): 附带的 TMDB API 快照显示 season 0 第 12 集为「Aチャンネル＋smile 第1話 やまもりパンケーキ」，第 13 集为「Aチャンネル＋smile 第2話 絵馬にお願い」，剧情与本 subject 两话对应；第 14 集为 2017 年的「鍋を食べよう」，属于另一 subject。",
+    "evidence": "codex: 确认本作对应 TMDB 69189 第0季第12—13集。两话的标题、剧情、顺序、OVA发行信息及制作人员相符；第1话日期差异可由官方先行上映公告解释。仅纳入这两集，排除同季其他短篇及2017年追加篇。\n\nhttps://bgm.tv/subject/29432 (page): Bangumi 将本作标为两话 OVA，原作为黒田bb，导演为小野学。\n\nhttps://www.a-ch.jp/bd_dvd/ova.html (page): 官方商品页确认 OVA 于2012年3月21日发售，收录第1话「やまもりパンケーキ」与第2话「絵馬にお願い」。\n\nhttps://www.a-ch.jp/story/index.html (page): 官方两话剧情分别为四人去咖啡店吃松饼、遇见美保和丰，以及除夕参拜并写绘马，与 TMDB 第0季第12、13集简介逐一吻合。\n\nhttps://www.a-ch.jp/news/index.html (page): 官方确认第1话于2012年2月11日至12日举办先行上映，解释了 TMDB 第12集日期为2012-02-11、而 Bangumi 使用光盘发售日2012-03-21的差异。\n\nhttps://www.themoviedb.org/tv/69189 (api_snapshot): TMDB 69189 为《Aチャンネル》，导演小野学、编剧浦畑達彦、制作公司 Studio五组及主要角色声优与官方资料一致；别名包含 Aチャンネル＋smile。\n\nhttps://www.themoviedb.org/tv/69189/season/0 (api_snapshot): 已读取第0季完整14集集表（共1页）：第12、13集明确标为＋smile第1、2话，标题及剧情均一致；第1至11集是2011年短篇，第14集是2017年「鍋を食べよう」，不属于本条目。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/29432; https://www.a-ch.jp/bd_dvd/ova.html; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/69189/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/29432; https://www.a-ch.jp/bd_dvd/ova.html; https://www.a-ch.jp/story/index.html; https://www.a-ch.jp/news/index.html; https://www.themoviedb.org/tv/69189; https://www.themoviedb.org/tv/69189/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

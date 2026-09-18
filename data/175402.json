@@ -1,21 +1,119 @@
 {
   "anidbId": 12019,
   "bangumiId": 175402,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 641401,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 641402,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 641403,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 641404,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 641405,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 641406,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 641407,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 641408,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 641409,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 641410,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 641411,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 641412,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 653917,
+      "sort": 5.5,
+      "type": 1
+    },
+    {
+      "id": 685108,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 653917,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 67616,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2016-07-05 开播、12 话的 TV 动画，制作方为 Brain's Base，导演为吉村爱；首集、末集剧情和角色设定也与 TMDB 条目一致。TMDB 67616 同名、首播日相同、总集数为 12；其第 1 季的 12 个剧集标题从「幕が上がる」至「チアダンシ!!」逐一对应 Bangumi 正篇 1–12。Bangumi 的 5.5 话是 2016-08-09 播出的总集篇，12.5 话是 Blu-ray/DVD 特典 OVA，不属于这部 TV 正篇季，因此推荐完整 TMDB 第 1 季。\n\nhttps://bgm.tv/subject/175402 (page): Bangumi 将条目标为 TV，记载 12 话、2016-07-05 开播、2016-09-27 结束，并列出 Brain's Base、吉村爱及相同制作委员会。\n\nhttps://bgm.tv/ep/641401 (page): Bangumi 正篇第 1 话为「幕が上がる」，首播 2016-07-05，剧情为晴希退出柔道后开始男子啦啦队。\n\nhttps://bgm.tv/ep/641412 (page): Bangumi 正篇第 12 话为「チアダンシ!!」，首播 2016-09-27，剧情为 BREAKERS 参加全国舞台前的最终准备。\n\nhttps://bgm.tv/ep/653917 (page): Bangumi 将 2016-08-09 的「七人で見た景色」标为 SP.5.5，属于总集篇而非正篇第 6 话。\n\nhttps://bgm.tv/ep/685108 (page): Bangumi 将「色々男子!!／簡単!! チア男子と一緒にアップダンス」标为 SP.12.5，并明确注明为 Blu-ray/DVD 映像特典 OVA。\n\nhttps://www.themoviedb.org/tv/67616 (api_snapshot): TMDB API 快照显示条目名为「チア男子!!」、首播日为 2016-07-05、总集数为 12，简介描述晴希退出柔道并组建男子啦啦队 BREAKERS。\n\nhttps://www.themoviedb.org/tv/67616/season/1 (api_snapshot): TMDB API 快照显示第 1 季有 12 集，剧集标题完整对应 Bangumi 正篇 1–12，包括「幕が上がる」「RE.START」「歪み」及「チアダンシ!!」。\n\n备注：AniDB 12019 的直接页面请求返回 403，未能独立读取 AniDB 页面本身；但 Bangumi 条目的标题、日期、剧情和制作信息与 TMDB 67616 及其第 1 季逐集吻合。；TMDB 快照中第 1 季第 6 集以后日期比 Bangumi 正式播出日期提前一周，但标题、剧情顺序和总集数均吻合；这属于 TMDB 日期元数据差异，不影响完整第 1 季范围判断。",
+    "evidence": "codex: 确认对应 TMDB 67616 的2016年TV动画：年份、媒介、剧情、导演、原作及制作公司一致。本篇12话标题逐集完全吻合，可连续映射第1季1—12集；总集篇 SP.5.5 按日期和内容映射 S00E01。SP.12.5 的两部特典尚缺足够的 TMDB 身份信息，暂不映射。\n\nhttps://bgm.tv/subject/175402 (page): Bangumi 标明本作为2016年7月5日开播的12话TV动画，导演吉村爱、原作朝井辽、动画制作 Brain's Base，剧情为晴希与一马组建男子啦啦队 BREAKERS。\n\nhttps://www.themoviedb.org/tv/67616 (api_snapshot): TMDB 67616 的首播日期、原作、导演、制作公司及 BREAKERS 剧情均与 Bangumi 相符；详情列有第1季12集和第0季3集。\n\nhttps://www.themoviedb.org/tv/67616/season/1 (api_snapshot): 已读取第1季完整12集，total_pages=1。全部日文集标题与输入的本篇1—12逐集一致，前5集日期一致；第6—12集日期均比 Bangumi 提前7天，但标题及剧情顺序对应，未混入总集篇。\n\nhttps://www.themoviedb.org/tv/67616/season/0 (api_snapshot): 已读取第0季完整3集及英文信息，total_pages=1。第1集为2016年8月9日的总集篇，简介明确回顾前5集并介绍啦啦队基础，对应 Bangumi SP.5.5。第2、3集仅名为 Special 1、Special 2，时长5分钟、19分钟，日期分别为2016年12月22日、12月27日，均无简介。\n\nhttps://youranimes.tw/animes/1849 (search_snippet): 资料将「七人で見た景色」列为2016年8月9日播出的第5.5话，内容为前5话总集篇，与 TMDB S00E01 的日期及简介吻合。\n\nhttps://www.cheer-boys.com/archives/products/bd04/ (page): 官方第4卷商品页分别列出两部OVA：「色々男子!!」预计4分钟，以及「簡単!! チア男子と一緒にアップダンス」预计19分钟；证实 Bangumi SP.12.5 的标题包含两个独立特典。\n\n备注：TMDB S01E06—E12 的日期比 Bangumi 提前一周；标题、剧情顺序和总集数仍一致，因此保留按集号对应。；Bangumi 章节685108可能对应 S00E02与S00E03，但 TMDB 缺少具体标题及简介，且第3集日期与输入不一致。时长只能作为线索，暂留空；需补充能确认两集内容的 TMDB 元数据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/175402; https://bgm.tv/ep/641401; https://bgm.tv/ep/641412; https://bgm.tv/ep/653917; https://bgm.tv/ep/685108; https://www.themoviedb.org/tv/67616; https://www.themoviedb.org/tv/67616/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/175402; https://www.themoviedb.org/tv/67616; https://www.themoviedb.org/tv/67616/season/1; https://www.themoviedb.org/tv/67616/season/0; https://youranimes.tw/animes/1849; https://www.cheer-boys.com/archives/products/bd04/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67616
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 67616,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 67616,
+      "season": 0,
       "type": "tv"
     }
   ]

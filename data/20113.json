@@ -1,16 +1,76 @@
 {
   "anidbId": 8722,
   "bangumiId": 20113,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 132477,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 132478,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 132479,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 132480,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 132481,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 132482,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 132483,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 132484,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 132485,
+      "sort": 9,
+      "type": 1
+    },
+    {
+      "id": 132486,
+      "sort": 10,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 的 AniDB 关联为 HIGH SCORE（AniDB 8722），且候选 TMDB TV 79033 与其标题、日文原名、首播日期和作品类型一致。TMDB 第 1 季明确包含 8 集，剧集标题与 Bangumi 的 8 个正篇逐一对应；Bangumi 另列的 2 集为特别篇，而 TMDB 该季本身只有 8 集，因此主体应映射为完整第 1 季，不纳入额外特别篇。Bangumi 与 TMDB 后半段播出日期存在约一周错位，但不足以推翻同一版本判断。\n\nhttps://bgm.tv/subject/20113 (page): Bangumi subject 为 HIGH SCORE，TV 正篇 8 集，另有 2 集特别篇。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (api_snapshot): Anime-Lists 线索关联 AniDB 8722 与 TMDB TV 79033。\n\nhttps://www.themoviedb.org/tv/79033 (api_snapshot): TMDB TV 79033 为 HIGH SCORE，首播日期 2011-11-28，第 1 季共 8 集。\n\nhttps://www.themoviedb.org/tv/79033/season/1 (api_snapshot): 第 1 季 8 集标题按顺序与 Bangumi 的 8 个正篇标题逐一对应。\n\n备注：Bangumi 与 TMDB 的第 5—8 集日期相差约一周；但标题顺序、首播日期和集数均吻合。",
+    "evidence": "codex: 确认对应TMDB 79033第1季：年份、首播日、制作公司、导演、角色与声优均吻合，8集标题逐一同序一致，整季恰好覆盖Bangumi本篇。日期差异不影响标题明确的逐集对应。两篇DVD特别篇尚无已核实的TMDB对应，暂留空。\n\nhttps://bgm.tv/subject/20113 (page): Bangumi 标注为2011年11月28日开播的8话TV动画，原作津山ちなみ、动画制作DLE；剧情围绕藤原爱实及其校园日常。\n\nhttps://www.themoviedb.org/tv/79033 (api_snapshot): TMDB 79033 首播日期一致，制作公司为DLE，导演为栗原ハジメ；藤原爱实、松本政宗、增田京介及对应声优与该动画吻合。季列表仅列第1季8集。\n\nhttps://www.themoviedb.org/tv/79033/season/1 (api_snapshot): 第1季完整集表共8集、1页，8个日文标题与Bangumi本篇逐一同序一致。第1—4集日期一致；第5—8集日期分别为2011-12-26、2012-01-02、2012-01-09、2012-01-16，均比Bangumi早14天。\n\nhttps://bgm.tv/subject/20113/ep (page): 章节列表包含本篇1—8及特别篇SP9、SP10；后两篇日期均为2012年3月15日。\n\nhttps://mangapedia.com/HIGHSCORE-li9cbhjue (search_snippet): 作品资料确认津山ちなみ原作、栗原ハジメ导演、DLE制作，剧情为藤原爱实等人的校园喜剧；电视版共8话，播出期间为2011年11月28日至2012年1月30日。\n\nhttps://www.suruga-ya.jp/product/detail/WO1477 (search_snippet): 《みんなのHIGH SCORE》DVD附赠版于2012年3月15日发行，收录电视版8话及未公开动画2话，与Bangumi额外特别篇的数量和日期吻合。\n\n备注：TMDB第5—8集日期均比Bangumi早14天；旧映射所称约一周不准确。；TMDB作品详情未列特别篇季；SP9、SP10未建立映射，不据此断言TMDB未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/20113; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/79033; https://www.themoviedb.org/tv/79033/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/20113; https://www.themoviedb.org/tv/79033; https://www.themoviedb.org/tv/79033/season/1; https://bgm.tv/subject/20113/ep; https://mangapedia.com/HIGHSCORE-li9cbhjue; https://www.suruga-ya.jp/product/detail/WO1477",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79033
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

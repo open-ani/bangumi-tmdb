@@ -1,21 +1,41 @@
 {
   "anidbId": 7494,
   "bangumiId": 38118,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164145,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164145,
+      "targets": [
+        {
+          "episode": 18,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 标题、日期、DVD原创媒介及孤岛夺宝剧情共同确认，本作对应 TMDB 30983 第0季第18集。Bangumi 仅有一话，采用章节 ID 特例映射；第0季还包含其他作品，范围仅限第18集。\n\nhttps://bgm.tv/subject/38118 (page): Bangumi 标明本作是单话 OVA，发售日为2010年4月14日，导演於地紘仁、脚本古内一成，内容为怪盗基德与少年侦探团的交流。\n\nhttps://www.detectiveconanworld.com/wiki/Kid_in_Trap_Island (page): 资料页确认本作为柯南第10部 OVA，日期及导演、编剧与 Bangumi 一致；剧情是基德盗取孤岛酒店的宝石后，与少年侦探团一同受困并逃离。\n\nhttps://api.themoviedb.org/3/movie/960611 (api_snapshot): 旧映射 movie/960611 的详情查询返回 HTTP 404，无法继续采用该电影目标。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): 已读取 TMDB 30983 的作品详情：原名为名探偵コナン，制作公司含 TMS Entertainment，存在收录35集的第0季。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整集表（total_pages=1）。第18集 Kid in Trap Island 的日期为2010年4月14日，时长25分钟；简介明确为DVD原创故事，涉及基德、少年侦探团与孤岛酒店的宝石，与该单话 OVA 一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38118; https://www.detectiveconanworld.com/wiki/Kid_in_Trap_Island; https://api.themoviedb.org/3/movie/960611; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 960611,
-      "type": "movie"
+      "episode": 18,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

@@ -1,18 +1,52 @@
 {
   "anidbId": 15728,
   "bangumiId": 315026,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 977643,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 977644,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 977645,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 977646,
+      "sort": 28,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi 条目明确是《銀河英雄伝説 Die Neue These 激突》第1章剧场版，共4话，章节为25–28。TMDB TV 74018 的第3季明确名为「激突」，且第1–4集标题依次为「初陣」「双璧」「嵐の夜」「改革者」，与 Bangumi 条目的4集完全对应；因此应映射到 TMDB 第3季第1–4集，而不是整季。剧场上映日为2022-03-04，TMDB对应电视季首播为2022-03-18，属于同一内容的剧场/电视发行差异。\n\nhttps://bgm.tv/subject/315026 (page): Bangumi 将条目标为剧场版，显示2022年3月4日、共4话，章节编号为25、26、27、28；简介与制作人员也对应《Die Neue These 激突》。\n\nhttps://www.themoviedb.org/tv/74018 (api_snapshot): TMDB TV 74018 的系列名为「銀河英雄伝説 Die Neue These」，共48集；第3季名为「銀河英雄伝説 Die Neue These 激突」，共12集。\n\nhttps://www.themoviedb.org/tv/74018/season/3 (api_snapshot): TMDB第3季第1–4集分别为「初陣」「双璧」「嵐の夜」「改革者」，日期为2022-03-18至2022-04-08，剧情与 Bangumi 条目简介及章节顺序一致。\n\nhttps://bangumi.tv/ep/977646 (page): Bangumi 第28话为「改革者」，首播日2022-03-04，进一步确认该剧场章包含电视总编号25–28。\n\nhttps://blog.livedoor.jp/makorin8823/archives/2022-03.html (search_snippet): 公开摘要明确指出「激突」第1章对应电视总编号25–28，并列出四话内容；这与 TMDB 第3季相对编号1–4一致。\n\n备注：AniDB 15728 页面本次访问返回403，未能独立读取 AniDB 页面核验 Bangumi→AniDB 关联；但目标版本、TMDB ID、季号及集数范围已由 Bangumi 条目和 TMDB剧集标题/剧情直接交叉确认。；TMDB使用季内编号1–4；公开资料中的25–28是该系列的总集编号，不能直接作为 TMDB episode_number。",
+    "evidence": "codex: 确认对应电影918427，同时对应TV 74018第3季第1—4集。电影的上映日期、导演、制作公司及剧情与Bangumi一致；四个本篇章节的标题与TMDB季内第1—4集逐一吻合，官方亦确认本章属于第3期「激突」的分章上映。Bangumi使用剧场上映日，TMDB分集日期较晚，属于发行排期差异。保留旧映射的TV范围，补充电影目标及sort 25—28到季内1—4的连续规则；电影仅作subject整体映射。\n\nhttps://bgm.tv/subject/315026 (page): Bangumi 标注本作为2022年3月4日上映的剧场版，共4话；导演多田俊介，动画制作 Production I.G，发行松竹。\n\nhttps://bgm.tv/subject/315026/ep (page): 章节表仅包含本篇25「初陣」、26「双璧」、27「嵐の夜」、28「改革者」，四话日期均为2022年3月4日。\n\nhttps://www.themoviedb.org/movie/918427 (api_snapshot): 电影918427为《銀河英雄伝説 Die Neue These 激突 第一章》，上映日2022年3月4日，片长105分钟；导演多田俊介，制作公司 Production I.G、松竹，剧情及主要角色与本条目一致。\n\nhttps://www.themoviedb.org/tv/74018 (api_snapshot): TV 74018为2018年开始的 Die Neue These 新版系列，由 Production I.G 制作；第3季明确名为「激突」，共12集。\n\nhttps://www.themoviedb.org/tv/74018/season/3 (api_snapshot): 已读取第3季完整12集季表，total_pages=1。第1—4集依次为「初陣」「双璧」「嵐の夜」「改革者」，日期分别为2022年3月18日、3月25日、4月1日、4月8日；与 Bangumi 第25—28话标题逐一一致，单集约25分钟。\n\nhttps://www.production-ig.co.jp/hotnews/2021/100801.html (page): Production I.G 官方将「激突」明确称为系列第3期，并公布第一章2022年3月4日、第二章4月1日、第三章5月13日上映，确认第一章只是第3期的一部分。\n\nhttps://www.production-ig.co.jp/hotnews/2021/122101.html (page): 官方第一章预告介绍包含尤里安初阵、米达麦亚与罗严塔尔的往事、莱因哈特失去吉尔菲艾斯后的状态及新将领集结，与 TMDB 第3季前四集剧情相符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/315026; https://www.themoviedb.org/tv/74018; https://www.themoviedb.org/tv/74018/season/3; https://bangumi.tv/ep/977646; https://blog.livedoor.jp/makorin8823/archives/2022-03.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/315026; https://bgm.tv/subject/315026/ep; https://www.themoviedb.org/movie/918427; https://www.themoviedb.org/tv/74018; https://www.themoviedb.org/tv/74018/season/3; https://www.production-ig.co.jp/hotnews/2021/100801.html; https://www.production-ig.co.jp/hotnews/2021/122101.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 28,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 25,
+      "tmdbId": 74018
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "id": 918427,
+      "type": "movie"
+    },
     {
       "episode": 1,
       "episodeEnd": 4,

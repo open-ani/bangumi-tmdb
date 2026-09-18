@@ -1,15 +1,86 @@
 {
+  "anidbId": 18919,
   "bangumiId": 345867,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1399418,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1399419,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1399420,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1399421,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1399422,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1399423,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1399424,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1399425,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1399426,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1399427,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1399428,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1399429,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目《缉妖录之启程篇》与 Bangumi 的中文原名、2024-10-03 首播日期、改编自《吴承恩捉妖记》、腾讯及是船长影视制作信息、剧情和 12 集数量均相符。TMDB 第 1 季明确名为“启程篇”，季表实际包含第 1–12 集，未混入其他作品，因此推荐整季映射。TMDB 集日期为 2024-10-03 至 2024-10-12，属于 VIP 提前播出，与 Bangumi 记录的普通更新结束日 2024-12-19 差异不影响作品身份。\n\nhttps://www.themoviedb.org/tv/273332 (search_snippet): TMDB 搜索结果以《缉妖录之启程篇》命中 TV 273332，日期为 2024-10-03，简介说明改编自《吴承恩捉妖记》。\n\nhttps://www.themoviedb.org/tv/273332 (api_snapshot): 详情确认原名、中文名、2024-10-03 日期、12 集、腾讯企鹅/腾讯视频/是船长影视等制作公司，以及别名“吴承恩缉妖录”“Another Journey to the West”等。\n\nhttps://www.themoviedb.org/tv/273332/season/1 (api_snapshot): 第 1 季名为“启程篇”，实际季表包含第 1 至第 12 集，集数连续且总页数为 1。",
+    "evidence": "codex: 年份、网络动画版本、原作、剧情、制作信息及12集范围共同确认对应TMDB 273332第1季“启程篇”，可映射整季。第1话集号与首播日期一致，建立对应；其余章节暂不生成连续规则。\n\nhttps://bangumi.tv/subject/345867 (page): Bangumi 标注为2024年网络动画，共12话，导演张恬恬、郭然，腾讯视频与是船长影视出品，改编自《吴承恩捉妖记》；普通更新结束于12月19日，VIP结束于10月12日。\n\nhttps://www.themoviedb.org/tv/273332 (api_snapshot): 原名搜索命中273332；详情确认2024年10月3日首播、12集，剧情为吴道应跟随青玄缉妖，原作、别名及腾讯视频、是船长影视、729声工场等制作信息吻合。\n\nhttps://www.themoviedb.org/tv/273332/season/1 (api_snapshot): 第1季名为“启程篇”，完整读取唯一一页集表，共12集，无其他篇章。第1—3集日期均为2024年10月3日，第4—12集依次为10月4—12日；标题仅为通用集号。\n\nhttps://wetv.vip/zh-cn/play/49tflpvzr5cfygy/w4100zua33z (page): WeTV官方页面确认2024年同名作品全12集，正片编号01—12；原作及吴道应、青玄、李家大小姐的剧情与候选一致。\n\nhttps://www.sohu.com/a/809411313_99984599 (search_snippet): 开播前报道说明是船长影视制作、阿杰与谷江山配音；排期为10月3日更新两集，之后会员每日更新、非会员每周四更新。首日两集的说法与TMDB首日三集存在差异。\n\n备注：Bangumi第2—12话采用周更日期，TMDB采用密集更新日期；Bangumi无分集标题，TMDB也只有通用集号，不能靠位置完成独立逐集核验。；首日更新两集的宣传与TMDB首日三集存在差异。需要腾讯或WeTV历史逐集上线记录或可比对的分集内容，才能补齐第2—12话规则；该缺口不影响作品及整季范围确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/345867; https://www.themoviedb.org/tv/273332; https://www.themoviedb.org/tv/273332/season/1",
-    "verifiedAt": "2026-09-08T23:05:48.388Z"
+    "source": "https://bgm.tv/subject/345867; https://bangumi.tv/subject/345867; https://www.themoviedb.org/tv/273332; https://www.themoviedb.org/tv/273332/season/1; https://wetv.vip/zh-cn/play/49tflpvzr5cfygy/w4100zua33z; https://www.sohu.com/a/809411313_99984599",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 273332
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

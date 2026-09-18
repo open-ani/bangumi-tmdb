@@ -1,16 +1,46 @@
 {
   "anidbId": 11715,
   "bangumiId": 157922,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 645231,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 645232,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 645233,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 645234,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 明确是《天地無用! 魎皇鬼 第四期》OVA，共4话，制作人员为髙橋英俊、AIC/C2C。TMDB TV 43004 的第4季同名、2016-11-30开始、共4集；四集标题及剧情简介与该 subject 对应，故采用完整第4季。Bangumi记录的结束日期为2017-08-30，但TMDB第4集日期为2017-09-13，独立剧集资料也支持9月13日，判断为Bangumi日期记录差异，不影响版本和范围判断。\n\nhttps://bgm.tv/subject/157922 (page): Bangumi将该条目标为OVA，共4话；标题、导演髙橋英俊、动画制作AIC/C2C及四个章节均与第4期相符。页面记录开始于2016-11-30、结束于2017-08-30。\n\nhttps://www.themoviedb.org/tv/43004 (api_snapshot): TMDB TV 43004名为《天地無用! 魎皇鬼》，包含第4季；第4季名称为《天地無用！魎皇鬼 第四期》，季首日期2016-11-30、共4集。\n\nhttps://www.themoviedb.org/tv/43004/season/4 (api_snapshot): TMDB第4季完整返回4集，标题依次为「前日宴」「柾木の宿命」「誓いと願い」「いい日旅立ち」，日期为2016-11-30、2017-02-22、2017-05-31、2017-09-13；集数范围应为1-4。\n\nhttps://www.crunchyroll.com/series/G60XPMX7R/tenchi-muyo-ryo-ohki (search_snippet): 搜索摘要列出Ryo-Ohki Season 4的E1至E4，英文标题分别对应TMDB第4季四集，支持该季为4集的版本对应。\n\nhttps://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8%EF%BC%81 (search_snippet): 搜索摘要列出第四期四卷发行日期，末卷为2017-09-13，并列出与该版本相同的四集标题。\n\n备注：AniDB 11715的原始页面访问返回403，未能直接读取AniDB页面核验ID字段；但Bangumi主体信息、TMDB第4季四集标题/剧情及独立发行日期资料彼此一致。；Bangumi将第4集结束日期记为2017-08-30，与TMDB及独立发行资料的2017-09-13不一致。",
+    "evidence": "codex: 确认对应TMDB 43004完整第4季。OVA版本、年份、制作人员、全4卷范围及首末话剧情一致；前三章日期完全吻合，四卷标题与TMDB集表顺序一致。第四章日期对应发行方原定日期，后续商品资料支持TMDB所列9月13日，因此本篇sort 1—4可连续对应S4E1—E4，未混入其他期或特典。\n\nhttps://bgm.tv/subject/157922 (page): Bangumi 标明本作为2016年开始的第四期OVA，共4话；原作及总导演梶島正樹、导演髙橋英俊、动画制作AIC与C2C，是第三期的正史续篇。\n\nhttps://www.themoviedb.org/tv/43004 (api_snapshot): 以日文原名搜索命中43004；详情确认这是AIC制作的《天地無用! 魎皇鬼》系列，第4季明确命名为第四期，始于2016-11-30，共4集，与第三期及第五期分别编季。\n\nhttps://www.themoviedb.org/tv/43004/season/4 (api_snapshot): 第4季集表共1页、4集：1「前日宴」2016-11-30；2「柾木の宿命」2017-02-22；3「誓いと願い」2017-05-31；4「いい日旅立ち」2017-09-13。剧情依次涉及婚礼准备、水穗与天地相处、信幸与玲亚结婚、剑士出生及教育。\n\nhttps://prtimes.jp/main/html/rd/p/000000002.000020387.html (page): 发行方新闻稿确认第四期为全4卷OVA，制作人员与Bangumi一致；四卷原定发行日期逐一对应Bangumi四章日期。第1话婚礼筹备及天地初见水穗的剧情与TMDB第4季第1集一致。\n\nhttps://www.animatetimes.com/news/details.php?id=1499909146 (page): 第四卷报道仍列原定发行日2017-08-30；第4话讲述剑士出生及其教育，与TMDB第4季第4集剧情一致，并确认导演髙橋英俊、制作AIC×C2C。\n\nhttps://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8%EF%BC%81 (search_snippet): 第四期各话表列出四卷标题及发行日期，与TMDB第4季四集逐一一致，末卷为2017-09-13。\n\nhttps://books.rakuten.co.jp/rb/14308384/?l-id=mediamix-318 (search_snippet): 第四期第4卷特装版商品资料列发行日2017-09-13，品番LXAICT-491，支持TMDB末集日期。\n\n备注：Bangumi第4章仍记2017-08-30，TMDB及商品资料记2017-09-13；已确认前者是原定发行日，但本次未取得正式延期公告。；Bangumi四章标题为空；逐集对应通过卷次发行日、外部四话标题表及首末话剧情交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/157922; https://www.themoviedb.org/tv/43004; https://www.themoviedb.org/tv/43004/season/4; https://www.crunchyroll.com/series/G60XPMX7R/tenchi-muyo-ryo-ohki; https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8%EF%BC%81",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/157922; https://www.themoviedb.org/tv/43004; https://www.themoviedb.org/tv/43004/season/4; https://prtimes.jp/main/html/rd/p/000000002.000020387.html; https://www.animatetimes.com/news/details.php?id=1499909146; https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%9C%B0%E7%84%A1%E7%94%A8%EF%BC%81; https://books.rakuten.co.jp/rb/14308384/?l-id=mediamix-318",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 43004
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

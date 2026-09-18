@@ -1,13 +1,75 @@
 {
+  "anidbId": 11825,
   "bangumiId": 165394,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 697121,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 697122,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 697123,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 697124,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 697125,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 697126,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 697127,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 697128,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 697129,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 697130,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 697131,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 697132,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 113064 与 Bangumi《コチンPa!》身份一致：同名日文标题、2015 年、15 秒 TV/CM 短动画、角色及声优 Pile/花澤香菜/井口裕香均吻合。TMDB 将作品拆为两季；第一季实际为 12 集，正好覆盖该 Bangumi subject 的 12 集，因此使用第 1 季整季映射。第二季为独立的 24 集，不应并入本 subject。\n\nhttps://api.bgm.tv/v0/subjects/165394 (api_snapshot): Bangumi 原始 API 标记为 TV 动画，首播 2015-12-22，共 12 集，简介明确为 15 秒 CM 动画。\n\nhttps://www.themoviedb.org/tv/113064 (api_snapshot): TMDB 详情显示原名/名称为「コチンPa！」，首播 2015-12-12，共 2 季 36 集；第 1 季 12 集、第 2 季 24 集；演员包括 Pile、花澤香菜、井口裕香。\n\nhttps://www.themoviedb.org/tv/113064/season/1 (api_snapshot): TMDB 第 1 季实际集表共 12 集，episode 1–12，total_pages=1，未混入其他作品。\n\nhttps://www.themoviedb.org/tv/113064/season/2 (api_snapshot): TMDB 第 2 季实际为独立的 24 集，episode 1–24，起始日期为 2016-09-09。\n\nhttps://www.atpress.ne.jp/news/117855 (page): 制作方株式会社アイランド的公告称该作品是 15 秒 TV 动画；第 1 期为全 12 话，第 2 期改为全 24 话，并列出相同的主要工作人员和声优。\n\n备注：TMDB 第 1 季记录的首播日期为 2015-12-12，而 Bangumi 与制作方资料为 2015-12-22；日期口径存在差异，但标题、媒介、角色、声优及分季集数均一致，不影响本次身份和整季范围判断。",
+    "evidence": "codex: 作品原名、年份、角色与声优，以及官方确认的两期12话/24话结构共同支持对应TMDB 113064第一季整季。实际季表仅含12集，范围与本subject一致。逐集标题和日期不足以核实顺序，因此保留整季映射，逐集规则留空。\n\nhttps://bgm.tv/subject/165394 (page): Bangumi 标为 TV 动画，共12话，2015年12月22日开播；简介为アイラ、はな、シマ出演的15秒CM动画，导演菅原そうた，人物设定wogura。\n\nhttps://www.atpress.ne.jp/news/85283 (page): 制作方首播公告确认2015年12月22日在TOKYO MX开始播出15秒剧情动画，原则上隔周更新；导演、人物设定及三位角色声优与Bangumi一致，角色歌曲和MV另行制作。\n\nhttps://www.atpress.ne.jp/news/117855 (page): 制作方明确第一期为12话、第二期为24话，两期均播出半年；第一期隔周更新，第二期每周更新。\n\nhttps://www.themoviedb.org/tv/113064 (api_snapshot): TMDB详情原名为「コチンPa！」，角色及声优为Aira/Pile、Hana/花澤香菜、Shima/井口裕香；分为第一季12集、第二季24集，与官方分期结构一致。\n\nhttps://www.themoviedb.org/tv/113064/season/1 (api_snapshot): 第一季实际集表共12集，编号1至12，total_pages=1；标题仅为「第N話」，无剧情简介。日期按周列为2015年12月12日至2016年2月27日，与官方播出信息冲突。\n\nhttps://bgm.tv/subject/165394/ep (page): Bangumi章节列表包含本篇1至12，但没有集标题或播出日期，无法与TMDB逐集交叉验证。\n\n备注：TMDB第一季首播及逐周日期与官方2015年12月22日首播、隔周更新的说明冲突，不能用于逐集匹配。；Bangumi缺少逐集标题和日期，TMDB仅有通用编号标题；需要官方逐话档案或内容证据后才能建立逐集规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/165394; https://api.bgm.tv/v0/subjects/165394; https://www.themoviedb.org/tv/113064; https://www.themoviedb.org/tv/113064/season/1; https://www.themoviedb.org/tv/113064/season/2; https://www.atpress.ne.jp/news/117855",
-    "verifiedAt": "2026-09-08T20:14:34.415Z"
+    "source": "https://bgm.tv/subject/165394; https://www.atpress.ne.jp/news/85283; https://www.atpress.ne.jp/news/117855; https://www.themoviedb.org/tv/113064; https://www.themoviedb.org/tv/113064/season/1; https://bgm.tv/subject/165394/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

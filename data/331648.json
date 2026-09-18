@@ -1,13 +1,74 @@
 {
   "bangumiId": 331648,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1018144,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1018145,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1018146,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1018147,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1018148,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1018149,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1018150,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1018151,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1018152,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1018153,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1018154,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1018155,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是《Paradise PD》第三季：2021-03-12 开播、WEB/Netflix、12 集，导演 Mike Disa、Ashley J. Long，编剧 Roger Black、Waco O'Guin。TMDB TV 81983 的原名为 Paradise PD，剧情、开播日期及制作/配音阵容一致，并明确有第 3 季且该季为 12 集。实际季表包含第 1—12 集，全部于 2021-03-12 播出，未混入其他季度，因此可映射为完整第 3 季。Bangumi 提供的 IMDb 线索 tt13604868 在 TMDB 中只对应第 3 季第 1 集，不能作为整部剧 ID。\n\nhttps://api.bgm.tv/v0/subjects/331648 (api_snapshot): Bangumi API 原始信息确认标题、2021-03-12 日期、WEB 平台、12 集及导演/编剧。\n\nhttps://www.themoviedb.org/tv/81983 (api_snapshot): TMDB 详情确认作品原名 Paradise PD、2018-08-31 开播、剧情简介、4 季共 40 集，并列出第 3 季日期为 2021-03-12、集数为 12。\n\nhttps://www.themoviedb.org/tv/81983/season/3 (api_snapshot): TMDB 第 3 季实际集表返回 12 集，编号连续为 1—12，日期均为 2021-03-12。\n\nhttps://www.netflix.com/title/80191522 (search_snippet): Netflix 官方作品页搜索摘要包含 Paradise PD 的 Part 3 Trailer，支持其为 Netflix 动画剧集的第三部分/季度。\n\nhttps://www.rottentomatoes.com/tv/paradise_pd/s03/e01/cast-and-crew (search_snippet): 第三季第 1 集资料列出 Roger Black、Waco O'Guin 等创作人员及主要配音阵容，与 Bangumi 信息相互印证。\n\n备注：TMDB 详情接口返回的 crew 数组为空，因此制作人员的直接 TMDB 工作人员字段不完整；导演和编剧由 Bangumi 原始 API 及第三方剧集资料交叉确认。",
+    "evidence": "codex: 作品身份及整季范围已确认：平台、创作者、年份、季度关系和12集规模共同支持对应 TMDB 81983 第三季。Bangumi 章节缺少标题及日期，无法按要求逐集核对，因此只确认整季目标，不凭编号顺序生成 rules 或 overrides。\n\nhttps://bgm.tv/subject/331648 (page): Bangumi 确认为 Netflix 网络动画《天堂镇警局》第三季，2021-03-12 上线，共12话；编剧为 Roger Black、Waco O'Guin，关联前后两季。\n\nhttps://bangumi.tv/subject/331648/ep (page): 章节页仅列本篇1—12，均无标题和播出日期，无法直接进行章节内容核对。\n\nhttps://www.netflix.com/title/80191522 (page): Netflix 官方确认该作为成人动画，共四部分，创作者为 Roger Black、Waco O'Guin；警局剧情简介和主演与 TMDB 一致，并列有第三部分预告。\n\nhttps://www.themoviedb.org/tv/81983 (api_snapshot): 实际调用详情确认 TV 81983 为 Paradise PD，2018年首播；第三季为2021-03-12上线、12集，前后季日期也与输入关联条目一致。\n\nhttps://www.themoviedb.org/tv/81983/season/3 (api_snapshot): 第三季实际集表共1页、12集，编号1—12，全部于2021-03-12上线，首集 Fallout、末集 PARAD-ISIS；未混入其他季。时长为23—30分钟。\n\nhttps://www.tvmaze.com/seasons/120362/paradise-pd-season-3/episodeguide (search_snippet): TVmaze 第三季集表的12集标题、顺序及上线日期与 TMDB 一致，剧情也相符。\n\nhttps://api.themoviedb.org/3/find/tt13604868?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 IMDb 线索 tt13604868，仅返回 TV 81983 第三季第1集，并非整部剧或整季。\n\n备注：逐集映射需补充 Bangumi 各章节的标题、日期或内容资料；subject 级 IMDb 线索不能直接绑定某个 Bangumi 章节。；Bangumi 标注每集22分钟，与 TMDB 的23—30分钟存在差异；目前无证据表明存在独立剪辑版本，保留该元数据差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/331648; https://api.bgm.tv/v0/subjects/331648; https://www.themoviedb.org/tv/81983; https://www.themoviedb.org/tv/81983/season/3; https://www.netflix.com/title/80191522; https://www.rottentomatoes.com/tv/paradise_pd/s03/e01/cast-and-crew",
-    "verifiedAt": "2026-09-08T22:49:45.536Z"
+    "source": "https://bgm.tv/subject/331648; https://bangumi.tv/subject/331648/ep; https://www.netflix.com/title/80191522; https://www.themoviedb.org/tv/81983; https://www.themoviedb.org/tv/81983/season/3; https://www.tvmaze.com/seasons/120362/paradise-pd-season-3/episodeguide; https://api.themoviedb.org/3/find/tt13604868?external_source=imdb_id",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

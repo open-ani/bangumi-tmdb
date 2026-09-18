@@ -1,16 +1,103 @@
 {
   "anidbId": 14483,
   "bangumiId": 266301,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 925579,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 925580,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 925581,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 925582,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 925583,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 925584,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 925585,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 925586,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 925587,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 925588,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 925589,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 925590,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 943307,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 943307,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 94404,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2020 年 TV 正篇，共 12 集，标题、日期、剧情与 TMDB 94404 第 1 季 1–12 集逐集对应。该条目另含一个 2020-06-17 的 SP，内容是六个 OVA 短篇合并后的单集；TMDB 94404 的特别篇为第 0 季，共 7 集，其中第 7 集标为 Episode 13 (OVA)，与 Bangumi SP 的标题和时长对应。因此主体应映射为第 1 季 1–12 集及第 0 季第 7 集；不纳入第 0 季 1–6 集的拆分短篇。\n\nhttps://bgm.tv/subject/266301 (page): Bangumi 确认该主体为《ドロヘドロ》TV，12 集，2020-01-12 开始、2020-03-29 结束，制作公司为 MAPPA，并列出与输入一致的导演、原作和制作信息。\n\nhttps://bgm.tv/subject/266301/ep (page): Bangumi 章节列表逐集列出正篇 1–12，日期为 2020-01-12 至 2020-03-29，并另列一个特别篇 SP.1。\n\nhttps://bgm.tv/ep/943307 (page): Bangumi SP.1 的标题包含「仮面格差」「店舗for you」「下っ端青春グラフィティー」「あなたの知らないギョーザの怪」「オドル魔ノウタゲ」「夜風に吹かれて大葉記念日」，时长 25:28，首播 2020-06-17。\n\nhttps://www.themoviedb.org/tv/94404 (api_snapshot): TMDB API 快照确认 TV ID 94404、原名 ドロヘドロ，共 23 集；第 1 季 12 集、第 0 季特别篇 7 集，整体简介与 Bangumi 主体一致。\n\nhttps://www.themoviedb.org/tv/94404/season/1 (api_snapshot): TMDB API 快照逐集列出第 1 季 1–12 集；标题和日期与 Bangumi 正篇逐集对应，TMDB 日期仅因平台时区显示为次日。\n\nhttps://www.themoviedb.org/tv/94404/seasons (search_snippet): TMDB 搜索摘要确认 94404 的 Season 0 为 2020-06-17、7 集，Season 1 为 2020 年、12 集。\n\nhttps://netflix.originals.watch/media/1285/dorohedoro/season/0 (search_snippet): 特别篇列表将第 0 季第 7 集标为 Episode 13 (OVA)，并说明其包含六个 OVA 短篇；与 Bangumi SP.1 的六段标题和发布日期一致。\n\nhttps://www.wikidata.org/wiki/Q96516868 (search_snippet): 搜索摘要将 Dorohedoro 的 AniDB anime ID 标为 14483，并记载其为 12 集作品；与 Bangumi 提供的 AniDB ID、标题和集数相符。",
+    "evidence": "codex: 确认对应 TMDB 94404 第 1 季第 1–12 集及第 0 季第 7 集。本篇逐集标题、数量和周播顺序吻合；特别篇的六段内容、发布日期及总时长确认对应合并 OVA，无需重复映射拆分的第 0 季第 1–6 集。2026 年第 2 季不属于本 subject。\n\nhttps://www.themoviedb.org/tv/94404 (api_snapshot): 以日文原名搜索得到 TV 94404；详情确认是 2020 年动画，导演林祐一郎、原作林田球、制作公司 MAPPA，开曼与二阶堂寻找解除蜥蜴头魔法的方法，年份、剧情及制作信息均吻合。\n\nhttps://www.themoviedb.org/tv/94404/season/1 (api_snapshot): 第 1 季完整集表共 12 集，total_pages=1。逐集日文标题与输入本篇 1–12 一致，仅有标点及读音注记差异；日期为 2020-01-13 至 2020-03-30，逐集均比 Bangumi 晚一天，周播间隔一致。\n\nhttps://www.themoviedb.org/tv/94404/season/0 (api_snapshot): 第 0 季完整集表共 7 集，total_pages=1。第 1–6 集是六段独立短篇；第 7 集为合并 OVA，时长 25 分钟，日期 2020-06-17，简介按顺序列出的六段标题与 Bangumi SP.1 完全对应。\n\nhttps://bgm.tv/ep/943307 (page): SP.1 章节 943307 包含六段标题，时长 25 分 28 秒，首播日期 2020-06-17，与 TMDB S00E07 的合并版本吻合。\n\nhttps://dorohedoro.net/ (page): 官网确认第 1 季全 12 话，2020 年动画由 MAPPA 制作，原作为林田球，剧情与输入一致；2026 年 Season 2 为后续季度。\n\n备注：TMDB 本篇日期逐集比 Bangumi 晚一天，具体日期记载口径未确认；标题、集数及完整排期顺序一致，不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/266301; https://bgm.tv/subject/266301/ep; https://bgm.tv/ep/943307; https://www.themoviedb.org/tv/94404; https://www.themoviedb.org/tv/94404/season/1; https://www.themoviedb.org/tv/94404/seasons; https://netflix.originals.watch/media/1285/dorohedoro/season/0; https://www.wikidata.org/wiki/Q96516868",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/266301; https://www.themoviedb.org/tv/94404; https://www.themoviedb.org/tv/94404/season/1; https://www.themoviedb.org/tv/94404/season/0; https://bgm.tv/ep/943307; https://dorohedoro.net/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 94404
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

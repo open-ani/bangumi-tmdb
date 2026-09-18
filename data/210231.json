@@ -1,16 +1,91 @@
 {
   "anidbId": 12889,
   "bangumiId": 210231,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 703983,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 703984,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 703985,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 703986,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 703987,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 703988,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 703989,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 703990,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 703991,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 703992,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 703993,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 703994,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 734538,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject《地狱少女 宵伽》为2017年7月播出的12集TV主体。TMDB TV 8974明确将第4季命名为《地獄少女 宵伽》，首播日期为2017-07-14，共12集；季内12集标题与Bangumi正篇逐集对应。因此应映射为TV 8974第4季完整一季。附带的Bangumi特别节目不属于该12集主体，且TMDB第4季也未包含额外主体集数。\n\nhttps://www.themoviedb.org/tv/8974 (api_snapshot): TMDB主页面将TV 8974列出第4季《地獄少女 宵伽》，首播日期2017-07-14，包含12集。\n\nhttps://www.themoviedb.org/tv/8974/season/4 (api_snapshot): TMDB第4季名称、日期和12集内容与Bangumi主体逐集匹配：包括《見えない聞こえない》《あなたしかいない》以及第7至12集的《回顧録》标题。",
+    "evidence": "codex: 确认对应 TMDB TV 8974 第4季整季。年份、TV媒介、制作人员、满的主线剧情及全部12集标题和顺序相符；后六集是加入新回想场景的宵伽回顾录版本，应映射本季。日期虽有部分异常，但官方逐集剧情及标题足以确认本篇1—12话一一对应。附带特别节目暂不映射。\n\nhttps://www.themoviedb.org/tv/8974 (api_snapshot): 日文原名搜索返回 TV 8974；详情明确将《地獄少女 宵伽》列为第4季，2017年首播、12集。该季简介中阎魔爱与失忆少女满的剧情与输入一致，制作公司、导演及主要声优也与官方资料相符。\n\nhttps://www.themoviedb.org/tv/8974/season/4 (api_snapshot): 第4季集表共12集、仅1页。逐集标题与 Bangumi 本篇1—12话全部对应，前六集及后六集回顾录的剧情亦与官方集表吻合。日期存在差异：第1集一致，第2及5—12集晚一天，第3、4集均记为2017-08-06。\n\nhttps://www.jigokushoujo.com/sp/news/?id=44165 (page): 官方明确第1—6话为新故事、第7—12话为回顾录；回顾录加入新制作的回想场景，属于宵伽特别版本，并逐一列明六集标题与顺序。\n\nhttps://www.aniplex.co.jp/lineup/jigokushojo4/story/ (page): Aniplex 官方集表提供全部六话新故事及六话回顾录的标题、剧情，与 TMDB 第4季逐集对应。\n\nhttps://www.deen.co.jp/works-archives/jigoku-4 (search_snippet): 制作公司确认本作为2017年7月14日24时起播出的TV动画，结构为六话新作加六话回顾录；导演大森贵弘、动画制作 Studio Deen，与 TMDB 资料一致。\n\nhttps://www.themoviedb.org/tv/8974/season/0 (api_snapshot): 第0季共11集、仅1页。第11集日期为2017-08-25，但日英文标题均为通用集号、简介为空，无法据此确认其是否对应 Bangumi 的放送前特别节目。\n\n备注：TMDB 第3、4集日期与 Bangumi 分别相差9天、2天，不能统一用午夜跨日解释；其标题和剧情对应明确。；Bangumi 特别篇734538与 TMDB S0E11只有日期吻合，缺少标题或内容证据，保留未映射；需补查该集节目资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/210231; https://www.themoviedb.org/tv/8974; https://www.themoviedb.org/tv/8974/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/210231; https://www.themoviedb.org/tv/8974; https://www.themoviedb.org/tv/8974/season/4; https://www.jigokushoujo.com/sp/news/?id=44165; https://www.aniplex.co.jp/lineup/jigokushojo4/story/; https://www.deen.co.jp/works-archives/jigoku-4; https://www.themoviedb.org/tv/8974/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 8974
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

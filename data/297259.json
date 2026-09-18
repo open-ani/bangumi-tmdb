@@ -1,15 +1,86 @@
 {
+  "anidbId": 15783,
   "bangumiId": 297259,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 924345,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 924346,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 924347,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 924348,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 924349,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 924350,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 924351,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 924352,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 924353,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 924354,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 924355,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 924356,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 104697 是 2015 年起播的《择天记》动画系列，原作、剧情、中文标题及制作公司（阅文集团、腾讯企鹅影视、上海福煦）与 Bangumi 主体一致，并且明确包含 2020-03-16 开播的第 5 季。TMDB 第 5 季实际有 12 集，标题顺序与 Bangumi 的 12 集完全对应，因此可匹配整季。TMDB 282158 是 2026 年的新动画版本，71419 是 2017 年真人剧，均排除。\n\nhttps://api.bgm.tv/v0/subjects/297259 (api_snapshot): Bangumi fresh API：主体为《择天记 第五季》，2020-03-16 开播，WEB 媒介，共 12 集；制作公司为上海福煦影视文化投资有限公司。\n\nhttps://www.themoviedb.org/tv/104697 (api_snapshot): TMDB TV 104697：原名《择天记》，2015-07-15 开播，共 5 季 61 集；简介讲述陈长生，别名包含 Way of Choices，制作公司包含 China Literature、Tencent Penguin Pictures、Shanghai Foch Film Culture Investment。\n\nhttps://www.themoviedb.org/tv/104697/season/5 (api_snapshot): TMDB 第 5 季：2020-03-16 开播，实际 12 集，集名从“风雨阻城”至“情丝难斩”，与 Bangumi 集表逐集对应。\n\nhttps://www.themoviedb.org/tv/282158 (api_snapshot): TMDB 282158 为 2026 年开播、仅 1 季的新动画版本，不是 Bangumi 的 2020 年第五季。\n\nhttps://www.themoviedb.org/tv/71419 (api_snapshot): TMDB 71419 为 2017 年真人版《择天记》，演员及制作信息均与动画版不同。\n\n备注：Bangumi 将前两集标为同日（2020-03-16），而 TMDB 记录为每周播出；这是播出日期记录差异，不影响作品身份及第 5 季 12 集范围。",
+    "evidence": "codex: 确认对应TMDB 104697第5季整季。本次重新核查的系列年代、制作公司、剧情人物、第五季首播日期及12集范围一致，且12个章节标题逐集同序吻合，足以建立本篇1—12集的一一对应。\n\nhttps://bgm.tv/subject/297259 (page): Bangumi 标明本作为2020年3月16日开播的12集WEB动画，原作为猫腻，制作涉及阅文集团、企鹅影视及上海福煦；剧情围绕陈长生护卫苏离展开。\n\nhttps://www.themoviedb.org/tv/104697 (api_snapshot): TMDB 104697 为2015年起播的《择天记》系列，简介主角为陈长生，制作公司包含阅文集团、腾讯企鹅影视及上海福煦；共5季，第5季标注2020年3月16日开播、12集。\n\nhttps://www.themoviedb.org/tv/104697/season/5 (api_snapshot): 已读取第5季完整集表，total_pages=1，共12集。去除集号前缀后，全部集名与Bangumi逐集一致，顺序从“风雨阻城”至“情丝难斩”，没有额外或混入其他作品的章节。\n\nhttps://bgm.tv/subject/297259/ep (page): Bangumi完整章节表列出本篇1—12集，与TMDB第5季集名及顺序全部一致。Bangumi前两集同为2020年3月16日，末集为5月25日；TMDB首集日期一致，第2—12集日期分别晚7天。\n\n备注：两站第2—12集播出日期相差7天，原因未核实；TMDB统一记录15分钟，Bangumi记录约19—26分钟。上述元数据差异不影响由完整集名和集数确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/297259; https://api.bgm.tv/v0/subjects/297259; https://www.themoviedb.org/tv/104697; https://www.themoviedb.org/tv/104697/season/5; https://www.themoviedb.org/tv/282158; https://www.themoviedb.org/tv/71419",
-    "verifiedAt": "2026-09-08T21:51:44.087Z"
+    "source": "https://bgm.tv/subject/297259; https://www.themoviedb.org/tv/104697; https://www.themoviedb.org/tv/104697/season/5; https://bgm.tv/subject/297259/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 104697
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

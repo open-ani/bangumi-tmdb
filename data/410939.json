@@ -1,19 +1,91 @@
 {
   "anidbId": 17767,
   "bangumiId": 410939,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1305813,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1305814,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1305815,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1305816,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1305817,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1305818,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1305819,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1305820,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1305821,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1305822,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1305823,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1305824,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、电视动画媒介、导演及剧情均吻合，12集标题和播出日期逐集一致。旧映射的作品及季号正确，但范围应限定为第1季第1—12集；第13—24集属于 Act.2，不应纳入本 subject。\n\nhttps://www.themoviedb.org/tv/216272 (api_snapshot): 以原名 Unnamed Memory 搜索得到 TV 216272。详情确认首播日期为2024年4月9日，导演为三浦和也，剧情为奥斯卡寻找缇娜夏解除无法留下子嗣的诅咒，与输入的电视动画版本一致。TMDB 将全作24集归入第1季。\n\nhttps://www.themoviedb.org/tv/216272/season/1 (api_snapshot): 已读取第1季完整24集集表，total_pages=1。第1—12集的日文标题及播出日期与输入的12个 Bangumi 本篇章节逐集完全一致，日期为2024年4月9日至6月25日；第13集「白紙よりもう一度」始于2025年1月7日，因此本 subject 仅覆盖第1季第1—12集。\n\nhttps://unnamedmemory.com/ (page): 动画官网明确标示 Act.2 于2025年1月7日开始播出，与 TMDB 第1季第13集的日期吻合，支持将续篇与本 subject 分开。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/410939; https://www.themoviedb.org/tv/216272; https://www.themoviedb.org/tv/216272/season/1; https://unnamedmemory.com/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 216272
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 216272,
       "season": 1,
       "type": "tv"

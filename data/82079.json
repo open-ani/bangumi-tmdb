@@ -1,21 +1,136 @@
 {
   "anidbId": 9805,
   "bangumiId": 82079,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 319277,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 319278,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 319279,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 319280,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 319281,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 319282,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 319283,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 319284,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 319285,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 319286,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 319287,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 320747,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 354290,
+      "sort": 1,
+      "type": 4
+    },
+    {
+      "id": 392274,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 392275,
+      "sort": 4,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 392274,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 53020,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 392275,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 53020,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是2013年播出的《てーきゅう》第3期正篇，共12话，即系列连续编号第25面至第36面。TMDB 53020 的第3季名为《てーきゅう3》，包含12集，集名从《先輩とワールド・イズ・ノット・イナフ》至《先輩とコーチ・カーター》，与 Bangumi 正篇逐集吻合，因此应映射完整第3季。旧候选 season 2 实际收录第13面至第24面的第2期，不能采用。TMDB 快照中第6至12集的播出日期存在错误错移，但集名、季名、集数及官方分期均明确证明其仍是同一第3期，而非重制或重剪版本。\n\nhttps://www.themoviedb.org/tv/53020 (api_snapshot): TMDB API 快照显示 TV 53020 是日本动画《てーきゅう》，并将《てーきゅう3》列为第3季，首播日为2013-10-06，共12集。\n\nhttps://www.themoviedb.org/tv/53020/season/3 (api_snapshot): TMDB API 快照显示第3季12集的集名完整对应本 subject 的正篇：从《先輩とワールド・イズ・ノット・イナフ》到《先輩とコーチ・カーター》。\n\nhttps://www.te-kyu.com/story/ (page): 动画官方网站把第25面至第36面归在“てーきゅう 3期”之下，且12个标题与 Bangumi 及 TMDB 第3季一致；第37面起另属第4期。\n\nhttps://bgm.tv/subject/82079 (page): Bangumi 页面确认 subject 82079 是《てーきゅう 3期》TV动画，共12话，播出期为2013-10-06至2013-12-22，章节编号为25至36。\n\nhttps://www.animatetimes.com/tag/details.php?id=14185 (page): Animate Times 独立资料确认《てーきゅう 3期》是全12话TV动画，2013-10-06至2013-12-22播出，剧情与主要角色也和 TMDB 53020 相符。\n\nhttps://www.themoviedb.org/tv/53020/season/2 (api_snapshot): TMDB API 快照显示旧候选第2季收录的是2013年7月至9月播出的第2期内容，首尾标题为《先輩とフルメタルジャケット》和《先輩とおいしいレストラン》，与目标第3期不符。\n\n备注：TMDB 第3季快照把第6至12集的播出日期错误地延后到2013年12月至2014年1月；官方及独立分集资料显示正确播出期截至2013-12-22。该日期质量问题不影响季号和作品身份判断。",
+    "evidence": "codex: 本篇确认对应TMDB 53020第3季全12集：媒介、年份、制作人员、角色、官方分期及逐集标题一致，Bangumi第25至36话依次对应S03E01至E12。两篇SP的标题、前后篇顺序及日期均确认对应S00E03至E04。第2季属于前一期，不能采用。\n\nhttps://www.themoviedb.org/tv/53020 (api_snapshot): TMDB 53020 为日本短篇TV动画《てーきゅう》，剧情围绕龟井户高中网球部四名女生；导演板垣伸、制作公司MAPPA及四位主要声优与Bangumi一致。第3季标为《てーきゅう3》，2013-10-06开播，共12集。\n\nhttps://bgm.tv/subject/82079 (page): Bangumi确认本条目为2013-10-06至2013-12-22播出的第3期TV动画，共12话，导演板垣伸、动画制作MAPPA。\n\nhttps://www.te-kyu.com/story/ (page): 官方网站将第25至36面归入第3期，12个标题及顺序均与Bangumi本篇和TMDB第3季对应；第37面起属于第4期。\n\nhttps://www.themoviedb.org/tv/53020/season/3 (api_snapshot): 第3季实际季表共12集，仅1页；逐集标题与Bangumi sort 25至36全部对应。前5集日期一致；第6至12集日期较Bangumi均晚28天，但标题、顺序及集数一致。\n\nhttps://bgm.tv/subject/82079/ep (page): 章节页列出本篇25至36及逐集日期；SP3、SP4分别为豆马铃机密前后篇，日期均为2014-01-24。年末特别编另列为预告/宣传/广告，日期为2013-12-29。\n\nhttps://www.themoviedb.org/tv/53020/season/0 (api_snapshot): 第0季实际季表共14集，仅1页。其中第3、4集分别为豆马铃机密前后篇，日期均为2014-01-24，与Bangumi两篇SP吻合；季表未见年末特别编。\n\nhttps://www.themoviedb.org/tv/53020/season/2 (api_snapshot): 第2季实际收录2013年7月至9月播出的12集，标题对应官方第13至24面，与本条目不同，因此排除线索中的第2季。\n\n备注：TMDB S03E06至E12日期比Bangumi晚28天，存在日期元数据冲突；官方分期及全部标题顺序仍明确支持上述对应。；章节354290《ユリ＆なすのの年末特別編！》未在已核实季表中找到对应，保留未映射；不据此断言TMDB未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/82079; https://www.themoviedb.org/tv/53020; https://www.themoviedb.org/tv/53020/season/3; https://www.te-kyu.com/story/; https://www.animatetimes.com/tag/details.php?id=14185; https://www.themoviedb.org/tv/53020/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/82079; https://www.themoviedb.org/tv/53020; https://www.te-kyu.com/story/; https://www.themoviedb.org/tv/53020/season/3; https://bgm.tv/subject/82079/ep; https://www.themoviedb.org/tv/53020/season/0; https://www.themoviedb.org/tv/53020/season/2",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 25,
+      "tmdbId": 53020
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 53020,
       "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 4,
+      "id": 53020,
+      "season": 0,
       "type": "tv"
     }
   ]

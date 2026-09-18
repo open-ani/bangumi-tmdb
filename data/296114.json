@@ -1,13 +1,30 @@
 {
+  "anidbId": 15303,
   "bangumiId": 296114,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 921545,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 921546,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 921547,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品 Fastening Days 4（FASTENING DAYS 4），不是电影、OVA 或合集。Bangumi 的 2019 年剧情与 TMDB 简介一致：Yoji、Kei、Kelly、Oscar 使用 Fastening Machines 帮助城镇居民，并加入 Samhen 与 AI 机器人 Jack。官方资料确认这是 2014、2016、2017 三作之后的第四部 YKK 短篇动画，由 Studio Colorido 制作、山下清悟执导、田中淳一编剧，2019 年连续发布 3 集。TMDB 真实 Season 1 集表正好包含 3 集，因此使用整季映射。\n\nhttps://api.bgm.tv/v0/subjects/296114 (api_snapshot): Bangumi fresh API 标题为 FASTENING DAYS 4，日期为 2019-12-04，平台为 WEB，共 3 集；剧情涉及 Yoji、Kei、Kelly、Oscar、Samhen 和 Jack。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): TMDB TV 128934 的原始标题为 FASTENING DAYS 4，2019 年，3 集、1 季；剧情、日文原语言、Studio Colorido、编剧 Junichi Tanaka、系列导演 Shingo Yamashita 均与目标作品相符。\n\nhttps://www.themoviedb.org/tv/128934/season/1 (api_snapshot): TMDB Season 1 实际集表包含 Episode 1、2、3，共 3 集，total_pages=1。\n\nhttps://prtimes.jp/main/html/rd/p/000000006.000011636.html (page): YKK 官方发布资料确认 FASTENING DAYS 4 是系列第四部短篇动画，Studio Colorido 制作，山下清悟执导、田中淳一编剧，并明确为 3 集连续公开。\n\n备注：Bangumi 日期为 2019-12-04，官方资料首发日期为 2019-12-05，而 TMDB 季表日期为 12-05、12-19、12-26；日期存在时区或数据录入差异，但作品身份及 3 集范围一致。",
+    "evidence": "codex: 年份、独有剧情、制作公司、导演、编剧及三集短篇形态一致，可确认对应 TMDB TV 128934 第 1 季整季，未混入系列前三作。Bangumi 输入章节缺少标题和日期，且 TMDB 后两集日期与官方发布资料冲突，因此确认作品与季范围，但暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): 以原名 FASTENING DAYS 4 搜索，返回 TV 128934，首播日期为 2019-12-05。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): 详情确认该作为 2019 年日本动画，共 1 季 3 集，Studio Colorido 制作，山下清悟执导、田中淳一编剧；萨姆汉与 AI 机器人杰克加入主角团队的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/128934/season/1 (api_snapshot): 实际第 1 季共 3 集，total_pages=1；标题为 Episode 1、Episode 2、Episode 3，日期分别为 2019-12-05、12-19、12-26，时长分别为 4、4、8 分钟。\n\nhttps://prtimes.jp/main/html/rd/p/000000006.000011636.html (page): YKK 官方新闻稿确认这是系列第四部网络短篇动画，制作人员和剧情均吻合，共 3 集；明确公布第 1—3 集日期为 2019-12-05、12-12、12-19，时长分别为 3分25秒、3分44秒、7分36秒。\n\n备注：Bangumi 开播日期为 2019-12-04，官方与 TMDB 首集日期为 2019-12-05；差异原因未证实。；TMDB 第 2、3 集日期分别比官方公布日期晚一周，不应直接用这些日期建立逐集对应。；Bangumi 三个章节的标题和日期均为空，本次 Bangumi 网页访问失败；逐集映射需补充章节资料或可核对的视频内容证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/296114; https://api.bgm.tv/v0/subjects/296114; https://www.themoviedb.org/tv/128934; https://www.themoviedb.org/tv/128934/season/1; https://prtimes.jp/main/html/rd/p/000000006.000011636.html",
-    "verifiedAt": "2026-09-08T21:51:19.520Z"
+    "source": "https://bgm.tv/subject/296114; https://www.themoviedb.org/tv/128934; https://www.themoviedb.org/tv/128934/season/1; https://prtimes.jp/main/html/rd/p/000000006.000011636.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

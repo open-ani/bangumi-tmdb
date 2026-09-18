@@ -1,14 +1,25 @@
 {
   "anidbId": 16796,
   "bangumiId": 362610,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1072284,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1080380,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 156269 第1季整季：年份、剧情、制作人员、制作公司与两话合计约60分钟的版本一致，季表未混入其他作品。作品及季范围已确认；Bangumi 两个章节均无标题和日期，按要求不凭编号位置建立逐集规则。\n\nhttps://bgm.tv/subject/362610 (page): Bangumi 标记为2022年1月21日开始的两话 WEB 动画，导演为加藤汐里／加藤緑里，脚本为冨田頼子，动画制作为神風動画与 ANIMA。\n\nhttps://colopl.co.jp/news/pressrelease/2022012101.php (page): 官方新闻确认本作于2022年1月21日通过视频平台公开，全长约60分钟；制作人员与 Bangumi 一致，剧情为雷欧、塞莉娅与莉泽特前往边境城市并遭遇投奔帝国的雨果。\n\nhttps://www.themoviedb.org/tv/156269 (api_snapshot): TMDB 156269 的年份、原名、源兽与联邦／帝国战争背景、主演角色、导演加藤緑里、编剧冨田頼子及制作公司均相符；作品共1季2集。\n\nhttps://www.themoviedb.org/tv/156269/season/1 (api_snapshot): 第1季完整季表共2集，total_pages=1，每集30分钟，日期均为2022年1月20日。第1集描写边境任务与雨果的伏击，第2集延续任务失败后阻止帝国计划的剧情，整季覆盖该特别动画。\n\nhttps://bgm.tv/ep/1072284 (page): Bangumi 第1话页面没有具体标题、时长或首播日期，缺少逐集核对信息。\n\nhttps://bgm.tv/ep/1080380 (page): Bangumi 第2话页面没有具体标题、时长或首播日期，缺少逐集核对信息。\n\n备注：TMDB 两集日期为2022年1月20日，日本官方公开日为1月21日；差异原因未证实。；逐集映射暂留空，需补充 Bangumi 章节的标题、日期或内容证据后再建立规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/362610; https://colopl.co.jp/news/pressrelease/2022012101.php; https://www.themoviedb.org/tv/156269; https://www.themoviedb.org/tv/156269/season/1; https://bgm.tv/ep/1072284; https://bgm.tv/ep/1080380",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

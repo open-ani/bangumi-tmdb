@@ -1,19 +1,86 @@
 {
   "anidbId": 18654,
   "bangumiId": 496617,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1421927,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1421928,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1421929,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1421930,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1421931,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1421932,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1421933,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1421934,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1421935,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1421936,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1421937,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认作品年份、电视动画版本、剧情与制作人员一致，11集标题和日期逐集吻合。TMDB 将两个季度合并为第1季22集，旧映射应缩小为第1季第1至11集。\n\nhttps://www.themoviedb.org/tv/207332 (api_snapshot): TMDB 207332 为2025年1月11日首播的日本电视动画《SAKAMOTO DAYS》，退休杀手坂本太郎守护家人的剧情、导演渡辺正樹及制作公司 TMS Entertainment 均与输入一致。\n\nhttps://www.themoviedb.org/tv/207332/season/1 (api_snapshot): 第1季完整集表共22集，total_pages=1。第1至11集的日文标题及播出日期逐集与 Bangumi 完全一致，日期为2025年1月11日至3月22日；第12集于2025年7月14日播出，对应另列的第2季度，因此本 subject 仅覆盖第1季第1至11集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/496617; https://www.themoviedb.org/tv/207332; https://www.themoviedb.org/tv/207332/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 207332
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 11,
       "id": 207332,
       "season": 1,
       "type": "tv"

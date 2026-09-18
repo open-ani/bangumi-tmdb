@@ -1,13 +1,145 @@
 {
+  "anidbId": 16596,
   "bangumiId": 343184,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1074130,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1074131,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1074132,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1074133,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1074134,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1074135,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1074136,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1074137,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1074138,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1074139,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1074140,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1074141,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1074142,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1074143,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1074144,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1074145,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1074146,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1074147,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1074148,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1074149,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1074150,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1074151,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1074152,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1074153,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1074154,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1074155,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 85063 是与 Bangumi 条目对应的 2018 年中国动画《雪鹰领主》（Legendary Overlord / Snow Eagle Lord），制作公司包含 Mili Pictures 与杭州米玩，且有东伯雪鹰、余靖秋等相同剧情。其第 3 季明确标为 2021-12-27 开播、共 26 集，剧情对应 Bangumi 所列第三季；季表实际覆盖第 1 至 26 集，因此可使用整季。TMDB 的 2023 年条目 152549 是演员出演的真人版，293873 是仅 3 集的“畅享版”，均不应匹配。\n\nhttps://api.bgm.tv/v0/subjects/343184 (api_snapshot): Bangumi API 快照确认条目名为《雪鹰领主 第三季》，WEB 动画，2021-12-27 开播，26 集，导演刘炜，动画制作米粒影业、米玩科技。\n\nhttps://www.themoviedb.org/tv/85063 (api_snapshot): TMDB 85063 原名《雪鹰领主》，别名包含 Xue Ying Ling Zhu、Snow Eagle Lord；首播 2018-12-20，制作公司包含 Mili Pictures、Max-World、Hangzhou Miwan Network，共 3 季；总剧情和角色与东伯雪鹰、余靖秋主线一致。\n\nhttps://www.themoviedb.org/tv/85063/season/3 (api_snapshot): TMDB 第 3 季标注开播日期 2021-12-27、共 26 集，实际集表连续覆盖第 1 集至第 26 集，末集日期为 2022-06-13；季简介明确对应第三季剧情。",
+    "evidence": "codex: 制作公司、动画媒介、原作、第三季剧情、开播日期及26集范围一致，确认对应TMDB 85063第3季整季。已核实该季完整集表，未见混入其他作品。Bangumi逐集标题与日期均为空，不能仅按序号生成对应规则，因此保留季级映射，逐集映射留空。\n\nhttps://bgm.tv/subject/343184 (page): Bangumi 将本作列为 WEB 动画第三季，2021年12月27日开播，共26话；原作为我吃西红柿，导演刘炜，动画制作米粒影业、米玩科技。\n\nhttps://www.themoviedb.org/tv/85063 (api_snapshot): TMDB 85063 为2018年开播的《雪鹰领主》动画系列，制作公司包含米粒影业、米玩，配音阵容包含郝祥海、杨凝；剧情围绕东伯雪鹰、余靖秋展开，与本作所属动画系列一致。\n\nhttps://www.themoviedb.org/tv/85063/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共26集，连续编号1—26；前两集日期均为2021-12-27，随后每周一更新，末集日期2022-06-13。季简介明确第三季从系列第53集开始，剧情为雪鹰对抗恶魔、守护夏族。\n\nhttps://www.weibo.com/xueyinglingzhu (search_snippet): 动画官方微博的开播公告确认第三季于2021-12-27上线，共26集，从系列第53集开始，每周一更新，VIP抢先看1集。\n\nhttps://star.tom.com/202112/1823205625.html (page): 2021-12-27的开播报道确认本季由企鹅影视出品、米粒影业制作，改编自我吃西红柿小说，共26集；第三季剧情为雪鹰识破恶魔计谋、守护人类，与TMDB季简介吻合。\n\nhttps://bgm.tv/subject/343184/ep (page): Bangumi章节页仅列出本篇1—26，未提供逐集标题和放送日期，无法与TMDB逐集交叉比对。\n\n备注：26个Bangumi章节缺少可逐集比对的标题或日期；补充这些资料后才能建立可靠的rules或overrides。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/343184; https://api.bgm.tv/v0/subjects/343184; https://www.themoviedb.org/tv/85063; https://www.themoviedb.org/tv/85063/season/3",
-    "verifiedAt": "2026-09-08T23:02:41.536Z"
+    "source": "https://bgm.tv/subject/343184; https://www.themoviedb.org/tv/85063; https://www.themoviedb.org/tv/85063/season/3; https://www.weibo.com/xueyinglingzhu; https://star.tom.com/202112/1823205625.html; https://bgm.tv/subject/343184/ep",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

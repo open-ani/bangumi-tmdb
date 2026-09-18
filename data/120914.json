@@ -1,14 +1,48 @@
 {
   "anidbId": 11000,
   "bangumiId": 120914,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 460543,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 511083,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 460543,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 64163,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 511083,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 64163,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 120914 明确是包含 2 集的 OVA；两集标题和日期分别为「東城刃更のハードスウィートな日常」(2015-06-22) 与「東城刃更の至極平和な日常」(2016-01-23)。AniDB 11000 与第一集的完整标题、OVA 类型、制作背景相符，并将 Burst 版 OVA 列为相关作品；Bangumi 将两个版本合并为同一 subject。TMDB TV 64163 的第 0 季中，第 7 集和第 13 集分别具有完全对应的两个标题，因此应分别映射，不能纳入包含其他特典的整季。\n\nhttps://bgm.tv/subject/120914 (page): Bangumi 将该条目标为 OVA，共 2 话；制作人员、Production IMS、发售范围及与主线和 BURST 的关联均相符。\n\nhttps://bgm.tv/ep/460543 (page): Bangumi 第 1 集标题为「東城刃更のハードスウィートな日常」，首播日期为 2015-06-22，时长约 25 分钟。\n\nhttps://bgm.tv/ep/511083 (page): Bangumi 第 2 集标题为「東城刃更の至極平和な日常」，首播日期为 2016-01-23，时长约 24 分钟。\n\nhttps://anidb.net/anime/11000 (page): AniDB 11000 的主标题、日文官方标题和中文别名对应第一集 OAD；类型为 OVA、年份为 2015，并注明与第 8 卷捆绑，且关联主 TV 与另一个 BURST OVA。\n\nhttps://anilist.co/anime/21489/Shinmai-Maou-no-Testament-BURST-Toujou-Basara-no-Shigoku-Heiwa-na-Nichijou (search_snippet): 独立条目将「新妹魔王の契約者 BURST 東城刃更の至極平和な日常」识别为 2016 年、1 集、Production IMS 制作的 OVA，并说明其为第 7 卷捆绑作品。\n\nhttps://www.themoviedb.org/tv/64163 (api_snapshot): TMDB API 快照显示 TV 64163 为《新妹魔王の契約者》，首播于 2015 年，并包含第 0 季特别篇及主系列季。\n\nhttps://www.themoviedb.org/tv/64163/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 7 集标题为「東城刃更のハードスウィートな日常」，第 13 集标题为「東城刃更の至極平和な日常」；第 0 季还包含其他特典，因此仅选取第 7、13 集。\n\n备注：第二集 Bangumi 日期为 2016-01-23，而 TMDB/API 快照及其他资料为 2016-01-26；标题、时长、剧情背景和制作信息一致，暂视为发行日期与平台记录差异。；AniDB 11000 本身主要对应第一集 OAD，第二集属于另一个 BURST OVA；这是 Bangumi 合并 subject 的版本结构，不影响对该 Bangumi subject 两个主体章节的分别映射。",
+    "evidence": "codex: 确认两话分别对应TMDB 64163的S00E07和S00E13。作品年份、人物背景、原作、导演与制作公司一致，两话完整标题和时长逐集吻合；第一话日期完全一致，第二话日期差异在官方商品资料中亦存在。该subject合并了两部同捆OAD，第0季还包含其他短篇特典，因此仅声明两个单集范围，并使用章节ID覆盖映射。\n\nhttps://bgm.tv/subject/120914 (page): 条目为共2话的OAD，收录小说第8卷及漫画第7卷同捆动画；原作为上栖綴人，导演为斎藤久，动画制作为Production IMS。\n\nhttps://bgm.tv/ep/460543 (page): 第1话为「東城刃更のハードスウィートな日常」，日期2015-06-22，时长25分20秒。\n\nhttps://bgm.tv/ep/511083 (page): 第2话为「東城刃更の至極平和な日常」，日期2016-01-23，时长23分52秒。\n\nhttps://www.themoviedb.org/tv/64163 (api_snapshot): TMDB 64163为2015年动画《新妹魔王の契約者》，剧情围绕东城刃更、成濑澪及万理亚展开；原作、导演、制作公司与Bangumi一致，并收录BURST及特别篇。\n\nhttps://www.themoviedb.org/tv/64163/season/0 (api_snapshot): 已读取第0季完整13集集表，total_pages=1。第7集与Bangumi第1话日文标题、2015-06-22日期一致，时长25分钟；第13集与第2话日文标题一致，时长24分钟，日期2016-01-26，简介明确为BURST第11话OVA。其余11集为其他短篇特典。\n\nhttps://www.kadokawa.co.jp/product/321410000163/ (search_snippet): KADOKAWA出版社商品资料确认漫画第7卷限定版附原创动画BD，发售日期为2016-01-26，与TMDB第二部OAD的日期一致。\n\nhttps://store.kadokawa.co.jp/shop/series/series00071601?p=1&ps=12 (search_snippet): KADOKAWA官方商城系列列表将同一漫画第7卷原创动画BD限定版列为2016-01-23发售，表明官方资料也存在23日与26日的日期差异。\n\n备注：第二话存在2016-01-23与2016-01-26两种发行日期记录；具体差异原因未确认，但不影响作品及集号对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/120914; https://bgm.tv/ep/460543; https://bgm.tv/ep/511083; https://anidb.net/anime/11000; https://anilist.co/anime/21489/Shinmai-Maou-no-Testament-BURST-Toujou-Basara-no-Shigoku-Heiwa-na-Nichijou; https://www.themoviedb.org/tv/64163; https://www.themoviedb.org/tv/64163/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/120914; https://bgm.tv/ep/460543; https://bgm.tv/ep/511083; https://www.themoviedb.org/tv/64163; https://www.themoviedb.org/tv/64163/season/0; https://www.kadokawa.co.jp/product/321410000163/; https://store.kadokawa.co.jp/shop/series/series00071601?p=1&ps=12",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

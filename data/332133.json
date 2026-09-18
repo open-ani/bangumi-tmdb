@@ -1,16 +1,96 @@
 {
   "anidbId": 16186,
   "bangumiId": 332133,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1117528,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1117529,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1117530,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1117531,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1120278,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1120279,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1120280,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1120281,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1120282,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1120283,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1120284,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1120285,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1120286,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1120286,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 122369 第一季全12集。年份、动画版本、剧情、制作人员及逐集标题均吻合；日期差来自网络先行配信早于电视播出一周，本篇第1—12话逐一对应S01E01—E12。SP章节是宣传活动谈话视频，从本次剧情动画映射中明确排除。\n\nhttps://www.themoviedb.org/tv/122369 (api_snapshot): 以日文原名搜索后核验 TMDB 122369：为2022年动画《風都探偵》，导演椛島洋介、动画制作 Studio KAI，角色、声优及翔太郎与菲利普调查时芽相关事件的剧情均吻合。\n\nhttps://www.themoviedb.org/tv/122369/season/1 (api_snapshot): 第一季集表共12集，total_pages=1。逐集标题与输入的12话一致，仅第8、11话字母全半角不同；各集日期为2022-08-01至2022-10-17，每周一集，均比对应 Bangumi 电视播出日期早7天，无额外作品混入。\n\nhttps://www.kamen-rider-official.com/fuuto/ (page): 动画官网确认导演椛島洋介、动画制作スタジオKAI及主要声优，列出的第1至12话标题与双方集表一致；另将配信直前活动的舞台问候谈话视频单独列于视频栏目。\n\nhttps://www.kamen-rider-official.com/news_articles/1688 (search_snippet): 东映官方公告明确：U-NEXT于2022年8月1日零时开始配信，每周一更新；TOKYO MX于8月8日22时开始电视播出，解释了两份集表固定相差7天的原因。\n\n备注：未确认宣传活动谈话视频是否另有独立 TMDB 条目；本次排除不表示其必然未被收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/332133; https://www.themoviedb.org/tv/122369; https://www.themoviedb.org/tv/122369/season/1; https://www.kamen-rider-official.com/fuuto/; https://www.kamen-rider-official.com/news_articles/1688",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 122369
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,161 @@
 {
   "anidbId": 15867,
   "bangumiId": 244239,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 992786,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 992787,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 992788,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 992789,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 992790,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 992791,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 992792,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 992793,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 992794,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 992795,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 992796,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 992797,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 992798,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1006808,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1006809,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1006810,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1006811,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1006812,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1006813,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1006814,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1006815,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1006816,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1006817,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1006818,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1006819,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1006820,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 101172第1季第1—26集，Bangumi本篇1—26话顺序一一对应。年份、剧情、制作人员及全部逐集日期吻合；TMDB第1季合并收录后续内容，因此旧映射的整季范围应缩为已核实的26集。\n\nhttps://www.themoviedb.org/search/tv?query=吞噬星空 (api_snapshot): 以原名“吞噬星空”搜索，找到2020年首播的TV条目101172；搜索结果另有2023年的“吞噬星空 合集篇”，版本有别。\n\nhttps://www.themoviedb.org/tv/101172 (api_snapshot): 作品101172首播日期为2020-11-29，别名包含Swallowed Star；RR病毒、基地市及罗峰成为武者的剧情与输入一致，导演包含沈乐平，制作公司包含腾讯与玄机，确认是同一部连续动画。\n\nhttps://www.themoviedb.org/tv/101172/season/1 (api_snapshot): 第1季共260集，季表分5页；实际读取第1页第1—60集，已完整覆盖待核对范围。第1—26集的播出日期与Bangumi逐集全部一致，起止为2020-11-29至2021-05-16。前10话标题措辞虽不同，考核、入狱、精神念力觉醒及营救徐欣等分集剧情相符；后16话Bangumi仅有集号标题，以逐集日期核对。第27集于2021-12-29播出，与输入第二季起始日期一致，确认本subject止于第26集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/244239; https://www.themoviedb.org/search/tv?query=吞噬星空; https://www.themoviedb.org/tv/101172; https://www.themoviedb.org/tv/101172/season/1",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 101172
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 26,
       "id": 101172,
       "season": 1,
       "type": "tv"

@@ -1,13 +1,64 @@
 {
   "bangumiId": 336233,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1030798,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1030799,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1030800,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1030801,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1030802,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1030803,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1030804,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1030805,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1030806,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1030807,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《Big Mouth》（中文/日文别名“大嘴巴”/“ビッグマウス”），首播于2017年，主题、角色和成人向动画媒介均吻合。TMDB第4季明确于2020-12-04发布，共10集，剧情简介涉及夏令营、八年级及焦虑蚊子 Tito，与 Bangumi 的2020-12-04、10集数据一致，因此覆盖完整第4季。提供的 IMDb tt10868796 实际指向该剧第4季第1集，不能作为整部剧编号；TMDB主剧自身 IMDb 编号为 tt6524350。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB详情确认作品原名 Big Mouth、首播日期2017-09-29、原语言英语、类型为TV，并列出青春期喜剧剧情、主要配音演员及制作公司；别名包含中文“大嘴巴”和日文“ビッグマウス”。\n\nhttps://www.themoviedb.org/tv/74204/season/4 (api_snapshot): TMDB第4季实际季表确认季号4、日期2020-12-04、共10集，集号连续为1至10，剧情与第4季主体吻合。\n\nhttps://api.bgm.tv/v0/subjects/336233 (api_snapshot): Bangumi fresh API确认标题 Big Mouth Season 4、日期2020-12-04、媒介TV、总集数10。\n\nhttps://about.netflix.com/en/news/big-mouth-gets-even-bigger-as-netflix-inks-deal-with-the-creative-team-behind-hit-series (search_snippet): Netflix官方资料确认 Big Mouth 的创作团队包括 Nick Kroll、Andrew Goldberg、Mark Levin 和 Jennifer Flackett。",
+    "evidence": "codex: 确认对应 TMDB 74204《Big Mouth》完整第四季。动画版本、创作团队、剧情、2020-12-04发布日期及10集范围相互吻合。Bangumi 输入的章节标题和单集日期全部为空，无法完成逐集交叉核对，因此仅确认整季范围，不凭章节位置生成规则。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 为2017年首播的英语动画《Big Mouth》，别名包含“大嘴巴”；青春期题材、Nick Kroll 与 John Mulaney 等配音阵容与 Netflix 官方资料吻合。\n\nhttps://www.themoviedb.org/tv/74204/season/4 (api_snapshot): 第四季实际集表共10集，分页总数为1，集号连续为1至10，全部于2020-12-04发布；剧情涉及夏令营、升入八年级及焦虑蚊子 Tito。季范围与输入 subject 的日期、季号及10集规模一致。\n\nhttps://about.netflix.com/en/news/nick-krolls-big-mouth-coming-only-to-netflix (search_snippet): Netflix 官方资料确认本作是青春期题材成人动画，创作者为 Nick Kroll、Andrew Goldberg、Mark Levin 和 Jennifer Flackett，计划于2017年首播。\n\nhttps://www.tvline.com/what-to-watch/big-mouth-season-4-premiere-netflix/ (search_snippet): 2020-12-04的播出指南确认《Big Mouth》第四季当日一次上线全部10集，剧情涉及夏令营和焦虑蚊子 Tito，与 TMDB 第四季吻合。\n\n备注：Bangumi subject 页面、章节页及 API 本次均未能成功读取；Bangumi 侧依据用户提供的快照。；10个 Bangumi 章节尚无可用于逐集比对的标题或日期，逐集对应留空，待补充章节资料后核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/336233; https://www.themoviedb.org/tv/74204; https://www.themoviedb.org/tv/74204/season/4; https://api.bgm.tv/v0/subjects/336233; https://about.netflix.com/en/news/big-mouth-gets-even-bigger-as-netflix-inks-deal-with-the-creative-team-behind-hit-series",
-    "verifiedAt": "2026-09-08T22:56:31.157Z"
+    "source": "https://bgm.tv/subject/336233; https://www.themoviedb.org/tv/74204; https://www.themoviedb.org/tv/74204/season/4; https://about.netflix.com/en/news/nick-krolls-big-mouth-coming-only-to-netflix; https://www.tvline.com/what-to-watch/big-mouth-season-4-premiere-netflix/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

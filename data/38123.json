@@ -1,21 +1,41 @@
 {
   "anidbId": 3598,
   "bangumiId": 38123,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164150,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164150,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本作对应 TMDB 30983 第0季第6集。单话 OVA 的年份、日英文完整标题、时长、系列制作背景及前后作品关系吻合；官方发行资料明确区分本作与收录两部作品的 DVD 合集。将唯一章节直接映射至已核实的特别篇。\n\nhttps://bgm.tv/subject/38123 (page): Bangumi 将本作列为单话 OVA，导演佐藤真人、脚本古内一成；首次发行标为2005年3月9日，2006年3月24日为 SECRET FILE Vol.2 的发行日期。\n\nhttps://www.toho-a-park.com/dvd/item/html/SDV/SDV16120D.html (page): 东宝官方确认 SECRET FILE2 于2006年3月24日发行，收录《柯南与基德与水晶之母》和本作两部应募录像作品；制作方为 TMS Entertainment、小学馆。因此该 DVD 合集不等于本 subject。\n\nhttps://www.detectiveconanworld.com/wiki/The_Target_is_Kogoro!!_The_Detective_Boys'_Secret_Report (page): 资料页确认本作为2005年的第5部 OVA，导演及脚本与 Bangumi 一致。剧情为少年侦探团为课堂报告调查小五郎的侦探工作，随后卷入村上雅也遭绑架事件。\n\nhttps://api.themoviedb.org/3/movie/1221942 (api_snapshot): 实际调用旧映射 movie/1221942 的详情接口返回 HTTP 404，无法继续采用该电影映射。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TV 30983 的详情确认其为 TMS Entertainment 制作的《名探偵コナン》，并明确存在第0季特别篇。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取第0季完整集表，共35集、1页。第6集日文标题为《標的は小五郎!!少年探偵団マル秘調査》，英文别名亦一致，时长25分钟，日期为2005年1月1日；第4集是《水晶之母》，第7集是2006年的《消失的钻石》，本作以独立一集收录。\n\n备注：TMDB 集日期为2005年1月1日，与 Bangumi 的2005年3月9日不一致；Bangumi 章节日期2006年3月24日则对应官方确认的 DVD 再版日期。具体首次发行日仍有元数据差异。；TMDB 该集简介为空，无法在 TMDB 内直接交叉核对剧情；剧情与单集制作人员依据 Bangumi 及专题资料确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38123; https://www.toho-a-park.com/dvd/item/html/SDV/SDV16120D.html; https://www.detectiveconanworld.com/wiki/The_Target_is_Kogoro!!_The_Detective_Boys'_Secret_Report; https://api.themoviedb.org/3/movie/1221942; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1221942,
-      "type": "movie"
+      "episode": 6,
+      "id": 30983,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

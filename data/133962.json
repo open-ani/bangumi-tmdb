@@ -1,26 +1,161 @@
 {
   "anidbId": 11246,
   "bangumiId": 133962,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 530100,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 530101,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 530102,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 530103,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 530104,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 530105,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 530106,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 530107,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 530108,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 530109,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 530110,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 530111,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 530112,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 600352,
+      "sort": 14,
+      "type": 1
+    },
+    {
+      "id": 626375,
+      "sort": 15,
+      "type": 1
+    },
+    {
+      "id": 626376,
+      "sort": 16,
+      "type": 1
+    },
+    {
+      "id": 626377,
+      "sort": 17,
+      "type": 1
+    },
+    {
+      "id": 626378,
+      "sort": 18,
+      "type": 1
+    },
+    {
+      "id": 626379,
+      "sort": 19,
+      "type": 1
+    },
+    {
+      "id": 626380,
+      "sort": 20,
+      "type": 1
+    },
+    {
+      "id": 626381,
+      "sort": 21,
+      "type": 1
+    },
+    {
+      "id": 626382,
+      "sort": 22,
+      "type": 1
+    },
+    {
+      "id": 626383,
+      "sort": 23,
+      "type": 1
+    },
+    {
+      "id": 626384,
+      "sort": 24,
+      "type": 1
+    },
+    {
+      "id": 626385,
+      "sort": 25,
+      "type": 1
+    },
+    {
+      "id": 626386,
+      "sort": 26,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与《怪獣酒場カンパーイ！》的标题、2015-07-07开播日期、河崎実导演、圆谷原作/DLE制作及13集电视播出内容一致。Bangumi主体共26话，其中1–13话为2015-07-07至09-29播出的正片，14–26话为未放送特别篇；TMDB 200948明确对应同名日剧动画，season 1为13集正片，season 0为13集「特別編」。因此应同时收录完整 season 1 与 season 0。\n\nhttps://www.themoviedb.org/tv/200948 (api_snapshot): TMDB API快照显示ID 200948、标题为「怪獣酒場カンパーイ！」，首播日期2015-07-07；season 0为13集特别篇，season 1为13集。\n\nhttps://www.themoviedb.org/tv/200948/season/1 (api_snapshot): TMDB API快照显示season 1共13集，日期从2015-07-07至2015-09-29，逐集日期与Bangumi正片1–13话一致。\n\nhttps://bgm.tv/person/6328/works/position/67?sort=rank (search_snippet): Bangumi公开页面列出《怪獣酒場カンパーイ！》为2015年作品、26话，与输入主体信息一致。\n\nhttps://www.dle.jp/jp/news/docs/20170206_kaijusakaba_press.pdf (search_snippet): 制作方资料明确列出电视播出的13话及未放送的第14–26话，且列出了特别篇标题。\n\nhttps://www.bs11.jp/anime/post-246/ (page): BS11页面确认同名作品的怪兽酒场设定、圆谷原作、河崎実导演及DLE动画制作信息。\n\nhttps://www.allcinema.net/cinema/353034 (search_snippet): 公开资料确认该作品为2015-07-07至09-29播出的日本TV动画，共13集电视播出内容。",
+    "evidence": "codex: 作品身份已由年份、播出区间、导演、短篇动画媒介及官方剧情资料确认。本篇13话与TMDB第1季的总集数和每集播出日期全部吻合，可建立连续映射。特别篇仅确认官方篇目，TMDB第0季缺乏可核对的逐集信息，因此此次只映射本篇。\n\nhttps://www.themoviedb.org/tv/200948 (api_snapshot): 日文原名搜索命中 TV 200948；详情确认首播于2015-07-07、完结于2015-09-29，导演为河崎実，与输入的年份、媒介及制作人员一致。\n\nhttps://www.bs11.jp/anime/post-246/ (page): BS11确认本作为以怪兽酒场为舞台的3分钟短篇动画，原作为圆谷制作、导演为河崎実、动画制作为DLE，剧情与制作信息均与输入一致。\n\nhttps://www.themoviedb.org/tv/200948/season/1 (api_snapshot): 第1季实际集表共13集，仅1页；第1至13集的播出日期逐一对应输入本篇，从2015-07-07至2015-09-29。标题为通用集号，未提供具体篇名。\n\nhttps://www.themoviedb.org/tv/200948/season/0 (api_snapshot): 第0季实际集表共13集，仅1页；日文及英文结果均只有通用集号，日期、简介为空，无法逐集核对特别篇。\n\nhttps://www.dle.jp/jp/news/docs/20170206_kaijusakaba_press.pdf (page): DLE官方资料确认第14至26话为DVD收录的电视未放送篇，并列出全部13话标题，与输入特别篇列表一致；该资料未提供这些篇目与TMDB第0季集号的关联。\n\n备注：Bangumi特别篇14–26暂不映射。TMDB第0季虽同为13集，但不能仅按数量和位置认定对应；需补充其具体标题、日期或其他逐集识别信息后再核定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/133962; https://www.themoviedb.org/tv/200948; https://www.themoviedb.org/tv/200948/season/1; https://bgm.tv/person/6328/works/position/67?sort=rank; https://www.dle.jp/jp/news/docs/20170206_kaijusakaba_press.pdf; https://www.bs11.jp/anime/post-246/; https://www.allcinema.net/cinema/353034",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/133962; https://www.themoviedb.org/tv/200948; https://www.bs11.jp/anime/post-246/; https://www.themoviedb.org/tv/200948/season/1; https://www.themoviedb.org/tv/200948/season/0; https://www.dle.jp/jp/news/docs/20170206_kaijusakaba_press.pdf",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 200948
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 200948,
       "season": 1,
-      "type": "tv"
-    },
-    {
-      "id": 200948,
-      "season": 0,
       "type": "tv"
     }
   ]

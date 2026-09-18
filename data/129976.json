@@ -1,16 +1,41 @@
 {
   "anidbId": 11169,
   "bangumiId": 129976,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 541320,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 541321,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 541322,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 3 话 OVA《サイボーグ009VSデビルマン》，与 AniDB 11169 的标题别名一致。TMDB 220519 的原名、首播日期和总集数均匹配；第 1 季明确包含第 1–3 集。\n\nhttps://bgm.tv/subject/129976 (page): 主体为 3 话 OVA，发售日为 2015-11-11，正篇为 ACT1–ACT3，AniDB ID 为 11169。\n\nhttps://www.themoviedb.org/tv/220519 (api_snapshot): TMDB 220519 为同名 TV 作品，首播日期 2015-11-11，共 3 集，第 1 季共 3 集。\n\nhttps://www.themoviedb.org/tv/220519/season/1 (api_snapshot): 第 1 季包含第 1、2、3 集，日期为 2015-11-11、2015-11-18、2015-11-25。",
+    "evidence": "codex: 对应 TMDB TV 220519 第1季第1–3集。年份、跨作品剧情、原作者、制作公司和主演一致；官方确认三话结构，TMDB 英文集标题 Act 1–3 与 Bangumi 逐话吻合，可建立连续对应。日期已逐项核对：TMDB 后两集日期与官方完整影碟发行日不符，但不改变由明确章节标题确认的对应关系。\n\nhttps://bgm.tv/subject/129976 (page): Bangumi 标注为2015年三话 OVA，发售日为11月11日；原作为石ノ森章太郎、永井豪，动画制作为 Bee・Media、Actas，主演为福山潤、浅沼晋太郎。\n\nhttps://www.toei-video.co.jp/special/009vsdevilman/ (page): 东映官方确认全三话为 ACT1、ACT2、ACT3，剧情为009与恶魔人的交锋；导演川越淳、脚本早川正。影碟三话时长分别为27、29、38分钟，ACT3为比剧场上映版长约9分30秒的导演剪辑版。\n\nhttps://shop.toei-video.co.jp/products/bszd08140 (page): 东映官方商店确认完整 Blu-ray 于2015年11月11日发行，一次收录 ACT1–3，支持 Bangumi 三话均标注该日。\n\nhttps://www.themoviedb.org/tv/220519 (api_snapshot): TMDB TV 220519 为2015年同名作品，共一季三集；原作者、Actas 制作公司及主要角色配音一致，剧情同为009、恶魔人与黑色幽灵组织的冲突。\n\nhttps://www.themoviedb.org/tv/220519/season/1 (api_snapshot): 第1季实际集表仅三集，英文标题依次为 Act 1、Act 2、Act 3，与 Bangumi ACT1–ACT3逐项对应；日期分别为2015-11-11、11-18、11-25，时长均标27分钟。集表仅一页，已完整读取。\n\nhttps://www.themoviedb.org/movie/387626 (api_snapshot): 另有同名电影条目387626，日期为2015年10月17日、时长90分钟，导演及主演一致；其电影记录结构不对应本 subject 的三话章节结构，未采用。\n\n备注：TMDB 第2、3集的每周日期缺少官方依据，不应视为已核实的原始发行日期。；TMDB 三集时长统一标为27分钟，与官方影碟第2、3话不符，也未说明 ACT3 的剪辑版本；本映射确认作品及章节身份，不证明具体视频剪辑版本一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/129976; https://www.themoviedb.org/tv/220519; https://www.themoviedb.org/tv/220519/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/129976; https://www.toei-video.co.jp/special/009vsdevilman/; https://shop.toei-video.co.jp/products/bszd08140; https://www.themoviedb.org/tv/220519; https://www.themoviedb.org/tv/220519/season/1; https://www.themoviedb.org/movie/387626",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 220519
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

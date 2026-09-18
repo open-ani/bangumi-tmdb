@@ -1,15 +1,126 @@
 {
+  "anidbId": 18414,
   "bangumiId": 402009,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1129231,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1129232,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1129233,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1129234,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1129235,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1129236,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1129237,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1129238,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1129239,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1129240,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1129241,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1129242,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1129243,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1129244,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1129245,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1129246,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1129247,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1129248,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1129249,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1129250,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认对应 TMDB TV 作品《风姿物语》(TMDB 124761) 的第 2 季《仙罗篇》。Bangumi 条目为 WEB 动画，2022-10-03 开播，共 20 集；剧情简介、标题别名、播出日期和制作人员与该季一致。TMDB 第 2 季实际包含完整的 20 集（2022-10-03 至 2023-02-06），且未混入其他作品，因此使用整季范围，不填写 episodeStart/episodeEnd。TMDB 主条目同时收录第 1 季《银河篇》，不能将其误配入本条目。\n\nhttps://api.bgm.tv/v0/subjects/402009 (api_snapshot): Bangumi 原始 API：标题《风姿物语 仙罗篇》，平台 WEB，2022-10-03，20 集；别名含《风姿物语 仙罗篇 第一季》《风姿物语 暹罗篇》；剧情、导演孙冠群、动画制作猎星时代动漫等信息。\n\nhttps://www.themoviedb.org/tv/124761 (api_snapshot): TMDB 详情：作品标题《风姿物语》，2021-05-04 首播，共 2 季 40 集；别名明确包含 Fengzi Wuyu: Xian Luo Pian、風姿物語仙羅篇，并将第 2 季命名为《仙罗篇》。主剧情为同一风之大陆、兰斯洛等角色背景。\n\nhttps://www.themoviedb.org/tv/124761/season/2 (api_snapshot): TMDB 第 2 季详情：季名《仙罗篇》，2022-10-03，episodeCount=20；实际集表连续列出第 1 至第 20 集，末集日期为 2023-02-06，剧情与 Bangumi 完全对应。\n\nhttps://bangumi.tv/subject/402009 (page): Bangumi 页面显示该条目为 WEB、2022 年 10 月、20 话，并列出导演孙冠群、动画制作猎星时代动漫及脚本/分镜等制作信息。\n\nhttps://www.bilibili.com/bangumi/media/md28339461/ (page): 哔哩哔哩官方番剧页显示《风姿物语 仙罗篇》于 2022-10-03 开播、已完结、全 20 话，剧情简介与 Bangumi/TMDB 第 2 季一致。\n\n备注：TMDB 详情当前未返回 crew 字段，因此导演和动画制作公司的核对依据为 Bangumi 原始 API/页面；这不影响作品身份和季集范围判定。",
+    "evidence": "codex: 确认对应 TMDB 124761 第2季《仙罗篇》整季：篇章剧情、首播年份与日期、媒介及20集范围一致，实际季表未混入《银河篇》或动态漫版本。逐集仅映射首集；其余章节缺少 Bangumi 标题且日期存在系统性差异，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/124761 (api_snapshot): TMDB 作品详情将第2季明确命名为《仙罗篇》，首播日期为2022-10-03，共20集；季简介与 Bangumi 的仙罗城婚礼、七大宗门及兰斯洛等人物剧情一致。第1季为《银河篇》。\n\nhttps://www.themoviedb.org/tv/124761/season/2 (api_snapshot): 已读取第2季全部集表，total_pages=1，连续包含第1至20集。第1集《天地有雪》和第2集《包藏祸心》均标为2022-10-03，第3集起每周更新，末集《身份之谜》为2023-02-06。第2至20集的日期均比输入 Bangumi 同编号章节早7天。\n\nhttps://www.bilibili.com/bangumi/media/md28339461/ (page): 哔哩哔哩官方作品页确认《风姿物语 仙罗篇》于2022年10月3日开播，已完结，全20话。\n\nhttps://www.bilibili.com/bangumi/media/md28339461/ (search_snippet): 官方作品页搜索结果另显示同一仙罗城剧情，并明确第1话为《天地有雪》、第2话为《包藏祸心》、第3话为《抢亲少年》、第4话为《笑谈李昱》，与 TMDB 对应编号标题一致。\n\nhttps://bangumi.tv/subject/402009 (search_snippet): Bangumi 搜索结果确认本条目为2022年10月3日开始的20话 WEB 动画，导演孙冠群，动画制作及製作为猎星时代动漫；剧情与 TMDB 第2季一致。\n\n备注：Bangumi 第2至20集日期均比 TMDB 同编号晚7天，可能涉及会员抢先看或 Bangumi 排期录入差异，但尚未取得足以解释差异的播出公告。不能据日期将这些章节向后错配一集。；第2至20集需补充 Bangumi 集标题或可靠的逐集播出记录，核实日期差异后再建立规则。；TMDB 详情未提供制作公司及主创资料，制作人员信息仅由 Bangumi 搜索结果核实，未完成跨库主创交叉验证。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/402009; https://api.bgm.tv/v0/subjects/402009; https://www.themoviedb.org/tv/124761; https://www.themoviedb.org/tv/124761/season/2; https://bangumi.tv/subject/402009; https://www.bilibili.com/bangumi/media/md28339461/",
-    "verifiedAt": "2026-09-08T23:34:19.998Z"
+    "source": "https://bgm.tv/subject/402009; https://www.themoviedb.org/tv/124761; https://www.themoviedb.org/tv/124761/season/2; https://www.bilibili.com/bangumi/media/md28339461/; https://bangumi.tv/subject/402009",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 124761
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

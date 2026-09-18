@@ -1,13 +1,30 @@
 {
+  "anidbId": 12733,
   "bangumiId": 83796,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 352182,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 352183,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 352184,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 121620 与《なめこ家の一族》身份一致：原名相同，剧情均为以次男なめこ为中心的蘑菇家庭日常，TMDB列为13集、约5分钟短篇。官方资料确认本作是2013年12月至2014年7月发行的OVA，共3卷；第1、2卷各4话，第3卷5话，合计13话，并且监督高松明子、动画制作读広エンタテインメント/drop等与资料一致。Bangumi的3集实际对应3个OVA卷，因此应映射到TMDB第1季完整1–13集。TMDB的2015年日期应是后续平台/数据库收录日期，不是另一部新版；未采用音乐录像PV或《なめこ～せかいのともだち～》等其他作品。\n\nhttps://www.themoviedb.org/tv/121620 (api_snapshot): TMDB详情：原名《なめこ家の一族》，剧情为蘑菇家庭日常，2015-04-01开始，13集，1季，制作公司YOMIKO Advertising。\n\nhttps://www.themoviedb.org/tv/121620/season/1 (api_snapshot): TMDB第1季实际季表包含完整第1–13集，日期为2015-04-01至2015-06-24，每集约5分钟。\n\nhttps://www.furyu.jp/news/2014/06/nameko-dvd-3.html (page): 官方发行资料明确称其为OVA第3弹；第3卷于2014-07-16发行，收录5话，并说明第1、2卷各为4话；同时列出与Bangumi资料一致的监督和读広エンタテインメント/drop制作人员。\n\nhttps://prtimes.jp/main/html/rd/p/000000193.000005167.html (page): 官方发行资料确认第1卷是OVA，发行日为2013-12-20，收录4个本篇短篇，并列出高松明子、小竹歩、读広エンタテインメント/drop等制作人员。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20023002&workId=20023 (page): 作品资料将本作列为2013年作品、全3话（对应1至3卷），主题为无对白半默剧式的なめこ家庭日常，并列出相同制作人员。\n\n备注：TMDB将该OVA合集的季日期记录为2015年4月至6月，和原始DVD发行日期2013年12月至2014年7月不同；但标题、剧情、制作人员、短篇时长及13话总数均吻合，属于日期/发行渠道元数据差异。；TMDB季表使用“第1话”至“第13话”等泛化标题，未直接标出三卷边界；4+4+5的卷内话数由官方发行资料确认。",
+    "evidence": "codex: 作品及季范围可匹配至TMDB 121620第1季1—13集：原名、具体家庭成员与剧情、制作公司线索以及13个短篇的总量相符；官方确认Bangumi所记2013—2014年三卷OVA包含4＋4＋5个本篇故事。保留作品范围匹配，但不建立逐集规则或拆分特例：Bangumi章节无标题、日期，TMDB也只有泛化标题，尚不能核实三卷分别对应哪些TMDB集号。\n\nhttps://www.themoviedb.org/tv/121620 (api_snapshot): 以日文原名搜索后读取详情：TMDB 121620 原名为《なめこ家の一族》，简介描述次男なめこ与同名家庭成员的日常，制作公司列为 YOMIKO Advertising；共1季13集。日期标为2015-04-01，演职员表为空。\n\nhttps://www.themoviedb.org/tv/121620/season/1 (api_snapshot): 第1季集表共13集、仅1页，集号为1至13，每集约5分钟；标题均为泛化的“第N話”，简介为空，日期为2015-04-01至2015-06-24，无法直接核对各卷所含故事的顺序。\n\nhttps://prtimes.jp/main/html/rd/p/000000193.000005167.html (page): 发行方公告正文确认第1卷为2013-12-20发行的OVA，收录4个本篇故事；监督高松明子、动画导演小竹歩、影像制作读広エンタテインメント/drop。公告区分了作为创作基础的YouTube短片与后续OVA。\n\nhttps://www.furyu.jp/news/2014/06/nameko-dvd-3.html (page): 发行方确认第3卷于2014-07-16发行，收录5个本篇故事及另计的NG集；第1、2卷各含4个故事，三卷本篇合计13话。家庭日常设定及制作人员与Bangumi资料一致。\n\nhttps://www.furyu-pictures.jp/lineup/produce/page/4/ (page): 制作方实绩将《なめこ家の一族》明确列为2013年12月发行、全13话的OVA；另列2016年TV动画《なめこ～せかいのともだち～》，两者为不同作品。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20023002&workId=20023 (page): d动画商店将本作列为2013年作品、全3话，访问页面标题为第2卷；家庭日常简介及高松明子、小竹歩、读広エンタテインメント/drop等制作信息与三卷OVA相符，支持按卷计为3话的口径。\n\n备注：TMDB的2015年日期与官方原始发行日期不一致，目前没有证据说明其对应重播、上线日期还是录入错误，不能沿用旧映射对此的推断。；4＋4＋5的卷内数量已确认，但不足以单独证明TMDB沿用DVD故事顺序；需补充可对应TMDB编号的故事标题或内容资料后，才能为章节352182、352183、352184填写一对多overrides。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/83796; https://www.themoviedb.org/tv/121620; https://www.themoviedb.org/tv/121620/season/1; https://www.furyu.jp/news/2014/06/nameko-dvd-3.html; https://prtimes.jp/main/html/rd/p/000000193.000005167.html; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=20023002&workId=20023",
-    "verifiedAt": "2026-09-08T19:20:31.492Z"
+    "source": "https://bgm.tv/subject/83796; https://www.themoviedb.org/tv/121620; https://www.themoviedb.org/tv/121620/season/1; https://prtimes.jp/main/html/rd/p/000000193.000005167.html; https://www.furyu.jp/news/2014/06/nameko-dvd-3.html; https://www.furyu-pictures.jp/lineup/produce/page/4/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=20023002&workId=20023",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

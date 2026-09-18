@@ -1,18 +1,111 @@
 {
   "anidbId": 9977,
   "bangumiId": 95225,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 435521,
+      "sort": 0,
+      "type": 0
+    },
+    {
+      "id": 435522,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 436160,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 436161,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 436162,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 436163,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 436164,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 436165,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 436166,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 436167,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 436168,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 436169,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 436170,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 435521,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 61415,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject是ufotable制作、2014年开播的电视动画第一季，共13集，包含《序章》至《最后的选择》。TMDB电视条目61415对应该2014版动画；TMDB季号应为第1季，且该季完整对应本subject。ExtLinker的season=0将正篇误作特别篇季。2010年Studio Deen剧场版是独立版本，TMDB电影ID为46304，不能与本subject等同。AniDB 9977关联的是2014电视版，关联本身未见错误。\n\nhttps://www.wikidata.org/wiki/Q19980978 (page): 页面将该作品标为日本动画电视系列，开始日期为2014年10月4日，并列出AniDB ID 9977（2014版）及TMDB电视系列ID 61415。\n\nhttps://www.themoviedb.org/tv/61415-fate-stay-night-unlimited-blade-works/images/backdrops (search_snippet): TMDB页面标题为《Fate/stay night: Unlimited Blade Works (2014)》，确认61415是2014电视动画条目。\n\nhttps://www.classification.gov.au/titles/fatestay-night-unlimited-blade-works-season-1 (search_snippet): 澳大利亚官方分级索引将第一季列为2014年作品，并列出13个内容单元，从Prologue、Winter Day, Fateful Night至The Final Choice。\n\nhttps://www.disneyplus.com/browse/entity-ae0adb7c-fec7-4c6d-8e4b-07eeb045797f (search_snippet): Disney+索引将Prologue及Winter Days, a Fateful Night等列入Season 1，并将后续Incarnation、Unlimited Blade Works、Epilogue列入Season 2，支持本subject对应第一季而非特别篇季。\n\nhttps://www.wikidata.org/wiki/Q3740068 (search_snippet): 另一条Wikidata页面对应2010年动画电影，并列出TMDB电影ID 46304，证明电影版本与2014电视版分属不同条目。",
+    "evidence": "codex: 确认对应 TMDB 61415 的第0季第1集及第1季全12集，共13集。年份、电视媒介、制作公司、导演、剧情及逐集标题一致。旧映射仅包含第1季，遗漏了被 TMDB 归入特别篇季的《序章》；不能将整个第0季纳入。\n\nhttps://www.themoviedb.org/tv/61415 (api_snapshot): TMDB 61415 是2014年电视动画，制作公司包括 ufotable、TYPE-MOON、Aniplex，导演为三浦贵博，原作为奈须蘑菇；冬木市圣杯战争的剧情与输入一致，确认是本次电视版本。\n\nhttps://www.themoviedb.org/tv/61415/season/1 (api_snapshot): 第1季实际共12集，total_pages=1。逐集标题与 Bangumi sort 1—12 全部对应，仅第4、7话标题省略读音括注；日期为2014-10-12至2014-12-28，每集均比输入晚一天，周播间隔一致。\n\nhttps://www.themoviedb.org/tv/61415/season/0 (api_snapshot): 第0季实际共2集，total_pages=1。第1集为《プロローグ》，日期2014-10-05，剧情为远坂凛召唤 Archer，对应 Bangumi 第0话；第2集为2015年的《sunny day》，不属于本 subject。\n\nhttps://www.fate-sn.com/ubw/story/ (page): 官方网站将《プロローグ》编号为 #00，并依次列出与输入一致的 #01—#12 标题；序章剧情也与 TMDB S00E01 一致。\n\n备注：TMDB 的13集日期均比 Bangumi 输入晚一天；已确认偏差一致且标题逐集匹配，但未确认日期差异的具体来源。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/95225; https://www.wikidata.org/wiki/Q19980978; https://www.themoviedb.org/tv/61415-fate-stay-night-unlimited-blade-works/images/backdrops; https://www.classification.gov.au/titles/fatestay-night-unlimited-blade-works-season-1; https://www.disneyplus.com/browse/entity-ae0adb7c-fec7-4c6d-8e4b-07eeb045797f; https://www.wikidata.org/wiki/Q3740068",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/95225; https://www.themoviedb.org/tv/61415; https://www.themoviedb.org/tv/61415/season/1; https://www.themoviedb.org/tv/61415/season/0; https://www.fate-sn.com/ubw/story/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61415
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "episode": 1,
+      "id": 61415,
+      "season": 0,
+      "type": "tv"
+    },
     {
       "id": 61415,
       "season": 1,

@@ -1,19 +1,91 @@
 {
   "anidbId": 17547,
   "bangumiId": 394260,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1177091,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1177092,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1177093,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1177094,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1177095,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1177096,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1177097,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1177098,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1177099,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1177100,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1177101,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1177102,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应2023年TV动画第一期。作品剧情、导演、制作公司一致，12话标题、顺序及播出排期逐集吻合。TMDB将两期合并为第1季25集，因此旧映射应收窄为S1E1–E12，与第二期已占用的E13–E25不重叠。\n\nhttps://www.themoviedb.org/tv/207250 (api_snapshot): 日文原名搜索命中 TV 207250；详情显示为2023年电视动画，导演赤城博昭、制作公司新锐动画，市川京太郎与山田杏奈在图书室相识的剧情均与输入一致。\n\nhttps://www.themoviedb.org/tv/207250/season/1 (api_snapshot): 已读取第1季完整集表，共25集、1页，季名为“第1期～第2期”。第1至12集日文标题与输入逐集完全一致，播出日期为2023-04-02至2023-06-18，每集均比Bangumi日期晚一天；第13至25集在2024年播出，不属于本subject。\n\nhttps://bokuyaba-anime.com/story/ (page): 官方故事目录列出第1至12话，与Bangumi及TMDB前12集标题和顺序一致，并单独标明第二期剧情及第13至25话。\n\nhttps://bokuyaba-anime.com/news/detail/?id=1106572 (search_snippet): 官方首播公告注明2023年4月1日起每周六深夜1时30分播出，即实际日历次日凌晨，解释了Bangumi与TMDB逐集相差一天的日期记法。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/394260; https://www.themoviedb.org/tv/207250; https://www.themoviedb.org/tv/207250/season/1; https://bokuyaba-anime.com/story/; https://bokuyaba-anime.com/news/detail/?id=1106572",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 207250
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 207250,
       "season": 1,
       "type": "tv"

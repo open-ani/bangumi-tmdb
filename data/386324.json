@@ -1,14 +1,65 @@
 {
   "anidbId": 17424,
   "bangumiId": 386324,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1109999,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1110000,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1110001,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1110002,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1110003,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1110004,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1110005,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1110006,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1110007,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1110008,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目为 2022-04-01 开始、共 10 话的《ケンダマスター拳》TVseries；AniDB 17424 同样记录为《Kenda Master Ken (2022)》TV Series、10 话，播出期为 2022-04-01 至 2022-06-03，且标题、制作人员和剧集标题均吻合。TMDB 201495 的简介、首播日、日文原名及 10 话完整第 1 季与该版本一致。因此应对应 TV 201495 第 1 季全季。\n\nhttps://anidb.net/anime/17424 (page): AniDB 记录 Kenda Master Ken (2022) / ケンダマスター拳 (2022) 为 TV Series，共 10 话，播出时间 2022-04-01 至 2022-06-03；制作、剧集标题和日期与目标条目吻合。\n\nhttps://www.themoviedb.org/tv/201495 (api_snapshot): TMDB 记录日文原名ケンダマスター拳、首播日 2022-04-01、共 10 话，并提供与该作品一致的剧情简介。\n\nhttps://www.themoviedb.org/tv/201495/season/1 (api_snapshot): TMDB 第 1 季为 2022-04-01 开播、共 10 集；第 1 至第 10 集日期连续覆盖 2022-04-01 至 2022-06-03，标题和剧情与 AniDB 及目标 TV 版本一致。\n\nhttps://natalie.mu/comic/news/470410 (search_snippet): 报道确认 2022 年 4 月 1 日播出的《ケンダマスター拳》电视版为全 10 话，并明确区别于 2021 年剧场版及剧场编辑版。",
+    "evidence": "codex: 确认对应 TMDB 201495 第1季全季。年份、电视媒介、制作公司、剧情、10话总量及首尾播出日期相符，制作方资料也明确区分电视系列与剧场作品。TMDB完整季表和发行平台集表相互吻合。输入的Bangumi章节全部缺少标题与日期，无法直接逐集比对，因此仅确认作品及整季范围，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/201495 (api_snapshot): 以日文原名搜索后读取 TMDB 201495：为2022年电视动画，制作公司为 Studio Kingyoiro，播出期为2022-04-01至2022-06-03，共1季10集；玉木ケン进入ケンダマ学园复仇的剧情与制作方资料一致。\n\nhttps://www.themoviedb.org/tv/201495/season/1 (api_snapshot): 第1季真实集表共10集，total_pages=1；第1至10集日期依次为2022-04-01、04-08、04-15、04-22、04-29、05-06、05-13、05-20、05-27、06-03，每集13至16分钟。季内为连续电视剧情，末三集为极恶列车篇前篇、中篇、完结篇，未混入剧场版。\n\nhttps://www.value-press.com/pressrelease/292241 (page): 制作公司スタジオ金魚色的新闻稿确认：伊藤魔鬼制作的电视系列于2022-04-01在电视松本开播，计划全10话；电视版加入剧场版没有登场的角色，并另有演员和内容尺度部分不同的「あんしんばん」。这与输入所述电视系列及版本说明吻合。\n\nhttps://www.allcinema.net/cinema/382061 (page): 记录2022年电视动画及别名「ケンダマスター拳TV」，首播日2022-04-01、电视台为电视松本，导演伊藤魔鬼，配音伊藤魔鬼与空りんご，佐证安心版资料。\n\nhttps://www.roku.com/whats-on/tv-shows/kenda-master-ken?id=893aeecc63c45cf887ed3419cc26e961 (search_snippet): Roku 的2022年第1季列出全部10集；各集英文标题与 TMDB 日文标题逐项对应，包括第5集人造人间103号、第7集修学旅行及第8至10集极恶列车三部曲。\n\n备注：Bangumi章节标题与日期均为空，且本次未能读取其在线章节页；需补齐章节资料后才能建立符合逐集核验要求的rules。；电视松本安心版与海外发行版存在配音和部分内容差异；Bangumi简介涵盖两者，TMDB未单独标明剪辑版本，此映射确认到电视系列层级。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/386324; https://anidb.net/anime/17424; https://www.themoviedb.org/tv/201495; https://www.themoviedb.org/tv/201495/season/1; https://natalie.mu/comic/news/470410",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/386324; https://www.themoviedb.org/tv/201495; https://www.themoviedb.org/tv/201495/season/1; https://www.value-press.com/pressrelease/292241; https://www.allcinema.net/cinema/382061; https://www.roku.com/whats-on/tv-shows/kenda-master-ken?id=893aeecc63c45cf887ed3419cc26e961",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

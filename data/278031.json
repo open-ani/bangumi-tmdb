@@ -1,21 +1,116 @@
 {
   "anidbId": 14767,
   "bangumiId": 278031,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 994947,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 994948,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 994949,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 994950,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 994951,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 994952,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 994953,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 994954,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 994955,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 994956,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 994957,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 994958,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 999980,
+      "sort": 24.9,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 999980,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 82684,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 该subject覆盖2021年第二季第1部，12集本篇的标题和日期逐集对应TMDB 82684第二季第1至12集；附属特别篇对应第0季第7集。旧映射范围过宽，应限定到前半季。\n\nhttps://www.themoviedb.org/tv/82684 (api_snapshot): TMDB 82684 为同名电视动画，制作公司包含エイトビット、讲谈社，利姆露等角色及故事设定一致；第二季首播日期为2021-01-12，共24集。\n\nhttps://www.themoviedb.org/tv/82684/season/2 (api_snapshot): 第二季集表共24集、1页。第1至12集与输入的本篇sort 25至36逐集标题及放送日期一致，日期为2021-01-12至2021-03-30；第10集标题仅增加读音「メギド」。第13集于2021-07-06播出，属于后半部。\n\nhttps://www.themoviedb.org/tv/82684/season/0 (api_snapshot): 第0季集表共16集、1页。第7集「ヒナタ・サカグチ」于2021-01-05播出，简介为日向收到有关魔物之国的情报并回顾利姆露经历，与输入特别篇吻合。\n\nhttps://www.ten-sura.com/news/anime/tensura/news/post/1962 (page): 官方明确第二季分为2021年1月开始的第1部和7月开始的第2部，4月播出的《转生史莱姆日记》为另一部作品。\n\nhttps://www.ten-sura.com/news/anime/tensura/news/post/4521 (page): 官方确认「闲话：坂口日向」于2021-01-05电视播出，是从日向视角加入新画面回顾第一季的特别篇，为1月12日开播的第二季预热。\n\n备注：输入中Bangumi 268726旧映射占用整个第0季，与本次已核实的第7集存在范围重叠；该旧映射需另行核对并收窄。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/278031; https://www.themoviedb.org/tv/82684; https://www.themoviedb.org/tv/82684/season/2; https://www.themoviedb.org/tv/82684/season/0; https://www.ten-sura.com/news/anime/tensura/news/post/1962; https://www.ten-sura.com/news/anime/tensura/news/post/4521",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 25,
+      "tmdbId": 82684
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 82684,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 7,
+      "id": 82684,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,13 +1,75 @@
 {
+  "anidbId": 17818,
   "bangumiId": 395285,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1276697,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1276698,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1276699,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1276700,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1276701,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1276702,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1276703,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1276704,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1276705,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1276706,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1276707,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1276708,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2023-11-25 开播、12 集的《武动乾坤》第四季动画，剧情涉及林动、吞噬祖符、大荒古碑及林氏族比。TMDB 87007 明确为中国动画《武动乾坤》/Martial Universe，首播 2019-01-27，制作公司含腾讯企鹅影视、中国文学及大呈印象，且第4季日期为 2023-11-25、剧情和集数均与 Bangumi 一致。实际季表显示第4季完整覆盖第1至第12集，因此推荐整季映射。TMDB 73078 是 2018 年杨洋主演的真人剧，属于不同媒介和版本，已排除。\n\nhttps://api.bgm.tv/v0/subjects/395285 (api_snapshot): Bangumi 原始 API：标题为《武动乾坤 第四季》，2023-11-25 开播，共12集；剧情为林动寻找吞噬祖符并面对林琅天。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): TMDB 详情：原名《武动乾坤》，别名 Wu Dong Qian Kun (Donghua)、Martial Universe；首播 2019-01-27，动画制作相关公司包括 Tencent Penguin Pictures、China Literature、DC Impression Vision；共有第1至第7季。\n\nhttps://www.themoviedb.org/tv/87007/season/4 (api_snapshot): TMDB 第4季：2023-11-25 开播，共12集；第1集至第12集连续存在，剧情从获得大荒囚天指、夺取和炼化祖符发展至林氏族比并挑战林琅天，覆盖 Bangumi 主体。\n\nhttps://www.themoviedb.org/tv/73078 (api_snapshot): TMDB 73078 是 2018 年真人剧版本，由杨洋等主演，共2季，不是 Bangumi 的动画版本。",
+    "evidence": "codex: 已确认对应 TMDB 87007 第4季整季：动画媒介、制作公司、首播日期、12集总量及故事范围相符，官方平台亦确认独立的第四季12集。Bangumi 各章节缺少标题和日期，无法完成逐集交叉核验，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/395285 (page): Bangumi 标明本作是2023年11月25日开播的12集网络动画，由郑钧任总导演、大呈印象制作，剧情涉及吞噬祖符、大荒古碑与林氏族比。\n\nhttps://bgm.tv/subject/395285/ep (page): Bangumi 章节表列出本篇1至12，但均无标题和播出日期，缺乏逐集核对信息。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): TMDB 87007 的别名包含《武动乾坤动画版》和 Martial Universe，演员为配音阵容，制作公司包含腾讯企鹅影视、阅文集团及大呈印象；第4季首播日期为2023年11月25日。\n\nhttps://www.themoviedb.org/tv/87007/season/4 (api_snapshot): 实际读取第4季完整集表，total_pages=1，共12集，集号1至12。日期从2023年11月25日至2024年2月3日；剧情从远古血蝠龙、夺取和炼化祖符推进至林氏族比及胜局，与该 subject 主体一致。\n\nhttps://wetv.vip/zh-cn/play/8cno82bq76p9tnj-%E6%AD%A6%E5%8A%A8%E4%B9%BE%E5%9D%A4%20%E7%AC%AC4%E5%AD%A3 (page): WeTV 官方页面将《武动乾坤 第4季》列为2023年作品、全12集，独立列出01至12集；剧情与 Bangumi 及 TMDB 第4季一致。\n\n备注：逐集映射尚未确认；需补充 Bangumi 章节标题、播出日期或可核验的章节内容后，再与 TMDB 集表逐一比对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/395285; https://api.bgm.tv/v0/subjects/395285; https://www.themoviedb.org/tv/87007; https://www.themoviedb.org/tv/87007/season/4; https://www.themoviedb.org/tv/73078",
-    "verifiedAt": "2026-09-08T23:31:28.167Z"
+    "source": "https://bgm.tv/subject/395285; https://bgm.tv/subject/395285/ep; https://www.themoviedb.org/tv/87007; https://www.themoviedb.org/tv/87007/season/4; https://wetv.vip/zh-cn/play/8cno82bq76p9tnj-%E6%AD%A6%E5%8A%A8%E4%B9%BE%E5%9D%A4%20%E7%AC%AC4%E5%AD%A3",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

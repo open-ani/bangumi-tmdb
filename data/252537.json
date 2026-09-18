@@ -1,15 +1,86 @@
 {
+  "anidbId": 13531,
   "bangumiId": 252537,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 806060,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 806061,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 806062,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 806063,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 806064,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 806065,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 806066,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 806067,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 806068,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 806069,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 806070,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 806071,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 288121 与 Bangumi 条目的原名、剧情、角色声优、制作公司及12个集标题完全对应。TMDB记录的是2017年12月起在GANMA!配信的版本；官方资料确认该原创动画全12话于2018年7月在TOKYO MX电视播出，因此年份差异是网络首播与电视播出的差异，不是不同作品。TMDB第1季实际包含完整12集，覆盖 Bangumi 主体，可使用整季映射。\n\nhttps://www.themoviedb.org/tv/288121 (api_snapshot): TMDB TV条目原名为「焼肉店センゴク」，剧情、角色阵容、スタジオプラセボ制作公司及12集、1季信息与目标作品一致；首播日期为2017-12-17。\n\nhttps://www.themoviedb.org/tv/288121/season/1 (api_snapshot): TMDB第1季实际有12集，集标题从「ようこそ焼肉店センゴクへ」至「知らない話」，与 Bangumi 的12集标题逐一对应，且无额外混入内容。\n\nhttps://ganma.jp/g/anime/sengoku/ (page): 官方页面列出2017年12月17日至2018年2月25日的1至12皿配信记录，并列出相同的剧情、声优、监督长井胜见及动画制作スタジオプラセボ。\n\nhttps://www.septeni-holdings.co.jp/news/release/20180703_sengokuanime%20TV.pdf (page): 制作方新闻稿确认：此前在GANMA!配信的原创动画全12话于2018年7月3日起在TOKYO MX播出，说明 Bangumi 的2018年电视日期对应同一部动画的电视播出版本。",
+    "evidence": "codex: 确认对应 TMDB 288121 第1季全12集。作品剧情、制作信息和角色阵容吻合，12个集标题及顺序完全一致，TMDB逐集日期也与官方配信公告吻合。Bangumi采用2018年电视播出日期，TMDB采用2017年开始的网络首播日期；官方确认电视播出的是此前配信的同一组12话，因此可建立第1—12话连续对应。\n\nhttps://www.themoviedb.org/tv/288121 (api_snapshot): TMDB 288121 的原名、烧肉店打工剧情、角色声优及动画制作公司均吻合；共1季12集，首播日期为2017年12月17日。\n\nhttps://www.themoviedb.org/tv/288121/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。全部集标题与输入的 Bangumi 第1—12话逐一一致；逐集日期与官网配信记录一致，首两话同日上线，其余每周一话，没有混入其他作品。\n\nhttps://ganma.jp/g/anime/sengoku/ (page): 官网列出全部12话的标题、剧情及配信公告：第1、2话于2017年12月17日同时配信，第3—12话于12月24日至2018年2月25日每周配信。导演长井胜见、制作公司及声优与输入一致。\n\nhttps://www.septeni-holdings.co.jp/news/release/20180703_sengokuanime%20TV.pdf (page): 制作方2018年7月3日公告明确：此前在GANMA!配信的原创动画全12话，自当日起在TOKYO MX播出；另注明7月4日起其他网络平台发行再编辑版。电视播出年份差异有官方解释。\n\n备注：Bangumi逐集日期为空，无法直接逐话比对电视播出日期；官方提及的再编辑版剪辑细节未核实，当前映射确认的是章节对应关系。",
     "method": "codex",
     "source": "https://bgm.tv/subject/252537; https://www.themoviedb.org/tv/288121; https://www.themoviedb.org/tv/288121/season/1; https://ganma.jp/g/anime/sengoku/; https://www.septeni-holdings.co.jp/news/release/20180703_sengokuanime%20TV.pdf",
-    "verifiedAt": "2026-09-08T21:23:10.967Z"
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 288121
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,19 +1,91 @@
 {
   "anidbId": 17658,
   "bangumiId": 403722,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1247719,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1247720,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1247721,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1247722,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1247723,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1247724,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1247725,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1247726,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1247727,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1247728,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1247729,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1247730,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、电视动画媒介、剧情及制作人员一致，12话标题和放送排期逐集吻合，确认对应TMDB 211709第1季第1—12集。日期差符合深夜24时的跨日记法。该季还包含《东京夺还篇》第13—24集，故须将旧整季映射收窄至前12集。\n\nhttps://www.themoviedb.org/tv/211709 (api_snapshot): TMDB 211709 为2023年日本电视动画《SHY》，剧情为腼腆少女英雄守护日本；导演安藤正臣、制作公司8bit及主演下地紫野、东山奈央均与输入一致。\n\nhttps://www.themoviedb.org/tv/211709/season/1 (api_snapshot): 已读取第1季完整集表，共24集、1页。第1—12集日文标题与输入12话逐一完全一致，日期依次为2023-10-03至12-19，均比Bangumi晚一天；第13集起进入2024年播出的后续内容，因此本subject仅覆盖第1—12集。\n\nhttps://www.shy-anime.com/ (page): 动画官网确认原作为实树不气味、导演为安藤正臣，并将《东京夺还篇》标注为后续篇章，相关新闻使用第13—24话编号。\n\nhttps://www.shy-anime.com/onair/99/ (search_snippet): 官网放送资料注明2023年10月2日星期一深夜24:00开播，对应自然日10月3日，与两站逐集日期固定相差一天的情况吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/403722; https://www.themoviedb.org/tv/211709; https://www.themoviedb.org/tv/211709/season/1; https://www.shy-anime.com/; https://www.shy-anime.com/onair/99/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211709
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 211709,
       "season": 1,
       "type": "tv"

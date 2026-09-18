@@ -1,16 +1,86 @@
 {
   "anidbId": 18620,
   "bangumiId": 493758,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1433753,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1433754,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1433755,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1433756,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1433757,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1433758,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1433759,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1433760,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1433761,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1433762,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1433763,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1433764,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi条目确认这是2025年1月8日开始、共12集的TV动画，制作公司为Studio Comet，剧情与角色信息均与目标作品一致。官方页面确认电视播出时间，官方BD页面明确收录本編1～12话。TMDB 261298具有相同日文标题、2025-01-08首播日期、相符简介，Season 1列为12集，且12个剧集标题与Bangumi逐集完全对应，因此采用TV 261298第1季完整范围。TMDB快照中第2集至第12集日期整体提前一周，与官方电视播出日期不一致，但标题、简介、集数及官方本篇范围均支持其属于同一季；不据此缩减范围。\n\nhttps://bgm.tv/subject/493758 (page): Bangumi确认条目为TV动画《いずれ最強の錬金術師？》，共12话，2025年1月8日开始，2025年3月26日结束，动画制作公司为スタジオコメット；章节为01至12，剧情简介与TMDB一致。\n\nhttps://izuresaikyo-pr.com/ (page): 官方站确认本作自2025年1月8日起在TOKYO MX、BS11、AT-X播出。\n\nhttps://izuresaikyo-pr.com/disc/ (page): 官方BD/DVD页面明确写明收录“本編1～12話”。\n\nhttps://www.themoviedb.org/tv/261298 (api_snapshot): TMDB TV 261298的日文标题、首播日期、简介、原语言和日本产地与该Bangumi条目对应；其季列表显示Season 1共12集。\n\nhttps://www.themoviedb.org/tv/261298/season/1 (api_snapshot): TMDB第1季列出12个完整剧集，标题从“巻き込まれて召喚されました”至“絆が試される時”，与Bangumi第1至12话逐一对应，简介也对应同一剧情。\n\nhttps://anidb.app/anime/possibly-the-greatest-alchemist-of-all-time-4178 (page): 公开AniDB镜像页面显示同名作品为Winter 2025、TV、Studio Comet，播出期为2025-01-08至2025-03-26，进一步支持作品版本一致性。\n\n备注：无法通过公开AniDB页面直接读取输入所称AniDB ID 18620；AniDB站点访问受限，因此该具体外部ID关联未能独立复核。但Bangumi、官方资料与TMDB的标题、年份、制作公司、剧情及逐集标题均直接吻合。；TMDB快照中的第2至12集日期比官方电视播出日期提前一周，疑似混用了先行配信日期；这不影响季号和完整12集范围的判断。",
+    "evidence": "codex: 确认对应TMDB 261298第1季完整12集。年份、TV媒介、剧情、导演及制作公司一致；12个章节标题和顺序逐一吻合，官方影碟范围亦为本篇1至12话，因此本篇sort 1至12直接对应S01E01至S01E12。日期已逐集比较：第1集采用电视首播日期，第2至12集符合官方提前一周配信排期，不影响集号对应。\n\nhttps://bgm.tv/subject/493758 (page): Bangumi 确认为2025年1月8日至3月26日播出的12话TV动画，导演葛谷直行、动画制作Studio Comet；入间巧被误召唤并获得炼金术能力的剧情与TMDB一致。\n\nhttps://www.themoviedb.org/tv/261298 (api_snapshot): TMDB详情确认261298的日文原名、2025年首播时间、剧情、导演葛谷直行及制作公司Studio Comet均吻合；第1季为12集，第2季单独列出。\n\nhttps://www.themoviedb.org/tv/261298/season/1 (api_snapshot): 已读取第1季完整集表，共12集、total_pages=1。第1至12集日文标题与输入的Bangumi章节逐一完全一致，顺序无拆分或合并。第1集日期为2025年1月8日；第2至12集日期分别比Bangumi电视播出日期提前7天。\n\nhttps://izuresaikyo-pr.com/ (page): 官方确认2025年1月8日起每周三电视播出，d动画商店及ABEMA自1月1日起每周三提前一周配信，支持两套日期属于同一版本。\n\nhttps://izuresaikyo-pr.com/disc/ (page): 官方Blu-ray/DVD BOX明确收录本篇第1至12话，确认本作主体范围为完整12集。\n\n备注：TMDB季表混用日期口径的原因未获直接说明：第1集符合电视日期，第2至12集符合先行配信日期；版本及逐集对应关系已由其他证据确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/493758; https://izuresaikyo-pr.com/; https://izuresaikyo-pr.com/disc/; https://www.themoviedb.org/tv/261298; https://www.themoviedb.org/tv/261298/season/1; https://anidb.app/anime/possibly-the-greatest-alchemist-of-all-time-4178",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/493758; https://www.themoviedb.org/tv/261298; https://www.themoviedb.org/tv/261298/season/1; https://izuresaikyo-pr.com/; https://izuresaikyo-pr.com/disc/",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 261298
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

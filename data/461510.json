@@ -1,13 +1,39 @@
 {
   "bangumiId": 461510,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1260982,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1260983,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1260984,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1260985,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1260986,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 作品明确为 2023 年 11 月 26 日开播、5 集的《Aqua Teen Hunger Force Season 12》。TMDB TV 251 是同一部《Aqua Teen Hunger Force》原作系列，开播于 2000 年，包含第 12 季；其第 12 季日期为 2023-11-26，剧情仍围绕 Master Shake、Frylock、Meatwad 与 Carl，制作公司包括 Williams Street、Radical Axis 等，媒介为动画电视系列。TMDB 第 12 季实际有 5 集，编号 1–5，播出至 2023-12-17，完整覆盖 Bangumi 主体，因此使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/461510 (api_snapshot): Bangumi 原始信息：名称为 Aqua Teen Hunger Force Season 12，类型为 TV，日期 2023-11-26，总集数 5。\n\nhttps://www.themoviedb.org/tv/251 (api_snapshot): TMDB TV 251：原名 Aqua Teen Hunger Force，剧情、角色、别名、制作公司及 12 季结构与该系列一致；第 12 季日期为 2023-11-26。\n\nhttps://www.themoviedb.org/tv/251/season/12 (api_snapshot): TMDB 第 12 季实际集表为 5 集，episode 1–5，日期为 2023-11-26 至 2023-12-17。",
+    "evidence": "codex: 可确认对应 TMDB TV 251 第十二季整季。输入的2023年开播日期、Adult Swim电视播出、5集规模及2015年第十一季前作关系，与 TMDB 和官方回归公告一致；制作人员、角色及配音资料进一步确认版本。真实季表完整覆盖这5集，未混入电影或网络短片。Bangumi章节缺少标题与日期，无法逐集交叉核验，因此仅确认整季范围，暂不填写 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/251 (api_snapshot): 按英文原名搜索后读取 TMDB TV 251：原名、主角及配音阵容与官方资料一致；第十一季始于 2015-06-21，第十二季始于 2023-11-26，与输入的前作关系及开播日期吻合。\n\nhttps://www.themoviedb.org/tv/251/season/12 (api_snapshot): 第十二季集表共 5 集，total_pages=1：第1集 Shaketopia、第2集 A Quiet Shake 均于 2023-11-26 播出；第3集 Scrip2 2i2le: The Ts are 2s 于12月3日、第4集 Get Lit Upon a Situpon 于12月10日、第5集 Anubis 于12月17日播出。各集时长均为12分钟。\n\nhttps://press.wbd.com/ca/media-release/adult-swims-revival-iconic-animated-comedy-aqua-teen-hunger-force-arrives-sunday?language_content_entity=en (search_snippet): 华纳官方新闻稿确认：原创作者 Dave Willis、Matt Maiellaro 制作的电视动画第十二季于2023年11月26日回归，共5集全新内容；主角及配音演员与 TMDB 一致，并明确区别于此前的电影 Aqua Teen Forever: Plantasm。\n\nhttps://www.adultswim.com/videos/aqua-teen-hunger-force (page): Adult Swim 官方节目页将第十二季、Aquadonk Side Pieces 网络短片及电影分开列出；第十二季可见的第3、4集标题与 TMDB 对应集一致。\n\n备注：输入中5个Bangumi章节的标题和播出日期均为空，本次访问Bangumi页面及章节API也未成功取得内容；需补齐章节资料后才能确认逐集对应，不能仅凭sort位置生成规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/461510; https://api.bgm.tv/v0/subjects/461510; https://www.themoviedb.org/tv/251; https://www.themoviedb.org/tv/251/season/12",
-    "verifiedAt": "2026-09-09T00:00:33.359Z"
+    "source": "https://bgm.tv/subject/461510; https://www.themoviedb.org/tv/251; https://www.themoviedb.org/tv/251/season/12; https://press.wbd.com/ca/media-release/adult-swims-revival-iconic-animated-comedy-aqua-teen-hunger-force-arrives-sunday?language_content_entity=en; https://www.adultswim.com/videos/aqua-teen-hunger-force",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

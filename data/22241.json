@@ -1,14 +1,48 @@
 {
   "anidbId": 8577,
   "bangumiId": 22241,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 116735,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 116736,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 116735,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 45893,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 116736,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 45893,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2011 年的《ひだまりスケッチ×SP》OVA，共 2 话，主体标题分别对应「7月15日 感じるままに／8月28日 プカリ」和「5月9日 ザブザブザザー！！／5月25日 らっしゃい！肉の里」。TMDB TV 45893 的特别篇 season 0 中，第 8、9 集标题及剧情简介分别明确标注为《ひだまりスケッチ×SP》前编、后编，且制作年份、角色和作品背景一致。由于 season 0 还混入其他特别篇及无效占位集，不能整季纳入，范围应限定为第 8–9 集。\n\nhttps://bgm.tv/subject/22241 (page): Bangumi 将该条目标为 OVA《ひだまりスケッチ×SP》，发售/开始日期为 2011-10-29，共 2 话，并列出对应制作人员。\n\nhttps://www.tbs.co.jp/anime/hidamari/3rd/goods/disc.html (page): TBS 官方资料称《ひだまりスケッチ×SP》收录电视动画新作 2 话。\n\nhttps://www.tbs.co.jp/anime/hidamari/3rd/yota_blog/yota_blog1111.html (page): TBS 官方日志明确提到《ひだまりスケッチ×SP》前编及后编，后编播出日期为 2011-11-05。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要将 AniDB ID 8577 对应为 Hidamari Sketch x SP，与输入中 Bangumi→AniDB 的匹配结果一致。\n\nhttps://www.themoviedb.org/tv/45893/season/0 (api_snapshot): TMDB API 快照显示 season 0 第 8 集为「7月15日『感じるままに』8月28日『プカリ』」，简介标为《ひだまりスケッチ×SP 前編》；第 9 集为「5月9日『ザブザブザザー!!』5月25日『らっしゃい!肉の里』」，简介标为《ひだまりスケッチ×SP 後編》。\n\n备注：TMDB season 0 的整体 episodeCount 包含其他特别篇及若干占位条目，元数据存在异常；但第 8、9 集的标题、简介和版本对应关系明确。",
+    "evidence": "codex: 确认对应TMDB 45893第0季第8—9集。两话的完整分段标题、前后篇标识、剧情及制作背景一致，明确属于2011年×SP。TMDB日期采用官方确认的光碟发售日2011-11-23，Bangumi采用先行播出日期，差异可解释。第0季包含其他作品，仅纳入这两集，并按章节ID指定对应。\n\nhttps://bgm.tv/subject/22241 (page): Bangumi 将本作标为2011年的两话OVA，原作为苍树梅，导演为新房昭之，动画制作为SHAFT；起止日期为2011-10-29至2011-11-05。\n\nhttps://www.themoviedb.org/tv/45893 (api_snapshot): 日文原名搜索命中TV 45893；详情包含×SP别名，制作公司包括SHAFT、TBS、Aniplex及芳文社，人物与美术科学生的日常背景一致。该条目统合系列多个季度及特别篇。\n\nhttps://www.themoviedb.org/tv/45893/season/0 (api_snapshot): 第0季实际集表共30集、仅1页。第8集明确标为×SP前篇，标题为7月15日「感じるままに」及8月28日「プカリ」，剧情为美术馆与泳池活动；第9集明确标为×SP后篇，标题为5月9日「ザブザブザザー!!」及5月25日「らっしゃい!肉の里」，剧情为洗窗帘与自助烤肉。两集标题逐一对应输入章节，日期均为2011-11-23。相邻集属于其他特别篇。\n\nhttps://www.tbs.co.jp/anime/hidamari/3rd/yota_blog/yota_blog1111.html (page): TBS官方2011年11月日志确认×SP分前后篇，后篇于11月5日深夜播出、前篇在前一周播出；另于11月22日宣布本作翌日11月23日发售，并将2012年第四季另行介绍。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/22241; https://www.tbs.co.jp/anime/hidamari/3rd/goods/disc.html; https://www.tbs.co.jp/anime/hidamari/3rd/yota_blog/yota_blog1111.html; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/45893/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/22241; https://www.themoviedb.org/tv/45893; https://www.themoviedb.org/tv/45893/season/0; https://www.tbs.co.jp/anime/hidamari/3rd/yota_blog/yota_blog1111.html",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,

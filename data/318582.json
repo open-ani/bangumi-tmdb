@@ -1,15 +1,91 @@
 {
+  "anidbId": 17111,
   "bangumiId": 318582,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1151104,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1151105,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1151106,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1151107,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1151108,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1151109,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1151110,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1151111,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1151112,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1151113,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1151114,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1151115,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1151116,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目《どうしても干支にはいりたい》明确包含第2季，别名标注为「どうしても干支にはいりたい2」。第2季为2020-10-06至2020-12-29播出的13集，日期、剧情（动物选拔马拉松及干支成员）和导演西田大介均与 Bangumi subject 一致；因此对应 TMDB TV 123471 的第2季整季。\n\nhttps://api.bgm.tv/v0/subjects/318582 (api_snapshot): Bangumi API确认标题为「どうしても干支にはいりたい2」，平台为TV，首播2020-10-06，共13集，剧情为动物选拔马拉松大会。\n\nhttps://www.themoviedb.org/tv/123471 (api_snapshot): TMDB详情确认原名为「どうしても干支にはいりたい」，首播2015-10-11、完结2020-12-29，共2季26集；别名明确将「どうしても干支にはいりたい2」标为S2；导演为西田大介。\n\nhttps://www.themoviedb.org/tv/123471/season/2 (api_snapshot): TMDB第2季实际季表显示标题「どうしても干支にはいりたい2」、2020-10-06开播，共13集，集数1至13连续覆盖至2020-12-29，剧情与Bangumi描述一致。",
+    "evidence": "codex: 确认为TMDB 123471第2季整季。2020年TV版本的剧情、导演、制作公司、首末播出日期及13集总量一致；官网第1至13话的编号、标题和剧情与TMDB季表逐一吻合，支持Bangumi本篇1至13顺序对应S02E01至S02E13。\n\nhttps://www.themoviedb.org/tv/123471 (api_snapshot): TMDB 详情确认该系列由西田大介执导、Pollyanna Graphics 制作；2015 年第1季与2020年第2季各13集，别名明确将「どうしても干支にはいりたい2」标为第2季。动物选拔马拉松剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/123471/season/2 (api_snapshot): 第2季实际季表共13集，total_pages=1，集号1至13，播出日期从2020-10-06至2020-12-29每周递增；全部集标题及剧情与官网对应话数逐一一致。\n\nhttps://etononeko.jp/story/index.html (page): 官方故事页完整列出第1至13话；逐话标题、编号和剧情均与TMDB第2季一致，确认无换序、拆集或混入其他作品。\n\nhttps://abema.tv/channels/abema-anime/slots/FC7y7ZEbaBQyQK (search_snippet): ABEMA第1话节目资料确认2020-10-06播出，以狸与狐狸参加动物选拔马拉松为剧情，导演西田大介、制作公司ポリアンナグラフィックス，与TMDB资料一致。\n\nhttps://www.at-x.com/pdf/program/309c047ca47aa968d84842d5305332cb.pdf (search_snippet): AT-X官方编成表标明2020-12-29播出本作第13话并完结，与TMDB末集日期及输入的结束日期一致。\n\n备注：输入中的Bangumi章节标题及逐集日期为空，逐集顺序以官网明确话数和TMDB实际集表交叉核实，无法直接进行Bangumi章节标题、日期字段的比对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/318582; https://api.bgm.tv/v0/subjects/318582; https://www.themoviedb.org/tv/123471; https://www.themoviedb.org/tv/123471/season/2",
-    "verifiedAt": "2026-09-08T22:36:59.579Z"
+    "source": "https://bgm.tv/subject/318582; https://www.themoviedb.org/tv/123471; https://www.themoviedb.org/tv/123471/season/2; https://etononeko.jp/story/index.html; https://abema.tv/channels/abema-anime/slots/FC7y7ZEbaBQyQK; https://www.at-x.com/pdf/program/309c047ca47aa968d84842d5305332cb.pdf",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 123471
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

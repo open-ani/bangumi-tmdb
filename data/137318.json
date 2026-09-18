@@ -1,15 +1,90 @@
 {
   "bangumiId": 137318,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 413439,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 413440,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 413441,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 413442,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 413443,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 413444,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 413445,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 413446,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 413447,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 413448,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 413449,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 413450,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 413451,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2014 年的《The Clone Wars: The Lost Missions》，13 集、每集约 22 分钟。TMDB 4194 是 2008 年开播的电视动画《Star Wars: The Clone Wars》，共 7 季；其 Season 6 明确标为 13 集，实际集表 1–13 的标题和剧情与 Bangumi 条目逐集对应，因此使用完整第 6 季。TMDB 的制作公司为 Lucasfilm Animation/Lucasfilm，配音阵容包括 Ashley Eckstein、Matt Lanter、James Arnold Taylor 等。TMDB 3122 是 2003 年的旧版 2D 短篇动画，25 集、3 季，媒介版本不同，排除。\n\nhttps://api.bgm.tv/v0/subjects/137318 (api_snapshot): Bangumi fresh API 标示作品为 2014-02-15 的 TV 动画，共 13 集，别名为 The Clone Wars: The Lost Missions。\n\nhttps://www.themoviedb.org/tv/4194 (api_snapshot): TMDB 4194 的原名为 Star Wars: The Clone Wars，2008-10-03 开播，共 7 季 133 集；别名明确包含 Star Wars: The Clone Wars—The Lost Missions（Season 6）；制作公司为 Lucasfilm Animation 和 Lucasfilm。\n\nhttps://www.themoviedb.org/tv/4194/season/6 (api_snapshot): TMDB 第 6 季实际集表共 13 集，编号 1–13，包含 The Unknown、Conspiracy、Fugitive、Orders、The Rise of Clovis、The Disappeared、The Lost One、Voices、Destiny、Sacrifice 等，与 Bangumi 的 13 集范围对应。\n\nhttps://www.themoviedb.org/tv/3122 (api_snapshot): TMDB 3122 是 2003 年的 Star Wars: Clone Wars 旧版 2D 短篇动画，共 25 集、3 季，剧情和版本不同。\n\nhttps://www.starwars.com/news/star-wars-insider-195 (page): 官方 StarWars.com 说明 2014-03-07 发布了 The Lost Missions 的最终 13 集，并称其原计划构成第六季的一部分。\n\nhttps://www.starwars.com/news/star-wars-the-clone-wars-the-lost-missions-blasts-onto-blu-ray-and-dvd (page): 官方资料将 The Lost Missions 称为该动画系列的最终季，并描述了克隆人士兵调查 Order 66 阴谋、Anakin 与 Padmé 关系及 Yoda 探索原力秘密等剧情。\n\n备注：Bangumi 日期为 2014-02-15，而 TMDB 与官方资料记为 2014-03-07，存在地区或发行日期差异；但作品身份及第 6 季完整 13 集范围一致。",
+    "evidence": "codex: 确认对应 TMDB 4194 的完整第六季。版本、2014 年发行时间、The Lost Missions 别名、13 集总量及逐集标题均吻合，季表没有混入其他作品，可将 Bangumi 本篇 1—13 连续映射至 S06E01—S06E13。日期差异源于德国电视先行播出与 Netflix 集中发布，不影响逐集对应。\n\nhttps://www.themoviedb.org/tv/4194 (api_snapshot): TMDB 4194 是 2008 年开播的电视动画《Star Wars: The Clone Wars》，制作公司为 Lucasfilm Animation、Lucasfilm Ltd.；别名明确将 The Lost Missions 标为第六季，与输入的版本一致。\n\nhttps://www.themoviedb.org/tv/4194/season/6 (api_snapshot): 第六季实际集表共 13 集，total_pages=1，每集 22 分钟。逐集标题与输入的本篇 1—13 完整同序对应；第 8、9 集仅将 Part I/II 写作 (1)/(2)。剧情涉及克隆人士兵的秘密、Clovis 与银行业集团、尤达探寻原力。全部集目的日期记为 2014-03-07。\n\nhttps://www.starwars.com/news/star-wars-insider-195 (page): 星球大战官网确认 The Lost Missions 的 13 集于 2014-03-07 发布，属于第六季，并提及 George Lucas、Dave Filoni 对该动画系列的创作。\n\nhttps://www.fernsehserien.de/star-wars-the-clone-wars/episodenguide/staffel-6/9660 (search_snippet): 德国第六季节目指南列出相同的 13 集，确认 Super RTL 于 2014-02-15 开播，第 1—4 集当天播出，第 5—6 集于 2014-02-22 播出，支持输入日期与 TMDB 日期存在地区发行差异。\n\nhttps://www.starwars.com/news/biggest-star-wars-moments-of-2014 (search_snippet): 官方年度回顾明确指出 The Lost Missions 于 2014-03-07 在 Netflix 发布，解释 TMDB 统一记录该日期的原因。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/137318; https://api.bgm.tv/v0/subjects/137318; https://www.themoviedb.org/tv/4194; https://www.themoviedb.org/tv/4194/season/6; https://www.themoviedb.org/tv/3122; https://www.starwars.com/news/star-wars-insider-195; https://www.starwars.com/news/star-wars-the-clone-wars-the-lost-missions-blasts-onto-blu-ray-and-dvd",
-    "verifiedAt": "2026-09-08T20:02:58.537Z"
+    "source": "https://bgm.tv/subject/137318; https://www.themoviedb.org/tv/4194; https://www.themoviedb.org/tv/4194/season/6; https://www.starwars.com/news/star-wars-insider-195; https://www.fernsehserien.de/star-wars-the-clone-wars/episodenguide/staffel-6/9660; https://www.starwars.com/news/biggest-star-wars-moments-of-2014",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 4194
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

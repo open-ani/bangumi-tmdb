@@ -1,20 +1,80 @@
 {
   "bangumiId": 502183,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1365176,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1365177,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1365178,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1365179,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1365180,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1365181,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1365182,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1365183,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1365184,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1365185,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 200753 第1季全10集。年份、首播日、动画媒介、制作背景、剧情及10集标题与顺序均吻合；逐集日期呈一致的一天偏差，官方排期支持 TMDB 日期。旧映射的第0季应改为第1季。\n\nhttps://www.themoviedb.org/tv/200753 (api_snapshot): TMDB 200753 为2024年动画剧集《Kite Man: Hell Yeah!》，首播日期为2024-07-18；风筝人与金色滑翔者经营 Noonan’s 酒吧的剧情与输入一致，制作公司包括 Warner Bros. Animation，风筝人由 Matt Oberg 配音。\n\nhttps://www.themoviedb.org/tv/200753/season/1 (api_snapshot): 第1季集表共10集、仅1页；第1至10集标题与输入的10个本篇章节逐一完全一致。前两集同于2024-07-18播出，此后每周一集，至2024-09-12结束；各集日期均比输入章节日期晚一天。\n\nhttps://dcanimated.com/2024/07/kite-man-hell-yeah-official-trailer/ (page): 报道引用 Warner Bros. Animation 资料，确认本作为《Harley Quinn》的独立动画衍生剧，第1季10集，2024-07-18在 Max 首播，剧情围绕风筝人与金色滑翔者开酒吧展开。\n\nhttps://press.wbd.com/us/brands/hbo-max/media-releases?items_per_page=48&page=5&q=na%2Fbrands%2Fmax%2Fmedia-releases (search_snippet): WBD 官方新闻摘要确认2024-07-18首发两集，随后每周更新一集，至9月12日结束，与 TMDB 第1季排期一致。\n\n备注：输入章节日期统一比 TMDB 及官方排期早一天，具体原因未确认；标题、集数和更新间隔一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/502183; https://www.themoviedb.org/tv/200753; https://www.themoviedb.org/tv/200753/season/1; https://dcanimated.com/2024/07/kite-man-hell-yeah-official-trailer/; https://press.wbd.com/us/brands/hbo-max/media-releases?items_per_page=48&page=5&q=na%2Fbrands%2Fmax%2Fmedia-releases",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 200753
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 200753,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     }
   ]

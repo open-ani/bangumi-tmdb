@@ -1,13 +1,175 @@
 {
+  "anidbId": 7016,
   "bangumiId": 67805,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 252088,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 252089,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 252090,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 252091,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 252092,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 252093,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 252094,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 252095,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 252096,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 252097,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 252098,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 252099,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 252100,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 252101,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 252102,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 252103,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 252104,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 252105,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 252106,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 252107,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 252108,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 252109,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 252110,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 252111,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 252112,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 252113,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 252114,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 252115,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 252116,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 252117,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 252118,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 252119,
+      "sort": 32,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 275241 的原名、开播日（2009-10-10）、剧情、电视动画媒介与《ご姉弟物語》完全对应；官方制作方资料确认该作为2009年10月至2010年6月播出的全32话动画，剧情与 Bangumi 一致。TMDB 第1季实际集表完整列出第1至32集，且未混入其他作品，因此采用整季映射。TMDB 顶层聚合字段存在集数和末播日期异常，但实际季表及官方资料均确认32集。\n\nhttps://www.themoviedb.org/tv/275241 (api_snapshot): TMDB 详情确认作品类型为TV、原名为ご姉弟物語、首播日期为2009-10-10，并列出第1季共32集。\n\nhttps://www.themoviedb.org/tv/275241/season/1 (api_snapshot): TMDB第1季实际集表完整覆盖第1至第32集，集名和首集日期与该动画相符。\n\nhttps://shin-ei-animation.jp/50th/works/91.html (page): 新锐动画官方作品页确认该作于2009年10月至2010年6月播出、全32话，剧情为双胞胎姐弟与东京下町居民的日常交流，并注明电视朝日、新锐动画、ADK。\n\nhttps://api.bgm.tv/v0/subjects/67805 (api_snapshot): Bangumi API确认2009-10-10首播、TV媒介、32集、原作安達哲、监督やすみ哲夫、角色设计関修一及制作电视朝日/ADK/シンエイ動画。\n\n备注：TMDB详情顶层的number_of_episodes和last_air_date与实际第1季集表及官方资料不一致；映射范围依据完整季表和官方全32话资料确认。",
+    "evidence": "codex: 确认对应TMDB 275241第1季整季。首播日期、官方播出范围、剧情、制作人员及完整32话标题表共同支持同一版本与覆盖范围。Bangumi各章节缺少标题及日期，无法直接逐集交叉核对，因此保留作品与季映射，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/67805 (page): Bangumi 确认为2009年10月10日至2010年6月26日播出的32话电视动画，记载原作安達哲、监督やすみ哲夫及角色设计関修一；章节仅显示编号。\n\nhttps://www.themoviedb.org/tv/275241 (api_snapshot): 日文原名搜索命中275241；详情确认同名电视作品、首播日期2009-10-10及第1季32集。简介和制作人员为空，顶层总集数却为2，与实际季表矛盾。\n\nhttps://www.themoviedb.org/tv/275241/season/1 (api_snapshot): 完整读取第1季，total_pages=1，实际包含第1至32集，每集标题包含两个故事；首集日期为2009-10-10，其余集日期为空。\n\nhttps://shin-ei-animation.jp/50th/works/91.html (page): 新锐动画官方确认2009年10月至2010年6月播出、全32话；双胞胎姐弟与东京下町居民交流的剧情及制作署名与Bangumi一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20292027&workId=20292 (page): 正版配信资料确认2009年制作、全32话，剧情及原作、监督、角色设计均与Bangumi一致。\n\nhttps://www.mau2.com/anime/gokyoudaimonogatari (page): 完整32话标题表与TMDB第1季逐项对应，仅少量文字及标点差异；支持该季覆盖同一电视动画全篇，没有混入其他作品。\n\n备注：Bangumi的32个章节标题与日期均为空；补齐章节资料后才能核实并建立逐集规则。；TMDB顶层总集数、末播日期、语言及连载状态存在异常；范围判断依据实际32集季表及外部资料，未沿用这些字段。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/67805; https://www.themoviedb.org/tv/275241; https://www.themoviedb.org/tv/275241/season/1; https://shin-ei-animation.jp/50th/works/91.html; https://api.bgm.tv/v0/subjects/67805",
-    "verifiedAt": "2026-09-08T19:07:37.005Z"
+    "source": "https://bgm.tv/subject/67805; https://www.themoviedb.org/tv/275241; https://www.themoviedb.org/tv/275241/season/1; https://shin-ei-animation.jp/50th/works/91.html; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=20292027&workId=20292; https://www.mau2.com/anime/gokyoudaimonogatari",
+    "verifiedAt": "2026-09-18T03:33:27.527Z"
   },
   "rules": [],
   "schemaVersion": 1,
