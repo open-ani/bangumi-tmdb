@@ -1,16 +1,91 @@
 {
   "anidbId": 432,
   "bangumiId": 83323,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 317448,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 317449,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 317450,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 317451,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 317452,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 317453,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 317454,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 317455,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 317456,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 317457,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 317458,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 317459,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 317460,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为 2001 年播出的 13 集 TV 动画，AniDB ID 432 与标题匹配。TMDB TV 46673 的原名、首播日期、剧情简介和日语制作信息均对应；第 1 季包含完整 13 集，集名与 Bangumi 条目逐集一致，播出日期也从 2001-07-30 连续对应至 2001-10-22。因此应映射为 TMDB 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/46673 (api_snapshot): TMDB 记录原名为 SAMURAI GIRL リアルバウトハイスクール，首播日期为 2001-07-30，共 13 集；剧情简介与高校教师南云庆一郎、御剑凉子、草薙静马等主体设定对应。\n\nhttps://www.themoviedb.org/tv/46673/season/1 (api_snapshot): TMDB 第 1 季共 13 集，集名逐一对应 Bangumi 的 13 个正篇集数，播出日期覆盖 2001-07-30 至 2001-10-22。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体为 2001 年播出的 13 集 TV 动画，AniDB ID 432 与标题匹配。TMDB TV 46673 的原名、首播日期、剧情简介和日语制作信息均对应；第 1 季包含完整 13 集，集名与 Bangumi 条目逐集一致，播出日期也从 2001-07-30 连续对应至 2001-10-22。因此应映射为 TMDB 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/46673 (api_snapshot): TMDB 记录原名为 SAMURAI GIRL リアルバウトハイスクール，首播日期为 2001-07-30，共 13 集；剧情简介与高校教师南云庆一郎、御剑凉子、草薙静马等主体设定对应。\n\nhttps://www.themoviedb.org/tv/46673/season/1 (api_snapshot): TMDB 第 1 季共 13 集，集名逐一对应 Bangumi 的 13 个正篇集数，播出日期覆盖 2001-07-30 至 2001-10-22。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/83323; https://www.themoviedb.org/tv/46673; https://www.themoviedb.org/tv/46673/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46673
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

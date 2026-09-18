@@ -1,0 +1,55 @@
+{
+  "bangumiId": 319126,
+  "episodes": [
+    {
+      "id": 988294,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 988295,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 988294,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 117873,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 988295,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 117873,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 作品年份、动画类型、制作方及两卷的标题和发行日期相互吻合，可确认对应 TMDB 117873 第1季全季。候选集号与 Bangumi 顺序相反，因此逐话使用 overrides。\n\nhttps://www.themoviedb.org/tv/117873 (api_snapshot): 候选为2021年日本动画《君が好き。 THE ANIMATION》，制作公司包含与 Bangumi 版权信息一致的 Pink Pineapple；第1季共2集，与该OVA的总话数一致。\n\nhttps://www.themoviedb.org/tv/117873 (api_snapshot): 第1季第1集为「第2巻」，日期2021-03-26；第2集为「第1巻」，日期2021-01-29。两集标题及日期分别与 Bangumi 第2话、第1话完全一致，集号顺序相反。\n\n备注：候选作品及季的首播日期标为2021-03-26，与其「第1巻」的2021-01-29不一致；逐集标题和日期均能精确对应，不影响本次映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/319126; https://www.themoviedb.org/tv/117873",
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 117873,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

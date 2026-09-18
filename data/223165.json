@@ -1,0 +1,79 @@
+{
+  "bangumiId": 223165,
+  "episodes": [
+    {
+      "id": 744743,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 744744,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 791100,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 794045,
+      "sort": 2,
+      "type": 1
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 791100,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 77654,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 794045,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 77654,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 本篇两话的标题、发行日期、顺序及总集数逐项吻合，确认对应 TV 77654 第 1 季；两项特典按发行日期及所属前后篇对应第 0 季。两个季均完整覆盖对应章节，未见混入其他作品。\n\nhttps://www.themoviedb.org/tv/77654 (api_snapshot): 候选 TV 77654 的首播日期为 2017-10-20，第 1 季共两集；两集标题及日期分别与 Bangumi 本篇第 1、2 话完全一致，覆盖 2017-10-20 至 2018-04-20 的 OVA 发行范围。\n\nhttps://www.themoviedb.org/tv/77654 (api_snapshot): 候选第 0 季仅含两集特典，标题分别关联前、后篇，日期为 2017-10-20、2018-04-20，与 Bangumi 两个特典的顺序和发行日期一致。\n\n备注：候选未提供剧情简介，制作公司与 Bangumi 所列制作人员、协力单位也无法直接交叉核验；匹配依据为完整逐集标题、日期及集数。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/223165; https://www.themoviedb.org/tv/77654",
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77654
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 77654,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 77654,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

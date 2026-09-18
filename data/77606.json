@@ -1,16 +1,36 @@
 {
   "anidbId": 1031,
   "bangumiId": 77606,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 293574,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 293575,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 1992 年发售的《ぷりんせすARMY ウェディング★COMBAT》OVA，共 2 集。候选 TMDB TV 作品《Princess Army》首播日期为 1992-08-01，第一季明确包含 2 集，且集数日期分别为 1992-08-01 与 1992-09-21，与 Bangumi 的发售区间和 2 集主体完全对应。因此采用 TMDB 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/138197 (api_snapshot): TMDB 作品标题为 Princess Army，首播日期为 1992-08-01，共 2 集，并仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/138197/season/1 (api_snapshot): TMDB 第 1 季有 2 集；第 1 集日期为 1992-08-01，第 2 集日期为 1992-09-21，均为 26 分钟。\n\nhttps://bgm.tv/subject/77606 (page): 输入的 Bangumi 数据显示该 subject 为《ぷりんせすARMY》，OVA，发售日 1992-08-01，共 2 集，结束日期 1992-09-21，并与 AniDB 1031 匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 1992 年发售的《ぷりんせすARMY ウェディング★COMBAT》OVA，共 2 集。候选 TMDB TV 作品《Princess Army》首播日期为 1992-08-01，第一季明确包含 2 集，且集数日期分别为 1992-08-01 与 1992-09-21，与 Bangumi 的发售区间和 2 集主体完全对应。因此采用 TMDB 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/138197 (api_snapshot): TMDB 作品标题为 Princess Army，首播日期为 1992-08-01，共 2 集，并仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/138197/season/1 (api_snapshot): TMDB 第 1 季有 2 集；第 1 集日期为 1992-08-01，第 2 集日期为 1992-09-21，均为 26 分钟。\n\nhttps://bgm.tv/subject/77606 (page): 输入的 Bangumi 数据显示该 subject 为《ぷりんせすARMY》，OVA，发售日 1992-08-01，共 2 集，结束日期 1992-09-21，并与 AniDB 1031 匹配。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/77606; https://www.themoviedb.org/tv/138197; https://www.themoviedb.org/tv/138197/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 138197
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

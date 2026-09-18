@@ -1,16 +1,81 @@
 {
   "anidbId": 4226,
   "bangumiId": 1986,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 10407,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 10408,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 10409,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 10410,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 10411,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 10412,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 10413,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 10414,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 10415,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 10416,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 10417,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是 BONES 制作、于 2006 年 4 月 13 日至 6 月 22 日首播的 11 话电视动画《獣王星》。TMDB TV 31700 的原名、首播日期、国家、媒介和总集数均吻合；其第 1 季完整收录 11 集，首末集日期也分别为 4 月 13 日和 6 月 22 日。因此应映射到 TV 31700 第 1 季全季，不需要限定部分集数。\n\nhttps://www.themoviedb.org/tv/31700 (api_snapshot): TMDB API 快照显示 TV 31700 的名称和原名均为《獣王星》，日本作品，首播日期为 2006-04-13，共11集；第1季也标为11集，与本 subject 的身份和篇幅一致。\n\nhttps://www.themoviedb.org/tv/31700/season/1 (api_snapshot): TMDB API 快照显示第1季包含第1至第11集，播出日期从2006-04-13至2006-06-22，与 Bangumi 所列11话正篇的放送起止日期完全一致，表明该 subject 对应该季全季。",
+    "evidence": "gpt-5.6-sol: 该 subject 是 BONES 制作、于 2006 年 4 月 13 日至 6 月 22 日首播的 11 话电视动画《獣王星》。TMDB TV 31700 的原名、首播日期、国家、媒介和总集数均吻合；其第 1 季完整收录 11 集，首末集日期也分别为 4 月 13 日和 6 月 22 日。因此应映射到 TV 31700 第 1 季全季，不需要限定部分集数。\n\nhttps://www.themoviedb.org/tv/31700 (api_snapshot): TMDB API 快照显示 TV 31700 的名称和原名均为《獣王星》，日本作品，首播日期为 2006-04-13，共11集；第1季也标为11集，与本 subject 的身份和篇幅一致。\n\nhttps://www.themoviedb.org/tv/31700/season/1 (api_snapshot): TMDB API 快照显示第1季包含第1至第11集，播出日期从2006-04-13至2006-06-22，与 Bangumi 所列11话正篇的放送起止日期完全一致，表明该 subject 对应该季全季。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/1986; https://www.themoviedb.org/tv/31700; https://www.themoviedb.org/tv/31700/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 31700
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

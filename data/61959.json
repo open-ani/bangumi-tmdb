@@ -1,16 +1,46 @@
 {
   "anidbId": 118,
   "bangumiId": 61959,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 234734,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 234735,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 234736,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 234737,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 为 4 集 WEB 动画，放送始于 2001-06-15，结束于 2002-02-24；AniDB 关联已匹配至 118。TMDB TV 43033 的原题与别名一致，首播日期一致，明确记载全剧 4 集；第 1 季也明确为 4 集，剧集日期与主体首末日期相符。因此对应 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/61959 (page): Bangumi 记录标题为《あじむ 〜海岸物語〜》，共 4 集，类型为 WEB 放送，日期为 2001-06-15 至 2002-02-24，AniDB ID 为 118。\n\nhttps://www.themoviedb.org/tv/43033 (api_snapshot): TMDB TV 43033 标题为「​​あじむ ～海岸物語～」，原语言为日语，首播日期为 2001-06-15，共 4 集，并列出第 1 季且季集数为 4。\n\nhttps://www.themoviedb.org/tv/43033/season/1 (api_snapshot): TMDB 第 1 季明确为 4 集；第 1 集日期为 2001-06-15，第 4 集日期为 2002-02-24，匹配 Bangumi 主体的首末日期。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 为 4 集 WEB 动画，放送始于 2001-06-15，结束于 2002-02-24；AniDB 关联已匹配至 118。TMDB TV 43033 的原题与别名一致，首播日期一致，明确记载全剧 4 集；第 1 季也明确为 4 集，剧集日期与主体首末日期相符。因此对应 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/61959 (page): Bangumi 记录标题为《あじむ 〜海岸物語〜》，共 4 集，类型为 WEB 放送，日期为 2001-06-15 至 2002-02-24，AniDB ID 为 118。\n\nhttps://www.themoviedb.org/tv/43033 (api_snapshot): TMDB TV 43033 标题为「​​あじむ ～海岸物語～」，原语言为日语，首播日期为 2001-06-15，共 4 集，并列出第 1 季且季集数为 4。\n\nhttps://www.themoviedb.org/tv/43033/season/1 (api_snapshot): TMDB 第 1 季明确为 4 集；第 1 集日期为 2001-06-15，第 4 集日期为 2002-02-24，匹配 Bangumi 主体的首末日期。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/61959; https://www.themoviedb.org/tv/43033; https://www.themoviedb.org/tv/43033/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 43033
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

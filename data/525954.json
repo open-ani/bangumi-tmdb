@@ -1,15 +1,85 @@
 {
   "bangumiId": 525954,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1429119,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1429120,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1429121,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1429122,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1429123,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1429124,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1429125,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1429126,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1429127,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1429128,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1429129,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1429130,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目是同一部《Kim Possible》电视动画：首播日期为 2002-06-07，剧情、角色和制作公司 Disney Television Animation 均与《麻辣女孩》系列吻合；其第 3 季首播 2004-09-25、共 12 集，末集日期为 2006-06-10，与 Bangumi subject 的日期和 12 集完全对应。实际季表覆盖第 3 季全部 12 集，未混入特别篇或其他作品，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/2345 (api_snapshot): TMDB TV 2345 的原名为 Kim Possible，剧情描述 Kim Possible、Ron Stoppable 和 Rufus，首播 2002-06-07，共 4 季；第 3 季标为 12 集，制作公司为 Disney Television Animation。\n\nhttps://www.themoviedb.org/tv/2345/season/3 (api_snapshot): TMDB 第 3 季实际季表共 12 集，season=3，首播 2004-09-25，集数连续为 1–12，末集日期为 2006-06-10；包含《Steal Wheels》至《And the Molerat Will Be CGI》。\n\nhttps://www.themoviedb.org/tv/2345 (api_snapshot): TMDB 外部 ID 显示该系列 IMDb ID 为 tt0278866；Bangumi 提供的 tt0619818 被 TMDB 查找到的是该系列第 3 季第 1 集《Steal Wheels》，其日期为 2004-09-25、season_number=3、episode_number=1，进一步支持版本和季号对应。",
+    "evidence": "gpt-5.6-luna: TMDB 条目是同一部《Kim Possible》电视动画：首播日期为 2002-06-07，剧情、角色和制作公司 Disney Television Animation 均与《麻辣女孩》系列吻合；其第 3 季首播 2004-09-25、共 12 集，末集日期为 2006-06-10，与 Bangumi subject 的日期和 12 集完全对应。实际季表覆盖第 3 季全部 12 集，未混入特别篇或其他作品，因此使用整季范围。\n\nhttps://www.themoviedb.org/tv/2345 (api_snapshot): TMDB TV 2345 的原名为 Kim Possible，剧情描述 Kim Possible、Ron Stoppable 和 Rufus，首播 2002-06-07，共 4 季；第 3 季标为 12 集，制作公司为 Disney Television Animation。\n\nhttps://www.themoviedb.org/tv/2345/season/3 (api_snapshot): TMDB 第 3 季实际季表共 12 集，season=3，首播 2004-09-25，集数连续为 1–12，末集日期为 2006-06-10；包含《Steal Wheels》至《And the Molerat Will Be CGI》。\n\nhttps://www.themoviedb.org/tv/2345 (api_snapshot): TMDB 外部 ID 显示该系列 IMDb ID 为 tt0278866；Bangumi 提供的 tt0619818 被 TMDB 查找到的是该系列第 3 季第 1 集《Steal Wheels》，其日期为 2004-09-25、season_number=3、episode_number=1，进一步支持版本和季号对应。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/525954; https://www.themoviedb.org/tv/2345; https://www.themoviedb.org/tv/2345/season/3",
-    "verifiedAt": "2026-09-09T00:20:05.241Z"
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 2345
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,0 +1,108 @@
+{
+  "bangumiId": 430298,
+  "episodes": [
+    {
+      "id": 1197248,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1197249,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1197250,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1197251,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1197252,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1197253,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1197254,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1197255,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1295252,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1295253,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1295254,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1295255,
+      "sort": 12,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "脚本按放送日期识别作品：以「Helluva Boss Season 2」「极恶老大 第二季」「Helluva Boss」「极恶老大」搜索得到 1 个 TV、0 个电影候选；tv/289892「ヘルヴァ･ボス」第 2 季第 1–4 集、第 2 季第 6–13 集与 12 个本篇章节逐一对应（TMDB 该范围之外的集没有对应章节，按日期逐话定位），10 对日期全部在 ±1 天内；其他候选没有吻合的集序列。",
+    "method": "deterministic",
+    "source": "https://bgm.tv/subject/430298; https://www.themoviedb.org/tv/289892",
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 289892
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 6,
+      "season": 2,
+      "start": 5,
+      "tmdbId": 289892
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 289892,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 6,
+      "episodeEnd": 13,
+      "id": 289892,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

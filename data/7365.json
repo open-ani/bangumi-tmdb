@@ -1,16 +1,36 @@
 {
   "anidbId": 4444,
   "bangumiId": 7365,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 43549,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 43550,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "两话 OVA；TMDB 简介具体描述六圣兽成年祝福之前的天界故事，与 Bangumi 相符。不是 2003 年六话电视版。\nTMDB 两集日期使用 2005 年 1 月，不能用来确定真实发行日期。\nhttps://api.bgm.tv/v0/subjects/7365\nhttps://www.themoviedb.org/tv/284619/season/1",
+    "evidence": "两话 OVA；TMDB 简介具体描述六圣兽成年祝福之前的天界故事，与 Bangumi 相符。不是 2003 年六话电视版。\nTMDB 两集日期使用 2005 年 1 月，不能用来确定真实发行日期。\nhttps://api.bgm.tv/v0/subjects/7365\nhttps://www.themoviedb.org/tv/284619/season/1\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "manual-review-sol-remaining-51",
-    "verifiedAt": "2026-09-08T18:08:25.814Z"
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 284619
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

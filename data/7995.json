@@ -1,16 +1,91 @@
 {
   "anidbId": 3985,
   "bangumiId": 7995,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 46362,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 46363,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 46364,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 46365,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 46366,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 46367,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 46368,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 46369,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 46370,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 46371,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 46372,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 46373,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 46374,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 7995 是 2006-01-03 开始、2006-03-28 结束的 13 集 TV 动画；给出的 AniDB 关联 ID 3985 及标题变体与该作品一致。TMDB TV 37105 使用相同日文标题，首播日期为 2006-01-03，共 13 集。第 1 季完整列出第 1 至第 13 集，播出日期从 2006-01-03 至 2006-03-28，与 Bangumi 的 13 集正篇吻合。因此映射为 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/7995 (page): Bangumi subject 为 TV 动画，共 13 集，首播日期 2006-01-03；输入关联的 AniDB ID 为 3985，标题变体包含 Eternal Alice、Kagihime Monogatari Eikyuu Alice Rondo。\n\nhttps://www.themoviedb.org/tv/37105 (api_snapshot): TMDB 37105 标题为「鍵姫物語 永久アリス輪舞曲」，首播日期为 2006-01-03，共 13 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/37105/season/1 (api_snapshot): TMDB 第 1 季列有第 1 至第 13 集，日期从 2006-01-03 持续至 2006-03-28。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 7995 是 2006-01-03 开始、2006-03-28 结束的 13 集 TV 动画；给出的 AniDB 关联 ID 3985 及标题变体与该作品一致。TMDB TV 37105 使用相同日文标题，首播日期为 2006-01-03，共 13 集。第 1 季完整列出第 1 至第 13 集，播出日期从 2006-01-03 至 2006-03-28，与 Bangumi 的 13 集正篇吻合。因此映射为 TMDB 第 1 季完整范围。\n\nhttps://bgm.tv/subject/7995 (page): Bangumi subject 为 TV 动画，共 13 集，首播日期 2006-01-03；输入关联的 AniDB ID 为 3985，标题变体包含 Eternal Alice、Kagihime Monogatari Eikyuu Alice Rondo。\n\nhttps://www.themoviedb.org/tv/37105 (api_snapshot): TMDB 37105 标题为「鍵姫物語 永久アリス輪舞曲」，首播日期为 2006-01-03，共 13 集，并列出第 1 季。\n\nhttps://www.themoviedb.org/tv/37105/season/1 (api_snapshot): TMDB 第 1 季列有第 1 至第 13 集，日期从 2006-01-03 持续至 2006-03-28。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/7995; https://www.themoviedb.org/tv/37105; https://www.themoviedb.org/tv/37105/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 37105
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

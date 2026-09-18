@@ -1,16 +1,36 @@
 {
   "anidbId": 2920,
   "bangumiId": 73435,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 270589,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 270590,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《暗黒神話》OVA，话数2，发售/播出日期为1990-01-26至1990-02-23，章节为「餓鬼の章」「天の章」。AniDB 编号2920的标题索引为 Ankoku Shinwa，与该条目的日文名及别名一致。TMDB TV 132253 的原名、首播日期和作品类型信息一致，并明确列出第1季且共2集；因此应映射为完整的第1季，不需要缩小集数范围。TMDB 的 season/0 请求失败未被当作不存在的依据。\n\nhttps://bgm.tv/subject/73435 (page): Bangumi 将条目标为《暗黒神話》OVA，话数2，日期为1990-01-26至1990-02-23，别名包含 Dark Myth、Ankoku Shinwa，并列出两章。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 编号2920对应标题 Ankoku Shinwa；与 Bangumi 条目的日文名和别名一致。\n\nhttps://www.themoviedb.org/tv/132253 (api_snapshot): TMDB API 快照显示作品名/原名为暗黒神話，首播日期为1990-01-26，类型为TV，共2集，并列出 season_number=1、episode_count=2、air_date=1990-01-26。\n\nhttps://simkl.com/anime/37489/ankoku-shinwa/episodes/ (search_snippet): 独立剧集资料将该作品列为1990年两集OVA，集名为 Hungry Ghoul's Chapter 与 Heaven's Chapter，第二集日期为1990-02-23。",
+    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《暗黒神話》OVA，话数2，发售/播出日期为1990-01-26至1990-02-23，章节为「餓鬼の章」「天の章」。AniDB 编号2920的标题索引为 Ankoku Shinwa，与该条目的日文名及别名一致。TMDB TV 132253 的原名、首播日期和作品类型信息一致，并明确列出第1季且共2集；因此应映射为完整的第1季，不需要缩小集数范围。TMDB 的 season/0 请求失败未被当作不存在的依据。\n\nhttps://bgm.tv/subject/73435 (page): Bangumi 将条目标为《暗黒神話》OVA，话数2，日期为1990-01-26至1990-02-23，别名包含 Dark Myth、Ankoku Shinwa，并列出两章。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 编号2920对应标题 Ankoku Shinwa；与 Bangumi 条目的日文名和别名一致。\n\nhttps://www.themoviedb.org/tv/132253 (api_snapshot): TMDB API 快照显示作品名/原名为暗黒神話，首播日期为1990-01-26，类型为TV，共2集，并列出 season_number=1、episode_count=2、air_date=1990-01-26。\n\nhttps://simkl.com/anime/37489/ankoku-shinwa/episodes/ (search_snippet): 独立剧集资料将该作品列为1990年两集OVA，集名为 Hungry Ghoul's Chapter 与 Heaven's Chapter，第二集日期为1990-02-23。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/73435; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/132253; https://simkl.com/anime/37489/ankoku-shinwa/episodes/",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132253
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

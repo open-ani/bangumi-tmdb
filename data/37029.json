@@ -1,16 +1,76 @@
 {
   "anidbId": 301,
   "bangumiId": 37029,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 157166,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 157167,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 157168,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 157169,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 157170,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 157171,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 157172,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 157173,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 157174,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 157175,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 37029 明确为 2001 年播出的《破坏魔定光》TV 动画，共 10 集；其 AniDB 关联状态为 matched，标题与《Hakaima Sadamitsu／破壊魔定光》一致。TMDB 34111 的原名、首播日期均吻合，且第 1 季明确包含 10 集，播出日期连续对应 2001 年 1 月至 3 月。因此可确认目标为 TMDB TV 34111 第 1 季完整一季，无需限定集数范围。\n\nhttps://www.themoviedb.org/tv/34111 (api_snapshot): TMDB 记录标题为《破壊魔定光》，原名相同，首播日期为 2001-01-17，共 10 集。\n\nhttps://www.themoviedb.org/tv/34111/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1，共 10 集；第 1 集至第 10 集日期为 2001-01-17 至 2001-03-21。\n\nhttps://bgm.tv/subject/37029 (page): Bangumi subject 标为《破壊魔定光／破坏魔定光》，日期为 2001-01-17，正篇集数为 10；输入中的 AniDB 关联为 ID 301 且标题状态为 matched。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 37029 明确为 2001 年播出的《破坏魔定光》TV 动画，共 10 集；其 AniDB 关联状态为 matched，标题与《Hakaima Sadamitsu／破壊魔定光》一致。TMDB 34111 的原名、首播日期均吻合，且第 1 季明确包含 10 集，播出日期连续对应 2001 年 1 月至 3 月。因此可确认目标为 TMDB TV 34111 第 1 季完整一季，无需限定集数范围。\n\nhttps://www.themoviedb.org/tv/34111 (api_snapshot): TMDB 记录标题为《破壊魔定光》，原名相同，首播日期为 2001-01-17，共 10 集。\n\nhttps://www.themoviedb.org/tv/34111/season/1 (api_snapshot): TMDB 第 1 季明确为 season 1，共 10 集；第 1 集至第 10 集日期为 2001-01-17 至 2001-03-21。\n\nhttps://bgm.tv/subject/37029 (page): Bangumi subject 标为《破壊魔定光／破坏魔定光》，日期为 2001-01-17，正篇集数为 10；输入中的 AniDB 关联为 ID 301 且标题状态为 matched。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/37029; https://www.themoviedb.org/tv/34111; https://www.themoviedb.org/tv/34111/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34111
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

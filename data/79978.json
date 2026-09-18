@@ -1,16 +1,36 @@
 {
   "anidbId": 4413,
   "bangumiId": 79978,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 304757,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 304758,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是1990年7月27日发行、共2话的OVA《天外魔境 自来也胧变》，其 AniDB 关联已匹配为 Tengai Makyou: Ziria Oboro Hen。TMDB TV 124313 的标题、原名、首播日期与该 subject 一致，且第1季明确包含2集，数量与Bangumi主体的2话完全对应，因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/124313 (api_snapshot): TMDB记录标题为《天外魔境 自来也おぼろ変》，首播日期为1990-07-27，共2集，包含第1季且该季有2集。\n\nhttps://www.themoviedb.org/tv/124313/season/1 (api_snapshot): TMDB第1季记录为1990-07-27播出，共2集，集号为1和2。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是1990年7月27日发行、共2话的OVA《天外魔境 自来也胧变》，其 AniDB 关联已匹配为 Tengai Makyou: Ziria Oboro Hen。TMDB TV 124313 的标题、原名、首播日期与该 subject 一致，且第1季明确包含2集，数量与Bangumi主体的2话完全对应，因此采用完整第1季。\n\nhttps://www.themoviedb.org/tv/124313 (api_snapshot): TMDB记录标题为《天外魔境 自来也おぼろ変》，首播日期为1990-07-27，共2集，包含第1季且该季有2集。\n\nhttps://www.themoviedb.org/tv/124313/season/1 (api_snapshot): TMDB第1季记录为1990-07-27播出，共2集，集号为1和2。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/79978; https://www.themoviedb.org/tv/124313; https://www.themoviedb.org/tv/124313/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 124313
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

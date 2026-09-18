@@ -1,16 +1,91 @@
 {
   "anidbId": 3301,
   "bangumiId": 29344,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 138198,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 138199,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 138200,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 138201,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 138202,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 138203,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 138204,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 138205,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 138206,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 138207,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 138208,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 138209,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 138210,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为2005年10月2日开始播出的《はっぴぃセブン 〜ざ・テレビまんが〜》，共13集。TMDB TV 37574 标题、原名、首播日期、日文剧情简介均对应，且第1季首播日期为2005年10月2日、完整包含13集；其剧集标题和日期与 Bangumi 的13个正篇逐集对应。因此应映射为 TMDB 第1季完整范围。\n\nhttps://bgm.tv/subject/29344 (page): Bangumi 条目标题为《はっぴぃセブン 〜ざ・テレビまんが〜》，日期为2005-10-02，正篇共13集，标题从「七人の福娘」至「終わりよければすべて良し」。\n\nhttps://www.themoviedb.org/tv/37574 (api_snapshot): TMDB TV 37574 标题和原名为「はっぴぃセブン ～ざ・テレビまんが～」，首播日期为2005-10-02，共13集，仅列出第1季且该季有13集；剧情简介与作品主体一致。\n\nhttps://www.themoviedb.org/tv/37574/season/1 (api_snapshot): TMDB 第1季首播日期为2005-10-02，共13集；第1至13集标题及日期与 Bangumi 正篇逐集对应，未发现需要排除或另列的主体内特别篇。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体为2005年10月2日开始播出的《はっぴぃセブン 〜ざ・テレビまんが〜》，共13集。TMDB TV 37574 标题、原名、首播日期、日文剧情简介均对应，且第1季首播日期为2005年10月2日、完整包含13集；其剧集标题和日期与 Bangumi 的13个正篇逐集对应。因此应映射为 TMDB 第1季完整范围。\n\nhttps://bgm.tv/subject/29344 (page): Bangumi 条目标题为《はっぴぃセブン 〜ざ・テレビまんが〜》，日期为2005-10-02，正篇共13集，标题从「七人の福娘」至「終わりよければすべて良し」。\n\nhttps://www.themoviedb.org/tv/37574 (api_snapshot): TMDB TV 37574 标题和原名为「はっぴぃセブン ～ざ・テレビまんが～」，首播日期为2005-10-02，共13集，仅列出第1季且该季有13集；剧情简介与作品主体一致。\n\nhttps://www.themoviedb.org/tv/37574/season/1 (api_snapshot): TMDB 第1季首播日期为2005-10-02，共13集；第1至13集标题及日期与 Bangumi 正篇逐集对应，未发现需要排除或另列的主体内特别篇。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/29344; https://www.themoviedb.org/tv/37574; https://www.themoviedb.org/tv/37574/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 37574
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

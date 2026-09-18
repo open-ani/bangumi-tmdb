@@ -1,0 +1,109 @@
+{
+  "bangumiId": 369794,
+  "episodes": [
+    {
+      "id": 1182922,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1182923,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1182924,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1182925,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1182926,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1182927,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1182928,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1182929,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1191304,
+      "sort": 4.5,
+      "type": 1
+    },
+    {
+      "id": 1191305,
+      "sort": 6.5,
+      "type": 1
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1191304,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 220118,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1191305,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 220118,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 年份、媒介、制作方、8集本篇及2集番外篇的标题与顺序一致，足以确认对应第1季及第0季。第8集日期冲突不影响其独有标题和完整集数支持的对应关系。\n\nhttps://www.themoviedb.org/tv/220118 (api_snapshot): 候选为2023年日本动画，制作公司含Suiseisha，与Bangumi的年份、TV媒介及彗星社制作信息一致。第1季共8集，逐集标题均与Bangumi本篇完全一致。\n\nhttps://www.themoviedb.org/tv/220118 (api_snapshot): 第1季第1至7集日期均比Bangumi晚一天，且两次停播间隔一致；第8集标题一致，但TMDB日期为2023-07-01，Bangumi为2023-06-04，存在日期冲突。\n\nhttps://www.themoviedb.org/tv/220118 (api_snapshot): 第0季仅含「第4.5話 番外編」和「第6.5話 番外編」，分别对应Bangumi两个特别篇，日期也均晚一天。\n\n备注：第8集放送日期存在冲突，现有数据无法确定原因；其余9集均存在一致的一天日期偏移。；候选未提供剧情简介，无法独立核对剧情。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/369794; https://www.themoviedb.org/tv/220118",
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 220118
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 220118,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 220118,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

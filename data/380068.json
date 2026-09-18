@@ -1,0 +1,54 @@
+{
+  "bangumiId": 380068,
+  "episodes": [
+    {
+      "id": 1101168,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1101169,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1101168,
+      "targets": [
+        {
+          "id": 799012,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1101169,
+      "targets": [
+        {
+          "id": 799018,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 该 subject 收录两部短片，两条独立电影候选分别与其完整章节标题对应，发行日期也均与 subject 的单日播出日期一致，能够覆盖全部2话。采用独立短片条目逐话映射；同名 TV 第1季虽在日期和集数上吻合，但缺少可核实顺序的具体集标题。\n\nhttps://www.themoviedb.org/movie/799012 (api_snapshot): 电影《On a Roll》的标题与 Bangumi 第1话完全一致，发行日期为2021-02-20，与 subject 标注的播出日期一致。\n\nhttps://www.themoviedb.org/movie/799018 (api_snapshot): 电影《The House That Cat Built》的标题与 Bangumi 第2话完全一致，发行日期为2021-02-20，与 subject 标注的播出日期一致。\n\nhttps://www.themoviedb.org/tv/320884 (api_snapshot): 同名 TV 候选第1季共2集，均于2021-02-20播出；但集标题仅为“第1話”和“第2話”，不能据此核实两部短片在该季的排列。\n\n备注：候选未提供剧情、制作方或外部编号，无法对这些字段交叉核验。；Bangumi 两话未填写各自播出日期，日期核验依据为 subject 的放送起止日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/380068; https://www.themoviedb.org/movie/799012; https://www.themoviedb.org/movie/799018; https://www.themoviedb.org/tv/320884",
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 799012,
+      "type": "movie"
+    },
+    {
+      "id": 799018,
+      "type": "movie"
+    }
+  ]
+}

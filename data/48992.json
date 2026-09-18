@@ -1,16 +1,56 @@
 {
   "anidbId": 2896,
   "bangumiId": 48992,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 196813,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 196814,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 196815,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 196816,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 196817,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 196818,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体为《ストラトス・フォー アドヴァンス》OVA，共 6 集；提供的 AniDB 关联为 2896，标题状态为 matched。TMDB 34182 第 2 季明确命名为同名作品，并标注为第 2 OVA 系列。其完整 6 集 CODE:201–CODE:206 的标题、顺序及日期与 Bangumi 正篇逐集一致，因此映射为完整第 2 季。\n\nhttps://www.themoviedb.org/tv/34182 (api_snapshot): TMDB 34182 为《ストラトス・フォー》，列出第 2 季《ストラトス・フォー アドヴァンス》，共 6 集。\n\nhttps://www.themoviedb.org/tv/34182/season/2 (api_snapshot): 第 2 季名称与 Bangumi 主体一致，简介明确为第 2 OVA 系列；6 集标题依次为 CODE:201–CODE:206，日期为 2005-03-25 至 2006-01-27，与输入 Bangumi 正篇逐集匹配。",
+    "evidence": "gpt-5.6-luna: Bangumi 主体为《ストラトス・フォー アドヴァンス》OVA，共 6 集；提供的 AniDB 关联为 2896，标题状态为 matched。TMDB 34182 第 2 季明确命名为同名作品，并标注为第 2 OVA 系列。其完整 6 集 CODE:201–CODE:206 的标题、顺序及日期与 Bangumi 正篇逐集一致，因此映射为完整第 2 季。\n\nhttps://www.themoviedb.org/tv/34182 (api_snapshot): TMDB 34182 为《ストラトス・フォー》，列出第 2 季《ストラトス・フォー アドヴァンス》，共 6 集。\n\nhttps://www.themoviedb.org/tv/34182/season/2 (api_snapshot): 第 2 季名称与 Bangumi 主体一致，简介明确为第 2 OVA 系列；6 集标题依次为 CODE:201–CODE:206，日期为 2005-03-25 至 2006-01-27，与输入 Bangumi 正篇逐集匹配。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/48992; https://www.themoviedb.org/tv/34182; https://www.themoviedb.org/tv/34182/season/2",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 34182
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

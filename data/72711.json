@@ -1,16 +1,36 @@
 {
   "anidbId": 1826,
   "bangumiId": 72711,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 268212,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 268213,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 1992-10-21 发售、共 2 话的 OVA；TMDB TV 25330 的标题与日文版本一致，第一季共 2 集，首播日期为 1992-10-21，且两集日期分别为 1992-10-21 和 1992-11-21，与 Bangumi 的发售起止日期及两话结构吻合。因此对应 TMDB TV 25330 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/25330 (api_snapshot): TMDB 记录标题为「ドラゴンスレイヤー英雄伝説 王子の旅立ち」，首播日期为 1992-10-21，共 2 集，且仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/25330/season/1 (api_snapshot): TMDB 第 1 季共 2 集；第 1 集日期为 1992-10-21，第 2 集日期为 1992-11-21，集数和日期与 Bangumi subject 的 2 话 OVA 信息相符。",
+    "evidence": "gpt-5.6-luna: Bangumi subject 是 1992-10-21 发售、共 2 话的 OVA；TMDB TV 25330 的标题与日文版本一致，第一季共 2 集，首播日期为 1992-10-21，且两集日期分别为 1992-10-21 和 1992-11-21，与 Bangumi 的发售起止日期及两话结构吻合。因此对应 TMDB TV 25330 第 1 季完整范围。\n\nhttps://www.themoviedb.org/tv/25330 (api_snapshot): TMDB 记录标题为「ドラゴンスレイヤー英雄伝説 王子の旅立ち」，首播日期为 1992-10-21，共 2 集，且仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/25330/season/1 (api_snapshot): TMDB 第 1 季共 2 集；第 1 集日期为 1992-10-21，第 2 集日期为 1992-11-21，集数和日期与 Bangumi subject 的 2 话 OVA 信息相符。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/72711; https://www.themoviedb.org/tv/25330; https://www.themoviedb.org/tv/25330/season/1",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-18T11:24:20.473Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 25330
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
