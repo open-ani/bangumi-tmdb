@@ -136,8 +136,16 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   // Phase 1: existing mappings. Verification, deterministic episode rules and rule extension cost only TMDB
   // requests, so every due row is handled here; model work is deferred to phase 2.
   const phaseOneDeadline = clock + options.maxMinutes * 60000 * 0.5;
-  for (const before of existing.filter(r => due(progress, r.bangumiId, print(r.bangumiId), r, now)).sort((a, b) => olderFirst(progress)(a.bangumiId, b.bangumiId))) {
-    if (Date.now() > phaseOneDeadline) break;
+  // Long runs report from inside each phase, since a runner log shows nothing until a step ends.
+  const elapsed = () => `${((Date.now() - clock) / 60000).toFixed(1)}m elapsed`;
+  const dueRows = existing.filter(r => due(progress, r.bangumiId, print(r.bangumiId), r, now)).sort((a, b) => olderFirst(progress)(a.bangumiId, b.bangumiId));
+  console.log(`Phase 1: ${dueRows.length} mappings due for verification`);
+  let audited = 0;
+  const phaseOne = () => `${audited}/${dueRows.length} audited; ${counts.derived} derived, ${counts.extended} extended, ${research.length} queued for research; ${elapsed()}`;
+  for (const before of dueRows) {
+    if (Date.now() > phaseOneDeadline) { console.log(`Phase 1: time budget reached at ${phaseOne()}`); break; }
+    if (audited && audited % 500 === 0) console.log(`Phase 1: ${phaseOne()}`);
+    audited++;
     const subject = ctx.subjects.get(before.bangumiId);
     if (!subject) { counts.absent.push(before.bangumiId); record(before.bangumiId, 'audit', 'error', 'Subject absent from the Bangumi catalog (merged or hidden?); maintainer review needed', 7); continue; }
     const eps = ctx.episodes.get(subject.id) ?? [];
@@ -183,8 +191,13 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   // Broken rows outrank episode work; among episode work, currently relevant (recent) subjects come first.
   research.sort((a, b) => Number(b.kind === 'broken') - Number(a.kind === 'broken') || (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
   const tasks: Task[] = [...unmapped.map((subject): Task => ({ subject, kind: progress.subjects[String(subject.id)] ? 'retry' : 'new' })), ...research];
+  console.log(`Phase 1 done: ${phaseOne()}`);
+  const kinds = tasks.reduce((m, t) => m.set(t.kind, (m.get(t.kind) ?? 0) + 1), new Map<Task['kind'], number>());
+  console.log(`Phase 2: ${tasks.length} tasks${kinds.size ? ` (${[...kinds].map(([k, n]) => `${n} ${k}`).join(', ')})` : ''}; budget ${options.maxSubjects} subjects, ${((deadline - Date.now()) / 60000).toFixed(0)}m`);
   let cursor = 0;
   let abort: unknown = null;
+  let done = 0;
+  const phaseTwo = () => `${done} researched (${counts.researchMatched} matched, ${done - counts.researchMatched} pending), ${tasks.length - cursor} queued; ${elapsed()}`;
   const handle = async (task: Task) => {
     const { subject, before } = task;
     const eps = ctx.episodes.get(subject.id) ?? [];
@@ -218,10 +231,12 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       const task = tasks[cursor++]!;
       counts.codexSubjects++;
       await handle(task);
+      if (++done % 25 === 0) console.log(`Phase 2: ${phaseTwo()}`);
     }
   };
   await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, worker));
   if (abort) throw abort;
+  console.log(`Phase 2 done: ${phaseTwo()}`);
   validateAll([...rows.values()]);
   for (const row of changes.values()) {
     const path = join(root, `data/${row.bangumiId}.json`);
