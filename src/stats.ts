@@ -70,7 +70,7 @@ export function renderStats(s: Stats, scopeDays: number): string {
 | 来源 | 条目数 | 含义 |
 | --- | --- | --- |
 | \`codex\` | ${n(s.methods.codex ?? 0)} | 模型联网检索并读取 TMDB 详情与季表后的研究结论，evidence 保留引用 |
-| \`deterministic\` | ${n(s.methods.deterministic ?? 0)} | 脚本按精确日期比对确认作品身份或生成逐集规则 |
+| \`deterministic\` | ${n(s.methods.deterministic ?? 0)} | 脚本按放送日期比对确认作品身份或生成逐集规则 |
 | \`seed\` | ${n(s.methods.seed ?? 0)} | 直接沿用 BangumiExtLinker 的对应关系，尚未独立核验 |
 | \`community\` | ${n(s.methods.community ?? 0)} | 社区 PR 提交的人工映射 |
 

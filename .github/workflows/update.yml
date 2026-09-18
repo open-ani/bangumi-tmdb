@@ -10,6 +10,10 @@ on:
         description: 'Codex subjects for this run (blank = repository variable or default)'
         required: false
         default: ''
+      max_minutes:
+        description: 'Time budget in minutes for this run, at most 450 (blank = repository variable or default)'
+        required: false
+        default: ''
       refresh_anidb:
         description: 'Refresh the AniDB cross-check in this run'
         type: boolean
@@ -27,14 +31,15 @@ jobs:
       vars.AUTOMATION_ENABLED == 'true' &&
       (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
     runs-on: [self-hosted, macOS, ARM64]
-    timeout-minutes: 160
+    # A dispatched backlog run brings its own budget (expressions cannot add the 30-minute margin, so the cap is fixed).
+    timeout-minutes: ${{ github.event.inputs.max_minutes && 480 || 160 }}
     env:
       CODEX_MAX_SUBJECTS: ${{ github.event.inputs.max_subjects || vars.CODEX_MAX_SUBJECTS || '60' }}
       CODEX_CONCURRENCY: ${{ vars.CODEX_CONCURRENCY || '4' }}
       CODEX_TIMEOUT_MINUTES: ${{ vars.CODEX_TIMEOUT_MINUTES || '8' }}
       CODEX_MODEL: ${{ vars.CODEX_MODEL }}
       CODEX_REASONING: ${{ vars.CODEX_REASONING || 'high' }}
-      UPDATE_MAX_MINUTES: ${{ vars.UPDATE_MAX_MINUTES || '75' }}
+      UPDATE_MAX_MINUTES: ${{ github.event.inputs.max_minutes || vars.UPDATE_MAX_MINUTES || '75' }}
       UPDATE_SCOPE_DAYS: ${{ vars.UPDATE_SCOPE_DAYS || '180' }}
       DISCOVER_MAX_SUBJECTS: ${{ vars.DISCOVER_MAX_SUBJECTS || '600' }}
     steps:
