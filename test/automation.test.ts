@@ -80,6 +80,16 @@ test('research subprocess cannot inherit credentials; decisions are validated an
     assert.equal(result.webCalls, 1);
     assert.equal(result.usage.input_tokens, 10);
     assert.ok((await readFile(join(dir, 'audit/1/prompt.txt'), 'utf8')).includes('"bangumiId":1'));
+    // The same input soon afterwards gets the saved decision back without a session: no codex on PATH.
+    process.env.PATH = join(dir, 'nowhere');
+    const again = await runResearch(1, { bangumiId: 1 }, options);
+    assert.equal(again.reused, true);
+    assert.deepEqual([again.decision, again.calls.map(c => c.tool), again.usage], [result.decision, ['tmdb_details'], result.usage]);
+    process.env.PATH = `${dir}:${original.PATH}`;
+    assert.equal((await runResearch(1, { bangumiId: 1, changed: true }, options)).reused, false, 'a different input is researched afresh');
+    const saved = JSON.parse(await readFile(join(dir, 'audit/1/decision.json'), 'utf8'));
+    await writeFile(join(dir, 'audit/1/decision.json'), JSON.stringify({ ...saved, at: '2020-01-01T00:00:00.000Z' }));
+    assert.equal((await runResearch(1, { bangumiId: 1, changed: true }, options)).reused, false, 'an old decision is not reused');
   } finally {
     for (const [key, value] of Object.entries(original)) {
       if (value === undefined) delete process.env[key]; else process.env[key] = value;

@@ -3,8 +3,9 @@ import { mkdir, mkdtemp, open, readFile, rm, writeFile } from 'node:fs/promises'
 import { tmpdir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { z } from 'zod';
 import { Research, type Override, type ResearchProposal, type Rule, type SubjectTarget } from './model.js';
-import { stable } from './io.js';
+import { hash, stable, writeJson } from './io.js';
 import { researchSchema } from './schemas.js';
 
 export const INSTRUCTIONS = (tmdbBudget: number, webBudget: number): string => `你负责研究一个 Bangumi 动画 subject 对应哪个 TMDB 作品、哪个季，以及逐集对应关系。输入里没有已知正确答案；existing 是旧映射，只是线索，可能有错。不能仅按名称认定相同作品，要确认年份、剧情、制作人员、媒介、版本、集数范围；区分旧版/新版、OVA/TV、音乐录像/剧情动画、单个短片/合集、分割季度、总集篇。AniDB/IMDb/TVDB/seed 只是可能错误的线索。
@@ -31,7 +32,20 @@ export interface ResearchOptions {
   model?: string | undefined; reasoning?: string | undefined; timeoutMs: number; tmdbBudget: number; webBudget: number;
   token: string; cacheDir: string; auditDir?: string;
 }
-export interface ResearchResult { decision: Research; calls: ToolCall[]; webCalls: number; usage: Record<string, number>; elapsedMs: number }
+export interface ResearchResult { decision: Research; calls: ToolCall[]; webCalls: number; usage: Record<string, number>; elapsedMs: number; reused: boolean }
+// A decision is the expensive part of a run. It is kept next to the audit trail and handed back, without
+// another Codex session, when the same input recurs soon after: a run cut short by its time limit, or one
+// recomputed because main moved under it. The window is short so a genuine retry gets a fresh look.
+export const REUSE_MS = 48 * 3600000;
+const Saved = z.object({ key: z.string(), at: z.iso.datetime(), decision: Research, calls: z.array(z.object({ tool: z.string(), arguments: z.record(z.string(), z.unknown()), ok: z.boolean(), at: z.string(), error: z.string().optional() })),
+  webCalls: z.number(), usage: z.record(z.string(), z.number()), elapsedMs: z.number() });
+async function savedDecision(path: string, key: string): Promise<ResearchResult | null> {
+  try {
+    const saved = Saved.parse(JSON.parse(await readFile(path, 'utf8')));
+    if (saved.key !== key || Date.now() - Date.parse(saved.at) > REUSE_MS) return null;
+    return { decision: saved.decision, calls: saved.calls, webCalls: saved.webCalls, usage: saved.usage, elapsedMs: saved.elapsedMs, reused: true };
+  } catch { return null; }
+}
 export interface Proposal { targets: SubjectTarget[]; rules: Rule[]; overrides: Override[] }
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 export const TSX = join(projectRoot, 'node_modules/.bin/tsx');
@@ -72,14 +86,19 @@ async function jsonLines(path: string): Promise<unknown[]> {
   catch { return []; }
 }
 export async function runResearch(bangumiId: number, bundle: unknown, options: ResearchOptions): Promise<ResearchResult> {
-  const dir = await mkdtemp(join(tmpdir(), 'bangumi-tmdb-research-'));
+  const prompt = `${INSTRUCTIONS(options.tmdbBudget, options.webBudget)}${JSON.stringify(bundle)}`;
+  const key = hash(stable({ prompt, model: options.model ?? null, reasoning: options.reasoning ?? null }));
   // Artifacts of the latest attempt stay in the audit directory so a maintainer can inspect a decision.
-  const audit = options.auditDir ? join(options.auditDir, String(bangumiId)) : dir;
-  if (options.auditDir) { await rm(audit, { recursive: true, force: true }); await mkdir(audit, { recursive: true }); }
+  const audit = options.auditDir ? join(options.auditDir, String(bangumiId)) : null;
+  if (audit) {
+    const saved = await savedDecision(join(audit, 'decision.json'), key);
+    if (saved) return saved;
+  }
+  const dir = await mkdtemp(join(tmpdir(), 'bangumi-tmdb-research-'));
+  if (audit) { await rm(audit, { recursive: true, force: true }); await mkdir(audit, { recursive: true }); }
   const schemaPath = join(dir, 'research.schema.json');
   const tokenPath = join(dir, 'tmdb-token');
-  const calls = join(audit, 'mcp-calls.jsonl'), events = join(audit, 'events.jsonl'), output = join(audit, 'result.json');
-  const prompt = `${INSTRUCTIONS(options.tmdbBudget, options.webBudget)}${JSON.stringify(bundle)}`;
+  const calls = join(audit ?? dir, 'mcp-calls.jsonl'), events = join(audit ?? dir, 'events.jsonl'), output = join(audit ?? dir, 'result.json');
   const args = ['exec', '--ignore-user-config', '--ignore-rules', '--ephemeral', '--skip-git-repo-check',
     '--sandbox', 'read-only', '--disable', 'shell_tool', '--disable', 'unified_exec',
     '--disable', 'hooks', '--disable', 'multi_agent', '--disable', 'apps',
@@ -99,9 +118,9 @@ export async function runResearch(bangumiId: number, bundle: unknown, options: R
   try {
     await writeFile(schemaPath, stable(researchSchema()));
     await writeFile(tokenPath, options.token, { mode: 0o600 });
-    await writeFile(join(audit, 'prompt.txt'), prompt);
+    await writeFile(join(audit ?? dir, 'prompt.txt'), prompt);
     const out = await open(events, 'w');
-    const err = await open(join(audit, 'stderr.log'), 'w');
+    const err = await open(join(audit ?? dir, 'stderr.log'), 'w');
     try {
       await new Promise<void>((resolvePromise, reject) => {
         const child = spawn('codex', args, { cwd: dir, env, stdio: ['pipe', out.fd, err.fd], detached: true });
@@ -132,6 +151,8 @@ export async function runResearch(bangumiId: number, bundle: unknown, options: R
     if (decision.status === 'matched' && (!decision.proposal || !decision.proposal.targets.length || !decision.evidence.length)) throw new Error('Invalid matched decision');
     if (decision.status !== 'matched' && decision.proposal !== null) throw new Error('Unexpected proposal');
     const toolCalls = (await jsonLines(calls)).filter((c): c is ToolCall => typeof c === 'object' && c !== null && typeof (c as ToolCall).tool === 'string');
-    return { decision, calls: toolCalls, webCalls, usage, elapsedMs: Date.now() - started };
+    const elapsedMs = Date.now() - started;
+    if (audit) await writeJson(join(audit, 'decision.json'), { key, at: new Date().toISOString(), decision, calls: toolCalls, webCalls, usage, elapsedMs });
+    return { decision, calls: toolCalls, webCalls, usage, elapsedMs, reused: false };
   } finally { await rm(dir, { recursive: true, force: true }); }
 }

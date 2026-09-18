@@ -117,7 +117,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const deadline = clock + options.maxMinutes * 60000;
   const report: { bangumiId: number; status: string; kind: string; reason: string }[] = [];
   const changes = new Map<number, Mapping>();
-  const counts = { verified: 0, derived: 0, extended: 0, codexSubjects: 0, researchMatched: 0, absent: [] as number[] };
+  const counts = { verified: 0, derived: 0, extended: 0, codexSubjects: 0, researchMatched: 0, researchReused: 0, absent: [] as number[] };
   const print = (id: number) => subjectPrint(ctx, id);
   const record = (id: number, kind: string, status: Status, reason: string, days?: number) => {
     const previous = progress.subjects[String(id)];
@@ -197,7 +197,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   let cursor = 0;
   let abort: unknown = null;
   let done = 0;
-  const phaseTwo = () => `${done} researched (${counts.researchMatched} matched, ${done - counts.researchMatched} pending), ${tasks.length - cursor} queued; ${elapsed()}`;
+  const phaseTwo = () => `${done} researched (${counts.researchMatched} matched, ${done - counts.researchMatched} pending, ${counts.researchReused} reused from a recent run), ${tasks.length - cursor} queued; ${elapsed()}`;
   const handle = async (task: Task) => {
     const { subject, before } = task;
     const eps = ctx.episodes.get(subject.id) ?? [];
@@ -206,6 +206,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         model: options.model, reasoning: options.reasoning, timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())),
         tmdbBudget: options.tmdbBudget, webBudget: options.webBudget, token, cacheDir: join(cacheDir(root), 'tmdb'), auditDir: join(cacheDir(root), 'research') });
       const decision = result.decision;
+      if (result.reused) counts.researchReused++;
       if (decision.status !== 'matched' || !decision.proposal) {
         record(subject.id, task.kind, 'pending', `${decision.reason}${decision.uncertainties.length ? `\n未确定：${decision.uncertainties.join('；')}` : ''}`);
         return;
@@ -250,5 +251,5 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
   await writeJson(join(cacheDir(root), 'update-report.json'), summary);
   const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
-  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
+  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
 }
