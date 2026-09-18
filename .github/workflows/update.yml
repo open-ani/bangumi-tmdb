@@ -111,6 +111,11 @@ jobs:
         env:
           TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
         run: pnpm run update
+      - name: Report subject and episode coverage
+        continue-on-error: true
+        env:
+          TMDB_READ_TOKEN: ${{ secrets.TMDB_READ_TOKEN }}
+        run: pnpm cli coverage
       - name: Refresh README statistics
         run: pnpm cli stats
       - name: Validate and commit on the latest main

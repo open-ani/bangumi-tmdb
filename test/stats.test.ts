@@ -23,7 +23,7 @@ test('dataset statistics classify subjects, count episode coverage and rewrite o
       provenance: { method: 'seed', source: 's', evidence: 'e', verifiedAt: null } }));
     await writeJson(join(root, 'sources/seed.json'), { schemaVersion: 1, repository: 'Rhilip/BangumiExtLinker', commit: 'a'.repeat(40), sha256: 'b'.repeat(64), rows: [] });
     const entry = { fingerprint: '', attemptedAt: '2026-09-16T00:00:00Z', retryAt: '2026-09-17T00:00:00Z', status: 'pending', reason: 'r', attempts: 1 };
-    await writeJson(join(root, 'state/progress.json'), { schemaVersion: 1, archive: null, subjects: { '2': entry, '3': entry, '6': entry } });
+    await writeJson(join(root, 'state/progress.json'), { schemaVersion: 1, archive: null, subjects: { '2': entry, '3': entry, '6': { ...entry, reason: 'Verification failed: Error: HTTP 404: /3/movie/9' } } });
     await mkdir(join(root, 'docs'));
     await writeFile(join(root, 'docs/unresolved-mappings-2026-09-10.md'), '### 2 · x\n\n[Bangumi 条目](u) · r\n\nreason\n\n参考资料：a\n');
     await writeFile(join(root, 'README.md'), 'Intro\n\n<!-- stats:start -->\nplaceholder\n<!-- stats:end -->\n\nOutro\n');

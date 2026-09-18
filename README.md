@@ -9,7 +9,7 @@
 ## 当前数据
 
 <!-- stats:start -->
-基于 Bangumi Archive 快照 `2026-09-15`，Archive 共有 **30,918** 个动画条目，处理情况如下。此区块由定时任务自动更新（`pnpm cli stats`）。
+基于 Bangumi Archive 快照 `2026-09-15`，Archive 共有 **30,889** 个动画条目，处理情况如下。此区块由定时任务自动更新（`pnpm cli stats`）。
 
 | 状态 | 条目数 | 说明 |
 | --- | --- | --- |
@@ -26,9 +26,11 @@
 | `seed` | 843 | 直接沿用 BangumiExtLinker 的对应关系，尚未独立核验 |
 | `community` | 0 | 社区 PR 提交的人工映射 |
 
-逐集对应：**9,533** 条映射带有逐集规则，共 **103,723** 条 Bangumi 章节 → TMDB 剧集/电影的对应，覆盖已映射条目本篇章节（189,941 话）的 54.6%。其余 2,950 条目前只有作品或季级映射，逐集关系由定时任务逐步补齐：能按放送日期确定性推导的直接写入，其余交给模型研究。
+逐集对应：**9,533** 条映射带有逐集规则，共 **103,723** 条 Bangumi 章节 → TMDB 剧集/电影的对应，覆盖已映射条目本篇章节（189,859 话）的 54.6%。其余 2,950 条目前只有作品或季级映射，逐集关系由定时任务逐步补齐：能按放送日期确定性推导的直接写入，其余交给模型研究。
 
-已知问题：144 条映射的 TMDB 目标已失效（404 或声明范围缺集），已标记待重研究，修正前仍按原样发布。
+剧集图片：已映射本篇章节中 82,124 话（79.4%）在 TMDB 有剧集图；8,348 个条目每一话都有图，895 个条目一张也没有。逐条目、逐章节的明细见 Release 里的 `coverage.json`。
+
+已知问题：39 条映射的 TMDB 目标已失效（404 或声明范围缺集），已标记待重研究，修正前仍按原样发布。
 <!-- stats:end -->
 
 每个 Release 的 `manifest.json` 带有生成时的计数与校验和。
@@ -42,6 +44,7 @@
 | `manifest.json` | 格式版本、源 commit、Archive 快照、计数与 SHA-256 |
 | `subjects.json` | Bangumi subject ID → TMDB 作品及已知季、集信息 |
 | `episodes.json` | Bangumi episode ID → 明确的 TMDB movie 或 TV episode 列表 |
+| `coverage.json` | 每个 Bangumi 动画条目的对应状态：`complete`、`partial`、`season-only`、`work-only`、`movie`、`no-episodes`、`unresolved`、`unanalyzed`，已放送但未映射的章节 ID（`missing`），以及已映射但 TMDB 没有剧集图的章节 ID（`noImage`） |
 
 `episodes.json` 示例（使用虚构 ID）：
 
@@ -62,7 +65,7 @@
 
 电影目标为 `{ "type": "movie", "id": 200 }`。一集拆分为多个 TMDB 集时，`targets` 按顺序列出全部对应剧集。
 
-先下载 manifest，再按它的 `sourceCommit` 从 `data-<sourceCommit>` release 下载另外两个文件并验证校验和，确保三个文件属于同一版本。
+先下载 manifest，再按它的 `sourceCommit` 从 `data-<sourceCommit>` release 下载其他文件并验证校验和，确保它们属于同一版本。`coverage.json` 由定时任务生成（需要查询 TMDB 图片），按 `sources/coverage.json` 的提交版本随 Release 发布。
 
 ## 本地运行
 
@@ -127,7 +130,7 @@ This product uses the TMDB API but is not endorsed or certified by TMDB.
 3. 识别新条目：用标题和别名搜索 TMDB，拉取候选季表，只有唯一一个候选的集与 Bangumi 章节按放送日期逐一吻合才写入，不经过模型。
 4. 一轮判定：识别阶段有候选但拿不定的条目，把已抓取的候选季表交给 Codex 一轮回答，不给工具、不联网，只能引用交给它的候选。
 5. 模型研究：在预算内（当前每天 200 条、8 并发）用 Codex 研究前两步没解决的条目，其次修复核验失败的映射，再为无法确定性推导的条目补逐集关系。模型可联网搜索并直接调用 TMDB 工具，但只能引用它实际读取过的作品和季，结果还要通过结构校验和在线核验才会写入。
-6. 重新生成 README 的统计区块，验证后以 `openanibot` 提交到 `main`，随即发布 Release。
+6. 生成对应状态报告 `sources/coverage.json`（逐条目、逐章节，含 TMDB 是否有剧集图），重新生成 README 的统计区块，验证后以 `openanibot` 提交到 `main`，随即发布 Release。
 
 自动化只研究放送日在最近 180 天内或尚未放送的未映射条目；早期积压由维护者离线批处理后提交。判定证据不足的条目按 7、14、28、56、90 天退避重试，未放送作品在放送日后 3 天再看，已复核的待定项 180 天内不再重试；Bangumi 侧名称、日期或章节一旦变化会立即重新处理。
 

@@ -53,10 +53,10 @@ jobs:
             '', 'See manifest.json for provenance and checksums.'].join('\\n')")
           if gh release view "$TAG" --json isDraft --jq .isDraft > .cache/release-draft; then
             if test "$(cat .cache/release-draft)" = false; then exit 0; fi
-            gh release upload "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json --clobber
+            gh release upload "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json dist/coverage.json --clobber
             gh release edit "$TAG" --title "$TITLE" --notes "$NOTES"
           else
-            gh release create "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json \
+            gh release create "$TAG" dist/manifest.json dist/subjects.json dist/episodes.json dist/coverage.json \
               --target "$GITHUB_SHA" --draft --title "$TITLE" --notes "$NOTES"
           fi
           gh release edit "$TAG" --draft=false --latest

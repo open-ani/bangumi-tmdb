@@ -2,9 +2,11 @@ import { join } from 'node:path';
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import { expand } from './expand.js';
 import { loadContext } from './update.js';
+import { readJson } from './io.js';
 import { dumpTime } from './catalog.js';
 import { parseUnresolved } from './pending.js';
 import { STATS_END, STATS_START } from './guard.js';
+import { Coverage } from './coverage.js';
 
 const DAY = 86400000;
 export interface Stats {
@@ -15,6 +17,8 @@ export interface Stats {
   unresolved: number; unresolvedDocumented: number; unresolvedAutomation: number;
   unanalyzed: number; unanalyzedInScope: number; unanalyzedNoDate: number; unanalyzedBefore2020: number;
   broken: number;
+  // From sources/coverage.json when the scheduled run has produced one.
+  images: { checked: number; present: number; subjectsAll: number; subjectsNone: number } | null;
 }
 // Composition of the dataset against the current Bangumi catalog. The scope split uses the Archive dump
 // time as "now" so the numbers only move when data moves, not with the calendar.
@@ -38,8 +42,16 @@ export async function computeStats(root: string, scopeDays: number): Promise<Sta
     unresolvedAutomation: pendingUnmapped.filter(id => !documented.has(id)).length,
     unanalyzed: rest.length, unanalyzedInScope: rest.filter(s => inScope(s.date)).length,
     unanalyzedNoDate: rest.filter(s => !s.date).length, unanalyzedBefore2020: rest.filter(s => s.date && s.date < '2020').length,
-    broken: Object.entries(progress.subjects).filter(([id, p]) => p.status === 'pending' && mapped.has(Number(id))).length,
+    // A mapped subject is broken when live verification failed, not when episode research came back empty.
+    broken: Object.entries(progress.subjects).filter(([id, p]) => p.status === 'pending' && mapped.has(Number(id)) && p.reason.startsWith('Verification failed')).length,
+    images: null,
   };
+  try {
+    const coverage = await readJson(join(root, 'sources/coverage.json'), Coverage);
+    const checked = coverage.subjects.filter(s => s.images.checked);
+    stats.images = { checked: checked.reduce((n, s) => n + s.images.checked, 0), present: checked.reduce((n, s) => n + s.images.present, 0),
+      subjectsAll: checked.filter(s => s.images.present === s.images.checked).length, subjectsNone: checked.filter(s => !s.images.present).length };
+  } catch (error) { if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error; }
   for (const row of existing) {
     if (row.targets.every(t => t.type === 'movie')) stats.movie++;
     else if (row.targets.some(t => t.type === 'tv' && t.season === undefined)) stats.tvBare++;
@@ -76,7 +88,7 @@ export function renderStats(s: Stats, scopeDays: number): string {
 
 逐集对应：**${n(s.episodeLevel)}** 条映射带有逐集规则，共 **${n(s.mappedEpisodes)}** 条 Bangumi 章节 → TMDB 剧集/电影的对应，覆盖已映射条目本篇章节（${n(s.regularOfMapped)} 话）的 ${pct(s.mappedEpisodes, s.regularOfMapped)}。其余 ${n(s.subjectLevel)} 条目前只有作品或季级映射，逐集关系由定时任务逐步补齐：能按放送日期确定性推导的直接写入，其余交给模型研究。
 
-已知问题：${n(s.broken)} 条映射的 TMDB 目标已失效（404 或声明范围缺集），已标记待重研究，修正前仍按原样发布。
+${s.images ? `剧集图片：已映射本篇章节中 ${n(s.images.present)} 话（${pct(s.images.present, s.images.checked)}）在 TMDB 有剧集图；${n(s.images.subjectsAll)} 个条目每一话都有图，${n(s.images.subjectsNone)} 个条目一张也没有。逐条目、逐章节的明细见 Release 里的 \`coverage.json\`。\n\n` : ''}已知问题：${n(s.broken)} 条映射的 TMDB 目标已失效（404 或声明范围缺集），已标记待重研究，修正前仍按原样发布。
 ${STATS_END}`;
 }
 export function replaceStats(readme: string, block: string): string {

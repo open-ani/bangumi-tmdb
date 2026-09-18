@@ -6,13 +6,13 @@ import { Id, type WorkTarget, type Mapping, type Catalog } from './model.js';
 import { expand } from './expand.js';
 
 const TmdbEpisode = z.object({ id: Id, episode_number: Id, season_number: z.number().int().nonnegative(),
-  name: z.string(), air_date: z.string().nullable(), overview: z.string().optional() });
+  name: z.string(), air_date: z.string().nullable(), overview: z.string().optional(), still_path: z.string().nullable().optional() });
 const Season = z.object({ id: Id, season_number: z.number().int().nonnegative(), episodes: z.array(TmdbEpisode) });
 const Work = z.object({
   id: Id, name: z.string().optional(), original_name: z.string().optional(),
   title: z.string().optional(), original_title: z.string().optional(),
   first_air_date: z.string().optional(), release_date: z.string().optional(),
-  overview: z.string().optional(),
+  overview: z.string().optional(), poster_path: z.string().nullable().optional(), backdrop_path: z.string().nullable().optional(),
   origin_country: z.array(z.string()).optional(), status: z.string().optional(), number_of_episodes: z.number().optional(),
   genres: z.array(z.object({ name: z.string() })).optional(),
   production_companies: z.array(z.object({ name: z.string(), origin_country: z.string().optional() })).optional(),

@@ -41,8 +41,8 @@
    - 识别阶段：对到期的未映射条目，用标题、译名、别名（去掉季数后缀）搜索 TMDB，拉取候选的季表，只有唯一一个候选的集与 Bangumi 本篇章节按放送日期逐一吻合时才写入作品与逐集映射（`deterministic`，evidence 记录搜索词与候选数）；单集条目按上映日期匹配电影。多候选吻合、缺少日期或对不上的留给模型。
    - 判定阶段：识别阶段有候选但拿不定的条目（多候选吻合、缺日期、集数对不上），把 Bangumi 数据和已抓取的候选季表一起交给 Codex 一轮判定，不给工具、不联网，结果同样经证据检查（只能引用交给它的候选）、结构校验和在线核验；pending 的留给研究阶段。每轮最多 `CODEX_MAX_ADJUDICATIONS` 条（默认 400）。
    - 研究阶段：在时间与条目预算内，用 Codex（联网搜索加 TMDB MCP 工具）研究新出现的、在范围内的未映射条目，其次修复核验失败的映射，再为无法确定性推导的条目补逐集规则。模型只能引用它实际通过工具读取过的作品和季，结果还要经过结构校验和在线核验。
-5. `pnpm cli stats`：重新生成 README「当前数据」里 `<!-- stats:start -->` 到 `<!-- stats:end -->` 之间的统计区块。
-6. `scripts/commit-update.sh`：guard 检查只改动了 `data/`、`state/`、`sources/` 和 README 的统计区块（区块之外必须与基线一致），验证后以 openanibot 提交 main。若 main 期间有变化，先把生成的改动 rebase 到最新 main 并重新校验、重新生成统计区块；rebase 冲突或校验不过才在最新 main 上重算，最多三次。
+5. `pnpm cli coverage`：生成 `sources/coverage.json`，列出每个动画条目的对应状态、已放送但未映射的章节和已映射但 TMDB 没有剧集图的章节；需要逐季查询 TMDB（有缓存），失败不阻塞本轮。随后 `pnpm cli stats` 重新生成 README「当前数据」里 `<!-- stats:start -->` 到 `<!-- stats:end -->` 之间的统计区块。
+6. `scripts/commit-update.sh`：guard 检查只改动了 `data/`、`state/`、`sources/`（含 `coverage.json`）和 README 的统计区块（区块之外必须与基线一致），验证后以 openanibot 提交 main。若 main 期间有变化，先把生成的改动 rebase 到最新 main 并重新校验、重新生成统计区块；rebase 冲突或校验不过才在最新 main 上重算，最多三次。
 
 每个条目的研究决策连同输入摘要保存在 `$DATASET_CACHE/research/<subject ID>/decision.json`；48 小时内输入相同的再次研究直接复用这份决策（仍经过结构校验和在线核验），所以超时中断或重算只重复便宜的核验阶段，不重复消耗 Codex。
 

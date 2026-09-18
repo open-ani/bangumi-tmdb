@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { Mapping } from './model.js';
 import { stable } from './io.js';
 
-export const allowedChange = (path: string): boolean => /^(data\/[1-9]\d*\.json|state\/progress\.json|sources\/(seed|import-report|anidb-check)\.json|README\.md)$/.test(path);
+export const allowedChange = (path: string): boolean => /^(data\/[1-9]\d*\.json|state\/progress\.json|sources\/(seed|import-report|anidb-check|coverage)\.json|README\.md)$/.test(path);
 // README.md carries one generated block; automation may rewrite that block and nothing else.
 export const STATS_START = '<!-- stats:start -->';
 export const STATS_END = '<!-- stats:end -->';
