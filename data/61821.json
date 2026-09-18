@@ -1,0 +1,81 @@
+{
+  "bangumiId": 61821,
+  "episodes": [
+    {
+      "id": 234483,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 234484,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 234485,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 234486,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 234487,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 234488,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 234489,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 234490,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 234491,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 234492,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 季序、10集总量、放送起止日期及前后作时间均吻合，可确认 subject 对应 TMDB 211735 第2季整季。逐集缺少可比对的标题和日期，不按位置生成映射。\n\nhttps://www.themoviedb.org/tv/211735 (api_snapshot): 候选为中国动画喜剧《啦啦啦德玛西亚》；第2季共10集，首集日期为2012-07-19，末集日期为2012-12-13，与 subject 的话数及放送起止日期一致。第1、3季首播日期也分别与 Bangumi 前作、续作日期一致。第2季集标题均为通用编号。\n\n备注：Bangumi 各集日期为空，TMDB 集标题均为通用编号，无法核实逐集顺序，故 rules 留空。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/61821; https://www.themoviedb.org/tv/211735",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 211735
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 211735,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

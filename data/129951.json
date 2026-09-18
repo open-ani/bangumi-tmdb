@@ -1,0 +1,154 @@
+{
+  "bangumiId": 129951,
+  "episodes": [
+    {
+      "id": 511060,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 511061,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 511062,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 511063,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 511064,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 511065,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 511066,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 511067,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 511068,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 511069,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 511070,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 511071,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 511072,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 511073,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 511074,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 511075,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 511076,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 511077,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 511078,
+      "sort": 19,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 511075,
+      "targets": [
+        {
+          "episode": 14,
+          "id": 709,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 输入的19话及2014-04-13至08-17放送范围，与第七季放送顺序前19话一致。逐集核对外部放送表与 TMDB 标题、日期后，确认 TMDB 将其中第16话单列为 S00E14，其余18话归入第七季，因此须分段映射。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): TMDB 709 为美国定格喜剧动画《Robot Chicken》，简介为玩偶演出的流行文化戏仿，主要配音包括 Seth Green、Matthew Senreich；第七季始于 2014-04-13。\n\nhttps://en.wikipedia.org/wiki/Robot_Chicken_season_7 (page): 第七季逐集表列出 2014-04-13 至 2014-08-17 连续播出的第1至19话，由 Zeb Wells 执导；第16话为 07-27 播出的 Bitch Pudding Special，第17至19话依次于 08-03、08-10、08-17 播出。第20话节日特别篇于 12-07 播出，超出输入的结束日期。\n\nhttps://www.themoviedb.org/tv/709/season/7 (api_snapshot): 完整读取第七季集表，共18集、1页。前15集标题及日期与放送顺序一致；TMDB 第16、17、18集分别为 Batman Forever 21、The Hobbit: There and Bennigan's、Chipotle Miserables，对应放送顺序第17至19话。\n\nhttps://www.themoviedb.org/tv/709/season/0 (api_snapshot): 完整读取第0季集表，共29集、1页。第14集为 The Robot Chicken Bitch Pudding Special，日期 2014-07-27，标题、日期及复仇剧情均与放送顺序第16话一致。第13集 DC 特别篇及第15集节日特别篇分别于 04-06、12-07 播出，均在本 subject 日期范围之外。\n\n备注：Bangumi 输入章节均无标题和日期，且网页未成功读取；章节 sort 对应关系依据输入的总话数、起止日期及已核实的完整放送顺序重建，无法用 Bangumi 逐话元数据直接复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/129951; https://www.themoviedb.org/tv/709; https://en.wikipedia.org/wiki/Robot_Chicken_season_7; https://www.themoviedb.org/tv/709/season/7; https://www.themoviedb.org/tv/709/season/0",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 709
+    },
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 16,
+      "season": 7,
+      "start": 17,
+      "tmdbId": 709
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 18,
+      "id": 709,
+      "season": 7,
+      "type": "tv"
+    },
+    {
+      "episode": 14,
+      "id": 709,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

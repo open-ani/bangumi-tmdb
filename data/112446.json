@@ -1,0 +1,46 @@
+{
+  "bangumiId": 112446,
+  "episodes": [
+    {
+      "id": 427831,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 427832,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 427833,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、首映日期、三部结构及放映期间支持对应 TV 36622 第1季整体。Bangumi 虽标为电影，但明确收录分期放映的全部三部，与候选季表的3集范围一致。Bangumi 各章节没有标题和日期，无法独立核实逐集关系，因此不生成顺序规则。\n\nhttps://www.themoviedb.org/tv/36622 (api_snapshot): TV 36622《BATON バトン》首播日期为2009-04-28，第1季共3集，分别于2009-04-28、2009-05-31、2009-07-11放送；与 Bangumi 所述2009年分三部放映、每部约20分钟的结构和放映期间一致。\n\nhttps://www.themoviedb.org/movie/41444 (api_snapshot): 电影41444《BATON バトン》上映日期同为2009-04-28，但快照未提供片长、剧情或分部信息，无法确认其覆盖三部还是其中一部。\n\n备注：逐集映射需补充 Bangumi 各部标题或放映日期，不能仅按章节位置对应。；电影41444与三部作品的覆盖关系尚不明确；候选也未提供剧情和导演资料供进一步交叉核验。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/112446; https://www.themoviedb.org/tv/36622; https://www.themoviedb.org/movie/41444",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36622
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 36622,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

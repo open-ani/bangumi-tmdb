@@ -1,0 +1,46 @@
+{
+  "bangumiId": 505821,
+  "episodes": [
+    {
+      "id": 1374548,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1374549,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1374550,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、首播日期、国家、Showtime 信息与三集规模共同支持对应 TMDB 283086 第 1 季全季，季表未显示混入其他作品。作品及季范围可以确认；逐集信息不足，因此保留章节映射为空，不按位置生成规则。\n\nhttps://www.themoviedb.org/tv/283086 (api_snapshot): 候选《Dexter: The Dark Defender》为美国作品，制作方为 Showtime Networks，首播日期为 2007-10-30，与 Bangumi 的国家、Showtime 信息及首播日期吻合。候选全剧及第 1 季均为 3 集，与 subject 本篇集数一致。\n\nhttps://www.themoviedb.org/tv/283086 (api_snapshot): 第 1 季三集标题仅为「第1話」「第2話」「第3話」，放送日期分别为 2007-10-30、2007-11-05、2007-11-19；Bangumi 三章均缺少标题和放送日期，无法逐集交叉核验。\n\n备注：Bangumi 缺少逐集标题及日期，需补充章节资料后才能确认逐集对应。；候选未提供剧情、动画媒介标记及单集时长，无法直接复核这些属性。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/505821; https://www.themoviedb.org/tv/283086",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283086
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 283086,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

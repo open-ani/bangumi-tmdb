@@ -1,0 +1,46 @@
+{
+  "bangumiId": 61566,
+  "episodes": [
+    {
+      "id": 233549,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 233550,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 233551,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 独立候选的作品版本、发行日期及完整3集季范围与该 OVA 一致，确定对应 TMDB 113049 第1季。逐集缺少可比对的标题和日期，因此仅确认作品覆盖范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/113049 (api_snapshot): 独立条目《CLUSTER EDGE Secret Episode》首播日期为2006-09-22，与 Bangumi OVA 发售日期一致；第1季共3集，季表完整列出第1至3集，与 subject 的3话范围吻合。\n\nhttps://www.themoviedb.org/tv/34676 (api_snapshot): 母作《CLUSTER EDGE》第1季为2005年开始的25集电视动画，与本次3话 OVA 不同；第0季另列3集，日期均为2006-09-22，与 OVA 范围相符。依要求优先采用独立条目。\n\n备注：Bangumi 三话均无标题和放送日期；独立候选仅有通用集标题，第2、3集日期为空，无法独立核实逐集对应顺序。；独立候选未提供剧情及制作公司，无法直接核对这些信息。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/61566; https://www.themoviedb.org/tv/113049; https://www.themoviedb.org/tv/34676",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 113049
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 113049,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

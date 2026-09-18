@@ -1,0 +1,41 @@
+{
+  "bangumiId": 51945,
+  "episodes": [
+    {
+      "id": 216980,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 216981,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 216982,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 216983,
+      "sort": 14,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 匹配独立电影646206：上映日期、影院先行上映版本、剧情及第11～14话的四话范围均吻合。该电影整体覆盖 subject；候选未提供电影内部章节标识，因此保留四个 Bangumi 章节未映射，避免将同一电影重复分配给多个章节。\n\nhttps://www.themoviedb.org/movie/646206 (api_snapshot): 电影条目名称、2013-01-12 上映日期与 subject 一致；简介明确为全七章中的第四章，收录第11～14话，且人物、首次接触真相及次元潜航舰袭击等剧情均一致。\n\nhttps://www.themoviedb.org/tv/45844 (api_snapshot): 第1季第11～14集的标题与 Bangumi 四个章节逐一相同，电视播出日期为2013-06-16至2013-07-07，符合简介所述先行影院上映、随后电视播出的关系。\n\nhttps://www.themoviedb.org/movie/1274262 (api_snapshot): 另一个电影候选具有相同名称与上映日期，但未提供简介、制作方或收录范围，证据完整度低于646206。\n\n备注：1274262疑似重复电影条目，现有快照无法确认两个条目的重复或合并状态；本次选择剧情与收录范围均有明确证据的646206。；电影候选未提供制作方信息，Bangumi 四个章节也未提供各自放送日期，无法独立核对这些字段。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/51945; https://www.themoviedb.org/movie/646206; https://www.themoviedb.org/tv/45844; https://www.themoviedb.org/movie/1274262",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 646206,
+      "type": "movie"
+    }
+  ]
+}

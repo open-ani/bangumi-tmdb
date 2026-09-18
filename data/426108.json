@@ -1,0 +1,56 @@
+{
+  "bangumiId": 426108,
+  "episodes": [
+    {
+      "id": 1185228,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1185229,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1185230,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1185231,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1185232,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品名称、美国电视媒介、首播日期、明确的第一季标识及整季集数共同支持对应 TMDB 39479 第 1 季。整季范围可以确认；章节层面缺少可比对的标题和日期，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/39479 (api_snapshot): TMDB 39479 为美国电视系列《Off the Air》，首播日期为 2011-01-01，与 Bangumi 的作品名称、国家、媒介及首播日期一致；第 1 季共 5 集，与 subject 标明的第一季及 5 话一致。\n\nhttps://www.themoviedb.org/tv/39479 (api_snapshot): 第 1 季季表列出完整的第 1—5 集，播出日期从 2011-01-01 至 2012-06-01；标题均为通用集号。Bangumi 五个章节均缺少标题及播出日期，无法完成逐集交叉核对。\n\n备注：候选未提供剧情简介、创作者或制作方，无法独立核对 Dave Hughes 与 Adult Swim 信息。；需补充 Bangumi 各话标题或播出日期后才能确认逐集对应；当前未凭章节位置填充映射。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/426108; https://www.themoviedb.org/tv/39479",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 39479
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 39479,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "bangumiId": 62273,
+  "episodes": [
+    {
+      "id": 236749,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 236750,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 匹配 TMDB 98086 第1季全季。两话标题及顺序完全一致，集数、年份、首末发行日期和制作方信息相互吻合，支持其为同一两话 OVA；季表未混入其他内容。Bangumi 逐话日期为空，但两话标题精确对应，且 TMDB 日期与条目发行起止日期吻合，足以确认连续映射。\n\nhttps://www.themoviedb.org/tv/98086 (api_snapshot): TMDB 98086 第1季共2集，逐集标题依次为「樟葉瑠美 調教編」「樟葉悠美 開発編」，与 Bangumi 两话完全一致；发行日期分别为2011-07-29、2011-09-30，与 Bangumi OVA 的开始、结束日期一致。制作公司 Suzuki Mirano 也与 Bangumi 所列官网相符。\n\nhttps://www.themoviedb.org/tv/313787 (api_snapshot): TMDB 313787 虽然同名且首播日期相同，但第1季仅收录1集，标题为泛称「第1話」，缺少制作公司，无法完整核实两话 OVA 的范围及逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/62273; https://www.themoviedb.org/tv/98086; https://www.themoviedb.org/tv/313787",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 98086
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 98086,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "bangumiId": 194327,
+  "episodes": [
+    {
+      "id": 668996,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 668997,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 668998,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 668999,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 669000,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 669001,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 季号、电视动画媒介、集数及首末放送日期一致，可确认subject覆盖TMDB第4季整季。Bangumi逐集标题和日期均为空，无法进行逐集交叉核验，因此不按序号位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/3108 (api_snapshot): 候选《Superjail!》第4季共6集，逐集放送日期为2014-06-15至2014-07-20，每周一集，与Bangumi标注的第四季、6集及首末放送日期一致；候选媒介为电视动画。\n\n备注：Bangumi缺少剧情、制作方信息，无法核对这些维度。；逐集映射待补充Bangumi章节标题或放送日期后确认；TMDB当前集标题也仅为通用集号。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/194327; https://www.themoviedb.org/tv/3108",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 3108
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 3108,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

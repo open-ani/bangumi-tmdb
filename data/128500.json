@@ -1,0 +1,76 @@
+{
+  "bangumiId": 128500,
+  "episodes": [
+    {
+      "id": 504558,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 504559,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 504560,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 504561,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 504562,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 504563,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 504564,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 504565,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 504566,
+      "sort": 9,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 季标识、动画媒介、首播日期、9集总量及续作时间共同支持对应 TMDB 32726 第2季整季。Bangumi 各章节标题和日期均为空，无法逐集核对，因此仅确认整季范围，不按位置生成章节映射。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 候选为美国动画喜剧《Bob's Burgers》，第2季首播于2012-03-11，共9集，与该 subject 的季标识、首播日期及本篇集数一致。季表完整列出第1至9集，播出日期止于2012-05-20；第3季首播日期也与 Bangumi 续作日期2012-09-30一致。\n\n备注：需补充 Bangumi 各章节的标题或放送日期，才能核实逐集顺序并生成 rules；候选中的集标题也仅为通用集号。；候选未提供剧情及演职员资料，无法独立交叉核对这些信息。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/128500; https://www.themoviedb.org/tv/32726",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 32726
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 32726,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

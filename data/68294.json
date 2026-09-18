@@ -1,0 +1,60 @@
+{
+  "bangumiId": 68294,
+  "episodes": [
+    {
+      "id": 254088,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 254089,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 254089,
+      "targets": [
+        {
+          "episode": 17,
+          "id": 91209,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 名称、2010年两话发行日期、剧情人物及导演共同确认是同一OVA。TMDB将其归入TV第1季，实际集号不连续：第一话对应S1E1；第二话依据独立发行记录、日期及全季仅两集的事实对应S1E17，使用特例保留API真实编号。\n\nhttps://www.themoviedb.org/tv/91209 (api_snapshot): TMDB 91209 的完整别名包含 Bangumi 原名；首末发行日期为2010-03-19、2010-07-16，共一季两集，导演为雷火剣，角色包含直哉与ニル。\n\nhttps://www.themoviedb.org/tv/91209/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，仅有两个条目：第1集日期2010-03-19；另一集实际 episode_number=17、标题为「第17話」，日期2010-07-16。不存在可直接使用的第2集编号。\n\nhttps://www.suruga-ya.jp/product/detail/128032736 (search_snippet): 第一话动画DVD由Milky发行，日期2010-03-19；简介中的直哉、ニル及寻找冠军的故事与输入一致。\n\nhttps://www.suruga-ya.jp/product/detail/128034167 (search_snippet): 第二话动画DVD由Milky发行，日期2010-07-16，型号DPLT-8748；剧情承接第一卷，与TMDB唯一另一集的日期吻合。\n\nhttps://ndlsearch.ndl.go.jp/books/R100000002-I028668959 (page): 国立国会图书馆收录2010年第二话影像资料，原作为OLE-M、导演为雷火剣、制作为ミルキーズピクチャーズ，支持其为同名游戏改编动画版本。\n\n备注：TMDB第二个条目的集号和标题均为17，与实体发行的「第二话」不符，疑似元数据错误；映射依据发行日期及两话总量确认，未擅自改成S1E2。；Bangumi网页未返回条目详情，官方网站无法访问；Bangumi章节ID与标题采用用户提供的归档数据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68294; https://www.themoviedb.org/tv/91209; https://www.themoviedb.org/tv/91209/season/1; https://www.suruga-ya.jp/product/detail/128032736; https://www.suruga-ya.jp/product/detail/128034167; https://ndlsearch.ndl.go.jp/books/R100000002-I028668959",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 91209
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 91209,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 17,
+      "id": 91209,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

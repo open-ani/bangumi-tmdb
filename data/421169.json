@@ -1,0 +1,56 @@
+{
+  "bangumiId": 421169,
+  "episodes": [
+    {
+      "id": 1174908,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1174909,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1174910,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1174911,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1174912,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 短片版本、制作方关联、2015年播出时间、5集总量及完整周播排期一致，可以确认 subject 覆盖 TMDB 327773 第1季。Bangumi 各章节标题和日期均为空，无法独立核实章节顺序，因此仅确定整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/327773 (api_snapshot): 该候选为 Friendship Games 配套短片系列，由 DHX Media、Hasbro Studios 制作；第1季共5集，分别于2015-08-01、08-08、08-15、08-22、08-29播出，与 Bangumi 简介所述 Hasbro 制作的5部独立于电影的短片及8月每周六发布的排期一致。\n\nhttps://www.themoviedb.org/movie/349158 (api_snapshot): 该候选是 Friendship Games 电影，发行日期为2015-10-24；Bangumi 明确将待匹配的5部短片与电影区分，因此不将电影纳入映射。\n\n备注：Bangumi 5个章节均缺少标题和放送日期，TMDB 集标题也仅为通用编号；需补充章节标题或日期后才能确认逐集对应。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/421169; https://www.themoviedb.org/tv/327773; https://www.themoviedb.org/movie/349158",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 327773
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 327773,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

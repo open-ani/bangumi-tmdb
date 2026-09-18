@@ -1,0 +1,81 @@
+{
+  "bangumiId": 461501,
+  "episodes": [
+    {
+      "id": 1260921,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1260922,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1260923,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1260924,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1260925,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1260926,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1260927,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1260928,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1260929,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1260930,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品名称、电视媒介、第6季首播日期、10集规模及前后季日期共同支持对应 TMDB 251 第6季整季。季范围可以确认，但缺乏逐集核对依据，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/251 (api_snapshot): TMDB 251 第6季共10集，首播日期为2009-03-29，与 Bangumi 的电视动画媒介、第六季标识、首播日期和本篇10集一致；季表列出第1至10集，播出日期为2009-03-29至2009-05-31。\n\nhttps://www.themoviedb.org/tv/251 (api_snapshot): 该作品第5季和第7季首播日期分别为2008-01-20和2009-12-13，均与 Bangumi 前后续关联条目日期吻合，支持第6季的范围判定。\n\n备注：Bangumi 各章节标题与放送日期均为空，TMDB 集标题也只有通用集号，无法核实逐集顺序；rules 和 overrides 留空。；Bangumi 未提供剧情及制作方信息，无法核对这两项。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/461501; https://www.themoviedb.org/tv/251",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 251
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 251,
+      "season": 6,
+      "type": "tv"
+    }
+  ]
+}

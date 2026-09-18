@@ -1,0 +1,81 @@
+{
+  "bangumiId": 194325,
+  "episodes": [
+    {
+      "id": 668986,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 668987,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 668988,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 668989,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 668990,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 668991,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 668992,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 668993,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 668994,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 668995,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、季别、集数、播出区间及前后季日期共同支持对应TMDB 3108第3季整季。Bangumi各集标题和日期均为空，候选标题也仅为集号，无法独立核实逐集对应，因此只确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/3108 (api_snapshot): 候选《Superjail!》第3季共10集，播出日期为2012-10-01至2012-12-10；与Bangumi第三季的10集及2012-09-30至2012-12-09播出区间对应，起止日期均相差一天。\n\nhttps://www.themoviedb.org/tv/3108 (api_snapshot): 候选第2季、第4季首播日期分别为2011-04-03和2014-06-15，与Bangumi关联的前后两季日期一致，支持第三季的系列及季别归属。\n\n备注：双方第三季首尾日期均相差一天，现有数据无法确认差异原因。；缺少Bangumi逐集标题与放送日期，逐集对应留空。；Bangumi未提供剧情及制作方信息，无法交叉核验这些字段。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/194325; https://www.themoviedb.org/tv/3108",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 3108
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 3108,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

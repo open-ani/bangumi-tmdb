@@ -1,0 +1,81 @@
+{
+  "bangumiId": 461504,
+  "episodes": [
+    {
+      "id": 1260943,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1260944,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1260945,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1260946,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1260947,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1260948,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1260949,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1260950,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1260951,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1260952,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 季度、首播日期、10集总量及前后季关联日期相互吻合，可确认 subject 对应 TMDB 251 第8季整季。Bangumi 各集标题和日期均为空，无法逐集核对，因此不凭序号生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/251 (api_snapshot): TMDB 251 第8季共10集，首播日期为2011-05-08，与 Bangumi 标注的季度、首播日期及本篇集数一致；候选季表完整列出第1至10集，末集日期为2011-07-24。\n\nhttps://www.themoviedb.org/tv/251 (api_snapshot): TMDB 第7季和第9季的首播日期分别为2009-12-13和2012-06-24，与 Bangumi 前后续关联条目的日期一致，支持第8季的归属。\n\n备注：逐集对应尚未确认：需补充 Bangumi 各集标题或放送日期；TMDB 当前集标题也仅为通用集号。；Bangumi 未提供剧情简介及制作方资料，无法进行这些维度的交叉核验。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/461504; https://www.themoviedb.org/tv/251",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 8,
+      "start": 1,
+      "tmdbId": 251
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 251,
+      "season": 8,
+      "type": "tv"
+    }
+  ]
+}

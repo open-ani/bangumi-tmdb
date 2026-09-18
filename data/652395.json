@@ -1,0 +1,56 @@
+{
+  "bangumiId": 652395,
+  "episodes": [
+    {
+      "id": 1694012,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1694013,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1694014,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1694015,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1694016,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 英文名称、动画媒介、首播日期及全作集数一致，可确认对应 TV 66487 第 1 季整季。逐集缺少可交叉核对的标题和日期，因此不按位置生成章节映射。\n\nhttps://www.themoviedb.org/tv/66487 (api_snapshot): 候选 TV 66487 为同名动画，首播日期为 2016-02-15，与 Bangumi 一致；唯一季为第 1 季，共 5 集，与 subject 标注的本篇集数一致。季表列出 2016-02-15 至 2016-05-04 播出的 5 集，标题均为通用集号。\n\n备注：Bangumi 的 5 个章节均无标题和放送日期，候选集名也仅为通用集号，无法核实逐集对应顺序。；候选未提供剧情简介，无法核对 Bangumi 所述首集《Poe to the Rescue》；Bangumi 未提供制作方，亦无法交叉验证制作方。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/652395; https://www.themoviedb.org/tv/66487",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 66487
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 66487,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

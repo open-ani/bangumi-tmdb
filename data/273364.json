@@ -1,0 +1,56 @@
+{
+  "bangumiId": 273364,
+  "episodes": [
+    {
+      "id": 1565937,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1565938,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1565939,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1565940,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1565941,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、首播日期及完整的 5 集结构共同支持对应 TV 62576 第 1 季，季表未显示混入其他作品。可以确认整季范围，但 Bangumi 各话标题、日期均为空，TMDB 也只有编号式标题，故不凭位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/62576 (api_snapshot): 该 TV 候选名称与 Bangumi 一致，首播日期同为 2013-11-05；仅有第 1 季，共 5 集，与 Bangumi 的 5 话规模一致。季表中第 1 至 5 集均标注于当日播出。\n\nhttps://www.themoviedb.org/movie/763861 (api_snapshot): 该电影候选同名且上映日期相同，但快照未提供分集结构或版本说明，无法据此承接 Bangumi 的 5 话结构。\n\n备注：逐集对应仍需补充 Bangumi 各话标题、放送日期或可核实的分集内容。；候选未提供剧情、导演及编剧信息，无法进一步交叉核验；同名电影与 TV 版的具体关系也未说明。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/273364; https://www.themoviedb.org/tv/62576; https://www.themoviedb.org/movie/763861",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 62576
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 62576,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "bangumiId": 91573,
+  "episodes": [
+    {
+      "id": 353402,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 353403,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 353404,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 同名、动画媒介、年份、首播日期、3集总量及首尾集日期一致，支持对应 TMDB 112419 第1季，季表未显示混入其他作品。逐集仅映射日期与集号均一致的第1、3集；第2集日期冲突，暂留空。\n\nhttps://www.themoviedb.org/tv/112419 (api_snapshot): 候选为同名日本动画，首播日期为2014-02-04，第1季共3集，与 Bangumi 的年份、首播日期及本篇总数一致。第1、3集日期分别为2014-02-04、2014-02-25，双方一致；第2集候选日期为2014-02-11，Bangumi 为2014-02-18。\n\n备注：第2集放送日期相差一周，且 Bangumi 无集标题、TMDB 仅有通用集号标题，需核实播出记录后补充对应。；Bangumi 未提供剧情及动画制作方，无法与候选的 J.C.STAFF 制作信息交叉核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/91573; https://www.themoviedb.org/tv/112419",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112419
+    },
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 112419
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 112419,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

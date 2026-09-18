@@ -1,0 +1,81 @@
+{
+  "bangumiId": 668181,
+  "episodes": [
+    {
+      "id": 1721429,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1721430,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1721431,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1721432,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1721433,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1721434,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1721435,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1721436,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1721437,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1721438,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品名称、电视动画媒介、制作公司、集数及放送起止日期共同支持对应 TMDB 14636 第3季整季。两站季编号不同，不能按名称中的 Season 2 映射到 TMDB 第2季。季范围可以确认，逐集对应暂留空。\n\nhttps://www.themoviedb.org/tv/14636 (api_snapshot): TMDB 14636 为同名电视动画，制作公司 PorchLight Entertainment 与 Bangumi 一致；第3季共10集，首末集日期为2009-11-07和2010-01-30，均与 subject 的集数及放送起止日期吻合。第2季共13集，播出于2009年5月至8月，不符合本 subject。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 标题也仅为通用集号，无法逐集核对顺序；需补充章节标题或日期后再建立 rules。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/668181; https://www.themoviedb.org/tv/14636",
+    "verifiedAt": "2026-09-18T19:06:50.005Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 14636
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 14636,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}
