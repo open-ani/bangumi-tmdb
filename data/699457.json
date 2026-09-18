@@ -1,0 +1,41 @@
+{
+  "bangumiId": 699457,
+  "episodes": [
+    {
+      "id": 1743448,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1743449,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 确认对应 TMDB 83002 第 4 季整季，两部 45 分钟剧情特别篇的年份、导演、标题、剧情及总量均吻合。Bangumi 两个章节均无标题和日期，无法独立核实章节 ID 的逐集归属，因此仅提交已确认的整季范围，暂不按位置生成 rules。\n\nhttps://bgm.tv/subject/699457 (page): Bangumi 标明第四季、2021 年、共 2 话，导演为 Ehud Landsberg；简介分别描述《The Immobilizers》的星球时间冻结事件和《The Perfect Decepticon》的 Tarn 入侵事件。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): TMDB 83002 为《Transformers: Cyberverse》，制作公司包括 Hasbro Studios、Boulder Media；全剧四季，第四季为 2021 年的 2 集。\n\nhttps://www.themoviedb.org/tv/83002/season/4 (api_snapshot): 第四季完整集表仅一页：第 1 集《The Immobilizers》，2021-11-22，45 分钟；第 2 集《The Perfect Decepticon》，2021-12-22，45 分钟。两集剧情分别与 Bangumi 简介吻合，整季没有混入其他作品。\n\nhttps://en.wikipedia.org/wiki/List_of_Transformers:_Cyberverse_episodes (page): 第四季集表确认两集标题、顺序、导演 Ehud Landsberg 及 TMDB 所列日期；注释另记第一集于 2021-11-06 首次上线，解释了 Bangumi 开始日期与 TMDB 的差异。\n\n备注：章节 1743448、1743449 缺少标题及放送日期；需补充章节资料后，才能严格确认其分别对应 S04E01、S04E02。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/699457; https://www.themoviedb.org/tv/83002; https://www.themoviedb.org/tv/83002/season/4; https://en.wikipedia.org/wiki/List_of_Transformers:_Cyberverse_episodes",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 83002
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 83002,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

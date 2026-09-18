@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介及完整季表的总集数一致，可确认对应 TMDB 99789 第 1 季整季。Bangumi 逐集标题和日期均为空，无法核实逐集顺序，因此仅确认作品与季范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/99789 (api_snapshot): 候选 99789 的原名为 High Guardian Spice，首播日期为 2021-10-26，与 Bangumi 一致；类型包含动画，唯一第 1 季共 12 集，与 subject 的 12 话范围一致。季表完整列出第 1—12 集，放送日期均为 2021-10-26。\n\n备注：需补充 Bangumi 各集标题或放送资料，再建立逐集对应；候选的通用集名及同日放送日期不足以独立确认顺序。；候选未提供剧情简介，Bangumi 未提供制作公司，无法对这两项交叉核验。",
+    "evidence": "codex: 名称、首播日期、动画媒介及完整季表的总集数一致，可确认对应 TMDB 99789 第 1 季整季。Bangumi 逐集标题和日期均为空，无法核实逐集顺序，因此仅确认作品与季范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/99789 (api_snapshot): 候选 99789 的原名为 High Guardian Spice，首播日期为 2021-10-26，与 Bangumi 一致；类型包含动画，唯一第 1 季共 12 集，与 subject 的 12 话范围一致。季表完整列出第 1—12 集，放送日期均为 2021-10-26。\n\n备注：需补充 Bangumi 各集标题或放送资料，再建立逐集对应；候选的通用集名及同日放送日期不足以独立确认顺序。；候选未提供剧情简介，Bangumi 未提供制作公司，无法对这两项交叉核验。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/553637; https://www.themoviedb.org/tv/99789",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 99789
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

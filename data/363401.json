@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、年份、首播日期、集数、制作方及前作时间相互吻合，可确认对应 TMDB 92365 第3季整季。Bangumi 各集标题及日期均为空，无法完成逐集交叉核验，因此暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/92365 (api_snapshot): 候选 92365 第3季于2022-01-25开播，共12集，与 Bangumi 的季度、开播日期及话数一致；其第2季开播日期2019-08-17也与 Bangumi 前作关系一致。制作公司 Thundray 对应疾霆。第3季季表完整列出12集，日期为2022-01-25至2022-04-12，每周二播出，与 Bangumi 标注的播出星期一致。\n\n备注：TMDB 集标题均为通用编号，Bangumi 缺少逐集标题与日期；需补充 Bangumi 逐集资料后才能确认逐集对应，不能仅凭位置生成规则。",
+    "evidence": "codex: 季度、年份、首播日期、集数、制作方及前作时间相互吻合，可确认对应 TMDB 92365 第3季整季。Bangumi 各集标题及日期均为空，无法完成逐集交叉核验，因此暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/92365 (api_snapshot): 候选 92365 第3季于2022-01-25开播，共12集，与 Bangumi 的季度、开播日期及话数一致；其第2季开播日期2019-08-17也与 Bangumi 前作关系一致。制作公司 Thundray 对应疾霆。第3季季表完整列出12集，日期为2022-01-25至2022-04-12，每周二播出，与 Bangumi 标注的播出星期一致。\n\n备注：TMDB 集标题均为通用编号，Bangumi 缺少逐集标题与日期；需补充 Bangumi 逐集资料后才能确认逐集对应，不能仅凭位置生成规则。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/363401; https://www.themoviedb.org/tv/92365",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 92365
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

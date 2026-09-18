@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、首播日期、集数、制作方及前作日期相互吻合，可以确认 subject 对应 TMDB 313908 第 2 季整季。Bangumi 各章节标题及放送日期均为空，无法逐集交叉核验，因此仅确认整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/313908 (api_snapshot): 候选为台湾动画《勇者動畫系列》，制作方包含台湾公共电视、大猫工作室及羊王创映，与 Bangumi 制作信息相符；系列首播日期 2021-07-04 与 Bangumi 前作日期一致。\n\nhttps://www.themoviedb.org/tv/313908 (api_snapshot): 第 2 季首播日期为 2025-08-23，共 6 集，与待核对 subject 的季度、首播日期及本篇集数一致。季表完整列出第 1—6 集，分别于 2025-08-23、2025-08-30、2025-09-06 每日播出两集。\n\n备注：逐集对应仍需补充 Bangumi 各章节的标题或放送日期；现有 TMDB 标题仅为通用集号，不能仅凭排列位置生成对应关系。",
+    "evidence": "codex: 季度、首播日期、集数、制作方及前作日期相互吻合，可以确认 subject 对应 TMDB 313908 第 2 季整季。Bangumi 各章节标题及放送日期均为空，无法逐集交叉核验，因此仅确认整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/313908 (api_snapshot): 候选为台湾动画《勇者動畫系列》，制作方包含台湾公共电视、大猫工作室及羊王创映，与 Bangumi 制作信息相符；系列首播日期 2021-07-04 与 Bangumi 前作日期一致。\n\nhttps://www.themoviedb.org/tv/313908 (api_snapshot): 第 2 季首播日期为 2025-08-23，共 6 集，与待核对 subject 的季度、首播日期及本篇集数一致。季表完整列出第 1—6 集，分别于 2025-08-23、2025-08-30、2025-09-06 每日播出两集。\n\n备注：逐集对应仍需补充 Bangumi 各章节的标题或放送日期；现有 TMDB 标题仅为通用集号，不能仅凭排列位置生成对应关系。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/506109; https://www.themoviedb.org/tv/313908",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 313908
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

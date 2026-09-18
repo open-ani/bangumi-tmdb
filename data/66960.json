@@ -31,12 +31,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、年份、短篇 TV 形式、5 集规模及播出月份共同支持对应 TMDB 261222 第 1 季全季。外部资料确认了制作人员及 NEO 的独立创作背景；Bangumi 简介疑似误植。作品与季范围可以确认，但 Bangumi 章节缺少逐集日期和有效标题，无法完成逐集交叉核验，因此暂不填写 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/261222 (api_snapshot): 以日文原名搜索得到 TV 261222；详情确认原名《天保水滸伝NEO》，2013 年作品，共 1 季 5 集。简介、制作公司和演职员字段为空。\n\nhttps://www.themoviedb.org/tv/261222/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1：共 5 集，标题依次为第1話至第5話，日期依次为 2013-03-01、03-08、03-15、03-22、03-29，无其他作品或特别篇混入。\n\nhttps://www.animatetimes.com/tag/details.php?id=14428 (page): 确认本作为千叶电视台节目内播出的短篇 TV 动画，2013-02-28 至 03-28 播出，全 5 话；演出为ナミキヒロシ，角色设计为田中琳，动画制作为勝鬨スタジオ，著作为东庄町。\n\nhttps://www.zck.or.jp/site/forum/1275.html (page): 东庄町长署名资料说明，NEO 是为地域宣传重新创作内容的动画，并非完整改编传统《天保水滸伝》故事，在千叶电视台分 5 次播出。\n\nhttps://ameblo.jp/hiro19660104/entry-12441369226.html (search_snippet): 东庄町观光导游会介绍剧情为女高中生东庄子通过护身符穿越，遇见笹川繁藏，与输入的大原幽学及农民互助故事不同。\n\n备注：TMDB 日期比外部资料所列播出期整体晚一天，原因未证实，不能沿用旧映射的时区解释。；TMDB 原始语言标为 zh，且缺少剧情和制作资料，存在元数据质量问题。；逐集映射仍需取得可靠的逐话播出记录或内容标识；目前不能仅凭双方均为 5 集推定顺序对应。",
+    "evidence": "codex: 原名、年份、短篇 TV 形式、5 集规模及播出月份共同支持对应 TMDB 261222 第 1 季全季。外部资料确认了制作人员及 NEO 的独立创作背景；Bangumi 简介疑似误植。作品与季范围可以确认，但 Bangumi 章节缺少逐集日期和有效标题，无法完成逐集交叉核验，因此暂不填写 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/261222 (api_snapshot): 以日文原名搜索得到 TV 261222；详情确认原名《天保水滸伝NEO》，2013 年作品，共 1 季 5 集。简介、制作公司和演职员字段为空。\n\nhttps://www.themoviedb.org/tv/261222/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1：共 5 集，标题依次为第1話至第5話，日期依次为 2013-03-01、03-08、03-15、03-22、03-29，无其他作品或特别篇混入。\n\nhttps://www.animatetimes.com/tag/details.php?id=14428 (page): 确认本作为千叶电视台节目内播出的短篇 TV 动画，2013-02-28 至 03-28 播出，全 5 话；演出为ナミキヒロシ，角色设计为田中琳，动画制作为勝鬨スタジオ，著作为东庄町。\n\nhttps://www.zck.or.jp/site/forum/1275.html (page): 东庄町长署名资料说明，NEO 是为地域宣传重新创作内容的动画，并非完整改编传统《天保水滸伝》故事，在千叶电视台分 5 次播出。\n\nhttps://ameblo.jp/hiro19660104/entry-12441369226.html (search_snippet): 东庄町观光导游会介绍剧情为女高中生东庄子通过护身符穿越，遇见笹川繁藏，与输入的大原幽学及农民互助故事不同。\n\n备注：TMDB 日期比外部资料所列播出期整体晚一天，原因未证实，不能沿用旧映射的时区解释。；TMDB 原始语言标为 zh，且缺少剧情和制作资料，存在元数据质量问题。；逐集映射仍需取得可靠的逐话播出记录或内容标识；目前不能仅凭双方均为 5 集推定顺序对应。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/66960; https://www.themoviedb.org/tv/261222; https://www.themoviedb.org/tv/261222/season/1; https://www.animatetimes.com/tag/details.php?id=14428; https://www.zck.or.jp/site/forum/1275.html; https://ameblo.jp/hiro19660104/entry-12441369226.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 261222
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

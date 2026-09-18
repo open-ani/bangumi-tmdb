@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及第 1 季整季范围可以确认。Bangumi 全部章节均缺少标题与放送日期，无法逐集交叉核对，因此仅确定整季归属，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/223409 (api_snapshot): 候选 TV 223409 的韩文原名、2023-03-29 首播日期及俊取得金属手环、与蓝警车共同冒险的剧情均与 subject 一致；制作方 SAMG Entertainment 与 Bangumi 所列 SAMG 官网相符。\n\nhttps://www.themoviedb.org/tv/223409 (api_snapshot): 第 1 季完整列出 26 集，放送范围为 2023-03-29 至 2023-09-13，与 subject 的集数及起止日期一致。第 2 季始于 2024-08-26，与 Bangumi 关联续作《메탈카드봇 S》的日期一致，支持本 subject 仅覆盖第 1 季。\n\n备注：TMDB 集标题均为通用集号，Bangumi 章节标题和日期全部为空；需补充可比对的逐集资料后才能建立连续规则，不能仅凭双方均有 26 集推定顺序一致。",
+    "evidence": "codex: 作品身份及第 1 季整季范围可以确认。Bangumi 全部章节均缺少标题与放送日期，无法逐集交叉核对，因此仅确定整季归属，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/223409 (api_snapshot): 候选 TV 223409 的韩文原名、2023-03-29 首播日期及俊取得金属手环、与蓝警车共同冒险的剧情均与 subject 一致；制作方 SAMG Entertainment 与 Bangumi 所列 SAMG 官网相符。\n\nhttps://www.themoviedb.org/tv/223409 (api_snapshot): 第 1 季完整列出 26 集，放送范围为 2023-03-29 至 2023-09-13，与 subject 的集数及起止日期一致。第 2 季始于 2024-08-26，与 Bangumi 关联续作《메탈카드봇 S》的日期一致，支持本 subject 仅覆盖第 1 季。\n\n备注：TMDB 集标题均为通用集号，Bangumi 章节标题和日期全部为空；需补充可比对的逐集资料后才能建立连续规则，不能仅凭双方均有 26 集推定顺序一致。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/522253; https://www.themoviedb.org/tv/223409",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 223409
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

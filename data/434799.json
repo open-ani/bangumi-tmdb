@@ -96,12 +96,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、具体剧情、制作公司、网络动画版本及18集范围相互吻合，确认对应TMDB 256818第1季整季，季表未混入其他作品。输入的Bangumi章节标题和日期全部为空，无法完成逐集内容或日期比对，因此保留作品及季范围映射，不凭编号顺序填写rules。\n\nhttps://www.themoviedb.org/tv/256818 (api_snapshot): TMDB 详情确认《天庭板砖侠》为2024年中文作品，剧情涉及李季、闇麒麟、魄念空间及重建天庭；制作公司包括爱奇艺、唐麟文化、大神互娱，与输入资料吻合。共1季18集，crew为空。\n\nhttps://www.themoviedb.org/tv/256818/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共18集，编号连续为1至18，均为同一剧情动画的正篇。第1、2集日期为2024-06-05，第3集为2024-06-12，其后每周更新至第18集2024-09-25。\n\nhttps://www.iq.com/album/天庭板砖侠-2024-1lvwzk4xuz9?lang=zh_cn (page): 爱奇艺官方专辑标明2024年、18集全，剧情与输入一致；列表明确列出正片第1至18集，并将预告单独标识。\n\nhttps://home.gamer.com.tw/artwork.php?sn=5949515 (search_snippet): 2024-06-12发布的开播报道记载当天首播、首更3集、全18集，出品方为爱奇艺、大神互娱、唐麟文化；与TMDB前两集的日期存在冲突。\n\n备注：TMDB前两集日期比Bangumi首播及开播报道早7天，差异原因未获证实，不能认定为平台上线批次差异。；逐集映射需补充Bangumi章节标题、日期或可验证的章节内容；当前18个章节均未建立逐集规则。；TMDB未提供导演、编剧等人员信息，人员层面只能核对制作公司。",
+    "evidence": "codex: 作品年份、具体剧情、制作公司、网络动画版本及18集范围相互吻合，确认对应TMDB 256818第1季整季，季表未混入其他作品。输入的Bangumi章节标题和日期全部为空，无法完成逐集内容或日期比对，因此保留作品及季范围映射，不凭编号顺序填写rules。\n\nhttps://www.themoviedb.org/tv/256818 (api_snapshot): TMDB 详情确认《天庭板砖侠》为2024年中文作品，剧情涉及李季、闇麒麟、魄念空间及重建天庭；制作公司包括爱奇艺、唐麟文化、大神互娱，与输入资料吻合。共1季18集，crew为空。\n\nhttps://www.themoviedb.org/tv/256818/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共18集，编号连续为1至18，均为同一剧情动画的正篇。第1、2集日期为2024-06-05，第3集为2024-06-12，其后每周更新至第18集2024-09-25。\n\nhttps://www.iq.com/album/天庭板砖侠-2024-1lvwzk4xuz9?lang=zh_cn (page): 爱奇艺官方专辑标明2024年、18集全，剧情与输入一致；列表明确列出正片第1至18集，并将预告单独标识。\n\nhttps://home.gamer.com.tw/artwork.php?sn=5949515 (search_snippet): 2024-06-12发布的开播报道记载当天首播、首更3集、全18集，出品方为爱奇艺、大神互娱、唐麟文化；与TMDB前两集的日期存在冲突。\n\n备注：TMDB前两集日期比Bangumi首播及开播报道早7天，差异原因未获证实，不能认定为平台上线批次差异。；逐集映射需补充Bangumi章节标题、日期或可验证的章节内容；当前18个章节均未建立逐集规则。；TMDB未提供导演、编剧等人员信息，人员层面只能核对制作公司。\n\n脚本按声明范围生成逐集规则：18 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/434799; https://www.themoviedb.org/tv/256818; https://www.themoviedb.org/tv/256818/season/1; https://www.iq.com/album/天庭板砖侠-2024-1lvwzk4xuz9?lang=zh_cn; https://home.gamer.com.tw/artwork.php?sn=5949515",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 256818
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

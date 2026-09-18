@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画媒介、首播日期、第一季集数及关联第二季日期共同支持对应 TMDB 194989 第1季，季表未见混入其他作品。可确认整季范围；逐集信息不足，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/194989 (api_snapshot): 候选为中国动画《D5小队》，首播日期为2019-03-08；第1季共13集，与该 subject 的首播日期和本篇集数一致。第2季于2021-01-01首播，也与 Bangumi 关联的《D5小队 第二季》日期一致，支持该 subject 对应第1季。\n\n备注：Bangumi 全部章节缺少标题和放送日期；TMDB 仅有通用集号标题，且第6至13集日期缺失，不能仅按位置建立逐集对应。；候选未提供剧情简介或制作方信息，无法交叉核对第五人格题材及林森的制作信息。",
+    "evidence": "codex: 名称、动画媒介、首播日期、第一季集数及关联第二季日期共同支持对应 TMDB 194989 第1季，季表未见混入其他作品。可确认整季范围；逐集信息不足，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/194989 (api_snapshot): 候选为中国动画《D5小队》，首播日期为2019-03-08；第1季共13集，与该 subject 的首播日期和本篇集数一致。第2季于2021-01-01首播，也与 Bangumi 关联的《D5小队 第二季》日期一致，支持该 subject 对应第1季。\n\n备注：Bangumi 全部章节缺少标题和放送日期；TMDB 仅有通用集号标题，且第6至13集日期缺失，不能仅按位置建立逐集对应。；候选未提供剧情简介或制作方信息，无法交叉核对第五人格题材及林森的制作信息。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/332188; https://www.themoviedb.org/tv/194989",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 194989
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

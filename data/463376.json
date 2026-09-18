@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、TV媒介、第19季首播日期、22集总量及前后季信息一致，可确认对应 TMDB 1433 第19季整季。Bangumi 各章节标题和日期均为空，无法逐集交叉核实顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为美国动画剧集 American Dad!；第19季首播于2022-01-24，共22集，与 Bangumi 的作品名、TV媒介、首播日期及本篇集数一致。候选逐集表完整列出该季第1至22集，播出日期为2022-01-24至2022-12-19。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 第18季和第20季首播日期分别为2021-04-19、2023-03-27，与 Bangumi 前后续关联条目的季号及日期一致，支持第19季的范围判定。\n\n备注：Bangumi 缺少逐集标题及放送日期；需补充这些信息后才能确认章节对应，不能仅按 sort 顺序映射。；Bangumi 简介及制作信息为空，无法对剧情与制作方进行交叉核对。",
+    "evidence": "codex: 作品名称、TV媒介、第19季首播日期、22集总量及前后季信息一致，可确认对应 TMDB 1433 第19季整季。Bangumi 各章节标题和日期均为空，无法逐集交叉核实顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为美国动画剧集 American Dad!；第19季首播于2022-01-24，共22集，与 Bangumi 的作品名、TV媒介、首播日期及本篇集数一致。候选逐集表完整列出该季第1至22集，播出日期为2022-01-24至2022-12-19。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 第18季和第20季首播日期分别为2021-04-19、2023-03-27，与 Bangumi 前后续关联条目的季号及日期一致，支持第19季的范围判定。\n\n备注：Bangumi 缺少逐集标题及放送日期；需补充这些信息后才能确认章节对应，不能仅按 sort 顺序映射。；Bangumi 简介及制作信息为空，无法对剧情与制作方进行交叉核对。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/463376; https://www.themoviedb.org/tv/1433",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 19,
+      "start": 1,
+      "tmdbId": 1433
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

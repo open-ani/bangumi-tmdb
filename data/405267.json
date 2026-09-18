@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 重新查询确认该 subject 对应 TMDB 217470 第一季全季。首播日期、13话总量、剧情、制作方及配音资料相互吻合，官方资料同时核实了导演与版本。Bangumi 所给章节均缺少标题和播出日期，无法完成逐章交叉比对，因此仅确认作品及整季范围，不凭编号生成逐集规则。\n\nhttps://bangumi.tv/subject/405267 (search_snippet): Bangumi 条目为2023年1月2日开播的13话 WEB 动画；导演常煜卿、动画制作一间宇宙，出品方含吾皇猫与 bilibili。\n\nhttps://www.bilibili.com/bangumi/media/md28339927/ (search_snippet): bilibili 官方资料的导演、编剧、出品人与 Bangumi 一致；剧情为漫画家少年收养皇皇和巴扎黑。正片前六话标题与 TMDB 第一季逐一一致，预告及音乐录像单独列出。\n\nhttps://www.bilibili.com/bangumi/media/md28339927/ (page): bilibili 官方作品页确认2023年1月2日开播，已完结，全13话。\n\nhttps://www.themoviedb.org/tv/217470 (api_snapshot): TMDB 217470 原名《关喵什么事》，首播2023年1月2日，共1季13集；剧情、bilibili 制作公司以及张恩泽配音皇皇／老爹均与官方资料相符。\n\nhttps://www.themoviedb.org/tv/217470/season/1 (api_snapshot): 第一季实际集表共13集，total_pages=1，编号1至13；首两集日期均为2023年1月2日，第13集为2023年3月20日。集表属于同一部短篇剧情动画，没有混入预告、音乐录像或其他作品。\n\n备注：逐集对应尚未确认：需补充 Bangumi 章节标题或播出日期，并与官方完整集表、TMDB 集表逐一核对后再生成 rules。",
+    "evidence": "codex: 重新查询确认该 subject 对应 TMDB 217470 第一季全季。首播日期、13话总量、剧情、制作方及配音资料相互吻合，官方资料同时核实了导演与版本。Bangumi 所给章节均缺少标题和播出日期，无法完成逐章交叉比对，因此仅确认作品及整季范围，不凭编号生成逐集规则。\n\nhttps://bangumi.tv/subject/405267 (search_snippet): Bangumi 条目为2023年1月2日开播的13话 WEB 动画；导演常煜卿、动画制作一间宇宙，出品方含吾皇猫与 bilibili。\n\nhttps://www.bilibili.com/bangumi/media/md28339927/ (search_snippet): bilibili 官方资料的导演、编剧、出品人与 Bangumi 一致；剧情为漫画家少年收养皇皇和巴扎黑。正片前六话标题与 TMDB 第一季逐一一致，预告及音乐录像单独列出。\n\nhttps://www.bilibili.com/bangumi/media/md28339927/ (page): bilibili 官方作品页确认2023年1月2日开播，已完结，全13话。\n\nhttps://www.themoviedb.org/tv/217470 (api_snapshot): TMDB 217470 原名《关喵什么事》，首播2023年1月2日，共1季13集；剧情、bilibili 制作公司以及张恩泽配音皇皇／老爹均与官方资料相符。\n\nhttps://www.themoviedb.org/tv/217470/season/1 (api_snapshot): 第一季实际集表共13集，total_pages=1，编号1至13；首两集日期均为2023年1月2日，第13集为2023年3月20日。集表属于同一部短篇剧情动画，没有混入预告、音乐录像或其他作品。\n\n备注：逐集对应尚未确认：需补充 Bangumi 章节标题或播出日期，并与官方完整集表、TMDB 集表逐一核对后再生成 rules。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/405267; https://bangumi.tv/subject/405267; https://www.bilibili.com/bangumi/media/md28339927/; https://www.themoviedb.org/tv/217470; https://www.themoviedb.org/tv/217470/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 217470
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

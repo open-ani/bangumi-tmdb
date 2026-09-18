@@ -1,14 +1,30 @@
 {
   "anidbId": 3120,
   "bangumiId": 37065,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 157231,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1342453,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1342454,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2006 年发售的《カレイドスター ぐっどだよ! ぐぅーっど!》OVA，共 3 个短篇；其标题、别名、日期和三个短篇标题与官方 GONZO 资料一致。AniDB 3120 对应同名作品。TMDB TV 12501 的特别篇 season 0 中，第 3 集标题正是《カレイドスター ぐっどだよ! ぐぅーっど!》，日期为 2006-09-27；第 1、2 集分别是另外两部 Kaleido Star 特别篇，因此只应映射到 season 0 episode 3。\n\nhttps://bangumi.tv/subject/37065 (page): Bangumi 条目标为该 OVA，发售日为 2006-09-27，共列出三个正片短篇，并标注为 OVA。\n\nhttps://anidb.net/anime/3120 (page): AniDB 3120 页面对应《Kaleido Star: Good Da yo! Goood!!》。\n\nhttps://www.gonzo.co.jp/archives/kaleido-star/kaleido/news.html (page): GONZO 官方资料确认该作品于 2006-09-27 发售，收录三个短篇，且为 3DCG 形式的衍生短篇作品。\n\nhttps://www.themoviedb.org/tv/12501 (api_snapshot): TMDB TV 12501 为《カレイドスター》，包含 season 0 特别篇，共 3 集。\n\nhttps://www.themoviedb.org/tv/12501/season/0 (api_snapshot): TMDB season 0 第 3 集标题为《カレイドスター ぐっどだよ! ぐぅーっど!》，日期为 2006-09-27；第 1、2 集为其他 Kaleido Star 特别篇。",
+    "evidence": "codex: 确认本 subject 对应 TMDB 12501 第 0 季第 3 集。官方收录内容、制作信息、版本及发行日期相符。Bangumi 将同一部 OVA 的三个短篇分别列为章节，TMDB 则合并记录为一集；因此保留作品范围映射，不为任一短篇单独指派整部 OVA，也不生成重复占用同一 TMDB 集的逐集映射。\n\nhttps://www.gonzo.co.jp/archives/kaleido-star/kaleido/news.html (page): GONZO 官方公告确认这是 GONZO 数字团队制作的三维 Q 版喜剧短篇 OVA，收录的三个短篇标题与输入章节逐一一致；佐藤顺一参与总监修。C70 先行版于 2006 年 8 月发售，普通版发行及电视播出日期为 2006-09-27，解释了两站日期差异。\n\nhttps://www.themoviedb.org/tv/12501 (api_snapshot): 实际读取 TMDB 12501 详情，确认为 2003 年开始的《カレイドスター》，制作公司为 GONZO，包含另列的第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/12501/season/0 (api_snapshot): 实际读取第 0 季完整集表，共 3 集、1 页。第 3 集为《カレイドスター ぐっどだよ! ぐぅーっど!》，日期 2006-09-27、时长 25 分钟；第 1、2 集分别为 EXTRA STAGE 和 Legend of phoenix，均属于其他 OVA。\n\n备注：当前 Schema 无法表达三个 Bangumi 章节共同组成一个 TMDB 集的多对一关系，三个章节的 rules 和 overrides 均留空。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/37065; https://bangumi.tv/subject/37065; https://anidb.net/anime/3120; https://www.gonzo.co.jp/archives/kaleido-star/kaleido/news.html; https://www.themoviedb.org/tv/12501; https://www.themoviedb.org/tv/12501/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/37065; https://www.gonzo.co.jp/archives/kaleido-star/kaleido/news.html; https://www.themoviedb.org/tv/12501; https://www.themoviedb.org/tv/12501/season/0",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
   "rules": [],
   "schemaVersion": 1,

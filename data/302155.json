@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、季次、制作公司、动画媒介、开播年份及52集规模共同支持对应 TMDB 79888 第3季整季。Bangumi 的放送开始仅明确到2020年，不能把条目日期中的01-01当作精确首播日。季范围可以确认，但逐集对应缺乏证据，因此不生成规则。\n\nhttps://www.themoviedb.org/tv/79888 (api_snapshot): 候选 Simon（79888）为法国动画系列，制作公司为 GO-N Productions；第3季共52集，放送日期为2020-12-16至2021-06-19，与 Bangumi 标注的第三季、2020年开播、52集及制作公司一致。候选逐集标题均为“第N話”，没有可核对的实质标题。\n\n备注：Bangumi 全部章节均缺少标题及放送日期，TMDB 标题也仅为集号占位，无法验证逐集顺序；52个章节暂不映射，需补充实际标题或逐集放送日期后核对。",
+    "evidence": "codex: 名称、季次、制作公司、动画媒介、开播年份及52集规模共同支持对应 TMDB 79888 第3季整季。Bangumi 的放送开始仅明确到2020年，不能把条目日期中的01-01当作精确首播日。季范围可以确认，但逐集对应缺乏证据，因此不生成规则。\n\nhttps://www.themoviedb.org/tv/79888 (api_snapshot): 候选 Simon（79888）为法国动画系列，制作公司为 GO-N Productions；第3季共52集，放送日期为2020-12-16至2021-06-19，与 Bangumi 标注的第三季、2020年开播、52集及制作公司一致。候选逐集标题均为“第N話”，没有可核对的实质标题。\n\n备注：Bangumi 全部章节均缺少标题及放送日期，TMDB 标题也仅为集号占位，无法验证逐集顺序；52个章节暂不映射，需补充实际标题或逐集放送日期后核对。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302155; https://www.themoviedb.org/tv/79888",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 79888
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

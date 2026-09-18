@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、制作公司、媒介、上线日期、季序及13集范围相符，可确认对应 TMDB 78173 第四季整季。外部集表与 TMDB 一致，但 Bangumi 各章节缺少标题和日期，无法逐章交叉核对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/552110 (page): Bangumi 标明本作为 DreamWorks Animation 制作的 Netflix WEB 动画第四季，共13话，2017年2月17日开始放送，前后关联分别为第三季和第五季。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): TMDB 78173 是2015—2018年的《Dragons: Race to the Edge》，由 DreamWorks Animation Television 制作，讲述小嗝嗝、无牙仔与龙骑士探索龙眼秘密的冒险，共6季78集；第四季日期与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/78173/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，共13集，全部日期为2017年2月17日；首集为 Defenders of the Wing (2)，末两集为 Shell Shocked (1) 和 (2)。\n\nhttps://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-4/1030584970/ (page): TV Guide 的第四季13集列表与 TMDB 逐集标题、顺序及上线日期一致，并确认其为 Netflix 动画冒险系列。\n\n备注：Bangumi 第1—13话均无标题及日期；需补充章节资料后才能确认逐集对应，不能仅按位置填入。；seed 的 IMDb tt3843566 与 TMDB 详情返回的 tt4816058 不同，本次未采用该外部编号作为匹配依据。",
+    "evidence": "codex: 作品版本、制作公司、媒介、上线日期、季序及13集范围相符，可确认对应 TMDB 78173 第四季整季。外部集表与 TMDB 一致，但 Bangumi 各章节缺少标题和日期，无法逐章交叉核对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/552110 (page): Bangumi 标明本作为 DreamWorks Animation 制作的 Netflix WEB 动画第四季，共13话，2017年2月17日开始放送，前后关联分别为第三季和第五季。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): TMDB 78173 是2015—2018年的《Dragons: Race to the Edge》，由 DreamWorks Animation Television 制作，讲述小嗝嗝、无牙仔与龙骑士探索龙眼秘密的冒险，共6季78集；第四季日期与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/78173/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，共13集，全部日期为2017年2月17日；首集为 Defenders of the Wing (2)，末两集为 Shell Shocked (1) 和 (2)。\n\nhttps://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-4/1030584970/ (page): TV Guide 的第四季13集列表与 TMDB 逐集标题、顺序及上线日期一致，并确认其为 Netflix 动画冒险系列。\n\n备注：Bangumi 第1—13话均无标题及日期；需补充章节资料后才能确认逐集对应，不能仅按位置填入。；seed 的 IMDb tt3843566 与 TMDB 详情返回的 tt4816058 不同，本次未采用该外部编号作为匹配依据。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552110; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/4; https://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-4/1030584970/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 78173
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

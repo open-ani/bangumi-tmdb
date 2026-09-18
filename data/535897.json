@@ -240,20 +240,25 @@
       "id": 1745635,
       "sort": 48,
       "type": 0
+    },
+    {
+      "id": 1747741,
+      "sort": 49,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "脚本按放送日期识别作品：以「うごく！ねこむかしばなし」「会动的！从前从前有只猫 世界喵童话」「Ugoku! Neko Mukashibanashi」「Ugoku! Neko Mukashi Banashi, Move! Cat Folktales」「從前從前有隻貓！世界喵童話」搜索得到 1 个 TV、0 个电影候选；tv/297743「うごく！ねこむかしばなし」第 1 季第 1–48 集与 48 个本篇章节逐一对应，48 对日期全部在 ±1 天内；其他候选没有吻合的集序列。",
-    "method": "deterministic",
-    "source": "https://bgm.tv/subject/535897; https://www.themoviedb.org/tv/297743",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "evidence": "codex: 作品年份、制作人员、角色声优、剧情和网络配信版本相符；49个本篇章节与TMDB第1季前49集的集号及日期逐一一致，可将旧映射扩展至第49集。季表另有第50集，因此声明已核实的1—49集区间。\n\nhttps://neko-mukashibanashi.com/ (page): 官网剧情为猫参与经典童话与传说的喜剧，原作为ぱんだにあ，导演为のなかかずみ，动画制作为スタジオコメット；公布每周三在 YouTube 配信，与输入的剧情、制作人员和 WEB 版本一致。\n\nhttps://www.themoviedb.org/tv/297743 (api_snapshot): TMDB 297743 的日文原名、2025-10-15 首播日期、导演、Studio Comet 制作公司及四名主要声优均与官网和输入吻合；实际列有第1季，共50集。\n\nhttps://www.themoviedb.org/tv/297743/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。第1至49集的播出日期与输入49个本篇章节逐一完全一致，范围为2025-10-15至2026-09-16；标题均为通用的“第N話”。第50集日期为2026-09-23，输入没有对应章节。\n\n备注：TMDB各集仅有通用编号标题，无法独立核对具体故事标题；逐集对应依据为已确认的作品身份、集号及49组完全一致的播出日期。；作品仍在连载，本次映射仅覆盖输入的49个章节，不代表最终总集数。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/535897; https://neko-mukashibanashi.com/; https://www.themoviedb.org/tv/297743; https://www.themoviedb.org/tv/297743/season/1",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 48,
+      "end": 49,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -264,7 +269,7 @@
   "targets": [
     {
       "episode": 1,
-      "episodeEnd": 48,
+      "episodeEnd": 49,
       "id": 297743,
       "season": 1,
       "type": "tv"

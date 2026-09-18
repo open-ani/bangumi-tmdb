@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 95599 第2季整季。版本、媒介、上线日期、10集范围及前后季结构一致，制作与剧情资料亦相互印证。Bangumi 单集标题和日期均为空，无法逐集交叉核验，因此只提交已确认的整季范围，不凭序号生成连续规则。\n\nhttps://bgm.tv/subject/335726 (page): Bangumi 标明本条目为第二季 WEB 动画，Netflix 播放，2020-06-12 开始，共10话，动画制作为 Studio MIR；前后关联分别为第一季、第三季。章节仅显示01至10，缺少标题。\n\nhttps://www.themoviedb.org/tv/95599 (api_snapshot): 以英文原名搜索后读取详情：TMDB 95599 为2020年的同名动画系列，由 DreamWorks Animation Television 制作，共3季30集；剧情为地下生活的女孩进入变异动物世界，主演与 Netflix 官方资料一致。第二季列为2020-06-12、10集。\n\nhttps://www.themoviedb.org/tv/95599/season/2 (api_snapshot): 实际读取第二季全部集表，total_pages=1，共10集，编号1至10，全部于2020-06-12发布、每集23分钟；首集为 Paw of the Jaguar，末集为 Heroes on Fire，季内均为连续剧情动画。\n\nhttps://www.netflix.com/title/80221553 (page): Netflix 官方页确认该作品为2020年电视动画，创作者为 Radford Sechrist，主演包括 Karen Fukuhara、Sydney Mikayla、Deon Cole；变异动物世界中的女孩冒险剧情与 TMDB 一致。\n\nhttps://www.awn.com/animationworld/dreamworks-animations-kipo-and-age-wonderbeasts-returns-season-2 (page): 2020-06-12发布的制作人访谈确认 DreamWorks 第二季10集于当天在 Netflix 全球上线；剧情承接第一季，围绕奇波营救父亲、掌握变异能力展开，吻合 TMDB 第二季内容。\n\n备注：逐集对应尚未确认；需补充 Bangumi 章节标题、日期或其他可识别内容，再与已读取的 TMDB 集表核对。",
+    "evidence": "codex: 已确认对应 TMDB 95599 第2季整季。版本、媒介、上线日期、10集范围及前后季结构一致，制作与剧情资料亦相互印证。Bangumi 单集标题和日期均为空，无法逐集交叉核验，因此只提交已确认的整季范围，不凭序号生成连续规则。\n\nhttps://bgm.tv/subject/335726 (page): Bangumi 标明本条目为第二季 WEB 动画，Netflix 播放，2020-06-12 开始，共10话，动画制作为 Studio MIR；前后关联分别为第一季、第三季。章节仅显示01至10，缺少标题。\n\nhttps://www.themoviedb.org/tv/95599 (api_snapshot): 以英文原名搜索后读取详情：TMDB 95599 为2020年的同名动画系列，由 DreamWorks Animation Television 制作，共3季30集；剧情为地下生活的女孩进入变异动物世界，主演与 Netflix 官方资料一致。第二季列为2020-06-12、10集。\n\nhttps://www.themoviedb.org/tv/95599/season/2 (api_snapshot): 实际读取第二季全部集表，total_pages=1，共10集，编号1至10，全部于2020-06-12发布、每集23分钟；首集为 Paw of the Jaguar，末集为 Heroes on Fire，季内均为连续剧情动画。\n\nhttps://www.netflix.com/title/80221553 (page): Netflix 官方页确认该作品为2020年电视动画，创作者为 Radford Sechrist，主演包括 Karen Fukuhara、Sydney Mikayla、Deon Cole；变异动物世界中的女孩冒险剧情与 TMDB 一致。\n\nhttps://www.awn.com/animationworld/dreamworks-animations-kipo-and-age-wonderbeasts-returns-season-2 (page): 2020-06-12发布的制作人访谈确认 DreamWorks 第二季10集于当天在 Netflix 全球上线；剧情承接第一季，围绕奇波营救父亲、掌握变异能力展开，吻合 TMDB 第二季内容。\n\n备注：逐集对应尚未确认；需补充 Bangumi 章节标题、日期或其他可识别内容，再与已读取的 TMDB 集表核对。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/335726; https://www.themoviedb.org/tv/95599; https://www.themoviedb.org/tv/95599/season/2; https://www.netflix.com/title/80221553; https://www.awn.com/animationworld/dreamworks-animations-kipo-and-age-wonderbeasts-returns-season-2",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 95599
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

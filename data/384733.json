@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、电视动画媒介、制作人员、第二部独有剧情及26集范围相互印证，确认对应TMDB 206215完整第2季。Bangumi章节均缺少标题和日期，无法逐章独立核对，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): TMDB 206215 为2017年中国电视动画《猪猪侠之超星萌宠》，共4季；导演陆锦明、编剧古志斌。第2季简介与待核对条目的外星人事件、铁拳虎交出心核等剧情一致。\n\nhttps://www.themoviedb.org/tv/206215/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，编号1至26；首集《孤独星人》，末集《星盟首席降临》。该季完整覆盖第二部，未发现混入其他部；季及各集日期均记为2017-07-04。\n\nhttps://www.bilibili.com/bangumi/media/md21117392 (page): 正版播放平台将《猪猪侠之超星萌宠2》列为2017年7月7日开播、全26话，与输入的年份、日期及集数一致。\n\nhttps://www.tvmao.com/drama/KFthX2Fu (page): 电视猫确认第二部为2017年26集电视动画，导演包含陆锦明、编剧包含古志斌，剧情与输入一致；列出的第21至26集标题与TMDB第2季对应集号一致。\n\n备注：TMDB记为2017-07-04，Bangumi及哔哩哔哩记为2017-07-07；日期差异原因尚未确认。；逐集规则留空；需补充Bangumi章节标题、放送日期或可验证的章节内容后再建立对应。",
+    "evidence": "codex: 年份、电视动画媒介、制作人员、第二部独有剧情及26集范围相互印证，确认对应TMDB 206215完整第2季。Bangumi章节均缺少标题和日期，无法逐章独立核对，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): TMDB 206215 为2017年中国电视动画《猪猪侠之超星萌宠》，共4季；导演陆锦明、编剧古志斌。第2季简介与待核对条目的外星人事件、铁拳虎交出心核等剧情一致。\n\nhttps://www.themoviedb.org/tv/206215/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，编号1至26；首集《孤独星人》，末集《星盟首席降临》。该季完整覆盖第二部，未发现混入其他部；季及各集日期均记为2017-07-04。\n\nhttps://www.bilibili.com/bangumi/media/md21117392 (page): 正版播放平台将《猪猪侠之超星萌宠2》列为2017年7月7日开播、全26话，与输入的年份、日期及集数一致。\n\nhttps://www.tvmao.com/drama/KFthX2Fu (page): 电视猫确认第二部为2017年26集电视动画，导演包含陆锦明、编剧包含古志斌，剧情与输入一致；列出的第21至26集标题与TMDB第2季对应集号一致。\n\n备注：TMDB记为2017-07-04，Bangumi及哔哩哔哩记为2017-07-07；日期差异原因尚未确认。；逐集规则留空；需补充Bangumi章节标题、放送日期或可验证的章节内容后再建立对应。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/384733; https://www.themoviedb.org/tv/206215; https://www.themoviedb.org/tv/206215/season/2; https://www.bilibili.com/bangumi/media/md21117392; https://www.tvmao.com/drama/KFthX2Fu",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 206215
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

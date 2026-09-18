@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、动画媒介、剧情、首播日期及集数共同支持对应 TV 231727 第 1 季。整季范围可以确认，但 Bangumi 各章节缺少标题和放送日期，无法逐集核验，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/231727 (api_snapshot): TV 231727 原名为 Wolf King，属于动画，首播日期为 2025-03-20；简介中普通青年发现自己是狼人及王位继承人的情节与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/231727 (api_snapshot): 第 1 季共 8 集，全部于 2025-03-20 播出，与 Bangumi 的开始日期及主体集数一致；第 2 季另有 8 集，于 2025-09-11 播出，不属于本 subject 范围。\n\n备注：Bangumi 8 个章节的标题与放送日期均为空，逐集对应关系留空，需补充章节数据后核对。；Bangumi 标注制作 Netflix，候选制作公司为 Lime Pictures；现有数据无法核实两者的具体制作或发行职责。",
+    "evidence": "codex: 原名、动画媒介、剧情、首播日期及集数共同支持对应 TV 231727 第 1 季。整季范围可以确认，但 Bangumi 各章节缺少标题和放送日期，无法逐集核验，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/231727 (api_snapshot): TV 231727 原名为 Wolf King，属于动画，首播日期为 2025-03-20；简介中普通青年发现自己是狼人及王位继承人的情节与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/231727 (api_snapshot): 第 1 季共 8 集，全部于 2025-03-20 播出，与 Bangumi 的开始日期及主体集数一致；第 2 季另有 8 集，于 2025-09-11 播出，不属于本 subject 范围。\n\n备注：Bangumi 8 个章节的标题与放送日期均为空，逐集对应关系留空，需补充章节数据后核对。；Bangumi 标注制作 Netflix，候选制作公司为 Lime Pictures；现有数据无法核实两者的具体制作或发行职责。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/546997; https://www.themoviedb.org/tv/231727",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 231727
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

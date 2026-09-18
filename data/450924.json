@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画类型、儿童题材、腾讯视频出品信息及完整季集数相互吻合，足以确认对应TMDB 234060第1季。Bangumi全部章节缺少标题和放送日期，无法逐集核对，因此仅确认整季范围，不按编号推定逐集规则。\n\nhttps://www.themoviedb.org/tv/234060 (api_snapshot): 候选为中国儿童动画《神奇图书馆》，首播日期为2023-08-25，制作公司包含Tencent Video，与Bangumi的名称、首播日期、儿童科普动画定位及腾讯视频出品信息一致。\n\nhttps://www.themoviedb.org/tv/234060 (api_snapshot): 候选仅列第1季，共20集，已抓取完整的第1—20集，与Bangumi主体20集的规模一致；候选集标题均为通用编号，放送日期为2023-08-25至2023-09-12。\n\n备注：逐集对应尚未确认：需补充Bangumi章节标题或放送日期，再与候选季表比对。；候选未提供剧情简介，无法独立核对具体剧情。",
+    "evidence": "codex: 名称、首播日期、动画类型、儿童题材、腾讯视频出品信息及完整季集数相互吻合，足以确认对应TMDB 234060第1季。Bangumi全部章节缺少标题和放送日期，无法逐集核对，因此仅确认整季范围，不按编号推定逐集规则。\n\nhttps://www.themoviedb.org/tv/234060 (api_snapshot): 候选为中国儿童动画《神奇图书馆》，首播日期为2023-08-25，制作公司包含Tencent Video，与Bangumi的名称、首播日期、儿童科普动画定位及腾讯视频出品信息一致。\n\nhttps://www.themoviedb.org/tv/234060 (api_snapshot): 候选仅列第1季，共20集，已抓取完整的第1—20集，与Bangumi主体20集的规模一致；候选集标题均为通用编号，放送日期为2023-08-25至2023-09-12。\n\n备注：逐集对应尚未确认：需补充Bangumi章节标题或放送日期，再与候选季表比对。；候选未提供剧情简介，无法独立核对具体剧情。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/450924; https://www.themoviedb.org/tv/234060",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 234060
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

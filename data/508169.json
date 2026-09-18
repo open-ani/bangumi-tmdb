@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、动画类型、主要制作方及40集规模共同支持对应 TMDB 281587 第1季。整季范围可以确认；Bangumi 各集标题和日期均为空，无法逐集交叉核对，因此暂不建立连续规则或逐集特例。\n\nhttps://www.themoviedb.org/tv/281587 (api_snapshot): 候选原名为《最强升级》，首播日期为2025-02-26，类型包含动画，制作公司包含腾讯视频、唐麟文化，与 Bangumi 的名称、首播日期及制作信息一致。候选仅列第1季，共40集，与 subject 本篇总量一致。\n\nhttps://www.themoviedb.org/tv/281587 (api_snapshot): 第1季列出第1—40集，标题均为通用集号，日期从2025-02-26至2025-11-26，按周三每周一集排列；与 Bangumi 信息框所写的周六、周日存在排期差异。\n\n备注：需补充 Bangumi 各集标题或实际播出日期，并核实双方排期差异后，才能确认逐集对应。；候选未提供剧情简介，无法独立核对赵放及游戏系统的剧情信息。",
+    "evidence": "codex: 原名、首播日期、动画类型、主要制作方及40集规模共同支持对应 TMDB 281587 第1季。整季范围可以确认；Bangumi 各集标题和日期均为空，无法逐集交叉核对，因此暂不建立连续规则或逐集特例。\n\nhttps://www.themoviedb.org/tv/281587 (api_snapshot): 候选原名为《最强升级》，首播日期为2025-02-26，类型包含动画，制作公司包含腾讯视频、唐麟文化，与 Bangumi 的名称、首播日期及制作信息一致。候选仅列第1季，共40集，与 subject 本篇总量一致。\n\nhttps://www.themoviedb.org/tv/281587 (api_snapshot): 第1季列出第1—40集，标题均为通用集号，日期从2025-02-26至2025-11-26，按周三每周一集排列；与 Bangumi 信息框所写的周六、周日存在排期差异。\n\n备注：需补充 Bangumi 各集标题或实际播出日期，并核实双方排期差异后，才能确认逐集对应。；候选未提供剧情简介，无法独立核对赵放及游戏系统的剧情信息。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/508169; https://www.themoviedb.org/tv/281587",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 281587
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

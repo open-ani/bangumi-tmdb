@@ -1,0 +1,48 @@
+{
+  "bangumiId": 575164,
+  "episodes": [
+    {
+      "id": 1545778,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1545779,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1545780,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 年份、三集标题、剧情、创作人员及播出顺序相互吻合，确认 Bangumi 本篇1至3对应 TMDB 291424 第1季第4至6集。该季还混有其他短篇，因此只映射此闭区间。\n\nhttps://blocksmag.com/inside-lego-ninjago-kais-monstrous-journey-with-the-creatives/ (page): 制作团队访谈确认本作是三集独立动画短篇，标题依次为牙齿森林、废墟、怪物女王，讲述凯向 Wyldfyre 回忆魔兽之地的经历；参与创作为 Matt Danner、Kevin Burke、Doc Wyatt，与输入一致。原定自2025年7月31日起每周发布，8月14日结束。\n\nhttps://www.themoviedb.org/tv/291424 (api_snapshot): 已读取 TMDB 291424 详情：这是2025年的《LEGO Ninjago: Legends》，编剧包括 Kevin Burke、Chris Wyatt；第1季名为 Monstrosity，共7集，需要按实际集表限定范围。\n\nhttps://www.themoviedb.org/tv/291424/season/1 (api_snapshot): 第1季完整集表共7集、1页。第4至6集依次为 The Forest of Teeth!、The Ruins!、Queen of Monsters!，日期为2025-07-31、2025-08-07、2025-08-15，剧情对应本作三集。第1至3集属于此前的 Monstrosity，第7集为 Back At It，均不纳入。\n\nhttps://ninjago.fandom.com/wiki/Kai%27s_Monstrous_Journey (search_snippet): 资料列出本作共三集，编剧与输入一致；三集标题和日期与 TMDB 第1季第4至6集一致，其中末集记为2025年8月15日。\n\nhttps://www.themoviedb.org/movie/1525907 (api_snapshot): 另有同名电影条目1525907，日期为2025-07-31、时长10分钟，简介及编剧相符，但没有逐集结构；本次采用已核实三集内容的 TV 范围。\n\n备注：末集 Bangumi 日期为2025-08-14，与制作团队公布的原定排期一致；TMDB及后续资料记为2025-08-15。存在一天的日期差异，但标题、剧情与三集范围一致，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/575164; https://blocksmag.com/inside-lego-ninjago-kais-monstrous-journey-with-the-creatives/; https://www.themoviedb.org/tv/291424; https://www.themoviedb.org/tv/291424/season/1; https://ninjago.fandom.com/wiki/Kai%27s_Monstrous_Journey; https://www.themoviedb.org/movie/1525907",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 291424
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 4,
+      "episodeEnd": 6,
+      "id": 291424,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

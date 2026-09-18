@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、制作方、第6季首播日期、集数及前后季时间关系一致，可确认对应 TMDB 223916 第6季整季。逐集缺乏可交叉核对的标题与日期，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选《肥志百科》的制作公司为深圳萌想文化传播有限公司，与 Bangumi 的出品方萌想文化相符；第6季共12集，首播日期为2022-07-30，与待核对条目一致。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 第6季12集放送日期为2022-07-30至2022-10-15，每周六一集；第5季与第7季的首播日期也分别与 Bangumi 前后作一致。第6季各集仅有编号标题，无法核对具体美食主题。\n\n备注：Bangumi 第62—73话均缺少放送日期，TMDB 第6季仅提供编号标题；不能仅凭排列位置确认这12话各自对应的TMDB集号，需要补充具体集标题或Bangumi逐集放送日期。",
+    "evidence": "codex: 作品、制作方、第6季首播日期、集数及前后季时间关系一致，可确认对应 TMDB 223916 第6季整季。逐集缺乏可交叉核对的标题与日期，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选《肥志百科》的制作公司为深圳萌想文化传播有限公司，与 Bangumi 的出品方萌想文化相符；第6季共12集，首播日期为2022-07-30，与待核对条目一致。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 第6季12集放送日期为2022-07-30至2022-10-15，每周六一集；第5季与第7季的首播日期也分别与 Bangumi 前后作一致。第6季各集仅有编号标题，无法核对具体美食主题。\n\n备注：Bangumi 第62—73话均缺少放送日期，TMDB 第6季仅提供编号标题；不能仅凭排列位置确认这12话各自对应的TMDB集号，需要补充具体集标题或Bangumi逐集放送日期。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/389538; https://www.themoviedb.org/tv/223916",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 73,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 62,
+      "tmdbId": 223916
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

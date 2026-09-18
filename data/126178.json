@@ -46,12 +46,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 综合日文原名、年份、全8话短篇系列结构及每话5分钟时长，确认对应TMDB 112859第1季整季。官方资料确认Bangumi所指的漫画改编WEB动画版本。逐集映射暂留空：Bangumi章节缺少标题和日期，TMDB也只有通用集名，且播出日期与官方公告冲突；旧映射所称八话剧情标题与TMDB逐集相符，本次实际季表无法支持。\n\nhttps://www.themoviedb.org/tv/112859 (api_snapshot): 日文原名搜索命中 TV 112859；详情确认原名一致、2015年、共1季8集。简介、制作公司及演职员字段为空，不能据此声称制作人员已在两站交叉核实。\n\nhttps://www.themoviedb.org/tv/112859/season/1 (api_snapshot): 第1季实际集表共8集，total_pages=1，每集5分钟；标题仅为“第1話”至“第8話”，简介为空，日期为2015-05-05至2015-06-23。\n\nhttps://www.aoi-pro.com/jp/news/20151026/10252/ (page): 制作方公告确认本作为雨川きゅう漫画改编的不条理喜剧WEB动画，松本慶祐导演、スティーブンスティーブン制作；2015-11-02起每周配信，全8话，每话约5分钟。\n\nhttps://www.b-ch.com/titles/5011/001 (page): 发行页面标明2015年WEB动画，将第1至8话合并为38分钟播放，并分别列出八话故事标题及剧情；这是全八话的发行包装。TMDB季表没有这些故事标题，无法进行内容层面的逐集核对。\n\n备注：TMDB记录的5月至6月播出日期与官方11月2日起配信的公告不一致，差异原因未查明。；当前只能确认作品及整季范围；需要TMDB补充可核验的各集标题、剧情或正确日期后，才能建立可靠的逐集规则。",
+    "evidence": "codex: 综合日文原名、年份、全8话短篇系列结构及每话5分钟时长，确认对应TMDB 112859第1季整季。官方资料确认Bangumi所指的漫画改编WEB动画版本。逐集映射暂留空：Bangumi章节缺少标题和日期，TMDB也只有通用集名，且播出日期与官方公告冲突；旧映射所称八话剧情标题与TMDB逐集相符，本次实际季表无法支持。\n\nhttps://www.themoviedb.org/tv/112859 (api_snapshot): 日文原名搜索命中 TV 112859；详情确认原名一致、2015年、共1季8集。简介、制作公司及演职员字段为空，不能据此声称制作人员已在两站交叉核实。\n\nhttps://www.themoviedb.org/tv/112859/season/1 (api_snapshot): 第1季实际集表共8集，total_pages=1，每集5分钟；标题仅为“第1話”至“第8話”，简介为空，日期为2015-05-05至2015-06-23。\n\nhttps://www.aoi-pro.com/jp/news/20151026/10252/ (page): 制作方公告确认本作为雨川きゅう漫画改编的不条理喜剧WEB动画，松本慶祐导演、スティーブンスティーブン制作；2015-11-02起每周配信，全8话，每话约5分钟。\n\nhttps://www.b-ch.com/titles/5011/001 (page): 发行页面标明2015年WEB动画，将第1至8话合并为38分钟播放，并分别列出八话故事标题及剧情；这是全八话的发行包装。TMDB季表没有这些故事标题，无法进行内容层面的逐集核对。\n\n备注：TMDB记录的5月至6月播出日期与官方11月2日起配信的公告不一致，差异原因未查明。；当前只能确认作品及整季范围；需要TMDB补充可核验的各集标题、剧情或正确日期后，才能建立可靠的逐集规则。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/126178; https://www.themoviedb.org/tv/112859; https://www.themoviedb.org/tv/112859/season/1; https://www.aoi-pro.com/jp/news/20151026/10252/; https://www.b-ch.com/titles/5011/001",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112859
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

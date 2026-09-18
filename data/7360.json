@@ -1,16 +1,41 @@
 {
   "anidbId": 4828,
   "bangumiId": 7360,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 43531,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 43532,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 43533,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB候选 44219 对应 2007 年日本动画《Winter Cicada／Fuyu no Semi／冬の蝉》，页面明确列为第1季、共3集，首播 2007-02-23，完结 2007-04-27；与本 subject 的3集OVA及江戸恋唄、蝦夷戦記、東京悲話内容一致，因此采用 BangumiExtLinker 的独立 TV 定位。未采用电影版本：电影条目是约90分钟的合集/特别编辑版，不能与本 subject 的3集OVA等同。\n\nhttps://otakira.com/en/anime/44219-winter-cicada/ (page): 页面直接标示 Winter Cicada 的 TMDB 关联编号为44219，并列出 Season 1、2007-02-23 首播、3 episodes。\n\nhttps://www.imdb.com/title/tt14330332/ (page): IMDb 将 Fuyu no Semi 列为2007年日本动画电视迷你剧，共3集、1季。\n\nhttps://anilist.co/anime/2238/Fuyu-no-Semi (page): AniList 将《Fuyu no Semi》列为OVA，集数3，英文名 Embracing Love: A Cicada in Winter，原名冬の蝉。\n\nhttps://www.justwatch.com/us/movie/embracing-love-a-cicada-in-winter (page): 另有约90分钟、标为2005年的电影/特别编辑版条目，说明存在合集版本，不能替代3集OVA定位。\n\n备注：TMDB候选285591的页面未能可靠抓取；现有证据不足以把它作为TMDB季号或范围证据。；部分数据库对第3集日期记为4月27日或6月22日，但不影响其为2007年3集OVA及44219第1季完整范围的判断。",
+    "evidence": "codex: 确认对应TMDB 44219第1季全3集。年份、OVA媒介、幕末剧情、制作人员及声优吻合；完整季表三话标题与Bangumi逐一对应，前两话日期一致，可建立本篇1—3到S01E01—E03的连续映射。第三话存在日期分歧，但标题、剧情及三话总量足以确认对应关系。\n\nhttps://www.themoviedb.org/tv/44219 (api_snapshot): TMDB 44219 为2007年《冬の蝉》，简介明确为幕末敌对阵营两名武士相爱的OVA；制作公司VENET、导演まつもとよしひさ、编剧中野睦及三位主要声优均与输入一致，共1季3集。\n\nhttps://www.themoviedb.org/tv/44219/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共3集。英文标题依次为江户恋歌、虾夷战记、东京悲话的对应译名，剧情顺序一致；前两集日期分别为2007-02-23、2007-03-23，与Bangumi一致；第三集记为2007-04-27。\n\nhttps://www.themoviedb.org/tv/285591 (api_snapshot): TMDB 285591 是2005年《春を抱いていた》，详情仅列第1季2集，未列第2季，不能支持提示中的第2季映射。\n\nhttps://www.themoviedb.org/movie/663684 (api_snapshot): 电影663684同名且剧情相关，但记录为2005-05-27发行、90分钟的电影，未提供本subject的三话结构；现有证据不足以确定其具体版本，不采用该条目。\n\nhttps://www.suruga-ya.jp/product/detail/128022932 (search_snippet): 骏河屋商品摘要将OVA《冬の蝉 3 ～東京悲話～》通常版DVD发行日列为2007-06-22，型号ASBY-3642，支持Bangumi第三话的发行日期。\n\n备注：第三话TMDB记为2007-04-27，Bangumi及通常版DVD商品资料记为2007-06-22；日期差异原因尚未确定。；电影663684的具体版本性质未获确认，不能沿用旧映射说明中将其断定为合集或特别编辑版的说法。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/7360; https://otakira.com/en/anime/44219-winter-cicada/; https://www.imdb.com/title/tt14330332/; https://anilist.co/anime/2238/Fuyu-no-Semi; https://www.justwatch.com/us/movie/embracing-love-a-cicada-in-winter",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/7360; https://www.themoviedb.org/tv/44219; https://www.themoviedb.org/tv/44219/season/1; https://www.themoviedb.org/tv/285591; https://www.themoviedb.org/movie/663684; https://www.suruga-ya.jp/product/detail/128022932",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44219
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -95,12 +95,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、中国动画媒介、出品方及18集的完整季规模共同支持对应TMDB 283802第1季。逐集日期存在首播双集与单集排期差异，且候选缺乏实质集标题，无法核实逐集顺序，因此仅确认整季范围，暂不生成逐集映射。\n\nhttps://www.themoviedb.org/tv/283802 (api_snapshot): 候选为中国动画《山神与小枣》，首播日期为2021-12-17，制作公司包含MangoTV，与Bangumi所列湖南快乐阳光出品信息相符；唯一第1季共18集，与subject本篇总数一致。\n\nhttps://www.themoviedb.org/tv/283802 (api_snapshot): 第1季只有通用集标题。TMDB记录每周一集，从2021-12-17至2022-04-15；Bangumi记录首日两集，随后每周一集，至2022-04-08结束。两侧第2至18集的同集号日期均相差一周。\n\n备注：候选未提供剧情简介，无法独立核对剧情。；需补充TMDB实质集标题、分集剧情或可靠的首播排期资料，确认日期差异原因及逐集对应；不能直接按集号顺延，也不能仅按相同日期错位配对。",
+    "evidence": "codex: 确认对应 TMDB 283802 第1季完整18集。剧情、首播日期、动画媒介、出品方及总集数相符；本次季表已提供实质标题，全部18话与 Bangumi 同序一致，足以建立逐集一对一映射。\n\nhttps://www.themoviedb.org/tv/283802 (api_snapshot): TMDB 283802 为《山神与小枣》，首播日期为2021-12-17；简介描述天煞孤星小枣与山神的故事，制作公司包括 MangoTV、Seven Stone Entertainment，共1季18集。年份、剧情及出品方与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/283802/season/1 (api_snapshot): 已读取第1季完整18集（total_pages=1）。当前全部集标题均与输入的 Bangumi 第1—18话逐一同序一致，包括第1集《我叫小枣》、第2集《我以后就住在山神庙里了！》及第18集《山神与小枣》。第1集日期相同，第2—18集日期均比 Bangumi 晚7天；标题和完整集数支持按同集号对应。\n\nhttps://www.mgtv.com/h/382603.html (page): 芒果TV官方页面将本作列为内地动漫、神话／恋爱／芒果出品，明确共18集且已更新至18集；简介与 Bangumi 所述小枣和贫穷山神的感情故事一致。\n\n备注：TMDB 第2—18集日期比 Bangumi 晚7天，完结日期分别为2022-04-15和2022-04-08；尚未查明排期差异原因。完整标题逐集一致，因此不按日期错位配对。；TMDB 未提供导演等制作人员信息，无法独立核对龚震华等署名。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/487686; https://www.themoviedb.org/tv/283802",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/487686; https://www.themoviedb.org/tv/283802; https://www.themoviedb.org/tv/283802/season/1; https://www.mgtv.com/h/382603.html",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283802
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

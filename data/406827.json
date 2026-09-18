@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品媒介、制作公司、角色剧情、季别、开播日期和20集总量相符，首集剧情提供了明确的版本识别依据，可确认对应 TMDB 1434 第20季整季。Bangumi 章节缺少标题及播出日期，无法逐集交叉核验，因此保留整季映射，暂不填写连续规则或章节特例。\n\nhttps://bgm.tv/subject/406827 (page): Bangumi 标明本作为《Family Guy》第二十季 TV 动画，共20话，2021年9月26日在 FOX 开播，制作方为20th Television Animation；剧情涉及 Lois 接受 LASIK 手术，以及 Peter、Chris、Stewie 陪 Doug 参加活动。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 1434 为美国动画系列 Family Guy，讲述 Griffin 一家的故事，制作公司包含20th Television Animation，主要配音包含 Seth MacFarlane、Alex Borstein；季列表中第20季为2021年开播的20集。\n\nhttps://www.themoviedb.org/tv/1434/season/20 (api_snapshot): 已读取第20季完整集表，total_pages=1，共20集，集号连续为1至20，播出日期为2021年9月26日至2022年5月22日。首集 LASIK Instinct 的两条剧情均与 Bangumi 简介吻合，末集为 The Jersey Bore。\n\n备注：Bangumi 提供的20个章节均无标题和播出日期；逐集对应尚未确认，需补充章节资料后再建立 rules。",
+    "evidence": "codex: 作品媒介、制作公司、角色剧情、季别、开播日期和20集总量相符，首集剧情提供了明确的版本识别依据，可确认对应 TMDB 1434 第20季整季。Bangumi 章节缺少标题及播出日期，无法逐集交叉核验，因此保留整季映射，暂不填写连续规则或章节特例。\n\nhttps://bgm.tv/subject/406827 (page): Bangumi 标明本作为《Family Guy》第二十季 TV 动画，共20话，2021年9月26日在 FOX 开播，制作方为20th Television Animation；剧情涉及 Lois 接受 LASIK 手术，以及 Peter、Chris、Stewie 陪 Doug 参加活动。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 1434 为美国动画系列 Family Guy，讲述 Griffin 一家的故事，制作公司包含20th Television Animation，主要配音包含 Seth MacFarlane、Alex Borstein；季列表中第20季为2021年开播的20集。\n\nhttps://www.themoviedb.org/tv/1434/season/20 (api_snapshot): 已读取第20季完整集表，total_pages=1，共20集，集号连续为1至20，播出日期为2021年9月26日至2022年5月22日。首集 LASIK Instinct 的两条剧情均与 Bangumi 简介吻合，末集为 The Jersey Bore。\n\n备注：Bangumi 提供的20个章节均无标题和播出日期；逐集对应尚未确认，需补充章节资料后再建立 rules。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/406827; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/20",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 20,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

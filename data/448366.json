@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品原名、动画剧集形式、发行日期和10集范围共同支持对应 TMDB 73021 第3季整季。双方季编号不同，应依据候选季表定位。Bangumi 逐集标题和日期均为空，无法独立核实逐集顺序，因此仅确认整季范围，不生成按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/73021 (api_snapshot): 候选原名为 Disenchantment，属于动画剧集；季表按20、20、10集划分为三季。第3季共10集，首播日期及全部10集的放送日期均为2023-09-01，与 Bangumi 本条目的开始日期和本篇总集数一致。\n\n备注：Bangumi 缺少剧情和制作方资料，无法交叉核对这些字段。；Bangumi 全部章节缺少标题和放送日期，TMDB 集标题也仅为通用集号；需补充具有辨识度的逐集资料后才能确认逐集对应关系。",
+    "evidence": "codex: 作品原名、动画剧集形式、发行日期和10集范围共同支持对应 TMDB 73021 第3季整季。双方季编号不同，应依据候选季表定位。Bangumi 逐集标题和日期均为空，无法独立核实逐集顺序，因此仅确认整季范围，不生成按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/73021 (api_snapshot): 候选原名为 Disenchantment，属于动画剧集；季表按20、20、10集划分为三季。第3季共10集，首播日期及全部10集的放送日期均为2023-09-01，与 Bangumi 本条目的开始日期和本篇总集数一致。\n\n备注：Bangumi 缺少剧情和制作方资料，无法交叉核对这些字段。；Bangumi 全部章节缺少标题和放送日期，TMDB 集标题也仅为通用集号；需补充具有辨识度的逐集资料后才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/448366; https://www.themoviedb.org/tv/73021",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 73021
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

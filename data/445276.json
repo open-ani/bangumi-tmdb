@@ -150,12 +150,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 102321第二季整季。制作公司、媒介、系列关联、29个短片的计数及首尾播出日期一致，季表没有混入其他季作品。Bangumi章节缺少标题和单集日期，无法核实每个sort的身份，因此仅确认季级范围，逐集规则留空。\n\nhttps://bangumi.tv/subject/445276 (page): Bangumi 标为 WEB 动画，共29话，播出范围为2021-07-08至2021-08-19；动画制作是 Warner Bros. Animation，执行制片人是 Sam Register，前后关联为本系列第一季与第三季。\n\nhttps://www.themoviedb.org/tv/102321 (api_snapshot): 英文原名搜索命中102321；详情确认这是2020-05-27首播、Warner Bros. Animation制作、以兔八哥和达菲鸭等角色为主的喜剧短篇动画系列。\n\nhttps://www.themoviedb.org/tv/102321/season/2 (api_snapshot): 第二季真实集表共29集，total_pages=1，已完整读取。第1—27集日期均为2021-07-08，第28集Test Pest和第29集Erase the Leash均为2021-08-19，与Bangumi话数及首尾日期一致。\n\nhttps://press.wbd.com/emea/ca/synopses/looney-tunes-cartoons-season-two-synopses?language_content_entity=en (search_snippet): 华纳官方第二季简介确认2021-07-08上线；合并节目第一集包含三个短片，其标题和剧情分别对应TMDB第二季第1—3集，说明TMDB采用短片拆分计数。\n\nhttps://thetvdb.com/series/looney-tunes-cartoons/seasons/official/2 (page): TVDB第二季的29个独立短片标题、顺序和日期与TMDB季表一致，支持29话口径；此来源仅作交叉核对。\n\nhttps://thetvdb.com/series/looney-tunes-cartoons/allseasons/alternate (search_snippet): 返校特别节目包含新短片Test Pest、新插段Erase the Leash以及重播的Buzzard School，解释了合并节目数量与29个独立新短片的计数差异。\n\n备注：Bangumi的29个章节均无标题及播出日期；集数相同不足以证明逐集顺序相同。需补充章节标题或其他直接对应证据后才能建立rules或overrides。",
+    "evidence": "codex: 确认对应TMDB 102321第二季整季。制作公司、媒介、系列关联、29个短片的计数及首尾播出日期一致，季表没有混入其他季作品。Bangumi章节缺少标题和单集日期，无法核实每个sort的身份，因此仅确认季级范围，逐集规则留空。\n\nhttps://bangumi.tv/subject/445276 (page): Bangumi 标为 WEB 动画，共29话，播出范围为2021-07-08至2021-08-19；动画制作是 Warner Bros. Animation，执行制片人是 Sam Register，前后关联为本系列第一季与第三季。\n\nhttps://www.themoviedb.org/tv/102321 (api_snapshot): 英文原名搜索命中102321；详情确认这是2020-05-27首播、Warner Bros. Animation制作、以兔八哥和达菲鸭等角色为主的喜剧短篇动画系列。\n\nhttps://www.themoviedb.org/tv/102321/season/2 (api_snapshot): 第二季真实集表共29集，total_pages=1，已完整读取。第1—27集日期均为2021-07-08，第28集Test Pest和第29集Erase the Leash均为2021-08-19，与Bangumi话数及首尾日期一致。\n\nhttps://press.wbd.com/emea/ca/synopses/looney-tunes-cartoons-season-two-synopses?language_content_entity=en (search_snippet): 华纳官方第二季简介确认2021-07-08上线；合并节目第一集包含三个短片，其标题和剧情分别对应TMDB第二季第1—3集，说明TMDB采用短片拆分计数。\n\nhttps://thetvdb.com/series/looney-tunes-cartoons/seasons/official/2 (page): TVDB第二季的29个独立短片标题、顺序和日期与TMDB季表一致，支持29话口径；此来源仅作交叉核对。\n\nhttps://thetvdb.com/series/looney-tunes-cartoons/allseasons/alternate (search_snippet): 返校特别节目包含新短片Test Pest、新插段Erase the Leash以及重播的Buzzard School，解释了合并节目数量与29个独立新短片的计数差异。\n\n备注：Bangumi的29个章节均无标题及播出日期；集数相同不足以证明逐集顺序相同。需补充章节标题或其他直接对应证据后才能建立rules或overrides。\n\n脚本按声明范围生成逐集规则：29 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/445276; https://bangumi.tv/subject/445276; https://www.themoviedb.org/tv/102321; https://www.themoviedb.org/tv/102321/season/2; https://press.wbd.com/emea/ca/synopses/looney-tunes-cartoons-season-two-synopses?language_content_entity=en; https://thetvdb.com/series/looney-tunes-cartoons/seasons/official/2; https://thetvdb.com/series/looney-tunes-cartoons/allseasons/alternate",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 29,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 102321
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

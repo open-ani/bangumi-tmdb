@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季编号、首播日期、集数及前作时间相互印证，可确认 subject 对应 TMDB 456 第37季整季。Bangumi 各章节标题和放送日期均为空，无法逐集核对，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 为动画剧集《The Simpsons》，第37季首播日期为2025-09-28，共15集，与 Bangumi 的季名、首播日期及本篇集数一致。第36季首播日期为2024-09-29，也与 Bangumi 前作关联一致。\n\n备注：Bangumi 未提供剧情及制作方，无法交叉核对这些信息。；TMDB 第37季标题均为集号占位文本；需补充 Bangumi 逐集标题或放送日期后，才能确认逐集对应关系。",
+    "evidence": "codex: 季编号、首播日期、集数及前作时间相互印证，可确认 subject 对应 TMDB 456 第37季整季。Bangumi 各章节标题和放送日期均为空，无法逐集核对，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 为动画剧集《The Simpsons》，第37季首播日期为2025-09-28，共15集，与 Bangumi 的季名、首播日期及本篇集数一致。第36季首播日期为2024-09-29，也与 Bangumi 前作关联一致。\n\n备注：Bangumi 未提供剧情及制作方，无法交叉核对这些信息。；TMDB 第37季标题均为集号占位文本；需补充 Bangumi 逐集标题或放送日期后，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/583581; https://www.themoviedb.org/tv/456",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 37,
+      "start": 1,
+      "tmdbId": 456
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

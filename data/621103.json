@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、动画剧集媒介、首播日期、制作公司和26集规模共同支持对应TMDB 225829第1季整季。逐集缺少可交叉核对的信息，因此仅确认作品与季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/225829 (api_snapshot): 候选为动画剧集《100% Wolf: The Book of Hath》，首播日期为2023-05-01，制作公司为Flying Bark Productions，均与Bangumi资料一致。\n\nhttps://www.themoviedb.org/tv/225829 (api_snapshot): 候选第1季共26集，季表完整列出第1至26集，放送日期为2023-05-01至2023-06-05，与Bangumi的26集主体范围及开播日期吻合。\n\n备注：Bangumi全部章节均无标题和放送日期，TMDB标题也仅为集号占位，无法确认逐集顺序；需补充可核对的章节标题或日期。；候选未提供剧情简介，无法独立核对剧情。",
+    "evidence": "codex: 作品名称、动画剧集媒介、首播日期、制作公司和26集规模共同支持对应TMDB 225829第1季整季。逐集缺少可交叉核对的信息，因此仅确认作品与季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/225829 (api_snapshot): 候选为动画剧集《100% Wolf: The Book of Hath》，首播日期为2023-05-01，制作公司为Flying Bark Productions，均与Bangumi资料一致。\n\nhttps://www.themoviedb.org/tv/225829 (api_snapshot): 候选第1季共26集，季表完整列出第1至26集，放送日期为2023-05-01至2023-06-05，与Bangumi的26集主体范围及开播日期吻合。\n\n备注：Bangumi全部章节均无标题和放送日期，TMDB标题也仅为集号占位，无法确认逐集顺序；需补充可核对的章节标题或日期。；候选未提供剧情简介，无法独立核对剧情。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/621103; https://www.themoviedb.org/tv/225829",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 225829
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

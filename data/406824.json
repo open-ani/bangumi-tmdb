@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应TMDB 1434《Family Guy》第18季整季：季次、首播日期、20集规模、TV动画媒介、播出电视台及制作公司一致，剧情和配音资料亦相符。Bangumi章节缺少标题及放送日期，无法逐集交叉核对，因此仅确定整季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/406824 (page): Bangumi 标明本作为 TV 动画《Family Guy (Season 18)》，共20话，2019年9月29日开播，FOX播出，制作公司为20th Century Fox Television；关联前后季为第17、19季。章节列表仅显示编号。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 使用英文原名 Family Guy 搜索后读取详情：TMDB 1434为描写Griffin一家生活的动画剧集，制作公司包括20th Century Fox Television，主要配音包括Seth MacFarlane、Alex Borstein、Mila Kunis和Seth Green；详情列有第18季20集。\n\nhttps://www.themoviedb.org/tv/1434/season/18 (api_snapshot): 实际读取第18季完整集表，total_pages=1，共20集，集号连续为1—20；第1集于2019-09-29播出，第20集于2020-05-17播出。该季内容为同一动画的常规剧情集，完整覆盖本subject的季级范围。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_18 (page): 第18季资料确认FOX于2019-09-29至2020-05-17播出20集，剧情围绕Griffin一家，主要配音阵容与TMDB一致，支持其为原系列第18季。\n\n备注：Bangumi的20个章节均无标题和日期，不能仅凭编号生成1—20集顺序映射；需补充章节资料后核实。；TMDB季级日期为2019-09-28，但第1集日期为2019-09-29，后者与Bangumi及外部播出资料一致。",
+    "evidence": "codex: 已确认对应TMDB 1434《Family Guy》第18季整季：季次、首播日期、20集规模、TV动画媒介、播出电视台及制作公司一致，剧情和配音资料亦相符。Bangumi章节缺少标题及放送日期，无法逐集交叉核对，因此仅确定整季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/406824 (page): Bangumi 标明本作为 TV 动画《Family Guy (Season 18)》，共20话，2019年9月29日开播，FOX播出，制作公司为20th Century Fox Television；关联前后季为第17、19季。章节列表仅显示编号。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 使用英文原名 Family Guy 搜索后读取详情：TMDB 1434为描写Griffin一家生活的动画剧集，制作公司包括20th Century Fox Television，主要配音包括Seth MacFarlane、Alex Borstein、Mila Kunis和Seth Green；详情列有第18季20集。\n\nhttps://www.themoviedb.org/tv/1434/season/18 (api_snapshot): 实际读取第18季完整集表，total_pages=1，共20集，集号连续为1—20；第1集于2019-09-29播出，第20集于2020-05-17播出。该季内容为同一动画的常规剧情集，完整覆盖本subject的季级范围。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_18 (page): 第18季资料确认FOX于2019-09-29至2020-05-17播出20集，剧情围绕Griffin一家，主要配音阵容与TMDB一致，支持其为原系列第18季。\n\n备注：Bangumi的20个章节均无标题和日期，不能仅凭编号生成1—20集顺序映射；需补充章节资料后核实。；TMDB季级日期为2019-09-28，但第1集日期为2019-09-29，后者与Bangumi及外部播出资料一致。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/406824; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/18; https://en.wikipedia.org/wiki/Family_Guy_season_18",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 18,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、集数及星期一的排期共同支持对应 TMDB 283575 第1季整季。Bangumi 各集标题和放送日期均为空，无法逐集交叉核验，因此仅确定作品与季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/283575 (api_snapshot): 《天都异录》为中国动画，首播日期为2025-01-27，与 Bangumi 一致；第1季共26集，与 Bangumi 本篇总数一致，候选逐集日期覆盖2025-01-27至2025-07-14，均为星期一。\n\nhttps://www.themoviedb.org/tv/304190 (api_snapshot): 《天都异闻录》仅列第1季1集，没有首播日期，类型为悬疑；现有数据不足以将其认定为本次26集动画。\n\n备注：候选未提供剧情简介和制作公司，无法核对苏荷、莫寻真相关剧情及羿辰动漫、爱奇艺信息。；需补充 Bangumi 逐集标题或日期，再核实26集的连续对应关系；当前不以相同集数和编号直接推定逐集映射。",
+    "evidence": "codex: 名称、首播日期、动画媒介、集数及星期一的排期共同支持对应 TMDB 283575 第1季整季。Bangumi 各集标题和放送日期均为空，无法逐集交叉核验，因此仅确定作品与季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/283575 (api_snapshot): 《天都异录》为中国动画，首播日期为2025-01-27，与 Bangumi 一致；第1季共26集，与 Bangumi 本篇总数一致，候选逐集日期覆盖2025-01-27至2025-07-14，均为星期一。\n\nhttps://www.themoviedb.org/tv/304190 (api_snapshot): 《天都异闻录》仅列第1季1集，没有首播日期，类型为悬疑；现有数据不足以将其认定为本次26集动画。\n\n备注：候选未提供剧情简介和制作公司，无法核对苏荷、莫寻真相关剧情及羿辰动漫、爱奇艺信息。；需补充 Bangumi 逐集标题或日期，再核实26集的连续对应关系；当前不以相同集数和编号直接推定逐集映射。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/536157; https://www.themoviedb.org/tv/283575; https://www.themoviedb.org/tv/304190",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283575
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

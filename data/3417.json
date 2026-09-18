@@ -1,15 +1,56 @@
 {
+  "anidbId": 3986,
   "bangumiId": 3417,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 24540,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 24541,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 24542,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 24543,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 24544,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 24545,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 45503 的原名、首播日（2005-12-16）、剧情、SUNRISE/Bandai 制作信息及富野由悠季均与 Bangumi subject《リーンの翼》吻合；TMDB 第1季实际包含6集，集名、剧情和主体范围与 Bangumi 的6集 WEB 动画逐集对应，因此推荐整季。TMDB 电影 471619 同名同日且片长144分钟，实际是同一作品的电影/合集形态，不适合作为 Bangumi 的六集 WEB 版本映射。\n\nhttps://www.themoviedb.org/tv/45503 (api_snapshot): TMDB TV 45503：原名《リーンの翼》，日期2005-12-16，剧情涉及エイサップ・鈴木、リュクス・サコミズ及バイストン・ウェル，制作公司包括SUNRISE、Bandai Visual、Bandai Channel，系列导演为富野由悠季，共1季6集。\n\nhttps://www.themoviedb.org/tv/45503/season/1 (api_snapshot): TMDB第1季实际返回6集，集数1至6连续且无分页；集名和剧情分别对应 Bangumi 的「招かれざるもの」「ホウジョウの王」「地上人のオーラ力」「王の奸計」「東京湾」「桜花嵐」。\n\nhttps://www.themoviedb.org/movie/471619 (api_snapshot): TMDB电影471619同名同日、片长144分钟，演员和导演与TV条目相同，属于同一动画的电影/合集形态。",
+    "evidence": "codex: 确认对应TMDB TV 45503第1季整季。制作人员、公司、人物剧情和六话结构吻合，六集标题逐一一致，前五集日期完全一致；末集日期差异有官方延期及实际配信公告佐证，不影响对应关系。Bangumi本篇1—6话可连续映射至S01E01—E06。\n\nhttps://www.themoviedb.org/tv/45503 (api_snapshot): TMDB TV 45503 原名为《リーンの翼》，首播日期为2005-12-16，共1季6集；导演富野由悠季，制作公司为SUNRISE、Bandai Visual、Bandai Channel，主要人物与异世界剧情均与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/45503/season/1 (api_snapshot): 第1季实际集表共6集，total_pages=1。第1至6集标题依次与Bangumi六话完全一致；前五集日期分别为2005-12-16、2006-04-21、2006-05-19、2006-06-16、2006-07-21，均一致。第6集标题为「桜花嵐」，但日期记为2006-08-18。\n\nhttps://www.rean-wings.net/prod_20th.html (page): 官方商品页明确列出本篇全6话及各话编号、标题，与Bangumi和TMDB第1季逐集一致；2026年发行的是20周年Blu-ray BOX。\n\nhttps://www.rean-wings.net/news.html (page): 官方网站2006-07-21公告提到第6话配信日变更，2006-09-08公告明确第6话当日开始配信，支持Bangumi末集日期，解释TMDB末集日期差异。\n\nhttps://www.sunrise-world.net/titles/titles.php?id=264 (page): SUNRISE官方作品资料确认全6话、原作及总导演富野由悠季、音乐樋口康雄、脚本高山治郎，以及爱泽普·铃木、留克斯和岩国基地事件的剧情。\n\nhttps://www.themoviedb.org/movie/471619 (api_snapshot): 同名电影条目471619记录片长144分钟，导演与主要演员相同，但未提供六话结构或独立电影版本说明，不能仅据此认定为正式合集电影。\n\n备注：TMDB末集日期仍为2006-08-18，官方实际配信公告为2006-09-08；输入infobox的结束日期2026-08-18不符合该动画的原始配信记录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3417; https://www.themoviedb.org/tv/45503; https://www.themoviedb.org/tv/45503/season/1; https://www.themoviedb.org/movie/471619",
-    "verifiedAt": "2026-09-08T18:30:52.133Z"
+    "source": "https://bgm.tv/subject/3417; https://www.themoviedb.org/tv/45503; https://www.themoviedb.org/tv/45503/season/1; https://www.rean-wings.net/prod_20th.html; https://www.rean-wings.net/news.html; https://www.sunrise-world.net/titles/titles.php?id=264; https://www.themoviedb.org/movie/471619",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45503
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

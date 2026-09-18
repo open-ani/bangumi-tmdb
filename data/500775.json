@@ -246,12 +246,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 273299第1季整季：剧情、年份、首末播日期、48集总量及播放平台的制作人员信息相符，版本和主体范围明确。Bangumi章节缺少标题与日期，无法完成逐集交叉比对，因此保留整季映射，不凭编号位置生成rules。\n\nhttps://www.themoviedb.org/tv/273299 (api_snapshot): TMDB 273299 为中文动画《蛮荒仙界》，首播于2024-09-25，制作公司为若鸿文化；陆航之穿越、进入朱府并拜入玄心宗的剧情与输入一致。详情列出1季48集，末播日期为2025-02-26。\n\nhttps://www.themoviedb.org/tv/273299/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共48集，编号连续为1—48，单集约7分钟，日期范围为2024-09-25至2025-02-26；未见混入其他作品或特别篇。\n\nhttps://www.bilibili.com/bangumi/media/md24954769 (search_snippet): 哔哩哔哩正版条目列出全48话，导演茶白、编剧发飙的蜗牛，剧情及主要配音与输入、TMDB相符；其2025-01-23开播标注与原始首播日期不同，不能直接用作逐集首播依据。\n\nhttps://w.mgtv.com/b/690926/21766465.html?lang=zh-tc (search_snippet): 芒果TV第13集页面标注导演茶白、普通话动漫、单集时长7分16秒，并提供相同的陆航之修仙剧情，支持为同一部短篇幅连续剧情动画。\n\n备注：逐集对应尚未核实：输入的48个Bangumi章节标题、日期均为空，TMDB标题也仅为通用集号。；TMDB第8集日期为2024-10-10（星期四），与输入的周三、周六排期不符；需原始平台排期确认。；TMDB的crew为空；导演、编剧信息由播放平台资料交叉佐证。",
+    "evidence": "codex: 确认对应TMDB 273299第1季整季：剧情、年份、首末播日期、48集总量及播放平台的制作人员信息相符，版本和主体范围明确。Bangumi章节缺少标题与日期，无法完成逐集交叉比对，因此保留整季映射，不凭编号位置生成rules。\n\nhttps://www.themoviedb.org/tv/273299 (api_snapshot): TMDB 273299 为中文动画《蛮荒仙界》，首播于2024-09-25，制作公司为若鸿文化；陆航之穿越、进入朱府并拜入玄心宗的剧情与输入一致。详情列出1季48集，末播日期为2025-02-26。\n\nhttps://www.themoviedb.org/tv/273299/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共48集，编号连续为1—48，单集约7分钟，日期范围为2024-09-25至2025-02-26；未见混入其他作品或特别篇。\n\nhttps://www.bilibili.com/bangumi/media/md24954769 (search_snippet): 哔哩哔哩正版条目列出全48话，导演茶白、编剧发飙的蜗牛，剧情及主要配音与输入、TMDB相符；其2025-01-23开播标注与原始首播日期不同，不能直接用作逐集首播依据。\n\nhttps://w.mgtv.com/b/690926/21766465.html?lang=zh-tc (search_snippet): 芒果TV第13集页面标注导演茶白、普通话动漫、单集时长7分16秒，并提供相同的陆航之修仙剧情，支持为同一部短篇幅连续剧情动画。\n\n备注：逐集对应尚未核实：输入的48个Bangumi章节标题、日期均为空，TMDB标题也仅为通用集号。；TMDB第8集日期为2024-10-10（星期四），与输入的周三、周六排期不符；需原始平台排期确认。；TMDB的crew为空；导演、编剧信息由播放平台资料交叉佐证。\n\n脚本按声明范围生成逐集规则：48 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/500775; https://www.themoviedb.org/tv/273299; https://www.themoviedb.org/tv/273299/season/1; https://www.bilibili.com/bangumi/media/md24954769; https://w.mgtv.com/b/690926/21766465.html?lang=zh-tc",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 48,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 273299
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、核心剧情、制作公司及官方26集总量相互吻合，确认对应 TMDB 240822 第1季完整范围。Bangumi 提供的26个章节均缺少标题与放送日期，无法完成逐集交叉比对，因此只确认作品和季范围，不按位置推定连续规则。\n\nhttps://bgm.tv/subject/345782 (search_snippet): Bangumi 条目为2023年12月3日开播的26集 WEB 动画，原作为方想，导演为周磊、周少波，动画制作为米粒数字，出品及播放平台为腾讯视频。\n\nhttps://wetv.vip/zh-cn/play/40y8jsw2s9g1zg1 (page): 官方 WeTV 页面确认本作为2023年中国大陆作品、全26集；叶重在垃圾星激活人工智能机甲牧殇的剧情与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/240822 (api_snapshot): TMDB 240822 原名为《师士传说》，首播日期为2023-12-03，仅列第1季、共26集。制作公司包括米粒影业、腾讯视频及腾讯企鹅影视；第1季简介与 Bangumi 的叶重、牧殇和垃圾星剧情一致。\n\nhttps://www.themoviedb.org/tv/240822/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，共26集，集号连续为1—26，日期范围为2023-12-03至2024-02-18；前17集有具体标题，后9集使用通用集号标题。该季范围对应官方26集主体。\n\n备注：逐集对应尚未确认：Bangumi 章节标题和日期为空，且本次章节页访问失败；需补充可核对的章节资料后再建立 rules。",
+    "evidence": "codex: 原名、首播日期、核心剧情、制作公司及官方26集总量相互吻合，确认对应 TMDB 240822 第1季完整范围。Bangumi 提供的26个章节均缺少标题与放送日期，无法完成逐集交叉比对，因此只确认作品和季范围，不按位置推定连续规则。\n\nhttps://bgm.tv/subject/345782 (search_snippet): Bangumi 条目为2023年12月3日开播的26集 WEB 动画，原作为方想，导演为周磊、周少波，动画制作为米粒数字，出品及播放平台为腾讯视频。\n\nhttps://wetv.vip/zh-cn/play/40y8jsw2s9g1zg1 (page): 官方 WeTV 页面确认本作为2023年中国大陆作品、全26集；叶重在垃圾星激活人工智能机甲牧殇的剧情与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/240822 (api_snapshot): TMDB 240822 原名为《师士传说》，首播日期为2023-12-03，仅列第1季、共26集。制作公司包括米粒影业、腾讯视频及腾讯企鹅影视；第1季简介与 Bangumi 的叶重、牧殇和垃圾星剧情一致。\n\nhttps://www.themoviedb.org/tv/240822/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，共26集，集号连续为1—26，日期范围为2023-12-03至2024-02-18；前17集有具体标题，后9集使用通用集号标题。该季范围对应官方26集主体。\n\n备注：逐集对应尚未确认：Bangumi 章节标题和日期为空，且本次章节页访问失败；需补充可核对的章节资料后再建立 rules。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/345782; https://wetv.vip/zh-cn/play/40y8jsw2s9g1zg1; https://www.themoviedb.org/tv/240822; https://www.themoviedb.org/tv/240822/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 240822
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

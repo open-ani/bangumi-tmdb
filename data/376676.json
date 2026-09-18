@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、两家制作公司及总集数相互吻合，可确认对应TMDB 240128第1季全季。Bangumi各集标题和日期均为空，无法逐集交叉核实，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/240128 (api_snapshot): 候选名称一致，首播日期同为2022-04-08；制作公司Colored-Pencil Animation Design、Lilith Games分别对应彩色铅笔动画、莉莉丝游戏。候选仅有第1季，共12集，与Bangumi本篇总数一致；季表列出2022-04-08至2022-06-24每周五播出的12集。\n\n备注：候选未提供剧情简介，无法独立核对剧情。；逐集对应仍需补充Bangumi章节标题或放送日期；当前不依据章节位置推定映射。",
+    "evidence": "codex: 名称、首播日期、两家制作公司及总集数相互吻合，可确认对应TMDB 240128第1季全季。Bangumi各集标题和日期均为空，无法逐集交叉核实，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/240128 (api_snapshot): 候选名称一致，首播日期同为2022-04-08；制作公司Colored-Pencil Animation Design、Lilith Games分别对应彩色铅笔动画、莉莉丝游戏。候选仅有第1季，共12集，与Bangumi本篇总数一致；季表列出2022-04-08至2022-06-24每周五播出的12集。\n\n备注：候选未提供剧情简介，无法独立核对剧情。；逐集对应仍需补充Bangumi章节标题或放送日期；当前不依据章节位置推定映射。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/376676; https://www.themoviedb.org/tv/240128",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 240128
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

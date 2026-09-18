@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名、首播日期、动画媒介及完整的 13 集季表共同支持对应 TV 226684 第 1 季，候选中没有版本冲突或混入其他作品的迹象。可确认整季范围；Bangumi 各集标题与日期均为空，无法逐集核对，因此不生成按位置推定的规则。\n\nhttps://www.themoviedb.org/tv/226684 (api_snapshot): 候选 TV 226684 的原名为 Acorda, Carlo!，首播日期为 2023-07-06，类型包含动画；第 1 季共 13 集，与 Bangumi 的作品名、开播日期及本篇集数一致。季表完整列出第 1–13 集，放送日期均为 2023-07-06。\n\n备注：逐集对应尚未确认，需要补充 Bangumi 各集标题或放送日期；TMDB 当前标题也仅为集号占位。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对剧情与 Copa Studio 制作信息。",
+    "evidence": "codex: 作品名、首播日期、动画媒介及完整的 13 集季表共同支持对应 TV 226684 第 1 季，候选中没有版本冲突或混入其他作品的迹象。可确认整季范围；Bangumi 各集标题与日期均为空，无法逐集核对，因此不生成按位置推定的规则。\n\nhttps://www.themoviedb.org/tv/226684 (api_snapshot): 候选 TV 226684 的原名为 Acorda, Carlo!，首播日期为 2023-07-06，类型包含动画；第 1 季共 13 集，与 Bangumi 的作品名、开播日期及本篇集数一致。季表完整列出第 1–13 集，放送日期均为 2023-07-06。\n\n备注：逐集对应尚未确认，需要补充 Bangumi 各集标题或放送日期；TMDB 当前标题也仅为集号占位。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对剧情与 Copa Studio 制作信息。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/444847; https://www.themoviedb.org/tv/226684",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 226684
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

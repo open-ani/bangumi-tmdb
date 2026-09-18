@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、动画类型、第5季首播日期、12集规模及前后季时间边界一致，支持对应 TMDB 223916 第5季整季。逐集证据不足，暂不生成连续规则或特例映射。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选《肥志百科》为中国动画，制作公司为深圳萌想文化传播有限公司，与 Bangumi 标注的出品方萌想文化一致。第5季共12集，首播日期为2022-04-23，与 subject 一致。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 第5季12集排期为2022-04-23至2022-07-09，每周六播出；第4季、第6季首播日期分别为2021-10-30、2022-07-30，与 Bangumi 前后续作日期一致。但第5季集标题均为通用编号，无法核对具体美食主题。\n\n备注：Bangumi 的 sort 50—61 均无逐集放送日期，TMDB 第5季仅有通用集标题；无法独立验证各美食主题对应的集号。需补充 TMDB 实际标题或 Bangumi 逐集日期后再建立逐集映射。",
+    "evidence": "codex: 制作方、动画类型、第5季首播日期、12集规模及前后季时间边界一致，支持对应 TMDB 223916 第5季整季。逐集证据不足，暂不生成连续规则或特例映射。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选《肥志百科》为中国动画，制作公司为深圳萌想文化传播有限公司，与 Bangumi 标注的出品方萌想文化一致。第5季共12集，首播日期为2022-04-23，与 subject 一致。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 第5季12集排期为2022-04-23至2022-07-09，每周六播出；第4季、第6季首播日期分别为2021-10-30、2022-07-30，与 Bangumi 前后续作日期一致。但第5季集标题均为通用编号，无法核对具体美食主题。\n\n备注：Bangumi 的 sort 50—61 均无逐集放送日期，TMDB 第5季仅有通用集标题；无法独立验证各美食主题对应的集号。需补充 TMDB 实际标题或 Bangumi 逐集日期后再建立逐集映射。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/376675; https://www.themoviedb.org/tv/223916",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 61,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 50,
+      "tmdbId": 223916
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

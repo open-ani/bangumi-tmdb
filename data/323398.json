@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应原版《Sofia the First》的 TMDB 46928 第四季整季。作品媒介、Disney 制作背景、第四季首末播出日期及 26 集规模一致，实际季表覆盖该季主体。Bangumi 所给章节均无标题和日期，无法进行逐集身份比对，因此仅确认整季范围，不生成按位置推算的 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/46928 (api_snapshot): TMDB 46928 为原版英文电视动画《Sofia the First》，2013 年首播、2018-09-08 完结，由 Disney Television Animation、Disney Junior 制作，讲述 Sofia 在母亲嫁给国王后成为公主的成长冒险。\n\nhttps://www.themoviedb.org/tv/46928/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，共 26 集，集号连续为 1–26；首集于 2017-04-28 播出，末集于 2018-09-08 播出。《The Mystic Isles》和《Forever Royal》分别作为第 5、26 集收录，时长为 63、70 分钟。\n\nhttps://www.tvguide.com/tvshows/sofia-the-first/episodes-season-4/1000407439/ (search_snippet): TV Guide 将第四季列为 2017–2018 年的 26 集，首集为 2017-04-28 播出的《Day of the Sorcerers》，与 TMDB 季范围及输入中的 Bangumi 日期、集数吻合。\n\nhttps://www.detpress.com/disneybrandedtelevision/bios/craig-gerber-2/ (page): Disney 官方人物资料确认 Craig Gerber 开发并担任 Disney Junior 动画剧集《Sofia the First》的执行制片人。\n\nhttps://www.rottentomatoes.com/tv/sofia_the_first/s04 (search_snippet): Rotten Tomatoes 第四季集表亦以 2018-09-08 的《Forever Royal》为第 26 集；部分中段集的日期与 TMDB 不同，例如第 20 集列为 2018-03-02，而 TMDB 为 2017-12-01。\n\n备注：26 个 Bangumi 章节缺少标题与播出日期；需补充这些资料后才能确认逐集对应。；TMDB 部分中段集的日期与外部集表不一致，不能据此直接建立逐集映射。",
+    "evidence": "codex: 确认对应原版《Sofia the First》的 TMDB 46928 第四季整季。作品媒介、Disney 制作背景、第四季首末播出日期及 26 集规模一致，实际季表覆盖该季主体。Bangumi 所给章节均无标题和日期，无法进行逐集身份比对，因此仅确认整季范围，不生成按位置推算的 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/46928 (api_snapshot): TMDB 46928 为原版英文电视动画《Sofia the First》，2013 年首播、2018-09-08 完结，由 Disney Television Animation、Disney Junior 制作，讲述 Sofia 在母亲嫁给国王后成为公主的成长冒险。\n\nhttps://www.themoviedb.org/tv/46928/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，共 26 集，集号连续为 1–26；首集于 2017-04-28 播出，末集于 2018-09-08 播出。《The Mystic Isles》和《Forever Royal》分别作为第 5、26 集收录，时长为 63、70 分钟。\n\nhttps://www.tvguide.com/tvshows/sofia-the-first/episodes-season-4/1000407439/ (search_snippet): TV Guide 将第四季列为 2017–2018 年的 26 集，首集为 2017-04-28 播出的《Day of the Sorcerers》，与 TMDB 季范围及输入中的 Bangumi 日期、集数吻合。\n\nhttps://www.detpress.com/disneybrandedtelevision/bios/craig-gerber-2/ (page): Disney 官方人物资料确认 Craig Gerber 开发并担任 Disney Junior 动画剧集《Sofia the First》的执行制片人。\n\nhttps://www.rottentomatoes.com/tv/sofia_the_first/s04 (search_snippet): Rotten Tomatoes 第四季集表亦以 2018-09-08 的《Forever Royal》为第 26 集；部分中段集的日期与 TMDB 不同，例如第 20 集列为 2018-03-02，而 TMDB 为 2017-12-01。\n\n备注：26 个 Bangumi 章节缺少标题与播出日期；需补充这些资料后才能确认逐集对应。；TMDB 部分中段集的日期与外部集表不一致，不能据此直接建立逐集映射。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/323398; https://www.themoviedb.org/tv/46928; https://www.themoviedb.org/tv/46928/season/4; https://www.tvguide.com/tvshows/sofia-the-first/episodes-season-4/1000407439/; https://www.detpress.com/disneybrandedtelevision/bios/craig-gerber-2/; https://www.rottentomatoes.com/tv/sofia_the_first/s04",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 46928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

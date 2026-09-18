@@ -56,12 +56,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认该subject对应TMDB 78941完整第4季：上映日期、Netflix版本、制作人员、剧情和10话范围一致。输入的Bangumi章节标题与日期均为空，无法逐章比对，因此仅确认整季范围，暂不生成按位置推定的逐集规则。\n\nhttps://prtimes.jp/main/html/rd/p/000000344.000037629.html (page): 三丽鸥官方公告确认：Netflix《アグレッシブ烈子》第四季于2021年12月16日上线，共10话；原作为三丽鸥，导演及编剧为ラレコ，动画制作为Fanworks。剧情围绕新社长ヒムロ及烈子与ハイ田的关系展开，与输入的年份、媒介和制作信息一致。\n\nhttps://www.themoviedb.org/tv/78941 (api_snapshot): TMDB 78941为2018年开始的《アグレッシブ烈子》，制作公司为Fanworks，角色及剧情吻合Netflix系列；第4季标注2021年12月16日、10集。日文原名及英文别名搜索同时出现2016年短篇版76581，已按版本区分。\n\nhttps://www.themoviedb.org/tv/78941/season/4 (api_snapshot): 实际读取第4季完整集表：total_pages=1，共10集，编号1—10，日期全部为2021年12月16日；首集为《会社の人》，末集为《待ち合わせ》，内容连续涵盖新社长上任及财务造假事件，没有混入其他季或特别篇。\n\nhttps://watch.plex.tv/ja/show/aggretsuko/season/4 (page): Plex第四季页面列出10集，其第1—10集标题及剧情逐项与TMDB季表一致，支持该季内容和集序的完整性。\n\n备注：Bangumi主体页及章节页本次访问失败；输入快照的10个章节均无标题和日期。逐集对应需补充Bangumi章节信息后核对，当前rules留空。",
+    "evidence": "codex: 已确认该subject对应TMDB 78941完整第4季：上映日期、Netflix版本、制作人员、剧情和10话范围一致。输入的Bangumi章节标题与日期均为空，无法逐章比对，因此仅确认整季范围，暂不生成按位置推定的逐集规则。\n\nhttps://prtimes.jp/main/html/rd/p/000000344.000037629.html (page): 三丽鸥官方公告确认：Netflix《アグレッシブ烈子》第四季于2021年12月16日上线，共10话；原作为三丽鸥，导演及编剧为ラレコ，动画制作为Fanworks。剧情围绕新社长ヒムロ及烈子与ハイ田的关系展开，与输入的年份、媒介和制作信息一致。\n\nhttps://www.themoviedb.org/tv/78941 (api_snapshot): TMDB 78941为2018年开始的《アグレッシブ烈子》，制作公司为Fanworks，角色及剧情吻合Netflix系列；第4季标注2021年12月16日、10集。日文原名及英文别名搜索同时出现2016年短篇版76581，已按版本区分。\n\nhttps://www.themoviedb.org/tv/78941/season/4 (api_snapshot): 实际读取第4季完整集表：total_pages=1，共10集，编号1—10，日期全部为2021年12月16日；首集为《会社の人》，末集为《待ち合わせ》，内容连续涵盖新社长上任及财务造假事件，没有混入其他季或特别篇。\n\nhttps://watch.plex.tv/ja/show/aggretsuko/season/4 (page): Plex第四季页面列出10集，其第1—10集标题及剧情逐项与TMDB季表一致，支持该季内容和集序的完整性。\n\n备注：Bangumi主体页及章节页本次访问失败；输入快照的10个章节均无标题和日期。逐集对应需补充Bangumi章节信息后核对，当前rules留空。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/350796; https://prtimes.jp/main/html/rd/p/000000344.000037629.html; https://www.themoviedb.org/tv/78941; https://www.themoviedb.org/tv/78941/season/4; https://watch.plex.tv/ja/show/aggretsuko/season/4",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 78941
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

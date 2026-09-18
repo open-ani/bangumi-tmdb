@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 157689 第5季整季：媒介、首播日期、26集总量及具体剧情一致，且季表明确独立于前四季。Bangumi 章节缺少标题及播出日期，不能完成逐集比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/639426 (page): Bangumi 标注本作为 TV 动画第五季，共26话，2026年3月31日开播，导演为林永长、张金，方特动漫制作；剧情围绕森林小镇的生态保护展开。\n\nhttps://www.themoviedb.org/tv/157689 (api_snapshot): TMDB 157689 的详情包含独立第五季，开播日期为2026年3月31日、共26集，季简介与 Bangumi 的生态保护剧情一致；第四季另列，未与第五季合并。\n\nhttps://www.themoviedb.org/tv/157689/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共26集，编号1至26，日期覆盖2026年3月31日至4月11日；首集为《琥珀》，末集为《拯救桂花》，集标题与本季自然生态主题吻合。\n\nhttps://so.youku.com/search/q_%E7%86%8A%E7%86%8A%E5%B8%AE%E5%B8%AE%E5%9B%A25?searchfrom=5 (search_snippet): 优酷搜索摘要将《熊熊帮帮团 第五季》列为2026年中国少儿作品、26期全，简介与 Bangumi 和 TMDB 第五季一致。\n\n备注：Bangumi 26个章节的标题和日期均为空；需补充可核验的章节信息后才能建立逐集对应。；TMDB 制作公司和演职员字段为空，无法在两库间交叉核验制作人员。",
+    "evidence": "codex: 可确认对应 TMDB 157689 第5季整季：媒介、首播日期、26集总量及具体剧情一致，且季表明确独立于前四季。Bangumi 章节缺少标题及播出日期，不能完成逐集比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/639426 (page): Bangumi 标注本作为 TV 动画第五季，共26话，2026年3月31日开播，导演为林永长、张金，方特动漫制作；剧情围绕森林小镇的生态保护展开。\n\nhttps://www.themoviedb.org/tv/157689 (api_snapshot): TMDB 157689 的详情包含独立第五季，开播日期为2026年3月31日、共26集，季简介与 Bangumi 的生态保护剧情一致；第四季另列，未与第五季合并。\n\nhttps://www.themoviedb.org/tv/157689/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共26集，编号1至26，日期覆盖2026年3月31日至4月11日；首集为《琥珀》，末集为《拯救桂花》，集标题与本季自然生态主题吻合。\n\nhttps://so.youku.com/search/q_%E7%86%8A%E7%86%8A%E5%B8%AE%E5%B8%AE%E5%9B%A25?searchfrom=5 (search_snippet): 优酷搜索摘要将《熊熊帮帮团 第五季》列为2026年中国少儿作品、26期全，简介与 Bangumi 和 TMDB 第五季一致。\n\n备注：Bangumi 26个章节的标题和日期均为空；需补充可核验的章节信息后才能建立逐集对应。；TMDB 制作公司和演职员字段为空，无法在两库间交叉核验制作人员。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/639426; https://www.themoviedb.org/tv/157689; https://www.themoviedb.org/tv/157689/season/5; https://so.youku.com/search/q_%E7%86%8A%E7%86%8A%E5%B8%AE%E5%B8%AE%E5%9B%A25?searchfrom=5",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 157689
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

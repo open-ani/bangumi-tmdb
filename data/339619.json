@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、上线日期、六集总量、剧情及制作方相互吻合，确认此 subject 是三部曲第二章“地出”。TMDB 将其单独建为 117682，实际对应其第 1 季整季。作品及季范围已确认，但 Bangumi 六个章节均缺少标题和日期，无法进行逐集交叉核验，因此不凭顺序填写 rules。\n\nhttps://www.themoviedb.org/tv/117682 (api_snapshot): TMDB 117682 为独立剧集《Transformers: War for Cybertron: Earthrise》，首播及完结日期均为 2020-12-30，共一季六集；制作公司包括 Polygon Pictures、Rooster Teeth Productions，别名包含“变形金刚：赛博坦之战：地出”。\n\nhttps://www.themoviedb.org/tv/117682/season/1 (api_snapshot): 实际读取第 1 季 Earthrise 集表，只有一页，完整包含第 1–6 集，标题为 Episode 1–6，日期均为 2020-12-30，片长为 24–25 分钟；该季完整覆盖“地出”。\n\nhttps://www.ppi.co.jp/works/earthrise/ (page): Polygon Pictures 官方作品页确认 Earthrise 为 2020 年作品，客户为 Rooster Teeth；火种源消失、威震天困于濒毁的赛博坦、擎天柱在太空遭遇雇佣军等剧情与输入一致。\n\nhttps://media.netflix.com/en/only-on-netflix/81393633 (page): Netflix 官方明确将 Earthrise 称为赛博坦之战的第二章，归类为剧集；简介中的艾丽塔抵抗、太空雇佣军及五面怪均与 Bangumi 摘要对应。\n\n备注：Bangumi 章节网页未能成功读取；现有章节数据只有 sort 1–6，缺乏逐集标题、日期或剧情，逐集对应暂留空。后续可用补全的 Bangumi 章节资料与已取得的 TMDB 集表核对。",
+    "evidence": "codex: 年份、上线日期、六集总量、剧情及制作方相互吻合，确认此 subject 是三部曲第二章“地出”。TMDB 将其单独建为 117682，实际对应其第 1 季整季。作品及季范围已确认，但 Bangumi 六个章节均缺少标题和日期，无法进行逐集交叉核验，因此不凭顺序填写 rules。\n\nhttps://www.themoviedb.org/tv/117682 (api_snapshot): TMDB 117682 为独立剧集《Transformers: War for Cybertron: Earthrise》，首播及完结日期均为 2020-12-30，共一季六集；制作公司包括 Polygon Pictures、Rooster Teeth Productions，别名包含“变形金刚：赛博坦之战：地出”。\n\nhttps://www.themoviedb.org/tv/117682/season/1 (api_snapshot): 实际读取第 1 季 Earthrise 集表，只有一页，完整包含第 1–6 集，标题为 Episode 1–6，日期均为 2020-12-30，片长为 24–25 分钟；该季完整覆盖“地出”。\n\nhttps://www.ppi.co.jp/works/earthrise/ (page): Polygon Pictures 官方作品页确认 Earthrise 为 2020 年作品，客户为 Rooster Teeth；火种源消失、威震天困于濒毁的赛博坦、擎天柱在太空遭遇雇佣军等剧情与输入一致。\n\nhttps://media.netflix.com/en/only-on-netflix/81393633 (page): Netflix 官方明确将 Earthrise 称为赛博坦之战的第二章，归类为剧集；简介中的艾丽塔抵抗、太空雇佣军及五面怪均与 Bangumi 摘要对应。\n\n备注：Bangumi 章节网页未能成功读取；现有章节数据只有 sort 1–6，缺乏逐集标题、日期或剧情，逐集对应暂留空。后续可用补全的 Bangumi 章节资料与已取得的 TMDB 集表核对。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/339619; https://www.themoviedb.org/tv/117682; https://www.themoviedb.org/tv/117682/season/1; https://www.ppi.co.jp/works/earthrise/; https://media.netflix.com/en/only-on-netflix/81393633",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 117682
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

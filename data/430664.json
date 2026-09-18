@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、电视动画媒介、首播日期、完整15集范围及前后季时间均吻合，可确认对应 TV 1434 第22季整季。逐集缺少可交叉核验的标题或日期，故仅确认季级范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选 TV 1434 为美国动画喜剧《Family Guy》，第22季首播日期为2023-10-01，共15集，与 Bangumi 的季度、首播日期及本篇总数一致；已抓取季表完整列出第1至15集，播出日期截至2024-04-17。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选第21季、第23季首播日期分别为2022-09-25、2025-02-16，与 Bangumi 前后续作记录一致。第22季逐集标题均为“第N話”占位标题，无法核对 Bangumi 的英文集名。\n\n备注：Bangumi 各集放送日期为空，TMDB 各集仅有占位标题；需补充候选的真实集名或 Bangumi 逐集日期，才能确认逐集对应关系。；Bangumi 未提供剧情与制作方信息，无法交叉核验这些字段。",
+    "evidence": "codex: 季度、电视动画媒介、首播日期、完整15集范围及前后季时间均吻合，可确认对应 TV 1434 第22季整季。逐集缺少可交叉核验的标题或日期，故仅确认季级范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选 TV 1434 为美国动画喜剧《Family Guy》，第22季首播日期为2023-10-01，共15集，与 Bangumi 的季度、首播日期及本篇总数一致；已抓取季表完整列出第1至15集，播出日期截至2024-04-17。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选第21季、第23季首播日期分别为2022-09-25、2025-02-16，与 Bangumi 前后续作记录一致。第22季逐集标题均为“第N話”占位标题，无法核对 Bangumi 的英文集名。\n\n备注：Bangumi 各集放送日期为空，TMDB 各集仅有占位标题；需补充候选的真实集名或 Bangumi 逐集日期，才能确认逐集对应关系。；Bangumi 未提供剧情与制作方信息，无法交叉核验这些字段。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/430664; https://www.themoviedb.org/tv/1434",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 22,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -171,12 +171,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 239757第2季整季：新版身份、剧情、制作资料、播出起止日期和33集范围相符，未混入1994年旧版或2014年续篇。Bangumi章节均缺少标题和日期，且TMDB第30集标题与外部分集表冲突，因此仅确认作品及季范围，逐集规则暂留空。\n\nhttps://bgm.tv/subject/34458 (page): Bangumi 标明这是2010年新版TV动画，共33话，2010-08-13至2011-03-25在TwellV播出；原作为森京詞姫，导演为イマイヨーイチ，剧情为花子驱除恶灵和怪物。\n\nhttps://www.themoviedb.org/tv/239757 (api_snapshot): TMDB详情将1994年旧版、2010年新版和2014年续篇分别列为第1、2、3季；第2季名称含「新・花子さんがきた」，首播2010-08-13，共33集。系列层演职员主要是旧版资料，不能作为新版导演的核验依据。\n\nhttps://www.themoviedb.org/tv/239757/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共33集，日期从2010-08-13连续至2011-03-25。首集为「花子さん、ふたたび」，末集为「デクデク」。第30、31集标题均记作「かくれんぼ幽霊」，存在重复标题疑点。\n\nhttps://animatetimes.com/tag/details.php?id=15931 (page): 作品资料确认新版的剧情、33话总数、TwellV播出起止日期，以及原作森京詞姫、导演イマイヨーイチ、动画制作ホーゲット，与Bangumi相符。\n\nhttps://ja.wikipedia.org/wiki/学校のコワイうわさ_花子さんがきた!! (page): 新版为每话约5分钟的电视短篇动画。分集表与TMDB的33个播出日期一致，但第30话列为歌曲篇「素顔のママで」，第31话才是「かくれんぼ幽霊」；另注明DVD收录顺序不同于播出顺序。\n\n备注：缺少Bangumi各章节的标题或播出日期，不能仅凭sort位置建立逐集对应。；TMDB第30集疑似误用了第31集标题；需用官方分集资料或正片核实后再补充逐集映射。",
+    "evidence": "codex: 确认对应TMDB 239757第2季整季：新版身份、剧情、制作资料、播出起止日期和33集范围相符，未混入1994年旧版或2014年续篇。Bangumi章节均缺少标题和日期，且TMDB第30集标题与外部分集表冲突，因此仅确认作品及季范围，逐集规则暂留空。\n\nhttps://bgm.tv/subject/34458 (page): Bangumi 标明这是2010年新版TV动画，共33话，2010-08-13至2011-03-25在TwellV播出；原作为森京詞姫，导演为イマイヨーイチ，剧情为花子驱除恶灵和怪物。\n\nhttps://www.themoviedb.org/tv/239757 (api_snapshot): TMDB详情将1994年旧版、2010年新版和2014年续篇分别列为第1、2、3季；第2季名称含「新・花子さんがきた」，首播2010-08-13，共33集。系列层演职员主要是旧版资料，不能作为新版导演的核验依据。\n\nhttps://www.themoviedb.org/tv/239757/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共33集，日期从2010-08-13连续至2011-03-25。首集为「花子さん、ふたたび」，末集为「デクデク」。第30、31集标题均记作「かくれんぼ幽霊」，存在重复标题疑点。\n\nhttps://animatetimes.com/tag/details.php?id=15931 (page): 作品资料确认新版的剧情、33话总数、TwellV播出起止日期，以及原作森京詞姫、导演イマイヨーイチ、动画制作ホーゲット，与Bangumi相符。\n\nhttps://ja.wikipedia.org/wiki/学校のコワイうわさ_花子さんがきた!! (page): 新版为每话约5分钟的电视短篇动画。分集表与TMDB的33个播出日期一致，但第30话列为歌曲篇「素顔のママで」，第31话才是「かくれんぼ幽霊」；另注明DVD收录顺序不同于播出顺序。\n\n备注：缺少Bangumi各章节的标题或播出日期，不能仅凭sort位置建立逐集对应。；TMDB第30集疑似误用了第31集标题；需用官方分集资料或正片核实后再补充逐集映射。\n\n脚本按声明范围生成逐集规则：33 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/34458; https://www.themoviedb.org/tv/239757; https://www.themoviedb.org/tv/239757/season/2; https://animatetimes.com/tag/details.php?id=15931; https://ja.wikipedia.org/wiki/学校のコワイうわさ_花子さんがきた!!",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 33,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 239757
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

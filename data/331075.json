@@ -176,12 +176,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 119873《阿衰》第3季整季。年份、首播日期、剧情、演职人员及34集短篇动画规模相互吻合，已排除2006年旧版。整季归属明确，但逐集证据不足，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): TMDB 119873 为2019年开播的《阿衰》，演职人员包含王勇飞、猫小乐、莫谦、绿绮；第三季的开播日期、34集规模和剧情简介与待核对 subject 一致。\n\nhttps://www.themoviedb.org/tv/119873/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共34集，编号1至34，每集约3分钟，首集《倒霉蛋阿衰》，末集《阿衰下乡记》。季开播日期为2020-07-11。\n\nhttps://www.bilibili.com/bangumi/media/md28229401 (page): 正版播放平台标明《阿衰 第三季》于2020年7月11日开播，全34话，支持整季范围认定。\n\nhttps://www.bilibili.com/bangumi/play/ss33962 (search_snippet): 正版播放页列出第三季34集正片，简介与输入一致；预告注明7月11日20:00三集连播，与TMDB前三集按周排列的日期存在差异。\n\nhttps://bangumi.tv/person/57195/works (search_snippet): Bangumi的大周互娱作品列表列出《阿衰 第三季》为34话、2020年7月11日开播，导演周政、原作猫小乐，与输入制作信息一致。\n\nhttps://www.themoviedb.org/tv/243752 (api_snapshot): 另一同名候选243752为2006年开播的《阿衰系列动画版》，仅1季12集，年份及版本范围均不符。\n\n备注：输入的34个Bangumi章节均无标题和播出日期，无法逐集核对；不以相同集数及序号直接推定一一对应。；TMDB逐集日期与正版平台首日三集连播信息存在差异。补充Bangumi章节标题或可靠逐集记录后，可继续核实并填写rules。",
+    "evidence": "codex: 确认对应TMDB 119873《阿衰》第3季整季。年份、首播日期、剧情、演职人员及34集短篇动画规模相互吻合，已排除2006年旧版。整季归属明确，但逐集证据不足，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): TMDB 119873 为2019年开播的《阿衰》，演职人员包含王勇飞、猫小乐、莫谦、绿绮；第三季的开播日期、34集规模和剧情简介与待核对 subject 一致。\n\nhttps://www.themoviedb.org/tv/119873/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共34集，编号1至34，每集约3分钟，首集《倒霉蛋阿衰》，末集《阿衰下乡记》。季开播日期为2020-07-11。\n\nhttps://www.bilibili.com/bangumi/media/md28229401 (page): 正版播放平台标明《阿衰 第三季》于2020年7月11日开播，全34话，支持整季范围认定。\n\nhttps://www.bilibili.com/bangumi/play/ss33962 (search_snippet): 正版播放页列出第三季34集正片，简介与输入一致；预告注明7月11日20:00三集连播，与TMDB前三集按周排列的日期存在差异。\n\nhttps://bangumi.tv/person/57195/works (search_snippet): Bangumi的大周互娱作品列表列出《阿衰 第三季》为34话、2020年7月11日开播，导演周政、原作猫小乐，与输入制作信息一致。\n\nhttps://www.themoviedb.org/tv/243752 (api_snapshot): 另一同名候选243752为2006年开播的《阿衰系列动画版》，仅1季12集，年份及版本范围均不符。\n\n备注：输入的34个Bangumi章节均无标题和播出日期，无法逐集核对；不以相同集数及序号直接推定一一对应。；TMDB逐集日期与正版平台首日三集连播信息存在差异。补充Bangumi章节标题或可靠逐集记录后，可继续核实并填写rules。\n\n脚本按声明范围生成逐集规则：34 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/331075; https://www.themoviedb.org/tv/119873; https://www.themoviedb.org/tv/119873/season/3; https://www.bilibili.com/bangumi/media/md28229401; https://www.bilibili.com/bangumi/play/ss33962; https://bangumi.tv/person/57195/works; https://www.themoviedb.org/tv/243752",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 34,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 119873
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

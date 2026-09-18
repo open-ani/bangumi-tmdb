@@ -1,21 +1,114 @@
 {
   "anidbId": 4145,
   "bangumiId": 22050,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 116042,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 116043,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 116044,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 116045,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 116046,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 116047,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 116048,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 116049,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 116050,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 116051,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 116052,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 116053,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 204132,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 204132,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 42786,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 22050 是 2006 年电视动画续篇《あまえないでよっ!! 喝!!》，不是 2005 年前作。TMDB 42786 将两部作品分别编为第 1、2 季；其中第 2 季名称、2006-01-04 首播日期、上野一希登场的剧情以及第 1—12 话标题均与本 subject 的电视正篇一致，因此映射为完整第 2 季。Bangumi 所列第 13 话《ダマされないでよっ!!》是电视正篇之后的额外篇，TMDB 单独收在 S0E2；依照本轮不要求映射额外特典的规则，不将其加入推荐目标。\n\nhttps://bgm.tv/subject/22050 (page): Bangumi 页面确认该主体是 TV 动画《あまえないでよっ!! 喝!!》，2006年1月4日开播、3月22日结束，并明确关联《あまえないでよっ!!》为前传。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=10233 (page): d动画商店将《あまえないでよっ!!喝!!》标为2006年制作的前作续篇和全12话动画；剧情明确包含新角色上野一希诱惑里中逸刚，与 TMDB 第2季剧情相符。\n\nhttps://www.themoviedb.org/tv/42786 (api_snapshot): TMDB API 快照确认 TV 42786 是日本动画《あまえないでよっ!!》系列：第1季为2005年前作，第2季名为《あまえないでよっ!!喝!!》，首播日期为2006-01-04，共12集。\n\nhttps://www.themoviedb.org/tv/42786/season/2 (api_snapshot): TMDB 第2季快照列出的第1—12集从《誘惑（さそ）わないでよっ!!》至《終わらないでよっ!!》，标题、顺序和日期均与 Bangumi 22050 的电视正篇逐集对应。\n\nhttps://www.allcinema.net/cinema/324063 (page): allcinema 将《あまえないでよっ！！喝！！》认定为2006年1月4日至3月22日播出的日本 TV 动画，并列出12个电视正篇章节。\n\nhttps://bgm.tv/ep/204132 (page): Bangumi 将额外的第13话记为《ダマされないでよっ!!》，与前12话结束后的附加内容区分明确。\n\nhttps://www.themoviedb.org/tv/42786/season/0 (api_snapshot): TMDB 特别篇快照把《ダマされないでよっ!!》列为 S0E2，而非第2季内容；这解释了 Bangumi 13话与 TMDB 第2季12集之间的数量差异。",
+    "evidence": "codex: 年份、电视媒介、制作公司、声优、续篇剧情及逐集标题共同确认：Bangumi第1—12话对应TMDB 42786完整第2季，第13话番外篇对应S0E2。13话与12集的差异来自特别篇归档方式，旧映射遗漏的第13话应通过override补入。\n\nhttps://bgm.tv/subject/22050 (page): 该条目是2006年1月4日至3月22日播出的电视动画续篇，导演元永庆太郎、动画制作Studio DEEN；剧情包含上野一希对逸刚的诱惑，与前作区分明确。\n\nhttps://bgm.tv/subject/22050/ep (page): 列有13个章节；前12话日文标题及顺序与TMDB第2季逐集一致，第13话为《ダマされないでよっ!!》，标注为番外篇。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=10233 (page): 确认这是2006年制作的续篇，电视主体全12话；上野一希登场的剧情及主要声优与TMDB记录相符。\n\nhttps://www.themoviedb.org/tv/42786 (api_snapshot): 详情确认42786为Studio DEEN制作的日本动画系列，分为2005年第1季与2006年第2季；第2季名称、首播日期、人物和剧情对应本subject。\n\nhttps://www.themoviedb.org/tv/42786/season/2 (api_snapshot): 已读取完整第2季集表，total_pages=1，共12集。第1至12集标题与Bangumi逐集一致，日期为2006年1月4日至3月22日每周三，整季未混入前作或番外篇。\n\nhttps://www.themoviedb.org/tv/42786/season/0 (api_snapshot): 已读取完整特别篇集表，total_pages=1，共2集。S0E2为《ダマされないでよっ!!》，日期记为2006年6月19日，对应Bangumi第13话；S0E1为前作的另一番外篇，不纳入本次范围。\n\nhttps://www.allcinema.net/cinema/324063 (page): 确认该版本为2006年日本TV动画，导演元永庆太郎，电视播出范围为1月4日至3月22日，电视章节总数12话。\n\n备注：Bangumi未填写逐集日期，无法直接逐日交叉核验；已通过逐集日文标题、顺序、电视总集数及整体播出期间确认对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/22050; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=10233; https://www.themoviedb.org/tv/42786; https://www.themoviedb.org/tv/42786/season/2; https://www.allcinema.net/cinema/324063; https://bgm.tv/ep/204132; https://www.themoviedb.org/tv/42786/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/22050; https://bgm.tv/subject/22050/ep; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=10233; https://www.themoviedb.org/tv/42786; https://www.themoviedb.org/tv/42786/season/2; https://www.themoviedb.org/tv/42786/season/0; https://www.allcinema.net/cinema/324063",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 42786
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 42786,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "id": 42786,
+      "season": 0,
       "type": "tv"
     }
   ]

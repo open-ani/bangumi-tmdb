@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 第二季别名、首播日期、6话规模及与2016年《Lastman》的前作关系共同支持对应 TMDB 68888 第2季，季表未显示混入其他作品。整季范围可以确认；Bangumi 逐集标题和日期均为空，无法独立核验逐集顺序，因此不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/68888 (api_snapshot): 候选 Lastman（2016）第2季共6集，季首播日期为2022-10-28，与 Bangumi 的第二季别名、首播日期及6话总数一致；第1季为26集。第2季前5集日期为2022-10-28，第6集为2022-11-09，标题均为通用集号。\n\n备注：Bangumi 缺少剧情、制作方及逐集标题和放送日期，无法进一步交叉核验；逐集对应需补充章节资料后确认。",
+    "evidence": "codex: 第二季别名、首播日期、6话规模及与2016年《Lastman》的前作关系共同支持对应 TMDB 68888 第2季，季表未显示混入其他作品。整季范围可以确认；Bangumi 逐集标题和日期均为空，无法独立核验逐集顺序，因此不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/68888 (api_snapshot): 候选 Lastman（2016）第2季共6集，季首播日期为2022-10-28，与 Bangumi 的第二季别名、首播日期及6话总数一致；第1季为26集。第2季前5集日期为2022-10-28，第6集为2022-11-09，标题均为通用集号。\n\n备注：Bangumi 缺少剧情、制作方及逐集标题和放送日期，无法进一步交叉核验；逐集对应需补充章节资料后确认。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/351389; https://www.themoviedb.org/tv/68888",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 68888
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

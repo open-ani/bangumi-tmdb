@@ -100,12 +100,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 46879 第4季整季：版本、电视媒介、首集日期、19集总量及前后季度信息吻合。Bangumi 各章节均缺少标题和日期，无法逐集核实顺序，因此仅建立整季映射，逐集关系留空。\n\nhttps://www.themoviedb.org/tv/46879 (api_snapshot): 候选为2013年开播的《Mickey Mouse》电视动画，制作公司包含 Disney Television Animation，与 Bangumi 标示的2013版、Disney Channel 播出信息相符。\n\nhttps://www.themoviedb.org/tv/46879 (api_snapshot): 第4季共19集，第1集日期为2017-06-09，与 Bangumi 的开播日期及19话总量一致；完整季表列出第1至19集，末集日期为2018-07-14。\n\nhttps://www.themoviedb.org/tv/46879 (api_snapshot): 第3季开播日期2015-07-17与 Bangumi 前作一致；第5季开播日期2018-10-05与后作日期相差一天，季度衔接吻合。\n\n备注：需补充 Bangumi 各集标题或放送日期后才能建立逐集规则；TMDB 当前标题也仅为通用集号，不能据位置推定对应。；TMDB 第4季季级日期为2017-06-08，比其第1集日期及 Bangumi 开播日期早一天。",
+    "evidence": "codex: 可确认对应 TMDB 46879 第4季整季：版本、电视媒介、首集日期、19集总量及前后季度信息吻合。Bangumi 各章节均缺少标题和日期，无法逐集核实顺序，因此仅建立整季映射，逐集关系留空。\n\nhttps://www.themoviedb.org/tv/46879 (api_snapshot): 候选为2013年开播的《Mickey Mouse》电视动画，制作公司包含 Disney Television Animation，与 Bangumi 标示的2013版、Disney Channel 播出信息相符。\n\nhttps://www.themoviedb.org/tv/46879 (api_snapshot): 第4季共19集，第1集日期为2017-06-09，与 Bangumi 的开播日期及19话总量一致；完整季表列出第1至19集，末集日期为2018-07-14。\n\nhttps://www.themoviedb.org/tv/46879 (api_snapshot): 第3季开播日期2015-07-17与 Bangumi 前作一致；第5季开播日期2018-10-05与后作日期相差一天，季度衔接吻合。\n\n备注：需补充 Bangumi 各集标题或放送日期后才能建立逐集规则；TMDB 当前标题也仅为通用集号，不能据位置推定对应。；TMDB 第4季季级日期为2017-06-08，比其第1集日期及 Bangumi 开播日期早一天。\n\n脚本按声明范围生成逐集规则：19 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/222400; https://www.themoviedb.org/tv/46879",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 46879
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

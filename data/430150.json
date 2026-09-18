@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、2023年首播日期、10集规模及2024年续作关系共同支持对应 TMDB 118546 第1季。Bangumi 简介及2002年前作关系也明确指向多年后续作版本。整季范围可确认，但 Bangumi 各集标题与日期均为空，不能仅按序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/118546 (api_snapshot): 候选为2023年版动画《Clone High》，作品首播日及第1季首集日期均为2023-05-23，与 Bangumi 一致；第1季共10集，季表完整，符合本 subject 的集数。\n\nhttps://www.themoviedb.org/tv/118546 (api_snapshot): 候选第2季共10集，逐集日期均为2024-02-01，与 Bangumi 所列续作《Clone High Season 2》的日期一致。\n\n备注：逐集对应尚缺 Bangumi 各集标题或放送日期；候选标题也仅为通用集号，因此暂不建立 rules 或 overrides。；候选第1季概览日期为2023-05-22，与作品及首集日期相差一天；作品及首集日期均与 Bangumi 的2023-05-23一致。；输入未提供 Bangumi 制作方或候选剧情简介，无法交叉核对这些字段。",
+    "evidence": "codex: 名称、2023年首播日期、10集规模及2024年续作关系共同支持对应 TMDB 118546 第1季。Bangumi 简介及2002年前作关系也明确指向多年后续作版本。整季范围可确认，但 Bangumi 各集标题与日期均为空，不能仅按序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/118546 (api_snapshot): 候选为2023年版动画《Clone High》，作品首播日及第1季首集日期均为2023-05-23，与 Bangumi 一致；第1季共10集，季表完整，符合本 subject 的集数。\n\nhttps://www.themoviedb.org/tv/118546 (api_snapshot): 候选第2季共10集，逐集日期均为2024-02-01，与 Bangumi 所列续作《Clone High Season 2》的日期一致。\n\n备注：逐集对应尚缺 Bangumi 各集标题或放送日期；候选标题也仅为通用集号，因此暂不建立 rules 或 overrides。；候选第1季概览日期为2023-05-22，与作品及首集日期相差一天；作品及首集日期均与 Bangumi 的2023-05-23一致。；输入未提供 Bangumi 制作方或候选剧情简介，无法交叉核对这些字段。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/430150; https://www.themoviedb.org/tv/118546",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118546
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

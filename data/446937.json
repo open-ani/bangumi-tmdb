@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品原名、首播日期、剧情和第一季集数相互吻合，可确认 subject 对应 TMDB 291212 第 1 季全季。Bangumi 各章节均无标题及放送日期，无法逐集交叉核对，因此不生成仅依赖序号的映射规则。\n\nhttps://www.themoviedb.org/tv/291212 (api_snapshot): 候选原名为 Murder Drones，首播日期为 2021-10-29，与 Bangumi 一致；简介中的工人机乌兹及杀手机器人设定相符，制作公司为 Glitch Productions。第 1 季共 8 集，第 1 集为试播集，播出日期为 2021-10-29，与 Bangumi 所述第一季包含试播集、共 8 集相符。\n\n备注：8 个 Bangumi 章节的标题和放送日期均为空，逐集对应关系暂留空；需补充章节资料后核实。；TMDB 季级日期为 2021-10-28，与作品及首集日期相差一天；作品及首集日期均与 Bangumi 首播日期一致。",
+    "evidence": "codex: 作品原名、首播日期、剧情和第一季集数相互吻合，可确认 subject 对应 TMDB 291212 第 1 季全季。Bangumi 各章节均无标题及放送日期，无法逐集交叉核对，因此不生成仅依赖序号的映射规则。\n\nhttps://www.themoviedb.org/tv/291212 (api_snapshot): 候选原名为 Murder Drones，首播日期为 2021-10-29，与 Bangumi 一致；简介中的工人机乌兹及杀手机器人设定相符，制作公司为 Glitch Productions。第 1 季共 8 集，第 1 集为试播集，播出日期为 2021-10-29，与 Bangumi 所述第一季包含试播集、共 8 集相符。\n\n备注：8 个 Bangumi 章节的标题和放送日期均为空，逐集对应关系暂留空；需补充章节资料后核实。；TMDB 季级日期为 2021-10-28，与作品及首集日期相差一天；作品及首集日期均与 Bangumi 首播日期一致。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/446937; https://www.themoviedb.org/tv/291212",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 291212
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

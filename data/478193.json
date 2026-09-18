@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、首播日期、26集规模及前作时间关系相互吻合，可确认对应 TMDB 211670 第3季整季。逐集证据不足，暂不生成章节映射。\n\nhttps://www.themoviedb.org/tv/211670 (api_snapshot): 候选为中国动画剧集；第3季首播日期为2024-01-30，共26集，与该 subject 的季度、首播日期及本篇集数一致。第2季首播日期2023-07-03亦与 Bangumi 前作信息吻合。\n\nhttps://www.themoviedb.org/tv/211670 (api_snapshot): 第3季完整列出第1至26集，但标题均为通用编号，仅第1集有放送日期，其余日期为空，无法核对 Bangumi 的具体章节标题与顺序。\n\n备注：候选未提供剧情及制作公司信息，无法交叉核对这两项。；Bangumi 各集日期为空，TMDB 缺少具体集标题及大部分日期；需补充这些资料后才能确认逐集对应关系。",
+    "evidence": "codex: 季度、首播日期、26集规模及前作时间关系相互吻合，可确认对应 TMDB 211670 第3季整季。逐集证据不足，暂不生成章节映射。\n\nhttps://www.themoviedb.org/tv/211670 (api_snapshot): 候选为中国动画剧集；第3季首播日期为2024-01-30，共26集，与该 subject 的季度、首播日期及本篇集数一致。第2季首播日期2023-07-03亦与 Bangumi 前作信息吻合。\n\nhttps://www.themoviedb.org/tv/211670 (api_snapshot): 第3季完整列出第1至26集，但标题均为通用编号，仅第1集有放送日期，其余日期为空，无法核对 Bangumi 的具体章节标题与顺序。\n\n备注：候选未提供剧情及制作公司信息，无法交叉核对这两项。；Bangumi 各集日期为空，TMDB 缺少具体集标题及大部分日期；需补充这些资料后才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/478193; https://www.themoviedb.org/tv/211670",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 211670
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

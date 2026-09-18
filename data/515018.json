@@ -506,12 +506,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及subject范围已确认，对应TMDB 274149第1季第1—100集。旧映射指向整季会额外包含Bangumi单列的第二部分第101—152集，应收窄范围。由于Bangumi各话标题、日期均缺失，尚不能完成要求的逐集交叉核验，暂不生成连续规则。\n\nhttps://bgm.tv/subject/515018 (page): Bangumi 标注本作为2024年10月14日开播的网络动画，共100话，总导演李廷赫、动画制作索以文化、出品方bilibili；剧情围绕黑客陈宁穿越并接掌满是卧底的宗门。\n\nhttps://www.themoviedb.org/tv/274149 (api_snapshot): TMDB 274149 的首播日期、剧情、导演李廷赫及制作公司Soyep、bilibili均相符；详情显示第1季共152集。\n\nhttps://www.themoviedb.org/tv/274149/season/1 (api_snapshot): 已读取第1季全部3页集表：第1—100集为每集约7分钟的正片，日期从2024年10月14日至2025年9月8日；第101集从2025年11月24日开始，后续延伸至第152集。\n\nhttps://bgm.tv/subject/609226 (page): Bangumi 将2025年11月24日开始的第101—152话列入独立的“第二部分”，与TMDB第1季第101集的分界吻合。\n\nhttps://bgm.tv/subject/515018/ep (page): 本subject章节页列出本篇第1—100话，但未提供各话标题或播出日期，无法进行独立的逐集标题、日期比对。\n\nhttps://www.bilibili.com/bangumi/play/ep1495971 (search_snippet): bilibili第100集官方播放页的搜索摘要确认该集属于2024年开播、现共152话的同名动画，剧情及主要配音与TMDB一致。\n\n备注：逐集rules与overrides留空；需补充可关联Bangumi章节的官方标题、播出日期或内容证据后再建立。；TMDB第56集日期记为2025年4月1日，早于第55集的4月5日，存在日期异常，不能据此推导逐集顺序。",
+    "evidence": "codex: 作品身份及subject范围已确认，对应TMDB 274149第1季第1—100集。旧映射指向整季会额外包含Bangumi单列的第二部分第101—152集，应收窄范围。由于Bangumi各话标题、日期均缺失，尚不能完成要求的逐集交叉核验，暂不生成连续规则。\n\nhttps://bgm.tv/subject/515018 (page): Bangumi 标注本作为2024年10月14日开播的网络动画，共100话，总导演李廷赫、动画制作索以文化、出品方bilibili；剧情围绕黑客陈宁穿越并接掌满是卧底的宗门。\n\nhttps://www.themoviedb.org/tv/274149 (api_snapshot): TMDB 274149 的首播日期、剧情、导演李廷赫及制作公司Soyep、bilibili均相符；详情显示第1季共152集。\n\nhttps://www.themoviedb.org/tv/274149/season/1 (api_snapshot): 已读取第1季全部3页集表：第1—100集为每集约7分钟的正片，日期从2024年10月14日至2025年9月8日；第101集从2025年11月24日开始，后续延伸至第152集。\n\nhttps://bgm.tv/subject/609226 (page): Bangumi 将2025年11月24日开始的第101—152话列入独立的“第二部分”，与TMDB第1季第101集的分界吻合。\n\nhttps://bgm.tv/subject/515018/ep (page): 本subject章节页列出本篇第1—100话，但未提供各话标题或播出日期，无法进行独立的逐集标题、日期比对。\n\nhttps://www.bilibili.com/bangumi/play/ep1495971 (search_snippet): bilibili第100集官方播放页的搜索摘要确认该集属于2024年开播、现共152话的同名动画，剧情及主要配音与TMDB一致。\n\n备注：逐集rules与overrides留空；需补充可关联Bangumi章节的官方标题、播出日期或内容证据后再建立。；TMDB第56集日期记为2025年4月1日，早于第55集的4月5日，存在日期异常，不能据此推导逐集顺序。\n\n脚本按声明范围生成逐集规则：100 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/515018; https://www.themoviedb.org/tv/274149; https://www.themoviedb.org/tv/274149/season/1; https://bgm.tv/subject/609226; https://bgm.tv/subject/515018/ep; https://www.bilibili.com/bangumi/play/ep1495971",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 100,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 274149
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

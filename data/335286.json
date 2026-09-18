@@ -30,12 +30,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、原名、剧情、制作公司、配音人员及首批五集范围共同确认，本 subject 对应 TMDB 87846 第一季整季，不包含2021年发布的第二季。季范围已确定；Bangumi 五个章节均缺少标题和日期，暂不仅凭编号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/87846 (api_snapshot): 以西班牙文原名搜索命中 TV 87846。详情确认原名、2020-09-10 首播、Zeppelin 制作及 Jack、Victoria 对抗亡灵法师势力的剧情一致；全剧分两季，每季五集。\n\nhttps://about.netflix.com/en/news/netflix-the-idhun-chronicles-launches-on-sept-10 (page): Netflix 官方公告确认这是西班牙剧情动画剧集，首批五集于 2020-09-10 上线，由 Zeppelin 制作，改编自 Laura Gallego 小说；剧情及主要配音演员与输入相符。输入把配音演员列为编剧，属于职务字段错误。\n\nhttps://www.themoviedb.org/tv/87846/season/1 (api_snapshot): 实际读取第一季西班牙语及英语集表，共五集且仅一页，全部标注 2020-09-10。英语集名依次为 Limbhad、You're not yet ready、The staff of Ayshel、Rescue plans、Come with me。\n\nhttps://www.netflix.com/title/81002001 (page): Netflix 正片页面列出的首批五集标题、顺序、剧情及每集26分钟时长，与 TMDB 第一季逐项一致。\n\n备注：Bangumi 在线章节页访问失败；输入章节标题与日期均为空，无法对 Bangumi 章节完成逐项内容核对。待补充章节资料后可确认连续映射规则。",
+    "evidence": "codex: 年份、原名、剧情、制作公司、配音人员及首批五集范围共同确认，本 subject 对应 TMDB 87846 第一季整季，不包含2021年发布的第二季。季范围已确定；Bangumi 五个章节均缺少标题和日期，暂不仅凭编号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/87846 (api_snapshot): 以西班牙文原名搜索命中 TV 87846。详情确认原名、2020-09-10 首播、Zeppelin 制作及 Jack、Victoria 对抗亡灵法师势力的剧情一致；全剧分两季，每季五集。\n\nhttps://about.netflix.com/en/news/netflix-the-idhun-chronicles-launches-on-sept-10 (page): Netflix 官方公告确认这是西班牙剧情动画剧集，首批五集于 2020-09-10 上线，由 Zeppelin 制作，改编自 Laura Gallego 小说；剧情及主要配音演员与输入相符。输入把配音演员列为编剧，属于职务字段错误。\n\nhttps://www.themoviedb.org/tv/87846/season/1 (api_snapshot): 实际读取第一季西班牙语及英语集表，共五集且仅一页，全部标注 2020-09-10。英语集名依次为 Limbhad、You're not yet ready、The staff of Ayshel、Rescue plans、Come with me。\n\nhttps://www.netflix.com/title/81002001 (page): Netflix 正片页面列出的首批五集标题、顺序、剧情及每集26分钟时长，与 TMDB 第一季逐项一致。\n\n备注：Bangumi 在线章节页访问失败；输入章节标题与日期均为空，无法对 Bangumi 章节完成逐项内容核对。待补充章节资料后可确认连续映射规则。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/335286; https://www.themoviedb.org/tv/87846; https://about.netflix.com/en/news/netflix-the-idhun-chronicles-launches-on-sept-10; https://www.themoviedb.org/tv/87846/season/1; https://www.netflix.com/title/81002001",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87846
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -120,12 +120,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、第二季标识、首播日期、23集总量及前后季日期相互吻合，可确认主体覆盖 TMDB 202998 第2季整季。Bangumi 逐集标题和日期全部为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/202998 (api_snapshot): 候选原名为 Star Wars: Young Jedi Adventures，属于动画剧集；第2季首播日期为2024-08-14，共23集，与 Bangumi 的季度、首播日期及总话数一致。已抓取季表完整列出第1至23集。\n\nhttps://www.themoviedb.org/tv/202998 (api_snapshot): 候选第1季始于2023-05-04，第3季始于2025-12-08，分别与 Bangumi 前作、续作的日期一致，支持本条目对应第2季。\n\n备注：Bangumi 未提供剧情及制作方信息，无法交叉核对这些维度。；逐集对应尚未确认；需补充 Bangumi 每集标题或放送日期，且 TMDB 第12至23集目前仅有占位标题。",
+    "evidence": "codex: 名称、第二季标识、首播日期、23集总量及前后季日期相互吻合，可确认主体覆盖 TMDB 202998 第2季整季。Bangumi 逐集标题和日期全部为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/202998 (api_snapshot): 候选原名为 Star Wars: Young Jedi Adventures，属于动画剧集；第2季首播日期为2024-08-14，共23集，与 Bangumi 的季度、首播日期及总话数一致。已抓取季表完整列出第1至23集。\n\nhttps://www.themoviedb.org/tv/202998 (api_snapshot): 候选第1季始于2023-05-04，第3季始于2025-12-08，分别与 Bangumi 前作、续作的日期一致，支持本条目对应第2季。\n\n备注：Bangumi 未提供剧情及制作方信息，无法交叉核对这些维度。；逐集对应尚未确认；需补充 Bangumi 每集标题或放送日期，且 TMDB 第12至23集目前仅有占位标题。\n\n脚本按声明范围生成逐集规则：23 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/500680; https://www.themoviedb.org/tv/202998",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 202998
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

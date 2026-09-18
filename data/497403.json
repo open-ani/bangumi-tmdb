@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、剧情、导演、制作方、媒介及13集范围共同确认该 subject 对应 TMDB 226745 第一季整季。Bangumi 输入章节均缺少标题与日期，无法逐集交叉核实，因此仅确认作品及季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/226745 (api_snapshot): 以原名 Camp Snoopy 搜索得到 TV 226745；详情中的露营剧情、导演 Rob Boutilier、WildBrain 制作及中文别名均与输入一致，第一季为2024年作品，共13集。\n\nhttps://www.themoviedb.org/tv/226745/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集，集号1至13，日期均为2024-06-13；内容从童军队面临解散开始，到夏令营结束，未发现混入其他作品。\n\nhttps://www.apple.com/tv-pr/news/2024/05/attention-campers-apple-tv-debuts-the-adorable-trailer-for-new-original-peanuts-series-camp-snoopy-premiering-globally-friday-june-14/ (page): Apple 官方公告确认本作为2024年6月14日首播的新动画系列，由 Rob Boutilier 执导，改编自 Charles M. Schulz 的漫画，由 Peanuts 与 WildBrain 制作；剧情与输入一致。\n\nhttps://www.tvguide.com/tvshows/camp-snoopy/episodes-season-1/1060444516/ (page): TV Guide 第一季列出13集，逐集标题和顺序均与 TMDB 第一季相符，所有集的发布日期均为2024年6月14日。\n\n备注：Bangumi subject 和章节网页访问失败；输入中的13个章节仅有编号，不能仅凭编号建立一一对应，需补充章节标题或日期后再核实。；TMDB 日期为2024-06-13，官方公告及 TV Guide 为2024-06-14；一天差异的具体原因未核实，不影响由其他证据确认的作品及季身份。",
+    "evidence": "codex: 年份、剧情、导演、制作方、媒介及13集范围共同确认该 subject 对应 TMDB 226745 第一季整季。Bangumi 输入章节均缺少标题与日期，无法逐集交叉核实，因此仅确认作品及季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/226745 (api_snapshot): 以原名 Camp Snoopy 搜索得到 TV 226745；详情中的露营剧情、导演 Rob Boutilier、WildBrain 制作及中文别名均与输入一致，第一季为2024年作品，共13集。\n\nhttps://www.themoviedb.org/tv/226745/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集，集号1至13，日期均为2024-06-13；内容从童军队面临解散开始，到夏令营结束，未发现混入其他作品。\n\nhttps://www.apple.com/tv-pr/news/2024/05/attention-campers-apple-tv-debuts-the-adorable-trailer-for-new-original-peanuts-series-camp-snoopy-premiering-globally-friday-june-14/ (page): Apple 官方公告确认本作为2024年6月14日首播的新动画系列，由 Rob Boutilier 执导，改编自 Charles M. Schulz 的漫画，由 Peanuts 与 WildBrain 制作；剧情与输入一致。\n\nhttps://www.tvguide.com/tvshows/camp-snoopy/episodes-season-1/1060444516/ (page): TV Guide 第一季列出13集，逐集标题和顺序均与 TMDB 第一季相符，所有集的发布日期均为2024年6月14日。\n\n备注：Bangumi subject 和章节网页访问失败；输入中的13个章节仅有编号，不能仅凭编号建立一一对应，需补充章节标题或日期后再核实。；TMDB 日期为2024-06-13，官方公告及 TV Guide 为2024-06-14；一天差异的具体原因未核实，不影响由其他证据确认的作品及季身份。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/497403; https://www.themoviedb.org/tv/226745; https://www.themoviedb.org/tv/226745/season/1; https://www.apple.com/tv-pr/news/2024/05/attention-campers-apple-tv-debuts-the-adorable-trailer-for-new-original-peanuts-series-camp-snoopy-premiering-globally-friday-june-14/; https://www.tvguide.com/tvshows/camp-snoopy/episodes-season-1/1060444516/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 226745
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

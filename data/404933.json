@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、上线日期、剧情、监督、制作公司及十集动画剧集的版本均吻合，确认 subject 覆盖 TMDB 205214 第一季整季。Bangumi 输入的十个章节均无标题和日期，无法独立逐集比对，因此仅确认整季范围，不凭章节位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/205214 (api_snapshot): TMDB 205214 为英语原作动画剧集《Mech Cadets》，首播日期为 2023-08-10，共一季十集；制作公司为 BOOM! Studios、Polygon Pictures，中文别名包含“机甲保卫队”，剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/205214/season/1 (api_snapshot): 第一季集表已完整读取，total_pages=1，共十集，均标注 2023-08-10 播出；各集标题及顺序与 Netflix 官方十集列表逐项一致，未混入其他作品。\n\nhttps://www.netflix.com/st/title/81004665 (page): Netflix 官方页面确认该作为 2023 年十集动画剧集，并提供第 1 至第 10 集的标题和剧情，与 TMDB 第一季逐项相符。\n\nhttps://www.ppi.co.jp/news/ppipr20230710/ (page): Polygon Pictures 官方公告确认本作为十集漫画改编动画，由 BOOM! Studios 制作、Polygon Pictures 制作动画，Tohru Patrick Awa 担任监督，2023-08-10 在 Netflix 上线；少年驾驶机器人抵御外星威胁的剧情与 Bangumi 输入一致。\n\n备注：逐集对应尚未确认：Bangumi 章节标题及播出日期为空，在线章节页亦未能读取；需补充章节资料后再建立 rules 或 overrides。",
+    "evidence": "codex: 年份、上线日期、剧情、监督、制作公司及十集动画剧集的版本均吻合，确认 subject 覆盖 TMDB 205214 第一季整季。Bangumi 输入的十个章节均无标题和日期，无法独立逐集比对，因此仅确认整季范围，不凭章节位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/205214 (api_snapshot): TMDB 205214 为英语原作动画剧集《Mech Cadets》，首播日期为 2023-08-10，共一季十集；制作公司为 BOOM! Studios、Polygon Pictures，中文别名包含“机甲保卫队”，剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/205214/season/1 (api_snapshot): 第一季集表已完整读取，total_pages=1，共十集，均标注 2023-08-10 播出；各集标题及顺序与 Netflix 官方十集列表逐项一致，未混入其他作品。\n\nhttps://www.netflix.com/st/title/81004665 (page): Netflix 官方页面确认该作为 2023 年十集动画剧集，并提供第 1 至第 10 集的标题和剧情，与 TMDB 第一季逐项相符。\n\nhttps://www.ppi.co.jp/news/ppipr20230710/ (page): Polygon Pictures 官方公告确认本作为十集漫画改编动画，由 BOOM! Studios 制作、Polygon Pictures 制作动画，Tohru Patrick Awa 担任监督，2023-08-10 在 Netflix 上线；少年驾驶机器人抵御外星威胁的剧情与 Bangumi 输入一致。\n\n备注：逐集对应尚未确认：Bangumi 章节标题及播出日期为空，在线章节页亦未能读取；需补充章节资料后再建立 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/404933; https://www.themoviedb.org/tv/205214; https://www.themoviedb.org/tv/205214/season/1; https://www.netflix.com/st/title/81004665; https://www.ppi.co.jp/news/ppipr20230710/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 205214
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

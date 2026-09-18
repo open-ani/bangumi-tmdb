@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品媒介、剧情角色、制作人员、播出平台、第二季首末日期和 9 集总量一致，确认对应 TMDB 40064 第 2 季整季。实际季表没有混入其他作品。Bangumi 的章节标题与日期全部为空，不能仅按编号位置建立逐集关系，因此保留整季匹配，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/425358 (page): Bangumi 标明本作为第二季 TV 动画，共 9 话，2014-10-18 至 2015-01-10 在 Adult Swim 播出；导演为 Carl Jones、ByungSan Park，制作方包括 Williams Street。\n\nhttps://www.themoviedb.org/tv/40064 (api_snapshot): TMDB 40064 是改编自同名 2009 年电影、采用独立连续性的动画电视系列，2012 年首播；角色包括 Black Dynamite、Bull Horn、Honeybee、Cream Corn，制作公司包括 Williams Street。详情将第二季列为 2014 年开始的 9 集，另列第一季和试播特别篇。\n\nhttps://www.themoviedb.org/tv/40064/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 9 集，编号 1–9。播出日期依次为 2014-10-18、10-25、11-01、11-08、11-15、11-22、11-29、12-06 和 2015-01-10。各集均为该动画的剧情章节，末集为加长篇，未拆成两集。\n\nhttps://www.primevideo.com/-/fr/detail/0QT69WJR4181PTOT0JUI34H2VX (page): Prime Video 将本作归为动画，剧情围绕 Black Dynamite 与朋友保护社区展开；导演 Carl Jones、ByungSan Park，以及制作人员 Byron Minns、Scott Sanders、Michael Jai White，与 Bangumi 的人员信息吻合。\n\nhttps://bgm.tv/subject/425358/ep (page): Bangumi 章节列表只有本篇编号 1–9，各章均缺少标题及放送日期，无法进行章节级标题、日期交叉核验。\n\n备注：9 个 Bangumi 章节的逐集对应尚未确认；需补充章节标题或放送日期后，与 TMDB 集表逐一比对。",
+    "evidence": "codex: 作品媒介、剧情角色、制作人员、播出平台、第二季首末日期和 9 集总量一致，确认对应 TMDB 40064 第 2 季整季。实际季表没有混入其他作品。Bangumi 的章节标题与日期全部为空，不能仅按编号位置建立逐集关系，因此保留整季匹配，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/425358 (page): Bangumi 标明本作为第二季 TV 动画，共 9 话，2014-10-18 至 2015-01-10 在 Adult Swim 播出；导演为 Carl Jones、ByungSan Park，制作方包括 Williams Street。\n\nhttps://www.themoviedb.org/tv/40064 (api_snapshot): TMDB 40064 是改编自同名 2009 年电影、采用独立连续性的动画电视系列，2012 年首播；角色包括 Black Dynamite、Bull Horn、Honeybee、Cream Corn，制作公司包括 Williams Street。详情将第二季列为 2014 年开始的 9 集，另列第一季和试播特别篇。\n\nhttps://www.themoviedb.org/tv/40064/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 9 集，编号 1–9。播出日期依次为 2014-10-18、10-25、11-01、11-08、11-15、11-22、11-29、12-06 和 2015-01-10。各集均为该动画的剧情章节，末集为加长篇，未拆成两集。\n\nhttps://www.primevideo.com/-/fr/detail/0QT69WJR4181PTOT0JUI34H2VX (page): Prime Video 将本作归为动画，剧情围绕 Black Dynamite 与朋友保护社区展开；导演 Carl Jones、ByungSan Park，以及制作人员 Byron Minns、Scott Sanders、Michael Jai White，与 Bangumi 的人员信息吻合。\n\nhttps://bgm.tv/subject/425358/ep (page): Bangumi 章节列表只有本篇编号 1–9，各章均缺少标题及放送日期，无法进行章节级标题、日期交叉核验。\n\n备注：9 个 Bangumi 章节的逐集对应尚未确认；需补充章节标题或放送日期后，与 TMDB 集表逐一比对。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/425358; https://www.themoviedb.org/tv/40064; https://www.themoviedb.org/tv/40064/season/2; https://www.primevideo.com/-/fr/detail/0QT69WJR4181PTOT0JUI34H2VX; https://bgm.tv/subject/425358/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 40064
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季级范围可确认对应41997第6季：季别名、20集总量、完整放送起止日期及前后作衔接均吻合。Bangumi逐集标题和日期全部缺失，候选标题也仅为集号，无法核实逐集顺序，因此只提交整季范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 第6季共20集，首末集日期为2021-04-05、2022-03-25，与Bangumi别名、集数及放送起止日期一致；第5、7季首播日期也分别吻合Bangumi前后作日期。\n\nhttps://www.themoviedb.org/tv/301677 (api_snapshot): 同名独立条目第1季仅14集，日期覆盖2021-04-05至2021-07-05，且排期与另一候选第6季不同，无法确认覆盖本subject的20集范围。\n\n备注：缺少Bangumi逐集标题或放送日期，不能仅按sort与TMDB集号的位置建立连续规则；需补充逐集资料后核对。；同名独立条目的14集与本subject的20集之间关系尚不明确。",
+    "evidence": "codex: 季级范围可确认对应41997第6季：季别名、20集总量、完整放送起止日期及前后作衔接均吻合。Bangumi逐集标题和日期全部缺失，候选标题也仅为集号，无法核实逐集顺序，因此只提交整季范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 第6季共20集，首末集日期为2021-04-05、2022-03-25，与Bangumi别名、集数及放送起止日期一致；第5、7季首播日期也分别吻合Bangumi前后作日期。\n\nhttps://www.themoviedb.org/tv/301677 (api_snapshot): 同名独立条目第1季仅14集，日期覆盖2021-04-05至2021-07-05，且排期与另一候选第6季不同，无法确认覆盖本subject的20集范围。\n\n备注：缺少Bangumi逐集标题或放送日期，不能仅按sort与TMDB集号的位置建立连续规则；需补充逐集资料后核对。；同名独立条目的14集与本subject的20集之间关系尚不明确。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/631047; https://www.themoviedb.org/tv/41997; https://www.themoviedb.org/tv/301677",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 41997
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

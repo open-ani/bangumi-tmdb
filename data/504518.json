@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、完结日期、12 集总量及 Crunchyroll 关联信息一致，可确认对应 TV 99777 第 1 季。Bangumi 各集标题和日期全部缺失，无法逐集交叉核对，因此只声明整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/99777 (api_snapshot): 候选 TV 99777 与 Bangumi 名称相同，首播日期均为 2020-11-21；候选制作方包含 Crunchyroll，与 Bangumi 标注的网络平台及官网一致。\n\nhttps://www.themoviedb.org/tv/99777 (api_snapshot): 候选仅列第 1 季，共 12 集，放送日期覆盖 2020-11-21 至 2020-12-26，与 Bangumi 的总集数及放送起止日期一致，支持整季范围对应。\n\n备注：候选未提供剧情简介，无法直接核对剧情。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期。TMDB 当前标题仅为通用集号，不能独立证明逐集对应。",
+    "evidence": "codex: 名称、首播日期、完结日期、12 集总量及 Crunchyroll 关联信息一致，可确认对应 TV 99777 第 1 季。Bangumi 各集标题和日期全部缺失，无法逐集交叉核对，因此只声明整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/99777 (api_snapshot): 候选 TV 99777 与 Bangumi 名称相同，首播日期均为 2020-11-21；候选制作方包含 Crunchyroll，与 Bangumi 标注的网络平台及官网一致。\n\nhttps://www.themoviedb.org/tv/99777 (api_snapshot): 候选仅列第 1 季，共 12 集，放送日期覆盖 2020-11-21 至 2020-12-26，与 Bangumi 的总集数及放送起止日期一致，支持整季范围对应。\n\n备注：候选未提供剧情简介，无法直接核对剧情。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期。TMDB 当前标题仅为通用集号，不能独立证明逐集对应。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/504518; https://www.themoviedb.org/tv/99777",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 99777
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

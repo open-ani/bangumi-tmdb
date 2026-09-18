@@ -1,16 +1,156 @@
 {
   "anidbId": 5316,
   "bangumiId": 2888,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 19010,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 19011,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 19012,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 19013,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 19014,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 19015,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 19016,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 19017,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 19018,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 19019,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 19020,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 19021,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 19022,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 19023,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 19024,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 19025,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 19026,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 19027,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 19028,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 19029,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 19030,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 19031,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 19032,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 19033,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 19034,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 19035,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《メジャー 第4シリーズ》TV，2008-01-05 至 2008-06-28，共26集，制作方为 SynergySP、NHK及小学馆。Bangumi 页面还将剧场版列为衍生关联，故不纳入本 subject。AniDB ID 5316 的标题对应 Major (2008)，外部资料将其明确描述为 Major S4、26集、Winter 2008、SynergySP，并以吾郎赴美国挑战小联盟为主线。TMDB TV 29602 的 season 4 同样为 2008-01-05、26集；完整剧集标题与 Bangumi 逐集对应，剧情也一致，因此采用整季范围。TMDB 快照中第15、17集日期存在明显元数据错误，但标题、顺序、剧情及其余日期均支持同一版本，不足以否定匹配。\n\nhttps://bangumi.tv/subject/2888 (page): Bangumi 条目标为 TV《メジャー 第4シリーズ》，话数26，放送开始2008-01-05，结束2008-06-28，制作公司SynergySP，制作NHK、小学馆プロダクション；剧场版被列为衍生关联。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB 条目编号5316对应标题 Major (2008)。\n\nhttps://anilist.co/anime/3226/Major-S4 (search_snippet): 搜索摘要将该条目标为 Major S4，TV、26集、Winter 2008、SynergySP，并说明故事从吾郎前往美国参加小联盟挑战开始；摘要注明资料来源为 AniDB。\n\nhttps://www.themoviedb.org/tv/29602 (api_snapshot): TMDB TV 29602《メジャー》包含 season 4，首播2008-01-05、26集。\n\nhttps://www.themoviedb.org/tv/29602/season/4 (api_snapshot): TMDB season 4 为2008-01-05、26集；26个剧集标题与 Bangumi 条目逐集对应，简介内容也对应吾郎赴美、小联盟及季末季后赛主线。\n\n备注：TMDB 快照第15集和第17集的 air_date 分别错误显示为2008-03-22；应以剧集标题、顺序和 Bangumi/其他剧集资料交叉判断，不能将该日期差异解释为另一季。；AniDB 页面本身访问返回403，AniDB ID与标题的核对依赖可读取的索引摘要及输入中已匹配的名称数据。",
+    "evidence": "codex: 作品媒介、制作公司、角色、第四季年份与26集总量相符；完整集表的标题、顺序及24集播出日期一致，支持Bangumi本篇1—26集连续对应TMDB第四季1—26集。整季恰好覆盖本subject，未混入其他季度、剧场版或特别篇。\n\nhttps://bgm.tv/subject/2888 (page): Bangumi 明确标为《メジャー 第4シリーズ》TV，共26集，播出时间为2008-01-05至2008-06-28；原作为满田拓也，动画制作为SynergySP，制作为NHK、小学馆Production。\n\nhttps://www.themoviedb.org/tv/29602 (api_snapshot): 以日文原名“メジャー”搜索后读取作品详情：TMDB 29602为2004年开始的《メジャー》电视系列，制作公司包含SynergySP、NHK和小学馆Production，角色及配音对应吾郎、寿也等；第四季列为2008-01-05开播、26集。\n\nhttps://www.themoviedb.org/tv/29602/season/4 (api_snapshot): 已读取第四季完整26集，total_pages=1。与输入的Bangumi章节逐集比较，26集标题和顺序均对应，仅有空格、数字全半角及第25集附加读音等表记差异；24集日期一致。剧情从吾郎赴美参加入团测试延续至小联盟季后赛决战。第15、17集日期均记为2008-03-22，与Bangumi分别记载的2008-04-12、2008-04-26冲突。\n\n备注：TMDB第四季第15、17集存在播出日期冲突，疑为元数据错误；两集标题及剧情连续性支持当前对应，不影响集号映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2888; https://bangumi.tv/subject/2888; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anilist.co/anime/3226/Major-S4; https://www.themoviedb.org/tv/29602; https://www.themoviedb.org/tv/29602/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2888; https://www.themoviedb.org/tv/29602; https://www.themoviedb.org/tv/29602/season/4",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 29602
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

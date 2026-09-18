@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、第五季上线日期、平台、6集总量及前后季关系均吻合，确认 subject 覆盖 TMDB 136322 第五季整季。外部集表与 TMDB 逐集一致，但输入的 Bangumi 章节标题和日期全部为空，无法独立核实各章节身份，故不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): 以英文原名搜索得到 TV 136322；详情确认其为 DreamWorks Animation Television 制作的英语动画《Dragons: The Nine Realms》，剧情发生在《驯龙高手》事件约1300年后，共八季。\n\nhttps://www.themoviedb.org/tv/136322/season/5 (api_snapshot): 第五季实际集表共6集、仅1页，全部于2023年3月2日播出，集号为1至6；首集为 Punishment and Torcher，末集为 Deep Freeze。第四、六季日期亦分别与输入的前后续条目日期一致。\n\nhttps://www.dreamworks.com/shows/dragons-the-nine-realms (search_snippet): DreamWorks 官方介绍确认这是现代少年在地质裂隙中发现隐藏龙族的故事，与 TMDB 剧情一致。\n\nhttps://www.mikrosanimation.com/en/news/dragons-the-nine-realms-season-5-today/ (search_snippet): 制作方 Mikros Animation 的第五季公告确认新集于3月2日在 Hulu 和 Peacock 上线，与输入的季别、日期和平台一致。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-5/1000992344/ (search_snippet): TV Guide 的第五季集表列出6集，其各集标题、排列顺序及2023年3月2日的播出日期均与 TMDB 第五季一致。\n\n备注：Bangumi 页面访问失败；其章节信息依据用户提供的快照。需补充 Bangumi 各集标题或播出日期后，才能建立有直接依据的逐集映射。",
+    "evidence": "codex: 作品版本、第五季上线日期、平台、6集总量及前后季关系均吻合，确认 subject 覆盖 TMDB 136322 第五季整季。外部集表与 TMDB 逐集一致，但输入的 Bangumi 章节标题和日期全部为空，无法独立核实各章节身份，故不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): 以英文原名搜索得到 TV 136322；详情确认其为 DreamWorks Animation Television 制作的英语动画《Dragons: The Nine Realms》，剧情发生在《驯龙高手》事件约1300年后，共八季。\n\nhttps://www.themoviedb.org/tv/136322/season/5 (api_snapshot): 第五季实际集表共6集、仅1页，全部于2023年3月2日播出，集号为1至6；首集为 Punishment and Torcher，末集为 Deep Freeze。第四、六季日期亦分别与输入的前后续条目日期一致。\n\nhttps://www.dreamworks.com/shows/dragons-the-nine-realms (search_snippet): DreamWorks 官方介绍确认这是现代少年在地质裂隙中发现隐藏龙族的故事，与 TMDB 剧情一致。\n\nhttps://www.mikrosanimation.com/en/news/dragons-the-nine-realms-season-5-today/ (search_snippet): 制作方 Mikros Animation 的第五季公告确认新集于3月2日在 Hulu 和 Peacock 上线，与输入的季别、日期和平台一致。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-5/1000992344/ (search_snippet): TV Guide 的第五季集表列出6集，其各集标题、排列顺序及2023年3月2日的播出日期均与 TMDB 第五季一致。\n\n备注：Bangumi 页面访问失败；其章节信息依据用户提供的快照。需补充 Bangumi 各集标题或播出日期后，才能建立有直接依据的逐集映射。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552117; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/5; https://www.dreamworks.com/shows/dragons-the-nine-realms; https://www.mikrosanimation.com/en/news/dragons-the-nine-realms-season-5-today/; https://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-5/1000992344/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 136322
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

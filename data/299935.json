@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原作、制作人员、制作公司、媒介、首播日期及13集规模共同确认，本 subject 对应 TMDB 86957 第一季全季。Bangumi 简介中的“预计2018年”是早期计划，实际首播日期已由出版方公告核实。作品及季范围明确，但 Bangumi 章节标题和日期均为空，无法逐集交叉比对，因此不按序号猜测生成 rules。\n\nhttps://bgm.tv/subject/299935 (page): Bangumi 标注本作于2019年11月8日开播，共13话，原作为 Dr. Seuss，编剧为 Jared Stern；简介明确指向 Netflix 与华纳动画制作的同名改编剧集。\n\nhttps://www.themoviedb.org/tv/86957 (api_snapshot): TMDB 86957 为2019年11月8日首播的英语动画剧集，制作公司包括 Warner Bros. Animation，剧情围绕 Guy 与 Sam 的冒险展开；第一季13集，2022年的第二季另有10集。\n\nhttps://www.themoviedb.org/tv/86957/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集，全部日期为2019年11月8日；第1集为 Here，第13集为 Anywhere，范围未混入第二季。\n\nhttps://global.penguinrandomhouse.com/announcements/new-green-eggs-and-ham-netflix-series-debuts-today/ (page): 原作出版方2019年11月8日公告确认：Netflix 当天推出根据 Dr. Seuss 原作改编的13集动画，创作者为 Jared Stern。\n\nhttps://www.netflix.com/title/80057250 (page): Netflix 官方页面确认2019年动画剧集及 Guy、Sam 的故事；页面展示的第1至10集标题和剧情均与 TMDB 第一季相应集吻合。\n\n备注：13个 Bangumi 章节缺少标题和播出日期；逐章对应暂留空，待补充可识别的章节资料后核实。",
+    "evidence": "codex: 原作、制作人员、制作公司、媒介、首播日期及13集规模共同确认，本 subject 对应 TMDB 86957 第一季全季。Bangumi 简介中的“预计2018年”是早期计划，实际首播日期已由出版方公告核实。作品及季范围明确，但 Bangumi 章节标题和日期均为空，无法逐集交叉比对，因此不按序号猜测生成 rules。\n\nhttps://bgm.tv/subject/299935 (page): Bangumi 标注本作于2019年11月8日开播，共13话，原作为 Dr. Seuss，编剧为 Jared Stern；简介明确指向 Netflix 与华纳动画制作的同名改编剧集。\n\nhttps://www.themoviedb.org/tv/86957 (api_snapshot): TMDB 86957 为2019年11月8日首播的英语动画剧集，制作公司包括 Warner Bros. Animation，剧情围绕 Guy 与 Sam 的冒险展开；第一季13集，2022年的第二季另有10集。\n\nhttps://www.themoviedb.org/tv/86957/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集，全部日期为2019年11月8日；第1集为 Here，第13集为 Anywhere，范围未混入第二季。\n\nhttps://global.penguinrandomhouse.com/announcements/new-green-eggs-and-ham-netflix-series-debuts-today/ (page): 原作出版方2019年11月8日公告确认：Netflix 当天推出根据 Dr. Seuss 原作改编的13集动画，创作者为 Jared Stern。\n\nhttps://www.netflix.com/title/80057250 (page): Netflix 官方页面确认2019年动画剧集及 Guy、Sam 的故事；页面展示的第1至10集标题和剧情均与 TMDB 第一季相应集吻合。\n\n备注：13个 Bangumi 章节缺少标题和播出日期；逐章对应暂留空，待补充可识别的章节资料后核实。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/299935; https://www.themoviedb.org/tv/86957; https://www.themoviedb.org/tv/86957/season/1; https://global.penguinrandomhouse.com/announcements/new-green-eggs-and-ham-netflix-series-debuts-today/; https://www.netflix.com/title/80057250",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 86957
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

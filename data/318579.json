@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 196638第2季整季。官方第二系列的媒介、年份、开播日、26集规模、制作人员、角色和剧情背景均吻合；实际季表完整列出26集，支持整季范围。逐集证据不足，故不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/196638 (api_snapshot): 日文原名搜索命中 TV 196638；详情确认原名相同、圆谷制作出品，主演久野美咲、福圓美里、真堂圭与官方一致。全剧两季52集，第2季标注2020-09-25开播、26集。\n\nhttps://www.themoviedb.org/tv/196638/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，编号1—26，每集5分钟。标题均为通用的“第N話”，日期从2020-09-25至2021-03-19，其中第25集标为2021-03-12。\n\nhttps://www.kaijustep.com/news/1480/ (page): 官方第2系列公告明确：2020-09-25在NHK Eテレ开播，全26话；导演うもとゆーじ、系列构成青池良輔、音乐立山秋航，制作方为圆谷与NHKエンタープライズ。剧情延续チョーチイ星的小怪兽故事，并增加四名角色，确认是该电视动画第二系列。\n\nhttps://www.kaijustep.com/anime/ (page): 官方剧情介绍包含ピグちゃん、カネちゃん、ダダちゃん在チョーチイ星开办帮助大家的“かいじゅうやさん”，与输入的故事背景一致。\n\nhttps://www.kaijustep.com/news/1994/ (page): 官方确认第25话实际于2021-03-19播出，与TMDB第25集的2021-03-12不一致，证明季表存在逐集日期错误。\n\n备注：输入的Bangumi章节均无标题和日期，TMDB也仅有通用集名，无法进行可靠的逐集标题比对。；TMDB第25集日期与官方冲突，末集日期也比Bangumi记录的结束日期早一周；不能据其日期或编号直接推定全部章节一一对应。后续需补充可核验的逐集资料。",
+    "evidence": "codex: 确认对应TMDB 196638第2季整季。官方第二系列的媒介、年份、开播日、26集规模、制作人员、角色和剧情背景均吻合；实际季表完整列出26集，支持整季范围。逐集证据不足，故不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/196638 (api_snapshot): 日文原名搜索命中 TV 196638；详情确认原名相同、圆谷制作出品，主演久野美咲、福圓美里、真堂圭与官方一致。全剧两季52集，第2季标注2020-09-25开播、26集。\n\nhttps://www.themoviedb.org/tv/196638/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，编号1—26，每集5分钟。标题均为通用的“第N話”，日期从2020-09-25至2021-03-19，其中第25集标为2021-03-12。\n\nhttps://www.kaijustep.com/news/1480/ (page): 官方第2系列公告明确：2020-09-25在NHK Eテレ开播，全26话；导演うもとゆーじ、系列构成青池良輔、音乐立山秋航，制作方为圆谷与NHKエンタープライズ。剧情延续チョーチイ星的小怪兽故事，并增加四名角色，确认是该电视动画第二系列。\n\nhttps://www.kaijustep.com/anime/ (page): 官方剧情介绍包含ピグちゃん、カネちゃん、ダダちゃん在チョーチイ星开办帮助大家的“かいじゅうやさん”，与输入的故事背景一致。\n\nhttps://www.kaijustep.com/news/1994/ (page): 官方确认第25话实际于2021-03-19播出，与TMDB第25集的2021-03-12不一致，证明季表存在逐集日期错误。\n\n备注：输入的Bangumi章节均无标题和日期，TMDB也仅有通用集名，无法进行可靠的逐集标题比对。；TMDB第25集日期与官方冲突，末集日期也比Bangumi记录的结束日期早一周；不能据其日期或编号直接推定全部章节一一对应。后续需补充可核验的逐集资料。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/318579; https://www.themoviedb.org/tv/196638; https://www.themoviedb.org/tv/196638/season/2; https://www.kaijustep.com/news/1480/; https://www.kaijustep.com/anime/; https://www.kaijustep.com/news/1994/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 196638
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

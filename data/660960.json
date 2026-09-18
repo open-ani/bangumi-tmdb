@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份、制作方、前后季日期和集数共同支持对应 TMDB 195926 第2季整季。季表完整覆盖这10集，未见混入其他作品。Bangumi 各章节均缺少标题和日期，无法逐集交叉核实，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/195926 (api_snapshot): 候选原名一致，媒介为动画剧集，制作公司 Atomic Monster、Dark Horse Entertainment、Gaumont 与 Bangumi 制作信息相符。第2季共10集，全部于2022年9月1日上线，与 subject 的季别、总集数及放送起止日期一致；第1季于2022年4月28日上线，也与 Bangumi 前作关系吻合。\n\n备注：Bangumi 10个章节的标题、放送日期均为空，TMDB 标题也仅为通用集号；需补充可比对的章节标题或其他逐集标识后，才能确认逐集对应。",
+    "evidence": "codex: 作品身份、制作方、前后季日期和集数共同支持对应 TMDB 195926 第2季整季。季表完整覆盖这10集，未见混入其他作品。Bangumi 各章节均缺少标题和日期，无法逐集交叉核实，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/195926 (api_snapshot): 候选原名一致，媒介为动画剧集，制作公司 Atomic Monster、Dark Horse Entertainment、Gaumont 与 Bangumi 制作信息相符。第2季共10集，全部于2022年9月1日上线，与 subject 的季别、总集数及放送起止日期一致；第1季于2022年4月28日上线，也与 Bangumi 前作关系吻合。\n\n备注：Bangumi 10个章节的标题、放送日期均为空，TMDB 标题也仅为通用集号；需补充可比对的章节标题或其他逐集标识后，才能确认逐集对应。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/660960; https://www.themoviedb.org/tv/195926",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 195926
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

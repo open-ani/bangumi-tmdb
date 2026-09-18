@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品原名、动画媒介、制作公司、第3季上线日期及8集总量一致，可确认对应 TMDB 111111 第3季整季。Bangumi 逐集标题和日期均为空，暂不建立仅凭位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/111111 (api_snapshot): 候选原名为 Blood of Zeus，制作公司 Powerhouse Animation Studios、Asia Minor Pictures 与 Bangumi 资料一致。第3季首播日期为2025-05-08，共8集，符合该 subject 的季别、日期与集数；季表列出的第1至8集均于该日上线。\n\n备注：Bangumi 缺少逐集标题与放送日期，TMDB 第3季标题也仅为通用集号；需补充可比对的章节信息后确认逐集对应。；Bangumi 简介为空，无法独立核对剧情。",
+    "evidence": "codex: 作品原名、动画媒介、制作公司、第3季上线日期及8集总量一致，可确认对应 TMDB 111111 第3季整季。Bangumi 逐集标题和日期均为空，暂不建立仅凭位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/111111 (api_snapshot): 候选原名为 Blood of Zeus，制作公司 Powerhouse Animation Studios、Asia Minor Pictures 与 Bangumi 资料一致。第3季首播日期为2025-05-08，共8集，符合该 subject 的季别、日期与集数；季表列出的第1至8集均于该日上线。\n\n备注：Bangumi 缺少逐集标题与放送日期，TMDB 第3季标题也仅为通用集号；需补充可比对的章节信息后确认逐集对应。；Bangumi 简介为空，无法独立核对剧情。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/568430; https://www.themoviedb.org/tv/111111",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 111111
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

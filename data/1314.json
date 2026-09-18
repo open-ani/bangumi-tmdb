@@ -1,16 +1,151 @@
 {
   "anidbId": 6103,
   "bangumiId": 1314,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 4135,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 4136,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 4137,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 4138,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 4139,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 4140,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 4141,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 4142,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 4143,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 4144,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 4145,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 4146,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 4147,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 4148,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 4149,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 4150,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 4151,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 4152,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 4153,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 4154,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 4155,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 4156,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 4157,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 4158,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 4159,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 1314 明确是 2008 年播出的《スキップ・ビート!》TV 动画，共 25 集；BangumiExtLinker 当前数据明确将 bgm_id 1314 映射至 AniDB 6103。TMDB TV 46669 名称、首播日期、剧情、25 集数量及第 1 季完整剧集标题均与该版本逐集对应，因此推荐 TMDB TV 46669 第 1 季完整范围。Bangumi 与 TMDB 最后一集日期相差约一周，但不影响标题、版本和完整 25 集范围的确认。\n\nhttps://bgm.tv/subject/1314 (page): Bangumi 条目标记为 TV，名称为「スキップ・ビート!」，共 25 集，首播 2008-10-05；页面列出第 1–25 集及其日期。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/main/data/anime_map.json (page): BangumiExtLinker 数据第 276 行明确记录 bgm_id 1314、名称「スキップ・ビート!」、日期 2008-10，并映射 anidb_id 6103。\n\nhttps://www.themoviedb.org/tv/46669 (api_snapshot): TMDB API 快照显示 TV 46669 为「スキップ・ビート！」，首播 2008-10-05，共 25 集，包含第 1 季且该季为 25 集。\n\nhttps://www.themoviedb.org/tv/46669/season/1 (api_snapshot): TMDB 第 1 季为 25 集；第 1–25 集标题与 Bangumi 条目的 25 集标题逐集对应，剧情内容也对应同一 TV 动画版本。\n\n备注：Bangumi 第 25 集日期为 2009-03-22，而 TMDB 第 25 集日期为 2009-03-30，可能是地区或数据录入差异。",
+    "evidence": "codex: 年份、电视动画版本、剧情、导演、制作公司及25集完整标题顺序均吻合，确认对应 TMDB 46669 第1季整季。本篇第1—25话与 S01E01—S01E25 一一对应；官方集表也证实后半段日期差异不影响逐集映射。\n\nhttps://www.themoviedb.org/tv/46669 (api_snapshot): 日文原名搜索命中 TV 46669；详情确认首播为2008-10-05，导演为佐山聖子，制作公司包含 Hal Film Maker，共1季25集。最上恭子因不破尚的背叛而进入演艺界的剧情与输入一致，确认是同一版电视动画。\n\nhttps://www.themoviedb.org/tv/46669/season/1 (api_snapshot): 第1季完整集表共25集，total_pages=1。与输入逐集比较，25集标题及顺序一致，仅第5集标点、第20集读音注记存在差别。第1—13集日期一致；第14—19集比输入晚7天，第20—25集晚8天。全季未混入其他作品。\n\nhttps://www.tv-tokyo.co.jp/contents/s-beat/episodes/episodes2/ (page): 电视东京官方第14—25集列表确认相同的标题、顺序和剧情；第14集日期为2009-01-11，第20集为2009-02-22，第25集为2009-03-29。输入中第14—25集日期均比官方早7天，TMDB第20—25集则比官方晚1天；日期差异不构成集号错位。\n\n备注：TMDB第20—25集比官方标示日期晚1天，可能源于深夜节目跨日记法，但具体录入原因未确认；映射范围和集序无歧义。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1314; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/main/data/anime_map.json; https://www.themoviedb.org/tv/46669; https://www.themoviedb.org/tv/46669/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1314; https://www.themoviedb.org/tv/46669; https://www.themoviedb.org/tv/46669/season/1; https://www.tv-tokyo.co.jp/contents/s-beat/episodes/episodes2/",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46669
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

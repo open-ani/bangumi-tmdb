@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、制作公司、主要配音、媒介、季首播日期和集数均吻合，确认对应 TMDB 66558 第七季整季。实际季表覆盖独立的 13 集主体，未混入其他季或特别篇。Bangumi 章节缺少标题和逐集日期，无法进行逐集内容核对，因此只确认整季范围，暂不填写连续规则或章节特例。\n\nhttps://bgm.tv/subject/254986 (page): Bangumi 标明本作为 Netflix WEB 动画第七季，2018-08-10 开始放送，共 13 话；动画制作是 Studio MIR，配音包括 Josh Keaton、Steven Yeun、Jeremy Shada。章节列表仅显示 01–13，没有标题。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): TMDB details 确认 66558 为英语动画系列 Voltron: Legendary Defender，2016-06-10 开播、2018-12-14 完结，共八季；制作公司包含 Studio Mir 和 DreamWorks Animation Television，主要角色及配音与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/66558/season/7 (api_snapshot): 实际读取第七季完整集表，total_pages=1，共 13 集，集号连续为 1–13，全部日期为 2018-08-10；首集为 A Little Adventure，末集为 Lions' Pride (2)。本季剧情围绕队员返回地球及保卫地球展开。\n\nhttps://www.dreamworks.com/shows/voltron-legendary-defender (page): DreamWorks 官方将本作列为电视系列，剧情为五名地球少年驾驶机械狮并组成 Voltron 保卫宇宙，与 TMDB 的作品简介一致。\n\n备注：Bangumi 的 13 个章节仅有序号，标题和日期均为空；逐集映射需补充可核实的章节标题或日期，不能仅按位置建立对应。；TMDB details 的 crew 为空，未能逐人核对导演及执行制片人；已核实制作公司和主要配音一致。",
+    "evidence": "codex: 作品版本、制作公司、主要配音、媒介、季首播日期和集数均吻合，确认对应 TMDB 66558 第七季整季。实际季表覆盖独立的 13 集主体，未混入其他季或特别篇。Bangumi 章节缺少标题和逐集日期，无法进行逐集内容核对，因此只确认整季范围，暂不填写连续规则或章节特例。\n\nhttps://bgm.tv/subject/254986 (page): Bangumi 标明本作为 Netflix WEB 动画第七季，2018-08-10 开始放送，共 13 话；动画制作是 Studio MIR，配音包括 Josh Keaton、Steven Yeun、Jeremy Shada。章节列表仅显示 01–13，没有标题。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): TMDB details 确认 66558 为英语动画系列 Voltron: Legendary Defender，2016-06-10 开播、2018-12-14 完结，共八季；制作公司包含 Studio Mir 和 DreamWorks Animation Television，主要角色及配音与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/66558/season/7 (api_snapshot): 实际读取第七季完整集表，total_pages=1，共 13 集，集号连续为 1–13，全部日期为 2018-08-10；首集为 A Little Adventure，末集为 Lions' Pride (2)。本季剧情围绕队员返回地球及保卫地球展开。\n\nhttps://www.dreamworks.com/shows/voltron-legendary-defender (page): DreamWorks 官方将本作列为电视系列，剧情为五名地球少年驾驶机械狮并组成 Voltron 保卫宇宙，与 TMDB 的作品简介一致。\n\n备注：Bangumi 的 13 个章节仅有序号，标题和日期均为空；逐集映射需补充可核实的章节标题或日期，不能仅按位置建立对应。；TMDB details 的 crew 为空，未能逐人核对导演及执行制片人；已核实制作公司和主要配音一致。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/254986; https://www.themoviedb.org/tv/66558; https://www.themoviedb.org/tv/66558/season/7; https://www.dreamworks.com/shows/voltron-legendary-defender",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 66558
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

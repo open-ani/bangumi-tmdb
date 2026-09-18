@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度标识、首播日期、52集规模及前作日期相互吻合，可确认对应TMDB 280348第3季整季。逐集证据不足，暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/280348 (api_snapshot): 候选《美食大冒险》为中国动画剧集，第3季首播于2017-01-03，共52集，与本条目的第三季标识、首播日期及本篇集数一致；季表完整列出第1至52集。\n\nhttps://www.themoviedb.org/tv/280348 (api_snapshot): 该候选第2季首播于2015-01-17，与Bangumi关联前作《美食大冒险 非洲篇》的日期一致，支持系列季度关系。\n\n备注：Bangumi全部章节缺少标题和放送日期，TMDB标题均为编号占位，无法独立核实逐集顺序；需补充实际集标题或Bangumi逐集日期。；候选缺少剧情简介，Bangumi未提供制作方，无法交叉核对欧洲篇剧情及制作信息。",
+    "evidence": "codex: 季度标识、首播日期、52集规模及前作日期相互吻合，可确认对应TMDB 280348第3季整季。逐集证据不足，暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/280348 (api_snapshot): 候选《美食大冒险》为中国动画剧集，第3季首播于2017-01-03，共52集，与本条目的第三季标识、首播日期及本篇集数一致；季表完整列出第1至52集。\n\nhttps://www.themoviedb.org/tv/280348 (api_snapshot): 该候选第2季首播于2015-01-17，与Bangumi关联前作《美食大冒险 非洲篇》的日期一致，支持系列季度关系。\n\n备注：Bangumi全部章节缺少标题和放送日期，TMDB标题均为编号占位，无法独立核实逐集顺序；需补充实际集标题或Bangumi逐集日期。；候选缺少剧情简介，Bangumi未提供制作方，无法交叉核对欧洲篇剧情及制作信息。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/452018; https://www.themoviedb.org/tv/280348",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 280348
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

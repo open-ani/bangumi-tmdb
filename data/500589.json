@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画属性、周二排期及整季 10 集规模一致，支持 subject 对应候选第 1 季。Bangumi 各集标题和日期均为空，无法进行逐集交叉核验，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/286576 (api_snapshot): 候选 TV 286576《逆战之路》为中国动画，首播日期为 2025-01-21，与 Bangumi 名称、首播日期一致；其第 1 季共 10 集，与 Bangumi 本篇总数一致，季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/tv/286576 (api_snapshot): 第 1 季 10 集排期为 2025-01-21 至 2025-03-25，每周二播出，与 Bangumi 标注的放送星期一致；候选逐集标题均为通用集号。\n\n备注：候选未提供剧情简介及制作公司，无法核对剧情与制作方。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期后再建立 rules 或 overrides。",
+    "evidence": "codex: 名称、首播日期、动画属性、周二排期及整季 10 集规模一致，支持 subject 对应候选第 1 季。Bangumi 各集标题和日期均为空，无法进行逐集交叉核验，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/286576 (api_snapshot): 候选 TV 286576《逆战之路》为中国动画，首播日期为 2025-01-21，与 Bangumi 名称、首播日期一致；其第 1 季共 10 集，与 Bangumi 本篇总数一致，季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/tv/286576 (api_snapshot): 第 1 季 10 集排期为 2025-01-21 至 2025-03-25，每周二播出，与 Bangumi 标注的放送星期一致；候选逐集标题均为通用集号。\n\n备注：候选未提供剧情简介及制作公司，无法核对剧情与制作方。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期后再建立 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/500589; https://www.themoviedb.org/tv/286576",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 286576
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

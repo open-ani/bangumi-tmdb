@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、制作及平台信息和26集规模共同支持对应TMDB 281607第1季整季。Bangumi各集标题与日期均为空，无法逐集交叉核实，故只确认整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/281607 (api_snapshot): 候选《克金玩家》为中国动画，首播日期为2025-06-10，制作公司包含Youku与QINGXIANG，与Bangumi的首播日期、优酷平台及晴祥文化信息吻合。第1季共26集，与subject本篇总数一致；季表列出完整第1—26集，放送日期为2025-06-10至2025-11-25。\n\n备注：候选未提供剧情简介，无法核对剧情细节。；逐集对应需补充Bangumi各集标题或放送日期；目前不能仅凭集号位置生成映射。",
+    "evidence": "codex: 名称、首播日期、制作及平台信息和26集规模共同支持对应TMDB 281607第1季整季。Bangumi各集标题与日期均为空，无法逐集交叉核实，故只确认整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/281607 (api_snapshot): 候选《克金玩家》为中国动画，首播日期为2025-06-10，制作公司包含Youku与QINGXIANG，与Bangumi的首播日期、优酷平台及晴祥文化信息吻合。第1季共26集，与subject本篇总数一致；季表列出完整第1—26集，放送日期为2025-06-10至2025-11-25。\n\n备注：候选未提供剧情简介，无法核对剧情细节。；逐集对应需补充Bangumi各集标题或放送日期；目前不能仅凭集号位置生成映射。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/403747; https://www.themoviedb.org/tv/281607",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 281607
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

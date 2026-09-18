@@ -106,12 +106,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已通过年份、网络动画版本、剧情、导演、制作方、季名及20集范围确认对应TMDB《西行纪》第三季整季。Bangumi逐集标题和日期缺失，尚不能按要求完成逐集比对，因此仅确认整季归属，暂不生成连续规则。\n\nhttps://bangumi.tv/subject/299263 (search_snippet): Bangumi 条目为2021年6月2日开播的20集网络动画，总导演麦正乐；剧情为唐三藏等人再次踏上还经之路。\n\nhttps://bangumi.tv/subject/299263/ep (page): 章节页列出20个本篇章节，编号连续为39—58，但各章标题及播出日期均为空。\n\nhttps://www.themoviedb.org/tv/83031 (api_snapshot): TMDB 83031为中国动画系列《西行纪》，别名包含《西行纪之宿命篇》，导演包含麦正乐，制作公司为BYMENT；还经之旅的剧情及角色与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/83031/season/3 (api_snapshot): 第三季明确命名《西行纪之宿命篇》，2021年6月2日开播，简介注明从正片第39集开始。已读取完整集表，total_pages=1，共20集，集号1—20，首集《因缘（上）》、末集《为了爱（下）》，日期覆盖2021年6月2日至7月28日；该季范围对应本条目主体。\n\nhttps://www.bilibili.com/video/BV1Zy4y1p7rc/ (search_snippet): 制作方百漫文化发布的第三季定档视频将本作称为《西行纪之宿命篇》，宣布2021年6月2日开播、每周三更新，与两站季信息一致。\n\n备注：第39—58集与S03E01—E20的编号范围吻合，但逐集对应仍需补充带总集号、标题或日期的可靠播出集表；不能将编号偏移直接当作逐集核验结果。",
+    "evidence": "codex: 已通过年份、网络动画版本、剧情、导演、制作方、季名及20集范围确认对应TMDB《西行纪》第三季整季。Bangumi逐集标题和日期缺失，尚不能按要求完成逐集比对，因此仅确认整季归属，暂不生成连续规则。\n\nhttps://bangumi.tv/subject/299263 (search_snippet): Bangumi 条目为2021年6月2日开播的20集网络动画，总导演麦正乐；剧情为唐三藏等人再次踏上还经之路。\n\nhttps://bangumi.tv/subject/299263/ep (page): 章节页列出20个本篇章节，编号连续为39—58，但各章标题及播出日期均为空。\n\nhttps://www.themoviedb.org/tv/83031 (api_snapshot): TMDB 83031为中国动画系列《西行纪》，别名包含《西行纪之宿命篇》，导演包含麦正乐，制作公司为BYMENT；还经之旅的剧情及角色与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/83031/season/3 (api_snapshot): 第三季明确命名《西行纪之宿命篇》，2021年6月2日开播，简介注明从正片第39集开始。已读取完整集表，total_pages=1，共20集，集号1—20，首集《因缘（上）》、末集《为了爱（下）》，日期覆盖2021年6月2日至7月28日；该季范围对应本条目主体。\n\nhttps://www.bilibili.com/video/BV1Zy4y1p7rc/ (search_snippet): 制作方百漫文化发布的第三季定档视频将本作称为《西行纪之宿命篇》，宣布2021年6月2日开播、每周三更新，与两站季信息一致。\n\n备注：第39—58集与S03E01—E20的编号范围吻合，但逐集对应仍需补充带总集号、标题或日期的可靠播出集表；不能将编号偏移直接当作逐集核验结果。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/299263; https://bangumi.tv/subject/299263; https://bangumi.tv/subject/299263/ep; https://www.themoviedb.org/tv/83031; https://www.themoviedb.org/tv/83031/season/3; https://www.bilibili.com/video/BV1Zy4y1p7rc/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 58,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 39,
+      "tmdbId": 83031
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

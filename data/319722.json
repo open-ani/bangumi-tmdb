@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期及10集规模一致，候选季表完整，可确认 subject 对应 TMDB 229804 第1季。Bangumi 各集标题与日期均为空，无法逐集交叉核对，因此仅声明整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/229804 (api_snapshot): 候选《The Stockholms》首播于2020-07-30，唯一列出的第1季共10集，与 Bangumi 的原名、开播日期及本篇集数一致；季表列出第1至10集，放送日期为2020-07-30至2020-09-24。\n\n备注：Bangumi 缺少剧情、制作方资料，无法交叉核实这些信息。；逐集对应仍需补充 Bangumi 各集标题或放送日期；TMDB 当前集名也仅为通用编号。",
+    "evidence": "codex: 原名、首播日期及10集规模一致，候选季表完整，可确认 subject 对应 TMDB 229804 第1季。Bangumi 各集标题与日期均为空，无法逐集交叉核对，因此仅声明整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/229804 (api_snapshot): 候选《The Stockholms》首播于2020-07-30，唯一列出的第1季共10集，与 Bangumi 的原名、开播日期及本篇集数一致；季表列出第1至10集，放送日期为2020-07-30至2020-09-24。\n\n备注：Bangumi 缺少剧情、制作方资料，无法交叉核实这些信息。；逐集对应仍需补充 Bangumi 各集标题或放送日期；TMDB 当前集名也仅为通用编号。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/319722; https://www.themoviedb.org/tv/229804",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229804
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

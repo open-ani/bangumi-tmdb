@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 32726 第一季整季：年份、电视动画媒介、剧情、制作及配音人员、13集规模一致。Bangumi 首播日期疑误填为第二集日期，不影响作品及季范围认定。输入中的章节标题、日期全部为空，无法逐集核对，因此仅提交整季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 以英文原名搜索并读取作品详情，确认 TMDB 32726 为2011年开播的电视动画；汉堡店家庭经营剧情、五位主要配音及角色均与输入一致，IMDb 为 tt1561755。\n\nhttps://www.themoviedb.org/tv/32726/season/1 (api_snapshot): 已读取第一季完整集表，共13集、1页，从2011年1月9日首集 Human Flesh 至5月22日末集 Torpedo；1月16日实际是第二集播出日期。该季完整覆盖第一季主体。\n\nhttps://en.wikipedia.org/wiki/Bob%27s_Burgers_season_1 (page): 第一季资料确认这是 Fox 播出的13集电视动画，制作公司、主要配音及 Loren Bouchard 的创作身份与输入相符；所列13集播出日期和顺序均与 TMDB 一致，第10集标题存在单复数写法差异。\n\n备注：Bangumi 标注2011年1月16日首播，而 TMDB 与独立季资料均为1月9日；未确认 Bangumi 日期差异的具体原因。；Bangumi 章节页访问失败，现有13个章节仅有序号，缺少标题和日期；需补足章节资料后才能确认逐集映射，不能仅按位置生成规则。",
+    "evidence": "codex: 可确认对应 TMDB 32726 第一季整季：年份、电视动画媒介、剧情、制作及配音人员、13集规模一致。Bangumi 首播日期疑误填为第二集日期，不影响作品及季范围认定。输入中的章节标题、日期全部为空，无法逐集核对，因此仅提交整季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 以英文原名搜索并读取作品详情，确认 TMDB 32726 为2011年开播的电视动画；汉堡店家庭经营剧情、五位主要配音及角色均与输入一致，IMDb 为 tt1561755。\n\nhttps://www.themoviedb.org/tv/32726/season/1 (api_snapshot): 已读取第一季完整集表，共13集、1页，从2011年1月9日首集 Human Flesh 至5月22日末集 Torpedo；1月16日实际是第二集播出日期。该季完整覆盖第一季主体。\n\nhttps://en.wikipedia.org/wiki/Bob%27s_Burgers_season_1 (page): 第一季资料确认这是 Fox 播出的13集电视动画，制作公司、主要配音及 Loren Bouchard 的创作身份与输入相符；所列13集播出日期和顺序均与 TMDB 一致，第10集标题存在单复数写法差异。\n\n备注：Bangumi 标注2011年1月16日首播，而 TMDB 与独立季资料均为1月9日；未确认 Bangumi 日期差异的具体原因。；Bangumi 章节页访问失败，现有13个章节仅有序号，缺少标题和日期；需补足章节资料后才能确认逐集映射，不能仅按位置生成规则。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/119846; https://www.themoviedb.org/tv/32726; https://www.themoviedb.org/tv/32726/season/1; https://en.wikipedia.org/wiki/Bob%27s_Burgers_season_1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 32726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

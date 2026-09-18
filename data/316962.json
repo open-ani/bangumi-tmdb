@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、动画媒介、季度、26集总量及放送起止日期共同支持对应 TMDB 83002 第3季整季。主体范围可以确认，但逐集信息不足，暂不生成章节对应规则。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): TMDB 83002 的制作公司包含 Allspark Animation、Boulder Media 和 Hasbro Studios，与 Bangumi 简介及制作信息一致；动画媒介也相符。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): 第3季共26集，季表放送日期覆盖2020-03-15至2020-06-07，与 Bangumi 的季度、集数和放送起止日期完全一致；第2季首播日期2019-09-07也与 Bangumi 前作信息一致。\n\n备注：Bangumi 全部章节均缺少标题和放送日期，TMDB 标题也仅为通用集号，无法核实逐集顺序；需补充可比对的章节标题或放送日期后建立 rules。",
+    "evidence": "codex: 制作方、动画媒介、季度、26集总量及放送起止日期共同支持对应 TMDB 83002 第3季整季。主体范围可以确认，但逐集信息不足，暂不生成章节对应规则。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): TMDB 83002 的制作公司包含 Allspark Animation、Boulder Media 和 Hasbro Studios，与 Bangumi 简介及制作信息一致；动画媒介也相符。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): 第3季共26集，季表放送日期覆盖2020-03-15至2020-06-07，与 Bangumi 的季度、集数和放送起止日期完全一致；第2季首播日期2019-09-07也与 Bangumi 前作信息一致。\n\n备注：Bangumi 全部章节均缺少标题和放送日期，TMDB 标题也仅为通用集号，无法核实逐集顺序；需补充可比对的章节标题或放送日期后建立 rules。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/316962; https://www.themoviedb.org/tv/83002",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 83002
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

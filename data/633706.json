@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称版本、制作方、电视动画媒介、26集总量及完整放送起止日期共同支持对应 TMDB 136915 第3季，季表未显示混入其他作品。可以确认整季范围，但 Bangumi 各集标题与日期均为空，不能核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/136915 (api_snapshot): 该候选为韩国动画，制作公司为 SAMG Entertainment；第3季名为「シークレット キャッチ!ティニピン」，与 Bangumi 别名对应。该季共26集，首末集日期为2022-09-14、2023-03-08，与 subject 的集数及放送起止日期完全一致。\n\nhttps://www.themoviedb.org/movie/1123619 (api_snapshot): 电影候选标题标明为音乐剧演出实录，上映日期为2023-05-03，与本次26集电视动画的媒介及放送时间不符。\n\n备注：Bangumi 26个章节均缺少标题和放送日期，TMDB 集标题也仅为集号占位；需补充 Bangumi 逐集资料后才能建立可靠的逐集对应。；候选未提供剧情简介，无法独立交叉核对钥匙精灵相关剧情。",
+    "evidence": "codex: 名称版本、制作方、电视动画媒介、26集总量及完整放送起止日期共同支持对应 TMDB 136915 第3季，季表未显示混入其他作品。可以确认整季范围，但 Bangumi 各集标题与日期均为空，不能核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/136915 (api_snapshot): 该候选为韩国动画，制作公司为 SAMG Entertainment；第3季名为「シークレット キャッチ!ティニピン」，与 Bangumi 别名对应。该季共26集，首末集日期为2022-09-14、2023-03-08，与 subject 的集数及放送起止日期完全一致。\n\nhttps://www.themoviedb.org/movie/1123619 (api_snapshot): 电影候选标题标明为音乐剧演出实录，上映日期为2023-05-03，与本次26集电视动画的媒介及放送时间不符。\n\n备注：Bangumi 26个章节均缺少标题和放送日期，TMDB 集标题也仅为集号占位；需补充 Bangumi 逐集资料后才能建立可靠的逐集对应。；候选未提供剧情简介，无法独立交叉核对钥匙精灵相关剧情。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/633706; https://www.themoviedb.org/tv/136915; https://www.themoviedb.org/movie/1123619",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 136915
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

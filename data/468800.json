@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、剧情、动画媒介、上线日期及完整集数共同支持对应 TMDB 238151 第 1 季。整季范围可以确认；Bangumi 各章节标题和日期均为空，无法逐集交叉核对，因此不按序号猜测生成逐集规则。\n\nhttps://www.themoviedb.org/tv/238151 (api_snapshot): 候选原名为 Carol & the End of the World，首播日期为 2023-12-15；动画类型及行星逼近地球、女子在末日前寻找人生意义的剧情均与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/238151 (api_snapshot): 候选仅有第 1 季，共 10 集，全部于 2023-12-15 上线，与 Bangumi 的开播日期和本篇总集数一致，季表未显示混入其他作品。\n\n备注：逐集映射待补充 Bangumi 章节标题或放送日期后核实。；Bangumi 未提供制作公司，候选未提供编剧或 IMDb 信息，这些字段无法交叉核对。",
+    "evidence": "codex: 名称、剧情、动画媒介、上线日期及完整集数共同支持对应 TMDB 238151 第 1 季。整季范围可以确认；Bangumi 各章节标题和日期均为空，无法逐集交叉核对，因此不按序号猜测生成逐集规则。\n\nhttps://www.themoviedb.org/tv/238151 (api_snapshot): 候选原名为 Carol & the End of the World，首播日期为 2023-12-15；动画类型及行星逼近地球、女子在末日前寻找人生意义的剧情均与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/238151 (api_snapshot): 候选仅有第 1 季，共 10 集，全部于 2023-12-15 上线，与 Bangumi 的开播日期和本篇总集数一致，季表未显示混入其他作品。\n\n备注：逐集映射待补充 Bangumi 章节标题或放送日期后核实。；Bangumi 未提供制作公司，候选未提供编剧或 IMDb 信息，这些字段无法交叉核对。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/468800; https://www.themoviedb.org/tv/238151",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 238151
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

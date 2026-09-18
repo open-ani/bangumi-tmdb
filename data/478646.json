@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、第6季首播日期、52集规模及前作日期相互印证，足以确认对应TMDB 226227第6季整季。逐集标题和日期证据不足，故仅确认季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 《超迷你战士》为中国动画，制作公司包含左袋创意；第6季首播日期为2022-12-28，共52集，与subject的制作方、季次、首播日期及集数一致。第5季首播日期2021-12-08也与Bangumi前作信息吻合。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 第6季包含第1至52集，但标题均为集号占位文本；第2至10集日期早于本季首播，第11至52集日期为空，无法据此核实逐集对应。\n\nhttps://www.themoviedb.org/tv/72237 (api_snapshot): 《ミニフォース》为韩国SAMG Entertainment制作的动物特攻队题材动画，制作方、剧情及季集数与本subject不符。\n\n备注：Bangumi全部章节缺少标题与放送日期，无法进行逐集交叉核对。；TMDB第6季第2至10集日期存在明显时序异常，不能擅自修正年份；需补充双方有效标题或可靠逐集日期后确定逐集映射。；候选未提供第6季剧情简介，无法直接核对“史前大冒险”的故事内容。",
+    "evidence": "codex: 制作方、第6季首播日期、52集规模及前作日期相互印证，足以确认对应TMDB 226227第6季整季。逐集标题和日期证据不足，故仅确认季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 《超迷你战士》为中国动画，制作公司包含左袋创意；第6季首播日期为2022-12-28，共52集，与subject的制作方、季次、首播日期及集数一致。第5季首播日期2021-12-08也与Bangumi前作信息吻合。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 第6季包含第1至52集，但标题均为集号占位文本；第2至10集日期早于本季首播，第11至52集日期为空，无法据此核实逐集对应。\n\nhttps://www.themoviedb.org/tv/72237 (api_snapshot): 《ミニフォース》为韩国SAMG Entertainment制作的动物特攻队题材动画，制作方、剧情及季集数与本subject不符。\n\n备注：Bangumi全部章节缺少标题与放送日期，无法进行逐集交叉核对。；TMDB第6季第2至10集日期存在明显时序异常，不能擅自修正年份；需补充双方有效标题或可靠逐集日期后确定逐集映射。；候选未提供第6季剧情简介，无法直接核对“史前大冒险”的故事内容。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/478646; https://www.themoviedb.org/tv/226227; https://www.themoviedb.org/tv/72237",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 226227
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

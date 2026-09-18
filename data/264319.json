@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 81665 第一季整季。电视动画版本、剧情、制作方、首播日期、40集总量及2018—2019年两段播出范围均一致；不包含同名先行短片或2020年开始的第二季。Bangumi 章节缺少标题和日期，逐集顺序无法独立核实，因此仅提交季级映射。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 81665 为2018年7月7日首播的电视动画，由 Cartoon Network Studios 制作；剧情围绕 Oscar、Hedgehog 与魔法夏令营展开，与输入的年份、媒介、角色和剧情一致。\n\nhttps://www.themoviedb.org/tv/81665/season/1 (api_snapshot): 已读取第一季完整集表，共40集、仅1页：第1—20集日期均为2018年7月7日，第21—24集为2019年6月23日，后续每周4集，至第37—40集于2019年7月21日结束。集数与两段播出范围均吻合 Bangumi 备注。\n\nhttps://press.wbd.com/emea/media-release/cartoon-network-13/aufgepasst-es-wird-magisch-deutsche-tv-premiere-von-summer-camp-island-am-1-dezember (search_snippet): 发行方新闻稿确认该电视动画由 Julia Pott 创作、Cartoon Network Studios 制作，讲述 Oscar 与 Hedgehog 在女巫管理的魔法夏令营中的经历。\n\nhttps://sci.fandom.com/wiki/Season_1 (search_snippet): 独立季资料确认第一季共40集，首播于2018年7月7日，完结于2019年7月21日。\n\n备注：输入的40个 Bangumi 章节标题及放送日期均为空，且在线章节页访问失败；不能仅凭 sort 相同建立逐集规则。需补充章节标题或日期后再核对逐集对应。",
+    "evidence": "codex: 确认对应 TMDB 81665 第一季整季。电视动画版本、剧情、制作方、首播日期、40集总量及2018—2019年两段播出范围均一致；不包含同名先行短片或2020年开始的第二季。Bangumi 章节缺少标题和日期，逐集顺序无法独立核实，因此仅提交季级映射。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 81665 为2018年7月7日首播的电视动画，由 Cartoon Network Studios 制作；剧情围绕 Oscar、Hedgehog 与魔法夏令营展开，与输入的年份、媒介、角色和剧情一致。\n\nhttps://www.themoviedb.org/tv/81665/season/1 (api_snapshot): 已读取第一季完整集表，共40集、仅1页：第1—20集日期均为2018年7月7日，第21—24集为2019年6月23日，后续每周4集，至第37—40集于2019年7月21日结束。集数与两段播出范围均吻合 Bangumi 备注。\n\nhttps://press.wbd.com/emea/media-release/cartoon-network-13/aufgepasst-es-wird-magisch-deutsche-tv-premiere-von-summer-camp-island-am-1-dezember (search_snippet): 发行方新闻稿确认该电视动画由 Julia Pott 创作、Cartoon Network Studios 制作，讲述 Oscar 与 Hedgehog 在女巫管理的魔法夏令营中的经历。\n\nhttps://sci.fandom.com/wiki/Season_1 (search_snippet): 独立季资料确认第一季共40集，首播于2018年7月7日，完结于2019年7月21日。\n\n备注：输入的40个 Bangumi 章节标题及放送日期均为空，且在线章节页访问失败；不能仅凭 sort 相同建立逐集规则。需补充章节标题或日期后再核对逐集对应。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/264319; https://www.themoviedb.org/tv/81665; https://www.themoviedb.org/tv/81665/season/1; https://press.wbd.com/emea/media-release/cartoon-network-13/aufgepasst-es-wird-magisch-deutsche-tv-premiere-von-summer-camp-island-am-1-dezember; https://sci.fandom.com/wiki/Season_1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 81665
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

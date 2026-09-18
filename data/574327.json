@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、制作发行方、10集规模、放送起止日期及前后季关系共同支持对应 TMDB 65858 第3季整季。Bangumi 各章节标题和日期均为空，无法独立核实逐集顺序，因此仅确认整季范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): TMDB 65858 第3季共10集，首集于2017-02-04播出，第9、10集于2017-04-08播出，与 Bangumi 的季度、总集数及放送起止日期一致。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): 候选制作公司包含 M2 Entertainment 和 The LEGO Group，与 Bangumi 所列发行公司及出品公司相符；第2季、第4季首播日期也分别与 Bangumi 前后续作日期一致。\n\n备注：需要补充 Bangumi 逐集标题或放送日期，才能建立有逐集依据的 rules。；候选未提供剧情简介，无法交叉核对剧情；地区字段为美国，与 Bangumi 所列丹麦不同，但制作公司及季度日期相符。",
+    "evidence": "codex: 季度、制作发行方、10集规模、放送起止日期及前后季关系共同支持对应 TMDB 65858 第3季整季。Bangumi 各章节标题和日期均为空，无法独立核实逐集顺序，因此仅确认整季范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): TMDB 65858 第3季共10集，首集于2017-02-04播出，第9、10集于2017-04-08播出，与 Bangumi 的季度、总集数及放送起止日期一致。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): 候选制作公司包含 M2 Entertainment 和 The LEGO Group，与 Bangumi 所列发行公司及出品公司相符；第2季、第4季首播日期也分别与 Bangumi 前后续作日期一致。\n\n备注：需要补充 Bangumi 逐集标题或放送日期，才能建立有逐集依据的 rules。；候选未提供剧情简介，无法交叉核对剧情；地区字段为美国，与 Bangumi 所列丹麦不同，但制作公司及季度日期相符。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/574327; https://www.themoviedb.org/tv/65858",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 65858
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、动画剧集媒介、10集规模及后续第二部的日期对应，足以确认主体覆盖 TMDB 91425 第1季。逐集缺少可交叉比对的标题或日期，故仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): 该候选为 Cartoon Network Studios 制作的动画剧集；首播日及第1季开播日均为2019-08-05，第1季共10集，与 Bangumi 的媒介、开播日和本篇集数吻合。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): 第2季开播于2020-01-06，与 Bangumi 关联的 Book 2 开播日一致，支持本 subject 对应第1季。第1季集表完整，但标题均为通用编号。\n\nhttps://www.themoviedb.org/movie/426156 (api_snapshot): 同名电影的发行日期为2016-11-02，与本 subject 的2019年、10集电视动画范围不符。\n\n备注：Bangumi 各集放送日期为空，TMDB 各集标题只有通用编号，无法核实英文集标题的逐集对应；需补充 TMDB 实际集标题或 Bangumi 各集日期。；候选未提供该剧剧情简介，Bangumi 未列制作方，剧情和制作方无法双向核对。",
+    "evidence": "codex: 首播日期、动画剧集媒介、10集规模及后续第二部的日期对应，足以确认主体覆盖 TMDB 91425 第1季。逐集缺少可交叉比对的标题或日期，故仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): 该候选为 Cartoon Network Studios 制作的动画剧集；首播日及第1季开播日均为2019-08-05，第1季共10集，与 Bangumi 的媒介、开播日和本篇集数吻合。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): 第2季开播于2020-01-06，与 Bangumi 关联的 Book 2 开播日一致，支持本 subject 对应第1季。第1季集表完整，但标题均为通用编号。\n\nhttps://www.themoviedb.org/movie/426156 (api_snapshot): 同名电影的发行日期为2016-11-02，与本 subject 的2019年、10集电视动画范围不符。\n\n备注：Bangumi 各集放送日期为空，TMDB 各集标题只有通用编号，无法核实英文集标题的逐集对应；需补充 TMDB 实际集标题或 Bangumi 各集日期。；候选未提供该剧剧情简介，Bangumi 未列制作方，剧情和制作方无法双向核对。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/287426; https://www.themoviedb.org/tv/91425; https://www.themoviedb.org/movie/426156",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 91425
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

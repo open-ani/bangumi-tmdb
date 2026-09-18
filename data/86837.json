@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 60877 第二季整季：制作公司、网络动画版本、首播日期、季别及 12 集范围一致，独立集表与 TMDB 逐集吻合，未混入试播片或迷你短篇。Bangumi 章节缺少标题和日期，无法独立核实各章节 ID 的对应关系，因此仅确认整季范围，暂不填写逐集规则。\n\nhttps://bgm.tv/subject/86837 (page): Bangumi 标明本条目为 WEB 动画第二季，2013-10-17 开始放送，共 12 话，动画制作为 Frederator Studios；关联前后作分别为第一季和第三季。章节仅显示编号，缺少逐集标题及日期。\n\nhttps://www.themoviedb.org/tv/60877 (api_snapshot): TMDB 60877 为英语动画 Bravest Warriors，2012-11-08 首播，制作公司包括 Frederator Studios；剧情为 Chris、Beth、Wallow、Danny 在 3085 年的宇宙冒险。第二季列为 2013-10-17 开播、12 集。\n\nhttps://www.themoviedb.org/tv/60877/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 12 集，每集约 6 分钟；首集 Aeon Worm 于 2013-10-17 播出，末集 Season of the Mitch 于 2014-06-12 播出。\n\nhttps://en.wikipedia.org/wiki/List_of_Bravest_Warriors_episodes (page): 资料区分了 2009 年试播短片、2013 年迷你短篇及正式第二季；确认本系列由 Pendleton Ward 创作，第二季由 Breehn Burns 执导。第二季 12 集的顺序、标题与日期均与 TMDB 对应，仅第 9 集标题存在冠词 The 的差异。\n\n备注：Bangumi 的 12 个章节均无标题及放送日期；需要补充章节资料后才能建立有逐集依据的 rules。；输入的 IMDb 线索 tt3263116 与 TMDB 系列外部 ID tt2474952 不同；未核实前者指向，未将其用于认定作品。",
+    "evidence": "codex: 可确认对应 TMDB 60877 第二季整季：制作公司、网络动画版本、首播日期、季别及 12 集范围一致，独立集表与 TMDB 逐集吻合，未混入试播片或迷你短篇。Bangumi 章节缺少标题和日期，无法独立核实各章节 ID 的对应关系，因此仅确认整季范围，暂不填写逐集规则。\n\nhttps://bgm.tv/subject/86837 (page): Bangumi 标明本条目为 WEB 动画第二季，2013-10-17 开始放送，共 12 话，动画制作为 Frederator Studios；关联前后作分别为第一季和第三季。章节仅显示编号，缺少逐集标题及日期。\n\nhttps://www.themoviedb.org/tv/60877 (api_snapshot): TMDB 60877 为英语动画 Bravest Warriors，2012-11-08 首播，制作公司包括 Frederator Studios；剧情为 Chris、Beth、Wallow、Danny 在 3085 年的宇宙冒险。第二季列为 2013-10-17 开播、12 集。\n\nhttps://www.themoviedb.org/tv/60877/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 12 集，每集约 6 分钟；首集 Aeon Worm 于 2013-10-17 播出，末集 Season of the Mitch 于 2014-06-12 播出。\n\nhttps://en.wikipedia.org/wiki/List_of_Bravest_Warriors_episodes (page): 资料区分了 2009 年试播短片、2013 年迷你短篇及正式第二季；确认本系列由 Pendleton Ward 创作，第二季由 Breehn Burns 执导。第二季 12 集的顺序、标题与日期均与 TMDB 对应，仅第 9 集标题存在冠词 The 的差异。\n\n备注：Bangumi 的 12 个章节均无标题及放送日期；需要补充章节资料后才能建立有逐集依据的 rules。；输入的 IMDb 线索 tt3263116 与 TMDB 系列外部 ID tt2474952 不同；未核实前者指向，未将其用于认定作品。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/86837; https://www.themoviedb.org/tv/60877; https://www.themoviedb.org/tv/60877/season/2; https://en.wikipedia.org/wiki/List_of_Bravest_Warriors_episodes",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 60877
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

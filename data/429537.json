@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、中国动画属性、爱奇艺关联及完整20集季表共同支持对应 TMDB 229239 第1季整季。Bangumi 各集标题和放送日期均为空，无法逐集交叉核实，因此不生成顺序映射规则。\n\nhttps://www.themoviedb.org/tv/229239 (api_snapshot): 候选为中国动画《半神之境》，首播日期为2023-06-21，与 Bangumi 一致；制作公司包含爱奇艺及其工作室，与 Bangumi 标注的在线播放平台相符。\n\nhttps://www.themoviedb.org/tv/229239 (api_snapshot): 候选仅列第1季，共20集，已抓取完整第1至20集，放送日期覆盖2023-06-21至2023-10-18；与 Bangumi 的20集本篇范围一致。\n\n备注：候选未提供剧情简介，无法直接核对人物与剧情；Bangumi 未提供制作方，无法直接核对制作署名。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期，TMDB 的通用编号标题不足以独立验证章节对应。",
+    "evidence": "codex: 名称、首播日期、中国动画属性、爱奇艺关联及完整20集季表共同支持对应 TMDB 229239 第1季整季。Bangumi 各集标题和放送日期均为空，无法逐集交叉核实，因此不生成顺序映射规则。\n\nhttps://www.themoviedb.org/tv/229239 (api_snapshot): 候选为中国动画《半神之境》，首播日期为2023-06-21，与 Bangumi 一致；制作公司包含爱奇艺及其工作室，与 Bangumi 标注的在线播放平台相符。\n\nhttps://www.themoviedb.org/tv/229239 (api_snapshot): 候选仅列第1季，共20集，已抓取完整第1至20集，放送日期覆盖2023-06-21至2023-10-18；与 Bangumi 的20集本篇范围一致。\n\n备注：候选未提供剧情简介，无法直接核对人物与剧情；Bangumi 未提供制作方，无法直接核对制作署名。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期，TMDB 的通用编号标题不足以独立验证章节对应。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/429537; https://www.themoviedb.org/tv/229239",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229239
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

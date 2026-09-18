@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、中国动画属性及完整的 13 集单季范围相符，可确认 subject 对应 TMDB 93169 第 1 季。逐集标题无法实质比对，且 Bangumi 缺少单集日期，因此不按位置推定逐集关系，暂不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/93169 (api_snapshot): 候选 TV 93169 名称为《安玲与史迪奇》，首播日期为 2017-03-27，产地为中国，类型包含动画；名称、首播日期及产地与 Bangumi 条目信息相符。\n\nhttps://www.themoviedb.org/tv/93169 (api_snapshot): 候选仅列出第 1 季，共 13 集，已抓取第 1—13 集，符合 Bangumi 的 13 话主体范围。TMDB 单集标题均为通用编号，单集日期为 2017-03-27 至 2017-04-06。\n\n备注：TMDB 单集标题仅为编号，Bangumi 单集放送日期均为空，尚不能核实逐集对应顺序。；候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对这些字段。；TMDB 季表起始日期为 2017-03-26，比作品首播日期及第 1 集日期早一天；后两者均与 Bangumi 的 2017-03-27 一致。",
+    "evidence": "codex: 名称、首播日期、中国动画属性及完整的 13 集单季范围相符，可确认 subject 对应 TMDB 93169 第 1 季。逐集标题无法实质比对，且 Bangumi 缺少单集日期，因此不按位置推定逐集关系，暂不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/93169 (api_snapshot): 候选 TV 93169 名称为《安玲与史迪奇》，首播日期为 2017-03-27，产地为中国，类型包含动画；名称、首播日期及产地与 Bangumi 条目信息相符。\n\nhttps://www.themoviedb.org/tv/93169 (api_snapshot): 候选仅列出第 1 季，共 13 集，已抓取第 1—13 集，符合 Bangumi 的 13 话主体范围。TMDB 单集标题均为通用编号，单集日期为 2017-03-27 至 2017-04-06。\n\n备注：TMDB 单集标题仅为编号，Bangumi 单集放送日期均为空，尚不能核实逐集对应顺序。；候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对这些字段。；TMDB 季表起始日期为 2017-03-26，比作品首播日期及第 1 集日期早一天；后两者均与 Bangumi 的 2017-03-27 一致。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/228532; https://www.themoviedb.org/tv/93169",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93169
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

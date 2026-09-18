@@ -181,12 +181,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、短篇动画媒介、制作公司、导演、声优及33集本篇规模共同确认对应TMDB 211531第1季。该季覆盖2015年豆动画主体，未见混入续作的迹象。逐集缺少可核对的TMDB标题与简介，Bangumi又未提供各话日期，因此仅确认整季归属，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/211531 (api_snapshot): TMDB 211531 首播日期为2015-12-12，制作公司为 Gathering，导演为まんきゅう，声优包括山下大輝、村瀬歩、たかはし智秋及松山鷹志；仅列第1季，共33集，与本 subject 的豆动画版本一致。\n\nhttps://www.themoviedb.org/tv/211531/season/1 (api_snapshot): 已完整读取第1季集表（共1页、33集），日期范围为2015-12-12至2016-07-23。日文、英文集名均为通用编号，简介为空，无法据此核实逐集标题；详情未列特别篇季。\n\nhttps://www.oricon.co.jp/news/2063426/full/ (page): 同期报道确认这部约30秒的豆动画于2015-12-12在GYAO！及dTV开始配信，原作为仲間りょう，导演、制作公司及声优均与TMDB详情一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21695 (page): 正版平台确认本作为2015年制作的短篇动画，剧情围绕江户武士学校学生磯部磯兵衛展开，导演为まんきゅう，动画制作为ギャザリング。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=21695001&workId=21695 (search_snippet): 正版平台搜索摘要列出合集内短篇，末尾包含筋トレ、富士登山、二度寝及スマホ、クラブ；井戸端会議之后为バレンタイン，与输入第17话重复写作カップル存在差异。\n\n备注：TMDB的33集均为通用编号，逐周日期尚无逐话来源佐证；全部章节暂留未映射。；Bangumi第17话标题与正版平台目录不同，需核对是否为录入错误。；两篇SP「スマホで候」「クラブで候」未找到已核实的TMDB集号，暂不映射或明确排除。",
+    "evidence": "codex: 首播日期、短篇动画媒介、制作公司、导演、声优及33集本篇规模共同确认对应TMDB 211531第1季。该季覆盖2015年豆动画主体，未见混入续作的迹象。逐集缺少可核对的TMDB标题与简介，Bangumi又未提供各话日期，因此仅确认整季归属，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/211531 (api_snapshot): TMDB 211531 首播日期为2015-12-12，制作公司为 Gathering，导演为まんきゅう，声优包括山下大輝、村瀬歩、たかはし智秋及松山鷹志；仅列第1季，共33集，与本 subject 的豆动画版本一致。\n\nhttps://www.themoviedb.org/tv/211531/season/1 (api_snapshot): 已完整读取第1季集表（共1页、33集），日期范围为2015-12-12至2016-07-23。日文、英文集名均为通用编号，简介为空，无法据此核实逐集标题；详情未列特别篇季。\n\nhttps://www.oricon.co.jp/news/2063426/full/ (page): 同期报道确认这部约30秒的豆动画于2015-12-12在GYAO！及dTV开始配信，原作为仲間りょう，导演、制作公司及声优均与TMDB详情一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21695 (page): 正版平台确认本作为2015年制作的短篇动画，剧情围绕江户武士学校学生磯部磯兵衛展开，导演为まんきゅう，动画制作为ギャザリング。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=21695001&workId=21695 (search_snippet): 正版平台搜索摘要列出合集内短篇，末尾包含筋トレ、富士登山、二度寝及スマホ、クラブ；井戸端会議之后为バレンタイン，与输入第17话重复写作カップル存在差异。\n\n备注：TMDB的33集均为通用编号，逐周日期尚无逐话来源佐证；全部章节暂留未映射。；Bangumi第17话标题与正版平台目录不同，需核对是否为录入错误。；两篇SP「スマホで候」「クラブで候」未找到已核实的TMDB集号，暂不映射或明确排除。\n\n脚本按声明范围生成逐集规则：33 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/149983; https://www.themoviedb.org/tv/211531; https://www.themoviedb.org/tv/211531/season/1; https://www.oricon.co.jp/news/2063426/full/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21695; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=21695001&workId=21695",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 33,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211531
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

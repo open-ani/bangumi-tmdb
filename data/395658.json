@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已通过首播日期、3D版本别名、原作剧情、制作公司及52集播出范围确认对应TMDB 226045第1季第1—52集。旧映射指向的作品正确，但整季范围过宽，会包含2026年续作。Bangumi章节缺少逐集核对信息，因此仅确认作品范围，暂不生成连续规则。\n\nhttps://bangumi.tv/subject/395658 (search_snippet): Bangumi 标注本作为 2023年6月30日开播的52集网络动画，别名“大主宰 3D”，原作为天蚕土豆，动画制作为幻维数码，出品方为爱奇艺。\n\nhttps://pages.iqiyi.com/p/zbs/news20240325.html (page): 爱奇艺官方介绍确认该年番于2023年6月推出，改编自天蚕土豆同名小说，讲述牧尘修炼成长及与洛璃相关的故事。\n\nhttps://www.themoviedb.org/tv/226045 (api_snapshot): TMDB 226045 的首播日期为2023-06-30，别名包含“大主宰 3D”和“大主宰 年番”；简介及幻维数码、爱奇艺等制作公司与本条目一致。\n\nhttps://www.themoviedb.org/tv/226045/season/1 (api_snapshot): 已读取第1季全部两页集表，共104集。第1—3集于2023-06-30播出，第52集为2024-06-07的“逃离白龙”；第53集起于2026-01-09播出，属于后续年番。因此本 subject 仅覆盖第1—52集。\n\nhttps://www.dakedake.com/subject/126/episode (page): 该作品分集资料列出52章，播出范围为2023-06-30至2024-06-07；已读取的第1—20集标题和日期与TMDB对应集一致，支持首部年番的范围判断。\n\nhttps://bgm.tv/subject/395658/ep (page): Bangumi 章节页确有本篇1—52，但章节标题和放送日期均为空，无法直接完成逐章标题或日期比对。\n\n备注：尚未完成全部52个Bangumi章节的逐集实证对应；需补充章节标题、日期或可核验的分集内容后再建立rules，不能仅按序号位置推定。",
+    "evidence": "codex: 已通过首播日期、3D版本别名、原作剧情、制作公司及52集播出范围确认对应TMDB 226045第1季第1—52集。旧映射指向的作品正确，但整季范围过宽，会包含2026年续作。Bangumi章节缺少逐集核对信息，因此仅确认作品范围，暂不生成连续规则。\n\nhttps://bangumi.tv/subject/395658 (search_snippet): Bangumi 标注本作为 2023年6月30日开播的52集网络动画，别名“大主宰 3D”，原作为天蚕土豆，动画制作为幻维数码，出品方为爱奇艺。\n\nhttps://pages.iqiyi.com/p/zbs/news20240325.html (page): 爱奇艺官方介绍确认该年番于2023年6月推出，改编自天蚕土豆同名小说，讲述牧尘修炼成长及与洛璃相关的故事。\n\nhttps://www.themoviedb.org/tv/226045 (api_snapshot): TMDB 226045 的首播日期为2023-06-30，别名包含“大主宰 3D”和“大主宰 年番”；简介及幻维数码、爱奇艺等制作公司与本条目一致。\n\nhttps://www.themoviedb.org/tv/226045/season/1 (api_snapshot): 已读取第1季全部两页集表，共104集。第1—3集于2023-06-30播出，第52集为2024-06-07的“逃离白龙”；第53集起于2026-01-09播出，属于后续年番。因此本 subject 仅覆盖第1—52集。\n\nhttps://www.dakedake.com/subject/126/episode (page): 该作品分集资料列出52章，播出范围为2023-06-30至2024-06-07；已读取的第1—20集标题和日期与TMDB对应集一致，支持首部年番的范围判断。\n\nhttps://bgm.tv/subject/395658/ep (page): Bangumi 章节页确有本篇1—52，但章节标题和放送日期均为空，无法直接完成逐章标题或日期比对。\n\n备注：尚未完成全部52个Bangumi章节的逐集实证对应；需补充章节标题、日期或可核验的分集内容后再建立rules，不能仅按序号位置推定。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/395658; https://bangumi.tv/subject/395658; https://pages.iqiyi.com/p/zbs/news20240325.html; https://www.themoviedb.org/tv/226045; https://www.themoviedb.org/tv/226045/season/1; https://www.dakedake.com/subject/126/episode; https://bgm.tv/subject/395658/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 226045
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

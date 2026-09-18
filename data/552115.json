@@ -40,12 +40,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认该 subject 覆盖 TMDB 136322 第三季整季：原名、季次、发行日期、7 集总量及前后季时间均一致，外部集表也与 TMDB 实际季表吻合。输入中的 Bangumi 章节均无标题和日期，无法逐章交叉核验，因此确认整季范围，暂不生成仅凭章节位置推导的 rules。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 是 DreamWorks Animation Television 制作的英语动画剧集《Dragons: The Nine Realms》，讲述现代少年发现并保护龙族的故事；中文别名为《驯龙高手：九大王国》。第三季首播日期为 2022-08-18；相邻第二、第四季日期也与输入的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/3 (api_snapshot): 第三季实际集表共 7 集，total_pages=1，全部于 2022-08-18 播出。集号 1—7 的标题依次为 Fire Escape、Ride or Die、Empty Fireworm Nest、Dr. Catastrophe、It Flies in the Family、Magma Comes to the Surface、The Sky Torcher。\n\nhttps://www.youtube.com/watch?v=sDMCBARP0o4 (search_snippet): DreamWorks Dragons 官方频道发布的第三季预告说明，新一季于 8 月 18 日上线 Peacock；视频发布于 2022-08-03，支持第三季的版本及发行日期。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-3/1000992344/ (search_snippet): TV Guide 第三季集表列出 7 集，其逐集标题、顺序及 2022-08-18 的播出日期均与 TMDB 第三季一致。\n\n备注：Bangumi 条目页及章节页未能成功读取；现有章节快照缺少标题和播出日期。需补充这些信息后，才能核实章节 1490070—1490076 的逐集对应关系。",
+    "evidence": "codex: 可确认该 subject 覆盖 TMDB 136322 第三季整季：原名、季次、发行日期、7 集总量及前后季时间均一致，外部集表也与 TMDB 实际季表吻合。输入中的 Bangumi 章节均无标题和日期，无法逐章交叉核验，因此确认整季范围，暂不生成仅凭章节位置推导的 rules。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 是 DreamWorks Animation Television 制作的英语动画剧集《Dragons: The Nine Realms》，讲述现代少年发现并保护龙族的故事；中文别名为《驯龙高手：九大王国》。第三季首播日期为 2022-08-18；相邻第二、第四季日期也与输入的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/3 (api_snapshot): 第三季实际集表共 7 集，total_pages=1，全部于 2022-08-18 播出。集号 1—7 的标题依次为 Fire Escape、Ride or Die、Empty Fireworm Nest、Dr. Catastrophe、It Flies in the Family、Magma Comes to the Surface、The Sky Torcher。\n\nhttps://www.youtube.com/watch?v=sDMCBARP0o4 (search_snippet): DreamWorks Dragons 官方频道发布的第三季预告说明，新一季于 8 月 18 日上线 Peacock；视频发布于 2022-08-03，支持第三季的版本及发行日期。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-3/1000992344/ (search_snippet): TV Guide 第三季集表列出 7 集，其逐集标题、顺序及 2022-08-18 的播出日期均与 TMDB 第三季一致。\n\n备注：Bangumi 条目页及章节页未能成功读取；现有章节快照缺少标题和播出日期。需补充这些信息后，才能核实章节 1490070—1490076 的逐集对应关系。\n\n脚本按声明范围生成逐集规则：7 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552115; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/3; https://www.youtube.com/watch?v=sDMCBARP0o4; https://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-3/1000992344/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 136322
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日、剧情、制作人员、网络短篇形式及12话范围共同确认，本subject对应TMDB 122371第1季整季。第2季与独立特别动画不纳入。输入中的Bangumi章节标题及日期全部为空，网页亦未能读取，因此保留已确认的整季映射，不凭章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/122371 (api_snapshot): 以原名 Obey Me! 搜索后读取作品详情：TMDB 122371 首播于2021-07-16，制作公司包含彩色铅笔动画；第1季为2021年作品，共12集，第2季另于2022-07-22开始。\n\nhttps://www.themoviedb.org/tv/122371/season/1 (api_snapshot): 已读取第1季全部12集，total_pages=1；内容为恶魔七兄弟的日常短篇。第7集为音声评论，第12集为「兄弟不在のNYEP」，未混入第2季或独立特别篇。\n\nhttps://www.animatetimes.com/tag/details.php?id=11972 (search_snippet): 动画资料列明2021-07-16公开配信、全12话，导演大宮一仁、系列构成モリマサ、人物设计田中日香里、动画制作Colored Pencil Animation Japan，均与输入一致；另注明会员提前于7月9日观看。\n\nhttps://www.fwinc.co.jp/news/72651/ (search_snippet): 发行方明确区分2021年动画全12话与额外收录的特别动画「魔界大旅行」，支持本subject仅覆盖第一季12话。\n\nhttps://www.suruga-ya.jp/product/detail/428067445?tenpo_cd=400361 (search_snippet): 蓝光商品的第1至12话标题与TMDB第一季顺序一致，包括第7话音声评论；特别动画另列在12话之外。\n\n备注：12个Bangumi章节缺少可比对的标题和日期，逐集rules暂留空。；TMDB第3、4集日期分别为2021-08-13、2021-08-27，而其他集表的公开配信日期为8月20日、9月3日；存在提前观看与公开配信口径差异，不影响作品及整季范围确认。",
+    "evidence": "codex: 年份、首播日、剧情、制作人员、网络短篇形式及12话范围共同确认，本subject对应TMDB 122371第1季整季。第2季与独立特别动画不纳入。输入中的Bangumi章节标题及日期全部为空，网页亦未能读取，因此保留已确认的整季映射，不凭章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/122371 (api_snapshot): 以原名 Obey Me! 搜索后读取作品详情：TMDB 122371 首播于2021-07-16，制作公司包含彩色铅笔动画；第1季为2021年作品，共12集，第2季另于2022-07-22开始。\n\nhttps://www.themoviedb.org/tv/122371/season/1 (api_snapshot): 已读取第1季全部12集，total_pages=1；内容为恶魔七兄弟的日常短篇。第7集为音声评论，第12集为「兄弟不在のNYEP」，未混入第2季或独立特别篇。\n\nhttps://www.animatetimes.com/tag/details.php?id=11972 (search_snippet): 动画资料列明2021-07-16公开配信、全12话，导演大宮一仁、系列构成モリマサ、人物设计田中日香里、动画制作Colored Pencil Animation Japan，均与输入一致；另注明会员提前于7月9日观看。\n\nhttps://www.fwinc.co.jp/news/72651/ (search_snippet): 发行方明确区分2021年动画全12话与额外收录的特别动画「魔界大旅行」，支持本subject仅覆盖第一季12话。\n\nhttps://www.suruga-ya.jp/product/detail/428067445?tenpo_cd=400361 (search_snippet): 蓝光商品的第1至12话标题与TMDB第一季顺序一致，包括第7话音声评论；特别动画另列在12话之外。\n\n备注：12个Bangumi章节缺少可比对的标题和日期，逐集rules暂留空。；TMDB第3、4集日期分别为2021-08-13、2021-08-27，而其他集表的公开配信日期为8月20日、9月3日；存在提前观看与公开配信口径差异，不影响作品及整季范围确认。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/341513; https://www.themoviedb.org/tv/122371; https://www.themoviedb.org/tv/122371/season/1; https://www.animatetimes.com/tag/details.php?id=11972; https://www.fwinc.co.jp/news/72651/; https://www.suruga-ya.jp/product/detail/428067445?tenpo_cd=400361",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 122371
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

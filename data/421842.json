@@ -56,12 +56,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及第二季整季范围已确认：年份、首播日期、10集规模、动画媒介、导演、制作公司及核心剧情相符，TMDB第二季完整覆盖该subject。逐集资料不足，暂不生成连续映射规则。\n\nhttps://bangumi.tv/subject/421842 (search_snippet): Bangumi 将本作标为2024年9月30日开播的WEB动画第二季，共10话；导演潘斌、杨广福，制作方娃娃鱼动画、腾讯视频。\n\nhttps://www.themoviedb.org/tv/153828 (api_snapshot): 原名搜索命中153828；详情确认原名《蜀山奇仙录》，别名Legend of Sho，导演潘斌，制作公司含腾讯企鹅影视、娃娃鱼动画。李浩白、骊珠、阿依目的剧情与输入一致。系列分为2021年第一季和2024年第二季，各10集。\n\nhttps://www.themoviedb.org/tv/153828/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共10集，无额外章节。第1、2集日期均为2024-09-30，第3至10集依次为10-07、10-14、10-21、10-28、11-04、11-11、11-18、11-25；标题均为通用集号。\n\nhttps://movie.douban.com/subject/37054027/ (page): 豆瓣确认《蜀山奇仙录 第二季》为2024年中国大陆动画，别名Legend of Sho Ⅱ，导演潘斌、杨广福，首播2024-09-30，共10集，剧情与Bangumi输入一致。\n\n备注：输入中的Bangumi章节均无标题和播出日期，章节网页亦未成功读取；TMDB仅有通用集号，无法完成独立的逐集标题或日期比对。保留季级映射，待取得可靠分集资料后补充rules。",
+    "evidence": "codex: 作品身份及第二季整季范围已确认：年份、首播日期、10集规模、动画媒介、导演、制作公司及核心剧情相符，TMDB第二季完整覆盖该subject。逐集资料不足，暂不生成连续映射规则。\n\nhttps://bangumi.tv/subject/421842 (search_snippet): Bangumi 将本作标为2024年9月30日开播的WEB动画第二季，共10话；导演潘斌、杨广福，制作方娃娃鱼动画、腾讯视频。\n\nhttps://www.themoviedb.org/tv/153828 (api_snapshot): 原名搜索命中153828；详情确认原名《蜀山奇仙录》，别名Legend of Sho，导演潘斌，制作公司含腾讯企鹅影视、娃娃鱼动画。李浩白、骊珠、阿依目的剧情与输入一致。系列分为2021年第一季和2024年第二季，各10集。\n\nhttps://www.themoviedb.org/tv/153828/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共10集，无额外章节。第1、2集日期均为2024-09-30，第3至10集依次为10-07、10-14、10-21、10-28、11-04、11-11、11-18、11-25；标题均为通用集号。\n\nhttps://movie.douban.com/subject/37054027/ (page): 豆瓣确认《蜀山奇仙录 第二季》为2024年中国大陆动画，别名Legend of Sho Ⅱ，导演潘斌、杨广福，首播2024-09-30，共10集，剧情与Bangumi输入一致。\n\n备注：输入中的Bangumi章节均无标题和播出日期，章节网页亦未成功读取；TMDB仅有通用集号，无法完成独立的逐集标题或日期比对。保留季级映射，待取得可靠分集资料后补充rules。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/421842; https://bangumi.tv/subject/421842; https://www.themoviedb.org/tv/153828; https://www.themoviedb.org/tv/153828/season/2; https://movie.douban.com/subject/37054027/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 153828
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -60,12 +60,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画电视媒介、首播日期、11集规模及续季日期共同支持对应 TMDB 93221 第1季整季。Bangumi 逐集标题和日期均为空，无法核实逐集顺序，因此不生成连续规则或单集覆盖。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选《The Great North》（93221）为动画电视系列，第1季首播日期为2021-01-03，共11集，与本 subject 的名称、季度、媒介、首播日期及集数一致；季表完整列出第1至11集。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选第2季首播日期为2021-09-26，与 Bangumi 关联的《The Great North Season 2》日期一致，进一步支持季度划分。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期；当前不能仅按序号建立对应。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。",
+    "evidence": "codex: 名称、动画电视媒介、首播日期、11集规模及续季日期共同支持对应 TMDB 93221 第1季整季。Bangumi 逐集标题和日期均为空，无法核实逐集顺序，因此不生成连续规则或单集覆盖。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选《The Great North》（93221）为动画电视系列，第1季首播日期为2021-01-03，共11集，与本 subject 的名称、季度、媒介、首播日期及集数一致；季表完整列出第1至11集。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选第2季首播日期为2021-09-26，与 Bangumi 关联的《The Great North Season 2》日期一致，进一步支持季度划分。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期；当前不能仅按序号建立对应。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/444463; https://www.themoviedb.org/tv/93221",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93221
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,0 +1,58 @@
+{
+  "bangumiId": 439620,
+  "episodes": [
+    {
+      "id": 1216893,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1216894,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1216895,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1216896,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1216897,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1216898,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品身份及覆盖范围可以确认：年份、上线日期、动画短片媒介、五个故事内容和制作人员一致。官方六集版本由五部短片及一部合集组成，在 TMDB 分别收录为第1季全季和 S00E01。Bangumi 六个章节均缺少标题和日期，因此仅确认作品范围，逐集规则留空，避免按序号推定。\n\nhttps://www.themoviedb.org/tv/134297 (api_snapshot): TMDB 134297 为2021年动画短片剧集，首播日期为2021-11-12，制作公司为华特迪士尼动画工作室，导演为 Hyrum Virl Osmond，雪宝由 Josh Gad 配音。\n\nhttps://news.disney.com/olaf-presents (page): 迪士尼官方介绍确认该作于2021-11-12上线，由雪宝重演《小美人鱼》《海洋奇缘》《狮子王》《阿拉丁》《魔发奇缘》，导演和配音与 TMDB 一致，剧情与输入吻合。\n\nhttps://www.disneyplus.com/en-au/browse/entity-1cfa92ea-a94b-4701-a6ab-e14504c5887d (page): Disney+ 第一季共列六集：前五集依次对应五部经典动画，第六集为前五部短片的合集，解释了 Bangumi 六话与 TMDB 正季五集的数量差异。\n\nhttps://www.themoviedb.org/tv/134297/season/1 (api_snapshot): 已读取完整第1季集表，共五集，顺序与 Disney+ 前五集一致，日期均为2021-11-12；分页总数为1。\n\nhttps://www.themoviedb.org/tv/134297/season/0 (api_snapshot): 已读取完整第0季集表，仅第1集为 Olaf Presents - Compilation，日期为2021-11-12，时长9分钟，简介明确为五部短片连播，对应 Disney+ 的第六项合集。\n\n备注：Bangumi 章节页未能成功读取；输入中的章节标题和日期均为空，无法独立确认各章节 ID 对应哪部短片及合集。需补充章节标题或内容记录后，才能建立 rules 和第六话的 override。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/439620; https://www.themoviedb.org/tv/134297; https://news.disney.com/olaf-presents; https://www.disneyplus.com/en-au/browse/entity-1cfa92ea-a94b-4701-a6ab-e14504c5887d; https://www.themoviedb.org/tv/134297/season/1; https://www.themoviedb.org/tv/134297/season/0",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 134297,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 134297,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

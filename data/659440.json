@@ -60,12 +60,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、地区首播时间、剧情、角色、制作团队及11集电视动画版本相互吻合，可确认该 subject 覆盖 TMDB 204135 第1季第1—11集。Bangumi 章节缺少标题和日期，逐集关系暂留空，不按序号直接推定。\n\nhttps://www.themoviedb.org/tv/204135 (api_snapshot): TMDB 204135 为2026年电视动画《Dragon Striker》，主角 Key、Ssyelle 及 Kal Asterock 学校设定与输入一致；制作公司为 La Chouette Compagnie 和 Disney Television Animation。\n\nhttps://www.themoviedb.org/tv/204135/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，共11集，集号1—11，日期均为2026-06-09；首集为 The Awakening，末集为 Revelations，每集21—23分钟。\n\nhttps://newsroom.disney.fr/actualites/dragon-striker-i-la-nouvelle-serie-animee-hulu-se-devoile-avec-une-bande-annonce-officielle-aa4d2-dc71f.html (page): Disney 法国官方公告确认2026年6月6日先行播出前三集，解释了 Bangumi 与 TMDB 首播日期的地区差异；剧情、制作公司及主要配音与 TMDB 一致，导演为 Charles Lefebvre。\n\nhttps://prensa.disneylatino.com/novedades/dragon-striker-la-nueva-serie-de-animaci%C3%B3n-ya-est%C3%A1-disponible-en-disney%2B (page): Disney 拉美官方公告确认2026年6月上线的该动画共11集，剧情涵盖 Key 加入 Ssyelle 的球队并揭开古老邪恶，与 Bangumi 简介一致。\n\nhttps://bgm.tv/subject/659440/ep (page): Bangumi 章节页列有本篇1—11，但均无标题和播出日期，无法进行逐话交叉比对。\n\n备注：逐集 rules 需待 Bangumi 补充标题、日期或其他能确认章节内容的资料后建立。",
+    "evidence": "codex: 年份、地区首播时间、剧情、角色、制作团队及11集电视动画版本相互吻合，可确认该 subject 覆盖 TMDB 204135 第1季第1—11集。Bangumi 章节缺少标题和日期，逐集关系暂留空，不按序号直接推定。\n\nhttps://www.themoviedb.org/tv/204135 (api_snapshot): TMDB 204135 为2026年电视动画《Dragon Striker》，主角 Key、Ssyelle 及 Kal Asterock 学校设定与输入一致；制作公司为 La Chouette Compagnie 和 Disney Television Animation。\n\nhttps://www.themoviedb.org/tv/204135/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，共11集，集号1—11，日期均为2026-06-09；首集为 The Awakening，末集为 Revelations，每集21—23分钟。\n\nhttps://newsroom.disney.fr/actualites/dragon-striker-i-la-nouvelle-serie-animee-hulu-se-devoile-avec-une-bande-annonce-officielle-aa4d2-dc71f.html (page): Disney 法国官方公告确认2026年6月6日先行播出前三集，解释了 Bangumi 与 TMDB 首播日期的地区差异；剧情、制作公司及主要配音与 TMDB 一致，导演为 Charles Lefebvre。\n\nhttps://prensa.disneylatino.com/novedades/dragon-striker-la-nueva-serie-de-animaci%C3%B3n-ya-est%C3%A1-disponible-en-disney%2B (page): Disney 拉美官方公告确认2026年6月上线的该动画共11集，剧情涵盖 Key 加入 Ssyelle 的球队并揭开古老邪恶，与 Bangumi 简介一致。\n\nhttps://bgm.tv/subject/659440/ep (page): Bangumi 章节页列有本篇1—11，但均无标题和播出日期，无法进行逐话交叉比对。\n\n备注：逐集 rules 需待 Bangumi 补充标题、日期或其他能确认章节内容的资料后建立。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/659440; https://www.themoviedb.org/tv/204135; https://www.themoviedb.org/tv/204135/season/1; https://newsroom.disney.fr/actualites/dragon-striker-i-la-nouvelle-serie-animee-hulu-se-devoile-avec-une-bande-annonce-officielle-aa4d2-dc71f.html; https://prensa.disneylatino.com/novedades/dragon-striker-la-nueva-serie-de-animaci%C3%B3n-ya-est%C3%A1-disponible-en-disney%2B; https://bgm.tv/subject/659440/ep",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 204135
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

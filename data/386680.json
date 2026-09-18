@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份与整季范围足以确认：首播日期、具体剧情、网络动画版本及26集规模相符，TMDB 第1季完整覆盖该主体。保留整季映射；由于 Bangumi 各章标题和日期均为空，不把同序号推测写成逐集规则。\n\nhttps://bgm.tv/subject/386680 (page): Bangumi 确认为 2022-06-26 开播的26话 WEB 动画，原作花幽山月，导演孙纪剑、朱怡静，索以文化制作，优酷播出。\n\nhttps://www.themoviedb.org/tv/204862 (api_snapshot): TMDB 204862 原名《神级龙卫》，首播2022-06-26、末播2022-12-11，共1季26集；沈浪进入太虚幻境挽救苏若雪的剧情与 Bangumi 一致。演职员及制作公司字段为空，不能据此声称已交叉核实制作人员。\n\nhttps://www.themoviedb.org/tv/204862/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共26集。第1、2集同于2022-06-26播出，其后每周一集至12月11日；各集均有剧情标题，未见混入续作或总集篇。\n\nhttps://www.youtube.com/watch?v=eRb5t84tTOc (search_snippet): 优酷动漫官方频道的《神级龙卫 The Legend of Dragon Soldier》视频标为EP01–26合集，简介与本条目剧情一致，支持英文别名及26集范围；视频网页未成功读取。\n\nhttps://bgm.tv/subject/386680/ep (page): Bangumi 章节页列出本篇1–26，但全部缺少集标题和放送日期，无法与 TMDB 进行独立的逐集标题、日期比对。\n\nhttps://www.themoviedb.org/tv/257336 (api_snapshot): 另一搜索候选257336为《神级龙卫之沈浪归来》，标记2024-01-09首播、仅1集，简介为都市婚约故事，与本次2022年网络动画的版本及范围不符。\n\n备注：逐集对应尚未独立核实，rules 与 overrides 留空；需补充可关联到 Bangumi 各章的标题或播出日期。；早期优酷预告搜索摘要曾写52集，与实际26集范围不同；本映射仅覆盖已核实的26集，不据预告扩展到续作。",
+    "evidence": "codex: 作品身份与整季范围足以确认：首播日期、具体剧情、网络动画版本及26集规模相符，TMDB 第1季完整覆盖该主体。保留整季映射；由于 Bangumi 各章标题和日期均为空，不把同序号推测写成逐集规则。\n\nhttps://bgm.tv/subject/386680 (page): Bangumi 确认为 2022-06-26 开播的26话 WEB 动画，原作花幽山月，导演孙纪剑、朱怡静，索以文化制作，优酷播出。\n\nhttps://www.themoviedb.org/tv/204862 (api_snapshot): TMDB 204862 原名《神级龙卫》，首播2022-06-26、末播2022-12-11，共1季26集；沈浪进入太虚幻境挽救苏若雪的剧情与 Bangumi 一致。演职员及制作公司字段为空，不能据此声称已交叉核实制作人员。\n\nhttps://www.themoviedb.org/tv/204862/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共26集。第1、2集同于2022-06-26播出，其后每周一集至12月11日；各集均有剧情标题，未见混入续作或总集篇。\n\nhttps://www.youtube.com/watch?v=eRb5t84tTOc (search_snippet): 优酷动漫官方频道的《神级龙卫 The Legend of Dragon Soldier》视频标为EP01–26合集，简介与本条目剧情一致，支持英文别名及26集范围；视频网页未成功读取。\n\nhttps://bgm.tv/subject/386680/ep (page): Bangumi 章节页列出本篇1–26，但全部缺少集标题和放送日期，无法与 TMDB 进行独立的逐集标题、日期比对。\n\nhttps://www.themoviedb.org/tv/257336 (api_snapshot): 另一搜索候选257336为《神级龙卫之沈浪归来》，标记2024-01-09首播、仅1集，简介为都市婚约故事，与本次2022年网络动画的版本及范围不符。\n\n备注：逐集对应尚未独立核实，rules 与 overrides 留空；需补充可关联到 Bangumi 各章的标题或播出日期。；早期优酷预告搜索摘要曾写52集，与实际26集范围不同；本映射仅覆盖已核实的26集，不据预告扩展到续作。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/386680; https://www.themoviedb.org/tv/204862; https://www.themoviedb.org/tv/204862/season/1; https://www.youtube.com/watch?v=eRb5t84tTOc; https://bgm.tv/subject/386680/ep; https://www.themoviedb.org/tv/257336",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 204862
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

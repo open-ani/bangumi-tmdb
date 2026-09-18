@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 第二季标识、首播日期和26集规模一致，支持将 subject 对应到 TMDB 129832 第2季整季。Bangumi 各集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/129832 (api_snapshot): 候选为韩国动画《Bread Barbershop》，第2季首播日期为2020-06-06，共26集，与 Bangumi 第二季的首播日期及总集数一致；该季集表完整列出第1至26集。\n\n备注：逐集对应尚未确认：需补充 Bangumi 每集标题或放送日期；TMDB 现有标题也仅为集号占位。；输入缺少剧情和制作方资料，无法进行这些维度的交叉核对。",
+    "evidence": "codex: 第二季标识、首播日期和26集规模一致，支持将 subject 对应到 TMDB 129832 第2季整季。Bangumi 各集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/129832 (api_snapshot): 候选为韩国动画《Bread Barbershop》，第2季首播日期为2020-06-06，共26集，与 Bangumi 第二季的首播日期及总集数一致；该季集表完整列出第1至26集。\n\n备注：逐集对应尚未确认：需补充 Bangumi 每集标题或放送日期；TMDB 现有标题也仅为集号占位。；输入缺少剧情和制作方资料，无法进行这些维度的交叉核对。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/544902; https://www.themoviedb.org/tv/129832",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 129832
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

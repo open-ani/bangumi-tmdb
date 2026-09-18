@@ -95,12 +95,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季号、首播日期、媒介、18集总量及前后季关联共同确认对应 TMDB 456 第35季整季。Bangumi 章节标题和放送日期全部为空，无法逐集核实顺序，因此仅确认整季范围，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 为美国动画剧集《The Simpsons》；第35季首播日期为2023-10-01，共18集，与 Bangumi 的季号、首播日期、TV媒介和本篇集数一致。候选完整季表列出第35季第1至18集，放送日期覆盖2023-10-01至2024-05-19。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 第34季和第36季首播日期分别为2022-09-25、2024-09-29，与 Bangumi 前后续关联条目的季号及日期一致，支持本条目对应第35季。\n\n备注：需补充 Bangumi 各章节标题或放送日期后，才能核实逐集对应关系。；Bangumi 未提供剧情与制作方信息，无法对这两项进行双侧比对。",
+    "evidence": "codex: 季号、首播日期、媒介、18集总量及前后季关联共同确认对应 TMDB 456 第35季整季。Bangumi 章节标题和放送日期全部为空，无法逐集核实顺序，因此仅确认整季范围，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 为美国动画剧集《The Simpsons》；第35季首播日期为2023-10-01，共18集，与 Bangumi 的季号、首播日期、TV媒介和本篇集数一致。候选完整季表列出第35季第1至18集，放送日期覆盖2023-10-01至2024-05-19。\n\nhttps://www.themoviedb.org/tv/456 (api_snapshot): TMDB 456 第34季和第36季首播日期分别为2022-09-25、2024-09-29，与 Bangumi 前后续关联条目的季号及日期一致，支持本条目对应第35季。\n\n备注：需补充 Bangumi 各章节标题或放送日期后，才能核实逐集对应关系。；Bangumi 未提供剧情与制作方信息，无法对这两项进行双侧比对。\n\n脚本按声明范围生成逐集规则：18 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/430660; https://www.themoviedb.org/tv/456",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 1,
+      "season": 35,
+      "start": 1,
+      "tmdbId": 456
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

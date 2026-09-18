@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、媒介、10集规模和播出起止日期共同支持对应 TMDB 125392 第1季，季表未显示混入其他作品。Bangumi 各章节标题及日期均为空，无法逐集交叉核验，因此确认整季范围，但不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/125392 (api_snapshot): 候选《Little Demon》为美国动画，制作公司包括 FX Productions；第1季共10集，首播日期为2022-08-25，末集日期为2022-10-20，与 Bangumi 的名称、动画媒介、总集数及播出起止日期一致。\n\n备注：候选未提供剧情简介或主创名单，无法交叉核对剧情及导演。；逐集映射需补充 Bangumi 章节标题或放送日期；当前 TMDB 标题也仅为通用集号。",
+    "evidence": "codex: 名称、媒介、10集规模和播出起止日期共同支持对应 TMDB 125392 第1季，季表未显示混入其他作品。Bangumi 各章节标题及日期均为空，无法逐集交叉核验，因此确认整季范围，但不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/125392 (api_snapshot): 候选《Little Demon》为美国动画，制作公司包括 FX Productions；第1季共10集，首播日期为2022-08-25，末集日期为2022-10-20，与 Bangumi 的名称、动画媒介、总集数及播出起止日期一致。\n\n备注：候选未提供剧情简介或主创名单，无法交叉核对剧情及导演。；逐集映射需补充 Bangumi 章节标题或放送日期；当前 TMDB 标题也仅为通用集号。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/626871; https://www.themoviedb.org/tv/125392",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 125392
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

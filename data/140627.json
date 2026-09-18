@@ -155,12 +155,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作公司、电视媒介、季度、开播日期、30集总量及多项具体剧情均吻合，可确认对应 TMDB 3902 第4季完整范围。Bangumi 章节没有标题和日期，无法独立核实逐集顺序，因此仅确认季级映射，逐集规则留空。\n\nhttps://bgm.tv/subject/140627 (page): Bangumi 标明本作为电视动画第四季，2014年2月3日开播、共30话，动画制作为 Aardman Animations；剧情包含冰激凌车、蜘蛛、水管漏水及鹈鹕等事件。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 3902 为 Aardman 制作的《Shaun the Sheep》电视系列，角色及农场喜剧设定吻合；详情明确列出第四季于2014年2月3日开播，共30集。\n\nhttps://www.themoviedb.org/tv/3902/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，包含第1至30集。首集 Cones 日期为2014年2月3日，末集 Fruit and Nuts 日期为2014年9月30日；冰激凌车、蜘蛛、漏水和鹈鹕剧情与 Bangumi 简介吻合。\n\nhttps://www.aardman.com/film-tv-games/shaun-the-sheep/ (page): Aardman 官方确认该作为2007年开始的定格动画电视系列，并分别介绍电影及2015、2021年的半小时特别篇，支持媒介和版本区分。\n\n备注：Bangumi 的30个章节均缺少标题和播出日期，不能仅凭 sort 与 TMDB 集号建立一一对应。；TMDB 第21至29集部分标题与简介存在错位迹象，日期也未随集号递增；补充 Bangumi 章节身份及可靠播出表后，才能确定逐集规则或特例。",
+    "evidence": "codex: 制作公司、电视媒介、季度、开播日期、30集总量及多项具体剧情均吻合，可确认对应 TMDB 3902 第4季完整范围。Bangumi 章节没有标题和日期，无法独立核实逐集顺序，因此仅确认季级映射，逐集规则留空。\n\nhttps://bgm.tv/subject/140627 (page): Bangumi 标明本作为电视动画第四季，2014年2月3日开播、共30话，动画制作为 Aardman Animations；剧情包含冰激凌车、蜘蛛、水管漏水及鹈鹕等事件。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 3902 为 Aardman 制作的《Shaun the Sheep》电视系列，角色及农场喜剧设定吻合；详情明确列出第四季于2014年2月3日开播，共30集。\n\nhttps://www.themoviedb.org/tv/3902/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，包含第1至30集。首集 Cones 日期为2014年2月3日，末集 Fruit and Nuts 日期为2014年9月30日；冰激凌车、蜘蛛、漏水和鹈鹕剧情与 Bangumi 简介吻合。\n\nhttps://www.aardman.com/film-tv-games/shaun-the-sheep/ (page): Aardman 官方确认该作为2007年开始的定格动画电视系列，并分别介绍电影及2015、2021年的半小时特别篇，支持媒介和版本区分。\n\n备注：Bangumi 的30个章节均缺少标题和播出日期，不能仅凭 sort 与 TMDB 集号建立一一对应。；TMDB 第21至29集部分标题与简介存在错位迹象，日期也未随集号递增；补充 Bangumi 章节身份及可靠播出表后，才能确定逐集规则或特例。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/140627; https://www.themoviedb.org/tv/3902; https://www.themoviedb.org/tv/3902/season/4; https://www.aardman.com/film-tv-games/shaun-the-sheep/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 3902
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

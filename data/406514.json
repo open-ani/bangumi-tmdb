@@ -1,0 +1,73 @@
+{
+  "bangumiId": 406514,
+  "episodes": [
+    {
+      "id": 1142112,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1142113,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1142114,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1142115,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1142116,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1142117,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1142118,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1142119,
+      "sort": 8,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品身份、动画媒介、剧情及制作信息相符。输入的8话标题与日期逐集对应 TMDB 第1季第11至18集，确认这是第一季后半部分；因此仅映射该区间，不覆盖整季。\n\nhttps://www.themoviedb.org/tv/97727 (api_snapshot): TMDB 97727 为英语动画剧集《Inside Job》，首播于2021-10-22，制作公司包含 Netflix Animation Studios；剧情及 Reagan Ridley 等角色与输入一致，IMDb 标识亦为 tt10231312。全剧在 TMDB 编为1季18集。\n\nhttps://www.themoviedb.org/tv/97727/season/1 (api_snapshot): 已读取第1季完整18集集表，total_pages=1。第11至18集的标题依次与 Bangumi 第1至8话一致，第3话仅存在 &amp; 的HTML转义差异；这8集的上线日期全部为2022-11-18。第1至10集则为2021-10-22上线的前半部分。\n\nhttps://www.netflix.com/title/80995819 (page): Netflix 官方页面将本作标为两部分的成人动画职场喜剧，创作者为 Shion Takeuchi，主演包含 Lizzy Caplan、Christian Slater、Clark Duke；阴谋管理公司的剧情与 TMDB 一致，并分别列出 Part 1 与 Part 2 预告。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/406514; https://www.themoviedb.org/tv/97727; https://www.themoviedb.org/tv/97727/season/1; https://www.netflix.com/title/80995819",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 97727
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 11,
+      "episodeEnd": 18,
+      "id": 97727,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

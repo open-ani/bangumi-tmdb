@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 版本年份、电视动画媒介、Cartoon Network背景、40集规模及完整放送日期范围共同支持对应TMDB 68295第1季。整季范围可以确认，但逐集对应缺乏依据，因此保留季级映射，逐集留空。\n\nhttps://www.themoviedb.org/tv/68295 (api_snapshot): 候选为2016年版《Ben 10》，首播日期为2016-10-01，制作公司包括Cartoon Network Studios，与Bangumi所述2016年Cartoon Network重启版相符。\n\nhttps://www.themoviedb.org/tv/68295 (api_snapshot): 第1季共40集，季表日期范围为2016-10-01至2017-05-28，与Bangumi第一季的集数及放送起止日期完全一致；第2季始于2017-10-03。\n\n备注：Bangumi全部章节均缺少标题和放送日期，TMDB标题也仅为通用集号，无法进行逐集交叉核对。；TMDB第1季集号与放送日期并非顺序一致，不能按位置推定Bangumi sort对应同号集；需补充实际集标题或逐集放送记录后建立rules或overrides。",
+    "evidence": "codex: 版本年份、电视动画媒介、Cartoon Network背景、40集规模及完整放送日期范围共同支持对应TMDB 68295第1季。整季范围可以确认，但逐集对应缺乏依据，因此保留季级映射，逐集留空。\n\nhttps://www.themoviedb.org/tv/68295 (api_snapshot): 候选为2016年版《Ben 10》，首播日期为2016-10-01，制作公司包括Cartoon Network Studios，与Bangumi所述2016年Cartoon Network重启版相符。\n\nhttps://www.themoviedb.org/tv/68295 (api_snapshot): 第1季共40集，季表日期范围为2016-10-01至2017-05-28，与Bangumi第一季的集数及放送起止日期完全一致；第2季始于2017-10-03。\n\n备注：Bangumi全部章节均缺少标题和放送日期，TMDB标题也仅为通用集号，无法进行逐集交叉核对。；TMDB第1季集号与放送日期并非顺序一致，不能按位置推定Bangumi sort对应同号集；需补充实际集标题或逐集放送记录后建立rules或overrides。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/277187; https://www.themoviedb.org/tv/68295",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68295
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

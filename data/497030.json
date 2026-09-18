@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列名称、首播日期、10集规模及周三排期支持对应 TMDB 110308 第9季整季，不能按中文季名直接选第7季。Bangumi 各集标题和日期均为空，无法逐集核验，因此仅确认季度范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/110308 (api_snapshot): 《我叫MT》季表中，第9季首播于2024-07-10，共10集，逐集日期为2024-07-10至2024-09-11，每周三播出，与 Bangumi 的首播日期、话数及放送星期一致。第7季则首播于2015-09-08，共11集，不符合本条目。\n\nhttps://www.themoviedb.org/movie/402809 (api_snapshot): 《我叫MT之山口山战记》为2016-06-17上映的电影，与本条目的2024年网络动画季度不符。\n\n备注：Bangumi 缺少逐集标题及放送日期，需补充后才能确认逐集对应关系。；候选未提供剧情与制作方信息，无法独立交叉核验这两项。",
+    "evidence": "codex: 系列名称、首播日期、10集规模及周三排期支持对应 TMDB 110308 第9季整季，不能按中文季名直接选第7季。Bangumi 各集标题和日期均为空，无法逐集核验，因此仅确认季度范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/110308 (api_snapshot): 《我叫MT》季表中，第9季首播于2024-07-10，共10集，逐集日期为2024-07-10至2024-09-11，每周三播出，与 Bangumi 的首播日期、话数及放送星期一致。第7季则首播于2015-09-08，共11集，不符合本条目。\n\nhttps://www.themoviedb.org/movie/402809 (api_snapshot): 《我叫MT之山口山战记》为2016-06-17上映的电影，与本条目的2024年网络动画季度不符。\n\n备注：Bangumi 缺少逐集标题及放送日期，需补充后才能确认逐集对应关系。；候选未提供剧情与制作方信息，无法独立交叉核验这两项。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/497030; https://www.themoviedb.org/tv/110308; https://www.themoviedb.org/movie/402809",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 9,
+      "start": 1,
+      "tmdbId": 110308
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

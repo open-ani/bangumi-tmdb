@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB TV 105996第4季整季。年份、播出区间、媒介、制作信息、13集总量及官方各话剧情均吻合，季表未混入其他系列。Bangumi章节缺少标题和播出日期，无法独立逐集核验其sort顺序，因此保留整季匹配，不生成仅按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 日文原名搜索得到 TV 105996；详情确认其为日本动画公司等制作的蓝色小考拉日常动画，共4季，第4季首播2017-10-04、共13集。\n\nhttps://www.themoviedb.org/tv/105996/season/4 (api_snapshot): 已读取第4季完整集表，total_pages=1，共13集，每集5分钟，集号1—13，日期从2017-10-04至2017-12-27，每周三连续播出；故事内容与官方第4系列13篇简介逐项相符。\n\nhttps://www.nippon-animation.co.jp/work/5858/ (search_snippet): 日本动画官方作品页搜索结果确认第4系列为NHK Eテレ电视动画，播出期2017-10-04至2017-12-27，5分钟×13话；导演髙木淳、系列构成及脚本島田満，与输入一致。网页直接访问返回403。\n\nhttps://penelope.tv/tv-animation/story04.html (page): 官方第4系列剧情页列出13个故事，其顺序及剧情与TMDB第4季一致，从露营、数数、种菜到巴黎散步、跳舞；末几话标题有轻微文字差异，剧情一致。\n\n备注：输入中的13个Bangumi章节标题和日期均为空，本次访问Bangumi章节页及API亦未成功；待补充章节标题或日期后再建立逐集映射。",
+    "evidence": "codex: 确认对应TMDB TV 105996第4季整季。年份、播出区间、媒介、制作信息、13集总量及官方各话剧情均吻合，季表未混入其他系列。Bangumi章节缺少标题和播出日期，无法独立逐集核验其sort顺序，因此保留整季匹配，不生成仅按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 日文原名搜索得到 TV 105996；详情确认其为日本动画公司等制作的蓝色小考拉日常动画，共4季，第4季首播2017-10-04、共13集。\n\nhttps://www.themoviedb.org/tv/105996/season/4 (api_snapshot): 已读取第4季完整集表，total_pages=1，共13集，每集5分钟，集号1—13，日期从2017-10-04至2017-12-27，每周三连续播出；故事内容与官方第4系列13篇简介逐项相符。\n\nhttps://www.nippon-animation.co.jp/work/5858/ (search_snippet): 日本动画官方作品页搜索结果确认第4系列为NHK Eテレ电视动画，播出期2017-10-04至2017-12-27，5分钟×13话；导演髙木淳、系列构成及脚本島田満，与输入一致。网页直接访问返回403。\n\nhttps://penelope.tv/tv-animation/story04.html (page): 官方第4系列剧情页列出13个故事，其顺序及剧情与TMDB第4季一致，从露营、数数、种菜到巴黎散步、跳舞；末几话标题有轻微文字差异，剧情一致。\n\n备注：输入中的13个Bangumi章节标题和日期均为空，本次访问Bangumi章节页及API亦未成功；待补充章节标题或日期后再建立逐集映射。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/309237; https://www.themoviedb.org/tv/105996; https://www.themoviedb.org/tv/105996/season/4; https://www.nippon-animation.co.jp/work/5858/; https://penelope.tv/tv-animation/story04.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 105996
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

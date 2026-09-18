@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份和整季范围已确认：制作方、人物剧情、电视媒介、2016年首播日期及20集规模相互吻合，TMDB 第五季完整覆盖该 subject，未混入电影或衍生短篇。Bangumi 章节缺少标题和日期，无法核实其逐集顺序，因此仅建立整季映射，不按编号位置生成 rules。\n\nhttps://bgm.tv/subject/439340 (page): Bangumi 标注本作为 TV 第五季，共 20 集，2016年9月5日开播，执行制片人为 Nick Park；剧情围绕肖恩、农场主和羊群展开。页面章节仅显示编号，没有可供逐集比对的标题和日期。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 3902 为 Aardman 制作的英国电视动画《Shaun the Sheep》，2007年开播，角色及农场剧情与 Bangumi 一致；季列表明确列出2016年的第五季。\n\nhttps://www.themoviedb.org/tv/3902/season/5 (api_snapshot): 第五季真实集表共 20 集，total_pages=1，集号连续为 1—20，日期覆盖2016年9月5日至11月18日；首集 Out of Order，末集 Sheep Farmer，内容均为农场系列故事。\n\nhttps://ble.vporoom.com/AardmanAnimations/index.php?item=122547&s=34930 (page): Aardman 于2016年8月发布的新闻稿确认第五季于当年9月在 CBBC 回归，共 20 集；导演为 Will Becher，创意总监为 Steve Box，联合导演为 Lee Wilton。角色、农场场景及访客情节与 TMDB 第五季吻合。\n\n备注：Bangumi 第1—20话均无标题和放送日期，逐集对应暂留空；需补充可验证的章节信息后再与 TMDB 集表逐项比对。",
+    "evidence": "codex: 作品身份和整季范围已确认：制作方、人物剧情、电视媒介、2016年首播日期及20集规模相互吻合，TMDB 第五季完整覆盖该 subject，未混入电影或衍生短篇。Bangumi 章节缺少标题和日期，无法核实其逐集顺序，因此仅建立整季映射，不按编号位置生成 rules。\n\nhttps://bgm.tv/subject/439340 (page): Bangumi 标注本作为 TV 第五季，共 20 集，2016年9月5日开播，执行制片人为 Nick Park；剧情围绕肖恩、农场主和羊群展开。页面章节仅显示编号，没有可供逐集比对的标题和日期。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 3902 为 Aardman 制作的英国电视动画《Shaun the Sheep》，2007年开播，角色及农场剧情与 Bangumi 一致；季列表明确列出2016年的第五季。\n\nhttps://www.themoviedb.org/tv/3902/season/5 (api_snapshot): 第五季真实集表共 20 集，total_pages=1，集号连续为 1—20，日期覆盖2016年9月5日至11月18日；首集 Out of Order，末集 Sheep Farmer，内容均为农场系列故事。\n\nhttps://ble.vporoom.com/AardmanAnimations/index.php?item=122547&s=34930 (page): Aardman 于2016年8月发布的新闻稿确认第五季于当年9月在 CBBC 回归，共 20 集；导演为 Will Becher，创意总监为 Steve Box，联合导演为 Lee Wilton。角色、农场场景及访客情节与 TMDB 第五季吻合。\n\n备注：Bangumi 第1—20话均无标题和放送日期，逐集对应暂留空；需补充可验证的章节信息后再与 TMDB 集表逐项比对。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439340; https://www.themoviedb.org/tv/3902; https://www.themoviedb.org/tv/3902/season/5; https://ble.vporoom.com/AardmanAnimations/index.php?item=122547&s=34930",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 3902
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

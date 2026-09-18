@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、导演、10集电视动画规格及前后特别篇关系共同确认本 subject 对应 TMDB 106251 第一季全季。Bangumi 十个章节均缺少标题和日期，无法逐章交叉核验，因此仅确认季级范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/106251 (api_snapshot): 搜索 Monkie Kid 得到 TV 106251；详情确认原名为《乐高悟空小侠》，首播日期为2020-09-12，制作公司包括 Flying Bark Productions、LEGO Group，故事围绕获得孙悟空金箍棒的少年展开。\n\nhttps://www.themoviedb.org/tv/106251/season/1 (api_snapshot): 第一季集表已完整读取，total_pages=1，共10集，每集11分钟，日期均记为2020-09-12；首集为 Bad Weather，末集为 The End is Here!，未混入两部前后特别篇。\n\nhttps://legomonkiekid.fandom.com/wiki/Season_1 (search_snippet): 第一季资料注明导演 Sarah Harper、10集、每集11分钟，与输入吻合；十集标题及顺序与 TMDB 完全一致。该来源另列马来西亚播出期间为2020-09-13至2020-10-03。\n\nhttps://www.lego.com/en-be/aboutus/news/2021/september/lego-monkie-kid-on-amazon-kids (search_snippet): LEGO 官方公告将第一、二季及两部特别篇分别列出，并明确第一季与特别篇 A Hero is Born 分开提供，支持本 subject 的10集范围不包含前传特别篇。\n\nhttps://legomonkiekid.fandom.com/wiki/The_End_is_Here%21 (search_snippet): 第一季第10集 The End is Here! 的后续条目标为 Revenge of the Spider Queen，与输入的续作关系一致。\n\n备注：Bangumi 主页面与章节页访问失败；章节信息依据用户提供的快照。需补充章节标题或日期后才能确认逐集映射。；资料存在地区播出日期差异；TMDB 的2020-09-12与输入一致，但不应视为各地区统一播出日期。",
+    "evidence": "codex: 年份、首播日期、导演、10集电视动画规格及前后特别篇关系共同确认本 subject 对应 TMDB 106251 第一季全季。Bangumi 十个章节均缺少标题和日期，无法逐章交叉核验，因此仅确认季级范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/106251 (api_snapshot): 搜索 Monkie Kid 得到 TV 106251；详情确认原名为《乐高悟空小侠》，首播日期为2020-09-12，制作公司包括 Flying Bark Productions、LEGO Group，故事围绕获得孙悟空金箍棒的少年展开。\n\nhttps://www.themoviedb.org/tv/106251/season/1 (api_snapshot): 第一季集表已完整读取，total_pages=1，共10集，每集11分钟，日期均记为2020-09-12；首集为 Bad Weather，末集为 The End is Here!，未混入两部前后特别篇。\n\nhttps://legomonkiekid.fandom.com/wiki/Season_1 (search_snippet): 第一季资料注明导演 Sarah Harper、10集、每集11分钟，与输入吻合；十集标题及顺序与 TMDB 完全一致。该来源另列马来西亚播出期间为2020-09-13至2020-10-03。\n\nhttps://www.lego.com/en-be/aboutus/news/2021/september/lego-monkie-kid-on-amazon-kids (search_snippet): LEGO 官方公告将第一、二季及两部特别篇分别列出，并明确第一季与特别篇 A Hero is Born 分开提供，支持本 subject 的10集范围不包含前传特别篇。\n\nhttps://legomonkiekid.fandom.com/wiki/The_End_is_Here%21 (search_snippet): 第一季第10集 The End is Here! 的后续条目标为 Revenge of the Spider Queen，与输入的续作关系一致。\n\n备注：Bangumi 主页面与章节页访问失败；章节信息依据用户提供的快照。需补充章节标题或日期后才能确认逐集映射。；资料存在地区播出日期差异；TMDB 的2020-09-12与输入一致，但不应视为各地区统一播出日期。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/525825; https://www.themoviedb.org/tv/106251; https://www.themoviedb.org/tv/106251/season/1; https://legomonkiekid.fandom.com/wiki/Season_1; https://www.lego.com/en-be/aboutus/news/2021/september/lego-monkie-kid-on-amazon-kids; https://legomonkiekid.fandom.com/wiki/The_End_is_Here%21",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 106251
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

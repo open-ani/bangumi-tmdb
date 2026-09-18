@@ -106,12 +106,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份与整季范围已确认：年份、剧情、制作公司、导演及20集网络动画版本一致，TMDB第1季完整覆盖该subject。逐集标题与日期在Bangumi端缺失，且TMDB末集日期与官方公告不一致，因此仅确认整季映射，逐集规则留空；旧映射中“集名与播出日期连续对应”的说法未获支持。\n\nhttps://bgm.tv/subject/456768 (page): Bangumi 标记为2023年10月20日开播的网络动画，共20话，由优酷、若鸿文化制作；剧情围绕东方灏、牧勋及魔族入侵展开。\n\nhttps://www.themoviedb.org/tv/237714 (api_snapshot): TMDB 237714 的原名、首播日期、完整剧情及制作公司与待核对作品一致，导演为大鹅、笔落、陈明明；详情列出1季20集。\n\nhttps://www.themoviedb.org/tv/237714/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共20集，编号1—20；首集为《东方氏之变》，末集为《逍遥岛圣物》。所列首播日期为2023年10月20日至2024年2月23日。\n\nhttps://v.youku.com/v_show/id_XNjEwNTg4MTcwMA==.html (page): 优酷正版播放页确认本作20话全，第1话为《东方氏之变》，剧情人物与两站一致，支持整季作品范围匹配。\n\nhttps://bgm.tv/subject/456768/ep (page): Bangumi 章节页仅有本篇1—20的编号，未提供集标题或播出日期，无法据此完成逐集内容比对。\n\nhttps://www.sina.cn/media/7718522297 (page): 动画官方账号2024年2月19日预告次日更新第20话，2月20日宣布收官，与TMDB第20集标注的2月23日存在日期差异。\n\n备注：20个Bangumi章节均缺少标题和日期，不能仅凭编号生成连续逐集映射；需要补充可核对的章节内容或官方逐集资料。；TMDB部分播出日期可能采用不同发布口径或存在错误，尚未厘清。",
+    "evidence": "codex: 作品身份与整季范围已确认：年份、剧情、制作公司、导演及20集网络动画版本一致，TMDB第1季完整覆盖该subject。逐集标题与日期在Bangumi端缺失，且TMDB末集日期与官方公告不一致，因此仅确认整季映射，逐集规则留空；旧映射中“集名与播出日期连续对应”的说法未获支持。\n\nhttps://bgm.tv/subject/456768 (page): Bangumi 标记为2023年10月20日开播的网络动画，共20话，由优酷、若鸿文化制作；剧情围绕东方灏、牧勋及魔族入侵展开。\n\nhttps://www.themoviedb.org/tv/237714 (api_snapshot): TMDB 237714 的原名、首播日期、完整剧情及制作公司与待核对作品一致，导演为大鹅、笔落、陈明明；详情列出1季20集。\n\nhttps://www.themoviedb.org/tv/237714/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共20集，编号1—20；首集为《东方氏之变》，末集为《逍遥岛圣物》。所列首播日期为2023年10月20日至2024年2月23日。\n\nhttps://v.youku.com/v_show/id_XNjEwNTg4MTcwMA==.html (page): 优酷正版播放页确认本作20话全，第1话为《东方氏之变》，剧情人物与两站一致，支持整季作品范围匹配。\n\nhttps://bgm.tv/subject/456768/ep (page): Bangumi 章节页仅有本篇1—20的编号，未提供集标题或播出日期，无法据此完成逐集内容比对。\n\nhttps://www.sina.cn/media/7718522297 (page): 动画官方账号2024年2月19日预告次日更新第20话，2月20日宣布收官，与TMDB第20集标注的2月23日存在日期差异。\n\n备注：20个Bangumi章节均缺少标题和日期，不能仅凭编号生成连续逐集映射；需要补充可核对的章节内容或官方逐集资料。；TMDB部分播出日期可能采用不同发布口径或存在错误，尚未厘清。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/456768; https://www.themoviedb.org/tv/237714; https://www.themoviedb.org/tv/237714/season/1; https://v.youku.com/v_show/id_XNjEwNTg4MTcwMA==.html; https://bgm.tv/subject/456768/ep; https://www.sina.cn/media/7718522297",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 237714
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

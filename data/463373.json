@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 1433 第16季整季。Bangumi 的电视动画媒介、制作方、开播日期和20集规模均吻合；TMDB 实际季表与独立季度资料的20集标题、播出日期及剧情一致，范围内未混入其他季度或版本。Bangumi 章节缺少标题和日期，因此仅确认整季范围，不凭章节位置生成逐集规则。\n\nhttps://bgm.tv/subject/463373 (page): Bangumi 标记为 TV 动画，第十六季，20 集，2019-04-15 开播，制作方为 20th Century Fox Television。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为 2005 年首播的 American Dad!，剧情围绕 Smith 一家及外星人 Roger，制作公司包含 20th Century Fox Television，主要配音包括 Seth MacFarlane。季目录中第16季于2019-04-15开播，共20集。\n\nhttps://www.themoviedb.org/tv/1433/season/16 (api_snapshot): 实际读取第16季完整集表，total_pages=1，共20集：首集 Fantasy Baseball 于2019-04-15播出，末集 The Hand That Rocks the Rogu 于2019-08-26播出。中间各集标题、日期与独立季度集表逐项一致。\n\nhttps://en.wikipedia.org/wiki/American_Dad!_season_16 (page): 独立季度资料确认2019年第16季在TBS播出，共20集，日期为2019-04-15至2019-08-26；完整集表及各集剧情与TMDB对应，属于同一电视动画季度。\n\nhttps://bgm.tv/subject/463373/ep (page): Bangumi 章节页仅列本篇1至20，没有集标题或逐集放送日期，无法直接核验每个章节的对应顺序。\n\n备注：Bangumi 本篇1至20的逐集对应尚未核实；需补充章节标题、放送日期或其他能明确绑定章节ID的证据后再填写 rules 或 overrides。",
+    "evidence": "codex: 确认对应 TMDB 1433 第16季整季。Bangumi 的电视动画媒介、制作方、开播日期和20集规模均吻合；TMDB 实际季表与独立季度资料的20集标题、播出日期及剧情一致，范围内未混入其他季度或版本。Bangumi 章节缺少标题和日期，因此仅确认整季范围，不凭章节位置生成逐集规则。\n\nhttps://bgm.tv/subject/463373 (page): Bangumi 标记为 TV 动画，第十六季，20 集，2019-04-15 开播，制作方为 20th Century Fox Television。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为 2005 年首播的 American Dad!，剧情围绕 Smith 一家及外星人 Roger，制作公司包含 20th Century Fox Television，主要配音包括 Seth MacFarlane。季目录中第16季于2019-04-15开播，共20集。\n\nhttps://www.themoviedb.org/tv/1433/season/16 (api_snapshot): 实际读取第16季完整集表，total_pages=1，共20集：首集 Fantasy Baseball 于2019-04-15播出，末集 The Hand That Rocks the Rogu 于2019-08-26播出。中间各集标题、日期与独立季度集表逐项一致。\n\nhttps://en.wikipedia.org/wiki/American_Dad!_season_16 (page): 独立季度资料确认2019年第16季在TBS播出，共20集，日期为2019-04-15至2019-08-26；完整集表及各集剧情与TMDB对应，属于同一电视动画季度。\n\nhttps://bgm.tv/subject/463373/ep (page): Bangumi 章节页仅列本篇1至20，没有集标题或逐集放送日期，无法直接核验每个章节的对应顺序。\n\n备注：Bangumi 本篇1至20的逐集对应尚未核实；需补充章节标题、放送日期或其他能明确绑定章节ID的证据后再填写 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/463373; https://www.themoviedb.org/tv/1433; https://www.themoviedb.org/tv/1433/season/16; https://en.wikipedia.org/wiki/American_Dad!_season_16; https://bgm.tv/subject/463373/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 16,
+      "start": 1,
+      "tmdbId": 1433
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

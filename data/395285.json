@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 87007 第4季整季：动画媒介、制作公司、首播日期、12集总量及故事范围相符，官方平台亦确认独立的第四季12集。Bangumi 各章节缺少标题和日期，无法完成逐集交叉核验，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/395285 (page): Bangumi 标明本作是2023年11月25日开播的12集网络动画，由郑钧任总导演、大呈印象制作，剧情涉及吞噬祖符、大荒古碑与林氏族比。\n\nhttps://bgm.tv/subject/395285/ep (page): Bangumi 章节表列出本篇1至12，但均无标题和播出日期，缺乏逐集核对信息。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): TMDB 87007 的别名包含《武动乾坤动画版》和 Martial Universe，演员为配音阵容，制作公司包含腾讯企鹅影视、阅文集团及大呈印象；第4季首播日期为2023年11月25日。\n\nhttps://www.themoviedb.org/tv/87007/season/4 (api_snapshot): 实际读取第4季完整集表，total_pages=1，共12集，集号1至12。日期从2023年11月25日至2024年2月3日；剧情从远古血蝠龙、夺取和炼化祖符推进至林氏族比及胜局，与该 subject 主体一致。\n\nhttps://wetv.vip/zh-cn/play/8cno82bq76p9tnj-%E6%AD%A6%E5%8A%A8%E4%B9%BE%E5%9D%A4%20%E7%AC%AC4%E5%AD%A3 (page): WeTV 官方页面将《武动乾坤 第4季》列为2023年作品、全12集，独立列出01至12集；剧情与 Bangumi 及 TMDB 第4季一致。\n\n备注：逐集映射尚未确认；需补充 Bangumi 章节标题、播出日期或可核验的章节内容后，再与 TMDB 集表逐一比对。",
+    "evidence": "codex: 已确认对应 TMDB 87007 第4季整季：动画媒介、制作公司、首播日期、12集总量及故事范围相符，官方平台亦确认独立的第四季12集。Bangumi 各章节缺少标题和日期，无法完成逐集交叉核验，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/395285 (page): Bangumi 标明本作是2023年11月25日开播的12集网络动画，由郑钧任总导演、大呈印象制作，剧情涉及吞噬祖符、大荒古碑与林氏族比。\n\nhttps://bgm.tv/subject/395285/ep (page): Bangumi 章节表列出本篇1至12，但均无标题和播出日期，缺乏逐集核对信息。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): TMDB 87007 的别名包含《武动乾坤动画版》和 Martial Universe，演员为配音阵容，制作公司包含腾讯企鹅影视、阅文集团及大呈印象；第4季首播日期为2023年11月25日。\n\nhttps://www.themoviedb.org/tv/87007/season/4 (api_snapshot): 实际读取第4季完整集表，total_pages=1，共12集，集号1至12。日期从2023年11月25日至2024年2月3日；剧情从远古血蝠龙、夺取和炼化祖符推进至林氏族比及胜局，与该 subject 主体一致。\n\nhttps://wetv.vip/zh-cn/play/8cno82bq76p9tnj-%E6%AD%A6%E5%8A%A8%E4%B9%BE%E5%9D%A4%20%E7%AC%AC4%E5%AD%A3 (page): WeTV 官方页面将《武动乾坤 第4季》列为2023年作品、全12集，独立列出01至12集；剧情与 Bangumi 及 TMDB 第4季一致。\n\n备注：逐集映射尚未确认；需补充 Bangumi 章节标题、播出日期或可核验的章节内容后，再与 TMDB 集表逐一比对。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/395285; https://bgm.tv/subject/395285/ep; https://www.themoviedb.org/tv/87007; https://www.themoviedb.org/tv/87007/season/4; https://wetv.vip/zh-cn/play/8cno82bq76p9tnj-%E6%AD%A6%E5%8A%A8%E4%B9%BE%E5%9D%A4%20%E7%AC%AC4%E5%AD%A3",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 87007
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

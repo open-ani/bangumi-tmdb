@@ -155,12 +155,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列名称、第五部与第5季的序号、首播日期及30集规模相互吻合，支持对应TMDB第5季整季。Bangumi各集标题和日期均为空，无法逐集核验，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/83509 (api_snapshot): 候选《机甲兽神之爆裂飞车》第5季首播于2024-09-13，共30集，与Bangumi第五部的首播日期及本篇集数一致；季表完整列出第1—30集，日期为2024-09-13至2024-10-12，标题均为通用集号。\n\n备注：逐集对应仍需补充Bangumi章节标题或放送日期；不能仅按集号顺序建立规则。；候选未提供第5季剧情简介，Bangumi未提供制作方，无法交叉核验这两项。",
+    "evidence": "codex: 系列名称、第五部与第5季的序号、首播日期及30集规模相互吻合，支持对应TMDB第5季整季。Bangumi各集标题和日期均为空，无法逐集核验，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/83509 (api_snapshot): 候选《机甲兽神之爆裂飞车》第5季首播于2024-09-13，共30集，与Bangumi第五部的首播日期及本篇集数一致；季表完整列出第1—30集，日期为2024-09-13至2024-10-12，标题均为通用集号。\n\n备注：逐集对应仍需补充Bangumi章节标题或放送日期；不能仅按集号顺序建立规则。；候选未提供第5季剧情简介，Bangumi未提供制作方，无法交叉核验这两项。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/564826; https://www.themoviedb.org/tv/83509",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 83509
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

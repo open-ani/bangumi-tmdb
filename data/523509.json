@@ -75,12 +75,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画媒介、首播与完结日期及14集规模一致，支持subject对应候选第1季整季。Bangumi各章标题和日期均为空，候选标题也仅为集号占位，无法核实逐集顺序，因此不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/237302 (api_snapshot): 候选为同名动画，首播日期为2017-08-11；第1季共14集，末集日期为2018-02-09，与Bangumi的首播日期、结束日期及总话数一致。制作公司列为Mattel Creations与Bardel Entertainment，但Bangumi未提供制作信息供交叉核验。\n\n备注：逐集对应尚未确认；需补充Bangumi章节标题或放送日期后核对。；候选未提供剧情简介，Bangumi未提供制作方，无法交叉核验这两项信息。",
+    "evidence": "codex: 名称、动画媒介、首播与完结日期及14集规模一致，支持subject对应候选第1季整季。Bangumi各章标题和日期均为空，候选标题也仅为集号占位，无法核实逐集顺序，因此不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/237302 (api_snapshot): 候选为同名动画，首播日期为2017-08-11；第1季共14集，末集日期为2018-02-09，与Bangumi的首播日期、结束日期及总话数一致。制作公司列为Mattel Creations与Bardel Entertainment，但Bangumi未提供制作信息供交叉核验。\n\n备注：逐集对应尚未确认；需补充Bangumi章节标题或放送日期后核对。；候选未提供剧情简介，Bangumi未提供制作方，无法交叉核验这两项信息。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/523509; https://www.themoviedb.org/tv/237302",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 237302
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

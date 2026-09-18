@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、制作方、第三季首播日期及52集规模共同支持对应TMDB 226227第3季整季。逐集标题与日期缺乏可比对信息，因此仅确认季级范围，不按序号推定逐集对应。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 候选《超迷你战士》为中国动画，制作公司包含左袋创意；第3季首播日期为2020-01-18，共52集，与Bangumi的制作方、季次、首播日期及集数一致。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 第3季季表完整列出第1至52集，但标题均为通用集号，日期从2020-01-18至2021-01-09，无法与缺少逐集标题和日期的Bangumi章节进行内容核对。\n\nhttps://www.themoviedb.org/tv/72237 (api_snapshot): 候选《ミニフォース》为韩国SAMG Entertainment制作的动画，剧情为动物特工对抗反派，制作方、剧情及各季日期均不符合本subject。\n\n备注：Bangumi全部章节的标题及放送日期为空，TMDB标题也仅为通用集号；需补充真实分集标题或逐集排期后才能建立rules。；候选226227未提供剧情简介，无法直接核对第三季的纳米世界与麻烦分子剧情。",
+    "evidence": "codex: 作品名称、制作方、第三季首播日期及52集规模共同支持对应TMDB 226227第3季整季。逐集标题与日期缺乏可比对信息，因此仅确认季级范围，不按序号推定逐集对应。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 候选《超迷你战士》为中国动画，制作公司包含左袋创意；第3季首播日期为2020-01-18，共52集，与Bangumi的制作方、季次、首播日期及集数一致。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 第3季季表完整列出第1至52集，但标题均为通用集号，日期从2020-01-18至2021-01-09，无法与缺少逐集标题和日期的Bangumi章节进行内容核对。\n\nhttps://www.themoviedb.org/tv/72237 (api_snapshot): 候选《ミニフォース》为韩国SAMG Entertainment制作的动画，剧情为动物特工对抗反派，制作方、剧情及各季日期均不符合本subject。\n\n备注：Bangumi全部章节的标题及放送日期为空，TMDB标题也仅为通用集号；需补充真实分集标题或逐集排期后才能建立rules。；候选226227未提供剧情简介，无法直接核对第三季的纳米世界与麻烦分子剧情。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/478642; https://www.themoviedb.org/tv/226227; https://www.themoviedb.org/tv/72237",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 226227
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -110,12 +110,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 32726《Bob's Burgers》第五季整季。首播日期、21集总量、动画电视媒介、Fox及 Loren Bouchard 信息相符，完整季表未混入其他作品。作品与季范围已确认；但输入的 Bangumi 21个章节均无标题和播出日期，无法逐章核对，因此保留整季目标，逐集 rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 英文原名搜索找到 TV 32726；详情确认为讲述 Bob 一家经营汉堡店的动画系列，首播于2011-01-09，制作公司包含20th Century Fox Television和Bento Box Entertainment，中文别名为《开心汉堡店》。\n\nhttps://www.themoviedb.org/tv/32726/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共21集，编号连续为1–21，播出时间为2014-10-05至2015-05-17。首集为 Work Hard or Die Trying, Girl，末集为 The Oeder Games。\n\nhttps://api.themoviedb.org/3/find/tt3918318?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询输入的 IMDb 编号 tt3918318，实际返回 TV 32726 第五季第1集，播出日期为2014-10-05；该编号是单集编号，并非整季编号。\n\nhttps://en.wikipedia.org/wiki/Bob%27s_Burgers_season_5 (page): 第五季资料确认这是 Fox 播出的动画喜剧，共21集，播出起止日期与 TMDB 一致；所列21集的标题、播出顺序和日期均与 TMDB 季表吻合。\n\nhttps://www.foxflash.com/releases/view/fox-beefs-up-the-laughs-with-sixth-season-of-emmy-award-winning-bobs-burgers (search_snippet): Fox 官方新闻稿提及正在播出的第五季，并确认该系列由 Loren Bouchard 创作、20th Century Fox Television 制作，与输入的人员和电视台信息一致。\n\n备注：Bangumi 网页及 API 本次访问失败，未能补充章节标题和日期；不能仅按 sort 位置建立逐集对应。后续需取得这些章节的可核验信息后再补充规则。",
+    "evidence": "codex: 确认对应 TMDB 32726《Bob's Burgers》第五季整季。首播日期、21集总量、动画电视媒介、Fox及 Loren Bouchard 信息相符，完整季表未混入其他作品。作品与季范围已确认；但输入的 Bangumi 21个章节均无标题和播出日期，无法逐章核对，因此保留整季目标，逐集 rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 英文原名搜索找到 TV 32726；详情确认为讲述 Bob 一家经营汉堡店的动画系列，首播于2011-01-09，制作公司包含20th Century Fox Television和Bento Box Entertainment，中文别名为《开心汉堡店》。\n\nhttps://www.themoviedb.org/tv/32726/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共21集，编号连续为1–21，播出时间为2014-10-05至2015-05-17。首集为 Work Hard or Die Trying, Girl，末集为 The Oeder Games。\n\nhttps://api.themoviedb.org/3/find/tt3918318?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询输入的 IMDb 编号 tt3918318，实际返回 TV 32726 第五季第1集，播出日期为2014-10-05；该编号是单集编号，并非整季编号。\n\nhttps://en.wikipedia.org/wiki/Bob%27s_Burgers_season_5 (page): 第五季资料确认这是 Fox 播出的动画喜剧，共21集，播出起止日期与 TMDB 一致；所列21集的标题、播出顺序和日期均与 TMDB 季表吻合。\n\nhttps://www.foxflash.com/releases/view/fox-beefs-up-the-laughs-with-sixth-season-of-emmy-award-winning-bobs-burgers (search_snippet): Fox 官方新闻稿提及正在播出的第五季，并确认该系列由 Loren Bouchard 创作、20th Century Fox Television 制作，与输入的人员和电视台信息一致。\n\n备注：Bangumi 网页及 API 本次访问失败，未能补充章节标题和日期；不能仅按 sort 位置建立逐集对应。后续需取得这些章节的可核验信息后再补充规则。\n\n脚本按声明范围生成逐集规则：21 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/128504; https://www.themoviedb.org/tv/32726; https://www.themoviedb.org/tv/32726/season/5; https://api.themoviedb.org/3/find/tt3918318?external_source=imdb_id; https://en.wikipedia.org/wiki/Bob%27s_Burgers_season_5; https://www.foxflash.com/releases/view/fox-beefs-up-the-laughs-with-sixth-season-of-emmy-award-winning-bobs-burgers",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 21,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 32726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

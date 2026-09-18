@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、电视动画媒介、剧情、播出平台、10集规模及结束日期一致，首播日期差异可由TNT提前播出解释，确认对应TMDB 74387第一季全季。Bangumi章节缺少标题及日期，无法完成章节级交叉核对，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://bgm.tv/subject/264320 (page): Bangumi 标注为 TV 第一季，共10话，TBS播放，2018年2月17日开始、5月7日结束；剧情为人类囚犯与能摧毁星球的外星生物展开宇宙冒险。章节仅显示01至10，没有集标题。\n\nhttps://www.themoviedb.org/tv/74387 (api_snapshot): TMDB 74387 为2018年开播的 Final Space，Gary与Mooncake的剧情符合；配音包括Olan Rogers、Fred Armisen、Tom Kenny，制作公司包括Conaco和ShadowMachine。第一季10集，第二季另列为2019年开播的13集。\n\nhttps://www.themoviedb.org/tv/74387/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，标题依次为Chapter One至Chapter Ten。日期依次为2018-02-26、03-05、03-12、03-19、03-26、04-09、04-16、04-23、04-30、05-07；本季没有混入试播短片或其他季内容。\n\nhttps://press.wbd.com/us/media-release/tbs-announces-new-monday-night-animation-block-season-premiere-american-dad-and?language_content_entity=en (search_snippet): TBS官方新闻稿确认该动画由Olan Rogers创作，配音阵容与TMDB一致，定于2018年2月26日在TBS首播。\n\nhttps://en.wikipedia.org/wiki/List_of_Final_Space_episodes (page): 集表将2016年试播短片与2018年第一季分列；第一季10集的标题及TBS播出日期逐项符合TMDB。前两集另记2018年2月17日TNT提前播出，解释了Bangumi与TMDB的开播日期差异。\n\n备注：Bangumi的10个章节均无标题及放送日期；逐集对应暂留空，需补充可核实的章节标题或日期后再建立rules。",
+    "evidence": "codex: 作品年份、电视动画媒介、剧情、播出平台、10集规模及结束日期一致，首播日期差异可由TNT提前播出解释，确认对应TMDB 74387第一季全季。Bangumi章节缺少标题及日期，无法完成章节级交叉核对，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://bgm.tv/subject/264320 (page): Bangumi 标注为 TV 第一季，共10话，TBS播放，2018年2月17日开始、5月7日结束；剧情为人类囚犯与能摧毁星球的外星生物展开宇宙冒险。章节仅显示01至10，没有集标题。\n\nhttps://www.themoviedb.org/tv/74387 (api_snapshot): TMDB 74387 为2018年开播的 Final Space，Gary与Mooncake的剧情符合；配音包括Olan Rogers、Fred Armisen、Tom Kenny，制作公司包括Conaco和ShadowMachine。第一季10集，第二季另列为2019年开播的13集。\n\nhttps://www.themoviedb.org/tv/74387/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，标题依次为Chapter One至Chapter Ten。日期依次为2018-02-26、03-05、03-12、03-19、03-26、04-09、04-16、04-23、04-30、05-07；本季没有混入试播短片或其他季内容。\n\nhttps://press.wbd.com/us/media-release/tbs-announces-new-monday-night-animation-block-season-premiere-american-dad-and?language_content_entity=en (search_snippet): TBS官方新闻稿确认该动画由Olan Rogers创作，配音阵容与TMDB一致，定于2018年2月26日在TBS首播。\n\nhttps://en.wikipedia.org/wiki/List_of_Final_Space_episodes (page): 集表将2016年试播短片与2018年第一季分列；第一季10集的标题及TBS播出日期逐项符合TMDB。前两集另记2018年2月17日TNT提前播出，解释了Bangumi与TMDB的开播日期差异。\n\n备注：Bangumi的10个章节均无标题及放送日期；逐集对应暂留空，需补充可核实的章节标题或日期后再建立rules。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/264320; https://www.themoviedb.org/tv/74387; https://www.themoviedb.org/tv/74387/season/1; https://press.wbd.com/us/media-release/tbs-announces-new-monday-night-animation-block-season-premiere-american-dad-and?language_content_entity=en; https://en.wikipedia.org/wiki/List_of_Final_Space_episodes",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74387
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、第三季首播日期、22集范围及前作第二季日期共同支持对应TMDB 321082第3季。整季范围可以确认，但缺少可逐集交叉核对的标题和日期，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/321082 (api_snapshot): 候选《叽哩与咕噜》第3季首播日期为2022-12-23，共22集，与Bangumi第三季的首播日期和本篇集数一致；已抓取季表完整列出第1至22集。\n\nhttps://www.themoviedb.org/tv/321082 (api_snapshot): 候选第2季首播日期为2022-11-07，与Bangumi关联前作《叽哩与咕噜 第二季》的日期一致，支持季别判定。\n\n备注：Bangumi全部章节均无标题和放送日期；TMDB标题均为集号占位，且第3至22集无日期，无法验证逐集顺序。；候选未提供剧情和制作公司，无法核对这些字段。；候选作品总集数104与各季集数合计156不一致；本次范围依据完整列出的第3季22集确定。",
+    "evidence": "codex: 名称、第三季首播日期、22集范围及前作第二季日期共同支持对应TMDB 321082第3季。整季范围可以确认，但缺少可逐集交叉核对的标题和日期，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/321082 (api_snapshot): 候选《叽哩与咕噜》第3季首播日期为2022-12-23，共22集，与Bangumi第三季的首播日期和本篇集数一致；已抓取季表完整列出第1至22集。\n\nhttps://www.themoviedb.org/tv/321082 (api_snapshot): 候选第2季首播日期为2022-11-07，与Bangumi关联前作《叽哩与咕噜 第二季》的日期一致，支持季别判定。\n\n备注：Bangumi全部章节均无标题和放送日期；TMDB标题均为集号占位，且第3至22集无日期，无法验证逐集顺序。；候选未提供剧情和制作公司，无法核对这些字段。；候选作品总集数104与各季集数合计156不一致；本次范围依据完整列出的第3季22集确定。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/570066; https://www.themoviedb.org/tv/321082",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 321082
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

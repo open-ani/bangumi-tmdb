@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、前作年份、第二季首播日期及26集总量共同支持对应 TMDB 203668 第2季整季。逐集层面，Bangumi 缺少放送日期，TMDB 缺少具体集标题，无法确认逐集顺序，故仅确认整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/203668 (api_snapshot): 候选为中国动画《巴啦啦小魔仙之魔法海萤堡》，第1季首播于2018-11-16，与 Bangumi 所列前作日期一致；第2季首播于2020-09-21，共26集，与待核对 subject 的季度、首播日期及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/203668 (api_snapshot): 第2季季表完整列出第1至26集，放送日期为2020-09-21至2020-10-16，但标题均为“第N話”，无法与 Bangumi 的具体集标题逐一核对。\n\n备注：候选未提供剧情简介，制作公司列表为空，无法交叉核对剧情与制作方。；需补充 TMDB 第2季具体集标题或 Bangumi 各集放送日期，才能确认逐集对应关系。",
+    "evidence": "codex: 作品名称、前作年份、第二季首播日期及26集总量共同支持对应 TMDB 203668 第2季整季。逐集层面，Bangumi 缺少放送日期，TMDB 缺少具体集标题，无法确认逐集顺序，故仅确认整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/203668 (api_snapshot): 候选为中国动画《巴啦啦小魔仙之魔法海萤堡》，第1季首播于2018-11-16，与 Bangumi 所列前作日期一致；第2季首播于2020-09-21，共26集，与待核对 subject 的季度、首播日期及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/203668 (api_snapshot): 第2季季表完整列出第1至26集，放送日期为2020-09-21至2020-10-16，但标题均为“第N話”，无法与 Bangumi 的具体集标题逐一核对。\n\n备注：候选未提供剧情简介，制作公司列表为空，无法交叉核对剧情与制作方。；需补充 TMDB 第2季具体集标题或 Bangumi 各集放送日期，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/331202; https://www.themoviedb.org/tv/203668",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 203668
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

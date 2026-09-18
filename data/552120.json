@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认该 subject 对应 TMDB 136322 第8季整季：英文原名、中文别名、季度、上线日期及6集总量一致，官方预告和独立集表进一步核实了动画版本及本季剧情。完整季表未混入其他作品。Bangumi 六个章节均缺少标题和单集日期，因此只确认整季范围，不以章节位置推定逐集规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 为 DreamWorks Animation Television 制作的英语动画剧集《Dragons: The Nine Realms》，中文别名为《驯龙高手：九大王国》。故事发生于《驯龙高手》事件约1300年后的现代，主角为 Tom 等少年；全剧共8季，第八季为2023年的最终季。\n\nhttps://www.themoviedb.org/tv/136322/season/8 (api_snapshot): 已读取第8季完整集表，total_pages=1，共6集，均于2023-12-14播出。第1至6集依次为 How to Train Jörmungandr、The Great Foster Fake-Out、Science Vs. Nature、Of Gods and Monsters、Ragnarok (1)、Ragnarok (2)。日期和集数与输入的 Bangumi subject 一致。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-8/1000992344/ (search_snippet): TV Guide 的第八季集表列出6集，全部日期为2023-12-14；各集标题、顺序及剧情均与 TMDB 第8季一致，末两集为 Ragnarok 的上下篇。\n\nhttps://www.youtube.com/watch?v=_l3STSZrEPs (search_snippet): DreamWorks Dragons 官方认证频道发布的第八季预告说明，本季讲述 Tom 等人迎战世界巨蛇 Jörmungandr，是故事的最终篇章，并宣布12月14日在 Peacock 上线；与 TMDB 本季剧情及日期吻合。\n\n备注：Bangumi subject 页面及章节页未能成功读取；现有章节数据仅有 sort 1至6，无法完成 Bangumi 章节与 TMDB 单集的标题、日期比对，rules 暂留空。",
+    "evidence": "codex: 可确认该 subject 对应 TMDB 136322 第8季整季：英文原名、中文别名、季度、上线日期及6集总量一致，官方预告和独立集表进一步核实了动画版本及本季剧情。完整季表未混入其他作品。Bangumi 六个章节均缺少标题和单集日期，因此只确认整季范围，不以章节位置推定逐集规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): TMDB 136322 为 DreamWorks Animation Television 制作的英语动画剧集《Dragons: The Nine Realms》，中文别名为《驯龙高手：九大王国》。故事发生于《驯龙高手》事件约1300年后的现代，主角为 Tom 等少年；全剧共8季，第八季为2023年的最终季。\n\nhttps://www.themoviedb.org/tv/136322/season/8 (api_snapshot): 已读取第8季完整集表，total_pages=1，共6集，均于2023-12-14播出。第1至6集依次为 How to Train Jörmungandr、The Great Foster Fake-Out、Science Vs. Nature、Of Gods and Monsters、Ragnarok (1)、Ragnarok (2)。日期和集数与输入的 Bangumi subject 一致。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-8/1000992344/ (search_snippet): TV Guide 的第八季集表列出6集，全部日期为2023-12-14；各集标题、顺序及剧情均与 TMDB 第8季一致，末两集为 Ragnarok 的上下篇。\n\nhttps://www.youtube.com/watch?v=_l3STSZrEPs (search_snippet): DreamWorks Dragons 官方认证频道发布的第八季预告说明，本季讲述 Tom 等人迎战世界巨蛇 Jörmungandr，是故事的最终篇章，并宣布12月14日在 Peacock 上线；与 TMDB 本季剧情及日期吻合。\n\n备注：Bangumi subject 页面及章节页未能成功读取；现有章节数据仅有 sort 1至6，无法完成 Bangumi 章节与 TMDB 单集的标题、日期比对，rules 暂留空。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552120; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/8; https://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-8/1000992344/; https://www.youtube.com/watch?v=_l3STSZrEPs",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 8,
+      "start": 1,
+      "tmdbId": 136322
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

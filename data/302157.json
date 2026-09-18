@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 196638第一季整季。首播年份、电视媒介、制作公司、角色声优、官方剧情及制作人员相符，官方第一系列与TMDB第一季均为26集，第二系列单独分季。逐集证据不足，因此仅确认整季范围，不生成连续规则。\n\nhttps://www.themoviedb.org/tv/196638 (api_snapshot): 日文原名搜索命中 TV 196638；详情确认首播日为2019-09-27、制作公司为圆谷制作，三位主要声优与官方一致。条目分两季，各26集，第二季始于2020-09-25。\n\nhttps://www.themoviedb.org/tv/196638/season/1 (api_snapshot): 已读取第一季完整集表：total_pages=1，共26集，集号连续为1—26，每集5分钟。标题均为通用编号；首集日期为2019-09-27，第26集日期记为2020-03-20。\n\nhttps://www.kaijustep.com/news/667/ (page): 官方2019年公告明确该电视动画于2019-09-27在NHK Eテレ开播，每集5分钟，全26话；另行介绍主题歌音乐录像，可区分动画本篇与音乐录像。\n\nhttps://www.kaijustep.com/anime/ (page): 官方剧情为K10星云的小怪兽及ピグちゃん、カネちゃん、ダダちゃん帮助大家的故事；导演、系列构成、音乐、动画制作分别为うもとゆーじ、青池良輔、立山秋航、ウサギ王，与输入一致。\n\nhttps://www.kaijustep.com/topics/anime/page/3/ (search_snippet): 官方2020-03-23公告明确第一系列于2020-03-27迎来最终回，与输入结束日期一致，但与TMDB第26集日期相差一周。\n\n备注：Bangumi输入的26个章节均无标题和播出日期，TMDB也只有通用集号标题，无法完成逐集内容比对。；TMDB末集日期与官方相差一周；需补充可靠的逐集首播表及章节信息后再建立rules，不能仅凭相同集数和位置推定。",
+    "evidence": "codex: 确认对应TMDB 196638第一季整季。首播年份、电视媒介、制作公司、角色声优、官方剧情及制作人员相符，官方第一系列与TMDB第一季均为26集，第二系列单独分季。逐集证据不足，因此仅确认整季范围，不生成连续规则。\n\nhttps://www.themoviedb.org/tv/196638 (api_snapshot): 日文原名搜索命中 TV 196638；详情确认首播日为2019-09-27、制作公司为圆谷制作，三位主要声优与官方一致。条目分两季，各26集，第二季始于2020-09-25。\n\nhttps://www.themoviedb.org/tv/196638/season/1 (api_snapshot): 已读取第一季完整集表：total_pages=1，共26集，集号连续为1—26，每集5分钟。标题均为通用编号；首集日期为2019-09-27，第26集日期记为2020-03-20。\n\nhttps://www.kaijustep.com/news/667/ (page): 官方2019年公告明确该电视动画于2019-09-27在NHK Eテレ开播，每集5分钟，全26话；另行介绍主题歌音乐录像，可区分动画本篇与音乐录像。\n\nhttps://www.kaijustep.com/anime/ (page): 官方剧情为K10星云的小怪兽及ピグちゃん、カネちゃん、ダダちゃん帮助大家的故事；导演、系列构成、音乐、动画制作分别为うもとゆーじ、青池良輔、立山秋航、ウサギ王，与输入一致。\n\nhttps://www.kaijustep.com/topics/anime/page/3/ (search_snippet): 官方2020-03-23公告明确第一系列于2020-03-27迎来最终回，与输入结束日期一致，但与TMDB第26集日期相差一周。\n\n备注：Bangumi输入的26个章节均无标题和播出日期，TMDB也只有通用集号标题，无法完成逐集内容比对。；TMDB末集日期与官方相差一周；需补充可靠的逐集首播表及章节信息后再建立rules，不能仅凭相同集数和位置推定。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302157; https://www.themoviedb.org/tv/196638; https://www.themoviedb.org/tv/196638/season/1; https://www.kaijustep.com/news/667/; https://www.kaijustep.com/anime/; https://www.kaijustep.com/topics/anime/page/3/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 196638
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

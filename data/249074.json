@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、首播日期、20集规模及前作日期相互吻合，可确认对应 TMDB 126430 第2季整季。逐集顺序缺少可交叉核验的依据，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/126430 (api_snapshot): 候选《百变布鲁可》为中国动画剧集，第2季首播日期为2018-04-13，共20集，与本 subject 的季度、首播日期及本篇集数一致；第1季首播日期2017-09-22也与 Bangumi 前作日期一致。\n\nhttps://www.themoviedb.org/tv/126430 (api_snapshot): 第2季完整列出20集，但标题均为“第N話”占位名称，无法与 Bangumi 的具体集标题核对。\n\n备注：Bangumi 各集放送日期为空，TMDB 集标题均为占位名称；需补充真实集标题或 Bangumi 逐集日期后才能确认逐集对应。；候选未提供剧情及制作公司信息，无法独立核验葡萄动画的制作信息。",
+    "evidence": "codex: 季度、首播日期、20集规模及前作日期相互吻合，可确认对应 TMDB 126430 第2季整季。逐集顺序缺少可交叉核验的依据，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/126430 (api_snapshot): 候选《百变布鲁可》为中国动画剧集，第2季首播日期为2018-04-13，共20集，与本 subject 的季度、首播日期及本篇集数一致；第1季首播日期2017-09-22也与 Bangumi 前作日期一致。\n\nhttps://www.themoviedb.org/tv/126430 (api_snapshot): 第2季完整列出20集，但标题均为“第N話”占位名称，无法与 Bangumi 的具体集标题核对。\n\n备注：Bangumi 各集放送日期为空，TMDB 集标题均为占位名称；需补充真实集标题或 Bangumi 逐集日期后才能确认逐集对应。；候选未提供剧情及制作公司信息，无法独立核验葡萄动画的制作信息。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/249074; https://www.themoviedb.org/tv/126430",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 126430
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

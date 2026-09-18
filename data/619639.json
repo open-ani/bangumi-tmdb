@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季数、6集总量、开播时间及前作季度关系共同支持对应 TMDB 237853 第3季，季表未显示混入其他作品。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此仅确认整季范围，不生成顺序规则。\n\nhttps://www.themoviedb.org/tv/237853 (api_snapshot): 候选 WondLa（237853）为动画剧集，第3季共6集，季首播日期及全部6集日期均为2025-11-25；与 Bangumi 第三季的6集规模一致，开播日期相差1天。\n\nhttps://www.themoviedb.org/tv/237853 (api_snapshot): 候选第2季首播于2025-04-24，与 Bangumi 前作关系所列 WondLa Season 2 的2025-04-25同样相差1天，支持两站记录对应同一季度序列。\n\n备注：两站日期连续两季均相差1天，具体原因无法由输入确认。；Bangumi 未提供剧情、制作方及逐集标题和日期；逐集对应需补充章节信息后核验。",
+    "evidence": "codex: 季数、6集总量、开播时间及前作季度关系共同支持对应 TMDB 237853 第3季，季表未显示混入其他作品。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此仅确认整季范围，不生成顺序规则。\n\nhttps://www.themoviedb.org/tv/237853 (api_snapshot): 候选 WondLa（237853）为动画剧集，第3季共6集，季首播日期及全部6集日期均为2025-11-25；与 Bangumi 第三季的6集规模一致，开播日期相差1天。\n\nhttps://www.themoviedb.org/tv/237853 (api_snapshot): 候选第2季首播于2025-04-24，与 Bangumi 前作关系所列 WondLa Season 2 的2025-04-25同样相差1天，支持两站记录对应同一季度序列。\n\n备注：两站日期连续两季均相差1天，具体原因无法由输入确认。；Bangumi 未提供剧情、制作方及逐集标题和日期；逐集对应需补充章节信息后核验。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/619639; https://www.themoviedb.org/tv/237853",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 237853
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

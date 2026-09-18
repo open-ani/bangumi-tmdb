@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、制作公司、季别、总集数及完结日期共同支持对应 TMDB 216769 第1季，季表未显示混入其他作品。Bangumi 各章节均缺少标题和放送日期，无法逐集交叉核验，因此仅确认整季范围，不按章节位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/216769 (api_snapshot): 候选为美国动画，制作公司包含 tinyBuild 与 Man of Action Entertainment，与 Bangumi 制作信息吻合。第1季共6集，播出范围为2022-12-11至2023-10-28，与 Bangumi 的6集及完结日期一致，首播日期相差1天。第2季独立列于2024年，与 Bangumi 的续作关系相符。\n\n备注：首播日期相差1天，现有数据无法确认差异原因。；候选未提供剧情简介，无法核对剧情细节。；需补充 Bangumi 各集标题或放送日期，才能核实逐集对应。",
+    "evidence": "codex: 年份、制作公司、季别、总集数及完结日期共同支持对应 TMDB 216769 第1季，季表未显示混入其他作品。Bangumi 各章节均缺少标题和放送日期，无法逐集交叉核验，因此仅确认整季范围，不按章节位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/216769 (api_snapshot): 候选为美国动画，制作公司包含 tinyBuild 与 Man of Action Entertainment，与 Bangumi 制作信息吻合。第1季共6集，播出范围为2022-12-11至2023-10-28，与 Bangumi 的6集及完结日期一致，首播日期相差1天。第2季独立列于2024年，与 Bangumi 的续作关系相符。\n\n备注：首播日期相差1天，现有数据无法确认差异原因。；候选未提供剧情简介，无法核对剧情细节。；需补充 Bangumi 各集标题或放送日期，才能核实逐集对应。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/549425; https://www.themoviedb.org/tv/216769",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 216769
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

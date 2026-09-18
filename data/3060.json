@@ -1,16 +1,46 @@
 {
   "anidbId": 5089,
   "bangumiId": 3060,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 21608,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 21609,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 21610,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 21611,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 3060 明确是《撲殺天使ドクロちゃん2》OVA，共4话，发售/首播记录为2007-08-24至2007-11-21；其制作人员、剧情和角色均与候选作品一致。AniDB ID 5089 对应 Bokusatsu Tenshi Dokuro-chan Second。TMDB TV 42870 是包含第一期和第二期的系列主条目，其中第2季明确为4集，四个剧集标题与 Bangumi 章节逐一对应，因此只纳入 season 2，不纳入 season 1。TMDB 的日期是先行播出日期，与 Bangumi 的OVA发售日期不同，但不影响版本和集数对应。\n\nhttps://bgm.tv/subject/3060 (page): Bangumi 将该条目标为 OVA，共4话；记录发售日/开始日为2007-08-24，结束日为2007-11-21，并列出水岛努、Hal Film Maker等制作信息。\n\nhttps://www.at-x.com/program/detail/?id=2285 (search_snippet): 官方频道资料称《撲殺天使ドクロちゃん2》为2007年OVA作品，全4话，并列出与 Bangumi 一致的原作、导演、角色和动画制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): AniDB 标题索引将 ID 5089 对应为 Bokusatsu Tenshi Dokuro-chan Second。\n\nhttps://anidb.app/anime/bludgeoning-angel-dokuro-chan-696 (search_snippet): AniDB 镜像页面显示该系列包含2005年第一作及2007年的 Bludgeoning Angel Dokuro-chan 2，并将后者列为续作。\n\nhttps://www.themoviedb.org/tv/42870 (api_snapshot): TMDB TV 42870 的主条目为撲殺天使ドクロちゃん，包含第1季8集和第2季4集。\n\nhttps://www.themoviedb.org/tv/42870/season/2 (api_snapshot): TMDB 第2季明确为 season 2、共4集；四集标题分别对应しゃせい大会、ぶくぶくごしごし、密室事件和情人节故事，日期顺序与该OVA的两批发行内容相符。\n\n备注：TMDB 使用先行播出日期（2007-08-12、2007-11-11），Bangumi 使用OVA发售/首播记录（2007-08-24、2007-11-21）；这是发行口径差异，未发现导致版本不一致的证据。",
+    "evidence": "codex: 确认对应TMDB 42870第2季整季。2007年OVA续作的制作人员、剧情、角色与版本一致，四话标题逐一对应且总量、顺序及两批发行分组吻合，可建立Bangumi第1—4话至S02E01—E04的连续映射。TMDB日期对应先行播出，Bangumi记录DVD发行日期；2005年第1季不属于本subject。\n\nhttps://bgm.tv/subject/3060 (page): 条目明确为2007年OVA续作，共4话，2007-08-24至2007-11-21发行；导演水島努、动画制作Hal Film Maker，剧情与角色均与候选一致。\n\nhttps://www.at-x.com/program/detail/?id=2285 (search_snippet): AT-X资料确认《撲殺天使ドクロちゃん2》是2007年OVA、全4话，导演、制作公司及主要声优与Bangumi和TMDB相符；直接打开页面返回错误，此处依据搜索摘要。\n\nhttps://www.themoviedb.org/tv/42870 (api_snapshot): TMDB 42870的剧情、导演水島努、制作公司Hal Film Maker及主要角色声优均吻合；季列表区分2005年第1季8集与2007年第2季4集。\n\nhttps://www.themoviedb.org/tv/42870/season/2 (api_snapshot): 第2季集表共4集，仅1页。第1至4集标题依次对应Bangumi的写生大会、洗澡作战、密室事件、情人节故事，除空格及标点外一致；日期分别为2007-08-12、2007-08-12、2007-11-11、2007-11-11。\n\nhttps://ccsf.jp/fnews.cgi?arc=dokurotyan (search_snippet): 逐话记录将第1—2话列为2007-08-24发行、8月11日先行放映，第3—4话列为2007-11-21发行、11月10日TVK先行放映，支持两批发行与先行播出的日期口径差异。\n\nhttps://www.allcinema.net/cinema/328137 (search_snippet): 放送资料记录2007-08-11起于TVK周六24:00播出，支持深夜节目日期与次日自然日的差异。\n\n备注：TMDB前两集时长均标24分钟、后两集标13分钟，时长字段不一致；四集独立标题和剧情对应明确，不据此推断合并或拆集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3060; https://www.at-x.com/program/detail/?id=2285; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://anidb.app/anime/bludgeoning-angel-dokuro-chan-696; https://www.themoviedb.org/tv/42870; https://www.themoviedb.org/tv/42870/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3060; https://www.at-x.com/program/detail/?id=2285; https://www.themoviedb.org/tv/42870; https://www.themoviedb.org/tv/42870/season/2; https://ccsf.jp/fnews.cgi?arc=dokurotyan; https://www.allcinema.net/cinema/328137",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 42870
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

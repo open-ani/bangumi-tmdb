@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、动画媒介、EBS 信息及季度集数相互吻合，第二季的独立关联也与候选季表一致，可确认对应 TMDB 128388 第 1 季。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此只确认整季范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/128388 (api_snapshot): 候选 TV 128388 的韩文原名与 Bangumi 一致，首播日期同为 2018-08-01，类型为动画，制作公司包含 EBS，与 Bangumi 的电视台及版权信息相符。\n\nhttps://www.themoviedb.org/tv/128388 (api_snapshot): 第 1 季共 26 集，季表完整列出第 1—26 集，与 subject 的 26 话一致；第 2 季首播于 2020-03-30，与 Bangumi 单独关联的第二季日期一致，支持本 subject 覆盖第 1 季。\n\n备注：候选未提供剧情简介，无法核对剧情。；逐集对应仍需补充 Bangumi 各集标题或放送日期；TMDB 仅有通用集标题，不能仅按集号位置生成规则。",
+    "evidence": "codex: 原名、首播日期、动画媒介、EBS 信息及季度集数相互吻合，第二季的独立关联也与候选季表一致，可确认对应 TMDB 128388 第 1 季。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此只确认整季范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/128388 (api_snapshot): 候选 TV 128388 的韩文原名与 Bangumi 一致，首播日期同为 2018-08-01，类型为动画，制作公司包含 EBS，与 Bangumi 的电视台及版权信息相符。\n\nhttps://www.themoviedb.org/tv/128388 (api_snapshot): 第 1 季共 26 集，季表完整列出第 1—26 集，与 subject 的 26 话一致；第 2 季首播于 2020-03-30，与 Bangumi 单独关联的第二季日期一致，支持本 subject 覆盖第 1 季。\n\n备注：候选未提供剧情简介，无法核对剧情。；逐集对应仍需补充 Bangumi 各集标题或放送日期；TMDB 仅有通用集标题，不能仅按集号位置生成规则。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/555518; https://www.themoviedb.org/tv/128388",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 128388
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

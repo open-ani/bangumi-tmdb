@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、剧情、制作公司、配音及系列版本吻合；TMDB 第二季完整13集均于2018-10-12上线，与输入的第二季范围一致，可确认整季映射。Bangumi各章节没有标题和日期，无法逐集交叉核实，故不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/77606 (api_snapshot): TMDB 77606 是 2018-04-06 首播的英语动画剧集 The Boss Baby: Back in Business，制作公司为 DreamWorks Animation Television；剧情涉及 Boss Baby 与哥哥 Tim，配音包括 JP Karliak、Pierce Gagnon、Eric Bell Jr.，与输入中的版本、制作及角色信息一致。\n\nhttps://www.themoviedb.org/tv/77606/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，集号连续为1–13，全部标注2018-10-12播出；首集为 As the Diaper Changes，末集为 Wrinkles & Stinkles。日期和集数与该 Bangumi subject 一致。\n\nhttps://www.netflix.com/title/80178943 (page): 输入指定的 Netflix 官方页面确认为 The Boss Baby: Back in Business，简介为 Boss Baby 带哥哥 Tim 参与商界活动，列出相同主要配音，并提供第二季预告片，支持系列与版本身份。\n\n备注：Bangumi subject及章节网页本次访问失败；Bangumi侧信息依据用户提供的快照。；13个Bangumi章节的具体对应关系仍待可核实的分集标题或日期补充，rules与overrides暂留空。",
+    "evidence": "codex: 作品年份、剧情、制作公司、配音及系列版本吻合；TMDB 第二季完整13集均于2018-10-12上线，与输入的第二季范围一致，可确认整季映射。Bangumi各章节没有标题和日期，无法逐集交叉核实，故不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/77606 (api_snapshot): TMDB 77606 是 2018-04-06 首播的英语动画剧集 The Boss Baby: Back in Business，制作公司为 DreamWorks Animation Television；剧情涉及 Boss Baby 与哥哥 Tim，配音包括 JP Karliak、Pierce Gagnon、Eric Bell Jr.，与输入中的版本、制作及角色信息一致。\n\nhttps://www.themoviedb.org/tv/77606/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，集号连续为1–13，全部标注2018-10-12播出；首集为 As the Diaper Changes，末集为 Wrinkles & Stinkles。日期和集数与该 Bangumi subject 一致。\n\nhttps://www.netflix.com/title/80178943 (page): 输入指定的 Netflix 官方页面确认为 The Boss Baby: Back in Business，简介为 Boss Baby 带哥哥 Tim 参与商界活动，列出相同主要配音，并提供第二季预告片，支持系列与版本身份。\n\n备注：Bangumi subject及章节网页本次访问失败；Bangumi侧信息依据用户提供的快照。；13个Bangumi章节的具体对应关系仍待可核实的分集标题或日期补充，rules与overrides暂留空。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302152; https://www.themoviedb.org/tv/77606; https://www.themoviedb.org/tv/77606/season/2; https://www.netflix.com/title/80178943",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 77606
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

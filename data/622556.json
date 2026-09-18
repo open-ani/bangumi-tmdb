@@ -1,0 +1,42 @@
+{
+  "bangumiId": 622556,
+  "episodes": [
+    {
+      "id": 1626364,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1626365,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 确认对应 TMDB 222088：首播日期、导演、制作方、校园成长剧情及配音角色相互吻合。官网确认两话构成，但 TMDB 当前季表仅有第1话；结合首播日期、官方第1话剧情及 Nobody 的集号与日期，仅建立第1话到 S01E01 的部分映射。\n\nhttps://ploopystudio.com/program/seven-animated/ (page): 制作方官网确认本作为 Ploopy 的原创系列，导演为 Reynard Misae，讲述 Rey 转入印度尼西亚一所中学后的生活；分别介绍第1、2话，配音名单与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/222088 (api_snapshot): TMDB 222088 的首播日期为2022-09-11，剧情为 Rey 进入新学校，角色与配音人员吻合；当前仅列第1季、共1集。\n\nhttps://www.themoviedb.org/tv/222088/season/1 (api_snapshot): 已读取第1季完整集表（共1页）：仅有第1集 Nobody，日期2022-09-11，时长6分钟，剧情对应官网第1话。\n\nhttps://pro.imdb.com/title/tt39088982/ (search_snippet): IMDbPro 将 Nobody 列为本作第1季第1集，导演 Reynard Misae，发行日期2022-09-11，与 Bangumi 提供的开播日期及 TMDB 第1集一致。\n\nhttps://www.linkedin.com/posts/ploopy-animations_seven-time-well-spent-episode-2-to-the-activity-7065735891461279744-MuVp (search_snippet): Ploopy Animations 官方发布帖确认第2话已推出，标题为 To The World Around Me。\n\n备注：Bangumi 输入中的两话均缺少标题和单集日期，无法直接逐项比对这些字段。；第2话确已发布，但当前 TMDB 第1季未列出其对应集，Bangumi 章节1626365暂不映射；需待取得真实 TMDB 对应集后补充。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/622556; https://ploopystudio.com/program/seven-animated/; https://www.themoviedb.org/tv/222088; https://www.themoviedb.org/tv/222088/season/1; https://pro.imdb.com/title/tt39088982/; https://www.linkedin.com/posts/ploopy-animations_seven-time-well-spent-episode-2-to-the-activity-7065735891461279744-MuVp",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 222088
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 222088,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及整季范围已确认：年份、首播日期、平台、制作方、动画媒介和10集规模共同支持对应 TMDB 133903 第一季。官方集表与 TMDB 一致；但 Bangumi 各章节缺少标题和日期，因此仅确认整季归属，逐集规则留空。\n\nhttps://bgm.tv/subject/360715 (page): Bangumi 标为 TV 动画，共10话，2021年11月17日开播，播放平台 Hulu，制作方 Marvel Television；第二季另列为续集。\n\nhttps://www.themoviedb.org/tv/133903 (api_snapshot): 原名搜索找到 TMDB 133903；详情确认英文别名 Hit-Monkey、首播日期2021-11-17及 Marvel Television 等制作公司，剧情为受伤杀手藏身日本雪猴族群，与官方作品介绍一致。\n\nhttps://www.themoviedb.org/tv/133903/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，集号1—10，日期均为2021-11-17；没有混入第二季。\n\nhttps://www.disneyplus.com/browse/entity-22dc20c4-eaed-492d-887e-e087585c0532 (page): Disney+ 官方页确认其为成人剧情动画，创作者为 Will Speck、Josh Gordon；第一季10集标题与 TMDB 逐项一致，包括末两集分别为结局上、下篇。\n\nhttps://comicbook.com/marvel/news/newest-marvel-tv-series-arrives-on-hulu-hit-monkey/ (search_snippet): 2021年11月17日的报道确认第一季全部10集已在 Hulu 上线，与 Bangumi 开播日期及 TMDB 各集日期一致。\n\nhttps://bangumi.tv/subject/360715/ep (page): Bangumi 章节页仅列本篇1—10，没有集标题或逐集放送日期，无法完成 Bangumi 章节与 TMDB 的逐集内容核验。\n\n备注：Bangumi 本篇1—10只有编号；需补充章节标题、日期或内容证据后才能建立逐集映射，不能仅按位置生成规则。",
+    "evidence": "codex: 作品身份及整季范围已确认：年份、首播日期、平台、制作方、动画媒介和10集规模共同支持对应 TMDB 133903 第一季。官方集表与 TMDB 一致；但 Bangumi 各章节缺少标题和日期，因此仅确认整季归属，逐集规则留空。\n\nhttps://bgm.tv/subject/360715 (page): Bangumi 标为 TV 动画，共10话，2021年11月17日开播，播放平台 Hulu，制作方 Marvel Television；第二季另列为续集。\n\nhttps://www.themoviedb.org/tv/133903 (api_snapshot): 原名搜索找到 TMDB 133903；详情确认英文别名 Hit-Monkey、首播日期2021-11-17及 Marvel Television 等制作公司，剧情为受伤杀手藏身日本雪猴族群，与官方作品介绍一致。\n\nhttps://www.themoviedb.org/tv/133903/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，集号1—10，日期均为2021-11-17；没有混入第二季。\n\nhttps://www.disneyplus.com/browse/entity-22dc20c4-eaed-492d-887e-e087585c0532 (page): Disney+ 官方页确认其为成人剧情动画，创作者为 Will Speck、Josh Gordon；第一季10集标题与 TMDB 逐项一致，包括末两集分别为结局上、下篇。\n\nhttps://comicbook.com/marvel/news/newest-marvel-tv-series-arrives-on-hulu-hit-monkey/ (search_snippet): 2021年11月17日的报道确认第一季全部10集已在 Hulu 上线，与 Bangumi 开播日期及 TMDB 各集日期一致。\n\nhttps://bangumi.tv/subject/360715/ep (page): Bangumi 章节页仅列本篇1—10，没有集标题或逐集放送日期，无法完成 Bangumi 章节与 TMDB 的逐集内容核验。\n\n备注：Bangumi 本篇1—10只有编号；需补充章节标题、日期或内容证据后才能建立逐集映射，不能仅按位置生成规则。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/360715; https://www.themoviedb.org/tv/133903; https://www.themoviedb.org/tv/133903/season/1; https://www.disneyplus.com/browse/entity-22dc20c4-eaed-492d-887e-e087585c0532; https://comicbook.com/marvel/news/newest-marvel-tv-series-arrives-on-hulu-hit-monkey/; https://bangumi.tv/subject/360715/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 133903
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

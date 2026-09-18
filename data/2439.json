@@ -1,16 +1,158 @@
 {
   "anidbId": 4032,
   "bangumiId": 2439,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 14640,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 14641,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 14642,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 14643,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 14644,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 14645,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 14646,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 14647,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 14648,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 14649,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 14650,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 14651,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 14652,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 14653,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 14654,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 14655,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 14656,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 14657,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 14658,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 14659,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 14660,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 14661,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 14662,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 14663,
+      "sort": 24,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 14663,
+      "targets": [
+        {
+          "episode": 24,
+          "id": 36250,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2006-04-06 开播的 TV 作品，共24话，由水岛努导演、Production I.G 制作，章节为正篇01–23并含SP/24“ツイオク（外伝）”。Anime-Lists 快照将 AniDB 4032 的 xxxHOLiC 关联到 TMDB TV 36250 第1季；TMDB 快照显示该剧首播日期同为2006-04-06，第1季有24集，完整标题和剧情与 Bangumi 条目一致，且第24集标题为“ツイオク”，因此应纳入第1季完整1–24集。TMDB 第0季为其他特别篇、第2季为续作，不属于本 subject。\n\nhttps://bgm.tv/subject/2439 (page): Bangumi 将该条目标为 TV，话数24，放送开始2006年4月6日；制作信息包括导演水島努、动画制作Production I.G，并列出章节01–23及SP/24，故事主体与四月一日君寻、壹原侑子设定相符。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): 固定版本快照中，anidbid=\"4032\"、name为xxxHOLiC，并关联tmdbtv=\"36250\"、tmdbseason=\"1\"；该映射仅作为交叉核对线索。\n\nhttps://www.themoviedb.org/tv/36250 (api_snapshot): TMDB API快照显示作品名为×××HOLiC，原名XXX ホリック，首播日期2006-04-06；剧集总数37，分为第0季4集、第1季24集和第2季13集。\n\nhttps://www.themoviedb.org/tv/36250/season/1 (api_snapshot): TMDB API快照明确为season_number=1，首播日期2006-04-06，episodeCount=24；剧集编号1–24完整列出，末集标题为ツイオク、日期为2006-09-28，与Bangumi的SP/24“ツイオク（外伝）”对应。",
+    "evidence": "codex: 年份、TV媒介、剧情、导演、制作公司及24集范围一致，确认对应TMDB 36250第1季整季。本篇1–23标题逐一对应；Bangumi虽将「ツイオク（外伝）」归为SP，官方也将其列为外传，但TMDB实际收录于S01E24，因此用章节ID覆盖映射。\n\nhttps://www.themoviedb.org/tv/36250 (api_snapshot): 日文原名搜索找到 TV 36250；详情确认首播为2006-04-06、Production I.G制作、水島努导演，四月一日为改变看见妖怪的体质而在侑子店中工作的剧情一致。第1季24集，第2季为2008年的续作。\n\nhttps://www.themoviedb.org/tv/36250/season/1 (api_snapshot): 已读取第1季完整集表（24集，total_pages=1）。第1至23集日文标题与输入章节逐一相同；第24集为「ツイオク」，日期2006-09-28，对应Bangumi的外传章节14663。\n\nhttps://www.productionig.com/contents/works_sp/43_/index.html (page): 制作公司官方介绍确认这是2006年4月6日至9月28日播出的24集TV动画，并明确区别于2005年剧场版；故事设定与输入及TMDB一致。\n\nhttps://www.production-ig.co.jp/works/xxxholic/goods/index.html (page): 制作公司官方各话导航列出第1至23话及外传「ツイオク」，与输入的23集本篇加1集特别篇结构一致。\n\n备注：输入章节未提供逐集放送日期，无法逐集核对日期；对应关系由完整标题、官方章节结构和总集数确认。输入infobox的结束日期2006-10-21与制作公司官方及TMDB的2006-09-28不同，差异原因未确认，不影响已核实的集数范围。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2439; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/36250; https://www.themoviedb.org/tv/36250/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2439; https://www.themoviedb.org/tv/36250; https://www.themoviedb.org/tv/36250/season/1; https://www.productionig.com/contents/works_sp/43_/index.html; https://www.production-ig.co.jp/works/xxxholic/goods/index.html",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36250
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

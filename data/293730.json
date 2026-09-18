@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、上线日期、剧情、创作者、配音阵容及完整集数范围相互吻合，确认该 subject 覆盖 TMDB 79356 第一季全季。Bangumi 输入的各章节标题和日期均为空，无法独立核实每个章节 ID 的对应关系，因此保留整季映射，暂不生成仅依赖位置的逐集规则。\n\nhttps://www.themoviedb.org/tv/79356 (api_snapshot): 原名搜索命中 TV 79356；详情确认首播日期为 2019-05-03，剧情为图卡与伯蒂的友情生活，主要配音 Tiffany Haddish、Ali Wong、Steven Yeun 与输入一致。该剧共三季，第一季为 2019 年的 10 集，第二季始于 2021-06-13，与输入的续作关系一致。\n\nhttps://www.themoviedb.org/tv/79356/season/1 (api_snapshot): 第一季实际集表共 10 集，total_pages=1，全部日期为 2019-05-03；第 1 至 10 集标题与 Netflix 官方编号集表逐项一致，未混入后续季或其他作品。\n\nhttps://www.netflix.com/title/80198137 (page): Netflix 官方页面确认本作是 2019 年的成人喜剧动画，共 10 集，创作者为 Lisa Hanawalt，主要配音与输入一致；官方列出的 10 集编号、标题及剧情均与 TMDB 第一季对应。\n\n备注：Bangumi 条目页及章节页均未能成功访问；逐集映射仍需补充 Bangumi 章节标题、日期或其他能确认章节身份的资料。",
+    "evidence": "codex: 年份、上线日期、剧情、创作者、配音阵容及完整集数范围相互吻合，确认该 subject 覆盖 TMDB 79356 第一季全季。Bangumi 输入的各章节标题和日期均为空，无法独立核实每个章节 ID 的对应关系，因此保留整季映射，暂不生成仅依赖位置的逐集规则。\n\nhttps://www.themoviedb.org/tv/79356 (api_snapshot): 原名搜索命中 TV 79356；详情确认首播日期为 2019-05-03，剧情为图卡与伯蒂的友情生活，主要配音 Tiffany Haddish、Ali Wong、Steven Yeun 与输入一致。该剧共三季，第一季为 2019 年的 10 集，第二季始于 2021-06-13，与输入的续作关系一致。\n\nhttps://www.themoviedb.org/tv/79356/season/1 (api_snapshot): 第一季实际集表共 10 集，total_pages=1，全部日期为 2019-05-03；第 1 至 10 集标题与 Netflix 官方编号集表逐项一致，未混入后续季或其他作品。\n\nhttps://www.netflix.com/title/80198137 (page): Netflix 官方页面确认本作是 2019 年的成人喜剧动画，共 10 集，创作者为 Lisa Hanawalt，主要配音与输入一致；官方列出的 10 集编号、标题及剧情均与 TMDB 第一季对应。\n\n备注：Bangumi 条目页及章节页均未能成功访问；逐集映射仍需补充 Bangumi 章节标题、日期或其他能确认章节身份的资料。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/293730; https://www.themoviedb.org/tv/79356; https://www.themoviedb.org/tv/79356/season/1; https://www.netflix.com/title/80198137",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79356
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

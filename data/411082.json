@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 67324 第4季整季。官方资料与TMDB在版本、网络配信媒介、年份、剧情、制作人员及13集范围上相符。Bangumi输入章节均缺少标题和日期，无法逐章交叉核验，因此保留整季映射，不按位置推测逐集规则。\n\nhttps://www.themoviedb.org/tv/67324 (api_snapshot): 日文原名与英文别名搜索均指向 TMDB 67324。详情将本作明确列为第4季，首播日期为2017-05-31，共13集；该季妖怪新之助寻找母亲、结识桜ふみえ的剧情与输入一致，制作公司为朝日电视台和新锐动画。\n\nhttps://www.themoviedb.org/tv/67324/season/4 (api_snapshot): 实际读取第4季完整集表，total_pages=1，共13集，集号1至13，日期从2017-05-31至2017-08-23，每周一集。全部集名与剧情属于妖怪篇，没有混入其他外传或特别篇。\n\nhttps://www.tv-asahi.co.jp/shinchan/contents/news/0053/ (page): 朝日电视台2017年5月30日公告明确称本作为外传第4季，5月31日起在Amazon Prime Video每周三配信，全13话；故事与主要角色符合输入。\n\nhttps://shin-ei-animation.jp/works/amazon_shinchan_ooo/ (page): 新锐动画官方作品页确认本作为Amazon独占配信动画，剧情与输入一致；导演しぎのあきら、系列构成髙橋渉、人物设计末吉裕一郎及岩永大蔵等制作人员均与输入相符。\n\n备注：Bangumi的13个章节只有sort和ID，标题、日期均为空，且在线章节页未能读取；逐集rules暂留空，待补充章节标题或放送日期后核验。",
+    "evidence": "codex: 确认对应 TMDB 67324 第4季整季。官方资料与TMDB在版本、网络配信媒介、年份、剧情、制作人员及13集范围上相符。Bangumi输入章节均缺少标题和日期，无法逐章交叉核验，因此保留整季映射，不按位置推测逐集规则。\n\nhttps://www.themoviedb.org/tv/67324 (api_snapshot): 日文原名与英文别名搜索均指向 TMDB 67324。详情将本作明确列为第4季，首播日期为2017-05-31，共13集；该季妖怪新之助寻找母亲、结识桜ふみえ的剧情与输入一致，制作公司为朝日电视台和新锐动画。\n\nhttps://www.themoviedb.org/tv/67324/season/4 (api_snapshot): 实际读取第4季完整集表，total_pages=1，共13集，集号1至13，日期从2017-05-31至2017-08-23，每周一集。全部集名与剧情属于妖怪篇，没有混入其他外传或特别篇。\n\nhttps://www.tv-asahi.co.jp/shinchan/contents/news/0053/ (page): 朝日电视台2017年5月30日公告明确称本作为外传第4季，5月31日起在Amazon Prime Video每周三配信，全13话；故事与主要角色符合输入。\n\nhttps://shin-ei-animation.jp/works/amazon_shinchan_ooo/ (page): 新锐动画官方作品页确认本作为Amazon独占配信动画，剧情与输入一致；导演しぎのあきら、系列构成髙橋渉、人物设计末吉裕一郎及岩永大蔵等制作人员均与输入相符。\n\n备注：Bangumi的13个章节只有sort和ID，标题、日期均为空，且在线章节页未能读取；逐集rules暂留空，待补充章节标题或放送日期后核验。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/411082; https://www.themoviedb.org/tv/67324; https://www.themoviedb.org/tv/67324/season/4; https://www.tv-asahi.co.jp/shinchan/contents/news/0053/; https://shin-ei-animation.jp/works/amazon_shinchan_ooo/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 67324
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

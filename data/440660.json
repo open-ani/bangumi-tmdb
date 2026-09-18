@@ -25,12 +25,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、剧情、动画媒介、首播日期和四集规模共同支持对应 TV 138505 第 1 季，季表完整覆盖 subject 主体。Bangumi 各章节缺少标题及放送日期，无法逐集交叉核实，因此仅确认整季范围，不按章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/138505 (api_snapshot): 候选 TV 138505 为 Marvel Studios 制作的动画《Marvel Zombies》，首播日期为 2025-09-24，丧尸灾难中英雄与幸存者抗争的剧情与 Bangumi 简介一致。第 1 季共 4 集，均于 2025-09-24 上线，与 Bangumi 的首播日期及本篇总集数一致。\n\n备注：Bangumi 四个本篇章节的标题和放送日期均为空；需要补充逐集信息后才能确认章节级对应关系。",
+    "evidence": "codex: 名称、剧情、动画媒介、首播日期和四集规模共同支持对应 TV 138505 第 1 季，季表完整覆盖 subject 主体。Bangumi 各章节缺少标题及放送日期，无法逐集交叉核实，因此仅确认整季范围，不按章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/138505 (api_snapshot): 候选 TV 138505 为 Marvel Studios 制作的动画《Marvel Zombies》，首播日期为 2025-09-24，丧尸灾难中英雄与幸存者抗争的剧情与 Bangumi 简介一致。第 1 季共 4 集，均于 2025-09-24 上线，与 Bangumi 的首播日期及本篇总集数一致。\n\n备注：Bangumi 四个本篇章节的标题和放送日期均为空；需要补充逐集信息后才能确认章节级对应关系。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/440660; https://www.themoviedb.org/tv/138505",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 138505
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

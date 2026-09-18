@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 91425《Infinity Train》第四季整季。季度名称、2021-04-15发行日期、10集规模及两位摇滚音乐梦想好友的剧情均吻合，主创公告亦支持这一版本。Bangumi输入中的10个章节均缺少标题和播出日期，无法逐集交叉核验，因此只确认整季范围，暂不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): 通过英文原名搜索并读取详情，确认 TMDB 91425 为 Cartoon Network Studios 制作的动画剧集《Infinity Train》；第四季名为 Book Four: Duet，简介描述梦想成为摇滚明星的童年好友 Mingi 和 Ryan 在列车上解谜并修复关系，与输入的 Bangumi 剧情一致。\n\nhttps://www.themoviedb.org/tv/91425/season/4 (api_snapshot): 实际读取第四季完整集表，total_pages=1，共10集，集号1至10，日期全部为2021-04-15，每集11分钟；首集为 The Twin Tapes，末集为 The Train to Nowhere。该季完整覆盖 Book Four: Duet，没有混入其他季度或特别篇。\n\nhttps://owendennis.substack.com/p/infinity-train-book-4-duet (page): 主创 Owen Dennis 在2021年3月30日发布的文章中明确称 Book 4: Duet 为本系列第四季，并宣布全10集于4月15日在 HBO Max 上线，确认了版本、媒介、集数和发行日期。\n\n备注：Bangumi章节标题与日期为空，且本次未能访问其主体及章节网页；逐集对应仍需补充可核实的Bangumi章节资料，不能仅按sort与TMDB集号位置相同建立映射。",
+    "evidence": "codex: 确认对应 TMDB 91425《Infinity Train》第四季整季。季度名称、2021-04-15发行日期、10集规模及两位摇滚音乐梦想好友的剧情均吻合，主创公告亦支持这一版本。Bangumi输入中的10个章节均缺少标题和播出日期，无法逐集交叉核验，因此只确认整季范围，暂不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): 通过英文原名搜索并读取详情，确认 TMDB 91425 为 Cartoon Network Studios 制作的动画剧集《Infinity Train》；第四季名为 Book Four: Duet，简介描述梦想成为摇滚明星的童年好友 Mingi 和 Ryan 在列车上解谜并修复关系，与输入的 Bangumi 剧情一致。\n\nhttps://www.themoviedb.org/tv/91425/season/4 (api_snapshot): 实际读取第四季完整集表，total_pages=1，共10集，集号1至10，日期全部为2021-04-15，每集11分钟；首集为 The Twin Tapes，末集为 The Train to Nowhere。该季完整覆盖 Book Four: Duet，没有混入其他季度或特别篇。\n\nhttps://owendennis.substack.com/p/infinity-train-book-4-duet (page): 主创 Owen Dennis 在2021年3月30日发布的文章中明确称 Book 4: Duet 为本系列第四季，并宣布全10集于4月15日在 HBO Max 上线，确认了版本、媒介、集数和发行日期。\n\n备注：Bangumi章节标题与日期为空，且本次未能访问其主体及章节网页；逐集对应仍需补充可核实的Bangumi章节资料，不能仅按sort与TMDB集号位置相同建立映射。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439375; https://www.themoviedb.org/tv/91425; https://www.themoviedb.org/tv/91425/season/4; https://owendennis.substack.com/p/infinity-train-book-4-duet",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 91425
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

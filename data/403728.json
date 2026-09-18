@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称主体、首播日期、动画媒介、集数及周二排期共同支持对应 TMDB 244299 第1季整季。Bangumi 所有章节均缺少标题和放送日期，无法逐集交叉核实，故仅确认整季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/244299 (api_snapshot): 候选《圣祖》为中国动画，首播日期为2024-01-23，与 Bangumi 的作品名称主体、动画媒介及首播日期相符。\n\nhttps://www.themoviedb.org/tv/244299 (api_snapshot): 候选仅列第1季，共26集，与 Bangumi 本篇26集一致；季表完整列出第1—26集，前两集于2024-01-23播出，此后每周二更新，至2024-07-09结束，与 Bangumi 标注的周二播出相符。\n\n备注：Bangumi 第1—26话的标题和放送日期均为空；需补充这些信息后才能确认逐集对应关系。；候选未提供剧情简介，制作公司仅列英文名称 Transcendence Picture，现有数据无法独立核实剧情及制作方的一致性。",
+    "evidence": "codex: 名称主体、首播日期、动画媒介、集数及周二排期共同支持对应 TMDB 244299 第1季整季。Bangumi 所有章节均缺少标题和放送日期，无法逐集交叉核实，故仅确认整季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/244299 (api_snapshot): 候选《圣祖》为中国动画，首播日期为2024-01-23，与 Bangumi 的作品名称主体、动画媒介及首播日期相符。\n\nhttps://www.themoviedb.org/tv/244299 (api_snapshot): 候选仅列第1季，共26集，与 Bangumi 本篇26集一致；季表完整列出第1—26集，前两集于2024-01-23播出，此后每周二更新，至2024-07-09结束，与 Bangumi 标注的周二播出相符。\n\n备注：Bangumi 第1—26话的标题和放送日期均为空；需补充这些信息后才能确认逐集对应关系。；候选未提供剧情简介，制作公司仅列英文名称 Transcendence Picture，现有数据无法独立核实剧情及制作方的一致性。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/403728; https://www.themoviedb.org/tv/244299",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 244299
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

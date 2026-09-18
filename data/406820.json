@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、动画媒介、制作公司、首播日期、20集总量及前后季关系共同确认对应TMDB 1434第16季整季。Bangumi缺少逐集标题与日期，因此只确认季级范围，暂不生成按位置推定的逐集规则。\n\nhttps://bgm.tv/subject/406820 (page): Bangumi 标明本作为 TV 动画《Family Guy》第16季，共20话，2017-10-01开播，FOX播出，制作公司为20th Century Fox Television，前后关联分别为第15、17季。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 使用英文原名 Family Guy 搜索命中 TV 1434；详情确认为围绕Griffin家庭展开的动画系列，制作公司包含20th Century Fox Television，配音包含Seth MacFarlane。第16季及相邻两季的首播日期与Bangumi资料一致。\n\nhttps://www.themoviedb.org/tv/1434/season/16 (api_snapshot): 实际读取第16季完整集表：total_pages=1，共20集，集号连续为1至20，播出日期为2017-10-01至2018-05-20；首集为Emmy-Winning Episode，末集为Are You There God? It's Me, Peter，整季范围与subject一致。\n\nhttps://www.themoviedb.org/tv/1434/season/16/episode/1 (api_snapshot): 通过tmdb_find查询IMDb线索tt6945858，结果指向TV 1434第16季第1集，日期2017-10-01；该线索是单集ID，不能当作系列ID。\n\nhttps://bgm.tv/subject/406820/ep (page): Bangumi章节页仅有本篇1至20的编号，没有逐集标题或播出日期，无法进行逐集交叉比对。\n\n备注：20个Bangumi章节均缺少标题和播出日期；需补充章节资料后，才能核实逐集顺序并建立rules或overrides。",
+    "evidence": "codex: 原名、动画媒介、制作公司、首播日期、20集总量及前后季关系共同确认对应TMDB 1434第16季整季。Bangumi缺少逐集标题与日期，因此只确认季级范围，暂不生成按位置推定的逐集规则。\n\nhttps://bgm.tv/subject/406820 (page): Bangumi 标明本作为 TV 动画《Family Guy》第16季，共20话，2017-10-01开播，FOX播出，制作公司为20th Century Fox Television，前后关联分别为第15、17季。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 使用英文原名 Family Guy 搜索命中 TV 1434；详情确认为围绕Griffin家庭展开的动画系列，制作公司包含20th Century Fox Television，配音包含Seth MacFarlane。第16季及相邻两季的首播日期与Bangumi资料一致。\n\nhttps://www.themoviedb.org/tv/1434/season/16 (api_snapshot): 实际读取第16季完整集表：total_pages=1，共20集，集号连续为1至20，播出日期为2017-10-01至2018-05-20；首集为Emmy-Winning Episode，末集为Are You There God? It's Me, Peter，整季范围与subject一致。\n\nhttps://www.themoviedb.org/tv/1434/season/16/episode/1 (api_snapshot): 通过tmdb_find查询IMDb线索tt6945858，结果指向TV 1434第16季第1集，日期2017-10-01；该线索是单集ID，不能当作系列ID。\n\nhttps://bgm.tv/subject/406820/ep (page): Bangumi章节页仅有本篇1至20的编号，没有逐集标题或播出日期，无法进行逐集交叉比对。\n\n备注：20个Bangumi章节均缺少标题和播出日期；需补充章节资料后，才能核实逐集顺序并建立rules或overrides。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/406820; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/16; https://www.themoviedb.org/tv/1434/season/16/episode/1; https://bgm.tv/subject/406820/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 16,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

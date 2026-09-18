@@ -306,12 +306,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、具体剧情、动画媒介和60集规模相互吻合，官方平台亦确认同一作品版本；实际季表支持 Bangumi 主体对应 TMDB 235017 第1季整季。Bangumi 各章缺少标题及日期，不能仅凭编号生成逐集规则，因此保留季级匹配，rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/235017 (api_snapshot): 中文原名搜索命中 TV 235017；详情确认原名《洪荒灵尊》、首播日期2023-09-10，楚天继承百亿财产并卷入天风城势力冲突的剧情与 Bangumi 一致。仅列第1季，共60集；制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/235017/season/1 (api_snapshot): 实际读取第1季全部60集，total_pages=1，集号连续为1至60。第1至4集日期为2023-09-10，随后按周三、周日排期至第60集2024-03-24；第1至43集有具体标题，第44至60集为编号标题。\n\nhttps://bgm.tv/subject/453482 (page): Bangumi 将本作标为 WEB 动画，共60话，2023-09-10开播，周三、周日放送；导演李亮，脚本陈寒、曾婉，动画制作索以文化，制作索以文化及爱奇艺。\n\nhttps://bgm.tv/subject/453482/ep (page): Bangumi 章节页列出本篇1至60，但未提供各集标题和播出日期，无法与 TMDB 进行逐集内容及日期比对。\n\nhttps://www.iq.com/album/洪荒灵尊-2023-1ivi5n94ctp?lang=zh_cn (page): 爱奇艺官方页面确认本作为2023年中国大陆动画、60集全，别名《无敌从继承百亿灵石开始》，故事人物及核心情节与 Bangumi、TMDB 一致。\n\n备注：逐集对应尚未验证；需补充可关联 Bangumi 各章的标题、日期或内容证据后再填写规则。；TMDB 未提供演职员与制作公司，无法在两库之间直接交叉核对制作人员。",
+    "evidence": "codex: 原名、首播日期、具体剧情、动画媒介和60集规模相互吻合，官方平台亦确认同一作品版本；实际季表支持 Bangumi 主体对应 TMDB 235017 第1季整季。Bangumi 各章缺少标题及日期，不能仅凭编号生成逐集规则，因此保留季级匹配，rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/235017 (api_snapshot): 中文原名搜索命中 TV 235017；详情确认原名《洪荒灵尊》、首播日期2023-09-10，楚天继承百亿财产并卷入天风城势力冲突的剧情与 Bangumi 一致。仅列第1季，共60集；制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/235017/season/1 (api_snapshot): 实际读取第1季全部60集，total_pages=1，集号连续为1至60。第1至4集日期为2023-09-10，随后按周三、周日排期至第60集2024-03-24；第1至43集有具体标题，第44至60集为编号标题。\n\nhttps://bgm.tv/subject/453482 (page): Bangumi 将本作标为 WEB 动画，共60话，2023-09-10开播，周三、周日放送；导演李亮，脚本陈寒、曾婉，动画制作索以文化，制作索以文化及爱奇艺。\n\nhttps://bgm.tv/subject/453482/ep (page): Bangumi 章节页列出本篇1至60，但未提供各集标题和播出日期，无法与 TMDB 进行逐集内容及日期比对。\n\nhttps://www.iq.com/album/洪荒灵尊-2023-1ivi5n94ctp?lang=zh_cn (page): 爱奇艺官方页面确认本作为2023年中国大陆动画、60集全，别名《无敌从继承百亿灵石开始》，故事人物及核心情节与 Bangumi、TMDB 一致。\n\n备注：逐集对应尚未验证；需补充可关联 Bangumi 各章的标题、日期或内容证据后再填写规则。；TMDB 未提供演职员与制作公司，无法在两库之间直接交叉核对制作人员。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/453482; https://www.themoviedb.org/tv/235017; https://www.themoviedb.org/tv/235017/season/1; https://bgm.tv/subject/453482/ep; https://www.iq.com/album/洪荒灵尊-2023-1ivi5n94ctp?lang=zh_cn",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 235017
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

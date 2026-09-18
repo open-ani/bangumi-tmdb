@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品原名、明确的第一季标识、首播日期、动画类型及10集季范围一致，可确认对应 TMDB 116249 第1季整季。Bangumi 逐集标题和日期均为空，候选标题也仅为集号，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/116249 (api_snapshot): 候选原名为 Kid Cosmic，类型包含动画，首播日期为2021-02-02；与 Bangumi 标明的作品名、动画媒介及开播日期一致。\n\nhttps://www.themoviedb.org/tv/116249 (api_snapshot): 第1季共10集，第1至10集放送日期均为2021-02-02，与 Bangumi 明确标注的 Season 1、10话及开播日期一致。第2季为2021年9月的8集，第3季为2022年的6集，均不属于本 subject 范围。\n\n备注：逐集映射需补充 Bangumi 各话标题或放送日期等可比对信息。；候选未提供剧情简介，Bangumi 未提供制作公司，无法对这两项进行双向核对。",
+    "evidence": "codex: 作品原名、明确的第一季标识、首播日期、动画类型及10集季范围一致，可确认对应 TMDB 116249 第1季整季。Bangumi 逐集标题和日期均为空，候选标题也仅为集号，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/116249 (api_snapshot): 候选原名为 Kid Cosmic，类型包含动画，首播日期为2021-02-02；与 Bangumi 标明的作品名、动画媒介及开播日期一致。\n\nhttps://www.themoviedb.org/tv/116249 (api_snapshot): 第1季共10集，第1至10集放送日期均为2021-02-02，与 Bangumi 明确标注的 Season 1、10话及开播日期一致。第2季为2021年9月的8集，第3季为2022年的6集，均不属于本 subject 范围。\n\n备注：逐集映射需补充 Bangumi 各话标题或放送日期等可比对信息。；候选未提供剧情简介，Bangumi 未提供制作公司，无法对这两项进行双向核对。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/627167; https://www.themoviedb.org/tv/116249",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 116249
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

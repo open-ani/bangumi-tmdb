@@ -20,12 +20,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、Machinima 网络短篇媒介、平行世界三主角剧情及3集规模一致，确认对应 TMDB 63266 第1季全季；季表未混入关联电影。Bangumi 三个章节均缺少标题和日期，无法逐章交叉核对，因此只确认作品与季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/63266 (api_snapshot): 以英文原名搜索后读取详情：TMDB 63266 为2015年动画系列，首播2015-06-08，共1季3集，制作公司为 Warner Bros. Animation，主要配音包括 Michael C. Hall、Benjamin Bratt、Tamara Taylor。\n\nhttps://www.themoviedb.org/tv/63266/season/1 (api_snapshot): 第1季集表共3集、仅1页：第1集 Twisted（2015-06-08）、第2集 Bomb（2015-06-10）、第3集 Big（2015-06-12），每集6分钟，分别围绕蝙蝠侠、超人、神奇女侠展开。\n\nhttps://dcanimated.com/WF/dcuam/godsandmonsters/extras/chronicles/episodes.php (page): 独立分集资料按第1至3集列出 Twisted、Bomb、Big，发布日期和角色剧情与 TMDB 季表一致。\n\nhttps://www.dc.com/blog/2015/06/05/justice-league-gods-and-monsters-chronicles-watch-the-first-episode-now (search_snippet): DC 官方介绍确认 Chronicles 是 Bruce Timm 参与、由 Machinima 推出的平行世界网络动画系列，并明确将其与2015年7月发行的长篇动画电影区分。\n\nhttps://dcanimated.com/WF/dcuam/godsandmonsters/extras/chronicles/overview.php (search_snippet): 系列资料确认本作于2015-06-08在 Machinima 开播，首季3集；列出 Bruce Timm、Alan Burnett 及三位主要配音，与候选的制作背景和演员相符。\n\n备注：Bangumi 章节页本次读取失败，输入中的三个章节也没有标题或日期；需补充章节信息后才能确认各章节 ID 的逐集对应。；TMDB 简介和部分制作职务存在不精确之处；本次同时依据官方媒介说明、制作背景及完整三集标题、日期和剧情确认版本。",
+    "evidence": "codex: 年份、首播日期、Machinima 网络短篇媒介、平行世界三主角剧情及3集规模一致，确认对应 TMDB 63266 第1季全季；季表未混入关联电影。Bangumi 三个章节均缺少标题和日期，无法逐章交叉核对，因此只确认作品与季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/63266 (api_snapshot): 以英文原名搜索后读取详情：TMDB 63266 为2015年动画系列，首播2015-06-08，共1季3集，制作公司为 Warner Bros. Animation，主要配音包括 Michael C. Hall、Benjamin Bratt、Tamara Taylor。\n\nhttps://www.themoviedb.org/tv/63266/season/1 (api_snapshot): 第1季集表共3集、仅1页：第1集 Twisted（2015-06-08）、第2集 Bomb（2015-06-10）、第3集 Big（2015-06-12），每集6分钟，分别围绕蝙蝠侠、超人、神奇女侠展开。\n\nhttps://dcanimated.com/WF/dcuam/godsandmonsters/extras/chronicles/episodes.php (page): 独立分集资料按第1至3集列出 Twisted、Bomb、Big，发布日期和角色剧情与 TMDB 季表一致。\n\nhttps://www.dc.com/blog/2015/06/05/justice-league-gods-and-monsters-chronicles-watch-the-first-episode-now (search_snippet): DC 官方介绍确认 Chronicles 是 Bruce Timm 参与、由 Machinima 推出的平行世界网络动画系列，并明确将其与2015年7月发行的长篇动画电影区分。\n\nhttps://dcanimated.com/WF/dcuam/godsandmonsters/extras/chronicles/overview.php (search_snippet): 系列资料确认本作于2015-06-08在 Machinima 开播，首季3集；列出 Bruce Timm、Alan Burnett 及三位主要配音，与候选的制作背景和演员相符。\n\n备注：Bangumi 章节页本次读取失败，输入中的三个章节也没有标题或日期；需补充章节信息后才能确认各章节 ID 的逐集对应。；TMDB 简介和部分制作职务存在不精确之处；本次同时依据官方媒介说明、制作背景及完整三集标题、日期和剧情确认版本。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/486421; https://www.themoviedb.org/tv/63266; https://www.themoviedb.org/tv/63266/season/1; https://dcanimated.com/WF/dcuam/godsandmonsters/extras/chronicles/episodes.php; https://www.dc.com/blog/2015/06/05/justice-league-gods-and-monsters-chronicles-watch-the-first-episode-now; https://dcanimated.com/WF/dcuam/godsandmonsters/extras/chronicles/overview.php",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63266
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

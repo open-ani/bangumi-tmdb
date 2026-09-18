@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、动画媒介、制作公司、年份、26集规模、完结日期及续作时间共同支持对应 TMDB 81425 第3季整季。季级范围可以确认；Bangumi 全部章节缺少标题和日期，无法逐集比对，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/81425 (api_snapshot): 候选为动画系列 Talking Tom and Friends，制作公司包含 Outfit7、ARX Anima，与 Bangumi 制作信息一致。\n\nhttps://www.themoviedb.org/tv/81425 (api_snapshot): 第3季共26集，日期范围为2018-05-10至2018-12-27；集数与 Bangumi 相同，完结日期一致，开播日期相差2天。第4季开播日期2019-05-16也与 Bangumi 续作信息一致。\n\nhttps://www.themoviedb.org/tv/81425 (api_snapshot): 第3季集标题均为通用编号，且第14集日期2018-11-20晚于第15至21集，无法据此验证逐集顺序。\n\n备注：开播日期相差2天，现有数据无法解释。；候选未提供剧情简介，无法交叉核对剧情。；需补充 Bangumi 逐集标题或放送日期，以及候选的实际集标题，并核实第14集日期，才能建立逐集映射。",
+    "evidence": "codex: 作品名称、动画媒介、制作公司、年份、26集规模、完结日期及续作时间共同支持对应 TMDB 81425 第3季整季。季级范围可以确认；Bangumi 全部章节缺少标题和日期，无法逐集比对，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/81425 (api_snapshot): 候选为动画系列 Talking Tom and Friends，制作公司包含 Outfit7、ARX Anima，与 Bangumi 制作信息一致。\n\nhttps://www.themoviedb.org/tv/81425 (api_snapshot): 第3季共26集，日期范围为2018-05-10至2018-12-27；集数与 Bangumi 相同，完结日期一致，开播日期相差2天。第4季开播日期2019-05-16也与 Bangumi 续作信息一致。\n\nhttps://www.themoviedb.org/tv/81425 (api_snapshot): 第3季集标题均为通用编号，且第14集日期2018-11-20晚于第15至21集，无法据此验证逐集顺序。\n\n备注：开播日期相差2天，现有数据无法解释。；候选未提供剧情简介，无法交叉核对剧情。；需补充 Bangumi 逐集标题或放送日期，以及候选的实际集标题，并核实第14集日期，才能建立逐集映射。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/665999; https://www.themoviedb.org/tv/81425",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 81425
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

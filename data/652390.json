@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、年份、媒介及完整季集数共同支持对应 TMDB 93895 第1季。Bangumi 标注的2019年10月1日为优酷上线日期，与候选首播日期不同不构成版本冲突。第0季不在本条目的13集范围内。逐集缺乏可比对信息，暂不生成规则。\n\nhttps://www.themoviedb.org/tv/93895 (api_snapshot): 候选 TV 93895 为同名乐高动画，首播于2019年；第1季完整列出13集，与 Bangumi 的年份、电视动画媒介及13集主体一致。第0季另有4集，日期为2020—2021年。\n\n备注：Bangumi 全部章节均无标题和放送日期，TMDB 标题也仅为通用集号；无法核实逐集顺序，不能仅按位置建立对应关系。；候选未提供剧情或导演信息，Bangumi 简介较泛化；这些维度无法进一步交叉核验。",
+    "evidence": "codex: 作品名称、年份、媒介及完整季集数共同支持对应 TMDB 93895 第1季。Bangumi 标注的2019年10月1日为优酷上线日期，与候选首播日期不同不构成版本冲突。第0季不在本条目的13集范围内。逐集缺乏可比对信息，暂不生成规则。\n\nhttps://www.themoviedb.org/tv/93895 (api_snapshot): 候选 TV 93895 为同名乐高动画，首播于2019年；第1季完整列出13集，与 Bangumi 的年份、电视动画媒介及13集主体一致。第0季另有4集，日期为2020—2021年。\n\n备注：Bangumi 全部章节均无标题和放送日期，TMDB 标题也仅为通用集号；无法核实逐集顺序，不能仅按位置建立对应关系。；候选未提供剧情或导演信息，Bangumi 简介较泛化；这些维度无法进一步交叉核验。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/652390; https://www.themoviedb.org/tv/93895",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93895
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

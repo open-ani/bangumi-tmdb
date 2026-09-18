@@ -96,12 +96,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及整季范围已确认：年份、首播日期、导演、出品方、剧情、网络动画媒介与18集规模相符，TMDB第1季完整覆盖该subject。Bangumi章节缺少标题和日期，不能仅凭编号生成逐集规则，因此保留整季映射，逐集映射留空。\n\nhttps://bgm.tv/subject/358667 (page): Bangumi 标明本作为2024年2月29日开播的18话网络动画，导演黄海涛，bilibili出品，别名为BLADER SOUL；剧情涉及秦汉之际、甘星与异人。\n\nhttps://www.themoviedb.org/tv/139174 (api_snapshot): TMDB详情确认139174为《捕星司·源起》，别名含Blader Soul，导演黄海涛，制作公司含bilibili；首播2024年2月29日，已完结，共1季18集。星石唤醒少年力量的剧情与本作相符。\n\nhttps://www.themoviedb.org/tv/139174/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages为1，共18集，集号连续为1—18，播出日期从2024年2月29日至4月25日；未见其他作品或特别篇混入。\n\nhttps://www.bilibili.com/bangumi/media/md28235392 (search_snippet): bilibili官方作品页确认2024年2月29日开播、已完结全18话，导演及剧情与Bangumi一致；摘要展示的正片第1—6话标题与TMDB对应集标题一致。\n\nhttps://bgm.tv/subject/358667/ep (page): Bangumi章节页只有本篇1—18的编号，各章节未提供标题和播出日期，缺少直接逐集核对所需的信息。\n\n备注：尚未建立Bangumi章节与TMDB各集的独立对应证据；需补充章节标题、播出日期或明确关联官方分集的资料后再填写rules。",
+    "evidence": "codex: 作品身份及整季范围已确认：年份、首播日期、导演、出品方、剧情、网络动画媒介与18集规模相符，TMDB第1季完整覆盖该subject。Bangumi章节缺少标题和日期，不能仅凭编号生成逐集规则，因此保留整季映射，逐集映射留空。\n\nhttps://bgm.tv/subject/358667 (page): Bangumi 标明本作为2024年2月29日开播的18话网络动画，导演黄海涛，bilibili出品，别名为BLADER SOUL；剧情涉及秦汉之际、甘星与异人。\n\nhttps://www.themoviedb.org/tv/139174 (api_snapshot): TMDB详情确认139174为《捕星司·源起》，别名含Blader Soul，导演黄海涛，制作公司含bilibili；首播2024年2月29日，已完结，共1季18集。星石唤醒少年力量的剧情与本作相符。\n\nhttps://www.themoviedb.org/tv/139174/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages为1，共18集，集号连续为1—18，播出日期从2024年2月29日至4月25日；未见其他作品或特别篇混入。\n\nhttps://www.bilibili.com/bangumi/media/md28235392 (search_snippet): bilibili官方作品页确认2024年2月29日开播、已完结全18话，导演及剧情与Bangumi一致；摘要展示的正片第1—6话标题与TMDB对应集标题一致。\n\nhttps://bgm.tv/subject/358667/ep (page): Bangumi章节页只有本篇1—18的编号，各章节未提供标题和播出日期，缺少直接逐集核对所需的信息。\n\n备注：尚未建立Bangumi章节与TMDB各集的独立对应证据；需补充章节标题、播出日期或明确关联官方分集的资料后再填写rules。\n\n脚本按声明范围生成逐集规则：18 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/358667; https://www.themoviedb.org/tv/139174; https://www.themoviedb.org/tv/139174/season/1; https://www.bilibili.com/bangumi/media/md28235392; https://bgm.tv/subject/358667/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 139174
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

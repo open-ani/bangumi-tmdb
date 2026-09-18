@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 官方链接、年份、上线日期、动画媒介、剧情人物、主演及完整8集内容共同确认，该 subject 对应 TMDB 314478 第一季全季。Bangumi 章节缺少标题与日期，逐章规则暂留空，避免仅凭序号建立对应。\n\nhttps://bgm.tv/subject/695326 (page): Bangumi 标注为 Netflix WEB 动画，共8话，2026年9月8日开播；简介描述露西、安德鲁与尤妮丝三姐弟。\n\nhttps://www.netflix.com/title/81666277 (page): Bangumi 指向的 Netflix 官方页面确认为2026年动画情景喜剧，共8集，创作者为 Andrew Law，主演为 Stephanie Hsu、Andrew Law、Poppy Liu；人物关系与剧情吻合。官方第1至8集的标题、顺序、简介及片长均与 TMDB 第一季一致。\n\nhttps://www.themoviedb.org/tv/314478 (api_snapshot): TMDB 314478 为英语剧集 Dang!，首播日期2026年9月8日，共1季8集；剧情与三位主演及其配音角色均与 Netflix 官方资料一致。\n\nhttps://www.themoviedb.org/tv/314478/season/1 (api_snapshot): 第一季真实集表共8集，total_pages=1，全部播出日期为2026年9月8日；从第1集 Pilot 到第8集 Westerham，逐集内容均对应 Netflix 官方集表，未混入其他作品。\n\n备注：Bangumi 的8个章节均无标题及单集播出日期，无法独立逐章核验；待补齐章节资料后可与已确认的官方及 TMDB 集表建立 rules。",
+    "evidence": "codex: 官方链接、年份、上线日期、动画媒介、剧情人物、主演及完整8集内容共同确认，该 subject 对应 TMDB 314478 第一季全季。Bangumi 章节缺少标题与日期，逐章规则暂留空，避免仅凭序号建立对应。\n\nhttps://bgm.tv/subject/695326 (page): Bangumi 标注为 Netflix WEB 动画，共8话，2026年9月8日开播；简介描述露西、安德鲁与尤妮丝三姐弟。\n\nhttps://www.netflix.com/title/81666277 (page): Bangumi 指向的 Netflix 官方页面确认为2026年动画情景喜剧，共8集，创作者为 Andrew Law，主演为 Stephanie Hsu、Andrew Law、Poppy Liu；人物关系与剧情吻合。官方第1至8集的标题、顺序、简介及片长均与 TMDB 第一季一致。\n\nhttps://www.themoviedb.org/tv/314478 (api_snapshot): TMDB 314478 为英语剧集 Dang!，首播日期2026年9月8日，共1季8集；剧情与三位主演及其配音角色均与 Netflix 官方资料一致。\n\nhttps://www.themoviedb.org/tv/314478/season/1 (api_snapshot): 第一季真实集表共8集，total_pages=1，全部播出日期为2026年9月8日；从第1集 Pilot 到第8集 Westerham，逐集内容均对应 Netflix 官方集表，未混入其他作品。\n\n备注：Bangumi 的8个章节均无标题及单集播出日期，无法独立逐章核验；待补齐章节资料后可与已确认的官方及 TMDB 集表建立 rules。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/695326; https://www.netflix.com/title/81666277; https://www.themoviedb.org/tv/314478; https://www.themoviedb.org/tv/314478/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 314478
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -116,12 +116,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 290737第1季整季。年份、TV媒介、独特角色设定及完整播出范围一致，官方发行资料也确认本篇按12回收录；该季对应独立的《にゃ～めん》，不含合播的《47都道府犬R》或另列的文化祭特典。Bangumi记录22个短篇，TMDB记录12个播出回，不能建立按序递增的一对一规则，因此仅确认作品与整季范围，逐集映射留空。\n\nhttps://bgm.tv/subject/93345 (page): Bangumi 将本作列为2014年1月至3月播出的TV动画，共22话；剧情涉及天界女子高校学生与拉面命名的猫型角色，并将《47都道府犬R》和文化祭特别映像列为关联作品。\n\nhttps://www.themoviedb.org/tv/290737 (api_snapshot): TMDB 290737 为《にゃ~めん》／Nyamen，简介为具备女高中生性格的猫型拉面角色日常；播出范围为2014-01-12至2014-03-30，制作公司列有VAP。演员和工作人员字段为空，不能声称已通过TMDB核对导演名单。\n\nhttps://www.themoviedb.org/tv/290737/season/1 (api_snapshot): 第1季实际集表共12集、仅1页，日期从2014-01-12至2014-03-30逐周排列；标题均为泛化的第1话至第12话，简介为空，没有提供22个短篇的分段标题。\n\nhttps://store.vap.co.jp/syousai.asp?item=VPXY-71299 (page): VAP官方商品页确认同一剧情、角色及制作班底：原作日活、导演樋渡博之、音乐北川勝利，制作HiWaPlus与Bells&Whistles；本篇收录范围明确为第1至12回，文化祭特别映像单列为特典。\n\nhttps://www.animatetimes.com/tag/details.php?id=14306 (page): 作品资料明确《にゃ～めん》是犬猫合播节目内的独立TV动画，全12回，2014-01-12至2014-03-30播出；剧情、角色及制作人员与VAP官方资料一致。\n\n备注：TMDB没有细分标题或剧情，尚不能逐回核实22个Bangumi短篇的完整组合关系。；多个短篇归入同一播出回时，不能让多个Bangumi章节重复占用同一TMDB集；本次未填写此类映射。；Bangumi日期与TMDB日期相差一天，与深夜节目营业日及自然日记法相符，但本次未取得完整原始播出时刻表核对。",
+    "evidence": "codex: 确认对应TMDB 290737第1季整季。年份、TV媒介、独特角色与剧情、VAP发行资料和12回完整播出范围相互吻合；该季覆盖独立的《にゃ～めん》本篇。22个Bangumi短篇组成12个播出回：前20篇每两篇一回，最后两篇各占一回。根据分回标题说明与播出日期，映射Bangumi第21、22篇至S01E11、E12；前20篇的多对一关系不符合禁止重复占用TMDB集的约束，故留空。\n\nhttps://bgm.tv/subject/93345 (page): Bangumi 将本作列为2014年1月至3月播出的TV动画，共22话；剧情为天界女子高校学生被遣往地上，角色以拉面种类命名。原作日活、音乐北川勝利；《47都道府犬R》和文化祭特别映像另列关联条目。\n\nhttps://www.themoviedb.org/tv/290737 (api_snapshot): TMDB 290737 为《にゃ~めん》／Nyamen，2014-01-12至2014-03-30播出；简介描述具有女高中生性格的猫型拉面角色，制作公司列有VAP。演员及工作人员列表为空。\n\nhttps://www.themoviedb.org/tv/290737/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1，已完整读取。日期自2014-01-12逐周至2014-03-30；第11、12集分别为2014-03-23、2014-03-30。标题均为通用集号，简介为空。\n\nhttps://store.vap.co.jp/syousai.asp?item=VPXY-71299 (page): VAP官方商品页确认天界女子高校学生变成猫型天使的剧情，原作日活、导演樋渡博之、音乐北川勝利、制作HiWaPlus与Bells&Whistles；本篇明确收录第1至12回，文化祭特别映像单列特典。\n\nhttps://tv.apple.com/jp/show/犬猫アワー--47都道府犬rにゃめん/umc.cmc.6vhdasza12myy6qlw56eoel78 (page): Apple TV合播节目分回说明明确区分两部动画：第2至10播出回中的《にゃ～めん》分别包含短篇3至20，每回两篇；第11回仅含短篇21「宇宙胡椒 ニャバン」，第12回仅含短篇22「にゃ～めん期の終わり」。这里采用说明中的原始播出回编号，不采用Apple自身合并后的6集编号。\n\nhttps://www.moview.jp/85145380.html (page): 放送报道明确第1回于1月11日播出，包含短篇1、2；第2回于1月18日播出，包含短篇3、4，标题与输入一致。\n\nhttps://cal.syoboi.jp/tid/3291/time (search_snippet): 历史节目表将首回记为2014-01-11的27:45，第二回记为1月18日26:05，支持Bangumi使用深夜营业日、TMDB使用次日自然日的日期差异。\n\n备注：前20个Bangumi章节需要多对一映射才能完整表达；现有Schema约束下未填写，也未将其中任何章节标为排除。；TMDB季表没有具体短篇标题；最后两集的标题对应由发行平台分回说明补证。TMDB工作人员字段为空，无法直接交叉核对导演名单。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/93345; https://www.themoviedb.org/tv/290737; https://www.themoviedb.org/tv/290737/season/1; https://store.vap.co.jp/syousai.asp?item=VPXY-71299; https://www.animatetimes.com/tag/details.php?id=14306",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "source": "https://bgm.tv/subject/93345; https://www.themoviedb.org/tv/290737; https://www.themoviedb.org/tv/290737/season/1; https://store.vap.co.jp/syousai.asp?item=VPXY-71299; https://tv.apple.com/jp/show/犬猫アワー--47都道府犬rにゃめん/umc.cmc.6vhdasza12myy6qlw56eoel78; https://www.moview.jp/85145380.html; https://cal.syoboi.jp/tid/3291/time",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 21,
+      "tmdbId": 290737
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

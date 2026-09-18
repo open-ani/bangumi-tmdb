@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、剧情、原作者、制作人员、制作公司、Netflix 官方链接及六集规模相互吻合，确认对应 TMDB 94924 第1季全季。Bangumi 六个章节均缺少标题和播出日期，无法进行章节级交叉核对，因此仅确认作品与季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/94924 (api_snapshot): 以 Trese 和日文别名「異界探偵トレセ」搜索均找到 TV 94924。详情确认是2021年动画系列，剧情为亚历珊卓在马尼拉对抗超自然犯罪，制作公司包含 BASE Entertainment；共1季6集。\n\nhttps://www.themoviedb.org/tv/94924/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共6集，集号1—6，标题为 Episode 1—6，播出日期均为2021-06-11；六集剧情简介与 Netflix 官方集表逐一一致。\n\nhttps://www.netflix.com/title/81012541 (page): Bangumi 所列 Netflix 官方链接指向2021年动画 Trese，明确列出6集及各集剧情，确认该 subject 覆盖完整六集系列。\n\nhttps://about.netflix.com/en/news/liza-soberano-and-shay-mitchell-are-alexandra-trese (search_snippet): Netflix 官方公告确认原作为 Budjette Tan、Kajo Baldisimo 的漫画，执行制片人为 Jay Oliva，制片人为 BASE Entertainment 的 Shanty Harmayn、Tanya Yuson，与输入制作资料一致。\n\nhttps://en.wikipedia.org/wiki/Trese_(TV_series) (search_snippet): 资料记载美国于2021-06-10上线、全球于次日上线，为 Bangumi 与 TMDB 相差一天的日期提供解释。\n\n备注：Bangumi 章节页访问失败；输入章节仅有 sort 1—6，不能据此把位置顺序当作已核实的逐集对应。需补充章节标题、日期或内容资料后再建立 rules。",
+    "evidence": "codex: 年份、剧情、原作者、制作人员、制作公司、Netflix 官方链接及六集规模相互吻合，确认对应 TMDB 94924 第1季全季。Bangumi 六个章节均缺少标题和播出日期，无法进行章节级交叉核对，因此仅确认作品与季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/94924 (api_snapshot): 以 Trese 和日文别名「異界探偵トレセ」搜索均找到 TV 94924。详情确认是2021年动画系列，剧情为亚历珊卓在马尼拉对抗超自然犯罪，制作公司包含 BASE Entertainment；共1季6集。\n\nhttps://www.themoviedb.org/tv/94924/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共6集，集号1—6，标题为 Episode 1—6，播出日期均为2021-06-11；六集剧情简介与 Netflix 官方集表逐一一致。\n\nhttps://www.netflix.com/title/81012541 (page): Bangumi 所列 Netflix 官方链接指向2021年动画 Trese，明确列出6集及各集剧情，确认该 subject 覆盖完整六集系列。\n\nhttps://about.netflix.com/en/news/liza-soberano-and-shay-mitchell-are-alexandra-trese (search_snippet): Netflix 官方公告确认原作为 Budjette Tan、Kajo Baldisimo 的漫画，执行制片人为 Jay Oliva，制片人为 BASE Entertainment 的 Shanty Harmayn、Tanya Yuson，与输入制作资料一致。\n\nhttps://en.wikipedia.org/wiki/Trese_(TV_series) (search_snippet): 资料记载美国于2021-06-10上线、全球于次日上线，为 Bangumi 与 TMDB 相差一天的日期提供解释。\n\n备注：Bangumi 章节页访问失败；输入章节仅有 sort 1—6，不能据此把位置顺序当作已核实的逐集对应。需补充章节标题、日期或内容资料后再建立 rules。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/277367; https://www.themoviedb.org/tv/94924; https://www.themoviedb.org/tv/94924/season/1; https://www.netflix.com/title/81012541; https://about.netflix.com/en/news/liza-soberano-and-shay-mitchell-are-alexandra-trese; https://en.wikipedia.org/wiki/Trese_(TV_series)",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 94924
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

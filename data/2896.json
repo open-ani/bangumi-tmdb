@@ -1,16 +1,103 @@
 {
   "anidbId": 5570,
   "bangumiId": 2896,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 19133,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 19134,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 19135,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 19136,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 19137,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 19138,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 19139,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 19140,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 19141,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 19142,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 19143,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 19144,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 19145,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 19145,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 36250,
+          "season": 2,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 2896 明确是 TV《×××HOLiC◆継》，2008-04-03 开播，共 13 话；标题、年份、剧情、导演水島努、制作公司 Production I.G 与 TMDB TV 36250 的第 2 季完全对应。TMDB 第 2 季明确标为《xxxHOLiC◆継》，共 13 集，日期从 2008-04-03 至 2008-06-26，集标题和剧情与 Bangumi 条目一致。第 13 集虽在输入中标作特别篇/外传，但属于该 subject 主体内容，TMDB 第 2 季也收录为第 13 集，因此应纳入完整季。\n\nhttps://bgm.tv/subject/2896 (page): Bangumi 将该条目标为 TV《×××HOLiC◆継》，13 话，放送开始于 2008 年 4 月 3 日；页面列出 01–12、SP 和 13，并显示导演水島努、动画制作 Production I.G。\n\nhttps://www.themoviedb.org/tv/36250 (api_snapshot): TMDB TV 作品 36250 的原名为 XXX ホリック，首播日期为 2006-04-06，包含第 2 季《xxxHOLiC◆継》，该季 13 集、首播 2008-04-03。\n\nhttps://www.themoviedb.org/tv/36250/season/2 (api_snapshot): TMDB 第 2 季 season_number=2，名称为 xxxHOLiC◆継，air_date=2008-04-03，episodeCount=13；完整剧集快照列出 1–13 集，标题、日期和剧情与 Bangumi subject 相符，末集为 2008-06-26 的「報恩 オカエシ」。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要中的 AniDB 标题数据将 AniDB ID 5570 对应为 xxxHOLiC: Kei，与 Bangumi subject 的《×××HOLiC◆継》及输入提供的 matched 关联一致。",
+    "evidence": "codex: 确认对应TMDB 36250第2季全13集。年份、TV媒介、剧情、制作人员及完整标题顺序共同支持同一版本；本篇1—12逐集对应S02E01—E12，Bangumi标为SP的第13话外传对应S02E13。\n\nhttps://bgm.tv/subject/2896 (page): Bangumi 将本作标为2008年播出的TV动画，共13话；导演水島努、动画制作Production I.G，章节为12话本篇及第13话外传。\n\nhttps://www.themoviedb.org/tv/36250 (api_snapshot): TMDB 36250的剧情、导演、制作公司及主要角色声优吻合；作品详情明确将《×××HOLiC◆継》列为第2季别名，第2季于2008-04-03开播，共13集。\n\nhttps://www.themoviedb.org/tv/36250/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共13集。逐集标题对应输入的1—12话和外传；第13集为「報恩 オカエシ」，日期2008-06-26。该季没有混入后续OVA。\n\nhttps://www.tbs.co.jp/holic/03story/story.html (page): TBS官方逐集表列出第1—13话，标题及顺序与TMDB第2季一致，末话为「報恩 オカエシ」。官方第10话写作「不戻 キヅキ」，可确认输入中的对应标题存在录入差异。\n\nhttps://www.tbs.co.jp/holic/02staffcast/staffcast.html (page): 官方确认原作CLAMP、导演水島努、动画制作Production I.G，以及福山潤、大原さやか等配音，与Bangumi和TMDB资料一致。\n\n备注：放送日期存在资料差异：官方第3、7话分别为2008-04-17、2008-05-15，TMDB分别记为04-24、05-22；第1、4话也存在一天差异。标题、总集数及官方编号一致，因此不影响逐集对应。；输入第10话为「キジキ／不戾」，官方及TMDB均为「キヅキ／不戻」；按官方集表确认其对应S02E10。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2896; https://www.themoviedb.org/tv/36250; https://www.themoviedb.org/tv/36250/season/2; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2896; https://www.themoviedb.org/tv/36250; https://www.themoviedb.org/tv/36250/season/2; https://www.tbs.co.jp/holic/03story/story.html; https://www.tbs.co.jp/holic/02staffcast/staffcast.html",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 36250
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

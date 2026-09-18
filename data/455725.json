@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画媒介、明确季号、首播日期、10集规模及前后作日期共同支持对应 TMDB 74204 第7季整季。季表无混入其他作品的迹象，可确认覆盖范围；逐集对应因缺少可比对信息暂留空。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 为美国动画《Big Mouth》，第7季共10集，季首播日期及全部10集日期均为2023-10-20，与 Bangumi 的季号、首播日期及本篇集数一致。第6季首播日期2022-10-28、第8季首播日期2025-05-23，也分别对应 Bangumi 前作及续作日期。\n\n备注：Bangumi 全部章节均无标题和放送日期，TMDB 集标题也仅为通用集号，无法独立核实逐集顺序，因此不生成连续规则；需补充章节标题或逐集日期后再核对。；Bangumi 未提供剧情及制作方信息，无法核对这些维度。",
+    "evidence": "codex: 名称、动画媒介、明确季号、首播日期、10集规模及前后作日期共同支持对应 TMDB 74204 第7季整季。季表无混入其他作品的迹象，可确认覆盖范围；逐集对应因缺少可比对信息暂留空。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 为美国动画《Big Mouth》，第7季共10集，季首播日期及全部10集日期均为2023-10-20，与 Bangumi 的季号、首播日期及本篇集数一致。第6季首播日期2022-10-28、第8季首播日期2025-05-23，也分别对应 Bangumi 前作及续作日期。\n\n备注：Bangumi 全部章节均无标题和放送日期，TMDB 集标题也仅为通用集号，无法独立核实逐集顺序，因此不生成连续规则；需补充章节标题或逐集日期后再核对。；Bangumi 未提供剧情及制作方信息，无法核对这些维度。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/455725; https://www.themoviedb.org/tv/74204",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 74204
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、上线日期、剧情及六集规模共同支持对应 TMDB 74044 第 1 季，整季范围明确。Bangumi 逐集标题和日期均为空，无法完成逐集比对，因此不生成仅按位置推定的对应规则。\n\nhttps://www.themoviedb.org/tv/74044 (api_snapshot): 候选原名为 Neo Yokio，首播日期为 2017-09-22；简介中的卡恩、机器人管家及都市驱魔情节与 Bangumi 简介吻合。第 1 季共 6 集，全部于 2017-09-22 上线，与 subject 的上线日期及本篇集数一致。第 0 季另有 2018-12-07 的特别篇，不属于本次范围。\n\n备注：六个 Bangumi 章节缺少标题及放送日期；需补充逐集资料后才能确认章节对应关系。",
+    "evidence": "codex: 名称、上线日期、剧情及六集规模共同支持对应 TMDB 74044 第 1 季，整季范围明确。Bangumi 逐集标题和日期均为空，无法完成逐集比对，因此不生成仅按位置推定的对应规则。\n\nhttps://www.themoviedb.org/tv/74044 (api_snapshot): 候选原名为 Neo Yokio，首播日期为 2017-09-22；简介中的卡恩、机器人管家及都市驱魔情节与 Bangumi 简介吻合。第 1 季共 6 集，全部于 2017-09-22 上线，与 subject 的上线日期及本篇集数一致。第 0 季另有 2018-12-07 的特别篇，不属于本次范围。\n\n备注：六个 Bangumi 章节缺少标题及放送日期；需补充逐集资料后才能确认章节对应关系。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/225378; https://www.themoviedb.org/tv/74044",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74044
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

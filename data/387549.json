@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名、动画媒介、首播日期及整季集数共同支持对应 TMDB 93233 第1季。季范围可以确认，但逐集信息不足，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/93233 (api_snapshot): 候选 Centaurworld（93233）为动画剧集，首播日期为2021-07-30；第1季共10集，全部于该日上线，与 Bangumi 的作品名、开始日期及10集总量一致。\n\nhttps://www.themoviedb.org/tv/93233 (api_snapshot): 第2季为2021-12-07上线的8集，与本 subject 的日期及集数不符，故范围限定为第1季。\n\n备注：Bangumi 各章节均缺少标题和放送日期，TMDB 标题也只有集号，无法进行逐集内容核对；需补充可辨识的标题或章节资料后建立逐集映射。；候选未提供剧情简介或编剧资料；Bangumi 标注 Netflix，候选列出其他制作公司，现有数据不足以进一步核实制作关系。",
+    "evidence": "codex: 作品名、动画媒介、首播日期及整季集数共同支持对应 TMDB 93233 第1季。季范围可以确认，但逐集信息不足，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/93233 (api_snapshot): 候选 Centaurworld（93233）为动画剧集，首播日期为2021-07-30；第1季共10集，全部于该日上线，与 Bangumi 的作品名、开始日期及10集总量一致。\n\nhttps://www.themoviedb.org/tv/93233 (api_snapshot): 第2季为2021-12-07上线的8集，与本 subject 的日期及集数不符，故范围限定为第1季。\n\n备注：Bangumi 各章节均缺少标题和放送日期，TMDB 标题也只有集号，无法进行逐集内容核对；需补充可辨识的标题或章节资料后建立逐集映射。；候选未提供剧情简介或编剧资料；Bangumi 标注 Netflix，候选列出其他制作公司，现有数据不足以进一步核实制作关系。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/387549; https://www.themoviedb.org/tv/93233",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93233
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

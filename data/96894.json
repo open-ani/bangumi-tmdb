@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 64414《Wakfu》第二季整季：制作方、电视动画版本、前后续关系、26集规模及2011-02-26至2012-03-03的播出范围吻合。Bangumi 输入的26个章节均无标题和播出日期，无法进行章节级内容比对，因此保留整季映射，不按序号猜测生成逐集规则。\n\nhttps://www.themoviedb.org/tv/64414 (api_snapshot): TMDB 64414 是法国 Ankama 制作的电视动画《Wakfu》，主系列始于 2008 年；第二季剧情承接击败 Nox 后的故事，围绕 Evangelyne 寻找 Tristepin 展开，制作方、媒介及续季关系与输入一致。\n\nhttps://www.themoviedb.org/tv/64414/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共26集，集号连续为1—26，播出日期从2011-02-26至2012-03-03，与 Bangumi 的集数及起止日期一致；季表未混入《Ogrest, la légende》或2014年的后续特别篇。\n\nhttps://www.scifi-universe.com/series/19750/wakfu/saison-2 (page): 第二季指南列出26集，各集播出日期与 TMDB 第二季逐项一致，支持整季范围。该页第12集标题与 TMDB 存在差异，因此不将其作为该集标题对应的依据。\n\n备注：逐集映射仍缺少 Bangumi 章节标题或播出日期；本次访问 Bangumi 页面及章节 API 未成功取得补充资料，待补齐后再核实 rules。",
+    "evidence": "codex: 确认对应 TMDB 64414《Wakfu》第二季整季：制作方、电视动画版本、前后续关系、26集规模及2011-02-26至2012-03-03的播出范围吻合。Bangumi 输入的26个章节均无标题和播出日期，无法进行章节级内容比对，因此保留整季映射，不按序号猜测生成逐集规则。\n\nhttps://www.themoviedb.org/tv/64414 (api_snapshot): TMDB 64414 是法国 Ankama 制作的电视动画《Wakfu》，主系列始于 2008 年；第二季剧情承接击败 Nox 后的故事，围绕 Evangelyne 寻找 Tristepin 展开，制作方、媒介及续季关系与输入一致。\n\nhttps://www.themoviedb.org/tv/64414/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共26集，集号连续为1—26，播出日期从2011-02-26至2012-03-03，与 Bangumi 的集数及起止日期一致；季表未混入《Ogrest, la légende》或2014年的后续特别篇。\n\nhttps://www.scifi-universe.com/series/19750/wakfu/saison-2 (page): 第二季指南列出26集，各集播出日期与 TMDB 第二季逐项一致，支持整季范围。该页第12集标题与 TMDB 存在差异，因此不将其作为该集标题对应的依据。\n\n备注：逐集映射仍缺少 Bangumi 章节标题或播出日期；本次访问 Bangumi 页面及章节 API 未成功取得补充资料，待补齐后再核实 rules。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/96894; https://www.themoviedb.org/tv/64414; https://www.themoviedb.org/tv/64414/season/2; https://www.scifi-universe.com/series/19750/wakfu/saison-2",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 64414
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

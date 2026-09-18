@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、前作关系、两季首播日期及第2季6集的范围相互吻合，可确认对应 TMDB 127445 第2季整季。Bangumi 各集均缺少标题和放送日期，无法逐集核实顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/127445 (api_snapshot): 候选剧集原名为 Tom and Jerry in New York；第1季首播于2021-07-01，与 Bangumi 前作关系中的名称及日期一致。第2季共6集，全部于2021-11-18播出，与待核对条目的季度、开播日期及本篇集数一致。\n\n备注：Bangumi 未提供剧情、制作方及逐集标题、日期；需补充章节资料后才能确认逐集对应关系。",
+    "evidence": "codex: 名称、前作关系、两季首播日期及第2季6集的范围相互吻合，可确认对应 TMDB 127445 第2季整季。Bangumi 各集均缺少标题和放送日期，无法逐集核实顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/127445 (api_snapshot): 候选剧集原名为 Tom and Jerry in New York；第1季首播于2021-07-01，与 Bangumi 前作关系中的名称及日期一致。第2季共6集，全部于2021-11-18播出，与待核对条目的季度、开播日期及本篇集数一致。\n\n备注：Bangumi 未提供剧情、制作方及逐集标题、日期；需补充章节资料后才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/441862; https://www.themoviedb.org/tv/127445",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 127445
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画剧集媒介、年份、首尾播出日期及10集规模共同支持对应 TMDB 128024 第1季整季。Bangumi 各章节均缺少标题与日期，无法逐集交叉核验，因此仅确认季范围，不按章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/128024 (api_snapshot): 候选为2023年动画剧集，名称与 Bangumi 一致；第1季共10集，首两集于2023-05-05播出，第10集于2023-06-30播出，与 Bangumi 的首播日期、完结日期及本篇总集数一致。候选仅列出这一季。\n\n备注：需要补充 Bangumi 各集标题或放送日期，才能核实逐集对应关系；候选标题也仅为集号。；候选未提供剧情简介，Bangumi 未提供制作方，无法对这两项进行交叉核验。",
+    "evidence": "codex: 名称、动画剧集媒介、年份、首尾播出日期及10集规模共同支持对应 TMDB 128024 第1季整季。Bangumi 各章节均缺少标题与日期，无法逐集交叉核验，因此仅确认季范围，不按章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/128024 (api_snapshot): 候选为2023年动画剧集，名称与 Bangumi 一致；第1季共10集，首两集于2023-05-05播出，第10集于2023-06-30播出，与 Bangumi 的首播日期、完结日期及本篇总集数一致。候选仅列出这一季。\n\n备注：需要补充 Bangumi 各集标题或放送日期，才能核实逐集对应关系；候选标题也仅为集号。；候选未提供剧情简介，Bangumi 未提供制作方，无法对这两项进行交叉核验。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/430131; https://www.themoviedb.org/tv/128024",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 128024
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

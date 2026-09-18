@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 章节划分、年份、首播日期、集数及前后章日期共同支持对应TMDB 158691第2季整季。逐集核对缺少有效标题和Bangumi单集日期，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/158691 (api_snapshot): 候选第2季共8集，每集放送日期均为2022-09-26，与本条目的第二章、首播日期及8话总量一致；第1季与第3季的日期分别为2022-05-26和2022-11-21，也与Bangumi前后章节关系吻合。\n\n备注：Bangumi各集标题与日期均为空，TMDB标题仅为通用集号，无法独立确认逐集顺序；需补充有效单集标题或其他逐集对应证据。；候选未提供剧情简介，Bangumi未提供制作方，无法交叉核验这两项信息。",
+    "evidence": "codex: 章节划分、年份、首播日期、集数及前后章日期共同支持对应TMDB 158691第2季整季。逐集核对缺少有效标题和Bangumi单集日期，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/158691 (api_snapshot): 候选第2季共8集，每集放送日期均为2022-09-26，与本条目的第二章、首播日期及8话总量一致；第1季与第3季的日期分别为2022-05-26和2022-11-21，也与Bangumi前后章节关系吻合。\n\n备注：Bangumi各集标题与日期均为空，TMDB标题仅为通用集号，无法独立确认逐集顺序；需补充有效单集标题或其他逐集对应证据。；候选未提供剧情简介，Bangumi未提供制作方，无法交叉核验这两项信息。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/416737; https://www.themoviedb.org/tv/158691",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 158691
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

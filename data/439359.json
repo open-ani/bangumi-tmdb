@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、制作公司、角色与具体剧情、上线日期、八集规模及前传季度日期相互吻合，确认对应 TMDB 63522 完整第五季。Bangumi 章节缺少标题和逐集日期，无法进行独立逐集比对，因此只确认整季范围，不生成按位置推定的 rules。\n\nhttps://bgm.tv/subject/439359 (page): Bangumi 标明本作是《F is for Family Season 5》，媒介为 WEB，共 8 集，2021-11-25 开播，动画制作为 Gaumont Animation；简介描述 Frank 参加家庭葬礼、Maureen 结识遗体防腐师及 Bill 对临终仪式的理解。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 63522 原名为《F is for Family》，中文别名为《福是全家福的福》，制作公司包含 Gaumont Animation，角色包含 Frank、Maureen 和 Bill Murphy；全剧共五季，第四季日期为 2020-06-12，与 Bangumi 前传信息一致。\n\nhttps://www.themoviedb.org/tv/63522/season/5 (api_snapshot): 第五季实际集表共 8 集，total_pages=1，集号为 1—8，全部于 2021-11-25 上线。首集《The Mahogany Fortress》的葬礼剧情与 Bangumi 简介一致；季末为《Bye Bye, Frankie》。该季范围完整对应本 subject。\n\n备注：Bangumi 八个章节的标题和播出日期均为空；逐集对应暂留空，待补充可核验的章节资料。",
+    "evidence": "codex: 原名、制作公司、角色与具体剧情、上线日期、八集规模及前传季度日期相互吻合，确认对应 TMDB 63522 完整第五季。Bangumi 章节缺少标题和逐集日期，无法进行独立逐集比对，因此只确认整季范围，不生成按位置推定的 rules。\n\nhttps://bgm.tv/subject/439359 (page): Bangumi 标明本作是《F is for Family Season 5》，媒介为 WEB，共 8 集，2021-11-25 开播，动画制作为 Gaumont Animation；简介描述 Frank 参加家庭葬礼、Maureen 结识遗体防腐师及 Bill 对临终仪式的理解。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 63522 原名为《F is for Family》，中文别名为《福是全家福的福》，制作公司包含 Gaumont Animation，角色包含 Frank、Maureen 和 Bill Murphy；全剧共五季，第四季日期为 2020-06-12，与 Bangumi 前传信息一致。\n\nhttps://www.themoviedb.org/tv/63522/season/5 (api_snapshot): 第五季实际集表共 8 集，total_pages=1，集号为 1—8，全部于 2021-11-25 上线。首集《The Mahogany Fortress》的葬礼剧情与 Bangumi 简介一致；季末为《Bye Bye, Frankie》。该季范围完整对应本 subject。\n\n备注：Bangumi 八个章节的标题和播出日期均为空；逐集对应暂留空，待补充可核验的章节资料。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439359; https://www.themoviedb.org/tv/63522; https://www.themoviedb.org/tv/63522/season/5",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 63522
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

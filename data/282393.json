@@ -56,12 +56,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 309230第1季整季。首播日期、主角及金時角色、YouTube日常短篇形式和10集本篇范围相互吻合，未发现混入后续《ホロのぐらふぃてぃ》或宣传片。作品与季范围可以确认，但输入的Bangumi章节均无标题和日期，无法完成逐集内容核对，因此保留整季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/309230 (api_snapshot): TMDB 309230 原名为《みこのつとめっ！》，首播于2018-12-07，完结于2019-02-08，共1季10集；角色包括さくらみこ和金時，与输入的作品背景吻合。\n\nhttps://www.themoviedb.org/tv/309230/season/1 (api_snapshot): 第1季完整季表共10集，total_pages=1，集号连续为1至10，日期覆盖2018-12-07至2019-02-08，每集2至4分钟；标题仅为「第1話」至「第10話」。\n\nhttps://cover-corp.com/news/detail/20181225-2 (page): COVER官方公告确认本作为YouTube日常短篇动画品牌「ホロアニメ」第一弹，主角为さくらみこ，并说明其角色设计者为田中雄一；主题曲与动画本体分别介绍。\n\nhttps://panora.tokyo/panora.tokyo/82377/HPC-index.html (page): 2018年同期报道确认动画于12月7日在さくらみこ频道首发，描写其日常及式神金時，采用一话完结形式；第一话标题为「おれさまのごしゅじん」。\n\nhttps://ja.wikid.org/ホロライブプロダクション (search_snippet): 资料摘要记载本作于2018-12-07至2019-02-08配信，本篇全10话，另有CM和PV；并将其与第二弹《ホロのぐらふぃてぃ》明确区分。\n\n备注：Bangumi十个章节缺少标题及播出日期，TMDB标题也仅为集号；不能仅凭位置建立逐集规则，需补充章节信息或原始发布记录。；TMDB未提供简介和制作人员表；作品身份由其日期、角色、集数及官方公告、同期报道交叉确认。",
+    "evidence": "codex: 确认对应TMDB 309230第1季整季。首播日期、主角及金時角色、YouTube日常短篇形式和10集本篇范围相互吻合，未发现混入后续《ホロのぐらふぃてぃ》或宣传片。作品与季范围可以确认，但输入的Bangumi章节均无标题和日期，无法完成逐集内容核对，因此保留整季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/309230 (api_snapshot): TMDB 309230 原名为《みこのつとめっ！》，首播于2018-12-07，完结于2019-02-08，共1季10集；角色包括さくらみこ和金時，与输入的作品背景吻合。\n\nhttps://www.themoviedb.org/tv/309230/season/1 (api_snapshot): 第1季完整季表共10集，total_pages=1，集号连续为1至10，日期覆盖2018-12-07至2019-02-08，每集2至4分钟；标题仅为「第1話」至「第10話」。\n\nhttps://cover-corp.com/news/detail/20181225-2 (page): COVER官方公告确认本作为YouTube日常短篇动画品牌「ホロアニメ」第一弹，主角为さくらみこ，并说明其角色设计者为田中雄一；主题曲与动画本体分别介绍。\n\nhttps://panora.tokyo/panora.tokyo/82377/HPC-index.html (page): 2018年同期报道确认动画于12月7日在さくらみこ频道首发，描写其日常及式神金時，采用一话完结形式；第一话标题为「おれさまのごしゅじん」。\n\nhttps://ja.wikid.org/ホロライブプロダクション (search_snippet): 资料摘要记载本作于2018-12-07至2019-02-08配信，本篇全10话，另有CM和PV；并将其与第二弹《ホロのぐらふぃてぃ》明确区分。\n\n备注：Bangumi十个章节缺少标题及播出日期，TMDB标题也仅为集号；不能仅凭位置建立逐集规则，需补充章节信息或原始发布记录。；TMDB未提供简介和制作人员表；作品身份由其日期、角色、集数及官方公告、同期报道交叉确认。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/282393; https://www.themoviedb.org/tv/309230; https://www.themoviedb.org/tv/309230/season/1; https://cover-corp.com/news/detail/20181225-2; https://panora.tokyo/panora.tokyo/82377/HPC-index.html; https://ja.wikid.org/ホロライブプロダクション",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 309230
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

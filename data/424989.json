@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、动画类型、第8季首播日期、集数及前后季时间关系一致，可确认对应 TMDB 223916 第8季整季。逐集缺少可交叉核实的标题和日期，故不按位置建立 sort 86—97 的对应规则。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选为中国动画《肥志百科》，制作公司为深圳萌想文化传播有限公司，与 Bangumi 所列萌想文化一致；第8季首播日期为2023-04-15，共12集，均与 subject 一致。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 第7季和第9季首播日期分别为2022-10-22、2024-01-20，与 Bangumi 前后续条目一致。第8季完整集表包含第1至12集，但标题均为通用集号，无法与植物主题标题逐集核对。\n\n备注：Bangumi 各集放送日期为空，TMDB 各集只有通用标题；需补充实际分集标题或 Bangumi 逐集日期后，才能确认逐集对应关系。；候选未提供剧情简介，无法直接核对第8季植物篇内容。",
+    "evidence": "codex: 制作方、动画类型、第8季首播日期、集数及前后季时间关系一致，可确认对应 TMDB 223916 第8季整季。逐集缺少可交叉核实的标题和日期，故不按位置建立 sort 86—97 的对应规则。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选为中国动画《肥志百科》，制作公司为深圳萌想文化传播有限公司，与 Bangumi 所列萌想文化一致；第8季首播日期为2023-04-15，共12集，均与 subject 一致。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 第7季和第9季首播日期分别为2022-10-22、2024-01-20，与 Bangumi 前后续条目一致。第8季完整集表包含第1至12集，但标题均为通用集号，无法与植物主题标题逐集核对。\n\n备注：Bangumi 各集放送日期为空，TMDB 各集只有通用标题；需补充实际分集标题或 Bangumi 逐集日期后，才能确认逐集对应关系。；候选未提供剧情简介，无法直接核对第8季植物篇内容。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/424989; https://www.themoviedb.org/tv/223916",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 97,
+      "episodeStart": 1,
+      "season": 8,
+      "start": 86,
+      "tmdbId": 223916
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

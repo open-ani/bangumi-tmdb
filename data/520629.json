@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 第二季标识、首播日期、52集总量及前作首播日期相互吻合，可确认 subject 对应 TMDB 220205 第2季整季。Bangumi 各集标题和日期全部缺失，无法核实逐集顺序，因此不生成连续规则或逐集特例。\n\nhttps://www.themoviedb.org/tv/220205 (api_snapshot): 《维将》系列首播日期为2023-01-06，与 Bangumi 关联前作《维将》的日期一致；第2季首播日期为2024-10-18，共52集，与待核对 subject 的第二季别名、开播日期及集数一致。\n\nhttps://www.themoviedb.org/tv/220205 (api_snapshot): 第2季季表完整列出第1至52集，放送日期覆盖2024-10-18至2025-10-03，均为星期五；标题均为通用集号，无法提供剧情标题层面的逐集佐证。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期后核实，不能仅按集号位置填充。；候选未提供剧情简介，Bangumi 未提供制作方，无法对这两项进行交叉核验。",
+    "evidence": "codex: 第二季标识、首播日期、52集总量及前作首播日期相互吻合，可确认 subject 对应 TMDB 220205 第2季整季。Bangumi 各集标题和日期全部缺失，无法核实逐集顺序，因此不生成连续规则或逐集特例。\n\nhttps://www.themoviedb.org/tv/220205 (api_snapshot): 《维将》系列首播日期为2023-01-06，与 Bangumi 关联前作《维将》的日期一致；第2季首播日期为2024-10-18，共52集，与待核对 subject 的第二季别名、开播日期及集数一致。\n\nhttps://www.themoviedb.org/tv/220205 (api_snapshot): 第2季季表完整列出第1至52集，放送日期覆盖2024-10-18至2025-10-03，均为星期五；标题均为通用集号，无法提供剧情标题层面的逐集佐证。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期后核实，不能仅按集号位置填充。；候选未提供剧情简介，Bangumi 未提供制作方，无法对这两项进行交叉核验。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/520629; https://www.themoviedb.org/tv/220205",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 220205
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

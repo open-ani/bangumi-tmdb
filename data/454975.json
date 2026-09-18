@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作方及10集规模共同支持对应TMDB 281585第1季，季表未显示混入其他作品。可确认整季范围；Bangumi各集标题和日期均为空，无法逐集交叉核实，因此不生成连续映射规则。\n\nhttps://www.themoviedb.org/tv/281585 (api_snapshot): 候选《大侠请上功》为中国动画，首播日期为2025-05-13，制作公司包含bilibili，与Bangumi的名称、首播日期及制作方吻合。唯一第1季共10集，与Bangumi本篇总数一致；季表完整列出第1至10集，放送日期为2025-05-13至2025-07-08。\n\n备注：候选未提供剧情简介，无法核对剧情。；Bangumi缺少逐集标题及放送日期，TMDB标题也仅为集号；逐集对应关系留空，待补充章节资料后核实。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作方及10集规模共同支持对应TMDB 281585第1季，季表未显示混入其他作品。可确认整季范围；Bangumi各集标题和日期均为空，无法逐集交叉核实，因此不生成连续映射规则。\n\nhttps://www.themoviedb.org/tv/281585 (api_snapshot): 候选《大侠请上功》为中国动画，首播日期为2025-05-13，制作公司包含bilibili，与Bangumi的名称、首播日期及制作方吻合。唯一第1季共10集，与Bangumi本篇总数一致；季表完整列出第1至10集，放送日期为2025-05-13至2025-07-08。\n\n备注：候选未提供剧情简介，无法核对剧情。；Bangumi缺少逐集标题及放送日期，TMDB标题也仅为集号；逐集对应关系留空，待补充章节资料后核实。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/454975; https://www.themoviedb.org/tv/281585",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 281585
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

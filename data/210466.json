@@ -76,12 +76,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应TMDB 209168第1季整季：首播日期、两位导演、声优及14集规模相符，外部资料确认其为2010至2012年在《蜡笔小新》节目内播出的英雄题材衍生动画。实际季表仅有这一季14集，支持作品及整季范围匹配。逐集标题与日期不足且存在日期冲突，因此不生成按位置推定的rules或overrides。\n\nhttps://bgm.tv/subject/210466 (page): Bangumi 标为 TV 动画，全14话，播出区间为2010-11-26至2012-09-14；导演为ムトウユージ、湯浅政明，原作为臼井儀人。章节仅列编号，缺少标题和日期。\n\nhttps://www.themoviedb.org/tv/209168 (api_snapshot): 实际搜索并读取详情：209168为《クレヨンしんちゃん SHIN-MEN》，首播2010-11-26，导演为ムトウユージ、湯浅政明；声优包括矢島晶子、水島大宙、斎賀みつき。共1季14集，简介为空，末播日记为2011-02-25。\n\nhttps://www.themoviedb.org/tv/209168/season/1 (api_snapshot): 实际读取第1季，total_pages=1，完整列出第1至14集，标题均为泛化编号且简介为空；日期从2010-11-26起按周排列，至2011-02-25结束。\n\nhttps://mantan-web.jp/article/20101028dog00m200049000c.html (search_snippet): 2010年报道说明本作是《蜡笔小新》的衍生动画：五位拥有元素能力的英雄在平行世界对抗TON-MEN；2010-11-26首次播出，之后计划在主节目内约每月播出一次。\n\nhttps://www.neowing.co.jp/product/BCBA-4539 (page): DVD商品页说明收录2010至2012年电视播出的SHIN-MEN全14话，故事为五位英雄保卫世界；收录表存在“SHIN-MEN1・2”合列及前后篇合列，不能直接把商品编号当作逐集编号。\n\nhttps://www.tv-asahi.co.jp/shinchan/contents/story/index2012.html (page): 朝日电视台官方节目表记载2012-05-04播出SHIN-MEN「ヘーックショイ大作戦！」，2012-09-14播出「制服で征服？大作戦！」，证明TMDB记录的2011年完结日期与实际播出不符。\n\n备注：Bangumi章节没有标题和日期，TMDB集名也只有编号，无法验证逐集顺序及拆分方式；14个章节均暂不建立逐集映射。；TMDB按周排列的播出日期及末播日与官方记录不符，不能作为逐集对应依据。；后续需补充两端可识别的分集标题或内容，尤其核实首回及前后篇的拆分，再建立逐集规则。",
+    "evidence": "codex: 可确认对应TMDB 209168第1季整季：首播日期、两位导演、声优及14集规模相符，外部资料确认其为2010至2012年在《蜡笔小新》节目内播出的英雄题材衍生动画。实际季表仅有这一季14集，支持作品及整季范围匹配。逐集标题与日期不足且存在日期冲突，因此不生成按位置推定的rules或overrides。\n\nhttps://bgm.tv/subject/210466 (page): Bangumi 标为 TV 动画，全14话，播出区间为2010-11-26至2012-09-14；导演为ムトウユージ、湯浅政明，原作为臼井儀人。章节仅列编号，缺少标题和日期。\n\nhttps://www.themoviedb.org/tv/209168 (api_snapshot): 实际搜索并读取详情：209168为《クレヨンしんちゃん SHIN-MEN》，首播2010-11-26，导演为ムトウユージ、湯浅政明；声优包括矢島晶子、水島大宙、斎賀みつき。共1季14集，简介为空，末播日记为2011-02-25。\n\nhttps://www.themoviedb.org/tv/209168/season/1 (api_snapshot): 实际读取第1季，total_pages=1，完整列出第1至14集，标题均为泛化编号且简介为空；日期从2010-11-26起按周排列，至2011-02-25结束。\n\nhttps://mantan-web.jp/article/20101028dog00m200049000c.html (search_snippet): 2010年报道说明本作是《蜡笔小新》的衍生动画：五位拥有元素能力的英雄在平行世界对抗TON-MEN；2010-11-26首次播出，之后计划在主节目内约每月播出一次。\n\nhttps://www.neowing.co.jp/product/BCBA-4539 (page): DVD商品页说明收录2010至2012年电视播出的SHIN-MEN全14话，故事为五位英雄保卫世界；收录表存在“SHIN-MEN1・2”合列及前后篇合列，不能直接把商品编号当作逐集编号。\n\nhttps://www.tv-asahi.co.jp/shinchan/contents/story/index2012.html (page): 朝日电视台官方节目表记载2012-05-04播出SHIN-MEN「ヘーックショイ大作戦！」，2012-09-14播出「制服で征服？大作戦！」，证明TMDB记录的2011年完结日期与实际播出不符。\n\n备注：Bangumi章节没有标题和日期，TMDB集名也只有编号，无法验证逐集顺序及拆分方式；14个章节均暂不建立逐集映射。；TMDB按周排列的播出日期及末播日与官方记录不符，不能作为逐集对应依据。；后续需补充两端可识别的分集标题或内容，尤其核实首回及前后篇的拆分，再建立逐集规则。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/210466; https://www.themoviedb.org/tv/209168; https://www.themoviedb.org/tv/209168/season/1; https://mantan-web.jp/article/20101028dog00m200049000c.html; https://www.neowing.co.jp/product/BCBA-4539; https://www.tv-asahi.co.jp/shinchan/contents/story/index2012.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 209168
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

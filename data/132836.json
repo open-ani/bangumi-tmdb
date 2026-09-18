@@ -46,12 +46,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、导演、主要声优、剧情及8集规模共同确认，本条目对应TMDB 210957第1季整季的2015年网络动画。季表没有混入其他作品的迹象。Bangumi章节缺少标题和日期，TMDB又存在配信日期冲突，因此仅确认整季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/210957 (api_snapshot): 日文原名搜索命中 TMDB 210957；详情显示首播日期为2015-10-16、导演为関暁子、演员包括木村珠莉和浪川大輔，共1季8集。\n\nhttps://www.themoviedb.org/tv/210957/season/1 (api_snapshot): 第1季集表仅有第1至8集，total_pages=1。标题均为通用编号；日期从2015-10-16按周排列至2015-12-04，与实际网络配信安排不符。\n\nhttps://natalie.mu/comic/news/163112 (search_snippet): 2015-10-16报道确认本作是二ノ宮ポン太与夏樹亜子美的日常喜剧网络动画，原作为土塚理弘、亜積沙紀，导演関暁子，动画制作作楽クリエイト；主要声优与TMDB一致，后续计划每月第1、第3个周五配信。\n\nhttps://nijimen.kusuguru.co.jp/topics/534 (search_snippet): 2015-10-18报道确认第1、2话已同时公开，并再次说明每月第1、第3个周五更新，支持TMDB第2话起的每周日期不可靠。\n\nhttps://en.wikipedia.org/wiki/Kare_Baka (search_snippet): 资料将本作列为2015-10-16至2016-01-22配信、全8集的网络动画，剧情、导演及制作公司均与输入吻合。\n\nhttps://bangumi.tv/subject/284158 (page): 占用同季的Bangumi 284158也标为WEB动画、8话、2015-10-16开始、2016-01-22结束，英文别名相同，且指向同一个官方动画网址；这些资料支持其为同作重复条目。\n\n备注：尚不能依据逐集标题或日期核实8个Bangumi章节与TMDB集号的一一对应；不能仅按位置生成rules。；Bangumi 284158疑为同作重复条目，其已有映射造成的占用冲突仍需在条目去重或映射维护时处理。；原官方网站未能读取，实际配信信息依据当时报道及其他资料交叉确认。",
+    "evidence": "codex: 原名、首播日期、导演、主要声优、剧情及8集规模共同确认，本条目对应TMDB 210957第1季整季的2015年网络动画。季表没有混入其他作品的迹象。Bangumi章节缺少标题和日期，TMDB又存在配信日期冲突，因此仅确认整季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/210957 (api_snapshot): 日文原名搜索命中 TMDB 210957；详情显示首播日期为2015-10-16、导演为関暁子、演员包括木村珠莉和浪川大輔，共1季8集。\n\nhttps://www.themoviedb.org/tv/210957/season/1 (api_snapshot): 第1季集表仅有第1至8集，total_pages=1。标题均为通用编号；日期从2015-10-16按周排列至2015-12-04，与实际网络配信安排不符。\n\nhttps://natalie.mu/comic/news/163112 (search_snippet): 2015-10-16报道确认本作是二ノ宮ポン太与夏樹亜子美的日常喜剧网络动画，原作为土塚理弘、亜積沙紀，导演関暁子，动画制作作楽クリエイト；主要声优与TMDB一致，后续计划每月第1、第3个周五配信。\n\nhttps://nijimen.kusuguru.co.jp/topics/534 (search_snippet): 2015-10-18报道确认第1、2话已同时公开，并再次说明每月第1、第3个周五更新，支持TMDB第2话起的每周日期不可靠。\n\nhttps://en.wikipedia.org/wiki/Kare_Baka (search_snippet): 资料将本作列为2015-10-16至2016-01-22配信、全8集的网络动画，剧情、导演及制作公司均与输入吻合。\n\nhttps://bangumi.tv/subject/284158 (page): 占用同季的Bangumi 284158也标为WEB动画、8话、2015-10-16开始、2016-01-22结束，英文别名相同，且指向同一个官方动画网址；这些资料支持其为同作重复条目。\n\n备注：尚不能依据逐集标题或日期核实8个Bangumi章节与TMDB集号的一一对应；不能仅按位置生成rules。；Bangumi 284158疑为同作重复条目，其已有映射造成的占用冲突仍需在条目去重或映射维护时处理。；原官方网站未能读取，实际配信信息依据当时报道及其他资料交叉确认。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/132836; https://www.themoviedb.org/tv/210957; https://www.themoviedb.org/tv/210957/season/1; https://natalie.mu/comic/news/163112; https://nijimen.kusuguru.co.jp/topics/534; https://en.wikipedia.org/wiki/Kare_Baka; https://bangumi.tv/subject/284158",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 210957
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

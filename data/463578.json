@@ -26,12 +26,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 252169 第1季整季。年份、特定剧情、网络动画媒介、制作公司及4话规模一致，实际季表覆盖该独立衍生作品，未见混入年番或其他作品。逐集标题和日期不足以交叉验证，因此仅确认作品及季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/463578 (page): Bangumi 标注为2023年11月3日开始的4话网络动画，动画制作百漫，联合出品腾讯视频、百漫文化，总导演麦正乐、徐羽。\n\nhttps://www.themoviedb.org/tv/252169 (api_snapshot): TMDB 252169 为2023年《西行纪 前缘篇》，简介包含悟净重返阴界、白狼收服一虎并进入失落古城，与待核对作品的特定剧情一致；共1季4集。制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/252169/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，仅含第1至4集。第1集名为“悟净古小月篇”，简介明确说明这是百漫制作、腾讯视频发布的4话网络动画《西行纪前缘篇》。四集日期依次为2023-11-08、11-15、11-22、11-29，其余三集只有通用编号标题。\n\nhttps://bgm.tv/subject/463578/ep (page): Bangumi 章节表仅列本篇第1至4话，均无标题与播出日期，无法与 TMDB 逐集交叉核验。\n\nhttps://www.anibk.com/bk/4202 (search_snippet): 番组百科也将该作列为2023-11-03首播、百漫制作、腾讯视频参与出品的网络动画，列出4话，剧情与输入一致，并与《西行纪年番》分列。\n\n备注：Bangumi 首播日期为2023-11-03，TMDB 为2023-11-08且按周排列四集；尚无官方排期解释差异，不能沿用旧映射中“平台日期差异”的断言。；Bangumi 四话均缺标题和日期，TMDB 第2至4集亦缺有效标题及剧情；需官方分集资料或正片核验后才能建立逐集对应。",
+    "evidence": "codex: 确认对应 TMDB 252169 第1季整季。年份、特定剧情、网络动画媒介、制作公司及4话规模一致，实际季表覆盖该独立衍生作品，未见混入年番或其他作品。逐集标题和日期不足以交叉验证，因此仅确认作品及季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/463578 (page): Bangumi 标注为2023年11月3日开始的4话网络动画，动画制作百漫，联合出品腾讯视频、百漫文化，总导演麦正乐、徐羽。\n\nhttps://www.themoviedb.org/tv/252169 (api_snapshot): TMDB 252169 为2023年《西行纪 前缘篇》，简介包含悟净重返阴界、白狼收服一虎并进入失落古城，与待核对作品的特定剧情一致；共1季4集。制作人员字段为空。\n\nhttps://www.themoviedb.org/tv/252169/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，仅含第1至4集。第1集名为“悟净古小月篇”，简介明确说明这是百漫制作、腾讯视频发布的4话网络动画《西行纪前缘篇》。四集日期依次为2023-11-08、11-15、11-22、11-29，其余三集只有通用编号标题。\n\nhttps://bgm.tv/subject/463578/ep (page): Bangumi 章节表仅列本篇第1至4话，均无标题与播出日期，无法与 TMDB 逐集交叉核验。\n\nhttps://www.anibk.com/bk/4202 (search_snippet): 番组百科也将该作列为2023-11-03首播、百漫制作、腾讯视频参与出品的网络动画，列出4话，剧情与输入一致，并与《西行纪年番》分列。\n\n备注：Bangumi 首播日期为2023-11-03，TMDB 为2023-11-08且按周排列四集；尚无官方排期解释差异，不能沿用旧映射中“平台日期差异”的断言。；Bangumi 四话均缺标题和日期，TMDB 第2至4集亦缺有效标题及剧情；需官方分集资料或正片核验后才能建立逐集对应。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/463578; https://www.themoviedb.org/tv/252169; https://www.themoviedb.org/tv/252169/season/1; https://bgm.tv/subject/463578/ep; https://www.anibk.com/bk/4202",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 252169
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

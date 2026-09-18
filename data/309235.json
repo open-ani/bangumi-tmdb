@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应TMDB 105996第2季整季：年份、开播日、剧情、制作公司、短篇TV媒介及26集规模吻合，完整标题表也确认该季覆盖第二系列。Bangumi章节缺少标题及逐集日期，无法直接核实各章节ID的对应，故仅确认作品与季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/309235 (page): Bangumi 将本作列为2009年第二系列TV动画，共26话；导演高木淳、系列构成島田満、演出八木竜一，剧情为三岁蓝色考拉女孩的日常生活。\n\nhttps://www.nippon-animation.co.jp/work/1906/ (search_snippet): 日本动画官方作品资料确认第二系列为每话5分钟、全26话，放送期间2009-06-29至2009-10-23；剧情及主要制作人员与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 通过日文原名搜索并读取详情，确认TMDB 105996为同一日本动画系列，制作公司包括日本动画、白组及NHK Enterprises；第2季标注2009-06-29开播、26集。\n\nhttps://www.themoviedb.org/tv/105996/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，每集5分钟。首集日期2009-06-29，末集日期2010-01-02；26集标题与第二系列外部集表逐项一致。\n\nhttps://cal.syoboi.jp/tid/1695/subtitle (search_snippet): 第二系列完整集表列出连续第1至26话，标题和顺序均与TMDB第2季一致；放送期间记为2009年6月至2010年1月，末话为滑冰故事，支持其属于第二系列。\n\nhttps://audrey.anime.coocan.jp/blog/index.cgi?month=12&year=2009 (search_snippet): 2009年12月的同期节目记录列出次年1月2日BS2播出滑冰新作，与TMDB末集2010-01-02日期相符。\n\n备注：Bangumi的26个章节均无标题和日期，逐集映射需补充章节资料后确认，不能仅按sort位置填充。；官方及Bangumi标注结束日为2009-10-23，但TMDB末集为2010-01-02；外部第二系列集表及同期节目记录支持该末集归属和日期，因此不据结束日差异排除该集。",
+    "evidence": "codex: 可确认对应TMDB 105996第2季整季：年份、开播日、剧情、制作公司、短篇TV媒介及26集规模吻合，完整标题表也确认该季覆盖第二系列。Bangumi章节缺少标题及逐集日期，无法直接核实各章节ID的对应，故仅确认作品与季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/309235 (page): Bangumi 将本作列为2009年第二系列TV动画，共26话；导演高木淳、系列构成島田満、演出八木竜一，剧情为三岁蓝色考拉女孩的日常生活。\n\nhttps://www.nippon-animation.co.jp/work/1906/ (search_snippet): 日本动画官方作品资料确认第二系列为每话5分钟、全26话，放送期间2009-06-29至2009-10-23；剧情及主要制作人员与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 通过日文原名搜索并读取详情，确认TMDB 105996为同一日本动画系列，制作公司包括日本动画、白组及NHK Enterprises；第2季标注2009-06-29开播、26集。\n\nhttps://www.themoviedb.org/tv/105996/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共26集，每集5分钟。首集日期2009-06-29，末集日期2010-01-02；26集标题与第二系列外部集表逐项一致。\n\nhttps://cal.syoboi.jp/tid/1695/subtitle (search_snippet): 第二系列完整集表列出连续第1至26话，标题和顺序均与TMDB第2季一致；放送期间记为2009年6月至2010年1月，末话为滑冰故事，支持其属于第二系列。\n\nhttps://audrey.anime.coocan.jp/blog/index.cgi?month=12&year=2009 (search_snippet): 2009年12月的同期节目记录列出次年1月2日BS2播出滑冰新作，与TMDB末集2010-01-02日期相符。\n\n备注：Bangumi的26个章节均无标题和日期，逐集映射需补充章节资料后确认，不能仅按sort位置填充。；官方及Bangumi标注结束日为2009-10-23，但TMDB末集为2010-01-02；外部第二系列集表及同期节目记录支持该末集归属和日期，因此不据结束日差异排除该集。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/309235; https://www.nippon-animation.co.jp/work/1906/; https://www.themoviedb.org/tv/105996; https://www.themoviedb.org/tv/105996/season/2; https://cal.syoboi.jp/tid/1695/subtitle; https://audrey.anime.coocan.jp/blog/index.cgi?month=12&year=2009",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 105996
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

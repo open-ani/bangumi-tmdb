@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画媒介、首播日期、第一季10集规模及续作日期共同支持对应 TMDB 94252 第1季，季表范围完整且未见混入其他作品。Bangumi 各章标题和日期均为空，无法独立核实逐集顺序，因此只确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/94252 (api_snapshot): TMDB 94252 原名为 Human Resources，类型为动画、喜剧；第1季共10集，全部于2022-03-18上线，与 Bangumi 的季名、首播日期和本篇集数一致。第2季首播日期2023-06-09也与 Bangumi 续作关系中的日期一致。\n\n备注：逐集对应需补充 Bangumi 章节标题或放送日期；候选标题仅为通用集号，不能据位置直接映射。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项信息。",
+    "evidence": "codex: 名称、动画媒介、首播日期、第一季10集规模及续作日期共同支持对应 TMDB 94252 第1季，季表范围完整且未见混入其他作品。Bangumi 各章标题和日期均为空，无法独立核实逐集顺序，因此只确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/94252 (api_snapshot): TMDB 94252 原名为 Human Resources，类型为动画、喜剧；第1季共10集，全部于2022-03-18上线，与 Bangumi 的季名、首播日期和本篇集数一致。第2季首播日期2023-06-09也与 Bangumi 续作关系中的日期一致。\n\n备注：逐集对应需补充 Bangumi 章节标题或放送日期；候选标题仅为通用集号，不能据位置直接映射。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项信息。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/441146; https://www.themoviedb.org/tv/94252",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 94252
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

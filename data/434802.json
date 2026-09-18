@@ -76,12 +76,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 260569 第 1 季：动画媒介、2024 年播出区间、导演、剧情及完整 14 集范围均吻合，官方正片列表也支持整季覆盖。Bangumi 输入的逐集标题和日期全部为空，无法独立完成逐集比对，因此仅确认整季归属，保留 rules 和 overrides 为空。\n\nhttps://www.themoviedb.org/tv/260569 (api_snapshot): TMDB 260569 的首播日期为 2024-08-07，完播日期为 2024-10-23，共 14 集；导演为邹龑，制作公司包含爱奇艺，剧情为机关神女下凡寻找神之手，与输入的年份、制作人员及剧情一致。\n\nhttps://www.themoviedb.org/tv/260569/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1，共 14 集，集号连续为 1–14；前 3 集日期均为 2024-08-07，此后每周一集至 2024-10-23。该季范围完整覆盖本动画。\n\nhttps://www.iq.com/album/%E5%BF%B5%E6%97%A0%E5%8F%8C-%E5%8A%A8%E6%BC%AB-2024-1je8zluwx3t?lang=zh_cn (page): 爱奇艺官方将作品明确标为《念无双（动漫）》、2024 年、14 集全，并列出第 1–14 集正片；简介为无双神女寻找神之手、接近有狐大祭司，与本 subject 的媒介和主线相符。\n\n备注：逐集对应尚未确认；Bangumi 章节页访问失败，需补充各章节标题或播出日期后，再与已读取的 TMDB 集表核对，不能仅按排序生成连续规则。",
+    "evidence": "codex: 确认对应 TMDB 260569 第 1 季：动画媒介、2024 年播出区间、导演、剧情及完整 14 集范围均吻合，官方正片列表也支持整季覆盖。Bangumi 输入的逐集标题和日期全部为空，无法独立完成逐集比对，因此仅确认整季归属，保留 rules 和 overrides 为空。\n\nhttps://www.themoviedb.org/tv/260569 (api_snapshot): TMDB 260569 的首播日期为 2024-08-07，完播日期为 2024-10-23，共 14 集；导演为邹龑，制作公司包含爱奇艺，剧情为机关神女下凡寻找神之手，与输入的年份、制作人员及剧情一致。\n\nhttps://www.themoviedb.org/tv/260569/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1，共 14 集，集号连续为 1–14；前 3 集日期均为 2024-08-07，此后每周一集至 2024-10-23。该季范围完整覆盖本动画。\n\nhttps://www.iq.com/album/%E5%BF%B5%E6%97%A0%E5%8F%8C-%E5%8A%A8%E6%BC%AB-2024-1je8zluwx3t?lang=zh_cn (page): 爱奇艺官方将作品明确标为《念无双（动漫）》、2024 年、14 集全，并列出第 1–14 集正片；简介为无双神女寻找神之手、接近有狐大祭司，与本 subject 的媒介和主线相符。\n\n备注：逐集对应尚未确认；Bangumi 章节页访问失败，需补充各章节标题或播出日期后，再与已读取的 TMDB 集表核对，不能仅按排序生成连续规则。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/434802; https://www.themoviedb.org/tv/260569; https://www.themoviedb.org/tv/260569/season/1; https://www.iq.com/album/%E5%BF%B5%E6%97%A0%E5%8F%8C-%E5%8A%A8%E6%BC%AB-2024-1je8zluwx3t?lang=zh_cn",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 260569
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

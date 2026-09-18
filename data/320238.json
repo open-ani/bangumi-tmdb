@@ -126,12 +126,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、剧情、原作、制作人员、制作公司及24话网络动画版本相互吻合，确认对应TMDB 199361第1季整季。逐集证据不足，因此仅确认作品及季范围，不按集号位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/199361 (api_snapshot): 中文原名搜索命中 TV 199361；详情确认原名《你真是个天才》、首播日期2022-04-23、制作公司米粒影业，以及白骁为解除清月诅咒而远赴南方大陆的剧情；共1季24集。\n\nhttps://www.themoviedb.org/tv/199361/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，包含第1至24集，日期范围2022-04-23至2022-07-09。标题均为通用集号；分集简介却描述寻亲、灵儿等情节，与作品总简介存在明显冲突，不能据此确认逐集内容。\n\nhttps://www.bilibili.com/bangumi/media/md28230731/ (page): 官方作品页确认2022年4月23日开播、已完结、全24话。\n\nhttps://www.bilibili.com/bangumi/media/md28230731/ (search_snippet): 官方作品页搜索摘要列出原著国王陛下、导演周少波、编剧刘小琳、动画导演华贤，均与输入对应；前五话有具体标题，包括《清月的诅咒》《初入红山城》《重逢》，而TMDB仅有通用集号。\n\nhttps://www.bilibili.com/bangumi/play/ep584131 (page): 官方播放页确认全24话，且白骁、清月、雪山部落及寻回爱人的剧情与Bangumi、TMDB作品详情一致。\n\nhttps://bgm.tv/subject/320238 (search_snippet): Bangumi搜索摘要标注为WEB动画，共24话，2022年4月23日开播，周三、周六更新，导演周少波、原作国王陛下、动画制作米粒影业。\n\n备注：输入的24个Bangumi章节均无标题及播出日期，在线章节页也未能读取，无法逐集比对。；TMDB分集简介与官方剧情明显冲突，且分集标题均为通用集号；需补充可信逐集资料后再建立rules或overrides。",
+    "evidence": "codex: 年份、首播日期、剧情、原作、制作人员、制作公司及24话网络动画版本相互吻合，确认对应TMDB 199361第1季整季。逐集证据不足，因此仅确认作品及季范围，不按集号位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/199361 (api_snapshot): 中文原名搜索命中 TV 199361；详情确认原名《你真是个天才》、首播日期2022-04-23、制作公司米粒影业，以及白骁为解除清月诅咒而远赴南方大陆的剧情；共1季24集。\n\nhttps://www.themoviedb.org/tv/199361/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，包含第1至24集，日期范围2022-04-23至2022-07-09。标题均为通用集号；分集简介却描述寻亲、灵儿等情节，与作品总简介存在明显冲突，不能据此确认逐集内容。\n\nhttps://www.bilibili.com/bangumi/media/md28230731/ (page): 官方作品页确认2022年4月23日开播、已完结、全24话。\n\nhttps://www.bilibili.com/bangumi/media/md28230731/ (search_snippet): 官方作品页搜索摘要列出原著国王陛下、导演周少波、编剧刘小琳、动画导演华贤，均与输入对应；前五话有具体标题，包括《清月的诅咒》《初入红山城》《重逢》，而TMDB仅有通用集号。\n\nhttps://www.bilibili.com/bangumi/play/ep584131 (page): 官方播放页确认全24话，且白骁、清月、雪山部落及寻回爱人的剧情与Bangumi、TMDB作品详情一致。\n\nhttps://bgm.tv/subject/320238 (search_snippet): Bangumi搜索摘要标注为WEB动画，共24话，2022年4月23日开播，周三、周六更新，导演周少波、原作国王陛下、动画制作米粒影业。\n\n备注：输入的24个Bangumi章节均无标题及播出日期，在线章节页也未能读取，无法逐集比对。；TMDB分集简介与官方剧情明显冲突，且分集标题均为通用集号；需补充可信逐集资料后再建立rules或overrides。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/320238; https://www.themoviedb.org/tv/199361; https://www.themoviedb.org/tv/199361/season/1; https://www.bilibili.com/bangumi/media/md28230731/; https://www.bilibili.com/bangumi/play/ep584131",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 199361
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及整季覆盖范围可确认，对应 TMDB 114502 第 1 季全部 9 集。候选缺少可比对的具体集标题，Bangumi 缺少逐集日期，因此不凭集号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/114502 (api_snapshot): 候选 TV 114502 的原名为 Cars on the Road，首播日期为 2022-09-08，剧情围绕闪电麦昆与板牙的公路旅行展开，与 Bangumi 的名称、上线日期及剧情一致。候选为 Pixar 制作的动画剧集，仅有第 1 季，共 9 集，与 Bangumi 的网络动画媒介及本篇集数吻合。\n\nhttps://www.themoviedb.org/tv/114502 (api_snapshot): 候选第 1 季包含第 1 至 9 集，放送日期均为 2022-09-08，但标题仅为“第1話”等通用编号；Bangumi 提供具体英文标题，逐集放送日期为空，无法独立核实逐集顺序。\n\n备注：逐集对应尚未确认；需补充 TMDB 第 1 季的具体集标题或逐集剧情，再与 Bangumi 的 9 个英文标题核对。",
+    "evidence": "codex: 作品身份及整季覆盖范围可确认，对应 TMDB 114502 第 1 季全部 9 集。候选缺少可比对的具体集标题，Bangumi 缺少逐集日期，因此不凭集号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/114502 (api_snapshot): 候选 TV 114502 的原名为 Cars on the Road，首播日期为 2022-09-08，剧情围绕闪电麦昆与板牙的公路旅行展开，与 Bangumi 的名称、上线日期及剧情一致。候选为 Pixar 制作的动画剧集，仅有第 1 季，共 9 集，与 Bangumi 的网络动画媒介及本篇集数吻合。\n\nhttps://www.themoviedb.org/tv/114502 (api_snapshot): 候选第 1 季包含第 1 至 9 集，放送日期均为 2022-09-08，但标题仅为“第1話”等通用编号；Bangumi 提供具体英文标题，逐集放送日期为空，无法独立核实逐集顺序。\n\n备注：逐集对应尚未确认；需补充 TMDB 第 1 季的具体集标题或逐集剧情，再与 Bangumi 的 9 个英文标题核对。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/394365; https://www.themoviedb.org/tv/114502",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 114502
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

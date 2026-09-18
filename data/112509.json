@@ -51,12 +51,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 87401 第1季：名称与别名、首播年份及日期、剧情、网络短篇形式和九个发布单元相互吻合，整季覆盖该作品。创作者资料明确了制作人员及最终话拆为三部分的结构。逐集层面，Bangumi章节标题和日期为空，TMDB仅有通用集号且日期明显冲突，不能仅凭位置建立对应，因此保留整季匹配，rules和overrides留空。\n\nhttps://www.themoviedb.org/tv/87401 (api_snapshot): 日文原名及罗马字别名搜索均命中 TV 87401。详情确认原题为「100秒シネマ ロボと少女(仮)」、英文名 Bomahead、首播日期 2010-06-16；废墟中少女与机器人的剧情与创作者介绍一致，共1季9集。\n\nhttps://www.themoviedb.org/tv/87401/season/1 (api_snapshot): 第1季实际集表共9集，编号1至9，total_pages=1；标题均为通用集号，日期列为2010-06-16至2010-08-11，每集时长均为2分钟。日期与创作者记载存在冲突。\n\nhttps://awrd.com/creatives/detail/698073 (page): 制作人田中翔子的作品页确认日文名与英文名 BOMAHEAD、少女与废弃家电机器人的剧情、导演アオキタクト，以及2010年6月开始网络配信、2011年6月完结。页面列出 Episode01 至 Episode09；“全7话”另注明最终话分前中后三部分，与九个发布单元相容。\n\nhttps://frenz.jp/2011/participant (search_snippet): FRENZ 2011 官方出展者介绍中，アオキタクト说明该作在2010年仅上映前三话，此后继续制作，2011年才完结，共九话，进一步否定TMDB所列2010年8月完结日期。\n\n备注：TMDB所列2010-08-11完结与创作者所述2011年6月完结不符，不能沿用旧映射中对日期正确性的判断。；逐集对应仍需原始发布记录或有效章节标题核验，尤其是最终话前、中、后三部分；当前未建立任何逐集规则。；TMDB未提供制作人员信息，其统一2分钟的时长也未体现创作者所述最终部分200秒的差异。",
+    "evidence": "codex: 可确认对应 TMDB 87401 第1季：名称与别名、首播年份及日期、剧情、网络短篇形式和九个发布单元相互吻合，整季覆盖该作品。创作者资料明确了制作人员及最终话拆为三部分的结构。逐集层面，Bangumi章节标题和日期为空，TMDB仅有通用集号且日期明显冲突，不能仅凭位置建立对应，因此保留整季匹配，rules和overrides留空。\n\nhttps://www.themoviedb.org/tv/87401 (api_snapshot): 日文原名及罗马字别名搜索均命中 TV 87401。详情确认原题为「100秒シネマ ロボと少女(仮)」、英文名 Bomahead、首播日期 2010-06-16；废墟中少女与机器人的剧情与创作者介绍一致，共1季9集。\n\nhttps://www.themoviedb.org/tv/87401/season/1 (api_snapshot): 第1季实际集表共9集，编号1至9，total_pages=1；标题均为通用集号，日期列为2010-06-16至2010-08-11，每集时长均为2分钟。日期与创作者记载存在冲突。\n\nhttps://awrd.com/creatives/detail/698073 (page): 制作人田中翔子的作品页确认日文名与英文名 BOMAHEAD、少女与废弃家电机器人的剧情、导演アオキタクト，以及2010年6月开始网络配信、2011年6月完结。页面列出 Episode01 至 Episode09；“全7话”另注明最终话分前中后三部分，与九个发布单元相容。\n\nhttps://frenz.jp/2011/participant (search_snippet): FRENZ 2011 官方出展者介绍中，アオキタクト说明该作在2010年仅上映前三话，此后继续制作，2011年才完结，共九话，进一步否定TMDB所列2010年8月完结日期。\n\n备注：TMDB所列2010-08-11完结与创作者所述2011年6月完结不符，不能沿用旧映射中对日期正确性的判断。；逐集对应仍需原始发布记录或有效章节标题核验，尤其是最终话前、中、后三部分；当前未建立任何逐集规则。；TMDB未提供制作人员信息，其统一2分钟的时长也未体现创作者所述最终部分200秒的差异。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/112509; https://www.themoviedb.org/tv/87401; https://www.themoviedb.org/tv/87401/season/1; https://awrd.com/creatives/detail/698073; https://frenz.jp/2011/participant",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87401
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

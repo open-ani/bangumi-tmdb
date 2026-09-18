@@ -126,12 +126,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已通过官方资料及TMDB详情、实际季表确认：本作对应TMDB 91039第3季整季。年份、电视短篇动画媒介、克拉肯探险剧情、制作人员及24集放送范围一致。Bangumi章节缺少标题和日期，故仅确认整季范围，暂不生成未经逐集比对的规则。\n\nhttps://www.tv-tokyo.co.jp/nana-na/ (page): 东京电视台官方页面明确将本作列为2020年的第3季，2020年4月16日开播；剧情为七冈等三人出海拍摄克拉肯。脚本、导演为文原聪，动画制作为studio crocodile，制作协力为33コレクティブ，与输入一致。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): TMDB 91039详情包含目标日文别名，共3季72集；导演及制作公司与官方资料吻合。第3季标题为「怪物クラーケンを追え!」，剧情及首播日期与本作一致。\n\nhttps://www.themoviedb.org/tv/91039/season/3 (api_snapshot): 已读取第3季完整实际集表：total_pages=1，共24集，集号1—24，各集日期从2020年4月16日至9月24日按周连续排列，每集3分钟；首集为「出港！テレビ野郎」，末集为「独占！テレビ野郎の花火大会」。该季覆盖本作完整24集。\n\n备注：输入中24个Bangumi章节的标题和放送日期均为空，且本次未能访问Bangumi章节页面；需补充章节资料并与TMDB逐集比对后，才能确认各章节ID的对应关系。",
+    "evidence": "codex: 已通过官方资料及TMDB详情、实际季表确认：本作对应TMDB 91039第3季整季。年份、电视短篇动画媒介、克拉肯探险剧情、制作人员及24集放送范围一致。Bangumi章节缺少标题和日期，故仅确认整季范围，暂不生成未经逐集比对的规则。\n\nhttps://www.tv-tokyo.co.jp/nana-na/ (page): 东京电视台官方页面明确将本作列为2020年的第3季，2020年4月16日开播；剧情为七冈等三人出海拍摄克拉肯。脚本、导演为文原聪，动画制作为studio crocodile，制作协力为33コレクティブ，与输入一致。\n\nhttps://www.themoviedb.org/tv/91039 (api_snapshot): TMDB 91039详情包含目标日文别名，共3季72集；导演及制作公司与官方资料吻合。第3季标题为「怪物クラーケンを追え!」，剧情及首播日期与本作一致。\n\nhttps://www.themoviedb.org/tv/91039/season/3 (api_snapshot): 已读取第3季完整实际集表：total_pages=1，共24集，集号1—24，各集日期从2020年4月16日至9月24日按周连续排列，每集3分钟；首集为「出港！テレビ野郎」，末集为「独占！テレビ野郎の花火大会」。该季覆盖本作完整24集。\n\n备注：输入中24个Bangumi章节的标题和放送日期均为空，且本次未能访问Bangumi章节页面；需补充章节资料并与TMDB逐集比对后，才能确认各章节ID的对应关系。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/307749; https://www.tv-tokyo.co.jp/nana-na/; https://www.themoviedb.org/tv/91039; https://www.themoviedb.org/tv/91039/season/3",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 91039
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

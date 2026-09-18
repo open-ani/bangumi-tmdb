@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画类型、首播日期、40集规模及更新星期共同支持对应TMDB 300020第1季，季表未显示混入其他作品。可确认整季范围；Bangumi逐集标题和日期均为空，无法逐集交叉核验，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/300020 (api_snapshot): 候选为中国动画《天命大神皇》，首播日期为2025-09-11；第1季共40集，与Bangumi的名称、首播日期和本篇总数一致。季表前5集同日首播，其后每周一、周四更新，与Bangumi标注的更新星期相符。\n\n备注：候选未提供剧情简介和制作公司，无法核对剧情及若鸿制作信息。；逐集对应仍需补充Bangumi章节标题或放送日期；目前不依据章节位置推定映射。",
+    "evidence": "codex: 名称、动画类型、首播日期、40集规模及更新星期共同支持对应TMDB 300020第1季，季表未显示混入其他作品。可确认整季范围；Bangumi逐集标题和日期均为空，无法逐集交叉核验，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/300020 (api_snapshot): 候选为中国动画《天命大神皇》，首播日期为2025-09-11；第1季共40集，与Bangumi的名称、首播日期和本篇总数一致。季表前5集同日首播，其后每周一、周四更新，与Bangumi标注的更新星期相符。\n\n备注：候选未提供剧情简介和制作公司，无法核对剧情及若鸿制作信息。；逐集对应仍需补充Bangumi章节标题或放送日期；目前不依据章节位置推定映射。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/583391; https://www.themoviedb.org/tv/300020",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 300020
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

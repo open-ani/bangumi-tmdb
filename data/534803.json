@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、首播日期、动画剧集属性及完整40集季范围一致，支持对应 TMDB 283882 第1季。逐集证据不足，保留整季关联，不按章节位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/283882 (api_snapshot): 候选《奶龙之奇妙冒险》（283882）为中国动画剧集，首播日期为2025-01-22，与 Bangumi 同名且首播日期一致；唯一列出的第1季共40集，已抓取完整集表，与 subject 的40集本篇范围一致。\n\nhttps://www.themoviedb.org/tv/283882 (api_snapshot): 第1季第1—40集日期覆盖2025-01-22至2025-04-02，但标题均为通用集号；Bangumi 全部章节缺少标题和日期，无法逐集交叉核实。\n\n备注：候选未提供剧情简介，制作公司列表为空，无法独立核对剧情与制作方。；需补充 Bangumi 逐集标题或放送日期，才能核实逐集对应关系。",
+    "evidence": "codex: 作品名称、首播日期、动画剧集属性及完整40集季范围一致，支持对应 TMDB 283882 第1季。逐集证据不足，保留整季关联，不按章节位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/283882 (api_snapshot): 候选《奶龙之奇妙冒险》（283882）为中国动画剧集，首播日期为2025-01-22，与 Bangumi 同名且首播日期一致；唯一列出的第1季共40集，已抓取完整集表，与 subject 的40集本篇范围一致。\n\nhttps://www.themoviedb.org/tv/283882 (api_snapshot): 第1季第1—40集日期覆盖2025-01-22至2025-04-02，但标题均为通用集号；Bangumi 全部章节缺少标题和日期，无法逐集交叉核实。\n\n备注：候选未提供剧情简介，制作公司列表为空，无法独立核对剧情与制作方。；需补充 Bangumi 逐集标题或放送日期，才能核实逐集对应关系。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/534803; https://www.themoviedb.org/tv/283882",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283882
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -106,12 +106,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 95579 第1季整季：原名、2019-11-22首播日期、剧情、导演、制作公司、网络动画媒介及20集范围相符。第二季属于输入中另列的续作，不纳入本 subject。Bangumi 输入的20个章节均无标题和播出日期，无法逐集交叉核对，因此仅确认季范围，不按编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): TMDB 95579 原名为《恐竜少女ガウ子》，首播日期为2019-11-22，剧情为少女奈绪子愤怒时变成恐龙，制作公司为 Ascension；详情将2019年第一季与2020年第二季分开。\n\nhttps://www.themoviedb.org/tv/95579/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共20集，集号1至20，日期均为2019-11-22，每集9分钟；与输入 subject 的首播日期及20集主体范围一致。\n\nhttps://about.netflix.com/ja/news/dino-girl-gauko (page): Netflix 官方制作公告确认本作为2019年推出的原创动画系列，导演为しぎのあきら、编剧为うえのきみこ、动画制作为アセンション；主人公渡边奈绪子愤怒时变成恐龙，版本及剧情吻合。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方作品页的简介与输入简介一致；页面显示两季，并列出第一季前10集，其标题、顺序和9分钟时长均与 TMDB 第一季对应条目一致。\n\n备注：逐集映射仍缺少 Bangumi 章节标题或日期证据；Bangumi 章节页本次访问失败，rules 和 overrides 暂留空。",
+    "evidence": "codex: 已确认对应 TMDB 95579 第1季整季：原名、2019-11-22首播日期、剧情、导演、制作公司、网络动画媒介及20集范围相符。第二季属于输入中另列的续作，不纳入本 subject。Bangumi 输入的20个章节均无标题和播出日期，无法逐集交叉核对，因此仅确认季范围，不按编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): TMDB 95579 原名为《恐竜少女ガウ子》，首播日期为2019-11-22，剧情为少女奈绪子愤怒时变成恐龙，制作公司为 Ascension；详情将2019年第一季与2020年第二季分开。\n\nhttps://www.themoviedb.org/tv/95579/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共20集，集号1至20，日期均为2019-11-22，每集9分钟；与输入 subject 的首播日期及20集主体范围一致。\n\nhttps://about.netflix.com/ja/news/dino-girl-gauko (page): Netflix 官方制作公告确认本作为2019年推出的原创动画系列，导演为しぎのあきら、编剧为うえのきみこ、动画制作为アセンション；主人公渡边奈绪子愤怒时变成恐龙，版本及剧情吻合。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方作品页的简介与输入简介一致；页面显示两季，并列出第一季前10集，其标题、顺序和9分钟时长均与 TMDB 第一季对应条目一致。\n\n备注：逐集映射仍缺少 Bangumi 章节标题或日期证据；Bangumi 章节页本次访问失败，rules 和 overrides 暂留空。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302672; https://www.themoviedb.org/tv/95579; https://www.themoviedb.org/tv/95579/season/1; https://about.netflix.com/ja/news/dino-girl-gauko; https://www.netflix.com/jp/title/80216180",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 95579
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

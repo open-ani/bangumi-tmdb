@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及季范围可由制作方、动画媒介、首播日期、52集总量和前作关系交叉确认，对应 TMDB 248643 第2季。Bangumi 所有章节均缺少标题和放送日期，无法逐集比对，因此仅确认整季范围，不按序号猜测逐集规则。\n\nhttps://www.themoviedb.org/tv/248643 (api_snapshot): 候选为中国少儿动画，制作公司为华强方特动漫，与 Bangumi 的媒介及制作方一致；第2季首播日期为2025-03-21，共52集，与该 subject 一致。\n\nhttps://www.themoviedb.org/tv/248643 (api_snapshot): 第1季首播日期为2024-03-08，与 Bangumi 所列前作《熊出没之小小世界》的日期一致。第2季完整列出第1至52集，放送日期为2025-03-21至2025-04-02，支持本作对应第2季整季。\n\n备注：候选未提供剧情简介，无法直接核对拜拜乔及缩小器等剧情。；逐集对应尚未确认；需补充 Bangumi 章节标题或放送日期，并取得可与之交叉核对的集级信息。TMDB 当前标题均为通用集号。",
+    "evidence": "codex: 作品及季范围可由制作方、动画媒介、首播日期、52集总量和前作关系交叉确认，对应 TMDB 248643 第2季。Bangumi 所有章节均缺少标题和放送日期，无法逐集比对，因此仅确认整季范围，不按序号猜测逐集规则。\n\nhttps://www.themoviedb.org/tv/248643 (api_snapshot): 候选为中国少儿动画，制作公司为华强方特动漫，与 Bangumi 的媒介及制作方一致；第2季首播日期为2025-03-21，共52集，与该 subject 一致。\n\nhttps://www.themoviedb.org/tv/248643 (api_snapshot): 第1季首播日期为2024-03-08，与 Bangumi 所列前作《熊出没之小小世界》的日期一致。第2季完整列出第1至52集，放送日期为2025-03-21至2025-04-02，支持本作对应第2季整季。\n\n备注：候选未提供剧情简介，无法直接核对拜拜乔及缩小器等剧情。；逐集对应尚未确认；需补充 Bangumi 章节标题或放送日期，并取得可与之交叉核对的集级信息。TMDB 当前标题均为通用集号。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/542666; https://www.themoviedb.org/tv/248643",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 248643
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

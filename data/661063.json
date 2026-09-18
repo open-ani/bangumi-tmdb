@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 77962 第3季整季：版本、季序、日期、集数及前作时间均吻合，季表未显示混入其他作品。Bangumi 逐集标题和日期均为空，候选标题仅为集号占位，无法独立核实逐集顺序，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/77962 (api_snapshot): 候选为 DreamWorks Animation Television 制作的动画《Dinotrux: Supercharged》；第3季共13集，每集放送日期均为2018-08-03，与 Bangumi 的版本名称、季序、总集数及放送起止日期一致。候选第2季首播于2018-03-23，也与 Bangumi 前作关联信息一致。\n\n备注：逐集对应仍需补充 Bangumi 各集标题或可核实的章节资料；当前只确认整季范围。；Bangumi 未提供剧情及制作方，无法对这些字段进行交叉核验。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 77962 第3季整季：版本、季序、日期、集数及前作时间均吻合，季表未显示混入其他作品。Bangumi 逐集标题和日期均为空，候选标题仅为集号占位，无法独立核实逐集顺序，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/77962 (api_snapshot): 候选为 DreamWorks Animation Television 制作的动画《Dinotrux: Supercharged》；第3季共13集，每集放送日期均为2018-08-03，与 Bangumi 的版本名称、季序、总集数及放送起止日期一致。候选第2季首播于2018-03-23，也与 Bangumi 前作关联信息一致。\n\n备注：逐集对应仍需补充 Bangumi 各集标题或可核实的章节资料；当前只确认整季范围。；Bangumi 未提供剧情及制作方，无法对这些字段进行交叉核验。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/661063; https://www.themoviedb.org/tv/77962",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 77962
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

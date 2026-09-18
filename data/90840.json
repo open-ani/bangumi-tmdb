@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及整季范围可确认对应TMDB 112858第1季：日文原名、首播日期、TV短篇媒介和12集总量一致，外部资料确认其为2014年DLE制作的地下偶像搞笑动画。实际季表完整列出12集，没有混入其他作品的迹象。逐集元数据不足，因此仅确认整季，保留空rules和overrides。\n\nhttps://www.themoviedb.org/tv/112858 (api_snapshot): 以日文原名搜索命中 TV 112858；详情确认原名、首播日期2014-01-06及单季12集。简介、制作公司和演职员字段为空，不能据此核对剧情与人员。\n\nhttps://www.themoviedb.org/tv/112858/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为1页，共12集，每集2分钟。标题仅为通用集号，所有集的日期均填为2014-01-06，无法支持逐集标题或真实播出日期比对。\n\nhttps://bangumi.tv/subject/90840 (page): Bangumi确认这是DLE制作的TV动画，共12话，播出期间为2014年1月6日至3月31日。\n\nhttps://www.dle.jp/jp/property/post_3.html (page): 制作公司DLE确认作品为地下偶像题材的短篇搞笑动画，讲述偶像团体从地下500层向地上进发，于2014年1月至3月在musicるTV内播出。\n\nhttps://www.animatetimes.com/tag/details.php?id=14424 (page): 作品资料确认TV动画、2014年1月6日至3月31日播出、全12话，制作方为DLE，动画导演为作田ハズム；与Bangumi及制作公司资料吻合。\n\n备注：TMDB日文、英文集表均无实际分集标题，且12集日期全部相同，与跨1月至3月的播出期间不符；不能仅凭集号建立连续对应规则。待TMDB补充可核对的分集标题或正确日期后，再确认逐集映射。",
+    "evidence": "codex: 作品及整季范围可确认对应TMDB 112858第1季：日文原名、首播日期、TV短篇媒介和12集总量一致，外部资料确认其为2014年DLE制作的地下偶像搞笑动画。实际季表完整列出12集，没有混入其他作品的迹象。逐集元数据不足，因此仅确认整季，保留空rules和overrides。\n\nhttps://www.themoviedb.org/tv/112858 (api_snapshot): 以日文原名搜索命中 TV 112858；详情确认原名、首播日期2014-01-06及单季12集。简介、制作公司和演职员字段为空，不能据此核对剧情与人员。\n\nhttps://www.themoviedb.org/tv/112858/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为1页，共12集，每集2分钟。标题仅为通用集号，所有集的日期均填为2014-01-06，无法支持逐集标题或真实播出日期比对。\n\nhttps://bangumi.tv/subject/90840 (page): Bangumi确认这是DLE制作的TV动画，共12话，播出期间为2014年1月6日至3月31日。\n\nhttps://www.dle.jp/jp/property/post_3.html (page): 制作公司DLE确认作品为地下偶像题材的短篇搞笑动画，讲述偶像团体从地下500层向地上进发，于2014年1月至3月在musicるTV内播出。\n\nhttps://www.animatetimes.com/tag/details.php?id=14424 (page): 作品资料确认TV动画、2014年1月6日至3月31日播出、全12话，制作方为DLE，动画导演为作田ハズム；与Bangumi及制作公司资料吻合。\n\n备注：TMDB日文、英文集表均无实际分集标题，且12集日期全部相同，与跨1月至3月的播出期间不符；不能仅凭集号建立连续对应规则。待TMDB补充可核对的分集标题或正确日期后，再确认逐集映射。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/90840; https://www.themoviedb.org/tv/112858; https://www.themoviedb.org/tv/112858/season/1; https://bangumi.tv/subject/90840; https://www.dle.jp/jp/property/post_3.html; https://www.animatetimes.com/tag/details.php?id=14424",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112858
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

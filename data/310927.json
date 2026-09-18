@@ -306,12 +306,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、电视动画媒介、剧情、导演、制作公司及完整60集范围一致，确认对应 TMDB 121093 第1季整季。系列作品序号“第20部”不等于此独立 TMDB 条目的季号。Bangumi 各话缺少标题和日期，逐集规则暂留空，避免仅按序号推定。\n\nhttps://bangumi.tv/subject/310927 (page): Bangumi 标记为2019年7月12日开播的60集电视动画，导演包括陈辉衍、黄俊铭；剧情围绕小羊穿梭历史、修复混乱时空展开。\n\nhttps://www.themoviedb.org/tv/121093 (api_snapshot): TMDB 121093 为同名电视动画，首播2019-07-12、完结2019-07-21，共1季60集；剧情与 Bangumi 一致，导演包括陈辉衍，制作公司为 Creative Power Entertaining。\n\nhttps://www.themoviedb.org/tv/121093/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，连续收录第1至60集，均为15分钟；日期按每天6集覆盖2019-07-12至2019-07-21，首集《冰封遗迹》、末集《逆转时空》。本季完整对应《跨时空救兵》，未混入其他作品。\n\nhttps://www.youtube.com/watch?v=_Fom04lkc_g (search_snippet): 官方中文频道将《逆转时空》标为《跨时空救兵》第60集大结局，与 TMDB 季表终点一致。\n\nhttps://bangumi.tv/subject/310927/ep (page): Bangumi 章节页列出本篇1至60话，但未提供各话标题及放送日期，无法完成双方逐集内容核对。\n\n备注：作品及季范围已确认；逐集对应仍需补充 Bangumi 章节标题、日期或其他可关联具体章节的证据，再与 TMDB 集表核对。",
+    "evidence": "codex: 年份、电视动画媒介、剧情、导演、制作公司及完整60集范围一致，确认对应 TMDB 121093 第1季整季。系列作品序号“第20部”不等于此独立 TMDB 条目的季号。Bangumi 各话缺少标题和日期，逐集规则暂留空，避免仅按序号推定。\n\nhttps://bangumi.tv/subject/310927 (page): Bangumi 标记为2019年7月12日开播的60集电视动画，导演包括陈辉衍、黄俊铭；剧情围绕小羊穿梭历史、修复混乱时空展开。\n\nhttps://www.themoviedb.org/tv/121093 (api_snapshot): TMDB 121093 为同名电视动画，首播2019-07-12、完结2019-07-21，共1季60集；剧情与 Bangumi 一致，导演包括陈辉衍，制作公司为 Creative Power Entertaining。\n\nhttps://www.themoviedb.org/tv/121093/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，连续收录第1至60集，均为15分钟；日期按每天6集覆盖2019-07-12至2019-07-21，首集《冰封遗迹》、末集《逆转时空》。本季完整对应《跨时空救兵》，未混入其他作品。\n\nhttps://www.youtube.com/watch?v=_Fom04lkc_g (search_snippet): 官方中文频道将《逆转时空》标为《跨时空救兵》第60集大结局，与 TMDB 季表终点一致。\n\nhttps://bangumi.tv/subject/310927/ep (page): Bangumi 章节页列出本篇1至60话，但未提供各话标题及放送日期，无法完成双方逐集内容核对。\n\n备注：作品及季范围已确认；逐集对应仍需补充 Bangumi 章节标题、日期或其他可关联具体章节的证据，再与 TMDB 集表核对。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/310927; https://bangumi.tv/subject/310927; https://www.themoviedb.org/tv/121093; https://www.themoviedb.org/tv/121093/season/1; https://www.youtube.com/watch?v=_Fom04lkc_g; https://bangumi.tv/subject/310927/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 121093
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

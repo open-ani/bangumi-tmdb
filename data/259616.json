@@ -206,12 +206,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 官方资料与TMDB在别名、年份、动画媒介、剧情人物、40集规模及每集时长上相符；官网导演也与Bangumi输入一致，可确认对应TMDB 118803第1季整季。Bangumi章节标题和日期均为空，无法完成逐集交叉核验，因此不生成连续规则。\n\nhttps://www.22dm.com/drama/dr_18.html (page): 原创动力官网确认《宋代足球小将》英文名为 Legendary Soccer Kid，导演陈辉衍，2010年5月首播，共40集、每集15分钟；洪风、向流云与宋代蹴鞠的剧情和输入一致。\n\nhttps://www.themoviedb.org/tv/118803 (api_snapshot): TMDB 118803 详情显示原名《蹴鞠小英雄》，别名含《一脚定江山》和 Legendary Soccer Kid；年份为2010，剧情人物一致，配音包括陆双、祖晴等，共1季40集。\n\nhttps://www.themoviedb.org/tv/118803/season/1 (api_snapshot): 已读取第1季完整集表：total_pages=1，共40集，编号连续为1—40，每集15分钟；各集剧情连续围绕洪风、向流云展开，未发现混入其他作品。日期记为2010-07-01至2010-08-09，标题仅为集号。\n\n备注：TMDB首播日期为2010-07-01，官网为2010年5月，Bangumi输入为2010-05-28；日期差异原因尚未确认。；逐集对应暂留空；需补充可与Bangumi章节关联的标题、播出日期或分集内容证据。",
+    "evidence": "codex: 官方资料与TMDB在别名、年份、动画媒介、剧情人物、40集规模及每集时长上相符；官网导演也与Bangumi输入一致，可确认对应TMDB 118803第1季整季。Bangumi章节标题和日期均为空，无法完成逐集交叉核验，因此不生成连续规则。\n\nhttps://www.22dm.com/drama/dr_18.html (page): 原创动力官网确认《宋代足球小将》英文名为 Legendary Soccer Kid，导演陈辉衍，2010年5月首播，共40集、每集15分钟；洪风、向流云与宋代蹴鞠的剧情和输入一致。\n\nhttps://www.themoviedb.org/tv/118803 (api_snapshot): TMDB 118803 详情显示原名《蹴鞠小英雄》，别名含《一脚定江山》和 Legendary Soccer Kid；年份为2010，剧情人物一致，配音包括陆双、祖晴等，共1季40集。\n\nhttps://www.themoviedb.org/tv/118803/season/1 (api_snapshot): 已读取第1季完整集表：total_pages=1，共40集，编号连续为1—40，每集15分钟；各集剧情连续围绕洪风、向流云展开，未发现混入其他作品。日期记为2010-07-01至2010-08-09，标题仅为集号。\n\n备注：TMDB首播日期为2010-07-01，官网为2010年5月，Bangumi输入为2010-05-28；日期差异原因尚未确认。；逐集对应暂留空；需补充可与Bangumi章节关联的标题、播出日期或分集内容证据。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/259616; https://www.22dm.com/drama/dr_18.html; https://www.themoviedb.org/tv/118803; https://www.themoviedb.org/tv/118803/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118803
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

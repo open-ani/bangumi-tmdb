@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、首播日期、人物剧情、动画媒介及10集范围共同确认该 subject 对应 TMDB 79948 第一季整季。Bangumi 各章节缺少标题和播出日期，无法逐集交叉核对，因此仅确认季级映射，暂不填写连续规则。\n\nhttps://bgm.tv/subject/264321 (page): Bangumi 标注为 Netflix 动画，全10话，2018年6月8日开始；剧情为 Adam、Kai、Mira 失忆后在地堡醒来并寻找回家之路。\n\nhttps://www.themoviedb.org/tv/79948 (api_snapshot): TMDB 79948 的原名、2018年6月8日首播日期及剧情吻合；制作公司为 Slap Happy Cartoons，三位主角配音与 Netflix 官方名单一致。全剧两季，第一季10集，第二季始于2020年。\n\nhttps://www.themoviedb.org/tv/79948/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，全部标注2018年6月8日播出；集号1至10连续，无其他作品混入。\n\nhttps://www.netflix.com/title/80147919 (page): Netflix 官方确认本作为加拿大剧情动画，列出创作者及配音人员；其10集标题与剧情按集号逐一吻合 TMDB 第一季，从 The Room 至 Colrath。\n\n备注：Bangumi 的10个章节仅有序号；章节列表页访问失败。需补充章节标题或日期后才能建立逐集规则，不能仅凭位置推定。",
+    "evidence": "codex: 作品、首播日期、人物剧情、动画媒介及10集范围共同确认该 subject 对应 TMDB 79948 第一季整季。Bangumi 各章节缺少标题和播出日期，无法逐集交叉核对，因此仅确认季级映射，暂不填写连续规则。\n\nhttps://bgm.tv/subject/264321 (page): Bangumi 标注为 Netflix 动画，全10话，2018年6月8日开始；剧情为 Adam、Kai、Mira 失忆后在地堡醒来并寻找回家之路。\n\nhttps://www.themoviedb.org/tv/79948 (api_snapshot): TMDB 79948 的原名、2018年6月8日首播日期及剧情吻合；制作公司为 Slap Happy Cartoons，三位主角配音与 Netflix 官方名单一致。全剧两季，第一季10集，第二季始于2020年。\n\nhttps://www.themoviedb.org/tv/79948/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，全部标注2018年6月8日播出；集号1至10连续，无其他作品混入。\n\nhttps://www.netflix.com/title/80147919 (page): Netflix 官方确认本作为加拿大剧情动画，列出创作者及配音人员；其10集标题与剧情按集号逐一吻合 TMDB 第一季，从 The Room 至 Colrath。\n\n备注：Bangumi 的10个章节仅有序号；章节列表页访问失败。需补充章节标题或日期后才能建立逐集规则，不能仅凭位置推定。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/264321; https://www.themoviedb.org/tv/79948; https://www.themoviedb.org/tv/79948/season/1; https://www.netflix.com/title/80147919",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79948
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

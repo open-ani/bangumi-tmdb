@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、制作公司、第五季首播日期及52集总量共同支持对应 TMDB 226227 第5季整季。逐集证据不足，暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 候选《超迷你战士》为中国动画，制作公司为左袋创意，与 Bangumi 制作信息一致；第5季首播日期为2021-12-08，共52集，均与 subject 一致，季表完整列出第1至52集。\n\nhttps://www.themoviedb.org/tv/72237 (api_snapshot): 候选《ミニフォース》为韩国 SAMG Entertainment 制作的动物特攻队题材动画，制作方、剧情和季集数均不符合本 subject。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 第5季标题也仅为集号占位，无法核实逐集顺序；需补充实际标题或逐集放送记录后建立对应关系。；候选未提供《超迷你战士》第5季剧情简介，无法独立核对该季剧情。",
+    "evidence": "codex: 作品名称、制作公司、第五季首播日期及52集总量共同支持对应 TMDB 226227 第5季整季。逐集证据不足，暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/226227 (api_snapshot): 候选《超迷你战士》为中国动画，制作公司为左袋创意，与 Bangumi 制作信息一致；第5季首播日期为2021-12-08，共52集，均与 subject 一致，季表完整列出第1至52集。\n\nhttps://www.themoviedb.org/tv/72237 (api_snapshot): 候选《ミニフォース》为韩国 SAMG Entertainment 制作的动物特攻队题材动画，制作方、剧情和季集数均不符合本 subject。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 第5季标题也仅为集号占位，无法核实逐集顺序；需补充实际标题或逐集放送记录后建立对应关系。；候选未提供《超迷你战士》第5季剧情简介，无法独立核对该季剧情。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/478644; https://www.themoviedb.org/tv/226227; https://www.themoviedb.org/tv/72237",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 226227
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

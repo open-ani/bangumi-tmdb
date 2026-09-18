@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 104366第1季整季：年份、电视动画媒介、剧情、制作与配音人员及完整52集内容均相符。逐集映射暂留空：输入中的Bangumi章节标题和日期全部缺失，且TMDB与官方集序存在明确差异，不能仅凭sort建立顺序规则。\n\nhttps://www.themoviedb.org/tv/104366 (api_snapshot): TMDB 104366 原名为《GO!GO!アトム》，首末播日期为2019-10-03、2020-10-01，共1季52集；剧情为阿童木、铃与阿童猫共同保护地球。制作公司包含手塚制作、Something Big、Planet Nemo Animation，主要日语配音与官方资料一致。\n\nhttps://www.themoviedb.org/tv/104366/season/1 (api_snapshot): 实际读取第1季全部52集，total_pages=1。集目整体覆盖官方52集，但集序存在差异：官方第32集在TMDB列为第52集，官方第33—52集分别在TMDB列为第32—51集。TMDB第52集日期为空，第48、49集日期均为2020-09-10。\n\nhttps://tezukaosamu.net/en/anime/163.html (page): 手塚治虫官方网站确认本作为电视动画，2019-10-03至2020-10-01在东京电视台系播出，共52集、每集11分钟；主角组合、剧情、制作公司与主要配音支持2019年版本的身份。\n\nhttps://tezukaosamu.net/en/anime/subtitle/a0163/index.html (page): 官方完整集表列出第1—52集，其中第32集为《THE ELEPHANT AND THE BEETLE》，第33集为《IN THE DARK》，第52集为《HERE COMES THE SUN!》；与TMDB的集目集合一致，但后段编号不同。\n\n备注：尚无法确认Bangumi第32—52话采用官方集序还是其他播出集序；需补充章节标题或逐集播出记录后再生成rules与overrides。；TMDB后段存在重复或缺失播出日期，不能单独依赖其日期确定Bangumi逐集对应。",
+    "evidence": "codex: 确认对应TMDB 104366第1季整季：年份、电视动画媒介、剧情、制作与配音人员及完整52集内容均相符。逐集映射暂留空：输入中的Bangumi章节标题和日期全部缺失，且TMDB与官方集序存在明确差异，不能仅凭sort建立顺序规则。\n\nhttps://www.themoviedb.org/tv/104366 (api_snapshot): TMDB 104366 原名为《GO!GO!アトム》，首末播日期为2019-10-03、2020-10-01，共1季52集；剧情为阿童木、铃与阿童猫共同保护地球。制作公司包含手塚制作、Something Big、Planet Nemo Animation，主要日语配音与官方资料一致。\n\nhttps://www.themoviedb.org/tv/104366/season/1 (api_snapshot): 实际读取第1季全部52集，total_pages=1。集目整体覆盖官方52集，但集序存在差异：官方第32集在TMDB列为第52集，官方第33—52集分别在TMDB列为第32—51集。TMDB第52集日期为空，第48、49集日期均为2020-09-10。\n\nhttps://tezukaosamu.net/en/anime/163.html (page): 手塚治虫官方网站确认本作为电视动画，2019-10-03至2020-10-01在东京电视台系播出，共52集、每集11分钟；主角组合、剧情、制作公司与主要配音支持2019年版本的身份。\n\nhttps://tezukaosamu.net/en/anime/subtitle/a0163/index.html (page): 官方完整集表列出第1—52集，其中第32集为《THE ELEPHANT AND THE BEETLE》，第33集为《IN THE DARK》，第52集为《HERE COMES THE SUN!》；与TMDB的集目集合一致，但后段编号不同。\n\n备注：尚无法确认Bangumi第32—52话采用官方集序还是其他播出集序；需补充章节标题或逐集播出记录后再生成rules与overrides。；TMDB后段存在重复或缺失播出日期，不能单独依赖其日期确定Bangumi逐集对应。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302137; https://www.themoviedb.org/tv/104366; https://www.themoviedb.org/tv/104366/season/1; https://tezukaosamu.net/en/anime/163.html; https://tezukaosamu.net/en/anime/subtitle/a0163/index.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 104366
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

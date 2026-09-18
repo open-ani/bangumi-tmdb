@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季名、首播日期、22集总量及前后季关系共同支持对应 TMDB 32726 第13季整季。Bangumi 各章标题与日期均为空，无法逐集核验顺序，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 候选原名为 Bob's Burgers，第13季首播日期为2022-09-25，共22集，与 Bangumi 的季名、开播日期及本篇总数一致；季表完整列出第1至22集。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 候选第12季与第14季分别于2021-09-26、2023-10-01开播，与 Bangumi 前后续关联条目的日期一致，支持第13季的定位。\n\n备注：Bangumi 缺少剧情及制作方资料，无法进行这些维度的交叉核对。；Bangumi 22章均无标题和放送日期，候选标题也仅为集号；需补充章节标题或日期后才能确认逐集对应。",
+    "evidence": "codex: 季名、首播日期、22集总量及前后季关系共同支持对应 TMDB 32726 第13季整季。Bangumi 各章标题与日期均为空，无法逐集核验顺序，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 候选原名为 Bob's Burgers，第13季首播日期为2022-09-25，共22集，与 Bangumi 的季名、开播日期及本篇总数一致；季表完整列出第1至22集。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 候选第12季与第14季分别于2021-09-26、2023-10-01开播，与 Bangumi 前后续关联条目的日期一致，支持第13季的定位。\n\n备注：Bangumi 缺少剧情及制作方资料，无法进行这些维度的交叉核对。；Bangumi 22章均无标题和放送日期，候选标题也仅为集号；需补充章节标题或日期后才能确认逐集对应。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439027; https://www.themoviedb.org/tv/32726",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 13,
+      "start": 1,
+      "tmdbId": 32726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

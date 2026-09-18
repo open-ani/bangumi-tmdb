@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季次、集数及放送起止日期共同支持对应 TMDB 5200 第11季第1至13集。Bangumi 各章节没有标题或放送日期，无法逐集核实顺序，因此仅确认作品覆盖范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/5200 (api_snapshot): TMDB 5200 第11季第1至13集共13集，放送日期从2017-11-18至2018-05-09，与 Bangumi 标注的季次、13话及放送起止日期一致。该季另有第19、20集，日期均为空，不能将整个第11季纳入映射。\n\n备注：Bangumi 13个章节均缺少标题及放送日期；需补充逐集资料后才能确认章节对应关系。；TMDB 第11季另列的第19、20集缺少日期及实质标题，其性质未明，本次不纳入。",
+    "evidence": "codex: 季次、集数及放送起止日期共同支持对应 TMDB 5200 第11季第1至13集。Bangumi 各章节没有标题或放送日期，无法逐集核实顺序，因此仅确认作品覆盖范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/5200 (api_snapshot): TMDB 5200 第11季第1至13集共13集，放送日期从2017-11-18至2018-05-09，与 Bangumi 标注的季次、13话及放送起止日期一致。该季另有第19、20集，日期均为空，不能将整个第11季纳入映射。\n\n备注：Bangumi 13个章节均缺少标题及放送日期；需补充逐集资料后才能确认章节对应关系。；TMDB 第11季另列的第19、20集缺少日期及实质标题，其性质未明，本次不纳入。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/658444; https://www.themoviedb.org/tv/5200",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 11,
+      "start": 1,
+      "tmdbId": 5200
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

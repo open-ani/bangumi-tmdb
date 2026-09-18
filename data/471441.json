@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、制作公司、TV媒介、26集规模及第7部特有剧情共同确认，本条目对应TMDB 215675第7季整季，季表未混入其他作品。Bangumi各章节缺少标题和播出日期，无法逐集交叉核验，因此仅确认整季范围，不凭编号位置建立连续规则。\n\nhttps://bgm.tv/subject/471441 (page): Bangumi 标明本作为 TV 动画，共26话，2023年12月29日开播，动画制作为咏声动漫，前后作分别为竞速小英雄6和8；章节仅有编号。\n\nhttps://www.themoviedb.org/tv/215675 (api_snapshot): TMDB 215675 为《猪猪侠之竞速小英雄》系列，第7季为2023年的26集南大陆赛事篇，与第6季比云山赛事及第8季后续赛事明确分开。\n\nhttps://www.themoviedb.org/tv/215675/season/7 (api_snapshot): 已读取第7季完整集表，total_pages=1，共26集，每集13分钟，从《卧虎藏龙》至《破风之星》，内容连续覆盖南大陆赛事、猪猪侠离队及芸芸加入车队；所有集的日期均记为2023年12月22日。\n\nhttps://tv.cctv.com/2024/06/07/VIDAGIWxPjs8v0XA2bxsgQvX240607.shtml (page): 央视《猪猪侠之竞速小英雄7》页面的剧情包含超星车队赴南大陆参赛、猪猪侠因病离队、芸芸成为星航搭档及挑战风鹤，与TMDB第7季剧情一致。\n\nhttps://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=94862f2d473c49f19a5e7b6dc43dfafc.pdf&showname+=undefined (search_snippet): 广电总局资料列出《猪猪侠之竞速小英雄7》为广东咏声动漫股份有限公司制作，共26集、每集13分钟，发行许可证号为（粤）动审字[2023]第071号。\n\n备注：Bangumi开播日期为2023年12月29日，TMDB第7季及全部单集均记为12月22日，日期差异原因尚未确认。；逐集规则留空；需补充Bangumi章节标题或单集日期后，再与已读取的TMDB集表核对。",
+    "evidence": "codex: 年份、制作公司、TV媒介、26集规模及第7部特有剧情共同确认，本条目对应TMDB 215675第7季整季，季表未混入其他作品。Bangumi各章节缺少标题和播出日期，无法逐集交叉核验，因此仅确认整季范围，不凭编号位置建立连续规则。\n\nhttps://bgm.tv/subject/471441 (page): Bangumi 标明本作为 TV 动画，共26话，2023年12月29日开播，动画制作为咏声动漫，前后作分别为竞速小英雄6和8；章节仅有编号。\n\nhttps://www.themoviedb.org/tv/215675 (api_snapshot): TMDB 215675 为《猪猪侠之竞速小英雄》系列，第7季为2023年的26集南大陆赛事篇，与第6季比云山赛事及第8季后续赛事明确分开。\n\nhttps://www.themoviedb.org/tv/215675/season/7 (api_snapshot): 已读取第7季完整集表，total_pages=1，共26集，每集13分钟，从《卧虎藏龙》至《破风之星》，内容连续覆盖南大陆赛事、猪猪侠离队及芸芸加入车队；所有集的日期均记为2023年12月22日。\n\nhttps://tv.cctv.com/2024/06/07/VIDAGIWxPjs8v0XA2bxsgQvX240607.shtml (page): 央视《猪猪侠之竞速小英雄7》页面的剧情包含超星车队赴南大陆参赛、猪猪侠因病离队、芸芸成为星航搭档及挑战风鹤，与TMDB第7季剧情一致。\n\nhttps://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=94862f2d473c49f19a5e7b6dc43dfafc.pdf&showname+=undefined (search_snippet): 广电总局资料列出《猪猪侠之竞速小英雄7》为广东咏声动漫股份有限公司制作，共26集、每集13分钟，发行许可证号为（粤）动审字[2023]第071号。\n\n备注：Bangumi开播日期为2023年12月29日，TMDB第7季及全部单集均记为12月22日，日期差异原因尚未确认。；逐集规则留空；需补充Bangumi章节标题或单集日期后，再与已读取的TMDB集表核对。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/471441; https://www.themoviedb.org/tv/215675; https://www.themoviedb.org/tv/215675/season/7; https://tv.cctv.com/2024/06/07/VIDAGIWxPjs8v0XA2bxsgQvX240607.shtml; https://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=94862f2d473c49f19a5e7b6dc43dfafc.pdf&showname+=undefined",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 215675
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

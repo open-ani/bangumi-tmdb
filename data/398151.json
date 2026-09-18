@@ -30,12 +30,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: TV 213430 第 1 季的年份、电视媒介、五集规模及与剧场版的内容关联共同支持匹配，季表完整且没有混入其他作品的迹象。2019 年电影是来源版本，不作为映射目标。Bangumi 各章标题和放送日期均为空，无法进行逐集交叉核对，因此仅确认整季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/213430 (api_snapshot): 该 TV 候选为 2022 年播出的《羅小黒戦記 ぼくが選ぶ未来》，唯一季为第 1 季，共 5 集，排期为 2022-10-08 至 2022-11-05；与 subject 的 2022 年五话电视分割版相符。\n\nhttps://www.themoviedb.org/movie/620249 (api_snapshot): 该电影候选为 2019 年《罗小黑战记》剧场版，与 subject 所述改编来源相符，但不属于本次五话电视播出版。\n\n备注：Bangumi 标注开播日为 2022-10-07，TMDB 为 2022-10-08；可能涉及深夜节目日期记法，但现有数据不能证实。；候选制作公司为空，无法独立核对制作方。；逐集对应仍需补充 Bangumi 各话标题或实际放送日期；目前不能仅凭集号顺序生成规则。",
+    "evidence": "codex: TV 213430 第 1 季的年份、电视媒介、五集规模及与剧场版的内容关联共同支持匹配，季表完整且没有混入其他作品的迹象。2019 年电影是来源版本，不作为映射目标。Bangumi 各章标题和放送日期均为空，无法进行逐集交叉核对，因此仅确认整季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/213430 (api_snapshot): 该 TV 候选为 2022 年播出的《羅小黒戦記 ぼくが選ぶ未来》，唯一季为第 1 季，共 5 集，排期为 2022-10-08 至 2022-11-05；与 subject 的 2022 年五话电视分割版相符。\n\nhttps://www.themoviedb.org/movie/620249 (api_snapshot): 该电影候选为 2019 年《罗小黑战记》剧场版，与 subject 所述改编来源相符，但不属于本次五话电视播出版。\n\n备注：Bangumi 标注开播日为 2022-10-07，TMDB 为 2022-10-08；可能涉及深夜节目日期记法，但现有数据不能证实。；候选制作公司为空，无法独立核对制作方。；逐集对应仍需补充 Bangumi 各话标题或实际放送日期；目前不能仅凭集号顺序生成规则。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/398151; https://www.themoviedb.org/tv/213430; https://www.themoviedb.org/movie/620249",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 213430
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

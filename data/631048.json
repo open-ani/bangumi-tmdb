@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 集数、首尾放送日期及前后作时间关系共同支持对应 TMDB 41997 第7季整季。Bangumi 逐集标题与日期均为空，无法核实逐集顺序，因此仅确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 第7季共20集，首集日期为2022-05-23，末集日期为2022-10-08，与 Bangumi 的总集数、放送开始及结束日期完全一致；候选标注为 Disney Television Animation 制作的动画。第6季、第8季的首播日期也分别与 Bangumi 前作、续作的日期一致，支持本条目对应第7季。\n\nhttps://www.themoviedb.org/tv/301677 (api_snapshot): 独立候选仅提供2021年播出的第1季14集，不覆盖本条目2022年播出的20集范围。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能核实20个章节的逐集对应；现有 TMDB 集标题均为通用编号，不能作为内容匹配依据。",
+    "evidence": "codex: 集数、首尾放送日期及前后作时间关系共同支持对应 TMDB 41997 第7季整季。Bangumi 逐集标题与日期均为空，无法核实逐集顺序，因此仅确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 第7季共20集，首集日期为2022-05-23，末集日期为2022-10-08，与 Bangumi 的总集数、放送开始及结束日期完全一致；候选标注为 Disney Television Animation 制作的动画。第6季、第8季的首播日期也分别与 Bangumi 前作、续作的日期一致，支持本条目对应第7季。\n\nhttps://www.themoviedb.org/tv/301677 (api_snapshot): 独立候选仅提供2021年播出的第1季14集，不覆盖本条目2022年播出的20集范围。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能核实20个章节的逐集对应；现有 TMDB 集标题均为通用编号，不能作为内容匹配依据。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/631048; https://www.themoviedb.org/tv/41997; https://www.themoviedb.org/tv/301677",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 41997
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

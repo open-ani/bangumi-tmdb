@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、制作方、动画类型及完整 15 集规模共同支持对应 TMDB 229773 第 1 季整季。逐集标题与日期不足以确认章节对应，因此仅确定整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/229773 (api_snapshot): 候选 229773 为中国动画喜剧《猫先动的手！》，首播日期为 2022-01-19，制作公司 Huizhiren Animation 与 Bangumi 的绘之刃相符；唯一列出的第 1 季共 15 集，与 subject 的首播日期及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/229773 (api_snapshot): 第 1 季全部使用通用集标题；仅第 1 集有放送日期 2022-01-19，第 2—15 集日期为空，无法逐集核实对应顺序。\n\n备注：候选未提供剧情简介，无法直接比对剧情。；候选缺少具体集标题及第 2—15 集日期；Bangumi 前两集同日播出，仅凭候选第 1 集日期也无法独立确认章节对应。需补充逐集标题或放送日期后建立规则。",
+    "evidence": "codex: 名称、首播日期、制作方、动画类型及完整 15 集规模共同支持对应 TMDB 229773 第 1 季整季。逐集标题与日期不足以确认章节对应，因此仅确定整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/229773 (api_snapshot): 候选 229773 为中国动画喜剧《猫先动的手！》，首播日期为 2022-01-19，制作公司 Huizhiren Animation 与 Bangumi 的绘之刃相符；唯一列出的第 1 季共 15 集，与 subject 的首播日期及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/229773 (api_snapshot): 第 1 季全部使用通用集标题；仅第 1 集有放送日期 2022-01-19，第 2—15 集日期为空，无法逐集核实对应顺序。\n\n备注：候选未提供剧情简介，无法直接比对剧情。；候选缺少具体集标题及第 2—15 集日期；Bangumi 前两集同日播出，仅凭候选第 1 集日期也无法独立确认章节对应。需补充逐集标题或放送日期后建立规则。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（1 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/363399; https://www.themoviedb.org/tv/229773",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229773
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

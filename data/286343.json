@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、剧情、制作公司、配音人员及官方13集总量相互吻合，确认对应TMDB 278475第1季整季，未发现混入其他作品。逐集层面，输入的Bangumi章节均缺少标题和日期，在线章节表也未能读取，无法完成逐集交叉比对，因此只确认季级映射，保留rules与overrides为空。\n\nhttps://www.themoviedb.org/tv/278475 (api_snapshot): 以原名《卡徒》搜索得到 TV 278475。详情确认首播日期为2024-11-30，制作公司包含腾讯企鹅影视，配音包含伤洛，剧情中的陨石灾难、卡片能源与主人公陈暮均与输入一致；共1季13集，别名包含 The War of Cards。\n\nhttps://www.themoviedb.org/tv/278475/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集，集号连续为1至13，每集约20至22分钟。第1、2集日期为2024-11-30，第3至9集按周排列，第10至13集均标为2025-01-25；标题只有通用集号。\n\nhttps://wetv.vip/zh-cn/play/dpf225vnixf5hes-%E5%8D%A1%E5%BE%92?appid=coop_direct_msite_ (page): WeTV官方播放页标明《卡徒》全13集，列出01至13集，剧情与输入及TMDB一致，支持该季完整覆盖这部网络剧情动画。\n\nhttps://en.myshows.me/view/93147/ka-tu-season-1/ (search_snippet): MyShows集表同样列出13集，但第11至13集日期分别为2025-02-01、02-08、02-15，与TMDB存在差异，不能据此确认尾段逐集播出日期。\n\n备注：Bangumi第1至13话只有sort可用，不能仅按位置建立逐集规则；需补充章节标题或日期。；TMDB与MyShows对第11至13集的播出日期记载不同，尚未核实是否源于提前点播与常规更新排期差异。",
+    "evidence": "codex: 首播日期、剧情、制作公司、配音人员及官方13集总量相互吻合，确认对应TMDB 278475第1季整季，未发现混入其他作品。逐集层面，输入的Bangumi章节均缺少标题和日期，在线章节表也未能读取，无法完成逐集交叉比对，因此只确认季级映射，保留rules与overrides为空。\n\nhttps://www.themoviedb.org/tv/278475 (api_snapshot): 以原名《卡徒》搜索得到 TV 278475。详情确认首播日期为2024-11-30，制作公司包含腾讯企鹅影视，配音包含伤洛，剧情中的陨石灾难、卡片能源与主人公陈暮均与输入一致；共1季13集，别名包含 The War of Cards。\n\nhttps://www.themoviedb.org/tv/278475/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集，集号连续为1至13，每集约20至22分钟。第1、2集日期为2024-11-30，第3至9集按周排列，第10至13集均标为2025-01-25；标题只有通用集号。\n\nhttps://wetv.vip/zh-cn/play/dpf225vnixf5hes-%E5%8D%A1%E5%BE%92?appid=coop_direct_msite_ (page): WeTV官方播放页标明《卡徒》全13集，列出01至13集，剧情与输入及TMDB一致，支持该季完整覆盖这部网络剧情动画。\n\nhttps://en.myshows.me/view/93147/ka-tu-season-1/ (search_snippet): MyShows集表同样列出13集，但第11至13集日期分别为2025-02-01、02-08、02-15，与TMDB存在差异，不能据此确认尾段逐集播出日期。\n\n备注：Bangumi第1至13话只有sort可用，不能仅按位置建立逐集规则；需补充章节标题或日期。；TMDB与MyShows对第11至13集的播出日期记载不同，尚未核实是否源于提前点播与常规更新排期差异。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/286343; https://www.themoviedb.org/tv/278475; https://www.themoviedb.org/tv/278475/season/1; https://wetv.vip/zh-cn/play/dpf225vnixf5hes-%E5%8D%A1%E5%BE%92?appid=coop_direct_msite_; https://en.myshows.me/view/93147/ka-tu-season-1/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 278475
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

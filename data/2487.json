@@ -1,16 +1,136 @@
 {
   "anidbId": 5800,
   "bangumiId": 2487,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 15143,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 15144,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 15145,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 15146,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 15147,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 15148,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 15149,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 15150,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 15151,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 15152,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 15153,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 15154,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 15155,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 15156,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 15157,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 15158,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 15159,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 15160,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 15161,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 15162,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 15163,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 15164,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目与 Penguin Musume Heart 为同一部 2008 年 WEB/TV 动画：标题、别名、首播日、22 集规模、导演及制作信息一致。Anime-Lists 的记录明确将 AniDB 5800 Penguin Musume Heart 关联到 TMDB TV 95709 第 1 季；TMDB 快照显示该作品首播于 2008-04-19，第 1 季共 22 集，正好覆盖 Bangumi 主体的 22 集。因此推荐完整纳入 TMDB 第 1 季，不纳入 TMDB 特别篇第 0 季。\n\nhttps://bgm.tv/subject/2487 (page): Bangumi 条目为《ペンギン娘♥はぁと》，标注 22 集、2008-04-19 首播，并列出 Penguin Musume Heart/PENGUIN GIRL 别名、导演まついひとゆき及制作信息；章节为 01–22。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录明确写有 anidbid=\"5800\"、名称 Penguin Musume Heart、tmdbtv=\"95709\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/95709 (api_snapshot): TMDB API 快照显示 ID 95709 的作品名为ペンギン娘♥はぁと，首播日 2008-04-19，共 22 集；另有第 0 季 1 个特别篇和第 1 季 22 集。\n\nhttps://www.themoviedb.org/tv/95709/season/1 (api_snapshot): TMDB API 快照明确显示 season_number=1，季集数为 22，首播日为 2008-04-19，剧集编号为 1–22。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可读取的 AniDB 标题索引将 AniDB ID 5800 对应为 Penguin Musume Heart，支持 AniDB 关联名称核对。\n\n备注：TMDB 快照中的部分单集日期与 Bangumi 的逐集日期不完全一致，且 TMDB 单集标题为通用日文占位标题；但 Anime-Lists 已明确给出第 1 季映射，且季集数与 Bangumi 主体 22 集一致。",
+    "evidence": "codex: 确认对应 TMDB 95709 第 1 季完整 22 集。年份、首播日、剧情、原作与制作资料共同确认同一部网络动画；两段配信均属于本篇，TMDB 将其合并为一个完整季。英文集标题逐集比对及总集数支持 Bangumi 1–22 对应 S01E01–E22，无需依赖旧映射或仅凭位置推断。\n\nhttps://www.themoviedb.org/tv/95709 (api_snapshot): 日文原名搜索命中 TV 95709；详情中的原名、2008-04-19 首播日、22 集总量及南极樱作为御宅族学生会长的校园喜剧剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/95709/season/1 (api_snapshot): 已读取第 1 季日文、英文完整集表，共 22 集，total_pages=1。日文标题为占位标题，英文标题则可与输入逐集核对：妹妹是小学三年级、贫穷姐妹、羽毛球女王、回到六年前等均在对应集号；22 集标题序列支持本篇 1–22 连续对应。首集日期一致，其余日期存在明显异常。\n\nhttps://bb.watch.impress.co.jp/cda/news/21287.html (page): 制作发表报道确认这是高桥哲也原作、まついひとゆき执导、南极财阀制作的网络动画，2008-04-19 开始配信，计划全 22 话；南极樱及其同学的校园剧情与 Bangumi、TMDB 简介一致。\n\nhttps://bb.watch.impress.co.jp/cda/news/23788.html (page): 同期报道明确第 1–11 话于 4–6 月配信，第 12 话起于 9 月恢复；第 22 话为最终回，2008-11-14 先行直播、11-15 正常配信，解释了输入末集日期与作品结束日期相差一天。\n\n备注：TMDB 第 2–22 集日期与实际配信排期冲突，其中第 9–22 集全部记为 2008-05-08，作品结束日期亦错误。对应关系依据英文集标题、完整集数和同期配信报道确认，不能使用这些 TMDB 日期校正 Bangumi。；TMDB 缺少制作人员资料；制作信息由同期制作发表报道交叉核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2487; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/95709; https://www.themoviedb.org/tv/95709/season/1; https://github.com/adminy/anidb_titles_parser/blob/master/title.json",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2487; https://www.themoviedb.org/tv/95709; https://www.themoviedb.org/tv/95709/season/1; https://bb.watch.impress.co.jp/cda/news/21287.html; https://bb.watch.impress.co.jp/cda/news/23788.html",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 95709
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

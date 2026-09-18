@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季序、首播日期、集数及前后作时间共同支持对应 TMDB 116042 第11季整季。Bangumi 章节缺少标题和日期，无法逐集核对，因此暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): 第11季首播日期为2024-08-17，共12集，与 Bangumi 的第十一季别名、开播日期及话数一致；第10季与第12季首播日期也分别吻合 Bangumi 前作及续作日期。\n\n备注：Bangumi 第126—137话的标题与放送日期均为空，TMDB 也仅提供通用集标题；需补充章节信息后确认逐集对应。；Bangumi 未提供剧情、制作方资料，无法交叉核验这些字段。",
+    "evidence": "codex: 季序、首播日期、集数及前后作时间共同支持对应 TMDB 116042 第11季整季。Bangumi 章节缺少标题和日期，无法逐集核对，因此暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): 第11季首播日期为2024-08-17，共12集，与 Bangumi 的第十一季别名、开播日期及话数一致；第10季与第12季首播日期也分别吻合 Bangumi 前作及续作日期。\n\n备注：Bangumi 第126—137话的标题与放送日期均为空，TMDB 也仅提供通用集标题；需补充章节信息后确认逐集对应。；Bangumi 未提供剧情、制作方资料，无法交叉核验这些字段。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/448624; https://www.themoviedb.org/tv/116042",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 137,
+      "episodeStart": 1,
+      "season": 11,
+      "start": 126,
+      "tmdbId": 116042
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

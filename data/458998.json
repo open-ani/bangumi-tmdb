@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画类别、优酷关联、40集规模及更新星期共同支持对应 TMDB 279706 第1季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核实，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/279706 (api_snapshot): 候选《永恒剑祖》为中国动画，首播日期为2024-12-19，与 Bangumi 一致；制作公司字段包含 Youku，与 Bangumi 所列优酷平台相呼应。\n\nhttps://www.themoviedb.org/tv/279706 (api_snapshot): 第1季完整列出40集，与 Bangumi 本篇总数一致；前三集于2024-12-19播出，此后每周一、周四更新至2025-04-28，与 Bangumi 所列更新星期吻合。\n\n备注：逐集对应需补充 Bangumi 章节标题或放送日期；TMDB 现有标题也仅为集号占位。；输入缺少剧情及 Bangumi 制作方信息，无法独立核对这些维度。",
+    "evidence": "codex: 名称、首播日期、动画类别、优酷关联、40集规模及更新星期共同支持对应 TMDB 279706 第1季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核实，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/279706 (api_snapshot): 候选《永恒剑祖》为中国动画，首播日期为2024-12-19，与 Bangumi 一致；制作公司字段包含 Youku，与 Bangumi 所列优酷平台相呼应。\n\nhttps://www.themoviedb.org/tv/279706 (api_snapshot): 第1季完整列出40集，与 Bangumi 本篇总数一致；前三集于2024-12-19播出，此后每周一、周四更新至2025-04-28，与 Bangumi 所列更新星期吻合。\n\n备注：逐集对应需补充 Bangumi 章节标题或放送日期；TMDB 现有标题也仅为集号占位。；输入缺少剧情及 Bangumi 制作方信息，无法独立核对这些维度。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/458998; https://www.themoviedb.org/tv/279706",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 279706
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

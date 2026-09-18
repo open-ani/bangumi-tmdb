@@ -1,0 +1,87 @@
+{
+  "bangumiId": 567346,
+  "episodes": [
+    {
+      "id": 1530486,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1530487,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1530488,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1530489,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1530490,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1530491,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1530492,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1530493,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1530494,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1530495,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1530496,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1530497,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1530498,
+      "sort": 13,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 确认对应 TMDB 387 第16季整季：媒介、制作人员、角色背景、播出起止日期及13话／22故事段的内容范围一致。Bangumi 各章节缺少标题和日期，无法确认其采用播出顺序还是包装顺序，因此只建立整季映射，逐集关系留空。\n\nhttps://bgm.tv/subject/567346 (page): Bangumi 标为 TV 第十六季，共13话，播出时间为2025年6月27日至2026年6月5日，电视台为 Nickelodeon，执行制片人为 Vincent Waller；章节仅显示编号。\n\nhttps://www.themoviedb.org/tv/387 (api_snapshot): TMDB 387 为美国电视动画《海绵宝宝》，比奇堡背景、主要角色及 Tom Kenny 等配音阵容相符，制作公司包括 Nickelodeon Animation Studio 和 United Plankton Pictures。\n\nhttps://www.themoviedb.org/tv/387/season/16 (api_snapshot): 已读取第16季完整集表，total_pages=1，共22集。首集为2025年6月27日播出的时间旅行特别篇，末集为2026年6月5日播出的 Karen's Klatch；全部标题与日期对应外部第十六季集表。\n\nhttps://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_16 (page): 第十六季为13话、22个故事段，起止日期与 Bangumi 一致，制作负责人包括 Vincent Waller。集表将时间旅行特别篇计为第4、5话，TMDB 则合为第1集；其他双故事话在 TMDB 分列，解释了13与22的数量差异。\n\n备注：Bangumi 的13个空白章节无法逐一识别；需补充章节标题、日期或明确的编排依据后再建立 rules 或 overrides。；时间旅行特别篇在13话计数中占两话，TMDB 合并为一集；不能让两个 Bangumi 章节重复占用该 TMDB 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/567346; https://www.themoviedb.org/tv/387; https://www.themoviedb.org/tv/387/season/16; https://en.wikipedia.org/wiki/SpongeBob_SquarePants_season_16",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 387,
+      "season": 16,
+      "type": "tv"
+    }
+  ]
+}

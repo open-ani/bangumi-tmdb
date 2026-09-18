@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列沿革、动画媒介、央视制作背景及第2季首播日期、26集规模相互吻合，可确认对应 TMDB 310698 第2季整季。逐集缺乏可交叉核对的标题与日期，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/310698 (api_snapshot): 候选为中国儿童动画《故事奶奶》，制作公司为央视动画；系列首播日期2017-01-04与 Bangumi 前作日期一致。第2季首播于2022-02-04，共26集，与本 subject 的季度、首播日期和集数一致。季表完整列出第1—26集，但标题均为通用集号。\n\n备注：TMDB 集标题均为通用集号，Bangumi 各集放送日期为空，无法核实具体故事标题与 TMDB 集号的逐集对应；需补充实际集标题或 Bangumi 逐集放送日期。；候选未提供该动画的剧情简介，无法独立核对剧情。",
+    "evidence": "codex: 系列沿革、动画媒介、央视制作背景及第2季首播日期、26集规模相互吻合，可确认对应 TMDB 310698 第2季整季。逐集缺乏可交叉核对的标题与日期，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/310698 (api_snapshot): 候选为中国儿童动画《故事奶奶》，制作公司为央视动画；系列首播日期2017-01-04与 Bangumi 前作日期一致。第2季首播于2022-02-04，共26集，与本 subject 的季度、首播日期和集数一致。季表完整列出第1—26集，但标题均为通用集号。\n\n备注：TMDB 集标题均为通用集号，Bangumi 各集放送日期为空，无法核实具体故事标题与 TMDB 集号的逐集对应；需补充实际集标题或 Bangumi 逐集放送日期。；候选未提供该动画的剧情简介，无法独立核对剧情。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/538926; https://www.themoviedb.org/tv/310698",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 310698
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

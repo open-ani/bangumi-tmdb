@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 剧情、动画剧集媒介、前后季年份及第二季9集范围共同支持对应 TMDB 219056 第2季整季。Bangumi 各章标题和放送日期均为空，无法逐集核验，因此不生成按位置推定的 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/219056 (api_snapshot): 该候选为青蛙与蟾蜍友谊题材的动画剧集，剧情与 Bangumi 简介一致。第1季始于2023年，与 Bangumi 前作年份一致；第2季共9集，均标注2024-05-30，与 subject 的第二季、9话及2024-05-31开播信息吻合，仅日期相差一天。\n\n备注：双方开播日期相差一天，现有数据无法确认差异原因。；需补充 Bangumi 各章标题或放送日期，才能核实逐集对应关系。",
+    "evidence": "codex: 剧情、动画剧集媒介、前后季年份及第二季9集范围共同支持对应 TMDB 219056 第2季整季。Bangumi 各章标题和放送日期均为空，无法逐集核验，因此不生成按位置推定的 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/219056 (api_snapshot): 该候选为青蛙与蟾蜍友谊题材的动画剧集，剧情与 Bangumi 简介一致。第1季始于2023年，与 Bangumi 前作年份一致；第2季共9集，均标注2024-05-30，与 subject 的第二季、9话及2024-05-31开播信息吻合，仅日期相差一天。\n\n备注：双方开播日期相差一天，现有数据无法确认差异原因。；需补充 Bangumi 各章标题或放送日期，才能核实逐集对应关系。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/494842; https://www.themoviedb.org/tv/219056",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 219056
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

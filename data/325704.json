@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、制作公司、角色剧情、上线日期、季次及13集范围一致，确认对应 TMDB 79732 第4季整季。Bangumi 章节缺少标题和逐集日期，无法完成逐集交叉比对，因此只确认季级映射，不按序号猜测填写 rules。\n\nhttps://bgm.tv/subject/325704 (page): Bangumi 标明本作为第四季 WEB 动画，2019年11月5日上线，共13话，制作公司为 DreamWorks Animation Television / Mattel Creations；剧情围绕 Catra 征服 Etheria、Glimmer 承担新职责及公主们面临背叛展开。章节仅显示01至13，未提供可比对的标题或逐集日期。\n\nhttps://www.themoviedb.org/tv/79732 (api_snapshot): TMDB 详情确认79732为2018年开始的动画系列，制作公司为 DreamWorks Animation Television，主角与剧情设定吻合；第四季列为2019年11月5日上线、13集，前后季日期也与 Bangumi 关联条目一致。\n\nhttps://www.themoviedb.org/tv/79732/season/4 (api_snapshot): 实际读取第四季全部集表，total_pages=1，共13集，编号1至13，均于2019年11月5日上线。从第1集 Glimmer 加冕到第13集阻止 Light Hope 的计划，剧情符合 subject 所述第四季，未见混入其他作品。\n\n备注：13个 Bangumi 章节的逐集对应仍缺少标题或日期证据，暂不映射。；TMDB 详情的 crew 为空，未完成制作人员名单比对；制作公司已核实一致。",
+    "evidence": "codex: 作品版本、制作公司、角色剧情、上线日期、季次及13集范围一致，确认对应 TMDB 79732 第4季整季。Bangumi 章节缺少标题和逐集日期，无法完成逐集交叉比对，因此只确认季级映射，不按序号猜测填写 rules。\n\nhttps://bgm.tv/subject/325704 (page): Bangumi 标明本作为第四季 WEB 动画，2019年11月5日上线，共13话，制作公司为 DreamWorks Animation Television / Mattel Creations；剧情围绕 Catra 征服 Etheria、Glimmer 承担新职责及公主们面临背叛展开。章节仅显示01至13，未提供可比对的标题或逐集日期。\n\nhttps://www.themoviedb.org/tv/79732 (api_snapshot): TMDB 详情确认79732为2018年开始的动画系列，制作公司为 DreamWorks Animation Television，主角与剧情设定吻合；第四季列为2019年11月5日上线、13集，前后季日期也与 Bangumi 关联条目一致。\n\nhttps://www.themoviedb.org/tv/79732/season/4 (api_snapshot): 实际读取第四季全部集表，total_pages=1，共13集，编号1至13，均于2019年11月5日上线。从第1集 Glimmer 加冕到第13集阻止 Light Hope 的计划，剧情符合 subject 所述第四季，未见混入其他作品。\n\n备注：13个 Bangumi 章节的逐集对应仍缺少标题或日期证据，暂不映射。；TMDB 详情的 crew 为空，未完成制作人员名单比对；制作公司已核实一致。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/325704; https://www.themoviedb.org/tv/79732; https://www.themoviedb.org/tv/79732/season/4",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 79732
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

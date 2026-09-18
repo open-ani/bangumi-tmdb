@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 74728 第四季整季：官方链接、版本、剧情、上线日期及8集总量相符，季表未混入1994年旧版或2020年互动特别篇。Bangumi 章节缺少标题和日期，不能完成逐集比对，因此仅确认整季范围，不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB 74728 为2019年首播的《Carmen Sandiego》动画剧，制作公司包括 HMH Productions、DHX Media、WildBrain Studios，配音包括 Gina Rodriguez、Finn Wolfhard。第四季日期为2021-01-15、共8集，季简介与输入的 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/74728/season/4 (api_snapshot): 第四季实际集表共8集，total_pages=1，集号连续为1至8，全部于2021-01-15上线；首集为北京黄金案件，末集为卡门与 V.I.L.E. 的终局，第四、六集分别涉及喜马拉雅救援和埃及解密，与 subject 简介吻合。\n\nhttps://www.netflix.com/title/80167821 (page): Bangumi 所列 Netflix 官方链接对应《Carmen Sandiego》，页面确认共4季、动画剧媒介，并列出第四季预告；剧情及 Gina Rodriguez、Finn Wolfhard 等配音与 TMDB 一致。\n\n备注：输入的8个 Bangumi 章节标题及日期均为空，实时 Bangumi 页面与 API 亦未成功读取。逐集对应仍需补充章节标题或日期后核实。",
+    "evidence": "codex: 已确认对应 TMDB 74728 第四季整季：官方链接、版本、剧情、上线日期及8集总量相符，季表未混入1994年旧版或2020年互动特别篇。Bangumi 章节缺少标题和日期，不能完成逐集比对，因此仅确认整季范围，不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB 74728 为2019年首播的《Carmen Sandiego》动画剧，制作公司包括 HMH Productions、DHX Media、WildBrain Studios，配音包括 Gina Rodriguez、Finn Wolfhard。第四季日期为2021-01-15、共8集，季简介与输入的 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/74728/season/4 (api_snapshot): 第四季实际集表共8集，total_pages=1，集号连续为1至8，全部于2021-01-15上线；首集为北京黄金案件，末集为卡门与 V.I.L.E. 的终局，第四、六集分别涉及喜马拉雅救援和埃及解密，与 subject 简介吻合。\n\nhttps://www.netflix.com/title/80167821 (page): Bangumi 所列 Netflix 官方链接对应《Carmen Sandiego》，页面确认共4季、动画剧媒介，并列出第四季预告；剧情及 Gina Rodriguez、Finn Wolfhard 等配音与 TMDB 一致。\n\n备注：输入的8个 Bangumi 章节标题及日期均为空，实时 Bangumi 页面与 API 亦未成功读取。逐集对应仍需补充章节标题或日期后核实。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/325402; https://www.themoviedb.org/tv/74728; https://www.themoviedb.org/tv/74728/season/4; https://www.netflix.com/title/80167821",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 74728
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

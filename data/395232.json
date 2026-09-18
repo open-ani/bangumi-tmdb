@@ -246,12 +246,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、剧情、主创、制作公司、48集总量及首末播出日期共同确认对应TMDB 278803第1季整季。作品与季范围可以确认；Bangumi缺少逐集标题和日期，因此不凭编号位置生成连续规则。\n\nhttps://bgm.tv/subject/395232 (page): Bangumi 标记为网络动画，共48话，播出期间为2024-12-05至2025-05-11；导演徐葵、编剧洪嘉佩，动画承制为苏州汽水熊。\n\nhttps://www.themoviedb.org/tv/278803 (api_snapshot): TMDB 278803 的首末播出日期、杨开获得神秘石枕的剧情、导演徐葵、编剧洪嘉佩及企鹅影视、阅文、中影年年、汽水熊等制作信息与该版本吻合。\n\nhttps://www.themoviedb.org/tv/278803/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共48集，编号连续为1至48；前3集日期均为2024-12-05，其后按周四、周日排列，第48集为2025-05-11，覆盖该subject的完整播出范围。\n\nhttps://bgm.tv/subject/395232/ep (page): Bangumi 章节页列出本篇1至48，但各集标题和播出日期为空，无法进行逐集标题、日期交叉核验。\n\n备注：逐集对应尚缺Bangumi章节层面的标题或日期证据，rules暂留空。；TMDB作品级number_of_episodes为49，与第1季实际48集不一致；本次范围依据已读取的完整季表，不推定存在第49集。",
+    "evidence": "codex: 年份、剧情、主创、制作公司、48集总量及首末播出日期共同确认对应TMDB 278803第1季整季。作品与季范围可以确认；Bangumi缺少逐集标题和日期，因此不凭编号位置生成连续规则。\n\nhttps://bgm.tv/subject/395232 (page): Bangumi 标记为网络动画，共48话，播出期间为2024-12-05至2025-05-11；导演徐葵、编剧洪嘉佩，动画承制为苏州汽水熊。\n\nhttps://www.themoviedb.org/tv/278803 (api_snapshot): TMDB 278803 的首末播出日期、杨开获得神秘石枕的剧情、导演徐葵、编剧洪嘉佩及企鹅影视、阅文、中影年年、汽水熊等制作信息与该版本吻合。\n\nhttps://www.themoviedb.org/tv/278803/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共48集，编号连续为1至48；前3集日期均为2024-12-05，其后按周四、周日排列，第48集为2025-05-11，覆盖该subject的完整播出范围。\n\nhttps://bgm.tv/subject/395232/ep (page): Bangumi 章节页列出本篇1至48，但各集标题和播出日期为空，无法进行逐集标题、日期交叉核验。\n\n备注：逐集对应尚缺Bangumi章节层面的标题或日期证据，rules暂留空。；TMDB作品级number_of_episodes为49，与第1季实际48集不一致；本次范围依据已读取的完整季表，不推定存在第49集。\n\n脚本按声明范围生成逐集规则：48 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/395232; https://www.themoviedb.org/tv/278803; https://www.themoviedb.org/tv/278803/season/1; https://bgm.tv/subject/395232/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 48,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 278803
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

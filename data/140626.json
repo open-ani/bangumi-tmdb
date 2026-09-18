@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 3902《Shaun the Sheep》第三季全季。电视媒介、Aardman 制作、农场故事、20 集规模及官方第三季发行内容相符；Bangumi 的 2013-02-25 对应英国开播日期，与 2012 年制作及 TMDB 日期记录的差异不构成版本冲突。Bangumi 章节均缺少标题和播出日期，无法逐集核实其 sort 所采用的顺序，因此仅确认全季范围，不生成位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 3902 为 Aardman 制作的电视动画《Shaun the Sheep》，角色包括 Shaun、Bitzer 和农场主，剧情与 Bangumi 简介一致；详情列出第三季共 20 集。\n\nhttps://www.themoviedb.org/tv/3902/season/3 (api_snapshot): 实际读取第三季全部集表：total_pages=1，共 20 集，编号 1–20，每集约 7 分钟；首集为 The Stand Off，末集为 Bull vs Wool。季起始日期记录为 2012-11-30。\n\nhttps://www.waltdisneystudios.jp/studio/others/1225/products (page): 迪士尼日本官方《ひつじのショーン シリーズ3》发行资料列出完整 20 集，制作年度为 2012 年，总长约 140 分钟，版权属于 Aardman Animations；所列故事内容与 TMDB 第三季集表吻合。\n\nhttps://www.comedy.co.uk/tv/shaun_the_sheep/episodes/3/1/ (search_snippet): British Comedy Guide 将 The Stand Off 标为第三季第 1 集，英国 CBBC 播出日期为 2013-02-25，与 Bangumi 的季度开始日期相同。\n\n备注：20 个 Bangumi 章节均无标题和单集日期，逐集对应尚待补充章节资料后核实。；TMDB 的单集日期并非英国播出日期；本次不据此推定 Bangumi 章节顺序。",
+    "evidence": "codex: 确认对应 TMDB 3902《Shaun the Sheep》第三季全季。电视媒介、Aardman 制作、农场故事、20 集规模及官方第三季发行内容相符；Bangumi 的 2013-02-25 对应英国开播日期，与 2012 年制作及 TMDB 日期记录的差异不构成版本冲突。Bangumi 章节均缺少标题和播出日期，无法逐集核实其 sort 所采用的顺序，因此仅确认全季范围，不生成位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 3902 为 Aardman 制作的电视动画《Shaun the Sheep》，角色包括 Shaun、Bitzer 和农场主，剧情与 Bangumi 简介一致；详情列出第三季共 20 集。\n\nhttps://www.themoviedb.org/tv/3902/season/3 (api_snapshot): 实际读取第三季全部集表：total_pages=1，共 20 集，编号 1–20，每集约 7 分钟；首集为 The Stand Off，末集为 Bull vs Wool。季起始日期记录为 2012-11-30。\n\nhttps://www.waltdisneystudios.jp/studio/others/1225/products (page): 迪士尼日本官方《ひつじのショーン シリーズ3》发行资料列出完整 20 集，制作年度为 2012 年，总长约 140 分钟，版权属于 Aardman Animations；所列故事内容与 TMDB 第三季集表吻合。\n\nhttps://www.comedy.co.uk/tv/shaun_the_sheep/episodes/3/1/ (search_snippet): British Comedy Guide 将 The Stand Off 标为第三季第 1 集，英国 CBBC 播出日期为 2013-02-25，与 Bangumi 的季度开始日期相同。\n\n备注：20 个 Bangumi 章节均无标题和单集日期，逐集对应尚待补充章节资料后核实。；TMDB 的单集日期并非英国播出日期；本次不据此推定 Bangumi 章节顺序。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/140626; https://www.themoviedb.org/tv/3902; https://www.themoviedb.org/tv/3902/season/3; https://www.waltdisneystudios.jp/studio/others/1225/products; https://www.comedy.co.uk/tv/shaun_the_sheep/episodes/3/1/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 3902
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

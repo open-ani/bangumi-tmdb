@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、年份、国家、动画媒介、制作方及15集单季结构共同支持对应 TMDB 118400 第1季，季表未显示混入其他作品。逐集标题无法核对且日期存在差异，因此确认作品与整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/118400 (api_snapshot): 候选为2019年韩国动画，韩文原名及制作方 Studio Animal 与 Bangumi 一致；唯一列出的第1季共15集，与 subject 本篇总数一致。候选逐集标题均为通用集号，放送日期均为2019-11-21，而 Bangumi 逐集日期均为2019-11-25。\n\n备注：候选未提供剧情简介，无法独立核对剧情。；候选逐集日期比 Bangumi 早4天，差异原因不明；缺少具体集标题或其他逐集证据，尚不能确认逐集顺序。",
+    "evidence": "codex: 确认对应 TMDB 118400 第 1 季全季。原名、年份、剧情、动画制作方及 15 集结构一致，完整季表未混入其他作品。本次韩文季表提供了具体标题，逐集核对支持 Bangumi 第 1—15 话与 TMDB S01E01—E15 连续对应。\n\nhttps://www.themoviedb.org/tv/118400 (api_snapshot): TMDB 118400 的韩文原名、2019 年份、Studio Animal 制作方及奉吉变成女性后遇见世美和尚宇的剧情均与输入吻合；详情列出一季、共 15 集。\n\nhttps://www.themoviedb.org/tv/118400/season/1 (api_snapshot): 已读取第 1 季完整集表，共 15 集，total_pages=1。第 1—15 集韩文标题与 Bangumi 顺序逐一吻合；第 11 集仅存在「거에요／거예요」拼写差异。所有 TMDB 集日期为 2019-11-21，比输入章节日期早四天。\n\nhttps://tv.apple.com/us/show/bagel-girl/umc.cmc.5m3qf1o38deq8gdvcxuvfx2a5 (search_snippet): Apple TV 的《Bagel Girl》列为 2019 年作品，剧情同为奉吉醒来变成女性；导演 Cho Hye-seung、Kim Dae-soo 及主要配音名单与 TMDB 详情一致。\n\n备注：TMDB 逐集日期为 2019-11-21，输入为 2019-11-25，差异原因尚未确认；但完整标题顺序与集数一致，足以支持逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/349313; https://www.themoviedb.org/tv/118400",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/349313; https://www.themoviedb.org/tv/118400; https://www.themoviedb.org/tv/118400/season/1; https://tv.apple.com/us/show/bagel-girl/umc.cmc.5m3qf1o38deq8gdvcxuvfx2a5",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118400
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

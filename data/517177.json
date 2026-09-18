@@ -1,0 +1,40 @@
+{
+  "bangumiId": 517177,
+  "episodes": [
+    {
+      "id": 1408404,
+      "sort": 4,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1408404,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 97645,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 标题、上线日期、剧情、主演、制作公司及单集特别篇形式相互吻合，确认对应 TMDB 97645 的 S00E05。Bangumi 唯一章节虽标为本篇 sort=4，但不能据此采用 TMDB 第 4 集；按章节 ID 显式映射至已核实的第 0 季第 5 集。\n\nhttps://www.themoviedb.org/tv/97645 (api_snapshot): TMDB 97645 为《Solar Opposites》，制作公司包含 20th Television Animation，主演 Dan Stevens、Thomas Middleditch、Sean Giambrone、Mary Mack 与特别篇宣传资料一致。\n\nhttps://www.themoviedb.org/tv/97645/season/0 (api_snapshot): 已读取第 0 季完整集表，共 6 集、1 页。第 5 集标题与本 subject 完全一致，日期为 2024-10-07，时长 25 分钟；第 3 集是 2022 年万圣节特别篇，第 4 集是 2024 年情人节特别篇，均为不同作品。\n\nhttps://api.themoviedb.org/3/find/tt31172130?external_source=imdb_id (api_snapshot): 通过 IMDb tt31172130 查询，返回 TMDB 97645 第 0 季第 5 集，章节 ID 5526098，日期为 2024-10-07，与季表核验结果一致。\n\nhttps://noreruns.net/2024/09/25/solar-opposites-halloween-special-2-crash-lands-on-hulu-monday-october-7/ (page): 转载的 Hulu 宣传稿确认该完整标题对应一集特别篇，于 2024-10-07 上线；剧情为万圣节之灵开始接管 Korvo 的生活，与 Bangumi 简介一致，并列出相同主演及制作公司。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/517177; https://www.themoviedb.org/tv/97645; https://www.themoviedb.org/tv/97645/season/0; https://api.themoviedb.org/3/find/tt31172130?external_source=imdb_id; https://noreruns.net/2024/09/25/solar-opposites-halloween-special-2-crash-lands-on-hulu-monday-october-7/",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 5,
+      "id": 97645,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

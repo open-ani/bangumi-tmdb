@@ -306,12 +306,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日、完整剧情、制作方、配音阵容及60集电视动画规格共同确认本 subject 对应 TMDB 109392 第1季整季。已读取完整季表，范围明确。Bangumi 提供的60个章节均无标题及播出日期，无法进行章节层面的逐集核验，因此保留整季匹配，rules 与 overrides 留空。\n\nhttps://bangumi.tv/subject/328080 (page): Bangumi 标明本作为 TV 动画，别名《喜羊羊与灰太狼之羊村守护者3》，共60话，2020年7月17日至26日播出，导演黄俊铭、胡丹，制作方原创动力；剧情涉及奇猫国、皓月公主及同伴猫化。\n\nhttps://www.themoviedb.org/tv/109392 (api_snapshot): TMDB 109392 为同名中国电视动画，首播日期2020-07-17，奇猫国救援剧情与 Bangumi 一致；制作公司为广州原创动力文化传播有限公司，主要配音人员亦一致。详情列出唯一第1季，共60集。\n\nhttps://www.themoviedb.org/tv/109392/season/1 (api_snapshot): 实际读取第1季完整集表，episodeCount=60、total_pages=1，集号连续覆盖1—60，每集15分钟。首集《神奇的开端》、末集《新的开始》，各集剧情均属于本次奇猫国故事，未混入其他作品；全部集的日期均填写为2020-07-17。\n\nhttps://movie.douban.com/subject/35131116/ (search_snippet): 豆瓣搜索摘要将本作标为2020年作品，导演为黄俊铭、胡丹，与 Bangumi 制作信息相符。\n\n备注：TMDB 将全部60集的播出日期记为2020-07-17，与 Bangumi 记录的7月26日完结存在差异，不能据此验证逐集日期。；逐集规则仍需补充 Bangumi 各章节的标题、日期或其他直接关联证据；本次未仅凭 sort 与 TMDB 集号相同建立对应。",
+    "evidence": "codex: 年份、首播日、完整剧情、制作方、配音阵容及60集电视动画规格共同确认本 subject 对应 TMDB 109392 第1季整季。已读取完整季表，范围明确。Bangumi 提供的60个章节均无标题及播出日期，无法进行章节层面的逐集核验，因此保留整季匹配，rules 与 overrides 留空。\n\nhttps://bangumi.tv/subject/328080 (page): Bangumi 标明本作为 TV 动画，别名《喜羊羊与灰太狼之羊村守护者3》，共60话，2020年7月17日至26日播出，导演黄俊铭、胡丹，制作方原创动力；剧情涉及奇猫国、皓月公主及同伴猫化。\n\nhttps://www.themoviedb.org/tv/109392 (api_snapshot): TMDB 109392 为同名中国电视动画，首播日期2020-07-17，奇猫国救援剧情与 Bangumi 一致；制作公司为广州原创动力文化传播有限公司，主要配音人员亦一致。详情列出唯一第1季，共60集。\n\nhttps://www.themoviedb.org/tv/109392/season/1 (api_snapshot): 实际读取第1季完整集表，episodeCount=60、total_pages=1，集号连续覆盖1—60，每集15分钟。首集《神奇的开端》、末集《新的开始》，各集剧情均属于本次奇猫国故事，未混入其他作品；全部集的日期均填写为2020-07-17。\n\nhttps://movie.douban.com/subject/35131116/ (search_snippet): 豆瓣搜索摘要将本作标为2020年作品，导演为黄俊铭、胡丹，与 Bangumi 制作信息相符。\n\n备注：TMDB 将全部60集的播出日期记为2020-07-17，与 Bangumi 记录的7月26日完结存在差异，不能据此验证逐集日期。；逐集规则仍需补充 Bangumi 各章节的标题、日期或其他直接关联证据；本次未仅凭 sort 与 TMDB 集号相同建立对应。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/328080; https://bangumi.tv/subject/328080; https://www.themoviedb.org/tv/109392; https://www.themoviedb.org/tv/109392/season/1; https://movie.douban.com/subject/35131116/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 109392
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、TV 媒介、制作方、季序、10集总量及放送起止日期共同支持对应 TMDB 65858 第4季整季。Bangumi 各章节均缺少标题和放送日期，无法逐集核验顺序，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): 候选 TV 65858 的第4季共10集，逐集放送日期从2017年8月21日至9月1日，与 Bangumi 第四季的集数及放送起止日期完全一致；制作公司包含 The LEGO Group、M2 Entertainment，与 Bangumi 出品及发行信息相符。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): 候选第3季于2017年2月4日开播，与 Bangumi 前作关系中的第三季日期一致，支持第四季的季序归属。\n\n备注：逐集映射需补充 Bangumi 章节标题或放送日期；当前不能仅按章节位置建立对应。；候选未提供剧情简介，无法独立比对剧情；地区标注也与 Bangumi 不同，但制作公司、季序及放送范围一致。",
+    "evidence": "codex: 作品、TV 媒介、制作方、季序、10集总量及放送起止日期共同支持对应 TMDB 65858 第4季整季。Bangumi 各章节均缺少标题和放送日期，无法逐集核验顺序，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): 候选 TV 65858 的第4季共10集，逐集放送日期从2017年8月21日至9月1日，与 Bangumi 第四季的集数及放送起止日期完全一致；制作公司包含 The LEGO Group、M2 Entertainment，与 Bangumi 出品及发行信息相符。\n\nhttps://www.themoviedb.org/tv/65858 (api_snapshot): 候选第3季于2017年2月4日开播，与 Bangumi 前作关系中的第三季日期一致，支持第四季的季序归属。\n\n备注：逐集映射需补充 Bangumi 章节标题或放送日期；当前不能仅按章节位置建立对应。；候选未提供剧情简介，无法独立比对剧情；地区标注也与 Bangumi 不同，但制作公司、季序及放送范围一致。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/574328; https://www.themoviedb.org/tv/65858",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 65858
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

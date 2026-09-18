@@ -120,12 +120,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介及总集数一致，候选唯一一季完整覆盖23集，可确认 subject 对应 TMDB 270671 第1季。Bangumi 各章节均缺少标题和放送日期，无法逐集交叉核对，因此仅确认整季范围，不建立按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/270671 (api_snapshot): 候选为中国动画《叶罗丽月灵石》，首播日期为2025-01-15，与 Bangumi 一致；唯一的第1季共23集，与 subject 的23话一致，季表完整列出第1至23集，播出日期覆盖2025-01-15至2025-06-04。\n\n备注：逐集对应需补充 Bangumi 章节标题或放送日期；TMDB 当前标题也仅为通用集号。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核验这两项。",
+    "evidence": "codex: 名称、首播日期、动画媒介及总集数一致，候选唯一一季完整覆盖23集，可确认 subject 对应 TMDB 270671 第1季。Bangumi 各章节均缺少标题和放送日期，无法逐集交叉核对，因此仅确认整季范围，不建立按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/270671 (api_snapshot): 候选为中国动画《叶罗丽月灵石》，首播日期为2025-01-15，与 Bangumi 一致；唯一的第1季共23集，与 subject 的23话一致，季表完整列出第1至23集，播出日期覆盖2025-01-15至2025-06-04。\n\n备注：逐集对应需补充 Bangumi 章节标题或放送日期；TMDB 当前标题也仅为通用集号。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核验这两项。\n\n脚本按声明范围生成逐集规则：23 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/643942; https://www.themoviedb.org/tv/270671",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 270671
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

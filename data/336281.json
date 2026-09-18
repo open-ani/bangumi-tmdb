@@ -131,12 +131,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 217857 第2季整季：版本、电视动画媒介、制作公司、25集规模及首尾播出日期一致，官方完整集表支持该季覆盖目标主体。Bangumi 章节缺少标题和日期，因此保留季级匹配，逐集规则留空，避免仅按位置推断。\n\nhttps://bgm.tv/subject/336281 (page): Bangumi 标注为2021年电视动画第2系列，共25集，2021年4月2日至10月22日播出，动画制作为 BN Pictures、亜細亜堂。\n\nhttps://www.themoviedb.org/tv/217857 (api_snapshot): TMDB 217857 为2020年开始的新版电视动画，原作为原ゆたか，导演为緒方隆秀，制作公司包含 BN Pictures、Ajiado；共3季，每季25集，第2季始于2021年4月2日。\n\nhttps://www.themoviedb.org/tv/217857/season/2 (api_snapshot): 实际读取第2季全部25集，total_pages=1，日期覆盖2021年4月2日至10月22日。与官方第2系列集表比较，24集标题一致（忽略注音及标点差异），第5集标题重复了第4集。\n\nhttps://www.zorori.jp/story/050.php (page): 官方第2系列页面列出完整第1至25话标题，最终话于2021年10月22日播出；剧情涉及佐罗利、比特等角色应对外星人危机。\n\nhttps://www.zorori.jp/story/026.php (page): 官方第2系列第1话为「メカメカ大さくせん」，2021年4月2日播出，与 TMDB S2E1 标题及日期一致。\n\nhttps://www.zorori.jp/story/030.php (page): 官方第5话为「ユリアおたすけ大さくせん」，2021年4月30日播出；TMDB S2E5 日期相同，但标题不同，疑似标题误填。\n\nhttps://bgm.tv/subject/336281/ep (page): Bangumi 章节页只有本篇1至25的编号，没有逐集标题或播出日期，无法直接进行章节级交叉核验。\n\nhttps://www.themoviedb.org/tv/45535 (api_snapshot): TMDB 45535 对应2004至2007年旧版，实际只有第1季52集和第2季97集；制作及年份均与本 subject 不同，不能采用线索中的第5季映射。\n\n备注：Bangumi 25个章节均无标题和播出日期；补齐这些信息后才能建立可核验的逐集规则。；TMDB S2E5 疑似误用了第4集标题；官方第5话标题和2021年4月30日播出日期已确认。",
+    "evidence": "codex: 确认对应 TMDB 217857 第2季整季：版本、电视动画媒介、制作公司、25集规模及首尾播出日期一致，官方完整集表支持该季覆盖目标主体。Bangumi 章节缺少标题和日期，因此保留季级匹配，逐集规则留空，避免仅按位置推断。\n\nhttps://bgm.tv/subject/336281 (page): Bangumi 标注为2021年电视动画第2系列，共25集，2021年4月2日至10月22日播出，动画制作为 BN Pictures、亜細亜堂。\n\nhttps://www.themoviedb.org/tv/217857 (api_snapshot): TMDB 217857 为2020年开始的新版电视动画，原作为原ゆたか，导演为緒方隆秀，制作公司包含 BN Pictures、Ajiado；共3季，每季25集，第2季始于2021年4月2日。\n\nhttps://www.themoviedb.org/tv/217857/season/2 (api_snapshot): 实际读取第2季全部25集，total_pages=1，日期覆盖2021年4月2日至10月22日。与官方第2系列集表比较，24集标题一致（忽略注音及标点差异），第5集标题重复了第4集。\n\nhttps://www.zorori.jp/story/050.php (page): 官方第2系列页面列出完整第1至25话标题，最终话于2021年10月22日播出；剧情涉及佐罗利、比特等角色应对外星人危机。\n\nhttps://www.zorori.jp/story/026.php (page): 官方第2系列第1话为「メカメカ大さくせん」，2021年4月2日播出，与 TMDB S2E1 标题及日期一致。\n\nhttps://www.zorori.jp/story/030.php (page): 官方第5话为「ユリアおたすけ大さくせん」，2021年4月30日播出；TMDB S2E5 日期相同，但标题不同，疑似标题误填。\n\nhttps://bgm.tv/subject/336281/ep (page): Bangumi 章节页只有本篇1至25的编号，没有逐集标题或播出日期，无法直接进行章节级交叉核验。\n\nhttps://www.themoviedb.org/tv/45535 (api_snapshot): TMDB 45535 对应2004至2007年旧版，实际只有第1季52集和第2季97集；制作及年份均与本 subject 不同，不能采用线索中的第5季映射。\n\n备注：Bangumi 25个章节均无标题和播出日期；补齐这些信息后才能建立可核验的逐集规则。；TMDB S2E5 疑似误用了第4集标题；官方第5话标题和2021年4月30日播出日期已确认。\n\n脚本按声明范围生成逐集规则：25 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/336281; https://www.themoviedb.org/tv/217857; https://www.themoviedb.org/tv/217857/season/2; https://www.zorori.jp/story/050.php; https://www.zorori.jp/story/026.php; https://www.zorori.jp/story/030.php; https://bgm.tv/subject/336281/ep; https://www.themoviedb.org/tv/45535",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 217857
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

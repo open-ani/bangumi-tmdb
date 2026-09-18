@@ -1,16 +1,91 @@
 {
   "anidbId": 5197,
   "bangumiId": 75027,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 277591,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 277592,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 277593,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 277594,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 277595,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 277596,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 277597,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 277598,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 277599,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 277600,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 277601,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 277602,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 277603,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2007 年《鉄子の旅》TV 动画，主体共 13 集。AniDB ID 5197 的标题为 Tetsuko no Tabi；TMDB TV 131925 的首播日为 2007-06-24，Season 1 共 13 集，且完整剧集标题顺序与 Bangumi 的 13 集逐一对应，因此应映射到 TMDB Season 1 全季。TMDB 快照中第 9 集之后的日期比 Bangumi/独立播出资料提前一周，但标题和顺序一致，属于日期资料差异，不影响作品及季范围判断。\n\nhttps://bgm.tv/subject/75027 (page): 输入的 Bangumi subject 标题为《鉄子の旅》，类型为 TV，2007-06-24 开播，共 13 集，制作信息包含 Group TAC 等。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 搜索摘要显示 AniDB ID 5197 对应标题 Tetsuko no Tabi。\n\nhttps://www.themoviedb.org/tv/131925 (api_snapshot): TMDB API 快照显示 TV 131925 名称为 鉄子の旅、首播日 2007-06-24，共 13 集，并包含 Season 1。\n\nhttps://www.themoviedb.org/tv/131925/season/1 (api_snapshot): TMDB Season 1 快照显示共 13 集；剧集标题从「久留里線全駅乗下車」至「これが北海道だ!」与 Bangumi 13 集标题顺序对应。\n\nhttps://loca.ash.jp/info/2007/s2007_tetuko.htm (search_snippet): 搜索摘要列出《鉄子の旅》第 01 至第 13 旅及 2007-06-24 至 2007-09-23 的播出日期，确认 Bangumi 第 9 集之后的日期顺序；同时与 TMDB 快照的标题顺序一致。\n\n备注：TMDB 快照中第 9 至第 13 集的 air_date 比 Bangumi及独立播出资料提前一周，TMDB 日期字段可能存在录入偏差；未据此调整集数范围。",
+    "evidence": "codex: 确认对应2007年TV动画《鉄子の旅》的TMDB 131925第1季全季。首播日期、媒介、剧情、制作信息和13话总量吻合，实际季表的13个标题与Bangumi逐集同序对应，支持本篇第1—13话一对一映射。后五话的日期冲突不改变标题确认的集号关系。\n\nhttps://www.themoviedb.org/tv/131925 (api_snapshot): 通过日文原名搜索并读取详情，确认 TV 131925 为《鉄子の旅》，首播日期为2007-06-24，别名包括 Tetsuko no Tabi；共1季13集。详情中的剧情、制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/131925/season/1 (api_snapshot): 实际读取第1季完整集表，共13集，total_pages=1。与输入的13话逐集比较，标题及顺序全部对应，仅有标点和空格差异；第1—8集日期一致，第9—13集的TMDB日期均提前7天。全季没有额外混入其他作品。\n\nhttps://www.toei-video.co.jp/catalog/dstd07354/ (search_snippet): 东映官方商品资料确认动画讲述漫画家菊池直惠随横见浩彦进行铁路旅行，导演为永丘昭典、系列构成为相马和彦、角色设计为工藤裕加、动画制作为Group TAC，正篇全13话；剧情和制作信息与输入一致。\n\nhttps://www.animatetimes.com/tag/details.php?id=6497 (search_snippet): 作品资料明确标为TV动画，全13话，2007-06-24至2007-09-23在家庭剧场播出，进一步确认媒介、年份及版本。\n\nhttps://loca.ash.jp/info/2007/s2007_tetuko.htm (page): 页面列出全部13话标题及播出日期；第9—13话分别为2007-08-26、09-02、09-09、09-16、09-23，与输入一致，支持将TMDB后五话的日期差异视为日期字段冲突，而非集号错位。\n\n备注：TMDB第9—13集日期比输入及独立播出资料提前7天，疑为日期录入偏差，具体原因未确认。；Bangumi网页本次无法读取，Bangumi侧逐集核对使用用户提供的完整快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/75027; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/131925; https://www.themoviedb.org/tv/131925/season/1; https://loca.ash.jp/info/2007/s2007_tetuko.htm",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/75027; https://www.themoviedb.org/tv/131925; https://www.themoviedb.org/tv/131925/season/1; https://www.toei-video.co.jp/catalog/dstd07354/; https://www.animatetimes.com/tag/details.php?id=6497; https://loca.ash.jp/info/2007/s2007_tetuko.htm",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 131925
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

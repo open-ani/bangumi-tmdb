@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、法国动画媒介、重合制作公司及52集季范围共同支持对应 TMDB 115079 第1季。整季范围可确认，但逐集顺序缺乏可比对证据，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/115079 (api_snapshot): 候选《Kid Lucky》为法国动画剧集，首播日期为2020-12-21，与 Bangumi 一致；制作公司 Dargaud Média、Belvision 重合。唯一列出的第1季共52集，与 subject 本篇总数一致。\n\nhttps://www.themoviedb.org/tv/115079 (api_snapshot): 第1季52集均为编号占位标题，部分放送日期缺失；第35集日期为2020-09-24，早于剧集首播日期。Bangumi 各集标题和日期均为空，无法核实逐集顺序。\n\n备注：需补充 Bangumi 分集标题或放送日期，以及 TMDB 实际分集标题，才能建立逐集对应。；TMDB 第35集日期异常，需核实；候选未提供剧情简介，无法进行剧情交叉核对。",
+    "evidence": "codex: 名称、首播日期、法国动画媒介、重合制作公司及52集季范围共同支持对应 TMDB 115079 第1季。整季范围可确认，但逐集顺序缺乏可比对证据，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/115079 (api_snapshot): 候选《Kid Lucky》为法国动画剧集，首播日期为2020-12-21，与 Bangumi 一致；制作公司 Dargaud Média、Belvision 重合。唯一列出的第1季共52集，与 subject 本篇总数一致。\n\nhttps://www.themoviedb.org/tv/115079 (api_snapshot): 第1季52集均为编号占位标题，部分放送日期缺失；第35集日期为2020-09-24，早于剧集首播日期。Bangumi 各集标题和日期均为空，无法核实逐集顺序。\n\n备注：需补充 Bangumi 分集标题或放送日期，以及 TMDB 实际分集标题，才能建立逐集对应。；TMDB 第35集日期异常，需核实；候选未提供剧情简介，无法进行剧情交叉核对。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/537619; https://www.themoviedb.org/tv/115079",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115079
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

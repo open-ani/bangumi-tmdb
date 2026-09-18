@@ -60,12 +60,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 剧情、季度首播日期、播出区间及集数共同支持该 subject 对应 TMDB 117030 第2季第1—11集，而非全季34集。范围可以确认，但缺少逐集可比对信息，暂不建立章节规则。\n\nhttps://www.themoviedb.org/tv/117030 (api_snapshot): 候选《We Baby Bears》讲述小熊寻找住家的故事，与 Bangumi 简介相符；第2季首播日期为2023-06-17。该季第1—11集均在2023-06-17至2023-08-26播出，恰好符合 Bangumi 的起止日期及11话总量；第12集起进入2025年，超出该 subject 范围。\n\n备注：Bangumi 的11个章节均无标题和放送日期，TMDB 标题也仅为集号占位；无法独立核实逐集顺序。需补充章节标题或逐集放送日期后建立 rules 或 overrides。",
+    "evidence": "codex: 剧情、季度首播日期、播出区间及集数共同支持该 subject 对应 TMDB 117030 第2季第1—11集，而非全季34集。范围可以确认，但缺少逐集可比对信息，暂不建立章节规则。\n\nhttps://www.themoviedb.org/tv/117030 (api_snapshot): 候选《We Baby Bears》讲述小熊寻找住家的故事，与 Bangumi 简介相符；第2季首播日期为2023-06-17。该季第1—11集均在2023-06-17至2023-08-26播出，恰好符合 Bangumi 的起止日期及11话总量；第12集起进入2025年，超出该 subject 范围。\n\n备注：Bangumi 的11个章节均无标题和放送日期，TMDB 标题也仅为集号占位；无法独立核实逐集顺序。需补充章节标题或逐集放送日期后建立 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/451984; https://www.themoviedb.org/tv/117030",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 117030
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

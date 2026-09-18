@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 214823第1季整季：原名、别名、年份、中文版本、人物与核心剧情一致，实际季表完整覆盖52集，未见混入其他作品。输入中的Bangumi章节均无标题和日期，无法逐章交叉验证，因此只确认作品与季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/214823 (api_snapshot): 日文名「ナノ・インベーダーズ」与英文名「Nano Invaders」搜索均返回 TV 214823。详情确认中文原名《纳米神兵》、首播日期2014-05-06、中文原语言，以及小光父亲为消防员、卷入两个外星阵营争夺地球的剧情，与输入一致；共1季52集。\n\nhttps://www.themoviedb.org/tv/214823/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共52集，集号连续为1—52；首集《侵略》讲述小光拾到敏敏手环，末集《地球》讲述众人战胜黑暗势力，覆盖完整主线。所有集的日期均被记为2014-05-06。\n\nhttps://www.tv-tokyo.co.jp/anime/nano_invaders/episodes/ (page): 日本官方集表同样收录至第52话，终集于2015-10-04播出；第26话觉醒、第27话三个月后及第52话地球等标题、剧情节点与TMDB相符，支持日文别名对应同一部连续剧情动画。\n\nhttps://www.tv-tokyo.co.jp/anime/nano_invaders/staff/ (page): 官方明确将制作名单标为日本语版，导演为前沢雅彦，制作涉及Children's Playground Entertainment、GENCO及东京电视台；应区分日本语版职员与输入中的中文制作职员。\n\n备注：Bangumi章节缺少标题及播出日期；需补充这些资料后才能建立可靠的逐集规则。；TMDB将52集日期统一填写为2014-05-06，不能作为逐集播出顺序的有效证据。；TMDB把吕佩玉列为导演，而输入将其列为配音监督；该职务字段存在差异，未用于身份确认。",
+    "evidence": "codex: 确认对应TMDB 214823第1季整季：原名、别名、年份、中文版本、人物与核心剧情一致，实际季表完整覆盖52集，未见混入其他作品。输入中的Bangumi章节均无标题和日期，无法逐章交叉验证，因此只确认作品与季范围，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/214823 (api_snapshot): 日文名「ナノ・インベーダーズ」与英文名「Nano Invaders」搜索均返回 TV 214823。详情确认中文原名《纳米神兵》、首播日期2014-05-06、中文原语言，以及小光父亲为消防员、卷入两个外星阵营争夺地球的剧情，与输入一致；共1季52集。\n\nhttps://www.themoviedb.org/tv/214823/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共52集，集号连续为1—52；首集《侵略》讲述小光拾到敏敏手环，末集《地球》讲述众人战胜黑暗势力，覆盖完整主线。所有集的日期均被记为2014-05-06。\n\nhttps://www.tv-tokyo.co.jp/anime/nano_invaders/episodes/ (page): 日本官方集表同样收录至第52话，终集于2015-10-04播出；第26话觉醒、第27话三个月后及第52话地球等标题、剧情节点与TMDB相符，支持日文别名对应同一部连续剧情动画。\n\nhttps://www.tv-tokyo.co.jp/anime/nano_invaders/staff/ (page): 官方明确将制作名单标为日本语版，导演为前沢雅彦，制作涉及Children's Playground Entertainment、GENCO及东京电视台；应区分日本语版职员与输入中的中文制作职员。\n\n备注：Bangumi章节缺少标题及播出日期；需补充这些资料后才能建立可靠的逐集规则。；TMDB将52集日期统一填写为2014-05-06，不能作为逐集播出顺序的有效证据。；TMDB把吕佩玉列为导演，而输入将其列为配音监督；该职务字段存在差异，未用于身份确认。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/209662; https://www.themoviedb.org/tv/214823; https://www.themoviedb.org/tv/214823/season/1; https://www.tv-tokyo.co.jp/anime/nano_invaders/episodes/; https://www.tv-tokyo.co.jp/anime/nano_invaders/staff/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 214823
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

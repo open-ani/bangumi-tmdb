@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、剧情、主演、电视媒介、52集总量及首尾播出日期共同确认，本 subject 对应2019年版 TMDB 87491 第一季整季，不是2015年网络版、LEGO作品或短片系列。Bangumi 章节均缺少标题和日期，无法逐集核实顺序，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/87491 (api_snapshot): TMDB 87491 为2019年3月8日首播的英语动画剧集，剧情为少女超级英雄兼顾高中生活与保护大都会；主演包括 Tara Strong、Nicole Sullivan、Myrna Velasco，与输入一致。制作公司包括 Warner Bros. Animation。\n\nhttps://www.themoviedb.org/tv/87491/season/1 (api_snapshot): 已读取第一季完整集表，共52集、仅1页。第1—4集为 #SweetJustice 四部分，播出日期为2019年3月8日；第51—52集为 #TheFreshPrincessOfRenFaire 两部分，播出日期为2020年12月27日。集数及首尾日期均与 Bangumi 第一季范围一致。\n\nhttps://www.dc.com/tv/dc-super-hero-girls-2019 (page): DC 官方将本作标为2019年电视系列，介绍少女英雄在大都会兼顾成长与打击犯罪，列出相同主演及执行制片人 Lauren Faust、Sam Register。\n\nhttps://dcsuperherogirls.fandom.com/wiki/Season_1_%28TV_series%29 (search_snippet): 第一季资料明确区分电视版与网络版，记载电视版第一季共52集，播出范围为2019年3月8日至2020年12月27日。\n\n备注：尚不能确认 Bangumi sort 1—52 是否采用 TMDB 的播出顺序；需补充 Bangumi 各集标题或日期后才能建立逐集规则。Bangumi 在线章节页本次访问失败。",
+    "evidence": "codex: 年份、剧情、主演、电视媒介、52集总量及首尾播出日期共同确认，本 subject 对应2019年版 TMDB 87491 第一季整季，不是2015年网络版、LEGO作品或短片系列。Bangumi 章节均缺少标题和日期，无法逐集核实顺序，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/87491 (api_snapshot): TMDB 87491 为2019年3月8日首播的英语动画剧集，剧情为少女超级英雄兼顾高中生活与保护大都会；主演包括 Tara Strong、Nicole Sullivan、Myrna Velasco，与输入一致。制作公司包括 Warner Bros. Animation。\n\nhttps://www.themoviedb.org/tv/87491/season/1 (api_snapshot): 已读取第一季完整集表，共52集、仅1页。第1—4集为 #SweetJustice 四部分，播出日期为2019年3月8日；第51—52集为 #TheFreshPrincessOfRenFaire 两部分，播出日期为2020年12月27日。集数及首尾日期均与 Bangumi 第一季范围一致。\n\nhttps://www.dc.com/tv/dc-super-hero-girls-2019 (page): DC 官方将本作标为2019年电视系列，介绍少女英雄在大都会兼顾成长与打击犯罪，列出相同主演及执行制片人 Lauren Faust、Sam Register。\n\nhttps://dcsuperherogirls.fandom.com/wiki/Season_1_%28TV_series%29 (search_snippet): 第一季资料明确区分电视版与网络版，记载电视版第一季共52集，播出范围为2019年3月8日至2020年12月27日。\n\n备注：尚不能确认 Bangumi sort 1—52 是否采用 TMDB 的播出顺序；需补充 Bangumi 各集标题或日期后才能建立逐集规则。Bangumi 在线章节页本次访问失败。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/524963; https://www.themoviedb.org/tv/87491; https://www.themoviedb.org/tv/87491/season/1; https://www.dc.com/tv/dc-super-hero-girls-2019; https://dcsuperherogirls.fandom.com/wiki/Season_1_%28TV_series%29",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87491
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 版本、电视动画媒介、第5季首播日期、20集总量及前作日期相互印证，可确认对应 TMDB 51817 第5季整季。Bangumi 各集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/51817 (api_snapshot): 该候选为2012年首播的电视动画，制作公司包括 Nickelodeon Animation Studio；第5季于2017年3月19日首播，共20集，与 Bangumi 的版本标识、媒介、开播日期及集数一致。第4季首播日期2015年10月25日也与 Bangumi 前作信息一致。\n\n备注：需补充 Bangumi 各集标题或放送日期后才能确认逐集对应；不能仅凭1至20的序号建立规则。；候选未提供该季剧情简介，无法直接核对 Kavaxas 剧情；Bangumi 未提供制作方信息，无法双向核对制作公司。",
+    "evidence": "codex: 版本、电视动画媒介、第5季首播日期、20集总量及前作日期相互印证，可确认对应 TMDB 51817 第5季整季。Bangumi 各集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/51817 (api_snapshot): 该候选为2012年首播的电视动画，制作公司包括 Nickelodeon Animation Studio；第5季于2017年3月19日首播，共20集，与 Bangumi 的版本标识、媒介、开播日期及集数一致。第4季首播日期2015年10月25日也与 Bangumi 前作信息一致。\n\n备注：需补充 Bangumi 各集标题或放送日期后才能确认逐集对应；不能仅凭1至20的序号建立规则。；候选未提供该季剧情简介，无法直接核对 Kavaxas 剧情；Bangumi 未提供制作方信息，无法双向核对制作公司。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/226239; https://www.themoviedb.org/tv/51817",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 51817
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

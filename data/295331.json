@@ -15,12 +15,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首发日期、两篇故事标题及总话数共同支持对应 TMDB 97721 第1季全季。章节信息缺失且结束日期存在冲突，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/97721 (api_snapshot): 候选《キスハグ》首播日期为2019-12-27，与 Bangumi 发售日一致；第1季共2集，与 Bangumi 的2话 OVA 集数一致。候选第1集标题中的「契約して♥シて♥」「手料理と恋心」均与 Bangumi 简介中的故事标题完全对应，支持作品及季范围匹配。\n\nhttps://www.themoviedb.org/tv/97721 (api_snapshot): 候选第2集日期为2020-01-03，与 Bangumi 标注的结束日期2020-02-28存在冲突；Bangumi 两个章节均未提供标题和放送日期，无法完成逐集核验。\n\n备注：需补充 Bangumi 各话标题或发售信息，并核实 TMDB 第2集日期后，才能确认两个章节的逐集对应。；Bangumi 未提供制作方字段，无法独立核对候选所列 Queen Bee。",
+    "evidence": "codex: 名称、首发日期、两篇故事标题及总话数共同支持对应 TMDB 97721 第1季全季。章节信息缺失且结束日期存在冲突，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/97721 (api_snapshot): 候选《キスハグ》首播日期为2019-12-27，与 Bangumi 发售日一致；第1季共2集，与 Bangumi 的2话 OVA 集数一致。候选第1集标题中的「契約して♥シて♥」「手料理と恋心」均与 Bangumi 简介中的故事标题完全对应，支持作品及季范围匹配。\n\nhttps://www.themoviedb.org/tv/97721 (api_snapshot): 候选第2集日期为2020-01-03，与 Bangumi 标注的结束日期2020-02-28存在冲突；Bangumi 两个章节均未提供标题和放送日期，无法完成逐集核验。\n\n备注：需补充 Bangumi 各话标题或发售信息，并核实 TMDB 第2集日期后，才能确认两个章节的逐集对应。；Bangumi 未提供制作方字段，无法独立核对候选所列 Queen Bee。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/295331; https://www.themoviedb.org/tv/97721",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 97721
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

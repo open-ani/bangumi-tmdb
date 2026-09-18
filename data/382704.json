@@ -25,12 +25,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、首播日期、四集规模及剧情设定支持对应 TMDB 221414 第 1 季；后两季的开播日期可区分其范围。季级对应成立，但逐集依据不足，暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/221414 (api_snapshot): 候选《異世界の門》为日本 TV 作品，首播日期与 Bangumi 均为 2021-04-27；第 1 季共 4 集，与 subject 的本篇集数一致。双世界之间相遇、结伴的剧情设定相容。第 2、3 季分别于 2021-06-07、2021-12-07 开播，各 4 集。\n\nhttps://www.themoviedb.org/tv/221414 (api_snapshot): 第 1 季列出第 1 至 4 集，但第 2、3 集日期分别为 2021-04-20、2021-04-13，早于所列首播日期，存在日期倒序。Bangumi 四个章节均无标题和放送日期，无法逐集交叉核实。\n\n备注：Bangumi 章节缺少标题与日期，无法确认逐集顺序；需补充章节资料并核实 TMDB 第 1 季的异常日期。；候选未提供制作公司和具体动画形式，无法独立核对这些信息。",
+    "evidence": "codex: 作品名称、首播日期、四集规模及剧情设定支持对应 TMDB 221414 第 1 季；后两季的开播日期可区分其范围。季级对应成立，但逐集依据不足，暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/221414 (api_snapshot): 候选《異世界の門》为日本 TV 作品，首播日期与 Bangumi 均为 2021-04-27；第 1 季共 4 集，与 subject 的本篇集数一致。双世界之间相遇、结伴的剧情设定相容。第 2、3 季分别于 2021-06-07、2021-12-07 开播，各 4 集。\n\nhttps://www.themoviedb.org/tv/221414 (api_snapshot): 第 1 季列出第 1 至 4 集，但第 2、3 集日期分别为 2021-04-20、2021-04-13，早于所列首播日期，存在日期倒序。Bangumi 四个章节均无标题和放送日期，无法逐集交叉核实。\n\n备注：Bangumi 章节缺少标题与日期，无法确认逐集顺序；需补充章节资料并核实 TMDB 第 1 季的异常日期。；候选未提供制作公司和具体动画形式，无法独立核对这些信息。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/382704; https://www.themoviedb.org/tv/221414",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 221414
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

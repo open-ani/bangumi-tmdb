@@ -95,12 +95,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品季度标识、首播日期、18集规模及续作日期共同支持对应 TMDB 83002 第1季整季。Bangumi 各集标题和日期均为空，无法独立核实逐集顺序，因此仅确认季范围，暂不生成逐集映射。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): TMDB 83002 原名为 Transformers: Cyberverse，第1季首播于2018-09-01，共18集，与 Bangumi 的季度标识、首播日期及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): 候选第2季首播于2019-09-07，与 Bangumi 续作关系所列第二季日期一致，支持当前 subject 对应第1季。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能核实逐集对应；候选标题均为通用集号。；候选第9集日期为2018-11-13，晚于第10、11集，存在日期顺序异常，不能据此推断重排。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。",
+    "evidence": "codex: 作品季度标识、首播日期、18集规模及续作日期共同支持对应 TMDB 83002 第1季整季。Bangumi 各集标题和日期均为空，无法独立核实逐集顺序，因此仅确认季范围，暂不生成逐集映射。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): TMDB 83002 原名为 Transformers: Cyberverse，第1季首播于2018-09-01，共18集，与 Bangumi 的季度标识、首播日期及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/83002 (api_snapshot): 候选第2季首播于2019-09-07，与 Bangumi 续作关系所列第二季日期一致，支持当前 subject 对应第1季。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能核实逐集对应；候选标题均为通用集号。；候选第9集日期为2018-11-13，晚于第10、11集，存在日期顺序异常，不能据此推断重排。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：18 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/274653; https://www.themoviedb.org/tv/83002",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83002
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

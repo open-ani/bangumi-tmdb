@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及整季范围已确认：年份、首尾播出日期、媒介、制作人员、剧情和26集总量共同支持对应 TMDB 32296 第1季，能够区分1984年旧作与2016年新版。Bangumi 各章缺少标题和日期，因此仅确认整季对应，不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/32296 (api_snapshot): 以英文原名搜索获得 TV 32296；详情确认首播为2011年6月16日、完结为2012年4月25日，共1季26集。剧情为原队员训练新学员驾驶机械狮，Daniel 的配音为 Vincent Tong，与待核对条目一致。\n\nhttps://www.themoviedb.org/tv/32296/season/1 (api_snapshot): 实际读取第1季完整集表，共26集、仅1页，覆盖2011年6月16日至2012年4月25日。前三集分别列出且同日首播，第26集为 Black；整季没有混入其他版本。\n\nhttps://en.wikipedia.org/wiki/Voltron_Force (page): 资料确认这是 Nicktoons 播出的2011年电视动画，导演为 John Delaney、Steven E. Gordon，由 Todd Garfield 开发，共26集；制作公司及新学员与原队员共同作战的剧情均与 TMDB 相符。\n\nhttps://bgm.tv/subject/349077/ep (page): Bangumi 章节页列出本篇1至26，但全部缺少集标题和播出日期，无法逐章与 TMDB 作内容核对。\n\nhttps://voltron.fandom.com/wiki/List_of_Voltron_Force_episodes (search_snippet): 外部集表列出26集及各集播出日期；前三集曾合并为首播特别节目，但仍分别编号为1至3，与 TMDB 的26集拆分结构一致。\n\n备注：26个 Bangumi 章节的逐集对应尚未验证；需补充各章标题、播出日期或内容资料后才能建立 rules 或 overrides。",
+    "evidence": "codex: 作品及整季范围已确认：年份、首尾播出日期、媒介、制作人员、剧情和26集总量共同支持对应 TMDB 32296 第1季，能够区分1984年旧作与2016年新版。Bangumi 各章缺少标题和日期，因此仅确认整季对应，不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/32296 (api_snapshot): 以英文原名搜索获得 TV 32296；详情确认首播为2011年6月16日、完结为2012年4月25日，共1季26集。剧情为原队员训练新学员驾驶机械狮，Daniel 的配音为 Vincent Tong，与待核对条目一致。\n\nhttps://www.themoviedb.org/tv/32296/season/1 (api_snapshot): 实际读取第1季完整集表，共26集、仅1页，覆盖2011年6月16日至2012年4月25日。前三集分别列出且同日首播，第26集为 Black；整季没有混入其他版本。\n\nhttps://en.wikipedia.org/wiki/Voltron_Force (page): 资料确认这是 Nicktoons 播出的2011年电视动画，导演为 John Delaney、Steven E. Gordon，由 Todd Garfield 开发，共26集；制作公司及新学员与原队员共同作战的剧情均与 TMDB 相符。\n\nhttps://bgm.tv/subject/349077/ep (page): Bangumi 章节页列出本篇1至26，但全部缺少集标题和播出日期，无法逐章与 TMDB 作内容核对。\n\nhttps://voltron.fandom.com/wiki/List_of_Voltron_Force_episodes (search_snippet): 外部集表列出26集及各集播出日期；前三集曾合并为首播特别节目，但仍分别编号为1至3，与 TMDB 的26集拆分结构一致。\n\n备注：26个 Bangumi 章节的逐集对应尚未验证；需补充各章标题、播出日期或内容资料后才能建立 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/349077; https://www.themoviedb.org/tv/32296; https://www.themoviedb.org/tv/32296/season/1; https://en.wikipedia.org/wiki/Voltron_Force; https://bgm.tv/subject/349077/ep; https://voltron.fandom.com/wiki/List_of_Voltron_Force_episodes",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 32296
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

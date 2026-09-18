@@ -60,12 +60,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、第四季标识、首播日期、11集规模及前后续季度日期相互吻合，可以确认对应 TMDB 97645 第4季整季。Bangumi 各集标题和放送日期均为空，无法逐集核对，故不凭章节位置生成连续映射。\n\nhttps://www.themoviedb.org/tv/97645 (api_snapshot): 候选原名为 Solar Opposites，第4季共11集，全部于2023-08-14放送，与 Bangumi 第四季的首播日期及本篇集数一致；第3、5季首播日期也分别与 Bangumi 前后续关联条目一致。第4季季表未显示混入关联的2024年情人节特别篇。\n\n备注：逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期后再建立 rules 或 overrides。；Bangumi 未提供剧情简介和制作公司，无法对这些维度进行独立核验。",
+    "evidence": "codex: 名称、第四季标识、首播日期、11集规模及前后续季度日期相互吻合，可以确认对应 TMDB 97645 第4季整季。Bangumi 各集标题和放送日期均为空，无法逐集核对，故不凭章节位置生成连续映射。\n\nhttps://www.themoviedb.org/tv/97645 (api_snapshot): 候选原名为 Solar Opposites，第4季共11集，全部于2023-08-14放送，与 Bangumi 第四季的首播日期及本篇集数一致；第3、5季首播日期也分别与 Bangumi 前后续关联条目一致。第4季季表未显示混入关联的2024年情人节特别篇。\n\n备注：逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期后再建立 rules 或 overrides。；Bangumi 未提供剧情简介和制作公司，无法对这些维度进行独立核验。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/359771; https://www.themoviedb.org/tv/97645",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 97645
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,66 @@
 {
   "anidbId": 2820,
   "bangumiId": 3059,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 21600,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 21601,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 21602,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 21603,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 21604,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 21605,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 21606,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 21607,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 3059 明确是2005年OVA《撲殺天使ドクロちゃん》，共8话，发行日期为2005-03-25至2005-09-22；其剧情、角色和制作信息与候选 TMDB 作品一致。TMDB 第1季正好收录8集，标题、剧情和日期顺序均与 Bangumi 的8个正篇逐集对应，因此应映射为完整第1季。TMDB 第2季属于 Bangumi 关联的续集《撲殺天使ドクロちゃん2》，不应纳入本 subject。\n\nhttps://bgm.tv/subject/3059 (page): Bangumi 将该条目标为OVA，共8话，制作人为水島努、Hal Film Maker，章节为01至08，并关联续集《撲殺天使ドクロちゃん2》。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 可检索到 AniDB ID 2820 对应标题 Bokusatsu Tenshi Dokuro-chan，支持输入中的 AniDB 关联标题核对。\n\nhttps://www.themoviedb.org/tv/42870 (api_snapshot): TMDB TV 42870 标题为撲殺天使ドクロちゃん，作品简介、日语原名和日本来源与该OVA相符；第1季有8集，第2季有4集。\n\nhttps://www.themoviedb.org/tv/42870/season/1 (api_snapshot): TMDB 第1季共8集，逐集标题对应「撲殺天使だよ！ドクロちゃん！」至「さようならだよ！ドクロちゃん！」，剧情简介也与 Bangumi 8个正篇一致。\n\n备注：TMDB 作品/季的首播日期为2005-03-13，而 Bangumi 记录的是OVA发售起始日2005-03-25；这是发行日期与播出/平台日期的语义差异，不影响8集主体对应。",
+    "evidence": "codex: 确认对应TMDB 42870完整第1季。2005年版本的剧情、导演、制作公司和配音一致，8话日文标题逐集吻合，集数与顺序完全一致，可建立1至8话连续对应。Bangumi采用OVA发售日期，TMDB采用先行播出日期；日期差异不影响章节身份。第1季未混入2007年续集。\n\nhttps://bgm.tv/subject/3059 (page): Bangumi 将本作标为2005年OVA，共8话，发售期间为3月25日至9月22日；导演水島努、动画制作Hal Film Maker，并将《撲殺天使ドクロちゃん2》列为续集。\n\nhttps://bgm.tv/subject/3059/ep (page): 章节列表为本篇第1至8话，与输入的8个章节一致。\n\nhttps://www.themoviedb.org/tv/42870 (api_snapshot): TMDB 42870 的日文原名、草壁桜与朵库萝的剧情、导演水島努、制作公司Hal Film Maker及主要配音均吻合；季列表区分2005年的8集第1季与2007年的4集第2季。\n\nhttps://www.themoviedb.org/tv/42870/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共8集。第1至8集日文标题与Bangumi逐集一致，仅标点及空格不同；每集13至14分钟，没有合并两话。第1—2、3—4、5—6、7—8集日期分别为2005-03-13、05-15、07-17、09-11，与Bangumi四组DVD发售日期保持相同分组及顺序。\n\nhttps://ccsf.jp/fnews.cgi?arc=dokurotyan (search_snippet): 资料明确区分OVA发售与先行放映：第1—2话3月25日发售，3月12日及13日先行放映；第3—4话5月25日发售，5月14日及15日先行放映，支持两站日期口径不同的解释。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3059; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/42870; https://www.themoviedb.org/tv/42870/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3059; https://bgm.tv/subject/3059/ep; https://www.themoviedb.org/tv/42870; https://www.themoviedb.org/tv/42870/season/1; https://ccsf.jp/fnews.cgi?arc=dokurotyan",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42870
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

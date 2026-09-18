@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、网络动画媒介、制作公司、角色剧情及12集规模共同确认，本 subject 对应 TMDB 154121 第1季完整范围。Bangumi 章节标题和日期均为空，TMDB 也缺少可比对的实际标题，因此只确认整季归属，不凭集号位置生成逐集规则。\n\nhttps://bgm.tv/subject/223144 (page): Bangumi 将本作标为网络动画，共12话，2021年12月25日开播，导演为史涓生、张盈盈，制作方包括彩色铅笔动画、阅文动漫及企鹅影视。\n\nhttps://star.tom.com/202112/1756801169.html (search_snippet): 定档报道确认本作改编自纪茗同名小说，由阅文动漫、企鹅影视出品，彩色铅笔动画制作，2021年12月25日起在腾讯视频播出；剧情涉及虚默、晴空进入虚拟世界拯救被困玩家。\n\nhttps://www.themoviedb.org/tv/154121 (api_snapshot): TMDB 154121 原名为《幻游猎人》，首播日期为2021年12月25日，共1季12集；制作公司包含企鹅影视、彩色铅笔动画、阅文动漫及阅文集团，角色与虚拟游戏救援剧情吻合。\n\nhttps://www.themoviedb.org/tv/154121/season/1 (api_snapshot): 第1季集表仅1页，完整列出第1至12集。第1、2集日期均为2021年12月25日，第3至8集按周排列至2022年2月5日，第9至12集日期为空；全部使用通用集号标题。\n\n备注：逐集对应仍缺少可核验的 Bangumi 章节标题或日期，rules 与 overrides 暂留空。；TMDB 第9至12集缺少日期，其作品级末播日期不能用于认定实际完结时间。；Bangumi 与定档报道的故事年份为2075年，TMDB 作品简介写2079年，但其第1集简介又写2075年；该字段存在内部差异，不影响其他证据确认作品身份。",
+    "evidence": "codex: 首播日期、网络动画媒介、制作公司、角色剧情及12集规模共同确认，本 subject 对应 TMDB 154121 第1季完整范围。Bangumi 章节标题和日期均为空，TMDB 也缺少可比对的实际标题，因此只确认整季归属，不凭集号位置生成逐集规则。\n\nhttps://bgm.tv/subject/223144 (page): Bangumi 将本作标为网络动画，共12话，2021年12月25日开播，导演为史涓生、张盈盈，制作方包括彩色铅笔动画、阅文动漫及企鹅影视。\n\nhttps://star.tom.com/202112/1756801169.html (search_snippet): 定档报道确认本作改编自纪茗同名小说，由阅文动漫、企鹅影视出品，彩色铅笔动画制作，2021年12月25日起在腾讯视频播出；剧情涉及虚默、晴空进入虚拟世界拯救被困玩家。\n\nhttps://www.themoviedb.org/tv/154121 (api_snapshot): TMDB 154121 原名为《幻游猎人》，首播日期为2021年12月25日，共1季12集；制作公司包含企鹅影视、彩色铅笔动画、阅文动漫及阅文集团，角色与虚拟游戏救援剧情吻合。\n\nhttps://www.themoviedb.org/tv/154121/season/1 (api_snapshot): 第1季集表仅1页，完整列出第1至12集。第1、2集日期均为2021年12月25日，第3至8集按周排列至2022年2月5日，第9至12集日期为空；全部使用通用集号标题。\n\n备注：逐集对应仍缺少可核验的 Bangumi 章节标题或日期，rules 与 overrides 暂留空。；TMDB 第9至12集缺少日期，其作品级末播日期不能用于认定实际完结时间。；Bangumi 与定档报道的故事年份为2075年，TMDB 作品简介写2079年，但其第1集简介又写2075年；该字段存在内部差异，不影响其他证据确认作品身份。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/223144; https://star.tom.com/202112/1756801169.html; https://www.themoviedb.org/tv/154121; https://www.themoviedb.org/tv/154121/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 154121
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

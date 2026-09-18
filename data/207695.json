@@ -166,12 +166,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应TMDB 197513第1季整季。首播年份与日期、电视动画媒介、导演、编剧、制作公司及声优阵容相符，官方发行资料确认主体共32话，实际季表也仅含32集，支持旧映射的作品与季范围。输入中Bangumi各章标题和日期均为空，TMDB也只有通用集标题，且后段日期与公开播出期间冲突，无法完成可靠的逐集比对，因此不生成rules或overrides。\n\nhttps://www.themoviedb.org/tv/197513 (api_snapshot): 以日文原名搜索找到该条目；详情确认首播为2015-03-31，共1季32集，制作公司OLM，导演橋本みつお、编剧園田英樹，声优阵容亦与官方发行资料一致。\n\nhttps://www.themoviedb.org/tv/197513/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，包含连续第1—32集。标题均为通用的“第N話”，无剧情简介；日期从2015-03-31逐周排列至2015-11-03。\n\nhttps://odessa-e.co.jp/cont/miracle_cat/index.html (page): 官方发行资料确认是2015年日本动画，讲述少女赤川ぽこ美及获得变身能力的猫マミタス等角色的故事；原案中川翔子，导演橋本みつお，系列构成園田英樹，制作含OLM。DVD前两卷各6话、后四卷各5话，共32话。\n\nhttps://animesearchjp.com/anime/detail/2468 (search_snippet): 作品资料记载其为NHK Eテレ播出的32话动画，播出期间为2015-03-31至2016-02-23，导演及制作公司与输入和官方发行资料一致。\n\n备注：TMDB末集日期2015-11-03与Bangumi及其他资料的2016-02-23不一致，不能将其连续每周日期直接作为逐集对应依据。；TMDB将原始语言标为zh，与官方资料中的日本制作、日语音轨不一致，疑为元数据错误。；逐集映射暂留空；需要补充Bangumi章节标题或日期，以及TMDB可核对的真实分集标题或修正后的播出日期。",
+    "evidence": "codex: 可确认对应TMDB 197513第1季整季。首播年份与日期、电视动画媒介、导演、编剧、制作公司及声优阵容相符，官方发行资料确认主体共32话，实际季表也仅含32集，支持旧映射的作品与季范围。输入中Bangumi各章标题和日期均为空，TMDB也只有通用集标题，且后段日期与公开播出期间冲突，无法完成可靠的逐集比对，因此不生成rules或overrides。\n\nhttps://www.themoviedb.org/tv/197513 (api_snapshot): 以日文原名搜索找到该条目；详情确认首播为2015-03-31，共1季32集，制作公司OLM，导演橋本みつお、编剧園田英樹，声优阵容亦与官方发行资料一致。\n\nhttps://www.themoviedb.org/tv/197513/season/1 (api_snapshot): 实际读取第1季完整季表，total_pages=1，包含连续第1—32集。标题均为通用的“第N話”，无剧情简介；日期从2015-03-31逐周排列至2015-11-03。\n\nhttps://odessa-e.co.jp/cont/miracle_cat/index.html (page): 官方发行资料确认是2015年日本动画，讲述少女赤川ぽこ美及获得变身能力的猫マミタス等角色的故事；原案中川翔子，导演橋本みつお，系列构成園田英樹，制作含OLM。DVD前两卷各6话、后四卷各5话，共32话。\n\nhttps://animesearchjp.com/anime/detail/2468 (search_snippet): 作品资料记载其为NHK Eテレ播出的32话动画，播出期间为2015-03-31至2016-02-23，导演及制作公司与输入和官方发行资料一致。\n\n备注：TMDB末集日期2015-11-03与Bangumi及其他资料的2016-02-23不一致，不能将其连续每周日期直接作为逐集对应依据。；TMDB将原始语言标为zh，与官方资料中的日本制作、日语音轨不一致，疑为元数据错误。；逐集映射暂留空；需要补充Bangumi章节标题或日期，以及TMDB可核对的真实分集标题或修正后的播出日期。\n\n脚本按声明范围生成逐集规则：32 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/207695; https://www.themoviedb.org/tv/197513; https://www.themoviedb.org/tv/197513/season/1; https://odessa-e.co.jp/cont/miracle_cat/index.html; https://animesearchjp.com/anime/detail/2468",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 32,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 197513
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

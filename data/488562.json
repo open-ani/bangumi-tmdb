@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、上线日期、动画媒介、Evans 一家在芝加哥公营住宅生活的剧情及全作集数相符，可确认对应 TMDB 227837 第 1 季整季。Bangumi 各章节均缺少标题和放送日期，无法逐集核对，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/227837 (api_snapshot): TMDB 227837 为美国动画剧集《Good Times》，首播日期为 2024-04-12，简介描述芝加哥公营住宅中的 Evans 一家，与 Bangumi 的日期、动画媒介及剧情背景一致。\n\nhttps://www.themoviedb.org/tv/227837 (api_snapshot): 候选仅列出第 1 季，共 10 集；已抓取第 1—10 集，放送日期均为 2024-04-12，与 Bangumi 的全作 10 集及上线日期一致。\n\n备注：逐集映射尚未确认，需要补充 Bangumi 各集标题或可验证的章节对应资料。；Bangumi 未提供制作方信息，无法进行制作方交叉核对。",
+    "evidence": "codex: 年份、上线日期、动画媒介、Evans 一家在芝加哥公营住宅生活的剧情及全作集数相符，可确认对应 TMDB 227837 第 1 季整季。Bangumi 各章节均缺少标题和放送日期，无法逐集核对，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/227837 (api_snapshot): TMDB 227837 为美国动画剧集《Good Times》，首播日期为 2024-04-12，简介描述芝加哥公营住宅中的 Evans 一家，与 Bangumi 的日期、动画媒介及剧情背景一致。\n\nhttps://www.themoviedb.org/tv/227837 (api_snapshot): 候选仅列出第 1 季，共 10 集；已抓取第 1—10 集，放送日期均为 2024-04-12，与 Bangumi 的全作 10 集及上线日期一致。\n\n备注：逐集映射尚未确认，需要补充 Bangumi 各集标题或可验证的章节对应资料。；Bangumi 未提供制作方信息，无法进行制作方交叉核对。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/488562; https://www.themoviedb.org/tv/227837",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 227837
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

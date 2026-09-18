@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、别名、上线日期、剧情、动画媒介及八集范围共同确认该 subject 对应 TMDB 304597 第1季全季。官方集表与 TMDB 逐集一致；但输入中的 Bangumi 章节均无标题和日期，无法独立核验各章节身份，因此仅确认整季范围，不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/304597 (api_snapshot): TMDB 304597 原名为 Due spicci，英文名 My 2 Cents，中文别名“小钱大事”；首播日期为 2026-05-27，共一季八集。导演、编剧为 Zerocalcare，配音包括 Zerocalcare、Valerio Mastandrea。\n\nhttps://www.themoviedb.org/tv/304597/season/1 (api_snapshot): 第1季完整集表共八集，total_pages=1，各集日期均为 2026-05-27；逐集标题、顺序及片长均与 Netflix 官方八集列表一致，没有混入其他作品。\n\nhttps://www.netflix.com/it/title/81738479 (page): Netflix 将本作标为2026年成人动画迷你剧，官方列表包含编号1至8的八集，主创及配音与 TMDB 相符。\n\nhttps://about.netflix.com/it/news/official-poster-revealed-for-my-two-cents-the-new-animated-series-created (page): Netflix 官方公告确认本作于2026年5月27日上线，由 Zerocalcare 创作、编剧及执导，Movimenti Production 联合 BAO Publishing 制作；Zero 与 Cinghiale 经营小店、陷入财务困境且故人归来的剧情与 Bangumi 简介一致。\n\n备注：Bangumi 八个章节缺少标题及播出日期；需补齐章节信息后才能建立有逐集证据支持的 rules。；TMDB 制作公司字段列为 Doghead Productions，与 Netflix 公告的制作署名不同；制作信息以官方公告为准。",
+    "evidence": "codex: 原名、别名、上线日期、剧情、动画媒介及八集范围共同确认该 subject 对应 TMDB 304597 第1季全季。官方集表与 TMDB 逐集一致；但输入中的 Bangumi 章节均无标题和日期，无法独立核验各章节身份，因此仅确认整季范围，不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/304597 (api_snapshot): TMDB 304597 原名为 Due spicci，英文名 My 2 Cents，中文别名“小钱大事”；首播日期为 2026-05-27，共一季八集。导演、编剧为 Zerocalcare，配音包括 Zerocalcare、Valerio Mastandrea。\n\nhttps://www.themoviedb.org/tv/304597/season/1 (api_snapshot): 第1季完整集表共八集，total_pages=1，各集日期均为 2026-05-27；逐集标题、顺序及片长均与 Netflix 官方八集列表一致，没有混入其他作品。\n\nhttps://www.netflix.com/it/title/81738479 (page): Netflix 将本作标为2026年成人动画迷你剧，官方列表包含编号1至8的八集，主创及配音与 TMDB 相符。\n\nhttps://about.netflix.com/it/news/official-poster-revealed-for-my-two-cents-the-new-animated-series-created (page): Netflix 官方公告确认本作于2026年5月27日上线，由 Zerocalcare 创作、编剧及执导，Movimenti Production 联合 BAO Publishing 制作；Zero 与 Cinghiale 经营小店、陷入财务困境且故人归来的剧情与 Bangumi 简介一致。\n\n备注：Bangumi 八个章节缺少标题及播出日期；需补齐章节信息后才能建立有逐集证据支持的 rules。；TMDB 制作公司字段列为 Doghead Productions，与 Netflix 公告的制作署名不同；制作信息以官方公告为准。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/643073; https://www.themoviedb.org/tv/304597; https://www.themoviedb.org/tv/304597/season/1; https://www.netflix.com/it/title/81738479; https://about.netflix.com/it/news/official-poster-revealed-for-my-two-cents-the-new-animated-series-created",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 304597
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

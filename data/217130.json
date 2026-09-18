@@ -51,12 +51,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、别名、年份、核心剧情、制作公司、动画媒介及9集规模相互吻合，确认对应 TMDB 74336 第1季整季。该季没有混入其他作品的迹象。Bangumi 缺少逐集标题和日期，TMDB 也只有通用集名，无法独立验证逐集顺序，因此仅确认整季范围，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/217130 (page): Bangumi 将本作标为 WEB 动画，共9话，2017年4月19日开始；别名为“变身少女追爱记”，总导演史涓生、导演邓志巍，动画制作为彩色铅笔动画。剧情围绕蓝漠通过神奇头花变美并追求青梅竹马展开。\n\nhttps://www.themoviedb.org/tv/74336 (api_snapshot): TMDB 74336 为2017年中文动画《蓝漠的花》，别名包含“变身少女追爱记”；制作公司为 Colored-Pencil Animation Design，蓝漠及神奇头花的核心剧情吻合。条目已完结，共1季9集。\n\nhttps://www.themoviedb.org/tv/74336/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共9集，集号连续为1至9，标题均为通用集号，日期为2017年7月13日至9月7日，每集标记13分钟。\n\nhttps://bgm.tv/subject/217130/ep (page): Bangumi 章节表只有本篇第1至9话，各话没有标题和播出日期；列出的时长约11至16分钟，缺乏可与 TMDB 逐集核对的标题或日期。\n\nhttps://www.mgtv.com/h/316394/4037340.html (search_snippet): 芒果TV搜索摘要确认本作共9集，配音包括文晓依、郭鸿博、龟娘等，剧情同为蓝漠借助头花变身并追爱。\n\n备注：Bangumi 的播出区间为2017年4月19日至6月24日，TMDB 为7月13日至9月7日；差异原因尚未确认，不能直接解释为不同平台发行日期。；TMDB 未提供导演等工作人员列表，制作身份主要通过制作公司、剧情及配音信息交叉确认。；逐集对应仍需有可核验标题、日期或内容的原始发行集表，不能仅凭双方均为9集按位置生成规则。",
+    "evidence": "codex: 原名、别名、年份、核心剧情、制作公司、动画媒介及9集规模相互吻合，确认对应 TMDB 74336 第1季整季。该季没有混入其他作品的迹象。Bangumi 缺少逐集标题和日期，TMDB 也只有通用集名，无法独立验证逐集顺序，因此仅确认整季范围，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/217130 (page): Bangumi 将本作标为 WEB 动画，共9话，2017年4月19日开始；别名为“变身少女追爱记”，总导演史涓生、导演邓志巍，动画制作为彩色铅笔动画。剧情围绕蓝漠通过神奇头花变美并追求青梅竹马展开。\n\nhttps://www.themoviedb.org/tv/74336 (api_snapshot): TMDB 74336 为2017年中文动画《蓝漠的花》，别名包含“变身少女追爱记”；制作公司为 Colored-Pencil Animation Design，蓝漠及神奇头花的核心剧情吻合。条目已完结，共1季9集。\n\nhttps://www.themoviedb.org/tv/74336/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共9集，集号连续为1至9，标题均为通用集号，日期为2017年7月13日至9月7日，每集标记13分钟。\n\nhttps://bgm.tv/subject/217130/ep (page): Bangumi 章节表只有本篇第1至9话，各话没有标题和播出日期；列出的时长约11至16分钟，缺乏可与 TMDB 逐集核对的标题或日期。\n\nhttps://www.mgtv.com/h/316394/4037340.html (search_snippet): 芒果TV搜索摘要确认本作共9集，配音包括文晓依、郭鸿博、龟娘等，剧情同为蓝漠借助头花变身并追爱。\n\n备注：Bangumi 的播出区间为2017年4月19日至6月24日，TMDB 为7月13日至9月7日；差异原因尚未确认，不能直接解释为不同平台发行日期。；TMDB 未提供导演等工作人员列表，制作身份主要通过制作公司、剧情及配音信息交叉确认。；逐集对应仍需有可核验标题、日期或内容的原始发行集表，不能仅凭双方均为9集按位置生成规则。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/217130; https://www.themoviedb.org/tv/74336; https://www.themoviedb.org/tv/74336/season/1; https://bgm.tv/subject/217130/ep; https://www.mgtv.com/h/316394/4037340.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74336
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

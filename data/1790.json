@@ -1,16 +1,41 @@
 {
   "anidbId": 4852,
   "bangumiId": 1790,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 8107,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 8108,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 8109,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2007 年制作的 AIKa R-16 三集 OVA，发售日为 2007-04-25 至 2007-10-26，制作公司为 Studio Fantasia，剧情为高中时期的蓝华初次冒险。TMDB 68417 的标题、年份、简介、原名、日语及 Miniseries 类型均与该版本吻合，并明确列为 Season 1、2007 年共 3 集；因此纳入完整第 1 季。候选 TMDB 43249 实际对应 1997 年的 AIKa 主系列，不能使用其季 2 作为本条目映射。\n\nhttps://bgm.tv/subject/1790 (page): Bangumi 将条目标为 OVA《AIKa R-16:VIRGIN MISSION》，共 3 话；发售日和播出日期为 2007-04-25、2007-07-27、2007-10-26，制作公司为 Studio Fantasia，并说明其为蓝华高中生时代的前传。\n\nhttps://www.themoviedb.org/tv/68417-aika-r-16-virgin-mission (page): TMDB 条目标题为 AIKa R-16 Virgin Mission（2007），简介涉及高中生蓝华、C 级打捞执照、宝藏猎人社团及海底任务；原名为 AIKa R-16:VIRGIN MISSION，类型为 Miniseries，并明确显示 Season 1 于 2007 年首播、共 3 集，末集为 1x3。\n\nhttps://www.themoviedb.org/tv/43249 (api_snapshot): 输入的 TMDB API 快照显示 43249 是 1997 年的 AIKa，只有 1997 年 7 集的 Season 1；Season 2 请求失败，不能据失败推断其存在或对应 R-16。\n\n备注：AniDB 4852 页面本身无法直接读取核验；但 Bangumi 条目的标题、日期、OVA 类型、制作信息和剧情与 TMDB 68417 独立吻合。",
+    "evidence": "codex: 确认对应TMDB 68417第1季全季。年份、制作公司、角色声优、高中生蓝华的前传剧情及3集OVA范围吻合；三集标题逐一相同，首末集日期一致，足以确认本篇1—3话连续对应S01E01—E03。第2集的3天日期差异不影响章节身份判断。43249属于1997年旧作，其第2季线索不成立。\n\nhttps://bgm.tv/subject/1790 (page): Bangumi 标明本作是2007年发行的3集OVA，导演西島克彦，制作公司Studio Fantasia，内容为蓝华高中时期的初次冒险。\n\nhttps://bgm.tv/subject/1790/ep (page): 本篇1—3话依次为「シークレット・ゲーム」「ピーチ・ピーチ・ビーチ」「ディープ・ブルー・ガール」，发行日期分别为2007-04-25、2007-07-27、2007-10-26。\n\nhttps://www.themoviedb.org/tv/68417 (api_snapshot): TMDB 68417原名一致，发行区间为2007-04-25至2007-10-26，由Studio Fantasia制作，共1季3集；简介描述高中生蓝华取得C级打捞资格后接受同学委托，主要角色及声优也与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/68417/season/1 (api_snapshot): 第1季完整集表共3集、仅1页，三集日文标题及顺序与Bangumi逐一一致。第1、3集日期一致；第2集日期记作2007-07-24，比Bangumi早3天。\n\nhttps://www.themoviedb.org/tv/43249 (api_snapshot): TMDB 43249是1997年开始、共7集的《AIKa》，剧情涉及成年蓝华与哈根博士，当前季列表仅有第0季和第1季；其TVDB ID为80900，说明输入中的该外部ID指向旧作。\n\n备注：第2话发行日期存在差异：Bangumi为2007-07-27，TMDB为2007-07-24，差异原因尚未确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1790; https://www.themoviedb.org/tv/68417-aika-r-16-virgin-mission; https://www.themoviedb.org/tv/43249",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1790; https://bgm.tv/subject/1790/ep; https://www.themoviedb.org/tv/68417; https://www.themoviedb.org/tv/68417/season/1; https://www.themoviedb.org/tv/43249",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68417
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

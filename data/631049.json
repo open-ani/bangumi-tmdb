@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 20集规模、完整放送起止日期及前后作时间关系共同支持对应 TMDB 41997 第8季。季级范围可以确认；逐集缺乏可比对信息，暂不建立连续规则或特例。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 候选《Minnie's Bow-Toons》第8季共20集，首集日期为2023-06-21，末集日期为2024-07-31，与 Bangumi 的总集数及放送起止日期完全一致。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 候选第7季始于2022-05-23，第9季始于2025-05-19，分别与 Bangumi 前作、后作的开始日期一致；候选为 Disney Television Animation 制作的动画剧集，支持第8季对应本条目。\n\n备注：Bangumi 全部章节缺少标题和放送日期，候选集标题也仅为通用编号，无法核实逐集顺序；需补充真实集标题或 Bangumi 逐集日期后建立章节映射。",
+    "evidence": "codex: 20集规模、完整放送起止日期及前后作时间关系共同支持对应 TMDB 41997 第8季。季级范围可以确认；逐集缺乏可比对信息，暂不建立连续规则或特例。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 候选《Minnie's Bow-Toons》第8季共20集，首集日期为2023-06-21，末集日期为2024-07-31，与 Bangumi 的总集数及放送起止日期完全一致。\n\nhttps://www.themoviedb.org/tv/41997 (api_snapshot): 候选第7季始于2022-05-23，第9季始于2025-05-19，分别与 Bangumi 前作、后作的开始日期一致；候选为 Disney Television Animation 制作的动画剧集，支持第8季对应本条目。\n\n备注：Bangumi 全部章节缺少标题和放送日期，候选集标题也仅为通用编号，无法核实逐集顺序；需补充真实集标题或 Bangumi 逐集日期后建立章节映射。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/631049; https://www.themoviedb.org/tv/41997",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 8,
+      "start": 1,
+      "tmdbId": 41997
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

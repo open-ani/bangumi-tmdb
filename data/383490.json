@@ -305,12 +305,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、制作方、集数及更新星期相互吻合，可确认对应TMDB 217149第1季整季。Bangumi所有章节均缺少标题和放送日期，无法逐集交叉核验，因此保留季级匹配，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/217149 (api_snapshot): 候选《防御全开》为中国动画，首播日期为2022-12-28，制作公司为Soyep，与Bangumi的名称、首播日期及索以文化制作信息一致。\n\nhttps://www.themoviedb.org/tv/217149 (api_snapshot): 候选仅列出第1季，共60集，完整季表覆盖第1至60集；首日播出4集，此后每周三、周日更新，末集日期为2023-07-12，与Bangumi的60话及每周三、周日播出信息吻合。\n\n备注：候选未提供剧情简介，无法直接核对剧情。；Bangumi第1至60话的标题和日期均为空，TMDB标题也仅为集号；需补充Bangumi逐集标题或放送日期后才能确认逐集对应。",
+    "evidence": "codex: 名称、首播日期、制作方、集数及更新星期相互吻合，可确认对应TMDB 217149第1季整季。Bangumi所有章节均缺少标题和放送日期，无法逐集交叉核验，因此保留季级匹配，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/217149 (api_snapshot): 候选《防御全开》为中国动画，首播日期为2022-12-28，制作公司为Soyep，与Bangumi的名称、首播日期及索以文化制作信息一致。\n\nhttps://www.themoviedb.org/tv/217149 (api_snapshot): 候选仅列出第1季，共60集，完整季表覆盖第1至60集；首日播出4集，此后每周三、周日更新，末集日期为2023-07-12，与Bangumi的60话及每周三、周日播出信息吻合。\n\n备注：候选未提供剧情简介，无法直接核对剧情。；Bangumi第1至60话的标题和日期均为空，TMDB标题也仅为集号；需补充Bangumi逐集标题或放送日期后才能确认逐集对应。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/383490; https://www.themoviedb.org/tv/217149",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 217149
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

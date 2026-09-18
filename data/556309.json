@@ -255,12 +255,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、制作方、集数及续作分季日期共同支持对应 TMDB 289275 第1季全季。Bangumi 逐集标题与日期全部缺失，无法核实逐集顺序，因此仅确认季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/289275 (api_snapshot): 候选名称为「ぬいストーリー」，制作方为 Piso Studio，与 Bangumi 官网及版权信息吻合；第1季首播日期为2023-10-07，共50集，与 subject 的首播日期和本篇集数一致。第2季首播于2024-10-19，与 Bangumi 关联续作「ぬいストーリー2」的日期一致，支持本 subject 对应第1季。\n\n备注：Bangumi 简介为空，无法交叉核对剧情；逐集映射需补充 Bangumi 各话标题或放送日期后核实，不能仅按序号建立对应。",
+    "evidence": "codex: 名称、首播日期、制作方、集数及续作分季日期共同支持对应 TMDB 289275 第1季全季。Bangumi 逐集标题与日期全部缺失，无法核实逐集顺序，因此仅确认季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/289275 (api_snapshot): 候选名称为「ぬいストーリー」，制作方为 Piso Studio，与 Bangumi 官网及版权信息吻合；第1季首播日期为2023-10-07，共50集，与 subject 的首播日期和本篇集数一致。第2季首播于2024-10-19，与 Bangumi 关联续作「ぬいストーリー2」的日期一致，支持本 subject 对应第1季。\n\n备注：Bangumi 简介为空，无法交叉核对剧情；逐集映射需补充 Bangumi 各话标题或放送日期后核实，不能仅按序号建立对应。\n\n脚本按声明范围生成逐集规则：50 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/556309; https://www.themoviedb.org/tv/289275",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 50,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 289275
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

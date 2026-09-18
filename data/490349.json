@@ -38,14 +38,54 @@
     }
   ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1332020,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 217288,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1332026,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 217288,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "codex: 年份、新加坡地区、制作公司及唯一一季七集的规模共同支持对应 TMDB 217288 第 1 季整季。逐集标题缺失且日期存在错位，无法确认章节顺序，因此仅确认作品与季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/217288 (api_snapshot): 候选 217288 是 2023 年新加坡动画，制作公司包含 Warner Bros. Animation 和 AUM Animation Studios，与 subject 的年份、地区背景及制作方吻合；唯一第 1 季共 7 集，与 subject 总集数一致。\n\nhttps://www.themoviedb.org/tv/217288 (api_snapshot): 候选 217288 第 1 季仅提供占位标题，逐集日期为 2023-10-21 至 2023-12-02；Bangumi 七集日期为 2023-08-07 至 2023-12-09，两者不能逐集顺序对齐。\n\nhttps://www.themoviedb.org/tv/47480 (api_snapshot): 候选 47480 是 2014 年开播、由 Warner Bros. Animation 与 Renegade Animation 制作的美国系列，共 325 集，不符合本次七集新加坡版的版本及规模。\n\n备注：TMDB 缺少实际集标题及剧情简介，不能核验七个故事的逐集顺序。；Bangumi 第 1 集于 8 月提前播出、末集日期为 12 月 9 日；候选排期不同，现有数据无法解释差异。需补充候选的实际集标题或逐集剧情后建立章节映射，不能仅凭位置或部分日期重合对应。",
+    "evidence": "codex: 确认对应 TMDB 217288 第1季整季。年份、新加坡场景、制作公司、短片媒介及七集规模一致。当前季表已提供真实标题与剧情，七话均可唯一对应；其中五话的标题与日期同时吻合，另外两话按明确标题及版本身份设置特例，不能沿用 Bangumi 顺序直接平移。\n\nhttps://www.themoviedb.org/tv/217288 (api_snapshot): TMDB 217288 为2023年新加坡背景的动画短剧，简介明确出现新加坡地标及角色 Merli；制作公司包括 Warner Bros. Animation、AUM Animation Studios 和 Robot Playground Media。全剧仅第1季，共7集，与本 subject 的版本、制作方及规模吻合。\n\nhttps://www.themoviedb.org/tv/217288/season/1 (api_snapshot): 第1季实际集表共7集，total_pages=1。按标题逐一比对，Bangumi 第1至7话分别对应 TMDB 第7、1、2、3、5、6、4集。Bangumi 第2至6话的标题和日期均与对应集吻合；第1、7话标题一致但日期不同。全部七个标题均有唯一对应，未混入其他作品。\n\nhttps://www.stb.gov.sg/about-stb/media-publications/media-centre/warner-bros--discovery---singapore-tourism-board-deepen-partnership-with-exciting-new-initiatives-to-mark-the-100th-anniversary-of-warner-bros--studio/ (page): 新加坡旅游局官方公告确认这是2023年以新加坡为背景的七集本地化系列，并明确榴莲主题的《What's That Smell》于8月7日提前播出，支持 Bangumi 第1话的身份及日期；其故事也与 TMDB 第7集简介一致。\n\nhttps://press.wbd.com/sg/media-release/cartoon-network/wbd-unveils-new-tom-and-jerry-series-set-asia (search_snippet): 华纳官方发布稿确认该新加坡版本由亚洲团队与 Warner Bros. Animation 合作制作，共七个约3分钟的短片，通过 Cartoon Network 和 HBO GO 播出，并在8月先行推出试播短片。\n\n备注：《What's That Smell》官方确认于2023-08-07提前播出，TMDB 第1季第7集记为2023-12-02；该日期是否代表后续正式排播尚未核实。；《Count On Merli》在 Bangumi 记为2023-12-09，TMDB 第1季第4集记为2023-11-11；日期差异原因未确认，但唯一同名集及七集完整集合支持对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/490349; https://www.themoviedb.org/tv/217288; https://www.themoviedb.org/tv/47480",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/490349; https://www.themoviedb.org/tv/217288; https://www.themoviedb.org/tv/217288/season/1; https://www.stb.gov.sg/about-stb/media-publications/media-centre/warner-bros--discovery---singapore-tourism-board-deepen-partnership-with-exciting-new-initiatives-to-mark-the-100th-anniversary-of-warner-bros--studio/; https://press.wbd.com/sg/media-release/cartoon-network/wbd-unveils-new-tom-and-jerry-series-set-asia",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 217288
+    },
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 5,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 217288
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

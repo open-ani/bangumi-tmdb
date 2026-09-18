@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作方及完整40集范围共同支持对应TMDB 291542第1季。可确认整季归属，但Bangumi全部章节缺少标题和日期，无法逐集交叉核验，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/291542 (api_snapshot): 候选《吞天记》（291542）为中国动画，首播日期为2025-05-19，制作公司为Soyep、Tencent Video，与Bangumi的名称、首播日期及索以文化、腾讯视频制作信息一致。\n\nhttps://www.themoviedb.org/tv/291542 (api_snapshot): 候选仅列第1季，共40集，季表完整列出第1至40集，与Bangumi的40集本篇范围一致；集标题均为通用编号。第30集日期早于第29集，后段部分排期也偏离周一、周三。\n\n备注：Bangumi逐集标题、放送日期均为空，TMDB标题仅为编号；需补充逐集信息后才能确认章节对应关系。；TMDB第30集起存在日期倒退及部分排期异常，不能据此推定集序调整或拆并集。；候选未提供剧情简介，无法核对吴煜的剧情信息。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作方及完整40集范围共同支持对应TMDB 291542第1季。可确认整季归属，但Bangumi全部章节缺少标题和日期，无法逐集交叉核验，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/291542 (api_snapshot): 候选《吞天记》（291542）为中国动画，首播日期为2025-05-19，制作公司为Soyep、Tencent Video，与Bangumi的名称、首播日期及索以文化、腾讯视频制作信息一致。\n\nhttps://www.themoviedb.org/tv/291542 (api_snapshot): 候选仅列第1季，共40集，季表完整列出第1至40集，与Bangumi的40集本篇范围一致；集标题均为通用编号。第30集日期早于第29集，后段部分排期也偏离周一、周三。\n\n备注：Bangumi逐集标题、放送日期均为空，TMDB标题仅为编号；需补充逐集信息后才能确认章节对应关系。；TMDB第30集起存在日期倒退及部分排期异常，不能据此推定集序调整或拆并集。；候选未提供剧情简介，无法核对吴煜的剧情信息。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/507529; https://www.themoviedb.org/tv/291542",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 291542
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

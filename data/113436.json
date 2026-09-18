@@ -81,12 +81,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、年份、网络短篇媒介、15 集总量及每集时长相符，剧情和外部正篇集表也与 TMDB 一致，可确认对应 TMDB 53009 第 1 季整季。特别篇另列，不纳入本 subject。Bangumi 输入的章节标题及日期均为空，无法完成章节级逐集比对，因此仅确认作品与季范围，rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/53009 (api_snapshot): TMDB 53009 的日文原名及罗马字别名一致，首播为 2012-11-28，完结为 2013-03-28。英文简介描述为推广东京表参道而制作、围绕桃女孩与狸猫展开的喜剧短篇；另列独立的特别篇季。\n\nhttps://www.themoviedb.org/tv/53009/season/1 (api_snapshot): 实际读取第 1 季日文及英文集表，共 15 集、仅一页，每集 1 分钟，日期范围为 2012-11-28 至 2013-03-28；英文集标题及顺序与 SIMKL 的 15 集正篇表一致。\n\nhttps://www.allcinema.net/cinema/352640 (page): allcinema 将同名作品列为 2012～2013 年日本 Web 喜剧动画，共 15 集，动画制作为「ももんぷろじぇくと」，配音为深雪マリ、きょーりゅー。\n\nhttps://simkl.com/anime/39496/ikeike-momon-chan/episodes/ (page): SIMKL 列出同名网络短篇的剧情和完整 15 集标题，内容及标题顺序与 TMDB 一致；另外单列 3 集特别篇。\n\n备注：尚未取得 Bangumi 各章节的标题或放送日期，不能仅按 sort 顺序建立逐集规则。；TMDB 制作人员字段为空，制作信息仅由 allcinema 核实；本次 AniDB 与 Bangumi 网页读取失败，未沿用旧映射所称的网页核验结论。",
+    "evidence": "codex: 原名、首播日期、年份、网络短篇媒介、15 集总量及每集时长相符，剧情和外部正篇集表也与 TMDB 一致，可确认对应 TMDB 53009 第 1 季整季。特别篇另列，不纳入本 subject。Bangumi 输入的章节标题及日期均为空，无法完成章节级逐集比对，因此仅确认作品与季范围，rules 和 overrides 留空。\n\nhttps://www.themoviedb.org/tv/53009 (api_snapshot): TMDB 53009 的日文原名及罗马字别名一致，首播为 2012-11-28，完结为 2013-03-28。英文简介描述为推广东京表参道而制作、围绕桃女孩与狸猫展开的喜剧短篇；另列独立的特别篇季。\n\nhttps://www.themoviedb.org/tv/53009/season/1 (api_snapshot): 实际读取第 1 季日文及英文集表，共 15 集、仅一页，每集 1 分钟，日期范围为 2012-11-28 至 2013-03-28；英文集标题及顺序与 SIMKL 的 15 集正篇表一致。\n\nhttps://www.allcinema.net/cinema/352640 (page): allcinema 将同名作品列为 2012～2013 年日本 Web 喜剧动画，共 15 集，动画制作为「ももんぷろじぇくと」，配音为深雪マリ、きょーりゅー。\n\nhttps://simkl.com/anime/39496/ikeike-momon-chan/episodes/ (page): SIMKL 列出同名网络短篇的剧情和完整 15 集标题，内容及标题顺序与 TMDB 一致；另外单列 3 集特别篇。\n\n备注：尚未取得 Bangumi 各章节的标题或放送日期，不能仅按 sort 顺序建立逐集规则。；TMDB 制作人员字段为空，制作信息仅由 allcinema 核实；本次 AniDB 与 Bangumi 网页读取失败，未沿用旧映射所称的网页核验结论。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/113436; https://www.themoviedb.org/tv/53009; https://www.themoviedb.org/tv/53009/season/1; https://www.allcinema.net/cinema/352640; https://simkl.com/anime/39496/ikeike-momon-chan/episodes/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 53009
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

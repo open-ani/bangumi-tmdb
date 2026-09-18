@@ -25,12 +25,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列名称、第六章编号、上线日期、4集规模及前作日期共同支持对应TMDB第6季整季。逐集缺乏可比对的标题和日期，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/158691 (api_snapshot): 候选《My Little Pony: Make Your Mark》第6季共4集，逐集日期均为2023-11-23，与该subject的章数、总集数及上线日期一致；第5季上线日期2023-09-18也与Bangumi关联前作一致。\n\n备注：Bangumi四个章节均无标题和放送日期，TMDB标题也仅为通用集号；需补充有效逐集标题或日期才能确认章节对应。；候选未提供剧情简介，Bangumi未提供制作方，无法交叉核对这两项。",
+    "evidence": "codex: 系列名称、第六章编号、上线日期、4集规模及前作日期共同支持对应TMDB第6季整季。逐集缺乏可比对的标题和日期，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/158691 (api_snapshot): 候选《My Little Pony: Make Your Mark》第6季共4集，逐集日期均为2023-11-23，与该subject的章数、总集数及上线日期一致；第5季上线日期2023-09-18也与Bangumi关联前作一致。\n\n备注：Bangumi四个章节均无标题和放送日期，TMDB标题也仅为通用集号；需补充有效逐集标题或日期才能确认章节对应。；候选未提供剧情简介，Bangumi未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/461916; https://www.themoviedb.org/tv/158691",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 158691
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

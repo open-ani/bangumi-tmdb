@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列名、明确的第七季季表、2024 年播出区间、26 集总量及相同完结日期共同支持对应 TMDB 45039 第七季整季。逐集资料不足，暂不建立章节规则。\n\nhttps://www.themoviedb.org/tv/45039 (api_snapshot): 候选 45039 的原名为「꼬마버스 타요」，第七季共 26 集，逐集日期覆盖 2024-02-28 至 2024-05-23；与 Bangumi 的系列名、季序、年份、集数及完结日期一致，首播日期相差两天。\n\nhttps://www.themoviedb.org/tv/281250 (api_snapshot): 候选 281250 为「마법버스 타요」，仅列第一季 13 集，没有日期及有效集标题，不能对应本次第七季 26 集的范围。\n\n备注：Bangumi 首播日期为 2024-02-26，TMDB 为 2024-02-28，差异原因无法从现有数据确认。；Bangumi 全部章节缺少标题和日期，TMDB 标题均为通用集号，无法核实逐集顺序；需补充有效集标题或 Bangumi 逐集日期后建立对应关系。",
+    "evidence": "codex: 系列名、明确的第七季季表、2024 年播出区间、26 集总量及相同完结日期共同支持对应 TMDB 45039 第七季整季。逐集资料不足，暂不建立章节规则。\n\nhttps://www.themoviedb.org/tv/45039 (api_snapshot): 候选 45039 的原名为「꼬마버스 타요」，第七季共 26 集，逐集日期覆盖 2024-02-28 至 2024-05-23；与 Bangumi 的系列名、季序、年份、集数及完结日期一致，首播日期相差两天。\n\nhttps://www.themoviedb.org/tv/281250 (api_snapshot): 候选 281250 为「마법버스 타요」，仅列第一季 13 集，没有日期及有效集标题，不能对应本次第七季 26 集的范围。\n\n备注：Bangumi 首播日期为 2024-02-26，TMDB 为 2024-02-28，差异原因无法从现有数据确认。；Bangumi 全部章节缺少标题和日期，TMDB 标题均为通用集号，无法核实逐集顺序；需补充有效集标题或 Bangumi 逐集日期后建立对应关系。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/659750; https://www.themoviedb.org/tv/45039; https://www.themoviedb.org/tv/281250",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 45039
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

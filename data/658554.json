@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列前作日期、第2季首尾放送日期及26集总量一致，可确认 subject 覆盖 TMDB 76054 第2季整季。Bangumi 所有章节均缺少标题和日期，无法逐集比对，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/76054 (api_snapshot): 该作品为英国动画剧集；全剧首播日期为2015-09-07，与 Bangumi 前作日期一致。第2季共26集，第1集日期为2018-10-22，第26集为2019-10-30，与本 subject 的集数、放送开始及结束日期一致。\n\nhttps://www.themoviedb.org/tv/76054 (api_snapshot): 第2季各集标题均为通用集号，第2至25集缺少放送日期，无法据此核实 Bangumi 各章节的具体顺序。\n\n备注：逐集对应尚未确认；需补充 Bangumi 分集标题或日期，以及 TMDB 的有效分集资料后再建立规则。；候选未提供剧情简介或可与 Bangumi 主创交叉核对的信息。",
+    "evidence": "codex: 系列前作日期、第2季首尾放送日期及26集总量一致，可确认 subject 覆盖 TMDB 76054 第2季整季。Bangumi 所有章节均缺少标题和日期，无法逐集比对，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/76054 (api_snapshot): 该作品为英国动画剧集；全剧首播日期为2015-09-07，与 Bangumi 前作日期一致。第2季共26集，第1集日期为2018-10-22，第26集为2019-10-30，与本 subject 的集数、放送开始及结束日期一致。\n\nhttps://www.themoviedb.org/tv/76054 (api_snapshot): 第2季各集标题均为通用集号，第2至25集缺少放送日期，无法据此核实 Bangumi 各章节的具体顺序。\n\n备注：逐集对应尚未确认；需补充 Bangumi 分集标题或日期，以及 TMDB 的有效分集资料后再建立规则。；候选未提供剧情简介或可与 Bangumi 主创交叉核对的信息。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/658554; https://www.themoviedb.org/tv/76054",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 76054
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

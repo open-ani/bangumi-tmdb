@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 1434 第24季整季：季度、15集总量、实际首末集日期及前作季度信息相符。Bangumi 各集标题与日期均为空，无法逐集核实顺序，因此仅声明整季范围，不生成逐集映射。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选 1434 为美国动画喜剧《Family Guy》，第24季共15集；逐集表首集日期为2026-02-15、末集为2026-05-17，与 Bangumi 的媒介、季度、集数和放送起止日期一致。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选第23季首播日期为2025-02-16，与 Bangumi 前作关系中的第23季日期一致，支持季度归属。\n\n备注：TMDB 季概要首播日期为2026-02-14，与其首集日期及 Bangumi 开播日期相差一天；整季判断依据逐集表。；需补充 Bangumi 各集标题或放送日期后核实逐集对应；TMDB 当前标题也仅为通用集号。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 1434 第24季整季：季度、15集总量、实际首末集日期及前作季度信息相符。Bangumi 各集标题与日期均为空，无法逐集核实顺序，因此仅声明整季范围，不生成逐集映射。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选 1434 为美国动画喜剧《Family Guy》，第24季共15集；逐集表首集日期为2026-02-15、末集为2026-05-17，与 Bangumi 的媒介、季度、集数和放送起止日期一致。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 候选第23季首播日期为2025-02-16，与 Bangumi 前作关系中的第23季日期一致，支持季度归属。\n\n备注：TMDB 季概要首播日期为2026-02-14，与其首集日期及 Bangumi 开播日期相差一天；整季判断依据逐集表。；需补充 Bangumi 各集标题或放送日期后核实逐集对应；TMDB 当前标题也仅为通用集号。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/640711; https://www.themoviedb.org/tv/1434",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 24,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

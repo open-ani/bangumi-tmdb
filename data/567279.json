@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、动画媒介、前后作首播日期及52集规模相互吻合，足以确认对应 TMDB 237739 第2季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/237739 (api_snapshot): 候选为中国动画，制作公司为 Huaqiang Fangte Animation，与 Bangumi 标注的方特动漫吻合。第1季首播于2023-10-20，与 Bangumi 前作日期一致；第2季首播于2025-07-09，共52集，与本条目的首播日期、续作关系及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/237739 (api_snapshot): 第2季季表完整列出第1至52集，放送日期为2025-07-09至2025-07-12，但标题均为通用集号，无法用于核对具体剧情或逐集顺序。\n\n备注：候选未提供剧情简介，无法直接核对天岁虫及慕云国故事线。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期及可核验的 TMDB 分集信息后建立规则。",
+    "evidence": "codex: 制作方、动画媒介、前后作首播日期及52集规模相互吻合，足以确认对应 TMDB 237739 第2季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/237739 (api_snapshot): 候选为中国动画，制作公司为 Huaqiang Fangte Animation，与 Bangumi 标注的方特动漫吻合。第1季首播于2023-10-20，与 Bangumi 前作日期一致；第2季首播于2025-07-09，共52集，与本条目的首播日期、续作关系及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/237739 (api_snapshot): 第2季季表完整列出第1至52集，放送日期为2025-07-09至2025-07-12，但标题均为通用集号，无法用于核对具体剧情或逐集顺序。\n\n备注：候选未提供剧情简介，无法直接核对天岁虫及慕云国故事线。；逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期及可核验的 TMDB 分集信息后建立规则。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/567279; https://www.themoviedb.org/tv/237739",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 237739
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

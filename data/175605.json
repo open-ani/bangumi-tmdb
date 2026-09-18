@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、动画媒介、HBO 制作背景、核心制作人员、纽约动物讽刺喜剧剧情及10集范围一致，可确认对应 TMDB 65228 第一季整季。Bangumi 章节缺少标题和日期，因此仅确认季级范围，不按序号猜测逐集规则。\n\nhttps://bgm.tv/subject/175605 (page): Bangumi 标注为 TV 动画第一季，共10话，2016年2月5日开播；导演包括 Mike Luciano、Phil Matarese、Wesley Archer，简介为 HBO 制作、以纽约动物生活讽刺人类社会的动画喜剧。\n\nhttps://www.themoviedb.org/tv/65228 (api_snapshot): TMDB 65228 为英语动画喜剧《Animals.》，首播日期2016年2月5日，制作公司包括 HBO，剧情围绕纽约动物生活，主演包含 Mike Luciano 和 Phil Matarese，别名包含“纽约浮牲录”；作品共三季，第一季10集。\n\nhttps://www.themoviedb.org/tv/65228/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，播出日期从2016年2月5日至4月8日；依次为 Rats、Pigeons、Cats、Dogs、Rats、Pigeons、Flies、Squirrels Part I、Squirrels Part II、Turkeys，未混入其他季或作品。\n\nhttps://www.tvguide.com/tvshows/animals/episodes-season-1/1000602867/ (search_snippet): TV Guide 将本作列为 HBO 动画喜剧，由 Phil Matarese 和 Mike Luciano 创作；第一季为2016年的10集，所列首集、末集及松鼠上下篇的标题和播出日期与 TMDB 一致。\n\n备注：Bangumi 本篇第1—10话的标题和播出日期均为空，尚不能完成逐章交叉核对；rules 和 overrides 暂留空，待补充章节资料后确认。",
+    "evidence": "codex: 年份、首播日期、动画媒介、HBO 制作背景、核心制作人员、纽约动物讽刺喜剧剧情及10集范围一致，可确认对应 TMDB 65228 第一季整季。Bangumi 章节缺少标题和日期，因此仅确认季级范围，不按序号猜测逐集规则。\n\nhttps://bgm.tv/subject/175605 (page): Bangumi 标注为 TV 动画第一季，共10话，2016年2月5日开播；导演包括 Mike Luciano、Phil Matarese、Wesley Archer，简介为 HBO 制作、以纽约动物生活讽刺人类社会的动画喜剧。\n\nhttps://www.themoviedb.org/tv/65228 (api_snapshot): TMDB 65228 为英语动画喜剧《Animals.》，首播日期2016年2月5日，制作公司包括 HBO，剧情围绕纽约动物生活，主演包含 Mike Luciano 和 Phil Matarese，别名包含“纽约浮牲录”；作品共三季，第一季10集。\n\nhttps://www.themoviedb.org/tv/65228/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，播出日期从2016年2月5日至4月8日；依次为 Rats、Pigeons、Cats、Dogs、Rats、Pigeons、Flies、Squirrels Part I、Squirrels Part II、Turkeys，未混入其他季或作品。\n\nhttps://www.tvguide.com/tvshows/animals/episodes-season-1/1000602867/ (search_snippet): TV Guide 将本作列为 HBO 动画喜剧，由 Phil Matarese 和 Mike Luciano 创作；第一季为2016年的10集，所列首集、末集及松鼠上下篇的标题和播出日期与 TMDB 一致。\n\n备注：Bangumi 本篇第1—10话的标题和播出日期均为空，尚不能完成逐章交叉核对；rules 和 overrides 暂留空，待补充章节资料后确认。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/175605; https://www.themoviedb.org/tv/65228; https://www.themoviedb.org/tv/65228/season/1; https://www.tvguide.com/tvshows/animals/episodes-season-1/1000602867/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65228
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

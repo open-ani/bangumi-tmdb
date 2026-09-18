@@ -26,12 +26,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 132756 第1季整季：年份、网络宣传动画性质、埼玉旅游主题、四篇具体故事及集数均吻合，实际季表没有混入其他作品。Bangumi 的4个章节均缺少标题和日期，无法逐章独立核实，因此仅确认整季范围，暂不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/132756 (api_snapshot): TMDB 132756 为2012年日本动画《The Four Seasons》，简介明确描述埼玉县观光宣传、春夏秋冬四个故事及片尾交通介绍，并列出与 Bangumi 简介对应的四篇故事；全作1季4集。\n\nhttps://www.themoviedb.org/tv/132756/season/1 (api_snapshot): 第1季实际集表共4集，total_pages=1。第1至4集依次为春篇樱花回忆、夏篇埼玉高中广播部观光介绍、秋篇勇者与公主冒险、冬篇 Winter Sweet Home；日期均为2012-03-27，时长均为9分钟。\n\nhttps://www.skipcity.jp/channel/ani/ (page): 埼玉官方动画门户将本作列为观光宣传动画，明确标注第1至4话，并提供日英中文标题。四篇内容及顺序均与 TMDB 季表和 Bangumi 简介相符。\n\nhttps://www.youtube.com/watch?v=w0RSqb_tocc (search_snippet): 春篇《桜のおもいで》的视频搜索摘要显示发布日期为2012-03-27，并说明本作由展示埼玉旅游资源的四个季节故事组成，支持 TMDB 的年份、日期和作品设定。\n\n备注：Bangumi 标注2012-03-21、约8分钟，TMDB 标注2012-03-27、9分钟；视频搜索摘要支持后者日期，但首次公开日期及时长差异仍未完全厘清。；TMDB 制作公司字段为 P.A.WORKS，演职员列表为空；本次未取得独立制作署名证据，不将该字段作为匹配依据。；逐集规则需要补充 Bangumi 章节标题、日期或其他能证明具体章节身份的资料。",
+    "evidence": "codex: 可确认对应 TMDB 132756 第1季整季：年份、网络宣传动画性质、埼玉旅游主题、四篇具体故事及集数均吻合，实际季表没有混入其他作品。Bangumi 的4个章节均缺少标题和日期，无法逐章独立核实，因此仅确认整季范围，暂不按位置生成 rules。\n\nhttps://www.themoviedb.org/tv/132756 (api_snapshot): TMDB 132756 为2012年日本动画《The Four Seasons》，简介明确描述埼玉县观光宣传、春夏秋冬四个故事及片尾交通介绍，并列出与 Bangumi 简介对应的四篇故事；全作1季4集。\n\nhttps://www.themoviedb.org/tv/132756/season/1 (api_snapshot): 第1季实际集表共4集，total_pages=1。第1至4集依次为春篇樱花回忆、夏篇埼玉高中广播部观光介绍、秋篇勇者与公主冒险、冬篇 Winter Sweet Home；日期均为2012-03-27，时长均为9分钟。\n\nhttps://www.skipcity.jp/channel/ani/ (page): 埼玉官方动画门户将本作列为观光宣传动画，明确标注第1至4话，并提供日英中文标题。四篇内容及顺序均与 TMDB 季表和 Bangumi 简介相符。\n\nhttps://www.youtube.com/watch?v=w0RSqb_tocc (search_snippet): 春篇《桜のおもいで》的视频搜索摘要显示发布日期为2012-03-27，并说明本作由展示埼玉旅游资源的四个季节故事组成，支持 TMDB 的年份、日期和作品设定。\n\n备注：Bangumi 标注2012-03-21、约8分钟，TMDB 标注2012-03-27、9分钟；视频搜索摘要支持后者日期，但首次公开日期及时长差异仍未完全厘清。；TMDB 制作公司字段为 P.A.WORKS，演职员列表为空；本次未取得独立制作署名证据，不将该字段作为匹配依据。；逐集规则需要补充 Bangumi 章节标题、日期或其他能证明具体章节身份的资料。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/98687; https://www.themoviedb.org/tv/132756; https://www.themoviedb.org/tv/132756/season/1; https://www.skipcity.jp/channel/ani/; https://www.youtube.com/watch?v=w0RSqb_tocc",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132756
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应TMDB 196568完整第4季：版本副标题、首播日期、长安篇剧情及13集范围一致，季表未混入其他作品。Bangumi所给13个章节均缺少标题和日期，TMDB也仅有通用集标题，因此仅确认整季归属，不凭编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/479011 (page): Bangumi 标为 WEB 动画，共13话，2024-12-27开播；别名包含“长安篇”“牡丹香幽大理寺”，导演为王博、袁亮，动画制作为灵叁伍动画，剧情围绕云缨加入大理寺及尧天组织展开。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): 实际读取作品详情：196568为《是王者啊？》系列，第4季明确记载2024-12-27开播、13集，副标题和长安城、云缨、李元芳、大理寺与尧天组织的剧情均吻合。\n\nhttps://www.themoviedb.org/tv/196568/season/4 (api_snapshot): 实际读取第4季全部集表，total_pages=1，共13集，集号1—13；日期从2024-12-27逐周排列至2025-03-21。各集只有“第N集”形式的通用标题，没有分集简介。\n\nhttps://www.iqiyi.com/a_t14ufs18rh.html (page): 爱奇艺将本作列为2024年动画《是王者啊？第4季》，共13集、每周五更新1集，剧情与Bangumi及TMDB第4季一致，支持完整季度范围。\n\nhttps://www.anibk.com/ep/11064-13 (search_snippet): 番组百科搜索摘要列出第1—13话的日期，与TMDB逐集日期相同；但该资料不能补足Bangumi章节自身缺失的标题和日期。\n\n备注：逐集规则暂留空；需补充可与Bangumi章节关联的分集标题、日期或内容证据。；TMDB制作公司及演职员字段为空，无法在TMDB侧交叉核对制作人员；相关信息由Bangumi页面确认。",
+    "evidence": "codex: 已确认对应TMDB 196568完整第4季：版本副标题、首播日期、长安篇剧情及13集范围一致，季表未混入其他作品。Bangumi所给13个章节均缺少标题和日期，TMDB也仅有通用集标题，因此仅确认整季归属，不凭编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/479011 (page): Bangumi 标为 WEB 动画，共13话，2024-12-27开播；别名包含“长安篇”“牡丹香幽大理寺”，导演为王博、袁亮，动画制作为灵叁伍动画，剧情围绕云缨加入大理寺及尧天组织展开。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): 实际读取作品详情：196568为《是王者啊？》系列，第4季明确记载2024-12-27开播、13集，副标题和长安城、云缨、李元芳、大理寺与尧天组织的剧情均吻合。\n\nhttps://www.themoviedb.org/tv/196568/season/4 (api_snapshot): 实际读取第4季全部集表，total_pages=1，共13集，集号1—13；日期从2024-12-27逐周排列至2025-03-21。各集只有“第N集”形式的通用标题，没有分集简介。\n\nhttps://www.iqiyi.com/a_t14ufs18rh.html (page): 爱奇艺将本作列为2024年动画《是王者啊？第4季》，共13集、每周五更新1集，剧情与Bangumi及TMDB第4季一致，支持完整季度范围。\n\nhttps://www.anibk.com/ep/11064-13 (search_snippet): 番组百科搜索摘要列出第1—13话的日期，与TMDB逐集日期相同；但该资料不能补足Bangumi章节自身缺失的标题和日期。\n\n备注：逐集规则暂留空；需补充可与Bangumi章节关联的分集标题、日期或内容证据。；TMDB制作公司及演职员字段为空，无法在TMDB侧交叉核对制作人员；相关信息由Bangumi页面确认。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/479011; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/4; https://www.iqiyi.com/a_t14ufs18rh.html; https://www.anibk.com/ep/11064-13",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 196568
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

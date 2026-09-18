@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季别、首播日期、10集规模及独立后续作品共同支持对应 TMDB 106251 第4季第1—10集，不能映射整季。Bangumi 各章节缺少标题和日期，无法独立核实逐集对应，因此仅确认覆盖范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/106251 (api_snapshot): 该剧第4季共14集，其中第1—10集放送日期均为2023-01-20，与 Bangumi 第四季的开播日期及10集本篇规模一致；第11—14集日期均为2023-06-01，属于另一批次。\n\nhttps://www.themoviedb.org/movie/1148396 (api_snapshot): 独立电影《LEGO Monkie Kid: The Emperor's Wrath》上映日期为2023-06-01，与 Bangumi 列出的后续作品名称及日期一致，支持将该后续作品排除在本 subject 范围之外。\n\n备注：Bangumi 10个章节的标题和放送日期均为空，TMDB 对应集标题也仅为编号；需补充章节标题或逐集放送资料后才能确认逐集映射。",
+    "evidence": "codex: 季别、首播日期、10集规模及独立后续作品共同支持对应 TMDB 106251 第4季第1—10集，不能映射整季。Bangumi 各章节缺少标题和日期，无法独立核实逐集对应，因此仅确认覆盖范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/106251 (api_snapshot): 该剧第4季共14集，其中第1—10集放送日期均为2023-01-20，与 Bangumi 第四季的开播日期及10集本篇规模一致；第11—14集日期均为2023-06-01，属于另一批次。\n\nhttps://www.themoviedb.org/movie/1148396 (api_snapshot): 独立电影《LEGO Monkie Kid: The Emperor's Wrath》上映日期为2023-06-01，与 Bangumi 列出的后续作品名称及日期一致，支持将该后续作品排除在本 subject 范围之外。\n\n备注：Bangumi 10个章节的标题和放送日期均为空，TMDB 对应集标题也仅为编号；需补充章节标题或逐集放送资料后才能确认逐集映射。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/525830; https://www.themoviedb.org/tv/106251; https://www.themoviedb.org/movie/1148396",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 106251
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

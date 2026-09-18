@@ -1,16 +1,63 @@
 {
   "anidbId": 4241,
   "bangumiId": 764,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 7709,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 7710,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 7711,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 7712,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 977486,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 977486,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 67256,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是《今日の5の2 OVA》，包含 4 个正篇及特别篇「ミズカケ」。TMDB 67256 的 season 0 中，第 1–4 集标题和日期逐一对应四个 OVA 正篇，第 5 集「課外授業：ミズカケ」（2008-01-30）对应 subject 内特别篇；第 6 集为 2009-10-06 的其他特别篇，不属于该 subject，因此范围为 1–5。\n\nhttps://bgm.tv/subject/764 (page): Bangumi 记录该 subject 为 4 话 OVA，发售始于 2006-03-24，并记录特别篇「ミズカケ」（2008-01-30）。\n\nhttps://www.themoviedb.org/tv/67256 (api_snapshot): TMDB TV 67256 为《今日の５の２》，包含 2006 年开始的 season 0「特別編」及 2008 年 TV season 1。\n\nhttps://www.themoviedb.org/tv/67256/season/0 (api_snapshot): season 0 第 1–4 集分别对应四个 OVA 的标题和日期，第 5 集为「課外授業：ミズカケ」，第 6 集为 2009-10-06 的「放課後」。\n\nhttps://bgm.tv/anime/list/611696/collect?tag=%E4%BB%8A%E6%97%A5%E3%81%AE5%E3%81%AE2 (search_snippet): 搜索摘要将《今日の5の2 OVA》列为 4 话、2006-03-24，并与 13 话的 2008 TV 版分列。\n\n备注：AniDB 4241 的标题状态在输入中标记为 different；直接访问 AniDB 页面受到 403，未能独立读取其页面内容。但输入提供的 AniDB 别名、Bangumi OVA 信息与 TMDB season 0 的标题和日期均一致。",
+    "evidence": "codex: 已确认对应TMDB 67256第0季第1—5集。虽然主条目描述2008年TV版，但其特别篇集表明确收录2006—2007年的四话OVA及2008年的「ミズカケ」，五话标题和发行日期均逐一吻合。映射仅覆盖这五集，不包含第1季TV版及第0季第6集。\n\nhttps://bgm.tv/subject/764 (page): Bangumi 将本作标为全4话的2006年OVA，发行期为2006-03-24至2007-03-21；导演为则座诚，动画制作为真空间、リリクス，剧情围绕佐藤良太及五年二班同学展开，并将2008年TV版列为不同演绎。\n\nhttps://www.themoviedb.org/tv/67256 (api_snapshot): TMDB 67256 主条目是2008年TV版，导演长泽刚、制作公司XEBEC；其季列表另设始于2006-03-24、共6集的第0季。因此需要按特别篇集表限定OVA范围。\n\nhttps://www.themoviedb.org/tv/67256/season/0 (api_snapshot): 第0季集表共1页、6集。第1至4集明确标为OVA1至OVA4，各集全部分段标题及日期分别与输入的Bangumi本篇1至4一致：2006-03-24、2006-06-23、2007-01-24、2007-03-21。第5集为「課外授業：ミズカケ」，日期2008-01-30，与Bangumi特别篇一致；第6集为2009-10-06的「放課後」，不属于本subject。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/764; https://www.themoviedb.org/tv/67256; https://www.themoviedb.org/tv/67256/season/0; https://bgm.tv/anime/list/611696/collect?tag=%E4%BB%8A%E6%97%A5%E3%81%AE5%E3%81%AE2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/764; https://www.themoviedb.org/tv/67256; https://www.themoviedb.org/tv/67256/season/0",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 67256
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

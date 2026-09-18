@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、年份、首播日期、制作人员、语言、剧情及六集范围共同确认，本 subject 对应 TMDB 135918 第一季整季。Netflix 官方集表与 TMDB 六集内容一致，整季范围明确；但 Bangumi 各章节缺少标题和日期，依照不按位置猜测的要求，暂不填写逐集规则。\n\nhttps://bgm.tv/subject/369752 (page): Bangumi 标明本作是2021年11月17日开播的意大利动画，共6话，编剧为零石灰石；剧情涉及罗马漫画家、犰狳形态的良心及与朋友出城的旅程。\n\nhttps://www.themoviedb.org/tv/135918 (api_snapshot): TMDB 135918 的原名、英文别名、首播日期、意大利语及剧情均与 Bangumi 一致；编剧为 Zerocalcare，只有一季，共6集，已完结。\n\nhttps://www.themoviedb.org/tv/135918/season/1 (api_snapshot): 第一季真实集表共6集，分页总数为1，集号为1至6，日期均为2021年11月17日，标题为通用的 Episode 1 至 Episode 6；没有混入其他作品。\n\nhttps://www.netflix.com/title/81304528 (page): Netflix 官方页确认这是2021年由 Zerocalcare 创作的意大利限定动画剧集，列出6集；从初识 Alice、换轮胎、辅导学生、前往 Biella，到安慰 Alice 和面对哀伤，六集简介与 TMDB 集表逐项一致。\n\nhttps://bgm.tv/subject/369752/ep (page): Bangumi 章节页只有本篇1至6的编号，未提供各集标题、日期或剧情，无法独立逐集核对。\n\n备注：Bangumi 章节1084427至1084432缺少可用于逐集比对的元数据；待补充标题、日期或剧情后，再确认逐集对应。；Bangumi 的统一片长为17分钟，TMDB 各集为16至22分钟，Netflix 为16至22分钟；片长字段存在差异，但作品身份和整季范围证据一致。",
+    "evidence": "codex: 原名、年份、首播日期、制作人员、语言、剧情及六集范围共同确认，本 subject 对应 TMDB 135918 第一季整季。Netflix 官方集表与 TMDB 六集内容一致，整季范围明确；但 Bangumi 各章节缺少标题和日期，依照不按位置猜测的要求，暂不填写逐集规则。\n\nhttps://bgm.tv/subject/369752 (page): Bangumi 标明本作是2021年11月17日开播的意大利动画，共6话，编剧为零石灰石；剧情涉及罗马漫画家、犰狳形态的良心及与朋友出城的旅程。\n\nhttps://www.themoviedb.org/tv/135918 (api_snapshot): TMDB 135918 的原名、英文别名、首播日期、意大利语及剧情均与 Bangumi 一致；编剧为 Zerocalcare，只有一季，共6集，已完结。\n\nhttps://www.themoviedb.org/tv/135918/season/1 (api_snapshot): 第一季真实集表共6集，分页总数为1，集号为1至6，日期均为2021年11月17日，标题为通用的 Episode 1 至 Episode 6；没有混入其他作品。\n\nhttps://www.netflix.com/title/81304528 (page): Netflix 官方页确认这是2021年由 Zerocalcare 创作的意大利限定动画剧集，列出6集；从初识 Alice、换轮胎、辅导学生、前往 Biella，到安慰 Alice 和面对哀伤，六集简介与 TMDB 集表逐项一致。\n\nhttps://bgm.tv/subject/369752/ep (page): Bangumi 章节页只有本篇1至6的编号，未提供各集标题、日期或剧情，无法独立逐集核对。\n\n备注：Bangumi 章节1084427至1084432缺少可用于逐集比对的元数据；待补充标题、日期或剧情后，再确认逐集对应。；Bangumi 的统一片长为17分钟，TMDB 各集为16至22分钟，Netflix 为16至22分钟；片长字段存在差异，但作品身份和整季范围证据一致。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/369752; https://www.themoviedb.org/tv/135918; https://www.themoviedb.org/tv/135918/season/1; https://www.netflix.com/title/81304528; https://bgm.tv/subject/369752/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 135918
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 32726 的完整第12播出季：媒介、首播日期、22集范围及前后季关系一致，官方剧情和季末记录亦相符。Bangumi 的22个章节均缺少标题和播出日期，无法逐集交叉验证，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 以英文原名搜索并读取详情，确认 TMDB 32726 为2011年首播的电视动画《Bob's Burgers》，中文别名包含《开心汉堡店》。剧情为 Bob 与妻子及三个孩子经营汉堡店，制作公司包含 Bento Box Entertainment，主要配音包括 H. Jon Benjamin、John Roberts、Kristen Schaal。\n\nhttps://www.themoviedb.org/tv/32726/season/12 (api_snapshot): 实际读取第12季完整集表：episodeCount=22、total_pages=1，集号连续为1至22；首集为2021-09-26，末集为2022-05-22。季号、首播日期和总集数均与输入 subject 一致。详情中第11、13季的首播日期也与输入的前后作关系吻合。\n\nhttps://abc.com/show/5013a690-3ccc-425d-8f0b-5b26c56e3ecb (page): FXX 官方页面确认一家五口经营汉堡店的剧情，并列出第12季及其末两集：第21集于2022-05-15播出，第22集于2022-05-22播出，与 TMDB 季表一致。\n\nhttps://bobs-burgers.fandom.com/wiki/Season_12 (search_snippet): 第12季资料明确区分播出季与制作编号：本播出季共22集，播出范围为2021-09-26至2022-05-22，且与随后上映的电影为不同作品。\n\n备注：Bangumi 网页访问失败，章节信息依据用户提供的快照；需补充各章节标题或播出日期后才能建立逐集规则。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 32726 的完整第12播出季：媒介、首播日期、22集范围及前后季关系一致，官方剧情和季末记录亦相符。Bangumi 的22个章节均缺少标题和播出日期，无法逐集交叉验证，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 以英文原名搜索并读取详情，确认 TMDB 32726 为2011年首播的电视动画《Bob's Burgers》，中文别名包含《开心汉堡店》。剧情为 Bob 与妻子及三个孩子经营汉堡店，制作公司包含 Bento Box Entertainment，主要配音包括 H. Jon Benjamin、John Roberts、Kristen Schaal。\n\nhttps://www.themoviedb.org/tv/32726/season/12 (api_snapshot): 实际读取第12季完整集表：episodeCount=22、total_pages=1，集号连续为1至22；首集为2021-09-26，末集为2022-05-22。季号、首播日期和总集数均与输入 subject 一致。详情中第11、13季的首播日期也与输入的前后作关系吻合。\n\nhttps://abc.com/show/5013a690-3ccc-425d-8f0b-5b26c56e3ecb (page): FXX 官方页面确认一家五口经营汉堡店的剧情，并列出第12季及其末两集：第21集于2022-05-15播出，第22集于2022-05-22播出，与 TMDB 季表一致。\n\nhttps://bobs-burgers.fandom.com/wiki/Season_12 (search_snippet): 第12季资料明确区分播出季与制作编号：本播出季共22集，播出范围为2021-09-26至2022-05-22，且与随后上映的电影为不同作品。\n\n备注：Bangumi 网页访问失败，章节信息依据用户提供的快照；需补充各章节标题或播出日期后才能建立逐集规则。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439026; https://www.themoviedb.org/tv/32726; https://www.themoviedb.org/tv/32726/season/12; https://abc.com/show/5013a690-3ccc-425d-8f0b-5b26c56e3ecb; https://bobs-burgers.fandom.com/wiki/Season_12",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 12,
+      "start": 1,
+      "tmdbId": 32726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

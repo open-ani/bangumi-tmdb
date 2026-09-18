@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、动画类型、季号和总集数共同支持对应 TMDB 214603 第 1 季，季表覆盖完整主体。Bangumi 各章节缺少标题与日期，无法独立核实逐集对应，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/214603 (api_snapshot): 候选 TV 214603 的原名与 Bangumi 主标题一致，类型包含动画；首播日期同为 2023-06-09。候选仅有第 1 季，共 6 集，与 Bangumi 标注的第一季及 6 话一致，季表中全部 6 集均于该日上线。\n\n备注：Bangumi 六个章节的标题和放送日期均为空，TMDB 集标题也仅为通用集号；逐集映射需补充章节标题、日期或其他明确对应资料。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。",
+    "evidence": "codex: 原名、首播日期、动画类型、季号和总集数共同支持对应 TMDB 214603 第 1 季，季表覆盖完整主体。Bangumi 各章节缺少标题与日期，无法独立核实逐集对应，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/214603 (api_snapshot): 候选 TV 214603 的原名与 Bangumi 主标题一致，类型包含动画；首播日期同为 2023-06-09。候选仅有第 1 季，共 6 集，与 Bangumi 标注的第一季及 6 话一致，季表中全部 6 集均于该日上线。\n\n备注：Bangumi 六个章节的标题和放送日期均为空，TMDB 集标题也仅为通用集号；逐集映射需补充章节标题、日期或其他明确对应资料。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/461942; https://www.themoviedb.org/tv/214603",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 214603
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

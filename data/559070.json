@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、动画剧集媒介、比利时产地、Peyo制作背景、第一季52集及第二季起始日期共同支持对应TMDB 123591第1季整季。Bangumi各集标题和日期全部缺失，无法确认逐集顺序，因此仅确定整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/123591 (api_snapshot): 该候选为2021年开播的比利时动画剧集，制作方包含Peyo Productions；第1季完整季表共52集，与Bangumi的年份、媒介、原作背景及第一季集数吻合。\n\nhttps://www.themoviedb.org/tv/123591 (api_snapshot): 第2季开播日期为2022-08-29，与Bangumi关联的第二季日期一致。第1季首播日期为2021-04-18，比Bangumi标注早一周；候选逐集标题均为编号占位，无法核验具体故事顺序。\n\n备注：首播日期相差一周，现有数据无法解释差异，不能据此推断集号偏移。；需补充Bangumi逐集标题或放送日期，以及TMDB实际集标题，才能核验逐集对应关系。",
+    "evidence": "codex: 年份、动画剧集媒介、比利时产地、Peyo制作背景、第一季52集及第二季起始日期共同支持对应TMDB 123591第1季整季。Bangumi各集标题和日期全部缺失，无法确认逐集顺序，因此仅确定整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/123591 (api_snapshot): 该候选为2021年开播的比利时动画剧集，制作方包含Peyo Productions；第1季完整季表共52集，与Bangumi的年份、媒介、原作背景及第一季集数吻合。\n\nhttps://www.themoviedb.org/tv/123591 (api_snapshot): 第2季开播日期为2022-08-29，与Bangumi关联的第二季日期一致。第1季首播日期为2021-04-18，比Bangumi标注早一周；候选逐集标题均为编号占位，无法核验具体故事顺序。\n\n备注：首播日期相差一周，现有数据无法解释差异，不能据此推断集号偏移。；需补充Bangumi逐集标题或放送日期，以及TMDB实际集标题，才能核验逐集对应关系。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/559070; https://www.themoviedb.org/tv/123591",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 123591
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

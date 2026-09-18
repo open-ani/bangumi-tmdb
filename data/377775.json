@@ -1,0 +1,133 @@
+{
+  "bangumiId": 377775,
+  "episodes": [
+    {
+      "id": 1096781,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1096782,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1096783,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1096784,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1096785,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1096786,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1096787,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1096788,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1096789,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1096790,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1096791,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1096792,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1096793,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1096794,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1096795,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1096796,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1096797,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1096798,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1096799,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1096800,
+      "sort": 20,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 已确认该 subject 对应 TMDB 709 第11季第2至21集。制作方、播出平台、官方集表、20集总量及播出起止日期相符。TMDB 第1集是提前播出的独立特别篇，不属于此 subject 范围。Bangumi 章节缺少标题和日期，无法逐集验证其 sort 对应关系，因此仅确定作品范围，暂不生成连续规则。\n\nhttps://bgm.tv/subject/377775 (page): Bangumi 标注为 TV 第十一季，共20话，播出期间为2021-09-07至2022-04-11，电视台为 Adult Swim，制作方为 Williams Street。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): TMDB 709 为美国定格动画喜剧 Robot Chicken，内容为玩具人偶演出的流行文化戏仿，制作公司包含 Williams Street，演员包含 Seth Green、Matthew Senreich；作品身份与官方链接对应。\n\nhttps://www.themoviedb.org/tv/709/season/11 (api_snapshot): 第11季真实集表共21集，total_pages=1。第1集为2021-05-24的 Archie Comics 特别篇；第2至21集共20集，日期从2021-09-07至2022-04-11，与 Bangumi 的话数和播出起止日期吻合。\n\nhttps://www.adultswim.com/videos/robot-chicken (page): Adult Swim 官方页面将 Archie Comics 特别篇单列于 Specials；Season 11 列出 EP 2至EP 21，其20个标题及剧情简介逐项对应 TMDB 第11季第2至21集。\n\n备注：Bangumi 的20个章节均无标题及播出日期，不能仅按位置断定 sort 1至20对应 TMDB 第2至21集；需补充章节信息后再建立逐集规则。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/377775; https://www.themoviedb.org/tv/709; https://www.themoviedb.org/tv/709/season/11; https://www.adultswim.com/videos/robot-chicken",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 2,
+      "season": 11,
+      "start": 1,
+      "tmdbId": 709
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "episodeEnd": 21,
+      "id": 709,
+      "season": 11,
+      "type": "tv"
+    }
+  ]
+}

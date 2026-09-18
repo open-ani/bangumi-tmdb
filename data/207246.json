@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 66558 的完整第二季：年份、发布日期、13集范围、制作公司、角色配音及前后季关系均吻合，属于2016年开始的 DreamWorks 动画版本。Bangumi 各章节缺少标题和日期，无法逐集交叉核验，因此仅确认整季范围，不凭章节位置生成连续规则。\n\nhttps://bgm.tv/subject/207246 (page): Bangumi 标明本作是第二季网络动画，2017年1月20日开播，共13话；动画制作为 Studio MIR，播放平台为 Netflix。角色及配音包括 Keith／Steven Yeun、Shiro／Josh Keaton，与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): 以英文原名搜索后读取 TMDB 66558 详情：系列首播于2016年6月10日，制作公司包括 Studio Mir、DreamWorks Animation Television；剧情为五名少年驾驶机械狮组成 Voltron，角色与配音吻合。第二季与第三季日期分别为2017年1月20日、2017年8月4日，与 Bangumi 的本作及续作信息一致。\n\nhttps://www.themoviedb.org/tv/66558/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共13集，集号连续为1至13，全部日期为2017年1月20日；从 Across the Universe 至 Blackout，剧情连续承接对抗 Zarkon，未混入其他作品。\n\nhttps://www.dreamworks.com/shows/voltron-legendary-defender (page): DreamWorks 官方将本作列为电视系列，简介确认五名少年驾驶五只机械狮、合体成为 Voltron 并保护宇宙的剧情设定。\n\n备注：Bangumi 的13个章节仅有序号，标题和放送日期均为空；逐集对应暂留空，需补充可核验的章节标题或日期。",
+    "evidence": "codex: 已确认对应 TMDB 66558 的完整第二季：年份、发布日期、13集范围、制作公司、角色配音及前后季关系均吻合，属于2016年开始的 DreamWorks 动画版本。Bangumi 各章节缺少标题和日期，无法逐集交叉核验，因此仅确认整季范围，不凭章节位置生成连续规则。\n\nhttps://bgm.tv/subject/207246 (page): Bangumi 标明本作是第二季网络动画，2017年1月20日开播，共13话；动画制作为 Studio MIR，播放平台为 Netflix。角色及配音包括 Keith／Steven Yeun、Shiro／Josh Keaton，与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): 以英文原名搜索后读取 TMDB 66558 详情：系列首播于2016年6月10日，制作公司包括 Studio Mir、DreamWorks Animation Television；剧情为五名少年驾驶机械狮组成 Voltron，角色与配音吻合。第二季与第三季日期分别为2017年1月20日、2017年8月4日，与 Bangumi 的本作及续作信息一致。\n\nhttps://www.themoviedb.org/tv/66558/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共13集，集号连续为1至13，全部日期为2017年1月20日；从 Across the Universe 至 Blackout，剧情连续承接对抗 Zarkon，未混入其他作品。\n\nhttps://www.dreamworks.com/shows/voltron-legendary-defender (page): DreamWorks 官方将本作列为电视系列，简介确认五名少年驾驶五只机械狮、合体成为 Voltron 并保护宇宙的剧情设定。\n\n备注：Bangumi 的13个章节仅有序号，标题和放送日期均为空；逐集对应暂留空，需补充可核验的章节标题或日期。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/207246; https://www.themoviedb.org/tv/66558; https://www.themoviedb.org/tv/66558/season/2; https://www.dreamworks.com/shows/voltron-legendary-defender",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 66558
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

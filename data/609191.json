@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介及全剧与季集数相互吻合，可确认对应 TV 81138 第 1 季全季。Bangumi 各集标题和日期均为空，无法逐集核对，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/81138 (api_snapshot): 候选 TV 81138《Vermin》为动画作品，首播日期为 2018-04-09，与 Bangumi 一致；全剧仅列第 1 季，共 10 集，与 Bangumi 本篇总数一致。季表完整列出第 1—10 集，放送日期为 2018-04-09 至 2018-04-18。\n\n备注：候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项信息。；逐集对应仍需补充 Bangumi 各集标题或放送日期；现有数据仅支持作品及整季范围匹配。",
+    "evidence": "codex: 名称、首播日期、动画媒介及全剧与季集数相互吻合，可确认对应 TV 81138 第 1 季全季。Bangumi 各集标题和日期均为空，无法逐集核对，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/81138 (api_snapshot): 候选 TV 81138《Vermin》为动画作品，首播日期为 2018-04-09，与 Bangumi 一致；全剧仅列第 1 季，共 10 集，与 Bangumi 本篇总数一致。季表完整列出第 1—10 集，放送日期为 2018-04-09 至 2018-04-18。\n\n备注：候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项信息。；逐集对应仍需补充 Bangumi 各集标题或放送日期；现有数据仅支持作品及整季范围匹配。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/609191; https://www.themoviedb.org/tv/81138",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 81138
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

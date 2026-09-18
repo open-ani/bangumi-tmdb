@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 81665 第二季整季。剧情、人物、动画连续剧版本、2020-06-18 发布日期及 20 集范围一致，完整季表未混入其他季度或短片。Bangumi 的 WEB 分类与该季网络发行相容。由于 Bangumi 各章节均无标题和日期，仅凭编号不能确认逐集关系，因此保留整季目标，逐集规则留空。\n\nhttps://bgm.tv/subject/439332 (page): Bangumi 将该条目标为 WEB 动画第二季，首播日期为 2020-06-18，共 20 话，剧情围绕 Oscar 与 Hedgehog 的魔法夏令营经历。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 详情确认 81665 为 Cartoon Network Studios 制作的《Summer Camp Island》，2018 年开播，主角与魔法夏令营剧情一致；第二季列为 2020-06-18、20 集，第三季另列为 2020-12-10。\n\nhttps://www.themoviedb.org/tv/81665/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 20 集，编号 1–20，日期均为 2020-06-18，每集约 11 分钟；首集为 Meeting of the Minds，末集为 Glow Worm。\n\nhttps://www.rottentomatoes.com/tv/summer_camp_island/s02 (page): 第二季页面确认创作者为 Julia Pott，人物及剧情与 Bangumi 一致；所列 20 集的标题、顺序和首播日期均与 TMDB 第二季逐项一致。\n\nhttps://bgm.tv/subject/439332/ep (page): Bangumi 实际章节页只有本篇编号 1–20，未提供各集标题或播出日期，无法独立核实各章节的逐集对应。\n\n备注：Bangumi 章节 1216340–1216359 缺少标题和日期；需补充可核验的章节资料后才能建立逐集 rules。",
+    "evidence": "codex: 确认对应 TMDB 81665 第二季整季。剧情、人物、动画连续剧版本、2020-06-18 发布日期及 20 集范围一致，完整季表未混入其他季度或短片。Bangumi 的 WEB 分类与该季网络发行相容。由于 Bangumi 各章节均无标题和日期，仅凭编号不能确认逐集关系，因此保留整季目标，逐集规则留空。\n\nhttps://bgm.tv/subject/439332 (page): Bangumi 将该条目标为 WEB 动画第二季，首播日期为 2020-06-18，共 20 话，剧情围绕 Oscar 与 Hedgehog 的魔法夏令营经历。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 详情确认 81665 为 Cartoon Network Studios 制作的《Summer Camp Island》，2018 年开播，主角与魔法夏令营剧情一致；第二季列为 2020-06-18、20 集，第三季另列为 2020-12-10。\n\nhttps://www.themoviedb.org/tv/81665/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共 20 集，编号 1–20，日期均为 2020-06-18，每集约 11 分钟；首集为 Meeting of the Minds，末集为 Glow Worm。\n\nhttps://www.rottentomatoes.com/tv/summer_camp_island/s02 (page): 第二季页面确认创作者为 Julia Pott，人物及剧情与 Bangumi 一致；所列 20 集的标题、顺序和首播日期均与 TMDB 第二季逐项一致。\n\nhttps://bgm.tv/subject/439332/ep (page): Bangumi 实际章节页只有本篇编号 1–20，未提供各集标题或播出日期，无法独立核实各章节的逐集对应。\n\n备注：Bangumi 章节 1216340–1216359 缺少标题和日期；需补充可核验的章节资料后才能建立逐集 rules。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439332; https://www.themoviedb.org/tv/81665; https://www.themoviedb.org/tv/81665/season/2; https://www.rottentomatoes.com/tv/summer_camp_island/s02; https://bgm.tv/subject/439332/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 81665
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

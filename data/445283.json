@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认该 subject 对应 TMDB 81046 的完整第五季。季别、2023年上线时间、9集规模、前后季关系及官方版本信息相符；日期差异由官方提前上线公告解释。Bangumi 输入中的9个章节均缺少标题和日期，无法逐集交叉核对，因此仅确认整季范围，不按序号推测生成 rules。\n\nhttps://www.themoviedb.org/tv/81046 (api_snapshot): TMDB 81046 为英语动画系列《The Dragon Prince》，剧情围绕两位人类王子与精灵刺客寻求和平展开，制作公司包括 Wonderstorm、Bardel Entertainment。第四季、第五季、第六季的年份及前后关系与输入一致。\n\nhttps://www.themoviedb.org/tv/81046/season/5 (api_snapshot): 实际读取第五季 Book 5: Ocean 全部集表：共9集，集号1至9，total_pages=1，日期均为2023-07-22；剧情为寻找 Aaravos 的监狱，未混入其他季或特别篇。\n\nhttps://thedragonprince.com/season-5-episode-list/ (page): 官方2023年7月13日公告确认第五季共9集，原定2023年7月27日在 Netflix 上线，与输入的季数、集数及计划日期一致。\n\nhttps://thedragonprince.com/season-5-now-streaming/ (page): 官方2023年7月22日公告确认第五季全部9集提前五天上线，解释了 Bangumi 的7月27日与 TMDB 的7月22日之间的日期差异。\n\nhttps://www.netflix.com/title/80212245 (page): Netflix 将该作品列为电视动画系列，创作者为 Aaron Ehasz、Justin Richmond；剧情及主要配音演员与 TMDB 条目一致。\n\n备注：Bangumi 页面及 API 本次访问失败，Bangumi 侧依据为用户提供的归档数据。；逐集映射暂留空；需补充 Bangumi 章节标题或日期，再与已读取的 TMDB 第五季集表核对。",
+    "evidence": "codex: 可确认该 subject 对应 TMDB 81046 的完整第五季。季别、2023年上线时间、9集规模、前后季关系及官方版本信息相符；日期差异由官方提前上线公告解释。Bangumi 输入中的9个章节均缺少标题和日期，无法逐集交叉核对，因此仅确认整季范围，不按序号推测生成 rules。\n\nhttps://www.themoviedb.org/tv/81046 (api_snapshot): TMDB 81046 为英语动画系列《The Dragon Prince》，剧情围绕两位人类王子与精灵刺客寻求和平展开，制作公司包括 Wonderstorm、Bardel Entertainment。第四季、第五季、第六季的年份及前后关系与输入一致。\n\nhttps://www.themoviedb.org/tv/81046/season/5 (api_snapshot): 实际读取第五季 Book 5: Ocean 全部集表：共9集，集号1至9，total_pages=1，日期均为2023-07-22；剧情为寻找 Aaravos 的监狱，未混入其他季或特别篇。\n\nhttps://thedragonprince.com/season-5-episode-list/ (page): 官方2023年7月13日公告确认第五季共9集，原定2023年7月27日在 Netflix 上线，与输入的季数、集数及计划日期一致。\n\nhttps://thedragonprince.com/season-5-now-streaming/ (page): 官方2023年7月22日公告确认第五季全部9集提前五天上线，解释了 Bangumi 的7月27日与 TMDB 的7月22日之间的日期差异。\n\nhttps://www.netflix.com/title/80212245 (page): Netflix 将该作品列为电视动画系列，创作者为 Aaron Ehasz、Justin Richmond；剧情及主要配音演员与 TMDB 条目一致。\n\n备注：Bangumi 页面及 API 本次访问失败，Bangumi 侧依据为用户提供的归档数据。；逐集映射暂留空；需补充 Bangumi 章节标题或日期，再与已读取的 TMDB 第五季集表核对。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/445283; https://www.themoviedb.org/tv/81046; https://www.themoviedb.org/tv/81046/season/5; https://thedragonprince.com/season-5-episode-list/; https://thedragonprince.com/season-5-now-streaming/; https://www.netflix.com/title/80212245",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 81046
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,0 +1,61 @@
+{
+  "bangumiId": 540658,
+  "episodes": [
+    {
+      "id": 1468094,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1468095,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1468096,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1468097,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1468098,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1468099,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 年份、创作者、购物主题及六集结构共同支持匹配 TMDB TV 296284 第1季，实际季表完整覆盖该六集短篇系列。输入的 IMDb 指向同名13分钟电影，故不直接采用。Bangumi 六个章节均缺少标题和日期，无法逐章比对，暂不生成仅凭位置推定的 rules。\n\nhttps://www.themoviedb.org/tv/296284 (api_snapshot): TMDB TV 296284 为2019年《Shop: A Pop Opera》，共1季6集，首末播出日期为2019-03-04至2019-03-09。\n\nhttps://www.themoviedb.org/tv/296284/season/1 (api_snapshot): 已完整读取第1季集表，共1页6集：Milk、Bread、Paper Towels、Oatmeal、Coffee、Cheese，日期依次为2019-03-04至03-09；没有混入其他作品。\n\nhttps://www.adultswim.com/videos/smalls/shop-a-pop-opera-milk (page): Adult Swim 官方页面列出上述六个同名短篇，均署名创作者 Jack Stauber，支持六集版本的作品身份。\n\nhttps://thetvdb.com/series/shop-a-pop-opera/allseasons/official (page): TVDB 六集的标题、顺序及逐集日期均与实际读取的 TMDB 第1季一致，作为辅助交叉验证。\n\nhttps://www.themoviedb.org/movie/625974 (api_snapshot): 另有同名电影625974：片长13分钟，日期2019-07-26，导演及编剧为 Jack Stauber，剧情为男子购物时遇见奇怪人物及音乐沉思。其 IMDb ID 为输入中的 tt13959480，但该电影条目不能据此替代六集版本。\n\n备注：Bangumi 开始日期2019-03-05与 TMDB、TVDB 的2019-03-04相差一天，原因未确认。；Bangumi 作品页及章节页访问失败；逐集映射需补充章节标题或播出日期后确认。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/540658; https://www.themoviedb.org/tv/296284; https://www.themoviedb.org/tv/296284/season/1; https://www.adultswim.com/videos/smalls/shop-a-pop-opera-milk; https://thetvdb.com/series/shop-a-pop-opera/allseasons/official; https://www.themoviedb.org/movie/625974",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 296284
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 296284,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

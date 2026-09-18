@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 前作首播日期、电视动画媒介、第2季的26集总量及完整放送起止日期均吻合，可确认对应 TMDB 87491 第2季整季。逐集缺乏可比对信息，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/87491 (api_snapshot): 该动画剧集首播于2019-03-08，与 Bangumi 前作日期一致；第2季共26集，放送范围为2021-06-06至2021-10-24，与待核对 subject 的季次、话数和起止日期一致。\n\nhttps://www.themoviedb.org/movie/913205 (api_snapshot): 简介提及的联动电影有独立条目，发行日期为2022-05-24，超出 subject 标注的2021年放送范围，不纳入本次26集电视季映射。\n\n备注：Bangumi 的26章均无标题和放送日期，TMDB 集标题也仅为通用编号，无法核实逐集顺序；需补充章节标题或日期后再建立 rules。；Bangumi 简介提及2022年联动电影，与其26集及2021年完结信息范围不同；现有章节数据不支持将电影纳入该 subject。",
+    "evidence": "codex: 前作首播日期、电视动画媒介、第2季的26集总量及完整放送起止日期均吻合，可确认对应 TMDB 87491 第2季整季。逐集缺乏可比对信息，暂不生成对应规则。\n\nhttps://www.themoviedb.org/tv/87491 (api_snapshot): 该动画剧集首播于2019-03-08，与 Bangumi 前作日期一致；第2季共26集，放送范围为2021-06-06至2021-10-24，与待核对 subject 的季次、话数和起止日期一致。\n\nhttps://www.themoviedb.org/movie/913205 (api_snapshot): 简介提及的联动电影有独立条目，发行日期为2022-05-24，超出 subject 标注的2021年放送范围，不纳入本次26集电视季映射。\n\n备注：Bangumi 的26章均无标题和放送日期，TMDB 集标题也仅为通用编号，无法核实逐集顺序；需补充章节标题或日期后再建立 rules。；Bangumi 简介提及2022年联动电影，与其26集及2021年完结信息范围不同；现有章节数据不支持将电影纳入该 subject。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/524964; https://www.themoviedb.org/tv/87491; https://www.themoviedb.org/movie/913205",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 87491
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

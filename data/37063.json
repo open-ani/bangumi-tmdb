@@ -1,14 +1,32 @@
 {
   "anidbId": 4123,
   "bangumiId": 37063,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 157199,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 157199,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 12501,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 主体为一话OVA《カレイドスター Legend of phoenix 〜レイラ・ハミルトン物語〜》。TMDB 12501 的特别编 season 0 episode 2 标题完全一致，且50分钟片长和蕾拉、不死鸟演出的剧情相符；episode 1、3为其他特别篇，不应纳入。\n\nhttps://bgm.tv/subject/37063 (page): Bangumi subject 37063标记为一话OVA，发售日为2006-01-27，并关联AniDB 4123。\n\nhttps://www.themoviedb.org/tv/12501 (api_snapshot): TMDB TV 12501《カレイドスター》包含season 0特别编。\n\nhttps://www.themoviedb.org/tv/12501/season/0 (api_snapshot): season 0 episode 2标题与主体完全一致，片长50分钟，剧情对应蕾拉的不死鸟演出；该季共3集。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists将AniDB 4123关联至TMDB TV 12501，作为候选线索并已由季集内容核对。\n\n备注：Bangumi记录网络先行版日期为2005-12-22、普通销售版为2006-01-27，而TMDB episode 2日期为2005-12-11，日期口径不一致；但标题、片长和剧情均支持同一OVA。；输入未提供AniDB页面正文，AniDB关联主要依据Bangumi关联数据及名称、TMDB内容交叉确认。",
+    "evidence": "codex: 已确认这部单话蕾拉外传OVA对应TMDB 12501第0季第2集。完整标题、独有剧情、制作与演员信息及单话范围相互吻合；用章节覆盖将Bangumi唯一正篇157199映射至S00E02，不包含同季其他OVA。日期存在差异，但不影响作品及章节身份确认。\n\nhttps://bgm.tv/subject/37063 (page): Bangumi 将本作列为全1话OVA，普通版发售日为2006年1月27日，先行版日期为2005年12月22日；导演佐藤顺一、脚本吉田玲子、动画制作GONZO。\n\nhttps://www.themoviedb.org/tv/12501 (api_snapshot): TMDB 12501为2003年开播的《カレイドスター》，制作公司GONZO，蕾拉由大原沙耶香配音；详情明确包含第0季特别篇。\n\nhttps://www.themoviedb.org/tv/12501/season/0 (api_snapshot): 第0季实际集表共3集、仅1页。第2集标题与本作一致，片长50分钟，剧情为蕾拉准备出演不死鸟而骑车出走、回顾自身经历；第1集和第3集分别是其他OVA。因此本作仅覆盖S00E02。\n\nhttps://www.at-x.com/program/detail/?id=1920 (search_snippet): AT-X资料明确标为2006年全1话OVA，剧情是蕾拉为出演百老汇《火之鸟》骑车旅行寻找自身欠缺之物，原案及导演佐藤顺一、脚本吉田玲子，与Bangumi资料及TMDB第2集剧情相符。打开页面时返回错误，相关内容依据搜索摘要。\n\nhttps://www.gonzo.co.jp/archives/kaleido-star/kaleido/news.html (page): GONZO官方公告确认本作网络先行销售版DVD于2005年12月22日发售，并于2005年11月27日举办先行上映会；这里的网络先行版是DVD销售版本。\n\n备注：TMDB将S00E02日期记为2005-12-11，与官方先行上映日2005-11-27、先行DVD发售日2005-12-22及普通版发售日2006-01-27均不同；尚未查明TMDB该日期的依据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/37063; https://www.themoviedb.org/tv/12501; https://www.themoviedb.org/tv/12501/season/0; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/37063; https://www.themoviedb.org/tv/12501; https://www.themoviedb.org/tv/12501/season/0; https://www.at-x.com/program/detail/?id=1920; https://www.gonzo.co.jp/archives/kaleido-star/kaleido/news.html",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
   "rules": [],
   "schemaVersion": 1,

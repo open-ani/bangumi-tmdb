@@ -25,12 +25,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画剧集形式及完整4集规模一致，可确认subject对应候选第1季。逐集缺少可比对信息，暂不建立章节规则，避免仅按位置推定。\n\nhttps://www.themoviedb.org/tv/112851 (api_snapshot): 候选为2020年动画剧集，首播日期2020-11-01与Bangumi一致；制作方包括Marvel Entertainment、Atomic Cartoons及The LEGO Group。唯一的第1季共4集，与Bangumi本篇总量一致，季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/tv/112851 (api_snapshot): 第1季第1至4集日期分别为2020-11-01、2020-11-09、2020-11-16、2020-11-23；标题仅为通用集号。Bangumi四章均缺少标题和放送日期，无法逐集交叉核实。\n\n备注：候选未提供剧情简介，无法直接核对天气机器被盗的情节；Bangumi未列制作方，无法双向核验制作信息。；需补充Bangumi各章标题或放送日期，才能确认逐集对应关系。",
+    "evidence": "codex: 名称、首播日期、动画剧集形式及完整4集规模一致，可确认subject对应候选第1季。逐集缺少可比对信息，暂不建立章节规则，避免仅按位置推定。\n\nhttps://www.themoviedb.org/tv/112851 (api_snapshot): 候选为2020年动画剧集，首播日期2020-11-01与Bangumi一致；制作方包括Marvel Entertainment、Atomic Cartoons及The LEGO Group。唯一的第1季共4集，与Bangumi本篇总量一致，季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/tv/112851 (api_snapshot): 第1季第1至4集日期分别为2020-11-01、2020-11-09、2020-11-16、2020-11-23；标题仅为通用集号。Bangumi四章均缺少标题和放送日期，无法逐集交叉核实。\n\n备注：候选未提供剧情简介，无法直接核对天气机器被盗的情节；Bangumi未列制作方，无法双向核验制作信息。；需补充Bangumi各章标题或放送日期，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/585244; https://www.themoviedb.org/tv/112851",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 112851
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

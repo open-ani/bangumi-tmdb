@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、集数及每周日排期共同支持对应 TV 318288 第 1 季。该季完整覆盖 13 集主体，未见混入其他作品的迹象。Bangumi 各集标题及日期均为空，无法逐集交叉核实，因此仅确认整季范围，不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/318288 (api_snapshot): 候选 TV 318288 与 Bangumi 韩文名称完全一致，首播日期均为 2025-11-09；候选为韩国动画，第 1 季共 13 集，与 Bangumi 标注一致。该季各集于 2025-11-09 至 2026-02-01 每周日播出，符合 Bangumi 的放送星期。\n\n备注：Bangumi 缺少逐集标题与放送日期，候选标题也仅为集号；需补充章节资料后再确认逐集对应。；Bangumi 简介为空，候选未提供剧情与制作公司资料，无法交叉核验剧情及 샌드박스、EBS 制作信息。",
+    "evidence": "codex: 名称、首播日期、动画媒介、集数及每周日排期共同支持对应 TV 318288 第 1 季。该季完整覆盖 13 集主体，未见混入其他作品的迹象。Bangumi 各集标题及日期均为空，无法逐集交叉核实，因此仅确认整季范围，不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/318288 (api_snapshot): 候选 TV 318288 与 Bangumi 韩文名称完全一致，首播日期均为 2025-11-09；候选为韩国动画，第 1 季共 13 集，与 Bangumi 标注一致。该季各集于 2025-11-09 至 2026-02-01 每周日播出，符合 Bangumi 的放送星期。\n\n备注：Bangumi 缺少逐集标题与放送日期，候选标题也仅为集号；需补充章节资料后再确认逐集对应。；Bangumi 简介为空，候选未提供剧情与制作公司资料，无法交叉核验剧情及 샌드박스、EBS 制作信息。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/601743; https://www.themoviedb.org/tv/318288",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 318288
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

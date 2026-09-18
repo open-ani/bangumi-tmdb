@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作公司及集数相互吻合，可确认 subject 对应 TMDB 114419 第 1 季整季。Bangumi 各章节缺少标题与放送日期，无法独立核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/114419 (api_snapshot): 候选原名为 Headspace Guide to Meditation，首播日期为 2021-01-01，类型包含动画与纪录片，制作公司为 Vox Media Studios 和 Headspace，与 Bangumi 名称、日期及简介一致。候选仅有第 1 季，共 8 集，全部于 2021-01-01 播出，与 subject 的 8 集规模相符。\n\n备注：Bangumi 8 个章节的标题与日期均为空，TMDB 标题也仅为通用集号；需补充章节标题或逐集放送资料后再确认逐集对应。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作公司及集数相互吻合，可确认 subject 对应 TMDB 114419 第 1 季整季。Bangumi 各章节缺少标题与放送日期，无法独立核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/114419 (api_snapshot): 候选原名为 Headspace Guide to Meditation，首播日期为 2021-01-01，类型包含动画与纪录片，制作公司为 Vox Media Studios 和 Headspace，与 Bangumi 名称、日期及简介一致。候选仅有第 1 季，共 8 集，全部于 2021-01-01 播出，与 subject 的 8 集规模相符。\n\n备注：Bangumi 8 个章节的标题与日期均为空，TMDB 标题也仅为通用集号；需补充章节标题或逐集放送资料后再确认逐集对应。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439543; https://www.themoviedb.org/tv/114419",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 114419
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及整季范围可以确认：年份、电视动画媒介、剧情、配音和52集规模相符，TMDB独立条目的第1季覆盖本subject完整主体。系列中的“第十一季”不等于该独立TMDB条目的季号。逐集证据不足，保留整季匹配，暂不建立rules或overrides。\n\nhttps://www.themoviedb.org/tv/274651 (api_snapshot): 按中文原名搜索后读取详情：TMDB 274651 为《猪猪侠之光明守卫者》，2016 年电视作品，黑暗乔伊、时空魔像及远征异世界的剧情与输入一致；配音含陆双、祖晴，共1季52集。\n\nhttps://www.themoviedb.org/tv/274651/season/1 (api_snapshot): 第1季实际集表共52集，集号1—52连续，total_pages=1。全部使用通用集名且无分集简介；日期从2016-04-19逐周排列至2017-04-11，不能据此确认逐集对应。\n\nhttps://www.bilibili.com/bangumi/media/md21117039 (page): 正版播放平台标注2016年4月29日开播、已完结、全52话，与输入的年份、首播日期和集数一致。\n\nhttps://www.tvmao.com/drama/JDJoKC4= (page): 电视猫列为2016年中国内地动画电视剧，共52集；导演张苑、王龙波、陆锦辉，编剧王晓莉，故事主线与输入一致。\n\nhttps://www.pnkds.com/drama/5628.html (search_snippet): 资料将本作识别为《猪猪侠》第十一季、2016年52集动画，配音含陆双、祖丽晴，并说明承接《五灵守卫者》。\n\n备注：TMDB首播日期2016-04-19与Bangumi及哔哩哔哩的2016-04-29不一致，季表逐周延伸至2017年的日期也未得到独立验证。；输入的Bangumi章节没有标题和日期，TMDB集表也只有通用集名，无法通过标题、放送日期逐集核实；不能仅凭双方均为52集生成顺序规则。；TMDB未提供制作公司及crew，导演、编剧信息只能由外部资料补充，无法在两端交叉核对。",
+    "evidence": "codex: 作品身份及整季范围可以确认：年份、电视动画媒介、剧情、配音和52集规模相符，TMDB独立条目的第1季覆盖本subject完整主体。系列中的“第十一季”不等于该独立TMDB条目的季号。逐集证据不足，保留整季匹配，暂不建立rules或overrides。\n\nhttps://www.themoviedb.org/tv/274651 (api_snapshot): 按中文原名搜索后读取详情：TMDB 274651 为《猪猪侠之光明守卫者》，2016 年电视作品，黑暗乔伊、时空魔像及远征异世界的剧情与输入一致；配音含陆双、祖晴，共1季52集。\n\nhttps://www.themoviedb.org/tv/274651/season/1 (api_snapshot): 第1季实际集表共52集，集号1—52连续，total_pages=1。全部使用通用集名且无分集简介；日期从2016-04-19逐周排列至2017-04-11，不能据此确认逐集对应。\n\nhttps://www.bilibili.com/bangumi/media/md21117039 (page): 正版播放平台标注2016年4月29日开播、已完结、全52话，与输入的年份、首播日期和集数一致。\n\nhttps://www.tvmao.com/drama/JDJoKC4= (page): 电视猫列为2016年中国内地动画电视剧，共52集；导演张苑、王龙波、陆锦辉，编剧王晓莉，故事主线与输入一致。\n\nhttps://www.pnkds.com/drama/5628.html (search_snippet): 资料将本作识别为《猪猪侠》第十一季、2016年52集动画，配音含陆双、祖丽晴，并说明承接《五灵守卫者》。\n\n备注：TMDB首播日期2016-04-19与Bangumi及哔哩哔哩的2016-04-29不一致，季表逐周延伸至2017年的日期也未得到独立验证。；输入的Bangumi章节没有标题和日期，TMDB集表也只有通用集名，无法通过标题、放送日期逐集核实；不能仅凭双方均为52集生成顺序规则。；TMDB未提供制作公司及crew，导演、编剧信息只能由外部资料补充，无法在两端交叉核对。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/208074; https://www.themoviedb.org/tv/274651; https://www.themoviedb.org/tv/274651/season/1; https://www.bilibili.com/bangumi/media/md21117039; https://www.tvmao.com/drama/JDJoKC4=; https://www.pnkds.com/drama/5628.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 274651
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、儿童动画类型、精确首播日期及完整26集的季范围共同支持对应 TMDB 157985 第1季。Bangumi 逐集标题与日期均为空，无法核实逐集顺序，因此只确认整季范围，不生成按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/157985 (api_snapshot): 《毛毛镇》为中国儿童动画，首播日期为2019-04-02；第1季同日开播，共26集，与 Bangumi 第一季的首播日期、媒介和集数一致。候选季表完整列出第1至26集，第2季则于2020-01-16开播。\n\nhttps://www.themoviedb.org/tv/241589 (api_snapshot): 《毛毛镇之海洋大发现.第一季》仅列出2023-01-01的第12集，不符合目标2019年首播、26集的第一季范围。\n\nhttps://www.themoviedb.org/tv/243312 (api_snapshot): 《毛毛镇之生活小常识.第三季》仅列第3季第52集，无法对应目标第一季26集。\n\n备注：需要补充 Bangumi 各集标题或放送日期，才能确认逐集对应关系；TMDB 各集标题目前均为通用编号。；候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对剧情与制作方。",
+    "evidence": "codex: 名称、儿童动画类型、精确首播日期及完整26集的季范围共同支持对应 TMDB 157985 第1季。Bangumi 逐集标题与日期均为空，无法核实逐集顺序，因此只确认整季范围，不生成按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/157985 (api_snapshot): 《毛毛镇》为中国儿童动画，首播日期为2019-04-02；第1季同日开播，共26集，与 Bangumi 第一季的首播日期、媒介和集数一致。候选季表完整列出第1至26集，第2季则于2020-01-16开播。\n\nhttps://www.themoviedb.org/tv/241589 (api_snapshot): 《毛毛镇之海洋大发现.第一季》仅列出2023-01-01的第12集，不符合目标2019年首播、26集的第一季范围。\n\nhttps://www.themoviedb.org/tv/243312 (api_snapshot): 《毛毛镇之生活小常识.第三季》仅列第3季第52集，无法对应目标第一季26集。\n\n备注：需要补充 Bangumi 各集标题或放送日期，才能确认逐集对应关系；TMDB 各集标题目前均为通用编号。；候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对剧情与制作方。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/398813; https://www.themoviedb.org/tv/157985; https://www.themoviedb.org/tv/241589; https://www.themoviedb.org/tv/243312",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 157985
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、剧集媒介及8集规模一致，可确认subject对应TMDB 126726第1季。2016年同名电影不属于本次范围。Bangumi各章节标题和日期均为空，无法逐集交叉核实，因此只确定整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/126726 (api_snapshot): 该候选为2023年动画剧集，首播日期2023-04-20与Bangumi一致；全剧及第1季均为8集，与subject本篇数量一致。第1季8集于2023-04-20至2023-05-11播出。\n\nhttps://www.themoviedb.org/movie/398441 (api_snapshot): 同名电影候选发行于2016年，与本subject的2023年版本不符；Bangumi另列有2016年同名关联作品。\n\n备注：逐集对应尚未确认：需补充Bangumi章节标题或放送日期；TMDB现有标题也仅为集号占位。；候选未提供剧情、导演或IMDb编号，无法进一步交叉核对这些字段。",
+    "evidence": "codex: 名称、首播日期、剧集媒介及8集规模一致，可确认subject对应TMDB 126726第1季。2016年同名电影不属于本次范围。Bangumi各章节标题和日期均为空，无法逐集交叉核实，因此只确定整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/126726 (api_snapshot): 该候选为2023年动画剧集，首播日期2023-04-20与Bangumi一致；全剧及第1季均为8集，与subject本篇数量一致。第1季8集于2023-04-20至2023-05-11播出。\n\nhttps://www.themoviedb.org/movie/398441 (api_snapshot): 同名电影候选发行于2016年，与本subject的2023年版本不符；Bangumi另列有2016年同名关联作品。\n\n备注：逐集对应尚未确认：需补充Bangumi章节标题或放送日期；TMDB现有标题也仅为集号占位。；候选未提供剧情、导演或IMDb编号，无法进一步交叉核对这些字段。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/430696; https://www.themoviedb.org/tv/126726; https://www.themoviedb.org/movie/398441",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 126726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

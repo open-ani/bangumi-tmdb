@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 32726 的完整第九季：英文原名、中文别名、TV媒介、2018-09-30开播日期及22集总量一致，前后季日期也与输入中的关联条目吻合。TMDB完整季表经独立集表核对，范围明确。Bangumi章节缺少标题和播出日期，无法逐条验证，因此仅确认整季范围，不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 作品详情确认 TMDB 32726 原名为 Bob's Burgers，中文别名为《开心汉堡店》，2011年首播；剧情围绕 Bob 与妻子及三个孩子经营汉堡店展开，制作公司包括 Bento Box Entertainment、20th Century Fox Television。第九季标注2018-09-30开播、22集。\n\nhttps://www.themoviedb.org/tv/32726/season/9 (api_snapshot): 已读取第九季完整集表，total_pages=1，共22集，编号连续为1至22；首集2018-09-30播出，末集2019-05-12播出。集表均为该系列常规剧情动画，没有混入电影或其他作品。\n\nhttps://en.wikipedia.org/wiki/Bob%27s_Burgers_season_9 (page): 第九季资料确认这是 Fox 播出的动画喜剧，共22集；页面集表中全部22集的标题、顺序及播出日期与 TMDB 一致，集表末集日期为2019-05-12。\n\n备注：输入中的22个Bangumi章节均无标题及播出日期；Bangumi及其镜像网页访问失败，未能补充逐集证据。待取得这些章节的标题或日期后，再建立rules或overrides。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 32726 的完整第九季：英文原名、中文别名、TV媒介、2018-09-30开播日期及22集总量一致，前后季日期也与输入中的关联条目吻合。TMDB完整季表经独立集表核对，范围明确。Bangumi章节缺少标题和播出日期，无法逐条验证，因此仅确认整季范围，不凭编号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/32726 (api_snapshot): 作品详情确认 TMDB 32726 原名为 Bob's Burgers，中文别名为《开心汉堡店》，2011年首播；剧情围绕 Bob 与妻子及三个孩子经营汉堡店展开，制作公司包括 Bento Box Entertainment、20th Century Fox Television。第九季标注2018-09-30开播、22集。\n\nhttps://www.themoviedb.org/tv/32726/season/9 (api_snapshot): 已读取第九季完整集表，total_pages=1，共22集，编号连续为1至22；首集2018-09-30播出，末集2019-05-12播出。集表均为该系列常规剧情动画，没有混入电影或其他作品。\n\nhttps://en.wikipedia.org/wiki/Bob%27s_Burgers_season_9 (page): 第九季资料确认这是 Fox 播出的动画喜剧，共22集；页面集表中全部22集的标题、顺序及播出日期与 TMDB 一致，集表末集日期为2019-05-12。\n\n备注：输入中的22个Bangumi章节均无标题及播出日期；Bangumi及其镜像网页访问失败，未能补充逐集证据。待取得这些章节的标题或日期后，再建立rules或overrides。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439023; https://www.themoviedb.org/tv/32726; https://www.themoviedb.org/tv/32726/season/9; https://en.wikipedia.org/wiki/Bob%27s_Burgers_season_9",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 9,
+      "start": 1,
+      "tmdbId": 32726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

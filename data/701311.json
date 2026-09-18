@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作方及26集规模相互吻合，可确认对应TMDB 290735第1季。Bangumi逐集标题与日期全部缺失，无法核实逐集顺序，因此仅映射整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/290735 (api_snapshot): 候选为2025年动画剧集，首播日期2025-04-28与Bangumi一致；制作公司包含Studio AKA及BBC体系公司，与Bangumi制作信息相符。\n\nhttps://www.themoviedb.org/tv/290735 (api_snapshot): 候选仅列第1季，共26集，已抓取第1至26集，与Bangumi本篇26集的主体范围一致；各集标题均为编号占位文本。\n\n备注：候选未提供剧情简介，无法直接交叉核对剧情。；Bangumi标注2026-04-29完结，TMDB第14至26集日期均为2026-04-13；数据未说明是否源于电视播出与网络上线口径差异。；需补充Bangumi逐集标题、日期或可靠集目对照，才能确认逐集对应关系。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作方及26集规模相互吻合，可确认对应TMDB 290735第1季。Bangumi逐集标题与日期全部缺失，无法核实逐集顺序，因此仅映射整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/290735 (api_snapshot): 候选为2025年动画剧集，首播日期2025-04-28与Bangumi一致；制作公司包含Studio AKA及BBC体系公司，与Bangumi制作信息相符。\n\nhttps://www.themoviedb.org/tv/290735 (api_snapshot): 候选仅列第1季，共26集，已抓取第1至26集，与Bangumi本篇26集的主体范围一致；各集标题均为编号占位文本。\n\n备注：候选未提供剧情简介，无法直接交叉核对剧情。；Bangumi标注2026-04-29完结，TMDB第14至26集日期均为2026-04-13；数据未说明是否源于电视播出与网络上线口径差异。；需补充Bangumi逐集标题、日期或可靠集目对照，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/701311; https://www.themoviedb.org/tv/290735",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 290735
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

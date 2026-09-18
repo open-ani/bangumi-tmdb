@@ -156,12 +156,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日、剧情、导演、制作公司与官方30集范围共同确认，Bangumi subject对应TMDB 276195第1季完整主体，旧映射的作品与季成立。输入章节缺少标题及日期，无法完成逐集交叉核对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/276195 (api_snapshot): TMDB 276195《武逆》首播于2024-11-07，导演胡广，制作公司包括趣阅科技与腾讯视频；风浩在天武大陆因身体异变逆转人生的剧情与输入一致。条目共1季30集。\n\nhttps://www.themoviedb.org/tv/276195/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共30集，集号连续为1—30，无额外篇章。记录日期为2024-11-07至2025-04-17；标题均为通用集号，第7—11集均标为2024-12-05。\n\nhttps://wetv.vip/zh-tw/play/dzs6q4alcey8q66/h4100kfhndj-%E6%AD%A6%E9%80%86_30 (page): WeTV官方播放页确认这是2024年中国动画《武逆》，全30集，列出01—30集，剧情与输入一致，支持该版本的完整集数范围。\n\nhttps://bgm.tv/anime/browser/%E4%B8%AD%E5%9B%BD/airtime/2024?orderby=w&sort=collects (search_snippet): Bangumi目录搜索摘要列出《武逆》为30话、2024年11月7日首播、胡广执导、改编自只是小虾米同名小说，与输入及TMDB候选一致。\n\nhttps://thetvdb.com/series/wu-ni/allseasons/official (search_snippet): TVDB集表摘要的第8集起日期与TMDB存在差异，其第30集标为2025-05-14；该来源不能用于直接确认TMDB逐集日期。\n\n备注：Bangumi条目、章节页及API本次未能成功读取；章节信息依赖用户提供的快照。；TMDB与TVDB的部分播出日期不同，尚未确认原因；需补充腾讯官方逐集排期或可辨识的章节标题后再建立rules。",
+    "evidence": "codex: 年份、首播日、剧情、导演、制作公司与官方30集范围共同确认，Bangumi subject对应TMDB 276195第1季完整主体，旧映射的作品与季成立。输入章节缺少标题及日期，无法完成逐集交叉核对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/276195 (api_snapshot): TMDB 276195《武逆》首播于2024-11-07，导演胡广，制作公司包括趣阅科技与腾讯视频；风浩在天武大陆因身体异变逆转人生的剧情与输入一致。条目共1季30集。\n\nhttps://www.themoviedb.org/tv/276195/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共30集，集号连续为1—30，无额外篇章。记录日期为2024-11-07至2025-04-17；标题均为通用集号，第7—11集均标为2024-12-05。\n\nhttps://wetv.vip/zh-tw/play/dzs6q4alcey8q66/h4100kfhndj-%E6%AD%A6%E9%80%86_30 (page): WeTV官方播放页确认这是2024年中国动画《武逆》，全30集，列出01—30集，剧情与输入一致，支持该版本的完整集数范围。\n\nhttps://bgm.tv/anime/browser/%E4%B8%AD%E5%9B%BD/airtime/2024?orderby=w&sort=collects (search_snippet): Bangumi目录搜索摘要列出《武逆》为30话、2024年11月7日首播、胡广执导、改编自只是小虾米同名小说，与输入及TMDB候选一致。\n\nhttps://thetvdb.com/series/wu-ni/allseasons/official (search_snippet): TVDB集表摘要的第8集起日期与TMDB存在差异，其第30集标为2025-05-14；该来源不能用于直接确认TMDB逐集日期。\n\n备注：Bangumi条目、章节页及API本次未能成功读取；章节信息依赖用户提供的快照。；TMDB与TVDB的部分播出日期不同，尚未确认原因；需补充腾讯官方逐集排期或可辨识的章节标题后再建立rules。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/449364; https://www.themoviedb.org/tv/276195; https://www.themoviedb.org/tv/276195/season/1; https://wetv.vip/zh-tw/play/dzs6q4alcey8q66/h4100kfhndj-%E6%AD%A6%E9%80%86_30; https://bgm.tv/anime/browser/%E4%B8%AD%E5%9B%BD/airtime/2024?orderby=w&sort=collects; https://thetvdb.com/series/wu-ni/allseasons/official",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 276195
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

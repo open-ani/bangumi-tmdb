@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、Netflix发行媒介、剧情、集数及续季边界共同确认该 subject 对应 TMDB 81983 第一季全季。外部集表与 TMDB 的10集完全一致；但 Bangumi 章节缺少标题和日期，因此仅确认整季范围，不凭编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/259037 (page): Bangumi 标注本作为 Netflix 网络动画，2018-08-31 开始放送，共10话；剧情为年轻警员加入父亲领导的小镇警队侦办毒品案件，另有关联续作第二季。\n\nhttps://www.themoviedb.org/tv/81983 (api_snapshot): TMDB 81983 的原名、首播日期及剧情均与 Bangumi 一致；制作公司包括 Bento Box Entertainment，配音包括 Tom Kenny、Sarah Chalke、David Herman。第一季10集，第二季另于2020-03-06首播。\n\nhttps://www.themoviedb.org/tv/81983/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，全部于2018-08-31上线；从第1集 Welcome to Paradise 至第10集 Christmas in Paradise，构成完整第一季。\n\nhttps://www.rottentomatoes.com/tv/paradise_pd/s01 (page): Rotten Tomatoes 将第一季标作 Part 1，确认为 Roger Black、Waco O'Guin 创作的 Netflix 成人动画；配音人员与 TMDB 相符，10集的集号、标题和上线日期逐项与 TMDB 第一季一致。\n\nhttps://bgm.tv/subject/259037/ep (page): Bangumi 章节页只有本篇1至10的编号，各章没有标题或放送日期，无法独立核验每个章节的具体内容。\n\n备注：Bangumi 章节823961至823970缺少逐集标题和日期；取得可核验的章节资料后，才能补充逐集对应。",
+    "evidence": "codex: 年份、Netflix发行媒介、剧情、集数及续季边界共同确认该 subject 对应 TMDB 81983 第一季全季。外部集表与 TMDB 的10集完全一致；但 Bangumi 章节缺少标题和日期，因此仅确认整季范围，不凭编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/259037 (page): Bangumi 标注本作为 Netflix 网络动画，2018-08-31 开始放送，共10话；剧情为年轻警员加入父亲领导的小镇警队侦办毒品案件，另有关联续作第二季。\n\nhttps://www.themoviedb.org/tv/81983 (api_snapshot): TMDB 81983 的原名、首播日期及剧情均与 Bangumi 一致；制作公司包括 Bento Box Entertainment，配音包括 Tom Kenny、Sarah Chalke、David Herman。第一季10集，第二季另于2020-03-06首播。\n\nhttps://www.themoviedb.org/tv/81983/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，全部于2018-08-31上线；从第1集 Welcome to Paradise 至第10集 Christmas in Paradise，构成完整第一季。\n\nhttps://www.rottentomatoes.com/tv/paradise_pd/s01 (page): Rotten Tomatoes 将第一季标作 Part 1，确认为 Roger Black、Waco O'Guin 创作的 Netflix 成人动画；配音人员与 TMDB 相符，10集的集号、标题和上线日期逐项与 TMDB 第一季一致。\n\nhttps://bgm.tv/subject/259037/ep (page): Bangumi 章节页只有本篇1至10的编号，各章没有标题或放送日期，无法独立核验每个章节的具体内容。\n\n备注：Bangumi 章节823961至823970缺少逐集标题和日期；取得可核验的章节资料后，才能补充逐集对应。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/259037; https://www.themoviedb.org/tv/81983; https://www.themoviedb.org/tv/81983/season/1; https://www.rottentomatoes.com/tv/paradise_pd/s01; https://bgm.tv/subject/259037/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 81983
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

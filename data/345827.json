@@ -86,12 +86,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 235808 第1季完整16集：年份、网络动画版本、剧情、制作公司、集数及播出起止日期一致，第2季属于另一个 Bangumi 续作条目。作品与季范围已确认；由于 Bangumi 各话缺少标题和日期，不能完成逐集交叉核验，故保留整季映射，暂不生成连续规则。\n\nhttps://bgm.tv/subject/345827 (page): Bangumi 标注为网络动画，共16集，播出时间为2023-09-26至2024-01-02；导演张翔，原力动画制作，腾讯视频、中文在线出品，原作为善良的蜜蜂的同名小说。\n\nhttps://bgm.tv/subject/345827/ep (page): Bangumi 章节表包含本篇第1至16话，但各话标题和播出日期均为空，缺少逐集交叉比对依据。\n\nhttps://wetv.vip/zh-cn/play/kiro9931b2xy28y (page): 官方 WeTV 页面确认这是2023年、全16集的《修罗武神》，剧情涉及楚枫、青龙宗、九色神雷及与龚路云的一年生死战之约，与 Bangumi 和 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/235808 (api_snapshot): TMDB 235808 原名为《修罗武神》，别名包括 Martial God Asura，首播日期2023-09-26；剧情及原力动画、腾讯、中文在线等制作公司与目标作品吻合。详情将2026-02-24开播的续作另列为第2季。\n\nhttps://www.themoviedb.org/tv/235808/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共16集，集号连续为1至16。第1、2集日期均为2023-09-26，第3集起每周更新，末集日期2024-01-02；首集题为《初出茅庐》，末集题为《修罗武神》，整季范围与 Bangumi 主体一致。\n\n备注：本篇第1至16话尚未建立逐集映射；需补充可核验的 Bangumi 章节标题、日期或章节内容依据，不能仅凭集号位置生成规则。",
+    "evidence": "codex: 确认对应 TMDB 235808 第1季完整16集：年份、网络动画版本、剧情、制作公司、集数及播出起止日期一致，第2季属于另一个 Bangumi 续作条目。作品与季范围已确认；由于 Bangumi 各话缺少标题和日期，不能完成逐集交叉核验，故保留整季映射，暂不生成连续规则。\n\nhttps://bgm.tv/subject/345827 (page): Bangumi 标注为网络动画，共16集，播出时间为2023-09-26至2024-01-02；导演张翔，原力动画制作，腾讯视频、中文在线出品，原作为善良的蜜蜂的同名小说。\n\nhttps://bgm.tv/subject/345827/ep (page): Bangumi 章节表包含本篇第1至16话，但各话标题和播出日期均为空，缺少逐集交叉比对依据。\n\nhttps://wetv.vip/zh-cn/play/kiro9931b2xy28y (page): 官方 WeTV 页面确认这是2023年、全16集的《修罗武神》，剧情涉及楚枫、青龙宗、九色神雷及与龚路云的一年生死战之约，与 Bangumi 和 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/235808 (api_snapshot): TMDB 235808 原名为《修罗武神》，别名包括 Martial God Asura，首播日期2023-09-26；剧情及原力动画、腾讯、中文在线等制作公司与目标作品吻合。详情将2026-02-24开播的续作另列为第2季。\n\nhttps://www.themoviedb.org/tv/235808/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共16集，集号连续为1至16。第1、2集日期均为2023-09-26，第3集起每周更新，末集日期2024-01-02；首集题为《初出茅庐》，末集题为《修罗武神》，整季范围与 Bangumi 主体一致。\n\n备注：本篇第1至16话尚未建立逐集映射；需补充可核验的 Bangumi 章节标题、日期或章节内容依据，不能仅凭集号位置生成规则。\n\n脚本按声明范围生成逐集规则：16 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/345827; https://bgm.tv/subject/345827/ep; https://wetv.vip/zh-cn/play/kiro9931b2xy28y; https://www.themoviedb.org/tv/235808; https://www.themoviedb.org/tv/235808/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 235808
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

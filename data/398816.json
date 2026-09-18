@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、第三季标识、精确首播日期及52集规模一致，支持对应 TMDB 157985 第3季整季。Bangumi 各集标题和日期均为空，TMDB 标题也只是集号占位，无法独立核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/157985 (api_snapshot): 《毛毛镇》第3季首播日期为2022-01-10，共52集，与 Bangumi 第三季的首播日期、季序和本篇集数一致；候选逐集表完整列出第1至52集，日期覆盖2022-01-10至2022-02-14。\n\nhttps://www.themoviedb.org/tv/243312 (api_snapshot): 《毛毛镇之生活小常识.第三季》仅收录第3季第52集，日期为2019-02-01，无法覆盖本 subject 的2022年52集主体。\n\nhttps://www.themoviedb.org/tv/243311 (api_snapshot): 《毛毛镇之冰雪加油队》为2021-12-19首播的18集作品，首播日期、集数及版本名称均与本 subject 不符。\n\n备注：逐集对应需补充 Bangumi 的实际集标题或放送日期后核验，不能仅按序号建立映射。；候选未提供剧情简介，Bangumi 未提供制作公司，剧情与制作方无法交叉核验。",
+    "evidence": "codex: 作品名称、第三季标识、精确首播日期及52集规模一致，支持对应 TMDB 157985 第3季整季。Bangumi 各集标题和日期均为空，TMDB 标题也只是集号占位，无法独立核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/157985 (api_snapshot): 《毛毛镇》第3季首播日期为2022-01-10，共52集，与 Bangumi 第三季的首播日期、季序和本篇集数一致；候选逐集表完整列出第1至52集，日期覆盖2022-01-10至2022-02-14。\n\nhttps://www.themoviedb.org/tv/243312 (api_snapshot): 《毛毛镇之生活小常识.第三季》仅收录第3季第52集，日期为2019-02-01，无法覆盖本 subject 的2022年52集主体。\n\nhttps://www.themoviedb.org/tv/243311 (api_snapshot): 《毛毛镇之冰雪加油队》为2021-12-19首播的18集作品，首播日期、集数及版本名称均与本 subject 不符。\n\n备注：逐集对应需补充 Bangumi 的实际集标题或放送日期后核验，不能仅按序号建立映射。；候选未提供剧情简介，Bangumi 未提供制作公司，剧情与制作方无法交叉核验。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/398816; https://www.themoviedb.org/tv/157985; https://www.themoviedb.org/tv/243312; https://www.themoviedb.org/tv/243311",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 157985
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

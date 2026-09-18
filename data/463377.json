@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 1433 第20季整季：输入的首播日期、22集规模及季度身份与实际季表一致，官方剧情、配音与动画制作信息支持作品身份。官方第18季与 TMDB 第20季属于编号口径差异，按2023年播出范围确认。Bangumi 的22个章节均无标题和日期，无法逐集比对，因此只确认整季范围，暂不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为美国电视动画 American Dad!，系列始播于2005-02-06，围绕 Stan Smith 家庭及外星人 Roger 展开；配音包括 Seth MacFarlane、Wendy Schaal 等，制作公司包括 20th Television Animation。\n\nhttps://www.themoviedb.org/tv/1433/season/20 (api_snapshot): 实际读取第20季完整集表，total_pages=1，共22集，集号1—22连续；首集 Fellow Traveler 于2023-03-27播出，末集 Into the Jingleverse 于2023-12-18播出。全部属于2023年季度。\n\nhttps://press.wbd.com/na/media-release/tbs-american-dad-returns-monday-march-27-1000pm-ptet?language_content_entity=en (search_snippet): TBS官方新闻稿确认本作于2023-03-27回归，剧情为 CIA 特工 Stan Smith 及其家庭的故事，配音阵容与 TMDB 一致；官方将该季度称为第18季，存在季号口径差异。\n\nhttps://en.wikipedia.org/wiki/American_Dad!_season_20 (page): 季度资料确认第20季为2023-03-27至2023-12-18在TBS播出的22集，同时说明宣传使用第18季称呼，支持两种季号指向同一2023年季度。\n\n备注：逐集对应尚未确认；需要补充 Bangumi 章节标题或播出日期后，再与 TMDB 集表核对。；Bangumi网页及API本次访问失败，Bangumi侧信息依据用户提供的快照。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 1433 第20季整季：输入的首播日期、22集规模及季度身份与实际季表一致，官方剧情、配音与动画制作信息支持作品身份。官方第18季与 TMDB 第20季属于编号口径差异，按2023年播出范围确认。Bangumi 的22个章节均无标题和日期，无法逐集比对，因此只确认整季范围，暂不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/1433 (api_snapshot): TMDB 1433 为美国电视动画 American Dad!，系列始播于2005-02-06，围绕 Stan Smith 家庭及外星人 Roger 展开；配音包括 Seth MacFarlane、Wendy Schaal 等，制作公司包括 20th Television Animation。\n\nhttps://www.themoviedb.org/tv/1433/season/20 (api_snapshot): 实际读取第20季完整集表，total_pages=1，共22集，集号1—22连续；首集 Fellow Traveler 于2023-03-27播出，末集 Into the Jingleverse 于2023-12-18播出。全部属于2023年季度。\n\nhttps://press.wbd.com/na/media-release/tbs-american-dad-returns-monday-march-27-1000pm-ptet?language_content_entity=en (search_snippet): TBS官方新闻稿确认本作于2023-03-27回归，剧情为 CIA 特工 Stan Smith 及其家庭的故事，配音阵容与 TMDB 一致；官方将该季度称为第18季，存在季号口径差异。\n\nhttps://en.wikipedia.org/wiki/American_Dad!_season_20 (page): 季度资料确认第20季为2023-03-27至2023-12-18在TBS播出的22集，同时说明宣传使用第18季称呼，支持两种季号指向同一2023年季度。\n\n备注：逐集对应尚未确认；需要补充 Bangumi 章节标题或播出日期后，再与 TMDB 集表核对。；Bangumi网页及API本次访问失败，Bangumi侧信息依据用户提供的快照。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/463377; https://www.themoviedb.org/tv/1433; https://www.themoviedb.org/tv/1433/season/20; https://press.wbd.com/na/media-release/tbs-american-dad-returns-monday-march-27-1000pm-ptet?language_content_entity=en; https://en.wikipedia.org/wiki/American_Dad!_season_20",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 20,
+      "start": 1,
+      "tmdbId": 1433
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

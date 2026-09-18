@@ -200,12 +200,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品剧情、媒介、首播日期、39 集规模、完结日期及续作季界均吻合，可确认对应 TMDB 117030 第 1 季整季。Bangumi 逐集标题和日期全部缺失，无法核实逐集顺序，因此不生成连续规则或逐集特例。\n\nhttps://www.themoviedb.org/tv/117030 (api_snapshot): TV 117030 原名为 We Baby Bears，剧情为幼年熊兄弟旅行寻找住所，与 Bangumi 简介一致；首播日期同为 2022-01-01。\n\nhttps://www.themoviedb.org/tv/117030 (api_snapshot): 第 1 季共 39 集，首末集日期为 2022-01-01、2023-05-13，与 Bangumi 总集数及放送起止日期完全一致；第 2 季首播于 2023-06-17，也与 Bangumi 续作关系中的日期一致，支持本 subject 覆盖第 1 季整季。\n\nhttps://www.themoviedb.org/movie/762137 (api_snapshot): 电影 762137 的上映日期为 2018-05-28，与本 subject 的 2022 年电视动画媒介及时间不符，不能作为对应条目。\n\n备注：逐集对应尚未确认：Bangumi 39 个章节均无标题及放送日期，TMDB 标题也仅为集号占位；需补充可比对的逐集资料后才能建立 rules。；Bangumi 未提供制作方，无法独立核对制作方信息。",
+    "evidence": "codex: 作品剧情、媒介、首播日期、39 集规模、完结日期及续作季界均吻合，可确认对应 TMDB 117030 第 1 季整季。Bangumi 逐集标题和日期全部缺失，无法核实逐集顺序，因此不生成连续规则或逐集特例。\n\nhttps://www.themoviedb.org/tv/117030 (api_snapshot): TV 117030 原名为 We Baby Bears，剧情为幼年熊兄弟旅行寻找住所，与 Bangumi 简介一致；首播日期同为 2022-01-01。\n\nhttps://www.themoviedb.org/tv/117030 (api_snapshot): 第 1 季共 39 集，首末集日期为 2022-01-01、2023-05-13，与 Bangumi 总集数及放送起止日期完全一致；第 2 季首播于 2023-06-17，也与 Bangumi 续作关系中的日期一致，支持本 subject 覆盖第 1 季整季。\n\nhttps://www.themoviedb.org/movie/762137 (api_snapshot): 电影 762137 的上映日期为 2018-05-28，与本 subject 的 2022 年电视动画媒介及时间不符，不能作为对应条目。\n\n备注：逐集对应尚未确认：Bangumi 39 个章节均无标题及放送日期，TMDB 标题也仅为集号占位；需补充可比对的逐集资料后才能建立 rules。；Bangumi 未提供制作方，无法独立核对制作方信息。\n\n脚本按声明范围生成逐集规则：39 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/451982; https://www.themoviedb.org/tv/117030; https://www.themoviedb.org/movie/762137",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 39,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 117030
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、国家、动画媒介、三家制作公司及13集总量共同支持对应 TMDB 80402 第1季整季。季范围可以确认，但逐集证据不足，暂不建立连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/80402 (api_snapshot): 候选为美国动画《Legend of the Three Caballeros》，首播日期为2019-11-12；制作公司包含 Bangumi 所列的 Atomic Cartoons、Disney Digital Network、Disney Interactive。唯一列出的第1季共13集，与 subject 的日期、制作方及本篇总数一致。\n\nhttps://www.themoviedb.org/tv/80402 (api_snapshot): 第1季完整列出第1至13集，标题均为通用集号，放送日期均为2019-11-12，无法据此核对 Bangumi 的具体章节标题与逐集顺序。\n\n备注：Bangumi 第1话日期为2019-01-01，与 subject 及 TMDB 的2019-11-12不一致，现有数据无法解释。；Bangumi 仅前两话有具体标题，其余章节缺少标题和日期；TMDB 全部使用通用集号标题。需补充可比对的逐集标题或日期后再确认章节对应，不能仅按位置生成规则。",
+    "evidence": "codex: 确认对应TMDB 80402第1季整季：剧情、制作方、动画媒介、发行历史和13集范围一致。英文季表与官方完整集表吻合；通过中文标题及分集剧情确认Bangumi第1—2话对应S1E1—E2。第3—13话缺少可核对的Bangumi标题和日期，保留未映射。\n\nhttps://bgm.tv/subject/522771 (page): Bangumi 标明本作是美国英语动画，共13话，日期为2019-11-12；制作公司及三位主角继承祖先冒险使命的剧情与候选一致。\n\nhttps://www.themoviedb.org/tv/80402 (api_snapshot): 英文原名搜索命中80402；详情确认其剧情包含唐老鸭、何塞、潘奇托继承小屋并遇见女神Xandra，制作公司包含Bangumi所列三家公司，IMDb为tt8611524，导演为Matt Danner，共1季13集。\n\nhttps://www.themoviedb.org/tv/80402/season/1 (api_snapshot): 第1季集表共13集，total_pages=1，已完整读取。英语结果具有真实标题及剧情，第1集为Dope-a Cabana，第2集为Labyrinth and Repeat；全部日期为2019-11-12。繁体中文结果使用通用集号，不能据此认定英语标题也缺失。\n\nhttps://d23.com/a-to-z/legend-of-the-three-caballeros/ (page): 迪士尼官方D23确认本动画先于2018年6月在菲律宾DisneyLife发行，后于2019-11-12上线Disney+；剧情、配音及制作公司与TMDB相符，解释了2018与2019年份差异。\n\nhttps://www.disneyplus.com/browse/entity-9549e903-ab83-4bd2-a2e4-86ade89a7a20 (page): Disney+列出第1季全部13集，其英文标题和顺序与TMDB英语季表逐集一致，支持整季范围属于同一部冒险动画。\n\nhttps://tv.apple.com/tw/show/三騎士傳奇/umc.cmc.47gjuu9z474i3gi1xvqg31bn (page): Apple TV台湾页面明确列出第1集《房子的祕密》和第2集《迷宮測驗》，与输入中的Bangumi标题完全一致；继承小屋、释放女神及克里特岛迷宫考验的分集剧情分别吻合TMDB第1、2集。\n\n备注：Bangumi第1话日期2019-01-01与官方Disney+上线日期2019-11-12不一致，不能将其作为准确首播日期；前两话映射依据为标题及剧情。；Bangumi第3—13话仅有集号，无法独立核实其逐集顺序，未按位置生成规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/522771; https://www.themoviedb.org/tv/80402",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/522771; https://www.themoviedb.org/tv/80402; https://www.themoviedb.org/tv/80402/season/1; https://d23.com/a-to-z/legend-of-the-three-caballeros/; https://www.disneyplus.com/browse/entity-9549e903-ab83-4bd2-a2e4-86ade89a7a20; https://tv.apple.com/tw/show/三騎士傳奇/umc.cmc.47gjuu9z474i3gi1xvqg31bn",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80402
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

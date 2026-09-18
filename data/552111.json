@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 78173 第5季整季：制作方、媒介、上线日期、13集范围及前后季度关系一致，外部发行集表与 TMDB 完整吻合。Bangumi 章节缺少逐集标题和日期，无法独立核验各章节身份，因此仅确认整季映射，逐集规则留空。\n\nhttps://bgm.tv/subject/552111 (page): Bangumi 标明本作为 DreamWorks 制作的 Netflix WEB 动画第五季，共13话，2017年8月25日上线；前后关联分别为第四季和第六季。章节列表只有编号，未提供标题。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): 以英文原名搜索得到 TMDB 78173；详情确认其为 DreamWorks Animation Television 制作、围绕小嗝嗝与无牙仔冒险的动画系列，共6季78集。第四、五、六季日期分别为2017年2月17日、2017年8月25日、2018年2月16日，与 Bangumi 季度关系一致。\n\nhttps://www.themoviedb.org/tv/78173/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共13集，全部日期为2017年8月25日，单集23分钟；范围从第1集 Living on the Edge 至第13集 Sins of the Past。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-LtDW6EfY3HDjSB6CWuP8zA&gdid=tvepisode-BoGRv6p-GYw&id=d_Dl1DKmbfM (page): Google Play 第五季列出13集，逐集标题、顺序及2017年8月25日的日期均与 TMDB 相符；第8、9集分别为 The Wings of War 上下篇，支持该季为完整剧情动画季度。\n\nhttps://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s05 (page): 第五季页面确认 Netflix 平台、2017年8月25日发行、13集剧情集表，并列出与 TMDB 一致的主要配音演员，支持作品版本一致。\n\n备注：Bangumi 提供的13个章节均无标题、日期；章节页访问失败。不能仅凭 sort 顺序建立逐集规则，需补充 Bangumi 章节资料后再核对。",
+    "evidence": "codex: 已确认对应 TMDB 78173 第5季整季：制作方、媒介、上线日期、13集范围及前后季度关系一致，外部发行集表与 TMDB 完整吻合。Bangumi 章节缺少逐集标题和日期，无法独立核验各章节身份，因此仅确认整季映射，逐集规则留空。\n\nhttps://bgm.tv/subject/552111 (page): Bangumi 标明本作为 DreamWorks 制作的 Netflix WEB 动画第五季，共13话，2017年8月25日上线；前后关联分别为第四季和第六季。章节列表只有编号，未提供标题。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): 以英文原名搜索得到 TMDB 78173；详情确认其为 DreamWorks Animation Television 制作、围绕小嗝嗝与无牙仔冒险的动画系列，共6季78集。第四、五、六季日期分别为2017年2月17日、2017年8月25日、2018年2月16日，与 Bangumi 季度关系一致。\n\nhttps://www.themoviedb.org/tv/78173/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共13集，全部日期为2017年8月25日，单集23分钟；范围从第1集 Living on the Edge 至第13集 Sins of the Past。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-LtDW6EfY3HDjSB6CWuP8zA&gdid=tvepisode-BoGRv6p-GYw&id=d_Dl1DKmbfM (page): Google Play 第五季列出13集，逐集标题、顺序及2017年8月25日的日期均与 TMDB 相符；第8、9集分别为 The Wings of War 上下篇，支持该季为完整剧情动画季度。\n\nhttps://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s05 (page): 第五季页面确认 Netflix 平台、2017年8月25日发行、13集剧情集表，并列出与 TMDB 一致的主要配音演员，支持作品版本一致。\n\n备注：Bangumi 提供的13个章节均无标题、日期；章节页访问失败。不能仅凭 sort 顺序建立逐集规则，需补充 Bangumi 章节资料后再核对。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552111; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/5; https://play.google.com/store/tv/show?cdid=tvseason-LtDW6EfY3HDjSB6CWuP8zA&gdid=tvepisode-BoGRv6p-GYw&id=d_Dl1DKmbfM; https://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s05",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 78173
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

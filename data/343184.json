@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作公司、动画媒介、原作、第三季剧情、开播日期及26集范围一致，确认对应TMDB 85063第3季整季。已核实该季完整集表，未见混入其他作品。Bangumi逐集标题与日期均为空，不能仅按序号生成对应规则，因此保留季级映射，逐集映射留空。\n\nhttps://bgm.tv/subject/343184 (page): Bangumi 将本作列为 WEB 动画第三季，2021年12月27日开播，共26话；原作为我吃西红柿，导演刘炜，动画制作米粒影业、米玩科技。\n\nhttps://www.themoviedb.org/tv/85063 (api_snapshot): TMDB 85063 为2018年开播的《雪鹰领主》动画系列，制作公司包含米粒影业、米玩，配音阵容包含郝祥海、杨凝；剧情围绕东伯雪鹰、余靖秋展开，与本作所属动画系列一致。\n\nhttps://www.themoviedb.org/tv/85063/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共26集，连续编号1—26；前两集日期均为2021-12-27，随后每周一更新，末集日期2022-06-13。季简介明确第三季从系列第53集开始，剧情为雪鹰对抗恶魔、守护夏族。\n\nhttps://www.weibo.com/xueyinglingzhu (search_snippet): 动画官方微博的开播公告确认第三季于2021-12-27上线，共26集，从系列第53集开始，每周一更新，VIP抢先看1集。\n\nhttps://star.tom.com/202112/1823205625.html (page): 2021-12-27的开播报道确认本季由企鹅影视出品、米粒影业制作，改编自我吃西红柿小说，共26集；第三季剧情为雪鹰识破恶魔计谋、守护人类，与TMDB季简介吻合。\n\nhttps://bgm.tv/subject/343184/ep (page): Bangumi章节页仅列出本篇1—26，未提供逐集标题和放送日期，无法与TMDB逐集交叉比对。\n\n备注：26个Bangumi章节缺少可逐集比对的标题或日期；补充这些资料后才能建立可靠的rules或overrides。",
+    "evidence": "codex: 制作公司、动画媒介、原作、第三季剧情、开播日期及26集范围一致，确认对应TMDB 85063第3季整季。已核实该季完整集表，未见混入其他作品。Bangumi逐集标题与日期均为空，不能仅按序号生成对应规则，因此保留季级映射，逐集映射留空。\n\nhttps://bgm.tv/subject/343184 (page): Bangumi 将本作列为 WEB 动画第三季，2021年12月27日开播，共26话；原作为我吃西红柿，导演刘炜，动画制作米粒影业、米玩科技。\n\nhttps://www.themoviedb.org/tv/85063 (api_snapshot): TMDB 85063 为2018年开播的《雪鹰领主》动画系列，制作公司包含米粒影业、米玩，配音阵容包含郝祥海、杨凝；剧情围绕东伯雪鹰、余靖秋展开，与本作所属动画系列一致。\n\nhttps://www.themoviedb.org/tv/85063/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共26集，连续编号1—26；前两集日期均为2021-12-27，随后每周一更新，末集日期2022-06-13。季简介明确第三季从系列第53集开始，剧情为雪鹰对抗恶魔、守护夏族。\n\nhttps://www.weibo.com/xueyinglingzhu (search_snippet): 动画官方微博的开播公告确认第三季于2021-12-27上线，共26集，从系列第53集开始，每周一更新，VIP抢先看1集。\n\nhttps://star.tom.com/202112/1823205625.html (page): 2021-12-27的开播报道确认本季由企鹅影视出品、米粒影业制作，改编自我吃西红柿小说，共26集；第三季剧情为雪鹰识破恶魔计谋、守护人类，与TMDB季简介吻合。\n\nhttps://bgm.tv/subject/343184/ep (page): Bangumi章节页仅列出本篇1—26，未提供逐集标题和放送日期，无法与TMDB逐集交叉比对。\n\n备注：26个Bangumi章节缺少可逐集比对的标题或日期；补充这些资料后才能建立可靠的rules或overrides。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/343184; https://www.themoviedb.org/tv/85063; https://www.themoviedb.org/tv/85063/season/3; https://www.weibo.com/xueyinglingzhu; https://star.tom.com/202112/1823205625.html; https://bgm.tv/subject/343184/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 85063
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

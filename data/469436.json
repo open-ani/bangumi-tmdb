@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份与整季范围可确认，对应 TMDB 251369 第1季。Bangumi 各章节均缺少标题和放送日期，无法完成逐集交叉核对，因此仅确定整季归属，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/251369 (api_snapshot): 候选 TV 251369 的名称、2024年1月10日首播日期、炎上题材短篇动画简介，以及 CHET Marketing、Sony Music Labels、CBC 制作信息均与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/251369 (api_snapshot): 第1季共12集，逐集日期为2024年1月10日至3月27日每周三，与 Bangumi 的总集数、播出起止日期和星期一致；季表未显示混入其他作品。\n\n备注：需要补充 Bangumi 各章节的标题或放送日期，才能核实逐集对应；目前不能仅凭 sort 顺序填充映射。",
+    "evidence": "codex: 作品身份与整季范围可确认，对应 TMDB 251369 第1季。Bangumi 各章节均缺少标题和放送日期，无法完成逐集交叉核对，因此仅确定整季归属，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/251369 (api_snapshot): 候选 TV 251369 的名称、2024年1月10日首播日期、炎上题材短篇动画简介，以及 CHET Marketing、Sony Music Labels、CBC 制作信息均与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/251369 (api_snapshot): 第1季共12集，逐集日期为2024年1月10日至3月27日每周三，与 Bangumi 的总集数、播出起止日期和星期一致；季表未显示混入其他作品。\n\n备注：需要补充 Bangumi 各章节的标题或放送日期，才能核实逐集对应；目前不能仅凭 sort 顺序填充映射。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/469436; https://www.themoviedb.org/tv/251369",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 251369
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

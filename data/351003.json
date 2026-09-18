@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介及52集规模一致，候选第1季完整覆盖该 subject 的主体范围。Bangumi 逐集标题和日期均为空，TMDB 标题也仅为集号占位，无法核实逐集对应，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/316260 (api_snapshot): 候选《蹴鞠小子》为中国儿童动画，首播日期为2021-09-13，与 Bangumi 一致；唯一列出的第1季共52集，与 subject 本篇总数一致。季表包含连续的第1至52集，放送日期为2021-09-13至2021-10-18。\n\n备注：候选未提供剧情简介，制作公司列表为空，无法交叉核对剧情与功夫动漫的制作信息。；逐集对应仍需补充 Bangumi 各集标题或放送日期后核实，不能仅凭集号顺序建立映射。",
+    "evidence": "codex: 名称、首播日期、动画媒介及52集规模一致，候选第1季完整覆盖该 subject 的主体范围。Bangumi 逐集标题和日期均为空，TMDB 标题也仅为集号占位，无法核实逐集对应，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/316260 (api_snapshot): 候选《蹴鞠小子》为中国儿童动画，首播日期为2021-09-13，与 Bangumi 一致；唯一列出的第1季共52集，与 subject 本篇总数一致。季表包含连续的第1至52集，放送日期为2021-09-13至2021-10-18。\n\n备注：候选未提供剧情简介，制作公司列表为空，无法交叉核对剧情与功夫动漫的制作信息。；逐集对应仍需补充 Bangumi 各集标题或放送日期后核实，不能仅凭集号顺序建立映射。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/351003; https://www.themoviedb.org/tv/316260",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 316260
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

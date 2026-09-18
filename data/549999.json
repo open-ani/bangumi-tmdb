@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列归属、首播日期、26集规模及季表内容共同支持对应 TMDB 67667 第0季。Bangumi 全部章节均缺少标题和放送日期，无法逐集核对，因此仅确认整季范围，不按序号猜测逐集关系。\n\nhttps://www.themoviedb.org/tv/67667 (api_snapshot): TMDB 67667 第0季共26集，首集日期为2023-04-03，与该 subject 的首播日期、总集数一致；完整季表包含魔界锦标赛、魔王及元素战斗相关标题，与简介中的赛事背景相符。\n\nhttps://www.themoviedb.org/tv/67667 (api_snapshot): 第6季为 DB（ダイナマイトバトル），自2021-04-02开始、共52集，对应输入关联的前作，不能作为本次26集作品的映射范围。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能建立逐集 rules 或 overrides。；Bangumi 未提供制作公司信息，无法独立核对制作方。",
+    "evidence": "codex: 系列归属、首播日期、26集规模及季表内容共同支持对应 TMDB 67667 第0季。Bangumi 全部章节均缺少标题和放送日期，无法逐集核对，因此仅确认整季范围，不按序号猜测逐集关系。\n\nhttps://www.themoviedb.org/tv/67667 (api_snapshot): TMDB 67667 第0季共26集，首集日期为2023-04-03，与该 subject 的首播日期、总集数一致；完整季表包含魔界锦标赛、魔王及元素战斗相关标题，与简介中的赛事背景相符。\n\nhttps://www.themoviedb.org/tv/67667 (api_snapshot): 第6季为 DB（ダイナマイトバトル），自2021-04-02开始、共52集，对应输入关联的前作，不能作为本次26集作品的映射范围。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能建立逐集 rules 或 overrides。；Bangumi 未提供制作公司信息，无法独立核对制作方。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/549999; https://www.themoviedb.org/tv/67667",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 67667
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

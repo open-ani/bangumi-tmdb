@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画剧集媒介、第二季首播日期、10集总量及前作日期共同支持对应 TMDB 79356 第2季整季。Bangumi 各集标题和日期均为空，无法逐集核验，因此仅确认季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/79356 (api_snapshot): TMDB 79356 为动画剧集，第1季首播日期为2019-05-03，与 Bangumi 前作日期一致；第2季首播日期为2021-06-13、共10集，均与待核对 subject 一致。第2季季表完整列出第1至10集，播出日期为2021-06-13至2021-08-15。\n\n备注：Bangumi 缺少逐集标题与放送日期，TMDB 集标题也仅为编号占位，逐集对应关系暂留空。；候选未提供剧情简介，Bangumi 未列制作公司，无法直接交叉核对剧情与制作方。",
+    "evidence": "codex: 名称、动画剧集媒介、第二季首播日期、10集总量及前作日期共同支持对应 TMDB 79356 第2季整季。Bangumi 各集标题和日期均为空，无法逐集核验，因此仅确认季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/79356 (api_snapshot): TMDB 79356 为动画剧集，第1季首播日期为2019-05-03，与 Bangumi 前作日期一致；第2季首播日期为2021-06-13、共10集，均与待核对 subject 一致。第2季季表完整列出第1至10集，播出日期为2021-06-13至2021-08-15。\n\n备注：Bangumi 缺少逐集标题与放送日期，TMDB 集标题也仅为编号占位，逐集对应关系暂留空。；候选未提供剧情简介，Bangumi 未列制作公司，无法直接交叉核对剧情与制作方。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/438038; https://www.themoviedb.org/tv/79356",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 79356
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB TV 55326 第 1 季整季：年份、12 集短篇规模、人物生活设定及分集剧情均支持其为 2011 年 Flash 版。130728 属于制作人员、舞台及集数均不同的 2013 年新版，应排除。Bangumi 章节缺少标题和日期，暂不生成仅凭序号推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/55326 (api_snapshot): 日文原名搜索命中 TV 55326；详情显示原名《DD北斗之拳》，2011 年播出，仅一季、共 12 集。\n\nhttps://www.themoviedb.org/tv/55326/season/1 (api_snapshot): 已读取第 1 季完整集表（共 1 页、12 集），日期为 2011-01-12 至 2011-04-06。各集剧情包括关东煮摊、联谊、阿部志庄、染发、澡堂及最终传承者争夺，与早期短篇版吻合，未混入新版。\n\nhttps://www.tc-ent.co.jp/products/detail/TCED-1596 (search_snippet): 发行方资料确认本作于 2011-01-11 至 2011-04-05 在关西电视台播出，全 12 集、本篇约 42 分钟，舞台是吉祥寺的「あべし荘」。DVD 发行日期标为 2012-10-26。\n\nhttps://navicon.jp/title96500/ (page): 配信目录注明全 12 话，导演カジオ、脚本梅村真也、角色设计 black-box、音乐 KAZSIN；当前页前 10 集剧情与 TMDB 第 1 季前 10 集逐项吻合。\n\nhttps://www.themoviedb.org/tv/130728 (api_snapshot): TV 130728 是 2013 年开始的《DD北斗の拳》，导演大地丙太郎、制作亜細亜堂，第 1 季为便利店舞台的 26 个分段；其 TVDB ID 正是线索中的 253182，说明该外部 ID 指向新版。\n\n备注：Bangumi 所给 12 个章节的标题、日期均为空，网页集表亦未能访问，尚不能独立核实各章节的逐集对应。；TMDB 首末播出日期均比发行方记载晚一天；可能涉及深夜节目日期口径，但尚未直接核实。；输入简介称 DVD 于 2013 年发行，而发行方资料标为 2012-10-26；该差异不影响作品身份判断。",
+    "evidence": "codex: 确认对应 TMDB TV 55326 第 1 季整季：年份、12 集短篇规模、人物生活设定及分集剧情均支持其为 2011 年 Flash 版。130728 属于制作人员、舞台及集数均不同的 2013 年新版，应排除。Bangumi 章节缺少标题和日期，暂不生成仅凭序号推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/55326 (api_snapshot): 日文原名搜索命中 TV 55326；详情显示原名《DD北斗之拳》，2011 年播出，仅一季、共 12 集。\n\nhttps://www.themoviedb.org/tv/55326/season/1 (api_snapshot): 已读取第 1 季完整集表（共 1 页、12 集），日期为 2011-01-12 至 2011-04-06。各集剧情包括关东煮摊、联谊、阿部志庄、染发、澡堂及最终传承者争夺，与早期短篇版吻合，未混入新版。\n\nhttps://www.tc-ent.co.jp/products/detail/TCED-1596 (search_snippet): 发行方资料确认本作于 2011-01-11 至 2011-04-05 在关西电视台播出，全 12 集、本篇约 42 分钟，舞台是吉祥寺的「あべし荘」。DVD 发行日期标为 2012-10-26。\n\nhttps://navicon.jp/title96500/ (page): 配信目录注明全 12 话，导演カジオ、脚本梅村真也、角色设计 black-box、音乐 KAZSIN；当前页前 10 集剧情与 TMDB 第 1 季前 10 集逐项吻合。\n\nhttps://www.themoviedb.org/tv/130728 (api_snapshot): TV 130728 是 2013 年开始的《DD北斗の拳》，导演大地丙太郎、制作亜細亜堂，第 1 季为便利店舞台的 26 个分段；其 TVDB ID 正是线索中的 253182，说明该外部 ID 指向新版。\n\n备注：Bangumi 所给 12 个章节的标题、日期均为空，网页集表亦未能访问，尚不能独立核实各章节的逐集对应。；TMDB 首末播出日期均比发行方记载晚一天；可能涉及深夜节目日期口径，但尚未直接核实。；输入简介称 DVD 于 2013 年发行，而发行方资料标为 2012-10-26；该差异不影响作品身份判断。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/118810; https://www.themoviedb.org/tv/55326; https://www.themoviedb.org/tv/55326/season/1; https://www.tc-ent.co.jp/products/detail/TCED-1596; https://navicon.jp/title96500/; https://www.themoviedb.org/tv/130728",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 55326
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品内容、动画媒介、季度、放送日期及8集总量相互吻合，可确认对应 TMDB 70437 第3季整季。Bangumi 各章节标题和日期均为空，无法逐集交叉核验顺序，因此不生成仅凭位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/70437 (api_snapshot): 候选为美国儿童动画《Ask the Storybots》，简介描述五个机器人解答儿童疑问，与 Bangumi 简介一致。第3季共8集，各集放送日期均为2019-08-02，与 subject 的季度、话数和放送起止日期一致；第2季日期2018-08-24也与 Bangumi 前作关系吻合。\n\n备注：Bangumi 未提供制作公司，无法与候选的 JibJab Media 交叉核验。；逐集对应需补充 Bangumi 各章节标题或其他可核实的分集资料。",
+    "evidence": "codex: 作品内容、动画媒介、季度、放送日期及8集总量相互吻合，可确认对应 TMDB 70437 第3季整季。Bangumi 各章节标题和日期均为空，无法逐集交叉核验顺序，因此不生成仅凭位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/70437 (api_snapshot): 候选为美国儿童动画《Ask the Storybots》，简介描述五个机器人解答儿童疑问，与 Bangumi 简介一致。第3季共8集，各集放送日期均为2019-08-02，与 subject 的季度、话数和放送起止日期一致；第2季日期2018-08-24也与 Bangumi 前作关系吻合。\n\n备注：Bangumi 未提供制作公司，无法与候选的 JibJab Media 交叉核验。；逐集对应需补充 Bangumi 各章节标题或其他可核实的分集资料。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/658641; https://www.themoviedb.org/tv/70437",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 70437
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

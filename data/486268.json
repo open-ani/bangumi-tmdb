@@ -26,12 +26,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB TV 154283 第 1 季整季。配信日期、四集规模、制作团队及官方项目关联一致，官方资料明确区分了四话配信版与现场演出的长篇动画。主体范围已确认；逐集证据不足，因此暂不填写连续规则。\n\nhttps://www.themoviedb.org/tv/154283 (api_snapshot): 日文原名搜索命中 TV 154283；详情确认原名为《ラプソディ》，首播日期为 2023-11-20，共一季四集，制作公司为 NAZ、Graphinica、MIXER，关联官方账号为 rhapsody_jp。\n\nhttps://www.themoviedb.org/tv/154283/season/1 (api_snapshot): 第 1 季实际集表共四集，集号为 1—4，标题仅为通用的“第1話”至“第4話”，日期均为 2023-11-20；total_pages=1，已完整读取。\n\nhttps://rhapsodyrecords.jp/news/info/2768/ (page): 官方公告确认：2023-11-20 开始配信的版本，是将同年七月起现场演出的长篇动画重新剪辑成全四话的作品，讲述四个乐队的故事。原作渋谷陽一、人物设计河合桃子及四位导演均与输入一致；NAZ、Graphinica、MIXER 也与 TMDB 制作信息相符。\n\nhttps://www.themoviedb.org/movie/1111013 (api_snapshot): 另查同名电影条目 1111013，仅有福山潤饰演东坂淳也的演员信息，缺少日期、剧情及有效片长，不能据此确认其版本或替代四集配信版。\n\n备注：输入中的四个 Bangumi 章节均无标题和播出日期，TMDB 也只有通用编号标题，无法进行独立的逐集内容比对。需补充 Bangumi 章节标题、日期或其他可辨识内容后再建立 rules，不能仅凭排列位置认定逐集对应。",
+    "evidence": "codex: 确认对应 TMDB TV 154283 第 1 季整季。配信日期、四集规模、制作团队及官方项目关联一致，官方资料明确区分了四话配信版与现场演出的长篇动画。主体范围已确认；逐集证据不足，因此暂不填写连续规则。\n\nhttps://www.themoviedb.org/tv/154283 (api_snapshot): 日文原名搜索命中 TV 154283；详情确认原名为《ラプソディ》，首播日期为 2023-11-20，共一季四集，制作公司为 NAZ、Graphinica、MIXER，关联官方账号为 rhapsody_jp。\n\nhttps://www.themoviedb.org/tv/154283/season/1 (api_snapshot): 第 1 季实际集表共四集，集号为 1—4，标题仅为通用的“第1話”至“第4話”，日期均为 2023-11-20；total_pages=1，已完整读取。\n\nhttps://rhapsodyrecords.jp/news/info/2768/ (page): 官方公告确认：2023-11-20 开始配信的版本，是将同年七月起现场演出的长篇动画重新剪辑成全四话的作品，讲述四个乐队的故事。原作渋谷陽一、人物设计河合桃子及四位导演均与输入一致；NAZ、Graphinica、MIXER 也与 TMDB 制作信息相符。\n\nhttps://www.themoviedb.org/movie/1111013 (api_snapshot): 另查同名电影条目 1111013，仅有福山潤饰演东坂淳也的演员信息，缺少日期、剧情及有效片长，不能据此确认其版本或替代四集配信版。\n\n备注：输入中的四个 Bangumi 章节均无标题和播出日期，TMDB 也只有通用编号标题，无法进行独立的逐集内容比对。需补充 Bangumi 章节标题、日期或其他可辨识内容后再建立 rules，不能仅凭排列位置认定逐集对应。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/486268; https://www.themoviedb.org/tv/154283; https://www.themoviedb.org/tv/154283/season/1; https://rhapsodyrecords.jp/news/info/2768/; https://www.themoviedb.org/movie/1111013",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 154283
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB TV 90848 第1季整季。年份、电视短篇媒介、剧情、制作人员与公司、首尾播出日期及26集范围相符，实际季表未显示混入其他作品。作品和季范围已确认，但 Bangumi 各章节标题与日期均为空，无法进行逐集交叉比对，因此不填连续规则。\n\nhttps://www.themoviedb.org/tv/90848 (api_snapshot): 日文原名及罗马字别名搜索均命中 TV 90848。详情确认原题为《おどるモワイくん》，2019-07-02 首播、2019-12-24 完结，共1季26集，制作公司为 Monster's Egg；摩艾像长出手臂并开始跳舞的剧情与官方介绍一致。\n\nhttps://www.themoviedb.org/tv/90848/season/1 (api_snapshot): 实际读取第1季完整集表：total_pages=1，共26集，集号1—26，标题均为编号式标题，每集2分钟，播出日期从2019-07-02至2019-12-24逐周递增。该季范围与 Bangumi 的26集电视动画主体一致。\n\nhttps://www.shopro.co.jp/tv/mowai-kun/ (page): 官方站确认剧情及原作 Quan「モワイくん」、导演遊佐かずしげ、角色原案大野雄一郎、CG导演兼平葵、音乐及音响监督こぐま、动画制作モンスターズエッグ，与输入资料及 TMDB 的剧情、制作公司相符。\n\nhttps://prtimes.jp/main/html/rd/p/000000089.000002610.html (search_snippet): 小学馆集英社制作的官方新闻稿确认本作是2019年7月2日起每周二在电视东京《おはスタ》播出的迷你动画，导演为遊佐かずしげ、制作为モンスターズエッグ。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/14189_201912240705.html (search_snippet): 电视东京2019年12月24日《おはスタ》节目页标题明确标注《おどるモワイくん》最终回，与 Bangumi 和 TMDB 的完结日期一致。\n\n备注：逐集对应暂留空：需补充 Bangumi 各章节标题、播出日期或可独立核验的逐集资料，不能仅按1—26的位置生成规则。",
+    "evidence": "codex: 确认对应 TMDB TV 90848 第1季整季。年份、电视短篇媒介、剧情、制作人员与公司、首尾播出日期及26集范围相符，实际季表未显示混入其他作品。作品和季范围已确认，但 Bangumi 各章节标题与日期均为空，无法进行逐集交叉比对，因此不填连续规则。\n\nhttps://www.themoviedb.org/tv/90848 (api_snapshot): 日文原名及罗马字别名搜索均命中 TV 90848。详情确认原题为《おどるモワイくん》，2019-07-02 首播、2019-12-24 完结，共1季26集，制作公司为 Monster's Egg；摩艾像长出手臂并开始跳舞的剧情与官方介绍一致。\n\nhttps://www.themoviedb.org/tv/90848/season/1 (api_snapshot): 实际读取第1季完整集表：total_pages=1，共26集，集号1—26，标题均为编号式标题，每集2分钟，播出日期从2019-07-02至2019-12-24逐周递增。该季范围与 Bangumi 的26集电视动画主体一致。\n\nhttps://www.shopro.co.jp/tv/mowai-kun/ (page): 官方站确认剧情及原作 Quan「モワイくん」、导演遊佐かずしげ、角色原案大野雄一郎、CG导演兼平葵、音乐及音响监督こぐま、动画制作モンスターズエッグ，与输入资料及 TMDB 的剧情、制作公司相符。\n\nhttps://prtimes.jp/main/html/rd/p/000000089.000002610.html (search_snippet): 小学馆集英社制作的官方新闻稿确认本作是2019年7月2日起每周二在电视东京《おはスタ》播出的迷你动画，导演为遊佐かずしげ、制作为モンスターズエッグ。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/14189_201912240705.html (search_snippet): 电视东京2019年12月24日《おはスタ》节目页标题明确标注《おどるモワイくん》最终回，与 Bangumi 和 TMDB 的完结日期一致。\n\n备注：逐集对应暂留空：需补充 Bangumi 各章节标题、播出日期或可独立核验的逐集资料，不能仅按1—26的位置生成规则。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/526852; https://www.themoviedb.org/tv/90848; https://www.themoviedb.org/tv/90848/season/1; https://www.shopro.co.jp/tv/mowai-kun/; https://prtimes.jp/main/html/rd/p/000000089.000002610.html; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201912/14189_201912240705.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 90848
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

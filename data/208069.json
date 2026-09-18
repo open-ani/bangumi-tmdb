@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认作品及整季范围对应 TMDB 282897 第1季：独特剧情、电视动画媒介、系列版本与52集体量一致，外部资料亦以相同制作人员连接2012年和2013年记录。该条目独立收录幸福救援队，整季覆盖主体。逐集标题与日期缺乏可比对证据，因此只提交整季映射，rules及overrides留空。\n\nhttps://www.themoviedb.org/tv/282897 (api_snapshot): TMDB 282897 为独立电视条目《猪猪侠之幸福救援队》，五大幸福之源、铠甲飞艇及外星宝宝引发危机的剧情与 Bangumi 一致；共1季52集。日期标为2012-01-01，制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/282897/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，共52集，集号连续为1—52。所有标题均为通用集号，简介为空；日期从2012-01-01起每周递增至2012-12-23，无法据此核实具体剧情集序。\n\nhttps://bgm.tv/subject/208069 (page): Bangumi 确认为52集电视动画，别名为猪猪侠第六部：幸福救援队；导演古志斌、陆锦明，脚本古志斌，动画制作咏声动漫，放送开始标为2013-06-07。\n\nhttps://donghua.cctv.com/special/zhuzhuxia/shouye/ (page): 央视专题单独介绍幸福救援队的后童话时代剧情，并将其与积木世界的童话故事、变身小英雄分别列出；本作第1、2集均标注20130607，与TMDB逐周日期不一致。\n\nhttps://www.tvmao.com/drama/HTBqKik= (page): 电视猫将同一剧情、同一导演及编剧的《猪猪侠6之幸福救援队》列为2012年、52集，支持2012与2013资料指向同一作品；但不能解释TMDB具体日期的来源。\n\n备注：TMDB的2012年逐周日期与Bangumi及央视2013年播出记录不一致；尚未确认日期差异原因，不能直接断言为制作年份与首播年份之差。；Bangumi章节缺少标题和日期，TMDB也只有通用集号，无法验证52话逐集顺序；待补充可交叉核对的章节元数据后再建立规则。；TMDB未提供制作人员，无法在两库之间直接核对演职员。",
+    "evidence": "codex: 确认作品及整季范围对应 TMDB 282897 第1季：独特剧情、电视动画媒介、系列版本与52集体量一致，外部资料亦以相同制作人员连接2012年和2013年记录。该条目独立收录幸福救援队，整季覆盖主体。逐集标题与日期缺乏可比对证据，因此只提交整季映射，rules及overrides留空。\n\nhttps://www.themoviedb.org/tv/282897 (api_snapshot): TMDB 282897 为独立电视条目《猪猪侠之幸福救援队》，五大幸福之源、铠甲飞艇及外星宝宝引发危机的剧情与 Bangumi 一致；共1季52集。日期标为2012-01-01，制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/282897/season/1 (api_snapshot): 第1季集表已完整读取，total_pages=1，共52集，集号连续为1—52。所有标题均为通用集号，简介为空；日期从2012-01-01起每周递增至2012-12-23，无法据此核实具体剧情集序。\n\nhttps://bgm.tv/subject/208069 (page): Bangumi 确认为52集电视动画，别名为猪猪侠第六部：幸福救援队；导演古志斌、陆锦明，脚本古志斌，动画制作咏声动漫，放送开始标为2013-06-07。\n\nhttps://donghua.cctv.com/special/zhuzhuxia/shouye/ (page): 央视专题单独介绍幸福救援队的后童话时代剧情，并将其与积木世界的童话故事、变身小英雄分别列出；本作第1、2集均标注20130607，与TMDB逐周日期不一致。\n\nhttps://www.tvmao.com/drama/HTBqKik= (page): 电视猫将同一剧情、同一导演及编剧的《猪猪侠6之幸福救援队》列为2012年、52集，支持2012与2013资料指向同一作品；但不能解释TMDB具体日期的来源。\n\n备注：TMDB的2012年逐周日期与Bangumi及央视2013年播出记录不一致；尚未确认日期差异原因，不能直接断言为制作年份与首播年份之差。；Bangumi章节缺少标题和日期，TMDB也只有通用集号，无法验证52话逐集顺序；待补充可交叉核对的章节元数据后再建立规则。；TMDB未提供制作人员，无法在两库之间直接核对演职员。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/208069; https://www.themoviedb.org/tv/282897; https://www.themoviedb.org/tv/282897/season/1; https://donghua.cctv.com/special/zhuzhuxia/shouye/; https://www.tvmao.com/drama/HTBqKik=",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 282897
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

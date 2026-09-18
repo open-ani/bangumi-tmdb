@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画剧集媒介、26 集规模及放送起止日期共同支持对应 TMDB 208564 第 1 季整季。Bangumi 各集标题和日期均为空，无法逐集核验顺序，因此仅确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/208564 (api_snapshot): 候选 208564 为同名动画剧集，第 1 季共 26 集，首播日期为 2021-11-29，第 26 集日期为 2022-09-20，与 Bangumi 的媒介、话数及放送起止日期一致。第 2 季始于 2023 年，不属于本 subject 的放送范围。\n\nhttps://www.themoviedb.org/tv/208564 (api_snapshot): 第 1 季集标题均为通用集号；第 2、3 集日期为 2021-09-29，早于该季标注的首播日期，存在日期异常。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期，并核实 TMDB 第 2、3 集的异常日期。；候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核验剧情及制作方。",
+    "evidence": "codex: 名称、动画剧集媒介、26 集规模及放送起止日期共同支持对应 TMDB 208564 第 1 季整季。Bangumi 各集标题和日期均为空，无法逐集核验顺序，因此仅确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/208564 (api_snapshot): 候选 208564 为同名动画剧集，第 1 季共 26 集，首播日期为 2021-11-29，第 26 集日期为 2022-09-20，与 Bangumi 的媒介、话数及放送起止日期一致。第 2 季始于 2023 年，不属于本 subject 的放送范围。\n\nhttps://www.themoviedb.org/tv/208564 (api_snapshot): 第 1 季集标题均为通用集号；第 2、3 集日期为 2021-09-29，早于该季标注的首播日期，存在日期异常。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期，并核实 TMDB 第 2、3 集的异常日期。；候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核验剧情及制作方。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/487801; https://www.themoviedb.org/tv/208564",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 208564
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

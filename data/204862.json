@@ -756,12 +756,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份、TV版本、制作人员、剧情、150话总量及放送起止日期均吻合，完整季表确认对应TMDB 128055第1季。Bangumi章节缺少标题与单集日期，无法完成逐集比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/204862 (page): Bangumi 标注为 TV 动画，共150话，放送范围为2010-03-29至2010-12-10；导演为のなかかずみ，剧情为やまびこ村花头河童一家的日常，另列第2期及2013年剧场版。\n\nhttps://www.themoviedb.org/tv/128055 (api_snapshot): 日文原名搜索所得 TV 128055，经详情确认首播日为2010-03-29，导演、角色、剧情及OLM、XEBEC制作信息吻合；后续内容分为其他季。\n\nhttps://www.themoviedb.org/tv/128055/season/1 (api_snapshot): 已读取第1季全部3页，完整包含第1至150集，每集5分钟，日期覆盖2010-03-29至2010-12-10。首集为「僕、はなかっぱ」，第149、150集为「はなかっぱの大冒険」前后篇；本季范围符合Bangumi主体。\n\nhttps://hanakappa.jp/ (page): 动画官网介绍やまびこ村、头上开花的河童一家及争夺返老还童之花「わか蘭」的故事，与两站剧情一致。\n\nhttps://maple.on.coocan.jp/fu/hana.html (search_snippet): 放送记录摘要将2010-12-10的第149、150话列为大冒险前后篇，与TMDB首季终点一致。\n\n备注：逐集对应尚未确认：现有Bangumi章节仅有序号，不能据此推定与TMDB同号对应；需补充章节标题或首播日期后再建立rules。",
+    "evidence": "codex: 作品身份、TV版本、制作人员、剧情、150话总量及放送起止日期均吻合，完整季表确认对应TMDB 128055第1季。Bangumi章节缺少标题与单集日期，无法完成逐集比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/204862 (page): Bangumi 标注为 TV 动画，共150话，放送范围为2010-03-29至2010-12-10；导演为のなかかずみ，剧情为やまびこ村花头河童一家的日常，另列第2期及2013年剧场版。\n\nhttps://www.themoviedb.org/tv/128055 (api_snapshot): 日文原名搜索所得 TV 128055，经详情确认首播日为2010-03-29，导演、角色、剧情及OLM、XEBEC制作信息吻合；后续内容分为其他季。\n\nhttps://www.themoviedb.org/tv/128055/season/1 (api_snapshot): 已读取第1季全部3页，完整包含第1至150集，每集5分钟，日期覆盖2010-03-29至2010-12-10。首集为「僕、はなかっぱ」，第149、150集为「はなかっぱの大冒険」前后篇；本季范围符合Bangumi主体。\n\nhttps://hanakappa.jp/ (page): 动画官网介绍やまびこ村、头上开花的河童一家及争夺返老还童之花「わか蘭」的故事，与两站剧情一致。\n\nhttps://maple.on.coocan.jp/fu/hana.html (search_snippet): 放送记录摘要将2010-12-10的第149、150话列为大冒险前后篇，与TMDB首季终点一致。\n\n备注：逐集对应尚未确认：现有Bangumi章节仅有序号，不能据此推定与TMDB同号对应；需补充章节标题或首播日期后再建立rules。\n\n脚本按声明范围生成逐集规则：150 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/204862; https://www.themoviedb.org/tv/128055; https://www.themoviedb.org/tv/128055/season/1; https://hanakappa.jp/; https://maple.on.coocan.jp/fu/hana.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 150,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 128055
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

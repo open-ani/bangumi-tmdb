@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、第二季首播日期、52集规模及前作首播信息相互吻合，足以确认对应 TMDB 115015 第2季整季。双方缺乏可逐集核对的标题和日期，因此仅确认季级范围，不按集号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/115015 (api_snapshot): 候选《海豚帮帮号》为中国儿童动画，第2季首播日期为2020-09-29，共52集，与该 subject 的季度、首播日期和本篇集数一致；第1季首播日期2019-01-15也与 Bangumi 前作信息一致。\n\nhttps://www.themoviedb.org/tv/115015 (api_snapshot): 第2季季表完整列出第1至52集，但标题均为通用集号，只有第1集提供放送日期，无法据此核实逐集内容及顺序。\n\n备注：Bangumi 全部章节均无标题和放送日期；需补充实际分集标题或播出记录后核实逐集对应关系。；候选未提供剧情简介，制作公司列表为空，无法独立核对剧情及制作方。",
+    "evidence": "codex: 作品名称、第二季首播日期、52集规模及前作首播信息相互吻合，足以确认对应 TMDB 115015 第2季整季。双方缺乏可逐集核对的标题和日期，因此仅确认季级范围，不按集号位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/115015 (api_snapshot): 候选《海豚帮帮号》为中国儿童动画，第2季首播日期为2020-09-29，共52集，与该 subject 的季度、首播日期和本篇集数一致；第1季首播日期2019-01-15也与 Bangumi 前作信息一致。\n\nhttps://www.themoviedb.org/tv/115015 (api_snapshot): 第2季季表完整列出第1至52集，但标题均为通用集号，只有第1集提供放送日期，无法据此核实逐集内容及顺序。\n\n备注：Bangumi 全部章节均无标题和放送日期；需补充实际分集标题或播出记录后核实逐集对应关系。；候选未提供剧情简介，制作公司列表为空，无法独立核对剧情及制作方。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/642190; https://www.themoviedb.org/tv/115015",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 115015
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

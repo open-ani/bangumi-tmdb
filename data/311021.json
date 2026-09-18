@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品剧情、制作公司、电视动画版本、第二季首播日期及26集规模一致，可确认对应 TMDB 70607 第二季整季。逐集资料存在缺失及日期冲突，因此只确认季级映射，不生成顺序规则。\n\nhttps://bgm.tv/subject/311021 (page): Bangumi 标注为2017年电视动画第二季，共26话，播出期间为2017-05-29至2017-11-21；版权方为 ICONIX、Mimi World、EBS。\n\nhttps://www.themoviedb.org/tv/70607 (api_snapshot): TMDB 70607 的韩文原名、角色及魔法收集希望能量的剧情与 Bangumi 一致，制作公司包括 ICONIX、EBS、Mimi World；2016年第一季与2017年第二季各26集，2019年特别篇另列。\n\nhttps://www.themoviedb.org/tv/70607/season/2 (api_snapshot): 已读取第二季韩文及英文完整集表：total_pages=1，共26集，编号1—26，每集11分钟，季首播日期为2017-05-29。集名均为数字占位，缺少剧情；第26集日期记录为2017-08-29。\n\nhttps://home.ebs.co.kr/floweringheart/main (page): EBS 官网独立列出第二季，确认第23—26集播出日期依次为2017-11-13、11-14、11-20、11-21，与 TMDB 对应编号的日期不一致。\n\n备注：Bangumi 26个章节均缺少标题和播出日期，TMDB 集名也均为占位，无法独立核实逐集对应。；TMDB 后段播出日期与 EBS 官方记录冲突；英文季简介还将首播写为5月24日，与其结构化日期5月29日不一致。需补全或校正 TMDB 集标题、日期后再核对逐集规则。",
+    "evidence": "codex: 作品剧情、制作公司、电视动画版本、第二季首播日期及26集规模一致，可确认对应 TMDB 70607 第二季整季。逐集资料存在缺失及日期冲突，因此只确认季级映射，不生成顺序规则。\n\nhttps://bgm.tv/subject/311021 (page): Bangumi 标注为2017年电视动画第二季，共26话，播出期间为2017-05-29至2017-11-21；版权方为 ICONIX、Mimi World、EBS。\n\nhttps://www.themoviedb.org/tv/70607 (api_snapshot): TMDB 70607 的韩文原名、角色及魔法收集希望能量的剧情与 Bangumi 一致，制作公司包括 ICONIX、EBS、Mimi World；2016年第一季与2017年第二季各26集，2019年特别篇另列。\n\nhttps://www.themoviedb.org/tv/70607/season/2 (api_snapshot): 已读取第二季韩文及英文完整集表：total_pages=1，共26集，编号1—26，每集11分钟，季首播日期为2017-05-29。集名均为数字占位，缺少剧情；第26集日期记录为2017-08-29。\n\nhttps://home.ebs.co.kr/floweringheart/main (page): EBS 官网独立列出第二季，确认第23—26集播出日期依次为2017-11-13、11-14、11-20、11-21，与 TMDB 对应编号的日期不一致。\n\n备注：Bangumi 26个章节均缺少标题和播出日期，TMDB 集名也均为占位，无法独立核实逐集对应。；TMDB 后段播出日期与 EBS 官方记录冲突；英文季简介还将首播写为5月24日，与其结构化日期5月29日不一致。需补全或校正 TMDB 集标题、日期后再核对逐集规则。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/311021; https://www.themoviedb.org/tv/70607; https://www.themoviedb.org/tv/70607/season/2; https://home.ebs.co.kr/floweringheart/main",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 70607
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

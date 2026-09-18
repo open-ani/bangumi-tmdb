@@ -186,12 +186,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应TMDB 275986第1季整季：首播年份及日期、剧情、导演、制作公司和36话范围一致，且已排除同名真人版。Bangumi各章缺少标题和日期，不能仅凭编号生成逐集规则，因此仅确认作品及季范围，逐集映射留空。\n\nhttps://bgm.tv/subject/395252 (page): Bangumi 标注为2024年11月6日开播的36话WEB动画，原作为江湖再见，总导演为笔落、吕浩辉，制作方包括若鸿文化。\n\nhttps://www.themoviedb.org/tv/275986 (api_snapshot): TMDB 275986首播日为2024-11-06，剧情为君常笑携系统在星陨大陆经营宗门；导演笔落，制作公司包含若鸿文化、腾讯企鹅及阅文，与本动画一致。\n\nhttps://www.themoviedb.org/tv/275986/season/1 (api_snapshot): 第1季实际集表共36集，编号1至36，total_pages=1，完整覆盖该36话动画。第1至3集日期均为2024-11-06，第22至35集缺少日期，第36集记为2025-03-01。\n\nhttps://www.themoviedb.org/tv/285974 (api_snapshot): 同名285974别名明确标注真人版，演员包括彭昱畅、万鹏，导演程浩，制作公司及媒介版本与本动画不同，予以排除。\n\nhttps://bangumi.tv/subject/395252/ep (page): Bangumi章节页仅列出本篇1至36，未提供各集标题或放送日期，无法据此完成逐集内容或日期比对。\n\nhttps://acg.gamer.com.tw/acgDetail.php?s=142285 (search_snippet): 巴哈姆特资料注明2024-11-06首播、全36集，由腾讯视频、阅文集团、腾讯动漫出品，若鸿文化制作；首播3集并有付费加更。\n\nhttps://www.tvmaze.com/shows/84163/wangu-zui-qiang-zong (search_snippet): TVmaze将第36集日期记为2025-02-12，与TMDB记录的2025-03-01不同，日期口径尚待核实。\n\n备注：尚无足够依据逐集核实Bangumi第1至36话与TMDB集号的对应关系。；TMDB部分集日期缺失，末集日期与其他资料冲突；需获取腾讯官方逐集标题及普通、会员或加更排期后进一步核对。",
+    "evidence": "codex: 已确认对应TMDB 275986第1季整季：首播年份及日期、剧情、导演、制作公司和36话范围一致，且已排除同名真人版。Bangumi各章缺少标题和日期，不能仅凭编号生成逐集规则，因此仅确认作品及季范围，逐集映射留空。\n\nhttps://bgm.tv/subject/395252 (page): Bangumi 标注为2024年11月6日开播的36话WEB动画，原作为江湖再见，总导演为笔落、吕浩辉，制作方包括若鸿文化。\n\nhttps://www.themoviedb.org/tv/275986 (api_snapshot): TMDB 275986首播日为2024-11-06，剧情为君常笑携系统在星陨大陆经营宗门；导演笔落，制作公司包含若鸿文化、腾讯企鹅及阅文，与本动画一致。\n\nhttps://www.themoviedb.org/tv/275986/season/1 (api_snapshot): 第1季实际集表共36集，编号1至36，total_pages=1，完整覆盖该36话动画。第1至3集日期均为2024-11-06，第22至35集缺少日期，第36集记为2025-03-01。\n\nhttps://www.themoviedb.org/tv/285974 (api_snapshot): 同名285974别名明确标注真人版，演员包括彭昱畅、万鹏，导演程浩，制作公司及媒介版本与本动画不同，予以排除。\n\nhttps://bangumi.tv/subject/395252/ep (page): Bangumi章节页仅列出本篇1至36，未提供各集标题或放送日期，无法据此完成逐集内容或日期比对。\n\nhttps://acg.gamer.com.tw/acgDetail.php?s=142285 (search_snippet): 巴哈姆特资料注明2024-11-06首播、全36集，由腾讯视频、阅文集团、腾讯动漫出品，若鸿文化制作；首播3集并有付费加更。\n\nhttps://www.tvmaze.com/shows/84163/wangu-zui-qiang-zong (search_snippet): TVmaze将第36集日期记为2025-02-12，与TMDB记录的2025-03-01不同，日期口径尚待核实。\n\n备注：尚无足够依据逐集核实Bangumi第1至36话与TMDB集号的对应关系。；TMDB部分集日期缺失，末集日期与其他资料冲突；需获取腾讯官方逐集标题及普通、会员或加更排期后进一步核对。\n\n脚本按声明范围生成逐集规则：36 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/395252; https://www.themoviedb.org/tv/275986; https://www.themoviedb.org/tv/275986/season/1; https://www.themoviedb.org/tv/285974; https://bangumi.tv/subject/395252/ep; https://acg.gamer.com.tw/acgDetail.php?s=142285; https://www.tvmaze.com/shows/84163/wangu-zui-qiang-zong",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 275986
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

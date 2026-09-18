@@ -21,12 +21,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、独有剧情、制作公司、导演、编剧及三集短篇形态一致，可确认对应 TMDB TV 128934 第 1 季整季，未混入系列前三作。Bangumi 输入章节缺少标题和日期，且 TMDB 后两集日期与官方发布资料冲突，因此确认作品与季范围，但暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): 以原名 FASTENING DAYS 4 搜索，返回 TV 128934，首播日期为 2019-12-05。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): 详情确认该作为 2019 年日本动画，共 1 季 3 集，Studio Colorido 制作，山下清悟执导、田中淳一编剧；萨姆汉与 AI 机器人杰克加入主角团队的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/128934/season/1 (api_snapshot): 实际第 1 季共 3 集，total_pages=1；标题为 Episode 1、Episode 2、Episode 3，日期分别为 2019-12-05、12-19、12-26，时长分别为 4、4、8 分钟。\n\nhttps://prtimes.jp/main/html/rd/p/000000006.000011636.html (page): YKK 官方新闻稿确认这是系列第四部网络短篇动画，制作人员和剧情均吻合，共 3 集；明确公布第 1—3 集日期为 2019-12-05、12-12、12-19，时长分别为 3分25秒、3分44秒、7分36秒。\n\n备注：Bangumi 开播日期为 2019-12-04，官方与 TMDB 首集日期为 2019-12-05；差异原因未证实。；TMDB 第 2、3 集日期分别比官方公布日期晚一周，不应直接用这些日期建立逐集对应。；Bangumi 三个章节的标题和日期均为空，本次 Bangumi 网页访问失败；逐集映射需补充章节资料或可核对的视频内容证据。",
+    "evidence": "codex: 年份、独有剧情、制作公司、导演、编剧及三集短篇形态一致，可确认对应 TMDB TV 128934 第 1 季整季，未混入系列前三作。Bangumi 输入章节缺少标题和日期，且 TMDB 后两集日期与官方发布资料冲突，因此确认作品与季范围，但暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): 以原名 FASTENING DAYS 4 搜索，返回 TV 128934，首播日期为 2019-12-05。\n\nhttps://www.themoviedb.org/tv/128934 (api_snapshot): 详情确认该作为 2019 年日本动画，共 1 季 3 集，Studio Colorido 制作，山下清悟执导、田中淳一编剧；萨姆汉与 AI 机器人杰克加入主角团队的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/128934/season/1 (api_snapshot): 实际第 1 季共 3 集，total_pages=1；标题为 Episode 1、Episode 2、Episode 3，日期分别为 2019-12-05、12-19、12-26，时长分别为 4、4、8 分钟。\n\nhttps://prtimes.jp/main/html/rd/p/000000006.000011636.html (page): YKK 官方新闻稿确认这是系列第四部网络短篇动画，制作人员和剧情均吻合，共 3 集；明确公布第 1—3 集日期为 2019-12-05、12-12、12-19，时长分别为 3分25秒、3分44秒、7分36秒。\n\n备注：Bangumi 开播日期为 2019-12-04，官方与 TMDB 首集日期为 2019-12-05；差异原因未证实。；TMDB 第 2、3 集日期分别比官方公布日期晚一周，不应直接用这些日期建立逐集对应。；Bangumi 三个章节的标题和日期均为空，本次 Bangumi 网页访问失败；逐集映射需补充章节资料或可核对的视频内容证据。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/296114; https://www.themoviedb.org/tv/128934; https://www.themoviedb.org/tv/128934/season/1; https://prtimes.jp/main/html/rd/p/000000006.000011636.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 128934
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

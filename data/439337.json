@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季次、首播日期、20集总量及前作日期相互吻合，可确认对应 TMDB 81665 第6季整季。Bangumi 各集标题与日期均为空，无法逐集交叉核验，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): 该动画剧集第6季共20集，首播日期为2023-07-31，与 Bangumi 的季次、首播日期及本篇集数一致；第5季首播日期2021-12-09也与 Bangumi 前作关联一致。第6季季表完整列出第1至20集。\n\nhttps://www.themoviedb.org/movie/421702 (api_snapshot): 同名电影的上映日期为2017-04-16，媒介及年份均不符合本次2023年第六季的范围。\n\n备注：逐集对应尚未确认：需补充 Bangumi 各集标题或放送日期；TMDB 当前标题也仅为通用集号。",
+    "evidence": "codex: 季次、首播日期、20集总量及前作日期相互吻合，可确认对应 TMDB 81665 第6季整季。Bangumi 各集标题与日期均为空，无法逐集交叉核验，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): 该动画剧集第6季共20集，首播日期为2023-07-31，与 Bangumi 的季次、首播日期及本篇集数一致；第5季首播日期2021-12-09也与 Bangumi 前作关联一致。第6季季表完整列出第1至20集。\n\nhttps://www.themoviedb.org/movie/421702 (api_snapshot): 同名电影的上映日期为2017-04-16，媒介及年份均不符合本次2023年第六季的范围。\n\n备注：逐集对应尚未确认：需补充 Bangumi 各集标题或放送日期；TMDB 当前标题也仅为通用集号。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439337; https://www.themoviedb.org/tv/81665; https://www.themoviedb.org/movie/421702",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 81665
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

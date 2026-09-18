@@ -56,12 +56,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及季范围可确认：年份、首播日、制作信息、第一系列10话总量和续作边界共同支持对应 TMDB 210064 第1季。逐集映射暂留空：Bangumi 章节缺少标题和日期，TMDB 仅有通用集号且多数日期冲突，不足以建立1—10顺序对应规则。\n\nhttps://www.themoviedb.org/tv/210064 (api_snapshot): 日文原名搜索命中 TV 210064；详情确认首播日为2014-03-10、制作公司为 Studio Deen，并列有宫藤官九郎。第1季10集，第2季另于2015-01-05开始，与输入中的续作边界一致。\n\nhttps://www.themoviedb.org/tv/210064/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为10集，编号1—10，total_pages=1。标题全部为通用集号；第1集日期为2014-03-10，第2—9集却按周排列至2014-05-05，第10集日期为空，无法据此确认完整逐集顺序。\n\nhttps://play.google.com/store/tv/show/%E3%82%8F%E3%81%97%E3%82%82_%E7%AC%AC%EF%BC%91%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA?hl=ja&id=tmgfXpe52Qg (page): 发行页面明确为2014年 NHKエンタープライズ的第1系列，共10话，剧情为父亲为失去祖母的女孩制作祖母型机器人。版权署名与输入一致；完整集表日期为2014-03-10至03-21的工作日，与 TMDB 第2—9集日期不符。\n\nhttps://animedb.moe/anime/series/9890 (page): 资料页确认第1期为10话、每话10分钟的TV动画，播出期2014-03-10至03-21，今川泰宏执导、Studio Deen制作、NHKエンタープライズ参与制作；十话标题及日期与发行页面一致。\n\n备注：TMDB 第2—9集日期与已核实的日本播出日期冲突，第10集缺少日期；需补充或修正 TMDB 单集标题、日期后再建立逐集规则。；Bangumi 网页本次访问失败，主体与章节信息采用用户提供的快照。",
+    "evidence": "codex: 作品及季范围可确认：年份、首播日、制作信息、第一系列10话总量和续作边界共同支持对应 TMDB 210064 第1季。逐集映射暂留空：Bangumi 章节缺少标题和日期，TMDB 仅有通用集号且多数日期冲突，不足以建立1—10顺序对应规则。\n\nhttps://www.themoviedb.org/tv/210064 (api_snapshot): 日文原名搜索命中 TV 210064；详情确认首播日为2014-03-10、制作公司为 Studio Deen，并列有宫藤官九郎。第1季10集，第2季另于2015-01-05开始，与输入中的续作边界一致。\n\nhttps://www.themoviedb.org/tv/210064/season/1 (api_snapshot): 实际读取第1季日文及英文集表，均为10集，编号1—10，total_pages=1。标题全部为通用集号；第1集日期为2014-03-10，第2—9集却按周排列至2014-05-05，第10集日期为空，无法据此确认完整逐集顺序。\n\nhttps://play.google.com/store/tv/show/%E3%82%8F%E3%81%97%E3%82%82_%E7%AC%AC%EF%BC%91%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA?hl=ja&id=tmgfXpe52Qg (page): 发行页面明确为2014年 NHKエンタープライズ的第1系列，共10话，剧情为父亲为失去祖母的女孩制作祖母型机器人。版权署名与输入一致；完整集表日期为2014-03-10至03-21的工作日，与 TMDB 第2—9集日期不符。\n\nhttps://animedb.moe/anime/series/9890 (page): 资料页确认第1期为10话、每话10分钟的TV动画，播出期2014-03-10至03-21，今川泰宏执导、Studio Deen制作、NHKエンタープライズ参与制作；十话标题及日期与发行页面一致。\n\n备注：TMDB 第2—9集日期与已核实的日本播出日期冲突，第10集缺少日期；需补充或修正 TMDB 单集标题、日期后再建立逐集规则。；Bangumi 网页本次访问失败，主体与章节信息采用用户提供的快照。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/97543; https://www.themoviedb.org/tv/210064; https://www.themoviedb.org/tv/210064/season/1; https://play.google.com/store/tv/show/%E3%82%8F%E3%81%97%E3%82%82_%E7%AC%AC%EF%BC%91%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA?hl=ja&id=tmgfXpe52Qg; https://animedb.moe/anime/series/9890",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 210064
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

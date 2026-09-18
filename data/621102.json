@@ -125,12 +125,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 剧情、制作方、媒介、前作年份及第二季首播日期和 24 集总量一致，可确认 subject 对应 TMDB 92788 第 2 季整季。逐集证据不足，暂不建立章节规则。\n\nhttps://www.themoviedb.org/tv/92788 (api_snapshot): 候选 TV 92788 的剧情同为天才少女露奈拉将恶魔恐龙带到现代纽约并共同保护下东区，制作公司包含 Flying Bark Productions，动画媒介与 Bangumi 信息一致。\n\nhttps://www.themoviedb.org/tv/92788 (api_snapshot): 第 2 季首播于 2024-02-02，共 24 集，与 subject 的季别、首播日期和总集数一致；第 1 季首播于 2023-02-10，与 Bangumi 前作日期一致。\n\nhttps://www.themoviedb.org/tv/92788 (api_snapshot): 第 2 季季表完整列出第 1–24 集，播出日期跨 2024–2025 年；标题均为通用集号，无法与缺少标题和日期的 Bangumi 章节逐集核对。\n\n备注：Bangumi 全部章节的标题和放送日期为空，无法核实逐集顺序；需补充章节标题或日期后才能建立 rules 或 overrides。",
+    "evidence": "codex: 剧情、制作方、媒介、前作年份及第二季首播日期和 24 集总量一致，可确认 subject 对应 TMDB 92788 第 2 季整季。逐集证据不足，暂不建立章节规则。\n\nhttps://www.themoviedb.org/tv/92788 (api_snapshot): 候选 TV 92788 的剧情同为天才少女露奈拉将恶魔恐龙带到现代纽约并共同保护下东区，制作公司包含 Flying Bark Productions，动画媒介与 Bangumi 信息一致。\n\nhttps://www.themoviedb.org/tv/92788 (api_snapshot): 第 2 季首播于 2024-02-02，共 24 集，与 subject 的季别、首播日期和总集数一致；第 1 季首播于 2023-02-10，与 Bangumi 前作日期一致。\n\nhttps://www.themoviedb.org/tv/92788 (api_snapshot): 第 2 季季表完整列出第 1–24 集，播出日期跨 2024–2025 年；标题均为通用集号，无法与缺少标题和日期的 Bangumi 章节逐集核对。\n\n备注：Bangumi 全部章节的标题和放送日期为空，无法核实逐集顺序；需补充章节标题或日期后才能建立 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/621102; https://www.themoviedb.org/tv/92788",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 92788
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、首播日期、剧情及制作公司吻合，可确认对应TMDB 232853第1季的26集主体，范围限定为第1–26集。该季另有24个资料空缺条目，旧映射的整季范围过宽。Bangumi各话缺少标题和日期，不能仅按序号生成逐集规则，因此暂留空。\n\nhttps://bgm.tv/subject/345826 (page): Bangumi 将本作标为2024年5月30日开播的26话网络动画，原作为天蚕土豆，动画制作为幻维数码，出品方包含腾讯企鹅影视、未天文化；《元尊 年番》另列为关联续集。\n\nhttps://www.themoviedb.org/tv/232853 (api_snapshot): TMDB 232853 的首播日期为2024年5月30日，周元被夺圣龙气运、遇见夭夭的剧情及腾讯企鹅影视、未天文化、幻维数码等制作公司与本作吻合。搜索另列2020年《元尊 动态漫》，可区分版本。\n\nhttps://www.themoviedb.org/tv/232853/season/1 (api_snapshot): 已读取第1季完整集表，共50集、1页。第1–26集有标题、剧情及日期，第26集为《真正圣龙》；第27–50集仅有通用集名，日期、时长及剧情均为空，不能将整季纳入本subject。\n\nhttps://wetv.vip/zh-cn/play/avfzml3f5rf0wpt-%E5%85%83%E5%B0%8A (page): 官方WeTV将该版本标为2024年、全26集，列出01–26集，作品简介与Bangumi、TMDB一致。\n\nhttps://bgm.tv/subject/345826/ep (page): Bangumi章节页仅列本篇1–26，各话没有标题和放送日期，缺少建立逐集对应规则所需的比对信息。\n\n备注：尚未完成逐话标题与日期交叉核验；rules及overrides为空，不代表已确认26话逐一对应。；TMDB第27–50集的归属尚不明确，本次不纳入；第26集所列2024年10月31日也未获官方逐集排期验证。",
+    "evidence": "codex: 作品版本、首播日期、剧情及制作公司吻合，可确认对应TMDB 232853第1季的26集主体，范围限定为第1–26集。该季另有24个资料空缺条目，旧映射的整季范围过宽。Bangumi各话缺少标题和日期，不能仅按序号生成逐集规则，因此暂留空。\n\nhttps://bgm.tv/subject/345826 (page): Bangumi 将本作标为2024年5月30日开播的26话网络动画，原作为天蚕土豆，动画制作为幻维数码，出品方包含腾讯企鹅影视、未天文化；《元尊 年番》另列为关联续集。\n\nhttps://www.themoviedb.org/tv/232853 (api_snapshot): TMDB 232853 的首播日期为2024年5月30日，周元被夺圣龙气运、遇见夭夭的剧情及腾讯企鹅影视、未天文化、幻维数码等制作公司与本作吻合。搜索另列2020年《元尊 动态漫》，可区分版本。\n\nhttps://www.themoviedb.org/tv/232853/season/1 (api_snapshot): 已读取第1季完整集表，共50集、1页。第1–26集有标题、剧情及日期，第26集为《真正圣龙》；第27–50集仅有通用集名，日期、时长及剧情均为空，不能将整季纳入本subject。\n\nhttps://wetv.vip/zh-cn/play/avfzml3f5rf0wpt-%E5%85%83%E5%B0%8A (page): 官方WeTV将该版本标为2024年、全26集，列出01–26集，作品简介与Bangumi、TMDB一致。\n\nhttps://bgm.tv/subject/345826/ep (page): Bangumi章节页仅列本篇1–26，各话没有标题和放送日期，缺少建立逐集对应规则所需的比对信息。\n\n备注：尚未完成逐话标题与日期交叉核验；rules及overrides为空，不代表已确认26话逐一对应。；TMDB第27–50集的归属尚不明确，本次不纳入；第26集所列2024年10月31日也未获官方逐集排期验证。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/345826; https://www.themoviedb.org/tv/232853; https://www.themoviedb.org/tv/232853/season/1; https://wetv.vip/zh-cn/play/avfzml3f5rf0wpt-%E5%85%83%E5%B0%8A; https://bgm.tv/subject/345826/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 232853
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

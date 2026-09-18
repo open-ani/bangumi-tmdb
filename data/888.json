@@ -1,16 +1,86 @@
 {
   "anidbId": 6018,
   "bangumiId": 888,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 700,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 701,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 702,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 703,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 704,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 705,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 706,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 707,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 708,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 709,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 710,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 711,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 888 是《ドルアーガの塔 ～the Sword of URUK～》，2009年播出，共12话，并明确关联前作 subject 303。AniDB ID 6018 的标题与该 subject 匹配。TMDB TV 37517 的第2季标题完全一致，季简介承接前作剧情，并完整列出12集；集名与 Bangumi 的12集逐一对应。因此对应 TMDB 第2季完整一季。\n\nhttps://bgm.tv/subject/888 (page): Bangumi 条目名称为「ドルアーガの塔 ～the Sword of URUK～」，中文名为「迷宫塔 ～乌鲁克之剑～」，共12话，并与 subject 303 建立续作关系。\n\nhttps://www.themoviedb.org/tv/37517 (api_snapshot): TMDB TV 37517 的第2季名称为「ドルアーガの塔 ～the Sword of URUK～」，共12集。\n\nhttps://www.themoviedb.org/tv/37517/season/2 (api_snapshot): TMDB 第2季完整列出12集，集名与 Bangumi subject 888 的12集逐一对应；季简介描述前作事件半年后的延续剧情。\n\n备注：TMDB 记录的第2季首播日期为2009-01-01，而 Bangumi 条目日期为2009-01-08，集1日期也存在数日差异，可能是播出渠道或日期记录差异。",
+    "evidence": "codex: 确认对应TMDB 37517第2季整季，本篇1—12话依次对应S02E01—E12。官方期数、播出年份、制作人员、续作剧情及完整集表共同支持匹配；第2—12集日期全部一致，标题差异不影响章节识别。范围不涉及前作占用的第1季与第0季。\n\nhttps://bgm.tv/subject/888 (page): Bangumi 将本作标为2009年1月8日开播的12话TV动画，导演为千明孝一。\n\nhttps://www.gonzo.co.jp/archives/druaga_anime_2nd/info.html (page): GONZO官方资料明确本作为第2期，首播为2009年1月8日25:30，最终话为3月26日25:30；同时确认千明孝一担任导演。换算自然日分别为1月9日、3月27日，与输入章节首尾日期一致。\n\nhttps://www.themoviedb.org/tv/37517 (api_snapshot): 日文标题搜索得到TV 37517；详情明确区分2008年的第1季与2009年的第2季，第2季为《the Sword of URUK》，共12集。季简介描述讨伐半年后，基鲁与法蒂娜留在梅斯克亚、尼巴与卡雅消失于幻之塔，与本作剧情吻合。\n\nhttps://www.themoviedb.org/tv/37517/season/2 (api_snapshot): 已读取第2季完整12集（total_pages=1）。逐集比对后，第1、2、4—8、10—12集标题完全一致；第3集标题比输入多「国」字，第9集为「終わり」与「おわり」的表记差异。第2—12集日期逐一与输入一致；第1集标题及剧情一致，但TMDB日期记为2009-01-01。\n\n备注：TMDB季首播及第1集日期为2009-01-01，与官方2009-01-08深夜的播出记录冲突，疑为日期元数据错误；该差异不影响由标题、剧情和其余11集共同确认的映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/888; https://www.themoviedb.org/tv/37517; https://www.themoviedb.org/tv/37517/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/888; https://www.gonzo.co.jp/archives/druaga_anime_2nd/info.html; https://www.themoviedb.org/tv/37517; https://www.themoviedb.org/tv/37517/season/2",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 37517
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

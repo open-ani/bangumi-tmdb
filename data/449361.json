@@ -305,12 +305,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画类型、制作公司及60集季范围相互吻合，可确认对应TMDB 290681第1季。Bangumi逐集标题和日期全部缺失，无法逐集交叉核验，因此仅确认整季归属，暂不生成逐集对应规则。\n\nhttps://www.themoviedb.org/tv/290681 (api_snapshot): 候选《双生武魂》为中国动画，首播日期为2025-07-23；制作公司包含Tencent Video、Soyep及Tencent Penguin Pictures，与Bangumi的首播日期及腾讯视频、索以文化、企鹅影视出品信息一致。\n\nhttps://www.themoviedb.org/tv/290681 (api_snapshot): 候选仅列第1季，共60集，季表完整列出第1至60集，与Bangumi本篇60集的主体范围一致；放送日期均在星期三、星期四，符合Bangumi所列更新日。\n\n备注：候选未提供剧情简介，无法核对林凡及双武魂相关剧情。；Bangumi各集均无标题和放送日期，TMDB标题也仅为集号；需补充Bangumi逐集资料或可靠的集目对照，才能确认逐集顺序及是否存在拆分、合并。",
+    "evidence": "codex: 名称、首播日期、动画类型、制作公司及60集季范围相互吻合，可确认对应TMDB 290681第1季。Bangumi逐集标题和日期全部缺失，无法逐集交叉核验，因此仅确认整季归属，暂不生成逐集对应规则。\n\nhttps://www.themoviedb.org/tv/290681 (api_snapshot): 候选《双生武魂》为中国动画，首播日期为2025-07-23；制作公司包含Tencent Video、Soyep及Tencent Penguin Pictures，与Bangumi的首播日期及腾讯视频、索以文化、企鹅影视出品信息一致。\n\nhttps://www.themoviedb.org/tv/290681 (api_snapshot): 候选仅列第1季，共60集，季表完整列出第1至60集，与Bangumi本篇60集的主体范围一致；放送日期均在星期三、星期四，符合Bangumi所列更新日。\n\n备注：候选未提供剧情简介，无法核对林凡及双武魂相关剧情。；Bangumi各集均无标题和放送日期，TMDB标题也仅为集号；需补充Bangumi逐集资料或可靠的集目对照，才能确认逐集顺序及是否存在拆分、合并。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/449361; https://www.themoviedb.org/tv/290681",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 290681
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

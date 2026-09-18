@@ -176,12 +176,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 119873《阿衰》第5季整季：首播日期、34集总量、第五季剧情、原作及制作参与人员、主要配音和正版平台分季信息相互吻合，已排除旧版。作品及整季范围可确认；逐集证据不足，暂不生成规则。\n\nhttps://bangumi.tv/subject/339462 (page): Bangumi 标注为 WEB 动画，共34话，2021年6月12日开播；原作猫小乐，导演周政，执行导演王勇飞，出品方大周互娱，配音包括莫谦、绿绮、雨辰。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): TMDB 119873 为2019年开播的《阿衰》，工作人员包括王勇飞、猫小乐，配音包括莫谦、绿绮；第五季首播日期为2021-06-12，共34集，季简介与 Bangumi 的第五季剧情一致。\n\nhttps://www.themoviedb.org/tv/119873/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共34集，编号连续为1—34，每集约3分钟；首集为《美食家衰衰子》，末集为《学校的新保安》。TMDB 将日期列为2021-06-12至2022-01-29、每周一集。\n\nhttps://www.bilibili.com/bangumi/play/ss38881 (search_snippet): 哔哩哔哩正版播放页显示《阿衰 第五季》为2021年作品、全34话，第一话为《美食家衰衰子》；剧情和三名主要配音与 Bangumi 一致，并独立列为第五季。\n\nhttps://www.themoviedb.org/tv/243752 (api_snapshot): 另一候选 TMDB 243752《阿衰系列动画版》标注2006年开播，仅1季12集，与本 subject 的年份及34集第五季范围不符，排除。\n\n备注：输入中的34个 Bangumi 章节均缺少标题和放送日期，无法逐集核验，不能仅凭编号连续生成一对一规则。；TMDB 集表采用每周一集的日期，与 Bangumi 标注的每周五、六更新频率不一致；尚未确认是否属于平台排期差异或元数据错误。后续需取得可靠的逐集标题及发布日期表。",
+    "evidence": "codex: 确认对应 TMDB 119873《阿衰》第5季整季：首播日期、34集总量、第五季剧情、原作及制作参与人员、主要配音和正版平台分季信息相互吻合，已排除旧版。作品及整季范围可确认；逐集证据不足，暂不生成规则。\n\nhttps://bangumi.tv/subject/339462 (page): Bangumi 标注为 WEB 动画，共34话，2021年6月12日开播；原作猫小乐，导演周政，执行导演王勇飞，出品方大周互娱，配音包括莫谦、绿绮、雨辰。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): TMDB 119873 为2019年开播的《阿衰》，工作人员包括王勇飞、猫小乐，配音包括莫谦、绿绮；第五季首播日期为2021-06-12，共34集，季简介与 Bangumi 的第五季剧情一致。\n\nhttps://www.themoviedb.org/tv/119873/season/5 (api_snapshot): 已读取第五季完整集表，total_pages=1，共34集，编号连续为1—34，每集约3分钟；首集为《美食家衰衰子》，末集为《学校的新保安》。TMDB 将日期列为2021-06-12至2022-01-29、每周一集。\n\nhttps://www.bilibili.com/bangumi/play/ss38881 (search_snippet): 哔哩哔哩正版播放页显示《阿衰 第五季》为2021年作品、全34话，第一话为《美食家衰衰子》；剧情和三名主要配音与 Bangumi 一致，并独立列为第五季。\n\nhttps://www.themoviedb.org/tv/243752 (api_snapshot): 另一候选 TMDB 243752《阿衰系列动画版》标注2006年开播，仅1季12集，与本 subject 的年份及34集第五季范围不符，排除。\n\n备注：输入中的34个 Bangumi 章节均缺少标题和放送日期，无法逐集核验，不能仅凭编号连续生成一对一规则。；TMDB 集表采用每周一集的日期，与 Bangumi 标注的每周五、六更新频率不一致；尚未确认是否属于平台排期差异或元数据错误。后续需取得可靠的逐集标题及发布日期表。\n\n脚本按声明范围生成逐集规则：34 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/339462; https://bangumi.tv/subject/339462; https://www.themoviedb.org/tv/119873; https://www.themoviedb.org/tv/119873/season/5; https://www.bilibili.com/bangumi/play/ss38881; https://www.themoviedb.org/tv/243752",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 34,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 119873
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

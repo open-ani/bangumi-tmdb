@@ -40,12 +40,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、制作公司、角色阵容、发布平台、日期及 7 集范围一致，可确认 subject 对应 TMDB 66558 完整第三季。Bangumi 各章节缺少标题和日期，无法进行章节级交叉比对，因此只确认整季范围，不凭序号生成逐集规则。\n\nhttps://bgm.tv/subject/220314 (page): Bangumi 标注本作为第三季 WEB 动画，共 7 集，2017-08-04 在 Netflix 发布；动画制作为 Studio MIR，导演为 Steve Ahn，前后关联分别为第二季与第四季。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): TMDB 66558 为 2016 年开始的《Voltron: Legendary Defender》，制作公司包含 Studio Mir 与 DreamWorks Animation Television；飞狮合体保护宇宙的剧情、主要角色及配音与 Bangumi 条目一致，确认属于该新版动画系列。\n\nhttps://www.themoviedb.org/tv/66558/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共 7 集，集号为 1—7，全部于 2017-08-04 发布，每集 24 分钟；首集为 Changing of the Guard，末集为 The Legend Begins。内容为 Paladins 对抗 Galra 的连续剧情，没有混入第四季或特别篇。\n\nhttps://www.tvguide.com/tvshows/voltron-legendary-defender/episodes-season-3/1000711322/ (search_snippet): TV Guide 第三季集表列出 7 集，各集标题、顺序和 2017-08-04 的发布日期均与 TMDB 第三季一致。\n\n备注：Bangumi 章节 741808—741814 的标题和日期均为空；需补充章节内容后才能核实逐集对应，当前 rules 与 overrides 留空。",
+    "evidence": "codex: 作品版本、制作公司、角色阵容、发布平台、日期及 7 集范围一致，可确认 subject 对应 TMDB 66558 完整第三季。Bangumi 各章节缺少标题和日期，无法进行章节级交叉比对，因此只确认整季范围，不凭序号生成逐集规则。\n\nhttps://bgm.tv/subject/220314 (page): Bangumi 标注本作为第三季 WEB 动画，共 7 集，2017-08-04 在 Netflix 发布；动画制作为 Studio MIR，导演为 Steve Ahn，前后关联分别为第二季与第四季。\n\nhttps://www.themoviedb.org/tv/66558 (api_snapshot): TMDB 66558 为 2016 年开始的《Voltron: Legendary Defender》，制作公司包含 Studio Mir 与 DreamWorks Animation Television；飞狮合体保护宇宙的剧情、主要角色及配音与 Bangumi 条目一致，确认属于该新版动画系列。\n\nhttps://www.themoviedb.org/tv/66558/season/3 (api_snapshot): 已读取第三季完整集表，total_pages=1，共 7 集，集号为 1—7，全部于 2017-08-04 发布，每集 24 分钟；首集为 Changing of the Guard，末集为 The Legend Begins。内容为 Paladins 对抗 Galra 的连续剧情，没有混入第四季或特别篇。\n\nhttps://www.tvguide.com/tvshows/voltron-legendary-defender/episodes-season-3/1000711322/ (search_snippet): TV Guide 第三季集表列出 7 集，各集标题、顺序和 2017-08-04 的发布日期均与 TMDB 第三季一致。\n\n备注：Bangumi 章节 741808—741814 的标题和日期均为空；需补充章节内容后才能核实逐集对应，当前 rules 与 overrides 留空。\n\n脚本按声明范围生成逐集规则：7 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/220314; https://www.themoviedb.org/tv/66558; https://www.themoviedb.org/tv/66558/season/3; https://www.tvguide.com/tvshows/voltron-legendary-defender/episodes-season-3/1000711322/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 66558
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

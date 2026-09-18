@@ -1,21 +1,106 @@
 {
   "anidbId": 5574,
   "bangumiId": 2829,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 18621,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 18622,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 18623,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 18624,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 18625,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 18626,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 18627,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 40263,
+      "sort": 2.5,
+      "type": 1
+    },
+    {
+      "id": 40264,
+      "sort": 7.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 40263,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 61439,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 40264,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 61439,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB TV 61439 是 2008 年 5 月 2 日首播的日本动画《キャンディ ボーイ》。其第 1 季共 7 集，全部集名按顺序与 Bangumi subject 2829 的 7 集正篇一一对应，首集和末集日期也相符。因此本 subject 正篇对应 TMDB 61439 第 1 季完整季。TMDB 第 0 季收录前作《Candy☆Boy Side Story for Archive》及 EX01、EX02；本轮只映射正篇，故不纳入第 0 季。\n\nhttps://www.themoviedb.org/tv/61439 (api_snapshot): TMDB API 快照显示 TV 61439 原名为《キャンディ ボーイ》，首播日期为 2008-05-02，日本作品，正篇共 7 集；名称、日期、媒介和集数均与该 Bangumi subject 相符。\n\nhttps://www.themoviedb.org/tv/61439/season/1 (api_snapshot): TMDB 第 1 季第 1—7 集标题依次为「フタリノキョリ」「コレクダサ…イ？」「コエラレナイカベ」「ユキワリソウカナ…」「ア―――…ンムッ！」「ソノサキニアルコト」「サクラサク？」；它们逐集对应 Bangumi 的全部 7 集正篇，且首集 2008-05-02、末集 2009-05-08 的日期一致。\n\nhttps://www.themoviedb.org/tv/61439/season/0 (api_snapshot): TMDB 第 0 季包含《Candy☆Boy Side Story for Archive》以及 EX01、EX02，表明这些内容与第 1 季的 7 集正篇分开收录。",
+    "evidence": "codex: 年份、角色剧情、主创、短篇动画形式及七集标题确认这是2008年网络动画系列。正篇对应 TMDB 61439 第1季全季；两集 EX 以标题和日期确认对应第0季第2—3集。第0季第1集属于2007年前作，不纳入本 subject。\n\nhttps://www.themoviedb.org/tv/61439 (api_snapshot): TMDB 61439 为日本动画《キャンディ ボーイ》，首播于2008-05-02，正篇7集；樱井姐妹及神山咲夜等角色、导演ほしかわたかふみ、编剧鈴木雅詞均与待核对作品吻合。\n\nhttps://www.themoviedb.org/tv/61439/season/1 (api_snapshot): 第1季完整集表共7集，标题逐集对应 Bangumi 正篇1—7，仅有标点差异；首末集日期一致。第2—6集的 TMDB 日期与 Bangumi 不同，但标题、顺序及总集数一致。\n\nhttps://www.themoviedb.org/tv/61439/season/0 (api_snapshot): 第0季共3集：第1集是2007-11-22的前作 Candy☆Boy Side Story for Archive；第2集为 EX01 ミライヨホウズ，日期2008-08-13；第3集为 EX02 シアワセキョウユウリロン，日期2009-06-24。两集 EX 的标题与日期均对应本 subject 的特别篇。\n\nhttps://bgm.tv/subject/2829/ep (page): 已访问该 subject 的章节列表，用于核对正篇及 EX 章节。\n\nhttps://www.tvmaze.com/shows/14636/candy-boy/episodes (search_snippet): 独立集表列出的正篇1—7日期依次为2008-05-02、2008-06-21、2008-09-26、2008-11-07、2008-12-29、2009-03-13、2009-05-08，与输入 Bangumi 日期一致，支持 TMDB 中间五集日期存在数据偏差。\n\n备注：TMDB 正篇第2—6集日期分别记为2008-06-02、2008-07-02、2008-08-02、2008-09-02、2008-10-02，与 Bangumi 及独立集表不符；该日期差异不影响基于逐集标题、顺序和集数确认的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2829; https://www.themoviedb.org/tv/61439; https://www.themoviedb.org/tv/61439/season/1; https://www.themoviedb.org/tv/61439/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2829; https://www.themoviedb.org/tv/61439; https://www.themoviedb.org/tv/61439/season/1; https://www.themoviedb.org/tv/61439/season/0; https://bgm.tv/subject/2829/ep; https://www.tvmaze.com/shows/14636/candy-boy/episodes",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 61439
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 61439,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 3,
+      "id": 61439,
+      "season": 0,
       "type": "tv"
     }
   ]

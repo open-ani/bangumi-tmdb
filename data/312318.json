@@ -406,12 +406,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、具体人物与剧情、短篇连续动画形式及80集总量一致，可确认对应TMDB 118317第1季整季。完整季表没有额外集数或其他作品的迹象。由于TMDB缺少可比对的实际集标题及绝大多数播出日期，逐集顺序无法独立核实，故不按位置生成rules。\n\nhttps://bgm.tv/subject/312318 (page): Bangumi 标注为2020年11月18日开播的80集WEB动画，总导演玄青、黑巷，制作方企鹅影视、若鸿文化；剧情围绕姬小发失去命轮及护神山选拔展开。\n\nhttps://www.themoviedb.org/tv/118317 (api_snapshot): TMDB详情确认原名《天荒战神》，首播2020-11-18，剧情与Bangumi一致，共1季80集；制作公司及演职员字段为空，不能据此交叉核实人员。\n\nhttps://www.themoviedb.org/tv/118317/season/1 (api_snapshot): 已读取第1季全部两页，分别覆盖第1—60集及第61—80集，共80集，每集8分钟。集名均为通用编号；仅第1集有2020-11-18日期，第2—80集日期均为空。\n\n备注：逐集映射暂留空，需补充TMDB实际集标题、剧情或播出日期后再核对。；TMDB制作人员资料缺失；其last_air_date仍为2020-11-18、状态为Returning Series，不能作为完结日期或续作依据。",
+    "evidence": "codex: 原名、首播日期、具体人物与剧情、短篇连续动画形式及80集总量一致，可确认对应TMDB 118317第1季整季。完整季表没有额外集数或其他作品的迹象。由于TMDB缺少可比对的实际集标题及绝大多数播出日期，逐集顺序无法独立核实，故不按位置生成rules。\n\nhttps://bgm.tv/subject/312318 (page): Bangumi 标注为2020年11月18日开播的80集WEB动画，总导演玄青、黑巷，制作方企鹅影视、若鸿文化；剧情围绕姬小发失去命轮及护神山选拔展开。\n\nhttps://www.themoviedb.org/tv/118317 (api_snapshot): TMDB详情确认原名《天荒战神》，首播2020-11-18，剧情与Bangumi一致，共1季80集；制作公司及演职员字段为空，不能据此交叉核实人员。\n\nhttps://www.themoviedb.org/tv/118317/season/1 (api_snapshot): 已读取第1季全部两页，分别覆盖第1—60集及第61—80集，共80集，每集8分钟。集名均为通用编号；仅第1集有2020-11-18日期，第2—80集日期均为空。\n\n备注：逐集映射暂留空，需补充TMDB实际集标题、剧情或播出日期后再核对。；TMDB制作人员资料缺失；其last_air_date仍为2020-11-18、状态为Returning Series，不能作为完结日期或续作依据。\n\n脚本按声明范围生成逐集规则：80 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（1 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/312318; https://www.themoviedb.org/tv/118317; https://www.themoviedb.org/tv/118317/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 80,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118317
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

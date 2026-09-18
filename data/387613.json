@@ -206,12 +206,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 205248 第1季整季：原名、年份、首播日期、核心剧情、编剧线索及40集范围一致，完整季表与外部播出清单吻合。Bangumi 第二季为独立条目，不纳入本次范围。由于 Bangumi 各章节缺少标题和日期，逐集规则暂留空，避免仅凭编号推定。\n\nhttps://bgm.tv/subject/387613 (page): Bangumi 标明本作为2022年7月2日开播的40集WEB动画，导演吕志彪、动画制作若鸿文化、播放平台优酷，脚本包括发飙的蜗牛；第二季另立条目。\n\nhttps://www.themoviedb.org/tv/205248 (api_snapshot): TMDB 205248 的中文原名、首播日期及楚千夜为父翻案并接触龙神传承的剧情均与 Bangumi 一致；资料包含发飙的蜗牛及“编剧”标注，别名包括 Rise of Dragon；共1季40集。\n\nhttps://www.themoviedb.org/tv/205248/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共40集，编号连续为1—40，每集约10—13分钟；前两集日期均为2022年7月2日，第40集为2022年11月12日。季表为连续剧情单集，未列入合集或第二季。\n\nhttps://www.tvmaze.com/shows/66623/rise-of-the-dragon/episodes (page): TVmaze 的40集清单逐集日期均与 TMDB 第1季一致，支持该季覆盖2022年的完整播出范围。\n\nhttps://www.youtube.com/watch?v=M8Fe2vmbZWw (search_snippet): 优酷动漫视频搜索摘要将《极道龙神》与 Rise of the dragon 对应，并明确标注 EP40，支持作品别名及第40集的存在。\n\nhttps://bgm.tv/subject/387613/ep (page): Bangumi 章节页列出本篇1—40，但未提供各集标题和放送日期，无法直接与 TMDB 逐集交叉核对。\n\n备注：作品及季范围已确认；逐集对应仍需补充 Bangumi 章节标题、日期或可核验的章节内容证据。；TMDB 未提供导演和制作公司资料，无法在该库内直接复核吕志彪及若鸿文化。",
+    "evidence": "codex: 确认对应 TMDB 205248 第1季整季：原名、年份、首播日期、核心剧情、编剧线索及40集范围一致，完整季表与外部播出清单吻合。Bangumi 第二季为独立条目，不纳入本次范围。由于 Bangumi 各章节缺少标题和日期，逐集规则暂留空，避免仅凭编号推定。\n\nhttps://bgm.tv/subject/387613 (page): Bangumi 标明本作为2022年7月2日开播的40集WEB动画，导演吕志彪、动画制作若鸿文化、播放平台优酷，脚本包括发飙的蜗牛；第二季另立条目。\n\nhttps://www.themoviedb.org/tv/205248 (api_snapshot): TMDB 205248 的中文原名、首播日期及楚千夜为父翻案并接触龙神传承的剧情均与 Bangumi 一致；资料包含发飙的蜗牛及“编剧”标注，别名包括 Rise of Dragon；共1季40集。\n\nhttps://www.themoviedb.org/tv/205248/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共40集，编号连续为1—40，每集约10—13分钟；前两集日期均为2022年7月2日，第40集为2022年11月12日。季表为连续剧情单集，未列入合集或第二季。\n\nhttps://www.tvmaze.com/shows/66623/rise-of-the-dragon/episodes (page): TVmaze 的40集清单逐集日期均与 TMDB 第1季一致，支持该季覆盖2022年的完整播出范围。\n\nhttps://www.youtube.com/watch?v=M8Fe2vmbZWw (search_snippet): 优酷动漫视频搜索摘要将《极道龙神》与 Rise of the dragon 对应，并明确标注 EP40，支持作品别名及第40集的存在。\n\nhttps://bgm.tv/subject/387613/ep (page): Bangumi 章节页列出本篇1—40，但未提供各集标题和放送日期，无法直接与 TMDB 逐集交叉核对。\n\n备注：作品及季范围已确认；逐集对应仍需补充 Bangumi 章节标题、日期或可核验的章节内容证据。；TMDB 未提供导演和制作公司资料，无法在该库内直接复核吕志彪及若鸿文化。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/387613; https://www.themoviedb.org/tv/205248; https://www.themoviedb.org/tv/205248/season/1; https://www.tvmaze.com/shows/66623/rise-of-the-dragon/episodes; https://www.youtube.com/watch?v=M8Fe2vmbZWw; https://bgm.tv/subject/387613/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 205248
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

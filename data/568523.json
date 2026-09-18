@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、媒介、8集规模及放送起止日期共同支持对应 TMDB 277587 第1季，候选季表未见混入其他作品的迹象。可确认整季范围，但 Bangumi 各章节均无标题和放送日期，无法逐集交叉核实，因此不按位置生成映射规则。\n\nhttps://www.themoviedb.org/tv/277587 (api_snapshot): 候选为 DC、Warner Bros. Animation 制作的动画《DC Metal Force》，第1季共8集，首集日期为2024-12-06，末集日期为2025-01-18，与 Bangumi 的名称、动画媒介、总集数及放送起止日期一致。\n\n备注：逐集对应仍需补充 Bangumi 章节标题或放送日期；TMDB 现有集标题也仅为通用集号。；候选未提供剧情简介和主创名单，无法进一步交叉核对剧情及导演等信息。",
+    "evidence": "codex: 名称、媒介、8集规模及放送起止日期共同支持对应 TMDB 277587 第1季，候选季表未见混入其他作品的迹象。可确认整季范围，但 Bangumi 各章节均无标题和放送日期，无法逐集交叉核实，因此不按位置生成映射规则。\n\nhttps://www.themoviedb.org/tv/277587 (api_snapshot): 候选为 DC、Warner Bros. Animation 制作的动画《DC Metal Force》，第1季共8集，首集日期为2024-12-06，末集日期为2025-01-18，与 Bangumi 的名称、动画媒介、总集数及放送起止日期一致。\n\n备注：逐集对应仍需补充 Bangumi 章节标题或放送日期；TMDB 现有集标题也仅为通用集号。；候选未提供剧情简介和主创名单，无法进一步交叉核对剧情及导演等信息。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/568523; https://www.themoviedb.org/tv/277587",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 277587
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

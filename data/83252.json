@@ -201,12 +201,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 34109完整第3季：年份、电视动画媒介、制作人员、剧情、前后作及39集范围一致。Bangumi章节没有标题和日期，无法独立完成逐集比对，因此只确认整季归属，逐集规则留空。\n\nhttps://bangumi.tv/subject/83252 (page): Bangumi 标注为 TV 动画，共39话，播出日期为2010-05-23至2011-01-29；导演橋本みつお，制作涉及TMS与Maxpire，剧情围绕网络爆丸对战及异世界侵略展开。\n\nhttps://www.themoviedb.org/tv/34109 (api_snapshot): TMDB 34109为2007年开始的《爆丸バトルブローラーズ》，导演Mitsuo Hashimoto、制作公司TMS与Bangumi一致；第3季明确为Gundalian Invaders，共39集，前后季分别为New Vestroia与Mechtanium Surge。\n\nhttps://www.themoviedb.org/tv/34109/season/3 (api_snapshot): 已读取第3季完整集表，total_pages=1，连续覆盖1—39集。首集日期2010-05-23，末集2011-01-29；剧情从网络对战发展至Gundalia战争及最终决战，覆盖本subject主体。\n\nhttps://en.wikipedia.org/wiki/Bakugan:_Gundalian_Invaders (page): 资料确认日文原名与Gundalian Invaders为同一部39集电视动画，由TMS及Maxpire制作；加拿大2010-05-23首播，日本2011-04-03首播，可解释日文作品名称与海外播出年份的组合。\n\n备注：Bangumi提供的39个章节均缺少标题及播出日期；需补充这些信息后才能建立有依据的逐集映射。；TMDB第21—24集日期均为2010-10-02，早于第20集所标日期2010-10-03，存在日期异常，不能据此推定章节顺序。",
+    "evidence": "codex: 确认对应TMDB 34109完整第3季：年份、电视动画媒介、制作人员、剧情、前后作及39集范围一致。Bangumi章节没有标题和日期，无法独立完成逐集比对，因此只确认整季归属，逐集规则留空。\n\nhttps://bangumi.tv/subject/83252 (page): Bangumi 标注为 TV 动画，共39话，播出日期为2010-05-23至2011-01-29；导演橋本みつお，制作涉及TMS与Maxpire，剧情围绕网络爆丸对战及异世界侵略展开。\n\nhttps://www.themoviedb.org/tv/34109 (api_snapshot): TMDB 34109为2007年开始的《爆丸バトルブローラーズ》，导演Mitsuo Hashimoto、制作公司TMS与Bangumi一致；第3季明确为Gundalian Invaders，共39集，前后季分别为New Vestroia与Mechtanium Surge。\n\nhttps://www.themoviedb.org/tv/34109/season/3 (api_snapshot): 已读取第3季完整集表，total_pages=1，连续覆盖1—39集。首集日期2010-05-23，末集2011-01-29；剧情从网络对战发展至Gundalia战争及最终决战，覆盖本subject主体。\n\nhttps://en.wikipedia.org/wiki/Bakugan:_Gundalian_Invaders (page): 资料确认日文原名与Gundalian Invaders为同一部39集电视动画，由TMS及Maxpire制作；加拿大2010-05-23首播，日本2011-04-03首播，可解释日文作品名称与海外播出年份的组合。\n\n备注：Bangumi提供的39个章节均缺少标题及播出日期；需补充这些信息后才能建立有依据的逐集映射。；TMDB第21—24集日期均为2010-10-02，早于第20集所标日期2010-10-03，存在日期异常，不能据此推定章节顺序。\n\n脚本按声明范围生成逐集规则：39 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/83252; https://bangumi.tv/subject/83252; https://www.themoviedb.org/tv/34109; https://www.themoviedb.org/tv/34109/season/3; https://en.wikipedia.org/wiki/Bakugan:_Gundalian_Invaders",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 39,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 34109
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

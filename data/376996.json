@@ -126,12 +126,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、核心剧情、爱奇艺制作关联及24集动画版本相符；已核实 TMDB 第1季完整集表，范围覆盖本 subject，未见混入其他作品，确认对应整季。Bangumi 章节缺少标题和日期，无法完成逐集交叉比对，因此不根据编号位置生成 rules。\n\nhttps://bgm.tv/subject/376996 (page): Bangumi 将本作标为 WEB 动画，共24话，2022年1月27日开播；原作逆苍天，导演王佳、李斌、张德方、鲁俊，动画制作兴艺凯晨及北京快映互娱传媒有限公司，製作为爱奇艺。\n\nhttps://www.themoviedb.org/tv/156512 (api_snapshot): TMDB 156512 原名为《万域之王》，首播2022年1月27日，1季24集，已完结，制作公司列有爱奇艺；聂天通过兽骨进入秘境修炼的剧情与 Bangumi 一致。别名包括 The King of All Realms 和 The King of Ten Thousand Domains；演职员表为空。\n\nhttps://www.themoviedb.org/tv/156512/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共24集，连续编号1—24，每集11—14分钟；第1、2集日期均为2022年1月27日，第24集为2022年7月7日。首集标题《兽骨之力》，末集《拜师凌云宗》，季简介与目标作品一致。\n\nhttps://www.iq.com/album/%E4%B8%87%E5%9F%9F%E4%B9%8B%E7%8E%8B-2022-1ydsw9jwg75?lang=en_us (page): 爱奇艺官方页面确认这是2022年的24集动画，列出完整第1—24集播放列表，剧情同样围绕聂天及兽骨秘境展开，支持作品版本及完整集数范围一致。\n\n备注：24个 Bangumi 章节的标题与播出日期均为空；逐集映射暂留空，需补充章节标题或日期后核对。；TMDB 演职员表为空，无法独立交叉核实 Bangumi 所列导演及动画制作团队。",
+    "evidence": "codex: 原名、首播日期、核心剧情、爱奇艺制作关联及24集动画版本相符；已核实 TMDB 第1季完整集表，范围覆盖本 subject，未见混入其他作品，确认对应整季。Bangumi 章节缺少标题和日期，无法完成逐集交叉比对，因此不根据编号位置生成 rules。\n\nhttps://bgm.tv/subject/376996 (page): Bangumi 将本作标为 WEB 动画，共24话，2022年1月27日开播；原作逆苍天，导演王佳、李斌、张德方、鲁俊，动画制作兴艺凯晨及北京快映互娱传媒有限公司，製作为爱奇艺。\n\nhttps://www.themoviedb.org/tv/156512 (api_snapshot): TMDB 156512 原名为《万域之王》，首播2022年1月27日，1季24集，已完结，制作公司列有爱奇艺；聂天通过兽骨进入秘境修炼的剧情与 Bangumi 一致。别名包括 The King of All Realms 和 The King of Ten Thousand Domains；演职员表为空。\n\nhttps://www.themoviedb.org/tv/156512/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共24集，连续编号1—24，每集11—14分钟；第1、2集日期均为2022年1月27日，第24集为2022年7月7日。首集标题《兽骨之力》，末集《拜师凌云宗》，季简介与目标作品一致。\n\nhttps://www.iq.com/album/%E4%B8%87%E5%9F%9F%E4%B9%8B%E7%8E%8B-2022-1ydsw9jwg75?lang=en_us (page): 爱奇艺官方页面确认这是2022年的24集动画，列出完整第1—24集播放列表，剧情同样围绕聂天及兽骨秘境展开，支持作品版本及完整集数范围一致。\n\n备注：24个 Bangumi 章节的标题与播出日期均为空；逐集映射暂留空，需补充章节标题或日期后核对。；TMDB 演职员表为空，无法独立交叉核实 Bangumi 所列导演及动画制作团队。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/376996; https://www.themoviedb.org/tv/156512; https://www.themoviedb.org/tv/156512/season/1; https://www.iq.com/album/%E4%B8%87%E5%9F%9F%E4%B9%8B%E7%8E%8B-2022-1ydsw9jwg75?lang=en_us",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156512
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

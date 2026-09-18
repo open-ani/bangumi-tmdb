@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列归属、明确季序、首播日期、总集数及前后作时间共同支持对应 TMDB 155256 第17季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/155256 (api_snapshot): 《开心超人联盟》第17季首播于2022-05-20，共26集，与 Bangumi 标注的第十七季、首播日期及26话一致；季表完整列出第1至26集，放送日期为2022-05-20至2022-05-31。\n\nhttps://www.themoviedb.org/tv/155256 (api_snapshot): 第16季与第18季分别首播于2021-11-19和2022-12-09，与 Bangumi 所列前作《奇幻谜瑞岛》及后作《平行时空大冒险》的日期一致，进一步支持第17季的定位。\n\n备注：逐集对应仍需补充 Bangumi 各集标题或放送日期；TMDB 当前标题均为通用集号。；候选未提供第17季剧情简介，Bangumi 未提供制作公司，无法进一步交叉核验剧情与制作方。",
+    "evidence": "codex: 系列归属、明确季序、首播日期、总集数及前后作时间共同支持对应 TMDB 155256 第17季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核验，因此仅确认整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/155256 (api_snapshot): 《开心超人联盟》第17季首播于2022-05-20，共26集，与 Bangumi 标注的第十七季、首播日期及26话一致；季表完整列出第1至26集，放送日期为2022-05-20至2022-05-31。\n\nhttps://www.themoviedb.org/tv/155256 (api_snapshot): 第16季与第18季分别首播于2021-11-19和2022-12-09，与 Bangumi 所列前作《奇幻谜瑞岛》及后作《平行时空大冒险》的日期一致，进一步支持第17季的定位。\n\n备注：逐集对应仍需补充 Bangumi 各集标题或放送日期；TMDB 当前标题均为通用集号。；候选未提供第17季剧情简介，Bangumi 未提供制作公司，无法进一步交叉核验剧情与制作方。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/410024; https://www.themoviedb.org/tv/155256",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 17,
+      "start": 1,
+      "tmdbId": 155256
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

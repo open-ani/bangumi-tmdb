@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 74387《Final Space》第二季整季：年份、媒介、制作公司、配音阵容、剧情及13集播出范围一致。Bangumi 输入中的13个章节均缺少标题和日期，且在线章节表未能访问，无法完成逐集比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/74387 (api_snapshot): 通过英文原名 Final Space 搜索获得 TV 74387；详情中的配音演员 Olan Rogers、Fred Armisen、Tom Kenny、Tika Sumpter、Steven Yeun，以及制作公司 Conaco、New Form Digital、ShadowMachine，与输入简介一致。第二季剧情为 Gary 与船员寻找 Quinn 的太空冒险。\n\nhttps://www.themoviedb.org/tv/74387/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，集号连续为1至13，播出日期为2019-06-24至2019-09-23，与输入的季别、集数及起止日期一致；首集为 The Toro Regatta，末集为 The Sixth Key，整季未混入其他作品。\n\nhttps://press.wbd.com/na/synopses/final-space-season-2?language_content_entity=en (search_snippet): 华纳官方新闻资料的搜索摘要确认：第二季于2019年6月24日在 Adult Swim 首播，为半小时太空冒险动画，由 Olan Rogers、David Sacks 创作，Conaco、New Form 制作，ShadowMachine 负责动画；与输入简介吻合。正文访问返回403。\n\n备注：Bangumi 章节890803至890815缺少逐集标题与放送日期；需补齐后与 TMDB 集表逐项核对，才能建立连续映射，不能仅凭编号相同推定。",
+    "evidence": "codex: 可确认对应 TMDB 74387《Final Space》第二季整季：年份、媒介、制作公司、配音阵容、剧情及13集播出范围一致。Bangumi 输入中的13个章节均缺少标题和日期，且在线章节表未能访问，无法完成逐集比对，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/74387 (api_snapshot): 通过英文原名 Final Space 搜索获得 TV 74387；详情中的配音演员 Olan Rogers、Fred Armisen、Tom Kenny、Tika Sumpter、Steven Yeun，以及制作公司 Conaco、New Form Digital、ShadowMachine，与输入简介一致。第二季剧情为 Gary 与船员寻找 Quinn 的太空冒险。\n\nhttps://www.themoviedb.org/tv/74387/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，集号连续为1至13，播出日期为2019-06-24至2019-09-23，与输入的季别、集数及起止日期一致；首集为 The Toro Regatta，末集为 The Sixth Key，整季未混入其他作品。\n\nhttps://press.wbd.com/na/synopses/final-space-season-2?language_content_entity=en (search_snippet): 华纳官方新闻资料的搜索摘要确认：第二季于2019年6月24日在 Adult Swim 首播，为半小时太空冒险动画，由 Olan Rogers、David Sacks 创作，Conaco、New Form 制作，ShadowMachine 负责动画；与输入简介吻合。正文访问返回403。\n\n备注：Bangumi 章节890803至890815缺少逐集标题与放送日期；需补齐后与 TMDB 集表逐项核对，才能建立连续映射，不能仅凭编号相同推定。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/284258; https://www.themoviedb.org/tv/74387; https://www.themoviedb.org/tv/74387/season/2; https://press.wbd.com/na/synopses/final-space-season-2?language_content_entity=en",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 74387
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、精确首播日期、动画剧集媒介、第一季标注及 26 集总量共同支持对应 TV 101332 第 1 季。整季范围可以确认，但缺少逐集对照依据，因此不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/101332 (api_snapshot): TV 101332 的原名与 Bangumi 一致，首播日期同为 2018-12-16，媒介为动画剧集；候选唯一列出的第 1 季共 26 集，与 Bangumi 的第一季标注及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/101332 (api_snapshot): 第 1 季完整列出第 1—26 集，日期范围为 2018-12-16 至 2019-06-22，但标题均为通用集号，无法用于内容核对。\n\nhttps://www.themoviedb.org/movie/1165841 (api_snapshot): 电影 1165841 带有副标题，发行日期为 2025-12-25，其媒介与年份不符合该 2018 年首播的 26 集电视动画条目。\n\n备注：Bangumi 全部章节均无标题和放送日期，无法确认其顺序与 TMDB 一致，逐集对应留空。；Bangumi 简介声称 2023 年首播，与自身日期及候选的 2018 年首播信息冲突；简介所述制作方也与候选不同。候选未提供剧情，无法核实这些简介细节，需补充可靠的制作资料和分集表。",
+    "evidence": "codex: 原名、精确首播日期、动画剧集媒介、第一季标注及 26 集总量共同支持对应 TV 101332 第 1 季。整季范围可以确认，但缺少逐集对照依据，因此不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/101332 (api_snapshot): TV 101332 的原名与 Bangumi 一致，首播日期同为 2018-12-16，媒介为动画剧集；候选唯一列出的第 1 季共 26 集，与 Bangumi 的第一季标注及本篇集数一致。\n\nhttps://www.themoviedb.org/tv/101332 (api_snapshot): 第 1 季完整列出第 1—26 集，日期范围为 2018-12-16 至 2019-06-22，但标题均为通用集号，无法用于内容核对。\n\nhttps://www.themoviedb.org/movie/1165841 (api_snapshot): 电影 1165841 带有副标题，发行日期为 2025-12-25，其媒介与年份不符合该 2018 年首播的 26 集电视动画条目。\n\n备注：Bangumi 全部章节均无标题和放送日期，无法确认其顺序与 TMDB 一致，逐集对应留空。；Bangumi 简介声称 2023 年首播，与自身日期及候选的 2018 年首播信息冲突；简介所述制作方也与候选不同。候选未提供剧情，无法核实这些简介细节，需补充可靠的制作资料和分集表。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/637076; https://www.themoviedb.org/tv/101332; https://www.themoviedb.org/movie/1165841",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 101332
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

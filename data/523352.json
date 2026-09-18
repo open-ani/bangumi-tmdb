@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、地区、电视媒介及52集规模共同支持对应 TMDB 257561 第1季，季表范围与2019年主体一致。逐集信息不足，因此仅确认整季归属，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/257561 (api_snapshot): 候选《篮球旋风》为中国电视作品，首播日期为2019-09-02，与 Bangumi 一致；唯一列出的第1季共52集，与 subject 的52集本篇规模一致。\n\nhttps://www.themoviedb.org/tv/257561 (api_snapshot): 第1季已提供第1至52集，日期从2019-09-02至2020-08-24；标题均为编号占位标题，无法与 Bangumi 的空标题、空逐集日期交叉核实顺序。\n\n备注：候选未提供剧情简介和制作方，无法复核木马的故事及央视动漫集团制作信息。；Bangumi 全部章节缺少标题和放送日期，TMDB 标题仅为编号占位；需补充可交叉核对的逐集资料后才能确认逐集对应关系。",
+    "evidence": "codex: 名称、首播日期、地区、电视媒介及52集规模共同支持对应 TMDB 257561 第1季，季表范围与2019年主体一致。逐集信息不足，因此仅确认整季归属，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/257561 (api_snapshot): 候选《篮球旋风》为中国电视作品，首播日期为2019-09-02，与 Bangumi 一致；唯一列出的第1季共52集，与 subject 的52集本篇规模一致。\n\nhttps://www.themoviedb.org/tv/257561 (api_snapshot): 第1季已提供第1至52集，日期从2019-09-02至2020-08-24；标题均为编号占位标题，无法与 Bangumi 的空标题、空逐集日期交叉核实顺序。\n\n备注：候选未提供剧情简介和制作方，无法复核木马的故事及央视动漫集团制作信息。；Bangumi 全部章节缺少标题和放送日期，TMDB 标题仅为编号占位；需补充可交叉核对的逐集资料后才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/523352; https://www.themoviedb.org/tv/257561",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 257561
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

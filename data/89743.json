@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、TV媒介、制作公司、第二季开播日期、剧情及26集范围相符，确认对应TMDB 51817完整第二季。Bangumi章节缺少标题和日期，因此仅确认整季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/89743 (page): Bangumi 标明本作为《忍者神龟2012 第二季》，TV 动画，共26话，2013年10月12日开播，动画制作为 Nickelodeon Animation Studio。\n\nhttps://www.themoviedb.org/tv/51817 (api_snapshot): TMDB 51817 为2012年开始的 Nickelodeon《Teenage Mutant Ninja Turtles》，制作公司、角色及配音阵容与2012版一致；第二季标记为2013年10月12日开播、26集。\n\nhttps://www.themoviedb.org/tv/51817/season/2 (api_snapshot): 第二季真实集表共26集，total_pages=1，编号1—26；首集为2013年10月12日的《The Mutation Situation》，末两集为2014年9月26日的《The Invasion》上下篇，内容完整覆盖该季。\n\nhttps://ir.paramount.com/static-files/acf26b15-93ba-4111-a702-3e30cbcb8c01 (page): Nickelodeon 官方新闻稿确认2012版CG动画第二季于2013年10月12日开播，执行制作为 Ciro Nieli、Peter Hastings；首集标题及变异物质散落纽约的剧情与TMDB第二季首集一致。\n\nhttps://bgm.tv/subject/89743/ep (page): Bangumi 章节页只有本篇1—26的编号，均缺少集标题和播出日期，无法进行逐集内容比对。\n\n备注：尚不能核实Bangumi各章节与TMDB各集的顺序及拆分对应；需补充Bangumi逐集标题或播出日期后再建立rules或overrides。",
+    "evidence": "codex: 作品版本、TV媒介、制作公司、第二季开播日期、剧情及26集范围相符，确认对应TMDB 51817完整第二季。Bangumi章节缺少标题和日期，因此仅确认整季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/89743 (page): Bangumi 标明本作为《忍者神龟2012 第二季》，TV 动画，共26话，2013年10月12日开播，动画制作为 Nickelodeon Animation Studio。\n\nhttps://www.themoviedb.org/tv/51817 (api_snapshot): TMDB 51817 为2012年开始的 Nickelodeon《Teenage Mutant Ninja Turtles》，制作公司、角色及配音阵容与2012版一致；第二季标记为2013年10月12日开播、26集。\n\nhttps://www.themoviedb.org/tv/51817/season/2 (api_snapshot): 第二季真实集表共26集，total_pages=1，编号1—26；首集为2013年10月12日的《The Mutation Situation》，末两集为2014年9月26日的《The Invasion》上下篇，内容完整覆盖该季。\n\nhttps://ir.paramount.com/static-files/acf26b15-93ba-4111-a702-3e30cbcb8c01 (page): Nickelodeon 官方新闻稿确认2012版CG动画第二季于2013年10月12日开播，执行制作为 Ciro Nieli、Peter Hastings；首集标题及变异物质散落纽约的剧情与TMDB第二季首集一致。\n\nhttps://bgm.tv/subject/89743/ep (page): Bangumi 章节页只有本篇1—26的编号，均缺少集标题和播出日期，无法进行逐集内容比对。\n\n备注：尚不能核实Bangumi各章节与TMDB各集的顺序及拆分对应；需补充Bangumi逐集标题或播出日期后再建立rules或overrides。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/89743; https://www.themoviedb.org/tv/51817; https://www.themoviedb.org/tv/51817/season/2; https://ir.paramount.com/static-files/acf26b15-93ba-4111-a702-3e30cbcb8c01; https://bgm.tv/subject/89743/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 51817
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 231867 第1季整季。首播日期、剧情、52集总量及官方公布的3D动画版本和播出排期一致，实际季表完整覆盖该作品，未见混入其他版本。Bangumi 缺少逐集标题和日期，因此仅确认作品与整季范围，逐集规则留空，不凭编号位置推定。\n\nhttps://bgm.tv/subject/403732 (page): Bangumi 确认为2023年7月30日开播的52话 WEB 动画，原作一叶青天，四川东尧动漫制作，优酷动漫与小明太极出品。\n\nhttps://www.xiaomingtaiji.com/16/10258.html (page): 小明太极官方报道确认2023年7月30日推出52集3D动画，优酷每周四、周日播出；同时明确区分此前推出的漫动画版本，并说明两者叙事顺序不同。\n\nhttps://www.themoviedb.org/tv/231867 (api_snapshot): TMDB 231867 原名《盖世帝尊》，别名 The Galaxy Emperor，首播2023-07-30，共1季52集，剧情与 Bangumi 一致；制作公司和演职员字段为空。\n\nhttps://www.themoviedb.org/tv/231867/season/1 (api_snapshot): 实际读取第1季全部52集，total_pages=1，集号连续为1–52，每集具备标题及日期；第1、2集为2023-07-30，其后每周四、周日更新，至第52集2024-01-21结束，与官方52集版本及排期吻合。\n\nhttps://www.themoviedb.org/tv/218415 (api_snapshot): 另一候选218415明确名为《盖世帝尊 动态漫画》，首播日期记录为2023-01-16，当前仅录入1集，不属于本次52集3D动画版本。\n\nhttps://bangumi.tv/subject/403732/ep (page): Bangumi 章节页列出本篇1–52，但未提供逐集标题或放送日期，无法与 TMDB 的逐集标题和日期直接核对。\n\n备注：52个 Bangumi 章节均缺少标题与放送日期，尚不能完成逐集交叉核验；补齐可核实的章节元数据后再建立连续规则。；TMDB 未提供制作人员资料，制作身份由 Bangumi 与出品方官方报道交叉确认。",
+    "evidence": "codex: 确认对应 TMDB 231867 第1季整季。首播日期、剧情、52集总量及官方公布的3D动画版本和播出排期一致，实际季表完整覆盖该作品，未见混入其他版本。Bangumi 缺少逐集标题和日期，因此仅确认作品与整季范围，逐集规则留空，不凭编号位置推定。\n\nhttps://bgm.tv/subject/403732 (page): Bangumi 确认为2023年7月30日开播的52话 WEB 动画，原作一叶青天，四川东尧动漫制作，优酷动漫与小明太极出品。\n\nhttps://www.xiaomingtaiji.com/16/10258.html (page): 小明太极官方报道确认2023年7月30日推出52集3D动画，优酷每周四、周日播出；同时明确区分此前推出的漫动画版本，并说明两者叙事顺序不同。\n\nhttps://www.themoviedb.org/tv/231867 (api_snapshot): TMDB 231867 原名《盖世帝尊》，别名 The Galaxy Emperor，首播2023-07-30，共1季52集，剧情与 Bangumi 一致；制作公司和演职员字段为空。\n\nhttps://www.themoviedb.org/tv/231867/season/1 (api_snapshot): 实际读取第1季全部52集，total_pages=1，集号连续为1–52，每集具备标题及日期；第1、2集为2023-07-30，其后每周四、周日更新，至第52集2024-01-21结束，与官方52集版本及排期吻合。\n\nhttps://www.themoviedb.org/tv/218415 (api_snapshot): 另一候选218415明确名为《盖世帝尊 动态漫画》，首播日期记录为2023-01-16，当前仅录入1集，不属于本次52集3D动画版本。\n\nhttps://bangumi.tv/subject/403732/ep (page): Bangumi 章节页列出本篇1–52，但未提供逐集标题或放送日期，无法与 TMDB 的逐集标题和日期直接核对。\n\n备注：52个 Bangumi 章节均缺少标题与放送日期，尚不能完成逐集交叉核验；补齐可核实的章节元数据后再建立连续规则。；TMDB 未提供制作人员资料，制作身份由 Bangumi 与出品方官方报道交叉确认。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/403732; https://www.xiaomingtaiji.com/16/10258.html; https://www.themoviedb.org/tv/231867; https://www.themoviedb.org/tv/231867/season/1; https://www.themoviedb.org/tv/218415; https://bangumi.tv/subject/403732/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 231867
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

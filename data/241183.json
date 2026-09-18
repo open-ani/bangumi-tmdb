@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作公司、动画剧集媒介、第3季首播日期、26集总量及前季日期相互吻合，可确认对应 TMDB 219779 第3季整季。逐集标题与日期无法交叉核实，因此暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): TMDB 219779 为中国动画剧集，制作公司为上海今日动画影视制作有限公司，与 Bangumi 一致；第3季首播日期为2018-03-20，共26集，均与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): 该作品第2季首播日期为2017-10-17，与 Bangumi 关联的《百变马丁 第2季》日期一致，支持季度归属。第3季26集标题均为“第N話”占位标题。\n\n备注：Bangumi 各集放送日期均为空，TMDB 各集仅有占位标题，不能据集号位置确认逐集顺序；需补充 TMDB 实际集标题或 Bangumi 逐集放送日期。；候选未提供剧情简介，无法独立核对剧情内容。",
+    "evidence": "codex: 制作公司、动画剧集媒介、第3季首播日期、26集总量及前季日期相互吻合，可确认对应 TMDB 219779 第3季整季。逐集标题与日期无法交叉核实，因此暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): TMDB 219779 为中国动画剧集，制作公司为上海今日动画影视制作有限公司，与 Bangumi 一致；第3季首播日期为2018-03-20，共26集，均与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): 该作品第2季首播日期为2017-10-17，与 Bangumi 关联的《百变马丁 第2季》日期一致，支持季度归属。第3季26集标题均为“第N話”占位标题。\n\n备注：Bangumi 各集放送日期均为空，TMDB 各集仅有占位标题，不能据集号位置确认逐集顺序；需补充 TMDB 实际集标题或 Bangumi 逐集放送日期。；候选未提供剧情简介，无法独立核对剧情内容。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/241183; https://www.themoviedb.org/tv/219779",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 219779
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列序号、首播日期、媒介与26集整季范围一致，可确认对应 TMDB 126110 第4季。Bangumi 各集标题和日期均为空，TMDB 标题也仅为集号，无法逐集交叉核对，因此仅确认整季归属，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/126110 (api_snapshot): 《钢铁飞龙》（126110）第4季首播日期为2022-11-03，共26集，与 Bangumi《钢铁飞龙4时空战记》的系列序号、首播日期、电视动画媒介及本篇集数一致；该季集表完整列出第1至26集，播出日期截至2022-11-15。\n\nhttps://www.themoviedb.org/tv/126110 (api_snapshot): 第3季为2020年首播的52集，第5季为2023年首播的26集；两者的年份与本 subject 不符，支持定位至第4季。\n\n备注：候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对剧情及制作方。；逐集映射需补充 Bangumi 分集标题或放送日期，并与 TMDB 集表核对；目前不能仅按位置建立对应。",
+    "evidence": "codex: 系列序号、首播日期、媒介与26集整季范围一致，可确认对应 TMDB 126110 第4季。Bangumi 各集标题和日期均为空，TMDB 标题也仅为集号，无法逐集交叉核对，因此仅确认整季归属，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/126110 (api_snapshot): 《钢铁飞龙》（126110）第4季首播日期为2022-11-03，共26集，与 Bangumi《钢铁飞龙4时空战记》的系列序号、首播日期、电视动画媒介及本篇集数一致；该季集表完整列出第1至26集，播出日期截至2022-11-15。\n\nhttps://www.themoviedb.org/tv/126110 (api_snapshot): 第3季为2020年首播的52集，第5季为2023年首播的26集；两者的年份与本 subject 不符，支持定位至第4季。\n\n备注：候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对剧情及制作方。；逐集映射需补充 Bangumi 分集标题或放送日期，并与 TMDB 集表核对；目前不能仅按位置建立对应。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/575991; https://www.themoviedb.org/tv/126110",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 126110
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

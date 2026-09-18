@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及整季范围已确认：平台、创作者、年份、季度关系和12集规模共同支持对应 TMDB 81983 第三季。Bangumi 章节缺少标题及日期，无法按要求逐集核对，因此只确认整季目标，不凭编号顺序生成 rules 或 overrides。\n\nhttps://bgm.tv/subject/331648 (page): Bangumi 确认为 Netflix 网络动画《天堂镇警局》第三季，2021-03-12 上线，共12话；编剧为 Roger Black、Waco O'Guin，关联前后两季。\n\nhttps://bangumi.tv/subject/331648/ep (page): 章节页仅列本篇1—12，均无标题和播出日期，无法直接进行章节内容核对。\n\nhttps://www.netflix.com/title/80191522 (page): Netflix 官方确认该作为成人动画，共四部分，创作者为 Roger Black、Waco O'Guin；警局剧情简介和主演与 TMDB 一致，并列有第三部分预告。\n\nhttps://www.themoviedb.org/tv/81983 (api_snapshot): 实际调用详情确认 TV 81983 为 Paradise PD，2018年首播；第三季为2021-03-12上线、12集，前后季日期也与输入关联条目一致。\n\nhttps://www.themoviedb.org/tv/81983/season/3 (api_snapshot): 第三季实际集表共1页、12集，编号1—12，全部于2021-03-12上线，首集 Fallout、末集 PARAD-ISIS；未混入其他季。时长为23—30分钟。\n\nhttps://www.tvmaze.com/seasons/120362/paradise-pd-season-3/episodeguide (search_snippet): TVmaze 第三季集表的12集标题、顺序及上线日期与 TMDB 一致，剧情也相符。\n\nhttps://api.themoviedb.org/3/find/tt13604868?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 IMDb 线索 tt13604868，仅返回 TV 81983 第三季第1集，并非整部剧或整季。\n\n备注：逐集映射需补充 Bangumi 各章节的标题、日期或内容资料；subject 级 IMDb 线索不能直接绑定某个 Bangumi 章节。；Bangumi 标注每集22分钟，与 TMDB 的23—30分钟存在差异；目前无证据表明存在独立剪辑版本，保留该元数据差异。",
+    "evidence": "codex: 作品身份及整季范围已确认：平台、创作者、年份、季度关系和12集规模共同支持对应 TMDB 81983 第三季。Bangumi 章节缺少标题及日期，无法按要求逐集核对，因此只确认整季目标，不凭编号顺序生成 rules 或 overrides。\n\nhttps://bgm.tv/subject/331648 (page): Bangumi 确认为 Netflix 网络动画《天堂镇警局》第三季，2021-03-12 上线，共12话；编剧为 Roger Black、Waco O'Guin，关联前后两季。\n\nhttps://bangumi.tv/subject/331648/ep (page): 章节页仅列本篇1—12，均无标题和播出日期，无法直接进行章节内容核对。\n\nhttps://www.netflix.com/title/80191522 (page): Netflix 官方确认该作为成人动画，共四部分，创作者为 Roger Black、Waco O'Guin；警局剧情简介和主演与 TMDB 一致，并列有第三部分预告。\n\nhttps://www.themoviedb.org/tv/81983 (api_snapshot): 实际调用详情确认 TV 81983 为 Paradise PD，2018年首播；第三季为2021-03-12上线、12集，前后季日期也与输入关联条目一致。\n\nhttps://www.themoviedb.org/tv/81983/season/3 (api_snapshot): 第三季实际集表共1页、12集，编号1—12，全部于2021-03-12上线，首集 Fallout、末集 PARAD-ISIS；未混入其他季。时长为23—30分钟。\n\nhttps://www.tvmaze.com/seasons/120362/paradise-pd-season-3/episodeguide (search_snippet): TVmaze 第三季集表的12集标题、顺序及上线日期与 TMDB 一致，剧情也相符。\n\nhttps://api.themoviedb.org/3/find/tt13604868?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 IMDb 线索 tt13604868，仅返回 TV 81983 第三季第1集，并非整部剧或整季。\n\n备注：逐集映射需补充 Bangumi 各章节的标题、日期或内容资料；subject 级 IMDb 线索不能直接绑定某个 Bangumi 章节。；Bangumi 标注每集22分钟，与 TMDB 的23—30分钟存在差异；目前无证据表明存在独立剪辑版本，保留该元数据差异。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/331648; https://bangumi.tv/subject/331648/ep; https://www.netflix.com/title/80191522; https://www.themoviedb.org/tv/81983; https://www.themoviedb.org/tv/81983/season/3; https://www.tvmaze.com/seasons/120362/paradise-pd-season-3/episodeguide; https://api.themoviedb.org/3/find/tt13604868?external_source=imdb_id",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 81983
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

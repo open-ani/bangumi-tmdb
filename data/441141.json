@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB《Harley Quinn》（74440）第四季整季：年份、开播日期、媒介、制作人员、公司、角色配音及10集范围一致，实际季表未混入其他作品。Bangumi 各章节缺少标题和日期，因此仅确认整季映射，暂不按序号推定逐集规则。\n\nhttps://bgm.tv/subject/441141 (page): Bangumi 标为 WEB 动画第四季，共10话，2023-07-27开播，平台为 MAX；企画为 Justin Halpern、Patrick Schumacker、Dean Lorey，制作包括 Warner Bros. Animation、Yes, Norman Productions 和 Delicious Non-Sequitur。\n\nhttps://www.themoviedb.org/tv/74440 (api_snapshot): TMDB 74440 为英语动画《Harley Quinn》，制作公司及 Harley、Poison Ivy 的配音演员与 Bangumi 一致；母系列始于2019年，第四季始于2023-07-27，共10集。\n\nhttps://www.themoviedb.org/tv/74440/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，包含连续第1—10集，均为剧情正篇；第1—3集于2023-07-27上线，第4—10集从2023-08-03至2023-09-14每周上线。剧情涉及 Harley 加入蝙蝠家族、Ivy 领导毁灭军团。\n\nhttps://www.tvguide.com/tvshows/harley-quinn/episodes-season-4/1000151399/ (page): TV Guide 第四季列出10集，逐集播出日期与 TMDB 一致，标题基本一致；第8集有字母拼写差异，第9集标题多一个冠词，剧情仍相符。\n\nhttps://press.wbd.com/us/property/harley-quinn-0/media-releases (search_snippet): 华纳官方新闻资料确认本作为成人动画系列，开发者为 Justin Halpern、Patrick Schumacker、Dean Lorey，制作公司与 Bangumi 资料一致。\n\nhttps://bgm.tv/subject/441141/ep (page): Bangumi 章节页仅列本篇1—10，没有填写各集标题或播出日期，无法直接逐集比对。\n\n备注：Bangumi 章节1236880—1236889均无标题和播出日期；需补充可核对的章节资料后才能建立逐集 rules 或 overrides。",
+    "evidence": "codex: 已确认对应 TMDB《Harley Quinn》（74440）第四季整季：年份、开播日期、媒介、制作人员、公司、角色配音及10集范围一致，实际季表未混入其他作品。Bangumi 各章节缺少标题和日期，因此仅确认整季映射，暂不按序号推定逐集规则。\n\nhttps://bgm.tv/subject/441141 (page): Bangumi 标为 WEB 动画第四季，共10话，2023-07-27开播，平台为 MAX；企画为 Justin Halpern、Patrick Schumacker、Dean Lorey，制作包括 Warner Bros. Animation、Yes, Norman Productions 和 Delicious Non-Sequitur。\n\nhttps://www.themoviedb.org/tv/74440 (api_snapshot): TMDB 74440 为英语动画《Harley Quinn》，制作公司及 Harley、Poison Ivy 的配音演员与 Bangumi 一致；母系列始于2019年，第四季始于2023-07-27，共10集。\n\nhttps://www.themoviedb.org/tv/74440/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，包含连续第1—10集，均为剧情正篇；第1—3集于2023-07-27上线，第4—10集从2023-08-03至2023-09-14每周上线。剧情涉及 Harley 加入蝙蝠家族、Ivy 领导毁灭军团。\n\nhttps://www.tvguide.com/tvshows/harley-quinn/episodes-season-4/1000151399/ (page): TV Guide 第四季列出10集，逐集播出日期与 TMDB 一致，标题基本一致；第8集有字母拼写差异，第9集标题多一个冠词，剧情仍相符。\n\nhttps://press.wbd.com/us/property/harley-quinn-0/media-releases (search_snippet): 华纳官方新闻资料确认本作为成人动画系列，开发者为 Justin Halpern、Patrick Schumacker、Dean Lorey，制作公司与 Bangumi 资料一致。\n\nhttps://bgm.tv/subject/441141/ep (page): Bangumi 章节页仅列本篇1—10，没有填写各集标题或播出日期，无法直接逐集比对。\n\n备注：Bangumi 章节1236880—1236889均无标题和播出日期；需补充可核对的章节资料后才能建立逐集 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/441141; https://www.themoviedb.org/tv/74440; https://www.themoviedb.org/tv/74440/season/4; https://www.tvguide.com/tvshows/harley-quinn/episodes-season-4/1000151399/; https://press.wbd.com/us/property/harley-quinn-0/media-releases; https://bgm.tv/subject/441141/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 74440
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

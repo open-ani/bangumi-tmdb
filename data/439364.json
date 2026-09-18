@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 10283 第12季整季：动画媒介、季别、8集总量、放送起止日期及相邻季关系相符。Bangumi 逐集标题和日期均为空，无法进行逐集核验，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/10283 (api_snapshot): 候选为动画剧集 Archer；第12季共8集，首播2021-08-25，末集播出于2021-10-06，与 Bangumi 的季名、集数及起止日期一致。\n\nhttps://www.themoviedb.org/tv/10283 (api_snapshot): 第11季和第13季首播日期分别为2020-09-16、2022-08-24，与 Bangumi 前作、续作关系中的日期一致，支持第12季的定位。\n\n备注：逐集对应仍需补充 Bangumi 各集标题或放送日期；候选标题仅为通用集号。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核验这些信息。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 10283 第12季整季：动画媒介、季别、8集总量、放送起止日期及相邻季关系相符。Bangumi 逐集标题和日期均为空，无法进行逐集核验，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/10283 (api_snapshot): 候选为动画剧集 Archer；第12季共8集，首播2021-08-25，末集播出于2021-10-06，与 Bangumi 的季名、集数及起止日期一致。\n\nhttps://www.themoviedb.org/tv/10283 (api_snapshot): 第11季和第13季首播日期分别为2020-09-16、2022-08-24，与 Bangumi 前作、续作关系中的日期一致，支持第12季的定位。\n\n备注：逐集对应仍需补充 Bangumi 各集标题或放送日期；候选标题仅为通用集号。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核验这些信息。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439364; https://www.themoviedb.org/tv/10283",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 12,
+      "start": 1,
+      "tmdbId": 10283
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

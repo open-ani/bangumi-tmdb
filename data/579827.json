@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、动画媒介、制作方、首尾放送日期及总集数共同支持对应TMDB 298770第1季。整季范围可以确认；Bangumi各集标题和日期均为空，无法逐集交叉核对，因此不按序号猜测生成规则。\n\nhttps://www.themoviedb.org/tv/298770 (api_snapshot): 候选为中国动画《万古剑帝》，首播日期为2025-08-21，制作公司为Ruo Hong Culture，与Bangumi的名称、首播日期及若鸿文化出品信息一致。\n\nhttps://www.themoviedb.org/tv/298770 (api_snapshot): 第1季完整列出40集，首集日期为2025-08-21，末集日期为2025-12-20，与Bangumi的40集及放送起止日期一致，可确认主体覆盖整季。\n\n备注：候选未提供剧情简介，无法核对人物与剧情。；TMDB前期部分集日期不符合Bangumi所列周四、周六排期；需要补充Bangumi逐集标题或日期，才能核实逐集对应关系。",
+    "evidence": "codex: 名称、动画媒介、制作方、首尾放送日期及总集数共同支持对应TMDB 298770第1季。整季范围可以确认；Bangumi各集标题和日期均为空，无法逐集交叉核对，因此不按序号猜测生成规则。\n\nhttps://www.themoviedb.org/tv/298770 (api_snapshot): 候选为中国动画《万古剑帝》，首播日期为2025-08-21，制作公司为Ruo Hong Culture，与Bangumi的名称、首播日期及若鸿文化出品信息一致。\n\nhttps://www.themoviedb.org/tv/298770 (api_snapshot): 第1季完整列出40集，首集日期为2025-08-21，末集日期为2025-12-20，与Bangumi的40集及放送起止日期一致，可确认主体覆盖整季。\n\n备注：候选未提供剧情简介，无法核对人物与剧情。；TMDB前期部分集日期不符合Bangumi所列周四、周六排期；需要补充Bangumi逐集标题或日期，才能核实逐集对应关系。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/579827; https://www.themoviedb.org/tv/298770",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 298770
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

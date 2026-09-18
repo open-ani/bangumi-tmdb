@@ -86,12 +86,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及整季范围可确认对应TMDB 219464第一季：2023年上线背景、漫画改编及制作信息与Bangumi一致，官方平台剧情与TMDB一致，三方均为完整16集，季表未发现混入其他作品。Bangumi各章缺少标题和播出日期，TMDB又仅有通用集号，无法完成可靠的逐集交叉核对，因此只提交整季映射，逐集规则留空。\n\nhttps://bangumi.tv/subject/345865 (search_snippet): Bangumi 标注为2023年1月23日开播的16话WEB动画，导演易修远、饭小好，动画制作福煦影视，出品方为企鹅影视、腾讯动漫。\n\nhttps://www.themoviedb.org/tv/219464 (api_snapshot): TMDB详情确认中文原名一致，别名包括Attribute Collection；剧情围绕风夏穿越修仙世界、获取属性能力及千秋谷展开。共1季16集，已完结；制作公司和演职员字段为空。\n\nhttps://www.themoviedb.org/tv/219464/season/1 (api_snapshot): 第一季实际集表共16集，连续编号1—16，total_pages=1；标题均为通用集号，时长16—20分钟。第1、2集日期为2023-01-16，第3集为01-23，之后每周一更新，末集为04-24。\n\nhttps://wetv.vip/zh-cn/play/ircmk6fgvmnvmwt/g00452un6y8 (page): WeTV官方播放页列出完整01—16集，第16集标为终集；风夏、属性能力、千秋谷等剧情与TMDB一致。页面年份显示2021，与其他来源存在差异。\n\nhttps://www.jiemian.com/article/9221341.html (page): 2023年第一季度国产动画报道将本作列为腾讯上线作品，确认改编自腾讯动漫同名漫画，由企鹅影视和腾讯动漫联合出品、福煦影视制作。\n\n备注：TMDB前两集记为2023-01-16，早于Bangumi首播日2023-01-23；尚无证据解释差异，不能认定为预发布。；WeTV页面年份显示2021，与Bangumi及2023年同期报道冲突；结合剧情、集数和制作背景判断为同一作品，但年份字段差异原因未明。；逐集对应仍需补充Bangumi章节标题、日期或可验证的内容资料；不以连续编号直接生成规则。",
+    "evidence": "codex: 作品及整季范围可确认对应TMDB 219464第一季：2023年上线背景、漫画改编及制作信息与Bangumi一致，官方平台剧情与TMDB一致，三方均为完整16集，季表未发现混入其他作品。Bangumi各章缺少标题和播出日期，TMDB又仅有通用集号，无法完成可靠的逐集交叉核对，因此只提交整季映射，逐集规则留空。\n\nhttps://bangumi.tv/subject/345865 (search_snippet): Bangumi 标注为2023年1月23日开播的16话WEB动画，导演易修远、饭小好，动画制作福煦影视，出品方为企鹅影视、腾讯动漫。\n\nhttps://www.themoviedb.org/tv/219464 (api_snapshot): TMDB详情确认中文原名一致，别名包括Attribute Collection；剧情围绕风夏穿越修仙世界、获取属性能力及千秋谷展开。共1季16集，已完结；制作公司和演职员字段为空。\n\nhttps://www.themoviedb.org/tv/219464/season/1 (api_snapshot): 第一季实际集表共16集，连续编号1—16，total_pages=1；标题均为通用集号，时长16—20分钟。第1、2集日期为2023-01-16，第3集为01-23，之后每周一更新，末集为04-24。\n\nhttps://wetv.vip/zh-cn/play/ircmk6fgvmnvmwt/g00452un6y8 (page): WeTV官方播放页列出完整01—16集，第16集标为终集；风夏、属性能力、千秋谷等剧情与TMDB一致。页面年份显示2021，与其他来源存在差异。\n\nhttps://www.jiemian.com/article/9221341.html (page): 2023年第一季度国产动画报道将本作列为腾讯上线作品，确认改编自腾讯动漫同名漫画，由企鹅影视和腾讯动漫联合出品、福煦影视制作。\n\n备注：TMDB前两集记为2023-01-16，早于Bangumi首播日2023-01-23；尚无证据解释差异，不能认定为预发布。；WeTV页面年份显示2021，与Bangumi及2023年同期报道冲突；结合剧情、集数和制作背景判断为同一作品，但年份字段差异原因未明。；逐集对应仍需补充Bangumi章节标题、日期或可验证的内容资料；不以连续编号直接生成规则。\n\n脚本按声明范围生成逐集规则：16 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/345865; https://bangumi.tv/subject/345865; https://www.themoviedb.org/tv/219464; https://www.themoviedb.org/tv/219464/season/1; https://wetv.vip/zh-cn/play/ircmk6fgvmnvmwt/g00452un6y8; https://www.jiemian.com/article/9221341.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 219464
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

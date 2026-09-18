@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季别、首播日期、20集总量、制作公司、TV媒介及首集具体剧情相互吻合，确认对应TMDB 1434第17季整季。Bangumi各章节标题和日期为空，无法逐集交叉核对，因此只确认整季范围，不按位置生成逐集规则。\n\nhttps://bgm.tv/subject/406822 (page): Bangumi 标明本作是《Family Guy》第17季，TV动画，共20话，2018年9月30日开播，FOX播出，制作公司为20th Century Fox Television；简介描述Brian向患癌女性求婚。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 1434为英语动画系列《Family Guy》，围绕Griffin一家展开，制作公司包含20th Century Fox Television，配音演员包括Seth MacFarlane；第17季标为2018年9月30日开播、20集。\n\nhttps://www.themoviedb.org/tv/1434/season/17 (api_snapshot): 已读取第17季完整集表：total_pages=1，共20集，编号1至20，播出日期为2018年9月30日至2019年5月12日。首集《Married... with Cancer (1)》的求婚剧情与Bangumi简介吻合，末集为《Adam West High》；集表均为同一季剧情动画。\n\n备注：20个Bangumi章节均缺少标题和放送日期，逐集对应暂留空；需补充章节资料后再与TMDB集表核对。",
+    "evidence": "codex: 季别、首播日期、20集总量、制作公司、TV媒介及首集具体剧情相互吻合，确认对应TMDB 1434第17季整季。Bangumi各章节标题和日期为空，无法逐集交叉核对，因此只确认整季范围，不按位置生成逐集规则。\n\nhttps://bgm.tv/subject/406822 (page): Bangumi 标明本作是《Family Guy》第17季，TV动画，共20话，2018年9月30日开播，FOX播出，制作公司为20th Century Fox Television；简介描述Brian向患癌女性求婚。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 1434为英语动画系列《Family Guy》，围绕Griffin一家展开，制作公司包含20th Century Fox Television，配音演员包括Seth MacFarlane；第17季标为2018年9月30日开播、20集。\n\nhttps://www.themoviedb.org/tv/1434/season/17 (api_snapshot): 已读取第17季完整集表：total_pages=1，共20集，编号1至20，播出日期为2018年9月30日至2019年5月12日。首集《Married... with Cancer (1)》的求婚剧情与Bangumi简介吻合，末集为《Adam West High》；集表均为同一季剧情动画。\n\n备注：20个Bangumi章节均缺少标题和放送日期，逐集对应暂留空；需补充章节资料后再与TMDB集表核对。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/406822; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/17",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 17,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

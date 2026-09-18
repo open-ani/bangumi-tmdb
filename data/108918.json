@@ -121,12 +121,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认主体对应 TMDB 107836 第1季整季：年份、首播日期、制作人员、20集规模及季内具体剧情一致。TMDB 主条目简介使用蛮吉、蛮大人的电影剧情，不能作为本作剧情证据；身份由第1季剧情与正版平台资料交叉确认。逐集资料存在字段错误和日期冲突，因此仅确认季级范围，暂不生成连续规则；第2季不属于本 subject。\n\nhttps://bangumi.tv/subject/108918 (page): Bangumi 确认本作是青青树制作的2014年网络周播动画，2014-07-19开播，主体20集；导演包括周飞龙，编剧为王鹏展、王川。\n\nhttps://www.themoviedb.org/tv/107836 (api_snapshot): TMDB 107836 的首播日期、导演周飞龙及编剧王川、王鹏展吻合。季列表将2014年的《魁拔妖侠传》20集列为第1季，将2021年开始的《魁拔之殊途》列为第2季。\n\nhttps://www.themoviedb.org/tv/107836/season/1 (api_snapshot): 第1季实际集表共20集，编号1—20，total_pages=1；分集剧情围绕卡拉肖克·潘、王子辞及龙国家族争斗展开，与正版平台介绍吻合，没有混入《魁拔之殊途》。\n\nhttps://www.bilibili.com/bangumi/play/ss6190 (page): 哔哩哔哩正版播放页标注全20话、青青树动画公司；剧情为魁拔复活前龙国王族与卡拉肖克等家族围绕军权展开争斗。\n\nhttps://bgm.tv/subject/108918/ep (page): Bangumi 列出20个本篇及3个特别篇。本篇标题为空，日期字符串被填在时长字段，首播字段为空；第8集记录2014-09-20、第20集记录2014-12-27，与TMDB对应编号的2014-09-06、2014-11-29不一致。\n\nhttps://www.themoviedb.org/tv/107836/season/0 (api_snapshot): 实际读取第0季，episodeCount=0，episodes为空，无法给3个特别篇指定对应集。\n\n备注：Bangumi 本篇缺少有效标题和首播字段；时长字段中的日期从第8集起与TMDB不一致，不能仅凭相同编号生成1—20集规则。需用原始发布记录或逐集视频内容进一步核实。；3个特别篇尚无已核实的TMDB对应集，保留未映射，不作明确排除。；TMDB 第1季季级日期为2014-07-20，但剧集首播及第1集日期为2014-07-19，存在一天的元数据差异。",
+    "evidence": "codex: 可确认主体对应 TMDB 107836 第1季整季：年份、首播日期、制作人员、20集规模及季内具体剧情一致。TMDB 主条目简介使用蛮吉、蛮大人的电影剧情，不能作为本作剧情证据；身份由第1季剧情与正版平台资料交叉确认。逐集资料存在字段错误和日期冲突，因此仅确认季级范围，暂不生成连续规则；第2季不属于本 subject。\n\nhttps://bangumi.tv/subject/108918 (page): Bangumi 确认本作是青青树制作的2014年网络周播动画，2014-07-19开播，主体20集；导演包括周飞龙，编剧为王鹏展、王川。\n\nhttps://www.themoviedb.org/tv/107836 (api_snapshot): TMDB 107836 的首播日期、导演周飞龙及编剧王川、王鹏展吻合。季列表将2014年的《魁拔妖侠传》20集列为第1季，将2021年开始的《魁拔之殊途》列为第2季。\n\nhttps://www.themoviedb.org/tv/107836/season/1 (api_snapshot): 第1季实际集表共20集，编号1—20，total_pages=1；分集剧情围绕卡拉肖克·潘、王子辞及龙国家族争斗展开，与正版平台介绍吻合，没有混入《魁拔之殊途》。\n\nhttps://www.bilibili.com/bangumi/play/ss6190 (page): 哔哩哔哩正版播放页标注全20话、青青树动画公司；剧情为魁拔复活前龙国王族与卡拉肖克等家族围绕军权展开争斗。\n\nhttps://bgm.tv/subject/108918/ep (page): Bangumi 列出20个本篇及3个特别篇。本篇标题为空，日期字符串被填在时长字段，首播字段为空；第8集记录2014-09-20、第20集记录2014-12-27，与TMDB对应编号的2014-09-06、2014-11-29不一致。\n\nhttps://www.themoviedb.org/tv/107836/season/0 (api_snapshot): 实际读取第0季，episodeCount=0，episodes为空，无法给3个特别篇指定对应集。\n\n备注：Bangumi 本篇缺少有效标题和首播字段；时长字段中的日期从第8集起与TMDB不一致，不能仅凭相同编号生成1—20集规则。需用原始发布记录或逐集视频内容进一步核实。；3个特别篇尚无已核实的TMDB对应集，保留未映射，不作明确排除。；TMDB 第1季季级日期为2014-07-20，但剧集首播及第1集日期为2014-07-19，存在一天的元数据差异。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/108918; https://bangumi.tv/subject/108918; https://www.themoviedb.org/tv/107836; https://www.themoviedb.org/tv/107836/season/1; https://www.bilibili.com/bangumi/play/ss6190; https://bgm.tv/subject/108918/ep; https://www.themoviedb.org/tv/107836/season/0",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 107836
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

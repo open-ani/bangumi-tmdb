@@ -136,12 +136,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 74381第一季完整26集：年份、都市职业体验剧情、3DCG电视版本、制作人员、单集时长及播出范围一致，第二季另属后续subject。作品与季范围已确定；Bangumi提供的26个章节均缺少标题和日期，无法进行章节级交叉核验，因此暂不生成仅依赖编号位置的连续规则。\n\nhttps://www.ppi.co.jp/news/ppipr20170905_pingu/?l=j (page): Polygon Pictures 官方公告确认本作为2017年10月7日开播的3DCG电视新作，剧情为ピングー搬到都市后挑战各种工作；导演、编剧、音乐及制作公司均与输入一致。每话7分钟，计划两期各26话，区别于旧版定格动画。实际播出频道为NHK Eテレ。\n\nhttps://www.themoviedb.org/tv/74381 (api_snapshot): 以日文名搜索得到TV 74381。详情确认原名Pingu in the City、首播2017-10-07，导演イワタナオミ、编剧うえのきみこ及田辺茂範、制作公司Polygon Pictures均吻合；共两季，每季26集，第二季始于2018-10-06。\n\nhttps://www.themoviedb.org/tv/74381/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共26集，每集7分钟，日期范围2017-10-07至2018-03-31，与subject的集数和播出范围一致。日文集名均为通用的“第N話”。\n\n备注：逐集对应尚未确认；需补充Bangumi章节标题或放送日期，再与实际集表逐项比对。；输入记载播放电视台为NHK総合，与制作方公告的NHK Eテレ不一致；其余版本信息吻合，不影响第一季归属。",
+    "evidence": "codex: 确认对应TMDB 74381第一季完整26集：年份、都市职业体验剧情、3DCG电视版本、制作人员、单集时长及播出范围一致，第二季另属后续subject。作品与季范围已确定；Bangumi提供的26个章节均缺少标题和日期，无法进行章节级交叉核验，因此暂不生成仅依赖编号位置的连续规则。\n\nhttps://www.ppi.co.jp/news/ppipr20170905_pingu/?l=j (page): Polygon Pictures 官方公告确认本作为2017年10月7日开播的3DCG电视新作，剧情为ピングー搬到都市后挑战各种工作；导演、编剧、音乐及制作公司均与输入一致。每话7分钟，计划两期各26话，区别于旧版定格动画。实际播出频道为NHK Eテレ。\n\nhttps://www.themoviedb.org/tv/74381 (api_snapshot): 以日文名搜索得到TV 74381。详情确认原名Pingu in the City、首播2017-10-07，导演イワタナオミ、编剧うえのきみこ及田辺茂範、制作公司Polygon Pictures均吻合；共两季，每季26集，第二季始于2018-10-06。\n\nhttps://www.themoviedb.org/tv/74381/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共26集，每集7分钟，日期范围2017-10-07至2018-03-31，与subject的集数和播出范围一致。日文集名均为通用的“第N話”。\n\n备注：逐集对应尚未确认；需补充Bangumi章节标题或放送日期，再与实际集表逐项比对。；输入记载播放电视台为NHK総合，与制作方公告的NHK Eテレ不一致；其余版本信息吻合，不影响第一季归属。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/224762; https://www.ppi.co.jp/news/ppipr20170905_pingu/?l=j; https://www.themoviedb.org/tv/74381; https://www.themoviedb.org/tv/74381/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74381
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

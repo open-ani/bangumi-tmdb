@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份及整季范围已确认：原名、年份、剧情、制作公司、官方发布安排和10集短篇规格一致，对应TMDB 325977第1季。逐集缺少可区分的标题或剧情证据，因此只提交整季映射，不凭编号位置生成连续规则。\n\nhttps://bangumi.tv/subject/640146 (page): Bangumi 标注为2026年5月1日开播的10话网络动画，导演강다애，动画制作LAFTEL；剧情为独身男子照顾姐姐去世后留下的9岁外甥女。\n\nhttps://help.laftel.net/hc/ko/articles/15950471441807 (page): LAFTEL官方公告确认该作品由其制作，共10集，于2026年5月1日一次性公开。\n\nhttps://tv.apple.com/kr/show/친하게-지내자/umc.cmc.4wle4xvua0z474hcn88n20zlc (page): Apple TV确认同名作品为2026年动画，导演강다애，人物与剧情一致；页面另列23分钟、25分钟的集条目，不能将其编号直接套用到短篇版本。\n\nhttps://www.themoviedb.org/tv/325977 (api_snapshot): TMDB TV 325977原名친하게 지내자，英文别名Let's Be Close，制作公司LAFTEL；首播日期、人物与剧情均吻合，共1季10集。\n\nhttps://www.themoviedb.org/tv/325977/season/1 (api_snapshot): 已读取第1季完整集表，total_pages为1：第1至10集均于2026年5月1日播出，每集4至6分钟，符合10集短篇版本；标题全部为通用的“第N集”，没有分集简介。\n\n备注：Bangumi各集标题为空，TMDB各集仅有通用编号，且10集同日发布，无法独立核实逐集顺序。需取得带分集标题或内容的官方集表后再补充rules。；TMDB未提供制作人员名单；导演信息由Bangumi与Apple TV交叉核对。",
+    "evidence": "codex: 作品身份及整季范围已确认：原名、年份、剧情、制作公司、官方发布安排和10集短篇规格一致，对应TMDB 325977第1季。逐集缺少可区分的标题或剧情证据，因此只提交整季映射，不凭编号位置生成连续规则。\n\nhttps://bangumi.tv/subject/640146 (page): Bangumi 标注为2026年5月1日开播的10话网络动画，导演강다애，动画制作LAFTEL；剧情为独身男子照顾姐姐去世后留下的9岁外甥女。\n\nhttps://help.laftel.net/hc/ko/articles/15950471441807 (page): LAFTEL官方公告确认该作品由其制作，共10集，于2026年5月1日一次性公开。\n\nhttps://tv.apple.com/kr/show/친하게-지내자/umc.cmc.4wle4xvua0z474hcn88n20zlc (page): Apple TV确认同名作品为2026年动画，导演강다애，人物与剧情一致；页面另列23分钟、25分钟的集条目，不能将其编号直接套用到短篇版本。\n\nhttps://www.themoviedb.org/tv/325977 (api_snapshot): TMDB TV 325977原名친하게 지내자，英文别名Let's Be Close，制作公司LAFTEL；首播日期、人物与剧情均吻合，共1季10集。\n\nhttps://www.themoviedb.org/tv/325977/season/1 (api_snapshot): 已读取第1季完整集表，total_pages为1：第1至10集均于2026年5月1日播出，每集4至6分钟，符合10集短篇版本；标题全部为通用的“第N集”，没有分集简介。\n\n备注：Bangumi各集标题为空，TMDB各集仅有通用编号，且10集同日发布，无法独立核实逐集顺序。需取得带分集标题或内容的官方集表后再补充rules。；TMDB未提供制作人员名单；导演信息由Bangumi与Apple TV交叉核对。\n\n脚本按放送日期核对生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应，10 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/640146; https://bangumi.tv/subject/640146; https://help.laftel.net/hc/ko/articles/15950471441807; https://tv.apple.com/kr/show/친하게-지내자/umc.cmc.4wle4xvua0z474hcn88n20zlc; https://www.themoviedb.org/tv/325977; https://www.themoviedb.org/tv/325977/season/1",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 325977
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、电视媒介、首播日期、完结日期及13集总量共同支持对应TMDB 288487第1季，季表范围完整吻合。Bangumi逐集标题和日期全部缺失，无法逐集核对，因此仅确认整季归属，不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/288487 (api_snapshot): 同名韩国电视候选的第1季共13集，首集日期为2025-04-12，末集日期为2025-07-12，与Bangumi记载的电视播出形式、总话数和播出起止日期一致。\n\nhttps://www.themoviedb.org/movie/1570219 (api_snapshot): 同名电影候选的上映日期为2025-11-08，媒介及日期均不符合本次13集电视动画的范围。\n\n备注：候选未提供剧情及制作公司信息，无法交叉核验Bangumi简介和SOUL CREATIVE制作署名。；TMDB逐集标题均为通用集号，Bangumi逐集标题与日期为空；需补充逐集资料后才能确认章节对应关系及停播周安排。",
+    "evidence": "codex: 作品名称、电视媒介、首播日期、完结日期及13集总量共同支持对应TMDB 288487第1季，季表范围完整吻合。Bangumi逐集标题和日期全部缺失，无法逐集核对，因此仅确认整季归属，不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/288487 (api_snapshot): 同名韩国电视候选的第1季共13集，首集日期为2025-04-12，末集日期为2025-07-12，与Bangumi记载的电视播出形式、总话数和播出起止日期一致。\n\nhttps://www.themoviedb.org/movie/1570219 (api_snapshot): 同名电影候选的上映日期为2025-11-08，媒介及日期均不符合本次13集电视动画的范围。\n\n备注：候选未提供剧情及制作公司信息，无法交叉核验Bangumi简介和SOUL CREATIVE制作署名。；TMDB逐集标题均为通用集号，Bangumi逐集标题与日期为空；需补充逐集资料后才能确认章节对应关系及停播周安排。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/577975; https://www.themoviedb.org/tv/288487; https://www.themoviedb.org/movie/1570219",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 288487
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

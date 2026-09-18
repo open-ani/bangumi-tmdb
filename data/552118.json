@@ -40,12 +40,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 136322 第六季整季：原名、动画版本、首播日期、7集总量及前后季关系一致，实际季表未混入其他作品。Bangumi 输入的7个章节均缺少标题和日期，无法独立逐集比对，因此仅确认整季范围，暂不填写连续规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): 以英文原名搜索得到 TV 136322；详情确认其为梦工厂电视动画《Dragons: The Nine Realms》，故事发生在《驯龙高手》事件约1300年后，主角包括 Tom、Jun 等。第六季首播为2023年6月15日，共7集；前后两季日期也与输入的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/6 (api_snapshot): 实际读取第六季完整集表，total_pages=1，共7集，均于2023年6月15日播出。第1至7集依次为 Dragons Everywhere!、Break in Case of Emergency、Undercover、Webs' Masters、Sledkin Stakeout、Poison Control、In Too Deep。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-6/1000992344/ (page): TV Guide 的第六季集表列出7集，逐集标题、顺序和2023年6月15日的播出日期均与 TMDB 一致，剧情也对应同一部现代背景的驯龙动画。\n\nhttps://www.youtube.com/watch?v=vCE6NbJAOd0 (search_snippet): 梦工厂认证频道发布的第六季预告确认6月15日上线 Peacock，简介涉及 ICARIS、Sledkin 和 Buzzsaw，与 TMDB 第六季剧情一致。\n\n备注：Bangumi 网页读取失败；其条目信息依据用户提供的快照。；逐集映射仍需补充 Bangumi 各章节标题或播出日期，以核实章节 ID 与 TMDB 集号的对应关系。",
+    "evidence": "codex: 确认对应 TMDB 136322 第六季整季：原名、动画版本、首播日期、7集总量及前后季关系一致，实际季表未混入其他作品。Bangumi 输入的7个章节均缺少标题和日期，无法独立逐集比对，因此仅确认整季范围，暂不填写连续规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): 以英文原名搜索得到 TV 136322；详情确认其为梦工厂电视动画《Dragons: The Nine Realms》，故事发生在《驯龙高手》事件约1300年后，主角包括 Tom、Jun 等。第六季首播为2023年6月15日，共7集；前后两季日期也与输入的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/6 (api_snapshot): 实际读取第六季完整集表，total_pages=1，共7集，均于2023年6月15日播出。第1至7集依次为 Dragons Everywhere!、Break in Case of Emergency、Undercover、Webs' Masters、Sledkin Stakeout、Poison Control、In Too Deep。\n\nhttps://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-6/1000992344/ (page): TV Guide 的第六季集表列出7集，逐集标题、顺序和2023年6月15日的播出日期均与 TMDB 一致，剧情也对应同一部现代背景的驯龙动画。\n\nhttps://www.youtube.com/watch?v=vCE6NbJAOd0 (search_snippet): 梦工厂认证频道发布的第六季预告确认6月15日上线 Peacock，简介涉及 ICARIS、Sledkin 和 Buzzsaw，与 TMDB 第六季剧情一致。\n\n备注：Bangumi 网页读取失败；其条目信息依据用户提供的快照。；逐集映射仍需补充 Bangumi 各章节标题或播出日期，以核实章节 ID 与 TMDB 集号的对应关系。\n\n脚本按声明范围生成逐集规则：7 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552118; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/6; https://www.tvguide.com/tvshows/dragons-the-nine-realms/episodes-season-6/1000992344/; https://www.youtube.com/watch?v=vCE6NbJAOd0",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 136322
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

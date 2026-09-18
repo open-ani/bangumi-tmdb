@@ -60,12 +60,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认主体对应 TMDB 74204 第三季整季：输入的2019-10-04发行日期、11集总量和前后季关系，与核实的动画版本及季表吻合。第三季包含提前发行的情人节篇及10月发行的10集，因此季首日期差异有明确解释。Bangumi 的11个章节均缺少标题和日期，无法核实其逐集顺序，故仅建立季级映射，rules、overrides 留空。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 为英语动画剧集《Big Mouth》，首播于2017-09-29，剧情围绕青少年及青春期变化；别名包括“大嘴巴”“ビッグマウス”。配音包括 Nick Kroll、John Mulaney，制作公司包括 Titmouse。第二、四季日期分别为2018-10-05和2020-12-04，与输入的前后续条目一致。\n\nhttps://www.themoviedb.org/tv/74204/season/3 (api_snapshot): 实际读取第三季完整集表，共11集、1页。第1集《My Furry Valentine》于2019-02-08播出，第2至11集均于2019-10-04播出，末集为《Super Mouth》。情人节特别篇被编入第三季第1集。\n\nhttps://about.netflix.com/en/news/big-mouth-gets-even-bigger-as-netflix-inks-deal-with-the-creative-team-behind-hit-series (page): Netflix 官方确认本作是描写青春期与荷尔蒙怪兽的成人动画喜剧，创作者为 Nick Kroll、Andrew Goldberg、Mark Levin、Jennifer Flackett，并宣布第三季于2019年秋季回归，与 TMDB 的剧情、人员和版本相符。\n\nhttps://www.rottentomatoes.com/tv/big_mouth/s03 (page): 第三季页面列出11集，其标题、顺序及日期与 TMDB 季表一致：情人节篇为第1集，随后10集于2019-10-04发行；媒介为英语动画喜剧。\n\nhttps://pro.imdb.com/title/tt9700916/ (search_snippet): 输入的 IMDb 线索 tt9700916 对应《My Furry Valentine》，标为第三季第1集，并非整部剧集的 IMDb 编号。\n\n备注：无法确认 Bangumi sort 1 是否为情人节篇，不能仅凭11集总数和位置生成逐集规则；需补充 Bangumi 章节标题、日期或其他明确的章节内容证据。；本次 Bangumi 网页和 API 访问失败，Bangumi 侧信息依据用户提供的存档数据，未独立核实在线更新。",
+    "evidence": "codex: 可确认主体对应 TMDB 74204 第三季整季：输入的2019-10-04发行日期、11集总量和前后季关系，与核实的动画版本及季表吻合。第三季包含提前发行的情人节篇及10月发行的10集，因此季首日期差异有明确解释。Bangumi 的11个章节均缺少标题和日期，无法核实其逐集顺序，故仅建立季级映射，rules、overrides 留空。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): TMDB 74204 为英语动画剧集《Big Mouth》，首播于2017-09-29，剧情围绕青少年及青春期变化；别名包括“大嘴巴”“ビッグマウス”。配音包括 Nick Kroll、John Mulaney，制作公司包括 Titmouse。第二、四季日期分别为2018-10-05和2020-12-04，与输入的前后续条目一致。\n\nhttps://www.themoviedb.org/tv/74204/season/3 (api_snapshot): 实际读取第三季完整集表，共11集、1页。第1集《My Furry Valentine》于2019-02-08播出，第2至11集均于2019-10-04播出，末集为《Super Mouth》。情人节特别篇被编入第三季第1集。\n\nhttps://about.netflix.com/en/news/big-mouth-gets-even-bigger-as-netflix-inks-deal-with-the-creative-team-behind-hit-series (page): Netflix 官方确认本作是描写青春期与荷尔蒙怪兽的成人动画喜剧，创作者为 Nick Kroll、Andrew Goldberg、Mark Levin、Jennifer Flackett，并宣布第三季于2019年秋季回归，与 TMDB 的剧情、人员和版本相符。\n\nhttps://www.rottentomatoes.com/tv/big_mouth/s03 (page): 第三季页面列出11集，其标题、顺序及日期与 TMDB 季表一致：情人节篇为第1集，随后10集于2019-10-04发行；媒介为英语动画喜剧。\n\nhttps://pro.imdb.com/title/tt9700916/ (search_snippet): 输入的 IMDb 线索 tt9700916 对应《My Furry Valentine》，标为第三季第1集，并非整部剧集的 IMDb 编号。\n\n备注：无法确认 Bangumi sort 1 是否为情人节篇，不能仅凭11集总数和位置生成逐集规则；需补充 Bangumi 章节标题、日期或其他明确的章节内容证据。；本次 Bangumi 网页和 API 访问失败，Bangumi 侧信息依据用户提供的存档数据，未独立核实在线更新。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/336232; https://www.themoviedb.org/tv/74204; https://www.themoviedb.org/tv/74204/season/3; https://about.netflix.com/en/news/big-mouth-gets-even-bigger-as-netflix-inks-deal-with-the-creative-team-behind-hit-series; https://www.rottentomatoes.com/tv/big_mouth/s03; https://pro.imdb.com/title/tt9700916/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 74204
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

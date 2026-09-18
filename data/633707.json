@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季名、制作方、动画媒介、年份、26集规模及前后作时间关系共同支持对应 TMDB 136915 第4季整季。Bangumi 逐集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/136915 (api_snapshot): 候选为韩国 SAMG Entertainment 制作的动画；第4季名为「デザート キャッチ!ティニピン」，与 subject 的日文别名一致，共26集，播出年份为2023至2024年。\n\nhttps://www.themoviedb.org/tv/136915 (api_snapshot): 第3季首播日期2022-09-14、第5季首播日期2024-10-10，分别与 subject 前作、续作的日期一致，支持本作对应第4季。第4季逐集日期为2023-09-27至2024-04-03，标题均为编号占位。\n\n备注：Bangumi 标注播出范围为2023-09-22至2024-03-29，TMDB 第4季首末集均晚5天；现有数据不能解释该差异。；逐集对应需补充 Bangumi 各集标题或放送日期，并核实两站采用的播出排期；不能仅凭编号建立1至26集的连续规则。",
+    "evidence": "codex: 季名、制作方、动画媒介、年份、26集规模及前后作时间关系共同支持对应 TMDB 136915 第4季整季。Bangumi 逐集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/136915 (api_snapshot): 候选为韩国 SAMG Entertainment 制作的动画；第4季名为「デザート キャッチ!ティニピン」，与 subject 的日文别名一致，共26集，播出年份为2023至2024年。\n\nhttps://www.themoviedb.org/tv/136915 (api_snapshot): 第3季首播日期2022-09-14、第5季首播日期2024-10-10，分别与 subject 前作、续作的日期一致，支持本作对应第4季。第4季逐集日期为2023-09-27至2024-04-03，标题均为编号占位。\n\n备注：Bangumi 标注播出范围为2023-09-22至2024-03-29，TMDB 第4季首末集均晚5天；现有数据不能解释该差异。；逐集对应需补充 Bangumi 各集标题或放送日期，并核实两站采用的播出排期；不能仅凭编号建立1至26集的连续规则。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/633707; https://www.themoviedb.org/tv/136915",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 136915
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

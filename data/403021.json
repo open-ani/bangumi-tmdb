@@ -26,12 +26,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、发布平台、制作方、创作者、剧情及四集限定剧版本一致，且已核实 TMDB 第1季全部四集与 Netflix 官方集表相符，确认 subject 对应201213完整第1季。Bangumi 各章节缺少标题及日期，按不凭位置猜测的要求暂不生成逐集规则。\n\nhttps://bgm.tv/subject/403021 (page): Bangumi 确认本作是2022年10月21日开始发布的 Netflix 网络动画，共4话；导演堤大介、脚本岡田麿里、动画制作 Tonko House，剧情围绕神明世界中的少女 Onari 展开。\n\nhttps://www.tonkohouse.com/projects/oni (page): 制作方确认本作是2022年在 Netflix 首播的四集限定剧，主角与剧情一致；成片采用模仿定格质感的CG动画，合作方包括 Megalis VFX、Marza Animation Planet 和 Anima。\n\nhttps://www.netflix.com/title/81028343 (page): Netflix 确认2022年限定剧及创作者堤大介；四集依次为 Onari's Kushi Power、The Mighty Storm Gods、The Truth、The Demon Moon Rises，各集标题和剧情均与 TMDB 第1季一致。\n\nhttps://www.themoviedb.org/tv/201213 (api_snapshot): 实际调用 tmdb_details 确认201213为 ONI: Thunder God's Tale，首播和末播日期均为2022-10-21，制作公司为 Tonko House，共1季4集，剧情与 Netflix、Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/201213/season/1 (api_snapshot): 实际调用 tmdb_season 读取第1季完整集表，total_pages=1，共第1至4集，日期均为2022-10-21；逐集标题、剧情与 Netflix 官方四集列表吻合，无其他作品混入。\n\nhttps://bgm.tv/subject/403021/ep (page): Bangumi 章节页仅列本篇第1至4话，没有标题和逐集播出日期，无法独立核对各章节身份。\n\n备注：Bangumi 章节1131025至1131028的标题和日期均为空；需补充可核对的逐集信息后，才能建立严格验证的章节对应关系。",
+    "evidence": "codex: 年份、发布平台、制作方、创作者、剧情及四集限定剧版本一致，且已核实 TMDB 第1季全部四集与 Netflix 官方集表相符，确认 subject 对应201213完整第1季。Bangumi 各章节缺少标题及日期，按不凭位置猜测的要求暂不生成逐集规则。\n\nhttps://bgm.tv/subject/403021 (page): Bangumi 确认本作是2022年10月21日开始发布的 Netflix 网络动画，共4话；导演堤大介、脚本岡田麿里、动画制作 Tonko House，剧情围绕神明世界中的少女 Onari 展开。\n\nhttps://www.tonkohouse.com/projects/oni (page): 制作方确认本作是2022年在 Netflix 首播的四集限定剧，主角与剧情一致；成片采用模仿定格质感的CG动画，合作方包括 Megalis VFX、Marza Animation Planet 和 Anima。\n\nhttps://www.netflix.com/title/81028343 (page): Netflix 确认2022年限定剧及创作者堤大介；四集依次为 Onari's Kushi Power、The Mighty Storm Gods、The Truth、The Demon Moon Rises，各集标题和剧情均与 TMDB 第1季一致。\n\nhttps://www.themoviedb.org/tv/201213 (api_snapshot): 实际调用 tmdb_details 确认201213为 ONI: Thunder God's Tale，首播和末播日期均为2022-10-21，制作公司为 Tonko House，共1季4集，剧情与 Netflix、Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/201213/season/1 (api_snapshot): 实际调用 tmdb_season 读取第1季完整集表，total_pages=1，共第1至4集，日期均为2022-10-21；逐集标题、剧情与 Netflix 官方四集列表吻合，无其他作品混入。\n\nhttps://bgm.tv/subject/403021/ep (page): Bangumi 章节页仅列本篇第1至4话，没有标题和逐集播出日期，无法独立核对各章节身份。\n\n备注：Bangumi 章节1131025至1131028的标题和日期均为空；需补充可核对的逐集信息后，才能建立严格验证的章节对应关系。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/403021; https://www.tonkohouse.com/projects/oni; https://www.netflix.com/title/81028343; https://www.themoviedb.org/tv/201213; https://www.themoviedb.org/tv/201213/season/1; https://bgm.tv/subject/403021/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 201213
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

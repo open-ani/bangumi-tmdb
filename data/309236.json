@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 105996第三季整季。年份、电视播出形式、制作公司、双胞胎弟妹剧情、单集时长及13集范围相互吻合，季表未混入其他系列。Bangumi所给章节均无标题和日期，无法逐章独立比对，因此确认整季归属，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 实际读取 TMDB 105996：原名为「うっかりペネロペ」，剧情为三岁蓝色考拉佩内洛普的日常，制作公司包含日本动画；第三季标注2013-07-02开播、13集，与其他年份的季度分开。\n\nhttps://www.themoviedb.org/tv/105996/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共13集，编号1—13，每集5分钟；首集2013-07-02、末集2013-09-24。前几集讲述双胞胎弟妹出生后的生活；第10集播出日期为空。\n\nhttps://www.nippon-animation.co.jp/work/2010s/ (search_snippet): 日本动画官方作品目录明确列出第三系列播出期间为2013-07-02至2013-09-24，共13话、每话5分钟，与TMDB第三季范围一致。\n\nhttps://www.nippon-animation.co.jp/news/information/335/ (search_snippet): 日本动画2013-06-26公告确认新系列于2013-07-02起在NHK Eテレ每周二播出，剧情新增双胞胎弟弟タータ与妹妹フィーフィ，与TMDB第三季剧情吻合。\n\nhttps://bgm.tv/subject/309236 (search_snippet): Bangumi条目标注第三系列为2013年播出的13话TV动画，导演高木淳、动画制作日本动画，起止日期与官方第三系列一致。\n\n备注：Bangumi第1—13话缺少标题和播出日期；补齐章节资料后可进一步确认逐集对应。；TMDB第三季第10集日期为空，不能沿用旧映射关于所有集播出日期完整的表述。；官方网页正文访问返回403，官方信息依据实际取得的搜索摘要。",
+    "evidence": "codex: 确认对应TMDB 105996第三季整季。年份、电视播出形式、制作公司、双胞胎弟妹剧情、单集时长及13集范围相互吻合，季表未混入其他系列。Bangumi所给章节均无标题和日期，无法逐章独立比对，因此确认整季归属，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/105996 (api_snapshot): 实际读取 TMDB 105996：原名为「うっかりペネロペ」，剧情为三岁蓝色考拉佩内洛普的日常，制作公司包含日本动画；第三季标注2013-07-02开播、13集，与其他年份的季度分开。\n\nhttps://www.themoviedb.org/tv/105996/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共13集，编号1—13，每集5分钟；首集2013-07-02、末集2013-09-24。前几集讲述双胞胎弟妹出生后的生活；第10集播出日期为空。\n\nhttps://www.nippon-animation.co.jp/work/2010s/ (search_snippet): 日本动画官方作品目录明确列出第三系列播出期间为2013-07-02至2013-09-24，共13话、每话5分钟，与TMDB第三季范围一致。\n\nhttps://www.nippon-animation.co.jp/news/information/335/ (search_snippet): 日本动画2013-06-26公告确认新系列于2013-07-02起在NHK Eテレ每周二播出，剧情新增双胞胎弟弟タータ与妹妹フィーフィ，与TMDB第三季剧情吻合。\n\nhttps://bgm.tv/subject/309236 (search_snippet): Bangumi条目标注第三系列为2013年播出的13话TV动画，导演高木淳、动画制作日本动画，起止日期与官方第三系列一致。\n\n备注：Bangumi第1—13话缺少标题和播出日期；补齐章节资料后可进一步确认逐集对应。；TMDB第三季第10集日期为空，不能沿用旧映射关于所有集播出日期完整的表述。；官方网页正文访问返回403，官方信息依据实际取得的搜索摘要。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/309236; https://www.themoviedb.org/tv/105996; https://www.themoviedb.org/tv/105996/season/3; https://www.nippon-animation.co.jp/work/2010s/; https://www.nippon-animation.co.jp/news/information/335/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 105996
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

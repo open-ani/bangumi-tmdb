@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 91425 第3季整季：副标题、年份、首播日期、剧情、制作背景及10集范围一致。Bangumi 各章节缺少标题和日期，逐集关系无法独立核实，因此仅确认季级映射，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/326500 (page): Bangumi 标注本作为 TV 动画第三季，共10话，2020年8月13日在 HBO Max 开播；剧情围绕 Grace、Simon 与 Hazel、Tuba 展开。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): TMDB 91425 为英语动画剧集《Infinity Train》，制作公司为 Cartoon Network Studios；第三季的副标题、首播日期及10集总量均与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/91425/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共10集，集号1–10；季名为 Book Three: Cult of the Conductor，剧情人物与 Bangumi 一致。第1–5集日期为2020-08-13，第6–8集为2020-08-20，第9–10集为2020-08-27；范围内未混入其他季度或特别篇。\n\nhttps://press.wbd.com/us/media-release/hbo-max/third-installment-animated-anthology-series-infinity-train-will-premiere-exclusively (search_snippet): 华纳官方新闻稿确认 Book 3 是在 HBO Max 播出的第三季，由 Owen Dennis 创作、Cartoon Network Studios 制作；Grace、Simon 脱离 Apex 后遇见 Hazel 和 Tuba 的剧情与本 subject 一致。\n\nhttps://bgm.tv/subject/326500/ep (page): Bangumi 章节页仅列本篇1–10，未提供各集标题和放送日期，无法进行逐集交叉比对。\n\nhttps://www.imdb.com/title/tt12694660/ (search_snippet): 输入的 IMDb 线索 tt12694660 指向第三季第1集 The Musical Car，并非整季条目。\n\n备注：Bangumi 章节1003771–1003780均缺少标题及日期；需补充章节资料后才能建立逐集规则，不能仅凭编号顺序推定。",
+    "evidence": "codex: 已确认对应 TMDB 91425 第3季整季：副标题、年份、首播日期、剧情、制作背景及10集范围一致。Bangumi 各章节缺少标题和日期，逐集关系无法独立核实，因此仅确认季级映射，rules 与 overrides 留空。\n\nhttps://bgm.tv/subject/326500 (page): Bangumi 标注本作为 TV 动画第三季，共10话，2020年8月13日在 HBO Max 开播；剧情围绕 Grace、Simon 与 Hazel、Tuba 展开。\n\nhttps://www.themoviedb.org/tv/91425 (api_snapshot): TMDB 91425 为英语动画剧集《Infinity Train》，制作公司为 Cartoon Network Studios；第三季的副标题、首播日期及10集总量均与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/91425/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共10集，集号1–10；季名为 Book Three: Cult of the Conductor，剧情人物与 Bangumi 一致。第1–5集日期为2020-08-13，第6–8集为2020-08-20，第9–10集为2020-08-27；范围内未混入其他季度或特别篇。\n\nhttps://press.wbd.com/us/media-release/hbo-max/third-installment-animated-anthology-series-infinity-train-will-premiere-exclusively (search_snippet): 华纳官方新闻稿确认 Book 3 是在 HBO Max 播出的第三季，由 Owen Dennis 创作、Cartoon Network Studios 制作；Grace、Simon 脱离 Apex 后遇见 Hazel 和 Tuba 的剧情与本 subject 一致。\n\nhttps://bgm.tv/subject/326500/ep (page): Bangumi 章节页仅列本篇1–10，未提供各集标题和放送日期，无法进行逐集交叉比对。\n\nhttps://www.imdb.com/title/tt12694660/ (search_snippet): 输入的 IMDb 线索 tt12694660 指向第三季第1集 The Musical Car，并非整季条目。\n\n备注：Bangumi 章节1003771–1003780均缺少标题及日期；需补充章节资料后才能建立逐集规则，不能仅凭编号顺序推定。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/326500; https://www.themoviedb.org/tv/91425; https://www.themoviedb.org/tv/91425/season/3; https://press.wbd.com/us/media-release/hbo-max/third-installment-animated-anthology-series-infinity-train-will-premiere-exclusively; https://bgm.tv/subject/326500/ep; https://www.imdb.com/title/tt12694660/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 91425
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

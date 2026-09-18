@@ -155,12 +155,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名、年份、媒介类型及完整的 30 集单季范围相符，可确认对应 TV 100468 第 1 季。逐集缺少可比对的标题和日期，因此仅建立整季映射，不按序号推定章节对应。\n\nhttps://www.themoviedb.org/tv/100468 (api_snapshot): 候选 TV 100468 原名为 Culottées，属于动画、纪录片类型，2020 年首播；唯一列出的第 1 季共 30 集，与 Bangumi 的作品名、年份、动画纪录片形式及总集数一致。\n\nhttps://www.themoviedb.org/tv/100468 (api_snapshot): 第 1 季列出第 1—30 集，放送日期为 2020-03-09 至 2020-04-17，但标题均为通用集号；Bangumi 各集标题及日期为空，无法核实逐集顺序。\n\n备注：Bangumi 标注首播为 2020-03-07，TMDB 为 2020-03-09，两天差异的原因无法由现有数据确定。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核实这两项。；需要补充 Bangumi 逐集标题或放送日期，以及 TMDB 的有效集标题，才能建立逐集规则。",
+    "evidence": "codex: 作品名、年份、媒介类型及完整的 30 集单季范围相符，可确认对应 TV 100468 第 1 季。逐集缺少可比对的标题和日期，因此仅建立整季映射，不按序号推定章节对应。\n\nhttps://www.themoviedb.org/tv/100468 (api_snapshot): 候选 TV 100468 原名为 Culottées，属于动画、纪录片类型，2020 年首播；唯一列出的第 1 季共 30 集，与 Bangumi 的作品名、年份、动画纪录片形式及总集数一致。\n\nhttps://www.themoviedb.org/tv/100468 (api_snapshot): 第 1 季列出第 1—30 集，放送日期为 2020-03-09 至 2020-04-17，但标题均为通用集号；Bangumi 各集标题及日期为空，无法核实逐集顺序。\n\n备注：Bangumi 标注首播为 2020-03-07，TMDB 为 2020-03-09，两天差异的原因无法由现有数据确定。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核实这两项。；需要补充 Bangumi 逐集标题或放送日期，以及 TMDB 的有效集标题，才能建立逐集规则。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439331; https://www.themoviedb.org/tv/100468",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 100468
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

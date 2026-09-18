@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、剧情、动画制作公司、Netflix 发行版本及九集规模一致，可确认 subject 覆盖 TMDB 74728 第一季整季。Bangumi 输入的九个章节均缺少标题和日期，无法逐章核验，因此保留季级匹配，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB 74728 为2019年版动画，首播日期2019-01-18；剧情为卡门与伙伴阻止国际恶联，制作公司包括 DHX Media，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/74728/season/1 (api_snapshot): 第一季实际集表共9集，仅1页，全部标注2019-01-18播出；第二季另列，首播2019-10-01。第一季范围完整且未混入后续季。\n\nhttps://www.netflix.com/title/80167821 (page): Netflix 官方第一季集表的9集标题、顺序和剧情均与 TMDB 第一季一致；开篇分上下两集，末集为法国任务。\n\nhttps://about.netflix.com/en/news/carmen-sandiego-new-animated-series-coming-to-netflix-in-2019 (page): Netflix 官方公告确认这是2019年推出的新动画版本，由 DHX Media 制作动画，Gina Rodriguez 和 Finn Wolfhard 配音，区别于1994年旧版。\n\n备注：Bangumi 章节页面访问失败，未能补齐章节标题或日期；九个章节的具体对应仍待这些信息核实，不能仅凭 sort 1—9 推定逐集映射。",
+    "evidence": "codex: 年份、首播日期、剧情、动画制作公司、Netflix 发行版本及九集规模一致，可确认 subject 覆盖 TMDB 74728 第一季整季。Bangumi 输入的九个章节均缺少标题和日期，无法逐章核验，因此保留季级匹配，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/74728 (api_snapshot): TMDB 74728 为2019年版动画，首播日期2019-01-18；剧情为卡门与伙伴阻止国际恶联，制作公司包括 DHX Media，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/74728/season/1 (api_snapshot): 第一季实际集表共9集，仅1页，全部标注2019-01-18播出；第二季另列，首播2019-10-01。第一季范围完整且未混入后续季。\n\nhttps://www.netflix.com/title/80167821 (page): Netflix 官方第一季集表的9集标题、顺序和剧情均与 TMDB 第一季一致；开篇分上下两集，末集为法国任务。\n\nhttps://about.netflix.com/en/news/carmen-sandiego-new-animated-series-coming-to-netflix-in-2019 (page): Netflix 官方公告确认这是2019年推出的新动画版本，由 DHX Media 制作动画，Gina Rodriguez 和 Finn Wolfhard 配音，区别于1994年旧版。\n\n备注：Bangumi 章节页面访问失败，未能补齐章节标题或日期；九个章节的具体对应仍待这些信息核实，不能仅凭 sort 1—9 推定逐集映射。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/221539; https://www.themoviedb.org/tv/74728; https://www.themoviedb.org/tv/74728/season/1; https://www.netflix.com/title/80167821; https://about.netflix.com/en/news/carmen-sandiego-new-animated-series-coming-to-netflix-in-2019",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74728
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

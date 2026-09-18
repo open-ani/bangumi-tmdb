@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、第二季版本及整季范围可以确认：官方上线年份与日期、剧情、制作公司和导演相互吻合，TMDB 第二季13集与 Bangumi 标注一致。Bangumi 所给章节均缺少标题及放送日期，无法逐集交叉核验，因此仅建立整季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/226745 (api_snapshot): TMDB 226745 为动画剧集《Camp Snoopy》，营地剧情与输入一致；制作公司包括 WildBrain Studios，导演为 Rob Boutilier。季列表区分了2024年第一季与2026年第二季，第二季共13集。\n\nhttps://www.themoviedb.org/tv/226745/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，每集22分钟、包含两个故事段落；首集为 Following in the Pawprints / Roughing It，末集为 The Sally Situation / Memory Book。全季日期均记录为2026-06-25，剧情属于同一季的营地冒险。\n\nhttps://www.apple.com/tv-pr/news/2026/06/attention-campers-apple-tv-debuts-delightful-trailer-for-camp-snoopy-season-two-premiering-globally-friday-june-26/ (page): Apple 官方确认《Camp Snoopy》第二季于2026年6月26日全球上线，由 Peanuts 与 WildBrain 制作、Rob Boutilier 执导；营地、沙堡及寻找传说动物等剧情与 TMDB 第二季一致。\n\n备注：TMDB 记录日期为2026-06-25，Apple 官方与 Bangumi 为2026-06-26；一天差异的原因尚未确认。；Bangumi 章节页面未能读取，输入中的13个章节亦无标题及日期；待补齐章节资料后才能确认逐集对应，不能仅按序号生成规则。",
+    "evidence": "codex: 作品、第二季版本及整季范围可以确认：官方上线年份与日期、剧情、制作公司和导演相互吻合，TMDB 第二季13集与 Bangumi 标注一致。Bangumi 所给章节均缺少标题及放送日期，无法逐集交叉核验，因此仅建立整季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/226745 (api_snapshot): TMDB 226745 为动画剧集《Camp Snoopy》，营地剧情与输入一致；制作公司包括 WildBrain Studios，导演为 Rob Boutilier。季列表区分了2024年第一季与2026年第二季，第二季共13集。\n\nhttps://www.themoviedb.org/tv/226745/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1，共13集，每集22分钟、包含两个故事段落；首集为 Following in the Pawprints / Roughing It，末集为 The Sally Situation / Memory Book。全季日期均记录为2026-06-25，剧情属于同一季的营地冒险。\n\nhttps://www.apple.com/tv-pr/news/2026/06/attention-campers-apple-tv-debuts-delightful-trailer-for-camp-snoopy-season-two-premiering-globally-friday-june-26/ (page): Apple 官方确认《Camp Snoopy》第二季于2026年6月26日全球上线，由 Peanuts 与 WildBrain 制作、Rob Boutilier 执导；营地、沙堡及寻找传说动物等剧情与 TMDB 第二季一致。\n\n备注：TMDB 记录日期为2026-06-25，Apple 官方与 Bangumi 为2026-06-26；一天差异的原因尚未确认。；Bangumi 章节页面未能读取，输入中的13个章节亦无标题及日期；待补齐章节资料后才能确认逐集对应，不能仅按序号生成规则。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/659438; https://www.themoviedb.org/tv/226745; https://www.themoviedb.org/tv/226745/season/2; https://www.apple.com/tv-pr/news/2026/06/attention-campers-apple-tv-debuts-delightful-trailer-for-camp-snoopy-season-two-premiering-globally-friday-june-26/",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 226745
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

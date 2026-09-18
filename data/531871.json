@@ -206,12 +206,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、首播日期、剧情、制作公司、网络动画版本及40集范围相符，可确认对应 TMDB 282031 第1季整季。Bangumi 各章节缺少标题和日期，不能仅凭编号位置生成逐集规则，因此保留整季映射，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/282031 (api_snapshot): TMDB 282031 原名为《天命大主宰》，首播日期为2025-01-15；李万年在锦衣宗获得复活能力的剧情与 Bangumi 一致，制作公司包括 bilibili、若鸿文化。详情列出1季40集。\n\nhttps://www.themoviedb.org/tv/282031/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共40集，集号连续为1—40。前6集日期均为2025-01-15，末集《最终的胜利》日期为2025-05-14；未见混入其他作品或特别篇。\n\nhttps://www.bilibili.com/bangumi/media/md23678082 (page): 官方播放平台标明《天命大主宰》于2025年1月15日开播，已完结、全40话。\n\nhttps://bgm.tv/subject/531871 (search_snippet): Bangumi 标记该作为WEB动画，共40话，2025年1月15日首播；总导演为娄佳、笔落，动画制作为若鸿文化，出品方包括 bilibili、若鸿文化。\n\nhttps://bgm.tv/subject/531871/ep (page): Bangumi 章节页列出本篇1—40，但各章均未提供标题和播出日期，无法与 TMDB 集表进行独立的逐集核验。\n\n备注：尚未完成逐集标题或日期交叉核验；需要补充 Bangumi 章节资料后才能建立可靠的连续对应规则。；TMDB 演职员列表为空，无法独立核对导演和编剧；制作公司、剧情及发行信息已相符。",
+    "evidence": "codex: 作品年份、首播日期、剧情、制作公司、网络动画版本及40集范围相符，可确认对应 TMDB 282031 第1季整季。Bangumi 各章节缺少标题和日期，不能仅凭编号位置生成逐集规则，因此保留整季映射，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/282031 (api_snapshot): TMDB 282031 原名为《天命大主宰》，首播日期为2025-01-15；李万年在锦衣宗获得复活能力的剧情与 Bangumi 一致，制作公司包括 bilibili、若鸿文化。详情列出1季40集。\n\nhttps://www.themoviedb.org/tv/282031/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共40集，集号连续为1—40。前6集日期均为2025-01-15，末集《最终的胜利》日期为2025-05-14；未见混入其他作品或特别篇。\n\nhttps://www.bilibili.com/bangumi/media/md23678082 (page): 官方播放平台标明《天命大主宰》于2025年1月15日开播，已完结、全40话。\n\nhttps://bgm.tv/subject/531871 (search_snippet): Bangumi 标记该作为WEB动画，共40话，2025年1月15日首播；总导演为娄佳、笔落，动画制作为若鸿文化，出品方包括 bilibili、若鸿文化。\n\nhttps://bgm.tv/subject/531871/ep (page): Bangumi 章节页列出本篇1—40，但各章均未提供标题和播出日期，无法与 TMDB 集表进行独立的逐集核验。\n\n备注：尚未完成逐集标题或日期交叉核验；需要补充 Bangumi 章节资料后才能建立可靠的连续对应规则。；TMDB 演职员列表为空，无法独立核对导演和编剧；制作公司、剧情及发行信息已相符。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/531871; https://www.themoviedb.org/tv/282031; https://www.themoviedb.org/tv/282031/season/1; https://www.bilibili.com/bangumi/media/md23678082; https://bgm.tv/subject/531871/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 282031
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

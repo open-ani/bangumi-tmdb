@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 138955 第四季整季：输入的季度、发行日期、Peacock 平台与六集总量均吻合，外部集表还确认了剧情、配音阵容及版本身份。该范围属于《天空英雄》第四季，没有混入其他季度或电影。Bangumi 六个章节均缺少标题和播出日期，因此仅确认季级映射，不凭章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/138955 (api_snapshot): 原名搜索命中 TV 138955；详情确认该剧讲述 Dak、Leyla 与五条龙的救援冒险，共四季24集，第四季为2022年9月29日发行的六集。\n\nhttps://www.themoviedb.org/tv/138955/season/4 (api_snapshot): 第四季集表共一页、六集，全部日期为2022年9月29日，每集23分钟；内容依次涉及吞食金属的幼龙、失控机械龙、营救 Waldondo、马戏团往事、争夺居所和记忆消失。\n\nhttps://www.rottentomatoes.com/tv/dragons_rescue_riders_heroes_of_the_sky/s04 (page): 第四季页面确认 Peacock 平台、动画媒介、2022年9月29日发行及六集范围；逐集标题、剧情、日期与 TMDB 一致。主演 Nicolas Cantu、Brennley Brown 等也与 TMDB 相符，执行制片人为 Jack Thomas、Brian K. Roberts。\n\nhttps://www.peacocktv.com/watch-online/tv/dragons-rescue-riders-heroes-of-the-sky/4777532810018098112/seasons/4/episodes/full-metal-magnus-episode-1/42be5cae-5d8e-3111-9f55-e4dfa3a7c9f7 (search_snippet): Peacock 官方页面搜索摘要确认该作品第四季的集号及剧情，包括第一集金属吞食幼龙和第六集记忆消失事件；页面正文访问受到地区限制。\n\n备注：Bangumi 页面未能成功读取，所用 Bangumi 信息来自用户提供的快照。；尚无 Bangumi 各章节的独立内容标识；待补充标题、日期或可靠章节资料后，才能核实并填写逐集对应关系。",
+    "evidence": "codex: 可确认对应 TMDB 138955 第四季整季：输入的季度、发行日期、Peacock 平台与六集总量均吻合，外部集表还确认了剧情、配音阵容及版本身份。该范围属于《天空英雄》第四季，没有混入其他季度或电影。Bangumi 六个章节均缺少标题和播出日期，因此仅确认季级映射，不凭章节位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/138955 (api_snapshot): 原名搜索命中 TV 138955；详情确认该剧讲述 Dak、Leyla 与五条龙的救援冒险，共四季24集，第四季为2022年9月29日发行的六集。\n\nhttps://www.themoviedb.org/tv/138955/season/4 (api_snapshot): 第四季集表共一页、六集，全部日期为2022年9月29日，每集23分钟；内容依次涉及吞食金属的幼龙、失控机械龙、营救 Waldondo、马戏团往事、争夺居所和记忆消失。\n\nhttps://www.rottentomatoes.com/tv/dragons_rescue_riders_heroes_of_the_sky/s04 (page): 第四季页面确认 Peacock 平台、动画媒介、2022年9月29日发行及六集范围；逐集标题、剧情、日期与 TMDB 一致。主演 Nicolas Cantu、Brennley Brown 等也与 TMDB 相符，执行制片人为 Jack Thomas、Brian K. Roberts。\n\nhttps://www.peacocktv.com/watch-online/tv/dragons-rescue-riders-heroes-of-the-sky/4777532810018098112/seasons/4/episodes/full-metal-magnus-episode-1/42be5cae-5d8e-3111-9f55-e4dfa3a7c9f7 (search_snippet): Peacock 官方页面搜索摘要确认该作品第四季的集号及剧情，包括第一集金属吞食幼龙和第六集记忆消失事件；页面正文访问受到地区限制。\n\n备注：Bangumi 页面未能成功读取，所用 Bangumi 信息来自用户提供的快照。；尚无 Bangumi 各章节的独立内容标识；待补充标题、日期或可靠章节资料后，才能核实并填写逐集对应关系。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552125; https://www.themoviedb.org/tv/138955; https://www.themoviedb.org/tv/138955/season/4; https://www.rottentomatoes.com/tv/dragons_rescue_riders_heroes_of_the_sky/s04; https://www.peacocktv.com/watch-online/tv/dragons-rescue-riders-heroes-of-the-sky/4777532810018098112/seasons/4/episodes/full-metal-magnus-episode-1/42be5cae-5d8e-3111-9f55-e4dfa3a7c9f7",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 138955
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

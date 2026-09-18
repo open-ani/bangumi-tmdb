@@ -1,0 +1,101 @@
+{
+  "bangumiId": 659701,
+  "episodes": [
+    {
+      "id": 1703841,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1703842,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1703843,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1703844,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1703845,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1703846,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1703847,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1703848,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1703849,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1703850,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1703851,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1703852,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1703853,
+      "sort": 13,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 已确认作品及覆盖范围。Bangumi 的13话采用完整节目计数，TMDB 则拆分短篇，并将其中四个故事列入第11季；不能仅映射 TMDB 第12季。官方13话的全部故事均已通过标题、剧情及季首季末日期核实。由于 Bangumi 各章节标题和日期为空，尚不能独立确认章节 ID 的具体内容，故保留范围匹配，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/659701 (page): Bangumi 标为电视动画，共13话，播出范围为2025年7月18日至2026年3月5日；简介中的制作公司、Ryder及救援犬队剧情与候选一致。章节仅有序号。\n\nhttps://www.themoviedb.org/tv/57532 (api_snapshot): TMDB 57532 为2013年首播的《PAW Patrol》电视系列，制作公司包含 Spin Master、TVOKids、Nickelodeon Productions，人物及救援剧情一致。\n\nhttps://www.paramountplus.com/shows/paw-patrol/episodes/ (page): Paramount+ 第十二季列出13个完整节目：前两话各含两个短篇，第8、9话为单个长篇，其余各含两个短篇，共24个独立故事。逐项比对标题及剧情后，这24个故事分别位于 TMDB 第11季第41—42、47—48集及第12季第1—20集。\n\nhttps://www.themoviedb.org/tv/57532/season/11 (api_snapshot): 已读取第11季全部50集，total_pages=1。第41—42集对应官方第十二季第一话的两个短篇，日期均为2025年7月18日；第47—48集对应第二话的两个短篇，日期均为2025年8月8日。中间及其后的其他集不属于本 subject。\n\nhttps://www.themoviedb.org/tv/57532/season/12 (api_snapshot): 已读取第12季全部20集，total_pages=1。标题及剧情完整对应官方第十二季第3—13话；第11、12集为23分钟长篇，其余为11分钟短篇。末集日期为2026年3月5日。\n\nhttps://pawpatrol.fandom.com/wiki/Season_12 (search_snippet): 第十二季资料摘要给出的起止日期为2025年7月18日至2026年3月5日，与 Bangumi 一致。\n\n备注：Bangumi 的13个章节均缺少标题及播出日期；需补充章节内容后，才能建立一话对应一个或两个 TMDB 集的 overrides。；TMDB 与官方平台的部分单集日期不同；本次范围认定同时依据完整故事清单及剧情，不以日期或季号单独推断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/659701; https://www.themoviedb.org/tv/57532; https://www.paramountplus.com/shows/paw-patrol/episodes/; https://www.themoviedb.org/tv/57532/season/11; https://www.themoviedb.org/tv/57532/season/12; https://pawpatrol.fandom.com/wiki/Season_12",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 41,
+      "episodeEnd": 42,
+      "id": 57532,
+      "season": 11,
+      "type": "tv"
+    },
+    {
+      "episode": 47,
+      "episodeEnd": 48,
+      "id": 57532,
+      "season": 11,
+      "type": "tv"
+    },
+    {
+      "id": 57532,
+      "season": 12,
+      "type": "tv"
+    }
+  ]
+}

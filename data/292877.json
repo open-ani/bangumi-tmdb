@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 709 第10季整季。官方节目页、制作背景、动画媒介、20集范围及首末播出日期相互吻合。Bangumi 输入的各话标题和日期均为空，无法进行章节层面的逐集比对，因此仅确认整季归属，保留 rules 和 overrides 为空。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): 原名检索命中 TMDB 709；详情确认其为2005年开播的美国定格动画电视系列，内容为玩偶演出的流行文化恶搞短剧，制作公司包括 Williams Street、Stoopid Buddy Stoodios，配音包括 Seth Green、Matthew Senreich。\n\nhttps://www.themoviedb.org/tv/709/season/10 (api_snapshot): 已读取第10季全部集表，total_pages=1，共20集，编号1—20；实际首末集日期为2019-09-30、2020-07-27，与输入的 Bangumi 集数及放送范围一致。季级日期另标2019-09-29。第11集是圣诞谋杀特别篇，第20集为 Endgame。\n\nhttps://www.adultswim.com/videos/robot-chicken (page): Bangumi 指定的 Adult Swim 官方节目页将第10季列为20集；逐项核对其编号、标题及剧情，与 TMDB 第10季一致，包括编为第11集的圣诞特别篇及第20集 Endgame，未混入其他季或独立作品。\n\nhttps://press.wbd.com/us/synopses/robot-chicken-series-description?language_content_entity=en (search_snippet): 2019年官方第10季介绍确认本作为 Adult Swim 定格动画短剧电视系列，由 Seth Green、Matthew Senreich 创作并担任执行制片，Douglas Goldstein、Tom Root 为共同主笔。\n\n备注：Bangumi subject、章节页及 API 本次未能读取，Bangumi 信息依据用户提供的快照；补齐各话标题或日期后，才能核实逐集对应，不能仅按 sort 顺序填入规则。",
+    "evidence": "codex: 可确认对应 TMDB 709 第10季整季。官方节目页、制作背景、动画媒介、20集范围及首末播出日期相互吻合。Bangumi 输入的各话标题和日期均为空，无法进行章节层面的逐集比对，因此仅确认整季归属，保留 rules 和 overrides 为空。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): 原名检索命中 TMDB 709；详情确认其为2005年开播的美国定格动画电视系列，内容为玩偶演出的流行文化恶搞短剧，制作公司包括 Williams Street、Stoopid Buddy Stoodios，配音包括 Seth Green、Matthew Senreich。\n\nhttps://www.themoviedb.org/tv/709/season/10 (api_snapshot): 已读取第10季全部集表，total_pages=1，共20集，编号1—20；实际首末集日期为2019-09-30、2020-07-27，与输入的 Bangumi 集数及放送范围一致。季级日期另标2019-09-29。第11集是圣诞谋杀特别篇，第20集为 Endgame。\n\nhttps://www.adultswim.com/videos/robot-chicken (page): Bangumi 指定的 Adult Swim 官方节目页将第10季列为20集；逐项核对其编号、标题及剧情，与 TMDB 第10季一致，包括编为第11集的圣诞特别篇及第20集 Endgame，未混入其他季或独立作品。\n\nhttps://press.wbd.com/us/synopses/robot-chicken-series-description?language_content_entity=en (search_snippet): 2019年官方第10季介绍确认本作为 Adult Swim 定格动画短剧电视系列，由 Seth Green、Matthew Senreich 创作并担任执行制片，Douglas Goldstein、Tom Root 为共同主笔。\n\n备注：Bangumi subject、章节页及 API 本次未能读取，Bangumi 信息依据用户提供的快照；补齐各话标题或日期后，才能核实逐集对应，不能仅按 sort 顺序填入规则。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/292877; https://www.themoviedb.org/tv/709; https://www.themoviedb.org/tv/709/season/10; https://www.adultswim.com/videos/robot-chicken; https://press.wbd.com/us/synopses/robot-chicken-series-description?language_content_entity=en",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 10,
+      "start": 1,
+      "tmdbId": 709
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季序、开播日期、15集总量及前后续季日期相互吻合，可确认对应 TMDB 81665 第5季整季。逐集资料不足以验证章节顺序，因此仅确认季级范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 81665 第5季共15集，全部于2021-12-09放送，与 Bangumi 的季序、开播日期和总集数一致；第4季及第6季开播日期也分别与 Bangumi 前后续关系中的2021-06-17、2023-07-31一致。\n\nhttps://www.themoviedb.org/movie/421702 (api_snapshot): 同名电影候选发行于2017-04-16，其年份和电影媒介不符合本次2021年的15集第五季。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 集标题也仅为通用集号；无法独立核实逐集对应，需补充实际标题或章节放送资料。；Bangumi 未提供剧情及制作方信息，无法对这两项进行交叉核验。",
+    "evidence": "codex: 季序、开播日期、15集总量及前后续季日期相互吻合，可确认对应 TMDB 81665 第5季整季。逐集资料不足以验证章节顺序，因此仅确认季级范围，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 81665 第5季共15集，全部于2021-12-09放送，与 Bangumi 的季序、开播日期和总集数一致；第4季及第6季开播日期也分别与 Bangumi 前后续关系中的2021-06-17、2023-07-31一致。\n\nhttps://www.themoviedb.org/movie/421702 (api_snapshot): 同名电影候选发行于2017-04-16，其年份和电影媒介不符合本次2021年的15集第五季。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 集标题也仅为通用集号；无法独立核实逐集对应，需补充实际标题或章节放送资料。；Bangumi 未提供剧情及制作方信息，无法对这两项进行交叉核验。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439336; https://www.themoviedb.org/tv/81665; https://www.themoviedb.org/movie/421702",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 81665
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

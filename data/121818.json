@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 77239第1季整季。制作方资料明确版本区分，2014年TV版的12集标题与TMDB季表逐项相符，足以确认完整覆盖范围。Bangumi章节缺少标题和日期，因此保留季级映射，暂不按编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/121818 (page): Bangumi 将本作标为2014年TV动画，共12话，制作公司为CoMix Wave Films，播放结束日期为2014年7月3日；2013年作品及PARTII另列关联条目。\n\nhttps://www.cwfilms.jp/products/article/worldfoolnews.html (page): 制作公司官网明确区分2013年全6话网络版，以及2014年、2017年各12话TV版；作品由マシモユウ执导，描写高桥担任新闻主播后地方电视台的日常。\n\nhttps://www.themoviedb.org/tv/77239 (api_snapshot): TMDB 77239为《ワールド フールニュース》，共两季24集；第1季标为2014年12集，第2季标为2017年12集。\n\nhttps://www.themoviedb.org/tv/77239/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，total_pages=1，共12集，每集10分钟，日期为2014年4月17日至7月3日。英文标题依次对应2014年TV版12话，包括第8、9集JOYnt前后篇，不含2013年网络版或2017年续作。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-5k1ZOfaOliY&gdid=tvepisode-i7eQJBg4yzo&id=oIUebINpE5E (page): Google Play列出2014年版全部12集的日文标题、剧情和制作版权，标题顺序与TMDB英文集表逐项吻合。首两集日期分别为4月17日、4月24日，第3至12集日期比TMDB晚一天。\n\nhttps://bgm.tv/subject/121818/ep (page): Bangumi章节页只有本篇1至12的编号，未提供各集标题或播出日期，无法对具体章节进行独立的标题、日期比对。\n\n备注：Bangumi记载的开播日期为2014年4月24日，而TMDB及Google Play均将首集记为4月17日；现有证据支持保留完整12集，不支持剔除首集。；12个Bangumi章节尚未建立逐集对应；需补充章节标题、日期或其他能够识别各章节内容的证据。",
+    "evidence": "codex: 确认对应TMDB 77239第1季整季。制作方资料明确版本区分，2014年TV版的12集标题与TMDB季表逐项相符，足以确认完整覆盖范围。Bangumi章节缺少标题和日期，因此保留季级映射，暂不按编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/121818 (page): Bangumi 将本作标为2014年TV动画，共12话，制作公司为CoMix Wave Films，播放结束日期为2014年7月3日；2013年作品及PARTII另列关联条目。\n\nhttps://www.cwfilms.jp/products/article/worldfoolnews.html (page): 制作公司官网明确区分2013年全6话网络版，以及2014年、2017年各12话TV版；作品由マシモユウ执导，描写高桥担任新闻主播后地方电视台的日常。\n\nhttps://www.themoviedb.org/tv/77239 (api_snapshot): TMDB 77239为《ワールド フールニュース》，共两季24集；第1季标为2014年12集，第2季标为2017年12集。\n\nhttps://www.themoviedb.org/tv/77239/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，total_pages=1，共12集，每集10分钟，日期为2014年4月17日至7月3日。英文标题依次对应2014年TV版12话，包括第8、9集JOYnt前后篇，不含2013年网络版或2017年续作。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-5k1ZOfaOliY&gdid=tvepisode-i7eQJBg4yzo&id=oIUebINpE5E (page): Google Play列出2014年版全部12集的日文标题、剧情和制作版权，标题顺序与TMDB英文集表逐项吻合。首两集日期分别为4月17日、4月24日，第3至12集日期比TMDB晚一天。\n\nhttps://bgm.tv/subject/121818/ep (page): Bangumi章节页只有本篇1至12的编号，未提供各集标题或播出日期，无法对具体章节进行独立的标题、日期比对。\n\n备注：Bangumi记载的开播日期为2014年4月24日，而TMDB及Google Play均将首集记为4月17日；现有证据支持保留完整12集，不支持剔除首集。；12个Bangumi章节尚未建立逐集对应；需补充章节标题、日期或其他能够识别各章节内容的证据。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/121818; https://www.cwfilms.jp/products/article/worldfoolnews.html; https://www.themoviedb.org/tv/77239; https://www.themoviedb.org/tv/77239/season/1; https://play.google.com/store/tv/show?cdid=tvseason-5k1ZOfaOliY&gdid=tvepisode-i7eQJBg4yzo&id=oIUebINpE5E; https://bgm.tv/subject/121818/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77239
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

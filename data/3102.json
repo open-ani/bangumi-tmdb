@@ -1,16 +1,86 @@
 {
   "anidbId": 4513,
   "bangumiId": 3102,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 22040,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 22041,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 22042,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 22043,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 22044,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 22045,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 22046,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 22047,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 22048,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 22049,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 22050,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 22051,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 3102 明确是 2006 年《くじびき♥アンバランス》TV 版，12 集，2006-10-06 开播；页面标注为 TV，并与《げんしけん OVA》及另一条《くじびきアンバランス》区分。AniDB 4513 对应同名 2006 TV Series，明确为 12 集，年份和主要标题一致。TMDB 20736 的主条目为同名日语 TV 作品，2006 年开播、共 12 集；第 1 季明确包含 12 集，剧集标题和日期与该 TV 版逐集对应。因此采用 TMDB 20736 第 1 季完整 12 集。TMDB 的特别编 season 0 为 2004 年 3 集，不属于本 Bangumi subject。\n\nhttps://bgm.tv/subject/3102 (page): Bangumi 条目标识为《くじびき♥アンバランス》TV，中文名“不公正抽签”，12 集，2006-10-06 开播；关联信息将其与《げんし研 OVA》和另一条《くじびきアンバランス》区分。\n\nhttps://anidb.net/anime/4513 (page): AniDB 4513 的正式标题为 くじびき♥アンバランス / Kujibiki Unbalance (2006)，类型为 TV Series、12 episodes，年份为 2006，并列出 Bangumi 使用的同名及别名。\n\nhttps://www.themoviedb.org/tv/20736 (api_snapshot): TMDB 20736 为同名日语 TV 作品，first_air_date 为 2006-10-07，number_of_episodes 为 12；季列表显示 season 0 为 2004 年特别编、season 1 为 2006 年 12 集。\n\nhttps://www.themoviedb.org/tv/20736/season/1 (api_snapshot): TMDB 第 1 季 season_number=1、episodeCount=12；第 1 至第 12 集的标题、日期和剧情分别对应 Bangumi 3102 的 12 个正篇章节。\n\n备注：Bangumi 记录的首播日为 2006-10-06，而 AniDB/TMDB 记录为 2006-10-07，属于日期记录差异；不影响作品版本和集数对应。",
+    "evidence": "codex: 确认对应 TMDB 20736 第 1 季全部 12 集。年份、媒介、新版剧情、主要声优及实际季表共同确认其为 2006 年 TV 版。逐集标题、分数、总量及日期比对支持本篇 1—12 顺序一一对应；2004 年 OVA 不纳入本映射。\n\nhttps://bgm.tv/subject/3102 (page): Bangumi 标明本条目为 2006 年 TV 动画，共 12 集，导演水島努、动画制作亜細亜堂；剧情为榎本千寻被抽中成为下一届学生会会长候选。\n\nhttps://dengekionline.com/data/news/2006/9/15/a3a20f224094f3cdbc0ed52a44cf80c1.html (page): 同期报道确认 TV 版重新设计角色与故事，区别于此前 DVD 附赠 OVA；首播为 2006 年 10 月 6 日 24:00，导演水島努，主演包括瀧本富士子、野中藍、小清水亜美。\n\nhttps://bgm.tv/subject/3100 (page): 另一个条目 3100 为 2004 年起发行的 3 集 OVA，导演池端隆史、动画制作パルム，主要角色声优与 2006 年 TV 版不同。\n\nhttps://www.themoviedb.org/tv/20736 (api_snapshot): TMDB 20736 的年份、学生会候选人剧情与主要声优对应 2006 年 TV 版；季列表将 2006 年 12 集列为第 1 季，将 2004 年起的 3 集另列为第 0 季。不过作品级导演及制作公司字段混有旧 OVA 信息。\n\nhttps://www.themoviedb.org/tv/20736/season/1 (api_snapshot): 已读取第 1 季完整集表，episodeCount=12、total_pages=1。第 1—12 集与输入章节顺序对应，11 集标题正文及分数相符；第 5 集标题仅有「かわる／わかる」差异且日期同为 11 月 3 日。第 1—4 集日期比 Bangumi 晚一天，第 5—6、10—12 集日期相同，第 7—9 集比输入晚七天。季内无额外 OVA 或其他作品。\n\n备注：TMDB 作品级导演池端隆史、Palm Studio 属于旧 OVA 信息，与 TV 版制作资料冲突；第 1 季的实际内容和新版声优仍能明确识别版本。；首播 10 月 6 日 24:00 可解释 10 月 6／7 日的记日差异。输入第 7—9 集日期比 TMDB 早七天，未独立裁定这三集的正确首播日；标题明确对应，不影响集号映射。；第 5 集输入标题为「ともだちがわかるかもしれない」，TMDB 为「ともだちがかわるかもしれない」；疑为录入差异，未独立裁定标题文字。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3102; https://anidb.net/anime/4513; https://www.themoviedb.org/tv/20736; https://www.themoviedb.org/tv/20736/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3102; https://dengekionline.com/data/news/2006/9/15/a3a20f224094f3cdbc0ed52a44cf80c1.html; https://bgm.tv/subject/3100; https://www.themoviedb.org/tv/20736; https://www.themoviedb.org/tv/20736/season/1",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 20736
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

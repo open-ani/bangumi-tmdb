@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、集数、季序、制作方及前作日期相互吻合，可确认 subject 覆盖 TMDB 87007 第6季整季。Bangumi 各章节缺少标题与放送日期，无法逐集核对，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): 候选为中国动画《武动乾坤》，制作公司包含腾讯、阅文及幻维数码，与 Bangumi 制作信息相符。第6季首播日期为2025-11-20，共12集，与 subject 的首播日期、季序及集数一致。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): 候选第5季首播日期为2025-01-01，与 Bangumi 前作《武动乾坤 第五季》的日期一致。第6季季表完整列出第1至12集，但标题均为通用集号。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能确认逐集对应关系。；TMDB 第6季第4至12集均标为2025-12-04，无法凭这些日期与通用集号验证章节顺序。；候选未提供分季剧情，无法独立核对“宗派传承”篇的具体剧情。",
+    "evidence": "codex: 首播日期、集数、季序、制作方及前作日期相互吻合，可确认 subject 覆盖 TMDB 87007 第6季整季。Bangumi 各章节缺少标题与放送日期，无法逐集核对，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): 候选为中国动画《武动乾坤》，制作公司包含腾讯、阅文及幻维数码，与 Bangumi 制作信息相符。第6季首播日期为2025-11-20，共12集，与 subject 的首播日期、季序及集数一致。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): 候选第5季首播日期为2025-01-01，与 Bangumi 前作《武动乾坤 第五季》的日期一致。第6季季表完整列出第1至12集，但标题均为通用集号。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能确认逐集对应关系。；TMDB 第6季第4至12集均标为2025-12-04，无法凭这些日期与通用集号验证章节顺序。；候选未提供分季剧情，无法独立核对“宗派传承”篇的具体剧情。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/535075; https://www.themoviedb.org/tv/87007",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 87007
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

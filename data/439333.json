@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应 TMDB 81665 第三季整季。输入中的版本、网络发行媒介、12集总量、2020年12月10日至24日的发行范围及前后季关系均吻合，TMDB 集表完整覆盖该季剧情动画，没有混入其他季或短片。逐集规则暂留空：Bangumi 的12个章节均缺少标题与播出日期，无法进行章节层面的交叉比对，不能仅按序号建立对应。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 81665 为2018年开播的美国动画系列《Summer Camp Island》，制作公司为 Cartoon Network Studios，剧情围绕 Oscar 与 Hedgehog 在魔法夏令营的经历；季列表明确列出2020年12月10日开始、共12集的第三季。\n\nhttps://www.themoviedb.org/tv/81665/season/3 (api_snapshot): 第三季真实集表共12集，total_pages=1。第1—4集为 Susie and Ramona 篇，日期均为2020年12月10日；第5—7集为 Puddle and the King 篇，日期均为12月17日；第8—12集为 Yeti Confetti 篇，日期均为12月24日。每集11分钟。\n\nhttps://www.juliapott.com/animation/summercampisland (page): 创作者官网确认该作品由 Julia Pott 创作，是在 Cartoon Network 和 HBO Max 播出的六季儿童动画系列，主角为 Oscar 与 Hedgehog，内容涉及魔法生物。\n\nhttps://en.wikipedia.org/wiki/Summer_Camp_Island (page): 系列资料确认第三季在 HBO Max 发行，共12集，起止日期为2020年12月10日至12月24日；第二季和第四季的发行日期也分别与输入中的前后续作一致。\n\n备注：Bangumi 网页及 API 本次未能读取，Bangumi 侧依据为用户提供的快照。；需要补充 Bangumi 各章节的标题或播出日期，才能核实其顺序并填写 rules；当前仅确认作品与整季范围。",
+    "evidence": "codex: 可确认对应 TMDB 81665 第三季整季。输入中的版本、网络发行媒介、12集总量、2020年12月10日至24日的发行范围及前后季关系均吻合，TMDB 集表完整覆盖该季剧情动画，没有混入其他季或短片。逐集规则暂留空：Bangumi 的12个章节均缺少标题与播出日期，无法进行章节层面的交叉比对，不能仅按序号建立对应。\n\nhttps://www.themoviedb.org/tv/81665 (api_snapshot): TMDB 81665 为2018年开播的美国动画系列《Summer Camp Island》，制作公司为 Cartoon Network Studios，剧情围绕 Oscar 与 Hedgehog 在魔法夏令营的经历；季列表明确列出2020年12月10日开始、共12集的第三季。\n\nhttps://www.themoviedb.org/tv/81665/season/3 (api_snapshot): 第三季真实集表共12集，total_pages=1。第1—4集为 Susie and Ramona 篇，日期均为2020年12月10日；第5—7集为 Puddle and the King 篇，日期均为12月17日；第8—12集为 Yeti Confetti 篇，日期均为12月24日。每集11分钟。\n\nhttps://www.juliapott.com/animation/summercampisland (page): 创作者官网确认该作品由 Julia Pott 创作，是在 Cartoon Network 和 HBO Max 播出的六季儿童动画系列，主角为 Oscar 与 Hedgehog，内容涉及魔法生物。\n\nhttps://en.wikipedia.org/wiki/Summer_Camp_Island (page): 系列资料确认第三季在 HBO Max 发行，共12集，起止日期为2020年12月10日至12月24日；第二季和第四季的发行日期也分别与输入中的前后续作一致。\n\n备注：Bangumi 网页及 API 本次未能读取，Bangumi 侧依据为用户提供的快照。；需要补充 Bangumi 各章节的标题或播出日期，才能核实其顺序并填写 rules；当前仅确认作品与整季范围。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/439333; https://www.themoviedb.org/tv/81665; https://www.themoviedb.org/tv/81665/season/3; https://www.juliapott.com/animation/summercampisland; https://en.wikipedia.org/wiki/Summer_Camp_Island",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 81665
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

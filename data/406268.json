@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认 subject 对应 TMDB 1434《Family Guy》第15季整季：电视动画版本、首播日期、20集总量和首集具体剧情相符，实际季表范围完整。输入的 Bangumi 各章节均缺少标题和播出日期，无法逐集交叉核验，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 以英文原名 Family Guy 搜索后读取 TV 1434 详情，确认是围绕 Griffin 一家的电视动画，制作公司及 Seth MacFarlane 等主要配音与官方资料一致；第十五季列为2016-09-25首播、20集。\n\nhttps://www.themoviedb.org/tv/1434/season/15 (api_snapshot): 实际读取第十五季全部集表，total_pages=1，共20集，集号连续为1—20。首集《The Boys in the Band》于2016-09-25播出，儿童乐队及 Chris 为 Quagmire 工作的两条剧情均与输入摘要一致；末集为《A House Full of Peters》。\n\nhttps://api.themoviedb.org/3/find/tt5774946?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 IMDb tt5774946，返回 TV 1434 第15季第1集，TMDB episode ID 为1225227；该线索指向单集而非独立作品。\n\nhttps://www.foxflash.com/shows/family-guy/info/ (page): FOX 官方资料确认本作为电视动画，创作者及主要配音为 Seth MacFarlane，并列出 Alex Borstein、Seth Green、Mila Kunis 等配音与制作信息。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_15 (search_snippet): 第十五季资料确认在 FOX 播出，共20集，播出范围为2016-09-25至2017-05-21，人物和制作人员与所核对系列一致。\n\n备注：Bangumi 网页及章节 API 本次访问失败；逐集判断只能依赖输入快照，而其中20个章节均无标题和日期。需要补充章节资料后才能建立连续对应规则。；TMDB 将第19、20集日期记录为2017-05-22，外部季资料记载美国播出结束日为2017-05-21；该日期差异不影响整季身份判断。",
+    "evidence": "codex: 可确认 subject 对应 TMDB 1434《Family Guy》第15季整季：电视动画版本、首播日期、20集总量和首集具体剧情相符，实际季表范围完整。输入的 Bangumi 各章节均缺少标题和播出日期，无法逐集交叉核验，因此仅确认整季范围，保留 rules 与 overrides 为空。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 以英文原名 Family Guy 搜索后读取 TV 1434 详情，确认是围绕 Griffin 一家的电视动画，制作公司及 Seth MacFarlane 等主要配音与官方资料一致；第十五季列为2016-09-25首播、20集。\n\nhttps://www.themoviedb.org/tv/1434/season/15 (api_snapshot): 实际读取第十五季全部集表，total_pages=1，共20集，集号连续为1—20。首集《The Boys in the Band》于2016-09-25播出，儿童乐队及 Chris 为 Quagmire 工作的两条剧情均与输入摘要一致；末集为《A House Full of Peters》。\n\nhttps://api.themoviedb.org/3/find/tt5774946?external_source=imdb_id (api_snapshot): 通过 tmdb_find 查询 IMDb tt5774946，返回 TV 1434 第15季第1集，TMDB episode ID 为1225227；该线索指向单集而非独立作品。\n\nhttps://www.foxflash.com/shows/family-guy/info/ (page): FOX 官方资料确认本作为电视动画，创作者及主要配音为 Seth MacFarlane，并列出 Alex Borstein、Seth Green、Mila Kunis 等配音与制作信息。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_15 (search_snippet): 第十五季资料确认在 FOX 播出，共20集，播出范围为2016-09-25至2017-05-21，人物和制作人员与所核对系列一致。\n\n备注：Bangumi 网页及章节 API 本次访问失败；逐集判断只能依赖输入快照，而其中20个章节均无标题和日期。需要补充章节资料后才能建立连续对应规则。；TMDB 将第19、20集日期记录为2017-05-22，外部季资料记载美国播出结束日为2017-05-21；该日期差异不影响整季身份判断。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/406268; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/15; https://api.themoviedb.org/3/find/tt5774946?external_source=imdb_id; https://www.foxflash.com/shows/family-guy/info/; https://en.wikipedia.org/wiki/Family_Guy_season_15",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 15,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

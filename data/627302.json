@@ -100,12 +100,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季别、首播日期和总集数共同支持对应 TV 72468 第 3 季整季。Bangumi 章节标题和日期全部为空，无法核实逐集顺序，因此只确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/72468 (api_snapshot): 候选 TV 72468 的第 3 季共 19 集，首播日期为 2019-07-07，与 Bangumi 的第三季标识、开播日期及本篇集数一致；季表完整列出第 1—19 集。\n\n备注：候选集标题均为编号占位，需补充双方实际集标题或 Bangumi 逐集放送日期，才能确认逐集对应。；候选未提供剧情及主创资料，无法进一步交叉核对 Bangumi 简介与导演、编剧信息。",
+    "evidence": "codex: 季别、首播日期和总集数共同支持对应 TV 72468 第 3 季整季。Bangumi 章节标题和日期全部为空，无法核实逐集顺序，因此只确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/72468 (api_snapshot): 候选 TV 72468 的第 3 季共 19 集，首播日期为 2019-07-07，与 Bangumi 的第三季标识、开播日期及本篇集数一致；季表完整列出第 1—19 集。\n\n备注：候选集标题均为编号占位，需补充双方实际集标题或 Bangumi 逐集放送日期，才能确认逐集对应。；候选未提供剧情及主创资料，无法进一步交叉核对 Bangumi 简介与导演、编剧信息。\n\n脚本按声明范围生成逐集规则：19 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/627302; https://www.themoviedb.org/tv/72468",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 72468
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

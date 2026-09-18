@@ -156,12 +156,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 20757 第3季整季：年份、TV媒介、制作公司、新城及德莉娅剧情，以及官方29集正篇加1集附加篇的内容范围相符。Bangumi章节缺少标题和日期，不能仅凭30个编号建立逐集对应，因此保留季级映射，rules和overrides留空。\n\nhttps://bgm.tv/subject/38704 (page): Bangumi 标注本作为2010年7月6日开播的30集TV动画、系列第三作；制作包含シンエイ動画，剧情为尤娜与史迪奇迁入冲绳新城，并与德莉娅及改造实验品交战。\n\nhttps://www.themoviedb.org/tv/20757 (api_snapshot): TMDB 20757 为日本动画《スティッチ!》，制作公司包含 Shin-Ei Animation；第三季名称与本 subject 一致，首播日期为2010-07-06，收录30集。\n\nhttps://www.themoviedb.org/tv/20757/season/3 (api_snapshot): 实际读取第三季日文及英文集表，均为30集、共1页。英文标题和剧情对应本作：第1集迁往新城，第23集与莉萝重逢，第29集为 Dark-End，第30集为 Ace's Back。第5—30集日期记为2012年，与日本首播资料不符。\n\nhttps://www.disney.co.jp/studio/animation/1116/products (page): 迪士尼官方DVD资料列出前半15集、后半14集，以及地上波未播附加集「ヒーローはつらいよ」，合计30集；标题和内容范围与TMDB第三季一致。\n\nhttps://en.wikipedia.org/wiki/List_of_Stitch!_episodes (page): 日英集名对照将 Dark-End 对应本作正篇结局，将 Ace's Back 对应「ヒーローはつらいよ」；2012年《砂之惑星》和2015年《Perfect Memory》另列为后续特别篇，未混入此次TMDB第三季30集表。\n\nhttps://bangumi.tv/subject/38704/ep (page): Bangumi 章节页仅有1—30的本篇编号，各章均无标题及放送日期，无法确认这些编号采用哪一种收录顺序。\n\n备注：Bangumi各章节的具体内容及附加篇位置尚未确认；需补充章节标题或日期后才能建立逐集映射。；TMDB第5—30集的2012年日期与日本首播资料冲突，不能用于逐集日期匹配。",
+    "evidence": "codex: 确认对应 TMDB 20757 第3季整季：年份、TV媒介、制作公司、新城及德莉娅剧情，以及官方29集正篇加1集附加篇的内容范围相符。Bangumi章节缺少标题和日期，不能仅凭30个编号建立逐集对应，因此保留季级映射，rules和overrides留空。\n\nhttps://bgm.tv/subject/38704 (page): Bangumi 标注本作为2010年7月6日开播的30集TV动画、系列第三作；制作包含シンエイ動画，剧情为尤娜与史迪奇迁入冲绳新城，并与德莉娅及改造实验品交战。\n\nhttps://www.themoviedb.org/tv/20757 (api_snapshot): TMDB 20757 为日本动画《スティッチ!》，制作公司包含 Shin-Ei Animation；第三季名称与本 subject 一致，首播日期为2010-07-06，收录30集。\n\nhttps://www.themoviedb.org/tv/20757/season/3 (api_snapshot): 实际读取第三季日文及英文集表，均为30集、共1页。英文标题和剧情对应本作：第1集迁往新城，第23集与莉萝重逢，第29集为 Dark-End，第30集为 Ace's Back。第5—30集日期记为2012年，与日本首播资料不符。\n\nhttps://www.disney.co.jp/studio/animation/1116/products (page): 迪士尼官方DVD资料列出前半15集、后半14集，以及地上波未播附加集「ヒーローはつらいよ」，合计30集；标题和内容范围与TMDB第三季一致。\n\nhttps://en.wikipedia.org/wiki/List_of_Stitch!_episodes (page): 日英集名对照将 Dark-End 对应本作正篇结局，将 Ace's Back 对应「ヒーローはつらいよ」；2012年《砂之惑星》和2015年《Perfect Memory》另列为后续特别篇，未混入此次TMDB第三季30集表。\n\nhttps://bangumi.tv/subject/38704/ep (page): Bangumi 章节页仅有1—30的本篇编号，各章均无标题及放送日期，无法确认这些编号采用哪一种收录顺序。\n\n备注：Bangumi各章节的具体内容及附加篇位置尚未确认；需补充章节标题或日期后才能建立逐集映射。；TMDB第5—30集的2012年日期与日本首播资料冲突，不能用于逐集日期匹配。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/38704; https://www.themoviedb.org/tv/20757; https://www.themoviedb.org/tv/20757/season/3; https://www.disney.co.jp/studio/animation/1116/products; https://en.wikipedia.org/wiki/List_of_Stitch!_episodes; https://bangumi.tv/subject/38704/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 20757
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

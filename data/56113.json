@@ -191,12 +191,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 258068 第1季整季。作品形式、漫画来源、角色与制作资料均吻合，37集及首末播出日期完全一致，第1季未混入2015年续作。逐集资料缺乏可辨识标题和Bangumi单集日期，因此仅确认整季范围，不凭编号位置生成连续规则。\n\nhttps://bgm.tv/subject/56113 (page): Bangumi 确认为2013年电视动画，共37话，播出范围为2013-04-06至2013-12-14；简介说明其为漫画改编、在《ヴァンガ道》第2期内播出的短篇动画，并将《みにヴぁん 2》列为续集。\n\nhttps://www.themoviedb.org/tv/258068 (api_snapshot): TMDB 258068 原名为「みにヴぁん」，别名包含「みにヴァン」和「Mini Vanguard」，首播2013-04-06，简介为漫画改编的Flash动画。第1季37集；2015-10-03开始的26集另列第2季。\n\nhttps://www.themoviedb.org/tv/258068/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共37集，编号1至37，均约3分钟；日期从2013-04-06每周递增至2013-12-14。标题仅为「第1話」至「第37話」，没有剧情简介。\n\nhttps://www.allcinema.net/cinema/pdf/345671 (page): 2013年版资料确认其为《卡片战斗!! 先导者》角色的Q版Flash短篇喜剧，2013-04-06在东京电视台开播；原作Quily、导演谷東、人物设计内山翠、动画制作DLE，与Bangumi的版本及部分制作人员相符。\n\n备注：输入中的Bangumi章节均无播出日期，前6话仅数字标题，其余标题为空；TMDB也只有通用集号标题，尚不足以独立确认逐集顺序。rules与overrides留空，后续可用官方分集播出记录或各话内容补证。",
+    "evidence": "codex: 确认对应 TMDB 258068 第1季整季。作品形式、漫画来源、角色与制作资料均吻合，37集及首末播出日期完全一致，第1季未混入2015年续作。逐集资料缺乏可辨识标题和Bangumi单集日期，因此仅确认整季范围，不凭编号位置生成连续规则。\n\nhttps://bgm.tv/subject/56113 (page): Bangumi 确认为2013年电视动画，共37话，播出范围为2013-04-06至2013-12-14；简介说明其为漫画改编、在《ヴァンガ道》第2期内播出的短篇动画，并将《みにヴぁん 2》列为续集。\n\nhttps://www.themoviedb.org/tv/258068 (api_snapshot): TMDB 258068 原名为「みにヴぁん」，别名包含「みにヴァン」和「Mini Vanguard」，首播2013-04-06，简介为漫画改编的Flash动画。第1季37集；2015-10-03开始的26集另列第2季。\n\nhttps://www.themoviedb.org/tv/258068/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共37集，编号1至37，均约3分钟；日期从2013-04-06每周递增至2013-12-14。标题仅为「第1話」至「第37話」，没有剧情简介。\n\nhttps://www.allcinema.net/cinema/pdf/345671 (page): 2013年版资料确认其为《卡片战斗!! 先导者》角色的Q版Flash短篇喜剧，2013-04-06在东京电视台开播；原作Quily、导演谷東、人物设计内山翠、动画制作DLE，与Bangumi的版本及部分制作人员相符。\n\n备注：输入中的Bangumi章节均无播出日期，前6话仅数字标题，其余标题为空；TMDB也只有通用集号标题，尚不足以独立确认逐集顺序。rules与overrides留空，后续可用官方分集播出记录或各话内容补证。\n\n脚本按声明范围生成逐集规则：37 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/56113; https://www.themoviedb.org/tv/258068; https://www.themoviedb.org/tv/258068/season/1; https://www.allcinema.net/cinema/pdf/345671",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 37,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 258068
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

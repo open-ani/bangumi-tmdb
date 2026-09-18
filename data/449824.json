@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、动画媒介、制作公司、26集规模及续作分季日期相互吻合，可确认对应 TMDB 235830 第1季整季。逐集信息不足且排期存在冲突，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/235830 (api_snapshot): 该候选为动画作品，制作公司为广州奥飞文化传播有限公司；第1季首播日期为2023-08-11，共26集，与 subject 的首播日期、制作方及集数一致。第2季首播日期为2023-12-28，共26集，与 Bangumi 所列续作《星缘蝶启2》的首播日期一致，支持本 subject 对应第1季。\n\nhttps://www.themoviedb.org/tv/235830 (api_snapshot): 第1季各集标题均为编号占位名，放送日期按周排列，从2023-08-11延续至2024-02-02，与 Bangumi 标注的每天播出存在冲突。\n\n备注：Bangumi 26个章节均缺少标题和放送日期，TMDB 标题也仅为编号占位名，无法核实逐集顺序。；需补充实际分集标题或可靠播出记录，核对 TMDB 每周排期与 Bangumi 每天播出的差异后，再建立逐集映射。",
+    "evidence": "codex: 首播日期、动画媒介、制作公司、26集规模及续作分季日期相互吻合，可确认对应 TMDB 235830 第1季整季。逐集信息不足且排期存在冲突，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/235830 (api_snapshot): 该候选为动画作品，制作公司为广州奥飞文化传播有限公司；第1季首播日期为2023-08-11，共26集，与 subject 的首播日期、制作方及集数一致。第2季首播日期为2023-12-28，共26集，与 Bangumi 所列续作《星缘蝶启2》的首播日期一致，支持本 subject 对应第1季。\n\nhttps://www.themoviedb.org/tv/235830 (api_snapshot): 第1季各集标题均为编号占位名，放送日期按周排列，从2023-08-11延续至2024-02-02，与 Bangumi 标注的每天播出存在冲突。\n\n备注：Bangumi 26个章节均缺少标题和放送日期，TMDB 标题也仅为编号占位名，无法核实逐集顺序。；需补充实际分集标题或可靠播出记录，核对 TMDB 每周排期与 Bangumi 每天播出的差异后，再建立逐集映射。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/449824; https://www.themoviedb.org/tv/235830",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 235830
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

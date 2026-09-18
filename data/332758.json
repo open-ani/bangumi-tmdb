@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 12225 第四季整季：电视动画版本、剧情角色、单集时长、52 集总量及首尾播出日期一致。Bangumi 章节缺少标题和日期，无法逐集核对顺序，因此只确认季级范围，不生成按位置推定的逐集规则。\n\nhttps://bgm.tv/subject/332758 (page): Bangumi 标为 TV《小猪佩奇 第四季》，52 话，播出范围为 2011-05-23 至 2012-12-28；剧情为佩奇、乔治及家人朋友的日常生活，每集约 5 分钟。章节列表只有编号，缺少标题与单集日期。\n\nhttps://www.themoviedb.org/tv/12225 (api_snapshot): TMDB 12225 为英国原版电视动画 Peppa Pig，2004-05-31 首播，中文别名包含“小猪佩奇”；剧情角色与 Bangumi 一致，制作公司包含 Astley Baker Davies。第四季列为 2011 年、52 集，与其他衍生系列可区分。\n\nhttps://www.themoviedb.org/tv/12225/season/4 (api_snapshot): 实际读取第四季完整集表，total_pages=1，共 52 集，集号连续为 1—52，每集 5 分钟；首集 Potato City 日期为 2011-05-23，末集 Pirate Treasure 日期为 2012-12-28。整季内容、集数与播出范围均符合 Bangumi 主体。\n\n备注：52 个 Bangumi 章节均缺少标题和播出日期；需补充可核验的章节资料后才能建立逐集对应。",
+    "evidence": "codex: 确认对应 TMDB 12225 第四季整季：电视动画版本、剧情角色、单集时长、52 集总量及首尾播出日期一致。Bangumi 章节缺少标题和日期，无法逐集核对顺序，因此只确认季级范围，不生成按位置推定的逐集规则。\n\nhttps://bgm.tv/subject/332758 (page): Bangumi 标为 TV《小猪佩奇 第四季》，52 话，播出范围为 2011-05-23 至 2012-12-28；剧情为佩奇、乔治及家人朋友的日常生活，每集约 5 分钟。章节列表只有编号，缺少标题与单集日期。\n\nhttps://www.themoviedb.org/tv/12225 (api_snapshot): TMDB 12225 为英国原版电视动画 Peppa Pig，2004-05-31 首播，中文别名包含“小猪佩奇”；剧情角色与 Bangumi 一致，制作公司包含 Astley Baker Davies。第四季列为 2011 年、52 集，与其他衍生系列可区分。\n\nhttps://www.themoviedb.org/tv/12225/season/4 (api_snapshot): 实际读取第四季完整集表，total_pages=1，共 52 集，集号连续为 1—52，每集 5 分钟；首集 Potato City 日期为 2011-05-23，末集 Pirate Treasure 日期为 2012-12-28。整季内容、集数与播出范围均符合 Bangumi 主体。\n\n备注：52 个 Bangumi 章节均缺少标题和播出日期；需补充可核验的章节资料后才能建立逐集对应。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/332758; https://www.themoviedb.org/tv/12225; https://www.themoviedb.org/tv/12225/season/4",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 12225
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

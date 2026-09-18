@@ -175,12 +175,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季次、首播日期、34集规模及前后季关系共同支持对应TMDB 119873第6季整季。Bangumi逐集标题和日期全部为空，无法核实逐集顺序，因此保留季级映射，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 《阿衰》（119873）第6季首播日期为2021-10-02，共34集，与Bangumi条目的季次、首播日期及本篇集数一致；候选为中国动画剧集。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 候选第5季、第7季首播日期分别为2021-06-12、2022-01-29，与Bangumi前作、续作的日期一致。第6季完整列出第1—34集，日期范围为2021-10-02至2022-01-29。\n\n备注：候选未提供剧情与制作方信息，无法交叉核验这些字段。；TMDB第6季标题均为通用集号，Bangumi亦无逐集标题或日期；需补充可比对的逐集资料后才能确认章节对应。",
+    "evidence": "codex: 季次、首播日期、34集规模及前后季关系共同支持对应TMDB 119873第6季整季。Bangumi逐集标题和日期全部为空，无法核实逐集顺序，因此保留季级映射，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 《阿衰》（119873）第6季首播日期为2021-10-02，共34集，与Bangumi条目的季次、首播日期及本篇集数一致；候选为中国动画剧集。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 候选第5季、第7季首播日期分别为2021-06-12、2022-01-29，与Bangumi前作、续作的日期一致。第6季完整列出第1—34集，日期范围为2021-10-02至2022-01-29。\n\n备注：候选未提供剧情与制作方信息，无法交叉核验这些字段。；TMDB第6季标题均为通用集号，Bangumi亦无逐集标题或日期；需补充可比对的逐集资料后才能确认章节对应。\n\n脚本按声明范围生成逐集规则：34 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/370350; https://www.themoviedb.org/tv/119873",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 34,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 119873
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

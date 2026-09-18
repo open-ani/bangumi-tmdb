@@ -76,12 +76,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品剧情、制作公司、续作年份、开播日及14集范围共同支持对应TMDB 137365第2季整季。逐集映射暂留空：Bangumi章节缺少标题和日期，TMDB也仅有通用集号，其逐周单集日期与首播两集的报道存在差异，不能仅按位置建立61–74到1–14的规则。\n\nhttps://bangumi.tv/subject/525800 (page): Bangumi 标明本作为2024年12月1日开播的14集WEB动画，章节编号61–74；原作为平生未知寒，导演李廷赫，由腾讯视频、索以科技制作。\n\nhttps://www.themoviedb.org/tv/137365 (api_snapshot): TMDB 137365 的原名、李扶摇与朝青秋相关剧情及腾讯视频、Soyep制作公司均吻合；系列始于2021年，第2季标为2024年12月1日开始、14集。\n\nhttps://www.themoviedb.org/tv/137365/season/2 (api_snapshot): 实际读取第2季完整集表，total_pages=1，共14集，编号1–14；标题均为通用集号，日期从2024年12月1日按周排列至2025年3月2日，没有分集剧情。\n\nhttps://www.themoviedb.org/tv/137365/season/1 (api_snapshot): 读取第1季集表第2页（total_pages=2），其中61–74集的日期为2022年5月18日至8月17日，与本作2024年复更时间不符，不能仅凭相同集号映射。\n\nhttps://www.sohu.com/a/832182621_121118944 (page): 上线报道确认第二季于2024年12月1日腾讯视频独播，腾讯视频出品、索以科技承制、平生未知寒原作；报道明确首播两集，之后每周日更新，并有加更点映。\n\nhttps://home.gamer.com.tw/artwork.php?sn=6048699 (search_snippet): 复更报道摘要明确12月1日起播出第61集之后的内容，新增14集、全剧达到74集，支持本subject的全局集数范围。\n\n备注：需取得腾讯视频逐集标题、发布日期或内容证据，进一步核实全局61–74与TMDB第2季1–14的逐集关系。；TMDB第1季额外列有日期为2022年的61–74集，存在疑似重复收录或日期错误；本次未采用这些集。",
+    "evidence": "codex: 作品剧情、制作公司、续作年份、开播日及14集范围共同支持对应TMDB 137365第2季整季。逐集映射暂留空：Bangumi章节缺少标题和日期，TMDB也仅有通用集号，其逐周单集日期与首播两集的报道存在差异，不能仅按位置建立61–74到1–14的规则。\n\nhttps://bangumi.tv/subject/525800 (page): Bangumi 标明本作为2024年12月1日开播的14集WEB动画，章节编号61–74；原作为平生未知寒，导演李廷赫，由腾讯视频、索以科技制作。\n\nhttps://www.themoviedb.org/tv/137365 (api_snapshot): TMDB 137365 的原名、李扶摇与朝青秋相关剧情及腾讯视频、Soyep制作公司均吻合；系列始于2021年，第2季标为2024年12月1日开始、14集。\n\nhttps://www.themoviedb.org/tv/137365/season/2 (api_snapshot): 实际读取第2季完整集表，total_pages=1，共14集，编号1–14；标题均为通用集号，日期从2024年12月1日按周排列至2025年3月2日，没有分集剧情。\n\nhttps://www.themoviedb.org/tv/137365/season/1 (api_snapshot): 读取第1季集表第2页（total_pages=2），其中61–74集的日期为2022年5月18日至8月17日，与本作2024年复更时间不符，不能仅凭相同集号映射。\n\nhttps://www.sohu.com/a/832182621_121118944 (page): 上线报道确认第二季于2024年12月1日腾讯视频独播，腾讯视频出品、索以科技承制、平生未知寒原作；报道明确首播两集，之后每周日更新，并有加更点映。\n\nhttps://home.gamer.com.tw/artwork.php?sn=6048699 (search_snippet): 复更报道摘要明确12月1日起播出第61集之后的内容，新增14集、全剧达到74集，支持本subject的全局集数范围。\n\n备注：需取得腾讯视频逐集标题、发布日期或内容证据，进一步核实全局61–74与TMDB第2季1–14的逐集关系。；TMDB第1季额外列有日期为2022年的61–74集，存在疑似重复收录或日期错误；本次未采用这些集。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/525800; https://bangumi.tv/subject/525800; https://www.themoviedb.org/tv/137365; https://www.themoviedb.org/tv/137365/season/2; https://www.themoviedb.org/tv/137365/season/1; https://www.sohu.com/a/832182621_121118944; https://home.gamer.com.tw/artwork.php?sn=6048699",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 74,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 61,
+      "tmdbId": 137365
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

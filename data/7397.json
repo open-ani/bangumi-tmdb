@@ -1,16 +1,76 @@
 {
   "anidbId": 4492,
   "bangumiId": 7397,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 43722,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 43725,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 43727,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 43728,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 43729,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 149862,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 149863,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 149865,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 149866,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 149868,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 7397 的 AniDB ID 为 4492，名称与《貧乏姉妹物語》对应。TMDB TV 36523 的日文原名、2006 年首播年份、姐妹生活困境简介及 10 集结构均匹配；第 1 季的 10 个完整剧集标题与 Bangumi 主体的 10 个正篇标题逐集吻合。因此对应完整第 1 季。\n\nhttps://bgm.tv/subject/7397 (page): Bangumi 资料显示主体为《貧乏姉妹物語》，2006 年播出，共 10 集，并列出原作、系列监督、人物设定及东映动画等制作信息；关联 AniDB ID 为 4492。\n\nhttps://www.themoviedb.org/tv/36523 (api_snapshot): TMDB TV 36523 的日文原名为「貧乏姉妹物語」，首播年份为 2006 年，简介描述山田きょう与山田あす两姐妹；第 1 季共 10 集。\n\nhttps://www.themoviedb.org/tv/36523/season/1 (api_snapshot): TMDB 第 1 季包含 10 集，完整剧集标题与 Bangumi 的 10 个正篇标题逐集吻合。\n\n备注：Bangumi 与 TMDB 的播出日期存在整体错位及个别延期差异，但标题、剧情简介和集数结构均一致，未构成版本不一致证据。",
+    "evidence": "codex: 确认对应TMDB 36523完整第1季。年份、TV媒介、剧情、制作公司、监督及10集规模一致；全部10话日文标题逐集完全吻合，官方集表亦确认相同顺序，因此本篇1—10话可连续对应S01E01—S01E10。日期存在记录差异，但不影响由完整标题与集数共同确认的逐集身份。\n\nhttps://bgm.tv/subject/7397 (page): Bangumi 标明本作为2006年播出的10集TV动画，原作为かずといずみ，系列监督为貝澤幸男，动画制作为东映动画；剧情描述父亲失踪、母亲去世后相依为命的山田姐妹。\n\nhttps://www.themoviedb.org/tv/36523 (api_snapshot): 日文原名搜索命中后，实际读取作品详情：TMDB 36523 为2006年《貧乏姉妹物語》，仅1季、共10集；监督貝澤幸男、东映动画及山田姐妹的角色和生活背景均与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/36523/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共10集。第1至10集日文标题与输入的Bangumi第1至10话逐集完全一致，顺序相同。TMDB日期依次为2006-06-30、07-07、07-14、07-28、08-04、08-18、08-25、09-01、09-08、09-15。\n\nhttps://www.toei-anim.co.jp/tv/binboushimai/episode/list/ (search_snippet): 东映官方集表搜索摘要列出相同的10话标题及顺序，日期依次为2006-06-29、07-06、07-13、07-27、08-10、08-17、08-24、08-31、09-07、09-14。除第5话日期另有冲突外，其余各话与TMDB相差一天。网页直接访问返回403，此处依据搜索摘要。\n\nhttps://www.toei-anim.co.jp/50th/50/main.html (search_snippet): 东映官方公告说明本作为かずといずみ漫画改编的电视动画，于2006年6月29日26时40分在朝日电视台开播，支持首播日期6月29日与自然日6月30日的差异。\n\n备注：输入中第4—10话的日期与官方集表不一致，不能作为准确的实际播出日期使用。；第5话官方集表摘要记为2006-08-10，TMDB记为2006-08-04，无法仅以跨午夜解释；该日期冲突尚未解决，但其标题、集号和所属版本均一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/7397; https://www.themoviedb.org/tv/36523; https://www.themoviedb.org/tv/36523/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/7397; https://www.themoviedb.org/tv/36523; https://www.themoviedb.org/tv/36523/season/1; https://www.toei-anim.co.jp/tv/binboushimai/episode/list/; https://www.toei-anim.co.jp/50th/50/main.html",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36523
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

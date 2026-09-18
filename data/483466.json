@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、平台、剧情、动画版本、制作与演员资料及10集规模相互吻合，可确认该 subject 覆盖 TMDB 111312 第1季整季。Bangumi 各章节缺少标题和日期，无法独立核实逐集顺序，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/483466 (page): Bangumi 标注本作为 Hulu 网络动画，共10话，2021年5月21日开播；剧情为魔多客的 A.I.M. 破产后遭遇中年危机。章节仅显示01至10，没有可供比对的标题。\n\nhttps://www.themoviedb.org/tv/111312 (api_snapshot): TMDB 111312 的原名、首播日期及 A.I.M. 经营失败与家庭危机剧情均吻合；制作公司包括 Marvel Television、Stoopid Buddy Stoodios，主演为 Patton Oswalt，IMDb 为 tt9811118，全剧1季10集。\n\nhttps://www.themoviedb.org/tv/111312/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共10集，集号1至10，日期均为2021年5月21日；内容从 A.I.M. 被收购延续至家庭危机的季终，没有混入其他作品。\n\nhttps://www.marvel.com/articles/tv-shows/modok-hulu-premiere-date (search_snippet): Marvel 官方宣布本剧10集于2021年5月21日在 Hulu 一次上线，创作为 Jordan Blum、Patton Oswalt，主演及剧情与 TMDB 资料一致。\n\nhttps://www.marvel.com/articles/culture-lifestyle/asked-answered-women-of-marvel-creative-team-marvels-modok (search_snippet): Marvel 官方制作团队访谈确认本作为使用人偶拍摄的成人定格动画，并于2021年5月21日全数上线 Hulu，支持媒介与版本识别。\n\n备注：Bangumi 的10个章节均无标题和放送日期；不能仅按序号生成一一对应关系，需补充章节资料后再核实。",
+    "evidence": "codex: 年份、平台、剧情、动画版本、制作与演员资料及10集规模相互吻合，可确认该 subject 覆盖 TMDB 111312 第1季整季。Bangumi 各章节缺少标题和日期，无法独立核实逐集顺序，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/483466 (page): Bangumi 标注本作为 Hulu 网络动画，共10话，2021年5月21日开播；剧情为魔多客的 A.I.M. 破产后遭遇中年危机。章节仅显示01至10，没有可供比对的标题。\n\nhttps://www.themoviedb.org/tv/111312 (api_snapshot): TMDB 111312 的原名、首播日期及 A.I.M. 经营失败与家庭危机剧情均吻合；制作公司包括 Marvel Television、Stoopid Buddy Stoodios，主演为 Patton Oswalt，IMDb 为 tt9811118，全剧1季10集。\n\nhttps://www.themoviedb.org/tv/111312/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共10集，集号1至10，日期均为2021年5月21日；内容从 A.I.M. 被收购延续至家庭危机的季终，没有混入其他作品。\n\nhttps://www.marvel.com/articles/tv-shows/modok-hulu-premiere-date (search_snippet): Marvel 官方宣布本剧10集于2021年5月21日在 Hulu 一次上线，创作为 Jordan Blum、Patton Oswalt，主演及剧情与 TMDB 资料一致。\n\nhttps://www.marvel.com/articles/culture-lifestyle/asked-answered-women-of-marvel-creative-team-marvels-modok (search_snippet): Marvel 官方制作团队访谈确认本作为使用人偶拍摄的成人定格动画，并于2021年5月21日全数上线 Hulu，支持媒介与版本识别。\n\n备注：Bangumi 的10个章节均无标题和放送日期；不能仅按序号生成一一对应关系，需补充章节资料后再核实。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/483466; https://www.themoviedb.org/tv/111312; https://www.themoviedb.org/tv/111312/season/1; https://www.marvel.com/articles/tv-shows/modok-hulu-premiere-date; https://www.marvel.com/articles/culture-lifestyle/asked-answered-women-of-marvel-creative-team-marvels-modok",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 111312
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

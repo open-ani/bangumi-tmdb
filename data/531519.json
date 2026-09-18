@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、6集总量、制作方及前后续作日期共同支持对应 TMDB 97819 第6季，整季范围可以确认。Bangumi 六个章节均缺少标题和放送日期，无法完成逐集交叉核对，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/97819 (api_snapshot): TMDB 97819 第6季于2021-10-23首播，共6集，与 Bangumi 的首播日期、季序和集数一致；制作公司厦门翼下之风与 Bangumi 所列製作“翼下之风”相符。第5季、第7季首播日期也分别与 Bangumi 前后续作一致。\n\nhttps://www.themoviedb.org/tv/272171 (api_snapshot): 《那年那兔那些事儿-风雨百年》第1季为2021-05-04开播的10集内容，其逐集日期与97819第8季一致；首播日期和集数均不符合本 subject。\n\n备注：逐集映射待补充 Bangumi 章节标题或放送日期后核实；目前不能仅凭章节位置建立1至6集的连续对应关系。",
+    "evidence": "codex: 首播日期、6集总量、制作方及前后续作日期共同支持对应 TMDB 97819 第6季，整季范围可以确认。Bangumi 六个章节均缺少标题和放送日期，无法完成逐集交叉核对，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/97819 (api_snapshot): TMDB 97819 第6季于2021-10-23首播，共6集，与 Bangumi 的首播日期、季序和集数一致；制作公司厦门翼下之风与 Bangumi 所列製作“翼下之风”相符。第5季、第7季首播日期也分别与 Bangumi 前后续作一致。\n\nhttps://www.themoviedb.org/tv/272171 (api_snapshot): 《那年那兔那些事儿-风雨百年》第1季为2021-05-04开播的10集内容，其逐集日期与97819第8季一致；首播日期和集数均不符合本 subject。\n\n备注：逐集映射待补充 Bangumi 章节标题或放送日期后核实；目前不能仅凭章节位置建立1至6集的连续对应关系。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/531519; https://www.themoviedb.org/tv/97819; https://www.themoviedb.org/tv/272171",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 97819
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

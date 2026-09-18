@@ -85,12 +85,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 版本线索、CBN 关联、季号、16集规模及播出时间范围共同支持对应 TMDB 44931 第5季整季。Bangumi 逐集标题和日期均为空，候选标题也只有通用集号，因此只确认整季归属，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/44931 (api_snapshot): TMDB 44931 是2011年开播的美国动画《Superbook》，制作公司为 CBN Animation，与 Bangumi 的 Reimagined 版本别名及 CBN 播出信息相符。其第5季共16集，日期覆盖2019-09-06至2021-05-04；Bangumi 同为第5季16集，标注2019-09-01至2021-05-04，结束日期一致，开始日期相差5天。\n\n备注：两端首播日期相差5天，现有数据无法解释差异。；缺少可核对的逐集标题及 Bangumi 逐集日期；TMDB 第5季日期也不按集号递增，不能据位置生成连续映射。；候选未提供剧情、导演及具体动画承制公司资料，无法逐项交叉核实。",
+    "evidence": "codex: 版本线索、CBN 关联、季号、16集规模及播出时间范围共同支持对应 TMDB 44931 第5季整季。Bangumi 逐集标题和日期均为空，候选标题也只有通用集号，因此只确认整季归属，保留逐集映射为空。\n\nhttps://www.themoviedb.org/tv/44931 (api_snapshot): TMDB 44931 是2011年开播的美国动画《Superbook》，制作公司为 CBN Animation，与 Bangumi 的 Reimagined 版本别名及 CBN 播出信息相符。其第5季共16集，日期覆盖2019-09-06至2021-05-04；Bangumi 同为第5季16集，标注2019-09-01至2021-05-04，结束日期一致，开始日期相差5天。\n\n备注：两端首播日期相差5天，现有数据无法解释差异。；缺少可核对的逐集标题及 Bangumi 逐集日期；TMDB 第5季日期也不按集号递增，不能据位置生成连续映射。；候选未提供剧情、导演及具体动画承制公司资料，无法逐项交叉核实。\n\n脚本按声明范围生成逐集规则：16 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/526754; https://www.themoviedb.org/tv/44931",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 44931
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

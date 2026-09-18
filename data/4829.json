@@ -1,14 +1,48 @@
 {
   "anidbId": 7926,
   "bangumiId": 4829,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 34705,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 65976,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 34705,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 46179,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 65976,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 46179,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为 OVA，共 2 话，并明确两话标题、日期及第二话为总集性质的特别篇；其制作人员、Studio Barcelona/diomedéa 与主线 TV 条目关系也与《こどものじかん》一致。Anime-Lists 明确将 AniDB 7926（Kodomo no Jikan OAD）映射到 TMDB TV 46179 第 0 季。TMDB 第 0 季 E1 标题与 Bangumi 第 1 话完全对应，E2“りんの学級日誌”简介明确为 TV 系列重编辑特别篇，对应 Bangumi 第 2 话“りんの学級日誌（特別編）”。因此纳入第 0 季第 1–2 集，不纳入同季其他 OVA。\n\nhttps://bgm.tv/subject/4829 (page): Bangumi 条目类型为 OVA，共 2 话；发售/播出时间为 2007-09-12 至 2008-07-11；制作人为菅沼栄治、岡田麿里，动画制作 Studio Barcelona（现 diomedéa），并关联主线《こどものじかん》。\n\nhttps://bgm.tv/ep/34705 (page): Bangumi 第 1 话标题为“～あなたがわたしにくれたもの～”，首播日期 2007-09-12。\n\nhttps://bgm.tv/ep/65976 (page): Bangumi 第 2 话标题为“りんの学級日誌（特別編）”，首播日期 2008-07-11，并注明为 TV 系列重编辑特别篇。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (search_snippet): Anime-Lists 条目 anidbid=7926、名称 Kodomo no Jikan OAD，映射 tmdbtv=46179、tmdbseason=0。\n\nhttps://www.themoviedb.org/tv/46179 (api_snapshot): TMDB TV 46179 名称为 こどものじかん，包含第 0 季特別編，共 4 集。\n\nhttps://www.themoviedb.org/tv/46179/season/0 (api_snapshot): TMDB 第 0 季 E1 标题为“～あなたがわたしにくれたもの～”；E2 标题为“りんの学級日誌”，简介说明其为 TV 系列重编辑特别篇；E3、E4 是其他 OVA，故不纳入本 Bangumi 两话主体。\n\n备注：AniDB 原始页面无法直接读取（403），但 AniDB 标题、Anime-Lists 映射及 Bangumi 条目/分集信息彼此吻合。；Bangumi 与 TMDB 的第 1 话日期不同，且 TMDB E2 的日期字段缺失；不影响标题、内容性质和集数范围判断。",
+    "evidence": "codex: 确认对应TMDB 46179第0季第1–2集。作品年份、角色、制作人员一致，两话标题逐一对应，第2话的发行日期与总集篇性质亦完全一致。该Bangumi本身包含一话剧情OVA及一话重编辑特别篇，因此两者均纳入；同季另外两部OVA不属于本条目。\n\nhttps://bgm.tv/subject/4829 (page): 条目为两话 OAD，分别随漫画第4、5卷限定版发行，时间为2007-09-12至2008-07-11；导演菅沼栄治、脚本岡田麿里、动画制作Studio Barcelona（现diomedéa）。\n\nhttps://bgm.tv/ep/34705 (page): 第1话标题为「～あなたがわたしにくれたもの～」，日期为2007-09-12。\n\nhttps://bgm.tv/ep/65976 (page): 第2话为「りんの学級日誌（特別編）」，日期2008-07-11，简介明确为TV系列重新编辑的特别篇。\n\nhttps://www.themoviedb.org/tv/46179 (api_snapshot): 日文原名搜索找到TV 46179；详情确认其为2007年作品，角色为青木大介、九重りん等，导演菅沼栄治、编剧岡田麿里、制作公司diomedéa，与Bangumi的系列及制作信息一致。\n\nhttps://www.themoviedb.org/tv/46179/season/0 (api_snapshot): 第0季完整集表共4集，仅1页。E1为「～あなたがわたしにくれたもの～」，25分钟，剧情为三人为大介准备生日礼物，日期2007-09-21；E2为「りんの学級日誌」，89分钟，日期2008-07-11，简介明确为TV系列重编辑特别篇。E3、E4分别为2009年及2011年的其他OVA。\n\n备注：第1话日期存在差异：Bangumi为2007-09-12，TMDB为2007-09-21，差异原因尚未确认；标题及系列身份明确，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4829; https://bgm.tv/ep/34705; https://bgm.tv/ep/65976; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/46179; https://www.themoviedb.org/tv/46179/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/4829; https://bgm.tv/ep/34705; https://bgm.tv/ep/65976; https://www.themoviedb.org/tv/46179; https://www.themoviedb.org/tv/46179/season/0",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
   "rules": [],
   "schemaVersion": 1,

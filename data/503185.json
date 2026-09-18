@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 第二季标识、首播日期、40集总量、更新星期及前作关系共同支持对应 TMDB 233613 第2季整季。逐集缺少可交叉核对的标题与日期，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/233613 (api_snapshot): 候选《奶龙爆笑嘉年华》第2季共40集，首播日期为2024-07-10，与 Bangumi 的第二季标识、首播日期及本篇集数一致；第11至40集的日期符合周一、周三、周五更新安排。\n\nhttps://www.themoviedb.org/tv/233613 (api_snapshot): 候选第1季首播日期为2023-07-06，与 Bangumi 关联前作《奶龙爆笑嘉年华》的日期一致，支持本条目对应第2季。\n\n备注：Bangumi 全部章节的标题与日期为空，TMDB 标题均为集号占位文本；需补充逐集标题或放送日期后确认章节对应。；候选未提供剧情简介和制作公司信息，无法核对这两项。",
+    "evidence": "codex: 第二季标识、首播日期、40集总量、更新星期及前作关系共同支持对应 TMDB 233613 第2季整季。逐集缺少可交叉核对的标题与日期，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/233613 (api_snapshot): 候选《奶龙爆笑嘉年华》第2季共40集，首播日期为2024-07-10，与 Bangumi 的第二季标识、首播日期及本篇集数一致；第11至40集的日期符合周一、周三、周五更新安排。\n\nhttps://www.themoviedb.org/tv/233613 (api_snapshot): 候选第1季首播日期为2023-07-06，与 Bangumi 关联前作《奶龙爆笑嘉年华》的日期一致，支持本条目对应第2季。\n\n备注：Bangumi 全部章节的标题与日期为空，TMDB 标题均为集号占位文本；需补充逐集标题或放送日期后确认章节对应。；候选未提供剧情简介和制作公司信息，无法核对这两项。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/503185; https://www.themoviedb.org/tv/233613",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 233613
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

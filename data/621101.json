@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、第二季标识、开播日期、10集规模及前作日期相互吻合，可确认对应 TMDB 98494 第2季整季。Bangumi 逐集标题和日期均为空，无法独立核实逐集顺序，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/98494 (api_snapshot): 候选 Glitch Techs 第2季共10集，各集放送日期均为2020-08-17，与 Bangumi 第二季的开播日期及总集数一致；候选第1季于2020-02-21开播，也与 Bangumi 关联前作日期一致。\n\n备注：Bangumi 缺少剧情与制作方信息，无法交叉核对这些字段。；Bangumi 各集缺少标题和日期，TMDB 标题也仅为通用集号；需补充逐集资料后才能确认章节对应关系。",
+    "evidence": "codex: 作品名称、第二季标识、开播日期、10集规模及前作日期相互吻合，可确认对应 TMDB 98494 第2季整季。Bangumi 逐集标题和日期均为空，无法独立核实逐集顺序，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/98494 (api_snapshot): 候选 Glitch Techs 第2季共10集，各集放送日期均为2020-08-17，与 Bangumi 第二季的开播日期及总集数一致；候选第1季于2020-02-21开播，也与 Bangumi 关联前作日期一致。\n\n备注：Bangumi 缺少剧情与制作方信息，无法交叉核对这些字段。；Bangumi 各集缺少标题和日期，TMDB 标题也仅为通用集号；需补充逐集资料后才能确认章节对应关系。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/621101; https://www.themoviedb.org/tv/98494",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 98494
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

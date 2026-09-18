@@ -56,12 +56,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 136935第1季整季。年份、地区首播排期、电视短篇形式、10集总量、制作公司、导演及角色声优相互吻合，实际季表完整覆盖该subject主体。Bangumi输入中的10个章节均缺标题和播出日期，无法完成章节级逐项比对，因此暂不填写连续规则或特例。\n\nhttps://bangumi.tv/subject/366528 (search_snippet): Bangumi 条目为2021年电视动画，共10话，12月6日至17日周一至周五播出；导演兼脚本为加藤道哉，动画制作为サイクロングラフィックス。\n\nhttps://www.themoviedb.org/tv/136935 (api_snapshot): 日文原名搜索命中136935；详情确认原名及罗马字别名、2021年12月6日至17日、1季10集、CYCLONE GRAPHICS、导演加藤道哉，以及滝藤賢一饰マル、水樹奈々饰マドンナ。详情简介为空，未据此声称剧情一致。\n\nhttps://www.themoviedb.org/tv/136935/season/1 (api_snapshot): 第1季实际集表共10集，total_pages=1；第1至10集均为3分钟，日期依次为2021年12月6、7、8、9、10、13、14、15、16、17日；标题仅为第1話至第10話。\n\nhttps://mantan-web.jp/article/20211022dog00m200031000c.html (page): 2021年报道确认该作是NHK松山纪念企划的电视动画，讲述猫マル在爱媛冒险，由加藤道哉执导、サイクロングラフィックス制作；爱媛首播为12月6至10日、13至17日，每日一集，全10话、每话约3分钟。全国播出从12月19日开始，解释了其他资料的日期差异。\n\nhttps://www.nhk-ondemand.jp/goods/G2025146370SA000/?capid=sns001 (search_snippet): NHK另有标为「特別編」的30分钟节目，剧情涉及アンナ收养マル及スリジエ到来；本次核实的TMDB季表为10个3分钟分集，不包含该30分钟特别编。\n\n备注：作品及整季范围已确认；逐集映射留空。需补充Bangumi各章节标题、日期或其他可核验的章节内容后，才能建立rules，不能仅凭sort位置推定。",
+    "evidence": "codex: 确认对应TMDB 136935第1季整季。年份、地区首播排期、电视短篇形式、10集总量、制作公司、导演及角色声优相互吻合，实际季表完整覆盖该subject主体。Bangumi输入中的10个章节均缺标题和播出日期，无法完成章节级逐项比对，因此暂不填写连续规则或特例。\n\nhttps://bangumi.tv/subject/366528 (search_snippet): Bangumi 条目为2021年电视动画，共10话，12月6日至17日周一至周五播出；导演兼脚本为加藤道哉，动画制作为サイクロングラフィックス。\n\nhttps://www.themoviedb.org/tv/136935 (api_snapshot): 日文原名搜索命中136935；详情确认原名及罗马字别名、2021年12月6日至17日、1季10集、CYCLONE GRAPHICS、导演加藤道哉，以及滝藤賢一饰マル、水樹奈々饰マドンナ。详情简介为空，未据此声称剧情一致。\n\nhttps://www.themoviedb.org/tv/136935/season/1 (api_snapshot): 第1季实际集表共10集，total_pages=1；第1至10集均为3分钟，日期依次为2021年12月6、7、8、9、10、13、14、15、16、17日；标题仅为第1話至第10話。\n\nhttps://mantan-web.jp/article/20211022dog00m200031000c.html (page): 2021年报道确认该作是NHK松山纪念企划的电视动画，讲述猫マル在爱媛冒险，由加藤道哉执导、サイクロングラフィックス制作；爱媛首播为12月6至10日、13至17日，每日一集，全10话、每话约3分钟。全国播出从12月19日开始，解释了其他资料的日期差异。\n\nhttps://www.nhk-ondemand.jp/goods/G2025146370SA000/?capid=sns001 (search_snippet): NHK另有标为「特別編」的30分钟节目，剧情涉及アンナ收养マル及スリジエ到来；本次核实的TMDB季表为10个3分钟分集，不包含该30分钟特别编。\n\n备注：作品及整季范围已确认；逐集映射留空。需补充Bangumi各章节标题、日期或其他可核验的章节内容后，才能建立rules，不能仅凭sort位置推定。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/366528; https://bangumi.tv/subject/366528; https://www.themoviedb.org/tv/136935; https://www.themoviedb.org/tv/136935/season/1; https://mantan-web.jp/article/20211022dog00m200031000c.html; https://www.nhk-ondemand.jp/goods/G2025146370SA000/?capid=sns001",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 136935
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

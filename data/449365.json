@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、剧情设定、动画媒介及26集季范围相符，可确认对应 TMDB 283322 第1季。Bangumi 各章节均无标题和放送日期，无法逐集核对，因此仅确定整季归属，不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/283322 (api_snapshot): 候选原名为《失业魔王》，为中国动画，首播日期为2025-02-05；简介中魔王为解除诅咒，与失业勇者共同冒险的设定与 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/283322 (api_snapshot): 候选仅列第1季，共26集，已抓取第1至26集，季首播日期为2025-02-05，与 Bangumi 的首播日期及26集主体范围一致，未见混入其他作品的迹象。\n\n备注：逐集映射需补充 Bangumi 章节标题或放送日期；候选各集标题也仅为通用集号。；Bangumi 标注星期三更新，候选后续多数集日期为星期五，排期差异尚无法核实。；候选制作公司为 Skyloong，输入未提供其与 Bangumi 所列海天云龙的名称对应证明。",
+    "evidence": "codex: 原名、首播日期、剧情设定、动画媒介及26集季范围相符，可确认对应 TMDB 283322 第1季。Bangumi 各章节均无标题和放送日期，无法逐集核对，因此仅确定整季归属，不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/283322 (api_snapshot): 候选原名为《失业魔王》，为中国动画，首播日期为2025-02-05；简介中魔王为解除诅咒，与失业勇者共同冒险的设定与 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/283322 (api_snapshot): 候选仅列第1季，共26集，已抓取第1至26集，季首播日期为2025-02-05，与 Bangumi 的首播日期及26集主体范围一致，未见混入其他作品的迹象。\n\n备注：逐集映射需补充 Bangumi 章节标题或放送日期；候选各集标题也仅为通用集号。；Bangumi 标注星期三更新，候选后续多数集日期为星期五，排期差异尚无法核实。；候选制作公司为 Skyloong，输入未提供其与 Bangumi 所列海天云龙的名称对应证明。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/449365; https://www.themoviedb.org/tv/283322",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283322
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

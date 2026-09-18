@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、集数及放送星期一致，支持 subject 对应候选第1季完整20集。Bangumi 各集标题与日期均为空，无法逐集交叉核实，因此仅声明整季范围，不按序号推定逐集规则。\n\nhttps://www.themoviedb.org/tv/306929 (api_snapshot): 候选为中国动画《全能高手》，首播日期为2025-11-01，与 Bangumi 一致；唯一列出的第1季共20集，与 Bangumi 本篇总数一致。季表前两集同日首播，其后每周六更新至2026-03-07，与 Bangumi 标注的星期六放送相符。\n\n备注：候选未提供剧情简介及制作方信息，无法核对剧情、制作归属及更细的版本信息。；逐集映射需补充 Bangumi 各集标题、放送日期或其他明确的章节对应证据。",
+    "evidence": "codex: 名称、首播日期、动画媒介、集数及放送星期一致，支持 subject 对应候选第1季完整20集。Bangumi 各集标题与日期均为空，无法逐集交叉核实，因此仅声明整季范围，不按序号推定逐集规则。\n\nhttps://www.themoviedb.org/tv/306929 (api_snapshot): 候选为中国动画《全能高手》，首播日期为2025-11-01，与 Bangumi 一致；唯一列出的第1季共20集，与 Bangumi 本篇总数一致。季表前两集同日首播，其后每周六更新至2026-03-07，与 Bangumi 标注的星期六放送相符。\n\n备注：候选未提供剧情简介及制作方信息，无法核对剧情、制作归属及更细的版本信息。；逐集映射需补充 Bangumi 各集标题、放送日期或其他明确的章节对应证据。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/605854; https://www.themoviedb.org/tv/306929",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 306929
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

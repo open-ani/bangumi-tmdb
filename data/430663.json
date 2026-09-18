@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 1434 第21季整季。季度编号、电视动画媒介、20集总量及首尾播出日期均与 Bangumi 输入一致，官方剧情和配音资料亦支持作品身份，季表未混入其他作品。Bangumi 章节仅有序号，标题和播出日期全部为空，无法完成章节级逐集比对，因此仅确认整季范围，不凭位置生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 以英文原名 Family Guy 搜索并读取详情，确认 TMDB 1434 是1999年首播、围绕 Griffin 家庭展开的美国电视动画；制作公司包括 Fuzzy Door Productions、20th Television Animation，主要配音包括 Seth MacFarlane、Alex Borstein 等。\n\nhttps://www.themoviedb.org/tv/1434/season/21 (api_snapshot): 实际读取第21季完整集表，total_pages=1，共20集，集号连续为1—20；首集 Oscars Guy 于2022-09-25播出，末集 Adult Education 于2023-05-07播出，与输入的季度起止日期和总集数一致。\n\nhttps://www.foxflash.com/releases/view/week-of-sep-18-25-2022 (page): FOX 官方节目资料确认2022-09-25播出季首集 Oscars Guy，内容为对三部奥斯卡获奖电影的戏仿，剧情及配音阵容与 TMDB 相符。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_21 (page): 季度资料确认本作是 Family Guy 第21个播出季，共20集，播出时间为2022-09-25至2023-05-07；制作负责人为 Richard Appel 和 Alec Sulkin，故事延续 Griffin 家庭。\n\n备注：Bangumi 页面访问失败，未能补充章节标题或日期；20个章节的逐集对应暂留空，需取得可核验的章节资料后补充。",
+    "evidence": "codex: 确认对应 TMDB 1434 第21季整季。季度编号、电视动画媒介、20集总量及首尾播出日期均与 Bangumi 输入一致，官方剧情和配音资料亦支持作品身份，季表未混入其他作品。Bangumi 章节仅有序号，标题和播出日期全部为空，无法完成章节级逐集比对，因此仅确认整季范围，不凭位置生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): 以英文原名 Family Guy 搜索并读取详情，确认 TMDB 1434 是1999年首播、围绕 Griffin 家庭展开的美国电视动画；制作公司包括 Fuzzy Door Productions、20th Television Animation，主要配音包括 Seth MacFarlane、Alex Borstein 等。\n\nhttps://www.themoviedb.org/tv/1434/season/21 (api_snapshot): 实际读取第21季完整集表，total_pages=1，共20集，集号连续为1—20；首集 Oscars Guy 于2022-09-25播出，末集 Adult Education 于2023-05-07播出，与输入的季度起止日期和总集数一致。\n\nhttps://www.foxflash.com/releases/view/week-of-sep-18-25-2022 (page): FOX 官方节目资料确认2022-09-25播出季首集 Oscars Guy，内容为对三部奥斯卡获奖电影的戏仿，剧情及配音阵容与 TMDB 相符。\n\nhttps://en.wikipedia.org/wiki/Family_Guy_season_21 (page): 季度资料确认本作是 Family Guy 第21个播出季，共20集，播出时间为2022-09-25至2023-05-07；制作负责人为 Richard Appel 和 Alec Sulkin，故事延续 Griffin 家庭。\n\n备注：Bangumi 页面访问失败，未能补充章节标题或日期；20个章节的逐集对应暂留空，需取得可核验的章节资料后补充。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/430663; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/21; https://www.foxflash.com/releases/view/week-of-sep-18-25-2022; https://en.wikipedia.org/wiki/Family_Guy_season_21",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 21,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品版本、官方链接、制作公司、剧情与演员均对应，第三季上线日期和总集数完全一致，可确认主体覆盖 TMDB 63522 第三季全季。Bangumi 章节缺少标题和日期，不能独立核实逐集对应，因此不生成连续规则。\n\nhttps://bgm.tv/subject/288833 (page): Bangumi 确认这是第三季 WEB 动画，共 10 集，2018-11-30 在 Netflix 上线，动画制作为 Gaumont Animation；官方链接指向 Netflix 80028732。\n\nhttps://www.netflix.com/title/80028732 (page): Bangumi 指定的 Netflix 官方页面确认作品讲述 1970 年代 Murphy 家庭生活，为成人动画喜剧，创作者为 Bill Burr、Michael Price，主演包括 Bill Burr、Laura Dern、Justin Long，并列有第三季预告。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 63522 的原名、Murphy 家庭剧情、配音演员及 Gaumont Animation 制作信息相符；第三季标注为 2018-11-30、10 集，第二季与第四季日期也与 Bangumi 前后续作一致。\n\nhttps://www.themoviedb.org/tv/63522/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共 10 集，编号连续为 1—10，全部日期为 2018-11-30；内容为 Murphy 家庭的夏季生活，没有混入其他季或特别篇。\n\n备注：输入中的 10 个 Bangumi 章节均无标题及播出日期；逐集映射需补充这些资料后再核对，当前仅确认整季范围。",
+    "evidence": "codex: 作品版本、官方链接、制作公司、剧情与演员均对应，第三季上线日期和总集数完全一致，可确认主体覆盖 TMDB 63522 第三季全季。Bangumi 章节缺少标题和日期，不能独立核实逐集对应，因此不生成连续规则。\n\nhttps://bgm.tv/subject/288833 (page): Bangumi 确认这是第三季 WEB 动画，共 10 集，2018-11-30 在 Netflix 上线，动画制作为 Gaumont Animation；官方链接指向 Netflix 80028732。\n\nhttps://www.netflix.com/title/80028732 (page): Bangumi 指定的 Netflix 官方页面确认作品讲述 1970 年代 Murphy 家庭生活，为成人动画喜剧，创作者为 Bill Burr、Michael Price，主演包括 Bill Burr、Laura Dern、Justin Long，并列有第三季预告。\n\nhttps://www.themoviedb.org/tv/63522 (api_snapshot): TMDB 63522 的原名、Murphy 家庭剧情、配音演员及 Gaumont Animation 制作信息相符；第三季标注为 2018-11-30、10 集，第二季与第四季日期也与 Bangumi 前后续作一致。\n\nhttps://www.themoviedb.org/tv/63522/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共 10 集，编号连续为 1—10，全部日期为 2018-11-30；内容为 Murphy 家庭的夏季生活，没有混入其他季或特别篇。\n\n备注：输入中的 10 个 Bangumi 章节均无标题及播出日期；逐集映射需补充这些资料后再核对，当前仅确认整季范围。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/288833; https://www.netflix.com/title/80028732; https://www.themoviedb.org/tv/63522; https://www.themoviedb.org/tv/63522/season/3",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 63522
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

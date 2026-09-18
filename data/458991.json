@@ -205,12 +205,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、出品方与40集规模共同支持对应TMDB 258034第1季整季。Bangumi各集标题和日期均为空，无法逐集交叉核验，因此不生成连续规则或特例映射。\n\nhttps://www.themoviedb.org/tv/258034 (api_snapshot): 候选为中国动画《我，修仙界的公敌》，首播日期为2024-06-28，制作公司含Youku，与Bangumi的名称、首播日期及联合出品方优酷一致。\n\nhttps://www.themoviedb.org/tv/258034 (api_snapshot): 候选仅列第1季，共40集，季表完整列出第1—40集，与Bangumi的40集本篇范围一致；候选各集标题均为编号占位标题。\n\n备注：候选未提供剧情简介及OC.Studio信息，无法核对这些字段。；逐集对应仍需补充Bangumi各集标题或放送日期；不能仅凭编号顺序建立映射。",
+    "evidence": "codex: 名称、首播日期、动画媒介、出品方与40集规模共同支持对应TMDB 258034第1季整季。Bangumi各集标题和日期均为空，无法逐集交叉核验，因此不生成连续规则或特例映射。\n\nhttps://www.themoviedb.org/tv/258034 (api_snapshot): 候选为中国动画《我，修仙界的公敌》，首播日期为2024-06-28，制作公司含Youku，与Bangumi的名称、首播日期及联合出品方优酷一致。\n\nhttps://www.themoviedb.org/tv/258034 (api_snapshot): 候选仅列第1季，共40集，季表完整列出第1—40集，与Bangumi的40集本篇范围一致；候选各集标题均为编号占位标题。\n\n备注：候选未提供剧情简介及OC.Studio信息，无法核对这些字段。；逐集对应仍需补充Bangumi各集标题或放送日期；不能仅凭编号顺序建立映射。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/458991; https://www.themoviedb.org/tv/258034",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 258034
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

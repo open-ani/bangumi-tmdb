@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、26集规模及续作与第2季的日期对应共同支持匹配 TMDB 309323 第1季，范围不含第2季。逐集缺乏可比对的标题和日期，因此只确认整季归属，不生成按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/309323 (api_snapshot): 候选《猪猪侠之功夫小英雄》第1季共26集，首播日期为2025-12-26，与本 subject 的名称、首播日期和本篇集数一致；季表完整列出第1至26集。\n\nhttps://www.themoviedb.org/tv/309323 (api_snapshot): 候选第2季共26集，首播日期为2026-04-02，与 Bangumi 关联续作《猪猪侠之功夫小英雄2》的日期一致，支持本 subject 仅覆盖第1季。\n\n备注：Bangumi 全部章节的标题和放送日期为空，TMDB 集标题均为编号占位，尚不能核实逐集对应；需补充章节标题或放送日期。；候选未提供剧情简介，制作公司列表为空，无法独立核对剧情与制作方。",
+    "evidence": "codex: 名称、首播日期、26集规模及续作与第2季的日期对应共同支持匹配 TMDB 309323 第1季，范围不含第2季。逐集缺乏可比对的标题和日期，因此只确认整季归属，不生成按位置推断的逐集规则。\n\nhttps://www.themoviedb.org/tv/309323 (api_snapshot): 候选《猪猪侠之功夫小英雄》第1季共26集，首播日期为2025-12-26，与本 subject 的名称、首播日期和本篇集数一致；季表完整列出第1至26集。\n\nhttps://www.themoviedb.org/tv/309323 (api_snapshot): 候选第2季共26集，首播日期为2026-04-02，与 Bangumi 关联续作《猪猪侠之功夫小英雄2》的日期一致，支持本 subject 仅覆盖第1季。\n\n备注：Bangumi 全部章节的标题和放送日期为空，TMDB 集标题均为编号占位，尚不能核实逐集对应；需补充章节标题或放送日期。；候选未提供剧情简介，制作公司列表为空，无法独立核对剧情与制作方。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/535623; https://www.themoviedb.org/tv/309323",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 309323
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

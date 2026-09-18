@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作方与总集数一致，候选唯一季完整覆盖该 subject，可确认对应 TV 102590 第 1 季。逐集缺少可比对的标题及日期，不按位置推定，暂不填写 rules。\n\nhttps://www.themoviedb.org/tv/102590 (api_snapshot): 候选 TV 102590 与 Bangumi 同名，首播日期均为 2020-04-24，制作方均为 Midnight Kids Studio；候选为动画系列，第 1 季共 10 集，与 Bangumi 的 10 话网络动画相符。\n\nhttps://www.themoviedb.org/tv/102590 (api_snapshot): 候选第 1 季包含第 1 至 10 集，放送日期均为 2020-04-24，但标题均为通用集号；Bangumi 提供具体英文标题，却没有逐集日期，因此不能独立核实逐集顺序。\n\n备注：逐集对应仍需候选的实际集标题或其他可核实的章节顺序资料。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作方与总集数一致，候选唯一季完整覆盖该 subject，可确认对应 TV 102590 第 1 季。逐集缺少可比对的标题及日期，不按位置推定，暂不填写 rules。\n\nhttps://www.themoviedb.org/tv/102590 (api_snapshot): 候选 TV 102590 与 Bangumi 同名，首播日期均为 2020-04-24，制作方均为 Midnight Kids Studio；候选为动画系列，第 1 季共 10 集，与 Bangumi 的 10 话网络动画相符。\n\nhttps://www.themoviedb.org/tv/102590 (api_snapshot): 候选第 1 季包含第 1 至 10 集，放送日期均为 2020-04-24，但标题均为通用集号；Bangumi 提供具体英文标题，却没有逐集日期，因此不能独立核实逐集顺序。\n\n备注：逐集对应仍需候选的实际集标题或其他可核实的章节顺序资料。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/317876; https://www.themoviedb.org/tv/102590",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 102590
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

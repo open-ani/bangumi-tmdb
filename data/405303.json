@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、首播日期、地区、动画媒介、爱奇艺制作信息及6集规模相互吻合，可确认对应 TMDB 282056 第1季全季。Bangumi 各章缺少标题与放送日期，无法逐集交叉核验，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/282056 (api_snapshot): 候选《向火而生》为中国动画，首播日期为2025-01-17，与 Bangumi 一致；制作公司包含爱奇艺。唯一列出的第1季共6集，与 Bangumi 本篇集数一致，季表放送日期为2025-01-17至2025-02-14。\n\n备注：Bangumi 六个章节的标题与放送日期均为空，TMDB 标题也仅为集号；逐集映射需补充章节标题或放送日期后核实。；候选未提供剧情简介与主创详情，无法独立比对这些信息。",
+    "evidence": "codex: 作品名称、首播日期、地区、动画媒介、爱奇艺制作信息及6集规模相互吻合，可确认对应 TMDB 282056 第1季全季。Bangumi 各章缺少标题与放送日期，无法逐集交叉核验，因此不按位置生成对应规则。\n\nhttps://www.themoviedb.org/tv/282056 (api_snapshot): 候选《向火而生》为中国动画，首播日期为2025-01-17，与 Bangumi 一致；制作公司包含爱奇艺。唯一列出的第1季共6集，与 Bangumi 本篇集数一致，季表放送日期为2025-01-17至2025-02-14。\n\n备注：Bangumi 六个章节的标题与放送日期均为空，TMDB 标题也仅为集号；逐集映射需补充章节标题或放送日期后核实。；候选未提供剧情简介与主创详情，无法独立比对这些信息。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/405303; https://www.themoviedb.org/tv/282056",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 282056
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

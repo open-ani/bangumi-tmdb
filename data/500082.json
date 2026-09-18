@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、法国动画媒介、France 4 信息及六集规模相互吻合，可确认对应 TMDB 275826 第 1 季整季。逐集缺少可交叉核验的标题和日期，暂不按位置建立对应规则。\n\nhttps://www.themoviedb.org/tv/275826 (api_snapshot): 候选为法国动画剧集，名称 Petite Casbah、首播日期 2024-10-28、France 4 信息均与 Bangumi 一致；第 1 季共 6 集，与 subject 的本篇总数一致。季表各集均标注于首播日播出，但标题仅为通用集号。\n\nhttps://www.themoviedb.org/movie/1729224 (api_snapshot): 同名电影标注上映日期为 2026-10-14，媒介及年份与本次 2024 年六集电视动画不符。\n\n备注：TMDB 季表未提供实际分集标题，Bangumi 各集放送日期为空，无法核实六个法文标题与 TMDB 集号的逐集顺序；需补充分集标题或其他明确的逐集对应资料。；候选未提供剧情、导演及 Darjeeling 制作信息，无法对这些字段进一步交叉核验。",
+    "evidence": "codex: 名称、首播日期、法国动画媒介、France 4 信息及六集规模相互吻合，可确认对应 TMDB 275826 第 1 季整季。逐集缺少可交叉核验的标题和日期，暂不按位置建立对应规则。\n\nhttps://www.themoviedb.org/tv/275826 (api_snapshot): 候选为法国动画剧集，名称 Petite Casbah、首播日期 2024-10-28、France 4 信息均与 Bangumi 一致；第 1 季共 6 集，与 subject 的本篇总数一致。季表各集均标注于首播日播出，但标题仅为通用集号。\n\nhttps://www.themoviedb.org/movie/1729224 (api_snapshot): 同名电影标注上映日期为 2026-10-14，媒介及年份与本次 2024 年六集电视动画不符。\n\n备注：TMDB 季表未提供实际分集标题，Bangumi 各集放送日期为空，无法核实六个法文标题与 TMDB 集号的逐集顺序；需补充分集标题或其他明确的逐集对应资料。；候选未提供剧情、导演及 Darjeeling 制作信息，无法对这些字段进一步交叉核验。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/500082; https://www.themoviedb.org/tv/275826; https://www.themoviedb.org/movie/1729224",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 275826
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

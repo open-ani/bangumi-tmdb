@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及整季范围可确认：原名、首播日期、具体剧情、电视媒介及52集规模一致，TMDB独立条目的第1季完整覆盖本作。系列第九部在此条目中实际编号为第1季。逐集资料不足，故仅提交整季映射，不凭相同集数生成连续规则。\n\nhttps://bgm.tv/subject/208072 (page): Bangumi 将本作列为2015年1月2日开播、52集的电视动画，别名为《猪猪侠第九部：百变联盟》，动画制作为咏声动漫。\n\nhttps://www.themoviedb.org/tv/273973 (api_snapshot): TMDB 273973 为独立电视条目，首播日期2015-01-02，共1季52集；简介中巴罗获得黑暗力量、毁坏五灵锁及童话世界面临危机等情节与 Bangumi 一致。制作公司、演职员字段为空。\n\nhttps://www.themoviedb.org/tv/273973/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，包含连续编号1—52的52集。标题均为通用集号，日期按周排列为2015-01-02至2015-12-25；没有足以逐集核对的具体标题或剧情。\n\nhttps://www.iqiyi.com/a_19rrh0g2cd.html (page): 爱奇艺收录《猪猪侠之百变联盟》52集完整节目及具体分集标题，剧情涉及人类与怪物和平共处、怪物研究社转为事务所，支持本作的独立52集范围。\n\nhttps://bkso.baidu.com/item/猪猪侠之百变联盟/14693234?fromModule=lemma_inlink (page): 百科资料将本作确认为2015年首播的系列第九部电视动画，52集，由广东咏声动漫制作，导演为张苑、王龙波、陆锦辉。\n\n备注：Bangumi章节缺少标题和日期，TMDB也仅有通用集号；无法进行实质性的逐集标题、剧情与日期比对，52个章节暂不建立rules或overrides。；TMDB每周一集的日期序列未获独立来源核实，不作为逐集对应依据。；制作人员可由外部资料确认，但TMDB演职员及制作公司字段为空，无法完成两端交叉核验。",
+    "evidence": "codex: 作品及整季范围可确认：原名、首播日期、具体剧情、电视媒介及52集规模一致，TMDB独立条目的第1季完整覆盖本作。系列第九部在此条目中实际编号为第1季。逐集资料不足，故仅提交整季映射，不凭相同集数生成连续规则。\n\nhttps://bgm.tv/subject/208072 (page): Bangumi 将本作列为2015年1月2日开播、52集的电视动画，别名为《猪猪侠第九部：百变联盟》，动画制作为咏声动漫。\n\nhttps://www.themoviedb.org/tv/273973 (api_snapshot): TMDB 273973 为独立电视条目，首播日期2015-01-02，共1季52集；简介中巴罗获得黑暗力量、毁坏五灵锁及童话世界面临危机等情节与 Bangumi 一致。制作公司、演职员字段为空。\n\nhttps://www.themoviedb.org/tv/273973/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，包含连续编号1—52的52集。标题均为通用集号，日期按周排列为2015-01-02至2015-12-25；没有足以逐集核对的具体标题或剧情。\n\nhttps://www.iqiyi.com/a_19rrh0g2cd.html (page): 爱奇艺收录《猪猪侠之百变联盟》52集完整节目及具体分集标题，剧情涉及人类与怪物和平共处、怪物研究社转为事务所，支持本作的独立52集范围。\n\nhttps://bkso.baidu.com/item/猪猪侠之百变联盟/14693234?fromModule=lemma_inlink (page): 百科资料将本作确认为2015年首播的系列第九部电视动画，52集，由广东咏声动漫制作，导演为张苑、王龙波、陆锦辉。\n\n备注：Bangumi章节缺少标题和日期，TMDB也仅有通用集号；无法进行实质性的逐集标题、剧情与日期比对，52个章节暂不建立rules或overrides。；TMDB每周一集的日期序列未获独立来源核实，不作为逐集对应依据。；制作人员可由外部资料确认，但TMDB演职员及制作公司字段为空，无法完成两端交叉核验。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/208072; https://www.themoviedb.org/tv/273973; https://www.themoviedb.org/tv/273973/season/1; https://www.iqiyi.com/a_19rrh0g2cd.html; https://bkso.baidu.com/item/猪猪侠之百变联盟/14693234?fromModule=lemma_inlink",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 273973
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

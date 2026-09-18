@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作公司、动画媒介、第二季首播日期与26集规模一致，前后季日期也与关联作品吻合，可确认对应 TMDB 219779 第2季。逐集缺乏可交叉核对的标题和日期，因此只确认整季归属，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): 该候选为中国动画，制作公司为上海今日动画影视制作有限公司，与 Bangumi 一致；第2季首播日期为2017-10-17，共26集，均与待核对 subject 一致。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): 第1季首播于2015-12-15，第3季首播于2018-03-20，与 Bangumi 前作及续作日期分别一致，支持对应此版本的第2季。第2季已列出完整26集，但标题均为通用集号。\n\n备注：Bangumi 各集日期为空，TMDB 各集仅有通用标题，无法核实具体故事顺序；需补充 TMDB 实际集标题或双方可核对的逐集放送记录。；TMDB 第2季后四集日期与第3季开播后的日期重叠，现有数据无法验证其逐周排期准确性。",
+    "evidence": "codex: 制作公司、动画媒介、第二季首播日期与26集规模一致，前后季日期也与关联作品吻合，可确认对应 TMDB 219779 第2季。逐集缺乏可交叉核对的标题和日期，因此只确认整季归属，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): 该候选为中国动画，制作公司为上海今日动画影视制作有限公司，与 Bangumi 一致；第2季首播日期为2017-10-17，共26集，均与待核对 subject 一致。\n\nhttps://www.themoviedb.org/tv/219779 (api_snapshot): 第1季首播于2015-12-15，第3季首播于2018-03-20，与 Bangumi 前作及续作日期分别一致，支持对应此版本的第2季。第2季已列出完整26集，但标题均为通用集号。\n\n备注：Bangumi 各集日期为空，TMDB 各集仅有通用标题，无法核实具体故事顺序；需补充 TMDB 实际集标题或双方可核对的逐集放送记录。；TMDB 第2季后四集日期与第3季开播后的日期重叠，现有数据无法验证其逐周排期准确性。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/241096; https://www.themoviedb.org/tv/219779",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 219779
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

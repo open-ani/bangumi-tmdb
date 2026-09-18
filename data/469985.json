@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画剧集媒介及52集范围一致，支持 subject 对应 TMDB 201925 第1季。Bangumi 分集标题与日期全部缺失，无法核实逐集顺序，因此仅确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/201925 (api_snapshot): 候选《熊猫和卢塔》为中国儿童动画剧集，首播日期为2019-12-18，与 Bangumi 一致；唯一列出的第1季共52集，已抓取第1—52集，与 subject 本篇总数一致。分集标题均为通用编号，仅前两集有日期。\n\n备注：候选未提供剧情简介，制作公司 Dancing CG Studio 与 Bangumi 制作名单的关系无法由输入确认。；TMDB 分集标题均为占位编号，第3—52集日期缺失；需补充分集真实标题或播出记录才能建立逐集对应。",
+    "evidence": "codex: 名称、首播日期、动画剧集媒介及52集范围一致，支持 subject 对应 TMDB 201925 第1季。Bangumi 分集标题与日期全部缺失，无法核实逐集顺序，因此仅确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/201925 (api_snapshot): 候选《熊猫和卢塔》为中国儿童动画剧集，首播日期为2019-12-18，与 Bangumi 一致；唯一列出的第1季共52集，已抓取第1—52集，与 subject 本篇总数一致。分集标题均为通用编号，仅前两集有日期。\n\n备注：候选未提供剧情简介，制作公司 Dancing CG Studio 与 Bangumi 制作名单的关系无法由输入确认。；TMDB 分集标题均为占位编号，第3—52集日期缺失；需补充分集真实标题或播出记录才能建立逐集对应。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/469985; https://www.themoviedb.org/tv/201925",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 201925
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -45,12 +45,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认该 subject 对应 TMDB 93741 第一季整季：动画媒介、制作背景、剧情、2020-09-18首播、八集及24分钟片长相符，后续季由其他 Bangumi subject 单独收录。作品和季范围明确；由于输入的八个 Bangumi 章节均缺少标题与日期，不能完成章节级逐集核对，因此不凭顺序生成 rules。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): 以英文原名搜索得到 TV 93741；详情确认首播日期为 2020-09-18，剧情为六名青少年在努布拉岛营地遭遇恐龙失控，与输入一致。制作公司包括梦工厂动画电视及 Amblin；全系列分为五季，第一季为八集。\n\nhttps://www.themoviedb.org/tv/93741/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共八集，集号连续为 1—8，全部于 2020-09-18 发布，每集24分钟；该季范围与输入的首播日期、话数、片长一致。\n\nhttps://about.netflix.com/en/news/jurassic-world-camp-cretaceous-animated-series-from-dreamworks-animation-roars-onto-netflix-in-2020 (page): Netflix 官方公告确认这是梦工厂制作、2020年推出的动画剧集，与2015年电影处于同一时间线；六名青少年受困努布拉岛的故事与 Bangumi 简介吻合，并列出 Scott Kreamer、Lane Lueras 等主创。\n\nhttps://en.wikipedia.org/wiki/List_of_Jurassic_World_Camp_Cretaceous_episodes (page): 独立集表列明第一季八集均于2020-09-18发布，各集编号、标题和日期与 TMDB 第一季一致；第二季于2021-01-22发布，与输入的续作关系吻合。\n\n备注：Bangumi 页面及章节页访问失败，未能补充章节标题或放送日期。逐集映射暂留空；需取得可核对的 Bangumi 章节资料后再建立对应规则。",
+    "evidence": "codex: 确认该 subject 对应 TMDB 93741 第一季整季：动画媒介、制作背景、剧情、2020-09-18首播、八集及24分钟片长相符，后续季由其他 Bangumi subject 单独收录。作品和季范围明确；由于输入的八个 Bangumi 章节均缺少标题与日期，不能完成章节级逐集核对，因此不凭顺序生成 rules。\n\nhttps://www.themoviedb.org/tv/93741 (api_snapshot): 以英文原名搜索得到 TV 93741；详情确认首播日期为 2020-09-18，剧情为六名青少年在努布拉岛营地遭遇恐龙失控，与输入一致。制作公司包括梦工厂动画电视及 Amblin；全系列分为五季，第一季为八集。\n\nhttps://www.themoviedb.org/tv/93741/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共八集，集号连续为 1—8，全部于 2020-09-18 发布，每集24分钟；该季范围与输入的首播日期、话数、片长一致。\n\nhttps://about.netflix.com/en/news/jurassic-world-camp-cretaceous-animated-series-from-dreamworks-animation-roars-onto-netflix-in-2020 (page): Netflix 官方公告确认这是梦工厂制作、2020年推出的动画剧集，与2015年电影处于同一时间线；六名青少年受困努布拉岛的故事与 Bangumi 简介吻合，并列出 Scott Kreamer、Lane Lueras 等主创。\n\nhttps://en.wikipedia.org/wiki/List_of_Jurassic_World_Camp_Cretaceous_episodes (page): 独立集表列明第一季八集均于2020-09-18发布，各集编号、标题和日期与 TMDB 第一季一致；第二季于2021-01-22发布，与输入的续作关系吻合。\n\n备注：Bangumi 页面及章节页访问失败，未能补充章节标题或放送日期。逐集映射暂留空；需取得可核对的 Bangumi 章节资料后再建立对应规则。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/331651; https://www.themoviedb.org/tv/93741; https://www.themoviedb.org/tv/93741/season/1; https://about.netflix.com/en/news/jurassic-world-camp-cretaceous-animated-series-from-dreamworks-animation-roars-onto-netflix-in-2020; https://en.wikipedia.org/wiki/List_of_Jurassic_World_Camp_Cretaceous_episodes",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 93741
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

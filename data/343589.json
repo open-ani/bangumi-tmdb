@@ -110,12 +110,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、制作方、首播日期、21集总量及前后续作时间均吻合，Bangumi 简介明确涵盖2A和2B，可确认对应 TMDB 92685 第2季整季。Bangumi 全部章节缺少标题和日期，无法逐集交叉核实，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/92685 (api_snapshot): TMDB 92685 原名为 The Owl House，制作公司为 Disney Television Animation；第2季首播于2021-06-12，共21集，与 Bangumi 的制作方、首播日期和本篇集数一致。第1季和第3季首播日期也分别与 Bangumi 前后续作日期一致。\n\nhttps://www.themoviedb.org/tv/92685 (api_snapshot): 第2季第1—10集于2021-06-12至2021-08-14播出，第11—21集于2022-03-19至2022-05-28播出，呈现分段播出结构；季表完整列出21集。\n\n备注：Bangumi 标注的结束日期2021-10-30与候选第2季末集日期2022-05-28冲突；完整21集及涵盖2A、2B的描述支持整季范围，但结束日期仍需核实。；逐集对应须补充 Bangumi 章节标题或放送日期；候选标题也仅为集号，当前不能仅凭排列位置建立映射。",
+    "evidence": "codex: 作品、制作方、首播日期、21集总量及前后续作时间均吻合，Bangumi 简介明确涵盖2A和2B，可确认对应 TMDB 92685 第2季整季。Bangumi 全部章节缺少标题和日期，无法逐集交叉核实，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/92685 (api_snapshot): TMDB 92685 原名为 The Owl House，制作公司为 Disney Television Animation；第2季首播于2021-06-12，共21集，与 Bangumi 的制作方、首播日期和本篇集数一致。第1季和第3季首播日期也分别与 Bangumi 前后续作日期一致。\n\nhttps://www.themoviedb.org/tv/92685 (api_snapshot): 第2季第1—10集于2021-06-12至2021-08-14播出，第11—21集于2022-03-19至2022-05-28播出，呈现分段播出结构；季表完整列出21集。\n\n备注：Bangumi 标注的结束日期2021-10-30与候选第2季末集日期2022-05-28冲突；完整21集及涵盖2A、2B的描述支持整季范围，但结束日期仍需核实。；逐集对应须补充 Bangumi 章节标题或放送日期；候选标题也仅为集号，当前不能仅凭排列位置建立映射。\n\n脚本按声明范围生成逐集规则：21 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/343589; https://www.themoviedb.org/tv/92685",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 21,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 92685
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

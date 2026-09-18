@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、首播日期、剧情、动画媒介和10集范围共同确认该 subject 对应 TMDB 157221 第一季整季。Bangumi 输入的各章节均缺少标题和播出日期，无法逐章核验，因此仅确认作品及季范围，不凭序号生成连续映射。\n\nhttps://www.themoviedb.org/tv/157221 (api_snapshot): TMDB 157221 为英语动画剧集《My Dad the Bounty Hunter》，首播日期为 2023-02-09，中文别名包含《我爸爸是赏金猎人》；父亲执行星际赏金任务、两个孩子偷偷随行的剧情与输入一致。第一季10集，第二季于2023-08-17开播，共9集。\n\nhttps://www.themoviedb.org/tv/157221/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，集号1至10，日期均为2023-02-09。标题与 Netflix 官方集表顺序一致，第5、6集仅存在标题格式差异。\n\nhttps://www.netflix.com/au/title/81035568 (page): Netflix 官方页确认这是2023年动画剧集，创作者为 Everett Downing、Patrick Harpin，主演与 TMDB 一致；列出的10集剧情及顺序与 TMDB 第一季吻合。音乐视频与预告片另列，不属于这10集正片。\n\n备注：Bangumi 页面访问失败，未能补充章节信息。10个章节的具体对应暂留空；需取得章节标题、日期或其他直接对应证据后再填写 rules。",
+    "evidence": "codex: 作品年份、首播日期、剧情、动画媒介和10集范围共同确认该 subject 对应 TMDB 157221 第一季整季。Bangumi 输入的各章节均缺少标题和播出日期，无法逐章核验，因此仅确认作品及季范围，不凭序号生成连续映射。\n\nhttps://www.themoviedb.org/tv/157221 (api_snapshot): TMDB 157221 为英语动画剧集《My Dad the Bounty Hunter》，首播日期为 2023-02-09，中文别名包含《我爸爸是赏金猎人》；父亲执行星际赏金任务、两个孩子偷偷随行的剧情与输入一致。第一季10集，第二季于2023-08-17开播，共9集。\n\nhttps://www.themoviedb.org/tv/157221/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共10集，集号1至10，日期均为2023-02-09。标题与 Netflix 官方集表顺序一致，第5、6集仅存在标题格式差异。\n\nhttps://www.netflix.com/au/title/81035568 (page): Netflix 官方页确认这是2023年动画剧集，创作者为 Everett Downing、Patrick Harpin，主演与 TMDB 一致；列出的10集剧情及顺序与 TMDB 第一季吻合。音乐视频与预告片另列，不属于这10集正片。\n\n备注：Bangumi 页面访问失败，未能补充章节信息。10个章节的具体对应暂留空；需取得章节标题、日期或其他直接对应证据后再填写 rules。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/445289; https://www.themoviedb.org/tv/157221; https://www.themoviedb.org/tv/157221/season/1; https://www.netflix.com/au/title/81035568",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 157221
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

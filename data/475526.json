@@ -246,12 +246,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品原名、首播日期、剧情、制作人员及48集规模相符，确认对应TMDB 244046第1季整季。Bangumi输入中的所有章节均缺少标题和放送日期，无法进行逐集交叉比对，因此保留季级映射，不凭集号位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/244046 (api_snapshot): TMDB 244046 原名为《神龙星主》，首播于2024-01-20；古争锋进入龙王学院寻找宝藏的剧情与输入一致。导演宋笑凯、笔落及编剧靳辛亦吻合，记录为1季48集。\n\nhttps://www.themoviedb.org/tv/244046/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages为1，共48集，集号连续为1至48，日期从2024-01-20至2024-06-22；未见混入其他作品，覆盖本subject的48集主体。\n\nhttps://www.iq.com/album/神龙星主-2024-24bzxa5ljk9?lang=zh_cn (page): 爱奇艺官方专辑标注2024年、48集全，剧情与Bangumi及TMDB一致，支持确认同一部网络连载动画及其完整范围。\n\n备注：逐集对应尚未确认：Bangumi章节标题及日期全部为空，且本次访问其章节页失败；需补充可核对的章节资料后再生成rules或overrides。",
+    "evidence": "codex: 作品原名、首播日期、剧情、制作人员及48集规模相符，确认对应TMDB 244046第1季整季。Bangumi输入中的所有章节均缺少标题和放送日期，无法进行逐集交叉比对，因此保留季级映射，不凭集号位置生成连续规则。\n\nhttps://www.themoviedb.org/tv/244046 (api_snapshot): TMDB 244046 原名为《神龙星主》，首播于2024-01-20；古争锋进入龙王学院寻找宝藏的剧情与输入一致。导演宋笑凯、笔落及编剧靳辛亦吻合，记录为1季48集。\n\nhttps://www.themoviedb.org/tv/244046/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages为1，共48集，集号连续为1至48，日期从2024-01-20至2024-06-22；未见混入其他作品，覆盖本subject的48集主体。\n\nhttps://www.iq.com/album/神龙星主-2024-24bzxa5ljk9?lang=zh_cn (page): 爱奇艺官方专辑标注2024年、48集全，剧情与Bangumi及TMDB一致，支持确认同一部网络连载动画及其完整范围。\n\n备注：逐集对应尚未确认：Bangumi章节标题及日期全部为空，且本次访问其章节页失败；需补充可核对的章节资料后再生成rules或overrides。\n\n脚本按声明范围生成逐集规则：48 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/475526; https://www.themoviedb.org/tv/244046; https://www.themoviedb.org/tv/244046/season/1; https://www.iq.com/album/神龙星主-2024-24bzxa5ljk9?lang=zh_cn",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 48,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 244046
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -31,12 +31,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认该subject对应TMDB 65756第1季整季：年份、五名成员本人出演、五个独立剧情故事及5集范围一致。Bangumi章节缺少标题和播出日期，无法核实各sort对应哪位成员的故事，因此只确认作品及季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/56114 (page): Bangumi 标注为2013年电视动画、共5话，内容为KARA五名成员各自担任主角的独立故事；章节仅显示01至05，没有可供比对的标题。\n\nhttps://www.universal-music.co.jp/kara/news/2012-11-20121201topics/ (page): 环球音乐官方公告确认本作为五名成员本人配音的五个剧情故事，计划于2013年春季公开，制作方为DSP Media、SBS MTV及Dongwoo Animation。\n\nhttps://www.themoviedb.org/tv/65756 (api_snapshot): TMDB 65756为2013年作品，共1季5集；演员包括KARA五名成员，剧情分别涉及警察、宇航员、船长、王室保镖和消防员，与该动画的成员及故事结构一致。\n\nhttps://www.themoviedb.org/tv/65756/season/1 (api_snapshot): 第1季集表共5集，total_pages=1；第1至5集分别为奎利、胜妍、妮可、荷拉、知英篇，每集27分钟，没有混入其他作品。记录日期为2013-03-21至2013-06-19。\n\nhttps://digitalpr.jp/pdf.php?r=3538 (search_snippet): NOTTV于2013年2月19日发布的公告摘要称，该动画将从2013年3月1日起先行播出，说明数据库所列日期不能直接作为逐集对应依据。\n\n备注：Bangumi的2013-03-23、TMDB的2013-03-21与NOTTV先行播出公告的2013-03-01存在日期差异，尚未完全厘清各自对应的播出批次。；不能仅凭两边均为5集便认定顺序一致；需补充Bangumi章节对应的成员篇名或可靠的原始播出顺序，才能建立逐集映射。；TMDB制作公司及幕后人员字段为空，制作方信息由官方公告确认。",
+    "evidence": "codex: 可确认该subject对应TMDB 65756第1季整季：年份、五名成员本人出演、五个独立剧情故事及5集范围一致。Bangumi章节缺少标题和播出日期，无法核实各sort对应哪位成员的故事，因此只确认作品及季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/56114 (page): Bangumi 标注为2013年电视动画、共5话，内容为KARA五名成员各自担任主角的独立故事；章节仅显示01至05，没有可供比对的标题。\n\nhttps://www.universal-music.co.jp/kara/news/2012-11-20121201topics/ (page): 环球音乐官方公告确认本作为五名成员本人配音的五个剧情故事，计划于2013年春季公开，制作方为DSP Media、SBS MTV及Dongwoo Animation。\n\nhttps://www.themoviedb.org/tv/65756 (api_snapshot): TMDB 65756为2013年作品，共1季5集；演员包括KARA五名成员，剧情分别涉及警察、宇航员、船长、王室保镖和消防员，与该动画的成员及故事结构一致。\n\nhttps://www.themoviedb.org/tv/65756/season/1 (api_snapshot): 第1季集表共5集，total_pages=1；第1至5集分别为奎利、胜妍、妮可、荷拉、知英篇，每集27分钟，没有混入其他作品。记录日期为2013-03-21至2013-06-19。\n\nhttps://digitalpr.jp/pdf.php?r=3538 (search_snippet): NOTTV于2013年2月19日发布的公告摘要称，该动画将从2013年3月1日起先行播出，说明数据库所列日期不能直接作为逐集对应依据。\n\n备注：Bangumi的2013-03-23、TMDB的2013-03-21与NOTTV先行播出公告的2013-03-01存在日期差异，尚未完全厘清各自对应的播出批次。；不能仅凭两边均为5集便认定顺序一致；需补充Bangumi章节对应的成员篇名或可靠的原始播出顺序，才能建立逐集映射。；TMDB制作公司及幕后人员字段为空，制作方信息由官方公告确认。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/56114; https://www.universal-music.co.jp/kara/news/2012-11-20121201topics/; https://www.themoviedb.org/tv/65756; https://www.themoviedb.org/tv/65756/season/1; https://digitalpr.jp/pdf.php?r=3538",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65756
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

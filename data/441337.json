@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作公司及整季集数共同支持对应 TMDB 229359 第 1 季。整季范围可确认；逐集缺少可比对资料，保留为空。\n\nhttps://www.themoviedb.org/tv/229359 (api_snapshot): 候选 TV 229359 与 Bangumi 名称一致，首播日期同为 2024-06-19，制作公司 Bobbypills、ADN 与 Bangumi 所列一致。候选唯一列出的第 1 季共 10 集，与 subject 本篇总数一致，季表完整列出第 1—10 集。\n\n备注：Bangumi 全部章节均无标题和放送日期，TMDB 集标题也只是集号，无法依据逐集标题或日期确认顺序，因此不生成 rules 或 overrides。；候选未提供剧情简介，无法独立核对剧情。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作公司及整季集数共同支持对应 TMDB 229359 第 1 季。整季范围可确认；逐集缺少可比对资料，保留为空。\n\nhttps://www.themoviedb.org/tv/229359 (api_snapshot): 候选 TV 229359 与 Bangumi 名称一致，首播日期同为 2024-06-19，制作公司 Bobbypills、ADN 与 Bangumi 所列一致。候选唯一列出的第 1 季共 10 集，与 subject 本篇总数一致，季表完整列出第 1—10 集。\n\n备注：Bangumi 全部章节均无标题和放送日期，TMDB 集标题也只是集号，无法依据逐集标题或日期确认顺序，因此不生成 rules 或 overrides。；候选未提供剧情简介，无法独立核对剧情。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/441337; https://www.themoviedb.org/tv/229359",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229359
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

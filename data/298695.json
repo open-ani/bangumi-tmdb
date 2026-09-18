@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 系列及前作首播日期、第2季年份、首播日期和总集数相互吻合，确认对应TMDB第2季整季。逐集缺少可比对标题且放送日期存在差异，因此暂不生成逐集映射。\n\nhttps://www.themoviedb.org/tv/112464 (api_snapshot): 候选为中国动画《功夫兔与菜包狗》；第1季首播日期2014-03-20与Bangumi关联前作一致，第2季首播日期2020-01-22、共10集，均与待核对subject一致，可确认主体对应第2季。\n\nhttps://www.themoviedb.org/tv/112464 (api_snapshot): 第2季标题均为通用集号；TMDB第2至10集日期为2020-01-29至2020-03-25逐周播出，Bangumi全部10集均标为2020-01-22，无法据此核实逐集顺序。\n\n备注：候选未提供剧情与制作方信息，无法核对本来影业及导演信息。；需补充TMDB第2季实际集标题或可靠的逐集对应资料，才能确认Bangumi章节与TMDB集号的关系。",
+    "evidence": "codex: 确认对应TMDB 112464第二季整季。年份、首播日期、剧情、10集规模与短篇动画形式一致，实际季表的全部标题与Bangumi逐集同名同序，足以建立第1至10话连续映射。此次API已提供具体集标题，旧映射所述标题缺失不再成立。\n\nhttps://www.themoviedb.org/tv/112464 (api_snapshot): 作品为中国动画《功夫兔与菜包狗》，第一季始于2014-03-20；第二季始于2020-01-22，共10集。第二季简介中的魔法拼图、石化相机、积木猛兽与Bangumi简介一致。\n\nhttps://www.themoviedb.org/tv/112464/season/2 (api_snapshot): 第二季集表共10集，total_pages=1。第1至10集标题依次为变胖的兔子、魔法相机、宝贝兔、小乌云、魔法积木、夏日停电、神奇香水、断粮危机、小旋风、魔法拼图，与输入的10个Bangumi章节逐集同名同序。每集5分钟；首集日期一致，第2至10集日期与Bangumi不同。\n\nhttps://www.bilibili.com/bangumi/media/md28227203 (search_snippet): 正版播放平台标明《功夫兔与菜包狗 第二季》于2020年1月22日开播，全10话。\n\nhttps://bangumi.tv/subject/298695 (search_snippet): Bangumi条目将该作标为WEB动画，共10话，导演李智勇，联合导演陈天任、刘岩，动画制作本来影业。\n\nhttps://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202204/W020220414412504859485.pdf (search_snippet): 政府公布的动画资料列出《功夫兔与菜包狗（二）》为上海本来影业有限公司制作，10集，每集5分钟，许可证编号为（沪）动审字〔2020〕第001号，与本次第二季版本及TMDB集数、时长吻合。\n\n备注：Bangumi全部章节日期为2020-01-22，TMDB第2至10集则逐周标至2020-03-25；差异原因尚未确认，但完整标题及顺序一致，未影响逐集对应。；TMDB未提供制作公司及演职员，制作信息由Bangumi与政府资料交叉确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/298695; https://www.themoviedb.org/tv/112464",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/298695; https://www.themoviedb.org/tv/112464; https://www.themoviedb.org/tv/112464/season/2; https://www.bilibili.com/bangumi/media/md28227203; https://bangumi.tv/subject/298695; https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202204/W020220414412504859485.pdf",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 112464
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

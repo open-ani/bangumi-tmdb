@@ -86,12 +86,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品剧情、原作与制作方、网络动画媒介、第三季首播日期及16集总量相符，确认对应 TMDB TV 113035 第3季整季。实际季表没有混入其他季度或作品。逐集证据不足，保留整季对应，不生成连续映射规则。\n\nhttps://bgm.tv/subject/339213 (page): Bangumi 标注本作为网络动画《我是大神仙 第三季》，2024年10月28日开播，共16话；原作盛世卡漫、导演李萌、动画制作中影年年，剧情围绕时江进入仙界展开。\n\nhttps://www.sina.cn/news/detail/5092216146232539.html (page): 动画官方微博的定档公告确认第三季于2024年10月28日在腾讯视频开播，内容为时江参与边境军需故事；制作方中影年年、原作盛世卡漫，与 Bangumi 版本一致。\n\nhttps://www.themoviedb.org/tv/113035 (api_snapshot): 实际调用 tmdb_details 确认 TV 113035 的剧情、原作及制作公司与本作一致；第三季明确标注2024年10月28日首播、16集，第一、二季分别属于2020年和2021年。\n\nhttps://www.themoviedb.org/tv/113035/season/3 (api_snapshot): 实际调用 tmdb_season 读取第三季完整集表，total_pages=1，共16集，集号连续为1—16。第1—3集日期为2024年10月28日，第4—8集依次为11月4日至12月2日的每周一，第9—16集均标为12月9日；标题均为通用集号。\n\n备注：输入的16个 Bangumi 章节均缺少标题和放送日期，TMDB 也仅有通用集号标题，无法完成独立逐集比对；rules 与 overrides 留空，待补充章节日期或可核实的内容标题后再建立对应。",
+    "evidence": "codex: 作品剧情、原作与制作方、网络动画媒介、第三季首播日期及16集总量相符，确认对应 TMDB TV 113035 第3季整季。实际季表没有混入其他季度或作品。逐集证据不足，保留整季对应，不生成连续映射规则。\n\nhttps://bgm.tv/subject/339213 (page): Bangumi 标注本作为网络动画《我是大神仙 第三季》，2024年10月28日开播，共16话；原作盛世卡漫、导演李萌、动画制作中影年年，剧情围绕时江进入仙界展开。\n\nhttps://www.sina.cn/news/detail/5092216146232539.html (page): 动画官方微博的定档公告确认第三季于2024年10月28日在腾讯视频开播，内容为时江参与边境军需故事；制作方中影年年、原作盛世卡漫，与 Bangumi 版本一致。\n\nhttps://www.themoviedb.org/tv/113035 (api_snapshot): 实际调用 tmdb_details 确认 TV 113035 的剧情、原作及制作公司与本作一致；第三季明确标注2024年10月28日首播、16集，第一、二季分别属于2020年和2021年。\n\nhttps://www.themoviedb.org/tv/113035/season/3 (api_snapshot): 实际调用 tmdb_season 读取第三季完整集表，total_pages=1，共16集，集号连续为1—16。第1—3集日期为2024年10月28日，第4—8集依次为11月4日至12月2日的每周一，第9—16集均标为12月9日；标题均为通用集号。\n\n备注：输入的16个 Bangumi 章节均缺少标题和放送日期，TMDB 也仅有通用集号标题，无法完成独立逐集比对；rules 与 overrides 留空，待补充章节日期或可核实的内容标题后再建立对应。\n\n脚本按声明范围生成逐集规则：16 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/339213; https://www.sina.cn/news/detail/5092216146232539.html; https://www.themoviedb.org/tv/113035; https://www.themoviedb.org/tv/113035/season/3",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 113035
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

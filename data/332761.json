@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、电视动画媒介、剧情角色、制作背景、52集规模及结束日期共同支持对应TMDB 12225第六季整季。作品及季范围可以确认；Bangumi章节缺少标题和日期，且外部集序存在差异，因此不生成按编号顺推的逐集规则。\n\nhttps://bgm.tv/subject/332761 (page): Bangumi 标明本作是 TV 动画《Peppa Pig season 6》，共52话，播出范围为2019-02-05至2020-10-07；剧情围绕佩奇及其家人朋友的日常生活。章节列表仅有编号，没有可供逐集比对的标题。\n\nhttps://www.themoviedb.org/tv/12225 (api_snapshot): TMDB 详情确认12225为2004年开始的英国原系列《Peppa Pig》，制作公司包含Astley Baker Davies，角色及剧情与Bangumi一致；第六季列为52集。\n\nhttps://www.themoviedb.org/tv/12225/season/6 (api_snapshot): 实际读取第六季完整集表，total_pages=1，共52集，集号连续为1–52，每集5分钟。首集The Panda Twins日期为2019-02-03，末集The Sandcastle为2020-10-07，内容属于同一电视动画季。\n\nhttps://www.rottentomatoes.com/tv/peppa_pig/s06 (page): 第六季资料列出Channel 5、创作者Neville Astley和Mark Baker，首播2019-02-05，末集日期2020-10-07，与Bangumi季范围吻合。但其Lots of Puddles列为第3集，TMDB同一故事列为第7集，表明不同资料存在集序差异。\n\n备注：Bangumi的52个章节均无标题和播出日期，无法核实各sort对应哪一集；需补充其采用的集序或逐集标题后再填写rules或overrides。；TMDB季首播日期为2019-02-03，Bangumi和Channel 5相关资料为2019-02-05；日期差异不影响整季身份判断，但不能据此推定逐集顺序。",
+    "evidence": "codex: 年份、电视动画媒介、剧情角色、制作背景、52集规模及结束日期共同支持对应TMDB 12225第六季整季。作品及季范围可以确认；Bangumi章节缺少标题和日期，且外部集序存在差异，因此不生成按编号顺推的逐集规则。\n\nhttps://bgm.tv/subject/332761 (page): Bangumi 标明本作是 TV 动画《Peppa Pig season 6》，共52话，播出范围为2019-02-05至2020-10-07；剧情围绕佩奇及其家人朋友的日常生活。章节列表仅有编号，没有可供逐集比对的标题。\n\nhttps://www.themoviedb.org/tv/12225 (api_snapshot): TMDB 详情确认12225为2004年开始的英国原系列《Peppa Pig》，制作公司包含Astley Baker Davies，角色及剧情与Bangumi一致；第六季列为52集。\n\nhttps://www.themoviedb.org/tv/12225/season/6 (api_snapshot): 实际读取第六季完整集表，total_pages=1，共52集，集号连续为1–52，每集5分钟。首集The Panda Twins日期为2019-02-03，末集The Sandcastle为2020-10-07，内容属于同一电视动画季。\n\nhttps://www.rottentomatoes.com/tv/peppa_pig/s06 (page): 第六季资料列出Channel 5、创作者Neville Astley和Mark Baker，首播2019-02-05，末集日期2020-10-07，与Bangumi季范围吻合。但其Lots of Puddles列为第3集，TMDB同一故事列为第7集，表明不同资料存在集序差异。\n\n备注：Bangumi的52个章节均无标题和播出日期，无法核实各sort对应哪一集；需补充其采用的集序或逐集标题后再填写rules或overrides。；TMDB季首播日期为2019-02-03，Bangumi和Channel 5相关资料为2019-02-05；日期差异不影响整季身份判断，但不能据此推定逐集顺序。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/332761; https://www.themoviedb.org/tv/12225; https://www.themoviedb.org/tv/12225/season/6; https://www.rottentomatoes.com/tv/peppa_pig/s06",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 12225
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

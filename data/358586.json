@@ -246,12 +246,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、剧情、制作人员及48集规模共同确认，该网络动画对应TMDB 207020第1季整季。作品及季范围已确认；Bangumi输入的全部章节均缺少标题和放送日期，无法完成逐集交叉比对，因此不凭序号生成rules。\n\nhttps://www.themoviedb.org/tv/207020 (api_snapshot): 以中文原名搜索得到 TV 207020；实际读取详情后，确认首播日为2022-07-27，剧情为苏九获得星源之力后开始修炼，编剧为发飙的蜗牛、暗魔师、妖凰大人，与输入一致。条目已完结，共1季48集。\n\nhttps://www.themoviedb.org/tv/207020/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共48集，集号连续为1—48，日期从2022-07-27至2023-01-01；集标题及剧情属于同一连续故事，未发现混入其他作品。\n\nhttps://www.bilibili.com/bangumi/media/md28235412 (page): 哔哩哔哩官方作品页确认《星源之主》于2022年7月27日开播，已完结，全48话。\n\nhttps://www.bilibili.com/bangumi/media/md28235412 (search_snippet): 官方页面搜索结果列出总导演叶老酒、芹菜及相同三位编剧，剧情与TMDB一致；展示的前5话标题也与TMDB第1季前5集吻合。\n\n备注：Bangumi作品页、章节页及API本次未能成功读取，无法补齐章节信息；逐集映射暂留空，待获得章节标题或放送日期后核对。",
+    "evidence": "codex: 原名、首播日期、剧情、制作人员及48集规模共同确认，该网络动画对应TMDB 207020第1季整季。作品及季范围已确认；Bangumi输入的全部章节均缺少标题和放送日期，无法完成逐集交叉比对，因此不凭序号生成rules。\n\nhttps://www.themoviedb.org/tv/207020 (api_snapshot): 以中文原名搜索得到 TV 207020；实际读取详情后，确认首播日为2022-07-27，剧情为苏九获得星源之力后开始修炼，编剧为发飙的蜗牛、暗魔师、妖凰大人，与输入一致。条目已完结，共1季48集。\n\nhttps://www.themoviedb.org/tv/207020/season/1 (api_snapshot): 实际读取第1季完整集表，total_pages=1，共48集，集号连续为1—48，日期从2022-07-27至2023-01-01；集标题及剧情属于同一连续故事，未发现混入其他作品。\n\nhttps://www.bilibili.com/bangumi/media/md28235412 (page): 哔哩哔哩官方作品页确认《星源之主》于2022年7月27日开播，已完结，全48话。\n\nhttps://www.bilibili.com/bangumi/media/md28235412 (search_snippet): 官方页面搜索结果列出总导演叶老酒、芹菜及相同三位编剧，剧情与TMDB一致；展示的前5话标题也与TMDB第1季前5集吻合。\n\n备注：Bangumi作品页、章节页及API本次未能成功读取，无法补齐章节信息；逐集映射暂留空，待获得章节标题或放送日期后核对。\n\n脚本按声明范围生成逐集规则：48 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/358586; https://www.themoviedb.org/tv/207020; https://www.themoviedb.org/tv/207020/season/1; https://www.bilibili.com/bangumi/media/md28235412",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 48,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 207020
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

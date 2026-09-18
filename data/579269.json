@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、制作方、连续动画形式及集数共同支持对应 TV 88291 第 1 季完整范围。Bangumi 各章标题和日期均为空，无法逐集交叉核对，因此仅确认整季归属，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/88291 (api_snapshot): 候选 TV 88291 的原名、日文名与 Bangumi 名称及别名一致，首播日同为 2017-08-04，制作方 Tonko House 与トンコハウス一致；唯一的第 1 季共 10 集，与 subject 本篇总量一致，季表播出日期为 2017-08-04 至 2017-10-06。\n\n备注：候选未提供剧情简介或导演信息，无法核对这些字段。；逐集映射需补充 Bangumi 章节标题、放送日期或其他可验证的对应资料；候选的编号式标题不足以独立确认逐集关系。",
+    "evidence": "codex: 名称、首播日期、制作方、连续动画形式及集数共同支持对应 TV 88291 第 1 季完整范围。Bangumi 各章标题和日期均为空，无法逐集交叉核对，因此仅确认整季归属，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/88291 (api_snapshot): 候选 TV 88291 的原名、日文名与 Bangumi 名称及别名一致，首播日同为 2017-08-04，制作方 Tonko House 与トンコハウス一致；唯一的第 1 季共 10 集，与 subject 本篇总量一致，季表播出日期为 2017-08-04 至 2017-10-06。\n\n备注：候选未提供剧情简介或导演信息，无法核对这些字段。；逐集映射需补充 Bangumi 章节标题、放送日期或其他可验证的对应资料；候选的编号式标题不足以独立确认逐集关系。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/579269; https://www.themoviedb.org/tv/88291",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 88291
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

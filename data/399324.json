@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 228426第1季整季。年份、制作方、导演、动画媒介、剧情及52集范围相符，完整季表的52个集号与标题均对应官方目录。官方分为两季发行，TMDB合并为一季，恰好覆盖本Bangumi条目声明的52集。输入的Bangumi章节均无标题和播出日期，无法独立完成章节级比对，因此仅确认作品与整季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/228426 (api_snapshot): 详情确认作品围绕“兴国之剑”特战分队展开，由兴国县与功夫动漫打造，简介注明2021年10月18日首播；收录1季52集，但日期字段记为2023-03-22。\n\nhttps://www.themoviedb.org/tv/228426/season/1 (api_snapshot): 第1季实际返回52集，total_pages=1；第1至52集的编号和标题逐一对应兴国县政府公布的完整目录，覆盖《危急时刻》至《胜利大会师》。日期字段存在第2集早于第1集等异常。\n\nhttps://www.xingguo.gov.cn/xgzf/c104327/202207/2bfa0810ec004b0997dce51d9f941e85.shtml (page): 官方确认制作方、剧情及2021年10月18日优漫卡通首播信息，并提供完整52集目录；目录将1—26集称为第一季、27—52集称为第二季，使用连续集号。\n\nhttps://www.megamai.com/project/4389 (page): 作品资料注明2021年中国动画片、导演刘新松、共52集、每集13分钟，剧情主体为“兴国之剑”特战分队，与输入版本相符。\n\nhttps://www.themoviedb.org/tv/253838 (api_snapshot): 另一候选253838名称及剧情相符，但详情仅收录1集，第2季为0集，不能据此确认完整52集范围。\n\nhttps://www.themoviedb.org/tv/253838/season/1 (api_snapshot): 候选253838第1季实际仅有标题为“1”的单集，简介为全剧概述，缺乏逐集识别信息。\n\n备注：TMDB的2023年日期字段与官方2021年首播信息冲突，且集间日期异常，不能作为逐集对应依据；作品身份由制作信息、剧情及完整标题目录交叉确认。；Bangumi所列2021-12-09完结日期未获独立证实；官方资料另提及2022年全面发行1—52集。；需要补充Bangumi章节标题或可靠播出记录，才能进一步确认逐集规则。",
+    "evidence": "codex: 确认对应TMDB 228426第1季整季。年份、制作方、导演、动画媒介、剧情及52集范围相符，完整季表的52个集号与标题均对应官方目录。官方分为两季发行，TMDB合并为一季，恰好覆盖本Bangumi条目声明的52集。输入的Bangumi章节均无标题和播出日期，无法独立完成章节级比对，因此仅确认作品与整季范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/228426 (api_snapshot): 详情确认作品围绕“兴国之剑”特战分队展开，由兴国县与功夫动漫打造，简介注明2021年10月18日首播；收录1季52集，但日期字段记为2023-03-22。\n\nhttps://www.themoviedb.org/tv/228426/season/1 (api_snapshot): 第1季实际返回52集，total_pages=1；第1至52集的编号和标题逐一对应兴国县政府公布的完整目录，覆盖《危急时刻》至《胜利大会师》。日期字段存在第2集早于第1集等异常。\n\nhttps://www.xingguo.gov.cn/xgzf/c104327/202207/2bfa0810ec004b0997dce51d9f941e85.shtml (page): 官方确认制作方、剧情及2021年10月18日优漫卡通首播信息，并提供完整52集目录；目录将1—26集称为第一季、27—52集称为第二季，使用连续集号。\n\nhttps://www.megamai.com/project/4389 (page): 作品资料注明2021年中国动画片、导演刘新松、共52集、每集13分钟，剧情主体为“兴国之剑”特战分队，与输入版本相符。\n\nhttps://www.themoviedb.org/tv/253838 (api_snapshot): 另一候选253838名称及剧情相符，但详情仅收录1集，第2季为0集，不能据此确认完整52集范围。\n\nhttps://www.themoviedb.org/tv/253838/season/1 (api_snapshot): 候选253838第1季实际仅有标题为“1”的单集，简介为全剧概述，缺乏逐集识别信息。\n\n备注：TMDB的2023年日期字段与官方2021年首播信息冲突，且集间日期异常，不能作为逐集对应依据；作品身份由制作信息、剧情及完整标题目录交叉确认。；Bangumi所列2021-12-09完结日期未获独立证实；官方资料另提及2022年全面发行1—52集。；需要补充Bangumi章节标题或可靠播出记录，才能进一步确认逐集规则。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/399324; https://www.themoviedb.org/tv/228426; https://www.themoviedb.org/tv/228426/season/1; https://www.xingguo.gov.cn/xgzf/c104327/202207/2bfa0810ec004b0997dce51d9f941e85.shtml; https://www.megamai.com/project/4389; https://www.themoviedb.org/tv/253838; https://www.themoviedb.org/tv/253838/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 228426
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

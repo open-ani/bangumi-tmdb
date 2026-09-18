@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、年份、动画媒介、12集规模及播出起止日期一致，可确认 subject 对应候选第1季整季。Bangumi 各集标题与日期均为空，无法逐集交叉核实，因此仅确认季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/212976 (api_snapshot): 候选为中国动画《毛头的深夜理发店》，首播于2022年6月24日；第1季共12集，季表显示每周五播出两集，第12集于2022年7月29日播出，与 Bangumi 的名称、动画媒介、总集数及播出起止日期一致。\n\n备注：Bangumi 缺少逐集标题和放送日期，需补充后才能确认逐集对应。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。",
+    "evidence": "codex: 名称、年份、动画媒介、12集规模及播出起止日期一致，可确认 subject 对应候选第1季整季。Bangumi 各集标题与日期均为空，无法逐集交叉核实，因此仅确认季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/212976 (api_snapshot): 候选为中国动画《毛头的深夜理发店》，首播于2022年6月24日；第1季共12集，季表显示每周五播出两集，第12集于2022年7月29日播出，与 Bangumi 的名称、动画媒介、总集数及播出起止日期一致。\n\n备注：Bangumi 缺少逐集标题和放送日期，需补充后才能确认逐集对应。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/407820; https://www.themoviedb.org/tv/212976",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 212976
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

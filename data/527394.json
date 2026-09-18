@@ -155,12 +155,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、精确首播日期、动画纪录片类型及完整30集季表共同支持对应 TMDB 232935 第1季。可确认整季范围，但缺少逐集对照信息，因此不生成按位置推定的规则。\n\nhttps://www.themoviedb.org/tv/232935 (api_snapshot): 候选剧集名称为《Cherchez la femme !》，首播日期为2022-12-05，与 Bangumi 一致；纪录片、动画类型与其历史女性题材定格动画简介相符。候选仅列第1季，共30集，与 subject 总集数一致。\n\nhttps://www.themoviedb.org/tv/232935 (api_snapshot): 第1季完整列出30集，第1—15集日期为2022-12-05，第16—30集为2022-12-12；标题均为通用集号。Bangumi 各集标题及日期为空，无法逐集核实顺序。\n\n备注：Bangumi 章节没有标题和放送日期，无法确认其 sort 与 TMDB 集号逐一对应。；候选未提供剧情及主创资料，Bangumi 未列制作公司，无法进一步交叉核对；逐集映射需补充实际标题或章节放送日期。",
+    "evidence": "codex: 名称、精确首播日期、动画纪录片类型及完整30集季表共同支持对应 TMDB 232935 第1季。可确认整季范围，但缺少逐集对照信息，因此不生成按位置推定的规则。\n\nhttps://www.themoviedb.org/tv/232935 (api_snapshot): 候选剧集名称为《Cherchez la femme !》，首播日期为2022-12-05，与 Bangumi 一致；纪录片、动画类型与其历史女性题材定格动画简介相符。候选仅列第1季，共30集，与 subject 总集数一致。\n\nhttps://www.themoviedb.org/tv/232935 (api_snapshot): 第1季完整列出30集，第1—15集日期为2022-12-05，第16—30集为2022-12-12；标题均为通用集号。Bangumi 各集标题及日期为空，无法逐集核实顺序。\n\n备注：Bangumi 章节没有标题和放送日期，无法确认其 sort 与 TMDB 集号逐一对应。；候选未提供剧情及主创资料，Bangumi 未列制作公司，无法进一步交叉核对；逐集映射需补充实际标题或章节放送日期。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/527394; https://www.themoviedb.org/tv/232935",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 232935
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

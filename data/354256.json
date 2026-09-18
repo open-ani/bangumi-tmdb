@@ -15,12 +15,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、剧情、年份、制作方及两集规模共同支持对应 TMDB 136847 第 1 季全季。逐集标题无法核对且日期存在差异，因此仅确认作品和季范围，暂不生成逐集对应。\n\nhttps://www.themoviedb.org/tv/136847 (api_snapshot): 候选作品名称、2022 年份及剧情与 Bangumi 一致，制作公司 Bunny Walker、Lune Pictures 与 Bangumi 版权信息对应；第 1 季共 2 集，与该 OVA 的总话数一致，季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/tv/136847 (api_snapshot): 第 1 季两集仅标为「第1話」「第2話」，日期均为 2022-01-01；Bangumi 两集具有具体标题，发售日期均为 2022-01-28。候选缺少可核对的具体集标题，日期也不一致。\n\n备注：逐集映射需补充 TMDB 具体集标题或能解释日期差异的发行资料，不能仅凭集号顺序建立规则。",
+    "evidence": "codex: 确认对应 TMDB 136847 第1季全季。原作、剧情、年份、导演、制作公司及两集 OVA 规模一致；官方两卷的编号和日文副标题对应 Bangumi 两集，TMDB 英文集标题进一步逐集吻合，日期和时长也与官方一致，因此可建立第1至2集的连续映射。\n\nhttps://www.themoviedb.org/tv/136847 (api_snapshot): 日文原名搜索命中 TV 136847；详情确认其为2022年作品，剧情、导演雷火剑、编剧特区03及制作公司 T-REX、Bunny Walker、Lune Pictures 与官方 OVA 资料一致，全作一季两集。\n\nhttps://www.themoviedb.org/tv/136847/season/1 (api_snapshot): 第1季实际集表共两集，total_pages=1，每集16分钟，日期均为2022-01-01。日文标题为通用集号；英文标题分别对应 Bangumi 第一集的男主人公践踏精灵国、女王与公主受辱，以及第二集的女王与公主调教、守护骑士受辱，逐集语义和顺序一致。\n\nhttps://www.lune-soft.jp/ova/23977 (page): 官方第一卷页面明确标注 OVA、编号#1，副标题与输入第一集完全一致；发行日期2022-01-01，时长16分钟，导演雷火剑、人物原案 huracan、制作 T-REX。\n\nhttps://www.lune-soft.jp/ova/24008 (page): 官方第二卷页面明确标注编号#2，副标题与输入第二集完全一致；发行日期2022-01-01，时长16分钟，原作和制作阵容与第一卷一致。\n\n备注：输入 Bangumi 快照将两集日期记为2022-01-28，官方现行产品页与 TMDB 均为2022-01-01；差异原因未确定，但不影响已由逐集标题和制作信息确认的对应关系。；Bangumi 在线 subject 页面本次返回未查询到条目，Bangumi 侧信息依据用户提供的归档数据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/354256; https://www.themoviedb.org/tv/136847",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/354256; https://www.themoviedb.org/tv/136847; https://www.themoviedb.org/tv/136847/season/1; https://www.lune-soft.jp/ova/23977; https://www.lune-soft.jp/ova/24008",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 136847
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

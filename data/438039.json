@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季别、年份、动画媒介、总集数及前作日期相互吻合，可确认 subject 对应候选第3季整季。Bangumi 各集缺少标题和放送日期，无法逐集核实，因此仅映射季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/79356 (api_snapshot): 候选为美国动画剧集《Tuca & Bertie》；第3季共10集，放送日期为2022-07-11至2022-08-29，与 Bangumi 标明的第三季、2022年播出及10话规模一致。候选第2季首播于2021-06-13，也与 Bangumi 前作关联日期一致。\n\n备注：Bangumi 首播日期为2022-07-10，TMDB 为2022-07-11，相差一天，现有数据无法确认差异原因。；Bangumi 10个章节的标题与日期均为空，TMDB 标题也仅为集号，逐集对应关系待补充资料后确认。；Bangumi 未提供制作方及详细剧情，无法进一步交叉核对这些信息。",
+    "evidence": "codex: 季别、年份、动画媒介、总集数及前作日期相互吻合，可确认 subject 对应候选第3季整季。Bangumi 各集缺少标题和放送日期，无法逐集核实，因此仅映射季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/79356 (api_snapshot): 候选为美国动画剧集《Tuca & Bertie》；第3季共10集，放送日期为2022-07-11至2022-08-29，与 Bangumi 标明的第三季、2022年播出及10话规模一致。候选第2季首播于2021-06-13，也与 Bangumi 前作关联日期一致。\n\n备注：Bangumi 首播日期为2022-07-10，TMDB 为2022-07-11，相差一天，现有数据无法确认差异原因。；Bangumi 10个章节的标题与日期均为空，TMDB 标题也仅为集号，逐集对应关系待补充资料后确认。；Bangumi 未提供制作方及详细剧情，无法进一步交叉核对这些信息。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/438039; https://www.themoviedb.org/tv/79356",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 79356
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

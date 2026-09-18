@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、首播日期及第1季集数一致，可确认 subject 对应候选第1季。Bangumi 各章节标题和日期均为空，无法逐集交叉核对，因此暂不生成逐集规则；第20季不纳入范围。\n\nhttps://www.themoviedb.org/tv/272171 (api_snapshot): 候选为《那年那兔那些事儿-风雨百年》，首播日期为2021-05-04，与 Bangumi 一致；第1季共10集，季表完整，符合 Bangumi 的10话规模。另有第20季1集，未发现其属于本 subject 的依据。\n\n备注：候选未提供剧情与制作方资料，无法核对联合出品信息。；逐集对应需补充 Bangumi 章节标题或放送日期；现有信息不足以仅按序号建立映射。",
+    "evidence": "codex: 作品名称、首播日期及第1季集数一致，可确认 subject 对应候选第1季。Bangumi 各章节标题和日期均为空，无法逐集交叉核对，因此暂不生成逐集规则；第20季不纳入范围。\n\nhttps://www.themoviedb.org/tv/272171 (api_snapshot): 候选为《那年那兔那些事儿-风雨百年》，首播日期为2021-05-04，与 Bangumi 一致；第1季共10集，季表完整，符合 Bangumi 的10话规模。另有第20季1集，未发现其属于本 subject 的依据。\n\n备注：候选未提供剧情与制作方资料，无法核对联合出品信息。；逐集对应需补充 Bangumi 章节标题或放送日期；现有信息不足以仅按序号建立映射。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/546896; https://www.themoviedb.org/tv/272171",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 272171
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

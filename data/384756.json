@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、电视动画媒介、制作资料、特定剧情及26集规模共同确认该 subject 对应 TMDB 215675 第4季整季，未发现混入其他作品的迹象。作品和季范围已确认；Bangumi 各章节标题及日期均为空，无法进行逐集内容比对，因此不凭编号生成 rules。\n\nhttps://www.themoviedb.org/tv/215675 (api_snapshot): 以中文原名搜索并读取详情，确认 TMDB 215675 为2019年开始播出的电视系列《猪猪侠之竞速小英雄》，导演记录为 Longbo Wang、Jinhui Lu。\n\nhttps://www.themoviedb.org/tv/215675/season/4 (api_snapshot): 第4季剧情明确涉及雷帝斯、大卡、哆哆、回到十年前及重新考驾照，与目标简介一致。实际集表共26集，单页完整返回，编号1—26，每集15分钟；首集为“大卡，徒劳无功”，末集为“虫洞大战，约定”。全部集日期记为2019-12-25。\n\nhttps://www.bilibili.com/bangumi/play/ep786451 (page): 哔哩哔哩正版播放页将《猪猪侠之竞速小英雄4》列为全26话，剧情与 Bangumi 及 TMDB 第4季一致。\n\nhttps://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=93621bcb59334e078fe9964508d76d47.pdf (search_snippet): 广电总局2019年第四季度优秀国产动画片目录列出《猪猪侠之竞速小英雄4》，制作机构为广东咏声动漫股份有限公司，共26集，每集15分钟。\n\nhttps://www.bilibili.com/opus/314179254295218485 (search_snippet): 系列开播报道指出导演为王龙波，与 TMDB 系列导演记录相符。\n\n备注：Bangumi 首播日期为2019-12-27，TMDB 第4季及全部单集日期为2019-12-25，两天差异的原因未确认。；逐集映射暂留空；需补充 Bangumi 章节标题、单集日期或可核验的对应集目后再建立规则。",
+    "evidence": "codex: 年份、电视动画媒介、制作资料、特定剧情及26集规模共同确认该 subject 对应 TMDB 215675 第4季整季，未发现混入其他作品的迹象。作品和季范围已确认；Bangumi 各章节标题及日期均为空，无法进行逐集内容比对，因此不凭编号生成 rules。\n\nhttps://www.themoviedb.org/tv/215675 (api_snapshot): 以中文原名搜索并读取详情，确认 TMDB 215675 为2019年开始播出的电视系列《猪猪侠之竞速小英雄》，导演记录为 Longbo Wang、Jinhui Lu。\n\nhttps://www.themoviedb.org/tv/215675/season/4 (api_snapshot): 第4季剧情明确涉及雷帝斯、大卡、哆哆、回到十年前及重新考驾照，与目标简介一致。实际集表共26集，单页完整返回，编号1—26，每集15分钟；首集为“大卡，徒劳无功”，末集为“虫洞大战，约定”。全部集日期记为2019-12-25。\n\nhttps://www.bilibili.com/bangumi/play/ep786451 (page): 哔哩哔哩正版播放页将《猪猪侠之竞速小英雄4》列为全26话，剧情与 Bangumi 及 TMDB 第4季一致。\n\nhttps://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=93621bcb59334e078fe9964508d76d47.pdf (search_snippet): 广电总局2019年第四季度优秀国产动画片目录列出《猪猪侠之竞速小英雄4》，制作机构为广东咏声动漫股份有限公司，共26集，每集15分钟。\n\nhttps://www.bilibili.com/opus/314179254295218485 (search_snippet): 系列开播报道指出导演为王龙波，与 TMDB 系列导演记录相符。\n\n备注：Bangumi 首播日期为2019-12-27，TMDB 第4季及全部单集日期为2019-12-25，两天差异的原因未确认。；逐集映射暂留空；需补充 Bangumi 章节标题、单集日期或可核验的对应集目后再建立规则。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/384756; https://www.themoviedb.org/tv/215675; https://www.themoviedb.org/tv/215675/season/4; https://www.bilibili.com/bangumi/play/ep786451; https://www.nrta.gov.cn/module/download/downfile.jsp?classid=0&filename=93621bcb59334e078fe9964508d76d47.pdf; https://www.bilibili.com/opus/314179254295218485",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 215675
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画类别、制作方及完整单季 26 集范围相符，可确认对应 TMDB 301043 第 1 季。Bangumi 各章节标题和日期均为空，无法逐集核实，因此仅确定整季归属，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/301043 (api_snapshot): 候选《天相》为中国动画，制作公司含 Youku，与 Bangumi 的优酷信息相符；首播日期同为 2025-10-15。候选仅有第 1 季，共 26 集，季表完整列出第 1—26 集，与 subject 本篇总量一致。\n\n备注：候选未提供剧情简介及鸿陆科技信息，无法交叉核对剧情和完整制作名单。；Bangumi 标注周三放送，TMDB 第 3 集起日期为周二；缺少 Bangumi 逐集日期，无法确认该差异原因。；逐集对应需补充 Bangumi 章节标题或实际放送日期后核实。",
+    "evidence": "codex: 名称、首播日期、动画类别、制作方及完整单季 26 集范围相符，可确认对应 TMDB 301043 第 1 季。Bangumi 各章节标题和日期均为空，无法逐集核实，因此仅确定整季归属，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/301043 (api_snapshot): 候选《天相》为中国动画，制作公司含 Youku，与 Bangumi 的优酷信息相符；首播日期同为 2025-10-15。候选仅有第 1 季，共 26 集，季表完整列出第 1—26 集，与 subject 本篇总量一致。\n\n备注：候选未提供剧情简介及鸿陆科技信息，无法交叉核对剧情和完整制作名单。；Bangumi 标注周三放送，TMDB 第 3 集起日期为周二；缺少 Bangumi 逐集日期，无法确认该差异原因。；逐集对应需补充 Bangumi 章节标题或实际放送日期后核实。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/403740; https://www.themoviedb.org/tv/301043",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 301043
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

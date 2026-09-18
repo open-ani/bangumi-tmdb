@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 287175第1季整季：原名、2016年6月1日网络配信版本、12集规模、制作公司、主创及故事设定相符，季表完整覆盖该短篇动画。配信平台的4个播放单元属于合并包装。Bangumi输入中的12个章节均缺少标题与日期，无法逐集交叉验证，因此保留作品及季范围映射，暂不生成顺序规则。\n\nhttps://www.themoviedb.org/tv/287175 (api_snapshot): 使用日文原名及罗马字别名搜索，均找到 TMDB TV 287175。详情显示首播及完结日期均为2016-06-01，共1季12集，制作公司为ILCA，谷口崇配音；剧情是日本经典昔话另一面发生的荒诞故事。\n\nhttps://www.themoviedb.org/tv/287175/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1，各集日期均为2016-06-01、时长3分钟。标题依次为桃太郎、浦島太郎、かぐや姫、耳なし芳一、わらしべ長者、鶴の恩返し、カチカチ山、さるかに合戦、おむすびころりん、笠地蔵、金太郎、一寸法師。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21023&partId=21023004 (page): 正版配信页面确认本作为2016年制作，导演及原作为谷口崇，简介与TMDB一致。该平台标为全4个播放单元，访问的单元标题为ep10～ep12，存在合并播放的包装方式。\n\nhttps://www.animatetimes.com/tag/details.php?id=6177 (search_snippet): 作品资料明确记载2016年6月1日在UULA、ゲオチャンネル配信，全12话；谷口崇负责配音、脚本及作画，制作公司为株式会社イルカ，与TMDB作品身份一致。\n\n备注：Bangumi章节页及API本次未能成功读取；现有章节数据只有序号，不能据此认定与TMDB逐集同序。补充章节标题、日期或可靠的章节对应资料后才能建立rules。",
+    "evidence": "codex: 确认对应TMDB 287175第1季整季：原名、2016年6月1日网络配信版本、12集规模、制作公司、主创及故事设定相符，季表完整覆盖该短篇动画。配信平台的4个播放单元属于合并包装。Bangumi输入中的12个章节均缺少标题与日期，无法逐集交叉验证，因此保留作品及季范围映射，暂不生成顺序规则。\n\nhttps://www.themoviedb.org/tv/287175 (api_snapshot): 使用日文原名及罗马字别名搜索，均找到 TMDB TV 287175。详情显示首播及完结日期均为2016-06-01，共1季12集，制作公司为ILCA，谷口崇配音；剧情是日本经典昔话另一面发生的荒诞故事。\n\nhttps://www.themoviedb.org/tv/287175/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1，各集日期均为2016-06-01、时长3分钟。标题依次为桃太郎、浦島太郎、かぐや姫、耳なし芳一、わらしべ長者、鶴の恩返し、カチカチ山、さるかに合戦、おむすびころりん、笠地蔵、金太郎、一寸法師。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=21023&partId=21023004 (page): 正版配信页面确认本作为2016年制作，导演及原作为谷口崇，简介与TMDB一致。该平台标为全4个播放单元，访问的单元标题为ep10～ep12，存在合并播放的包装方式。\n\nhttps://www.animatetimes.com/tag/details.php?id=6177 (search_snippet): 作品资料明确记载2016年6月1日在UULA、ゲオチャンネル配信，全12话；谷口崇负责配音、脚本及作画，制作公司为株式会社イルカ，与TMDB作品身份一致。\n\n备注：Bangumi章节页及API本次未能成功读取；现有章节数据只有序号，不能据此认定与TMDB逐集同序。补充章节标题、日期或可靠的章节对应资料后才能建立rules。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/211023; https://www.themoviedb.org/tv/287175; https://www.themoviedb.org/tv/287175/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=21023&partId=21023004; https://www.animatetimes.com/tag/details.php?id=6177",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 287175
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

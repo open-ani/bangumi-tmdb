@@ -186,12 +186,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 206215第三季整季：年份、电视动画媒介、独特剧情、制作人员和36集目录相互吻合，季范围明确。Bangumi章节标题及日期全部为空，缺少章节级交叉核验依据，因此保留整季映射，不仅按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): TMDB 206215 为2017年电视动画《猪猪侠之超星萌宠》，共4季124集；导演陆锦明、编剧古志斌。第三季简介与输入一致，讲述铁拳虎失去超星核后，众人展开星际旅行。\n\nhttps://www.themoviedb.org/tv/206215/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共36集，编号1—36，首集《铁拳虎重生》、末集《最后的战役》。全部集名及顺序与外部第三季目录一致，未混入其他季内容。\n\nhttps://www.bilibili.com/bangumi/media/md21117407 (search_snippet): 哔哩哔哩标注《猪猪侠之超星萌宠3》于2017年10月26日开播，全36话；简介与输入及TMDB第三季一致。\n\nhttps://bkso.baidu.com/item/猪猪侠之超星萌宠/20288006?fromModule=lemma_inlink (page): 百科列出第三季完整36集目录，与TMDB逐集标题、编号一致；同时列出导演陆锦明、总编剧古志斌、出品公司广东咏声动漫及第三季发行日期2017年10月26日，支持作品版本与季范围判断。\n\n备注：TMDB第三季首播日期为2017-10-23，Bangumi及哔哩哔哩为2017-10-26；TMDB除第29集标为10月24日外，其余均标为10月23日，无法据此确认真实逐集播出日期。；逐集规则需补充Bangumi章节标题、日期或能够确认其章节编号对应内容的资料后再建立。",
+    "evidence": "codex: 确认对应TMDB 206215第三季整季：年份、电视动画媒介、独特剧情、制作人员和36集目录相互吻合，季范围明确。Bangumi章节标题及日期全部为空，缺少章节级交叉核验依据，因此保留整季映射，不仅按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/206215 (api_snapshot): TMDB 206215 为2017年电视动画《猪猪侠之超星萌宠》，共4季124集；导演陆锦明、编剧古志斌。第三季简介与输入一致，讲述铁拳虎失去超星核后，众人展开星际旅行。\n\nhttps://www.themoviedb.org/tv/206215/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共36集，编号1—36，首集《铁拳虎重生》、末集《最后的战役》。全部集名及顺序与外部第三季目录一致，未混入其他季内容。\n\nhttps://www.bilibili.com/bangumi/media/md21117407 (search_snippet): 哔哩哔哩标注《猪猪侠之超星萌宠3》于2017年10月26日开播，全36话；简介与输入及TMDB第三季一致。\n\nhttps://bkso.baidu.com/item/猪猪侠之超星萌宠/20288006?fromModule=lemma_inlink (page): 百科列出第三季完整36集目录，与TMDB逐集标题、编号一致；同时列出导演陆锦明、总编剧古志斌、出品公司广东咏声动漫及第三季发行日期2017年10月26日，支持作品版本与季范围判断。\n\n备注：TMDB第三季首播日期为2017-10-23，Bangumi及哔哩哔哩为2017-10-26；TMDB除第29集标为10月24日外，其余均标为10月23日，无法据此确认真实逐集播出日期。；逐集规则需补充Bangumi章节标题、日期或能够确认其章节编号对应内容的资料后再建立。\n\n脚本按声明范围生成逐集规则：36 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/384734; https://www.themoviedb.org/tv/206215; https://www.themoviedb.org/tv/206215/season/3; https://www.bilibili.com/bangumi/media/md21117407; https://bkso.baidu.com/item/猪猪侠之超星萌宠/20288006?fromModule=lemma_inlink",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 206215
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -71,12 +71,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 105906 第5季整季。首播日期、13集规模、第五季剧情及系列制作信息相互吻合，季表范围完整覆盖该 WEB 动画主体。逐集标题与日期缺少可交叉核验的 Bangumi 侧资料，因此只确认季级范围，不将52–64到1–13的编号推算写入 rules。\n\nhttps://www.themoviedb.org/tv/105906 (api_snapshot): TMDB 详情确认该条目为《斗魂卫之玄月奇缘》，2018年开始的中国动画系列，共5季64集；别名包含 Spirit Guardians 和 Dou Hun Wei: Xuan Yue Qi Yuan V。\n\nhttps://www.themoviedb.org/tv/105906/season/5 (api_snapshot): 第5季首播日期为2021-12-28，实际集表共13集、仅1页，集号1–13，末集日期2022-03-15。季简介涉及紫染、苍麟、镜影花及保护灵树之种，与 Bangumi 本季剧情一致；集标题均为通用编号。\n\nhttps://bangumi.tv/subject/363810 (page): Bangumi 将本作标为 WEB 动画，13话，2021-12-28开始；简介与 TMDB 第5季一致，前传为第四季。\n\nhttps://bangumi.tv/subject/363810/ep (page): 章节表列出本篇52–64，共13话，但没有各话标题和播出日期，无法进行逐话标题、日期交叉比对。\n\nhttps://bangumi.tv/subject/363810 (search_snippet): Bangumi 搜索摘要列导演林文略、动画制作羿辰动漫、总制片人王浩及联合制片人王世勇、段斌。\n\nhttps://bkso.baidu.com/item/斗魂卫之玄月奇缘/22636536?fromModule=lemma_inlink (search_snippet): 百科资料明确第五季为全系列第52–64集，2021-12-28在腾讯视频开播；系列出品公司为广州市羿辰动漫文化有限公司，制片人为王浩、王世勇、段斌。\n\n备注：逐集映射尚未核实；需补充腾讯视频原始分集日期或可核对内容的集目资料。；Bangumi 本季导演为林文略，TMDB 系列级导演列许清平、唐晓春；系列与分季署名存在差异，尚未用第五季片尾字幕确认。",
+    "evidence": "codex: 确认对应 TMDB 105906 第5季整季。首播日期、13集规模、第五季剧情及系列制作信息相互吻合，季表范围完整覆盖该 WEB 动画主体。逐集标题与日期缺少可交叉核验的 Bangumi 侧资料，因此只确认季级范围，不将52–64到1–13的编号推算写入 rules。\n\nhttps://www.themoviedb.org/tv/105906 (api_snapshot): TMDB 详情确认该条目为《斗魂卫之玄月奇缘》，2018年开始的中国动画系列，共5季64集；别名包含 Spirit Guardians 和 Dou Hun Wei: Xuan Yue Qi Yuan V。\n\nhttps://www.themoviedb.org/tv/105906/season/5 (api_snapshot): 第5季首播日期为2021-12-28，实际集表共13集、仅1页，集号1–13，末集日期2022-03-15。季简介涉及紫染、苍麟、镜影花及保护灵树之种，与 Bangumi 本季剧情一致；集标题均为通用编号。\n\nhttps://bangumi.tv/subject/363810 (page): Bangumi 将本作标为 WEB 动画，13话，2021-12-28开始；简介与 TMDB 第5季一致，前传为第四季。\n\nhttps://bangumi.tv/subject/363810/ep (page): 章节表列出本篇52–64，共13话，但没有各话标题和播出日期，无法进行逐话标题、日期交叉比对。\n\nhttps://bangumi.tv/subject/363810 (search_snippet): Bangumi 搜索摘要列导演林文略、动画制作羿辰动漫、总制片人王浩及联合制片人王世勇、段斌。\n\nhttps://bkso.baidu.com/item/斗魂卫之玄月奇缘/22636536?fromModule=lemma_inlink (search_snippet): 百科资料明确第五季为全系列第52–64集，2021-12-28在腾讯视频开播；系列出品公司为广州市羿辰动漫文化有限公司，制片人为王浩、王世勇、段斌。\n\n备注：逐集映射尚未核实；需补充腾讯视频原始分集日期或可核对内容的集目资料。；Bangumi 本季导演为林文略，TMDB 系列级导演列许清平、唐晓春；系列与分季署名存在差异，尚未用第五季片尾字幕确认。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/363810; https://www.themoviedb.org/tv/105906; https://www.themoviedb.org/tv/105906/season/5; https://bangumi.tv/subject/363810; https://bangumi.tv/subject/363810/ep; https://bkso.baidu.com/item/斗魂卫之玄月奇缘/22636536?fromModule=lemma_inlink",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 64,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 52,
+      "tmdbId": 105906
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季序、最终季属性、播出日期、动画媒介、10集范围及前作日期相互吻合，可确认对应 TMDB 74204 第八季整季。Bangumi 各章标题和日期均为空，无法独立核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): 候选 74204 为美国动画《Big Mouth》，已完结，共八季；第八季共10集，全部于2025-05-23播出，与 subject 明示的第八季暨最终季、首播日期及总集数一致。第七季首播日2023-10-20也与 Bangumi 前作信息吻合。\n\n备注：Bangumi 缺少逐集标题及放送日期，TMDB 集标题也仅为编号占位；需补充可比对的逐集信息后才能确认章节对应。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。",
+    "evidence": "codex: 季序、最终季属性、播出日期、动画媒介、10集范围及前作日期相互吻合，可确认对应 TMDB 74204 第八季整季。Bangumi 各章标题和日期均为空，无法独立核实逐集顺序，因此暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/74204 (api_snapshot): 候选 74204 为美国动画《Big Mouth》，已完结，共八季；第八季共10集，全部于2025-05-23播出，与 subject 明示的第八季暨最终季、首播日期及总集数一致。第七季首播日2023-10-20也与 Bangumi 前作信息吻合。\n\n备注：Bangumi 缺少逐集标题及放送日期，TMDB 集标题也仅为编号占位；需补充可比对的逐集信息后才能确认章节对应。；候选未提供剧情简介，Bangumi 未提供制作方，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/545965; https://www.themoviedb.org/tv/74204",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 8,
+      "start": 1,
+      "tmdbId": 74204
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

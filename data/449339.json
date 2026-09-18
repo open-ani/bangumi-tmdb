@@ -35,12 +35,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播日期、特别篇分类、集数、制作方及前作时间关系共同支持对应 TV 70311 第 0 季，季表范围覆盖本 subject。候选未提供独立特别篇条目。Bangumi 六个章节均缺少标题和放送日期，无法逐集交叉核实，故仅确认季范围，暂不填写逐集映射。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): 候选 TV 70311 的第 0 季共 6 集，首播日期为 2024-08-16，与本 subject 的特别篇性质、首播日期及总集数一致；该季集表仅包含这 6 集。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): 候选制作公司包含腾讯、阅文及上海福煦，与 Bangumi 制作信息相符；第 6 季于 2023-06-02 开播，共 12 集，对应关联前作《全职法师Ⅵ》的日期，可与本次特别篇区分。\n\n备注：候选未提供特别篇剧情简介，无法直接核对红兽篇剧情。；逐集映射需补充 Bangumi 章节标题、放送日期或其他明确对应证据；不能仅按序号推定。",
+    "evidence": "codex: 首播日期、特别篇分类、集数、制作方及前作时间关系共同支持对应 TV 70311 第 0 季，季表范围覆盖本 subject。候选未提供独立特别篇条目。Bangumi 六个章节均缺少标题和放送日期，无法逐集交叉核实，故仅确认季范围，暂不填写逐集映射。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): 候选 TV 70311 的第 0 季共 6 集，首播日期为 2024-08-16，与本 subject 的特别篇性质、首播日期及总集数一致；该季集表仅包含这 6 集。\n\nhttps://www.themoviedb.org/tv/70311 (api_snapshot): 候选制作公司包含腾讯、阅文及上海福煦，与 Bangumi 制作信息相符；第 6 季于 2023-06-02 开播，共 12 集，对应关联前作《全职法师Ⅵ》的日期，可与本次特别篇区分。\n\n备注：候选未提供特别篇剧情简介，无法直接核对红兽篇剧情。；逐集映射需补充 Bangumi 章节标题、放送日期或其他明确对应证据；不能仅按序号推定。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/449339; https://www.themoviedb.org/tv/70311",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 70311
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

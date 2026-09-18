@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、中俄合制背景及完整52集的单季范围相互吻合，可确认对应 TMDB 129704 第1季。Bangumi 全部章节缺少标题和放送日期，无法验证逐集顺序，因此仅确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/129704 (api_snapshot): 候选名称为《熊猫和开心球》，首播日期为2021-01-16，制作国家为俄罗斯、中国，与 Bangumi 的名称、首播日期及中俄合制背景一致。候选仅列第1季，共52集，与 subject 的52话总量一致。\n\nhttps://www.themoviedb.org/tv/129704 (api_snapshot): 第1季完整列出第1—52集，日期从2021-01-16至2022-01-08；标题均为集号占位文本，无法用于内容层面的逐集核对。\n\n备注：候选未提供剧情简介或制作公司，无法进一步交叉核对剧情和具体制作方。；逐集对应仍需补充 Bangumi 分集标题或放送日期，并取得可识别内容的 TMDB 分集资料；不能仅凭集号相同建立对应。",
+    "evidence": "codex: 名称、首播日期、中俄合制背景及完整52集的单季范围相互吻合，可确认对应 TMDB 129704 第1季。Bangumi 全部章节缺少标题和放送日期，无法验证逐集顺序，因此仅确认整季范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/129704 (api_snapshot): 候选名称为《熊猫和开心球》，首播日期为2021-01-16，制作国家为俄罗斯、中国，与 Bangumi 的名称、首播日期及中俄合制背景一致。候选仅列第1季，共52集，与 subject 的52话总量一致。\n\nhttps://www.themoviedb.org/tv/129704 (api_snapshot): 第1季完整列出第1—52集，日期从2021-01-16至2022-01-08；标题均为集号占位文本，无法用于内容层面的逐集核对。\n\n备注：候选未提供剧情简介或制作公司，无法进一步交叉核对剧情和具体制作方。；逐集对应仍需补充 Bangumi 分集标题或放送日期，并取得可识别内容的 TMDB 分集资料；不能仅凭集号相同建立对应。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/469989; https://www.themoviedb.org/tv/129704",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 129704
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

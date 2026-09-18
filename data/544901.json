@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、媒介、首播日期和26集规模共同支持对应TMDB第1季，季表未显示混入其他作品。Bangumi各集标题及日期均为空，无法逐集核验，因此仅确认整季范围，不按序号推定逐集规则。\n\nhttps://www.themoviedb.org/tv/156414 (api_snapshot): 候选为韩国电视动画，原名「히어로 써클」，首播日期为2020-06-29；第1季共26集，与Bangumi的名称、电视播出信息、首播日期及本篇集数一致。第1季季表完整列出26集，第2季则为2022年播出的22集。\n\n备注：逐集对应需补充Bangumi各集标题或放送日期；TMDB现有集标题均为通用序号。；Bangumi未提供剧情及制作公司，候选未提供导演或播出电视台，无法交叉核验这些信息。",
+    "evidence": "codex: 名称、媒介、首播日期和26集规模共同支持对应TMDB第1季，季表未显示混入其他作品。Bangumi各集标题及日期均为空，无法逐集核验，因此仅确认整季范围，不按序号推定逐集规则。\n\nhttps://www.themoviedb.org/tv/156414 (api_snapshot): 候选为韩国电视动画，原名「히어로 써클」，首播日期为2020-06-29；第1季共26集，与Bangumi的名称、电视播出信息、首播日期及本篇集数一致。第1季季表完整列出26集，第2季则为2022年播出的22集。\n\n备注：逐集对应需补充Bangumi各集标题或放送日期；TMDB现有集标题均为通用序号。；Bangumi未提供剧情及制作公司，候选未提供导演或播出电视台，无法交叉核验这些信息。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/544901; https://www.themoviedb.org/tv/156414",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 156414
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

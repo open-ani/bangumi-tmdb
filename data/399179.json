@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 10283《Archer》第七季整季：动画媒介、角色及配音、FX 播出信息、年份、首尾日期和 10 集总量一致，季剧情及制作资料亦相符。实际季表未混入其他作品。Bangumi 章节缺少标题和日期，故仅确认季级范围，逐集规则留空。\n\nhttps://bgm.tv/subject/399179 (page): Bangumi 标明本作为 TV 动画《间谍亚契 第七季》，共 10 集，2016-03-31 至 2016-06-02 在 FX 播出；主角 Sterling Archer 由 H. Jon Benjamin 配音。\n\nhttps://www.themoviedb.org/tv/10283 (api_snapshot): TMDB 10283 原名 Archer，中文别名为间谍亚契，始播于 2009 年；主角及配音与 Bangumi 一致，制作公司包括 Floyd County Productions 和 FX Productions。第七季讲述 Figgis Agency 搬往洛杉矶后的故事，区别于第八季 Dreamland。\n\nhttps://www.themoviedb.org/tv/10283/season/7 (api_snapshot): 实际读取第七季全部集表，total_pages=1，共 10 集，编号 1–10，播出日期从 2016-03-31 至 2016-06-02，每周一集；首集为 The Figgis Agency，末集为 Deadly Velvet (2)。整季数量及首尾日期与 Bangumi 完全一致。\n\nhttps://en.wikipedia.org/wiki/Archer_season_7 (search_snippet): 第七季资料确认这是 Adam Reed 创作的动画剧集，2016-03-31 至 2016-06-02 在 FX 播出，共 10 集，剧情围绕团队迁往洛杉矶经营私人调查机构展开。\n\nhttps://www.fxnetworks.com/shows/archer/crew/adam-reed-creator-writer (page): FX 官方页面确认 Adam Reed 为 Archer 的创作者及执行制片人。\n\nhttps://bgm.tv/subject/399179/ep (page): Bangumi 章节页只有本篇编号 1–10，未提供集标题或逐集播出日期，无法进行章节级内容核对。\n\n备注：尚不能独立核实 Bangumi 各章节与 TMDB 各集的对应关系；需补充 Bangumi 章节标题、播出日期或其他章节内容证据，不能仅凭编号顺序建立规则。",
+    "evidence": "codex: 已确认对应 TMDB 10283《Archer》第七季整季：动画媒介、角色及配音、FX 播出信息、年份、首尾日期和 10 集总量一致，季剧情及制作资料亦相符。实际季表未混入其他作品。Bangumi 章节缺少标题和日期，故仅确认季级范围，逐集规则留空。\n\nhttps://bgm.tv/subject/399179 (page): Bangumi 标明本作为 TV 动画《间谍亚契 第七季》，共 10 集，2016-03-31 至 2016-06-02 在 FX 播出；主角 Sterling Archer 由 H. Jon Benjamin 配音。\n\nhttps://www.themoviedb.org/tv/10283 (api_snapshot): TMDB 10283 原名 Archer，中文别名为间谍亚契，始播于 2009 年；主角及配音与 Bangumi 一致，制作公司包括 Floyd County Productions 和 FX Productions。第七季讲述 Figgis Agency 搬往洛杉矶后的故事，区别于第八季 Dreamland。\n\nhttps://www.themoviedb.org/tv/10283/season/7 (api_snapshot): 实际读取第七季全部集表，total_pages=1，共 10 集，编号 1–10，播出日期从 2016-03-31 至 2016-06-02，每周一集；首集为 The Figgis Agency，末集为 Deadly Velvet (2)。整季数量及首尾日期与 Bangumi 完全一致。\n\nhttps://en.wikipedia.org/wiki/Archer_season_7 (search_snippet): 第七季资料确认这是 Adam Reed 创作的动画剧集，2016-03-31 至 2016-06-02 在 FX 播出，共 10 集，剧情围绕团队迁往洛杉矶经营私人调查机构展开。\n\nhttps://www.fxnetworks.com/shows/archer/crew/adam-reed-creator-writer (page): FX 官方页面确认 Adam Reed 为 Archer 的创作者及执行制片人。\n\nhttps://bgm.tv/subject/399179/ep (page): Bangumi 章节页只有本篇编号 1–10，未提供集标题或逐集播出日期，无法进行章节级内容核对。\n\n备注：尚不能独立核实 Bangumi 各章节与 TMDB 各集的对应关系；需补充 Bangumi 章节标题、播出日期或其他章节内容证据，不能仅凭编号顺序建立规则。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/399179; https://www.themoviedb.org/tv/10283; https://www.themoviedb.org/tv/10283/season/7; https://en.wikipedia.org/wiki/Archer_season_7; https://www.fxnetworks.com/shows/archer/crew/adam-reed-creator-writer; https://bgm.tv/subject/399179/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 10283
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

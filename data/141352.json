@@ -266,12 +266,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、季范围已确认：媒介、首播日期、导演、住宅背景及52集规模相符，可对应TMDB 80281第2季House整季。Bangumi所给52个章节均无标题及放送日期，无法逐集比对，因此保留季级映射，逐集规则留空。\n\nhttps://bgm.tv/subject/141352 (page): Bangumi 将本作标为 TV《라바 시즌 2기》，共52话，2013年1月5日开播，导演为맹주공；剧情为红、黄两只虫在高楼之间的老屋中生活。\n\nhttps://www.themoviedb.org/tv/80281 (api_snapshot): TMDB 80281 为韩国动画《라바／Larva》，制作公司为TUBAn，导演为Maeng Joo-gong，与Bangumi导演一致。第2季名为House，2013年1月5日开播，共52集，剧情为红、黄离开地下、搬入住宅生活。\n\nhttps://www.themoviedb.org/tv/80281/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共52集，编号1至52，单集3分钟；日期范围为2013年1月5日至9月21日，属于House季的连续短篇，未发现混入其他作品或合集。\n\nhttps://anilist.co/anime/104385/Larva-Season-2 (search_snippet): AniList摘要将《라바 시즌2》列为TUBAn制作的52集韩国电视短篇动画，别名Larva: House，老屋背景与Bangumi及TMDB第2季一致。\n\n备注：Bangumi章节仅有序号，不能据此确认与TMDB逐集顺序一致；需补充章节标题、日期或可核实的播放目录后再建立rules或overrides。",
+    "evidence": "codex: 作品、季范围已确认：媒介、首播日期、导演、住宅背景及52集规模相符，可对应TMDB 80281第2季House整季。Bangumi所给52个章节均无标题及放送日期，无法逐集比对，因此保留季级映射，逐集规则留空。\n\nhttps://bgm.tv/subject/141352 (page): Bangumi 将本作标为 TV《라바 시즌 2기》，共52话，2013年1月5日开播，导演为맹주공；剧情为红、黄两只虫在高楼之间的老屋中生活。\n\nhttps://www.themoviedb.org/tv/80281 (api_snapshot): TMDB 80281 为韩国动画《라바／Larva》，制作公司为TUBAn，导演为Maeng Joo-gong，与Bangumi导演一致。第2季名为House，2013年1月5日开播，共52集，剧情为红、黄离开地下、搬入住宅生活。\n\nhttps://www.themoviedb.org/tv/80281/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共52集，编号1至52，单集3分钟；日期范围为2013年1月5日至9月21日，属于House季的连续短篇，未发现混入其他作品或合集。\n\nhttps://anilist.co/anime/104385/Larva-Season-2 (search_snippet): AniList摘要将《라바 시즌2》列为TUBAn制作的52集韩国电视短篇动画，别名Larva: House，老屋背景与Bangumi及TMDB第2季一致。\n\n备注：Bangumi章节仅有序号，不能据此确认与TMDB逐集顺序一致；需补充章节标题、日期或可核实的播放目录后再建立rules或overrides。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/141352; https://www.themoviedb.org/tv/80281; https://www.themoviedb.org/tv/80281/season/2; https://anilist.co/anime/104385/Larva-Season-2",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 80281
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

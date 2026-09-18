@@ -125,12 +125,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、24集规模、放送起止日期及前后季关系相互吻合，可确认对应 TMDB 67175 第2季整季。Bangumi 各章节均缺少标题和日期，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/67175 (api_snapshot): 候选原名为 Elena of Avalor，类型为动画，制作公司包含 Disney Television Animation；第2季共24集，首集日期为2017-10-14，末集日期为2019-06-01，与 Bangumi 标注的季度、总集数及放送起止日期完全一致。\n\nhttps://www.themoviedb.org/tv/67175 (api_snapshot): 候选第1季始于2016-07-22，第3季始于2019-10-07，与 Bangumi 前后季关联条目的日期一致，支持本条目对应第2季。\n\n备注：逐集对应仍需补充 Bangumi 章节标题或放送日期；候选标题也仅为集号占位，不能据此认定同序映射。；候选缺少第2季及各集剧情，无法直接核对 Bangumi 简介中的 jaquins 与森林精灵情节。",
+    "evidence": "codex: 季度、24集规模、放送起止日期及前后季关系相互吻合，可确认对应 TMDB 67175 第2季整季。Bangumi 各章节均缺少标题和日期，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/67175 (api_snapshot): 候选原名为 Elena of Avalor，类型为动画，制作公司包含 Disney Television Animation；第2季共24集，首集日期为2017-10-14，末集日期为2019-06-01，与 Bangumi 标注的季度、总集数及放送起止日期完全一致。\n\nhttps://www.themoviedb.org/tv/67175 (api_snapshot): 候选第1季始于2016-07-22，第3季始于2019-10-07，与 Bangumi 前后季关联条目的日期一致，支持本条目对应第2季。\n\n备注：逐集对应仍需补充 Bangumi 章节标题或放送日期；候选标题也仅为集号占位，不能据此认定同序映射。；候选缺少第2季及各集剧情，无法直接核对 Bangumi 简介中的 jaquins 与森林精灵情节。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/662507; https://www.themoviedb.org/tv/67175",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 67175
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

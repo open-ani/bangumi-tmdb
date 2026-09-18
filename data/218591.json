@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 官网链接、年份、剧情、动画媒介、配音与13集范围共同确认，该 subject 对应 TMDB 70420 第1季整季。Bangumi 章节缺少标题和日期，无法独立核验逐集身份，因此确认季级映射，暂不生成仅按序号推定的逐集规则。\n\nhttps://bgm.tv/subject/218591 (page): Bangumi 标注第一季、13 话、2017年2月24日开播、Netflix 播出，官网指向 Netflix 作品 80081863。\n\nhttps://www.netflix.com/tw-en/title/80081863 (page): Netflix 官网确认这是2017年的13集墨西哥动画，剧情为能看见鬼魂的少年拯救村庄；主要配音与 TMDB 一致。页面展示的第1—10集标题及剧情均与 TMDB 第1季对应集一致。\n\nhttps://www.themoviedb.org/tv/70420 (api_snapshot): TMDB 70420 为 Legend Quest／Las Leyendas，首播日期2017年2月24日，由 Ánima Estudios 制作；剧情与 Bangumi 一致，配音包含 Benny Emmanuel、Mayte Cordeiro、Andrés Couturier；仅有1季13集。\n\nhttps://www.themoviedb.org/tv/70420/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集，全部日期为2017年2月24日；第1集为 The Prophecy，第13集为 The Serpent & the Egg，整季范围与该 subject 一致。\n\n备注：Bangumi 的13个章节均无标题及放送日期；需补充章节内容或标题后，才能建立可核验的逐集规则。",
+    "evidence": "codex: 官网链接、年份、剧情、动画媒介、配音与13集范围共同确认，该 subject 对应 TMDB 70420 第1季整季。Bangumi 章节缺少标题和日期，无法独立核验逐集身份，因此确认季级映射，暂不生成仅按序号推定的逐集规则。\n\nhttps://bgm.tv/subject/218591 (page): Bangumi 标注第一季、13 话、2017年2月24日开播、Netflix 播出，官网指向 Netflix 作品 80081863。\n\nhttps://www.netflix.com/tw-en/title/80081863 (page): Netflix 官网确认这是2017年的13集墨西哥动画，剧情为能看见鬼魂的少年拯救村庄；主要配音与 TMDB 一致。页面展示的第1—10集标题及剧情均与 TMDB 第1季对应集一致。\n\nhttps://www.themoviedb.org/tv/70420 (api_snapshot): TMDB 70420 为 Legend Quest／Las Leyendas，首播日期2017年2月24日，由 Ánima Estudios 制作；剧情与 Bangumi 一致，配音包含 Benny Emmanuel、Mayte Cordeiro、Andrés Couturier；仅有1季13集。\n\nhttps://www.themoviedb.org/tv/70420/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共13集，全部日期为2017年2月24日；第1集为 The Prophecy，第13集为 The Serpent & the Egg，整季范围与该 subject 一致。\n\n备注：Bangumi 的13个章节均无标题及放送日期；需补充章节内容或标题后，才能建立可核验的逐集规则。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/218591; https://www.netflix.com/tw-en/title/80081863; https://www.themoviedb.org/tv/70420; https://www.themoviedb.org/tv/70420/season/1",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 70420
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

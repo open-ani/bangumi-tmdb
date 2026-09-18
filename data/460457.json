@@ -140,12 +140,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季编号、首播日期、27集总量及前后作时间关系共同支持对应 TMDB 155256 第19季整季。Bangumi 各集标题及日期均为空，无法逐集交叉核对，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/155256 (api_snapshot): 第19季首播于2023-09-26，共27集，与 Bangumi 的第十九季别名、首播日期及集数一致；季表完整列出第1至27集，播出日期为2023-09-26至2023-10-08。第18、20季首播日期也分别与 Bangumi 前作、续作日期一致。\n\nhttps://www.themoviedb.org/tv/313749 (api_snapshot): 同名独立候选第1季仅收录编号27的一集，标题为占位名称且无放送日期，无法据此确认27集主体范围或单集对应。\n\n备注：逐集映射需补充 Bangumi 各集标题或放送日期；TMDB 当前标题均为集号占位名称。；候选未提供剧情简介，Bangumi 未提供制作公司，无法完成剧情及制作方交叉核验。；独立候选313749数据不完整，尚不能确认其完整收录范围。",
+    "evidence": "codex: 季编号、首播日期、27集总量及前后作时间关系共同支持对应 TMDB 155256 第19季整季。Bangumi 各集标题及日期均为空，无法逐集交叉核对，因此仅确认季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/155256 (api_snapshot): 第19季首播于2023-09-26，共27集，与 Bangumi 的第十九季别名、首播日期及集数一致；季表完整列出第1至27集，播出日期为2023-09-26至2023-10-08。第18、20季首播日期也分别与 Bangumi 前作、续作日期一致。\n\nhttps://www.themoviedb.org/tv/313749 (api_snapshot): 同名独立候选第1季仅收录编号27的一集，标题为占位名称且无放送日期，无法据此确认27集主体范围或单集对应。\n\n备注：逐集映射需补充 Bangumi 各集标题或放送日期；TMDB 当前标题均为集号占位名称。；候选未提供剧情简介，Bangumi 未提供制作公司，无法完成剧情及制作方交叉核验。；独立候选313749数据不完整，尚不能确认其完整收录范围。\n\n脚本按声明范围生成逐集规则：27 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/460457; https://www.themoviedb.org/tv/155256; https://www.themoviedb.org/tv/313749",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 27,
+      "episodeStart": 1,
+      "season": 19,
+      "start": 1,
+      "tmdbId": 155256
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

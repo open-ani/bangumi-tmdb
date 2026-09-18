@@ -1,16 +1,86 @@
 {
   "anidbId": 5246,
   "bangumiId": 4101,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 29574,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 29575,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 29576,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 29577,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 29578,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 29579,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 29580,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 29581,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 29582,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 29583,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 29584,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 29585,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是2007年的 TV 动画续篇《東京魔人學園剣風帖 龖 第弐幕》，共12集，并非电影、重制版或重剪版。TMDB 34726 将前作14集和《第弐幕》12集合并登记为单一的第1季：第1–14集为前作“外法编”，第15–26集则从“拳武十二神将”开始，到“ありがとう”结束，与本 subject 的12集标题及顺序逐集对应。因此正确映射是 TMDB TV 34726 的第1季第15–26集；旧候选所写第2季在 TMDB API 中不存在。\n\nhttps://www.themoviedb.org/tv/34726 (api_snapshot): TMDB API 快照确认 TV ID 34726 的原名为《東京魔人學園剣風帖 龖》，全剧共26集，并且仅登记一个含26集的第1季。\n\nhttps://www.themoviedb.org/tv/34726/season/1 (api_snapshot): TMDB 第1季 API 快照中，第15–26集依次为“拳武十二神将”“煉獄する咆哮”“心から変わろう”直至“歩め子らよ”“ありがとう”，与本 Bangumi subject 的12集逐集吻合，明确证明范围为 S1E15–E26。\n\nhttps://www.themoviedb.org/tv/34726/season/2 (api_snapshot): TMDB API 对第2季端点返回404，证明旧候选的 season=2 不符合 TMDB 当前分季结构。\n\nhttps://www.allcinema.net/cinema/327822 (page): allcinema 将《東京魔人學園剣風帖 龍龍（トウ）第弐幕》列为2007年日本 TV 动画，ANIMAX 播期为2007-07-27至2007-10-12，并列有12集。\n\nhttps://www.b-ch.com/titles/953/ (page): Bandai Channel 的独立作品页确认《第弐幕》是该 TV 动画的第2系列，剧情从前作九角天童之战结束后开始，并由“拳武十二神将”引出新篇章。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10188012&workId=10188 (page): d动画商店明确标示《東京魔人學園剣風帖 龍龍 第弐幕（全12話）》，其剧情、制作年份、导演和动画制作信息均与 Bangumi subject 相符。\n\n备注：TMDB 快照把第15–26集的播出日期填写为2007-04-27至2007-07-13，与可靠资料所载《第弐幕》实际播期2007-07-27至2007-10-12不符；这是TMDB日期元数据问题，不影响由完整日文集名和连续范围确定的映射。",
+    "evidence": "codex: 确认对应 TMDB 34726 第1季第15–26集。年份、TV媒介、续篇剧情、制作人员及12话集数相互吻合；逐集标题和篇章编号确认 Bangumi 第1–12话连续对应 S1E15–E26。TMDB 将前作14话与《第弐幕》12话合并为一季，因此作品所称“第二系列”不能直接映射为 TMDB 第2季。本范围不占用前作4100的第1–14集。\n\nhttps://www.themoviedb.org/tv/34726 (api_snapshot): 日文原名搜索命中 TV 34726；详情确认其为2007年动画，导演石平信司、编剧根元歳三，制作公司为 AIC 和 BeSTACK，与本作制作背景吻合。当前仅列第1季，共26集。\n\nhttps://www.themoviedb.org/tv/34726/season/1 (api_snapshot): 第1季完整集表共26集，total_pages=1。第1–14集属于外法篇；第15–26集依次为拳武十二神将、煉獄する咆哮、心から変わろう、拳は命を奪わない、護る拳、聖夜は微笑まない、渦王須、滅日、集う宿星、散らない桜、歩め子らよ、ありがとう，与输入12话逐集对应。第16集标题比 Bangumi 第2话多出「する」，其余为篇章前缀或字形差异。日期却逐集比输入早91天。\n\nhttps://www.b-ch.com/titles/953/ (page): 发行平台明确将《第弐幕》介绍为2007年TV动画的第二系列，剧情承接九角天童之战，新的敌人为拳武十二神将，与 Bangumi 简介一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10188012&workId=10188 (page): 标明《第弐幕》全12话、制作年份2007年；导演石平信司、系列构成根元歳三、动画制作 BeSTACK／AIC Spirits，确认版本及制作人员一致。\n\nhttps://www.allcinema.net/cinema/327822 (page): 列为2007年日本TV动画，共12集，ANIMAX播期为2007-07-27至2007-10-12，支持 Bangumi 播期而非 TMDB 的日期。\n\n备注：TMDB 第15–26集日期为2007-04-27至2007-07-13，逐集比 Bangumi 早91天；外部资料支持实际播期2007-07-27至2007-10-12。判断为 TMDB 日期元数据错误，映射依据为完整集名、篇章编号、集数及版本核验。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4101; https://www.themoviedb.org/tv/34726; https://www.themoviedb.org/tv/34726/season/1; https://www.themoviedb.org/tv/34726/season/2; https://www.allcinema.net/cinema/327822; https://www.b-ch.com/titles/953/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10188012&workId=10188",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/4101; https://www.themoviedb.org/tv/34726; https://www.themoviedb.org/tv/34726/season/1; https://www.b-ch.com/titles/953/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10188012&workId=10188; https://www.allcinema.net/cinema/327822",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 15,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34726
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

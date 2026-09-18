@@ -75,12 +75,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品性质、制作方、上线日期和第一季集数共同支持匹配 TV 98566 第 1 季整季。逐集顺序尚无可核对依据，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/98566 (api_snapshot): 候选 TV 98566 为华特迪士尼动画工作室制作的实验动画短片系列，首播日期为 2020-01-24，与 Bangumi 的制作方、作品性质和上线日期一致；其第 1 季共 14 集，与 subject 集数一致。\n\nhttps://www.themoviedb.org/tv/98566 (api_snapshot): 第 1 季 14 集的放送日期均为 2020-01-24，但标题仅为「第1話」至「第14話」，无法与 Bangumi 的具体短片标题逐集核对。\n\n备注：TMDB 候选缺少具体短片标题，Bangumi 各章节未提供放送日期；同日上线及集数相同不能证明逐集顺序，需要补充 TMDB 第 1 季的实际短片标题后确认章节对应。",
+    "evidence": "codex: 作品性质、制作方、上线日期和第一季集数共同支持匹配 TV 98566 第 1 季整季。逐集顺序尚无可核对依据，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/98566 (api_snapshot): 候选 TV 98566 为华特迪士尼动画工作室制作的实验动画短片系列，首播日期为 2020-01-24，与 Bangumi 的制作方、作品性质和上线日期一致；其第 1 季共 14 集，与 subject 集数一致。\n\nhttps://www.themoviedb.org/tv/98566 (api_snapshot): 第 1 季 14 集的放送日期均为 2020-01-24，但标题仅为「第1話」至「第14話」，无法与 Bangumi 的具体短片标题逐集核对。\n\n备注：TMDB 候选缺少具体短片标题，Bangumi 各章节未提供放送日期；同日上线及集数相同不能证明逐集顺序，需要补充 TMDB 第 1 季的实际短片标题后确认章节对应。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/316827; https://www.themoviedb.org/tv/98566",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 98566
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

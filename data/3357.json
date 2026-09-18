@@ -1,16 +1,161 @@
 {
   "anidbId": 3953,
   "bangumiId": 3357,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 148412,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 148413,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 148414,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 148415,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 148416,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 148417,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 148418,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 148419,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 148420,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 148421,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 148422,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 148423,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 148424,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 148425,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 148426,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 148427,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 148428,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 148429,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 148430,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 148431,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 148432,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 148433,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 148434,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 148435,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 148436,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 148437,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 148437,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 3357 的标题、首播日期（2005-10-01）、制作信息与 AniDB 3953（Fighting Beauty Wulong）相符；关联的 REBIRTH 是另一个 Bangumi subject，不应并入本主体。TMDB TV 34679 同名，首播日期为 2005-10-01，共分两季；第 1 季为 25 集，播出日期从 2005-10-01 至 2006-03-25，与 Bangumi infobox 的 25 集及播出区间完全对应。因此推荐 TMDB 第 1 季完整纳入。\n\nhttps://bgm.tv/subject/3357 (page): Bangumi subject 3357 为《格闘美神 武龍》，日期为 2005-10-01，标注 TV 动画、25 集，并关联 AniDB ID 3953；另有独立的《格闘美神 武龍 REBIRTH》subject。\n\nhttps://www.themoviedb.org/tv/34679 (api_snapshot): TMDB 34679 同名《格闘美神 武龍》，首播日期 2005-10-01，共 50 集，分为第 1 季和第 2 季，各 25 集；第 1 季首播日期为 2005-10-01。\n\nhttps://www.themoviedb.org/tv/34679/season/1 (api_snapshot): TMDB 第 1 季包含第 1 至第 25 集，日期从 2005-10-01 连续至 2006-03-25；该范围与 Bangumi 主体的播出区间及 25 集信息吻合。\n\nhttps://www.allcinema.net/cinema/323507 (search_snippet): 搜索摘要显示 TV 动画《格闘美神 武龍》播出区间为 2005/10/01 至 2006/03/25。\n\nhttps://en.wikipedia.org/wiki/Fighting_Beauty_Wulong (search_snippet): 搜索摘要显示该动画分为两个各 25 集的电视季，第一季为 2005 年播出至 2006 年 3 月，第二季为 Rebirth。\n\n备注：Bangumi 的 regularEpisodes 数据额外出现一个无标题的第 26 项，但 infobox 标注 25 集，且 TMDB 第 1 季与公开播出区间均为 25 集；该空白项不足以支持把第 26 集纳入。",
+    "evidence": "codex: 确认对应TMDB 34679第一季完整25集。年份、TV媒介、制作信息、剧情及第一期范围一致；以官方逐话标题衔接Bangumi章节，再以官方逐话日期核对TMDB集表，确认第1至25话顺序对应。REBIRTH属于后续独立主体，不纳入。官方明确第25话完结，因此排除输入中无标题、无日期的第26项。\n\nhttps://www.themoviedb.org/tv/34679 (api_snapshot): 日文原名搜索命中 TV 34679；详情确认原名《格闘美神 武龍》，首播于2005-10-01，共两季各25集，第二季始于2006-04-01。\n\nhttps://www.themoviedb.org/tv/34679/season/1 (api_snapshot): 第一季集表已完整读取，共25集、1页。第1至25集播出日期与东京电视台官方逐话表全部对应，范围为2005-10-01至2006-03-25；第13、14集之间亦一致保留跨年停播间隔。TMDB集标题仅为通用编号。\n\nhttps://www.tv-tokyo.co.jp/contents/wulong/episodes/index.html (page): 官方逐话表的25个标题与输入中Bangumi第1至25话逐一对应，仅有标点、大小写及汉字／假名写法差异。每话均列播出日期，末话《旅立ちの歌》明确标为最终话。剧情围绕兰参加女子综合格斗赛事、使用居合拳展开，与输入简介一致。\n\nhttps://www.wikizero.org/wiki/ja/%E6%A0%BC%E9%97%98%E7%BE%8E%E7%A5%9E_%E6%AD%A6%E9%BE%8D (search_snippet): 资料列明原作石川優吾、动画制作及制作方トムス・エンタテインメント与テレビ東京；第一期为2005-10-01至2006-03-25的25话TV动画，第二期另名REBIRTH，与输入制作信息及版本划分一致。\n\n备注：Bangumi第26项的实际内容及产生原因不明；目前没有对应正片或特别篇的证据，保留空目标排除。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3357; https://www.themoviedb.org/tv/34679; https://www.themoviedb.org/tv/34679/season/1; https://www.allcinema.net/cinema/323507; https://en.wikipedia.org/wiki/Fighting_Beauty_Wulong",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3357; https://www.themoviedb.org/tv/34679; https://www.themoviedb.org/tv/34679/season/1; https://www.tv-tokyo.co.jp/contents/wulong/episodes/index.html; https://www.wikizero.org/wiki/ja/%E6%A0%BC%E9%97%98%E7%BE%8E%E7%A5%9E_%E6%AD%A6%E9%BE%8D",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34679
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品、年份、创作者、剧情、动画剧集形式及九集范围相符，确认对应 TMDB 132141 第 1 季整季。Bangumi 输入的逐集标题和日期全部为空，暂不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/132141 (api_snapshot): 以 Maya and the Three 搜索得到 TV 132141；详情确认首播及完结日期均为 2021-10-22，共一季九集，公主为实现预言、拯救人类而冒险的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/132141/season/1 (api_snapshot): 第 1 季为 Limited Series，季表共九集且只有一页；全部日期为 2021-10-22。九集标题及顺序逐一与 Netflix 官方集表一致，覆盖 Chapter 1 至 Chapter 9。\n\nhttps://www.netflix.com/title/80244283 (page): 输入所指的 Netflix 官方页面确认这是 2021 年限定动画剧集，创作者为 Jorge R. Gutiérrez；剧情、配音阵容与 TMDB 相符，官方完整集表为九集，未混入预告片。\n\n备注：Bangumi 章节页未能成功读取；九个章节缺少可独立核对的标题或日期，因此逐集映射留空，待补充章节资料后确认。",
+    "evidence": "codex: 作品、年份、创作者、剧情、动画剧集形式及九集范围相符，确认对应 TMDB 132141 第 1 季整季。Bangumi 输入的逐集标题和日期全部为空，暂不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/132141 (api_snapshot): 以 Maya and the Three 搜索得到 TV 132141；详情确认首播及完结日期均为 2021-10-22，共一季九集，公主为实现预言、拯救人类而冒险的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/132141/season/1 (api_snapshot): 第 1 季为 Limited Series，季表共九集且只有一页；全部日期为 2021-10-22。九集标题及顺序逐一与 Netflix 官方集表一致，覆盖 Chapter 1 至 Chapter 9。\n\nhttps://www.netflix.com/title/80244283 (page): 输入所指的 Netflix 官方页面确认这是 2021 年限定动画剧集，创作者为 Jorge R. Gutiérrez；剧情、配音阵容与 TMDB 相符，官方完整集表为九集，未混入预告片。\n\n备注：Bangumi 章节页未能成功读取；九个章节缺少可独立核对的标题或日期，因此逐集映射留空，待补充章节资料后确认。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/387548; https://www.themoviedb.org/tv/132141; https://www.themoviedb.org/tv/132141/season/1; https://www.netflix.com/title/80244283",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 132141
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

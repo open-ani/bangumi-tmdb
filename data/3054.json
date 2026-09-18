@@ -1,14 +1,120 @@
 {
   "anidbId": 4149,
   "bangumiId": 3054,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 21526,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 21527,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 21528,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 21529,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 21530,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 21531,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 21532,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 21533,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 210778,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 559887,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 559888,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 559889,
+      "sort": 4,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 210778,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45286,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 559887,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 45286,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 559888,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 45286,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 559889,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 45286,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB TV 45286 与 Bangumi subject 同为日本动画《大魔法峠》：原名一致，剧情均以从魔法王国来到人间学校、擅长关节技的田中ぷにえ为主角。TMDB 第 1 季将每两个 Bangumi 正篇合并编为一集：S1E1 对应正篇 1–2，S1E2 对应 3–4，S1E3 对应 5–6，S1E4 对应 7–8，因此完整第 1 季正好覆盖该 subject 的全部 8 个正篇。TMDB 第 0 季收录的是 Bangumi 已标为特殊篇的四个“ぷにえの里帰り”短篇，不纳入本轮正篇映射。\n\nhttps://www.themoviedb.org/tv/45286 (api_snapshot): TMDB API 快照显示 TV 45286 的名称及原名均为《大魔法峠》，是日本、日语的 2006 年作品；简介中的田中ぷにえ、魔法王国、地上学校及以关节技制敌等设定与 Bangumi 作品相符。\n\nhttps://www.themoviedb.org/tv/45286/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 4 集；四集标题依次各自合并 Bangumi 正篇 1–2、3–4、5–6、7–8 的标题，完整覆盖全部 8 个正篇。\n\nhttps://www.themoviedb.org/tv/45286/season/0 (api_snapshot): TMDB API 快照显示第 0 季四集为“ぷにえ（ちゃん）の里帰り”的文明编、社会情势编、食材编及エスメラルダ编，与 Bangumi 的四个特殊篇对应，并非本 subject 的八个正篇。",
+    "evidence": "codex: 确认对应TMDB TV 45286：作品年份、剧情、导演、制作公司及全部章节内容一致。第1季4集完整覆盖8话正篇，第0季1—4集对应四个SP。正篇属于两话合为一集，无法在“同一TMDB集不能被两个Bangumi章节占用”的约束下完整表达，因此仅声明已核实的整季范围，正篇逐集映射留空；四个SP使用override精确对应。\n\nhttps://bgm.tv/subject/3054 (page): Bangumi 将本作列为2006—2007年发行的8话OVA；导演为水島努，动画制作为Studio Barcelona（现diomedéa），剧情围绕擅长关节技的魔法王国公主田中ぷにえ展开。\n\nhttps://www.themoviedb.org/tv/45286 (api_snapshot): TMDB 45286的原名、2006年年份、主角与剧情、导演水島努及制作公司diomedéa均与本作吻合；详情列有第1季4集及第0季4集。\n\nhttps://www.themoviedb.org/tv/45286/season/1 (api_snapshot): 第1季完整集表共4集：每集标题及剧情分别合并Bangumi正篇1—2、3—4、5—6、7—8话，覆盖全部8话。日期却标为2006-03-03至2006-03-24，与发行资料不符。\n\nhttps://www.themoviedb.org/tv/45286/season/0 (api_snapshot): 第0季完整集表共4集，依次为返乡特别篇的文明篇、社会情势篇、食材篇、エスメラルダ篇，与输入的四个SP逐一吻合。\n\nhttps://www.punie.jp/dvd/ (page): 官方DVD资料将8话分为四卷，每卷依次收录两话；四卷映像特典依次为文明篇、社会情势篇、食材篇及エスメラルダ篇。标题及分卷结构支持TMDB的合并编排。\n\nhttps://books.rakuten.co.jp/rb/4134204/ (search_snippet): 第4卷商品资料明确记载发行日为2007-03-21，导演为水島努，支持Bangumi所列发行结束日期。\n\n备注：TMDB正篇及特别篇的日期与官方DVD发行排期存在冲突，不能作为逐集匹配依据；本次对应由完整标题、剧情和官方分卷内容确认。；正篇内容对应已确认，但当前映射约束不支持多对一；未任选其中一话占用合并集，也未将另一话标为排除。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3054; https://www.themoviedb.org/tv/45286; https://www.themoviedb.org/tv/45286/season/1; https://www.themoviedb.org/tv/45286/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3054; https://www.themoviedb.org/tv/45286; https://www.themoviedb.org/tv/45286/season/1; https://www.themoviedb.org/tv/45286/season/0; https://www.punie.jp/dvd/; https://books.rakuten.co.jp/rb/4134204/",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,6 +122,13 @@
     {
       "id": 45286,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 45286,
+      "season": 0,
       "type": "tv"
     }
   ]

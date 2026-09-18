@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作公司及完整26集季表共同支持对应 TMDB 230979 第1季整季。Bangumi 各集标题与日期均为空，无法逐集交叉核实，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/230979 (api_snapshot): 《龙时代》首播日期为2023-07-20，与 Bangumi 一致；候选为中国动画，制作公司 Harbin Xueren Culture 与 Bangumi 的哈尔滨雪人文化相符。\n\nhttps://www.themoviedb.org/tv/230979 (api_snapshot): 候选仅有第1季，共26集，与 Bangumi 的26集本篇规模一致；季表完整列出第1至26集，放送日期从2023-07-20至2024-01-11。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期；候选标题均为集号占位，不能仅凭位置建立映射。；候选未提供剧情简介，无法直接核对辛云重生及龙珠争夺的剧情。",
+    "evidence": "codex: 名称、首播日期、动画媒介、制作公司及完整26集季表共同支持对应 TMDB 230979 第1季整季。Bangumi 各集标题与日期均为空，无法逐集交叉核实，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/230979 (api_snapshot): 《龙时代》首播日期为2023-07-20，与 Bangumi 一致；候选为中国动画，制作公司 Harbin Xueren Culture 与 Bangumi 的哈尔滨雪人文化相符。\n\nhttps://www.themoviedb.org/tv/230979 (api_snapshot): 候选仅有第1季，共26集，与 Bangumi 的26集本篇规模一致；季表完整列出第1至26集，放送日期从2023-07-20至2024-01-11。\n\n备注：逐集对应需补充 Bangumi 各集标题或放送日期；候选标题均为集号占位，不能仅凭位置建立映射。；候选未提供剧情简介，无法直接核对辛云重生及龙珠争夺的剧情。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/441806; https://www.themoviedb.org/tv/230979",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 230979
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、季次、集数、放送起止日期及前后季信息相互吻合，可确认对应 TMDB 5200 第12季整季。逐集信息不足，暂不生成章节对应规则。\n\nhttps://www.themoviedb.org/tv/5200 (api_snapshot): TMDB 5200 的制作公司包含 Mattel Television，与 Bangumi 简介一致；第12季共13集，首末集日期为2020-10-26和2021-02-17，与 Bangumi 的话数及放送起止日期完全一致。第11、13季首播日期也与 Bangumi 前后续条目一致。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 标题也仅为集号占位，无法核实逐集顺序；需补充章节标题或日期后再建立 rules 或 overrides。",
+    "evidence": "codex: 制作方、季次、集数、放送起止日期及前后季信息相互吻合，可确认对应 TMDB 5200 第12季整季。逐集信息不足，暂不生成章节对应规则。\n\nhttps://www.themoviedb.org/tv/5200 (api_snapshot): TMDB 5200 的制作公司包含 Mattel Television，与 Bangumi 简介一致；第12季共13集，首末集日期为2020-10-26和2021-02-17，与 Bangumi 的话数及放送起止日期完全一致。第11、13季首播日期也与 Bangumi 前后续条目一致。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 标题也仅为集号占位，无法核实逐集顺序；需补充章节标题或日期后再建立 rules 或 overrides。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/658445; https://www.themoviedb.org/tv/5200",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 12,
+      "start": 1,
+      "tmdbId": 5200
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

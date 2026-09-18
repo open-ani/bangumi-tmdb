@@ -155,12 +155,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介及 30 集规模一致，可确认对应候选 304255 第 1 季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核实，因此不建立连续规则。\n\nhttps://www.themoviedb.org/tv/304255 (api_snapshot): 候选 304255 与 Bangumi 日文名称相同，首播日期均为 2025-10-31，媒介标注为动画；唯一列出的第 1 季共 30 集，与 subject 本篇总数一致。季表完整列出第 1—30 集，未显示混入其他作品。\n\n备注：候选未提供剧情简介，制作公司字段为空，无法核对剧情及 ZERO Animation 制作信息。；TMDB 各集只有编号式标题且日期相同；需补充 Bangumi 分集标题、日期或可靠分集对照，才能确认逐集对应关系。",
+    "evidence": "codex: 名称、首播日期、动画媒介及 30 集规模一致，可确认对应候选 304255 第 1 季整季。Bangumi 各集标题和日期均为空，无法逐集交叉核实，因此不建立连续规则。\n\nhttps://www.themoviedb.org/tv/304255 (api_snapshot): 候选 304255 与 Bangumi 日文名称相同，首播日期均为 2025-10-31，媒介标注为动画；唯一列出的第 1 季共 30 集，与 subject 本篇总数一致。季表完整列出第 1—30 集，未显示混入其他作品。\n\n备注：候选未提供剧情简介，制作公司字段为空，无法核对剧情及 ZERO Animation 制作信息。；TMDB 各集只有编号式标题且日期相同；需补充 Bangumi 分集标题、日期或可靠分集对照，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：30 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/589808; https://www.themoviedb.org/tv/304255",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 30,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 304255
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

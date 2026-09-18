@@ -100,12 +100,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 129959 第三季整季。作品版本、制作方、角色与剧情经官方资料核实；第三季上线日期和19集范围与 Bangumi 输入一致，实际季表未混入其他作品。Bangumi 的19个章节均缺少标题及日期，无法进行逐集交叉比对，因此只确认整季范围，不凭章节位置生成 rules。\n\nhttps://www.themoviedb.org/tv/129959 (api_snapshot): TMDB 129959 为《Kung Fu Panda: The Dragon Knight》，2022年开播，由 DreamWorks Animation Television 制作，Jack Black 配音阿宝；剧情为阿宝与英国骑士寻找四件武器。第三季标记为2023-09-07上线，共19集。\n\nhttps://www.themoviedb.org/tv/129959/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共19集，集号连续为1至19，日期全部为2023-09-07。首集为 The Trial of Mr. Ping，末集为 The Dragon Knights (2)，内容为神龙骑士处理天上武器危机的连续剧情。\n\nhttps://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news (page): Netflix 官方公告确认本作为 Netflix 与 DreamWorks 的CG动画剧集，Jack Black 配音阿宝，执行制片人为 Peter Hastings、Shaunt Nigoghossian；角色与寻找魔法武器的剧情均与 TMDB 一致。\n\nhttps://www.youtube.com/watch?v=pB1u-ShkGNY (search_snippet): Netflix 官方频道2023年8月24日发布的第三季预告明确宣布第三季于9月7日在 Netflix 上线，与 Bangumi 输入及 TMDB 季表日期吻合。\n\nhttps://www.tvguide.com/tvshows/kung-fu-panda-the-dragon-knight/episodes-season-3/1001054762/ (search_snippet): TV Guide 第三季资料列出2023年共19集，首集为 The Trial of Mr. Ping，日期为2023-09-07，与 TMDB 第三季范围一致。\n\n备注：Bangumi 页面与 API 本次未能成功读取；Bangumi 侧依据用户提供的快照。逐集映射需补充带标题或放送日期的 Bangumi 章节资料后再核实。",
+    "evidence": "codex: 确认对应 TMDB 129959 第三季整季。作品版本、制作方、角色与剧情经官方资料核实；第三季上线日期和19集范围与 Bangumi 输入一致，实际季表未混入其他作品。Bangumi 的19个章节均缺少标题及日期，无法进行逐集交叉比对，因此只确认整季范围，不凭章节位置生成 rules。\n\nhttps://www.themoviedb.org/tv/129959 (api_snapshot): TMDB 129959 为《Kung Fu Panda: The Dragon Knight》，2022年开播，由 DreamWorks Animation Television 制作，Jack Black 配音阿宝；剧情为阿宝与英国骑士寻找四件武器。第三季标记为2023-09-07上线，共19集。\n\nhttps://www.themoviedb.org/tv/129959/season/3 (api_snapshot): 实际读取第三季完整集表，total_pages=1，共19集，集号连续为1至19，日期全部为2023-09-07。首集为 The Trial of Mr. Ping，末集为 The Dragon Knights (2)，内容为神龙骑士处理天上武器危机的连续剧情。\n\nhttps://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news (page): Netflix 官方公告确认本作为 Netflix 与 DreamWorks 的CG动画剧集，Jack Black 配音阿宝，执行制片人为 Peter Hastings、Shaunt Nigoghossian；角色与寻找魔法武器的剧情均与 TMDB 一致。\n\nhttps://www.youtube.com/watch?v=pB1u-ShkGNY (search_snippet): Netflix 官方频道2023年8月24日发布的第三季预告明确宣布第三季于9月7日在 Netflix 上线，与 Bangumi 输入及 TMDB 季表日期吻合。\n\nhttps://www.tvguide.com/tvshows/kung-fu-panda-the-dragon-knight/episodes-season-3/1001054762/ (search_snippet): TV Guide 第三季资料列出2023年共19集，首集为 The Trial of Mr. Ping，日期为2023-09-07，与 TMDB 第三季范围一致。\n\n备注：Bangumi 页面与 API 本次未能成功读取；Bangumi 侧依据用户提供的快照。逐集映射需补充带标题或放送日期的 Bangumi 章节资料后再核实。\n\n脚本按声明范围生成逐集规则：19 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/452836; https://www.themoviedb.org/tv/129959; https://www.themoviedb.org/tv/129959/season/3; https://about.netflix.com/en/news/kung-fu-panda-the-dragon-knight-official-series-announcement-casting-news; https://www.youtube.com/watch?v=pB1u-ShkGNY; https://www.tvguide.com/tvshows/kung-fu-panda-the-dragon-knight/episodes-season-3/1001054762/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 129959
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

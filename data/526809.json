@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、媒介和完整52集季表共同支持对应 TMDB 255126 第1季。逐集缺少可交叉核对的标题和日期，因此只确认整季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/255126 (api_snapshot): 候选《天才小鲁班》为中国动画剧集，首播日期为2024-01-22，与 Bangumi 名称、首播日期及动画媒介一致；唯一列出的第1季共52集，季表完整，与 subject 的52集本篇范围一致。\n\nhttps://www.themoviedb.org/tv/255126 (api_snapshot): 第1季52集的放送日期覆盖2024-01-22至2024-02-08，标题均为集号占位文本；Bangumi 各集标题和日期为空，无法逐集交叉验证。\n\n备注：候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对剧情及制作方。；需补充 Bangumi 各集标题或放送日期，才能确认逐集对应关系。",
+    "evidence": "codex: 名称、首播日期、媒介和完整52集季表共同支持对应 TMDB 255126 第1季。逐集缺少可交叉核对的标题和日期，因此只确认整季范围，不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/255126 (api_snapshot): 候选《天才小鲁班》为中国动画剧集，首播日期为2024-01-22，与 Bangumi 名称、首播日期及动画媒介一致；唯一列出的第1季共52集，季表完整，与 subject 的52集本篇范围一致。\n\nhttps://www.themoviedb.org/tv/255126 (api_snapshot): 第1季52集的放送日期覆盖2024-01-22至2024-02-08，标题均为集号占位文本；Bangumi 各集标题和日期为空，无法逐集交叉验证。\n\n备注：候选未提供剧情简介，Bangumi 未提供制作公司，无法交叉核对剧情及制作方。；需补充 Bangumi 各集标题或放送日期，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/526809; https://www.themoviedb.org/tv/255126",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 255126
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

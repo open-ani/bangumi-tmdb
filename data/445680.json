@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、首播日期、52集规模及前后作时间均吻合，可确认对应 TMDB 157689 第2季整季。Bangumi 各集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/157689 (api_snapshot): TMDB 157689《熊熊帮帮团》第2季首播于2023-07-14，共52集，与 Bangumi 本条目的季度、首播日期和本篇集数一致；候选逐集表完整列出第1—52集。\n\nhttps://www.themoviedb.org/tv/157689 (api_snapshot): 候选第1季首播日期2021-12-10、第3季首播日期2024-12-20，分别与 Bangumi 前作、续作的日期一致，支持本条目对应第2季。\n\n备注：候选未提供剧情简介及制作公司信息，无法交叉核对这两项。；TMDB 各集标题均为通用编号；需补充 Bangumi 逐集标题或播出日期后才能确认逐集对应关系。",
+    "evidence": "codex: 季度、首播日期、52集规模及前后作时间均吻合，可确认对应 TMDB 157689 第2季整季。Bangumi 各集标题和日期均为空，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/157689 (api_snapshot): TMDB 157689《熊熊帮帮团》第2季首播于2023-07-14，共52集，与 Bangumi 本条目的季度、首播日期和本篇集数一致；候选逐集表完整列出第1—52集。\n\nhttps://www.themoviedb.org/tv/157689 (api_snapshot): 候选第1季首播日期2021-12-10、第3季首播日期2024-12-20，分别与 Bangumi 前作、续作的日期一致，支持本条目对应第2季。\n\n备注：候选未提供剧情简介及制作公司信息，无法交叉核对这两项。；TMDB 各集标题均为通用编号；需补充 Bangumi 逐集标题或播出日期后才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/445680; https://www.themoviedb.org/tv/157689",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 157689
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

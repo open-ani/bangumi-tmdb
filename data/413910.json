@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称、首播日期、动画媒介、制作方及52集季表共同支持对应 TMDB 205953 第1季全季。逐集标题不可比对，日期也不足以确认顺序，因此只确认作品与季范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/205953 (api_snapshot): 候选为中国儿童动画《天真与功夫袜》，首播日期为2021-08-03，制作公司为腾讯视频、优扬传媒，与 Bangumi 的年份、媒介及出品方一致；第1季完整列出52集，与 subject 集数一致，第2季为0集。\n\nhttps://www.themoviedb.org/tv/205953 (api_snapshot): 第1季逐集标题均为编号占位标题。第1—4集日期与 Bangumi 相同；第5—26集日期与 Bangumi 不同；第27—52集在 Bangumi 中缺少日期，无法据此核实逐集顺序。\n\n备注：候选未提供剧情简介，无法直接核对剧情。；需要真实分集标题或可核实的版本播出表，才能确认逐集对应，并解释第5—26集日期差异；不能仅凭相同集数推定顺序。",
+    "evidence": "codex: 确认对应 TMDB 205953 第1季全52集。原名、年份、剧情、动画剧集形式及制作方一致；本次季表提供了真实中文分集标题，52集标题与顺序逐一吻合，足以建立本篇1—52集的一对一连续映射。\n\nhttps://www.themoviedb.org/tv/205953 (api_snapshot): 以中文原名及别名 Kung Fu Wa! 搜索，均返回 TMDB 205953。详情确认首播为2021-08-03，制作公司为腾讯视频、优扬传媒；女孩天真与来自异世界的功夫袜变身、在星星岛对抗邪恶的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/205953/season/1 (api_snapshot): 实际读取第1季完整集表：共52集，total_pages=1，每集11分钟。逐集核对后，第1—52集中文标题及顺序均与 Bangumi 对应，仅第48集“假如”省略了省略号；不存在合并或拆集。第1—4集日期一致，第5—26集日期不同，第27—52集在输入中没有日期。\n\n备注：Bangumi 第5—26集统一标为2021-08-03，与 TMDB 分批播出日期不同，差异原因未确认；逐集标题与完整集数一致，映射不依赖这些日期推测。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/413910; https://www.themoviedb.org/tv/205953",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/413910; https://www.themoviedb.org/tv/205953; https://www.themoviedb.org/tv/205953/season/1",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 205953
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

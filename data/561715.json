@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、动画媒介、第14季编号、开播日期、10集规模及前后续日期相互吻合，可确认对应 TMDB 2122 第14季整季。逐集缺乏可比对信息，保留季级映射，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/2122 (api_snapshot): TMDB 2122 为美国动画剧集《King of the Hill》，第14季共10集，季首播及全部10集日期均为2025-08-04，与 Bangumi 的季编号、开播日期和本篇集数一致。第13季与第15季首播日期也分别与 Bangumi 前后续条目一致。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 集标题仅为编号占位，无法独立核实逐集对应顺序；需补充章节标题或逐集日期后建立规则。",
+    "evidence": "codex: 原名、动画媒介、第14季编号、开播日期、10集规模及前后续日期相互吻合，可确认对应 TMDB 2122 第14季整季。逐集缺乏可比对信息，保留季级映射，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/2122 (api_snapshot): TMDB 2122 为美国动画剧集《King of the Hill》，第14季共10集，季首播及全部10集日期均为2025-08-04，与 Bangumi 的季编号、开播日期和本篇集数一致。第13季与第15季首播日期也分别与 Bangumi 前后续条目一致。\n\n备注：Bangumi 全部章节缺少标题和放送日期，TMDB 集标题仅为编号占位，无法独立核实逐集对应顺序；需补充章节标题或逐集日期后建立规则。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/561715; https://www.themoviedb.org/tv/2122",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 14,
+      "start": 1,
+      "tmdbId": 2122
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

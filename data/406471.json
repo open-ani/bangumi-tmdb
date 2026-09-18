@@ -96,12 +96,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 225161 第 1 季整季。年份、首播日期、剧情人物、制作公司、网络动画版本及 18 集范围相符，官方平台亦确认完整主体为 18 话。作品与季范围证据充分；Bangumi 各章缺少标题、日期，暂不凭编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/406471 (page): Bangumi 标注为 2023 年 4 月 24 日开播的 WEB 动画，共 18 话；原作为芽见，导演马晓波，动画制作绚素文化，制作方 bilibili。\n\nhttps://www.themoviedb.org/tv/225161 (api_snapshot): TMDB 225161 原名及别名与 Bangumi 一致，首播日期为 2023-04-24；姚灵、胡小臻与马神的剧情一致，制作公司同为 bilibili、绚素文化；已完结，共 1 季 18 集。演职员字段为空，不能据此核实导演。\n\nhttps://www.themoviedb.org/tv/225161/season/1 (api_snapshot): 已读取第 1 季完整集表，total_pages=1，共 18 集，编号连续为 1–18；前两集同于 2023-04-24 播出，第 3–18 集每周更新至 2023-08-14。全部为该动画正篇，未见其他作品或特别篇混入。\n\nhttps://www.bilibili.com/bangumi/media/md28339916/ (search_snippet): bilibili 官方作品页显示 2023 年 4 月 24 日开播、已完结全 18 话，剧情与两站一致；摘要列出的第 1–8 话标题均与 TMDB 对应集号一致。\n\nhttps://bgm.tv/subject/406471/ep (page): Bangumi 章节页列出本篇第 1–18 话，但均缺少标题和播出日期，无法进行 Bangumi 章节层面的逐集交叉比对。\n\n备注：逐集映射留空：需补充 Bangumi 章节标题、播出日期或其他能明确关联章节 ID 与官方集次的资料后，再生成 rules。",
+    "evidence": "codex: 确认对应 TMDB 225161 第 1 季整季。年份、首播日期、剧情人物、制作公司、网络动画版本及 18 集范围相符，官方平台亦确认完整主体为 18 话。作品与季范围证据充分；Bangumi 各章缺少标题、日期，暂不凭编号位置生成逐集规则。\n\nhttps://bgm.tv/subject/406471 (page): Bangumi 标注为 2023 年 4 月 24 日开播的 WEB 动画，共 18 话；原作为芽见，导演马晓波，动画制作绚素文化，制作方 bilibili。\n\nhttps://www.themoviedb.org/tv/225161 (api_snapshot): TMDB 225161 原名及别名与 Bangumi 一致，首播日期为 2023-04-24；姚灵、胡小臻与马神的剧情一致，制作公司同为 bilibili、绚素文化；已完结，共 1 季 18 集。演职员字段为空，不能据此核实导演。\n\nhttps://www.themoviedb.org/tv/225161/season/1 (api_snapshot): 已读取第 1 季完整集表，total_pages=1，共 18 集，编号连续为 1–18；前两集同于 2023-04-24 播出，第 3–18 集每周更新至 2023-08-14。全部为该动画正篇，未见其他作品或特别篇混入。\n\nhttps://www.bilibili.com/bangumi/media/md28339916/ (search_snippet): bilibili 官方作品页显示 2023 年 4 月 24 日开播、已完结全 18 话，剧情与两站一致；摘要列出的第 1–8 话标题均与 TMDB 对应集号一致。\n\nhttps://bgm.tv/subject/406471/ep (page): Bangumi 章节页列出本篇第 1–18 话，但均缺少标题和播出日期，无法进行 Bangumi 章节层面的逐集交叉比对。\n\n备注：逐集映射留空：需补充 Bangumi 章节标题、播出日期或其他能明确关联章节 ID 与官方集次的资料后，再生成 rules。\n\n脚本按声明范围生成逐集规则：18 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/406471; https://www.themoviedb.org/tv/225161; https://www.themoviedb.org/tv/225161/season/1; https://www.bilibili.com/bangumi/media/md28339916/; https://bgm.tv/subject/406471/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 225161
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

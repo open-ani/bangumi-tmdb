@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季号、首播日期、12集总量及前后季关系共同支持对应 TMDB 223916 第13季整季。Bangumi 各章节标题和放送日期均为空，无法逐集交叉核验，因此仅确认整季归属，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): TMDB 223916《肥志百科》第13季首播日期为2025-10-05，共12集，与 Bangumi 的季号、首播日期及本篇总数一致；该季逐集表完整列出第1至12集，放送日期为2025-10-05至2025-12-14。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选第12季首播日期为2025-04-06，第14季为2026-01-25，分别与 Bangumi 前作、续作的季号及日期吻合，支持第13季的范围判定。\n\n备注：逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期，尤其核对 TMDB 首日连播两集的安排。；Bangumi 未提供剧情及制作方，无法核对这些维度。",
+    "evidence": "codex: 季号、首播日期、12集总量及前后季关系共同支持对应 TMDB 223916 第13季整季。Bangumi 各章节标题和放送日期均为空，无法逐集交叉核验，因此仅确认整季归属，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): TMDB 223916《肥志百科》第13季首播日期为2025-10-05，共12集，与 Bangumi 的季号、首播日期及本篇总数一致；该季逐集表完整列出第1至12集，放送日期为2025-10-05至2025-12-14。\n\nhttps://www.themoviedb.org/tv/223916 (api_snapshot): 候选第12季首播日期为2025-04-06，第14季为2026-01-25，分别与 Bangumi 前作、续作的季号及日期吻合，支持第13季的范围判定。\n\n备注：逐集对应尚未确认；需补充 Bangumi 各集标题或放送日期，尤其核对 TMDB 首日连播两集的安排。；Bangumi 未提供剧情及制作方，无法核对这些维度。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/589204; https://www.themoviedb.org/tv/223916",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 13,
+      "start": 1,
+      "tmdbId": 223916
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -305,12 +305,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名、首播日期、电视动画媒介及60集总量一致，候选独立条目的第1季完整覆盖该 subject，可确认整季对应。Bangumi 各章节缺少标题和放送日期，无法逐集交叉核实，故暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/243733 (api_snapshot): 候选为中国电视动画《喜羊羊与灰太狼之心世界奇遇》，首播日期为2024-01-19，与 Bangumi 的作品名、媒介和首播日期一致。\n\nhttps://www.themoviedb.org/tv/243733 (api_snapshot): 候选仅列第1季，共60集，季表完整列出第1—60集，放送日期为2024-01-19至2024-02-02；总集数与 Bangumi 一致。集标题均为编号占位标题。\n\n备注：Bangumi 的60个章节标题与放送日期均为空，需补充逐集资料后才能确认顺序及是否存在拆分、合并。；输入缺少可交叉核对的剧情与 Bangumi 制作公司资料。",
+    "evidence": "codex: 作品名、首播日期、电视动画媒介及60集总量一致，候选独立条目的第1季完整覆盖该 subject，可确认整季对应。Bangumi 各章节缺少标题和放送日期，无法逐集交叉核实，故暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/243733 (api_snapshot): 候选为中国电视动画《喜羊羊与灰太狼之心世界奇遇》，首播日期为2024-01-19，与 Bangumi 的作品名、媒介和首播日期一致。\n\nhttps://www.themoviedb.org/tv/243733 (api_snapshot): 候选仅列第1季，共60集，季表完整列出第1—60集，放送日期为2024-01-19至2024-02-02；总集数与 Bangumi 一致。集标题均为编号占位标题。\n\n备注：Bangumi 的60个章节标题与放送日期均为空，需补充逐集资料后才能确认顺序及是否存在拆分、合并。；输入缺少可交叉核对的剧情与 Bangumi 制作公司资料。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/464480; https://www.themoviedb.org/tv/243733",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 243733
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

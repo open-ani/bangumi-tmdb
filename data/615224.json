@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认本作整体对应TMDB 70288第6季：季名、制作方、12集总量、逐集表的播出起止日期及前后作关系相互吻合。Bangumi各章节均缺少标题和日期，无法逐集交叉核验，因此只声明整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/70288 (api_snapshot): 第6季名称对应“幽灵球Z 暗之退魔师”，共12集；逐集表首末集日期为2021-09-16和2021-12-16，与Bangumi的集数及播出起止日期一致。制作公司包含CJ ENM、STUDIO EEK，与Bangumi资料相符。\n\nhttps://www.themoviedb.org/tv/70288 (api_snapshot): 第5季和第7季分别对应Bangumi所列前作“可疑的委托”和续作“鬼道退魔师”，逐集表首播日期也分别对应2020-10-08和2022-04-28，支持本作属于第6季且不跨季。\n\nhttps://www.themoviedb.org/tv/239437 (api_snapshot): 独立同名TV条目的首播日期一致，但第1季仅收录1集，缺少剧情和制作公司资料，无法确认其覆盖本作完整12集。\n\n备注：需补充Bangumi各集标题或播出日期后，才能确认逐集对应关系。；TMDB第6季季级日期为2021-09-15，比其第1集日期及Bangumi首播日期早一天；此处采用逐集表日期核对。",
+    "evidence": "codex: 可确认本作整体对应TMDB 70288第6季：季名、制作方、12集总量、逐集表的播出起止日期及前后作关系相互吻合。Bangumi各章节均缺少标题和日期，无法逐集交叉核验，因此只声明整季范围，不按位置生成逐集规则。\n\nhttps://www.themoviedb.org/tv/70288 (api_snapshot): 第6季名称对应“幽灵球Z 暗之退魔师”，共12集；逐集表首末集日期为2021-09-16和2021-12-16，与Bangumi的集数及播出起止日期一致。制作公司包含CJ ENM、STUDIO EEK，与Bangumi资料相符。\n\nhttps://www.themoviedb.org/tv/70288 (api_snapshot): 第5季和第7季分别对应Bangumi所列前作“可疑的委托”和续作“鬼道退魔师”，逐集表首播日期也分别对应2020-10-08和2022-04-28，支持本作属于第6季且不跨季。\n\nhttps://www.themoviedb.org/tv/239437 (api_snapshot): 独立同名TV条目的首播日期一致，但第1季仅收录1集，缺少剧情和制作公司资料，无法确认其覆盖本作完整12集。\n\n备注：需补充Bangumi各集标题或播出日期后，才能确认逐集对应关系。；TMDB第6季季级日期为2021-09-15，比其第1集日期及Bangumi首播日期早一天；此处采用逐集表日期核对。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/615224; https://www.themoviedb.org/tv/70288; https://www.themoviedb.org/tv/239437",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 70288
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

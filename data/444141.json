@@ -206,12 +206,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、剧情、导演、编剧及40集短篇连载形态一致，可确认对应 TMDB 230988 第1季整季。Bangumi 的40个章节均无标题和播出日期，无法逐集交叉比对，因此仅确认整季范围，暂不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/230988 (api_snapshot): TMDB 230988 原名为《九辰风云录》，首播日期为 2023-07-11；阳辰觉醒道魂、保护家族的剧情与输入一致，导演金毅文、笔落及编剧靳辛一致。条目共 1 季、40 集。\n\nhttps://www.themoviedb.org/tv/230988/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1，共 40 集，集号连续为 1—40。前两集于 2023-07-11 播出，末集于 2023-11-21 播出；每集约 9—12 分钟，集表未见混入其他作品。\n\nhttps://www.bilibili.com/video/BV1j14y1R7Fy/ (search_snippet): 优酷动漫官方账号于 2023-07-10 发布《九辰风云录》次日开播预告，提及主角阳辰，与作品身份及首播日期相符。\n\n备注：逐集映射仍缺少 Bangumi 侧的标题或播出日期；不能仅凭双方均为40集推定逐集顺序。；输入将动画制作列为漫禾文化，TMDB 公司字段列为若鸿文化与优酷；尚未核实两者的制作分工或资料差异。",
+    "evidence": "codex: 年份、首播日期、剧情、导演、编剧及40集短篇连载形态一致，可确认对应 TMDB 230988 第1季整季。Bangumi 的40个章节均无标题和播出日期，无法逐集交叉比对，因此仅确认整季范围，暂不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/230988 (api_snapshot): TMDB 230988 原名为《九辰风云录》，首播日期为 2023-07-11；阳辰觉醒道魂、保护家族的剧情与输入一致，导演金毅文、笔落及编剧靳辛一致。条目共 1 季、40 集。\n\nhttps://www.themoviedb.org/tv/230988/season/1 (api_snapshot): 实际读取第 1 季完整集表，total_pages=1，共 40 集，集号连续为 1—40。前两集于 2023-07-11 播出，末集于 2023-11-21 播出；每集约 9—12 分钟，集表未见混入其他作品。\n\nhttps://www.bilibili.com/video/BV1j14y1R7Fy/ (search_snippet): 优酷动漫官方账号于 2023-07-10 发布《九辰风云录》次日开播预告，提及主角阳辰，与作品身份及首播日期相符。\n\n备注：逐集映射仍缺少 Bangumi 侧的标题或播出日期；不能仅凭双方均为40集推定逐集顺序。；输入将动画制作列为漫禾文化，TMDB 公司字段列为若鸿文化与优酷；尚未核实两者的制作分工或资料差异。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/444141; https://www.themoviedb.org/tv/230988; https://www.themoviedb.org/tv/230988/season/1; https://www.bilibili.com/video/BV1j14y1R7Fy/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 230988
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

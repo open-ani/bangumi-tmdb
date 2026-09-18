@@ -115,12 +115,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 名称及季标识、动画媒介、首播日期、22集总量和前后季日期相互吻合，可确认对应TMDB 93221第2季整季。Bangumi逐集标题与日期全部缺失，无法核实逐集顺序，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选为动画剧集《The Great North》；第2季首播日期为2021-09-26，共22集，与Bangumi的季标识、首播日期及本篇集数一致。季表完整列出第1至22集，末集日期为2022-05-22。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选第1季和第3季分别于2021-01-03、2022-09-25首播，与Bangumi前作、续作关系中的日期一致，进一步支持第2季归属。\n\n备注：逐集对应尚未确认；需补充Bangumi各集标题或放送日期后核对，不能仅按序号映射。；Bangumi未提供剧情与制作方信息，无法交叉核对这些字段。",
+    "evidence": "codex: 名称及季标识、动画媒介、首播日期、22集总量和前后季日期相互吻合，可确认对应TMDB 93221第2季整季。Bangumi逐集标题与日期全部缺失，无法核实逐集顺序，因此不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选为动画剧集《The Great North》；第2季首播日期为2021-09-26，共22集，与Bangumi的季标识、首播日期及本篇集数一致。季表完整列出第1至22集，末集日期为2022-05-22。\n\nhttps://www.themoviedb.org/tv/93221 (api_snapshot): 候选第1季和第3季分别于2021-01-03、2022-09-25首播，与Bangumi前作、续作关系中的日期一致，进一步支持第2季归属。\n\n备注：逐集对应尚未确认；需补充Bangumi各集标题或放送日期后核对，不能仅按序号映射。；Bangumi未提供剧情与制作方信息，无法交叉核对这些字段。\n\n脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/444464; https://www.themoviedb.org/tv/93221",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 93221
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -76,12 +76,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、首播日期、长城守卫军日常剧情、短篇动画媒介、制作信息及14集规模共同确认对应 TMDB 196568 第1季。整季范围可以确认；TMDB 集级资料存在明显异常，尚不足以建立可靠的连续逐集规则，因此保留整季映射，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): 按中文原名搜索并读取详情，确认 TMDB 196568 首播于2022-03-18，剧情为长城守卫军日常；第1季14集，第2季另于2023年开播。\n\nhttps://www.themoviedb.org/tv/196568/season/1 (api_snapshot): 第1季实际集表共14集，集号1至14，total_pages=1，季简介与本 subject 一致。但集名均为通用编号，所有集的日期均填2022-03-18，且多集简介与 Bangumi 集名所述内容不符，不能据此确认完整逐集顺序。\n\nhttps://www.36kr.com/p/1667256288368391 (page): 2022年报道确认本作由天美工作室《王者荣耀》项目团队出品、奇影动漫制作，3月18日上线，共14集，属于描写长城守卫军生活的短篇动画，与输入的制作信息及版本一致。\n\nhttps://m.acfun.cn/v/?ab=6142115 (search_snippet): AcFun 明确标为第一季，列出14集，从《消失的酒友》至《知音难觅》，集序与输入一致，并将第二季单独列出。\n\n备注：TMDB 第3至14集日期与输入的逐周播出日期不一致；通用集名及多集剧情差异也使逐集对应无法充分核实。需待 TMDB 集级资料修正或取得可直接关联其集号的可靠证据后补充 rules。；TMDB 未提供制作公司及演职员信息；制作信息由输入与同期报道交叉确认。",
+    "evidence": "codex: 首播年份与日期、长城守卫军日常剧情、制作团队、短篇动画形式及14集规模共同确认对应TMDB 196568第一季整季。前两集通过播放平台标题、同期剧情报道及日期交叉核实，建立1至2集规则；其余章节因TMDB集级资料异常暂不映射。\n\nhttps://www.themoviedb.org/tv/196568 (api_snapshot): 按中文原名搜索并读取详情，TMDB 196568 首播日期为2022-03-18，简介明确描述长城守卫军的日常短篇动画；第一季14集，第二季另于2023-07-27开始。\n\nhttps://www.themoviedb.org/tv/196568/season/1 (api_snapshot): 已读取第一季完整集表：共14集，集号1至14，total_pages=1。所有集名均为通用编号、日期均为2022-03-18。第1集简介为李白酒壶失窃，第2集讲述守卫军成员被“捡来”的缘分；其他多集简介与对应章节主题不符。\n\nhttps://www.taptap.cn/moment/251406988435525138 (page): 官方公告确认这是《王者荣耀》团队出品的第一季短篇日常动画，讲述长城守卫军的生活，2022年3月18日在腾讯视频、bilibili及芒果TV首播。\n\nhttps://www.36kr.com/p/1667256288368391 (page): 同期报道确认天美工作室《王者荣耀》项目团队出品、奇影动漫制作，共14集；第一集为《消失的酒友》，第二集通过花木兰收养小动物的故事比喻守卫军成员来历，与TMDB前两集简介相符。\n\nhttps://www.iqiyi.com/a_kep7ru34j9.html (page): 播放平台明确标注2022年第一季、14集全；逐集标题与输入14章顺序一致，包括第1集《消失的酒友》、第2集《队长！收手吧！》及第14集《知音难觅》。\n\nhttps://www.taptap.cn/moment/253838467392342380 (search_snippet): 官方2022年3月18日第一集上线公告描述远方来客引发盗窃调查，与TMDB第1集酒壶失窃剧情相符。\n\n备注：TMDB第3至14集日期全部重复首播日，与输入逐周播出日期不符；集名缺失且多集剧情存在冲突，不能将完整集序直接转为连续规则。；TMDB制作公司及演职员字段为空；制作信息由输入与同期报道交叉确认。其余逐集对应需等待集级资料修正或更直接的证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/373904; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/1; https://www.36kr.com/p/1667256288368391; https://m.acfun.cn/v/?ab=6142115",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "source": "https://bgm.tv/subject/373904; https://www.themoviedb.org/tv/196568; https://www.themoviedb.org/tv/196568/season/1; https://www.taptap.cn/moment/251406988435525138; https://www.36kr.com/p/1667256288368391; https://www.iqiyi.com/a_kep7ru34j9.html; https://www.taptap.cn/moment/253838467392342380",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 196568
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

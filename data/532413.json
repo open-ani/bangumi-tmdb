@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、动画媒介、第七季的日期与9集规模，以及前作第六季的日期相互吻合，可确认 subject 覆盖 TMDB 81046 第7季整季。逐集资料不足，因此仅确认整季范围，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/81046 (api_snapshot): 候选为动画剧集《The Dragon Prince》，第7季共9集，第1至9集放送日期均为2024-12-19，与 Bangumi 的季别、开播日期及本篇总数一致。候选第6季日期为2024-07-26，也与 Bangumi 前作关系中的第六季日期一致。\n\n备注：Bangumi 的9个章节均无标题和放送日期，TMDB 也仅提供通用集号标题，无法独立核实逐集对应；需补充章节标题或逐集日期。；Bangumi 未提供制作方，候选简介为系列概述，无法进一步核对第七季具体剧情与制作信息。",
+    "evidence": "codex: 作品名称、动画媒介、第七季的日期与9集规模，以及前作第六季的日期相互吻合，可确认 subject 覆盖 TMDB 81046 第7季整季。逐集资料不足，因此仅确认整季范围，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/81046 (api_snapshot): 候选为动画剧集《The Dragon Prince》，第7季共9集，第1至9集放送日期均为2024-12-19，与 Bangumi 的季别、开播日期及本篇总数一致。候选第6季日期为2024-07-26，也与 Bangumi 前作关系中的第六季日期一致。\n\n备注：Bangumi 的9个章节均无标题和放送日期，TMDB 也仅提供通用集号标题，无法独立核实逐集对应；需补充章节标题或逐集日期。；Bangumi 未提供制作方，候选简介为系列概述，无法进一步核对第七季具体剧情与制作信息。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/532413; https://www.themoviedb.org/tv/81046",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 81046
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

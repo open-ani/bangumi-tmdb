@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 110955第1季整季。年份、首末播日期、TV短篇形式、剧情定位、制作人员及12集范围一致，实际季表也与外部节目表逐项吻合。Bangumi输入中的12个章节均缺少标题和播出日期，无法独立核实各章节身份，因此仅确认作品与整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/110955 (api_snapshot): 日文标题及英文别名搜索均返回 TV 110955。实际详情显示原名一致，首播为2020-10-04，末播为2020-12-27，共1季12集。\n\nhttps://www.themoviedb.org/tv/110955/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。第1集至第12集的标题、日期均与已访问的节目表一致；第8集为11月22日，第9集为12月6日，第12集为12月27日，未混入其他作品。\n\nhttps://www.atpress.ne.jp/news/0835208 (page): BS12运营公司发布的公告确认：本作为2020年10月4日开播、全12话的一话完结型日常治愈短篇动画；导演浅井幸信，人物设计越前菜都子，脚本待田堂子、ひるまちかこ，制作サニーガーペン，与输入的Bangumi资料一致。\n\nhttps://thetv.jp/program/0000987644/plot/ (page): 节目表列出2020年10月4日至12月27日播出的12个短篇。按日期逐项核对，全部标题及日期均与TMDB第1季一致，确认整季覆盖该TV动画。\n\n备注：Bangumi章节只有sort和ID，标题、日期为空；章节页访问失败。需补充章节标题或日期后才能建立有直接依据的逐集对应。；官方公告称每话2分钟，TMDB标记3分钟；时长口径差异未能解释，但标题、日期和集数一致。",
+    "evidence": "codex: 确认对应TMDB 110955第1季整季。年份、首末播日期、TV短篇形式、剧情定位、制作人员及12集范围一致，实际季表也与外部节目表逐项吻合。Bangumi输入中的12个章节均缺少标题和播出日期，无法独立核实各章节身份，因此仅确认作品与整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/110955 (api_snapshot): 日文标题及英文别名搜索均返回 TV 110955。实际详情显示原名一致，首播为2020-10-04，末播为2020-12-27，共1季12集。\n\nhttps://www.themoviedb.org/tv/110955/season/1 (api_snapshot): 第1季实际集表共12集，total_pages=1。第1集至第12集的标题、日期均与已访问的节目表一致；第8集为11月22日，第9集为12月6日，第12集为12月27日，未混入其他作品。\n\nhttps://www.atpress.ne.jp/news/0835208 (page): BS12运营公司发布的公告确认：本作为2020年10月4日开播、全12话的一话完结型日常治愈短篇动画；导演浅井幸信，人物设计越前菜都子，脚本待田堂子、ひるまちかこ，制作サニーガーペン，与输入的Bangumi资料一致。\n\nhttps://thetv.jp/program/0000987644/plot/ (page): 节目表列出2020年10月4日至12月27日播出的12个短篇。按日期逐项核对，全部标题及日期均与TMDB第1季一致，确认整季覆盖该TV动画。\n\n备注：Bangumi章节只有sort和ID，标题、日期为空；章节页访问失败。需补充章节标题或日期后才能建立有直接依据的逐集对应。；官方公告称每话2分钟，TMDB标记3分钟；时长口径差异未能解释，但标题、日期和集数一致。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/315773; https://www.themoviedb.org/tv/110955; https://www.themoviedb.org/tv/110955/season/1; https://www.atpress.ne.jp/news/0835208; https://thetv.jp/program/0000987644/plot/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 110955
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

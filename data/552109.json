@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 已确认对应 TMDB 78173 第三季整季：版本、Netflix 平台、上线日期、13集范围及前后季日期均吻合，外部集表与 TMDB 逐项一致。Bangumi 章节只有序号，缺少逐集标题和日期，因此确认整季归属，但不按位置推定逐集规则。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): 以英文原名搜索得到 TMDB 78173。详情确认是梦工厂电视动画《Dragons: Race to the Edge》，讲述小嗝嗝、无牙及龙骑士的冒险，共六季78集；第二、三、四季日期与输入的前后续关系一致。\n\nhttps://www.themoviedb.org/tv/78173/season/3 (api_snapshot): 第三季真实集表共13集，total_pages=1，全部日期为2016-06-24；首集为 Enemy of My Enemy，末集为 Defenders of the Wing (1)，完整覆盖该季。\n\nhttps://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-3/1030584970/ (page): TV Guide 将该作品列为 Netflix 动画，第三季13集全部于2016-06-24上线；逐项核对其13集标题、顺序和日期，与 TMDB 第三季一致。\n\nhttps://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s03 (page): 第三季资料确认 Netflix、2016-06-24发行及导演 Robert Briggs、执行制片 Douglas Sloan 和 Art Edler Brown；主要配音及角色与 TMDB 一致，剧情和集表也相符。\n\n备注：Bangumi 页面访问失败；输入的13个章节均无标题和日期，逐集映射留空，待补充章节资料后核实。；seed 的 IMDb 编号 tt4884850 与 TMDB 详情中的 tt4816058 不同；未采用 seed 编号作为匹配依据。",
+    "evidence": "codex: 已确认对应 TMDB 78173 第三季整季：版本、Netflix 平台、上线日期、13集范围及前后季日期均吻合，外部集表与 TMDB 逐项一致。Bangumi 章节只有序号，缺少逐集标题和日期，因此确认整季归属，但不按位置推定逐集规则。\n\nhttps://www.themoviedb.org/tv/78173 (api_snapshot): 以英文原名搜索得到 TMDB 78173。详情确认是梦工厂电视动画《Dragons: Race to the Edge》，讲述小嗝嗝、无牙及龙骑士的冒险，共六季78集；第二、三、四季日期与输入的前后续关系一致。\n\nhttps://www.themoviedb.org/tv/78173/season/3 (api_snapshot): 第三季真实集表共13集，total_pages=1，全部日期为2016-06-24；首集为 Enemy of My Enemy，末集为 Defenders of the Wing (1)，完整覆盖该季。\n\nhttps://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-3/1030584970/ (page): TV Guide 将该作品列为 Netflix 动画，第三季13集全部于2016-06-24上线；逐项核对其13集标题、顺序和日期，与 TMDB 第三季一致。\n\nhttps://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s03 (page): 第三季资料确认 Netflix、2016-06-24发行及导演 Robert Briggs、执行制片 Douglas Sloan 和 Art Edler Brown；主要配音及角色与 TMDB 一致，剧情和集表也相符。\n\n备注：Bangumi 页面访问失败；输入的13个章节均无标题和日期，逐集映射留空，待补充章节资料后核实。；seed 的 IMDb 编号 tt4884850 与 TMDB 详情中的 tt4816058 不同；未采用 seed 编号作为匹配依据。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552109; https://www.themoviedb.org/tv/78173; https://www.themoviedb.org/tv/78173/season/3; https://www.tvguide.com/tvshows/dragons-race-to-the-edge/episodes-season-3/1030584970/; https://www.rottentomatoes.com/tv/dreamworks_dragons_race_to_the_edge/s03",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 78173
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

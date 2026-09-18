@@ -166,12 +166,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 275241第1季整季。首播日期、官方播出范围、剧情、制作人员及完整32话标题表共同支持同一版本与覆盖范围。Bangumi各章节缺少标题及日期，无法直接逐集交叉核对，因此保留作品与季映射，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/67805 (page): Bangumi 确认为2009年10月10日至2010年6月26日播出的32话电视动画，记载原作安達哲、监督やすみ哲夫及角色设计関修一；章节仅显示编号。\n\nhttps://www.themoviedb.org/tv/275241 (api_snapshot): 日文原名搜索命中275241；详情确认同名电视作品、首播日期2009-10-10及第1季32集。简介和制作人员为空，顶层总集数却为2，与实际季表矛盾。\n\nhttps://www.themoviedb.org/tv/275241/season/1 (api_snapshot): 完整读取第1季，total_pages=1，实际包含第1至32集，每集标题包含两个故事；首集日期为2009-10-10，其余集日期为空。\n\nhttps://shin-ei-animation.jp/50th/works/91.html (page): 新锐动画官方确认2009年10月至2010年6月播出、全32话；双胞胎姐弟与东京下町居民交流的剧情及制作署名与Bangumi一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20292027&workId=20292 (page): 正版配信资料确认2009年制作、全32话，剧情及原作、监督、角色设计均与Bangumi一致。\n\nhttps://www.mau2.com/anime/gokyoudaimonogatari (page): 完整32话标题表与TMDB第1季逐项对应，仅少量文字及标点差异；支持该季覆盖同一电视动画全篇，没有混入其他作品。\n\n备注：Bangumi的32个章节标题与日期均为空；补齐章节资料后才能核实并建立逐集规则。；TMDB顶层总集数、末播日期、语言及连载状态存在异常；范围判断依据实际32集季表及外部资料，未沿用这些字段。",
+    "evidence": "codex: 确认对应TMDB 275241第1季整季。首播日期、官方播出范围、剧情、制作人员及完整32话标题表共同支持同一版本与覆盖范围。Bangumi各章节缺少标题及日期，无法直接逐集交叉核对，因此保留作品与季映射，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/67805 (page): Bangumi 确认为2009年10月10日至2010年6月26日播出的32话电视动画，记载原作安達哲、监督やすみ哲夫及角色设计関修一；章节仅显示编号。\n\nhttps://www.themoviedb.org/tv/275241 (api_snapshot): 日文原名搜索命中275241；详情确认同名电视作品、首播日期2009-10-10及第1季32集。简介和制作人员为空，顶层总集数却为2，与实际季表矛盾。\n\nhttps://www.themoviedb.org/tv/275241/season/1 (api_snapshot): 完整读取第1季，total_pages=1，实际包含第1至32集，每集标题包含两个故事；首集日期为2009-10-10，其余集日期为空。\n\nhttps://shin-ei-animation.jp/50th/works/91.html (page): 新锐动画官方确认2009年10月至2010年6月播出、全32话；双胞胎姐弟与东京下町居民交流的剧情及制作署名与Bangumi一致。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20292027&workId=20292 (page): 正版配信资料确认2009年制作、全32话，剧情及原作、监督、角色设计均与Bangumi一致。\n\nhttps://www.mau2.com/anime/gokyoudaimonogatari (page): 完整32话标题表与TMDB第1季逐项对应，仅少量文字及标点差异；支持该季覆盖同一电视动画全篇，没有混入其他作品。\n\n备注：Bangumi的32个章节标题与日期均为空；补齐章节资料后才能核实并建立逐集规则。；TMDB顶层总集数、末播日期、语言及连载状态存在异常；范围判断依据实际32集季表及外部资料，未沿用这些字段。\n\n脚本按声明范围生成逐集规则：32 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/67805; https://www.themoviedb.org/tv/275241; https://www.themoviedb.org/tv/275241/season/1; https://shin-ei-animation.jp/50th/works/91.html; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=20292027&workId=20292; https://www.mau2.com/anime/gokyoudaimonogatari",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 32,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 275241
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -306,12 +306,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 229344《剑骨》第一季整季。首播日期、60集规模、官方播放版本、核心人物及具体剧情一致，实际季表完整覆盖该动画主体，未见混入其他作品。Bangumi章节缺少标题及播出日期，无法进行可靠的逐集比对，因此只确认作品与季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/440276 (page): Bangumi 标明本作为2023年6月16日开播的60话WEB动画，导演李亮，系列构成陈寒、曹婉，制作方为爱奇艺、索以文化。\n\nhttps://www.themoviedb.org/tv/229344 (api_snapshot): 以原名《剑骨》搜索后读取详情：TV 229344首播2023-06-16，已完结，共1季60集；第一季简介中的宁弈、裴烦、徐清焰、徐藏及骨笛剧情与Bangumi一致。制作公司和演职员字段为空，不能据此声称人员已交叉核实。\n\nhttps://www.themoviedb.org/tv/229344/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共60集，编号连续为1至60，每集10分钟；首集《蜀山小师叔》日期2023-06-16，末集《人间处处是危机》日期2023-12-29。季简介及连续剧情均属于同一部动画。\n\nhttps://www.iq.com/album/%E5%89%91%E9%AA%A8-2023-2ccgizuzvc1?lang=zh_cn (page): 爱奇艺官方页面确认《剑骨》为2023年中国大陆作品、60集全，人物与骨笛主线对应Bangumi及TMDB第一季简介。\n\nhttps://www.iq.com/play/%E5%89%91%E9%AA%A8-%E7%AC%AC1%E9%9B%86-1znf6h4cz5o?lang=zh_cn (search_snippet): 爱奇艺第1集分集简介描述徐藏救下裴烦、宁弈相助并被代师收徒，与TMDB第一季第1集剧情吻合，进一步确认动画版本。\n\n备注：Bangumi所给60个章节的标题和日期均为空；不能仅凭编号相同建立1—60集连续规则，需补充分集元数据后核实。；TMDB未提供制作公司或演职员资料，制作人员目前仅由Bangumi页面确认。",
+    "evidence": "codex: 确认对应TMDB 229344《剑骨》第一季整季。首播日期、60集规模、官方播放版本、核心人物及具体剧情一致，实际季表完整覆盖该动画主体，未见混入其他作品。Bangumi章节缺少标题及播出日期，无法进行可靠的逐集比对，因此只确认作品与季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/440276 (page): Bangumi 标明本作为2023年6月16日开播的60话WEB动画，导演李亮，系列构成陈寒、曹婉，制作方为爱奇艺、索以文化。\n\nhttps://www.themoviedb.org/tv/229344 (api_snapshot): 以原名《剑骨》搜索后读取详情：TV 229344首播2023-06-16，已完结，共1季60集；第一季简介中的宁弈、裴烦、徐清焰、徐藏及骨笛剧情与Bangumi一致。制作公司和演职员字段为空，不能据此声称人员已交叉核实。\n\nhttps://www.themoviedb.org/tv/229344/season/1 (api_snapshot): 实际读取第一季完整集表，total_pages=1，共60集，编号连续为1至60，每集10分钟；首集《蜀山小师叔》日期2023-06-16，末集《人间处处是危机》日期2023-12-29。季简介及连续剧情均属于同一部动画。\n\nhttps://www.iq.com/album/%E5%89%91%E9%AA%A8-2023-2ccgizuzvc1?lang=zh_cn (page): 爱奇艺官方页面确认《剑骨》为2023年中国大陆作品、60集全，人物与骨笛主线对应Bangumi及TMDB第一季简介。\n\nhttps://www.iq.com/play/%E5%89%91%E9%AA%A8-%E7%AC%AC1%E9%9B%86-1znf6h4cz5o?lang=zh_cn (search_snippet): 爱奇艺第1集分集简介描述徐藏救下裴烦、宁弈相助并被代师收徒，与TMDB第一季第1集剧情吻合，进一步确认动画版本。\n\n备注：Bangumi所给60个章节的标题和日期均为空；不能仅凭编号相同建立1—60集连续规则，需补充分集元数据后核实。；TMDB未提供制作公司或演职员资料，制作人员目前仅由Bangumi页面确认。\n\n脚本按声明范围生成逐集规则：60 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/440276; https://www.themoviedb.org/tv/229344; https://www.themoviedb.org/tv/229344/season/1; https://www.iq.com/album/%E5%89%91%E9%AA%A8-2023-2ccgizuzvc1?lang=zh_cn; https://www.iq.com/play/%E5%89%91%E9%AA%A8-%E7%AC%AC1%E9%9B%86-1znf6h4cz5o?lang=zh_cn",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 60,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229344
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

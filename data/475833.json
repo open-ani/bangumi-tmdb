@@ -50,12 +50,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品名称、首播日期、动画类型、制作方及本篇集数共同支持对应 TMDB 201091 第 1 季整季。Bangumi 各章节均缺少标题和放送日期，无法进行逐集核验，因此仅确认作品与季范围，不按序号推测逐集规则。\n\nhttps://www.themoviedb.org/tv/201091 (api_snapshot): Interrogator 为 Games Workshop 制作的动画、剧情类作品，首播日期为 2022-04-18，与 Bangumi 的作品名称、战锤背景、动画媒介和首播日期相符。\n\nhttps://www.themoviedb.org/tv/201091 (api_snapshot): 第 1 季共 9 集，放送日期从 2022-04-18 至 2022-09-21，与 Bangumi 的 9 集本篇范围相符；第 0 季另有一集特别篇，不纳入本次范围。\n\n备注：候选未提供剧情简介，无法直接交叉核对剧情。；逐集对应需补充 Bangumi 各集标题或放送日期；当前 rules 和 overrides 留空。",
+    "evidence": "codex: 作品名称、首播日期、动画类型、制作方及本篇集数共同支持对应 TMDB 201091 第 1 季整季。Bangumi 各章节均缺少标题和放送日期，无法进行逐集核验，因此仅确认作品与季范围，不按序号推测逐集规则。\n\nhttps://www.themoviedb.org/tv/201091 (api_snapshot): Interrogator 为 Games Workshop 制作的动画、剧情类作品，首播日期为 2022-04-18，与 Bangumi 的作品名称、战锤背景、动画媒介和首播日期相符。\n\nhttps://www.themoviedb.org/tv/201091 (api_snapshot): 第 1 季共 9 集，放送日期从 2022-04-18 至 2022-09-21，与 Bangumi 的 9 集本篇范围相符；第 0 季另有一集特别篇，不纳入本次范围。\n\n备注：候选未提供剧情简介，无法直接交叉核对剧情。；逐集对应需补充 Bangumi 各集标题或放送日期；当前 rules 和 overrides 留空。\n\n脚本按声明范围生成逐集规则：9 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/475833; https://www.themoviedb.org/tv/201091",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 201091
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

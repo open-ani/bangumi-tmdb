@@ -256,12 +256,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品剧情、制作方、续季年份、首播日期及50集范围一致，确认对应TMDB 196335第2季整季。Bangumi章节缺少标题和日期，不能仅凭相同集数及位置生成逐集规则，因此保留季级映射，逐集对应留空。\n\nhttps://bangumi.tv/subject/450927 (page): Bangumi 确认为2023年8月26日开播的50集WEB动画，原作为纯情犀利哥《武映三千道》，总导演方磊，动画制作为唐麟文化，出品包括腾讯视频。\n\nhttps://www.themoviedb.org/tv/196335 (api_snapshot): TMDB 196335 的中文原名、许无舟与道宗的剧情、唐麟文化及腾讯企鹅影视制作信息吻合；详情明确列出2023年8月26日开播、50集的第2季。\n\nhttps://www.themoviedb.org/tv/196335/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共50集，集号连续为1至50；前3集日期为2023年8月26日，第50集为2024年2月4日，覆盖该续季。\n\nhttps://bgm.tv/subject/450927/ep (page): Bangumi 章节页列出本篇1至50，但全部缺少集标题及放送日期，无法与TMDB进行逐集交叉核验。\n\n备注：逐集规则需补充能关联Bangumi章节的标题、播出日期或可靠官方集表后再核实。",
+    "evidence": "codex: 作品剧情、制作方、续季年份、首播日期及50集范围一致，确认对应TMDB 196335第2季整季。Bangumi章节缺少标题和日期，不能仅凭相同集数及位置生成逐集规则，因此保留季级映射，逐集对应留空。\n\nhttps://bangumi.tv/subject/450927 (page): Bangumi 确认为2023年8月26日开播的50集WEB动画，原作为纯情犀利哥《武映三千道》，总导演方磊，动画制作为唐麟文化，出品包括腾讯视频。\n\nhttps://www.themoviedb.org/tv/196335 (api_snapshot): TMDB 196335 的中文原名、许无舟与道宗的剧情、唐麟文化及腾讯企鹅影视制作信息吻合；详情明确列出2023年8月26日开播、50集的第2季。\n\nhttps://www.themoviedb.org/tv/196335/season/2 (api_snapshot): 实际读取第2季全部集表，total_pages=1，共50集，集号连续为1至50；前3集日期为2023年8月26日，第50集为2024年2月4日，覆盖该续季。\n\nhttps://bgm.tv/subject/450927/ep (page): Bangumi 章节页列出本篇1至50，但全部缺少集标题及放送日期，无法与TMDB进行逐集交叉核验。\n\n备注：逐集规则需补充能关联Bangumi章节的标题、播出日期或可靠官方集表后再核实。\n\n脚本按声明范围生成逐集规则：50 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/450927; https://bangumi.tv/subject/450927; https://www.themoviedb.org/tv/196335; https://www.themoviedb.org/tv/196335/season/2; https://bgm.tv/subject/450927/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 50,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 196335
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

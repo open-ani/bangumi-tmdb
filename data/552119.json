@@ -40,12 +40,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认该subject覆盖TMDB 136322第七季整季：原名、季度、首播日期、7集总量及相邻季度关系一致，发行平台集表也验证了版本和完整范围。Bangumi七个章节均缺少标题和播出日期，无法直接逐集比对，因此仅确认整季归属，暂不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): 以英文原名搜索命中 TMDB 136322。详情确认其为 DreamWorks Animation Television 制作的动画剧集，剧情发生于《驯龙高手》故事约1300年后的现代。第七季首播为2023-09-14，共7集；相邻第六、八季日期也与输入中的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/7 (api_snapshot): 已读取第七季完整集表，total_pages=1，共7集，全部标记2023-09-14播出。集号1—7连续，内容属于同一季的剧情动画，无额外混入作品。\n\nhttps://play.google.com/store/tv/show/Dragons_The_Nine_Realms?cdid=tvseason-fjDTRVMf2IQ.P&hl=en_US&id=WvOgJIPjUhE.P (page): Google Play第七季页面独立确认7集均于2023-09-14发行。逐集标题、顺序和剧情与TMDB一致；第3集标题仅有Heart与Hearts的拼写差异，剧情同为Thunder营救伙伴、遭遇Glass Caster。\n\n备注：Bangumi页面本次访问失败；Bangumi侧依据来自用户提供的归档数据。；逐集规则需待Bangumi章节补充标题、日期或其他可验证的内容标识后建立。",
+    "evidence": "codex: 可确认该subject覆盖TMDB 136322第七季整季：原名、季度、首播日期、7集总量及相邻季度关系一致，发行平台集表也验证了版本和完整范围。Bangumi七个章节均缺少标题和播出日期，无法直接逐集比对，因此仅确认整季归属，暂不生成按位置推定的逐集规则。\n\nhttps://www.themoviedb.org/tv/136322 (api_snapshot): 以英文原名搜索命中 TMDB 136322。详情确认其为 DreamWorks Animation Television 制作的动画剧集，剧情发生于《驯龙高手》故事约1300年后的现代。第七季首播为2023-09-14，共7集；相邻第六、八季日期也与输入中的关联条目一致。\n\nhttps://www.themoviedb.org/tv/136322/season/7 (api_snapshot): 已读取第七季完整集表，total_pages=1，共7集，全部标记2023-09-14播出。集号1—7连续，内容属于同一季的剧情动画，无额外混入作品。\n\nhttps://play.google.com/store/tv/show/Dragons_The_Nine_Realms?cdid=tvseason-fjDTRVMf2IQ.P&hl=en_US&id=WvOgJIPjUhE.P (page): Google Play第七季页面独立确认7集均于2023-09-14发行。逐集标题、顺序和剧情与TMDB一致；第3集标题仅有Heart与Hearts的拼写差异，剧情同为Thunder营救伙伴、遭遇Glass Caster。\n\n备注：Bangumi页面本次访问失败；Bangumi侧依据来自用户提供的归档数据。；逐集规则需待Bangumi章节补充标题、日期或其他可验证的内容标识后建立。\n\n脚本按声明范围生成逐集规则：7 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/552119; https://www.themoviedb.org/tv/136322; https://www.themoviedb.org/tv/136322/season/7; https://play.google.com/store/tv/show/Dragons_The_Nine_Realms?cdid=tvseason-fjDTRVMf2IQ.P&hl=en_US&id=WvOgJIPjUhE.P",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 136322
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

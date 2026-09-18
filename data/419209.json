@@ -175,12 +175,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季次、首播日期、34集规模及前后季日期共同支持对应 TMDB 119873 第8季整季。Bangumi 逐集标题和日期全部为空，无法核实逐集顺序，因此仅确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 《阿衰》（119873）第8季首播日期为2022-06-03，共34集，与 Bangumi 的季次、首播日期及本篇集数一致；第7、9季首播日期也分别与 Bangumi 前后续作的2022-01-29、2022-11-11一致。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 第8季完整列出第1至34集，日期范围为2022-06-03至2022-09-24，标题均为通用集号；排期为周五、周六更新。\n\n备注：全部34个 Bangumi 章节暂不映射；需要补充逐集标题或放送日期以核实对应关系。；Bangumi 标注每周五，候选第8季为周五、周六更新，排期差异待核实。；候选未提供剧情及制作方信息，无法交叉核对这些字段。",
+    "evidence": "codex: 季次、首播日期、34集规模及前后季日期共同支持对应 TMDB 119873 第8季整季。Bangumi 逐集标题和日期全部为空，无法核实逐集顺序，因此仅确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 《阿衰》（119873）第8季首播日期为2022-06-03，共34集，与 Bangumi 的季次、首播日期及本篇集数一致；第7、9季首播日期也分别与 Bangumi 前后续作的2022-01-29、2022-11-11一致。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 第8季完整列出第1至34集，日期范围为2022-06-03至2022-09-24，标题均为通用集号；排期为周五、周六更新。\n\n备注：全部34个 Bangumi 章节暂不映射；需要补充逐集标题或放送日期以核实对应关系。；Bangumi 标注每周五，候选第8季为周五、周六更新，排期差异待核实。；候选未提供剧情及制作方信息，无法交叉核对这些字段。\n\n脚本按声明范围生成逐集规则：34 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/419209; https://www.themoviedb.org/tv/119873",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 34,
+      "episodeStart": 1,
+      "season": 8,
+      "start": 1,
+      "tmdbId": 119873
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

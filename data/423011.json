@@ -206,12 +206,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、首播日期、核心剧情、导演及40集规模一致，可确认该网络动画对应 TMDB 221333 第1季整季，未见混入其他作品。逐集核对依据不足，暂不生成连续规则或特例。\n\nhttps://bangumi.tv/subject/423011 (search_snippet): Bangumi 将《丹道宗师》列为 WEB 动画，共40话，2023年2月27日开播，导演为陈栋、胡广。\n\nhttps://www.themoviedb.org/tv/221333 (api_snapshot): TMDB 221333 原名《丹道宗师》，2023年2月27日首播，导演包含胡广；秦逸尘借天地灵珠重生、帮助林傲天一家并对抗林傲情等剧情与输入一致。条目已完结，仅有1季40集。\n\nhttps://www.themoviedb.org/tv/221333/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共40集，集号连续为1至40，日期范围为2023年2月27日至6月26日，季简介也对应秦逸尘重生的故事。第19集的标题却写作“第18集”。\n\n备注：输入中的40个 Bangumi 章节均缺少标题和播出日期，无法与 TMDB 逐集交叉核验；不能仅按集号位置建立对应。；TMDB 第19集标题重复写作“第18集”，部分播出日期也偏离 Bangumi 标注的周一、周二排期；逐集映射需补充官方分集资料。",
+    "evidence": "codex: 原名、首播日期、核心剧情、导演及40集规模一致，可确认该网络动画对应 TMDB 221333 第1季整季，未见混入其他作品。逐集核对依据不足，暂不生成连续规则或特例。\n\nhttps://bangumi.tv/subject/423011 (search_snippet): Bangumi 将《丹道宗师》列为 WEB 动画，共40话，2023年2月27日开播，导演为陈栋、胡广。\n\nhttps://www.themoviedb.org/tv/221333 (api_snapshot): TMDB 221333 原名《丹道宗师》，2023年2月27日首播，导演包含胡广；秦逸尘借天地灵珠重生、帮助林傲天一家并对抗林傲情等剧情与输入一致。条目已完结，仅有1季40集。\n\nhttps://www.themoviedb.org/tv/221333/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共40集，集号连续为1至40，日期范围为2023年2月27日至6月26日，季简介也对应秦逸尘重生的故事。第19集的标题却写作“第18集”。\n\n备注：输入中的40个 Bangumi 章节均缺少标题和播出日期，无法与 TMDB 逐集交叉核验；不能仅按集号位置建立对应。；TMDB 第19集标题重复写作“第18集”，部分播出日期也偏离 Bangumi 标注的周一、周二排期；逐集映射需补充官方分集资料。\n\n脚本按声明范围生成逐集规则：40 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/423011; https://bangumi.tv/subject/423011; https://www.themoviedb.org/tv/221333; https://www.themoviedb.org/tv/221333/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 40,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 221333
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

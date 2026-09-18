@@ -101,12 +101,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB TV 95579 的完整第二季。上线日期、19集总量、剧情、导演及 Netflix 动画版本一致，实际季表未混入其他作品。Bangumi 各章节缺少标题及日期，无法逐集比对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): 日文原名搜索命中 TV 95579；详情确认为鴫野彰为 Netflix 创作的日本动画，制作公司 Ascension，剧情为少女生气后变身恐龙。全剧两季39集，第二季日期为2020-03-20，共19集。\n\nhttps://www.themoviedb.org/tv/95579/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1；集号连续1—19，全部日期为2020-03-20、时长9分钟，首集《ニセガウ子現る》，末集《サンバ大会》，均为同一系列的剧情动画。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方页显示两季，简介与输入的奈緒子生气变身恐龙剧情一致，分类为日本儿童短篇动画，并展示第二季预告。\n\nhttps://www.gauko.com/ (page): 作品官网注明原作及导演为しぎのあきら，说明本作与 Netflix 合作制作，版权归アキラスタジオ。\n\nhttps://av.watch.impress.co.jp/docs/news/1236544.html (page): 2020年2月的配信报道确认第二季于2020年3月20日在 Netflix 全球独占上线，并说明导演及奈緒子变身的剧情。\n\n备注：输入的19个 Bangumi 章节均无标题和日期，且本次未能读取 Bangumi 章节网页；需补齐章节资料后才能核实逐集对应，不能仅按 sort 位置填入。",
+    "evidence": "codex: 确认对应 TMDB TV 95579 的完整第二季。上线日期、19集总量、剧情、导演及 Netflix 动画版本一致，实际季表未混入其他作品。Bangumi 各章节缺少标题及日期，无法逐集比对，因此仅确认整季范围，暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/95579 (api_snapshot): 日文原名搜索命中 TV 95579；详情确认为鴫野彰为 Netflix 创作的日本动画，制作公司 Ascension，剧情为少女生气后变身恐龙。全剧两季39集，第二季日期为2020-03-20，共19集。\n\nhttps://www.themoviedb.org/tv/95579/season/2 (api_snapshot): 已读取第二季完整集表，total_pages=1；集号连续1—19，全部日期为2020-03-20、时长9分钟，首集《ニセガウ子現る》，末集《サンバ大会》，均为同一系列的剧情动画。\n\nhttps://www.netflix.com/jp/title/80216180 (page): Netflix 官方页显示两季，简介与输入的奈緒子生气变身恐龙剧情一致，分类为日本儿童短篇动画，并展示第二季预告。\n\nhttps://www.gauko.com/ (page): 作品官网注明原作及导演为しぎのあきら，说明本作与 Netflix 合作制作，版权归アキラスタジオ。\n\nhttps://av.watch.impress.co.jp/docs/news/1236544.html (page): 2020年2月的配信报道确认第二季于2020年3月20日在 Netflix 全球独占上线，并说明导演及奈緒子变身的剧情。\n\n备注：输入的19个 Bangumi 章节均无标题和日期，且本次未能读取 Bangumi 章节网页；需补齐章节资料后才能核实逐集对应，不能仅按 sort 位置填入。\n\n脚本按声明范围生成逐集规则：19 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/302673; https://www.themoviedb.org/tv/95579; https://www.themoviedb.org/tv/95579/season/2; https://www.netflix.com/jp/title/80216180; https://www.gauko.com/; https://av.watch.impress.co.jp/docs/news/1236544.html",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 95579
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

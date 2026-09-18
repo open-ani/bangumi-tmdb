@@ -1,16 +1,56 @@
 {
   "anidbId": 2169,
   "bangumiId": 1529,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 5804,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 5805,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 5806,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 5807,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 5808,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 5809,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2005 年东映动画制作的 6 话 OVA，发售期为 2005-02-25 至 2005-07-29，章节为“第三種接近遭遇”至“イリヤの空、UFOの夏”。BangumiExtLinker 的对应行将 bgm_id 1529 与 anidb_id 2169 关联；TMDB 98747 的标题、日文原名、首播日 2005-02-25、剧情简介、制作国与 6 集信息均匹配，TMDB 第 1 季完整列出同名的 6 集及对应日期，且第 6 集日期为 2005-07-29。因此应映射为 TV 98747 第 1 季完整范围，不是电影、重剪版或部分集数。\n\nhttps://bgm.tv/subject/1529 (page): Bangumi 条目标记为 OVA，共 6 话；发售日 2005-02-25，结束日 2005-07-29；制作公司为東映アニメーション；章节为 1 至 6 集。\n\nhttps://raw.githubusercontent.com/Rhilip/BangumiExtLinker/refs/heads/main/data/anime_map.json (page): 数据行明确记录 name=イリヤの空、UFOの夏、bgm_id=1529、date=2005-02、anidb_id=2169，核对了 Bangumi→AniDB 关联。\n\nhttps://lineup.toei-anim.co.jp/en/ova/iriya/ (search_snippet): 东映官方作品页将该作品标为 OVA，明确为 6 episodes，播出期为 2005 年 1 月至 7 月，并给出匹配的剧情简介。\n\nhttps://www.themoviedb.org/tv/98747 (api_snapshot): 所附 TMDB API 快照显示标题与原名均为イリヤの空、UFOの夏，first_air_date 为 2005-02-25，剧情、日文原语言、日本来源及总集数 6 均匹配。\n\nhttps://www.themoviedb.org/tv/98747/season/1 (api_snapshot): 所附 TMDB API 快照显示第 1 季共 6 集；六集标题依次对应 Bangumi 章节，日期从 2005-02-25 到 2005-07-29，episodesTruncated=false。",
+    "evidence": "codex: 确认对应 TMDB 98747 第 1 季全六集。年份、OVA 版本、导演、剧情及六话标题一致，真实季表完整覆盖本作，无其他作品混入。逐集标题及前五集日期支持本篇 1—6 顺序对应；第六集日期差异有最终卷发售资料佐证，不影响章节身份。\n\nhttps://bgm.tv/subject/1529 (page): Bangumi 条目为东映动画制作的 2005 年六话 OVA，发售期间为 2005-02-25 至 2005-07-29。\n\nhttps://lineup.toei-anim.co.jp/ja/ova/iriya/story/ (search_snippet): 东映官方资料标明为 2005 年 OVA，原作秋山瑞人、导演伊藤尚往；泳池相遇、伊里野与特殊战斗机的剧情及六话标题均与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/98747 (api_snapshot): TMDB 98747 的日文原名、2005 年日期、导演伊藤尚往及剧情吻合；详情列出一季共六集，结束日期为 2005-07-29。\n\nhttps://www.themoviedb.org/tv/98747/season/1 (api_snapshot): 第 1 季集表完整返回六集，total_pages=1。六集标题逐一对应 Bangumi；第 4 话仅省略逗号。前五集日期分别为 2005-02-25、03-25、04-29、06-03、06-24，与输入一致；第六集同名，日期为 2005-07-29。\n\nhttps://www.neowing.co.jp/product/BIBA-5406 (search_snippet): 第六卷 DVD 商品资料明确收录同名第六话，为最终卷，发售日期为 2005-07-29，支持 TMDB 第六集日期。\n\n备注：输入中 Bangumi 第六话日期为 2005-06-29，与条目结束日期、TMDB 及 DVD 商品资料的 2005-07-29 不符，疑为章节日期录入错误。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1529; https://raw.githubusercontent.com/Rhilip/BangumiExtLinker/refs/heads/main/data/anime_map.json; https://lineup.toei-anim.co.jp/en/ova/iriya/; https://www.themoviedb.org/tv/98747; https://www.themoviedb.org/tv/98747/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1529; https://lineup.toei-anim.co.jp/ja/ova/iriya/story/; https://www.themoviedb.org/tv/98747; https://www.themoviedb.org/tv/98747/season/1; https://www.neowing.co.jp/product/BIBA-5406",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 98747
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

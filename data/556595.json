@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品设定、动画媒介、续作年份、第6季标识及26集规模共同支持对应 TMDB 65334 第6季整季。Bangumi 各集标题和日期均为空，无法核实逐集对应，因此不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/65334 (api_snapshot): 该候选为动画主系列，简介中的马丽娜、艾俊、巴黎及双方不知道彼此英雄身份的设定与 subject 一致；第5季始于2022年，第6季始于2025年，与 subject 的续作关系及年份相符。第6季共26集，与 subject 总集数一致。\n\nhttps://www.themoviedb.org/tv/65334 (api_snapshot): 第6季季表列出第1至26集，但标题均为通用集号；首播日期为2025-03-23，第25、26集日期为空，不能据此核实 Bangumi 的逐集顺序。\n\nhttps://www.themoviedb.org/tv/135531 (api_snapshot): 该候选是 Miraculous Chibi，季表仅有第0至2季，其中第2季52集、始于2025-11-28，与本次第6季26集的范围不符。\n\n备注：Bangumi 开播日期为2025-01-25，TMDB 第6季为2025-03-23；现有数据无法解释日期差异。；需要补充 Bangumi 逐集标题、放送日期及 TMDB 实际集标题，才能确认两侧是否采用相同集序。；TMDB 第25、26集尚无放送日期，无法核实其排期。",
+    "evidence": "codex: 作品设定、动画媒介、续作年份、第6季标识及26集规模共同支持对应 TMDB 65334 第6季整季。Bangumi 各集标题和日期均为空，无法核实逐集对应，因此不生成连续规则或特例。\n\nhttps://www.themoviedb.org/tv/65334 (api_snapshot): 该候选为动画主系列，简介中的马丽娜、艾俊、巴黎及双方不知道彼此英雄身份的设定与 subject 一致；第5季始于2022年，第6季始于2025年，与 subject 的续作关系及年份相符。第6季共26集，与 subject 总集数一致。\n\nhttps://www.themoviedb.org/tv/65334 (api_snapshot): 第6季季表列出第1至26集，但标题均为通用集号；首播日期为2025-03-23，第25、26集日期为空，不能据此核实 Bangumi 的逐集顺序。\n\nhttps://www.themoviedb.org/tv/135531 (api_snapshot): 该候选是 Miraculous Chibi，季表仅有第0至2季，其中第2季52集、始于2025-11-28，与本次第6季26集的范围不符。\n\n备注：Bangumi 开播日期为2025-01-25，TMDB 第6季为2025-03-23；现有数据无法解释日期差异。；需要补充 Bangumi 逐集标题、放送日期及 TMDB 实际集标题，才能确认两侧是否采用相同集序。；TMDB 第25、26集尚无放送日期，无法核实其排期。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/556595; https://www.themoviedb.org/tv/65334; https://www.themoviedb.org/tv/135531",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 65334
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

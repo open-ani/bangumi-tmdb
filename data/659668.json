@@ -1,0 +1,131 @@
+{
+  "bangumiId": 659668,
+  "episodes": [
+    {
+      "id": 1703568,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1703569,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1703570,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1703571,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1703572,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1703573,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1703574,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1703575,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1703576,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1703577,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1703578,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1703579,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1703580,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1703581,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1703582,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1703583,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1703584,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1703585,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1703586,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1703587,
+      "sort": 20,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品剧情、电视动画媒介、播出平台、年份及20集的季度内容均支持对应 TMDB 64198 第4季整季。Bangumi 的20个章节均无标题和日期，且外部目录存在不同排序，因此只确认整季归属，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/64198 (api_snapshot): TMDB 64198 是 Nickelodeon 制作的同名电视动画，剧情为八岁驾驶员 AJ 与怪兽卡车 Blaze 在车轴市运用科学和数学解决问题，与输入简介一致；第四季列为2018年开播、20集。\n\nhttps://www.themoviedb.org/tv/64198/season/4 (api_snapshot): 已读取第四季完整集表，total_pages=1，共20集。第一集为 The Chicken Circus!；Ninja Soup 位于第16集，The Midnight Mile 位于第20集。\n\nhttps://www.paramountplus.com/shows/blaze-and-the-monster-machines/episodes/4/ (search_snippet): Paramount+ 官方第四季目录的20个故事与 TMDB 第四季内容集合一致，但后段编号不同：官方将 Ninja Soup 列为第20集，TMDB 列为第16集，不能直接套用编号。\n\nhttps://blaze-and-the-monster-machines.fandom.com/wiki/Season_4 (search_snippet): 第四季资料列出20集，播出范围为2018年3月26日至2019年9月9日，最后播出的故事为 Ninja Soup，与输入结束日期一致。\n\n备注：输入开播日期为2018-03-20，TMDB及季度资料为2018-03-26，存在日期差异。；TMDB 将 Ninja Soup 日期记为2019-04-25，外部资料记为2019-09-09；该差异不改变第四季的故事范围。；需补充 Bangumi 各章节标题、播出日期或明确采用的排序，才能建立可靠的 rules 或 overrides。Bangumi 网页本次未能成功读取。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/659668; https://www.themoviedb.org/tv/64198; https://www.themoviedb.org/tv/64198/season/4; https://www.paramountplus.com/shows/blaze-and-the-monster-machines/episodes/4/; https://blaze-and-the-monster-machines.fandom.com/wiki/Season_4",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 64198
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 64198,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

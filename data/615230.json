@@ -80,12 +80,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、媒介、前作时间及本作15集的完整放送区间共同支持对应 TMDB 70288 第10季整季。Bangumi 各章节缺少标题和日期，无法逐集核对，因此仅确认季范围，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/70288 (api_snapshot): 候选为韩国动画，制作公司包含 CJ ENM。第10季共15集，首末集日期分别为2023-11-30和2024-03-14，与本 subject 的集数、开播及完结日期完全一致，逐集日期均为星期四；第8季开播日期2023-03-30也与关联前作一致。\n\n备注：候选未提供第10季专属剧情或实质集标题；Bangumi 15个章节的标题和日期均为空，逐集映射需补充这些资料后核实。",
+    "evidence": "codex: 制作方、媒介、前作时间及本作15集的完整放送区间共同支持对应 TMDB 70288 第10季整季。Bangumi 各章节缺少标题和日期，无法逐集核对，因此仅确认季范围，不生成按位置推测的逐集规则。\n\nhttps://www.themoviedb.org/tv/70288 (api_snapshot): 候选为韩国动画，制作公司包含 CJ ENM。第10季共15集，首末集日期分别为2023-11-30和2024-03-14，与本 subject 的集数、开播及完结日期完全一致，逐集日期均为星期四；第8季开播日期2023-03-30也与关联前作一致。\n\n备注：候选未提供第10季专属剧情或实质集标题；Bangumi 15个章节的标题和日期均为空，逐集映射需补充这些资料后核实。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/615230; https://www.themoviedb.org/tv/70288",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 10,
+      "start": 1,
+      "tmdbId": 70288
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

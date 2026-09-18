@@ -265,12 +265,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季次、首播日期、52集总量及前作开播日期共同支持对应 TMDB 119873 第9季整季。Bangumi 全部章节缺少标题和放送日期，无法逐集交叉核验，因此仅确认季级范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 候选《阿衰》为中国动画剧集，第9季共52集，首播日期为2022-11-11，与本 subject 的季次、集数及开播日期一致；第8季首播日期2022-06-03也与 Bangumi 前作信息一致。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 第9季季表完整列出第1至52集：前4集均于2022-11-11播出，之后每周五更新至2023-10-13；标题均为通用集号，无法提供剧情层面的逐集识别依据。\n\n备注：需补充 Bangumi 逐集标题或放送日期，才能确认连续对应关系，不能仅凭相同集号生成规则。；候选未提供剧情简介及制作方信息，无法交叉核对这些维度。",
+    "evidence": "codex: 季次、首播日期、52集总量及前作开播日期共同支持对应 TMDB 119873 第9季整季。Bangumi 全部章节缺少标题和放送日期，无法逐集交叉核验，因此仅确认季级范围，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 候选《阿衰》为中国动画剧集，第9季共52集，首播日期为2022-11-11，与本 subject 的季次、集数及开播日期一致；第8季首播日期2022-06-03也与 Bangumi 前作信息一致。\n\nhttps://www.themoviedb.org/tv/119873 (api_snapshot): 第9季季表完整列出第1至52集：前4集均于2022-11-11播出，之后每周五更新至2023-10-13；标题均为通用集号，无法提供剧情层面的逐集识别依据。\n\n备注：需补充 Bangumi 逐集标题或放送日期，才能确认连续对应关系，不能仅凭相同集号生成规则。；候选未提供剧情简介及制作方信息，无法交叉核对这些维度。\n\n脚本按声明范围生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/419211; https://www.themoviedb.org/tv/119873",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 9,
+      "start": 1,
+      "tmdbId": 119873
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

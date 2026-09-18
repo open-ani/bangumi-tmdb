@@ -126,12 +126,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应 TMDB 113064 第二季。官方第二期的媒介、制作人员、角色与声优，以及第一期12话、第二期24话的结构共同支持作品和整季范围匹配。逐集标题与日期不足以验证顺序，因此仅建立整季映射，不生成逐集规则。\n\nhttps://bgm.tv/subject/208321 (page): Bangumi 将本作列为第二期 TV 动画，共24话、每话15秒，播出期为2016-12-06至2017-05-16；导演菅原そうた，人物设定wogura。\n\nhttps://www.atpress.ne.jp/news/117855 (page): 制作方株式会社アイランド宣布第二期15秒电视动画于2016-12-05深夜开播，每周更新，共24话；第一期为12话。导演兼编剧为菅原そうた，角色设计为wogura；Pile、花澤香菜、井口裕香分别配音アイラ、はな、シマ。\n\nhttps://www.themoviedb.org/tv/113064 (api_snapshot): TMDB 113064 原名为「コチンPa！」，共两季36集，第一季12集、第二季24集；三名主要声优及对应角色与制作方资料一致。简介和制作人员字段为空，无法据此独立比对剧情与导演。\n\nhttps://www.themoviedb.org/tv/113064/season/2 (api_snapshot): 实际读取第二季全部集表：episodeCount=24、total_pages=1，包含第1至24集，标题均为通用集号，简介为空；日期从2016-09-09至2017-02-17，与官方播出窗口冲突。\n\n备注：TMDB 第二季的播出日期比官方记录提前近三个月，原因未确认，不能直接认定为日期录入错误。；Bangumi 各章节缺少标题和播出日期，TMDB 也只有通用集号；尚无足够依据建立24话逐集对应。后续需核对官方视频编号、发布时间或具体内容。",
+    "evidence": "codex: 确认对应 TMDB 113064 第二季。官方第二期的媒介、制作人员、角色与声优，以及第一期12话、第二期24话的结构共同支持作品和整季范围匹配。逐集标题与日期不足以验证顺序，因此仅建立整季映射，不生成逐集规则。\n\nhttps://bgm.tv/subject/208321 (page): Bangumi 将本作列为第二期 TV 动画，共24话、每话15秒，播出期为2016-12-06至2017-05-16；导演菅原そうた，人物设定wogura。\n\nhttps://www.atpress.ne.jp/news/117855 (page): 制作方株式会社アイランド宣布第二期15秒电视动画于2016-12-05深夜开播，每周更新，共24话；第一期为12话。导演兼编剧为菅原そうた，角色设计为wogura；Pile、花澤香菜、井口裕香分别配音アイラ、はな、シマ。\n\nhttps://www.themoviedb.org/tv/113064 (api_snapshot): TMDB 113064 原名为「コチンPa！」，共两季36集，第一季12集、第二季24集；三名主要声优及对应角色与制作方资料一致。简介和制作人员字段为空，无法据此独立比对剧情与导演。\n\nhttps://www.themoviedb.org/tv/113064/season/2 (api_snapshot): 实际读取第二季全部集表：episodeCount=24、total_pages=1，包含第1至24集，标题均为通用集号，简介为空；日期从2016-09-09至2017-02-17，与官方播出窗口冲突。\n\n备注：TMDB 第二季的播出日期比官方记录提前近三个月，原因未确认，不能直接认定为日期录入错误。；Bangumi 各章节缺少标题和播出日期，TMDB 也只有通用集号；尚无足够依据建立24话逐集对应。后续需核对官方视频编号、发布时间或具体内容。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/208321; https://www.atpress.ne.jp/news/117855; https://www.themoviedb.org/tv/113064; https://www.themoviedb.org/tv/113064/season/2",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 113064
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

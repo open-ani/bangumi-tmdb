@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、季度别名、首播日期、12集规模及前后作时间共同支持对应 TMDB 116042 第7季整季。逐集标题无法核对且排期存在冲突，因此仅确认季级范围，暂不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): 候选《如果历史是一群喵》制作方为深圳萌想文化传播有限公司，与 Bangumi 的萌想文化一致；第7季共12集，首播为2021-10-17，与本条目的第七季别名、集数及首播日期一致。第6、8季首播日期也分别与 Bangumi 前后作一致。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): 第7季各集标题均为通用编号，日期从2021-10-17逐周排至2022-01-02；Bangumi 则在2021-10-17和2021-12-19各播两集，其余逐周播出，无法据此确认逐集对应。\n\n备注：需要第7季真实分集标题或能解释两套排期差异的资料，才能确认 Bangumi sort 78–89 的逐集对应；不能直接按位置或相同日期配对。",
+    "evidence": "codex: 确认对应 TMDB 116042 第7季整季。制作方、剧情、动画版本、季度名称、首播日期及12集范围相符。此次实际集表已有故事标题及第78至89回编号，可逐集核对，旧映射所述通用标题限制已不成立。结合播放平台集序与原作标题差异，确认 Bangumi sort 78–89 连续对应 S07E01–E12；不是仅按位置推定。\n\nhttps://bgm.tv/subject/340851 (page): Bangumi 将本作标为 WEB 动画，别名为第七季，共12话，2021年10月17日开播；原作及导演为肥志，制作为萌想文化，剧情以猫咪演绎中国历史。\n\nhttps://www.themoviedb.org/tv/116042 (api_snapshot): TMDB 116042 的剧情、中文原名及制作公司深圳萌想文化传播有限公司与本作一致；第7季明确命名为隋唐风云篇，首播2021年10月17日，共12集，前后季分别为魏晋南北篇及盛世大唐篇。\n\nhttps://www.themoviedb.org/tv/116042/season/7 (api_snapshot): 已读取第7季完整集表，total_pages=1，共12集。第1至12集标题明确标注第七十八回至第八十九回，与 Bangumi sort 78至89对应；其中11集故事标题完全一致，第5集写作第八十二回 李氏建国。TMDB 日期逐周排列为2021年10月17日至2022年1月2日，与 Bangumi 的双集更新记录存在差异。\n\nhttps://www.bilibili.com/bangumi/media/md28235157/ (page): 哔哩哔哩正版播放页确认动画第7季于2021年10月17日开播，已完结，全12话。\n\nhttps://m.acfun.cn/v/?ab=6137502_2036720&contentType=0 (search_snippet): AcFun 第7季隋唐风云篇列出完整12话，依次为开皇之治、储君之争、大业难成、潜龙在渊、李氏崛起、雄鹰展翅、喋血禁门、贞观之治、日月临空、武周女皇、韦氏专政、太平公主；支持本季的完整内容范围和顺序。\n\nhttps://aus.zxhsd.com/kgsm/ts/2020/10/23/5191866.shtml (search_snippet): 原作第七卷隋唐风云篇目录将第八十二回写作李氏建国，其余章节顺序与动画对应，支持 TMDB 第5集采用原作标题、Bangumi 采用动画标题的解释。\n\n备注：TMDB 第2至12集日期与 Bangumi 不一致，排期差异原因尚未查明；逐集映射依据明确回次和故事标题，不依据日期配对。；第82回在 Bangumi及播放平台称李氏崛起，在 TMDB及原作目录称李氏建国；采用原作标题是现有证据支持的解释。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/340851; https://www.themoviedb.org/tv/116042",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/340851; https://www.themoviedb.org/tv/116042; https://www.themoviedb.org/tv/116042/season/7; https://www.bilibili.com/bangumi/media/md28235157/; https://m.acfun.cn/v/?ab=6137502_2036720&contentType=0; https://aus.zxhsd.com/kgsm/ts/2020/10/23/5191866.shtml",
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 89,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 78,
+      "tmdbId": 116042
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -201,12 +201,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 4258第二季整季。制作方公告、年份、剧情、39集韩国TV版本及完整放送表相互吻合，第二季未混入2005年前作。输入的Bangumi章节均无标题及日期，无法直接逐章核验，因此仅确认季级映射，暂不生成连续规则。\n\nhttps://www.newswire.co.kr/newsRead.php?no=472579 (page): Sunwoo 于2010年发布的官方新闻稿明确：2005年的《카드왕 믹스마스터》为第一季，《최강합체 믹스마스터》为第二季，2010-05-26起在KBS 2TV播出。\n\nhttps://namu.moe/w/최강합체%20믹스마스터 (page): 资料页确认本作为Sunwoo制作的39集续作，英文名为Mix Master: Final Force，中文发行名为《磁星骑士》；四名孩子与守护精灵拯救世界的剧情吻合。页面列出的39集韩文标题及播出日期与TMDB 4258第二季逐项一致。中国发行曾拆为78集，与输入的39集韩国版须区分。\n\nhttps://www.themoviedb.org/tv/4258 (api_snapshot): TMDB 4258由Sunwoo等公司制作，收录两季共78集；第一季为2005年39集，第二季为2010-05-26开始的39集。\n\nhttps://www.themoviedb.org/tv/4258/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共39集，编号1—39，日期从2010-05-26至2011-03-16；各集均有韩文标题，覆盖2010年续作完整放送范围。\n\nhttps://www.themoviedb.org/tv/213729 (api_snapshot): 韩文原名搜索另找到213729；详情简介也指向Sunwoo制作的第二部，但首播日期记为2010-05-04，仅收录一季一集，资料不足以覆盖本subject。\n\nhttps://www.themoviedb.org/tv/213729/season/1 (api_snapshot): 213729第一季实际只有一个占位式条目，标题为“에피소드 1”，日期2010-05-04，简介重复作品介绍，无法建立39集范围。\n\n备注：Bangumi网页本次无法读取；章节判断采用用户提供的快照。逐集规则需补充Bangumi章节标题、日期或其他明确的章节顺序证据。；TMDB另有资料不完整的同作候选213729，其日期与制作方公告不符，本次不采用。",
+    "evidence": "codex: 确认对应TMDB 4258第二季整季。制作方公告、年份、剧情、39集韩国TV版本及完整放送表相互吻合，第二季未混入2005年前作。输入的Bangumi章节均无标题及日期，无法直接逐章核验，因此仅确认季级映射，暂不生成连续规则。\n\nhttps://www.newswire.co.kr/newsRead.php?no=472579 (page): Sunwoo 于2010年发布的官方新闻稿明确：2005年的《카드왕 믹스마스터》为第一季，《최강합체 믹스마스터》为第二季，2010-05-26起在KBS 2TV播出。\n\nhttps://namu.moe/w/최강합체%20믹스마스터 (page): 资料页确认本作为Sunwoo制作的39集续作，英文名为Mix Master: Final Force，中文发行名为《磁星骑士》；四名孩子与守护精灵拯救世界的剧情吻合。页面列出的39集韩文标题及播出日期与TMDB 4258第二季逐项一致。中国发行曾拆为78集，与输入的39集韩国版须区分。\n\nhttps://www.themoviedb.org/tv/4258 (api_snapshot): TMDB 4258由Sunwoo等公司制作，收录两季共78集；第一季为2005年39集，第二季为2010-05-26开始的39集。\n\nhttps://www.themoviedb.org/tv/4258/season/2 (api_snapshot): 实际读取第二季完整集表，total_pages=1，共39集，编号1—39，日期从2010-05-26至2011-03-16；各集均有韩文标题，覆盖2010年续作完整放送范围。\n\nhttps://www.themoviedb.org/tv/213729 (api_snapshot): 韩文原名搜索另找到213729；详情简介也指向Sunwoo制作的第二部，但首播日期记为2010-05-04，仅收录一季一集，资料不足以覆盖本subject。\n\nhttps://www.themoviedb.org/tv/213729/season/1 (api_snapshot): 213729第一季实际只有一个占位式条目，标题为“에피소드 1”，日期2010-05-04，简介重复作品介绍，无法建立39集范围。\n\n备注：Bangumi网页本次无法读取；章节判断采用用户提供的快照。逐集规则需补充Bangumi章节标题、日期或其他明确的章节顺序证据。；TMDB另有资料不完整的同作候选213729，其日期与制作方公告不符，本次不采用。\n\n脚本按声明范围生成逐集规则：39 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/24354; https://www.newswire.co.kr/newsRead.php?no=472579; https://namu.moe/w/최강합체%20믹스마스터; https://www.themoviedb.org/tv/4258; https://www.themoviedb.org/tv/4258/season/2; https://www.themoviedb.org/tv/213729; https://www.themoviedb.org/tv/213729/season/1",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 39,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 4258
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

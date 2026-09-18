@@ -105,12 +105,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 制作方、电视动画媒介、第3季标识、20集总量及放送起止日期共同支持对应 TMDB 64198 第3季整季。季范围可以确认；Bangumi 各章节缺少标题与日期，无法逐集核实顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/64198 (api_snapshot): 候选为同名动画电视系列，制作公司包含 Nerd Corps Entertainment；第3季共20集，首集日期2016-10-10、末集日期2018-02-22，与 Bangumi 的季数、制作方、集数及放送起止日期一致。\n\nhttps://www.themoviedb.org/tv/292238 (api_snapshot): 此中文同名候选第3季也有20集，但季及逐集日期均缺失、制作公司为空，无法提供与64198同等的版本核对依据。\n\n备注：Bangumi 20个章节的标题和放送日期全部为空，TMDB 标题也仅为集号占位文本；需补充可核对的逐集标题或日期后才能建立章节对应关系。",
+    "evidence": "codex: 制作方、电视动画媒介、第3季标识、20集总量及放送起止日期共同支持对应 TMDB 64198 第3季整季。季范围可以确认；Bangumi 各章节缺少标题与日期，无法逐集核实顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/64198 (api_snapshot): 候选为同名动画电视系列，制作公司包含 Nerd Corps Entertainment；第3季共20集，首集日期2016-10-10、末集日期2018-02-22，与 Bangumi 的季数、制作方、集数及放送起止日期一致。\n\nhttps://www.themoviedb.org/tv/292238 (api_snapshot): 此中文同名候选第3季也有20集，但季及逐集日期均缺失、制作公司为空，无法提供与64198同等的版本核对依据。\n\n备注：Bangumi 20个章节的标题和放送日期全部为空，TMDB 标题也仅为集号占位文本；需补充可核对的逐集标题或日期后才能建立章节对应关系。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/658708; https://www.themoviedb.org/tv/64198; https://www.themoviedb.org/tv/292238",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 64198
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

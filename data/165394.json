@@ -66,12 +66,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品原名、年份、角色与声优，以及官方确认的两期12话/24话结构共同支持对应TMDB 113064第一季整季。实际季表仅含12集，范围与本subject一致。逐集标题和日期不足以核实顺序，因此保留整季映射，逐集规则留空。\n\nhttps://bgm.tv/subject/165394 (page): Bangumi 标为 TV 动画，共12话，2015年12月22日开播；简介为アイラ、はな、シマ出演的15秒CM动画，导演菅原そうた，人物设定wogura。\n\nhttps://www.atpress.ne.jp/news/85283 (page): 制作方首播公告确认2015年12月22日在TOKYO MX开始播出15秒剧情动画，原则上隔周更新；导演、人物设定及三位角色声优与Bangumi一致，角色歌曲和MV另行制作。\n\nhttps://www.atpress.ne.jp/news/117855 (page): 制作方明确第一期为12话、第二期为24话，两期均播出半年；第一期隔周更新，第二期每周更新。\n\nhttps://www.themoviedb.org/tv/113064 (api_snapshot): TMDB详情原名为「コチンPa！」，角色及声优为Aira/Pile、Hana/花澤香菜、Shima/井口裕香；分为第一季12集、第二季24集，与官方分期结构一致。\n\nhttps://www.themoviedb.org/tv/113064/season/1 (api_snapshot): 第一季实际集表共12集，编号1至12，total_pages=1；标题仅为「第N話」，无剧情简介。日期按周列为2015年12月12日至2016年2月27日，与官方播出信息冲突。\n\nhttps://bgm.tv/subject/165394/ep (page): Bangumi章节列表包含本篇1至12，但没有集标题或播出日期，无法与TMDB逐集交叉验证。\n\n备注：TMDB第一季首播及逐周日期与官方2015年12月22日首播、隔周更新的说明冲突，不能用于逐集匹配。；Bangumi缺少逐集标题和日期，TMDB仅有通用编号标题；需要官方逐话档案或内容证据后才能建立逐集规则。",
+    "evidence": "codex: 作品原名、年份、角色与声优，以及官方确认的两期12话/24话结构共同支持对应TMDB 113064第一季整季。实际季表仅含12集，范围与本subject一致。逐集标题和日期不足以核实顺序，因此保留整季映射，逐集规则留空。\n\nhttps://bgm.tv/subject/165394 (page): Bangumi 标为 TV 动画，共12话，2015年12月22日开播；简介为アイラ、はな、シマ出演的15秒CM动画，导演菅原そうた，人物设定wogura。\n\nhttps://www.atpress.ne.jp/news/85283 (page): 制作方首播公告确认2015年12月22日在TOKYO MX开始播出15秒剧情动画，原则上隔周更新；导演、人物设定及三位角色声优与Bangumi一致，角色歌曲和MV另行制作。\n\nhttps://www.atpress.ne.jp/news/117855 (page): 制作方明确第一期为12话、第二期为24话，两期均播出半年；第一期隔周更新，第二期每周更新。\n\nhttps://www.themoviedb.org/tv/113064 (api_snapshot): TMDB详情原名为「コチンPa！」，角色及声优为Aira/Pile、Hana/花澤香菜、Shima/井口裕香；分为第一季12集、第二季24集，与官方分期结构一致。\n\nhttps://www.themoviedb.org/tv/113064/season/1 (api_snapshot): 第一季实际集表共12集，编号1至12，total_pages=1；标题仅为「第N話」，无剧情简介。日期按周列为2015年12月12日至2016年2月27日，与官方播出信息冲突。\n\nhttps://bgm.tv/subject/165394/ep (page): Bangumi章节列表包含本篇1至12，但没有集标题或播出日期，无法与TMDB逐集交叉验证。\n\n备注：TMDB第一季首播及逐周日期与官方2015年12月22日首播、隔周更新的说明冲突，不能用于逐集匹配。；Bangumi缺少逐集标题和日期，TMDB仅有通用编号标题；需要官方逐话档案或内容证据后才能建立逐集规则。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/165394; https://www.atpress.ne.jp/news/85283; https://www.atpress.ne.jp/news/117855; https://www.themoviedb.org/tv/113064; https://www.themoviedb.org/tv/113064/season/1; https://bgm.tv/subject/165394/ep",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 113064
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

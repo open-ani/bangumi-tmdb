@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 季度、首播日期、集数及前作时间线共同支持对应 TMDB 93508 第3季整季。逐集证据不足，暂不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/93508 (api_snapshot): 候选 TV 93508 第3季首播于2019-04-10，共10集，与 Bangumi 的季度、开播日期及本篇集数一致；第2季首播日期2018-10-26也与前作关系信息一致。第3季完整季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/movie/372631 (api_snapshot): 该候选为2015年电影《Marvel Super Hero Adventures: Frost Fight!》，对应关联作品名称，不符合本条目2019年第三季、10集的范围。\n\n备注：Bangumi 全部章节均缺少标题和放送日期；TMDB 集标题也仅为通用编号，无法核实逐集顺序。需补充可对照的章节标题或日期后再建立逐集映射。；Bangumi 未提供剧情及制作方信息，无法独立核对这两项。",
+    "evidence": "codex: 季度、首播日期、集数及前作时间线共同支持对应 TMDB 93508 第3季整季。逐集证据不足，暂不生成连续规则或章节特例。\n\nhttps://www.themoviedb.org/tv/93508 (api_snapshot): 候选 TV 93508 第3季首播于2019-04-10，共10集，与 Bangumi 的季度、开播日期及本篇集数一致；第2季首播日期2018-10-26也与前作关系信息一致。第3季完整季表未显示混入其他作品。\n\nhttps://www.themoviedb.org/movie/372631 (api_snapshot): 该候选为2015年电影《Marvel Super Hero Adventures: Frost Fight!》，对应关联作品名称，不符合本条目2019年第三季、10集的范围。\n\n备注：Bangumi 全部章节均缺少标题和放送日期；TMDB 集标题也仅为通用编号，无法核实逐集顺序。需补充可对照的章节标题或日期后再建立逐集映射。；Bangumi 未提供剧情及制作方信息，无法独立核对这两项。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/585240; https://www.themoviedb.org/tv/93508; https://www.themoviedb.org/movie/372631",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "verifiedAt": "2026-09-18T12:53:11.022Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 93508
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
