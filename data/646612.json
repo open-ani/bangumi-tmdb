@@ -1,0 +1,36 @@
+{
+  "bangumiId": 646612,
+  "episodes": [
+    {
+      "id": 1693510,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1693510,
+      "targets": [
+        {
+          "id": 1543993,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 确认对应同一部独立动画电影：原名、上映日期、剧情、导演和制作公司一致，外部资料进一步核实原作及其他制作人员。Bangumi 唯一本篇章节的标题与上映日期均对应整部电影，因此直接映射至 TMDB movie 1543993。\n\nhttps://www.themoviedb.org/movie/1543993 (api_snapshot): 以韩文原名搜索并读取 TMDB movie 1543993 详情：原名相同，上映日期为2026年6月3日，导演为许平康，制作公司为21STUDIOS；剧情围绕18岁离开乌托邦参加朝圣、部分人不再归来展开，与输入一致。\n\nhttps://cine21.com/movie/info/?movie_id=63167 (search_snippet): 씨네21 将本片列为韩国科幻动画电影，英文名 Pilgrims，2026年6月3日上映、片长60分钟；导演许平康、原作金草叶、音乐黄素允、制作21工作室及发行电影特别市SMC均与输入相符。\n\n备注：TMDB 标注片长61分钟，输入及씨네21为60分钟；这一分钟差异的原因未确认，其余身份信息一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/646612; https://www.themoviedb.org/movie/1543993; https://cine21.com/movie/info/?movie_id=63167",
+    "verifiedAt": "2026-09-18T00:25:50.634Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1543993,
+      "type": "movie"
+    }
+  ]
+}

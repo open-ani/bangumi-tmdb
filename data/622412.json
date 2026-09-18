@@ -1,0 +1,36 @@
+{
+  "bangumiId": 622412,
+  "episodes": [
+    {
+      "id": 1604284,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1604285,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1604286,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 已确认对应TMDB电影1633790：版本、上映日期、制作人员及三话剧情均吻合，范围恰为EZY第二章。TMDB将这三话整体收录为一部剧场作品，因此采用作品级映射，不生成季集规则，三个Bangumi章节暂不单独映射。\n\nhttps://ezy.patlabor.tokyo/ (page): 官网确认本作分三章剧场上映，File 2 上映日为2026年8月14日；第4、5、6话标题依次为《ワインと銃弾》《あさき夢みし》《恋のサバイバル》，与输入章节一致。导演出渕裕、脚本伊藤和典、演出海宝興蔵、动画制作J.C.STAFF亦一致。\n\nhttps://www.themoviedb.org/movie/1633790 (api_snapshot): 已调用 tmdb_details 核实电影1633790：日文原名为《機動警察パトレイバー EZY File 2》，上映日2026年8月14日。简介明确包含三段故事：实弹遗失、少女消失、奥多摩救援遇险，分别对应官网第4—6话；制作公司及主要制作人员与输入一致。\n\n备注：当前核实的TMDB条目为电影，无可供逐话对应的季集表；无法在该电影条目内表达第4—6话的独立映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/622412; https://ezy.patlabor.tokyo/; https://www.themoviedb.org/movie/1633790",
+    "verifiedAt": "2026-09-18T00:25:50.634Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1633790,
+      "type": "movie"
+    }
+  ]
+}

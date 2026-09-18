@@ -1,0 +1,43 @@
+{
+  "bangumiId": 655061,
+  "episodes": [
+    {
+      "id": 1696271,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1739485,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 对应 TMDB TV 323604 第1季第1—2集。年份、制作品牌、DVD 动画版本及剧情相符，两话标题和发行日期逐集吻合。第2话虽尚未发行，但输入与 TMDB 的集数及明确排期一致，可以纳入连续规则。\n\nhttps://www.a1c.jp/~nur/nur_brand/product/sareduma/index_sareduma_01.html (page): 官方产品页确认这是 nür 制作、A1C 发行的 2026 年 DVD 动画，第一话于 2026-08-28 发售，本篇20分钟；副标题、春香与女儿原家庭教师卓也的剧情均与输入及 TMDB 第一集一致。官方列出演出のぢ、脚本PON、角色设计きのはらひかる。\n\nhttps://www.themoviedb.org/tv/323604 (api_snapshot): 已调用 tmdb_details：TV 323604 的日文原名、2026-08-28 首发日期、剧情简介和制作公司 Nur 均吻合；登记1季、2集。这里的 TV 是 TMDB 收录形式，官方发行媒介为 DVD 动画。\n\nhttps://www.themoviedb.org/tv/323604/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共2集。第1集副标题为「クールママが溺れるまで……」，日期2026-08-28；第2集为「萌えママが縋り啼くまで……」，日期2026-11-27。两集标题与输入仅有装饰符号差异，日期和顺序逐集一致。\n\nhttps://bgm.tv/subject/655061 (page): 本次访问 Bangumi subject 页面返回未查询到条目的提示，因此 Bangumi 章节信息以用户提供的归档快照为核对基准。\n\n备注：输入 infobox 写1话，与归档中的2条本篇章节及 TMDB 两集季表不一致；本次按逐集信息映射。；第2话官方产品页本次无法访问；其2026-11-27排期由输入快照与 TMDB 季表交叉确认，后续可能调整。；TMDB 未提供演职员名单，无法逐项交叉核对制作人员。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/655061; https://www.a1c.jp/~nur/nur_brand/product/sareduma/index_sareduma_01.html; https://www.themoviedb.org/tv/323604; https://www.themoviedb.org/tv/323604/season/1",
+    "verifiedAt": "2026-09-18T00:25:50.634Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 323604
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 323604,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

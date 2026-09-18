@@ -1,0 +1,81 @@
+{
+  "bangumiId": 653307,
+  "episodes": [
+    {
+      "id": 1694656,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1694657,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1694658,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1694659,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1694660,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1694661,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1694662,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1694663,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1694664,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1694665,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 该 subject 对应 Hulu 播出编号第14季，即 TMDB 615 第11季整季。首播年份、媒介、制作及配音阵容、本季剧情和10集范围相符；逐集日期全部一致，外部集表的标题顺序亦与 TMDB 一致，可建立1至10集连续映射。\n\nhttps://press.hulu.com/shows/futurama/ (page): Hulu 官方确认第14季于2026年8月3日首播，每周一更新；本季剧情涉及太空海盗、培植肉、诈骗及 Zoidberg 旧爱回归。制作公司为20th Television Animation，主要配音阵容与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/615 (api_snapshot): 实际读取 TMDB 615 的详情，确认是同一科幻动画系列，制作公司及配音阵容吻合；第11季标注2026年8月3日开播、共10集，本季简介与 Hulu 第14季一致。\n\nhttps://www.themoviedb.org/tv/615/season/11 (api_snapshot): 实际读取第11季完整集表，total_pages=1，共10集。第1、2集均为2026年8月3日，其后逐周更新至9月28日，全部日期与输入的 Bangumi 章节一致。\n\nhttps://thetvdb.com/series/futurama/seasons/alternate/14 (page): TVDB 的流媒体顺序第14季共10集，从 Beef 至 Final Ending: The Last Conclusion，各集标题、顺序及日期均与 TMDB 第11季一致，作为 Hulu 季号差异的交叉验证。\n\n备注：Bangumi 章节标题为空，标题顺序通过外部集表交叉核对，Bangumi 侧依据逐集日期及总集数确认。；第9、10集尚未播出；已公布的标题、集号及9月21日、9月28日排期一致，因此纳入映射，后续排期仍可能调整。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/653307; https://press.hulu.com/shows/futurama/; https://www.themoviedb.org/tv/615; https://www.themoviedb.org/tv/615/season/11; https://thetvdb.com/series/futurama/seasons/alternate/14",
+    "verifiedAt": "2026-09-18T00:25:50.634Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 11,
+      "start": 1,
+      "tmdbId": 615
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 615,
+      "season": 11,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "bangumiId": 637402,
+  "episodes": [
+    {
+      "id": 1665454,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1709814,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 确认对应 TMDB 317686 第1季全两集。官方资料与 TMDB 的年份、发行版本、制作品牌、角色及剧情一致，实际季表的两集标题和日期也与 Bangumi 完全对应，支持连续一对一映射。\n\nhttps://www.a1c.jp/~nur/nur_brand/product/hamehara/index_hamehara_01.html (page): 官方产品页确认这是 nür 制作、A1C 发行的 2026 年 DVD 动画，原作为さ〜くる・ヘモグロビン，演出为のぢ；第一话于2026年6月26日发售。角色水上歩果、高橋祐也及职场合规题材剧情与候选一致。\n\nhttps://www.themoviedb.org/tv/317686 (api_snapshot): TMDB 317686 的日文原名、2026年6月26日首发日期、Nur 制作公司及剧情均吻合；详情列出一季、两集，对应本次 OVA 版本。\n\nhttps://www.themoviedb.org/tv/317686/season/1 (api_snapshot): 第1季实际集表共两集，仅一页。第1集标题为「～それセクハラですっ～」，日期2026-06-26；第2集为「～セクハラしないんですかっ～」，日期2026-09-25。两集标题及日期均与输入的 Bangumi 章节逐一一致，标题仅有装饰符号差异。\n\n备注：第2话预定于2026年9月25日发售，目前尚未到期；依据 Bangumi 与 TMDB 一致的两集数量、标题及明确排期纳入映射，其官方独立产品页此次未能访问。；Bangumi 页面此次返回503，章节比对使用用户提供的归档数据；TMDB 未提供可进一步交叉核对的个人制作人员名单。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/637402; https://www.a1c.jp/~nur/nur_brand/product/hamehara/index_hamehara_01.html; https://www.themoviedb.org/tv/317686; https://www.themoviedb.org/tv/317686/season/1",
+    "verifiedAt": "2026-09-18T00:25:50.634Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 317686
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 317686,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
