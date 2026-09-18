@@ -20,7 +20,7 @@ carry_over() {
   git add -- data state sources
   if git diff --cached --quiet; then git reset -q --hard "$1"; prepare && pnpm cli stats; return; fi
   git_bot commit -q -m 'wip: generated changes'
-  if git rebase --quiet "$1" && git reset -q "$1" && prepare; then pnpm cli stats; return 0; fi
+  if git_bot rebase --quiet "$1" && git reset -q "$1" && prepare; then pnpm cli stats; return 0; fi
   git rebase --abort 2> /dev/null || true
   return 1
 }

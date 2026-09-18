@@ -129,6 +129,23 @@ export async function update(root: string, options: UpdateOptions): Promise<void
     report.push({ bangumiId: id, status, kind, reason: reason.slice(0, 20000) });
   };
   const fatal = (error: unknown) => /HTTP (401|403)/.test(String(error));
+  // A codex process that exits, times out or cannot start says nothing about the subject. Such failures
+  // are recorded as errors (retried tomorrow, no backoff growth); a streak of them stops model work for
+  // this run, since the account has most likely hit a usage limit, and the rest stays due.
+  const infrastructure = (error: unknown) => /Codex (exited|timed out)|spawn codex|ENOENT/.test(String(error));
+  const BREAKER = 10;
+  let streak = 0, halted = false;
+  const failed = (error: unknown, phase: string) => {
+    if (!infrastructure(error)) { streak = 0; return false; }
+    if (++streak >= BREAKER && !halted) { halted = true; console.log(`${phase}: ${streak} consecutive Codex failures (${String(error).slice(0, 120)}); stopping model work for this run`); }
+    return true;
+  };
+  // A model that names the work but leaves the episodes open gets the deterministic rules at once.
+  const withRules = async (row: Mapping, eps: Episode[]): Promise<Mapping> => {
+    if (row.rules.length || row.overrides.length) return row;
+    const derived = await derive(row, eps, cached);
+    return derived ? Mapping.parse({ ...derived.mapping, provenance: { ...row.provenance, evidence: `${row.provenance.evidence}\n\n${derived.note}`.slice(0, 20000) } }) : row;
+  };
   const apply = (row: Mapping, before: Mapping | undefined) => {
     validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
     if (!before || comparable(before) !== comparable(row)) { rows.set(row.bangumiId, row); changes.set(row.bangumiId, row); }
@@ -223,7 +240,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const candidates = unmapped.filter(s => !settled.has(s.id) && undecided.has(s.id));
   let adjudicating = 0;
   await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, async () => {
-    while (adjudicating < candidates.length && counts.adjudicated < options.maxAdjudications && deadline - Date.now() > 90000) {
+    while (!halted && adjudicating < candidates.length && counts.adjudicated < options.maxAdjudications && deadline - Date.now() > 90000) {
       const subject = candidates[adjudicating++]!;
       counts.adjudicated++; judged.add(subject.id);
       const eps = ctx.episodes.get(subject.id) ?? [];
@@ -236,15 +253,15 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         const proposal = toProposal(decision.proposal);
         requireEvidence(proposal, result.calls);
         const anidbId = ctx.seeds.get(subject.id)?.anidb;
-        const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
+        const row = await withRules(Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
           episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
-          provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) });
+          provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) }), eps);
         validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
         await verifyMapping(row, live, catalog);
         apply(row, undefined);
-        counts.adjudicatedMatched++; settled.add(subject.id);
+        counts.adjudicatedMatched++; settled.add(subject.id); streak = 0;
         record(subject.id, kindOf(subject), 'matched', decision.reason);
-      } catch (error) { if (fatal(error)) throw error; }
+      } catch (error) { if (fatal(error)) throw error; failed(error, 'Phase 1c'); }
       if (counts.adjudicated % 25 === 0) console.log(`Phase 1c: ${counts.adjudicated}/${candidates.length} adjudicated, ${counts.adjudicatedMatched} matched; ${elapsed()}`);
     }
   }));
@@ -267,6 +284,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         tmdbBudget: options.tmdbBudget, webBudget: options.webBudget, token, cacheDir: join(cacheDir(root), 'tmdb'), auditDir: join(cacheDir(root), 'research') });
       const decision = result.decision;
       if (result.reused) counts.researchReused++;
+      streak = 0;
       if (decision.status !== 'matched' || !decision.proposal) {
         record(subject.id, task.kind, 'pending', `${decision.reason}${decision.uncertainties.length ? `\n未确定：${decision.uncertainties.join('；')}` : ''}`);
         return;
@@ -274,21 +292,22 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       const proposal = toProposal(decision.proposal);
       requireEvidence(proposal, result.calls);
       const anidbId = before?.anidbId ?? ctx.seeds.get(subject.id)?.anidb;
-      const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
+      const row = await withRules(Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
         episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
-        provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) });
+        provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) }), eps);
       validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
       await verifyMapping(row, live, catalog);
       apply(row, before);
-      counts.researchMatched++;
+      counts.researchMatched++; streak = 0;
       record(subject.id, task.kind, 'matched', decision.reason);
     } catch (error) {
       if (fatal(error)) { abort = error; return; }
-      record(subject.id, task.kind, 'pending', `Research rejected: ${String(error)}`);
+      if (failed(error, 'Phase 2')) record(subject.id, task.kind, 'error', `Research failed: ${String(error)}`);
+      else record(subject.id, task.kind, 'pending', `Research rejected: ${String(error)}`);
     }
   };
   const worker = async () => {
-    while (!abort && cursor < tasks.length && counts.codexSubjects < options.maxSubjects && deadline - Date.now() > 90000) {
+    while (!abort && !halted && cursor < tasks.length && counts.codexSubjects < options.maxSubjects && deadline - Date.now() > 90000) {
       const task = tasks[cursor++]!;
       counts.codexSubjects++;
       await handle(task);
@@ -308,7 +327,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   }
   progress.archive = catalog.snapshot;
   await writeJson(join(root, 'state/progress.json'), progress);
-  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
+  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, halted, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
   await writeJson(join(cacheDir(root), 'update-report.json'), summary);
   const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
   console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.resolved} resolved without a model; ${counts.adjudicatedMatched}/${counts.adjudicated} adjudicated; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
