@@ -8,7 +8,7 @@
 - Automated updates may change `data/`, `state/`, `sources/` and the generated stats block of README.md only, after validation.
 - Scheduled runs research only recent or upcoming unmapped subjects; the deep backlog is offline work.
 - Episode rules come from air-date agreement or from a model that actually read the TMDB season. Position alone only
-  restates a single model-declared episode range (or a lone episode) that has no dates to compare; never anything wider.
+  restates a single model-declared season or episode range with equal episode counts and no dates to compare; never anything wider.
 - Scheduled automation is explicitly authorized to commit and push validated changes
   directly to main as openanibot. Never force-push or create an automation branch/PR.
 - Community PRs are merged by maintainers; never auto-merge them.

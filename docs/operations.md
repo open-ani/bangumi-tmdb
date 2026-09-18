@@ -17,7 +17,8 @@
 | `CODEX_MAX_ADJUDICATIONS` | Optional variable | 每轮最多交给 Codex 一轮判定（无工具）的条目数，默认 400 |
 | `CODEX_TIMEOUT_MINUTES` | Optional variable | 单个条目的研究超时，默认 8 分钟 |
 | `UPDATE_MAX_MINUTES` | Optional variable | 一轮更新的总时间预算，默认 75 分钟；前一半留给校验与规则推导 |
-| `UPDATE_SCOPE_DAYS` | Optional variable | 只研究放送日在最近这么多天内或尚未放送的未映射条目，默认 180 |
+| `UPDATE_SCOPE_DAYS` | Optional variable | 只研究放送日在最近这么多天内或尚未放送的未映射条目，默认 180；手动运行时可用 `scope_days` 输入覆盖 |
+| `UPDATE_PLATFORMS` | Manual input only | 手动运行时用 `platforms` 输入限定未映射条目的 Bangumi 平台代码，逗号分隔（1 TV、2 OVA、3 剧场版、5 WEB、0 其他、2006 动态漫画）；留空不限 |
 | `DISCOVER_MAX_SUBJECTS` | Optional variable | 每轮通过 Bangumi API 刷新的条目上限，默认 600 |
 
 自托管 runner 标签为 `self-hosted, macOS, ARM64`，与 animeko 的 Codex 工作流共用同一台组织级 Mac mini：`codex` 在 `~/.local/bin`，`gh` 与 Node 在 `/opt/homebrew/bin`，工作流开头会把这两个目录加入 PATH；runner 用户已通过 `codex login` 登录 ChatGPT 订阅（`~/.codex/auth.json`）。这台机器只有一个 runner，本任务会和 animeko 的 Codex 任务串行排队，因此安排在北京时间清晨运行。组织 runner group 必须允许本仓库使用。
@@ -36,7 +37,7 @@
 2. `pnpm cli discover`：从 Bangumi API 刷新最近 45 天到未来 120 天放送的动画、当季日历、正在放送的已映射条目、Archive 中缺失的已映射条目（Bangumi 锁定条目）以及即将重试的待定项，写入 API 覆盖层。覆盖层里比当前 dump 新的记录优先于 Archive；API 返回 302 的条目视为已合并并从 catalog 移除，404 不移除。
 3. `pnpm cli check-anidb`：每周三或手动勾选时刷新 AniDB 交叉核对。
 4. `pnpm run update`：
-   - 校验阶段：对到期的已有映射在线核验 TMDB 作品、季和集是否仍存在；对只有作品级映射的条目按放送日期推导逐集规则（集数一致，且可比对的日期全部在 ±1 天内；两边日期都按集序递增时，也接受至少 80% 在 ±1 天内、其余不超过 7 天，或逐集间隔一致而整体平移小于一集间隔；缺少可比日期时，仅限模型研究已限定为单一集范围或单集的条目）；对已有逐集规则的条目追加新放送的集。锁定条目只核验不修改。
+   - 校验阶段：对到期的已有映射在线核验 TMDB 作品、季和集是否仍存在；对只有作品级映射的条目按放送日期推导逐集规则（集数一致，且可比对的日期全部在 ±1 天内；两边日期都按集序递增时，也接受至少 80% 在 ±1 天内、其余不超过 7 天，或逐集间隔一致而整体平移小于一集间隔；缺少可比日期时，仅限模型研究已限定为单一整季或集范围、且集数相等的条目）；对已有逐集规则的条目追加新放送的集。锁定条目只核验不修改。
    - 识别阶段：对到期的未映射条目，用标题、译名、别名（去掉季数后缀）搜索 TMDB，拉取候选的季表，只有唯一一个候选的集与 Bangumi 本篇章节按放送日期逐一吻合时才写入作品与逐集映射（`deterministic`，evidence 记录搜索词与候选数）；单集条目按上映日期匹配电影。多候选吻合、缺少日期或对不上的留给模型。
    - 判定阶段：识别阶段有候选但拿不定的条目（多候选吻合、缺日期、集数对不上），把 Bangumi 数据和已抓取的候选季表一起交给 Codex 一轮判定，不给工具、不联网，结果同样经证据检查（只能引用交给它的候选）、结构校验和在线核验；pending 的留给研究阶段。每轮最多 `CODEX_MAX_ADJUDICATIONS` 条（默认 400）。
    - 研究阶段：在时间与条目预算内，用 Codex（联网搜索加 TMDB MCP 工具）研究新出现的、在范围内的未映射条目，其次修复核验失败的映射，再为无法确定性推导的条目补逐集规则。模型只能引用它实际通过工具读取过的作品和季，结果还要经过结构校验和在线核验。
@@ -47,7 +48,7 @@
 
 待定项按 7、14、28、56、90 天退避重试；未放送作品在放送日后 3 天再看。已映射条目每 28 天复核，正在放送且 TMDB 尚缺集的条目 2 天后再试。Bangumi 数据（名称、日期、章节、关系、种子线索）一旦变化，条目会立即重新处理，不受重试时间限制。
 
-手动补跑积压时，把要处理的条目在 `state/progress.json` 里的 `retryAt` 改到当前时间之前并提交，再以 `max_subjects` 和 `max_minutes`（最多 450，作业上限 8 小时）手动运行 **Update mappings**；研究队列先处理到期的未映射条目和核验失败的映射，剩余预算按放送日期从新到旧补逐集规则。
+手动补跑积压时，把要处理的条目在 `state/progress.json` 里的 `retryAt` 改到当前时间之前并提交，再以 `max_subjects`、`max_adjudications`、`max_minutes`（最多 450，作业上限 8 小时），必要时加 `scope_days` 与 `platforms`，手动运行 **Update mappings**；研究队列先处理到期的未映射条目和核验失败的映射，剩余预算按放送日期从新到旧补逐集规则。
 
 放送日早于范围的未映射条目不进入定时任务，由维护者用离线批处理完成后提交。`docs/unresolved-mappings-*.md` 里的已复核未定项通过 `pnpm cli import-pending <文件> [天数]` 写入 `state/progress.json`，默认 180 天后才重试。
 

@@ -69,7 +69,8 @@ export interface Derived { mapping: Mapping; note: string }
 // Turn a subject-level mapping into episode rules without any judgement call: the declared TMDB scope
 // must contain exactly as many episodes as Bangumi's regular episodes, in order, with agreeing air dates.
 // Position alone is accepted only where it restates the target: a model-researched mapping that
-// declares one episode range (or covers a single episode) and has no dates to compare.
+// declares one season or episode range and has no dates to compare. That is what a model does anyway
+// when it writes rules for an undated subject; here it is explicit and the evidence says so.
 export async function derive(mapping: Mapping, episodes: Episode[], tmdb: SeasonSource): Promise<Derived | null> {
   if (mapping.locked || mapping.rules.length || mapping.overrides.length) return null;
   const regular = episodes.filter(e => e.type === 0).sort((a, b) => a.sort - b.sort);
@@ -89,8 +90,7 @@ export async function derive(mapping: Mapping, episodes: Episode[], tmdb: Season
   if (flat.length !== regular.length) return null;
   const check = datesAgree(regular.map((bangumi, i) => ({ bangumi, tmdb: flat[i]! })));
   // Multi-target scopes are where Bangumi and TMDB order specials differently, so they always need dates.
-  const declared = !check.ok && check.exact === check.compared && mapping.provenance.method === 'codex'
-    && only !== null && (only.episode !== undefined || regular.length === 1);
+  const declared = !check.ok && check.exact === check.compared && mapping.provenance.method === 'codex' && only !== null;
   if (!check.ok && !declared) return null;
   const rules: Rule[] = [];
   let index = 0;
@@ -110,7 +110,7 @@ export async function derive(mapping: Mapping, episodes: Episode[], tmdb: Season
   const note = check.agreement === 'exact' ? `脚本按放送日期核对生成逐集规则：${matched}，${check.compared} 对日期全部在 ±${MAX_DATE_DRIFT_DAYS} 天内。`
     : check.agreement === 'mostly' ? `脚本按放送日期核对生成逐集规则：${matched}，两边日期均按集序递增，${check.compared} 对日期中 ${check.exact} 对在 ±${MAX_DATE_DRIFT_DAYS} 天内，其余相差不超过 ${MAX_DATE_SLIP_DAYS} 天。`
     : check.agreement === 'shifted' ? `脚本按放送日期核对生成逐集规则：${matched}，两边日期均按集序递增且逐集间隔一致，${check.compared} 对日期整体相差不超过 ${check.shiftDays} 天，小于一集的放送间隔。`
-    : `脚本按声明范围生成逐集规则：${matched}；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（${check.compared} 对），未做日期核验。`;
+    : `脚本按声明范围生成逐集规则：${matched}；模型研究已将本条目限定为单一 TMDB ${only?.type === 'tv' && only.episode !== undefined ? '集范围' : '整季'}，可比对的放送日期不足（${check.compared} 对），未做日期核验。`;
   return { mapping: row, note };
 }
 export interface Extended { mapping: Mapping; added: number; uncovered: number; note: string }

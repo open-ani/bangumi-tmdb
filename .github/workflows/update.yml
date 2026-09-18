@@ -14,6 +14,18 @@ on:
         description: 'Time budget in minutes for this run, at most 450 (blank = repository variable or default)'
         required: false
         default: ''
+      max_adjudications:
+        description: 'Single-turn model adjudications for this run (blank = repository variable or default)'
+        required: false
+        default: ''
+      scope_days:
+        description: 'Research unmapped subjects that aired within this many days (blank = repository variable or default)'
+        required: false
+        default: ''
+      platforms:
+        description: 'Comma-separated Bangumi platform codes for unmapped subjects, e.g. 1,2,3,5 (blank = all)'
+        required: false
+        default: ''
       refresh_anidb:
         description: 'Refresh the AniDB cross-check in this run'
         type: boolean
@@ -36,12 +48,13 @@ jobs:
     env:
       CODEX_MAX_SUBJECTS: ${{ github.event.inputs.max_subjects || vars.CODEX_MAX_SUBJECTS || '60' }}
       CODEX_CONCURRENCY: ${{ vars.CODEX_CONCURRENCY || '4' }}
-      CODEX_MAX_ADJUDICATIONS: ${{ vars.CODEX_MAX_ADJUDICATIONS || '400' }}
+      CODEX_MAX_ADJUDICATIONS: ${{ github.event.inputs.max_adjudications || vars.CODEX_MAX_ADJUDICATIONS || '400' }}
       CODEX_TIMEOUT_MINUTES: ${{ vars.CODEX_TIMEOUT_MINUTES || '8' }}
       CODEX_MODEL: ${{ vars.CODEX_MODEL }}
       CODEX_REASONING: ${{ vars.CODEX_REASONING || 'high' }}
       UPDATE_MAX_MINUTES: ${{ github.event.inputs.max_minutes || vars.UPDATE_MAX_MINUTES || '75' }}
-      UPDATE_SCOPE_DAYS: ${{ vars.UPDATE_SCOPE_DAYS || '180' }}
+      UPDATE_SCOPE_DAYS: ${{ github.event.inputs.scope_days || vars.UPDATE_SCOPE_DAYS || '180' }}
+      UPDATE_PLATFORMS: ${{ github.event.inputs.platforms }}
       DISCOVER_MAX_SUBJECTS: ${{ vars.DISCOVER_MAX_SUBJECTS || '600' }}
     steps:
       - uses: actions/checkout@v4

@@ -65,7 +65,7 @@ test('a few slipped dates or a constant small offset pass only while both sites 
   assert.equal(await derive(row, aired(ten), tmdb({ '100/1': { numbers: numbers(10), days: ten.map(d => d + 7) } })), null, 'a whole episode interval may be an off-by-one alignment');
   assert.deepEqual(datesAgree([]), { compared: 0, exact: 0, ok: false, agreement: null, shiftDays: 0 });
 });
-test('position alone is accepted only for one model-declared episode range without comparable dates', async () => {
+test('position alone is accepted only for one model-declared season or episode range without comparable dates', async () => {
   const undated = aired([null, null, null]);
   const season = tmdb({ '100/1': { numbers: numbers(24) }, '100/0': { numbers: [1] }, '100/3': { numbers: [1] } });
   const range = mapping({ episodes: [], rules: [], provenance: researched, targets: [{ type: 'tv', id: 100, season: 1, episode: 13, episodeEnd: 15 }] });
@@ -79,7 +79,10 @@ test('position alone is accepted only for one model-declared episode range witho
   assert.equal(await derive(split, undated, season), null, 'several targets can be ordered differently on Bangumi');
   const whole = mapping({ episodes: [], rules: [], provenance: researched, targets: [{ type: 'tv', id: 100, season: 3 }] });
   assert.ok(await derive(whole, aired([null]), season), 'a single episode has no order to get wrong');
-  assert.equal(await derive({ ...whole, targets: [{ type: 'tv', id: 100, season: 1 }] }, aired(Array(24).fill(null)), season), null, 'a whole multi-episode season still needs dates');
+  const season1 = await derive({ ...whole, targets: [{ type: 'tv', id: 100, season: 1 }] }, aired(Array(24).fill(null)), season);
+  assert.deepEqual(season1?.mapping.rules, [{ bangumiType: 0, start: 1, end: 24, tmdbId: 100, season: 1, episodeStart: 1 }], 'a model-declared whole season with equal counts');
+  assert.match(season1?.note ?? '', /单一 TMDB 整季/);
+  assert.equal(await derive({ ...whole, targets: [{ type: 'tv', id: 100, season: 1 }] }, aired(Array(23).fill(null)), season), null, 'counts must still agree');
 });
 test('single-episode movie subjects map their episode to the movie; multi-part ones do not', async () => {
   const row = mapping({ episodes: [], rules: [], targets: [{ type: 'movie', id: 7 }] });

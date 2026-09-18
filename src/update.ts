@@ -41,7 +41,7 @@ export function retryDays(status: Status, attempts: number, subject: Subject | n
   return Number.isFinite(premiere) && premiere > now ? Math.max(backoff, Math.ceil((premiere - now) / DAY) + 3) : backoff;
 }
 export interface UpdateOptions {
-  maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; researchMinutes: number;
+  maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; platforms?: number[] | undefined; researchMinutes: number;
   tmdbBudget: number; webBudget: number; model?: string | undefined; reasoning?: string | undefined; now?: number;
 }
 export interface Task { subject: Subject; kind: 'new' | 'retry' | 'episodes' | 'broken'; before?: Mapping }
@@ -188,6 +188,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   // Phase 2: model research for new in-scope subjects first, then existing rows that need episode-level
   // work or repair. Concurrency is bounded and every result is re-validated against live TMDB.
   const unmapped = catalog.subjects.filter(s => !rows.has(s.id) && (inScope(s, now, options.scopeDays) || progress.subjects[String(s.id)]))
+    .filter(s => !options.platforms || options.platforms.includes(Number(s.platform)))
     .filter(s => due(progress, s.id, print(s.id), undefined, now)).sort((a, b) => olderFirst(progress)(a.id, b.id));
   console.log(`Phase 1 done: ${phaseOne()}`);
   // Phase 1b: deterministic identification of unmapped subjects by title search and air-date agreement.
