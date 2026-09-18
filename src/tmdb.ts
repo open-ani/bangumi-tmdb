@@ -13,6 +13,9 @@ const Work = z.object({
   title: z.string().optional(), original_title: z.string().optional(),
   first_air_date: z.string().optional(), release_date: z.string().optional(),
   overview: z.string().optional(),
+  origin_country: z.array(z.string()).optional(), status: z.string().optional(), number_of_episodes: z.number().optional(),
+  genres: z.array(z.object({ name: z.string() })).optional(),
+  production_companies: z.array(z.object({ name: z.string(), origin_country: z.string().optional() })).optional(),
   seasons: z.array(z.object({ season_number: z.number().int().nonnegative(), name: z.string(),
     air_date: z.string().nullable(), episode_count: z.number() })).optional(),
 });

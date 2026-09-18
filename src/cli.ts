@@ -55,7 +55,7 @@ try {
       }
       break;
     case 'update':
-      await update(root, { maxSubjects: positive('CODEX_MAX_SUBJECTS', 60), maxMinutes: positive('UPDATE_MAX_MINUTES', 60),
+      await update(root, { maxSubjects: positive('CODEX_MAX_SUBJECTS', 60), maxAdjudications: positive('CODEX_MAX_ADJUDICATIONS', 400), maxMinutes: positive('UPDATE_MAX_MINUTES', 60),
         concurrency: positive('CODEX_CONCURRENCY', 4), scopeDays: positive('UPDATE_SCOPE_DAYS', 180),
         researchMinutes: positive('CODEX_TIMEOUT_MINUTES', 8), tmdbBudget: positive('CODEX_TMDB_BUDGET', 16), webBudget: positive('CODEX_WEB_BUDGET', 8),
         model: process.env.CODEX_MODEL || undefined, reasoning: process.env.CODEX_REASONING || undefined });

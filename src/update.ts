@@ -5,8 +5,8 @@ import { cacheDir, hash, mappings, readJson, stable, writeJson } from './io.js';
 import { Tmdb, verifyMapping } from './tmdb.js';
 import { loadCatalog } from './catalog.js';
 import { derive, extend } from './rules.js';
-import { resolve } from './resolve.js';
-import { requireEvidence, runResearch, toProposal } from './research.js';
+import { decide, gather, type Gathered } from './resolve.js';
+import { requireEvidence, runAdjudication, runResearch, toProposal } from './research.js';
 import { validateAll } from './expand.js';
 
 // Increment whenever evidence extraction, matching rules or prompts change.
@@ -41,7 +41,7 @@ export function retryDays(status: Status, attempts: number, subject: Subject | n
   return Number.isFinite(premiere) && premiere > now ? Math.max(backoff, Math.ceil((premiere - now) / DAY) + 3) : backoff;
 }
 export interface UpdateOptions {
-  maxSubjects: number; maxMinutes: number; concurrency: number; scopeDays: number; researchMinutes: number;
+  maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; researchMinutes: number;
   tmdbBudget: number; webBudget: number; model?: string | undefined; reasoning?: string | undefined; now?: number;
 }
 export interface Task { subject: Subject; kind: 'new' | 'retry' | 'episodes' | 'broken'; before?: Mapping }
@@ -118,7 +118,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const deadline = clock + options.maxMinutes * 60000;
   const report: { bangumiId: number; status: string; kind: string; reason: string }[] = [];
   const changes = new Map<number, Mapping>();
-  const counts = { verified: 0, derived: 0, extended: 0, resolved: 0, codexSubjects: 0, researchMatched: 0, researchReused: 0, absent: [] as number[] };
+  const counts = { verified: 0, derived: 0, extended: 0, resolved: 0, adjudicated: 0, adjudicatedMatched: 0, codexSubjects: 0, researchMatched: 0, researchReused: 0, absent: [] as number[] };
   const print = (id: number) => subjectPrint(ctx, id);
   const record = (id: number, kind: string, status: Status, reason: string, days?: number) => {
     const previous = progress.subjects[String(id)];
@@ -194,14 +194,16 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   // It costs only TMDB requests, so every due subject gets a try before any model work; whatever it
   // settles leaves the research queue. A failure of any kind simply leaves the subject to the model.
   const settled = new Set<number>();
+  const undecided = new Map<number, Gathered>();
   let tried = 0;
   const kindOf = (subject: Subject): Task['kind'] => progress.subjects[String(subject.id)] ? 'retry' : 'new';
   await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, async () => {
     while (tried < unmapped.length && deadline - Date.now() > 90000) {
       const subject = unmapped[tried++]!;
       try {
-        const found = await resolve(subject, ctx.episodes.get(subject.id) ?? [], cached);
-        if (!found) continue;
+        const data = await gather(subject, ctx.episodes.get(subject.id) ?? [], cached);
+        const found = data && await decide(subject, data, cached);
+        if (!found) { if (data && (data.shows.length || data.movies.length)) undecided.set(subject.id, data); continue; }
         const anidbId = ctx.seeds.get(subject.id)?.anidb;
         const row = Mapping.parse({ ...found.mapping, ...(anidbId ? { anidbId } : {}), provenance: { ...found.mapping.provenance, verifiedAt: new Date(now).toISOString() } });
         validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
@@ -214,6 +216,38 @@ export async function update(root: string, options: UpdateOptions): Promise<void
     }
   }));
   console.log(`Phase 1b done: ${tried}/${unmapped.length} unmapped subjects tried, ${counts.resolved} resolved without a model; ${elapsed()}`);
+  // Phase 1c: a single model turn over the gathered candidates for subjects the resolver could not settle.
+  // No tools and no search, so it takes seconds; a pending verdict just leaves the subject to phase 2.
+  const judged = new Set<number>();
+  const candidates = unmapped.filter(s => !settled.has(s.id) && undecided.has(s.id));
+  let adjudicating = 0;
+  await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, async () => {
+    while (adjudicating < candidates.length && counts.adjudicated < options.maxAdjudications && deadline - Date.now() > 90000) {
+      const subject = candidates[adjudicating++]!;
+      counts.adjudicated++; judged.add(subject.id);
+      const eps = ctx.episodes.get(subject.id) ?? [];
+      try {
+        const result = await runAdjudication(subject.id, bundle(subject, ctx, rows, catalog.snapshot.name) as object, undecided.get(subject.id)!, {
+          model: options.model, reasoning: options.reasoning, timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())), auditDir: join(cacheDir(root), 'adjudication') });
+        if (result.reused) counts.researchReused++;
+        const decision = result.decision;
+        if (decision.status !== 'matched' || !decision.proposal) continue;
+        const proposal = toProposal(decision.proposal);
+        requireEvidence(proposal, result.calls);
+        const anidbId = ctx.seeds.get(subject.id)?.anidb;
+        const row = Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
+          episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
+          provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) });
+        validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
+        await verifyMapping(row, live, catalog);
+        apply(row, undefined);
+        counts.adjudicatedMatched++; settled.add(subject.id);
+        record(subject.id, kindOf(subject), 'matched', decision.reason);
+      } catch (error) { if (fatal(error)) throw error; }
+      if (counts.adjudicated % 25 === 0) console.log(`Phase 1c: ${counts.adjudicated}/${candidates.length} adjudicated, ${counts.adjudicatedMatched} matched; ${elapsed()}`);
+    }
+  }));
+  console.log(`Phase 1c done: ${counts.adjudicated}/${candidates.length} candidates adjudicated in one model turn each, ${counts.adjudicatedMatched} matched; ${elapsed()}`);
   // Broken rows outrank episode work; among episode work, currently relevant (recent) subjects come first.
   research.sort((a, b) => Number(b.kind === 'broken') - Number(a.kind === 'broken') || (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
   const tasks: Task[] = [...unmapped.filter(s => !settled.has(s.id)).map((subject): Task => ({ subject, kind: kindOf(subject) })), ...research];
@@ -276,5 +310,5 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
   await writeJson(join(cacheDir(root), 'update-report.json'), summary);
   const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
-  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.resolved} resolved without a model; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
+  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.resolved} resolved without a model; ${counts.adjudicatedMatched}/${counts.adjudicated} adjudicated; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
 }

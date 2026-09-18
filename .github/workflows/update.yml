@@ -36,6 +36,7 @@ jobs:
     env:
       CODEX_MAX_SUBJECTS: ${{ github.event.inputs.max_subjects || vars.CODEX_MAX_SUBJECTS || '60' }}
       CODEX_CONCURRENCY: ${{ vars.CODEX_CONCURRENCY || '4' }}
+      CODEX_MAX_ADJUDICATIONS: ${{ vars.CODEX_MAX_ADJUDICATIONS || '400' }}
       CODEX_TIMEOUT_MINUTES: ${{ vars.CODEX_TIMEOUT_MINUTES || '8' }}
       CODEX_MODEL: ${{ vars.CODEX_MODEL }}
       CODEX_REASONING: ${{ vars.CODEX_REASONING || 'high' }}

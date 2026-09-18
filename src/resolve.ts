@@ -1,22 +1,25 @@
 import { z } from 'zod';
 import { Mapping, type Episode, type Subject, type SubjectTarget } from './model.js';
-import type { Tmdb, TmdbSeason } from './tmdb.js';
+import type { Tmdb, TmdbSeason, TmdbWork } from './tmdb.js';
 import { datesAgree, derive, MAX_DATE_DRIFT_DAYS, type DateAgreement, type Derived } from './rules.js';
 import { normalize } from './anidb.js';
 
 // Deterministic identification: a title search only proposes candidates; a candidate is accepted when
 // the Bangumi regular episodes line up, date by date, with the candidate's TMDB episodes and no other
 // candidate does. Movies need a release date next to Bangumi's. Anything short of that is left for the
-// model, so this stage never guesses.
+// model, so this stage never guesses. Where TMDB lists an OVA both on its own and as parent specials,
+// the standalone entry wins because its dates identify it alone.
 const DAY = 86400000;
 const MAX_QUERIES = 6, RESULTS_PER_QUERY = 5, MAX_SHOWS = 6, MAX_SEASONS_PER_SHOW = 6;
 const SEASON_WINDOW_DAYS = 400;
 const MOVIE_TITLE_SLACK_DAYS = 30, MOVIE_DATE_SLACK_DAYS = 3;
 const Search = z.object({ results: z.array(z.object({ id: z.number().int().positive(), name: z.string().optional(), title: z.string().optional(),
-  original_name: z.string().optional(), original_title: z.string().optional(), first_air_date: z.string().optional(), release_date: z.string().optional() })) });
-type Hit = z.infer<typeof Search>['results'][number];
+  original_name: z.string().optional(), original_title: z.string().optional(), first_air_date: z.string().optional(), release_date: z.string().optional(),
+  overview: z.string().optional() })) });
+export type Hit = z.infer<typeof Search>['results'][number];
 type Placed = TmdbSeason['episodes'][number] & { season: number };
 
+export interface Gathered { terms: string[]; regular: Episode[]; verified: Episode[]; shows: { hit: Hit; work: TmdbWork; seasons: Map<number, TmdbSeason> }[]; movies: Hit[] }
 export interface Resolved extends Derived { candidates: { tv: number; movie: number } }
 
 // Aliases listed in the wiki infobox: |别名={ [Frieren] [Sousou no Frieren] }
@@ -124,8 +127,9 @@ function targetsFor(match: Match, seasons: Map<number, TmdbSeason>): SubjectTarg
 const label = (t: DateAgreement) => t === 'exact' ? '全部在 ±1 天内' : t === 'mostly' ? '绝大多数在 ±1 天内、其余不超过 7 天' : '逐集间隔一致、整体平移小于一集间隔';
 const describe = (t: SubjectTarget) => t.type === 'movie' ? `movie/${t.id}` : `第 ${t.season} 季${t.episode !== undefined ? `第 ${t.episode}–${t.episodeEnd ?? t.episode} 集` : '整季'}`;
 
-// `trace` collects why a subject was left alone, for diagnostics.
-export async function resolve(subject: Subject, episodes: Episode[], tmdb: Tmdb, base?: Partial<Mapping>, trace?: string[]): Promise<Resolved | null> {
+// Search TMDB for the subject and fetch the seasons of each show that could overlap its airing window.
+// Null when the subject's episodes cannot support a date comparison at all. `trace` collects why.
+export async function gather(subject: Subject, episodes: Episode[], tmdb: Tmdb, trace?: string[]): Promise<Gathered | null> {
   const why = (reason: string) => { trace?.push(reason); return null; };
   const regular = episodes.filter(e => e.type === 0).sort((a, b) => a.sort - b.sort);
   if (!regular.length || !regular.every(e => Number.isInteger(e.sort)) || regular.some((e, i) => i > 0 && e.sort !== regular[i - 1]!.sort + 1)) return why(regular.length ? 'irregular sorts' : 'no regular episodes');
@@ -134,7 +138,6 @@ export async function resolve(subject: Subject, episodes: Episode[], tmdb: Tmdb,
   const compare = regular.length === 1 && !dated.length && dayOf(subject.date) !== null ? [{ ...regular[0]!, airdate: subject.date }] : regular;
   const known = compare.filter(e => dayOf(e.airdate) !== null);
   const verified = compare === regular ? episodes : episodes.map(e => e.id === regular[0]!.id ? { ...e, airdate: subject.date } : e);
-  if (known.length < Math.max(1, Math.ceil(regular.length * 0.6))) return why(`too few dated episodes (${known.length}/${regular.length})`);
   const terms = queries(subject);
   if (!terms.length) return why('no title');
   const tv = new Map<number, Hit>(), movies = new Map<number, Hit>();
@@ -144,24 +147,36 @@ export async function resolve(subject: Subject, episodes: Episode[], tmdb: Tmdb,
       for (const hit of hits) if (!into.has(hit.id)) into.set(hit.id, hit);
     }
   }
-  const candidates = { tv: tv.size, movie: movies.size };
-  const first = dayOf(known[0]!.airdate)!, last = dayOf(known[known.length - 1]!.airdate)!;
-  const skeleton = { schemaVersion: 1 as const, bangumiId: subject.id, locked: false, episodes: [], rules: [], overrides: [], ...base };
-  const provenance = (note: string, work: string) => ({ method: 'deterministic' as const, source: `https://bgm.tv/subject/${subject.id}; https://www.themoviedb.org/${work}`, evidence: note, verifiedAt: null });
-  const searched = `以「${terms.join('」「')}」搜索得到 ${candidates.tv} 个 TV、${candidates.movie} 个电影候选`;
-  // TV: fetch the seasons that could overlap the subject's airing window, then look for agreeing episodes.
-  const passing: { match: Match; seasons: Map<number, TmdbSeason> }[] = [];
+  const first = known.length ? dayOf(known[0]!.airdate)! : dayOf(subject.date), last = known.length ? dayOf(known[known.length - 1]!.airdate)! : first;
+  const shows: Gathered['shows'] = [];
   for (const hit of [...tv.values()].slice(0, MAX_SHOWS)) {
     const work = await tmdb.work({ type: 'tv', id: hit.id });
     const relevant = (work.seasons ?? []).filter(s => s.episode_count > 0).filter(s => {
-      const at = dayOf(s.air_date); return at === null || (at <= last + SEASON_WINDOW_DAYS && at + s.episode_count * 7 >= first - SEASON_WINDOW_DAYS);
+      const at = dayOf(s.air_date); return first === null || at === null || (at <= last! + SEASON_WINDOW_DAYS && at + s.episode_count * 7 >= first - SEASON_WINDOW_DAYS);
     }).slice(0, MAX_SEASONS_PER_SHOW);
     if (!relevant.length) continue;
     const seasons = new Map<number, TmdbSeason>();
     for (const s of relevant) seasons.set(s.season_number, await tmdb.season(hit.id, s.season_number));
+    shows.push({ hit, work, seasons });
+  }
+  return { terms, regular: compare, verified, shows, movies: [...movies.values()] };
+}
+// Decide from gathered data alone; returns the mapping with derived rules, or null with the reason traced.
+export async function decide(subject: Subject, data: Gathered, tmdb: Tmdb, base?: Partial<Mapping>, trace?: string[]): Promise<Resolved | null> {
+  const why = (reason: string) => { trace?.push(reason); return null; };
+  const { terms, regular, verified, shows, movies } = data;
+  const known = regular.filter(e => dayOf(e.airdate) !== null);
+  if (known.length < Math.max(1, Math.ceil(regular.length * 0.6))) return why(`too few dated episodes (${known.length}/${regular.length})`);
+  const candidates = { tv: shows.length, movie: movies.length };
+  const first = dayOf(known[0]!.airdate)!;
+  const skeleton = { schemaVersion: 1 as const, bangumiId: subject.id, locked: false, episodes: [], rules: [], overrides: [], ...base };
+  const provenance = (note: string, work: string) => ({ method: 'deterministic' as const, source: `https://bgm.tv/subject/${subject.id}; https://www.themoviedb.org/${work}`, evidence: note, verifiedAt: null });
+  const searched = `以「${terms.join('」「')}」搜索得到 ${candidates.tv} 个 TV、${candidates.movie} 个电影候选`;
+  const passing: { match: Match; seasons: Map<number, TmdbSeason> }[] = [];
+  for (const { hit, seasons } of shows) {
     const name = hit.name ?? hit.original_name ?? '';
-    const matches = runs(hit.id, name, [...seasons.values()], compare);
-    if (!matches.length) matches.push(...byDates(hit.id, name, [...seasons.values()], compare));
+    const matches = runs(hit.id, name, [...seasons.values()], regular);
+    if (!matches.length) matches.push(...byDates(hit.id, name, [...seasons.values()], regular));
     // Two agreeing placements inside one show (or in two shows) cannot be told apart by dates.
     if (matches.length > 1) return why(`ambiguous runs in tv/${hit.id}`);
     if (matches.length === 1) passing.push({ match: matches[0]!, seasons });
@@ -176,16 +191,20 @@ export async function resolve(subject: Subject, episodes: Episode[], tmdb: Tmdb,
     return derived ? { ...derived, candidates } : why(`derive refused tv/${match.tmdbId}`);
   }
   // Movies: one regular episode and a release date next to Bangumi's premiere; a title match buys a month of slack.
-  if (regular.length !== 1) return why(tv.size ? `no agreeing run in ${Math.min(tv.size, MAX_SHOWS)} shows` : 'no tv candidates');
+  if (regular.length !== 1) return why(shows.length ? `no agreeing run in ${shows.length} shows` : 'no tv candidates');
   const names = new Set(terms.map(normalize));
   const titled = (m: Hit) => [m.title, m.original_title].some(t => t && names.has(normalize(t)));
   const near = (m: Hit, days: number) => { const at = dayOf(m.release_date); return at !== null && Math.abs(at - first) <= days; };
-  const close = [...movies.values()].filter(m => near(m, MOVIE_DATE_SLACK_DAYS));
-  const matches = close.length ? close : [...movies.values()].filter(m => titled(m) && near(m, MOVIE_TITLE_SLACK_DAYS));
-  if (matches.length !== 1) return why(matches.length ? 'several matching movies' : movies.size ? `no movie matched among ${movies.size}` : 'no movie candidates');
+  const close = movies.filter(m => near(m, MOVIE_DATE_SLACK_DAYS));
+  const matches = close.length ? close : movies.filter(m => titled(m) && near(m, MOVIE_TITLE_SLACK_DAYS));
+  if (matches.length !== 1) return why(matches.length ? 'several matching movies' : movies.length ? `no movie matched among ${movies.length}` : 'no movie candidates');
   const movie = matches[0]!;
   const note = `脚本按上映日期识别电影：${searched}；movie/${movie.id}「${movie.original_title ?? movie.title}」上映日期 ${movie.release_date} 与 Bangumi 放送日期`
     + `${close.length ? `相差不超过 ${MOVIE_DATE_SLACK_DAYS} 天` : `相差不超过 ${MOVIE_TITLE_SLACK_DAYS} 天且标题一致`}，且是唯一吻合的候选。`;
   const derived = await derive(Mapping.parse({ ...skeleton, targets: [{ type: 'movie', id: movie.id }], provenance: provenance(note, `movie/${movie.id}`) }), verified, tmdb);
   return derived ? { ...derived, candidates } : why(`derive refused movie/${movie.id}`);
+}
+export async function resolve(subject: Subject, episodes: Episode[], tmdb: Tmdb, base?: Partial<Mapping>, trace?: string[]): Promise<Resolved | null> {
+  const data = await gather(subject, episodes, tmdb, trace);
+  return data ? decide(subject, data, tmdb, base, trace) : null;
 }

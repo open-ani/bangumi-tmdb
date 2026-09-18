@@ -6,7 +6,7 @@ import { join } from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { guard, allowedChange } from '../src/guard.js';
 import { stable, writeJson } from '../src/io.js';
-import { runResearch } from '../src/research.js';
+import { dossier, provided, requireEvidence, runAdjudication, runResearch, toProposal } from '../src/research.js';
 import { parseArchive, digestFile, syncArchive } from '../src/archive.js';
 import { researchSchema } from '../src/schemas.js';
 import { mapping } from './helpers.js';
@@ -58,6 +58,37 @@ async function fakeCodex(dir: string): Promise<void> {
     `console.log(JSON.stringify({type:'item.completed',item:{type:'web_search'}}));\n` +
     `console.log(JSON.stringify({type:'turn.completed',usage:{input_tokens:10,output_tokens:2}}));});\n`, { mode: 0o755 });
 }
+test('adjudication runs one turn without tools and may only cite the gathered candidates', async () => {
+  const dir = await mkdtemp(join(tmpdir(), 'fake-codex-adjudicate-'));
+  const original = { PATH: process.env.PATH };
+  try {
+    await writeFile(join(dir, 'codex'), `#!${process.execPath}\n` +
+      `const fs=require('fs'),path=require('path');const a=process.argv;\n` +
+      `if(a.some(x=>x.startsWith('mcp_servers'))||!a.includes('web_search="disabled"'))process.exit(21);\n` +
+      `let prompt='';process.stdin.setEncoding('utf8');process.stdin.on('data',d=>prompt+=d);process.stdin.on('end',()=>{\n` +
+      `if(!prompt.includes('"candidates":')||!prompt.includes('"searched":["テスト"]')||prompt.includes('tmdb_search'))process.exit(22);\n` +
+      `fs.writeFileSync(a[a.indexOf('--output-last-message')+1],fs.readFileSync(path.join(path.dirname(fs.realpathSync(a[1])),'decision.json')));\n` +
+      `console.log(JSON.stringify({type:'turn.completed',usage:{input_tokens:5,output_tokens:1}}));});\n`, { mode: 0o755 });
+    process.env.PATH = `${dir}:${original.PATH}`;
+    const season = { id: 1001, season_number: 1, episodes: [{ id: 1, episode_number: 1, season_number: 1, name: 'E1', air_date: '2026-01-01' }] };
+    const data = { terms: ['テスト'], regular: [], verified: [], movies: [{ id: 7, title: 'Film', release_date: '2026-01-01' }],
+      shows: [{ hit: { id: 100, name: 'Show' }, work: { id: 100, name: 'Show', seasons: [{ season_number: 1, name: 'S1', air_date: '2026-01-01', episode_count: 1 }] }, seasons: new Map([[1, season]]) }] };
+    assert.deepEqual(provided(data).map(c => `${c.tool}:${JSON.stringify(c.arguments)}`), ['tmdb_details:{"type":"tv","id":100}', 'tmdb_season:{"id":100,"season":1}', 'tmdb_details:{"type":"movie","id":7}']);
+    assert.deepEqual((dossier(data) as { tv: { fetched: unknown }[] }).tv[0]!.fetched, [{ season_number: 1, episodes: [{ episode_number: 1, name: 'E1', air_date: '2026-01-01' }] }]);
+    await writeFile(join(dir, 'decision.json'), JSON.stringify({ bangumiId: 1, status: 'matched', reason: '候选一致',
+      proposal: { targets: [{ type: 'tv', id: 100, season: 1, episode: null, episodeEnd: null }], rules: [], overrides: [] },
+      evidence: [{ url: 'https://www.themoviedb.org/tv/100', fact: '季表一致', access: 'api_snapshot' }], uncertainties: [] }));
+    const result = await runAdjudication(1, { bangumiId: 1 }, data, { timeoutMs: 10000, auditDir: join(dir, 'audit') });
+    assert.equal(result.decision.status, 'matched');
+    assert.doesNotThrow(() => requireEvidence(toProposal(result.decision.proposal!), result.calls));
+    assert.throws(() => requireEvidence({ targets: [{ type: 'tv', id: 999, season: 1 }], rules: [], overrides: [] }, result.calls), /unread TMDB tv\/999/);
+    assert.ok((await readFile(join(dir, 'audit/1/prompt.txt'), 'utf8')).startsWith('你负责判定'));
+    assert.equal((await runAdjudication(1, { bangumiId: 1 }, data, { timeoutMs: 10000, auditDir: join(dir, 'audit') })).reused, true);
+  } finally {
+    if (original.PATH === undefined) delete process.env.PATH; else process.env.PATH = original.PATH;
+    await rm(dir, { recursive: true, force: true });
+  }
+});
 test('research subprocess cannot inherit credentials; decisions are validated and tool calls captured', async () => {
   const dir = await mkdtemp(join(tmpdir(), 'fake-codex-'));
   const original = { PATH: process.env.PATH, GH_TOKEN: process.env.GH_TOKEN, TMDB_READ_TOKEN: process.env.TMDB_READ_TOKEN, OPENAI_API_KEY: process.env.OPENAI_API_KEY };

@@ -14,6 +14,7 @@
 | `CODEX_REASONING` | Optional variable | 推理强度，默认 `high` |
 | `CODEX_MAX_SUBJECTS` | Optional variable | 每轮最多交给 Codex 研究的条目数，默认 60 |
 | `CODEX_CONCURRENCY` | Optional variable | 并行的 Codex 会话数，默认 4 |
+| `CODEX_MAX_ADJUDICATIONS` | Optional variable | 每轮最多交给 Codex 一轮判定（无工具）的条目数，默认 400 |
 | `CODEX_TIMEOUT_MINUTES` | Optional variable | 单个条目的研究超时，默认 8 分钟 |
 | `UPDATE_MAX_MINUTES` | Optional variable | 一轮更新的总时间预算，默认 75 分钟；前一半留给校验与规则推导 |
 | `UPDATE_SCOPE_DAYS` | Optional variable | 只研究放送日在最近这么多天内或尚未放送的未映射条目，默认 180 |
@@ -37,6 +38,7 @@
 4. `pnpm run update`：
    - 校验阶段：对到期的已有映射在线核验 TMDB 作品、季和集是否仍存在；对只有作品级映射的条目按放送日期推导逐集规则（集数一致，且可比对的日期全部在 ±1 天内；两边日期都按集序递增时，也接受至少 80% 在 ±1 天内、其余不超过 7 天，或逐集间隔一致而整体平移小于一集间隔；缺少可比日期时，仅限模型研究已限定为单一集范围或单集的条目）；对已有逐集规则的条目追加新放送的集。锁定条目只核验不修改。
    - 识别阶段：对到期的未映射条目，用标题、译名、别名（去掉季数后缀）搜索 TMDB，拉取候选的季表，只有唯一一个候选的集与 Bangumi 本篇章节按放送日期逐一吻合时才写入作品与逐集映射（`deterministic`，evidence 记录搜索词与候选数）；单集条目按上映日期匹配电影。多候选吻合、缺少日期或对不上的留给模型。
+   - 判定阶段：识别阶段有候选但拿不定的条目（多候选吻合、缺日期、集数对不上），把 Bangumi 数据和已抓取的候选季表一起交给 Codex 一轮判定，不给工具、不联网，结果同样经证据检查（只能引用交给它的候选）、结构校验和在线核验；pending 的留给研究阶段。每轮最多 `CODEX_MAX_ADJUDICATIONS` 条（默认 400）。
    - 研究阶段：在时间与条目预算内，用 Codex（联网搜索加 TMDB MCP 工具）研究新出现的、在范围内的未映射条目，其次修复核验失败的映射，再为无法确定性推导的条目补逐集规则。模型只能引用它实际通过工具读取过的作品和季，结果还要经过结构校验和在线核验。
 5. `pnpm cli stats`：重新生成 README「当前数据」里 `<!-- stats:start -->` 到 `<!-- stats:end -->` 之间的统计区块。
 6. `scripts/commit-update.sh`：guard 检查只改动了 `data/`、`state/`、`sources/` 和 README 的统计区块（区块之外必须与基线一致），验证后以 openanibot 提交 main。若 main 期间有变化，先把生成的改动 rebase 到最新 main 并重新校验、重新生成统计区块；rebase 冲突或校验不过才在最新 main 上重算，最多三次。
