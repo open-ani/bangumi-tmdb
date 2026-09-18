@@ -19,6 +19,11 @@ function tmdbFake(url: string): Response {
   if (path === '/3/tv/200') return Response.json({ id: 200 });
   if (path === '/3/tv/200/season/1') return season([1, 2], ['2026-08-01', '2026-08-08'], 200);
   if (path === '/3/movie/7') return Response.json({ id: 7 });
+  // Subject 5 is identified without a model: its title finds tv/300, whose season 1 airs on its dates.
+  if (path === '/3/search/tv') return Response.json({ results: new URL(url).searchParams.get('query') === 'S5' ? [{ id: 300, name: 'S5' }] : [] });
+  if (path === '/3/search/movie') return Response.json({ results: [] });
+  if (path === '/3/tv/300') return Response.json({ id: 300, name: 'S5', seasons: [{ season_number: 1, name: 'S1', air_date: '2026-06-01', episode_count: 2 }] });
+  if (path === '/3/tv/300/season/1') return season([1, 2], ['2026-06-01', '2026-06-08'], 300);
   return new Response('missing', { status: 404 });
 }
 // Full scheduled-run behaviour with a fake TMDB and a fake codex: derive rules for an existing
@@ -45,8 +50,8 @@ test('update derives, researches, respects scope and locks, and is idempotent', 
     const ep = (id: number, subject_id: number, sort: number, airdate: string) => ({ id, subject_id, type: 0, sort, name: '', name_cn: '', airdate });
     await mkdir(join(root, '.cache'), { recursive: true });
     await writeJson(join(root, '.cache/catalog.json'), { snapshot: { name: 'dump-2026-09-08.210336Z.zip', sha256: 'a'.repeat(64), url: 'https://example.org/dump.zip' },
-      subjects: [subject(1, '2026-07-01'), subject(2, '2026-08-01'), subject(3, '2010-01-01'), subject(4, '2026-05-01')],
-      episodes: [ep(11, 1, 1, day('2026-07-01')), ep(12, 1, 2, '2026-07-08'), ep(13, 1, 3, '2026-07-15'), ep(21, 2, 1, '2026-08-01'), ep(22, 2, 2, '2026-08-08'), ep(31, 3, 1, '2010-01-01'), ep(41, 4, 1, '2026-05-01')],
+      subjects: [subject(1, '2026-07-01'), subject(2, '2026-08-01'), subject(3, '2010-01-01'), subject(4, '2026-05-01'), subject(5, '2026-06-01')],
+      episodes: [ep(11, 1, 1, day('2026-07-01')), ep(12, 1, 2, '2026-07-08'), ep(13, 1, 3, '2026-07-15'), ep(21, 2, 1, '2026-08-01'), ep(22, 2, 2, '2026-08-08'), ep(31, 3, 1, '2010-01-01'), ep(41, 4, 1, '2026-05-01'), ep(51, 5, 1, '2026-06-01'), ep(52, 5, 2, '2026-06-08')],
       relations: [] });
     await writeJson(join(root, 'sources/seed.json'), { schemaVersion: 1, repository: 'Rhilip/BangumiExtLinker', commit: 'a'.repeat(40), sha256: 'b'.repeat(64), rows: [] });
     await writeJson(join(root, 'state/progress.json'), { schemaVersion: 1, archive: null, subjects: {} });
@@ -67,12 +72,19 @@ test('update derives, researches, respects scope and locks, and is idempotent', 
     assert.equal(two.rules.length, 1);
     assert.match(two.provenance.evidence, /研究结论/);
     await assert.rejects(readJson(join(root, 'data/3.json'), Mapping), /ENOENT/);
+    const five = await readJson(join(root, 'data/5.json'), Mapping);
+    assert.equal(five.provenance.method, 'deterministic');
+    assert.deepEqual(five.targets, [{ type: 'tv', id: 300, season: 1 }]);
+    assert.deepEqual(five.rules, [{ bangumiType: 0, start: 1, end: 2, tmdbId: 300, season: 1, episodeStart: 1 }]);
+    assert.match(five.provenance.evidence, /脚本按放送日期识别作品/);
+    assert.ok(five.provenance.verifiedAt);
     assert.equal((await readJson(join(root, 'data/4.json'), Mapping)).provenance.verifiedAt, '2026-01-01T00:00:00.000Z', 'locked rows are untouched');
     const progress = await readJson(join(root, 'state/progress.json'), Progress);
-    assert.deepEqual(Object.fromEntries(Object.entries(progress.subjects).map(([k, v]) => [k, v.status])), { '1': 'matched', '2': 'matched', '4': 'locked' });
+    assert.deepEqual(Object.fromEntries(Object.entries(progress.subjects).map(([k, v]) => [k, v.status])), { '1': 'matched', '2': 'matched', '4': 'locked', '5': 'matched' });
     assert.equal(progress.archive?.name, 'dump-2026-09-08.210336Z.zip');
     const report = JSON.parse(await (await import('node:fs/promises')).readFile(join(root, '.cache/update-report.json'), 'utf8'));
-    assert.equal(report.derived, 1); assert.equal(report.researchMatched, 1); assert.equal(report.changed, 2); assert.equal(report.queued.unmapped, 1);
+    assert.equal(report.derived, 1); assert.equal(report.resolved, 1); assert.equal(report.researchMatched, 1); assert.equal(report.codexSubjects, 1, 'the resolved subject never reaches the model');
+    assert.equal(report.changed, 3); assert.equal(report.queued.unmapped, 2);
     await update(root, { ...options, now: now + 3600000 });
     const again = JSON.parse(await (await import('node:fs/promises')).readFile(join(root, '.cache/update-report.json'), 'utf8'));
     assert.equal(again.changed, 0); assert.equal(again.codexSubjects, 0); assert.equal(again.verified, 0);

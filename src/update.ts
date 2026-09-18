@@ -5,6 +5,7 @@ import { cacheDir, hash, mappings, readJson, stable, writeJson } from './io.js';
 import { Tmdb, verifyMapping } from './tmdb.js';
 import { loadCatalog } from './catalog.js';
 import { derive, extend } from './rules.js';
+import { resolve } from './resolve.js';
 import { requireEvidence, runResearch, toProposal } from './research.js';
 import { validateAll } from './expand.js';
 
@@ -117,7 +118,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const deadline = clock + options.maxMinutes * 60000;
   const report: { bangumiId: number; status: string; kind: string; reason: string }[] = [];
   const changes = new Map<number, Mapping>();
-  const counts = { verified: 0, derived: 0, extended: 0, codexSubjects: 0, researchMatched: 0, researchReused: 0, absent: [] as number[] };
+  const counts = { verified: 0, derived: 0, extended: 0, resolved: 0, codexSubjects: 0, researchMatched: 0, researchReused: 0, absent: [] as number[] };
   const print = (id: number) => subjectPrint(ctx, id);
   const record = (id: number, kind: string, status: Status, reason: string, days?: number) => {
     const previous = progress.subjects[String(id)];
@@ -188,10 +189,34 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   // work or repair. Concurrency is bounded and every result is re-validated against live TMDB.
   const unmapped = catalog.subjects.filter(s => !rows.has(s.id) && (inScope(s, now, options.scopeDays) || progress.subjects[String(s.id)]))
     .filter(s => due(progress, s.id, print(s.id), undefined, now)).sort((a, b) => olderFirst(progress)(a.id, b.id));
+  console.log(`Phase 1 done: ${phaseOne()}`);
+  // Phase 1b: deterministic identification of unmapped subjects by title search and air-date agreement.
+  // It costs only TMDB requests, so every due subject gets a try before any model work; whatever it
+  // settles leaves the research queue. A failure of any kind simply leaves the subject to the model.
+  const settled = new Set<number>();
+  let tried = 0;
+  const kindOf = (subject: Subject): Task['kind'] => progress.subjects[String(subject.id)] ? 'retry' : 'new';
+  await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, async () => {
+    while (tried < unmapped.length && deadline - Date.now() > 90000) {
+      const subject = unmapped[tried++]!;
+      try {
+        const found = await resolve(subject, ctx.episodes.get(subject.id) ?? [], cached);
+        if (!found) continue;
+        const anidbId = ctx.seeds.get(subject.id)?.anidb;
+        const row = Mapping.parse({ ...found.mapping, ...(anidbId ? { anidbId } : {}), provenance: { ...found.mapping.provenance, verifiedAt: new Date(now).toISOString() } });
+        validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
+        await verifyMapping(row, live, catalog);
+        apply(row, undefined);
+        counts.resolved++; settled.add(subject.id);
+        record(subject.id, kindOf(subject), 'matched', found.note);
+      } catch (error) { if (fatal(error)) throw error; }
+      if (tried % 200 === 0) console.log(`Phase 1b: ${tried}/${unmapped.length} tried, ${counts.resolved} resolved; ${elapsed()}`);
+    }
+  }));
+  console.log(`Phase 1b done: ${tried}/${unmapped.length} unmapped subjects tried, ${counts.resolved} resolved without a model; ${elapsed()}`);
   // Broken rows outrank episode work; among episode work, currently relevant (recent) subjects come first.
   research.sort((a, b) => Number(b.kind === 'broken') - Number(a.kind === 'broken') || (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
-  const tasks: Task[] = [...unmapped.map((subject): Task => ({ subject, kind: progress.subjects[String(subject.id)] ? 'retry' : 'new' })), ...research];
-  console.log(`Phase 1 done: ${phaseOne()}`);
+  const tasks: Task[] = [...unmapped.filter(s => !settled.has(s.id)).map((subject): Task => ({ subject, kind: kindOf(subject) })), ...research];
   const kinds = tasks.reduce((m, t) => m.set(t.kind, (m.get(t.kind) ?? 0) + 1), new Map<Task['kind'], number>());
   console.log(`Phase 2: ${tasks.length} tasks${kinds.size ? ` (${[...kinds].map(([k, n]) => `${n} ${k}`).join(', ')})` : ''}; budget ${options.maxSubjects} subjects, ${((deadline - Date.now()) / 60000).toFixed(0)}m`);
   let cursor = 0;
@@ -251,5 +276,5 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
   await writeJson(join(cacheDir(root), 'update-report.json'), summary);
   const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
-  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
+  console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.resolved} resolved without a model; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
 }

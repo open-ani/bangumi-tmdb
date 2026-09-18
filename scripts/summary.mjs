@@ -2,7 +2,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 const report = JSON.parse(readFileSync(join(process.env.DATASET_CACHE ?? '.cache', 'update-report.json'), 'utf8'));
 console.log(`Archive: ${report.archive.name}\n`);
-console.log(`Changed mappings: ${report.changed}; verified ${report.verified}, derived episode rules ${report.derived}, extended ${report.extended}.`);
+console.log(`Changed mappings: ${report.changed}; verified ${report.verified}, derived episode rules ${report.derived}, extended ${report.extended}, identified without a model ${report.resolved ?? 0}.`);
 console.log(`Codex subjects: ${report.codexSubjects} (${report.researchMatched} matched); queue left: ${report.queued.remaining} of ${report.queued.unmapped} new + ${report.queued.research} research.\n`);
 const counts = {};
 for (const row of report.report) counts[`${row.kind}/${row.status}`] = (counts[`${row.kind}/${row.status}`] ?? 0) + 1;
