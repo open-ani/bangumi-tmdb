@@ -19,6 +19,7 @@
 | `UPDATE_MAX_MINUTES` | Optional variable | 一轮更新的总时间预算，默认 75 分钟；前一半留给校验与规则推导 |
 | `UPDATE_SCOPE_DAYS` | Optional variable | 只研究放送日在最近这么多天内或尚未放送的未映射条目，默认 180；手动运行时可用 `scope_days` 输入覆盖 |
 | `UPDATE_PLATFORMS` | Manual input only | 手动运行时用 `platforms` 输入限定未映射条目的 Bangumi 平台代码，逗号分隔（1 TV、2 OVA、3 剧场版、5 WEB、0 其他、2006 动态漫画）；留空不限 |
+| `UPDATE_BACKLOG_SUBJECTS` | Optional variable | 每轮在范围之外额外处理的积压条目数，默认 100，设为 0 关闭：先取从未分析过的（按放送日期从新到旧，无日期的最后），再取到期重试的（等得最久的优先）；只看 TV、OVA、剧场版、WEB 四个平台，手动指定 `platforms` 时以其为准 |
 | `DISCOVER_MAX_SUBJECTS` | Optional variable | 每轮通过 Bangumi API 刷新的条目上限，默认 600 |
 
 自托管 runner 标签为 `self-hosted, macOS, ARM64`，与 animeko 的 Codex 工作流共用同一台组织级 Mac mini：`codex` 在 `~/.local/bin`，`gh` 与 Node 在 `/opt/homebrew/bin`，工作流开头会把这两个目录加入 PATH；runner 用户已通过 `codex login` 登录 ChatGPT 订阅（`~/.codex/auth.json`）。这台机器只有一个 runner，本任务会和 animeko 的 Codex 任务串行排队，因此安排在北京时间清晨运行。组织 runner group 必须允许本仓库使用。
@@ -40,7 +41,7 @@
    - 校验阶段：对到期的已有映射在线核验 TMDB 作品、季和集是否仍存在；对只有作品级映射的条目按放送日期推导逐集规则（集数一致，且可比对的日期全部在 ±1 天内；两边日期都按集序递增时，也接受至少 80% 在 ±1 天内、其余不超过 7 天，或逐集间隔一致而整体平移小于一集间隔；缺少可比日期时，仅限模型研究已限定为单一整季或集范围、且集数相等的条目）；对已有逐集规则的条目追加新放送的集。锁定条目只核验不修改。
    - 识别阶段：对到期的未映射条目，用标题、译名、别名（去掉季数后缀）搜索 TMDB，拉取候选的季表，只有唯一一个候选的集与 Bangumi 本篇章节按放送日期逐一吻合时才写入作品与逐集映射（`deterministic`，evidence 记录搜索词与候选数）；单集条目按上映日期匹配电影。多候选吻合、缺少日期或对不上的留给模型。
    - 判定阶段：识别阶段有候选但拿不定的条目（多候选吻合、缺日期、集数对不上），把 Bangumi 数据和已抓取的候选季表一起交给 Codex 一轮判定，不给工具、不联网，结果同样经证据检查（只能引用交给它的候选）、结构校验和在线核验；pending 的留给研究阶段。每轮最多 `CODEX_MAX_ADJUDICATIONS` 条（默认 400）。
-   - 研究阶段：在时间与条目预算内，用 Codex（联网搜索加 TMDB MCP 工具）研究新出现的、在范围内的未映射条目，其次修复核验失败的映射，再为无法确定性推导的条目补逐集规则。模型只能引用它实际通过工具读取过的作品和季，结果还要经过结构校验和在线核验。
+   - 研究阶段：在时间与条目预算内，用 Codex（联网搜索加 TMDB MCP 工具）按「越新越先」的顺序研究：范围内的未映射条目，其次修复核验失败的映射和为范围内条目补逐集规则，再处理本轮的积压配额（`UPDATE_BACKLOG_SUBJECTS`），最后用剩余预算为范围外的旧条目补逐集规则。没有本篇章节的条目不进入研究队列。模型只能引用它实际通过工具读取过的作品和季，结果还要经过结构校验和在线核验。
 5. `pnpm cli coverage`：生成 `sources/coverage.json`，列出每个动画条目的对应状态、已放送但未映射的章节和已映射但 TMDB 没有剧集图的章节；需要逐季查询 TMDB（有缓存），失败不阻塞本轮。随后 `pnpm cli stats` 重新生成 README「当前数据」里 `<!-- stats:start -->` 到 `<!-- stats:end -->` 之间的统计区块。
 6. `scripts/commit-update.sh`：guard 检查只改动了 `data/`、`state/`、`sources/`（含 `coverage.json`）和 README 的统计区块（区块之外必须与基线一致），验证后以 openanibot 提交 main。若 main 期间有变化，先把生成的改动 rebase 到最新 main 并重新校验、重新生成统计区块；rebase 冲突或校验不过才在最新 main 上重算，最多三次。
 
@@ -50,7 +51,7 @@
 
 手动补跑积压时，把要处理的条目在 `state/progress.json` 里的 `retryAt` 改到当前时间之前并提交，再以 `max_subjects`、`max_adjudications`、`max_minutes`（最多 450，作业上限 8 小时），必要时加 `scope_days` 与 `platforms`，手动运行 **Update mappings**；研究队列先处理到期的未映射条目和核验失败的映射，剩余预算按放送日期从新到旧补逐集规则。
 
-放送日早于范围的未映射条目不进入定时任务，由维护者用离线批处理完成后提交。`docs/unresolved-mappings-*.md` 里的已复核未定项通过 `pnpm cli import-pending <文件> [天数]` 写入 `state/progress.json`，默认 180 天后才重试。
+放送日早于范围的未映射条目每轮只按 `UPDATE_BACKLOG_SUBJECTS` 进入一小批（识别、判定、研究三个阶段都走），日志里 `Phase 1b:` 一行给出本轮取了多少、还有多少可取；要一次清完某段积压就用上面的手动运行。`docs/unresolved-mappings-*.md` 里的已复核未定项通过 `pnpm cli import-pending <文件> [天数]` 写入 `state/progress.json`，默认 180 天后才重试。
 
 ## 故障处理
 

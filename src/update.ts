@@ -27,7 +27,7 @@ export function fingerprint(subject: Subject | null, episodes: Episode[], relati
     hints, model, version: MATCHER_VERSION,
   }));
 }
-// Automation only researches recent and upcoming works; the deep backlog is handled outside CI.
+// Scope decides what a run owes: everything recent or upcoming is due; older work enters only through the backlog allowance.
 export function inScope(subject: Subject, now: number, scopeDays: number): boolean {
   const at = Date.parse(subject.date);
   return Number.isFinite(at) && at >= now - scopeDays * DAY;
@@ -41,10 +41,10 @@ export function retryDays(status: Status, attempts: number, subject: Subject | n
   return Number.isFinite(premiere) && premiere > now ? Math.max(backoff, Math.ceil((premiere - now) / DAY) + 3) : backoff;
 }
 export interface UpdateOptions {
-  maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; platforms?: number[] | undefined; researchMinutes: number;
-  tmdbBudget: number; webBudget: number; model?: string | undefined; reasoning?: string | undefined; now?: number;
+  maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; platforms?: number[] | undefined; backlogSubjects: number;
+  researchMinutes: number; tmdbBudget: number; webBudget: number; model?: string | undefined; reasoning?: string | undefined; now?: number;
 }
-export interface Task { subject: Subject; kind: 'new' | 'retry' | 'episodes' | 'broken'; before?: Mapping }
+export interface Task { subject: Subject; kind: 'new' | 'retry' | 'backlog' | 'episodes' | 'broken'; before?: Mapping }
 export interface Context {
   episodes: Map<number, Episode[]>; relations: Map<number, Relation[]>; subjects: Map<number, Subject>;
   seeds: Map<number, SeedRow>; anidb: Map<number, AnidbCheck>; model: string;
@@ -105,6 +105,26 @@ export async function loadContext(root: string, model: string): Promise<Loaded> 
 }
 export const subjectPrint = (ctx: Context, id: number): string => fingerprint(ctx.subjects.get(id) ?? null, ctx.episodes.get(id) ?? [],
   ctx.relations.get(id) ?? [], { hint: ctx.seeds.get(id), anidb: ctx.anidb.get(id) }, ctx.model);
+// Bangumi platforms whose works TMDB actually lists (TV, OVA, 剧场版, WEB). The backlog sticks to them unless a run
+// names its own, since 其他 (0) and 动态漫画 (2006) almost never match and would soak up the daily allowance.
+export const BACKLOG_PLATFORMS = [1, 2, 3, 5];
+export interface Queue { recent: Subject[]; backlog: Subject[]; eligible: number }
+// Unmapped subjects for this run: everything due inside the scope window, then at most `backlogSubjects` older
+// ones — never-analysed subjects newest first (undated last), then rows due for another try, longest waiting
+// first — so a scheduled run keeps chipping at history at a pace the budget owner chose.
+export function queue(catalog: Catalog, rows: Map<number, Mapping>, progress: Progress, ctx: Context,
+  options: Pick<UpdateOptions, 'scopeDays' | 'platforms' | 'backlogSubjects'>, now: number): Queue {
+  const isDue = (s: Subject) => due(progress, s.id, subjectPrint(ctx, s.id), undefined, now);
+  const analysed = (s: Subject) => Boolean(progress.subjects[String(s.id)]);
+  const unmapped = catalog.subjects.filter(s => !rows.has(s.id));
+  const recent = unmapped.filter(s => inScope(s, now, options.scopeDays) && (!options.platforms || options.platforms.includes(Number(s.platform))) && isDue(s))
+    .sort((a, b) => olderFirst(progress)(a.id, b.id));
+  const platforms = options.platforms ?? BACKLOG_PLATFORMS;
+  const older = unmapped.filter(s => !inScope(s, now, options.scopeDays) && platforms.includes(Number(s.platform)) && isDue(s))
+    .sort((a, b) => Number(analysed(a)) - Number(analysed(b))
+      || (analysed(a) ? olderFirst(progress)(a.id, b.id) : (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0) || a.id - b.id));
+  return { recent, backlog: older.slice(0, options.backlogSubjects), eligible: older.length };
+}
 
 export async function update(root: string, options: UpdateOptions): Promise<void> {
   const now = options.now ?? Date.now();
@@ -188,7 +208,8 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         const derived = await derive(before, eps, cached);
         if (derived) { candidate = derived.mapping; note = derived.note; counts.derived++; }
         // Identity stays verified; episode research waits for model budget and is retried sooner than a full audit.
-        else { research.push({ subject, kind: 'episodes', before }); retry = 7; }
+        // A subject without regular episodes has nothing to map yet; new episodes change its fingerprint and bring it back at once.
+        else if (eps.some(e => e.type === 0)) { research.push({ subject, kind: 'episodes', before }); retry = 7; }
       } else {
         const extended = await extend(before, eps, cached, now);
         candidate = extended.mapping; note = extended.note; uncovered = extended.uncovered;
@@ -209,19 +230,20 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       research.push({ subject, kind: 'broken', before });
     }
   }
-  // Phase 2: model research for new in-scope subjects first, then existing rows that need episode-level
-  // work or repair. Concurrency is bounded and every result is re-validated against live TMDB.
-  const unmapped = catalog.subjects.filter(s => !rows.has(s.id) && (inScope(s, now, options.scopeDays) || progress.subjects[String(s.id)]))
-    .filter(s => !options.platforms || options.platforms.includes(Number(s.platform)))
-    .filter(s => due(progress, s.id, print(s.id), undefined, now)).sort((a, b) => olderFirst(progress)(a.id, b.id));
+  // Unmapped subjects: everything due in scope, then the backlog allowance. Phases 1b–2 work through this list
+  // in order, so recent subjects always get the deterministic and model passes before older ones.
+  const { recent, backlog, eligible } = queue(catalog, rows, progress, ctx, options, now);
+  const unmapped = [...recent, ...backlog];
+  const backlogIds = new Set(backlog.map(s => s.id));
   console.log(`Phase 1 done: ${phaseOne()}`);
+  console.log(`Phase 1b: ${recent.length} unmapped subjects due in scope, ${backlog.length} of ${eligible} eligible from the backlog`);
   // Phase 1b: deterministic identification of unmapped subjects by title search and air-date agreement.
   // It costs only TMDB requests, so every due subject gets a try before any model work; whatever it
   // settles leaves the research queue. A failure of any kind simply leaves the subject to the model.
   const settled = new Set<number>();
   const undecided = new Map<number, Gathered>();
   let tried = 0;
-  const kindOf = (subject: Subject): Task['kind'] => progress.subjects[String(subject.id)] ? 'retry' : 'new';
+  const kindOf = (subject: Subject): Task['kind'] => backlogIds.has(subject.id) ? 'backlog' : progress.subjects[String(subject.id)] ? 'retry' : 'new';
   await Promise.all(Array.from({ length: Math.max(1, options.concurrency) }, async () => {
     while (tried < unmapped.length && deadline - Date.now() > 90000) {
       const subject = unmapped[tried++]!;
@@ -274,9 +296,13 @@ export async function update(root: string, options: UpdateOptions): Promise<void
     }
   }));
   console.log(`Phase 1c done: ${counts.adjudicated}/${candidates.length} candidates adjudicated in one model turn each, ${counts.adjudicatedMatched} matched; ${elapsed()}`);
-  // Broken rows outrank episode work; among episode work, currently relevant (recent) subjects come first.
+  // Phase 2: model research, recency first. In-scope unmapped subjects, then broken rows and episode work on
+  // in-scope subjects, then the backlog allowance, and episode work on older rows with whatever budget is left.
+  // Concurrency is bounded and every result is re-validated against live TMDB.
   research.sort((a, b) => Number(b.kind === 'broken') - Number(a.kind === 'broken') || (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
-  const tasks: Task[] = [...unmapped.filter(s => !settled.has(s.id)).map((subject): Task => ({ subject, kind: kindOf(subject) })), ...research];
+  const current = (t: Task) => t.kind === 'broken' || inScope(t.subject, now, options.scopeDays);
+  const open = (list: Subject[]) => list.filter(s => !settled.has(s.id)).map((subject): Task => ({ subject, kind: kindOf(subject) }));
+  const tasks: Task[] = [...open(recent), ...research.filter(current), ...open(backlog), ...research.filter(t => !current(t))];
   const kinds = tasks.reduce((m, t) => m.set(t.kind, (m.get(t.kind) ?? 0) + 1), new Map<Task['kind'], number>());
   console.log(`Phase 2: ${tasks.length} tasks${kinds.size ? ` (${[...kinds].map(([k, n]) => `${n} ${k}`).join(', ')})` : ''}; budget ${options.maxSubjects} subjects, ${((deadline - Date.now()) / 60000).toFixed(0)}m`);
   let cursor = 0;
@@ -336,7 +362,8 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   }
   progress.archive = catalog.snapshot;
   await writeJson(join(root, 'state/progress.json'), progress);
-  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, halted, usage, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
+  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, halted, usage,
+    queued: { unmapped: unmapped.length, backlog: { taken: backlog.length, eligible }, research: research.length, remaining: tasks.length - cursor }, report };
   await writeJson(join(cacheDir(root), 'update-report.json'), summary);
   const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
   console.log(`Tokens: adjudication ${tokens('adjudication')}; research ${tokens('research')}`);

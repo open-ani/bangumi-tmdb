@@ -6,7 +6,8 @@
 - Respect `locked: true`; automation reports problems without changing locked records.
 - Only trusted default-branch code may run on the self-hosted worker.
 - Automated updates may change `data/`, `state/`, `sources/` and the generated stats block of README.md only, after validation.
-- Scheduled runs research only recent or upcoming unmapped subjects; the deep backlog is offline work.
+- Scheduled runs research recent or upcoming unmapped subjects first; older work enters only through the bounded
+  backlog allowance (`UPDATE_BACKLOG_SUBJECTS`) or a manual run with its own scope.
 - Episode rules come from air-date agreement or from a model that actually read the TMDB season. Position alone only
   restates a single model-declared season or episode range with equal episode counts and no dates to compare; never anything wider.
 - Scheduled automation is explicitly authorized to commit and push validated changes

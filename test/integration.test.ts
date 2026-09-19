@@ -59,7 +59,7 @@ test('update derives, researches, respects scope and locks, and is idempotent', 
       provenance: { method: 'seed', source: 'seed', evidence: 'Imported.', verifiedAt: null } }));
     await writeJson(join(root, 'data/4.json'), mapping({ bangumiId: 4, locked: true, episodes: [{ id: 41, type: 0, sort: 1 }], rules: [], targets: [{ type: 'movie', id: 7 }],
       overrides: [{ bangumiEpisodeId: 41, targets: [{ type: 'movie', id: 7 }] }] }));
-    const options = { maxSubjects: 5, maxAdjudications: 5, maxMinutes: 5, concurrency: 1, scopeDays: 180, researchMinutes: 1, tmdbBudget: 16, webBudget: 8, now };
+    const options = { maxSubjects: 5, maxAdjudications: 5, maxMinutes: 5, concurrency: 1, scopeDays: 180, backlogSubjects: 0, researchMinutes: 1, tmdbBudget: 16, webBudget: 8, now };
     await update(root, options);
     const one = await readJson(join(root, 'data/1.json'), Mapping);
     assert.deepEqual(one.rules, [{ bangumiType: 0, start: 1, end: 3, tmdbId: 100, season: 1, episodeStart: 1 }]);
