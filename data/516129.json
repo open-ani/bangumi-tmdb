@@ -1,0 +1,81 @@
+{
+  "bangumiId": 516129,
+  "episodes": [
+    {
+      "id": 1404532,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1404533,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1404534,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1404535,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1404536,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1404537,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1404538,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1404539,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1404540,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1404541,
+      "sort": 10,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 同名动画剧集的年份、第1季集数及第2季关联信息共同支持该 subject 对应 TMDB 292 第1季整季。Bangumi 各话标题与日期均为空，候选标题也只是通用集号，无法核实逐集顺序，因此不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/292 (api_snapshot): TMDB 292 为同名动画剧集，第1季共10集，首播日期为2005-12-12；与 Bangumi 的2005-12-13开播、10话规模相符，日期相差一天。第2季共20集，首播于2006-11-12，也与 Bangumi 关联续作的季名及2006-11-13日期相呼应。\n\n备注：两站第1季及关联第2季的开播日期均相差一天，现有数据不能确认差异原因。；缺少可逐集比对的标题和日期，不能确认 Bangumi sort 与 TMDB 集号一一对应；需补充章节资料后建立 rules。；Bangumi 未提供制作方，候选未提供剧情简介，无法交叉核对这两项。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/516129; https://www.themoviedb.org/tv/292",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 292
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 292,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

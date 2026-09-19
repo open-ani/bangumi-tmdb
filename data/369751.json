@@ -1,0 +1,61 @@
+{
+  "bangumiId": 369751,
+  "episodes": [
+    {
+      "id": 1084421,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1084422,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1084423,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1084424,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1084425,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1084426,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 主体信息足以确认对应 TMDB 100 第1季全季。Bangumi 各集标题和日期均为空，候选标题也仅为集号，无法独立核实逐集对应，因此不生成 rules 或 overrides。\n\nhttps://www.themoviedb.org/tv/100 (api_snapshot): 候选为英国动画喜剧《I Am Not an Animal》，首播日期为2004-05-10；第1季共6集，末集日期为2004-06-14，与 Bangumi 的名称、国家、类型、首播日期、集数及简介中的播毕日期一致。第3集日期为2004-10-19，存在时间异常。\n\n备注：候选第1季第3集日期晚于简介所述播毕日期，需进一步核实。；逐集映射需补充可交叉核对的章节标题或放送日期，不能仅按位置对应。；Bangumi 简介中的制作方为 Triffic Films，候选为 Baby Cow Animation；现有数据未说明二者关系。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/369751; https://www.themoviedb.org/tv/100",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 100
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 100,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "bangumiId": 662331,
+  "episodes": [
+    {
+      "id": 1708183,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1708184,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1708185,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1708186,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1708187,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1708188,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1708189,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1708190,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1708191,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1708192,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1708193,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1708194,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1708195,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1708196,
+      "sort": 14,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 可确认对应 TMDB 140 第二季整季：年代、电视动画版本、人物剧情、制作背景及14集故事范围一致。由于 Bangumi 章节全部缺少标题和日期，而 TMDB 与外部集表存在明确重排，无法确定各 Bangumi 章节采用哪种顺序，因此仅匹配整季，逐集映射留空。\n\nhttps://www.themoviedb.org/tv/140 (api_snapshot): TMDB 140 为2003年开播的电视动画《Martin Mystère》，制作公司包括 Marathon 与 Image Entertainment Corporation；主角 Martin、Diana、Java 为秘密组织调查超自然事件，与输入剧情一致。全剧3季66集，第二季14集。\n\nhttps://www.themoviedb.org/tv/140/season/2 (api_snapshot): 已读取第二季完整14集，total_pages=1。与外部第二季集表的14个故事逐一核对，内容集合相同，但顺序不同：外部集表第1、2集在 TMDB 为第3、4集，外部第12集在 TMDB 为第14集，外部第13、14集在 TMDB 为第12、13集。\n\nhttps://en.wikipedia.org/wiki/List_of_Martin_Mystery_episodes (page): 第二季列为14集，播出范围2004-08-28至2004-10-27，与输入完全一致；逐集标题及剧情覆盖 TMDB 第二季全部14集，但编号顺序不同。\n\nhttps://en.wikipedia.org/wiki/Martin_Mystery (page): 资料确认这是2003—2006年的电视动画，由 Marathon、Rai Fiction、Image Entertainment Corporation 制作，导演包括 Stephane Berry、Gregory Panaccione，播出电视台包括 YTV、Canal J；角色与组织设定吻合。\n\n备注：TMDB 第二季日期为2004-07-08至2005-01-01，与输入及外部集表不同；日期差异原因尚未确认。；需要补充 Bangumi 各章节标题、日期或明确的排序依据，才能生成 rules 或 overrides，不能直接套用外部集表编号。；Bangumi 网页访问失败；其信息依据用户提供的存档数据。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/662331; https://www.themoviedb.org/tv/140; https://www.themoviedb.org/tv/140/season/2; https://en.wikipedia.org/wiki/List_of_Martin_Mystery_episodes; https://en.wikipedia.org/wiki/Martin_Mystery",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 140
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 140,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "bangumiId": 611046,
+  "episodes": [
+    {
+      "id": 1597742,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1597743,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1597744,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 已确认 subject 对应 TMDB TV 56454 第 1 季全部三集：动画媒介、年份范围、剧情、制作信息及三集故事组成吻合，季内没有混入其他作品。Bangumi 三个章节均无标题和日期，无法逐集核实，因此仅建立整季范围映射，暂不填写 rules 或 overrides。\n\nhttps://bgm.tv/subject/611046 (page): Bangumi 标为三集 TV 动画，放送期间为 1998-12-21 至 2000-10-18；导演包括 Jonathan Myerson、Aida Zyablikova，剧情为朝圣者途中轮流讲故事。\n\nhttps://www.themoviedb.org/tv/56454 (api_snapshot): TMDB TV 56454 为同名动画，首播日期、朝圣叙事及乔叟原作一致；制作公司包括 Christmas Films、Studio AKA、Beryl Productions，实际收录一季三集。\n\nhttps://www.themoviedb.org/tv/56454/season/1 (api_snapshot): 第 1 季集表共三集、仅一页，依次为 Leaving London、Arriving at Canterbury、The Journey Back；各集简介列出的故事组成与该三集动画一致。第三集日期标为 1998-12-23。\n\nhttps://era.org.uk/lit-resource/the-canterbury-tales-1998-2-arrving-at-canterbury/ (page): ERA 的 BBC 文学档案明确列出该系列第 1、2、3 集及相同标题，前两集为 1998 年，第三集为 2000 年；另列 2001 年中古英语教学合集，能够区分不同版本。\n\nhttps://de.wikipedia.org/wiki/The_Canterbury_Tales_(Animationsfilmreihe) (page): 资料列明三集的故事组成，与 TMDB 各集简介逐一吻合；第三集首播为 2000-10-18，其中包含 Aida Zyablikova 执导的段落，支持 Bangumi 的版本与制作人员信息。\n\nhttps://www.themoviedb.org/movie/1117670 (api_snapshot): 另有电影条目 1117670，片长 83 分钟，导演为 Jonathan Myerson，与 TV 条目共用 IMDb ID；其电影形式不能据此替代 Bangumi 的三集 TV 范围。\n\n备注：TMDB 第三集日期 1998-12-23 与 BBC 文学档案的 2000 年及其他资料的 2000-10-18 冲突；标题和故事组成一致，判断为日期元数据差异。；需要补充 Bangumi 章节 1597742、1597743、1597744 的标题或放送日期，才能建立有逐集证据的对应关系。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/611046; https://www.themoviedb.org/tv/56454; https://www.themoviedb.org/tv/56454/season/1; https://era.org.uk/lit-resource/the-canterbury-tales-1998-2-arrving-at-canterbury/; https://de.wikipedia.org/wiki/The_Canterbury_Tales_(Animationsfilmreihe); https://www.themoviedb.org/movie/1117670",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 56454
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 56454,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

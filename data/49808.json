@@ -1,0 +1,60 @@
+{
+  "bangumiId": 49808,
+  "episodes": [
+    {
+      "id": 199264,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 199265,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 199266,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 199267,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 199268,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 已确认同一五篇合集的两种TMDB记录：movie 386453对应完整57分钟合集，tv 118272第1季对应分篇记录。逐篇标题、导演、剧情和五集总量相符，Bangumi第1—5章可顺序映射S1E1—E5；《彼岸》通过导演和机甲战场剧情核实为Beyond。两个target分别表示整片与分篇形式。\n\nhttps://bgm.tv/subject/49808 (page): Bangumi 将本作列为2006年的57分钟五篇短片合集，由STUDIO4℃制作；四篇来自Grasshoppa!，另加入新作《ガラクタの町》。\n\nhttps://www.studio4c.co.jp/works/pages/21.html (page): 制作公司官网标注2006年、57分钟，逐篇列出教授、End of the world、COMEDY、彼岸、ガラクタの町及其导演和剧情，与输入五章一致。\n\nhttps://www.themoviedb.org/movie/386453 (api_snapshot): 电影386453为57分钟的Deep Imagination，别名包含完整日文标题；制作公司、五位导演及简介列出的五篇短片均与官方资料一致，确认是整个合集。\n\nhttps://www.themoviedb.org/tv/118272 (api_snapshot): TV 118272也收录同一五篇短片合集，详情显示仅一季、共五集；其2002年起始日期采用早期短片的日期。\n\nhttps://www.themoviedb.org/tv/118272/season/1 (api_snapshot): 第1季实际集表共五集且仅一页，依次为Professor Dan Petory's Blues、End of the world、Comedy、Beyond、Junk Town。各集导演与剧情均对应输入章节；第4集为村木靖执导的机甲战场短片《彼岸》，第5集为伊东伸高的少年与机器人故事。五集顺序及总量一致，没有其他作品混入。\n\nhttps://eiga.com/movie/57400/ (search_snippet): 映画.com确认2006年五篇合集的构成及全部五位导演，并记载剧场公开日为2006年7月1日。\n\nhttps://www.allcinema.net/cinema/325374 (search_snippet): allcinema将本作列为2006年动画电影，初公开日记为2006年6月12日，与Bangumi一致。\n\n备注：日期元数据存在冲突：Bangumi及allcinema记2006-06-12，映画.com记2006-07-01；TMDB电影日期为2006-01-25，简介另称2007年1月发行DVD。具体发行日期未统一，但合集内容、片长及主创一致。；输入五章没有独立日期，无法逐章核验首次发行日；逐集映射依据已核实的标题、导演、剧情、顺序与集数，而非假定五篇都在2006年首次发行。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/49808; https://www.studio4c.co.jp/works/pages/21.html; https://www.themoviedb.org/movie/386453; https://www.themoviedb.org/tv/118272; https://www.themoviedb.org/tv/118272/season/1; https://eiga.com/movie/57400/; https://www.allcinema.net/cinema/325374",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 118272
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 386453,
+      "type": "movie"
+    },
+    {
+      "id": 118272,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "bangumiId": 662329,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 确认对应 TMDB 140 第1季整季。年份、电视动画媒介、人物与剧情一致；输入的播出起止日期及独立第2季关系明确限定为首季，外部首季26集与 TMDB 首季标题集合一致。Bangumi 输入没有章节，故仅建立季级映射，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/140 (api_snapshot): TMDB 140 原名为 Martin Mystère，属于2003年开始的电视动画；剧情中的学生 Martin、Diana、穴居人 Java 与秘密组织 Centre 均与输入一致。制作公司包括 Marathon 和 Image Entertainment Corporation，全剧分3季共66集。\n\nhttps://www.themoviedb.org/tv/140/season/1 (api_snapshot): 已读取第1季完整集表，共26集、1页。首集为 It Came from the Bog，末集为 The Awakening；26个集标题与外部第1季集表的标题集合一致，没有混入后续季作品，但排列和日期存在差异。\n\nhttps://en.wikipedia.org/wiki/Martin_Mystery (page): 资料确认本作是 Marathon、Rai Fiction 和 Image Entertainment Corporation 制作的电视动画，创作者为 Vincent Chalvon-Demersay、David Michel。第1季26集，播出区间2003-10-01至2004-08-12，与输入完全一致；第2季开始日期2004-08-28也与输入的续作条目一致。\n\nhttps://epguides.com/MartinMystery/ (page): 第1季集表列出26集，起止日期与 Bangumi 输入一致。逐项核对标题后确认其覆盖 TMDB 第1季相同的26集，但例如 Shriek from Beyond 在该表为第9集、在 TMDB 为第3集，不能直接建立顺序递增规则。\n\n备注：Bangumi 网页访问失败，条目范围依据用户提供的快照及外部资料核对。；TMDB 第1季日期为2003-10-23至2004-06-07，与输入及外部集表不同，且集序存在差异；日期差异的具体原因未确认。；缺少 Bangumi 章节 ID、sort 和标题，无法建立逐集对应；后续补齐章节后须按标题与内容核对，不能直接按集号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/662329; https://www.themoviedb.org/tv/140; https://www.themoviedb.org/tv/140/season/1; https://en.wikipedia.org/wiki/Martin_Mystery; https://epguides.com/MartinMystery/",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 140,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

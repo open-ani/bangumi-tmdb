@@ -1,0 +1,37 @@
+{
+  "bangumiId": 82120,
+  "episodes": [
+    {
+      "id": 313287,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 匹配 TMDB《臭作》91465 第2季第5集。英文集标题、总集篇性质、2001年发行日期及单话范围相互印证；前四集已确认为 Replay 本体，因此仅映射 SE-X FILE 这一集。\n\nhttps://www.themoviedb.org/tv/91465 (api_snapshot): 作品详情确认 TMDB 91465 为《臭作》系列，制作公司包含 Pink Pineapple、KSS；第2季为 Replay，共5集。\n\nhttps://www.themoviedb.org/tv/91465/season/2 (api_snapshot): 已读取第2季完整集表（日文、英文，均仅1页）：第1至4集为 Replay 四夜；第5集英文标题为 Shusaku Se-X File，简介明确为总集篇，日期2001-03-30，时长49分钟。对应本 subject 的范围仅为第5集。\n\nhttps://zh.wikipedia.org/wiki/%E8%87%AD%E4%BD%9C (search_snippet): 资料将 SE-X FILE 明确列为《臭作》与《臭作 Replay》的合集，发行日2001-03-30；Replay 本体另列四话及各话日期，与 TMDB 第2季前四集吻合。\n\nhttps://bgm.tv/person/1746/works (search_snippet): Bangumi 人物作品列表列出《臭作SE-X FILE》为1话、2001年3月30日、导演織崎進郎，与输入版本信息一致。\n\nhttps://www.suruga-ya.jp/product/detail/128001876?branch_number=1000 (page): 实体动画DVD《臭作 SE-X FILE》商品页列出发行商 KSS、型号 KSXA-54046，日期2001-03-23，与输入章节日期一致。\n\n备注：发行日期存在2001-03-23与2001-03-30两种记录：输入章节和实体DVD商品页采用前者，subject资料及TMDB采用后者；尚未确认是版本差异还是日期误录。；TMDB作品详情未提供制作人员名单，无法独立复核导演；但具体集标题、总集篇性质和发行年份一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/82120; https://www.themoviedb.org/tv/91465; https://www.themoviedb.org/tv/91465/season/2; https://zh.wikipedia.org/wiki/%E8%87%AD%E4%BD%9C; https://bgm.tv/person/1746/works; https://www.suruga-ya.jp/product/detail/128001876?branch_number=1000",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 5,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 91465
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 5,
+      "id": 91465,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

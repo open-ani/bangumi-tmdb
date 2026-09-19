@@ -1,0 +1,33 @@
+{
+  "bangumiId": 6755,
+  "episodes": [
+    {
+      "id": 40193,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 40194,
+      "sort": 26,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 确认该 subject 整体对应 TMDB 42873 第0季第6集。年份、发行版本、制作人员、两篇标题及剧情相符。Bangumi 将两篇分为章节40193、40194，TMDB 则合并为一集；由于禁止两个 Bangumi 章节占用同一 TMDB 集，保留已确认的作品范围，逐集 rules 和 overrides 留空。\n\nhttps://www.cdjapan.co.jp/product/AVBA-22461 (page): DVD 商品页确认「もぎたて編」于2005年12月14日发行，日文介绍注明收录两篇电视未播特别篇；制作人员包括河下水希、関田修及中原清隆，与输入一致。\n\nhttps://geo-online.co.jp/store_info/item/1529538/ (page): GEO 将特别篇标为2005年作品，收录「迎えにきて！」和「いつだって味方だから」，合计23分钟；剧情为淳平收到唯请求接她回去的信。\n\nhttps://www.themoviedb.org/tv/42873 (api_snapshot): 已读取 TMDB 42873 详情：2005年动画《いちご100%》，原作署名河下水希，角色及声优与该作品一致；包含第0季特别篇。\n\nhttps://www.themoviedb.org/tv/42873/season/0 (api_snapshot): 已读取第0季日文及英文完整集表，共6集、1页。第6集英文标题同时包含两篇标题，时长24分钟，剧情为唯的父亲阻止她寄住淳平家、淳平前往解释，与特别篇一致。第1至5集是其他独立特别篇或OVA。\n\n备注：TMDB 第0季第6集日期为2005-12-18，与DVD发行日2005-12-14相差4天，日期差异原因未确认。；当前映射结构不能无损表达两个 Bangumi 章节合并对应一个 TMDB 集，故两个章节均未建立逐集映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/6755; https://www.cdjapan.co.jp/product/AVBA-22461; https://geo-online.co.jp/store_info/item/1529538/; https://www.themoviedb.org/tv/42873; https://www.themoviedb.org/tv/42873/season/0",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 6,
+      "id": 42873,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

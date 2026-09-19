@@ -1,0 +1,54 @@
+{
+  "bangumiId": 74403,
+  "episodes": [
+    {
+      "id": 274759,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 274760,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 274761,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、3 集规模、首末集发行日期及独立列季的续作信息共同支持对应 TMDB 76716 第 1 季，季范围未见混入续作。逐集仅映射日期一致的第 1、3 集；第 2 集存在日期冲突，暂留空。\n\nhttps://www.themoviedb.org/tv/76716 (api_snapshot): 候选 76716 第 1 季名称为《エンジェルブレイド》，共 3 集；第 1、3 集日期分别为 2001-12-14、2003-04-11，与 Bangumi 本作的首末集日期及总集数一致。\n\nhttps://www.themoviedb.org/tv/76716 (api_snapshot): 第 2 季另列《エンジェルブレイド パニッシュ！》，始于 2004-12-29，与 Bangumi 关联续作一致，支持本作范围为第 1 季。\n\nhttps://www.themoviedb.org/tv/76716 (api_snapshot): 第 1 季各集标题均为通用集号；第 2 集日期为 2002-06-05，与 Bangumi 的 2002-07-05 不一致。\n\n备注：第 2 集日期相差一个月，且候选没有实际集标题，需核实发行记录后补充映射。；候选未提供剧情与 OVA 媒介说明；制作公司字段也无法与 Bangumi 的原作字段直接交叉核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/74403; https://www.themoviedb.org/tv/76716",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 76716
+    },
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 76716
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 76716,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

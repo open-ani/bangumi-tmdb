@@ -1,0 +1,46 @@
+{
+  "bangumiId": 73763,
+  "episodes": [
+    {
+      "id": 272385,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 272386,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 272387,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 作品名称、发行年份、起止日期及全篇 3 集的范围一致，可确认对应 TMDB 113199 第 1 季。Bangumi 各章标题与日期均为空，无法独立核实逐集对应，因此不生成连续规则。\n\nhttps://www.themoviedb.org/tv/113199 (api_snapshot): 候选 TV 113199 名称与本 subject 一致，首播日期为 1998-12-22；仅有第 1 季，共 3 集，末集日期为 1999-03-25，与 Bangumi 的 OVA 总话数及发行起止日期一致。\n\n备注：候选未提供剧情简介、制作公司或明确的 OVA 媒介说明，无法交叉核对这些信息。；TMDB 第 2 集日期为 1998-12-29，Bangumi 缺少逐集日期及标题，尚不能核实各章对应关系。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/73763; https://www.themoviedb.org/tv/113199",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 113199
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 113199,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

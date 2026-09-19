@@ -1,0 +1,46 @@
+{
+  "bangumiId": 98284,
+  "episodes": [
+    {
+      "id": 379169,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 379170,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 379171,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 匹配独立条目 129314 第 1 季。该季完整的 3 集范围及首末日期与本作一致，可区别于 2002 年电视版。逐集信息不足以核实标题对应，暂不生成章节映射规则。\n\nhttps://www.themoviedb.org/tv/129314 (api_snapshot): 独立条目 129314 第 1 季共 3 集，日期依次为 2004-01-21、2004-03-10、2004-04-28；作品名称、年份、集数及首末日期与 Bangumi 三卷 OVA 的资料一致。\n\nhttps://www.themoviedb.org/tv/34820 (api_snapshot): 母作 34820 是 2002 年的 13 集电视动画，第 0 季另收录 3 集特别篇；其末集日期为 2004-04-21，与 Bangumi 的结束日期不一致。候选已有独立 OVA 条目，优先采用独立条目。\n\n备注：Bangumi 各集缺少放送日期，TMDB 各集仅有通用编号标题，无法交叉核实三个具体标题的对应关系；需补充逐集日期或对应标题后生成 rules。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/98284; https://www.themoviedb.org/tv/129314; https://www.themoviedb.org/tv/34820",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 129314
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 129314,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

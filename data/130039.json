@@ -1,0 +1,56 @@
+{
+  "bangumiId": 130039,
+  "episodes": [
+    {
+      "id": 511495,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 511496,
+      "sort": 2,
+      "type": 6
+    },
+    {
+      "id": 511497,
+      "sort": 3,
+      "type": 6
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 511496,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 511497,
+      "targets": []
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 匹配TMDB 126638第1季第1集。年份、具体副标题、主角与剧情、OVA/DVD交互动画资料相符；完整集表明确将2004年续作列为第2集，因此仅映射《好奇心》这一集。输入中两条标为“废弃”的章节明确排除。\n\nhttps://www.themoviedb.org/tv/126638 (api_snapshot): TMDB 126638 原名为《自慰倒錯》，英文简介中冴子与同事沙耶香的故事符合输入所述小早川的剧情；条目共一季两集，日期横跨2002年至2004年。\n\nhttps://www.themoviedb.org/tv/126638/season/1 (api_snapshot): 已读取第1季完整集表，共2集、1页：第1集《～好奇心～》日期为2002-08-02；第2集《～破滅への快楽～》日期为2004-04-16，对应输入中的独立续作，不属于本 subject。\n\nhttps://bangumi.tv/person/3039/works/anime?sort=date (search_snippet): Bangumi 原作公司作品列表将《好奇心》列为2002-07-19发行、导演本罫閨太朗的1话作品，并将2004年的《破滅への快楽》另列为1话作品。\n\nhttps://www.suruga-ya.jp/kaitori/kaitori_detail/130000015 (search_snippet): 骏河屋记录《自慰倒錯 -好奇心- DVD Players Game》由Pix发行，型号PIX-0001，发行日2002-07-19，支持输入所述DVD交互动画媒介及日期。\n\nhttps://bangumi.tv/person/18192 (search_snippet): 声优资料将Pix的《自慰倒錯～好奇心～ DVD GAME》列为2002-08-02发行，角色为小早川冴子，提供与TMDB日期及主角相符的旁证。\n\n备注：发行日期存在2002-07-19与2002-08-02两种记录，尚未查明是否源于延期或发行批次；具体副标题与角色资料支持同一作品。；TMDB未提供制作人员或制作公司，无法通过其职员表独立交叉核实导演。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/130039; https://www.themoviedb.org/tv/126638; https://www.themoviedb.org/tv/126638/season/1; https://bangumi.tv/person/3039/works/anime?sort=date; https://www.suruga-ya.jp/kaitori/kaitori_detail/130000015; https://bangumi.tv/person/18192",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 126638
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "id": 126638,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

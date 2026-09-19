@@ -1,0 +1,51 @@
+{
+  "bangumiId": 70394,
+  "episodes": [
+    {
+      "id": 260889,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 260890,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 260891,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 260892,
+      "sort": 4,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 匹配 TMDB 44569 第 1 季：名称、4 话总量、逐集编号标题及首末两话发售日期一致，整季范围完整覆盖 Bangumi 的四话 OVA。另一同名候选的首末日期均不符。\n\nhttps://www.themoviedb.org/tv/44569 (api_snapshot): 候选 44569 第 1 季共 4 集，首集日期为 1999-10-29，末集日期为 2001-01-19，均与 Bangumi 一致；逐集标题为第1话至第4话，与 Bangumi 的编号标题对应。\n\nhttps://www.themoviedb.org/tv/154531 (api_snapshot): 同名候选 154531 第 1 季也有 4 集，但首集日期为 1999-10-08、末集日期为 2001-01-12，均与 Bangumi 已知日期不符，匹配依据弱于 44569。\n\n备注：Bangumi 第 2、3 话未提供日期，无法独立核对这两话的发售日期；对应依据为逐集编号标题、总集数及首末日期。；候选未提供剧情和明确的 OVA 版本说明，Bangumi 也未提供动画制作公司，无法交叉核验这些字段；两个同名 TMDB 条目之间的关系尚不明确。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/70394; https://www.themoviedb.org/tv/44569; https://www.themoviedb.org/tv/154531",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44569
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44569,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

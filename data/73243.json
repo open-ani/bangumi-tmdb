@@ -1,0 +1,41 @@
+{
+  "bangumiId": 73243,
+  "episodes": [
+    {
+      "id": 270203,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 270204,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、年份、总集数及结束日期共同支持对应 TMDB 221017 第 1 季，季表未显示混入其他作品。Bangumi 两个章节均无标题和日期，无法进行逐集核验，因此仅确认整季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/221017 (api_snapshot): 候选 221017 的日文原名与 Bangumi 名称仅有空格差异；均为 1998 年、共 2 集。其第 1 季完整包含 2 集，第 2 集日期 1998-12-18 与 Bangumi 标注的结束日期一致。\n\nhttps://www.themoviedb.org/tv/132027 (api_snapshot): 候选 132027 的起止日期虽与 Bangumi 信息一致，但作品名称为《初夜 -ヴァージン・ナイト-》，没有别名或其他资料支持其与本 subject 为同一作品，不能仅凭日期对应。\n\n备注：Bangumi 标注首发日期为 1998-09-25，候选首播及第 1 集日期为 1998-10-09，差异原因未明。；Bangumi 无剧情及制作方信息，候选也未提供剧情或明确的 OVA 版本说明，无法交叉核实这些属性。；需补充 Bangumi 各集标题、发行日期或可靠的分卷资料，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/73243; https://www.themoviedb.org/tv/221017; https://www.themoviedb.org/tv/132027",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 221017
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 221017,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

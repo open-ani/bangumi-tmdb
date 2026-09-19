@@ -1,0 +1,41 @@
+{
+  "bangumiId": 110230,
+  "episodes": [
+    {
+      "id": 420265,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 420266,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、起始日期及两话总量一致，候选唯一一季完整覆盖该作品，可确认 subject 对应 TV 126183 第 1 季。Bangumi 两个章节均缺少标题和日期，且结束日期存在冲突，无法逐集交叉核实，因此暂不生成章节规则。\n\nhttps://www.themoviedb.org/tv/126183 (api_snapshot): 候选 TV 126183 与 Bangumi 日文名称一致，首播日期同为 1997-04-21；作品总集数为 2，第 1 季也恰有 2 集，支持该季覆盖此两话 OVA。\n\nhttps://www.themoviedb.org/tv/126183 (api_snapshot): 第 1 季两集标题仅为「第1話」「第2話」，日期分别为 1997-04-21、1997-08-08；第二集日期与 Bangumi 信息框中的结束日期 1997-07-21 不一致。\n\n备注：需核实第二话发售日期究竟为 1997-07-21 还是 1997-08-08，并补充 Bangumi 章节标题或日期后建立逐集对应。；候选未提供剧情简介或明确的 OVA 媒介标记；Bangumi 未提供制作公司，无法进一步交叉核对剧情、媒介与制作方。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110230; https://www.themoviedb.org/tv/126183",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 126183
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 126183,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

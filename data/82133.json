@@ -1,0 +1,47 @@
+{
+  "bangumiId": 82133,
+  "episodes": [
+    {
+      "id": 313348,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 313349,
+      "sort": 2,
+      "type": 6
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 313349,
+      "targets": []
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 本作对应 TMDB 126638 第1季第2集：章节副标题、2004-04-16发行日期及单话范围完全吻合。该季将前作《好奇心》与本作分别列为两集，因此只映射第2集；输入中标记“作废”的章节明确排除。\n\nhttps://www.themoviedb.org/tv/126638 (api_snapshot): TMDB 126638《自慰倒錯》共1季2集，起止日期为2002-08-02至2004-04-16。\n\nhttps://www.themoviedb.org/tv/126638/season/1 (api_snapshot): 已读取第1季完整集表（共1页）：第1集为《～好奇心～》，第2集为《～破滅への快楽～》，第2集日期为2004-04-16，与输入本篇标题及发行日期一致。\n\nhttps://bangumi.tv/person/29785/works/position/17 (search_snippet): Bangumi 制作人员作品列表将本作列为2004-04-16发行的1话动画，导演为わたせとしひろ、人物设定为桔梗屋，与输入版本资料一致。\n\n备注：TMDB 简介与制作人员字段为空，无法在 TMDB 内进一步交叉核对剧情和主创；匹配依据为准确的章节标题、发行日期及前后篇结构。；Bangumi 主页面此次访问返回条目不可见，章节信息使用用户提供的归档快照。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/82133; https://www.themoviedb.org/tv/126638; https://www.themoviedb.org/tv/126638/season/1; https://bangumi.tv/person/29785/works/position/17",
+    "verifiedAt": "2026-09-19T11:52:44.754Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 126638
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 2,
+      "id": 126638,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
