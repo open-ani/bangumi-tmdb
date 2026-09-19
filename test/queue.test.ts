@@ -36,9 +36,11 @@ test('research tiers put pending retries last unless the work has aired since it
   assert.equal(at(3, 'episodes', '2026-07-01'), 2);
   assert.equal(at(4, 'backlog', '2010-01-01'), 3, 'a never-analysed backlog subject');
   assert.equal(at(5, 'episodes', '2010-01-01'), 4);
-  assert.equal(at(6, 'retry', '2026-07-01', { status: 'pending', attemptedAt: '2026-08-01T00:00:00.000Z' }), 5, 'judged after airing: waits for leftover budget');
+  assert.equal(at(6, 'retry', '2026-04-01', { status: 'pending', attemptedAt: '2026-08-01T00:00:00.000Z' }), 5, 'judged after its season ended: waits for leftover budget');
   assert.equal(at(7, 'backlog', '2010-01-01', { status: 'pending', attemptedAt: '2026-08-01T00:00:00.000Z' }), 6);
   assert.equal(at(8, 'retry', '2026-08-15', { status: 'pending', attemptedAt: '2026-06-01T00:00:00.000Z' }), 0, 'judged before its premiere and aired since: as good as new');
+  assert.equal(at(11, 'retry', '2026-09-01', { status: 'pending', attemptedAt: '2026-09-08T00:00:00.000Z' }), 0, 'premiered within the last month: keeps top priority');
+  assert.equal(at(12, 'retry', '2026-07-01', { status: 'pending', attemptedAt: '2026-08-01T00:00:00.000Z' }), 5, 'a month after its premiere: waits for leftover budget');
   assert.equal(at(9, 'retry', '2026-10-15', { status: 'pending', attemptedAt: '2026-06-01T00:00:00.000Z' }), 5, 'still unaired');
   assert.equal(at(10, 'retry', '2026-07-01', { status: 'error', attemptedAt: '2026-09-14T00:00:00.000Z' }), 0, 'a process failure keeps its priority');
 });

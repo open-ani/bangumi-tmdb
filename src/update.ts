@@ -32,13 +32,19 @@ export function inScope(subject: Subject, now: number, scopeDays: number): boole
   const at = Date.parse(subject.date);
   return Number.isFinite(at) && at >= now - scopeDays * DAY;
 }
+// A work that premiered within this many days gets a weekly look at full priority: if TMDB is going to add it, this is when.
+export const AIRING_DAYS = 30;
+export const AIRING_RETRY_DAYS = 7;
 export function retryDays(status: Status, attempts: number, subject: Subject | null, now: number): number {
   if (status === 'error') return 1;
   if (status !== 'pending') return 28;
   const backoff = PENDING_BACKOFF_DAYS[Math.min(attempts, PENDING_BACKOFF_DAYS.length) - 1] ?? PENDING_BACKOFF_DAYS[0]!;
   const premiere = Date.parse(subject?.date ?? '');
-  // A work that has not aired yet rarely exists on TMDB; look again shortly after its premiere.
-  return Number.isFinite(premiere) && premiere > now ? Math.max(backoff, Math.ceil((premiere - now) / DAY) + 3) : backoff;
+  if (!Number.isFinite(premiere)) return backoff;
+  // A work that has not aired yet rarely exists on TMDB; look again shortly after its premiere. One that is
+  // just out is looked at weekly for its first month; only then does the backoff take over.
+  if (premiere > now) return Math.ceil((premiere - now) / DAY) + 3;
+  return now - premiere <= AIRING_DAYS * DAY ? Math.min(backoff, AIRING_RETRY_DAYS) : backoff;
 }
 export interface UpdateOptions {
   maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; platforms?: number[] | undefined; backlogSubjects: number;
@@ -126,12 +132,14 @@ export function queue(catalog: Catalog, rows: Map<number, Mapping>, progress: Pr
   return { recent, backlog: older.slice(0, options.backlogSubjects), eligible: older.length };
 }
 // Research priority, recency first. Bangumi lists works long before TMDB does, so a subject judged before
-// its premiere deserves a fresh look once it has aired; a retry of any other pending verdict waits behind
-// every other kind of work and only gets leftover budget. A process failure keeps its original priority.
+// its premiere deserves a fresh look once it has aired, and one that premiered within the last month keeps
+// that priority; a retry of any other pending verdict waits behind every other kind of work and only gets
+// leftover budget. A process failure keeps its original priority.
 export function tier(task: Task, progress: Progress, now: number, scopeDays: number): number {
   const previous = progress.subjects[String(task.subject.id)];
   const premiere = Date.parse(task.subject.date);
-  const aired = Number.isFinite(premiere) && premiere <= now && Boolean(previous) && Date.parse(previous!.attemptedAt) < premiere;
+  const aired = Number.isFinite(premiere) && premiere <= now && Boolean(previous)
+    && (Date.parse(previous!.attemptedAt) < premiere || now - premiere <= AIRING_DAYS * DAY);
   const stale = previous?.status === 'pending' && !aired;
   if (task.kind === 'broken') return 1;
   if (task.kind === 'episodes') return inScope(task.subject, now, scopeDays) ? 2 : 4;
