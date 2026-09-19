@@ -54,6 +54,8 @@ jobs:
       CODEX_REASONING: ${{ vars.CODEX_REASONING || 'high' }}
       UPDATE_MAX_MINUTES: ${{ github.event.inputs.max_minutes || vars.UPDATE_MAX_MINUTES || '75' }}
       UPDATE_SCOPE_DAYS: ${{ github.event.inputs.scope_days || vars.UPDATE_SCOPE_DAYS || '180' }}
+      # The README block describes the scheduled scope even when a dispatched run brings its own.
+      UPDATE_STATS_SCOPE_DAYS: ${{ vars.UPDATE_SCOPE_DAYS || '180' }}
       UPDATE_PLATFORMS: ${{ github.event.inputs.platforms }}
       UPDATE_BACKLOG_SUBJECTS: ${{ vars.UPDATE_BACKLOG_SUBJECTS || '100' }}
       DISCOVER_MAX_SUBJECTS: ${{ vars.DISCOVER_MAX_SUBJECTS || '600' }}

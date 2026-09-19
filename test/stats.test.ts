@@ -27,7 +27,13 @@ test('dataset statistics classify subjects, count episode coverage and rewrite o
     await mkdir(join(root, 'docs'));
     await writeFile(join(root, 'docs/unresolved-mappings-2026-09-10.md'), '### 2 · x\n\n[Bangumi 条目](u) · r\n\nreason\n\n参考资料：a\n');
     await writeFile(join(root, 'README.md'), 'Intro\n\n<!-- stats:start -->\nplaceholder\n<!-- stats:end -->\n\nOutro\n');
+    // Coverage as the scheduled run leaves it: images checked on three mapped episodes, two of them present.
+    const cov = (bangumiId: number, date: string, status: string, checked: number, present: number) =>
+      ({ bangumiId, name: `S${bangumiId}`, date, platform: 1, status, regular: 2, aired: 2, mapped: 2, missing: [], noImage: [], images: { checked, present } });
+    await writeJson(join(root, 'sources/coverage.json'), { schemaVersion: 1, generatedAt: '2026-09-16T00:00:00.000Z', archive: null,
+      subjects: [cov(1, '2026-08-01', 'complete', 2, 2), cov(2, '2010-01-01', 'unresolved', 0, 0), cov(6, '2026-08-01', 'movie', 1, 0)] });
     const stats = await computeStats(root, 180);
+    assert.deepEqual(stats.images, { checked: 3, present: 2, subjectsAll: 1, subjectsNone: 1 });
     assert.equal(stats.archiveAnime, 6);
     assert.equal(stats.mapped, 2); assert.equal(stats.tvBare, 1); assert.equal(stats.movie, 1);
     assert.equal(stats.unresolved, 2); assert.equal(stats.unresolvedDocumented, 1); assert.equal(stats.unresolvedAutomation, 1);
@@ -39,6 +45,7 @@ test('dataset statistics classify subjects, count episode coverage and rewrite o
     const block = renderStats(stats, 180);
     assert.match(block, /快照 `2026-09-15`/);
     assert.match(block, /\| 已建立映射 \| \*\*2\*\* \| 占 33\.3%/);
+    assert.match(block, /剧集图片：已映射本篇章节中 2 话（66\.7%）在 TMDB 有剧集图；1 个条目每一话都有图，1 个条目一张也没有/);
     assert.equal(replaceStats('a\n<!-- stats:start -->x<!-- stats:end -->\nb', 'B'), 'a\nB\nb');
     assert.throws(() => replaceStats('no markers', 'B'), /missing/);
     await writeStats(root, 180);

@@ -78,7 +78,7 @@ try {
       for (const row of await mappings(root)) await verifyMapping(row, tmdb, catalog);
       console.log('All mappings verified against Archive and live TMDB'); break;
     }
-    case 'stats': await writeStats(root, positive('UPDATE_SCOPE_DAYS', 180)); break;
+    case 'stats': await writeStats(root, positive(process.env.UPDATE_STATS_SCOPE_DAYS ? 'UPDATE_STATS_SCOPE_DAYS' : 'UPDATE_SCOPE_DAYS', 180)); break;
     case 'coverage': await writeCoverage(root); break;
     case 'guard': await guard(root, process.argv[3] ?? ''); break;
     case 'publish': await publish(root, process.argv.includes('--online')); break;

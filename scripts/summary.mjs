@@ -12,4 +12,10 @@ const counts = {};
 for (const row of report.report) counts[`${row.kind}/${row.status}`] = (counts[`${row.kind}/${row.status}`] ?? 0) + 1;
 for (const [key, count] of Object.entries(counts).sort()) console.log(`- ${key}: ${count}`);
 if (report.absent.length) console.log(`\nMapped subjects missing from Bangumi (merged or hidden; maintainer action): ${report.absent.join(', ')}`);
+try {
+  const summary = JSON.parse(readFileSync('sources/coverage-summary.json', 'utf8'));
+  const pct = (a, b) => b ? `${(100 * a / b).toFixed(1)}%` : '—';
+  console.log('\nProgress by air-date band (TV/OVA/剧场版/WEB; the last row is every other platform):\n\n| Band | Subjects | Mapped | Episode-level | Unresolved | Unanalyzed | Episode images |\n| --- | --- | --- | --- | --- | --- | --- |');
+  for (const b of summary.bands) console.log(`| ${b.label} | ${b.subjects} | ${b.mapped} (${pct(b.mapped, b.subjects)}) | ${b.episodeLevel} (${pct(b.episodeLevel, b.subjects)}) | ${b.unresolved} | ${b.unanalyzed} | ${pct(b.images.present, b.images.checked)} |`);
+} catch (error) { if (error.code !== 'ENOENT') throw error; }
 console.log('\nPending/error details are recorded in state/progress.json; research artifacts live under the runner cache directory.');

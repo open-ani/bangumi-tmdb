@@ -17,7 +17,7 @@
 | `CODEX_MAX_ADJUDICATIONS` | Optional variable | 每轮最多交给 Codex 一轮判定（无工具）的条目数，默认 400 |
 | `CODEX_TIMEOUT_MINUTES` | Optional variable | 单个条目的研究超时，默认 8 分钟 |
 | `UPDATE_MAX_MINUTES` | Optional variable | 一轮更新的总时间预算，默认 75 分钟；前一半留给校验与规则推导 |
-| `UPDATE_SCOPE_DAYS` | Optional variable | 只研究放送日在最近这么多天内或尚未放送的未映射条目，默认 180；手动运行时可用 `scope_days` 输入覆盖 |
+| `UPDATE_SCOPE_DAYS` | Optional variable | 只研究放送日在最近这么多天内或尚未放送的未映射条目，默认 180；手动运行时可用 `scope_days` 输入覆盖，README 统计区块始终按仓库变量的值描述 |
 | `UPDATE_PLATFORMS` | Manual input only | 手动运行时用 `platforms` 输入限定未映射条目的 Bangumi 平台代码，逗号分隔（1 TV、2 OVA、3 剧场版、5 WEB、0 其他、2006 动态漫画）；留空不限 |
 | `UPDATE_BACKLOG_SUBJECTS` | Optional variable | 每轮在范围之外额外处理的积压条目数，默认 100，设为 0 关闭：先取从未分析过的（按放送日期从新到旧，无日期的最后），再取到期重试的（等得最久的优先）；只看 TV、OVA、剧场版、WEB 四个平台，手动指定 `platforms` 时以其为准 |
 | `DISCOVER_MAX_SUBJECTS` | Optional variable | 每轮通过 Bangumi API 刷新的条目上限，默认 600 |
@@ -42,7 +42,7 @@
    - 识别阶段：对到期的未映射条目，用标题、译名、别名（去掉季数后缀）搜索 TMDB，拉取候选的季表，只有唯一一个候选的集与 Bangumi 本篇章节按放送日期逐一吻合时才写入作品与逐集映射（`deterministic`，evidence 记录搜索词与候选数）；单集条目按上映日期匹配电影。多候选吻合、缺少日期或对不上的留给模型。
    - 判定阶段：识别阶段有候选但拿不定的条目（多候选吻合、缺日期、集数对不上），把 Bangumi 数据和已抓取的候选季表一起交给 Codex 一轮判定，不给工具、不联网，结果同样经证据检查（只能引用交给它的候选）、结构校验和在线核验；pending 的留给研究阶段。每轮最多 `CODEX_MAX_ADJUDICATIONS` 条（默认 400）。
    - 研究阶段：在时间与条目预算内，用 Codex（联网搜索加 TMDB MCP 工具）按「越新越先」的顺序研究：范围内的未映射条目，其次修复核验失败的映射和为范围内条目补逐集规则，再处理本轮的积压配额（`UPDATE_BACKLOG_SUBJECTS`），最后用剩余预算为范围外的旧条目补逐集规则。没有本篇章节的条目不进入研究队列。模型只能引用它实际通过工具读取过的作品和季，结果还要经过结构校验和在线核验。
-5. `pnpm cli coverage`：生成 `sources/coverage.json`，列出每个动画条目的对应状态、已放送但未映射的章节和已映射但 TMDB 没有剧集图的章节；需要逐季查询 TMDB（有缓存），失败不阻塞本轮。随后 `pnpm cli stats` 重新生成 README「当前数据」里 `<!-- stats:start -->` 到 `<!-- stats:end -->` 之间的统计区块。
+5. `pnpm cli coverage`：生成 `sources/coverage.json`，列出每个动画条目的对应状态、已放送但未映射的章节和已映射但 TMDB 没有剧集图的章节；需要逐季查询 TMDB（有缓存），失败不阻塞本轮。同时写 `sources/coverage-summary.json`：各状态计数、剧集图片总数，以及 TV/OVA/剧场版/WEB 按放送年代（以快照时间分近 10 年、10–20 年、20–30 年、30 年以上、无日期）和其他平台各一行的进度；工作流 summary 也会列出这张表。它不考虑热门程度，越早的分段越是冷门条目。随后 `pnpm cli stats` 重新生成 README「当前数据」里 `<!-- stats:start -->` 到 `<!-- stats:end -->` 之间的统计区块。
 6. `scripts/commit-update.sh`：guard 检查只改动了 `data/`、`state/`、`sources/`（含 `coverage.json`）和 README 的统计区块（区块之外必须与基线一致），验证后以 openanibot 提交 main。若 main 期间有变化，先把生成的改动 rebase 到最新 main 并重新校验、重新生成统计区块；rebase 冲突或校验不过才在最新 main 上重算，最多三次。
 
 每个条目的研究决策连同输入摘要保存在 `$DATASET_CACHE/research/<subject ID>/decision.json`；48 小时内输入相同的再次研究直接复用这份决策（仍经过结构校验和在线核验），所以超时中断或重算只重复便宜的核验阶段，不重复消耗 Codex。

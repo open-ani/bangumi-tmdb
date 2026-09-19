@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { Catalog, Progress, type EpisodeTarget } from '../src/model.js';
-import { computeCoverage, summarize, type ImageSource } from '../src/coverage.js';
+import { computeCoverage, summarize, summaryOf, type ImageSource } from '../src/coverage.js';
 import { mapping } from './helpers.js';
 
 const now = Date.parse('2026-09-18T00:00:00Z');
@@ -42,4 +42,9 @@ test('coverage classifies every catalog subject and lists unmapped and image-les
   assert.deepEqual([by[6]!.missing, by[6]!.images], [[62], { checked: 0, present: 0 }], 'an unreachable season leaves episodes unchecked');
   assert.equal(by[7]!.platform, 1);
   assert.match(summarize(coverage), /7 subjects \(2 complete, 1 partial, 1 season-only, 0 work-only, 1 movie, 0 no-episodes, 1 unresolved, 1 unanalyzed\); images on 4\/6 mapped episodes; 1 subjects fully illustrated, 0 without any image/);
+  const summary = summaryOf(coverage, now);
+  assert.deepEqual([summary.subjects.complete, summary.subjects.unanalyzed, summary.images], [2, 1, { checked: 6, present: 4, subjectsAll: 1, subjectsNone: 0 }]);
+  assert.deepEqual(summary.bands.map(b => [b.label, b.subjects, b.mapped, b.episodeLevel, b.unresolved, b.unanalyzed, b.images.present, b.images.checked]),
+    [['近 10 年', 6, 5, 4, 0, 1, 4, 6], ['10–20 年', 1, 0, 0, 1, 0, 0, 0], ['20–30 年', 0, 0, 0, 0, 0, 0, 0], ['30 年以上', 0, 0, 0, 0, 0, 0, 0], ['无日期', 0, 0, 0, 0, 0, 0, 0], ['其他平台', 0, 0, 0, 0, 0, 0, 0]],
+    'the upcoming subject counts as recent; bands are measured from the reference time');
 });

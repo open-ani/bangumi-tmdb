@@ -2,8 +2,8 @@ import { join } from 'node:path';
 import { z } from 'zod';
 import { Progress, type Catalog, type Episode, type EpisodeTarget, type Mapping } from './model.js';
 import { writeFile } from 'node:fs/promises';
-import { cacheDir, mappings, readJson } from './io.js';
-import { loadCatalog } from './catalog.js';
+import { cacheDir, mappings, readJson, writeJson } from './io.js';
+import { dumpTime, loadCatalog } from './catalog.js';
 import { expand } from './expand.js';
 import { Tmdb } from './tmdb.js';
 
@@ -26,6 +26,45 @@ export const Coverage = z.strictObject({
 });
 export type CoverageSubject = z.infer<typeof CoverageSubject>;
 export type Coverage = z.infer<typeof Coverage>;
+// Progress at a glance, written next to the full report: counts by status, image totals, and one row per
+// air-date band (measured from the Archive dump) for the platforms TMDB actually lists, plus one row for
+// everything Bangumi files under 其他, 动态漫画 and the like. Popularity is not considered, so the older
+// bands mostly describe obscure titles.
+export const CoverageBand = z.strictObject({
+  label: z.string(), subjects: z.number().int(), mapped: z.number().int(), episodeLevel: z.number().int(),
+  unresolved: z.number().int(), unanalyzed: z.number().int(), images: z.strictObject({ checked: z.number().int(), present: z.number().int() }),
+});
+export const CoverageSummary = z.strictObject({
+  schemaVersion: z.literal(1), generatedAt: z.iso.datetime(), archive: z.string().nullable(),
+  subjects: z.record(z.string(), z.number().int()),
+  images: z.strictObject({ checked: z.number().int(), present: z.number().int(), subjectsAll: z.number().int(), subjectsNone: z.number().int() }),
+  bands: z.array(CoverageBand),
+});
+export type CoverageSummary = z.infer<typeof CoverageSummary>;
+const BANDS: [string, number][] = [['近 10 年', 10], ['10–20 年', 20], ['20–30 年', 30], ['30 年以上', Infinity]];
+const MAIN_PLATFORMS = [1, 2, 3, 5];
+export function summaryOf(coverage: Coverage, reference: number): CoverageSummary {
+  const subjects: Record<string, number> = Object.fromEntries(Status.options.map(k => [k, 0]));
+  const band = (label: string) => ({ label, subjects: 0, mapped: 0, episodeLevel: 0, unresolved: 0, unanalyzed: 0, images: { checked: 0, present: 0 } });
+  const bands = new Map([...BANDS.map(([label]) => label), '无日期', '其他平台'].map(label => [label, band(label)]));
+  const bandOf = (s: CoverageSubject) => {
+    if (!MAIN_PLATFORMS.includes(Number(s.platform))) return '其他平台';
+    const at = Date.parse(s.date);
+    return Number.isFinite(at) ? BANDS.find(([, years]) => (reference - at) / (365.25 * 86400000) < years)![0] : '无日期';
+  };
+  let checked = 0, present = 0, subjectsAll = 0, subjectsNone = 0;
+  for (const s of coverage.subjects) {
+    subjects[s.status]!++;
+    checked += s.images.checked; present += s.images.present;
+    if (s.images.checked) { if (s.images.present === s.images.checked) subjectsAll++; else if (!s.images.present) subjectsNone++; }
+    const b = bands.get(bandOf(s))!;
+    b.subjects++;
+    if (s.status === 'unresolved') b.unresolved++; else if (s.status === 'unanalyzed') b.unanalyzed++; else b.mapped++;
+    if (s.status === 'complete' || s.status === 'partial' || s.status === 'movie') b.episodeLevel++;
+    b.images.checked += s.images.checked; b.images.present += s.images.present;
+  }
+  return { schemaVersion: 1, generatedAt: coverage.generatedAt, archive: coverage.archive, subjects, images: { checked, present, subjectsAll, subjectsNone }, bands: [...bands.values()] };
+}
 
 export interface ImageSource {
   // True, false, or null when TMDB could not be consulted (the episode then counts as unchecked).
@@ -98,6 +137,7 @@ export async function writeCoverage(root: string, now = Date.now()): Promise<Cov
   // One subject per line keeps the file compact and its daily diff readable.
   const { subjects, ...head } = coverage;
   await writeFile(join(root, 'sources/coverage.json'), `${JSON.stringify(head).slice(0, -1)},"subjects":[\n${subjects.map(s => JSON.stringify(s)).join(',\n')}\n]}\n`);
+  await writeJson(join(root, 'sources/coverage-summary.json'), summaryOf(coverage, dumpTime(catalog.snapshot) || now));
   console.log(summarize(coverage));
   return coverage;
 }

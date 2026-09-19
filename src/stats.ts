@@ -75,7 +75,7 @@ export function renderStats(s: Stats, scopeDays: number): string {
 | --- | --- | --- |
 | 已建立映射 | **${n(s.mapped)}** | 占 ${pct(s.mapped, s.archiveAnime)}。电影 ${n(s.movie)}，TV 指定到季 ${n(s.tvSeason)}，TV 仅确定作品 ${n(s.tvBare)} |
 | 已分析但未能确定 | ${n(s.unresolved)} | ${n(s.unresolvedDocumented)} 条经人工与模型复核仍无法确定，理由见 [待定清单](docs/unresolved-mappings-2026-09-10.md)；${n(s.unresolvedAutomation)} 条为定时任务判定证据不足，按退避策略重试 |
-| 尚未分析 | ${n(s.unanalyzed)} | ${n(s.unanalyzedInScope)} 条放送日在近 ${scopeDays} 天内或尚未放送，已在定时任务队列中；其余为 2020 年前（${n(s.unanalyzedBefore2020)}）、无放送日期（${n(s.unanalyzedNoDate)}）等早期或冷门条目，留待离线批处理 |
+| 尚未分析 | ${n(s.unanalyzed)} | ${n(s.unanalyzedInScope)} 条放送日在近 ${scopeDays} 天内或尚未放送，每轮定时任务都会处理；其余为 2020 年前（${n(s.unanalyzedBefore2020)}）、无放送日期（${n(s.unanalyzedNoDate)}）等早期或冷门条目，定时任务按每轮固定的积压配额从新到旧逐步处理 |
 
 已映射条目的来源：
 
