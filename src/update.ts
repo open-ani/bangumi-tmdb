@@ -119,6 +119,13 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   const report: { bangumiId: number; status: string; kind: string; reason: string }[] = [];
   const changes = new Map<number, Mapping>();
   const counts = { verified: 0, derived: 0, extended: 0, resolved: 0, adjudicated: 0, adjudicatedMatched: 0, codexSubjects: 0, researchMatched: 0, researchReused: 0, absent: [] as number[] };
+  // Token usage reported by codex for the sessions this run actually paid for (reused decisions cost nothing).
+  const usage: Record<string, Record<string, number>> = { adjudication: {}, research: {} };
+  const spent = (bucket: string, result: { reused: boolean; usage: Record<string, number> }) => {
+    if (result.reused) return;
+    for (const [k, v] of Object.entries(result.usage)) usage[bucket]![k] = (usage[bucket]![k] ?? 0) + v;
+  };
+  const tokens = (bucket: string) => { const u = usage[bucket]!; return `${((u.input_tokens ?? 0) / 1000).toFixed(0)}k in (${((u.cached_input_tokens ?? 0) / 1000).toFixed(0)}k cached), ${((u.output_tokens ?? 0) / 1000).toFixed(0)}k out`; };
   const print = (id: number) => subjectPrint(ctx, id);
   const record = (id: number, kind: string, status: Status, reason: string, days?: number) => {
     const previous = progress.subjects[String(id)];
@@ -248,6 +255,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         const result = await runAdjudication(subject.id, bundle(subject, ctx, rows, catalog.snapshot.name) as object, undecided.get(subject.id)!, {
           model: options.model, reasoning: options.reasoning, timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())), auditDir: join(cacheDir(root), 'adjudication') });
         if (result.reused) counts.researchReused++;
+        spent('adjudication', result);
         const decision = result.decision;
         if (decision.status !== 'matched' || !decision.proposal) continue;
         const proposal = toProposal(decision.proposal);
@@ -284,6 +292,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         tmdbBudget: options.tmdbBudget, webBudget: options.webBudget, token, cacheDir: join(cacheDir(root), 'tmdb'), auditDir: join(cacheDir(root), 'research') });
       const decision = result.decision;
       if (result.reused) counts.researchReused++;
+      spent('research', result);
       streak = 0;
       if (decision.status !== 'matched' || !decision.proposal) {
         record(subject.id, task.kind, 'pending', `${decision.reason}${decision.uncertainties.length ? `\n未确定：${decision.uncertainties.join('；')}` : ''}`);
@@ -327,8 +336,9 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   }
   progress.archive = catalog.snapshot;
   await writeJson(join(root, 'state/progress.json'), progress);
-  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, halted, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
+  const summary = { archive: catalog.snapshot, changed: changes.size, ...counts, halted, usage, queued: { unmapped: unmapped.length, research: research.length, remaining: tasks.length - cursor }, report };
   await writeJson(join(cacheDir(root), 'update-report.json'), summary);
   const pending = report.filter(r => r.status === 'pending').length, errors = report.filter(r => r.status === 'error').length;
+  console.log(`Tokens: adjudication ${tokens('adjudication')}; research ${tokens('research')}`);
   console.log(`Update: ${changes.size} mappings changed; ${counts.verified} verified, ${counts.derived} derived, ${counts.extended} extended; ${counts.resolved} resolved without a model; ${counts.adjudicatedMatched}/${counts.adjudicated} adjudicated; ${counts.codexSubjects} Codex subjects (${counts.researchMatched} matched, ${counts.researchReused} reused); ${pending} pending; ${errors} errors; ${tasks.length - cursor} tasks left`);
 }
