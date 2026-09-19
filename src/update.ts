@@ -4,7 +4,7 @@ import { AnidbReport, Mapping, Progress, Seeds, type AnidbCheck, type Catalog, t
 import { cacheDir, hash, mappings, readJson, stable, writeJson } from './io.js';
 import { Tmdb, verifyMapping } from './tmdb.js';
 import { loadCatalog } from './catalog.js';
-import { derive, extend } from './rules.js';
+import { derive, extend, listedEpisodes } from './rules.js';
 import { decide, gather, type Gathered } from './resolve.js';
 import { requireEvidence, runAdjudication, runResearch, toProposal } from './research.js';
 import { validateAll } from './expand.js';
@@ -125,6 +125,19 @@ export function queue(catalog: Catalog, rows: Map<number, Mapping>, progress: Pr
       || (analysed(a) ? olderFirst(progress)(a.id, b.id) : (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0) || a.id - b.id));
   return { recent, backlog: older.slice(0, options.backlogSubjects), eligible: older.length };
 }
+// Research priority, recency first. Bangumi lists works long before TMDB does, so a subject judged before
+// its premiere deserves a fresh look once it has aired; a retry of any other pending verdict waits behind
+// every other kind of work and only gets leftover budget. A process failure keeps its original priority.
+export function tier(task: Task, progress: Progress, now: number, scopeDays: number): number {
+  const previous = progress.subjects[String(task.subject.id)];
+  const premiere = Date.parse(task.subject.date);
+  const aired = Number.isFinite(premiere) && premiere <= now && Boolean(previous) && Date.parse(previous!.attemptedAt) < premiere;
+  const stale = previous?.status === 'pending' && !aired;
+  if (task.kind === 'broken') return 1;
+  if (task.kind === 'episodes') return inScope(task.subject, now, scopeDays) ? 2 : 4;
+  if (stale) return task.kind === 'backlog' ? 6 : 5;
+  return task.kind === 'backlog' ? 3 : 0;
+}
 
 export async function update(root: string, options: UpdateOptions): Promise<void> {
   const now = options.now ?? Date.now();
@@ -170,7 +183,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
   // A model that names the work but leaves the episodes open gets the deterministic rules at once.
   const withRules = async (row: Mapping, eps: Episode[]): Promise<Mapping> => {
     if (row.rules.length || row.overrides.length) return row;
-    const derived = await derive(row, eps, cached);
+    const derived = await derive(row, eps, cached, now);
     return derived ? Mapping.parse({ ...derived.mapping, provenance: { ...row.provenance, evidence: `${row.provenance.evidence}\n\n${derived.note}`.slice(0, 20000) } }) : row;
   };
   const apply = (row: Mapping, before: Mapping | undefined) => {
@@ -205,10 +218,13 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       let uncovered = 0;
       let retry: number | undefined;
       if (!before.rules.length && !before.overrides.length) {
-        const derived = await derive(before, eps, cached);
-        if (derived) { candidate = derived.mapping; note = derived.note; counts.derived++; }
-        // Identity stays verified; episode research waits for model budget and is retried sooner than a full audit.
-        // A subject without regular episodes has nothing to map yet; new episodes change its fingerprint and bring it back at once.
+        const derived = await derive(before, eps, cached, now);
+        if (derived) { candidate = derived.mapping; note = derived.note; counts.derived++; if (derived.uncovered) retry = 2; }
+        // A season still airing waits for TMDB to list its episodes, checked again in two days, rather than
+        // asking the model. Otherwise identity stays verified and episode research waits for model budget,
+        // retried sooner than a full audit. A subject without regular episodes has nothing to map yet; new
+        // episodes change its fingerprint and bring it back at once.
+        else if (eps.some(e => e.type === 0 && Date.parse(e.airdate) > now) && (await listedEpisodes(before, cached)) === 0) { note = 'TMDB 季表尚未列出本篇章节；放送中，两天后再核对。'; retry = 2; }
         else if (eps.some(e => e.type === 0)) { research.push({ subject, kind: 'episodes', before }); retry = 7; }
       } else {
         const extended = await extend(before, eps, cached, now);
@@ -296,15 +312,16 @@ export async function update(root: string, options: UpdateOptions): Promise<void
     }
   }));
   console.log(`Phase 1c done: ${counts.adjudicated}/${candidates.length} candidates adjudicated in one model turn each, ${counts.adjudicatedMatched} matched; ${elapsed()}`);
-  // Phase 2: model research, recency first. In-scope unmapped subjects, then broken rows and episode work on
-  // in-scope subjects, then the backlog allowance, and episode work on older rows with whatever budget is left.
+  // Phase 2: model research in priority tiers (see `tier`); within a tier, in-scope subjects keep their
+  // oldest-attempt-first order, the backlog its newest-first order and episode work its newest-first order.
   // Concurrency is bounded and every result is re-validated against live TMDB.
-  research.sort((a, b) => Number(b.kind === 'broken') - Number(a.kind === 'broken') || (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
-  const current = (t: Task) => t.kind === 'broken' || inScope(t.subject, now, options.scopeDays);
+  research.sort((a, b) => (Date.parse(b.subject.date) || 0) - (Date.parse(a.subject.date) || 0));
   const open = (list: Subject[]) => list.filter(s => !settled.has(s.id)).map((subject): Task => ({ subject, kind: kindOf(subject) }));
-  const tasks: Task[] = [...open(recent), ...research.filter(current), ...open(backlog), ...research.filter(t => !current(t))];
+  const rank = (t: Task) => tier(t, progress, now, options.scopeDays);
+  const tasks: Task[] = [...open(recent), ...open(backlog), ...research].sort((a, b) => rank(a) - rank(b));
   const kinds = tasks.reduce((m, t) => m.set(t.kind, (m.get(t.kind) ?? 0) + 1), new Map<Task['kind'], number>());
-  console.log(`Phase 2: ${tasks.length} tasks${kinds.size ? ` (${[...kinds].map(([k, n]) => `${n} ${k}`).join(', ')})` : ''}; budget ${options.maxSubjects} subjects, ${((deadline - Date.now()) / 60000).toFixed(0)}m`);
+  const deferred = tasks.filter(t => rank(t) >= 5).length;
+  console.log(`Phase 2: ${tasks.length} tasks${kinds.size ? ` (${[...kinds].map(([k, n]) => `${n} ${k}`).join(', ')})` : ''}, ${deferred} pending retries last; budget ${options.maxSubjects} subjects, ${((deadline - Date.now()) / 60000).toFixed(0)}m`);
   let cursor = 0;
   let abort: unknown = null;
   let done = 0;

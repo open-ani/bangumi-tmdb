@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { Catalog, Progress, type Mapping } from '../src/model.js';
 import { hash, stable } from '../src/io.js';
-import { queue, subjectPrint, type Context } from '../src/update.js';
+import { queue, subjectPrint, tier, type Context, type Task } from '../src/update.js';
 
 const now = Date.parse('2026-09-15T00:00:00Z');
 const subject = (id: number, date: string, platform: number | string = 1) => ({ id, type: 2, name: `S${id}`, name_cn: '', date, infobox: '', summary: '', platform });
@@ -25,6 +25,22 @@ test('the backlog allowance takes never-analysed older subjects newest first, th
   const capped = queue(catalog, rows, progress, ctx, { scopeDays: 180, backlogSubjects: 2 }, now);
   assert.deepEqual([ids(capped.backlog), capped.eligible], [[3, 2], 4]);
   assert.deepEqual(ids(queue(catalog, rows, progress, ctx, { scopeDays: 180, backlogSubjects: 0 }, now).backlog), []);
+});
+
+test('research tiers put pending retries last unless the work has aired since it was judged', () => {
+  const at = (id: number, kind: Task['kind'], date: string, before?: { status: string; attemptedAt: string }) => tier({ subject: subject(id, date), kind },
+    Progress.parse({ schemaVersion: 1, archive: null, subjects: before ? { [id]: { fingerprint: 'x', attemptedAt: before.attemptedAt, retryAt: '2026-09-14T00:00:00.000Z', status: before.status, reason: 'r', attempts: 1 } } : {} }),
+    now, 180);
+  assert.equal(at(1, 'new', '2026-07-01'), 0);
+  assert.equal(at(2, 'broken', '2010-01-01'), 1);
+  assert.equal(at(3, 'episodes', '2026-07-01'), 2);
+  assert.equal(at(4, 'backlog', '2010-01-01'), 3, 'a never-analysed backlog subject');
+  assert.equal(at(5, 'episodes', '2010-01-01'), 4);
+  assert.equal(at(6, 'retry', '2026-07-01', { status: 'pending', attemptedAt: '2026-08-01T00:00:00.000Z' }), 5, 'judged after airing: waits for leftover budget');
+  assert.equal(at(7, 'backlog', '2010-01-01', { status: 'pending', attemptedAt: '2026-08-01T00:00:00.000Z' }), 6);
+  assert.equal(at(8, 'retry', '2026-08-15', { status: 'pending', attemptedAt: '2026-06-01T00:00:00.000Z' }), 0, 'judged before its premiere and aired since: as good as new');
+  assert.equal(at(9, 'retry', '2026-10-15', { status: 'pending', attemptedAt: '2026-06-01T00:00:00.000Z' }), 5, 'still unaired');
+  assert.equal(at(10, 'retry', '2026-07-01', { status: 'error', attemptedAt: '2026-09-14T00:00:00.000Z' }), 0, 'a process failure keeps its priority');
 });
 
 test('an explicit platform list governs both the scope window and the backlog', () => {

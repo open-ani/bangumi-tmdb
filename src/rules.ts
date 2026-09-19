@@ -65,33 +65,11 @@ export function datesAgree(pairs: { bangumi: Episode; tmdb: TmdbEpisode }[]): Da
   // An offset of a whole episode interval is indistinguishable from an alignment that is off by one episode.
   return verdict(gaps && deltas.every(d => d < shortest) ? 'shifted' : null);
 }
-export interface Derived { mapping: Mapping; note: string }
-// Turn a subject-level mapping into episode rules without any judgement call: the declared TMDB scope
-// must contain exactly as many episodes as Bangumi's regular episodes, in order, with agreeing air dates.
-// Position alone is accepted only where it restates the target: a model-researched mapping that
-// declares one season or episode range and has no dates to compare. That is what a model does anyway
-// when it writes rules for an undated subject; here it is explicit and the evidence says so.
-export async function derive(mapping: Mapping, episodes: Episode[], tmdb: SeasonSource): Promise<Derived | null> {
-  if (mapping.locked || mapping.rules.length || mapping.overrides.length) return null;
-  const regular = episodes.filter(e => e.type === 0).sort((a, b) => a.sort - b.sort);
-  if (!regular.length) return null;
-  const only = mapping.targets.length === 1 ? mapping.targets[0]! : null;
-  if (only?.type === 'movie') {
-    if (regular.length !== 1) return null;
-    const row = Mapping.parse({ ...mapping, episodes: refs(episodes), overrides: [{ bangumiEpisodeId: regular[0]!.id, targets: [{ type: 'movie', id: only.id }] }] });
-    expand(row);
-    return { mapping: row, note: '脚本生成逐集规则：单一本篇章节对应整部电影。' };
-  }
-  if (mapping.targets.some(t => t.type === 'movie')) return null;
-  if (!regular.every(e => Number.isInteger(e.sort)) || regular.some((e, i) => i > 0 && e.sort !== regular[i - 1]!.sort + 1)) return null;
-  const segs = await segments(mapping.targets, tmdb);
-  if (!segs) return null;
-  const flat = segs.flatMap(s => s.episodes);
-  if (flat.length !== regular.length) return null;
-  const check = datesAgree(regular.map((bangumi, i) => ({ bangumi, tmdb: flat[i]! })));
-  // Multi-target scopes are where Bangumi and TMDB order specials differently, so they always need dates.
-  const declared = !check.ok && check.exact === check.compared && mapping.provenance.method === 'codex' && only !== null;
-  if (!check.ok && !declared) return null;
+// `uncovered` counts the regular episodes left for `extend` to append once TMDB lists them (an airing season).
+export interface Derived { mapping: Mapping; note: string; uncovered: number }
+const airing = (regular: Episode[], now: number): boolean => regular.some(e => Date.parse(e.airdate) > now);
+// One rule per run of consecutive TMDB episode numbers, walking the declared segments in order.
+function rulesFor(segs: Segment[], regular: Episode[]): Rule[] {
   const rules: Rule[] = [];
   let index = 0;
   for (const s of segs) {
@@ -104,14 +82,59 @@ export async function derive(mapping: Mapping, episodes: Episode[], tmdb: Season
     }
     index += s.episodes.length;
   }
-  const row = Mapping.parse({ ...mapping, episodes: refs(episodes), rules, overrides: [] });
+  return rules;
+}
+// How many episodes TMDB currently lists inside the declared scope; null when the scope is not concrete seasons.
+export async function listedEpisodes(mapping: Mapping, tmdb: SeasonSource): Promise<number | null> {
+  const segs = await segments(mapping.targets, tmdb);
+  return segs && segs.reduce((n, s) => n + s.episodes.length, 0);
+}
+// Turn a subject-level mapping into episode rules without any judgement call: the declared TMDB scope
+// must contain exactly as many episodes as Bangumi's regular episodes, in order, with agreeing air dates.
+// Position alone is accepted only where it restates the target: a model-researched mapping that
+// declares one season or episode range and has no dates to compare. That is what a model does anyway
+// when it writes rules for an undated subject; here it is explicit and the evidence says so.
+// While a season is airing, TMDB lists episodes as they air or get scheduled: a mapping that declares one
+// whole season gets rules for the listed prefix when every listed episode agrees with Bangumi to the day,
+// and `extend` appends the rest week by week. Any other short or long table is left to the model.
+export async function derive(mapping: Mapping, episodes: Episode[], tmdb: SeasonSource, now = Date.now()): Promise<Derived | null> {
+  if (mapping.locked || mapping.rules.length || mapping.overrides.length) return null;
+  const regular = episodes.filter(e => e.type === 0).sort((a, b) => a.sort - b.sort);
+  if (!regular.length) return null;
+  const only = mapping.targets.length === 1 ? mapping.targets[0]! : null;
+  if (only?.type === 'movie') {
+    if (regular.length !== 1) return null;
+    const row = Mapping.parse({ ...mapping, episodes: refs(episodes), overrides: [{ bangumiEpisodeId: regular[0]!.id, targets: [{ type: 'movie', id: only.id }] }] });
+    expand(row);
+    return { mapping: row, note: '脚本生成逐集规则：单一本篇章节对应整部电影。', uncovered: 0 };
+  }
+  if (mapping.targets.some(t => t.type === 'movie')) return null;
+  if (!regular.every(e => Number.isInteger(e.sort)) || regular.some((e, i) => i > 0 && e.sort !== regular[i - 1]!.sort + 1)) return null;
+  const segs = await segments(mapping.targets, tmdb);
+  if (!segs) return null;
+  const flat = segs.flatMap(s => s.episodes);
+  if (flat.length !== regular.length) {
+    if (only?.type !== 'tv' || only.episode !== undefined || !flat.length || flat.length > regular.length || !airing(regular, now)) return null;
+    const head = regular.slice(0, flat.length);
+    const check = datesAgree(head.map((bangumi, i) => ({ bangumi, tmdb: flat[i]! })));
+    if (check.agreement !== 'exact' || check.compared !== flat.length) return null;
+    const row = Mapping.parse({ ...mapping, episodes: refs(episodes), rules: rulesFor(segs, head), overrides: [] });
+    expand(row);
+    const uncovered = regular.length - flat.length;
+    return { mapping: row, uncovered, note: `脚本按放送日期核对生成逐集规则（放送中）：TMDB 季表目前 ${flat.length} 集，与前 ${flat.length} 个本篇章节的放送日期逐一在 ±${MAX_DATE_DRIFT_DAYS} 天内；其余 ${uncovered} 话待 TMDB 补齐后自动延长。` };
+  }
+  const check = datesAgree(regular.map((bangumi, i) => ({ bangumi, tmdb: flat[i]! })));
+  // Multi-target scopes are where Bangumi and TMDB order specials differently, so they always need dates.
+  const declared = !check.ok && check.exact === check.compared && mapping.provenance.method === 'codex' && only !== null;
+  if (!check.ok && !declared) return null;
+  const row = Mapping.parse({ ...mapping, episodes: refs(episodes), rules: rulesFor(segs, regular), overrides: [] });
   expand(row);
   const matched = `${regular.length} 个本篇章节与声明的 TMDB 范围逐一对应`;
   const note = check.agreement === 'exact' ? `脚本按放送日期核对生成逐集规则：${matched}，${check.compared} 对日期全部在 ±${MAX_DATE_DRIFT_DAYS} 天内。`
     : check.agreement === 'mostly' ? `脚本按放送日期核对生成逐集规则：${matched}，两边日期均按集序递增，${check.compared} 对日期中 ${check.exact} 对在 ±${MAX_DATE_DRIFT_DAYS} 天内，其余相差不超过 ${MAX_DATE_SLIP_DAYS} 天。`
     : check.agreement === 'shifted' ? `脚本按放送日期核对生成逐集规则：${matched}，两边日期均按集序递增且逐集间隔一致，${check.compared} 对日期整体相差不超过 ${check.shiftDays} 天，小于一集的放送间隔。`
     : `脚本按声明范围生成逐集规则：${matched}；模型研究已将本条目限定为单一 TMDB ${only?.type === 'tv' && only.episode !== undefined ? '集范围' : '整季'}，可比对的放送日期不足（${check.compared} 对），未做日期核验。`;
-  return { mapping: row, note };
+  return { mapping: row, note, uncovered: 0 };
 }
 export interface Extended { mapping: Mapping; added: number; uncovered: number; note: string }
 // Keep an episode-level mapping current: refresh the Bangumi episode list, and append newly aired
