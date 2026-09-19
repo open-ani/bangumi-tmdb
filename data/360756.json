@@ -1,0 +1,161 @@
+{
+  "bangumiId": 360756,
+  "episodes": [
+    {
+      "id": 1070017,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1070018,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1070019,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1070020,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1070021,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1070022,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1070023,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1070024,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1070025,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1070026,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1070027,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1070028,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1070029,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1070030,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1070031,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1070032,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1070033,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1070034,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1070035,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1070036,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1070037,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1070038,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1070039,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1070040,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1070041,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1070042,
+      "sort": 26,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 可确认对应 TMDB 19889 第2季整季：原版媒介、剧情、年份、英国播出范围及26集内容集合一致。Bangumi 章节标题和日期全部为空，无法确认其逐集排列，因此仅建立季级映射，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/19889 (api_snapshot): TMDB 19889 为2009年首播的《Timmy Time》，剧情是三岁小羊在幼儿园学习与动物伙伴相处；共3季78集，与输入的故事及前作年份吻合。\n\nhttps://www.themoviedb.org/tv/19889/season/2 (api_snapshot): 已读取第2季完整集表，total_pages=1，共26集，每集10分钟。26个标题均属于原版第二季，未混入特别篇；但部分日期与英国首播日期不一致，第7、8集顺序也与外部英国集表相反。\n\nhttps://aardman.com/film-tv-games/timmy-time/ (page): 制作方 Aardman 确认原版是2009年在 CBeebies 首播的78集、每集10分钟无对白定格动画；2019年另有每集5分钟并添加旁白的重剪版，另有特别篇及英语教学衍生系列。\n\nhttps://en.wikipedia.org/wiki/List_of_Timmy_Time_episodes (page): 第二季集表列出26集，英国播出范围为2010年5月17日至6月21日，与 Bangumi 输入一致。全部标题与 TMDB 第2季相符，但此表第7集为卡车、第8集为邮递员，TMDB 顺序相反。\n\n备注：TMDB 第2季起始日期为2010-08-30，与英国首播2010-05-17不一致；日期差异的来源尚未确认。；Bangumi 第7、8话无法确定采用哪一种顺序，其余章节也缺少标题或日期作为逐集依据；需补充 Bangumi 章节信息后建立 rules 或 overrides。；Bangumi 网页访问失败，subject 信息依据用户提供的归档输入。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/360756; https://www.themoviedb.org/tv/19889; https://www.themoviedb.org/tv/19889/season/2; https://aardman.com/film-tv-games/timmy-time/; https://en.wikipedia.org/wiki/List_of_Timmy_Time_episodes",
+    "verifiedAt": "2026-09-19T09:29:09.923Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 19889
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 19889,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "bangumiId": 526753,
+  "episodes": [
+    {
+      "id": 1431909,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1431910,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1431911,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1431912,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1431913,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1431914,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1431915,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1431916,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1431917,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1431918,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1431919,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1431920,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1431921,
+      "sort": 13,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 可确认该 subject 对应2011年重制版《Superbook》的 TMDB 第3季整季：版本别名、制作人员与公司、首集日期、13集规模及官方第三季内容均吻合。Bangumi 的13个章节均缺少标题和日期，无法独立核实其排序，因此只建立整季对应，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/44931 (api_snapshot): TMDB 44931 是2011年开始的 CBN 动画《Superbook》，中文别名为《超级妙妙书》；故事围绕 Chris、Joy 与机器人 Gizmo 穿越圣经时代展开。\n\nhttps://www.themoviedb.org/tv/44931/season/3 (api_snapshot): 已读取第3季完整集表，total_pages=1，共13集，季首日期为2015-01-13。第1集为 Ruth，第10集为 Lazarus，第13集为 The Good Samaritan。\n\nhttps://en.wikipedia.org/wiki/Superbook_(2011_TV_series) (page): 资料将2011年版明确称为 Superbook Reimagined，导演包括 Bryant Paul Richardson；制作公司包括参与第1至3季的 Daysview Digital Image 和第3至5季的 Toiion Animation Studios，与输入制作信息吻合，区别于1981年旧版。\n\nhttps://securegiving.cbn.com/animation?cpid=fb (search_snippet): CBN 官方第三季套装列出的13个故事与 TMDB 第3季的13集内容一致。\n\nhttps://services.superbook.cbn.com/videos (page): CBN 官方视频目录中，从 Ruth 到 The Good Samaritan 的13集标题、顺序及剧情均与 TMDB 第3季对应，包括照顾 Charlie、帮助姑婆整理庭院和拉撒路复活等情节。\n\n备注：Bangumi 章节只有 sort，不能据此推定与 TMDB 同号对应；需补充章节标题或放送日期后再建立 rules。；输入结束日期2017-02-13与 TMDB 不一致：TMDB 第10集日期为2017-03-17，第12集为2017-02-27，第13集为2015-02-13。季内容已确认，但日期差异尚未解决。；Bangumi subject 与章节网页访问失败，Bangumi 侧核对依据为用户提供的快照。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/526753; https://www.themoviedb.org/tv/44931; https://www.themoviedb.org/tv/44931/season/3; https://en.wikipedia.org/wiki/Superbook_(2011_TV_series); https://securegiving.cbn.com/animation?cpid=fb; https://services.superbook.cbn.com/videos",
+    "verifiedAt": "2026-09-19T09:29:09.923Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 44931
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 44931,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

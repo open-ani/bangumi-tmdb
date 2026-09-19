@@ -1,0 +1,61 @@
+{
+  "bangumiId": 527559,
+  "episodes": [
+    {
+      "id": 1434453,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1434454,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1434455,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1434456,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1434457,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1434458,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 年份、剧情、角色、网络动画版本及六集范围相互吻合，且TMDB明确将“激战篇”单列为第1季，可以确认整季对应。逐集缺少可区分的标题、剧情及可靠播出日期，暂不按集号位置生成规则。\n\nhttps://bgm.tv/subject/527559 (page): Bangumi 将本作标为2013年的WEB动画，共6话，剧情涉及天剑、枪炮、闪影与黑洞帝国；另将《机甲旋风之星际海盗》列为续集。\n\nhttps://www.iqiyi.com/a_19rrg4dpm9.html (page): 爱奇艺以《机甲旋风》为名收录2013年动画，简介明确称其为“激战篇”，角色与剧情一致，选集完整列出第1至6集。\n\nhttps://www.themoviedb.org/tv/285351 (api_snapshot): TMDB 285351的简介与本作一致；详情明确分为2013年、6集的第1季“激战篇”和2014年、5集的第2季“星际海盗篇”。制作公司及演职员字段为空。\n\nhttps://www.themoviedb.org/tv/285351/season/1 (api_snapshot): 第1季真实集表仅有第1至6集，共1页，全部属于“激战篇”；标题均为通用集号，日期均填2013-01-01，时长8至9分钟。\n\nhttps://news.7k7k.com/webgame/zx/596985.html (search_snippet): 2013年8月2日的同期报道指出动画从7月5日游戏公测起陆续推出，当时更新至激战篇第6集，剧情为链刃登场帮助天剑。因此不能将TMDB统一填写的1月1日视为已核实的逐集播出日期。\n\n备注：Bangumi六个章节均无标题和日期；TMDB只有通用集号及统一日期，尚不能独立核实逐集顺序，故逐集映射留空。；现有来源缺少制作人员资料，无法完成演职员交叉核对。；如需补齐逐集映射，应比对正版视频的片头集号、剧情或可靠的逐集上线记录。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/527559; https://www.iqiyi.com/a_19rrg4dpm9.html; https://www.themoviedb.org/tv/285351; https://www.themoviedb.org/tv/285351/season/1; https://news.7k7k.com/webgame/zx/596985.html",
+    "verifiedAt": "2026-09-19T09:29:09.923Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 285351
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 285351,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

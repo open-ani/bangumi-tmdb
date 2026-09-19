@@ -1,0 +1,33 @@
+{
+  "bangumiId": 301322,
+  "episodes": [
+    {
+      "id": 934966,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 934967,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 已确认对应TMDB 60572第0季第40集：标题、日期和两部节目构成均与官方资料一致。TMDB将整场特番合为一集，Bangumi则列为两话；现有Schema不能表达两话合并占用同一TMDB集，因此确认作品范围，但逐集映射留空。\n\nhttps://www.tv-tokyo.co.jp/anime/pokemon_xy/sp/news/index_2.html (page): 官方公告确认特番于2014年12月31日分两部播出：第一部6:00—8:00重播传说宝可梦登场回，第二部8:00—8:55回顾XY战斗并预告后续剧情。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201412/19735_201412310600.html (page): 官方节目表确认整体播出时间为6:00—8:55，内容包含旧集精选与XY总集篇，旁白为松本梨香饰演的小智及牧口真幸饰演的莎莉娜。\n\nhttps://www.themoviedb.org/tv/60572 (api_snapshot): 已读取TMDB作品详情：60572为小智与皮卡丘主演的1997年起宝可梦动画，制作公司包含OLM、东京电视台；第0季收录特番及回顾节目。\n\nhttps://www.themoviedb.org/tv/60572/season/0 (api_snapshot): 已读取第0季真实集表，共56集、1页。第40集日文标题与本特番一致，日期为2014-12-31，标注180分钟，简介明确同时包含第一部旧集精选与第二部XY回顾。\n\n备注：Bangumi章节934966、934967没有标题及独立日期；不将其中任意一话单独认定为整场特番，也不重复映射至第0季第40集。；TMDB时长标注180分钟，官方实际播出时段为175分钟；两部内容明确一致，此差异不影响作品识别。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/301322; https://www.tv-tokyo.co.jp/anime/pokemon_xy/sp/news/index_2.html; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/201412/19735_201412310600.html; https://www.themoviedb.org/tv/60572; https://www.themoviedb.org/tv/60572/season/0",
+    "verifiedAt": "2026-09-19T09:29:09.923Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 40,
+      "id": 60572,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

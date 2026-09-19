@@ -1,0 +1,104 @@
+{
+  "bangumiId": 607602,
+  "episodes": [
+    {
+      "id": 1592445,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1592446,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1592447,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1592448,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1592449,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1592450,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1592451,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1592452,
+      "sort": 8,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1592445,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 103396,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1592448,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 103396,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 匹配 TMDB 103396 第 1 季第 1—8 集。官方年份、内容形式、配音演员及逐集角色标题共同确认作品身份。Bangumi 的 8 集及播出起止日期对应原播第一季；按原播集表比对，铁拳和鹰眼在 TMDB 中分别为第 4、1 集，使用 overrides 调整，其余按已核实顺序映射。\n\nhttps://bgm.tv/subject/607602 (page): Bangumi 标为电视动画第一季，共 8 集，播出范围为 2012-04-01 至 2012-05-20；内容为 Nick Fury 介绍漫威角色档案，章节标题及逐集日期为空。\n\nhttps://www.themoviedb.org/tv/103396 (api_snapshot): 作品详情确认 TMDB 103396 为 Marvel Entertainment 制作、Chi McBride 配音 Nick Fury 的动画与动态漫画档案短片，内容与目标一致；但首播日期记为 2017-10-18。\n\nhttps://www.themoviedb.org/tv/103396/season/1 (api_snapshot): 第 1 季集表共 21 集，total_pages=1。前 8 集依次为鹰眼、神力侠、新星、铁拳、白虎、黑豹、斯克鲁人、章鱼博士，日期均记为 2017-10-18；第 9 集起包含后续季度内容，不能匹配整季。\n\nhttps://www.disneyplus.com/browse/entity-a3673130-ea2a-41ac-8af4-7a6c597f3f0a (page): Disney+ 官方确认该动画发行于 2012 年、主演为 Chi McBride，采用动画和动态漫画介绍角色档案；其前 8 集标题与 TMDB 前 8 集逐一一致，支持作品身份及该范围。\n\nhttps://www.tvmaze.com/characters/731538/fury-files-nick-fury (page): TVmaze 列出的原播第一季为：1 铁拳（4月1日）、2 神力侠（4月8日）、3 新星（4月15日）、4 鹰眼（4月22日）、5 白虎（4月29日）、6 黑豹（5月6日）、7 斯克鲁人（5月13日）、8 章鱼博士（5月20日），均为 2012 年；集数及首尾日期符合 Bangumi。与 TMDB 比对后，第 1、4 集需互换，其余一致。\n\n备注：Bangumi 章节没有标题及日期，逐集身份依据其季度、总集数和首尾日期锁定原播集表后重建，无法从 Bangumi 章节自身直接复核。；TMDB 的 2017 年日期与 Disney+ 官方的 2012 年发行年份不一致，具体日期来源未确认；匹配依据还包括官方资料、演员、内容及完整的 8 集标题集合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/607602; https://www.themoviedb.org/tv/103396; https://www.themoviedb.org/tv/103396/season/1; https://www.disneyplus.com/browse/entity-a3673130-ea2a-41ac-8af4-7a6c597f3f0a; https://www.tvmaze.com/characters/731538/fury-files-nick-fury",
+    "verifiedAt": "2026-09-19T09:29:09.923Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 103396
+    },
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 5,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 103396
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 8,
+      "id": 103396,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
