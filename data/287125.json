@@ -1,0 +1,101 @@
+{
+  "bangumiId": 287125,
+  "episodes": [
+    {
+      "id": 897592,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 897593,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 897594,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 897595,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 897596,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 897597,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 897598,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 897599,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 897600,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 897601,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 897602,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 897603,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 897604,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 897605,
+      "sort": 14,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 开播日期、14集规模及前后季度的日期共同支持对应 TMDB 888 第2季整季。Bangumi 章节均缺少标题和日期，无法核实逐集顺序，因此只确认季级范围，不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/888 (api_snapshot): TMDB 888 为美国动画《Spider-Man》，首播于1994-11-19，制作公司包括 Marvel Films、Tokyo Movie Shinsha；第2季共14集，首播于1995-09-09，与 subject 的媒介、开播日期和集数一致。第1、3季首播日期也分别与 Bangumi 前后续作的日期一致。\n\n备注：需补充 Bangumi 各集标题或放送日期，才能与候选季表逐集比对；不能仅凭相同集数和排序生成对应关系。；候选未提供剧情简介，Bangumi 未提供制作方，无法对这两项作双向核验。\n\n脚本按声明范围生成逐集规则：14 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/287125; https://www.themoviedb.org/tv/888",
+    "verifiedAt": "2026-09-20T00:16:05.322Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 888
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 888,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}
