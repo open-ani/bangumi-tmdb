@@ -1,0 +1,41 @@
+{
+  "bangumiId": 79927,
+  "episodes": [
+    {
+      "id": 304764,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 304765,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 名称、起始日期、两话总量及发行时间范围支持对应 TV 87934 第 1 季，季表未显示混入其他作品。Bangumi 两章均缺少标题和日期，无法独立核实逐集顺序，因此仅确认作品及季范围，不按位置生成逐集映射。\n\nhttps://www.themoviedb.org/tv/87934 (api_snapshot): 该候选日文名称与 subject 一致，首播日期同为 1994-07-21；仅有第 1 季，共 2 集，与 Bangumi 的两话 OVA 规模一致。第 2 集日期为 1995-03-25，与 Bangumi 标注的结束日期 1995-03-21 相差 4 天。\n\nhttps://www.themoviedb.org/movie/603458 (api_snapshot): 电影候选《熱砂の惑星》的发行日期同为 1994-07-21，但未提供剧情、时长或两话覆盖信息，无法确认其代表完整 OVA 还是其中一话。\n\n备注：Bangumi 结束日期与 TMDB 第 2 集日期相差 4 天，需发行资料核实。；逐集映射需补充 Bangumi 章节标题、发行日期或可靠的分话目录。；候选未提供剧情或媒介说明，Bangumi 也未提供制作公司，无法交叉核验这些字段；电影候选与两话 OVA 的关系仍待确认。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/79927; https://www.themoviedb.org/tv/87934; https://www.themoviedb.org/movie/603458",
+    "verifiedAt": "2026-09-21T00:24:47.944Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 87934
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 87934,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

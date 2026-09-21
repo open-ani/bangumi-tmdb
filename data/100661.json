@@ -1,0 +1,46 @@
+{
+  "bangumiId": 100661,
+  "episodes": [
+    {
+      "id": 387567,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 387568,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 387569,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 原作、制作方、三话 OVA 版本及具体剧情相符，确认对应 TMDB 89433 第1季整季。Bangumi 章节缺少标题和日期，且 TMDB 集日期与原始发行范围冲突，暂不生成仅按集号排列的逐集规则。\n\nhttps://www.themoviedb.org/tv/89433 (api_snapshot): TMDB 89433 的原名为《ドラゴンピンク》，英文简介明确指向 Pink Pineapple 于1994年推出、改编自 ITOYOKO 漫画的三话 OVA；全条目仅一季三集。\n\nhttps://www.themoviedb.org/tv/89433/season/1 (api_snapshot): 已读取第1季完整集表，共3集、1页。第1集包含 Santa、Pink、妖术师 Viken 与 Triton 之剑的情节，与输入简介吻合。三集标题仅为通用集号，日期分别为1995-07-14、1995-07-21、1995-07-28。\n\nhttps://www.anime-int.com/works (search_snippet): 动画制作公司 AIC 的官方作品表收录《ドラゴンピンク》，列为1994年作品、全3话，版权署名为 ITOYOKO／ピンクパイナップル，支持制作方、年份和集数身份。\n\nhttps://ru.wikipedia.org/wiki/Dragon_Pink (search_snippet): 资料列出该作由 Pink Pineapple、AIC 制作，为1994-08-05至1995-07-21发行的三话 OVA，与输入的发行范围一致。\n\n备注：TMDB 日期字段与1994—1995年的原始 OVA 发行资料不一致，尚未确认其日期依据。；三条 Bangumi 章节均无标题及发行日期，需补充逐话发行资料并核对 TMDB 各集内容后，才能可靠建立逐集映射。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/100661; https://www.themoviedb.org/tv/89433; https://www.themoviedb.org/tv/89433/season/1; https://www.anime-int.com/works; https://ru.wikipedia.org/wiki/Dragon_Pink",
+    "verifiedAt": "2026-09-21T00:24:47.944Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 89433
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 89433,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

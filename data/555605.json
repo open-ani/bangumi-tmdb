@@ -1,15 +1,85 @@
 {
   "bangumiId": 555605,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1749265,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1749266,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1749267,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1749268,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1749269,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1749270,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1749271,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1749272,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1749273,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1749274,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1749275,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1749276,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 开播日期、续作剧情、导演、制作公司及官方24话规模相符，可确认对应 TMDB 126437 第2季整季。官方前半12话属于全24话第二季，TMDB季表覆盖完整第二季。Bangumi尚无章节，故仅建立季级映射，不生成逐集规则。\n\nhttps://bgm.tv/subject/555605 (page): Bangumi 条目为2026年10月4日开播的TV第二季，导演横山和基、动画制作TMS，剧情为青井苇人升入A队；章节列表为空。\n\nhttps://aoashi-pr.com/news/572/ (page): 官方明确第二季共24话，前半12话从2026年10月4日起每周日播出，故事承接苇人晋升A队。\n\nhttps://www.themoviedb.org/tv/126437 (api_snapshot): TMDB 126437为《アオアシ》TV系列，导演包含横山和基、制作公司包含TMS；第一季为2022年，第二季为2026年10月4日开始、共24集。\n\nhttps://www.themoviedb.org/tv/126437/season/2 (api_snapshot): 已读取第二季完整集表，共1页、24集。第1至12集日期为2026年10月4日至12月20日，每周日一集；第13至24集日期为空，全部标题均为编号占位。\n\n备注：Bangumi章节尚未建立，无法核对章节编号、标题及逐集日期。；TMDB集标题仍为占位，第13至24集尚无日期；待正式集表与后半排期公布后补充逐集映射。",
+    "evidence": "codex: 首播日期、续作剧情、导演、制作公司及官方24话规划共同确认对应 TMDB 126437 第2季整季。Bangumi 总话数未定，现有12条章节对应官方前半排期，不构成将 subject 限定为前半的依据。前12话的集数及逐集日期完全一致，可建立连续规则；后半暂不生成规则。\n\nhttps://bgm.tv/subject/555605 (page): Bangumi 条目为 TV《青之芦苇 第二季》，2026年10月4日开播，总话数标为未定；导演横山和基、动画制作 TMS，剧情承接苇人晋升 A 队，未标为仅前半季度。\n\nhttps://aoashi-pr.com/news/572/ (page): 官方明确第二季全24话，第一季度为其中前12话，2026年10月4日起每周日播出；因此当前12条章节不足以认定该 subject 仅覆盖前半。\n\nhttps://aoashi-pr.com/ (page): 官方第二季剧情为苇人进入 A 队并挑战超级联赛，导演横山和基、动画制作 TMS，与 Bangumi 的版本及制作信息一致。\n\nhttps://www.themoviedb.org/tv/126437 (api_snapshot): TMDB 126437 为《アオアシ》TV 系列，第一季始于2022年；第二季始于2026年10月4日、共24集，制作信息包含横山和基及 TMS。\n\nhttps://www.themoviedb.org/tv/126437/season/2 (api_snapshot): 已读取第二季全部24集，total_pages=1。第1至12集日期依次为2026-10-04、10-11、10-18、10-25、11-01、11-08、11-15、11-22、11-29、12-06、12-13、12-20，与输入的12条 Bangumi 章节逐项一致；第13至24集日期为空，全部集标题为编号占位。\n\n备注：作品尚未开播，前12话按已公布排期对应；Bangumi 无集标题，TMDB 仅有编号占位标题，后续如调整排期需复核。；第13至24话尚无 TMDB 放送日期及输入中的 Bangumi 章节，待补齐后核对逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/555605; https://aoashi-pr.com/news/572/; https://www.themoviedb.org/tv/126437; https://www.themoviedb.org/tv/126437/season/2",
-    "verifiedAt": "2026-09-17T00:37:35.487Z"
+    "source": "https://bgm.tv/subject/555605; https://aoashi-pr.com/news/572/; https://aoashi-pr.com/; https://www.themoviedb.org/tv/126437; https://www.themoviedb.org/tv/126437/season/2",
+    "verifiedAt": "2026-09-21T00:24:47.944Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 126437
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
