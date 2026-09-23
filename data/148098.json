@@ -1,20 +1,105 @@
 {
   "anidbId": 11664,
   "bangumiId": 148098,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 592450,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 616536,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 681641,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 682757,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 779827,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 592450,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 62273,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 616536,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 62273,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 681641,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 62273,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 682757,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 62273,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 779827,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 62273,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认5话OAD对应 TMDB 62273 第0季第2至6集。逐集标题、剧情、制作方及发行资料相符；首话的日期差异有先行上映与DVD发行记录支持。第0季第1集为另一个回顾特番，因此仅映射已核实的第2至6集。\n\nhttps://www.themoviedb.org/tv/62273 (api_snapshot): 以日文原名搜索并读取详情，确认 TMDB 62273 为 J.C.STAFF 制作的《食戟之灵》动画系列，剧情、角色及配音阵容一致。\n\nhttps://www.themoviedb.org/tv/62273/season/0 (api_snapshot): 第0季共6集，已读取全部集表。第2至6集标题依次与本 subject 的5话完全一致；第3至6集日期分别为2016-07-04、2017-05-02、2017-07-04、2018-05-02，均与 Bangumi 一致。第1集是2015年的回顾及声优特番，不属于本 subject。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=25762 (page): 授权配信页确认前两话为2016年OVA，由米谷良知执导、J.C.STAFF 制作；塔克米兄弟下町文字烧对决及绘里奈暑假生活的剧情与 TMDB 第0季第2、3集一致。\n\nhttps://www.fernsehserien.de/food-wars/episodenguide/0/38718 (page): OVA集表列出全部5话及日本家庭影音发行日期，与输入的标题、顺序和五个发行日期逐一一致。\n\nhttps://kg-portal.ru/anime/shokugekinosoumaspecial/ (search_snippet): 《タクミの下町合戦》资料同时列出2015-11-03的 Jump Festa 特别上映及2016-05-02随漫画第18卷发行，支持 TMDB 首话日期与 Bangumi 日期差异来自上映、发行口径。\n\nhttps://sp.shonenjump.com/j/notice/2018/02/19/29dvddvd.html (page): 少年Jump官方公告确认漫画第29卷DVD同捆版于2018年5月2日发售，收录新作OVA《極星寮のえりな》，内容为绘里奈在极星寮的新生活，与 TMDB 第0季第6集一致。\n\n备注：首话2015-11-03先行上映日期的解释来自第三方资料；本次未取得该场上映的官方原始公告，但标题、剧情及2016-05-02发行记录均支持同一话的对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148098; https://www.themoviedb.org/tv/62273; https://www.themoviedb.org/tv/62273/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=25762; https://www.fernsehserien.de/food-wars/episodenguide/0/38718; https://kg-portal.ru/anime/shokugekinosoumaspecial/; https://sp.shonenjump.com/j/notice/2018/02/19/29dvddvd.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 2,
+      "episodeEnd": 6,
       "id": 62273,
+      "season": 0,
       "type": "tv"
     }
   ]

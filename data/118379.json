@@ -1,19 +1,60 @@
 {
   "bangumiId": 118379,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 448750,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 448751,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 448752,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 448753,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 448754,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 448755,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、发布日、剧情、配音、制作人员及六集网络动画版本相互吻合，确认对应 TMDB 324608 第一季整季。Bangumi 章节缺少标题与日期，暂不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/324608 (api_snapshot): TMDB 324608 为2014年10月27日首播的六集网络动画；Judge Death 起源及 Dredd 营救侄女的剧情、三位主要配音演员均与输入一致。制作方为 Bootleg Universe，导演为 Enol Junquera、Luis Junquera。\n\nhttps://www.themoviedb.org/tv/324608/season/1 (api_snapshot): 第一季集表共六集，仅一页，全部日期为2014年10月27日；集号1至6依次为 Judge Sydney、The Angel Gang、Judge Death、Rico & Vienna、In Death We Trust、Dredd vs. Death，覆盖完整六集作品。\n\nhttps://www.slashfilm.com/534282/watch-judge-dredd-superfiend/ (page): 2014年10月27日报道确认六集网络动画已完整发布，制作人为 Adi Shankar，编导为 Junquera 兄弟；剧情及配音阵容与 TMDB 一致。\n\nhttps://www.omelete.com.br/juiz-dredd/judge-dredd-superfiend-assista-aos-seis-episodios-da-mini-webserie (page): 报道按第1至6集列出的全部标题与 TMDB 第一季逐项一致，确认是六集连载版本。\n\nhttps://www.themoviedb.org/tv/68924 (api_snapshot): 旧映射 TV 68924 的详情请求返回 HTTP 404，当前无法继续使用该 ID。\n\n备注：输入的六个 Bangumi 章节标题和日期均为空，且在线章节页访问失败；需补充章节资料后才能独立核实逐集对应。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/118379; https://www.themoviedb.org/tv/324608; https://www.themoviedb.org/tv/324608/season/1; https://www.slashfilm.com/534282/watch-judge-dredd-superfiend/; https://www.omelete.com.br/juiz-dredd/judge-dredd-superfiend-assista-aos-seis-episodios-da-mini-webserie; https://www.themoviedb.org/tv/68924",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 324608
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 68924,
+      "id": 324608,
+      "season": 1,
       "type": "tv"
     }
   ]

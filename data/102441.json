@@ -1,0 +1,41 @@
+{
+  "bangumiId": 102441,
+  "episodes": [
+    {
+      "id": 394935,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 394936,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "codex: 动画分类、制作公司、开始日期及两话规模共同支持对应 TV 322120 第 1 季，季表没有混入其他作品的迹象。Bangumi 两个章节均缺少标题和放送日期，无法完成逐集交叉核验，因此确认作品及季范围，暂不生成逐集规则。\n\nhttps://www.themoviedb.org/tv/322120 (api_snapshot): TV 322120 为日本动画《仁義》，制作公司为 J.C.STAFF，首播日期为 1991-12-04；第 1 季共 2 集，与 Bangumi 的制作公司、开始日期及 OVA 总话数一致。季表两集日期分别为 1991-12-04、1992-04-04。\n\nhttps://www.themoviedb.org/movie/523956 (api_snapshot): 同名电影候选 523956 的上映日期为 1991-12-21，快照未提供媒介、制作公司、剧情或覆盖话数，无法据此确认其对应这部两话 OVA。\n\n备注：Bangumi 标注结束日期为 1992-04-08，候选第 2 集日期为 1992-04-04，相差四天，需进一步核实发行资料。；需补充 Bangumi 各话标题或发行日期，才能确认逐集对应关系。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/102441; https://www.themoviedb.org/tv/322120; https://www.themoviedb.org/movie/523956",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 322120
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 322120,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

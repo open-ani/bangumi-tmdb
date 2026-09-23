@@ -1,16 +1,71 @@
 {
   "anidbId": 517,
   "bangumiId": 496,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 360,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 361,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 362,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 363,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 364,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 365,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 366,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 367,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 368,
+      "sort": 9,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 55931 是2003年《The Animatrix》动画合辑电影，时长102分钟，明确由9段短篇组成；TMDB 252317则是同名2003年电视条目，其第1季列出与Bangumi主体相同的9个短篇，顺序和内容均对应“绝命飞行”“再度复兴”两篇、“少年故事”“虚拟程序”“世界纪录”“超越极限”“侦探故事”“变节”。现有证据显示这是同一2003年作品的电影整合版与分段条目，不是后来的真人版或另行重剪版本，因此两份定位方向均成立。该季9集全部属于本subject，不含需排除的其他Bangumi主体内容，故季范围留空。\n\nhttps://www.themoviedb.org/movie/55931-the-animatrix?language=zh (search_snippet): TMDB页面显示《The Animatrix》(2003)，动画/科幻，时长1小时42分钟，简介明确为由9段短片组成。\n\nhttps://www.themoviedb.org/tv/252317-the-animatrix/images/posters (page): TMDB页面标题为“The Animatrix (TV Series 2003-2003)”，确认电视条目ID为252317及年份。\n\nhttps://www.episodium.it/serie/4529/the-animatrix (search_snippet): 页面注明剧集数据来自TMDB，并列出第1季9集：Final Flight of the Osiris、The Second Renaissance Part I/II、Kid's Story、Program、World Record、Beyond、A Detective Story、Matriculated。\n\nhttps://www.studio4c.co.jp/works/en/pages/13.html (search_snippet): Studio4°C官方作品页将其标为MOVIE 2003，并说明作品由9个omnibus episodes组成，列出全部九个短篇及制作人员。",
+    "evidence": "codex: 确认本subject是2003年九部短片组成的完整《黑客帝国动画版》。电影55931覆盖整部作品；TV 313038第1季将相同内容分为九集，标题、剧情、总量及顺序逐项吻合，可建立1—9连续规则。旧TV 252317当前返回404，应替换为已实际核验的313038。\n\nhttps://bgm.tv/subject/496 (page): Bangumi 将本作列为2003年6月3日发售的9话OVA；剧情为《黑客帝国》世界观下的九部动画短片，制作人员包括前田真宏、渡边信一郎、森本晃司、川尻善昭等。\n\nhttps://www.studio4c.co.jp/works/en/pages/13.html (page): STUDIO4℃官方将本作标为2003年电影，明确由九篇组成，并列出各短片导演及STUDIO4℃、MADHOUSE、Square USA、DNA等制作方，与Bangumi及TMDB电影资料一致。\n\nhttps://www.awn.com/news/animatrix-dvd-release-date (search_snippet): 2003年的发行报道转述华纳公告：包含九部短片的DVD于2003年6月3日发行，部分短片此前已通过网络或影院发布，因此分集首发日期可以早于DVD发售日。\n\nhttps://www.themoviedb.org/movie/55931 (api_snapshot): 电影55931为2003年《The Animatrix》，时长102分钟；简介、分段角色、七位导演及制作公司共同确认它覆盖本subject的九部短片。\n\nhttps://www.themoviedb.org/tv/252317 (api_snapshot): 旧TV ID 252317的details调用返回HTTP 404，不能继续沿用旧映射。\n\nhttps://www.themoviedb.org/tv/313038 (api_snapshot): 搜索找到TV 313038；details确认它为2003年同一短片集的分集条目，共1季9集，剧情及主要制作公司与本作相符。\n\nhttps://www.themoviedb.org/tv/313038/season/1 (api_snapshot): 第1季实际集表共9集、仅1页。第1至9集依次为绝命飞行、再度复兴上、再度复兴下、少年故事、程式、世界纪录、异度空间、侦探故事、变节；英文标题逐项对应Bangumi sort 1至9，剧情一致，无其他作品混入。\n\n备注：Bangumi各章节未填写日期；TMDB分集日期混用提前发布与DVD发行日期，且《程式》等日期与同期发行报道存在差异。逐集对应依据完整标题、剧情及九集总量交叉确认，不将这些日期视为已全部核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/496; https://www.themoviedb.org/movie/55931-the-animatrix?language=zh; https://www.themoviedb.org/tv/252317-the-animatrix/images/posters; https://www.episodium.it/serie/4529/the-animatrix; https://www.studio4c.co.jp/works/en/pages/13.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/496; https://www.studio4c.co.jp/works/en/pages/13.html; https://www.awn.com/news/animatrix-dvd-release-date; https://www.themoviedb.org/movie/55931; https://www.themoviedb.org/tv/252317; https://www.themoviedb.org/tv/313038; https://www.themoviedb.org/tv/313038/season/1",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 313038
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -18,7 +73,7 @@
       "type": "movie"
     },
     {
-      "id": 252317,
+      "id": 313038,
       "season": 1,
       "type": "tv"
     }

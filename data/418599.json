@@ -671,6 +671,11 @@
       "id": 1743477,
       "sort": 133,
       "type": 0
+    },
+    {
+      "id": 1748648,
+      "sort": 134,
+      "type": 0
     }
   ],
   "locked": false,
@@ -688,15 +693,15 @@
     }
   ],
   "provenance": {
-    "evidence": "codex: 确认是2023年开始的同一部动画，首播日期、剧情、原作与制作阵容一致。TMDB将多个播出季度连续编入第1季；完整逐集核对支持本篇1—133等号对应S1E1—133，SP51.5对应S0E1。第1季另有134—136集，因此采用明确区间而非整季。\n\nhttps://www.themoviedb.org/tv/226688 (api_snapshot): 以日文别名「ベイブレードエックス」搜索命中 226688；详情确认首播日为2023-10-06，剧情为风见バード与黒須エクス组队挑战X塔，原作者、总导演秋山勝仁及OLM等制作信息与输入一致。\n\nhttps://beyblade.takaratomy.co.jp/anime/staffcast/ (page): 官方制作人员页确认原作河本ほむら、武野光、出水ぽすか，导演寺田素都、人物设计長森佳容及动画制作OLM；主要角色与配音也与TMDB一致。\n\nhttps://bgm.tv/subject/418599/ep (page): Bangumi完整章节页列出本篇1—133及SP51.5，补齐输入省略的61—73话标题与日期，可用于完整逐集比对。\n\nhttps://www.themoviedb.org/tv/226688/season/1 (api_snapshot): 已读取第1季全部3页，共136集。第1—133集与Bangumi逐集日期一致，标题除读音标注、空格、全半角及第5话漏字外对应一致。第134—136集超出本次Bangumi章节范围，不纳入映射。\n\nhttps://www.themoviedb.org/tv/226688/season/0 (api_snapshot): 第0季共1集，标题为「新章スタート記念！新装開店ベイブレ寿司でゴーシュート！」，日期2024-10-11，与Bangumi章节1411682对应。\n\nhttps://beyblade.takaratomy.co.jp/anime/ (page): 官网确认「真・未来編」于2026-04-17首次连续配信两话，支持第123、124话同日首播；后续媒介变化属于本作延续。\n\n备注：本次范围止于所给快照的第133话；后续新增章节需另行核对。",
+    "evidence": "codex: 确认对应2023年开播的同一部动画。TMDB将各播出篇章连续编入第1季，未混入旧版或其他作品；本作仍在更新，采用整季目标。已逐集核实本篇1—134等号对应S1E1—134，SP51.5对应S0E1，旧规则可延长至第134话。\n\nhttps://www.themoviedb.org/tv/226688 (api_snapshot): 以原名及日文别名搜索均命中226688；详情确认首播为2023-10-06，剧情为风见バード与黒須エクス组队挑战X塔，原作者、总导演秋山勝仁及OLM等制作信息与输入一致。\n\nhttps://beyblade.takaratomy.co.jp/anime/staffcast/ (page): 官方制作人员页确认原作河本ほむら、武野光、出水ぽすか，导演阵容包含寺田素都，人物设计長森佳容，动画制作OLM；主要角色及配音与TMDB一致。\n\nhttps://bgm.tv/subject/418599/ep (page): 章节页补齐输入省略的第61—74话标题和日期，并列出本篇1—133及SP51.5；本次访问的页面尚未显示输入快照新增的第134话。\n\nhttps://www.themoviedb.org/tv/226688/season/1 (api_snapshot): 已读取第1季全部3页，共136集。本篇1—134逐集日期与输入及补齐的Bangumi章节一致，标题仅存在读音标注、空格、全半角和第5话漏字等差异；第134集日期为2026-09-18。第135、136集仍为通用占位标题。\n\nhttps://www.themoviedb.org/tv/226688/season/0 (api_snapshot): 第0季仅1集，为新章开播纪念特别节目，标题及2024-10-11播出日期与Bangumi章节1411682一致。\n\nhttps://beyblade.takaratomy.co.jp/anime/ (page): 官网将各篇章作为本作持续更新，并确认真・未来篇于2026-04-17首次连续配信两话，支持第123、124话同日首播及后续网络配信仍属本作延续。\n\n备注：第135、136集尚为TMDB占位条目，输入没有对应Bangumi章节，故不纳入逐集规则；其标题及排期需后续核实。",
     "method": "codex",
     "source": "https://bgm.tv/subject/418599; https://www.themoviedb.org/tv/226688; https://beyblade.takaratomy.co.jp/anime/staffcast/; https://bgm.tv/subject/418599/ep; https://www.themoviedb.org/tv/226688/season/1; https://www.themoviedb.org/tv/226688/season/0; https://beyblade.takaratomy.co.jp/anime/",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 133,
+      "end": 134,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -706,8 +711,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 133,
       "id": 226688,
       "season": 1,
       "type": "tv"

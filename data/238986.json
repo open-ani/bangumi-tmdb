@@ -1,14 +1,40 @@
 {
   "anidbId": 13846,
   "bangumiId": 238986,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 778961,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 778962,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 778963,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 816130,
+      "sort": 4,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 816130,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 电影 513347：上映日期、三段剧情、导演及制作方一致。Bangumi 三个本篇章节是同一电影的内部短篇，因此采用整部电影映射，不建立分集规则；幕后 SP 不属于电影正文，明确排除。\n\nhttps://www.themoviedb.org/movie/513347 (api_snapshot): 以日文原名及英文别名搜索均得到电影 513347；详情确认上映日期为2018-08-04、片长74分钟，导演为易小星、李豪凌、竹内良贵，制作公司包含 CoMix Wave Films 与绘梦。简介涵盖早餐乡愁、广州姐妹及上海初恋三个故事，与本 subject 一致。\n\nhttps://shikioriori.jp/ (page): 官网确认中文标题为《肆式青春》，作品由《陽だまりの朝食》《小さなファッションショー》《上海恋》三段短篇组成，并逐段列出与输入一致的导演。\n\nhttps://bgm.tv/subject/238986/ep (page): Bangumi 将作品标为剧场版，本篇章节为上述三段短篇；另外收录一段38分30秒的幕后特别篇。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/238986; https://www.themoviedb.org/movie/513347; https://shikioriori.jp/; https://bgm.tv/subject/238986/ep",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

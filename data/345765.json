@@ -1,13 +1,35 @@
 {
+  "anidbId": 17888,
   "bangumiId": 345765,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1121882,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1121883,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1121884,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1121885,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 1374121 的原名为 TAISU PROJECT，中文名为《太素传奇》，日期为 2024-08-10，与 Bangumi subject 完全对应；TMDB 详情还匹配渡边信一郎、森田修平、李炜、翁铭等导演、MAPPA/腾讯等制作方、相同剧情主题及主要配音演员，片长 100 分钟。该条目是包含四个相互关联短篇的电影合集，因此使用 movie，不填写季或集数。TMDB 985716 是其中独立的 20 分钟短片《A Girl Meets a Boy and a Robot》，不是整个 subject；TMDB 1497966 是 2025 年 97 分钟的《Edge of Time／她在时空尽头》，对应关联的后续电影版本，也不是本 subject 的 2024 WEB 版本。\n\nhttps://api.bgm.tv/v0/subjects/345765 (api_snapshot): Bangumi API 显示该作品为 2024-08-10 开始的 WEB 动画，共 4 集，导演包括渡边信一郎、森田修平、李炜、翁铭，剧情围绕 TAISU 力量展开。\n\nhttps://www.themoviedb.org/movie/1374121 (api_snapshot): TMDB 详情显示《太素传奇》／TAISU PROJECT，日期 2024-08-10，片长 100 分钟，剧情、制作公司、导演及主要配音演员均与 Bangumi subject 匹配。\n\nhttps://cinema.eiga.com/news/20230301/20/ (page): 资料明确说明《太素（TAISU）》由四个 episode 构成，并列出其中《A Girl Meets a Boy and a Robot》《弦之舞》等篇章。\n\nhttps://www.c21media.net/marketplace/tencentvideo/taisu-project/22507 (page): 腾讯视频项目资料说明 TAISU 第一季由四部独立但相互关联的短片组成，确认其为短篇合集而非普通连续剧单季。\n\nhttps://www.themoviedb.org/movie/985716 (api_snapshot): TMDB 985716 是 2022 年、20 分钟的独立短片《A Girl Meets a Boy and a Robot》，只是 TAISU 的单篇作品。\n\nhttps://www.themoviedb.org/movie/1497966 (api_snapshot): TMDB 1497966 为 2025 年、97 分钟的《Edge of Time／她在时空尽头》，属于另一个关联的电影版本。",
+    "evidence": "codex: 首发日期、四篇构成、剧情及制作团队共同支持匹配 TMDB movie 1374121，它登记的是整个2024年 TAISU PROJECT。采用作品级映射；该条目没有季或集表，不能把四个 Bangumi 章节分别映射到同一电影，故 rules、overrides 留空。单篇985716及2025年总集篇1497966均不替代整个 subject。\n\nhttps://bgm.tv/subject/345765 (page): Bangumi 将本作列为2024年8月10日开播的四集 WEB 动画，导演为渡边信一郎、李炜、森田修平、翁铭；另将《她在时空尽头》列为关联总集篇。\n\nhttps://www.themoviedb.org/movie/1374121 (api_snapshot): 原名与中文名搜索均指向 movie 1374121。详情显示原名 TAISU PROJECT、中文名《太素传奇》、日期2024-08-10；艾塔与太素力量的剧情、四位导演及腾讯、佳荧文化、MAPPA、YAMATOWORKS 等制作方与本作吻合。搜索结果简介明确描述四个相互关联的故事。\n\nhttps://www.dianyingjie.com.cn/2024/0812/388419.shtml (page): 2024年8月12日报道明确列出《A Girl meets A Boy and A Robot》《再见，小欧》《弦之舞》《海之眼》四篇，说明自8月10日起周六、日更新；四篇名称、创作者和剧情范围均与输入一致。\n\nhttps://www.c21media.net/marketplace/tencentvideo/taisu-project/22507 (page): 腾讯视频项目介绍说明第一季由四部独立但相互关联的短片组成，主题为战争、生命与和平，列出相同四位导演；页面标注总时长85分钟。\n\nhttps://www.themoviedb.org/movie/985716 (api_snapshot): movie 985716 是渡边信一郎执导、MAPPA 制作的20分钟单篇《A Girl Meets a Boy and a Robot》，日期为2022-06-09，只覆盖本项目的一篇。\n\nhttps://www.themoviedb.org/movie/1497966 (api_snapshot): movie 1497966 为《她在时空尽头》，日期2025-06-15、片长97分钟，与本 subject 的2024年四篇网络发布版本区分。\n\n备注：TMDB 将项目归类为电影并标注100分钟，腾讯项目页称四篇系列并标注85分钟；时长差异的原因未确认，因此本映射不保证具体发行拷贝的剪辑及片长完全一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/345765; https://api.bgm.tv/v0/subjects/345765; https://www.themoviedb.org/movie/1374121; https://cinema.eiga.com/news/20230301/20/; https://www.c21media.net/marketplace/tencentvideo/taisu-project/22507; https://www.themoviedb.org/movie/985716; https://www.themoviedb.org/movie/1497966",
-    "verifiedAt": "2026-09-08T23:03:57.917Z"
+    "source": "https://bgm.tv/subject/345765; https://www.themoviedb.org/movie/1374121; https://www.dianyingjie.com.cn/2024/0812/388419.shtml; https://www.c21media.net/marketplace/tencentvideo/taisu-project/22507; https://www.themoviedb.org/movie/985716; https://www.themoviedb.org/movie/1497966",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

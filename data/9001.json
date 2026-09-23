@@ -1,16 +1,51 @@
 {
   "anidbId": 6037,
   "bangumiId": 9001,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 199269,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 199270,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 199271,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 199272,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 199273,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2008 年《Genius Party Beyond》电影合集，包含 GALA、MOONDRIVE、わんわ、陶人キット、次元爆弾五部短篇。TMDB 电影 77248 与该原版电影直接对应；TMDB TV 118406 的第 2 季则将同一合集拆为五集，且没有混入《Genius Party》第一部的内容，因此范围为第 2 季第 1–5 集。两者是同一作品的电影条目与分集电视条目表示，均可采用。\n\nhttps://www.tirexo.al/films/films-vf/803265-genius-party-beyond.html (search_snippet): 页面将《Genius Party Beyond》(2008) 的 TMDB 链接明确列为 movie/77248，并列出 2008-10-11 上映日期。\n\nhttps://studio4c.ocnk.net/product/31 (search_snippet): Studio 4°C 官方商品页说明《Genius Party Beyond》是 2008 年日本电影，时长约 82 分钟，收录五部作品：GALA、MOONDRIVE、Wanwa the Puppy、Tojin Kit、Dimension Bomb。\n\nhttps://www.videomarket.jp/title/006007/A006007001999H01 (search_snippet): 页面将《Genius Party Beyond》明确列为 #1–#5，并列出 GALA、MOONDRIVE、わんわ、陶人キット、次元爆弾。\n\nhttps://fanart.tv/series/82561/genius-party/ (search_snippet): 页面将 Genius Party 的 TMDB ID 列为 118406，并显示该 TV 条目存在 Season 1 与 Season 2。\n\nhttps://www.themoviedb.org/person/183?language=ja-JP (search_snippet): TMDB 人物条目在 2008 年作品中列出 Genius Party Beyond 为 5 episodes，支持其在 TV 条目中作为五集分季内容出现。",
+    "evidence": "codex: 确认是2008年由STUDIO4℃制作的五篇剧场合集。电影77248对应完整电影；TV 222780第1季按五部短篇分集，各篇标题、导演、总数和官方顺序逐项吻合，可建立1至5集连续映射。旧TV 118406目前仅覆盖2007年前作，第2季请求返回404，应改为222780第1季。\n\nhttps://genius-party.studio4c.co.jp/beyond/voice_cast.html (page): 官方页面标明2008年10月11日上映，按顺序列出GALA、MOONDRIVE、わんわ、陶人キット、次元爆弾五篇，与输入章节一致。\n\nhttps://studio4c.ocnk.net/product/31 (page): 官方商店确认这是2008年日本动画电影、前作之后的第二部合集；列出的五篇英文名及各自导演与Bangumi一致，正片约82分钟。\n\nhttps://genius-party.studio4c.co.jp/beyond/impacts.html (page): 官方介绍逐篇确认五位导演与剧情；《わんわ》讲述小男孩的梦中冒险，并非TMDB第三集简介所写的中国男孩获得未来装置。\n\nhttps://www.themoviedb.org/movie/77248 (api_snapshot): 电影77248的上映日期为2008-10-11、片长81分钟、制作公司为STUDIO4℃，五位主要导演及合集简介均吻合，IMDb为tt1305678。\n\nhttps://www.themoviedb.org/tv/118406 (api_snapshot): TV 118406目前仅列2007年的第1季共7集；另行请求第2季返回404，旧映射的第2季不可沿用。\n\nhttps://www.themoviedb.org/tv/222780 (api_snapshot): TV 222780为Genius Party Beyond，首播日期2008-10-11，制作公司及五位导演一致，仅有第1季共5集。\n\nhttps://www.themoviedb.org/tv/222780/season/1 (api_snapshot): 第1季完整集表共5集、仅1页，各集标题及附带导演依次对应Bangumi五篇，没有其他短篇。第1、2集日期为2008-10-11，第3至5集却分别记录为10月18日、10月25日、11月1日。\n\n备注：TV 222780第3至5集日期与整部电影的官方上映日期不一致，第3集简介也与官方剧情冲突；这些字段存在元数据问题。逐集对应由五篇明确标题、对应导演及官方篇目表共同确认，不将这些日期解释为已证实的独立电视播出安排。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/9001; https://www.tirexo.al/films/films-vf/803265-genius-party-beyond.html; https://studio4c.ocnk.net/product/31; https://www.videomarket.jp/title/006007/A006007001999H01; https://fanart.tv/series/82561/genius-party/; https://www.themoviedb.org/person/183?language=ja-JP",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/9001; https://genius-party.studio4c.co.jp/beyond/voice_cast.html; https://studio4c.ocnk.net/product/31; https://genius-party.studio4c.co.jp/beyond/impacts.html; https://www.themoviedb.org/movie/77248; https://www.themoviedb.org/tv/118406; https://www.themoviedb.org/tv/222780; https://www.themoviedb.org/tv/222780/season/1",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 222780
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -18,10 +53,8 @@
       "type": "movie"
     },
     {
-      "episode": 1,
-      "episodeEnd": 5,
-      "id": 118406,
-      "season": 2,
+      "id": 222780,
+      "season": 1,
       "type": "tv"
     }
   ]

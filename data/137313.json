@@ -1,20 +1,141 @@
 {
   "bangumiId": 137313,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 109212,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 109213,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 109214,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 109215,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 109216,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 109217,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 109218,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 109219,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 109220,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 109221,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 109222,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 109223,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 109224,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 109225,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 109226,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 109227,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 109228,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 109229,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 109230,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 109231,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 109232,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 109233,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2008年电视动画的第一季完整22集。媒介、制作公司、首末播日期及逐集标题顺序吻合，可建立1至22话连续对应；第18话的日期差异不影响其明确的标题与集号对应。\n\nhttps://bgm.tv/subject/137313 (page): Bangumi 标注为美国 TV 动画第一季，共22话，2008-10-03至2009-03-20播出，动画制作为 Lucasfilm Animation；另将2008年电影列为前传、2003年动画列为不同演绎。\n\nhttps://www.themoviedb.org/tv/4194 (api_snapshot): TMDB 4194 为2008-10-03首播的电视动画，制作公司为 Lucasfilm Animation、Lucasfilm，角色与配音阵容吻合；剧情为绝地及克隆军对抗分离势力。\n\nhttps://www.themoviedb.org/tv/4194/season/1 (api_snapshot): 第一季集表共22集，已读取全部1页。22集标题及顺序逐一吻合，首末集日期一致；除第18话外，其余21话放送日期均与输入一致。第18集日期为2009-02-13。\n\nhttps://starwars.fandom.com/wiki/Mystery_of_a_Thousand_Moons (search_snippet): 资料明确将 Mystery of a Thousand Moons 列为第一季第18集，2009-02-13作为一小时特别播出的后半部分首播，支持 TMDB 日期及集号。\n\nhttps://www.themoviedb.org/movie/1424436 (api_snapshot): 实际调用旧映射 movie/1424436 的详情接口返回 HTTP 404，无法验证该旧目标。\n\n备注：输入第18话日期为2009-02-20，TMDB及补充资料均为2009-02-13，疑为 Bangumi 日期记录偏差。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/137313; https://www.themoviedb.org/tv/4194; https://www.themoviedb.org/tv/4194/season/1; https://starwars.fandom.com/wiki/Mystery_of_a_Thousand_Moons; https://www.themoviedb.org/movie/1424436",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 4194
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1424436,
-      "type": "movie"
+      "id": 4194,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

@@ -1,20 +1,91 @@
 {
   "anidbId": 12523,
   "bangumiId": 205310,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 786898,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 786899,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 786900,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 786901,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 786902,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 786903,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 786904,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 786905,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 786906,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 786907,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 786908,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 786909,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 78375 第1季整季。年份、剧情、导演、制作方与12集规模一致，官方目录及 TMDB 集表支持本篇1—12话逐集一一对应；日期差异主要来自 Netflix 先行配信与深夜电视播出的不同记录口径。\n\nhttps://www.themoviedb.org/tv/78375 (api_snapshot): TMDB 78375 为2018年日本动画《LOST SONG》，琳与菲妮丝以歌声创造奇迹的剧情、导演森田と純平、制作公司 LIDENFILMS 与 Dwango 均与输入一致；全剧1季12集。\n\nhttps://www.themoviedb.org/tv/78375/season/1 (api_snapshot): 已读取第1季完整集表，共12集、1页。12集标题与 Bangumi 逐集对应，第1集仅存在「癒し／癒やし」表记差异。第1及3—9集日期比 Bangumi 晚8天，第2集晚1天，第10—12集日期一致。\n\nhttps://lost-song.com/episode/ (page): 官方逐集目录列出第1—12话，标题与 TMDB 顺序完全一致，确认不存在拆集、合集或其他作品混入。\n\nhttps://lost-song.com/news/20180202_02.php (page): 官方公告确认 Netflix 自2018年3月31日起每周六先行配信，电视自4月7日开始播出，解释两种首播日期来源。\n\nhttps://lost-song.com/onair/index.php (page): 官方放送资料确认全12话；TOKYO MX 自4月7日起每周六25:30播出，即公历次日，与 TMDB 第1及3—9集采用的电视日期相符。\n\n备注：TMDB 集表混用电视播出与先行配信日期，且第2集的2018-04-08不符合任一既定周播排期；其标题及官方话数对应明确，不影响映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/205310; https://www.themoviedb.org/tv/78375; https://www.themoviedb.org/tv/78375/season/1; https://lost-song.com/episode/; https://lost-song.com/news/20180202_02.php; https://lost-song.com/onair/index.php",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 78375
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 78375,
+      "season": 1,
       "type": "tv"
     }
   ]

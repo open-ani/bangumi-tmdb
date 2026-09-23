@@ -1,20 +1,91 @@
 {
   "anidbId": 13721,
   "bangumiId": 153197,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 687290,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 688238,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 688239,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 688240,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 688241,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 688242,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 688243,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 688244,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 688245,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 688246,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 688247,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 688248,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 应改为 TMDB 79481 第1季。动画版本、首播年份、制作公司及剧情相符，第一季12集的标题与放送日期逐集完全对应，可确认本篇1—12话顺序映射至S01E01—E12。旧映射81500属于真人改编剧。\n\nhttps://www.themoviedb.org/tv/79481 (api_snapshot): TMDB 79481 为2017年1月7日首播的《斗破苍穹》动画，制作公司包含上海福煦、阅文和腾讯；萧炎失去修炼能力、退婚及药老助其修炼的剧情与输入一致。第一季共12集，后续季与特别篇另列。\n\nhttps://www.themoviedb.org/tv/79481/season/1 (api_snapshot): 第一季集表共12集、仅1页。逐集标题依次为悔婚、药老、灵液、拍卖、突破、雅妃、对杀、除害、医仙、探宝、招生、身世；12集播出日期均与 Bangumi 对应章节完全一致，范围为2017年1月7日至4月1日。\n\nhttps://www.themoviedb.org/tv/81500 (api_snapshot): 旧映射81500实际为2018年首播、吴磊和林允出演、于荣光执导的45集真人剧；其 IMDb、TVDB 编号也与 seed 相同，因此这些旧线索指向错误版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/153197; https://www.themoviedb.org/tv/79481; https://www.themoviedb.org/tv/79481/season/1; https://www.themoviedb.org/tv/81500",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79481
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 81500,
+      "id": 79481,
+      "season": 1,
       "type": "tv"
     }
   ]

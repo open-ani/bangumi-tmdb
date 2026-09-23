@@ -1,20 +1,91 @@
 {
   "anidbId": 14618,
   "bangumiId": 272034,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 906156,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 906157,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 906158,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 906159,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 906160,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 906161,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 906162,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 906163,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 906164,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 906165,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 906166,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 906167,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 91584第1季整季。年份、电视动画媒介、制作公司、导演、剧情及12集范围一致；全部集标题逐集吻合，第2至12集日期完全一致。第1集虽有日期差异，但官方标题与剧情明确确认其身份，可建立本篇1—12话到S01E01—E12的连续对应。\n\nhttps://www.themoviedb.org/tv/91584 (api_snapshot): 以日文原名搜索命中 TV 91584；详情确认是2019年电视动画，制作公司为ENGI、导演为三浦和也，柴田源藏在摔跤比赛中被召唤至异世界的剧情与输入一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/91584/season/1 (api_snapshot): 第1季集表共12集、仅1页；第1至12集日文标题与输入逐集一致，第2至12集播出日期也逐集一致。第1集日期记为2019-09-29，与输入的2019-10-02存在差异。\n\nhttps://hataage-kemonomichi.com/onair/ (page): 官方放送表列明AT-X从10月2日起每周三22:00播出，与输入的电视首播日期一致。\n\nhttps://hataage-kemonomichi.com/staffcast/ (page): 官方制作人员表确认原作为暁なつめ、漫画为まったくモー助与夢唄，导演三浦和也，动画制作ENGI，与输入及TMDB详情一致。\n\nhttps://hataage-kemonomichi.com/story/ (page): 官方故事页列出第1至12话，标题与Bangumi及TMDB顺序一致；第1话的异世界召唤剧情及第12话与MAO决战的剧情亦与TMDB对应集一致。\n\n备注：TMDB将第1集及整季首播日期记为2019-09-29，官方电视放送表与Bangumi为2019-10-02；日期差异原因未确认，不影响已核实的逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/272034; https://www.themoviedb.org/tv/91584; https://www.themoviedb.org/tv/91584/season/1; https://hataage-kemonomichi.com/onair/; https://hataage-kemonomichi.com/staffcast/; https://hataage-kemonomichi.com/story/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 91584
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 91584,
+      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,20 +1,96 @@
 {
   "bangumiId": 292833,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 909542,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 909543,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 909544,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 909545,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 909546,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 909547,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 909548,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 909549,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 909550,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 909551,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 909552,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 909553,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 909554,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 应纠正旧电影映射，改为 TMDB 154997 第1季。动画媒介、2019年国庆播出背景、央视制作信息、故事内容及13集规模一致；全部集标题和顺序逐一吻合，可确认本篇1—13话对应第1季1—13集。\n\nhttps://www.themoviedb.org/movie/308924 (api_snapshot): 旧映射 movie/308924 是吴天明执导、2016年上映的108分钟真人电影，剧情围绕唢呐艺人，与本动画版本不符。\n\nhttps://tv.cctv.com/2019/10/01/VIDAwys7kxGKQo1vCmzPmsga191001.shtml (page): 央视官方页面确认本作是2019年央视动画制作的水墨动画，讲述普通小鸟为拯救家园成长为凤凰的故事，与 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/154997 (api_snapshot): TMDB tv/154997 简介明确为央视动画制作、庆祝新中国成立70周年、10月1日在少儿频道13集连播的水墨动画；全剧只有一季，共13集。\n\nhttps://www.themoviedb.org/tv/154997/season/1 (api_snapshot): 第1季实际集表共13集且仅一页。第1至13集标题逐一与 Bangumi 完全一致，分集剧情亦符合小凤凰与小乌鸦拯救家园的故事；未混入其他作品。\n\nhttps://tv.cctv.com/2019/10/01/VIDAwys7kxGKQo1vCmzPmsga191001.shtml (search_snippet): 央视官方选集列出第1至13集，标题及顺序与 Bangumi、TMDB 季表完全一致。\n\nhttps://tv.cctv.com/2019/10/01/VIDExjBRxuzPaMi1to84LPSy191001.shtml (search_snippet): 央视第1集《森林危机》页面日期为2019年10月1日。\n\nhttps://tv.cctv.com/2019/10/01/VIDEZccbtvBNsdwi6XaZdOBX191001.shtml (search_snippet): 央视第13集《百鸟朝凤》页面日期为2019年10月1日，与 Bangumi 首末集同日播出的记录相符。\n\n备注：TMDB 首播日期及各集日期字段为空，无法进行两站逐集日期交叉核对；逐集对应由全部13集标题、顺序、剧情和集数共同确认，播出日期另由央视资料佐证。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/292833; https://www.themoviedb.org/movie/308924; https://tv.cctv.com/2019/10/01/VIDAwys7kxGKQo1vCmzPmsga191001.shtml; https://www.themoviedb.org/tv/154997; https://www.themoviedb.org/tv/154997/season/1; https://tv.cctv.com/2019/10/01/VIDExjBRxuzPaMi1to84LPSy191001.shtml; https://tv.cctv.com/2019/10/01/VIDEZccbtvBNsdwi6XaZdOBX191001.shtml",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 154997
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 308924,
-      "type": "movie"
+      "id": 154997,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

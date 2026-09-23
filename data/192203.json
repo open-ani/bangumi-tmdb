@@ -1,13 +1,34 @@
 {
   "bangumiId": 192203,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 751735,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 751736,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 751737,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 751738,
+      "sort": 21,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过上映日期、剧情、导演、制作公司和电影版本交叉确认，对应 TMDB 电影461758。该条目完整覆盖第五章《共生》，无需季号。Bangumi 的18至21话未取得独立 TMDB 分集对应证据，故仅提交作品级映射。\n\nhttps://www.themoviedb.org/movie/461758 (api_snapshot): 以日文原名搜索并读取详情，确认 TMDB 461758 为第五章《共生》电影，2017-09-30 上映，片长89分钟，东映动画制作、元永庆太郎执导；芽心受伤、缅因猫兽暴走及孩子们返回现实世界遭追赶的剧情与 Bangumi 一致。\n\nhttps://jfdb.jp/title/7882 (page): 日本电影数据库确认本作为全六章系列的第五章，上映日期2017-09-30，片长89分钟，导演元永庆太郎、人物设计宇木敦哉、制作公司东映动画。\n\nhttps://bangumi.tv/subject/192203 (page): Bangumi 将该 subject 标为剧场版，列出4话、章节编号18至21；上映日期、导演、制作公司及剧情均与该电影吻合。\n\n备注：四个 Bangumi 章节与独立 TMDB 分集的对应尚未核实，rules 和 overrides 留空。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/192203; https://www.themoviedb.org/movie/461758; https://jfdb.jp/title/7882; https://bangumi.tv/subject/192203",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,20 +1,81 @@
 {
   "bangumiId": 148295,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 571076,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 571077,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 571078,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 571079,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 571080,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 571081,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 571082,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 571083,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 571084,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 571085,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本subject对应2014年网络动画第一季，年份、首播日期、制作方、人员、校园短篇剧情及10话范围相符。TMDB 119059第1季完整覆盖本作；外部逐集标题顺序与季表一致，结合Bangumi逐集播出时间可确认1—10话顺序对应。旧映射误指向2023年电影，应替换。\n\nhttps://bangumi.tv/subject/148295 (search_snippet): Bangumi 标注本作为2014年9月3日开始的10话网络动画，导演阎凯，动画制作凝羽动画。\n\nhttps://bangumi.tv/subject/148295/ep (page): 章节表共10话且标题为空；第1、2、8话日期与TMDB相同，第3—7、9—10话比TMDB早一天，整体播出顺序一致。\n\nhttps://www.iqiyi.com/a_19rrhauq8p.html (search_snippet): 爱奇艺第一季专辑标注2014年原创动画，并注明为凝羽动画原创作品。\n\nhttps://www.themoviedb.org/tv/119059 (api_snapshot): TMDB剧集119059于2014年9月3日首播，讲述东北校园师生生活，制作公司包含凝羽动画对应的Joyshipper Animation Studio；第一季10集，后续季与番外另列。\n\nhttps://www.themoviedb.org/tv/119059/season/1 (api_snapshot): 第一季真实集表共10集、仅1页，依次为放学、九月十日、请假、送纸、科任老师、考试、母师子、自习、大扫除、霸课；日期从2014年9月3日至11月5日。\n\nhttps://baike.sogou.com/v83192771.htm (search_snippet): 资料确认凝羽动画制作、阎凯执导，第一季2014年9月3日首播、共10集；逐集标题及顺序与TMDB第一季全部一致。\n\nhttps://www.themoviedb.org/movie/1149485 (api_snapshot): 旧映射1149485实际为2023年7月14日上映、91分钟的电影，剧情围绕王强与石妙娜互换身体；其IMDb和Wikidata编号与seed一致，说明seed指向电影版。\n\n备注：Bangumi第3—7、9—10话日期较TMDB早一天，尚未确认哪方日期准确；未据此认定时区原因。该差异不改变已核对的第一季范围及逐集顺序。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148295; https://bangumi.tv/subject/148295; https://bangumi.tv/subject/148295/ep; https://www.iqiyi.com/a_19rrhauq8p.html; https://www.themoviedb.org/tv/119059; https://www.themoviedb.org/tv/119059/season/1; https://baike.sogou.com/v83192771.htm; https://www.themoviedb.org/movie/1149485",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 119059
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1149485,
-      "type": "movie"
+      "id": 119059,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

@@ -1,14 +1,30 @@
 {
   "anidbId": 11341,
   "bangumiId": 138844,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 544266,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 906619,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 906620,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 上映日期、电影媒介、制作公司、三篇导演及跨篇角色均吻合，确认subject整体对应TMDB三合一电影393528。Bangumi的三个章节是电影内部故事，当前目标没有可独立定位的章节结构，因此只提交作品级映射，逐集规则留空。\n\nhttps://www.themoviedb.org/movie/393528 (api_snapshot): 日文原名搜索命中 movie/393528；详情显示上映日期为2015-10-31、制作公司为东映动画，导演包含座古明史、宫本浩史、贝泽幸男，演员表同时包含南瓜王国与莱菲篇角色，支持三合一电影身份。不过片长字段为50分钟。\n\nhttps://www.ponycanyon.co.jp/visual/PCXX000050102 (page): 官方发行商列出本篇75分钟，并分别列出南瓜王国篇、莱菲篇、恶作剧魔镜篇及其制作人员；三篇导演和主要配音均与TMDB详情吻合。\n\nhttps://eiga.com/movie/81792/ (search_snippet): 电影资料确认该作于2015年10月31日上映、片长75分钟，由Bangumi所列的三个故事构成。\n\n备注：TMDB片长为50分钟，与官方整部75分钟不一致；其完整标题、三位导演及跨篇角色表支持整部三合一电影身份，片长字段可能只采用南瓜王国篇长度。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/138844; https://www.themoviedb.org/movie/393528; https://www.ponycanyon.co.jp/visual/PCXX000050102; https://eiga.com/movie/81792/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

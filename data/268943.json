@@ -1,21 +1,92 @@
 {
   "anidbId": 12277,
   "bangumiId": 268943,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 845398,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 845399,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 845400,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 845401,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 845402,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 845403,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 845404,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 845405,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 845406,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 845407,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 845408,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 845409,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 年份、上线日期、剧情、主创及12集网络版身份均吻合，确认对应 TMDB TV 70178 第1季整季。旧映射指向2016年剧场版第一章，应更正。Bangumi 章节缺少标题和日期，暂不凭序号生成逐集规则。\n\nhttps://www.themoviedb.org/tv/70178 (api_snapshot): TMDB TV 70178 为2017年2月10日首播的《CYBORG009 CALL OF JUSTICE》，共1季12集；剧情涉及隐居人造人与天佑者，导演为柿本广大，原作为石之森章太郎。\n\nhttps://www.themoviedb.org/tv/70178/season/1 (api_snapshot): 第1季实际集表共12集，只有1页；全部标注2017年2月10日，每集25至26分钟，完整覆盖该12集网络版。\n\nhttps://www.netflix.com/jp/title/80057749 (page): Bangumi 所链接的 Netflix 官方条目标注2017年，简介为隐居的人造人因天佑者重新参战；河本启佑、种田梨沙、福圆美里等主演与 TMDB 一致。\n\nhttps://bukuro-souken.com/en/article/17037/ (search_snippet): 导演访谈的搜索摘要明确说明：剧场三部曲重新剪辑为12集，于2017年2月10日在 Netflix 一次性上线。\n\nhttps://www.themoviedb.org/movie/419095 (api_snapshot): 旧映射 movie 419095 的实际标题为《CYBORG009 CALL OF JUSTICE 1》，上映日期为2016年11月25日，属于剧场版第一章，不能代表2017年的完整12集网络版。\n\n备注：输入的12个 Bangumi 章节标题、放送日期均为空，且章节网页未能访问；逐集对应缺乏可比对依据，rules 留空。\n\n脚本按声明范围生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/268943; https://www.themoviedb.org/tv/70178; https://www.themoviedb.org/tv/70178/season/1; https://www.netflix.com/jp/title/80057749; https://bukuro-souken.com/en/article/17037/; https://www.themoviedb.org/movie/419095",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 70178
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 419095,
-      "type": "movie"
+      "id": 70178,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

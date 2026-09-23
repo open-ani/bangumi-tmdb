@@ -1,20 +1,61 @@
 {
   "bangumiId": 258340,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 821095,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 821096,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 821097,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 821098,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 821099,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 821100,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为 TMDB TV 83043 第一季全六集。作品年份、首播日期、剧情、制作背景及短片媒介一致，逐集标题、日期和总数均吻合，支持本篇1—6集顺序对应。第一季未混入其他作品；旧电影映射应替换。\n\nhttps://www.themoviedb.org/tv/83043 (api_snapshot): TMDB TV 83043 为《Marvel Rising: Initiation》，首播日期为2018-08-13，制作公司为 Marvel Animation；格温蒙冤、遭其他年轻英雄追捕的剧情与 Bangumi 一致。第一季为 Initiation，第二季为另一作品 Ultimate Comic。\n\nhttps://www.themoviedb.org/tv/83043/season/1 (api_snapshot): 第一季完整集表共6集，全部播于2018-08-13，每集4分钟。第1集标题为 Mission: Ghost Hunter，对应 Bangumi 的 Ghost Hunter；第2至6集标题、顺序及日期均与输入逐集一致。\n\nhttps://www.marvel.com/articles/tv-shows/marvel-entertainment-partners-with-young-storytellers-for-the-brand-new-animated-project-marvel-rising (search_snippet): Marvel 官方确认 Initiation 是2018-08-13在 Disney XD 首播的六部动画短片，编剧为 Mairghread Scott，监督导演为 Alfred Gimeno；随后推出的 Secret Warriors 是独立的80分钟动画电影。\n\nhttps://www.disneyplus.com/en-sg/browse/entity-543babf6-5831-4b6b-bc0b-9854ae1a4811 (search_snippet): Disney+ 官方列出该短片系列第一季六集，标题及顺序与 TMDB 第一季一致，包括第1集 Mission: Ghost Hunter。\n\nhttps://www.themoviedb.org/movie/491633 (api_snapshot): 旧映射 movie 491633 实为《Marvel Rising: Secret Warriors》，上映日期2018-09-30、片长80分钟，对应后续电影而非本 subject 的六集短片。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/258340; https://www.themoviedb.org/tv/83043; https://www.themoviedb.org/tv/83043/season/1; https://www.marvel.com/articles/tv-shows/marvel-entertainment-partners-with-young-storytellers-for-the-brand-new-animated-project-marvel-rising; https://www.disneyplus.com/en-sg/browse/entity-543babf6-5831-4b6b-bc0b-9854ae1a4811; https://www.themoviedb.org/movie/491633",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83043
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 491633,
-      "type": "movie"
+      "id": 83043,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

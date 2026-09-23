@@ -1,20 +1,91 @@
 {
   "anidbId": 18360,
   "bangumiId": 295313,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1264631,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1264632,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1264633,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1264634,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1264635,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1264636,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1264637,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1264638,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1264639,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1264640,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1264641,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1264642,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 应改为TMDB 239002《神藏》第1季整季。年份、剧情、制作方、动画版本及12集范围一致，全部章节播出日期逐集吻合，可建立1—12集连续对应。旧映射222798属于《神选》，应排除。\n\nhttps://bgm.tv/subject/295313 (page): Bangumi 条目为2023年11月7日开播、共12话的《神藏》，改编自打眼小说，由舞之动画制作，剧情围绕方逸与初夏的探墓冒险展开。\n\nhttps://www.themoviedb.org/tv/222798 (api_snapshot): 旧映射222798实际为日本动画《神选》（カミエラビ），2023年10月5日首播，由UNEND等制作，剧情为神候选人的争斗，与本作品不同；旧IMDb、TVDB线索也属于该错误条目。\n\nhttps://www.themoviedb.org/tv/239002 (api_snapshot): 239002为中文动画《神藏》，别名Mysterious Treasures，首播2023年11月7日、完结2024年1月16日，共1季12集；方逸、初夏及古墓冒险的剧情一致，制作公司包含Dancing CG Studio和阅文集团。\n\nhttps://www.themoviedb.org/tv/239002/season/1 (api_snapshot): 第1季完整集表共12集，仅1页。第1、2集均于2023年11月7日播出，第3至12集依次为11月14日、11月21日、11月28日、12月5日、12月12日、12月19日、12月26日、2024年1月2日、1月9日、1月16日，与输入Bangumi各集日期全部一致。\n\nhttps://moegirl.uk/index.php?title=%E7%A5%9E%E8%97%8F&variant=zh-sg (search_snippet): 资料确认动画由苏州舞之动画制作，总导演黄剑，2023年11月7日在腾讯视频首播，第一季共12集，与输入制作人员、媒介及版本相符。\n\n备注：输入的Bangumi章节标题为空，无法进行双侧标题核对；逐集对应依据为完整播出日期序列及一致的12集总量。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/295313; https://www.themoviedb.org/tv/222798; https://www.themoviedb.org/tv/239002; https://www.themoviedb.org/tv/239002/season/1; https://moegirl.uk/index.php?title=%E7%A5%9E%E8%97%8F&variant=zh-sg",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 239002
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 222798,
+      "id": 239002,
+      "season": 1,
       "type": "tv"
     }
   ]

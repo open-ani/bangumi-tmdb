@@ -1,20 +1,107 @@
 {
   "bangumiId": 199330,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 681206,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 681207,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 681208,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 681209,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 681210,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 681211,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 681212,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 681213,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 681214,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 681215,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 681216,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 681216,
+      "targets": [
+        {
+          "episode": 12,
+          "id": 67175,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB TV 67175 第一季的25个常规故事。年份、首播日期、制作方、人物剧情及集表相符。TMDB S01E11 是 Bangumi 另立 subject 199331 的电视电影，故覆盖范围须拆为 E1–10 与 E12–26。已提供的前十话按标题和日期直接对应，第11话通过别名及2016年12月播出信息对应 E12；旧电影映射为四集 DVD 合集，应替换。\n\nhttps://www.themoviedb.org/tv/67175 (api_snapshot): TMDB TV 67175 为2016年7月22日首播的《Elena of Avalor》，制作公司包括 Disney Television Animation，主角、剧情及配音阵容与本作一致，IMDb ID 为 tt4549142。\n\nhttps://www.themoviedb.org/tv/67175/season/1 (api_snapshot): 第一季集表共26集，只有一页，已完整读取。第1至10集与输入章节的标题及日期逐一吻合；第11集是独立电视电影《Elena and the Secret of Avalor》；第12集《Navidad》播于2016年12月9日；第26集《Masks of Magic》播于2017年10月1日。\n\nhttps://www.thetvdb.com/series/elena-of-avalor/seasons/official/1 (page): TVDB 第一季列出25集，起止日期与 Bangumi infobox 一致。逐项对照标题及日期，其第1至10集对应 TMDB 第1至10集，第11至25集对应 TMDB 第12至26集，不含插入的电视电影。\n\nhttps://transcripts.foreverdreaming.org/viewtopic.php?t=30216 (search_snippet): 剧集字幕索引将《Navidad》和《Feliz Navidad: A Royal Christmas》并列为同一集标题，支持输入第11话对应 TMDB S01E12。\n\nhttps://elenaofavalor.fandom.com/wiki/Navidad (page): 《Navidad》为第一季第11个常规故事，首播日期为2016年12月9日；剧情为各社区共同庆祝节日却陷入竞争，与 TMDB S01E12 简介一致。页面亦说明同名故事书使用《Feliz Navidad: A Royal Christmas》标题。\n\nhttps://www.themoviedb.org/movie/1427159 (api_snapshot): 旧映射 movie 1427159 实为《Elena of Avalor: Ready to Rule》，日期为2016年12月6日，片长90分钟，并非第一季完整电视动画。\n\nhttps://www.laughingplace.com/w/featured/2016/12/06/dvd-review-elena-avalor-ready-rule/ (page): 《Ready to Rule》DVD 评测明确说明其收录第一季前四集，证实旧映射指向选集发行版本。\n\n备注：输入仅有11条章节记录，因此不为尚未提供的第12至25话生成逐集规则。；Bangumi 第11话日期只精确到月份；具体播出日2016年12月9日由 TMDB 和外部集表交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/199330; https://www.themoviedb.org/tv/67175; https://www.themoviedb.org/tv/67175/season/1; https://www.thetvdb.com/series/elena-of-avalor/seasons/official/1; https://transcripts.foreverdreaming.org/viewtopic.php?t=30216; https://elenaofavalor.fandom.com/wiki/Navidad; https://www.themoviedb.org/movie/1427159; https://www.laughingplace.com/w/featured/2016/12/06/dvd-review-elena-avalor-ready-rule/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 67175
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1427159,
-      "type": "movie"
+      "episode": 1,
+      "episodeEnd": 10,
+      "id": 67175,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 12,
+      "episodeEnd": 26,
+      "id": 67175,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

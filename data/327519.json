@@ -1,20 +1,91 @@
 {
   "anidbId": 16035,
   "bangumiId": 327519,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1018967,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1018968,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1018969,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1018970,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1018971,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1018972,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1018973,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1018974,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1018975,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1018976,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1018977,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1018978,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 117945 第1季整季。年份、电视动画媒介、剧情、导演及制作方一致；全部12集标题与顺序逐一吻合，集数范围没有混入其他作品。日期差异由 Hulu 先行配信及深夜时刻的日期记法解释，本篇1—12集可连续对应 S01E01—S01E12。\n\nhttps://www.themoviedb.org/tv/117945 (api_snapshot): 日文原名与英文别名搜索均指向 TV 117945。详情确认这是2021年电视动画，导演工藤进、制作公司 BAKKEN RECORD，雪村咲羽与政府组织“鵺”的剧情、主要角色均与输入一致；全剧仅1季、12集。\n\nhttps://www.themoviedb.org/tv/117945/season/1 (api_snapshot): 第1季完整集表共12集，total_pages=1。第1至12集日文标题与输入的12个本篇章节逐一完全一致，顺序一致；日期为2021-03-31至2021-06-16，每周一集，逐集均比 Bangumi 所列电视放送日早6个日历日。\n\nhttps://prtimes.jp/main/html/rd/p/000004100.000014827.html (page): 制作方公告确认导演工藤进、系列构成根津理香、动画制作 BAKKEN RECORD；日本电视台自4月6日每周二25:29播出，Hulu自3月30日每周二24:00先行配信。后者按自然日即3月31日起，与 TMDB 日期吻合，解释了两站日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/327519; https://www.themoviedb.org/tv/117945; https://www.themoviedb.org/tv/117945/season/1; https://prtimes.jp/main/html/rd/p/000004100.000014827.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 117945
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 117945,
+      "season": 1,
       "type": "tv"
     }
   ]

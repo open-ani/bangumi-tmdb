@@ -1,19 +1,55 @@
 {
   "bangumiId": 208904,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 698997,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 698998,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 698999,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 699000,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 699001,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 63722 第1季整季。年份、电视动画媒介、制作与配音资料、独特剧情及完整5集范围相符；TMDB 日期与意大利播出排期一致。输入中的 Bangumi 5个章节均缺少标题和日期，无法逐章核验，因此保留整季匹配，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/63722 (api_snapshot): TMDB 63722 为2015年英语动画《LEGO Star Wars: Droid Tales》，制作方包括 Lucasfilm、The LEGO Group、Wil Film；剧情为恩多战役后 R2-D2 被掳，C-3PO 与阿克巴展开追寻，与输入简介吻合。全剧共1季5集。\n\nhttps://www.themoviedb.org/tv/63722/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1，共5集：Exit from Endor、Crisis on Coruscant、Mission to Mos Eisley、Flight of the Falcon、Gambit on Geonosis；没有混入其他作品。日期依次为2015-10-05至2015-10-09。\n\nhttps://www.prnewswire.com/news-releases/lego-star-wars-droid-tales-an-all-new-series-of-event-specials-acquired-by-disney-xd-300042641.html (search_snippet): LEGO Group 发布的公告确认本作是供 Disney XD 播出的动画系列，由5集、每集22分钟组成，以乐高形式重述星战故事。\n\nhttps://tv.apple.com/gb/show/lego-star-wars-droid-tales/umc.cmc.1siq4l5kf1r0w9xf4frxvya0v (page): Apple TV 列出2015年动画的第1季全部5集，标题、顺序及剧情与 TMDB 一致；导演为 Michael Hegner、Martin Skov，Anthony Daniels 配音 C-3PO。\n\nhttps://it.wikipedia.org/wiki/LEGO_Star_Wars:_I_racconti_del_droide (page): 意大利语维基百科逐集列出美国与意大利播出日期：美国首播2015-07-06，与 Bangumi 一致；意大利5集于2015-10-05至10-09播出，与 TMDB 日期逐集一致，支持日期差异源于地区播出记录。\n\n备注：Bangumi 主页面及章节页面访问失败；现有章节只有编号，需补充各章标题或放送日期后才能可靠建立逐集规则。；TMDB 日期不是美国首播日期；自动按日期生成逐集映射前需处理地区排期差异。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/208904; https://www.themoviedb.org/tv/63722; https://www.themoviedb.org/tv/63722/season/1; https://www.prnewswire.com/news-releases/lego-star-wars-droid-tales-an-all-new-series-of-event-specials-acquired-by-disney-xd-300042641.html; https://tv.apple.com/gb/show/lego-star-wars-droid-tales/umc.cmc.1siq4l5kf1r0w9xf4frxvya0v; https://it.wikipedia.org/wiki/LEGO_Star_Wars:_I_racconti_del_droide",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63722
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 63722,
+      "season": 1,
       "type": "tv"
     }
   ]

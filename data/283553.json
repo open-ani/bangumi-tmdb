@@ -1,20 +1,80 @@
 {
   "bangumiId": 283553,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 889122,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 889123,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 889124,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 889125,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 889126,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 889127,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 889128,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 889129,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 889130,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 889131,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认本 subject 对应 TMDB 71809 第1季完整10集。年份、发行平台、剧情、偶戏媒介、制作方及主创一致，官方集表与 TMDB 季表相符，应将旧映射的第0季修正为第1季。\n\nhttps://bgm.tv/subject/283553 (page): Bangumi 标注本作共10集，2019年8月30日在 Netflix 播出，导演为路易斯·莱特里尔，剧情为三个年轻 Gelfling 发起反抗，属于1982年电影的前传剧集。\n\nhttps://about.netflix.com/en/news/netflix-announces-the-dark-crystal-age-of-resistance-a-prequel-series-to-the-groundbreaking-jim-henson-film (page): Netflix 官方公告确认这是 Jim Henson Company 制作的10集前传剧集，采用偶戏结合数字特效；导演及三位主要编剧均与 Bangumi 资料一致，排除1982年电影及幕后纪录片。\n\nhttps://www.themoviedb.org/tv/71809 (api_snapshot): TMDB 71809 的首末播出日期均为2019年8月30日，仅有第1季、共10集；制作公司、三位主角配音、剧情及 IMDb 编号均与本作一致。\n\nhttps://www.themoviedb.org/tv/71809/season/1 (api_snapshot): 第1季完整季表共1页，含第1至10集，全部标注2019年8月30日播出，覆盖本作全部正篇。\n\nhttps://www.netflix.com/title/80148535 (page): Netflix 官方播放页列出2019年版本及10集正篇；逐集标题、顺序、简介和时长均与 TMDB 第1季集表一致。\n\nhttps://www.themoviedb.org/tv/71809/season/0 (api_snapshot): 实际查询 TMDB 第0季返回 HTTP 404，旧映射的第0季没有当前季表支持。\n\n备注：输入中的 Bangumi 10个章节均缺少标题与播出日期，无法完成章节层面的独立逐集比对；因此暂不生成 rules，避免仅凭章节位置推定对应关系。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/283553; https://about.netflix.com/en/news/netflix-announces-the-dark-crystal-age-of-resistance-a-prequel-series-to-the-groundbreaking-jim-henson-film; https://www.themoviedb.org/tv/71809; https://www.themoviedb.org/tv/71809/season/1; https://www.netflix.com/title/80148535; https://www.themoviedb.org/tv/71809/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 71809
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 71809,
-      "season": 0,
+      "season": 1,
       "type": "tv"
     }
   ]

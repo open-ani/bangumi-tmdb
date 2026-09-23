@@ -1,33 +1,165 @@
 {
   "anidbId": 596,
   "bangumiId": 298573,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 928358,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 928359,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 928360,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 928361,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 928362,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 928363,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 928364,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 928365,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 928366,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 928367,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 928368,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 928369,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 928370,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 928371,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 928372,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 928373,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 928374,
+      "sort": 17,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 928365,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 201892,
+          "season": 3,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 928371,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 201892,
+          "season": 4,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是 Sunrise 的17话 OVA 系列主体。Sunrise 将其依次分为首卷、Mk-II、Mk-III、Mk-IV、Mk-V，短篇数量分别为3、3、6、2、3，合计17话；TMDB 则把这五卷分别建成 movie 627384、508232、513567、513573、513597，因此需要五个电影目标共同覆盖本 subject。未采用 TMDB movie 508108：它对应1988年3月12日院线版，是由 OVA 前两部重编的同映短片，不是包含第三部“SD奥林匹克”的 OVA 首卷；首卷应采用语义更直接的《Mk I》627384。也不纳入《机动战士SD高达的逆袭》513569，因为 Bangumi 将其两个短篇列作独立关联作品，不属于本 subject 的17话正篇。旧候选 TV 9157 是2003年开始的52话《SD高达Force》，年代、标题和内容均不相符。\n\nhttps://bgm.tv/subject/298573 (page): Bangumi 当前页面明确标为 OVA、全17话，并列出的正篇从首卷三篇，经 Mk-II、Mk-III、Mk-IV 至 Mk-V；《逆袭》的两个短篇另列为关联条目。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=53 (page): Sunrise 官方资料确认本作首卷于1988年5月25日发行、全17话，并按首卷3篇、Mk-II 3篇、Mk-III 6篇、Mk-IV 2篇、Mk-V 3篇列出全部标题。\n\nhttps://www.themoviedb.org/collection/525348-sd (page): TMDB 的 Mobile Suit SD Gundam Collection 将五卷分别链接为《Mk I》movie 627384、《Mk II》508232、《Mk III》513567、《Mk IV》513573和《Mk V》513597；标题、顺序及各卷内容说明与 Sunrise 的17话分组对应。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=244 (page): Sunrise 将1988年3月12日院线《机动战士SD高达》与1988年5月25日开始的全17话 OVA 明确列为不同作品；院线版内容只有“激斗篇”和“休日篇”。\n\nhttps://eiga.com/movie/83198/ (page): 映画.com 进一步说明1988年3月12日院线短片由 OVA 的前两部重编而成，证明 TMDB movie 508108 不能替代完整的 OVA 首卷。\n\nhttps://www.themoviedb.org/tv/9157 (api_snapshot): TMDB API 快照显示 TV 9157 原名为《SDガンダムフォース》，2003年首播，共52集、两季；它不是1988年开始发行的17话 OVA。",
+    "evidence": "codex: 可确认 subject 主体是官方定义的五卷17话 OVA。采用 TV 201892 第一至第三季、第四季第1至2集，以及电影513597覆盖第五卷；各范围分别核实了内容、年代和制作方。第五季存在无法辨认的额外集，改用已经核实的第五卷电影条目。逐集仅提交标题、顺序及分卷数量明确一致的对应；Bangumi 章节表存在重复、混入和缺失，不能生成连续17话规则。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=53 (page): Sunrise 官方将本作列为1988年5月25日开始发行的17话 OVA，五卷分别包含3、3、6、2、3篇；制作人员包括アミノテツロー、高松信司。官方分卷内容可用于区分同名剧场作品及其他衍生动画。\n\nhttps://bgm.tv/subject/298573/ep (page): Bangumi 主页面标为17话 OVA，简介与官方五卷内容相符；但实际章节表存在9/13、10/15、11/17标题重复，混入《逆袭》的学园祭篇及《パパルの暁》，并缺少官方第三卷的五篇战国传标题。\n\nhttps://www.themoviedb.org/tv/201892 (api_snapshot): TMDB TV 201892 是 Sunrise 制作的早期 SD 高达短篇系列，第一至第五季分别标记为 Mk I 至 Mk V；第六季以后另收录逆袭、外传等作品，因此不能映射整个 TV 条目。\n\nhttps://www.themoviedb.org/tv/201892/season/1 (api_snapshot): 第一季共3集，逐集标题和剧情分别对应激斗篇、休日篇、SD奥林匹克，与 Bangumi 第1至3话一致，包含完整首卷内容。集表日期为1988年3月12日、19日、26日，与官方 OVA 发行日期不一致。\n\nhttps://www.themoviedb.org/tv/201892/season/2 (api_snapshot): 第二季共3集，依次为殖民地滚动事件、初代高达名场面、Gundam Legend，与 Bangumi 第4至6话标题及顺序一致。TMDB 所列逐周日期不能作为真实 OVA 分篇发行日期使用。\n\nhttps://www.themoviedb.org/tv/201892/season/3 (api_snapshot): 第三季共6集，内容为宇宙神秘大作战、忍者合战及天、地、真、理四篇，与官方第三卷完整内容一致；Bangumi 仅第8话能按标题明确对应本季第1集。\n\nhttps://www.themoviedb.org/tv/201892/season/4 (api_snapshot): 第四季第1、2集分别为梦之马隆社宇宙之旅、SD高达猛竞赛，对应官方第四卷两篇；第3集另标为 Appendix，不纳入主体范围。\n\nhttps://www.themoviedb.org/tv/201892/season/5 (api_snapshot): 第五季有5集，英语和日语集名均为通用编号且简介为空，无法确认官方第五卷三篇分别对应哪些集，不能直接采用全季或猜测第1至3集。\n\nhttps://www.themoviedb.org/movie/513597 (api_snapshot): 电影513597为1990年10月25日发行的 Mk V，制作方为 Sunrise、Bandai Visual 等，导演为アミノテツロー及高松信司；别名包含灵格斯运输篇，简介涉及战国高达驱邪，与官方第五卷内容及制作人员相符。\n\nhttps://www.themoviedb.org/movie/627384 (api_snapshot): 旧映射首卷电影627384的详情请求返回 HTTP 404，当前不能继续将其作为有效目标。\n\n备注：Bangumi 章节缺少发行日期；TMDB 多季集表采用逐周递增日期，与 OVA 整卷发行方式及官方首卷日期冲突。本次逐集匹配依赖明确标题、剧情和分卷集数，不将这些日期视为已核实。；第9与13话标题重复，无法确定应由哪个章节占用第四季第1集，故两者均暂不提交逐集映射。；第10/15、11/17话重复；第五卷仅作作品级匹配，不把单篇冒充完整电影。；第7、12话不在官方五卷17话目录中，暂留空；官方第三卷其余五篇在输入章节表中没有可确认的对应章节。；Bangumi 标注的1989年结束日期与其简介包含1990年发行的 Mk III至Mk V 冲突；主体范围依据官方17话分卷目录及 Bangumi 简介确定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/298573; https://www.sunrise-inc.co.jp/work/detail.php?cid=53; https://www.themoviedb.org/collection/525348-sd; https://www.sunrise-inc.co.jp/work/detail.php?cid=244; https://eiga.com/movie/83198/; https://www.themoviedb.org/tv/9157",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/298573; https://www.sunrise-inc.co.jp/work/detail.php?cid=53; https://bgm.tv/subject/298573/ep; https://www.themoviedb.org/tv/201892; https://www.themoviedb.org/tv/201892/season/1; https://www.themoviedb.org/tv/201892/season/2; https://www.themoviedb.org/tv/201892/season/3; https://www.themoviedb.org/tv/201892/season/4; https://www.themoviedb.org/tv/201892/season/5; https://www.themoviedb.org/movie/513597; https://www.themoviedb.org/movie/627384",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 201892
+    },
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 4,
+      "tmdbId": 201892
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 627384,
-      "type": "movie"
+      "id": 201892,
+      "season": 1,
+      "type": "tv"
     },
     {
-      "id": 508232,
-      "type": "movie"
+      "id": 201892,
+      "season": 2,
+      "type": "tv"
     },
     {
-      "id": 513567,
-      "type": "movie"
+      "id": 201892,
+      "season": 3,
+      "type": "tv"
     },
     {
-      "id": 513573,
-      "type": "movie"
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 201892,
+      "season": 4,
+      "type": "tv"
     },
     {
       "id": 513597,

@@ -1,20 +1,105 @@
 {
   "anidbId": 18014,
   "bangumiId": 291204,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 904914,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 904915,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 904916,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 904917,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 904918,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 904919,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 904920,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 904921,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 904922,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 904923,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 904924,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 904925,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 904926,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 218946 的2023年动画版，范围为两集前传及11集正片，排除总集篇和第1季末尾重复列出的前传。Bangumi 第4—13集与 TMDB S01E02—E11 的十个播出日期逐集一致，建立连续规则；首日三集缺少可辨识标题，暂不填写其逐集对应。\n\nhttps://bgm.tv/subject/291204 (page): Bangumi 条目为2023年1月24日开播的13集网络动画，总导演钟沐龙，百漫文化制作，腾讯视频、企鹅影视等出品；剧情改编《蛮荒》《苍云古齿》。\n\nhttps://www.themoviedb.org/tv/91280 (api_snapshot): TMDB 91280 是2019年7月16日开播、刘昊然等主演、张晓波执导的56集真人剧；旧映射及其 IMDb、TVDB 线索对应错误版本。\n\nhttps://www.themoviedb.org/tv/218946 (api_snapshot): TMDB 218946 首播日期为2023年1月24日，别名明确包含动画版，剧情与 Bangumi 一致，制作公司包含腾讯视频、百漫文化及企鹅影视。\n\nhttps://www.themoviedb.org/tv/218946/season/1 (api_snapshot): 第1季完整季表共15集：第1—11集于2023年1月24日至4月4日每周播出；第12—13集为总集篇，第14—15集为另列的前传上下篇，不能将整季全部纳入。\n\nhttps://www.themoviedb.org/tv/218946/season/0 (api_snapshot): 第0季完整季表共4集：第1—2集为前传上下篇，均标2023年1月24日；第3—4集为4月11日、18日的总集篇。\n\nhttps://wetv.vip/zh-cn/play/z1f8641l8cgp2xg/z0045fuje37-%E4%B9%9D%E5%B7%9E%E7%BC%A5%E7%BC%88%E5%BD%95_05 (search_snippet): 官方 WeTV 剧集目录分别列出正片01—11、前篇1—2及两集总集篇，支持将13集剧情内容与总集篇区分。\n\nhttps://bangumi.tv/subject/291204/ep (page): Bangumi 第1—3集均为2023年1月24日且无标题；第4—13集日期依次为1月31日、2月7日、14日、21日、28日、3月7日、14日、21日、28日、4月4日，与 TMDB 第1季第2—11集逐集一致。\n\n备注：Bangumi 第1—3集同日播出且无标题、时长，尚不能严格区分其分别对应 S00E01、S00E02、S01E01 的顺序，三章保留未映射。；TMDB 前传同时列于第0季和第1季末尾，日期不同；本提案采用与 Bangumi 首播日期一致的第0季记录，不重复纳入第1季第14—15集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/291204; https://www.themoviedb.org/tv/91280; https://www.themoviedb.org/tv/218946; https://www.themoviedb.org/tv/218946/season/1; https://www.themoviedb.org/tv/218946/season/0; https://wetv.vip/zh-cn/play/z1f8641l8cgp2xg/z0045fuje37-%E4%B9%9D%E5%B7%9E%E7%BC%A5%E7%BC%88%E5%BD%95_05; https://bangumi.tv/subject/291204/ep",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 4,
+      "tmdbId": 218946
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 91280,
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 218946,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 11,
+      "id": 218946,
+      "season": 1,
       "type": "tv"
     }
   ]

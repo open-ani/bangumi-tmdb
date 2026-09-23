@@ -1,14 +1,40 @@
 {
   "anidbId": 9125,
   "bangumiId": 66449,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 248841,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 248842,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 248843,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 248844,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 359733,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: SHORT PEACE 是2013年7月20日上映的68分钟动画合集，包含开场动画及《九十九》《火要鎮》《GAMBO》《武器よさらば》四个短篇；这与 Bangumi subject 的主体和5条正篇条目一致。TMDB 电影 ID 252520 有独立交叉标识证据，因此采用 BangumiExtLinker 的电影定位。TMDB 确实另有同名5集电视条目表示，但本轮搜索未能从 TMDB 页面独立确认候选 ID 240745，故不将其纳入推荐。AniDB 9125 与该 SHORT PEACE 合集对应，未发现关联错误。\n\nhttps://jfdb.jp/en/title/3835 (search_snippet): 日本电影数据库记载 SHORT PEACE 于2013年7月20日发行、片长68分钟，为包含四个短篇并带开场动画的动画合集。\n\nhttps://www.wikidata.org/wiki/Q11243303 (search_snippet): 该 SHORT PEACE 项目条目列出 AniDB anime ID 9125 和 TMDB movie ID 252520，并记载2013年7月20日发行。\n\nhttps://www.themoviedb.org/person/936275?language=en-US (search_snippet): TMDB 的悠木碧演职员页同时列出2013年 SHORT PEACE 的5 episodes电视表示和1部电影表示，角色为《九十九》相关角色。\n\nhttps://www.themoviedb.org/person/221773-saori-hayami (search_snippet): TMDB 的早见沙织演职员页同时列出2013年 SHORT PEACE 的5 episodes电视表示和电影表示，角色为《火要鎮》的お若。\n\n备注：候选电视 ID 240745 的具体 TMDB 页面及其第1季逐集标题/内容本轮无法独立读取，因此不能确认该 ID，也不能据此推荐电视季或填写集数范围。",
+    "evidence": "codex: 匹配电影252520。上映日期、媒介、片长、四部短片的剧情与导演以及开场动画均确认是同一完整合集。Bangumi的5条本篇是电影内部段落，因此采用整部电影映射，逐集规则留空。同名电视条目的集表不足以支持可靠的逐集映射。\n\nhttps://jfdb.jp/en/title/3835 (page): 日本电影数据库确认本作是2013年7月20日上映、片长68分钟的动画合集，由《九十九》《火要鎮》《GAMBO》《武器よさらば》及森本晃司执导的开场动画组成；四部短片的导演、剧情及SUNRISE制作信息均与输入吻合。\n\nhttps://www.themoviedb.org/movie/252520 (api_snapshot): 电影252520的上映日期为2013年7月20日，片长68分钟，制作公司为SUNRISE；简介明确列出四部短片及各自导演，演职员包含开场导演森本晃司，确认对应完整合集。\n\nhttps://www.themoviedb.org/tv/240745 (api_snapshot): 同名电视条目240745确实存在，共1季5集，部分配音和制作公司一致，但首播日期为2013年7月30日；其IMDb标识tt3392330与输入seed一致，而电影252520返回的是tt2508466。\n\nhttps://www.themoviedb.org/tv/240745/season/1 (api_snapshot): 已读取电视条目第1季全部5集，total_pages为1。日文集名均为泛称“第N話”，无剧情简介，日期为2013年7月30日或8月6日，无法据此核实与Bangumi五个具名段落的逐集对应。\n\n备注：电视240745的日期与院线上映日期不同，且集名缺乏辨识信息，其版本性质及五集对应关系尚未核实；不影响完整电影的匹配。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/66449; https://jfdb.jp/en/title/3835; https://www.wikidata.org/wiki/Q11243303; https://www.themoviedb.org/person/936275?language=en-US; https://www.themoviedb.org/person/221773-saori-hayami",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/66449; https://jfdb.jp/en/title/3835; https://www.themoviedb.org/movie/252520; https://www.themoviedb.org/tv/240745; https://www.themoviedb.org/tv/240745/season/1",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

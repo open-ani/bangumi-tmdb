@@ -1,14 +1,30 @@
 {
   "anidbId": 14579,
   "bangumiId": 270636,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 849753,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 850336,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 850337,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2018-12-31 播出的《マンガで分かる！Fate/Grand Order》，共 3 话，由 A-1 Pictures 制作。相同日文标题的独立资料页列出同一日期、导演及 A-1 Pictures，并将 TMDB 链接指向电影 ID 1052374；其 14 分钟电影条目可对应该 3 话主体。候选 TV ID 90677 实际是 2019 年《Fate/Grand Order -绝对魔兽战线巴比伦尼亚-》，剧情和作品版本均不符，因此不采用。\n\nhttps://bgm.tv/subject/270636 (page): Bangumi 条目标注标题《マンガで分かる！Fate/Grand Order》、2018-12-31、3 话、A-1 Pictures，并列出第 1–3 话。\n\nhttps://letterboxd.com/film/learning-with-manga-fate-grand-order/ (page): 相同日文标题的 2018 年条目列出导演 Shun Enokido/Hirotaka Mori、A-1 Pictures、2018-12-31、14 分钟，并提供指向 TMDB /movie/1052374 的链接。\n\nhttps://www.themoviedb.org/tv/90677 (api_snapshot): 输入提供的 TMDB API 快照显示 90677 的标题是《Fate/Grand Order -絶対魔獣戦線バビロニア-》，首播日期为 2019-10-05，主 TV 季为 21 集；与 Bangumi subject 不同。\n\nhttps://www.themoviedb.org/tv/90677/season/0 (api_snapshot): 输入提供的季 API 快照显示该候选的特别篇包括 Babylonia 的《Initium Iter》及总集篇，不是《マンガで分かる！Fate/Grand Order》的 3 话主体。\n\n备注：AniDB 14579 页面访问返回 403，未能独立读取 AniDB 页面核验该关联；但 TMDB 目标由 Bangumi 条目与同标题、同日期、同制作信息的独立资料及其 TMDB 链接直接支持。",
+    "evidence": "codex: 确认对应 TMDB movie 1052374。首播日期、制作公司、角色配音及完整短片时长共同支持其覆盖 Bangumi 的三话主体；这是同一电视短篇在 TMDB 中按电影条目整体收录。TMDB 未提供三话独立集号，因此仅提交作品级映射，逐集规则留空。90677 及其第 0 季属于另一部作品，不采用。\n\nhttps://bgm.tv/subject/270636 (page): Bangumi 标注本作为 2018-12-31 播出的 3 话动画，三话首播日期相同，动画制作为 A-1 Pictures。\n\nhttps://a1p.jp/works/manga_fgo/ (page): A-1 Pictures 官方作品页确认本作是 2018-12-31 的电视动画，原案为リヨ，导演为榎戸駿、坂詰嵩仁，主人公由金田朋子配音，玛修由高橋李依配音。\n\nhttps://www.themoviedb.org/movie/1052374 (api_snapshot): 实际调用 TMDB 详情确认 movie 1052374 为同名作品，日期为 2018-12-31，时长 14 分钟，制作公司为 A-1 Pictures；主人公、玛修及其他主要角色配音与官方资料一致。\n\nhttps://gyao-youtube.hatenablog.com/entry/2019/01/02/201341 (search_snippet): 2019-01-02 的同期文章记载该短篇在 2018 年跨年特别节目播出并由官方账号发布，完整视频长 14 分 40 秒，且明确讨论其中第 3 话，支持三话合为一部短片的收录方式。\n\nhttps://www.themoviedb.org/tv/90677 (api_snapshot): TV 90677 实际是 2019-10-05 首播、CloverWorks 制作的《绝对魔兽战线巴比伦尼亚》，剧情为古代美索不达米亚特异点战斗，与本作版本不同。\n\nhttps://www.themoviedb.org/tv/90677/season/0 (api_snapshot): 已读取 TV 90677 第 0 季全部 5 集，内容为 Initium Iter、三部总集篇及一集日期为 2020-12-31 的未命名特别篇，没有本作三话；其中总集篇 III 虽标为 2018-12-31，也不能仅凭日期认定对应。\n\n备注：TMDB 导演字段列榎戸駿、森大貴，官方列榎戸駿、坂詰嵩仁；Bangumi 将森大貴列为分镜、演出人员，存在职务标注差异，以官方资料为准。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/270636; https://letterboxd.com/film/learning-with-manga-fate-grand-order/; https://www.themoviedb.org/tv/90677; https://www.themoviedb.org/tv/90677/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/270636; https://a1p.jp/works/manga_fgo/; https://www.themoviedb.org/movie/1052374; https://gyao-youtube.hatenablog.com/entry/2019/01/02/201341; https://www.themoviedb.org/tv/90677; https://www.themoviedb.org/tv/90677/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

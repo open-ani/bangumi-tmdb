@@ -1,19 +1,90 @@
 {
   "bangumiId": 156152,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 586433,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 586434,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 586435,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 586436,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 595600,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 603299,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 614553,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 616918,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 616922,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 618820,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 624020,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 624021,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 匹配 TMDB 196698 第1季全季。2015年动态漫画版本、首播日期、剧情、配音和12集总量相符，全部集标题逐一同序对应，可建立1—12集连续规则。旧映射指向2021年真人剧，应替换。\n\nhttps://www.themoviedb.org/tv/196698 (api_snapshot): TMDB 196698 为《长歌行 动态漫》，首播于2015-10-23，共1季12集；别名明确标注动态漫画，剧情及李长歌、阿窦配音信息与本作一致。\n\nhttps://www.themoviedb.org/tv/196698/season/1 (api_snapshot): 第1季完整集表共12集，标题从《黄钟》至《昙华篇 应钟》，逐集与输入的12个章节完全同序一致。首集日期一致，第2至12集日期与 Bangumi 不同。\n\nhttps://www.bilibili.com/bangumi/media/md2960/ (search_snippet): 哔哩哔哩正版条目标明《长歌行 动态漫》于2015年10月23日开播，已完结、全12话，支持版本和集数范围。\n\nhttps://bkso.baidu.com/item/长歌行/18741922?fromModule=lemma_inlink (search_snippet): 资料标明这是2015年燃也文化制作、夏达原作的动态漫画，配音导演张震、制片人朱雀橙；所列12集标题与 Bangumi 和 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/122182 (api_snapshot): 旧映射 TMDB 122182 实为2021-03-31首播、迪丽热巴和吴磊主演的49集真人电视剧；其 IMDb、TVDB、Wikidata 标识与 seed 相同，属于错误版本线索。\n\n备注：TMDB 第2—12集日期按周递增，末集为2016-01-08；Bangumi 末集为2016-03-18，两者排期不一致。逐集映射依据全部独特标题和完整集数确认，未将 TMDB 后续日期视为已核实的实际播出日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/156152; https://www.themoviedb.org/tv/196698; https://www.themoviedb.org/tv/196698/season/1; https://www.bilibili.com/bangumi/media/md2960/; https://bkso.baidu.com/item/长歌行/18741922?fromModule=lemma_inlink; https://www.themoviedb.org/tv/122182",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 196698
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 122182,
+      "id": 196698,
+      "season": 1,
       "type": "tv"
     }
   ]

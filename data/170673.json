@@ -1,20 +1,61 @@
 {
   "bangumiId": 170673,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 616526,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 616527,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 616528,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 616529,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 616530,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 616531,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 62125《Vixen》第一季完整六集：首播日期、网络动画媒介、制作方、人物与完整剧情均一致，季内不混入其他作品。旧电影映射错误。Bangumi 六个章节缺少标题和播出日期，无法直接逐集交叉核验，因此确认整季范围，暂不生成逐集规则。\n\nhttps://bgm.tv/subject/170673 (page): Bangumi 标注为2015年8月25日首播的六集网络动画，播放平台为 CW Seed，制作方包括 Warner Bros. Animation、Blue Ribbon Content 和 DC Entertainment；剧情为 Mari 获得图腾力量并与 Kuasa 对抗，另将 Vixen: The Movie 列为总集篇。\n\nhttps://www.dc.com/blog/2015/08/25/vixen-roars-into-action-today-on-cw-seed (page): DC 官方首播公告确认本作于2015年8月25日在 CW Seed 上线，共六集短篇动画，由 Greg Berlanti、Marc Guggenheim、Andrew Kreisberg 执行制作，主角为 Mari McCabe，并有绿箭侠和闪电侠登场。\n\nhttps://www.themoviedb.org/tv/62125 (api_snapshot): TMDB TV 62125 为2015年首播的 Vixen，主角、图腾设定、配音演员及三家制作公司均吻合；第一季 Family Reunion 共六集，第二季于2016年另行播出。\n\nhttps://www.themoviedb.org/tv/62125/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共六集，标题为 Family Reunion: Episode 1 至 Episode 6；播出日期依次为2015-08-25、09-01、09-08、09-15、09-22、09-29。\n\nhttps://www.tvmaze.com/seasons/9038/vixen-season-1/episodeguide (page): TVmaze 第一季六集的日期与 TMDB 逐集一致；剧情依次涉及获释、向教授求助、英雄来访、追逐与背叛、姐妹身世揭示、夺回图腾，与 Bangumi 整体简介吻合。\n\nhttps://www.themoviedb.org/movie/5721 (api_snapshot): 旧映射 movie 5721 实为1968年的 Vixen!，导演为 Russ Meyer，角色、剧情、制作公司和年代均与本动画不同；旧 IMDb、Wikidata 线索亦属于该电影。\n\n备注：Bangumi 输入中的章节仅有 sort 1—6，标题及日期均为空，章节列表网页亦未能读取；需补充章节元数据后再确认各章节 ID 的逐集对应，不能仅凭排列位置填写规则。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/170673; https://www.dc.com/blog/2015/08/25/vixen-roars-into-action-today-on-cw-seed; https://www.themoviedb.org/tv/62125; https://www.themoviedb.org/tv/62125/season/1; https://www.tvmaze.com/seasons/9038/vixen-season-1/episodeguide; https://www.themoviedb.org/movie/5721",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 62125
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 5721,
-      "type": "movie"
+      "id": 62125,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

@@ -1,13 +1,39 @@
 {
   "bangumiId": 165892,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 667200,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 667201,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 667202,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 667203,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 667204,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB电影378106：上映日期、第三章身份、导演、制作方、声优及第三章剧情相符。Bangumi第9—13话是《告白》的五段分集版，整体对应这部电影；电影条目没有可核实的逐集编号，因此仅提交作品级映射，逐集规则和特例留空。\n\nhttps://www.themoviedb.org/movie/378106 (api_snapshot): 日文原名搜索命中 movie/378106；详情确认上映日期为2016-09-24，导演元永庆太郎、制作公司东映动画，剧情为缅因猫兽异变消灭狮子兽后众人调查原因，与第三章《告白》一致。\n\nhttps://jfdb.jp/title/6482 (page): JFDB确认本片为全六章中的第三章，2016-09-24上映、105分钟；导演、制作公司、主要声优及缅因猫兽异变的剧情均与TMDB一致。\n\nhttps://www.primevideo.com/-/fr/detail/0GU9VZHTXZSKW3KKZCFFS8FCHV?tr=as (search_snippet): Prime Video分集版将第9至13集依次列为《告白》第一至第五部分，日期均为2016-09-24，与输入的五个Bangumi章节编号和日期吻合。\n\n备注：片长存在元数据冲突：Bangumi为114分钟，TMDB为91分钟，JFDB为105分钟；差异原因未确认，不能据此认定具体剪辑版本。；输入简介描述系列开篇，不能作为第三章剧情证据；第三章身份已通过独立资料核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/165892; https://www.themoviedb.org/movie/378106; https://jfdb.jp/title/6482; https://www.primevideo.com/-/fr/detail/0GU9VZHTXZSKW3KKZCFFS8FCHV?tr=as",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

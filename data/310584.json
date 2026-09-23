@@ -1,19 +1,80 @@
 {
   "bangumiId": 310584,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 965391,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 965392,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 965393,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 965394,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 965395,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 965396,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 965397,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 965398,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 965399,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 965400,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为 TMDB 81554 第一季全十集。法国制作背景、剧情、核心制作人员及十章节结构吻合；逐集标题和顺序一致，第9集仅存在标题尾部数字缺失。2018年电影节放映与2020年 Netflix 上线属于同一系列的不同发行时间，支持本篇1—10连续对应第一季1—10。\n\nhttps://www.themoviedb.org/tv/81554 (api_snapshot): TMDB 81554 为法国 Bobbypills 制作的《Crisis Jung》，剧情同为 Jung 寻回被 Petit Jésus 斩首的爱人 Maria；共一季十集，IMDb 编号为 tt8787226。\n\nhttps://www.themoviedb.org/tv/81554/season/1 (api_snapshot): 第一季集表共十集且只有一页，日期均为 2020-02-01。第1—8、10集标题与输入逐一一致；第9集为 VIOLENCE X1000，对应输入的 Violence X。\n\nhttps://2019.slashfilmfestival.com/en/films-2019/crisis-jung/ (page): 电影节官方资料将作品标为法国2018年、70分钟，明确说明原为十个短章节组成的网络剧；导演为 Baptiste Gaubert、Jérémie Hoarau，四位编剧与输入一致，剧情亦吻合。\n\nhttps://www.leedsfilm.com/cms_files/MediaGalerij/Other/otherfiles0666_00.pdf (search_snippet): 利兹电影节官方节目册说明2018年放映的是整部电视系列的连续放映，支持电影节长片时长与十集系列属于同一作品。\n\nhttps://www.betaseries.com/saison/crisis-jung/1 (search_snippet): BetaSeries 将第一季 Netflix 上线日期记为2020年2月1日，共十集，与 TMDB 季表一致，可解释2018年作品年份与2020年平台日期的差别。\n\n备注：Bangumi 各集日期为空，无法进行两端逐集日期对照；逐集映射依据完整标题序列及十集总量确认。；输入单集时长10分钟与 TMDB 的7分钟不同；电影节官方资料的十章节、总长70分钟支持后者。TMDB 将 Jérémie Périn 列为导演，也与电影节导演署名有差异，但不影响作品身份确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/310584; https://www.themoviedb.org/tv/81554; https://www.themoviedb.org/tv/81554/season/1; https://2019.slashfilmfestival.com/en/films-2019/crisis-jung/; https://www.leedsfilm.com/cms_files/MediaGalerij/Other/otherfiles0666_00.pdf; https://www.betaseries.com/saison/crisis-jung/1",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 81554
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 81554,
+      "season": 1,
       "type": "tv"
     }
   ]

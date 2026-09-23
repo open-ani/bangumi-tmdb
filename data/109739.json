@@ -1,13 +1,34 @@
 {
   "bangumiId": 109739,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 526368,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 587116,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 587117,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 587118,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 上映日期、剧情时间线、导演、角色设计及制作方共同确认对应TMDB电影357400，范围仅为第一章《再会》。Bangumi所列四话未找到可核实的TMDB分集对应，因此保留作品级电影映射，逐集规则留空。\n\nhttps://www.themoviedb.org/movie/357400 (api_snapshot): TMDB 357400 为第一章《再会》的独立电影，上映日期为2015-11-21；导演元永庆太郎、编剧柿原优子，制作公司含东映动画及颱风Graphics。剧情为首次冒险六年后太一等人与数码宝贝重逢，与输入吻合。\n\nhttps://corp.toei-anim.co.jp/ja/press/press5228397981824521418.html (page): 东映官方公告确认《tri.》共六章，本作是第一章《再会》，2015-11-21剧场上映；导演元永庆太郎、角色设计宇木敦哉、企划制作东映动画，描写成为高中生的太一等人的后续故事。\n\nhttps://jfdb.jp/title/5788 (page): JFDB确认第一章的上映日期、导演、角色设计及制作公司，并说明故事发生于初代六年后、第二作三年后；片长记为89分钟。\n\nhttps://www.themoviedb.org/tv/331129/season/1 (api_snapshot): 同名TV候选331129缺少首播日期、剧情及制作人员；第1季实际仅有无日期的第26话，无法支持本subject四话的逐集对应。\n\n备注：片长记录存在差异：输入96分钟、TMDB 97分钟、JFDB 89分钟；现有资料未说明差异原因，无法确认具体剪辑时长版本。；四个Bangumi章节缺少标题，已读取的TV季表也没有对应四话，暂不建立章节映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/109739; https://www.themoviedb.org/movie/357400; https://corp.toei-anim.co.jp/ja/press/press5228397981824521418.html; https://jfdb.jp/title/5788; https://www.themoviedb.org/tv/331129/season/1",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

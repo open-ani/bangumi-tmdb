@@ -1,21 +1,37 @@
 {
   "anidbId": 9771,
   "bangumiId": 197893,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 911404,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 911404,
+      "targets": [
+        {
+          "id": 484645,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过剧情、导演兼编剧、制作公司、短片媒介和片长确认对应 TMDB movie 484645，唯一章节映射整部短片。旧映射及 seed 外部标识指向同名电视动画，应予替换。\n\nhttps://www.themoviedb.org/movie/484645 (api_snapshot): TMDB movie 484645 的原名为《ゴールデンタイム》，导演及编剧为稲葉卓也，制作公司为 Robot Communications，片长22分钟；剧情为1980年代日本被丢弃的旧电视试图逃离废品场，与本 subject 一致。\n\nhttps://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20131202067440/140120131202067440.pdf (page): ROBOT 官方新闻稿确认本片为稲葉卓也执导的独立动画短片，2013年制作，长22分50秒，2014年1月11日在日本首次院线上映；剧情、音乐及制作方均与 Bangumi 信息一致。本片虽与其他两部短片联合放映，但为独立作品。\n\nhttps://www.themoviedb.org/tv/67389 (api_snapshot): 旧映射 TV 67389 是2013年10月3日首播、J.C.STAFF 制作的24集大学恋爱动画，主角为多田万里与加贺香子，导演为今千秋；其 IMDb、TVDB 与 Wikidata 标识正是 seed 所列标识，属于同名异作。\n\n备注：TMDB 标注日期为2014年6月15日，与官方确认的日本院线上映日2014年1月11日不同；该日期的具体发行场次未核实，但其他身份信息充分一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/197893; https://www.themoviedb.org/movie/484645; https://assets.minkabu.jp/news/article_media_content/urn:newsml:tdnet.info:20131202067440/140120131202067440.pdf; https://www.themoviedb.org/tv/67389",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 67389,
-      "type": "tv"
+      "id": 484645,
+      "type": "movie"
     }
   ]
 }

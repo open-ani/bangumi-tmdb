@@ -1,20 +1,57 @@
 {
   "anidbId": 8686,
   "bangumiId": 65565,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 245302,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 423686,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 245302,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 46183,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 423686,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 46183,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 两话 OAD 的标题、发行日期、制作人员和剧情均对应 TMDB 46183 第0季第2—3集。第0季还含2012年特别篇，因此仅映射已核实的两集，并以章节 ID 明确对应。\n\nhttps://bgm.tv/subject/65565 (page): Bangumi 将本条目标为两话随书 OVA，分别附于小说第13卷、第18卷；发行日期为2013-06-25、2015-03-25，导演川崎逸朗，动画制作 feel.。\n\nhttps://www.themoviedb.org/tv/46183 (api_snapshot): TMDB 46183 的人物、剧情、导演川崎逸朗及制作公司 feel. 与本作一致；该条目设有独立的第0季特别篇。\n\nhttps://www.themoviedb.org/tv/46183/season/0 (api_snapshot): 第0季完整集表共3集、1页。第2集的三段标题及2013-06-25日期与 Bangumi 第1话一致；第3集《異人たちとの春》及2015-03-25日期与第2话一致。第1集《ぽっかぽか》日期为2012-07-11，不属于本 subject。\n\nhttps://dash.shueisha.co.jp/papakiki_2014/papakiki18_yoyaku.pdf (search_snippet): 集英社官方预约单明确第18卷附《異人たちとの春》OVA，发行日期为2015-03-25。\n\nhttps://www.video.unext.jp/title/SID0046208/c_txt%3Db?adid=XXX&cid=D33035&rid=SID0046208 (search_snippet): U-NEXT 将《異人たちとの春》列为2015年OVA，剧情为祐理、信吾以灵体返回并探望成长后的家人，与 TMDB 第0季第3集简介一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/65565; https://www.themoviedb.org/tv/46183; https://www.themoviedb.org/tv/46183/season/0; https://dash.shueisha.co.jp/papakiki_2014/papakiki18_yoyaku.pdf; https://www.video.unext.jp/title/SID0046208/c_txt%3Db?adid=XXX&cid=D33035&rid=SID0046208",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 2,
+      "episodeEnd": 3,
       "id": 46183,
+      "season": 0,
       "type": "tv"
     }
   ]

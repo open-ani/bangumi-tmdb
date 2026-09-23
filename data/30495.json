@@ -1,14 +1,30 @@
 {
   "anidbId": 237,
   "bangumiId": 30495,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 912659,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912659,
+      "targets": [
+        {
+          "id": 21769,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2002-03-22 上映、90 分钟的动画电影《Armitage III: Dual-Matrix》，不是真人版，也不是前作《Poly-Matrix》。TMDB 电影 ID 21769 与该作品直接对应。TMDB 电视条目 69980 则将该系列及电影收录在一起；其第 0 季第 2 集明确为 Dual Matrix，因此电视方向只能取 S0E2，不能把整季或 1995 年的 4 集 OVA 一并映射。两份来源的定位方向均成立，但 AnimeLists 需要补充集数范围。AniDB 237 与该 2002 年电影的关联也得到独立资料支持。\n\nhttps://bangumi.tv/subject/30495 (search_snippet): Bangumi 页面将该主体标为剧场版，1 话，2002 年 3 月 22 日上映，片长 90 分钟，标题为《アミテージ・ザ・サード DUAL-MATRIX》。\n\nhttps://www.wikidata.org/wiki/Q2654848 (search_snippet): 条目标为 2002 年的 anime film《Armitage III: Dual-Matrix》，时长 90 分钟，并列出 AniDB anime ID 237 与 TMDB movie ID 21769。\n\nhttps://bingebase.com/tv/armitage-iii-1995 (search_snippet): 《Armitage III》电视条目显示主季为 1995 年 4 集，另有 Season 0 的 2 个 special；其中 S0.E2 明确标为 Dual Matrix，播出日期为 2002-03-22。\n\nhttps://www.lavanguardia.com/peliculas-series/series/armitage-iii-69980 (search_snippet): 搜索结果对应的系列条目 URL 含 ID 69980，页面摘要显示其为 1995 年动画《Armitage III》，主季 4 集。",
+    "evidence": "codex: 电影21769在日期、剧情、制作人员、制作公司及片长上均吻合，确认对应本subject唯一一话。该作是2002年DUAL-MATRIX续作，不是1995年OVA或前作POLY-MATRIX。旧电视特别篇映射未获当前API支持，因此仅保留已核实的电影对应。\n\nhttps://bgm.tv/subject/30495 (page): Bangumi 标注本作为2002年3月22日上映、90分钟、共1话的动画电影；导演秋山勝仁，脚本長谷川菜穂子、柿沼秀樹，动画制作AIC。剧情为阿米蒂奇与罗斯携女儿隐居火星后，卷入地球反物质工厂事件。\n\nhttps://www.themoviedb.org/movie/21769 (api_snapshot): 电影21769的日文原名、上映日期、90分钟片长、导演、两名编剧及AIC制作信息均与Bangumi一致；简介中的夫妻、女儿与反物质工厂事件亦吻合，确认是2002年续作DUAL-MATRIX。\n\nhttps://www.themoviedb.org/tv/69980 (api_snapshot): 电视69980详情对应1995年作品，列出第1季共4集，未列出第0季。\n\nhttps://api.themoviedb.org/3/tv/69980/season/0 (api_snapshot): 实际请求电视69980第0季返回HTTP 404，无法核实旧映射所称的S0E2。\n\n备注：旧映射中的电视69980 S0E2目前无法读取，不能确认其是否已被移除；本次不纳入。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/30495; https://bangumi.tv/subject/30495; https://www.wikidata.org/wiki/Q2654848; https://bingebase.com/tv/armitage-iii-1995; https://www.lavanguardia.com/peliculas-series/series/armitage-iii-69980",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/30495; https://www.themoviedb.org/movie/21769; https://www.themoviedb.org/tv/69980; https://api.themoviedb.org/3/tv/69980/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,12 +32,6 @@
     {
       "id": 21769,
       "type": "movie"
-    },
-    {
-      "episode": 2,
-      "id": 69980,
-      "season": 0,
-      "type": "tv"
     }
   ]
 }

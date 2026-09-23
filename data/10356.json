@@ -1,19 +1,69 @@
 {
   "bangumiId": 10356,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 59313,
+      "sort": 63,
+      "type": 0
+    },
+    {
+      "id": 59314,
+      "sort": 64,
+      "type": 0
+    },
+    {
+      "id": 59315,
+      "sort": 65,
+      "type": 0
+    },
+    {
+      "id": 59316,
+      "sort": 66,
+      "type": 0
+    },
+    {
+      "id": 59317,
+      "sort": 67,
+      "type": 0
+    },
+    {
+      "id": 59318,
+      "sort": 68,
+      "type": 0
+    },
+    {
+      "id": 59319,
+      "sort": 69,
+      "type": 0
+    },
+    {
+      "id": 59320,
+      "sort": 70,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 330103第1季整季。年份、OVA版本、发行起止日期、8话总量及逐集标题和剧情相符；Bangumi沿用旧版累计编号63至70，TMDB独立编号1至8。两集日期差异有标题、剧情及外部集表交叉核实，不影响连续对应关系。\n\nhttps://bgm.tv/subject/10356 (page): Bangumi 标明本作是2002年发行的8话OVA，由嵯峨敏执导、日本动画公司制作，发行期间为1月17日至4月17日。\n\nhttps://www.nipponanimation.com/program/1803/ (search_snippet): 日本动画公司官方作品目录分别列出1999年TV版62话、2002年OVA 8话、2003年GREED ISLAND 8话及2004年G・I Final 14话，确认本作的媒介、年份和版本范围。\n\nhttps://api.themoviedb.org/3/tv/278257 (api_snapshot): 旧映射的TV ID 278257在本次详情查询中返回HTTP 404，不能继续作为已验证目标。\n\nhttps://www.themoviedb.org/tv/330103 (api_snapshot): 通过可靠别名搜索找到330103；详情确认为2002年1月17日至4月17日发行、共1季8集的OVA条目，IMDb关联为tt0435031。\n\nhttps://www.themoviedb.org/tv/330103/season/1 (api_snapshot): 第1季完整集表共8集、仅1页。英文标题及剧情逐集对应友客鑫市完结篇，从蜘蛛假尸体到人质交换及库洛洛念能力受限，没有混入后续GREED ISLAND。第1、2、5、6、7、8集日期与Bangumi一致，第3、4集存在日期差异。\n\nhttps://bgm.tv/subject/10356/ep (page): Bangumi本篇sort为63至70，共8话；各话标题顺序与TMDB第1季1至8集一致。sort 65、66的日期均为2002年2月20日。\n\nhttps://en.wikipedia.org/wiki/List_of_Hunter_%C3%97_Hunter_OVA_episodes (page): OVA集表提供全部8话的日英标题对照与剧情，支持63至70逐一对应TMDB第1季1至8集；其中第65、66话发行日均列为2002年2月20日。\n\n备注：TMDB第1季第3、4集日期为2002-01-20，Bangumi及外部OVA集表均为2002-02-20，疑为TMDB月份录入错误。；TMDB详情缺少制作公司及演职员资料；制作信息由Bangumi和官方目录补充核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10356; https://www.nipponanimation.com/program/1803/; https://api.themoviedb.org/3/tv/278257; https://www.themoviedb.org/tv/330103; https://www.themoviedb.org/tv/330103/season/1; https://bgm.tv/subject/10356/ep; https://en.wikipedia.org/wiki/List_of_Hunter_%C3%97_Hunter_OVA_episodes",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 70,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 63,
+      "tmdbId": 330103
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 278257,
+      "id": 330103,
       "season": 1,
       "type": "tv"
     }

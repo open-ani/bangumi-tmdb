@@ -1,14 +1,25 @@
 {
   "anidbId": 10535,
   "bangumiId": 100437,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 456696,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 456697,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 应定位为 2014 年动画电影 TMDB 260516《Lupin the Third: Jigen's Gravestone》。官方 TMS 标注本作全长约 52 分钟、2 集；Bangumi 的前后篇是该电影的章节拆分，因此电影目标覆盖完整主体，无需填写集数范围。AnimeLists 的 TMDB TV ID 31572 实际对应《Lupin the 3rd: Part I/II/III》等主线电视动画，年份、版本和内容均不符；也不是真人版。\n\nhttps://www.wikidata.org/wiki/Q17214581 (search_snippet): 页面将本作列为 2014 年 Takeshi Koike 执导的动画电影、片长 51 分钟，并明确列出 TMDB movie ID 260516。\n\nhttps://www.tms-e.co.jp/global/alltitles/lupin/010409.html (search_snippet): TMS 官方页面确认原题为《LUPIN THE IIIRD 次元大介の墓標》，标注 52 分钟、2 集，并给出与次元大介被杀手盯上的剧情简介。\n\nhttps://www.lupin-3rd.net/jigen-movie/ (search_snippet): 官方作品网站确认《次元大介の墓標》的故事内容，包括鲁邦与次元、杀手 Yael Okuzaki 及为目标预备墓碑的设定。\n\nhttps://www.themoviedb.org/tv/31572/season/1 (search_snippet): TMDB 搜索结果显示 ID 31572 是《Lupin the 3rd: Part I (1971)》，包含 23 集主线电视动画。\n\nhttps://www.themoviedb.org/tv/31572/season/2/episode/147?language=en-US (search_snippet): TMDB 搜索结果显示同一 TV ID 31572 还包含《Part II (1977)》155 集，进一步表明该 ID 是主线电视系列而非本作。",
+    "evidence": "codex: 确认对应 TMDB 电影 260516。上映日期、导演、制作方、剧情与片长相符；官方明确记载两集结构，Bangumi 的前篇、后篇共同覆盖该电影。采用完整电影目标，逐集规则留空，不将两个章节分别重复映射至同一电影。\n\nhttps://www.themoviedb.org/movie/260516 (api_snapshot): 以日文原名搜索命中电影 260516；详情确认上映日期为 2014-06-21、片长 51 分钟、导演小池健、编剧高桥悠也，制作公司包括 TMS 与 Telecom Animation Film。剧情为鲁邦与次元盗取宝石后遭遇预先为目标立墓的杀手，与本 subject 一致。\n\nhttps://www.tms-e.co.jp/global/alltitles/lupin/010409.html (page): TMS 官方资料将本作日文原名列为《LUPIN THE IIIRD 次元大介の墓標》，规格为 52 分钟、2 集，剧情同样涉及次元被预先为目标立墓的狙击手追杀，支持前后篇共同构成完整作品。\n\nhttps://www.lupin-3rd.net/jigen-movie/ (page): 电影官网确认本作曾在电影院限定上映，导演为小池健、编剧为高桥悠也；角色、配音与宝石盗窃及杀手ヤエル奥崎的剧情均与 TMDB 电影详情吻合。\n\n备注：TMS 标注 52 分钟，Bangumi 与 TMDB 标注 51 分钟；存在一分钟片长口径差异，其余身份信息一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/100437; https://www.wikidata.org/wiki/Q17214581; https://www.tms-e.co.jp/global/alltitles/lupin/010409.html; https://www.lupin-3rd.net/jigen-movie/; https://www.themoviedb.org/tv/31572/season/1; https://www.themoviedb.org/tv/31572/season/2/episode/147?language=en-US",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/100437; https://www.themoviedb.org/movie/260516; https://www.tms-e.co.jp/global/alltitles/lupin/010409.html; https://www.lupin-3rd.net/jigen-movie/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

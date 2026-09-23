@@ -1,20 +1,150 @@
 {
   "anidbId": 4349,
   "bangumiId": 152654,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 579076,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 579077,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 579078,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 579079,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 579080,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 579081,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 579082,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 579083,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 579084,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 579085,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 579086,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 579087,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 579088,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 579089,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 579090,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 579091,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 579092,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 579093,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 579094,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 579095,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 579096,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 579097,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 579098,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 579099,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 应映射至 TMDB TV 142530 的第 1 季全季。使用 TMDb API 的目录页面以“DP-TV-142530”标识该条目，并列出原名「よしむね」、2006 年日本动画、IMDb tt1179249、檜山修之与岩男润子等演员，以及唯一一季共 24 集；这些身份字段与 Bangumi 的《吉宗》一致。外部作品资料进一步确认《吉宗／Yoshimune》是佐藤博暉执导、AIC Spirits／Gonzo／銀画屋制作、2006 年 4—9 月播出的 24 集电视动画，剧情为江户时代与现代科技混合的平行世界。因 TMDB 第 1 季正好收录全部 24 集，无需限定部分集数。旧候选 TV 20997 的 API 快照是无日期、无季、零集的空条目，而且 season/1 返回 404，不能表示本作。\n\nhttps://www.dvdplanetstore.pk/shop/animation/%E3%82%88%E3%81%97%E3%82%80%E3%81%AD/ (page): 该目录条目标识为“DP-TV-142530”，原名「よしむね」，类型为日本动画剧集；首播、完结日期分别为 2006-04-06、2006-09-14，IMDb 为 tt1179249，演员包括檜山修之、岩男润子等，并明确只有 Season 1、共 24 集。\n\nhttps://www.dvdplanetstore.pk/shop/ (page): 该目录页页脚明确声明网站使用 TMDb API；结合具体作品页的 DP-TV-142530，可据此识别其 TV 数据源编号为 TMDB 142530。\n\nhttps://en.wikipedia.org/wiki/Yoshimune_(TV_series) (page): 独立作品资料确认《Yoshimune／吉宗》为佐藤博暉执导、AIC Spirits、Gonzo 和銀画屋制作的日本电视动画，2006-04-06 至 2006-09-14 播出，共 24 集；剧情发生在江户元素与迪厅、摩托车等现代事物并存的平行世界。\n\nhttps://annict.com/works/2319 (page): Annict 将《吉宗》列为 2006 年春季 TV 动画，并逐项列出第 1 至第 24 话，末话为「春、花、爛漫」，证明正篇连续范围为 24 集。\n\nhttps://www.themoviedb.org/tv/20997 (api_snapshot): 输入提供的 TMDB API 快照显示候选 20997 名为 Yoshimune，但首播日期、国家、概述和季列表均为空，总集数为 0；其 season/1 请求另返回 404，因此不是可用的本作季映射。\n\n备注：TMDB 主站具体页面受到 robots 限制，未能直接读取 TV 142530；该 ID 是依据明确声明使用 TMDb API 的目录及其作品编号、IMDb、演员、年份和完整分季元数据交叉识别。",
+    "evidence": "codex: 应改映射至TMDB TV 211532第1季全季。年份、电视动画媒介、导演、声优、原作背景和完整24集范围相互吻合；日期差一天可由深夜放送记日方式解释。真实季表完整覆盖本作。旧ID 142530已返回404，20997没有可用季。由于Bangumi逐集标题和日期为空，而TMDB只有通用集名，暂不生成未经逐集核实的规则。\n\nhttps://www.themoviedb.org/tv/211532 (api_snapshot): 以「吉宗」「よしむね」搜索均找到 TV 211532。详情列出别名「吉宗／Yoshimune」、导演佐藤博暉及声优檜山修之、岩男潤子等；播出时间为2006-04-06至2006-09-14，唯一一季共24集。\n\nhttps://www.themoviedb.org/tv/211532/season/1 (api_snapshot): 实际读取第1季全部集表，total_pages=1，共24集，集号连续为1—24，日期从2006-04-06逐周至2006-09-14；标题均为「第N話」，没有具体副标题。\n\nhttps://bgm.tv/subject/152654 (page): Bangumi确认为2006年4月至9月播出的24集TV动画，别名「よしむね」，导演佐藤博暉，动画制作包含銀画屋、AICスピリッツ；章节仅列数字编号。\n\nhttps://www.gonzo.co.jp/works/yoshimune/ (page): GONZO官方作品页确认其为大都技研老虎机改编动画，剧情发生在现代科技与江户风俗并存的世界，围绕吉宗、姫、爺、婆等角色展开；版权年份为2006。\n\nhttps://en.wikipedia.org/wiki/Yoshimune_(TV_series) (page): 独立资料确认本作是佐藤博暉执导、AIC Spirits等制作的24集电视动画，播出起止日期与TMDB一致，主要角色声优及剧情与官方资料一致。\n\nhttps://annict.com/works/2319 (page): Annict列出本作第1至24话及具体标题，首话为「江戸城取り壊し」，末话为「春、花、爛漫」，支持完整24集的作品范围。\n\nhttps://www.allcinema.net/cinema/325086 (search_snippet): 播出资料记载2006-04-05至2006-09-13每周三25:30播出，换算自然日为次日，可解释Bangumi与TMDB起止日期相差一天。\n\nhttps://www.themoviedb.org/tv/142530 (api_snapshot): 旧映射 TV 142530 的详情请求返回HTTP 404，当前无法继续采用。\n\nhttps://www.themoviedb.org/tv/20997 (api_snapshot): 候选 TV 20997 虽名为Yoshimune并关联TVDB 255275，但详情没有日期、演职员或季列表，总集数为0，不能提供有效季映射。\n\n备注：作品与整季范围已确认；逐集规则留空，待补充Bangumi章节标题或逐集播出日期后再核对。\n\n脚本按声明范围生成逐集规则：24 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/152654; https://www.dvdplanetstore.pk/shop/animation/%E3%82%88%E3%81%97%E3%82%80%E3%81%AD/; https://www.dvdplanetstore.pk/shop/; https://en.wikipedia.org/wiki/Yoshimune_(TV_series); https://annict.com/works/2319; https://www.themoviedb.org/tv/20997",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/152654; https://www.themoviedb.org/tv/211532; https://www.themoviedb.org/tv/211532/season/1; https://www.gonzo.co.jp/works/yoshimune/; https://en.wikipedia.org/wiki/Yoshimune_(TV_series); https://annict.com/works/2319; https://www.allcinema.net/cinema/325086; https://www.themoviedb.org/tv/142530; https://www.themoviedb.org/tv/20997",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211532
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 142530,
+      "id": 211532,
       "season": 1,
       "type": "tv"
     }

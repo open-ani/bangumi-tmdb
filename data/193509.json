@@ -1,20 +1,57 @@
 {
   "anidbId": 12428,
   "bangumiId": 193509,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 699241,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 699242,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 699241,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 66105,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 699242,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 66105,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过官方 OVA 收录内容、剧情、制作信息及逐集标题和日期确认：本 subject 两话对应 TMDB 66105 第 0 季第 1—2 集。Bangumi 标题中的「納紗」与官方、TMDB 的「納沙」为字形差异，不影响身份判断。第 0 季另含 2020 年长篇，故仅声明两集范围，并以章节 ID 明确映射。\n\nhttps://www.themoviedb.org/tv/66105 (api_snapshot): TMDB 66105 为《ハイスクール・フリート》，制作公司为 Production IMS、导演为信田ユウ；2016 年 TV 本篇与特别篇分季收录。\n\nhttps://www.themoviedb.org/tv/66105/season/0 (api_snapshot): 第 0 季共 3 集，已读取完整集表。第 1、2 集分别为「納沙幸子がピンチ！」和「納沙幸子もピンチ！？」，日期分别为 2017-03-31、2017-05-24，各长 25 分钟，标题、日期及剧情与本 OVA 两话对应。第 3 集日期为 2020-01-18、长 103 分钟，不属于本 subject。\n\nhttps://www.hai-furi.com/tv/bd-dvd/ (page): 官方商品页确认 OVA 于 2017-05-24 发售，收录前后两篇；剧情为海洋实习结束一个月后，纳沙幸子接受任务，晴风成员再次遭遇危机，与 TMDB 两集简介一致。\n\nhttps://www.hai-furi.com/news/?article_id=42042 (page): 官方公告确认 OVA 前篇于 2017-03-31 23:30 在 BS11 先行播出，解释其播出日期早于光盘发售日，且与 Bangumi、TMDB 第 1 集日期一致。\n\nhttps://www.hai-furi.com/sp/staff/ (search_snippet): 官方制作人员资料列出导演信田ユウ、人物设计中村直人、动画制作 Production IMS，与输入资料及 TMDB 主系列制作信息吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/193509; https://www.themoviedb.org/tv/66105; https://www.themoviedb.org/tv/66105/season/0; https://www.hai-furi.com/tv/bd-dvd/; https://www.hai-furi.com/news/?article_id=42042; https://www.hai-furi.com/sp/staff/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 66105,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,20 +1,131 @@
 {
   "anidbId": 16256,
   "bangumiId": 333349,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1044420,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1044421,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1044422,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1044423,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1044424,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1044425,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1044426,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1044427,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1044428,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1044429,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1044430,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1044431,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1044432,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1062301,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1062302,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1062303,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1062304,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1062305,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1062306,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1062307,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 123446 第1季整季。年份、电视动画媒介、剧情、导演及制作公司一致；全部20集标题、顺序和经深夜播出日期换算后的排期逐集吻合，没有混入其他作品，可建立第1至20集一一对应规则。\n\nhttps://www.themoviedb.org/tv/123446 (api_snapshot): TMDB 123446 为2021年电视动画，剧情与输入一致；导演为湊未來，制作公司为 SILVER LINK.，全剧仅一季、共20集。\n\nhttps://www.themoviedb.org/tv/123446/season/1 (api_snapshot): 已读取第1季完整集表，共20集、仅1页。第1至20集日文标题与输入逐集完全一致；播出日期均比 Bangumi 晚一个自然日，且第3至4集之间的停播间隔一致。范围为2021年8月1日至12月19日。\n\nhttps://jahysama-anime.com/onair/ (page): 官方播出资料注明2021年7月31日起每周六深夜2时播出，即自然日为次日凌晨，解释了 Bangumi 与 TMDB 全部章节的一日日期差。\n\nhttps://jahysama-anime.com/staffcast/ (page): 官方确认原作为昆布わかめ、导演为湊未來、动画制作为 SILVER LINK.，与输入及 TMDB 作品资料相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/333349; https://www.themoviedb.org/tv/123446; https://www.themoviedb.org/tv/123446/season/1; https://jahysama-anime.com/onair/; https://jahysama-anime.com/staffcast/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 123446
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 123446,
+      "season": 1,
       "type": "tv"
     }
   ]

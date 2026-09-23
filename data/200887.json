@@ -1,14 +1,25 @@
 {
   "anidbId": 12618,
   "bangumiId": 200887,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752330,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 772764,
+      "sort": 21,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是金澤洪充执导、GoHands 制作、2017年7月21日上映的首部动画电影《劇場版 生徒会役員共》，对应 TMDB movie 440362。片中鱼见邀请津田、引发其可能转校传闻的剧情也与该条目所指作品一致，不是2021年的《劇場版 生徒会役員共２》，也不是 TV 或 OVA。Bangumi 所列两话是这部约60分钟电影内部的章节划分；官方资料将其作为一部电影本篇发行，因此应整体映射为 movie，不设置季号或集数范围。\n\nhttps://letterboxd.com/film/seitokai-yakuindomo-the-movie/ (page): 页面记录《劇場版 生徒会役員共》的别名 Seitokai Yakuindomo: The Movie、2017年7月21日上映、片长60分钟；其页面中的 TMDB 外链明确指向 themoviedb.org/movie/440362，因而确定具体 TMDB movie ID 为440362。\n\nhttps://jfdb.jp/title/7847 (page): 日本电影数据库将本作记为2017年7月21日上映、60分钟的动画电影，导演金澤洪充、制作GoHands，并明确说明它是《生徒会役員共》系列首部剧场版。\n\nhttps://king-cr.jp/special/seitokai_G/news/ (page): 作品官方站确认《劇場版 生徒会役員共》于2017年7月21日院线上映，后续蓝光以单一“本編＋映像特典”的形式收录，支持其作为一部电影本篇而非两集TV作品。\n\nhttps://www.netflix.com/jp/title/81393332 (page): Netflix条目把本作标为2017年动画电影，并记载鱼见向津田提出邀请、继而传出津田转校传闻的剧情，可用于核对具体作品内容。",
+    "evidence": "codex: 上映日期、片长、主创、制作公司及剧情背景共同确认该subject对应2017年首部电影，即TMDB movie 440362，不是2021年续作或TV番外篇。按完整电影映射，不设置季号；Bangumi列出的两个章节不据位置强行生成逐集对应。\n\nhttps://www.themoviedb.org/movie/440362 (api_snapshot): 以日文原名搜索后，实际读取 movie 440362 详情：上映日期为2017年7月21日，片长60分钟，导演及编剧金澤洪充，制作公司含GoHands；人物及桜才学园背景与输入一致。\n\nhttps://jfdb.jp/title/7847 (page): 日本电影数据库确认本作为系列首部剧场版，2017年7月21日上映、60分钟，由金澤洪充执导、GoHands制作；原作、角色设计、主要演员及剧情背景均与待核对作品一致。\n\nhttps://king-cr.jp/special/seitokai_G/news/ (page): 官方公告确认2017年7月21日院线上映，Blu-ray以电影本篇加预告特典发行，并将该剧场版与TV系列、番外篇分别列出。\n\n备注：未独立核实Bangumi sort 20、21的具体分段边界，故保留作品级电影映射，逐章节映射留空。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/200887; https://letterboxd.com/film/seitokai-yakuindomo-the-movie/; https://jfdb.jp/title/7847; https://king-cr.jp/special/seitokai_G/news/; https://www.netflix.com/jp/title/81393332",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/200887; https://www.themoviedb.org/movie/440362; https://jfdb.jp/title/7847; https://king-cr.jp/special/seitokai_G/news/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

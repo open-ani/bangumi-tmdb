@@ -1,13 +1,30 @@
 {
+  "anidbId": 12268,
   "bangumiId": 173750,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 914013,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1071859,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1071860,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 Bangumi subject 是丸红新电力与 Studio Ghibli 制作的三支连续动画广告合集，而非《战国鸟兽戏画》等电视系列。Studio Ghibli 官方资料确认全系列共三支、每支30秒，依次为《出会い篇》《つれあい篇》《そして旅はつづく篇》，并确认近藤胜也负责构成、作画。TMDB 没有将合集收录为单一作品，而是将三支短片分别作为 movie 692279、692280、692278；三条目的日文原名、系列序号、年份、Studio Ghibli 制作公司及近藤胜也主创信息均与官方资料吻合，因此应同时映射三个 movie ID。\n\nhttps://api.bgm.tv/v0/subjects/173750 (api_snapshot): Bangumi API 快照记载《鳥獣人物戯画》为2016年作品，共3话，每话30秒。\n\nhttps://www.ghibli.jp/info/009937/ (page): Studio Ghibli 官方说明该项目是丸红新电力企业CM，计划制作三支30秒作品；第一支为《鳥獣戯画 出会い篇》，近藤胜也负责构成、作画。\n\nhttps://www.ghibli.jp/info/009970/ (page): Studio Ghibli 官方确认第二支为《鳥獣戯画 つれあい篇》，剧情承接第一支相遇的兔子与青蛙，仍由近藤胜也负责构成、作画。\n\nhttps://www.ghibli.jp/chronology/ (page): Studio Ghibli 官方年表列出2016年3月《出会い篇》、6月《つれあい篇》及11月《そして旅はつづく篇》，确认完整三作及顺序。\n\nhttps://www.themoviedb.org/movie/692279 (api_snapshot): TMDB details：movie 692279 原名《出会い》，日期2016-04-01，制作公司Studio Ghibli，导演字段为近藤胜也；别名标为 Chōjū-Jinbutsu-Giga Emaki 1。\n\nhttps://www.themoviedb.org/movie/692280 (api_snapshot): TMDB details：movie 692280 原名《つれあい》，日期2016-06-16，制作公司Studio Ghibli，导演字段为近藤胜也；别名标为 Chōjū-Jinbutsu-Giga Emaki 2。\n\nhttps://www.themoviedb.org/movie/692278 (api_snapshot): TMDB details：movie 692278 原名《そして旅はつづく》，日期2016-11-17，制作公司Studio Ghibli，导演字段为近藤胜也；别名标为 Chōjū-Jinbutsu-Giga Emaki 3。\n\n备注：Bangumi 将首发日期记为2016-03-14，Studio Ghibli 官方说明为3月15日发表并开播，而 TMDB 第一支日期为4月1日；这属于具体日期元数据差异，不影响三支作品的身份和完整范围。；TMDB 将每支片长显示为1分钟，官方资料明确实际长度为30秒；应视为 TMDB 分钟制时长的取整或录入差异。",
+    "evidence": "codex: 已重新确认旧映射的三个电影条目。该subject覆盖吉卜力为丸红新电力制作的三支连续动画广告；年份、制作公司、主创、三支标题及系列编号相互吻合。TMDB以三个独立movie收录这些短片，无季号。Bangumi章节缺少标题和播出日期，无法逐章交叉核实，因此仅确认作品覆盖范围，不按位置推断章节对应。\n\nhttps://bgm.tv/subject/173750 (page): 条目记载2016年作品、共3话、每话30秒，原画为近藤胜也，动画制作为吉卜力，制作为丸红；官方网站指向丸红新电力广告专题。\n\nhttps://www.ghibli.jp/info/009937/ (page): 吉卜力确认该项目为丸红及丸红新电力企业广告，共制作三支30秒短片；第一支《出会い篇》于2016年3月15日发表并开始播出，近藤胜也负责构成、作画。\n\nhttps://www.ghibli.jp/info/009970/ (page): 官方确认《つれあい篇》为第二支广告，剧情延续第一支相遇的兔子与青蛙，构成、作画仍为近藤胜也。\n\nhttps://www.ghibli.jp/chronology/ (page): 官方年表列出2016年3月《出会い篇》、6月《つれあい篇》、11月《そして旅はつづく篇》，确认三支作品的完整范围和发行顺序。\n\nhttps://www.themoviedb.org/movie/692279 (api_snapshot): 实际调用详情：电影692279原名《出会い》，别名含系列编号1；日期2016-04-01，制作公司为Studio Ghibli，导演为近藤胜也，时长字段为1分钟。\n\nhttps://www.themoviedb.org/movie/692280 (api_snapshot): 实际调用详情：电影692280原名《つれあい》，别名含系列编号2；日期2016-06-16，制作公司为Studio Ghibli，导演为近藤胜也，时长字段为1分钟。\n\nhttps://www.themoviedb.org/movie/692278 (api_snapshot): 实际调用详情：电影692278原名《そして旅はつづく》，别名含系列编号3；日期2016-11-17，制作公司为Studio Ghibli，导演为近藤胜也，时长字段为1分钟。\n\n备注：Bangumi首发日期为2016-03-14，官方记载第一支于3月15日发表并开播，TMDB则记为4月1日；具体日期存在差异，但不影响作品身份确认。；官方长度为每支30秒，TMDB时长字段均为1分钟；不能据此认定存在另一版本。；三个Bangumi章节均无标题和播出日期，逐章映射暂留空，需补充章节身份资料后才能建立overrides。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/173750; https://api.bgm.tv/v0/subjects/173750; https://www.ghibli.jp/info/009937/; https://www.ghibli.jp/info/009970/; https://www.ghibli.jp/chronology/; https://www.themoviedb.org/movie/692279; https://www.themoviedb.org/movie/692280; https://www.themoviedb.org/movie/692278",
-    "verifiedAt": "2026-09-09T01:13:30.827Z"
+    "source": "https://bgm.tv/subject/173750; https://www.ghibli.jp/info/009937/; https://www.ghibli.jp/info/009970/; https://www.ghibli.jp/chronology/; https://www.themoviedb.org/movie/692279; https://www.themoviedb.org/movie/692280; https://www.themoviedb.org/movie/692278",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,21 +1,92 @@
 {
   "anidbId": 11677,
   "bangumiId": 148072,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 569902,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 569903,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 569904,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 569905,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 569906,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 569907,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 569908,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 569909,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 569910,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 569911,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 569912,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 569913,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 应改为TMDB电视动画119274第1季。媒介、原作剧情、导演、声优及全12集内容均吻合，整季未混入其他作品。已逐集比较标题、剧情及官方播出日期，确认Bangumi第1至12话顺序对应TMDB第1至12集；旧映射403383属于另行制作的真人电影。\n\nhttps://www.themoviedb.org/movie/403383 (api_snapshot): 旧映射 movie/403383 是2016年1月30日上映、片长103分钟的真人电影，由山本透执导、风间俊介主演，不能对应本次电视动画。\n\nhttps://www.j-n.co.jp/news/294/ (page): 原作出版社公告明确区分电视动画与2016年真人电影；动画于2015年10月2日在BS朝日、10月8日在大阪电视台开始播出。\n\nhttps://www.tv-osaka.co.jp/nekoyon/cast.html (page): 动画官网列出原作杉作、导演兼编剧野尻喜昭、制作公司ダブ，以及岩畔祐希、木戸昌宏、神川莉生、小山リサ四名主要声优。\n\nhttps://www.themoviedb.org/tv/119274 (api_snapshot): TV/119274 为拳击手与两只猫共同生活的电视动画；导演及四名主要声优与官网一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/119274/season/1 (api_snapshot): 第1季集表已完整读取，共12集、仅1页。第1至12集标题与输入的Bangumi章节逐一一致，剧情亦与官网逐集简介一致；日期却记录为2015年12月3日至2016年2月19日。\n\nhttps://www.tv-osaka.co.jp/nekoyon/story/ (page): 官网完整列出第1至12集的标题、剧情及大阪电视台播出日期，依次为10月8、15、22、29日，11月5、12、19、26日，12月3、10、17、24日；标题顺序与Bangumi及TMDB完全一致，各日期比输入的BS朝日日期晚6天。\n\n备注：TMDB的首播及逐集日期与官方2015年10月至12月的排期不符，其日期来源尚不明确；本次逐集对应依据完整标题、剧情和官方集序确认，不依赖这些异常日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148072; https://www.themoviedb.org/movie/403383; https://www.j-n.co.jp/news/294/; https://www.tv-osaka.co.jp/nekoyon/cast.html; https://www.themoviedb.org/tv/119274; https://www.themoviedb.org/tv/119274/season/1; https://www.tv-osaka.co.jp/nekoyon/story/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 119274
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 403383,
-      "type": "movie"
+      "id": 119274,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

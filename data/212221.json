@@ -1,14 +1,25 @@
 {
   "anidbId": 13057,
   "bangumiId": 212221,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 719370,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 731302,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 上映日期、片长、导演、制作公司、角色及官方剧情均相符，确认对应 TMDB 电影 479248，覆盖本 subject 的完整《SILENT SKY》。官方明确其为电视未播的新作最终章，并非电视本篇或总集篇。\n\nhttps://www.themoviedb.org/movie/479248 (api_snapshot): TMDB 原名搜索命中电影 479248；详情确认上映日期为 2017-06-17、片长 50 分钟、导演神保昌登、制作公司 SILVER LINK.，主要角色及声优与 Bangumi 一致。\n\nhttps://chaoschildanime.com/news/?id=news-silentsky&mode=detail (page): 官方公告确认本作是约 50 分钟的电视未播新作，于 2017 年 6 月 17 日起限定上映；剧情讲述宫代拓留被捕后，他与尾上世莉架的后续故事，与该 subject 简介一致。\n\nhttps://bgm.tv/subject/212221 (page): Bangumi 将该作标为剧场版，记载上映日期 2017-06-17、片长 50 分钟、导演神保昌登、动画制作 SILVER LINK.，章节分为第 13、14 话。\n\n备注：Bangumi 分列第 13、14 话，所确认的 TMDB 条目则将完整 50 分钟内容收录为一部电影；无法据此建立两话各自独立的逐集目标，故仅提交作品级映射，rules 和 overrides 留空。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/212221; https://www.themoviedb.org/movie/479248; https://chaoschildanime.com/news/?id=news-silentsky&mode=detail",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

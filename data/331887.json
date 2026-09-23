@@ -1,20 +1,149 @@
 {
   "anidbId": 16172,
   "bangumiId": 331887,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1033660,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1033661,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1033662,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1033663,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1033664,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1033665,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1033666,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1033667,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1033668,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1033669,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1033670,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1033671,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1066136,
+      "sort": 17.5,
+      "type": 1
+    },
+    {
+      "id": 1067871,
+      "sort": 18.5,
+      "type": 1
+    },
+    {
+      "id": 1086963,
+      "sort": 21.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1066136,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 100565,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1067871,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 100565,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1086963,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 100565,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已通过年份、电视动画媒介、导演、制作方、剧情及逐集标题和播出日期确认。本 subject 是分割放送的后半，对应 TMDB 100565 第1季第12—23集；三个特别节目对应第0季第3—5集。所列范围与前半部分已有归属不重叠。\n\nhttps://www.themoviedb.org/tv/100565 (api_snapshot): 以日文原名搜索命中 TMDB 100565；详情确认为2021年电视动画，导演石井俊匡，制作公司包含 A-1 Pictures、Aniplex、KADOKAWA、Project-86，人物与剧情一致。TMDB 将两部分合并为一个23集的第1季。\n\nhttps://www.themoviedb.org/tv/100565/season/1 (api_snapshot): 第1季完整季表共23集、1页。第12至23集的日文标题与输入12话逐一一致，剧情衔接辛等人进入基亚德联邦的第二部分；各集日期均比 Bangumi 晚一个日历日，包括延期后的第18、19、20、22、23集，符合深夜24时播出的日期换算。\n\nhttps://www.themoviedb.org/tv/100565/season/0 (api_snapshot): 第0季完整季表共5集、1页。第3集为影像对谈特别节目，日期2021-11-14；第4集为「死して甲斐あるものなれば」，日期2021-11-28；第5集为「せめて人間たらんと」，日期2022-03-05。标题和播出日期对应输入的三个特别篇。\n\nhttps://anime-86.com/news/?id=58512 (search_snippet): 官方网站公告明确第2部分于2021年10月2日星期六24时开始播出，解释 Bangumi 的10月2日与 TMDB 的10月3日之间的日期差。\n\nhttps://anime-86.com/story/ (page): 官方剧情页标明最终话为第23话「ハンドラー・ワン」，剧情为讨灭电磁加速炮型后辛等人返回联邦，与 TMDB 第1季第23集一致。\n\nhttps://www.aniplex.co.jp/news/detail/?id=60105 (search_snippet): Aniplex 公告确认「せめて人間たらんと」于2022年3月5日23:30播出，因此这一特别篇两站日期直接一致，无需跨日换算。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/331887; https://www.themoviedb.org/tv/100565; https://www.themoviedb.org/tv/100565/season/1; https://www.themoviedb.org/tv/100565/season/0; https://anime-86.com/news/?id=58512; https://anime-86.com/story/; https://www.aniplex.co.jp/news/detail/?id=60105",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 12,
+      "season": 1,
+      "start": 12,
+      "tmdbId": 100565
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 12,
+      "episodeEnd": 23,
       "id": 100565,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 5,
+      "id": 100565,
+      "season": 0,
       "type": "tv"
     }
   ]

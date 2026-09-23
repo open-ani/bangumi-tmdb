@@ -1,18 +1,52 @@
 {
   "anidbId": 13273,
   "bangumiId": 219263,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 864515,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 879809,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 864515,
+      "targets": [
+        {
+          "id": 1437756,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 879809,
+      "targets": [
+        {
+          "id": 601980,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 219263 的主体是 2019 年3月15日上映的约91分钟剧场动画，由 01「SORD」和 02「Soul Speed」共同组成。TMDB movie 601980 的关联页面具有相同日文原名、上映日期、角色与剧情，并以约90分钟电影收录，因此能直接覆盖该 subject 的两话正篇。2019年后来播出的四周电视版是特别剪辑版，不应优先于原始电影表示；候选 TV 280906 则是2025年首播的13集后续电视动画，且其 season 0 不存在，不能映射本作。\n\nhttps://letterboxd.com/film/grisaia-phantom-trigger-the-animation-soul/ (page): 该2019年动画电影页面的“More at TMDB”外链解析到 TMDB movie 601980；页面同时列出日文原名《グリザイア：ファントムトリガー THE ANIMATION》、2019年3月15日日本上映及对应角色阵容。\n\nhttps://www.cineamo.com/en/movies/the-animation-2019-601980m (page): 页面路径明确包含 TMDB 编号601980，并将作品记为2019年、90分钟的《Grisaia: Phantom Trigger the Animation》；日文原名、2019年3月15日上映日、导演、演员及SORD剧情均与目标一致。\n\nhttps://jfdb.jp/en/title/8823 (page): 日本电影数据库将同名作品认定为2019年3月15日上映、片长91分钟的剧场动画，剧情为美滨学园SORD成员追查失踪要人，证明目标主体是完整剧场电影。\n\nhttps://grisaia-pt.com/gptanime/news/suntv_anime (page): 作品官网明确说明2019年剧场上映的正篇包含01「SORD」与02「Soul Speed」，其后才被制作成分四周播出的特别编辑电视版。\n\nhttps://www.themoviedb.org/tv/280906 (api_snapshot): 输入所附TMDB API快照显示该ID是2025年1月2日首播、第一季13集的《グリザイア：ファントムトリガー》，分集从「マザーズクレイドル#1」开始，不是2019年的两话剧场作品。\n\nhttps://www.themoviedb.org/tv/280906/season/0 (api_snapshot): 输入所附TMDB API请求返回404，证明旧候选所指的season 0目前并不存在。\n\n备注：部分TMDB衍生索引把 movie 601980 的英文显示名缩窄为「Soul Speed」并标为53分钟，而其他TMDB衍生页面仍显示完整电影约90分钟；但其日文原名、上映日、剧情、阵容和外链ID均指向同一部2019年剧场作品，因此不影响ID映射。",
+    "evidence": "codex: 本 subject 覆盖2019年剧场上映、后分两话发行的 SORD 与 Soul Speed。官方章节标题、剧情、制作方及上映日期与 TMDB 当前两个电影条目相符，应逐话映射至1437756和601980。旧映射仅含601980，遗漏第一话；2025年电视版及四周特别编辑版均不属于本次范围。\n\nhttps://www.themoviedb.org/movie/1437756 (api_snapshot): TMDB movie 1437756 明确为 EPISODE 01 SORD，上映日为2019-03-15，片长40分钟，制作公司为 Bibury Animation Studios；剧情为美滨学园改组为 SORD 训练学校，与第一话一致。\n\nhttps://www.themoviedb.org/movie/601980 (api_snapshot): TMDB movie 601980 当前英文标题及别名均明确指向 Soul Speed，上映日为2019-03-15，片长53分钟，制作公司为 Bibury Animation Studios。当前数据支持其对应第二话，不能沿用旧映射将其视为两话完整合集。\n\nhttps://grisaia-pt.com/gptanime/product/vol1 (page): 官方 Blu-ray 01/02 页面明确收录01「SORD」与02「ソウルスピード」，说明将剧场上映动画分成两个章节收录。\n\nhttps://grisaia-pt.com/gptanime/story/page/16 (page): 官方 OVA 第1话页面标题为 SORD，介绍美滨学园及玲奈等 SORD 成员；列出原作 Frontwing、导演天衝、人物设计渡边明夫及制作公司 Bibury，与输入版本一致。\n\nhttps://grisaia-pt.com/gptanime/story/page/15 (page): 官方 OVA 第2话页面标题为「ソウル・スピード」，剧情为失踪要人搜寻、双子姐妹协作及神秘女骑手事件，与 Bangumi 简介一致；制作人员与第一话一致。\n\nhttps://jfdb.jp/en/title/8823 (page): 日本电影数据库记载完整剧场版本于2019-03-15上映，片长91分钟，导演天衝，原作 Frontwing；上映日期与 Bangumi 两话及两个 TMDB 电影条目一致。\n\nhttps://grisaia-pt.com/gptanime/news/suntv_anime (page): 官网确认2019年剧场作品包含01「SORD」和02「ソウルスピード」，之后另有分四周播出的电视特别编辑版。\n\nhttps://www.themoviedb.org/tv/280906 (api_snapshot): TV 280906 是2025-01-02首播、共13集的电视作品，导演为村山公辅，季列表仅列第1季，不是本次2019年两话版本。\n\n备注：TMDB 601980 的日文原名与简介仍保留整体作品信息，但英文标题、别名和53分钟片长明确指向第二话；另有独立的第一话条目1437756。；TMDB 两话片长合计93分钟，与日本电影数据库记载的剧场版91分钟略有差异；未确认差异原因，逐话对应依据为官方章节划分、标题、日期及版本资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/219263; https://letterboxd.com/film/grisaia-phantom-trigger-the-animation-soul/; https://www.cineamo.com/en/movies/the-animation-2019-601980m; https://jfdb.jp/en/title/8823; https://grisaia-pt.com/gptanime/news/suntv_anime; https://www.themoviedb.org/tv/280906; https://www.themoviedb.org/tv/280906/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/219263; https://www.themoviedb.org/movie/1437756; https://www.themoviedb.org/movie/601980; https://grisaia-pt.com/gptanime/product/vol1; https://grisaia-pt.com/gptanime/story/page/16; https://grisaia-pt.com/gptanime/story/page/15; https://jfdb.jp/en/title/8823; https://grisaia-pt.com/gptanime/news/suntv_anime; https://www.themoviedb.org/tv/280906",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
+    {
+      "id": 1437756,
+      "type": "movie"
+    },
     {
       "id": 601980,
       "type": "movie"

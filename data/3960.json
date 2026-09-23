@@ -1,20 +1,89 @@
 {
   "bangumiId": 3960,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28636,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28637,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 28638,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 28639,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 28636,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 31718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 28637,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 31718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 28638,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 31718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 28639,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 31718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认为2010年四话外传 OVA，对应 TMDB 31718 第0季第2至5集。制作背景、剧情、四话编号及各话发行日期一致，已逐集核实；第0季另含其他特别篇，因此仅声明该闭区间，并以章节 ID 明确对应。\n\nhttps://api.themoviedb.org/3/movie/1012835 (api_snapshot): 旧映射 movie/1012835 的详情请求返回 HTTP 404，无法继续采用。\n\nhttps://www.themoviedb.org/tv/31718 (api_snapshot): TV 31718 为《Darker than Black》，制作公司包含 BONES、Aniplex，导演为冈村天斋；设有特别篇第0季。\n\nhttps://www.themoviedb.org/tv/31718/season/0 (api_snapshot): 第0季完整集表共5集、1页。第2至5集明确标为 Gaiden OVA 1至4，日期依次为2010-01-27、2010-03-24、2010-05-26、2010-07-21，与输入四话逐一相符；第1集是2008年的另一特别篇，不属于本 subject。\n\nhttps://www.d-black.net/2nd/intro/gaiden.html (page): 官方确认外传为连接两部电视动画之间两年空白的四话新作，讲述黑与银逃亡及银发生变化的故事，与 TMDB 外传分集剧情一致。\n\nhttps://www.d-black.net/package/pack02.html (page): 官方第2卷商品页确认外传第1话于2010-01-27发行。\n\nhttps://www.d-black.net/package/pack04.html (page): 官方第4卷商品页确认外传第2话于2010-03-24发行。\n\nhttps://www.d-black.net/package/pack06.html (page): 官方第6卷商品页确认外传第3话于2010-05-26发行。\n\nhttps://www.d-black.net/package/pack08.html (page): 官方第8卷商品页确认外传第4话于2010-07-21发行。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3960; https://api.themoviedb.org/3/movie/1012835; https://www.themoviedb.org/tv/31718; https://www.themoviedb.org/tv/31718/season/0; https://www.d-black.net/2nd/intro/gaiden.html; https://www.d-black.net/package/pack02.html; https://www.d-black.net/package/pack04.html; https://www.d-black.net/package/pack06.html; https://www.d-black.net/package/pack08.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1012835,
-      "type": "movie"
+      "episode": 2,
+      "episodeEnd": 5,
+      "id": 31718,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

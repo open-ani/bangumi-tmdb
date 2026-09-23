@@ -1,20 +1,81 @@
 {
   "anidbId": 19016,
   "bangumiId": 319751,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1328409,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1328410,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1328411,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1328412,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1328413,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1328414,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1328415,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1328416,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1328417,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1328418,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 276481 第1季整季。2024年动画的制作方、导演、剧情、首播日期和10集规模均吻合，全部集标题及日期逐集一致，可建立本篇1—10集顺序映射。旧映射81342及 IMDb 线索指向2007年真人电视剧，应替换。\n\nhttps://www.themoviedb.org/tv/276481 (api_snapshot): TMDB 276481 首播为2024-11-17，共1季10集；剧情与本 subject 一致，讲述毛泽东等人在湖南第一师范求学的经历。\n\nhttps://www.themoviedb.org/tv/276481/season/1 (api_snapshot): 第1季集表共10集，total_pages=1；第1至10集标题与 Bangumi 逐集完全一致，各集日期均为2024-11-17，无混入其他作品的章节。\n\nhttps://bgm.tv/subject/319751/ep (page): Bangumi 本篇共10集，从第1集《状元之争》至第10集《反抗的意义》，全部标注2024-11-17首播，与 TMDB 第1季逐集一致。\n\nhttps://m.thepaper.cn/newsDetail_forward_30562752 (page): 湘江新区长沙市岳麓区融媒体中心确认：动画由立羽文化制作、与 bilibili 联合出品，总导演黄敏，2024-11-17上线，全剧10集，与输入的制作人员、媒介和版本一致。\n\nhttps://www.themoviedb.org/tv/81342 (api_snapshot): 旧映射81342为2007-03-22首播的23集真人电视剧，主演谷智鑫、钱枫，导演龚若飞、嘉娜·沙哈提；其 IMDb ID 正是提示中的 tt28212799，不是2024年动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/319751; https://www.themoviedb.org/tv/276481; https://www.themoviedb.org/tv/276481/season/1; https://bgm.tv/subject/319751/ep; https://m.thepaper.cn/newsDetail_forward_30562752; https://www.themoviedb.org/tv/81342",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 276481
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 81342,
+      "id": 276481,
+      "season": 1,
       "type": "tv"
     }
   ]

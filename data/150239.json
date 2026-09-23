@@ -1,21 +1,37 @@
 {
   "anidbId": 11815,
   "bangumiId": 150239,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 699288,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 699288,
+      "targets": [
+        {
+          "id": 377885,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本 subject 对应2015年剧场事件上映版。上映日期、媒介、主创、制作公司及角色均与 TMDB 电影377885吻合，唯一章节映射至该电影。旧映射 TV 72838 指向2016年电视版，应予替换。\n\nhttps://bgm.tv/subject/150239 (page): Bangumi 标注为剧场版、全1话，2015年12月5日上映；导演名和宗则，脚本高桥龙也，动画制作 Studio五组、AXsiZ。\n\nhttps://prtimes.jp/main/html/rd/p/000001846.000007006.html (page): KADOKAWA 官方公告确认本作为2015年12月5日起限定上映的剧场事件版，时长约50分钟；故事围绕全身义体少女七转福音前往塞南克尔岛展开，主创、制作公司与 Bangumi 一致。\n\nhttps://www.themoviedb.org/movie/377885 (api_snapshot): TMDB 电影377885《紅殻のパンドラ GHOST URN》上映日期为2015年12月5日，时长47分钟；导演名和宗则、编剧高桥龙也、原案士郎正宗，制作公司 Studio Gokumi 和 AXsiZ，主要角色及声优均吻合。\n\nhttps://k-pandora.com/news.html (search_snippet): 官网更新记录分别公告剧场事件上映版于12月5日开始上映，以及 TV 动画于2016年1月开始播出，确认两种发行版本应区分。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/150239; https://prtimes.jp/main/html/rd/p/000001846.000007006.html; https://www.themoviedb.org/movie/377885; https://k-pandora.com/news.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 72838,
-      "type": "tv"
+      "id": 377885,
+      "type": "movie"
     }
   ]
 }

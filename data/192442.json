@@ -1,14 +1,25 @@
 {
   "anidbId": 12398,
   "bangumiId": 192442,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 709053,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 709054,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 应采用电影映射 456611。TMDB 搜索摘要显示该条目为 2017 年动画电影《Lupin the Third: Goemon's Blood Spray》，原题为《LUPIN THE IIIRD 血煙の石川五ェ門》，片长约 54 分；官方 TMS 页面进一步确认全片由前篇 25 分、后篇 29 分组成。Bangumi 将同一完整电影拆为前后两集，因此不需要在 TMDB 电影目标中填写集数范围。AnimeLists 的 31572 实际对应 1984 年《Lupin III Part III》电视系列（50 集），不是本 subject，也不是该电影的电视重剪版。\n\nhttps://www.themoviedb.org/movie/456611-lupin-the-iiird (search_snippet): TMDB 搜索摘要将 456611 标为《Lupin the Third: Goemon's Blood Spray》（2017），类型为 Animation，片长 54 分，原题为《LUPIN THE IIIRD 血煙の石川五ェ門》。\n\nhttps://www.tms-e.co.jp/alltitles/lupin/010410.html (search_snippet): TMS 官方页面确认作品标题、2017 年 2 月 4 日、54 分，并明确为前篇 25 分加后篇 29 分、全 1 话；剧情为五右卫门、赌博船、霍克及鲁邦一行，与目标内容一致。\n\nhttps://www.lupin-3rd.net/goemon-ishikawa/ (page): 官方电影网站将其称为《LUPIN THE ⅢRD 血煙の石川五ェ門》，并说明这是小池健执导的《LUPIN THE IIIRD》系列第二作，主角为石川五右卫门。\n\nhttps://www.1337xx.to/torrent/6707654/Lupin-III-S03-E26-E50-50-1984-WEBRip-1080p-x264-EAC3-ITA-Lullozzo/ (search_snippet): 搜索摘要明确把 TMDB TV ID 31572 链接到 1984 年《Lupin III》S03，并列为 50 集电视动画；该候选与 2017 年五右卫门电影不符。\n\nhttps://www.wikidata.org/wiki/Q27997192 (search_snippet): 搜索摘要将《LUPIN THE IIIRD 血煙の石川五ェ門》与 AniDB anime ID 12398、Bangumi subject ID 192442 关联，支持 AniDB 关联本身没有明显错配。",
+    "evidence": "codex: 确认对应 TMDB 电影 456611。上映日期、剧情、导演及制作公司一致；官方明确前后篇共同组成一部完整作品。Bangumi 两章合计覆盖该电影，因此采用作品级电影映射，逐章规则留空，不将任一半篇单独映射成完整电影。TV 31572 第 0 季的真实集表不支持旧线索。\n\nhttps://www.themoviedb.org/movie/456611 (api_snapshot): 日文原名搜索命中电影 456611；详情确认上映日期为 2017-02-04、片长 54 分钟、导演小池健、编剧高桥悠也，制作公司包括 Telecom Animation Film 和 TMS。赌博船爆炸、五右卫门追击霍克的剧情与 Bangumi 一致。\n\nhttps://www.tms-e.co.jp/alltitles/lupin/010410.html (page): TMS 官方资料确认同名作品日期为 2017-02-04，全片 54 分钟，由前篇 25 分钟和后篇 29 分钟组成，标为全 1 话；导演、制作公司及剧情均与 TMDB 和 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/31572/season/0 (api_snapshot): 实际读取 TV 31572 第 0 季全部 3 集：分别为 2016 年的《ヴェニス・オブ・ザ・デッド》《ノンストップランデブー》和 2021 年的《EPISODE 0 ―時代―》，没有本作品，不能采用该特别篇映射。\n\n备注：Bangumi infobox 标注 53 分钟，TMS 官方及 TMDB 均为 54 分钟；其余身份信息一致，此片长差异不影响判定。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/192442; https://www.themoviedb.org/movie/456611-lupin-the-iiird; https://www.tms-e.co.jp/alltitles/lupin/010410.html; https://www.lupin-3rd.net/goemon-ishikawa/; https://www.1337xx.to/torrent/6707654/Lupin-III-S03-E26-E50-50-1984-WEBRip-1080p-x264-EAC3-ITA-Lullozzo/; https://www.wikidata.org/wiki/Q27997192",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/192442; https://www.themoviedb.org/movie/456611; https://www.tms-e.co.jp/alltitles/lupin/010410.html; https://www.themoviedb.org/tv/31572/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

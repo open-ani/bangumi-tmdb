@@ -1,14 +1,30 @@
 {
   "anidbId": 15308,
   "bangumiId": 296308,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 939277,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 940327,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 940328,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 2020 年动画电影《PSYCHO-PASS 3 FIRST INSPECTOR》，时长约 135 分钟，正好对应 TMDB 电影 655431。作品实际以三段约 45 分钟的形式发行，但电影主体不应改定位为 TV。AnimeLists 的 43865 是包含多个作品/季的《Psycho-Pass》电视系列主体；虽可见 First Inspector 的三段内容被列入相关电视数据库或流媒体分集，但缺乏本轮可直接确认的 TMDB Specials 季及准确集号证据，且这会混淆电影版与电视分集版，因此不采用。\n\nhttps://www.wikidata.org/wiki/Q86751860 (page): 页面将 Psycho-Pass 3: First Inspector 标为 2020 anime crime film，并列出 AniDB 15308 及 TMDB movie ID 655431。\n\nhttps://jfdb.jp/en/title/9197 (page): 日本电影数据库页面确认该片为动画电影，2020 年 3 月 27 日发行，片长 135 分钟，并称其为《Psycho-Pass 3》的结局篇。\n\nhttps://www.primevideo.com/-/pt_PT/detail/PSYCHO-PASS-SUB/0P0XTGCANJPXLUSAZZZD0V9QB9 (page): Prime Video 页面将其作为 2020 年动画内容，描述 Arata Shindo、Kei Mikhail Ignatov 与公安局袭击事件；搜索结果及页面信息显示包含 3 个分集/Act One 等分段。\n\nhttps://www.themoviedb.org/tv/43865-psycho-pass?language=tr-TR (page): TMDB 页面确认 43865 是 2012 年开始的《Psycho-Pass》电视系列主体，并列出 2019 年第 3 季 8 集；它不是 First Inspector 的独立电影条目。\n\nhttps://www.themoviedb.org/person/55662-noriko-hidaka (search_snippet): TMDB 人物页面的 2020 年作品记录列出 First Inspector 的 Ziggurat Capture Part 1、Part 2、Rainyday,and 三段内容。\n\n备注：TMDB 的 43865 Specials（season 0）页面及其具体 episode 编号本轮受访问限制，无法把 AnimeLists 方向补成可直接核验的 TMDB 集数范围。",
+    "evidence": "codex: 作品级匹配为 TMDB 电影 655431：上映日期、剧情定位、导演、编剧及制作公司相符，且 Bangumi 明确归类为剧场版。三话章节属于本片的分段记录；目前没有核实到对应的 TMDB 分集，故仅提交电影目标，逐集关系留空。\n\nhttps://www.themoviedb.org/movie/655431 (api_snapshot): TMDB 电影 655431 的日文原名、2020-03-27 上映日期、导演塩谷直義、编剧冲方丁及深見真、制作公司 Production I.G 均与本 subject 一致；剧情围绕慎导灼与炯展开。\n\nhttps://jfdb.jp/en/title/9197 (page): 日本电影数据库确认本片为 2020-03-27 上映的动画电影，片长 135 分钟，由塩谷直義执导、Production I.G 制作，是第三季两位新人监视官故事的完结篇。\n\nhttps://psycho-pass.com/news/20200217_01.php (search_snippet): 官方公告确认本片于 2020-03-27 限定院线上映，并由 Amazon Prime Video 在日本及海外独占配信。\n\nhttps://bgm.tv/subject/296308/ep (page): Bangumi 将 subject 标为剧场版，章节为 Ziggurat Capture Part 1、Ziggurat Capture Part 2、Rainy day, and，三话日期均为 2020-03-27。\n\nhttps://www.themoviedb.org/tv/43865 (api_snapshot): TMDB 43865 是始于 2012 年的电视系列，详情只列出第 1 至第 3 季，其中第三季为 2019 年的 8 集。\n\nhttps://api.themoviedb.org/3/tv/43865/season/0 (api_snapshot): 实际调用第 0 季接口返回 HTTP 404，未取得可核验的特别篇集表，因此不能采用线索中的第 0 季映射。\n\n备注：TMDB 标注片长 137 分钟，Bangumi 与日本电影数据库标注 135 分钟；该差异不足以否定作品身份，但不能据此认定各发行版本剪辑完全一致。；三话尚无可核验的 TMDB 集号；第 0 季接口返回 404 仅说明本次未取得该季，不能证明所有分集条目均未收录。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/296308; https://www.wikidata.org/wiki/Q86751860; https://jfdb.jp/en/title/9197; https://www.primevideo.com/-/pt_PT/detail/PSYCHO-PASS-SUB/0P0XTGCANJPXLUSAZZZD0V9QB9; https://www.themoviedb.org/tv/43865-psycho-pass?language=tr-TR; https://www.themoviedb.org/person/55662-noriko-hidaka",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/296308; https://www.themoviedb.org/movie/655431; https://jfdb.jp/en/title/9197; https://psycho-pass.com/news/20200217_01.php; https://bgm.tv/subject/296308/ep; https://www.themoviedb.org/tv/43865; https://api.themoviedb.org/3/tv/43865/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

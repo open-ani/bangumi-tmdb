@@ -1,14 +1,30 @@
 {
   "anidbId": 13992,
   "bangumiId": 241441,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 786043,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 786044,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 786045,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认 subject 对应 TMDB 514710 的完整三短片合集电影：上映日期、制作方、导演、三段剧情及合集范围一致。Bangumi 三话是电影内部短片，保留作品级映射，不将各话分别映射到同一整部电影。\n\nhttps://www.themoviedb.org/movie/514710 (api_snapshot): TMDB 514710 为2018年8月24日上映的《ちいさな英雄－カニとタマゴと透明人間－》，片长54分钟，制作公司包含 STUDIO PONOC；剧情覆盖蟹兄弟、鸡蛋过敏少年及透明人三个故事，导演名单包含米林宏昌、百濑义行、山下明彦。\n\nhttps://www.ponoc.jp/eiyu/ptg.html (page): 官方介绍确认本片由《カニーニとカニーノ》《サムライエッグ》《透明人間》三个短片组成，分别由米林宏昌、百濑义行、山下明彦执导，总片长54分钟，与输入的三个章节及剧情一致。\n\nhttps://www.ponoc.jp/eiyu/info/ (page): 官方演职员页面确认本片为 STUDIO PONOC 于2018年推出的短篇剧场首部作品，并分别列出三个短片的导演与配音人员。\n\n备注：尚未核实三个短片各自的独立 TMDB 条目，逐话映射留空；不据搜索未命中断言其未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/241441; https://www.themoviedb.org/movie/514710; https://www.ponoc.jp/eiyu/ptg.html; https://www.ponoc.jp/eiyu/info/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

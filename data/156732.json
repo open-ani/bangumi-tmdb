@@ -1,20 +1,71 @@
 {
   "bangumiId": 156732,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 587557,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 694372,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 712538,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 712539,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 766200,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 796773,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 971684,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 971685,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本作对应 TMDB TV 299835 第1季。制作人员、角色、制作方、年份跨度及7集总量一致；逐集日期比对及前两集的外部标题、日期证据支持本篇1至7集顺序对应。该季没有混入圣诞特别篇。旧电影映射仅代表同名短片条目，不能代表整个系列。\n\nhttps://bgm.tv/subject/156732/ep (page): Bangumi 将本作标为 WEB 动画，导演为 Brett Jubinville；章节表包含7集本篇及1集圣诞特别篇。\n\nhttps://www.supersciencefriends.com/cast-crew-2 (page): 官方网站确认 Brett Jubinville 为创作者兼导演；爱因斯坦、特斯拉、居里夫人、达尔文等角色及配音人员与 TMDB TV 条目一致。\n\nhttps://www.themoviedb.org/tv/299835 (api_snapshot): TV 299835 由 Tinman Creative Studios 制作，导演为 Brett Jubinville，首播2015-11-14，末播2020-03-14，共1季7集；制作人员、角色和时间跨度符合本作。\n\nhttps://www.themoviedb.org/tv/299835/season/1 (api_snapshot): 第1季完整集表共7集、1页，日期依次为2015-11-14、2017-01-25、2017-03-22、2017-12-14、2018-05-17、2018-12-13、2020-03-14。第3至7集与 Bangumi 日期逐集相同，第1、2集各差一天。标题均为通用集号，不能独立作为标题匹配证据。\n\nhttps://super-science-friends.fandom.com/wiki/The_Phantom_Premise (search_snippet): 《The Phantom Premise》资料明确标为第1季第1集，日期为2015-11-14，导演为 Brett Jubinville，支持其与 TMDB 第1集的对应。\n\nhttps://www.stashmedia.tv/super-science-friends-episode-2-electric-boogaloo/ (search_snippet): 2017-01-25发布的报道明确介绍第2集《Electric Boogaloo》，列出 Tinman Creative Studios 和导演 Brett Jubinville，支持 TMDB 第2集的日期及身份。\n\nhttps://www.themoviedb.org/movie/379123 (api_snapshot): 旧映射 movie 379123 是2015-11-13发行、时长16分钟的同名条目，导演及科学家角色相符，但其单片范围不能覆盖2015至2020年的7集系列。\n\n备注：Bangumi 第1、2集日期与 TMDB 各差一天；其他资料支持 TMDB 日期，但尚未确定差异成因。；圣诞特别篇712539暂不映射：TV详情未列第0季，按特别篇标题搜索亦无结果；这不足以认定 TMDB 未收录。；TMDB 集标题均为通用集号，本篇对应主要依靠逐集日期、集数总量及作品身份交叉确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/156732; https://bgm.tv/subject/156732/ep; https://www.supersciencefriends.com/cast-crew-2; https://www.themoviedb.org/tv/299835; https://www.themoviedb.org/tv/299835/season/1; https://super-science-friends.fandom.com/wiki/The_Phantom_Premise; https://www.stashmedia.tv/super-science-friends-episode-2-electric-boogaloo/; https://www.themoviedb.org/movie/379123",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 299835
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 379123,
-      "type": "movie"
+      "id": 299835,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

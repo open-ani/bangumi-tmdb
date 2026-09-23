@@ -1,20 +1,36 @@
 {
   "bangumiId": 204863,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 687156,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 687156,
+      "targets": [
+        {
+          "id": 774285,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本 subject 对应 2016 年林魂执导的 5 分钟先行短片，匹配 TMDB movie 774285。发行日期、导演、媒介及单片范围一致，原始发布简介亦与 Bangumi 相符。唯一章节映射至该电影条目；旧映射指向后续 2020 年系列，应予替换。\n\nhttps://bgm.tv/subject/204863 (page): Bangumi 标注本作品为 2016 年 12 月 31 日发布的单集 WEB 动画，导演林魂，动画制作为六道无鱼动画工作室。\n\nhttps://www.bilibili.com/video/BV1Fs411Y7aW/ (search_snippet): 哔哩哔哩《原创动画短片 雾山五行》发布于 2016 年 12 月 31 日，简介与本 subject 一致，并注明六道无鱼动画工作室及导演林魂。\n\nhttps://movie.douban.com/subject/27037037// (search_snippet): 豆瓣将 2016 年版本列为林魂执导的动画短片，片长 5 分钟，上映日期为 2016 年 12 月 31 日。\n\nhttps://www.themoviedb.org/movie/774285 (api_snapshot): TMDB movie 774285《雾山五行》上映日期为 2016 年 12 月 31 日，片长 5 分钟，导演林魂；名称、日期、导演和短片时长均吻合。\n\nhttps://www.themoviedb.org/tv/102788 (api_snapshot): 旧映射 TV 102788 是 2020 年 7 月 26 日首播的系列，共 7 集，末次播出日期为 2023 年 8 月 16 日，与本次 2016 年单集短片版本不同。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/204863; https://www.bilibili.com/video/BV1Fs411Y7aW/; https://movie.douban.com/subject/27037037//; https://www.themoviedb.org/movie/774285; https://www.themoviedb.org/tv/102788",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 102788,
-      "type": "tv"
+      "id": 774285,
+      "type": "movie"
     }
   ]
 }

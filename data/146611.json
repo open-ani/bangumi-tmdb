@@ -1,20 +1,91 @@
 {
   "anidbId": 11595,
   "bangumiId": 146611,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 596925,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 596926,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 596927,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 596928,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 596929,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 596930,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 596931,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 596932,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 596933,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 596934,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 596935,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 596936,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 68055 第一季全12集。制作人员、公司、剧情、短篇电视动画形式及集数一致；12集标题与剧情逐集对应，独立节目资料进一步核实 Bangumi 的全部首播日期。TMDB 日期虽有偏差，但不影响已由逐集内容确认的一一对应关系。\n\nhttps://www.themoviedb.org/tv/68055 (api_snapshot): TMDB 68055 为同名日本电视动画，剧情涉及前田入住初中女生经营的公寓；导演小川優樹、制作公司 Seven Arcs Pictures 与输入一致，共一季12集。\n\nhttps://www.themoviedb.org/tv/68055/season/1 (api_snapshot): 第一季集表共12集，已读取全部一页。第1至12集日文标题与 Bangumi 逐集完全一致，每集约2分钟；但日期记为2016-08-28至2016-11-13，与日本首播日期不符。\n\nhttps://thetv.jp/program/0000886480/plot/ (page): 完整列出12集的标题、剧情及 TOKYO MX 播出日期：2016-01-10至2016-03-27每周一集。各集日期和标题均与输入一致，各集剧情也与 TMDB 对应集一致。\n\nhttps://www.animatetimes.com/tag/details.php?id=5646 (search_snippet): 资料确认本作是2016年1月10日至3月27日播出的12集电视动画，导演小川優樹、制作公司 Seven Arcs Pictures，主要角色与声优均与 TMDB 相符。\n\n备注：TMDB 全季日期较日本首播统一晚231天，原因尚未确认，不能将其作为日本首播日期使用。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/146611; https://www.themoviedb.org/tv/68055; https://www.themoviedb.org/tv/68055/season/1; https://thetv.jp/program/0000886480/plot/; https://www.animatetimes.com/tag/details.php?id=5646",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68055
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 68055,
+      "season": 1,
       "type": "tv"
     }
   ]

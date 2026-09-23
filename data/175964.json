@@ -1,19 +1,95 @@
 {
   "bangumiId": 175964,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 624700,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 624701,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 624702,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 624703,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 624704,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 624705,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 624706,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 624707,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 624708,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 624709,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 624710,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 624711,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 624712,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 63039 第一季整季：首播日期、动画媒介、剧情、主创、制作方及13集范围一致。旧映射68327属于同名芬兰犯罪剧，应更正。Bangumi 各章节缺少标题与放送日期，无法逐集交叉核实，因此仅提交已确认的整季范围，逐集规则留空。\n\nhttps://bgm.tv/subject/175964 (page): Bangumi 标注美国英语 TV 动画、13 集、2016年1月3日首播，编剧 Mark Hentemann、制作方 20th Century Fox Television；剧情为美墨边境沙漠小镇的两个家庭。\n\nhttps://www.themoviedb.org/tv/68327 (api_snapshot): TMDB 搜索 Bordertown 返回的旧目标 68327 原名为 Sorjonen，2016年10月16日首播，讲述芬兰警探调查凶案，与本 subject 不符。\n\nhttps://www.themoviedb.org/tv/63039 (api_snapshot): 已读取 63039 详情：2016年1月3日首播，共一季13集，美墨边境两个邻居家庭的剧情、制作方及 IMDb tt3323254 均与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/63039/season/1 (api_snapshot): 已读取第一季完整集表，total_pages=1，共13集，从2016年1月3日第1集至5月22日第13集，覆盖本 subject 全季。\n\nhttps://www.disneyplus.com/browse/entity-903319be-f2f1-4b4d-9b98-560e9a20d3c5 (page): Disney+ 官方页面确认该作为2016年 Mark Hentemann 创作的成人动画喜剧，剧情吻合；第一季13集标题及顺序与 TMDB 季表一致。\n\n备注：Bangumi 13个章节仅有序号，标题和日期均为空；需补充章节标题或放送日期后，才能建立非位置推测的逐集对应。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/175964; https://www.themoviedb.org/tv/68327; https://www.themoviedb.org/tv/63039; https://www.themoviedb.org/tv/63039/season/1; https://www.disneyplus.com/browse/entity-903319be-f2f1-4b4d-9b98-560e9a20d3c5",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 63039
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 68327,
+      "id": 63039,
+      "season": 1,
       "type": "tv"
     }
   ]

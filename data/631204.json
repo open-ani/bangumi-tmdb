@@ -1,0 +1,78 @@
+{
+  "bangumiId": 631204,
+  "episodes": [
+    {
+      "id": 1651806,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1651807,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1651808,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1651807,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 418,
+          "season": 4,
+          "type": "tv"
+        },
+        {
+          "episode": 3,
+          "id": 418,
+          "season": 4,
+          "type": "tv"
+        },
+        {
+          "episode": 4,
+          "id": 418,
+          "season": 4,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "codex: 对应 TMDB 418 第四季整季。Bangumi 的3话采用原始播出单元计数，TMDB 的5集将第二个播出单元拆成三段；分集指南的标题组合和三个播出日期与 TMDB 季表吻合，因此第1话对应E1，第2话对应E2–E4，第3话对应E5。\n\nhttps://www.themoviedb.org/tv/418 (api_snapshot): TMDB 418 为 Hanna-Barbera 制作的电视动画，讲述幼年史酷比及少年侦探团的冒险；1988年首播，1991年8月17日结束，共四季。制作方、媒介及第四季时间与输入一致。\n\nhttps://www.themoviedb.org/tv/418/season/4 (api_snapshot): 第四季完整季表共5条：第1集于1991年8月3日播出；第2、3、4集均于8月10日播出，分别为 Catcher on the Sly、The Ghost of Mrs. Shusham、The Wrath of Waitro，时长4、11、8分钟；第5集 Mayhem of the Moving Mollusk 于8月17日播出。\n\nhttps://www.tvguide.com/tvshows/a-pup-named-scooby-doo/episodes-season-4/1030152518/ (search_snippet): TV Guide 将第四季列为3个播出单元：8月3日 The Were-Doo of Doo Manor；8月10日由 Catcher on the Sly、The Ghost of Mrs. Shusham、The Wrath of Waitro 三段组成的第2话；8月17日 Mayhem of the Moving Mollusk。日期范围、播出单元数与 Bangumi 输入一致。\n\n备注：Bangumi 输入的章节标题与逐话日期为空，网页未能访问；章节对应依据输入的季别、3话总数及首尾日期，结合独立分集指南确认的播出单元结构。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/631204; https://www.themoviedb.org/tv/418; https://www.themoviedb.org/tv/418/season/4; https://www.tvguide.com/tvshows/a-pup-named-scooby-doo/episodes-season-4/1030152518/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 418
+    },
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 5,
+      "season": 4,
+      "start": 3,
+      "tmdbId": 418
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 418,
+      "season": 4,
+      "type": "tv"
+    }
+  ]
+}

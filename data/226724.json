@@ -1,20 +1,61 @@
 {
   "bangumiId": 226724,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 751551,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 751552,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 751553,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 751554,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 751555,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 751556,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 73919 第1季整季：首播日期、六集动画短片媒介、播出平台、制作人员和剧情均一致，季表没有混入其他作品。旧映射指向2015年真人电影，应替换。官方排期与 TMDB 六集标题、日期、顺序全部吻合，但输入中的 Bangumi 六个章节均缺少标题和日期，无法逐章核实，故暂不生成连续规则。\n\nhttps://www.themoviedb.org/tv/73919 (api_snapshot): TMDB 73919 为2017年6月10日首播的《Marvel's Ant-Man》动画系列，共1季6集；制作方为 Passion Pictures，导演为 Kevin Manach、Ugo Bienvenu，Josh Keaton 配音 Scott Lang。\n\nhttps://www.themoviedb.org/tv/73919/season/1 (api_snapshot): 第1季完整集表共6集，仅1页：第1至3集 Science Fair、Alien Invasion、Soup Time 均为2017年6月10日；第4至6集 Exterminator、Proton Cube、Not a Date 均为2017年6月11日。\n\nhttps://www.marvel.com/articles/tv-shows/ant-man-shrinks-into-action-with-3-new-animated-shorts (search_snippet): Marvel 官方公告确认 Disney XD 播出六部动画短片，并逐一列出上述六个标题及6月10日、11日的播出顺序和时间，与 TMDB 第1季完全一致。\n\nhttps://www.passion-animation.com/project/marvels-ant-man-animated-shorts/ (page): 制作方确认本作是 Disney XD 的六部90秒动画短片，由 Ugo Bienvenu、Kevin Manach 执导，Brian Wysol 编剧；剧情围绕 Scott Lang、黄蜂女、Hank Pym 及女儿 Cassie，与 TMDB 简介和制作人员一致。\n\nhttps://www.themoviedb.org/movie/102899 (api_snapshot): 旧映射 movie/102899 实为2015年、117分钟的《Ant-Man》电影，由 Peyton Reed 执导、Paul Rudd 主演；其 IMDb、Wikidata 标识也与 seed 一致，说明这些线索共同误指了电影版本。\n\n备注：Bangumi 章节页未能成功访问；需补充六个章节的标题或放送日期，才能确认各章节 ID 与 TMDB 集号的对应，不能仅凭 sort 位置填入 rules。\n\n脚本按声明范围生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/226724; https://www.themoviedb.org/tv/73919; https://www.themoviedb.org/tv/73919/season/1; https://www.marvel.com/articles/tv-shows/ant-man-shrinks-into-action-with-3-new-animated-shorts; https://www.passion-animation.com/project/marvels-ant-man-animated-shorts/; https://www.themoviedb.org/movie/102899",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 73919
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 102899,
-      "type": "movie"
+      "id": 73919,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

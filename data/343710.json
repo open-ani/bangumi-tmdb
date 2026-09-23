@@ -1,14 +1,30 @@
 {
   "anidbId": 15794,
   "bangumiId": 343710,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1046040,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1233108,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1233109,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB电影条目755094：发行日期、剧情、导演、编剧及制作公司一致。Bangumi的三话对应同一OVA的三个结局版本，可建立作品级映射；现有资料无法确认章节编号与具体版本的关系，因此不生成逐集映射。\n\nhttps://www.themoviedb.org/movie/755094 (api_snapshot): 日文原名及英文别名搜索均找到 movie/755094；详情确认发行日为2021-09-15、时长20分钟、导演花井宏和、编剧大久保昌弘、制作公司Nomad，海滩比赛剧情与本subject一致。\n\nhttps://colopl.co.jp/alicegearaegis/lp/ova/product/ (page): 官方商品页确认OVA于2021年9月15日开始配信，并列出兼志谷シタラ、金潟すぐみ、四谷ゆみ三个版本。\n\nhttps://colopl.co.jp/alicegearaegis/lp/ova/staff_cast/ (page): 官方制作名单确认导演花井宏和、原作ピラミッド、编剧大久保昌弘、动画制作ノーマッド，与TMDB详情相符。\n\nhttps://colopl.co.jp/news/pressrelease/2020101901.php (search_snippet): 官方公告说明OVA按三个联动商品分别提供角色关联的三种结局。\n\nhttps://store.kadokawa.co.jp/shop/g/g302303003946/ (search_snippet): KADOKAWA商品说明将2021年OVA列为三个结局版本，总计约54分钟，即约18分钟×3种，支持其为同一OVA的版本差异。\n\nhttps://bgm.tv/subject/343710/ep (page): Bangumi列出三个无标题、无放送日期的章节，时长分别为18:20、18:09、18:24，未标明各自对应哪个角色版本。\n\n备注：TMDB电影条目未区分三个结局版本；Bangumi三个章节也未标注版本名称，不能指定某一章节独占该电影条目。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/343710; https://www.themoviedb.org/movie/755094; https://colopl.co.jp/alicegearaegis/lp/ova/product/; https://colopl.co.jp/alicegearaegis/lp/ova/staff_cast/; https://colopl.co.jp/news/pressrelease/2020101901.php; https://store.kadokawa.co.jp/shop/g/g302303003946/; https://bgm.tv/subject/343710/ep",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

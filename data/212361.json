@@ -1,21 +1,91 @@
 {
   "anidbId": 13851,
   "bangumiId": 212361,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 761826,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 761827,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 761828,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 761829,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 761830,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 761831,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 761832,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 761833,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 761834,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 761835,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 761836,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 761837,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 对应 TMDB 79481 第2季整季。年份、首播日期、制作方、剧情及12话范围一致，全部集标题逐一对应，足以确认本篇1—12话按同号映射。逐集日期存在统一一周偏差，但不影响由完整标题序列确认的对应关系。\n\nhttps://api.themoviedb.org/3/tv/255687 (api_snapshot): 旧映射的 TV 255687 详情接口返回 HTTP 404，不能继续沿用。\n\nhttps://www.themoviedb.org/tv/79481 (api_snapshot): TV 79481 为动画《斗破苍穹》，制作公司包含幻维数码、阅文集团和企鹅影视；第2季首播日期为2018-03-03，共12集，季简介与本 subject 的魔兽山脉修炼剧情一致。\n\nhttps://www.themoviedb.org/tv/79481/season/2 (api_snapshot): 已读取第2季全部12集，total_pages=1。标题依次为斗、搏、进、决、别、炼、奇、险、图、亲、寻、破，与输入的 Bangumi 12话逐一一致，无特别篇或其他季度混入。第1集日期一致，第2至12集的 TMDB 日期均比 Bangumi 早7天。\n\nhttps://bangumi.tv/subject/212361 (search_snippet): Bangumi 搜索摘要确认本条目为2018年3月3日开播的12话网络动画，导演赵丙乐。\n\nhttps://moegirl.icu/zh-hant/%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9 (search_snippet): 资料列出第二季由幻维数码制作、赵丙乐执导，2018年3月3日首播，共12集；12个分集标题与 TMDB 季表一致，并将2017年特别篇单独列出。\n\n备注：第2至12话的播出日期存在7天差异，尚未确认是否源于会员提前观看或日期录入差异；不据此移动集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/212361; https://api.themoviedb.org/3/tv/255687; https://www.themoviedb.org/tv/79481; https://www.themoviedb.org/tv/79481/season/2; https://bangumi.tv/subject/212361; https://moegirl.icu/zh-hant/%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 79481
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 255687,
-      "season": 1,
+      "id": 79481,
+      "season": 2,
       "type": "tv"
     }
   ]

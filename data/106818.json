@@ -1,20 +1,141 @@
 {
   "anidbId": 10702,
   "bangumiId": 106818,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 463636,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 463637,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 463638,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 463639,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 463640,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 463641,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 463642,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 463643,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 463644,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 463645,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 463646,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 463647,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 510661,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 510662,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 510663,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 510664,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 510665,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 510666,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 510667,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 510668,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 510669,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 510670,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB 62110第1季整季。年份、电视动画媒介、剧情、主创及22集范围一致，全部标题与顺序逐集吻合，可建立本篇1—22话至S01E01—E22的连续对应。日期统一相差一天，结合官方采用1月9日放送日的记法，判断为深夜放送日期口径差异，不影响映射；不包含特别篇、第2季或电影。\n\nhttps://www.themoviedb.org/tv/62110 (api_snapshot): 日文原名搜索返回 TV 62110，并另列真人电影、2013年修学旅行篇及剧场版等不同版本。\n\nhttps://www.themoviedb.org/tv/62110 (api_snapshot): 作品详情确认为2015年电视动画：杀老师担任3年E班教师的剧情一致，导演岸诚二、制作公司Lerche及富士电视台等信息吻合；第1季22集，第2季为2016年续作。\n\nhttps://www.themoviedb.org/tv/62110/season/1 (api_snapshot): 已读取第1季完整集表，共22集、仅1页。第1至22集日文标题与输入逐集完全一致，日期逐集均比Bangumi晚一天，停播间隔也一致；范围为2015-01-10至2015-06-20。\n\nhttps://www.ansatsu-anime.com/2014-2016/story/index_1st.php (page): 官方第1期故事目录列出完整22话，顺序及标题与Bangumi和TMDB第1季一致，首话为暗杀的时间，末话为渚的时间。\n\nhttps://www.fujitv.co.jp/b_hp/ansatsu-anime/backnumber/615000002-1.html (page): 富士电视台明确标注第1期第1回于2015年1月9日放送，并确认原作松井优征、导演岸诚二、角色设计森田和明、动画制作Lerche及对应剧情和声优。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/106818; https://www.themoviedb.org/tv/62110; https://www.themoviedb.org/tv/62110/season/1; https://www.ansatsu-anime.com/2014-2016/story/index_1st.php; https://www.fujitv.co.jp/b_hp/ansatsu-anime/backnumber/615000002-1.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 62110
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 62110,
+      "season": 1,
       "type": "tv"
     }
   ]

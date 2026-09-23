@@ -1,19 +1,36 @@
 {
   "bangumiId": 67227,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 251292,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认本 subject 是2013年电视动画短篇《夕餉》，对应 TMDB 89811 第1季第1集，标题、首播日期、时长与制作方相符。该季另含两部独立短篇，因此仅映射第1集。旧映射84062为无关真人剧，应予替换。\n\nhttps://bangumi.tv/ep/251292 (page): Bangumi 唯一章节为《夕餉（ゆうげ）》，首播于2013-03-10，时长24分50秒；剧情围绕美々与年轻清扫员展开，原作为山田詠美，导演为高橋亨，动画制作为 PRODUCTION REED。\n\nhttps://curiouscope.com/?paged=2&tag=%E5%A4%A7%E4%BA%BA%E5%A5%B3%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%BF%E3%82%A4%E3%83%A0 (page): 制作方 CurioScope 公告确认2013年《大人女子のアニメタイム》包含三部独立新作：《夕餉》于3月10日播出，另外两部于3月17日、24日播出；《夕餉》原作为山田詠美，主演为中越典子。\n\nhttps://www.themoviedb.org/tv/89811 (api_snapshot): TMDB 89811 为2013年《大人女子のアニメタイム》，首播2013-03-10，共一季三集，制作公司包含 PRODUCTION REED，与该批动画的年份、制作方和放送范围一致。\n\nhttps://www.themoviedb.org/tv/89811/season/1 (api_snapshot): 完整读取第1季集表，共三集、仅一页。第1集《夕餉》播出日期2013-03-10、时长25分钟；第2、3集分别是《人生ベストテン》和《どこかではないここ》，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/84062 (api_snapshot): 旧映射84062实际为富士电视台真人剧《dinner》，首播2013-01-13，共11集，主演江口洋介，剧情发生于意大利餐厅；其 IMDb ID 正是线索中的 tt2554304，故两项旧线索均指向错误作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/67227; https://bangumi.tv/ep/251292; https://curiouscope.com/?paged=2&tag=%E5%A4%A7%E4%BA%BA%E5%A5%B3%E5%AD%90%E3%81%AE%E3%82%A2%E3%83%8B%E3%83%A1%E3%82%BF%E3%82%A4%E3%83%A0; https://www.themoviedb.org/tv/89811; https://www.themoviedb.org/tv/89811/season/1; https://www.themoviedb.org/tv/84062",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 89811
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 84062,
+      "episode": 1,
+      "id": 89811,
+      "season": 1,
       "type": "tv"
     }
   ]

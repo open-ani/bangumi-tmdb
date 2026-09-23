@@ -1,19 +1,90 @@
 {
   "bangumiId": 412008,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1738646,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1738647,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1738648,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1738649,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1738650,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1738651,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1738652,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1738653,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1738654,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1738655,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1738656,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1738657,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应TMDB 134667第2季，属于2026年电视续作。作品身份及整季归属明确，按未开播作品规则提交整季；首集通过官方标题及跨午夜放送日期核实，仅建立第1集对应。\n\nhttps://www.themoviedb.org/tv/134667 (api_snapshot): TMDB 134667 为同名日本电视动画，制作公司包含 C2C；第1季为2022年作品，第2季首播日期为2026-10-08。\n\nhttps://www.themoviedb.org/tv/134667/season/2 (api_snapshot): 已读取第2季完整现有集表（total_pages=1），目前仅收录第1集，日期为2026-10-08；后续集表尚未补齐。\n\nhttps://tenken-anime.com/ (page): 官方确认《転生したら剣でしたⅡ》于2026年10月开播；浮游岛与死灵术师的剧情、导演石平信司、人物设计齋藤温子和制作公司 C2C 与待核对作品一致。\n\nhttps://tenken-anime.com/onair.html (page): 官方排期为10月7日起每周三24:00电视播出，即自然日10月8日，与TMDB第2季首集日期一致；ABEMA自9月30日24:30提前一周播出。\n\nhttps://tenken-anime.com/story.html (page): 官方第1话标题为「空に浮かんでるのは島でした」，与Bangumi第1话一致，剧情为师匠与芙兰接近浮游岛并遇见死灵术师。\n\n备注：TMDB第2季目前仅有1集；尚无足够证据核实输入所列全12集的最终集数及后续逐集排期，因此第2—12集暂不建立规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/412008; https://www.themoviedb.org/tv/134667; https://www.themoviedb.org/tv/134667/season/2; https://tenken-anime.com/; https://tenken-anime.com/onair.html; https://tenken-anime.com/story.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 134667
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 134667,
+      "season": 2,
       "type": "tv"
     }
   ]

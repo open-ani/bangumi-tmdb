@@ -1,20 +1,91 @@
 {
   "anidbId": 15656,
   "bangumiId": 311310,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 967635,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 967636,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 967637,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 967638,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 967639,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 967640,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 967641,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 967642,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 967643,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 967644,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 967645,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 967646,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 106480 第 1 季全季。年份、TV 媒介、剧情和制作人员一致，十二集标题及顺序逐项吻合。日期差异来自海外先行播出及深夜日期口径，首日两集也与 TMDB 集表相符，因此本篇 1—12 集可连续一一映射。\n\nhttps://www.themoviedb.org/tv/106480 (api_snapshot): 日文原名及英文别名搜索均返回 TV 106480。详情确认这是 2021 年的《海賊王女》，制作公司 Production I.G，导演中澤一登、高橋哲也、藤咲淳一；菲娜与雪丸寻找伊甸的剧情与输入一致，共一季十二集。\n\nhttps://www.themoviedb.org/tv/106480/season/1 (api_snapshot): 第 1 季实际集表共 12 集，total_pages=1。第 1—12 集日文标题与 Bangumi 十二集逐项完全一致。前两集日期均为 2021-08-15，第 3—12 集从 2021-08-22 至 2021-10-24 每周播出，无额外作品混入。\n\nhttps://fena-pirate-princess.com/ (page): 日本官网确认相同剧情，并列明 MBS 自 10 月 2 日起每周六 26:38 播出，与 Bangumi 使用的日本播出日口径相符。\n\nhttps://www.crunchyroll.com/pl/news/latest/2021/7/20/fena-pirate-princess-hits-crunchyroll-and-adult-swim-on-august-14 (search_snippet): Crunchyroll 官方公告确认海外于 2021 年 8 月 14 日首播，首日连播两集，日本以外提供字幕版；解释了 TMDB 海外先行日期与 Bangumi 日本播出日期的差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/311310; https://www.themoviedb.org/tv/106480; https://www.themoviedb.org/tv/106480/season/1; https://fena-pirate-princess.com/; https://www.crunchyroll.com/pl/news/latest/2021/7/20/fena-pirate-princess-hits-crunchyroll-and-adult-swim-on-august-14",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 106480
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 106480,
+      "season": 1,
       "type": "tv"
     }
   ]

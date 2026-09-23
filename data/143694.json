@@ -1,20 +1,96 @@
 {
   "anidbId": 11495,
   "bangumiId": 143694,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 749876,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 749877,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 749878,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 749879,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 749880,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 749881,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 749882,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 749883,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 749884,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 749885,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 749886,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 749887,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 797796,
+      "sort": 8.5,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 74018 第1季「邂逅」。年份、制作公司、剧情、版本和12话范围一致，12个集标题逐集吻合，结合放送日期可确认本篇1—12话顺序对应第1季1—12集。该季未混入续篇，可使用整季范围。特别节目暂不映射。\n\nhttps://www.themoviedb.org/tv/74018 (api_snapshot): TMDB 74018 为2018年开始的新版电视动画，制作公司为 Production I.G，剧情与输入一致；第1季明确标为「邂逅」、共12集，第2季另列为2019年的「星乱」。\n\nhttps://www.themoviedb.org/tv/74018/season/1 (api_snapshot): 第1季集表共12集、仅1页。全部集标题与 Bangumi 本篇逐集一致；第2、5—12集日期完全一致。第1集记为2018-03-31，第3、4集分别记为2018-04-18、2018-04-25，与 Bangumi 存在日期差异。\n\nhttps://gineiden-anime.com/news.html (page): 官方公告确认第1话于2018年3月31日在家庭剧场先行放送，解释了 TMDB 第1集日期早于 Bangumi 常规首播日期的差异。\n\nhttps://www.fami-geki.com/ichioshi/rec/1805/ (search_snippet): 家庭剧场2018年5月节目资料明确将新版列为全12话，并与旧版本传全110话及剧场版分别列出。\n\nhttps://www.production-ig.co.jp/hotnews/2018/051701.html (page): Production I.G 公告确认「キルヒアイスのイゼルローン訪問記」为声优探访主题咖啡馆的特别节目，2018年5月29日首播，本篇第9话顺延至次周。\n\nhttps://www.themoviedb.org/tv/74018/season/0 (api_snapshot): 查询第0季返回404，当前未取得可对应该特别节目的特别篇集表。\n\n备注：TMDB 第3、4集日期比 Bangumi 晚一天，原因未确认；标题、剧情与前后集对应一致，不影响集号判断。；Bangumi 特别节目797796（sort 8.5）未找到已核实的 TMDB 对应，保留未映射；第0季返回404不代表该节目在 TMDB 全站未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/143694; https://www.themoviedb.org/tv/74018; https://www.themoviedb.org/tv/74018/season/1; https://gineiden-anime.com/news.html; https://www.fami-geki.com/ichioshi/rec/1805/; https://www.production-ig.co.jp/hotnews/2018/051701.html; https://www.themoviedb.org/tv/74018/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74018
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 74018,
+      "season": 1,
       "type": "tv"
     }
   ]

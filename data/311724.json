@@ -1,19 +1,39 @@
 {
   "bangumiId": 311724,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 918449,
+      "sort": 6.5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 918449,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 91097,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认中章对应原版《灵笼》TMDB 91097的S00E01：制作方、版本、章节标题及首播日期一致，且明确区别于终章、特别篇和精编版。subject仅覆盖这一集；Bangumi sort为小数6.5，使用章节ID覆盖映射。\n\nhttps://bgm.tv/subject/311724 (page): Bangumi 将中章列为2019年11月17日播出的单话 WEB 动画，出品方为艺画开天、bilibili，总导演为董相博。\n\nhttps://bangumi.tv/ep/918449 (page): 章节918449为第6.5话《中章》，首播日期2019-11-17，时长46分41秒。\n\nhttps://www.bilibili.com/bangumi/media/md23432 (search_snippet): bilibili官方条目确认原版第一季2019年7月13日开播，由艺画开天、bilibili出品，背景为地质浩劫后的末日世界。\n\nhttps://www.themoviedb.org/tv/91097 (api_snapshot): TMDB 91097为2019年7月13日首播的《灵笼》，制作公司为艺画开天与bilibili，原名、别名及末日背景均一致。\n\nhttps://www.themoviedb.org/tv/91097/season/0 (api_snapshot): 第0季完整集表共16集、1页；第1集为《中章》，日期2019-11-17，时长45分钟，剧情涉及马克、冉冰及尘民捐献心脏事件。终章、2021年特别篇、PV与2025年精编版均另列。\n\nhttps://www.themoviedb.org/tv/275379 (api_snapshot): 旧映射275379的TV详情API返回HTTP 404，无法作为有效目标保留。\n\n备注：时长标注略有差异：Bangumi为46分41秒，TMDB为45分钟；标题与首播日期完全一致，不影响对应判断。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/311724; https://bangumi.tv/ep/918449; https://www.bilibili.com/bangumi/media/md23432; https://www.themoviedb.org/tv/91097; https://www.themoviedb.org/tv/91097/season/0; https://www.themoviedb.org/tv/275379",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 275379,
+      "episode": 1,
+      "id": 91097,
+      "season": 0,
       "type": "tv"
     }
   ]

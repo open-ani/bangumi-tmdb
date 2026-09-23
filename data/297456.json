@@ -1,20 +1,91 @@
 {
   "anidbId": 15362,
   "bangumiId": 297456,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1017688,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1017689,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1017690,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1017691,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1017692,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1017693,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1017694,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1017695,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1017696,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1017697,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1017698,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1017699,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 98309 第1季整季。年份、剧情、导演、制作公司及12集规模一致，全部日文集标题顺序吻合；日期差来自提前一周的网络配信。本篇1—12话逐集对应S01E01—S01E12。\n\nhttps://www.themoviedb.org/tv/98309 (api_snapshot): TMDB 98309 为2021年同名电视动画，剧情人物一致，导演为中山奈緒美、制作公司包含 Nomad；全剧仅1季、共12集，与输入资料相符。\n\nhttps://www.themoviedb.org/tv/98309/season/1 (api_snapshot): 第1季集表共12集、仅1页。逐集核对后，第1至12集日文标题与 Bangumi 全部一致；TMDB 日期为2021-03-29至2021-06-14，每集均比对应 Bangumi 电视放送日期早7天。\n\nhttps://koikimo.jp/ (page): 官网确认本作为2021年春季电视动画，剧情为天草亮获有马一花相救后展开追求，与双方条目简介一致。\n\nhttps://koikimo.jp/onair/ (search_snippet): 官网放送表注明 Amazon Prime Video 于3月29日起每周一独占先行配信，AT-X及TOKYO MX于4月5日起每周一电视播出，解释了全部章节的7天日期差。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/297456; https://www.themoviedb.org/tv/98309; https://www.themoviedb.org/tv/98309/season/1; https://koikimo.jp/; https://koikimo.jp/onair/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 98309
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 98309,
+      "season": 1,
       "type": "tv"
     }
   ]

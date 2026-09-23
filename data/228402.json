@@ -1,13 +1,40 @@
 {
+  "anidbId": 13697,
   "bangumiId": 228402,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 769692,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 769693,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 769694,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 769694,
+      "targets": [
+        {
+          "id": 495368,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 的日文原名、别名和英文罗马字检索均唯一命中电影 495368。详情确认原名为「傾福さん」、日期为 2017-12-28、片长 5 分钟、日语、制作公司 Irodori，导演和编剧均为 たつき。Bangumi API 说明该主体包含两条短片及其于 2017-12-28 发布、合并前两条并加入新场景的「傾福さん フル版」；3 个条目是发布版本记录，并非 TMDB 中的三集 TV 季。因此对应 TMDB 电影，不填写季或集数范围。\n\nhttps://api.bgm.tv/v0/subjects/228402 (api_snapshot): Bangumi API：主体为 WEB 作品，共 3 话；说明记载两条短片及 2017-12-28 发布的「傾福さん フル版」，后者合并前两条并加入新场景。\n\nhttps://www.themoviedb.org/movie/495368 (api_snapshot): TMDB 详情：标题为傾福さん，日期 2017-12-28，片长 5 分钟，语言为日语，制作公司为 Irodori，たつき担任导演和编剧。\n\nhttps://www.themoviedb.org/search/movie?query=%E5%82%BE%E7%A6%8F%E3%81%95%E3%82%93 (search_snippet): TMDB 搜索以傾福さん、傾福桑、Keifuku-san、倾福小姐检索，均唯一命中电影 495368。",
+    "evidence": "codex: 确认 TMDB 电影 495368 对应本 subject 第3话「完整版」：发布日期、片长、导演、制作公司及配音一致。Bangumi 的三话包含两次分段发布及合并新增内容后的完整版本，不能视为三集 TV。保留电影目标，并仅将章节 769694 明确映射到该电影。\n\nhttps://www.themoviedb.org/movie/495368 (api_snapshot): TMDB 电影 495368 原名为「傾福さん」，发行日期为 2017-12-28，片长 5 分钟，制作公司为 Irodori，导演及编剧为たつき，配音为花守ゆみり。\n\nhttps://bgm.tv/subject/228402 (page): Bangumi 将本作记为三话 WEB 动画；简介明确说明完整版合并此前两条短片并增加新场景，于 2017-12-28 发布。\n\nhttps://bgm.tv/subject/228402/ep (page): 章节表记录：第1话「夏なので」于 2017-08-15 发布，长1分35秒；第2话「秋なので」于 2017-10-23 发布，长2分18秒；第3话「フル版」于 2017-12-28 发布，长5分26秒。第3话的日期及片长与 TMDB 电影吻合。\n\nhttps://nlab.itmedia.co.jp/cont/articles/3274542/ (page): 2017-12-28 的报道确认たつき发布「傾福さん フル版」，此前自同年8月起分段发布；内容围绕站员装束少女与飞行的蝠鲼状角色展开，属于原创叙事短片。\n\nhttps://www.allcinema.net/cinema/pdf/363781 (search_snippet): allcinema 将本作列为2017年原创影像动画，导演为たつき、动画制作为irodori、配音为花守ゆみり，与 TMDB 制作信息一致。\n\n备注：第1、2话的独立发布版本尚未确认各自的 TMDB 条目，暂不映射，也不重复指向完整版电影。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/228402; https://api.bgm.tv/v0/subjects/228402; https://www.themoviedb.org/movie/495368; https://www.themoviedb.org/search/movie?query=%E5%82%BE%E7%A6%8F%E3%81%95%E3%82%93",
-    "verifiedAt": "2026-09-08T21:09:08.249Z"
+    "source": "https://bgm.tv/subject/228402; https://www.themoviedb.org/movie/495368; https://bgm.tv/subject/228402/ep; https://nlab.itmedia.co.jp/cont/articles/3274542/; https://www.allcinema.net/cinema/pdf/363781",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,19 +1,62 @@
 {
   "bangumiId": 299655,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 931193,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 931194,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 931195,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 931196,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 931197,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 931198,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 本subject为2020年推出的后六集，对应TMDB 94004第1季第7—12集。官方分段、六集标题与剧情、制作信息及公开排期共同确认对应关系。Bangumi采用会员一次上线日期，TMDB采用逐周免费公开日期；日期差异不影响逐集匹配。范围不包含前篇占用的第1—6集。\n\nhttps://www.themoviedb.org/tv/94004 (api_snapshot): TMDB 94004 为日本动画《OBSOLETE》，共1季12集；剧情涉及亚扎尼亚共和国、外星机械与51区开发计划，制作公司包括武右卫门、Nitroplus等，与本条目一致。\n\nhttps://www.themoviedb.org/tv/94004/season/1 (api_snapshot): 已读取第1季日文及英文完整集表，total_pages=1。第7—12集标题依次对应Reshep、Area 51、Carhuincho、Santa Muerte、Freyja、九叶木乃香；各集剧情年份与地点亦吻合。日期依次为2020-12-01、12-08、12-15、12-22、12-29及2021-01-05。\n\nhttps://project-obsolete.com/ (page): 官方集表明确分为EP1—6与EP7—12；后六集的标题、地点及故事年份逐项对应输入的Bangumi第7—12话。\n\nhttps://project-obsolete.com/staffcast/ (page): 官方制作人员包括原案及系列构成虚渊玄、导演山田裕城与白土晴一，动画制作为武右卫门，与Bangumi资料一致。\n\nhttps://project-obsolete.com/news/257 (search_snippet): 官方公告确认EP7—12于2020年12月1日20时上线，第7集常时免费，第8集起每周二逐集免费公开。\n\nhttps://project-obsolete.com/onair/ (page): 官方说明YouTube Premium会员可一次观看最新各集，非会员按免费公开进度观看，解释了Bangumi统一上线日期与TMDB逐周日期的差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/299655; https://www.themoviedb.org/tv/94004; https://www.themoviedb.org/tv/94004/season/1; https://project-obsolete.com/; https://project-obsolete.com/staffcast/; https://project-obsolete.com/news/257; https://project-obsolete.com/onair/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 94004
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 7,
+      "episodeEnd": 12,
       "id": 94004,
+      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,20 +1,81 @@
 {
   "anidbId": 13787,
   "bangumiId": 137940,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 576024,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 576025,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 576026,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 576027,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 576028,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 576029,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 576030,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 576031,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 576032,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 576033,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 对应TMDB 79621第一季全10集。动画媒介、首播日期、季度剧情、集数及逐集标题共同确认身份与顺序，可建立本篇1—10集连续映射。旧映射116303是2021年真人改编剧，应替换。\n\nhttps://bangumi.tv/subject/137940 (search_snippet): Bangumi 标明本作是2015年10月22日开播的10话网络动画，原作逆苍天，导演王昕，总导演杨晓轩，动画总制作为绘梦。\n\nhttps://www.themoviedb.org/tv/79621 (api_snapshot): TMDB 79621 为2015年10月22日首播的动画系列，包含配音演员及爱奇艺制作信息；第一季10集，秦烈、凌语诗与高宇讨伐噬魂兽的剧情与输入一致，第二季另列于2016年2月18日。\n\nhttps://www.themoviedb.org/tv/79621/season/1 (api_snapshot): 第一季真实集表共10集、仅1页。第1—6集标题和日期逐一吻合；第7、8、10集标题吻合但日期比输入早一天；第9集标题为“血池疗伤 宋婷玉妖媚术”，与输入“血池共浴 宋婷玉妖媚术”存在措辞差异，日期同样早一天。\n\nhttps://www.iqiyi.com/dongman/LingYuS1.html (page): 爱奇艺官方动画第一季专题独立列出第一至第十集，并列有山新声优宣传、动画主题曲及片尾曲，佐证10集动画版本。\n\nhttps://www.themoviedb.org/tv/116303 (api_snapshot): 旧映射116303对应2021年、36集的真人剧，由范丞丞、程潇出演；其IMDb和TVDB编号正是输入seed中的编号，不能用于本次2015年动画映射。\n\n备注：TMDB第7—10集日期均比Bangumi早一天，第9集标题有“疗伤／共浴”差异；结合其他标题和完整10集范围，不影响逐集对应，差异原因未确认。；TMDB系列级制作公司另列Shanghai Foch Film Culture Investment，与Bangumi第一季绘梦制作署名不完全一致；TMDB缺少导演资料，无法在其API内直接交叉核验王昕署名。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/137940; https://bangumi.tv/subject/137940; https://www.themoviedb.org/tv/79621; https://www.themoviedb.org/tv/79621/season/1; https://www.iqiyi.com/dongman/LingYuS1.html; https://www.themoviedb.org/tv/116303",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79621
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 116303,
+      "id": 79621,
+      "season": 1,
       "type": "tv"
     }
   ]

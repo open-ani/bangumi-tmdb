@@ -1,14 +1,30 @@
 {
   "anidbId": 12654,
   "bangumiId": 202270,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 881081,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 883814,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 883815,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认subject主体对应TMDB电影567006：上映日期、导演、制作方及海门联合军剧情一致。Bangumi三话反映分段配信形式，导演访谈确认其与剧场电影的关系，因此提交作品级电影映射；未确认可逐话对应的TMDB集表，三章均保留未映射。\n\nhttps://www.themoviedb.org/movie/567006 (api_snapshot): 日文原名及英文别名搜索均返回电影 567006；详情确认上映日为2019-05-10、片长68分钟、导演兼编剧荒木哲郎、制作公司WIT STUDIO，剧情为生驹等人与联合军夺回海门，与本subject主体一致。\n\nhttps://bgm.tv/subject/202270 (page): Bangumi将本条目标为剧场版，列出荒木哲郎、WIT STUDIO、2019年5月10日，同时记录3话及01:22:17片长。\n\nhttps://www.aniplex.co.jp/lineup/kabaneri_movie/news/detail/?id=50126 (page): 官方公告确认本片于2019年5月10日剧场上映，并在同日通过Netflix及Amazon Prime Video配信。\n\nhttps://animeanime.jp/article/2019/12/20/50485_4.html (page): 荒木哲郎在访谈中确认配信版经过分段，而Blu-ray/DVD收录与剧场上映相同的连续电影版本，证明分段配信与剧场电影属于同一作品的不同呈现版本。\n\nhttps://www.nerdbrain.net/4040/ (search_snippet): 2019年5月10日的配信报道记载Amazon Prime Video版本采用三话结构。\n\nhttps://www.themoviedb.org/tv/65945 (api_snapshot): 母系列65945为2016年TV动画，详情仅列2016年第1季12集；不能据此把海门决战的三话套入母系列。\n\n备注：Bangumi记载82分17秒，TMDB记载剧场版68分钟；已确认配信版与剧场版的分段差异，但未完整核实全部时长差异及剪辑边界，不能宣称版本逐帧等同。；章节881081、883814、883815没有建立逐章映射，也不将其中任意一章单独视为整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/202270; https://www.themoviedb.org/movie/567006; https://www.aniplex.co.jp/lineup/kabaneri_movie/news/detail/?id=50126; https://animeanime.jp/article/2019/12/20/50485_4.html; https://www.nerdbrain.net/4040/; https://www.themoviedb.org/tv/65945",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

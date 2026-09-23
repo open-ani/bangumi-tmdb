@@ -1,20 +1,96 @@
 {
   "anidbId": 10291,
   "bangumiId": 89511,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 353944,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 353945,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 353946,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 353947,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 355092,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 355093,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 355094,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 355095,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 355096,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 355097,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 355098,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 355099,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 355100,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 60663 第1季整季。13集标题逐集一致，集数及顺序完全吻合；日期差异由首集先行播出及周日24时跨日记法解释。第1季未混入后续完结篇，可建立本篇1—13集一一对应规则。\n\nhttps://www.themoviedb.org/tv/60663 (api_snapshot): TMDB 60663 为同名电视动画，剧情围绕渡濑青叶与迪奥展开，制作公司为 SUNRISE、导演为田边泰裕；第1季共13集，与本 subject 的媒介、剧情、制作方及集数相符。\n\nhttps://www.themoviedb.org/tv/60663/season/1 (api_snapshot): 已读取第1季完整集表（共1页、13集）。第1至13集日文标题与输入逐集完全一致，顺序相同。首集日期为2013-12-29；第2至13集日期分别比 Bangumi 晚一天，均符合周日24时播出的跨日日期。\n\nhttps://animeanime.jp/article/2013/12/02/16541.html (page): 报道确认本作由 SUNRISE 制作、田边泰裕执导，2014年1月5日起每周日24时在 TOKYO MX 正式播出；首集曾于2013年12月29日23时先行播出，解释了 TMDB 首播年份及首集日期差异。\n\nhttps://www.buddy-complex.jp/onair.html (page): 官方将《完结篇 -あの空に還る未来で-》明确列为完全新作前后篇，于9月29日、30日播出，属于本次13集电视正篇之外的后续内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/89511; https://www.themoviedb.org/tv/60663; https://www.themoviedb.org/tv/60663/season/1; https://animeanime.jp/article/2013/12/02/16541.html; https://www.buddy-complex.jp/onair.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 60663
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 60663,
+      "season": 1,
       "type": "tv"
     }
   ]

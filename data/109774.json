@@ -1,14 +1,30 @@
 {
   "anidbId": 2776,
   "bangumiId": 109774,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 889102,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 889102,
+      "targets": [
+        {
+          "id": 125565,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 两份定位实际指向同一部 2005 年动画电影：TMDB 电视条目的特别篇 S0E4 明确标为《Zatch Bell! Attack of Mechavulcan》，时长 1 小时 25 分、日期为 2005-08-06；这与 Bangumi 主体的电影标题、年份、上映日和片长一致。该条目不是把整季或其他正篇内容映射过来，而是单独的 0x4 电影条目。独立电影资料页的 TMDB 链接解析到电影 ID 125565，因此电影映射和 TV 特别篇映射均成立。\n\nhttps://www.themoviedb.org/tv/35894-zatch-bell-us/episodes?credit_id=5abc8e0b9251411e950218bd&language=ko-KR&person_id=4d42cc485e73d6361906589a (page): TMDB TV 页面列出“Zatch Bell! Attack of Mechavulcan.”，日期为 2005 年 8 月 6 日、时长 1 小时 25 分、编号为 0x4，即第 0 季第 4 集；同页还将另一部电影《101st Devil》列为 0x3，说明 0x4 是独立电影特别篇。\n\nhttps://www.fujitv.co.jp/movie/01movie/20050000_06_M00.html (search_snippet): 富士电视台官方页面确认《剧场版 金色のガッシュベル!! メカバルカンの来襲》为独立剧场版，剧情围绕机械巴鲁刚展开。\n\nhttps://www.cinematoday.jp/movie/T0003347 (search_snippet): Cinema Today 资料确认该片为 2005 年 8 月 6 日公开、片长 85 分钟的动画电影。\n\nhttps://letterboxd.com/film/zatch-bell-attack-of-mechavulcan/ (page): 该页面以日文原题列出同一部 2005 年动画电影，并显示其 TMDB 链接解析目标为 https://www.themoviedb.org/movie/125565/。",
+    "evidence": "codex: 确认对应2005年独立剧场版 TMDB movie 125565：上映日期、具体剧情、制作公司及主创均吻合，唯一章节对应整部电影。当前实际季表不含旧映射的 TV 35894 S0E4，删除该目标。\n\nhttps://www.themoviedb.org/movie/125565 (api_snapshot): 以日文原名搜索命中电影 125565；详情确认上映日为 2005-08-06，东映动画制作，导演五十岚卓哉、编剧松井亚弥；清麿被 Dr.M2 带走、机械巴鲁刚军团来袭的剧情与输入一致。\n\nhttps://lineup.toei-anim.co.jp/ja/movie/GB_mechavulcan/staff/ (search_snippet): 东映动画官方资料确认本作为剧场版，2005年8月6日上映，导演五十岚卓哉、编剧松井亚弥，剧情涉及 Dr.M2 与机械巴鲁刚军团。\n\nhttps://www.themoviedb.org/tv/35894 (api_snapshot): TV 35894 是 2003-04-06 开播的母系列，共150集正篇；不能以母系列身份直接代替本电影。\n\nhttps://www.themoviedb.org/tv/35894/season/0 (api_snapshot): 第0季当前集表只有两集 OVA，分页共1页，不存在旧映射所称的第4集，因此不保留 S0E4。\n\n备注：TMDB 标注片长87分钟，Bangumi 为85分钟；存在时长记录差异，但其余身份信息一致，未发现另一版本的证据。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/109774; https://www.themoviedb.org/tv/35894-zatch-bell-us/episodes?credit_id=5abc8e0b9251411e950218bd&language=ko-KR&person_id=4d42cc485e73d6361906589a; https://www.fujitv.co.jp/movie/01movie/20050000_06_M00.html; https://www.cinematoday.jp/movie/T0003347; https://letterboxd.com/film/zatch-bell-attack-of-mechavulcan/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/109774; https://www.themoviedb.org/movie/125565; https://lineup.toei-anim.co.jp/ja/movie/GB_mechavulcan/staff/; https://www.themoviedb.org/tv/35894; https://www.themoviedb.org/tv/35894/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,12 +32,6 @@
     {
       "id": 125565,
       "type": "movie"
-    },
-    {
-      "episode": 4,
-      "id": 35894,
-      "season": 0,
-      "type": "tv"
     }
   ]
 }

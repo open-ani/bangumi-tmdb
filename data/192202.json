@@ -1,13 +1,34 @@
 {
   "bangumiId": 192202,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 702876,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 702877,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 702878,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 702879,
+      "sort": 17,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应TMDB电影422347，即2017年第四章《丧失》。上映日期、剧情、导演、制作公司与系列章次相互印证。该目标为单部电影，无季号；Bangumi的14—17四个分段未建立独立逐集对应，保留作品级映射。\n\nhttps://www.themoviedb.org/movie/422347 (api_snapshot): 日文原名搜索命中 movie 422347；详情确认上映日期为2017-02-25、导演为元永庆太郎、制作公司为东映动画、片长82分钟，剧情为重启后伙伴失忆、太一等人寻找芽心与缅因猫兽，与本 subject 一致。\n\nhttps://jfdb.jp/title/7748 (page): JFDB确认本作是全六章系列的第四章，2017年2月25日上映，82分钟；导演元永庆太郎、角色设计宇木敦哉、制作公司东映动画，剧情亦一致。\n\nhttps://www.toei-anim.co.jp/movie/digimon-adventure/tri/story/index_04.php (search_snippet): 东映官方第四章剧情摘要包含重启后伙伴失忆、比丘兽对空产生戒心、缅因猫兽寻找芽心及姬川失踪，与输入简介吻合。\n\nhttps://bgm.tv/subject/192202/ep (page): Bangumi将本 subject 标为剧场版，章节为14至17，首播日期均为2017-02-25，四段时长合计89分26秒。\n\n备注：Bangumi标注89分钟且四段合计89分26秒，TMDB与JFDB均记82分钟；分段版与电影版的具体剪辑差异未核实，因此不填写章节级映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/192202; https://www.themoviedb.org/movie/422347; https://jfdb.jp/title/7748; https://www.toei-anim.co.jp/movie/digimon-adventure/tri/story/index_04.php; https://bgm.tv/subject/192202/ep",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

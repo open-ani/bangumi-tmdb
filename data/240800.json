@@ -1,20 +1,91 @@
 {
   "anidbId": 13254,
   "bangumiId": 240800,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 829757,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 829758,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 829759,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 829760,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 829761,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 829762,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 829763,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 829764,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 829765,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 829766,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 829767,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 829768,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB 82522 第1季全12集。年份、电视动画媒介、制作公司、导演及剧情一致，完整季表未混入其他作品。逐集标题、总量及日期序列支持本篇1—12话顺序一一对应。\n\nhttps://www.themoviedb.org/tv/82522 (api_snapshot): 日文原名搜索命中 TV 82522；详情确认是2018年动画，由 GEEKTOYS 制作、佐藤卓哉导演，德里达冷冻沉睡十年后寻找玛吉的剧情与输入一致，共1季12集。\n\nhttps://www.themoviedb.org/tv/82522/season/1 (api_snapshot): 第1季完整集表共12集、1页。逐集标题与 Bangumi 第1—12话对应，仅第3、7、12话存在录入字形差异。第1—4集日期均为2018-09-22；第5—12集从2018-10-04至11-22每周播出，均比输入日期晚一天，顺序与总量一致。\n\nhttps://www.crunchyroll.com/hi/anime-news/2018/09/22-1/crunchyroll-to-premiere-rerided-derrida-who-leaps-through-time-today (search_snippet): Crunchyroll 于2018年9月22日宣布当天提前上线前四集，解释了章节首播日期早于日本电视开播日期。\n\nhttps://rerided.com/onair/ (search_snippet): 官方放送信息记载2018年10月3日起电视播出，TOKYO MX 为每周三25:05；官方故事目录列出第1—12话。\n\nhttps://rerided.com/story/ (search_snippet): 官方故事页列出12话，末话标题及电波望远镜设施内重逢的剧情与 TMDB 第12集一致。\n\n备注：第5—12话的 TMDB 日期统一比 Bangumi 晚一天，可能源于时区或跨午夜日期口径；现有证据未直接确定具体原因，但不影响由逐集标题和完整集数确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/240800; https://www.themoviedb.org/tv/82522; https://www.themoviedb.org/tv/82522/season/1; https://www.crunchyroll.com/hi/anime-news/2018/09/22-1/crunchyroll-to-premiere-rerided-derrida-who-leaps-through-time-today; https://rerided.com/onair/; https://rerided.com/story/",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 82522
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 82522,
+      "season": 1,
       "type": "tv"
     }
   ]

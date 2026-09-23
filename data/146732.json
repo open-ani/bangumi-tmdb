@@ -1,20 +1,149 @@
 {
   "anidbId": 11597,
   "bangumiId": 146732,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 659981,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 659982,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 659983,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 659984,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 659985,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 659986,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 659987,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 659988,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 659989,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 659990,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 659991,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 659992,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 659993,
+      "sort": 13,
+      "type": 1
+    },
+    {
+      "id": 685984,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 693558,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 729419,
+      "sort": 14,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 685984,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 693558,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 659993,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 69820,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 729419,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 69820,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应2017年电视动画第1季：12话本篇按标题、剧情、集数及放送日期核对后顺序一致；两话番外对应 S0E1—E2。先行放送上下篇重复本篇第1—2话，明确排除其重复映射，避免同一 TMDB 集被两条 Bangumi 章节占用。\n\nhttps://www.themoviedb.org/tv/69820 (api_snapshot): TMDB 69820 的剧情、角色及声优与本 subject 一致；季列表区分了2017年第1季与2019年第2季。\n\nhttps://a1p.jp/works/gbf/ (page): 制作公司官网确认本作是2017年4月电视动画，由 A-1 Pictures 制作、伊藤祐毅执导、赤井俊文设计角色，与 Bangumi 信息一致。\n\nhttps://www.themoviedb.org/tv/69820/season/1 (api_snapshot): 第1季集表共12集、仅1页，全部日文标题与 Bangumi 本篇逐集一致；第3—7、9—12集日期也一致。第1—2集采用2017-01-21先行放送日期，第8集日期异常记为2017-03-01。\n\nhttps://anime.eiga.com/news/103937/ (page): 报道明确说明「ザンクティンゼル編」是本篇第1、2话的特别先行放送，日期为2017-01-21。\n\nhttps://anime.granbluefantasy.jp/1st/sp/story/08.html (page): 官方第8话页面确认标题及遗迹探索、队伍失散的剧情，与 TMDB S1E8 一致，可排除其异常日期造成的集号疑义。\n\nhttps://www.themoviedb.org/tv/69820/season/0 (api_snapshot): 第0季共4集、仅1页。英文集表 S0E1 为 Another Sky，日期2017-06-24，剧情为姬塔与露莉亚相遇及海岛度假；日文标题却记作「ザンクティンゼル編」。S0E2 为「カボチャのランタン」，日期2017-11-29；E3—4属于2020年内容。\n\nhttps://anime.granbluefantasy.jp/1st/story/ex1.html (page): 官方将「もう一つの空」标为 EXTRA1，剧情为姬塔与露莉亚相遇、旅途回顾及海岛度假，与 TMDB S0E1 英文简介吻合。\n\nhttps://anime.granbluefantasy.jp/1st/sp/bddvd/07.html (page): 官方第7卷收录「もう一つの空」和「カボチャのランタン」，并明确发行日由2017-10-25延期至2017-11-29，解释了 Bangumi 与 TMDB 的番外日期差异。\n\n备注：TMDB S1E8 的2017-03-01日期与 Bangumi 的2017-05-20冲突；官方集号、标题和剧情支持既定对应。；TMDB S0E1 日文标题存在错误；依据英文标题、剧情、放送日期及官方 EXTRA1 页面确认映射，不按错误标题映射先行放送。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/146732; https://www.themoviedb.org/tv/69820; https://a1p.jp/works/gbf/; https://www.themoviedb.org/tv/69820/season/1; https://anime.eiga.com/news/103937/; https://anime.granbluefantasy.jp/1st/sp/story/08.html; https://www.themoviedb.org/tv/69820/season/0; https://anime.granbluefantasy.jp/1st/story/ex1.html; https://anime.granbluefantasy.jp/1st/sp/bddvd/07.html",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 69820
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 69820,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 69820,
+      "season": 0,
       "type": "tv"
     }
   ]

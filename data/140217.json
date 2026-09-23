@@ -1,20 +1,146 @@
 {
   "anidbId": 13466,
   "bangumiId": 140217,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 548908,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 548909,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 548910,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 548911,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 548912,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 548913,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 548914,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 548915,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 548916,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 548917,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 548918,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 548919,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 567640,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 567641,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 567642,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 567643,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 567644,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 567645,
+      "sort": 6,
+      "type": 1
+    },
+    {
+      "id": 567646,
+      "sort": 7,
+      "type": 1
+    },
+    {
+      "id": 570963,
+      "sort": 8,
+      "type": 1
+    },
+    {
+      "id": 582225,
+      "sort": 9,
+      "type": 1
+    },
+    {
+      "id": 589411,
+      "sort": 10,
+      "type": 1
+    },
+    {
+      "id": 591046,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 匹配2015年动画TMDB 104697第1季。年份、首播日、剧情、制作方、制作人员及13集范围相符，全部本篇标题逐集对应，可建立1至13集连续映射。TMDB后续日期虽有冲突，但独立目录支持Bangumi日期，且标题及顺序完整一致。旧映射71419为真人剧，应替换。\n\nhttps://www.themoviedb.org/tv/104697 (api_snapshot): TMDB 104697 首播于2015-07-15，剧情为陈长生携婚约赴神都求改命；制作公司包含阅文集团、福煦影视及音熊联萌等，与输入动画版本吻合。第一季13集，第二季另列。\n\nhttps://www.themoviedb.org/tv/104697/season/1 (api_snapshot): 第一季真实集表共13集、仅1页；13个标题与输入本篇逐集一致，仅有繁简字及集号前缀差异。前两集日期一致，第3至13集日期与Bangumi存在冲突。\n\nhttps://wetv.vip/zh-cn/play/mjh45ocyjjzd1wv/v0030im8tf3 (page): WeTV官方播放页标明2015年动画《择天记》第1季，全13集、腾讯出品，剧情与输入一致。\n\nhttps://www.tvmao.com/drama/YGshYWFi (page): 电视猫列出2015年动画第一季共13集，导演倪明、编剧程醒和时子欣，与输入制作人员一致。\n\nhttps://www.newton.com.tw/wiki/%E6%93%87%E5%A4%A9%E8%A8%98/14075842 (page): 动画目录列出的13集标题、顺序及播出日期与输入本篇一致，第3集为2015-08-05，第13集为2015-12-23；另行列出Q版小剧场。\n\nhttps://www.themoviedb.org/tv/71419 (api_snapshot): 旧映射71419实际为2017-04-17首播、鹿晗及古力娜扎主演的56集真人剧；其IMDb、TVDB编号也与seed一致，因此这些线索属于错误版本。\n\n备注：TMDB第3至13集日期按周排列至2015-09-30，与Bangumi及独立目录的双周排期不符，疑为TMDB日期错误；对应关系依据完整标题与顺序确认。；输入10个SP尚未核实到TMDB对应章节；104697详情未列特别篇季，因此暂不映射，也不据此断言TMDB未收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/140217; https://www.themoviedb.org/tv/104697; https://www.themoviedb.org/tv/104697/season/1; https://wetv.vip/zh-cn/play/mjh45ocyjjzd1wv/v0030im8tf3; https://www.tvmao.com/drama/YGshYWFi; https://www.newton.com.tw/wiki/%E6%93%87%E5%A4%A9%E8%A8%98/14075842; https://www.themoviedb.org/tv/71419",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 104697
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 71419,
+      "id": 104697,
+      "season": 1,
       "type": "tv"
     }
   ]

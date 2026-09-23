@@ -1,20 +1,182 @@
 {
   "bangumiId": 118473,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 449290,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 449291,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 449292,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 449293,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 449294,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 449295,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 449296,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 449297,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 449298,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 449299,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 449300,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 449301,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 449302,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 449303,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 449304,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 449305,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 449306,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 449307,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 449308,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 449309,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 449310,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 449311,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 449312,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 449313,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 449314,
+      "sort": 0,
+      "type": 6
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 449311,
+      "targets": [
+        {
+          "episode": 22,
+          "id": 46928,
+          "season": 1,
+          "type": "tv"
+        },
+        {
+          "episode": 23,
+          "id": 46928,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品年份、首播日期、剧情、制作方及人员一致，全部24话均通过标题和播出日期对应至 TMDB 46928 第一季。24话与25集的差异来自《The Floating Palace》拆为上下两集，已用 override 处理；完整覆盖第一季，应替换旧电影映射。\n\nhttps://www.themoviedb.org/tv/46928 (api_snapshot): TMDB 46928 是2013年1月11日首播的电视动画《Sofia the First》，由 Disney Television Animation、Disney Junior 制作，Ariel Winter 配音苏菲亚；母亲嫁给国王后女孩学习公主生活的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/46928/season/1 (api_snapshot): 第一季集表共25集，已读取全部。Bangumi 第1—21话与 TMDB 第1—21集的标题和日期逐一一致；第22话对应同于2013年11月24日播出的第22、23集《The Floating Palace Part 1/2》；第23、24话分别与第24、25集标题和日期一致。整季范围为2013年1月11日至2014年2月14日。\n\nhttps://www.imdb.com/title/tt2151261/fullcredits/ (search_snippet): 首集演职员资料列出导演 Jamie Mitchell、编剧 Craig Gerber、作曲 Kevin Kliesch，与 Bangumi 制作人员信息一致。\n\nhttps://sofia.fandom.com/wiki/Sofia_the_First%3A_The_Floating_Palace (search_snippet): 《The Floating Palace》资料将其列为第一季第22话，播出日期为2013年11月24日，制作编号同时包含231S-122和231S-123，支持 Bangumi 一话对应 TMDB 两集。\n\nhttps://www.themoviedb.org/movie/289584 (api_snapshot): 旧映射 movie 289584 实际标题为《Sofia the first: Ready to Be a Princess》，日期、剧情和演职员资料为空，不能代表已逐集核实的电视动画第一季。\n\n备注：Bangumi 章节449314为类型6、标题“?”且无日期，无法确定内容，保留未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/118473; https://www.themoviedb.org/tv/46928; https://www.themoviedb.org/tv/46928/season/1; https://www.imdb.com/title/tt2151261/fullcredits/; https://sofia.fandom.com/wiki/Sofia_the_First%3A_The_Floating_Palace; https://www.themoviedb.org/movie/289584",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 21,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46928
+    },
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 24,
+      "season": 1,
+      "start": 23,
+      "tmdbId": 46928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 289584,
-      "type": "movie"
+      "id": 46928,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

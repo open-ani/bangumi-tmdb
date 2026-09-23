@@ -1,14 +1,45 @@
 {
   "anidbId": 13258,
   "bangumiId": 175398,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 623861,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 788048,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 788049,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 788050,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 788051,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 788052,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject名称与日期对应日本剧场版《FLCL Alternative／フリクリ オルタナ》，2018-09-07上映，属于动画电影版本；TMDB 737931页面明确标为《FLCL Alternative》(2018)，因此采用电影定位。AnimeLists 的 TMDB TV 5895 第3季是同一企划的电视播出版，包含6集（Flying Memory 至 Full Flat），首播为2018-09-08，属于不同发行版本，不能仅因内容相同而判定 both。该 subject 本身是完整剧场版，不需要季或集数范围。\n\nhttps://www.themoviedb.org/movie/737931/images/posters (page): TMDB页面路径为 movie/737931，页面标题明确为“FLCL Alternative (2018)”，确认电影ID与年份。\n\nhttps://jfdb.jp/title/8304 (page): 日本电影数据库将《劇場版「フリクリ オルタナ」／FLCL Alternative》列为2018年9月7日上映、137分钟、动画作品。\n\nhttps://www.wikidata.org/wiki/Q111954103 (page): FLCL电视系列的结构化条目记录 TMDB TV series ID 为5895；该ID对应的是包含多个季的电视总系列，而非独立电影。\n\nhttps://mdblist.com/show/8om7-flcl?cache=1 (page): 该页面展示TMDB对应的FLCL电视总系列，并列出 Alternative 为第3季、共6集。\n\nhttps://sites.google.com/site/poprojo2/action-toonami/flcl-alternative (page): Adult Swim播出资料列出FLCL Alternative六集：Flying Memory、Grown-Up Wannabe、Freestyle Collection、Pit-a-Pat、Shake It Off、Full Flat。\n\n备注：TMDB电影主页面抓取受robots限制，本轮通过TMDB的电影海报页面确认737931的标题与年份；电影版本与剧场上映资料由日本电影数据库交叉确认。",
+    "evidence": "codex: 确认对应TMDB电影737931：剧场媒介、上映日期、剧情、制作公司及主要制作人员一致。TV 5895第3季虽与六章标题和顺序吻合，但其逐周播出编排不同于本条目明确记录的日本剧场上映版本，因此不追加电视季映射。电影条目没有独立集号，六章不逐一重复映射到同一电影，rules与overrides留空。\n\nhttps://bgm.tv/subject/175398 (page): Bangumi 将本条目标为剧场版，上映日期为2018年9月7日；导演上村泰、编剧岩井秀人，动画制作为Production I.G、NUT、REVOROOT，故事主角为河本カナ。\n\nhttps://www.themoviedb.org/movie/737931 (api_snapshot): 电影737931的原名为《フリクリ オルタナ》，别名包含剧场版名称，上映日期为2018年9月7日；河本カナ与ハル子相关剧情、导演上村泰、编剧岩井秀人及三家动画制作公司均与Bangumi一致。\n\nhttps://jfdb.jp/title/8304 (page): 日本电影数据库确认该作为2018年9月7日上映的动画剧场版，导演上村泰，制作公司为Production I.G、NUT、REVOROOT，剧情与Bangumi一致，片长记为137分钟。\n\nhttps://www.themoviedb.org/tv/5895/season/3 (api_snapshot): 已读取TV 5895详情及第3季完整集表。第3季Alternative共6集，标题依次与输入六章吻合，但日期为2018年9月8日至10月13日的逐周播出，属于电视季编排。\n\n备注：片长存在资料差异：TMDB为135分钟，JFDB为137分钟；其他身份信息一致，此差异不影响电影条目匹配。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/175398; https://www.themoviedb.org/movie/737931/images/posters; https://jfdb.jp/title/8304; https://www.wikidata.org/wiki/Q111954103; https://mdblist.com/show/8om7-flcl?cache=1; https://sites.google.com/site/poprojo2/action-toonami/flcl-alternative",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/175398; https://www.themoviedb.org/movie/737931; https://jfdb.jp/title/8304; https://www.themoviedb.org/tv/5895/season/3",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

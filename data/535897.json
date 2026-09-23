@@ -245,20 +245,25 @@
       "id": 1747741,
       "sort": 49,
       "type": 0
+    },
+    {
+      "id": 1750370,
+      "sort": 50,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、制作人员、角色声优、剧情和网络配信版本相符；49个本篇章节与TMDB第1季前49集的集号及日期逐一一致，可将旧映射扩展至第49集。季表另有第50集，因此声明已核实的1—49集区间。\n\nhttps://neko-mukashibanashi.com/ (page): 官网剧情为猫参与经典童话与传说的喜剧，原作为ぱんだにあ，导演为のなかかずみ，动画制作为スタジオコメット；公布每周三在 YouTube 配信，与输入的剧情、制作人员和 WEB 版本一致。\n\nhttps://www.themoviedb.org/tv/297743 (api_snapshot): TMDB 297743 的日文原名、2025-10-15 首播日期、导演、Studio Comet 制作公司及四名主要声优均与官网和输入吻合；实际列有第1季，共50集。\n\nhttps://www.themoviedb.org/tv/297743/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。第1至49集的播出日期与输入49个本篇章节逐一完全一致，范围为2025-10-15至2026-09-16；标题均为通用的“第N話”。第50集日期为2026-09-23，输入没有对应章节。\n\n备注：TMDB各集仅有通用编号标题，无法独立核对具体故事标题；逐集对应依据为已确认的作品身份、集号及49组完全一致的播出日期。；作品仍在连载，本次映射仅覆盖输入的49个章节，不代表最终总集数。",
+    "evidence": "codex: 作品年份、网络配信版本、剧情、导演、制作公司及声优一致，确认对应TMDB 297743第1季。该季现有50集全部属于本subject，50组集号和日期逐一吻合，可将旧规则延长至第50集，并声明整季范围。\n\nhttps://neko-mukashibanashi.com/ (page): 官网确认本作为猫参与经典童话的短篇喜剧，原作ぱんだにあ、导演のなかかずみ、动画制作スタジオコメット；10月15日起每周三通过YouTube配信，剧情、制作人员与WEB媒介均与输入一致。\n\nhttps://www.themoviedb.org/tv/297743 (api_snapshot): 实际读取TMDB 297743详情：日文原名一致，首播日期为2025-10-15，导演、Studio Comet制作公司及四名主要角色声优与官网一致；仅列第1季，共50集，状态为仍在连载。\n\nhttps://www.themoviedb.org/tv/297743/season/1 (api_snapshot): 已读取第1季完整50集，total_pages=1。第1至50集的集号和日期与输入50个本篇章节逐一一致，日期从2025-10-15至2026-09-23，每周一集；每集3分钟。标题均为通用编号“第N話”，未提供具体故事标题。\n\n备注：TMDB只有通用编号标题，无法独立核对具体故事名称；逐集对应依据为作品身份、50组一致的集号与日期及当前集数总量。；作品仍在连载，当前50集不代表最终总集数；规则仅覆盖已核实的第1至50集。",
     "method": "codex",
     "source": "https://bgm.tv/subject/535897; https://neko-mukashibanashi.com/; https://www.themoviedb.org/tv/297743; https://www.themoviedb.org/tv/297743/season/1",
-    "verifiedAt": "2026-09-18T12:53:11.022Z"
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 49,
+      "end": 50,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -268,8 +273,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 49,
       "id": 297743,
       "season": 1,
       "type": "tv"

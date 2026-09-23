@@ -1,13 +1,39 @@
 {
   "bangumiId": 192204,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 795799,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 795800,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 795801,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 795802,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 795803,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应 TMDB 电影481760：具体章次、上映日期、片长、剧情和主创均一致，覆盖第六章完整电影。Bangumi 的22—26五个章节缺少标题和日期，未建立可核实的逐集对应，故仅提交作品级电影映射。\n\nhttps://www.themoviedb.org/movie/481760 (api_snapshot): 日文原名搜索命中电影 481760；详情确认上映日期为2018-05-05、片长98分钟、导演元永庆太郎、制作公司东映动画。秩序兽引发世界崩溃的剧情与输入一致。\n\nhttps://jfdb.jp/title/8227 (page): JFDB确认本片是 tri. 全六章的最终章，2018年5月5日上映，98分钟；导演元永庆太郎、角色设计宇木敦哉、制作公司东映动画，剧情与 Bangumi 及 TMDB 一致。\n\nhttps://www.toei-anim.co.jp/movie/digimon-adventure/tri/news/archive/2017111001.php (search_snippet): 东映官方公告确认第六章「ぼくらの未来」为最终章，剧场上映开始日为2018年5月5日；正文访问返回403，此处依据搜索摘要。\n\n备注：Bangumi 章节22—26与分段发行版本的具体边界尚未核实，逐集映射留空。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/192204; https://www.themoviedb.org/movie/481760; https://jfdb.jp/title/8227; https://www.toei-anim.co.jp/movie/digimon-adventure/tri/news/archive/2017111001.php",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,20 +1,114 @@
 {
   "bangumiId": 54942,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 461180,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 461181,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 461182,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 461183,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 465395,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 465396,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 465940,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 465941,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 465942,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 465943,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 465944,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 482883,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 571274,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 571274,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 44314,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 确认对应 TMDB《DOG DAYS》44314 第三季全12集，特别篇12.5对应第0季第1集。作品版本、制作人员、角色、播出期间、逐集标题与集数相互吻合；旧电影映射及其 IMDb 线索均属误配。\n\nhttps://www.themoviedb.org/movie/383109 (api_snapshot): 旧映射 movie/383109 实为中文电影《三伏天》，导演 Jordan Schiele，片长95分钟，与本动画无关；其 IMDb ID 正是输入中的 tt5465334。\n\nhttps://www.themoviedb.org/tv/44314 (api_snapshot): TV/44314 为日本动画《DOG DAYS》，制作公司为 Seven Arcs，角色与声优吻合；第三季标为 DOG DAYS\"，2015年1月10日开始，共12集，剧情为三位勇者秋季重返弗洛尼尔德。\n\nhttps://www.dogdays.tv/staffcast/ (page): 第三季官网列出原作都築真紀、导演西村純二、角色设计坂田理、动画制作 Seven Arcs Pictures、製作 PROJECT DD3，与输入制作信息一致。\n\nhttps://www.dogdays.tv/story/ (page): 官网故事页列出第1至12话，第1话正式标题为「再び、勇者の帰還」，与 TMDB 一致；Bangumi 的第1话标题存在语序差异。\n\nhttps://www.themoviedb.org/tv/44314/season/3 (api_snapshot): 第三季完整季表共12集、仅1页。逐集标题与 Bangumi 对应，第1、4话存在语序或假名差异；首末集日期一致，第2至11集日期均比 Bangumi 晚一天，顺序及每周间隔一致。\n\nhttps://www.allcinema.net/cinema/349972 (search_snippet): 放送资料记载本作为 TV 动画，TOKYO MX 播出期间为2015年1月10日至3月28日，每周六24:30；跨午夜时间可解释逐集日期的一天差异。\n\nhttps://bangumi.tv/ep/571274 (page): Bangumi 章节571274为第12.5话「リモーネリゾート・展望温泉！」，时长15分59秒，是第三季全卷购入特典中的动画。\n\nhttps://www.themoviedb.org/tv/44314/season/0 (api_snapshot): 第0季完整季表共6集、仅1页；第1集标题为「リモーネリゾート・展望温泉！」，日期2015年8月26日、时长16分钟，与 Bangumi 第12.5话吻合。其余特别篇不纳入范围。\n\n备注：TMDB 第三季第2至11集采用比 Bangumi 晚一天的日期，符合周六24:30跨午夜的日期口径差异；首末集采用 Bangumi 同日，显示 TMDB 日期口径不完全统一，不影响已核实的集序对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/54942; https://www.themoviedb.org/movie/383109; https://www.themoviedb.org/tv/44314; https://www.dogdays.tv/staffcast/; https://www.dogdays.tv/story/; https://www.themoviedb.org/tv/44314/season/3; https://www.allcinema.net/cinema/349972; https://bangumi.tv/ep/571274; https://www.themoviedb.org/tv/44314/season/0",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 44314
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 383109,
-      "type": "movie"
+      "id": 44314,
+      "season": 3,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 44314,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

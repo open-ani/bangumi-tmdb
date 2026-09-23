@@ -1,19 +1,42 @@
 {
   "bangumiId": 289138,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 915966,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 915967,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认对应动画版 TMDB 118443 第一季第3至4集。两话标题、剧情、制作人员及数量一致；2019-12-08为先行上映日期，2020-03-25为影碟发行日期。第一季前两集属于更早发行的OVA，不纳入本 subject。\n\nhttps://www.themoviedb.org/tv/118443 (api_snapshot): TMDB 118443 为 david production 制作、加藤敏幸执导、樱井孝宏配音的动画版，共一季四集；剧情与制作人员均与输入一致。\n\nhttps://www.themoviedb.org/tv/118443/season/1 (api_snapshot): 第一季完整集表共四集：第3集为「エピソード#16【懺悔室】」，第4集为「エピソード#09【ザ・ラン】」，均标记2019-12-08；前两集为其他批次的「富豪村」「六壁坂」。两话标题及顺序与 Bangumi sort 3、4 一致。\n\nhttps://jojo-animation.com/ova/rohan/ (page): 官方明确「ザ・ラン／懺悔室」为两话新作OVA，2020-03-25发行；同日另售包含「富豪村」「六壁坂」的四话收藏版，证实本 subject 仅覆盖新增两话。\n\nhttps://jojo-animation.com/ova/rohan/story/episode09.php (page): 官方「ザ・ラン」剧情为露伴与模特桥本阳马在健身房进行跑步机比赛，与TMDB第4集剧情相符；制作名单确认导演加藤敏幸、动画制作 david production。\n\nhttps://jojo-animation.com/news/2019/08/news5.php (search_snippet): 官方公告确认新作OVA「懺悔室」「ザ・ラン」两作的上映巡回自2019-12-08东京公演开始，解释TMDB上映日期与Bangumi影碟发行日期的差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/289138; https://www.themoviedb.org/tv/118443; https://www.themoviedb.org/tv/118443/season/1; https://jojo-animation.com/ova/rohan/; https://jojo-animation.com/ova/rohan/story/episode09.php; https://jojo-animation.com/news/2019/08/news5.php",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 118443
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 3,
+      "episodeEnd": 4,
       "id": 118443,
+      "season": 1,
       "type": "tv"
     }
   ]

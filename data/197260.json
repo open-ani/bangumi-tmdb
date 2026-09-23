@@ -1,19 +1,160 @@
 {
   "bangumiId": 197260,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 676584,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 676585,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 676586,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 676587,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 676588,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 676589,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 676590,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 676591,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 676592,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 676593,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 676594,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 676595,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 676596,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 676597,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 676598,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 676599,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 676600,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 676601,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 676602,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 676603,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 676604,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 676605,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 676606,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 676607,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 676608,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 676609,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 作品剧情、制作方、媒介及26集规模一致，完整集表的逐集标题和顺序吻合，确认对应 TMDB 68888 第一季全季。第二季 Lastman Heroes 属于后续作品，不纳入本 subject。\n\nhttps://ftvpro.francetv.fr/contenu-de-presse/39350 (page): France Télévisions 官方资料确认：这是2016年法国制作的26集电视动画，由 Jérémie Périn 执导、Everybody On Deck 等制作，11月22日起播出；Richard Aldana 在 Dave 遇害后保护 Siri、对抗狮子教团的剧情与 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/68888 (api_snapshot): TMDB 68888 的剧情、2016年首播年份及制作公司相符；第一季为2016年的26集，第二季另列为2022年的 Lastman Heroes，共6集。\n\nhttps://www.themoviedb.org/tv/68888/season/1 (api_snapshot): 已读取第一季完整集表，共26集、1页。逐集标题与 Bangumi 第1—26话对应，仅标点和大小写有差异；25话的日期完全一致。第20话标题相同，但 TMDB 日期为2016-12-13，Bangumi 为2016-12-06。\n\n备注：Bangumi subject 标注的2016-01-22与其章节日期、官方首播资料及 TMDB 不符；应以2016-11-22的电视首播资料识别版本。；第20话两站播出日期相差一周，尚未确定哪站日期有误；其独特标题、集号及前后集顺序一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/197260; https://ftvpro.francetv.fr/contenu-de-presse/39350; https://www.themoviedb.org/tv/68888; https://www.themoviedb.org/tv/68888/season/1",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68888
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 68888,
+      "season": 1,
       "type": "tv"
     }
   ]

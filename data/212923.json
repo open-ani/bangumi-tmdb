@@ -1,20 +1,147 @@
 {
   "bangumiId": 212923,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 712866,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 712867,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 712868,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 712869,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 712870,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 712871,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 712872,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 712873,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 712874,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 712875,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 712876,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 712877,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 712878,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 712879,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 712880,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 712881,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 712882,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 712883,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 712884,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 712885,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 712886,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 712887,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "codex: 已确认本subject覆盖TMDB 60554的第0季第6集及第2季全季。制作方、角色、剧情、播出日期和逐集标题吻合；22话与TMDB的20个条目之差来自首尾双集合并。旧电影映射仅覆盖开篇，应改为上述TV范围。仅为标题及日期逐一吻合的Bangumi第3至20话建立规则。\n\nhttps://bgm.tv/subject/212923 (page): Bangumi 标明本作是22话TV动画，2015年6月20日至2016年3月30日在Disney XD播出，由Lucasfilm Animation制作；主要角色及配音与TMDB剧集一致。\n\nhttps://www.starwars.com/news/star-wars-rebels-season-two-set-to-premiere-june-20 (search_snippet): 官方公告确认第二季于2015年6月20日以《The Siege of Lothal》特别电影开篇，秋季继续播出后续剧集。\n\nhttps://www.themoviedb.org/tv/60554 (api_snapshot): TMDB 60554为Lucasfilm Animation制作的《Star Wars Rebels》，剧情围绕幽灵号船员反抗帝国展开，角色、配音和制作方与Bangumi一致。\n\nhttps://www.themoviedb.org/tv/60554/season/0 (api_snapshot): 第0季完整集表共6集，其中第6集《The Siege of Lothal》于2015年6月20日播出，时长44分钟，对应Bangumi第1、2话的合并内容。\n\nhttps://www.themoviedb.org/tv/60554/season/2 (api_snapshot): 第2季完整集表共19集。Bangumi第3至20话与TMDB第1至18集标题、播出日期逐一一致；TMDB第19集《Twilight of the Apprentice》于2016年3月30日播出，时长44分钟，合并了Bangumi第21、22话。\n\nhttps://www.themoviedb.org/movie/337755 (api_snapshot): 旧映射movie 337755只是44分钟的《The Siege of Lothal》，IMDb为tt4236890，仅覆盖第二季开篇，不能代表本subject全22话。\n\n备注：Bangumi第1、2话共同对应S00E06，第21、22话共同对应S02E19。当前Schema禁止两个Bangumi章节占用同一TMDB集，无法无损表达这些多对一关系，因此这四话保留未映射；其内容已包含在targets中。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/212923; https://www.starwars.com/news/star-wars-rebels-season-two-set-to-premiere-june-20; https://www.themoviedb.org/tv/60554; https://www.themoviedb.org/tv/60554/season/0; https://www.themoviedb.org/tv/60554/season/2; https://www.themoviedb.org/movie/337755",
+    "verifiedAt": "2026-09-23T00:41:54.562Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 3,
+      "tmdbId": 60554
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 337755,
-      "type": "movie"
+      "episode": 6,
+      "id": 60554,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 60554,
+      "season": 2,
+      "type": "tv"
     }
   ]
 }
