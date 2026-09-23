@@ -10,8 +10,6 @@
 | `OPENANI_BOT_TOKEN` | Repository/organization secret | 以 `openanibot` 对该仓库写入 |
 | `BANGUMI_TOKEN` | Optional secret | Bangumi API token；缺省时 API 不返回 NSFW 条目，这些条目仍以 Archive 为准 |
 | `AUTOMATION_ENABLED` | Repository variable | 设为 `true` 启用巡检 |
-| `CODEX_MODEL` | Optional variable | 空值使用 Codex 默认模型 |
-| `CODEX_REASONING` | Optional variable | 推理强度，默认 `high` |
 | `CODEX_MAX_SUBJECTS` | Optional variable | 每轮最多交给 Codex 研究的条目数，默认 60 |
 | `CODEX_CONCURRENCY` | Optional variable | 并行的 Codex 会话数，默认 4 |
 | `CODEX_MAX_ADJUDICATIONS` | Optional variable | 每轮最多交给 Codex 一轮判定（无工具）的条目数，默认 400 |

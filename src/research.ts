@@ -45,7 +45,7 @@ ${RULES}
 `;
 export interface ToolCall { tool: string; arguments: Record<string, unknown>; ok: boolean; at: string; error?: string }
 export interface ResearchOptions {
-  model?: string | undefined; reasoning?: string | undefined; timeoutMs: number; tmdbBudget: number; webBudget: number;
+  timeoutMs: number; tmdbBudget: number; webBudget: number;
   token: string; cacheDir: string; auditDir?: string;
 }
 export interface ResearchResult { decision: Research; calls: ToolCall[]; webCalls: number; usage: Record<string, number>; elapsedMs: number; reused: boolean }
@@ -101,7 +101,10 @@ async function jsonLines(path: string): Promise<unknown[]> {
   try { return (await readFile(path, 'utf8')).split('\n').flatMap(line => { try { return line.trim() ? [JSON.parse(line)] : []; } catch { return []; } }); }
   catch { return []; }
 }
-export interface CodexOptions { model?: string | undefined; reasoning?: string | undefined; timeoutMs: number; auditDir?: string }
+// Research and adjudication share one model; its name also labels each decision's provenance.
+export const MODEL = 'gpt-6-sol';
+const REASONING = 'high';
+export interface CodexOptions { timeoutMs: number; auditDir?: string }
 interface Tools { token: string; tmdbBudget: number; cacheDir: string }
 export async function runResearch(bangumiId: number, bundle: unknown, options: ResearchOptions): Promise<ResearchResult> {
   const prompt = `${INSTRUCTIONS(options.tmdbBudget, options.webBudget)}${JSON.stringify(bundle)}`;
@@ -140,7 +143,7 @@ export async function runAdjudication(bangumiId: number, bundle: object, data: G
   return { ...result, calls: provided(data) };
 }
 async function execCodex(bangumiId: number, prompt: string, options: CodexOptions, tools: Tools | null): Promise<ResearchResult> {
-  const key = hash(stable({ prompt, model: options.model ?? null, reasoning: options.reasoning ?? null }));
+  const key = hash(stable({ prompt, model: MODEL, reasoning: REASONING }));
   // Artifacts of the latest attempt stay in the audit directory so a maintainer can inspect a decision.
   const audit = options.auditDir ? join(options.auditDir, String(bangumiId)) : null;
   if (audit) {
@@ -152,17 +155,16 @@ async function execCodex(bangumiId: number, prompt: string, options: CodexOption
   const schemaPath = join(dir, 'research.schema.json');
   const tokenPath = join(dir, 'tmdb-token');
   const calls = join(audit ?? dir, 'mcp-calls.jsonl'), events = join(audit ?? dir, 'events.jsonl'), output = join(audit ?? dir, 'result.json');
-  const args = ['exec', '--ignore-user-config', '--ignore-rules', '--ephemeral', '--skip-git-repo-check',
+  const args = ['exec', '--model', MODEL, '--ignore-user-config', '--ignore-rules', '--ephemeral', '--skip-git-repo-check',
     '--sandbox', 'read-only', '--disable', 'shell_tool', '--disable', 'unified_exec',
     '--disable', 'hooks', '--disable', 'multi_agent', '--disable', 'apps',
     '--disable', 'remote_plugin', '--disable', 'browser_use', '--disable', 'computer_use',
     '--disable', 'image_generation', '-c', tools ? 'web_search="live"' : 'web_search="disabled"',
-    '-c', `model_reasoning_effort=${JSON.stringify(options.reasoning ?? 'high')}`, '-c', 'model_reasoning_summary="none"',
+    '-c', `model_reasoning_effort=${JSON.stringify(REASONING)}`, '-c', 'model_reasoning_summary="none"',
     ...(tools ? ['-c', `mcp_servers.tmdb.command=${JSON.stringify(TSX)}`,
       '-c', `mcp_servers.tmdb.args=${JSON.stringify([SERVER, calls, String(tools.tmdbBudget), tokenPath, tools.cacheDir])}`,
       '-c', 'mcp_servers.tmdb.startup_timeout_sec=60', '-c', 'mcp_servers.tmdb.tool_timeout_sec=120'] : []),
     '--output-schema', schemaPath, '--json', '--output-last-message', output, '-'];
-  if (options.model) args.splice(1, 0, '--model', options.model);
   // Codex keeps its own login. GitHub and TMDB secrets never reach the model process; the MCP server
   // reads the TMDB token from a private file instead of argv or the environment.
   const env = Object.fromEntries(['HOME', 'PATH', 'TMPDIR', 'CODEX_HOME', 'LANG', 'HTTPS_PROXY', 'HTTP_PROXY', 'NO_PROXY']

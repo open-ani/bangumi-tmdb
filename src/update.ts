@@ -6,7 +6,7 @@ import { Tmdb, verifyMapping } from './tmdb.js';
 import { loadCatalog } from './catalog.js';
 import { derive, extend, listedEpisodes } from './rules.js';
 import { decide, gather, type Gathered } from './resolve.js';
-import { requireEvidence, runAdjudication, runResearch, toProposal } from './research.js';
+import { MODEL, requireEvidence, runAdjudication, runResearch, toProposal } from './research.js';
 import { validateAll } from './expand.js';
 
 // Increment whenever evidence extraction, matching rules or prompts change.
@@ -48,7 +48,7 @@ export function retryDays(status: Status, attempts: number, subject: Subject | n
 }
 export interface UpdateOptions {
   maxSubjects: number; maxAdjudications: number; maxMinutes: number; concurrency: number; scopeDays: number; platforms?: number[] | undefined; backlogSubjects: number;
-  researchMinutes: number; tmdbBudget: number; webBudget: number; model?: string | undefined; reasoning?: string | undefined; now?: number;
+  researchMinutes: number; tmdbBudget: number; webBudget: number; now?: number;
 }
 export interface Task { subject: Subject; kind: 'new' | 'retry' | 'backlog' | 'episodes' | 'broken'; before?: Mapping }
 export interface Context {
@@ -149,7 +149,9 @@ export function tier(task: Task, progress: Progress, now: number, scopeDays: num
 
 export async function update(root: string, options: UpdateOptions): Promise<void> {
   const now = options.now ?? Date.now();
-  const { catalog, progress, existing, ctx } = await loadContext(root, options.model ?? 'default');
+  // Fingerprints keep the label they had when the model was left to Codex, so pinning one does not make every
+  // pending retry due at once. Bump MATCHER_VERSION when a model change should revisit them.
+  const { catalog, progress, existing, ctx } = await loadContext(root, 'default');
   const rows = new Map(existing.map(r => [r.bangumiId, r]));
   const token = process.env.TMDB_READ_TOKEN ?? '';
   const cached = new Tmdb(token, join(cacheDir(root), 'tmdb'));
@@ -299,7 +301,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       const eps = ctx.episodes.get(subject.id) ?? [];
       try {
         const result = await runAdjudication(subject.id, bundle(subject, ctx, rows, catalog.snapshot.name) as object, undecided.get(subject.id)!, {
-          model: options.model, reasoning: options.reasoning, timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())), auditDir: join(cacheDir(root), 'adjudication') });
+          timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())), auditDir: join(cacheDir(root), 'adjudication') });
         if (result.reused) counts.researchReused++;
         spent('adjudication', result);
         const decision = result.decision;
@@ -309,7 +311,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
         const anidbId = ctx.seeds.get(subject.id)?.anidb;
         const row = await withRules(Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
           episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
-          provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) }), eps);
+          provenance: provenanceFromResearch(decision, MODEL, subject.id, new Date(now).toISOString()) }), eps);
         validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
         await verifyMapping(row, live, catalog);
         apply(row, undefined);
@@ -339,7 +341,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
     const eps = ctx.episodes.get(subject.id) ?? [];
     try {
       const result = await runResearch(subject.id, bundle(subject, ctx, rows, catalog.snapshot.name, before), {
-        model: options.model, reasoning: options.reasoning, timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())),
+        timeoutMs: Math.min(options.researchMinutes * 60000, Math.max(60000, deadline - Date.now())),
         tmdbBudget: options.tmdbBudget, webBudget: options.webBudget, token, cacheDir: join(cacheDir(root), 'tmdb'), auditDir: join(cacheDir(root), 'research') });
       const decision = result.decision;
       if (result.reused) counts.researchReused++;
@@ -354,7 +356,7 @@ export async function update(root: string, options: UpdateOptions): Promise<void
       const anidbId = before?.anidbId ?? ctx.seeds.get(subject.id)?.anidb;
       const row = await withRules(Mapping.parse({ schemaVersion: 1, bangumiId: subject.id, locked: false, ...(anidbId ? { anidbId } : {}),
         episodes: eps.map(e => ({ id: e.id, type: e.type, sort: e.sort })).sort((a, b) => a.id - b.id), ...proposal,
-        provenance: provenanceFromResearch(decision, options.model ?? 'codex', subject.id, new Date(now).toISOString()) }), eps);
+        provenance: provenanceFromResearch(decision, MODEL, subject.id, new Date(now).toISOString()) }), eps);
       validateAll([...rows.values()].filter(r => r.bangumiId !== row.bangumiId).concat(row));
       await verifyMapping(row, live, catalog);
       apply(row, before);

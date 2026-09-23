@@ -64,8 +64,7 @@ try {
       await update(root, { maxSubjects: positive('CODEX_MAX_SUBJECTS', 60), maxAdjudications: positive('CODEX_MAX_ADJUDICATIONS', 400), maxMinutes: positive('UPDATE_MAX_MINUTES', 60),
         concurrency: positive('CODEX_CONCURRENCY', 4), scopeDays: positive('UPDATE_SCOPE_DAYS', 180), backlogSubjects: count('UPDATE_BACKLOG_SUBJECTS', 100),
         researchMinutes: positive('CODEX_TIMEOUT_MINUTES', 8), tmdbBudget: positive('CODEX_TMDB_BUDGET', 16), webBudget: positive('CODEX_WEB_BUDGET', 8),
-        platforms: process.env.UPDATE_PLATFORMS ? process.env.UPDATE_PLATFORMS.split(',').map(p => { const n = Number(p.trim()); if (!Number.isInteger(n) || n < 0) throw new Error('UPDATE_PLATFORMS must list Bangumi platform codes'); return n; }) : undefined,
-        model: process.env.CODEX_MODEL || undefined, reasoning: process.env.CODEX_REASONING || undefined });
+        platforms: process.env.UPDATE_PLATFORMS ? process.env.UPDATE_PLATFORMS.split(',').map(p => { const n = Number(p.trim()); if (!Number.isInteger(n) || n < 0) throw new Error('UPDATE_PLATFORMS must list Bangumi platform codes'); return n; }) : undefined });
       break;
     case 'import-pending': {
       if (!process.argv[3]) throw new Error('Usage: pnpm cli import-pending <unresolved.md> [retryDays]');

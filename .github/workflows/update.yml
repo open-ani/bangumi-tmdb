@@ -50,8 +50,6 @@ jobs:
       CODEX_CONCURRENCY: ${{ vars.CODEX_CONCURRENCY || '4' }}
       CODEX_MAX_ADJUDICATIONS: ${{ github.event.inputs.max_adjudications || vars.CODEX_MAX_ADJUDICATIONS || '400' }}
       CODEX_TIMEOUT_MINUTES: ${{ vars.CODEX_TIMEOUT_MINUTES || '8' }}
-      CODEX_MODEL: ${{ vars.CODEX_MODEL }}
-      CODEX_REASONING: ${{ vars.CODEX_REASONING || 'high' }}
       UPDATE_MAX_MINUTES: ${{ github.event.inputs.max_minutes || vars.UPDATE_MAX_MINUTES || '75' }}
       UPDATE_SCOPE_DAYS: ${{ github.event.inputs.scope_days || vars.UPDATE_SCOPE_DAYS || '180' }}
       # The README block describes the scheduled scope even when a dispatched run brings its own.
