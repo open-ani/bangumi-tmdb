@@ -1,0 +1,71 @@
+{
+  "bangumiId": 658403,
+  "episodes": [
+    {
+      "id": 1700410,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1700411,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1700412,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1700413,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1700414,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1700415,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1700416,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1700417,
+      "sort": 8,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 可确认该条目对应候选剧集 5200 的完整第 2 季。Bangumi 的 8 个章节均缺少标题和逐集放送日期，无法逐集核实对应关系，因此暂不填写 rules。\n\nhttps://www.themoviedb.org/tv/5200 (api_snapshot): 候选剧集 5200 的第 2 季共 8 集，第 1 集于 1988-09-01 播出，第 8 集于 1988-12-22 播出，与 Bangumi 条目的季数、集数和起止日期一致；第 1 季则始于 1987-11-17。\n\n备注：Bangumi 章节缺少逐集标题和放送日期，尚不能独立核实第 1 至第 8 话各自对应的 TMDB 集号。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/658403; https://www.themoviedb.org/tv/5200",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 5200
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 5200,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

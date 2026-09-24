@@ -180,20 +180,30 @@
       "id": 1745755,
       "sort": 36,
       "type": 0
+    },
+    {
+      "id": 1750740,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 1750741,
+      "sort": 38,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "脚本按放送日期识别作品：以「mofusand」搜索得到 1 个 TV、0 个电影候选；tv/308934「mofusand animation」第 1 季第 1–36 集与 36 个本篇章节逐一对应，36 对日期全部在 ±1 天内；其他候选没有吻合的集序列。",
-    "method": "deterministic",
-    "source": "https://bgm.tv/subject/617197; https://www.themoviedb.org/tv/308934",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "evidence": "gpt-6-sol: 作品剧情、制作方、媒介和播出安排均吻合，TMDB 第 1 季对应这部持续配信的短篇动画。现有 38 个 Bangumi 本篇章节与 TMDB 第 1 至 38 集的日期逐集一致；第 1 集的提前日期也得到官网先行配信消息确认。第 29、37 集存在标题资料差异，但官网集号与逐集日期支持其对应关系。\n\nhttps://www.themoviedb.org/tv/308934 (api_snapshot): 以「mofusand」和「モフサンド」搜索，均找到 TV 作品 308934《mofusand animation》。\n\nhttps://www.themoviedb.org/tv/308934 (api_snapshot): 作品详情中的鲨鱼装猫咪剧情，以及 Monster's Egg、QTORY 的制作信息，与官方资料相符；作品仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/308934/season/1 (api_snapshot): 第 1 季集表共 38 集；第 1 集为 2025-12-22《食欲爆発》，第 2 至 38 集的日期与输入的 Bangumi 章节逐集一致。\n\nhttps://mofusand-anime.jp/ (page): 官网确认本作是 ぢゅの 原作、作田ハズム 导演、モンスターズエッグ 制作的短篇动画，自 2026-01-07 起每周三配信。\n\nhttps://mofusand-anime.jp/news/page/2/ (page): 官网新闻列明第 1 集《食欲爆発》于 2025-12-22 先行配信，解释了它早于常规开播日。\n\nhttps://mofusand-anime.jp/ (page): 官网按集号列出第 38 集《動けない》；第 37 集标题为《さびしくてすねてるだけですね》。\n\nhttps://mofusand-anime.jp/youtube/ (page): 官网集目列出第 29 集《行かないで～》，与输入中的第 29 集标题不同。\n\n备注：输入中的 Bangumi 第 29 集标题《サメスーツ泥棒》与官网第 29 集《行かないで～》不一致，可能是章节标题录入错误。；输入中的 Bangumi 第 37 集标题《金木犀が忙しくて》与官网第 37 集《さびしくてすねてるだけですね》不一致，建议修正标题资料。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/617197; https://www.themoviedb.org/tv/308934; https://www.themoviedb.org/tv/308934/season/1; https://mofusand-anime.jp/; https://mofusand-anime.jp/news/page/2/; https://mofusand-anime.jp/youtube/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 36,
+      "end": 38,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -203,8 +213,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 36,
       "id": 308934,
       "season": 1,
       "type": "tv"

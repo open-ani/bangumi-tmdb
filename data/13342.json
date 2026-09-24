@@ -1,16 +1,108 @@
 {
   "anidbId": 1090,
   "bangumiId": 13342,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 77165,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 77166,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 77167,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 77168,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 77169,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 77170,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 77171,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 77172,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 77173,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 77174,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 77175,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 77176,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 77177,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 457804,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 457804,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 115598,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1999 年 TV 版：常规放送 13 话，另有 SP，且剧情说明与 1997 年 OVA 不同。TMDB 115598 的简介、年份、角色设定和制作版本均对应该 TV 版；Season 1 的 13 个剧集标题与 Bangumi 常规 13 话逐一匹配。TMDB 同时列出 Season 0 的 1 集，日期为 2000-03-24；该日期及单集数量与主体内的特别篇「はじめまして ティナ！」相符，因此需同时纳入 Season 0。未纳入其他 OVA 或《下級生2》。\n\nhttps://bgm.tv/subject/13342 (page): Bangumi 条目标注为 1999 年 TV 版，共 14 话；章节为 13 个常规集和 1 个 SP，并明确说明 TV 版与 OVA 版本剧情、男主角不同。\n\nhttps://forum.anidb.net/viewtopic.php?t=4193 (page): AniDB 相关讨论将 1999 年 Kakyuusei TV series 区分为 13 集加 1 个 bonus side-story episode，并与 1995、1997 OVA 区分。\n\nhttps://www.themoviedb.org/tv/115598 (api_snapshot): TMDB TV 115598 名称为「下級生」，简介指向改编自游戏、与 1998 OVA 更换女主并采用原创 TV 故事；总集数 13，并列有 Season 0（1 集）和 Season 1（13 集）。\n\nhttps://www.themoviedb.org/tv/115598/season/1 (api_snapshot): TMDB Season 1 含 13 集；剧集标题从「春風のいたずら」至「春風…再び」与 Bangumi 常规 13 话逐一对应，日期为 1999-07-02 至 1999-09-24。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10033004&workId=10033 (search_snippet): 官方/发行方页面将该 TV 动画列为全 14 话，前 13 话后追加番外篇「はじめまして ティナ！」，并列出 1999 年制作及 Pink Pineapple 制作信息。",
+    "evidence": "gpt-6-sol: 1999 年电视版的年份、人物、导演、制作公司及 13 个本篇标题均与 TMDB 115598 一致；其第 0 季唯一一集也明确对应 Bangumi 的 Tina 番外篇。将本篇 1—13 话连续映射到第 1 季，并将特别篇单独映射到第 0 季。\n\nhttps://www.themoviedb.org/tv/115598 (api_snapshot): TMDB 115598 是 1999 年电视动画《下級生》；简介写明主角山口剛与南里愛，导演为鹿島典夫，制作公司为 Pink Pineapple，并列出第 1 季 13 集、第 0 季 1 集。\n\nhttps://www.themoviedb.org/tv/115598/season/1 (api_snapshot): TMDB 115598 第 1 季的 13 集标题，从「春風のいたずら」到「春風…再び」，逐集对应 Bangumi 的 13 个本篇章节，顺序一致。\n\nhttps://www.themoviedb.org/tv/115598/season/0 (api_snapshot): TMDB 115598 第 0 季仅有一集「下級生はじめまして ティナ!」，日期为 2000 年 3 月 24 日，对应 Bangumi 的 Tina 特别篇。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10033004&workId=10033 (search_snippet): dアニメストア将 1999 年电视动画列为全 14 话：13 个本篇章节及番外篇「はじめまして ティナ！」，并列出鹿島典夫等制作人员。\n\nhttps://www.themoviedb.org/tv/97821 (api_snapshot): 另一个相近条目 TMDB 97821 将 1999 年和 2004 年内容列为两个季，且 1999 年季只用「第1話」等泛称并列出 14 集；其范围与本 subject 的 13 集电视本篇加 1 集番外篇不吻合。\n\n备注：TMDB 的第 1 季放送日期比输入所列日期晚一天；不同电视台的播出日期可能不同，但逐集标题与顺序一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/13342; https://forum.anidb.net/viewtopic.php?t=4193; https://www.themoviedb.org/tv/115598; https://www.themoviedb.org/tv/115598/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10033004&workId=10033",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/13342; https://www.themoviedb.org/tv/115598; https://www.themoviedb.org/tv/115598/season/1; https://www.themoviedb.org/tv/115598/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10033004&workId=10033; https://www.themoviedb.org/tv/97821",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115598
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

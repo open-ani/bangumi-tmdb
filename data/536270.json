@@ -70,12 +70,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原名、别名、剧情、制作公司及官方账号共同确认对应同一部2026年新作电视动画。TMDB 明确列出唯一的第1季，结合官方首播安排，可确认本 subject 对应该季，未见混入其他作品或分割季度的证据。作品尚未开播，按整季提交；集表仍为无日期占位记录，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/283692 (api_snapshot): 英文别名搜索命中 TV 283692；实际读取详情确认日文原名、英文别名及佐藤孝弘进入游戏世界后化名ヒロ驾驶飞船从事佣兵活动的剧情一致。制作公司为 Studio A-CAT，官方账号为 saikyosoubi；状态为制作中，仅列第1季，首播日期尚未填写。\n\nhttps://www.themoviedb.org/tv/283692/season/1 (api_snapshot): 实际读取第1季全部集表，共1页，只有第1集占位记录，标题为 Episode 1，日期为空，无法核实逐集对应。\n\nhttps://saikyosoubi.com/ (page): 官网确认这是2026年10月开播的电视动画；剧情与输入一致，原作リュート、导演ながはまのりひこ、人物设计末岡正美、动画制作 studio A-CAT，官方账号与 TMDB 一致。\n\nhttps://saikyosoubi.com/onair/ (page): 官方播出表列明 TOKYO MX 于10月4日星期日21:30首播，与输入的2026年10月4日一致。\n\n备注：TMDB 尚未填写作品及第1季首播日期，也未提供可核实的逐集标题与排期。；输入列出13话，但当前官方页面及 TMDB 集表不足以确认总话数和逐集对应；待集表补齐后再按实际日期、标题核对。",
+    "evidence": "codex: 原名、别名、剧情、制作公司及官方账号共同确认对应同一部2026年新作电视动画。TMDB 明确列出唯一的第1季，结合官方首播安排，可确认本 subject 对应该季，未见混入其他作品或分割季度的证据。作品尚未开播，按整季提交；集表仍为无日期占位记录，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/283692 (api_snapshot): 英文别名搜索命中 TV 283692；实际读取详情确认日文原名、英文别名及佐藤孝弘进入游戏世界后化名ヒロ驾驶飞船从事佣兵活动的剧情一致。制作公司为 Studio A-CAT，官方账号为 saikyosoubi；状态为制作中，仅列第1季，首播日期尚未填写。\n\nhttps://www.themoviedb.org/tv/283692/season/1 (api_snapshot): 实际读取第1季全部集表，共1页，只有第1集占位记录，标题为 Episode 1，日期为空，无法核实逐集对应。\n\nhttps://saikyosoubi.com/ (page): 官网确认这是2026年10月开播的电视动画；剧情与输入一致，原作リュート、导演ながはまのりひこ、人物设计末岡正美、动画制作 studio A-CAT，官方账号与 TMDB 一致。\n\nhttps://saikyosoubi.com/onair/ (page): 官方播出表列明 TOKYO MX 于10月4日星期日21:30首播，与输入的2026年10月4日一致。\n\n备注：TMDB 尚未填写作品及第1季首播日期，也未提供可核实的逐集标题与排期。；输入列出13话，但当前官方页面及 TMDB 集表不足以确认总话数和逐集对应；待集表补齐后再按实际日期、标题核对。\n\n脚本按放送日期核对生成逐集规则（放送中）：TMDB 季表目前 1 集，与前 1 个本篇章节的放送日期逐一在 ±1 天内；其余 12 话待 TMDB 补齐后自动延长。",
     "method": "codex",
     "source": "https://bgm.tv/subject/536270; https://www.themoviedb.org/tv/283692; https://www.themoviedb.org/tv/283692/season/1; https://saikyosoubi.com/; https://saikyosoubi.com/onair/",
-    "verifiedAt": "2026-09-21T00:24:47.944Z"
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283692
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,163 @@
 {
   "anidbId": 2858,
   "bangumiId": 3974,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28681,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28682,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 28683,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 28684,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 28685,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 28686,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 28687,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 28688,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 28689,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 28690,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 28691,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 28692,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 28693,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 28694,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 28695,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 28696,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 28697,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 28698,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 28699,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 28700,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 28701,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 28702,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 28703,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 28704,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 211778,
+      "sort": 25,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 211778,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 26674,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 3974 明确是 2005 年 GONZO×AIC 制作的《SoltyRei/曙光少女》，包含24集本篇及主体内的 SP25 特别篇。TMDB 26674 的剧情、日文标题、制作/年份信息与该作品一致；其第1季为完整24集，第0季为1集、日期为2006-07-26，与 Bangumi 的 SP25 标题和日期完全对应。因此应映射为 TMDB 第1季完整季，并纳入主体内特别篇所在的第0季完整季。TMDB 首播日期显示为2005-10-07，与 Bangumi 的2005-10-06属于日期记录差异，不构成版本冲突。\n\nhttps://bgm.tv/subject/3974 (page): Bangumi 将该条目标为 SoltyRei TV，话数25，2005-10-06开播，制作/原案信息包含 GONZO、AIC、TV Asahi。\n\nhttps://bgm.tv/subject/3974/ep (page): Bangumi 章节列出本篇1–24集，并单列 SP25《すれ違うキモチで、想い合うココロで。》。\n\nhttps://bgm.tv/ep/211778 (page): SP25 标题、时长43分45秒及首播日期2006-07-26均明确记录。\n\nhttps://www.themoviedb.org/tv/26674 (api_snapshot): TMDB API 快照显示 TV ID 26674、日文标题ソルティレイ、2005-10-07首播、24集，并列出第0季1集和第1季24集；剧情与 SoltyRei 作品主体一致。\n\nhttps://www.themoviedb.org/tv/26674/season/1 (api_snapshot): TMDB 第1季快照包含完整24集，标题和日期与 Bangumi 本篇章节逐集对应。\n\nhttps://www.wikidata.org/wiki/Q61092167 (page): 同一 Solty Rei 条目同时记录 AniDB anime ID 2858、Bangumi subject ID 3974 和 TMDB TV series ID 26674。",
+    "evidence": "gpt-6-sol: 作品的年份、剧情、制作方和媒介一致；第 1 季的 24 个标题逐集对应 Bangumi 本篇。第 0 季单集与 Bangumi 特别篇标题及日期一致，因此将特别篇单独对应。\n\nhttps://www.themoviedb.org/tv/26674 (api_snapshot): TMDB TV 26674 的日文名、2005 年首播时间、罗伊与索露蒂的剧情、GONZO 制作信息及 24 集本篇，均与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/26674/season/1 (api_snapshot): TMDB 第 1 季列出完整 24 集；集号、日文标题和播出顺序与 Bangumi 本篇第 1 至 24 话逐集对应，TMDB 日期整体晚一天。\n\nhttps://www.themoviedb.org/tv/26674/season/0 (api_snapshot): TMDB 第 0 季仅有第 1 集《すれ違うキモチで、想い合うココロで。》，日期为 2006-07-26，与 Bangumi 特别篇一致；TMDB 标注时长为 24 分钟。\n\nhttps://www.gonzo.co.jp/works/soltyrei/index.html (page): 制作方 GONZO 确认本作为平池芳正执导、GONZO×AIC 制作的 2005 年 10 月至 2006 年 3 月播出的 24 集 TV 动画。\n\nhttps://bgm.tv/ep/211778 (page): Bangumi 将章节 211778 列为 SP.25，标题与 TMDB 第 0 季第 1 集相同，日期为 2006-07-26，时长为 43 分 45 秒。\n\nhttps://sam.or.jp/library/dvd_sa_2025.pdf (page): DVD 目录将第 13 卷列为同名 Extra Episode，时长 44 分钟，并逐卷列出本篇第 1 至 24 话。\n\n备注：TMDB 特别篇标注 24 分钟，Bangumi 与 DVD 目录均约为 44 分钟；标题和日期支持其条目身份，但 TMDB 的时长或内容完整性仍需修正或复核。；TMDB 本篇播出日期较 Bangumi 整体晚一天；逐集标题与顺序一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3974; https://bgm.tv/subject/3974/ep; https://bgm.tv/ep/211778; https://www.themoviedb.org/tv/26674; https://www.themoviedb.org/tv/26674/season/1; https://www.wikidata.org/wiki/Q61092167",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3974; https://www.themoviedb.org/tv/26674; https://www.themoviedb.org/tv/26674/season/1; https://www.themoviedb.org/tv/26674/season/0; https://www.gonzo.co.jp/works/soltyrei/index.html; https://bgm.tv/ep/211778; https://sam.or.jp/library/dvd_sa_2025.pdf",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 26674
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -19,6 +166,7 @@
       "type": "tv"
     },
     {
+      "episode": 1,
       "id": 26674,
       "season": 0,
       "type": "tv"

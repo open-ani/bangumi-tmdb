@@ -1,20 +1,91 @@
 {
   "anidbId": 19004,
   "bangumiId": 524986,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1560509,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1560510,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1560511,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1560512,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1560513,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1560514,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1560515,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1560516,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1560517,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1560518,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1560519,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1560520,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 应对应 TMDB 286691 第 1 季。其年份、导演、原作、制作公司及 12 集分段配信安排均吻合；季表的 12 集标题与日期也和 Bangumi 逐集一致。旧映射 34114 是 1983 年版，应替换。\n\nhttps://www.themoviedb.org/tv/286691 (api_snapshot): TMDB 2025 年条目 ID 286691 于 2025 年 9 月 26 日首播，共 12 集、1 季；导演末田宜史、原作北条司、制作公司 LIDENFILMS，均与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/286691/season/1 (api_snapshot): TMDB 第 1 季完整列出 12 集；每集的日文标题和播出日期均与输入中的 Bangumi 第 1 至 12 话逐一吻合。\n\nhttps://www.themoviedb.org/tv/34114 (api_snapshot): 旧映射 ID 34114 首播于 1983 年，导演为儿玉兼嗣，共 73 集，属于旧版动画。\n\nhttps://disneyplus.disney.co.jp/news/2025/0919_catseye_event (search_snippet): Disney+ 官方资料确认 2025 年作品是全新动画，第 1 至 6 话于 2025 年 9 月 26 日至 10 月 31 日配信，第 7 至 12 话于 2025 年 12 月 26 日至 2026 年 1 月 30 日配信。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/524986; https://www.themoviedb.org/tv/286691; https://www.themoviedb.org/tv/286691/season/1; https://www.themoviedb.org/tv/34114; https://disneyplus.disney.co.jp/news/2025/0919_catseye_event",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 286691
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 34114,
+      "id": 286691,
+      "season": 1,
       "type": "tv"
     }
   ]

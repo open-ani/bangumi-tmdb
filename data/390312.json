@@ -1,20 +1,88 @@
 {
   "anidbId": 17175,
   "bangumiId": 390312,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1115540,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1115541,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1115542,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1115543,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1115544,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1115545,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1115546,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1115547,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1115548,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1115549,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1115550,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 该 subject 是 2022 年版第 1 季后半的 11 集。TMDB 第 1 季第 14 至 24 集的播出日期、集标题和顺序均与 Bangumi 对应；第 1 至 13 集及 2023 年第 2 季不属于此 subject。\n\nhttps://www.themoviedb.org/tv/156898 (search_snippet): 日文原名检索到 2022 年版 TMDB 电视剧 156898；另有 1992 年版条目，年份不同。\n\nhttps://www.themoviedb.org/tv/156898 (api_snapshot): TMDB 156898 是 2022 年首播的《BASTARD!! －暗黒の破壊神－》，原作为萩原一至；第 1 季共 24 集，第 2 季始于 2023 年。\n\nhttps://www.themoviedb.org/tv/156898/season/1 (api_snapshot): 第 1 季第 14 至 24 集均于 2022 年 9 月 15 日播出，集标题依次为「感泣」至「終焉」，与 Bangumi 的 11 集逐集吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/390312; https://www.themoviedb.org/tv/156898; https://www.themoviedb.org/tv/156898/season/1",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 14,
+      "season": 1,
+      "start": 14,
+      "tmdbId": 156898
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 14,
+      "episodeEnd": 24,
       "id": 156898,
+      "season": 1,
       "type": "tv"
     }
   ]

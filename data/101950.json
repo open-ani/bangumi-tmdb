@@ -1,0 +1,53 @@
+{
+  "bangumiId": 101950,
+  "episodes": [
+    {
+      "id": 392726,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 392727,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 392728,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 392729,
+      "sort": 4,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 的四个篇章与 TMDB 第 1 季第 32—35 集逐一同名且顺序一致；TMDB 的剧情也对应亜美、ヒロシ与河野的续篇故事。该季还收录系列其他作品，因此仅选第 32—35 集。\n\nhttps://www.themoviedb.org/tv/115290 (api_snapshot): TMDB 115290 是始于 1984 年的《くりいむレモン》动画系列，制作公司列为フェアリーダスト；第 1 季收录多个不同作品。\n\nhttps://www.themoviedb.org/tv/115290/season/1 (api_snapshot): 该季第 32—35 集依次为《亜美・それから》的“哀しみの中で”“忘れたいのに”“抱かれたいのに”“微笑みの中で”，标题、顺序和剧情与 Bangumi 四话对应。\n\nhttps://www.creamlemon.jp/history/index.html (page): 系列历史页确认这四部依次于 1988 年 10 月 21 日、1989 年 2 月 3 日、1989 年 6 月 21 日和 1990 年 5 月 21 日发行。\n\n备注：TMDB 对这四集标注的日期为 1990—1992 年，与系列历史页记载的 1988—1990 年首发日期不符；映射依据是四个篇章的标题、顺序及剧情，日期差异需要修正 TMDB 元数据。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101950; https://www.themoviedb.org/tv/115290; https://www.themoviedb.org/tv/115290/season/1; https://www.creamlemon.jp/history/index.html",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 32,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115290
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 32,
+      "episodeEnd": 35,
+      "id": 115290,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

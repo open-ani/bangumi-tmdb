@@ -1,0 +1,41 @@
+{
+  "bangumiId": 130560,
+  "episodes": [
+    {
+      "id": 513953,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 513954,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 候选的特定版本标题、首播日期和两集范围均与 Bangumi 的两卷 OVA 相符；其唯一的第 1 季恰好覆盖该范围。Bangumi 两话均无标题和单话日期，因此暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/232351 (api_snapshot): 候选 232351 的标题为「YJ版 レモンエンジェル」，首播日期为 1990-07-06，共 2 集；唯一的第 1 季也有 2 集，分别标为 1990-07-06 和 1990-08-03。\n\n备注：候选数据没有剧情或媒介说明，也无法用制作方与 Bangumi 信息交叉核对。；Bangumi 两话缺少单话标题和放送日期，尚不能逐话核实对应关系。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/130560; https://www.themoviedb.org/tv/232351",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 232351
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 232351,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

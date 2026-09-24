@@ -1,19 +1,150 @@
 {
   "bangumiId": 469104,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1625746,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1625747,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1625748,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1625749,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1625750,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1625751,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1625752,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1625753,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1625754,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1625755,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1625756,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1625757,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1707346,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1707347,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1707348,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1707349,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1707350,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1707351,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1707352,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1707353,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1707354,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1707355,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1707356,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1707357,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 官方资料与 TMDB 第 2 季在作品版本、剧情阶段、首播日和制作人员上吻合。该季完整季表恰好覆盖本 subject 的 24 集；前 23 集的标题和日期逐集一致，第 24 集虽尚未播出，但集号、日期及总集数均一致。\n\nhttps://www.themoviedb.org/tv/91768 (api_snapshot): 以日文标题及英文别名搜索，均找到 TMDB 电视剧 91768。\n\nhttps://www.themoviedb.org/tv/91768 (api_snapshot): TMDB 作品详情将《領主の養女》列为第 2 季，首播日为 2026 年 4 月 4 日，共 24 集；导演岩崎良明，制作公司包括 WIT STUDIO。\n\nhttps://www.themoviedb.org/tv/91768/season/2 (api_snapshot): 已读取第 2 季完整季表。第 1 至 23 集与 Bangumi 章节的集号、日文标题及播出日期逐一相同；第 24 集日期同为 2026 年 10 月 3 日，但 TMDB 标题仍是占位标题。\n\nhttps://booklove-anime.jp/news/contents/article_3umi3zpocfb2vn7w.html (page): 动画官网确认《領主の養女》于 2026 年 4 月 4 日开播，连续播出两个季度，由 WIT STUDIO 制作。\n\nhttps://booklove-anime.jp/staff/ (page): 官网列出的原作、导演、系列构成及主要角色与 Bangumi 所述版本一致。\n\n备注：第 24 集尚未播出，TMDB 仍使用占位标题；播出后应复核标题及排期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/469104; https://www.themoviedb.org/tv/91768; https://www.themoviedb.org/tv/91768/season/2; https://booklove-anime.jp/news/contents/article_3umi3zpocfb2vn7w.html; https://booklove-anime.jp/staff/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 91768
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 91768,
+      "season": 2,
       "type": "tv"
     }
   ]

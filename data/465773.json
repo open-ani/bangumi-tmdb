@@ -1,21 +1,52 @@
 {
   "anidbId": 18280,
   "bangumiId": 465773,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1282489,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1304497,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1304498,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1304499,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 收录的是 2024 年 2 月 23 日配信的四话版；TMDB 剧集第 2 季独立收录这四话，逐话标题和日期均吻合。旧映射指向同一故事的 89 分钟电影条目，但四话版有更准确的 TMDB 季及逐集记录，因此映射至剧集第 2 季。\n\nhttps://www.themoviedb.org/tv/93816 (api_snapshot): TMDB 剧集 93816 的第 2 季名为 razbliuto，首播日期为 2024-02-23，共 4 集；第 1 季是 2020 年的《GREAT PRETENDER》。\n\nhttps://www.themoviedb.org/tv/93816/season/2 (api_snapshot): TMDB 第 2 季第 1 至 4 集的标题依次为「Intermission 1-1」至「Intermission 1-4: Taipei Rendezvous」，日期均为 2024-02-23，与 Bangumi 四话的标题、顺序和日期对应。\n\nhttps://www.themoviedb.org/movie/1220441 (api_snapshot): TMDB 电影 1220441 是同名、同剧情和制作方的 89 分钟电影条目。\n\nhttps://prtimes.jp/a/?c=122725&f=d122725-113-817fa6d9c434ba3c808da651c9010c81.pdf&r=113 (page): 发行方 DMM 确认《GREAT PRETENDER razbliuto》于 2024-02-23 以全 4 话在 DMM TV 配信，导演为鏑木ひろ，动画制作方为 WIT STUDIO。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/465773; https://www.themoviedb.org/tv/93816; https://www.themoviedb.org/tv/93816/season/2; https://www.themoviedb.org/movie/1220441; https://prtimes.jp/a/?c=122725&f=d122725-113-817fa6d9c434ba3c808da651c9010c81.pdf&r=113",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 93816
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1220441,
-      "type": "movie"
+      "id": 93816,
+      "season": 2,
+      "type": "tv"
     }
   ]
 }

@@ -1,14 +1,25 @@
 {
   "anidbId": 17809,
   "bangumiId": 414510,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1160248,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1179120,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 已核实 TMDB 1108298 与 Bangumi 条目属于同一部 2023 年剧场版：媒介、上映日期、演出内容和导演一致。TMDB 将其收录为一条电影，Bangumi 的两话则是 DAY 1、DAY 2 两个放映版本；电影没有可用于连续逐集规则的集号，因此不建立章节映射。\n\nhttps://bgm.tv/subject/414510 (page): Bangumi 将本条目标为 2023 年 5 月 20 日上映的剧场版，共两话，导演为锦织博、山本健介。\n\nhttps://idolish7.com/film-btp/about (page): 官方网站确认这是四组偶像共同出演的剧场演唱会动画，由锦织博、山本健介执导，并有 DAY 1、DAY 2 两个版本。\n\nhttps://www.themoviedb.org/movie/1108298 (api_snapshot): TMDB 电影 1108298 的原名、2023 年 5 月 20 日上映日期、四组偶像的演出简介及两位导演均与该剧场版吻合；条目时长为 93 分钟。\n\n备注：TMDB 条目未注明对应 DAY 1、DAY 2 中的哪一版；其 93 分钟时长不足以确认两个版本各自的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/414510; https://idolish7.com/film-btp/about; https://www.themoviedb.org/movie/1108298",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,

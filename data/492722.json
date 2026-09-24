@@ -1,20 +1,91 @@
 {
   "anidbId": 18607,
   "bangumiId": 492722,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1559529,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1559530,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1559531,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1559532,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1559533,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1559534,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1559535,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1559536,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1559537,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1559538,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1559539,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1559540,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 这是 2025 年播出的电视动画第二期，对应 TMDB 78483 第 2 季。该季完整收录 12 集，没有混入第一期；官方逐集标题、剧情与 Bangumi 顺序一致。Bangumi 记录周三 24:00 的播出日期，TMDB 记为实际跨午夜后的周四，因此可将本篇第 1 至 12 话连续对应至第 2 季第 1 至 12 集。\n\nhttps://www.themoviedb.org/tv/78483 (api_snapshot): TMDB 作品 78483 是电视动画《かくりよの宿飯》；第 2 季名为《かくりよの宿飯 弐》，始于 2025 年 10 月，共 12 集。制作公司包括 GONZO 和 Makaria，导演为吉崎譲。\n\nhttps://www.themoviedb.org/tv/78483/season/2 (api_snapshot): TMDB 第 2 季集表仅含第 1 至 12 集；各集标题和顺序与 Bangumi 章节对应，日期均比 Bangumi 所记的周三晚播出日期晚一天。\n\nhttps://kakuriyo-anime.com/onair/ (page): 官方网站列出第二期自 2025 年 10 月 1 日星期三 24:00 在 TOKYO MX 播出，解释了 TMDB 按次日日期记录的差异。\n\nhttps://kakuriyo-anime.com/story/ (page): 官方网站按第一话至第十二话列出本季标题和剧情，确认逐集顺序及第 7、9、10 话的标题写法。\n\nhttps://kakuriyo-anime.com/staff-cast/ (page): 官方网站确认本季导演吉崎譲、音乐伊賀拓郎、动画制作 GONZO×マカリア，与 Bangumi 资料及 TMDB 作品资料相符。\n\n备注：TMDB 第 7、9 话标题有字形或录入差异，第 10 话缺少句号；官方标题与 Bangumi 一致，不影响依据剧情、顺序和播出日期确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/492722; https://www.themoviedb.org/tv/78483; https://www.themoviedb.org/tv/78483/season/2; https://kakuriyo-anime.com/onair/; https://kakuriyo-anime.com/story/; https://kakuriyo-anime.com/staff-cast/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 78483
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 78483,
+      "season": 2,
       "type": "tv"
     }
   ]

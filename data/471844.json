@@ -1,19 +1,81 @@
 {
   "bangumiId": 471844,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1747384,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1747385,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1747386,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1747387,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1747388,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1747389,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1747390,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1747391,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1747392,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1747393,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1747394,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1747395,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 官方确认 Bangumi 所指的 2026 年续作是独立的第二期，第一期止于第 12 话；TMDB 同一作品已设第二季，故以完整第二季覆盖此 subject。第二季尚未开播，TMDB 季表为空，暂不建立未经逐集核实的规则。\n\nhttps://www.aniplex.co.jp/lineup/kikansha_season2/ (page): Aniplex 将本作列为 2026 年 10 月播出的 TV 动画第二期，确认 10 月 7 日首播；剧情涉及戴基尔、罗曼蒂卡和达德涅夫，导演为川口太詩，动画制作为 ARVO ANIMATION。\n\nhttps://returners-magic.com/news/?id=70549 (page): 动画官网明确第一期为 Episode 1～12，第二期从 Episode 13 开始，确认两期的内容边界。\n\nhttps://bangumi.tv/subject/471844 (page): Bangumi 条目是 2026 年 10 月 7 日开播的 TV 动画第二期，剧情与制作人员吻合。\n\nhttps://www.themoviedb.org/tv/230050 (api_snapshot): TMDB 作品 230050 为《帰還者の魔法は特別です》，列有第一季 12 集及第二季；演员、导演和制作公司与官方资料吻合。\n\nhttps://www.themoviedb.org/tv/230050/season/2 (api_snapshot): 已读取 TMDB 第二季季表：目前尚无播出日期或集数，集表为空。\n\n备注：Bangumi 预填了 12 个章节及每周日期，但官方尚未确认第二期总集数，TMDB 也尚无逐集资料；待季表补齐后按实际放送日期核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/471844; https://www.aniplex.co.jp/lineup/kikansha_season2/; https://returners-magic.com/news/?id=70549; https://bangumi.tv/subject/471844; https://www.themoviedb.org/tv/230050; https://www.themoviedb.org/tv/230050/season/2",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 230050,
+      "season": 2,
       "type": "tv"
     }
   ]

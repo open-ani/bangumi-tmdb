@@ -1,15 +1,90 @@
 {
   "bangumiId": 349063,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1053649,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1053650,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1053651,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1053652,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1053653,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1053654,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1053655,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1053656,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1053657,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1053658,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1053659,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1053660,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1053661,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品名称、首播日期、剧情、制作方和第一季集数一致；TMDB 第一季完整覆盖该 Bangumi subject 的 13 话，因此匹配整季。Bangumi 章节缺少逐集标题和日期，暂不建立逐集规则。\n\nhttps://bgm.tv/subject/349063 (page): Bangumi 条目将作品列为 2008 年 3 月 8 日开播的 TV 动画第一季，共 13 话，并将第二季列为续作。\n\nhttps://bgm.tv/subject/349063/ep (page): Bangumi 章节页列出本篇第 1 至 13 话，但未提供逐集标题或播出日期。\n\nhttps://www.themoviedb.org/tv/3854 (api_snapshot): TMDB 剧集 3854 的英文原名、首播日期、16 岁彼得·帕克的剧情和 Marvel Entertainment 制作信息均与 Bangumi 条目吻合；其第一季为 13 集。\n\nhttps://www.themoviedb.org/tv/3854/season/1 (api_snapshot): TMDB 第一季完整季表列出第 1 至 13 集，首集于 2008 年 3 月 8 日播出，末集于 2008 年 6 月 14 日播出。\n\n备注：Bangumi 章节只有序号，无法依据双方逐集标题或播出日期核实第 1 至 13 话的逐集对应。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/349063; https://bgm.tv/subject/349063/ep; https://www.themoviedb.org/tv/3854; https://www.themoviedb.org/tv/3854/season/1",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 3854
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

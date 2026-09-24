@@ -1,20 +1,103 @@
 {
   "anidbId": 18763,
   "bangumiId": 458981,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1325020,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1325021,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1325022,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1325023,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1325024,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1325025,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1325026,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1325027,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1325028,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1325029,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1325030,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1325031,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1325032,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1325033,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品类型、导演、首播时间及26集总量均吻合；Bangumi 下部的第13至26话，正对应 TMDB 动画第1季第13至26集。该季前12集属于已另行映射的上部，因此只取后14集。\n\nhttps://bangumi.tv/subject/458981 (page): Bangumi 将《九霄龙吟篇》列为2024年4月17日开播的14集动画，章节编号为13至26，导演为周涛。\n\nhttps://www.youtube.com/watch?v=Jq6xBP0QobE (search_snippet): 优酷动漫发布的《九霄龙吟篇》定档预告称《暗河传》共26集，每周三更新。\n\nhttps://www.themoviedb.org/tv/217626 (api_snapshot): TMDB 217626 是周涛执导、2023年8月2日首播的动画《少年歌行之暗河传》；第1季共26集。\n\nhttps://www.themoviedb.org/tv/217626/season/1 (api_snapshot): TMDB 第1季集表中，第1至12集播于2023年；第13集日期为2024年4月17日，第13至26集连续编号，覆盖下部的14集。\n\nhttps://www.themoviedb.org/tv/261663 (api_snapshot): 同名 TMDB 261663 于2025年首播，演员包括龚俊，导演为尹涛，是另一个真人剧版本。\n\n备注：TMDB 将第26集日期记为2024年7月17日；官方账号的搜索摘要显示第25、26集曾提前连播解锁，可能反映不同观看档期，不影响集号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/458981; https://bangumi.tv/subject/458981; https://www.youtube.com/watch?v=Jq6xBP0QobE; https://www.themoviedb.org/tv/217626; https://www.themoviedb.org/tv/217626/season/1; https://www.themoviedb.org/tv/261663",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 217626
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 13,
+      "episodeEnd": 26,
       "id": 217626,
+      "season": 1,
       "type": "tv"
     }
   ]

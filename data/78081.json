@@ -1,0 +1,51 @@
+{
+  "bangumiId": 78081,
+  "episodes": [
+    {
+      "id": 295560,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 295561,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 295562,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 295563,
+      "sort": 4,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi条目为1989年至1991年发行的4集OVA；候选第1季的首播日期、剧情、制作信息及4集范围吻合，可确认整季对应。Bangumi各集缺少标题和放送日期，无法逐集核实顺序，因此暂不建立章节映射规则。\n\nhttps://www.themoviedb.org/tv/114236 (api_snapshot): 候选作品同为1989年12月21日首播的《手天童子》OVA；简介中的人物与剧情一致，制作方包括Studio Signal Club和Dynamic Planning。第1季共4集，季表没有其他作品的集数。\n\n备注：Bangumi四个章节均无标题和放送日期，尚不能逐集核对与TMDB第1季各集的对应关系。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/78081; https://www.themoviedb.org/tv/114236",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 114236
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 114236,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

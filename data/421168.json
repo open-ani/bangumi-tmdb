@@ -1,20 +1,86 @@
 {
   "bangumiId": 421168,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1174897,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1174898,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1174899,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1174900,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1174901,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1174902,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1174903,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1174904,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1174905,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1174906,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1174907,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 电视剧 327756 第 1 季：短片身份、制作公司、首播日期及 11 集范围均吻合，且该季没有混入其他作品。旧映射 292177 对应关联电影正片，应予替换。Bangumi 章节缺少逐集标题和日期，无法核实章节序号与 TMDB 集号的对应关系，因此暂不填写逐集规则。\n\nhttps://bgm.tv/subject/421168 (page): Bangumi 将本条目标为 11 话网络短片，播出时间为 2014 年 3 月 27 日至 2015 年 4 月 1 日，并将《Rainbow Rocks》电影列为关联作品。\n\nhttps://www.themoviedb.org/tv/327756/season/1 (api_snapshot): TMDB 电视剧 327756 的第 1 季恰有 11 集：前八集为 2014 年的短片，后三集为 2015 年的音乐短片；标题和内容均符合本条目。\n\nhttps://www.themoviedb.org/tv/327756 (api_snapshot): TMDB 电视剧 327756 首播于 2014 年 3 月 27 日，共 1 季 11 集，制作公司为 Hasbro Studios 和 DHX Media。\n\nhttps://www.themoviedb.org/movie/292177 (api_snapshot): 旧映射的 TMDB 电影 292177 是 2014 年 9 月 27 日上映、片长 73 分钟的《Rainbow Rocks》正片。\n\nhttps://mlp.fandom.com/wiki/My_Little_Pony_Equestria_Girls:_Rainbow_Rocks/Animated_shorts (page): 短片资料列出前八部与后三部的各自标题和发布日期，并明确说明这 11 部短片并非电影本身。\n\nhttps://bgm.tv/subject/421168/ep (page): Bangumi 的 11 个章节仅有序号，没有逐集标题或首播日期。\n\n备注：Bangumi 的 11 个章节尚无可核对的逐集标题或日期，具体章节对应关系未确认。；Bangumi 记载结束日为 2015 年 4 月 1 日，TMDB 将最后三集记为 4 月 3 日；资料显示这三部短片曾于 4 月 1 日上传，之后重新上传。\n\n脚本按声明范围生成逐集规则：11 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/421168; https://www.themoviedb.org/tv/327756/season/1; https://www.themoviedb.org/tv/327756; https://www.themoviedb.org/movie/292177; https://mlp.fandom.com/wiki/My_Little_Pony_Equestria_Girls:_Rainbow_Rocks/Animated_shorts; https://bgm.tv/subject/421168/ep",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 327756
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 292177,
-      "type": "movie"
+      "id": 327756,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

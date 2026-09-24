@@ -1,19 +1,36 @@
 {
   "bangumiId": 459601,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1667416,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的单集 TV 特别篇对应 TMDB 电视剧 208493 的第 0 季第 1 集。季集表只有这一集，剧情和角色吻合；TMDB 所记 3 月 29 日对应官方先行配信，Bangumi 的 3 月 30 日对应电视播出。\n\nhttps://www.themoviedb.org/tv/208493 (api_snapshot): TMDB 电视剧 208493 与原作同名，列有第 0 季“特別編”；第 1 季为 2023 年正篇。\n\nhttps://www.themoviedb.org/tv/208493/season/0 (api_snapshot): 第 0 季仅有第 1 集《伝説の竜――覚醒》，时长 47 分钟；简介中的尤蒂同居与拳圣情节和 Bangumi 所给简介吻合。\n\nhttps://www.iseleve.com/news/news-20260313-01.html (page): 动画官网确认这是一部全新 TV 特别篇，2026 年 3 月 29 日先行配信、3 月 30 日电视播出，解释了 TMDB 与 Bangumi 的日期差异。\n\nhttps://www.iseleve.com/ (page): 官网列出的导演板垣伸、原作美紅、动画制作ミルパンセ及尤蒂、拳圣等角色信息，与该特别篇资料吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/459601; https://www.themoviedb.org/tv/208493; https://www.themoviedb.org/tv/208493/season/0; https://www.iseleve.com/news/news-20260313-01.html; https://www.iseleve.com/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 208493
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 208493,
+      "season": 0,
       "type": "tv"
     }
   ]

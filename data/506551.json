@@ -1,19 +1,95 @@
 {
   "bangumiId": 506551,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1376392,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1376393,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1376394,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1376395,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1376396,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1376397,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1376398,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1376399,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1376400,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1376401,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1376402,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1376403,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1376404,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本条目对应 TMDB 14540 的 1994 年动画第一季，首播日期及全季 13 集相符。Bangumi 第 1 至 6 话的标题和日期与 TMDB 集表逐集吻合，因此建立这 6 话的连续规则。旧映射指向 2001 年的另一版本，应更正。\n\nhttps://www.themoviedb.org/tv/14540 (api_snapshot): TMDB 14540 是 1994 年 9 月 10 日首播的动画《The Tick》，第一季共 13 集；其配音阵容包括 Townsend Coleman 和 Rob Paulsen。\n\nhttps://www.themoviedb.org/tv/14540/season/1 (api_snapshot): TMDB 14540 第一季共 13 集；第 1 至 6 集的标题和播出日期与 Bangumi 已填写的章节逐集一致。\n\nhttps://www.themoviedb.org/tv/14651 (api_snapshot): 旧映射 TMDB 14651 是 2001 年首播、共 9 集的另一版《The Tick》，与本条目的年份和集数不符。\n\n备注：Bangumi 第 7 至 13 话缺少标题和播出日期，暂不建立逐集规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/506551; https://www.themoviedb.org/tv/14540; https://www.themoviedb.org/tv/14540/season/1; https://www.themoviedb.org/tv/14651",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 14540
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 14651,
+      "id": 14540,
+      "season": 1,
       "type": "tv"
     }
   ]

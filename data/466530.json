@@ -1,20 +1,157 @@
 {
   "bangumiId": 466530,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1272945,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1272946,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1272947,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1272948,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1272949,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1272950,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1272951,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1272952,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1272953,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1272954,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1272955,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1272956,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1272957,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1272958,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1272959,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1272960,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1272961,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1272962,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1272963,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1272964,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1272965,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1272966,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1272967,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1272968,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1272969,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1272970,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的 26 话覆盖完整两季；TMDB 5595 两季各 13 集，年份、起止日期、剧情、制作方和电视动画媒介相符。旧映射 1734 是作为改编来源的真人电影，应改为电视作品 5595 的第 1、2 季。Bangumi 章节缺少逐话标题和日期，无法按逐集证据建立 rules。\n\nhttps://bgm.tv/subject/466530/ep (page): Bangumi 条目记载这是 2001 年首播、2003 年完结的 26 话电视动画，剧情涵盖第二季；其章节页只有 1 至 26 的序号，没有逐话标题或日期。\n\nhttps://www.themoviedb.org/tv/5595 (api_snapshot): TMDB 电视作品 5595 的首播和完结日期、26 集、两季、环球卡通工作室及 O'Connell 一家与木乃伊的剧情均与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/5595/season/1 (api_snapshot): TMDB 第 1 季实际集表为 13 集，内容围绕寻找底比斯卷轴。\n\nhttps://www.themoviedb.org/tv/5595/season/2 (api_snapshot): TMDB 第 2 季实际集表为 13 集，Alex 接受 Medjai 训练，最后一集日期为 2003 年 6 月 7 日。\n\nhttps://www.themoviedb.org/movie/1734 (api_snapshot): 旧映射的电影 1734 是 2001 年上映的真人电影《The Mummy Returns》，片长 130 分钟；旧 IMDb 线索也指向该电影。\n\nhttps://tv.apple.com/de/show/the-mummy/umc.cmc.44bko5fw3puv2eu4slzjn1l20?l=en (page): Apple TV 将该作品列为环球卡通工作室制作的电视动画，并说明第二季改名为《The Mummy: Secrets of the Medjai》。\n\n备注：Bangumi 的 26 个章节只有序号，尚不能独立核实各章节与 TMDB 集号的逐集对应关系。；TMDB 第 1 季第 4 集日期与 TV Guide 所列日期不同；取得 Bangumi 逐话资料后应再核对日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/466530; https://bgm.tv/subject/466530/ep; https://www.themoviedb.org/tv/5595; https://www.themoviedb.org/tv/5595/season/1; https://www.themoviedb.org/tv/5595/season/2; https://www.themoviedb.org/movie/1734; https://tv.apple.com/de/show/the-mummy/umc.cmc.44bko5fw3puv2eu4slzjn1l20?l=en",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 1734,
-      "type": "movie"
+      "id": 5595,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 5595,
+      "season": 2,
+      "type": "tv"
     }
   ]
 }

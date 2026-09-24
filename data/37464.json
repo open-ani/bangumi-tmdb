@@ -1,16 +1,168 @@
 {
   "anidbId": 602,
   "bangumiId": 37464,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 161211,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 161212,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 161213,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 161214,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 161215,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 161216,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 161217,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 161218,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 161219,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 161220,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 161221,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 161222,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 161223,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 161224,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 161225,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 161226,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 161227,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 161228,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 161229,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 161230,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 161231,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 161232,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 161233,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 161234,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 161235,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 742165,
+      "sort": 26,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 742165,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 9642,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体是 1997 年播出的 MAZE☆爆熱時空 TV，正篇为 25 集；TMDB 9642 的第 1 季明确标为 TVシリーズ且为 25 集，故对应整季。Bangumi 的第 26 集特别篇标题与 TMDB 9642 第 0 季唯一集标题完全一致，且 TMDB 简介明确说明是 TV 动画的后日谈，因此应追加第 0 季第 1 集。OVA 与剧场版在 Bangumi 中是独立 subject，不纳入本主体。TMDB 的 TV 首播日期显示为 1997-04-09，与 Bangumi 及独立剧集资料所示 1997-04-02 不一致，但名称、制作信息、正篇集数及特别篇标题均支持该对应关系。\n\nhttps://bgm.tv/subject/37464 (search_snippet): Bangumi 条目标为 MAZE☆爆熱時空 TV，记载 1997-04-02 开播、26 话；其关联中 OVA 与剧场版为独立条目。\n\nhttps://www.themoviedb.org/tv/9642 (api_snapshot): TMDB TV 9642 名为 MAZE☆爆熱時空，number_of_episodes 为 25；季列表包含第 0 季“特別編”1 集和第 1 季“TVシリーズ”25 集。\n\nhttps://www.themoviedb.org/tv/9642/season/0 (api_snapshot): TMDB 第 0 季唯一集标题为“作者真剣! 愛と死を見つめて…湯煙温泉紀行看護婦は見た”，日期为 1998-11-01，简介明确称其为 TV 动画的后日谈特别新作。\n\nhttps://zh.wikipedia.org/wiki/MAZE%E2%98%86爆熱時空 (search_snippet): 独立资料记载 TV 版于 1997-04-02 至 1997-09-24 播出，共 25 话，第 26 话为录像带全套购买特典，支持 Bangumi 的 25 集正篇加特别篇结构。\n\n备注：TMDB 输入快照未附第 1 季逐集列表，因此无法逐集核对标题；但季名、季号、25 集数与 Bangumi 正篇 25 集已足以支持整季对应。；TMDB TV 主条目的 first_air_date 为 1997-04-09，与 Bangumi 的 1997-04-02 不一致，可能是 TMDB 日期录入差异。",
+    "evidence": "gpt-6-sol: 作品身份由官方制作资料、剧情、年份、媒介和25集正篇加1集后日谈的结构共同确认。第1季逐集标题与 Bangumi 第1至25集依序相符，特别篇单独对应第0季第1集。1996年同名 OVA 是另一作品。TMDB 正篇前9集的日期较 Bangumi 晚一周，但标题顺序、总集数及独立资料支持所列逐集对应。\n\nhttps://ssl.jcstaff.co.jp/sakuhin/nenpyo/1997/04_mazeTV/mazeTV.htm (page): J.C.STAFF 官方资料确认这是1997年4月至9月播出的电视动画，共25集正篇加1集后日谈；剧情、导演和制作公司均与 Bangumi 条目一致。\n\nhttps://bangumi.tv/subject/37464 (page): Bangumi 将本条目标为 TV，另将1996年 OVA 和1998年剧场版列为独立关联作品。\n\nhttps://www.themoviedb.org/tv/9642 (api_snapshot): TMDB 9642 为1997年 J.C.STAFF 制作的同名电视动画，剧情相符；第1季标为 TV 系列，共25集。\n\nhttps://www.themoviedb.org/tv/9642/season/1 (api_snapshot): TMDB 9642 第1季的25个日文集标题与 Bangumi 正篇第1至25集依序对应；第10至25集的日期也一致。\n\nhttps://www.themoviedb.org/tv/9642/season/0 (api_snapshot): TMDB 第0季第1集的标题及1998年11月1日日期与 Bangumi 特别篇一致，简介说明其为电视动画后日谈。\n\nhttps://www.themoviedb.org/tv/126181 (api_snapshot): 同名 TMDB 126181 首播于1996年，仅2集，别名明确标注 OVA，属于另一版本。\n\nhttps://www.imdb.com/title/tt1989955/ (search_snippet): IMDb 将标题对应“栄華盛衰・涙の終わり”的第9集记为1997年5月28日，支持 Bangumi 日期；TMDB 将该集记为6月4日。\n\nhttps://www.mau2.com/anime/mazebakunetujikuu/ep/10 (search_snippet): 独立日文集目资料将“疾風閃光・真昼の大決闘”列为第10集，支持 Bangumi 与 TMDB 的标题顺序。\n\n备注：TMDB 第1季第1至9集的日期均较 Bangumi 晚一周；第10至25集日期一致。此处依据逐集标题、集数以及外部播出资料判定前段为 TMDB 日期偏差。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/37464; https://www.themoviedb.org/tv/9642; https://www.themoviedb.org/tv/9642/season/0; https://zh.wikipedia.org/wiki/MAZE%E2%98%86爆熱時空",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/37464; https://ssl.jcstaff.co.jp/sakuhin/nenpyo/1997/04_mazeTV/mazeTV.htm; https://bangumi.tv/subject/37464; https://www.themoviedb.org/tv/9642; https://www.themoviedb.org/tv/9642/season/1; https://www.themoviedb.org/tv/9642/season/0; https://www.themoviedb.org/tv/126181; https://www.imdb.com/title/tt1989955/; https://www.mau2.com/anime/mazebakunetujikuu/ep/10",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 9642
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

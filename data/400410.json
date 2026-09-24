@@ -1,20 +1,91 @@
 {
   "bangumiId": 400410,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1127610,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1127611,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1127612,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1127613,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1127614,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1127615,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1127616,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1127617,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1127618,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1127619,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1127620,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1127621,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配 TMDB 电视剧 210143 的第 1 季。动画身份、剧情、制作公司、首播日期及 12 集范围吻合；前 5 集标题和全部 12 集播出日期逐集对应。旧映射 801803 指向较早上映的真人电影，应予替换。\n\nhttps://www.themoviedb.org/movie/801803 (api_snapshot): TMDB 电影 801803 于 2022 年 7 月 29 日上映，片长 122 分钟，由沈腾、马丽出演；它是旧映射所指的真人电影，并非本条 12 集动画。\n\nhttps://www.themoviedb.org/tv/210143 (api_snapshot): TMDB 电视剧 210143 于 2022 年 9 月 10 日首播，共 1 季 12 集；制作公司包括分子互动，第一季简介与 Bangumi 的独孤月月球求生简介一致。\n\nhttps://www.themoviedb.org/tv/210143/season/1 (api_snapshot): 第 1 季集表共 12 集：前 5 集标题及日期与 Bangumi 逐集一致，第 6 至 12 集的日期也逐集一致，末集日期为 2022 年 10 月 29 日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/400410; https://www.themoviedb.org/movie/801803; https://www.themoviedb.org/tv/210143; https://www.themoviedb.org/tv/210143/season/1",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 210143
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 801803,
-      "type": "movie"
+      "id": 210143,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

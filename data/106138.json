@@ -1,0 +1,41 @@
+{
+  "bangumiId": 106138,
+  "episodes": [
+    {
+      "id": 406134,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 406135,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 候选 TV 的标题、动画类型、两集总数及两集日期，分别对应 Bangumi 的标题、OVA 两话和起止日期；其第 1 季仅含这两集，因此映射整季，并按日期顺序对应两话。\n\nhttps://www.themoviedb.org/tv/282712 (api_snapshot): 候选 TV 282712 为日本动画《抱かれたい女》，共 2 集；第 1 季第 1 集日期为 1990-04-27，第 2 集为 1990-09-21，与 Bangumi 所列 OVA 的话数及起止日期一致。\n\nhttps://www.themoviedb.org/movie/1207161 (api_snapshot): 同日上映的候选电影 1207161 标题为《黑木香初のプロデュース作品！抱かれたい女》，与该两话 OVA 的标题和媒介不符。\n\n备注：Bangumi 章节未提供各话标题和单独日期；逐话对应依据是两话总数、OVA 起止日期与 TMDB 两集日期的一致性。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/106138; https://www.themoviedb.org/tv/282712; https://www.themoviedb.org/movie/1207161",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 282712
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 282712,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,19 +1,198 @@
 {
   "bangumiId": 407787,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1145480,
+      "sort": 235,
+      "type": 0
+    },
+    {
+      "id": 1145481,
+      "sort": 236,
+      "type": 0
+    },
+    {
+      "id": 1145482,
+      "sort": 237,
+      "type": 0
+    },
+    {
+      "id": 1145483,
+      "sort": 238,
+      "type": 0
+    },
+    {
+      "id": 1145484,
+      "sort": 239,
+      "type": 0
+    },
+    {
+      "id": 1145485,
+      "sort": 239.5,
+      "type": 0
+    },
+    {
+      "id": 1145486,
+      "sort": 240,
+      "type": 0
+    },
+    {
+      "id": 1145487,
+      "sort": 241,
+      "type": 0
+    },
+    {
+      "id": 1145488,
+      "sort": 242,
+      "type": 0
+    },
+    {
+      "id": 1145489,
+      "sort": 243,
+      "type": 0
+    },
+    {
+      "id": 1145490,
+      "sort": 244,
+      "type": 0
+    },
+    {
+      "id": 1145491,
+      "sort": 245,
+      "type": 0
+    },
+    {
+      "id": 1158534,
+      "sort": 246,
+      "type": 0
+    },
+    {
+      "id": 1173537,
+      "sort": 247,
+      "type": 0
+    },
+    {
+      "id": 1173538,
+      "sort": 248,
+      "type": 0
+    },
+    {
+      "id": 1173539,
+      "sort": 249,
+      "type": 0
+    },
+    {
+      "id": 1173540,
+      "sort": 250,
+      "type": 0
+    },
+    {
+      "id": 1173541,
+      "sort": 251,
+      "type": 0
+    },
+    {
+      "id": 1173542,
+      "sort": 252,
+      "type": 0
+    },
+    {
+      "id": 1173543,
+      "sort": 253,
+      "type": 0
+    },
+    {
+      "id": 1173544,
+      "sort": 254,
+      "type": 0
+    },
+    {
+      "id": 1173545,
+      "sort": 255,
+      "type": 0
+    },
+    {
+      "id": 1173546,
+      "sort": 256,
+      "type": 0
+    },
+    {
+      "id": 1173547,
+      "sort": 257,
+      "type": 0
+    },
+    {
+      "id": 1173548,
+      "sort": 258,
+      "type": 0
+    },
+    {
+      "id": 1206446,
+      "sort": 259,
+      "type": 0
+    },
+    {
+      "id": 1206447,
+      "sort": 260,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1145485,
+      "targets": [
+        {
+          "episode": 240,
+          "id": 76572,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1145486,
+      "targets": [
+        {
+          "episode": 241,
+          "id": 76572,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本条目覆盖《斗罗大陆》动画第 235 至 260 话，其中第 240 话分为上下两章。TMDB 将上下两章分别编为第 240、241 集，因此对应范围是动画剧集 76572 第 1 季第 235 至 261 集；各集播出日期吻合。旧映射 112202 指向真人剧，应替换。\n\nhttps://www.themoviedb.org/tv/112202 (api_snapshot): TMDB 112202 是 2021 年首播、由肖战主演的真人剧，与本动画不符。\n\nhttps://www.themoviedb.org/tv/76572 (api_snapshot): TMDB 76572 是 2018 年首播的《斗罗大陆》动画；制作公司包括玄机科技和腾讯企鹅影视，导演包括唐宏宁、沈乐平。\n\nhttps://www.themoviedb.org/tv/76572/season/1 (api_snapshot): 第 1 季集表第 4、5 页显示，第 235 至 261 集的播出日期与输入章节逐一吻合；TMDB 第 240 集为「240（上）」、第 241 集为「240（下）」，此后的 TMDB 集号比 Bangumi sort 大 1。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/407787; https://www.themoviedb.org/tv/112202; https://www.themoviedb.org/tv/76572; https://www.themoviedb.org/tv/76572/season/1",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 239,
+      "episodeStart": 235,
+      "season": 1,
+      "start": 235,
+      "tmdbId": 76572
+    },
+    {
+      "bangumiType": 0,
+      "end": 260,
+      "episodeStart": 242,
+      "season": 1,
+      "start": 241,
+      "tmdbId": 76572
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 112202,
+      "episode": 235,
+      "episodeEnd": 261,
+      "id": 76572,
+      "season": 1,
       "type": "tv"
     }
   ]

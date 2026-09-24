@@ -260,28 +260,45 @@
       "id": 1745710,
       "sort": 117,
       "type": 0
+    },
+    {
+      "id": 1750696,
+      "sort": 118,
+      "type": 0
     }
   ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1665309,
+      "targets": [
+        {
+          "episode": 108,
+          "id": 221725,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "codex: 作品背景、媒介及制作方一致，且可见章节的连续集号与具体放送日期逐集吻合，可确认部分对应 TMDB 第1季。仅提交已核实的30集；该季还包含此前系列及后续章节，不能映射整季，也不能按 Bangumi 的第三季别名推定 TMDB 第3季。\n\nhttps://www.themoviedb.org/tv/221725 (api_snapshot): 候选为日本电视动画，剧情围绕怪兽岛上的小哥斯拉及伙伴展开，制作公司 TOHO、Pie in the sky 与 Bangumi 一致。TMDB 将自2023年开始的系列连续编入第1季。\n\nhttps://www.themoviedb.org/tv/221725 (api_snapshot): 第1季第87—107集及第109—117集的集号与 Bangumi sort 一致，放送日期逐集相同，包括第91、92集同为2025年12月24日，以及第107集之后的间隔播出日期。候选标题均为集号占位，不能用于剧情标题核验。\n\n备注：候选第41—86集被截断，无法核对本 subject 第66—86集的标题及日期，暂不映射；需补充这些集的候选数据。；第108话 Bangumi 日期为2025-05-13，TMDB 为2026-05-13；虽疑似年份误记，但缺少实质标题佐证，暂不映射。；候选作品总集数116与季表126不一致，因此未使用汇总集数推断范围；本次仅确认上述部分章节，未确认完整52集的映射。",
+    "evidence": "gpt-6-sol: 作品的播出起点、约3分钟的电视短篇形式、剧情角色和制作人员均吻合。TMDB 将历次播出连续编入第1季，本 subject 从该季第66集开始；已核实的章节对应第66—118集，因此使用季内闭区间。第108话通过标题及独立播出资料确认为同一集，以 override 处理输入中的年份错误。第118话尚未播出，但官方已列标题，输入与 TMDB 的2026年9月30日排期一致。\n\nhttps://www.themoviedb.org/tv/221725 (api_snapshot): 以日文原名及英文别名搜索，TMDB 均指向电视作品 221725；完整标题“ちびゴジラの逆襲 シリーズ最新作”没有独立搜索结果。\n\nhttps://www.themoviedb.org/tv/221725 (api_snapshot): TMDB 作品资料显示本作是始于2023年的日本电视动画，制作公司为东宝和 Pie in the sky，导演为新海岳人；TMDB 仅列第1季。\n\nhttps://www.themoviedb.org/tv/221725/season/1 (api_snapshot): 已读取 TMDB 第1季全部三页集表。第66集始于2025年7月2日；第66—117集与输入章节的播出日期逐集一致，唯第108集年份不同。第118集排期为2026年9月30日；该季还列有第119—126集。\n\nhttps://chibigodzilla.jp/news/%E3%80%8E%E3%81%A1%E3%81%B3%E3%82%B4%E3%82%B8%E3%83%A9%E3%81%AE%E9%80%86%E8%A5%B2%E3%80%8F%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E6%9C%80%E6%96%B0%E4%BD%9C%E6%94%BE%E9%80%81%E6%B1%BA%E5%AE%9A/ (page): 官方公告确认系列最新作于2025年7月2日起在《おはスタ》播出，每集约3分钟。\n\nhttps://chibigodzilla.jp/ (page): 官方站列明电视短篇动画、导演新海岳人、动画制作 Pie in the sky、制作东宝，并列出第118集标题“ビニラ本日オープン”。\n\nhttps://www.videx.jp/itemdetail/pid-537138/setview-2/index.htm (page): 授权配信页将第66—104话作为一组，逐话列出的标题与输入章节对应，包括同日播出的第91、92话。\n\nhttps://cal.syoboi.jp/tid/7534/time (search_snippet): 播出时间资料将第108话“ちびJJの交通安全教室”列于2026年5月13日，与 TMDB 日期一致；输入中的2025年应为年份误记。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=26311104&workId=26311 (search_snippet): 配信平台集目单独列出第108话“ちびJJの交通安全教室”，确认该章节身份。\n\n备注：第118话截至核对时尚未播出；其对应依据为官方集目和一致的预定播出日期。；TMDB 第119—126集虽有排期，输入尚无对应章节，故未纳入范围。TMDB 作品汇总集数与季表集数不一致，范围以已读取的季集表为准。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/561787; https://www.themoviedb.org/tv/221725",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/561787; https://www.themoviedb.org/tv/221725; https://www.themoviedb.org/tv/221725/season/1; https://chibigodzilla.jp/news/%E3%80%8E%E3%81%A1%E3%81%B3%E3%82%B4%E3%82%B8%E3%83%A9%E3%81%AE%E9%80%86%E8%A5%B2%E3%80%8F%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E6%9C%80%E6%96%B0%E4%BD%9C%E6%94%BE%E9%80%81%E6%B1%BA%E5%AE%9A/; https://chibigodzilla.jp/; https://www.videx.jp/itemdetail/pid-537138/setview-2/index.htm; https://cal.syoboi.jp/tid/7534/time; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=26311104&workId=26311",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [
     {
       "bangumiType": 0,
       "end": 107,
-      "episodeStart": 87,
+      "episodeStart": 66,
       "season": 1,
-      "start": 87,
+      "start": 66,
       "tmdbId": 221725
     },
     {
       "bangumiType": 0,
-      "end": 117,
+      "end": 118,
       "episodeStart": 109,
       "season": 1,
       "start": 109,
@@ -291,15 +308,8 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 87,
-      "episodeEnd": 107,
-      "id": 221725,
-      "season": 1,
-      "type": "tv"
-    },
-    {
-      "episode": 109,
-      "episodeEnd": 117,
+      "episode": 66,
+      "episodeEnd": 118,
       "id": 221725,
       "season": 1,
       "type": "tv"

@@ -1,20 +1,111 @@
 {
   "anidbId": 17695,
   "bangumiId": 406736,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1249433,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 1249504,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1249505,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1249506,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1249507,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1249508,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1249509,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1249510,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1249511,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1249512,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1249513,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1249514,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1249515,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1255637,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1412890,
+      "sort": 0,
+      "type": 2
+    },
+    {
+      "id": 1412891,
+      "sort": 0,
+      "type": 3
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、剧情、制作人员及 13 集 TV 动画形式一致。TMDB 第 1 季完整覆盖 Bangumi 的 13 话本篇，逐集标题顺序完全吻合；Bangumi 采用先行播出日期。特番及无字幕片头、片尾未纳入本篇映射。\n\nhttps://www.themoviedb.org/tv/229609 (api_snapshot): TMDB 搜索以日文原名及英文别名均找到 TV 条目 229609。\n\nhttps://www.themoviedb.org/tv/229609 (api_snapshot): TMDB 详情显示该剧为 2023 年作品，共 1 季 13 集；剧情中的贝尔格里夫与安洁琳、导演村田尚樹及もりたけし均与 Bangumi 资料吻合。\n\nhttps://www.themoviedb.org/tv/229609/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整集表，共 13 集、1 页；第 1 至 13 集的日文标题依次与 Bangumi 本篇第 1 至 13 话吻合。\n\nhttps://s-rank-musume.com/ (search_snippet): 动画官网列出共 13 话，并注明 AT-X、ABEMA 自 2023 年 9 月 28 日先行播出，TOKYO MX 自 10 月 5 日播出，解释了平台记录的播出日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/406736; https://www.themoviedb.org/tv/229609; https://www.themoviedb.org/tv/229609/season/1; https://s-rank-musume.com/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 229609
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 229609,
+      "season": 1,
       "type": "tv"
     }
   ]

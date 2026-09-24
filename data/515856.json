@@ -1,19 +1,113 @@
 {
   "bangumiId": 515856,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1655924,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1655925,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1655926,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1655927,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1655928,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1655929,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1655930,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1655931,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1655932,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1655933,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1655934,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1655935,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1670243,
+      "sort": 12.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1670243,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 245842,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品原名、剧情、制作公司及首播日期一致。TMDB 第 2 季完整覆盖 Bangumi 本篇 sort 13—24 的 12 话；逐集放送日期与标题对应，故映射至第 2 季第 1—12 集。4 月 5 日的特别篇对应 TMDB 第 0 季第 1 集，以章节 ID 单独映射。\n\nhttps://www.themoviedb.org/tv/245842 (api_snapshot): TMDB 日文原名搜索返回 TV 作品 245842，原名为《杖と剣のウィストリア》。\n\nhttps://www.themoviedb.org/tv/245842 (api_snapshot): TMDB 作品详情列出第 2 季于 2026 年 4 月 12 日首播，共 12 集；第 0 季有一集于 4 月 5 日播出，制作公司包括 BN Pictures 和 Actas。\n\nhttps://www.themoviedb.org/tv/245842/season/2 (api_snapshot): TMDB 第 2 季集表共 12 集，日期为 4 月 12 日至 6 月 28 日；逐集日期与 Bangumi 一致，标题亦对应，其中第 6、9、12 集的 TMDB 标题含较完整的读音标注。\n\nhttps://www.themoviedb.org/tv/245842/season/0 (api_snapshot): TMDB 第 0 季第 1 集是 2026 年 4 月 5 日播出的第二季纪念特别总集篇。\n\nhttps://wistoria-anime.com/onair/ (page): 动画官网确认第二季从 2026 年 4 月 12 日起每周日播出，并于 4 月 5 日播出特别总集篇。\n\nhttps://wistoria-anime.com/news/543/ (page): 官网明确第二季首集为 4 月 12 日播出的系列第 13 话《境界の日》，与 Bangumi 从 sort 13 开始的编号一致。\n\n备注：Bangumi 的 4 月 5 日特别篇未填写标题；其对应关系依据相同播出日期、官网公布的特别总集篇及 TMDB 第 0 季唯一集作出。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/515856; https://www.themoviedb.org/tv/245842; https://www.themoviedb.org/tv/245842/season/2; https://www.themoviedb.org/tv/245842/season/0; https://wistoria-anime.com/onair/; https://wistoria-anime.com/news/543/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 245842
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 245842,
+      "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 245842,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,14 +1,25 @@
 {
   "anidbId": 17968,
   "bangumiId": 427233,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1233131,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1233438,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本 Bangumi 条目记录的是两话电视特别篇；TBS 确认它曾以同一作品先行合映。TMDB 将该合映版收录为电影 1153706，其上映日期、61 分钟片长、暑假篇剧情和制作人员均吻合。电影条目没有可供两话分别对应的 TMDB 集号，因此逐集规则留空。\n\nhttps://www.themoviedb.org/movie/1153706 (api_snapshot): TMDB 电影 1153706 名为《五等分の花嫁∽》，上映日期为 2023 年 7 月 14 日，片长 61 分钟；暑假篇剧情、SHAFT 制作、宫本幸裕执导及主要声优均与本条目吻合。\n\nhttps://www.tbs.co.jp/anime/5hanayome/tvsp/news/news_20230505_01.html (page): TBS 官方说明《五等分の花嫁∽》是 2023 年夏季播出的电视特别篇，同一作品自 7 月 14 日起在影院限定上映。\n\nhttps://www.tbs.co.jp/tbs-ch/item/a0446/ (page): TBS 节目页确认电视版共两话，依次为《偶然のない夏休み（前編）》和《偶然のない夏休み（後編）》；导演为宫本幸裕。\n\nhttps://www.themoviedb.org/tv/84669 (api_snapshot): TMDB 电视剧 84669 仅列出 2019 年第一季和 2021 年第二季，未将这部 2023 年特别篇列为独立季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/427233; https://www.themoviedb.org/movie/1153706; https://www.tbs.co.jp/anime/5hanayome/tvsp/news/news_20230505_01.html; https://www.tbs.co.jp/tbs-ch/item/a0446/; https://www.themoviedb.org/tv/84669",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,

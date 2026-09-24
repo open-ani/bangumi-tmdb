@@ -1,20 +1,91 @@
 {
   "anidbId": 16785,
   "bangumiId": 350224,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1127774,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1127775,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1127776,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1127777,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1127778,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1127780,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1127781,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1127782,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1127783,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1127784,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1127785,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1130762,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、剧情、制作信息及媒介一致；TMDB 第 1 季恰好收录本 subject 的 12 话，逐集标题与放送日期相符，因此对应第 1 季第 1–12 集。\n\nhttps://www.themoviedb.org/tv/134667 (api_snapshot): TMDB 电视剧 134667 的原名为《転生したら剣でした》，首播于 2022-10-05；剧情涉及转生为剑的师父与黑猫族少女芙兰，制作公司包括 C2C。\n\nhttps://www.themoviedb.org/tv/134667/season/1 (api_snapshot): TMDB 第 1 季完整列出 12 集，集号 1–12 的日期为 2022-10-05 至 2022-12-21；逐集日期和标题均与输入的 Bangumi 章节对应。第 2 季另列为 2026 年作品。\n\nhttps://tenken-anime.com/s1/ (page): 第一季官方网站确认这是电视动画，剧情、原作棚架ユウ、导演石平信司及动画制作 C2C 均与输入资料一致。\n\nhttps://tenken-anime.com/s1/story.html (page): 官方网站的第一季故事页按第 1 至第 12 话列出标题，与 TMDB 第 1 季集表及 Bangumi 章节相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/350224; https://www.themoviedb.org/tv/134667; https://www.themoviedb.org/tv/134667/season/1; https://tenken-anime.com/s1/; https://tenken-anime.com/s1/story.html",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 134667
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 134667,
+      "season": 1,
       "type": "tv"
     }
   ]

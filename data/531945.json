@@ -1,19 +1,90 @@
 {
   "bangumiId": 531945,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1519576,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1519577,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1519578,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1519579,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1519580,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1519581,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1519582,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1519583,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1519584,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1519585,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1519586,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1519587,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi subject 对应 TMDB 283704 的 2025 年电视动画第 1 季。该季恰好包含本作 12 话，逐集标题与播出日期全部一致。旧映射 233750 是同名的 2023 年电视剧，应予替换。\n\nhttps://www.themoviedb.org/tv/283704 (api_snapshot): 以日文原名搜索，TMDB 同时返回 2025 年动画 283704 和 2023 年电视剧 233750；旧映射指向后者。\n\nhttps://www.themoviedb.org/tv/283704 (api_snapshot): 283704 的详情记载首播日期为 2025 年 7 月 5 日、共 12 集，导演市川量也，制作公司包括 domerica，与待核对动画一致。\n\nhttps://www.themoviedb.org/tv/283704/season/1 (api_snapshot): 283704 第 1 季季表共 12 集；每集的集号、日文标题和播出日期均与 Bangumi 本篇第 1 至 12 话逐一吻合。\n\nhttps://www.fermat-anime.com/ (page): 动画官网确认 2025 年 7 月 5 日起在朝日电视台播出，并列出市川量也、domerica 等制作资料；官网亦明确提及 2023 年曾改编为电视剧。\n\nhttps://www.fermat-anime.com/story/ (page): 动画官网剧情页列出第 1 至 12 话，最终话标题为《フェルマーの料理》。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/531945; https://www.themoviedb.org/tv/283704; https://www.themoviedb.org/tv/283704/season/1; https://www.fermat-anime.com/; https://www.fermat-anime.com/story/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 283704
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 233750,
+      "id": 283704,
+      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,21 +1,161 @@
 {
   "anidbId": 3321,
   "bangumiId": 2300,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 13468,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 13469,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13470,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 13471,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 13472,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 13473,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 13474,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 13475,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 13476,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 13477,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 13478,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 13479,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 13480,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 13481,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 13482,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 13483,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 13484,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 13485,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 13486,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 13487,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 13488,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 13489,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 13490,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 258269,
+      "sort": 15.5,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 258269,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34065,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB 34065 的日文原名、首播年份、人物、剧情及逐集标题均对应2005年GONZO版《BLACK CAT》。TMDB第1季采用TBS的23话播出编号；Bangumi 2300 还把未在TBS播出的《遠ざかる猫》作为插入正篇收录。该话在TMDB被编为S0E1，因此主体范围应合并S1E1–E23和S0E1。S0E2–E6并非本subject列出的正篇，不纳入映射。\n\nhttps://www.themoviedb.org/tv/34065 (api_snapshot): TMDB API快照显示TV 34065名为《BLACK CAT》，原名《ブラックキャット》，2005-10-07首播；简介中的托雷、史温、伊芙、克利得、克罗诺斯及“星之使徒”等人物和情节与Bangumi作品一致，并记载第1季共23集。\n\nhttps://www.themoviedb.org/tv/34065/season/1 (api_snapshot): TMDB API快照列出第1季E1《孤独な猫》至E23《気ままな猫》，标题、播出时间和剧情与该动画的23话TBS播出版逐集对应。\n\nhttps://www.themoviedb.org/tv/34065/season/0 (api_snapshot): TMDB API快照显示S0E1为24分钟的《遠ざかる猫》，日期为2006-07-26，与Bangumi正篇列表中sort=15.5的同名一话吻合；其余S0E2–E6不在Bangumi正篇集目中。\n\nhttps://www.tbs.co.jp/anime/blackcat/03story.html (page): TBS官方故事页列出23话电视播出版本，从《孤独な猫》到《気ままな猫》，其中《竜を狩る猫》是播出版第15话，证明TMDB第1季采用这一23话编号。\n\nhttps://www.tbs.co.jp/anime/blackcat/05goods-dvd.html (page): TBS官方DVD页显示Vol.8于2006-07-26发行，收录第15话《遠ざかる猫》和第16话《竜を狩る猫》，并注明后者在TBS播出时为第15话；后续DVD集号也依次加一，证明《遠ざかる猫》是插入系列正篇编号的完整一话。",
+    "evidence": "gpt-6-sol: 作品年份、剧情、制作公司和导演吻合。TBS 播出的 23 话与 TMDB 第 1 季逐集标题、顺序相符；Bangumi 另收录的《遠ざかる猫》对应 TMDB S0E1。Bangumi 将该话标为 sort 15.5，位置与官方 DVD 的第 15 话编号不同，因此单独指定覆盖关系。TMDB 播出日期比 TBS 官方日期晚一天，但集目一致。\n\nhttps://www.themoviedb.org/tv/34065 (api_snapshot): TMDB TV 34065 的原名为《ブラックキャット》，首播于 2005 年，制作公司为 GONZO，导演为板垣伸；剧情人物包括托雷、史温、伊芙和克利得，与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/34065/season/1 (api_snapshot): TMDB 第 1 季共 23 集，E1《孤独な猫》至 E23《気ままな猫》的集号和标题逐集对应 Bangumi sort 1 至 23。\n\nhttps://www.themoviedb.org/tv/34065/season/0 (api_snapshot): TMDB 特别篇 S0E1 是 24 分钟的《遠ざかる猫》，日期为 2006-07-26；S0E2 至 E6 是其他条目。\n\nhttps://www.tbs.co.jp/anime/blackcat/03story.html (page): TBS 官方集目列出 2005-10-06 至 2006-03-30 播出的 23 话，标题和集号与 TMDB 第 1 季一致。\n\nhttps://www.tbs.co.jp/anime/blackcat/05goods-dvd.html (page): TBS 官方 DVD 页确认《遠ざかる猫》于 2006-07-26 发售的第 8 卷中作为完整第 15 话收录；同卷《竜を狩る猫》为 DVD 第 16 话、TBS 播出第 15 话。",
     "method": "codex",
     "source": "https://bgm.tv/subject/2300; https://www.themoviedb.org/tv/34065; https://www.themoviedb.org/tv/34065/season/1; https://www.themoviedb.org/tv/34065/season/0; https://www.tbs.co.jp/anime/blackcat/03story.html; https://www.tbs.co.jp/anime/blackcat/05goods-dvd.html",
-    "verifiedAt": null
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34065
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 23,
       "id": 34065,
       "season": 1,
       "type": "tv"

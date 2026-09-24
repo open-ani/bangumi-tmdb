@@ -1,20 +1,93 @@
 {
   "anidbId": 17633,
   "bangumiId": 402136,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182990,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1182991,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1182992,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1182993,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1182994,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1182995,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1182996,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1182997,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1182998,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1182999,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1183000,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1183001,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 2023 年播出的《東京ミュウミュウ にゅ～♡》第二期。TMDB 将两期合并编为第 1 季，因此本 subject 覆盖该季第 13–24 集；12 集的编号、标题和每周播出日期均吻合。\n\nhttps://www.themoviedb.org/tv/118017 (api_snapshot): 用日文原名及英文别名搜索，均找到 TMDB 剧集 118017《東京ミュウミュウ にゅ～♡》；另有 2002 年旧版条目 46345。\n\nhttps://www.themoviedb.org/tv/118017 (api_snapshot): TMDB 详情确认该作品始于 2022 年，制作公司包括 Yumeta Company 和 Graphinica；TMDB 只设第 1 季，共 24 集。\n\nhttps://www.themoviedb.org/tv/118017/season/1 (api_snapshot): TMDB 第 1 季集表中，第 13–24 集连续于 2023 年 4 月 5 日至 6 月 21 日播出，标题与 Bangumi 本条逐集对应。\n\nhttps://tokyo-mew-mew.com/story.html (page): 动画官网将第二期列为第 13–24 话，标题顺序与 TMDB 集表及 Bangumi 章节一致；官网也给出 Bangumi 缺失的第 23 话标题。\n\nhttps://tokyo-mew-mew.com/news/article_085.html (page): 官网确认第二期从 2023 年 4 月 4 日起每周二 24:00 播出，解释了 Bangumi 与 TMDB 播出日期相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/402136; https://www.themoviedb.org/tv/118017; https://www.themoviedb.org/tv/118017/season/1; https://tokyo-mew-mew.com/story.html; https://tokyo-mew-mew.com/news/article_085.html",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 118017
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 13,
+      "episodeEnd": 24,
       "id": 118017,
+      "season": 1,
       "type": "tv"
     }
   ]

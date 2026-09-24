@@ -1,21 +1,37 @@
 {
   "anidbId": 19076,
   "bangumiId": 523821,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1456490,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1456490,
+      "targets": [
+        {
+          "id": 1412811,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 条目是 2025 年上映的单部剧场电影。TMDB 电影 1412811 的标题、上映日期、制作公司和导演均与电影官网及 Bangumi 资料吻合；旧映射指向的是较早的电视剧。\n\nhttps://www.themoviedb.org/movie/1412811 (api_snapshot): TMDB 电影 1412811 的日本别名与 Bangumi 标题一致，上映日期为 2025-02-21；制作公司包括 EVIL LINE RECORDS 和 Polygon Pictures，导演为辻本贵则。\n\nhttps://hypnosismic-movie.com/news/information/16/ (page): 电影官网确认本作于 2025 年 2 月 21 日上映，是由观众投票决定剧情走向的剧场电影；导演、原作及动画制作资料也吻合。\n\nhttps://www.themoviedb.org/tv/96139 (api_snapshot): 旧映射 TV 96139 是 2020 年首播的《Rhyme Anima》电视剧，共两季，属于关联作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/523821; https://www.themoviedb.org/movie/1412811; https://hypnosismic-movie.com/news/information/16/; https://www.themoviedb.org/tv/96139",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 96139,
-      "type": "tv"
+      "id": 1412811,
+      "type": "movie"
     }
   ]
 }

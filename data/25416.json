@@ -1,21 +1,47 @@
 {
   "anidbId": 487,
   "bangumiId": 25416,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 127784,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 127785,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 127786,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 1996 年 12 月 21 日开始、共 3 话的 OVA，标题别名包含 Galaxy Fraulein Yuna: The Abyssal Fairy 与 Galaxy Fraulein Yuna Returns: Dawn of the Dark Sisters，导演为新房昭之。TheTVDB 的同名作品页面将其作为电影收录，发行日为 1996-12-21、片长 93 分钟，并且其 TMDB 外部链接明确指向 movie/411059。Letterboxd 也以相同日文标题、导演、编剧和 93 分钟电影形式记录该版本。因此应采用 TMDB 电影 411059；候选 TV 44272 的请求失败不能作为不存在依据，但其 TV 类型与该作品在 TMDB 的电影聚合形式不符。\n\nhttps://bgm.tv/subject/25416 (page): Bangumi 条目标记为 OVA，共 3 话；别名包含 Galaxy Fraulein Yuna: The Abyssal Fairy、Galaxy Fraulein Yuna Returns: Dawn of the Dark Sisters；发售日为 1996-12-21，导演为新房昭之。\n\nhttps://thetvdb.com/movies/galaxy-fraulein-yuna-returns-dawn-of-the-dark-sisters (page): 同名作品作为电影收录，发行日为 1996-12-21、片长 93 分钟，导演为 Akiyuki Shinbo；页面的 TMDB 外部链接指向 https://www.themoviedb.org/movie/411059。\n\nhttps://letterboxd.com/film/galaxy-fraulein-yuna-returns-dawn-of-the-dark-sisters/ (search_snippet): 记录日文标题 銀河お嬢様伝説ユナ 深闇のフェアリィ、导演 Akiyuki Shinbo、编剧 Sumio Uetake、1996 年 12 月 21 日发行及 93 分钟片长。\n\nhttps://en.wikipedia.org/wiki/Galaxy_Fr%C3%A4ulein_Yuna (search_snippet): 将 Galaxy Fräulein Yuna: The Abyssal Fairy / Galaxy Fraulein Yuna Returns 记为 1996-1997 年、由 Akiyuki Shinbo 导演的 3 集 OVA。\n\nhttps://www.themoviedb.org/tv/44272 (api_snapshot): 输入提供的 TMDB API 快照显示候选 TV 44272 请求返回 HTTP 404；这仅说明该请求失败，不能单独证明该作品不存在。",
+    "evidence": "gpt-6-sol: 采用 TMDB 44271 第 2 季：季名、三话范围、剧情、导演及首末发行日期均对应本 Bangumi 条目；第 1 季是另一个 OVA。Bangumi 的 01–03 与季表的 Vol.1–Vol.3 顺序和总数一致，因此建立逐集规则。旧映射电影 411059 也收录同一作品，但第 2 季提供了可核实的逐集条目。\n\nhttps://bangumi.tv/subject/25416 (page): Bangumi 将本条目标为 1996 年 12 月 21 日开始、共 3 话的《深闇のフェアリィ》OVA，导演为新房昭之，章节为 01 至 03。\n\nhttps://ssl.jcstaff.co.jp/sakuhin/nenpyo/1996/11_yuna02/yuna02.htm (page): J.C.STAFF 官方资料确认《深闇のフェアリイ》是全 3 话 OVA，列出三次发行日期，并记载导演新房昭之及圣诞演唱会遭袭的剧情。\n\nhttps://www.themoviedb.org/tv/44271 (api_snapshot): TMDB TV 44271 将《哀しみのセイレーン》列为第 1 季，将《深闇のフェアリィ》列为第 2 季；第 2 季共 3 集，制作公司与导演信息相符。\n\nhttps://www.themoviedb.org/tv/44271/season/2 (api_snapshot): TMDB 第 2 季集表仅有 Vol.1、Vol.2、Vol.3 三集，集号依次为 1、2、3；首集和末集日期与官方资料一致。\n\nhttps://www.themoviedb.org/movie/411059 (api_snapshot): TMDB 电影 411059 也以相同日文标题、1996 年 12 月 21 日日期和新房昭之导演信息收录该作品，片长 93 分钟；它是同一 OVA 的电影式收录。\n\n备注：第 2 话日期有一天差异：J.C.STAFF 官方资料记为 1997 年 1 月 22 日，TMDB 季表记为 1 月 21 日；卷号、顺序和三话范围仍一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/25416; https://thetvdb.com/movies/galaxy-fraulein-yuna-returns-dawn-of-the-dark-sisters; https://letterboxd.com/film/galaxy-fraulein-yuna-returns-dawn-of-the-dark-sisters/; https://en.wikipedia.org/wiki/Galaxy_Fr%C3%A4ulein_Yuna; https://www.themoviedb.org/tv/44272",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/25416; https://bangumi.tv/subject/25416; https://ssl.jcstaff.co.jp/sakuhin/nenpyo/1996/11_yuna02/yuna02.htm; https://www.themoviedb.org/tv/44271; https://www.themoviedb.org/tv/44271/season/2; https://www.themoviedb.org/movie/411059",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 44271
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 411059,
-      "type": "movie"
+      "id": 44271,
+      "season": 2,
+      "type": "tv"
     }
   ]
 }

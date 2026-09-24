@@ -1,16 +1,111 @@
 {
   "anidbId": 467,
   "bangumiId": 21104,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 113695,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 113696,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 113697,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 113698,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 113699,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 113700,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 113701,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 113702,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 113703,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 113704,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 113705,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 113706,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 113707,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 113698,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 42787,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 21104 是2003年的日本动画《L/R -Licensed by Royal-》，共收录13个制作话，其中第4话《砂漠の祭典／Sweet enemies in the same desert》未在首轮电视播出。TMDB 42787 的标题、年份、动画媒介、角色设定和剧情均与之相符，但按首播结构将12个已播出话收在第1季，并把未播出的制作话数#004单列为 S00E01。因此本 subject 应映射为 TMDB 42787 第1季全季加 S00E01：Bangumi 第1–3话对应 S01E01–E03，第4话对应 S00E01，第5–13话对应 S01E04–E12。这不是另一部作品或额外衍生特典，而是同一部13话作品中被首播跳过的一话。\n\nhttps://bgm.tv/subject/21104 (page): Bangumi 页面确认主体为动画《L/R -Licensed by Royal-》（中文名《王室近卫队》），2003年1月开播，共13话，由TNK制作；其章节列表包含01至13话。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/l-r/dvd2.html (page): 作品官方影碟页面明确把《砂漠の祭典／Sweet enemies in the same desert》标为“TV未放映エピソード”和“制作话数 #004”；同页发行表从#001列至#013，证明它属于这部作品的13个制作话，而非独立续作。\n\nhttps://www.themoviedb.org/tv/42787 (api_snapshot): TMDB API 快照显示 TV 42787 的原名为《L/R -Licensed by Royal-》，首播于2003年，日语日本作品；剧情为获王室许可的私设特工L/R执行任务，与Bangumi主体身份和内容一致。该记录共列12个正季集和1个特别篇。\n\nhttps://www.themoviedb.org/tv/42787/season/1 (api_snapshot): TMDB API 快照确认第1季共有12集：前三集依次为《人魚の足》《蜜の味》《少女、都へ行く》，S01E04起为《慟哭の銃弾》，末两集为《十五年の残像》和《群像》；这正是跳过制作话数#004后的12话电视首播序列。\n\nhttps://www.themoviedb.org/tv/42787/season/0 (api_snapshot): TMDB API 快照确认第0季仅有S00E01《砂漠の祭典／Sweet enemies in the same desert》，日期为2003-04-25；标题和古代遗迹中守护王室财宝的剧情均与Bangumi第4话及官方未播出话资料相同。",
+    "evidence": "gpt-6-sol: 作品年份、电视动画媒介、TNK制作信息、角色与剧情一致。第1季12集的标题顺序与Bangumi除第4话外的章节逐集吻合；官方确认第4话《砂漠の祭典》是未在电视播出的制作第004话，TMDB 将其收于第0季第1集。因此映射第1季全季，并将Bangumi第4话单独对应特别篇。\n\nhttps://bgm.tv/subject/21104 (page): Bangumi 将本作列为2003年开播、TNK制作的13话电视动画。\n\nhttps://bgm.tv/subject/21104/ep (page): Bangumi 章节表将《砂漠の祭典》列为未放送的第4话，其余12话的标题与顺序可供逐集比对。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/l-r/dvd2.html (page): 官方影碟页明确称《砂漠の祭典》为电视未放映的制作第004话，并将它与制作第005话收录在同一卷。\n\nhttps://www.themoviedb.org/tv/42787 (api_snapshot): TMDB 42787 是2003年首播的日语电视作品，剧情、角色及TNK制作信息与Bangumi主体一致；条目列出第1季12集和第0季1集。\n\nhttps://www.themoviedb.org/tv/42787/season/1 (api_snapshot): TMDB 第1季完整12集的标题逐集对应Bangumi第1至3话及第5至13话，日期覆盖2003年1月至3月。\n\nhttps://www.themoviedb.org/tv/42787/season/0 (api_snapshot): TMDB 第0季仅有第1集《砂漠の祭典／Sweet enemies in the same desert》，与Bangumi第4话及官方未放映制作话相符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/21104; https://www.nbcuni.co.jp/rondorobe/anime/l-r/dvd2.html; https://www.themoviedb.org/tv/42787; https://www.themoviedb.org/tv/42787/season/1; https://www.themoviedb.org/tv/42787/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/21104; https://bgm.tv/subject/21104/ep; https://www.nbcuni.co.jp/rondorobe/anime/l-r/dvd2.html; https://www.themoviedb.org/tv/42787; https://www.themoviedb.org/tv/42787/season/1; https://www.themoviedb.org/tv/42787/season/0",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42787
+    },
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 42787
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

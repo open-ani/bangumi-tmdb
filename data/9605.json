@@ -1,16 +1,169 @@
 {
   "anidbId": 4153,
   "bangumiId": 9605,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 54869,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 54870,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 54871,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 54872,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 54873,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 54874,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 54875,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 54876,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 54877,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 54878,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 54879,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 54880,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 54881,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 54882,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 54883,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 54884,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 54885,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 54886,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 54887,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 54888,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 54889,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 54890,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 54891,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 54892,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 54891,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 912,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 54892,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 912,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是2006年电视动画第二期《ああっ女神さまっ それぞれの翼》，共24话，其中第1–22话电视播出，第23–24话为同作的TV未放送DVD话。TMDB 912正是2005年开始的《ああっ女神さまっ》系列；其第2季名为《ああっ女神さまっ それぞれの翼》，完整收录与官方及Bangumi逐话标题一致的第1–22话。TMDB把本作第23话「ああっそれぞれの運命っ」和第24话「ああっ好きは心を揺さぶる歌っ」移至特别篇季的第4–5集，因此主体需映射为完整第2季以及S0E4–E5。S0E6–E7是后续《闘う翼》，不属于本subject。\n\nhttps://www.themoviedb.org/tv/912 (api_snapshot): TMDB API快照显示TV 912原名为「ああっ女神さまっ」，首播于2005年；其第2季名为「ああっ女神さまっ それぞれの翼」，首播日期为2006年4月6日，共22集。\n\nhttps://www.themoviedb.org/tv/912/season/2 (api_snapshot): TMDB API快照中第2季22集的标题和日期逐项对应本subject第1–22话：从「ああっ願いよ もう一度っ」（2006-04-06）至「ああっ女神の告白っ」（2006-09-14）。\n\nhttps://www.themoviedb.org/tv/912/season/0 (api_snapshot): TMDB API快照将「ああっそれぞれの運命っ」与「ああっ好きは心を揺さぶる歌っ」列为S0E4和S0E5，标题分别对应本subject第23、24话；相邻S0E6–E7则是另作《闘う翼》的两话。\n\nhttps://www.tbs.co.jp/megamisama/megami2/03story/story.html (page): TBS官方故事页列出《それぞれの翼》第1–22话，标题及2006年4月6日至9月14日的播出日期均与TMDB第2季相符。\n\nhttps://www.tbs.co.jp/megamisama/megami2/iline.html (page): TBS官方更新记录明确将第23、24话称为“TV未放送话数”，并说明收录于DVD第8卷，证明它们仍是《それぞれの翼》的第23–24话，而非后续《闘う翼》。",
+    "evidence": "gpt-6-sol: 作品年份、第二季名称、导演、剧情及电视播出集表一致。第1—22话对应 TMDB 第2季全季；TBS 确认第23、24话属于本作的电视未播出话，其标题分别对应 TMDB S0E4、S0E5。Bangumi 为这两话填写的2006年12月29日是 TBS 公布标题的日期；TMDB 的2007年2月23日与官方 DVD 第8卷发行日一致。\n\nhttps://www.themoviedb.org/tv/912 (api_snapshot): TMDB 912 是2005年开播的《ああっ女神さまっ》电视系列，合田浩章任导演；第2季名为《それぞれの翼》，始于2006年4月6日。\n\nhttps://www.themoviedb.org/tv/912/season/2 (api_snapshot): TMDB 第2季共22集，逐集标题与播出日期对应 Bangumi 第1—22话。\n\nhttps://www.themoviedb.org/tv/912/season/0 (api_snapshot): TMDB 特别篇季第4、5集的标题分别对应 Bangumi 第23、24话；第6、7集是后续作品《闘う翼》。\n\nhttps://www.tbs.co.jp/megamisama/megami2/03story/story.html (page): TBS 官方故事页逐项列出《それぞれの翼》第1—22话，标题及电视播出日期与 TMDB 第2季一致。\n\nhttps://www.tbs.co.jp/megamisama/megami2/07special/special.html (page): TBS 官方明确将同名第23、24话列为电视未播出话。\n\nhttps://www.tbs.co.jp/megamisama/megami2/04goods/dvd.html (page): TBS 官方列出《それぞれの翼》DVD 第8卷于2007年2月23日发行，与 TMDB 第23、24话所对应条目的日期一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/9605; https://www.themoviedb.org/tv/912; https://www.themoviedb.org/tv/912/season/2; https://www.themoviedb.org/tv/912/season/0; https://www.tbs.co.jp/megamisama/megami2/03story/story.html; https://www.tbs.co.jp/megamisama/megami2/iline.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/9605; https://www.themoviedb.org/tv/912; https://www.themoviedb.org/tv/912/season/2; https://www.themoviedb.org/tv/912/season/0; https://www.tbs.co.jp/megamisama/megami2/03story/story.html; https://www.tbs.co.jp/megamisama/megami2/07special/special.html; https://www.tbs.co.jp/megamisama/megami2/04goods/dvd.html",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 912
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

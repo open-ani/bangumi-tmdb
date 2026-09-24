@@ -1,20 +1,36 @@
 {
   "bangumiId": 461968,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1262190,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1262190,
+      "targets": [
+        {
+          "id": 1193306,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 收录的是 2007 年 8 月 3 日播出的单个联动动画片段。TMDB 1193306 对应同日播出的独立片段；936400 对应包含其他内容的完整 60 分钟特别节目，旧映射 259906 则是电王真人剧集。因此将唯一章节对应至 1193306。\n\nhttps://bgm.tv/subject/461968 (page): Bangumi 将本条目列为 2007 年 8 月 3 日播出的单话动画，内容是《假面骑士电王》与《蜡笔小新》的联动。\n\nhttps://www.themoviedb.org/movie/1193306 (api_snapshot): TMDB 电影 1193306 标为 2007 年 8 月 3 日的电王与新王联动作品，演员包含佐藤健、矢岛晶子等。\n\nhttps://letterboxd.com/film/vs-2007/ (page): 该条目的独立片段版本标为 16 分钟，2007 年 8 月 3 日在日本电视播出。\n\nhttps://www.themoviedb.org/movie/936400 (api_snapshot): TMDB 电影 936400 标为 60 分钟特别节目，范围大于 Bangumi 所列的单个动画片段。\n\nhttps://w.atwiki.jp/10932tb/pages/525.html (page): 放送资料明确指出，60 分钟特别节目包含《仮面ライダー電王＋しん王》及另外三部动画。\n\nhttps://www.themoviedb.org/tv/259906 (api_snapshot): 旧映射的 TMDB 剧集 259906 是 49 集真人特摄《假面骑士电王》，并非这部《蜡笔小新》联动动画。\n\n备注：TMDB 1193306 的时长字段为 0；16 分钟时长依据其关联的 Letterboxd 页面。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/461968; https://www.themoviedb.org/movie/1193306; https://letterboxd.com/film/vs-2007/; https://www.themoviedb.org/movie/936400; https://w.atwiki.jp/10932tb/pages/525.html; https://www.themoviedb.org/tv/259906",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 259906,
-      "type": "tv"
+      "id": 1193306,
+      "type": "movie"
     }
   ]
 }

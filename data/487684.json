@@ -1,20 +1,158 @@
 {
   "anidbId": 18578,
   "bangumiId": 487684,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1322676,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 1322677,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 1322678,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 1322679,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 1322680,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 1322681,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 1322682,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 1322683,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 1322684,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 1322685,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 1322686,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 1322687,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 1322688,
+      "sort": 38,
+      "type": 0
+    },
+    {
+      "id": 1322689,
+      "sort": 39,
+      "type": 0
+    },
+    {
+      "id": 1322690,
+      "sort": 40,
+      "type": 0
+    },
+    {
+      "id": 1322691,
+      "sort": 41,
+      "type": 0
+    },
+    {
+      "id": 1322692,
+      "sort": 42,
+      "type": 0
+    },
+    {
+      "id": 1322693,
+      "sort": 43,
+      "type": 0
+    },
+    {
+      "id": 1322694,
+      "sort": 44,
+      "type": 0
+    },
+    {
+      "id": 1322695,
+      "sort": 45,
+      "type": 0
+    },
+    {
+      "id": 1322696,
+      "sort": 46,
+      "type": 0
+    },
+    {
+      "id": 1322697,
+      "sort": 47,
+      "type": 0
+    },
+    {
+      "id": 1322698,
+      "sort": 48,
+      "type": 0
+    },
+    {
+      "id": 1322699,
+      "sort": 49,
+      "type": 0
+    },
+    {
+      "id": 1411121,
+      "sort": 50,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 该作品是《香格里拉边境》2024 年播出的第二季。官方收录范围和 TMDB 第 1 季集表均为第 26–50 话；这 25 话与所给 Bangumi 章节的标题、日期和顺序逐集一致，因此映射到 TMDB 205050 第 1 季的部分区间，而非整季。\n\nhttps://www.themoviedb.org/tv/205050 (api_snapshot): TMDB 电视作品 205050 的原名、剧情、原作硬梨菜、导演窪岡俊之及制作公司与所给 Bangumi 资料一致；TMDB 将播出内容编为第 1 季。\n\nhttps://www.themoviedb.org/tv/205050/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整集表：第 26–50 集共 25 集，其标题和播出日期逐集对应 Bangumi sort 26–50；第 51 集标为 2027 年播出，不属于本条目。\n\nhttps://anime.shangrilafrontier.com/topics/1900/ (page): 动画官网确认 2nd Season 于 2024 年 10 月 13 日开始播出。\n\nhttps://anime.shangrilafrontier.com/topics/2009/ (search_snippet): 动画官网公布的 2nd Season 影碟收录范围为第 26–37 话及第 38–50 话。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/487684; https://www.themoviedb.org/tv/205050; https://www.themoviedb.org/tv/205050/season/1; https://anime.shangrilafrontier.com/topics/1900/; https://anime.shangrilafrontier.com/topics/2009/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 50,
+      "episodeStart": 26,
+      "season": 1,
+      "start": 26,
+      "tmdbId": 205050
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 26,
+      "episodeEnd": 50,
       "id": 205050,
+      "season": 1,
       "type": "tv"
     }
   ]

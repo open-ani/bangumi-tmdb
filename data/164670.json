@@ -1,0 +1,56 @@
+{
+  "bangumiId": 164670,
+  "episodes": [
+    {
+      "id": 600484,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 600485,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 600486,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 600487,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 600488,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi标注为1989年发行的5卷OVA，简介逐卷列出两则故事。候选第1季恰有5集，各集标题与对应卷的故事逐一吻合；首集日期也与Bangumi发行起始日一致，因此映射第1季第1至5集。\n\nhttps://www.themoviedb.org/tv/282710 (api_snapshot): 候选作品为1989年4月1日首播的日本动画，共5集；第1季5集的标题分别对应Bangumi简介中的第一卷至第五卷，每集均包含相应的两则故事。第5集的两则故事在标题中顺序相反，但内容一致。\n\n备注：Bangumi各章节未填写标题及放送日期；逐集对应依据为简介中的卷次与故事标题。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/164670; https://www.themoviedb.org/tv/282710",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 282710
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 282710,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

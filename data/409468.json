@@ -1,19 +1,95 @@
 {
   "bangumiId": 409468,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1655960,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1655961,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1655962,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1655963,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1655964,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1655965,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1655966,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1655967,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1655968,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1655969,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1655970,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1655971,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1670733,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 应对应2026年动画 TMDB 305567 第1季。作品剧情、制作信息和13集范围一致，13个集标题逐一吻合。Bangumi 记播出当日，TMDB 记深夜24时后的次日。旧映射97418属于2019年真人剧，应替换。\n\nhttps://www.themoviedb.org/tv/305567 (api_snapshot): TMDB 305567 是 2026 年首播的13集动画；剧情、导演铃木利正及制作公司 SIGNAL.MD、Production I.G 均与本条目吻合。\n\nhttps://www.themoviedb.org/tv/305567/season/1 (api_snapshot): TMDB 305567 第1季共13集；第1至13集标题逐一与 Bangumi 对应，播出日期均晚一天。\n\nhttps://www.themoviedb.org/tv/97418 (api_snapshot): 旧映射 TMDB 97418 是2019年首播、共10集的真人剧，演员与制作公司均不同。\n\nhttps://eren-anime.com/ (page): 动画官网确认2026年4月7日起每周二深夜24时播出，导演及制作公司相符；蓝光收录第1至13话。深夜24时的标法解释了 TMDB 日期晚一天。\n\nhttps://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202606/29047_202606302400.html (page): 东京电视台将同名第13话标为2026年6月30日24时播出，与 Bangumi 末集日期及 TMDB 的7月1日一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/409468; https://www.themoviedb.org/tv/305567; https://www.themoviedb.org/tv/305567/season/1; https://www.themoviedb.org/tv/97418; https://eren-anime.com/; https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202606/29047_202606302400.html",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 305567
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 97418,
+      "id": 305567,
+      "season": 1,
       "type": "tv"
     }
   ]

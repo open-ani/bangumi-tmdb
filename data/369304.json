@@ -1,21 +1,209 @@
 {
   "anidbId": 17196,
   "bangumiId": 369304,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1129092,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1227512,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1227513,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 1227514,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 1227515,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 1227516,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 1227517,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 1227518,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 1227519,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 1227520,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 1227521,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 1227522,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 1227523,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 1227683,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1228215,
+      "sort": 29.1,
+      "type": 1
+    },
+    {
+      "id": 1228216,
+      "sort": 29.2,
+      "type": 1
+    },
+    {
+      "id": 1229682,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 1229683,
+      "sort": 38,
+      "type": 0
+    },
+    {
+      "id": 1229684,
+      "sort": 39,
+      "type": 0
+    },
+    {
+      "id": 1229685,
+      "sort": 40,
+      "type": 0
+    },
+    {
+      "id": 1229686,
+      "sort": 41,
+      "type": 0
+    },
+    {
+      "id": 1229687,
+      "sort": 42,
+      "type": 0
+    },
+    {
+      "id": 1229688,
+      "sort": 43,
+      "type": 0
+    },
+    {
+      "id": 1229689,
+      "sort": 44,
+      "type": 0
+    },
+    {
+      "id": 1229690,
+      "sort": 45,
+      "type": 0
+    },
+    {
+      "id": 1229691,
+      "sort": 46,
+      "type": 0
+    },
+    {
+      "id": 1229692,
+      "sort": 47,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1227683,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 95479,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1228215,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 95479,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1228216,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 95479,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目 280703 明确是动画《呪術廻戦 懐玉・玉折》，其第 2 季于 2023-07-06 首播，共 23 集，覆盖本 subject 的第 25—47 话，即“懐玉・玉折／渋谷事変”完整正篇。TMDB 95479 则是主系列《Jujutsu Kaisen (2020)》，其 TMDB 第 1 季已包含 47 集；没有可靠证据表明 TMDB 存在可用于本 subject 的第 2 季，因此 AnimeLists 的 95479/season 2 不适合作为 TMDB 定位。AniDB ID 17196 与 2023 年第二季及本 Bangumi subject 的身份一致，未发现关联本身错误。\n\nhttps://www.themoviedb.org/tv/280703-2-2023 (search_snippet): TMDB 页面将 280703 标为《呪術廻戦 懐玉・玉折》，显示 Season 2、2023 年 23 集，首播日期为 2023-07-06，末集为第 23 集。\n\nhttps://www.themoviedb.org/tv/95479/season/1?language=fr (search_snippet): TMDB 页面显示 95479《Jujutsu Kaisen (2020)》的第 1 季共有 47 集。\n\nhttps://jujutsukaisen.jp/episodes/index_2nd.php (page): 官方动画网站列出第二季正篇为日本总话数第 25 话至第 47 话，末集为“渋谷事変 閉門”。\n\nhttps://www.wikidata.org/wiki/Q125242522 (search_snippet): 该条目将 AniDB anime ID 17196 对应到《Jujutsu Kaisen, season 2》，并记录播出时间为 2023-07-06 至 2023-12-28。",
+    "evidence": "gpt-6-sol: 官方第二期的两段剧情、23 话范围与 TMDB 95479 第 1 季第 25—47 集逐集吻合。TMDB 把多期正篇合编在第 1 季，因此本 subject 只对应其中的第 25—47 集；三个可确认的特别篇对应第 0 季第 2—4 集。旧映射 280703 已无法通过 TMDB 详情查询。\n\nhttps://bgm.tv/subject/369304/ep (page): Bangumi 条目为 2023 年开播、共 23 话的 TV 动画；章节页列出正篇第 25—47 话及四个 SP。\n\nhttps://jujutsukaisen.jp/news/20220925_01.php (page): 动画官网确认第二期连续播出「懐玉・玉折」与「渋谷事変」。\n\nhttps://jujutsukaisen.jp/episodes/index_2nd.php (page): 动画官网的第二期目录逐话列出第 25 话「懐玉」至第 47 话「渋谷事変 閉門」。\n\nhttps://www.themoviedb.org/tv/95479 (api_snapshot): TMDB 95479 是 MAPPA 制作的《呪術廻戦》主系列；其季列表将正篇编入第 1 季。\n\nhttps://www.themoviedb.org/tv/95479/season/1 (api_snapshot): TMDB 95479 第 1 季的第 25—47 集共 23 集，集号与 Bangumi 正篇相同，逐集标题一致，播出日期相同或相差一天；该季还包含其他年份的集数，因此应取闭区间。\n\nhttps://www.themoviedb.org/tv/95479/season/0 (api_snapshot): TMDB 95479 第 0 季第 2—4 集依次为播出前特别节目、「閑話前編」和「閑話後編」；第 1 集是 2021 年节目，与 Bangumi 的 2022 年 SP1 不符。\n\nhttps://jujutsukaisen.jp/news/20230627_01.php (page): 官网确认「劇場版＆第2期放送直前スペシャル！」于 2023 年 6 月 30 日深夜播出，与 Bangumi SP2 的标题和日期吻合。\n\nhttps://www.themoviedb.org/tv/280703 (api_snapshot): 旧映射使用的 TMDB TV ID 280703 在本次详情查询中返回 404。\n\n备注：Bangumi 的 2022 年 SP1「じゅじゅTV」在已读取的 TMDB 第 0 季集表中没有对应条目，故留空。；Bangumi 与 TMDB 的部分首播日期相差一天，符合日本深夜播出日期记录方式的差异；这些集的标题和顺序均吻合。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/369304; https://www.themoviedb.org/tv/280703-2-2023; https://www.themoviedb.org/tv/95479/season/1?language=fr; https://jujutsukaisen.jp/episodes/index_2nd.php; https://www.wikidata.org/wiki/Q125242522",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/369304; https://bgm.tv/subject/369304/ep; https://jujutsukaisen.jp/news/20220925_01.php; https://jujutsukaisen.jp/episodes/index_2nd.php; https://www.themoviedb.org/tv/95479; https://www.themoviedb.org/tv/95479/season/1; https://www.themoviedb.org/tv/95479/season/0; https://jujutsukaisen.jp/news/20230627_01.php; https://www.themoviedb.org/tv/280703",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 47,
+      "episodeStart": 25,
+      "season": 1,
+      "start": 25,
+      "tmdbId": 95479
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 280703,
-      "season": 2,
+      "episode": 25,
+      "episodeEnd": 47,
+      "id": 95479,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 4,
+      "id": 95479,
+      "season": 0,
       "type": "tv"
     }
   ]

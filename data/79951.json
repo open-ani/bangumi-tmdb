@@ -1,0 +1,51 @@
+{
+  "bangumiId": 79951,
+  "episodes": [
+    {
+      "id": 304551,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 304552,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 406230,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 406231,
+      "sort": 4,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 是1989-12-05至1990-06-05发行的4话OVA，章节明确标为第1弾至第4弾。TMDB 239390 第1季恰有按第1至第4话排列的4集，首尾日期与发行区间一致；其第2季始于1991年，属于另列的续作。因此将本作4话顺序对应第1季4集。\n\nhttps://www.themoviedb.org/tv/239390 (api_snapshot): TV 239390 第1季共4集，编号第1至第4话；首集为1989-12-05，第4集为1990-06-05，与 Bangumi 的4话及发售起止日期一致。第2季始于1991-03-08，对应另列的《新・堕靡泥の星》。\n\nhttps://www.themoviedb.org/movie/911708 (api_snapshot): 电影 911708 只有与本作相同的标题和1989-12-05上映日期，候选数据没有足以证明它覆盖全部4话的信息。\n\nhttps://www.themoviedb.org/movie/39863 (api_snapshot): 电影 39863 于1979-10-27上映，年份与本作不符。\n\n备注：Bangumi 逐话日期为空，TMDB 逐话标题仅为通用编号；第2、3话无法凭具体标题或双方逐话日期独立复核。；电影 911708 缺少集数或内容说明，无法判断它是否另行收录了部分或全部OVA。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/79951; https://www.themoviedb.org/tv/239390; https://www.themoviedb.org/movie/911708; https://www.themoviedb.org/movie/39863",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 239390
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 239390,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

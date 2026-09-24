@@ -1,29 +1,51 @@
 {
   "anidbId": 222,
   "bangumiId": 11875,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 69055,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 69056,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 69057,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 69058,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为 4 集 OVA，标题、发售日期（2002-06-20 至 2003-04-12）、导演和 BeeTrain 制作信息均与 .hack//Liminality 相符。公开交叉数据将 AniDB 222 对应为 .hack//Liminality、OVA、4 集。TMDB 8864 的第 0 季明确收录四个 Liminality 条目：第 1、2、3、5 集；第 4 集是另一部作品 .hack//SIGN Intermezzo，不能整季纳入。因此采用 1-3 和 5 两个不连续范围。\n\nhttps://bgm.tv/subject/11875 (page): Bangumi 条目标记为 .hack//Liminality OVA，共 4 集；发售日为 2002-06-20，结束日期为 2003-04-12，导演为真下耕一，动画制作公司为 BeeTrain。\n\nhttps://huggingface.co/datasets/labofsahil/animelist-dataset/viewer (page): 公开交叉数据在对应记录中列出 https://anidb.net/anime/222，并标为 .hack//Liminality、OVA、4 集，别名包含 .hack//境界线。\n\nhttps://www.themoviedb.org/tv/8864 (api_snapshot): TMDB 作品 ID 8864 为 .hack，包含第 0 季“特別編”，共 19 集；同时将 .hack//SIGN、.hack//黄昏の腕輪伝説等作为其他季。\n\nhttps://www.themoviedb.org/tv/8864/season/0 (api_snapshot): TMDB 第 0 季第 1 至 3 集分别为 Liminality 的前三话，第 4 集为 .hack//SIGN Intermezzo，第 5 集为 Liminality 第 4 话 Trismegistus；日期和标题与 Bangumi 的四话顺序相符。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=25929005&workId=25929 (page): 官方运营的 dアニメストア页面将 .hack//Liminality 列为全 4 话，并列出四话标题：in case of MINASE,Mai、in case of AIHARA,Yuki、in case of TOHNO Kyoko、Trismegistus。\n\n备注：TMDB 第 5 集日期为 2003-04-10，而 Bangumi 条目结束日期为 2003-04-12，存在两天的日期差异；但标题、话数、顺序和版本信息均一致，不影响目标范围判断。",
+    "evidence": "gpt-6-sol: 采用 TMDB 独立作品 36023 的第1季：该季四集完整且仅包含本 OVA，四个集标题与 Bangumi 逐集对应。旧映射指向系列合集 8864 的特别篇，虽收有相同四话，却混入《.hack//SIGN》等作品。\n\nhttps://bgm.tv/subject/11875 (page): Bangumi 将本作列为2002年起发售的四话 OVA，导演为真下耕一，动画制作为 BeeTrain。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=25929005&workId=25929 (page): d动画商店将《.hack//Liminality》单独列为全四话；剧情、导演和制作公司均与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/36023 (api_snapshot): TMDB 36023 是独立的《.hack//Liminality》条目，首播于2002年6月20日，共四话；剧情、导演真下耕一及 BeeTrain 制作信息吻合。\n\nhttps://www.themoviedb.org/tv/36023/season/1 (api_snapshot): TMDB 36023 第1季恰有四集，依次为 MINASE Mai、AIHARA Yuki、TOHNO Kyoko、Trismegistus；标题及顺序与 Bangumi 四话逐集一致。\n\nhttps://www.themoviedb.org/tv/8864/season/0 (api_snapshot): 旧映射所用的 TMDB 8864 第0季混收其他作品：其第4集是《.hack//SIGN》Intermezzo，而 Liminality 第四话位于第5集。\n\n备注：Bangumi 标注结束日期为2003年4月12日，TMDB 第四集日期为2003年4月10日；标题、剧情和四话顺序一致，此日期差异不影响对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/11875; https://huggingface.co/datasets/labofsahil/animelist-dataset/viewer; https://www.themoviedb.org/tv/8864; https://www.themoviedb.org/tv/8864/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25929005&workId=25929",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/11875; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=25929005&workId=25929; https://www.themoviedb.org/tv/36023; https://www.themoviedb.org/tv/36023/season/1; https://www.themoviedb.org/tv/8864/season/0",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36023
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 3,
-      "id": 8864,
-      "season": 0,
-      "type": "tv"
-    },
-    {
-      "episode": 5,
-      "id": 8864,
-      "season": 0,
+      "id": 36023,
+      "season": 1,
       "type": "tv"
     }
   ]

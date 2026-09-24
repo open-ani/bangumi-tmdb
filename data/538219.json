@@ -1,19 +1,160 @@
 {
   "bangumiId": 538219,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1463843,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1463844,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1463845,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1463846,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1463847,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1463848,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1463849,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1463850,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1463851,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1463852,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1463853,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1463854,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1463855,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1463856,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1463857,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1463858,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1463859,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1463860,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1463861,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1463862,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1463863,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1463864,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1463865,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1463866,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1463867,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1463868,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 条目的第二季名称、2015-04-17 开始日期、Rovio 制作方及 26 话总数，与 TMDB 67862 的第二季和官方季表一致，因此匹配整季。输入中的 Bangumi 章节均无标题和单集日期，无法逐话核对，暂不填写 rules。\n\nhttps://www.themoviedb.org/tv/67862 (api_snapshot): 以英文原名和中文别名搜索，均找到 TMDB 剧集《Piggy Tales》ID 67862；旧映射 ID 272164 的剧集详情返回 404。\n\nhttps://www.themoviedb.org/tv/67862 (api_snapshot): TMDB 剧集详情列出制作方 Rovio Entertainment，第二季《Pigs at Work》首播于 2015-04-17，共 26 集。\n\nhttps://www.themoviedb.org/tv/67862/season/2 (api_snapshot): 已读取第二季完整季表：第 1 至 26 集均为《Pigs at Work》短篇，没有混入其他季或合集。\n\nhttps://www.angrybirds.com/series/piggy-tales/ (page): 《愤怒的小鸟》官方页面将《Pigs at Work》列为第二季，并逐一编号至第 26 集。\n\nhttps://www.tvmaze.com/shows/9581/piggy-tales/episodes (page): TVmaze 的第二季集表列出第 24 集于 2015-09-25 播出，第 25、26 集于 2017 年播出。\n\n备注：Bangumi 所记 2015-09-22 结束日期与已查集表冲突：第 24 集日期为 2015-09-25，第 25、26 集的线上播出日期在 2017 年。；需要 Bangumi 各章节的标题或日期，才能核实其 sort 1—26 与 TMDB 集号是否逐集对应。\n\n脚本按声明范围生成逐集规则：26 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/538219; https://www.themoviedb.org/tv/67862; https://www.themoviedb.org/tv/67862/season/2; https://www.angrybirds.com/series/piggy-tales/; https://www.tvmaze.com/shows/9581/piggy-tales/episodes",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 67862
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 272164,
+      "id": 67862,
+      "season": 2,
       "type": "tv"
     }
   ]

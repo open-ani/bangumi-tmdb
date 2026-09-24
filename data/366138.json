@@ -1,13 +1,29 @@
 {
   "bangumiId": 366138,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1079562,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1079563,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1079564,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 年份、剧情、制作人员、IMDb ID 及三段故事结构均吻合。TMDB 将完整作品收录为一部电影，因此映射整部电影；Bangumi 的三话没有可分别对应的 TMDB 剧集。\n\nhttps://www.themoviedb.org/movie/926899 (api_snapshot): TMDB 电影 926899 为《The House》，上映日期为 2022 年 1 月 14 日，片长 97 分钟；简介描述同一栋房子中的三个故事。IMDb ID 为 tt11703050，制作公司为 Nexus Studios，导演和编剧与 Bangumi 资料一致。\n\nhttps://media.netflix.com/en/only-on-netflix/81178338 (page): Netflix 官方资料将《The House》描述为由三则超现实故事组成的定格动画选集，并列出相同的导演和制作公司。\n\nhttps://nexusstudios.com/work/the-house (page): Nexus Studios 官方页面分别介绍 Story 1、Story 2、Story 3，确认 Bangumi 的三话属于同一作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/366138; https://www.themoviedb.org/movie/926899; https://media.netflix.com/en/only-on-netflix/81178338; https://nexusstudios.com/work/the-house",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,73 @@
 {
   "anidbId": 3464,
   "bangumiId": 9996,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 96347,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 96348,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 96349,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 96350,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 96351,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 96352,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 96353,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 96353,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45212,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB 45212 的原名、首播日期和媒介均与《或る旅人の日記》吻合。该作品最初是 2003 年发布的 6 话 WEB 动画，对应 TMDB 第 1 季完整 6 话。Bangumi 本 subject 另将《赤い実》列为第 7 话；资料表明它实际是 2004 年为 DVD 新制的约 6 分钟续篇。TMDB 将它放在特别篇季：第 0 季第 1 集是该季唯一片长 6 分钟的条目，与《赤い実》的片长及其在 DVD 新作/特别内容中的位置相符；其余第 0 季条目不是本 subject 所列正篇，故不纳入。\n\nhttps://www.themoviedb.org/tv/45212 (api_snapshot): TMDB API 快照显示 TV 45212 的原名为《或る旅人の日記》，首播日期为 2003-03-19，正季共 6 集，并设有第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/45212/season/1 (api_snapshot): TMDB API 快照明确显示第 1 季含第 1至6集，均约3分钟，因此该完整季对应最初的6话 WEB 正篇。\n\nhttps://www.themoviedb.org/tv/45212/season/0 (api_snapshot): TMDB API 快照显示第0季共有5集，其中第1集片长6分钟，其他各集分别为3、4、4、2分钟；与独立资料所载《赤い実》6分钟相结合，可确定本 subject 的《赤い実》对应 S00E01。\n\nhttps://www.videx.jp/detail/anime/v_a_robot/arbo0003_0001/index.htm (page): ROBOT 提供的配信页面明确称《或る旅人の日記・赤い実》是原 WEB 动画的续篇、为 DVD 新制的单集，片长6分钟。\n\nhttps://mplusmstore.thebase.in/items/10952351 (page): 配乐近藤研二的说明记载：6篇短片于2003年3月至6月在 WEB 发布，《赤い実》于2004年秋为 DVD 新制，并将二者合称为7篇。\n\nhttps://sam.or.jp/library/dvd_a_2025.pdf (page): DVD 馆藏目录逐项列出第1话《光の都》至第6话《花と女》，随后单列“新作《赤い実》”，并将音乐录像等另列为特典，证明这7篇的组成及版本区别。\n\nhttps://bgm.tv/subject/9996 (page): Bangumi subject 9996 页面显示作品为2003年的 WEB 短片《或る旅人の日記》，章节列表共有01至07，与输入所列6话 WEB 篇目加《赤い実》的范围一致。",
+    "evidence": "gpt-6-sol: 作品原名、2003年首播日期、导演、制作公司及WEB短片形式吻合。Bangumi前六话的标题和顺序与TMDB第1季六集逐一对应；第七话《赤い実》是DVD新制续篇，对应TMDB特别篇S00E01。特别篇季其余内容不属于本subject。\n\nhttps://www.themoviedb.org/tv/45212 (api_snapshot): TMDB TV 45212 的原名为《或る旅人の日記》，首播日期为 2003-03-19，导演为加藤久仁生，制作公司为 ROBOT；第1季6集，另有特别篇季。\n\nhttps://www.themoviedb.org/tv/45212/season/1 (api_snapshot): 第1季共6集、每集约3分钟；英文集名从第1集《The City of Light》至第6集《The Flower and the Lady》，与原作六话的标题和顺序逐一吻合。\n\nhttps://www.themoviedb.org/tv/45212/season/0 (api_snapshot): 特别篇季第1集明确名为《The Red Berry》，片长6分钟；其余集是其他作品或内容。\n\nhttps://navicon.jp/title91988/ (page): 配信资料按第1至第6话列出《光の都》至《花と女》，并单列《赤い実》。\n\nhttps://www.videx.jp/detail/anime/v_a_robot/arbo0003_0001/index.htm (page): ROBOT提供的配信页称《赤い実》是为DVD新制的《或る旅人の日記》续篇，片长6分钟，导演为加藤久仁生。\n\nhttps://tower.jp/item/1617105 (page): DVD商品资料区分原有6篇、新作1篇及另收录的音乐录像和其他短片，支持仅取第1季六集及特别篇第1集。\n\n备注：TMDB将第1季六集的日期统一记为2003-03-19，不能据此核实每话的实际WEB发布日期；逐集对应由标题、官方集序及六话总数确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/9996; https://www.themoviedb.org/tv/45212; https://www.themoviedb.org/tv/45212/season/1; https://www.themoviedb.org/tv/45212/season/0; https://www.videx.jp/detail/anime/v_a_robot/arbo0003_0001/index.htm; https://mplusmstore.thebase.in/items/10952351; https://sam.or.jp/library/dvd_a_2025.pdf",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/9996; https://www.themoviedb.org/tv/45212; https://www.themoviedb.org/tv/45212/season/1; https://www.themoviedb.org/tv/45212/season/0; https://navicon.jp/title91988/; https://www.videx.jp/detail/anime/v_a_robot/arbo0003_0001/index.htm; https://tower.jp/item/1617105",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45212
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

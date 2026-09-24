@@ -1,19 +1,95 @@
 {
   "bangumiId": 481355,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1302491,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1302492,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1302493,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1302494,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1302495,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1302496,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1302497,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1302498,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1302499,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1302500,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1302501,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1302502,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1302503,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配 TMDB 6332 的第一季：首播日期、动画版本、季集数及全部 13 集的标题和放送日期均吻合。旧映射 TMDB 648 是 1977 年真人剧。\n\nhttps://www.themoviedb.org/tv/6332 (api_snapshot): TMDB 搜索结果区分了 1977 年真人剧 648 与 1996 年动画剧集 6332；旧映射指向的是前者。\n\nhttps://www.themoviedb.org/tv/6332 (api_snapshot): TMDB 6332 于 1996-09-08 首播，制作公司包括 Marvel Studios，第一季 13 集，第二季 8 集。\n\nhttps://www.themoviedb.org/tv/6332/season/1 (api_snapshot): TMDB 第一季第 1—13 集的标题、顺序和放送日期，与给定的 13 个 Bangumi 本篇章节逐集一致。\n\n备注：Bangumi 信息框写播放结束于 1996-12-01，但所给第 11—13 话及 TMDB 季表均记载为 1997 年 2 月放送。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/481355; https://www.themoviedb.org/tv/6332; https://www.themoviedb.org/tv/6332/season/1",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 6332
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 648,
+      "id": 6332,
+      "season": 1,
       "type": "tv"
     }
   ]

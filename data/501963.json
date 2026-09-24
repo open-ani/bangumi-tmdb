@@ -1,19 +1,100 @@
 {
   "bangumiId": 501963,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1704816,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1704817,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1704818,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1704819,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1704820,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1704821,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1704822,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1704823,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1704824,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1704825,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1704826,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1704827,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1717533,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1717534,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品名称、首播日期、制作信息和第 3 季的 14 集范围一致；逐集标题与播出顺序吻合。第 14 话尚未播出，但季表集数、标题及节目排期均已明确，可纳入连续规则。\n\nhttps://www.themoviedb.org/tv/94664 (api_snapshot): TMDB 作品详情列出第 3 季《無職転生Ⅲ ～異世界行ったら本気だす～》，首播日期为 2026-07-04，共 14 集；制作公司及导演信息与输入资料吻合。\n\nhttps://www.themoviedb.org/tv/94664/season/3 (api_snapshot): TMDB 第 3 季集表共有 14 集，集号和标题依次对应 Bangumi 的 14 个本篇章节，首两集均标为 7 月 4 日。\n\nhttps://mushokutensei.jp/news/260622_1/ (page): 官方网站确认第 3 季第 1、2 话于 2026 年 7 月 4 日特别连播。\n\nhttps://mushokutensei.jp/story/ (page): 官方网站第 3 季剧情目录列出第 1 至 13 话，集号与标题均和 TMDB、Bangumi 对应。\n\nhttps://mushokutensei.jp/onair/ (page): 官方网站注明常规播出时段为周日 24:00，解释了 Bangumi 所记周日日期与 TMDB 所记次日日期的差异。\n\nhttps://thetv.jp/program/0001053717/ (page): 节目表列出第 14 话将于 2026 年 9 月 27 日周日深夜播出，与 Bangumi 排期及 TMDB 的 9 月 28 日日期一致。\n\n备注：第 14 话尚未播出，实际播出安排仍可能调整。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/501963; https://www.themoviedb.org/tv/94664; https://www.themoviedb.org/tv/94664/season/3; https://mushokutensei.jp/news/260622_1/; https://mushokutensei.jp/story/; https://mushokutensei.jp/onair/; https://thetv.jp/program/0001053717/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 94664
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 94664,
+      "season": 3,
       "type": "tv"
     }
   ]

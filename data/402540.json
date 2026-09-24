@@ -1,19 +1,92 @@
 {
   "bangumiId": 402540,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1130824,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1130825,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1130826,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1130827,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1130828,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1130829,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1130830,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1130831,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1130832,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1130833,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1130834,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1130835,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 《苍兰诀 下部》是动画《苍兰诀》“千隐山篇”的后 12 话，对应 TMDB 206534 第 1 季第 13–24 集。12 个标题逐集一致，播出范围与爱奇艺的 24 集动画及 TVDB 排期吻合。旧映射 130368 指向同名真人剧，应更正。\n\nhttps://www.themoviedb.org/search/tv?query=%E8%8B%8D%E5%85%B0%E8%AF%80 (api_snapshot): 搜索“苍兰诀”返回两个同名条目：130368 首播于 2022 年 8 月，206534 首播于 2022 年 7 月。\n\nhttps://www.themoviedb.org/tv/130368 (api_snapshot): 旧映射 130368 是 36 集真人剧，主演为虞书欣、王鹤棣，与本动画不符。\n\nhttps://www.themoviedb.org/tv/206534 (api_snapshot): 206534 是由王昕执导、爱奇艺参与制作的动画；其第 1 季“千隐山篇”共 24 集。\n\nhttps://www.themoviedb.org/tv/206534/season/1 (api_snapshot): 206534 第 1 季第 13–24 集的标题依次与 Bangumi 下部 12 话完全一致；第 16–24 集日期也一致。\n\nhttps://www.iqiyi.com/a_ytqbrvms0t.html?list=qjgxiwxfx2 (page): 爱奇艺将这部《苍兰诀》列为动漫，显示 2022 年作品、24 集全，剧情与 TMDB 动画条目一致。\n\nhttps://thetvdb.com/series/love-between-fairy-and-devil-2022/allseasons/official (page): TVDB 的动画集表列出第 13–24 集标题和逐周播出日期；第 13、14、15 集分别为 2022-12-23、2022-12-30、2023-01-06，与 Bangumi 一致。\n\n备注：TMDB 将第 13–15 集的日期都记为 2023-01-06，与 Bangumi 及 TVDB 的逐周日期不符；逐集标题和编号一致，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/402540; https://www.themoviedb.org/search/tv?query=%E8%8B%8D%E5%85%B0%E8%AF%80; https://www.themoviedb.org/tv/130368; https://www.themoviedb.org/tv/206534; https://www.themoviedb.org/tv/206534/season/1; https://www.iqiyi.com/a_ytqbrvms0t.html?list=qjgxiwxfx2; https://thetvdb.com/series/love-between-fairy-and-devil-2022/allseasons/official",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 13,
+      "tmdbId": 206534
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 130368,
+      "episode": 13,
+      "episodeEnd": 24,
+      "id": 206534,
+      "season": 1,
       "type": "tv"
     }
   ]

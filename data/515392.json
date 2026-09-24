@@ -1,14 +1,35 @@
 {
   "anidbId": 18881,
   "bangumiId": 515392,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1402977,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1560532,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1560533,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1560534,
+      "sort": 15,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 电影 1362429。Bangumi 的第 13 至 16 章是这部 82 分钟电影的四个章节；TMDB 将其收录为一部电影，没有可供四章分别对应的剧集，因此仅映射作品，不建立逐集规则。\n\nhttps://www.themoviedb.org/movie/1362429 (api_snapshot): TMDB 日文原名搜索返回电影 1362429，片名及上映日期 2025-02-14 与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/movie/1362429 (api_snapshot): 电影详情显示片长 82 分钟，剧情包含咲赴夏威夷探望父亲、真琴与龙二面临升学选择；导演为柳伸亮，动画制作公司为 project No.9。\n\nhttps://senpaiha-otokonoko.com/ (page): 官方网站确认本作为 2024 年电视动画的剧场版续篇，2025 年 2 月 14 日上映；剧情、导演与制作公司均相符。\n\nhttps://bgm.tv/subject/515392/ep (page): Bangumi 将本片列为剧场版，片长 82 分钟；章节页列出同日上映的第 13 至 16 章。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/515392; https://www.themoviedb.org/movie/1362429; https://senpaiha-otokonoko.com/; https://bgm.tv/subject/515392/ep",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,

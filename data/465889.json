@@ -1,20 +1,96 @@
 {
   "anidbId": 18806,
   "bangumiId": 465889,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1413136,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1413137,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1413138,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1413139,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1413140,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1413141,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1413142,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1413143,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1413144,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1413145,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1413146,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1413147,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1417841,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 本篇 13 话与 TMDB 239779 第 1 季的作品身份、制作公司、集数及逐集放送日期一致，可按第 1 至 13 话连续映射。旧映射 112888 属于同名真人剧，应替换。\n\nhttps://www.themoviedb.org/tv/239779 (api_snapshot): TMDB 239779 是 2024 年 8 月 7 日首播的动画版《True Beauty》，剧情涉及 Jugyeong、化妆及校园女神竞赛；制作公司包括 Studio N 和 Cocktail Media，共 13 集。\n\nhttps://www.themoviedb.org/tv/239779/season/1 (api_snapshot): TMDB 239779 第 1 季共 13 集；第 1 至 13 集的放送日期与 Bangumi 逐集一致，标题也对应，其中第 4、9 集存在措辞差异。\n\nhttps://www.themoviedb.org/tv/112888 (api_snapshot): 旧映射 TMDB 112888 是 2020 年首播、共 16 集的真人剧，演员与 Bangumi 的 2024 年动画版不符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/465889; https://www.themoviedb.org/tv/239779; https://www.themoviedb.org/tv/239779/season/1; https://www.themoviedb.org/tv/112888",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 239779
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 112888,
+      "id": 239779,
+      "season": 1,
       "type": "tv"
     }
   ]

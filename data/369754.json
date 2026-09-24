@@ -1,19 +1,50 @@
 {
   "bangumiId": 369754,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1084444,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1084445,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1084446,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1084447,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 条目对应 2021 年 LAFTEL 四集短篇动画，即 TMDB 197383 第 1 季。四话标题、顺序、集数及剧情均吻合。旧映射 157208 是 2022 年真人剧，版本不符。\n\nhttps://www.themoviedb.org/tv/197383 (api_snapshot): TMDB 韩文名搜索同时返回 2021 年动画条目 197383 和 2022 年真人剧条目 157208。\n\nhttps://www.themoviedb.org/tv/197383 (api_snapshot): 197383 的详情显示制作方为 LAFTEL、配音演员阵容、2021 年播出、共一季四集；旧映射 157208 的详情显示其为 2022 年八集真人剧。\n\nhttps://www.themoviedb.org/tv/197383/season/1 (api_snapshot): 第 1 季集表共四集，英文标题依次为《I Can't Concentrate》《Don't Call Me \"Hyung\"》《All Talk, No Responsibility》《April Fools (Unreleased Side Story)》，与 Bangumi 四话标题逐一对应；前三话的 TMDB 日期均比 Bangumi 早一天，第四话同为 2021 年 4 月 1 日。\n\nhttps://semaera.jp/anime/ (page): 短篇动画官方页面注明作品为 2021 年韩国 LAFTEL 制作的全四话动画，并按相同顺序列出四话剧情和标题。\n\n备注：前三话的 TMDB 播出日期均比 Bangumi 早一天；逐话标题及官方四话顺序一致，因此不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/369754; https://www.themoviedb.org/tv/197383; https://www.themoviedb.org/tv/197383/season/1; https://semaera.jp/anime/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 197383
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 157208,
+      "id": 197383,
+      "season": 1,
       "type": "tv"
     }
   ]

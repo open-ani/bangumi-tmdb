@@ -1,26 +1,126 @@
 {
   "anidbId": 5186,
   "bangumiId": 3994,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28739,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28740,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 28741,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 28742,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 28743,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 28744,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 28745,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 28746,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 28747,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 28748,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 28749,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 28750,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 28751,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 959467,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 959468,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 959469,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 959470,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 959471,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 959472,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2007 年播出的《スケッチブック～full color's～》TV、正篇 13 话，导演平池芳正、系列构成冈田麿里、动画制作 Hal Film Maker 等信息与 TMDB 条目一致。Anime-Lists 的关联记录将 AniDB 5186（Sketchbook: Full Color's）指向 TMDB TV 72249 第 1 季；TMDB 快照显示第 1 季正好 13 话，标题逐话与 Bangumi 正篇 1–13 话完全对应，因此第 1 季应完整纳入。Bangumi 同一 subject 还包含 6 个 Picture Drama 特别篇；TMDB 条目明确有第 0 季“特別編”共 6 话，且首播日与特别篇列表起始日一致，外部资料也确认该 Picture Drama 是 6 集并属于本作的特别篇，因此主体内特别篇应补充为第 0 季完整纳入。\n\nhttps://bgm.tv/subject/3994 (page): Bangumi 条目标记为 TV，话数 13，播出时间为 2007-10-01 至 2007-12-24，并列出导演、系列构成、原作和 Hal Film Maker 等制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): 记录 anidbid=\"5186\"、名称 Sketchbook: Full Color's，并关联 tmdbtv=\"72249\"、tmdbseason=\"1\"；这是候选线索，但与 Bangumi/TMDB 的版本信息相互吻合。\n\nhttps://www.themoviedb.org/tv/72249 (api_snapshot): TMDB API 快照显示作品名为《スケッチブック ～full color'S～》，日本语种、2007 年作品，共 13 集正篇；同时列出 season 0“特別編”6 集和 season 1 13 集。\n\nhttps://www.themoviedb.org/tv/72249/season/1 (api_snapshot): TMDB 第 1 季完整列出 13 集，剧集标题与 Bangumi 正篇 1–13 话逐一对应，日期也保持同一播出序列（仅相差时区导致的日期显示偏移）。\n\nhttps://anilist.co/anime/20528/Sketchbook-full-colors-Picture-Drama (search_snippet): 搜索摘要确认《Sketchbook: full color's Picture Drama》是本作的 6 集特别篇，并以本作 TV 为 Parent；与 Bangumi 同 subject 中的 6 个特别篇及 TMDB season 0 的 6 集相符。",
+    "evidence": "gpt-6-sol: 确认 Bangumi 的 2007 年 TV 正篇对应 TMDB 72249 第 1 季全 13 集；标题逐集一致，日期差一天源于周一深夜播出。6 个 Picture Drama 暂不映射：TMDB 第 0 季的泛称标题与不符的后续日期不足以核实逐集身份。\n\nhttps://www.themoviedb.org/tv/72249 (api_snapshot): TMDB 72249 是 2007 年日本动画《スケッチブック ～full color'S～》，剧情围绕梶原空与美术部；制作公司为 Hal Film Maker，导演为平池芳正，编剧包括冈田麿里，与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/72249/season/1 (api_snapshot): TMDB 第 1 季共 13 集，逐集日文标题与 Bangumi 正篇第 1 至 13 话一致，播出日期均晚一天。\n\nhttps://www.tv-tokyo.co.jp/contents/sketch-full/news/index.html (page): 东京电视台记载本作于周一深夜 2 点播出，可解释 Bangumi 周一日期与 TMDB 周二日期的差异。\n\nhttps://www.mag-garden.co.jp/sketchbook/story_outline.html (page): 作品官方网站列出的正篇第 1 至 13 话标题与 Bangumi、TMDB 第 1 季一致。\n\nhttps://www.themoviedb.org/tv/72249/season/0 (api_snapshot): TMDB 第 0 季虽有 6 集，但标题仅为“第1话”至“第6话”，第 2 至 6 集日期为每周一次，与 Bangumi Picture Drama 的 DVD 月度发行日期不符。\n\nhttps://mag-garden.co.jp/sketchbook/blog/cat4/ (page): 官方博客确认 Picture Drama 收录于 DVD，第二话随 2008 年 2 月 22 日发行的第二卷提供，第三话随 3 月 25 日发行的第三卷提供。\n\n备注：TMDB 第 0 季的 6 集是否及如何对应 Bangumi 的 6 个 Picture Drama，仍需能核对具体标题或 DVD 发行日期的资料。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3994; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/72249; https://www.themoviedb.org/tv/72249/season/1; https://anilist.co/anime/20528/Sketchbook-full-colors-Picture-Drama",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3994; https://www.themoviedb.org/tv/72249; https://www.themoviedb.org/tv/72249/season/1; https://www.tv-tokyo.co.jp/contents/sketch-full/news/index.html; https://www.mag-garden.co.jp/sketchbook/story_outline.html; https://www.themoviedb.org/tv/72249/season/0; https://mag-garden.co.jp/sketchbook/blog/cat4/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 72249
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 72249,
       "season": 1,
-      "type": "tv"
-    },
-    {
-      "id": 72249,
-      "season": 0,
       "type": "tv"
     }
   ]

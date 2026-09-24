@@ -1,21 +1,37 @@
 {
   "anidbId": 17187,
   "bangumiId": 368800,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1083564,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1083564,
+      "targets": [
+        {
+          "id": 1301590,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 该 Bangumi subject 是 2022 年单集网络动画，对应 TMDB 电影 1301590；旧映射 105446 指向 2019 年真人电视剧，应予替换。\n\nhttps://bgm.tv/subject/368800 (page): Bangumi 条目为 2022 年 2 月 9 日播出的单集 WEB 动画，动画制作是颱風グラフィックス，声优包括子安武人、高岡瓶々和小市眞琴。\n\nhttps://www.allcinema.net/cinema/381440 (page): allcinema 将《死役所》列为 2022 年 2 月 9 日在 YouTube 发布的网络动画，制作公司和三名声优均与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/movie/1301590 (api_snapshot): TMDB 电影 1301590《Death Hall》发行于 2022 年 2 月 9 日，片长 11 分钟，三名声优为子安武人、高岡瓶々和小市眞琴，与该单集动画吻合。\n\nhttps://www.themoviedb.org/tv/105446 (api_snapshot): 旧映射 TV 105446 是 2019 年首播、共 10 集的《死役所》，演员为松岡昌宏等真人演员，属于另一改编版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/368800; https://www.allcinema.net/cinema/381440; https://www.themoviedb.org/movie/1301590; https://www.themoviedb.org/tv/105446",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 105446,
-      "type": "tv"
+      "id": 1301590,
+      "type": "movie"
     }
   ]
 }

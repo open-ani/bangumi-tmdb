@@ -1,16 +1,103 @@
 {
   "anidbId": 253,
   "bangumiId": 37487,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 161427,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 161428,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 161429,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 161430,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 161431,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 161432,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 161433,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 161434,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 161435,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 161436,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 161437,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 161438,
+      "sort": 12,
+      "type": 1
+    },
+    {
+      "id": 599844,
+      "sort": 0,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 161438,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 27736,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《女神候補生》TV，2000-01-10 开播、12 集、XEBEC 制作；其简介和制作人员与 TMDB 27736 完全吻合。TMDB 第1季列出完整的 CURRICULUM 00—11，共12集，日期覆盖 2000-01-10 至 2000-03-27，因此纳入完整第1季。Bangumi 主体还包含 2002-05-25 的特别篇“仲間”；该特别篇被独立资料确认是1集 OVA，TMDB 27736 的第0季也标为2002-05-25、1集，故纳入完整第0季。未发现电影、重剪版或其他主体正篇混入。\n\nhttps://bgm.tv/subject/37487 (page): Bangumi 条目标为《女神候補生》TV，话数12，放送开始2000年1月10日，放送结束2000年3月27日，动画制作XEBEC；页面章节含00—11及SP，剧情为候补生驾驶女神机体对抗Victim。\n\nhttps://www.themoviedb.org/tv/27736 (api_snapshot): TMDB 27736 的日文标题为女神候補生，首播日期为2000-01-10，共12集；季列表显示第1季12集（2000-01-10）及第0季特别编1集（2002-05-25）。\n\nhttps://www.themoviedb.org/tv/27736/season/1 (api_snapshot): TMDB 第1季完整列出12集，标题从CURRICULUM 00 ～接続至CURRICULUM 11 ～漂流，播出日期与Bangumi的12集逐一对应。\n\nhttps://animeschedule.net/anime/megami-kouhosei-special-curriculum (search_snippet): 搜索摘要将《女神候補生 スペシャルカリキュラム》标为1集OVA，发行日期2002-05-25，制作公司为Xebec。\n\nhttps://www.wunschliste.de/episode/168584/candidate-for-goddess-kameraden (search_snippet): 搜索摘要将Kameraden标为Candidate for Goddess的第13集，并明确注明仅作为OVA发行；与Bangumi特别篇“仲間”相符。\n\n备注：AniDB 253 的原始页面本次访问返回403，未能直接读取AniDB页面字段；但Bangumi条目的题名、日期、制作人员、剧情及TMDB两季内容均与Candidate for Goddess对应。",
+    "evidence": "gpt-6-sol: 年份、剧情、制作方及导演均吻合。TMDB 第1季的12集与 Bangumi 正篇标题和放送日期逐集对应；第0季唯一一集的日期与 Bangumi「仲間」及其特别篇发行日期相同，DVD-BOX 目录也确认「仲間」是该作的单集特别篇。\n\nhttps://www.themoviedb.org/tv/27736 (api_snapshot): TMDB 27736 的原名为《女神候補生》，首播于2000年1月10日；制作公司包括 XEBEC、Bandai Visual、Wani Books 和 ING，导演为本郷みつる。作品列有第1季12集及第0季特别篇1集。\n\nhttps://www.themoviedb.org/tv/27736/season/1 (api_snapshot): 第1季12集的标题与日期，从「接続」2000年1月10日至「漂流」3月27日，均与 Bangumi 正篇逐集一致。\n\nhttps://www.themoviedb.org/tv/27736/season/0 (api_snapshot): 第0季仅有1集，日期为2002年5月25日；TMDB 将标题泛称为「第1話」。\n\nhttps://www.cdjapan.co.jp/product/BCBA-4074 (page): DVD-BOX 商品目录列出电视正篇12集及特别篇「CURRICULUM 12 ～仲間～」，确认特别篇名称与作品归属。\n\nhttps://www.oricon.co.jp/prof/224421/products/476699/1/ (search_snippet): 《女神候補生 スペシャルカリキュラム》的发行日期为2002年5月25日，与 Bangumi 特别篇及 TMDB 第0季日期一致。\n\n备注：TMDB 第0季单集仅标作「第1話」，没有写出「仲間」；对应关系依据唯一集数、相同日期及发行目录确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/37487; https://www.themoviedb.org/tv/27736; https://www.themoviedb.org/tv/27736/season/1; https://animeschedule.net/anime/megami-kouhosei-special-curriculum; https://www.wunschliste.de/episode/168584/candidate-for-goddess-kameraden",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/37487; https://www.themoviedb.org/tv/27736; https://www.themoviedb.org/tv/27736/season/1; https://www.themoviedb.org/tv/27736/season/0; https://www.cdjapan.co.jp/product/BCBA-4074; https://www.oricon.co.jp/prof/224421/products/476699/1/",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 0,
+      "tmdbId": 27736
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

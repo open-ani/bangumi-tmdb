@@ -1,21 +1,52 @@
 {
   "anidbId": 17477,
   "bangumiId": 425211,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1182322,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1182323,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1188705,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1188715,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本 subject 是《初吻不会结束》的四话电视放送版。TMDB 332819 第 1 季恰有四集；官网四话的标题和顺序逐一对应 Bangumi，官方两夜播出安排也吻合。旧映射 997317 对应较早上映的电影版本，且已归属另一个 Bangumi 条目，因此改映射至电视版。\n\nhttps://bangumi.tv/subject/425211 (page): Bangumi 将本条目标为 2023 年 3 月 31 日开播、共 4 话的电视版，并另列 2022 年电影条目。\n\nhttps://www.themoviedb.org/tv/332819 (api_snapshot): TMDB 电视条目 332819 使用相同日文标题，标为 2023 年播出的独立作品，第 1 季共 4 集；配音阵容与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/332819/season/1 (api_snapshot): TMDB 332819 第 1 季实际集表只有第 1 至第 4 集，每集约 26 分钟，未混入其他作品。\n\nhttps://kaguya.love/story/?id=01 (page): 作品官网依次列出四话，标题与 Bangumi 四个章节逐话一致。\n\nhttps://kaguya.love/story/?id=02 (page): 官网第 2 话标题与 Bangumi 第 2 话一致。\n\nhttps://kaguya.love/story/?id=03 (page): 官网第 3 话标题与 Bangumi 第 3 话一致。\n\nhttps://kaguya.love/story/?id=04 (page): 官网第 4 话标题与 Bangumi 第 4 话一致。\n\nhttps://news.aniplex.co.jp/detail.html?id=62680 (page): Aniplex 公告 MBS 分两夜播出：2023 年 3 月 31 日与 4 月 2 日，各一小时，与 Bangumi 的两组播出日期相符。\n\nhttps://www.themoviedb.org/movie/997317 (api_snapshot): 旧映射的 TMDB 电影 997317 是 2022 年 12 月 17 日上映、片长 96 分钟的电影版本。\n\n备注：TMDB 四集仅标“第1话”等通用标题，所填日期也与 Bangumi 的播出名义日期有一至两天差异；逐集对应依据为官网标题与顺序、四集总数及官方两夜播出安排。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/425211; https://bangumi.tv/subject/425211; https://www.themoviedb.org/tv/332819; https://www.themoviedb.org/tv/332819/season/1; https://kaguya.love/story/?id=01; https://kaguya.love/story/?id=02; https://kaguya.love/story/?id=03; https://kaguya.love/story/?id=04; https://news.aniplex.co.jp/detail.html?id=62680; https://www.themoviedb.org/movie/997317",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 332819
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 997317,
-      "type": "movie"
+      "id": 332819,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

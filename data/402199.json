@@ -1,19 +1,82 @@
 {
   "bangumiId": 402199,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1129700,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1129701,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1129702,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1129703,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1129704,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1129705,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1129706,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1129707,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1129708,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1129709,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本 subject 是 2022 年动画第一季的下部。其 Bangumi 第 11 至 20 话与 TMDB 第一季第 11 至 20 集在标题及播出日期上逐集一致，因此映射到该季的部分区间。\n\nhttps://www.themoviedb.org/tv/206878 (api_snapshot): TMDB TV 206878 是 2022 年开播的动画《少年白马醉春风》；制作公司包括晨星盛世、芒果TV和优酷，与 Bangumi 资料相符。\n\nhttps://www.themoviedb.org/tv/206878/season/1 (api_snapshot): TMDB 第 1 季共 20 集；第 11 至 20 集的标题和播出日期逐集吻合本 subject 的 10 话，范围为 2022 年 12 月 14 日至 2023 年 2 月 8 日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/402199; https://www.themoviedb.org/tv/206878; https://www.themoviedb.org/tv/206878/season/1",
+    "verifiedAt": "2026-09-24T00:38:07.098Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 11,
+      "tmdbId": 206878
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 11,
+      "episodeEnd": 20,
       "id": 206878,
+      "season": 1,
       "type": "tv"
     }
   ]
