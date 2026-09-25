@@ -130,15 +130,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、电视媒介、简介、制作团队及前后篇别名一致。输入24话对应官方前两部分#1—#24，TMDB将其合并收录于第1季；已提供的22个放送日期全部逐集吻合，结合官方连续编号及24话范围，可确认本篇1—24顺序对应S01E01—E24。第25集不纳入本次映射。\n\nhttps://www.themoviedb.org/tv/299144 (api_snapshot): TMDB 299144 为2026年4月4日首播的《リラックマ》，简介与输入一致；制作公司包含 Production I.G、Aniplex、San-X、TBS，别名包含前后篇名称，确认是2026年电视动画版本。\n\nhttps://www.aniplex.co.jp/lineup/rilakkuma/ (page): Aniplex 官方资料确认电视动画于2026年4月4日在TBS开播，导演为板津匡覧、かまくらゆみ，动画制作为 Production I.G，与 Bangumi 制作信息一致。\n\nhttps://www.themoviedb.org/tv/299144/season/1 (api_snapshot): 已读取第1季完整集表，共25集、仅1页。第1—21集及第24集日期逐一与输入一致；第22、23集分别标为2026年8月29日、9月5日。集名使用连续编号#1—#25，第25集日期为9月19日，超出输入24话范围。\n\nhttps://rilakkuma-anime.com/episode/ (page): 官方章节页列出连续编号#13—#24，包含#22与#23。\n\nhttps://rilakkuma-anime.com/news/?article_id=71228 (page): 官方2026年9月12日公告明确前两个制作季度合计为#1—#24；这些内容在TMDB统一编入第1季。\n\n备注：Bangumi第22、23话缺少日期，所有章节均无文字标题；这两话依据官方连续编号、前两部分总话数及相邻话日期确认。；作品仍在续播，本映射仅覆盖输入快照的24话，不推定后续章节归属。\n\n",
+    "evidence": "gpt-6-sol: 确认对应2026年电视动画《リラックマ》的 TMDB 299144 第1季。TMDB 将官方分称的前两部分及已开始的第三部分连续编入同一季；Bangumi 第25话的2026年9月19日日期与 TMDB S01E25 一致，官方章节页也列有第25话。因此将原映射由第1—24话延长至第25话。该季收录的均为此 subject 的连续电视动画，故 target 采用整季；逐集规则只覆盖快照中已核实的25话。\n\nhttps://www.themoviedb.org/tv/299144 (api_snapshot): 以日文原名及前后篇别名搜索，均找到 TMDB 电视作品 299144；同名搜索还返回不同年份的其他作品。\n\nhttps://www.themoviedb.org/tv/299144 (api_snapshot): 作品 299144 于2026年4月4日首播，简介与 Bangumi 一致，制作公司包括 Production I.G、Aniplex、San-X 和 TBS；第1季名称涵盖前两部分及第三部分。\n\nhttps://www.themoviedb.org/tv/299144/season/1 (api_snapshot): 已读取第1季完整集表，共26集、仅1页；第1至25集的编号和放送日期逐集对应 Bangumi 的25话，第26集标为2026年10月3日。\n\nhttps://www.aniplex.co.jp/lineup/rilakkuma/ (page): Aniplex 确认本作为2026年4月4日起在 TBS 播出的电视动画，简介与 Bangumi 一致。\n\nhttps://rilakkuma-anime.com/news/?article_id=71228 (page): 官方确认第1、2部分合计为第1至24话，随后开始第3部分；官方章节页已列出第25话。\n\nhttps://rilakkuma-anime.com/episode/ (page): 官方章节页连续列出第14至25话，包含 Bangumi 快照新增的第25话。\n\nhttps://rilakkuma-anime.com/news/?article_id=69885 (page): 官方资料将本作称为首次电视动画化，并列出与 Bangumi 一致的前后篇导演及主要制作人员。\n\n备注：TMDB 已列出尚未播出的第26集，但 Bangumi 输入快照没有对应章节，因此暂不为其建立逐集规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/520633; https://www.themoviedb.org/tv/299144; https://www.aniplex.co.jp/lineup/rilakkuma/; https://www.themoviedb.org/tv/299144/season/1; https://rilakkuma-anime.com/episode/; https://rilakkuma-anime.com/news/?article_id=71228",
-    "verifiedAt": "2026-09-20T00:16:05.322Z"
+    "source": "https://bgm.tv/subject/520633; https://www.themoviedb.org/tv/299144; https://www.themoviedb.org/tv/299144/season/1; https://www.aniplex.co.jp/lineup/rilakkuma/; https://rilakkuma-anime.com/news/?article_id=71228; https://rilakkuma-anime.com/episode/; https://rilakkuma-anime.com/news/?article_id=69885",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 24,
+      "end": 25,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -148,8 +148,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 24,
       "id": 299144,
       "season": 1,
       "type": "tv"

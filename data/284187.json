@@ -1,0 +1,41 @@
+{
+  "bangumiId": 284187,
+  "episodes": [
+    {
+      "id": 890789,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 890790,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 条目是 1988 年发行的两集电视版总集篇；商品资料与 Plex 均确认这两部作品，TMDB 对应系列的第 0 季也仅含两部 50 分钟特别篇，因此匹配整个第 0 季。Bangumi 章节和 TMDB 集表都缺少可逐集核对的日期、标题，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/34797 (api_snapshot): 按原名搜索“ときめきトゥナイト 総集編”无结果；搜索母系列找到 TMDB 电视作品 34797。\n\nhttps://www.themoviedb.org/tv/34797 (api_snapshot): TMDB 作品 34797 是 1982 年首播、共 34 集的《ときめきトゥナイト》，另列有 2 集特别篇。\n\nhttps://www.themoviedb.org/tv/34797/season/0 (api_snapshot): TMDB 第 0 季恰有两集，每集 50 分钟；两集仅标为“第1話”“第2話”，均无日期。\n\nhttps://dist.joshinweb.jp/dp/4988104050977.html (page): DVD 商品资料明确区分电视版 34 集与 1988 年发行录像的两部总集篇。\n\nhttps://watch.plex.tv/en-GB/show/tokimeki-tonight/season/0 (page): Plex 将该系列的两部特别篇列为《The Secret of Etranger》和《Ranze Goes to Demonworld》，并说明它们由电视集数剪辑而成。\n\n备注：TMDB 第 0 季两集使用通用标题且没有日期，无法核实 Bangumi 章节 ID 与 TMDB 单集的逐一对应。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/284187; https://www.themoviedb.org/tv/34797; https://www.themoviedb.org/tv/34797/season/0; https://dist.joshinweb.jp/dp/4988104050977.html; https://watch.plex.tv/en-GB/show/tokimeki-tonight/season/0",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 34797
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 34797,
+      "season": 0,
+      "type": "tv"
+    }
+  ]
+}

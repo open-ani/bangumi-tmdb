@@ -1,0 +1,37 @@
+{
+  "bangumiId": 102009,
+  "episodes": [
+    {
+      "id": 393032,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 的单话 OVA 与 TMDB 第 1 季第 13 集在系列部次、标题和剧情上相符；系列发行资料也确认其日期为 1986 年 5 月 25 日。TMDB 将多个独立篇目合编为一季，因此仅映射第 13 集，不覆盖整季。\n\nhttps://www.themoviedb.org/tv/115290 (api_snapshot): TMDB 剧集 115290 是 1984 年开始的《くりいむレモン》系列，第 1 季收录原系列作品。\n\nhttps://www.themoviedb.org/tv/115290/season/1 (api_snapshot): 第 1 季第 13 集标题为《くりいむレモンPART13「亜美Ⅲ」》；剧情写到亜美与义兄ヒロシ分离后，因他提出分手而去河野住处，与本条目的剧情相符。该季还分别收录第 12、14 部，故本条目只对应第 13 集。\n\nhttps://creamlemon.jp/history/ (page): 系列历史资料列明 Part13《亜美III》于 1986 年 5 月 25 日发行，前后的 Part12、Part14 分别为其他作品。\n\n备注：TMDB 将第 13 集日期误标为 1986 年 8 月 5 日；系列发行资料将该日期列给 Part14。映射以标题、剧情及发行资料确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/102009; https://www.themoviedb.org/tv/115290; https://www.themoviedb.org/tv/115290/season/1; https://creamlemon.jp/history/",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 13,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115290
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 13,
+      "id": 115290,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

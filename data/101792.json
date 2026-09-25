@@ -1,0 +1,78 @@
+{
+  "bangumiId": 101792,
+  "episodes": [
+    {
+      "id": 392135,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 392136,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 392137,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 392138,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 392139,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 392140,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 392141,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 392142,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 392143,
+      "sort": 9,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 九篇的系列归属、篇名和顺序均与 TMDB 第一季第 17–25 集吻合；该季还收录旧系列及其他作品，故仅映射已核实的闭区间。\n\nhttps://www.themoviedb.org/tv/115290 (api_snapshot): TMDB 剧集 115290 首播于 1984 年，第一季同时收录旧系列与后续作品，因此只能选取其中对应《新くりいむレモン》的区间。\n\nhttps://www.themoviedb.org/tv/115290/season/1 (api_snapshot): 第一季第 17–25 集连续标为《新くりいむレモン》PART1–9；九集篇名与 Bangumi 第 1–9 话逐一对应，前后集均属其他作品。\n\nhttps://www.creamlemon.jp/history/index.html (page): 系列历史页记载《新くりいむレモン》于 1987 年 3 月开始，列出从《5時間目のヴィーナス》至《放課後ＸＸＸ》的九篇，并将总集篇及《DARK》另列。\n\n备注：TMDB 所列部分单集日期与系列历史页不同；映射依据为九篇逐一吻合的篇名、顺序及系列范围，日期差异仍待 TMDB 修正。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101792; https://www.themoviedb.org/tv/115290; https://www.themoviedb.org/tv/115290/season/1; https://www.creamlemon.jp/history/index.html",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 17,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115290
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 17,
+      "episodeEnd": 25,
+      "id": 115290,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

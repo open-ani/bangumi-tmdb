@@ -1,0 +1,61 @@
+{
+  "bangumiId": 108330,
+  "episodes": [
+    {
+      "id": 412759,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 412760,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 412761,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 412762,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 412763,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 412764,
+      "sort": 6,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: TMDB 307344 第1季的6个具体标题与 Bangumi 本篇第1至第6话逐一对应，集数、首集日期及末集日期也吻合。电影 1431890 只对应其中第4话，不能覆盖整个 subject。\n\nhttps://www.themoviedb.org/tv/307344 (api_snapshot): 第1季共6集，标题依次对应 Bangumi 的6个本篇章节；首集日期为1987年8月14日，末集为1988年6月24日。\n\nhttps://www.themoviedb.org/tv/239326 (api_snapshot): 虽然同名且同为6集，但第1季各集仅标为“第1话”至“第6话”，日期也全部记为1987年8月14日，缺少可核对的逐集信息。\n\nhttps://www.themoviedb.org/movie/1431890 (api_snapshot): 标题和1988年1月14日的日期对应第4话，只覆盖单话。\n\n备注：Bangumi 各话未填写单独放送日期；逐集对应主要依据标题和顺序，首末日期另与作品资料吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/108330; https://www.themoviedb.org/tv/307344; https://www.themoviedb.org/tv/239326; https://www.themoviedb.org/movie/1431890",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 307344
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 307344,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

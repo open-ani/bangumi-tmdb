@@ -1,0 +1,41 @@
+{
+  "bangumiId": 104450,
+  "episodes": [
+    {
+      "id": 401217,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 401218,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi subject 收录两卷 OVA；TMDB 116749 第1季恰有两集。两集的标题、发行日期及“バスクの卵”与U艇剧情依次对应首卷和第二卷，故将本篇 sort 1—2 对应第1季第1—2集。\n\nhttps://www.themoviedb.org/tv/116749 (api_snapshot): TMDB TV 116749 为1988年开始、共1季2集的《ハイスクールAGENT》，剧情涉及金森コースケ因访问联合国机密而成为谍报员，制作公司包括 Agent 21。\n\nhttps://www.themoviedb.org/tv/116749/season/1 (api_snapshot): 第1季仅有两集：第1集《諜報員》日期为1988年2月12日，剧情是夺取“バスクの卵”；第2集《諜報員Ⅱ Uボートを追え!》日期为1988年5月13日，剧情涉及U艇。集数、顺序和剧情均与 Bangumi 所列两卷 OVA 对应。\n\nhttps://www.allcinema.net/cinema/88693 (page): allcinema 将首作列为1988年2月12日发行、30分钟的原创录像动画，导演为坂田純一。\n\nhttps://www.allcinema.net/cinema/332387 (page): allcinema 将《諜報員 II Uボートを追え!》单列为30分钟的原创录像动画，导演同为坂田純一。\n\nhttps://ohkami.sakura.ne.jp/meta-ovalist.htm (search_snippet): OVA 发行记录分别列出首卷于1988年2月12日、第二卷《Uボートを追え！》于1988年5月13日发行，均由エイジェント21制作。\n\nhttps://www.themoviedb.org/movie/336800 (api_snapshot): 另查得 TMDB 电影 336800：同名、同首发日，但标为单部56分钟作品；其条目没有分集信息，因此未用它替代两卷 OVA 的逐集映射。\n\n备注：Bangumi 提供的两个章节未填写各自标题和日期；逐集顺序依据两卷发行记录及 TMDB 集表核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/104450; https://www.themoviedb.org/tv/116749; https://www.themoviedb.org/tv/116749/season/1; https://www.allcinema.net/cinema/88693; https://www.allcinema.net/cinema/332387; https://ohkami.sakura.ne.jp/meta-ovalist.htm; https://www.themoviedb.org/movie/336800",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 116749
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 116749,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

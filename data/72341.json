@@ -1,0 +1,41 @@
+{
+  "bangumiId": 72341,
+  "episodes": [
+    {
+      "id": 266226,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 266227,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 标注为1986年开始、共2话的 OVA，章节分别为《フレア1》和《フレア2 禁断の惑星》。候选 TV 第1季恰有2集，首集日期与 Bangumi 发售日一致，第二集标题也明确对应；该季没有额外集数。映射至 TV 126188 第1季第1—2集。\n\nhttps://www.themoviedb.org/tv/126188 (api_snapshot): 候选 TV 126188 于1986年7月14日首播，第1季共2集；第1集《リヨン伝説フレア》日期为1986年7月14日，第2集《リヨン伝説フレア2 禁断の惑星》日期为1990年4月21日，与 Bangumi 两章的标题和顺序对应。\n\nhttps://www.themoviedb.org/movie/846004 (api_snapshot): 候选电影846004《新リヨン伝説 もう一人のフレア》发行于1999年，属于名称和年代均不同的新版。\n\n备注：Bangumi 未提供逐话放送日期，因此第2话的1990年日期仅由候选季表提供。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/72341; https://www.themoviedb.org/tv/126188; https://www.themoviedb.org/movie/846004",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 126188
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 126188,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "bangumiId": 535141,
+  "episodes": [
+    {
+      "id": 1454196,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1454197,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1454198,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1454199,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1454200,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1454201,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1454202,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1454203,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1454204,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1454205,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1454206,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1454207,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1454208,
+      "sort": 13,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 条目的名称、1987-09-12首播日期和13集规模共同指向 TMDB 2286 的第3季，季表也恰好覆盖13集。Bangumi 各集没有标题或放送日期，无法逐集核实顺序，因此暂不建立章节映射规则。\n\nhttps://www.themoviedb.org/tv/2286 (api_snapshot): 该作品原名为 The Real Ghostbusters，首播于1986年；第3季共13集，首集日期为1987-09-12，与 Bangumi 条目的季别、首播日期和集数一致。\n\nhttps://www.themoviedb.org/tv/21871 (api_snapshot): Slimer! and the Real Ghostbusters 首播于1988-09-10，所列第1季有33集，与本条目的1987年首播日期和13集范围不符。\n\n备注：Bangumi 填写的播放结束日期为1987-12-12，TMDB 第3季最后一集标为1987-12-05。；TMDB 第3季第3集标为1987-12-03，日期与其集号前后的每周播出顺序不一致；需要逐集标题或可靠日期核对后才能映射 Bangumi 章节。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/535141; https://www.themoviedb.org/tv/2286; https://www.themoviedb.org/tv/21871",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 1,
+      "tmdbId": 2286
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 2286,
+      "season": 3,
+      "type": "tv"
+    }
+  ]
+}

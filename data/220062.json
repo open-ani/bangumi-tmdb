@@ -1,0 +1,44 @@
+{
+  "bangumiId": 220062,
+  "episodes": [
+    {
+      "id": 736553,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 736554,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 736555,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 条目描述的是三部曲，且有三话；TMDB 的三条独立电影记录分别明确标为第一、第二、第三部，年份、角色和制作人员相符，因此以三部电影覆盖该 subject。TMDB 56391 是同一故事的约 78 分钟全片记录，不再重复列入 targets。Bangumi 提供的三话均无标题和播出日期，现有证据不足以逐话核对，因此暂不填写章节映射。\n\nhttps://www.themoviedb.org/movie/444509 (api_snapshot): TMDB 444509 是《企鹅洛洛历险记》第一部，标为 1986 年短片，片长 31 分钟，导演为根纳季·索科利斯基和吉田健二。\n\nhttps://www.themoviedb.org/movie/463497 (api_snapshot): TMDB 463497 是第二部，标为 1987 年短片，列出苏日双方制作公司。\n\nhttps://www.themoviedb.org/movie/463498 (api_snapshot): TMDB 463498 是第三部，标为 1987 年短片，与前两部有相同的主要角色和导演。\n\nhttps://www.themoviedb.org/movie/56391 (api_snapshot): TMDB 56391 另收录一条 78 分钟的全片记录，原名及 1987 年 6 月 26 日日期与 Bangumi 条目相符。\n\nhttps://www.animator.ru/db/?fid=6765&p=show_film (page): 俄罗斯动画资料库将该作品列为三部电影：第一部于 1986 年、第二和第三部于 1987 年推出。\n\nhttps://www.ivi.tv/watch/priklucheniya_pingvinenka_lolo/33334 (page): 播放平台将作品列为三集，并把第一集明确标作“第一部”。\n\n备注：Bangumi 三个章节缺少各自的标题和日期，尚不能独立核实章节 ID 与三部电影的一一对应。；Bangumi 所列全长 77 分钟与 TMDB 三部短片片长合计 82 分钟存在差异，可能涉及版本或片头片尾计算方式。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220062; https://www.themoviedb.org/movie/444509; https://www.themoviedb.org/movie/463497; https://www.themoviedb.org/movie/463498; https://www.themoviedb.org/movie/56391; https://www.animator.ru/db/?fid=6765&p=show_film; https://www.ivi.tv/watch/priklucheniya_pingvinenka_lolo/33334",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 444509,
+      "type": "movie"
+    },
+    {
+      "id": 463497,
+      "type": "movie"
+    },
+    {
+      "id": 463498,
+      "type": "movie"
+    }
+  ]
+}

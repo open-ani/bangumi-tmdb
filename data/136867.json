@@ -1,0 +1,36 @@
+{
+  "bangumiId": 136867,
+  "episodes": [
+    {
+      "id": 912956,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912956,
+      "targets": [
+        {
+          "id": 129327,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 剧情、导演、配音、片长和 IMDb ID 均对应同一部英国独立动画短片；Bangumi 仅有一话，TMDB 将其收录为单部电影，因此匹配电影 129327，无需电视剧逐集规则。\n\nhttps://www.themoviedb.org/movie/129327 (api_snapshot): TMDB 电影 129327 为《Girls Night Out》，片长 6 分钟；剧情是主妇 Beryl 生日时被朋友带去看男性脱衣舞。导演 Joanna Quinn，配音演员包括 Myfanwy Talog、Gillian Elisa 和 Catrin Llwyd；IMDb ID 为 tt0298889。\n\nhttps://vimeo.com/22547987 (page): 制作方发布的影片资料确认了相同剧情、导演、主要配音演员及 6 分钟片长，并记载影片曾在 1987 年安锡动画节获奖。\n\nhttps://www.animatormag.com/archive/issue-21/issue-21-page-14/ (page): Joanna Quinn 本人回忆影片于 1987 年初完成，可解释 Bangumi 的 1987 年份与 TMDB 所列 1988 年日期的差异。\n\n备注：年份资料不一致：Bangumi 标为 1987 年，TMDB 上映日期为 1988 年 5 月 31 日；导演自述影片于 1987 年初完成。；编剧署名存在差异：Bangumi 列 Les Mills，制作方影片资料将其列为音效人员，TMDB 列 Angela Hughes 为编剧之一。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/136867; https://www.themoviedb.org/movie/129327; https://vimeo.com/22547987; https://www.animatormag.com/archive/issue-21/issue-21-page-14/",
+    "verifiedAt": "2026-09-25T00:40:39.199Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 129327,
+      "type": "movie"
+    }
+  ]
+}
