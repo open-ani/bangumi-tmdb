@@ -1,0 +1,41 @@
+{
+  "bangumiId": 110278,
+  "episodes": [
+    {
+      "id": 420518,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 420519,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: TMDB 条目的年份、首播日期、两集规模及两话标题顺序均与 Bangumi 和独立动画资料相符；第 1 季恰好收录这两话，可对应 Bangumi 本篇第 1 至 2 话。\n\nhttps://www.themoviedb.org/tv/239325 (api_snapshot): TMDB 搜索到 TV 239325《フルーツバージョン》，首播日期为 1985-11-21。\n\nhttps://www.themoviedb.org/tv/239325 (api_snapshot): 作品详情显示仅有一季、共两集，首播日期与 Bangumi 条目一致；TMDB 未提供剧情、制作公司或人员资料。\n\nhttps://www.themoviedb.org/tv/239325/season/1 (api_snapshot): 第 1 季英文集表依次列出第 1 集《Onee-chan to Watashi》（1985-11-21）和第 2 集《Onii-chan to Watashi》（1985-11-28），与 Bangumi 两话标题的读音及顺序一致。\n\nhttps://aniota.jp/?p=314 (page): 动画资料列表记载《フルーツ・バージョン》前篇《お姉ちゃんとわたし》于 1985-11-21 由 SHOWA 发售，后篇为《お兄ちゃんとわたし》。\n\nhttps://www.suruga-ya.jp/kaitori/kaitori_detail/952031237 (page): 骏河屋将《フルーツバージョン お兄ちゃんとわたし》列为动画 VHS 商品，支持后篇是同一作品中的独立一话。\n\n备注：TMDB 所列第 2 集日期 1985-11-28 未找到独立资料核实；逐集对应主要由两话标题、前后篇顺序及总集数共同确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/110278; https://www.themoviedb.org/tv/239325; https://www.themoviedb.org/tv/239325/season/1; https://aniota.jp/?p=314; https://www.suruga-ya.jp/kaitori/kaitori_detail/952031237",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 239325
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 239325,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

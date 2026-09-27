@@ -1,0 +1,37 @@
+{
+  "bangumiId": 102008,
+  "episodes": [
+    {
+      "id": 393031,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 官方年表、TMDB 集标题、日期及剧情一致；Bangumi 本篇仅一话，对应 TMDB 第1季第11集。该季还包含其他作品，因此只取第11集。\n\nhttps://creamlemon.jp/history/ (page): 《くりいむレモン》官方年表记载：1986年1月25日推出 Part11《黒猫館》；1993年另有《続黒猫館》。\n\nhttps://www.themoviedb.org/tv/115290 (api_snapshot): TMDB《くりいむレモン》（115290）始于1984年，第1季收录原系列作品。\n\nhttps://www.themoviedb.org/tv/115290/season/1 (api_snapshot): 第1季第11集题为《くりいむレモンPART11「黒猫館」》，日期为1986年1月25日；剧情同样讲述村上正樹前往黑猫馆。第10集和第12集是其他作品。\n\nhttps://www.themoviedb.org/movie/1011299 (api_snapshot): 同名电影条目（1011299）发行于2007年，剧情设定不同，不对应这部1986年动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/102008; https://creamlemon.jp/history/; https://www.themoviedb.org/tv/115290; https://www.themoviedb.org/tv/115290/season/1; https://www.themoviedb.org/movie/1011299",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115290
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 11,
+      "id": 115290,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

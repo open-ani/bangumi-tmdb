@@ -1,0 +1,58 @@
+{
+  "bangumiId": 77220,
+  "episodes": [
+    {
+      "id": 291341,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 291342,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 291343,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 291344,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 291345,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 将本作列为 1983 年 9 月 12–16 日播出的 5 话电视动画；TMDB 电视剧第 1 季第 1–5 集的逐集日期与这一范围吻合。第 1 季还包含后续年份的集数，因此只映射第 1–5 集。\n\nhttps://www.themoviedb.org/tv/29200 (api_snapshot): 候选电视剧 29200 的第 1 季第 1–5 集分别于 1983 年 9 月 12–16 日播出，与 Bangumi 记载的 5 话及首末放送日期一致；第 6 集始于 1984 年 9 月 10 日，超出本 subject 的范围。\n\nhttps://www.themoviedb.org/movie/506215 (api_snapshot): 候选电影 506215 同名，发行日期为 1983 年 9 月 12 日，但候选数据没有显示它包含五集逐日播出的内容。\n\n备注：Bangumi 各话缺少标题和单集放送日期；逐集对应主要依据五话连续放送区间与 TMDB 逐集日期。；同名电影候选缺少剧情、片长和分集信息，无法判断它与这五话的具体关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/77220; https://www.themoviedb.org/tv/29200; https://www.themoviedb.org/movie/506215",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 29200
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 5,
+      "id": 29200,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "bangumiId": 77221,
+  "episodes": [
+    {
+      "id": 291346,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 291347,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 291348,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 291349,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 291350,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 该 subject 的五集规模、1984 年 9 月 10 日首播、9 月 14 日结束及天气控制武器剧情，与 TMDB 剧集第一季第 6—10 集和独立剧集指南逐项吻合。此范围恰为完整的《The Revenge of Cobra》五部曲；同季还收录其他故事，因此只取第 6—10 集。TMDB 同名电影条目是单部电影记录，不用于五集章节映射。\n\nhttps://www.themoviedb.org/tv/29200 (api_snapshot): TMDB 剧集《G.I. Joe: A Real American Hero》（29200）由 Sunbow Productions 制作，第一季包含 65 集。\n\nhttps://www.themoviedb.org/tv/29200/season/1 (api_snapshot): 第一季第 6 至 10 集均标为《The Revenge of Cobra》，五集依次于 1984 年 9 月 10 日至 14 日播出；前五集属于 1983 年的另一故事，后续从 1985 年的《The Pyramid of Darkness》开始。\n\nhttps://www.joeguide.com/summaries/miniseries.shtml (page): G.I. Joe 专题剧集指南独立列出《The Revenge of Cobra》五集的标题、顺序及 1984 年 9 月 10 日至 14 日的逐日播出日期。\n\nhttps://www.themoviedb.org/movie/400101 (api_snapshot): TMDB 另有同名电影条目 400101，记载为 100 分钟、相同的天气控制武器剧情；输入 subject 则明确为五集 TV 动画。\n\n备注：Bangumi 输入中的五个章节没有各自的标题或播出日期；逐集规则依据已核对的五部曲原始播出顺序及 subject 的五集播出区间。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/77221; https://www.themoviedb.org/tv/29200; https://www.themoviedb.org/tv/29200/season/1; https://www.joeguide.com/summaries/miniseries.shtml; https://www.themoviedb.org/movie/400101",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 6,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 29200
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 6,
+      "episodeEnd": 10,
+      "id": 29200,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

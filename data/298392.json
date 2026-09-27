@@ -1,0 +1,36 @@
+{
+  "bangumiId": 298392,
+  "episodes": [
+    {
+      "id": 927618,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 927618,
+      "targets": [
+        {
+          "id": 529667,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 确认对应 TMDB 电影 529667：日文标题、97 分钟片长、尼尔斯与鹅群旅行的剧情及三位导演均相符。它是单部剧场版电影，区别于全 52 话电视版；Bangumi 的一话由电影 target 覆盖。\n\nhttps://www.themoviedb.org/movie/529667 (api_snapshot): TMDB 电影 529667 为《ニルスのふしぎな旅》，标注 1982 年、97 分钟，导演包括鸟海永行、案纳正美和押井守。\n\nhttps://www.gakken.jp/dc/eizo/nils/index.html (page): 制作方学研确认存在独立制作的剧场版，列出鸟海永行、案纳正美、押井守等主创；另将电视版列为全 52 话。\n\nhttps://cinema.eiga.com/movie/81652/ (page): 映画.com 记载该剧场版为 97 分钟，2015 年 1 月 31 日首次在日本上映，剧情与主创均吻合。\n\n备注：制作年份各来源记为 1982 或 1983 年；学研标注片长 93 分钟，而 Bangumi、TMDB 和映画.com 均为 97 分钟。现有资料仍足以确认作品身份。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/298392; https://www.themoviedb.org/movie/529667; https://www.gakken.jp/dc/eizo/nils/index.html; https://cinema.eiga.com/movie/81652/",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 529667,
+      "type": "movie"
+    }
+  ]
+}

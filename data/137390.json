@@ -1,0 +1,36 @@
+{
+  "bangumiId": 137390,
+  "episodes": [
+    {
+      "id": 913027,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913027,
+      "targets": [
+        {
+          "id": 403937,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 原名、年份、8 分钟片长、导演、演员及 IMDb ID 均相符；Bangumi 的单话短片对应 TMDB 电影 403937。电影无需填写 TV 逐集规则。\n\nhttps://www.themoviedb.org/movie/403937 (api_snapshot): 按原名搜索，TMDB 返回电影《Tony de Peltrie》（ID 403937），上映年份为 1985 年。\n\nhttps://www.themoviedb.org/movie/403937 (api_snapshot): 用 Bangumi 所列 IMDb ID tt0158278 查询，结果指向同一部 TMDB 电影。\n\nhttps://www.themoviedb.org/movie/403937 (api_snapshot): 作品详情显示片长 8 分钟，导演包括 Pierre Lachapelle，配音演员为 Ronald France；这些信息均与 Bangumi 条目吻合。\n\n备注：Bangumi 将日期记为 1985-01-01，TMDB 记为 1985-07-09；具体上映日期存在差异，但不影响作品身份判断。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/137390; https://www.themoviedb.org/movie/403937",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 403937,
+      "type": "movie"
+    }
+  ]
+}

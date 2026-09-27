@@ -1,0 +1,56 @@
+{
+  "bangumiId": 102004,
+  "episodes": [
+    {
+      "id": 393026,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 393027,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 的两话分别是 1985 年前编与 1986 年后编，对应 TMDB 115290 第一季第 7、12 集；它们在系列中不连续，因此分别声明范围和规则。2007 年同名电影的年份、媒介和剧情均不符。\n\nhttps://www.themoviedb.org/tv/115290 (api_snapshot): TMDB 剧集 115290 始于 1984 年，第一季收录《くりいむレモン》原版系列。\n\nhttps://www.themoviedb.org/tv/115290/season/1 (api_snapshot): 第一季第 7 集是《いけないマコちゃん MAKO・セクシーシンフォニー前編》，日期为 1985-07-12；第 12 集是同作后编，剧情延续マコ的故事。两集之间收录其他作品。\n\nhttps://thetvdb.com/series/cream-lemon/episodes/11252712 (page): TVDB 将后编列为第 12 集，日期为 1986-02-25，与 Bangumi 一致。\n\nhttps://www.themoviedb.org/movie/1011300 (api_snapshot): 同名 TMDB 电影 1011300 于 2007 年上映，剧情是漫画创作，属于不同版本。\n\n备注：TMDB 将后编日期记为 1986-05-25；Bangumi 与 TVDB 均记为 1986-02-25。标题、前后编关系及剧情仍支持第 12 集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/102004; https://www.themoviedb.org/tv/115290; https://www.themoviedb.org/tv/115290/season/1; https://thetvdb.com/series/cream-lemon/episodes/11252712; https://www.themoviedb.org/movie/1011300",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115290
+    },
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 12,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 115290
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 7,
+      "id": 115290,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 12,
+      "id": 115290,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

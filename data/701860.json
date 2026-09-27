@@ -1,0 +1,26 @@
+{
+  "bangumiId": 701860,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 条目使用整部新系列的标题，所填 2026 年 9 月 17 日 YouTube 开播日期对应其先行特别篇。TMDB 电视条目的特别篇季仅收录该片，第 1 季则收录后续系列，故覆盖这两个季。Bangumi 快照没有章节，无法建立逐集规则；特别篇的 TMDB 电影条目是同一内容的重复收录，不另列为目标。\n\nhttps://www.themoviedb.org/tv/322438 (api_snapshot): TMDB 的同名电视条目 ID 322438 由 Mattel、Brown Bag Films 制作，列有特别篇季及第 1 季。\n\nhttps://www.themoviedb.org/tv/322438/season/0 (api_snapshot): 特别篇季仅有《Really Helpful Engines》一集，标注于 2026 年 9 月 17 日播出；第 1 季列有 18 集，但集名和播出日期尚未填妥。\n\nhttps://www.themoviedb.org/tv/322438/season/1 (api_snapshot): 已读取第 1 季完整季表，共 18 集，目前均无可核对的播出日期。\n\nhttps://www.nasdaq.com/press-release/mattel-announces-all-new-thomas-friends-animated-series-really-helpful-engines (page): Mattel 公告确认《Railway Stories》以 30 分钟特别篇《Really Helpful Engines》开篇；特别篇于 2026 年 9 月 17 日上线 YouTube，完整剧集预计 2027 年初推出。\n\nhttps://www.themoviedb.org/movie/1764166 (api_snapshot): TMDB 另将同一先行特别篇收录为电影 ID 1764166；其标题、日期、剧情和制作方均对应特别篇，不是整部系列。\n\n备注：Bangumi 尚无章节，不能确定未来是否会将先行特别篇单独建章，也无法建立章节 ID 对应关系。；第 1 季的 TMDB 集表目前只有占位集名和集数，具体放送日期与逐集顺序仍待公布。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/701860; https://www.themoviedb.org/tv/322438; https://www.themoviedb.org/tv/322438/season/0; https://www.themoviedb.org/tv/322438/season/1; https://www.nasdaq.com/press-release/mattel-announces-all-new-thomas-friends-animated-series-really-helpful-engines; https://www.themoviedb.org/movie/1764166",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 322438,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "id": 322438,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

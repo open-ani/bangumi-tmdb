@@ -6740,15 +6740,15 @@
     }
   ],
   "provenance": {
-    "evidence": "codex: 确认对应1996年开播的TV动画TMDB 30983，其第1季承载持续播出的正篇，整季身份明确；三个SP另对应第0季30、32、34集。逐集规则仅提交已核实标题和日期的区间，不将抽查结果外推至全部章节。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): 日文原名搜索返回 TV 30983；详情确认首播日为1996-01-08，剧情为工藤新一服药缩小后化名江户川柯南，原作为青山刚昌，制作公司为东京电影／TMS，与输入一致。正篇仅列第1季，另有第0季特别篇。\n\nhttps://www.tms-e.co.jp/alltitles/conan/087101.html (page): TMS官方作品页确认1996-01-08开播且仍在播出，初期导演为儿玉兼嗣，制作方为读卖电视台、东京电影；剧情、人员与Bangumi及TMDB相符。\n\nhttps://www.themoviedb.org/tv/30983/season/1 (api_snapshot): 第1季集表共21页、1216集；实际读取第1、20、21页。Bangumi本篇1—60及1161—1214的标题、播出日期逐集对应同号TMDB集。第11、52集均保留为单个50分钟长篇，没有拆集；第1214集双方均排期2026-09-26。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 完整读取第0季35集：第30集为2015-01-03《谨贺新年 毛利小五郎》，第32集为2023-03-11《警察学校篇 CASE.降谷零》，第34集为2026-06-06《完美的答案》，与输入三个SP的标题和日期一致。其余集包含独立OVA及其他作品，不能整季归入本subject。\n\n备注：输入省略了本篇61—1160的逐集数据，且本次未读取第1季第2—19页，因此该区间暂不生成规则。；Bangumi第1215集以后含空标题及2099占位日期；即使TMDB已有部分后续排期，也不据位置补齐对应。；OP、ED及未提供的其他章节暂不映射；TMDB详情与季表的集数统计不同，不以总数差值推断编号偏移。",
+    "evidence": "codex: 确认对应1996年开播的TV动画TMDB 30983，其第1季承载持续播出的正篇，整季身份明确；三个SP另对应第0季30、32、34集。逐集规则仅提交已核实标题和日期的区间，不将抽查结果外推至全部章节。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): 日文原名搜索返回 TV 30983；详情确认首播日为1996-01-08，剧情为工藤新一服药缩小后化名江户川柯南，原作为青山刚昌，制作公司为东京电影／TMS，与输入一致。正篇仅列第1季，另有第0季特别篇。\n\nhttps://www.tms-e.co.jp/alltitles/conan/087101.html (page): TMS官方作品页确认1996-01-08开播且仍在播出，初期导演为儿玉兼嗣，制作方为读卖电视台、东京电影；剧情、人员与Bangumi及TMDB相符。\n\nhttps://www.themoviedb.org/tv/30983/season/1 (api_snapshot): 第1季集表共21页、1216集；实际读取第1、20、21页。Bangumi本篇1—60及1161—1214的标题、播出日期逐集对应同号TMDB集。第11、52集均保留为单个50分钟长篇，没有拆集；第1214集双方均排期2026-09-26。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 完整读取第0季35集：第30集为2015-01-03《谨贺新年 毛利小五郎》，第32集为2023-03-11《警察学校篇 CASE.降谷零》，第34集为2026-06-06《完美的答案》，与输入三个SP的标题和日期一致。其余集包含独立OVA及其他作品，不能整季归入本subject。\n\n备注：输入省略了本篇61—1160的逐集数据，且本次未读取第1季第2—19页，因此该区间暂不生成规则。；Bangumi第1215集以后含空标题及2099占位日期；即使TMDB已有部分后续排期，也不据位置补齐对应。；OP、ED及未提供的其他章节暂不映射；TMDB详情与季表的集数统计不同，不以总数差值推断编号偏移。\n\n脚本按放送日期延长逐集规则 313 集。",
     "method": "codex",
     "source": "https://bgm.tv/subject/899; https://www.themoviedb.org/tv/30983; https://www.tms-e.co.jp/alltitles/conan/087101.html; https://www.themoviedb.org/tv/30983/season/1; https://www.themoviedb.org/tv/30983/season/0",
-    "verifiedAt": "2026-09-20T00:16:05.322Z"
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 60,
+      "end": 372,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -6756,7 +6756,7 @@
     },
     {
       "bangumiType": 0,
-      "end": 1214,
+      "end": 1215,
       "episodeStart": 1161,
       "season": 1,
       "start": 1161,

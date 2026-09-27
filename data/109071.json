@@ -1,0 +1,41 @@
+{
+  "bangumiId": 109071,
+  "episodes": [
+    {
+      "id": 415725,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1667488,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 记录为 1985 年 10 月 9 日开始的两集 OVA。资料所列两集的标题与先后顺序，对应 TMDB 单列电影的标题和日期；TMDB 电视条目第 1 季恰好只收录这两集，日期也逐集一致。因此将 Bangumi 本篇第 1、2 话映射至该季第 1、2 集。\n\nhttps://www.themoviedb.org/tv/279544 (api_snapshot): TMDB《スーパーエロティックアニメ》为 1985 年 10 月 9 日首播的两集作品，仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/279544/season/1 (api_snapshot): TMDB 第 1 季仅有两集，第 1 集日期为 1985 年 10 月 9 日，第 2 集为 10 月 17 日。\n\nhttps://en.namikoi.com/anime/1380 (page): 动画资料将《マドンナ 気持ちいい事して下さい》列为第 1 集、《姉＆妹 気持ちいい事して下さい》列为第 2 集，并记载这是 1985 年 10 月 9 日至 17 日发行的两集 OVA。\n\nhttps://www.themoviedb.org/movie/1497472 (api_snapshot): TMDB 另将《マドンナ 気持ちいい事して下さい》单列为电影，日期同为 1985 年 10 月 9 日。\n\nhttps://www.themoviedb.org/movie/1497476 (api_snapshot): TMDB 另将《姉&妹 気持ちいい事して下さい》单列为电影，日期为 1985 年 10 月 17 日。\n\n备注：Bangumi 输入中的两个章节均未填写标题和日期；逐集核对依据为外部资料所列集名、发行日期，以及 TMDB 季表和电影条目。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/109071; https://www.themoviedb.org/tv/279544; https://www.themoviedb.org/tv/279544/season/1; https://en.namikoi.com/anime/1380; https://www.themoviedb.org/movie/1497472; https://www.themoviedb.org/movie/1497476",
+    "verifiedAt": "2026-09-27T00:45:12.426Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 279544
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 279544,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
