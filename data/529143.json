@@ -381,20 +381,30 @@
       "id": 1746641,
       "sort": 76,
       "type": 0
+    },
+    {
+      "id": 1751508,
+      "sort": 77,
+      "type": 0
+    },
+    {
+      "id": 1752193,
+      "sort": 78,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 285797第1季第1—76集。作品年份、TV媒介、剧情及主创一致；完整分页季表与输入逐集日期、可用标题和编号相符。第40话年份笔误经官方公告核实，第41话标题缺失经配信集表补证，因此可建立1—76的连续对应规则。\n\nhttps://www.themoviedb.org/tv/285797 (api_snapshot): 以日文原名搜索后读取详情：TMDB 285797 是2025-04-06开播的TV动画，企鹅宝宝肯定日常小事的剧情、原作るるてあ、导演矢立きょう均与输入一致。\n\nhttps://www.themoviedb.org/tv/285797/season/1 (api_snapshot): 已读取第1季全部两页，共80集。第1—39、42集标题及日期与输入一致（忽略空格差异）；第40集标题一致，日期为2026-01-04；第41集为「風邪予防」，日期2026-01-11；第43—76集使用编号占位标题，但各集编号及播出日期均与输入逐一一致。第76集日期为2026-09-13，第77—80集超出输入范围。\n\nhttps://koupenchan-anime.jp/ (page): 官网确认TV动画剧情、原作及导演，并列出2026-09-06第75话「今日は稲刈り！」及2026-09-13第76话「爆褒め」，支持本次范围更新至76集。\n\nhttps://www.koupenchan-anime.jp/news/news_11.html (search_snippet): 官方公告确认2026-01-04播出新春特别节目，其中包含本篇第40话「あけましておめでとう！新春演芸！」；可确认输入第40话的2025年份有误，并区分本篇与特别节目。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=27886009&workId=27886 (search_snippet): d动画商店集表将第41话列为「風邪予防」，前后第40、42话标题与TMDB一致，支持输入第41话仅填写系列名时的对应判断。\n\nhttps://www.themoviedb.org/tv/285797/season/0 (api_snapshot): 第0季另有2026-01-04的15分钟条目，标题为占位名称；本次不将它与已有明确标题的第1季第40集重复映射。\n\n备注：TMDB详情汇总的总集数60与实际季表80集不一致，本次以完整分页季表为准。；TMDB第43—76集尚为编号占位标题，对应依据是逐集一致的日期与编号，并由官网确认第75、76话的标题及日期。",
+    "evidence": "gpt-6-sol: 作品的首播日期、短篇TV动画内容、原作与导演一致。TMDB第1季全部季表与Bangumi第1至78话逐集编号及播出日期吻合，官网和配信集表进一步核实了近期标题。该季持续收录同一部动画，因此以整季为目标，逐集规则只覆盖已核实的第1至78话。\n\nhttps://www.themoviedb.org/tv/285797 (api_snapshot): 日文原名搜索得到TMDB电视作品285797，首播日期为2025年4月6日，简介同为肯定日常小事的企鹅宝宝短篇动画。\n\nhttps://www.themoviedb.org/tv/285797 (api_snapshot): 作品详情列出原作るるてあ、导演矢立きょう；第1季自2025年4月6日开始，季表共有80集。\n\nhttps://www.themoviedb.org/tv/285797/season/1 (api_snapshot): 已读取第1季季表全部两页。第1至78集的编号和播出日期与Bangumi逐集吻合，第1至42集还可比对具体标题；第43至78集在TMDB主要使用编号占位标题。\n\nhttps://koupenchan-anime.jp/ (page): 官网确认TV动画的剧情、原作、导演及每周日播出安排，并列出第77话于2026年9月20日、第78话于9月27日播出，标题均与Bangumi相同。\n\nhttps://koupenchan-anime.jp/news/news_14.html (page): 官网确认第40话标题为「あけましておめでとう！新春演芸！」，公告日期为2026年1月4日，支持将Bangumi该话的2025年播出年份视为笔误。\n\nhttps://www.telasa.jp/videos/262043 (page): 配信页确认第41话于2026年1月11日播出，实际标题为「風邪予防」；Bangumi该话仅填写作品名。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=27886079&workId=27886 (search_snippet): d动画商店第78话页面的集表列出第62至78话的具体标题，包含第77话「金木犀が忙しくて」及第78话「はなまる承認部」，与Bangumi顺序一致。\n\n备注：Bangumi第40话的播出年份写为2025年；TMDB季表与官网均支持2026年1月4日。；Bangumi第41话标题仅为作品名；配信页确认该话实际标题为「風邪予防」。；TMDB第43话以后多为编号占位标题；第79、80话尚未在Bangumi输入中出现，未纳入逐集规则。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/529143; https://www.themoviedb.org/tv/285797; https://www.themoviedb.org/tv/285797/season/1; https://koupenchan-anime.jp/; https://www.koupenchan-anime.jp/news/news_11.html; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=27886009&workId=27886; https://www.themoviedb.org/tv/285797/season/0",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "source": "https://bgm.tv/subject/529143; https://www.themoviedb.org/tv/285797; https://www.themoviedb.org/tv/285797/season/1; https://koupenchan-anime.jp/; https://koupenchan-anime.jp/news/news_14.html; https://www.telasa.jp/videos/262043; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=27886079&workId=27886",
+    "verifiedAt": "2026-09-28T00:54:41.324Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 76,
+      "end": 78,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -404,8 +414,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 76,
       "id": 285797,
       "season": 1,
       "type": "tv"

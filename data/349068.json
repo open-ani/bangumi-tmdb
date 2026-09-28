@@ -1,0 +1,60 @@
+{
+  "bangumiId": 349068,
+  "episodes": [
+    {
+      "id": 1053702,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1053703,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1053704,
+      "sort": 3,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1053703,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 1269,
+          "season": 2,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1053704,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 1269,
+          "season": 2,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 作品、季首播日期和 3 集规模一致，可确认对应 TMDB 1269 第 2 季。Bangumi 第 2、3 话的日期分别对应 TMDB 第 3、2 集，因此逐集映射使用特例。第 1 话暂不映射。\n\nhttps://www.themoviedb.org/tv/1269 (api_snapshot): 候选 TV 1269 的原名为 Spider-Man and His Amazing Friends，由 Marvel Productions 制作；第 2 季始于 1982-09-18，共 3 集，符合 Bangumi 条目的作品、年份和季数。\n\nhttps://www.themoviedb.org/tv/1269 (api_snapshot): TMDB 第 2 季第 2、3 集分别于 1982-09-25、1982-10-02 播出，与 Bangumi 章节 1053704、1053703 的日期分别一致；TMDB 集标题只有通用编号。\n\n备注：Bangumi 第 1 话标注 1982-09-08，而 TMDB 第 2 季第 1 话为 1982-09-18；TMDB 仅有通用集标题，无法据现有数据确认两者对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/349068; https://www.themoviedb.org/tv/1269",
+    "verifiedAt": "2026-09-28T00:54:41.324Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1269,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}
