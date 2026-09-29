@@ -1,0 +1,36 @@
+{
+  "bangumiId": 136868,
+  "episodes": [
+    {
+      "id": 890780,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 890780,
+      "targets": [
+        {
+          "id": 129339,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 原名、年份、14分钟片长、导演、制作公司及IMDb ID共同确认，Bangumi的单篇动画对应TMDB电影129339。\n\nhttps://www.themoviedb.org/movie/129339 (api_snapshot): TMDB 电影详情显示《Satiemania》为1978年发行的14分钟作品，由Zagreb Film制作，Zdenko Gašparović编剧并执导；IMDb ID为tt0257098。\n\nhttps://api.themoviedb.org/3/find/tt0257098?external_source=imdb_id (api_snapshot): 以IMDb ID tt0257098检索TMDB，返回电影129339。\n\n备注：Bangumi日期为1978-01-01，TMDB日期为1978-09-01；确切首映日期未核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/136868; https://www.themoviedb.org/movie/129339; https://api.themoviedb.org/3/find/tt0257098?external_source=imdb_id",
+    "verifiedAt": "2026-09-29T02:05:50.220Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 129339,
+      "type": "movie"
+    }
+  ]
+}

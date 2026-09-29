@@ -1,0 +1,71 @@
+{
+  "bangumiId": 631195,
+  "episodes": [
+    {
+      "id": 1651726,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1651727,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1651728,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1651729,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1651730,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1651731,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1651732,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1651733,
+      "sort": 8,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 作品、媒介、年份、集数及首末放送日期共同确认 Bangumi 条目对应 TMDB 336705 的第 2 季。Bangumi 各章节缺少标题和逐集放送日期，无法独立核实逐集对应关系，因此不填写规则。\n\nhttps://www.themoviedb.org/tv/336705 (api_snapshot): 《The Scooby-Doo Show》为 Hanna-Barbera Cartoons 制作的动画；第 2 季共 8 集，逐集放送日期从 1977 年 9 月 10 日至 10 月 29 日，与 Bangumi 条目的集数及首末日期一致。\n\nhttps://www.themoviedb.org/tv/2150 (api_snapshot): 《The Scooby-Doo/Dynomutt Hour》的候选季表只有 1976 年播出的第 1 季，未显示对应 1977 年这 8 集的季。\n\n备注：Bangumi 的 8 个章节均无标题和逐集放送日期；目前不能依据逐集资料确认章节 ID 与 TMDB 集号的对应。\n\n脚本按声明范围生成逐集规则：8 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/631195; https://www.themoviedb.org/tv/336705; https://www.themoviedb.org/tv/2150",
+    "verifiedAt": "2026-09-29T02:05:50.220Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 336705
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 336705,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "bangumiId": 112501,
+  "episodes": [
+    {
+      "id": 913195,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913195,
+      "targets": [
+        {
+          "id": 11114,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 标注为 1978 年、共一话的电影；候选 11114 是时间接近的同名电影，单话对应整部电影。2016 年的同名候选与其年份不符。\n\nhttps://www.themoviedb.org/movie/11114 (api_snapshot): 电影 11114 的原名为《Pete's Dragon》，上映日期为 1977-11-03，与 Bangumi 的电影媒介及 1978 年标注接近。\n\nhttps://www.themoviedb.org/movie/294272 (api_snapshot): 同名电影 294272 的上映日期为 2016-08-10，属于与 Bangumi 标注年份明显不同的版本。\n\n备注：Bangumi 的 1978-10-19 与候选 11114 的 1977-11-03 不同；候选数据没有地区上映信息，无法解释具体日期差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/112501; https://www.themoviedb.org/movie/11114; https://www.themoviedb.org/movie/294272",
+    "verifiedAt": "2026-09-29T02:05:50.220Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 11114,
+      "type": "movie"
+    }
+  ]
+}
