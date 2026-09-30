@@ -1,21 +1,186 @@
 {
   "anidbId": 6211,
   "bangumiId": 898,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 712,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 713,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 714,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 715,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 716,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 717,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 718,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 719,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 720,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 721,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 722,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 723,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 5562,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 5563,
+      "sort": 12.5,
+      "type": 0
+    },
+    {
+      "id": 5607,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 5608,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 5609,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 5813,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 5998,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 6849,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 6850,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 6970,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 7625,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 7626,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 28451,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 5563,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 42902,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 28451,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 42902,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 42902 与 Bangumi 898 的年份、剧情、导演及媒介一致。Sunrise 的正篇标题顺序和 TMDB 第 1 季的 23 个逐集标题一致，因此 Bangumi 正篇 sort 1—23 对应第 1 季第 1—23 集。Bangumi 的 12.5 话是总集篇，对应第 0 季第 1 集；sort 24《虎と翼 外伝》对应第 0 季第 2 集，均以章节 ID 单独指定。\n\nhttps://www.themoviedb.org/tv/42902 (api_snapshot): 日文原名搜索命中 TMDB 电视剧 42902，标题为《黒神 The Animation》，首播日期为 2009 年 1 月 8 日。\n\nhttps://www.themoviedb.org/tv/42902 (api_snapshot): 作品详情中的剧情、导演小林常夫及声优信息与 Bangumi 条目相符；该作品列有第 1 季和第 0 季。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=283 (page): 制作方 Sunrise 列出正篇 Episode01《三位一在》至 Episode23《道》，并在第 12、13 话之间单列特别篇《インターミッション》；原作、导演和播出年份也与 Bangumi 相符。\n\nhttps://www.themoviedb.org/tv/42902/season/1 (api_snapshot): TMDB 第 1 季实际有 23 集；英文季表的逐集标题从第 1 集至第 23 集依次对应 Sunrise 公布的正篇标题，包括第 13 集《New World》和第 23 集《Path》。\n\nhttps://www.themoviedb.org/tv/42902/season/0 (api_snapshot): TMDB 第 0 季第 1 集《Intermission》是回顾前 12 集的总集篇；第 2 集《Tiger and Wings》于 2009 年 12 月 22 日播出，对应 Bangumi 的《虎と翼 外伝》。第 0 季其余集数是其他短篇内容。\n\n备注：TMDB 第 1 季第 13、14 集的日期比官方正篇播出顺序所示偏早；这两集的标题及内容简介仍分别对应《新世界》《突破口》。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/898; https://www.themoviedb.org/tv/42902; https://www.sunrise-inc.co.jp/work/detail.php?cid=283; https://www.themoviedb.org/tv/42902/season/1; https://www.themoviedb.org/tv/42902/season/0",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42902
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 42902,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 42902,
+      "season": 0,
       "type": "tv"
     }
   ]

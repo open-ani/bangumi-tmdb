@@ -70,15 +70,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 280049第二季，采用已核实的第1—12集范围。Bangumi第13—23话由标题及逐集日期确认，第24话由官方标题、连续周播排期及TMDB第12集日期确认。第25话暂不映射。\n\nhttps://www.themoviedb.org/tv/280049 (api_snapshot): TMDB 280049 为2026年日本TV动画，主角亚莲转生并使用召唤士能力的设定一致；制作公司及制作委员会成员与输入吻合，别名包含本作第二季日文全名，第二季起始日期为2026-07-04。\n\nhttps://hellmode-anime.com/ (page): 官网确认第二季于2026年7月3日起每周五25:00播出，即自然日周六；学园都市篇简介与输入一致，官方第13—24话标题对应输入章节。\n\nhttps://www.themoviedb.org/tv/280049/season/2 (api_snapshot): 第二季实际集表共12集、1页。第1—11集标题逐一对应Bangumi第13—23话，日期逐一晚一天，符合跨午夜记日差异。第12集标题暂为占位名，排期2026-09-19，与官网第24话及Bangumi的2026-09-18深夜排期一致；没有第13集。\n\n备注：Bangumi额外列出第25话（章节1716481，2026-09-25，标题为空），但当前TMDB第二季仅12集，官网也未列第25话。该章节保留未映射，待官方后续排期及TMDB集表更新后核实。；TMDB第二季第12集尚未填写正式标题；当前对应依据为官网第24话及一致的播出排期。",
+    "evidence": "gpt-6-sol: 作品剧情、别名及制作资料吻合；TMDB 第二季完整13集与本 subject 的13集逐集标题和播出日期对应。旧映射遗漏的第25话现已在 TMDB 第二季列为第13集。\n\nhttps://www.themoviedb.org/tv/280049 (api_snapshot): 日文原名搜索返回 TMDB 电视作品 280049，剧情同为亚莲转生后以召唤士能力在「地狱模式」世界冒险。\n\nhttps://www.themoviedb.org/tv/280049 (api_snapshot): 作品详情列出第二季于2026年7月4日首播、共13集；别名包含本作的「2nd Season」日文标题，制作公司与输入资料相符。\n\nhttps://www.themoviedb.org/tv/280049/season/2 (api_snapshot): 第二季集表共13集、仅1页；第1至13集标题依次对应 Bangumi sort 13至25，播出日期均比 Bangumi 日期晚一天，符合周五深夜播出的记日差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/638151; https://www.themoviedb.org/tv/280049; https://hellmode-anime.com/; https://www.themoviedb.org/tv/280049/season/2",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "source": "https://bgm.tv/subject/638151; https://www.themoviedb.org/tv/280049; https://www.themoviedb.org/tv/280049/season/2",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 24,
+      "end": 25,
       "episodeStart": 1,
       "season": 2,
       "start": 13,
@@ -88,8 +88,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 12,
       "id": 280049,
       "season": 2,
       "type": "tv"

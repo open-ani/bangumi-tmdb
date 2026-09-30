@@ -255,10 +255,10 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品及第1季身份已确认；仅映射逐集日期、顺序和区间集数一致的35集。4月日期冲突及后续章节资料缺失，尚不足以建立完整50集映射，因此不声明整季覆盖。\n\nhttps://www.kadokawa.co.jp/product/video2397/ (search_snippet): KADOKAWA 官方资料确认这是改编自ゆあみ作品的网络动画，由加戸誉夫执导、studio MOTHER 制作，2025年10月2日起在官方 YouTube 配信；剧情为考拉的温暖日常，与输入一致。\n\nhttps://www.themoviedb.org/tv/296933 (api_snapshot): TMDB 296933 的首播日期、日文原名、剧情、导演及制作公司均吻合，所列第1季共49集，确认为同一网络动画版本。\n\nhttps://www.themoviedb.org/tv/296933/season/1 (api_snapshot): 已读取第1季完整集表，total_pages=1。Bangumi 第1—26集及第31—39集与 TMDB 同号集日期逐一一致，包括第14集的2025年12月30日。第27—30集日期存在差异；TMDB 共49集，输入共50集。\n\nhttps://koalas-diary.com/news/513/ (search_snippet): 官方公告明确2026年4月继续配信，4月vol.1于4月2日上线；输入第27集却标为4月9日，不能直接认定4月各集按同号对应。\n\n备注：Bangumi 所有章节均无标题，无法通过标题消解日期冲突。第27—30集暂不映射，需核对官方4月各期内容与 Bangumi 章节实际所指，不能只按相同日期强行错位。；第40—50集缺少标题和日期；TMDB 季表只有49集，无法确认末段编号及总数差异，暂不映射。；TMDB 详情的最后播出日期为2026年9月10日，但季表第49集标为9月17日；结束状态与完整集数仍需后续官方资料核实。",
+    "evidence": "gpt-6-sol: 已确认是同一部2025年起配信的网络动画，TMDB 对应作品为296933、第1季。仅提交播出日期与集号逐集吻合的两个连续区间；四月冲突及无日期的 Bangumi 第50集暂不映射。\n\nhttps://www.themoviedb.org/tv/296933 (api_snapshot): 以日文原名「コアラ絵日記」搜索，TMDB 返回 TV 作品 296933，首播日为2025年10月2日。\n\nhttps://www.themoviedb.org/tv/296933 (api_snapshot): 作品详情中的剧情、导演加戸誉夫、制作公司 studio MOTHER 与 Bangumi 资料一致；详情列出第1季共49集。\n\nhttps://www.themoviedb.org/tv/296933/season/1 (api_snapshot): 已读取第1季完整集表，total_pages 为1。Bangumi 第1—26集及第31—49集与 TMDB 同号集的播出日期逐集一致。四月编号出现差异：TMDB 第27集为4月2日，Bangumi 第27集为4月9日。\n\nhttps://koalas-diary.com/onair/ (page): 动画官网确认本作自2025年10月2日起在官方 YouTube 频道配信。\n\nhttps://koalas-diary.com/news/661/ (page): 动画官网确认同一网络动画于2026年7月继续配信，7月第1期定于7月2日上线。\n\n备注：Bangumi 第27—30集日期为4月9日至4月30日，TMDB 第27—30集日期为4月2日至4月23日；Bangumi 章节没有标题，尚无法判定四月各章的实际内容。；Bangumi 列出50章，但第50章没有播出日期；TMDB 第1季目前只有49集，无法确认第50章是否为占位或漏收集数。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/564980; https://www.kadokawa.co.jp/product/video2397/; https://www.themoviedb.org/tv/296933; https://www.themoviedb.org/tv/296933/season/1; https://koalas-diary.com/news/513/",
-    "verifiedAt": "2026-09-18T12:53:11.022Z"
+    "source": "https://bgm.tv/subject/564980; https://www.themoviedb.org/tv/296933; https://www.themoviedb.org/tv/296933/season/1; https://koalas-diary.com/onair/; https://koalas-diary.com/news/661/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [
     {
@@ -271,7 +271,7 @@
     },
     {
       "bangumiType": 0,
-      "end": 39,
+      "end": 49,
       "episodeStart": 31,
       "season": 1,
       "start": 31,
@@ -289,7 +289,7 @@
     },
     {
       "episode": 31,
-      "episodeEnd": 39,
+      "episodeEnd": 49,
       "id": 296933,
       "season": 1,
       "type": "tv"

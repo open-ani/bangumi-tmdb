@@ -1,21 +1,42 @@
 {
   "anidbId": 6392,
   "bangumiId": 279356,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 873258,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 873259,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 主体明确是《コブラ タイム・ドライブ》OVA，共 2 集，发行于 2009-04-24 至 2009-06-26；其关系中还单独区分了《六人の勇士》和《ザ・サイコガン》。外部资料一致将 Time Drive 识别为 2009 年、2 集的 OVA。TMDB 演员页面列出 2009 年的 “Cobra The Animation: Time Drive”，该链接指向 TMDB movie/659558，因此应映射为电影条目，不应采用候选的 TV 35460 第 1 季。候选 TV 快照显示的是 2010 年、13 集的《COBRA THE ANIMATION》，属于另一部 TV 作品。\n\nhttps://bgm.tv/subject/279356 (page): 输入的 Bangumi subject 数据显示标题为《コブラ タイム・ドライブ》，类型为 OVA，2 集，日期为 2009-04-24 至 2009-06-26。\n\nhttps://animeschedule.net/anime/cobra-the-animation-time-drive (search_snippet): 页面将 Time Drive 标为 OVA，发行日期 2009-04-24，共 2 集，制作公司为 Magic Bus。\n\nhttps://www.allcinema.net/cinema/332966 (search_snippet): allcinema 将《COBRA THE ANIMATION コブラ タイム・ドライブ》标为 2009 年日本原创视频动画，并列出前岛健一等制作信息。\n\nhttps://www.themoviedb.org/person/624 (page): TMDB 演员页面在作品列表中列出 2009 年的 “Cobra The Animation: Time Drive”；该标题链接解析为 TMDB movie/659558。\n\nhttps://www.themoviedb.org/tv/35460/season/1 (api_snapshot): 提供的 TMDB API 快照显示候选 35460 第 1 季首播于 2010-01-02，共 13 集，剧集内容对应另一部 TV 系列。",
+    "evidence": "gpt-6-sol: 本 subject 是 2009 年发行的两话《タイム・ドライブ》OVA。TMDB 76614 第 2 季仅收录这两话，卷号、发行日期、剧情和制作信息均吻合，因此 Bangumi 本篇第 1、2 话依次对应该季第 1、2 集。\n\nhttps://www.themoviedb.org/tv/76614 (api_snapshot): TMDB 76614 是《COBRA THE ANIMATION》OVA 系列；第 2 季名为《タイム・ドライブ》，2009 年 4 月 24 日开始，共 2 集，第 1 季另收录《ザ・サイコガン》。\n\nhttps://www.themoviedb.org/tv/76614/season/2 (api_snapshot): TMDB 76614 第 2 季仅有《タイム・ドライブ VOL.1》和《VOL.2》，日期分别为 2009 年 4 月 24 日和 6 月 26 日；两集剧情与发行方的逐集简介一致。\n\nhttps://bandai-ch.flat-flat.jp/bdc/ProductDetail.jsp?ttlmmm_c=2450 (page): 万代频道将本作列为 OVA 第二弹、全 2 话，并分别列出 VOL.1、VOL.2 的剧情及前岛健一、Magic Bus 等制作信息。\n\nhttps://prtimes.jp/main/html/rd/p/000000080.000001355.html (page): WOWOW 的发行资料确认《タイム・ドライブ》为《ザ・サイコガン》之后的 OVA 第二弹，共 2 话，分别为 VOL.1 和 VOL.2。\n\nhttps://www.themoviedb.org/tv/126278 (api_snapshot): TMDB 另有独立的两集剧集 126278 和标为 60 分钟的电影 659558，均与本作同名同年；76614 第 2 季提供了与两卷 OVA 逐集对应的明确季表。\n\nhttps://www.themoviedb.org/movie/659558 (api_snapshot): TMDB 电影 659558 的片长为 60 分钟，无法表达输入中的两话逐集关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/279356; https://animeschedule.net/anime/cobra-the-animation-time-drive; https://www.allcinema.net/cinema/332966; https://www.themoviedb.org/person/624; https://www.themoviedb.org/tv/35460/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/279356; https://www.themoviedb.org/tv/76614; https://www.themoviedb.org/tv/76614/season/2; https://bandai-ch.flat-flat.jp/bdc/ProductDetail.jsp?ttlmmm_c=2450; https://prtimes.jp/main/html/rd/p/000000080.000001355.html; https://www.themoviedb.org/tv/126278; https://www.themoviedb.org/movie/659558",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 76614
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 659558,
-      "type": "movie"
+      "id": 76614,
+      "season": 2,
+      "type": "tv"
     }
   ]
 }

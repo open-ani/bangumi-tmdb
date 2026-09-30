@@ -1,21 +1,150 @@
 {
   "anidbId": 4897,
   "bangumiId": 965,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 2715,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 2716,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 2717,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 2718,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 2719,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 2720,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 2721,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 2722,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 2723,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 2724,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 2725,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 2726,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 2727,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 2728,
+      "sort": 14,
+      "type": 1
+    },
+    {
+      "id": 2729,
+      "sort": 15,
+      "type": 1
+    },
+    {
+      "id": 2730,
+      "sort": 16,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 2728,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34121,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 2729,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 34121,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 2730,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 34121,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、剧情、导演、制作公司和媒介一致。TMDB 第 1 季完整覆盖 13 话电视本篇，逐话标题与顺序一致；第 0 季恰好收录官网确认的 3 话 DVD 番外篇，故分别映射。首播日期有相差一天的标注，结合周四深夜播出档期，不影响由标题和官方 DVD 资料确认的对应关系。\n\nhttps://bangumi.tv/subject/965 (page): Bangumi 标为 2007 年首播的 TV 动画，共 16 话，原作成田良悟、导演大森贵弘，制作包括 Brain's Base、Aniplex 和 movic。\n\nhttps://www.themoviedb.org/tv/34121 (api_snapshot): TMDB 作品 34121 的剧情、导演和制作公司与 Bangumi 一致；作品下有第 1 季 13 话及第 0 季 3 话。\n\nhttps://www.themoviedb.org/tv/34121/season/1 (api_snapshot): TMDB 第 1 季仅有 13 话，逐话标题及顺序与 Bangumi 本篇第 1—13 话一致。\n\nhttps://www.themoviedb.org/tv/34121/season/0 (api_snapshot): TMDB 第 0 季仅有 3 话，标题依次对应 Bangumi 的番外篇上、中、下，日期分别为 2008 年 2 月 27 日、4 月 23 日、5 月 28 日。\n\nhttps://www.baccano.jp/release/dvd.html (page): 动画官网 DVD 列表确认第 14—16 幕是 DVD 限定番外篇，三话标题及发行日期与 TMDB 第 0 季一致。\n\nhttps://www.baccano.jp/news/pass.html (page): 动画官网公告确认第 6 幕于周四深夜播出；日本深夜档的播出日写法可使日期与次日历日相差一天。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/965; https://bangumi.tv/subject/965; https://www.themoviedb.org/tv/34121; https://www.themoviedb.org/tv/34121/season/1; https://www.themoviedb.org/tv/34121/season/0; https://www.baccano.jp/release/dvd.html; https://www.baccano.jp/news/pass.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34121
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34121,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 34121,
+      "season": 0,
       "type": "tv"
     }
   ]

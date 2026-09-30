@@ -1,14 +1,45 @@
 {
   "anidbId": 5611,
   "bangumiId": 36951,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 156742,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 156743,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 156744,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 156745,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 156746,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 156747,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 年份、剧情、制作公司及六篇标题与顺序均吻合。TMDB 将六篇合集收录为一部电影，因此以电影整体对应 Bangumi subject；TMDB 没有可用于逐话规则的集表。\n\nhttps://www.themoviedb.org/movie/13851 (api_snapshot): TMDB 电影 13851 的片名为 Batman: Gotham Knight，上映日期为 2008-07-08，简介称其包含六个相互关联的故事；制作公司包括 STUDIO4℃、Production I.G、BeeTrain 和 Madhouse。\n\nhttps://www.dc.com/movies/batman-gotham-knight-2008 (page): DC 官方将本作列为 2008 年电影，并按顺序列出与 Bangumi 六话完全一致的六个短篇标题。\n\nhttps://www.production-ig.co.jp/works/batman/ (page): Production I.G 官方确认日文名为《バットマン ゴッサムナイト》，并列出六篇及其制作人员。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/36951; https://www.themoviedb.org/movie/13851; https://www.dc.com/movies/batman-gotham-knight-2008; https://www.production-ig.co.jp/works/batman/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,

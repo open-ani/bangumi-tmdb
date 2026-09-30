@@ -1,20 +1,81 @@
 {
   "anidbId": 8829,
   "bangumiId": 27334,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 162451,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 162452,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 162453,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 162454,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 162455,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 162456,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 162457,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 162458,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 162459,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 162460,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品原名、2012 年首播日期、制作公司、导演和角色设定吻合。TMDB 第 1 季恰为本篇 10 集，逐集日期及前 9 集标题与 Bangumi 一致；第 0 季特别篇不属于本 subject。\n\nhttps://www.themoviedb.org/tv/45190 (api_snapshot): 日文原名“うぽって!!”检索到 TMDB 电视剧 45190，首播日期为 2012-04-07。\n\nhttps://www.themoviedb.org/tv/45190 (api_snapshot): 作品详情显示制作公司为 XEBEC、导演为加戸誉夫，角色包括 FNC 和 M16A4；第 1 季共 10 集，另有独立的第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/45190/season/1 (api_snapshot): 第 1 季第 1 至 10 集的放送日期与 Bangumi 各集逐一相同；前 9 集标题相同，第 10 集标题有一处文字差异。\n\n备注：第 10 集标题在 Bangumi 为“でまって うぽって!!”，TMDB 为“でもって うぽって!!”；两者日期均为 2012-06-09，且同为第 10 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27334; https://www.themoviedb.org/tv/45190; https://www.themoviedb.org/tv/45190/season/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45190
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45190,
+      "season": 1,
       "type": "tv"
     }
   ]

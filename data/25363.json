@@ -1,15 +1,63 @@
 {
   "bangumiId": 25363,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 127587,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 127588,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 127589,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 127590,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 875641,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 875642,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 第 0 季仅收录与本 subject 逐集同名、同日期、同编号的六集特别篇，可覆盖整季。两边均缺第 5 集，因此逐集规则分为第 1–4 集和第 6–7 集。\n\nhttps://www.themoviedb.org/tv/30980 (api_snapshot): TMDB 剧集 30980 的第 0 季列有 6 集特别篇，首集日期为 2009-01-23。\n\nhttps://www.themoviedb.org/tv/30980/season/0 (api_snapshot): 第 0 季的实际集表为第 1、2、3、4、6、7 集；各集标题、日期和编号均与输入中的 6 个 Bangumi 章节一致。\n\nhttps://www.themoviedb.org/movie/672553 (api_snapshot): 电影条目 672553 描述的是《恩底弥翁的奇迹》蓝光版附赠的另一部 Index-tan 动画，不对应本 subject 的六集范围。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/25363; https://www.themoviedb.org/tv/30980; https://www.themoviedb.org/tv/30980/season/0; https://www.themoviedb.org/movie/672553",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 30980
+    },
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 6,
+      "season": 0,
+      "start": 6,
+      "tmdbId": 30980
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

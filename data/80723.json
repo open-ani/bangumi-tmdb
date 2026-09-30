@@ -1,19 +1,160 @@
 {
   "bangumiId": 80723,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 307279,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 307280,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 307281,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 307282,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 307283,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 307284,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 307285,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 307286,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 307287,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 307288,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 307289,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 307290,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 307291,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 307292,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 307293,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 307294,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 307295,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 307296,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 307297,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 307298,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 307299,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 307300,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 307301,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 307302,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 307303,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 307304,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 该 subject 明确为《Scooby-Doo! Mystery Incorporated》第一季，剧情、制作方、2010—2011 年播出范围及 26 集规模均与 TMDB 18123 的第一季吻合。Bangumi 本篇章节按 1 至 26 连续编号；独立分集资料与 TMDB 集表核对后，第一季逐集顺序和总数一致，故建立连续规则。\n\nhttps://www.themoviedb.org/tv/18123 (api_snapshot): TMDB 剧集 18123 的剧情发生在 Crystal Cove，由 Warner Bros. Animation 制作；全剧分两季各 26 集，第一季与该 subject 的名称、剧情、制作方和集数一致。\n\nhttps://www.themoviedb.org/tv/18123/season/1 (api_snapshot): TMDB 第一季集表完整列出第 1 至 26 集；首集为《Beware the Beast from Below》，末集《All Fear the Freak》的日期为 2011 年 7 月 26 日。\n\nhttps://scoobydoo.fandom.com/wiki/Scooby-Doo!_Mystery_Incorporated_season_1 (page): 独立分集资料将第一季列为 26 集，首集于 2010 年 4 月 5 日播出，末集于 2011 年 7 月 26 日播出；逐集编号与 TMDB 第一季集表一致。\n\nhttps://en.wikipedia.org/wiki/Scooby-Doo!_Mystery_Incorporated (page): 资料说明首集在 2010 年 4 月 5 日提前播出，并于 7 月 12 日重播，因此 Bangumi 与 TMDB 的首播日期差异不代表不同版本。\n\n备注：输入中的 Bangumi 章节均未填写单集标题和播出日期；逐集对应依据为第一季的明确范围、连续编号及外部分集表核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/80723; https://www.themoviedb.org/tv/18123; https://www.themoviedb.org/tv/18123/season/1; https://scoobydoo.fandom.com/wiki/Scooby-Doo!_Mystery_Incorporated_season_1; https://en.wikipedia.org/wiki/Scooby-Doo!_Mystery_Incorporated",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 18123
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 18123,
+      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,20 +1,141 @@
 {
   "anidbId": 7654,
   "bangumiId": 10184,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 58180,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 58181,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 58182,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 58183,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 58184,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 58185,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 58186,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 58187,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 58188,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 58189,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 58190,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 58191,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 58192,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 58193,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 58194,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 58195,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 58196,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 58197,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 58198,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 58199,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 58200,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 58201,
+      "sort": 22,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 的媒介、年份、剧情、制作公司及唯一一季的 22 集范围均与该 Bangumi 动画一致；22 个集名逐集同序吻合，因此映射第 1 季全季及本篇第 1–22 话。\n\nhttps://www.themoviedb.org/tv/32871 (api_snapshot): 以日文名称及英文名称搜索，均找到 TMDB TV 32871《SUPERNATURAL：THE ANIMATION》。\n\nhttps://www.themoviedb.org/tv/32871 (api_snapshot): 作品详情确认它是 2011 年的日语动画，讲述 Sam 和 Dean 兄弟的猎魔故事，改编真人剧前两季并包含原创剧情；制作公司为 Madhouse，共 1 季 22 集。\n\nhttps://www.themoviedb.org/tv/32871/season/1 (api_snapshot): 第 1 季集表共 22 集，英文集名从《The Alter Ego》《Roadkill》到《All Hell Breaks Loose (1)》《All Hell Breaks Loose (2)》，与 Bangumi 第 1–22 话的英文副标题逐集同序对应。\n\n备注：TMDB 与 Bangumi 对前 12 话记录的发行日期不同；逐集映射依据是全部 22 个集名及顺序的吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10184; https://www.themoviedb.org/tv/32871; https://www.themoviedb.org/tv/32871/season/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 22,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 32871
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 32871,
+      "season": 1,
       "type": "tv"
     }
   ]

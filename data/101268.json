@@ -1,20 +1,73 @@
 {
   "bangumiId": 101268,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 392525,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 392526,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 429105,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 495435,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 495436,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 495437,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 495438,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 495439,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本 subject 是 2014 年的八集 OVA，对应 TMDB 65928 第 0 季第 1 至 8 集。八集标题及日期逐一吻合；该季后四集属于 2015 年续作，不纳入范围。旧映射的电影 323430 是无关作品。\n\nhttps://www.themoviedb.org/tv/65928 (api_snapshot): TMDB 电视作品 65928 的第 0 季始于 2014 年 4 月 3 日，共有 12 集；第 1、2 季则是 2016 年播出的电视动画。\n\nhttps://www.themoviedb.org/tv/65928/season/0 (api_snapshot): 第 0 季第 1 至 8 集的标题、日期和顺序与本 subject 的八个章节逐一吻合；第 9 至 12 集属于 2015 年的后续 OVA，故仅取第 1 至 8 集。\n\nhttps://www.themoviedb.org/movie/323430 (api_snapshot): 旧映射指向的电影 323430 是 2015 年香港电影《12金鴨》，年份、媒介和内容均不符。\n\nhttps://zh.wikipedia.org/wiki/12%E6%AD%B2%E3%80%82 (search_snippet): 资料将《12歳。》2014 年起的 OVA 与 2016 年电视动画分列，并列出 OVA 第一期的八个相同标题。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101268; https://www.themoviedb.org/tv/65928; https://www.themoviedb.org/tv/65928/season/0; https://www.themoviedb.org/movie/323430; https://zh.wikipedia.org/wiki/12%E6%AD%B2%E3%80%82",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 65928
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 323430,
-      "type": "movie"
+      "episode": 1,
+      "episodeEnd": 8,
+      "id": 65928,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

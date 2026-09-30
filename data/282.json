@@ -1,21 +1,122 @@
 {
   "anidbId": 5406,
   "bangumiId": 282,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 2978,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 2979,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 2980,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 2981,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 2982,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 2983,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 2984,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 2985,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 2986,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 2987,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 2988,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 2989,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 2990,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 2984,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 26707,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 26707 的 2008 年版。Bangumi 收录的 13 幕中，12 幕对应 TMDB 第 1 季完整集表；未在电视播出的第七幕对应特别篇季第 1 集，因此第八至十三幕分别对应第 1 季第 7—12 集。\n\nhttps://www.themoviedb.org/tv/26707 (api_snapshot): TMDB 26707 是 2008 年首播的《狼と香辛料》，剧情为罗伦斯与赫萝结伴旅行，导演为高橋丈夫；其第 1 季有 12 集。\n\nhttps://www.themoviedb.org/tv/26707/season/1 (api_snapshot): 第 1 季第 1—6 集对应 Bangumi 第一至六幕；第 7—12 集的标题和播出日期对应 Bangumi 第八至十三幕。\n\nhttps://www.themoviedb.org/tv/26707/season/0 (api_snapshot): 特别篇季第 1 集为《狼と幸福の尻尾》，日期是 2008 年 5 月 30 日，对应 Bangumi 第七幕。\n\nhttps://spicy-wolf.com/1st/anime/story.html (page): 2008 年版官方网站按第一至六幕、第八至十三幕列出电视剧情，并说明未在电视播出的第七幕收录于 5 月 30 日发行的 DVD 第 3 卷。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/282; https://www.themoviedb.org/tv/26707; https://www.themoviedb.org/tv/26707/season/1; https://www.themoviedb.org/tv/26707/season/0; https://spicy-wolf.com/1st/anime/story.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 26707
+    },
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 8,
+      "tmdbId": 26707
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 26707,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 26707,
+      "season": 0,
       "type": "tv"
     }
   ]

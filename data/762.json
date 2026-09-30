@@ -1,16 +1,86 @@
 {
   "anidbId": 5581,
   "bangumiId": 762,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 2681,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 2682,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 2683,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 2684,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 2685,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 2686,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 2687,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 2688,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 2689,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 2690,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 2691,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 2692,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、电视动画媒介、剧情、制作方及第一季 12 话范围均吻合。逐话标题顺序一致，播出日期除 TMDB 第 1 话外也吻合，因此将 Bangumi 本篇第 1—12 话对应 TMDB 第 1 季第 1—12 话。\n\nhttps://www.themoviedb.org/tv/36067 (api_snapshot): TMDB 作品 36067 是 2008 年的日语电视动画，剧情为乃木坂春香隐瞒自己的爱好；制作公司包括 Geneon、读卖电视台和 ASCII Media Works。其第 1 季为《乃木坂春香の秘密》，第 2 季另列为 2009 年的《ぴゅあれっつぁ♪》。\n\nhttps://www.themoviedb.org/tv/36067/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整集表：共 12 话、仅 1 页；第 1 至 12 话的标题与 Bangumi 章节逐话按顺序对应，后 11 话的播出日期为 2008 年 7 月 17 日至 9 月 25 日。\n\nhttps://bangumi.tv/subject/762 (page): Bangumi 条目记载本作为 2008 年 7 月 10 日开播、9 月 25 日结束的 12 话电视动画，原作、导演及制作公司与 TMDB 作品相符。\n\nhttps://tv.apple.com/jp/episode/%E3%82%82%E3%81%86%E3%82%BF%E3%83%A1%E3%81%A6%E3%81%99/umc.cmc.31z100h8xtrvi2qppoyvw60hg?showId=umc.cmc.2eafwdymdn0lhgubehkj9z0ub (page): Apple TV 将《もう、ダメです…》列为第 1 季第 1 话，日期为 2008 年 7 月 10 日，剧情与 TMDB 第 1 话一致。\n\nhttps://en.wikipedia.org/wiki/List_of_Haruka_Nogizaka%27s_Secret_episodes (page): 资料将 2008 年 7 月 3 日列为开播前的预热节目，正片 12 话从 7 月 10 日播至 9 月 25 日。\n\n备注：TMDB 将第 1 话日期记为 2008 年 7 月 3 日；Bangumi 和 Apple TV 均记为 7 月 10 日，7 月 3 日另有开播前预热节目记录。此日期差异不影响已由标题和剧情确认的逐话对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/762; https://www.themoviedb.org/tv/36067; https://www.themoviedb.org/tv/36067/season/1; https://bangumi.tv/subject/762; https://tv.apple.com/jp/episode/%E3%82%82%E3%81%86%E3%82%BF%E3%83%A1%E3%81%A6%E3%81%99/umc.cmc.31z100h8xtrvi2qppoyvw60hg?showId=umc.cmc.2eafwdymdn0lhgubehkj9z0ub; https://en.wikipedia.org/wiki/List_of_Haruka_Nogizaka%27s_Secret_episodes",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36067
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

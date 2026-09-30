@@ -7456,12 +7456,36 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: 确认对应 1992 年开播、持续播出的电视动画。TMDB 324301 的已核实集表按每次播出编排，与 Bangumi 的常规话及特别篇话号、日期一致；旧映射 30623 则按单个故事段落编排，不能直接按 Bangumi 话号生成规则。本提案只提交已逐集核实的范围。\n\nhttps://www.themoviedb.org/tv/324301 (api_snapshot): 日文原名搜索检出 TMDB 324301 与 30623：两者均标为 1992 年 4 月 13 日开播的《クレヨンしんちゃん》，需要按集表区分编排。\n\nhttps://www.themoviedb.org/tv/324301 (api_snapshot): TMDB 324301 为持续播出的电视动画，列有 35 个常规季及特别篇季；演员包括矢島晶子、ならはしみき、藤原啓治。\n\nhttps://www.themoviedb.org/tv/324301/season/2 (api_snapshot): TMDB 324301 第 2 季的第 33 至 60 集，集号与 Bangumi 本篇第 33 至 60 话相同，逐集播出日期也相同。\n\nhttps://www.themoviedb.org/tv/324301/season/35 (api_snapshot): TMDB 324301 第 35 季的第 1341 至 1351 集，逐集日期与 Bangumi 同号本篇一致；该季目前只收录到 2026 年 9 月 5 日。\n\nhttps://www.themoviedb.org/tv/324301/season/0 (api_snapshot): TMDB 324301 特别篇季第 1 至 30 集，逐集日期与 Bangumi SP 第 1 至 30 话一致；已读取该季两页集表。\n\nhttps://www.themoviedb.org/tv/324301/season/1 (api_snapshot): TMDB 324301 第 1 季存在编排异常：第 8 集标为 1992 年 6 月 1 日，第 33 集又标为 1992 年 4 月 20 日，因此未为这一季建立逐集规则。\n\nhttps://www.themoviedb.org/tv/30623/season/1 (api_snapshot): TMDB 30623 的第 1 季按约 8 分钟的故事段落编号，开播当天的三个段落分别是第 1 至 3 集；它的集号不能直接套用 Bangumi 的每次播出话号。\n\nhttps://www.tv-asahi.co.jp/ch/contents/anime/0009/ (page): 电视台资料确认本作改编自臼井儀人漫画，自 1992 年 4 月 13 日起在朝日电视台播出；所列早期整话标题及每话故事段落与 Bangumi 相符。\n\n备注：TMDB 324301 多数集标题仅为“Episode”加集号；现有规则主要由连续逐集播出日期和集号核实。；第 1 季有日期及额外集号异常，其他年度的季也尚未逐季核验，因此其余 Bangumi 章节暂不映射。；Bangumi 第 1352 至 1354 话已有播出日期，但所读第 35 季集表尚未收录；后续预排话数也未纳入规则。",
+    "evidence": "gpt-6-sol: 匹配 TMDB 324301 的日本电视动画编排。朝日电视台的首播日期、整话故事组合，以及 TMDB 已核实各季的播出日期共同支持该对应关系。第 35 季仍在播出，已列出的集数均属本作，因此以整季作为目标；逐集规则仅写到 TMDB 已列出且日期核实一致的第 1351 集。其余未核实章节暂留空。\n\nhttps://www.themoviedb.org/search/tv?query=%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93 (api_snapshot): 日文原名搜索检出多个同名电视条目，包括 30623、323180 和 324301，均标注 1992 年 4 月 13 日首播，须按版本和集数编排区分。\n\nhttps://www.themoviedb.org/tv/30623/season/1 (api_snapshot): 已读取 30623 的作品详情及第 1 季集表；该条目由 Shin-Ei Animation 制作，但将首播当天的三个故事段落编为第 1 至 3 集，与 Bangumi 按每次播出编话的方式不同。\n\nhttps://www.themoviedb.org/tv/323180 (api_snapshot): 已读取 323180 的作品详情；其制作公司标为 bilibili，主要配音名单为中文配音，集数编排不能直接对应本次提供的日本电视播出章节。\n\nhttps://www.themoviedb.org/tv/324301 (api_snapshot): 已读取 324301 的作品详情；该条目列出 1992 年起的 35 个常规季及特别篇季，配音名单与日本电视动画相符。\n\nhttps://www.themoviedb.org/tv/324301/season/1 (api_snapshot): 已读取 324301 第 1 季完整集表。第 1 至 7、11 至 16、19 至 32 集的集号和日期与所给 Bangumi 本篇章节一致；第 8 至 10、17 集日期不符，第 33 集又重复了下一季的集号。\n\nhttps://www.themoviedb.org/tv/324301/season/2 (api_snapshot): 已读取 324301 第 2 季完整集表；第 33 至 60 集与所给 Bangumi 同号本篇的播出日期逐集一致。\n\nhttps://www.themoviedb.org/tv/324301/season/0 (api_snapshot): 已读取 324301 特别篇季全部两页集表；第 1 至 30 集与所给 Bangumi SP 第 1 至 30 话的日期逐集一致。\n\nhttps://www.themoviedb.org/tv/324301/season/35 (api_snapshot): 已读取 324301 第 35 季集表；已列出的第 1317 至 1351 集均为 2026 年本作的常规播出，第 1341 至 1351 集与所给 Bangumi 同号本篇日期逐集一致。\n\nhttps://www.tv-asahi.co.jp/ch/contents/anime/0009/ (page): 朝日电视台确认本作改编自臼井儀人的漫画，自 1992 年 4 月 13 日起播出；其整话编号及早期每话所含故事标题与 Bangumi 的编排一致。\n\nhttps://www.tv-asahi.co.jp/douga_mv/shinchan_livelp20231114/ (page): 朝日电视台资料将《シロと散歩にいくゾ》列为 1992 年 6 月 8 日播出的第 8 话故事，证明 TMDB 324301 第 1 季第 8 集所填的 6 月 1 日存在日期冲突。\n\nhttps://www.tv-asahi.co.jp/shinchan/story/0385/ (page): 朝日电视台的 2026 年 9 月 5 日故事页列出与 Bangumi 第 1351 话相同的三个故事标题。\n\nhttps://www.tv-asahi.co.jp/pr/contents/20260926_14870.html (page): 朝日电视台的 2026 年 9 月 26 日节目资料列出与 Bangumi 第 1354 话相同的三个故事，确认该电视动画仍在播出。\n\n备注：TMDB 324301 第 1 季第 8 至 10、17 集的日期与所给 Bangumi 资料冲突；Bangumi 第 18 话日期格式不完整。这些话未建立逐集规则。该季另有一个与第 2 季重复编号的第 33 集，未纳入目标。；TMDB 第 35 季集表目前只列到第 1351 集；Bangumi 第 1352 至 1354 话虽已播出，第 1355 话已有官方预告，但尚无对应 TMDB 集可供核实，故未写入规则。；输入中的 Bangumi 中段本篇章节已截断；其他年度的 TMDB 季表也未逐季读取，因此本提案只映射已核实的范围。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/24823; https://www.themoviedb.org/tv/324301; https://www.themoviedb.org/tv/324301/season/2; https://www.themoviedb.org/tv/324301/season/35; https://www.themoviedb.org/tv/324301/season/0; https://www.themoviedb.org/tv/324301/season/1; https://www.themoviedb.org/tv/30623/season/1; https://www.tv-asahi.co.jp/ch/contents/anime/0009/",
-    "verifiedAt": "2026-09-28T00:54:41.324Z"
+    "source": "https://bgm.tv/subject/24823; https://www.themoviedb.org/search/tv?query=%E3%82%AF%E3%83%AC%E3%83%A8%E3%83%B3%E3%81%97%E3%82%93%E3%81%A1%E3%82%83%E3%82%93; https://www.themoviedb.org/tv/30623/season/1; https://www.themoviedb.org/tv/323180; https://www.themoviedb.org/tv/324301; https://www.themoviedb.org/tv/324301/season/1; https://www.themoviedb.org/tv/324301/season/2; https://www.themoviedb.org/tv/324301/season/0; https://www.themoviedb.org/tv/324301/season/35; https://www.tv-asahi.co.jp/ch/contents/anime/0009/; https://www.tv-asahi.co.jp/douga_mv/shinchan_livelp20231114/; https://www.tv-asahi.co.jp/shinchan/story/0385/; https://www.tv-asahi.co.jp/pr/contents/20260926_14870.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 324301
+    },
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 11,
+      "tmdbId": 324301
+    },
+    {
+      "bangumiType": 0,
+      "end": 32,
+      "episodeStart": 19,
+      "season": 1,
+      "start": 19,
+      "tmdbId": 324301
+    },
     {
       "bangumiType": 0,
       "end": 60,
@@ -7490,6 +7514,13 @@
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 32,
+      "id": 324301,
+      "season": 1,
+      "type": "tv"
+    },
+    {
       "episode": 33,
       "episodeEnd": 60,
       "id": 324301,
@@ -7497,8 +7528,6 @@
       "type": "tv"
     },
     {
-      "episode": 1341,
-      "episodeEnd": 1351,
       "id": 324301,
       "season": 35,
       "type": "tv"

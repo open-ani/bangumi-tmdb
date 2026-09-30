@@ -1,19 +1,71 @@
 {
   "bangumiId": 111247,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 424257,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 424258,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 424259,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 424257,
+      "targets": [
+        {
+          "id": 56553,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 424258,
+      "targets": [
+        {
+          "id": 140967,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 424259,
+      "targets": [
+        {
+          "id": 39030,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本 subject 仅收录2008年10月27日至29日播出的三部短片。Bangumi 三话的标题与顺序分别对应 TMDB 收录的三部独立电影条目，剧情、皮克斯制作方及日期也相符。旧映射指向范围更广的合集，应改为逐话对应三部短片。\n\nhttps://shows.disney.com/cars-toons-mater-s-tall-tales (page): 迪士尼将《Rescue Squad Mater》《Mater the Greater》《El Materdor》分别列为《Mater's Tall Tales》的独立短片；该页面介绍的合集包含九个故事。\n\nhttps://www.pixar.com/cars-toons (page): 皮克斯确认《Cars Toons》于2008年推出，内容是以拖线为主角的短片。\n\nhttps://www.themoviedb.org/movie/56553 (api_snapshot): TMDB 56553 是皮克斯短片《Rescue Squad Mater》，日期为2008-10-27，剧情与 Bangumi 第1话的消防车故事一致。\n\nhttps://www.themoviedb.org/movie/140967 (api_snapshot): TMDB 140967 是皮克斯短片《Mater the Greater》，日期为2008-10-28，剧情为拖线讲述特技表演经历，对应 Bangumi 第2话。\n\nhttps://www.themoviedb.org/movie/39030 (api_snapshot): TMDB 39030 是皮克斯短片《El Materdor》，日期为2008-10-29，剧情为拖线在西班牙斗牛，对应 Bangumi 第3话。\n\nhttps://www.themoviedb.org/movie/438788 (api_snapshot): 旧映射 TMDB 438788 是片长35分钟、日期为2008-11-02的《Cars Toon Mater's Tall Tales》合集，范围与本 subject 的三话不符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/111247; https://shows.disney.com/cars-toons-mater-s-tall-tales; https://www.pixar.com/cars-toons; https://www.themoviedb.org/movie/56553; https://www.themoviedb.org/movie/140967; https://www.themoviedb.org/movie/39030; https://www.themoviedb.org/movie/438788",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 438788,
+      "id": 56553,
+      "type": "movie"
+    },
+    {
+      "id": 140967,
+      "type": "movie"
+    },
+    {
+      "id": 39030,
       "type": "movie"
     }
   ]

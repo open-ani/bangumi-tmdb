@@ -1,19 +1,96 @@
 {
   "anidbId": 6026,
   "bangumiId": 993,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1631,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1632,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1633,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1634,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 2615,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 2616,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 2617,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 2618,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 2619,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 2620,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 2621,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 2622,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 4762,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 剧情、人物、制作公司及主创吻合，且 Bangumi 的 13 个本篇标题依次对应 TMDB 第 1 季第 1 至 13 集。TMDB 同一季还收录第 14 至 26 集，属于另列的《WHITE ALBUM-後半》，因此本条目只覆盖第 1 至 13 集。\n\nhttps://www.themoviedb.org/tv/28502 (api_snapshot): TMDB 搜索将 2009 年《WHITE ALBUM》列为 TV 28502；2013 年《WHITE ALBUM 2》是另一条目。\n\nhttps://www.themoviedb.org/tv/28502 (api_snapshot): TMDB 详情显示 TV 28502 共一季 26 集，剧情人物为藤井冬弥、森川由綺和绪方理奈，制作公司为 Seven Arcs，与本条目吻合。\n\nhttps://www.themoviedb.org/tv/28502/season/1 (api_snapshot): 已读取第 1 季完整的 26 集表。第 1 至 13 集的日文标题与 Bangumi 本篇逐集对应；第 14 集起为秋季播出的后半部。\n\nhttps://www.kingrecords.co.jp/cs/g/gKIBA-1654/ (page): 发行方 King Records 的第 4 卷收录第 10 至 13 话，并列出与本条目相同的剧情人物、导演吉村明和编剧佐藤博暉。\n\nhttps://www.kingrecords.co.jp/cs/g/gKIBA-1655/ (page): King Records 的第 5 卷从第 14 话开始，证实本条目的第 13 话是前半部边界。\n\n备注：Bangumi 前 4 话的标注日期比 TMDB 季表早一天；对应集标题完全吻合，其余集的日期基本一致，不影响集号判定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/993; https://www.themoviedb.org/tv/28502; https://www.themoviedb.org/tv/28502/season/1; https://www.kingrecords.co.jp/cs/g/gKIBA-1654/; https://www.kingrecords.co.jp/cs/g/gKIBA-1655/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 28502
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 28502,
       "season": 1,
       "type": "tv"

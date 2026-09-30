@@ -1,19 +1,71 @@
 {
   "bangumiId": 124969,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 480742,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 480743,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 480744,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 480742,
+      "targets": [
+        {
+          "id": 25446,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 480743,
+      "targets": [
+        {
+          "id": 27837,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 480744,
+      "targets": [
+        {
+          "id": 30807,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的三个章节分别对应 TMDB 收录的三部独立电影条目。标题、顺序、制作方、重新剪辑的内容范围及首尾发行日期相符；旧映射只覆盖第一部，遗漏第二、三部。\n\nhttps://www.themoviedb.org/movie/25446 (api_snapshot): TMDB 25446 是《スペシャルエディションI ソレスタルビーイング》，2009年10月27日发行，由 SUNRISE 等制作，内容为第一季25话的重新剪辑版。\n\nhttps://www.themoviedb.org/movie/27837 (api_snapshot): TMDB 27837 是《スペシャルエディションII エンド・オブ・ワールド》，内容为第二季第1至13话的重新剪辑版。\n\nhttps://www.themoviedb.org/movie/30807 (api_snapshot): TMDB 30807 是《スペシャルエディションIII リターン・ザ・ワールド》，2010年2月23日发行，内容为第二季第14至25话的重新剪辑版。\n\nhttps://www.gundam.info/news/video-music/news_video-music_20090710_2836p.html (search_snippet): 高达官方将 Special Edition 列为三部特别剪辑作品，并列出第一部2009年10月27日、第二部2009年12月22日、第三部2010年2月23日的发行安排。\n\n备注：第二部发行日期有一日差异：Bangumi 与高达官方资料为2009年12月22日，TMDB 记为12月23日；作品标题及内容范围一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/124969; https://www.themoviedb.org/movie/25446; https://www.themoviedb.org/movie/27837; https://www.themoviedb.org/movie/30807; https://www.gundam.info/news/video-music/news_video-music_20090710_2836p.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 25446,
+      "type": "movie"
+    },
+    {
+      "id": 27837,
+      "type": "movie"
+    },
+    {
+      "id": 30807,
       "type": "movie"
     }
   ]

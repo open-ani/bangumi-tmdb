@@ -1,16 +1,161 @@
 {
   "anidbId": 5415,
   "bangumiId": 236,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 179,
+      "sort": 0,
+      "type": 1
+    },
+    {
+      "id": 180,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 205,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 210,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 212,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 213,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 347,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 375,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 376,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 489,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 8103,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 12751,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 12752,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 12753,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 12754,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 12755,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 12756,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 12757,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 12758,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 12759,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 12760,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 12761,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 12762,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 12763,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 12764,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 12765,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 179,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 2008 年电视动画《マクロスF》的 TMDB 第 1 季。25 个本篇章节的标题和顺序逐一吻合，且该季恰好只收录这 25 集。Bangumi 特别篇 179 是包含访谈与第 1 话预览的整档节目，不能等同于 TMDB 第 0 季收录的单独预览剪辑，故明确排除。\n\nhttps://www.themoviedb.org/tv/5857 (api_snapshot): TMDB 作品 5857 是 2008 年 4 月 3 日首播的《マクロスF》，剧情人物、导演和制作公司与本 subject 相符；共 1 个正篇季、25 集。\n\nhttps://www.themoviedb.org/tv/5857/season/1 (api_snapshot): TMDB 第 1 季有 25 集；逐集标题与 Bangumi 本篇第 1 至 25 话依次对应，首集和末集日期分别为 2008 年 4 月 3 日、9 月 25 日。\n\nhttps://macross.jp/contents/750340 (page): 系列官方网站确认《マクロスF》电视版于 2008 年 4 月至 9 月播出，全 25 话，导演为菊地康仁。\n\nhttps://www.disneyplus.com/ja-jp/browse/entity-25b261b1-d1dc-48d4-b38e-c6de7d05c645 (page): Disney+ 的第 1 季集表独立列出第 1 至 25 话，标题顺序与 Bangumi 及 TMDB 相符。\n\nhttps://www.themoviedb.org/tv/5857/season/0 (api_snapshot): TMDB 第 0 季第 1 集是 2007 年播出的第 1 话《デカルチャー・エディション》，并非整档周年特别节目。\n\nhttps://dengekionline.com/data/news/2007/12/14/d64a8ff40c8e3b17575b7625cd0fca3c.html (page): 2007 年的《祝25周年!あのマクロスが帰ってくるぞSP!!》包含访谈及约 27 分钟的第 1 话特别剪辑版，属于一档完整特别节目。\n\n备注：Bangumi 第 4 话及第 6 至 18 话的所填播出日期与 TMDB 集表不符；对应关系由逐集标题、独立集表和全季集数确认，这些日期仍需单独校正。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/236; https://www.themoviedb.org/tv/5857; https://www.themoviedb.org/tv/5857/season/1; https://macross.jp/contents/750340; https://www.disneyplus.com/ja-jp/browse/entity-25b261b1-d1dc-48d4-b38e-c6de7d05c645; https://www.themoviedb.org/tv/5857/season/0; https://dengekionline.com/data/news/2007/12/14/d64a8ff40c8e3b17575b7625cd0fca3c.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 5857
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

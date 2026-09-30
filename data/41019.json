@@ -1,21 +1,37 @@
 {
   "anidbId": 9240,
   "bangumiId": 41019,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 534023,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 534023,
+      "targets": [
+        {
+          "id": 402075,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的单话条目与 TMDB 电影 402075 在标题、2012 年 6 月 9 日上映日期、再编辑内容及导演上吻合。它是独立上映的单篇再编辑版，应将该章节对应到电影条目。\n\nhttps://www.themoviedb.org/movie/402075 (api_snapshot): TMDB 电影 402075 的标题为《PERSONA4 the Animation -The Factor of Hope-》，上映日期为 2012-06-09，片长 86 分钟；简介说明它由 TV 动画第 1～25 话、未播出的 True End Episode 及新画面再编辑而成，导演为岸誠二。\n\nhttps://www.p4a.jp/foh/ (search_snippet): 动画官方网站称本作于 2012 年 6 月 9 日起举办约 90 分钟的影院活动上映，内容为 TV 第 1～25 话、True End Episode 和新画面的再编辑版。\n\nhttps://www.aniplex.co.jp/news/detail/?id=14028 (search_snippet): 发行方 Aniplex 的公告确认了相同标题、上映日期和再编辑内容。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/41019; https://www.themoviedb.org/movie/402075; https://www.p4a.jp/foh/; https://www.aniplex.co.jp/news/detail/?id=14028",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 46388,
-      "type": "tv"
+      "id": 402075,
+      "type": "movie"
     }
   ]
 }

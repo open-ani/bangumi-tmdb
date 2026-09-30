@@ -1,16 +1,160 @@
 {
   "anidbId": 4442,
   "bangumiId": 32093,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 144103,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 144104,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 144105,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 144106,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 144107,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 144108,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 144109,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 144110,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 144111,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 144112,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 144113,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 144114,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 522937,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 522937,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 作品的年份、首末播日期、制作公司、导演、媒介和 12 集规模均吻合。第 1 季完整覆盖本篇；依据逐集标题及 DVD 目录校正了 Bangumi 与 TMDB 的不同排序。《Progressive》是另列的 2008 年作品，因此明确排除本 subject 中的该特别篇章节。\n\nhttps://www.themoviedb.org/tv/109444 (api_snapshot): 以日文原名搜索，TMDB 返回 2007 年 8 月 25 日首播的剧集 109444。\n\nhttps://www.themoviedb.org/tv/109444 (api_snapshot): 作品详情显示共一季、12 集，制作公司为 ZEXCS，导演为宫崎なぎさ，播出日期为 2007 年 8 月 25 日至 11 月 10 日；这些信息与待核对的网络动画一致。\n\nhttps://www.themoviedb.org/tv/109444/season/1 (api_snapshot): 第 1 季实际集表共有 12 集，列有逐集标题及每周播出日期；标题可与 Bangumi 的 12 个本篇章节逐一对应，但两边的章节顺序不同。\n\nhttps://www.themoviedb.org/tv/109444/season/0 (api_snapshot): 第 0 季仅有 2008 年 3 月 26 日的《Progressive》一集，时长 30 分钟；它不属于本 subject 的 12 集本篇。\n\nhttps://neoapo.com/animes/review/3119 (page): 资料页记载本作为 CIRCUS 游戏改编、宫崎なぎさ执导、ZEXCS 制作的 2007 年网络动画，每集约 5 分钟，共 12 集。\n\nhttps://www.tsoto.net/Anime/12-Saishuu_Shiken_Kujira_%28ONA%29/Ver%C3%B6ffentlichungen (search_snippet): DVD 上下卷目录的标题顺序与待核对的 Bangumi 章节顺序一致；其中第 3 集写作《シマパン》，支持将 Bangumi 的《ミマパン》视为笔误。\n\nhttps://perry-r.hatenablog.com/entry/20110504/p8 (page): 观看记录列出与 TMDB 第 1 季一致的另一套逐集标题顺序，并区分 12 个短篇与单独的《Progressive》。\n\n备注：Bangumi 第 3 话标题《ミマパン》与 TMDB 及 DVD 目录的《シマパン》相差一字；结合其在 DVD 目录中的位置，按笔误处理。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/32093; https://www.themoviedb.org/tv/109444; https://www.themoviedb.org/tv/109444/season/1; https://www.themoviedb.org/tv/109444/season/0; https://neoapo.com/animes/review/3119; https://www.tsoto.net/Anime/12-Saishuu_Shiken_Kujira_%28ONA%29/Ver%C3%B6ffentlichungen; https://perry-r.hatenablog.com/entry/20110504/p8",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 6,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 5,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 10,
+      "season": 1,
+      "start": 8,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 9,
+      "season": 1,
+      "start": 10,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 8,
+      "season": 1,
+      "start": 11,
+      "tmdbId": 109444
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 12,
+      "season": 1,
+      "start": 12,
+      "tmdbId": 109444
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

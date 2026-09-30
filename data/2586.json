@@ -1,19 +1,97 @@
 {
   "bangumiId": 2586,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 15958,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 15959,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 15960,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 15961,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 15962,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 15963,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 15964,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 15965,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 15966,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 15967,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 15968,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 24712,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 25584,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本条目是2009年《WHITE ALBUM》的后半篇，而非2013年的《WHITE ALBUM 2》。TMDB将前后两部分合列为第1季；后半篇恰为第14至26集，13集的日文标题与Bangumi章节逐集吻合，因此映射至第1季的该闭区间。\n\nhttps://bangumi.tv/subject/2586 (page): Bangumi 将本条目标为2009年10月播出的13集电视动画，列出导演吉田泰三、动画制作Seven Arcs，并关联2009年初的《WHITE ALBUM》前半篇。\n\nhttps://ameblo.jp/anican-staffblog/entry-10330315984.html (page): 2009年的配音采访明确称《WHITE ALBUM》后半篇为第14至26话，10月开播；导演、脚本、音乐和主要配音演员与本条目一致。\n\nhttps://www.themoviedb.org/tv/28502 (api_snapshot): TMDB 28502是2009年的《WHITE ALBUM》电视动画，共1季26集；剧情人物藤井冬弥、森川由绮和绪方理奈及配音演员与本条目吻合。\n\nhttps://www.themoviedb.org/tv/28502/season/1 (api_snapshot): TMDB第1季真实集表含26集；第14至26集与Bangumi给出的13集编号、日文标题逐集对应，且均为2009年10月至12月播出。\n\n备注：Bangumi与TMDB记录的部分播出日期有差异，尤其末集分别为2009年12月23日和27日；具体频道或日期口径未核定。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2586; https://bangumi.tv/subject/2586; https://ameblo.jp/anican-staffblog/entry-10330315984.html; https://www.themoviedb.org/tv/28502; https://www.themoviedb.org/tv/28502/season/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 14,
+      "season": 1,
+      "start": 14,
+      "tmdbId": 28502
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 14,
+      "episodeEnd": 26,
       "id": 28502,
+      "season": 1,
       "type": "tv"
     }
   ]

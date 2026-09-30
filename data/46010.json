@@ -1,20 +1,43 @@
 {
   "anidbId": 8925,
   "bangumiId": 46010,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 189392,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 252662,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 这两话是小说第 13、15 卷限定版附带的剧情动画；TMDB 将其收录在原版《ハイスクールD×D》的特别篇第 0 季第 8、9 集。两集标题、先后顺序及发行时期逐集吻合。第 0 季还混有其他年份和类型的特别内容，因此范围仅取第 8 至 9 集。\n\nhttps://www.themoviedb.org/tv/45950 (api_snapshot): TMDB 作品 45950 为 2012 年首播的《ハイスクールD×D》，列有特别篇第 0 季。\n\nhttps://www.themoviedb.org/tv/45950/season/0 (api_snapshot): TMDB 第 0 季第 8 集《おっぱい、実ります!》日期为 2012-09-06；第 9 集《おっぱい、求めます!》日期为 2013-05-31。两集均为 24 分钟，集名及顺序与 Bangumi 的两话一致。\n\nhttps://www.kadokawa.co.jp/product/201207000033/ (page): KADOKAWA 确认第 15 卷限定版附有相当于动画第 14 话的 Blu-ray，标示发售日为 2013-05-31。\n\nhttps://ishibumi.exblog.jp/20429860/ (page): 原作者博客曾预告第 15 卷限定版于 2013-05-30 发售，解释了 Bangumi 与 TMDB 第二话日期相差一天。\n\nhttps://www.kadokawa.co.jp/product/201111000079 (search_snippet): KADOKAWA 第 13 卷限定版资料确认其附有未播出的动画 Blu-ray。\n\n备注：第二话日期存在一天差异：Bangumi 与原作者预告为 2013-05-30，TMDB 与 KADOKAWA 现有商品页为 2013-05-31；不影响集名及版本对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/46010; https://www.themoviedb.org/tv/45950; https://www.themoviedb.org/tv/45950/season/0; https://www.kadokawa.co.jp/product/201207000033/; https://ishibumi.exblog.jp/20429860/; https://www.kadokawa.co.jp/product/201111000079",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 8,
+      "season": 0,
+      "start": 13,
+      "tmdbId": 45950
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 8,
+      "episodeEnd": 9,
       "id": 45950,
+      "season": 0,
       "type": "tv"
     }
   ]

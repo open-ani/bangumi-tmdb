@@ -1,20 +1,91 @@
 {
   "anidbId": 5052,
   "bangumiId": 2496,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 15165,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 15166,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 15167,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 15168,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 15169,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 15170,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 15171,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 15172,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 15173,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 15174,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 15175,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 15176,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确定对应 TMDB 电视剧 16660 第 1 季全 12 集。作品年份、剧情、制作方、篇章结构和逐集标题一致；Bangumi 的周四日期与 TMDB 的周五日期是深夜播出跨日的记法差异。旧映射 34671 对应另一部作品《もっけ》，应予替换。\n\nhttps://www.themoviedb.org/tv/16660 (api_snapshot): 日文原名「モノノ怪」检索得到 TMDB 电视剧 16660，简介中的卖药郎及五个怪异篇章与本 subject 相符。\n\nhttps://www.themoviedb.org/tv/16660 (api_snapshot): TMDB 16660 为 2007 年东映动画制作的《モノノ怪》，共 1 季 12 集。\n\nhttps://www.themoviedb.org/tv/16660/season/1 (api_snapshot): 第 1 季集表为 12 集；第 1 至 12 集的标题与 Bangumi 顺序逐集一致，播出日期均比 Bangumi 所列日期晚一天。\n\nhttps://www.mononoke-anime.com/ (page): 动画官网列出中村健治、东映动画及全 12 话，与 Bangumi 的制作资料一致。\n\nhttps://www.mononoke-anime.com/story/main1.html (page): 动画官网按顺序列出五个篇章的第 1 至 12 话；首话标为 7 月 12 日深夜播出，说明与 TMDB 7 月 13 日的日期差异。\n\nhttps://www.themoviedb.org/tv/34671 (api_snapshot): 旧映射的 TMDB 34671 实为《もっけ》，讲述静流与瑞生姐妹，2007 年 10 月首播，共 24 集，并非本 subject。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2496; https://www.themoviedb.org/tv/16660; https://www.themoviedb.org/tv/16660/season/1; https://www.mononoke-anime.com/; https://www.mononoke-anime.com/story/main1.html; https://www.themoviedb.org/tv/34671",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 16660
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 34671,
+      "id": 16660,
+      "season": 1,
       "type": "tv"
     }
   ]

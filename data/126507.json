@@ -1,20 +1,91 @@
 {
   "bangumiId": 126507,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 487485,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 487486,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 487487,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 487488,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 487489,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 487490,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 487491,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 487492,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 487493,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 487494,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 487495,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 487496,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的 12 个本篇章节与 TMDB《Family Guy》第六季的完整 12 集，标题和顺序逐集一致；所有播出日期呈一致的一天差异。旧电影映射只涉及首集，应改为电视作品第六季。\n\nhttps://www.themoviedb.org/tv/1434 (api_snapshot): TMDB 的《Family Guy》为电视动画，ID 1434；其第六季标注为 2007 年首播、共 12 集。\n\nhttps://www.themoviedb.org/tv/1434/season/6 (api_snapshot): 已读取第六季完整集表（共 1 页）。第 1 至 12 集的标题与 Bangumi 12 个本篇章节依次对应，播出日期均比 Bangumi 所列日期早一天。\n\nhttps://www.themoviedb.org/movie/653528 (api_snapshot): 旧映射 ID 653528 是仅对应首集《Blue Harvest》的电影条目，不能覆盖整个第六季。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/126507; https://www.themoviedb.org/tv/1434; https://www.themoviedb.org/tv/1434/season/6; https://www.themoviedb.org/movie/653528",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 6,
+      "start": 1,
+      "tmdbId": 1434
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 653528,
-      "type": "movie"
+      "id": 1434,
+      "season": 6,
+      "type": "tv"
     }
   ]
 }

@@ -1,20 +1,77 @@
 {
   "anidbId": 12283,
   "bangumiId": 187800,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 650553,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 650554,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 770569,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 806173,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 806174,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 934279,
+      "sort": 19,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 六个 Bangumi 章节分别对应 TMDB 70716 第0季第2至6集及第19集。前五集由标题、内容及发行批次核对；第19集虽在 TMDB 仅标作“第19话”，但其集号、日期和4分钟时长与官方公布的黑骑士OVA及 Bangumi 章节相符。第0季还混有其他特别篇和电视版的不同版本，因此只声明已确认的区间。\n\nhttps://www.themoviedb.org/tv/70716 (api_snapshot): TMDB 70716 是2015年开播的《ビキニ・ウォリアーズ》，导演为葛谷直行；第1季有12集，另设第0季特别篇。\n\nhttps://www.themoviedb.org/tv/70716/season/0 (api_snapshot): 第0季第2至6集与 Bangumi sort 14至18 的标题逐一相同；第19集日期为2021-05-17、时长4分钟，但 TMDB 未填写标题。第0季还收录其他特别篇及电视版的不同版本。\n\nhttps://bikini-warriors.com/anime/news/n010.php (page): 官方确认2016年OVA于12月7日发售，由葛谷直行执导、feel.与PRA制作，收录与 Bangumi 前两话同名的两集新作，另有六集电视版的改编版本。\n\nhttps://bikini-warriors.com/anime/news/n016.php (page): 官方确认2018年OVA2于7月27日发售，两集新作的标题与 Bangumi sort 17、18 相同。\n\nhttps://www.bikini-warriors.com/figure/f10.php (search_snippet): 官方克蕾莉克手办页面注明，附赠OVA为第16话《フィギュアだけでは伝えきれない魅力を映像化してみた》，与 Bangumi sort 16 同名。\n\nhttps://bikini-warriors.com/figure/f12.php (page): 官方黑骑士手办页面注明，附赠OVA为第19话《普通の女子高生が異世界でブラックナイトになって淫税生活を目指してみた》，时长4分钟，与 Bangumi sort 19 对应。\n\n备注：Bangumi sort 16 记载日期为2017-12-07，TMDB 第0季第4集记为2017-12-15；标题和官方注明的第16话身份一致，日期差异待考。；官方黑骑士商品页所列预计发货时间与 Bangumi、TMDB 记录的2021-05-17不同；第19集对应关系另有官方集号、标题和时长支持。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/187800; https://www.themoviedb.org/tv/70716; https://www.themoviedb.org/tv/70716/season/0; https://bikini-warriors.com/anime/news/n010.php; https://bikini-warriors.com/anime/news/n016.php; https://www.bikini-warriors.com/figure/f10.php; https://bikini-warriors.com/figure/f12.php",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 18,
+      "episodeStart": 2,
+      "season": 0,
+      "start": 14,
+      "tmdbId": 70716
+    },
+    {
+      "bangumiType": 0,
+      "end": 19,
+      "episodeStart": 19,
+      "season": 0,
+      "start": 19,
+      "tmdbId": 70716
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 2,
+      "episodeEnd": 6,
       "id": 70716,
+      "season": 0,
+      "type": "tv"
+    },
+    {
+      "episode": 19,
+      "id": 70716,
+      "season": 0,
       "type": "tv"
     }
   ]

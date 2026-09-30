@@ -3,47 +3,33 @@
   "episodes": [
     {
       "id": 16680,
-      "sort": 15,
+      "sort": 1,
       "type": 0
     },
     {
       "id": 16681,
-      "sort": 16,
+      "sort": 2,
       "type": 0
     }
   ],
   "locked": false,
-  "overrides": [
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 两话标题、前后篇顺序、2009年播出安排和制作信息均吻合，确认对应 TMDB 45893 第0季第4至5集。仅映射这两集，不包含第3集《×365 EX》或其他特别篇。\n\nhttps://www.themoviedb.org/tv/45893 (api_snapshot): TMDB 45893 是《ひだまりスケッチ》动画系列，别名包含《ひだまりスケッチ×365 特別編》，制作公司包括 SHAFT、TBS 和 Aniplex。\n\nhttps://www.themoviedb.org/tv/45893/season/0 (api_snapshot): TMDB 第0季第4集和第5集分别标为《×365 特別編》前篇、后篇，两话的完整标题与输入章节逐一吻合；第3集则是另一个作品《×365 EX》。季表共30集，仅1页。\n\nhttps://www.tbs.co.jp/anime/hidamari/2nd/01news/news.html (page): TBS 官方公告确认特别篇前篇、后篇分别于2009年10月17日和24日深夜0时30分播出，DVD于10月28日发行；深夜播出解释了 TMDB 日期晚一天。\n\nhttps://www.b-ch.com/titles/2451/ (page): 万代频道将其列为第二系列结束后制作的2009年特别篇，列出的原作、导演和 SHAFT 等制作信息与输入相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2662; https://www.themoviedb.org/tv/45893; https://www.themoviedb.org/tv/45893/season/0; https://www.tbs.co.jp/anime/hidamari/2nd/01news/news.html; https://www.b-ch.com/titles/2451/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
+  },
+  "rules": [
     {
-      "bangumiEpisodeId": 16680,
-      "targets": [
-        {
-          "episode": 4,
-          "id": 45893,
-          "season": 0,
-          "type": "tv"
-        }
-      ]
-    },
-    {
-      "bangumiEpisodeId": 16681,
-      "targets": [
-        {
-          "episode": 5,
-          "id": 45893,
-          "season": 0,
-          "type": "tv"
-        }
-      ]
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 4,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 45893
     }
   ],
-  "provenance": {
-    "evidence": "codex: 两话的完整标题、前后篇标记、剧情及数量逐一吻合，确认对应 TMDB 45893 第0季第4—5集。日期相差一天与深夜跨日记法一致；范围不包含×365 EX、第二季正篇或其他特别篇。\n\nhttps://www.themoviedb.org/tv/45893 (api_snapshot): TMDB 45893 为《向阳素描》动画系列，制作公司包括 SHAFT、TBS、Aniplex；简介的人物与向阳庄背景一致，别名明确包含《ひだまりスケッチ×365 特別編》。\n\nhttps://www.themoviedb.org/tv/45893/season/0 (api_snapshot): 第0季完整集表共30集、1页。第4、5集明确标注为×365特别篇前、后篇，两组完整标题及剧情均相符，日期为2009-10-18、2009-10-25。第3集则是2009年3月发行的×365 EX，属于另一作品。\n\nhttps://bgm.tv/subject/2662/ep (page): Bangumi 本篇仅有 sort 15、16 两话，分别是自行车／龟兔赛跑、红线／意味深长，首播日期为2009-10-17、2009-10-24。\n\nhttps://akibablog.blog.jp/archives/50881533.html (page): Aniplex 宣传人员的同期文章确认这是两话全新特别篇，前后篇分别于10月17日、24日深夜0时30分播出，DVD于10月28日发行；两话剧情与TMDB第0季第4、5集一致。",
-    "method": "codex",
-    "source": "https://bgm.tv/subject/2662; https://www.themoviedb.org/tv/45893; https://www.themoviedb.org/tv/45893/season/0; https://bgm.tv/subject/2662/ep; https://akibablog.blog.jp/archives/50881533.html",
-    "verifiedAt": "2026-09-18T19:06:50.005Z"
-  },
-  "rules": [],
   "schemaVersion": 1,
   "targets": [
     {

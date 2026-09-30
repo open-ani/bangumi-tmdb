@@ -1,21 +1,119 @@
 {
   "anidbId": 5720,
   "bangumiId": 902,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1215,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1216,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1217,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1218,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1219,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1220,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1221,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1222,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1223,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1224,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1225,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1226,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1227,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 6662,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 6662,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34714,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播日期、剧情、制作公司和导演一致。Bangumi 第1至13话对应 TMDB 第1季全13集；Bangumi 第14话是2009年5月27日推出的特别篇，对应 TMDB 第0季第1集。\n\nhttps://www.themoviedb.org/tv/34714 (api_snapshot): TMDB 34714 为2008年10月4日首播的电视动画《かんなぎ》；剧情涉及御厨仁用神木雕出精灵像、薙由此现身，制作公司为 A-1 Pictures，导演为山本寛，与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/34714/season/1 (api_snapshot): TMDB 第1季共13集；第1至13集的标题、放送日期及顺序与 Bangumi 第1至13话逐集吻合。\n\nhttps://www.themoviedb.org/tv/34714/season/0 (api_snapshot): TMDB 第0季第1集《もしもこんな『かんなぎ』があったら…》于2009年5月27日放送，与 Bangumi 第14话的标题和日期对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/902; https://www.themoviedb.org/tv/34714; https://www.themoviedb.org/tv/34714/season/1; https://www.themoviedb.org/tv/34714/season/0",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34714
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34714,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34714,
+      "season": 0,
       "type": "tv"
     }
   ]

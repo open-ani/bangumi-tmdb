@@ -1,14 +1,70 @@
 {
   "anidbId": 6762,
   "bangumiId": 3759,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 27320,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 848593,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 848594,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 848595,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 848596,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 848597,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 848598,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 848599,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 848600,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 848601,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 848602,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本作于同日以约 30 分钟的 OVA DVD 发行。TMDB 电影 63233 的日期、片长、导演和制作公司均与发行资料吻合，故采用该条目。TMDB 另有 11 集电视条目，但其逐周日期与一次发行的 DVD 资料不符，集名也不足以核实逐集对应；电影目标不建立逐集规则。\n\nhttps://www.themoviedb.org/search?query=%E3%81%91%E3%82%82%E3%81%AE%E3%81%A8%E3%83%81%E3%83%A3%E3%83%83%E3%83%88 (api_snapshot): 日文原名搜索同时返回电影 63233 和电视 200947，二者均标注 2009 年 10 月 23 日。\n\nhttps://www.themoviedb.org/movie/63233 (api_snapshot): 电影 63233 的发行日为 2009 年 10 月 23 日，片长 30 分钟，导演为 Yuuji Umoto，制作公司为 Indeprox；这些信息与该 OVA 相符。\n\nhttps://www.themoviedb.org/tv/200947/season/1 (api_snapshot): 电视 200947 的第 1 季列有 11 集，但集名均仅为编号，日期从 2009 年 10 月 23 日逐周排至 2010 年 1 月 1 日，无法据此核实 Bangumi 各话对应关系。\n\nhttps://www.cdjapan.co.jp/product/TSDS-75423 (page): DVD 商品资料确认本作为 2009 年 10 月 23 日发行的 OVA，片长约 29 分钟，另列约 2 分钟的特典话。\n\nhttps://www.b-ch.com/titles/3305/ (page): 万代频道将作品归类为原创影像动画，剧情、导演、制作人员和声优与输入资料一致。\n\n备注：DVD 资料另列特典话，现有证据不足以确认它是否就是 Bangumi 所列第 11 话；TMDB 电影条目未提供分段清单。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3759; https://www.themoviedb.org/search?query=%E3%81%91%E3%82%82%E3%81%AE%E3%81%A8%E3%83%81%E3%83%A3%E3%83%83%E3%83%88; https://www.themoviedb.org/movie/63233; https://www.themoviedb.org/tv/200947/season/1; https://www.cdjapan.co.jp/product/TSDS-75423; https://www.b-ch.com/titles/3305/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,

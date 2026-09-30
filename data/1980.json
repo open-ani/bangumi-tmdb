@@ -1,20 +1,91 @@
 {
   "anidbId": 5954,
   "bangumiId": 1980,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 10290,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 10291,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 10292,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 10293,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 10294,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 10295,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 10296,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 10297,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 10298,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 10299,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 10300,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 10301,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的2008年电视动画身份、剧情、制作信息及12集规模吻合；第1季全部12集的标题与 Bangumi 第1至12话逐一对应。TMDB 首集较早的日期与先行放送相符，因此映射为第1季全季。\n\nhttps://www.themoviedb.org/tv/34139 (api_snapshot): TMDB 34139 是2008年的日本电视动画《伯爵と妖精》，剧情涉及莉迪雅、爱德格与梅洛欧宝剑；标注共1季12集，制作公司为 Artland。\n\nhttps://www.themoviedb.org/tv/34139/season/1 (api_snapshot): TMDB 第1季共12集；第1至第12集的日文标题逐一对应输入中的 Bangumi 本篇章节，顺序一致。\n\nhttps://www.animatetimes.com/tag/details.php?id=700 (page): 动画资料确认本作为2008年10月7日至12月23日播出的12集电视动画，原作、制作公司、导演及主要声优与 TMDB 条目吻合。\n\nhttps://www.at-x.com/pdf/program/1219740211841.pdf (search_snippet): AT-X 的2008年9月节目表列有《伯爵と妖精》第1话特别先行放送，可解释 TMDB 首集日期早于常规电视放送日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1980; https://www.themoviedb.org/tv/34139; https://www.themoviedb.org/tv/34139/season/1; https://www.animatetimes.com/tag/details.php?id=700; https://www.at-x.com/pdf/program/1219740211841.pdf",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34139
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34139,
+      "season": 1,
       "type": "tv"
     }
   ]

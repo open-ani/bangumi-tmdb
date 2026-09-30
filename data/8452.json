@@ -1,20 +1,51 @@
 {
   "anidbId": 7438,
   "bangumiId": 8452,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 48505,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 48506,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 48507,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 48508,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本 subject 是 2010 年发售的四集《たまゆら》OVA。TMDB 83621 第 1 季的年份、制作公司、集数及逐集标题均相符，且整季只含这四集。旧映射 45088 对应后续电视动画，其第 0 季也不含本 OVA。\n\nhttps://www.themoviedb.org/tv/83621 (api_snapshot): TMDB 83621 是始于 2010 年的四集动画，制作公司为 Hal Film Maker，演职员包括佐藤顺一；其第 1 季共四集。\n\nhttps://www.themoviedb.org/tv/83621/season/1 (api_snapshot): TMDB 83621 第 1 季四集的标题与 Bangumi 四集依次对应；首集日期同为 2010 年 9 月 6 日，其余三集的日期各相差一天。\n\nhttps://www.tamayura.info/hitotose/story/index_ova.html (page): 动画官网将 2010 年 OVA 列为四集，逐集标题和顺序与 Bangumi 一致，并列明佐藤顺一及 Hal Film Maker。\n\nhttps://tamayura.info/hitotose/goods/index_ova.html (page): 官网确认 OVA 两卷分别于 2010 年 11 月 26 日和 12 月 23 日发售，每卷收录两集。\n\nhttps://www.themoviedb.org/tv/45088 (api_snapshot): 旧映射 TMDB 45088 始于 2011 年；其第 1、2 季分别是后续电视动画《hitotose》和《もあぐれっしぶ》。\n\nhttps://www.themoviedb.org/tv/45088/season/0 (api_snapshot): TMDB 45088 的第 0 季仅收录 2012 至 2014 年的后续作品特别篇，没有本 subject 的 2010 年四集 OVA。\n\n备注：Bangumi 第 2 至 4 集日期比 TMDB 各早一天，且第 2、4 集标题有少量文字差异；官网确认的标题、顺序和四集总量仍支持逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8452; https://www.themoviedb.org/tv/83621; https://www.themoviedb.org/tv/83621/season/1; https://www.tamayura.info/hitotose/story/index_ova.html; https://tamayura.info/hitotose/goods/index_ova.html; https://www.themoviedb.org/tv/45088; https://www.themoviedb.org/tv/45088/season/0",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 83621
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 45088,
+      "id": 83621,
+      "season": 1,
       "type": "tv"
     }
   ]

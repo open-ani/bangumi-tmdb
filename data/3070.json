@@ -1,19 +1,52 @@
 {
   "anidbId": 6126,
   "bangumiId": 3070,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 21751,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 21752,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 21753,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 21754,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 832543,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 832544,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应TMDB 56834第0季第1至2集，两集分别收录Bangumi本篇第1至2话、第3至4话。TMDB按两卷编集，Bangumi按四个故事分话；现有逐集结构无法在不重复占用TMDB集数的情况下准确表示二合一关系，因此不填写逐集规则。第0季另有2010年内容，不能映射整季。\n\nhttps://www.themoviedb.org/tv/56834 (api_snapshot): TMDB 56834 是2007年开播的《瀬戸の花嫁》TV系列；其第0季简介明确描述TV版之后的OVA，始于2008年11月28日。\n\nhttps://www.themoviedb.org/tv/56834/season/0 (api_snapshot): 第0季第1集于2008年11月28日推出，合收《暴力教室》《死なない男》；第2集于2009年1月30日推出，合收《きみのためにできること》《貴方なしでは》。第3至11集是2010年的其他内容。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=20338001&workId=20338 (page): d动画商店将本作列为2008年的两集OVA，注明导演岸誠二、原作木村太彦及GONZO×AIC制作，与输入资料一致。\n\nhttps://www.b-ch.com/titles/2454/001 (page): 万代频道将《仁》作为一个播放单元，内含《暴力教室》和《死なない男》两话。\n\n备注：Bangumi的两条SP尚未在已读取的TMDB第0季集表中确认独立对应集，未纳入映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3070; https://www.themoviedb.org/tv/56834; https://www.themoviedb.org/tv/56834/season/0; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=20338001&workId=20338; https://www.b-ch.com/titles/2454/001",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 56834,
       "season": 0,
       "type": "tv"

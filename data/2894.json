@@ -1,21 +1,49 @@
 {
   "anidbId": 5301,
   "bangumiId": 2894,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 19128,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 19129,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 19130,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 94503 明确对应 2007 年的《Tsubasa RESERVoir CHRoNiCLE: Tokyo Revelations》，其约 75 分钟的电影条目与本 Bangumi subject 的 3 集 OVA（每集约 25 分钟）整体对应，因此无需填写季或集数范围。AnimeLists 的 TMDB 37565 实际是 2005 年《Tsubasa Chronicle》电视系列，包含两季共 52 集，不是本 subject；其 season=0 不能据此替代 TMDB 对 Tokyo Revelations 的独立定位。AniDB 关联的作品标题、三集标题和 2007—2008 发布范围与官方制作方资料一致。\n\nhttps://www.themoviedb.org/movie/94503-tokyo-revelations/images/backdrops (search_snippet): TMDB 页面标题为 “Tsubasa RESERVoir CHRoNiCLE: Tokyo Revelations (2007)”，URL 中的电影 ID 为 94503。\n\nhttps://fmdb.mov/movie/94503-tokyo-revelations (page): 按 TMDB ID 94503 展示《ツバサ TOKYO REVELATIONS》，日期为 2007-11-16，时长 1 小时 15 分，并列为动画作品。\n\nhttps://www.productionig.com/contents/works_sp/58_/ (page): Production I.G 官方资料说明 Tokyo Revelations 是 3 部 OAD，并列出三部及日期：2007-11-16《The Sorcerer's Message》、2008-01-17《The Boy's Right Eye》、2008-03-17《The Dream the Princess Saw》。\n\nhttps://smartv-streaming.com/serie/tsubasa-chronicle-2005-streaming (search_snippet): 该页的 TMDB 数据显示 ID 37565 为 2005 年《Tsubasa Chronicle》电视系列，2005-04-09 至 2006-11-04，共 2 季、52 集。\n\nhttps://fanart.tv/series/76023/tsubasa-reservoir-chronicle/ (page): 页面将 TheTVDB 系列对应的 TMDB ID 标为 37565，并将作品识别为《Tsubasa: RESERVoir CHRoNiCLE》电视系列。\n\nhttps://www.production-ig.co.jp/works/tsubasa-tokyo-revelations/staff-cast.html (page): Production I.G 官方作品页确认作品名、CLAMP 原作、导演多田俊介、动画制作 Production I.G，与本 subject 的 OVA 作品身份一致。",
+    "evidence": "gpt-6-sol: 本 subject 的三集 OAD 与 TMDB 37565 第 0 季第 1—3 集逐集对应：标题、顺序、发行日期和时长一致。第 0 季后两集是另一部作品，因此仅取第 1—3 集。电影 94503 是同名的 75 分钟整体条目；采用有准确逐集记录的特别篇季表建立映射。\n\nhttps://www.productionig.com/contents/works_sp/58_/ (page): Production I.G 确认本作是以东京篇为内容、由多田俊介执导的三部 OAD；三集分别于 2007-11-16、2008-01-17、2008-03-17 发行。\n\nhttps://www.themoviedb.org/tv/37565/season/0 (api_snapshot): TMDB 电视剧 37565 的第 0 季第 1—3 集，标题、顺序、日期和每集 25 分钟均与本作三集一致；第 4—5 集属于《ツバサ 春雷記》。\n\nhttps://www.themoviedb.org/tv/37565 (api_snapshot): TMDB 电视剧 37565 是 2005 年开始的《ツバサ・クロニクル》，其第 0 季列有特别篇，而第 1、2 季各为 26 集电视动画。\n\nhttps://www.themoviedb.org/movie/94503 (api_snapshot): TMDB 电影 94503 同名，标为 2007-11-16 上映、片长 75 分钟；其记录没有三集的独立集表。\n\nhttps://www.themoviedb.org/tv/299631/season/1 (api_snapshot): 另一个同名电视剧条目 299631 虽列三集，但日期为 2007-11-24 至 2007-12-08，与官方发行日期不符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2894; https://www.themoviedb.org/movie/94503-tokyo-revelations/images/backdrops; https://fmdb.mov/movie/94503-tokyo-revelations; https://www.productionig.com/contents/works_sp/58_/; https://smartv-streaming.com/serie/tsubasa-chronicle-2005-streaming; https://fanart.tv/series/76023/tsubasa-reservoir-chronicle/; https://www.production-ig.co.jp/works/tsubasa-tokyo-revelations/staff-cast.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2894; https://www.productionig.com/contents/works_sp/58_/; https://www.themoviedb.org/tv/37565/season/0; https://www.themoviedb.org/tv/37565; https://www.themoviedb.org/movie/94503; https://www.themoviedb.org/tv/299631/season/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 37565
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 94503,
-      "type": "movie"
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 37565,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

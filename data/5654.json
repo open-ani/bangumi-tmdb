@@ -1,20 +1,174 @@
 {
   "anidbId": 7315,
   "bangumiId": 5654,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 37213,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 37214,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 37215,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 37216,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 37217,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 37218,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 37219,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 37220,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 37221,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 37222,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 37223,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 48478,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 48479,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 48480,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 48481,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 48482,
+      "sort": 15.5,
+      "type": 1
+    },
+    {
+      "id": 48483,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 48484,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 48485,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 48486,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 48487,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 48488,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 48489,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 48490,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 48491,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 48482,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 36089,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 电视剧 36089。第 1 季的 24 集标题和顺序与 Bangumi 本篇逐集吻合；Bangumi 的第 15.5 话总集篇对应 TMDB 第 0 季第 1 集。部分 TMDB 日期与官网或 Bangumi 日期不同，例如首话和第 16 话，但标题、剧情、集数及官网放送顺序共同确认了对应关系。\n\nhttps://www.themoviedb.org/tv/36089 (api_snapshot): TMDB 36089 的原名、莱纳与菲莉斯寻找勇者遗物的剧情、2010 年年份、ZEXCS 制作和主要声优均与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/36089/season/1 (api_snapshot): TMDB 第 1 季共 24 集；逐集标题与 Bangumi 本篇第 1 至 24 话按相同顺序对应，末话均为《遠い日の約束》。\n\nhttps://www.themoviedb.org/tv/36089/season/0 (api_snapshot): TMDB 第 0 季仅有一集第 15.5 话总集篇，内容是伊莉丝向西昂报告，与 Bangumi 特别篇《いりす・れぽ～と 総集編》对应。\n\nhttps://www.denyuden.jp/outline/ (page): 动画官网列出第 1 至 24 话及第 15.5 话《いりす・れぽ〜と》，确认后者为总集篇；官网记载首话于 2010 年 7 月 1 日、末话于 12 月 16 日播出。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5654; https://www.themoviedb.org/tv/36089; https://www.themoviedb.org/tv/36089/season/1; https://www.themoviedb.org/tv/36089/season/0; https://www.denyuden.jp/outline/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36089
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 36089,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 36089,
+      "season": 0,
       "type": "tv"
     }
   ]

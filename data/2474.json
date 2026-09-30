@@ -1,16 +1,91 @@
 {
   "anidbId": 5273,
   "bangumiId": 2474,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 15001,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 15002,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 15003,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 15004,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 15005,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 15006,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 15007,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 15008,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 15009,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 15010,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 15011,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 15012,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 15013,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 本条目是 2008 年 1 月开播的 13 话 TV 动画；TMDB 36983 第 1 季的首播日期、GONZO 制作信息、剧情人物及全部 13 话的标题和顺序均吻合。CAPU2 在 TMDB 中列为第 2 季，不属于本条目。\n\nhttps://www.themoviedb.org/tv/36983 (api_snapshot): 以日文原名及英文别名搜索，均找到 TMDB 电视剧 36983；原名为《ロザリオとバンパイア》，首播日期为 2008-01-03，剧情涉及青野月音、阳海学园与吸血鬼赤夜萌香。\n\nhttps://www.themoviedb.org/tv/36983 (api_snapshot): 作品详情显示由 GONZO 制作；第 1 季于 2008-01-03 首播，共 13 集。第 2 季另名《ロザリオとバンパイア CAPU2》，共 13 集。\n\nhttps://www.themoviedb.org/tv/36983/season/1 (api_snapshot): 第 1 季集表共 13 集、仅 1 页；第 1 至 13 集的日文标题与 Bangumi 各话依序对应，播出日期从 2008-01-03 至 2008-03-27，每周一集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2474; https://www.themoviedb.org/tv/36983; https://www.themoviedb.org/tv/36983/season/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36983
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

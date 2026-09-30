@@ -1,20 +1,54 @@
 {
   "anidbId": 8595,
   "bangumiId": 24544,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 125750,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 125751,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 125750,
+      "targets": [
+        {
+          "id": 145675,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 125751,
+      "targets": [
+        {
+          "id": 210227,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的两话分别是《焔の獄》和《光の囀》；官方资料确认它们是《新京都编》的前、后篇。TMDB 将两篇分别收录为电影 145675 和 210227，剧情、制作人员及约 45 分钟的片长均吻合。旧映射只包含前篇，需补入后篇。\n\nhttps://www.themoviedb.org/movie/145675 (api_snapshot): TMDB 电影 145675 是《新京都编 前编》，剧情为卷町操寻找剑心、阻止志志雄的京都破坏计划；片长 46 分钟，导演古桥一浩、编剧冈田麿里，动画制作包含 Studio Deen。\n\nhttps://www.themoviedb.org/movie/210227 (api_snapshot): TMDB 电影 210227 是《新京都编 后编》，别名含《光の囀》；片长 46 分钟，导演、编剧和动画制作与前篇一致。\n\nhttps://www.kenshin-tv.com/shinkyouto/zenpen.html (search_snippet): 官方资料确认前篇题为《焔の獄》，2012 年 3 月 21 日发行影碟，正片约 45 分钟。\n\nhttps://www.aniplex.co.jp/lineup/rurounikenshin/products/detail/?id=2818 (page): 发行方确认后篇题为《光の囀》，2012 年 8 月 22 日发行影碟，正片约 45 分钟，制作人员与 Bangumi 资料相符。\n\n备注：TMDB 两条目的日期分别比 Bangumi 所列日本先行上映日早一天；篇名、剧情和制作资料足以确认对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/24544; https://www.themoviedb.org/movie/145675; https://www.themoviedb.org/movie/210227; https://www.kenshin-tv.com/shinkyouto/zenpen.html; https://www.aniplex.co.jp/lineup/rurounikenshin/products/detail/?id=2818",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 145675,
+      "type": "movie"
+    },
+    {
+      "id": 210227,
       "type": "movie"
     }
   ]

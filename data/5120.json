@@ -1,13 +1,25 @@
 {
+  "anidbId": 7318,
   "bangumiId": 5120,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 36804,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 36805,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 972868 的原题、日文原名及发行日期均与 Bangumi 一致，剧情同为以系统工程师よしたに为主角的 Flash 动画；TMDB 标注片长 35 分钟。外部资料确认这是 2010 年 1 月 29 日发行的原创 Flash OVA，Bangumi 的 2 话是该短篇作品的分集方式，而 TMDB 将完整内容作为 movie 收录，因此应映射为整部电影，不填写季或集数范围。未发现旧版、新版、TV 版或其他同名作品混淆。\n\nhttps://www.themoviedb.org/movie/972868 (api_snapshot): TMDB API 详情：作品名 Boku, Otaryman.／ぼく、オタリーマン。，日期 2010-01-29，日语，剧情为日本上班族及其御宅倾向，片长 35 分钟。\n\nhttps://api.bgm.tv/v0/subjects/5120 (api_snapshot): Bangumi API：OVA《ぼく、オタリーマン。》，日期 2010-01-29，共 2 话，原作よしたに，导演/脚本芦名みのる。\n\nhttps://natalie.mu/comic/news/22362 (search_snippet): 报道确认《ぼく、オタリーマン。》改编为原创 Flash 动画并由 DVD 发行，内容是独身、无恋人、御宅系统工程师よしたに的生活。\n\nhttps://www.mau2.com/anime/bokuotariiman (search_snippet): 资料列出该 OVA 的第 1、2 话及各自收录内容，支持 Bangumi 的两话分集记录。\n\nhttps://tv.apple.com/jp/show/%E3%81%BB%E3%81%8F%E3%82%AA%E3%82%BF%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%B3/umc.cmc.1nb89zyydfk3e1rtf530gifmw (search_snippet): Apple TV 将同名动画列为 2010 年、约 34 分钟的完整内容，剧情及版权信息与该 OVA 相符。",
+    "evidence": "gpt-6-sol: 原名、发售日期、Flash 动画版本及约 35 分钟的正片长度相符。Bangumi 按两话记录，TMDB 则将完整正片收录为一部电影，因此映射整部电影，不建立逐集规则。\n\nhttps://www.themoviedb.org/movie/972868 (api_snapshot): TMDB 电影 972868 的日文原名为《ぼく、オタリーマン。》，日期为 2010-01-29，片长 35 分钟。\n\nhttps://bangumi.tv/subject/5120 (search_snippet): Bangumi 将该作品列为 2010-01-29 发售的两话 OVA，原作よしたに，导演芦名みのる。\n\nhttps://books.rakuten.co.jp/rb/6248232/ (search_snippet): DVD 商品资料确认同名 Flash 动画于 2010-01-29 发售，由芦名みのる执导、改编自よしたに的作品；DVD 标示的 50 分钟包含访谈特典。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=22630 (page): d动画商店将这部 2010 年动画作为一个完整条目收录，剧情为御宅族系统工程师よしたに的日常。\n\nhttps://www.mau2.com/anime/bokuotariiman/ep/1 (search_snippet): 分话资料将第 1 话标为约 17 分钟；两话的长度与 TMDB 的 35 分钟完整作品相符。\n\n备注：TMDB 未提供分话信息，无法在其电影条目内表示 Bangumi 两话各自的边界。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/5120; https://www.themoviedb.org/movie/972868; https://api.bgm.tv/v0/subjects/5120; https://natalie.mu/comic/news/22362; https://www.mau2.com/anime/bokuotariiman; https://tv.apple.com/jp/show/%E3%81%BB%E3%81%8F%E3%82%AA%E3%82%BF%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%B3/umc.cmc.1nb89zyydfk3e1rtf530gifmw",
-    "verifiedAt": "2026-09-08T18:32:15.341Z"
+    "source": "https://bgm.tv/subject/5120; https://www.themoviedb.org/movie/972868; https://bangumi.tv/subject/5120; https://books.rakuten.co.jp/rb/6248232/; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=22630; https://www.mau2.com/anime/bokuotariiman/ep/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,

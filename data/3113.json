@@ -1,20 +1,66 @@
 {
   "anidbId": 6517,
   "bangumiId": 3113,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 22068,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 22069,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 22070,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 22071,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 22072,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 22073,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 172182,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本条目是 2010—2014 年的 7 话 OVA。TMDB 45500 的剧情、制作方、导演、年份及第 1 季全部 7 集的标题和顺序均吻合；第 2、7 话的日期差异分别来自先行上映与影碟发售采用了不同日期。第 1 季仅含这 7 话，可整季对应。2016 年的 22 话《RE:0096》是重新剪辑的电视版，不属于本条目。\n\nhttps://www.themoviedb.org/tv/45500 (api_snapshot): TMDB 45500 首播于 2010 年，剧情涉及巴纳吉、奥黛丽与“拉普拉斯之箱”；制作公司包含 SUNRISE，导演为古橋一浩，共 7 集，只有第 1 季收录正篇。\n\nhttps://www.themoviedb.org/tv/45500/season/1 (api_snapshot): TMDB 45500 第 1 季的 7 集依次为《ユニコーンの日》《赤い彗星》《ラプラスの亡霊》《重力の井戸の底で》《黒いユニコーン》《宇宙と地球と》《虹の彼方に》，与 Bangumi 的 7 话顺序和标题对应。\n\nhttps://www.themoviedb.org/tv/67524 (api_snapshot): TMDB 67524 是 2016 年首播、共 22 集的《機動戦士ガンダムUC RE:0096》，与本条目的 7 话 OVA 版本不同。\n\nhttps://www.gundam.info/news/video-music/news_video-music_20170808_18504p.html (search_snippet): 高达官方说明《RE:0096》是将原本全 7 话的 OVA 重新剪辑成的 22 话电视版。\n\nhttps://www.bandainamco.co.jp/files/ir/newsletter/pdf/bn_news21.pdf (page): 万代南梦宫资料记载第 2 话《赤い彗星》于 2010 年 10 月 30 日先行上映，11 月 12 日发售影碟，解释了 Bangumi 与 TMDB 的日期差异。\n\nhttps://g-uc.ggame.jp/sp/html/spinfo_07.html (page): 官方资料记载第 7 话《虹の彼方に》于 2014 年 5 月 17 日开始上映及付费配信，6 月 6 日发售影碟；另将《百年の孤独》列为特典。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3113; https://www.themoviedb.org/tv/45500; https://www.themoviedb.org/tv/45500/season/1; https://www.themoviedb.org/tv/67524; https://www.gundam.info/news/video-music/news_video-music_20170808_18504p.html; https://www.bandainamco.co.jp/files/ir/newsletter/pdf/bn_news21.pdf; https://g-uc.ggame.jp/sp/html/spinfo_07.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45500
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45500,
+      "season": 1,
       "type": "tv"
     }
   ]

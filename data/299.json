@@ -1,16 +1,86 @@
 {
   "anidbId": 5083,
   "bangumiId": 299,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 3211,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 3212,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 3213,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 3214,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 3215,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 3216,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 3217,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 3218,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 3219,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 3220,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 3221,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 3222,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi subject 是 2007 年播出的 SHAFT 电视动画首作，共 12 话；TMDB 42887 第一季的年份、剧情、制作方、集数及逐话主要标题均吻合。第一季只收录本作，因此覆盖整季，并将 Bangumi 本篇第 1 至 12 话顺序对应 TMDB 第一季第 1 至 12 集。\n\nhttps://www.themoviedb.org/tv/42887 (api_snapshot): 以日文原名搜索到 TMDB 电视作品 42887，首播日期为 2007 年 7 月 7 日，简介涉及糸色望与二年へ组。\n\nhttps://www.themoviedb.org/tv/42887 (api_snapshot): 作品详情列出 SHAFT、新房昭之及 2007 年首播的第一季；另有独立的第二、三季。\n\nhttps://www.themoviedb.org/tv/42887/season/1 (api_snapshot): 第一季真实集表共 12 话。逐话比对后，第 1 至 12 话的主要标题均按顺序对应 Bangumi 的 12 个本篇章节；第 5 话对应标题为「シミと毒だし」。\n\nhttps://king-cr.jp/special/zetsubou_series/best10/ (page): 发行方的系列页面将《さよなら絶望先生》列为第一话至第十二话，并将《俗》《獄》《懺》分别列出。\n\nhttps://kumetan-wiki-mirror.noginote.net/index.php/%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%E7%B5%B6%E6%9C%9B%E5%85%88%E7%94%9F%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%AA%E3%82%B9%E3%83%88 (page): 动画分话资料逐话列出首作的 12 话标题及制作人员；第 5 话标题为「シミと毒だし」，与 TMDB 集表一致。\n\n备注：Bangumi 所给终播日为 2007 年 9 月 22 日，TMDB 将末话记为 9 月 23 日；末两话的日期存在一天差异，但标题与集序一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/299; https://www.themoviedb.org/tv/42887; https://www.themoviedb.org/tv/42887/season/1; https://king-cr.jp/special/zetsubou_series/best10/; https://kumetan-wiki-mirror.noginote.net/index.php/%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%E7%B5%B6%E6%9C%9B%E5%85%88%E7%94%9F%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%AA%E3%82%B9%E3%83%88",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42887
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

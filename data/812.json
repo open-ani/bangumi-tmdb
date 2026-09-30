@@ -1,14 +1,30 @@
 {
   "anidbId": 4932,
   "bangumiId": 812,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 119012,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 119012,
+      "targets": [
+        {
+          "id": 23151,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject是2007年上映的动画电影《劇場版「空の境界」第二章 殺人考察（前）》；TMDB电影ID 23151与原题、上映日及剧情完全对应。TMDB电视条目97825是2013年的电视重剪/分集版本，第1季第7–8集分别为“Murder Speculation Part One I/II”，内容对应本电影，不能将整季视为本subject。两种定位均成立，但代表不同版本。\n\nhttps://www.aniplex.co.jp/lineup/karanokyoukai2/ (page): Aniplex官方页面确认标题为《劇場版「空の境界」第二章 殺人考察（前）》、剧场上映时间为2007年12月，并描述高中时期的式与幹也及连续杀人事件。\n\nhttps://jephmann.com/movies/film.php?id=23151 (page): 页面标题为“The Garden of Sinners: A Study in Murder - Part 1 (2007)”，原题为《劇場版「空の境界」第二章 殺人考察（前）》、发行日为2007-12-29，页面链接的TMDB电影为/movie/23151；页面说明电影数据主要来自TMDB。\n\nhttps://www.themoviedb.org/tv/97825/season/1 (search_snippet): TMDB第1季页面显示共有13集；第7集为“Murder Speculation Part One I”，第8集为“Murder Speculation Part One II”，均为2013年、24分钟，并分别描述该章前半段剧情。",
+    "evidence": "gpt-6-sol: Bangumi 条目是一部于 2007 年 12 月 29 日上映的第二章剧场版，唯一章节《殺人考察（前）》对应 TMDB 电影 23151。片名、日期、剧情、导演、编剧及制作公司均吻合。旧映射中的 TV 集数不纳入这部电影的对应关系。\n\nhttps://www.themoviedb.org/movie/23151 (api_snapshot): 以日文原名搜索，TMDB 返回电影 23151，片名为《劇場版「空の境界」第二章 殺人考察（前）》，上映日期为 2007-12-29；简介涉及高中时期的两仪式、黑桐干也及连续猎奇杀人事件。\n\nhttps://www.themoviedb.org/movie/23151 (api_snapshot): 电影 23151 的详情确认原名、上映日期和剧情，并列出导演野中卓也、编剧平松正树，以及 ufotable、Aniplex 等制作公司。\n\n备注：Bangumi 标注片长 58 分钟，TMDB 标注 62 分钟；片长口径存在差异。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/812; https://www.aniplex.co.jp/lineup/karanokyoukai2/; https://jephmann.com/movies/film.php?id=23151; https://www.themoviedb.org/tv/97825/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/812; https://www.themoviedb.org/movie/23151",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,13 +32,6 @@
     {
       "id": 23151,
       "type": "movie"
-    },
-    {
-      "episode": 7,
-      "episodeEnd": 8,
-      "id": 97825,
-      "season": 1,
-      "type": "tv"
     }
   ]
 }

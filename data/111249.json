@@ -1,19 +1,53 @@
 {
   "bangumiId": 111249,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 424266,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 424267,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 424266,
+      "targets": [
+        {
+          "id": 145316,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 424267,
+      "targets": [
+        {
+          "id": 141528,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 本条列出的两集分别是《Air Mater》和《Time Travel Mater》。片名、所属系列、2011／2012 年份及导演信息与 TMDB 的两部独立短片相符。旧映射只覆盖第一集，因此按章节分别对应两部电影。\n\nhttps://www.themoviedb.org/movie/145316 (api_snapshot): TMDB 将《Air Mater》收录为 2011 年的独立动画短片电影，ID 145316；其别名包含《Mater's Tall Tales: Air Mater》，导演为 Rob Gibbs。\n\nhttps://www.themoviedb.org/movie/141528 (api_snapshot): TMDB 将《Time Travel Mater》收录为 2012 年的独立动画短片电影，ID 141528；其别名包含《Mater's Tall Tales: Time Travel Mater》，导演为 Rob Gibbs。\n\nhttps://d23.com/a-to-z/cars-toons-television/ (search_snippet): 迪士尼 D23 的《Cars Toons》条目将《Air Mater》和《Time Travel Mater》列为该系列的两部作品。\n\n备注：Bangumi 所给放送日期与 TMDB 电影日期不一致；现有证据足以确认作品身份，但未核定各日期对应首播、发行或其他版本的哪一种日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/111249; https://www.themoviedb.org/movie/145316; https://www.themoviedb.org/movie/141528; https://d23.com/a-to-z/cars-toons-television/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 145316,
+      "type": "movie"
+    },
+    {
+      "id": 141528,
       "type": "movie"
     }
   ]

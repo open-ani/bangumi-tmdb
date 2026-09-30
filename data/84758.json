@@ -1,20 +1,68 @@
 {
   "bangumiId": 84758,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 324052,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 324053,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 324054,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 324055,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 324056,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 324057,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 324058,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 官方资料确认本条目是2010年发行、由七部独立音乐影像组成的《Parallel Works 2》。TMDB 电视系列第0季第14至20集的作品标识、发行日期和七部标题顺序均吻合，可将 Bangumi 本篇第1至7话连续对应至这七集。旧映射指向2009年的第二部剧场电影，应予更正。\n\nhttps://www.gurren-lagann.net/gurrepala2/ (page): 官方将《グレンラガン パラレルワークス2》列为2010年5月26日发行的七部音乐影像作品，并按顺序列出七个标题及创作者。\n\nhttps://www.themoviedb.org/tv/21729/season/0 (api_snapshot): TMDB《天元突破グレンラガン》ID 21729 的第0季第14至20集均标为《Parallel Works 2》，日期均为2010年5月26日；七集的标题与官方收录顺序逐一对应。\n\nhttps://www.themoviedb.org/tv/21729 (api_snapshot): TMDB ID 21729 是2007年首播的《天元突破グレンラガン》电视系列，设有第0季特别篇。\n\nhttps://www.themoviedb.org/movie/23452 (api_snapshot): 旧映射电影 ID 23452 是2009年的《劇場版 天元突破グレンラガン 螺巌篇》，剧情、媒介及年份均与本条目不同。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/84758; https://www.gurren-lagann.net/gurrepala2/; https://www.themoviedb.org/tv/21729/season/0; https://www.themoviedb.org/tv/21729; https://www.themoviedb.org/movie/23452",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 14,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 21729
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 23452,
-      "type": "movie"
+      "episode": 14,
+      "episodeEnd": 20,
+      "id": 21729,
+      "season": 0,
+      "type": "tv"
     }
   ]
 }

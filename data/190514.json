@@ -1,13 +1,25 @@
 {
+  "anidbId": 10084,
   "bangumiId": 190514,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 658847,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 658848,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 的 1647401 是该作品的单部电影条目：原名、日文发行日 2009-03-06、导演芦名みのる、Studio Puyukai、别名 Yonimo Kimyou na Man Gatarou 均吻合。外部资料确认这是 2009 年的 Flash OVA，并以《1 はじまるよ～ん編》和《2 はひはふほ～ん編》两卷 DVD 发行；TMDB 将两卷内容合并收录为 72 分钟电影。Bangumi 的 2 条记录应对应两卷 OVA，而不是 TV 集数，因此使用 movie，集数字段全部为 null。\n\nhttps://api.bgm.tv/v0/subjects/190514 (api_snapshot): Bangumi fresh API 标记为 OVA，日期 2009-07-10，共 2 集。\n\nhttps://www.themoviedb.org/movie/1647401 (api_snapshot): TMDB details：电影《世にも奇妙な漫☆画太郎》，日期 2009-03-06，片长 72 分钟，制作公司 Studio Puyukai，导演芦名みのる；别名包含 Yonimo Kimyou na Man Gatarou。\n\nhttps://www.allcinema.net/cinema/332770 (page): 外部作品资料将其标为 2009 年日本原创视频动画/OVA，导演为芦名みのる，并列出 8 个故事单元。\n\nhttps://www.oricon.co.jp/prof/34386/products/804467/1/ (page): 第一卷为动画 DVD《世にも奇妙な漫☆画太郎 1》，发行日 2009-03-06，发行商为リバプール。\n\nhttps://tower.jp/item/2537420 (page): 第二卷为 Flash 动画 DVD《世にも奇妙な漫☆画太郎 2》，收录 4 个故事，制作年 2009，发行日 2009-04-10。\n\nhttps://tower.jp/item/4173572 (page): 官方商品资料将《1 はじまるよ～ん編》和《2 はひはふほ～ん編》作为同一 Flash 动画作品的两个卷别，并标明原作漫☆画太郎、导演芦名みのる、制作年 2009。\n\n备注：Bangumi 的两条集记录没有标题和日期，无法把其编号逐一对应到外部资料列出的 8 个故事；但这不影响其作为两卷 OVA 合辑映射到 TMDB 电影条目。",
+    "evidence": "gpt-6-sol: Bangumi 输入将本作记为 2009 年的两话 OVA；发行资料确认同名动画有两卷，且第一卷发行日、导演与 TMDB 电影条目吻合。TMDB 以单部 72 分钟电影收录该作品，因此映射到电影整体；电影条目没有可供逐卷对应的集号，不建立逐集规则。\n\nhttps://www.themoviedb.org/movie/1647401 (api_snapshot): TMDB 电影 1647401 的原名为《世にも奇妙な漫☆画太郎》，日期为 2009-03-06，片长 72 分钟，导演为芦名みのる，制作公司为 Studio Puyukai。\n\nhttps://www.allcinema.net/cinema/pdf/332770 (search_snippet): 2009 年的同名作品被列为日本原创视频动画，导演为芦名みのる，内容为多个短篇故事。\n\nhttps://www.oricon.co.jp/prof/34386/products/804467/1/ (search_snippet): 第一卷《世にも奇妙な漫☆画太郎 1》为动画 DVD，发行日期为 2009-03-06。\n\nhttps://tower.jp/item/2537420 (search_snippet): 第二卷《世にも奇妙な漫☆画太郎 2》为 2009 年制作的 Flash 动画 DVD，发行日期为 2009-04-10。\n\nhttps://tower.jp/item/4173572 (search_snippet): 后发行的蓝光合集将《1 はじまるよ～ん編》和《2 はひはふほ～ん編》列为同一作品的两卷，并标明导演芦名みのる。\n\n备注：Bangumi 所给 2009-07-10 与查到的两卷发行日 2009-03-06、2009-04-10 不一致。；TMDB 条目没有内容简介或分卷清单；其 72 分钟片长涵盖两卷的判断仍属推断，无法独立核实各卷在该条目中的具体内容。；Bangumi 两条章节均无标题和日期，无法逐一确认其卷别。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/190514; https://api.bgm.tv/v0/subjects/190514; https://www.themoviedb.org/movie/1647401; https://www.allcinema.net/cinema/332770; https://www.oricon.co.jp/prof/34386/products/804467/1/; https://tower.jp/item/2537420; https://tower.jp/item/4173572",
-    "verifiedAt": "2026-09-08T20:33:18.062Z"
+    "source": "https://bgm.tv/subject/190514; https://www.themoviedb.org/movie/1647401; https://www.allcinema.net/cinema/pdf/332770; https://www.oricon.co.jp/prof/34386/products/804467/1/; https://tower.jp/item/2537420; https://tower.jp/item/4173572",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,

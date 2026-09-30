@@ -1,20 +1,96 @@
 {
   "anidbId": 8055,
   "bangumiId": 10383,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 59571,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 59572,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 59573,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 59574,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 59575,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 59576,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 59577,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 59578,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 59579,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 59580,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 59581,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 59582,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 59583,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品剧情、导演、制作年份和全 13 话的系列形式相符，TMDB 第 1 季覆盖本 subject。前 7 话有逐话标题及制作方公布的配信日期可核对，故建立连续规则；剧场重编版不纳入。\n\nhttps://www.themoviedb.org/tv/45348 (api_snapshot): TMDB 条目 45348 是 2011 年的《アップルシードXIII》，剧情涉及第五次大战后的奥林匹斯、迪娜和布里亚莱奥斯；列有导演浜名孝行，正篇为一季共 13 话。\n\nhttps://www.themoviedb.org/tv/45348/season/1 (api_snapshot): TMDB 第 1 季有 13 话；第 1 至 7 话标题与 Bangumi 输入中的顺序逐一相同。\n\nhttps://www.production-ig.co.jp/hotnews/2011/061516.html (page): 制作协力方 Production I.G 将本作说明为全 13 话的新动画系列，并公布了第 1 至 7 话的标题和网络配信日期，均与 Bangumi 输入相符。\n\nhttps://www.themoviedb.org/movie/265805 (search_snippet): 同名的《〜遺言〜》和《〜預言〜》是由 13 话系列改编的两部剧场重编版，不能代替该系列。\n\n备注：Bangumi 输入中第 8 至 13 话缺少标题，且其日期与 TMDB 季表日期不一致，暂不建立这 6 话的逐集规则。；TMDB 第 0 季另有 13 条仅标作“第几话”的记录，缺少标题和日期，未将其映射为 Bangumi 章节。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10383; https://www.themoviedb.org/tv/45348; https://www.themoviedb.org/tv/45348/season/1; https://www.production-ig.co.jp/hotnews/2011/061516.html; https://www.themoviedb.org/movie/265805",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45348
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 45348,
+      "season": 1,
       "type": "tv"
     }
   ]

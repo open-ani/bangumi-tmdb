@@ -1,21 +1,189 @@
 {
   "anidbId": 5052,
   "bangumiId": 7620,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 44478,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 44479,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 44480,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 44481,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 44482,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 44483,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 44484,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 44485,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 44486,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 44487,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 44488,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 44489,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 44490,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 44491,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 44492,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 44493,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 44494,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 44495,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 44496,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 44497,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 44498,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 44499,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 44500,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 44501,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 44515,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 44516,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 44515,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34671,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 44516,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 34671,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、剧情、导演及制作公司吻合。第1季24集与 Bangumi 正篇逐集对应；第0季两集与 DVD 特典对应。第9集虽有标题写法差异，但集序及剧情简介确认是同一集。\n\nhttps://www.themoviedb.org/tv/34671 (api_snapshot): TMDB TV 34671 的原名为《もっけ》，首播于2007年10月2日，剧情讲述静流和瑞生姐妹与妖怪的经历；导演西田正義，制作公司包括 MADHOUSE 和手塚プロダクション，与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/34671/season/1 (api_snapshot): TMDB 第1季实有24集，首末播出日期为2007年10月2日和2008年3月25日；集名、顺序与 Bangumi 24集正篇对应。第9集标题记作「エンエラ」，但剧情简介与「エンエンラ」对应。\n\nhttps://www.themoviedb.org/tv/34671/season/0 (api_snapshot): TMDB 第0季仅有两集，依次为「トオリカゼ」和「ミツアシガエル」，与 Bangumi 两集特典对应。\n\nhttps://www.videomarket.jp/title/038175 (page): 配信页按顺序列出24集正篇及其后的「トオリカゼ」「ミツアシガエル」；第9集写作「エンエンラ」，其剧情简介与 TMDB 第9集相同。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7620; https://www.themoviedb.org/tv/34671; https://www.themoviedb.org/tv/34671/season/1; https://www.themoviedb.org/tv/34671/season/0; https://www.videomarket.jp/title/038175",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34671
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34671,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 34671,
+      "season": 0,
       "type": "tv"
     }
   ]

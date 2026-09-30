@@ -1,19 +1,128 @@
 {
   "bangumiId": 84728,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 323940,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 323941,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 323942,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 323943,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 323944,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 323945,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 323946,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 323947,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 323940,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 21729,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 323944,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 21729,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 323945,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 21729,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 323946,
+      "targets": [
+        {
+          "episode": 10,
+          "id": 21729,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 323947,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 21729,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 官网确认这是 2008 年制作并发布的八支《グレパラ》音乐短片；TMDB 将片名相符的八支收在原电视动画的第 0 季第 3 至 10 集。逐集按片名对应。Bangumi 的第 1、5、7、8 话顺序与官网发布顺序及 TMDB 集号不同，故以章节 ID 单独指定；第 2 至 4 话的片名依次对应 TMDB 第 4 至 6 集。\n\nhttps://www.themoviedb.org/tv/21729 (api_snapshot): TMDB 作品 21729 是 2007 年首播、由 GAINAX 制作的《天元突破グレンラガン》；其第 0 季另收录特别篇。\n\nhttps://www.themoviedb.org/tv/21729/season/0 (api_snapshot): TMDB 第 0 季第 3 至 10 集逐一列出本 subject 的八支短片片名；第 0 季还混有其他作品，因此范围只取第 3 至 10 集。\n\nhttps://www.gurren-lagann-movie.net/gurren/news/index02.html (search_snippet): 剧场版官网将《グレパラ》称为以电视动画配乐制作的音乐短片企划，并列出渡边敬介、SUEZEN、小岛大和、益山亮司、板垣伸、雨宫哲的作品与发布顺序。\n\nhttps://www.gurren-lagann-movie.net/gurren/news/index.html (search_snippet): 剧场版官网确认山贺博之的《Libera me from hell》为第 7 支、吉成曜的《お前ら全員燃えてしまえっ！！！》为第 8 支，且 DVD 收录全部八支。\n\n备注：TMDB 第 0 季部分集的日期与官网公布的发布日期不一致；逐集对应以明确的片名、制作者和八支作品总量核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/84728; https://www.themoviedb.org/tv/21729; https://www.themoviedb.org/tv/21729/season/0; https://www.gurren-lagann-movie.net/gurren/news/index02.html; https://www.gurren-lagann-movie.net/gurren/news/index.html",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 4,
+      "season": 0,
+      "start": 2,
+      "tmdbId": 21729
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 3,
+      "episodeEnd": 10,
       "id": 21729,
+      "season": 0,
       "type": "tv"
     }
   ]

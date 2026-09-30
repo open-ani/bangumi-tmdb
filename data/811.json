@@ -1,16 +1,86 @@
 {
   "anidbId": 5922,
   "bangumiId": 811,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 3478,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 3487,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13376,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 16268,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 16271,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 16272,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 16273,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 16274,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 16275,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 16276,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 16277,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 16278,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 第 1 季与本 subject 的作品名称、2008 年播出时期、导演、制作公司、12 话总数及全部逐集标题一致；该季完整覆盖本篇，逐集按第 1 至 12 话对应。\n\nhttps://www.themoviedb.org/tv/42917 (api_snapshot): 以日文原名「恋姫†無双」搜索，TMDB 返回电视剧 42917，首播年份为 2008 年，简介同样描述关羽与张飞结为姊妹。\n\nhttps://www.themoviedb.org/tv/42917 (api_snapshot): 作品详情列出动画制作公司 Doga Kobo、导演中西伸彰；第 1 季名为「恋姫†無双」，共 12 集。第 2、3 季另有名称。\n\nhttps://www.themoviedb.org/tv/42917/season/1 (api_snapshot): 已读取第 1 季完整集表：12 集的日文标题依次与 Bangumi 本篇第 1 至 12 话逐字一致；TMDB 放送日期从 2008 年 7 月 9 日至 9 月 24 日，每周一集。\n\n备注：Bangumi 所列首播及结束日期均比 TMDB 集表早一天；可能与深夜档日期记法有关，但逐集标题和每周放送顺序完全一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/811; https://www.themoviedb.org/tv/42917; https://www.themoviedb.org/tv/42917/season/1",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42917
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

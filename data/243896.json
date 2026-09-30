@@ -1,21 +1,37 @@
 {
   "anidbId": 8142,
   "bangumiId": 243896,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 792153,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 792153,
+      "targets": [
+        {
+          "id": 719756,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 条目是 2009 年 Jump Super Anime Tour 放映、后于 2010 年发售的单话 ufotable 动画；TMDB 电影 719756 的放映日期、制作人员、公司和媒介均吻合。将唯一的 Bangumi 本篇章节对应这部电影。\n\nhttps://www.themoviedb.org/movie/719756 (api_snapshot): TMDB 电影 719756 的英文标题为《Toriko: Jump Super Anime Tour 2009 Special》，2009 年 10 月 12 日上映，片长 27 分钟；制作公司为 ufotable，导演小船井充、编剧平松正樹，与 Bangumi 所述放映日期和制作人员一致。\n\nhttps://www.themoviedb.org/tv/38251 (api_snapshot): 旧映射所指的 TMDB 剧集 38251 于 2011 年 4 月 3 日首播，由东映动画制作，属于另一版电视动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/243896; https://www.themoviedb.org/movie/719756; https://www.themoviedb.org/tv/38251",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 38251,
-      "type": "tv"
+      "id": 719756,
+      "type": "movie"
     }
   ]
 }

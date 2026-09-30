@@ -1,14 +1,25 @@
 {
   "anidbId": 6504,
   "bangumiId": 7963,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 46172,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 46434,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 片名、2009 年发行版本、OVA 媒介、Hinako 角色及主要制作人员均吻合。Bangumi 的两话属于该作品的章节；TMDB 将整部作品收录为一部电影，因此映射电影整体，不建立 TV 逐集规则。\n\nhttps://bgm.tv/subject/7963 (page): Bangumi 将本作列为 2009 年 4 月 24 日发售的两话 OVA，导演鈴木行、脚本中川宗成、动画制作スタジオ雲雀。\n\nhttps://www.themoviedb.org/movie/471279 (api_snapshot): TMDB 电影 471279 的原名为《いっしょにとれーにんぐ TRAINING WITH HINAKO》，制作公司为 Studio Hibari，导演鈴木行、编剧 Muneshige Nakagawa；演员表列出 Hinako。\n\nhttps://www.st-hibari.co.jp/products/?genre=ova&production=st-hibari (page): Studio Hibari 官网将《いっしょにとれーにんぐ》列为 2009 年 4 月 24 日的 OVA，并将 2010 年的《いっしょにすりーぴんぐ》和《いっしょにとれーにんぐ026》分列为其他作品。\n\n备注：TMDB 标注日期为 2009 年 4 月 29 日，与 Bangumi 和制作公司官网的 4 月 24 日发售日相差五天；现有证据仍足以确认作品身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7963; https://www.themoviedb.org/movie/471279; https://www.st-hibari.co.jp/products/?genre=ova&production=st-hibari",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
   "rules": [],
   "schemaVersion": 1,

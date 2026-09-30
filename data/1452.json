@@ -1,20 +1,161 @@
 {
   "anidbId": 6331,
   "bangumiId": 1452,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 5214,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 5215,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 5216,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 5217,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 5218,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 5219,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 5220,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 5221,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 5222,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 5223,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 5224,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 5225,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 5226,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 5227,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 5228,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 5229,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 5230,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 5231,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 5232,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 5233,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 5234,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 5235,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 5236,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 5237,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 5238,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 16515,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品剧情、年份、制作方和 26 集规模相符；TMDB 第 1 季与 Bangumi 全部本篇章节的标题及顺序逐集吻合，且该季只包含本作品，因此对应整季，章节 1—26 连续对应 TMDB 第 1—26 集。\n\nhttps://www.themoviedb.org/tv/55018 (api_snapshot): TMDB 剧集 55018 是 2009 年日本动画《グイン・サーガ》；剧情涉及帕罗王国、双胞胎琳达与雷姆斯及豹头战士，制作公司包括 SATELIGHT、Aniplex，导演为若林厚史，共 1 季 26 集。\n\nhttps://www.themoviedb.org/tv/55018/season/1 (api_snapshot): TMDB 第 1 季实际列出第 1 至 26 集，集标题及顺序与 Bangumi 的 26 个本篇章节逐一相同，末集《旅立ち》日期为 2009 年 9 月 27 日。\n\nhttps://www.guinsaga.net/onair/ (page): 动画官方网站的逐集资料列出相同的 26 集标题和顺序，首集于 2009 年 4 月 5 日播出，末集于 9 月 27 日播出。\n\n备注：TMDB 中剧集首播日期及前几集的部分日期与官方网站不符；逐集对应以相同的标题、顺序、总集数及官方放送资料核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1452; https://www.themoviedb.org/tv/55018; https://www.themoviedb.org/tv/55018/season/1; https://www.guinsaga.net/onair/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 55018
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 55018,
+      "season": 1,
       "type": "tv"
     }
   ]

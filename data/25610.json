@@ -1,19 +1,76 @@
 {
   "bangumiId": 25610,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 129065,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 129066,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 130252,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 130253,
+      "sort": 2,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 该 OVA 的两话本篇和两话附加动画，均在 TMDB 作品 45502 的第 0 季第 19 至 22 集中找到标题、日期一致的对应项。该季还收录其他系列内容，因此只取已核实的四集范围。旧映射 254227 对应后续电视动画，季表与本 OVA 不符。\n\nhttps://www.themoviedb.org/tv/45502 (api_snapshot): TMDB 作品 45502《クイーンズブレイド》的第 0 季收录系列特别篇；作品由 ARMS 制作。\n\nhttps://www.themoviedb.org/tv/45502/season/0 (api_snapshot): 第 0 季第 19、20 集分别是《新たなる師弟、新たなる闘い》和《アレイン教官の生しごきブートキャンプ》，日期均为 2011-10-29；第 21、22 集分别是《聖女の煩悶》和《シギィの聖なるポーズしっぽりレッスン》，日期均为 2012-01-28。四集的标题和日期与 Bangumi 章节逐一吻合。\n\nhttps://www.themoviedb.org/tv/254227/season/0 (api_snapshot): 旧映射的 TMDB 作品 254227 首播于 2012-04-03；其第 0 季从 2012-06-27 开始，未收录这四个 2011 至 2012 年初的 OVA 章节。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/25610; https://www.themoviedb.org/tv/45502; https://www.themoviedb.org/tv/45502/season/0; https://www.themoviedb.org/tv/254227/season/0",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 19,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 45502
+    },
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 21,
+      "season": 0,
+      "start": 2,
+      "tmdbId": 45502
+    },
+    {
+      "bangumiType": 1,
+      "end": 1,
+      "episodeStart": 20,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 45502
+    },
+    {
+      "bangumiType": 1,
+      "end": 2,
+      "episodeStart": 22,
+      "season": 0,
+      "start": 2,
+      "tmdbId": 45502
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 254227,
+      "episode": 19,
+      "episodeEnd": 22,
+      "id": 45502,
+      "season": 0,
       "type": "tv"
     }
   ]

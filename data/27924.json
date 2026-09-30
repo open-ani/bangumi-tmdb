@@ -1,19 +1,45 @@
 {
   "bangumiId": 27924,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 149921,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 149927,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 227102,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品身份、独立外传版本及三集范围均吻合；Bangumi 的《THE DAWN》1～3 对应 TMDB 独立条目第 1 季的第 1～3 集。发行资料明确将其与《HELLSING OVA》正篇分列。\n\nhttps://www.themoviedb.org/tv/115176 (api_snapshot): TMDB 的 115176 是独立条目《ヘルシング外伝 THE DAWN》，列有一季、三集；配音包括沃尔特的朴璐美和阿卡德的中田让治。\n\nhttps://www.themoviedb.org/tv/115176/season/1 (api_snapshot): TMDB 第 1 季仅有第 1 至 3 集，没有混入《HELLSING》正篇。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/hellsing/contents/hp0036/index00560000.html (search_snippet): 发行方将《THE DAWN》1～3 单独列为外传短篇动画，区别于《HELLSING OVA》I～X。\n\nhttps://www.imdb.com/title/tt2878716/episodes/ (search_snippet): IMDb 逐集列出《THE DAWN》I、II、III，日期依次为 2011 年 7 月 27 日、2012 年 2 月 15 日、2012 年 12 月 26 日，与 Bangumi 三章一致。\n\n备注：TMDB 季表将三集日期填为 2011 年 11 月 27 日至 12 月 11 日，与 Bangumi、IMDb 及发行资料所示的跨年发售日期冲突；对应关系依据独立作品身份、三集编号与集数确认，TMDB 日期需要修正。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/27924; https://www.themoviedb.org/tv/115176; https://www.themoviedb.org/tv/115176/season/1; https://www.nbcuni.co.jp/rondorobe/anime/hellsing/contents/hp0036/index00560000.html; https://www.imdb.com/title/tt2878716/episodes/",
+    "verifiedAt": "2026-09-30T01:25:48.001Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 115176
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 115176,
+      "season": 1,
       "type": "tv"
     }
   ]
