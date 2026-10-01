@@ -1,16 +1,108 @@
 {
   "anidbId": 6047,
   "bangumiId": 916,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1099,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1100,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1101,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1102,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1103,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1104,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1105,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1106,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1107,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1108,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1109,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1110,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1111,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 100278,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 100278,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 42960,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 916 明确是 2008 年播出的 TV 动画，共 13 集；其 1–13 集标题、剧情、制作人员和播出日期与 TMDB TV 42960 第 1 季逐集对应，仅存在统一的日期偏移一天。TMDB 42960 的简介、日文原名、年份和日本制作信息也一致。Bangumi 章节中另有主体内特别篇《中禅寺敦子の事件簿 箱の幽霊の事》，日期为 2009-05-22；TMDB 同一 TV 的第 0 季明确只有 1 集且日期同为 2009-05-22，因此纳入 S00E01。未选择同名真人电影版本。\n\nhttps://bgm.tv/subject/916 (page): Bangumi 将该条目标为 TV，话数 13，放送时间为 2008-10-07 至 2008-12-30，并列出导演中村亮介、原作京極夏彦、动画制作 MADHOUSE 等信息；章节包含正篇 1–13 集及 2009-05-22 的主体内特别篇。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 6047 对应为 Mouryou no Hako，与 Bangumi 916 的日文标题魍魎の匣一致。\n\nhttps://www.themoviedb.org/tv/42960 (api_snapshot): TMDB TV 42960 的日文原名为魍魎の匣，首播年份为 2008，简介、日语、日本来源和制作类型均与该 TV 动画一致；全剧 14 集由第 1 季 13 集和第 0 季 1 集组成。\n\nhttps://www.themoviedb.org/tv/42960/season/1 (api_snapshot): TMDB 第 1 季为 13 集，集标题按顺序完整对应 Bangumi 正篇 1–13 集，日期均与 Bangumi 日期相差一天，属于日期表示偏移而非版本差异。\n\nhttps://www.themoviedb.org/tv/42960 (api_snapshot): TMDB 季列表明确记录第 0 季为 1 集，日期为 2009-05-22，与 Bangumi 主体内特别篇日期一致。\n\nhttps://bangumi.tv/subject/58433 (search_snippet): 同名但不同的 Bangumi 条目是 2007-12-22 上映的真人电影，因此不应映射为本题 TV subject 916。\n\n备注：TMDB 提供的第 0 季快照未展开该唯一特别篇的单集标题；其 S00E01 映射依据是同一 TV、唯一集数和 2009-05-22 日期一致。",
+    "evidence": "gpt-6-sol: 作品年份、剧情、导演、制作公司和TV媒介一致。第1季13集与Bangumi本篇逐集同名、顺序及总数一致，播出日期呈统一的一天偏移；第0季唯一一集与Bangumi特别篇同名同日，可分别建立连续规则和特别篇特例。\n\nhttps://bgm.tv/subject/916 (page): Bangumi 将本条目标为2008年开播的13集TV动画，列出导演中村亮介、动画制作MADHOUSE，并将真人电影列为不同演绎。\n\nhttps://bgm.tv/subject/916/ep (page): Bangumi章节页列出本篇13集的标题与播出日期，以及2009年5月22日的特别篇《中禅寺敦子の事件簿 箱の幽霊の事》。\n\nhttps://www.themoviedb.org/tv/42960 (api_snapshot): TMDB TV 42960的原名、2008年首播时间、案件剧情、导演中村亮介和制作公司Madhouse均吻合；季列表为第1季13集、第0季1集。\n\nhttps://www.themoviedb.org/tv/42960/season/1 (api_snapshot): 第1季集表共13集，标题依次与Bangumi本篇第1至13集完全一致；各集日期统一比Bangumi晚一天。\n\nhttps://www.themoviedb.org/tv/42960/season/0 (api_snapshot): 第0季仅有第1集，标题包含《中禅寺敦子の事件簿「箱の幽霊の事」》，日期为2009年5月22日，与Bangumi特别篇吻合。\n\n备注：Bangumi与TMDB的本篇播出日期统一相差一天；特别篇时长分别记为16分28秒与23分钟，属于来源记录差异，不影响标题和日期一致的对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/916; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/42960; https://www.themoviedb.org/tv/42960/season/1; https://bangumi.tv/subject/58433",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/916; https://bgm.tv/subject/916/ep; https://www.themoviedb.org/tv/42960; https://www.themoviedb.org/tv/42960/season/1; https://www.themoviedb.org/tv/42960/season/0",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42960
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

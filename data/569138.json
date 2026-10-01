@@ -630,10 +630,10 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: Bangumi 将2025年7月恢复播出的《ちいかわ》单列为“新系列”；播出方沿用原电视动画的第258话编号，TMDB 则将其接在 TV 194916 第1季第257集之后。作品、原作、制作方、角色、播出形式及首话标题和日期相符。第1季同时包含旧系列，因此只选已核实的第258至381集。可见的 Bangumi 章节与 TMDB 逐集编号、标题及日期吻合；后段 TMDB 占位标题另以播出资料核对。第374话的 Bangumi 日期有一天误差，其标题与播出方、TMDB 的编号仍确认对应。\n\nhttps://www.themoviedb.org/tv/194916 (api_snapshot): 以日文原名“ちいかわ 新シリーズ”搜索无结果；缩短为“ちいかわ”后找到 TV 194916，首播于2022年4月4日。\n\nhttps://www.themoviedb.org/tv/194916 (api_snapshot): TV 194916 的原作为ナガノ，制作公司为动画工房，田中誠人为ハチワレ配音；详情列出第1季及尚无集数的第2季。\n\nhttps://mezamashi.media/articles/-/171635 (page): 富士电视台旗下媒体确认《ちいかわ》在暂停约三个月后，于2025年7月15日恢复新系列播出，仍为每周二、周五的电视短篇动画。\n\nhttps://mezamashi.media/articles/-/173632 (page): 播出方将2025年7月15日的新系列首集编号为第258话，标题“かき氷シロップ”，与 Bangumi 输入一致。\n\nhttps://www.themoviedb.org/tv/194916/season/1 (api_snapshot): 已读取 TMDB 第1季全部7页；第5至第7页显示第257集为旧段末集，第258至381集属于之后的连续编号。第258至367集的标题和日期与输入中可见的 Bangumi 章节逐集吻合。\n\nhttps://naganopedia.com/works/chiikawa/ (page): 后段第368至381话的实际标题、编号和日期可与 Bangumi 输入及 TMDB 日期交叉核对；TMDB 对其中多集暂以“第×话”作占位标题。\n\nhttps://mezamashi.media/articles/gallery/340230?image=0 (page): 播出方确认第374话“日焼け／干し芋”的日期为2026年9月1日，支持 TMDB 日期；Bangumi 输入的8月31日相差一天。\n\nhttps://mezamashi.media/articles/-/351941 (page): 播出方已发布2026年9月29日的第382话“パラレルワールド⑧／クラッキング”，但本次读取的 TMDB 第1季集表尚止于381话。\n\n备注：输入的章节列表截断了 sort 318至322，未提供这五话的 Bangumi 章节详情，因此暂不建立逐集规则。；播出方已确认第382话，但 TMDB 第1季当前尚无第382集；待季表补录后再扩展映射。",
+    "evidence": "gpt-6-sol: Bangumi 单列的“第2期”是2025年7月恢复播出的新系列。播出方沿用原电视动画编号，从第258话开始；TMDB 将这一段收在 TV 194916 的第1季第258至382集，而非其空的第2季。已提供的章节与 TMDB 集表、播出方资料逐集对应，因此将已核实且连续的章节建立规则。\n\nhttps://www.themoviedb.org/tv/194916 (api_snapshot): 以日文原名及“ちいかわ 新シリーズ”搜索没有独立条目；搜索“ちいかわ”找到 TMDB TV 194916。\n\nhttps://www.themoviedb.org/tv/194916 (api_snapshot): TV 194916 于2022年首播，原作为ナガノ，制作公司为动画工房；详情列有第1季和集数为零的第2季。\n\nhttps://mezamashi.media/articles/-/171635 (page): 富士电视台旗下媒体确认《ちいかわ》于2025年7月15日恢复新系列电视播出，安排在每周二、周五。\n\nhttps://mezamashi.media/articles/-/173632 (page): 播出方将2025年7月15日的新系列首话标为第258话《かき氷シロップ》。\n\nhttps://www.themoviedb.org/tv/194916/season/1 (api_snapshot): 已读取 TMDB 第1季全部7页集表；第258至382集在第5至7页，所提供章节的编号、标题和日期至第367话逐集相符。第368话以后多处使用占位标题，但日期及编号连续。\n\nhttps://mezamashi.media/subcategory/new_episode?page=1 (page): 播出方的逐话列表列出第368至382话的标题、编号和日期，与所提供章节及 TMDB 集表对应。\n\nhttps://mezamashi.media/articles/gallery/340230?image=0 (page): 播出方确认第374话《日焼け／干し芋》于2026年9月1日播出；输入中的8月31日相差一天。\n\nhttps://mezamashi.media/articles/-/351941 (page): 播出方确认2026年9月29日播出第382话《パラレルワールド⑧／クラッキング》，与 TMDB 第1季第382集的日期对应。\n\n备注：输入的章节列表截断了 sort 318至322，缺少这五话的 Bangumi 章节详情；目标范围包含对应的 TMDB 集，但暂不为它们建立逐集规则。；Bangumi 输入将第374话日期写为2026年8月31日；播出方和 TMDB 均为9月1日，标题与编号确认对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/569138; https://www.themoviedb.org/tv/194916; https://mezamashi.media/articles/-/171635; https://mezamashi.media/articles/-/173632; https://www.themoviedb.org/tv/194916/season/1; https://naganopedia.com/works/chiikawa/; https://mezamashi.media/articles/gallery/340230?image=0; https://mezamashi.media/articles/-/351941",
-    "verifiedAt": "2026-09-30T01:25:48.001Z"
+    "source": "https://bgm.tv/subject/569138; https://www.themoviedb.org/tv/194916; https://mezamashi.media/articles/-/171635; https://mezamashi.media/articles/-/173632; https://www.themoviedb.org/tv/194916/season/1; https://mezamashi.media/subcategory/new_episode?page=1; https://mezamashi.media/articles/gallery/340230?image=0; https://mezamashi.media/articles/-/351941",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [
     {
@@ -646,7 +646,7 @@
     },
     {
       "bangumiType": 0,
-      "end": 381,
+      "end": 382,
       "episodeStart": 323,
       "season": 1,
       "start": 323,
@@ -657,7 +657,7 @@
   "targets": [
     {
       "episode": 258,
-      "episodeEnd": 381,
+      "episodeEnd": 382,
       "id": 194916,
       "season": 1,
       "type": "tv"

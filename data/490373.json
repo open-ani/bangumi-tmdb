@@ -1,20 +1,53 @@
 {
   "bangumiId": 490373,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1332103,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1332163,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1332164,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1332165,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 《II》是1993年的四话OVA续作。TMDB 将前作三话和续作四话合列在电视条目45284的第1季；第4至7集的日期逐一对应《II》四卷录像带的发行日期，BS11所列前作三话与续作四话也确认了分界。因此 Bangumi 本篇第1至4话对应TMDB第1季第4至7集。旧电影映射的年份和覆盖范围均不适合本条目。\n\nhttps://bgm.tv/subject/490373 (page): Bangumi 将本条目标为1993年的四话OVA续作，章节为第1至4话。\n\nhttps://www.themoviedb.org/tv/45284 (api_snapshot): TMDB 电视条目45284收录1992年至1993年的七话作品，制作公司包括Animate Film、GAINAX和Project B4；唯一的第1季共有七话。\n\nhttps://www.themoviedb.org/tv/45284/season/1 (api_snapshot): TMDB 第1季第1至3话在1992年，第4至7话依次标为1993年5月21日、7月21日、9月22日、11月21日。\n\nhttps://www.bs11.jp/topics/anime/beast-three2/ (page): BS11 将前作列为三话，将《II》列为1993年制作的四话OVA，并列出《II》的四个独立话名、续作剧情和制作人员。\n\nhttps://www.suruga-ya.jp/kaitori/kaitori_detail/928047922 (page): 《II》第1卷录像带标为1993年5月21日发行，收录一话，导演和主要声优与本作一致。\n\nhttps://www.suruga-ya.jp/kaitori/search_buy?category=300&page=82&restrict%5B%5D=media%3DVHS&search_word= (search_snippet): 《II》第2卷录像带标为1993年7月21日发行。\n\nhttps://www.suruga-ya.jp/product/detail/928047926 (page): 《II》第3卷标明收录第3话，发行日为1993年9月22日。\n\nhttps://www.suruga-ya.jp/product/detail/928047930 (page): 《II》第4卷标明收录最终第4话，发行日为1993年11月21日。\n\nhttps://www.themoviedb.org/movie/411828 (api_snapshot): 旧映射所用电影411828的日期为1992年5月2日，时长210分钟；其IMDb编号同时指向TMDB电视条目45284，不能据此将四话续作映射为该电影。\n\n备注：Bangumi 条目写首发日为1993年5月31日；录像带商品记录及TMDB季表均为5月21日。Bangumi 各章节未填写独立话名或日期，但四卷的编号与日期均能对应TMDB连续四集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/490373; https://www.themoviedb.org/tv/45284; https://www.themoviedb.org/tv/45284/season/1; https://www.bs11.jp/topics/anime/beast-three2/; https://www.suruga-ya.jp/kaitori/kaitori_detail/928047922; https://www.suruga-ya.jp/kaitori/search_buy?category=300&page=82&restrict%5B%5D=media%3DVHS&search_word=; https://www.suruga-ya.jp/product/detail/928047926; https://www.suruga-ya.jp/product/detail/928047930; https://www.themoviedb.org/movie/411828",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45284
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 411828,
-      "type": "movie"
+      "episode": 4,
+      "episodeEnd": 7,
+      "id": 45284,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

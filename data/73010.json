@@ -1,16 +1,119 @@
 {
   "anidbId": 175,
   "bangumiId": 73010,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 269601,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 269602,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 269603,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 269604,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 269605,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 269606,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 269607,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 269608,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 269609,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 269610,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 269611,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 269612,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 727767,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1207240,
+      "sort": 5.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 727767,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 34859,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1207240,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34859,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: TMDB 34859 的原名、首播日期、日语动画剧情均与 Bangumi subject《おとぎストーリー 天使のしっぽ》一致。该 subject 的 13 个正篇未全部排在 TMDB 第 1 季：Bangumi 第 1—12 话与 TMDB S1E1—S1E12 依次对应；Bangumi 第 13 话《忘れえぬ…人》则收录为 TMDB S0E2，名称标作《#13 忘れえぬ…人》，因此需要返回两个范围。TMDB S0E1 是插入篇《#5.5 ご主人様とみんなのおうち》，S0E3—E9 是《毒天使のしっぽ》，均不属于本轮所映射的正篇。第 2 季是续作《天使のしっぽChu！》，对应 Bangumi 独立 subject 94955，不属于 subject 73010。\n\nhttps://www.themoviedb.org/tv/34859 (api_snapshot): TMDB API 快照显示 TV 34859 原名为《おとぎストーリー 天使のしっぽ》，首播于 2001-10-04；剧情讲述睦悟郎过去饲养的宠物转生为守护天使前来报恩，与 Bangumi 作品身份一致。\n\nhttps://www.themoviedb.org/tv/34859/season/1 (api_snapshot): TMDB API 快照显示第 1 季共 12 集，S1E1《忘れえぬ…絆》至 S1E12《ご主人様、だ～いすきっ！》与 Bangumi 正篇第 1—12 话按顺序对应，播出期为 2001-10-04 至 2001-12-20。\n\nhttps://www.themoviedb.org/tv/34859/season/0 (api_snapshot): TMDB API 快照显示 S0E2 为《#13 忘れえぬ…人》，与 Bangumi 正篇第 13 话明确对应；同季 S0E1 标作第 5.5 话，S0E3—E9 则为《毒天使のしっぽ》，所以本 subject 在该季仅取 E2。\n\nhttps://www.themoviedb.org/tv/34859/season/2 (api_snapshot): TMDB API 快照显示第 2 季名为《天使のしっぽChu！》，内容及 2003 年播出日期均表明它是后续作品；Bangumi 输入关系亦将其列为独立 subject 94955。",
+    "evidence": "gpt-6-sol: 作品名称、首播日期和剧情相符。Bangumi 正篇第 1—12 话对应 TMDB 第 1 季第 1—12 集；第 13 话及 5.5 话 SP 分别收录于 TMDB 第 0 季第 2 集和第 1 集。\n\nhttps://www.themoviedb.org/tv/34859 (api_snapshot): TMDB TV 34859 的原名为《おとぎストーリー 天使のしっぽ》，首播日期为 2001-10-04；守护天使是睦悟郎昔日宠物转生的剧情也与 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/34859/season/1 (api_snapshot): 第 1 季共 12 集，集标题与 Bangumi 正篇第 1—12 话依次对应，播出日期从 2001-10-04 至 2001-12-20。\n\nhttps://www.themoviedb.org/tv/34859/season/0 (api_snapshot): 第 0 季第 1 集是《#5.5 ご主人様とみんなのおうち》，日期为 2002-03-25；第 2 集是《#13 忘れえぬ…人》。两集分别对应 Bangumi 的 SP 和第 13 话。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/73010; https://www.themoviedb.org/tv/34859; https://www.themoviedb.org/tv/34859/season/1; https://www.themoviedb.org/tv/34859/season/0; https://www.themoviedb.org/tv/34859/season/2",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/73010; https://www.themoviedb.org/tv/34859; https://www.themoviedb.org/tv/34859/season/1; https://www.themoviedb.org/tv/34859/season/0",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34859
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
@@ -21,7 +124,8 @@
       "type": "tv"
     },
     {
-      "episode": 2,
+      "episode": 1,
+      "episodeEnd": 2,
       "id": 34859,
       "season": 0,
       "type": "tv"

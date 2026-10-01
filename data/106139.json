@@ -1,0 +1,36 @@
+{
+  "bangumiId": 106139,
+  "episodes": [
+    {
+      "id": 406136,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 406136,
+      "targets": [
+        {
+          "id": 1259253,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi记录为1987年发行的单话OVA；候选电影1259253的年份、名称和18禁OVA简介均对应，故将唯一章节映射至该电影。\n\nhttps://www.themoviedb.org/movie/1259253 (api_snapshot): 候选电影《かぐや姫 竹取物語》标为1987年上映；简介明确描述其为80年代的18禁OVA，与Bangumi的1987年、单话OVA及“最古エロアニメ”别名吻合。\n\nhttps://www.themoviedb.org/movie/389334 (api_snapshot): 另一候选《かぐや姫》标为1961年上映，年份与Bangumi记录不符。\n\n备注：Bangumi章节没有标题或具体放送日期，无法进一步核对电影候选所列的1987年1月1日日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/106139; https://www.themoviedb.org/movie/1259253; https://www.themoviedb.org/movie/389334",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1259253,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,20 +1,102 @@
 {
   "bangumiId": 449367,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1287540,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1287541,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1287542,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1287543,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1287544,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1287545,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1287546,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1287547,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1287548,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1287549,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1287550,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1287551,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1287552,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1287553,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1287554,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1287555,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 同名漫画改编的动画身份、神番动漫制作及第一季16集规划相符，故对应TMDB电视条目281198的第1季。旧电影映射媒介和作品均不符。尚无可按日期或标题核实的逐集对应，暂不填写规则。\n\nhttps://bgm.tv/subject/449367 (page): Bangumi 将《黑血》列为16话动画，制作方为神番动漫，出品方为腾讯视频。\n\nhttps://oss.hbnavip.com/file/20240109/G44yjOyhqGd7tUMG522333V9G6QVwlB7kCHpEFRc.pdf (search_snippet): 2023年12月网络动画备案资料列有《黑血动画剧集第一季》，规划16集，制作方为成都萌宠神番动漫制作有限公司。\n\nhttps://www.themoviedb.org/tv/281198 (api_snapshot): TMDB 电视条目281198是同名漫画改编的中文动画，列有第1季。\n\nhttps://www.themoviedb.org/tv/281198/season/1 (api_snapshot): TMDB 第1季目前只有1个无播出日期的占位集，无法核对逐集对应。\n\nhttps://www.themoviedb.org/movie/136884 (api_snapshot): 旧映射136884是2012年的英语真人电影《Dark Blood》，与16话中国动画不符。\n\n备注：Bangumi 未列首播日期；TMDB 第1季只有无日期的占位集，16话均尚不能逐集核对。；TMDB 条目未填写制作公司，制作方依据Bangumi及动画备案资料确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/449367; https://oss.hbnavip.com/file/20240109/G44yjOyhqGd7tUMG522333V9G6QVwlB7kCHpEFRc.pdf; https://www.themoviedb.org/tv/281198; https://www.themoviedb.org/tv/281198/season/1; https://www.themoviedb.org/movie/136884",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 136884,
-      "type": "movie"
+      "id": 281198,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

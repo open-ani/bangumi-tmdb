@@ -1,21 +1,47 @@
 {
   "anidbId": 770,
   "bangumiId": 13612,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 859518,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1027496,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1027497,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 《ミニパト》是2002年3月30日上映的独立短篇电影/剧场短片合集，共3话，内容、导演、制作公司和日期均与该版本一致。TMDB 21738 实际是1988年开始、7集的《機動警察パトレイバー》条目，属于错误候选。TMDB 将 MiniPato 作为电影条目收录，因此无需季号或集数范围。\n\nhttps://bangumi.tv/subject/13612 (page): Bangumi 条目标为《ミニパト》剧场版，日期为2002年3月30日，共3话，导演神山健治，制作公司 Production I.G。\n\nhttps://www.production-ig.co.jp/works/minipato/index.html (page): Production I.G 官方资料确认上映日为2002年3月30日，第1至第3话合计三部短篇，并列出与输入一致的标题、导演和制作信息。\n\nhttps://letterboxd.com/film/minipato-mobile-police-patlabor-minimum/releases/ (page): 该页面确认《MiniPato: Mobile Police Patlabor Minimum》为2002年作品、约35分钟、包含三段短篇，并提供其 TMDB 电影链接；该链接解析为 TMDB movie/911256。\n\nhttps://www.themoviedb.org/tv/21738 (api_snapshot): 输入提供的 TMDB API 快照显示候选21738名为《機動警察パトレイバー》，首播日期1988-04-25，只有一个7集季，与2002年三短篇《ミニパト》不符。\n\nhttps://www.themoviedb.org/tv/21738/season/0 (api_snapshot): 输入提供的 TMDB API 快照记录该候选的 season/0 请求返回404；这不能证明不存在，但也不能为《ミニパト》提供季0证据。",
+    "evidence": "gpt-6-sol: TMDB电视条目116007虽按电视季收录，内容实际是与《WXIII》同期上映的2002年三部《ミニパト》短篇。作品年份、剧情、导演、制作公司、总集数和三话标题均吻合；第1季仅含这三话，可整季对应，逐话按相同顺序映射。\n\nhttps://bgm.tv/subject/13612 (page): Bangumi将《ミニパト》列为2002年3月30日上映的三话作品，导演为神山健治，制作方包括Production I.G。\n\nhttps://www.production-ig.co.jp/works/minipato/index.html (page): Production I.G确认本作为《WXIII》同期上映的三部短篇，列出的三话标题与Bangumi逐话标题一致，并确认导演、制作方及每周换映的方式。\n\nhttps://www.themoviedb.org/tv/116007 (api_snapshot): TMDB电视条目116007的原名为《ミニパト》，首播日期为2002年3月30日，共一季三集；导演及制作公司与本作吻合。\n\nhttps://www.themoviedb.org/tv/116007/season/1 (api_snapshot): TMDB第1季恰有三集，集号1至3的标题和剧情分别对应Bangumi三话，日期依次为2002年3月30日、4月6日、4月13日。\n\nhttps://www.themoviedb.org/movie/911256 (api_snapshot): 旧映射所指的TMDB电影911256详情请求返回404，无法支持该映射。\n\n备注：Bangumi未填写逐话日期；第2、3话的具体日期见TMDB季表，官方资料确认每周换映。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/13612; https://bangumi.tv/subject/13612; https://www.production-ig.co.jp/works/minipato/index.html; https://letterboxd.com/film/minipato-mobile-police-patlabor-minimum/releases/; https://www.themoviedb.org/tv/21738; https://www.themoviedb.org/tv/21738/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/13612; https://www.production-ig.co.jp/works/minipato/index.html; https://www.themoviedb.org/tv/116007; https://www.themoviedb.org/tv/116007/season/1; https://www.themoviedb.org/movie/911256",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 116007
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 911256,
-      "type": "movie"
+      "id": 116007,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

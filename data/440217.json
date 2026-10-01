@@ -1,20 +1,197 @@
 {
   "bangumiId": 440217,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1218680,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1218681,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1218682,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1218683,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1218684,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1218685,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1218686,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1218687,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1218688,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1218689,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1218690,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1218691,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1218692,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1218680,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 2164,
+          "season": 1,
+          "type": "tv"
+        },
+        {
+          "episode": 2,
+          "id": 2164,
+          "season": 1,
+          "type": "tv"
+        },
+        {
+          "episode": 3,
+          "id": 2164,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的 1966 年美国队长动画对应《The Marvel Super Heroes》第 1 季中的美国队长部分：13 话各由三个短篇组成，不能映射整季。首话的播出日期及三段标题得到核对，因此将其拆分对应 TMDB 第 1—3 集。\n\nhttps://www.themoviedb.org/tv/2164 (api_snapshot): TMDB 剧集 2164《The Marvel Super Heroes》首播于 1966 年 9 月 5 日，由 Grantray-Lawrence Animation 制作；Captain America 是其中的独立部分。\n\nhttps://www.themoviedb.org/tv/2164/season/1 (api_snapshot): 已读取第 1 季全部四页集表，共 195 个短篇。美国队长的内容每次连续三集，共 13 组；首组第 1—3 集均标为 1966 年 9 月 5 日播出。\n\nhttps://www.fernsehserien.de/captain-america/episodenguide (page): 剧集指南将 1966 年《Captain America》列为 13 话，每话由三个具名短篇组成；第一话的三个标题与 TMDB 第 1—3 集一致。\n\nhttps://www.themoviedb.org/movie/13995 (api_snapshot): 旧映射的电影 13995 是 1990 年上映、片长 97 分钟的作品，与本条目的年份、媒介和制作方不符。\n\n备注：Bangumi 第 2—13 话均无标题和单话播出日期；外部剧集指南与 TMDB 对部分三段故事的排列顺序不同，暂不指定这些话的逐集对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/440217; https://www.themoviedb.org/tv/2164; https://www.themoviedb.org/tv/2164/season/1; https://www.fernsehserien.de/captain-america/episodenguide; https://www.themoviedb.org/movie/13995",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 13995,
-      "type": "movie"
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 16,
+      "episodeEnd": 18,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 31,
+      "episodeEnd": 33,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 46,
+      "episodeEnd": 48,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 61,
+      "episodeEnd": 63,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 76,
+      "episodeEnd": 78,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 91,
+      "episodeEnd": 93,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 106,
+      "episodeEnd": 108,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 121,
+      "episodeEnd": 123,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 136,
+      "episodeEnd": 138,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 151,
+      "episodeEnd": 153,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 166,
+      "episodeEnd": 168,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 181,
+      "episodeEnd": 183,
+      "id": 2164,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

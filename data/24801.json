@@ -1,20 +1,45 @@
 {
   "anidbId": 5458,
   "bangumiId": 24801,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 126536,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 126537,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 126538,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2008 年发行、3 话的 OVA《星の海のアムリ》。官方资料确认标题、米谷良知导演/脚本、Studio Hibari 制作及相同剧情；Anime-Lists 明确将 AniDB 5458《Hoshi no Umi no Amuri》关联至 TMDB TV 44298 第 1 季。独立季信息显示该作品只有 1 季、共 3 集，日期为 2008-05-23 至 2008-09-26，因此应纳入完整第 1 季。\n\nhttps://bgm.tv/subject/24801 (page): 输入的 Bangumi 条目为《星の海のアムリ》/《星之海的爱玛丽》，2008-05-23，主体共 3 话。\n\nhttps://www.jvcmusic.co.jp/flyingdog/-/Animedata/Z0196.html (page): 官方资料确认《星の海のアムリ》标题、导演/脚本米谷ヨシトモ、角色设计 MA@YA、动画制作 Studio Hibari，以及与候选作品一致的剧情和角色。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): AniDB 5458 条目名称为 Hoshi no Umi no Amuri，并映射 tmdbtv=44298、tmdbseason=1。\n\nhttps://github.com/Fribb/anime-lists (search_snippet): Anime-Lists 索引摘要将 anidb_id 5458 标为 OVA，并关联 TMDB TV 44298 第 1 季。\n\nhttps://www.seriestowatch.com/tv/123993/amuri-in-star-ocean (search_snippet): 候选作品信息显示 1 个季度、共 3 集，首播 2008-05-23，完结 2008-09-26。\n\nhttps://www.themoviedb.org/tv/44298 (api_snapshot): 所附 TMDB API 快照请求该 TV 主页面返回 HTTP 404；该失败未被当作作品不存在。\n\n备注：所附 TMDB 主页面请求失败，无法直接读取 TMDB 官方季页的完整集标题；但候选映射、OVA 类型、年份、制作信息、1 季 3 集及日期均得到交叉支持。",
+    "evidence": "gpt-6-sol: TMDB TV 123993 是同一部 2008 年 3 话 OVA，第 1 季恰好收录完整三话。官方发行顺序、逐话标题和日期均与 TMDB 季表一致，可将 Bangumi 编号 1 至 3 对应到该季第 1 至 3 集。旧映射 44298 不可用。\n\nhttps://bgm.tv/subject/24801 (page): Bangumi 条目为 2008 年 5 月 23 日发售的 3 话 OVA，导演为米谷良知，动画制作为 Studio Hibari 和 Bandai Visual；章节编号为 1 至 3。\n\nhttps://www.themoviedb.org/tv/123993 (api_snapshot): TMDB TV 123993 的原名、首播日期、3 话 OVA 简介、导演和制作公司均与 Bangumi 条目相符；旧映射 TV 44298 的详情请求返回 404。\n\nhttps://www.themoviedb.org/tv/123993/season/1 (api_snapshot): TMDB TV 123993 第 1 季完整季表只有 3 集：第 1 集《夜空に花の咲くごとく》于 2008-05-23 发布，第 2 集《小鳥は可憐な花が好き》于 2008-07-25 发布，第 3 集《花散り鳥鳴き海眠り》于 2008-09-26 发布。\n\nhttps://www.amuri.jp/index_arc.html (search_snippet): 作品官网旧闻确认第 1 卷标题及 5 月 23 日发售、第 2 卷标题及 7 月 25 日发售。\n\nhttps://www.suruga-ya.com/ja/product/128027653 (search_snippet): 第 3 卷商品资料标明收录第三话《花散り鳥鳴き海眠り》，发售日为 2008 年 9 月 26 日。\n\n备注：Bangumi 三个章节页未填写逐话标题和日期；逐集核对使用作品的发行资料与 TMDB 季表。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/24801; https://www.jvcmusic.co.jp/flyingdog/-/Animedata/Z0196.html; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://github.com/Fribb/anime-lists; https://www.seriestowatch.com/tv/123993/amuri-in-star-ocean; https://www.themoviedb.org/tv/44298",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/24801; https://www.themoviedb.org/tv/123993; https://www.themoviedb.org/tv/123993/season/1; https://www.amuri.jp/index_arc.html; https://www.suruga-ya.com/ja/product/128027653",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 123993
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 44298,
+      "id": 123993,
       "season": 1,
       "type": "tv"
     }

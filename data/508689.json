@@ -1,13 +1,100 @@
 {
+  "anidbId": 4273,
   "bangumiId": 508689,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1383196,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1383197,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1383198,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1383199,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1383201,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1383202,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1383196,
+      "targets": [
+        {
+          "id": 1692386,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1383197,
+      "targets": [
+        {
+          "id": 1402795,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1383198,
+      "targets": [
+        {
+          "id": 1692394,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1383199,
+      "targets": [
+        {
+          "id": 1692451,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1383201,
+      "targets": [
+        {
+          "id": 1692458,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1383202,
+      "targets": [
+        {
+          "id": 1692468,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 该 Bangumi 条目是 1992—1993 年《なにわ遊侠伝》六部 OVA 的系列条目，不是 TV。TMDB 将六部 OVA 分别收录为 movie：首部日期为 1992-03-13，之后依次为《続なにわ遊侠伝》、1992-10-25 的《熱血!!爆笑マン開篇》、1993-01-08 的《超極道!夜のバットはマン塁篇》、1993-05-25 的《強烈!アナがあったら入れたい篇》和 1993-07-25 的《完結篇》。六个 TMDB 条目的导演、主要配音及原作信息连续一致；TMDB 的 48571 则是 1995 年三池崇史执导的真人电影，已排除。由于目标类型均为 movie，season 和集数范围均为 null。\n\nhttps://bgm.tv/subject/508689 (page): Bangumi 条目标为 OVA，发售日 1992-03-13，共 6 话。\n\nhttps://www.themoviedb.org/movie/1692386 (api_snapshot): TMDB movie 1692386：原名《なにわ遊侠伝》，日期 1992-03-13，片长 60 分钟，导演落合正宗/木暮輝夫。\n\nhttps://www.themoviedb.org/movie/1402795 (api_snapshot): TMDB movie 1402795：《続なにわ遊侠伝》，日期 1992-06-25，片长 60 分钟，导演和主要配音与系列一致。\n\nhttps://www.themoviedb.org/movie/1692394 (api_snapshot): TMDB movie 1692394：《なにわ遊侠伝: 熱血!!爆笑マン開篇》，日期 1992-10-25，片长 57 分钟，标有 Dookuman Pro 原作及系列导演。\n\nhttps://www.themoviedb.org/movie/1692451 (api_snapshot): TMDB movie 1692451：《なにわ遊侠伝: 超極道!夜のバットはマン塁篇》，日期 1993-01-08，片长 57 分钟，标有 Dookuman Pro 原作及系列导演。\n\nhttps://www.themoviedb.org/movie/1692458 (api_snapshot): TMDB movie 1692458：《なにわ遊侠伝: 強烈!アナがあったら入れたい篇》，日期 1993-05-25，片长 55 分钟，主要配音和导演与系列一致。\n\nhttps://www.themoviedb.org/movie/1692468 (api_snapshot): TMDB movie 1692468：《なにわ遊侠伝: 完結篇》，日期 1993-07-25，片长 60 分钟，标有 Dookuman Pro 原作及系列导演。\n\nhttps://www.themoviedb.org/movie/48571 (api_snapshot): TMDB movie 48571 虽同名，但日期为 1995-06-21、片长 101 分钟、导演为三池崇史，是真人电影，不是该 OVA 系列。\n\nhttps://www.sponichi.co.jp/entertainment/yomimono/kikusuimaru/kiji/K20160525013084490.html (page): 出演者河内家菊水丸回顾称该东映 V 动画《なにわ遊侠伝》为全 6 作。\n\n备注：TMDB 对个别 OVA 的制作公司字段存在差异，且首部单卷内部收录小故事数在外部资料中有不同表述；但系列总数、发行时间序列、主要工作人员和六个 TMDB 条目的作品身份相互吻合。",
+    "evidence": "gpt-6-sol: Bangumi 的六话 OVA 对应制作方列出的六部作品。TMDB 将六部分别收录为电影条目；发行先后、片长、原作、导演和配音支持按 Bangumi 章节 01 至 06 逐一对应。1995 年同名真人电影已排除。\n\nhttps://bgm.tv/subject/508689 (page): Bangumi 将本条目标为 OVA，发售日为 1992 年 3 月 13 日，共 6 话，章节编号为 01 至 06。\n\nhttps://ichi-knack.com/sakuhinn/ (page): 制作方 ICHI／KnacK 将《なにわ遊侠伝》列为六话 OVA，按第 1 至第 6 话列出 1992 年 3 月至 1993 年 7 月的发行顺序。\n\nhttps://www.allcinema.net/cinema/88409 (page): allcinema 确认首部是 1992 年 3 月 13 日发行的动画影像作品，并说明系列延续至第六卷。\n\nhttps://www.themoviedb.org/movie/1692386 (api_snapshot): TMDB 电影 1692386 是 1992 年 3 月 13 日的《なにわ遊侠伝》，片长 60 分钟，导演为落合正宗、木暮輝夫。\n\nhttps://www.themoviedb.org/movie/1402795 (api_snapshot): TMDB 电影 1402795 是 1992 年 6 月 25 日的《続なにわ遊侠伝》，片长 60 分钟，导演及主要配音与系列相符。\n\nhttps://www.themoviedb.org/movie/1692394 (api_snapshot): TMDB 电影 1692394 是 1992 年 10 月 25 日的《なにわ遊侠伝: 熱血!!爆笑マン開篇》，片长 57 分钟，原作及主要配音与系列相符。\n\nhttps://www.themoviedb.org/movie/1692451 (api_snapshot): TMDB 电影 1692451 是 1993 年 1 月 8 日的《なにわ遊侠伝: 超極道!夜のバットはマン塁篇》，片长 57 分钟，原作及导演与系列相符。\n\nhttps://www.themoviedb.org/movie/1692458 (api_snapshot): TMDB 电影 1692458 是 1993 年 5 月 25 日的《なにわ遊侠伝: 強烈!アナがあったら入れたい篇》，片长 55 分钟，原作及导演与系列相符。\n\nhttps://www.themoviedb.org/movie/1692468 (api_snapshot): TMDB 电影 1692468 是 1993 年 7 月 25 日的《なにわ遊侠伝: 完結篇》，片长 60 分钟，原作及导演与系列相符。\n\nhttps://www.themoviedb.org/movie/48571 (api_snapshot): 同名的 TMDB 电影 48571 发行于 1995 年，片长 101 分钟，导演为三池崇史，属于另一版本。\n\n备注：制作方网页将第三话的发行月份写为 1992 年 6 月，与 TMDB 的 1992 年 10 月 25 日不一致；第三部的标题及其位于第二、第四部之间的顺序仍相符。；Bangumi 六个章节没有单独的标题和日期；逐话对应依据是制作方的六话顺序与 TMDB 各部标题、发行顺序。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/508689; https://www.themoviedb.org/movie/1692386; https://www.themoviedb.org/movie/1402795; https://www.themoviedb.org/movie/1692394; https://www.themoviedb.org/movie/1692451; https://www.themoviedb.org/movie/1692458; https://www.themoviedb.org/movie/1692468; https://www.themoviedb.org/movie/48571; https://www.sponichi.co.jp/entertainment/yomimono/kikusuimaru/kiji/K20160525013084490.html",
-    "verifiedAt": "2026-09-09T00:14:31.570Z"
+    "source": "https://bgm.tv/subject/508689; https://ichi-knack.com/sakuhinn/; https://www.allcinema.net/cinema/88409; https://www.themoviedb.org/movie/1692386; https://www.themoviedb.org/movie/1402795; https://www.themoviedb.org/movie/1692394; https://www.themoviedb.org/movie/1692451; https://www.themoviedb.org/movie/1692458; https://www.themoviedb.org/movie/1692468; https://www.themoviedb.org/movie/48571",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [],
   "schemaVersion": 1,

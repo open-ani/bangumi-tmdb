@@ -1,20 +1,82 @@
 {
   "bangumiId": 434806,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1539109,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1539110,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1539111,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1539112,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1539113,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1539114,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1539115,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1539116,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1539117,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1539118,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1539119,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1539120,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 电视剧283154与 Bangumi 条目的剧情、导演和制作方吻合；其唯一的第1季对应这部动画，故映射整季。旧电影映射属于另一版本。当前没有可用于逐集核对的播出日期或正式集表，暂不填写逐集规则。\n\nhttps://bgm.tv/subject/434806 (page): Bangumi 将该条目标为12话网络动画，列出导演王裕仁、动画制作万维猫动画和原力动画、制作方爱奇艺。\n\nhttps://www.themoviedb.org/tv/283154 (api_snapshot): TMDB 电视剧283154的剧情简介与 Bangumi 条目一致，系列导演同为王裕仁，制作公司包括万维猫动画、原力动画和爱奇艺；目前仅列出第1季。\n\nhttps://www.themoviedb.org/tv/283154/season/1 (api_snapshot): 已读取 TMDB 电视剧283154第1季集表；目前只有1条无标题、无播出日期的占位集。\n\nhttps://www.themoviedb.org/movie/452910 (api_snapshot): 旧映射指向的电影452910是2017年上映、由郭子健执导、彭于晏主演的真人电影，与该12话动画版本不同。\n\n备注：Bangumi 记载12话，但 TMDB 第1季目前仅有1条无播出日期的占位集；逐集对应须待正式集表补齐后核实。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/434806; https://www.themoviedb.org/tv/283154; https://www.themoviedb.org/tv/283154/season/1; https://www.themoviedb.org/movie/452910",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 452910,
-      "type": "movie"
+      "id": 283154,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

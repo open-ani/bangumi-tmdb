@@ -1,16 +1,156 @@
 {
   "anidbId": 258,
   "bangumiId": 18150,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 99634,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 99635,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 99636,
+      "sort": 2.5,
+      "type": 0
+    },
+    {
+      "id": 99637,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 99638,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 99639,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1282000,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1282001,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1282002,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1282003,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 1282004,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 1282005,
+      "sort": 6,
+      "type": 1
+    },
+    {
+      "id": 1282006,
+      "sort": 7,
+      "type": 1
+    },
+    {
+      "id": 1282007,
+      "sort": 8,
+      "type": 1
+    },
+    {
+      "id": 1282008,
+      "sort": 9,
+      "type": 1
+    },
+    {
+      "id": 1282009,
+      "sort": 10,
+      "type": 1
+    },
+    {
+      "id": 1282010,
+      "sort": 11,
+      "type": 1
+    },
+    {
+      "id": 1282011,
+      "sort": 12,
+      "type": 1
+    },
+    {
+      "id": 1282012,
+      "sort": 13,
+      "type": 1
+    },
+    {
+      "id": 1282013,
+      "sort": 14,
+      "type": 1
+    },
+    {
+      "id": 1282014,
+      "sort": 15,
+      "type": 1
+    },
+    {
+      "id": 1282015,
+      "sort": 16,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 99636,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 35976,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 18150 是 2002—2004 年发行的原版 OVA《ナースウィッチ小麦ちゃんマジカルて》，全六话：KARTE.1、2、2.5、3、4、5。TMDB 35976 的第 1 季完整收录五个整数编号的 KARTE，第 0 季第 1 集则以完全相同的标题收录 KARTE.2.5，因此必须用两个目标覆盖本 subject。第 0 季第 2 集没有可与这六话对应的标题或内容，不能纳入。TMDB 第 2 季是另一个 Bangumi subject 对应的续作《マジカルてZ》，2016 年《R》则是更换角色和设定的重制 TV 动画，均不属于本 subject。\n\nhttps://www.themoviedb.org/tv/35976 (api_snapshot): TMDB API 快照确认 TV 35976 的原名为《ナースウィッチ小麦ちゃんマジカルて》，首播年份为 2002；剧情中的中原小麦、ムギまる、まじかるメイドこより和病毒首领あんぐら～也与原版 OVA 一致。快照还将《マジカルてZ》单独列为第 2 季。\n\nhttps://www.themoviedb.org/tv/35976/season/1 (api_snapshot): TMDB API 快照显示第 1 季共五集，标题依次对应 KARTE.1、KARTE.2、KARTE.3、KARTE.4、KARTE.5，与目标六话中除 KARTE.2.5 外的全部正篇逐一吻合。\n\nhttps://www.themoviedb.org/tv/35976/season/0 (api_snapshot): TMDB API 快照显示第 0 季第 1 集为《閑話休題すぺしゃる 〜再び祭りの予感でワッショイ！〜》，日期为 2003-06-06，标题和内容均与 Bangumi 的 KARTE.2.5 相同；第 0 季第 2 集只有泛称“第2話”和空白简介，无法对应本 subject 的任何一话，故不纳入。\n\nhttps://tatsunoko.co.jp/works/nurse-witch-komugi/ (search_snippet): 制作方龙之子官方资料将本作明确记载为 OVA、全六卷，发行期为 2002 年8月至2004年4月，并说明它是以《The SoulTaker》中原小麦为主角、重新设定的衍生作品。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10199003&workId=10199 (search_snippet): d动画商店将《ナースウィッチ小麦ちゃんマジカルて》列为全六话，并明确列出 KARTE.1、2、2.5、3、4、5；这证明 KARTE.2.5 属于该 Bangumi subject 的六话主体，而非续作 Z。\n\nhttps://tatsunoko.co.jp/en/works/nurse-witch-komugi-z/ (search_snippet): 龙之子官方将《NURSE WITCH KOMUGI Z》明确列为 2004 年制作的两话 OVA 续作，支持排除 TMDB 35976 第 2 季。",
+    "evidence": "gpt-6-sol: 确认是2002—2004年的原版六话OVA。TMDB第1季五集的标题和顺序逐一对应Bangumi的KARTE.1、2、3、4、5；KARTE.2.5对应第0季第1集。续作Z及新版R不属于本条目。\n\nhttps://tatsunoko.co.jp/works/nurse-witch-komugi/ (page): 龙之子官方将本作列为2002年8月至2004年4月发行、全六卷的OVA，主角为中原小麦。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10199003&workId=10199 (search_snippet): d动画商店列出全六话，顺序为KARTE.1、2、2.5、3、4、5；制作人员也与Bangumi资料吻合。\n\nhttps://www.themoviedb.org/tv/35976 (api_snapshot): TMDB 35976是2002年开始的同名作品，剧情角色及龙之子、京都动画的制作信息吻合；另将续作《マジカルてZ》列为第2季。\n\nhttps://www.themoviedb.org/tv/35976/season/1 (api_snapshot): 第1季共五集，标题依次对应KARTE.1、2、3、4、5。\n\nhttps://www.themoviedb.org/tv/35976/season/0 (api_snapshot): 第0季第1集的标题与KARTE.2.5相同，日期同为2003年6月6日；第2集只有泛称标题，无法确认对应关系。\n\n备注：TMDB第1季部分集的日期早于Bangumi所列发售日，但六集的标题、顺序及作品资料一致。；Bangumi另有16条无标题、无日期的SP章节；现有资料不足以逐条对应。TMDB第0季第2集也未能确认对应关系，均未纳入映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/18150; https://www.themoviedb.org/tv/35976; https://www.themoviedb.org/tv/35976/season/1; https://www.themoviedb.org/tv/35976/season/0; https://tatsunoko.co.jp/works/nurse-witch-komugi/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10199003&workId=10199; https://tatsunoko.co.jp/en/works/nurse-witch-komugi-z/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/18150; https://tatsunoko.co.jp/works/nurse-witch-komugi/; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10199003&workId=10199; https://www.themoviedb.org/tv/35976; https://www.themoviedb.org/tv/35976/season/1; https://www.themoviedb.org/tv/35976/season/0",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 35976
+    },
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 35976
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

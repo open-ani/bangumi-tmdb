@@ -1,20 +1,36 @@
 {
   "bangumiId": 403045,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1131048,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1131048,
+      "targets": [
+        {
+          "id": 589462,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 上映日期、电影媒介、25 分钟片长、主创及妖精国剧情均吻合；Bangumi 唯一正片章节对应 TMDB 电影 589462。旧映射 36450 是 1966 年电视版，应予替换。\n\nhttps://www.themoviedb.org/movie/589462 (api_snapshot): TMDB 电影 589462 的片名为《魔法使いサリー》，上映日期为 1990 年 3 月 10 日，片长 25 分钟，导演葛西治、编剧酒井あきよし。\n\nhttps://eiga.com/movie/73408/ (page): 电影资料记载相同的上映日期、片长和主创，并描述了莎莉等人进入绘本中的妖精国的剧情，与 Bangumi 输入一致。\n\nhttps://lineup.toei-anim.co.jp/ja/movie/movie_sarry/story/ (search_snippet): 东映动画将该作品列为 1990 年 3 月 10 日上映、片长 25 分钟的剧场版，剧情涉及绘本与妖精国。\n\nhttps://www.themoviedb.org/tv/36450 (api_snapshot): 旧映射所指的 TMDB 电视作品 36450 于 1966 年首播，属于另一版本的电视动画。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/403045; https://www.themoviedb.org/movie/589462; https://eiga.com/movie/73408/; https://lineup.toei-anim.co.jp/ja/movie/movie_sarry/story/; https://www.themoviedb.org/tv/36450",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 36450,
-      "type": "tv"
+      "id": 589462,
+      "type": "movie"
     }
   ]
 }

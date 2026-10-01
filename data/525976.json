@@ -1,15 +1,65 @@
 {
   "bangumiId": 525976,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1429265,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1429266,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1429267,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1429268,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1429269,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1429270,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1429271,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1429272,
+      "sort": 8,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品题材、媒介、播出年份与日期、制作方及 8 集范围均吻合；TMDB 第 1 季完整对应这部迷你剧。Bangumi 前 3 集还可凭标题和日期逐集确认。\n\nhttps://bgm.tv/subject/525976 (page): Bangumi 标注为 1988 年 10 月 21 日开播、1989 年 5 月 23 日结束的 8 集电视动画。\n\nhttps://bgm.tv/subject/525976/ep (page): Bangumi 第 1 至 3 集的标题和首播日期完整；第 4 至 8 集缺少标题与日期。\n\nhttps://www.themoviedb.org/tv/12152 (api_snapshot): TMDB 12152 是同名历史题材动画迷你剧，播出起止日期相同，共 1 季 8 集，制作公司包括 Lee Mendelson Film Productions 和 Bill Melendez Productions。\n\nhttps://www.themoviedb.org/tv/12152/season/1 (api_snapshot): TMDB 第 1 季恰有 8 集；前 3 集的标题和首播日期与 Bangumi 逐集一致。\n\nhttps://georgewinston.com/mediafiles/recording_records/pdf/Birth-of-the-Constitution-New9-28-22-26.pdf (page): 参与制作的音乐人 George Winston 列出该迷你剧全部 8 集的播出顺序与日期，支持 TMDB 季表的作品身份和顺序。\n\n备注：Bangumi 第 4 至 8 集目前只有编号，没有逐集标题或日期，因此暂不为这些章节填写对应规则。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/525976; https://bgm.tv/subject/525976/ep; https://www.themoviedb.org/tv/12152; https://www.themoviedb.org/tv/12152/season/1; https://georgewinston.com/mediafiles/recording_records/pdf/Birth-of-the-Constitution-New9-28-22-26.pdf",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 12152
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

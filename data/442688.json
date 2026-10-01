@@ -1,20 +1,46 @@
 {
   "bangumiId": 442688,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1224862,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1224863,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1224864,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi本篇三话与《The Transformers》电视第4季的全部三集逐话吻合：标题、顺序和1987年11月9日至11日的播出范围一致。该季没有混入其他作品，因此映射整季，并以连续规则对应第1至3集。旧电影映射虽指向同一故事的66分钟条目，却不能表达本subject的三话电视结构。\n\nhttps://www.themoviedb.org/tv/4269 (api_snapshot): TMDB《The Transformers》为1984年开播的电视动画；第4季始于1987年11月9日，共3集。\n\nhttps://www.themoviedb.org/tv/4269/season/4 (api_snapshot): TMDB第4季集表依次为《The Rebirth (1)》《The Rebirth (2)》《The Rebirth (3)》，分别于1987年11月9日、10日、11日播出，与输入的三话标题、顺序及播出范围一致。\n\nhttps://www.tvguide.com/tvshows/transformers/episodes-season-4/1030210643/ (page): TV Guide也将《The Rebirth》三话列为《Transformers》第4季第1至3集，播出日期与TMDB一致。\n\nhttps://thetvdb.com/series/transformers/seasons/official/4 (page): TheTVDB说明美国版第4季与日本版《头领战士》剧情不同，并列出三话《The Rebirth》。\n\nhttps://www.themoviedb.org/movie/880723 (api_snapshot): 旧映射指向的TMDB 880723是单个66分钟电影条目；本subject的三话电视播出结构由TMDB电视第4季完整收录。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/442688; https://www.themoviedb.org/tv/4269; https://www.themoviedb.org/tv/4269/season/4; https://www.tvguide.com/tvshows/transformers/episodes-season-4/1030210643/; https://thetvdb.com/series/transformers/seasons/official/4; https://www.themoviedb.org/movie/880723",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 4,
+      "start": 1,
+      "tmdbId": 4269
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 880723,
-      "type": "movie"
+      "id": 4269,
+      "season": 4,
+      "type": "tv"
     }
   ]
 }

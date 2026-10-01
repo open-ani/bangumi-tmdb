@@ -1,13 +1,25 @@
 {
+  "anidbId": 5565,
   "bangumiId": 383743,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1105413,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1105414,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 应映射到 TMDB 电影 1020160《恋子の毎日》。TMDB 资料与 Bangumi 的日文原名、1989-09-22 首发日、别名“Seishun Fuufu Monogatari: Koiko no Mainichi”、导演石黒昇、原作ジョージ秋山及日本动画公司信息一致；TMDB片长100分钟，符合该作品1989—1990年两部、每部约50分钟的OVA合集。Bangumi主体明确为2集OVA，因此电影目标不填写季或集数范围。另一个同名TMDB条目433493是1988年东映真人电影，导演和泉聖治，已排除。\n\nhttps://api.bgm.tv/v0/subjects/383743 (api_snapshot): Bangumi API确认作品为OVA，发售日1989-09-22，结束日1990-03-23，共2集。\n\nhttps://www.themoviedb.org/movie/1020160 (api_snapshot): TMDB详情确认动画电影《恋子の毎日》，日期1989-09-22，片长100分钟，别名含“Seishun Fuufu Monogatari: Koiko no Mainichi”，导演石黒昇，原作ジョージ秋山，制作公司Artland与Nippon Animation。\n\nhttps://www.allcinema.net/cinema/88668 (page): 日本资料确认1989-09-22的《青春夫婦物語 恋子の毎日》是原创视频动画，导演石黒昇。\n\nhttps://www.allcinema.net/cinema/pdf/235695 (page): 日本资料确认1990-03-23的《青春夫婦物語 恋子の毎日２》是同系列OVA第2弾，沿用石黒昇及主要制作/配音阵容。\n\nhttps://www.animeclick.it/anime/26127/koiko-no-mainichi (page): 作品资料将其列为1989—1990年、2集的OVA系列，并使用同一日文原名及英文别名。\n\nhttps://www.themoviedb.org/movie/433493 (api_snapshot): 同名候选为1988年、96分钟的东映真人电影，导演和泉聖治，演员为真人演员，不是本Bangumi动画。\n\n备注：TMDB将两部约50分钟OVA合并为一个100分钟movie条目，详情页没有逐集表；但日期、别名、导演、原作、制作公司和总片长均与两集OVA主体相符。",
+    "evidence": "gpt-6-sol: TMDB 1020160 的首映日期、动画制作公司、导演、原作及别名均与Bangumi的两部OVA一致；其100分钟片长也与两部各约50分钟相符，因此将电影条目对应整个Bangumi主体。TMDB电影没有逐集表，不建立章节规则。\n\nhttps://www.themoviedb.org/movie/1020160 (api_snapshot): TMDB 电影 1020160 的原名为《恋子の毎日》，首映日期为1989年9月22日，别名含《青春夫婦物語 恋子の毎日》；导演石黒昇、原作ジョージ秋山，制作公司为Artland和日本动画公司，片长100分钟。\n\nhttps://www.allcinema.net/cinema/88668 (page): 日本资料将1989年9月22日的《青春夫婦物語 恋子の毎日》列为石黒昇执导的原创录像动画。\n\nhttps://www.allcinema.net/cinema/pdf/235695 (page): 1990年3月23日的《青春夫婦物語 恋子の毎日２》是该OVA的第二部，沿用导演及主要制作阵容。\n\nhttps://www.animeka.com/animes/detail/seishun-fufu-monogatari-koiko-no-mainich.html (page): 动画资料记载本作于1989至1990年制作，共2部OVA，每部约50分钟，制作公司为日本动画公司和Artland。\n\nhttps://www.themoviedb.org/movie/433493 (api_snapshot): 同名 TMDB 电影 433493 于1988年上映，由和泉聖治执导、真人演员出演，是另一版本。\n\n备注：TMDB未提供电影内部的分段资料；其覆盖两部OVA的判断依据是作品身份与总片长，无法在该条目内分别定位第1、2话。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/383743; https://api.bgm.tv/v0/subjects/383743; https://www.themoviedb.org/movie/1020160; https://www.allcinema.net/cinema/88668; https://www.allcinema.net/cinema/pdf/235695; https://www.animeclick.it/anime/26127/koiko-no-mainichi; https://www.themoviedb.org/movie/433493",
-    "verifiedAt": "2026-09-08T23:24:29.755Z"
+    "source": "https://bgm.tv/subject/383743; https://www.themoviedb.org/movie/1020160; https://www.allcinema.net/cinema/88668; https://www.allcinema.net/cinema/pdf/235695; https://www.animeka.com/animes/detail/seishun-fufu-monogatari-koiko-no-mainich.html; https://www.themoviedb.org/movie/433493",
+    "verifiedAt": "2026-10-01T01:25:06.543Z"
   },
   "rules": [],
   "schemaVersion": 1,
