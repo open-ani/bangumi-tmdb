@@ -1591,11 +1591,11 @@
       "status": "matched"
     },
     "899": {
-      "attemptedAt": "2026-09-29T02:05:50.220Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "23f24b0fa59ac6a62362cdfc6371a1cc38fc94796a39d557bd3bc2d1ec2c2abe",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-01T02:05:50.220Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "902": {
@@ -12375,11 +12375,11 @@
       "status": "matched"
     },
     "10075": {
-      "attemptedAt": "2026-09-30T01:25:48.001Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "54547396a3fafc269f919fcd20257863174a29f902dd114fbd395378c3f36653",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-02T01:25:48.001Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "10076": {
@@ -61598,6 +61598,30 @@
       "retryAt": "2026-10-29T01:25:06.543Z",
       "status": "matched"
     },
+    "119971": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "f2c2e9d322bee4c566657cd8d1576eda81f6c0da280a27ff5b0d6627c162bbfc",
+      "reason": "作品、第四部身份、制作人员、剧情及 60 集范围均吻合，可确定对应 TMDB 132273 第 4 季。Bangumi 现有 52 个章节缺少标题和放送日期，无法逐集核对，因此暂不建立章节规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "119972": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "147099dad258a6804c14eacce748b736fcfc908edf8d2d9d4225f881b9412034",
+      "reason": "已确认该条目对应2005年前后的中国动画音乐录像《刺青之解夏》，但按《刺青之解夏》《刺青 解夏》《解夏》及制作方、歌手等线索检索TMDB，未确认到同一作品。名称相同的TMDB电影374402在年份、媒介、片长及制作人员上均不符，因此暂不建立映射。\n未确定：这支约5分45秒的动画MV是否以其他标题收录于TMDB，仍待核实；可继续查找其卡通或发行方提供的正式片名与作品链接。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "119973": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "0ed3512557a09e0ecff50803dda49791adb88f590ee87fe44d832946fec842f4",
+      "reason": "已确认 Bangumi 条目指向2005年其卡通制作的单部剧情动画短片，但尚未找到可核实为同一作品的 TMDB 条目，无法指定作品或逐集对应关系。\n未确定：其卡通官网所列页面未能访问，尚缺可用于交叉检索的正式外文片名或外部作品编号。；搜索无结果不能证明 TMDB 未收录；下一步可凭片尾署名、发行资料或可靠外部编号查找别名。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "119985": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
       "attempts": 0,
@@ -62166,6 +62190,30 @@
       "retryAt": "2026-10-17T11:52:44.754Z",
       "status": "matched"
     },
+    "121784": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "7e364587ad539afd4bcaeff7e0f8e8a443fad1412f7648e347903c8ad26b5613",
+      "reason": "已核实待核对作品是2010年前后的中国电视动画《夏桥街》，但以中文原名、繁体名及罗马字搜索，未找到可核验身份的 TMDB 条目，因此无法确定 TMDB 作品、季或逐集对应关系。搜索无结果不等于 TMDB 未收录。\n未确定：输入中的 Bangumi 章节只有第1至52话且均无标题和放送日期；其作品资料标100话，广电总局通知只确认第1至50集，现无法判断这些章节覆盖的准确范围。；若取得该作的可靠外文别名、TMDB 条目链接或逐集标题与播出日期，应继续核查条目身份及季集表。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "121785": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "548e2075222b283dca042af72d370e08298cd21e6fe4d445a2b81cfe39d896dc",
+      "reason": "作品、剧情、媒介及 52 集范围均相符，可将整个 TMDB 第 2 季对应本 subject。Bangumi 章节缺少逐集标题和播出日期，暂无法核实逐集顺序，因此不填写规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "121786": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "0d37da1f67116e52f5401b29fd84e4594a1837029c7b6bb53fc4b66fab7c607a",
+      "reason": "TMDB 第 3 季很可能是同一部《缇可夏季篇》，但现有季表为空，无法确认它覆盖 Bangumi 所列的 52 话。另有资料将已推出的上半部列为 25 集，因此暂不能提交整季范围或逐集规则。下一步需核实下半部是否制作、播出，并取得可与 TMDB 集表比对的章节资料。\n未确定：Bangumi 的第 26—52 话是否实际播出，或仅为计划集数。；TMDB 第 3 季日后会收录上半部 25 集，还是完整的 52 集。；Bangumi 所列 2013 年 9 月与其他资料中的年份差异尚未厘清。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "121787": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
       "attempts": 0,
@@ -62366,6 +62414,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "122999": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "07a3218e4782c0424184ac4cf6e2a61cf999ae204ef96f2975d677f7313e31bc",
+      "reason": "作品年份、木偶片媒介、片长、导演及具体剧情均吻合。Bangumi 仅有的一话对应这部单独的电影短片。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "123133": {
       "attemptedAt": "2026-09-15T09:25:28.456Z",
       "attempts": 5,
@@ -62389,6 +62445,14 @@
       "reason": "脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
+    },
+    "123219": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "f340603a0ce7197b1d774262432cfd0fa114e6da0a0b71b74cf92a93863c6272",
+      "reason": "已确认作品是2012年发布的10段网络短篇，且存在合并为一条的全话包；但尚未找到并核实对应的 TMDB 作品 ID，也无法确认 Bangumi 唯一章节指向独立短篇还是全话包，因此暂不建立映射。\n未确定：TMDB 可能以尚未检索到的别名收录，搜索无结果不能证明未收录。；Bangumi 章节575180没有标题或日期，尚不能确认它与全话包的对应关系。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "123225": {
       "attemptedAt": "2026-09-15T09:25:28.456Z",
@@ -62645,6 +62709,14 @@
       "reason": "找到高度相关的TMDB电影候选411274，剧情与制作人员吻合，但无法确认其收录范围是本篇「1号」还是试播「0号」。输入对应2003-02-18发行的本篇，候选日期却对应「0号」，现有证据不足以将该差异认定为单纯日期错误，因此暂不映射章节481210。\n未确定：需进一步取得「0号」与「1号」的具体内容或片头片尾资料，并核对TMDB候选的版本归属，才能确定是否可将唯一正篇映射到movie 411274。；Bangumi在线条目当前返回未查询到指定条目；本次主体信息依据用户提供的归档快照。",
       "retryAt": "2026-09-26T11:52:44.754Z",
       "status": "pending"
+    },
+    "125409": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "2059055c631800fda7c3d5a00188bea552b367f0c6ccac9fd9c0df5eecff7ae6",
+      "reason": "可确认 Bangumi subject 对应 TMDB 195327 的第1季，且该季52集覆盖作品主体。Bangumi 章节均无标题及放送日期，无法逐集核对顺序，因此暂不建立章节映射规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
     },
     "125448": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
@@ -62908,6 +62980,22 @@
       "fingerprint": "d6cd2afaaea5a7353daa3ed78ca1accb6640c04789dcaa72923c783d657227ae",
       "reason": "脚本按放送日期核对生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应，2 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-16T19:06:50.005Z",
+      "status": "matched"
+    },
+    "126240": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "588b487322f45c1dbf06dee2af20faf2b5da6bc20c9220a253ab9d70211dafe2",
+      "reason": "Bangumi 条目的片名、2014 年上映时间、导演、编剧、约 7 分半钟片长及单篇短片形式，与 TMDB 电影 307695 相符；唯一的本篇章节对应整部电影。输入简介误用了《The Dam Keeper》的剧情，不影响依据其他资料确认的作品身份。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "126242": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "da6baa696f14724464872f745f0d39c0dec66f4b9840762afdada1d77c5c1e74",
+      "reason": "作品年份、黑胶唱片引发人生时间穿梭的剧情、三位导演及约两分钟的独立动画短片形式均吻合。Bangumi 仅有一话，对应整部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "126324": {
@@ -63566,6 +63654,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "127142": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "25bcdb1b0e1723b0267bb943b0c83bbc4047356de9d341287bc69dac45f346d4",
+      "reason": "该 Bangumi 条目对应曾计划于2016年播出的《師匠シリーズ》电视动画。现有资料只确认改编企划，未核实动画实际播出、季号或集数；TMDB 搜索也未找到可确认身份的条目，因此无法建立作品及逐集映射。\n未确定：尚缺动画实际播出或发行的可靠记录；也未找到明确的官方取消公告。；若取得正式播出资料或制作方公布的其他标题，可据此重新检索 TMDB 并核对季表。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "127166": {
       "attemptedAt": "2026-09-18T03:33:27.527Z",
       "attempts": 0,
@@ -63878,6 +63974,14 @@
       "retryAt": "2026-10-17T11:52:44.754Z",
       "status": "matched"
     },
+    "128406": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "2e4e637813123c2760dd69828000ec1cd147c7ba97697a0676006bc97efe321b",
+      "reason": "唯一候选的名称和年份一致，作品简介也与单话短篇动画相符；将 Bangumi 唯一的本篇章节对应至该电影条目。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "128410": {
       "attemptedAt": "2026-09-19T11:52:44.754Z",
       "attempts": 0,
@@ -63908,6 +64012,14 @@
       "fingerprint": "3bfe48ba9b5122ad233f309bd2bb5c2ba3d4e8949f4a5f8394ca351ecf8e9894",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "128494": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "5f6001227be15e8dcf191ec9210a7564ad682c009c635369f7303cdc90639dd4",
+      "reason": "年份、剧情、导演、编剧、片长及单篇短片形式均吻合；Bangumi 唯一章节对应 TMDB 电影 944463。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "128500": {
@@ -64318,6 +64430,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "129992": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "a095ce6adb60cd4d99b569963ca3bd0d78e8194db3edd9d0439701a94aeb31b6",
+      "reason": "输入中的播出日期、剧情、制作人员和章节均为空；未找到能核实《大淘淘奇遇记》身份或别名的资料。TMDB 标题搜索无结果也不能证明未收录，现无法确定对应作品、季或逐集范围。\n未确定：《大淘淘奇遇记》的原名、播出年份、制作方及剧情尚未确认。；需要可核实的作品资料或 Bangumi 页面内容，才能继续按原名、别名查找并比对 TMDB 条目。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "130039": {
       "attemptedAt": "2026-09-19T11:52:44.754Z",
       "attempts": 0,
@@ -64357,6 +64477,14 @@
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
+    },
+    "130100": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "5f36224c43a0e238bde76891362a472c89b2bce017e1b6aae348bd48fc5f571c",
+      "reason": "TMDB 272459 从名称、人物和剧情看很可能是同一部电视动画，但目前无法确定 Bangumi subject 的准确集数范围及逐集对应。Bangumi 简介资料称 300 话、章节仅录入第 1 至 52 话且均无标题或日期；可查的播出页面列出 200 集，而 TMDB 第 1 季仅有第 200 集。现有季表不能证明覆盖 Bangumi 主体，也无法核实第 1 至 52 话对应的 TMDB 集号，因此暂不提交季范围或逐集规则。\n未确定：Bangumi 所写 300 话与外部页面列出的 200 集为何不同，需要核对原始播出或发行资料。；需要补齐 TMDB 第 1 季真实集表，并取得 Bangumi 章节标题或播出日期，才能逐集比对第 1 至 52 话。；Bangumi 与另一份资料记载的制作公司不同，尚需确认是否涉及不同制作或发行版本。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "130111": {
       "attemptedAt": "2026-09-30T01:25:48.001Z",
@@ -64436,6 +64564,14 @@
       "fingerprint": "7d9225e2d783d38710cdafb1054d3f7de24aeab76d9df8e5c391a6fd1e318dc4",
       "reason": "匹配 TMDB 668 第 1 季。作品版本、制作方、首播日期一致，前 13 集日期逐集吻合；标题、infobox 的 13 集及放送区间、另列第二季的关联共同支持第一季范围。仅映射已确认的 sort 1–13。",
       "retryAt": "2026-10-17T11:52:44.754Z",
+      "status": "matched"
+    },
+    "130141": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "ca9b2d51b07a2958d77fd372e93e3d5c9be07f59dd4c6dae2b24b5e8c0b48e7e",
+      "reason": "作品的俄文原名、剧情、IMDb 编号及导演均吻合。制作方资料确认原二维系列有 15 集，对应 TMDB 第 1 季第 1—15 集，因此使用已核实的部分季范围。Bangumi 前 11 话与 TMDB 标题及顺序一致；Bangumi 第 12、13 话的标题分别对应 TMDB 第 13、12 集，已用特例纠正。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "130165": {
@@ -64772,6 +64908,14 @@
       "fingerprint": "578c4a8eef73f1de650be92b5c47bad6f7d31de4dc1d45917ca3f3839e3e8966",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "130784": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "7e91519d1186e1945304525e641041f320a513a212c3570fc2c41a7d16cdd2ec",
+      "reason": "Bangumi 条目是一部 2014 年的单部电影，仅有一章；候选 256766 是同名且同年的电影，因此将该章对应到整部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "130785": {
@@ -65478,6 +65622,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "132384": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "22b3763f39b94e0d84e313f8d88cffb8d32436edc1e5b041d7e7e25b5e4b9e36",
+      "reason": "片名、1954 年份、6 分钟片长、剧情、导演及 IMDb ID 均吻合；Bangumi 的单话对应这部独立短片电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "132386": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -65502,6 +65654,22 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "132392": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "bb4f1b164cd2df47419d0def68d96c7805366be758f5a8910b6be469784d8514",
+      "reason": "Bangumi 条目是 1959 年上映、共一话的动画短片；电影候选 71255 的原名、年份和电影媒介均吻合。将唯一章节对应到该电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "132394": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "185c3f437f4def116394b38ea1944c6bd66cabe67d68c73214e9c9e7c0cad025",
+      "reason": "原名、年份和电影媒介一致；Bangumi 仅有一话，对应这一独立电影条目。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "132395": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -65518,12 +65686,44 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "132401": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "a630c558c9777281ddeed0f751ed53c80c77f2a6783fa193d24df47ba78b932c",
+      "reason": "Bangumi 条目是 1966 年上映、共一话的动画短片；候选是同名、同年的电影，媒介和作品范围相符。电影没有季或逐集范围。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "132402": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "3a76268831992a51340ba575ba0e40909281d63e9308cdc391ef04a5ea7b4984",
+      "reason": "已核实为同一部 1967 年独立动画短片。Bangumi 唯一的本篇章节对应整部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "132403": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "c435c55bf862239157359483384a3a7d24f0fc93483dcde9a629018ac068a090",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "132405": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "eb49efadc9f92592ec923ed594d151cf5ece5ea6ebc360fc81309d3af605f859",
+      "reason": "作品名称、1970 年份、8 分钟片长、主创及 IMDb ID 均吻合。Bangumi 的唯一章节对应这部独立短片电影；电影没有可填写的 TMDB 季或逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "132406": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "df8bf7e0304b04abb700bf172fcf67bd6f3aa4bc65a635905e88d0fcf1aeaf03",
+      "reason": "年份、两分钟片长、剧情、导演、配音及 IMDb 编号均吻合；Bangumi 唯一的本篇章节对应这部电影短片。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "132408": {
@@ -65542,12 +65742,52 @@
       "retryAt": "2026-10-27T02:05:50.220Z",
       "status": "matched"
     },
+    "132410": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "e14471089e449644de25eb62261ddad5d114b55e8b562240e91235e85fbedb89",
+      "reason": "年份、剧情、黏土动画媒介、制作人员、配音演员及 IMDb ID 均一致；Bangumi 的唯一正片章节对应这部独立短片。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "132411": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "e0aaacd811880d5325830399ee13eed82af562984888285f418136771f83d33e",
+      "reason": "年份、工程师布鲁内尔的传记剧情、导演、主要演员及 IMDb 编号均吻合。Bangumi 的单个章节对应 TMDB 的单部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "132412": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "b50e8cdd74b6db04f65b6444dfddaeffc0171dfd405008d5c9f76dc10154c399",
+      "reason": "年份、片名、导演、制作公司、动画短片形式、14 分钟片长、内容及 IMDb ID 均吻合。Bangumi 仅有一话本篇，对应这部独立短片电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "132413": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "89d4e49dbc80dcbdb95881137beb637510374e093b497d83082a69ed527a955b",
+      "reason": "Bangumi 条目是 1977 年的单话动画短片；候选 148514 是同年上映、法语原名完全一致的电影，媒介与年份均吻合。唯一的本篇章节对应整部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "132414": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "29a7826a7c942b5096037360038d4ddc7389dddddaea5e6e748d1106964270c6",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "132415": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "b3ae5811f1c04fa4a0c3ba2ba627a5cb3611510f4342eaa71fd7c03d89d93d16",
+      "reason": "年份、片长、哑谜游戏剧情、制作信息及 IMDb 编号均吻合；这是单部动画短片，Bangumi 唯一的本篇章节对应整部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "132416": {
@@ -65574,6 +65814,14 @@
       "retryAt": "2026-10-20T00:58:24.769Z",
       "status": "matched"
     },
+    "132421": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "2b506e38d0d83b960224396317b92781e4033affd4d9b29c0fcd89e4638ccbf6",
+      "reason": "英文片名、年份和电影媒介一致；Bangumi 仅有一话正片，对应候选电影整体。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "132422": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -65582,12 +65830,28 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "132425": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "1e8d1bc5861b622063118270ea05f9124b73808db3c8aa619a9c83e1a2579aae",
+      "reason": "确认对应 TMDB 独立电影《Bob's Birthday》（48273），Bangumi 唯一正片章节对应整部短片。TMDB 所记上映日期为 1994 年 10 月 1 日，但加拿大电影百科将作品年份列为 1993 年；剧情、制作人员、媒介及片长共同确认是同一作品。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "132427": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "7062cdba97cd6b7d1c3a4cb53aa147b64f7a96a22e9db229e0e11ba9086cd26d",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "132429": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "df6858999096861738206718a7110cbfdc2228a76c82560236e4e50b5fc176fc",
+      "reason": "剧情、媒介、片长、制作人员及 IMDb 编号均吻合；Bangumi 唯一的本篇章节对应这部独立短片。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "132433": {
@@ -65637,6 +65901,22 @@
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
+    },
+    "132476": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "8a3301196b63a8e877bfcc67702a3789ed10d834b5762639ce7ec773193e01cf",
+      "reason": "已根据剧情、导演、年份、产地、媒介和片长确认 Bangumi 收录的是 2012 年英国动画短片《The Honey Plot》。目前未找到能核实为该短片的 TMDB 作品 ID，不能建立映射。\n未确定：TMDB 是否以其他标题收录本片仍未确定；可继续查找该片的 IMDb ID 或其他可靠外部编号，再用 TMDB 外部编号检索核对。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "132481": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "f99aea608a23c060ae83172fe5ee8b9a46b53c5cf8670abda8623f1ee3633734",
+      "reason": "已确认 Bangumi subject 是2009年台湾制作、由林容嫺执导的单部剧情动画短片，但尚未找到可读取详情并核对身份的 TMDB 条目，不能指定电影 ID 或逐集映射。\n未确定：TMDB 可能以其他译名收录，或尚未收录；下一步需要找到具体候选电影 ID，再核对年份、剧情、导演与片长。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "132482": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
@@ -66270,6 +66550,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "135245": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "3076ba039912491508361eadf0294574281e5f2ad0b884518544d51f88978710",
+      "reason": "Bangumi 所记角色、CG 幼儿电视动画形式及 26 集规模，与 TMDB 该作品的第 1 季及《Nouky et ses amis》的资料相符。2009 年可视为日本播出年份；第 2 季为 52 集，不纳入本 subject。Bangumi 各集缺少标题和日期，TMDB 集表也没有可逐集比对的信息，因此只确认整季范围，暂不建立逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "135255": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -66534,6 +66822,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "136605": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "68d7cca6fe54ba32e9740483018de684ee91cec2c2d89e7044b0fa30dcce6eff",
+      "reason": "已确认 Bangumi 条目指向《魁拔4》的剧场版项目，但未找到身份可核实的 TMDB 对应电影。《魁拔之冲天槊》资料不足，不能仅凭同系列将其映射为本片。\n未确定：《最后的魁拔》是否已在 TMDB 以其他片名收录，仍待官方片名、制作信息或可靠外部编号核对。；影片尚无可核实的上映日期和成片资料。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "136756": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -66606,6 +66902,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "136837": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "c32123940ea775f45a6219f52e769fca5324522b796411ca4f77c04287cfc80b",
+      "reason": "片名、1935 年上映年份、3 分钟片长、导演和 IMDb 编号相互吻合，可将 Bangumi 唯一的本篇章节对应至这部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "136839": {
       "attemptedAt": "2026-09-29T02:05:50.220Z",
       "attempts": 0,
@@ -66638,6 +66942,30 @@
       "retryAt": "2026-10-23T00:40:39.199Z",
       "status": "matched"
     },
+    "136855": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "629c54d00a83a13e758424b1eb913302c1432a33bebd291ac650ca9ebff74ea0",
+      "reason": "原名、1947 年上映时间、11 分钟片长、导演和 IMDb 编号均吻合，且 TMDB 收录的是单部动画短片；Bangumi 唯一的本篇章节对应这部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "136859": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "721943e6f5f72720eced9b3d7ee5147b7299a3dfc1e00054aa6a372a0c0dd7df",
+      "reason": "年份、原名、英文别名、片长、导演、编剧和 IMDb 编号均与 Bangumi 资料一致；这是单部动画短片，映射为 TMDB 电影。电影没有季集号，因此无需逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "136860": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "56d75e3dbdd538cfc4c05e35a4cc0c0f7afe92d891b76e3bca46124982ae7e1a",
+      "reason": "Bangumi 条目是1963年上映、仅一话的电影；候选电影129409的原名及上映年份吻合。同名的2003年和2014年电影属于不同年份的版本。将唯一的本篇章节对应至电影129409。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "136866": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -66668,6 +66996,22 @@
       "fingerprint": "38bd308479d695d2db6c630819585ee0c74ad98f238c3d5f66e26c14322ac689",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-23T00:40:39.199Z",
+      "status": "matched"
+    },
+    "136872": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "a9698dc77498ecaf794f9f0926efbb0bc1aa0ac02c6628bf426abeb70db26da2",
+      "reason": "年份、片长、导演、媒介及 IMDb 编号共同确认这是同一部独立短片。Bangumi 唯一的本篇章节对应整部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "136873": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "71422bff7aeb08a0d163c9b7c772c9608129eac0e4c93fca8bb7cf1b5e563862",
+      "reason": "TMDB 条目的原名、1992 年 5 月上映时间、导演、波兰制作背景及短片时长均与该 Bangumi subject 对应；其唯一的本篇章节映射到这部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "136874": {
@@ -66748,6 +67092,14 @@
       "fingerprint": "0480fde50caba4d6a6033e622add60ba38ed827a268dbc7dbe37f4b253d4e07a",
       "reason": "年份、导演、原名与别名、捷克无对白动画短片形式及循环生活的剧情相符，确认对应TMDB电影207247。Bangumi仅有一个本篇章节，对应完整短片，使用章节覆盖映射。",
       "retryAt": "2026-10-19T00:24:47.944Z",
+      "status": "matched"
+    },
+    "136891": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "d5442b0286dc48265019011a880b4733713466f9d33fbf040303e4379ea4e94a",
+      "reason": "原名、1990 年份、13 分钟片长、剧情、导演、制作公司及 IMDb 编号均与输入资料一致。Bangumi 仅有一话本篇，对应这部完整短片。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "136894": {
@@ -66852,6 +67204,14 @@
       "fingerprint": "97ddc45938cb888478a68284fa2c7dcd2989b85806e8ea104c69b741abe519b9",
       "reason": "确认为1987年加拿大动画短片，对应 TMDB 电影208260。官方馆藏与 TMDB 的剧情、导演、配音阵容、制作机构及短片形态吻合，Bangumi 唯一本篇章节对应整部电影。Bangumi 的2004年日期与官方制作年份不一致，但其他身份信息充分一致。",
       "retryAt": "2026-10-17T11:52:44.754Z",
+      "status": "matched"
+    },
+    "136993": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "10acacfd27264ebf8df62e93c5c3fa4716a84ad0bb9a8bce82e1c21d7f331f71",
+      "reason": "俄文原名、1994 年上映年份和电影媒介均与 Bangumi 的单部动画短片吻合；同名候选的年份不同。电影无需建立逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "136994": {
@@ -67214,6 +67574,38 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "137376": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "e0d27ad3249cd0eeaa1f63ca337aa9233618e565b9d0825631d5fbb7e22be141",
+      "reason": "TMDB 341545 虽以电影形式收录，但其简介覆盖的正是本 Bangumi 条目的第一卷三个单元，可将第一卷整体对应到该电影条目。TMDB 没有把三个单元分别列为剧集，故不填写逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "137377": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "124e1b3610c54b346e5fb3d251a4fe8ee361dc942b28898795af208ca18cca52",
+      "reason": "已确认 Bangumi 条目对应《动画大师》的英国、意大利、法国三集。TMDB 搜索未找到可核实涵盖这三集的电视季或第二卷条目；同名电影 341545 的简介指向美国、加拿大内容，不能将其强行映射到本条目。\n未确定：TMDB 是否另以其他标题收录第二卷或整部系列，尚未确认。；Bangumi 三个无标题章节与 TMDB 集号之间缺少可核实的对应关系。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "137378": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "aa77b7499a57f36e784f3618d27e360d27c4391e68f77420e995a7c541f35685",
+      "reason": "已确认 Bangumi 条目指向 John Halas 的纪录片系列中介绍苏联、南斯拉夫、波兰和匈牙利的四个节目。TMDB 同名电影 341545 的内容范围不符；本次 TMDB 搜索及 TVDB ID 检索未找到可核实的对应 TMDB 电视季或第三卷电影，因此不能提交作品、季或逐集映射。\n未确定：尚缺对应这四个节目的 TMDB 作品 ID 及真实季表；可继续按第三卷的完整副标题、发行版本或各节目标题查找。；Bangumi 四个章节均无标题和播出日期，找到 TMDB 条目后仍需核对其集表，才能确认逐集顺序。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "137379": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "9e259a5c6b39a21a22156352d948333b945f2c654952a5a1f78392f16bc3cd79",
+      "reason": "已确认本条目指向John Halas的《Masters of Animation》第四卷，主题为日本及电脑动画，共列3话。检索到的TMDB同名电影341545描述的是美国、加拿大篇，不能用于第四卷；目前未找到并核实收录第四卷或相应三篇的TMDB作品与季表，因此暂不建立映射。\n未确定：尚未确认TMDB是否以其他片名收录第四卷或将其三篇收在电视剧季表中。；Bangumi三话均缺少标题与播出日期；即使找到对应TMDB条目，仍需逐篇核实顺序与范围。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "137381": {
       "attemptedAt": "2026-09-19T11:52:44.754Z",
       "attempts": 0,
@@ -67302,6 +67694,14 @@
       "retryAt": "2026-10-25T00:45:12.426Z",
       "status": "matched"
     },
+    "137396": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "5d51656f0222d83c826504f16066dcad41a9adc83f8f2a4ce581d3f5b6e32866",
+      "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "137397": {
       "attemptedAt": "2026-09-29T02:05:50.220Z",
       "attempts": 0,
@@ -67350,6 +67750,14 @@
       "retryAt": "2026-10-27T02:05:50.220Z",
       "status": "matched"
     },
+    "137407": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "6f1d71f0a6086bb6a36f99c46f2ca0ca65d547f1b3f92cef3df63485367c1a29",
+      "reason": "原名、年份、21 分钟片长、剧情、导演、制作公司及 IMDb 编号共同确认这是同一部独立动画短片。Bangumi 唯一的本篇章节对应整部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "137410": {
       "attemptedAt": "2026-09-30T01:25:48.001Z",
       "attempts": 0,
@@ -67364,6 +67772,22 @@
       "fingerprint": "b9f6e8babe694bbbe39536f98507485a270083226e43047bb39e7d9ccc4d8a29",
       "reason": "原名、1978 年份、Svojislav 的剧情、导演、制作公司及 IMDb ID 均吻合；Bangumi 唯一章节对应这部独立动画短片。",
       "retryAt": "2026-10-27T02:05:50.220Z",
+      "status": "matched"
+    },
+    "137420": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "470d7648125de06c3204a3bf7402faaae9136bd55cd32c7545442a17a5699936",
+      "reason": "原名、片长、导演、制作方、IMDb 编号及短片内容均与输入吻合。Bangumi 唯一的本篇章节对应这部独立电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "137421": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "b5f9d4ac36e368d1b234fc8bf17528412916a5d9b10af91f8de3367c1b18583e",
+      "reason": "原名、1971 年份、导演、制作公司及 IMDb 编号均与 Bangumi 资料一致；TMDB 剧情也符合该独立短片。Bangumi 唯一的本篇章节对应整部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "137424": {
@@ -67492,6 +67916,14 @@
       "fingerprint": "ec1a1262ad2110e1e558339ba76618ac4c2156cc4126c55226e3e6083fd44d60",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-16T19:06:50.005Z",
+      "status": "matched"
+    },
+    "137536": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "02f65e365b5183e05c522a65b6b2577413dff6cb240082bdb9af22dbb3d57c55",
+      "reason": "片名、上映年月和媒介吻合；Bangumi 标为一部电影、仅有一章，对应候选中的单部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "137576": {
@@ -67742,6 +68174,14 @@
       "retryAt": "2026-10-21T00:41:54.562Z",
       "status": "matched"
     },
+    "138699": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "468def9b8531120816dd86e624a440046e33c05c6551a7494a73198e0d8cbaaa",
+      "reason": "前作关联、媒介、系列内容及第三季首集的制作资料共同支持本条目对应 TMDB 99456 的第三季。TMDB 季表完整列出该季 12 集，故以整季作为作品范围。Bangumi 的 13 个章节均无标题和日期，无法核实逐集对应，暂不建立规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "138754": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -67902,6 +68342,14 @@
       "retryAt": "2026-10-16T19:06:50.005Z",
       "status": "matched"
     },
+    "139208": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "64abe19a152890cdcbc35a09bfe76dbc7df6786fbc967515654cffb841753762",
+      "reason": "剧情和制作方资料指向《Cuccioli》第二季，但找到的 TMDB 剧集 24425 尚无第二季季表；其第一季及同系列电影均不对应本条目，因此无法提交可靠的季和逐集范围。下一步需找到该第二季的独立 TMDB 条目，或待 TMDB 补建第二季后再核对集表。\n未确定：Bangumi 标注 2006 年，制作方称第二季于 2005 年在意大利播出；尚未核实 2006 年是否为中文版播出时间。；Bangumi 章节没有标题和播出日期，暂无法逐集比对。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "139221": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -67957,6 +68405,14 @@
       "reason": "脚本按声明范围生成逐集规则：22 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
       "retryAt": "2026-10-16T11:24:20.473Z",
       "status": "matched"
+    },
+    "139342": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "1d5628b18bf1f939ccb60e7d1536585c0b06be3ec8c70becb67a1c929b652dd0",
+      "reason": "已确认 Bangumi subject 对应东映制作的单篇、48 分钟人权教育动画《いのち輝く灯》。TMDB 原名、读音及缩短标题检索未找到可核实的对应条目；已读取详情的同年近似标题电影是另一作品，因此不能建立映射。\n未确定：本片是否以其他译名或未索引的名称收录于 TMDB，仍需进一步查找。；馆藏资料对制作年份有 1998 年和 1999 年两种记载；1999 年获奖目录能确认该年作品已存在。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "139344": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
@@ -68254,6 +68710,14 @@
       "retryAt": "2026-10-17T11:52:44.754Z",
       "status": "matched"
     },
+    "139824": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "cc93c09b54eaa53d769e1dacd2bcad8b28aeded14713494c1e2c67f4bbd6b829",
+      "reason": "已确认 Bangumi 条目指向约 2015 年的《奋斗吧！松鼠小贱》，但尚未找到身份相符的 TMDB 作品。已核查的《三只松鼠》是 2018 年开始的另一部动画，不能据同一品牌角色将其季或集数填入映射。\n未确定：仍需找到本片在 TMDB 的独立条目或可靠外文别名；搜索无结果不能证明 TMDB 未收录。；Bangumi 没有章节记录，且其上映年度还提及 2016 年；需取得官方分集表与播出资料，确认 40 集的版本范围后才能建立逐集对应。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "139825": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
       "attempts": 0,
@@ -68550,6 +69014,22 @@
       "retryAt": "2026-10-16T19:06:50.005Z",
       "status": "matched"
     },
+    "141164": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "91fa3ebf0b495f1aeffe6a899224aa3e61d78a5e0eeaf7b367f32088f970152e",
+      "reason": "目前只能确认这是 2015 年公布、曾计划于 2016 年播出的《影斗》动画企划。没有核实到实际播出日期、正片集数或身份相符的 TMDB 作品与季，因此无法建立范围及逐集映射。\n未确定：《影斗》是否制作完成或正式播出，仍缺少可靠记录。；TMDB 可能以其他名称收录；需取得正式播出资料或可核验的作品页面后再查找。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "141172": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "4aa4633768f9e98d93e69fbdde1b37f7ecb04efa35de6d10b4ee9c05e9390244",
+      "reason": "作品名称、制作方、动画媒介和 27 集规模一致；候选是独立的《Mini Wakfu》条目，其唯一一季覆盖这 27 集，故匹配该季。Bangumi 各集没有标题或播出日期，无法逐集核实对应关系，因此不填写 rules。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "141187": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
       "attempts": 1,
@@ -68630,6 +69110,14 @@
       "retryAt": "2026-09-25T19:06:50.005Z",
       "status": "pending"
     },
+    "141564": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "51337360362cf9dab62412358682bd3fd1518a04ab59f534071e7e579f37789b",
+      "reason": "TMDB 247935 与 Bangumi subject 的作品身份有较强证据，但季和逐集范围尚不能可靠确定。TMDB 唯一季的编号异常，只有 4 集，所填 2009 年 3 月播出日期又早于制作方官网所列的 2009 年 8 月首播。Bangumi 的 52 集缺少可用于比对的标题和日期，因此不能把 TMDB 第 1 至 4 集按位置直接对应，也不能把现有季视为已核实覆盖全 52 集。\n未确定：需核实 TMDB 季编号 52 的含义，以及该季是否计划收录本作完整剧集。；需取得可信的分集标题、播出日期或片源，核对 TMDB 现有 4 集与 Bangumi 章节的关系。；制作方官网标注 20 集，Bangumi 标注 52 集；需确认是否涉及不同播出或剪辑版本。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "141565": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -68676,6 +69164,14 @@
       "fingerprint": "2e43ee3eeec8b0e8ef88dafcd6914c4604155ca7e13d255ca2bce6b979138be5",
       "reason": "确认对应 TMDB《アイカツ！》(65503) 第4季整季。年份、电视动画媒介、导演及制作公司、巡演剧情均吻合；26集标题、顺序和播出日期逐一一致，季表未混入其他作品。Bangumi 使用全系列累计集号153—178，对应本季集号1—26。",
       "retryAt": "2026-10-16T19:06:50.005Z",
+      "status": "matched"
+    },
+    "141617": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "18adc49538b3252d2bf15a8168ea5adaf02f66da370bc38263690f586be79ee6",
+      "reason": "原名、2007 年首映时间、Goultard 的身世剧情及 Ankama 制作信息一致；Bangumi 的单话条目对应 TMDB 收录的独立短片电影，无需指定 TV 季或逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "141620": {
@@ -69414,6 +69910,14 @@
       "retryAt": "2026-10-16T19:06:50.005Z",
       "status": "matched"
     },
+    "144896": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "4f1d5f4b75e719a8acb3e39a42802e6b37dde3a86d824a42818ee71507c2c01e",
+      "reason": "已确认待核对的是朝鲜制作、2010至2014年间播出的7集历史题材动画，但所查原名、别名及外部编号均未定位到可核实的 TMDB 条目，无法确定作品、季或逐集范围。宽泛名称搜索所得电影也不符合。\n未确定：TMDB 可能以尚未检索到的译名或其他罗马字拼写收录本作；需取得直接 TMDB 条目或可靠外部编号后核对详情和季集表。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "144967": {
       "attemptedAt": "2026-09-18T03:33:27.527Z",
       "attempts": 0,
@@ -69708,6 +70212,14 @@
       "fingerprint": "5e713c7601791941ee0567929ae53518317cc98f2fff368b3e6a9d4ed04830ba",
       "reason": "脚本按放送日期核对生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应，1 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-17T11:52:44.754Z",
+      "status": "matched"
+    },
+    "146215": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "0c4c4c8171978ceb0ab3977adbd2073b3b9a3704efe967730c64da72bdfe4390",
+      "reason": "作品的别名、剧情、主角、导演、制作公司及 52 集规模相符。TMDB 第 1 季完整覆盖该作品；其 52 集标题与带编号的外部分集目录逐集一致，Bangumi 则按 1 至 52 连续列出本篇，因此映射整季并采用连续逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "146221": {
@@ -70126,6 +70638,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "147604": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "7410bbff5b697228ad8b963049c3dc845b2bfcd7b1da23df51580461f599f771",
+      "reason": "TMDB 302147 很可能涉及同一电通豆しば广告系列，但目前无法确认其 20 集第 1 季具体收录 Bangumi 24 话中的哪 20 话。TMDB 集表缺少豆种标题，日期也与前四话在 2008 年已播出的记录不符；按集号直接对应会成为位置猜测，因此暂不提交范围或逐集规则。\n未确定：TMDB 第 1 季 20 集各自对应哪些豆种短片，以及是否混有其他版本。；Bangumi 所标 2011 年 12 月的含义及 24 话的实际发布日期。；下一步需取得 TMDB 所据的 20 集标题或可靠播放清单，再与 24 话逐一核对。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
     "147613": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -70510,12 +71030,28 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "148147": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "849e2e519163b0250635df3d0e337083e615c4abc83603dd7f1190097338a496",
+      "reason": "可确认Bangumi条目对应候选电视剧115056的第1季，且该季18集覆盖条目主体。Bangumi各集缺少标题和放送日期，无法核实逐集对应，因此不建立逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "148181": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "2af428029bea3985d0f0253f8464781f766ef3bafa33b7737ed5b3dc6ef94a43",
       "reason": "脚本按放送日期核对生成逐集规则：25 个本篇章节与声明的 TMDB 范围逐一对应，25 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "148193": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "fad7ea90ab80e26ab23143ff32d1a06cd7e21f60c5952fb2c70b9be365a56790",
+      "reason": "作品名称、2008 年首播时间、铜钱镇剧情及首集标题均吻合，可确认 Bangumi 第 1 话对应 TMDB 第 1 季第 1 集。TMDB 季表尚未收录其余集数，因此只提交这一集的已核实映射。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "148226": {
@@ -70662,12 +71198,36 @@
       "retryAt": "2026-10-16T11:24:20.473Z",
       "status": "matched"
     },
+    "148632": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "903d1e73d73b86ccca0646e2a56b9d56ca1463d4820e18151a1fc8ed01a5aa3c",
+      "reason": "作品剧情、法国来源及标称 65 集均指向原版《Kangoo》，TMDB 第 1 季完整收录该剧。Bangumi 仅建有 52 条无标题、无日期的章节，无法逐集核对，因此暂不填写章节规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "148641": {
       "attemptedAt": "2026-09-30T01:25:48.001Z",
       "attempts": 0,
       "fingerprint": "66d4c8d8aeb1d93ffe62d87589e6f1babee91905584d3efb4f740044df6e0b6b",
       "reason": "Verified against live TMDB; episode rules need research",
       "retryAt": "2026-10-07T01:25:48.001Z",
+      "status": "matched"
+    },
+    "148663": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "ae34c859a87bd543bf8e3efec04ce211da4005fdea8574a79286e0a8aac4c9c8",
+      "reason": "未找到能核实为这部 2009 年国产动画的 TMDB 作品；近名条目已确认是另一部真人剧，不能据名称套用。现有 52 个 Bangumi 章节均无标题和放送日期，也无法核对其与资料所称 120 集的范围，因此暂不能建立季或逐集映射。\n未确定：目标动画是否以其他片名收录于 TMDB，仍需可靠别名或发行资料。；Bangumi 仅建有 52 个无标题章节，而作品资料称 120 集；这 52 集对应的实际范围尚不明确。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
+    },
+    "148702": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "0555191c293ada28d108db084b79553550818765043f20de5548268c21c4bbef",
+      "reason": "Bangumi条目是2010年播出的40集动画，出品方为奥飞；候选作品的制作公司、年份和媒介相符，且第1季恰好独立列出40集。后续各季的首播年份与该条目不符，因此将主体对应到第1季。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "148703": {
@@ -70684,6 +71244,14 @@
       "fingerprint": "a36bc2c328ca6db8c9316d81768d8163740be0e65e0f3cb8c946e1365bd96601",
       "reason": "年份、动画媒介、制作方、续集剧情及26集范围共同确认本 subject 对应 TMDB 201071 第4季整季。TMDB 缺少实际分集标题与有效逐集日期，因此仅确认季级范围，不按位置推定逐集规则。",
       "retryAt": "2026-10-16T19:06:50.005Z",
+      "status": "matched"
+    },
+    "148705": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "df95f1fa5f1cdeb0abecad96d58ac284df9e629f832734e39bb3ac71f56f1d92",
+      "reason": "剧情人物、动画媒介及 26 集篇幅均指向 TMDB 201071 的第 2 季，故匹配整季。Bangumi 虽标注 26 话，却建有 40 个无标题、无日期的本篇章节；缺乏逐集核对依据，暂不填写章节规则，也不将第 27—40 话映射至该季。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "148725": {
@@ -70749,6 +71317,14 @@
       "reason": "已确认对应作品为 TMDB TV 100926，其第 1 季收录 150 集。但输入简介及 infobox 标注 150 集，实际仅有 52 个无标题、无日期的章节，无法确认这些章节覆盖的具体范围及顺序，因此暂不提交映射。\n未确定：52 个章节究竟是未补齐的列表、选集，还是合并短篇的播放版本，尚无证据。；需要补充 Bangumi 章节标题、对应视频内容或原播放列表，再与 TMDB 集表逐集核对；不能假定对应第 1—52 集。",
       "retryAt": "2026-09-26T11:52:44.754Z",
       "status": "pending"
+    },
+    "149039": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "efc03417c223cafca0e84cb543242656afdc82079b9971072901613441dca46a",
+      "reason": "年份、动画媒介、寻父剧情、IMDb ID 及 26 集规模共同确认 Bangumi 条目对应 TMDB 213319 的完整第 1 季。Bangumi 章节缺少逐集标题和日期，无法核实各章节与 TMDB 集号的一一顺序，因此暂不写逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
     },
     "149077": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
@@ -70958,6 +71534,14 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "150774": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "1863e484588a072cb31a5cb55767fe128f29c370445e3b3fbe378c9ceb24583a",
+      "reason": "作品名称、导演及原作者身份、动画媒介和 100 集规格一致；TMDB 第 1 季覆盖该剧集，故匹配整季。Bangumi 没有章节，无法建立逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "150775": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -70981,6 +71565,14 @@
       "reason": "脚本按放送日期核对生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应，13 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
+    },
+    "151100": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "f65ad1d1b60f2e315d0d68a1e5720805114cf8ec5231dd6c0ad0fdfbc5608cbe",
+      "reason": "已确认这是田晓鹏、十月文化制作中的独立动画电影；目前搜索到的 TMDB 条目无法对应其年份、制作团队和版本，不能用同题材旧片代替。待本作出现可核实的 TMDB 电影条目后再建立映射。\n未确定：正式片名和上映日期尚未确定。；尚未找到可确认属于本作的 TMDB 条目；现有搜索无结果不等于 TMDB 一定未收录。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "151101": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
@@ -71014,6 +71606,22 @@
       "retryAt": "2026-10-16T19:06:50.005Z",
       "status": "matched"
     },
+    "151503": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "d95498154d076fed86bd5ec6d80fd3cc342804a3dda47c029f13c720c24e0b4b",
+      "reason": "TMDB《福五鼠》第 2 季的年份、剧情、26 集总数及逐集标题均对应 Bangumi《福五鼠之孙子兵法》，且整季只收录这部作品。采用该季，并将 Bangumi 本篇第 1 至 26 话依标题逐集对应。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "151504": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "1fbd4c906412078cbba68bc9d947188dc12f2fe71e3ffe198ddb7fa7cf888b84",
+      "reason": "作品名称、播出年月及26集规模一致；候选仅有一个26集的第1季，可确认subject覆盖该季。缺少可交叉核对的逐集标题或日期，因此不建立章节映射规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "151721": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
       "attempts": 1,
@@ -71028,6 +71636,22 @@
       "fingerprint": "5fa03d378cae986bfeb4e534984a917c635c3b119d7c47ba409e7817b706b509",
       "reason": "脚本按放送日期核对生成逐集规则：1 个本篇章节与声明的 TMDB 范围逐一对应，1 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "151956": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "08b55f0c142cdcc739df78e5be594220ed53c2052e1d7a07e44ed3aa40e4d297",
+      "reason": "年份、剧情、片长、制作公司和导演均吻合；Bangumi 的单个本篇章节对应这部独立短片电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "151957": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "0d1997774f698e5a97d1baf4e21b3e57cd43fcfab1a90d1d94ed11a9c03f1bc0",
+      "reason": "电影候选 998244 在片名、年份和媒介上与 Bangumi 的单部电影条目吻合；电影无需逐集映射。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "151960": {
@@ -71054,12 +71678,52 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "152003": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "b6e4f153cece0daa857d98f75589a47cb5629ecf74d13853df8dc438130e8313",
+      "reason": "年份、剧情、导演、片长及单部动画短片的形式均吻合；Bangumi 唯一章节对应 TMDB 电影 810064。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "152006": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "50ff794d8ad7769f95afa58146188a5de95f6e00bac42c759a0631bad5bba9d4",
+      "reason": "年份、片长、导演、制作公司和具体剧情均吻合；Bangumi 的单个本篇章节对应这部电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "152055": {
       "attemptedAt": "2026-09-18T19:06:50.005Z",
       "attempts": 0,
       "fingerprint": "561de2875524f44f927f27b882dcb04d54c53e559296cdedc04b4275d70dcd5b",
       "reason": "脚本按放送日期核对生成逐集规则：6 个本篇章节与声明的 TMDB 范围逐一对应，6 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-16T19:06:50.005Z",
+      "status": "matched"
+    },
+    "152074": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "da8d4adc31476557b5d5f927811d8f529f142abb17db0b15656b8a42812415b4",
+      "reason": "年份、片长、短片媒介及具体剧情均吻合；采用关联 IMDb 条目的 TMDB 电影 810063，对应 Bangumi 唯一一话。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "152075": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "65f9d33096cc3f0c3e13ae16563cebff882cd518559111fb4f298f5d8e976d29",
+      "reason": "年份、片长、制作方、导演及具体剧情均吻合；Bangumi 的单篇动画短片对应 TMDB 电影 650640。电影映射无需逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "152076": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "c2817289098f3fee2afe2c33e5c075ef01fc6c0c1cd9799d8a227f5e4e55f0d9",
+      "reason": "年份、片长、导演和具体剧情均一致；Bangumi 的唯一正篇章节对应这部独立电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "152077": {
@@ -71070,12 +71734,44 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "152078": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "d2142b47b1d8aeffb488ccc6270727a626b1d0a46e109e658f90fac3596be2c3",
+      "reason": "年份、独特剧情、短片媒介、片长及制作人员相符。Bangumi 唯一正片章节对应 TMDB 的独立电影条目。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "152079": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "daa8651676b03b35db178800ea7ea4a4e580319735c83124ee36c7cc7e4bfa04",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "152080": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "43834dc8c75b61c70afe7c54e433d5af0b1ada64cf0ae3e98469fbd7ae2b23a1",
+      "reason": "名称之外，年份、短片媒介、时长、制作公司、主创及关键剧情均吻合。Bangumi 唯一的本篇章节对应这部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "152081": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "72b26feccfdf5d88e496806b5eaf84d9276f53890838917a4c0748b797f909f6",
+      "reason": "年份、剧情、片长、导演及电影媒介均吻合；Bangumi 唯一的本篇章节对应这部短片。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "152083": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "7bd45857d76deb13c4522f3e4508318201721a9c92ae1550485fe375a807174e",
+      "reason": "片名、年份、导演、剧情和单部短片的形式均吻合。Bangumi 标注片长 10 分钟，TMDB 标注 9 分钟，不影响作品身份判断。电影条目无需逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "152084": {
@@ -71086,12 +71782,36 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "152085": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "d0f99524cc4d355f6ed34f3fbe5c96fd99ab9ed0b2cb4a519780fe8dd91f9d71",
+      "reason": "年份、片长、剧情和导演均吻合。Bangumi 仅有一话，对应这部独立短片电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "152086": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "9e75c16cee72dfab209ba2c63995dedfa254767ea5134de781ddc082a3955c83",
+      "reason": "作品名称、1980 年份、独特剧情、导演及单部动画短片的形式均对应；TMDB 的 11 分钟片长也与输入及动画片单一致。Bangumi 仅有一话，映射至整部 TMDB 电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "152087": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "a05d5e23480b9287082d8b72301e9e2829e569ed8f0b3814d21483e0c7e911a1",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "152088": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "8373913a1f87c6ba45a36333771983138840e186226a740bd91fa36e2326bf6a",
+      "reason": "片名、年份、单部动画短片的形式、片长及具体剧情均吻合，确认对应 TMDB 电影 787047。Bangumi 唯一的本篇章节对应整部电影，无需 TV 逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "152089": {
@@ -71141,6 +71861,14 @@
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
+    },
+    "152377": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "9e90db877ef129f187dde4dd80ff28b7fdf14a8e455eb4d919713d91465cd688",
+      "reason": "该 Bangumi 条目对应未能确认完成或播出的动画企划，没有可核实的 TMDB 作品、季或集数范围。众筹宣传 PV 也不能当作计划中的 TV 正片。现有搜索结果不足以建立映射。\n未确定：若此后曾以其他标题完成动画，需要新的官方发行或播出资料，再核对 TMDB 条目及集表。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "152454": {
       "attemptedAt": "2026-09-19T11:52:44.754Z",
@@ -71206,12 +71934,36 @@
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
     },
+    "153081": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "1065c30a956fcaacfee3b5d6b1062c4caa2edb50f667623c7f056f6cfbcb6a12",
+      "reason": "作品名称、年份、剧情、导演、制作公司及单部动画短片的形式均吻合；Bangumi 的一话对应整部电影，无需建立 TV 逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "153082": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "f0297191a46744d673230526b93ad548bcffefcff7bca7acb1b94f7e8936c20d",
+      "reason": "匹配 TMDB 电影 906436。片名、动画短片形式及续集情节指向同一作品；1905 的导演和具体剧情与 Bangumi 一致。Bangumi 只有一话，本片作为一部电影整体对应，无 TV 逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "153083": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
       "fingerprint": "df5a96051ec380b3d7bf1fec61bb952733e624eb206ebedd3a32527f86eeedfa",
       "reason": "脚本生成逐集规则：单一本篇章节对应整部电影。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "153085": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "0a4122aca1997f48c341b070c235457832aa6ac5c1770cef8fad0baa50c3c3f2",
+      "reason": "标题、年份、剧情、导演、动画短片媒介及 18 分钟片长均吻合；Bangumi 仅有一话，对应这部独立电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "153087": {
@@ -71244,6 +71996,38 @@
       "fingerprint": "d5304db8e0d642b1d55d3e90bc3b196ce1ddce1ada6aede7a2f36623a74079af",
       "reason": "脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-14T00:25:53.274Z",
+      "status": "matched"
+    },
+    "153180": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "a222e37d48acb6dfc512abe479c471131ddcd2d8715e528278e8394ffd504b97",
+      "reason": "片名之外，剪纸短片的媒介、制片厂、约 18 分钟的片长及具体剧情均吻合；1982 年的同期记载也将该剧情归于胡雄华执导的《狐狸送葡萄》。据此将 Bangumi 的单篇章节对应 TMDB 独立电影 718181。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "153181": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "23f215304810414e94e6791c12bd50471b6f19b4a15c4cd4dec0349afa068b37",
+      "reason": "片名、1981 年份、剧情、导演、片长及电影媒介均吻合；Bangumi 唯一的本篇章节对应 TMDB 电影 790273。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "153184": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "8de933aef252368d0bd0654d1a2943ab249cf6f0c77f291da8bca0f7cd2860ab",
+      "reason": "年份、剧情、片长及独立资料记载的媒介与制作人员一致；Bangumi 仅有的一话对应这部独立短片电影。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
+    "153185": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "90f10934a280f420cea36bd63d9440360777517dd6bb8220e5f63566da746bce",
+      "reason": "年份、电影媒介、导演、编剧及具体剧情均吻合；Bangumi 的唯一章节对应 TMDB 的单部电影558266。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "153186": {
@@ -71302,6 +72086,14 @@
       "retryAt": "2026-10-21T00:41:54.562Z",
       "status": "matched"
     },
+    "153206": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "e26bac09d1f2304a7c3b77bab0793711f13059e6f3c17e6f6e215824a6381dd0",
+      "reason": "作品名称、年份、动画媒介及 26 集总量一致；候选唯一的第 1 季恰有 26 集，可确认 subject 对应整季。分集缺少可核对的标题和日期，因此暂不建立逐集规则。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
+    },
     "153214": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
       "attempts": 0,
@@ -71309,6 +72101,14 @@
       "reason": "脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
       "retryAt": "2026-10-14T00:25:53.274Z",
       "status": "matched"
+    },
+    "153805": {
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "7d3d583ded8bbcecd3b74ad14b2740e59f7dc7aab105a6ac3b91e74251e30237",
+      "reason": "已确认 Bangumi 条目对应2000年韩国原创网络 Flash 动画的七个正篇。所查 TMDB 条目均无法确认为该版本，因此不能指定作品、季或逐集映射；2018年中国动画及2022年电影不得代填。\n未确定：尚未找到2000年韩国原版七话在 TMDB 的确切作品 ID；需继续查证其是否以其他标题或收录形式登记。；Bangumi 章节缺少标题和放送日期；即使找到候选 TMDB 条目，仍需核对真实季表和各话内容后才能建立逐集规则。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "154073": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
@@ -114599,11 +115399,11 @@
       "status": "pending"
     },
     "316795": {
-      "attemptedAt": "2026-09-30T01:25:48.001Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "1f07c049a0964a16d020f05c7e4638a74364915763885d5ac2477198e862cac7",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-02T01:25:48.001Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "316796": {
@@ -124919,11 +125719,11 @@
       "status": "matched"
     },
     "360611": {
-      "attemptedAt": "2026-09-29T02:05:50.220Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "c4b4ffa77286d2d9599df343aaff55e06f589146ccc35f5461b2e51278439f19",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-01T02:05:50.220Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "360715": {
@@ -133687,11 +134487,11 @@
       "status": "matched"
     },
     "407771": {
-      "attemptedAt": "2026-09-30T01:25:48.001Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "584f76742ddad7eb77e98b859c407fdc4b7449d9676f10c10d5e47b47c3f9469",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-02T01:25:48.001Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "407777": {
@@ -146103,12 +146903,12 @@
       "status": "matched"
     },
     "466756": {
-      "attemptedAt": "2026-09-23T05:13:12.914Z",
-      "attempts": 0,
-      "fingerprint": "b2f0d0c0324bef072192623ece6f66e6c0f50e4d38cc810ce444ded728380801",
-      "reason": "名称、剧情、主角、制作方和动画媒介均吻合；TMDB 仅设第 1 季，现有资料表明该季对应此 Bangumi 作品。作品尚未播出，采用整季范围；目前没有可按播出日期核实的逐集对应关系。",
-      "retryAt": "2026-10-21T05:13:12.914Z",
-      "status": "matched"
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 1,
+      "fingerprint": "e97372276d477b99d0752bb802c4234869e0b080ac035da466b2ef23bfdbc185",
+      "reason": "TMDB 作品层资料高度吻合，但实际读取的第 1 季集表出现另一套主角与剧情，无法确认该季的集数范围只覆盖 Bangumi 所指动画，也无法建立逐集对应关系。先暂缓沿用旧映射。\n未确定：需核对腾讯视频实际各集标题或剧情，并确认 TMDB 第 1 季前四集是否为误录、混入其他作品，或存在尚未找到的正确季条目。；Bangumi 输入中的 52 个本篇章节均无标题和放送日期，现阶段无法逐集比对；其数量也少于官方公布的全 59 集。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
+      "status": "pending"
     },
     "466759": {
       "attemptedAt": "2026-09-16T00:25:53.274Z",
@@ -160111,11 +160911,11 @@
       "status": "matched"
     },
     "545695": {
-      "attemptedAt": "2026-09-28T00:54:41.324Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
-      "fingerprint": "d2c317e77e587610e08694021c46e7d435019511a6f33dbc536344cba1c7ffff",
-      "reason": "脚本按放送日期延长逐集规则 1 集。",
-      "retryAt": "2026-10-26T00:54:41.324Z",
+      "fingerprint": "7862e9ecf56898d0063dbeafd222aff9ffa75511744126ae12433b490887736c",
+      "reason": "Verified against live TMDB; unchanged",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "545751": {
@@ -162495,11 +163295,11 @@
       "status": "matched"
     },
     "557818": {
-      "attemptedAt": "2026-09-17T00:37:35.487Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
-      "fingerprint": "c3867b625df911034f554e6272c85de79335bae3626de43fa7393cf62678a93f",
-      "reason": "原名、日文别名、年份、长片媒介、制作公司及两位导演和编剧相互吻合，官方剧情亦与 TMDB 一致，确认是2026年系列第三部电影。输入仅有一个本篇章节，对应整部电影，无季与分集范围。",
-      "retryAt": "2026-10-15T00:37:35.487Z",
+      "fingerprint": "ea145d6ca2620ca6799e54bd5930618502778d597ebf3a18fdd1cf486d1f7422",
+      "reason": "Verified against live TMDB; unchanged",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "558020": {
@@ -164855,11 +165655,11 @@
       "status": "matched"
     },
     "572613": {
-      "attemptedAt": "2026-09-30T01:25:48.001Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "1122db61da6787be5ca77db0b623d73f5deabe80e72d9dd3923a18f4c61c7e2a",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-02T01:25:48.001Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "572689": {
@@ -166903,12 +167703,12 @@
       "status": "pending"
     },
     "586941": {
-      "attemptedAt": "2026-09-30T01:25:48.001Z",
-      "attempts": 2,
-      "fingerprint": "f772e593feff233b2bdb32f2b817252d8d245892919a4d547856ea77736ad01e",
-      "reason": "已确认 Bangumi 条目对应 2026 年播出的独立剧情阶段，但检索到的 TMDB 同系列条目尚无可核实的对应作品或季。不能把它填入 2024 年《SEMIFINAL》季，也不能推定尚不存在的第 3 季，因此暂不提交映射。\n未确定：TMDB 后续是否将本作加入 205493 的新季，或建立独立 TV 条目，仍待核实。；待对应 TMDB 季出现后，需按首话标题、播出日期及后续集表核对季范围和逐集关系。",
-      "retryAt": "2026-10-07T01:25:48.001Z",
-      "status": "pending"
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 0,
+      "fingerprint": "7fc361bf3e4b5ab215c98b924e9507ed2c6b05c481b45d447db38dc7e1f5e587",
+      "reason": "作品名称、2026 年档期和制作信息吻合；第 1 集标题完全一致。两边前两集均按周播出，TMDB 日期比 Bangumi 各晚一天，可确认前两集对应第 3 季第 1 至 2 集。仅声明季表中已核实的范围。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
+      "status": "matched"
     },
     "587109": {
       "attemptedAt": "2026-09-17T00:37:35.487Z",
@@ -167695,11 +168495,11 @@
       "status": "pending"
     },
     "599894": {
-      "attemptedAt": "2026-09-17T00:37:35.487Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
-      "fingerprint": "680311f68a5e5401c5243ddac7c03eb6e6453cdcfdb8734aeacd0c87b106a193",
-      "reason": "已确认对应 TMDB 电影 1566920：媒介、年份及上映日期、具体剧情和核心制作人员一致，官方亦确认是全新故事剧场版。Bangumi 仅有一个本篇章节，直接对应整部电影，无季号。",
-      "retryAt": "2026-10-15T00:37:35.487Z",
+      "fingerprint": "d93ae5b0e80e5e78355359bcb8cb07a21a2b4984cd1dc328d32c66e5cbc74304",
+      "reason": "Verified against live TMDB; unchanged",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "600080": {
@@ -168063,11 +168863,11 @@
       "status": "matched"
     },
     "607043": {
-      "attemptedAt": "2026-09-29T02:05:50.220Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
       "fingerprint": "d5ddc26f67ca8c7f1a88507ddfa4e3da61abe55b441ad7dfcb897baa29bdbe93",
       "reason": "Verified against live TMDB; unchanged",
-      "retryAt": "2026-10-01T02:05:50.220Z",
+      "retryAt": "2026-10-04T01:49:00.018Z",
       "status": "matched"
     },
     "607306": {
@@ -170375,11 +171175,11 @@
       "status": "pending"
     },
     "626870": {
-      "attemptedAt": "2026-09-18T00:25:50.634Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
       "attempts": 0,
-      "fingerprint": "f5926c1f35061533e17f4b4120fd005e87f46ac02d75b5750d15eab3bf422b22",
-      "reason": "上映日期、电影媒介、剧情与制作人员交叉吻合，可确认是同一部2026年剧场动画。输入仅有一个本篇章节，对应整部电影，以 override 映射，无季或电视集号。",
-      "retryAt": "2026-10-16T00:25:50.634Z",
+      "fingerprint": "a94f6c3cb7f3d51dbbed7ee7778c09fcfa8badfb6900d68dcd7fa2f061cde7b4",
+      "reason": "Verified against live TMDB; unchanged",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "matched"
     },
     "626871": {
@@ -172015,11 +172815,11 @@
       "status": "matched"
     },
     "637584": {
-      "attemptedAt": "2026-09-25T00:40:39.199Z",
-      "attempts": 2,
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 3,
       "fingerprint": "ffd5d586580a16d0a999a3e49a5ba319c105065990b6cd5f8c4a038d7d33b026",
-      "reason": "已确认 Bangumi 条目的作品身份与官方发布信息，但按日文标题、简称、标题片段及外文写法搜索 TMDB 均未找到可核实的作品，因而无法确认 TMDB ID、季或逐集关系。搜索无结果不等于 TMDB 未收录，暂列待定。\n未确定：是否存在以其他标题登记的 TMDB 条目；若出现候选，需读取作品详情及对应季表核对。；Bangumi 当前没有章节记录，尚无法建立逐集对应；后续可依据官方视频发布日期与 TMDB 集表核实。",
-      "retryAt": "2026-10-02T00:40:39.199Z",
+      "reason": "已确认 Bangumi 条目的作品身份与首播日期，但目前未找到可核实身份的 TMDB 作品或季，无法提出映射。\n未确定：TMDB 是否已收录该动画，以及可能使用的其他译名或标题，仍待确认。；取得对应的 TMDB 条目后，需核实季表和已发布章节，才能建立逐集关系。",
+      "retryAt": "2026-10-30T01:49:00.018Z",
       "status": "pending"
     },
     "637591": {
@@ -178135,11 +178935,11 @@
       "status": "pending"
     },
     "705980": {
-      "attemptedAt": "2026-09-25T00:40:39.199Z",
-      "attempts": 2,
-      "fingerprint": "2e5dc5eb4e046f8da75d7d0615253ee45310fb6731b57049375cf1b851788e49",
-      "reason": "已确认 Bangumi 条目与爱奇艺的2026年第二季是同一续作。TMDB TV 301742 目前仅收录2025年的前作第1季；第2季季表不存在，也未搜索到可核实的独立续作条目，因此不能把本条目的52话映射到前作。\n未确定：TMDB 将来可能为 TV 301742 增加第2季，或另建独立剧集；需待对应条目及季表出现后重新核对。；2026年10月1日的具体首播日期见 Bangumi；已访问的爱奇艺页面仅支持其为2026年的第二季，未核实具体日期。",
-      "retryAt": "2026-10-04T00:40:39.199Z",
+      "attemptedAt": "2026-10-02T01:49:00.018Z",
+      "attempts": 3,
+      "fingerprint": "e8d8eeb97252cd167c66839e173d2acb79546c335a072d298976065bc64cf2da",
+      "reason": "已确认待核对 subject 是2026年播出的52集续作。TMDB 301742目前收录的是2025年前作，第1季不能用于本 subject；其第2季尚无法通过API取得，也未核实到对应的独立TMDB条目，因此暂不能确定作品及季号。\n未确定：待TMDB建立或更新2026年续作后，核对它是301742的第2季还是独立电视剧条目。；取得对应季表后，按集标题与播出日期核实逐集关系。",
+      "retryAt": "2026-10-09T01:49:00.018Z",
       "status": "pending"
     },
     "706816": {

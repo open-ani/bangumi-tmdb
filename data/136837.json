@@ -1,0 +1,36 @@
+{
+  "bangumiId": 136837,
+  "episodes": [
+    {
+      "id": 912458,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912458,
+      "targets": [
+        {
+          "id": 128937,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 片名、1935 年上映年份、3 分钟片长、导演和 IMDb 编号相互吻合，可将 Bangumi 唯一的本篇章节对应至这部 TMDB 电影。\n\nhttps://www.themoviedb.org/movie/128937 (api_snapshot): TMDB 搜索返回电影《A Colour Box》，上映日期为 1935 年 9 月 6 日，简介描述随古巴音乐舞动的抽象图形。\n\nhttps://www.themoviedb.org/movie/128937 (api_snapshot): TMDB 详情确认该片片长 3 分钟、导演为 Len Lye，IMDb 编号为 tt0026226；均与 Bangumi 条目信息一致。\n\n备注：Bangumi 信息框将制片国家标为美国，TMDB 所列制作公司 GPO Film Unit 的国家为英国；这一字段差异不影响由导演、片长及 IMDb 编号确认的作品身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/136837; https://www.themoviedb.org/movie/128937",
+    "verifiedAt": "2026-10-02T01:49:00.018Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 128937,
+      "type": "movie"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "bangumiId": 153082,
+  "episodes": [
+    {
+      "id": 912946,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912946,
+      "targets": [
+        {
+          "id": 906436,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 匹配 TMDB 电影 906436。片名、动画短片形式及续集情节指向同一作品；1905 的导演和具体剧情与 Bangumi 一致。Bangumi 只有一话，本片作为一部电影整体对应，无 TV 逐集规则。\n\nhttps://www.themoviedb.org/movie/906436 (api_snapshot): TMDB 搜索《老虎装牙》得到电影 906436；详情登记为中文电影，日期 1987-01-01，片长 17 分钟。\n\nhttps://m.1905.com/m/star/workslist/3016420/ (page): 1905 电影网将《老虎装牙》列为浦家祥执导的 1988 年动画，剧情中的梅花鹿医生、小兔护士和橡皮牙与 Bangumi 简介一致。\n\nhttps://zh.wikipedia.org/wiki/老虎装牙 (page): 维基百科将《老虎装牙》列为《没牙的老虎》的续集；其剧情文字与 TMDB 简介相同，并以前作拔牙情节开头。\n\n备注：TMDB 登记为 1987 年、17 分钟，Bangumi 与 1905 登记为 1988 年、约 20 分钟。；TMDB 简介大量叙述前作《没牙的老虎》的情节，未准确概括 Bangumi 所载的梅花鹿医生装牙情节。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/153082; https://www.themoviedb.org/movie/906436; https://m.1905.com/m/star/workslist/3016420/; https://zh.wikipedia.org/wiki/老虎装牙",
+    "verifiedAt": "2026-10-02T01:49:00.018Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 906436,
+      "type": "movie"
+    }
+  ]
+}
