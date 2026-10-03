@@ -1,19 +1,150 @@
 {
   "anidbId": 13389,
   "bangumiId": 222227,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 752333,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 752334,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 752335,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 752336,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 752337,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 752338,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 752339,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 752340,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 752341,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 752342,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 752343,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 752344,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 784925,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 784926,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 784927,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 784928,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 784929,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 784930,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 784931,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 784932,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 784933,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 784934,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 784935,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 784936,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 222227 对应 2017 年 DLE 制作的讽刺喜剧短篇动画《俺たちゃ妖怪人間》，不是 1968 年版、2006 年版或后续《俺たちゃ妖怪人間G》。TMDB 74181 的原名和首播日均完全相符，其第 1 季也始于 2017-10-04，因此应映射至 TV 74181 第 1 季全季，无须限定部分集数。TMDB 当前仅录入第 1 集属于目录未完善，不能据此把主体缩减成单集。独立作品资料显示本作实际为全 25 话。\n\nhttps://www.themoviedb.org/tv/74181 (api_snapshot): TMDB API 快照确认 TV 74181 的原名为《俺たちゃ妖怪人間》，首播日为 2017-10-04，且列有第 1、2季；标题和日期准确对应目标作品。\n\nhttps://www.themoviedb.org/tv/74181/season/1 (api_snapshot): TMDB API 快照确认第 1 季的首播日为 2017-10-04，与目标作品首播日一致；快照目前只收录一个占位式名称为“第1話”的条目，表明集目录尚未补全。\n\nhttps://www.dle.jp/jp/brands/post_26.html (page): 制作方 DLE 的作品页确认《俺たちゃ妖怪人間》是2017年10月开播的新作短篇动画，由安達譲执导、DLE制作；剧情发生在类似歌舞伎町的“歌魔羅町”，是带社会讽刺的搞笑重制企划，足以与旧版动画及其他同系列作品区分。\n\nhttps://www.animatetimes.com/tag/details.php?id=6822 (page): 作品资料确认该作于2017-10-04至2018-03-28播出，共25话；同页把后续《俺たちゃ妖怪人間G》另列为2018-04-05开播的独立作品。\n\n备注：TMDB 第1季当前仅录入第1集，尚未建立完整的25集目录，因此无法逐集核对TMDB标题，但不影响系列ID和季号的确定。；输入中的Bangumi集表只有24条并缺少2018-03-21的一周记录，而其infobox及独立作品资料均记载全25话；这是集目录完整性差异，不代表应限定为TMDB第1集。",
+    "evidence": "gpt-6-sol: 作品名称、2017 年首播日期、DLE 制作信息及独立的《G》续作资料共同确认 TMDB 74181 第 1 季对应本 subject。TMDB 当前仅有与 Bangumi 第 1 话同日播出的第 1 集，因此只提交已核实的单集范围；季表尚不足以支持整季范围或后续逐集规则。\n\nhttps://www.themoviedb.org/tv/74181 (api_snapshot): TMDB 74181 的原名为《俺たちゃ妖怪人間》，首播于 2017-10-04，制作公司包括 DLE。\n\nhttps://www.themoviedb.org/tv/74181/season/1 (api_snapshot): TMDB 第 1 季始于 2017-10-04，目前只收录当天播出的第 1 集；第 2 季集表为空。\n\nhttps://www.dle.jp/jp/document/document_movie.pdf (page): 制作方 DLE 将《俺たちゃ妖怪人間》列为 2017 年 10 月至 2018 年 3 月播出的安達譲执导电视动画，并将 2018 年播出的《俺たちゃ妖怪人間G》另列。\n\nhttps://www.allcinema.net/cinema/361537 (page): allcinema 记载本作播出期为 2017-10-04 至 2018-03-28，列有 25 集。\n\n备注：TMDB 第 1 季仅收录 1 集，尚无法核对其余章节的集号和标题。；Bangumi 输入列出 24 个本篇章节，而 allcinema 列有 25 集；缺失章节及其位置仍需核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/222227; https://www.themoviedb.org/tv/74181; https://www.themoviedb.org/tv/74181/season/1; https://www.dle.jp/jp/brands/post_26.html; https://www.animatetimes.com/tag/details.php?id=6822",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/222227; https://www.themoviedb.org/tv/74181; https://www.themoviedb.org/tv/74181/season/1; https://www.dle.jp/jp/document/document_movie.pdf; https://www.allcinema.net/cinema/361537",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 74181
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 74181,
       "season": 1,
       "type": "tv"

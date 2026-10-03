@@ -1,13 +1,64 @@
 {
   "bangumiId": 439252,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1216260,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1216261,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1216262,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1216263,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1216264,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1216265,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1216266,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1216267,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1216268,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1216269,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 应映射到 TMDB 电视剧 292079 的第 2 季整季。TMDB 详情中的俄语动画《Metal Family》与 Bangumi 的家庭成员、剧情和媒介一致；其第 2 季首播日恰为 2021-12-15，而第 1 季另列为始于 2018 年的 10 集，分季边界明确。实际读取的第 2 季表目前收录 7 集（2021-12-15 至 2026-06-28），剧集状态仍为 Returning Series；Bangumi 的 10 集是无日期的整季总数/计划数，并非只描述现有前 7 集，因此推荐第 2 季整体，不将范围截断为 1–7。官方资料确认它是讲述金属乐迷家庭的 YouTube 剧情动画系列，不是音乐录像、短片合集或重制版。外部提示 IMDb tt22897080 未在 TMDB 找到对应项，而 TMDB 详情记录本作 IMDb 为 tt14037690，故未采用输入中的 IMDb 提示作为身份依据。\n\nhttps://www.themoviedb.org/tv/292079 (api_snapshot): TMDB API 详情：原始标题 Metal Family，原语言俄语，简介涉及 Glam、Victoria、Dee 和 Heavy；共列 2 季，第二季日期为 2021-12-15；状态为 Returning Series，外部 IMDb ID 为 tt14037690。\n\nhttps://www.themoviedb.org/tv/292079/season/2 (api_snapshot): TMDB API 实际季表：第 2 季共收录 7 集，S2E1 于 2021-12-15播出，S2E7 于 2026-06-28播出，total_pages=1。\n\nhttps://www.themoviedb.org/tv/292079/season/1 (api_snapshot): TMDB API 实际季表将始于 2018-09-13 的早期 10 集独立列为第 1 季，未混入第 2 季。\n\nhttps://metalfamily.ru/en/about-us/ (page): 作品官方页面称 Metal Family 是由小团队制作、讲述金属乐迷家庭成员的 YouTube 剧情动画系列。\n\nhttps://www.imdb.com/title/tt14037690/episodes/?season=2 (search_snippet): 搜索摘要列出的第二季 E1–E7 日期与 TMDB 季表相符，包括 2021-12-15 的 E1 和 2026-06-28 的 E7。\n\n备注：Bangumi 标注的 10 集与 TMDB 当前已收录的 7 集不一致；现有证据表明第二季仍在持续发布，尚不能确认最终会恰好停在 10 集。该差异不影响整季身份映射，但不宜把当前 7 集误当作最终范围。",
+    "evidence": "gpt-6-sol: Bangumi subject 的作品、家庭成员、媒介及 2021-12-15 开始日期均对应 TMDB 电视剧 292079 的第二季。第一季另有独立的 2018 至 2020 年集表，因此可将本 subject 映射到第二季整季。Bangumi 各章节没有标题或日期，无法逐集核对，故暂不建立 rules。\n\nhttps://www.themoviedb.org/tv/292079 (api_snapshot): TMDB 搜索到俄语动画剧集《Metal Family》（ID 292079）；简介中的 Glam、Victoria、Dee 和 Heavy 与 Bangumi 提供的剧情一致。\n\nhttps://www.themoviedb.org/tv/292079 (api_snapshot): 作品详情将始于 2018-09-13 的第一季和始于 2021-12-15 的第二季分别列出；作品状态为仍在播出。\n\nhttps://www.themoviedb.org/tv/292079/season/2 (api_snapshot): 实际读取的第二季集表目前有 7 集，首集日期为 2021-12-15，末集日期为 2026-06-28；该季全部属于同一作品。\n\nhttps://www.themoviedb.org/tv/292079/season/1 (api_snapshot): 第一季集表有 10 集，播出日期为 2018 至 2020 年，与第二季分界清楚。\n\nhttps://metalfamily.ru/en/about-us/ (page): 制作方官网介绍《Metal Family》是讲述金属乐迷家庭的 YouTube 剧情动画系列。\n\nhttps://thetvdb.com/series/metal-family/seasons/official/2 (page): TVDB 第二季页面列出的前 7 集日期与 TMDB 第二季集表一致。\n\n备注：Bangumi 标注 10 集，TMDB 第二季目前仅收录 7 集；尚不能确认第二季最终集数。；Bangumi 逐集缺少标题和放送日期，现阶段无法可靠确认章节 ID 与 TMDB 集号的对应关系。；输入的 IMDb 提示 tt22897080 未在 TMDB 查到结果；TMDB 作品详情记录的 IMDb ID 为 tt14037690。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/439252; https://www.themoviedb.org/tv/292079; https://www.themoviedb.org/tv/292079/season/2; https://www.themoviedb.org/tv/292079/season/1; https://metalfamily.ru/en/about-us/; https://www.imdb.com/title/tt14037690/episodes/?season=2",
-    "verifiedAt": "2026-09-09T03:21:54.938Z"
+    "source": "https://bgm.tv/subject/439252; https://www.themoviedb.org/tv/292079; https://www.themoviedb.org/tv/292079/season/2; https://www.themoviedb.org/tv/292079/season/1; https://metalfamily.ru/en/about-us/; https://thetvdb.com/series/metal-family/seasons/official/2",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
   "rules": [],
   "schemaVersion": 1,

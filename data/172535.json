@@ -1,0 +1,36 @@
+{
+  "bangumiId": 172535,
+  "episodes": [
+    {
+      "id": 913508,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913508,
+      "targets": [
+        {
+          "id": 857179,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 电影候选 857179 同名且同为 1953 年作品；Bangumi 条目标为一部 30 分钟电影、共 1 话，因此对应整部电影，无需建立电视季或逐集规则。\n\nhttps://www.themoviedb.org/movie/857179 (api_snapshot): 电影候选 857179 的片名为《小小英雄》，上映年份为 1953 年；与 Bangumi 条目的片名、年份和电影媒介一致。\n\nhttps://www.themoviedb.org/tv/109727 (api_snapshot): 近名电视候选《花艇小英雄》首播于 1982 年，共 20 集，与这部 1953 年的单部电影不符。\n\n备注：候选快照没有该电影的剧情、制作方、导演和片长，无法逐项交叉核对。；候选上映日期为 1953 年 1 月 1 日，而 Bangumi 简介称影片于 1953 年 10 月摄制成功；只能确认年份一致，具体日期仍需核实。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/172535; https://www.themoviedb.org/movie/857179; https://www.themoviedb.org/tv/109727",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 857179,
+      "type": "movie"
+    }
+  ]
+}

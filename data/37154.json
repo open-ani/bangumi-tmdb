@@ -1,21 +1,170 @@
 {
   "anidbId": 8742,
   "bangumiId": 37154,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 176937,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 176938,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 176939,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 176940,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 176941,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 176942,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 176943,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 176944,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 176945,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 176946,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 176947,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 176948,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 176949,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 192964,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 192965,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 192966,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 192967,
+      "sort": 17,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 192964,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45807,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 192965,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 45807,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 192966,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 45807,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 192967,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 45807,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品身份由2012年首播资料、剧情人物、导演和制作公司共同确认。Bangumi第1—13话与TMDB第1季13集标题逐集同序吻合；第14—17话属于《ミチランダム》篇，与TMDB第0季4集标题逐集吻合。两季集表均只含本subject对应内容，因此覆盖全部17话。\n\nhttps://www.themoviedb.org/tv/45807 (api_snapshot): TMDB 45807 为2012年《ココロコネクト》，剧情人物、导演川面真也及制作公司SILVER LINK.均与Bangumi资料吻合；条目列出第1季13集、第0季4集。\n\nhttps://www.themoviedb.org/tv/45807/season/1 (api_snapshot): TMDB第1季13集的日文标题与Bangumi第1—13话逐集同序吻合，播出日期均相差一天。\n\nhttps://www.themoviedb.org/tv/45807/season/0 (api_snapshot): TMDB第0季恰有4集，标题依次为《壊れてゆく日々》《なにも見えてない　なにもわかってない》《覚悟と氷解》《心をつないで》，对应Bangumi第14—17话。\n\nhttps://www.animatetimes.com/news/details.php?id=1346044294 (page): 作品发行资料确认动画共17话，前13话为电视播出部分，第14—17话为《ミチランダム》篇。\n\nhttps://cal.syoboi.jp/tid/2585/time (page): 放送记录列明AT-X于2012年12月30日连续播出第14—17话。\n\nhttps://www.famitsu.com/news/201206/08016005.html (page): 首播资料列明TOKYO MX和tvk从2012年7月7日开始播出，并确认原作、导演、主要声优及制作公司。\n\nhttps://www.themoviedb.org/tv/329760/season/1 (api_snapshot): 另一个TMDB条目329760《Kokoro Connect: Michi Random》仅有1集，不能替代本subject的第14—17话逐集映射。\n\n备注：TMDB将第1季播出日期记为Bangumi日期的次日；首播资料使用7月7日的深夜档标法。；TMDB将第0季4集日期记为2012年12月10日，与Bangumi及AT-X的12月30日播出记录不符；逐集标题和集数仍能确认对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/37154; https://www.themoviedb.org/tv/45807; https://www.themoviedb.org/tv/45807/season/1; https://www.themoviedb.org/tv/45807/season/0; https://www.animatetimes.com/news/details.php?id=1346044294; https://cal.syoboi.jp/tid/2585/time; https://www.famitsu.com/news/201206/08016005.html; https://www.themoviedb.org/tv/329760/season/1",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45807
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 45807,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 45807,
+      "season": 0,
       "type": "tv"
     }
   ]

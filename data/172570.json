@@ -1,0 +1,36 @@
+{
+  "bangumiId": 172570,
+  "episodes": [
+    {
+      "id": 913501,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913501,
+      "targets": [
+        {
+          "id": 856236,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 片名、年份、导演、木偶艺术纪录片题材及具体表演节目相符，可对应 TMDB 电影 856236。Bangumi 只有一个本篇章节，电影目标无需逐集规则。\n\nhttps://www.themoviedb.org/movie/856236 (api_snapshot): TMDB 电影 856236 的片名为《中国的木偶艺术》，上映年份为 1956 年，导演为靳夕；简介提到杨胜、陈南田表演的《蒋干盗书》《路打不平》。其片长字段为 40 分钟。\n\nhttps://movie.sogou.com/movie/mzuwy3k7geydcnzsga2qtvwqxh5llrgex3c3zuwvzl2q.html (page): 搜狗电影页将本片列为 1956 年、64 分钟、靳夕导演的彩色纪录片，并列出《秧歌舞》《猪八戒背媳妇》《蒋干盗书》《路打不平》四个节目。\n\nhttps://digicoll.lib.berkeley.edu/record/296400?ln=en (search_snippet): 加州大学伯克利分校馆藏的 1956 年电影海报记录载有同一片名、导演靳夕、摄影章超群及上海电影制片厂出品等信息。\n\n备注：TMDB 标注片长 40 分钟，Bangumi 与搜狗电影页标注 64 分钟；现有资料不足以解释该片长字段的差异。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/172570; https://www.themoviedb.org/movie/856236; https://movie.sogou.com/movie/mzuwy3k7geydcnzsga2qtvwqxh5llrgex3c3zuwvzl2q.html; https://digicoll.lib.berkeley.edu/record/296400?ln=en",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 856236,
+      "type": "movie"
+    }
+  ]
+}

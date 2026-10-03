@@ -1,20 +1,114 @@
 {
+  "anidbId": 14836,
   "bangumiId": 203759,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 685256,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 685257,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 685258,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 685259,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 685260,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 685261,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 685262,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 685263,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 685264,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 685265,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 685266,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 685267,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 693586,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 693586,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 240157,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认是同一部中国 WEB 动画《枪灵计划》：名称、枪灵徽记与楠灵高中对抗邪恶势力的剧情、2016 年首播、导演吴华隆及音乐人员均吻合。Bangumi 记录为 12 集正片加 1 集特别篇；外部集表明确列出正片 1–12 与 2017-01-24 的 SP。TMDB 第 1 季实际集表为连续 1–13 集，日期覆盖 2016-12-23 至 2017-03-17，其中第 6 集对应特别篇位置，后续第 7–13 集对应正片 6–12。TMDB 的第 0 季仅有无日期、泛化标题的重复/未分类特别篇条目，因此不纳入推荐范围。\n\nhttps://api.bgm.tv/v0/subjects/203759 (api_snapshot): Bangumi API 原始信息：名称《枪灵计划》，平台 WEB，首播 2016-12-20，12 集正片、总计 13 集；剧情为枪灵徽记与王者之心，导演吴华隆，音乐/音效人员 John、Rowling。\n\nhttps://www.themoviedb.org/tv/240157 (api_snapshot): TMDB 详情确认 TV ID 240157 的原名和名称均为《枪灵计划》，首播 2016-12-23，完结于 2017-03-17，共 1 季 13 集；剧情同为楠灵高中学生会继承枪灵徽记并对抗邪恶势力。\n\nhttps://www.themoviedb.org/tv/240157/season/1 (api_snapshot): TMDB 第 1 季实际集表存在连续第 1–13 集，日期从 2016-12-23 至 2017-03-17，未分页且 total_pages=1。\n\nhttps://www.themoviedb.org/tv/240157/season/0 (api_snapshot): TMDB 第 0 季只有 1 个无日期、标题泛化为“第 1 集”的特别篇条目，不能据此替代第 1 季的实际范围。\n\nhttps://www.anibk.com/bk/3312 (page): 外部作品资料确认其为中国 WEB 动画，原名《枪灵计划》，英文别名 Qiang Ling Jihua，首播 2016-12-20，监督吴华隆，音乐 John / Rowling，剧情与 Bangumi/TMDB 一致；列出正片第 1–12 话及 2017-01-24 的 SP1《恐怖怪兽？枪灵使用者的大集结！》。\n\nhttps://www.tvmaze.com/shows/50715/crossfire-the-soul-of-the-gun (page): 别名资料将《枪灵计划》对应为 CROSSFIRE: The Soul of the Gun / Qiang Ling Ji Hua，标为 2016–2017 年 Bilibili 的中国动画，并记录 12 集正片。",
+    "evidence": "gpt-6-sol: 作品名称、2016年开播时间、枪灵徽记剧情和WEB动画身份吻合。外部集表与Bilibili确认12话正片，另有一话新春SP。逐集日期对比显示，Bangumi每个周二条目对应TMDB该周周五条目：正片1—5话对应第1季1—5集；1月24日的SP与报道所述1月27日发布的特辑对应第6集；正片6—12话对应第7—13集。因此第1季13集覆盖本subject的12话正片及SP。\n\nhttps://www.themoviedb.org/tv/240157 (api_snapshot): TMDB TV 240157 的原名为《枪灵计划》，首播于2016年12月，剧情涉及楠灵高中、枪灵徽记及主人公唤醒传说中的枪灵；作品共1季，标记13集。\n\nhttps://www.themoviedb.org/tv/240157/season/1 (api_snapshot): TMDB 第1季有连续13集，日期从2016-12-23至2017-03-17；第6集日期为2017-01-27，第7集为2017-02-03，集表只有1页。各集标题均为“第 N 集”。\n\nhttps://www.themoviedb.org/tv/240157/season/0 (api_snapshot): TMDB 第0季仅有1集，标题为“第 1 集”，没有日期或剧情，无法确认其对应 Bangumi 的 SP。\n\nhttps://www.bilibili.com/bangumi/media/md5860 (page): Bilibili 官方作品页标明《枪灵计划》于2016-12-20开播、全12话。\n\nhttps://www.anibk.com/bk/3312 (page): 番组百科列出12话正片的标题与每周二播出日期：第1至5话为2016-12-20至2017-01-17，第6至12话为2017-01-31至2017-03-14；另列2017-01-24的SP《恐怖怪兽？枪灵使用者的大集结！》，并记载导演吴华隆及枪灵徽记剧情。\n\nhttps://www.9game.cn/news/1529797.html (page): 2017-01-23的报道宣布《枪灵计划》新春特辑于2017-01-27发布，内容涉及新年广场、保卫者与潜伏者及年兽，与所列SP剧情相符。\n\n备注：TMDB逐集标题均为通用标题且没有剧情简介；第6集为新春SP的判断依据是对应的发布日期、特辑剧情资料及前后完整的逐周排期，TMDB本身未直接标注特辑名称。；TMDB第0季的无日期、无具体标题条目身份无法确认，未纳入映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/203759; https://api.bgm.tv/v0/subjects/203759; https://www.themoviedb.org/tv/240157; https://www.themoviedb.org/tv/240157/season/1; https://www.themoviedb.org/tv/240157/season/0; https://www.anibk.com/bk/3312; https://www.tvmaze.com/shows/50715/crossfire-the-soul-of-the-gun",
-    "verifiedAt": "2026-09-08T20:39:57.761Z"
+    "source": "https://bgm.tv/subject/203759; https://www.themoviedb.org/tv/240157; https://www.themoviedb.org/tv/240157/season/1; https://www.themoviedb.org/tv/240157/season/0; https://www.bilibili.com/bangumi/media/md5860; https://www.anibk.com/bk/3312; https://www.9game.cn/news/1529797.html",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 240157
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 6,
+      "tmdbId": 240157
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 13,
       "id": 240157,
       "season": 1,
       "type": "tv"

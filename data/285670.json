@@ -1,19 +1,55 @@
 {
   "anidbId": 14972,
   "bangumiId": 285670,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1150977,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1150978,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1150979,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1150980,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1150981,
+      "sort": 5,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 是2019年7月1日至29日在千叶电视台播出的同名日本电视短篇动画，正篇共5话。剧情为来自“エイリ”星的三名兽耳少女来到地球、结识人类少女みなみ并企图征服地球。TMDB 90733 的原名、媒介、国家和播出年份均吻合，且唯一收录的季为第1季，因此应映射到 TV 90733 第1季整体。TMDB 将首播记为7月2日，而日本节目资料记为7月1日深夜25时，属于跨午夜日期口径差异。TMDB 当前只建有第1话，这是分集资料缺漏，不能据此把包含5话正篇的 Bangumi subject 限定为仅第1集。\n\nhttps://www.themoviedb.org/tv/90733 (api_snapshot): TMDB API 快照显示 TV 90733 的名称和原名均为《われしょ!～我ら!小動物愛護委員会～》，是日本 TV 作品，首播日期为2019-07-02，并且只设第1季；这直接支持具体 TMDB ID、媒介和季号。\n\nhttps://www.themoviedb.org/tv/90733/season/1 (api_snapshot): TMDB API 快照显示该剧第1季的季号为1、日期为2019-07-02；目前仅录入第1话，表明其分集目录没有完整反映实际5话正篇。\n\nhttps://www.animatetimes.com/tag/details.php?id=16050 (page): アニメイトタイムズ将同名作品列为电视短篇动画，记载其于2019年7月1日至29日在チバテレビ等播出、全5话；所述三名外星兽耳少女来到地球的剧情与该 Bangumi subject 一致。\n\nhttps://thetv.jp/program/0000953267/ (page): WEBザテレビジョン记载本作从2019年7月1日起每周一深夜25时在千叶电视台播出，并明确列出第5话《最後の審判》于7月29日播出，证明本作正篇并非只有 TMDB 当前收录的1话。\n\n备注：TMDB 第1季当前只录入1集，尚缺实际第2至第5话的分集元数据；这不影响作品及季号映射，但目前无法在 TMDB 内逐集核对全部5话。",
+    "evidence": "gpt-6-sol: 作品名称、2019 年电视短篇动画的播出时间及外部资料所载剧情均支持对应 TMDB 90733 第 1 季。TMDB 目前只建有第 1 集；其 7 月 2 日日期与第 1 话在 7 月 1 日 25:00 播出相符。因此仅提交已能核实的第 1 集范围，不把仅收录一集的季表视为覆盖全部五话。\n\nhttps://www.themoviedb.org/tv/90733 (api_snapshot): TMDB 90733 是同名日本电视作品，首播日期为 2019 年 7 月 2 日，仅列出第 1 季；外部 TVDB ID 为 366357。\n\nhttps://www.themoviedb.org/tv/90733/season/1 (api_snapshot): TMDB 第 1 季目前仅收录第 1 集，标注播出日期为 2019 年 7 月 2 日。\n\nhttps://www.animatetimes.com/tag/details.php?id=16050 (page): 动画资料记载本作为天川亜美瑠原作、ステラプロモーション制作的电视短篇动画，2019 年 7 月 1 日至 29 日播出，共 5 话。\n\nhttps://thetv.jp/program/0000953267/ (page): 节目资料逐话列出第 1 至第 5 话及每周播出日期；第 1 话为 7 月 1 日，第 5 话为 7 月 29 日，剧情涉及来自エイリ星的三名兽耳少女与みなみ。\n\nhttps://www.gigazine.net/news/20190609-anime-2019summer/ (page): 播出预告注明千叶电视台于 7 月 1 日 25:00 播出，可解释 TMDB 将首播记为日历日期 7 月 2 日。\n\n备注：TMDB 第 1 季尚未收录实际播出的第 2 至第 5 话，无法为这四话指定已存在的 TMDB 集号。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/285670; https://www.themoviedb.org/tv/90733; https://www.themoviedb.org/tv/90733/season/1; https://www.animatetimes.com/tag/details.php?id=16050; https://thetv.jp/program/0000953267/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/285670; https://www.themoviedb.org/tv/90733; https://www.themoviedb.org/tv/90733/season/1; https://www.animatetimes.com/tag/details.php?id=16050; https://thetv.jp/program/0000953267/; https://www.gigazine.net/news/20190609-anime-2019summer/",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 90733
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 90733,
       "season": 1,
       "type": "tv"

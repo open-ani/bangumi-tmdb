@@ -1,16 +1,46 @@
 {
   "anidbId": 8076,
   "bangumiId": 9820,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 66804,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 66805,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 66806,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 66807,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2011 年 2 月 1 日发布的 4 集网络版 ONA，不是 2015 年播出的 12 集电视版。TMDB ID 86762 对应合并条目《放課後のプレアデス/Wish Upon the Pleiades》；其 2015 年电视正篇为第 1 季，而 2011 年网络版应归入 TMDB Specials，即 season 0。该 subject 对应 season 0 的第 1—4 集，四集全部属于本 subject。AnimeLists 将同一 ID 指向 season 1，实际指向 2015 年电视版，版本和年份均不符。\n\nhttps://www.themoviedb.org/tv/86762-houkago-no-pleiades (search_snippet): TMDB 搜索摘要将 ID 86762 显示为 2015 年《放課後のプレアデス》，剧情和条目对应电视版主体。\n\nhttps://www.moviefone.com/tv-shows/wish-upon-the-pleiades/2jZVuJlL19sNxfKjUL78Z6/where-to-watch/ (page): 页面标注该 TMDb 条目的 Season 1 始于 2015 年 4 月 9 日，同时列出 2011 年 2 月 1 日的 Specials，确认同一条目区分电视季与网络版特典/特别篇区段。\n\nhttps://www.imdb.com/title/tt1836435/ (page): 2011 年《Wish Upon the Pleiades》被列为 TV Mini Series，共 4 集；与 Bangumi 的 2011-02-01、4 集网络版一致。\n\nhttps://en.wikipedia.org/wiki/Wish_Upon_the_Pleiades (page): 资料明确区分 2011 年四部分 Original Net Animation 与 2015 年 12 集电视系列；2011 网络版的剧集为四夜内容。",
+    "evidence": "gpt-6-sol: 本 subject 是 2011 年一次发布的四集 YouTube 网络动画。制作方、导演、年份、媒介、集数及四个分集标题均支持对应 TMDB 86762 第 0 季第 1—4 集。2015 年电视版位于第 1 季；第 0 季另有第 5 集，因此只选前四集，不选整季。同名电影条目没有分集结构，不用于本次逐集映射。\n\nhttps://bgm.tv/subject/9820 (page): Bangumi 将本 subject 标为 2011 年 2 月 1 日开始的四集网络版，原作 GAINAX，导演佐伯昭志。\n\nhttps://mantan-web.jp/article/20110202dog00m200027000c.html (page): SUBARU 与 GAINAX 的发布资料说明：作品于 2011 年 2 月 1 日在 YouTube 发布，全长约 23 分钟，分为四集；导演为佐伯昭志。\n\nhttps://gigazine.net/news/20110201_sbr_gx_houkago_no_pleiades/ (page): 2011 年 2 月 1 日的报道分别列出已发布的「第1夜」至「第4夜」。\n\nhttps://www.themoviedb.org/tv/86762 (api_snapshot): TMDB 电视条目 86762 的第 0 季始于 2011 年 2 月 1 日，第 1 季始于 2015 年 4 月 9 日；条目列有 GAINAX 和佐伯昭志。\n\nhttps://www.themoviedb.org/tv/86762/season/0 (api_snapshot): TMDB 第 0 季前四集依次为「第1夜」「第2夜」「第3夜」「第4夜」，时长分别为 6、5、6、7 分钟；第 5 集另列为 23 分钟的「第5話」。\n\nhttps://www.themoviedb.org/movie/452268 (api_snapshot): 另一个同名 TMDB 电影条目 452268 标为 2011 年 2 月 11 日、24 分钟，未提供四集分集结构。\n\n备注：TMDB 将第 2—4 夜的日期分别记为 2011 年 2 月 2—4 日，与发布资料所示四集于 2 月 1 日公开不符；逐集对应依据四个完全一致的标题、顺序和时长。；TMDB 第 0 季第 5 集的具体内容未核实；它不在本 subject 的四集范围内。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/9820; https://www.themoviedb.org/tv/86762-houkago-no-pleiades; https://www.moviefone.com/tv-shows/wish-upon-the-pleiades/2jZVuJlL19sNxfKjUL78Z6/where-to-watch/; https://www.imdb.com/title/tt1836435/; https://en.wikipedia.org/wiki/Wish_Upon_the_Pleiades",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/9820; https://mantan-web.jp/article/20110202dog00m200027000c.html; https://gigazine.net/news/20110201_sbr_gx_houkago_no_pleiades/; https://www.themoviedb.org/tv/86762; https://www.themoviedb.org/tv/86762/season/0; https://www.themoviedb.org/movie/452268",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 86762
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

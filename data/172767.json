@@ -1,0 +1,36 @@
+{
+  "bangumiId": 172767,
+  "episodes": [
+    {
+      "id": 913417,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913417,
+      "targets": [
+        {
+          "id": 997337,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 片名、年份、具体剧情和导演相互吻合；Bangumi 仅有一话，对应 TMDB 的单部电影。\n\nhttps://www.themoviedb.org/movie/997337 (api_snapshot): TMDB 电影 997337 的片名为《掌中戏》，年份为 1962 年；简介与 Bangumi 输入中杨胜表演《夫妻吵架》《抢亲》的内容一致。\n\nhttps://www.1905.com/mdb/star/2991894/works/ (page): 1905 电影网将《掌中戏》列为 1962 年作品，导演为虞哲光、章超群，剧情涉及布袋木偶艺术家杨胜及《夫妻吵架》《抢亲》。\n\n备注：TMDB 详情未填写有效片长，无法用其独立核对 Bangumi 所列的 30 分钟。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/172767; https://www.themoviedb.org/movie/997337; https://www.1905.com/mdb/star/2991894/works/",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 997337,
+      "type": "movie"
+    }
+  ]
+}

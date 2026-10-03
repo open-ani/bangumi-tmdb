@@ -1,17 +1,137 @@
 {
   "bangumiId": 189703,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 656589,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 656590,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 656591,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 656592,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 656593,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 656594,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 656595,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 656596,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 656597,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 656598,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 656599,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 656600,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 656601,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 656602,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 656603,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 656604,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 656605,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 656606,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 656607,
+      "sort": 4,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品身份已由年份、剧情、制作方及官方首播资料确认。Bangumi 本篇第 3–15 话与 TMDB 第 1 季第 1–13 集的标题和日期逐集吻合；四部 SP 与第 0 季第 1–4 集逐集吻合。Bangumi 将首播篇拆为第 1、2 话，TMDB 则合记为第 0 季第 5 集，因此将它纳入覆盖范围，但不强行建立单话对应。\n\nhttps://www.themoviedb.org/tv/60554 (api_snapshot): TMDB 剧集 60554 是 2014 年的《Star Wars Rebels》，由 Lucasfilm Animation 制作；剧情、角色及制作信息与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/60554/season/1 (api_snapshot): TMDB 第 1 季共 13 集，标题和放送日期逐集对应 Bangumi 本篇第 3–15 话。\n\nhttps://www.themoviedb.org/tv/60554/season/0 (api_snapshot): TMDB 第 0 季第 1–4 集对应四部前传短片；第 5 集是 2014 年 10 月 3 日播出的 45 分钟《Spark of Rebellion》；第 6 集《The Siege of Lothal》不属本 subject。\n\nhttps://www.starwars.com/news/star-wars-rebels-turns-10 (page): 星球大战官方说明，《Spark of Rebellion》原是两集连播、合成一部一小时首播篇。\n\nhttps://www.themoviedb.org/movie/287663 (api_snapshot): TMDB 另有电影条目 287663，记录同一部《Spark of Rebellion》首播篇，片长 44 分钟；本映射采用剧集特别篇编号，避免重复覆盖。\n\n备注：Bangumi 本篇第 1、2 话共同对应 TMDB 特别篇第 5 集，无法在不重复占用该集的情况下分别建立逐集映射，故两话均留空。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/189703; https://www.themoviedb.org/tv/60554; https://www.themoviedb.org/tv/60554/season/1; https://www.themoviedb.org/tv/60554/season/0; https://www.starwars.com/news/star-wars-rebels-turns-10; https://www.themoviedb.org/movie/287663",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 60554
+    },
+    {
+      "bangumiType": 1,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 60554
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 5,
+      "id": 60554,
+      "season": 0,
+      "type": "tv"
+    },
     {
       "id": 60554,
       "season": 1,

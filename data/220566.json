@@ -1,21 +1,124 @@
 {
   "anidbId": 13307,
   "bangumiId": 220566,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 803938,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 803939,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 803940,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 803941,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 803942,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 803943,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 803944,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 803945,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 803946,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 803947,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 803948,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 803949,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 804840,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 804841,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 804842,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 804843,
+      "sort": 16,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播日期、剧情、制作公司和导演吻合。TMDB 将 Bangumi 的 16 话分列为第 1 季 12 集及第 0 季 4 集；两段均已按标题和播出日期逐集核对。\n\nhttps://www.themoviedb.org/tv/80477 (api_snapshot): TMDB 日文名搜索返回 TV 作品 80477，首播日期为 2018-07-06，剧情涉及瑞吉儿与札克逃离大楼。\n\nhttps://www.themoviedb.org/tv/80477 (api_snapshot): 作品详情显示原名《殺戮の天使》、制作公司 J.C.STAFF、导演鈴木健太郎；第 1 季有 12 集，第 0 季有 4 集。\n\nhttps://www.themoviedb.org/tv/80477/season/1 (api_snapshot): 第 1 季第 1–12 集与 Bangumi 前 12 话的标题和播出日期逐集一致。\n\nhttps://www.themoviedb.org/tv/80477/season/0 (api_snapshot): 第 0 季第 1–4 集与 Bangumi 第 13–16 话的标题和播出日期逐集一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/220566; https://www.themoviedb.org/tv/80477; https://www.themoviedb.org/tv/80477/season/1; https://www.themoviedb.org/tv/80477/season/0",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 80477
+    },
+    {
+      "bangumiType": 0,
+      "end": 16,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 13,
+      "tmdbId": 80477
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 80477,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 80477,
+      "season": 0,
       "type": "tv"
     }
   ]

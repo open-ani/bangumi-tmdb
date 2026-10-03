@@ -1,21 +1,136 @@
 {
   "anidbId": 9496,
   "bangumiId": 87113,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 350218,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 350219,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 350220,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 350221,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 350222,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 350223,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 350224,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 350225,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 350226,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 350227,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 350228,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 350229,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 406295,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 406297,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 406298,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 449721,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 449722,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 449723,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配 TMDB 65614：第1季完整覆盖12集电视本篇，标题逐集吻合；第0季第2至7集对应6集蓝光短篇 SP，日期与发行顺序逐集吻合。第0季第1集为另一个 Bangumi 条目的 OAD，不纳入本映射。\n\nhttps://www.themoviedb.org/tv/65614 (api_snapshot): TMDB 作品 65614 的日文原名、2014年1月5日首播日期、剧情、原作水薙竜、导演水島努及制作公司 J.C.STAFF 均与本条目一致。\n\nhttps://www.themoviedb.org/tv/65614/season/1 (api_snapshot): 第1季共12集，集号1至12的日文标题与 Bangumi 本篇逐集同序一致；前4集日期也一致。\n\nhttps://www.themoviedb.org/tv/65614/season/0 (api_snapshot): 第0季第1集是2015年 OAD《多華宮君と妹の悪巧み》；第2至7集的日期依次为2014年3月26日、4月25日、5月28日、6月20日、7月25日、8月27日，与本条目6集 SP 逐一一致。\n\nhttps://www.witch-cw-anime.jp/blu-ray-box.html (page): 动画官网确认《なぜなに!?うぃっちくらふとわ～くす》共有第1至6回，并将《多華宮君と妹の悪巧み》单列为 OVA。\n\nhttps://witch-cw-anime.jp/blu-ray.html (page): 动画官网注明蓝光第1卷于2014年3月26日发行，收录短篇动画《なぜなに！？うぃっちくらふとわ～くす》第1回。\n\n备注：TMDB 本篇第5至12集的日期较 Bangumi 晚1至3天，但各集标题及顺序一致。；TMDB 第0季第2至7集仅使用通用集名；对应依据为六个发行日期、短篇时长及官网确认的全6回。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/87113; https://www.themoviedb.org/tv/65614; https://www.themoviedb.org/tv/65614/season/1; https://www.themoviedb.org/tv/65614/season/0; https://www.witch-cw-anime.jp/blu-ray-box.html; https://witch-cw-anime.jp/blu-ray.html",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65614
+    },
+    {
+      "bangumiType": 1,
+      "end": 6,
+      "episodeStart": 2,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 65614
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 65614,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 2,
+      "episodeEnd": 7,
+      "id": 65614,
+      "season": 0,
       "type": "tv"
     }
   ]

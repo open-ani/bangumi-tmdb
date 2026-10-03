@@ -1,20 +1,85 @@
 {
+  "anidbId": 6084,
   "bangumiId": 215551,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 720580,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 720581,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 720582,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 720583,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 720584,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 720585,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 720586,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 720587,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 720588,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 720589,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 720590,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 720591,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 720592,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 208686 是《のらみみ》TV 系列，包含第2季；TMS 官方确认《のらみみ2》于2008-10-01至2008-12-17播出，剧情、导演湖山禎崇、系列构成中村誠、TMS制作均吻合。TMDB第2季实际季表为第1–12集，且与官方“15分钟×2话、全24话”及其他资料所示第2季12次播出相符。Bangumi存档的第13个空白集条目与官方及TMDB不符，应视为存档计数异常，不映射到不存在的TMDB第13集。\n\nhttps://api.bgm.tv/v0/subjects/215551 (api_snapshot): Bangumi API确认主体为《のらみみ2》，TV，2008-10-01，存档标记13集；其集名和日期均为空。\n\nhttps://www.themoviedb.org/tv/208686 (api_snapshot): TMDB详情确认TV作品《のらみみ》，2008年播出、2个季、共24集，由TMS Entertainment制作，工作人员包含中村誠；季列表包含第2季。\n\nhttps://www.themoviedb.org/tv/208686/season/2 (api_snapshot): TMDB第2季实际返回12集，编号连续为1至12，total_pages为1。\n\nhttps://www.tms-e.co.jp/alltitles/2000s/632102.html (page): TMS官方作品页明确标为《のらみみ2》，2008-10-01开始、2008-12-17结束，15分钟×2话、全24话；剧情及导演湖山禎崇、系列构成中村誠等制作信息吻合。\n\n备注：Bangumi当前存档为何有13个空白常规集条目无法从公开数据确定；官方资料、TMDB季表及独立集数资料均支持第2季为12次TV播出。",
+    "evidence": "gpt-6-sol: 作品年份、播出期、剧情及制作人员一致；TMDB第2季的12次播出完整对应《のらみみ2》，因此匹配整季。Bangumi存档的13个章节均无标题和日期，无法按逐集证据建立规则，暂不映射或排除任何单章。\n\nhttps://www.themoviedb.org/tv/208686 (api_snapshot): TMDB 208686 是2008年首播的《のらみみ》，由TMS Entertainment制作；第1季于1月9日首播，第2季于10月1日首播，编剧为中村誠。\n\nhttps://www.themoviedb.org/tv/208686/season/2 (api_snapshot): TMDB第2季仅有一页集表，共12集，播出日期从2008年10月1日逐周延续至12月17日。\n\nhttps://www.tms-e.co.jp/alltitles/2000s/632102.html (page): TMS官方将《のらみみ2》列为2008年10月1日至12月17日播出的作品，标注“15分×2話／全24話”；剧情、角色及系列构成中村誠与TMDB作品吻合。\n\nhttps://www.animejikan.com/work.php?id=904 (page): 动画资料站将《のらみみ2》记为2008年10月至12月播出、全12话。\n\n备注：Bangumi存档列有13个空白常规章节，与官方播出期及TMDB的12次播出不符；第13条的来源未查明。；缺少Bangumi章节标题和放送日期，无法逐一确认章节ID与TMDB集号的关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/215551; https://api.bgm.tv/v0/subjects/215551; https://www.themoviedb.org/tv/208686; https://www.themoviedb.org/tv/208686/season/2; https://www.tms-e.co.jp/alltitles/2000s/632102.html",
-    "verifiedAt": "2026-09-08T20:55:25.790Z"
+    "source": "https://bgm.tv/subject/215551; https://www.themoviedb.org/tv/208686; https://www.themoviedb.org/tv/208686/season/2; https://www.tms-e.co.jp/alltitles/2000s/632102.html; https://www.animejikan.com/work.php?id=904",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 12,
       "id": 208686,
       "season": 2,
       "type": "tv"

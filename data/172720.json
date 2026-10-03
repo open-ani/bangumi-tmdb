@@ -1,0 +1,36 @@
+{
+  "bangumiId": 172720,
+  "episodes": [
+    {
+      "id": 913476,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913476,
+      "targets": [
+        {
+          "id": 809868,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 年份、剧情、导演、编剧和制作单位均吻合；28 分钟与 Bangumi 所记 30 分钟接近。这是单部电影，对应 Bangumi 的一话，无需建立 TV 逐集规则。\n\nhttps://www.themoviedb.org/movie/809868 (api_snapshot): TMDB 电影 809868《火焰山》标注 1958 年上映、片长 28 分钟、由上海美术电影制片厂制作；演职员包括导演靳夕及编剧伍伦、梁延靖，剧情与 Bangumi 所述借芭蕉扇的故事一致。\n\nhttps://www.themoviedb.org/movie/809868 (api_snapshot): TMDB 搜索另有 1983 年同名电影；809868 的年份和制作信息对应本 subject 的 1958 年动画。\n\n备注：TMDB 片长为 28 分钟，Bangumi 记为 30 分钟；不影响作品身份判断。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/172720; https://www.themoviedb.org/movie/809868",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 809868,
+      "type": "movie"
+    }
+  ]
+}

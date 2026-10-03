@@ -1,16 +1,169 @@
 {
   "anidbId": 15678,
   "bangumiId": 312223,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1038409,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1038410,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1038499,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1038500,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1038501,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1038502,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1038503,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1038504,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1038505,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1038506,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1038507,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1038508,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1038409,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 107003,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1038500,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 107003,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1038505,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 107003,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1038503,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 107003,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1038507,
+      "targets": [
+        {
+          "episode": 10,
+          "id": 107003,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1038508,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 107003,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、剧情、导演、制作公司及 12 话范围一致。TMDB 第 1 季恰好覆盖 Bangumi 全部本篇；逐集按标题和首播日期核对后，以连续规则及特例处理两站不同的章节排序。\n\nhttps://bgm.tv/subject/312223 (page): Bangumi 条目记载本作为 2021 年 7 月 1 日开播的 12 话 TV 动画，导演上田繁，动画制作旭プロダクション。\n\nhttps://bgm.tv/subject/312223/ep (page): Bangumi 章节页列出 12 话的标题与首播日期；其章节排序不同于播出顺序。\n\nhttps://peachboyriverside.com/onair/ (page): 动画官网确认 TOKYO MX 自 2021 年 7 月 1 日起每周四播出。\n\nhttps://www.themoviedb.org/tv/107003 (api_snapshot): TMDB 作品 107003 为同名 2021 年 TV 动画，剧情、导演上田繁、制作公司 Asahi Production 与 Bangumi 条目一致；共 1 季、12 话。\n\nhttps://www.themoviedb.org/tv/107003/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整 12 集表；逐集标题和播出日期均与 Bangumi 的 12 个本篇章节对应，例如《姫と桃》对应第 4 集（7 月 22 日），《元姫と卯人》对应第 1 集（7 月 1 日）。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/312223; https://bgm.tv/subject/312223/ep; https://peachboyriverside.com/onair/; https://www.themoviedb.org/tv/107003; https://www.themoviedb.org/tv/107003/season/1",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 107003
+    },
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 107003
+    },
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 5,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 107003
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

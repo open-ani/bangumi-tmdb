@@ -1,20 +1,185 @@
 {
   "bangumiId": 104275,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 400859,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 400860,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 400861,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 400862,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 400863,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 400864,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 400865,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 400866,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 400867,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 400868,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 400869,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 400870,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 400871,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 400872,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 400873,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 400874,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 400875,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 400876,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 400877,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 400878,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 400879,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 400880,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 400881,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 400882,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 400883,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 400884,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 428223,
+      "sort": 1,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 428223,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 46848,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的剧情、制作方及 2013 年首播时间相符。Bangumi 的 26 话对应第一季前 26 集，而 TMDB 第一季共有 52 集，因此只取 S1E1–E26。官方与发行平台的标题顺序支持连续逐集映射。另有一话“圣诞特辑”，按这套 26 集发行版本所附赠的《Wreck the Halls》对应 TMDB S0E7。\n\nhttps://www.themoviedb.org/tv/46848 (api_snapshot): TMDB 46848 是 2013 年开播的《Angry Birds Toons》，由 Rovio Entertainment 等制作；第 1 季共 52 集。\n\nhttps://www.themoviedb.org/tv/46848/season/1 (api_snapshot): TMDB 第 1 季第 1 至 26 集从《Chuck Time》连续排至《Hamshank Redemption》；第 27 集起是后续内容。\n\nhttps://www.angrybirds.com/series/angry-birds-toons/ (page): Rovio 官方按第 1 季第 1 至 26 集列出相同标题及顺序。\n\nhttps://play.google.com/store/tv/show?cdid=tvseason-jZRpqZji9LIl3CUjxk0F3Q&gdid=tvepisode-WgXFJ3JZ-0M&id=GRoqG-CA7NI (page): Google Play 的《Season 1, Volume 1》列有 26 集，首尾标题及逐集顺序与 TMDB 一致。\n\nhttps://www.themoviedb.org/tv/46848/season/0 (api_snapshot): TMDB 特别篇季将圣诞短片《Wreck the Halls》列为第 7 集，日期为 2011 年 12 月 1 日。\n\nhttps://angrybirds.fandom.com/wiki/Angry_Birds_Toons%3A_Season_One_Volume_One (search_snippet): 第一季 Volume 1 的资料列明收录前 26 集，并附赠《Wreck the Halls》。\n\n备注：Bangumi 的 26 个本篇章节均缺少独立标题及放送日期；逐集规则依据 26 集发行版本与官方、TMDB 集表一致的顺序。；Bangumi 的特别篇仅标“圣诞特辑”，未写英文标题；将其对应《Wreck the Halls》的依据是第一季前 26 集发行版本附赠了该圣诞短片。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/104275; https://www.themoviedb.org/tv/46848; https://www.themoviedb.org/tv/46848/season/1; https://www.angrybirds.com/series/angry-birds-toons/; https://play.google.com/store/tv/show?cdid=tvseason-jZRpqZji9LIl3CUjxk0F3Q&gdid=tvepisode-WgXFJ3JZ-0M&id=GRoqG-CA7NI; https://www.themoviedb.org/tv/46848/season/0; https://angrybirds.fandom.com/wiki/Angry_Birds_Toons%3A_Season_One_Volume_One",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46848
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 26,
       "id": 46848,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 7,
+      "id": 46848,
+      "season": 0,
       "type": "tv"
     }
   ]

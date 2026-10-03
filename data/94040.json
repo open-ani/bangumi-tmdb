@@ -1,21 +1,165 @@
 {
   "anidbId": 11500,
   "bangumiId": 94040,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 596779,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 596780,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 596781,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 596782,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 596783,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 596784,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 596785,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 596786,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 596787,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 596788,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 596789,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 596790,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 603200,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 603201,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 628078,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 628079,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 628080,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 628081,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 628082,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 628083,
+      "sort": 6,
+      "type": 1
+    },
+    {
+      "id": 628084,
+      "sort": 7,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 603201,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 65333,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品身份与制作信息吻合。Bangumi 本篇第 1—13 话对应 TMDB 第 1 季；7 话「对策」对应第 0 季第 1—7 集；Bangumi 编为第 14 话的「水玉の奇跡」实际是番外篇，对应第 0 季第 8 集。正篇日期相差一天源于周三 24:00 播出的记法。\n\nhttps://www.themoviedb.org/tv/65333 (api_snapshot): TMDB 电视剧 65333 与 Bangumi 条目的日文原名、2016 年播出时间、怪灵题材、京都动画制作及导演石原立也一致。\n\nhttps://www.themoviedb.org/tv/65333/season/1 (api_snapshot): TMDB 第 1 季共 13 集，集号 1—13 与 Bangumi 本篇前 13 话的标题、顺序逐一对应。\n\nhttps://www.themoviedb.org/tv/65333/season/0 (api_snapshot): TMDB 第 0 季共 8 集：第 1—7 集依次是「对策」短篇，第 8 集是「水玉の奇跡」；标题及发行日期与 Bangumi 章节对应。\n\nhttps://phantom-world.com/sp/onair/ (page): 官方列出 TOKYO MX 自 2016 年 1 月 6 日起每周三 24:00 播出，解释了 Bangumi 与 TMDB 正篇日期相差一天。\n\nhttps://phantom-world.com/sp/product/bddvd/07/ (page): 官方第 7 卷资料确认「水玉の奇跡」是 2016 年 10 月 5 日发行的番外篇。\n\nhttps://bangumi.tv/ep/603201 (page): Bangumi 将「水玉の奇跡」列为本条目的第 14 话，日期为 2016 年 10 月 5 日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/94040; https://www.themoviedb.org/tv/65333; https://www.themoviedb.org/tv/65333/season/1; https://www.themoviedb.org/tv/65333/season/0; https://phantom-world.com/sp/onair/; https://phantom-world.com/sp/product/bddvd/07/; https://bangumi.tv/ep/603201",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 65333
+    },
+    {
+      "bangumiType": 1,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 65333
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 13,
       "id": 65333,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 8,
+      "id": 65333,
+      "season": 0,
       "type": "tv"
     }
   ]

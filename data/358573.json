@@ -1,15 +1,168 @@
 {
   "bangumiId": 358573,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1067801,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1067802,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1067803,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1067804,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1067805,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1067806,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1067807,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1067808,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1128894,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1128895,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1128896,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1128897,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1067804,
+      "targets": [
+        {
+          "episode": 12,
+          "id": 211134,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1067801,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 211134,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1067805,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 211134,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1067806,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 211134,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1128894,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 211134,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1128895,
+      "targets": [
+        {
+          "episode": 11,
+          "id": 211134,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播日期、短片集形式、简介、制作方及 12 话规模一致；TMDB 第 1 季恰好收录 Bangumi 的全部 12 个短片。逐集按标题、日期及相近时长核对后，按 TMDB 实际集号建立对应，处理了两站排序差异。\n\nhttps://www.themoviedb.org/tv/211134 (api_snapshot): TMDB 搜索“胶囊计划”返回电视剧 211134，首播日期为 2022-09-16，简介为哔哩哔哩制作的独立动画短片集。\n\nhttps://www.themoviedb.org/tv/211134 (api_snapshot): TMDB 作品详情确认制作方为 bilibili；第 1 季始于 2022-09-16，共 12 集，后续季度另列。\n\nhttps://www.themoviedb.org/tv/211134/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整的 12 集表；12 个短片标题均与 Bangumi 章节对应，但两站集号顺序不同。\n\nhttps://bgm.tv/subject/358573 (page): Bangumi 条目记载本作于 2022-09-16 开播，共 12 话，制作方为 bilibili，并另列第二季。\n\nhttps://bgm.tv/subject/358573/ep (page): Bangumi 章节页列出 12 个短片的标题、顺序、时长和播出日期，可与 TMDB 季表逐集比对。\n\n备注：《齐日迈》的日期有差异：Bangumi 标为 2022-10-03，TMDB 标为 2022-10-07；标题和约 9 分钟时长一致，仍可确认对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/358573; https://www.themoviedb.org/tv/211134; https://www.themoviedb.org/tv/211134/season/1; https://bgm.tv/subject/358573/ep",
+    "verifiedAt": "2026-10-03T01:19:55.852Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 211134
+    },
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 211134
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 9,
+      "season": 1,
+      "start": 11,
+      "tmdbId": 211134
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
