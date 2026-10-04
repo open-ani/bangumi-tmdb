@@ -1,0 +1,36 @@
+{
+  "bangumiId": 173044,
+  "episodes": [
+    {
+      "id": 913070,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913070,
+      "targets": [
+        {
+          "id": 997428,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 片名、年份、具体剧情、片长及主创一致，可确认 Bangumi subject 对应 TMDB 电影 997428。电影无需季或逐集规则。\n\nhttps://www.themoviedb.org/movie/997428 (api_snapshot): TMDB 搜索返回电影《长了腿的芒果》（ID 997428），上映年份为 1983 年，剧情涉及小白兔、小猴、黑狗守护芒果及刺猬偷芒果，与 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/movie/997428 (api_snapshot): TMDB 详情确认该片片长 20 分钟，导演为周克勤，编剧为杨楠、周鸿铸，均与 Bangumi 资料一致。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173044; https://www.themoviedb.org/movie/997428",
+    "verifiedAt": "2026-10-04T00:45:26.538Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 997428,
+      "type": "movie"
+    }
+  ]
+}

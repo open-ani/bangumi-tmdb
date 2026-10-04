@@ -1,0 +1,36 @@
+{
+  "bangumiId": 173025,
+  "episodes": [
+    {
+      "id": 913136,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913136,
+      "targets": [
+        {
+          "id": 718474,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 电影候选718474与Bangumi条目的片名、1980年上映年份及电影媒介一致；Bangumi仅有1话，对应整部电影。其他候选的年份或媒介明显不符。\n\nhttps://www.themoviedb.org/movie/718474 (api_snapshot): 电影《三只狼》上映日期为1980年1月1日；Bangumi 条目标注1980年上映，媒介为电影，话数为1。\n\nhttps://www.themoviedb.org/movie/109329 (api_snapshot): 另一电影候选原名为《Three Little Wolves》，上映于1936年，与Bangumi条目的1980年不符。\n\nhttps://www.themoviedb.org/tv/280272 (api_snapshot): 电视剧候选《我的三只白眼狼儿子》首播于2024年，与Bangumi条目的名称、年份和媒介不符。\n\n备注：候选数据未提供剧情、片长和制作人员，无法进一步核对这些细节；电影映射不涉及季或逐集排期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173025; https://www.themoviedb.org/movie/718474; https://www.themoviedb.org/movie/109329; https://www.themoviedb.org/tv/280272",
+    "verifiedAt": "2026-10-04T00:45:26.538Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 718474,
+      "type": "movie"
+    }
+  ]
+}

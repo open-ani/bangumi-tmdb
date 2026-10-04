@@ -1,0 +1,36 @@
+{
+  "bangumiId": 173110,
+  "episodes": [
+    {
+      "id": 913041,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913041,
+      "targets": [
+        {
+          "id": 997452,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 条目是1984年上映、20分钟、共1话的动画电影；候选电影997452片名相同，上映年份也为1984年，媒介与单部作品形式一致。其他候选为年份和集数均不符的电视剧，因此对应电影997452。电影无需逐集映射。\n\nhttps://www.themoviedb.org/movie/997452 (api_snapshot): 电影《小狐狸》（TMDB 997452）于1984年上映，与 Bangumi 条目的片名、上映年份和单部电影形式一致。\n\nhttps://www.themoviedb.org/tv/224327 (api_snapshot): 同名相关电视候选《小狐狸分级课程.Level01》始播于2016年，第一季有72集，与1984年的单部短片不符。\n\n备注：候选快照未提供电影997452的剧情、导演、片长或制作方，无法用这些字段进一步核对。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173110; https://www.themoviedb.org/movie/997452; https://www.themoviedb.org/tv/224327",
+    "verifiedAt": "2026-10-04T00:45:26.538Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 997452,
+      "type": "movie"
+    }
+  ]
+}
