@@ -1,0 +1,41 @@
+{
+  "bangumiId": 173774,
+  "episodes": [
+    {
+      "id": 621580,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 621581,
+      "sort": 2,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 作品的两集标题、剧情、顺序和总集数逐一吻合，制作方及主创也一致；TMDB 第1季恰好只收录这两集，因此对应整季，Bangumi 正片第1至2话依次对应 TMDB 第1季第1至2集。\n\nhttps://bgm.tv/subject/173774 (page): Bangumi 记载本作为上海美术电影制片厂制作的两话动画，导演刘蕙仪、金芳玲，脚本凌纾；剧情按顺序为《梦幻花》《恐龙蛋》。\n\nhttps://www.bilibili.com/bangumi/play/ep821808 (page): 哔哩哔哩将《隐身探长》列为全两话，并以相同顺序和剧情介绍两集。\n\nhttps://www.themoviedb.org/tv/204980 (api_snapshot): TMDB TV 204980 的剧情、制作公司、导演刘蕙仪及编剧凌纾与 Bangumi 条目吻合；仅列有第1季，共两集。\n\nhttps://www.themoviedb.org/tv/204980/season/1 (api_snapshot): TMDB 第1季集表仅有两集：第1集《梦幻花》、第2集《恐龙蛋》，两集剧情分别与 Bangumi 对应。\n\n备注：第二集年份存在资料冲突：Bangumi 记为1994年，TMDB 集表记为1993年6月8日；具体播出日期尚不能确认，但不影响依据标题、剧情及集数确定的逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173774; https://www.bilibili.com/bangumi/play/ep821808; https://www.themoviedb.org/tv/204980; https://www.themoviedb.org/tv/204980/season/1",
+    "verifiedAt": "2026-10-05T01:03:48.613Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 204980
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 204980,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

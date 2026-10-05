@@ -1,0 +1,36 @@
+{
+  "bangumiId": 173772,
+  "episodes": [
+    {
+      "id": 912819,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912819,
+      "targets": [
+        {
+          "id": 713626,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 标题、年份、剧情、导演和单篇电影形式均吻合；对应 TMDB 电影 713626。Bangumi 的唯一正片章节由该电影整体覆盖。\n\nhttps://www.themoviedb.org/movie/713626 (api_snapshot): TMDB 电影 713626《小黄鼬的故事》标为 1993 年、上海美术电影制片厂制作、导演 Shuwei Liu；受伤的小黄鼬被小动物收留的剧情与 Bangumi 一致。\n\nhttps://bgm.tv/index/20160 (search_snippet): Bangumi 的上海美术电影制片厂作品索引将《小黄鼬的故事》列于 1993 年，导演为刘书卫；另将《小黄鼠狼的故事》列为 1992 年作品。\n\n备注：片长记录相差约 1 分钟：Bangumi 为 17 分钟，TMDB 为 16 分钟。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173772; https://www.themoviedb.org/movie/713626; https://bgm.tv/index/20160",
+    "verifiedAt": "2026-10-05T01:03:48.613Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 713626,
+      "type": "movie"
+    }
+  ]
+}

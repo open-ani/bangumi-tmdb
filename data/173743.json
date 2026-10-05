@@ -1,0 +1,36 @@
+{
+  "bangumiId": 173743,
+  "episodes": [
+    {
+      "id": 912843,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912843,
+      "targets": [
+        {
+          "id": 999390,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: TMDB 收录的是独立电影条目，名称、年份、制作公司和具体剧情均与 Bangumi 的单部动画短片一致；Bangumi 唯一的正片章节对应整部电影，无需逐集规则。\n\nhttps://bangumi.tv/subject/173743 (page): Bangumi 将《智斗乌鸦》列为1991年、10分钟、1话的动画短片，导演为胡进庆和吴云初，别名为《小狐狸的故事之二》。\n\nhttps://www.themoviedb.org/movie/999390 (api_snapshot): TMDB 电影 999390 的原名同为《智斗乌鸦》，年份为1991，制作公司为上海美术电影制片厂；狐狸从乌鸦处骗回老熊的肉这一剧情与 Bangumi 完全吻合。\n\nhttps://waptv.sogou.com/movie/mzuwy3k7ha2dmojrhee5nr5ww7hnvun3.html (search_snippet): 电影资料将该片列为1991年的10分钟动画，导演为胡进庆、吴云初，制作公司为上海美术电影制片厂。\n\n备注：TMDB 未填写片长和演职员，且其具体上映日期未获独立核实；这些缺项不影响作品身份判断。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173743; https://bangumi.tv/subject/173743; https://www.themoviedb.org/movie/999390; https://waptv.sogou.com/movie/mzuwy3k7ha2dmojrhee5nr5ww7hnvun3.html",
+    "verifiedAt": "2026-10-05T01:03:48.613Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 999390,
+      "type": "movie"
+    }
+  ]
+}
