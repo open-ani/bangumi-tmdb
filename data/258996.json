@@ -1,0 +1,36 @@
+{
+  "bangumiId": 258996,
+  "episodes": [
+    {
+      "id": 913675,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 913675,
+      "targets": [
+        {
+          "id": 452598,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 原题虽较 TMDB 片名多「映画演説」，但年份、32 分钟片长、幸内純一、制作公司和政治演说内容均吻合；这是单部电影，对应 Bangumi 的一话。\n\nhttps://www.themoviedb.org/movie/452598 (api_snapshot): 以日文简称「政治の倫理化」搜索，TMDB 返回电影 452598，片名为「政治の倫理化 後藤新平」，年份为 1926 年。\n\nhttps://www.themoviedb.org/movie/452598 (api_snapshot): TMDB 电影详情显示片长 32 分钟、导演幸内純一、制作公司 Sumikazu Eiga Sosakusha，后藤新平列为作者。\n\nhttps://animation.filmarchives.jp/works/view/43609 (page): 日本动画电影资料馆收录《映画演説 政治の倫理化 後藤新平 1926》：1926 年制作、片长 32 分钟、幸内純一创作、スミカズ映画創作社制作，内容为电影形式的政治演说。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/258996; https://www.themoviedb.org/movie/452598; https://animation.filmarchives.jp/works/view/43609",
+    "verifiedAt": "2026-10-06T02:26:00.145Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 452598,
+      "type": "movie"
+    }
+  ]
+}

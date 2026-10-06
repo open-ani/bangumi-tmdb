@@ -1,0 +1,36 @@
+{
+  "bangumiId": 211280,
+  "episodes": [
+    {
+      "id": 912569,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 912569,
+      "targets": [
+        {
+          "id": 125088,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 记录为 2005 年上映、全 1 话的电影；候选电影 125088 的原名完全一致，年份和媒介也相符。将唯一的本篇章节对应至该电影。\n\nhttps://www.themoviedb.org/movie/125088 (api_snapshot): 电影条目标题与 Bangumi 原名一致，上映日期为 2005-01-01；Bangumi 记录为 2005 年上映的单部电影，共 1 话。\n\nhttps://www.themoviedb.org/tv/212404 (api_snapshot): 同名电视剧候选第 1 季有 2 集，集名仅为“第1話”“第2話”，且缺少放送日期；与 Bangumi 的单部电影记录不符。\n\n备注：候选电影未提供剧情、导演及片长，无法核对这些细节。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/211280; https://www.themoviedb.org/movie/125088; https://www.themoviedb.org/tv/212404",
+    "verifiedAt": "2026-10-06T02:26:00.145Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 125088,
+      "type": "movie"
+    }
+  ]
+}

@@ -5,20 +5,75 @@
       "id": 1756927,
       "sort": 1,
       "type": 0
+    },
+    {
+      "id": 1757207,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1757208,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1757209,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1757210,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1757211,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1757212,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1757213,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1757214,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1757215,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1757216,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1757217,
+      "sort": 12,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "脚本按放送日期识别作品：以「タヌキとキツネ」「小狸猫与小狐狸」搜索得到 1 个 TV、0 个电影候选；tv/337290「タヌキとキツネ」第 1 季第 1–1 集与 1 个本篇章节逐一对应，1 对日期全部在 ±1 天内；其他候选没有吻合的集序列。",
-    "method": "deterministic",
-    "source": "https://bgm.tv/subject/638081; https://www.themoviedb.org/tv/337290",
-    "verifiedAt": "2026-10-05T01:03:48.613Z"
+    "evidence": "gpt-6-sol: Bangumi 条目对应 2026 年 TV 新作，即 TMDB 337290 第 1 季；首播日、剧情、配音及制作信息吻合。第 1 至 3 话的日期与 TMDB 集表及官方每周日排期一致。该季仍在播出，故以整季作为作品范围，仅为已核实的前三话建立逐集规则。\n\nhttps://www.themoviedb.org/tv/337290 (api_snapshot): 以日文原名搜索，TMDB 返回同名的 2026 年 TV 条目 337290 和 2018 年 TV 条目 337091。\n\nhttps://www.themoviedb.org/tv/337290 (api_snapshot): 337290 首播日期为 2026 年 10 月 4 日，仅列出第 1 季；演员包括久野美咲、東山奈央。\n\nhttps://www.themoviedb.org/tv/337290/season/1 (api_snapshot): 337290 第 1 季现有第 1 至 4 集，日期依次为 10 月 4、11、18、25 日。\n\nhttps://tanukitsu-anime.jp/ (page): 2026 年版官网确认剧情与 Bangumi 简介一致，第 1 话名为「はじまりはじまり」，导演日野トミー、动画制作アカツキメディアスタジオ；自 10 月 4 日起每周日播出。\n\nhttps://www.themoviedb.org/tv/337091 (api_snapshot): 另一同名 TMDB 条目 337091 的日期为 2018 年 2 月，属于不同版本。\n\nhttps://www.fwinc.co.jp/tanukitsu/1805annime/ (page): 原作方记载 2018 年版为网络短篇动画，导演月見里智弘、制作レスプリ，与 2026 年 TV 版不同。\n\n备注：TMDB 第 1 季目前只列出 4 集，Bangumi 所列 12 话的最终集数尚未由所查官方页面确认。；Bangumi 第 4 话起填写星期六日期；TMDB 第 4 集为 10 月 25 日星期日，符合官方每周日排期，因此第 4 至 12 话暂不建立逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/638081; https://www.themoviedb.org/tv/337290; https://www.themoviedb.org/tv/337290/season/1; https://tanukitsu-anime.jp/; https://www.themoviedb.org/tv/337091; https://www.fwinc.co.jp/tanukitsu/1805annime/",
+    "verifiedAt": "2026-10-06T02:26:00.145Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 1,
+      "end": 3,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -28,7 +83,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
       "id": 337290,
       "season": 1,
       "type": "tv"
