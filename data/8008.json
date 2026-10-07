@@ -1,16 +1,86 @@
 {
   "anidbId": 4420,
   "bangumiId": 8008,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 46422,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 46423,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 46424,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 46425,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 46426,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 46427,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 46428,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 46429,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 46430,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 46431,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 46432,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 46433,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 与 TMDB 在作品剧情、2006 年电视动画版本、导演、制作公司及全 12 话范围上吻合。两站前两话标题一致；TMDB 第 1 季完整集表及独立集目表确认连续 12 话，故将 Bangumi 本篇第 1 至 12 话依序对应 TMDB 第 1 季第 1 至 12 集。\n\nhttps://bgm.tv/subject/8008 (page): Bangumi 条目为 2006 年播出的电视动画，全 12 话；剧情涉及近卫素奈绪、戏剧部和学生会，导演为木村真一郎，动画制作包括 Studio Hibari。\n\nhttps://bgm.tv/subject/8008/ep (page): Bangumi 章节页列出连续的本篇第 1 至 12 话，前两话标题分别为「よろしくッ! 近衛素奈緒です!」和「生徒会なんて、大キライ!!」。\n\nhttps://www.themoviedb.org/tv/36803 (api_snapshot): TMDB 电视作品 36803 的原名、剧情、导演、制作公司及全 12 话规模均与 Bangumi 条目相符，作品仅列出第 1 季。\n\nhttps://www.themoviedb.org/tv/36803/season/1 (api_snapshot): TMDB 第 1 季集表完整列出第 1 至 12 集；前两集标题与 Bangumi 一致，末集为「改めてよろしくッ!近衛素奈緒です!」。\n\nhttps://www.animatetimes.com/tag/details.php?id=10645 (page): 动画资料列明该电视动画于 2006 年 7 月 1 日至 9 月 16 日播出，共 12 话，导演及动画制作与 Bangumi 一致。\n\nhttps://www.thetvdb.com/series/tsuyokiss-coolxsweet/allseasons/official (page): 独立集目表列出同一作品第 1 至 12 话的连续标题与播出日期，首末日期对应 Bangumi 的播出范围。\n\n备注：Bangumi 第 3 至 12 话未填写标题或逐话日期；对应关系依据完整集数、已填写的前两话标题、首末播出范围及独立集目表确认。TMDB 部分日期与日本资料相差一天，不影响集序。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/8008; https://bgm.tv/subject/8008/ep; https://www.themoviedb.org/tv/36803; https://www.themoviedb.org/tv/36803/season/1; https://www.animatetimes.com/tag/details.php?id=10645; https://www.thetvdb.com/series/tsuyokiss-coolxsweet/allseasons/official",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36803
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,15 +1,85 @@
 {
   "bangumiId": 2319,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 13518,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 13519,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13520,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 13521,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 13522,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 13523,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 13524,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 13525,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 13526,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 13527,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 13528,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 13529,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品标题、2006 年首播日期、菲娜寄宿达哉家的剧情及制作资料一致。TMDB 第 1 季恰有 12 集；官方与 TMDB 的逐集标题和播出日期一致，且与 Bangumi 第 1 至 12 话标题逐一对应，因此整季和连续逐集规则均可确认。\n\nhttps://www.themoviedb.org/tv/77343 (api_snapshot): TMDB 作品 77343 是 2006 年 10 月 4 日首播的电视动画《夜明け前より瑠璃色な-Crescent Love-》，剧情为月之王国公主菲娜寄宿在达哉家；制作公司为童夢（Daume），全剧 1 季、12 集。\n\nhttps://www.themoviedb.org/tv/77343/season/1 (api_snapshot): TMDB 第 1 季只有 12 集；第 1 至 12 集的标题、逐集播出日期均与官方集表对应。\n\nhttps://www.tbs.co.jp/yoakena/03story/story.html (page): TBS 官方集表列出《Crescent Love》第 1 至 12 话的标题及 2006 年 10 月 4 日至 12 月 20 日的逐集播出日期，与 Bangumi 章节顺序相符。\n\nhttps://www.tbs.co.jp/yoakena/02staffcast/staffcast.html (page): TBS 官方资料确认原作オーガスト、导演太田雅彦、音乐澤野弘之、动画制作童夢，与该 Bangumi subject 的制作资料相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2319; https://www.themoviedb.org/tv/77343; https://www.themoviedb.org/tv/77343/season/1; https://www.tbs.co.jp/yoakena/03story/story.html; https://www.tbs.co.jp/yoakena/02staffcast/staffcast.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 77343
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

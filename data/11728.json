@@ -1,16 +1,151 @@
 {
   "anidbId": 3960,
   "bangumiId": 11728,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 67776,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 67777,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 67778,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 67779,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 67780,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 67781,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 67782,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 67783,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 67784,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 67785,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 67786,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 67787,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 67788,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 67789,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 67790,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 67791,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 67792,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 67793,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 67794,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 67795,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 67796,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 67797,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 67798,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 67799,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 67800,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播日期、声优培训学校剧情、导演及 25 话规模相符。TMDB 第 1 季完整收录这 25 话；其逐集标题、顺序与东京电视台集表对应，故将 Bangumi 本篇第 1 至 25 话连续映射至第 1 季同号集。电视台将末话标为番外篇，但它仍占用第 25 个播出集数，且 TMDB 将其列为第 25 集。\n\nhttps://www.themoviedb.org/tv/51482 (api_snapshot): 以日文原名及英文别名搜索，均找到 TMDB 电视剧 51482，首播日期为 2006-04-04。\n\nhttps://www.themoviedb.org/tv/51482 (api_snapshot): TMDB 详情记载声优培训学校中五名少女的故事、导演東郷光宏、制作公司 Radix Ace Entertainment，以及唯一一季共 25 集；剧情、人员和集数与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/51482/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整集表，共 25 集且只有一页；第 1 至 24 集标题与电视台集表对应，第 25 集为两段故事组成的番外篇。\n\nhttps://www.tv-tokyo.co.jp/contents/get-chu/episodes/episodes1/ (page): 东京电视台逐集列出第 1 至 24 话及 2006-09-26 播出的番外篇，标题与 TMDB 第 1 季的顺序一致。\n\nhttps://bangumi.tv/subject/11728 (page): Bangumi 将本作列为 2006-04-04 开播、共 25 话的电视动画，导演为東郷光宏。\n\n备注：TMDB 第 11 集日期与电视台集表不一致，且第 15 至 25 集缺少日期；逐集顺序以双方标题及电视台集表核对。；东京电视台网页将第 23、24 话均标为 2006-09-19；该处日期可能有误，不影响已核对的集号与标题。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/11728; https://www.themoviedb.org/tv/51482; https://www.themoviedb.org/tv/51482/season/1; https://www.tv-tokyo.co.jp/contents/get-chu/episodes/episodes1/; https://bangumi.tv/subject/11728",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 51482
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

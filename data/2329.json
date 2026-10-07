@@ -1,16 +1,116 @@
 {
   "anidbId": 4884,
   "bangumiId": 2329,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 13607,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 13608,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13609,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 13610,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 13611,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 13612,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 13613,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 13614,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 13615,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 13616,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 13617,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 13618,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1211340,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1211341,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1211342,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1211343,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 1211344,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 1211345,
+      "sort": 6,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、电视动画媒介、剧情、导演及 12 话规模均吻合；官方资料和 TMDB 第 1 季集表又逐话确认了标题与顺序，因此将 Bangumi 本篇 1—12 话对应 TMDB 第 1 季 1—12 集。跨午夜播出解释了首播日期相差一天。6 个《ななついろ劇場》为 DVD 特典，当前没有已核实的 TMDB 集号，故不纳入逐集规则。\n\nhttps://bangumi.tv/subject/2329 (page): Bangumi 将本条目标为 2007 年 7 月 2 日开播的 12 话电视动画，导演为山本天志。\n\nhttps://www.themoviedb.org/tv/92573 (api_snapshot): TMDB 作品 92573 是 2007 年首播的同名电视动画，剧情涉及石蕗正晴变成羊玩偶、秋姫すもも收集星之露；导演同为山本天志，且仅列出 12 集的第 1 季。\n\nhttps://www.themoviedb.org/tv/92573/season/1 (api_snapshot): TMDB 第 1 季实有 12 集，集号 1—12 的标题与 Bangumi 本篇逐集对应，日期为 2007 年 7 月 3 日至 9 月 18 日、每周二。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/nanatsuiro/story/1-6.html (page): 官方剧情页列出第 1—6 话的标题、剧情及制作人员，与 TMDB 和 Bangumi 的对应集一致。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/nanatsuiro/story/index.html (page): 官方剧情页列出第 7—12 话的标题、剧情及制作人员，与 TMDB 和 Bangumi 的对应集一致。\n\nhttps://gigazine.net/news/20070609-anime-2007summer/ (search_snippet): 首播排期为千叶电视台周一 25:40，故 Bangumi 的 7 月 2 日与 TMDB 的 7 月 3 日属于同一次跨午夜播出。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/nanatsuiro/goods/dvd/index.html (page): 官方 DVD 资料将《ななついろ劇場》列为另附的短篇动画特典，与电视本篇分列。\n\nhttps://www.themoviedb.org/tv/92573/season/0 (api_snapshot): 查询 TMDB 作品 92573 的第 0 季返回 404，未取得可对应 DVD 特典的特别篇集表。\n\n备注：TMDB 第 0 季查询返回 404；6 个 DVD 特典在 TMDB 是否另有收录及其集号尚未确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2329; https://bangumi.tv/subject/2329; https://www.themoviedb.org/tv/92573; https://www.themoviedb.org/tv/92573/season/1; https://www.nbcuni.co.jp/rondorobe/anime/nanatsuiro/story/1-6.html; https://www.nbcuni.co.jp/rondorobe/anime/nanatsuiro/story/index.html; https://gigazine.net/news/20070609-anime-2007summer/; https://www.nbcuni.co.jp/rondorobe/anime/nanatsuiro/goods/dvd/index.html; https://www.themoviedb.org/tv/92573/season/0",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 92573
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

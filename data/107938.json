@@ -1,13 +1,30 @@
 {
+  "anidbId": 3044,
   "bangumiId": 107938,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 411890,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 411891,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 411892,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 详情确认《Oval x Over》于2005-03-23发行，日语，片长9分钟，主题为 Bridgestone Indy Japan 300 的宣传动画；导演今石洋之，角色 Arth、Bern、Glavis 与 Bangumi 剧情一致。Bangumi记为3集×约3分钟，而TMDB将完整9分钟作品建为单部 movie，因此不填季或集数。\n\nhttps://api.bgm.tv/v0/subjects/107938 (api_snapshot): Bangumi API：OVA《OVAL×OVER》，2005-03-23，3集；为 BRIDGESTONE INDY JAPAN 300 mile 官方形象动画，构成为3分钟×3话。\n\nhttps://www.themoviedb.org/movie/483322 (api_snapshot): TMDB详情：movie 483322《Oval x Over》/原名 OVALxOVER，2005-03-23，日语，9分钟；简介为 Bridgestone Indy Japan 3000 的宣传视频，导演 Hiroyuki Imaishi，角色包括 Arth、Bern、Glavis。\n\nhttps://www.themoviedb.org/movie/483322 (search_snippet): TMDB以 OVAL×OVER、Oval x Over、OVAL OVER 搜索均定位到同一条目483322。",
+    "evidence": "gpt-6-sol: 作品名、日期、总时长、制作人员和角色均吻合。Bangumi 将三段短篇记为 3 话，TMDB 则将约 9 分钟的完整作品收录为一部电影，因此只映射电影，不建立逐话规则。\n\nhttps://www.themoviedb.org/movie/483322 (api_snapshot): TMDB movie 483322 的原名为 OVALxOVER，发行日为 2005-03-23，片长 9 分钟；导演今石洋之、原案今井トゥーンズ，角色包括 Arth、Bern、Glavis。\n\nhttps://www.production-ig.co.jp/works/oval-over/ (page): 制作公司 Production I.G 确认本作于 2005-03-23 公开，由每话约 3 分钟的 3 话组成；《Over Top》音乐录像是另行制作的作品。\n\nhttps://www.production-ig.co.jp/works/oval-over/episodes.html (page): Production I.G 的逐话介绍列出第 1 话「バーン」、第 2 话「グラビス」、第 3 话「アース」。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/107938; https://api.bgm.tv/v0/subjects/107938; https://www.themoviedb.org/movie/483322",
-    "verifiedAt": "2026-09-08T19:41:08.641Z"
+    "source": "https://bgm.tv/subject/107938; https://www.themoviedb.org/movie/483322; https://www.production-ig.co.jp/works/oval-over/; https://www.production-ig.co.jp/works/oval-over/episodes.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,

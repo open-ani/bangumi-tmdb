@@ -1,16 +1,86 @@
 {
   "anidbId": 2326,
   "bangumiId": 7991,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 46338,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 46339,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 46340,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 46341,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 46342,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 46343,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 46344,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 46345,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 46346,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 46347,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 46348,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 46349,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB TV 24722 第 1 季全 12 集。名称、首播年份、导演、制作公司、媒介及总集数吻合；逐集顺序由前 10 集的相同播出日期，以及外部逐集标题表和末集资料共同支持。第 0 季特别篇不属于本 subject。\n\nhttps://www.themoviedb.org/tv/24722 (api_snapshot): 以日文原名搜索，TMDB 返回 TV 作品 24722，首播日期为 2004-10-14。\n\nhttps://www.themoviedb.org/tv/24722 (api_snapshot): 作品详情显示全 12 集、仅一季，导演神志那弘志、制作公司 Group TAC，与 Bangumi 所载作品身份一致。\n\nhttps://www.themoviedb.org/tv/24722/season/1 (api_snapshot): 第 1 季集表共 12 集；第 1 至 10 集日期与 Bangumi 逐集相同，但第 11、12 集记为 2004-12-23、2004-12-30。\n\nhttps://bangumi.tv/subject/7991 (page): Bangumi 将本作列为 2004 年开播的 12 集 TV 动画，最后两集日期为 2005-01-06 和 2005-01-13。\n\nhttps://thetvdb.com/series/grenadier/allseasons/official (page): TheTVDB 的第 1 季逐集表中，12 集标题及顺序与 Bangumi 一致；第 11、12 集列于 2005 年 1 月。\n\nhttps://tv.apple.com/jp/episode/%E6%97%85%E3%81%A7%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%91%E3%81%9F%E3%82%82%E3%81%AE/umc.cmc.2v4busxpllrffy64el8xapjqf?showId=umc.cmc.w5psu0gm61t1q76c35lfq2uo (page): Apple TV 将《旅で身につけたもの》列为第 1 季第 12 集，日期为 2005-01-13。\n\n备注：TMDB 将第 11、12 集日期记为 2004-12-23、2004-12-30，与 Bangumi、TheTVDB 及 Apple TV 的 2005 年 1 月记录不符；不影响已核实的集号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7991; https://www.themoviedb.org/tv/24722; https://www.themoviedb.org/tv/24722/season/1; https://bangumi.tv/subject/7991; https://thetvdb.com/series/grenadier/allseasons/official; https://tv.apple.com/jp/episode/%E6%97%85%E3%81%A7%E8%BA%AB%E3%81%AB%E3%81%A4%E3%81%91%E3%81%9F%E3%82%82%E3%81%AE/umc.cmc.2v4busxpllrffy64el8xapjqf?showId=umc.cmc.w5psu0gm61t1q76c35lfq2uo",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 24722
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

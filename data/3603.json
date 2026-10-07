@@ -1,16 +1,146 @@
 {
   "anidbId": 4088,
   "bangumiId": 3603,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 25609,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 25610,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 25611,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 25612,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 25613,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 25614,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 25615,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 25616,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 25617,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 25618,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 25619,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 25620,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 25621,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 25622,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 25623,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 25624,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 25625,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 25626,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 25627,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 25628,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 25629,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 25630,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 25631,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 25632,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、TV 媒介、剧情、制作公司、导演及 24 集总量一致。TMDB 第 1 季恰有 24 集，逐集标题按相同顺序对应 Bangumi 第 1 至 24 话，首尾日期的差一天由周四 24:30 的播出时间解释；因此映射整季及连续 24 话。\n\nhttps://www.themoviedb.org/tv/42491 (api_snapshot): 日文原名搜索返回 TMDB 电视作品 42491，剧情涉及沙漠、火乃香和天宙眼。\n\nhttps://www.themoviedb.org/tv/42491/season/1 (api_snapshot): 作品详情记载 2006 年播出、XEBEC 制作、神谷純执导，共 1 季 24 集；第 1 季集表的 24 个标题依次与 Bangumi 章节对应。\n\nhttps://www.allcinema.net/cinema/325162 (page): allcinema 记载该 TV 动画于 2006 年 4 月 13 日至 10 月 26 日在 WOWOW 周四 24:30 播出，共 24 集；24:30 属于次日凌晨，解释了 TMDB 日期晚一天的差异。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?lan=84&workId=10619 (page): dアニメストア将本作列为 2006 年制作的全 24 集动画，剧情中的火乃香、イクス及沙漠设定一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3603; https://www.themoviedb.org/tv/42491; https://www.themoviedb.org/tv/42491/season/1; https://www.allcinema.net/cinema/325162; https://animestore.docomo.ne.jp/animestore/ci_pc?lan=84&workId=10619",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42491
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,18 +1,130 @@
 {
   "bangumiId": 26224,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 130663,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 130664,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 130665,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 130666,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 130667,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 130668,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 130669,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 130670,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 130671,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 130672,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 130673,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 130674,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 130675,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 130676,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 130677,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 130678,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 130679,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 130680,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 130681,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 130682,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播年份、农场剧情、制作公司和电视动画媒介均吻合。Bangumi 将其列为 20 话，TMDB 第 1 季则收录 40 集；其中前 20 集是 2007 年 3 月的首批播出内容，后 20 集从 9 月开始，因此本 subject 对应第 1 季第 1—20 集。Bangumi 章节缺少标题和单集日期，无法逐话核验顺序，暂不填写 rules。\n\nhttps://bgm.tv/subject/26224 (page): Bangumi 条目标为 2007 年 3 月 5 日开播的 Aardman 制作电视动画，共 20 话。\n\nhttps://bgm.tv/subject/26224/ep (page): Bangumi 的 20 个章节只有序号，没有单集标题或播出日期。\n\nhttps://www.themoviedb.org/tv/3902 (api_snapshot): TMDB 作品 3902 是 Aardman 制作的《Shaun the Sheep》电视动画，首播日为 2007 年 3 月 5 日；其第 1 季共有 40 集。\n\nhttps://www.themoviedb.org/tv/3902/season/1 (api_snapshot): TMDB 第 1 季第 1—20 集于 2007 年 3 月 5—16 日播出，第 21 集从 9 月 3 日开始，形成与 Bangumi 这 20 话相符的首批播出范围。\n\n备注：Bangumi 标注的播放结束日为 2007 年 9 月 14 日，可能涵盖 TMDB 第 1 季后半批次；但该 subject 仅列 20 话，且后半批次已有另一个 Bangumi 条目。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/26224; https://bgm.tv/subject/26224/ep; https://www.themoviedb.org/tv/3902; https://www.themoviedb.org/tv/3902/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 3902
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 20,
       "id": 3902,
       "season": 1,
       "type": "tv"

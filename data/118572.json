@@ -1,16 +1,31 @@
 {
   "anidbId": 3040,
   "bangumiId": 118572,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 449531,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 114370 对应 2007 年《Legend of Yuria》OVA/电影版本，与 Bangumi 主体标题、日期和约 64–65 分钟的单集内容一致。56387 的主体是 1984–1988 年《北斗神拳》152 集 TV 版，但 TMDB 第 0 季特别篇中明确收录了同一部《Legend of Yuria》，编号为 0x3，因此 AnimeLists 方向只有在限定为 S0E3 时成立；原始映射缺少该范围。该特别篇不是电视重剪版，而是同一部 OVA 的特别篇归档。\n\nhttps://fmdb.mov/en/movie/114370-fist-of-the-north-star-legend-of-yuria (search_snippet): 页面标题为《Fist of the North Star: Legend of Yuria》，URL 标识 ID 114370；页面列出 2007-02-23、时长 1 小时 4 分钟及对应日英配音阵容。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fc82&language=en-US&person_id=4bc8c090017a3c122d07b372 (search_snippet): TMDB 页面显示 56387 是 1984 年《Fist of the North Star》TV 系列，共 152 集；其特别篇列表中有《Legend of Yuria》，发布日期为 2007-02-23、时长约 1 小时 4 分钟，编号为 0x3。\n\nhttps://hokuto-no-ken.jp/2301 (search_snippet): 《北斗之拳》官方站将《ユリア伝》明确列为五部作中的 OVA，并说明该系列由剧场版和 OVA 构成。\n\nhttps://www.wowow.co.jp/detail/207216/-/01 (search_snippet): WOWOW 将《真救世主伝説 北斗の拳 ユリア伝》描述为 2007 年制作的 OVA、五部作第二部；内容以尤莉娅视角描绘其从童年到南斗最后之将宿命的故事。",
+    "evidence": "gpt-6-sol: Bangumi 的单话 OVA 与 TMDB 电影 114370 在原名、2007-02-23 日期、尤莉娅视角剧情和配音阵容上吻合。TMDB 也将同一部 64 分钟 OVA 收录在《北斗の拳》第 0 季第 3 集；该季还收录其他作品，因此仅选第 3 集。\n\nhttps://www.themoviedb.org/movie/114370 (api_snapshot): TMDB 电影 114370 的日文原名为《真救世主伝説 北斗の拳 ユリア伝》，发行日期为 2007-02-23，片长 64 分钟；剧情以尤莉娅为中心，阿部寛、宇梶剛士、石田ゆり子参与配音。\n\nhttps://www.themoviedb.org/tv/56387/season/0 (api_snapshot): TMDB 电视条目 56387 的第 0 季第 3 集名为《Legend of Yuria》，日期为 2007-02-23，片长 64 分钟，简介明确称其为从尤莉娅视角讲述故事的 OVA。\n\nhttps://www.wowow.co.jp/detail/207216/-/01 (search_snippet): WOWOW 将《ユリア伝》列为《真救世主伝説 北斗の拳》五部作的第二部 OVA，并介绍了尤莉娅的故事及主要配音阵容。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/118572; https://fmdb.mov/en/movie/114370-fist-of-the-north-star-legend-of-yuria; https://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fc82&language=en-US&person_id=4bc8c090017a3c122d07b372; https://hokuto-no-ken.jp/2301; https://www.wowow.co.jp/detail/207216/-/01",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/118572; https://www.themoviedb.org/movie/114370; https://www.themoviedb.org/tv/56387/season/0; https://www.wowow.co.jp/detail/207216/-/01",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 3,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 56387
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

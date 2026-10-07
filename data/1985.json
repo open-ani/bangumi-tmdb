@@ -1,20 +1,178 @@
 {
   "bangumiId": 1985,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 10382,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 10383,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 10384,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 10385,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 10386,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 10387,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 10388,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 10389,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 10390,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 10391,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 10392,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 10393,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 10394,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 10395,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 10396,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 10397,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 10398,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 10399,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 10400,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 10401,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 10402,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 10403,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 10404,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 10405,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 10406,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 234690,
+      "sort": 26,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 234690,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 42952,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品名称、2006—2007 年播出范围、角色与制作信息，以及官网逐话标题共同确认 TMDB 42952 对应本 subject。第 1 季恰有 25 集，按集号、播出日期和官网标题对应 Bangumi 本篇 1—25 话。特别篇标题完全一致，对应第 0 季第 1 集；第 0 季其余两集不属于本 subject。\n\nhttps://www.themoviedb.org/tv/42952 (api_snapshot): 以日文原名搜索，TMDB 返回 42952《金色のコルダ ～primo passo～》，首播日期为 2006-10-01。\n\nhttps://www.themoviedb.org/tv/42952 (api_snapshot): TMDB 作品详情显示本篇于 2006-10-01 至 2007-03-25 播出，共 25 集；角色、配音及制作公司与该动画相符。\n\nhttps://www.themoviedb.org/tv/42952/season/1 (api_snapshot): TMDB 第 1 季实列 25 集，集号及播出日期与本篇顺序吻合；第 0 季第 1 集题为《ひと夏のアンコール》，第 2、3 集属于 2009 年内容。\n\nhttps://www.themoviedb.org/tv/42952/season/0 (api_snapshot): TMDB 第 0 季第 1 集为《ひと夏のアンコール》，标注日期 2007-10-26。\n\nhttps://www.corda-primopasso.com/story/primo.html (page): 动画官网逐话列出第 1 至 25 话的标题和剧情，与 Bangumi 本篇顺序一致。\n\nhttps://www.corda-primopasso.com/dvd/primo.html (page): 动画官网 DVD 清单明确收录 Opus1 至 Opus25 及特别篇《ひと夏のアンコール》；含特别篇的第 IX 卷发行日为 2007-09-26。\n\n备注：Bangumi 第 4 话日期写为 2016-10-22、第 8 话写为 2006-11-10；TMDB 分别记为 2006-10-22、2006-11-19，官网标题和完整集序支持当前对应。；特别篇的 Bangumi 日期及官网 DVD 发行日均为 2007-09-26，TMDB 第 0 季第 1 集却标为 2007-10-26；依据独特标题及官网收录信息确认集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1985; https://www.themoviedb.org/tv/42952; https://www.themoviedb.org/tv/42952/season/1; https://www.themoviedb.org/tv/42952/season/0; https://www.corda-primopasso.com/story/primo.html; https://www.corda-primopasso.com/dvd/primo.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42952
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 42952,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 42952,
+      "season": 0,
       "type": "tv"
     }
   ]

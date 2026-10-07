@@ -1,16 +1,76 @@
 {
   "anidbId": 8954,
   "bangumiId": 2473,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 15664,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 15665,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 15666,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 15667,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 15668,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 15669,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 15670,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 15671,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 15672,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 15673,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、动画媒介、制作公司、剧情及第 1 季名称和 10 集范围一致。TMDB 逐集剧情与 Bangumi 集标题按顺序对应，且 TMDB 与 TVDB 的逐集播出日期一致，因此映射至 TMDB 45279 第 1 季第 1 至 10 集。\n\nhttps://bangumi.tv/subject/2473 (page): Bangumi 条目为《秦时明月之百步飞剑》，记载原版与重制版均按 10 集划分。\n\nhttps://www.themoviedb.org/tv/45279 (api_snapshot): TMDB 剧集 45279 于 2007 年 2 月 14 日首播，制作公司包含玄机科技；第 1 季名为《百步飞剑》，共 10 集，剧情涉及盖聂、天明、少羽和墨家机关城。\n\nhttps://www.themoviedb.org/tv/45279/season/1 (api_snapshot): TMDB 第 1 季集表为第 1 至 10 集，日期连续覆盖 2007 年 2 月 14 日至 23 日；各集剧情依次对应 Bangumi 的十集内容。\n\nhttps://shaoer.cntv.cn/program/dhpcp/20101215/100590_1.shtml (page): 央视少儿台资料确认《百步飞剑》原版共 10 集，重制版仍为 10 集。\n\nhttps://www.thetvdb.com/series/the-legend-of-qin/seasons/official/1 (page): TVDB 第 1 季逐集列出与 Bangumi 相同的十个集标题，首播日期与 TMDB 第 1 季逐集一致。\n\n备注：TMDB 的逐集标题与 Bangumi、TVDB 所列标题不同；对应关系依据逐集剧情、日期和集数确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2473; https://bangumi.tv/subject/2473; https://www.themoviedb.org/tv/45279; https://www.themoviedb.org/tv/45279/season/1; https://shaoer.cntv.cn/program/dhpcp/20101215/100590_1.shtml; https://www.thetvdb.com/series/the-legend-of-qin/seasons/official/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45279
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

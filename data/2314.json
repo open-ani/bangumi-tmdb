@@ -1,16 +1,146 @@
 {
   "anidbId": 3512,
   "bangumiId": 2314,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 13494,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 13495,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13496,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 13497,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 13498,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 13499,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 13500,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 13501,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 13502,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 13503,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 13504,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 13505,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 13506,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 13507,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 13508,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 13509,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 13510,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 13511,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 13512,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 13513,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 13514,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 13515,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 13516,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 13517,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 作品的年份、制作公司、人物与剧情均吻合；第 1 季恰为 24 集，且全部 24 个集标题与 Bangumi 本篇逐集同序一致，可对应整季及第 1 至 24 集。\n\nhttps://www.themoviedb.org/tv/9041 (api_snapshot): 以日文原名和英文别名搜索，均找到 TMDB 电视剧 9041。\n\nhttps://www.themoviedb.org/tv/9041 (api_snapshot): 作品详情显示该剧于 2005 年首播，由 SATELIGHT 制作，剧情涉及函馆的遥、佑、鸦及拉克里马与香格里拉时空界；共 1 季 24 集。\n\nhttps://www.themoviedb.org/tv/9041/season/1 (api_snapshot): 第 1 季实有 24 集，按集号排列的日文标题从第 1 集「アオイユキ」至第 24 集「ハジマリ」，与输入中的 Bangumi 24 集逐集同序一致。\n\n备注：Bangumi 所列开播日为 2005-10-11，TMDB 第 1 集日期为 2005-10-12；日期相差一天，但不影响由完整集标题序列确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2314; https://www.themoviedb.org/tv/9041; https://www.themoviedb.org/tv/9041/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 9041
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

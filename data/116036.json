@@ -1,16 +1,91 @@
 {
   "anidbId": 4619,
   "bangumiId": 116036,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 441230,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 441231,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 441232,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 441233,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 441234,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 441235,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 441236,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 441237,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 441238,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 441239,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 441240,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 441241,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 441242,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品身份、2006年电视动画版本、前后季剧情、制作人员及13集范围均吻合；第二季13个日文集标题与 Bangumi 第1至13话逐集同序一致，因此映射至 TMDB 68638 第二季全季，并建立连续逐集规则。\n\nhttps://www.themoviedb.org/tv/68638 (api_snapshot): 以日文原名和英文别名搜索，均找到 TMDB 电视剧 68638；作品首播于2006年，剧情涉及砂沙美及魔法少女俱乐部。\n\nhttps://www.themoviedb.org/tv/68638 (api_snapshot): TMDB 作品详情列出两季、共26集；导演高本宣弘及主要角色配音与 Bangumi 资料相符，第二季列为13集。\n\nhttps://www.themoviedb.org/tv/68638/season/2 (api_snapshot): 已读取 TMDB 第二季完整集表，共13集且仅一页；第1至13集的日文标题与输入的 Bangumi 13话逐集同序吻合。\n\nhttps://www.themoviedb.org/tv/68638/season/1 (api_snapshot): TMDB 第一季也是13集，标题为另一组故事，末集是《魔法少女大会・きらきら編》，与第二季开篇的剧情衔接。\n\nhttps://bangumi.tv/subject/116036 (page): Bangumi 将本条目标为2006年的13话电视动画、前作的续篇，简介写明少女们在魔法少女大会之后参加魔法世界合宿。\n\nhttps://www.allcinema.net/cinema/326190 (page): allcinema 记录第二季在 WOWOW 的播出期间为2006年10月5日至2007年1月11日，导演为高本宣弘。\n\nhttps://cal.syoboi.jp/tid/885/time (search_snippet): 放送时刻资料列出日本电视台于2006年12月19日播出第二季第1话《選ばれし少女達》，解释了 TMDB 季集日期较 WOWOW 首播晚的原因。\n\n备注：Bangumi 输入将开播日记为2006年10月3日，各话日期也与 TMDB 不同；其他播出资料记录 WOWOW 于10月5日首播，而日本电视台较晚播出。日期记录存在电视台与录入差异，但不影响由完整标题和集数核实的逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/116036; https://www.themoviedb.org/tv/68638; https://www.themoviedb.org/tv/68638/season/2; https://www.themoviedb.org/tv/68638/season/1; https://bangumi.tv/subject/116036; https://www.allcinema.net/cinema/326190; https://cal.syoboi.jp/tid/885/time",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 68638
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

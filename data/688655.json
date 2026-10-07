@@ -2,15 +2,15 @@
   "bangumiId": 688655,
   "episodes": [
     {
-      "id": 1730644,
-      "sort": 1,
+      "id": 298892,
+      "sort": 4,
       "type": 0
     }
   ],
   "locked": false,
   "overrides": [
     {
-      "bangumiEpisodeId": 1730644,
+      "bangumiEpisodeId": 298892,
       "targets": [
         {
           "id": 88784,
@@ -20,10 +20,10 @@
     }
   ],
   "provenance": {
-    "evidence": "脚本按上映日期识别电影：以「魔物ハンター妖子スーパー・ミュージック・クリップ」「魔物猎人妖子 Super Music Clip」搜索得到 0 个 TV、1 个电影候选；movie/88784「魔物ハンター妖子スーパー・ミュージック・クリップ」上映日期 1993-12-21 与 Bangumi 放送日期相差不超过 3 天，且是唯一吻合的候选。",
-    "method": "deterministic",
-    "source": "https://bgm.tv/subject/688655; https://www.themoviedb.org/movie/88784",
-    "verifiedAt": "2026-09-22T00:58:24.769Z"
+    "evidence": "gpt-6-sol: 日文全名、发行日期和独立音乐录像集的商品资料共同确认 TMDB 电影 88784 对应本作。Bangumi 只有一个章节，应以实际章节 ID 298892 映射；旧映射中的章节 ID 有误。\n\nhttps://www.themoviedb.org/movie/88784 (api_snapshot): TMDB 电影 88784 的日文原名为《魔物ハンター妖子スーパー・ミュージック・クリップ》，日期为 1993-12-21，片长标为 24 分钟。\n\nhttps://bgm.tv/subject/688655 (page): Bangumi 将本作列为 1993-12-21 发售的单话 OVA，简介说明它是收录歌曲、动画片段及声优影像的音乐录像集。\n\nhttps://www.suruga-ya.jp/product/detail/928048916 (page): 发行商品资料以相同标题和日期列出东宝 VHS，并列明七首收录歌曲，确认对应的是音乐录像集。\n\nhttps://bgm.tv/ep/298892 (page): Bangumi 唯一章节的实际 ID 为 298892，标题为「スーパーミュージッククリップ」；旧映射使用的章节 ID 1730644 与之不符。\n\n备注：TMDB 标注片长 24 分钟，VHS 商品资料标注收录时间 30 分钟；两处时长存在差异，但标题、日期和作品形态一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/688655; https://www.themoviedb.org/movie/88784; https://www.suruga-ya.jp/product/detail/928048916; https://bgm.tv/ep/298892",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,

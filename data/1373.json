@@ -1,19 +1,135 @@
 {
   "bangumiId": 1373,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 4533,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 4534,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 4535,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 4536,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 4537,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 4538,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 4539,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 4540,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 4541,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 4542,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 4543,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 4544,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 4545,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 657953,
+      "sort": 2.5,
+      "type": 1
+    },
+    {
+      "id": 657954,
+      "sort": 13.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 657953,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 13961,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 657954,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 13961,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的剧情、制作公司、导演、媒介和 2006 年的版本均吻合。TMDB 第 1 季恰有 13 集，全部日文集标题与 Bangumi 本篇按集号逐一吻合；两集小数序号特别篇分别对应第 0 季第 1、2 集。第 0 季其余集数不属于本条目。\n\nhttps://www.themoviedb.org/tv/13961 (api_snapshot): 以日文原名「ウサビッチ」搜索，TMDB 返回电视剧 13961。\n\nhttps://www.themoviedb.org/tv/13961 (api_snapshot): 作品详情显示制作公司为 Kanaban Graphics、MTV Japan，导演及编剧为富岡聡；第 1 季有 13 集，后续各季及《ZERO》另列。\n\nhttps://www.themoviedb.org/tv/13961/season/1 (api_snapshot): 第 1 季集表共 13 集，标题从「食事の時間」至「出所の時間」，逐集顺序与 Bangumi 本篇 1—13 完全一致。\n\nhttps://www.themoviedb.org/tv/13961/season/0 (api_snapshot): 第 0 季第 1、2 集分别为「労働の時間（裏）」和「旅立ちの時間」；第 3、4 集是其他特别篇。\n\nhttps://www.ponycanyon.co.jp/visual/PCBP000011651 (page): 发行方确认《ウサビッチ シーズン1》由 Kanaban Graphics 制作，富岡聡执导，共 13 集、每集约 90 秒。\n\nhttps://bgm.tv/subject/1373 (page): Bangumi 将本条目标为 2006 年开播的《监狱兔 第一季》，列出 13 集本篇及两集特别篇。\n\nhttps://annict.com/works/5504 (page): Annict 的第一季章节表将「労働の時間（裏）」列为第 2.5 话、「旅立ちの時間」列为第 13.5 话。\n\n备注：TMDB 将首集日期记为 2006 年 1 月 1 日，其余多数集未记日期；Bangumi 记载开播日为 2006 年 6 月 28 日。逐集对应主要依据全部 13 集标题、顺序及总集数核实，TMDB 的播出日期仍待校正。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1373; https://www.themoviedb.org/tv/13961; https://www.themoviedb.org/tv/13961/season/1; https://www.themoviedb.org/tv/13961/season/0; https://www.ponycanyon.co.jp/visual/PCBP000011651; https://annict.com/works/5504",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 13961
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 13961,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 13961,
+      "season": 0,
       "type": "tv"
     }
   ]

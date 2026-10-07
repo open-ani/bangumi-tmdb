@@ -1,16 +1,36 @@
 {
   "anidbId": 4397,
   "bangumiId": 182294,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 635405,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 635406,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、播出日期、剧情、导演、制作公司及两篇结构均吻合。第 1 季恰好收录这两集；按播出日期，Bangumi 前篇《海峡》对应第 1 集，后篇《国境》对应第 2 集。\n\nhttps://www.themoviedb.org/tv/45167 (api_snapshot): TMDB 作品 45167 是 2006 年 9 月 17 日首播的《太陽の黙示録》，共 1 季 2 集；制作公司为 Madhouse，导演为小島正幸，原作为かわぐちかいじ。\n\nhttps://www.themoviedb.org/tv/45167/season/1 (api_snapshot): TMDB 第 1 季仅有两集：第 1 集于 2006 年 9 月 17 日播出，第 2 集于 9 月 18 日播出。\n\nhttps://s.rbbtoday.com/article/2006/09/01/33573.html?pickup_list_click6=true (page): 2006 年播出预告明确记载：前篇《海峡》于 9 月 17 日播出，后篇《国境》于 9 月 18 日播出；故事涉及日本分裂及柳舷一郎赴台湾，与 Bangumi 简介一致。\n\nhttps://av.watch.impress.co.jp/docs/20061219/tfc.htm (page): DVD 发行报道确认作品为 WOWOW 播出的前后两篇，导演小島正幸，动画制作 Madhouse。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/182294; https://www.themoviedb.org/tv/45167; https://www.themoviedb.org/tv/45167/season/1; https://s.rbbtoday.com/article/2006/09/01/33573.html?pickup_list_click6=true; https://av.watch.impress.co.jp/docs/20061219/tfc.htm",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45167
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

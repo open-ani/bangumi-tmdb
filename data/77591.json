@@ -1,15 +1,125 @@
 {
   "bangumiId": 77591,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 293633,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 293634,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 293635,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 293636,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 293637,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 293638,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 293639,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 293640,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 293641,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 293642,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 293643,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 293644,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 293645,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 293646,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 293647,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 293648,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 293649,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 293650,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 293651,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 293652,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 已确认该 subject 对应 TMDB 709 的完整第 1 季。该季恰有 20 集，作品设定、人员和播出范围一致。Bangumi 各章节只有序号，缺少可供逐集比对的标题与日期，因此暂不建立章节规则。\n\nhttps://bgm.tv/subject/77591/ep (page): Bangumi 条目标明《Robot Chicken Season 1》为 TV 动画，章节页列有 20 个本篇章节，但各章没有标题或放送日期。\n\nhttps://www.themoviedb.org/tv/709 (api_snapshot): TMDB 剧集 709 为 2005 年 2 月 20 日首播的《Robot Chicken》；简介中的定格玩偶动画和机器鸡设定、Seth Green 与 Matthew Senreich 等人员均与 Bangumi 条目吻合。\n\nhttps://www.themoviedb.org/tv/709/season/1 (api_snapshot): TMDB 第 1 季季表只有 20 集：第 1 集《Junk in the Trunk》日期为 2005 年 2 月 20 日，第 20 集《The Black Cherry》日期为 2005 年 7 月 18 日，与 Bangumi 所列集数及首末播日期相符。\n\n备注：Bangumi 20 个章节的逐集标题与放送日期均为空，无法独立核实每个章节与 TMDB 集号的对应关系。\n\n脚本按声明范围生成逐集规则：20 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/77591; https://bgm.tv/subject/77591/ep; https://www.themoviedb.org/tv/709; https://www.themoviedb.org/tv/709/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 709
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

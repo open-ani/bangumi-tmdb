@@ -1,21 +1,162 @@
 {
   "anidbId": 11654,
   "bangumiId": 148319,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 571203,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 571204,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 571205,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 571206,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 571207,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 571208,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 571209,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 571210,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 571211,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 571212,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 571213,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 571214,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 571215,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 571216,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 571217,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 571218,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 571219,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 571220,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 571221,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 571222,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 571223,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 571224,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 571225,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 571226,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 571227,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 571228,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配 TMDB 131339 第 1 季：媒介、年份、26 集总量、首尾剧情及全部 26 个集标题与顺序一致。旧映射 188324 属于 1949 年真人电影，应替换。\n\nhttps://bgm.tv/subject/148319 (page): Bangumi 将本条目标为 2006 年、26 集的电视动画，列出总导演王柏荣、制作方央视动漫集团。\n\nhttps://bgm.tv/subject/148319/ep (page): Bangumi 的 26 个本篇章节从《申城奇案》到《浪迹天涯》，顺序与 TMDB 第 1 季逐集相同。\n\nhttps://www.themoviedb.org/tv/131339 (api_snapshot): TMDB 131339 是 2006 年的《三毛流浪记》电视作品，只有第 1 季，共 26 集；简介涉及吴子福、侯逸文和三毛擦鞋的情节。\n\nhttps://www.themoviedb.org/tv/131339/season/1 (api_snapshot): TMDB 131339 第 1 季实列 26 集；第 1 集《申城奇案》至第 26 集《浪迹天涯》的集号和标题均与 Bangumi 逐一对应。\n\nhttps://www.cntv.cn/program/dhc/20060126/101645.shtml (page): 央视 2006 年 1 月 26 日刊出的第 1 集剧情，与 TMDB 第 1 集剧情相同。\n\nhttps://www.cntv.cn/program/dhc/20060126/101855_6.shtml (page): 央视刊出的第 26 集结局，与 TMDB 第 26 集剧情相同，确认该季覆盖同一部完整作品。\n\nhttps://www.themoviedb.org/movie/188324 (api_snapshot): 旧映射 TMDB 188324 是 1949 年、片长 74 分钟的真人电影，其 IMDb 号正是输入中的 tt0470084，与本条 2006 年电视动画不符。\n\nhttps://www.themoviedb.org/tv/225107/season/1 (api_snapshot): 另一个近名条目 TMDB 225107 标为《三毛流浪记中非版》，第 1 季仅列 1 集，不能覆盖 Bangumi 的 26 集。\n\n备注：Bangumi 标注 2006 年 1 月 26 日开播，TMDB 第 1 集标注 2 月 1 日；央视在 1 月 26 日刊出分集介绍，但该刊出日期本身不能证明实际播出日期。此差异不影响依据逐集标题和剧情确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/148319; https://bgm.tv/subject/148319/ep; https://www.themoviedb.org/tv/131339; https://www.themoviedb.org/tv/131339/season/1; https://www.cntv.cn/program/dhc/20060126/101645.shtml; https://www.cntv.cn/program/dhc/20060126/101855_6.shtml; https://www.themoviedb.org/movie/188324; https://www.themoviedb.org/tv/225107/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 131339
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 188324,
-      "type": "movie"
+      "id": 131339,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

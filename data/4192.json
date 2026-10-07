@@ -1,16 +1,61 @@
 {
   "anidbId": 4708,
   "bangumiId": 4192,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 30460,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 30461,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 30462,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 30463,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 30464,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 30465,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 81143,
+      "sort": 7,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 年份、月面 EDEN 的剧情、制作方和导演均吻合。Bangumi 的 7 个本篇章节与官网所列前 6 话加《FREEDOM SEVEN》、以及 TMDB 第 1 季的 7 集名称和顺序一致，因此对应完整第 1 季。\n\nhttps://bangumi.tv/subject/4192/ep (page): Bangumi 将本作标为 2006 年开始的 OVA，共 7 话；章节为第 1 至 6 话及第 7 话《SEVEN》。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=270 (page): 制作方 Sunrise 记载《FREEDOM》前 6 话于 2006 年 11 月起发行，另有 2008 年 5 月发行的《FREEDOM SEVEN》；剧情、导演和制作人员与 Bangumi 条目一致。\n\nhttps://www.freedom-project.jp/information/ (page): 作品官网列明合集收录《FREEDOM》1 至 6 话和特别篇《FREEDOM SEVEN》；后者于 2008 年 5 月 14 日开始网络配信，5 月 23 日发行 DVD。\n\nhttps://www.themoviedb.org/tv/60424 (api_snapshot): TMDB 电视作品 60424 为 2006 年的《FREEDOM》，剧情发生在月面都市 EDEN，制作公司包括日清食品和 Sunrise，导演为森田修平；全剧 7 集。\n\nhttps://www.themoviedb.org/tv/60424/season/1 (api_snapshot): TMDB 第 1 季实际集表为连续的《FREEDOM 1》至《FREEDOM 6》及第 7 集《FREEDOM SEVEN》，共 7 集，没有混入广告或序章。\n\n备注：第 7 话日期口径不同：Bangumi 记网络配信首日 2008-05-14，官网确认该日配信及 2008-05-23 的 DVD 发行；TMDB 集表记 2008-05-22。标题和集数顺序仍可确认对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4192; https://bangumi.tv/subject/4192/ep; https://www.sunrise-inc.co.jp/work/detail.php?cid=270; https://www.freedom-project.jp/information/; https://www.themoviedb.org/tv/60424; https://www.themoviedb.org/tv/60424/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 60424
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

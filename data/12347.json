@@ -1,15 +1,55 @@
 {
   "bangumiId": 12347,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 151506,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 151507,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 151508,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 151509,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 151510,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 151511,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品首播日期、剧情人物、主创及全 6 话的约 45 分钟版本均吻合。TMDB 第 1 季仅收录这 6 话，逐话标题顺序也与原版集目相符，因此 Bangumi 本篇第 1 至 6 话对应第 1 季第 1 至 6 集。\n\nhttps://www.themoviedb.org/tv/44548 (api_snapshot): 按日文原名搜索得到 TMDB 电视作品 44548，首播日期为 2006-07-02。\n\nhttps://www.themoviedb.org/tv/44548 (api_snapshot): 作品详情列出冈村天斋、山口亮太及渡边明乃等人员；唯一的第 1 季共 6 集。\n\nhttps://www.themoviedb.org/tv/44548/season/1 (api_snapshot): 第 1 季集表只有 6 集，每集约 45 分钟；英文集标题按第 1 至 6 话列出，但第 2 至 6 集的日期被填为连续周播。\n\nhttps://www.at-x.com/program/detail/1974 (page): AT-X 确认本作由冈村天斋执导、A.C.G.T 制作，剧情涉及比利、佩尼和迷宫机关；原版为每月一话、全 6 话的一小时档节目，页面还按话列出第 2 至 5 话剧情。\n\nhttps://en.wikipedia.org/wiki/Project_Blue_Earth_SOS (page): 逐话资料列出原版 6 话的标题和 2006 年 7 月至 12 月的月播日期；标题顺序与 TMDB 英文集表相符。\n\n备注：TMDB 将第 2 至 6 集误列为 2006 年 7 月至 8 月连续周播，与 AT-X 每月一话的排期不符；对应规则依据集标题、话数和原版顺序，不能将这些 TMDB 日期当作实际首播日期。；Bangumi 输入中的各话标题和日期为空，无法直接用 Bangumi 章节元数据逐话复核。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/12347; https://www.themoviedb.org/tv/44548; https://www.themoviedb.org/tv/44548/season/1; https://www.at-x.com/program/detail/1974; https://en.wikipedia.org/wiki/Project_Blue_Earth_SOS",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44548
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

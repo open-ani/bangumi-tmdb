@@ -1,16 +1,86 @@
 {
   "anidbId": 3444,
   "bangumiId": 2158,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 12435,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 12436,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 12437,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 12438,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 12439,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 12440,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 12441,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 12442,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 12443,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 12444,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 12445,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 12446,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、剧情、制作方和 12 集规模吻合；TMDB 第 1 季完整收录输入中的 12 集，标题逐集同序，故映射整季并建立第 1 至 12 集的连续规则。TMDB 第 0 季特别篇不属于本 subject 的 12 集正篇。\n\nhttps://www.themoviedb.org/tv/35897 (api_snapshot): 按日文原名搜索，TMDB 仅返回 TV 作品 35897；其首播日期为 2006 年 4 月 4 日，剧情围绕拉哈尔、芙蓉和艾特娜。\n\nhttps://www.themoviedb.org/tv/35897 (api_snapshot): 作品详情记载制作公司为 OLM、正篇共 12 集；第 1 季从 2006 年 4 月 4 日开始，另列有第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/35897/season/1 (api_snapshot): 已读取第 1 季完整集表：第 1 至 12 集的标题和顺序与输入章节逐集对应，其余 11 集的日期也一致。TMDB 把第 7 集日期记为 2009 年 5 月 16 日。\n\nhttps://navicon.jp/title7240/ (page): 节目资料记载本作是 2006 年制作的 12 集动画，导演井硲清高、制作 OLM，剧情和主要配音人员也与输入吻合。\n\nhttps://disgaea.fandom.com/wiki/Makai_Senki_Disgaea (search_snippet): 其他集数资料将第 7 集《魔界兄妹》的首播日期列为 2006 年 5 月 16 日，支持将 TMDB 的 2009 年日期视为录入错误。\n\n备注：TMDB 第 1 季第 7 集《魔界兄妹》的日期误记为 2009 年 5 月 16 日；输入及其他集数资料均指向 2006 年 5 月 16 日。标题、剧情和集序仍可确认该集对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2158; https://www.themoviedb.org/tv/35897; https://www.themoviedb.org/tv/35897/season/1; https://navicon.jp/title7240/; https://disgaea.fandom.com/wiki/Makai_Senki_Disgaea",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 35897
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

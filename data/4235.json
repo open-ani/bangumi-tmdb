@@ -1,21 +1,187 @@
 {
   "anidbId": 3195,
   "bangumiId": 4235,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 31108,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 31109,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 31110,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 31111,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 31112,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 31113,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 31114,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 31115,
+      "sort": 8,
+      "type": 1
+    },
+    {
+      "id": 31116,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 31117,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 31118,
+      "sort": 11,
+      "type": 1
+    },
+    {
+      "id": 31119,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 42436,
+      "sort": 13,
+      "type": 1
+    },
+    {
+      "id": 42437,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 42438,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 42439,
+      "sort": 16,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 31115,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 1096,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 31118,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 1096,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 42436,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 1096,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 42439,
+      "targets": [
+        {
+          "episode": 4,
+          "id": 1096,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 电视作品 1096。Bangumi 的 sort 按官方 16 话收录顺序编号，四话电视未播出的内容穿插其中；TMDB 将 12 话电视本篇列于第 1 季，将这四话列于第 0 季。按标题和日期逐集核对后，本篇分段建立连续规则，四话特别篇以章节 ID 单独对应。\n\nhttps://bgm.tv/subject/4235 (page): Bangumi 条目记载本作为 2005 年开播的 16 话电视动画，导演为舛成孝二。\n\nhttps://bgm.tv/subject/4235/ep (page): Bangumi 章节页列出 12 话本篇和 4 话特别篇，并给出标题与日期。\n\nhttps://www.aniplex.co.jp/kamichu/disc/index.html (page): Aniplex 官方蓝光收录表按顺序列出全部 16 话；官方另确认其中有电视未播出话。\n\nhttps://www.themoviedb.org/tv/1096 (api_snapshot): TMDB 作品 1096 的首播日、友里惠成为神的剧情、舛成孝二及 Aniplex 等制作信息均吻合；季列表为第 1 季 12 话、特别篇第 0 季 4 话。\n\nhttps://www.themoviedb.org/tv/1096/season/1 (api_snapshot): TMDB 第 1 季 12 话的标题和日期逐一对应 Bangumi 的 12 话本篇。\n\nhttps://www.themoviedb.org/tv/1096/season/0 (api_snapshot): TMDB 第 0 季 4 话的标题和日期逐一对应 Bangumi 的 4 话特别篇。\n\nhttps://www.themoviedb.org/tv/275948 (api_snapshot): 另一个同名搜索结果 275948 标为「別版」，缺少制作信息与外部 ID，季结构也与本条目的 12 话电视播出、4 话特别篇划分不符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4235; https://bgm.tv/subject/4235/ep; https://www.aniplex.co.jp/kamichu/disc/index.html; https://www.themoviedb.org/tv/1096; https://www.themoviedb.org/tv/1096/season/1; https://www.themoviedb.org/tv/1096/season/0; https://www.themoviedb.org/tv/275948",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 1096
+    },
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 8,
+      "season": 1,
+      "start": 9,
+      "tmdbId": 1096
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 10,
+      "season": 1,
+      "start": 12,
+      "tmdbId": 1096
+    },
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 11,
+      "season": 1,
+      "start": 14,
+      "tmdbId": 1096
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 1096,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 4,
+      "id": 1096,
+      "season": 0,
       "type": "tv"
     }
   ]

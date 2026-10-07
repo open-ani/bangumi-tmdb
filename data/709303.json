@@ -1,0 +1,108 @@
+{
+  "bangumiId": 709303,
+  "episodes": [
+    {
+      "id": 1755161,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1755162,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1755163,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1755164,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1755165,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1755166,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1755167,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1755168,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1755169,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1755170,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1755171,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1755172,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1755173,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1755174,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1755175,
+      "sort": 15,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: 作品、季别、15集数量及首尾放送日期一致，可将 subject 的范围定位为 TMDB 第1季第1至15集。Bangumi 各章节均缺少标题和放送日期，无法逐集核对顺序，因此不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/228674 (api_snapshot): 候选 TV 228674 为《Playdate with Winnie the Pooh》，2023年8月18日首播，制作方包括 Disney Junior、Disney Television Animation 和 OddBot；其第1季第1集于当日播出，第15集于2024年2月21日播出，与 Bangumi 所载15集的首播及完结日期吻合。第16至22集没有放送日期。\n\n备注：Bangumi 章节缺少逐集标题和日期，无法确认每个章节 ID 与 TMDB 集号的一一对应。；TMDB 第1季另列第16至22集，但均无放送日期；现有资料无法说明这些集数的性质。\n\n脚本按声明范围生成逐集规则：15 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/709303; https://www.themoviedb.org/tv/228674",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 228674
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "episode": 1,
+      "episodeEnd": 15,
+      "id": 228674,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

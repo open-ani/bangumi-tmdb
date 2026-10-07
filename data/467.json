@@ -1,21 +1,174 @@
 {
   "anidbId": 4861,
   "bangumiId": 467,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 289,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 290,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 291,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 292,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 293,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 294,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 295,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 296,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 297,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 298,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 299,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 300,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 301,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 302,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 303,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 304,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 305,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 306,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 307,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 308,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 309,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 310,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 311,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 312,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 827193,
+      "sort": 15.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 827193,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34765,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 34765 的年份、剧情、制作公司、导演和 24 集规模均吻合；第 1 季的 24 个标题与 Bangumi 本篇逐集同序。唯一的 SP15.5 对应第 0 季总集篇「追想」。\n\nhttps://www.themoviedb.org/tv/34765 (api_snapshot): 以日文原名及别名搜索，均找到 TMDB 34765；其首播日期为 2007-04-08，剧情涉及 15 名少年少女驾驶机器人保卫地球。\n\nhttps://www.themoviedb.org/tv/34765 (api_snapshot): 作品详情显示制作公司为 GONZO、导演为森田宏幸，共 24 集；这些信息与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/34765/season/1 (api_snapshot): 第 1 季季表共 24 集，逐集标题从「ゲーム」到「物語」与 Bangumi 本篇第 1 至 24 话依序一致。\n\nhttps://www.themoviedb.org/tv/34765/season/0 (api_snapshot): 第 0 季只有一集「追想」，编号第 1 集，日期为 2007-07-24。\n\nhttps://www.gonzo.co.jp/archives/bokurano/goods (page): 制作方官网列出的 DVD 收录标题与本篇逐集顺序相符，包括第 15 话「自滅」、第 16 话「正体」及第 24 话「物語」。\n\nhttps://bgm.tv/ep/827193 (page): Bangumi 将唯一的特别篇列为 SP15.5，位置在本篇第 15 与第 16 话之间，但未填写标题和日期。\n\nhttps://thetvdb.com/series/bokurano/episodes/4332847 (page): TVDB 将「追想」记为前 15 话的总集篇，注明其在第 16 话前播出；这与 Bangumi 的 SP15.5 位置及 TMDB 第 0 季条目吻合。\n\n备注：Bangumi 的 SP15.5 未填写标题和日期；其对应「追想」依据唯一特别篇、插入位置及外部播出记录确认。；Bangumi 与 TMDB 的部分逐集日期不同，但逐集标题、顺序和总集数一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/467; https://www.themoviedb.org/tv/34765; https://www.themoviedb.org/tv/34765/season/1; https://www.themoviedb.org/tv/34765/season/0; https://www.gonzo.co.jp/archives/bokurano/goods; https://bgm.tv/ep/827193; https://thetvdb.com/series/bokurano/episodes/4332847",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34765
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34765,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34765,
+      "season": 0,
       "type": "tv"
     }
   ]

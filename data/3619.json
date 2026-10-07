@@ -1,16 +1,81 @@
 {
   "anidbId": 1805,
   "bangumiId": 3619,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 25698,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 25699,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 25700,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 25701,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 25702,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 25703,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 25704,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 25705,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 25706,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 25707,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 25708,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、剧情、导演及第一季的 11 集范围一致。富士电视台官方回顾与 TMDB 第一季集表的 11 个标题逐集同序，对应 Bangumi 本篇第 1 至 11 话；TMDB 第二季另列 13 集，不属于本 subject。\n\nhttps://www.themoviedb.org/tv/34793 (api_snapshot): TMDB 作品 34793 为 2004 年首播的《GIRLSブラボー》，剧情涉及雪成、米哈露与异世界赛莲；详情列出第一季 11 集、第二季 13 集，导演为あおきえい。\n\nhttps://www.themoviedb.org/tv/34793/season/1 (api_snapshot): TMDB 第一季集表共 11 集，第 1 至 11 集的标题及顺序与 Bangumi 本篇逐集对应。\n\nhttps://www.fujitv.co.jp/b_hp/girlsbravo/backnumber/list.html (page): 富士电视台将节目明确标为《GIRLSブラボーfirst season》，官方回顾按第 1 至 11 话列出相同标题及顺序。\n\n备注：Bangumi 记载开播日为 2004 年 7 月 6 日，富士电视台与 TMDB 记载首话为 7 月 5 日；TMDB 第 3 话日期为 7 月 27 日，富士电视台记载为 7 月 26 日。这些日期差异不影响已由标题和集数核实的逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3619; https://www.themoviedb.org/tv/34793; https://www.themoviedb.org/tv/34793/season/1; https://www.fujitv.co.jp/b_hp/girlsbravo/backnumber/list.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34793
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

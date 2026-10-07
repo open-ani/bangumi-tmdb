@@ -1,15 +1,90 @@
 {
   "bangumiId": 101718,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 391585,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 391586,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 391587,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 391588,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 391589,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 391590,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 391591,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 391592,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 391593,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 391594,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 391595,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 391596,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 391597,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的13话与 TMDB 84200 第一季完整对应：作品首播日期、制作公司、季集数及逐集标题和顺序一致。第12话的 TMDB 日期有误，但独立剧集资料确认 Bangumi 所列日期，因此不影响该话对应关系。\n\nhttps://www.themoviedb.org/tv/84200 (api_snapshot): 搜索结果显示《Justice League Unlimited》为2004年7月31日首播的电视动画，TMDB ID 为84200。\n\nhttps://www.themoviedb.org/tv/84200 (api_snapshot): 作品详情显示制作公司为 Warner Bros. Animation；第一季于2004年7月31日开播，共13集，另有第二、三季各13集。\n\nhttps://www.themoviedb.org/tv/84200/season/1 (api_snapshot): 第一季集表共13集，集号、标题及放送顺序与输入的13话对应；第1至11话及第13话的日期也一致。TMDB 将第12话日期记为2005年1月1日。\n\nhttps://dcanimated.com/jlu/episodes/justice-league-unlimited-episodes-futurethingpt1/ (page): 《The Once and Future Thing, Part 1》资料页确认它是第一季第12话，原播日期为2005年1月22日，与输入一致。\n\n备注：TMDB 第一季第12话标为2005年1月1日；独立剧集资料与 Bangumi 均标为2005年1月22日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/101718; https://www.themoviedb.org/tv/84200; https://www.themoviedb.org/tv/84200/season/1; https://dcanimated.com/jlu/episodes/justice-league-unlimited-episodes-futurethingpt1/",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 84200
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -2,15 +2,15 @@
   "bangumiId": 688640,
   "episodes": [
     {
-      "id": 1730642,
-      "sort": 1,
+      "id": 298890,
+      "sort": 2,
       "type": 0
     }
   ],
   "locked": false,
   "overrides": [
     {
-      "bangumiEpisodeId": 1730642,
+      "bangumiEpisodeId": 298890,
       "targets": [
         {
           "id": 88780,
@@ -20,10 +20,10 @@
     }
   ],
   "provenance": {
-    "evidence": "脚本按上映日期识别电影：以「魔物ハンター妖子2」「魔物猎人妖子2」搜索得到 0 个 TV、2 个电影候选；movie/88780「魔物ハンター妖子２」上映日期 1992-12-22 与 Bangumi 放送日期相差不超过 3 天，且是唯一吻合的候选。",
-    "method": "deterministic",
-    "source": "https://bgm.tv/subject/688640; https://www.themoviedb.org/movie/88780",
-    "verifiedAt": "2026-09-22T00:58:24.769Z"
+    "evidence": "gpt-6-sol: 1992年的发行日期、阿部恒与高林久弥的制作人员信息共同确认TMDB电影88780对应此单话OVA；商品资料的温羅与あづさ剧情进一步吻合。1995年的同名作品是另一部OVA。旧映射的作品ID正确，但其章节ID 1730642应改为本条目实际章节ID 298890。\n\nhttps://bgm.tv/subject/688640 (page): Bangumi 将本作列为1992年12月22日发行的单话OVA，导演阿部恒、脚本高林久弥；章节ID 298890是唯一的「妖子2」。\n\nhttps://bgm.tv/ep/298890 (page): Bangumi 章节页确认唯一章节的ID为298890，编号为ep.2。\n\nhttps://www.themoviedb.org/movie/88780 (api_snapshot): TMDB电影88780的原名为《魔物ハンター妖子２》，日期为1992年12月22日，导演阿部恒、编剧高林久弥。\n\nhttps://www.amiami.jp/top/detail/detail?gcode=MED-DVD2-51671&page=rt_11 (page): 东宝Blu-ray BOX商品资料将1992年12月发行的《魔物ハンター妖子2》与1995年发行的《魔物ハンター妖子2（ようこのじじょう）》分列；前者剧情包含神崎あづさ与魔王温羅。\n\nhttps://www.themoviedb.org/movie/88790 (api_snapshot): 另一个同名候选TMDB电影88790标为1995年，导演新房昭之，与本作的年份和制作人员不符。\n\n备注：TMDB记载片长35分钟，商品资料记载本篇约30分钟；现有日期、制作人员及剧情证据足以确认作品身份。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/688640; https://bgm.tv/ep/298890; https://www.themoviedb.org/movie/88780; https://www.amiami.jp/top/detail/detail?gcode=MED-DVD2-51671&page=rt_11; https://www.themoviedb.org/movie/88790",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,

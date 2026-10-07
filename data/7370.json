@@ -1,16 +1,91 @@
 {
   "anidbId": 4326,
   "bangumiId": 7370,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 43573,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 43574,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 43575,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 43576,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 43577,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 43578,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 43579,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 43580,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 43581,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 43582,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 43583,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 43584,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 43585,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的原名、2006年播出时间、伊藤启太入读Bell Liberty学园的剧情、制作方与导演均吻合。Bangumi所列13话本篇覆盖完整播出期间；TMDB第1季恰有13集，逐集日期与独立资料列出的第1至第13话首播日期完全一致，因此对应整季，并将Bangumi本篇sort 1至13依次对应第1季第1至13集。\n\nhttps://www.themoviedb.org/tv/8799 (api_snapshot): 按日文原名及英文别名搜索，均得到 TMDB 电视作品 8799，原名为《学園ヘヴン》，首播日期为2006年4月1日。\n\nhttps://www.themoviedb.org/tv/8799 (api_snapshot): 作品详情记载伊藤启太进入 Bell Liberty 学园的剧情、东京キッズ制作、ひいろゆきな执导；全剧仅一季，共13集，播出至2006年6月24日。\n\nhttps://www.themoviedb.org/tv/8799/season/1 (api_snapshot): 第1季季表只有13集，集号1至13的播出日期从2006年4月1日至6月24日，均为逐周播出；该季没有混入其他作品。\n\nhttps://www.anisil.com/animes/814-%E5%AD%A6%E5%9C%92%E3%83%98%E3%83%B4%E3%83%B3?fp%5B%5D=497-%E6%AB%BB%E4%BA%95%E5%AD%9D%E5%AE%8F&fp%5B%5D=7932-%E5%9D%AA%E4%BA%95%E6%99%BA%E6%B5%A9 (page): 独立逐集资料列出该动画13话的标题及AT-X首播日期，话数和逐集日期与TMDB第1季一致。\n\nhttps://www.gungho.jp/cgame/visual/heaven/past_news/index.html (page): 动画官方旧消息确认《学園ヘヴン》2006年4月1日在AT-X播出第1话，并记载动画DVD发行信息。\n\n备注：输入中的Bangumi章节未填写逐话标题和播出日期；逐集对应依据为其连续的本篇编号、总话数，以及外部逐集标题与首播日期表同TMDB季表的核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7370; https://www.themoviedb.org/tv/8799; https://www.themoviedb.org/tv/8799/season/1; https://www.anisil.com/animes/814-%E5%AD%A6%E5%9C%92%E3%83%98%E3%83%B4%E3%83%B3?fp%5B%5D=497-%E6%AB%BB%E4%BA%95%E5%AD%9D%E5%AE%8F&fp%5B%5D=7932-%E5%9D%AA%E4%BA%95%E6%99%BA%E6%B5%A9; https://www.gungho.jp/cgame/visual/heaven/past_news/index.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 8799
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

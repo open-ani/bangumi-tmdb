@@ -1,16 +1,156 @@
 {
   "anidbId": 1806,
   "bangumiId": 2936,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 19650,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 19651,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 19652,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 19653,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 19654,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 19655,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 19656,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 19657,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 19658,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 19659,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 19660,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 19661,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 19662,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 19663,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 19664,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 19665,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 19666,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 19667,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 19668,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 19669,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 19670,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 19671,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 19672,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 19673,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 19674,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 81313,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 42836 第 1 季。第 1 至 24 话可按标题、剧情及播出顺序逐话对应。该季的最后一个 TMDB 条目对应电视播出的结局单元，而 Bangumi 按 DVD 版本拆成第 25、26 话，因此暂不建立这两话的一对一规则。\n\nhttps://www.themoviedb.org/tv/42836 (api_snapshot): TMDB 42836 是 2004 年开播、XEBEC 制作的《蒼穹のファフナー Dead Aggressor》；剧情中的龙宫岛、真壁一骑和 Festum 均与本条目一致。\n\nhttps://www.themoviedb.org/tv/42836/season/1 (api_snapshot): TMDB 42836 第 1 季列有 25 集；第 1 至 24 集的标题与本条目同序对应，季内没有其他作品。\n\nhttps://www.fafner.jp/sche/tokyo.html (page): 作品官网排期显示，2004 年 7 月 4 日连播第 1、2 话，12 月 26 日以一小时特别节目播出第 25、26 话。\n\nhttps://www.tv-tokyo.co.jp/anime/fafner/story_in.html (page): 东京电视台的逐话介绍确认前 24 话的标题和剧情，并将 12 月 26 日播出的结局列为《蒼穹～そら～》。\n\nhttps://www.neowing.co.jp/product/KIBA-1109 (page): DVD 第 9 卷将结局拆为第 25 话《決戦～きょうせい～》和第 26 话《蒼穹～そら～》。\n\nhttps://www.themoviedb.org/tv/325361/season/1 (api_snapshot): 另一个同名 TMDB 条目 325361 的第 1 季仅有两集，不能覆盖本条目的 26 话。\n\n备注：Bangumi 第 2 话标注 2004 年 7 月 11 日；作品官网和东京电视台均记载第 1、2 话于 7 月 4 日连播。；TMDB 第 25 集的标题、简介和片长资料不足以确定它与 DVD 拆分后的第 25、26 话分别如何对应；两话保持未映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2936; https://www.themoviedb.org/tv/42836; https://www.themoviedb.org/tv/42836/season/1; https://www.fafner.jp/sche/tokyo.html; https://www.tv-tokyo.co.jp/anime/fafner/story_in.html; https://www.neowing.co.jp/product/KIBA-1109; https://www.themoviedb.org/tv/325361/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42836
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

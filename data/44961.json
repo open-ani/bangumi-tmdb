@@ -1,14 +1,36 @@
 {
   "anidbId": 3038,
   "bangumiId": 44961,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 186291,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 186291,
+      "targets": [
+        {
+          "id": 109080,
+          "type": "movie"
+        },
+        {
+          "episode": 2,
+          "id": 56387,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 官方资料确认该主体是2006年3月上映的剧场版，内容为圣帝サウザー篇的重新描绘。TMDB电影系列页面列出同名作品并标注2006-03-11；其链接指向电影ID 109080。TMDB的《Fist of the North Star》TV条目56387的第0季第2集同样标注该片名、2006-03-11、片长1小时35分，并明确说明是该电影。因此两份来源的定位方向均可采用，但AnimeLists必须限定为S0E2，不能把整个TV系列或S0其他作品视为本主体。\n\nhttps://hokuto-no-ken.jp/series/movie (page): 北斗之拳官方页面称该作品于2006年3月以剧场版形式上映，并介绍其围绕ケンシロウ、ラオウ与サウザー展开的新描绘。\n\nhttps://www.themoviedb.org/collection/114374?language=ko-KR (page): TMDB电影系列页面列出“真救世主伝説 北斗の拳 ラオウ伝 殉愛の章”，日期为2006年3月11日；该条目的链接目标为https://www.themoviedb.org/movie/109080。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d07b372 (page): TMDB的TV条目56387在第0季第2集列出“Legend of Raoh: Chapter of Death in Love”，日期为2006年3月11日、片长1小时35分，并说明这是改编圣帝篇的电影。",
+    "evidence": "gpt-6-sol: 主体是 2006 年 3 月 11 日上映的单部剧场版。TMDB 电影 109080 与剧集 56387 的特别篇 S0E2 均收录该片；名称、日期、片长、剧情及制作信息相符。唯一的 Bangumi 本篇章节对应这两个 TMDB 收录位置。\n\nhttps://www.themoviedb.org/movie/109080 (api_snapshot): TMDB 电影 109080 的日文原名与主体完全一致，公映日为 2006-03-11，片长 95 分钟；导演今村隆寛、编剧鴨義信和堀江信彦、制作公司 TMS Entertainment 均与主体资料吻合。\n\nhttps://www.themoviedb.org/tv/56387/season/0 (api_snapshot): TMDB 剧集 56387 的第 0 季第 2 集题为《Legend of Raoh: Chapter of Death in Love》，日期为 2006-03-11，片长 95 分钟；简介明确称其为电影，包含拉欧与蕾娜的剧情。第 0 季还收录其他作品，因此范围仅限第 2 集。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/44961; https://hokuto-no-ken.jp/series/movie; https://www.themoviedb.org/collection/114374?language=ko-KR; https://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d07b372",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/44961; https://www.themoviedb.org/movie/109080; https://www.themoviedb.org/tv/56387/season/0",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,

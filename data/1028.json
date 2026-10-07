@@ -1,16 +1,156 @@
 {
   "anidbId": 3216,
   "bangumiId": 1028,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 2243,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 2244,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 2245,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 2246,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 2247,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 2248,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 2249,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 2250,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 2251,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 2252,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 2253,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 2254,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 2255,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 2256,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 2257,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 2258,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 2259,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 2260,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 2261,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 2262,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 179156,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 179157,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 179158,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 179159,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 179160,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 179161,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的播出年份、剧情、制作信息及 26 集范围一致；Bangumi 本篇第 1 至 26 集与 TMDB 第 1 季逐集标题、顺序一致，可连续映射。\n\nhttps://www.themoviedb.org/tv/42716 (api_snapshot): TMDB 作品 42716 为《舞-乙HiME》电视动画，首播于 2005-10-06，完结于 2006-03-30，共 1 季 26 集；剧情涉及爱莉卡寻找母亲并进入加尔德罗贝学园。\n\nhttps://www.themoviedb.org/tv/42716/season/1 (api_snapshot): TMDB 第 1 季共 26 集；第 1 至 26 集的标题和顺序与 Bangumi 本篇章节逐集对应，首集日期为 2005-10-06，末两集日期为 2006-03-30。\n\nhttps://www.sunrise-inc.co.jp/work/detail.php?cid=165 (page): 制作方 Sunrise 确认本作为 2005-10-06 至 2006-03-30 播出的 26 集电视动画，导演小原正和、系列构成吉野弘幸；官方列出的 26 个集名与两方集表吻合，并将《舞-HiME》及后续 OVA 列为其他作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1028; https://www.themoviedb.org/tv/42716; https://www.themoviedb.org/tv/42716/season/1; https://www.sunrise-inc.co.jp/work/detail.php?cid=165",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42716
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

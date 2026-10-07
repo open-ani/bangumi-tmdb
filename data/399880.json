@@ -3,43 +3,38 @@
   "bangumiId": 399880,
   "episodes": [
     {
-      "id": 1127114,
-      "sort": 1,
+      "id": 22765,
+      "sort": 50,
       "type": 0
     },
     {
-      "id": 1127115,
-      "sort": 2,
-      "type": 0
-    },
-    {
-      "id": 1127116,
-      "sort": 3,
+      "id": 22766,
+      "sort": 51,
       "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: AniDB 1357 明确对应 1995-12-18、3 集 OVA《Macross 7 Encore》，与 Bangumi subject 的名称、日期和 3 集信息一致。TMDB 21735 是《マクロス7》主条目；其 season 0 有 20 集特别篇，剧集 14–16 分别为《Fleet of the Strongest Women》《On Stage》《Which Do You Love?》，完整覆盖该 subject 的 3 集。候选 season 2 的 TMDB 请求返回 404，应纠正为 season 0。\n\nhttps://anidb.net/anime/1357 (page): AniDB 1357 的主标题为 Macross 7 Encore，官方日文名为 マクロス7アンコール，类型为 OVA、3 集，日期为 1995-12-18；简介列出三集内容。\n\nhttps://www.themoviedb.org/tv/21735 (api_snapshot): TMDB API 快照显示 ID 21735 为《マクロス7》，season 0“特別編”共 20 集，season 1 为 49 集；该条目不是独立的 Encore TV 条目。\n\nhttps://www.moviefone.com/tv-shows/macross-7/d8NhdMJz3nB12CollGyzZ3/seasons/0/ (page): 特别篇季的第 14–16 集依次为 Macross 7 Encore 1 - Fleet of the Strongest Women、Encore 2 - On Stage、Encore 3 - Which Do You Love?；该季共 20 集。\n\nhttps://www.themoviedb.org/tv/21735/season/2 (api_snapshot): 输入提供的 TMDB season 2 快照请求返回 HTTP 404，不能作为候选季。\n\n脚本按声明范围生成逐集规则：3 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 集范围，可比对的放送日期不足（0 对），未做日期核验。",
+    "evidence": "gpt-6-sol: 待核对快照只有两篇，标题、原版发行日期、制作人员及内容均对应 TMDB 21735 第 0 季第 15—16 集。旧映射多纳入的第 14 集《最強女の艦隊》不属于这次发行的两篇，因此将范围收窄，并按 Bangumi sort 50、51 的顺序建立规则。\n\nhttps://www.themoviedb.org/tv/21735 (api_snapshot): TMDB 21735 是 1994 年开播的《マクロス7》，制作公司包括 Production Reed，设有第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/21735/season/0 (api_snapshot): 第 0 季第 15、16 集依次为《On Stage》和《Which Do You Love?》；第 14 集是不同剧情的《Fleet of the Strongest Women》。\n\nhttps://www.suruga-ya.jp/kaitori/kaitori_detail/928032471 (page): 1995 年 12 月 18 日发行的《マクロス7 アンコール》VHS 收录《オン・ステージ》和《どっちが好きなの?》两篇，商品资料列有导演、原作和配音人员。\n\nhttps://www.sunrise-world.net/news/news.php?id=25278 (page): 制作方资料将《オン ステージ》《どっちが好きなの?》和《最強女の艦隊》列为三篇未播映话，说明第三篇是另一篇内容。\n\nhttps://bgm.tv/subject/399880 (page): Bangumi 页面说明原版 VHS、LD 收录前两篇，后来 DVD 第 13 卷另收录《最強女の艦隊》。\n\n备注：TMDB 将第 16 集日期记为 1996-02-25，与原版 VHS 的 1995-12-18 发行日期冲突；对应关系依据两篇标题、发行资料和集数确认。；当前 Bangumi 网页显示三话，但待核对的归档快照仅含两话；本提案严格对应归档快照。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/399880; https://anidb.net/anime/1357; https://www.themoviedb.org/tv/21735; https://www.moviefone.com/tv-shows/macross-7/d8NhdMJz3nB12CollGyzZ3/seasons/0/; https://www.themoviedb.org/tv/21735/season/2",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "source": "https://bgm.tv/subject/399880; https://www.themoviedb.org/tv/21735; https://www.themoviedb.org/tv/21735/season/0; https://www.suruga-ya.jp/kaitori/kaitori_detail/928032471; https://www.sunrise-world.net/news/news.php?id=25278",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 3,
-      "episodeStart": 14,
+      "end": 51,
+      "episodeStart": 15,
       "season": 0,
-      "start": 1,
+      "start": 50,
       "tmdbId": 21735
     }
   ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 14,
+      "episode": 15,
       "episodeEnd": 16,
       "id": 21735,
       "season": 0,

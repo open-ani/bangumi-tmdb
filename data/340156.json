@@ -1,19 +1,82 @@
 {
   "bangumiId": 340156,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1040348,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1040349,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1040350,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1040351,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1040352,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1040353,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1040354,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1040355,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1040356,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1040357,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1040358,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1040359,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 剧情、年份及动画媒介确认TMDB 281853第1季对应本作。季表只收录第1集，因此目标范围限于已收录的第1集；Bangumi章节缺少逐集标题和日期，暂不建立逐集规则。旧映射125059是另一部2019年真人电视剧。\n\nhttps://www.themoviedb.org/tv/281853 (api_snapshot): 以《可爱的中国》搜索，TMDB 返回2018年动画条目281853，以及不同作品：2019年电视剧125059、2009年电影915239。\n\nhttps://www.themoviedb.org/tv/281853 (api_snapshot): TMDB 281853 的剧情同样以中学生陈天乐进入虚拟图书馆、见证方志敏生平为主线；详情列出第1季。\n\nhttps://www.themoviedb.org/tv/281853/season/1 (api_snapshot): TMDB 281853 第1季目前仅收录第1集，标题为“第一集”，日期为2018年10月1日。\n\nhttps://www.themoviedb.org/tv/125059 (api_snapshot): 旧映射125059实际是2019年首播、共39集的真人电视剧，演员包括林江国；所给IMDb号也指向该剧。\n\nhttps://www.mct.gov.cn/preview/whhlyqyzcxxfw/zhgl/202012/P020210121432668694831.pdf (page): 官方展播目录记载《可爱的中国》为江苏广电影视动漫传媒有限责任公司制作的12集、每集15分钟动画。\n\nhttps://bangumi.tv/subject/340156 (page): Bangumi条目记载本动画共12话，放送开始日期为2018年10月10日。\n\n备注：官方资料确认全作12集，但TMDB第1季目前仅收录1集；其余11集尚无可声明的TMDB集号。；TMDB所列第1集日期与Bangumi所列开播日期不同，尚不能核实它对应哪个Bangumi章节。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/340156; https://www.themoviedb.org/tv/281853; https://www.themoviedb.org/tv/281853/season/1; https://www.themoviedb.org/tv/125059; https://www.mct.gov.cn/preview/whhlyqyzcxxfw/zhgl/202012/P020210121432668694831.pdf; https://bangumi.tv/subject/340156",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 125059,
+      "episode": 1,
+      "id": 281853,
+      "season": 1,
       "type": "tv"
     }
   ]

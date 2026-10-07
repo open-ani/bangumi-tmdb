@@ -1,14 +1,30 @@
 {
   "anidbId": 4568,
   "bangumiId": 927,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1212,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1213,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1214,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认 Bangumi subject 对应 2007 年上映的动画电影 TMDB 38142。Bangumi 的三话是电影内部的三个篇章，TMDB 将其收录为一部电影，故不建立逐集映射。\n\nhttps://www.themoviedb.org/movie/38142 (api_snapshot): TMDB 日文原名及英文别名搜索均返回电影 38142，首映日期为 2007-03-03；同名的另一结果是 2025 年作品。\n\nhttps://www.themoviedb.org/movie/38142 (api_snapshot): TMDB 电影 38142 的详情显示片长 63 分钟，制作公司为 CoMix Wave Films，导演、编剧和原作为新海诚；剧情涉及远野贵树、篠原明里及雪中重逢。\n\nhttps://www.cwfilms.jp/5cm/story/index.html (page): 制作方官网确认本片由《桜花抄》《コスモナウト》《秒速5センチメートル》三个连续篇章组成，与 Bangumi 三个本篇章节的名称和顺序一致。\n\nhttps://www.cwfilms.jp/5cm/cast/index.html (page): 制作方官网列出新海诚、天门、西村贵世、丹治匠和马岛亮子等主创，与 Bangumi 资料一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/927; https://www.themoviedb.org/movie/38142; https://www.cwfilms.jp/5cm/story/index.html; https://www.cwfilms.jp/5cm/cast/index.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,

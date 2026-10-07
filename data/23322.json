@@ -1,16 +1,86 @@
 {
   "anidbId": 4112,
   "bangumiId": 23322,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 120754,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 120755,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 120756,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 120757,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 120758,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 120759,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 120760,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 120761,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 120762,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 120763,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 120764,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 120765,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品名称、2006年播出区间、守护紺若ゆうな的剧情及12话规模一致；TMDB第1季完整覆盖本篇。逐话标题、顺序与官方DVD目录吻合，可将 Bangumi 本篇第1至12话连续对应至第1季第1至12集。\n\nhttps://www.themoviedb.org/tv/34206 (api_snapshot): TMDB 34206 是2006年1月7日首播、3月25日完结的日语电视动画《陰からマモル！》，共1季12集；剧情人物与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/34206/season/1 (api_snapshot): 已读取第1季完整季表：12集的集号和标题依次对应 Bangumi 第1至12话，季表只有1页。\n\nhttps://www.tv-tokyo.co.jp/contents/kagemamo/episodes/episodes1/ (page): 电视台官方逐话页面列出第1至12话及播出日期，确认首播为2006年1月7日、最后两话同于3月25日播出。\n\nhttps://www.aniplex.co.jp/kagemamo/dvdcd/updata_dvdcd.html (page): Aniplex 官方DVD目录将12话按相同顺序收录，并列出与 Bangumi 一致的第8、11、12话标题。\n\n备注：TMDB将第8集播出日期记为2006年2月25日，电视台官方记为3月4日；其集号、标题及前后集顺序一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/23322; https://www.themoviedb.org/tv/34206; https://www.themoviedb.org/tv/34206/season/1; https://www.tv-tokyo.co.jp/contents/kagemamo/episodes/episodes1/; https://www.aniplex.co.jp/kagemamo/dvdcd/updata_dvdcd.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34206
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

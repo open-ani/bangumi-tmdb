@@ -1,16 +1,221 @@
 {
   "anidbId": 2859,
   "bangumiId": 49050,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 197155,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 197156,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 197157,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 197158,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 197159,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 197160,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 197161,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 197162,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 197163,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 197164,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 197165,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 197166,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 197167,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 197168,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 197169,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 197170,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 197171,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 197172,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 197173,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 197174,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 197175,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 197176,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 197177,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 197178,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 197179,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 197180,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 197181,
+      "sort": 27,
+      "type": 0
+    },
+    {
+      "id": 197182,
+      "sort": 28,
+      "type": 0
+    },
+    {
+      "id": 197183,
+      "sort": 29,
+      "type": 0
+    },
+    {
+      "id": 197184,
+      "sort": 30,
+      "type": 0
+    },
+    {
+      "id": 197185,
+      "sort": 31,
+      "type": 0
+    },
+    {
+      "id": 197186,
+      "sort": 32,
+      "type": 0
+    },
+    {
+      "id": 197187,
+      "sort": 33,
+      "type": 0
+    },
+    {
+      "id": 197188,
+      "sort": 34,
+      "type": 0
+    },
+    {
+      "id": 197189,
+      "sort": 35,
+      "type": 0
+    },
+    {
+      "id": 197190,
+      "sort": 36,
+      "type": 0
+    },
+    {
+      "id": 197191,
+      "sort": 37,
+      "type": 0
+    },
+    {
+      "id": 197192,
+      "sort": 38,
+      "type": 0
+    },
+    {
+      "id": 197193,
+      "sort": 39,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 作品的首末播出日期、剧情人物、制作公司及 39 集规模均吻合；第 1 季完整集表与 Bangumi 本篇 1—39 话的标题和顺序逐集对应。\n\nhttps://www.themoviedb.org/tv/34212 (api_snapshot): 以日文原名搜索，TMDB 返回电视剧 34212，首播日期为 2006-07-01，剧情人物草太、赤ずきん和ヴァル与待核对作品一致。\n\nhttps://www.themoviedb.org/tv/34212 (api_snapshot): 作品详情记载共 1 季、39 集，完结于 2007-03-31；制作公司包括 Madhouse、东京电视台和科乐美。\n\nhttps://www.themoviedb.org/tv/34212/season/1 (api_snapshot): 第 1 季集表共有 39 集；第 1 集至第 39 集的顺序和标题与 Bangumi 章节逐集对应，首末播出日期分别为 2006-07-01 和 2007-03-31。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/49050; https://www.themoviedb.org/tv/34212; https://www.themoviedb.org/tv/34212/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 39,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34212
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

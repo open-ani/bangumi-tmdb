@@ -1,16 +1,156 @@
 {
   "anidbId": 2183,
   "bangumiId": 2293,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 13414,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 13415,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13416,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 13417,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 13418,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 13419,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 13420,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 13421,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 13422,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 13423,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 13424,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 13425,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 13426,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 13427,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 13428,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 13429,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 13430,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 13431,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 13432,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 13433,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 13434,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 13435,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 13436,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 13437,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 13438,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 13439,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播与完结日期、剧情、制作公司、导演及 26 集规模一致。TMDB 第 1 季完整覆盖 Bangumi 本篇 26 话；逐集标题顺序与每周放送日期相符，因此本篇第 1 至 26 话连续对应 TMDB 第 1 季第 1 至 26 集。\n\nhttps://www.themoviedb.org/tv/34711 (api_snapshot): TMDB 作品 34711 是 2005 年 4 月 5 日首播的 TV 动画，剧情为酷与蕾前往艾迪鲁庭园；制作公司包括 XEBEC、东京电视台，导演为うえだしげる，共 1 季 26 集。\n\nhttps://www.themoviedb.org/tv/34711/season/1 (api_snapshot): TMDB 第 1 季集表完整列出 26 集，日期从 2005 年 4 月 5 日至 9 月 27 日；第 1、2、26 集标题及各集顺序均与 Bangumi 对应，部分标题仅有注音或缩写差异。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2293; https://www.themoviedb.org/tv/34711; https://www.themoviedb.org/tv/34711/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34711
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,91 @@
 {
   "anidbId": 4335,
   "bangumiId": 35321,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 149908,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 149909,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 149910,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 149911,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 149912,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 149913,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 149914,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 149915,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 149916,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 149917,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 149918,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 149919,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 149920,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品名称、2006 年播出的露恩天使队剧情、电视动画媒介及全部 13 集标题和顺序均吻合；TMDB 第 1 季完整覆盖该 subject。\n\nhttps://www.themoviedb.org/tv/95572 (api_snapshot): TMDB 作品 95572 是 2006 年的电视动画《ギャラクシーエンジェる～ん》，剧情主角为露恩天使队；仅有第 1 季，共 13 集。\n\nhttps://www.themoviedb.org/tv/95572/season/1 (api_snapshot): TMDB 第 1 季有 13 集，集号 1—13 的标题与 Bangumi 本篇 1—13 逐一对应。\n\nhttps://www.tv-tokyo.co.jp/contents/runeangel/episodes/episodes1/index.html (page): 东京电视台官方逐集页列出同样的 13 个标题及顺序，播出日期为 2006 年 10 月 1 日至 12 月 24 日。\n\n备注：TMDB 的逐集播出日期多处与东京电视台官方记录不符；对应关系依据官方日期及双方逐集标题、集号确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/35321; https://www.themoviedb.org/tv/95572; https://www.themoviedb.org/tv/95572/season/1; https://www.tv-tokyo.co.jp/contents/runeangel/episodes/episodes1/index.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 95572
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

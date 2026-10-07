@@ -1,16 +1,156 @@
 {
   "anidbId": 3203,
   "bangumiId": 10508,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 61582,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 61583,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 61584,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 61585,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 61586,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 61587,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 61588,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 61589,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 61590,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 61591,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 61592,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 61593,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 61594,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 61595,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 61596,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 61597,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 61598,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 61599,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 61600,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 61601,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 61602,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 61603,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 61604,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 61605,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 61606,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 61607,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 确认对应 TMDB 电视作品 36451 的第 1 季全 26 集。年份、剧情、制作方、配音与集数相符；独立配信页的逐集标题及顺序与 TMDB 季表一致。Bangumi 前两处中文译题「笑容」「探病」分别对应日文原题「笑顔」「見舞」。TMDB 日期晚一天源于周三 25:00 播出按实际日历计为周四。\n\nhttps://bgm.tv/subject/10508 (page): Bangumi 条目标明这是 2005 年 7 月 6 日开播、共 26 话的电视动画，原作瀬尾公治，动画制作是 Studio Comet。\n\nhttps://bgm.tv/subject/10508/ep (page): Bangumi 章节页列出连续的本篇第 1 至 26 话；前 3 话标题为「期待」「笑容」「探病」。\n\nhttps://www.themoviedb.org/tv/36451 (api_snapshot): TMDB 36451 的剧情人物、2005 年、电视动画媒介、Studio Comet 制作及总计 26 集均与 Bangumi 条目吻合；作品只有第 1 季。\n\nhttps://www.themoviedb.org/tv/36451/season/1 (api_snapshot): TMDB 第 1 季实有连续的第 1 至 26 集，首三集为「期待」「笑顔」「見舞」，之后逐周列出，末集为「涼風」。\n\nhttps://ktv-smart.jp/store/movie.php?id=Z086020001999H01 (page): 关西电视台配信页逐集列出同一套第 1 至 26 话日文标题，顺序与 TMDB 第 1 季完全一致，且列出相同主要角色配音和导演。\n\nhttps://www.allcinema.net/cinema/322665 (page): 播出资料记载东京电视台于 2005 年 7 月 6 日至 12 月 28 日每周三 25:00 播出，解释了 TMDB 将首末集日期分别记为翌日 7 月 7 日和 12 月 29 日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/10508; https://bgm.tv/subject/10508/ep; https://www.themoviedb.org/tv/36451; https://www.themoviedb.org/tv/36451/season/1; https://ktv-smart.jp/store/movie.php?id=Z086020001999H01; https://www.allcinema.net/cinema/322665",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36451
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

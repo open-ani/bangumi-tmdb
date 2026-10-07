@@ -1,15 +1,108 @@
 {
+  "anidbId": 4621,
   "bangumiId": 20865,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 112410,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 112411,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 112412,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 112413,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 112414,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 112415,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 112416,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 112417,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 112418,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 112419,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 112420,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 112421,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 112422,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1153576,
+      "sort": 0,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1153576,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 45001,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 45001 的原名、别名、首播日期 2006-10-02、剧情（圣亚尔方苏学院及尤达）和导演 Takayuki Inagaki 均与 Bangumi 主体吻合。TMDB 第1季实际包含 13 集，覆盖 2006-10-02 至 2006-12-25，与 Bangumi 的 13 集正片相符；TMDB 特别篇第0季第1集为 2007-07-19 的 Tokyo Merry-Go-Round，与 Bangumi 记录的特别篇一致。因此映射正片整季及该特别篇。\n\nhttps://api.bgm.tv/v0/subjects/20865 (api_snapshot): Bangumi 原始信息：2006-10-02 开播、TV、正片 13 集、总集数 14，特别篇样本为 TOKYOメリーゴーランド。\n\nhttps://www.themoviedb.org/tv/45001 (api_snapshot): TMDB 详情：原名 Marginal Prince ～月桂樹の王子達～，别名 Marginal Prince: Gekkeiju no Ouji-tachi，首播 2006-10-02，13 集，1 个正片季和 1 个特别篇季；剧情与制作公司 Tokyo Kids、导演 Takayuki Inagaki 相符。\n\nhttps://www.themoviedb.org/tv/45001/season/1 (api_snapshot): 第1季实际有 13 集，集数连续为 1–13，播出日期为 2006-10-02 至 2006-12-25。\n\nhttps://www.themoviedb.org/tv/45001/season/0 (api_snapshot): 第0季实际只有 1 集：Tokyo Merry-Go-Round，日期 2007-07-19，剧情描述 Marginal Prince 角色离开学院在城市会面。",
+    "evidence": "gpt-6-sol: 作品名称、年份、导演、制作公司及 13 集 TV 动画的内容范围一致。官方 DVD 的逐话顺序与 TMDB 第 1 季集表对应；Bangumi 的特别篇标题和日期也与 TMDB 第 0 季第 1 集对应。\n\nhttps://bgm.tv/subject/20865 (page): Bangumi 将本条目标为 2006 年开播的 TV 动画，列出 13 集正片及特别篇《TOKYOメリーゴーランド》。\n\nhttps://www.themoviedb.org/tv/45001 (api_snapshot): TMDB 作品 45001 的原名、2006-10-02 首播日期、导演稲垣隆行及制作公司 Tokyo Kids 与本条目相符；详情列出正片第 1 季和特别篇第 0 季。\n\nhttps://www.themoviedb.org/tv/45001/season/1 (api_snapshot): TMDB 第 1 季实际列出连续的第 1 至 13 集，日期为 2006-10-02 至 2006-12-25；集标题与官方 DVD 的正片顺序相符。\n\nhttps://www.themoviedb.org/tv/45001/season/0 (api_snapshot): TMDB 第 0 季仅有第 1 集《Tokyo メリーゴーランド》，日期为 2007-07-19。\n\nhttps://www.gonzo.co.jp/archives/marginalprince/dvd.html (page): 动画官方网站的 DVD 目录按顺序列出正片第 1 至 13 话，并将《TOKYOメリーゴーランド》列为第 14 话、DVD 原创篇；第 7 卷发行日期为 2007-07-19。\n\n备注：Bangumi 提供的 13 条正片章节未填写逐集标题及日期；逐集规则依据其连续编号、官方 DVD 逐话目录与 TMDB 集表确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/20865; https://api.bgm.tv/v0/subjects/20865; https://www.themoviedb.org/tv/45001; https://www.themoviedb.org/tv/45001/season/1; https://www.themoviedb.org/tv/45001/season/0",
-    "verifiedAt": "2026-09-08T18:42:56.161Z"
+    "source": "https://bgm.tv/subject/20865; https://www.themoviedb.org/tv/45001; https://www.themoviedb.org/tv/45001/season/1; https://www.themoviedb.org/tv/45001/season/0; https://www.gonzo.co.jp/archives/marginalprince/dvd.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45001
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

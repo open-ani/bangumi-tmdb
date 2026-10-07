@@ -1,16 +1,91 @@
 {
   "anidbId": 3381,
   "bangumiId": 4234,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 31095,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 31096,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 31097,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 31098,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 31099,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 31100,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 31101,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 31102,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 31103,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 31104,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 31105,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 31106,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 31107,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配 TMDB 43290 第 1 季。该季恰为本 subject 的 2005 年 TV 版全 13 话，剧情、人员、首末话标题及逐周播期一致；2003 年 OVA 是另一作品。周五深夜 25:30 的放送按实际日期落在周六，解释了 Bangumi 与 TMDB 日期相差一天。\n\nhttps://www.themoviedb.org/tv/43290 (api_snapshot): 日文原名搜索返回 TMDB 43290；简称搜索还返回 2003 年作品 111235，说明需要区分 TV 版与旧版。\n\nhttps://www.themoviedb.org/tv/43290 (api_snapshot): TMDB 43290 的剧情、导演所俊克、制作公司及全 13 话资料与该 2005 年 TV 动画相符。\n\nhttps://www.themoviedb.org/tv/43290/season/1 (api_snapshot): 已读取第 1 季完整集表，共 13 话；首话为《おかえりなさい》，末话为《さようなら》，每话日期从 7 月 2 日至 9 月 24 日逐周排列。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=10982007&workId=10982 (page): d アニメ商店将本作列为 2005 年 TV 动画、全 13 话，所列剧情、导演、原作及制作公司均吻合。\n\nhttps://www.animatetimes.com/tag/details.php?id=17513 (page): 动画媒体资料明确区分 2003 年全 4 话 OVA 与 2005 年 7 月 1 日至 9 月 23 日播出的全 13 话 TV 版。\n\nhttps://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%96%B0%E6%92%B0%E7%B5%84_%E8%90%8C%E4%B9%8B%E5%8A%8D (page): 逐话表列出 TV 版第 1 至 13 话的标题和每周五播出日期；埼玉电视台的播出时间为周五 25:30，故与 TMDB 所记次日日期相差一天。\n\n备注：TMDB 第 6、8 话标题与另一逐话资料有少量用字差异，不影响集号、剧情及播期对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4234; https://www.themoviedb.org/tv/43290; https://www.themoviedb.org/tv/43290/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=10982007&workId=10982; https://www.animatetimes.com/tag/details.php?id=17513; https://zh.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E6%96%B0%E6%92%B0%E7%B5%84_%E8%90%8C%E4%B9%8B%E5%8A%8D",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 43290
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,16 +1,86 @@
 {
   "anidbId": 4336,
   "bangumiId": 40543,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 174827,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 174828,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 174829,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 174830,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 174831,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 174832,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 174833,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 174834,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 174835,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 174836,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 174837,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 174838,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品名称、2007年播出区间、电视动画形式、短篇单元内容及制作人员一致。官方第1至12话的日期与TMDB第1季逐集日期完全对应；Bangumi本篇也恰为连续12话，因此映射整季并建立第1至12话的连续规则。\n\nhttps://bgm.tv/subject/40543 (page): Bangumi 将本条目标为2007年1月7日开播的12集电视动画，章节列表为本篇第1至12话，制作人员包括えんどうてつや。\n\nhttps://www.tv-tokyo.co.jp/contents/moetaa/episodes/episodes1/ (page): 东京电视台官方逐话页面列出第1话至最终话，播出日期依次为2007年1月7日至3月25日，每周一话；内容是《Master of Epic》世界中的多个短篇单元。\n\nhttps://www.themoviedb.org/tv/211702 (api_snapshot): TMDB 电视作品211702于2007年1月7日首播、3月25日完结，共1季12集；制作人员中有えんどうてつや。\n\nhttps://www.themoviedb.org/tv/211702/season/1 (api_snapshot): TMDB 第1季实际集表仅含第1至12集，日期逐集与东京电视台官方播出表一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/40543; https://www.tv-tokyo.co.jp/contents/moetaa/episodes/episodes1/; https://www.themoviedb.org/tv/211702; https://www.themoviedb.org/tv/211702/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211702
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

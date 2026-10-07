@@ -1,16 +1,156 @@
 {
   "anidbId": 3446,
   "bangumiId": 2059,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 11390,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 11391,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 11392,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 11393,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 11394,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 11395,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 11396,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 11397,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 11398,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 11399,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 11400,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 11401,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 11402,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 11403,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 11404,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 11405,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 11406,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 11407,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 11408,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 11409,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 11410,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 11411,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 11412,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 11413,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 11414,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 11415,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、剧情、导演、制作方、电视动画媒介和 26 集规模均吻合。TMDB 第 1 季仅含本作的 26 集，逐集标题及顺序对应 Bangumi 第 1 至 26 话，因此整季匹配并建立连续规则。\n\nhttps://www.themoviedb.org/tv/42877 (api_snapshot): TMDB 条目 42877 是 2005 年的同名日语电视动画，剧情讲述少年赤木茂参与地下麻将；导演为佐藤雄三，制作公司包括日本电视台、VAP 和 Madhouse，共 1 季 26 集。\n\nhttps://www.themoviedb.org/tv/42877/season/1 (api_snapshot): TMDB 第 1 季实际集表共有 26 集；第 1 集至第 26 集的日文标题与 Bangumi 所列标题依次对应，末集仅有标点差异。\n\nhttps://www.allcinema.net/cinema/323477 (page): allcinema 将本作列为电视动画，记录日本电视台播出期为 2005 年 10 月 4 日至 2006 年 3 月 28 日、导演为佐藤雄三，并列有 26 集。\n\nhttps://www.ntv.co.jp/akagi/ (search_snippet): 日本电视台官方页面记载本作于 2005 年 10 月至 2006 年 3 月播出，剧情与制作信息吻合。\n\n备注：Bangumi 第 2 至 26 话的逐集播出年份明显有误；TMDB 使用跨午夜后的日期，比日本电视台所列播出日通常晚一天。TMDB 第 13、14 集还记录了同一播出日期。逐集对应主要由完整标题序列、剧情连续性和总集数共同确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2059; https://www.themoviedb.org/tv/42877; https://www.themoviedb.org/tv/42877/season/1; https://www.allcinema.net/cinema/323477; https://www.ntv.co.jp/akagi/",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42877
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

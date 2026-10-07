@@ -1,16 +1,91 @@
 {
   "anidbId": 4116,
   "bangumiId": 106297,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 406587,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 406588,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 406589,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 406590,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 406591,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 406592,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 406593,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 406594,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 406595,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 406596,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 406597,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 406598,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 406599,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 这是 2006 年播出的《砂沙美☆魔法少女クラブ》第一期。TMDB 第一季恰好包含本条目的全部 13 话，逐话标题、剧情和顺序一致；第二期另列为第二季。因此将 Bangumi 本篇第 1—13 话连续对应第一季第 1—13 集。\n\nhttps://www.themoviedb.org/tv/68638 (api_snapshot): 以日文原名及英文别名搜索，均找到 TMDB 电视剧 68638，首播日期为 2006-04-13。\n\nhttps://www.themoviedb.org/tv/68638 (api_snapshot): 作品详情显示共两季、26 集；第一季于 2006-04-13 开始，共 13 集，角色、声优及 BeSTACK 制作信息与本条目相符。\n\nhttps://www.themoviedb.org/tv/68638/season/1 (api_snapshot): 已读取第一季完整集表（共一页）：第 1 至 13 集的日文标题及顺序与 Bangumi 的 13 话逐一相同。\n\nhttps://www.videx.jp/detail/anime/v_a_ntv/antv0010_0004/index.htm (page): 日视提供的发行页面按第 1 至 13 话列出相同标题和剧情，并列明 AIC、BeSTACK 及主要声优。\n\nhttps://magical-girl-mahou-shoujo.fandom.com/wiki/Sasami:_Mahou_Shoujo_Club:_Episode_List (page): 逐集播出资料列明第 4 话为 2006-05-11、第 13 话为 2006-07-13，与 Bangumi 日期一致；TMDB 从第 4 话起的日期早一周。\n\n备注：TMDB 第一季第 4—13 集的播出日期比 Bangumi 和逐集播出资料早一周；此为日期资料差异，不影响由逐话标题、剧情及完整集数确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/106297; https://www.themoviedb.org/tv/68638; https://www.themoviedb.org/tv/68638/season/1; https://www.videx.jp/detail/anime/v_a_ntv/antv0010_0004/index.htm; https://magical-girl-mahou-shoujo.fandom.com/wiki/Sasami:_Mahou_Shoujo_Club:_Episode_List",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 68638
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

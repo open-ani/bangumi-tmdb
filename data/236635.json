@@ -1,20 +1,221 @@
 {
   "bangumiId": 236635,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 773638,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 773639,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 773640,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 773641,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 773642,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 773643,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 773644,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 773645,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 773646,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 773647,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 773648,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 773649,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 773650,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 773651,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 773652,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 773653,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 773654,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 773655,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 773656,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 773657,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1525711,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1525712,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1525713,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1525714,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1525715,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1525716,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 1525717,
+      "sort": 27,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 773642,
+      "targets": [
+        {
+          "episode": 6,
+          "id": 3934,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 773643,
+      "targets": [
+        {
+          "episode": 5,
+          "id": 3934,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1525714,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 3934,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播年份、媒介、制作公司和剧情相符。Bangumi 的 27 话对应 TMDB 第 1 季全部 26 集，加上列入 TMDB 特别篇的《Mickey's Great Clubhouse Hunt》；第 5、6 话按标题交换对应。\n\nhttps://bgm.tv/subject/236635 (page): Bangumi 条目标为 2006 年 5 月 5 日首播、Disney Television Animation 制作的 TV 动画，共 27 话。\n\nhttps://bgm.tv/subject/236635/ep (page): Bangumi 章节表中，第 5 话为《Mickey Goes Fishing》，第 6 话为《Donald and the Beanstalk》；第 24 话为 2007 年 3 月 20 日的《Mickey's Great Clubhouse Hunt》。\n\nhttps://www.themoviedb.org/tv/3934 (api_snapshot): TMDB 3934 是 2006 年 5 月 5 日首播的《Mickey Mouse Clubhouse》，制作公司为 Disney Television Animation，第 1 季有 26 集。\n\nhttps://www.themoviedb.org/tv/3934/season/1 (api_snapshot): TMDB 第 1 季的 26 集均能按标题对应 Bangumi 正篇；其中 TMDB 第 5 集是《Donald and the Beanstalk》，第 6 集是《Mickey Goes Fishing》，与 Bangumi 第 5、6 话的顺序相反。\n\nhttps://www.themoviedb.org/tv/3934/season/0 (api_snapshot): TMDB 特别篇第 1 集是《Mickey's Great Clubhouse Hunt》，日期为 2007 年 3 月 20 日，时长 48 分钟，对应 Bangumi 第 24 话。\n\n备注：Bangumi 将《Mickey Goes Fishing》的首播日期记为 2006 年 5 月 13 日，TMDB 记为 5 月 20 日；该话依据标题对应 TMDB 第 1 季第 6 集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/236635; https://bgm.tv/subject/236635/ep; https://www.themoviedb.org/tv/3934; https://www.themoviedb.org/tv/3934/season/1; https://www.themoviedb.org/tv/3934/season/0",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 3934
+    },
+    {
+      "bangumiType": 0,
+      "end": 23,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 3934
+    },
+    {
+      "bangumiType": 0,
+      "end": 27,
+      "episodeStart": 24,
+      "season": 1,
+      "start": 25,
+      "tmdbId": 3934
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 3934,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 3934,
+      "season": 0,
       "type": "tv"
     }
   ]

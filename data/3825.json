@@ -1,16 +1,146 @@
 {
   "anidbId": 2696,
   "bangumiId": 3825,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 27748,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 27749,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 27750,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 27751,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 27752,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 27753,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 27754,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 27755,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 27756,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 27757,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 27758,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 27759,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 27760,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 27761,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 27762,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 27763,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 27764,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 27765,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 27766,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 27767,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 27768,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 27769,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 27770,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 27771,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 作品的年份、剧情、导演、制作公司及第一季集数均与该 Bangumi subject 一致。第一季 24 个集标题按顺序逐一吻合，因此可将 Bangumi 本篇第 1 至 24 话连续对应至 TMDB 第一季第 1 至 24 集。\n\nhttps://www.themoviedb.org/tv/20432 (api_snapshot): 以日文别名「スピードグラファー」搜索，返回 TMDB 电视剧 20432；剧情中的摄影师杂贺、神乐和六本木俱乐部与 Bangumi 简介一致。\n\nhttps://www.themoviedb.org/tv/20432 (api_snapshot): 作品详情显示为 2005 年的日本动画，共一季 24 集；制作公司包括 GONZO、TAP，导演为杉島邦久，与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/20432/season/1 (api_snapshot): 第一季实际集表有 24 集，第 1 集「背徳都市」至第 24 集「六本木クライシス」的日文标题及顺序，均与 Bangumi 第 1 至 24 话逐一对应。\n\n备注：Bangumi 输入未提供各话放送日期，无法逐话独立核对日期；其作品首播日为 2005-04-07，TMDB 记录为 2005-04-08。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3825; https://www.themoviedb.org/tv/20432; https://www.themoviedb.org/tv/20432/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 20432
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

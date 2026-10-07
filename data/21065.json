@@ -1,15 +1,40 @@
 {
   "bangumiId": 21065,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 113435,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 113436,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 113437,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 43142 第 1 季完整收录本作三话，没有混入其他作品。作品年份、网络动画形式、剧情、制作人员、三话标题和集数均吻合；第 2 集虽有日期差异，官方日程确认 Bangumi 所列的 8 月 18 日，故三话可依序对应。\n\nhttps://www.themoviedb.org/tv/43142 (api_snapshot): 以日文原名搜索，TMDB 返回 TV 43142，首播日期为 2006-07-14，简介说明它是《SEED DESTINY》的三集网络动画外传。\n\nhttps://www.themoviedb.org/tv/43142 (api_snapshot): TV 43142 的详情列出制作公司 SUNRISE、导演西澤晋，以及仅含三集的第 1 季；剧情人物与本 subject 一致。\n\nhttps://www.themoviedb.org/tv/43142/season/1 (api_snapshot): 第 1 季集表依次为 Stage 01、Stage 02、Stage 03，均约 15 分钟；第 1、3 集日期分别为 2006-07-14、2006-09-29。第 2 集在 TMDB 标为 2006-08-21。\n\nhttps://gundam-official.com/seed/stargazer/ (page): 作品官网确认 2006 年网络配信、STAGE-1 至 STAGE-3、DSSD 与幻痛的剧情，以及 SUNRISE 和西澤晋等制作信息。\n\nhttps://gundam-official.com/seed/news/item.php?id=1448&offset=658 (page): 官方配信日程明确 STAGE-2 从 2006-08-18 开始、STAGE-3 从 2006-09-29 开始，证实 Bangumi 的第 2 集日期；TMDB 的该集日期有误。\n\n备注：TMDB 将第 2 集日期记为 2006-08-21，与官方公布的 2006-08-18 配信开始日不符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/21065; https://www.themoviedb.org/tv/43142; https://www.themoviedb.org/tv/43142/season/1; https://gundam-official.com/seed/stargazer/; https://gundam-official.com/seed/news/item.php?id=1448&offset=658",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 43142
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

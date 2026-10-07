@@ -1,0 +1,110 @@
+{
+  "bangumiId": 709310,
+  "episodes": [
+    {
+      "id": 1755257,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1755258,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1755259,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1755260,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1755261,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1755262,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1755263,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1755264,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1755265,
+      "sort": 9,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1755263,
+      "targets": [
+        {
+          "episode": 9,
+          "id": 211752,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1755264,
+      "targets": [
+        {
+          "episode": 7,
+          "id": 211752,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1755265,
+      "targets": [
+        {
+          "episode": 8,
+          "id": 211752,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Disney+ 的独立短片剧集与 Bangumi 的简介、年份和媒介一致；TMDB 211752 第 1 季恰好收录全部 9 集，集名逐一对应。Bangumi 前六集顺序一致，后三集顺序不同，故逐集指定为第 9、7、8 集。\n\nhttps://www.disneyplus.com/browse/entity-f4f4fc6f-3ddf-4695-94e7-81ac9cdd6012 (page): Disney+ 将《Tangled: The Series - Short Cuts》列为 2017 年、1 季的动画剧集；简介与 Bangumi 输入一致，并列出前四集。\n\nhttps://www.themoviedb.org/tv/211752 (api_snapshot): TMDB 211752 是独立的《Tangled: Short Cuts》，共 1 季 9 集，主演包括 Mandy Moore 和 Zachary Levi。\n\nhttps://www.themoviedb.org/tv/211752/season/1 (api_snapshot): TMDB 211752 第 1 季完整列出 9 部短片；前六集与 Bangumi 顺序一致，后 3 集依次为 Snowball、Hairdon't、Unicorn-y。\n\nhttps://www.themoviedb.org/tv/70047/season/0 (api_snapshot): 主剧 TMDB 70047 的第 0 季也收录这些短片，但另含《LOL with Rapunzel》，因此不适合作为本 subject 的整季目标。\n\nhttps://www.tvguide.com/tvshows/tangled-short-cuts/episodes-season-1/1030715950/ (search_snippet): TV Guide 的独立短片季表将 Snowball、Hairdon't、Unicorny 分别列为第 7、8、9 集，放送日期依次为 2018 年 8 月 4、20、23 日。\n\n备注：Bangumi 输入的开始日期为 2017 年 5 月 11 日，TMDB 所列首集日期为 5 月 5 日；此差异不影响已核实的作品与集名对应。；TMDB 独立条目第 8 集的剧情简介误重复第 7 集，但集名为 Hairdon't，主剧特别篇季表也将 Hairdon't 列为独立短片。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/709310; https://www.disneyplus.com/browse/entity-f4f4fc6f-3ddf-4695-94e7-81ac9cdd6012; https://www.themoviedb.org/tv/211752; https://www.themoviedb.org/tv/211752/season/1; https://www.themoviedb.org/tv/70047/season/0; https://www.tvguide.com/tvshows/tangled-short-cuts/episodes-season-1/1030715950/",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211752
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 211752,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}

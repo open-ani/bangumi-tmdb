@@ -1,20 +1,46 @@
 {
   "bangumiId": 2690,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 16992,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 16993,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 16994,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的三话与 TMDB 电视剧 44919 第 1 季在标题、日期、顺序和集数上完全一致，且年份、导演、制作公司及官方确认的三话短篇形式相符。旧电影条目可能记录同一内容的合并版本；逐话映射采用有完整分集表的第 1 季。\n\nhttps://www.themoviedb.org/tv/44919 (api_snapshot): TMDB 电视剧 44919 始于 2004-07-19，制作公司为 SUNRISE，导演为今西隆志；第 1 季名为《1年戦争秘録》，共 3 集。第 2、3 季分别是《黙示録0079》和《重力戦線》。\n\nhttps://www.themoviedb.org/tv/44919/season/1 (api_snapshot): 第 1 季第 1 至 3 集的日文标题和日期依次为《大蛇はルウムに消えた》（2004-07-19）、《遠吠えは落日に染まった》（2004-07-19）、《軌道上に幻影は疾る》（2004-11-03），与输入的 Bangumi 三话逐一吻合。\n\nhttps://www.gundam.info/news/video-music/news_video-music_20080328_1302p.html (search_snippet): 高达官方资料称《1年戦争秘録》是自 2004 年 7 月起上映的全 3 话短篇原创动画，每话约 30 分钟。\n\nhttps://www.themoviedb.org/movie/587225 (api_snapshot): 旧映射的 TMDB 电影 587225 标为同名作品，日期为 2004-07-19、片长 81 分钟，但没有可用于三话对应的分集表。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2690; https://www.themoviedb.org/tv/44919; https://www.themoviedb.org/tv/44919/season/1; https://www.gundam.info/news/video-music/news_video-music_20080328_1302p.html; https://www.themoviedb.org/movie/587225",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44919
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 587225,
-      "type": "movie"
+      "id": 44919,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

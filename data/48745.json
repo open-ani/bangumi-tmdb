@@ -1,14 +1,30 @@
 {
   "anidbId": 3431,
   "bangumiId": 48745,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 196426,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 196426,
+      "targets": [
+        {
+          "id": 18839,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是2005年的161分钟《The Laughing Man》总集篇OVA。TMDB电影18839对应同名动画电影，年份、片长、剧情和制作方均吻合。TMDB电视条目1095本体是2002年开始、共52集的真人/动画误解不存在；其Season 0 Episode 3才是2005年的The Laughing Man。Season 0还包含Individual Eleven、Solid State Society等其他Bangumi主体，因此不能映射整个Season 0，必须限定第3集。两份来源的定位方向均成立，但AnimeLists原始映射缺少集数范围。\n\nhttps://bangumi.tv/subject/48745 (page): Bangumi页面将该条目标为OVA，发售日2005年10月23日，话数1，片长161分钟，并描述其为围绕笑面男事件的总集篇。\n\nhttps://www.themoviedb.org/tv/1095-ghost-in-the-shell-stand-alone-complex (page): TMDB电视主页面显示《Ghost in the Shell: Stand Alone Complex》为2002年动画电视系列，共52集，包含独立的2nd GIG季。\n\nhttps://www.popcorn.fyi/movies/18839 (page): 该页面明确标出电影ID 18839、同名《Ghost in the Shell: Stand Alone Complex - The Laughing Man》、2005年9月23日、160分钟，并声明数据来自TMDB API。\n\nhttps://best-episodes.com/Home/Program/2420/ghost-in-the-shell-stand-alone-complex (page): 页面关联TMDB节目，并明确列出The Laughing Man为Season 0 Episode 3，原始日期2005年9月23日，且说明它是第一季动画的OVA版本；同页将Solid State Society列为Season 0 Episode 5。\n\nhttps://theghostintheshell.jp/news/thelaughingman-screening-and-talkshow (page): 官方攻壳机动队网站称The Laughing Man是以TV系列笑面男事件为中心重构的2005年总集篇OVA。\n\n备注：TMDB电影主页面和Season 0 Episode 3页面本轮被robots限制，电影ID由使用TMDB API的页面核对，电视集数由明确关联TMDB的页面核对。",
+    "evidence": "gpt-6-sol: 该Bangumi条目是一话长篇OVA总集篇，对应TMDB独立电影18839；将唯一章节映射至该电影。电视1095第0季的实际集表不含本作，故移除旧映射中的电视特典集。\n\nhttps://bgm.tv/subject/48745 (page): Bangumi 将本条目标为2005年、一话、约161分钟的《The Laughing Man》OVA，导演为神山健治，动画制作为Production I.G。\n\nhttps://www.production-ig.co.jp/works/ghost-in-the-shell-sac-the-laughing-man/index.html (page): Production I.G 确认本作是以电视版第一季的“笑面男事件”为中心、加入新画面及新配音的独立总集篇DVD，导演神山健治，2005年9月23日发售，片长159分钟。\n\nhttps://www.themoviedb.org/movie/18839 (api_snapshot): TMDB电影18839的日文原名、笑面男剧情、2005年日期、160分钟片长、Production I.G及神山健治均与该独立总集篇吻合。\n\nhttps://www.themoviedb.org/tv/1095/season/0 (api_snapshot): TMDB电视1095是2002年开播的《STAND ALONE COMPLEX》系列；实际读取的第0季53集均为塔奇克马或乌奇克马短篇，没有《The Laughing Man》，因此旧映射中的第0季第3集有误。\n\n备注：Bangumi记载发售日为2005年10月23日、片长161分钟；Production I.G记载2005年9月23日、159分钟，TMDB记载2005年9月23日、160分钟。日期与片长存在资料差异，但作品身份由剧情、媒介、制作方及主创共同确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/48745; https://bangumi.tv/subject/48745; https://www.themoviedb.org/tv/1095-ghost-in-the-shell-stand-alone-complex; https://www.popcorn.fyi/movies/18839; https://best-episodes.com/Home/Program/2420/ghost-in-the-shell-stand-alone-complex; https://theghostintheshell.jp/news/thelaughingman-screening-and-talkshow",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/48745; https://www.production-ig.co.jp/works/ghost-in-the-shell-sac-the-laughing-man/index.html; https://www.themoviedb.org/movie/18839; https://www.themoviedb.org/tv/1095/season/0",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
   "rules": [],
   "schemaVersion": 1,
@@ -16,12 +32,6 @@
     {
       "id": 18839,
       "type": "movie"
-    },
-    {
-      "episode": 3,
-      "id": 1095,
-      "season": 0,
-      "type": "tv"
     }
   ]
 }

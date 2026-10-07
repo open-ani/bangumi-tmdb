@@ -1,16 +1,91 @@
 {
   "anidbId": 5147,
   "bangumiId": 594,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 7790,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 7791,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 7792,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 7793,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 7794,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 7795,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 7796,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 7797,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 7798,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 7799,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 7800,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 7801,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 7802,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、电视动画媒介、游泳部与木筏少女的剧情，以及13集的逐集标题和顺序均吻合。TMDB 第一季完整覆盖 Bangumi 的13个本篇章节，可按第1至13集连续映射。\n\nhttps://www.themoviedb.org/tv/79041 (api_snapshot): TMDB 79041 是2007年的日本电视动画《ケンコー全裸系水泳部 ウミショー》；剧情同为海猫商校游泳部与乘木筏抵达的蜷川亚室，第一季共13集。\n\nhttps://www.themoviedb.org/tv/79041/season/1 (api_snapshot): TMDB 第一季实际集表为第1至13集，标题依次与 Bangumi 的13个本篇章节对应，每集播出日期相隔一周。\n\nhttps://www.marv.jp/special/umisho/arasuji_bn.htm (page): 制作方的逐集目录列出第1至12集，标题和顺序与 Bangumi 及 TMDB 一致。\n\nhttps://www.marv.jp/titles/st/3065/ (search_snippet): 制作方的第7卷 DVD 页面注明第13集为《人魚》，剧情与 TMDB 第13集一致。\n\nhttps://www.allcinema.net/cinema/pdf/327717 (search_snippet): 播出资料记载本剧于2007年7月3日至9月25日播出，与 Bangumi 的日期范围一致。\n\n备注：Bangumi 的首末播出日期比 TMDB 集表早一天；播出资料支持 Bangumi 的日期，可能与深夜节目跨日记法有关，不影响已由逐集标题确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/594; https://www.themoviedb.org/tv/79041; https://www.themoviedb.org/tv/79041/season/1; https://www.marv.jp/special/umisho/arasuji_bn.htm; https://www.marv.jp/titles/st/3065/; https://www.allcinema.net/cinema/pdf/327717",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 79041
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

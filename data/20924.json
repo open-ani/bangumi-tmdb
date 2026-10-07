@@ -1,21 +1,174 @@
 {
   "anidbId": 3450,
   "bangumiId": 20924,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 112880,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 112881,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 112882,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 112883,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 112884,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 112885,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 112886,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 112887,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 112888,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 112889,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 112890,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 112891,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 112892,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 112893,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 112894,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 112895,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 112896,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 112897,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 112898,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 112899,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 112900,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 112901,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 112902,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 112903,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 112904,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 112905,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配TMDB TV 23475的两季，而非2003年的同名短篇。Bangumi所列首集标题及日期吻合；制作方的26话完整标题顺序与TMDB两季各13集的集表逐集一致，因此Bangumi第1至13话对应第1季，第14至26话对应第2季。\n\nhttps://www.themoviedb.org/tv/23475 (api_snapshot): 日文原名搜索返回 TV 23475，首播日为2005年10月5日，剧情为2048年Team Satomi参加IG-1竞速赛；另有同名的2003年作品。\n\nhttps://www.themoviedb.org/tv/23475 (api_snapshot): TV 23475的详情列出Production I.G、Cartoon Network Studios等制作方，共26集，分为各13集的第1季和第2季。\n\nhttps://www.themoviedb.org/tv/23475/season/1 (api_snapshot): 第1季实际集表为13集，第1集《輝きの時》日期为2005年10月5日；逐集标题与制作方公布的第1至13话一致。\n\nhttps://www.themoviedb.org/tv/23475/season/2 (api_snapshot): 第2季实际集表为13集，标题从《新たなる挑戦》至《結末と、始まり》，与制作方公布的第14至26话逐集一致。\n\nhttps://www.production-ig.co.jp/works/igpx/index.html (page): Production I.G确认本作于2005年10月5日开播，全26话、每话30分钟，并列出与Bangumi简介一致的Team Satomi剧情及制作信息。\n\nhttps://www.production-ig.co.jp/works/igpx/episodes/index.html (page): Production I.G按第1至26话列出全部标题；第14话对应TMDB第2季第1集，第26话对应第2季第13集。\n\nhttps://www.production-ig.co.jp/works/igpx/goods/index.html (page): Production I.G的DVD资料注明第25、26话未在日本电视播出，但属于本作的第25、26话。\n\nhttps://www.themoviedb.org/tv/34690 (api_snapshot): 另一同名TMDB TV 34690首播于2003年，仅5集，剧情发生于2035年，与本条2005年26集TV动画不同。\n\n备注：TMDB为第25、26集填写了2006年6月至7月的日期；制作方明确记载这两集未在日本电视播出。该日期差异不影响已由标题和话数核实的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/20924; https://www.themoviedb.org/tv/23475; https://www.themoviedb.org/tv/23475/season/1; https://www.themoviedb.org/tv/23475/season/2; https://www.production-ig.co.jp/works/igpx/index.html; https://www.production-ig.co.jp/works/igpx/episodes/index.html; https://www.production-ig.co.jp/works/igpx/goods/index.html; https://www.themoviedb.org/tv/34690",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 23475
+    },
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 14,
+      "tmdbId": 23475
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 23475,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 23475,
+      "season": 2,
       "type": "tv"
     }
   ]

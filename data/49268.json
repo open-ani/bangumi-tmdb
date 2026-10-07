@@ -1,16 +1,91 @@
 {
   "anidbId": 2410,
   "bangumiId": 49268,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 197732,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 197733,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 197734,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 197735,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 197736,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 197737,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 197738,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 197739,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 197740,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 197741,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 197742,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 197743,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 197744,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 原名、首播日期、前传剧情、制作人员和 13 话规模均吻合。TMDB 第 1 季完整收录本作 13 话；独立逐话标题表与其集号和标题逐集一致，因此 Bangumi 本篇第 1—13 话连续对应第 1 季第 1—13 集。\n\nhttps://www.themoviedb.org/tv/45266 (api_snapshot): TMDB 45266 的日文原名与 Bangumi 完全一致，首播日期为 2004-08-06；简介同样说明故事发生在《メーテルレジェンド》数年后，并列出松本零士、政木伸一等制作人员。\n\nhttps://www.themoviedb.org/tv/45266/season/1 (api_snapshot): TMDB 第 1 季共有 13 集，集号 1 至 13 的标题及顺序与独立的逐话资料一致，季表没有其他作品的章节。\n\nhttps://galaxyrailway.com/ge999/honsha/kanrenjigyoukyoku/spacemaetel/story/index.html (page): 逐话资料列出本作第 1 至 13 话的标题，与 TMDB 第 1 季逐集对应；其中第 4 话为《黄金色の“ラプソディ”》。\n\nhttps://galaxyrailway.com/ge999/honsha/kanrenjigyoukyoku/spacemaetel/broadcast/index.html (page): 当年的 Animax PPV 放送表记载 2004-08-06 开始、全 13 话，并将第 1—3、4—6、7—9、10—13 话依次列于四章；第 4—6 话所在第二章自 2004-09-03 播出。\n\n备注：Bangumi 提供的章节没有逐话标题或日期；对应关系依据其连续的 1—13 话编号，以及外部逐话标题表与 TMDB 季表的逐集吻合。；TMDB 的逐集日期与当年按章播出的记录不完全一致，尤其第 4 集标为 2008-08-27，应视为日期资料错误；其标题和集号仍与放送表吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/49268; https://www.themoviedb.org/tv/45266; https://www.themoviedb.org/tv/45266/season/1; https://galaxyrailway.com/ge999/honsha/kanrenjigyoukyoku/spacemaetel/story/index.html; https://galaxyrailway.com/ge999/honsha/kanrenjigyoukyoku/spacemaetel/broadcast/index.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45266
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

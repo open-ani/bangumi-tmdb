@@ -1,21 +1,119 @@
 {
   "anidbId": 4144,
   "bangumiId": 7993,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 46350,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 46351,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 46352,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 46353,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 46354,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 46355,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 46356,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 46357,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 46358,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 46359,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 46360,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 46361,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 632843,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 632844,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 632845,
+      "sort": 3,
+      "type": 1
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 33728 的原名、2006 年播出时间、剧情人物和导演均吻合；两季的实际集表分别与 Bangumi 的 12 话正篇和 3 话 SP 逐集标题对应。\n\nhttps://www.themoviedb.org/tv/33728 (api_snapshot): 日文原名搜索命中 TMDB 电视剧 33728；简介中的四位主角及其在人间界的生活与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/33728 (api_snapshot): 作品详情显示 2006 年播出、导演八谷賢一、正篇 12 集，并列有第 1 季 12 集和特别篇第 0 季 3 集。\n\nhttps://www.themoviedb.org/tv/33728/season/1 (api_snapshot): 第 1 季集表共 12 集，逐集标题的两段故事均与 Bangumi 正篇第 1 至 12 话依次对应。\n\nhttps://www.themoviedb.org/tv/33728/season/0 (api_snapshot): 第 0 季集表共 3 集，标题依次对应 Bangumi 的三话 SP。\n\n备注：TMDB 正篇首播日期记为 2006-04-04，Bangumi 记为 2006-04-05；逐集标题及后续每周日期一致，此一天差异不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7993; https://www.themoviedb.org/tv/33728; https://www.themoviedb.org/tv/33728/season/1; https://www.themoviedb.org/tv/33728/season/0",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 33728
+    },
+    {
+      "bangumiType": 1,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 33728
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 33728,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 33728,
+      "season": 0,
       "type": "tv"
     }
   ]

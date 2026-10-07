@@ -1,16 +1,91 @@
 {
   "anidbId": 4049,
   "bangumiId": 20529,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 111069,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 111070,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 111071,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 111072,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 111073,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 111074,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 111075,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 111076,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 111077,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 111078,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 111079,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 111080,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 111081,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、电视动画媒介、剧情、原作、导演、制作公司及 13 集总数均吻合；TMDB 第 1 季的 13 个集标题也与 Bangumi 第 1 至 13 话逐集同序对应，因此匹配整季并建立连续规则。\n\nhttps://www.themoviedb.org/tv/8805 (api_snapshot): TMDB 电视作品 8805 名为《RAY THE ANIMATION》，共一季、13 集，制作公司为 OLM，导演为高橋ナオヒト。\n\nhttps://www.themoviedb.org/tv/8805/season/1 (api_snapshot): TMDB 第 1 季实际列出 13 集；第 1 至 13 集标题依次与 Bangumi 本篇对应，包括第 4 集《赤いリボン》和末集《命》。\n\nhttps://www.animatetimes.com/tag/details.php?id=7361 (page): 动画媒体资料确认本作为 2006 年播出的 13 集电视动画，原作吉富昭仁、导演高橋ナオヒト、动画制作 OLM TEAM IGUCHI，剧情涉及外科医零及其可透视的眼睛。\n\nhttps://tv.apple.com/jp/episode/%E8%B5%A4%E3%81%84%E3%83%AA%E3%83%9B%E3%83%B3/umc.cmc.35le2whd05mehlfvbs3z6hg5l?showId=umc.cmc.55doh1zgixuxjx2netmh9jdt8 (page): Apple TV 将《赤いリボン》列为本作第 1 季第 4 集，日期为 2006 年 4 月 27 日。\n\n备注：TMDB 多数集的日期比 Bangumi 早一天；两处资料对本作首播日期也分别记为 4 月 5 日和 4 月 6 日。TMDB 第 4 集标为 4 月 6 日，与顺序不符；Apple TV 记为 4 月 27 日，与 Bangumi 相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/20529; https://www.themoviedb.org/tv/8805; https://www.themoviedb.org/tv/8805/season/1; https://www.animatetimes.com/tag/details.php?id=7361; https://tv.apple.com/jp/episode/%E8%B5%A4%E3%81%84%E3%83%AA%E3%83%9B%E3%83%B3/umc.cmc.35le2whd05mehlfvbs3z6hg5l?showId=umc.cmc.55doh1zgixuxjx2netmh9jdt8",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 8805
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

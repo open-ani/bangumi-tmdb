@@ -1,16 +1,86 @@
 {
   "anidbId": 5117,
   "bangumiId": 827,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 14696,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 14697,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 14698,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 14699,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 14700,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 14701,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 14702,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 14703,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 14704,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 14705,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 14706,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 14707,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、剧情、角色、导演和 12 集电视动画规模均吻合；逐集标题与剧情确认 Bangumi 本篇第 1 至 12 话依序对应 TMDB 第 1 季第 1 至 12 集。第 11 集是 TMDB 标题差异，不影响对应关系。\n\nhttps://www.themoviedb.org/tv/28061 (api_snapshot): TMDB 28061 是 2007 年的《School Days》电视动画；剧情涉及伊藤诚、桂言叶和西园寺世界，导演为元永庆太郎，第 1 季共 12 集。\n\nhttps://www.themoviedb.org/tv/28061/season/1 (api_snapshot): TMDB 第 1 季集表含第 1 至 12 集；第 1 至 10 集及第 12 集标题与 Bangumi 顺序一致。第 11 集的剧情简介也相符，但 TMDB 标题写作“みんなの嘘”。\n\nhttps://thetv.jp/program/0000003607/11/ (page): 第 11 集标题为“みんなの誠”，其剧情简介与 TMDB 第 11 集相符；页面同时列出末集“スクールデイズ”。\n\nhttps://www.themoviedb.org/tv/307506/season/1 (api_snapshot): 另一个同名候选 TMDB 307506 标为 ONA，仅有 6 集，集表与本 subject 的 12 集电视动画范围不符。\n\n备注：Bangumi 前 11 集日期比 TMDB 集表早一天；Bangumi 末集记为 2007-09-18，TMDB 与电视节目资料记为 2007-09-27。末集标题和剧情支持同一集的对应。；TMDB 第 11 集标题“みんなの嘘”与 Bangumi 及电视节目资料的“みんなの誠”不一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/827; https://www.themoviedb.org/tv/28061; https://www.themoviedb.org/tv/28061/season/1; https://thetv.jp/program/0000003607/11/; https://www.themoviedb.org/tv/307506/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 28061
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

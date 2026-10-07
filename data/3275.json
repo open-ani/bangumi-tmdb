@@ -1,15 +1,125 @@
 {
   "bangumiId": 3275,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 33725,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 33726,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 33727,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 33728,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 33729,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 33730,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 33731,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 33732,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 33733,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 33734,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 33735,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 33736,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 33737,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 33738,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 33739,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 33740,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 33741,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 33742,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 33743,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 33744,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 条目对应 2005 年电视动画《Avatar: The Last Airbender》的第一季 Book One: Water。TMDB 季表恰有 20 集，全部逐集标题与 Bangumi 章节按顺序对应，且没有混入其他季或特别篇。\n\nhttps://www.themoviedb.org/tv/246 (api_snapshot): TMDB 搜索同时返回 2005 年动画版（ID 246）和 2024 年新版（ID 82452）；本条目的首播日期与 2005 年版一致。\n\nhttps://www.themoviedb.org/tv/246 (api_snapshot): ID 246 为 2005 年首播的电视动画，由 Nickelodeon Animation Studio 等制作；第一季名为 Book One: Water，共 20 集。\n\nhttps://www.themoviedb.org/tv/246/season/1 (api_snapshot): 第一季季表共有 20 集，从 The Boy in the Iceberg 到 The Siege of the North (2)，标题及顺序与 Bangumi 的 20 个本篇章节逐集一致；首集和末集日期也与条目放送范围吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/3275; https://www.themoviedb.org/tv/246; https://www.themoviedb.org/tv/246/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 20,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 246
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

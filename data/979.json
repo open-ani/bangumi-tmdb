@@ -1,19 +1,91 @@
 {
   "anidbId": 3395,
   "bangumiId": 979,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1474,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1475,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1476,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1477,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1478,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1479,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1480,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1481,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1482,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1483,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1484,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1485,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 本条目是2006年电视版第一期，共12话。官网、Bangumi与TMDB的剧情和制作资料相符，12个集标题逐一对应。TMDB将两期合并在第1季，因此范围仅取第1至12集；第13至24集属于后续《The Second Barrage》。\n\nhttps://bgm.tv/subject/979 (page): Bangumi 将本条目标为2006年4月8日开播的12集电视动画，导演为片渕須直，动画制作为MADHOUSE。\n\nhttps://bgm.tv/subject/979/ep (page): Bangumi 章节表列出第1至12话的标题和日期；标题顺序与TMDB第1至12集一致。\n\nhttps://www.blacklagoon.jp/story.html (page): 作品官网明确将第1至12话列为第一期，并记载冈岛绿郎遭绑架的剧情、片渕須直及MADHOUSE。\n\nhttps://www.themoviedb.org/tv/12598 (api_snapshot): TMDB电视作品12598为2006年的《BLACK LAGOON》，剧情、导演和制作公司与本条目相符；其第1季共24集。\n\nhttps://www.themoviedb.org/tv/12598/season/1 (api_snapshot): 已读取TMDB第1季完整集表：第1至12集标题与Bangumi逐集对应，第13集起为2006年10月开始的后续篇章。\n\n备注：TMDB第1至12集的日期均比Bangumi所列日期晚一天，但标题、顺序及每周间隔一致，不影响逐集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/979; https://bgm.tv/subject/979/ep; https://www.blacklagoon.jp/story.html; https://www.themoviedb.org/tv/12598; https://www.themoviedb.org/tv/12598/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 12598
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 12598,
       "season": 1,
       "type": "tv"

@@ -1,21 +1,179 @@
 {
   "anidbId": 4906,
   "bangumiId": 292,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 3223,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 3224,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 3225,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 3226,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 3227,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 3228,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 3229,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 3230,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 3231,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 3232,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 3233,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 3234,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 3235,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 3236,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 3237,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 3238,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 3239,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 3240,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 3241,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 3242,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 3243,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 3244,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 3245,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 3246,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 3247,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 3248,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 3248,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 31718,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、剧情、导演和制作方相符。Bangumi 第 1—25 话对应 TMDB 第 1 季全部 25 集；第 26 话对应特别篇季第 1 集。特别篇季其余四集是另一个 Bangumi subject 所列的《外伝》。\n\nhttps://www.themoviedb.org/tv/31718 (api_snapshot): 日文原名及别名搜索均指向 TMDB TV 31718。\n\nhttps://www.themoviedb.org/tv/31718 (api_snapshot): 作品详情显示 2007 年首播，制作方包括 MBS、Aniplex、BONES，导演为岡村天斎；第 1 季名为《黒の契約者》，共 25 集。\n\nhttps://www.themoviedb.org/tv/31718/season/1 (api_snapshot): 第 1 季集表的 1—25 集与 Bangumi 前 25 话逐集同序，标题吻合；TMDB 日期均比所给 Bangumi 日期晚一天。\n\nhttps://www.themoviedb.org/tv/31718/season/0 (api_snapshot): TMDB 特别篇季第 1 集为《桜の花の満開の下》，其余第 2—5 集为《黒の契約者 外伝》。\n\nhttps://www.d-black.net/1st/dvdcd/ (page): 官方 DVD 页面确认《桜の花の満開の下》是第 26 话，收录于 2008 年 3 月 26 日发行的第 9 卷。\n\nhttps://www.d-black.net/news/index.html (page): 官方公告确认第 26 话此前未在电视播出，2009 年 10 月 3 日首次于 MBS 播出，解释了 Bangumi 与 TMDB 对该话所记日期的差异。\n\n备注：前 25 话在 TMDB 的日期均比所给 Bangumi 日期晚一天，但逐集标题与顺序一致。；第 26 话的 TMDB 日期是 2008 年 DVD 发行日，Bangumi 日期是官方确认的 2009 年首次电视播出日。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/292; https://www.themoviedb.org/tv/31718; https://www.themoviedb.org/tv/31718/season/1; https://www.themoviedb.org/tv/31718/season/0; https://www.d-black.net/1st/dvdcd/; https://www.d-black.net/news/index.html",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 31718
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 31718,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 31718,
+      "season": 0,
       "type": "tv"
     }
   ]

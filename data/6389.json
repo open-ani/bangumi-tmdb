@@ -1,16 +1,86 @@
 {
   "anidbId": 2621,
   "bangumiId": 6389,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 39316,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 39317,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 39318,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 39319,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 39320,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 39321,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 39322,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 39323,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 39324,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 39325,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 39326,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 39327,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的原名、首播与完结日期、剧情人物、制作公司及 12 集规模均吻合。TMDB 第 1 季只收录本作的 12 集，逐集标题和顺序与 Bangumi 本篇对应，因此映射整季及本篇第 1 至 12 话。\n\nhttps://www.themoviedb.org/tv/24411 (api_snapshot): 日文原名搜索命中 TMDB TV 24411，首播日期为 2005-04-07；简介中的中林义贵、泽渡姐妹及女仆招聘情节与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/24411 (api_snapshot): TMDB 详情确认本作于 2005-06-30 完结，共 1 季 12 集，制作公司包括 GAINAX 和 SHAFT，与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/24411/season/1 (api_snapshot): TMDB 第 1 季实有 12 集；第 1 至 12 集的标题按顺序与 Bangumi 本篇逐集对应，首集和末集播出日期分别为 2005-04-07、2005-06-30。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/6389; https://www.themoviedb.org/tv/24411; https://www.themoviedb.org/tv/24411/season/1",
+    "verifiedAt": "2026-10-07T01:41:14.710Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 24411
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
