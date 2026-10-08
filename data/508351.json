@@ -1,14 +1,145 @@
 {
   "anidbId": 3642,
   "bangumiId": 508351,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1382020,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1382021,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1382022,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1382023,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1382024,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1382025,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1382026,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1382027,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1382028,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1382029,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1382030,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1382031,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1382032,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1382033,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1382034,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1382035,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1382036,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1382037,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1382038,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1382039,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 1382040,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1382041,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1382042,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1382043,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1382044,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1382045,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "TMDB API逐项核对：TMDB 15126 第1季当前为73个条目，含试播篇及King Kong/Tom of T.H.U.M.B.分段。Bangumi 另有《大拇指汤姆》subject 543173，故不能整季归给本条目。根据独立分集表识别24个Tom标题，再与TMDB API中的实际标题匹配，排除TMDB集号 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72，保留49个King Kong条目（含pilot），合并为25个不重叠范围。Bangumi按播出单元列26章，TMDB按短篇分段，两站逐章对应关系未作推定。",
+    "evidence": "gpt-6-sol: 作品身份已由年份、制作方、剧情和媒介确认。TMDB第1季混排了另一作品《Tom of T.H.U.M.B.》，因此只列入核实为《King Kong》的49个条目，不能使用整季。Bangumi的26个章节均无单集标题和日期，暂不建立逐章规则。\n\nhttps://www.themoviedb.org/tv/15126 (api_snapshot): TMDB TV 15126《The King Kong Show》首播于1966年9月10日，由 Rankin/Bass 和东映动画制作；剧情涉及金刚、少年 Bobby Bond 和反派 Dr. Who，身份与本条目相符。\n\nhttps://www.themoviedb.org/tv/15126/season/1 (api_snapshot): 已读取第1季两页、共73个集表条目。标题显示《King Kong》短篇与《Tom of T.H.U.M.B.》短篇交错编号；第1集为试播篇，第73集为《Anchors Away》。除第1集外，季表未提供单集日期。\n\nhttps://www.scifijapan.com/godzilla-toho/king-kong-cartoon-series-guide (page): 节目资料记载：先制作一部试播篇及24个半小时节目；每个常规节目包含两段《King Kong》和一段《Tom of T.H.U.M.B.》。试播篇后来拆成两次播出，因此形成26个播出单元；所列短篇标题可与TMDB季表核对。\n\nhttps://www.themoviedb.org/movie/39276 (api_snapshot): 线索中的电影39276实际是1967年真人电影《キングコングの逆襲》，并非本动画剧集。\n\n备注：Bangumi章节缺少标题和单集日期，无法逐章核对24个常规播出单元各自包含的两段短篇。；试播篇在TMDB合为第1集，在播出资料中又有拆成两次播出的版本；现有资料不足以把它分配给具体Bangumi章节ID。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/508351; https://www.themoviedb.org/tv/15126; https://www.themoviedb.org/tv/15126/season/1; https://bgm.tv/subject/543173; https://thetvdb.com/series/the-king-kong-show/allseasons/official; https://en.wikipedia.org/wiki/The_King_Kong_Show",
-    "verifiedAt": "2026-09-07T18:35:51.090Z"
+    "source": "https://bgm.tv/subject/508351; https://www.themoviedb.org/tv/15126; https://www.themoviedb.org/tv/15126/season/1; https://www.scifijapan.com/godzilla-toho/king-kong-cartoon-series-guide; https://www.themoviedb.org/movie/39276",
+    "verifiedAt": "2026-10-08T02:04:29.864Z"
   },
   "rules": [],
   "schemaVersion": 1,

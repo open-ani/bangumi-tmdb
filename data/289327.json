@@ -1,0 +1,36 @@
+{
+  "bangumiId": 289327,
+  "episodes": [
+    {
+      "id": 902551,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 902551,
+      "targets": [
+        {
+          "id": 431110,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 所给剧情、单篇约5分钟的形式，与 TMDB 电影 431110 及其关联的 IMDb 条目吻合；导演和作品类型也一致。将唯一的 Bangumi 章节对应到这部动画短片电影。\n\nhttps://www.themoviedb.org/movie/431110 (api_snapshot): TMDB 电影 431110《Pidge》为5分钟作品，剧情是自杀的鸽子思考自身存在；导演为 Renee Zhan，IMDb ID 为 tt4324216。\n\nhttps://www.imdb.com/title/tt4324216/ (search_snippet): IMDb 的《Pidge》条目记载相同的跳楼鸽子剧情、5分钟片长、导演 Renee Zhan，IMDb ID 为 tt4324216。\n\nhttps://www.shortoftheweek.com/2016/12/15/pidge/ (page): Short of the Week 将《Pidge》列为 Renee Zhan 执导的独立动画短片，剧情同样围绕一只企图自杀的鸽子。\n\n备注：资料中的年份有差异：IMDb 标为2014年，TMDB 上映日期为2015年9月5日；现有剧情、片长、导演及 IMDb ID 仍足以确认是同一作品。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/289327; https://www.themoviedb.org/movie/431110; https://www.imdb.com/title/tt4324216/; https://www.shortoftheweek.com/2016/12/15/pidge/",
+    "verifiedAt": "2026-10-08T02:04:29.864Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 431110,
+      "type": "movie"
+    }
+  ]
+}
