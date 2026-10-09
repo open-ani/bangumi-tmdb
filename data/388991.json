@@ -1,0 +1,45 @@
+{
+  "bangumiId": 388991,
+  "episodes": [
+    {
+      "id": 1113532,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1119913,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1113532,
+      "targets": []
+    },
+    {
+      "bangumiEpisodeId": 1119913,
+      "targets": [
+        {
+          "id": 838177,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 原名、剧情描述、2021 年短片身份、片长、导演及制作方均吻合，可确认对应 TMDB 电影 838177。Bangumi 有两个同为 sort=1 的本篇记录，而作品只有一部短片；将有标题的记录对应电影，排除无标题的重复记录。\n\nhttps://www.themoviedb.org/movie/838177 (api_snapshot): 以日文原名“不安な体”和英文名“Anxious Body”搜索，均返回 TMDB 电影 838177。\n\nhttps://www.themoviedb.org/movie/838177 (api_snapshot): TMDB 详情记录片长 6 分钟，导演及编剧为水尻自子，制作方为 Miyu Productions、New Deer 和十和田市现代美术馆；IMDb ID 为 tt14812792。\n\nhttps://towadaartcenter.com/events/arts-towada_interplay3_mizushiri_yoriko/ (page): 十和田市现代美术馆确认《不安な体》是水尻自子的单部短篇动画，时长 5 分 47 秒，由 New Deer 与 Miyu Productions 联合制作，曾于 2021 年戛纳导演双周上映。\n\nhttps://www.quinzaine-cineastes.fr/en/film/anxious-body (page): 戛纳导演双周将 Anxious Body 列为 2021 年首映的 6 分钟短片，剧情简介及制作人员与 TMDB 条目吻合。\n\n备注：TMDB 所列 2021 年 1 月 23 日上映日期与戛纳导演双周所列 2021 年世界首映不符，具体日期元数据有误，但不影响作品身份判断。；无法从现有资料确认 Bangumi 两条 sort=1 记录为何重复。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/388991; https://www.themoviedb.org/movie/838177; https://towadaartcenter.com/events/arts-towada_interplay3_mizushiri_yoriko/; https://www.quinzaine-cineastes.fr/en/film/anxious-body",
+    "verifiedAt": "2026-10-09T02:18:29.631Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 838177,
+      "type": "movie"
+    }
+  ]
+}

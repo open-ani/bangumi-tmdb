@@ -1,0 +1,36 @@
+{
+  "bangumiId": 381060,
+  "episodes": [
+    {
+      "id": 1103704,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1103704,
+      "targets": [
+        {
+          "id": 274221,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 候选电影 274221 的俄文原名、1976 年上映年份和电影媒介，与 Bangumi 所列的苏联单部动画短片一致；同名电视剧的年份和集数不符。电影对应整个 subject，无需逐集规则。\n\nhttps://www.themoviedb.org/movie/274221 (api_snapshot): 电影 274221 的原名为「Дом, который построил Джек」，上映日期为 1976-06-05；与 Bangumi 的原名、1976 年上映及电影媒介相符。\n\nhttps://www.themoviedb.org/tv/27509 (api_snapshot): 同名电视剧 27509 始播于 2002 年，共 6 集；电视剧 231261 始播于 1977 年，共 6 集，均与该 1976 年单部短片不符。\n\n备注：候选快照未提供电影 274221 的导演、片长或剧情，无法用这些字段再次核验。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/381060; https://www.themoviedb.org/movie/274221; https://www.themoviedb.org/tv/27509",
+    "verifiedAt": "2026-10-09T02:18:29.631Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 274221,
+      "type": "movie"
+    }
+  ]
+}

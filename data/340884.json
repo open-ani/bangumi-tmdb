@@ -1,0 +1,32 @@
+{
+  "bangumiId": 340884,
+  "episodes": [
+    {
+      "id": 1142469,
+      "sort": 1,
+      "type": 2
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1142469,
+      "targets": []
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 剧情、导演和制作方共同确认 TMDB 283203 是本动画；其唯一的第 1 季对应这一尚待播出的主体作品，因此覆盖整季。Bangumi 现有章节是独立列出的 OP，不对应 TMDB 正篇集，明确排除。TMDB 当前集表缺少可核对的日期和标题，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/283203 (api_snapshot): TMDB 搜索返回同名中文电视作品，ID 为 283203，简介与 Bangumi 所述左晓川、蔡臻及远川中学篮球队的故事一致。\n\nhttps://www.themoviedb.org/tv/283203 (api_snapshot): TMDB 详情列出导演阿力德尔图、制作方灵瞳动画与 bilibili，状态为制作中，且仅列有第 1 季。\n\nhttps://www.themoviedb.org/tv/283203/season/1 (api_snapshot): TMDB 第 1 季目前只有一条无播出日期、无剧情说明的“第 1 集”，无法据此核实逐集对应。\n\nhttps://www.bilibili.com/bangumi/media/md28233705/ (page): bilibili 官方页面将《飞吧！篮球》标为“敬请期待”，分别列出先导片和 OP《JUST FREE YOUR LIFE》。\n\nhttps://bgm.tv/subject/340884/ep (page): Bangumi 章节列表目前仅收录 2021 年 5 月 8 日的 OP《JUST FREE YOUR LIFE》，没有可对应的正篇章节。\n\n备注：TMDB 第 1 季现有“第 1 集”没有日期或剧情信息，无法判断它记录的是先导片还是未来正篇；待集表补全后再核对逐集关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/340884; https://www.themoviedb.org/tv/283203; https://www.themoviedb.org/tv/283203/season/1; https://www.bilibili.com/bangumi/media/md28233705/; https://bgm.tv/subject/340884/ep",
+    "verifiedAt": "2026-10-09T02:18:29.631Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 283203,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
