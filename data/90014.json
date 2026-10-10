@@ -1,18 +1,33 @@
 {
   "anidbId": 3492,
   "bangumiId": 90014,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 346669,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 766073,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为 1999-12-22 发售、OVA、2话，并列出章节 05、06；其制作人员和 OLM 制作信息与该版本一致。AniDB 3492 对应 Pocket Monsters: Pikachu no Fuyuyasumi (2000)，为 2 集、每集约 11 分钟。TMDB 60572 的特别篇 season 0 episode 6 标题正是「ピカチュウのふゆやすみ2000」，日期为 1999-12-22、时长 22 分钟，显然将 Bangumi 的两段 OVA 合并为一个 TMDB 集。相邻的 episode 5「ピカチュウたんけんたい」和 episode 12「ピチューとピカチュウのふゆやすみ2001」属于其他作品，因此只推荐第 6 集，不纳入整个特别篇季。\n\nhttps://bgm.tv/subject/90014 (page): Bangumi 将该条目标为 OVA，话数 2，发售日为 1999-12-22，章节为 05、06；制作人为湯山邦彦、动画制作 OLM。\n\nhttps://www.themoviedb.org/tv/60572 (api_snapshot): TMDB TV 主条目标识为《ポケットモンスター》，包含 season 0 特别篇。\n\nhttps://www.themoviedb.org/tv/60572/season/0 (api_snapshot): TMDB season 0 episode 6 标题为「ピカチュウのふゆやすみ2000」，日期 1999-12-22、时长 22 分钟；episode 5 和 12 分别是其他皮卡丘特别篇。\n\nhttps://hikka.io/anime/pokemon-pikachu-no-fuyuyasumi-2000-8b7f55 (search_snippet): 该版本被标为 OVA、2 集，每集约 11 分钟，内容为 Winter Games 与 Stantler's Little Helpers。\n\nhttps://hemming-in.rssing.com/chan-2212310/all_p117.html (search_snippet): 公开的 AniDB 数据引用将 AniDB ID 3492 列为 Pocket Monsters: Pikachu no Fuyuyasumi (2000)。\n\n备注：AniDB 官方条目页面直接访问返回 403；AniDB ID 与标题通过输入中的匹配字段及公开索引交叉确认，未能读取官方页面本身。",
+    "evidence": "gpt-6-sol: 电影268998与特别篇S0E6是同一部1999年22分钟作品的两种TMDB收录形式，均覆盖Bangumi的两段短片。TMDB将两段合为一个条目，无法建立两条不重复的逐集对应规则，因此rules留空。\n\nhttps://bgm.tv/subject/90014 (page): Bangumi 将本作列为1999年发行的两话OVA，导演为汤山邦彦，动画制作为OLM。\n\nhttps://bgm.tv/ep/346669 (page): Bangumi 两个章节依次为第5话《こおりであそぼう》和第6话《クリスマスの夜》，日期均为1999年12月22日。\n\nhttps://www.video.unext.jp/title/SID0088547?adid=XXX&alp=1&alpad=1&cid=D33907&rid=VI_g_movie_82255 (page): U-NEXT 明确说明这两段故事合在一部22分钟的《ピカチュウのふゆやすみ2000》中。\n\nhttps://www.themoviedb.org/movie/268998 (api_snapshot): TMDB 电影268998同名，日期为1999年12月22日，时长22分钟；导演、编剧及制作公司与Bangumi资料吻合。\n\nhttps://www.themoviedb.org/tv/60572/season/0 (api_snapshot): TMDB《ポケットモンスター》特别篇第0季第6集同名，日期为1999年12月22日，时长22分钟；相邻集为其他作品。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/90014; https://www.themoviedb.org/tv/60572; https://www.themoviedb.org/tv/60572/season/0; https://hikka.io/anime/pokemon-pikachu-no-fuyuyasumi-2000-8b7f55; https://hemming-in.rssing.com/chan-2212310/all_p117.html",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/90014; https://bgm.tv/ep/346669; https://www.video.unext.jp/title/SID0088547?adid=XXX&alp=1&alpad=1&cid=D33907&rid=VI_g_movie_82255; https://www.themoviedb.org/movie/268998; https://www.themoviedb.org/tv/60572/season/0",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
+    {
+      "id": 268998,
+      "type": "movie"
+    },
     {
       "episode": 6,
       "id": 60572,

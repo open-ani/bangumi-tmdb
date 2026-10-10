@@ -1,15 +1,86 @@
 {
+  "anidbId": 16568,
   "bangumiId": 313935,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1115215,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1115216,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1115217,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1115218,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1115219,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1115220,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1115221,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1115222,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1115223,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1115224,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1115225,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1115226,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB TV 82497 的原名为《剑网3·侠肝义胆沈剑心》，首播年份为2018，剧情均围绕沈剑心及剑网3江湖展开；别名含 JX3: Chivalrous Hero Shen Jianxin。TMDB资料确认其为中国动画剧集，制作公司为 Seasun，周沬担任导演兼编剧，和 Bangumi 记录的西山映画、声影动漫及周沬等制作信息一致。TMDB第3季共24集，前12集于2022-07-08至2022-09-09播出，后12集于2024年播出；官方Bilibili页面也标为第三季全24话。Bangumi subject 明确是第三季上卷、12集，因此只能映射到该TV第3季第1—12集，不能使用整季范围。\n\nhttps://api.bgm.tv/v0/subjects/313935 (api_snapshot): Bangumi subject 名称为《剑网3·侠肝义胆沈剑心 第三季（上卷）》，日期为2022-07-08，平台为WEB，共12集；剧情、导演、编剧、动画制作和制作信息与目标作品相符。\n\nhttps://www.themoviedb.org/tv/82497 (api_snapshot): TMDB TV 82497 的原名为《剑网3·侠肝义胆沈剑心》，首播日期为2018-09-21，简介描述沈剑心从稻香村保安成长为江湖大侠；共4季，周沬担任导演和编剧，并列出剑网3相关别名。\n\nhttps://www.themoviedb.org/tv/82497/season/3 (api_snapshot): TMDB第3季实际有24集；第1—12集从2022-07-08播至2022-09-09，第13—24集从2024-01-26播至2024-04-12，前12集剧情与Bangumi上卷简介和集数对应。\n\nhttps://www.bilibili.com/bangumi/play/ss34277 (page): 官方Bilibili页面将该作品标为《剑网3·侠肝义胆沈剑心》第三季、2022年、全24话，剧情涉及清水岛、湖联网和阿萨辛。",
+    "evidence": "gpt-6-sol: 作品剧情、首播日期和制作信息吻合；官方全 24 话与 Bangumi 上卷 12 话支持将目标限定为 TMDB 第 3 季第 1—12 集。第 3—11 集的逐集日期一致，可建立连续规则。开篇合并播放及第 12 集日期冲突尚未厘清，暂不填写这些章节的逐集映射。\n\nhttps://www.themoviedb.org/tv/82497 (api_snapshot): TMDB 剧集 82497 的原名为《剑网3·侠肝义胆沈剑心》，制作公司为 Seasun；第 3 季于 2022-07-08 开始，共 24 集，简介与 Bangumi 上卷一致。\n\nhttps://www.themoviedb.org/tv/82497/season/3 (api_snapshot): TMDB 第 3 季第 3—11 集的日期与 Bangumi 对应章节逐集一致；第 12 集却标为 2024-01-26，与上卷第 12 集日期冲突。\n\nhttps://bgm.tv/subject/313935 (page): Bangumi 将本条目标为 2022-07-08 开播的 12 集 WEB 动画，并列出周沬、西山映画等制作信息。\n\nhttps://bgm.tv/ep/1115215 (page): Bangumi 第 1 章题为“第一·二集”，时长 43 分 39 秒；第 2 章没有标题或时长，开篇的章节拆分方式需要核实。\n\nhttps://bgm.tv/ep/1115226 (page): Bangumi 第 12 章标为 2022-09-09 首播，时长 23 分 11 秒。\n\nhttps://www.bilibili.com/bangumi/media/md28229725 (page): 官方 bilibili 页面将第三季标为 2022-07-08 开播、全 24 话。\n\nhttps://thetvdb.com/series/xia-gan/episodes/9275095 (page): TVDB 将第三季第 12 集记为 2022-09-09 播出，作为 TMDB 日期冲突的辅助线索。\n\n备注：Bangumi 第 1 章涵盖“第一·二集”、第 2 章为空白；TMDB 第 1 集时长 43 分钟且另列第 2 集，尚不能确认两个 Bangumi 章节各自对应的 TMDB 集。；TMDB 第 12 集日期为 2024-01-26，与 Bangumi 和 TVDB 记录的上卷第 12 集 2022-09-09 冲突；需核对官方第 12 集内容或修正 TMDB 元数据后再映射该章。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/313935; https://api.bgm.tv/v0/subjects/313935; https://www.themoviedb.org/tv/82497; https://www.themoviedb.org/tv/82497/season/3; https://www.bilibili.com/bangumi/play/ss34277",
-    "verifiedAt": "2026-09-08T22:16:58.701Z"
+    "source": "https://bgm.tv/subject/313935; https://www.themoviedb.org/tv/82497; https://www.themoviedb.org/tv/82497/season/3; https://bgm.tv/ep/1115215; https://bgm.tv/ep/1115226; https://www.bilibili.com/bangumi/media/md28229725; https://thetvdb.com/series/xia-gan/episodes/9275095",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 3,
+      "season": 3,
+      "start": 3,
+      "tmdbId": 82497
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

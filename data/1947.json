@@ -1,21 +1,124 @@
 {
   "anidbId": 1100,
   "bangumiId": 1947,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 9724,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 9725,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 9726,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 9727,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 9728,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 9729,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 9730,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 9731,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 9732,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 9733,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 9734,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 9735,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 9736,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 9735,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 78617,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 9736,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 78617,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: 该 subject 对应 2003 年 TMS 制作的电视动画《高橋留美子劇場 人魚の森》（Mermaid Forest），不是 1991 年同名 OVA，也不是此前播出的《高橋留美子劇場》短篇集。TMDB 当前 TV ID 为 78617；本作仅一季，Season 1 的 13 集标题和 Bangumi 正篇逐集相符，包括第12—13集《人魚の傷》前后篇，因此映射完整第1季。\n\nhttps://www.wikidata.org/wiki/Q132203490 (page): 该条目明确标识作品为日本动画电视系列，原题《高橋留美子劇場 人魚の森》，始播于2003年10月4日、由TMS制作，并列出TMDB TV series ID 78617及季数1；同页还关联IMDb tt0409625，可与其他资料交叉确认身份。\n\nhttps://www.tms-e.co.jp/global/alltitles/2000s/607102.html (page): TMS官方作品页给出原题《高橋留美子劇場 人魚の森》、全13集、每集30分钟，并说明主人公湧太因食用人鱼肉而不老不死、与真鱼共同寻找人鱼的剧情，确认是本subject所指的2003年电视动画版本。\n\nhttps://www.tvguide.com/tvshows/mermaid-forest/episodes-season-1/1000168936/ (page): 分集页将《Mermaid Forest》列为一季13集；第1—13集依次为《Ningyo wa warawanai》《Togyo no sato》前后篇、《Ningyo no mori》前后篇、《Yume no owari》《Sharihime》《Saigo no kao》前后篇、《Yakusoku no ashita》前后篇和《Ningyo no kizu》前后篇，与Bangumi的13集正篇完整对应。\n\nhttps://www.wikidata.org/wiki/Q132203513 (page): 另一独立条目把同名《人魚の森》明确标为1991年8月16日发行的OVA、导演水谷貴哉，证明该旧版与本次2003年电视系列不是同一版本。",
+    "evidence": "gpt-6-sol: 对应 TMDB 电视作品 78617，而非 1991 年同名电影。Bangumi 第 1—11 话与 TMDB 第 1 季的 11 集标题逐集吻合；DVD 收录的第 12—13 话则对应 TMDB 第 0 季的两集，因此分别用特例映射。\n\nhttps://www.tms-e.co.jp/alltitles/2000s/607102.html (page): TMS 官方资料确认本作为奥脇雅晴执导、TMS 制作的 2003 年电视动画，全 13 话，讲述湧太与真魚寻找人鱼的故事。\n\nhttps://bgm.tv/subject/1947/ep (page): Bangumi 章节页列出第 1—13 话的日文标题；前 11 话与 TMDB 第 1 季逐集同名，第 12—13 话为《人魚の傷》前后篇。\n\nhttps://www.themoviedb.org/tv/78617 (api_snapshot): TMDB 电视作品 78617 的原名、2003 年首播时间、剧情、TMS 和东京电视台制作信息及导演均与本作吻合；其第 1 季有 11 集，特别篇季有 2 集。\n\nhttps://www.themoviedb.org/tv/78617/season/1 (api_snapshot): TMDB 第 1 季第 1—11 集的标题按顺序与 Bangumi 第 1—11 话逐集一致，季表没有其他集。\n\nhttps://www.themoviedb.org/tv/78617/season/0 (api_snapshot): TMDB 第 0 季仅有两集：《人魚の傷》前篇和后篇，依次编号第 1、2 集。\n\nhttps://www.ponycanyon.co.jp/music/PCBE000070804 (page): 发行方确认《人魚の傷》前后篇是未电视播出的第 12、13 话，收录于 DVD。\n\nhttps://www.themoviedb.org/movie/213706 (api_snapshot): 候选电影 213706 是 1991 年发行的 55 分钟《人魚の森》，导演和制作公司均不同，属于旧版。\n\n备注：TMDB 电视集日期比 TMS 记载的日本播出日期晚一天；原因未核实，但逐集标题及顺序一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/1947; https://www.wikidata.org/wiki/Q132203490; https://www.tms-e.co.jp/global/alltitles/2000s/607102.html; https://www.tvguide.com/tvshows/mermaid-forest/episodes-season-1/1000168936/; https://www.wikidata.org/wiki/Q132203513",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/1947; https://www.tms-e.co.jp/alltitles/2000s/607102.html; https://bgm.tv/subject/1947/ep; https://www.themoviedb.org/tv/78617; https://www.themoviedb.org/tv/78617/season/1; https://www.themoviedb.org/tv/78617/season/0; https://www.ponycanyon.co.jp/music/PCBE000070804; https://www.themoviedb.org/movie/213706",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 78617
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 78617,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 78617,
+      "season": 0,
       "type": "tv"
     }
   ]

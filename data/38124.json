@@ -1,15 +1,30 @@
 {
   "bangumiId": 38124,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164151,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是 2004 年单集 OVA；TMDB《名探偵コナン》(30983) 的特别篇季中，第 4 集标题完全对应「コナンとキッドとクリスタル・マザー」，年份为 2004、片长 25 分钟，且相邻集为其他独立 OVA/特别篇，因此只能映射 S0E4，不能映射整季。官方页面另有 2012 年《まじっく快斗》版「涙のクリスタル・マザー」，标题、播出年份和改编版本不同，不是本 subject。\n\nhttps://api.bgm.tv/v0/subjects/38124 (api_snapshot): 2026-09-09 获取的 Bangumi API 信息确认本作原名、OVA 媒介、2004-03-03 日期、1 话，并说明它改编《クリスタル・マザー》且加入柯南与兰。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): 2026-09-08 获取的 TMDB 详情确认 TV 30983 是 1996 年开始播出的日本动画《名探偵コナン》，制作公司包含 TMS Entertainment，并设有特别篇 season 0。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 2026-09-08 获取的实际季表显示 S0E4 为「コナンとキッドとクリスタル・マザー」，日期记为 2004 年、片长 25 分钟；该季共 34 集且仅一页，前后集均为其他作品。\n\nhttps://letterboxd.com/film/detective-conan-ova-04-conan-and-kid-and-crystal-mother/ (page): 页面将同名作品标为 2004 年日语动画，导演佐藤真人；剧情为怪盗基德在列车上夺取女王持有的 Crystal Mother，柯南与中森警部介入，与 Bangumi 所述作品身份吻合。\n\nhttps://www.ytv.co.jp/conan/archive/k20121222.html (page): 读卖电视台官方页面确认《まじっく快斗》版本「涙のクリスタル・マザー」于 2012-12-22 播出，可据此排除把新版误认成本 subject。\n\n备注：Bangumi 标注发售日为 2004-03-03，而 TMDB 季表仅记作 2004-01-01，疑似 TMDB 使用年份占位日期；标题、媒介、片长、剧情及特别篇序号仍足以确认 S0E4 身份。",
+    "evidence": "gpt-6-sol: 本条目是2004年的单集《名探偵コナン》OVA。TMDB 30983 第0季第4集的标题、年份、片长及其在OVA序列中的位置均吻合；第0季还收录其他独立作品，因此范围仅取第4集。Bangumi唯一的本篇章节对应此集。\n\nhttps://bgm.tv/subject/38124 (search_snippet): Bangumi 将本条目标为2004年单集OVA，并注明2006年3月24日收入《SECRET FILE Vol.2》。\n\nhttps://www.conanpedia.com/《名偵探柯南》特殊OVA (page): 柯南百科将《コナンとキッドとクリスタル・マザー》列为第4部常规OVA，记载2004年3月3日发行，并说明其与剧场版《银翼的魔术师》有关联。\n\nhttps://www.detectiveconanworld.com/wiki/OVA_4 (page): Detective Conan Wiki 记载本作为第4部OVA；剧情涉及基德在列车上夺取“水晶之母”，柯南与兰登场。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TMDB 电视剧30983为1996年开播的《名探偵コナン》，制作公司包括TMS Entertainment，设有特别篇第0季。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): 已读取TMDB第0季完整集表，共35集、1页；第4集标题为《コナンとキッドとクリスタル・マザー》，标记为2004年、25分钟，相邻集为其他作品。\n\n备注：TMDB 将该集日期记为2004年1月1日，与资料记载的2004年3月3日发行日期不符；Bangumi章节所记的2006年3月24日对应《SECRET FILE Vol.2》再发行。日期差异不影响本集身份判断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/38124; https://api.bgm.tv/v0/subjects/38124; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0; https://letterboxd.com/film/detective-conan-ova-04-conan-and-kid-and-crystal-mother/; https://www.ytv.co.jp/conan/archive/k20121222.html",
-    "verifiedAt": "2026-09-09T00:34:49.069Z"
+    "source": "https://bgm.tv/subject/38124; https://www.conanpedia.com/《名偵探柯南》特殊OVA; https://www.detectiveconanworld.com/wiki/OVA_4; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 4,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 30983
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

@@ -1,13 +1,79 @@
 {
   "bangumiId": 177694,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 627416,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 627417,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 627418,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 627419,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 627420,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 627421,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 627422,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 627423,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 627424,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 627425,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 627426,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 627427,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 627428,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 对应 TMDB 的 1998 年原版《The Powerpuff Girls》，不是 2016 年重启版。Bangumi subject 是 TV、13 个半小时编排集；TMDB 第 3 季表有 24 条实际片段记录，正好覆盖这些编排集（多数每集包含两个约 11–12 分钟片段，另有 Powerprof. 等较长集），没有混入其他作品，因此使用 TMDB 第 3 季整季。年份、首播日、角色剧情、制作公司和配音阵容均与原版一致。\n\nhttps://api.bgm.tv/v0/subjects/177694 (api_snapshot): Bangumi API 标为 TV《The Powerpuff Girls (Season 3)》，13 集，日期为 2000-07-28 至 2001-04-06。\n\nhttps://www.themoviedb.org/tv/607 (api_snapshot): TMDB TV 607 为原版《The Powerpuff Girls》，首播 1998-11-18；剧情为 Blossom、Bubbles、Buttercup 与 Professor Utonium 在 Townsville 打击犯罪；制作公司包括 Hanna-Barbera Cartoons 和 Cartoon Network Studios；第 3 季日期为 2000-07-28、实际集数 24。\n\nhttps://www.themoviedb.org/tv/607/season/3 (api_snapshot): TMDB 第 3 季实际集表为 1–24，包含 Fallen Arches、The Mane Event、Town and Out、Child Fearing，一直到 Helter Shelter、Power Lunch，日期与 Bangumi 第三季范围相符。\n\nhttps://www.tvguide.com/tvshows/the-powerpuff-girls/episodes-season-3/1000505368/ (page): 外部集表将原版第 3 季编排为 13 集：多数是两个片段合并，最后一集为 Helter Shelter/Power Lunch；首集日期为 2000-07-28，末集列为 2001-04-03。\n\nhttps://www.themoviedb.org/tv/66149 (api_snapshot): TMDB 66149 是 2016-04-04 开始的新版，3 季、119 集，时间和版本均不符，未采用。\n\nhttps://press.hulu.com/pressrelease/hulu-lands-exclusive-streaming-rights-to-cartoon-networks-emmy-nominated-global-hit-franchise-the-powerpuff-girls/ (search_snippet): 资料明确区分 1998 年 Craig McCracken 创作的初始系列与之后的重新制作系列；原版为 Cartoon Network 动画系列。\n\n备注：Bangumi 以 13 个电视编排集计数，而 TMDB 将其中的短片片段拆成 24 条记录；这是集数口径差异，不影响整季身份映射。；TMDB 将 Helter Shelter/Power Lunch 的日期列为 2001-04-03，部分外部资料列为后续电视播出日期；该日期差异不改变其属于第 3 季。",
+    "evidence": "gpt-6-sol: 作品年份、角色剧情、制作公司和第 3 季首播日一致。Bangumi 的 13 话采用播出单元口径，TMDB 将同一季拆为 24 条分段记录；两个较长单篇与其余成对短篇合计对应 13 个播出单元，因此可确认整季范围。Bangumi 章节缺少逐集标题和日期，暂不把具体章节指派给 TMDB 集号。\n\nhttps://bgm.tv/subject/177694 (page): Bangumi 将本条目标为 TV《飞天小女警 第三季》，共 13 话，2000 年 7 月 28 日开始放送，制作方列有 Hanna-Barbera 和 Cartoon Network Studios。\n\nhttps://www.themoviedb.org/tv/607 (api_snapshot): TMDB 607 是 1998 年首播的原版《The Powerpuff Girls》，角色、剧情和制作公司与 Bangumi 条目相符；其第 3 季始于 2000 年 7 月 28 日。\n\nhttps://www.themoviedb.org/tv/607/season/3 (api_snapshot): 已读取 TMDB 第 3 季完整集表，共 24 条分段记录，范围为第 1 至 24 集；其中《Criss Cross Crisis》和《Powerprof.》是较长的单篇。\n\nhttps://www.tvguide.com/tvshows/the-powerpuff-girls/episodes-season-3/1000505368/ (page): TV Guide 将原版第 3 季列为 13 个播出单元；其标题与日期对应 TMDB 的分段记录，首单元为《Fallen Arches/The Mane Event》，末单元为《Helter Shelter/Power Lunch》。\n\nhttps://bgm.tv/subject/177694/ep (page): Bangumi 的 13 个章节只有序号，均未填写标题或单集放送日期。\n\n备注：Bangumi 13 个章节均无标题及单集日期，无法逐集核实其顺序，也无法安全填写一话对应多个 TMDB 分段的 overrides。；Bangumi 标注的结束日为 2001 年 4 月 6 日，TV Guide 和 TMDB 将末个播出单元列为 2001 年 4 月 3 日；该日期差异不影响整季身份判断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/177694; https://api.bgm.tv/v0/subjects/177694; https://www.themoviedb.org/tv/607; https://www.themoviedb.org/tv/607/season/3; https://www.tvguide.com/tvshows/the-powerpuff-girls/episodes-season-3/1000505368/; https://www.themoviedb.org/tv/66149; https://press.hulu.com/pressrelease/hulu-lands-exclusive-streaming-rights-to-cartoon-networks-emmy-nominated-global-hit-franchise-the-powerpuff-girls/",
-    "verifiedAt": "2026-09-08T20:21:18.285Z"
+    "source": "https://bgm.tv/subject/177694; https://www.themoviedb.org/tv/607; https://www.themoviedb.org/tv/607/season/3; https://www.tvguide.com/tvshows/the-powerpuff-girls/episodes-season-3/1000505368/; https://bgm.tv/subject/177694/ep",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,

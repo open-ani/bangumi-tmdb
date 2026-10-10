@@ -1,16 +1,36 @@
 {
   "anidbId": 1953,
   "bangumiId": 14153,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 81376,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 81377,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是 2004 年 OVA，共 2 集；两集标题、剧情、制作信息与 TMDB 54390 相符。TMDB 第 1 季正好收录这两集，因此应映射整季。TMDB 将首播日记为 2004-05-21，而 Bangumi 及其他资料记为 2004-04-23；这是日期元数据差异，不影响标题、集数和版本对应。\n\nhttps://bgm.tv/subject/14153 (page): Bangumi 标注为 OVA，共 2 集；两集标题分别为「隐埋在砂里的真相」和「在这永远的一秒里」，发售/首播日期为 2004-04-23、2004-07-23，并列出 Picture Magic、陸演隊、岡尾貴洋等制作信息。\n\nhttps://zh.wikipedia.org/wiki/%E5%A4%8F色的砂時計 (page): 资料确认该动画是 2004 年两集 OVA，集标题、剧情、制作公司及两集发售日与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/54390 (api_snapshot): TMDB 54390 为日语作品，剧情简介描述牧村耕太郎与芹泽香穗的时间旅行故事，共 2 集，并提供第 1 季。\n\nhttps://www.themoviedb.org/tv/54390/season/1 (api_snapshot): TMDB 第 1 季包含 2 集，标题分别为「砂に埋もれた真実」和「その永遠の1秒に」，与 Bangumi 两集主体完全对应；因此纳入第 1 季完整范围。\n\n备注：TMDB 将首播日期记录为 2004-05-21，与 Bangumi 的 2004-04-23 不一致；但第 2 集日期、两集标题、剧情和制作信息均支持同一 OVA 版本。",
+    "evidence": "gpt-6-sol: 确认对应 TMDB 54390 第 1 季完整两集。作品年份、人物与剧情一致；Bangumi 的两集 OVA 与 TMDB 唯一一季的集数、日文集标题和顺序完全对应，第 2 集日期也一致。第 1 集的 TMDB 日期有差异，但 Apple TV 的该集页面支持 Bangumi 所记日期，不影响逐集对应。\n\nhttps://bgm.tv/subject/14153 (page): Bangumi 将本作列为 2004 年发行、共 2 集的 OVA，并列出导演岡尾貴洋及动画制作公司陸演隊、ピクチャーマジック。\n\nhttps://bgm.tv/subject/14153/ep (page): Bangumi 章节页记载第 1 集《砂に埋もれた真実》日期为 2004-04-23，第 2 集《その永遠の1秒に》日期为 2004-07-23。\n\nhttps://www.themoviedb.org/tv/54390 (api_snapshot): TMDB 54390 的日文原名和牧村耕太郎、芹沢香穂的时间旅行剧情与 Bangumi 一致；作品共 2 集，只有第 1 季。\n\nhttps://www.themoviedb.org/tv/54390/season/1 (api_snapshot): TMDB 第 1 季仅有两集，集号与两集日文标题逐一对应；第 2 集日期同为 2004-07-23，但第 1 集记为 2004-05-21。\n\nhttps://tv.apple.com/jp/episode/%E7%A0%82%E3%81%AB%E5%9F%8B%E3%82%82%E3%82%8C%E3%81%9F%E7%9C%9F%E5%AE%9F/umc.cmc.7deg0zf53ejk5iey8mdq4sogw?showId=umc.cmc.4v9b1pmj3posy8qymt0yui4vq (page): Apple TV 日本站将《砂に埋もれた真実》列为《夏色の砂時計》第 1 季第 1 集，日期为 2004-04-23，与 Bangumi 一致。\n\n备注：TMDB 将第 1 集日期记为 2004-05-21；Bangumi 和 Apple TV 均记为 2004-04-23，具体错误来源未查明。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/14153; https://zh.wikipedia.org/wiki/%E5%A4%8F色的砂時計; https://www.themoviedb.org/tv/54390; https://www.themoviedb.org/tv/54390/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/14153; https://bgm.tv/subject/14153/ep; https://www.themoviedb.org/tv/54390; https://www.themoviedb.org/tv/54390/season/1; https://tv.apple.com/jp/episode/%E7%A0%82%E3%81%AB%E5%9F%8B%E3%82%82%E3%82%8C%E3%81%9F%E7%9C%9F%E5%AE%9F/umc.cmc.7deg0zf53ejk5iey8mdq4sogw?showId=umc.cmc.4v9b1pmj3posy8qymt0yui4vq",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 54390
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

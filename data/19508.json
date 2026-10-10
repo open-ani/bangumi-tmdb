@@ -1,16 +1,151 @@
 {
   "anidbId": 103,
   "bangumiId": 19508,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 106798,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 106799,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 106800,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 106801,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 106802,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 106803,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 106804,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 106805,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 106806,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 106807,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 106808,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 106809,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 106810,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 106811,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 106812,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 106813,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 106814,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 106815,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 106816,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 106817,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 106818,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 106819,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 106820,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 106821,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 106822,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目是 2001 年播出的《旋風の用心棒》25 集 TV 动画。AniDB 103 明确记录为同名 TV Series、25 集，并具有一致的导演伊達勇登、Studio Pierrot、剧情设定和播出年份。Anime-Lists 将 AniDB 103 关联至 TMDB TV 34724 第 1 季；TMDB 快照显示该剧只有第 1 季且完整包含第 1–25 集。Bangumi/部分日文资料使用日本周一日期，AniDB/TMDB 使用次日日期，属于整体相差一天的播出日期表示差异，不影响作品版本匹配。\n\nhttps://anidb.net/anime/103 (page): AniDB 103 的正式日文名为「旋風の用心棒」，类型为 TV Series，共 25 集；年份为 2001–2002，导演为伊達勇登，动画制作方为 Studio Pierrot，并记录了与黑泽明《用心棒》相关的剧情设定。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 条目明确将 anidbid=\"103\"（Kaze no Youjinbou）关联到 tmdbtv=\"34724\"、tmdbseason=\"1\"，且没有额外的集数映射或偏移。\n\nhttps://www.themoviedb.org/tv/34724 (api_snapshot): TMDB API 快照显示 ID 34724 的作品名为「旋風の用心棒」，日文原名一致，共 25 集，仅有第 1 季。\n\nhttps://www.themoviedb.org/tv/34724/season/1 (api_snapshot): TMDB 第 1 季 API 快照完整返回 25 集，集数连续为 1–25，episodesTruncated=false；因此主体应映射为整季，而非局部范围。\n\nhttps://www.animatetimes.com/tag/details.php?id=7506 (search_snippet): 公开资料将该作品标为 TV 动画、全 25 集，播出时间为 2001-10-01 至 2002-03-25，并列出伊達勇登和 Studio Pierrot 等制作信息，与 Bangumi 条目相符。",
+    "evidence": "gpt-6-sol: 作品类型、年份、剧情人物、导演、制作公司及 25 话规模均吻合。TMDB 第 1 季完整收录 25 集；Bangumi 与 TVDB 的逐集标题和编号对应，TMDB 集表也连续为 1 至 25，因此映射整季及本篇 1 至 25 话。\n\nhttps://www.themoviedb.org/tv/34724 (api_snapshot): 按日文原名及别名搜索，均找到 TMDB TV 34724《旋風の用心棒》。\n\nhttps://www.themoviedb.org/tv/34724 (api_snapshot): TMDB 作品详情记载 2001 年首播、2002 年完结、25 集且仅有第 1 季；制作公司为 Pierrot，系列导演为伊達勇登，IMDb ID 为 tt0318901，与 Bangumi 资料相符。\n\nhttps://www.themoviedb.org/tv/34724/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整集表：共 25 集，编号连续为 1 至 25，total_pages 为 1；季内没有其他作品。\n\nhttps://bgm.tv/subject/19508/ep (page): Bangumi 章节页列出本篇 1 至 25 话的日文标题与日期。\n\nhttps://www.thetvdb.com/series/kaze-no-yojimbo/allseasons/official (page): TVDB 的第 1 季逐集表列出 1 至 25 话；各集英文标题与 Bangumi 日文标题按编号对应，包括第 1 话、第 7 话及终话。\n\nhttps://www.animatetimes.com/tag/details.php?id=7506 (page): 动画资料页确认本作是 2001 年至 2002 年在日本电视台播出的 25 话 TV 动画，导演伊達勇登、动画制作 Studio Pierrot，剧情人物为谺丈二。\n\nhttps://king-cr.jp/special/kaze/main.html (page): 发行方官网说明本动画以黑泽明电影《用心棒》为基础，版权标识包含 Studio Pierrot、日本电视台等，与 Bangumi 条目吻合。\n\n备注：逐集日期资料有冲突：Bangumi 及动画资料页记载周一播出，TMDB、TVDB 多记为次日；第 7 话以后部分日期及终话日期还存在额外差异。TMDB 集标题仅为通用编号，逐集对应主要由完整集数及 TVDB 与 Bangumi 的编号、标题比对确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/19508; https://anidb.net/anime/103; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/34724; https://www.themoviedb.org/tv/34724/season/1; https://www.animatetimes.com/tag/details.php?id=7506",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/19508; https://www.themoviedb.org/tv/34724; https://www.themoviedb.org/tv/34724/season/1; https://bgm.tv/subject/19508/ep; https://www.thetvdb.com/series/kaze-no-yojimbo/allseasons/official; https://www.animatetimes.com/tag/details.php?id=7506; https://king-cr.jp/special/kaze/main.html",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34724
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

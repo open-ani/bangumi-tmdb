@@ -1,23 +1,46 @@
 {
   "anidbId": 983,
   "bangumiId": 67437,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 251295,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 251296,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 251297,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 《新・北斗の拳》是2003—2004年的3集OVA，三集分别为《呪縛の街》《禁じられた拳》《男が悲しみを背負うとき》。TMDB将其收录在《Fist of the North Star》(TV ID 56387)的特别篇季0中，分别为0x7、0x8、0x9，因此必须限定集数7—9。BangumiExtLinker的电影ID 120985只对应第1集《呪縛の街》，不能代表整个3集主体；该条目不是真人版或合集等同关系。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d07b372 (search_snippet): TMDB搜索摘要列出《新北斗神拳 OVA 第1卷》为0x7、《新北斗神拳 OVA 第2卷》为0x8、《新北斗神拳 OVA 第3卷》为0x9，并给出对应剧情、日期和时长。\n\nhttps://www.themoviedb.org/movie/120985?language=en-US (search_snippet): TMDB电影ID 120985的原题为《新・北斗の拳 - 呪縛の街》，2003年、动画、58分钟，内容对应OVA第1集。\n\nhttps://www.themoviedb.org/tv/56387-fist-of-the-north-star (search_snippet): TMDB主页面显示ID 56387是1984年的《Fist of the North Star》电视系列，主体共152集；季0中的新北斗OVA是混合收录的特别篇，不是该主体的常规正篇。\n\nhttps://en.wikipedia.org/wiki/New_Fist_of_the_North_Star (search_snippet): 该作品被列为2003—2004年的3集OVA，首播日期为2003-07-24，末播日期为2004-05-28。",
+    "evidence": "gpt-6-sol: TMDB 105204是与本条目同名、同期、同为三话的独立作品；制作人员及声优吻合。其第1季恰好收录三集，逐集日期与Bangumi完全一致，因此映射为第1季第1至3集。旧映射指向1984年主系列的混合特别篇季，种子电影则只覆盖第一话。\n\nhttps://www.themoviedb.org/tv/105204 (api_snapshot): TMDB 105204《新・北斗の拳》始于2003年7月24日，终于2004年5月28日，共1季3集；声优包括子安武人，导演为渡部高志。\n\nhttps://www.themoviedb.org/tv/105204/season/1 (api_snapshot): 该作品第1季只有3集，日期依次为2003年7月24日、2003年10月23日、2004年5月28日，与Bangumi三话逐集一致。\n\nhttps://av.watch.impress.co.jp/docs/20030404/toei.htm (page): 2003年的制作发布报道确认《新・北斗の拳》是根据小说改编的三话OVA，并列出三话标题及子安武人出演健次郎。\n\nhttps://www.themoviedb.org/tv/56387/season/0 (api_snapshot): 旧映射所用的TMDB 56387是1984年开播的《北斗の拳》；其特别篇第7至9集虽有相近日期，却与其他作品混列。\n\nhttps://www.themoviedb.org/movie/120985 (api_snapshot): 种子电影120985的标题仅为《新・北斗の拳 - 呪縛の街》，对应三话中的第一话。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/67437; https://www.themoviedb.org/tv/56387-fist-of-the-north-star/episodes?credit_id=525988e9760ee34661b0fa7a&person_id=4bc8c090017a3c122d07b372; https://www.themoviedb.org/movie/120985?language=en-US; https://www.themoviedb.org/tv/56387-fist-of-the-north-star; https://en.wikipedia.org/wiki/New_Fist_of_the_North_Star",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/67437; https://www.themoviedb.org/tv/105204; https://www.themoviedb.org/tv/105204/season/1; https://av.watch.impress.co.jp/docs/20030404/toei.htm; https://www.themoviedb.org/tv/56387/season/0; https://www.themoviedb.org/movie/120985",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 105204
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 7,
-      "episodeEnd": 9,
-      "id": 56387,
-      "season": 0,
+      "id": 105204,
+      "season": 1,
       "type": "tv"
     }
   ]

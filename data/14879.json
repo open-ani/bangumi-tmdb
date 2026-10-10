@@ -1,16 +1,91 @@
 {
   "anidbId": 1768,
   "bangumiId": 14879,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 86901,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 86902,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 86903,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 86904,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 86905,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 86906,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 86907,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 86908,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 86909,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 86910,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 86911,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 86912,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 86913,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为 OVA，共13话，发行/播出时间为2004-06-26至2004-12-11；官方东映资料同样确认《おジャ魔女どれみ ナ・イ・ショ》为全13话，并列出与输入一致的13个正篇标题、制作人员和剧情背景。TMDB TV 20353 的第5季标题、首播日、13话数量及全部集标题均与该OVA对应，因此应映射为完整第5季，不需要拆分集数。\n\nhttps://bgm.tv/subject/14879 (page): Bangumi 条目标为 OVA，话数13，发售日/开始日2004-06-26、结束日2004-12-11；章节为01至13，并列出东堂いづみ、馬越嘉彦、佐藤順一、東映アニメーション等制作信息。\n\nhttps://lineup.toei-anim.co.jp/ja/cs/doremi_n/story/ (page): 东映官方资料确认该作品放映开始于2004-06-26、结束于2004-12-11、全13话；说明其以《も～っと！おジャ魔女どれみ》时期为背景，并列出第1至13话标题及主要制作人员。\n\nhttps://www.themoviedb.org/tv/20353 (api_snapshot): TMDB API 快照显示 TV 20353 为《おジャ魔女どれみ》，包含第5季《おジャ魔女どれみナ・イ・ショ》，季首日期2004-06-26、13话。\n\nhttps://www.themoviedb.org/tv/20353/season/5 (api_snapshot): TMDB API 快照显示第5季的13个剧集标题与输入中的OVA第1至13话逐一对应，包含第1话《波乱のサイクリング〜男の子のないしょ〜》至第13话《時をかけるお雛様〜どれみのないしょ〜》。\n\n备注：输入提供的 AniDB ID 为1768且标题匹配，但本次未能读取 AniDB 条目页面，因此该 Bangumi→AniDB 关联未获得独立页面证据；最终映射由 Bangumi、东映官方资料与 TMDB 季/集内容交叉确认。；TMDB 快照中第6、7话日期分别为2004-11-09、2004-11-18，与 Bangumi/官方资料的日期存在差异；但季标题、首播日、总数和全部剧集标题一致，不影响完整第5季的识别。",
+    "evidence": "gpt-6-sol: 匹配TMDB 20353的第5季。该季的作品名、2004年首播时间、13话范围和剧情背景均符合这部OVA；13个集标题也与Bangumi及东映官方列表按顺序对应，因此本篇第1至13话可连续映射到该季第1至13集。\n\nhttps://bgm.tv/subject/14879 (page): Bangumi 将本条目标为2004年的13话OVA，列出东映动画、佐藤顺一等制作信息。\n\nhttps://bgm.tv/subject/14879/ep (page): Bangumi 章节页列出第1至13话的标题和首播日期，范围为2004年6月26日至12月11日。\n\nhttps://lineup.toei-anim.co.jp/ja/cs/doremi_n/episode/ (search_snippet): 东映动画官方作品页确认《おジャ魔女どれみ ナ・イ・ショ》全13话、放映期间为2004年6月26日至12月11日，并逐话列出标题。\n\nhttps://www.themoviedb.org/tv/20353 (api_snapshot): TMDB 20353为1999年开始的《おジャ魔女どれみ》系列；其第5季明确命名为《おジャ魔女どれみナ・イ・ショ》，首播日为2004年6月26日，共13话。\n\nhttps://www.themoviedb.org/tv/20353/season/5 (api_snapshot): TMDB 20353第5季的13集标题与Bangumi第1至13话逐集对应，季内没有混入其他作品。\n\nhttps://www.themoviedb.org/tv/336005 (api_snapshot): 另一个TMDB独立条目336005也使用相同标题和首播日，设有13话的第1季。\n\nhttps://www.themoviedb.org/tv/336005/season/1 (api_snapshot): TMDB 336005第1季仅以“第N話”命名各集，且多集日期与Bangumi章节记录不符，无法提供同等强度的逐集核对。\n\n备注：TMDB 20353第5季第6、7集的日期分别记为2004年11月9日、11月18日，与Bangumi所记的9月4日、9月18日不符；两集标题及集号仍逐一吻合。；TMDB还存在同名的独立条目336005；其集标题只有通用编号，且多集日期不符。本次采用具有完整对应集标题的20353第5季。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/14879; https://lineup.toei-anim.co.jp/ja/cs/doremi_n/story/; https://www.themoviedb.org/tv/20353; https://www.themoviedb.org/tv/20353/season/5",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/14879; https://bgm.tv/subject/14879/ep; https://lineup.toei-anim.co.jp/ja/cs/doremi_n/episode/; https://www.themoviedb.org/tv/20353; https://www.themoviedb.org/tv/20353/season/5; https://www.themoviedb.org/tv/336005; https://www.themoviedb.org/tv/336005/season/1",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 5,
+      "start": 1,
+      "tmdbId": 20353
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

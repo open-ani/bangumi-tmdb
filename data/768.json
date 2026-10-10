@@ -1,16 +1,56 @@
 {
   "anidbId": 2120,
   "bangumiId": 768,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 7732,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 7733,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 7734,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 7735,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 7736,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 7737,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "TMDB API逐项核对：TMDB 66931 第2季明确标为 DIEBUSTER，6集日文标题、后5集发售日期和诺诺/拉璐可剧情与 Bangumi 一致。第1集 TMDB 使用先行上映日，Bangumi 使用影碟发售日。旧候选 TV 136997 返回404；独立新条目331761也存在，但66931/S2提供完整分集标题和剧情，采用此定位。",
+    "evidence": "gpt-6-sol: 匹配TMDB 66931第2季：作品身份、OVA媒介、制作方、剧情和6集范围一致，六集标题逐集吻合，第2至6集日期也吻合。第1集虽有日期差异，发行方资料确认Bangumi所记2004年11月26日是该集DVD发行日，不影响按标题和内容确认对应关系。\n\nhttps://www.themoviedb.org/tv/66931 (api_snapshot): TMDB 66931 将第2季明确命名为《トップをねらえ2！DIEBUSTER》，标为6集；剧情涉及诺诺、拉璐可与Topless，制作公司包括GAINAX。第1季另列为1988年的《トップをねらえ！》。\n\nhttps://www.themoviedb.org/tv/66931/season/2 (api_snapshot): TMDB 66931 第2季的第1至6集标题依次与Bangumi六集一致；第2至6集日期也逐集一致。季表只有这6集。\n\nhttps://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/11332?entry_id=7970 (page): 发行方确认《トップをねらえ２！》是由GAINAX制作、鶴巻和哉执导的全6集OVA，主角为诺诺与拉璐可。\n\nhttps://a-onstore.jp/item/item-1000183172 (page): 发行方的第1卷资料确认第1集标题为《お姉さまと呼ばせてください！》，DVD发行日为2004年11月26日。\n\nhttps://www.themoviedb.org/tv/331761 (api_snapshot): TMDB另有独立条目331761，名称为《Top wo Nerae 2!》，列出相同的主角配音、鶴巻和哉及6集；66931第2季提供了可逐集核对的完整集表。\n\n备注：TMDB将第1集日期记为2004年10月3日，Bangumi及发行方记录的DVD发行日为2004年11月26日；TMDB该日期的具体依据未核实。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/768; https://www.themoviedb.org/tv/66931; https://www.themoviedb.org/tv/66931/season/2; https://www.themoviedb.org/tv/331761",
-    "verifiedAt": "2026-09-07T18:35:48.804Z"
+    "source": "https://bgm.tv/subject/768; https://www.themoviedb.org/tv/66931; https://www.themoviedb.org/tv/66931/season/2; https://www.bandainamco.co.jp/cgi-bin/releases/index.cgi/press/11332?entry_id=7970; https://a-onstore.jp/item/item-1000183172; https://www.themoviedb.org/tv/331761",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 66931
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

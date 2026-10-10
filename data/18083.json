@@ -1,14 +1,145 @@
 {
   "anidbId": 1761,
   "bangumiId": 18083,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 99424,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 99425,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 99426,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 99427,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 99428,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 99429,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 99430,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 99431,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 99432,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 99433,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 99434,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 99435,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 99436,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 99437,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 99438,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 99439,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 99440,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 99441,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 99442,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 99443,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 99444,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 99445,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 99446,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 99447,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 99448,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 99449,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 18083 是《ギャラクシーエンジェルX》，日期为 2004-07-08，主体共 26 个半集。TMDB TV 42858 的第 4 季同名、同日开始，日期至 2004-09-30，共 13 集；每集标题和简介均以两个半集组合，依次准确对应 Bangumi 的 1–26 话。因此应映射为完整第 4 季，而不是 TMDB 第 4 季的 1–26 集。\n\nhttps://bgm.tv/subject/18083 (page): Bangumi subject 标题为《ギャラクシーエンジェルX》，放送开始于 2004-07-08，共 26 话；关联 AniDB ID 为 1761。\n\nhttps://www.themoviedb.org/tv/42858 (api_snapshot): TMDB TV 42858 为《ギャラクシーエンジェル》，包含名为《ギャラクシーエンジェルX》的第 4 季，季号为 4、共 13 集。\n\nhttps://www.themoviedb.org/tv/42858/season/4 (api_snapshot): 第 4 季同名且始于 2004-07-08；13 集标题分别组合 Bangumi 的相邻两话，覆盖全部 26 个主体半集，至 2004-09-30。",
+    "evidence": "gpt-6-sol: 作品、年份、剧情、制作方及完整播出范围均吻合，确定对应 TMDB TV 42858 第 4 季整季。Bangumi 把每次播出的两个短篇记为两话，TMDB 则合为一集；现有逐集映射结构禁止两个 Bangumi 章节占用同一 TMDB 集，因此不填写会造成错误对应的 rules 或 overrides。\n\nhttps://bgm.tv/subject/18083 (page): Bangumi 将《ギャラクシーエンジェルX》列为 2004 年 7 月 8 日开播、共 26 话的 TV 动画。\n\nhttps://bgm.tv/subject/18083/ep (page): Bangumi 章节表列出 26 个约 12 分钟的半集，每两个相邻章节同日播出，日期从 2004 年 7 月 8 日至 9 月 30 日。\n\nhttps://www.themoviedb.org/tv/42858 (api_snapshot): TMDB TV 42858 是《ギャラクシーエンジェル》系列；第 4 季名为《ギャラクシーエンジェルX》，始于 2004 年 7 月 8 日，共 13 集，制作公司包含 MADHOUSE 和 BROCCOLI。\n\nhttps://www.themoviedb.org/tv/42858/season/4 (api_snapshot): TMDB 第 4 季的 13 集逐集按日期收录 Bangumi 相邻两话的标题：第 1 集合并第 1、2 话，第 13 集合并第 25、26 话；中间各集也依次对应，且季表没有其他作品。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/18083; https://www.themoviedb.org/tv/42858; https://www.themoviedb.org/tv/42858/season/4",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/18083; https://bgm.tv/subject/18083/ep; https://www.themoviedb.org/tv/42858; https://www.themoviedb.org/tv/42858/season/4",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,

@@ -1,16 +1,103 @@
 {
   "anidbId": 2742,
   "bangumiId": 3926,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 28511,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 28512,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 28513,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 28514,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 28515,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 28516,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 28517,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 28518,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 28519,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 28520,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 28521,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 28522,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 28523,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 28523,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 24856,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确为《JINKI:EXTEND》TV，13话，2005-01-05开播；制作信息、别名、剧情与候选 TMDB 条目一致。TMDB 24856 的第1季包含13集，前12集标题与 Bangumi 章节及日期逐一对应，第13集标题“それから”也对应 Bangumi 第13集。第13集在 Bangumi 中标为2006-02-22，公开资料显示其为未电视播出的OVA；TMDB快照将其日期记为2005-03-30，属于日期元数据差异，但不影响作品版本和季内完整范围的确认。因此应纳入 TMDB 第1季完整13集。\n\nhttps://bangumi.tv/subject/3926 (page): Bangumi 条目为 JINKI:EXTEND TV，13话，2005-01-05开播；章节为01至13，第13集日期为2006-02-22，并列出原作、导演、脚本、feel.等制作信息。\n\nhttps://github.com/adminy/anidb_titles_parser/blob/master/title.json (search_snippet): 公开 AniDB 标题索引将 AniDB ID 2742 对应为 Jinki:Extend，支持 Bangumi→AniDB 关联。\n\nhttps://www.themoviedb.org/tv/24856 (api_snapshot): TMDB API 快照显示 ID 24856 的原名为 Jinki: Extend，首播日期为2005-01-05，日语、日本来源，共13集。\n\nhttps://www.themoviedb.org/tv/24856/season/1 (api_snapshot): TMDB 第1季快照为13集；第1至13集标题依次与 Bangumi 条目的13个章节对应，前12集日期也逐一吻合。\n\nhttps://en.wikipedia.org/wiki/Jinki%3A_Extend (search_snippet): 搜索摘要指出第13集未在电视播出，而是以OVA形式发行。\n\n备注：TMDB 快照将第13集 air_date 记为2005-03-30，与 Bangumi及其他公开剧集资料的2006-02-22不一致；该差异未改变其作为同一季第13集的标题和范围对应关系。",
+    "evidence": "gpt-6-sol: 作品的年份、角色及集数相符；前 12 话的标题和播出日期逐一吻合。Bangumi 收录的电视未播出第 13 话与 TMDB 第 1 季第 13 集同名，DVD 资料也确认其属于本作，因此第 1 季完整覆盖该 subject。第 13 话因 TMDB 日期异常，单独指定对应关系。\n\nhttps://bgm.tv/subject/3926/ep (page): Bangumi 将《JINKI:EXTEND》列为 TV 动画；章节页列出 13 话。第 1 至 12 话于 2005 年 1 月至 3 月播出，第 13 话《それから》标为 2006 年 2 月 22 日。\n\nhttps://www.themoviedb.org/tv/24856 (api_snapshot): TMDB 24856 的原名为 Jinki: Extend，首播日为 2005 年 1 月 5 日，角色包括津崎青叶和柊赤绪；仅列出第 1 季，共 13 集。\n\nhttps://www.themoviedb.org/tv/24856/season/1 (api_snapshot): TMDB 第 1 季共 13 集：前 12 集的日文标题和日期均与 Bangumi 逐集一致；第 13 集标题同为《それから》，但 TMDB 日期记为 2005 年 3 月 30 日。\n\nhttps://www.thetvdb.com/series/jinki-extend/allseasons/official (page): TVDB 将《それから》列为第 13 话、2006 年 2 月 22 日发行的 DVD 特典 OVA。\n\nhttps://geo-online.co.jp/store_info/item/1525861/ (search_snippet): DVD《JINKI EXTEND Phase 05》的商品资料注明发行日为 2006 年 2 月 22 日，并收录电视未播出的第 13 话。\n\n备注：TMDB 将第 13 集日期记为 2005 年 3 月 30 日；Bangumi 与 DVD 资料支持 2006 年 2 月 22 日，后者是 DVD 发行日。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3926; https://bangumi.tv/subject/3926; https://github.com/adminy/anidb_titles_parser/blob/master/title.json; https://www.themoviedb.org/tv/24856; https://www.themoviedb.org/tv/24856/season/1; https://en.wikipedia.org/wiki/Jinki%3A_Extend",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3926; https://bgm.tv/subject/3926/ep; https://www.themoviedb.org/tv/24856; https://www.themoviedb.org/tv/24856/season/1; https://www.thetvdb.com/series/jinki-extend/allseasons/official; https://geo-online.co.jp/store_info/item/1525861/",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 24856
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

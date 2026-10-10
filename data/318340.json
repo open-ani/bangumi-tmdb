@@ -1,24 +1,37 @@
 {
   "anidbId": 7550,
   "bangumiId": 318340,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 986670,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 986670,
+      "targets": [
+        {
+          "id": 475870,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 将该条目标为剧场版、1话、2002-07-13上映、片长50分钟；官方 TMS 页面确认同名电影、上映日和50分钟片长。Anime-Lists 将 AniDB 7550（同名作品）关联到 TMDB TV 56389 的 season 0。TMDB season 0 快照中第31、32集均为2002-07-13、各25分钟，合计50分钟，与该电影主体吻合，因此采用 season 0 的 31–32 集范围，不纳入整季或关联的另一部电影。\n\nhttps://bgm.tv/subject/318340 (page): Bangumi 页面标注该作品为剧场版，话数1，上映年度为2002年7月13日，片长50分钟，并给出对应剧情与制作信息。\n\nhttps://www.tms-e.co.jp/alltitles/anpanman/060325.html (page): TMS 官方页面确认《ロールとローラ うきぐも城のひみつ》为2002年7月13日公开、片长50分钟，剧情和制作人员与 Bangumi 条目一致。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (page): Anime-Lists 记录 AniDB ID 7550、同名 Sore Ike! Anpanman: Roll to Laura Ukigumojou no Himitsu，并关联 tmdbtv=56389、tmdbseason=0。\n\nhttps://www.themoviedb.org/tv/56389 (api_snapshot): TMDB TV 快照确认目标 TV ID 为56389，且存在 season 0「特別編」。\n\nhttps://www.themoviedb.org/tv/56389/season/0 (api_snapshot): TMDB season 0 快照显示第31、32集均为2002-07-13、各25分钟；两集连续且总时长50分钟，覆盖该电影主体。\n\n备注：TMDB 第31、32集标题均为泛化的「第X話」且剧情简介为空，因此“电影被拆分为两集”的对应关系主要由 AniDB/Anime-Lists 关联、准确上映日期和总片长交叉支持；未发现单独的 TMDB 剧集剧情标题。",
+    "evidence": "gpt-6-sol: TMDB 有与该一话剧场版在年份、剧情、片长、导演及制作公司上均一致的独立电影条目，因此将 Bangumi 唯一章节对应至电影 475870。旧 TV 特别篇映射与同日上映的另一作品存在集号占用冲突，不采用。\n\nhttps://bgm.tv/subject/318340 (page): Bangumi 将本条目标为一话剧场版，2002年7月13日上映，片长50分钟，导演为大賀俊二。\n\nhttps://www.tms-e.co.jp/alltitles/anpanman/060325.html (page): 制作方 TMS 确认《ロールとローラ うきぐも城のひみつ》于2002年7月13日上映，片长50分钟；剧情及导演与 Bangumi 一致。\n\nhttps://www.themoviedb.org/movie/475870 (api_snapshot): TMDB 电影 475870 的原名、上映日期、50分钟片长、浮云城与萝拉公主的剧情，以及导演大賀俊二均与该剧场版一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/318340; https://www.tms-e.co.jp/alltitles/anpanman/060325.html; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/56389; https://www.themoviedb.org/tv/56389/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/318340; https://www.tms-e.co.jp/alltitles/anpanman/060325.html; https://www.themoviedb.org/movie/475870",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 31,
-      "episodeEnd": 32,
-      "id": 56389,
-      "season": 0,
-      "type": "tv"
+      "id": 475870,
+      "type": "movie"
     }
   ]
 }

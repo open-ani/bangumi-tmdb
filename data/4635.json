@@ -1,23 +1,135 @@
 {
   "anidbId": 259,
   "bangumiId": 4635,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 96137,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 96138,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 96139,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 96140,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 96141,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 96142,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 96143,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 96144,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 96145,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 96146,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 96147,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 96148,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 96149,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 96150,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 96151,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 96152,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 96153,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 96154,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 96155,
+      "sort": 19,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 96155,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 42858,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi 4635 是2002年播出的电视动画第二期《ギャラクシーエンジェルZ》，不是2001年第一期、后续《A》或重剪版。其电视正篇由18个约半集长度的短篇组成，实际按每次两个短篇合并为9个播出单元；TMDB 42858 第2季的名称、日期以及S2E1—S2E9的组合标题与这18个短篇逐项一致。第19话《硝煙と紫煙のカスレ》是TV未放送内容，TMDB单列为S0E1，属于本轮无需映射的额外特典，因此推荐范围仅为S2E1—S2E9。\n\nhttps://www.themoviedb.org/tv/42858 (api_snapshot): TMDB API快照确认TV作品42858为日本动画《ギャラクシーエンジェル》系列条目，其中第2季明确命名为《ギャラクシーエンジェルZ》，首播日期为2002-02-03，共9集。\n\nhttps://www.themoviedb.org/tv/42858/season/2 (api_snapshot): TMDB API快照列出的S2E1—S2E9分别合并两个短篇，其18个标题及2002-02-03至2002-03-31的日期与Bangumi正篇第1—18话逐项吻合。\n\nhttps://bgm.tv/subject/4635 (page): Bangumi作品页确认本条目是《ギャラクシーエンジェルZ》TV动画，2002-02-03开播、2002-03-31结束，并注明“全18话＋未放送1话”；章节页把第19话标为SP。\n\nhttps://www.broccoli.co.jp/ga/anime/ga_02.html (page): Project G.A.官方发行页将《ギャラクシーエンジェルZ》第1—18话列入五卷正篇影像制品，而《硝煙と紫煙のカスレ》另列于Music Collection并明确标注为TV未放送话。\n\nhttps://www.themoviedb.org/tv/42858/season/0 (api_snapshot): TMDB API快照将《ギャラクシーエンジェルZ：硝煙と紫煙のカスレ》收录为特别篇S0E1，而不是第2季的第10集，支持将其排除在正篇S2E1—S2E9范围之外。",
+    "evidence": "gpt-6-sol: 作品年份、制作方、剧情及季名相符。TMDB 第 2 季完整对应本作电视正篇，9 个播出单元各包含 Bangumi 相邻的两个短篇；未放送第 19 话对应特别篇 S0E1。现有规则格式无法将两个 Bangumi 章节同时指向同一 TMDB 集，因此正篇不填写会造成重复占用的逐集规则。\n\nhttps://www.themoviedb.org/tv/42858 (api_snapshot): TMDB 电视作品 42858 由 MADHOUSE、BROCCOLI 制作；第 2 季名为《ギャラクシーエンジェルZ》，始于 2002-02-03，共 9 集。\n\nhttps://www.themoviedb.org/tv/42858/season/2 (api_snapshot): 第 2 季第 1—9 集从 2002-02-03 至 2002-03-31 播出，每集标题依次合并 Bangumi 两个正篇短篇，覆盖全部 18 话。\n\nhttps://www.themoviedb.org/tv/42858/season/0 (api_snapshot): 特别篇第 0 季第 1 集是《ギャラクシーエンジェルZ：硝煙と紫煙のカスレ》，日期为 2002-04-25。\n\nhttps://www.broccoli.co.jp/ga/anime/ga_02.html (page): 官方发行资料逐项列出《Z》正篇第 1—18 话，并将《硝煙と紫煙のカスレ》标为电视未放映话。\n\nhttps://bgm.tv/subject/4635 (page): Bangumi 将本作列为 2002-02-03 开播的电视动画，注明全 18 话加未放送 1 话。\n\n备注：Bangumi 第 16 话输入日期写作 2003-03-24；其相邻章节和 TMDB 对应播出单元均为 2002-03-24，疑为录入错误。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4635; https://www.themoviedb.org/tv/42858; https://www.themoviedb.org/tv/42858/season/2; https://www.broccoli.co.jp/ga/anime/ga_02.html; https://www.themoviedb.org/tv/42858/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/4635; https://www.themoviedb.org/tv/42858; https://www.themoviedb.org/tv/42858/season/2; https://www.themoviedb.org/tv/42858/season/0; https://www.broccoli.co.jp/ga/anime/ga_02.html",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 9,
       "id": 42858,
       "season": 2,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 42858,
+      "season": 0,
       "type": "tv"
     }
   ]

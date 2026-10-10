@@ -1,16 +1,111 @@
 {
   "anidbId": 980,
   "bangumiId": 18457,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 101594,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 101595,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 101596,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 101597,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 101598,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 101599,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 101600,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 101601,
+      "sort": 7.5,
+      "type": 0
+    },
+    {
+      "id": 101602,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 101603,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 101604,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 101605,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 101606,
+      "sort": 12,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 101601,
+      "targets": [
+        {
+          "episode": 13,
+          "id": 20101,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 是 2000-10-16 开播的《人造人間キカイダーTHE ANIMATION》，记录为 13 集；AniDB 980 的别名、年份、导演、制作公司和剧情均与 TMDB 20101 相符。TMDB 20101 第 1 季明确为 13 集、2000-10-16 开播，剧集标题与 Bangumi 基本逐集对应。Bangumi 主体内包含《青い月、赤い夢》（sort 7.5），Annict 明确将其列为第 8 集总集篇，因此按要求不能遗漏；它虽被 TMDB 异常排在第 13 集，但选择完整第 1 季可覆盖主体全部 13 集。TMDB 第 2 季是另一个 Bangumi subject《キカイダー01 THE ANIMATION》，不应纳入；第 0 季为额外特别篇，也不纳入。\n\nhttps://bgm.tv/subject/18457 (page): 输入的 Bangumi subject 记录为 13 集，首播日期 2000-10-16，标题为《人造人間キカイダーTHE ANIMATION》，并包含《青い月、赤い夢》这一主体内条目。\n\nhttps://www.themoviedb.org/tv/20101 (api_snapshot): TMDB TV 20101 标题、原文标题、首播日期 2000-10-16、日语/日本制作信息和剧情与该 Bangumi subject 匹配；其季列表显示第 1 季 13 集、第 2 季为《キカイダー01 THE ANIMATION》4 集。\n\nhttps://www.themoviedb.org/tv/20101/season/1 (api_snapshot): TMDB 第 1 季明确有 13 集，包含《孤独な人形》《狂った機械》《ストレイ・シープ》《鏡》《雨の街》《負の断片》《ともだち》《凍る絆》《破壊魔》《夢見る機械》《夢の末路》和《青い月、赤い夢》等对应标题。\n\nhttps://prod4.annict.com/works/916/episodes (page): 独立剧集表列出第 1 至第 13 集，并将《青い月赤い夢》列为第 8 集总集编，随后为《ともだち》至《夢の末路》。\n\nhttps://www.aniplex.co.jp/lineup/Kikaider/ (page): 官方资料确认 2000 年播出的《人造人間キカイダー THE ANIMATION》与 2001 年的 OVA《キカイダー01 THE ANIMATION》是不同作品/篇章，支持只采用 TMDB 第 1 季。\n\n备注：TMDB 快照把《青い月、赤い夢》放在第 13 集且日期为 2000-12-04，和按播出顺序应为第 8 集的独立剧集表不一致；由于主体要求覆盖完整 13 集，采用完整第 1 季即可避免错误推导单集范围。；官方简介称主线为全 12 话，可能是不计总集篇的叙事集数；Bangumi、Annict 和 TMDB 均将主体/第 1 季计为 13 集，因此未排除该主体内总集篇。",
+    "evidence": "gpt-6-sol: 作品的首播日期、剧情、媒介及制作资料吻合。TMDB 第1季完整收录本 subject 的12话主线和1话总集篇，且不混入第2季 OVA。两段连续规则由逐集标题与播出日期核实；Bangumi sort 7.5 的总集篇单独对应 TMDB 第13集。\n\nhttps://www.themoviedb.org/tv/20101 (api_snapshot): TMDB 20101 是2000年10月16日首播的《人造人間キカイダー THE ANIMATION》；剧情涉及次郎、良心回路、光明寺博士和基鲁。第1季为本作，第2季另列《キカイダー01 THE ANIMATION》。\n\nhttps://www.themoviedb.org/tv/20101/season/1 (api_snapshot): TMDB 第1季共13集。第1至7集及第8至12集的标题和播出日期分别对应 Bangumi 的 sort 1至7、8至12；《青い月、赤い夢》播出日期为2000年12月4日，但在 TMDB 编为第13集。\n\nhttps://www.aniplex.co.jp/lineup/Kikaider/ (page): Aniplex 确认2000年的电视动画与2001年的《キカイダー01 THE ANIMATION》OVA 是不同篇章。\n\nhttps://www.aniplex.co.jp/Kikaider/staff/index.html (page): Aniplex 列出电视动画的导演冈村天斋、音乐见岳章及 RADIX、Studio OX 动画制作，与输入资料一致。\n\nhttps://prod4.annict.com/works/916/episodes (page): Annict 将《青い月赤い夢》列为第8话总集篇，位于《悲の残照》和《ともだち》之间。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/18457; https://www.themoviedb.org/tv/20101; https://www.themoviedb.org/tv/20101/season/1; https://prod4.annict.com/works/916/episodes; https://www.aniplex.co.jp/lineup/Kikaider/",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/18457; https://www.themoviedb.org/tv/20101; https://www.themoviedb.org/tv/20101/season/1; https://www.aniplex.co.jp/lineup/Kikaider/; https://www.aniplex.co.jp/Kikaider/staff/index.html; https://prod4.annict.com/works/916/episodes",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 7,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 20101
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 8,
+      "season": 1,
+      "start": 8,
+      "tmdbId": 20101
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

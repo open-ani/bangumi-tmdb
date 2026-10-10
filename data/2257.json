@@ -1,16 +1,174 @@
 {
   "anidbId": 2435,
   "bangumiId": 2257,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 13051,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 13052,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 13053,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 13054,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 13055,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 13056,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 13057,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 13058,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 13059,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 13060,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 13061,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 13062,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 13063,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 13064,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 13065,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 13066,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 13067,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 13068,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 13069,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 13070,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 13071,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 13072,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 13073,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 13074,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 13075,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 13076,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 13077,
+      "sort": 27,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 13075,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-sol: Bangumi subject 是大森贵弘执导、Group TAC 制作并于2004—2005年播出的日本电视动画《学園アリス》，不是电影、真人版、重制版或重剪版。TMDB 电视作品 23375 的原名、首播日期、剧情以及第1季首尾集标题均与之吻合。话数差异源于 Bangumi 将2005年4月30日播出的《総集編☆もう一度会いたい》计入27条记录；日本动画资料将其单列为“S（总集篇）”，正篇仍编号为1—26。TMDB 第1季恰好收录这26集正篇，第25集为《学園を取り戻せ☆》，第26集为《友情は☆エンドレス》，因此推荐完整第1季，无需限定部分集数；未另行映射该总集篇。\n\nhttps://www.themoviedb.org/tv/23375 (api_snapshot): TMDB API 快照显示电视作品 ID 23375 的原名为《学園アリス》，首播日为2004年10月30日，剧情是蜜柑追随蛍来到只接纳“爱丽丝”能力者的学校，并且全剧只有一个26集季度；这些身份信息与目标 subject 一致。\n\nhttps://www.themoviedb.org/tv/23375/season/1 (api_snapshot): TMDB API 快照显示第1季共26集：第1集《学校がなくなっちゃう☆》起，前24集与目标逐集对应，第25集为《学園を取り戻せ☆》，第26集为《友情は☆エンドレス》；因此该季采用排除总集篇后的正篇编号。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=22170024&workId=22170 (page): d动画商店将《学園アリス》标为全26话，确认制作年份为2004年、原作为樋口橘、导演为大森贵弘、制作公司为Group TAC，并将结尾编号为第25话《学園を取り戻せ☆》和第26话《友情は☆エンドレス》。\n\nhttps://animedb.moe/anime/series/4251 (page): 基于日本媒体艺术数据库资料整理的页面确认本作为2004年10月30日至2005年5月14日播出的26话TV动画，并在第24话与第25话之间把《総集編★もう一度会いたい》单独标作“S”，证明Bangumi的第25条实际上是未占正篇编号的总集篇。",
+    "evidence": "gpt-6-sol: 作品的首播年份、剧情、原作、导演、制作公司与媒介均吻合。TMDB 第1季完整收录26话正篇；Bangumi 的27条记录另含一条总集篇，因此将第1至24条对应 TMDB 第1至24集、第26至27条对应第25至26集，并明确排除 Bangumi 第25条总集篇。\n\nhttps://www.themoviedb.org/tv/23375 (api_snapshot): 以日文原名及英文别名搜索，均找到 TMDB 电视作品 23375《学園アリス》，首播日期为2004年10月30日，简介与蜜柑追随蛍进入爱丽丝学园的剧情一致。\n\nhttps://www.themoviedb.org/tv/23375 (api_snapshot): 作品详情显示原作樋口橘、导演大森贵弘、制作公司 Group TAC；全剧只有1季，共26集。\n\nhttps://www.themoviedb.org/tv/23375/season/1 (api_snapshot): 第1季实际集表共26集；第1至24集与 Bangumi 第1至24条标题顺序一致，第25、26集分别为《学園を取り戻せ☆》《友情は☆エンドレス》。\n\nhttps://www.aniplex.co.jp/lineup/gakuenalice/ (page): Aniplex 官方页面确认本作是2004年开播的电视动画，原作樋口橘、导演大森贵弘、制作公司 Group TAC。\n\nhttps://www.aniplex.co.jp/alice/video/ (page): Aniplex 官方 DVD 目录将《学園を取り戻せ☆》和《友情は☆エンドレス》编号为第25、26话，未将总集篇纳入这26话。\n\nhttps://animedb.moe/anime/series/4251 (page): 逐话资料将2005年4月30日播出的《総集編★もう一度会いたい》单列为“S”，其后两话编号为25、26。\n\n备注：TMDB 季表中个别集的日期与播出资料不一致；这些集的日文标题及前后顺序均吻合，不影响逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/2257; https://www.themoviedb.org/tv/23375; https://www.themoviedb.org/tv/23375/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=22170024&workId=22170; https://animedb.moe/anime/series/4251",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/2257; https://www.themoviedb.org/tv/23375; https://www.themoviedb.org/tv/23375/season/1; https://www.aniplex.co.jp/lineup/gakuenalice/; https://www.aniplex.co.jp/alice/video/; https://animedb.moe/anime/series/4251",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 23375
+    },
+    {
+      "bangumiType": 0,
+      "end": 27,
+      "episodeStart": 25,
+      "season": 1,
+      "start": 26,
+      "tmdbId": 23375
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

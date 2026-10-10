@@ -1,14 +1,64 @@
 {
   "anidbId": 2163,
   "bangumiId": 3100,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 22022,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 22023,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 22024,
+      "sort": 25,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 22022,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 20736,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 22023,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 20736,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 22024,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 20736,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi subject 3100 明确是《くじびきアンバランス》OVA，共3集，发售日期为2004-12-22至2005-04-22，并标注 AniDB ID 2163 且标题匹配。TMDB TV 20736 的特别篇 season 0 同样为2004-12-22开始、3集，三集标题和日期分别对应「出会いはアンバランス」(2004-12-22)、「大総集編」(2005-02-25)、「くじびきよ、永遠（とわ）に」(2005-04-22)。因此应对应完整的 season 0；不应采用其2006年的TV season 1。\n\nhttps://bgm.tv/subject/3100 (page): Bangumi 将该主体标为《不公正抽签 OVA》，共3集，日期为2004-12-22、2005-02-25、2005-04-22，并提供 AniDB ID 2163，标题状态为 matched。\n\nhttps://www.themoviedb.org/tv/20736 (api_snapshot): TMDB TV 20736 名称为「くじびき♥アンバランス」，首播日期为2006-10-07，并列出 season 0「特別編」3集及 season 1 12集。\n\nhttps://www.themoviedb.org/tv/20736/season/0 (api_snapshot): TMDB season 0 为「特別編」，共3集，日期和标题完整对应Bangumi OVA的三集内容。",
+    "evidence": "gpt-6-sol: 本条目是2004—2005年发行的3话OVA，完整对应 TMDB 20736 的第0季。Bangumi 的1、21、25是剧中设定话数，TMDB 将实际制作的三话连续编为第0季第1—3集；标题与发行日期逐集吻合，因此用章节 ID 分别指定。TMDB 第1季是2006年的12话TV版，不属于本条目。\n\nhttps://bgm.tv/subject/3100 (page): Bangumi 将本条目标为2004年开始发行的3话OVA，导演为池端隆史，动画制作为パルム，并注明随《现视研》DVD-BOX附送；页面将2006年TV版列为不同演绎。\n\nhttps://bgm.tv/subject/3100/ep (page): Bangumi 章节表依次列出第1、21、25话，发行日期分别为2004-12-22、2005-02-25、2005-04-22。\n\nhttps://www.themoviedb.org/tv/20736 (api_snapshot): TMDB TV 20736 的作品详情列有2004-12-22开始、共3集的第0季，以及2006-10-07开始、共12集的第1季；制作公司包括 Palm Studio 和 GENCO。\n\nhttps://www.themoviedb.org/tv/20736/season/0 (api_snapshot): TMDB 第0季仅有3集，集号1、2、3分别标作剧情中的第1、21、25话；三集标题和日期均与 Bangumi 章节逐一对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/3100; https://www.themoviedb.org/tv/20736; https://www.themoviedb.org/tv/20736/season/0",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/3100; https://bgm.tv/subject/3100/ep; https://www.themoviedb.org/tv/20736; https://www.themoviedb.org/tv/20736/season/0",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,

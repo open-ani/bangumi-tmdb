@@ -1,15 +1,46 @@
 {
+  "anidbId": 9578,
   "bangumiId": 112649,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 428835,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 428836,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 613733,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 613734,
+      "sort": 4,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 211452 的原名为「古町と団五郎 ～ラグーンストーンを探せ!～」，与 Bangumi 原名及别名一致；官方页面明确将其定义为「古町と団五郎」系列，并列出第一至第四弹，四个标题分别对应 Bangumi 的4集。题材均为新潟宣传动画，主角为花野古町与笹団五郎，导演/人物设定阿部恒，制作方前3集为MAPPA、第4集为フウシオスタジオ，均与 Bangumi 资料吻合。TMDB 的第1季实际包含4集且无其他作品混入，因此使用完整第1季。TMDB 的集名过于泛化，且其日期均集中在2012年，与后续各弹实际发布年份不完全一致，但不影响作品身份和4集范围判断。\n\nhttps://api.bgm.tv/v0/subjects/112649 (api_snapshot): Bangumi fresh API 标题为「古町と団五郎」，WEB动画，共4集；工作人员为阿部恒，制作注明MAPPA(1~3)、Husio Studio(4)。\n\nhttps://www.themoviedb.org/tv/211452 (api_snapshot): TMDB 详情确认这是日文原名「古町と団五郎 ～ラグーンストーンを探せ!～」的TV条目，1季4集，导演为阿部恒，状态为Ended。\n\nhttps://www.themoviedb.org/tv/211452/season/1 (api_snapshot): TMDB第1季实际返回4集，编号为1至4，total_pages为1，未发现分页或额外混入内容。\n\nhttps://manganime-niigata.jp/komachi-dangoro/animation/ (page): 新潟市官方页面明确列出该系列的第一弹「ラグーンストーンを探せ！」、第二弹「謎の巨大魚をつかまえろ！」、第三弹「光る鯛車を取り戻せ！」、第四弹「夢のビーチ❤︎古町のアイドルオーディション！」；并确认阿部恒负责导演/人物设定、MAPPA负责前3弹、フウシオスタジオ负责第4弹。\n\n备注：TMDB季表使用「第1話」至「第4話」的泛化集名，未记录各弹的正式标题。；TMDB详情与季表把播出日期集中在2012年，和Bangumi记录的2013、2014、2015年后续弹日期不一致，属于TMDB日期元数据偏差。",
+    "evidence": "gpt-6-sol: 作品身份及整季范围可确认：TMDB 的首弹副标题、2012 年起始时间、导演与声优均吻合；其唯一一季有 4 集，官方与 Apple TV 均将本系列列为四部约 8 分钟的短片。第 1 集还可由首弹标题、时长及相差一天的起始日期对应。TMDB 第 2 至 4 集缺少正式标题，所记 2012 年日期又与 Bangumi 的逐年发布日期冲突，因此暂不建立这三集的逐集规则。\n\nhttps://www.themoviedb.org/tv/211452 (api_snapshot): 按日文原名搜索仅找到 TMDB 电视作品 211452，标题带第一弹副标题，首播日期记为 2012 年 11 月 14 日。\n\nhttps://www.themoviedb.org/tv/211452 (api_snapshot): TMDB 详情记录导演阿部恒、声优南里侑香和野水伊织，共 1 季 4 集。\n\nhttps://www.themoviedb.org/tv/211452/season/1 (api_snapshot): TMDB 第 1 季共 4 集、仅 1 页；集名只有「第1話」至「第4話」，日期全被记在 2012 年 11 月至 12 月。\n\nhttps://manganime-niigata.jp/komachi-dangoro/animation/ (page): 新潟市官方页面依次列出四弹的正式标题，确认导演阿部恒、前 3 弹由 MAPPA 制作、第 4 弹由フウシオスタジオ制作；另列出独立的主题歌完整版。\n\nhttps://bgm.tv/subject/112649/ep (page): Bangumi 四集分别标为 2012、2013、2014、2015 年首播，每集约 8 分钟。\n\nhttps://tv.apple.com/jp/show/%E5%8F%A4%E7%94%BA%E3%81%A8%E5%9B%A3%E4%BA%94%E9%83%8E/umc.cmc.2txat68d2bsl4efe8olmewkhn (page): Apple TV 将四个正式标题按第 1 至第 4 集列在同一季，每集约 8 分钟，与官方四弹及 Bangumi 的顺序一致。\n\n备注：TMDB 第 2 至 4 集的日期与 Bangumi 相差一至三年，且只有泛化集名；目前无法仅凭 TMDB 集表逐集核实其对应关系。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/112649; https://api.bgm.tv/v0/subjects/112649; https://www.themoviedb.org/tv/211452; https://www.themoviedb.org/tv/211452/season/1; https://manganime-niigata.jp/komachi-dangoro/animation/",
-    "verifiedAt": "2026-09-08T19:45:21.341Z"
+    "source": "https://bgm.tv/subject/112649; https://www.themoviedb.org/tv/211452; https://www.themoviedb.org/tv/211452/season/1; https://manganime-niigata.jp/komachi-dangoro/animation/; https://bgm.tv/subject/112649/ep; https://tv.apple.com/jp/show/%E5%8F%A4%E7%94%BA%E3%81%A8%E5%9B%A3%E4%BA%94%E9%83%8E/umc.cmc.2txat68d2bsl4efe8olmewkhn",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 211452
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

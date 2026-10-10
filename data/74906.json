@@ -1,16 +1,168 @@
 {
   "anidbId": 853,
   "bangumiId": 74906,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 276787,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 276788,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 276789,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 276790,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 276791,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 276792,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 276793,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 276794,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 276795,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 276796,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 276797,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 276798,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 276799,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 276800,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 276801,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 276802,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 276803,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 276804,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 276805,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 276806,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 276807,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 276808,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 276809,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 276810,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 276811,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 276812,
+      "sort": 19.5,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 276812,
+      "targets": [
+        {
+          "episode": 26,
+          "id": 34161,
+          "season": 1,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 与候选均为《七人のナナ》/Seven of Seven，2002年1月10日开播，剧情、制作团队和25集正篇一致。Bangumi主体另含“补习问题”特别篇；独立资料确认该特别篇为未放送OVA，TMDB第1季则将其收录为第26集（2002年10月2日）。因此应匹配 TMDB TV 34161 的完整第1季，共26集，不能只取1–25集。\n\nhttps://bangumi.tv/subject/74906 (search_snippet): Bangumi页面显示《七人のナナ》、TV、2002年、26话及相关制作信息。\n\nhttps://animestore.docomo.ne.jp/animestore/cd?partId=11428001 (search_snippet): 剧集资料列出全26话，并明确包含“补习问题（TV未放映）お正月だよ！7×7=49人のナナ？”；同时列出今川泰宏、A.C.G.T.等制作信息。\n\nhttps://www.anilist.co/anime/117019/Shichinin-no-Nana-Oshougatsu-Da-yo-77--49nin-no-Nana (search_snippet): 该新年特别篇被标为OVA，标题、导演、人物设定和动画制作与本作一致。\n\nhttps://www.themoviedb.org/tv/34161 (api_snapshot): TMDB TV 34161标题为“七人のナナ”，首播日期为2002-01-10，简介与七人分身及升学故事一致，共26集。\n\nhttps://www.themoviedb.org/tv/34161/season/1 (api_snapshot): TMDB第1季为26集；第1–25集日期为2002-01-10至2002-06-27，第26集标题为“お正月だよ！7×7=49人のナナ？”、日期为2002-10-02。\n\n备注：AniDB 853的AniDB详情页本次无法直接读取；但输入中的AniDB标题别名、Bangumi资料、剧情、年份、制作信息及完整剧集列表均与该TMDB条目一致。",
+    "evidence": "gpt-6-sol: 作品年份、剧情、制作人员和声优相符；25集电视正篇与TMDB第1季第1至25集的标题及放送日期逐集吻合。Bangumi另列的小数排序补习篇对应TMDB同季第26集，故以特例映射，整季26集均属本subject。\n\nhttps://www.themoviedb.org/tv/34161 (api_snapshot): TMDB TV 34161 为2002年1月10日首播的《七人のナナ》；七人分身及升学考试的剧情、今川泰宏和主要声优均与输入资料一致。\n\nhttps://www.themoviedb.org/tv/34161/season/1 (api_snapshot): TMDB第1季共26集。第1至25集的标题、日期和顺序与Bangumi正篇逐集吻合；第26集标题为新年补习篇，标注日期为2002年10月2日。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=11428 (page): dアニメストア将本作列为2002年制作、全26话，并列出今川泰宏、西田亜沙子及主要声优。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?partId=11428026&workId=11428 (search_snippet): dアニメストア的剧集摘要将「お正月だよ！7×7=49人のナナ？」列为电视未播映的补习篇。\n\nhttps://www.oricon.co.jp/prof/34386/products/487387/1/ (page): Oricon记载《七人のナナ》第7卷DVD于2002年10月2日发行；该日期与TMDB第26集所标日期一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/74906; https://bangumi.tv/subject/74906; https://animestore.docomo.ne.jp/animestore/cd?partId=11428001; https://www.anilist.co/anime/117019/Shichinin-no-Nana-Oshougatsu-Da-yo-77--49nin-no-Nana; https://www.themoviedb.org/tv/34161; https://www.themoviedb.org/tv/34161/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/74906; https://www.themoviedb.org/tv/34161; https://www.themoviedb.org/tv/34161/season/1; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=11428; https://animestore.docomo.ne.jp/animestore/ci_pc?partId=11428026&workId=11428; https://www.oricon.co.jp/prof/34386/products/487387/1/",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 25,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34161
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

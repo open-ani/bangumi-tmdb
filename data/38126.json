@@ -1,13 +1,31 @@
 {
   "bangumiId": 38126,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 164153,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 164153,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 30983,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 明确记载这是2002年的单集OVA，收录于《SECRET FILE Vol.1》，剧情是柯南一行人在白罗馆聚会时围绕碎酒瓶寻找16名嫌疑人。TMDB主系列条目30983的特别篇第0季第2集实际标为《16人の容疑者!?》，日期为2002-01-01、片长25分钟；外部作品资料也将其列为《Detective Conan》的第2部OVA，并记载原始日期为2002-01-16及相同剧情。它不是剧场版《14番目の標的》本身，因此只映射到特别篇S0E2，不使用整季或电影条目。\n\nhttps://api.bgm.tv/v0/subjects/38126 (api_snapshot): Bangumi API：平台为OVA，日期2002-01-16，1集；简介说明收录于《名探偵コナン SECRET FILE Vol.1》。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TMDB详情：30983是1996年开始的《名探偵コナン》TV作品，包含season 0“特別編”。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): TMDB季表：season 0第2集实际标题为《16人の容疑者!?》，日期2002-01-01，片长25分钟；第1、3集分别是其他OVA，故只能取第2集。\n\nhttps://www.detectiveconanworld.com/wiki/16_Suspects%21%3F (page): 作品资料：该作英文名为“16 Suspects!?”，是Detective Conan第2部OVA，原始日期为2002-01-16，并列出山本泰一郎导演、古内一成编剧及同一案件设定。",
+    "evidence": "gpt-6-sol: 作品名称、2002年发行年份、OVA序号及单集篇幅共同确认对应 TMDB《名探偵コナン》特别篇 S0E2。Bangumi 章节日期采用2006年合集发行日，因此以章节 ID 明确指定对应集。现有占用信息还将 S0E2 分配给1998年剧场版《14番目の標的》；该占用与已核实的集标题不符，应复核清理。\n\nhttps://bgm.tv/subject/38126 (page): Bangumi 将本作列为单集 OVA，发售日为2002年1月16日，并注明2006年3月24日收录于《SECRET FILE Vol.1》。\n\nhttps://www.detectiveconanworld.com/wiki/16_Suspects!%3F (page): 作品资料将《16人の容疑者!?》列为《名探偵コナン》第2部 OVA，日期为2002年1月16日，剧情围绕白鸟别墅中打碎的酒瓶展开。\n\nhttps://www.themoviedb.org/tv/30983 (api_snapshot): TMDB 30983 是1996年开播的《名探偵コナン》，包含第0季“特別編”。\n\nhttps://www.themoviedb.org/tv/30983/season/0 (api_snapshot): TMDB 第0季第2集标题为《16人の容疑者!?》，标注2002年、片长25分钟；相邻集是其他 OVA。\n\n备注：TMDB 将该集日期记为2002年1月1日，与作品资料的2002年1月16日不一致；其集标题、年份和 OVA 序号仍相符。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/38126; https://api.bgm.tv/v0/subjects/38126; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0; https://www.detectiveconanworld.com/wiki/16_Suspects%21%3F",
-    "verifiedAt": "2026-09-08T18:53:45.605Z"
+    "source": "https://bgm.tv/subject/38126; https://www.detectiveconanworld.com/wiki/16_Suspects!%3F; https://www.themoviedb.org/tv/30983; https://www.themoviedb.org/tv/30983/season/0",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,

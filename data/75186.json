@@ -1,13 +1,65 @@
 {
+  "anidbId": 10774,
   "bangumiId": 75186,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 278439,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 278440,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 278441,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 278442,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 278443,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 278444,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 278445,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 278446,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 278447,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 278448,
+      "sort": 10,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 已确认是同一部日本电视台原创电视动画/综艺式动画节目《週刊ストーリーランド》（Shuukan Storyland），不是电影、OVA、音乐录像或其他版本。TMDB 原名、首播日、日文媒介和概要均匹配；官方资料确认其为1999年10月14日至2001年9月13日播出的多公司合作、观众投稿短篇合集，共56次放送回。TMDB第1季实际季表有56集，覆盖该主体且未混入其他作品，因此使用整季，不填写集数范围。\n\nhttps://www.themoviedb.org/tv/279532 (api_snapshot): TMDB详情：原名为「週刊ストーリーランド」，首播日1999-10-14，日文TV作品，number_of_episodes为56，number_of_seasons为1。\n\nhttps://www.themoviedb.org/tv/279532/season/1 (api_snapshot): TMDB第1季实际集表显示season=1、episodeCount=56，集号连续覆盖1至56。\n\nhttps://www.nippon-animation.co.jp/work/1795/ (search_snippet): 日本动画公司官方作品页：放送期间1999/10/14—2001/09/13；共56回，每回由约15分钟短篇3至4部组成；8家公司共同制作，日本动画公司负责其中40部。\n\nhttps://www.tms-e.co.jp/alltitles/1990s/912101.html (page): TMS官方作品页确认同名作品、1999-10-14开播、2001-09-13结束、日本电视台系播出，并说明TMS制作部分为39话、单话约15分钟及相关编剧/演出人员。\n\nhttps://www.bpcj.or.jp/program/detail/010148/ (page): 日本放送节目资料库确认首回于1999-10-14在日本电视台播出，节目类型含动画，内容为将观众投稿故事动画化并在一回中介绍三个故事。\n\nhttps://api.bgm.tv/v0/subjects/75186 (api_snapshot): Bangumi原始资料：日文名、中文名、TV媒介、首播日1999-10-14、话数56，与该TMDB作品身份和整季规模吻合。\n\n备注：TMDB详情和季表中的末播日/逐集日期只到2000-11-02，与日本动画公司、TMS及Bangumi记录的2001-09-13不一致，属于TMDB日期元数据问题；不影响标题、媒介、版本及56集范围的匹配。；TMDB详情未提供完整工作人员列表；制作人员和多公司制作信息由日本动画公司、TMS官方资料交叉确认。",
+    "evidence": "gpt-6-sol: 作品原名、首播日期、投稿短篇合集的节目形式及56回放送规模均相符；制作公司与电视台资料也支持同一作品身份。TMDB仅有第1季，季表列出56集，因此对应整季。Bangumi现有10个章节均无标题和播出日期，而TMDB逐集标题仅为序号、日期与官方播出区间不符，不能可靠建立逐集规则。\n\nhttps://www.themoviedb.org/tv/279532 (api_snapshot): TMDB 作品原名为《週刊ストーリーランド》，首播于1999年10月14日，简介明确记载观众投稿短篇组成的节目共播出56回；详情显示仅有第1季、共56集。\n\nhttps://www.themoviedb.org/tv/279532/season/1 (api_snapshot): TMDB 第1季实际季表共56集，集号为1至56，未显示其他作品的内容。\n\nhttps://www.nippon-animation.co.jp/work/1795/ (search_snippet): 日本动画公司官方资料记载本节目于1999年10月14日至2001年9月13日播出，共56回，每回包含3至4部短篇，由8家公司共同制作。\n\nhttps://www.tms-e.co.jp/alltitles/1990s/912101.html (page): TMS官方资料确认同名节目在日本电视台播出，起止日期一致；TMS负责制作其中39部约15分钟的短篇。\n\nhttps://www.bpcj.or.jp/program/detail/010148/ (page): 放送节目资料库记载1999年10月14日的首回节目由日本电视台播出，包含三则观众投稿故事的动画。\n\nhttps://bgm.tv/subject/75186 (page): Bangumi条目将本作列为1999年10月14日开播的TV作品，话数为56。\n\n备注：TMDB将第56集标为2000年11月2日，但制作公司记载节目播至2001年9月13日；TMDB逐集日期明显需要核对。；TMDB逐集标注15分钟，而官方资料说明每次放送包含3至4部约15分钟短篇；其逐集时长元数据与完整放送回的形式不一致。；Bangumi仅录入10个无标题、无日期的章节，暂无法确认这些章节各自对应哪次放送。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/75186; https://www.themoviedb.org/tv/279532; https://www.themoviedb.org/tv/279532/season/1; https://www.nippon-animation.co.jp/work/1795/; https://www.tms-e.co.jp/alltitles/1990s/912101.html; https://www.bpcj.or.jp/program/detail/010148/; https://api.bgm.tv/v0/subjects/75186",
-    "verifiedAt": "2026-09-08T19:11:42.779Z"
+    "source": "https://bgm.tv/subject/75186; https://www.themoviedb.org/tv/279532; https://www.themoviedb.org/tv/279532/season/1; https://www.nippon-animation.co.jp/work/1795/; https://www.tms-e.co.jp/alltitles/1990s/912101.html; https://www.bpcj.or.jp/program/detail/010148/",
+    "verifiedAt": "2026-10-10T01:53:18.058Z"
   },
   "rules": [],
   "schemaVersion": 1,
