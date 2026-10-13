@@ -1,0 +1,51 @@
+{
+  "bangumiId": 467076,
+  "episodes": [
+    {
+      "id": 1274127,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1274128,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1274129,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1274130,
+      "sort": 4,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi记录为1986至1987年播出的4话苏联动画；候选电视剧80708的第2季恰有4集，年份分布一致，而第1季为1983年。故将主体对应第2季。Bangumi各话没有标题和放送日期，候选季表的集标题也只是通用编号，无法独立核实逐话顺序，因此不填写逐集规则。\n\nhttps://www.themoviedb.org/tv/80708 (api_snapshot): 该作品第2季有4集，前2集标为1986年、后2集标为1987年；第1季的4集均标为1983年。作品来源国为苏联，制作公司为Ekran。\n\nhttps://www.themoviedb.org/movie/1113523 (api_snapshot): 另有标题分别为《Следствие ведут Колобки. Часть 1》和《Следствие ведут Колобки. Часть 2》的电影条目，发行日期分别为1986年12月28日和1987年1月4日。\n\nhttps://www.themoviedb.org/movie/1113579 (api_snapshot): 《Следствие ведут Колобки. Часть 2》作为独立电影条目收录。\n\n备注：缺少可比对的逐话标题和日期，Bangumi第1至4话尚不能可靠地分别对应TMDB第2季的具体集号。；候选电影存在1986年和1987年的分部条目；现有数据不足以判断它们与四话版本的剪辑或发行关系。\n\n脚本按声明范围生成逐集规则：4 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/467076; https://www.themoviedb.org/tv/80708; https://www.themoviedb.org/movie/1113523; https://www.themoviedb.org/movie/1113579",
+    "verifiedAt": "2026-10-13T03:10:29.720Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 1,
+      "tmdbId": 80708
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 80708,
+      "season": 2,
+      "type": "tv"
+    }
+  ]
+}
