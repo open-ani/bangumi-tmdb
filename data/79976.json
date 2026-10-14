@@ -1,13 +1,25 @@
 {
+  "anidbId": 9415,
   "bangumiId": 79976,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 304632,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 304633,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 条目与该作品身份一致：原名为「Efficus この想いを君に」，日期为 1998-09-23，片长 80 分钟，制作公司为 Magic Bus，导演/编剧为木宮茂。Bangumi 与资料页均确认这是 1998 年全 2 卷的 OVA，剧情为异世界 Efficus 王国三位公主经营并守护「エフィカスまんじゅう」，与游戏本体的现代校园恋爱模拟设定相区别。TMDB 将两卷 OVA 合并建模为单部电影，因此不填写季或集数范围。\n\nhttps://www.themoviedb.org/movie/442164 (api_snapshot): TMDB API 详情确认作品名、1998-09-23 日期、80 分钟片长、Magic Bus 制作及木宮茂导演/编剧。\n\nhttps://bgm.tv/subject/79976 (page): Bangumi 确认媒介为 OVA、共 2 集，并描述三位公主经营 Efficus 馒头的剧情及其与原游戏的差异。\n\nhttps://www.allcinema.net/cinema/88172 (page): 资料页确认 1998 年日本原创视频动画、全 2 卷、总时长 80 分钟、1998-09-23 开始发行及 Magic Bus 制作。\n\nhttps://simkl.com/anime/36132/efficus-kono-omoi-o-kimi-ni (page): 交叉资料确认别名、OVA 媒介、1998 年、80 分钟及 2 集/2 卷结构。",
+    "evidence": "gpt-6-sol: TMDB 电影 442164 的标题、首发日期、80 分钟片长及制作公司，与 Bangumi 和 allcinema 记载的这部两卷 OVA 相符。TMDB 以单部电影收录整部作品，因此映射整部电影；不将 Bangumi 两话推定为 TMDB 分集。\n\nhttps://www.themoviedb.org/movie/442164 (api_snapshot): 以别名“Efficus”搜索，TMDB 返回电影 442164，标题为“Efficus この想いを君に”，日期为 1998-09-23。\n\nhttps://www.themoviedb.org/movie/442164 (api_snapshot): 已读取电影 442164 的详情：片长 80 分钟，制作公司为 Magic Bus，导演及编剧列为木宮茂。\n\nhttps://bangumi.tv/subject/79976 (page): Bangumi 将本作列为 1998 年发行、共 2 话的 OVA，动画制作为マジックバス，并记载异世界三位公主售卖“エフィカスまんじゅう”的剧情。\n\nhttps://www.allcinema.net/cinema/pdf/88172 (page): allcinema 将同名作品列为 1998 年的 80 分钟原创录像动画，并说明其 OVA 共发行 2 卷，剧情与原游戏的校园设定不同。\n\n备注：TMDB 详情没有剧情简介或分卷资料，无法建立两话各自的逐集对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/79976; https://www.themoviedb.org/movie/442164; https://www.allcinema.net/cinema/88172; https://simkl.com/anime/36132/efficus-kono-omoi-o-kimi-ni",
-    "verifiedAt": "2026-09-08T19:16:17.711Z"
+    "source": "https://bgm.tv/subject/79976; https://www.themoviedb.org/movie/442164; https://bangumi.tv/subject/79976; https://www.allcinema.net/cinema/pdf/88172",
+    "verifiedAt": "2026-10-14T01:21:52.869Z"
   },
   "rules": [],
   "schemaVersion": 1,

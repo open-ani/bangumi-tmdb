@@ -65,15 +65,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "default: 确认对应 TMDB 98865 第1季。版本、剧情、制作人员及首播日期吻合，前11集标题和日期逐集一致，因此仅映射已核实的第1—11集；第11集虽尚未播出，但双方标题及明确排期一致。\n\nhttps://mebiusdust.asmik-ace.co.jp/ (page): 官方网站确认这是2026年7月9日开播、动画工房制作的TV动画；陨石粒子赋予少年少女特殊能力、主角团队参与游戏及博士实验的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/98865 (api_snapshot): TMDB 98865 的日文原名、首播日期、导演岩崎太郎、动画工房及主要制作公司均与输入一致，角色包括アラキ、ステラ、オルガ，确认属于同一TV版本。\n\nhttps://www.themoviedb.org/tv/98865/season/1 (api_snapshot): 第1季集表共11集，total_pages=1。第1—11集的日文标题及播出日期与输入逐集完全一致，日期为2026年7月9日至9月17日；未列出第12集。\n\n备注：输入共12集，TMDB 当前季表仅11集。第12集「セイム・スカイ」（2026年9月24日）暂不映射，待TMDB补录后核对。",
+    "evidence": "gpt-6-sol: 确认Bangumi subject 276787对应TMDB电视剧98865第1季。该季完整覆盖本作12集，标题与播出日期逐集一致；旧映射遗漏的第12集现已收录，可将规则延长至第12集。\n\nhttps://mebiusdust.asmik-ace.co.jp/ (page): 官方网站确认本作是2026年7月9日开播、动画工房制作的TV动画；陨石粒子、〈ラムス〉能力及アラキ等人的剧情与Bangumi条目一致。\n\nhttps://bgm.tv/subject/276787/ep (page): Bangumi章节页列出12集本篇，逐集标题及首播日期为2026年7月9日至9月24日。\n\nhttps://www.themoviedb.org/tv/98865 (api_snapshot): TMDB作品98865的首播日期、剧情角色、导演岩崎太郎及制作公司动画工房等与本作吻合；作品仅列第1季，共12集。\n\nhttps://www.themoviedb.org/tv/98865/season/1 (api_snapshot): TMDB第1季集表现有完整12集，页数为1；第1至12集的日文标题和播出日期均与Bangumi逐集一致，包括9月24日的第12集「セイム・スカイ」。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/276787; https://mebiusdust.asmik-ace.co.jp/; https://www.themoviedb.org/tv/98865; https://www.themoviedb.org/tv/98865/season/1",
-    "verifiedAt": "2026-09-15T11:35:23.844Z"
+    "source": "https://bgm.tv/subject/276787; https://mebiusdust.asmik-ace.co.jp/; https://bgm.tv/subject/276787/ep; https://www.themoviedb.org/tv/98865; https://www.themoviedb.org/tv/98865/season/1",
+    "verifiedAt": "2026-10-14T01:21:52.869Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 11,
+      "end": 12,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -83,8 +83,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 11,
       "id": 98865,
       "season": 1,
       "type": "tv"

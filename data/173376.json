@@ -1,15 +1,40 @@
 {
   "bangumiId": 173376,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 709148,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 709149,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 709150,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的三话 OVA 与 TMDB 34179 第 0 季的三集在版本、发行起点、集数及逐集标题和顺序上吻合；第 0 季未混入 TV 正篇。Bangumi 第 1–3 话分别对应第 0 季第 1–3 集。\n\nhttps://bangumi.tv/subject/173376 (page): Bangumi 将本条目标为 1995 年开始、1996 年结束的三话 OVA，列出导演辻初樹及动画制作公司ぎゃろっぷ，并将 1994 年 TV 版列为关联作品。\n\nhttps://www.themoviedb.org/tv/34179 (api_snapshot): TMDB 作品 34179 是 1994 年开播的《赤ずきんチャチャ》，制作公司包括 Gallop、NAS；其第 0 季始于 1995 年 12 月 6 日，共三集。\n\nhttps://www.themoviedb.org/tv/34179/season/0 (api_snapshot): TMDB 第 0 季仅有三集，依次为《ポピィくんがやってきた！》《温泉旅行をつかまえろ！》《さよならチャチャ！涙の花いちもんめ》；第 1 集日期为 1995 年 12 月 6 日。\n\nhttps://en.wikipedia.org/wiki/List_of_Akazukin_Chacha_episodes (page): 独立的 OVA 集表列出相同的三话标题、顺序和发行日期：1995 年 12 月 6 日、1996 年 2 月 3 日、1996 年 3 月 6 日。\n\n备注：TMDB 第 0 季第 2、3 集未填写日期；其发行日期由独立 OVA 集表核对。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/173376; https://bangumi.tv/subject/173376; https://www.themoviedb.org/tv/34179; https://www.themoviedb.org/tv/34179/season/0; https://en.wikipedia.org/wiki/List_of_Akazukin_Chacha_episodes",
+    "verifiedAt": "2026-10-14T01:21:52.869Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 34179
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
