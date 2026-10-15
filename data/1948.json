@@ -1,16 +1,91 @@
 {
   "anidbId": 575,
   "bangumiId": 1948,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 9737,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 9738,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 9739,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 9740,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 9741,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 9742,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 9743,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 9744,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 9745,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 9746,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 9747,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 9748,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 9749,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、TV 媒介、剧情、导演、制作公司及 13 集规模均吻合；两站的 13 个集标题逐集同序对应，因此映射至 TMDB 34166 第 1 季第 1 至 13 集。2017 年版另有独立条目。\n\nhttps://bgm.tv/subject/1948 (page): Bangumi 将本条目标为 2003 年 4 月开播的 13 集 TV 动画，导演为中村隆太郎，制作公司为 A・C・G・T。\n\nhttps://bgm.tv/subject/1948/ep (page): Bangumi 章节页列出第 1 至 13 集的日文标题及日期。\n\nhttps://www.themoviedb.org/tv/34166 (api_snapshot): TMDB 34166 是 2003 年 4 月 8 日首播的 13 集 TV 动画，导演、制作公司及奇诺与汉密斯旅行的剧情均相符；第 1 季为 13 集。\n\nhttps://www.themoviedb.org/tv/34166/season/1 (api_snapshot): TMDB 34166 第 1 季的 13 集标题与 Bangumi 第 1 至 13 集逐集同序对应，没有混入其他作品。\n\nhttps://www.themoviedb.org/tv/74097 (api_snapshot): 同名的 TMDB 74097 首播于 2017 年，共 12 集，是另一版 TV 动画。\n\nhttps://www.kinonotabi-anime.com/news/20200610/post-02/ (page): 动画官网明确区分 2003 年第一作全 13 集和 2017 年第二作全 12 集。\n\nhttps://www.thetvdb.com/series/kinos-journey-the-beautiful-world/allseasons/official (page): TVDB 的 2003 年逐集播出表与 TMDB 日期一致：第 4 集为 5 月 6 日，第 13 集为 7 月 8 日。\n\n备注：Bangumi 从第 4 集起的逐集日期比 TMDB 和 TVDB 早一周，末集记为 7 月 1 日；TMDB、TVDB 均记为 7 月 8 日。标题及集数对应明确，此日期差异不影响逐集映射。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1948; https://bgm.tv/subject/1948/ep; https://www.themoviedb.org/tv/34166; https://www.themoviedb.org/tv/34166/season/1; https://www.themoviedb.org/tv/74097; https://www.kinonotabi-anime.com/news/20200610/post-02/; https://www.thetvdb.com/series/kinos-journey-the-beautiful-world/allseasons/official",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34166
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

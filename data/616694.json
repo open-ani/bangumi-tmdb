@@ -25,26 +25,28 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认为独立收录的2026年四集网络短篇，对应TMDB 334201第1季整季。作品年份、剧情、制作人员、媒介及集数一致；四集日期逐一吻合官方排期和TMDB集表，可建立1至4集连续对应。第3、4集虽尚未播出，但集数和排期均已明确。\n\nhttps://www.themoviedb.org/tv/334201 (api_snapshot): TMDB 334201 为2026年原创短篇《鳴海の平日》，首播日期2026-09-05，共1季4集；导演宮繁之、编剧渡邉築、制作公司Production I.G与官方资料相符。英文别名搜索结果的鸣海日常喜剧简介也与输入一致。\n\nhttps://www.themoviedb.org/tv/334201/season/1 (api_snapshot): 第1季集表完整返回4集，total_pages=1；第1至4集日期依次为2026-09-05、09-12、09-19、09-26，与Bangumi逐集日期及官方排期一致。TMDB标题为通用的第1話至第4話。\n\nhttps://kaiju-no8.net/news/detail_260530_01.html (page): 官方确认这是2026年原创短篇动画，剧情围绕鸣海弦逃避会议、文书工作及沉迷游戏的日常；导演宮繁之、人物设计西尾鉄也、动画制作Production I.G，与输入版本一致。\n\nhttps://kaiju-no8.net/news/detail_260805_02.html (page): 官方明确全4话于YouTube等平台配信，逐集排期为9月5日「小隊長のホンネ編」、9月12日「副隊長のナヤミ編」、9月19日「西のアイツ編」、9月26日「同期のキズナ編」。\n\n备注：Bangumi第2集日文标题「隊長のナヤミ編」比官方「副隊長のナヤミ編」少「副」字；中文标题和日期一致，不影响对应。；TMDB使用通用集标题，无法直接核对具体篇名；对应由独立作品身份、四集总量、逐集日期及官方完整排期共同确认。",
+    "evidence": "gpt-6-sol: Bangumi 的四集网络短篇与 TMDB 207468 第 0 季第 33—36 集在作品内容、媒介、集数、逐集篇名及放送日期上吻合。第 0 季还收录其他短篇，因此仅取第 33—36 集。旧映射 334201 当前返回 404。\n\nhttps://www.themoviedb.org/tv/334201 (api_snapshot): 旧映射的 TMDB 电视剧 334201 及其第 1 季均返回 404，无法作为有效映射。\n\nhttps://www.themoviedb.org/tv/207468 (api_snapshot): TMDB 207468 是《怪獣８号》主系列，制作公司包括 Production I.G；其第 0 季收录特别篇。\n\nhttps://www.themoviedb.org/tv/207468/season/0 (api_snapshot): TMDB 207468 第 0 季第 33—36 集依次为《鳴海の平日》Day1—Day4；四集的篇名和日期分别对应 2026 年 9 月 5、12、19、26 日。季表共 36 集，total_pages=1。\n\nhttps://kaiju-no8.net/ (page): 《怪獣８号》官网将《鳴海の平日》列为四集作品，确认从 9 月 5 日起每周六在 YouTube 配信，并列出 Day1—Day4 的篇名及鸣海弦的故事简介。\n\n备注：Bangumi 第 2 集日文标题为「隊長のナヤミ編」，官网及 TMDB 为「副隊長のナヤミ編」；日期、顺序及其余篇名均吻合。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/616694; https://www.themoviedb.org/tv/334201; https://www.themoviedb.org/tv/334201/season/1; https://kaiju-no8.net/news/detail_260530_01.html; https://kaiju-no8.net/news/detail_260805_02.html",
-    "verifiedAt": "2026-09-17T00:37:35.487Z"
+    "source": "https://bgm.tv/subject/616694; https://www.themoviedb.org/tv/334201; https://www.themoviedb.org/tv/207468; https://www.themoviedb.org/tv/207468/season/0; https://kaiju-no8.net/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [
     {
       "bangumiType": 0,
       "end": 4,
-      "episodeStart": 1,
-      "season": 1,
+      "episodeStart": 33,
+      "season": 0,
       "start": 1,
-      "tmdbId": 334201
+      "tmdbId": 207468
     }
   ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 334201,
-      "season": 1,
+      "episode": 33,
+      "episodeEnd": 36,
+      "id": 207468,
+      "season": 0,
       "type": "tv"
     }
   ]

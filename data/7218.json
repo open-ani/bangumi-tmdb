@@ -1,21 +1,128 @@
 {
   "anidbId": 5116,
   "bangumiId": 7218,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 42864,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 42865,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 42866,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 42867,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 42868,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 42869,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 42870,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 42871,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 42872,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 42873,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 42874,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 42875,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 42876,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 42875,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 46314,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 42876,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 46314,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播日期、剧情人物和制作公司吻合。官方话表与 TMDB 第 1 季的 11 集播出日期逐集对应；Bangumi 第 12、13 话是 DVD 追加话，标题与 TMDB 第 0 季两集对应，因此单独映射。\n\nhttps://www.themoviedb.org/tv/46314 (api_snapshot): 以日文原名“ゾンビローン”搜索，TMDB 返回 TV 作品 46314，首播日期为 2007 年 7 月 3 日。\n\nhttps://www.themoviedb.org/tv/46314 (api_snapshot): 作品详情中的原作、剧情人物及 XEBEC、NAS 等制作公司与 Bangumi 条目相符；第 1 季有 11 集，第 0 季有 2 集。\n\nhttps://www.themoviedb.org/tv/46314/season/1 (api_snapshot): 第 1 季第 1 至 11 集按周列于 2007 年 7 月 3 日至 9 月 11 日，集数和日期与官方话表一致。\n\nhttps://www.themoviedb.org/tv/46314/season/0 (api_snapshot): 第 0 季第 1、2 集分别为《Wheel of Destiny》和《We Want to Protect》，均标为 2008 年 4 月 25 日。\n\nhttps://www.nasinc.co.jp/jp/zombieloan/episode.html (page): NAS 官方话表逐一列出 PAYMENT 1 至 11 的标题及电视播出日期；PAYMENT 12《運命の輪》和 PAYMENT 13《守りたい》收录于 2008 年 4 月发行的 DVD 第 7 卷，与 Bangumi 第 12、13 话相符。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7218; https://www.themoviedb.org/tv/46314; https://www.themoviedb.org/tv/46314/season/1; https://www.themoviedb.org/tv/46314/season/0; https://www.nasinc.co.jp/jp/zombieloan/episode.html",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 46314
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 11,
       "id": 46314,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 2,
+      "id": 46314,
+      "season": 0,
       "type": "tv"
     }
   ]

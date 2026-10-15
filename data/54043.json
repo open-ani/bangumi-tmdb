@@ -1,13 +1,25 @@
 {
+  "anidbId": 8610,
   "bangumiId": 54043,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 211132,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 211133,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB 1101340 的原名正是「劇場版 ガイスターズ FRACTIONS OF THE EARTH」，日期为 2002-08-17，剧情与 Bangumi 完全对应；别名明确包含 Hikari no Shou 与 Inochi no Shou 两部分，导演 Koji Ito / Sumio Watanabe 也吻合。该电影条目是两部剧场版总集编的合并作品，因此应使用单个 movie，不填写季或集数范围。TMDB TV 26664 是 2001 年播出的原版 26 集电视动画，不能替代本 subject。\n\nhttps://api.bgm.tv/v0/subjects/54043 (api_snapshot): Bangumi API确认本 subject 为2002-08-17上映、2话，标题包含《光の章》《命の章》，并说明其为TV版总集编。\n\nhttps://www.themoviedb.org/movie/1101340 (api_snapshot): TMDB详情确认电影原名、日期、剧情、日语媒介；别名包含 Geisters Movie: Hikari no Shou 与 Geisters Movie: Inochi no Shou，片长200分钟，导演为 Koji Ito 与 Sumio Watanabe。\n\nhttps://www.themoviedb.org/tv/26664 (api_snapshot): TMDB详情显示这是2001-10-06开始的 Geisters 电视系列，共1季26集，属于原版TV动画。\n\nhttps://www.themoviedb.org/tv/26664/season/1 (api_snapshot): TMDB第1季实际集表覆盖第1至第26集，播出至2002-03-30，证明该TV条目与两部剧场版总集编是不同媒介版本。\n\nhttps://www.allcinema.net/cinema/pdf/239595 (search_snippet): 资料说明剧场版分为「光の章」「命の章」前后篇，并从TV系列重新剪辑精选场景；初公开日为2002-08-17。\n\nhttps://www.crank-in.net/movietitle/29100 (search_snippet): 资料说明TV版精选场面被重新剪辑为「光の章」「命の章」两部，且每部连续上映一周。\n\n备注：Bangumi记录片长为100分钟，而TMDB合并电影记录为200分钟；外部资料显示两章各约100分钟。该片长差异不影响作品身份或推荐的单个movie映射。；TMDB电影条目主日期为2002-08-17，未在条目中单独列出第二章的上映日期。",
+    "evidence": "gpt-6-sol: TMDB 1101340以一条200分钟电影记录合并收录《光の章》《命の章》，与 Bangumi 的两话剧场版在标题、上映时间、媒介、制作人员和两章构成上吻合。电影条目没有可供逐章映射的集号，因此仅声明覆盖该 subject 的电影目标。\n\nhttps://bangumi.tv/subject/54043 (page): Bangumi 将本作列为2002年8月17日上映的两话剧场版，分《光の章》《命の章》，内容为电视动画的总集编；导演为伊藤浩二。\n\nhttps://www.themoviedb.org/movie/1101340 (api_snapshot): TMDB 电影1101340的原名与上映日吻合，别名分别标明《光の章》为第一部、《命の章》为第二部；片长200分钟，导演包括伊藤浩二。\n\nhttps://www.crank-in.net/movietitle/29100 (page): 电影资料确认两章由电视版画面重新剪辑，各上映一周，并记载2002年、100分钟及导演伊藤浩二。\n\n备注：Bangumi 记载100分钟，TMDB 合并条目记载200分钟；结合两章各约100分钟的资料，差异应来自单章与合并记录的统计口径。；TMDB 条目未分别记载《命の章》的上映日期，无法在 TMDB 内建立逐章对应。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/54043; https://api.bgm.tv/v0/subjects/54043; https://www.themoviedb.org/movie/1101340; https://www.themoviedb.org/tv/26664; https://www.themoviedb.org/tv/26664/season/1; https://www.allcinema.net/cinema/pdf/239595; https://www.crank-in.net/movietitle/29100",
-    "verifiedAt": "2026-09-08T19:03:03.882Z"
+    "source": "https://bgm.tv/subject/54043; https://bangumi.tv/subject/54043; https://www.themoviedb.org/movie/1101340; https://www.crank-in.net/movietitle/29100",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [],
   "schemaVersion": 1,

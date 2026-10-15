@@ -1,16 +1,91 @@
 {
   "anidbId": 32,
   "bangumiId": 2216,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 12808,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 12809,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 12810,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 12811,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 12812,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 12813,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 12814,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 12815,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 12816,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 12817,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 12818,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 12819,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 12820,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 匹配 2001 年 GONZO 制作的电视版《HELLSING》。TMDB 第 1 季完整收录 13 集，逐集标题与 Bangumi 的第 1—13 话按顺序对应；制作方、人员、媒介和播出时期也吻合。2006 年 OVA 是另一版本。\n\nhttps://www.themoviedb.org/tv/16830 (api_snapshot): TMDB 16830 是 2001 年首播、GONZO 制作的 13 集电视动画，导演信息包含浦田保則。\n\nhttps://www.themoviedb.org/tv/16830/season/1 (api_snapshot): TMDB 16830 第 1 季共有 13 集；第 1 至 13 集标题依次与 Bangumi 章节对应，包括首集 The Undead 和末集 Hellfire。\n\nhttps://www.gonzo.co.jp/works/hellsing/ (page): 制作公司 GONZO 确认《HELLSING》是 2001 年 10 月至 2002 年 1 月播出的全 13 集电视动画，原作、导演及主要角色与该 subject 一致。\n\nhttps://www.themoviedb.org/tv/61752 (api_snapshot): TMDB 61752 是 2006 年开始的 10 集《ヘルシング アルティメット》OVA，属于另一版本。\n\nhttps://bangumi.tv/subject/2216 (page): Bangumi 条目列出 13 集电视动画，并将 2006 年的《HELLSING OVA》列为关联作品。\n\n备注：Bangumi 标注首播为 2001-10-18，TMDB 标注首集为 2001-10-11；此日期差异不影响经集数和逐集标题确认的对应关系。；Bangumi 简介包含“千禧年”等更接近 OVA 剧情的内容，因此未以简介单独判定版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2216; https://www.themoviedb.org/tv/16830; https://www.themoviedb.org/tv/16830/season/1; https://www.gonzo.co.jp/works/hellsing/; https://www.themoviedb.org/tv/61752; https://bangumi.tv/subject/2216",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 16830
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

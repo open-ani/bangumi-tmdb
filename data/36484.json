@@ -1,16 +1,91 @@
 {
   "anidbId": 681,
   "bangumiId": 36484,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 154745,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 154746,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 154747,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 154748,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 154749,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 154750,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 154751,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 154752,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 154753,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 154754,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 154755,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 154756,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 154757,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的别名、2003年TV媒介、龙宝玉与时雨的剧情、导演和制作公司均吻合。TMDB第1季仅收录本作13话；独立DVD目录的逐话编号及标题与该季13集完全一致，因此Bangumi本篇01至13对应TMDB第1季第1至13集。\n\nhttps://bangumi.tv/subject/36484 (page): Bangumi 将《獣兵衛忍風帖 龍宝玉篇》列为2003年4月14日开播的13话TV动画，导演佐藤竜雄；章节编号为01至13。\n\nhttps://www.themoviedb.org/tv/27117 (api_snapshot): TMDB 27117 的别名包含《獣兵衛忍風帖 龍宝玉篇》；剧情同为兽兵卫保护时雨、追寻龙宝玉，导演佐藤竜雄，制作公司包括MADHOUSE和WOWOW，且仅有一季、共13话。\n\nhttps://www.themoviedb.org/tv/27117/season/1 (api_snapshot): TMDB 第1季完整列出第1至13集，标题依次从《かくれ里無惨》至《青天飄飄》，首集日期2003年4月15日、末集日期7月15日。\n\nhttps://sam.or.jp/library/dvd_sa_2025.pdf (page): 影像馆DVD目录逐话列出本作第1至13话，全部集号和标题均与TMDB第1季对应。\n\nhttps://animestore.docomo.ne.jp/animestore/ci_pc?workId=22894 (page): d动画商店将本作列为2003年制作的全13话动画，剧情、演员和制作人员与Bangumi及TMDB一致。\n\nhttps://www.allcinema.net/cinema/240999 (page): allcinema 记载本作在WOWOW于24:00播出，标注播出区间为2003年4月14日至7月14日；这解释了TMDB逐集日期晚一天。\n\n备注：Bangumi各章节未填写集标题及逐集日期；逐集顺序以Bangumi连续编号、独立DVD目录与TMDB完整集表核对。Bangumi与TMDB日期相差一天，对应24:00跨日播出的记法。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/36484; https://bangumi.tv/subject/36484; https://www.themoviedb.org/tv/27117; https://www.themoviedb.org/tv/27117/season/1; https://sam.or.jp/library/dvd_sa_2025.pdf; https://animestore.docomo.ne.jp/animestore/ci_pc?workId=22894; https://www.allcinema.net/cinema/240999",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 27117
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

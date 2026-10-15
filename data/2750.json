@@ -1,21 +1,161 @@
 {
   "anidbId": 2400,
   "bangumiId": 2750,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 17731,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 17732,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 17733,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 17734,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 17735,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 17736,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 17737,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 17738,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 17739,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 17740,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 17741,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 17742,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 17743,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 17732,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 11279,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 17733,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 11279,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 17740,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 11279,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、电视动画媒介、剧情、导演和制作公司均吻合。Bangumi 采用 13 话顺序，而 TMDB 第 1 季按富士电视台的 11 回播出顺序排列；完整序列中的第 3、10 话在 TMDB 第 0 季。第 2 话选用第 0 季同名条目，以对应 13 话版本；第 1 季同名第 2 集未重复占用。其余逐集标题和日期顺序吻合。\n\nhttps://www.themoviedb.org/tv/11279 (api_snapshot): TMDB 11279 是 2004 年开播的 GONZO 电视动画《ガンツ》，导演列有板野一郎；剧情中的玄野计、加藤胜和黑球与 Bangumi 条目一致。\n\nhttps://www.themoviedb.org/tv/11279/season/1 (api_snapshot): TMDB 第 1 季有 11 集，标题依次对应本条目的第 1、2、4 至 9、11 至 13 话；第 2 季从 2004 年 8 月开始，属于后续篇。\n\nhttps://www.themoviedb.org/tv/11279/season/0 (api_snapshot): TMDB 第 0 季第 1 至 3 集分别题为「人間じゃねぇ」「計ちゃん、すっげえ」「裕三君？」；后两集对应本条目第 3、10 话，第 1 集与第 1 季第 2 集同名。\n\nhttps://www.fujitv.co.jp/b_hp/gantz/backnumber/list.html (page): 富士电视台《the first stage》的播出目录只有 11 回，缺少完整 13 话序列中的「計ちゃん、すっげえ」和「裕三君？」。\n\nhttps://www.neowing.co.jp/product/DA-897 (page): DVD BOX 1 收录第 1 至 13 话，列明第 2、3、10 话分别为「人間じゃねぇ」「計ちゃん、すっげぇ」「祐三君?」，与本条目的 13 话顺序相符。\n\nhttps://www.video.unext.jp/title/SID0012880/c_txt=b (page): U-NEXT 的 2004 年动画剧集目录将「計ちゃん、すっげぇ」列为第 3 话、「裕三君?」列为第 10 话，并列出导演板野一郎、动画制作 GONZO。\n\n备注：TMDB 第 1 季记录的是 11 回电视播出版，13 话版本的部分内容经过电视播出剪辑；此映射表示对应剧情章节，不保证镜头内容完全相同。；Bangumi 与 TMDB 对部分首播日期相差一天，符合深夜节目跨日记载；第 3、10 话在 TMDB 第 0 季填写的日期也不能视作原电视首播日期。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2750; https://www.themoviedb.org/tv/11279; https://www.themoviedb.org/tv/11279/season/1; https://www.themoviedb.org/tv/11279/season/0; https://www.fujitv.co.jp/b_hp/gantz/backnumber/list.html; https://www.neowing.co.jp/product/DA-897; https://www.video.unext.jp/title/SID0012880/c_txt=b",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 11279
+    },
+    {
+      "bangumiType": 0,
+      "end": 9,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 4,
+      "tmdbId": 11279
+    },
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 9,
+      "season": 1,
+      "start": 11,
+      "tmdbId": 11279
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
       "id": 11279,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "episodeEnd": 11,
+      "id": 11279,
+      "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 3,
+      "id": 11279,
+      "season": 0,
       "type": "tv"
     }
   ]

@@ -1,16 +1,91 @@
 {
   "anidbId": 1093,
   "bangumiId": 1906,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 9390,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 9391,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 9392,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 9393,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 9394,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 9395,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 9396,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 9397,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 9398,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 9399,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 9400,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 9401,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 9402,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品原名、2003 年播出时间、寻找初美的剧情、制作公司和导演均吻合。TMDB 第 1 季恰有 13 集，逐集标题与 Bangumi 本篇 1–13 话按顺序对应，因此映射整季及连续章节。\n\nhttps://www.themoviedb.org/tv/26843 (api_snapshot): 以日文原名搜索，TMDB 返回电视剧 26843，原名为《ヤミと帽子と本の旅人》，剧情涉及叶月寻找失踪的初美及书中世界。\n\nhttps://www.themoviedb.org/tv/26843 (api_snapshot): 作品详情显示为 2003 年播出的日本动画，共 1 季 13 集；制作公司为 Studio Deen，导演为山口祐司，与 Bangumi 资料一致。\n\nhttps://www.themoviedb.org/tv/26843/season/1 (api_snapshot): 第 1 季集表共 13 集，集号 1–13 的日文标题依次与 Bangumi 本篇第 1–13 话一致，包括《葉月》《蓉子》至《リリス》。\n\n备注：Bangumi 所列开播日为 2003-10-03，TMDB 为 2003-10-02；这一日期差异不影响已由逐集标题确认的对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1906; https://www.themoviedb.org/tv/26843; https://www.themoviedb.org/tv/26843/season/1",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 26843
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

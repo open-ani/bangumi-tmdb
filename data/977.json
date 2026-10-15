@@ -1,16 +1,156 @@
 {
   "anidbId": 106,
   "bangumiId": 977,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 1448,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1450,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1451,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1452,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1453,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 1454,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 1455,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 1456,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 1457,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 1458,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 1459,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 1460,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 1461,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 1462,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 1463,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1464,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 1465,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 1466,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 1467,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 1468,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 1469,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 1470,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 1471,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 1472,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 1473,
+      "sort": 26,
+      "type": 0
+    },
+    {
+      "id": 286980,
+      "sort": 20,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: TMDB 的作品原名、2002 年首播及完结日期、剧情人物、导演和 26 集规模均与该 Bangumi 电视动画相符。第 1 季的 26 个集标题逐集同序对应，且季表只包含这部作品，可映射整季及连续的第 1 至 26 话。\n\nhttps://www.themoviedb.org/tv/12143 (api_snapshot): 日文原名搜索返回 TMDB 电视作品 12143，首播日期为 2002-04-08，剧情人物包括千代、大阪、阿智和榊。\n\nhttps://www.themoviedb.org/tv/12143 (api_snapshot): 作品详情显示共一季、26 集，完结于 2002-09-30；导演錦織博，制作公司包括 GENCO 和 J.C.STAFF，与 Bangumi 所述版本一致。\n\nhttps://www.themoviedb.org/tv/12143/season/1 (api_snapshot): 第 1 季季表完整收录 26 集，首集与末集日期分别为 2002-04-08、2002-09-30；逐集标题与 Bangumi 第 1 至 26 话依序对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/977; https://www.themoviedb.org/tv/12143; https://www.themoviedb.org/tv/12143/season/1",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 12143
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

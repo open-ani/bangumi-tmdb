@@ -1,14 +1,85 @@
 {
   "anidbId": 1153,
   "bangumiId": 91628,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 353026,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 353027,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 353028,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 353029,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 353030,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 353031,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 353032,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 353033,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 353034,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 353035,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 353036,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 353037,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 353038,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 353039,
+      "sort": 14,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 年份、剧情、片长、制作公司和主创均确认 Bangumi subject 对应 TMDB 电影 11049。Bangumi 的 14 话是这部连续动画电影按歌曲划分的章节；TMDB 将其收录为一部电影，没有可供逐话对应的 TMDB 集数，因此不建立逐集规则。\n\nhttps://www.themoviedb.org/movie/11049 (api_snapshot): TMDB 电影 11049 为 2003 年上映的《Interstella 5555》，片长 68 分钟；剧情是外星乐队遭绑架并被改造成地球流行乐队；制作公司为东映动画和 Daft Life，编剧包括 Daft Punk 两位成员及 Cédric Hervet，导演为竹之内和久。\n\nhttps://jfdb.jp/en/title/84 (page): 日本电影数据库将《インターステラ5555》列为 2003 年、67 分钟的动画长片，列出的制作公司与主要人员均吻合。\n\nhttps://daftpunk.com/discovery/ (page): Daft Punk 官网称本片是以《Discovery》为配乐的动画电影；其列出的 14 首曲目与 Bangumi 的 14 个章节依次吻合。\n\nhttps://leijiverse.com/en/interstella-5555/ (page): 作品资料页明确将其列为一部电影，说明 14 首歌构成连续故事，并列出与 Bangumi 相同的曲目顺序。\n\n备注：Bangumi 所列 2003 年 12 月 3 日与 TMDB 的 2003 年 5 月 28 日日期不同；现有证据确认作品身份，但未核实 Bangumi 日期所指的具体发行版本。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/91628; https://www.themoviedb.org/movie/11049; https://jfdb.jp/en/title/84; https://daftpunk.com/discovery/; https://leijiverse.com/en/interstella-5555/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [],
   "schemaVersion": 1,

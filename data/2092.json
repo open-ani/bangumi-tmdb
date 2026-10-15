@@ -1,16 +1,146 @@
 {
   "anidbId": 640,
   "bangumiId": 2092,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 11823,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 11824,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 11825,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 11826,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 11827,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 11828,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 11829,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 11830,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 11831,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 11832,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 11833,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 11834,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 11835,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 11836,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 11837,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 11838,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 11839,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 11840,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 11841,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 11842,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 11843,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 11844,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 11845,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 11846,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品年份、剧情、制作公司、导演及电视动画版本一致；TMDB 第 1 季完整收录 24 集，逐集标题顺序与 Bangumi 的 24 话吻合，因此整季及第 1 至 24 话可对应。\n\nhttps://www.themoviedb.org/tv/45544 (api_snapshot): 以日文原名搜索，TMDB 返回 ID 45544，原名相同，首播日期为 2003-04-08，剧情涉及帕希菲卡及其兄姐。\n\nhttps://www.themoviedb.org/tv/45544 (api_snapshot): 作品详情显示为 BONES 制作、増井壮一执导的 2003 年电视动画，共 1 季 24 集，末集日期为 2003-10-07。\n\nhttps://www.themoviedb.org/tv/45544/season/1 (api_snapshot): 第 1 季集表仅 1 页，共 24 集；逐集标题与 Bangumi 第 1 至 24 话按顺序对应，首末集日期也一致。\n\nhttps://www.bones.co.jp/work/scrapped-princess/ (page): BONES 官方页面确认作品于 2003 年 4 月至 10 月播出，剧情、导演及主要角色与本 subject 一致。\n\n备注：Bangumi 第 4 至 17 话的放送日期与 TMDB 集表有差异；对应关系依据完整的逐集标题顺序、集数及一致的首末集日期确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/2092; https://www.themoviedb.org/tv/45544; https://www.themoviedb.org/tv/45544/season/1; https://www.bones.co.jp/work/scrapped-princess/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 45544
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

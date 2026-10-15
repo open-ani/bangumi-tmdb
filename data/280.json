@@ -1,20 +1,46 @@
 {
   "anidbId": 1266,
   "bangumiId": 280,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 27516,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 27517,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 27518,
+      "sort": 3,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、OVA 形式、剧情、导演及三话总数相符。TMDB 第1季恰好收录第1至第3话，分别对应 Bangumi 的三话，因此映射整季并建立连续规则。\n\nhttps://www.themoviedb.org/tv/73501 (api_snapshot): 以日文原名及两个别名搜索，均找到 TMDB TV 73501《コゼットの肖像》。\n\nhttps://www.themoviedb.org/tv/73501 (api_snapshot): TMDB 详情记载作品共一季三集，剧情涉及香兰堂、仓桥永莉与玻璃杯中的柯赛特；导演为新房昭之。\n\nhttps://www.themoviedb.org/tv/73501/season/1 (api_snapshot): TMDB 第1季季表只有第1至第3话，集数、标题和剧情顺序均与 Bangumi 的三话 OVA 对应。\n\nhttps://www.aniplex.co.jp/lineup/cossette/ (page): 制作方 Aniplex 将作品标为 2004 年 OVA，列出三卷 DVD 的发售日期，并确认导演新房昭之、动画制作童夢。\n\nhttps://www.aniplex.co.jp/lineup/cossette/products/detail/?id=3772 (page): Aniplex 的 Blu-ray 商品页明确注明收录全三话。\n\n备注：TMDB 季表日期为 4月11日、7月11日、12月12日，早于 Aniplex 公布的 DVD 发售日期；两者可能采用不同日期口径。；Bangumi 第2话记为 7月26日，Aniplex 第2卷 DVD 记为 7月28日；这一日期差异不影响三话的编号对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/280; https://www.themoviedb.org/tv/73501; https://www.themoviedb.org/tv/73501/season/1; https://www.aniplex.co.jp/lineup/cossette/; https://www.aniplex.co.jp/lineup/cossette/products/detail/?id=3772",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 73501
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 73501,
+      "season": 1,
       "type": "tv"
     }
   ]

@@ -1,16 +1,197 @@
 {
   "anidbId": 5211,
   "bangumiId": 4193,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 30466,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 30467,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 30468,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 30469,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 30470,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 30471,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 30472,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 30473,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 30474,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 30475,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 30477,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 30478,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 30479,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 30480,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 61145,
+      "sort": 11,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "TMDB API逐项核对：TMDB 44587 的第1、2、3季各5集，合计15个一分钟短片，播出批次日期与 Bangumi 一致。英语分集标题可逐一对应全部15个短片，但站间集序不同；这里保存三季覆盖范围，不按排序推导 Bangumi 章节映射。",
+    "evidence": "gpt-6-sol: Bangumi 的播出年份、媒介、15部一分钟短片及三批内容均与 TMDB TV 44587 相符。三季集表各有5集，逐集标题和简介可对应全部15话；两站排序不同，因此按核实后的对应关系分别填写规则。2008年的同名电影是合集，不作为本电视 subject 的目标。\n\nhttps://www.themoviedb.org/tv/44587 (api_snapshot): TMDB TV 44587 的原名为《アニ＊クリ15》，首播于2007年5月7日，收录15集，分为三季；各季均为5集，制作公司包括 GONZO、GAINAX、Production I.G 等。\n\nhttps://www.themoviedb.org/tv/44587/season/1 (api_snapshot): 第1季的5个一分钟短片标注播出日期为2007年5月7日；标题分别对应 Bangumi 的第4、2、1、5、3话。\n\nhttps://www.themoviedb.org/tv/44587/season/2 (api_snapshot): 第2季的5个一分钟短片标注播出日期为2007年8月6日；标题分别对应 Bangumi 的第6、9、10、7、8话。\n\nhttps://www.themoviedb.org/tv/44587/season/3 (api_snapshot): 第3季的5个一分钟短片标注播出日期为2007年12月10日；标题和简介分别对应 Bangumi 的第11、14、12、15、13话。\n\nhttps://www.themoviedb.org/movie/262833 (api_snapshot): TMDB 电影 262833 是标注于2008年6月7日发行、片长17分钟的15部短片合集；本 Bangumi subject 记载的是2007年播出的电视短片系列。\n\n备注：TMDB 把每批5部短片标为同一播出日期，无法据此细分批次内各短片的实际首播时间；批次内对应关系依据标题和简介确认。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/4193; https://www.themoviedb.org/tv/44587; https://www.themoviedb.org/tv/44587/season/1; https://www.themoviedb.org/tv/44587/season/2; https://www.themoviedb.org/tv/44587/season/3",
-    "verifiedAt": "2026-09-07T18:35:49.527Z"
+    "source": "https://bgm.tv/subject/4193; https://www.themoviedb.org/tv/44587; https://www.themoviedb.org/tv/44587/season/1; https://www.themoviedb.org/tv/44587/season/2; https://www.themoviedb.org/tv/44587/season/3; https://www.themoviedb.org/movie/262833",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 1,
+      "episodeStart": 3,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 2,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 3,
+      "episodeStart": 5,
+      "season": 1,
+      "start": 3,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 4,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 4,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 4,
+      "season": 1,
+      "start": 5,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 6,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 8,
+      "episodeStart": 4,
+      "season": 2,
+      "start": 7,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 2,
+      "season": 2,
+      "start": 9,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 11,
+      "episodeStart": 1,
+      "season": 3,
+      "start": 11,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 3,
+      "season": 3,
+      "start": 12,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 5,
+      "season": 3,
+      "start": 13,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 14,
+      "episodeStart": 2,
+      "season": 3,
+      "start": 14,
+      "tmdbId": 44587
+    },
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 4,
+      "season": 3,
+      "start": 15,
+      "tmdbId": 44587
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

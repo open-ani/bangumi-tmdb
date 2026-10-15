@@ -1,16 +1,146 @@
 {
   "anidbId": 1536,
   "bangumiId": 4471,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 32690,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 32691,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 32692,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 32693,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 32694,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 32695,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 32696,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 32697,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 32698,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 32699,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 32700,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 32701,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 32702,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 32703,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 32704,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 32705,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 32706,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 32707,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 32708,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 32709,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 32710,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 32711,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 32712,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 32713,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi subject 是 2004 年 GONZO 制作的 24 话电视动画；TMDB 31701 的作品信息、制作人员、剧情人物及第 1 季集数均吻合。逐集标题按 1—24 话对应，播出表也确认相同顺序。2007 年《爆裂天使-INFINITY-》及其特典不属于本 subject 的 24 话范围。\n\nhttps://www.themoviedb.org/tv/31701 (api_snapshot): 以日文原名“爆裂天使”和别名“Burst Angel”搜索，均得到 TMDB TV 31701，首播日期为 2004-04-06。\n\nhttps://www.themoviedb.org/tv/31701 (api_snapshot): TMDB 作品详情显示 2004 年首播、GONZO 制作、大畑晃一执导，共 1 季 24 集；剧情人物包括乔、惠、艾咪、塞和恭平，与 Bangumi 所述一致。\n\nhttps://www.themoviedb.org/tv/31701/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整集表（共 24 集，1 页）；第 1 至 24 集的日文标题和顺序与 Bangumi 本篇章节对应。\n\nhttps://www.thetvdb.com/series/burst-angel/allseasons/official (page): TheTVDB 的播出表列出同序的 24 集标题，播出时间为 2004-04-06 至 2004-09-14；可用于核对 TMDB 中少数异常日期。\n\nhttps://gonzo.co.jp/archives/bakuteninfinity/special.html (page): 制作方 GONZO 将 TV 系列明确称为全 24 话，并将 2007 年《爆裂天使-INFINITY-》列为另行发行的原创动画及特典。\n\n备注：TMDB 集表中第 9、10、19、20、22、24 集等播出日期与 TheTVDB 播出表及 Bangumi 所列完结日期不一致；映射依据为完整的逐集标题、顺序和 24 集总量，并以另行核对的播出表确认日期。；Bangumi 第 2 话标题写作“情け無用のガン・ファイター”，TMDB 与 TheTVDB 写作“情無用のガン・ファイター”；其余标题和顺序支持同一集对应。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/4471; https://www.themoviedb.org/tv/31701; https://www.themoviedb.org/tv/31701/season/1; https://www.thetvdb.com/series/burst-angel/allseasons/official; https://gonzo.co.jp/archives/bakuteninfinity/special.html",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 31701
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

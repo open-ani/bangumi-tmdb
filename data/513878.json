@@ -55,26 +55,26 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品年份、独立动画版本、剧情、制作公司与导演均吻合。TMDB 独立条目第1季完整覆盖这十集；逐集日期及总集数与 Bangumi 一致，符合未播章节在集数和排期明确一致时建立连续规则的条件。\n\nhttps://www.cyberpunk.net/en/edgerunners2 (page): 官网确认本作为 CD PROJEKT RED 与 TRIGGER 制作、五十岚海执导的十集独立动画，2026年10月20日于 Netflix 上线；主角 Weak 与 D 的剧情与输入一致。\n\nhttps://www.themoviedb.org/tv/326788 (api_snapshot): TMDB 326788 的日文别名、首播日期、Weak 与 D 的剧情、制作公司及导演均相符；该作品独立建档，仅有第1季，共10集。\n\nhttps://www.themoviedb.org/tv/326788/season/1 (api_snapshot): 已读取第1季完整集表（total_pages=1）：第1至10集的日期均为2026年10月20日，与输入十个本篇章节逐一一致；标题目前均为 Episode 加集号的占位名称。\n\n备注：作品尚未播出，Bangumi 集标题为空，TMDB 为占位标题；当前对应依据为已确认的作品身份、十集规模及逐集排期，正式上线后宜复核标题与排期变化。",
+    "evidence": "gpt-6-sol: 作品身份由官网与TMDB第2季的年份、剧情、主创和10集规模共同确认。第2季完整季表仅包含本作10集；Bangumi本篇第1至10话与TMDB第1至10集的集数及同日上线排期一致，因此按连续顺序映射。旧映射的326788不可用。\n\nhttps://www.cyberpunk.net/ja/edgerunners2 (page): 日文官网确认本作由CD PROJEKT RED与TRIGGER制作，五十岚海执导；剧情主角为Weak与D，共10集，定于2026年10月20日在Netflix上线。\n\nhttps://www.themoviedb.org/tv/105248 (api_snapshot): TMDB电视条目105248将《Cyberpunk: Edgerunners 2》列为第2季，首播日期为2026年10月20日，共10集；剧情、角色及导演均吻合。\n\nhttps://www.themoviedb.org/tv/105248/season/2 (api_snapshot): 已读取第2季完整集表：第1至10集均标注2026年10月20日，与输入的10个本篇章节集数及排期一致。\n\nhttps://www.themoviedb.org/tv/326788 (api_snapshot): 旧映射所指电视条目326788在当前TMDB API中返回404。\n\n备注：作品尚未播出，Bangumi集标题为空，TMDB集标题仍为通用占位名称；上线后宜复核正式标题及排期。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/513878; https://www.cyberpunk.net/en/edgerunners2; https://www.themoviedb.org/tv/326788; https://www.themoviedb.org/tv/326788/season/1",
-    "verifiedAt": "2026-09-17T00:37:35.487Z"
+    "source": "https://bgm.tv/subject/513878; https://www.cyberpunk.net/ja/edgerunners2; https://www.themoviedb.org/tv/105248; https://www.themoviedb.org/tv/105248/season/2; https://www.themoviedb.org/tv/326788",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [
     {
       "bangumiType": 0,
       "end": 10,
       "episodeStart": 1,
-      "season": 1,
+      "season": 2,
       "start": 1,
-      "tmdbId": 326788
+      "tmdbId": 105248
     }
   ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 326788,
-      "season": 1,
+      "id": 105248,
+      "season": 2,
       "type": "tv"
     }
   ]

@@ -1,16 +1,91 @@
 {
   "anidbId": 1708,
   "bangumiId": 28169,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 134450,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 134451,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 134452,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 134453,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 134454,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 134455,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 134456,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 134457,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 134458,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 134459,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 134460,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 134461,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 134462,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品媒介、年份、首末播日期、制作人员及13话规模一致。TMDB 第1季完整覆盖本篇；首话标题得到独立核对，其余各话的编号和播出日期由播出记录与 TMDB 季表逐一对应。\n\nhttps://bangumi.tv/subject/28169/ep (page): Bangumi 条目是2004年4月12日至7月5日播出的13话电视动画；章节列表为本篇第1至13话，首话标题是《チェコちゃんと新生活》。\n\nhttps://www.themoviedb.org/tv/34702 (api_snapshot): TMDB 34702 是同名电视动画，首末播日期、13话总数、导演栗原ハジメ及制作公司 Creators Dot Com 均与 Bangumi 资料相符；仅列有第1季。\n\nhttps://www.themoviedb.org/tv/34702/season/1 (api_snapshot): TMDB 第1季实际列出第1至13集，播出日期从2004年4月12日至7月5日，每周一一集。\n\nhttps://cal.syoboi.jp/tid/346/time (search_snippet): Kids Station 播出记录逐话列出第1至13话，日期与 TMDB 第1季逐集相同。\n\nhttps://simkl.com/anime/39243/pugyuru/episode-1/ (page): 独立逐话资料将《チェコちゃんと新生活》列为2004年4月12日播出的第1话，与 Bangumi 首话标题及 TMDB 首集日期吻合。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/28169; https://bangumi.tv/subject/28169/ep; https://www.themoviedb.org/tv/34702; https://www.themoviedb.org/tv/34702/season/1; https://cal.syoboi.jp/tid/346/time; https://simkl.com/anime/39243/pugyuru/episode-1/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34702
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

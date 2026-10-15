@@ -1,18 +1,37 @@
 {
   "bangumiId": 57933,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 220016,
+      "sort": 1,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 220016,
+      "targets": [
+        {
+          "episode": 2,
+          "id": 37527,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的单话 DVD 特典与 TMDB 第 0 季第 2 集在标题、主角、媒介和篇幅上吻合。第 0 季第 1 集是另一部总集篇，因此只映射第 2 集；TMDB 的独立电影条目是这部短片的另一种收录形式。\n\nhttps://bgm.tv/subject/57933 (page): Bangumi 将本条目标为 1 话 OVA，说明它是以丝茉茉和琴子为主角的 DVD 全卷购入特典。\n\nhttps://www.themoviedb.org/tv/37527 (api_snapshot): TMDB《ちょびっツ》详情显示原作系列于 2002 年首播，由 Madhouse 制作，并设有第 0 季特别篇。\n\nhttps://www.themoviedb.org/tv/37527/season/0 (api_snapshot): TMDB 第 0 季只有两集；第 2 集题为《ちびっツ すもも・琴子 届ける》，时长 6 分钟，第 1 集则是《日比谷・琴子 語る》。\n\nhttps://www.themoviedb.org/movie/1668207 (api_snapshot): TMDB 另将同一《ちびっツ: すもも・琴子 届ける》收录为 6 分钟电影，演出角色和制作公司与本 OVA 相符。\n\nhttps://www.tbs.co.jp/chobits/old/goods/dvd.html (page): TBS 官方 DVD 目录显示，2003 年 2 月 21 日发行的是收录《日比谷・琴子 語る》的总集篇 DVD。\n\n备注：发行日期记录冲突：Bangumi 填写的 2003 年 2 月 21 日对应 TBS 所列总集篇 DVD；TMDB 特别篇与独立电影条目又分别填写了不同日期。本映射依据作品内容和标题，未用这些日期确定集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/57933; https://www.themoviedb.org/tv/37527; https://www.themoviedb.org/tv/37527/season/0; https://www.themoviedb.org/movie/1668207; https://www.tbs.co.jp/chobits/old/goods/dvd.html",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 2,
       "id": 37527,
       "season": 0,
       "type": "tv"

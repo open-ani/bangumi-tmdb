@@ -1,16 +1,91 @@
 {
   "anidbId": 1265,
   "bangumiId": 843,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 5143,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 5144,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 5145,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 5146,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 5147,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 5148,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 5149,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 5150,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 5151,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 5152,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 5153,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 5154,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 5155,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的年份、电视动画媒介、剧情人物、导演、制作公司及13集规模一致。TMDB 第1季恰好只收录这13集，逐集标题和顺序与 Bangumi 全部对应，因此映射整季及本篇第1至13话。\n\nhttps://www.themoviedb.org/tv/9343 (api_snapshot): TMDB 9343 是2004年首播的日本电视动画《妄想代理人》，剧情涉及鷺月子、マロミ和少年バット；制作公司为 MADHOUSE，今敏担任导演，共1季13集。\n\nhttps://www.themoviedb.org/tv/9343/season/1 (api_snapshot): 已读取第1季完整集表：共13集，集号1至13与 Bangumi 的13个本篇章节标题逐一按顺序对应，末集仅有句号字形差异。\n\nhttps://www.asmik-ace.co.jp/works/lineup/1054/ (page): 发行方将本作列为今敏导演的2004年电视动画；其影碟正片总长325分钟，与13集、每集约25分钟相符。\n\nhttps://thetvdb.com/series/paranoia-agent/seasons/official/1 (page): TVDB 的第1季表同样按相同集号列出13集，首集为2004年2月2日、末集为5月17日；其日期显示 Bangumi 后段章节的日期存在偏差。\n\n备注：播出日期记录不一致：TMDB 多记为 WOWOW 播出日期的次日；Bangumi 第5话起的日期还与 TMDB 和 TVDB 的排期相差数日至数周。逐集映射依据13集标题、集号和顺序的完整对应，不采用 Bangumi 后段日期判定集号。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/843; https://www.themoviedb.org/tv/9343; https://www.themoviedb.org/tv/9343/season/1; https://www.asmik-ace.co.jp/works/lineup/1054/; https://thetvdb.com/series/paranoia-agent/seasons/official/1",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 9343
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

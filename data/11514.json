@@ -1,16 +1,91 @@
 {
   "anidbId": 8,
   "bangumiId": 11514,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 66990,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 66991,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 66992,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 66993,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 66994,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 66995,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 66996,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 66997,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 66998,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 66999,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 67000,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 67001,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 67002,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的原名、2002 年电视动画版本、上倉多響太的剧情、导演和制作公司均吻合。TMDB 第 1 季完整收录 13 集，Filmarks 所列 13 集标题顺序与 Bangumi 章节一致，因此将本篇第 1 至 13 话连续对应至该季第 1 至 13 集。\n\nhttps://www.themoviedb.org/tv/9113 (api_snapshot): 以日文原名搜索，TMDB 返回电视作品 9113《アクエリアンエイジ Sign for Evolution》。\n\nhttps://www.themoviedb.org/tv/9113 (api_snapshot): TMDB 详情显示作品为 2002 年的日本电视动画，由 Madhouse 制作、大橋誉志光执导；第 1 季共 13 集。\n\nhttps://www.themoviedb.org/tv/9113/season/1 (api_snapshot): 已读取 TMDB 第 1 季集表：第 1 至 13 集均存在，季表仅一页；集标题均为通用编号。\n\nhttps://www.jvcmusic.co.jp/flyingdog/tv/aquarian-age/index.html (page): 发行方页面确认该动画于 2002 年 1 至 3 月在东京电视台等频道播出。\n\nhttps://www.animatetimes.com/tag/details.php?id=11943 (page): Animate Times 记载本作为 2002 年 1 月 3 日至 3 月 28 日播出的 13 集电视动画，剧情围绕上倉多響太，制作人员与 Bangumi 资料一致。\n\nhttps://filmarks.com/animes/2638/3361 (page): Filmarks 按第 1 至 13 集列出标题，顺序与 Bangumi 的 13 个本篇章节对应。\n\n备注：TMDB 集表将首集记为 2002 年 1 月 10 日，并将第 12、13 集都记为 3 月 28 日；Animate Times 记载全剧播期为 1 月 3 日至 3 月 28 日。TMDB 的逐集日期存在分歧，建议校正，但不影响已核实的 13 集顺序。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/11514; https://www.themoviedb.org/tv/9113; https://www.themoviedb.org/tv/9113/season/1; https://www.jvcmusic.co.jp/flyingdog/tv/aquarian-age/index.html; https://www.animatetimes.com/tag/details.php?id=11943; https://filmarks.com/animes/2638/3361",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 9113
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

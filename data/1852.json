@@ -1,21 +1,116 @@
 {
   "anidbId": 751,
   "bangumiId": 1852,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 8829,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 8830,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 8831,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 8832,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 8833,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 8834,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 8835,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 8836,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 8837,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 8838,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 8839,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 8840,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 8841,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 8841,
+      "targets": [
+        {
+          "episode": 3,
+          "id": 20177,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品身份由原名、首播年份、剧情和制作人员共同确认。本篇12集按逐集标题及顺序对应 TMDB 第1季第1至12集。Bangumi 的第13集是电视未播出的《夏は終わらない》，对应 TMDB 特别篇第3集。\n\nhttps://www.themoviedb.org/tv/20177 (api_snapshot): TMDB 20177 的原名、2003年7月15日首播日期、麻郁与深衣奈及樺恋的剧情，以及井出安軌、黒田洋介等制作人员，均与 Bangumi 资料相符。\n\nhttps://www.themoviedb.org/tv/20177/season/1 (api_snapshot): TMDB 第1季第1至12集的标题与 Bangumi 的12集本篇逐集同序一致；前4集日期也一致。\n\nhttps://www.themoviedb.org/tv/20177/season/0 (api_snapshot): TMDB 特别篇第3集题为《夏は終わらない》，剧情为麻郁在木崎湖畔露营工作，与 Bangumi 的特别篇相符。\n\nhttps://img.sunrise-inc.co.jp/images/news/20812_5n0ka29oxbqm_pdf.pdf (page): 发行方确认本作于2003年7月至10月播出12集，另有未在电视播出的第13集《夏は終わらない》；并确认剧情及主要制作人员。\n\nhttps://artist.cdjournal.com/d/-/2604020155 (search_snippet): DVD通常版于2004年4月28日发行，收录第13集《夏は終わらない》；另有4月23日发行的特别版。\n\n备注：Bangumi 本篇第5至12集的日期与 TMDB 季表不一致，但逐集标题和顺序一致。；TMDB 第1季还列有一个2004年4月28日、未填写标题的第13集，可能与特别篇第3集重复；本映射选用标题和剧情明确的特别篇第3集。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/1852; https://www.themoviedb.org/tv/20177; https://www.themoviedb.org/tv/20177/season/1; https://www.themoviedb.org/tv/20177/season/0; https://img.sunrise-inc.co.jp/images/news/20812_5n0ka29oxbqm_pdf.pdf; https://artist.cdjournal.com/d/-/2604020155",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 20177
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
+      "episode": 1,
+      "episodeEnd": 12,
       "id": 20177,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 3,
+      "id": 20177,
+      "season": 0,
       "type": "tv"
     }
   ]

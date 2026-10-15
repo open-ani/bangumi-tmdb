@@ -1,21 +1,114 @@
 {
   "anidbId": 473,
   "bangumiId": 19521,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 106926,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 106927,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 106928,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 106929,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 106930,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 106931,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 106932,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 106933,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 106934,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 106935,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 106936,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 106937,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 106938,
+      "sort": 13,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 106938,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 34205,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播年份、制作方、导演和剧情人物吻合；第 1 季的 12 个集标题与 Bangumi 本篇逐集对应。Bangumi 的第 13 话是 DVD 特别篇，对应 TMDB 第 0 季第 1 集。\n\nhttps://www.themoviedb.org/tv/34205 (api_snapshot): TMDB 日文原名搜索找到 TV 作品 34205，首播日期为 2003 年 1 月 8 日。\n\nhttps://www.themoviedb.org/tv/34205 (api_snapshot): 作品详情显示由 J.C.STAFF、GENCO 制作，桜井弘明执导；第 1 季有 12 集，另有含 1 集的第 0 季。\n\nhttps://www.themoviedb.org/tv/34205/season/1 (api_snapshot): 第 1 季 12 集的集号与 Bangumi 本篇第 1 至 12 话逐集同名，首尾日期也一致。\n\nhttps://www.themoviedb.org/tv/34205/season/0 (api_snapshot): 第 0 季仅有第 1 集《おじゃまなななか》，与 Bangumi 的特别篇同名。\n\nhttps://books.rakuten.co.jp/rb/3849196/ (page): 2003 年 6 月 17 日发行的 DVD-BOX 列有特典盘及原创动画，支持将特别篇与电视播出的 12 集区分。\n\nhttps://simkl.com/anime/37118/nanaka-617/episode-5/ (search_snippet): 另一集表将第 5 话《3人デートななか》的播出日期记为 2003 年 2 月 5 日，与 TMDB 所列 2 月 12 日不同。\n\n备注：TMDB 将第 5 话日期列为 2003 年 2 月 12 日，其他资料列为 2 月 5 日；同名标题、集号及相邻集顺序仍支持该集对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/19521; https://www.themoviedb.org/tv/34205; https://www.themoviedb.org/tv/34205/season/1; https://www.themoviedb.org/tv/34205/season/0; https://books.rakuten.co.jp/rb/3849196/; https://simkl.com/anime/37118/nanaka-617/episode-5/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34205
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34205,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "id": 34205,
+      "season": 0,
       "type": "tv"
     }
   ]

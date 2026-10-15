@@ -1,16 +1,91 @@
 {
   "anidbId": 656,
   "bangumiId": 5964,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 38142,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 38143,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 38144,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 38145,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 38146,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 38147,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 38148,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 38149,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 38150,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 38151,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 38152,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 38153,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 38154,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品媒介、年份、导演、原作者及 13 集规模吻合；TMDB 第 1 季完整覆盖本作。外部逐集标题表与 Bangumi 的 13 个章节逐一同序，TMDB 集表的集数和播出时段也相符，因此映射第 1 至 13 集。\n\nhttps://www.themoviedb.org/tv/26361 (api_snapshot): 日文原名和英文别名均检索到 TMDB 电视剧 26361。\n\nhttps://www.themoviedb.org/tv/26361 (api_snapshot): TMDB 作品详情记载 2003 年播出的《人間交差点》，导演久米一成，原作者矢島正雄、弘兼憲史；共一季 13 集。\n\nhttps://www.themoviedb.org/tv/26361/season/1 (api_snapshot): TMDB 第 1 季集表只有第 1 至 13 集，播出日期覆盖 2003 年 4 月至 6 月。\n\nhttps://animedb.moe/anime/series/3915 (page): 日本动画资料页列出本作是 2003 年 TV 动画、全 13 集，并逐集列出《傷》至《分水嶺》的标题、顺序和播出日期，与 Bangumi 章节一致。\n\nhttps://www.allcinema.net/cinema/241170 (page): 影视资料页记载该动画于 2003 年 4 月 5 日至 6 月 28 日在东京电视台深夜播出，导演为久米一成。\n\n备注：TMDB 集标题仅为“第几话”，部分播出日期与动画资料页相差一天；后者按深夜播出后的公历日期记载。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5964; https://www.themoviedb.org/tv/26361; https://www.themoviedb.org/tv/26361/season/1; https://animedb.moe/anime/series/3915; https://www.allcinema.net/cinema/241170",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 26361
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

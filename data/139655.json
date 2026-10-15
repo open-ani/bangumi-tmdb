@@ -1,20 +1,54 @@
 {
   "anidbId": 11,
   "bangumiId": 139655,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 547400,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 547401,
+      "sort": 2,
+      "type": 0
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 547400,
+      "targets": [
+        {
+          "id": 1390599,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 547401,
+      "targets": [
+        {
+          "id": 1390603,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 的两话按简介顺序分别是 2002 年的 Battle Stage 与 2007 年的 Battle Stage 2。TMDB 将它们收录为两部独立电影；发行日期、比赛内容和制作人员支持逐话对应。旧映射只覆盖第一部，遗漏第二话。\n\nhttps://bgm.tv/subject/139655 (page): Bangumi 将本条目标为两话 OVA，起止日期分别为 2002 年 5 月 15 日和 2007 年 5 月 30 日；简介依次描述 Battle Stage 1 与 Battle Stage 2。\n\nhttps://www.themoviedb.org/movie/1390599 (api_snapshot): TMDB 电影 1390599 是 2002 年 5 月 15 日的《頭文字〈イニシャル〉D BATTLE STAGE》，导演、原作者和配音阵容与第一部相符。\n\nhttps://www.neowing.co.jp/product/AVBA-14365 (page): 2002 年发行的《INITIAL D BATTLE STAGE》DVD 收录 First、Second、Third Stage 的比赛画面及新制作的启介对清次比赛，符合 Bangumi 对第一话的描述。\n\nhttps://www.themoviedb.org/movie/1390603 (api_snapshot): TMDB 电影 1390603 是 2007 年 5 月 30 日的《BATTLE STAGE 2》；简介明确提及 Fourth Stage 比赛及启介对酒井、川井的新增比赛。\n\nhttps://initiald-portal.com/sp/contents/discography/detail.php?id=1010660 (page): 系列官方商品页确认《BATTLE STAGE 2》于 2007 年 5 月 30 日发行，收录 Fourth Stage 的比赛及新制作比赛画面。\n\nhttps://www.suruga-ya.jp/kaitori/kaitori_detail/128004471 (page): 2002 年 DVD 商品资料记载片长 73 分钟，与 TMDB 的 40 分钟字段不一致；其发行日、导演和收录比赛仍与第一部吻合。\n\n备注：TMDB 将第一部片长记为 40 分钟，而 2002 年 DVD 商品资料记为 73 分钟；片长字段存在差异，未发现其他身份信息冲突。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/139655; https://www.themoviedb.org/movie/1390599; https://www.neowing.co.jp/product/AVBA-14365; https://www.themoviedb.org/movie/1390603; https://initiald-portal.com/sp/contents/discography/detail.php?id=1010660; https://www.suruga-ya.jp/kaitori/kaitori_detail/128004471",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 1390599,
+      "type": "movie"
+    },
+    {
+      "id": 1390603,
       "type": "movie"
     }
   ]

@@ -1,20 +1,96 @@
 {
   "anidbId": 732,
   "bangumiId": 127457,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 497514,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 497515,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 497516,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 497517,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 497518,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 497519,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 497520,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 497521,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 497522,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 497523,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 497524,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 497525,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 497526,
+      "sort": 13,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 年份、电视动画媒介、导演、制作公司、人物剧情和13集规模共同确认，Bangumi subject 对应 TMDB 36201 的完整第1季。TMDB 集表的日期与实际播出期冲突，集名也只有序号；Bangumi 章节缺少日期和标题，因此暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/36201 (api_snapshot): TMDB 36201 是2003年的电视动画《潜水艦スーパー99》，列有导演又野弘道、制作公司 Vega Entertainment，共一季13集。\n\nhttps://www.themoviedb.org/tv/36201/season/1 (api_snapshot): TMDB 第1季仅列第1至13集，但集名只有“第n話”，播出日期被记为2003年4月8日至20日。\n\nhttps://www.enoki-films.co.jp/pro_submarinesuper99.php (page): 发行方榎木电影列出这部电视动画的13集剧情及制作方；剧情涉及沖進、潜水艦99与海洋帝国。\n\nhttps://www.b-ch.com/titles/2676/ (page): 万代频道将《SUBMARINE SUPER99》列为2003年电视动画，剧情与人物符合 Bangumi 条目。\n\nhttps://leijiverse.com/ja/submarine-super-99/ (search_snippet): 资料记载实际播出期为2003年5月8日至7月31日，全13集。\n\n备注：TMDB 所列逐集日期明显有误，不能据此核实章节对应；需取得可靠的逐集播出日期或标题后再补规则。；TMDB 剧集简介提到“ヘルメット党”，与动画资料所述“海洋帝国”不同；作品身份由制作资料、演员和完整季规模确认。\n\n脚本按声明范围生成逐集规则：13 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/127457; https://www.themoviedb.org/tv/36201; https://www.themoviedb.org/tv/36201/season/1; https://www.enoki-films.co.jp/pro_submarinesuper99.php; https://www.b-ch.com/titles/2676/; https://leijiverse.com/ja/submarine-super-99/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 13,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 36201
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 36201,
+      "season": 1,
       "type": "tv"
     }
   ]

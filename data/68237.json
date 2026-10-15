@@ -1,15 +1,155 @@
 {
   "bangumiId": 68237,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 253852,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 253853,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 253854,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 253855,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 253856,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 253857,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 253858,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 253859,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 253860,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 253861,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 253862,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 253863,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 253864,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 253865,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 253866,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 253867,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 253868,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 253869,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 253870,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 253871,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 253872,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 253873,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 253874,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 253875,
+      "sort": 24,
+      "type": 0
+    },
+    {
+      "id": 253876,
+      "sort": 25,
+      "type": 0
+    },
+    {
+      "id": 253877,
+      "sort": 26,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品、首播时间、制作方、角色及第一季内容均吻合。Bangumi 的 26 话与 TMDB 的 24 集相差两集，原因是 Bangumi 将开篇《Secret Origins》列为三话，TMDB 则合为一集 72 分钟。其余 23 话的标题与集序逐一对应，可用一条规则映射。开篇三话共同对应 TMDB 第 1 集，无法在禁止重复占用同一 TMDB 集的规则下逐话映射，因此留空。\n\nhttps://www.themoviedb.org/tv/1618 (api_snapshot): TMDB 搜索结果中，1618 是 2001 年 11 月 17 日首播的动画剧集《Justice League》；《Justice League Unlimited》是另一个 2004 年条目。\n\nhttps://www.themoviedb.org/tv/1618 (api_snapshot): TMDB 详情显示该剧由 Warner Bros. Animation 制作，主要角色与 Bangumi 简介一致；第一季始于 2001 年 11 月 17 日。\n\nhttps://www.themoviedb.org/tv/1618/season/1 (api_snapshot): TMDB 第一季集表共 24 集：第 1 集《Secret Origins》长 72 分钟；第 2 至 24 集从《In Blackest Night (1)》依次至《The Savage Time (3)》，与 Bangumi 第 4 至 26 话的标题和顺序对应。\n\nhttps://www.dc.com/blog/2026-01-05/a-journey-of-justice-the-evolution-of-dc-s-premiere-super-team (page): DC 官方文章确认，2001 年动画《Justice League》的开篇《Secret Origins》是三部分的试播篇。\n\n备注：Bangumi 的《War World》两话日期与 TMDB 集表相差约一天；两边标题和前后集序一致，不影响对应关系。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/68237; https://www.themoviedb.org/tv/1618; https://www.themoviedb.org/tv/1618/season/1; https://www.dc.com/blog/2026-01-05/a-journey-of-justice-the-evolution-of-dc-s-premiere-super-team",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 26,
+      "episodeStart": 2,
+      "season": 1,
+      "start": 4,
+      "tmdbId": 1618
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

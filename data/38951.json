@@ -1,21 +1,164 @@
 {
   "anidbId": 19,
   "bangumiId": 38951,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 166719,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 166720,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 166721,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 166722,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 166723,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 166724,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 166725,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 166726,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 166727,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 166728,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 166729,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 166730,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 166731,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 166732,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 166733,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 166734,
+      "sort": 16,
+      "type": 0
+    },
+    {
+      "id": 166735,
+      "sort": 17,
+      "type": 0
+    },
+    {
+      "id": 166736,
+      "sort": 18,
+      "type": 0
+    },
+    {
+      "id": 166737,
+      "sort": 19,
+      "type": 0
+    },
+    {
+      "id": 166738,
+      "sort": 20,
+      "type": 0
+    },
+    {
+      "id": 166739,
+      "sort": 21,
+      "type": 0
+    },
+    {
+      "id": 166740,
+      "sort": 22,
+      "type": 0
+    },
+    {
+      "id": 166741,
+      "sort": 23,
+      "type": 0
+    },
+    {
+      "id": 166742,
+      "sort": 24,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: Bangumi 收录第一、二期合计 24 集；TMDB 34684 的年份、剧情、配音阵容及两季各 12 集的结构相符。逐集标题比对确认 Bangumi 第 1 至 12 集对应 TMDB 第 1 季，第 13 至 24 集对应第 2 季；两季集表均只收录本作品，因此各以整季为目标。\n\nhttps://www.themoviedb.org/tv/34684 (api_snapshot): 以日文原名和英文别名搜索，均找到 TMDB TV 34684；原名为《りぜるまいん》，首播日期为 2002 年 4 月 2 日，英文简介中的友纪、莉采儿及政府安排的婚姻与 Bangumi 剧情相符。\n\nhttps://www.themoviedb.org/tv/34684 (api_snapshot): TMDB 详情记录这部作品共 24 集、两季，各 12 集；声优包括釘宮理恵、山口勝平和永島由子。\n\nhttps://www.themoviedb.org/tv/34684/season/1 (api_snapshot): 实际读取的 TMDB 第 1 季集表含第 1 至 12 集，首集日期为 2002 年 4 月 2 日。\n\nhttps://www.themoviedb.org/tv/34684/season/2 (api_snapshot): 实际读取的 TMDB 第 2 季集表含第 1 至 12 集，日期范围为 2002 年 10 月至 12 月。\n\nhttps://www.tvmaze.com/shows/34756/rizelmine/episodeguide (page): 逐集目录列出两季各 12 集；其英文集标题与 Bangumi 的 1 至 24 集日文标题依次对应。\n\nhttps://www.mau2.com/anime/rizelmine (page): 日文逐集资料列出第一期第 1 至 12 集标题，与 Bangumi 前 12 集一致。\n\nhttps://www.mau2.com/anime/rizelmine-2 (page): 日文资料将第二期从总第 13 集开始编号，已列出的第 13 至 19 集标题与 Bangumi 对应集一致。\n\nhttps://www.animejikan.com/work.php?id=1448 (page): 动画资料将第二期记为 2002 年 10 月至 12 月播出的全 12 集。\n\n备注：各资料的个别放送日期不一致：例如 TMDB 第 1 季第 12 集记为 6 月 29 日，TVmaze 记为 6 月 18 日；第二期也存在电视台或资料记录日期差异。这些差异不影响已核对的两季集数、集号和标题顺序。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/38951; https://www.themoviedb.org/tv/34684; https://www.themoviedb.org/tv/34684/season/1; https://www.themoviedb.org/tv/34684/season/2; https://www.tvmaze.com/shows/34756/rizelmine/episodeguide; https://www.mau2.com/anime/rizelmine; https://www.mau2.com/anime/rizelmine-2; https://www.animejikan.com/work.php?id=1448",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 34684
+    },
+    {
+      "bangumiType": 0,
+      "end": 24,
+      "episodeStart": 1,
+      "season": 2,
+      "start": 13,
+      "tmdbId": 34684
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 34684,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "id": 34684,
+      "season": 2,
       "type": "tv"
     }
   ]

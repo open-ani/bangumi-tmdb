@@ -60,17 +60,36 @@
       "id": 1752230,
       "sort": 12,
       "type": 0
+    },
+    {
+      "id": 1761690,
+      "sort": 1,
+      "type": 2
+    },
+    {
+      "id": 1761691,
+      "sort": 1,
+      "type": 3
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: 官方资料与 TMDB 在标题、剧情、媒介、制作方和主要人员上吻合；TMDB 的独立作品仅列第 1 季，对应本 subject。作品尚未开播，季表只有无日期占位集，因此提交整季范围，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/316551 (api_snapshot): 以日文标题搜索，TMDB 返回独立电视作品 316551；简介中的幕末背景和两位主角与本作一致。\n\nhttps://www.themoviedb.org/tv/316551 (api_snapshot): 作品详情列出 BN Pictures、导演工藤昌史及主演草野太一、濱野大輝；目前仅列第 1 季。\n\nhttps://www.themoviedb.org/tv/316551/season/1 (api_snapshot): 已读取第 1 季完整季表：仅有一条无放送日期的第 1 话占位记录。\n\nhttps://www.bn-pictures.co.jp/battlespirits/ (page): 官方确认这是完全新作电视动画，剧情涉及幕末背景及两种对战方式，定于 2026 年 10 月 6 日起每周二播出。\n\nhttps://www.bn-pictures.co.jp/battlespirits/staffcast/ (page): 官方制作名单确认导演工藤昌史、制作方 BN Pictures，以及两位主角的配音演员。\n\n备注：TMDB 尚未填写首播日期及可核对的逐集放送日期。；输入列出的 12 话总数和后续每周排期尚未从官方资料核实。",
+    "evidence": "gpt-6-sol: 作品的年份、媒介、剧情、制作方和导演均吻合。TMDB 第 1 季只列本作，Bangumi 话数仍标为未定，因此以整季作为作品范围。已播出的前两话可凭标题和日期逐集对应；其余章节暂不建立规则。\n\nhttps://www.themoviedb.org/tv/316551 (api_snapshot): 以原名搜索得到 TMDB 独立电视作品 316551；详情显示 2026 年 10 月 6 日首播、BN Pictures 制作、工藤昌史执导，剧情与 Bangumi 的幕末背景及主角设定吻合。\n\nhttps://www.themoviedb.org/tv/316551/season/1 (api_snapshot): 已读取第 1 季完整季表，共列 24 集；第 1、2 集分别为《UNFORGIVEN》和《THE COLLECTOR》，日期为 10 月 6 日和 13 日，与 Bangumi 章节一致。第 13 至 24 集尚无日期。\n\nhttps://www.bn-pictures.co.jp/battlespirits/ (page): 官方确认本作是 2026 年 10 月 6 日起每周二播出的全新电视动画，剧情涉及幕末背景下的两种对战方式。\n\nhttps://www.bn-pictures.co.jp/battlespirits/story/ (page): 官方第 1、2 话的标题和剧情分别与 TMDB 季表相符。\n\nhttps://bgm.tv/subject/544378 (page): Bangumi 将话数标为未定，并未将目前列出的 12 个本篇章节标为完整季度；所列导演和制作方也与官方及 TMDB 一致。\n\n备注：官方资料尚未确认最终总话数；TMDB 所列 24 集中，第 13 至 24 集仍无放送日期。；第 3 话以后尚未播出，后续标题和实际排期有待核实；OP、ED 章节未映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/544378; https://www.themoviedb.org/tv/316551; https://www.themoviedb.org/tv/316551/season/1; https://www.bn-pictures.co.jp/battlespirits/; https://www.bn-pictures.co.jp/battlespirits/staffcast/",
-    "verifiedAt": "2026-09-28T00:54:41.324Z"
+    "source": "https://bgm.tv/subject/544378; https://www.themoviedb.org/tv/316551; https://www.themoviedb.org/tv/316551/season/1; https://www.bn-pictures.co.jp/battlespirits/; https://www.bn-pictures.co.jp/battlespirits/story/",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 2,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 316551
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {

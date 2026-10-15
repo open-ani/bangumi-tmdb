@@ -1,13 +1,45 @@
 {
+  "anidbId": 1558,
   "bangumiId": 316757,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 982533,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 982534,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 982535,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 982536,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 982537,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 982538,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: TMDB movie 1120747 与 Bangumi subject 的日文原名、英文别名、2001-11-21 发售日、CG 虚拟偶像短片合集简介完全吻合；其 37 分钟、Pony Canyon/Fuji TV/Digital Media Lab/Blue Moon Studio 制作信息及导演 Tutomu Setomoto 也与外部资料一致。Bangumi 按 OVA 记录为 6 话，但 TMDB 将同一 DVD/合集作为 movie 表示，因此按 movie 映射，季和集数范围均为 null。排除 TV 223513：其详情和实际 S1 集表都只有 1 集 RGB，不能覆盖主体的 6 话。\n\nhttps://api.bgm.tv/v0/subjects/316757 (api_snapshot): Bangumi API：サイバードール FeiFei，别名 Cybervenus FeiFei／Virtually Real - Cybervenus FeiFei，日期 2001-11-21，媒介 OVA，6 话；简介为虚拟偶像的 CG 短片合集。\n\nhttps://www.themoviedb.org/movie/1120747 (api_snapshot): TMDB movie 1120747：Cybervenus FeiFei／サイバードール FeiFei，日期 2001-11-21，片长 37 分钟，简介同为 FeiFei 虚拟偶像 CG 短片合集；制作公司包括 Pony Canyon、Fuji Television Network、Digital Media Lab、Blue Moon Studio，导演 Tutomu Setomoto。\n\nhttps://simkl.com/anime/39529/cybervenus-feifei (search_snippet): 外部作品资料将 Virtually Real - Cybervenus FeiFei 标为 2001 年、37 分钟、6 episodes、OVA，并列出与 TMDB 相同的制作方及 RGB、Voice、Real、Doll、Messenger、Labyrinth 六个分段。\n\nhttps://www.animeka.com/animes/detail/cybervenus-fei-fei.html (search_snippet): 外部资料核对了 Cybervenus FeiFei／サイバードール FeiFei、2001 年、Digital Dream Studios、3D animation/musical、Kutsugi Kenichi，以及 6 个短单元。\n\nhttps://www.themoviedb.org/tv/223513 (api_snapshot): TMDB TV 223513 虽使用相同原名和别名，但详情记录总集数为 1、仅 1 季，且无工作人员和制作公司信息。\n\nhttps://www.themoviedb.org/tv/223513/season/1 (api_snapshot): TMDB TV 223513 第 1 季实际集表只有第 1 集 RGB，episodeCount=1；不能作为 Bangumi 6 话 OVA 的季集映射。\n\n备注：不同数据库对该 DVD 的媒介标签和单元时长表达略有差异；但作品身份、发行日期、简介、制作方及六个短单元均指向同一 2001 年版本。",
+    "evidence": "gpt-6-sol: Bangumi 的六话指同一虚拟偶像 CG 短片作品的六个单元；TMDB 电影 1120747 以整部短片合集收录，原名、日期、内容、制作方及导演相符。电影条目不提供逐集编号，因此仅映射整部作品。TMDB 同名剧集目前只有《RGB》一集，不能代表六话主体。\n\nhttps://bgm.tv/subject/316757 (page): Bangumi 将《サイバードール FeiFei》列为 2001 年 11 月 21 日发售的 6 话 OVA，别名包括 Cybervenus FeiFei 和 Virtually Real - Cybervenus FeiFei；简介称其为虚拟偶像 FeiFei 的 CG 短片合集。\n\nhttps://www.themoviedb.org/movie/1120747 (api_snapshot): TMDB 电影 1120747 的日文原名、2001 年 11 月 21 日日期及 CG 短片合集简介均吻合；片长 37 分钟，制作公司包括 Pony Canyon、Fuji Television Network、Digital Media Lab 和 Blue Moon Studio，导演为 Tutomu Setomoto。\n\nhttps://www.videobuster.de/dvd-bluray-verleih/67803/virtually-real-cybervenus-feifei (page): 影碟资料将 Cybervenus FeiFei 描述为同一导演的 2001 年作品，并明确列出 RGB、Voice、Real、Doll、Messenger、Labyrinth 六段短片。\n\nhttps://www.themoviedb.org/tv/223513/season/1 (api_snapshot): TMDB 同名剧集 223513 的详情仅记录一季一集；实际第 1 季集表也只有《RGB》，无法覆盖 Bangumi 的六段内容。\n\nhttps://www.suruga-ya.com/en/product/128003241 (page): 日本版《サイバードール Fei Fei Vol.1》的商品资料记录了相同发售日、Pony Canyon 与导演瀬戸本，并标为 30 分钟，显示发行版本的片长记录存在差异。\n\n备注：日本版 Vol.1 商品资料标注 30 分钟，TMDB 电影标注 37 分钟；不同发行版本的片长与附加内容尚未完全厘清，不影响六段短片合集的作品身份判断。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/316757; https://api.bgm.tv/v0/subjects/316757; https://www.themoviedb.org/movie/1120747; https://simkl.com/anime/39529/cybervenus-feifei; https://www.animeka.com/animes/detail/cybervenus-fei-fei.html; https://www.themoviedb.org/tv/223513; https://www.themoviedb.org/tv/223513/season/1",
-    "verifiedAt": "2026-09-08T22:33:09.404Z"
+    "source": "https://bgm.tv/subject/316757; https://www.themoviedb.org/movie/1120747; https://www.videobuster.de/dvd-bluray-verleih/67803/virtually-real-cybervenus-feifei; https://www.themoviedb.org/tv/223513/season/1; https://www.suruga-ya.com/en/product/128003241",
+    "verifiedAt": "2026-10-15T00:41:23.825Z"
   },
   "rules": [],
   "schemaVersion": 1,
