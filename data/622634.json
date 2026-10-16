@@ -185,15 +185,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 312123第1季，当前仅映射已核实的第1—25集。年份、电视动画媒介、剧情、导演与制作公司一致；前23集标题及日期逐集吻合，第24—25集由官网编号和标题、TMDB与Bangumi日期交叉确认。第25集虽尚未播出，但已公布具体内容且排期一致。第21集虽为回顾篇，两站均编入正篇第21集，无需特别覆盖。\n\nhttps://www.themoviedb.org/tv/312123 (api_snapshot): TMDB 312123 为2026年4月5日首播的电视动画；主人公好实祈、相遇葵与福啾的剧情、导演藤咲淳一与松永昌弘、OLM与DONGWOO制作信息均与输入吻合。\n\nhttps://www.themoviedb.org/tv/312123/season/1 (api_snapshot): 第1季实际集表共25集、仅1页。第1—23集标题与Bangumi逐集一致（第4集仅标点差异），第1—25集日期逐集一致。第24、25集分别为2026年9月13日、9月20日。\n\nhttps://aipri.jp/anime/ (page): 官网确认2026年4月5日起每周日播出，故事围绕好实祈在祈愿町成为偶像公主展开，与输入及TMDB剧情一致。\n\nhttps://aipri.jp/anime/staff-cast/ (page): 官网列出导演藤咲淳一、松永昌弘，动画制作OLM、DONGWOO A&E，与输入及TMDB一致。\n\nhttps://aipri.jp/anime/episode/ (page): 官网确认第24集为「てがみのゆくえ」、第25集为「おばけちゃんのおねがい」，与TMDB一致；回顾性质的第21集仍列为正式编号第21话。\n\n备注：Bangumi预列36集，TMDB实际季表目前仅有25集；第26—36集缺少可核实的TMDB章节，暂不映射，待季表更新后复核。；TMDB作品详情的总集数为23、最近播出日期为9月6日，与实际季表已列25集不同步；本次范围依据实际季表，不据此认定全季集数。",
+    "evidence": "gpt-6-sol: 作品的首播年份、电视动画媒介、剧情人物、导演和制作公司均吻合；TMDB第1季对应本subject，未见混入其他作品。现有季表第1—28集的日期与Bangumi逐集一致，已有标题也吻合；Bangumi缺标题的第26—28话另由官网编号和标题核实。第21话虽是回顾篇，官网和TMDB均将其编为正篇第21话。作品仍在播出，因此以整季作为目标范围，逐集规则只覆盖已核实的第1—28话。\n\nhttps://www.themoviedb.org/tv/312123 (api_snapshot): TMDB 312123 是2026年4月5日首播的电视动画《おねがいアイプリ》；好实祈、葵与福啾的剧情，以及导演藤咲淳一、松永昌弘和制作公司OLM、DONGWOO A&E均吻合。详情列有第1季。\n\nhttps://www.themoviedb.org/tv/312123/season/1 (api_snapshot): 第1季实际季表目前为1页、28集；第1—28集的编号和播出日期与Bangumi逐集一致。第26—28集的标题与官网编号一致。\n\nhttps://aipri.jp/anime/ (page): 官网确认本作自2026年4月5日起每周日播出，故事围绕好实祈在祈愿町成为偶像公主展开。\n\nhttps://aipri.jp/anime/staff-cast/ (page): 官网列出的导演与动画制作公司和Bangumi资料、TMDB详情一致。\n\nhttps://aipri.jp/anime/episode/ (page): 官网将回顾篇列为正式第21话，并将「ポップにいこ〜ん！」「六つのおねがい」「とどけ！ピュアハート」依次列为第26—28话。\n\n备注：Bangumi预列至第36话；TMDB季表目前仅列至第28话，第29—36话暂不建立逐集规则，待TMDB更新后复核。",
     "method": "codex",
     "source": "https://bgm.tv/subject/622634; https://www.themoviedb.org/tv/312123; https://www.themoviedb.org/tv/312123/season/1; https://aipri.jp/anime/; https://aipri.jp/anime/staff-cast/; https://aipri.jp/anime/episode/",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "verifiedAt": "2026-10-16T00:38:26.041Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 25,
+      "end": 28,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -203,8 +203,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 25,
       "id": 312123,
       "season": 1,
       "type": "tv"

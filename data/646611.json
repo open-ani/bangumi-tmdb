@@ -265,15 +265,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认部分映射：Bangumi第二季已播的第27—39集对应TMDB 281233第1季第27—39集。系列年份、剧情、出品信息及连续13集标题相互吻合，日期存在一致的一天偏差。TMDB将前作与续作连续编入第1季，因此不能按Bangumi季名映射到第2季，也不能使用整季范围。\n\nhttps://bgm.tv/subject/646611 (page): 本条目是2026年6月21日开始的52集网络动画续作，别名《光阴之外 年番》，由飞鱼映画、伊恩动漫制作，优酷参与出品；章节沿用第27—78集编号。\n\nhttps://bgm.tv/subject/458926 (page): 前作为2025年12月28日开始的26集网络动画，讲述末世少年许青的故事，制作公司与续作一致。\n\nhttps://www.themoviedb.org/tv/281233 (api_snapshot): TMDB 281233为《光阴之外》，首播日期与Bangumi前作一致，剧情同为许青在末世修行，出品公司包含优酷；目前只列第1季，共52集。\n\nhttps://www.themoviedb.org/tv/281233/season/1 (api_snapshot): 已读取第1季全部52集，total_pages=1。第27—39集的13个标题与输入逐一相同，播出日期均比Bangumi早一天，周更顺序一致。第42、43集被列为同日播出；未列第53—78集。\n\nhttps://bgm.tv/subject/646611/ep (page): 章节页确认第27集开始的连续编号及每周日排期；网页缓存中第27—35集标题及约22—30分钟时长与TMDB对应集相符。\n\n备注：两站播出日期相差一天，原因尚未核实。；第40—52集尚未播出，TMDB仅有占位标题，且后续排期出现同日双集及日期偏移，暂不映射。；Bangumi计划覆盖第27—78集，但TMDB季表目前止于第52集；第53—78集须待真实季集表补充后再核对。",
+    "evidence": "gpt-6-sol: 本作接续前作第26集，TMDB则把两作连续编入281233第1季。已播出的第27—43集可按标题、剧情、编号和周更顺序逐集对应；第44—52集在两站均有连续排期，因此列入已确认的部分季范围，暂不写入逐集规则。\n\nhttps://bgm.tv/subject/646611 (page): Bangumi 将本作列为2026年6月21日开播的52集网络动画续作，原作是耳根《光阴之外》，由优酷参与出品。\n\nhttps://bgm.tv/subject/646611/ep (page): 章节表从第27集连续编号至第78集；已播出的第27—42集标题与TMDB对应集一致，Bangumi标注每周日播出。\n\nhttps://www.themoviedb.org/tv/281233 (api_snapshot): TMDB 281233是2025年12月28日首播的《光阴之外》，剧情主角为许青，出品公司包含优酷；目前仅列第1季。\n\nhttps://www.themoviedb.org/tv/281233/season/1 (api_snapshot): 已读取第1季完整集表（total_pages=1）：第1—26集对应前作；第27—43集与本作的编号、已知标题及每周播出顺序吻合。第44—52集已有排期，第53—78集尚未列出。\n\n备注：Bangumi与TMDB的第27—52集标注日期持续相差一天，原因未核实。；第44—52集尚未播出，待播出后核对实际标题与日期，再补充逐集规则。；Bangumi规划至第78集，但TMDB季表目前止于第52集；第53—78集须待TMDB补充真实集表后核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/646611; https://bgm.tv/subject/458926; https://www.themoviedb.org/tv/281233; https://www.themoviedb.org/tv/281233/season/1; https://bgm.tv/subject/646611/ep",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "source": "https://bgm.tv/subject/646611; https://bgm.tv/subject/646611/ep; https://www.themoviedb.org/tv/281233; https://www.themoviedb.org/tv/281233/season/1",
+    "verifiedAt": "2026-10-16T00:38:26.041Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 39,
+      "end": 43,
       "episodeStart": 27,
       "season": 1,
       "start": 27,
@@ -284,7 +284,7 @@
   "targets": [
     {
       "episode": 27,
-      "episodeEnd": 39,
+      "episodeEnd": 52,
       "id": 281233,
       "season": 1,
       "type": "tv"

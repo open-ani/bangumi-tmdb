@@ -1,0 +1,20 @@
+{
+  "bangumiId": 536065,
+  "episodes": [],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: TMDB 条目虽有标题错字，但其独特剧情与 Bangumi 所述同一部动画电影相符；本 subject 没有可映射的逐集章节，因此仅映射电影作品。\n\nhttps://bgm.tv/subject/536065 (page): Bangumi 将《孙悟空之噬天魔猴》列为剧场版，记载导演为马系海、聂盛杰，剧情为孙悟空封印心魔后心魔意外破封。\n\nhttps://www.1905.com/mdb/film/2253522/ (page): 1905电影网将该作品列为中国动画电影，页面标注“暂未上映”；其 2020 年份标记不能作为实际上映日期。\n\nhttps://www.themoviedb.org/movie/1272367 (api_snapshot): TMDB 电影 1272367 的标题误写为《孙悟空时天魔候》，但英文简介具体描述了炼丹炉、以金箍封印恶念、灵猴触动封印及“噬天”诞生，与 Bangumi 剧情吻合。\n\n备注：TMDB 未填写上映日期、演职员和制作公司，无法用这些字段再次核对；其“已上映”状态与 1905 网页的“暂未上映”标注不一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/536065; https://www.1905.com/mdb/film/2253522/; https://www.themoviedb.org/movie/1272367",
+    "verifiedAt": "2026-10-16T00:38:26.041Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1272367,
+      "type": "movie"
+    }
+  ]
+}

@@ -45,15 +45,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品身份已由年份、电视媒介、剧情、人物、导演和制作公司交叉确认。第1话标题及日期与TMDB第1季第1集完全一致，因此仅提交这一已核实范围的部分映射。\n\nhttps://www.themoviedb.org/tv/334504 (api_snapshot): TMDB 334504 为2026年电视动画，首播日期为2026-10-04；剧情中的管理员さとる、雪女深冬与诅咒戒指，以及导演古賀一臣、制作公司彗星社均与官方资料吻合。\n\nhttps://www.themoviedb.org/tv/334504/season/1 (api_snapshot): 第1季集表只有1集，total_pages=1；第1集标题为「指輪」，播出日期为2026-10-04，与输入的 Bangumi 第1话标题和日期完全一致。\n\nhttps://anime-yukionna.af-original.com/ (page): 官网确认原作为ぷぅ崎ぷぅ奈、导演为古賀一臣、动画制作为studio HōKIBOSHI，并提供与输入一致的人物和剧情介绍，明确为TV动画改编。\n\nhttps://anime-yukionna.af-original.com/onair/ (page): 官方播出页确认BS11预定2026年10月4日开播，AnimeFesta已先行提供第1话。\n\nhttps://anime-yukionna.af-original.com/news/700/ (page): 官方区分电视及网络播出的オンエア版与AnimeFesta独占的プレミアム版，后者包含额外场景；两者属于同一动画的发行版本。\n\n备注：输入列有8话，但TMDB第1季目前仅收录1集；第2至8话缺少可核对的TMDB集表，暂不映射，也不声明整季覆盖。；TMDB将作品状态标为Ended，与官方尚待电视首播的信息不一致，不能据此认定全剧只有1集。；TMDB未明确标注オンエア版或プレミアム版；现有证据支持同一TV作品的第1话对应，不能进一步确认具体剪辑版本。",
+    "evidence": "gpt-6-sol: TMDB 334504 的作品身份、8 集季表及前两集标题均与官方资料吻合。官网确认电视版全 8 集、每周日 25:05 播出；Bangumi 的周日日期与 TMDB 的次日日期逐周对应，因此第 1 至 8 话可连续映射至第 1 季同号集。排除集数与官网冲突的同名条目 337408。\n\nhttps://www.themoviedb.org/tv/334504 (api_snapshot): TMDB 334504 是 2026 年播出的同名电视动画，剧情涉及管理员さとる、雪女深冬与诅咒戒指；导演古賀一臣、制作方彗星社与官网一致，第 1 季列有 8 集。\n\nhttps://www.themoviedb.org/tv/334504/season/1 (api_snapshot): TMDB 334504 第 1 季共 8 集，集表仅 1 页；第 1 集《指輪》日期为 10 月 5 日，第 2 集《雪女》为 10 月 12 日，其余集数按周列至 11 月 23 日。\n\nhttps://anime-yukionna.af-original.com/ (page): 官网确认剧情、人物、导演和制作信息，并公布第 1 集《指輪》、第 2 集《雪女》。\n\nhttps://anime-yukionna.af-original.com/onair/ (page): 官网注明 BS11 从 2026 年 10 月 4 日起每周日 25:05 播出；该时刻按日历日期属于次日，解释了 TMDB 集表比 Bangumi 日期晚一天。\n\nhttps://anime-yukionna.af-original.com/disc/777/ (page): 官网电视播出版 DVD 明确收录全 8 集。\n\nhttps://www.themoviedb.org/tv/337408/season/1 (api_snapshot): 另一个同名 TMDB 条目 337408 第 1 季列出 12 集，与官网确认的电视播出版全 8 集冲突。\n\n备注：第 3 至 8 话尚未播出，映射依据是官网确认的总集数和周播排期，以及双方一致的预定日期；这些集的标题尚不能逐集核对。；TMDB 334504 未明确标注电视播出版或 AnimeFesta 高级版的剪辑版本。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/656083; https://www.themoviedb.org/tv/334504; https://www.themoviedb.org/tv/334504/season/1; https://anime-yukionna.af-original.com/; https://anime-yukionna.af-original.com/onair/; https://anime-yukionna.af-original.com/news/700/",
-    "verifiedAt": "2026-09-18T00:25:50.634Z"
+    "source": "https://bgm.tv/subject/656083; https://www.themoviedb.org/tv/334504; https://www.themoviedb.org/tv/334504/season/1; https://anime-yukionna.af-original.com/; https://anime-yukionna.af-original.com/onair/; https://anime-yukionna.af-original.com/disc/777/; https://www.themoviedb.org/tv/337408/season/1",
+    "verifiedAt": "2026-10-16T00:38:26.041Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 1,
+      "end": 8,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -63,7 +63,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
       "id": 334504,
       "season": 1,
       "type": "tv"
