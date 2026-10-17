@@ -25,17 +25,33 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 章节版本、电影媒介、上映日期及具体剧情一致，可确认对应该独立电影。Bangumi 将第三章拆列为第 7—10 话，候选则将第三章整体收录为电影，因此确认作品级对应，逐集映射留空。\n\nhttps://www.themoviedb.org/movie/1396445 (api_snapshot): 候选电影 1396445 明确为 REBEL3199 第三章《群青のアステロイド》，上映日期为 2025-04-11，与 Bangumi 的剧场版章节及上映日期一致；简介中的芙露尔转学、游击队策划反抗行动、大和号摆脱透明战舰追击并驶向加尔曼星系等情节也一致。\n\n备注：候选未提供制作方、片长或内部章节表，无法逐一核验第 7—10 话标题，也没有可供逐集映射的 TV 季表。",
+    "evidence": "gpt-6-sol: 第三章既有独立的 TMDB 电影条目，也作为同一系列第 1 季的第 7—10 集收录。电影的上映日期和剧情吻合；官方剧情页、TMDB 季表与 Bangumi 四话的标题、顺序和日期相互印证，因此可将四话连续映射至第 7—10 集。\n\nhttps://www.themoviedb.org/movie/1396445 (api_snapshot): TMDB 电影 1396445 为《第三章 群青のアステロイド》，上映日期为 2025-04-11；芙露尔转学、游击队反抗及大和号驶向加尔曼星系等剧情与 Bangumi 一致。\n\nhttps://www.themoviedb.org/tv/223705 (api_snapshot): TMDB 剧集 223705 为《ヤマトよ永遠に REBEL3199》，列有第 1 季，共 26 集。\n\nhttps://www.themoviedb.org/tv/223705/season/1 (api_snapshot): TMDB 第 1 季第 7—10 集均标为 2025-04-11，标题及顺序与 Bangumi 四话对应；第 11 集已属下一章。\n\nhttps://starblazers-yamato.net/3199/story/index.html (page): 官方剧情页明确将第 7—10 话列在《第三章 群青のアステロイド》下，并列出各话标题与剧情。\n\nhttps://starblazers-yamato.net/3199/bddvd/03.html (page): 官方影碟页将第三章作为剧场上映作品，记载 2025-04-11 起在上映影院发售影碟，正片时长为 99 分钟。\n\n备注：Bangumi 标注片长 103 分钟，官方影碟页标注正片 99 分钟，TMDB 电影条目标注 97 分钟；时长记录存在差异。；Bangumi 第 10 话标题中的「驚異」与官方及 TMDB 使用的「脅威」不同，但其余标题要素、话数和顺序一致。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/473413; https://www.themoviedb.org/movie/1396445",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/473413; https://www.themoviedb.org/movie/1396445; https://www.themoviedb.org/tv/223705; https://www.themoviedb.org/tv/223705/season/1; https://starblazers-yamato.net/3199/story/index.html; https://starblazers-yamato.net/3199/bddvd/03.html",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 7,
+      "season": 1,
+      "start": 7,
+      "tmdbId": 223705
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 1396445,
       "type": "movie"
+    },
+    {
+      "episode": 7,
+      "episodeEnd": 10,
+      "id": 223705,
+      "season": 1,
+      "type": "tv"
     }
   ]
 }

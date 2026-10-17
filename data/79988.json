@@ -1,4 +1,5 @@
 {
+  "anidbId": 7096,
   "bangumiId": 79988,
   "episodes": [
     {
@@ -15,10 +16,10 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: 确认这是1992年的2集、每集约50分钟的OVA。TMDB 322231的原名、年份、剧情、导演关田修、原作本宫广志及制作公司均吻合；其第1季恰有两集，分别对应1992-07-01的Volume 1和1992-09-09的Volume 2。后者与资料中标为《怒涛编》的第二部OVA相符，因此使用完整第1季。另一同名条目113020的第二集日期为1992-07-08，与可核实的第二部发行日不符，判为较不可靠的重复记录。\n\nhttps://api.bgm.tv/v0/subjects/79988 (api_snapshot): Bangumi原始资料确认作品为OVA，1992-07-01发行，共2集，片长约50分钟；原作本宫广志，导演关田修。\n\nhttps://www.allcinema.net/cinema/88427 (page): 《ドン 極道水滸伝》为1992年日本原创视频动画，50分钟，导演关田修，1992-07-01发行。\n\nhttps://www.allcinema.net/cinema/pdf/235803 (page): 《ドン 極道水滸伝 怒濤編》为同一原作的第二部原创视频动画，50分钟，导演关田修，1992-09-09发行。\n\nhttps://www.themoviedb.org/tv/322231 (api_snapshot): TMDB详情确认原名为「ドン 極道水滸伝」、年份1992、剧情涉及伊达武吉和本宫广志同名漫画，导演Osamu Sekita，制作公司含Nihon Eizo与J.C.STAFF，共1季2集。\n\nhttps://www.themoviedb.org/tv/322231/season/1 (api_snapshot): TMDB第1季实际只有2集：Volume 1为1992-07-01、50分钟，Volume 2为1992-09-09、50分钟，完整覆盖Bangumi的2集主体。\n\nhttps://www.themoviedb.org/tv/113020 (api_snapshot): 同名重复条目113020虽显示1季2集，但其第二集日期为1992-07-08，且剧情、制作信息较少。\n\n脚本按声明范围生成逐集规则：2 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "evidence": "gpt-6-sol: Bangumi 所给资料为1992年开始发行的两集、每集约50分钟的 OVA。TMDB 113020 第1季恰含两集，其逐集日期和片长分别对应首部与《怒濤編》；原名、导演及作品背景也吻合，因此将两章依序对应第1季第1、2集。旧映射 ID 322231 现无法从 TMDB 读取，改用已核实的 113020。\n\nhttps://www.themoviedb.org/tv/113020 (api_snapshot): 以日文原名及罗马字别名搜索 TMDB，均找到同名的 TV 条目 113020。\n\nhttps://www.themoviedb.org/tv/113020 (api_snapshot): TMDB 113020 详情显示原名为《ドン 極道水滸伝》，首播于1992年7月1日，共1季2集，导演为关田修；详情中的末集日期为7月8日，与季集表不一致。\n\nhttps://www.themoviedb.org/tv/113020/season/1 (api_snapshot): 实际读取的第1季集表只有两集：第1集1992年7月1日、第2集1992年9月9日，均为50分钟。\n\nhttps://www.themoviedb.org/tv/322231 (api_snapshot): 旧映射所用的 TV 322231 在本次 TMDB 详情查询中返回 HTTP 404。\n\nhttps://www.allcinema.net/cinema/pdf/88427 (page): AllCinema 将首部列为1992年7月1日发行的50分钟原创视频动画；剧情涉及伊达武吉与室户正一，原作为本宫广志，导演为关田修。\n\nhttps://www.allcinema.net/cinema/pdf/235803 (page): AllCinema 将《怒濤編》明确列为同一漫画改编动画的第二部，1992年9月9日发行，片长50分钟，导演同为关田修。\n\n备注：Bangumi 两个章节均未填写独立标题和发行日期；逐集顺序依据其章节序号、两部 OVA 的发行先后及 TMDB 季集表确认。；TMDB 详情页的末集日期为1992年7月8日，但实际季集表和 AllCinema 的第二部发行资料均为1992年9月9日。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/79988; https://api.bgm.tv/v0/subjects/79988; https://www.allcinema.net/cinema/88427; https://www.allcinema.net/cinema/pdf/235803; https://www.themoviedb.org/tv/322231; https://www.themoviedb.org/tv/322231/season/1; https://www.themoviedb.org/tv/113020",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/79988; https://www.themoviedb.org/tv/113020; https://www.themoviedb.org/tv/113020/season/1; https://www.themoviedb.org/tv/322231; https://www.allcinema.net/cinema/pdf/88427; https://www.allcinema.net/cinema/pdf/235803",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
   "rules": [
     {
@@ -27,13 +28,13 @@
       "episodeStart": 1,
       "season": 1,
       "start": 1,
-      "tmdbId": 322231
+      "tmdbId": 113020
     }
   ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 322231,
+      "id": 113020,
       "season": 1,
       "type": "tv"
     }

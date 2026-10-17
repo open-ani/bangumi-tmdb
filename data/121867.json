@@ -160,10 +160,10 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 作品媒介、制作方背景、第6季首末日期及完整播出日期序列相互吻合，可确认对应 TMDB 31132 第6季。集数差集中在三组A/B分话；逐集仅映射日期唯一且连续顺序明确的章节，其余留空。\n\nhttps://www.themoviedb.org/tv/31132 (api_snapshot): 候选为 Cartoon Network Studios 制作的美国动画剧集 Regular Show；第6季共28集，首末播出日期为2014-10-09、2015-06-25，与本 subject 一致。逐集日期覆盖 Bangumi 全部31话的播出日期。\n\nhttps://www.themoviedb.org/tv/31132 (api_snapshot): Bangumi 第1—3、6—8、13—25、28—31话分别与第6季第1—3、5—7、11—23、25—28集逐集日期一致，且各日期在双方对应季内均唯一。\n\nhttps://www.themoviedb.org/tv/31132 (api_snapshot): 2014-10-29、2014-11-20、2015-04-09三个日期，Bangumi 各列同名故事的A/B两话，TMDB 各列一集，恰好解释31话与28集的数量差。TMDB 标题均为通用集号，无法直接核实合并内容。\n\n备注：Bangumi 第4—5、9—10、26—27话疑似分别合并为 TMDB 第4、8、24集；缺少有效标题或内容说明，且不能让两个章节占用同一 TMDB 集，因此暂不映射这些章节。；Bangumi 第11、12话与 TMDB 第9、10集均于2014-12-04播出；候选缺少有效标题，无法独立确认当日两集的对应顺序，暂不映射。；输入缺少可比对的剧情资料，Bangumi 亦未提供制作公司；作品与季的判定主要依据媒介、系列信息及完整播出日期序列。",
+    "evidence": "gpt-6-sol: 作品别名、制作公司、季首播日期，以及第6季逐集标题和日期共同确认对应 TMDB 31132 第6季。Bangumi 的31话中有三组A/B分话，TMDB 各合为一集；其余25话可按标题、日期和顺序对应。\n\nhttps://www.themoviedb.org/tv/31132 (api_snapshot): 日文别名“レギュラーSHOW〜コリない2人〜”检索到 TMDB 剧集 31132《Regular Show》。\n\nhttps://www.themoviedb.org/tv/31132 (api_snapshot): 剧集资料显示其为 Cartoon Network Studios 制作的动画，第6季始于2014年10月9日，共28集；作品日文别名及主要角色也与本条目一致。\n\nhttps://www.themoviedb.org/tv/31132/season/6 (api_snapshot): 第6季的28集覆盖本条目首末播出日期；可映射章节的标题和日期逐集吻合。TMDB 将 Bangumi 分为A、B两话的三则故事各列为一集，另将2014年12月4日播出的两话分别列为第9、10集。\n\n备注：Bangumi 第4—5、9—10、26—27话分别是三则故事的A/B两部分，TMDB 第4、8、24集各收录完整故事。由于一集不能由两个 Bangumi 章节重复占用，这六个章节暂不建立逐集映射。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/121867; https://www.themoviedb.org/tv/31132",
-    "verifiedAt": "2026-09-18T19:06:50.005Z"
+    "source": "https://bgm.tv/subject/121867; https://www.themoviedb.org/tv/31132; https://www.themoviedb.org/tv/31132/season/6",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
   "rules": [
     {
@@ -185,9 +185,9 @@
     {
       "bangumiType": 0,
       "end": 25,
-      "episodeStart": 11,
+      "episodeStart": 9,
       "season": 6,
-      "start": 13,
+      "start": 11,
       "tmdbId": 31132
     },
     {

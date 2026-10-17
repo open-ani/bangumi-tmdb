@@ -25,17 +25,33 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 可确认对应独立电影918429：版本、第三章标识、上映日期、媒介和剧情一致。Bangumi将本章拆为第33—36话，候选仅提供整部电影，因此映射subject整体，逐集对应留空。\n\nhttps://www.themoviedb.org/movie/918429 (api_snapshot): 候选为《銀河英雄伝説 Die Neue These 激突 第三章》独立电影，上映日期为2022-05-13，与 subject 的版本、章次、电影媒介及上映日期一致；简介中的坎普率帝国军进攻伊谢尔伦要塞也与 subject 剧情吻合。\n\n备注：候选未提供制作方和电影内部的分集标题、日期或集数，无法独立核验第33—36话的逐集对应；候选也未提供可用的TV季表。",
+    "evidence": "gpt-6-sol: Bangumi subject 是 2022 年 5 月 13 日上映的《激突》第三章，对应 TMDB 独立电影 918429。其四个章节同时对应 TMDB 剧集 74018 第 3 季第 9—12 集：四集标题与 Bangumi 第 33—36 话逐一相同，官方也确认第三章收录第 33—36 话。Bangumi 四话均采用剧场上映日；TMDB 季表记录的是逐周日期，因此日期差异不影响已核实的章节顺序。\n\nhttps://www.themoviedb.org/movie/918429 (api_snapshot): TMDB 电影 918429 为《銀河英雄伝説 Die Neue These 激突 第三章》，上映日期为 2022-05-13，片长 95 分钟，制作公司为 Production I.G，导演为多田俊介；剧情涉及坎普进攻伊谢尔伦要塞。\n\nhttps://www.themoviedb.org/tv/74018/season/3 (api_snapshot): TMDB 剧集 74018 的第 3 季名为《激突》，季表共 12 集；第 9—12 集的标题依次为《武器なき戦い》及《要塞対要塞》Akt I、II、III，与 Bangumi 第 33—36 话逐集吻合。TMDB 所列日期为 2022-05-13、05-20、05-27、06-03。\n\nhttps://gineiden-anime.com/story-3rd.html (page): 官方将《激突》列为第三季，并确认第三章讲述坎普进攻伊谢尔伦要塞、杨缺席时的防卫战。\n\nhttps://gineiden-anime.com/bddvd9.html (page): 官方第 9 卷注明收录第 33—36 话的 TV 格式，并收录第三章预告，确认第三章对应这四话。\n\nhttps://gineiden-anime.com/news/2848 (page): 官方公告确认《激突》第三章于 2022-05-13 开始上映。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/361385; https://www.themoviedb.org/movie/918429",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/361385; https://www.themoviedb.org/movie/918429; https://www.themoviedb.org/tv/74018/season/3; https://gineiden-anime.com/story-3rd.html; https://gineiden-anime.com/bddvd9.html; https://gineiden-anime.com/news/2848",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 36,
+      "episodeStart": 9,
+      "season": 3,
+      "start": 33,
+      "tmdbId": 74018
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 918429,
       "type": "movie"
+    },
+    {
+      "episode": 9,
+      "episodeEnd": 12,
+      "id": 74018,
+      "season": 3,
+      "type": "tv"
     }
   ]
 }

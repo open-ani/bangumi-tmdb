@@ -50,15 +50,15 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 原作、OVA 媒介、制作信息、首发年份及前八话的标题和日期一致，可确认对应 TMDB 228367 第 1 季第 1—8 集。仅映射已核实范围，第 9 话留空。\n\nhttps://www.themoviedb.org/tv/228367 (api_snapshot): 候选为同一原作者二三月そう、KATTS 出版原作的 OVA，首发日期同为 2023-07-07；制作公司 King Bee 与 Bangumi 版权信息一致，Media Bank 与所列官方网站一致。第 1 季第 1—8 集的标题及发行日期均与 Bangumi 第 1—8 话逐集一致。\n\n备注：Bangumi 第 9 话预定于 2026-12-11 发行，候选季表仅列八集，无法确认其 TMDB 集号；需后续季表补充后核对。",
+    "evidence": "gpt-6-sol: 作品的原作、OVA 媒介、首发日期和制作公司相符；TMDB 第1季完整覆盖本 subject 的9话。逐话标题、集号与日期均一致，第9话的未来发行日期另有商品页佐证，因此将 Bangumi 第1—9话连续对应至 TMDB 第1季第1—9集。\n\nhttps://www.themoviedb.org/tv/228367 (api_snapshot): TMDB 228367 的原名、2023年7月7日首播日期、二三月そう原作及 KATTS 出版的 OVA 简介，均与待核对作品吻合；制作公司为 King Bee 和 Media Bank，仅列第1季。\n\nhttps://www.themoviedb.org/tv/228367/season/1 (api_snapshot): 第1季季表仅有9集；第1至第9集的集号、标题和日期分别与所给 Bangumi 章节逐集一致，季表没有混入其他作品。\n\nhttps://ec.toranoana.jp/tora_r/ec/item/210006667340/ (page): 第9话的 King Bee DVD 商品页列明预定于2026年12月11日发行，与两边的第9集排期一致。\n\n备注：第9话尚未发行，预定日期仍可能调整。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/421743; https://www.themoviedb.org/tv/228367",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/421743; https://www.themoviedb.org/tv/228367; https://www.themoviedb.org/tv/228367/season/1; https://ec.toranoana.jp/tora_r/ec/item/210006667340/",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 8,
+      "end": 9,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
@@ -68,8 +68,6 @@
   "schemaVersion": 1,
   "targets": [
     {
-      "episode": 1,
-      "episodeEnd": 8,
       "id": 228367,
       "season": 1,
       "type": "tv"

@@ -25,17 +25,33 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 匹配独立电影918428。章节、上映日期、媒介、剧情及前后章关系相互吻合，可确认是2022年《Die Neue These 激突》第二章。候选未提供TV季表，故仅建立电影级映射，不推断第29—32话的TMDB逐集对应。\n\nhttps://www.themoviedb.org/movie/918428 (api_snapshot): 候选为《銀河英雄伝説 Die Neue These 激突 第二章》独立电影，上映日期为2022-04-01，与 subject 的章节、电影媒介及上映日期一致；简介中的伊谢尔伦要塞夺还作战、肯普领军和同盟政府对杨的戒心也与 subject 剧情吻合。\n\nhttps://www.themoviedb.org/movie/918427 (api_snapshot): 第一章上映日期为2022-03-04，与 Bangumi 前作关系中的第一章及日期一致。\n\nhttps://www.themoviedb.org/movie/918429 (api_snapshot): 第三章上映日期为2022-05-13，与 Bangumi 后作关系中的第三章及日期一致，支持第二章的版本与系列位置。\n\n备注：候选未提供制作方及内部四话的标题、日期或分段资料，无法独立核验制作信息与逐集对应；rules和overrides留空。",
+    "evidence": "gpt-6-sol: Bangumi subject 是 2022 年 4 月 1 日上映的《激突》第二章，对应 TMDB 电影 918428。其四话另有电视分集版本：官方确认第二章对应总第 29 至 32 话，TMDB 第 3 季第 5 至 8 集的四个标题也逐一吻合，因此建立连续逐集规则。Bangumi 四话均记为影院上映日；TMDB 季表记录的是后续电视分集播出日。\n\nhttps://www.themoviedb.org/movie/918428 (api_snapshot): 电影 918428 的原名为《銀河英雄伝説 Die Neue These 激突 第二章》，上映日为 2022-04-01，制作公司为 Production I.G；剧情涉及肯普率军夺取伊谢尔伦要塞及同盟政府对杨的戒心。\n\nhttps://www.themoviedb.org/tv/74018 (api_snapshot): 电视作品 74018 的第 3 季名为《銀河英雄伝説 Die Neue These 激突》，共 12 集。\n\nhttps://www.themoviedb.org/tv/74018/season/3 (api_snapshot): 第 3 季第 5 至 8 集依次为《はばたく禿鷹(ガイエ)》《細い一本の糸》《失われたもの》《査問会》，与 Bangumi 第 29 至 32 话标题逐集一致；TMDB 记录的电视播出日依次为 2022-04-15、04-22、04-29、05-06。\n\nhttps://www.production-ig.co.jp/hotnews/2021/100801/ (page): 官方资料确认第三季《激突》的第二章自 2022-04-01 起上映。\n\nhttps://gineiden-anime.com/bddvd8.html (page): 动画官网注明《激突》第 8 卷收录第 29 至 32 话的电视格式版本，并列有第二章预告。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/361384; https://www.themoviedb.org/movie/918428; https://www.themoviedb.org/movie/918427; https://www.themoviedb.org/movie/918429",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/361384; https://www.themoviedb.org/movie/918428; https://www.themoviedb.org/tv/74018; https://www.themoviedb.org/tv/74018/season/3; https://www.production-ig.co.jp/hotnews/2021/100801/; https://gineiden-anime.com/bddvd8.html",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 32,
+      "episodeStart": 5,
+      "season": 3,
+      "start": 29,
+      "tmdbId": 74018
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 918428,
       "type": "movie"
+    },
+    {
+      "episode": 5,
+      "episodeEnd": 8,
+      "id": 74018,
+      "season": 3,
+      "type": "tv"
     }
   ]
 }

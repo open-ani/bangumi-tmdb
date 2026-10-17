@@ -15,10 +15,10 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "脚本按放送日期识别作品：以「あきそら～夢の中～」「秋日天空 ～梦之中～」「Aki-Sora: Yume no Naka」「秋空 ～梦之中～」「秋色天空 ～梦之中～」「秋色之空 ～梦之中～」搜索得到 3 个 TV、0 个电影候选；tv/310144「あきそら～夢の中～ OVA」第 1 季整季与 2 个本篇章节逐一对应，2 对日期全部在 ±1 天内；其他候选没有吻合的集序列。",
-    "method": "deterministic",
-    "source": "https://bgm.tv/subject/7783; https://www.themoviedb.org/tv/310144",
-    "verifiedAt": "2026-09-18T19:06:50.005Z"
+    "evidence": "gpt-6-sol: 匹配 TMDB 73108 第 1 季：作品名称、2010 年两卷 OVA 的内容与集数、制作公司及导演一致；季内「上巻」「下巻」顺序与 Bangumi 两章相同，且下卷日期完全一致。第 0 季的 2009 年作品不在本 subject 范围内。旧映射 ID 310144 已失效。\n\nhttps://www.themoviedb.org/tv/73108 (api_snapshot): TMDB 73108 的日文原名为「あきそら～夢の中～」，共 1 季、2 集，制作公司包括 Hoods Entertainment，导演资料包含高橋丈夫。\n\nhttps://www.themoviedb.org/tv/73108/season/1 (api_snapshot): TMDB 73108 第 1 季仅有两集，依次为「上巻」和「下巻」；第 2 集日期为 2010-11-17。\n\nhttps://www.themoviedb.org/tv/73108/season/0 (api_snapshot): TMDB 73108 第 0 季收录的是 2009-12-18 的「あきそら」，属于另一个 Bangumi subject。\n\nhttps://www.animatetimes.com/tag/details.php?id=1322 (page): Anime Times 确认本作是两集 OVA，上卷于 2010-07-30、下卷于 2010-11-17 发售；导演和动画制作公司也与 Bangumi 资料一致。\n\nhttps://www.oricon.co.jp/prof/521374/products/867552/1/ (page): Oricon 的上卷 DVD 商品页确认其发售日为 2010-07-30。\n\nhttps://www.themoviedb.org/tv/310144 (api_snapshot): 旧映射的 TMDB TV 310144 详情请求返回 HTTP 404。\n\n备注：TMDB 将上卷日期记为 2010-07-20，比 Anime Times、Oricon 和 Bangumi 记载的发售日 2010-07-30 早 10 天；上卷对应关系仍由卷名、集序、总集数及作品身份共同确认。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/7783; https://www.themoviedb.org/tv/73108; https://www.themoviedb.org/tv/73108/season/1; https://www.themoviedb.org/tv/73108/season/0; https://www.animatetimes.com/tag/details.php?id=1322; https://www.oricon.co.jp/prof/521374/products/867552/1/; https://www.themoviedb.org/tv/310144",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
   "rules": [
     {
@@ -27,13 +27,13 @@
       "episodeStart": 1,
       "season": 1,
       "start": 1,
-      "tmdbId": 310144
+      "tmdbId": 73108
     }
   ],
   "schemaVersion": 1,
   "targets": [
     {
-      "id": 310144,
+      "id": 73108,
       "season": 1,
       "type": "tv"
     }

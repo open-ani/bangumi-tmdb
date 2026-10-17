@@ -2406,10 +2406,10 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 确认对应TMDB 66751的2016年版第1季。首播日期、制作人员、制作公司、剧情及前60集标题共同支持身份匹配，排除1995年旧版。此次仅提交已逐集核实的部分范围：本篇1至60集同号对应，421至468集依据连续48集的集号及日期完全一致同号对应。实际季表已有468集，旧映射所述350集已不能代表季表范围。\n\nhttps://www.themoviedb.org/search/tv?query=ぼのぼの (api_snapshot): 日文原名搜索返回两个独立 TV 条目：66751 首播于2016-04-02，66569 首播于1995-04-20。\n\nhttps://www.themoviedb.org/tv/66751 (api_snapshot): 66751 详情明确为2016年重新动画化版本，制作公司为エイケン，导演为山口秀憲，与输入的版本、首播日期和制作人员一致。仅列第1季；作品总集数字段为350，但季列表为468，字段存在不一致。\n\nhttps://eiken-anime.jp/works/%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE/ (page): エイケン官方作品页确认本作自2016-04-02在富士电视台播出，导演山口秀憲、人物设计関口優花；剧情围绕小海獭与花栗鼠、浣熊等森林伙伴展开。\n\nhttps://www.themoviedb.org/tv/66751/season/1 (api_snapshot): 已读取第1季全部8页，实际连续列出第1至468集。第1至60集标题与输入逐集对应，仅有汉字、假名等表记差异；日期多数相同或提前一天，但第10集年份记为2015、第19集年份记为2017，存在明显异常。第421至468集使用通用集名，但集号和48个逐集日期均与输入一致。季表没有第469至480集。\n\nhttps://www.themoviedb.org/tv/66569 (api_snapshot): 66569 为1995-04-20至1996-03-14播出的旧版，只有第1季48集；其外部 TVDB ID 正是输入线索312723。该线索指向旧版，不能支持新版映射到66569第2季。\n\n备注：输入省略了Bangumi第61至420集的逐集数据，补读Bangumi章节页失败；这些章节暂不建立规则，也不声明整季覆盖。；TMDB第421至468集缺少具体标题，此段依据逐集日期和集号交叉确认。；TMDB前60集存在日期偏差，尤其第10、19集年份异常；对应关系依赖逐集标题及相邻集顺序确认，未将异常日期解释为其他版本。；Bangumi第469至480集在此次读取的TMDB季表中没有对应记录，暂不映射；不能据此断言TMDB其他位置未收录。",
+    "evidence": "gpt-6-sol: 作品身份确认为 TMDB 66751 的2016年电视动画第1季：首播日期、制作方、导演、剧情及逐集资料相符。TMDB 66569 是1995年旧版。第1至60话依据连续标题和集号对应；第421至468话依据连续48集的集号、逐集播出日期及动画官网资料对应。\n\nhttps://www.themoviedb.org/search/tv?query=ぼのぼの (api_snapshot): 以日文原名及 Bonobono 搜索，找到首播于2016年4月2日的 TV 条目66751，以及首播于1995年4月20日的另一个 TV 条目66569。\n\nhttps://www.themoviedb.org/tv/66751 (api_snapshot): 66751 是2016年版，制作公司为 Eiken，导演为山口秀憲；仅列第1季，季详情标示468集。\n\nhttps://www.themoviedb.org/tv/66569 (api_snapshot): 66569 是1995年版，共48集；其 TVDB ID 为输入线索中的312723，因此该线索指向旧版。\n\nhttps://www.themoviedb.org/tv/66751/season/1 (api_snapshot): 已读取66751第1季全部8页。第1至60集与输入的集号、标题连续对应；第421至468集虽使用通用标题，但48集的集号和播出日期均与输入逐集一致。季表止于第468集。\n\nhttps://eiken-anime.jp/works/%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE/ (page): 制作方官网确认2016年4月2日起在富士电视台播出的版本，导演山口秀憲，角色设计関口優花，剧情围绕小海獭及森林伙伴。\n\nhttps://www.bonoanime.jp/archive/01.html (page): 动画官网列出第1至13话的编号、标题和播出日期，支持前段同号对应；第10话官方日期为2016年6月11日。\n\nhttps://www.bonoanime.jp/archive/33.html (page): 动画官网列出第421至429话的编号、标题和播出日期，与输入的后段章节一致。\n\nhttps://www.bonoanime.jp/archive/37.html (page): 动画官网确认第468话于2025年6月28日播出；后续第469至480话也已播出。\n\n备注：输入省略了 Bangumi 第61至420话的逐集资料，因此该段暂不建立逐集规则。；TMDB 第421至468集使用通用标题；该段对应主要由逐集日期、集号及动画官网编号支持。；TMDB 第10、19集存在明显年份错误，部分早期集数的日期比官方播出日期早一天；对应关系以标题、官方编号及相邻集顺序核实。；Bangumi 第469至480话已播出，但所读取的 TMDB 季表止于第468集，暂不映射这些章节。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/161845; https://www.themoviedb.org/search/tv?query=ぼのぼの; https://www.themoviedb.org/tv/66751; https://eiken-anime.jp/works/%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE/; https://www.themoviedb.org/tv/66751/season/1; https://www.themoviedb.org/tv/66569",
-    "verifiedAt": "2026-09-18T03:33:27.527Z"
+    "source": "https://bgm.tv/subject/161845; https://www.themoviedb.org/search/tv?query=ぼのぼの; https://www.themoviedb.org/tv/66751; https://www.themoviedb.org/tv/66569; https://www.themoviedb.org/tv/66751/season/1; https://eiken-anime.jp/works/%E3%81%BC%E3%81%AE%E3%81%BC%E3%81%AE/; https://www.bonoanime.jp/archive/01.html; https://www.bonoanime.jp/archive/33.html; https://www.bonoanime.jp/archive/37.html",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
   "rules": [
     {
@@ -2433,13 +2433,6 @@
   "targets": [
     {
       "episode": 1,
-      "episodeEnd": 60,
-      "id": 66751,
-      "season": 1,
-      "type": "tv"
-    },
-    {
-      "episode": 421,
       "episodeEnd": 468,
       "id": 66751,
       "season": 1,

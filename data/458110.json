@@ -530,42 +530,18 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 首播年份、日期、动画属性、制作方及多段连续逐集排期共同支持对应TMDB 237224第1季。仅提交日期和顺序均已核实的部分范围，其余章节留空。\n\nhttps://www.themoviedb.org/tv/237224 (api_snapshot): 候选为2023年首播的日本动画，首播日期2023-10-05与Bangumi一致；制作公司包含Sanrio、TBS，与Bangumi制作信息吻合。候选明确提供第1季季表。\n\nhttps://www.themoviedb.org/tv/237224 (api_snapshot): 第1季第1—13、15—37、69—96、98—105集的日期分别与Bangumi同编号章节逐集一致，包括停播后的日期间隔。TMDB标题均为通用集号，不能提供内容标题的独立佐证。\n\nhttps://www.themoviedb.org/tv/237224 (api_snapshot): 第1季共108集，多于Bangumi的105集；第41—68集数据被截断，第14、38—40、97集存在日期差异，因此不采用整季映射。\n\n备注：Bangumi第14集日期为2023-01-11，早于作品首播；TMDB为2024-01-11。疑似年份笔误，但标题无法互证，暂不映射。；第38、39、97集日期相差一天；第40集Bangumi为2024-07-18，TMDB为2024-07-24。需补充内容标题或可靠排期以确认。；TMDB第41—68集被截断，需补齐逐集数据才能建立对应规则。；TMDB第106—108集没有对应的Bangumi章节，本次不纳入范围；候选未提供剧情简介，无法独立核对剧情版本。",
+    "evidence": "gpt-6-sol: 官方公布的作品名称、短篇动画形式、剧情设定和首发日期均相符；TMDB的制作公司也吻合。已读取第1季全部两页集表，Bangumi第1—105话与TMDB第1—105集的标题和顺序逐集对应，因此映射该闭区间，不包含TMDB另列的第106—108集。\n\nhttps://www.sanrio.co.jp/news/etc/cn-i-cinnamoroll-20231002/?id=i7 (page): 三丽鸥官方确认《I.CINNAMOROLL Animation》是2023年10月5日起在YouTube发布的短篇动画，并明确将其与10月7日开播的TBS烹饪节目区分。\n\nhttps://www.themoviedb.org/tv/237224 (api_snapshot): TMDB 237224 于2023年10月5日首播，制作公司包括Sanrio、TBS及J.C.STAFF；其第1季始于同日，现列108集。\n\nhttps://www.themoviedb.org/tv/237224/season/1 (api_snapshot): 第1季集表第1页列出第1—60集；标题、顺序与Bangumi相应章节逐集吻合，绝大多数日期一致。\n\nhttps://www.themoviedb.org/tv/237224/season/1 (api_snapshot): 第1季集表第2页列出第61—108集；第61—105集的标题与Bangumi相应章节逐集吻合，第106—108集没有对应的输入章节。\n\n备注：少数对应集的日期有差异，例如Bangumi第14话记为2023年1月11日，早于作品首播，而TMDB记为2024年1月11日；部分集相差一天，第40话相差六天。这些集的标题及前后顺序仍对应，日期记录有待核对。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/458110; https://www.themoviedb.org/tv/237224",
-    "verifiedAt": "2026-09-18T11:24:20.473Z"
+    "source": "https://bgm.tv/subject/458110; https://www.sanrio.co.jp/news/etc/cn-i-cinnamoroll-20231002/?id=i7; https://www.themoviedb.org/tv/237224; https://www.themoviedb.org/tv/237224/season/1",
+    "verifiedAt": "2026-10-17T00:36:36.158Z"
   },
   "rules": [
     {
       "bangumiType": 0,
-      "end": 13,
+      "end": 105,
       "episodeStart": 1,
       "season": 1,
       "start": 1,
-      "tmdbId": 237224
-    },
-    {
-      "bangumiType": 0,
-      "end": 37,
-      "episodeStart": 15,
-      "season": 1,
-      "start": 15,
-      "tmdbId": 237224
-    },
-    {
-      "bangumiType": 0,
-      "end": 96,
-      "episodeStart": 69,
-      "season": 1,
-      "start": 69,
-      "tmdbId": 237224
-    },
-    {
-      "bangumiType": 0,
-      "end": 105,
-      "episodeStart": 98,
-      "season": 1,
-      "start": 98,
       "tmdbId": 237224
     }
   ],
@@ -573,27 +549,6 @@
   "targets": [
     {
       "episode": 1,
-      "episodeEnd": 13,
-      "id": 237224,
-      "season": 1,
-      "type": "tv"
-    },
-    {
-      "episode": 15,
-      "episodeEnd": 37,
-      "id": 237224,
-      "season": 1,
-      "type": "tv"
-    },
-    {
-      "episode": 69,
-      "episodeEnd": 96,
-      "id": 237224,
-      "season": 1,
-      "type": "tv"
-    },
-    {
-      "episode": 98,
       "episodeEnd": 105,
       "id": 237224,
       "season": 1,
