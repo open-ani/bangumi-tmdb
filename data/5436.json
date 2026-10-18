@@ -1,21 +1,245 @@
 {
   "anidbId": 7525,
   "bangumiId": 5436,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 49244,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 49245,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 49246,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 49247,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 49248,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 49249,
+      "sort": 6,
+      "type": 0
+    },
+    {
+      "id": 49250,
+      "sort": 7,
+      "type": 0
+    },
+    {
+      "id": 49251,
+      "sort": 8,
+      "type": 0
+    },
+    {
+      "id": 49252,
+      "sort": 9,
+      "type": 0
+    },
+    {
+      "id": 49253,
+      "sort": 10,
+      "type": 0
+    },
+    {
+      "id": 49254,
+      "sort": 11,
+      "type": 0
+    },
+    {
+      "id": 49255,
+      "sort": 12,
+      "type": 0
+    },
+    {
+      "id": 62098,
+      "sort": 12.5,
+      "type": 0
+    },
+    {
+      "id": 62099,
+      "sort": 13,
+      "type": 0
+    },
+    {
+      "id": 62100,
+      "sort": 14,
+      "type": 0
+    },
+    {
+      "id": 62101,
+      "sort": 15,
+      "type": 0
+    },
+    {
+      "id": 1201525,
+      "sort": 1,
+      "type": 1
+    },
+    {
+      "id": 1201526,
+      "sort": 2,
+      "type": 1
+    },
+    {
+      "id": 1201527,
+      "sort": 3,
+      "type": 1
+    },
+    {
+      "id": 1201528,
+      "sort": 4,
+      "type": 1
+    },
+    {
+      "id": 1201529,
+      "sort": 5,
+      "type": 1
+    },
+    {
+      "id": 1201530,
+      "sort": 6,
+      "type": 1
+    },
+    {
+      "id": 1201531,
+      "sort": 7,
+      "type": 1
+    },
+    {
+      "id": 1201532,
+      "sort": 8,
+      "type": 1
+    },
+    {
+      "id": 1201533,
+      "sort": 9,
+      "type": 1
+    },
+    {
+      "id": 1201534,
+      "sort": 10,
+      "type": 1
+    },
+    {
+      "id": 1201535,
+      "sort": 11,
+      "type": 1
+    },
+    {
+      "id": 1201536,
+      "sort": 12,
+      "type": 1
+    },
+    {
+      "id": 1201537,
+      "sort": 12.5,
+      "type": 1
+    },
+    {
+      "id": 1201538,
+      "sort": 13,
+      "type": 1
+    },
+    {
+      "id": 1201539,
+      "sort": 14,
+      "type": 1
+    },
+    {
+      "id": 1201540,
+      "sort": 15,
+      "type": 1
+    }
+  ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 62098,
+      "targets": [
+        {
+          "episode": 1,
+          "id": 56353,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1201537,
+      "targets": [
+        {
+          "episode": 17,
+          "id": 56353,
+          "season": 0,
+          "type": "tv"
+        }
+      ]
+    }
+  ],
   "provenance": {
-    "evidence": "Imported existing BangumiExtLinker correspondence.",
-    "method": "seed",
-    "source": "https://github.com/Rhilip/BangumiExtLinker/blob/8f853e6bf9d6cb382448091ce3afaf2d9cdb0a3f/data/anime_map.json",
-    "verifiedAt": null
+    "evidence": "gpt-6-sol: 作品的首播时间、剧情、制作公司及声优一致。第 1 季完整对应 12 集电视正篇；第 0 季第 1 至 4 集对应 12.5 话及后续三集，第 5 至 20 集对应 16 条角色评论影像。逐集标题、日期及数量与官网和 TMDB 季表相符；第 0 季第 21 集起不属于本 subject。\n\nhttps://www.themoviedb.org/tv/56353 (api_snapshot): TMDB 作品 56353 于 2010 年 10 月 3 日首播，剧情围绕京介发现妹妹桐乃的御宅爱好；制作公司包括 AIC Build，声优与输入资料相符。\n\nhttps://www.themoviedb.org/tv/56353/season/1 (api_snapshot): 第 1 季共 12 集；第 1 至 12 集的标题和播出日期与 Bangumi 电视正篇逐集对应。\n\nhttps://www.themoviedb.org/tv/56353/season/0 (api_snapshot): 第 0 季第 1 至 4 集依次是 2011 年的 TRUE ROUTE 及其后三集；第 5 至 20 集为 16 条角色评论影像，日期与 Bangumi 的附赠影像对应。第 21 集起属于 2013 年续作及其他内容。\n\nhttps://www.oreimo-anime.com/1st/package/bdbox.html (page): 动画官网确认第一期包括电视播出 12 集、网络配信 4 集，并收录 16 条角色评论影像；官网列出的网络配信集标题及 12.5 话编号与输入资料一致。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/5436; https://www.themoviedb.org/tv/56353; https://www.themoviedb.org/tv/56353/season/1; https://www.themoviedb.org/tv/56353/season/0; https://www.oreimo-anime.com/1st/package/bdbox.html",
+    "verifiedAt": "2026-10-18T00:21:42.063Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 56353
+    },
+    {
+      "bangumiType": 0,
+      "end": 15,
+      "episodeStart": 2,
+      "season": 0,
+      "start": 13,
+      "tmdbId": 56353
+    },
+    {
+      "bangumiType": 1,
+      "end": 12,
+      "episodeStart": 5,
+      "season": 0,
+      "start": 1,
+      "tmdbId": 56353
+    },
+    {
+      "bangumiType": 1,
+      "end": 15,
+      "episodeStart": 18,
+      "season": 0,
+      "start": 13,
+      "tmdbId": 56353
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
       "id": 56353,
       "season": 1,
+      "type": "tv"
+    },
+    {
+      "episode": 1,
+      "episodeEnd": 20,
+      "id": 56353,
+      "season": 0,
       "type": "tv"
     }
   ]

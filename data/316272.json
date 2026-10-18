@@ -13,12 +13,26 @@
     }
   ],
   "locked": false,
-  "overrides": [],
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1176106,
+      "targets": [
+        {
+          "id": 1129783,
+          "type": "movie"
+        }
+      ]
+    },
+    {
+      "bangumiEpisodeId": 1176107,
+      "targets": []
+    }
+  ],
   "provenance": {
-    "evidence": "codex: 完整双篇标题、上映日期与电影媒介一致，支持对应这一部 2000 年上映的作品。按整部电影映射；候选没有独立分篇数据，不将两个 Bangumi 章节重复映射到同一电影。\n\nhttps://www.themoviedb.org/movie/1129783 (api_snapshot): 候选电影 1129783 的标题为「ジャングル大帝／本能寺の変」，同时包含 Bangumi 两个章节的名称；上映日期为 2000-03-18，与 Bangumi 一致，电影媒介也符合剧场上映信息。\n\n备注：候选未提供剧情、制作方及片长，无法独立复核这些信息；无法建立两个分篇的独立对应关系。",
+    "evidence": "gpt-6-sol: 可确认TMDB 1129783对应Bangumi第1篇《ジャングル大帝》，因此仅建立这一篇的映射。官方资料明确第2篇《本能寺の変》另有5分钟；TMDB候选虽使用双篇标题，其9分钟片长和剧情资料均未证明收录第2篇，故将第2篇从该电影映射中排除。\n\nhttps://tezukaosamu.net/jp/anime/23.html (page): 手塚治虫官方网站将该次上映列为双篇：2000年3月18日上映的《ジャングル大帝》为9分钟，《本能寺の変》为5分钟；两篇由火之鸟串联。\n\nhttps://www.themoviedb.org/movie/1129783 (api_snapshot): TMDB电影1129783的原名和上映日期相符，导演也与官方资料一致；但片长仅9分钟，简介只描述老虎幼崽与雷欧的《ジャングル大帝》剧情，支持对应第一篇，不能据复合标题认定涵盖第二篇。\n\n备注：尚未确认《本能寺の変》5分钟短片是否有独立TMDB条目。；TMDB的复合标题与9分钟片长存在歧义；若其片长和简介录入有误，需以实际影片内容复核覆盖范围。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/316272; https://www.themoviedb.org/movie/1129783",
-    "verifiedAt": "2026-09-19T11:52:44.754Z"
+    "source": "https://bgm.tv/subject/316272; https://tezukaosamu.net/jp/anime/23.html; https://www.themoviedb.org/movie/1129783",
+    "verifiedAt": "2026-10-18T00:21:42.063Z"
   },
   "rules": [],
   "schemaVersion": 1,

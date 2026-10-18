@@ -1,16 +1,56 @@
 {
   "anidbId": 115,
   "bangumiId": 54158,
-  "episodes": [],
+  "episodes": [
+    {
+      "id": 211202,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 211203,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 211204,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 211205,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 211206,
+      "sort": 5,
+      "type": 0
+    },
+    {
+      "id": 211207,
+      "sort": 6,
+      "type": 0
+    }
+  ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-5.6-luna: Bangumi 条目明确是《菜々子解体診書》OVA，共 6 集，1999-07-05 至 2000-04-07，制作人员和剧情与候选作品一致。Anime-Lists 中 AniDB 115（Nanako Kaitai Shinsho）明确关联 TMDB TV 18960 第 1 季。TMDB 快照显示该剧共 6 集，且第 1 季完整包含 6 集；因此主体应映射为完整的 TV 第 1 季。TMDB 季开始日期比 Bangumi 早一天，属于日期记录差异，不影响作品和范围判断。\n\nhttps://bgm.tv/subject/54158 (page): Bangumi 条目标记为 OVA《菜々子解体診書》，共 6 集，首发 1999-07-05，结束 2000-04-07，并列出对应剧情、导演、系列构成和动画制作信息。\n\nhttps://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml (search_snippet): Anime-Lists 的记录明确写出 anidbid=\"115\"、名称 Nanako Kaitai Shinsho、tmdbtv=\"18960\"、tmdbseason=\"1\"。\n\nhttps://www.themoviedb.org/tv/18960 (api_snapshot): TMDB API 快照显示 ID 18960 的日文标题为菜々子解体診書，首播日期为 1999-07-05，共 6 集，且仅有第 1 季、包含 6 集；简介与 Bangumi 条目剧情一致。\n\nhttps://www.themoviedb.org/tv/18960/season/1 (api_snapshot): TMDB 第 1 季 API 快照显示 episodeCount=6、episodesTruncated=false，集数为 1 至 6，未发现需要排除的额外主体集。",
+    "evidence": "gpt-6-sol: 作品身份由年份、剧情、导演、制作方及六集 OVA 规模共同确认。发行方官网、Bangumi 与 TMDB 英文季表的六集标题逐集对应，且第 1 季完整覆盖该 OVA，因此映射整季并建立第 1 至 6 集的连续规则。\n\nhttps://bgm.tv/subject/54158/ep (page): Bangumi 标记为 OVA，共 6 集，列出导演ねぎしひろし、动画制作 RADIX，以及六集标题和各集日期。\n\nhttps://www.nbcuni.co.jp/rondorobe/anime/nanako/items.html (page): 发行方官网确认作品是六集 OVA，并按第 I 至 VI 集列出与 Bangumi 相同的标题。\n\nhttps://www.themoviedb.org/tv/18960 (api_snapshot): TMDB TV 18960 的原名、1999 年首播日期、剧情、导演及 RADIX 制作信息吻合；作品仅列出含 6 集的第 1 季。\n\nhttps://www.themoviedb.org/tv/18960/season/1 (api_snapshot): TMDB 第 1 季英文集表完整列出第 1 至 6 集；逐集标题与 Bangumi 及发行方官网的六集顺序对应，末两集分别为结局前篇和后篇。\n\n备注：TMDB 将六集日期均记为 1999-07-05，与 Bangumi 所列后五集日期不符；逐集对应主要依据六个标题、顺序及剧情，TMDB 的逐集日期仍待修正。；Bangumi 概览写结束于 2000-03-03，但其章节表列第 6 集日期为 2000-04-07。",
     "method": "codex",
-    "source": "https://bgm.tv/subject/54158; https://raw.githubusercontent.com/Anime-Lists/anime-lists/6953cdaff5d128a068c98432ec3efc5aba909d67/anime-list-master.xml; https://www.themoviedb.org/tv/18960; https://www.themoviedb.org/tv/18960/season/1",
-    "verifiedAt": null
+    "source": "https://bgm.tv/subject/54158; https://bgm.tv/subject/54158/ep; https://www.nbcuni.co.jp/rondorobe/anime/nanako/items.html; https://www.themoviedb.org/tv/18960; https://www.themoviedb.org/tv/18960/season/1",
+    "verifiedAt": "2026-10-18T00:21:42.063Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 6,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 18960
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
