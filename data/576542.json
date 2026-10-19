@@ -1,0 +1,36 @@
+{
+  "bangumiId": 576542,
+  "episodes": [
+    {
+      "id": 1550093,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1550093,
+      "targets": [
+        {
+          "id": 1549224,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 原标题、传记内容、电影媒介及主要演出人员一致，可将 Bangumi 的单部作品对应至 TMDB 电影 1549224。电影无季或逐集编号。\n\nhttps://www.themoviedb.org/movie/1549224 (api_snapshot): 日文原标题搜索返回电影 1549224，片名为《賀川豊彦の生涯—われ日日に死す》，标注上映年份为 1990 年。\n\nhttps://www.themoviedb.org/movie/1549224 (api_snapshot): 电影详情列出富山敬、大滝進矢、中博史、矢島正明等演出人员，导演为 Koji Hagiwara，片长 45 分钟。\n\nhttps://www.kagakueizo.org/create/other/214/ (page): 科学映像馆将同名作品列为描写贺川丰彦生平的单部动画电影，片长 43 分钟；所列演出人员与 TMDB 相符，编剧兼导演为萩原攷司。\n\n备注：年代资料略有出入：科学映像馆写“1980年代”，Bangumi 输入及 TMDB 标为 1990 年。；片长资料略有出入：科学映像馆与 Bangumi 输入为 43 分钟，TMDB 为 45 分钟。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/576542; https://www.themoviedb.org/movie/1549224; https://www.kagakueizo.org/create/other/214/",
+    "verifiedAt": "2026-10-19T00:20:17.871Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1549224,
+      "type": "movie"
+    }
+  ]
+}
