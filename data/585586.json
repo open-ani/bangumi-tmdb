@@ -1,0 +1,36 @@
+{
+  "bangumiId": 585586,
+  "episodes": [
+    {
+      "id": 1566646,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1566646,
+      "targets": [
+        {
+          "id": 1199266,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 的单话作品与 TMDB 电影在中英文片名、年份、导演、短片媒介及片长上吻合；影展和播放平台的剧情资料也一致。该作品是独立动画短片，映射为一部电影，无需逐集规则。\n\nhttps://www.themoviedb.org/movie/1199266 (api_snapshot): TMDB 电影 1199266 名为《Tunnel Wandering》，上映年份为 2023 年，片长 10 分钟，导演为 Li Zehao。\n\nhttps://www.bisff.co/selection/tunnel-wandering (page): 北京国际短片联展将《隧道漫步》与《Tunnel Wandering》列为同一部作品，注明导演李泽昊、年份 2023、片长 10 分 40 秒，并提供隧道中寻找答案的剧情简介。\n\nhttps://labs.giloo.ist/zh-TW/episodes/2421 (page): 影片播放平台 Giloo 将《隧道漫步》列为 2023 年、约 11 分钟的实验动画短片，导演李泽昊；剧情简介与影展资料一致。\n\n脚本生成逐集规则：单一本篇章节对应整部电影。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/585586; https://www.themoviedb.org/movie/1199266; https://www.bisff.co/selection/tunnel-wandering; https://labs.giloo.ist/zh-TW/episodes/2421",
+    "verifiedAt": "2026-10-20T01:13:32.625Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 1199266,
+      "type": "movie"
+    }
+  ]
+}

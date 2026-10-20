@@ -1,0 +1,36 @@
+{
+  "bangumiId": 580789,
+  "episodes": [
+    {
+      "id": 1558561,
+      "sort": 1,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [
+    {
+      "bangumiEpisodeId": 1558561,
+      "targets": [
+        {
+          "id": 490956,
+          "type": "movie"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "evidence": "gpt-6-sol: 片名虽省略“漫画”二字，但年份、导演及剧情均与 TMDB 的独立短片条目吻合；Bangumi 唯一的本篇章节对应整部电影。\n\nhttps://www.themoviedb.org/movie/490956 (api_snapshot): 以日文片名搜索，TMDB 返回电影 490956，原名为《漫画 紙芝居 金太郎の卷》，年份为 1934 年。\n\nhttps://www.themoviedb.org/movie/490956 (api_snapshot): TMDB 电影详情确认导演为村田安司，片长为 7 分钟。\n\nhttps://animation.filmarchives.jp/works/view/91176 (page): 日本动画电影经典资料页确认该片制作于 1934 年，由村田安司执导；金太郎成为坂田金时的剧情与 Bangumi 简介一致，片长记为 7 分钟。\n\n备注：Bangumi 输入中的片长为 18 分钟；TMDB 与日本动画电影经典资料页均记为 7 分钟。此处更可能是 Bangumi 片长资料有误。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/580789; https://www.themoviedb.org/movie/490956; https://animation.filmarchives.jp/works/view/91176",
+    "verifiedAt": "2026-10-20T01:13:32.625Z"
+  },
+  "rules": [],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 490956,
+      "type": "movie"
+    }
+  ]
+}

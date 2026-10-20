@@ -1,0 +1,56 @@
+{
+  "bangumiId": 585252,
+  "episodes": [
+    {
+      "id": 1565932,
+      "sort": 1,
+      "type": 0
+    },
+    {
+      "id": 1565933,
+      "sort": 2,
+      "type": 0
+    },
+    {
+      "id": 1565934,
+      "sort": 3,
+      "type": 0
+    },
+    {
+      "id": 1565935,
+      "sort": 4,
+      "type": 0
+    },
+    {
+      "id": 1565936,
+      "sort": 5,
+      "type": 0
+    }
+  ],
+  "locked": false,
+  "overrides": [],
+  "provenance": {
+    "evidence": "gpt-6-sol: Bangumi 简介明确指向《LEGO Marvel Super Heroes – Guardians of the Galaxy: The Thanos Threat》，标注 2017 年 11 月开播且有 5 个本篇章节。独立 TV 候选的标题、首播月份和第 1 季五集范围均吻合，因此可确定 subject 覆盖该季。Bangumi 各章节没有标题或放送日期，TMDB 前四集也只有通用标题，尚不能核实逐集顺序，故不填写章节映射规则。\n\nhttps://www.themoviedb.org/tv/103212 (api_snapshot): 独立 TV 条目标题含“LEGO Marvel Super Heroes - Guardians of the Galaxy: The Thanos Threat”，首播日期为 2017 年 11 月 24 日；第 1 季共 5 集，季表仅列这 5 集。\n\nhttps://www.themoviedb.org/movie/509080 (api_snapshot): 同名电影条目的上映日期为 2017 年 12 月 9 日；候选数据未提供剧情或制作方信息，无法确认它与五集版的具体关系。\n\n备注：Bangumi 简介称作品为一部 22 分钟特别篇；候选中另有同名电影。现有数据无法确认电影与 TV 五集版是否为同一内容的不同发行形式。；缺少 Bangumi 逐集标题与日期，以及候选剧情、制作方信息；需补充这些资料才能核实五个章节各自对应的 TMDB 集号。\n\n脚本按声明范围生成逐集规则：5 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
+    "method": "codex",
+    "source": "https://bgm.tv/subject/585252; https://www.themoviedb.org/tv/103212; https://www.themoviedb.org/movie/509080",
+    "verifiedAt": "2026-10-20T01:13:32.625Z"
+  },
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 5,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 103212
+    }
+  ],
+  "schemaVersion": 1,
+  "targets": [
+    {
+      "id": 103212,
+      "season": 1,
+      "type": "tv"
+    }
+  ]
+}
