@@ -102,7 +102,7 @@ async function jsonLines(path: string): Promise<unknown[]> {
   catch { return []; }
 }
 // Research and adjudication share one model; its name also labels each decision's provenance.
-export const MODEL = 'gpt-6-sol';
+export const MODEL = 'gpt-6.1-sol';
 const REASONING = 'high';
 export interface CodexOptions { timeoutMs: number; auditDir?: string }
 interface Tools { token: string; tmdbBudget: number; cacheDir: string }
