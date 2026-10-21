@@ -7,7 +7,7 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.14.0",
   "scripts": {
     "check": "tsc --noEmit",
     "test": "tsx --test test/*.test.ts",
@@ -20,12 +20,12 @@
     "publish-data": "tsx src/cli.ts publish"
   },
   "dependencies": {
-    "fast-xml-parser": "5.11.1",
-    "zod": "4.5.4"
+    "fast-xml-parser": "5.11.2",
+    "zod": "4.6.7"
   },
   "devDependencies": {
-    "@types/node": "24.13.3",
-    "tsx": "4.23.13",
+    "@types/node": "24.19.2",
+    "tsx": "4.23.15",
     "typescript": "7.0.2"
   }
 }

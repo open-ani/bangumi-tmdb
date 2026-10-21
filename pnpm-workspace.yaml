@@ -1,2 +1,5 @@
 allowBuilds:
   esbuild: true
+
+# Supply-chain cooldown: only resolve versions published at least 3 days (4320 minutes) ago.
+minimumReleaseAge: 4320
