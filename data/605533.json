@@ -65,12 +65,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: 官方资料与 TMDB 的剧情、制作公司和版本信息共同确认：本 subject 对应 2026 年 TV 动画 TMDB 330505 第 1 季。作品尚未首播，季表只有无日期的占位集，因此以整季作为目标，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/330505 (api_snapshot): 以日文原名搜索得到两个同名电视条目：330505 和 107459。\n\nhttps://www.themoviedb.org/tv/330505 (api_snapshot): TMDB 330505 为制作中的日语作品，剧情涉及小路三贵和帕哥太郎，制作公司为 LIDENFILMS；目前仅列第 1 季。\n\nhttps://www.themoviedb.org/tv/330505/season/1 (api_snapshot): 已读取 330505 第 1 季完整集表：仅有无播出日期、无正式标题的第 1 集占位记录。\n\nhttps://ojikawa.com/ (page): 动画官网确认原作、剧情、导演牧野友映及动画制作公司ライデンフィルム，与 Bangumi 输入吻合。\n\nhttps://ojikawa.com/onair/ (page): 动画官网确认 2026 年 10 月 4 日起在 TOKYO MX 每周日播出。\n\nhttps://ojikawa.com/story/ (page): 动画官网列出第 1 话标题「小路課長とカワイイもの」，与 Bangumi 第 1 话一致。\n\nhttps://www.themoviedb.org/tv/107459 (api_snapshot): 同名 TMDB 107459 于 2020 年首播，演员阵容和制作公司表明它是真人剧，排除该版本。\n\n备注：TMDB 尚未填写首播日期及正式集标题；现有 1 集占位记录不能代表最终集数。；Bangumi 所列 12 话的每话排期尚无法与 TMDB 集表逐集核对，待集表补齐后再建立规则。",
+    "evidence": "gpt-6-sol: 官方资料与 TMDB 的剧情、制作公司和版本信息共同确认：本 subject 对应 2026 年 TV 动画 TMDB 330505 第 1 季。作品尚未首播，季表只有无日期的占位集，因此以整季作为目标，暂不建立逐集规则。\n\nhttps://www.themoviedb.org/tv/330505 (api_snapshot): 以日文原名搜索得到两个同名电视条目：330505 和 107459。\n\nhttps://www.themoviedb.org/tv/330505 (api_snapshot): TMDB 330505 为制作中的日语作品，剧情涉及小路三贵和帕哥太郎，制作公司为 LIDENFILMS；目前仅列第 1 季。\n\nhttps://www.themoviedb.org/tv/330505/season/1 (api_snapshot): 已读取 330505 第 1 季完整集表：仅有无播出日期、无正式标题的第 1 集占位记录。\n\nhttps://ojikawa.com/ (page): 动画官网确认原作、剧情、导演牧野友映及动画制作公司ライデンフィルム，与 Bangumi 输入吻合。\n\nhttps://ojikawa.com/onair/ (page): 动画官网确认 2026 年 10 月 4 日起在 TOKYO MX 每周日播出。\n\nhttps://ojikawa.com/story/ (page): 动画官网列出第 1 话标题「小路課長とカワイイもの」，与 Bangumi 第 1 话一致。\n\nhttps://www.themoviedb.org/tv/107459 (api_snapshot): 同名 TMDB 107459 于 2020 年首播，演员阵容和制作公司表明它是真人剧，排除该版本。\n\n备注：TMDB 尚未填写首播日期及正式集标题；现有 1 集占位记录不能代表最终集数。；Bangumi 所列 12 话的每话排期尚无法与 TMDB 集表逐集核对，待集表补齐后再建立规则。\n\n脚本按放送日期核对生成逐集规则：12 个本篇章节与声明的 TMDB 范围逐一对应，12 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/605533; https://www.themoviedb.org/tv/330505; https://www.themoviedb.org/tv/330505/season/1; https://ojikawa.com/; https://ojikawa.com/onair/; https://ojikawa.com/story/; https://www.themoviedb.org/tv/107459",
-    "verifiedAt": "2026-09-27T00:45:12.426Z"
+    "verifiedAt": "2026-10-25T03:08:21.531Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 12,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 330505
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
