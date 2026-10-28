@@ -251,15 +251,25 @@
       "id": 60096,
       "sort": 50,
       "type": 0
+    },
+    {
+      "id": 1768289,
+      "sort": 51,
+      "type": 0
+    },
+    {
+      "id": 1768290,
+      "sort": 52,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: Bangumi 与 TMDB 的作品类型、首末播日期、角色及全剧 52 话一致。TMDB 两季各收录连续的 26 话；将其英文集标题逐集对照独立播出表后，确认第一季对应全剧第 1—26 话，第二季对应第 27—52 话。因此将 Bangumi 已有的编号 1—50 章节映射到相应两季；全剧末两话虽属本 subject，目前没有可映射的 Bangumi 章节。\n\nhttps://bgm.tv/subject/10401 (page): Bangumi 条目是 2002 年 10 月 2 日开播、2003 年 9 月 24 日结束的 TV 动画，标注全 52 话；目前章节列表只有编号 1—50，且章节页没有标题或首播日期。\n\nhttps://www.themoviedb.org/tv/9112 (api_snapshot): 日文原名和英文别名均检索到 TMDB TV 9112；详情显示同一首播日、完结日及共 52 集，分为两季各 26 集，角色包括白宝和 Mighty。\n\nhttps://www.themoviedb.org/tv/9112/season/1 (api_snapshot): 已读取第一季完整集表。英文集标题与播出表第 1—26 话顺序一致；但第 14—26 集的 TMDB 日期与播出表不符。\n\nhttps://www.themoviedb.org/tv/9112/season/2 (api_snapshot): 已读取第二季完整集表。其 26 个标题及日期依次对应全剧第 27—52 话；第一季第 26 集和第二季第 1 集在 TMDB 均标为 2003 年 4 月 2 日。\n\nhttps://www.anisil.com/animes/149/episodes (page): 独立播出表列出全剧 52 话的日文标题与播出时间：第 26 话为《ボクらジェッターズ！》，第 27 话为《機能便利ガング！》，末两话为第 51、52 话。页面以次日凌晨时间记录，日期与 TMDB 的播出日相差一天。\n\n备注：Bangumi 的章节 1—50 均未填写标题和首播日期；逐集对应依据为该条目的连续话数编号、TMDB 集标题及外部 52 话播出表。；TMDB 第一季第 14—26 集的播出日期有误，与外部播出表不一致；集标题和话数顺序仍支持上述对应。；Bangumi 条目标注全 52 话，但章节列表缺少第 51、52 话，因此没有为这两话建立逐集规则。",
+    "evidence": "gpt-6-sol: Bangumi 与 TMDB 的作品类型、首末播日期、角色及全剧 52 话一致。TMDB 两季各收录连续的 26 话；将其英文集标题逐集对照独立播出表后，确认第一季对应全剧第 1—26 话，第二季对应第 27—52 话。因此将 Bangumi 已有的编号 1—50 章节映射到相应两季；全剧末两话虽属本 subject，目前没有可映射的 Bangumi 章节。\n\nhttps://bgm.tv/subject/10401 (page): Bangumi 条目是 2002 年 10 月 2 日开播、2003 年 9 月 24 日结束的 TV 动画，标注全 52 话；目前章节列表只有编号 1—50，且章节页没有标题或首播日期。\n\nhttps://www.themoviedb.org/tv/9112 (api_snapshot): 日文原名和英文别名均检索到 TMDB TV 9112；详情显示同一首播日、完结日及共 52 集，分为两季各 26 集，角色包括白宝和 Mighty。\n\nhttps://www.themoviedb.org/tv/9112/season/1 (api_snapshot): 已读取第一季完整集表。英文集标题与播出表第 1—26 话顺序一致；但第 14—26 集的 TMDB 日期与播出表不符。\n\nhttps://www.themoviedb.org/tv/9112/season/2 (api_snapshot): 已读取第二季完整集表。其 26 个标题及日期依次对应全剧第 27—52 话；第一季第 26 集和第二季第 1 集在 TMDB 均标为 2003 年 4 月 2 日。\n\nhttps://www.anisil.com/animes/149/episodes (page): 独立播出表列出全剧 52 话的日文标题与播出时间：第 26 话为《ボクらジェッターズ！》，第 27 话为《機能便利ガング！》，末两话为第 51、52 话。页面以次日凌晨时间记录，日期与 TMDB 的播出日相差一天。\n\n备注：Bangumi 的章节 1—50 均未填写标题和首播日期；逐集对应依据为该条目的连续话数编号、TMDB 集标题及外部 52 话播出表。；TMDB 第一季第 14—26 集的播出日期有误，与外部播出表不一致；集标题和话数顺序仍支持上述对应。；Bangumi 条目标注全 52 话，但章节列表缺少第 51、52 话，因此没有为这两话建立逐集规则。\n\n脚本按放送日期延长逐集规则 2 集。",
     "method": "codex",
     "source": "https://bgm.tv/subject/10401; https://www.themoviedb.org/tv/9112; https://www.themoviedb.org/tv/9112/season/1; https://www.themoviedb.org/tv/9112/season/2; https://www.anisil.com/animes/149/episodes",
-    "verifiedAt": "2026-10-15T00:41:23.825Z"
+    "verifiedAt": "2026-10-28T01:32:18.495Z"
   },
   "rules": [
     {
@@ -272,7 +282,7 @@
     },
     {
       "bangumiType": 0,
-      "end": 50,
+      "end": 52,
       "episodeStart": 1,
       "season": 2,
       "start": 27,
