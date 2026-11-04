@@ -55,12 +55,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: Bangumi 与 TMDB 对应同一部 2026 年首播的电视动画：剧情、制作公司、主演及首播安排一致；TMDB 第 1 季对应本条目的首次播出季度。Bangumi 标注 10 话，TMDB 季表目前只收录 6 集，属于播出中的集表未补齐情况，因此提交整季范围。Bangumi 章节缺少逐集标题和日期，暂不建立逐集规则。\n\nhttps://bgm.tv/subject/702192 (page): Bangumi 条目为 2026 年 10 月 3 日开播的 TV 动画《Get Jiro!》，标注 10 话；章节页有 10 个本篇章节，但尚无集标题和各集播出日期。\n\nhttps://www.dc.com/tv/get-jiro-2026 (page): DC 官方将《Get Jiro》列为 2026 年电视系列，确认 Warner Bros. Animation、DC Studios、Brian Tee，以及未来洛杉矶的寿司厨师次郎复仇这一剧情。\n\nhttps://press.wbd.com/na/brands/adult-swim-0 (search_snippet): Adult Swim 新闻稿摘要确认该剧安排于 2026 年 10 月 3 日周六深夜在 Toonami 首播，次日在 HBO Max 上线。\n\nhttps://toonamisquad.com/toonami-to-showcase-get-jiro-and-wind-breaker-starting-october-2026/ (page): 报道指出《Get Jiro》规划为 10 集，首播安排为连续播出前两集。\n\nhttps://www.themoviedb.org/tv/231801 (api_snapshot): TMDB 231801 为《GET JIRO》，别名含《Get Jiro!》；剧情、2026 年首播年份、制作公司和 Brian Tee 配音信息相符，当前仅列第 1 季。\n\nhttps://www.themoviedb.org/tv/231801/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整现有集表（total_pages=1）：目前收录 6 集，第 1、2 集均标为 2026 年 10 月 4 日播出，后续集仍在更新。\n\n备注：TMDB 第 1 季现有 6 集，尚未收录规划的全部 10 集。；Bangumi 10 个章节均缺少标题和播出日期，无法逐集核对。",
+    "evidence": "gpt-6-sol: Bangumi 与 TMDB 对应同一部 2026 年首播的电视动画：剧情、制作公司、主演及首播安排一致；TMDB 第 1 季对应本条目的首次播出季度。Bangumi 标注 10 话，TMDB 季表目前只收录 6 集，属于播出中的集表未补齐情况，因此提交整季范围。Bangumi 章节缺少逐集标题和日期，暂不建立逐集规则。\n\nhttps://bgm.tv/subject/702192 (page): Bangumi 条目为 2026 年 10 月 3 日开播的 TV 动画《Get Jiro!》，标注 10 话；章节页有 10 个本篇章节，但尚无集标题和各集播出日期。\n\nhttps://www.dc.com/tv/get-jiro-2026 (page): DC 官方将《Get Jiro》列为 2026 年电视系列，确认 Warner Bros. Animation、DC Studios、Brian Tee，以及未来洛杉矶的寿司厨师次郎复仇这一剧情。\n\nhttps://press.wbd.com/na/brands/adult-swim-0 (search_snippet): Adult Swim 新闻稿摘要确认该剧安排于 2026 年 10 月 3 日周六深夜在 Toonami 首播，次日在 HBO Max 上线。\n\nhttps://toonamisquad.com/toonami-to-showcase-get-jiro-and-wind-breaker-starting-october-2026/ (page): 报道指出《Get Jiro》规划为 10 集，首播安排为连续播出前两集。\n\nhttps://www.themoviedb.org/tv/231801 (api_snapshot): TMDB 231801 为《GET JIRO》，别名含《Get Jiro!》；剧情、2026 年首播年份、制作公司和 Brian Tee 配音信息相符，当前仅列第 1 季。\n\nhttps://www.themoviedb.org/tv/231801/season/1 (api_snapshot): 已读取 TMDB 第 1 季完整现有集表（total_pages=1）：目前收录 6 集，第 1、2 集均标为 2026 年 10 月 4 日播出，后续集仍在更新。\n\n备注：TMDB 第 1 季现有 6 集，尚未收录规划的全部 10 集。；Bangumi 10 个章节均缺少标题和播出日期，无法逐集核对。\n\n脚本按声明范围生成逐集规则：10 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/702192; https://www.dc.com/tv/get-jiro-2026; https://press.wbd.com/na/brands/adult-swim-0; https://toonamisquad.com/toonami-to-showcase-get-jiro-and-wind-breaker-starting-october-2026/; https://www.themoviedb.org/tv/231801; https://www.themoviedb.org/tv/231801/season/1",
-    "verifiedAt": "2026-10-07T01:41:14.710Z"
+    "verifiedAt": "2026-11-04T02:30:25.334Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 231801
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
