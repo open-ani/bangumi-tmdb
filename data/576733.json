@@ -135,12 +135,21 @@
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: 动画媒介、制作方、官方预告剧情及前后季衔接均指向 TMDB 87007 的第 7 季；该季简介与 Bangumi 条目吻合，因此以整季匹配。现有章节与 TMDB 集表都缺少放送日期和可比对的集标题，暂不建立逐集规则。\n\nhttps://bangumi.tv/subject/576733 (page): Bangumi 条目为《武动乾坤 第七季》，标注 2026 年、26 话，制作方为幻维数码，剧情从林动加入道宗讲起。\n\nhttps://weibo.com/u/6310852010 (page): 《武动乾坤》动画官方微博发布第七季预告，内容涉及荒殿修行、宗派大赛及迎战元门，与本条目剧情一致。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): TMDB 87007 是 2019 年开播的《武动乾坤》动画，制作公司包括腾讯、阅文及幻维数码；其第 7 季简介与 Bangumi 本条目的剧情一致，第 6 季简介则止于林动加入道宗。\n\nhttps://www.themoviedb.org/tv/87007/season/7 (api_snapshot): TMDB 第 7 季现有 3 条无放送日期的占位集，季简介对应道宗及宗派大赛剧情，尚无可核实的逐集资料。\n\n备注：Bangumi 规划 26 话，TMDB 第 7 季目前仅收录 3 条无日期的占位集；正式集数、首播日期及逐集对应仍待公布和核实。",
+    "evidence": "gpt-6-sol: 动画媒介、制作方、官方预告剧情及前后季衔接均指向 TMDB 87007 的第 7 季；该季简介与 Bangumi 条目吻合，因此以整季匹配。现有章节与 TMDB 集表都缺少放送日期和可比对的集标题，暂不建立逐集规则。\n\nhttps://bangumi.tv/subject/576733 (page): Bangumi 条目为《武动乾坤 第七季》，标注 2026 年、26 话，制作方为幻维数码，剧情从林动加入道宗讲起。\n\nhttps://weibo.com/u/6310852010 (page): 《武动乾坤》动画官方微博发布第七季预告，内容涉及荒殿修行、宗派大赛及迎战元门，与本条目剧情一致。\n\nhttps://www.themoviedb.org/tv/87007 (api_snapshot): TMDB 87007 是 2019 年开播的《武动乾坤》动画，制作公司包括腾讯、阅文及幻维数码；其第 7 季简介与 Bangumi 本条目的剧情一致，第 6 季简介则止于林动加入道宗。\n\nhttps://www.themoviedb.org/tv/87007/season/7 (api_snapshot): TMDB 第 7 季现有 3 条无放送日期的占位集，季简介对应道宗及宗派大赛剧情，尚无可核实的逐集资料。\n\n备注：Bangumi 规划 26 话，TMDB 第 7 季目前仅收录 3 条无日期的占位集；正式集数、首播日期及逐集对应仍待公布和核实。\n\n脚本按放送日期核对生成逐集规则（放送中）：TMDB 季表目前 10 集，与前 10 个本篇章节的放送日期逐一在 ±1 天内；其余 16 话待 TMDB 补齐后自动延长。",
     "method": "codex",
     "source": "https://bgm.tv/subject/576733; https://bangumi.tv/subject/576733; https://weibo.com/u/6310852010; https://www.themoviedb.org/tv/87007; https://www.themoviedb.org/tv/87007/season/7",
-    "verifiedAt": "2026-10-19T00:20:17.871Z"
+    "verifiedAt": "2026-11-09T01:52:04.135Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 10,
+      "episodeStart": 1,
+      "season": 7,
+      "start": 1,
+      "tmdbId": 87007
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
