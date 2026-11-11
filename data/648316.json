@@ -260,17 +260,91 @@
       "id": 1690223,
       "sort": 52,
       "type": 0
+    },
+    {
+      "id": 1776655,
+      "sort": 53,
+      "type": 0
+    },
+    {
+      "id": 1776656,
+      "sort": 54,
+      "type": 0
+    },
+    {
+      "id": 1776657,
+      "sort": 55,
+      "type": 0
+    },
+    {
+      "id": 1776658,
+      "sort": 56,
+      "type": 0
+    },
+    {
+      "id": 1776659,
+      "sort": 57,
+      "type": 0
+    },
+    {
+      "id": 1776660,
+      "sort": 58,
+      "type": 0
+    },
+    {
+      "id": 1776661,
+      "sort": 59,
+      "type": 0
+    },
+    {
+      "id": 1776662,
+      "sort": 60,
+      "type": 0
+    },
+    {
+      "id": 1776663,
+      "sort": 61,
+      "type": 0
+    },
+    {
+      "id": 1776664,
+      "sort": 62,
+      "type": 0
+    },
+    {
+      "id": 1776665,
+      "sort": 63,
+      "type": 0
+    },
+    {
+      "id": 1776666,
+      "sort": 64,
+      "type": 0
+    },
+    {
+      "id": 1776667,
+      "sort": 65,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "codex: 年份、剧情、电视动画媒介、导演、制作公司和完整播出范围一致，确认对应 TMDB 42245 第1季全季。Bangumi 条目资料明确为65集，但所给章节仅52个且标题、日期全部为空，无法逐集核对，故保留作品与季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/42245 (api_snapshot): TMDB 42245 为1991年电视动画《James Bond Jr.》，首末播日期为1991-09-16至1991-12-13，共1季65集；导演为 Bill Hutten、Tony Love，制作公司包含 Murakami Wolf Swenson，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/42245/season/1 (api_snapshot): 已读取第1季全部两页集表，连续包含第1—65集；首集为1991-09-16的 The Beginning，末集为1991-12-13的 Thor's Thunder，覆盖完整动画系列。\n\nhttps://en.wikipedia.org/wiki/James_Bond_Jr. (page): 资料确认该作是讲述邦德侄子及其朋友对抗 S.C.U.M. 的美国电视动画，由 Murakami-Wolf-Swenson 等制作，导演、65集总量及1991年播出起止日期均与 Bangumi 输入和 TMDB 一致。\n\n备注：Bangumi 的65集总话数与52个现有章节不一致；没有证据表明这些章节代表独立52集版本，也不能仅凭编号认定对应 TMDB 前52集。需补齐章节标题或播出日期后再建立逐集规则。",
+    "evidence": "codex: 年份、剧情、电视动画媒介、导演、制作公司和完整播出范围一致，确认对应 TMDB 42245 第1季全季。Bangumi 条目资料明确为65集，但所给章节仅52个且标题、日期全部为空，无法逐集核对，故保留作品与季映射，逐集规则留空。\n\nhttps://www.themoviedb.org/tv/42245 (api_snapshot): TMDB 42245 为1991年电视动画《James Bond Jr.》，首末播日期为1991-09-16至1991-12-13，共1季65集；导演为 Bill Hutten、Tony Love，制作公司包含 Murakami Wolf Swenson，与输入资料一致。\n\nhttps://www.themoviedb.org/tv/42245/season/1 (api_snapshot): 已读取第1季全部两页集表，连续包含第1—65集；首集为1991-09-16的 The Beginning，末集为1991-12-13的 Thor's Thunder，覆盖完整动画系列。\n\nhttps://en.wikipedia.org/wiki/James_Bond_Jr. (page): 资料确认该作是讲述邦德侄子及其朋友对抗 S.C.U.M. 的美国电视动画，由 Murakami-Wolf-Swenson 等制作，导演、65集总量及1991年播出起止日期均与 Bangumi 输入和 TMDB 一致。\n\n备注：Bangumi 的65集总话数与52个现有章节不一致；没有证据表明这些章节代表独立52集版本，也不能仅凭编号认定对应 TMDB 前52集。需补齐章节标题或播出日期后再建立逐集规则。\n\n脚本按声明范围生成逐集规则：65 个本篇章节与声明的 TMDB 范围逐一对应；模型研究已将本条目限定为单一 TMDB 整季，可比对的放送日期不足（0 对），未做日期核验。",
     "method": "codex",
     "source": "https://bgm.tv/subject/648316; https://www.themoviedb.org/tv/42245; https://www.themoviedb.org/tv/42245/season/1; https://en.wikipedia.org/wiki/James_Bond_Jr.",
-    "verifiedAt": "2026-09-23T00:41:54.562Z"
+    "verifiedAt": "2026-11-11T02:05:43.233Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 65,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 42245
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
