@@ -251,17 +251,36 @@
       "id": 227756,
       "sort": 50,
       "type": 0
+    },
+    {
+      "id": 1779140,
+      "sort": 51,
+      "type": 0
+    },
+    {
+      "id": 1779141,
+      "sort": 52,
+      "type": 0
     }
   ],
   "locked": false,
   "overrides": [],
   "provenance": {
-    "evidence": "gpt-6-sol: 作品的播出时间、剧情、制作信息及 52 话规模均对应 TMDB 43276 第 1 季；第 2 季是 Bangumi 另列的续作。第 1 季完整覆盖本 subject。Bangumi 现有章节缺少逐集标题和日期，暂不以编号推断逐集规则。\n\nhttps://bgm.tv/subject/60188 (page): Bangumi 将本条目标为 2004 年 9 月 30 日开播、2005 年 9 月 29 日结束的 TV 动画，标注 52 话；制作信息包括东映动画、原作三条陆和系列监督长峯达也。\n\nhttps://bgm.tv/subject/60188/ep (page): Bangumi 章节列表目前只有编号 1 至 50，章节未填写标题和播出日期。\n\nhttps://www.themoviedb.org/tv/43276 (api_snapshot): TMDB 43276 是 2004 年 9 月 30 日首播的东映动画作品《冒険王ビィト》；第 1 季同名且有 52 集，第 2 季为《冒険王ビィト エクセリオン》。\n\nhttps://www.themoviedb.org/tv/43276/season/1 (api_snapshot): 已读取第 1 季完整集表，共 52 集，日期从 2004 年 9 月 30 日至 2005 年 9 月 29 日。\n\nhttps://lineup.toei-anim.co.jp/ja/tv/beet/ (search_snippet): 东映动画官方作品资料将本作列为 TV 动画，播出期为 2004 年 9 月 30 日至 2005 年 9 月 29 日，并列出第 52 话；剧情与 Bangumi 简介中的比特、泽农战士团及五把才牙一致。\n\nhttps://www.tv-tokyo.co.jp/anime/beet/story_40-.html (page): 东京电视台官方集表列出第 40 话于 2005 年 7 月 7 日播出，并连续列出后续话数和日期。\n\n备注：Bangumi 仅录入 50 条空白章节，与其标注的 52 话及官方、TMDB 的 52 集不符；第 51、52 话尚无 Bangumi 章节可映射。；现有 Bangumi 章节缺少可供逐集比对的标题和播出日期，因此未建立第 1 至 50 话的对应规则。",
+    "evidence": "gpt-6-sol: 作品的播出时间、剧情、制作信息及 52 话规模均对应 TMDB 43276 第 1 季；第 2 季是 Bangumi 另列的续作。第 1 季完整覆盖本 subject。Bangumi 现有章节缺少逐集标题和日期，暂不以编号推断逐集规则。\n\nhttps://bgm.tv/subject/60188 (page): Bangumi 将本条目标为 2004 年 9 月 30 日开播、2005 年 9 月 29 日结束的 TV 动画，标注 52 话；制作信息包括东映动画、原作三条陆和系列监督长峯达也。\n\nhttps://bgm.tv/subject/60188/ep (page): Bangumi 章节列表目前只有编号 1 至 50，章节未填写标题和播出日期。\n\nhttps://www.themoviedb.org/tv/43276 (api_snapshot): TMDB 43276 是 2004 年 9 月 30 日首播的东映动画作品《冒険王ビィト》；第 1 季同名且有 52 集，第 2 季为《冒険王ビィト エクセリオン》。\n\nhttps://www.themoviedb.org/tv/43276/season/1 (api_snapshot): 已读取第 1 季完整集表，共 52 集，日期从 2004 年 9 月 30 日至 2005 年 9 月 29 日。\n\nhttps://lineup.toei-anim.co.jp/ja/tv/beet/ (search_snippet): 东映动画官方作品资料将本作列为 TV 动画，播出期为 2004 年 9 月 30 日至 2005 年 9 月 29 日，并列出第 52 话；剧情与 Bangumi 简介中的比特、泽农战士团及五把才牙一致。\n\nhttps://www.tv-tokyo.co.jp/anime/beet/story_40-.html (page): 东京电视台官方集表列出第 40 话于 2005 年 7 月 7 日播出，并连续列出后续话数和日期。\n\n备注：Bangumi 仅录入 50 条空白章节，与其标注的 52 话及官方、TMDB 的 52 集不符；第 51、52 话尚无 Bangumi 章节可映射。；现有 Bangumi 章节缺少可供逐集比对的标题和播出日期，因此未建立第 1 至 50 话的对应规则。\n\n脚本按放送日期核对生成逐集规则：52 个本篇章节与声明的 TMDB 范围逐一对应，52 对日期全部在 ±1 天内。",
     "method": "codex",
     "source": "https://bgm.tv/subject/60188; https://bgm.tv/subject/60188/ep; https://www.themoviedb.org/tv/43276; https://www.themoviedb.org/tv/43276/season/1; https://lineup.toei-anim.co.jp/ja/tv/beet/; https://www.tv-tokyo.co.jp/anime/beet/story_40-.html",
-    "verifiedAt": "2026-10-10T01:53:18.058Z"
+    "verifiedAt": "2026-11-18T03:51:11.258Z"
   },
-  "rules": [],
+  "rules": [
+    {
+      "bangumiType": 0,
+      "end": 52,
+      "episodeStart": 1,
+      "season": 1,
+      "start": 1,
+      "tmdbId": 43276
+    }
+  ],
   "schemaVersion": 1,
   "targets": [
     {
